@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MagazineShell from '../components/MagazineShell.astro';
+import ArticleGrid from '../components/ArticleGrid.astro';
+import { getCollection } from 'astro:content';
+import { site } from '../config/site';
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout title={site.name} description={site.tagline} breadcrumbs={[{ label: '홈', href: '/' }]}>
+  <MagazineShell>
+    <a
+      href="/play/"
+      class="block border border-[var(--bbfc-border)] rounded-xl p-4 mb-5 hover:border-[var(--bbfc-muted)]"
+    >
+      <p class="text-[14px] font-medium">GOAT 토너먼트 — 당신의 GOAT는 누구?</p>
+      <p class="text-[12px] text-[var(--bbfc-muted)] mt-1">32강 브래킷, 결과에서 역사 깊이 읽기로 연결</p>
+    </a>
+    <ArticleGrid entries={articles} />
+  </MagazineShell>
+</Layout>

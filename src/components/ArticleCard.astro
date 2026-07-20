@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets';
+import { categories } from '../config/categories';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'articles'>;
+}
+
+const { entry } = Astro.props;
+const { title, category, coverImage, gallery } = entry.data;
+const meta = categories[category];
+const href = `/${category}/${entry.id}/`;
+const imageCount = gallery?.length ?? (coverImage ? 1 : 0);
+---
+
+<article class="border border-[var(--bbfc-border)] rounded-xl overflow-hidden">
+  <a href={href} class="block">
+    <div class="aspect-square bg-[var(--bbfc-border)]/40 flex items-center justify-center relative">
+      {coverImage ? (
+        <Image src={coverImage} alt="" width={400} height={400} class="w-full h-full object-cover" />
+      ) : (
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--bbfc-muted)" stroke-width="1.5">
+          <rect x="3" y="3" width="18" height="18" rx="2" />
+          <circle cx="8.5" cy="8.5" r="1.5" />
+          <path d="M21 15l-5-5L5 21" />
+        </svg>
+      )}
+      {imageCount > 1 && (
+        <span class="absolute top-1.5 right-1.5 bg-[var(--bbfc-dark)] text-white text-[10px] px-1.5 py-0.5 rounded-full">
+          1/{imageCount}
+        </span>
+      )}
+    </div>
+    <div class="p-2.5">
+      <span
+        class="text-[10px] px-1.5 py-0.5 rounded"
+        style={`background: var(--nav-${meta.color}, #eee); color: white;`}
+      >
+        {meta.label}
+      </span>
+      <p class="text-[13px] font-medium mt-1.5 leading-snug">{title}</p>
+    </div>
+  </a>
+</article>

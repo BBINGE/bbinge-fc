@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MagazineShell from '../../components/MagazineShell.astro';
+import ArticleGrid from '../../components/ArticleGrid.astro';
+import { getCollection } from 'astro:content';
+import { categories, categoryList, type CategorySlug } from '../../config/categories';
+
+export async function getStaticPaths() {
+  return categoryList.map(({ slug }) => ({ params: { category: slug } }));
+}
+
+const { category } = Astro.params as { category: CategorySlug };
+const meta = categories[category];
+
+const articles = (
+  await getCollection('articles', ({ data }) => !data.draft && data.category === category)
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout
+  title={meta.label}
+  description={`BBinge FC — ${meta.label} 카테고리`}
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: meta.label, href: `/${category}/` },
+  ]}
+>
+  <MagazineShell>
+    <h1 class="text-[18px] font-medium mb-4">{meta.label}</h1>
+    <ArticleGrid entries={articles} />
+  </MagazineShell>
+</Layout>

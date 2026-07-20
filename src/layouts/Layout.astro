@@ -1,0 +1,131 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../config/site';
+
+interface Breadcrumb {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  type?: 'website' | 'article';
+  breadcrumbs?: Breadcrumb[];
+  article?: {
+    pubDate: Date;
+    updatedDate?: Date;
+  };
+}
+
+const {
+  title,
+  description,
+  ogImage = '/og-default.png',
+  type = 'website',
+  breadcrumbs = [{ label: '홈', href: '/' }],
+  article,
+} = Astro.props;
+
+const pageTitle = title === site.name ? title : `${title} — ${site.name}`;
+const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
+const ogImageURL = new URL(ogImage, site.url).toString();
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbs.map((crumb, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: crumb.label,
+    item: new URL(crumb.href, site.url).toString(),
+  })),
+};
+
+const articleSchema = article
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description,
+      image: ogImageURL,
+      datePublished: article.pubDate.toISOString(),
+      dateModified: (article.updatedDate ?? article.pubDate).toISOString(),
+      author: {
+        '@type': 'Person',
+        name: site.author,
+      },
+    }
+  : null;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content={site.locale} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <!-- GA4: 승인 후 이 자리에 gtag.js 스니펫 삽입 -->
+    <!-- AdSense: 심사 승인 후 이 자리에 계정 인증 스니펫 삽입 -->
+
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    {articleSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    )}
+  </head>
+  <body class="bg-[var(--bbfc-bg)] text-[var(--bbfc-text)]">
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bbfc-bg: #ffffff;
+    --bbfc-text: #14171a;
+    --bbfc-muted: #6b7076;
+    --bbfc-border: #e5e7eb;
+    --bbfc-dark: #14171a;
+
+    --nav-coral: #993c1d;
+    --nav-teal: #0f6e56;
+    --nav-purple: #534ab7;
+    --nav-pink: #993556;
+    --nav-blue: #185fa5;
+    --nav-green: #3b6d11;
+    --nav-amber: #854f0b;
+    --nav-gray: #5f5e5a;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bbfc-bg: #0e1012;
+      --bbfc-text: #f2f3f4;
+      --bbfc-muted: #9aa0a6;
+      --bbfc-border: #2a2d31;
+    }
+  }
+</style>

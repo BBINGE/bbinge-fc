@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { site } from '../../config/site';
+---
+
+<Layout
+  title="소개"
+  description={`${site.name} 운영자 소개`}
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: '소개', href: '/about/' },
+  ]}
+>
+  <div class="max-w-[65ch] mx-auto px-4 py-10">
+    <h1 class="text-[20px] font-medium mb-4">소개</h1>
+    <p class="text-[14px] leading-[1.8] text-[var(--bbfc-muted)]">
+      TODO — 운영자({site.author}) 실명 이력, 활동 경력(네이버 인플루언서, 저술 편수 등)을 여기에 직접 채워주세요.
+      이 페이지는 애드센스 심사·E-E-A-T 신호에서 중요하게 쓰여요.
+    </p>
+  </div>
+</Layout>

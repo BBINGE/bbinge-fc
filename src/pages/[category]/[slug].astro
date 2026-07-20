@@ -1,0 +1,75 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MagazineShell from '../../components/MagazineShell.astro';
+import ArticleGrid from '../../components/ArticleGrid.astro';
+import { getCollection, render } from 'astro:content';
+import { categories } from '../../config/categories';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('articles', ({ data }) => !data.draft);
+  return entries.map((entry) => ({
+    params: { category: entry.data.category, slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { title, description, category, pubDate, updatedDate, faq } = entry.data;
+const meta = categories[category];
+const { Content } = await render(entry);
+
+const related = (
+  await getCollection(
+    'articles',
+    ({ data, id }) => !data.draft && data.category === category && id !== entry.id
+  )
+)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const faqSchema = faq && faq.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+} : null;
+---
+
+<Layout
+  title={title}
+  description={description}
+  type="article"
+  article={{ pubDate, updatedDate }}
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: meta.label, href: `/${category}/` },
+    { label: title, href: `/${category}/${entry.id}/` },
+  ]}
+>
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <MagazineShell>
+    <article class="max-w-[65ch]">
+      <span class="text-[11px] px-2 py-0.5 rounded" style={`background: var(--nav-${meta.color}); color: white;`}>
+        {meta.label}
+      </span>
+      <h1 class="text-[22px] font-medium mt-3 mb-2 leading-snug">{title}</h1>
+      <p class="text-[13px] text-[var(--bbfc-muted)] mb-6">
+        {pubDate.toLocaleDateString('ko-KR')}
+      </p>
+      <div class="prose prose-sm max-w-none leading-[1.8]">
+        <Content />
+      </div>
+    </article>
+
+    {related.length > 0 && (
+      <div class="mt-10">
+        <h2 class="text-[15px] font-medium mb-3">{meta.label} 카테고리의 다른 글</h2>
+        <ArticleGrid entries={related} />
+      </div>
+    )}
+  </MagazineShell>
+</Layout>
