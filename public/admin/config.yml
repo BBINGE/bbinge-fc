@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: BBINGE/bbinge-fc-
+  branch: main
+  base_url: https://bbinge-fc.pages.dev
+  auth_endpoint: api/auth
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: articles
+    label: 글
+    label_singular: 글
+    folder: src/content/articles
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    summary: '{{title}} — {{category}}'
+    sortable_fields: [pubDate, title]
+    fields:
+      - { label: 제목, name: title, widget: string }
+      - { label: 설명 (검색결과에 노출), name: description, widget: text }
+      - label: 카테고리
+        name: category
+        widget: select
+        options:
+          - { label: 역사, value: history }
+          - { label: 순례, value: pilgrimage }
+          - { label: 놀이, value: play }
+          - { label: 컬쳐, value: culture }
+      - { label: 태그, name: tags, widget: list, default: [] }
+      - { label: 발행일, name: pubDate, widget: datetime }
+      - { label: 수정일, name: updatedDate, widget: datetime, required: false }
+      - { label: 대표 이미지, name: coverImage, widget: image, required: false }
+      - { label: 갤러리 이미지, name: gallery, widget: list, field: { label: 이미지, name: image, widget: image }, required: false }
+      - label: FAQ (선택)
+        name: faq
+        widget: list
+        required: false
+        fields:
+          - { label: 질문, name: question, widget: string }
+          - { label: 답변, name: answer, widget: text }
+      - { label: 초안 (체크하면 사이트에 안 보임), name: draft, widget: boolean, default: true }
+      - { label: 본문, name: body, widget: markdown }

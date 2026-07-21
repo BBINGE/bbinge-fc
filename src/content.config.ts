@@ -3,7 +3,7 @@ import { glob } from 'astro/loaders';
 
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
-  schema: ({ image }) =>
+  schema: () =>
     z.object({
       title: z.string(),
       description: z.string(),
@@ -11,8 +11,9 @@ const articles = defineCollection({
       tags: z.array(z.string()).default([]),
       pubDate: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
-      coverImage: image().optional(),
-      gallery: z.array(image()).optional(),
+      // CMS가 public/uploads/에 올린 이미지의 경로 문자열 (예: /uploads/xxx.jpg)
+      coverImage: z.string().optional(),
+      gallery: z.array(z.string()).optional(),
       faq: z
         .array(
           z.object({
