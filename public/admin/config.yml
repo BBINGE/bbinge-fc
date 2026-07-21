@@ -3,7 +3,6 @@ backend:
   repo: BBINGE/bbinge-fc-
   branch: main
   base_url: https://bbinge-fc.pages.dev
-  auth_endpoint: api/auth
 
 locale: 'ko'
 

@@ -1,10 +1,18 @@
+function getCookie(request, name) {
+  const cookie = request.headers.get('Cookie') || '';
+  const match = cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
+  return match ? match[1] : null;
+}
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
   const code = url.searchParams.get('code');
+  const state = url.searchParams.get('state');
+  const cookieState = getCookie(request, 'oauth_state');
 
-  if (!code) {
-    return renderResult('error', { message: 'missing code' });
+  if (!code || !state || !cookieState || state !== cookieState) {
+    return renderResult('error', { message: 'invalid state or missing code' });
   }
 
   const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
@@ -44,5 +52,10 @@ function renderResult(status, payload) {
 </body>
 </html>`;
 
-  return new Response(html, { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+  return new Response(html, {
+    headers: {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Set-Cookie': 'oauth_state=; HttpOnly; Secure; SameSite=Lax; Max-Age=0; Path=/',
+    },
+  });
 }
