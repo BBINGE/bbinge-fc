@@ -5,6 +5,8 @@ backend:
   base_url: https://bbinge-fc.pages.dev
   auth_endpoint: api/auth
 
+locale: 'ko'
+
 media_folder: public/uploads
 public_folder: /uploads
 
