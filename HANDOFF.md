@@ -50,7 +50,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 구현됨:
 
 - 사이트 골격: 메인(`/`), 카테고리 목록(`/[category]/`), 글 상세(`/[category]/[slug]/`), GOAT 토너먼트(`/play/`), about, contact, privacy
-- 4개 카테고리 확정: history(역사)·pilgrimage(순례)·play(놀이)·culture(컬쳐) — `src/config/categories.ts` (단, `/play/`는 카테고리 글 목록이 아니라 GOAT 도구 전용 페이지)
+- 4개 카테고리 확정: history(축세·축구로 보는 세계사)·pilgrimage(축행·축구로 가는 세계여행)·play(축겜·축구로 노는 게임)·culture(축디·축구로 보는 OOTD) — `src/config/categories.ts`. URL 슬러그는 영문 유지, 표시명만 한글. `/play/`는 카테고리 글 목록이 아니라 GOAT 도구 전용 페이지
 - 컴포넌트: Header, Footer, GoatBanner, FeaturedSplit, LatestGrid, CategoryArticleList, RelatedList, AdSlot
 - Pretendard 서브셋 폰트, Tailwind, sitemap 통합, robots.txt
 - GA4·AdSense 삽입 자리 주석 처리 (`Layout.astro` 88–89행, `AdSlot.astro`)
@@ -70,7 +70,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
   - 더 이상 쓰이지 않는 `MagazineShell`·`Sidebar`·`CategoryNav`·`ArticleGrid`·`ArticleCard` 컴포넌트 삭제
 - GOAT 32강 토너먼트 (`/play/`) — `GOAT_SPEC.md` §1·§2·§5 구현 완료(2026-07-28). 136명 풀에서 `drawAllocation`(3/7/7/10/5)대로 32명 시드 추첨 → 32강~결승 단판 토너먼트 → 결과 화면(우승 카드·4강 요약·공유 URL). `?seed=`로 동일 대진 재현, localStorage로 새로고침 대비 진행 저장, 공유 링크(`?seed=&w=&f4=`)를 열면 읽기 전용 결과 미리보기 후 같은 대진으로 플레이 가능. 페이지 전용 인라인 스크립트라 다른 페이지 번들에 영향 없음(약 50KB, 예산 200KB 이내). D1 투표 통계(§3)·완주자 게시판(§4)은 이번 범위에서 제외 — 다음 작업 대상.
 - 실제 글 투입: 수페르가 순례 글 본문 채우기부터 시작, 카테고리별 초기 글 라인업 확정
-- about 페이지에 운영자 실명 이력 반영 (E-E-A-T 자산 — 브리프 §4)
+- about 페이지 — 저자 소개·포트폴리오·연락 CTA 골격 완성(2026-07-28). 본문 원고와 문의 이메일 주소는 운영자 투입 대기(자리표시 문구를 교체하면 됨)
 - 도메인 `bbingefc.com` 구매·연결 — astro.config와 `site.ts`에 이미 선반영되어 있어 pages.dev 상태에서는 canonical·sitemap이 미구매 도메인을 가리킨다. 도메인 연결 전 AdSense 심사를 넣으려면 이 값을 pages.dev로 임시 조정할지 결정 필요
 - AdSense 심사 신청 (privacy 페이지·콘텐츠 분량 확보 후), GA4·Search Console 등록
 - 글 페이지와 도구 페이지의 JS 번들 분리 검증 (도구 구현 시점에)

@@ -1,5 +1,6 @@
 export const site = {
-  name: 'BBinge FC',
+  name: '삥이FC',
+  fullName: '삥이FC(풋볼N컬처)_official',
   tagline: '축구의 역사를 놀고, 읽고, 걷는 곳',
   url: 'https://bbingefc.com',
   locale: 'ko-KR',
