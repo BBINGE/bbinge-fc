@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import MagazineShell from '../../components/MagazineShell.astro';
-import ArticleGrid from '../../components/ArticleGrid.astro';
+import RelatedList from '../../components/RelatedList.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import { getCollection, render } from 'astro:content';
 import { categories } from '../../config/categories';
 
@@ -17,6 +17,9 @@ const { entry } = Astro.props;
 const { title, description, category, pubDate, updatedDate, faq } = entry.data;
 const meta = categories[category];
 const { Content } = await render(entry);
+
+// 한국어 본문 기준 분당 약 500자 읽기 속도로 추정
+const readingMinutes = Math.max(1, Math.round((entry.body?.length ?? 0) / 500));
 
 const related = (
   await getCollection(
@@ -51,23 +54,76 @@ const faqSchema = faq && faq.length > 0 ? {
 >
   {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
-  <MagazineShell>
-    <article class="max-w-[65ch]">
+  <div class="max-w-[680px] mx-auto px-4 md:px-5 py-6">
+    <article>
       <span class="text-[11px] text-[var(--bbfc-blue)]">{meta.label}</span>
       <h1 class="text-[24px] font-medium mt-2 mb-2 leading-snug text-[var(--bbfc-ink)]">{title}</h1>
       <p class="text-[13px] text-[var(--bbfc-gray-2)] mb-6">
-        {pubDate.toLocaleDateString('ko-KR')}
+        {pubDate.toLocaleDateString('ko-KR')} · {readingMinutes}분 읽기
       </p>
-      <div class="prose prose-sm max-w-none leading-[1.8]">
+      <div class="article-body text-[16px] leading-[1.7] text-[var(--bbfc-ink)]">
         <Content />
       </div>
     </article>
 
     {related.length > 0 && (
       <div class="mt-10">
-        <h2 class="text-[15px] font-medium mb-3">{meta.label} 카테고리의 다른 글</h2>
-        <ArticleGrid entries={related} />
+        <h2 class="text-[15px] font-medium mb-1 text-[var(--bbfc-ink)]">{meta.label} 카테고리의 다른 글</h2>
+        <RelatedList entries={related} />
       </div>
     )}
-  </MagazineShell>
+
+    <AdSlot />
+  </div>
 </Layout>
+
+<style>
+  .article-body :global(h2) {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: var(--bbfc-ink);
+  }
+  .article-body :global(p) {
+    margin-top: 14px;
+  }
+  .article-body :global(a) {
+    color: var(--bbfc-blue);
+  }
+  .article-body :global(blockquote) {
+    border-left: 3px solid var(--bbfc-blue);
+    padding-left: 14px;
+    margin: 20px 0;
+    color: var(--bbfc-ink-2);
+  }
+  .article-body :global(code) {
+    background: var(--bbfc-fill);
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 0.9em;
+  }
+  .article-body :global(pre) {
+    background: var(--bbfc-fill);
+    border-radius: var(--bbfc-radius);
+    padding: 14px;
+    overflow-x: auto;
+  }
+  .article-body :global(pre code) {
+    background: transparent;
+    padding: 0;
+  }
+  .article-body :global(table) {
+    width: 100%;
+    background: var(--bbfc-fill);
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  .article-body :global(th),
+  .article-body :global(td) {
+    border: 1px solid var(--bbfc-border);
+    padding: 8px 10px;
+    text-align: left;
+  }
+</style>

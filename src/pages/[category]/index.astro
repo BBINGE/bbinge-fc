@@ -1,7 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import MagazineShell from '../../components/MagazineShell.astro';
-import ArticleGrid from '../../components/ArticleGrid.astro';
+import CategoryArticleList from '../../components/CategoryArticleList.astro';
 import { getCollection } from 'astro:content';
 import { categories, categoryList, type CategorySlug } from '../../config/categories';
 
@@ -25,8 +24,11 @@ const articles = (
     { label: meta.label, href: `/${category}/` },
   ]}
 >
-  <MagazineShell>
-    <h1 class="text-[18px] font-medium mb-4">{meta.label}</h1>
-    <ArticleGrid entries={articles} />
-  </MagazineShell>
+  <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
+    <div class="flex items-baseline gap-2 mb-5">
+      <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)]">{meta.label}</h1>
+      <span class="text-[13px] text-[var(--bbfc-gray-2)]">{articles.length}편</span>
+    </div>
+    <CategoryArticleList entries={articles} />
+  </div>
 </Layout>

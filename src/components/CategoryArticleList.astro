@@ -1,0 +1,49 @@
+---
+import AdSlot from './AdSlot.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entries: CollectionEntry<'articles'>[];
+  emptyMessage?: string;
+}
+
+const { entries, emptyMessage = '아직 등록된 글이 없어요.' } = Astro.props;
+
+// AdSlot 위치: 카테고리 목록 중간(5번째 행 뒤). 5건 이하면 목록 끝에 배치.
+const adAfterIndex = entries.length > 5 ? 4 : entries.length - 1;
+---
+
+{entries.length === 0 ? (
+  <p class="text-[13px] text-[var(--bbfc-gray-1)] py-10 text-center">{emptyMessage}</p>
+) : (
+  <div>
+    {entries.map((entry, i) => (
+      <>
+        <a
+          href={`/${entry.data.category}/${entry.id}/`}
+          class="flex gap-4 py-4 border-b border-[var(--bbfc-line)] first:pt-0"
+        >
+          <div class="w-[120px] aspect-[4/3] shrink-0 rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
+            {entry.data.coverImage ? (
+              <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" />
+            ) : (
+              <span class="text-[10px] text-[var(--bbfc-gray-2)]">사진 없음</span>
+            )}
+          </div>
+          <div class="min-w-0 flex-1">
+            <p class="text-[13.5px] md:text-[14px] font-medium text-[var(--bbfc-ink)] leading-snug">
+              {entry.data.title}
+            </p>
+            <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1 leading-relaxed line-clamp-2">
+              {entry.data.description}
+            </p>
+            <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-1.5">
+              {entry.data.pubDate.toLocaleDateString('ko-KR')}
+            </p>
+          </div>
+        </a>
+        {i === adAfterIndex && <AdSlot />}
+      </>
+    ))}
+  </div>
+)}
