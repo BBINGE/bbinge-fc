@@ -69,7 +69,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
   - 카테고리 4색(`CategoryColor`)은 폐기 완료, 라벨 텍스트+블루 하나로 통일
   - 더 이상 쓰이지 않는 `MagazineShell`·`Sidebar`·`CategoryNav`·`ArticleGrid`·`ArticleCard` 컴포넌트 삭제
   - 남은 것: GOAT 32강 도구(`/play/`) 페이지 자체의 디자인 구현
-- GOAT 32강 토너먼트 (`/play/`) — `GOAT_SPEC.md` v1.0 확정. 200명 풀 랜덤 32강 + D1 투표 통계(1단계) + 완주자 게시판(2단계). 선수 200명 명단·별명은 운영자 확정 대기(초안은 Claude가 제공 예정). 구현 순서: 디자인 구현 → 게임(JSON 더미 8명으로 개발) → 명단 투입 → D1 통계
+- GOAT 32강 토너먼트 (`/play/`) — 사양·데이터 준비 완료, 구현만 남음. 선수 풀 136명 운영자 확정본(v0.3)이 `src/data/goat-players.json`에 있음(추첨 배분 포함, 확정 카피 취급). 구현 순서: 게임 UI·로직(`GOAT_SPEC.md` §1·§2·§5) → D1 투표 통계(§3) → 완주자 게시판(§4, 안정화 후)
 - 실제 글 투입: 수페르가 순례 글 본문 채우기부터 시작, 카테고리별 초기 글 라인업 확정
 - about 페이지에 운영자 실명 이력 반영 (E-E-A-T 자산 — 브리프 §4)
 - 도메인 `bbingefc.com` 구매·연결 — astro.config와 `site.ts`에 이미 선반영되어 있어 pages.dev 상태에서는 canonical·sitemap이 미구매 도메인을 가리킨다. 도메인 연결 전 AdSense 심사를 넣으려면 이 값을 pages.dev로 임시 조정할지 결정 필요

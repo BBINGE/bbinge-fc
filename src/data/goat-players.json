@@ -1,0 +1,1951 @@
+{
+  "version": "0.3",
+  "confirmedBy": "운영자",
+  "confirmedAt": "2026-07-28",
+  "drawAllocation": {
+    "pre1950": 3,
+    "1950s60s": 7,
+    "1970s80s": 7,
+    "1990s00s": 10,
+    "2010s": 5
+  },
+  "players": [
+    {
+      "id": "friedenreich",
+      "name": "아르투르 프리덴라이히",
+      "nameOriginal": "Arthur Friedenreich",
+      "nationality": "브라질",
+      "clubs": [
+        "파울리스타노"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "O Tigre",
+      "nicknameKr": "호랑이",
+      "note": "최초의 혼혈 슈퍼스타"
+    },
+    {
+      "id": "andrade",
+      "name": "호세 레안드로 안드라데",
+      "nameOriginal": "José Leandro Andrade",
+      "nationality": "우루과이",
+      "clubs": [
+        "나시오날"
+      ],
+      "position": "MF",
+      "era": "pre1950",
+      "nickname": "La Maravilla Negra",
+      "nicknameKr": "검은 경이",
+      "note": ""
+    },
+    {
+      "id": "zamora",
+      "name": "리카르도 사모라",
+      "nameOriginal": "Ricardo Zamora",
+      "nationality": "스페인",
+      "clubs": [
+        "에스파뇰",
+        "레알 마드리드"
+      ],
+      "position": "GK",
+      "era": "pre1950",
+      "nickname": "El Divino",
+      "nicknameKr": "신성한 자",
+      "note": "사모라상의 그 사모라"
+    },
+    {
+      "id": "meazza",
+      "name": "주세페 메아차",
+      "nameOriginal": "Giuseppe Meazza",
+      "nationality": "이탈리아",
+      "clubs": [
+        "인테르"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "Il Balilla",
+      "nicknameKr": "소년",
+      "note": "산 시로의 정식 명칭"
+    },
+    {
+      "id": "sindelar",
+      "name": "마티아스 신델라르",
+      "nameOriginal": "Matthias Sindelar",
+      "nationality": "오스트리아",
+      "clubs": [
+        "아우스트리아 빈"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "Der Papierene",
+      "nicknameKr": "종이 인간",
+      "note": "분더팀의 심장"
+    },
+    {
+      "id": "leonidas",
+      "name": "레오니다스 다 시우바",
+      "nameOriginal": "Leônidas da Silva",
+      "nationality": "브라질",
+      "clubs": [
+        "플라멩구"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "Diamante Negro",
+      "nicknameKr": "검은 다이아몬드",
+      "note": "바이시클킥의 대중화"
+    },
+    {
+      "id": "matthews",
+      "name": "스탠리 매튜스",
+      "nameOriginal": "Stanley Matthews",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "스토크 시티",
+        "블랙풀"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "The Wizard of the Dribble",
+      "nicknameKr": "드리블의 마법사",
+      "note": "초대 발롱도르"
+    },
+    {
+      "id": "zizinho",
+      "name": "지지뉴",
+      "nameOriginal": "Zizinho",
+      "nationality": "브라질",
+      "clubs": [
+        "플라멩구"
+      ],
+      "position": "MF",
+      "era": "pre1950",
+      "nickname": "Mestre Ziza",
+      "nicknameKr": "지자 선생",
+      "note": "펠레의 우상"
+    },
+    {
+      "id": "mazzola-valentino",
+      "name": "발렌티노 마촐라",
+      "nameOriginal": "Valentino Mazzola",
+      "nationality": "이탈리아",
+      "clubs": [
+        "토리노"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "그란데 토리노의 주장"
+    },
+    {
+      "id": "puskas",
+      "name": "페렌츠 푸스카스",
+      "nameOriginal": "Puskás Ferenc",
+      "nationality": "헝가리",
+      "clubs": [
+        "혼베드",
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Öcsi",
+      "nicknameKr": "꼬마 동생",
+      "note": ""
+    },
+    {
+      "id": "di-stefano",
+      "name": "알프레도 디 스테파노",
+      "nameOriginal": "Alfredo Di Stéfano",
+      "nationality": "아르헨티나·스페인",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "La Saeta Rubia",
+      "nicknameKr": "금발의 화살",
+      "note": ""
+    },
+    {
+      "id": "kocsis",
+      "name": "산도르 코치시",
+      "nameOriginal": "Kocsis Sándor",
+      "nationality": "헝가리",
+      "clubs": [
+        "혼베드",
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Aranyfejű",
+      "nicknameKr": "황금 머리",
+      "note": "헤더의 신"
+    },
+    {
+      "id": "hidegkuti",
+      "name": "난도르 히데구티",
+      "nameOriginal": "Hidegkuti Nándor",
+      "nationality": "헝가리",
+      "clubs": [
+        "MTK"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "폴스 나인의 원조"
+    },
+    {
+      "id": "pele",
+      "name": "펠레",
+      "nameOriginal": "Pelé",
+      "nationality": "브라질",
+      "clubs": [
+        "산투스"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "O Rei",
+      "nicknameKr": "왕",
+      "note": ""
+    },
+    {
+      "id": "garrincha",
+      "name": "가린샤",
+      "nameOriginal": "Garrincha",
+      "nationality": "브라질",
+      "clubs": [
+        "보타포구"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "A Alegria do Povo",
+      "nicknameKr": "민중의 기쁨",
+      "note": "이름 자체가 '굴뚝새'"
+    },
+    {
+      "id": "didi",
+      "name": "지지",
+      "nameOriginal": "Didi",
+      "nationality": "브라질",
+      "clubs": [
+        "보타포구"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "O Príncipe Etíope",
+      "nicknameKr": "에티오피아의 왕자",
+      "note": "폴랴 세카 프리킥"
+    },
+    {
+      "id": "nilton-santos",
+      "name": "니우통 산투스",
+      "nameOriginal": "Nílton Santos",
+      "nationality": "브라질",
+      "clubs": [
+        "보타포구"
+      ],
+      "position": "DF",
+      "era": "1950s60s",
+      "nickname": "A Enciclopédia",
+      "nicknameKr": "백과사전",
+      "note": "공격형 풀백의 원조"
+    },
+    {
+      "id": "yashin",
+      "name": "레프 야신",
+      "nameOriginal": "Lev Yashin",
+      "nationality": "소련",
+      "clubs": [
+        "디나모 모스크바"
+      ],
+      "position": "GK",
+      "era": "1950s60s",
+      "nickname": "Chyorny Pauk",
+      "nicknameKr": "검은 거미",
+      "note": "GK 유일 발롱도르"
+    },
+    {
+      "id": "eusebio",
+      "name": "에우제비우",
+      "nameOriginal": "Eusébio",
+      "nationality": "포르투갈",
+      "clubs": [
+        "벤피카"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Pantera Negra",
+      "nicknameKr": "검은 표범",
+      "note": ""
+    },
+    {
+      "id": "bobby-charlton",
+      "name": "보비 찰턴",
+      "nameOriginal": "Bobby Charlton",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "뮌헨의 생존자, 유럽의 정복자"
+    },
+    {
+      "id": "bobby-moore",
+      "name": "보비 무어",
+      "nameOriginal": "Bobby Moore",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "웨스트햄"
+      ],
+      "position": "DF",
+      "era": "1950s60s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "펠레가 꼽은 최고의 수비수"
+    },
+    {
+      "id": "denis-law",
+      "name": "데니스 로",
+      "nameOriginal": "Denis Law",
+      "nationality": "스코틀랜드",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "The Lawman",
+      "nicknameKr": "로우맨",
+      "note": ""
+    },
+    {
+      "id": "george-best",
+      "name": "조지 베스트",
+      "nameOriginal": "George Best",
+      "nationality": "북아일랜드",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "El Beatle",
+      "nicknameKr": "다섯 번째 비틀",
+      "note": ""
+    },
+    {
+      "id": "kopa",
+      "name": "레몽 코파",
+      "nameOriginal": "Raymond Kopa",
+      "nationality": "프랑스",
+      "clubs": [
+        "스타드 랭스",
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Le Napoléon du football",
+      "nicknameKr": "축구의 나폴레옹",
+      "note": ""
+    },
+    {
+      "id": "fontaine",
+      "name": "쥐스트 퐁텐",
+      "nameOriginal": "Just Fontaine",
+      "nationality": "프랑스",
+      "clubs": [
+        "스타드 랭스"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "단일 월드컵 13골"
+    },
+    {
+      "id": "gento",
+      "name": "프란시스코 헨토",
+      "nameOriginal": "Francisco Gento",
+      "nationality": "스페인",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "La Galerna del Cantábrico",
+      "nicknameKr": "칸타브리아의 돌풍",
+      "note": "유러피언컵 6회"
+    },
+    {
+      "id": "luis-suarez-m",
+      "name": "루이스 수아레스 미라몬테스",
+      "nameOriginal": "Luis Suárez Miramontes",
+      "nationality": "스페인",
+      "clubs": [
+        "바르셀로나",
+        "인테르"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "El Arquitecto",
+      "nicknameKr": "건축가",
+      "note": ""
+    },
+    {
+      "id": "sivori",
+      "name": "오마르 시보리",
+      "nameOriginal": "Omar Sívori",
+      "nationality": "아르헨티나·이탈리아",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "El Cabezón",
+      "nicknameKr": "큰머리",
+      "note": "고집쟁이"
+    },
+    {
+      "id": "schiaffino",
+      "name": "후안 알베르토 스키아피노",
+      "nameOriginal": "Juan Alberto Schiaffino",
+      "nationality": "우루과이",
+      "clubs": [
+        "페냐롤",
+        "AC 밀란"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "Pepe",
+      "nicknameKr": "페페",
+      "note": ""
+    },
+    {
+      "id": "varela",
+      "name": "옵둘리오 바렐라",
+      "nameOriginal": "Obdulio Varela",
+      "nationality": "우루과이",
+      "clubs": [
+        "페냐롤"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "El Negro Jefe",
+      "nicknameKr": "검은 대장",
+      "note": "마라카나수의 주역"
+    },
+    {
+      "id": "masopust",
+      "name": "요제프 마소푸스트",
+      "nameOriginal": "Josef Masopust",
+      "nationality": "체코",
+      "clubs": [
+        "두클라 프라하"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "1962 발롱도르"
+    },
+    {
+      "id": "albert",
+      "name": "플로리안 알베르트",
+      "nameOriginal": "Albert Flórián",
+      "nationality": "헝가리",
+      "clubs": [
+        "페렌츠바로시"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "A Császár",
+      "nicknameKr": "황제",
+      "note": "1967 발롱도르"
+    },
+    {
+      "id": "seeler",
+      "name": "우베 젤러",
+      "nameOriginal": "Uwe Seeler",
+      "nationality": "독일",
+      "clubs": [
+        "함부르크"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Uns Uwe",
+      "nicknameKr": "우리의 우베",
+      "note": "원클럽맨"
+    },
+    {
+      "id": "cruyff",
+      "name": "요한 크루이프",
+      "nameOriginal": "Johan Cruyff",
+      "nationality": "네덜란드",
+      "clubs": [
+        "아약스",
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "El Flaco",
+      "nicknameKr": "홀쭉이",
+      "note": ""
+    },
+    {
+      "id": "neeskens",
+      "name": "요한 네스켄스",
+      "nameOriginal": "Johan Neeskens",
+      "nationality": "네덜란드",
+      "clubs": [
+        "아약스",
+        "바르셀로나"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "Johan de Tweede",
+      "nicknameKr": "요한 2세",
+      "note": ""
+    },
+    {
+      "id": "beckenbauer",
+      "name": "프란츠 베켄바워",
+      "nameOriginal": "Franz Beckenbauer",
+      "nationality": "서독",
+      "clubs": [
+        "바이에른 뮌헨"
+      ],
+      "position": "DF",
+      "era": "1970s80s",
+      "nickname": "Der Kaiser",
+      "nicknameKr": "황제",
+      "note": ""
+    },
+    {
+      "id": "gerd-muller",
+      "name": "게르트 뮐러",
+      "nameOriginal": "Gerd Müller",
+      "nationality": "서독",
+      "clubs": [
+        "바이에른 뮌헨"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Der Bomber der Nation",
+      "nicknameKr": "국가의 폭격기",
+      "note": ""
+    },
+    {
+      "id": "rummenigge",
+      "name": "카를하인츠 루메니게",
+      "nameOriginal": "Karl-Heinz Rummenigge",
+      "nationality": "서독",
+      "clubs": [
+        "바이에른 뮌헨"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Kalle",
+      "nicknameKr": "칼레",
+      "note": ""
+    },
+    {
+      "id": "platini",
+      "name": "미셸 플라티니",
+      "nameOriginal": "Michel Platini",
+      "nationality": "프랑스",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "Le Roi",
+      "nicknameKr": "왕",
+      "note": "발롱도르 3연속"
+    },
+    {
+      "id": "zico",
+      "name": "지쿠",
+      "nameOriginal": "Zico",
+      "nationality": "브라질",
+      "clubs": [
+        "플라멩구"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "O Galinho de Quintino",
+      "nicknameKr": "킨치누의 작은 수탉",
+      "note": "하얀 펠레"
+    },
+    {
+      "id": "socrates",
+      "name": "소크라치스",
+      "nameOriginal": "Sócrates",
+      "nationality": "브라질",
+      "clubs": [
+        "코린치안스"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "O Doutor",
+      "nicknameKr": "박사",
+      "note": "실제 의학박사"
+    },
+    {
+      "id": "falcao-paulo",
+      "name": "파우캉",
+      "nameOriginal": "Paulo Roberto Falcão",
+      "nationality": "브라질",
+      "clubs": [
+        "인테르나시오나우",
+        "로마"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "O Rei de Roma",
+      "nicknameKr": "로마의 왕",
+      "note": ""
+    },
+    {
+      "id": "rivellino",
+      "name": "히벨리누",
+      "nameOriginal": "Rivellino",
+      "nationality": "브라질",
+      "clubs": [
+        "코린치안스"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "엘라스티코의 원조"
+    },
+    {
+      "id": "jairzinho",
+      "name": "자이르지뉴",
+      "nameOriginal": "Jairzinho",
+      "nationality": "브라질",
+      "clubs": [
+        "보타포구"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Furacão da Copa",
+      "nicknameKr": "월드컵의 허리케인",
+      "note": "1970 전경기 득점"
+    },
+    {
+      "id": "carlos-alberto",
+      "name": "카를루스 아우베르투",
+      "nameOriginal": "Carlos Alberto Torres",
+      "nationality": "브라질",
+      "clubs": [
+        "산투스"
+      ],
+      "position": "DF",
+      "era": "1970s80s",
+      "nickname": "O Capitão do Tri",
+      "nicknameKr": "3회 우승의 주장",
+      "note": ""
+    },
+    {
+      "id": "maradona",
+      "name": "디에고 마라도나",
+      "nameOriginal": "Diego Maradona",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "나폴리"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "El Pibe de Oro",
+      "nicknameKr": "황금 소년",
+      "note": ""
+    },
+    {
+      "id": "passarella",
+      "name": "다니엘 파사레야",
+      "nameOriginal": "Daniel Passarella",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "리버 플레이트"
+      ],
+      "position": "DF",
+      "era": "1970s80s",
+      "nickname": "El Gran Capitán",
+      "nicknameKr": "위대한 주장",
+      "note": ""
+    },
+    {
+      "id": "kempes",
+      "name": "마리오 켐페스",
+      "nameOriginal": "Mario Kempes",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "발렌시아"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "El Matador",
+      "nicknameKr": "마타도르",
+      "note": ""
+    },
+    {
+      "id": "dalglish",
+      "name": "케니 달글리시",
+      "nameOriginal": "Kenny Dalglish",
+      "nationality": "스코틀랜드",
+      "clubs": [
+        "리버풀"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "King Kenny",
+      "nicknameKr": "킹 케니",
+      "note": ""
+    },
+    {
+      "id": "keegan",
+      "name": "케빈 키건",
+      "nameOriginal": "Kevin Keegan",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "리버풀",
+        "함부르크"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Mighty Mouse",
+      "nicknameKr": "마이티 마우스",
+      "note": "발롱도르 2회"
+    },
+    {
+      "id": "lineker",
+      "name": "게리 리네커",
+      "nameOriginal": "Gary Lineker",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "에버턴",
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "경고 0회 커리어"
+    },
+    {
+      "id": "paolo-rossi",
+      "name": "파올로 로시",
+      "nameOriginal": "Paolo Rossi",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Pablito",
+      "nicknameKr": "파블리토",
+      "note": ""
+    },
+    {
+      "id": "zoff",
+      "name": "디노 조프",
+      "nameOriginal": "Dino Zoff",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "GK",
+      "era": "1970s80s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "40세 월드컵 우승 주장"
+    },
+    {
+      "id": "scirea",
+      "name": "가에타노 시레아",
+      "nameOriginal": "Gaetano Scirea",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "DF",
+      "era": "1970s80s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "리베로의 품격"
+    },
+    {
+      "id": "boniek",
+      "name": "즈비그니에프 보니에크",
+      "nameOriginal": "Zbigniew Boniek",
+      "nationality": "폴란드",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Bello di notte",
+      "nicknameKr": "밤의 미남",
+      "note": "아넬리가 붙임"
+    },
+    {
+      "id": "blokhin",
+      "name": "올레흐 블로힌",
+      "nameOriginal": "Oleh Blokhin",
+      "nationality": "소련(우크라이나)",
+      "clubs": [
+        "디나모 키이우"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "1975 발롱도르"
+    },
+    {
+      "id": "hugo-sanchez",
+      "name": "우고 산체스",
+      "nameOriginal": "Hugo Sánchez",
+      "nationality": "멕시코",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Hugol",
+      "nicknameKr": "우골",
+      "note": "시저스킥의 사나이"
+    },
+    {
+      "id": "francescoli",
+      "name": "엔소 프란체스콜리",
+      "nameOriginal": "Enzo Francescoli",
+      "nationality": "우루과이",
+      "clubs": [
+        "리버 플레이트"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "El Príncipe",
+      "nicknameKr": "왕자",
+      "note": "지단의 우상"
+    },
+    {
+      "id": "figueroa",
+      "name": "엘리아스 피게로아",
+      "nameOriginal": "Elías Figueroa",
+      "nationality": "칠레",
+      "clubs": [
+        "인테르나시오나우"
+      ],
+      "position": "DF",
+      "era": "1970s80s",
+      "nickname": "Don Elías",
+      "nicknameKr": "돈 엘리아스",
+      "note": ""
+    },
+    {
+      "id": "cha-bum-kun",
+      "name": "차범근",
+      "nameOriginal": "Bum-kun Cha",
+      "nationality": "대한민국",
+      "clubs": [
+        "프랑크푸르트",
+        "레버쿠젠"
+      ],
+      "position": "FW",
+      "era": "1970s80s",
+      "nickname": "Tscha Bum",
+      "nicknameKr": "차붐",
+      "note": "분데스리가의 갈색 폭격기"
+    },
+    {
+      "id": "laudrup",
+      "name": "미카엘 라우드루프",
+      "nameOriginal": "Michael Laudrup",
+      "nationality": "덴마크",
+      "clubs": [
+        "바르셀로나",
+        "레알 마드리드"
+      ],
+      "position": "MF",
+      "era": "1970s80s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "우아함의 대명사"
+    },
+    {
+      "id": "zidane",
+      "name": "지네딘 지단",
+      "nameOriginal": "Zinédine Zidane",
+      "nationality": "프랑스",
+      "clubs": [
+        "유벤투스",
+        "레알 마드리드"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "Zizou",
+      "nicknameKr": "지주",
+      "note": ""
+    },
+    {
+      "id": "henry",
+      "name": "티에리 앙리",
+      "nameOriginal": "Thierry Henry",
+      "nationality": "프랑스",
+      "clubs": [
+        "아스널"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Titi",
+      "nicknameKr": "티티",
+      "note": "하이버리의 왕"
+    },
+    {
+      "id": "cantona",
+      "name": "에리크 캉토나",
+      "nameOriginal": "Éric Cantona",
+      "nationality": "프랑스",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "The King",
+      "nicknameKr": "킹",
+      "note": ""
+    },
+    {
+      "id": "ronaldo-r9",
+      "name": "호나우두",
+      "nameOriginal": "Ronaldo",
+      "nationality": "브라질",
+      "clubs": [
+        "인테르",
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "O Fenômeno",
+      "nicknameKr": "현상",
+      "note": ""
+    },
+    {
+      "id": "ronaldinho",
+      "name": "호나우지뉴",
+      "nameOriginal": "Ronaldinho",
+      "nationality": "브라질",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Gaúcho",
+      "nicknameKr": "가우슈",
+      "note": "O Bruxo(마법사)"
+    },
+    {
+      "id": "rivaldo",
+      "name": "히바우두",
+      "nameOriginal": "Rivaldo",
+      "nationality": "브라질",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "1999 발롱도르"
+    },
+    {
+      "id": "romario",
+      "name": "호마리우",
+      "nameOriginal": "Romário",
+      "nationality": "브라질",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "O Baixinho",
+      "nicknameKr": "꼬마",
+      "note": ""
+    },
+    {
+      "id": "cafu",
+      "name": "카푸",
+      "nameOriginal": "Cafu",
+      "nationality": "브라질",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "Il Pendolino",
+      "nicknameKr": "특급열차",
+      "note": ""
+    },
+    {
+      "id": "roberto-carlos",
+      "name": "호베르투 카를루스",
+      "nameOriginal": "Roberto Carlos",
+      "nationality": "브라질",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "El Hombre Bala",
+      "nicknameKr": "총알 사나이",
+      "note": ""
+    },
+    {
+      "id": "kaka",
+      "name": "카카",
+      "nameOriginal": "Kaká",
+      "nationality": "브라질",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "2007 발롱도르, 이름 자체가 애칭"
+    },
+    {
+      "id": "maldini",
+      "name": "파올로 말디니",
+      "nameOriginal": "Paolo Maldini",
+      "nationality": "이탈리아",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "Il Capitano",
+      "nicknameKr": "주장",
+      "note": ""
+    },
+    {
+      "id": "baresi",
+      "name": "프랑코 바레시",
+      "nameOriginal": "Franco Baresi",
+      "nationality": "이탈리아",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "Piscinin",
+      "nicknameKr": "꼬마",
+      "note": "밀라노 방언"
+    },
+    {
+      "id": "nesta",
+      "name": "알레산드로 네스타",
+      "nameOriginal": "Alessandro Nesta",
+      "nationality": "이탈리아",
+      "clubs": [
+        "라치오",
+        "AC 밀란"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "수비의 예술"
+    },
+    {
+      "id": "cannavaro",
+      "name": "파비오 칸나바로",
+      "nameOriginal": "Fabio Cannavaro",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스",
+        "레알 마드리드"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "Il Muro di Berlino",
+      "nicknameKr": "베를린 장벽",
+      "note": "2006 발롱도르"
+    },
+    {
+      "id": "buffon",
+      "name": "잔루이지 부폰",
+      "nameOriginal": "Gianluigi Buffon",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "GK",
+      "era": "1990s00s",
+      "nickname": "Gigi",
+      "nicknameKr": "지지",
+      "note": ""
+    },
+    {
+      "id": "totti",
+      "name": "프란체스코 토티",
+      "nameOriginal": "Francesco Totti",
+      "nationality": "이탈리아",
+      "clubs": [
+        "로마"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Er Pupone",
+      "nicknameKr": "큰 아기",
+      "note": "로마 방언"
+    },
+    {
+      "id": "baggio",
+      "name": "로베르토 바조",
+      "nameOriginal": "Roberto Baggio",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스",
+        "AC 밀란"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Il Divin Codino",
+      "nicknameKr": "신성한 꽁지머리",
+      "note": ""
+    },
+    {
+      "id": "batistuta",
+      "name": "가브리엘 바티스투타",
+      "nameOriginal": "Gabriel Batistuta",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "피오렌티나",
+        "로마"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Batigol",
+      "nicknameKr": "바티골",
+      "note": ""
+    },
+    {
+      "id": "riquelme",
+      "name": "후안 로만 리켈메",
+      "nameOriginal": "Juan Román Riquelme",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "보카 주니어스"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "El Último Diez",
+      "nicknameKr": "마지막 10번",
+      "note": ""
+    },
+    {
+      "id": "zanetti",
+      "name": "하비에르 사네티",
+      "nameOriginal": "Javier Zanetti",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "인테르"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "Il Trattore",
+      "nicknameKr": "트랙터",
+      "note": ""
+    },
+    {
+      "id": "raul",
+      "name": "라울 곤살레스",
+      "nameOriginal": "Raúl González",
+      "nationality": "스페인",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "라울이 곧 브랜드"
+    },
+    {
+      "id": "casillas",
+      "name": "이케르 카시야스",
+      "nameOriginal": "Iker Casillas",
+      "nationality": "스페인",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "GK",
+      "era": "1990s00s",
+      "nickname": "San Iker",
+      "nicknameKr": "성(聖) 이케르",
+      "note": ""
+    },
+    {
+      "id": "figo",
+      "name": "루이스 피구",
+      "nameOriginal": "Luís Figo",
+      "nationality": "포르투갈",
+      "clubs": [
+        "바르셀로나",
+        "레알 마드리드"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "세기의 이적"
+    },
+    {
+      "id": "beckham",
+      "name": "데이비드 베컴",
+      "nameOriginal": "David Beckham",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "맨체스터 유나이티드",
+        "레알 마드리드"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "Becks",
+      "nicknameKr": "벡스",
+      "note": ""
+    },
+    {
+      "id": "scholes",
+      "name": "폴 스콜스",
+      "nameOriginal": "Paul Scholes",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "The Ginger Prince",
+      "nicknameKr": "빨간 머리 왕자",
+      "note": ""
+    },
+    {
+      "id": "gerrard",
+      "name": "스티븐 제라드",
+      "nameOriginal": "Steven Gerrard",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "리버풀"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "Stevie G",
+      "nicknameKr": "스티비 지",
+      "note": "이스탄불의 밤"
+    },
+    {
+      "id": "bergkamp",
+      "name": "데니스 베르캄프",
+      "nameOriginal": "Dennis Bergkamp",
+      "nationality": "네덜란드",
+      "clubs": [
+        "아스널"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "The Non-Flying Dutchman",
+      "nicknameKr": "날지 않는 네덜란드인",
+      "note": "비행공포증"
+    },
+    {
+      "id": "gullit",
+      "name": "뤼트 굴리트",
+      "nameOriginal": "Ruud Gullit",
+      "nationality": "네덜란드",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "De Zwarte Tulp",
+      "nicknameKr": "검은 튤립",
+      "note": "1987 발롱도르"
+    },
+    {
+      "id": "van-basten",
+      "name": "마르코 판바스턴",
+      "nameOriginal": "Marco van Basten",
+      "nationality": "네덜란드",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "San Marco",
+      "nicknameKr": "성(聖) 마르코",
+      "note": "발롱도르 3회"
+    },
+    {
+      "id": "matthaus",
+      "name": "로타어 마테우스",
+      "nameOriginal": "Lothar Matthäus",
+      "nationality": "독일",
+      "clubs": [
+        "바이에른 뮌헨",
+        "인테르"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "Loddar",
+      "nicknameKr": "로다",
+      "note": "1990 발롱도르"
+    },
+    {
+      "id": "kahn",
+      "name": "올리버 칸",
+      "nameOriginal": "Oliver Kahn",
+      "nationality": "독일",
+      "clubs": [
+        "바이에른 뮌헨"
+      ],
+      "position": "GK",
+      "era": "1990s00s",
+      "nickname": "Der Titan",
+      "nicknameKr": "타이탄",
+      "note": ""
+    },
+    {
+      "id": "nedved",
+      "name": "파벨 네드베트",
+      "nameOriginal": "Pavel Nedvěd",
+      "nationality": "체코",
+      "clubs": [
+        "라치오",
+        "유벤투스"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "La Furia Ceca",
+      "nicknameKr": "체코의 분노",
+      "note": "2003 발롱도르"
+    },
+    {
+      "id": "shevchenko",
+      "name": "안드리 셰브첸코",
+      "nameOriginal": "Andriy Shevchenko",
+      "nationality": "우크라이나",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Sheva",
+      "nicknameKr": "셰바",
+      "note": "2004 발롱도르"
+    },
+    {
+      "id": "weah",
+      "name": "조지 웨아",
+      "nameOriginal": "George Weah",
+      "nationality": "라이베리아",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "King George",
+      "nicknameKr": "조지 왕",
+      "note": "훗날 진짜 대통령"
+    },
+    {
+      "id": "drogba",
+      "name": "디디에 드로그바",
+      "nameOriginal": "Didier Drogba",
+      "nationality": "코트디부아르",
+      "clubs": [
+        "첼시"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "내전을 멈춘 남자"
+    },
+    {
+      "id": "etoo",
+      "name": "사무엘 에투",
+      "nameOriginal": "Samuel Eto'o",
+      "nationality": "카메룬",
+      "clubs": [
+        "바르셀로나",
+        "인테르"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "트레블 백투백"
+    },
+    {
+      "id": "xavi",
+      "name": "사비 에르난데스",
+      "nameOriginal": "Xavi Hernández",
+      "nationality": "스페인",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "라 마시아의 메트로놈"
+    },
+    {
+      "id": "iniesta",
+      "name": "안드레스 이니에스타",
+      "nameOriginal": "Andrés Iniesta",
+      "nationality": "스페인",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "Don Andrés",
+      "nicknameKr": "돈 안드레스",
+      "note": ""
+    },
+    {
+      "id": "park-ji-sung",
+      "name": "박지성",
+      "nameOriginal": "Ji-sung Park",
+      "nationality": "대한민국",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "Three-Lung Park",
+      "nicknameKr": "산소탱크",
+      "note": ""
+    },
+    {
+      "id": "stoichkov",
+      "name": "흐리스토 스토이치코프",
+      "nameOriginal": "Hristo Stoichkov",
+      "nationality": "불가리아",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "1994 발롱도르"
+    },
+    {
+      "id": "messi",
+      "name": "리오넬 메시",
+      "nameOriginal": "Lionel Messi",
+      "nationality": "아르헨티나",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "La Pulga",
+      "nicknameKr": "벼룩",
+      "note": ""
+    },
+    {
+      "id": "cristiano",
+      "name": "크리스티아누 호날두",
+      "nameOriginal": "Cristiano Ronaldo",
+      "nationality": "포르투갈",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "CR7",
+      "nicknameKr": "CR7",
+      "note": "El Bicho"
+    },
+    {
+      "id": "neymar",
+      "name": "네이마르",
+      "nameOriginal": "Neymar",
+      "nationality": "브라질",
+      "clubs": [
+        "바르셀로나",
+        "PSG"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "Ney",
+      "nicknameKr": "네이",
+      "note": ""
+    },
+    {
+      "id": "mbappe",
+      "name": "킬리안 음바페",
+      "nameOriginal": "Kylian Mbappé",
+      "nationality": "프랑스",
+      "clubs": [
+        "PSG",
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "Donatello",
+      "nicknameKr": "도나텔로",
+      "note": "월드컵 결승 해트트릭"
+    },
+    {
+      "id": "lewandowski",
+      "name": "로베르트 레반도프스키",
+      "nameOriginal": "Robert Lewandowski",
+      "nationality": "폴란드",
+      "clubs": [
+        "바이에른 뮌헨",
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "Lewangoalski",
+      "nicknameKr": "레반골스키",
+      "note": "9분 5골"
+    },
+    {
+      "id": "zlatan",
+      "name": "즐라탄 이브라히모비치",
+      "nameOriginal": "Zlatan Ibrahimović",
+      "nationality": "스웨덴",
+      "clubs": [
+        "AC 밀란",
+        "PSG"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "Ibracadabra",
+      "nicknameKr": "이브라카다브라",
+      "note": ""
+    },
+    {
+      "id": "luis-suarez",
+      "name": "루이스 수아레스",
+      "nameOriginal": "Luis Suárez",
+      "nationality": "우루과이",
+      "clubs": [
+        "리버풀",
+        "바르셀로나"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "El Pistolero",
+      "nicknameKr": "총잡이",
+      "note": ""
+    },
+    {
+      "id": "modric",
+      "name": "루카 모드리치",
+      "nameOriginal": "Luka Modrić",
+      "nationality": "크로아티아",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "MF",
+      "era": "2010s",
+      "nickname": "Lukita",
+      "nicknameKr": "루키타",
+      "note": "2018 발롱도르"
+    },
+    {
+      "id": "kroos",
+      "name": "토니 크로스",
+      "nameOriginal": "Toni Kroos",
+      "nationality": "독일",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "MF",
+      "era": "2010s",
+      "nickname": "Garçom",
+      "nicknameKr": "웨이터",
+      "note": "브라질 팬들이 붙임"
+    },
+    {
+      "id": "sergio-ramos",
+      "name": "세르히오 라모스",
+      "nameOriginal": "Sergio Ramos",
+      "nationality": "스페인",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "DF",
+      "era": "2010s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "93:20"
+    },
+    {
+      "id": "salah",
+      "name": "모하메드 살라",
+      "nameOriginal": "Mohamed Salah",
+      "nationality": "이집트",
+      "clubs": [
+        "리버풀"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "The Egyptian King",
+      "nicknameKr": "이집트의 왕",
+      "note": ""
+    },
+    {
+      "id": "van-dijk",
+      "name": "버질 반다이크",
+      "nameOriginal": "Virgil van Dijk",
+      "nationality": "네덜란드",
+      "clubs": [
+        "리버풀"
+      ],
+      "position": "DF",
+      "era": "2010s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "수비의 재정의"
+    },
+    {
+      "id": "de-bruyne",
+      "name": "케빈 더브라위너",
+      "nameOriginal": "Kevin De Bruyne",
+      "nationality": "벨기에",
+      "clubs": [
+        "맨체스터 시티"
+      ],
+      "position": "MF",
+      "era": "2010s",
+      "nickname": "KDB",
+      "nicknameKr": "KDB",
+      "note": ""
+    },
+    {
+      "id": "neuer",
+      "name": "마누엘 노이어",
+      "nameOriginal": "Manuel Neuer",
+      "nationality": "독일",
+      "clubs": [
+        "바이에른 뮌헨"
+      ],
+      "position": "GK",
+      "era": "2010s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "스위퍼 키퍼의 재정의"
+    },
+    {
+      "id": "thomas-muller",
+      "name": "토마스 뮐러",
+      "nameOriginal": "Thomas Müller",
+      "nationality": "독일",
+      "clubs": [
+        "바이에른 뮌헨"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "Raumdeuter",
+      "nicknameKr": "공간 해석가",
+      "note": "본인이 만든 말"
+    },
+    {
+      "id": "benzema",
+      "name": "카림 벤제마",
+      "nameOriginal": "Karim Benzema",
+      "nationality": "프랑스",
+      "clubs": [
+        "레알 마드리드"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "The Cat",
+      "nicknameKr": "고양이",
+      "note": "2022 발롱도르"
+    },
+    {
+      "id": "pirlo",
+      "name": "안드레아 피를로",
+      "nameOriginal": "Andrea Pirlo",
+      "nationality": "이탈리아",
+      "clubs": [
+        "AC 밀란",
+        "유벤투스"
+      ],
+      "position": "MF",
+      "era": "2010s",
+      "nickname": "L'Architetto",
+      "nicknameKr": "건축가",
+      "note": ""
+    },
+    {
+      "id": "son-heung-min",
+      "name": "손흥민",
+      "nameOriginal": "Heung-min Son",
+      "nationality": "대한민국",
+      "clubs": [
+        "토트넘"
+      ],
+      "position": "FW",
+      "era": "2010s",
+      "nickname": "Sonny",
+      "nicknameKr": "소니",
+      "note": "손세이셔널"
+    },
+    {
+      "id": "kim-min-jae",
+      "name": "김민재",
+      "nameOriginal": "Min-jae Kim",
+      "nationality": "대한민국",
+      "clubs": [
+        "나폴리",
+        "바이에른 뮌헨"
+      ],
+      "position": "DF",
+      "era": "2010s",
+      "nickname": "The Monster",
+      "nicknameKr": "괴물",
+      "note": ""
+    },
+    {
+      "id": "scarone",
+      "name": "엑토르 스카로네",
+      "nameOriginal": "Héctor Scarone",
+      "nationality": "우루과이",
+      "clubs": [
+        "나시오날"
+      ],
+      "position": "FW",
+      "era": "pre1950",
+      "nickname": "El Mago",
+      "nicknameKr": "마법사",
+      "note": ""
+    },
+    {
+      "id": "nasazzi",
+      "name": "호세 나사시",
+      "nameOriginal": "José Nasazzi",
+      "nationality": "우루과이",
+      "clubs": [
+        "벨라 비스타"
+      ],
+      "position": "DF",
+      "era": "pre1950",
+      "nickname": "El Gran Mariscal",
+      "nicknameKr": "위대한 원수",
+      "note": "1930 초대 월드컵 우승 주장"
+    },
+    {
+      "id": "fritz-walter",
+      "name": "프리츠 발터",
+      "nameOriginal": "Fritz Walter",
+      "nationality": "독일",
+      "clubs": [
+        "카이저슬라우테른"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "비 오면 강해서 '프리츠 발터 날씨'"
+    },
+    {
+      "id": "bozsik",
+      "name": "요제프 보지크",
+      "nameOriginal": "Bozsik József",
+      "nationality": "헝가리",
+      "clubs": [
+        "혼베드"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "Cucu",
+      "nicknameKr": "쿠쿠",
+      "note": ""
+    },
+    {
+      "id": "zagallo",
+      "name": "마리우 자갈루",
+      "nameOriginal": "Mário Zagallo",
+      "nationality": "브라질",
+      "clubs": [
+        "플라멩구"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Formiguinha",
+      "nicknameKr": "작은 개미",
+      "note": "감독으로는 '늙은 늑대'"
+    },
+    {
+      "id": "coluna",
+      "name": "마리우 콜루나",
+      "nameOriginal": "Mário Coluna",
+      "nationality": "포르투갈",
+      "clubs": [
+        "벤피카"
+      ],
+      "position": "MF",
+      "era": "1950s60s",
+      "nickname": "O Monstro Sagrado",
+      "nicknameKr": "신성한 괴물",
+      "note": ""
+    },
+    {
+      "id": "greaves",
+      "name": "지미 그리브스",
+      "nameOriginal": "Jimmy Greaves",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "토트넘"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Greavsie",
+      "nicknameKr": "그리브시",
+      "note": ""
+    },
+    {
+      "id": "finney",
+      "name": "톰 피니",
+      "nameOriginal": "Tom Finney",
+      "nationality": "잉글랜드",
+      "clubs": [
+        "프레스턴"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "The Preston Plumber",
+      "nicknameKr": "프레스턴의 배관공",
+      "note": ""
+    },
+    {
+      "id": "john-charles",
+      "name": "존 찰스",
+      "nameOriginal": "John Charles",
+      "nationality": "웨일스",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "FW",
+      "era": "1950s60s",
+      "nickname": "Il Gigante Buono",
+      "nicknameKr": "착한 거인",
+      "note": "퇴장 0회"
+    },
+    {
+      "id": "vogts",
+      "name": "베르티 포크츠",
+      "nameOriginal": "Berti Vogts",
+      "nationality": "서독",
+      "clubs": [
+        "묀헨글라트바흐"
+      ],
+      "position": "DF",
+      "era": "1970s80s",
+      "nickname": "Der Terrier",
+      "nicknameKr": "테리어",
+      "note": ""
+    },
+    {
+      "id": "rijkaard",
+      "name": "프랑크 레이카르트",
+      "nameOriginal": "Frank Rijkaard",
+      "nationality": "네덜란드",
+      "clubs": [
+        "AC 밀란"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "밀란 3대장의 축"
+    },
+    {
+      "id": "giggs",
+      "name": "라이언 긱스",
+      "nameOriginal": "Ryan Giggs",
+      "nationality": "웨일스",
+      "clubs": [
+        "맨체스터 유나이티드"
+      ],
+      "position": "MF",
+      "era": "1990s00s",
+      "nickname": "The Welsh Wizard",
+      "nicknameKr": "웨일스의 마법사",
+      "note": ""
+    },
+    {
+      "id": "thuram",
+      "name": "릴리앙 튀랑",
+      "nameOriginal": "Lilian Thuram",
+      "nationality": "프랑스",
+      "clubs": [
+        "파르마",
+        "유벤투스"
+      ],
+      "position": "DF",
+      "era": "1990s00s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "1998 준결승 인생 두 골"
+    },
+    {
+      "id": "del-piero",
+      "name": "알레산드로 델 피에로",
+      "nameOriginal": "Alessandro Del Piero",
+      "nationality": "이탈리아",
+      "clubs": [
+        "유벤투스"
+      ],
+      "position": "FW",
+      "era": "1990s00s",
+      "nickname": "Pinturicchio",
+      "nicknameKr": "핀투리키오",
+      "note": "화가 이름, 아넬리가 붙임"
+    },
+    {
+      "id": "rodri",
+      "name": "로드리",
+      "nameOriginal": "Rodri",
+      "nationality": "스페인",
+      "clubs": [
+        "맨체스터 시티"
+      ],
+      "position": "MF",
+      "era": "2010s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "2024 발롱도르"
+    },
+    {
+      "id": "dani-alves",
+      "name": "다니 아우베스",
+      "nameOriginal": "Dani Alves",
+      "nationality": "브라질",
+      "clubs": [
+        "바르셀로나"
+      ],
+      "position": "DF",
+      "era": "2010s",
+      "nickname": "",
+      "nicknameKr": "",
+      "note": "역대 최다 우승 커리어"
+    }
+  ]
+}
