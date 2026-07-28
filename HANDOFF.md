@@ -4,7 +4,7 @@
 
 대상: Claude, Codex 및 이후 유지보수 담당자
 
-저장소: https://github.com/BBINGE/bbinge-fc- (공개, 2026-07-27 전환)
+저장소: https://github.com/BBINGE/bbinge-fc (공개, 2026-07-27 전환. 구 주소 `bbinge-fc-`는 자동 리다이렉트됨)
 
 배포 주소: https://bbinge-fc.pages.dev
 
@@ -91,7 +91,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 ## 8. 다른 PC에서 처음 시작
 
 ```powershell
-git clone https://github.com/BBINGE/bbinge-fc-.git bbinge-fc
+git clone https://github.com/BBINGE/bbinge-fc.git bbinge-fc
 cd bbinge-fc
 npm install
 npm run dev

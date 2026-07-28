@@ -6,7 +6,7 @@ Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIE
 
 - BBinge FC (FC = Football Culture) — 축구를 경기가 아니라 문화(역사·공간·유니폼·서사)로 다루는 개인 매거진 사이트.
 - 운영자: 삥이(박성호). 기획·카피·콘텐츠 전부 운영자가 결정하며, 운영자는 개발자가 아니다.
-- 저장소: `https://github.com/BBINGE/bbinge-fc-` (이름 끝 하이픈은 의도적으로 유지 중)
+- 저장소: `https://github.com/BBINGE/bbinge-fc` (구 주소 `bbinge-fc-`는 저장소 이름 변경 후 자동 리다이렉트됨)
 - 배포: `https://bbinge-fc.pages.dev` (Cloudflare Pages, `main` 자동 배포 + 2시간 주기 예약 배포)
 - 목표 도메인: `bbingefc.com` (미구매 — astro.config와 site.ts에 선반영되어 있음)
 - 기술: Astro 정적 빌드 + Tailwind CSS + 마크다운 콘텐츠 컬렉션. 프레임워크·유료 서비스를 임의로 도입하지 않는다.
