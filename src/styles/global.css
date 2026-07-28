@@ -5,6 +5,36 @@
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
+/* BBinge FC 디자인 토큰 — 단일 출처. 색상은 반드시 이 변수만 사용한다. (DESIGN.md 참고) */
+:root {
+  /* 액센트 — 사이트 전체에서 유채색은 이것 하나 */
+  --bbfc-blue: #3182F6;
+  --bbfc-blue-weak: #F2F6FE;   /* 블루 연한 면 (배너·태그 배경) */
+  --bbfc-blue-strong: #1B64DA; /* 호버·눌림 */
+
+  /* 잉크 스케일 */
+  --bbfc-ink: #191F28;         /* 제목·본문 */
+  --bbfc-ink-2: #333D4B;       /* 부제목 */
+  --bbfc-gray-1: #6B7684;      /* 보조 텍스트 */
+  --bbfc-gray-2: #8B95A1;      /* 메타 정보(날짜·읽는시간) */
+  --bbfc-gray-3: #B0B8C1;      /* 비활성 */
+
+  /* 면 스케일 */
+  --bbfc-bg: #FFFFFF;          /* 페이지 바탕 */
+  --bbfc-fill: #F2F4F6;        /* 회색 면(태그·플레이스홀더) */
+  --bbfc-fill-2: #F9FAFB;      /* 아주 옅은 면 */
+  --bbfc-border: #E5E8EB;      /* 굵은 구분선 */
+  --bbfc-line: #F2F4F6;        /* 가는 구분선(리스트) */
+
+  /* 반경·간격 리듬 */
+  --bbfc-radius: 8px;
+  --bbfc-radius-lg: 12px;
+}
+
 body {
   font-family: var(--font-sans);
+  color: var(--bbfc-ink);
+  background: var(--bbfc-bg);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
 }

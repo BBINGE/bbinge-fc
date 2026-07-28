@@ -1,6 +1,6 @@
 # BBinge FC — 공용 인수인계
 
-최종 갱신: 2026-07-27
+최종 갱신: 2026-07-28
 
 대상: Claude, Codex 및 이후 유지보수 담당자
 
@@ -31,7 +31,7 @@ git pull --ff-only origin main
 ## 2. 배포·인프라 구조
 
 - Cloudflare Pages가 `main` push 시 자동 빌드·배포한다.
-- GitHub Actions `scheduled-deploy.yml`이 2시간마다 Cloudflare 배포 훅을 호출한다 (예약 발행 글 반영 목적). 훅 URL은 GitHub Secrets `CLOUDFLARE_DEPLOY_HOOK`에만 있다.
+- GitHub Actions `scheduled-deploy.yml`이 6시간마다 Cloudflare 배포 훅을 호출한다 (예약 발행 글 반영 목적. 월 빌드 한도 관리를 위해 2시간→6시간으로 완화, 2026-07-28). 훅 URL은 GitHub Secrets `CLOUDFLARE_DEPLOY_HOOK`에만 있다.
 - CMS 로그인용 GitHub OAuth는 Cloudflare Pages Functions(`functions/auth.js`, `functions/callback.js`)가 처리한다. `GITHUB_OAUTH_CLIENT_ID`와 시크릿은 Cloudflare 환경변수에만 있다.
 - 비밀값은 어떤 것도 저장소에 없다. 새로 추가하지도 않는다.
 
@@ -41,7 +41,7 @@ git pull --ff-only origin main
 2. "글" 컬렉션에서 작성 (제목, 설명, 카테고리, 태그, 발행일, 초안 여부, 본문 마크다운)
 3. 저장하면 `src/content/articles/{slug}.md`로 GitHub `main`에 직접 커밋된다
 4. push가 곧 발행이다 — Cloudflare가 자동 재빌드하며, `draft: true`인 글은 사이트에 노출되지 않는다
-5. 미래 날짜(`pubDate`) 글은 2시간 주기 예약 배포가 시간이 되면 반영한다
+5. 미래 날짜(`pubDate`) 글은 6시간 주기 예약 배포가 시간이 되면 반영한다
 
 CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI, 구글 검색결과 미리보기 패널 포함). 로컬에서 글을 직접 만들 때도 같은 frontmatter 형식을 따른다.
 
@@ -62,7 +62,8 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 ## 5. 남은 주요 작업
 
-- GOAT 32강 토너먼트 도구 (`/play/`) — 브리프 §5 사양. 후보 JSON 분리, 서사형 카드, 결과→아티클 연결, 공유 URL. 미착수
+- 디자인 구현 — `DESIGN.md` v1.0 확정(토스 계열·고밀도, 2026-07-28). 토큰은 `global.css`에 반영됨. 다음 세션에서 Layout·Header·메인 2단 구성 등 컴포넌트를 명세대로 구현하고 3구간 화면 검증할 것. 카테고리 4색 폐기 포함
+- GOAT 32강 토너먼트 (`/play/`) — `GOAT_SPEC.md` v1.0 확정. 200명 풀 랜덤 32강 + D1 투표 통계(1단계) + 완주자 게시판(2단계). 선수 200명 명단·별명은 운영자 확정 대기(초안은 Claude가 제공 예정). 구현 순서: 디자인 구현 → 게임(JSON 더미 8명으로 개발) → 명단 투입 → D1 통계
 - 실제 글 투입: 수페르가 순례 글 본문 채우기부터 시작, 카테고리별 초기 글 라인업 확정
 - about 페이지에 운영자 실명 이력 반영 (E-E-A-T 자산 — 브리프 §4)
 - 도메인 `bbingefc.com` 구매·연결 — astro.config와 `site.ts`에 이미 선반영되어 있어 pages.dev 상태에서는 canonical·sitemap이 미구매 도메인을 가리킨다. 도메인 연결 전 AdSense 심사를 넣으려면 이 값을 pages.dev로 임시 조정할지 결정 필요
