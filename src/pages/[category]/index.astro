@@ -5,7 +5,8 @@ import { getCollection } from 'astro:content';
 import { categories, categoryList, type CategorySlug } from '../../config/categories';
 
 export async function getStaticPaths() {
-  return categoryList.map(({ slug }) => ({ params: { category: slug } }));
+  // 'play'는 GOAT 토너먼트 전용 페이지(src/pages/play/index.astro)가 대신한다.
+  return categoryList.filter(({ slug }) => slug !== 'play').map(({ slug }) => ({ params: { category: slug } }));
 }
 
 const { category } = Astro.params as { category: CategorySlug };

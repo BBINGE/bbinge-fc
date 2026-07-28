@@ -1,0 +1,362 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import playersFile from '../../data/goat-players.json';
+
+const { players, drawAllocation } = playersFile;
+
+// 선수 id와 슬러그가 같은 '역사' 카테고리 글이 있으면 우승 화면에서 바로 연결한다.
+const historyArticles = await getCollection('articles', ({ data }) => !data.draft && data.category === 'history');
+const articleMap: Record<string, string> = Object.fromEntries(
+  historyArticles
+    .filter((entry) => players.some((p) => p.id === entry.id))
+    .map((entry) => [entry.id, `/history/${entry.id}/`])
+);
+---
+
+<Layout
+  title="GOAT 토너먼트"
+  description="역대 최고의 축구선수를 가리는 32강 토너먼트. 시대별 136명 중 32명을 뽑아 대결시켜 당신의 GOAT를 찾아보세요."
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: '놀이', href: '/play/' },
+  ]}
+>
+  <div class="max-w-[680px] mx-auto px-4 md:px-5 py-6">
+    <header class="mb-5">
+      <p class="text-[11px] text-[var(--bbfc-blue)]">PLAY · 32강</p>
+      <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)] mt-1">당신의 GOAT는 누구인가요?</h1>
+      <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1.5">
+        카드를 눌러 다음 라운드로 진출시키세요. 진행 상황은 자동 저장됩니다.
+      </p>
+    </header>
+
+    <div id="goat-app" data-loading="true">
+      <p class="text-[13px] text-[var(--bbfc-gray-1)] py-10 text-center">불러오는 중…</p>
+    </div>
+  </div>
+</Layout>
+
+<script define:vars={{ players, drawAllocation, articleMap }}>
+  const STORAGE_KEY = 'bbfc-goat-v1';
+  const ROUND_NAME = { 32: '32강', 16: '16강', 8: '8강', 4: '4강', 2: '결승' };
+  const POSITION_KR = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };
+  const ERA_ORDER = ['pre1950', '1950s60s', '1970s80s', '1990s00s', '2010s'];
+
+  const app = document.getElementById('goat-app');
+  const playersById = Object.fromEntries(players.map((p) => [p.id, p]));
+
+  function mulberry32(seedInt) {
+    let a = seedInt >>> 0;
+    return function () {
+      a |= 0;
+      a = (a + 0x6d2b79f5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function hashSeed(seedStr) {
+    let h = 0x811c9dc5;
+    for (let i = 0; i < seedStr.length; i++) {
+      h ^= seedStr.charCodeAt(i);
+      h = Math.imul(h, 0x01000193);
+    }
+    return h >>> 0;
+  }
+
+  function generateSeed() {
+    return Math.floor(Math.random() * 1e9).toString(36);
+  }
+
+  function seededShuffle(arr, rng) {
+    const out = arr.slice();
+    for (let i = out.length - 1; i > 0; i--) {
+      const j = Math.floor(rng() * (i + 1));
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    return out;
+  }
+
+  function buildBracket(seedStr) {
+    const rng = mulberry32(hashSeed(seedStr));
+    const pool = ERA_ORDER.flatMap((era) => {
+      const needed = drawAllocation[era] ?? 0;
+      const eraPlayers = players.filter((p) => p.era === era);
+      return seededShuffle(eraPlayers, rng)
+        .slice(0, Math.min(needed, eraPlayers.length))
+        .map((p) => p.id);
+    });
+    return seededShuffle(pool, rng);
+  }
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function saveState(state) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {
+      // localStorage 접근 불가(시크릿 모드 등)여도 게임은 계속 진행
+    }
+  }
+
+  function newState(seedStr) {
+    const bracket = buildBracket(seedStr);
+    return { seed: seedStr, roundPlayers: bracket, matchIndex: 0, final4: null, winner: null };
+  }
+
+  function pickWinner(state, winnerId) {
+    const size = state.roundPlayers.length;
+    const nextIndex = (state.nextRoundPlayers ??= []);
+    nextIndex.push(winnerId);
+    state.matchIndex += 1;
+
+    if (state.matchIndex * 2 >= size) {
+      const advancing = state.nextRoundPlayers;
+      state.nextRoundPlayers = [];
+      state.matchIndex = 0;
+      state.roundPlayers = advancing;
+
+      if (advancing.length === 4) {
+        state.final4 = advancing.slice();
+      }
+      if (advancing.length === 1) {
+        state.winner = advancing[0];
+      }
+    }
+    return state;
+  }
+
+  function playerCardHTML(player, side) {
+    const nickname = player.nickname
+      ? `${player.nickname}${player.nicknameKr ? ` (${player.nicknameKr})` : ''}`
+      : player.note;
+    const clubs = player.clubs.join(', ');
+    return `
+      <button type="button" class="goat-card w-full text-left border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius-lg)] p-4 transition-colors" data-player-id="${player.id}" data-side="${side}">
+        <p class="text-[15px] font-medium text-[var(--bbfc-ink)]">${player.name}</p>
+        <p class="text-[12px] text-[var(--bbfc-gray-1)] mt-1">${player.nationality} · ${POSITION_KR[player.position] ?? player.position}</p>
+        <p class="text-[12px] text-[var(--bbfc-gray-2)] mt-0.5">${clubs}</p>
+        ${nickname ? `<p class="text-[12.5px] text-[var(--bbfc-ink-2)] mt-2">${nickname}</p>` : ''}
+      </button>
+    `;
+  }
+
+  function renderMatch(state) {
+    const size = state.roundPlayers.length;
+    const a = playersById[state.roundPlayers[state.matchIndex * 2]];
+    const b = playersById[state.roundPlayers[state.matchIndex * 2 + 1]];
+    const totalMatches = size / 2;
+
+    app.innerHTML = `
+      <div class="flex items-center justify-between mb-4">
+        <span class="text-[12px] text-[var(--bbfc-gray-2)]">${ROUND_NAME[size] ?? `${size}강`} · ${state.matchIndex + 1}/${totalMatches}경기</span>
+        <button type="button" id="goat-restart" class="text-[12px] text-[var(--bbfc-gray-1)] underline">다시 시작</button>
+      </div>
+      <div class="grid gap-3">
+        ${playerCardHTML(a, 'a')}
+        <p class="text-center text-[12px] text-[var(--bbfc-gray-2)]">VS</p>
+        ${playerCardHTML(b, 'b')}
+      </div>
+    `;
+
+    app.querySelectorAll('.goat-card').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        app.querySelectorAll('.goat-card').forEach((el) => el.classList.remove('goat-card--selected'));
+        btn.classList.add('goat-card--selected');
+        const winnerId = btn.getAttribute('data-player-id');
+        setTimeout(() => {
+          const nextState = pickWinner(state, winnerId);
+          saveState(nextState);
+          render(nextState);
+        }, 180);
+      });
+    });
+
+    document.getElementById('goat-restart')?.addEventListener('click', () => startNewGame());
+  }
+
+  function renderResult(state) {
+    const winner = playersById[state.winner];
+    const nickname = winner.nickname
+      ? `${winner.nickname}${winner.nicknameKr ? ` (${winner.nicknameKr})` : ''}`
+      : winner.note;
+    const final4 = (state.final4 ?? []).map((id) => playersById[id]);
+    const articleHref = articleMap[winner.id] ?? '/history/';
+
+    app.innerHTML = `
+      <div class="text-center py-6 border-b border-[var(--bbfc-line)]">
+        <p class="text-[11px] text-[var(--bbfc-blue)]">🏆 우승</p>
+        <h2 class="text-[22px] font-medium text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
+        <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
+        ${nickname ? `<p class="text-[13px] text-[var(--bbfc-ink-2)] mt-2">${nickname}</p>` : ''}
+      </div>
+
+      <div class="py-5">
+        <h3 class="text-[14px] font-medium text-[var(--bbfc-ink)] mb-2">내 브래킷 — 4강</h3>
+        <ul>
+          ${final4
+            .map(
+              (p) => `
+            <li class="flex items-center justify-between py-2 border-t border-[var(--bbfc-line)] first:border-t-0 text-[13.5px]">
+              <span class="${p.id === winner.id ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink)]'}">${p.name}</span>
+              ${p.id === winner.id ? '<span class="text-[11px] text-[var(--bbfc-blue)]">우승</span>' : ''}
+            </li>`
+            )
+            .join('')}
+        </ul>
+      </div>
+
+      <div class="flex flex-wrap gap-2 mt-2">
+        <button type="button" id="goat-share" class="bg-[var(--bbfc-blue)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2.5">
+          결과 공유
+        </button>
+        <a href="${articleHref}" class="text-[13px] font-medium text-[var(--bbfc-ink)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-4 py-2.5">
+          이 선수의 역사 깊이 읽기
+        </a>
+        <button type="button" id="goat-restart" class="text-[13px] text-[var(--bbfc-gray-1)] rounded-[var(--bbfc-radius)] px-4 py-2.5">
+          다시 하기
+        </button>
+      </div>
+      <p id="goat-share-msg" class="text-[12px] text-[var(--bbfc-gray-2)] mt-2" hidden>링크가 복사됐어요.</p>
+    `;
+
+    document.getElementById('goat-share')?.addEventListener('click', async () => {
+      const url = buildShareURL(state);
+      const msg = document.getElementById('goat-share-msg');
+      let copied = false;
+      try {
+        await navigator.clipboard.writeText(url);
+        copied = true;
+      } catch {
+        try {
+          window.prompt('아래 링크를 복사하세요', url);
+          copied = true;
+        } catch {
+          // 클립보드·prompt 모두 막힌 환경 — 링크를 화면에 텍스트로 노출
+        }
+      }
+      if (msg) {
+        msg.hidden = false;
+        msg.textContent = copied ? '링크가 복사됐어요.' : url;
+      }
+    });
+    document.getElementById('goat-restart')?.addEventListener('click', () => startNewGame());
+  }
+
+  function renderSharedPreview(seedStr, winnerId, final4Ids) {
+    const winner = playersById[winnerId];
+    const final4 = final4Ids.map((id) => playersById[id]).filter(Boolean);
+    if (!winner) {
+      startNewGame();
+      return;
+    }
+    app.innerHTML = `
+      <div class="text-center py-6 border-b border-[var(--bbfc-line)]">
+        <p class="text-[11px] text-[var(--bbfc-blue)]">공유된 결과</p>
+        <h2 class="text-[22px] font-medium text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
+        <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
+      </div>
+      <div class="py-5">
+        <h3 class="text-[14px] font-medium text-[var(--bbfc-ink)] mb-2">4강</h3>
+        <ul>
+          ${final4
+            .map(
+              (p) => `<li class="py-2 border-t border-[var(--bbfc-line)] first:border-t-0 text-[13.5px] ${p.id === winner.id ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink)]'}">${p.name}</li>`
+            )
+            .join('')}
+        </ul>
+      </div>
+      <button type="button" id="goat-play-same" class="bg-[var(--bbfc-blue)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2.5">
+        나도 이 대진으로 플레이하기
+      </button>
+    `;
+    document.getElementById('goat-play-same')?.addEventListener('click', () => {
+      const state = newState(seedStr);
+      saveState(state);
+      setURL(seedStr);
+      render(state);
+    });
+  }
+
+  function buildShareURL(state) {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.searchParams.set('seed', state.seed);
+    url.searchParams.set('w', state.winner);
+    url.searchParams.set('f4', (state.final4 ?? []).join(','));
+    return url.toString();
+  }
+
+  function setURL(seedStr) {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.searchParams.set('seed', seedStr);
+    window.history.replaceState({}, '', url.toString());
+  }
+
+  function startNewGame() {
+    const seedStr = generateSeed();
+    const state = newState(seedStr);
+    saveState(state);
+    setURL(seedStr);
+    render(state);
+  }
+
+  function render(state) {
+    if (state.winner) {
+      renderResult(state);
+    } else {
+      renderMatch(state);
+    }
+  }
+
+  function init() {
+    const params = new URLSearchParams(window.location.search);
+    const sharedWinner = params.get('w');
+    const sharedSeed = params.get('seed');
+
+    if (sharedWinner && sharedSeed) {
+      const final4Ids = (params.get('f4') ?? '').split(',').filter(Boolean);
+      renderSharedPreview(sharedSeed, sharedWinner, final4Ids);
+      return;
+    }
+
+    const saved = loadState();
+    if (saved && (!sharedSeed || saved.seed === sharedSeed) && saved.roundPlayers?.length) {
+      if (!sharedSeed) setURL(saved.seed);
+      render(saved);
+      return;
+    }
+
+    if (sharedSeed) {
+      const state = newState(sharedSeed);
+      saveState(state);
+      setURL(sharedSeed);
+      render(state);
+      return;
+    }
+
+    startNewGame();
+  }
+
+  init();
+</script>
+
+<style>
+  .goat-card:hover {
+    border-color: var(--bbfc-blue);
+  }
+  .goat-card--selected {
+    border-color: var(--bbfc-blue);
+    background: var(--bbfc-blue-weak);
+  }
+</style>

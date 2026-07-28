@@ -49,12 +49,12 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 구현됨:
 
-- 사이트 골격: 메인(`/`), 카테고리 목록(`/[category]/`), 글 상세(`/[category]/[slug]/`), about, contact, privacy
-- 4개 카테고리 확정: history(역사)·pilgrimage(순례)·play(놀이)·culture(컬쳐) — `src/config/categories.ts`
-- 매거진형 컴포넌트: Header, Footer, CategoryNav, ArticleCard, ArticleGrid, Sidebar, MagazineShell, AdSlot
+- 사이트 골격: 메인(`/`), 카테고리 목록(`/[category]/`), 글 상세(`/[category]/[slug]/`), GOAT 토너먼트(`/play/`), about, contact, privacy
+- 4개 카테고리 확정: history(역사)·pilgrimage(순례)·play(놀이)·culture(컬쳐) — `src/config/categories.ts` (단, `/play/`는 카테고리 글 목록이 아니라 GOAT 도구 전용 페이지)
+- 컴포넌트: Header, Footer, GoatBanner, FeaturedSplit, LatestGrid, CategoryArticleList, RelatedList, AdSlot
 - Pretendard 서브셋 폰트, Tailwind, sitemap 통합, robots.txt
 - GA4·AdSense 삽입 자리 주석 처리 (`Layout.astro` 88–89행, `AdSlot.astro`)
-- Sveltia CMS 관리자 + GitHub OAuth + 2시간 예약 배포
+- Sveltia CMS 관리자 + GitHub OAuth + 6시간 예약 배포
 
 글 현황:
 
@@ -68,8 +68,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
   - 글 상세(`/[category]/[slug]/`): 좌측 사이드바 제거, 본문 680px 중앙, 제목 24px, 메타(날짜·읽는 시간 — 본문 글자 수 기반 추정), 본문 하단 같은 카테고리 최신 글 3건 리스트(`RelatedList.astro`) + AdSlot
   - 카테고리 4색(`CategoryColor`)은 폐기 완료, 라벨 텍스트+블루 하나로 통일
   - 더 이상 쓰이지 않는 `MagazineShell`·`Sidebar`·`CategoryNav`·`ArticleGrid`·`ArticleCard` 컴포넌트 삭제
-  - 남은 것: GOAT 32강 도구(`/play/`) 페이지 자체의 디자인 구현
-- GOAT 32강 토너먼트 (`/play/`) — 사양·데이터 준비 완료, 구현만 남음. 선수 풀 136명 운영자 확정본(v0.3)이 `src/data/goat-players.json`에 있음(추첨 배분 포함, 확정 카피 취급). 구현 순서: 게임 UI·로직(`GOAT_SPEC.md` §1·§2·§5) → D1 투표 통계(§3) → 완주자 게시판(§4, 안정화 후)
+- GOAT 32강 토너먼트 (`/play/`) — `GOAT_SPEC.md` §1·§2·§5 구현 완료(2026-07-28). 136명 풀에서 `drawAllocation`(3/7/7/10/5)대로 32명 시드 추첨 → 32강~결승 단판 토너먼트 → 결과 화면(우승 카드·4강 요약·공유 URL). `?seed=`로 동일 대진 재현, localStorage로 새로고침 대비 진행 저장, 공유 링크(`?seed=&w=&f4=`)를 열면 읽기 전용 결과 미리보기 후 같은 대진으로 플레이 가능. 페이지 전용 인라인 스크립트라 다른 페이지 번들에 영향 없음(약 50KB, 예산 200KB 이내). D1 투표 통계(§3)·완주자 게시판(§4)은 이번 범위에서 제외 — 다음 작업 대상.
 - 실제 글 투입: 수페르가 순례 글 본문 채우기부터 시작, 카테고리별 초기 글 라인업 확정
 - about 페이지에 운영자 실명 이력 반영 (E-E-A-T 자산 — 브리프 §4)
 - 도메인 `bbingefc.com` 구매·연결 — astro.config와 `site.ts`에 이미 선반영되어 있어 pages.dev 상태에서는 canonical·sitemap이 미구매 도메인을 가리킨다. 도메인 연결 전 AdSense 심사를 넣으려면 이 값을 pages.dev로 임시 조정할지 결정 필요
