@@ -1,0 +1,429 @@
+---
+import '../../styles/global.css';
+import { site } from '../../config/site';
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>새 글쓰기 — {site.name} 관리자</title>
+  </head>
+  <body>
+    <div class="min-h-screen bg-[var(--bbfc-bg)]">
+      <header class="sticky top-0 z-30 bg-[var(--bbfc-bg)] border-b border-[var(--bbfc-line)]">
+        <div class="max-w-[900px] mx-auto px-4 md:px-5 h-14 flex items-center justify-between gap-3">
+          <p class="text-[15px] font-medium text-[var(--bbfc-ink)] shrink-0">새 글쓰기</p>
+          <button
+            type="button"
+            disabled
+            title="발행 흐름(마크다운 변환·GitHub 커밋)은 다음 단계에서 연결됩니다"
+            class="bg-[var(--bbfc-gray-3)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2 shrink-0 cursor-not-allowed"
+          >
+            발행 (준비 중)
+          </button>
+        </div>
+      </header>
+
+      <div class="max-w-[900px] mx-auto px-4 md:px-5 py-6">
+        <input
+          id="bbfc-title-input"
+          type="text"
+          placeholder="제목을 입력하세요"
+          class="w-full text-[22px] font-medium text-[var(--bbfc-ink)] placeholder:text-[var(--bbfc-gray-3)] outline-none mb-4 bg-transparent"
+        />
+
+        <div
+          id="bbfc-toolbar"
+          class="flex flex-wrap items-center gap-1 border border-[var(--bbfc-border)] rounded-t-[var(--bbfc-radius)] bg-[var(--bbfc-fill-2)] p-2"
+        >
+          <select id="bbfc-block-select" class="bbfc-tb-select" aria-label="본문 스타일">
+            <option value="paragraph">본문</option>
+            <option value="1">제목1</option>
+            <option value="2">제목2</option>
+            <option value="3">제목3</option>
+          </select>
+
+          <select id="bbfc-font-select" class="bbfc-tb-select" aria-label="폰트">
+            <option value="">프리텐다드</option>
+            <option value="Georgia, 'Nanum Myeongjo', serif">명조체</option>
+            <option value="'Malgun Gothic', sans-serif">고딕체</option>
+          </select>
+
+          <select id="bbfc-size-select" class="bbfc-tb-select" aria-label="글자 크기">
+            <option value="">기본</option>
+            <option value="13px">13</option>
+            <option value="15px">15</option>
+            <option value="18px">18</option>
+            <option value="20px">20</option>
+            <option value="24px">24</option>
+            <option value="32px">32</option>
+          </select>
+
+          <span class="bbfc-tb-sep"></span>
+
+          <button type="button" class="bbfc-tb-btn" data-cmd="bold" title="굵게"><b>B</b></button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="italic" title="기울임"><i>I</i></button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="underline" title="밑줄"><u>U</u></button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="strike" title="취소선"><s>S</s></button>
+
+          <input id="bbfc-color-input" type="color" class="bbfc-tb-color" title="글자색" value="#191f28" />
+          <button type="button" class="bbfc-tb-btn" data-cmd="highlight" title="형광펜">형광펜</button>
+
+          <span class="bbfc-tb-sep"></span>
+
+          <button type="button" class="bbfc-tb-btn" data-cmd="align-left" title="왼쪽 정렬">왼쪽</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="align-center" title="가운데 정렬">가운데</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="align-right" title="오른쪽 정렬">오른쪽</button>
+
+          <span class="bbfc-tb-sep"></span>
+
+          <button type="button" class="bbfc-tb-btn" data-cmd="bulletList" title="글머리 목록">목록</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="orderedList" title="번호 목록">번호</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="subscript" title="아래 첨자">x₂</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="superscript" title="위 첨자">x²</button>
+
+          <span class="bbfc-tb-sep"></span>
+
+          <button type="button" class="bbfc-tb-btn" data-cmd="blockquote" title="인용구">인용</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="hr" title="구분선">구분선</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="table" title="표 삽입">표</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="link" title="링크">링크</button>
+          <button type="button" class="bbfc-tb-btn" data-cmd="image" title="사진 삽입(미리보기)">사진</button>
+        </div>
+
+        <div id="bbfc-editor" class="bbfc-editor-surface"></div>
+
+        <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-2">
+          1단계 에디터 셸입니다. 사진은 지금은 미리보기만 되고 실제 업로드 저장(R2)·유튜브 임베드·발행 연동(GitHub 커밋)은 다음 단계에서 이어집니다.
+        </p>
+      </div>
+    </div>
+
+    <input type="file" id="bbfc-image-input" accept="image/*,.gif" hidden />
+
+    <script>
+      import { Editor } from '@tiptap/core';
+      import { Extension } from '@tiptap/core';
+      import StarterKit from '@tiptap/starter-kit';
+      import Underline from '@tiptap/extension-underline';
+      import { TextStyle } from '@tiptap/extension-text-style';
+      import Color from '@tiptap/extension-color';
+      import Highlight from '@tiptap/extension-highlight';
+      import TextAlign from '@tiptap/extension-text-align';
+      import Subscript from '@tiptap/extension-subscript';
+      import Superscript from '@tiptap/extension-superscript';
+      import Link from '@tiptap/extension-link';
+      import Image from '@tiptap/extension-image';
+      import { Table } from '@tiptap/extension-table';
+      import TableRow from '@tiptap/extension-table-row';
+      import TableHeader from '@tiptap/extension-table-header';
+      import TableCell from '@tiptap/extension-table-cell';
+      import FontFamily from '@tiptap/extension-font-family';
+      import Placeholder from '@tiptap/extension-placeholder';
+
+      // 공식 확장에 없는 글자 크기는 TextStyle 마크에 속성을 얹는 표준 방식으로 구현
+      const FontSize = Extension.create({
+        name: 'fontSize',
+        addOptions() {
+          return { types: ['textStyle'] };
+        },
+        addGlobalAttributes() {
+          return [
+            {
+              types: this.options.types,
+              attributes: {
+                fontSize: {
+                  default: null,
+                  parseHTML: (el) => el.style.fontSize || null,
+                  renderHTML: (attrs) => (attrs.fontSize ? { style: `font-size: ${attrs.fontSize}` } : {}),
+                },
+              },
+            },
+          ];
+        },
+        addCommands() {
+          return {
+            setFontSize:
+              (fontSize) =>
+              ({ chain }) =>
+                chain().setMark('textStyle', { fontSize }).run(),
+            unsetFontSize:
+              () =>
+              ({ chain }) =>
+                chain().setMark('textStyle', { fontSize: null }).run(),
+          };
+        },
+      });
+
+      const editor = new Editor({
+        element: document.getElementById('bbfc-editor'),
+        editorProps: {
+          attributes: { spellcheck: 'true', lang: 'ko', class: 'bbfc-prose' },
+        },
+        extensions: [
+          StarterKit.configure({ code: false, codeBlock: false }),
+          Underline,
+          TextStyle,
+          Color,
+          Highlight,
+          FontFamily,
+          FontSize,
+          TextAlign.configure({ types: ['heading', 'paragraph'] }),
+          Subscript,
+          Superscript,
+          Link.configure({ openOnClick: false, autolink: true }),
+          Image,
+          Table.configure({ resizable: false }),
+          TableRow,
+          TableHeader,
+          TableCell,
+          Placeholder.configure({ placeholder: '축구 이야기를 시작해보세요…' }),
+        ],
+        content: '',
+      });
+
+      const toolbar = document.getElementById('bbfc-toolbar');
+      const blockSelect = document.getElementById('bbfc-block-select');
+      const fontSelect = document.getElementById('bbfc-font-select');
+      const sizeSelect = document.getElementById('bbfc-size-select');
+      const colorInput = document.getElementById('bbfc-color-input');
+      const imageInput = document.getElementById('bbfc-image-input');
+
+      function updateToolbarState() {
+        toolbar.querySelectorAll('[data-cmd]').forEach((btn) => {
+          const cmd = btn.getAttribute('data-cmd');
+          let active = false;
+          if (cmd === 'align-left') active = editor.isActive({ textAlign: 'left' });
+          else if (cmd === 'align-center') active = editor.isActive({ textAlign: 'center' });
+          else if (cmd === 'align-right') active = editor.isActive({ textAlign: 'right' });
+          else if (cmd === 'hr' || cmd === 'table' || cmd === 'image') active = false;
+          else active = editor.isActive(cmd);
+          btn.classList.toggle('is-active', active);
+        });
+
+        if (editor.isActive('heading', { level: 1 })) blockSelect.value = '1';
+        else if (editor.isActive('heading', { level: 2 })) blockSelect.value = '2';
+        else if (editor.isActive('heading', { level: 3 })) blockSelect.value = '3';
+        else blockSelect.value = 'paragraph';
+      }
+
+      editor.on('selectionUpdate', updateToolbarState);
+      editor.on('transaction', updateToolbarState);
+
+      toolbar.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-cmd]');
+        if (!btn) return;
+        const cmd = btn.getAttribute('data-cmd');
+        const chain = editor.chain().focus();
+
+        switch (cmd) {
+          case 'bold':
+            chain.toggleBold().run();
+            break;
+          case 'italic':
+            chain.toggleItalic().run();
+            break;
+          case 'underline':
+            chain.toggleUnderline().run();
+            break;
+          case 'strike':
+            chain.toggleStrike().run();
+            break;
+          case 'highlight':
+            chain.toggleHighlight().run();
+            break;
+          case 'align-left':
+            chain.setTextAlign('left').run();
+            break;
+          case 'align-center':
+            chain.setTextAlign('center').run();
+            break;
+          case 'align-right':
+            chain.setTextAlign('right').run();
+            break;
+          case 'bulletList':
+            chain.toggleBulletList().run();
+            break;
+          case 'orderedList':
+            chain.toggleOrderedList().run();
+            break;
+          case 'subscript':
+            chain.toggleSubscript().run();
+            break;
+          case 'superscript':
+            chain.toggleSuperscript().run();
+            break;
+          case 'blockquote':
+            chain.toggleBlockquote().run();
+            break;
+          case 'hr':
+            chain.setHorizontalRule().run();
+            break;
+          case 'table':
+            chain.insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run();
+            break;
+          case 'link': {
+            const previousUrl = editor.getAttributes('link').href;
+            const url = window.prompt('링크 주소를 입력하세요', previousUrl || 'https://');
+            if (url === null) break;
+            if (url === '') {
+              chain.extendMarkRange('link').unsetLink().run();
+            } else {
+              chain.extendMarkRange('link').setLink({ href: url }).run();
+            }
+            break;
+          }
+          case 'image':
+            imageInput.click();
+            break;
+        }
+      });
+
+      blockSelect.addEventListener('change', () => {
+        const value = blockSelect.value;
+        const chain = editor.chain().focus();
+        if (value === 'paragraph') chain.setParagraph().run();
+        else chain.toggleHeading({ level: Number(value) }).run();
+      });
+
+      fontSelect.addEventListener('change', () => {
+        const value = fontSelect.value;
+        const chain = editor.chain().focus();
+        if (value) chain.setFontFamily(value).run();
+        else chain.unsetFontFamily().run();
+      });
+
+      sizeSelect.addEventListener('change', () => {
+        const value = sizeSelect.value;
+        const chain = editor.chain().focus();
+        if (value) chain.setMark('textStyle', { fontSize: value }).run();
+        else chain.setMark('textStyle', { fontSize: null }).run();
+      });
+
+      colorInput.addEventListener('input', () => {
+        editor.chain().focus().setColor(colorInput.value).run();
+      });
+
+      imageInput.addEventListener('change', () => {
+        const file = imageInput.files?.[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+          editor.chain().focus().setImage({ src: String(reader.result), alt: file.name }).run();
+        };
+        reader.readAsDataURL(file);
+        imageInput.value = '';
+      });
+    </script>
+
+    <style>
+      .bbfc-tb-btn {
+        font-size: 12.5px;
+        padding: 6px 10px;
+        border-radius: var(--bbfc-radius);
+        color: var(--bbfc-ink-2);
+      }
+      .bbfc-tb-btn:hover {
+        background: var(--bbfc-fill);
+      }
+      .bbfc-tb-btn.is-active {
+        background: var(--bbfc-blue-weak);
+        color: var(--bbfc-blue);
+      }
+      .bbfc-tb-select {
+        font-size: 12.5px;
+        color: var(--bbfc-ink-2);
+        background: var(--bbfc-bg);
+        border: 1px solid var(--bbfc-border);
+        border-radius: var(--bbfc-radius);
+        padding: 5px 6px;
+      }
+      .bbfc-tb-color {
+        width: 28px;
+        height: 28px;
+        padding: 2px;
+        border: 1px solid var(--bbfc-border);
+        border-radius: var(--bbfc-radius);
+        background: var(--bbfc-bg);
+      }
+      .bbfc-tb-sep {
+        width: 1px;
+        align-self: stretch;
+        background: var(--bbfc-border);
+        margin: 2px 4px;
+      }
+      .bbfc-editor-surface {
+        border: 1px solid var(--bbfc-border);
+        border-top: none;
+        border-radius: 0 0 var(--bbfc-radius) var(--bbfc-radius);
+        min-height: 420px;
+        padding: 16px;
+      }
+      .bbfc-editor-surface :global(.ProseMirror) {
+        outline: none;
+        font-size: 16px;
+        line-height: 1.7;
+        color: var(--bbfc-ink);
+      }
+      .bbfc-editor-surface :global(.ProseMirror p.is-editor-empty:first-child::before) {
+        content: attr(data-placeholder);
+        float: left;
+        height: 0;
+        color: var(--bbfc-gray-3);
+        pointer-events: none;
+      }
+      .bbfc-editor-surface :global(.ProseMirror h1) {
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 24px;
+      }
+      .bbfc-editor-surface :global(.ProseMirror h2) {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+      }
+      .bbfc-editor-surface :global(.ProseMirror h3) {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 16px;
+      }
+      .bbfc-editor-surface :global(.ProseMirror blockquote) {
+        border-left: 3px solid var(--bbfc-blue);
+        padding-left: 14px;
+        color: var(--bbfc-ink-2);
+        margin: 16px 0;
+      }
+      .bbfc-editor-surface :global(.ProseMirror mark) {
+        background: #fef08a;
+        border-radius: 2px;
+      }
+      .bbfc-editor-surface :global(.ProseMirror img) {
+        max-width: 100%;
+        border-radius: var(--bbfc-radius);
+      }
+      .bbfc-editor-surface :global(.ProseMirror table) {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 16px 0;
+      }
+      .bbfc-editor-surface :global(.ProseMirror td),
+      .bbfc-editor-surface :global(.ProseMirror th) {
+        border: 1px solid var(--bbfc-border);
+        padding: 8px 10px;
+      }
+      .bbfc-editor-surface :global(.ProseMirror th) {
+        background: var(--bbfc-fill);
+        font-weight: 500;
+      }
+      .bbfc-editor-surface :global(.ProseMirror hr) {
+        border: none;
+        border-top: 1px solid var(--bbfc-border);
+        margin: 24px 0;
+      }
+    </style>
+  </body>
+</html>
