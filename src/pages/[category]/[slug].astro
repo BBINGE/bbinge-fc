@@ -53,11 +53,9 @@ const faqSchema = faq && faq.length > 0 ? {
 
   <MagazineShell>
     <article class="max-w-[65ch]">
-      <span class="text-[11px] px-2 py-0.5 rounded" style={`background: var(--nav-${meta.color}); color: white;`}>
-        {meta.label}
-      </span>
-      <h1 class="text-[22px] font-medium mt-3 mb-2 leading-snug">{title}</h1>
-      <p class="text-[13px] text-[var(--bbfc-muted)] mb-6">
+      <span class="text-[11px] text-[var(--bbfc-blue)]">{meta.label}</span>
+      <h1 class="text-[24px] font-medium mt-2 mb-2 leading-snug text-[var(--bbfc-ink)]">{title}</h1>
+      <p class="text-[13px] text-[var(--bbfc-gray-2)] mb-6">
         {pubDate.toLocaleDateString('ko-KR')}
       </p>
       <div class="prose prose-sm max-w-none leading-[1.8]">

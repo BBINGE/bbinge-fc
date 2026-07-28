@@ -8,6 +8,6 @@ const { label = '광고 · 채널 배너 영역' } = Astro.props;
 // AdSense/제휴 배너 승인 전까지는 자리만 표시. 승인 후 이 자리에 실제 스니펫으로 교체.
 ---
 
-<div class="border border-dashed border-[var(--bbfc-border)] rounded-lg p-4 text-center my-4">
-  <p class="text-[12px] text-[var(--bbfc-muted)]">{label}</p>
+<div class="border border-dashed border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] p-4 text-center my-4">
+  <p class="text-[12px] text-[var(--bbfc-gray-1)]">{label}</p>
 </div>

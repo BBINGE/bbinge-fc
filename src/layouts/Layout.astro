@@ -93,7 +93,7 @@ const articleSchema = article
       <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}
   </head>
-  <body class="bg-[var(--bbfc-bg)] text-[var(--bbfc-text)]">
+  <body>
     <Header />
     <main>
       <slot />
@@ -101,31 +101,3 @@ const articleSchema = article
     <Footer />
   </body>
 </html>
-
-<style is:global>
-  :root {
-    --bbfc-bg: #ffffff;
-    --bbfc-text: #14171a;
-    --bbfc-muted: #6b7076;
-    --bbfc-border: #e5e7eb;
-    --bbfc-dark: #14171a;
-
-    --nav-coral: #993c1d;
-    --nav-teal: #0f6e56;
-    --nav-purple: #534ab7;
-    --nav-pink: #993556;
-    --nav-blue: #185fa5;
-    --nav-green: #3b6d11;
-    --nav-amber: #854f0b;
-    --nav-gray: #5f5e5a;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bbfc-bg: #0e1012;
-      --bbfc-text: #f2f3f4;
-      --bbfc-muted: #9aa0a6;
-      --bbfc-border: #2a2d31;
-    }
-  }
-</style>

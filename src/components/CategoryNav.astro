@@ -20,7 +20,7 @@ const tagsByCategory = Object.fromEntries(
 ---
 
 <ul class="space-y-4">
-  {categoryList.map(({ slug, label, color }) => {
+  {categoryList.map(({ slug, label }) => {
     const href = `/${slug}/`;
     const isActive = currentPath.startsWith(href);
     const tags = tagsByCategory[slug];
@@ -28,15 +28,19 @@ const tagsByCategory = Object.fromEntries(
       <li>
         <a
           href={href}
-          class:list={['block text-[13px] font-medium pl-2', isActive ? 'border-l-2' : 'text-[var(--bbfc-text)]']}
-          style={isActive ? `border-color: var(--nav-${color}); color: var(--nav-${color});` : undefined}
+          class:list={[
+            'block text-[13px] font-medium pl-2',
+            isActive
+              ? 'border-l-2 border-[var(--bbfc-blue)] text-[var(--bbfc-blue)]'
+              : 'text-[var(--bbfc-ink-2)]',
+          ]}
         >
           {label}
         </a>
         {tags.length > 0 && (
           <ul class="mt-1.5 space-y-1 pl-3.5">
             {tags.map((tag) => (
-              <li class="text-[12px] text-[var(--bbfc-muted)]">{tag}</li>
+              <li class="text-[12px] text-[var(--bbfc-gray-1)]">{tag}</li>
             ))}
           </ul>
         )}

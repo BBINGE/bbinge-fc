@@ -12,7 +12,7 @@ const { entries, emptyMessage = '아직 등록된 글이 없어요.' } = Astro.p
 ---
 
 {entries.length === 0 ? (
-  <p class="text-[13px] text-[var(--bbfc-muted)] py-10 text-center">{emptyMessage}</p>
+  <p class="text-[13px] text-[var(--bbfc-gray-1)] py-10 text-center">{emptyMessage}</p>
 ) : (
   <>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
