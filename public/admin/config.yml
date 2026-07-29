@@ -10,6 +10,21 @@ media_folder: public/uploads
 public_folder: /uploads
 
 collections:
+  - name: settings
+    label: 설정
+    files:
+      - name: categories
+        label: 카테고리
+        file: src/data/categories.json
+        fields:
+          - label: 카테고리 목록
+            name: categories
+            widget: list
+            summary: '{{fields.label}} ({{fields.slug}})'
+            fields:
+              - { label: 'slug (영문 소문자·숫자·하이픈만, 발행된 글이 있으면 바꾸지 말 것)', name: slug, widget: string, pattern: ['^[a-z0-9-]+$', '영문 소문자, 숫자, 하이픈만 사용'] }
+              - { label: 표시명 (짧게, 메뉴에 노출), name: label, widget: string }
+              - { label: 전체 표시명 (카테고리 페이지 부제), name: fullLabel, widget: string }
   - name: articles
     label: 글
     label_singular: 글
@@ -26,12 +41,12 @@ collections:
       - { label: 설명 (검색결과에 노출), name: description, widget: text }
       - label: 카테고리
         name: category
-        widget: select
-        options:
-          - { label: 역사, value: history }
-          - { label: 순례, value: pilgrimage }
-          - { label: 놀이, value: play }
-          - { label: 컬쳐, value: culture }
+        widget: relation
+        collection: settings
+        file: categories
+        value_field: 'categories.*.slug'
+        search_fields: ['categories.*.label', 'categories.*.slug']
+        display_fields: ['categories.*.label']
       - { label: 태그, name: tags, widget: list, default: [] }
       - { label: 발행일, name: pubDate, widget: datetime }
       - { label: 수정일, name: updatedDate, widget: datetime, required: false }

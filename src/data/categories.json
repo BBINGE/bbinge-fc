@@ -1,0 +1,8 @@
+{
+  "categories": [
+    { "slug": "history", "label": "축세", "fullLabel": "축구로 보는 세계사" },
+    { "slug": "pilgrimage", "label": "축행", "fullLabel": "축구로 가는 세계여행" },
+    { "slug": "play", "label": "축겜", "fullLabel": "축구로 노는 게임" },
+    { "slug": "culture", "label": "축디", "fullLabel": "축구로 보는 OOTD" }
+  ]
+}
