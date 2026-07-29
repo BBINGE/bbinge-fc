@@ -448,8 +448,33 @@ import { categoryList } from '../../config/categories';
         });
       }
 
+      // GitHub Contents API는 기존 파일을 덮어쓸 때 그 파일의 현재 sha를 함께 보내야 한다(없으면 422).
+      // 새 파일이면 404가 나므로 sha 없이 진행한다.
+      async function getFileSha(token, encodedPath) {
+        const res = await fetch(
+          `https://api.github.com/repos/${GITHUB_REPO}/contents/${encodedPath}?ref=${GITHUB_BRANCH}`,
+          {
+            headers: {
+              Authorization: `token ${token}`,
+              Accept: 'application/vnd.github+json',
+            },
+          },
+        );
+        if (res.status === 404) return null;
+        if (!res.ok) {
+          const body = await res.json().catch(() => ({}));
+          throw new Error(body.message || `GitHub 파일 조회에 실패했습니다 (HTTP ${res.status}).`);
+        }
+        const data = await res.json();
+        return data.sha;
+      }
+
       async function commitFile(token, path, base64Content, message) {
         const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+        const sha = await getFileSha(token, encodedPath);
+        const payload = { message, content: base64Content, branch: GITHUB_BRANCH };
+        if (sha) payload.sha = sha;
+
         const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${encodedPath}`, {
           method: 'PUT',
           headers: {
@@ -457,7 +482,7 @@ import { categoryList } from '../../config/categories';
             Accept: 'application/vnd.github+json',
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ message, content: base64Content, branch: GITHUB_BRANCH }),
+          body: JSON.stringify(payload),
         });
         if (!res.ok) {
           const body = await res.json().catch(() => ({}));
