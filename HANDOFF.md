@@ -62,7 +62,19 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 ## 5. 남은 주요 작업
 
-- **[최우선] 블로그 에디터 시스템** — `EDITOR_SPEC.md` v1.1, §6 1단계 구현 완료(2026-07-28): `/admin/write/`에 TipTap(오픈소스 위지윅) 이식. §2 명시 기능(제목/본문 스타일·폰트·글자크기·굵게/기울임/밑줄/취소선·글자색·형광펜·정렬·리스트·위아래첨자·링크·인용구·구분선·표, 맞춤법은 브라우저 네이티브) 전부 활성화, 마이박스·스티커·일정·소스코드·내돈내산·글감은 제외. 마크다운 문법 미노출(순수 HTML로 편집) 확인. 사진은 로컬 미리보기만 가능(실제 R2 저장은 2단계). 페이지 전용 청크로 다른 페이지 번들에 영향 없음, `/admin/`은 sitemap·robots.txt에서 제외. 380px·768px·1280px 검증 완료. **남은 단계**: §6 2~6단계 — R2 이미지 업로드(2), 유튜브 임베드(3), 카테고리 데이터화(4), 자동저장+발행 패널(5), 발행→마크다운 변환→GitHub 커밋 흐름(6). 착수 결정(정적 마크다운 커밋, 기존 GitHub OAuth 재사용)은 §4 참고
+- **[최우선] 블로그 에디터 시스템** — `EDITOR_SPEC.md` v1.1, §6 진행 상황:
+  - 1단계(2026-07-28): `/admin/write/`에 TipTap(오픈소스 위지윅) 이식. §2 명시 기능 전부 활성화, 마크다운 문법 미노출.
+  - 2단계는 R2 대신 **GitHub `public/images/` 직접 커밋 방식**으로 대체 확정(운영자 결정, 2026-07-29). R2 인프라는 도입하지 않음.
+  - 4단계(2026-07-29): 카테고리를 `src/data/categories.json` 데이터 파일로 분리. `content.config.ts`가 이 파일에서 slug 목록을 읽어 zod 스키마를 만듦. Sveltia CMS(`/admin`)에 "설정 → 카테고리" 파일 컬렉션 추가, 글쓰기 화면의 카테고리 필드는 `relation` 위젯으로 이 설정을 참조. 기존 축세·축행·축겜·축디 값 그대로 유지.
+  - 5단계(2026-07-29): `/admin/write/`에 발행 패널 완성.
+    - 카테고리 선택(위 categories.json 기반 select), slug(제목에서 자동 생성 + 직접 수정 가능, 한 번 수정하면 자동 갱신 중단), 설명, 태그(쉼표 구분), 발행일(datetime-local, 예약 발행용), 초안 체크박스.
+    - 자동저장: 입력 변경 시 800ms 디바운스로 `localStorage`(`bbfc-write-autosave-v1`)에 저장, 새로고침 시 복원. "임시 초고 지우고 새로 시작" 버튼으로 초기화.
+    - 로그인: 기존 Sveltia CMS와 동일한 GitHub OAuth 핸드셰이크(`functions/auth.js`/`callback.js`, `window.postMessage` 프로토콜)를 재사용. 팝업으로 로그인 → 토큰을 `localStorage`(`bbfc-gh-token`)에 저장.
+    - 사진 삽입: 파일 선택 즉시 GitHub Contents API로 `public/images/{timestamp-파일명}`에 커밋하고 반환 경로(`/images/...`)를 에디터에 삽입. 미리보기(data URL)는 더 이상 저장 형식으로 쓰지 않음.
+    - 발행: TipTap HTML → `turndown`(+`turndown-plugin-gfm`)으로 마크다운 변환(밑줄·형광펜·위아래첨자·글자색/크기/폰트·정렬은 markdown에 없는 서식이라 Astro가 지원하는 raw HTML로 보존) → frontmatter 조립 → GitHub Contents API로 `src/content/articles/{slug}.md` 커밋. 발행 성공 시 자동저장 초고 삭제.
+    - `public/admin/config.yml`의 `backend.repo`를 개명된 저장소명 `BBINGE/bbinge-fc`로 정정(기존 `bbinge-fc-`는 자동 리다이렉트되지만 새 에디터 코드는 정확한 이름 사용).
+    - **로컬 dev 서버(localhost)에서는 실제 GitHub 로그인·발행이 동작하지 않음** — OAuth 콜백이 배포 도메인 기준이라 실제 검증은 `bbinge-fc.pages.dev`(또는 커스텀 도메인) 배포본에서만 가능. 로컬에서는 폼 로직·자동저장·마크다운 변환 로직만 확인됨.
+  - **남은 단계**: §6 3단계(유튜브 임베드), 6단계(발행 흐름 3구간 실사용 검증 — 실제 배포본에서 로그인→글쓰기→사진 삽입→발행까지 운영자가 직접 1회 확인 필요). 완료되면 §8(Sveltia CMS 정리)로 이어감.
 
 - 디자인 구현 — `DESIGN.md` v1.0 §4의 메인/카테고리 목록/글 상세 3개 페이지 모두 구현 완료, 380/768/1280px 검증 완료(2026-07-28).
   - 메인(`/`): 헤더 → GOAT 배너 → 대표글+리스트 2단 → 최신글 3열 그리드

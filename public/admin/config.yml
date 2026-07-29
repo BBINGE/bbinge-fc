@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: BBINGE/bbinge-fc-
+  repo: BBINGE/bbinge-fc
   branch: main
   base_url: https://bbinge-fc.pages.dev
 

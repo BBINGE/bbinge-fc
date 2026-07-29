@@ -1,6 +1,7 @@
 ---
 import '../../styles/global.css';
 import { site } from '../../config/site';
+import { categoryList } from '../../config/categories';
 ---
 
 <!doctype html>
@@ -17,24 +18,64 @@ import { site } from '../../config/site';
       <header class="sticky top-0 z-30 bg-[var(--bbfc-bg)] border-b border-[var(--bbfc-line)]">
         <div class="max-w-[900px] mx-auto px-4 md:px-5 h-14 flex items-center justify-between gap-3">
           <p class="text-[15px] font-medium text-[var(--bbfc-ink)] shrink-0">새 글쓰기</p>
-          <button
-            type="button"
-            disabled
-            title="발행 흐름(마크다운 변환·GitHub 커밋)은 다음 단계에서 연결됩니다"
-            class="bg-[var(--bbfc-gray-3)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2 shrink-0 cursor-not-allowed"
-          >
-            발행 (준비 중)
-          </button>
+          <div class="flex items-center gap-2 min-w-0">
+            <span id="bbfc-login-state" class="text-[11px] text-[var(--bbfc-gray-2)] whitespace-nowrap"></span>
+            <button
+              type="button"
+              id="bbfc-publish-btn"
+              class="bg-[var(--bbfc-blue)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2 shrink-0"
+            >
+              발행
+            </button>
+          </div>
         </div>
       </header>
 
       <div class="max-w-[900px] mx-auto px-4 md:px-5 py-6">
+        <p id="bbfc-autosave-indicator" class="text-[11px] text-[var(--bbfc-gray-2)] mb-2 min-h-[14px]"></p>
+        <p id="bbfc-status" class="text-[12px] mb-2 min-h-[16px]"></p>
+
         <input
           id="bbfc-title-input"
           type="text"
           placeholder="제목을 입력하세요"
           class="w-full text-[22px] font-medium text-[var(--bbfc-ink)] placeholder:text-[var(--bbfc-gray-3)] outline-none mb-4 bg-transparent"
         />
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+            카테고리
+            <select id="bbfc-category-select" class="bbfc-field">
+              <option value="" disabled selected>카테고리 선택</option>
+              {categoryList.map(({ slug, label }) => <option value={slug}>{label}</option>)}
+            </select>
+          </label>
+
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+            URL slug (영문 소문자·숫자·하이픈, 발행 후 변경 금지)
+            <input id="bbfc-slug-input" type="text" placeholder="예: my-first-post" class="bbfc-field" />
+          </label>
+
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1 sm:col-span-2">
+            설명 (검색결과에 노출)
+            <textarea id="bbfc-description-input" rows="2" class="bbfc-field resize-none"></textarea>
+          </label>
+
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+            태그 (쉼표로 구분)
+            <input id="bbfc-tags-input" type="text" placeholder="예: 이탈리아, 축구 성지순례" class="bbfc-field" />
+          </label>
+
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+            발행일 (예약 발행 시 미래 시각 지정)
+            <input id="bbfc-pubdate-input" type="datetime-local" class="bbfc-field" />
+          </label>
+
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex items-center gap-2 sm:col-span-2">
+            <input id="bbfc-draft-checkbox" type="checkbox" checked />
+            비공개(초안)로 저장 — 체크 해제해야 사이트에 노출됩니다
+          </label>
+        </div>
 
         <div
           id="bbfc-toolbar"
@@ -97,9 +138,14 @@ import { site } from '../../config/site';
 
         <div id="bbfc-editor" class="bbfc-editor-surface"></div>
 
-        <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-2">
-          1단계 에디터 셸입니다. 사진은 지금은 미리보기만 되고 실제 업로드 저장(R2)·유튜브 임베드·발행 연동(GitHub 커밋)은 다음 단계에서 이어집니다.
-        </p>
+        <div class="flex items-center justify-between mt-2">
+          <p class="text-[11px] text-[var(--bbfc-gray-2)]">
+            사진은 선택 즉시 GitHub의 public/images/에 업로드됩니다(첫 사진 업로드 시 GitHub 로그인 창이 뜹니다). 유튜브 임베드는 다음 단계에서 이어집니다.
+          </p>
+          <button type="button" id="bbfc-clear-draft-btn" class="text-[11px] text-[var(--bbfc-gray-2)] underline shrink-0 ml-2">
+            임시 초고 지우고 새로 시작
+          </button>
+        </div>
       </div>
     </div>
 
@@ -124,6 +170,13 @@ import { site } from '../../config/site';
       import TableCell from '@tiptap/extension-table-cell';
       import FontFamily from '@tiptap/extension-font-family';
       import Placeholder from '@tiptap/extension-placeholder';
+      import TurndownService from 'turndown';
+      import { gfm } from 'turndown-plugin-gfm';
+
+      const GITHUB_REPO = 'BBINGE/bbinge-fc';
+      const GITHUB_BRANCH = 'main';
+      const TOKEN_KEY = 'bbfc-gh-token';
+      const AUTOSAVE_KEY = 'bbfc-write-autosave-v1';
 
       // 공식 확장에 없는 글자 크기는 TextStyle 마크에 속성을 얹는 표준 방식으로 구현
       const FontSize = Extension.create({
@@ -308,19 +361,349 @@ import { site } from '../../config/site';
         editor.chain().focus().setColor(colorInput.value).run();
       });
 
-      imageInput.addEventListener('change', () => {
+      imageInput.addEventListener('change', async () => {
         const file = imageInput.files?.[0];
         if (!file) return;
-        const reader = new FileReader();
-        reader.onload = () => {
-          editor.chain().focus().setImage({ src: String(reader.result), alt: file.name }).run();
-        };
-        reader.readAsDataURL(file);
-        imageInput.value = '';
+        try {
+          setStatus('이미지 업로드 중…');
+          const token = await ensureToken();
+          const base64 = await fileToBase64(file);
+          const safeName = `${Date.now()}-${file.name.toLowerCase().replace(/[^a-z0-9.]+/g, '-')}`;
+          const path = `public/images/${safeName}`;
+          await commitFile(token, path, base64, `이미지 추가: ${safeName}`);
+          editor.chain().focus().setImage({ src: `/images/${safeName}`, alt: file.name }).run();
+          setStatus('이미지 업로드 완료');
+        } catch (err) {
+          setStatus(err instanceof Error ? err.message : '이미지 업로드에 실패했습니다.', true);
+        } finally {
+          imageInput.value = '';
+        }
       });
+
+      // ---------- GitHub 로그인 (기존 /admin CMS와 동일한 OAuth 핸드셰이크 재사용) ----------
+
+      function updateLoginState() {
+        const loginState = document.getElementById('bbfc-login-state');
+        loginState.textContent = localStorage.getItem(TOKEN_KEY) ? 'GitHub 로그인됨' : '로그인 필요';
+      }
+
+      function openLoginPopup() {
+        return new Promise((resolve, reject) => {
+          const authUrl = `${window.location.origin}/auth`;
+          const popup = window.open(authUrl, 'bbfc-github-auth', 'width=600,height=700');
+          if (!popup) {
+            reject(new Error('팝업이 차단되었습니다. 브라우저에서 팝업을 허용한 뒤 다시 시도하세요.'));
+            return;
+          }
+          function handleMessage(e) {
+            if (e.origin !== window.location.origin) return;
+            if (e.data === 'authorizing:github') {
+              popup.postMessage('authorizing:github', e.origin);
+              return;
+            }
+            if (typeof e.data === 'string' && e.data.indexOf('authorization:github:') === 0) {
+              window.removeEventListener('message', handleMessage);
+              const match = e.data.match(/^authorization:github:(success|error):([\s\S]+)$/);
+              if (match && match[1] === 'success') {
+                try {
+                  resolve(JSON.parse(match[2]).token);
+                } catch {
+                  reject(new Error('GitHub 로그인 응답을 해석하지 못했습니다.'));
+                }
+              } else {
+                reject(new Error('GitHub 로그인에 실패했습니다.'));
+              }
+            }
+          }
+          window.addEventListener('message', handleMessage);
+        });
+      }
+
+      async function ensureToken() {
+        const existing = localStorage.getItem(TOKEN_KEY);
+        if (existing) return existing;
+        const token = await openLoginPopup();
+        localStorage.setItem(TOKEN_KEY, token);
+        updateLoginState();
+        return token;
+      }
+
+      // ---------- GitHub 커밋 ----------
+
+      function toBase64Utf8(str) {
+        const bytes = new TextEncoder().encode(str);
+        let binary = '';
+        bytes.forEach((b) => {
+          binary += String.fromCharCode(b);
+        });
+        return btoa(binary);
+      }
+
+      function fileToBase64(file) {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => {
+            const result = String(reader.result);
+            resolve(result.slice(result.indexOf(',') + 1));
+          };
+          reader.onerror = () => reject(new Error('파일을 읽지 못했습니다.'));
+          reader.readAsDataURL(file);
+        });
+      }
+
+      async function commitFile(token, path, base64Content, message) {
+        const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+        const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${encodedPath}`, {
+          method: 'PUT',
+          headers: {
+            Authorization: `token ${token}`,
+            Accept: 'application/vnd.github+json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ message, content: base64Content, branch: GITHUB_BRANCH }),
+        });
+        if (!res.ok) {
+          const body = await res.json().catch(() => ({}));
+          throw new Error(body.message || `GitHub 커밋에 실패했습니다 (HTTP ${res.status}).`);
+        }
+        return res.json();
+      }
+
+      // ---------- 마크다운 변환 ----------
+
+      const turndownService = new TurndownService({
+        headingStyle: 'atx',
+        codeBlockStyle: 'fenced',
+        bulletListMarker: '-',
+      });
+      turndownService.use(gfm);
+      // 위지윅 서식(밑줄·형광펜·위/아래첨자·글자색·글자크기·폰트)은 마크다운 기본 문법이 없어
+      // Astro가 지원하는 raw HTML 그대로 보존한다.
+      turndownService.keep(['u', 'mark', 'sub', 'sup', 'span']);
+      turndownService.addRule('alignedBlock', {
+        filter: (node) =>
+          ['P', 'H1', 'H2', 'H3'].includes(node.nodeName) &&
+          /text-align:\s*(center|right)/.test(node.getAttribute('style') || ''),
+        replacement: (_content, node) => `\n\n${node.outerHTML}\n\n`,
+      });
+
+      function htmlToMarkdown(html) {
+        return turndownService.turndown(html).trim();
+      }
+
+      // ---------- frontmatter ----------
+
+      function yamlString(value) {
+        return JSON.stringify(value);
+      }
+
+      function buildFrontmatter({ title, description, category, tags, pubDateIso, draft }) {
+        const lines = ['---'];
+        lines.push(`title: ${yamlString(title)}`);
+        lines.push(`description: ${yamlString(description)}`);
+        lines.push(`category: ${category}`);
+        if (tags.length > 0) {
+          lines.push('tags:');
+          tags.forEach((tag) => lines.push(`  - ${yamlString(tag)}`));
+        } else {
+          lines.push('tags: []');
+        }
+        lines.push(`pubDate: ${yamlString(pubDateIso)}`);
+        lines.push(`draft: ${draft ? 'true' : 'false'}`);
+        lines.push('---');
+        return lines.join('\n');
+      }
+
+      function slugify(title) {
+        const base = title
+          .toLowerCase()
+          .normalize('NFKD')
+          .replace(/[^\x00-\x7f]/g, '')
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '');
+        if (base) return base;
+        const d = new Date();
+        const pad = (n) => String(n).padStart(2, '0');
+        return `post-${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}`;
+      }
+
+      function nowLocalInputValue() {
+        const d = new Date();
+        const pad = (n) => String(n).padStart(2, '0');
+        return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+      }
+
+      // ---------- 폼 엘리먼트 ----------
+
+      const titleInput = document.getElementById('bbfc-title-input');
+      const categorySelect = document.getElementById('bbfc-category-select');
+      const slugInput = document.getElementById('bbfc-slug-input');
+      const descriptionInput = document.getElementById('bbfc-description-input');
+      const tagsInput = document.getElementById('bbfc-tags-input');
+      const pubDateInput = document.getElementById('bbfc-pubdate-input');
+      const draftCheckbox = document.getElementById('bbfc-draft-checkbox');
+      const publishBtn = document.getElementById('bbfc-publish-btn');
+      const clearDraftBtn = document.getElementById('bbfc-clear-draft-btn');
+      const statusEl = document.getElementById('bbfc-status');
+      const autosaveIndicator = document.getElementById('bbfc-autosave-indicator');
+
+      let slugDirty = false;
+
+      function setStatus(message, isError) {
+        statusEl.textContent = message;
+        statusEl.style.color = isError ? '#dc2626' : 'var(--bbfc-gray-2)';
+      }
+
+      // ---------- 자동 저장 (로컬) ----------
+
+      let autosaveTimer;
+
+      function scheduleAutosave() {
+        clearTimeout(autosaveTimer);
+        autosaveTimer = setTimeout(saveDraftToLocal, 800);
+      }
+
+      function saveDraftToLocal() {
+        const data = {
+          title: titleInput.value,
+          slug: slugInput.value,
+          slugDirty,
+          description: descriptionInput.value,
+          category: categorySelect.value,
+          tags: tagsInput.value,
+          pubDate: pubDateInput.value,
+          draft: draftCheckbox.checked,
+          html: editor.getHTML(),
+          savedAt: Date.now(),
+        };
+        localStorage.setItem(AUTOSAVE_KEY, JSON.stringify(data));
+        autosaveIndicator.textContent = `자동 저장됨 · ${new Date(data.savedAt).toLocaleTimeString('ko-KR')}`;
+      }
+
+      function loadDraftFromLocal() {
+        const raw = localStorage.getItem(AUTOSAVE_KEY);
+        if (!raw) return;
+        try {
+          const data = JSON.parse(raw);
+          if (data.title) titleInput.value = data.title;
+          if (data.slug) slugInput.value = data.slug;
+          slugDirty = !!data.slugDirty;
+          if (data.description) descriptionInput.value = data.description;
+          if (data.category) categorySelect.value = data.category;
+          if (data.tags) tagsInput.value = data.tags;
+          if (data.pubDate) pubDateInput.value = data.pubDate;
+          draftCheckbox.checked = data.draft !== false;
+          if (data.html) editor.commands.setContent(data.html);
+          autosaveIndicator.textContent = `임시 저장된 초고를 불러왔습니다 · ${new Date(data.savedAt).toLocaleString('ko-KR')}`;
+        } catch {
+          /* 손상된 초고는 무시 */
+        }
+      }
+
+      function clearDraft() {
+        localStorage.removeItem(AUTOSAVE_KEY);
+        titleInput.value = '';
+        slugInput.value = '';
+        slugDirty = false;
+        descriptionInput.value = '';
+        categorySelect.value = '';
+        tagsInput.value = '';
+        pubDateInput.value = nowLocalInputValue();
+        draftCheckbox.checked = true;
+        editor.commands.setContent('');
+        autosaveIndicator.textContent = '';
+        setStatus('');
+      }
+
+      titleInput.addEventListener('input', () => {
+        if (!slugDirty) slugInput.value = slugify(titleInput.value);
+        scheduleAutosave();
+      });
+      slugInput.addEventListener('input', () => {
+        slugDirty = true;
+        scheduleAutosave();
+      });
+      [descriptionInput, tagsInput, pubDateInput, draftCheckbox, categorySelect].forEach((el) => {
+        el.addEventListener('input', scheduleAutosave);
+        el.addEventListener('change', scheduleAutosave);
+      });
+      editor.on('update', scheduleAutosave);
+
+      clearDraftBtn.addEventListener('click', () => {
+        if (window.confirm('임시 저장된 초고를 지우고 새로 시작할까요?')) clearDraft();
+      });
+
+      // ---------- 발행 ----------
+
+      async function publish() {
+        const title = titleInput.value.trim();
+        const description = descriptionInput.value.trim();
+        const category = categorySelect.value;
+        const slug = (slugInput.value.trim() || slugify(title)).toLowerCase();
+        const tags = tagsInput.value
+          .split(',')
+          .map((t) => t.trim())
+          .filter(Boolean);
+        const draft = draftCheckbox.checked;
+
+        if (!title) throw new Error('제목을 입력하세요.');
+        if (!description) throw new Error('설명을 입력하세요.');
+        if (!category) throw new Error('카테고리를 선택하세요.');
+        if (!/^[a-z0-9-]+$/.test(slug)) throw new Error('slug는 영문 소문자·숫자·하이픈만 사용할 수 있습니다.');
+
+        const pubDateIso = pubDateInput.value ? new Date(pubDateInput.value).toISOString() : new Date().toISOString();
+
+        const token = await ensureToken();
+        const markdownBody = htmlToMarkdown(editor.getHTML());
+        const frontmatter = buildFrontmatter({ title, description, category, tags, pubDateIso, draft });
+        const fileContent = `${frontmatter}\n\n${markdownBody}\n`;
+        const path = `src/content/articles/${slug}.md`;
+
+        await commitFile(token, path, toBase64Utf8(fileContent), `글 발행: ${title}`);
+
+        clearAutosaveOnly();
+        setStatus(`발행 완료: /${category}/${slug}/ (Cloudflare 재빌드 후 사이트에 반영됩니다)`);
+      }
+
+      function clearAutosaveOnly() {
+        localStorage.removeItem(AUTOSAVE_KEY);
+        autosaveIndicator.textContent = '';
+      }
+
+      publishBtn.addEventListener('click', async () => {
+        publishBtn.disabled = true;
+        publishBtn.textContent = '발행 중…';
+        setStatus('발행 중…');
+        try {
+          await publish();
+        } catch (err) {
+          setStatus(err instanceof Error ? err.message : '발행 중 오류가 발생했습니다.', true);
+        } finally {
+          publishBtn.disabled = false;
+          publishBtn.textContent = '발행';
+        }
+      });
+
+      // ---------- 초기화 ----------
+
+      updateLoginState();
+      if (!pubDateInput.value) pubDateInput.value = nowLocalInputValue();
+      loadDraftFromLocal();
     </script>
 
     <style>
+      .bbfc-field {
+        font-size: 13px;
+        color: var(--bbfc-ink);
+        background: var(--bbfc-bg);
+        border: 1px solid var(--bbfc-border);
+        border-radius: var(--bbfc-radius);
+        padding: 8px 10px;
+        outline: none;
+      }
+      .bbfc-field:focus {
+        border-color: var(--bbfc-blue);
+      }
       .bbfc-tb-btn {
         font-size: 12.5px;
         padding: 6px 10px;
