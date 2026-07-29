@@ -140,7 +140,7 @@ import { categoryList } from '../../config/categories';
 
         <div class="flex items-center justify-between mt-2">
           <p class="text-[11px] text-[var(--bbfc-gray-2)]">
-            사진은 선택 즉시 GitHub의 public/images/에 업로드됩니다(첫 사진 업로드 시 GitHub 로그인 창이 뜹니다). 유튜브 임베드는 다음 단계에서 이어집니다.
+            사진은 선택 즉시 GitHub의 public/images/에 업로드됩니다(첫 사진 업로드 시 GitHub 로그인 페이지로 이동하며, 로그인 후 다시 시도하면 됩니다). 유튜브 임베드는 다음 단계에서 이어집니다.
           </p>
           <button type="button" id="bbfc-clear-draft-btn" class="text-[11px] text-[var(--bbfc-gray-2)] underline shrink-0 ml-2">
             임시 초고 지우고 새로 시작
@@ -364,9 +364,10 @@ import { categoryList } from '../../config/categories';
       imageInput.addEventListener('change', async () => {
         const file = imageInput.files?.[0];
         if (!file) return;
+        const token = ensureToken();
+        if (!token) return; // 로그인 페이지로 이동 중
         try {
           setStatus('이미지 업로드 중…');
-          const token = await ensureToken();
           const base64 = await fileToBase64(file);
           const safeName = `${Date.now()}-${file.name.toLowerCase().replace(/[^a-z0-9.]+/g, '-')}`;
           const path = `public/images/${safeName}`;
@@ -380,52 +381,48 @@ import { categoryList } from '../../config/categories';
         }
       });
 
-      // ---------- GitHub 로그인 (기존 /admin CMS와 동일한 OAuth 핸드셰이크 재사용) ----------
+      // ---------- GitHub 로그인 (전체 페이지 리다이렉트, 팝업 미사용) ----------
+      // 팝업(window.open) 기반 로그인이 팝업 차단 환경에서 원천 차단되는 문제가 있어
+      // /auth?flow=write 로 페이지 전체를 이동시키는 방식으로 바꿨다. /admin(Sveltia CMS)의
+      // 기존 팝업+postMessage 로그인은 flow 파라미터가 없는 기본 요청이라 영향받지 않는다
+      // (분기 로직은 functions/auth.js, functions/callback.js 참고).
 
       function updateLoginState() {
         const loginState = document.getElementById('bbfc-login-state');
         loginState.textContent = localStorage.getItem(TOKEN_KEY) ? 'GitHub 로그인됨' : '로그인 필요';
       }
 
-      function openLoginPopup() {
-        return new Promise((resolve, reject) => {
-          const authUrl = `${window.location.origin}/auth`;
-          const popup = window.open(authUrl, 'bbfc-github-auth', 'width=600,height=700');
-          if (!popup) {
-            reject(new Error('팝업이 차단되었습니다. 브라우저에서 팝업을 허용한 뒤 다시 시도하세요.'));
-            return;
-          }
-          function handleMessage(e) {
-            if (e.origin !== window.location.origin) return;
-            if (e.data === 'authorizing:github') {
-              popup.postMessage('authorizing:github', e.origin);
-              return;
-            }
-            if (typeof e.data === 'string' && e.data.indexOf('authorization:github:') === 0) {
-              window.removeEventListener('message', handleMessage);
-              const match = e.data.match(/^authorization:github:(success|error):([\s\S]+)$/);
-              if (match && match[1] === 'success') {
-                try {
-                  resolve(JSON.parse(match[2]).token);
-                } catch {
-                  reject(new Error('GitHub 로그인 응답을 해석하지 못했습니다.'));
-                }
-              } else {
-                reject(new Error('GitHub 로그인에 실패했습니다.'));
-              }
-            }
-          }
-          window.addEventListener('message', handleMessage);
-        });
+      // 콜백이 /admin/write/#gh_token=... 형태로 되돌아오므로, 로드 시 해시를 읽어 토큰을
+      // 저장한 뒤 즉시 해시를 지운다(주소창·히스토리에 토큰이 남지 않도록).
+      function consumeAuthHash() {
+        const hash = window.location.hash;
+        if (!hash) return;
+
+        const tokenMatch = hash.match(/gh_token=([^&]+)/);
+        const errorMatch = hash.match(/gh_auth_error=([^&]+)/);
+
+        if (tokenMatch) {
+          localStorage.setItem(TOKEN_KEY, decodeURIComponent(tokenMatch[1]));
+          updateLoginState();
+          setStatus('GitHub 로그인 완료. 이어서 다시 시도해주세요.');
+        } else if (errorMatch) {
+          setStatus(decodeURIComponent(errorMatch[1]) || 'GitHub 로그인에 실패했습니다.', true);
+        } else {
+          return;
+        }
+
+        history.replaceState(null, '', window.location.pathname + window.location.search);
       }
 
-      async function ensureToken() {
+      // 토큰이 없으면 현재 초고를 저장해두고 로그인 페이지로 이동한다(진행 중이던 함수는 여기서 중단됨).
+      // 로그인 후 자동저장된 초고가 복원되므로, 사용자가 사진/발행을 다시 누르기만 하면 된다.
+      function ensureToken() {
         const existing = localStorage.getItem(TOKEN_KEY);
         if (existing) return existing;
-        const token = await openLoginPopup();
-        localStorage.setItem(TOKEN_KEY, token);
-        updateLoginState();
-        return token;
+        saveDraftToLocal();
+        setStatus('GitHub 로그인이 필요합니다. 로그인 페이지로 이동합니다…');
+        window.location.href = '/auth?flow=write';
+        return null;
       }
 
       // ---------- GitHub 커밋 ----------
@@ -653,7 +650,9 @@ import { categoryList } from '../../config/categories';
 
         const pubDateIso = pubDateInput.value ? new Date(pubDateInput.value).toISOString() : new Date().toISOString();
 
-        const token = await ensureToken();
+        const token = ensureToken();
+        if (!token) return; // 로그인 페이지로 이동 중
+
         const markdownBody = htmlToMarkdown(editor.getHTML());
         const frontmatter = buildFrontmatter({ title, description, category, tags, pubDateIso, draft });
         const fileContent = `${frontmatter}\n\n${markdownBody}\n`;
@@ -686,6 +685,7 @@ import { categoryList } from '../../config/categories';
 
       // ---------- 초기화 ----------
 
+      consumeAuthHash();
       updateLoginState();
       if (!pubDateInput.value) pubDateInput.value = nowLocalInputValue();
       loadDraftFromLocal();
