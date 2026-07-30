@@ -1,0 +1,216 @@
+---
+// 카테고리 트리(무한 depth) + 글 페이지를 함께 처리하는 캐치올 라우트.
+// URL 규칙:
+//  - 카테고리 리스팅: /{조상 slug 체인 전체}/  (예: /history/, 나중에 하위가 생기면 /history/sub-slug/)
+//  - 글 페이지: /{글 자신의 category 값}/{글 slug}/  (카테고리 depth와 무관하게 항상 2세그먼트 고정 — 기존 링크 코드와 호환)
+// 'play'는 GOAT 토너먼트 전용 페이지(src/pages/play/index.astro)가 대신하므로 카테고리 리스팅에서 제외한다.
+import { site } from '../config/site';
+import Layout from '../layouts/Layout.astro';
+import CategoryArticleList from '../components/CategoryArticleList.astro';
+import RelatedList from '../components/RelatedList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { categories, categoryList, getAncestorChain, getChildren } from '../config/categories';
+
+type CategoryProps = { kind: 'category'; categorySlug: string };
+type ArticleProps = { kind: 'article'; entry: CollectionEntry<'articles'> };
+
+export async function getStaticPaths() {
+  const categoryPaths = categoryList
+    .filter(({ slug }) => slug !== 'play')
+    .map(({ slug }) => ({
+      params: { path: getAncestorChain(slug).map((c) => c.slug).join('/') },
+      props: { kind: 'category', categorySlug: slug } satisfies CategoryProps,
+    }));
+
+  const entries = await getCollection('articles', ({ data }) => !data.draft);
+  const articlePaths = entries.map((entry) => ({
+    params: { path: `${entry.data.category}/${entry.id}` },
+    props: { kind: 'article', entry } satisfies ArticleProps,
+  }));
+
+  return [...categoryPaths, ...articlePaths];
+}
+
+const props = Astro.props as CategoryProps | ArticleProps;
+
+let categoryView:
+  | {
+      categorySlug: string;
+      meta: (typeof categories)[string];
+      children: ReturnType<typeof getChildren>;
+      articles: CollectionEntry<'articles'>[];
+    }
+  | null = null;
+
+let articleView:
+  | {
+      entry: CollectionEntry<'articles'>;
+      meta: (typeof categories)[string];
+      Content: Awaited<ReturnType<typeof render>>['Content'];
+      readingMinutes: number;
+      related: CollectionEntry<'articles'>[];
+      faqSchema: object | null;
+    }
+  | null = null;
+
+if (props.kind === 'category') {
+  const { categorySlug } = props;
+  const meta = categories[categorySlug];
+  const children = getChildren(categorySlug);
+  const articles = (
+    await getCollection('articles', ({ data }) => !data.draft && data.category === categorySlug)
+  ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  categoryView = { categorySlug, meta, children, articles };
+} else {
+  const { entry } = props;
+  const { category, faq } = entry.data;
+  const meta = categories[category];
+  const { Content } = await render(entry);
+  const readingMinutes = Math.max(1, Math.round((entry.body?.length ?? 0) / 500));
+  const related = (
+    await getCollection(
+      'articles',
+      ({ data, id }) => !data.draft && data.category === category && id !== entry.id
+    )
+  )
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    .slice(0, 3);
+  const faqSchema =
+    faq && faq.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faq.map((item) => ({
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: { '@type': 'Answer', text: item.answer },
+          })),
+        }
+      : null;
+  articleView = { entry, meta, Content, readingMinutes, related, faqSchema };
+}
+---
+
+{categoryView && (
+  <Layout
+    title={categoryView.meta.label}
+    description={`${categoryView.meta.fullLabel} — ${site.name}`}
+    breadcrumbs={[
+      { label: '홈', href: '/' },
+      { label: categoryView.meta.label, href: `/${categoryView.categorySlug}/` },
+    ]}
+  >
+    <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
+      <div class="flex items-baseline gap-2 mb-5">
+        <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)]">{categoryView.meta.label}</h1>
+        <p class="text-[13px] text-[var(--bbfc-gray-2)] mt-1">{categoryView.meta.fullLabel}</p>
+        <span class="text-[13px] text-[var(--bbfc-gray-2)]">{categoryView.articles.length}편</span>
+      </div>
+
+      {categoryView.children.length > 0 && (
+        <div class="flex flex-wrap gap-2 mb-5">
+          {categoryView.children.map((child) => (
+            <a
+              href={`/${categoryView!.categorySlug}/${child.slug}/`}
+              class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+            >
+              {child.label}
+            </a>
+          ))}
+        </div>
+      )}
+
+      <CategoryArticleList entries={categoryView.articles} />
+    </div>
+  </Layout>
+)}
+
+{articleView && (
+  <Layout
+    title={articleView.entry.data.title}
+    description={articleView.entry.data.description}
+    type="article"
+    article={{ pubDate: articleView.entry.data.pubDate, updatedDate: articleView.entry.data.updatedDate }}
+    breadcrumbs={[
+      { label: '홈', href: '/' },
+      { label: articleView.meta.label, href: `/${articleView.entry.data.category}/` },
+      { label: articleView.entry.data.title, href: `/${articleView.entry.data.category}/${articleView.entry.id}/` },
+    ]}
+  >
+    {articleView.faqSchema && <script type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
+
+    <div class="max-w-[680px] mx-auto px-4 md:px-5 py-6">
+      <article>
+        <span class="text-[11px] text-[var(--bbfc-blue)]">{articleView.meta.label}</span>
+        <h1 class="text-[24px] font-medium mt-2 mb-2 leading-snug text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
+        <p class="text-[13px] text-[var(--bbfc-gray-2)] mb-6">
+          {articleView.entry.data.pubDate.toLocaleDateString('ko-KR')} · {articleView.readingMinutes}분 읽기
+        </p>
+        <div class="article-body text-[16px] leading-[1.7] text-[var(--bbfc-ink)]">
+          <articleView.Content />
+        </div>
+      </article>
+
+      {articleView.related.length > 0 && (
+        <div class="mt-10">
+          <h2 class="text-[15px] font-medium mb-1 text-[var(--bbfc-ink)]">{articleView.meta.label} 카테고리의 다른 글</h2>
+          <RelatedList entries={articleView.related} />
+        </div>
+      )}
+
+      <AdSlot />
+    </div>
+  </Layout>
+)}
+
+<style>
+  .article-body :global(h2) {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: var(--bbfc-ink);
+  }
+  .article-body :global(p) {
+    margin-top: 14px;
+  }
+  .article-body :global(a) {
+    color: var(--bbfc-blue);
+  }
+  .article-body :global(blockquote) {
+    border-left: 3px solid var(--bbfc-blue);
+    padding-left: 14px;
+    margin: 20px 0;
+    color: var(--bbfc-ink-2);
+  }
+  .article-body :global(code) {
+    background: var(--bbfc-fill);
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 0.9em;
+  }
+  .article-body :global(pre) {
+    background: var(--bbfc-fill);
+    border-radius: var(--bbfc-radius);
+    padding: 14px;
+    overflow-x: auto;
+  }
+  .article-body :global(pre code) {
+    background: transparent;
+    padding: 0;
+  }
+  .article-body :global(table) {
+    width: 100%;
+    background: var(--bbfc-fill);
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  .article-body :global(th),
+  .article-body :global(td) {
+    border: 1px solid var(--bbfc-border);
+    padding: 8px 10px;
+    text-align: left;
+  }
+</style>
