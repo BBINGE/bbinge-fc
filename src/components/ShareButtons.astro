@@ -1,0 +1,104 @@
+---
+// 글 공유 전용(카드 이미지 스크랩 아님) — 링크복사 + 카카오/X/페이스북.
+// 카카오는 JS SDK 키가 없으면(Kakao.init 미실행) 자동으로 링크 복사로 대체된다.
+interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
+const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+---
+
+<div class="flex items-center gap-2" data-share-url={url} data-share-title={title}>
+  <span class="text-[12px] text-[var(--bbfc-gray-2)] mr-1">공유</span>
+  <button
+    type="button"
+    id="bbfc-share-copy"
+    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+  >
+    링크복사
+  </button>
+  <button
+    type="button"
+    id="bbfc-share-kakao"
+    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+  >
+    카카오
+  </button>
+  <a
+    href={xShareUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+  >
+    X
+  </a>
+  <a
+    href={facebookShareUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+  >
+    페이스북
+  </a>
+  <span id="bbfc-share-msg" class="text-[11px] text-[var(--bbfc-gray-2)]" hidden></span>
+</div>
+
+<script>
+  function showMessage(el, text) {
+    el.hidden = false;
+    el.textContent = text;
+    setTimeout(() => {
+      el.hidden = true;
+    }, 2000);
+  }
+
+  async function copyLink(url) {
+    try {
+      await navigator.clipboard.writeText(url);
+      return true;
+    } catch {
+      try {
+        window.prompt('아래 링크를 복사하세요', url);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+  }
+
+  document.querySelectorAll('[data-share-url]').forEach((container) => {
+    const url = container.getAttribute('data-share-url');
+    const title = container.getAttribute('data-share-title');
+    const msgEl = container.querySelector('#bbfc-share-msg');
+    const copyBtn = container.querySelector('#bbfc-share-copy');
+    const kakaoBtn = container.querySelector('#bbfc-share-kakao');
+
+    copyBtn?.addEventListener('click', async () => {
+      const copied = await copyLink(url);
+      showMessage(msgEl, copied ? '링크가 복사됐어요.' : url);
+    });
+
+    kakaoBtn?.addEventListener('click', async () => {
+      // Kakao JS SDK 키가 등록·초기화되지 않은 동안은 링크 복사로 자동 대체한다.
+      const kakao = window.Kakao;
+      if (kakao?.isInitialized?.()) {
+        kakao.Share.sendDefault({
+          objectType: 'feed',
+          content: {
+            title,
+            description: title,
+            link: { mobileWebUrl: url, webUrl: url },
+          },
+        });
+        return;
+      }
+      const copied = await copyLink(url);
+      showMessage(msgEl, copied ? '카카오 연동 전이라 링크를 복사했어요.' : url);
+    });
+  });
+</script>
