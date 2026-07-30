@@ -1,6 +1,8 @@
 ---
 import { site } from '../../config/site';
 import Layout from '../../layouts/Layout.astro';
+
+const CONTACT_EMAIL = 'sho3603@naver.com';
 ---
 
 <Layout
@@ -12,7 +14,10 @@ import Layout from '../../layouts/Layout.astro';
   ]}
 >
   <div class="max-w-[680px] mx-auto px-4 py-10">
-    <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">ABOUT</p>
+    <p class="text-[13px] font-medium text-[var(--bbfc-ink)]">
+      저자 @삥이 <span class="text-[var(--bbfc-gray-2)] font-normal">| {site.tagline}</span>
+    </p>
+    <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium mt-4">ABOUT</p>
     <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)] mt-1">{site.fullName}</h1>
     <p class="text-[14px] text-[var(--bbfc-gray-1)] mt-2 leading-[1.7]">{site.tagline}</p>
 
@@ -37,11 +42,10 @@ import Layout from '../../layouts/Layout.astro';
       <p class="text-[14px] leading-[1.7] text-[var(--bbfc-gray-1)] mt-2">
         (제휴·기고·강연·광고 기획 문의 안내 문구 자리)
       </p>
-      <a href="mailto:contact@example.com"
+      <a href={`mailto:${CONTACT_EMAIL}`}
          class="inline-block mt-4 bg-[var(--bbfc-blue)] text-white text-[13px] font-medium px-5 py-2.5 rounded-[8px]">
         문의하기
       </a>
-      <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-2">※ mailto 주소는 운영자 확정 후 교체</p>
     </section>
   </div>
 </Layout>
