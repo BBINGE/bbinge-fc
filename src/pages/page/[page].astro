@@ -1,0 +1,48 @@
+---
+// 카드 피드 페이지네이션. 1페이지는 홈(/)이 직접 렌더하므로 여기서는 2페이지부터만 생성한다
+// (같은 내용이 두 URL에 나오는 걸 막기 위해 — 중복 콘텐츠는 SEO에 해롭다).
+import Layout from '../../layouts/Layout.astro';
+import ArticleCardGrid from '../../components/ArticleCardGrid.astro';
+import { getCollection } from 'astro:content';
+import { site } from '../../config/site';
+import { PAGE_SIZE } from '../../config/pagination';
+
+export async function getStaticPaths({ paginate }) {
+  const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  return paginate(articles, { pageSize: PAGE_SIZE }).filter((route) => Number(route.params.page) !== 1);
+}
+
+const { page } = Astro.props;
+---
+
+<Layout
+  title={`${page.currentPage}페이지`}
+  description={site.tagline}
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: `${page.currentPage}페이지`, href: `/page/${page.currentPage}/` },
+  ]}
+>
+  <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
+    <ArticleCardGrid entries={page.data} />
+
+    <div class="flex items-center justify-between mt-8 pt-4 border-t border-[var(--bbfc-line)]">
+      <a
+        href={page.url.prev ?? '/'}
+        class="text-[13px] text-[var(--bbfc-ink-2)]"
+      >
+        ← 이전
+      </a>
+      <span class="text-[12px] text-[var(--bbfc-gray-2)]">
+        {page.currentPage} / {page.lastPage}
+      </span>
+      {page.url.next ? (
+        <a href={page.url.next} class="text-[13px] text-[var(--bbfc-ink-2)]">다음 →</a>
+      ) : (
+        <span class="text-[13px] text-[var(--bbfc-gray-3)]">다음 →</span>
+      )}
+    </div>
+  </div>
+</Layout>
