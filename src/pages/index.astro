@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import GoatBanner from '../components/GoatBanner.astro';
-import FeaturedSplit from '../components/FeaturedSplit.astro';
+import HomeHero from '../components/HomeHero.astro';
 import LatestGrid from '../components/LatestGrid.astro';
 import { getCollection } from 'astro:content';
 import { site } from '../config/site';
@@ -10,15 +9,12 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft)).so
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const [featured, ...rest] = articles;
-const sideList = rest.slice(0, 4);
-const latest = rest.slice(4);
+const hotArticles = articles.filter((entry) => entry.data.featured).slice(0, 4);
 ---
 
 <Layout title={site.name} description={site.tagline} breadcrumbs={[{ label: '홈', href: '/' }]}>
   <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6 space-y-7">
-    <GoatBanner />
-    <FeaturedSplit featured={featured} list={sideList} />
-    <LatestGrid entries={latest} />
+    <HomeHero hotArticles={hotArticles} />
+    <LatestGrid entries={articles} />
   </div>
 </Layout>
