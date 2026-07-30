@@ -11,6 +11,7 @@ import RelatedList from '../components/RelatedList.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import { categories, categoryList, getAncestorChain, getChildren } from '../config/categories';
+import CategorySidebar from '../components/CategorySidebar.astro';
 
 type CategoryProps = { kind: 'category'; categorySlug: string };
 type ArticleProps = { kind: 'article'; entry: CollectionEntry<'articles'> };
@@ -101,27 +102,33 @@ if (props.kind === 'category') {
       { label: categoryView.meta.label, href: `/${categoryView.categorySlug}/` },
     ]}
   >
-    <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
-      <div class="flex items-baseline gap-2 mb-5">
-        <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)]">{categoryView.meta.label}</h1>
-        <p class="text-[13px] text-[var(--bbfc-gray-2)] mt-1">{categoryView.meta.fullLabel}</p>
-        <span class="text-[13px] text-[var(--bbfc-gray-2)]">{categoryView.articles.length}편</span>
-      </div>
+    <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6 flex gap-8 items-start">
+      <aside class="hidden md:block w-[200px] shrink-0">
+        <CategorySidebar activeSlug={categoryView.categorySlug} />
+      </aside>
 
-      {categoryView.children.length > 0 && (
-        <div class="flex flex-wrap gap-2 mb-5">
-          {categoryView.children.map((child) => (
-            <a
-              href={`/${categoryView!.categorySlug}/${child.slug}/`}
-              class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
-            >
-              {child.label}
-            </a>
-          ))}
+      <div class="min-w-0 flex-1">
+        <div class="flex items-baseline gap-2 mb-5">
+          <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)]">{categoryView.meta.label}</h1>
+          <p class="text-[13px] text-[var(--bbfc-gray-2)] mt-1">{categoryView.meta.fullLabel}</p>
+          <span class="text-[13px] text-[var(--bbfc-gray-2)]">{categoryView.articles.length}편</span>
         </div>
-      )}
 
-      <CategoryArticleList entries={categoryView.articles} />
+        {categoryView.children.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-5">
+            {categoryView.children.map((child) => (
+              <a
+                href={`/${categoryView!.categorySlug}/${child.slug}/`}
+                class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+              >
+                {child.label}
+              </a>
+            ))}
+          </div>
+        )}
+
+        <CategoryArticleList entries={categoryView.articles} />
+      </div>
     </div>
   </Layout>
 )}
