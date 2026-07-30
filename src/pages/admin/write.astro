@@ -1,7 +1,6 @@
 ---
 import '../../styles/global.css';
 import { site } from '../../config/site';
-import { categoryList } from '../../config/categories';
 ---
 
 <!doctype html>
@@ -45,10 +44,7 @@ import { categoryList } from '../../config/categories';
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
           <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
             카테고리
-            <select id="bbfc-category-select" class="bbfc-field">
-              <option value="" disabled selected>카테고리 선택</option>
-              {categoryList.map(({ slug, label }) => <option value={slug}>{label}</option>)}
-            </select>
+            <div id="bbfc-category-levels" class="flex flex-wrap gap-2"></div>
           </label>
 
           <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
@@ -172,6 +168,7 @@ import { categoryList } from '../../config/categories';
       import Placeholder from '@tiptap/extension-placeholder';
       import TurndownService from 'turndown';
       import { gfm } from 'turndown-plugin-gfm';
+      import { getTopLevel, getChildren, getAncestorChain, categories } from '../../config/categories';
 
       const GITHUB_REPO = 'BBINGE/bbinge-fc';
       const GITHUB_BRANCH = 'main';
@@ -555,10 +552,70 @@ import { categoryList } from '../../config/categories';
         return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
       }
 
+      // ---------- 카테고리 계단식 드롭다운 ----------
+      // 트리 depth가 늘어나도 그대로 동작하도록, 선택한 노드에 하위 카테고리가 있으면
+      // 다음 단계 <select>를 동적으로 이어붙인다. 지금은 전부 최상위뿐이라 드롭다운 1단으로 보임.
+
+      const categoryLevels = document.getElementById('bbfc-category-levels');
+      let selectedCategorySlug = '';
+
+      function makeCategoryLevelSelect(level, options) {
+        const select = document.createElement('select');
+        select.className = 'bbfc-field bbfc-category-select';
+        select.dataset.level = String(level);
+        const placeholder = document.createElement('option');
+        placeholder.value = '';
+        placeholder.textContent = level === 0 ? '카테고리 선택' : '하위 선택 안 함';
+        if (level === 0) placeholder.disabled = true;
+        placeholder.selected = true;
+        select.appendChild(placeholder);
+        options.forEach(({ slug, label }) => {
+          const opt = document.createElement('option');
+          opt.value = slug;
+          opt.textContent = label;
+          select.appendChild(opt);
+        });
+        select.addEventListener('change', onCategoryLevelChange);
+        return select;
+      }
+
+      function onCategoryLevelChange(e) {
+        const level = Number(e.target.dataset.level);
+        categoryLevels.querySelectorAll('.bbfc-category-select').forEach((el) => {
+          if (Number(el.dataset.level) > level) el.remove();
+        });
+        const slug = e.target.value;
+        selectedCategorySlug = slug;
+        if (slug) {
+          const children = getChildren(slug);
+          if (children.length > 0) categoryLevels.appendChild(makeCategoryLevelSelect(level + 1, children));
+        }
+        scheduleAutosave();
+      }
+
+      // slug가 속한 카테고리까지의 조상 체인을 따라 각 단계 드롭다운을 복원한다.
+      function setCategoryFromSlug(slug) {
+        categoryLevels.innerHTML = '';
+        selectedCategorySlug = '';
+        const first = makeCategoryLevelSelect(0, getTopLevel());
+        categoryLevels.appendChild(first);
+        if (!slug || !categories[slug]) return;
+
+        let currentSelect = first;
+        getAncestorChain(slug).forEach((node, i) => {
+          currentSelect.value = node.slug;
+          selectedCategorySlug = node.slug;
+          const children = getChildren(node.slug);
+          if (children.length > 0) {
+            currentSelect = makeCategoryLevelSelect(i + 1, children);
+            categoryLevels.appendChild(currentSelect);
+          }
+        });
+      }
+
       // ---------- 폼 엘리먼트 ----------
 
       const titleInput = document.getElementById('bbfc-title-input');
-      const categorySelect = document.getElementById('bbfc-category-select');
       const slugInput = document.getElementById('bbfc-slug-input');
       const descriptionInput = document.getElementById('bbfc-description-input');
       const tagsInput = document.getElementById('bbfc-tags-input');
@@ -591,7 +648,7 @@ import { categoryList } from '../../config/categories';
           slug: slugInput.value,
           slugDirty,
           description: descriptionInput.value,
-          category: categorySelect.value,
+          category: selectedCategorySlug,
           tags: tagsInput.value,
           pubDate: pubDateInput.value,
           draft: draftCheckbox.checked,
@@ -611,7 +668,7 @@ import { categoryList } from '../../config/categories';
           if (data.slug) slugInput.value = data.slug;
           slugDirty = !!data.slugDirty;
           if (data.description) descriptionInput.value = data.description;
-          if (data.category) categorySelect.value = data.category;
+          setCategoryFromSlug(data.category || '');
           if (data.tags) tagsInput.value = data.tags;
           if (data.pubDate) pubDateInput.value = data.pubDate;
           draftCheckbox.checked = data.draft !== false;
@@ -628,7 +685,7 @@ import { categoryList } from '../../config/categories';
         slugInput.value = '';
         slugDirty = false;
         descriptionInput.value = '';
-        categorySelect.value = '';
+        setCategoryFromSlug('');
         tagsInput.value = '';
         pubDateInput.value = nowLocalInputValue();
         draftCheckbox.checked = true;
@@ -645,7 +702,7 @@ import { categoryList } from '../../config/categories';
         slugDirty = true;
         scheduleAutosave();
       });
-      [descriptionInput, tagsInput, pubDateInput, draftCheckbox, categorySelect].forEach((el) => {
+      [descriptionInput, tagsInput, pubDateInput, draftCheckbox].forEach((el) => {
         el.addEventListener('input', scheduleAutosave);
         el.addEventListener('change', scheduleAutosave);
       });
@@ -660,7 +717,7 @@ import { categoryList } from '../../config/categories';
       async function publish() {
         const title = titleInput.value.trim();
         const description = descriptionInput.value.trim();
-        const category = categorySelect.value;
+        const category = selectedCategorySlug;
         const slug = (slugInput.value.trim() || slugify(title)).toLowerCase();
         const tags = tagsInput.value
           .split(',')
@@ -712,6 +769,7 @@ import { categoryList } from '../../config/categories';
 
       consumeAuthHash();
       updateLoginState();
+      setCategoryFromSlug('');
       if (!pubDateInput.value) pubDateInput.value = nowLocalInputValue();
       loadDraftFromLocal();
     </script>
