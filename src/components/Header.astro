@@ -1,8 +1,12 @@
 ---
-import { categoryList } from '../config/categories';
+import { getTopLevel } from '../config/categories';
 import { site } from '../config/site';
+import CategorySidebar from './CategorySidebar.astro';
 
 const currentPath = Astro.url.pathname;
+// 상단 네비의 "카테고리"는 대분류만, 가나다순으로 노출한다. 계층 전체는 좌측 사이드바(데스크톱)와
+// 모바일 드로어의 CategorySidebar 트리에서 다룬다.
+const topCategories = getTopLevel().sort((a, b) => a.label.localeCompare(b.label, 'ko'));
 ---
 
 <header class="sticky top-0 z-30 bg-[var(--bbfc-bg)] border-b border-[var(--bbfc-line)]">
@@ -26,7 +30,19 @@ const currentPath = Astro.url.pathname;
       </a>
 
       <nav class="hidden md:flex items-center gap-5">
-        {categoryList.map(({ slug, label }) => {
+        <a
+          href="/"
+          class:list={['text-[13.5px]', currentPath === '/' ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal']}
+        >
+          MAIN
+        </a>
+        <a
+          href="/about/"
+          class:list={['text-[13.5px]', currentPath.startsWith('/about/') ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal']}
+        >
+          저자 @삥이
+        </a>
+        {topCategories.map(({ slug, label }) => {
           const href = `/${slug}/`;
           const isActive = currentPath.startsWith(href);
           return (
@@ -44,12 +60,12 @@ const currentPath = Astro.url.pathname;
       </nav>
     </div>
 
-    <span aria-hidden="true" class="text-[var(--bbfc-gray-1)]">
+    <a href="/search/" aria-label="검색" class="text-[var(--bbfc-gray-1)]">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <circle cx="11" cy="11" r="7" />
         <path d="M21 21l-4.35-4.35" stroke-linecap="round" />
       </svg>
-    </span>
+    </a>
   </div>
 </header>
 
@@ -66,32 +82,35 @@ const currentPath = Astro.url.pathname;
   hidden
 >
   <div class="flex items-center justify-between mb-4">
-    <span class="text-[14px] font-medium text-[var(--bbfc-ink)]">카테고리</span>
+    <span class="text-[14px] font-medium text-[var(--bbfc-ink)]">메뉴</span>
     <button id="bbfc-close-btn" type="button" aria-label="메뉴 닫기" class="text-[var(--bbfc-gray-1)]">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
       </svg>
     </button>
   </div>
-  <ul class="space-y-1">
-    {categoryList.map(({ slug, label }) => {
-      const href = `/${slug}/`;
-      const isActive = currentPath.startsWith(href);
-      return (
-        <li>
-          <a
-            href={href}
-            class:list={[
-              'block text-[13.5px] py-2',
-              isActive ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]',
-            ]}
-          >
-            {label}
-          </a>
-        </li>
-      );
-    })}
+  <ul class="space-y-1 mb-4 pb-4 border-b border-[var(--bbfc-line)]">
+    <li>
+      <a
+        href="/"
+        class:list={['block text-[13.5px] py-2', currentPath === '/' ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
+      >
+        MAIN
+      </a>
+    </li>
+    <li>
+      <a
+        href="/about/"
+        class:list={['block text-[13.5px] py-2', currentPath.startsWith('/about/') ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
+      >
+        저자 @삥이
+      </a>
+    </li>
+    <li>
+      <a href="/search/" class="block text-[13.5px] py-2 text-[var(--bbfc-ink-2)]">검색</a>
+    </li>
   </ul>
+  <CategorySidebar activeSlug={currentPath.split('/').filter(Boolean)[0]} />
 </div>
 
 <script>
