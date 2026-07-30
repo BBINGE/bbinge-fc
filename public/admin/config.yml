@@ -61,4 +61,5 @@ collections:
           - { label: 질문, name: question, widget: string }
           - { label: 답변, name: answer, widget: text }
       - { label: 초안 (체크하면 사이트에 안 보임), name: draft, widget: boolean, default: true }
+      - { label: '이번 주 HOT (홈 히어로 노출, 직접 켜고 끔)', name: featured, widget: boolean, default: false }
       - { label: 본문, name: body, widget: markdown }

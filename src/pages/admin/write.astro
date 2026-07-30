@@ -71,6 +71,11 @@ import { site } from '../../config/site';
             <input id="bbfc-draft-checkbox" type="checkbox" checked />
             비공개(초안)로 저장 — 체크 해제해야 사이트에 노출됩니다
           </label>
+
+          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex items-center gap-2 sm:col-span-2">
+            <input id="bbfc-featured-checkbox" type="checkbox" />
+            이번 주 HOT (홈 히어로에 노출)
+          </label>
         </div>
 
         <div
@@ -516,7 +521,7 @@ import { site } from '../../config/site';
         return JSON.stringify(value);
       }
 
-      function buildFrontmatter({ title, description, category, tags, pubDateIso, draft }) {
+      function buildFrontmatter({ title, description, category, tags, pubDateIso, draft, featured }) {
         const lines = ['---'];
         lines.push(`title: ${yamlString(title)}`);
         lines.push(`description: ${yamlString(description)}`);
@@ -529,6 +534,7 @@ import { site } from '../../config/site';
         }
         lines.push(`pubDate: ${yamlString(pubDateIso)}`);
         lines.push(`draft: ${draft ? 'true' : 'false'}`);
+        lines.push(`featured: ${featured ? 'true' : 'false'}`);
         lines.push('---');
         return lines.join('\n');
       }
@@ -621,6 +627,7 @@ import { site } from '../../config/site';
       const tagsInput = document.getElementById('bbfc-tags-input');
       const pubDateInput = document.getElementById('bbfc-pubdate-input');
       const draftCheckbox = document.getElementById('bbfc-draft-checkbox');
+      const featuredCheckbox = document.getElementById('bbfc-featured-checkbox');
       const publishBtn = document.getElementById('bbfc-publish-btn');
       const clearDraftBtn = document.getElementById('bbfc-clear-draft-btn');
       const statusEl = document.getElementById('bbfc-status');
@@ -652,6 +659,7 @@ import { site } from '../../config/site';
           tags: tagsInput.value,
           pubDate: pubDateInput.value,
           draft: draftCheckbox.checked,
+          featured: featuredCheckbox.checked,
           html: editor.getHTML(),
           savedAt: Date.now(),
         };
@@ -672,6 +680,7 @@ import { site } from '../../config/site';
           if (data.tags) tagsInput.value = data.tags;
           if (data.pubDate) pubDateInput.value = data.pubDate;
           draftCheckbox.checked = data.draft !== false;
+          featuredCheckbox.checked = !!data.featured;
           if (data.html) editor.commands.setContent(data.html);
           autosaveIndicator.textContent = `임시 저장된 초고를 불러왔습니다 · ${new Date(data.savedAt).toLocaleString('ko-KR')}`;
         } catch {
@@ -689,6 +698,7 @@ import { site } from '../../config/site';
         tagsInput.value = '';
         pubDateInput.value = nowLocalInputValue();
         draftCheckbox.checked = true;
+        featuredCheckbox.checked = false;
         editor.commands.setContent('');
         autosaveIndicator.textContent = '';
         setStatus('');
@@ -702,7 +712,7 @@ import { site } from '../../config/site';
         slugDirty = true;
         scheduleAutosave();
       });
-      [descriptionInput, tagsInput, pubDateInput, draftCheckbox].forEach((el) => {
+      [descriptionInput, tagsInput, pubDateInput, draftCheckbox, featuredCheckbox].forEach((el) => {
         el.addEventListener('input', scheduleAutosave);
         el.addEventListener('change', scheduleAutosave);
       });
@@ -724,6 +734,7 @@ import { site } from '../../config/site';
           .map((t) => t.trim())
           .filter(Boolean);
         const draft = draftCheckbox.checked;
+        const featured = featuredCheckbox.checked;
 
         if (!title) throw new Error('제목을 입력하세요.');
         if (!description) throw new Error('설명을 입력하세요.');
@@ -736,7 +747,7 @@ import { site } from '../../config/site';
         if (!token) return; // 로그인 페이지로 이동 중
 
         const markdownBody = htmlToMarkdown(editor.getHTML());
-        const frontmatter = buildFrontmatter({ title, description, category, tags, pubDateIso, draft });
+        const frontmatter = buildFrontmatter({ title, description, category, tags, pubDateIso, draft, featured });
         const fileContent = `${frontmatter}\n\n${markdownBody}\n`;
         const path = `src/content/articles/${slug}.md`;
 
