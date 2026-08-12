@@ -28,10 +28,8 @@ const authority = [
   { logos: [{ src: '/images/about-logos/naver-blog.png', alt: 'NAVER 블로그', fit: 'padded' }], text: 'NAVER 블로그 @삥이(삥이N스포츠) / @삥이핏 / @광자삥이(DONEMOYA)' },
   { logos: [{ src: '/images/about-logos/naver-clip.png', alt: 'NAVER Clip', fit: 'padded-dark' }], text: 'NAVER TV/Clip (삥이_official)' },
   { logos: [{ src: '/images/about-logos/naver-expert.png', alt: 'NAVER expert', fit: 'flush' }], text: 'NAVER expert (광고 전문가 자격)' },
-  { logos: [
-    { src: '/images/about-logos/brunchstory.svg', alt: 'Kakao BrunchStory', fit: 'flush' },
-    { src: '/images/about-logos/tistory.png', alt: 'Kakao Tistory', fit: 'flush' },
-  ], text: 'Kakao BrunchStory 작가 / Kakao Tistory 창작자(BBingStory)' },
+  { logos: [{ src: '/images/about-logos/brunchstory.svg', alt: '브런치스토리', fit: 'flush' }], text: '브런치 작가 (@삥이)' },
+  { logos: [{ src: '/images/about-logos/tistory.png', alt: '티스토리', fit: 'flush' }], text: '티스토리 저자 (@BBingStory)' },
   { logos: [{ src: '/images/about-logos/instagram.svg', alt: 'Instagram', fit: 'flush' }], text: 'Instagram @bbinge_26 / @bbinge_official' },
   { logos: [{ src: '/images/about-logos/spotv-now.png', alt: 'SPOTV NOW', fit: 'flush' }], text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업)' },
   { logos: [{ src: '/images/about-logos/substack.png', alt: 'Substack', fit: 'flush' }], text: 'Substack @bbinge' },
@@ -207,7 +205,7 @@ const clients = [
         {authority.map((a, i) => (
           <li data-reveal style={`transition-delay:${(i % 4) * 60}ms`} class="about-link-row">
             <span class="about-link-row-inner">
-              <span class:list={['about-logo-stack', { 'has-multiple': a.logos.length > 1 }]}>
+              <span class="about-logo-stack">
                 {a.logos.map((logo) => (
                   <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
                     <img src={logo.src} alt={logo.alt} width="48" height="48" />
@@ -335,9 +333,7 @@ const clients = [
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
   }
   .about-logo-stack { display:flex; align-items:center; flex:0 0 auto; min-width:48px; }
-  .about-logo-stack.has-multiple { min-width:68px; }
   .about-brand-mark { width:48px; height:48px; display:inline-flex; align-items:center; justify-content:center; overflow:hidden; border-radius:50%; background:#fff; border:1px solid var(--bbfc-border); box-shadow:0 4px 14px -10px rgba(25,31,40,.55); flex:0 0 auto; }
-  .about-logo-stack.has-multiple .about-brand-mark + .about-brand-mark { margin-left:-14px; }
   .about-brand-mark img { width:100%; height:100%; object-fit:contain; display:block; }
   .about-brand-mark.is-flush img { object-fit:cover; }
   .about-brand-mark.is-padded img { width:68%; height:68%; }
@@ -405,7 +401,6 @@ const clients = [
     .about-link-row-inner { min-height:76px; padding:12px 13px; }
     .about-brand-mark { width:44px; height:44px; }
     .about-logo-stack { min-width:44px; }
-    .about-logo-stack.has-multiple { min-width:62px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
