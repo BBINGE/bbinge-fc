@@ -21,17 +21,20 @@ const careerTrack2 = [
 ];
 
 const authority = [
-  { brand: '朝', tone: 'chosun', text: '조선일보 · 삥이 (Google·NAVER 광고 생태계 자문)' },
-  { brand: 'N', tone: 'namu', text: '나무위키 · 삥이' },
-  { brand: 'N', tone: 'naver', text: 'NAVER 인물 / NAVER 인플루언서' },
-  { brand: 'N', tone: 'naver', text: 'NAVER 카페 운영자 (중고거래 틈새마켓, 회원 약 1만)' },
-  { brand: 'N', tone: 'naver', text: 'NAVER 블로그 @삥이(삥이N스포츠) / @삥이핏 / @광자삥이(DONEMOYA)' },
-  { brand: '▶', tone: 'naver', text: 'NAVER TV/Clip (삥이_official)' },
-  { brand: 'eX', tone: 'naver', text: 'NAVER expert (광고 전문가 자격)' },
-  { brand: 'B', tone: 'kakao', text: 'Kakao BrunchStory 작가 / Kakao Tistory 창작자(BBingStory)' },
-  { brand: '◎', tone: 'instagram', text: 'Instagram @bbinge_26 / @bbinge_official' },
-  { brand: 'SPOTV', tone: 'spotv', text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업)' },
-  { brand: 'S', tone: 'substack', text: 'Substack @bbinge' },
+  { logos: [{ src: '/images/about-logos/chosun.png', alt: '조선일보', fit: 'padded' }], text: '조선일보 · 삥이 (Google·NAVER 광고 생태계 자문)' },
+  { logos: [{ src: '/images/about-logos/namuwiki.webp', alt: '나무위키', fit: 'flush' }], text: '나무위키 · 삥이' },
+  { logos: [{ src: '/images/about-logos/naver.jpg', alt: 'NAVER', fit: 'flush' }], text: 'NAVER 인물 / NAVER 인플루언서' },
+  { logos: [{ src: '/images/about-logos/naver-cafe.png', alt: 'NAVER 카페', fit: 'flush' }], text: 'NAVER 카페 운영자 (중고거래 틈새마켓, 회원 약 1만)' },
+  { logos: [{ src: '/images/about-logos/naver-blog.png', alt: 'NAVER 블로그', fit: 'padded' }], text: 'NAVER 블로그 @삥이(삥이N스포츠) / @삥이핏 / @광자삥이(DONEMOYA)' },
+  { logos: [{ src: '/images/about-logos/naver-clip.png', alt: 'NAVER Clip', fit: 'padded-dark' }], text: 'NAVER TV/Clip (삥이_official)' },
+  { logos: [{ src: '/images/about-logos/naver-expert.png', alt: 'NAVER expert', fit: 'flush' }], text: 'NAVER expert (광고 전문가 자격)' },
+  { logos: [
+    { src: '/images/about-logos/brunchstory.svg', alt: 'Kakao BrunchStory', fit: 'flush' },
+    { src: '/images/about-logos/tistory.png', alt: 'Kakao Tistory', fit: 'flush' },
+  ], text: 'Kakao BrunchStory 작가 / Kakao Tistory 창작자(BBingStory)' },
+  { logos: [{ src: '/images/about-logos/instagram.svg', alt: 'Instagram', fit: 'flush' }], text: 'Instagram @bbinge_26 / @bbinge_official' },
+  { logos: [{ src: '/images/about-logos/spotv-now.png', alt: 'SPOTV NOW', fit: 'flush' }], text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업)' },
+  { logos: [{ src: '/images/about-logos/substack.png', alt: 'Substack', fit: 'flush' }], text: 'Substack @bbinge' },
 ];
 
 const clients = [
@@ -204,7 +207,13 @@ const clients = [
         {authority.map((a, i) => (
           <li data-reveal style={`transition-delay:${(i % 4) * 60}ms`} class="about-link-row">
             <span class="about-link-row-inner">
-              <span class:list={['about-brand-mark', `is-${a.tone}`]} aria-hidden="true">{a.brand}</span>
+              <span class:list={['about-logo-stack', { 'has-multiple': a.logos.length > 1 }]}>
+                {a.logos.map((logo) => (
+                  <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
+                    <img src={logo.src} alt={logo.alt} width="48" height="48" />
+                  </span>
+                ))}
+              </span>
               <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
             </span>
           </li>
@@ -325,14 +334,15 @@ const clients = [
     padding:14px 16px;
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
   }
-  .about-brand-mark { width:38px; height:38px; display:inline-flex; align-items:center; justify-content:center; border-radius:10px; color:#fff; background:var(--bbfc-ink); font-size:14px; font-weight:800; letter-spacing:-.04em; flex-shrink:0; }
-  .about-brand-mark.is-naver { background:#03c75a; }
-  .about-brand-mark.is-namu { background:#00a495; }
-  .about-brand-mark.is-kakao { background:#fee500; color:#191919; }
-  .about-brand-mark.is-instagram { background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045); font-size:21px; }
-  .about-brand-mark.is-spotv { width:52px; background:#172c6b; font-size:10px; letter-spacing:.02em; }
-  .about-brand-mark.is-substack { background:#ff6719; }
-  .about-brand-mark.is-chosun { background:#202020; font-family:serif; font-size:18px; }
+  .about-logo-stack { display:flex; align-items:center; flex:0 0 auto; min-width:48px; }
+  .about-logo-stack.has-multiple { min-width:68px; }
+  .about-brand-mark { width:48px; height:48px; display:inline-flex; align-items:center; justify-content:center; overflow:hidden; border-radius:50%; background:#fff; border:1px solid var(--bbfc-border); box-shadow:0 4px 14px -10px rgba(25,31,40,.55); flex:0 0 auto; }
+  .about-logo-stack.has-multiple .about-brand-mark + .about-brand-mark { margin-left:-14px; }
+  .about-brand-mark img { width:100%; height:100%; object-fit:contain; display:block; }
+  .about-brand-mark.is-flush img { object-fit:cover; }
+  .about-brand-mark.is-padded img { width:68%; height:68%; }
+  .about-brand-mark.is-padded-dark { background:#24272d; }
+  .about-brand-mark.is-padded-dark img { width:72%; height:72%; }
   .about-link-row:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); border-color:#cad1d8; }
   .about-link-icon {
     flex-shrink: 0;
@@ -392,7 +402,10 @@ const clients = [
     .about-photo-frame { margin:0 auto; }
     .about-contact { display:block; }
     .about-authority-grid { gap:9px; }
-    .about-link-row-inner { min-height:68px; padding:12px 13px; }
+    .about-link-row-inner { min-height:76px; padding:12px 13px; }
+    .about-brand-mark { width:44px; height:44px; }
+    .about-logo-stack { min-width:44px; }
+    .about-logo-stack.has-multiple { min-width:62px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
