@@ -249,9 +249,9 @@ const clients = [
           rel="noopener noreferrer"
           class="about-cta about-cta-naver"
         >
-          <svg class="about-cta-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M4 3h3v6.2A5 5 0 1 1 7 17v4H4V3Zm7.8 8.3A2.2 2.2 0 1 0 11.8 17a2.2 2.2 0 0 0 0-5.7Z" />
-            <path fill="currentColor" d="M19 3h2v18h-2z" />
+          <svg class="about-cta-icon about-cta-icon-blog" viewBox="0 0 32 24" aria-hidden="true">
+            <path d="M3.5 2.5h25v15.2H18l-3.1 3.8-3.2-3.8H3.5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" />
+            <text x="16" y="13.7" text-anchor="middle" fill="currentColor" font-size="8.5" font-weight="800" font-family="Arial, sans-serif" letter-spacing="-.4">blog</text>
           </svg>
           네이버 블로그
         </a>
@@ -380,6 +380,7 @@ const clients = [
     gap: 8px;
   }
   .about-cta-icon { width:18px; height:18px; flex:0 0 auto; display:block; color:currentColor; }
+  .about-cta-icon-blog { width:23px; height:18px; }
   .about-cta:hover {
     background: var(--bbfc-blue-weak);
     color: var(--bbfc-blue);
