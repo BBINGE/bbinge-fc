@@ -7,70 +7,86 @@ const PHONE = '010-5027-2588';
 
 const careers = [
   { label: '前', text: 'SPOTV NOW 공식 프리뷰어 (2018~2025)' },
-  { label: '現', text: 'NAVER 공식 프로스포츠 인플루언서 (@삥이 / 삥이N스포츠_official)' },
+  { label: '現', text: 'NAVER 공식 프로스포츠 인플루언서 (@삥이)' },
   { label: '現', text: 'KAKAO 브런치 작가' },
   { label: '現', text: '오늘의브랜딩(AUBE KOREA) 기획팀장' },
   { label: '現', text: '㈜몸미 COO' },
 ];
 
 const spectrum = [
-  { title: '기획(본체)', desc: '브랜드 전략부터 실행 계획까지, 프로젝트 전체를 설계하고 조율하는 축.' },
-  { title: '개발', desc: '정적 웹·자동화 도구를 직접 구현해 기획을 실물로 옮긴다.' },
-  { title: '연구·분석', desc: '논문·리뷰 데이터를 근거로 삼아 기획의 타당성을 검증한다.' },
-  { title: '디자인', desc: '정보 위계와 타이포를 직접 조판해 완성도를 마무리한다.' },
+  { index: '01', title: '기획', sub: '(본체)', desc: '브랜드 전략부터 실행 계획까지, 프로젝트 전체를 설계하고 조율한다.' },
+  { index: '02', title: '개발', sub: '', desc: '정적 웹·자동화 도구를 직접 구현해 기획을 실물로 옮긴다.' },
+  { index: '03', title: '연구·분석', sub: '', desc: '논문·리뷰 데이터를 근거로 삼아 기획의 타당성을 검증한다.' },
+  { index: '04', title: '디자인', sub: '', desc: '정보 위계와 타이포를 직접 조판해 완성도를 마무리한다.' },
 ];
 
 const authority = [
   { text: '조선일보 GOOGLE & NAVER 광고 생태계 자문 및 본인 출연', href: '#', pending: true },
   { text: '나무위키 ‘화제의 인물’ 공식 등재', href: '#', pending: true },
-  { text: 'NAVER 인물검색 공식 등록', href: '#', pending: true },
-  { text: 'NAVER ‘프로스포츠 분야’ 공식 인플루언서', href: '#', pending: true },
+  { text: 'NAVER 인물검색 공식 등록 / NAVER ‘프로스포츠’ 공식 인플루언서', href: '#', pending: true },
   { text: 'NAVER 공식 광고 대상자 (대한민국 64번째 슈퍼애드)', href: '#', pending: true },
   { text: 'NAVER 광고 전문가 인증 (EXPERT 승인)', href: '#', pending: true },
   { text: 'NAVER 블로그 3채널 — 삥이N스포츠 / 삥이핏(OOTD) / 광자삥이(DONEMOYA)', href: '#', pending: true },
-  { text: 'NAVER 카페 운영 (중고유통업 카테고리, 회원 약 1만)', href: '#', pending: true },
-  { text: 'KAKAO 브런치스토리 공식 작가 / KAKAO 티스토리 창작자 (BBingStory)', href: '#', pending: true },
-  { text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사와 8년 협업, 2018~2025)', href: '#', pending: true },
-  { text: 'Instagram (@bbinge_26 / @bbinge_official)', href: '#', pending: true },
-  { text: 'Substack (@bbinge)', href: '#', pending: true },
+  { text: 'NAVER 카페 운영 (중고유통업, 회원 약 1만)', href: '#', pending: true },
+  { text: 'KAKAO 브런치스토리 공식 작가 / KAKAO 티스토리 (BBingStory)', href: '#', pending: true },
+  { text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업, 2018~2025)', href: '#', pending: true },
+  { text: 'Instagram (@bbinge_26 / @bbinge_official) / Substack (@bbinge)', href: '#', pending: true },
 ];
 
 const clients = [
-  { group: '방송', items: ['주식회사 에이클라미디어그룹(SPOTV NOW)'] },
+  {
+    group: '방송',
+    items: [{ org: '주식회사 에이클라미디어그룹(SPOTV NOW)', detail: '축구 분야 전문 프리뷰어 협업' }],
+  },
+  {
+    group: '금융',
+    items: [{ org: 'KEB하나은행', detail: '하나원큐 축구Play K리그 우승 적금 출시 기념 NAVER 블로그 광고' }],
+  },
   {
     group: '공공·행정',
     items: [
-      '중소벤처기업부',
-      '소상공인시장진흥공단',
-      '대전광역시',
-      '새만금개발청',
-      '한국기초과학지원연구원',
-      '국립호남권생물자원관',
-      '국민 철도 플랫폼 SRT(2023)',
+      { org: '중소벤처기업부', detail: '강한 소상공인 성장지원사업 통합 홍보 대행' },
+      { org: '소상공인시장진흥공단', detail: '유망소상공인1000+ 상설매장 구축·운영 (NC대전 유성점 <행복상회>)' },
+      { org: '대전광역시', detail: '0시 축제·공식 SNS·유튜브 콘텐츠 제작 대행' },
+      { org: '새만금개발청', detail: '종합홍보 대행' },
+      { org: '한국기초과학지원연구원', detail: 'NAVER 블로그 콘텐츠 배포 관리 (2021 Korea Life Science Week)' },
+      { org: '국립호남권생물자원관', detail: 'NAVER 블로그 키워드 상위노출 캠페인' },
+      { org: '국민 철도 플랫폼 SRT', detail: '2024 SNS 홍보 용역' },
     ],
   },
-  { group: '금융', items: ['KEB하나은행 (하나원큐 축구Play K리그 우승 적금)'] },
   {
     group: '글로벌',
     items: [
-      'PANINI S.P.A.',
-      'About Vintage × AC밀란',
-      'Gaston Luga',
-      'Dr.Wolff-Group',
-      'ExpressVPN',
-      '제닉스 × 파리 생제르맹 FC(PSG)',
+      { org: 'PANINI S.P.A.', detail: '파니니 축구카드 탑클래스 2023/2024 트레이딩 카드 협찬' },
+      { org: 'About Vintage × AC밀란', detail: '123주년 리미티드 에디션 협찬' },
+      { org: 'Gaston Luga', detail: '블랙 백팩 + 도트백 협찬' },
+      { org: 'Dr.Wolff-Group', detail: 'Alpecin 카페인 샴푸 월드컵패키지 협찬' },
+      { org: 'ExpressVPN', detail: '대한민국 프로모션 기념 NAVER 블로그 광고' },
+      { org: '제닉스 × 파리 생제르맹 FC(PSG)', detail: '게이밍 의자 협찬' },
     ],
   },
-  { group: '교육', items: ['건양사이버대학교(마케팅 자문·교육 2023~2025)', '건양대학교'] },
-  { group: '언론', items: ['조선일보'] },
-  { group: '유통', items: ['대전신세계 Art&Science'] },
+  {
+    group: '교육',
+    items: [
+      { org: '건양사이버대학교', detail: '마케팅 자문·교육 대행 (2023~2025)' },
+      { org: '건양대학교', detail: '2022학년도 온·오프라인 홍보 용역' },
+    ],
+  },
+  {
+    group: '언론',
+    items: [{ org: '조선일보', detail: 'GOOGLE & NAVER 광고 생태계 자문 및 본인 출연' }],
+  },
+  {
+    group: '유통',
+    items: [{ org: '대전신세계 Art&Science', detail: '온라인 마케팅 운영 대행' }],
+  },
   {
     group: '그 외',
     items: [
-      '산부인과·정형외과·피부과·한의원 등 의료기관 다수 마케팅 기획',
-      '제9회 전국동시지방선거 보수/진보 정당 캠페인 기획 참여 (신원 비공개)',
-      '100여 개 기업·소상공인 대상 통합 홍보 기획 및 실행',
-      '중앙행정기관·지방자치단체 광고 및 용역 다수 (AE/마케팅)',
+      { org: '산부인과·정형외과·피부과·한의원 등', detail: '의료기관 다수 마케팅 기획' },
+      { org: '제9회 전국동시지방선거', detail: '보수/진보 정당 캠페인 기획 참여 (신원 비공개)' },
+      { org: '100여 개 기업·소상공인', detail: '통합 홍보 기획 및 실행' },
+      { org: '중앙행정기관·지방자치단체', detail: '광고 및 용역 다수 (AE/마케팅)' },
     ],
   },
 ];
@@ -95,164 +111,351 @@ const intellectual = [
     { label: '소개', href: '/about/' },
   ]}
 >
-  <!-- 섹션 1 — 헤드 -->
-  <section class="relative overflow-hidden bg-[var(--bbfc-ink)]">
-    <p
-      aria-hidden="true"
-      class="pointer-events-none select-none absolute -left-4 top-1/2 -translate-y-1/2 text-[26vw] leading-none font-medium text-white/5 whitespace-nowrap"
-    >
-      삥이
-    </p>
-    <div class="relative max-w-[1040px] mx-auto px-4 md:px-5 py-16 md:py-24">
-      <div class="max-w-[560px] ml-auto">
-        <!-- [운영자 사진 자리 — 흑백 정장 프로필, 추후 교체] -->
-        <div class="w-24 h-24 rounded-full bg-white/10 border border-white/15 mb-6"></div>
+  <div class="about-dark bg-[var(--bbfc-ink)]">
+    <!-- 섹션 1 — 헤드 -->
+    <section class="relative overflow-hidden">
+      <p
+        id="about-watermark"
+        aria-hidden="true"
+        class="pointer-events-none select-none absolute -left-4 top-1/2 -translate-y-1/2 text-[30vw] leading-none font-medium text-white/[0.04] whitespace-nowrap"
+      >
+        삥이
+      </p>
+      <div class="relative max-w-[1040px] mx-auto px-4 md:px-5 pt-16 pb-14 md:pt-28 md:pb-24">
+        <div class="flex flex-col md:flex-row md:items-center gap-10 md:gap-14">
+          <div data-reveal class="shrink-0 mx-auto md:mx-0">
+            <div class="about-photo-frame w-[168px] h-[168px] md:w-[220px] md:h-[220px]">
+              <img
+                src="/images/profile-bbinge.png"
+                alt="박성호(삥이) 프로필"
+                width="220"
+                height="220"
+                loading="eager"
+                fetchpriority="high"
+                class="about-photo"
+              />
+            </div>
+          </div>
 
-        <p class="text-[13px] text-white/60 font-normal">
-          기획, 브랜딩, 교육, 실행을 아우르는 실전형 브랜드 설계자
-        </p>
-        <h1 class="text-[24px] font-medium text-white mt-2">박성호 · 삥이</h1>
-        <p class="text-[15px] leading-[1.7] text-white/80 mt-4">
-          온라인에서는 필명 ‘삥이’, 사회에서는 ‘박성호’라는 이름으로 살아가는 기획자입니다.
-          존재의 무게를 감정으로 풀어내고, 감정의 구조를 기획으로 바꾸는 여정을 이어가고
-          있습니다. 감정은 기획의 연료이며, 기획은 감정의 해방구라고 믿습니다.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="max-w-[1040px] mx-auto px-4 md:px-5">
-    <!-- 섹션 2 — 前/現 이력 -->
-    <section class="mt-10 md:mt-14">
-      <h2 class="text-[18px] font-medium text-[var(--bbfc-ink)] border-b border-[var(--bbfc-border)] pb-2">
-        이력
-      </h2>
-      <ul class="mt-4">
-        {careers.map((c) => (
-          <li class="flex items-start gap-3 py-2 border-b border-[var(--bbfc-line)] last:border-b-0">
-            <span
-              class:list={[
-                'shrink-0 text-[11px] font-medium px-1.5 py-0.5 rounded-[4px]',
-                c.label === '現'
-                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
-                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
-              ]}
+          <div class="max-w-[560px]">
+            <p data-reveal class="text-[12px] md:text-[13px] tracking-wide text-white/55 font-normal">
+              기획, 브랜딩, 교육, 실행을 아우르는 실전형 브랜드 설계자
+            </p>
+            <h1
+              data-reveal
+              style="transition-delay:80ms"
+              class="text-[38px] md:text-[58px] leading-[1.05] font-medium text-white mt-3"
             >
-              {c.label}
-            </span>
-            <span class="text-[15px] leading-[1.7] text-[var(--bbfc-ink-2)]">{c.text}</span>
-          </li>
-        ))}
-      </ul>
-    </section>
-
-    <!-- 섹션 3 — 능력 분포도 -->
-    <section class="mt-10 md:mt-14">
-      <h2 class="text-[18px] font-medium text-[var(--bbfc-ink)] border-b border-[var(--bbfc-border)] pb-2">
-        능력 분포도
-      </h2>
-      <p class="text-[13px] text-[var(--bbfc-gray-2)] mt-3">
-        [능력 분포도 시각화 자리 — 레이더/막대 차트 데이터 추후 전달]
-      </p>
-      <p class="text-[15px] leading-[1.7] text-[var(--bbfc-ink-2)] mt-2">
-        과거엔 개발·연구·마케팅·디자인을 각각 사람에게 맡겨야 했습니다. 지금은 그 넷을 한
-        기획자가 직접 해냅니다.
-      </p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
-        {spectrum.map((s) => (
-          <div class="rounded-[8px] bg-[var(--bbfc-fill-2)] border border-[var(--bbfc-border)] p-4">
-            <p class="text-[14px] font-medium text-[var(--bbfc-ink)]">{s.title}</p>
-            <p class="text-[13px] leading-[1.7] text-[var(--bbfc-gray-1)] mt-1">{s.desc}</p>
+              박성호 <span class="text-white/40">·</span> 삥이
+            </h1>
+            <p
+              data-reveal
+              style="transition-delay:160ms"
+              class="text-[15px] md:text-[16px] leading-[1.8] text-white/75 mt-6"
+            >
+              온라인에서는 필명 ‘삥이’, 사회에서는 ‘박성호’라는 이름으로 살아가는 기획자입니다.
+              존재의 무게를 감정으로 풀어내고, 감정의 구조를 기획으로 바꾸는 여정을 이어가고
+              있습니다. 감정은 기획의 연료이며, 기획은 감정의 해방구라고 믿습니다.
+            </p>
           </div>
-        ))}
+        </div>
       </div>
     </section>
 
-    <!-- 섹션 4 — 온라인 권위 -->
-    <section class="mt-10 md:mt-14">
-      <h2 class="text-[18px] font-medium text-[var(--bbfc-ink)] border-b border-[var(--bbfc-border)] pb-2">
-        온라인 권위
-      </h2>
-      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 mt-4">
-        {authority.map((a) => (
-          <li class="py-2 border-b border-[var(--bbfc-line)]">
-            {a.pending ? (
-              <span class="text-[14px] leading-[1.6] text-[var(--bbfc-ink-2)]">
-                {a.text}
-                <span class="text-[11px] text-[var(--bbfc-gray-2)] ml-1">[링크 주소 대기]</span>
-              </span>
-            ) : (
-              <a
-                href={a.href}
-                class="text-[14px] leading-[1.6] text-[var(--bbfc-ink-2)] hover:text-[var(--bbfc-blue)]"
+    <div class="max-w-[1040px] mx-auto px-4 md:px-5">
+      <!-- 섹션 2 — 前/現 이력 -->
+      <section class="mt-16 md:mt-24">
+        <h2 data-reveal class="about-h2">이력</h2>
+        <ul class="mt-6">
+          {careers.map((c, i) => (
+            <li
+              data-reveal
+              style={`transition-delay:${i * 60}ms`}
+              class="flex items-start gap-4 py-3 border-b border-white/10 last:border-b-0"
+            >
+              <span
+                class:list={[
+                  'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                  c.label === '現' ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue)]/15' : 'text-white/45 bg-white/10',
+                ]}
               >
-                {a.text}
-              </a>
-            )}
-          </li>
-        ))}
-      </ul>
-    </section>
+                {c.label}
+              </span>
+              <span class="text-[16px] md:text-[17px] leading-[1.6] text-white/85">{c.text}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
 
-    <!-- 섹션 5 — 주요 의뢰인 / 성과 -->
-    <section class="mt-10 md:mt-14">
-      <h2 class="text-[18px] font-medium text-[var(--bbfc-ink)] border-b border-[var(--bbfc-border)] pb-2">
-        주요 의뢰인 · 성과
-      </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 mt-5">
-        {clients.map((c) => (
-          <div>
-            <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
-            <ul class="mt-2">
-              {c.items.map((item) => (
-                <li class="text-[14px] leading-[1.7] text-[var(--bbfc-ink-2)] py-1 border-b border-[var(--bbfc-line)] last:border-b-0">
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </section>
+      <!-- 섹션 3 — 능력 스펙트럼 -->
+      <section class="mt-16 md:mt-24">
+        <h2 data-reveal class="about-h2">능력 스펙트럼</h2>
+        <p data-reveal class="text-[11px] text-white/35 mt-3">[분포도 시각화 추후]</p>
+        <p data-reveal style="transition-delay:60ms" class="text-[16px] leading-[1.8] text-white/80 mt-3 max-w-[640px]">
+          과거엔 개발자·연구자·마케터·디자이너가 곁에 필요했습니다. 지금은 그 넷을 한 사람의
+          기획자가 직접 해냅니다.
+        </p>
+        <div class="mt-8 flex flex-col md:flex-row md:flex-wrap">
+          {spectrum.map((s, i) => (
+            <div
+              data-reveal
+              style={`transition-delay:${i * 70}ms`}
+              class="about-spectrum-item md:w-1/2 py-6 md:pr-8"
+            >
+              <span class="text-[13px] text-white/30 font-medium">{s.index}</span>
+              <p class="text-[22px] md:text-[26px] font-medium text-white mt-1">
+                {s.title}<span class="text-[14px] text-white/40 ml-1">{s.sub}</span>
+              </p>
+              <p class="text-[14px] leading-[1.7] text-white/60 mt-2 max-w-[360px]">{s.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-    <!-- 섹션 6 — 지적 이력 -->
-    <section class="mt-10 md:mt-14">
-      <h2 class="text-[18px] font-medium text-[var(--bbfc-ink)] border-b border-[var(--bbfc-border)] pb-2">
-        지적 이력
-      </h2>
-      <p class="text-[15px] leading-[1.7] text-[var(--bbfc-ink-2)] mt-4">
-        축구 저술의 분석력은 축구 바깥의 학문에서 옵니다. 축구를 정치경제·사회사로 읽는 시선의
-        근거입니다.
-      </p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
-        {intellectual.map((i) => (
-          <div class="rounded-[8px] bg-[var(--bbfc-fill-2)] border border-[var(--bbfc-border)] p-4">
-            <p class="text-[14px] font-medium text-[var(--bbfc-ink)]">{i.title}</p>
-            <p class="text-[13px] leading-[1.7] text-[var(--bbfc-gray-1)] mt-1">{i.desc}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+      <!-- 섹션 4 — 온라인 권위 -->
+      <section class="mt-16 md:mt-24">
+        <h2 data-reveal class="about-h2">온라인 권위</h2>
+        <ul class="columns-1 md:columns-2 gap-x-10 mt-6">
+          {authority.map((a, i) => (
+            <li
+              data-reveal
+              style={`transition-delay:${(i % 5) * 60}ms`}
+              class="about-link-row break-inside-avoid"
+            >
+              {a.pending ? (
+                <span class="about-link-row-inner">
+                  <span class="text-[14px] md:text-[15px] leading-[1.6] text-white/75">{a.text}</span>
+                  <span class="text-[11px] text-white/30 ml-2 whitespace-nowrap">[링크 주소 대기]</span>
+                </span>
+              ) : (
+                <a href={a.href} class="about-link-row-inner about-link-row-link">
+                  <span class="text-[14px] md:text-[15px] leading-[1.6]">{a.text}</span>
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
 
-    <!-- 섹션 7 — 연락처 -->
-    <section class="mt-10 mb-16 bg-[var(--bbfc-blue-weak)] rounded-[12px] p-6">
-      <h2 class="text-[16px] font-medium text-[var(--bbfc-ink)]">함께 만들고 싶은 것이 있다면.</h2>
-      <div class="flex flex-col sm:flex-row gap-3 mt-4">
-        <a
-          href={`tel:${PHONE}`}
-          class="inline-block bg-[var(--bbfc-blue)] text-white text-[13px] font-medium px-5 py-2.5 rounded-[8px] text-center"
-        >
-          전화 {PHONE}
-        </a>
-        <a
-          href={KAKAO_OPEN_CHAT}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-block bg-white text-[var(--bbfc-blue)] border border-[var(--bbfc-blue)] text-[13px] font-medium px-5 py-2.5 rounded-[8px] text-center"
-        >
-          카카오톡 오픈채팅
-        </a>
-      </div>
-    </section>
+      <!-- 섹션 5 — 주요 의뢰인 / 성과 -->
+      <section class="mt-16 md:mt-24">
+        <h2 data-reveal class="about-h2">주요 의뢰인 · 성과</h2>
+        <div class="columns-1 md:columns-2 gap-x-10 mt-6">
+          {clients.map((c, gi) => (
+            <div data-reveal style={`transition-delay:${(gi % 4) * 80}ms`} class="break-inside-avoid mb-8">
+              <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
+              <ul class="mt-2">
+                {c.items.map((item) => (
+                  <li class="about-client-row">
+                    <span class="text-[14px] md:text-[15px] leading-[1.7] text-white/90">{item.org}</span>
+                    <span class="text-[13px] md:text-[14px] leading-[1.7] text-white/50"> — {item.detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- 섹션 6 — 지적 이력 -->
+      <section class="mt-16 md:mt-24">
+        <h2 data-reveal class="about-h2">지적 이력</h2>
+        <p data-reveal class="text-[16px] leading-[1.8] text-white/80 mt-4 max-w-[640px]">
+          축구 저술의 분석력은 축구 바깥의 학문에서 옵니다. 축구를 정치경제·사회사로 읽는 시선의
+          근거입니다.
+        </p>
+        <div class="mt-6 flex flex-col gap-6 max-w-[720px]">
+          {intellectual.map((i, idx) => (
+            <div data-reveal style={`transition-delay:${idx * 80}ms`} class="border-l-[3px] border-[var(--bbfc-blue)] pl-5 py-1">
+              <p class="text-[15px] font-medium text-white">{i.title}</p>
+              <p class="text-[14px] leading-[1.8] text-white/60 mt-1.5">{i.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- 섹션 7 — 연락처 -->
+      <section data-reveal class="mt-16 md:mt-24 pb-20 md:pb-28">
+        <h2 class="text-[22px] md:text-[26px] font-medium text-white">함께 만들고 싶은 것이 있다면.</h2>
+        <div class="flex flex-col sm:flex-row gap-3 mt-6">
+          <a
+            href={`tel:${PHONE}`}
+            class="inline-flex items-center justify-center bg-[var(--bbfc-blue)] text-white text-[14px] font-medium px-6 py-3 rounded-[8px] transition-transform duration-200 hover:-translate-y-0.5 hover:brightness-110"
+          >
+            전화 {PHONE}
+          </a>
+          <a
+            href={KAKAO_OPEN_CHAT}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center bg-transparent text-white border border-white/25 text-[14px] font-medium px-6 py-3 rounded-[8px] transition-colors duration-200 hover:border-white/60"
+          >
+            카카오톡 오픈채팅
+          </a>
+        </div>
+      </section>
+    </div>
   </div>
 </Layout>
+
+<style>
+  .about-h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  .about-h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--bbfc-blue);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+  }
+  .about-h2.is-visible::after {
+    transform: scaleX(1);
+  }
+
+  .about-photo-frame {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 82% 100%, 0 100%);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 24px 60px -20px rgba(0, 0, 0, 0.7);
+  }
+  .about-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(1) contrast(1.05);
+    transform: scale(1.001);
+    transition: filter 0.5s ease, transform 0.5s ease;
+  }
+  .about-photo-frame:hover .about-photo {
+    filter: grayscale(0.15) contrast(1.02);
+    transform: scale(1.05);
+  }
+
+  .about-spectrum-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .about-spectrum-item:nth-child(-n + 2) {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .about-link-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .about-link-row-inner {
+    display: block;
+    position: relative;
+    padding: 12px 0 12px 14px;
+    color: inherit;
+    text-decoration: none;
+  }
+  .about-link-row-inner::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: var(--bbfc-blue);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+  }
+  a.about-link-row-link {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  a.about-link-row-link:hover {
+    color: #fff;
+  }
+  a.about-link-row-link:hover::before {
+    transform: scaleY(1);
+  }
+  a.about-link-row-link:hover {
+    transform: translateX(4px);
+  }
+  a.about-link-row-link {
+    transition: color 0.25s ease, transform 0.25s ease;
+  }
+
+  .about-client-row {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .about-client-row:last-child {
+    border-bottom: none;
+  }
+
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  [data-reveal].is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal] {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    .about-h2::after {
+      transform: scaleX(1);
+      transition: none;
+    }
+    .about-photo-frame:hover .about-photo {
+      transform: none;
+    }
+  }
+</style>
+
+<script>
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!reduceMotion) {
+    const revealTargets = document.querySelectorAll('[data-reveal], .about-h2');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        }
+      },
+      { threshold: 0.15, rootMargin: '0px 0px -8% 0px' }
+    );
+    revealTargets.forEach((el) => observer.observe(el));
+
+    const watermark = document.getElementById('about-watermark');
+    if (watermark) {
+      let ticking = false;
+      const onScroll = () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          const offset = window.scrollY * 0.12;
+          watermark.style.transform = `translateY(calc(-50% + ${offset}px))`;
+          ticking = false;
+        });
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
+  } else {
+    document.querySelectorAll('[data-reveal], .about-h2').forEach((el) => el.classList.add('is-visible'));
+  }
+</script>
