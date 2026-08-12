@@ -2,35 +2,54 @@
 import { site } from '../../config/site';
 import Layout from '../../layouts/Layout.astro';
 
-const KAKAO_OPEN_CHAT = 'https://open.kakao.com/o/ggGoIOvh';
-const PHONE = '010-5027-2588';
+const INSTAGRAM_URL = 'https://www.instagram.com/bbinge_26/';
+const NAVER_BLOG_URL = 'https://blog.naver.com/sho3603';
+const EMAIL = 'sho3603@naver.com';
 
-const careers = [
+const skills = ['경영기획', '광고기획', '마케팅', '디자인', '개발', '연구'];
+
+const careerTrack1 = [
   { label: '前', text: 'SPOTV NOW 공식 프리뷰어 (2018~2025)' },
   { label: '現', text: 'NAVER 공식 프로스포츠 인플루언서 (@삥이)' },
   { label: '現', text: 'KAKAO 브런치 작가' },
-  { label: '現', text: '오늘의브랜딩(AUBE KOREA) 기획팀장' },
-  { label: '現', text: '㈜몸미 COO' },
 ];
 
-const spectrum = [
-  { index: '01', title: '기획', sub: '(본체)', desc: '브랜드 전략부터 실행 계획까지, 프로젝트 전체를 설계하고 조율한다.' },
-  { index: '02', title: '개발', sub: '', desc: '정적 웹·자동화 도구를 직접 구현해 기획을 실물로 옮긴다.' },
-  { index: '03', title: '연구·분석', sub: '', desc: '논문·리뷰 데이터를 근거로 삼아 기획의 타당성을 검증한다.' },
-  { index: '04', title: '디자인', sub: '', desc: '정보 위계와 타이포를 직접 조판해 완성도를 마무리한다.' },
+const careerTrack2 = [
+  { label: '前', text: '대전시 소재 종합광고대행사 마케팅팀 대리' },
+  { label: '前', text: '대전시 소재 언론기획사 기획팀 총괄' },
+  { label: '現', text: '서울시 소재 IT 개발 및 종합기획사 COO' },
 ];
 
-const authority = [
-  { text: '조선일보 GOOGLE & NAVER 광고 생태계 자문 및 본인 출연', href: '#', pending: true },
-  { text: '나무위키 ‘화제의 인물’ 공식 등재', href: '#', pending: true },
-  { text: 'NAVER 인물검색 공식 등록 / NAVER ‘프로스포츠’ 공식 인플루언서', href: '#', pending: true },
-  { text: 'NAVER 공식 광고 대상자 (대한민국 64번째 슈퍼애드)', href: '#', pending: true },
-  { text: 'NAVER 광고 전문가 인증 (EXPERT 승인)', href: '#', pending: true },
-  { text: 'NAVER 블로그 3채널 — 삥이N스포츠 / 삥이핏(OOTD) / 광자삥이(DONEMOYA)', href: '#', pending: true },
-  { text: 'NAVER 카페 운영 (중고유통업, 회원 약 1만)', href: '#', pending: true },
-  { text: 'KAKAO 브런치스토리 공식 작가 / KAKAO 티스토리 (BBingStory)', href: '#', pending: true },
-  { text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업, 2018~2025)', href: '#', pending: true },
-  { text: 'Instagram (@bbinge_26 / @bbinge_official) / Substack (@bbinge)', href: '#', pending: true },
+// 아이콘: outline 스타일 SVG path 모음 (24x24 viewBox, currentColor)
+const icons = {
+  newspaper: 'M4 4h13a2 2 0 0 1 2 2v13a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2V4Z M4 4v14 M8 8h7 M8 12h7 M8 16h4 M19 8h1a1 1 0 0 1 1 1v9a2 2 0 0 1-2 2h-1',
+  book: 'M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z',
+  user: 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M5 21a7 7 0 0 1 14 0',
+  users: 'M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M23 21v-2a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75',
+  edit: 'M11 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5 M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5Z',
+  video: 'M15 10 20.55 6.7A1 1 0 0 1 22 7.57v8.86a1 1 0 0 1-1.45.87L15 14 M2 6h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2Z',
+  badge: 'M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6Z M9 12l2 2 4-4',
+  feather:
+    'M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5l6.74-6.76Z M16 8 2 22 M17.5 15H9',
+  camera:
+    'M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2Z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z',
+  broadcast:
+    'M4 15a8 8 0 0 1 16 0 M8.5 12.5a3.5 3.5 0 0 1 7 0 M12 15v0 M2 19h20',
+  mail: 'M4 4h16v16H4Z M22 6l-10 7L2 6',
+};
+
+const authority: { icon: keyof typeof icons; text: string; href: string | null }[] = [
+  { icon: 'newspaper', text: '조선일보 · 삥이 (Google·NAVER 광고 생태계 자문)', href: null },
+  { icon: 'book', text: '나무위키 · 삥이', href: null },
+  { icon: 'user', text: 'NAVER 인물 / NAVER 인플루언서', href: null },
+  { icon: 'users', text: 'NAVER 카페 운영자 (중고거래 틈새마켓, 회원 약 1만)', href: null },
+  { icon: 'edit', text: 'NAVER 블로그 @삥이(삥이N스포츠) / @삥이핏 / @광자삥이(DONEMOYA)', href: null },
+  { icon: 'video', text: 'NAVER TV/Clip (삥이_official)', href: null },
+  { icon: 'badge', text: 'NAVER expert (광고 전문가 자격)', href: null },
+  { icon: 'feather', text: 'Kakao BrunchStory 작가 / Kakao Tistory 창작자(BBingStory)', href: null },
+  { icon: 'camera', text: 'Instagram @bbinge_26 / @bbinge_official', href: null },
+  { icon: 'broadcast', text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업)', href: null },
+  { icon: 'mail', text: 'Substack @bbinge', href: null },
 ];
 
 const clients = [
@@ -90,17 +109,6 @@ const clients = [
     ],
   },
 ];
-
-const intellectual = [
-  {
-    title: '다학제 기록소',
-    desc: '마케팅 / 경영 / 법학 / 심리학 / 인문·철학 / 의학 — 교육 자료로 체계화.',
-  },
-  {
-    title: '논문 분석 연구소',
-    desc: '병원 마케팅 전략, 한의원 리뷰 14,891건 분석, 마케팅 7Ps 기반 재방문 의사 분석, 조직화된 객관적 환원 이론(Orch OR), GEO(생성형 엔진 최적화).',
-  },
-];
 ---
 
 <Layout
@@ -111,190 +119,181 @@ const intellectual = [
     { label: '소개', href: '/about/' },
   ]}
 >
-  <div class="about-dark bg-[var(--bbfc-ink)]">
-    <!-- 섹션 1 — 헤드 -->
-    <section class="relative overflow-hidden">
-      <p
-        id="about-watermark"
-        aria-hidden="true"
-        class="pointer-events-none select-none absolute -left-4 top-1/2 -translate-y-1/2 text-[30vw] leading-none font-medium text-white/[0.04] whitespace-nowrap"
-      >
-        삥이
-      </p>
-      <div class="relative max-w-[1040px] mx-auto px-4 md:px-5 pt-16 pb-14 md:pt-28 md:pb-24">
-        <div class="flex flex-col md:flex-row md:items-center gap-10 md:gap-14">
-          <div data-reveal class="shrink-0 mx-auto md:mx-0">
-            <div class="about-photo-frame w-[168px] h-[168px] md:w-[220px] md:h-[220px]">
-              <img
-                src="/images/profile-bbinge.png"
-                alt="박성호(삥이) 프로필"
-                width="220"
-                height="220"
-                loading="eager"
-                fetchpriority="high"
-                class="about-photo"
-              />
-            </div>
-          </div>
-
-          <div class="max-w-[560px]">
-            <p data-reveal class="text-[12px] md:text-[13px] tracking-wide text-white/55 font-normal">
-              기획, 브랜딩, 교육, 실행을 아우르는 실전형 브랜드 설계자
-            </p>
-            <h1
-              data-reveal
-              style="transition-delay:80ms"
-              class="text-[38px] md:text-[58px] leading-[1.05] font-medium text-white mt-3"
-            >
-              박성호 <span class="text-white/40">·</span> 삥이
-            </h1>
-            <p
-              data-reveal
-              style="transition-delay:160ms"
-              class="text-[15px] md:text-[16px] leading-[1.8] text-white/75 mt-6"
-            >
-              온라인에서는 필명 ‘삥이’, 사회에서는 ‘박성호’라는 이름으로 살아가는 기획자입니다.
-              존재의 무게를 감정으로 풀어내고, 감정의 구조를 기획으로 바꾸는 여정을 이어가고
-              있습니다. 감정은 기획의 연료이며, 기획은 감정의 해방구라고 믿습니다.
-            </p>
+  <!-- 섹션 1 — 히어로 -->
+  <section class="relative overflow-hidden">
+    <p
+      id="about-watermark"
+      aria-hidden="true"
+      class="pointer-events-none select-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-medium whitespace-nowrap"
+      style="font-size:clamp(56px,13vw,200px); color:var(--bbfc-blue); opacity:0.1; line-height:1;"
+    >
+      @삥이
+    </p>
+    <div class="relative max-w-[1040px] mx-auto px-4 md:px-5 pt-14 pb-12 md:pt-20 md:pb-16">
+      <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-14">
+        <div data-reveal class="shrink-0 mx-auto md:mx-0">
+          <div class="about-photo-frame w-[136px] h-[136px] md:w-[176px] md:h-[176px]">
+            <img
+              src="/images/profile-bbinge.png"
+              alt="박성호(삥이) 프로필"
+              width="176"
+              height="176"
+              loading="eager"
+              fetchpriority="high"
+              class="about-photo"
+            />
           </div>
         </div>
+
+        <div class="max-w-[560px] text-center md:text-left">
+          <p data-reveal class="text-[18px] md:text-[21px] leading-[1.7] text-[var(--bbfc-ink)]">
+            기획자 박성호. 온라인에서는 삥이로 씁니다.
+          </p>
+          <p
+            data-reveal
+            style="transition-delay:80ms"
+            class="text-[18px] md:text-[21px] leading-[1.7] text-[var(--bbfc-gray-1)]"
+          >
+            광고·브랜딩이 업이고, 축구사(史) 저술이 오래된 일입니다.
+          </p>
+        </div>
+      </div>
+
+      <!-- SKILL 태그 -->
+      <div data-reveal style="transition-delay:140ms" class="mt-10 md:mt-14">
+        <p class="text-[11px] tracking-wide text-[var(--bbfc-gray-2)] font-medium">SKILL</p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          {skills.map((s) => (
+            <span class="text-[13px] text-[var(--bbfc-gray-1)] bg-[var(--bbfc-fill)] px-3 py-1.5 rounded-[6px]">
+              {s}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-[1040px] mx-auto px-4 md:px-5">
+    <!-- 섹션 2 — 이력 -->
+    <section class="mt-14 md:mt-20">
+      <h2 data-reveal class="about-h2">이력</h2>
+      <ul class="mt-6">
+        {careerTrack1.map((c, i) => (
+          <li
+            data-reveal
+            style={`transition-delay:${i * 60}ms`}
+            class="flex items-start gap-4 py-3 border-b border-[var(--bbfc-line)]"
+          >
+            <span
+              class:list={[
+                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                c.label === '現'
+                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
+                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
+              ]}
+            >
+              {c.label}
+            </span>
+            <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
+          </li>
+        ))}
+      </ul>
+      <div class="my-3 border-t border-dashed border-[var(--bbfc-border)]" aria-hidden="true"></div>
+      <ul>
+        {careerTrack2.map((c, i) => (
+          <li
+            data-reveal
+            style={`transition-delay:${i * 60}ms`}
+            class="flex items-start gap-4 py-3 border-b border-[var(--bbfc-line)] last:border-b-0"
+          >
+            <span
+              class:list={[
+                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                c.label === '現'
+                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
+                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
+              ]}
+            >
+              {c.label}
+            </span>
+            <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- 섹션 3 — 온라인 권위 -->
+    <section class="mt-14 md:mt-20">
+      <h2 data-reveal class="about-h2">온라인 권위</h2>
+      <ul class="columns-1 md:columns-2 gap-x-10 mt-6">
+        {authority.map((a, i) => (
+          <li data-reveal style={`transition-delay:${(i % 5) * 60}ms`} class="about-link-row break-inside-avoid">
+            <span class="about-link-row-inner">
+              <svg
+                class="about-link-icon"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d={icons[a.icon]} />
+              </svg>
+              <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- 섹션 4 — 주요 의뢰인 / 성과 -->
+    <section class="mt-14 md:mt-20">
+      <h2 data-reveal class="about-h2">주요 의뢰인 · 성과</h2>
+      <div class="columns-1 md:columns-2 gap-x-10 mt-6">
+        {clients.map((c, gi) => (
+          <div data-reveal style={`transition-delay:${(gi % 4) * 80}ms`} class="break-inside-avoid mb-8">
+            <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
+            <ul class="mt-2">
+              {c.items.map((item) => (
+                <li class="about-client-row">
+                  <span class="text-[14px] md:text-[15px] leading-[1.7] text-[var(--bbfc-ink)]">{item.org}</span>
+                  <span class="text-[13px] md:text-[14px] leading-[1.7] text-[var(--bbfc-gray-1)]"> — {item.detail}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </section>
 
-    <div class="max-w-[1040px] mx-auto px-4 md:px-5">
-      <!-- 섹션 2 — 前/現 이력 -->
-      <section class="mt-16 md:mt-24">
-        <h2 data-reveal class="about-h2">이력</h2>
-        <ul class="mt-6">
-          {careers.map((c, i) => (
-            <li
-              data-reveal
-              style={`transition-delay:${i * 60}ms`}
-              class="flex items-start gap-4 py-3 border-b border-white/10 last:border-b-0"
-            >
-              <span
-                class:list={[
-                  'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
-                  c.label === '現' ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue)]/15' : 'text-white/45 bg-white/10',
-                ]}
-              >
-                {c.label}
-              </span>
-              <span class="text-[16px] md:text-[17px] leading-[1.6] text-white/85">{c.text}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <!-- 섹션 3 — 능력 스펙트럼 -->
-      <section class="mt-16 md:mt-24">
-        <h2 data-reveal class="about-h2">능력 스펙트럼</h2>
-        <p data-reveal class="text-[11px] text-white/35 mt-3">[분포도 시각화 추후]</p>
-        <p data-reveal style="transition-delay:60ms" class="text-[16px] leading-[1.8] text-white/80 mt-3 max-w-[640px]">
-          과거엔 개발자·연구자·마케터·디자이너가 곁에 필요했습니다. 지금은 그 넷을 한 사람의
-          기획자가 직접 해냅니다.
-        </p>
-        <div class="mt-8 flex flex-col md:flex-row md:flex-wrap">
-          {spectrum.map((s, i) => (
-            <div
-              data-reveal
-              style={`transition-delay:${i * 70}ms`}
-              class="about-spectrum-item md:w-1/2 py-6 md:pr-8"
-            >
-              <span class="text-[13px] text-white/30 font-medium">{s.index}</span>
-              <p class="text-[22px] md:text-[26px] font-medium text-white mt-1">
-                {s.title}<span class="text-[14px] text-white/40 ml-1">{s.sub}</span>
-              </p>
-              <p class="text-[14px] leading-[1.7] text-white/60 mt-2 max-w-[360px]">{s.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <!-- 섹션 4 — 온라인 권위 -->
-      <section class="mt-16 md:mt-24">
-        <h2 data-reveal class="about-h2">온라인 권위</h2>
-        <ul class="columns-1 md:columns-2 gap-x-10 mt-6">
-          {authority.map((a, i) => (
-            <li
-              data-reveal
-              style={`transition-delay:${(i % 5) * 60}ms`}
-              class="about-link-row break-inside-avoid"
-            >
-              {a.pending ? (
-                <span class="about-link-row-inner">
-                  <span class="text-[14px] md:text-[15px] leading-[1.6] text-white/75">{a.text}</span>
-                  <span class="text-[11px] text-white/30 ml-2 whitespace-nowrap">[링크 주소 대기]</span>
-                </span>
-              ) : (
-                <a href={a.href} class="about-link-row-inner about-link-row-link">
-                  <span class="text-[14px] md:text-[15px] leading-[1.6]">{a.text}</span>
-                </a>
-              )}
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <!-- 섹션 5 — 주요 의뢰인 / 성과 -->
-      <section class="mt-16 md:mt-24">
-        <h2 data-reveal class="about-h2">주요 의뢰인 · 성과</h2>
-        <div class="columns-1 md:columns-2 gap-x-10 mt-6">
-          {clients.map((c, gi) => (
-            <div data-reveal style={`transition-delay:${(gi % 4) * 80}ms`} class="break-inside-avoid mb-8">
-              <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
-              <ul class="mt-2">
-                {c.items.map((item) => (
-                  <li class="about-client-row">
-                    <span class="text-[14px] md:text-[15px] leading-[1.7] text-white/90">{item.org}</span>
-                    <span class="text-[13px] md:text-[14px] leading-[1.7] text-white/50"> — {item.detail}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <!-- 섹션 6 — 지적 이력 -->
-      <section class="mt-16 md:mt-24">
-        <h2 data-reveal class="about-h2">지적 이력</h2>
-        <p data-reveal class="text-[16px] leading-[1.8] text-white/80 mt-4 max-w-[640px]">
-          축구 저술의 분석력은 축구 바깥의 학문에서 옵니다. 축구를 정치경제·사회사로 읽는 시선의
-          근거입니다.
-        </p>
-        <div class="mt-6 flex flex-col gap-6 max-w-[720px]">
-          {intellectual.map((i, idx) => (
-            <div data-reveal style={`transition-delay:${idx * 80}ms`} class="border-l-[3px] border-[var(--bbfc-blue)] pl-5 py-1">
-              <p class="text-[15px] font-medium text-white">{i.title}</p>
-              <p class="text-[14px] leading-[1.8] text-white/60 mt-1.5">{i.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <!-- 섹션 7 — 연락처 -->
-      <section data-reveal class="mt-16 md:mt-24 pb-20 md:pb-28">
-        <h2 class="text-[22px] md:text-[26px] font-medium text-white">함께 만들고 싶은 것이 있다면.</h2>
-        <div class="flex flex-col sm:flex-row gap-3 mt-6">
-          <a
-            href={`tel:${PHONE}`}
-            class="inline-flex items-center justify-center bg-[var(--bbfc-blue)] text-white text-[14px] font-medium px-6 py-3 rounded-[8px] transition-transform duration-200 hover:-translate-y-0.5 hover:brightness-110"
-          >
-            전화 {PHONE}
-          </a>
-          <a
-            href={KAKAO_OPEN_CHAT}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center justify-center bg-transparent text-white border border-white/25 text-[14px] font-medium px-6 py-3 rounded-[8px] transition-colors duration-200 hover:border-white/60"
-          >
-            카카오톡 오픈채팅
-          </a>
-        </div>
-      </section>
-    </div>
+    <!-- 섹션 5 — 연락처 -->
+    <section data-reveal class="mt-14 md:mt-20 pb-16 md:pb-24">
+      <h2 class="text-[16px] font-medium text-[var(--bbfc-ink)]">연락은 이곳으로.</h2>
+      <div class="flex flex-wrap gap-3 mt-5">
+        <a
+          href={NAVER_BLOG_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="about-cta"
+        >
+          네이버 블로그
+        </a>
+        <a
+          href={INSTAGRAM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="about-cta"
+        >
+          인스타그램
+        </a>
+        <a href={`mailto:${EMAIL}`} class="about-cta about-cta-solid">
+          이메일 보내기
+        </a>
+      </div>
+    </section>
   </div>
 </Layout>
 
@@ -304,7 +303,7 @@ const intellectual = [
     position: relative;
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: var(--bbfc-ink);
     padding-bottom: 10px;
   }
   .about-h2::after {
@@ -328,38 +327,30 @@ const intellectual = [
     border-radius: 16px;
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 82%, 82% 100%, 0 100%);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 24px 60px -20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 0 1px var(--bbfc-border), 0 20px 40px -20px rgba(25, 31, 40, 0.25);
   }
   .about-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-    filter: grayscale(1) contrast(1.05);
     transform: scale(1.001);
-    transition: filter 0.5s ease, transform 0.5s ease;
+    transition: transform 0.5s ease;
   }
   .about-photo-frame:hover .about-photo {
-    filter: grayscale(0.15) contrast(1.02);
     transform: scale(1.05);
   }
 
-  .about-spectrum-item {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  .about-spectrum-item:nth-child(-n + 2) {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
   .about-link-row {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid var(--bbfc-line);
   }
   .about-link-row-inner {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     position: relative;
     padding: 12px 0 12px 14px;
-    color: inherit;
-    text-decoration: none;
+    transition: color 0.25s ease, transform 0.25s ease;
   }
   .about-link-row-inner::before {
     content: '';
@@ -373,33 +364,57 @@ const intellectual = [
     transform-origin: top;
     transition: transform 0.3s ease;
   }
-  a.about-link-row-link {
-    color: rgba(255, 255, 255, 0.75);
+  .about-link-icon {
+    color: var(--bbfc-gray-2);
+    flex-shrink: 0;
+    transition: color 0.25s ease;
   }
-  a.about-link-row-link:hover {
-    color: #fff;
-  }
-  a.about-link-row-link:hover::before {
-    transform: scaleY(1);
-  }
-  a.about-link-row-link:hover {
+  .about-link-row:hover .about-link-row-inner {
     transform: translateX(4px);
   }
-  a.about-link-row-link {
-    transition: color 0.25s ease, transform 0.25s ease;
+  .about-link-row:hover .about-link-row-inner::before {
+    transform: scaleY(1);
+  }
+  .about-link-row:hover .about-link-icon {
+    color: var(--bbfc-blue);
   }
 
   .about-client-row {
     padding: 6px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid var(--bbfc-line);
   }
   .about-client-row:last-child {
     border-bottom: none;
   }
 
+  .about-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--bbfc-ink-2);
+    background: var(--bbfc-fill);
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .about-cta:hover {
+    background: var(--bbfc-blue-weak);
+    color: var(--bbfc-blue);
+  }
+  .about-cta-solid {
+    background: var(--bbfc-blue);
+    color: #fff;
+  }
+  .about-cta-solid:hover {
+    background: var(--bbfc-blue-strong);
+    color: #fff;
+  }
+
   [data-reveal] {
     opacity: 0;
-    transform: translateY(28px);
+    transform: translateY(24px);
     transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   }
   [data-reveal].is-visible {
@@ -448,8 +463,8 @@ const intellectual = [
         if (ticking) return;
         ticking = true;
         requestAnimationFrame(() => {
-          const offset = window.scrollY * 0.12;
-          watermark.style.transform = `translateY(calc(-50% + ${offset}px))`;
+          const offset = window.scrollY * 0.08;
+          watermark.style.transform = `translate(-50%, calc(-50% + ${offset}px))`;
           ticking = false;
         });
       };
