@@ -2,22 +2,44 @@
 import { site } from '../config/site';
 ---
 
-<footer class="border-t border-[var(--bbfc-line)] px-4 md:px-5 py-6 mt-8">
-  <div class="max-w-[1040px] mx-auto">
-    <div class="flex flex-wrap items-start justify-between gap-4">
+<footer class="mt-14 border-t border-[var(--bbfc-border)] bg-[var(--bbfc-fill-2)]">
+  <div class="max-w-[1040px] mx-auto px-5 py-10 md:py-12">
+    <div class="grid gap-9 md:grid-cols-[1.6fr_1fr_1fr]">
       <div>
-        <p class="text-[14px] font-medium text-[var(--bbfc-ink)] mb-1">{site.fullName}</p>
-        <p class="text-[12px] text-[var(--bbfc-gray-1)]">{site.tagline}</p>
+        <a href="/" class="text-[16px] font-semibold tracking-[-0.02em] text-[var(--bbfc-ink)]">{site.fullName}</a>
+        <p class="mt-2 text-[13px] text-[var(--bbfc-gray-1)]">{site.tagline}</p>
+        <p class="mt-4 max-w-[390px] text-[12px] leading-[1.75] text-[var(--bbfc-gray-2)]">
+          경기 결과보다 오래 남는 축구의 역사·공간·유니폼·서사를 기록하는 박성호(삥이)의 독립 매거진입니다.
+        </p>
       </div>
-      <nav class="flex gap-4 text-[12px] text-[var(--bbfc-gray-1)]">
-        <a href="/about/">소개</a>
-        <a href="/privacy/">개인정보처리방침</a>
-        <a href="/terms/">이용약관</a>
-        <a href="/contact/">문의</a>
-      </nav>
+
+      <div>
+        <p class="footer-label">EXPLORE</p>
+        <nav class="footer-links" aria-label="콘텐츠 탐색">
+          <a href="/history/">축세</a><a href="/pilgrimage/">축행</a><a href="/play/">축겜</a><a href="/culture/">축디</a>
+        </nav>
+      </div>
+
+      <div>
+        <p class="footer-label">BBINGE FC</p>
+        <nav class="footer-links" aria-label="사이트 안내">
+          <a href="/about/">소개</a><a href="/editorial-policy/">편집·정정 원칙</a><a href="/contact/">문의</a>
+        </nav>
+      </div>
     </div>
-    <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-5">
-      © {new Date().getFullYear()} {site.name}. All rights reserved.
-    </p>
+
+    <div class="mt-9 pt-5 border-t border-[var(--bbfc-border)] flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      <nav class="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-[var(--bbfc-gray-2)]" aria-label="정책 안내">
+        <a href="/privacy/">개인정보처리방침</a><a href="/terms/">이용약관</a><a href={`mailto:${site.email}`}>{site.email}</a>
+      </nav>
+      <p class="text-[11px] text-[var(--bbfc-gray-2)]">© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
+    </div>
   </div>
 </footer>
+
+<style>
+  .footer-label { font-size: 10px; font-weight: 600; letter-spacing: .15em; color: var(--bbfc-gray-2); }
+  .footer-links { display: grid; gap: .55rem; margin-top: .8rem; font-size: 13px; color: var(--bbfc-ink-2); }
+  footer a { transition: color 150ms ease; }
+  footer a:hover { color: var(--bbfc-blue-strong); }
+</style>

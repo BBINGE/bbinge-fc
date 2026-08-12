@@ -60,6 +60,28 @@ const articleSchema = article
       },
     }
   : null;
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${site.url}/#website`,
+  url: site.url,
+  name: site.name,
+  alternateName: site.fullName,
+  description: site.tagline,
+  inLanguage: site.locale,
+  publisher: { '@id': `${site.url}/#author` },
+};
+
+const authorSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${site.url}/#author`,
+  name: site.authorName,
+  alternateName: site.author,
+  url: `${site.url}/about/`,
+  sameAs: [site.naverBlog, site.instagram],
+};
 ---
 
 <!doctype html>
@@ -71,6 +93,10 @@ const articleSchema = article
     <link rel="canonical" href={canonicalURL} />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <meta name="author" content={`${site.authorName}(${site.author})`} />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
 
     <meta property="og:type" content={type} />
     <meta property="og:title" content={pageTitle} />
@@ -91,6 +117,8 @@ const articleSchema = article
          키 등록 전까지 ShareButtons.astro의 카카오 공유 버튼은 링크 복사로 자동 대체된다. -->
 
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(authorSchema)} />
     {articleSchema && (
       <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}

@@ -5,4 +5,8 @@ export const site = {
   url: 'https://bbingefc.com',
   locale: 'ko-KR',
   author: '삥이',
+  authorName: '박성호',
+  email: 'sho3603@naver.com',
+  naverBlog: 'https://blog.naver.com/sho3603',
+  instagram: 'https://www.instagram.com/bbinge_26/',
 };
