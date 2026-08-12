@@ -1,6 +1,6 @@
 # BBinge FC — 공용 인수인계
 
-최종 갱신: 2026-08-12
+최종 갱신: 2026-08-13
 
 대상: Claude, Codex 및 이후 유지보수 담당자
 
@@ -51,18 +51,31 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 - 사이트 골격: 메인(`/`), 카테고리 목록(`/[category]/`), 글 상세(`/[category]/[slug]/`), GOAT 토너먼트(`/play/`), about, contact, privacy
 - 4개 카테고리 확정: history(축세·축구로 보는 세계사)·pilgrimage(축행·축구로 가는 세계여행)·play(축겜·축구로 노는 게임)·culture(축디·축구로 보는 OOTD) — `src/config/categories.ts`. URL 슬러그는 영문 유지, 표시명만 한글. `/play/`는 카테고리 글 목록이 아니라 GOAT 도구 전용 페이지
-- 컴포넌트: Header, Footer, GoatBanner, FeaturedSplit, LatestGrid, CategoryArticleList, RelatedList, AdSlot
+- 컴포넌트: Header, Footer, HomeHero, CategorySidebar, ArticleCardGrid, CategoryArticleList, RelatedList, ShareButtons, AdSlot, InfoPage
 - Pretendard 서브셋 폰트, Tailwind, sitemap 통합, robots.txt
 - GA4·AdSense 삽입 자리 주석 처리 (`Layout.astro` 88–89행, `AdSlot.astro`)
 - Sveltia CMS 관리자 + GitHub OAuth + 6시간 예약 배포
 
 글 현황:
 
-- `supurga-pilgrimage.md` 1건 — 본문은 자리표시자. 실제 원고는 운영자가 직접 작성 예정 (기존 발행 칼럼 보유)
+- `src/content/articles/`에 3개 파일이 있으나 `supurga-pilgrimage.md`는 본문 자리표시자이고 나머지 2개는 발행 흐름 시험 산출물이다. 공개용 실콘텐츠 투입은 아직 시작 전이다.
 
 ## 5. 남은 주요 작업
 
-- **[최우선] 블로그 에디터 시스템** — `EDITOR_SPEC.md` v1.1, §6 진행 상황:
+### 2026-08-13 운영자 결정 — 개발보다 콘텐츠 전환 우선
+
+- 최초 사업 목표는 **AdSense 달러 수익에 빠르게 도달하는 것**이다. 운영자는 방대한 기존 NAVER 블로그 아카이브, 카드뉴스 이미지, 축구사 자료와 신규 기획을 보유하고 있지만 본업(COO) 때문에 직접 편집·발행할 시간이 부족하다.
+- TipTap 자체 에디터 고도화는 당분간 **중단·후순위화**한다. 이미 구현한 코드는 보존하되 유튜브 블록, 완전한 네이버형 편집 경험 등에 추가 시간을 쓰지 않는다.
+- NAVER 블로그에는 HTML 모드가 없으므로 단순 HTML 추출·이전이 아니라, 운영자가 제공하는 원문·이미지를 Claude Code/Codex가 삥이FC용 콘텐츠로 **재구성·디벨롭**한다.
+- 목표 흐름: `원문·카드뉴스·기획 투입 → AI 구조화·편집 → HTML/마크다운 생성 → 로컬 미리보기 → 운영자 검수 → main 커밋·배포`.
+- 운영자는 주제·핵심 주장·사실 판단·최종 승인에 집중한다. AI는 서식, 이미지 경로, 메타데이터, 출처, 내부 링크, SEO, 빌드와 배포를 담당한다. 운영자가 쓴 확정 문장과 관점은 요청 없이 바꾸지 않는다.
+- 초기 콘텐츠 포트폴리오는 기존 자산 재개발을 중심으로 하고, 아카이브형·대중형·고밀도 대표 칼럼을 서로 다른 호흡으로 운영한다. 모든 글을 대표 칼럼 수준으로 수작업하지 않는다.
+- 검색 등록(Google Search Console, NAVER Search Advisor), GA4, AdSense는 기초 페이지와 실제 콘텐츠가 어느 정도 축적되고 `bbingefc.com` 연결을 검증한 뒤 진행한다. 지금 당장 등록 작업을 우선하지 않는다.
+- 다음 작업자는 새 UI나 편집기 기능을 먼저 제안하지 말고, 운영자가 전달하는 첫 실제 콘텐츠 묶음을 사이트 형식으로 전환하는 일부터 시작한다.
+
+### 보존된 에디터 구현 상태 — 당분간 후순위
+
+- 블로그 에디터 시스템 — `EDITOR_SPEC.md` v1.1, §6 진행 상황:
   - 1단계(2026-07-28): `/admin/write/`에 TipTap(오픈소스 위지윅) 이식. §2 명시 기능 전부 활성화, 마크다운 문법 미노출.
   - 2단계는 R2 대신 **GitHub `public/images/` 직접 커밋 방식**으로 대체 확정(운영자 결정, 2026-07-29). R2 인프라는 도입하지 않음.
   - 4단계(2026-07-29): 카테고리를 `src/data/categories.json` 데이터 파일로 분리. `content.config.ts`가 이 파일에서 slug 목록을 읽어 zod 스키마를 만듦. Sveltia CMS(`/admin`)에 "설정 → 카테고리" 파일 컬렉션 추가, 글쓰기 화면의 카테고리 필드는 `relation` 위젯으로 이 설정을 참조. 기존 축세·축행·축겜·축디 값 그대로 유지.
@@ -74,7 +87,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
     - 발행: TipTap HTML → `turndown`(+`turndown-plugin-gfm`)으로 마크다운 변환(밑줄·형광펜·위아래첨자·글자색/크기/폰트·정렬은 markdown에 없는 서식이라 Astro가 지원하는 raw HTML로 보존) → frontmatter 조립 → GitHub Contents API로 `src/content/articles/{slug}.md` 커밋. 발행 성공 시 자동저장 초고 삭제.
     - `public/admin/config.yml`의 `backend.repo`를 개명된 저장소명 `BBINGE/bbinge-fc`로 정정(기존 `bbinge-fc-`는 자동 리다이렉트되지만 새 에디터 코드는 정확한 이름 사용).
     - **로컬 dev 서버(localhost)에서는 실제 GitHub 로그인·발행이 동작하지 않음** — OAuth 콜백이 배포 도메인 기준이라 실제 검증은 `bbinge-fc.pages.dev`(또는 커스텀 도메인) 배포본에서만 가능. 로컬에서는 폼 로직·자동저장·마크다운 변환 로직만 확인됨.
-  - **남은 단계**: §6 3단계(유튜브 임베드), 6단계(발행 흐름 3구간 실사용 검증 — 실제 배포본에서 로그인→글쓰기→사진 삽입→발행까지 운영자가 직접 1회 확인 필요). 완료되면 §8(Sveltia CMS 정리)로 이어감.
+  - 미완료: §6 3단계(유튜브 임베드), 6단계(발행 흐름 실사용 검증). **운영자가 다시 지시하기 전에는 이어서 구현하지 않는다.** Sveltia CMS와 기존 `/admin/write/` 코드는 삭제하지 않고 보존한다.
 
 - 디자인 구현 — `DESIGN.md` v1.0 §4의 메인/카테고리 목록/글 상세 3개 페이지 모두 구현 완료, 380/768/1280px 검증 완료(2026-07-28).
   - 메인(`/`): 헤더 → GOAT 배너 → 대표글+리스트 2단 → 최신글 3열 그리드
