@@ -20,36 +20,18 @@ const careerTrack2 = [
   { label: '現', text: '서울시 소재 IT 개발 및 종합기획사 COO' },
 ];
 
-// 아이콘: outline 스타일 SVG path 모음 (24x24 viewBox, currentColor)
-const icons = {
-  newspaper: 'M4 4h13a2 2 0 0 1 2 2v13a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2V4Z M4 4v14 M8 8h7 M8 12h7 M8 16h4 M19 8h1a1 1 0 0 1 1 1v9a2 2 0 0 1-2 2h-1',
-  book: 'M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z',
-  user: 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M5 21a7 7 0 0 1 14 0',
-  users: 'M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M23 21v-2a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75',
-  edit: 'M11 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5 M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5Z',
-  video: 'M15 10 20.55 6.7A1 1 0 0 1 22 7.57v8.86a1 1 0 0 1-1.45.87L15 14 M2 6h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2Z',
-  badge: 'M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6Z M9 12l2 2 4-4',
-  feather:
-    'M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5l6.74-6.76Z M16 8 2 22 M17.5 15H9',
-  camera:
-    'M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2Z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z',
-  broadcast:
-    'M4 15a8 8 0 0 1 16 0 M8.5 12.5a3.5 3.5 0 0 1 7 0 M12 15v0 M2 19h20',
-  mail: 'M4 4h16v16H4Z M22 6l-10 7L2 6',
-};
-
-const authority: { icon: keyof typeof icons; text: string; href: string | null }[] = [
-  { icon: 'newspaper', text: '조선일보 · 삥이 (Google·NAVER 광고 생태계 자문)', href: null },
-  { icon: 'book', text: '나무위키 · 삥이', href: null },
-  { icon: 'user', text: 'NAVER 인물 / NAVER 인플루언서', href: null },
-  { icon: 'users', text: 'NAVER 카페 운영자 (중고거래 틈새마켓, 회원 약 1만)', href: null },
-  { icon: 'edit', text: 'NAVER 블로그 @삥이(삥이N스포츠) / @삥이핏 / @광자삥이(DONEMOYA)', href: null },
-  { icon: 'video', text: 'NAVER TV/Clip (삥이_official)', href: null },
-  { icon: 'badge', text: 'NAVER expert (광고 전문가 자격)', href: null },
-  { icon: 'feather', text: 'Kakao BrunchStory 작가 / Kakao Tistory 창작자(BBingStory)', href: null },
-  { icon: 'camera', text: 'Instagram @bbinge_26 / @bbinge_official', href: null },
-  { icon: 'broadcast', text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업)', href: null },
-  { icon: 'mail', text: 'Substack @bbinge', href: null },
+const authority = [
+  { brand: '朝', tone: 'chosun', text: '조선일보 · 삥이 (Google·NAVER 광고 생태계 자문)' },
+  { brand: 'N', tone: 'namu', text: '나무위키 · 삥이' },
+  { brand: 'N', tone: 'naver', text: 'NAVER 인물 / NAVER 인플루언서' },
+  { brand: 'N', tone: 'naver', text: 'NAVER 카페 운영자 (중고거래 틈새마켓, 회원 약 1만)' },
+  { brand: 'N', tone: 'naver', text: 'NAVER 블로그 @삥이(삥이N스포츠) / @삥이핏 / @광자삥이(DONEMOYA)' },
+  { brand: '▶', tone: 'naver', text: 'NAVER TV/Clip (삥이_official)' },
+  { brand: 'eX', tone: 'naver', text: 'NAVER expert (광고 전문가 자격)' },
+  { brand: 'B', tone: 'kakao', text: 'Kakao BrunchStory 작가 / Kakao Tistory 창작자(BBingStory)' },
+  { brand: '◎', tone: 'instagram', text: 'Instagram @bbinge_26 / @bbinge_official' },
+  { brand: 'SPOTV', tone: 'spotv', text: 'SPOTV NOW 전문 프리뷰어 (메이저 방송사 8년 협업)' },
+  { brand: 'S', tone: 'substack', text: 'Substack @bbinge' },
 ];
 
 const clients = [
@@ -129,55 +111,49 @@ const clients = [
     >
       @삥이
     </p>
-    <div class="relative max-w-[1040px] mx-auto px-4 md:px-5 pt-14 pb-12 md:pt-20 md:pb-16">
-      <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-14">
-        <div data-reveal class="shrink-0 mx-auto md:mx-0">
-          <div class="about-photo-frame w-[136px] h-[136px] md:w-[176px] md:h-[176px]">
+    <div class="relative max-w-[1200px] mx-auto px-5 md:px-8 pt-16 pb-16 md:pt-24 md:pb-24">
+      <div class="about-hero-grid">
+        <div class="about-hero-copy order-2 md:order-1">
+          <p data-reveal class="about-kicker">PARK SEONGHO · BBINGE</p>
+          <div class="mt-5 md:mt-7 max-w-[720px]">
+            <p data-reveal class="text-[25px] md:text-[40px] font-medium leading-[1.35] text-[var(--bbfc-ink)] tracking-[-0.035em]">
+              기획자 박성호. 온라인에서는 삥이로 씁니다.
+            </p>
+            <p data-reveal style="transition-delay:80ms" class="mt-3 text-[17px] md:text-[21px] leading-[1.7] text-[var(--bbfc-gray-1)]">
+              광고·브랜딩이 업이고, 축구사(史) 저술이 오래된 일입니다.
+            </p>
+          </div>
+
+          <div data-reveal style="transition-delay:140ms" class="mt-9 md:mt-12">
+            <p class="text-[11px] tracking-[0.16em] text-[var(--bbfc-gray-2)] font-medium">SKILL</p>
+            <div class="flex flex-wrap gap-2 mt-3">
+              {skills.map((s) => <span class="about-skill">{s}</span>)}
+            </div>
+          </div>
+        </div>
+        <div data-reveal class="order-1 md:order-2 md:justify-self-end">
+          <div class="about-photo-frame w-[176px] h-[208px] md:w-[300px] md:h-[360px]">
             <img
               src="/images/profile-bbinge.png"
               alt="박성호(삥이) 프로필"
-              width="176"
-              height="176"
+              width="300"
+              height="360"
               loading="eager"
               fetchpriority="high"
               class="about-photo"
             />
           </div>
         </div>
-
-        <div class="max-w-[560px] text-center md:text-left">
-          <p data-reveal class="text-[18px] md:text-[21px] leading-[1.7] text-[var(--bbfc-ink)]">
-            기획자 박성호. 온라인에서는 삥이로 씁니다.
-          </p>
-          <p
-            data-reveal
-            style="transition-delay:80ms"
-            class="text-[18px] md:text-[21px] leading-[1.7] text-[var(--bbfc-gray-1)]"
-          >
-            광고·브랜딩이 업이고, 축구사(史) 저술이 오래된 일입니다.
-          </p>
-        </div>
-      </div>
-
-      <!-- SKILL 태그 -->
-      <div data-reveal style="transition-delay:140ms" class="mt-10 md:mt-14">
-        <p class="text-[11px] tracking-wide text-[var(--bbfc-gray-2)] font-medium">SKILL</p>
-        <div class="flex flex-wrap gap-2 mt-3">
-          {skills.map((s) => (
-            <span class="text-[13px] text-[var(--bbfc-gray-1)] bg-[var(--bbfc-fill)] px-3 py-1.5 rounded-[6px]">
-              {s}
-            </span>
-          ))}
-        </div>
       </div>
     </div>
   </section>
 
-  <div class="max-w-[1040px] mx-auto px-4 md:px-5">
+  <div class="max-w-[1200px] mx-auto px-5 md:px-8">
     <!-- 섹션 2 — 이력 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">이력</h2>
-      <ul class="mt-6">
+      <div class="about-career-grid mt-7">
+      <div><p class="about-track-label">MEDIA · WRITING</p><ul class="mt-3">
         {careerTrack1.map((c, i) => (
           <li
             data-reveal
@@ -197,9 +173,8 @@ const clients = [
             <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
           </li>
         ))}
-      </ul>
-      <div class="my-3 border-t border-dashed border-[var(--bbfc-border)]" aria-hidden="true"></div>
-      <ul>
+      </ul></div>
+      <div><p class="about-track-label">PLANNING · BUSINESS</p><ul class="mt-3">
         {careerTrack2.map((c, i) => (
           <li
             data-reveal
@@ -219,29 +194,17 @@ const clients = [
             <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
           </li>
         ))}
-      </ul>
+      </ul></div></div>
     </section>
 
     <!-- 섹션 3 — 온라인 권위 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">온라인 권위</h2>
-      <ul class="columns-1 md:columns-2 gap-x-10 mt-6">
+      <ul class="about-authority-grid mt-7">
         {authority.map((a, i) => (
-          <li data-reveal style={`transition-delay:${(i % 5) * 60}ms`} class="about-link-row break-inside-avoid">
+          <li data-reveal style={`transition-delay:${(i % 4) * 60}ms`} class="about-link-row">
             <span class="about-link-row-inner">
-              <svg
-                class="about-link-icon"
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d={icons[a.icon]} />
-              </svg>
+              <span class:list={['about-brand-mark', `is-${a.tone}`]} aria-hidden="true">{a.brand}</span>
               <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
             </span>
           </li>
@@ -252,7 +215,7 @@ const clients = [
     <!-- 섹션 4 — 주요 의뢰인 / 성과 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">주요 의뢰인 · 성과</h2>
-      <div class="columns-1 md:columns-2 gap-x-10 mt-6">
+      <div class="about-clients-panel columns-1 md:columns-2 gap-x-12 mt-7">
         {clients.map((c, gi) => (
           <div data-reveal style={`transition-delay:${(gi % 4) * 80}ms`} class="break-inside-avoid mb-8">
             <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
@@ -270,14 +233,14 @@ const clients = [
     </section>
 
     <!-- 섹션 5 — 연락처 -->
-    <section data-reveal class="mt-14 md:mt-20 pb-16 md:pb-24">
-      <h2 class="text-[16px] font-medium text-[var(--bbfc-ink)]">연락은 이곳으로.</h2>
-      <div class="flex flex-wrap gap-3 mt-5">
+    <section data-reveal class="about-contact mt-14 md:mt-24 mb-16 md:mb-24">
+      <div><p class="about-kicker">CONTACT</p><h2 class="mt-2 text-[22px] md:text-[28px] font-medium text-[var(--bbfc-ink)]">연락은 이곳으로.</h2></div>
+      <div class="flex flex-wrap gap-3 mt-5 md:mt-0">
         <a
           href={NAVER_BLOG_URL}
           target="_blank"
           rel="noopener noreferrer"
-          class="about-cta"
+          class="about-cta about-cta-naver"
         >
           네이버 블로그
         </a>
@@ -285,7 +248,7 @@ const clients = [
           href={INSTAGRAM_URL}
           target="_blank"
           rel="noopener noreferrer"
-          class="about-cta"
+          class="about-cta about-cta-instagram"
         >
           인스타그램
         </a>
@@ -298,6 +261,13 @@ const clients = [
 </Layout>
 
 <style>
+  .about-hero-grid { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:clamp(40px,7vw,112px); }
+  .about-kicker,.about-track-label { font-size:11px; font-weight:600; letter-spacing:.16em; color:var(--bbfc-blue); }
+  .about-skill { font-size:13px; color:var(--bbfc-gray-1); background:rgba(255,255,255,.82); border:1px solid var(--bbfc-border); padding:7px 12px; border-radius:999px; }
+  .about-career-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(36px,7vw,96px); }
+  .about-authority-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .about-clients-panel { background:var(--bbfc-fill-2); border:1px solid var(--bbfc-border); border-radius:16px; padding:clamp(24px,4vw,48px); }
+  .about-contact { display:flex; align-items:center; justify-content:space-between; gap:28px; background:var(--bbfc-fill-2); border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); padding:36px clamp(20px,4vw,48px); }
   .about-h2 {
     display: inline-block;
     position: relative;
@@ -324,7 +294,7 @@ const clients = [
 
   .about-photo-frame {
     position: relative;
-    border-radius: 16px;
+    border-radius: 20px;
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 82%, 82% 100%, 0 100%);
     box-shadow: 0 0 0 1px var(--bbfc-border), 0 20px 40px -20px rgba(25, 31, 40, 0.25);
@@ -342,41 +312,31 @@ const clients = [
   }
 
   .about-link-row {
-    border-bottom: 1px solid var(--bbfc-line);
+    border: 1px solid var(--bbfc-border);
+    border-radius: 12px;
+    background:#fff;
   }
   .about-link-row-inner {
     display: flex;
     align-items: center;
     gap: 10px;
     position: relative;
-    padding: 12px 0 12px 14px;
-    transition: color 0.25s ease, transform 0.25s ease;
+    min-height:76px;
+    padding:14px 16px;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
   }
-  .about-link-row-inner::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 8px;
-    bottom: 8px;
-    width: 2px;
-    background: var(--bbfc-blue);
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 0.3s ease;
-  }
+  .about-brand-mark { width:38px; height:38px; display:inline-flex; align-items:center; justify-content:center; border-radius:10px; color:#fff; background:var(--bbfc-ink); font-size:14px; font-weight:800; letter-spacing:-.04em; flex-shrink:0; }
+  .about-brand-mark.is-naver { background:#03c75a; }
+  .about-brand-mark.is-namu { background:#00a495; }
+  .about-brand-mark.is-kakao { background:#fee500; color:#191919; }
+  .about-brand-mark.is-instagram { background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045); font-size:21px; }
+  .about-brand-mark.is-spotv { width:52px; background:#172c6b; font-size:10px; letter-spacing:.02em; }
+  .about-brand-mark.is-substack { background:#ff6719; }
+  .about-brand-mark.is-chosun { background:#202020; font-family:serif; font-size:18px; }
+  .about-link-row:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); border-color:#cad1d8; }
   .about-link-icon {
-    color: var(--bbfc-gray-2);
     flex-shrink: 0;
     transition: color 0.25s ease;
-  }
-  .about-link-row:hover .about-link-row-inner {
-    transform: translateX(4px);
-  }
-  .about-link-row:hover .about-link-row-inner::before {
-    transform: scaleY(1);
-  }
-  .about-link-row:hover .about-link-icon {
-    color: var(--bbfc-blue);
   }
 
   .about-client-row {
@@ -403,6 +363,10 @@ const clients = [
     background: var(--bbfc-blue-weak);
     color: var(--bbfc-blue);
   }
+  .about-cta-naver { background:#03c75a; color:#fff; }
+  .about-cta-naver:hover { background:#02b351; color:#fff; }
+  .about-cta-instagram { color:#fff; background:linear-gradient(110deg,#833ab4,#fd1d1d,#fcb045); }
+  .about-cta-instagram:hover { color:#fff; filter:saturate(.85) brightness(.96); }
   .about-cta-solid {
     background: var(--bbfc-blue);
     color: #fff;
@@ -420,6 +384,15 @@ const clients = [
   [data-reveal].is-visible {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  @media (max-width: 767px) {
+    .about-hero-grid,.about-career-grid,.about-authority-grid { grid-template-columns:1fr; }
+    .about-hero-grid { gap:32px; }
+    .about-photo-frame { margin:0 auto; }
+    .about-contact { display:block; }
+    .about-authority-grid { gap:9px; }
+    .about-link-row-inner { min-height:68px; padding:12px 13px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
