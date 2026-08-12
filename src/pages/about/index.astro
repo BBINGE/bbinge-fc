@@ -249,6 +249,10 @@ const clients = [
           rel="noopener noreferrer"
           class="about-cta about-cta-naver"
         >
+          <svg class="about-cta-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M4 3h3v6.2A5 5 0 1 1 7 17v4H4V3Zm7.8 8.3A2.2 2.2 0 1 0 11.8 17a2.2 2.2 0 0 0 0-5.7Z" />
+            <path fill="currentColor" d="M19 3h2v18h-2z" />
+          </svg>
           네이버 블로그
         </a>
         <a
@@ -257,9 +261,18 @@ const clients = [
           rel="noopener noreferrer"
           class="about-cta about-cta-instagram"
         >
+          <svg class="about-cta-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2" />
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
+            <circle cx="17.5" cy="6.8" r="1.2" fill="currentColor" />
+          </svg>
           인스타그램
         </a>
         <a href={`mailto:${EMAIL}`} class="about-cta about-cta-solid">
+          <svg class="about-cta-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="m4.5 7 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
           이메일 보내기
         </a>
       </div>
@@ -364,7 +377,9 @@ const clients = [
     color: var(--bbfc-ink-2);
     background: var(--bbfc-fill);
     transition: background 0.2s ease, color 0.2s ease;
+    gap: 8px;
   }
+  .about-cta-icon { width:18px; height:18px; flex:0 0 auto; display:block; color:currentColor; }
   .about-cta:hover {
     background: var(--bbfc-blue-weak);
     color: var(--bbfc-blue);
