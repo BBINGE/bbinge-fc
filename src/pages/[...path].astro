@@ -247,6 +247,24 @@ if (props.kind === 'category') {
     padding: 8px 10px;
     text-align: left;
   }
+  .article-body :global(.club-honours-wrap) { margin: 42px 0 54px; overflow-x: auto; }
+  .article-body :global(.club-honours) { min-width: 700px; margin: 0; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-gray-2); }
+  .article-body :global(.club-honours th),
+  .article-body :global(.club-honours td) { padding: 13px 16px; vertical-align: middle; }
+  .article-body :global(.club-honours thead th) { background: #fff; color: var(--bbfc-ink); font-weight: 500; }
+  .article-body :global(.club-honours tbody > tr > th:first-child) { width: 104px; text-align: center; font-weight: 500; background: #fff; color: var(--bbfc-ink); }
+  .article-body :global(.club-honours tbody > tr > th:nth-child(2)) { width: 224px; text-align: center; font-weight: 760; color: #fff; }
+  .article-body :global(.club-honours .ajax-row > th:nth-child(2)) { background: #b7193f; }
+  .article-body :global(.club-honours .feyenoord-row > th) { background: #e30613; color: #f2cf66; }
+  .article-body :global(.club-honours .psv-row > th) { background: #ed1b24; }
+  .article-body :global(.club-honours .netherlands-row > th:nth-child(2)) { background: #f36c21; }
+  .article-body :global(.club-honours ul) { margin: 0; padding-left: 1.1rem; }
+  .article-body :global(.club-honours li) { margin: 2px 0; line-height: 1.5; }
+  .article-body :global(.source-notes) { margin-top: 70px; padding-top: 22px; border-top: 1px solid var(--bbfc-border); color: var(--bbfc-gray-2); font-size: 12px; line-height: 1.65; }
+  .article-body :global(.source-notes h2) { margin: 0 0 10px; padding: 0; border: 0; font-size: 12px; line-height: 1.4; font-weight: 650; letter-spacing: .02em; color: var(--bbfc-gray-2); }
+  .article-body :global(.source-notes ol) { margin: 0; padding-left: 18px; }
+  .article-body :global(.source-notes li) { margin: 2px 0; }
+  .article-body :global(.source-notes a) { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
   @media (max-width: 899px) {
     .article-body :global(.media-grid-three) { grid-template-columns: 1fr; }
     .article-body :global(.media-grid img) { aspect-ratio: 16 / 10; }
@@ -259,5 +277,8 @@ if (props.kind === 'category') {
     .article-body :global(.column-thesis) { margin: 38px 0 52px; padding: 21px 20px 23px; }
     .article-body :global(.column-thesis p) { font-size: 18px; }
     .article-body :global(table) { display: block; overflow-x: auto; font-size: 14px; }
+    .article-body :global(.club-honours) { display: table; font-size: 13px; }
+    .article-body :global(.source-notes) { margin-top: 54px; font-size: 11px; }
+    .article-body :global(.source-notes h2) { font-size: 11px; }
   }
 </style>

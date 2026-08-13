@@ -60,25 +60,46 @@ draft: false
 
 네덜란드 축구의 성취를 읽을 때 중요한 것은 우승 횟수만이 아니다. 압도적인 내수시장이나 다수의 초대형 도시를 가진 나라가 아니었음에도 서로 다른 클럽이 반복해서 유럽 결승 단계에 진입했다는 사실이 더 중요하다.
 
-| 구분 | 조직 | 핵심 성과 |
-| --- | --- | --- |
-| 클럽 | 페예노르트 | 1969-70 유러피언컵 우승, 1973-74 UEFA컵 우승 |
-| 클럽 | 아약스 | 1970-71~1972-73 유러피언컵 3연패, 1994-95 챔피언스리그 무패 우승 |
-| 클럽 | PSV | 1977-78 UEFA컵 우승, 1987-88 트레블 |
-| 국가대표 | 네덜란드 | 1974·1978 월드컵 준우승, 유로 1988 우승 |
+<div class="club-honours-wrap">
+  <table class="club-honours">
+    <thead>
+      <tr><th>구분</th><th>조직</th><th>성과</th></tr>
+    </thead>
+    <tbody>
+      <tr class="ajax-row">
+        <th rowspan="3" scope="rowgroup">클럽</th>
+        <th scope="row">AFC 아약스</th>
+        <td><ul><li>1968-69 시즌 유러피언컵 준우승</li><li>1970-71 시즌 유러피언컵 우승</li><li>1971-72 시즌 유러피언컵 및 인터콘티넨털컵 우승</li><li>1972-73 시즌 유러피언컵 3연패 및 UEFA 배지 오브 아너 자격 획득</li><li>1994-95 시즌 무패 더블</li><li>1995-96 시즌 UEFA 챔피언스리그 준우승</li></ul></td>
+      </tr>
+      <tr class="feyenoord-row">
+        <th scope="row">페예노르트 로테르담</th>
+        <td><ul><li>1969-70 시즌 유러피언컵 우승</li><li>1973-74 시즌 UEFA컵 우승</li></ul></td>
+      </tr>
+      <tr class="psv-row">
+        <th scope="row">PSV 에인트호번</th>
+        <td><ul><li>1977-78 시즌 UEFA컵 우승</li><li>1987-88 시즌 트레블</li></ul></td>
+      </tr>
+      <tr class="netherlands-row">
+        <th scope="row">국가대표</th>
+        <th scope="row">네덜란드 축구 국가대표팀</th>
+        <td><ul><li>1974 FIFA 월드컵 준우승</li><li>UEFA 유로 1976 3위</li><li>1978 FIFA 월드컵 준우승</li><li>UEFA 유로 1988 우승</li><li>UEFA 유로 1992 4강</li></ul></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <figure class="media-grid media-grid-three">
   <figure>
     <img src="/images/history/eredivisie-selling-league/feyenoord-european-cup.jpg" alt="1970년 유러피언컵을 든 페예노르트" />
-    <figcaption>1970년 페예노르트의 유러피언컵 우승.</figcaption>
+    <figcaption>1969-70 시즌 페예노르트는 셀틱을 꺾고 네덜란드 클럽 최초로 유러피언컵을 들어 올렸다. 이 우승은 아약스의 전성기가 열리기 전에 로테르담이 먼저 유럽 정복의 문을 열었다는 점, 그리고 네덜란드 축구의 혁신이 한 도시와 한 클럽만의 산물이 아니었다는 점에서 중요하다.</figcaption>
   </figure>
   <figure>
     <img src="/images/history/eredivisie-selling-league/ajax-1969-final.jpeg" alt="1969년 유러피언컵 결승전이 열린 경기장" />
-    <figcaption>1969년 결승 패배는 아약스 시대의 예고편이었다.</figcaption>
+    <figcaption>1969년 유러피언컵 결승에서 AC 밀란에 패한 아약스. 결과만 보면 완패였지만 이 경험은 유럽 정상과의 거리를 측정한 실전 자료가 됐다. 미헐스의 팀은 이후 압박의 간격과 수비 전환을 보완했고, 1971년부터 세 시즌 연속 유럽 정상에 올랐다. 패배는 왕조의 반대말이 아니라 왕조가 완성되기 전의 시행착오였다.</figcaption>
   </figure>
   <figure>
     <img src="/images/history/eredivisie-selling-league/psv-1988.jpg" alt="1988년 유러피언컵 우승을 축하하는 PSV 선수단" />
-    <figcaption>1988년 트레블을 완성한 PSV.</figcaption>
+    <figcaption>1987-88 시즌 PSV는 에레디비시와 KNVB 베커, 유러피언컵을 모두 차지했다. 아약스식 토털 풋볼의 복제라기보다 조직적 수비와 경기 관리, 효율적인 선수 구성이 만든 또 하나의 네덜란드식 성공이었다. 이 트레블은 리그의 경쟁력이 특정 철학 하나에만 의존하지 않았음을 보여준다.</figcaption>
   </figure>
 </figure>
 
@@ -92,7 +113,7 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 
 <figure class="document-figure">
   <img src="/images/history/eredivisie-selling-league/oecd-netherlands-economy.png" alt="네덜란드의 주택 가격과 소득 변화를 비교한 OECD 자료" />
-  <figcaption>OECD 자료가 보여주는 당시 네덜란드 경제의 확장 흐름. 에레디비시의 상대적 하강을 국가 경제의 단순 침체로 설명하기는 어렵다.</figcaption>
+  <figcaption>OECD 자료에 따르면 1990년대 네덜란드는 주택 가격 상승과 가처분소득 증가가 동시에 나타난 경제 확장 국면에 있었다. 특히 1991~2002년의 주택 가격 상승률은 OECD 상위 수준이었다. 이는 해당 시기 에레디비시의 상대적 하강을 국가 경제의 침체로 단순 환원하기 어렵다는 근거다. 경제가 멈춘 것이 아니라 축구 산업에서 가치가 만들어지고 분배되는 방식이 더 빠르게 국제화됐다.</figcaption>
 </figure>
 
 문제는 축구 산업 안에서 가치가 생성되고 분배되는 속도였다. 1990년대 이후 텔레비전 권리, 유럽 노동시장, 리그 거버넌스와 내수시장 규모가 서로 결합하면서 같은 서유럽 국가 안에서도 리그의 체급이 전혀 다른 속도로 벌어지기 시작했다.
@@ -100,6 +121,10 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 네덜란드는 이 변화를 몰라서 뒤처진 것도 아니었다. 네덜란드 왕립 축구 협회<span class="foreign-note" lang="nl">(Koninklijke Nederlandse Voetbalbond, KNVB; 네덜란드 축구 행정기관)</span>는 1990년대 중반 리그와 대표팀의 집단 중계권을 신설 스포츠 채널 Sport7에 판매하는 상업화 실험을 벌였다. 이어 18개 1부 클럽은 1997년 에레디비시 CV<span class="foreign-note" lang="nl">(Eredivisie Commanditaire Vennootschap; 에레디비시 클럽의 공동 상업 조직)</span>를 중심으로 리그의 상업·조직·브랜딩을 별도로 다루기 시작했다.
 
 시도는 빨랐다. 문제는 시장의 깊이였다. Sport7은 안정적인 유료 가입자를 확보하지 못했고 짧은 생을 마쳤다. 네덜란드 축구는 ‘축구는 방송 상품’이라는 현실을 누구보다 일찍 받아들였지만, 그것을 영어권의 거대한 글로벌 미디어 자산처럼 키울 국내외 시장은 갖지 못했다.
+
+1996년의 Sport7 거래는 총 10억4,000만 휠던<span class="foreign-note" lang="nl">(gulden; 당시 네덜란드 화폐 단위)</span> 규모로 알려졌고, 기존 공영방송의 제안보다 컸다. KNVB가 지분을 보유한 합작 채널에 장기간 독점 중계권을 맡긴 이 선택은 무모한 도박만은 아니었다. 리그가 중계권의 가치를 이해하고 직접 유통 구조까지 장악하려 한 선제적 실험이었다. 그러나 채널은 가입자 기반과 유통망을 안정적으로 확보하지 못했다. 상품의 가치를 아는 것과 그 상품을 감당할 시장을 갖는 것은 다른 문제였다.
+
+그 실패 뒤 18개 클럽이 공동 상업 조직을 세운 일도 같은 맥락에 놓인다. 네덜란드는 상업화를 거부한 낭만적 피해자가 아니었다. 오히려 제도화 속도는 빨랐다. 다만 클럽 공동체, 축구협회, 방송사업자가 나눠 가진 이해관계를 하나의 거대한 수익 엔진으로 묶을 규모와 해외 판매력이 부족했다. 이 차이는 이후 프리미어리그가 리그 단위의 권리 판매와 균등 분배를 통해 하위권 클럽까지 구매자로 만드는 동안 더 크게 벌어졌다.
 
 **상업화의 속도는 빨랐으나 시장의 깊이는 얕았다.**
 
@@ -109,12 +134,12 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 
 <figure class="portrait-figure">
   <img src="/images/history/eredivisie-selling-league/jean-marc-bosman.jpg" alt="기자회견 중인 장마르크 보스만" />
-  <figcaption>장마르크 보스만(Jean-Marc Bosman). 판결은 선수에게 이동의 자유를 돌려줬지만, 리그 사이의 임금 격차까지 없애주지는 않았다.</figcaption>
+  <figcaption>벨기에 축구 선수 장마르크 보스만<span lang="fr">(Jean-Marc Bosman)</span>의 소송으로 시작된 1995년 유럽사법재판소 판결은 ‘계약 만료 뒤 이적료 없는 자유로운 이동’과 ‘EU 회원국 선수에 대한 국적 제한 철폐’를 선언했다. 현대 축구의 이적 체계와 선수 권리를 다시 쓴 판결인 동시에, 임금 지불 능력이 큰 리그가 중소 리그의 완성된 선수를 더 쉽게 흡수할 수 있게 한 제도적 변곡점이었다.</figcaption>
 </figure>
 
 <figure class="document-figure">
   <img src="/images/history/eredivisie-selling-league/cjeu-explainer.png" alt="유럽사법재판소의 역할을 설명하는 공식 자료" />
-  <figcaption>CJEU 공식 설명 자료. 보스만 판결의 핵심은 축구만의 특수 규칙보다 EU 노동자의 이동 자유가 우선한다는 데 있었다.</figcaption>
+  <figcaption>유럽사법재판소<span lang="en">(Court of Justice of the European Union, CJEU)</span>는 선결적 판정 권한을 통해 각국 법원이 판단하기 어려운 EU 법의 공통 기준을 제시한다. 1995년 보스만 판결 이후 재판소는 계약이 끝난 선수의 자유 이동을 가로막던 이적료와 회원국 선수 쿼터가 노동자의 자유로운 이동 원칙을 침해한다고 보았다. 재판소가 축구의 경쟁 균형을 해치려 한 것은 아니었다. 다만 단일시장 안에서 축구만 예외적인 노동 규칙을 유지할 수 없다고 판단했고, 그 법적 일관성이 결과적으로 리그 사이의 자본 격차를 더 직접적으로 선수시장에 투영시켰다.</figcaption>
 </figure>
 
 네덜란드처럼 유소년 육성 효율은 높지만 빅리그보다 임금 지불 능력이 낮은 곳에서 충격은 비대칭적이었다. 클럽은 계속 세계급 선수를 길러냈다. 그러나 계약 종료가 가까워질수록 더 큰 임금을 제시하는 리그 앞에서 협상력은 빠르게 약해졌다.
@@ -123,14 +148,14 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 
 <figure>
   <img src="/images/history/eredivisie-selling-league/bergkamp-jonk-inter.jpg" alt="인테르 입단식의 데니스 베르흐캄프와 빔 용크" />
-  <figcaption>1993년 인테르에 입단한 데니스 베르흐캄프와 빔 용크. 스타의 유출은 보스만 이전에도 존재했다.</figcaption>
+  <figcaption>기회의 땅 이탈리아 세리에 A로 향한 데니스 베르흐캄프와 빔 용크. 베르흐캄프는 인테르에서 기대만큼 적응하지 못했지만 UEFA컵 우승에 기여했고, 훗날 아르센 벵거의 부름을 받아 아스널로 옮긴 뒤 프리미어리그를 대표하는 ‘영혼의 투톱’ 중 한 명이 됐다. 이 장면의 핵심은 성공과 실패가 아니다. 네덜란드의 최정상 선수가 이미 보스만 이전부터 더 큰 임금과 무대를 찾아 이동했다는 사실이다.</figcaption>
 </figure>
 
 보스만 이후 달라진 것은 이동 그 자체가 아니라 **이동을 둘러싼 마찰 비용과 협상력**이었다. 상위 리그는 계약 만료 선수를 훨씬 쉽게 유인했고, 중소 리그는 핵심 선수를 오래 보유하기 위해 더 이른 재계약과 더 빠른 매각 사이에서 선택해야 했다. 1995년 아약스의 유럽 제패를 이끈 파트릭 클라위버르트<span class="foreign-note" lang="nl">(Patrick Stephan Kluivert; 네덜란드 축구 선수·지도자, 1976~)</span>가 1997년 AC 밀란으로 자유 이적한 장면은 그 변화를 상징한다.
 
 <figure>
   <img src="/images/history/eredivisie-selling-league/kluivert-milan.jpg" alt="AC 밀란 유니폼을 입은 파트릭 클라위버르트" />
-  <figcaption>아약스의 유럽 제패를 이끈 뒤 AC 밀란으로 떠난 파트릭 클라위버르트.</figcaption>
+  <figcaption>1995년 챔피언스리그 결승에서 결승골을 넣었던 파트릭 클라위버르트는 불과 두 해 뒤 계약 만료와 함께 AC 밀란으로 떠났다. 아약스가 유럽 정상급 선수를 길러냈다는 사실과, 그 선수를 전성기 초입부터 장기간 보유할 수 없었다는 사실이 한 이동 안에 겹쳐 있다. 보스만 이후 에레디비시의 문제는 생산의 실패가 아니라 보유 기간의 급격한 단축이었다.</figcaption>
 </figure>
 
 보스만은 네덜란드 축구의 생산력을 파괴하지 않았다. 오히려 그 생산물이 더 빠르게 외부 시장으로 이동하도록 만든 가속기였다.
@@ -145,12 +170,12 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 
 <figure class="document-figure">
   <img src="/images/history/eredivisie-selling-league/ajax-annual-report.png" alt="아약스 연차보고서 일부" />
-  <figcaption>아약스 연차보고서의 재무 항목. 유럽대항전 성적과 선수 거래는 네덜란드 선도 클럽의 연간 실적을 크게 흔든다.</figcaption>
+  <figcaption>아약스 연차보고서에서 유럽대항전 수입과 선수 거래 손익은 해마다 실적을 크게 움직이는 변수로 나타난다. 국내 중계권과 경기일 수입만으로 유럽 최상위 임금 구조를 유지하기 어려운 까닭에, 챔피언스리그 진출과 선수 매각이 단순한 부수입이 아니라 전력 재투자를 떠받치는 핵심 축이 된다. 성적이 선수를 비싸게 만들고, 매각이 다음 세대의 육성비를 조달하는 순환이다.</figcaption>
 </figure>
 
 <figure class="document-figure">
   <img src="/images/history/eredivisie-selling-league/psv-annual-report.png" alt="PSV 연차보고서 발표 자료" />
-  <figcaption>PSV의 연차 실적 발표. 네덜란드 상위 클럽은 성장하고 있지만 빅리그 선도 클럽과의 절대 격차는 더 빠르게 벌어졌다.</figcaption>
+  <figcaption>PSV의 연차 실적 역시 네덜란드 선도 클럽이 결코 정체된 조직이 아님을 보여준다. 상업 수입과 경기장 사업, 유럽대항전 수입을 키우며 몸집을 불렸지만 비교 상대인 빅리그 클럽의 방송·상업 수입은 더 빠르게 팽창했다. 에레디비시의 상대적 하강은 성장하지 못해서가 아니라, 성장 속도가 유럽 최상위 시장의 자본 증폭을 따라잡지 못해서 발생했다.</figcaption>
 </figure>
 
 네덜란드 리그의 문제는 정체가 아니라 **비대칭 성장**이다. 아약스·PSV·페예노르트의 매출은 과거보다 커졌다. 리그도 방송 상품과 글로벌 브랜드로 발전했다. 그러나 비교 상대인 프리미어리그와 유럽 최상위 클럽의 매출·임금·중계권은 그보다 훨씬 빠르게 팽창했다. 성장하고 있는데도 상대적으로 뒤로 밀릴 수 있는 이유다.
@@ -165,7 +190,7 @@ Transfermarkt의 시즌별 집계에서 에레디비시는 장기간 이적수�
 
 <figure class="document-figure">
   <img src="/images/history/eredivisie-selling-league/league-transfer-balance.png" alt="유럽 주요 리그의 이적수지를 비교한 Transfermarkt 화면" />
-  <figcaption>주요 리그의 이적수지 비교 화면. 에레디비시는 선수를 사서 장기간 보유하기보다 발굴·고도화해 판매하는 구조가 선명하다.</figcaption>
+  <figcaption>주요 리그의 이적수지 비교는 에레디비시의 사업 모델을 압축해 보여준다. 리그는 완성된 스타를 비싸게 사서 장기간 소비하는 시장이 아니라, 상대적으로 낮은 비용으로 발굴한 선수를 경기 출전과 유럽대항전을 통해 고도화한 뒤 더 큰 시장에 판매한다. 지속적인 흑자는 건전성의 증거인 동시에, 최고 전력을 유지하려면 그 전력의 핵심을 반복해서 현금화해야 한다는 구조적 제약의 기록이다.</figcaption>
 </figure>
 
 표가 말하는 바는 단순하다. 에레디비시가 돈을 못 벌어서 약해진 것이 아니다. 돈을 버는 방식 자체가 ‘사서 쓰는 리그’가 아니라 ‘길러서 파는 리그’가 되었다. 프리미어리그의 방송권은 리그 전체를 거대한 구매자로 만들었고, 네덜란드의 아카데미와 스카우팅은 그 시장에 공급할 고부가가치 자산을 생산한다.
@@ -176,7 +201,7 @@ Transfermarkt의 시즌별 집계에서 에레디비시는 장기간 이적수�
 
 <figure class="document-figure">
   <img src="/images/history/eredivisie-selling-league/uefa-coefficient-snapshot.png" alt="유럽 리그 계수를 비교한 화면" />
-  <figcaption>최근 유럽 리그 계수에서 네덜란드는 다시 6~7위권 경쟁력을 회복했다. 생산력이 사라진 것이 아니라 정상급 전력을 오래 유지하기 어려워졌다는 편이 정확하다.</figcaption>
+  <figcaption>최근 UEFA 리그 계수에서 네덜란드는 다시 6~7위권 경쟁력을 회복했다. 이는 에레디비시의 교육과 전술 생산력이 소멸하지 않았다는 반증이다. 다만 한 시즌의 유럽 성과가 곧 핵심 선수의 시장가치 상승과 이적으로 이어지기 쉬워, 상승세를 동일 선수단으로 장기간 축적하기 어렵다. 경쟁력은 주기적으로 재생되지만 패권은 누적되지 않는다.</figcaption>
 </figure>
 
 ## 에레디비시는 몰락하지 않았다. 승리의 장소가 바뀌었다
@@ -197,10 +222,13 @@ Transfermarkt의 시즌별 집계에서 에레디비시는 장기간 이적수�
 
 끗-!
 
-## 자료와 확인 경로
-
-1. [CJEU, Case C-415/93 — Bosman](https://curia.europa.eu/juris/liste.jsf?num=C-415/93)
-2. [Eredivisie, ESPN to show Eredivisie football until mid-2030](https://eredivisie.com/news/dutch-eredivisie-clubs-in-unanimous-agreement-over-the-outcome-of-negotiations-espn-to-show-eredivisie-football-until-mid-2030/)
-3. [Premier League, new UK live rights agreements from 2025/26](https://www.premierleague.com/news/3807882)
-4. [Transfermarkt, Eredivisie transfer balance](https://www.transfermarkt.com/eredivisie/transferbilanz/wettbewerb/NL1)
-5. OECD, *Economic Surveys: Netherlands 2004*.
+<section class="source-notes" aria-labelledby="source-notes-title">
+  <h2 id="source-notes-title">자료와 확인 경로</h2>
+  <ol>
+    <li><a href="https://curia.europa.eu/juris/liste.jsf?num=C-415/93">CJEU, Case C-415/93 — Bosman</a></li>
+    <li><a href="https://eredivisie.com/news/dutch-eredivisie-clubs-in-unanimous-agreement-over-the-outcome-of-negotiations-espn-to-show-eredivisie-football-until-mid-2030/">Eredivisie, ESPN to show Eredivisie football until mid-2030</a></li>
+    <li><a href="https://www.premierleague.com/news/3807882">Premier League, new UK live rights agreements from 2025/26</a></li>
+    <li><a href="https://www.transfermarkt.com/eredivisie/transferbilanz/wettbewerb/NL1">Transfermarkt, Eredivisie transfer balance</a></li>
+    <li>OECD, <cite>Economic Surveys: Netherlands 2004</cite>.</li>
+  </ol>
+</section>
