@@ -24,7 +24,7 @@ draft: false
 <div class="record-facts">
   <dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></dd></dl>
   <dl><dt>대회 기간</dt><dd>1920년 9월 11일–10월 3일</dd></dl>
-  <dl><dt>참가국</dt><dd>아르헨티나 · 브라질 · 칠레 · 우루과이</dd></dl>
+  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
   <dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl>
   <dl><dt>개최 도시</dt><dd>비냐델마르</dd></dl>
 </div>
@@ -40,13 +40,25 @@ draft: false
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>최우수 선수</span><strong>호세 피엔디베네</strong><small>우루과이</small></div><div><span>공동 득점왕</span><strong>앙헬 로마노</strong><small>3골 · 우루과이</small></div><div><span>공동 득점왕</span><strong>호세 페레스</strong><small>3골 · 우루과이</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 피엔디베네</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>공동 득점왕</span><strong>앙헬 로마노</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>공동 득점왕</span><strong>호세 페레스</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div></div>
 
 ## 여담
 
+### 비냐델마르에서 처음 열린 남미선수권
+
+다섯 번째 남미축구선수권은 칠레에서 처음 열렸다. 경기는 산티아고가 아니라 해안도시 비냐델마르의 스포르팅 경기장에 모였다. 우루과이는 엑토르 스카로네와 1916년 득점왕 이사벨리노 그라딘 없이 원정길에 올랐다. 감독 에르네스토 피골리는 제한된 명단을 피엔디베네의 경기 조율과 로마노의 측면 득점력으로 다시 짰다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+
+9월 12일 첫 상대 아르헨티나전에서 피엔디베네가 8분 만에 선제골을 넣었으나 후반 바달리니에게 동점골을 허용했다. 우루과이 골키퍼 마누엘 벨트란 레냐시는 페드로 칼로미노의 페널티킥을 막았다. 1-1은 우루과이의 유일한 무승부가 됐고, 우승 경쟁에서 잃지 않은 승점 하나의 값이 커졌다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+
+### 마지막 날의 역전과 엇갈리는 선수 평가
+
+아르헨티나가 9월 25일 브라질을 2-0으로 꺾으면서 우루과이는 마지막 칠레전에서 이겨야 했다. 개최국이 먼저 득점했지만 로마노가 동점을 만들고 페레스가 역전골을 넣었다. 2승 1무, 9득점 2실점. 6-0이 가장 큰 장면이었다면 우승을 확정한 것은 가장 작은 한 골 차였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+
+‘최우수 선수’는 당시 공식 시상명이 아니다. CONMEBOL의 후대 대회사는 피엔디베네를 1920년의 인물로 소개하지만, 우루과이축구협회와 축구사가협회의 상세 회고는 안토니오 우르디나란을 대회 최고의 선수로 평가한다. 이 아카이브는 운영자의 원문과 CONMEBOL 회고를 따라 피엔디베네를 표제 인물로 유지하되, 서로 다른 평가를 함께 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+
 ### 6-0, 왕좌를 되찾는 가장 거친 방식
 
-1920년 9월 18일의 우루과이–브라질전은 전년도 챔피언과 그 이전의 챔피언이 만난 경기였다. 결과는 균형과 거리가 멀었다. 페레스가 해트트릭, 로마노가 두 골, 안토니오 우르디나란이 한 골을 넣어 우루과이가 6-0으로 이겼다. 브라질은 세 경기에서 단 한 골만 넣고 여덟 골을 내줬다. CONMEBOL의 공식 대회사가 1920년을 설명하며 첫 문장처럼 꺼내는 장면도 바로 이 6-0이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+1920년 9월 18일의 우루과이–브라질전은 전년도 챔피언과 그 이전의 챔피언이 만난 경기였다. 정확한 득점자는 앙헬 로마노 2골, 호세 페레스 2골, 안토니오 우르디나란 1골, 안토니오 캄폴로 1골이다. 종전 원고의 ‘페레스 해트트릭’은 공식 경기 기록과 맞지 않아 바로잡았다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a> 브라질은 세 경기에서 단 한 골만 넣고 여덟 골을 내줬다. 이 6-0은 지금도 우루과이가 브라질을 상대로 거둔 최다 점수 차 승리로 남아 있다.
 
 점수 차는 2014년 벨루오리존치에서 브라질이 독일에 당한 1-7과 같다. 두 경기의 시대와 무게는 다르지만, 브라질 대표팀 역사에서 여섯 골 차 패배가 얼마나 드문 흉터인지는 이 평행선만으로도 선명해진다.
 
@@ -62,4 +74,4 @@ draft: false
 
 ## 출처와 기록 기준
 
-<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-2"><a href="https://blog.naver.com/sho3603/223507380400">«1920 코파 아메리카 득점왕 MVP “호세 피엔디베네”»</a>, 삥이의 축구 기록.</li></ol><p class="record-note">‘최우수 선수’는 당시의 공식 시상식이 아니라 CONMEBOL 후대 대회사와 운영자의 회고적 선정 기준이다. 득점왕은 로마노와 페레스의 공동 3골로 기록한다.</p></div>
+<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-2"><a href="https://blog.naver.com/sho3603/223507380400">«1920 코파 아메리카 득점왕 MVP “호세 피엔디베네”»</a>, 삥이의 축구 기록.</li><li id="source-3"><a href="https://www.auf.org.uy/copa-america-1920/">«Copa América 1920»</a>, AUF·AHIFU.</li></ol><p class="record-note">‘대회 대표 선수’는 당시 공식 MVP 시상식이 있었다는 뜻이 아니다. CONMEBOL은 피엔디베네를 대회의 인물로, AUF·AHIFU는 안토니오 우르디나란을 최고의 선수로 평가한다. 득점왕은 로마노와 페레스의 공동 3골이다.</p></div>

@@ -21,7 +21,7 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1922년 9월 17일–10월 22일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 · 브라질 · 칠레 · 파라과이 · 우루과이</dd></dl><dl><dt>방식</dt><dd>5개국 단일 리그전 + 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>히우지자네이루</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1922년 9월 17일–10월 22일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>5개국 단일 리그전 + 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>히우지자네이루</dd></dl></div>
 
 | 순위 | 국가 | 리그 전적 | 득실 |
 | --- | --- | --- | --- |
@@ -37,9 +37,21 @@ draft: false
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>최우수 선수</span><strong>아구스치뉴 포르치스</strong><small>브라질</small></div><div><span>득점왕</span><strong>후안 프란시아</strong><small>4골 · 아르헨티나</small></div><div><span>결정전</span><strong>브라질 3–0 파라과이</strong><small>1922년 10월 22일</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>아구스치뉴 포르치스</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></small></div><div><span>득점왕</span><strong>후안 프란시아</strong><small>4골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>결정전</span><strong>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 3–0 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></strong><small>1922년 10월 22일</small></div></div>
 
 ## 여담
+
+### 다섯 나라가 처음 모였지만 순위는 더 복잡해졌다
+
+파라과이가 합류하면서 참가국은 처음으로 다섯이 됐다. 그러나 규모의 확대가 매끄러운 운영을 뜻하지는 않았다. 브라질·파라과이·우루과이가 승점 5로 동률이 됐고, 당시 규정은 골득실만으로 우승국을 가르지 않았다. 세 팀의 추가 경기가 예정됐으나 우루과이는 심판 판정에 항의하며 참가를 거부했다. 결국 개최국 브라질과 파라과이만 우승 결정전을 치렀다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+
+이 구조 때문에 브라질의 정규리그 성적은 1승 3무에 그쳤다. 오늘의 리그표만 보면 압도적 우승과 거리가 멀지만, 마지막 결정전에서 네쿠 2골과 포르미가의 골로 파라과이를 3-0으로 꺾었다. 1919년에는 150분을 치러야 했고, 1922년에는 세 팀 동률과 기권을 거쳐야 했다. 브라질의 첫 두 우승은 모두 정규리그 바깥에서 완성됐다.
+
+### 독립 100주년 대회의 명암
+
+대회는 브라질 독립 100주년 기념행사의 일부로 히우지자네이루에서 열렸다. 1919년의 우승 멤버들이 다시 모였고 프리덴라이히도 대표팀에 돌아왔다. 하지만 대회의 기억은 축제보다 판정 논쟁과 우승 결정 방식에 더 강하게 묶였다. 개최국이 참가한 두 경기에서 상대가 판정에 반발했고, 우루과이의 철수는 우승의 정당성을 둘러싼 긴 여운을 남겼다.
+
+아구스치뉴 포르치스는 이런 불안정한 대회에서 중원을 지탱한 선수였다. 득점왕 후안 프란시아의 4골처럼 한눈에 보이는 숫자는 없지만, 개최국이 네 경기에서 세 번 비기고도 끝내 무너지지 않은 균형을 설명하는 이름이다. ‘대회 대표 선수’는 공식 트로피가 아니라 운영자 원문의 회고적 선정으로 구분한다.
 
 ### 한 번 이기고 우승한 팀
 
