@@ -6,9 +6,43 @@ const INSTAGRAM_URL = 'https://www.instagram.com/bbinge_26/';
 const NAVER_BLOG_URL = 'https://blog.naver.com/sho3603';
 const EMAIL = 'sho3603@naver.com';
 
-// 원고가 완성되면 문단 단위로 아래 배열에 추가한다.
-// UI만 먼저 공개한 현재 상태에서는 안내 문구가 표시된다.
-const footballLetter: string[] = [];
+const footballLetter = [
+  { text: '축구를 언제부터 좋아했느냐고 물으면 대답은 조금 우습습니다. 세 살 때이기 때문입니다. ㅋㅋㅋㅋ아.' },
+  { text: '아무튼간, 당시 아버지가 보여준 1998 FIFA 월드컵 프랑스™가 시작이었습니다.' },
+  { text: '물론 세 살짜리의 기억을 어디까지 신뢰할 수 있는지는 저도 모릅니다. 당시의 제가 경기의 맥락을 이해했을 리 없고, 지금 남아 있는 장면 가운데 얼마가 실제 기억이며 얼마가 훗날 반복해서 본 영상으로 사후 편집된 것인지도 구별하기 어렵습니다. 다만 하나는 확실합니다. 제가 제법 오랫동안 좋아했다고 말할 수 있는 것들 가운데 축구보다 오래된 것은 거의 없습니다.' },
+  { text: '그리고 취향 하나를 오래 붙들고 살다 보면 조금 이상한 일이 생깁니다. 선생님들도 공감하시지 않을지요.' },
+  { text: '처음에는 경기를 보기 위해 축구를 알았는데, 어느 순간부터 축구를 알기 위해 다른 것들을 읽기 시작했습니다. 유럽의 클럽들을 제대로 이해하려면 도시의 형성과 산업화를 모른 척하기 어려웠고, 어떤 더비의 적의를 들여다보면 종교와 민족, 계급의 기억이 튀어나왔습니다. 전술의 계보를 따라가다 보면 한 시대가 인간과 공간을 어떻게 이해했는지가 궁금해졌고, 선수 한 사람의 이적을 설명하려다 보면 노동시장과 자본, 제도의 문제까지 따라붙었습니다.' },
+  { text: '그렇게 축구를 핑계 삼아 서방의 역사와 철학을 제법 오래 등정했습니다.' },
+  { text: '거창한 목적이 있었던 것은 아닙니다. 그냥 궁금했습니다.' },
+  { text: '왜 잉글랜드에서는 저런 축구가 생겼고, 왜 이탈리아에서는 다른 미학이 발전했으며, 어째서 어떤 클럽은 성적이 좋지 않은 시기에도 사람들에게 거의 종교에 가까운 충성을 요구하는지.' },
+  { text: '누군가는 축구를 스물두 명이 공 하나를 쫓아다니는 경기라고 말합니다. 틀린 말도 아닙니다. 다만 오래 보고 있으면 그 공 주변에 붙어 있는 것이 지나치게 많습니다.' },
+  { text: '1950 FIFA 월드컵 브라질™이 개막하던 다음 날 우리나라에서 일어났던 참극, 그러한 역사적 대비. 우리나라에서는 전쟁으로 사람이 죽고 굶주리던 시대에 지구 반대편의 어느 국가는 결승전이나 다름없던 경기의 패배로 범죄와 자해, 자살, 집단적 광기가 섞인 오열과 패배의 부정에 빠졌다고 전합니다.' },
+  { text: '물론 진지하게 파고들면 그 가운데에는 후대에 덧붙여졌거나 출처를 특정하기 어려운 사건들도 있을 겁니다. 그렇다고 이른바 Maracanaço가 브라질 사회에 남긴 집단적 기억까지 허구가 되는 것은 아닙니다. 오히려 제게 흥미로운 것은 사실과 전설을 정확히 분리하는 작업을 거친 뒤에도 남아 있는 질문입니다.' },
+  { text: '어떻게 공놀이의 패배가 한 사회에서 국가적 비극의 언어를 빌릴 수 있었을까.' },
+  { text: '어떤 나라는 세계 대전 속 민족의 결속을 위해 대회를 이용했고, 어떤 나라는 21세기인 오늘날에도 과거의 울분을 다 벗어내지 못한 채 90분간 상대를 찢어 죽일 듯이 뜁니다. 어떤 선수는 FIFA 월드컵 8강에서 탈락 위기에 처했다는 이유로, 경기가 아직 끝나지도 않았는데 프리킥 벽에 서서 울고 있기도 합니다. 그 선수가 Atlético de Madrid의 주장단이자 현대 축구의 슈퍼스타 가운데 한 명인 José María Giménez라는 사실을 믿으실 수 있으실런지요.' },
+  { text: '아마 오늘날의 축구를 선수 개인의 커리어와 시장가치, 트로피의 개수와 몇 분짜리 하이라이트의 연속으로 익힌 사람에게는 조금 이해하기 어려운 장면일지도 모르겠습니다.' },
+  { text: '하지만 축구는 본래 그렇게 납작한 물건이 아니었습니다. 한 선수가 어느 유니폼을 입느냐에는 때로 그 자신보다 오래된 기억이 따라붙었고, 한 경기의 승패에는 도시와 지역, 민족과 계급, 정치와 종교가 제멋대로 의미를 부여했습니다. 오늘날 우리가 아무렇지 않게 소비하는 클럽의 이름과 엠블럼, 더비와 국가대표팀 역시 대부분 그런 시간을 통과해 지금의 형태를 얻었습니다.' },
+  { text: '축구를 콘텐츠로 접하는 것은 어렵지 않습니다. 축구를 이해하는 일은 조금 다른 문제입니다.' },
+  { text: "'그깟 공놀이' 안에는," },
+  { text: '정치도 있고 돈도 있고 지역감정도 있습니다. 민족주의와 종교, 계급과 자본이 있고, 허영과 열등감도 있습니다. 어느 시대에는 정권이 사람들을 하나로 묶는 도구가 되었고, 또 어느 시대에는 국가보다 먼저 존재했던 도시의 정체성을 확인하는 의식이 되었습니다.' },
+  { text: '영웅을 만들어내고 다시 폐기하는 대중의 습성도 있습니다. 과거를 낭만화하는 기억의 오류도 있고, 훗날의 기준으로 이전 시대를 함부로 재단하는 오만도 있습니다. 승리를 설명하기 위해 만들어낸 수많은 서사 가운데 어떤 것은 사실이고 어떤 것은 신화이며, 때로는 신화가 사실보다 오랫동안 살아남기도 합니다.' },
+  { text: '그래서 저는 축구를 읽을 때 경기만으로 좀처럼 끝내지 못합니다.' },
+  { text: '전술 하나에도 그것이 출현할 만했던 시대적 조건이 있고, 클럽 하나에도 창립 이후 축적된 공동체의 기억이 있습니다. 선수의 기록 역시 숫자만 떼어놓고 보면 간단하지만, 그 숫자가 생산된 리그와 시대와 규칙까지 함께 놓으면 이야기는 금세 복잡해집니다.' },
+  { text: '어쩌면 그런 복잡함을 좋아했던 것 같습니다.' },
+  { text: '10대 중후반의 나이, 네이버 어딘가에 축구 이야기를 끄적이며 시작했던 축구학 탐독도 결국 같은 버릇의 연장이었습니다.' },
+  { text: '처음부터 무슨 거창한 체계를 세운 것은 아닙니다. 한 선수가 궁금하면 그 선수를 찾아봤고, 읽다 이해되지 않는 대목이 있으면 그 시대를 찾아봤습니다. 그 시대를 읽다가 또 모르는 것이 나오면 조금 더 멀리 갔습니다. 그렇게 몇 번을 반복하니 어느 날에는 축구를 읽겠다며 세계대전을 보고 있었고, 어느 날에는 종교사를 읽었으며, 어느 날에는 정치철학과 경제학 책을 뒤적이고 있었습니다.' },
+  { text: '돌이켜보면 축구는 꽤 훌륭한 핑계였습니다.' },
+  { text: '별 관계가 없어 보이는 학문과 시대를 마음껏 넘나들어도 마지막에는 어떻게든 공 하나로 돌아올 수 있었으니까요.' },
+  { text: '그때 네이버에 썼던 글 가운데 상당수는 이제 저도 기억하지 못합니다. 당시와 비교하면 생각도 여러 번 바뀌었고, 사실이라고 믿었던 이야기가 틀렸다는 것을 뒤늦게 알게 된 경우도 많았습니다. 앞으로도 그러지 않으리라는 보장은 없습니다.' },
+  { text: '오히려 그래서 계속 읽습니다.' },
+  { text: '이미 알고 있다고 생각했던 이야기를 다시 의심하고, 널리 알려진 일화의 원전을 찾아보고, 숫자가 상식과 충돌하면 어느 쪽이 잘못되었는지 들여다봅니다. 새로운 축구를 보면서 옛날 축구를 떠올리기도 하고, 백 년 전의 기록을 읽다가 지금의 축구를 다시 생각하기도 합니다.' },
+  { text: '아마 이 홈페이지에도 그런 글들이 남을 겁니다.' },
+  { text: '무엇을 보아야 한다고 가르치기보다는 제가 무엇을 궁금해했고, 그 질문을 따라가다 어디까지 가게 되었는지를 기록하려 합니다.' },
+  { before: '세 살 때, 아버지가 보시던 ', strong: '1998 월드컵', after: '을 보며 무엇을 느꼈는지는 이제 확인할 방법이 없습니다.' },
+  { text: '그런데 그때 시작된 공놀이 하나를 서른이 된 지금까지도 제대로 이해해보겠다고 이러고 있습니다.' },
+  { text: '생각해보면 참 오래도 왔습니다.' },
+  { text: '그리고 아직, 모르는 것이 더 많습니다.' },
+] as const;
 
 const skills = ['경영기획', '광고기획', '마케팅', '디자인', '개발', '연구'];
 
@@ -158,6 +192,14 @@ const clients = [
     <!-- 섹션 2 — 저자의 편지 -->
     <section class="mt-6 md:mt-10" aria-labelledby="football-letter-title">
       <article data-reveal class="about-letter">
+        <img
+          src="/images/about-world-cup-trophy.webp"
+          alt=""
+          aria-hidden="true"
+          class="about-letter-trophy"
+          loading="lazy"
+          decoding="async"
+        />
         <div class="about-letter-head">
           <p class="about-letter-kicker">A LETTER FROM BBINGE</p>
           <span aria-hidden="true" class="about-letter-mark">BBINGE FC · 01</span>
@@ -166,13 +208,13 @@ const clients = [
         <h2 id="football-letter-title" class="about-letter-title">나는 왜 축구를 쓰는가</h2>
 
         <div class="about-letter-body">
-          {footballLetter.length > 0 ? (
-            footballLetter.map((paragraph) => <p>{paragraph}</p>)
-          ) : (
-            <p class="about-letter-placeholder">
-              이 글은 삥이가 직접 씁니다.<br />문장이 완성되면 이 자리에 공개합니다.
+          {footballLetter.map((paragraph) => (
+            <p>
+              {'text' in paragraph ? paragraph.text : (
+                <>{paragraph.before}<strong>{paragraph.strong}</strong>{paragraph.after}</>
+              )}
             </p>
-          )}
+          ))}
         </div>
 
         <footer class="about-letter-signature">
@@ -349,12 +391,24 @@ const clients = [
     pointer-events: none;
     user-select: none;
   }
-  .about-letter-head { display:flex; align-items:center; justify-content:space-between; gap:20px; }
+  .about-letter-trophy {
+    position: absolute;
+    z-index: 0;
+    top: 180px;
+    right: -15%;
+    width: min(58%, 480px);
+    height: auto;
+    opacity: .1;
+    pointer-events: none;
+    user-select: none;
+  }
+  .about-letter-head { position:relative; z-index:1; display:flex; align-items:center; justify-content:space-between; gap:20px; }
   .about-letter-kicker { color:var(--bbfc-blue); font-size:10px; font-weight:600; letter-spacing:.17em; }
   .about-letter-mark { color:var(--bbfc-gray-3); font-size:9px; letter-spacing:.14em; white-space:nowrap; }
-  .about-letter-title { margin-top:26px; color:var(--bbfc-ink); font-size:clamp(25px,4vw,36px); font-weight:500; line-height:1.35; letter-spacing:-.035em; }
+  .about-letter-title { position:relative; z-index:1; margin-top:26px; color:var(--bbfc-ink); font-size:clamp(25px,4vw,36px); font-weight:500; line-height:1.35; letter-spacing:-.035em; }
   .about-letter-body { position:relative; z-index:1; min-height:132px; margin-top:30px; }
   .about-letter-body p { max-width:610px; color:var(--bbfc-ink-2); font-size:clamp(15px,2vw,17px); line-height:1.95; letter-spacing:-.012em; }
+  .about-letter-body strong { color:var(--bbfc-ink); font-weight:650; }
   .about-letter-body p + p { margin-top:20px; }
   .about-letter-placeholder { color:var(--bbfc-gray-2) !important; }
   .about-letter-signature { position:relative; z-index:1; display:flex; align-items:center; justify-content:flex-end; gap:14px; margin-top:28px; color:var(--bbfc-gray-1); font-size:13px; }
@@ -497,6 +551,7 @@ const clients = [
     .about-letter-head { align-items:flex-start; }
     .about-letter-mark { white-space:normal; text-align:right; }
     .about-letter-body { min-height:112px; margin-top:24px; }
+    .about-letter-trophy { top:240px; right:-34%; width:86%; }
   }
 
   @media (prefers-reduced-motion: reduce) {
