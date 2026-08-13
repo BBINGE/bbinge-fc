@@ -17,9 +17,16 @@ const { entry } = Astro.props as Props;
 const branch = archiveBranches.find((item) => item.id === entry.data.branch)!;
 const archiveIndex = branch.indexes.find((item) => item.slug === entry.data.index)!;
 const { Content } = await render(entry);
-const relatedRecords = (await getCollection('archive', ({ data }) =>
-  !data.draft && data.index === entry.data.index
-))
+const indexRecords = (await getCollection('archive', ({ data }) =>
+  !data.draft && data.branch === entry.data.branch && data.index === entry.data.index
+)).sort((a, b) => a.data.year - b.data.year || a.id.localeCompare(b.id));
+const currentPosition = indexRecords.findIndex((record) => record.id === entry.id);
+const previousRecord = currentPosition > 0 ? indexRecords[currentPosition - 1] : undefined;
+const nextRecord = currentPosition >= 0 && currentPosition < indexRecords.length - 1
+  ? indexRecords[currentPosition + 1]
+  : undefined;
+const nextExpectedYear = entry.data.year + 1;
+const relatedRecords = indexRecords
   .filter((record) => record.id !== entry.id)
   .sort((a, b) => b.data.year - a.data.year)
   .slice(0, 3);
@@ -51,6 +58,28 @@ const relatedRecords = (await getCollection('archive', ({ data }) =>
       <span>{entry.data.description}</span>
     </header>
     <div class="archive-body"><Content /></div>
+    <nav class="sequence-nav" aria-label={`${archiveIndex.label} 이전·다음 기록`}>
+      {previousRecord && (
+        <a class="sequence-link is-previous" href={`/archive/${previousRecord.data.branch}/${previousRecord.data.index}/${previousRecord.id}/`}>
+          <span>PREVIOUS RECORD</span>
+          <strong>◀ {previousRecord.data.year}년 기록</strong>
+          <small>{previousRecord.data.subject}</small>
+        </a>
+      )}
+      {nextRecord ? (
+        <a class="sequence-link is-next" href={`/archive/${nextRecord.data.branch}/${nextRecord.data.index}/${nextRecord.id}/`}>
+          <span>NEXT RECORD</span>
+          <strong>{nextRecord.data.year}년 기록 ▶</strong>
+          <small>{nextRecord.data.subject}</small>
+        </a>
+      ) : (
+        <div class="sequence-link is-next is-pending" aria-label={`${nextExpectedYear}년 다음 기록은 아직 발행되지 않음`}>
+          <span>NEXT RECORD</span>
+          <strong>{nextExpectedYear}년 기록 ▶</strong>
+          <small>다음 기록 발행 예정</small>
+        </div>
+      )}
+    </nav>
     {relatedRecords.length > 0 && (
       <aside class="related-records" aria-labelledby="related-records-title">
         <div><p>SAME INDEX</p><h2 id="related-records-title">같은 색인의 기록</h2></div>
@@ -116,6 +145,15 @@ const relatedRecords = (await getCollection('archive', ({ data }) =>
   .archive-body :global(.cite) { margin-left: .14em; font-size: .68em; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: super; }
   .archive-body :global(.source-notes ol) { padding-left: 22px; list-style: decimal; }
   .archive-body :global(.source-notes li:target) { background: var(--bbfc-blue-weak); }
+  .sequence-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 86px; padding: 22px 0; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
+  .sequence-link { display: grid; align-content: start; min-width: 0; padding: 8px 10px; }
+  .sequence-link.is-next { grid-column: 2; text-align: right; }
+  .sequence-link span { font-size: 9px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-gray-2); }
+  .sequence-link strong { margin-top: 8px; font-size: 16px; line-height: 1.45; font-weight: 620; color: var(--bbfc-blue-strong); }
+  .sequence-link small { margin-top: 5px; overflow: hidden; font-size: 11px; line-height: 1.5; color: var(--bbfc-gray-2); text-overflow: ellipsis; white-space: nowrap; }
+  a.sequence-link:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+  .sequence-link.is-pending { cursor: default; }
+  .sequence-link.is-pending strong, .sequence-link.is-pending small { color: var(--bbfc-gray-3); }
   .related-records { margin-top: 90px; padding-top: 24px; border-top: 2px solid var(--bbfc-ink); }
   .related-records > div:first-child p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
   .related-records h2 { margin-top: 8px; font-size: 26px; font-weight: 680; letter-spacing: -.04em; }
@@ -140,5 +178,8 @@ const relatedRecords = (await getCollection('archive', ({ data }) =>
     .archive-body :global(.record-abstract) { margin-bottom: 46px; padding: 22px 20px 24px; }
     .archive-body :global(.record-abstract p) { font-size: 16px; }
     .related-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .sequence-nav { gap: 8px; margin-top: 68px; }
+    .sequence-link { padding: 6px 4px; }
+    .sequence-link strong { font-size: 14px; }
   }
 </style>
