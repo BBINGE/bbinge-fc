@@ -6,7 +6,9 @@
 
 저장소: https://github.com/BBINGE/bbinge-fc (공개, 2026-07-27 전환. 구 주소 `bbinge-fc-`는 자동 리다이렉트됨)
 
-배포 주소: https://bbinge-fc.pages.dev
+운영 주소: https://bbingefc.com
+
+Cloudflare Pages 기본 주소: https://bbinge-fc.pages.dev
 
 기준 브랜치: `main`
 
@@ -31,6 +33,7 @@ git pull --ff-only origin main
 ## 2. 배포·인프라 구조
 
 - Cloudflare Pages가 `main` push 시 자동 빌드·배포한다.
+- 공개 확인과 검색엔진 제출에는 커스텀 도메인 `https://bbingefc.com`을 기준으로 사용한다. `www.bbingefc.com`과 HTTP 요청은 루트 HTTPS 주소로 리다이렉트된다.
 - GitHub Actions `scheduled-deploy.yml`이 6시간마다 Cloudflare 배포 훅을 호출한다 (예약 발행 글 반영 목적. 월 빌드 한도 관리를 위해 2시간→6시간으로 완화, 2026-07-28). 훅 URL은 GitHub Secrets `CLOUDFLARE_DEPLOY_HOOK`에만 있다.
 - CMS 로그인용 GitHub OAuth는 Cloudflare Pages Functions(`functions/auth.js`, `functions/callback.js`)가 처리한다. `GITHUB_OAUTH_CLIENT_ID`와 시크릿은 Cloudflare 환경변수에만 있다.
 - 비밀값은 어떤 것도 저장소에 없다. 새로 추가하지도 않는다.
@@ -58,7 +61,8 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 글 현황:
 
-- `src/content/articles/`에 3개 파일이 있으나 `supurga-pilgrimage.md`는 본문 자리표시자이고 나머지 2개는 발행 흐름 시험 산출물이다. 공개용 실콘텐츠 투입은 아직 시작 전이다.
+- 일반 글 컬렉션 `src/content/articles/`에는 3개 파일이 있다. `supurga-pilgrimage.md`는 공개 상태지만 본문 자리표시자이며, 나머지 2개는 `draft: true`인 발행 흐름 시험 산출물이다. 수페르가 글을 실제 원고로 오인하지 않는다.
+- 아카이브 컬렉션 `src/content/archive/`에는 첫 실콘텐츠 `1916 코파 아메리카 최우수 선수: 이사벨리노 그라딘` 1편이 공개되어 있다.
 
 ## 5. 남은 주요 작업
 
@@ -88,7 +92,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - 목표 흐름: `원문·카드뉴스·기획 투입 → AI 구조화·편집 → HTML/마크다운 생성 → 로컬 미리보기 → 운영자 검수 → main 커밋·배포`.
 - 운영자는 주제·핵심 주장·사실 판단·최종 승인에 집중한다. AI는 서식, 이미지 경로, 메타데이터, 출처, 내부 링크, SEO, 빌드와 배포를 담당한다. 운영자가 쓴 확정 문장과 관점은 요청 없이 바꾸지 않는다.
 - 초기 콘텐츠 포트폴리오는 기존 자산 재개발을 중심으로 하고, 아카이브형·대중형·고밀도 대표 칼럼을 서로 다른 호흡으로 운영한다. 모든 글을 대표 칼럼 수준으로 수작업하지 않는다.
-- Google Search Console 도메인 속성 인증과 sitemap 제출을 완료했다. NAVER Search Advisor도 공통 head의 소유권 확인 태그로 인증하고 sitemap을 제출했다. 최신 일반 글과 아카이브 기록의 본문을 포함하는 `/rss.xml`을 자동 생성해 RSS 제출에 사용한다. GA4와 AdSense는 실제 콘텐츠를 더 축적한 뒤 진행한다.
+- Google Search Console 도메인 속성 인증과 sitemap 제출을 완료했다. NAVER Search Advisor도 공통 head의 소유권 확인 태그로 인증하고 sitemap과 RSS를 모두 제출했다. 최신 일반 글과 아카이브 기록의 본문을 포함하는 `/rss.xml`은 빌드 때 자동 생성된다. GA4와 AdSense는 실제 콘텐츠를 더 축적한 뒤 진행한다.
 - 다음 작업자는 새 UI나 편집기 기능을 먼저 제안하지 말고, 운영자가 전달하는 첫 실제 콘텐츠 묶음을 사이트 형식으로 전환하는 일부터 시작한다.
 
 ### 보존된 에디터 구현 상태 — 당분간 후순위
@@ -118,10 +122,46 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - about 페이지 — 흰 계열 개인 공식 사이트형 에디토리얼로 개편(2026-08-12). 1200px 비대칭 히어로, 컬러 프로필, `@삥이` 워터마크, SKILL 태그, 이력 2트랙, 공식 로고형 온라인 권위 카드, 주요 의뢰인·성과 패널, 네이버·인스타그램·이메일 CTA를 적용. 히어로와 이력 사이의 편지형 `나는 왜 축구를 쓰는가` 섹션에는 운영자 완성 원고를 `footballLetter` 배열에 문단 단위로 수록했으며(2026-08-13), 긴 편지 흐름에 맞춰 우측에 월드컵·유로·아시안컵·챔피언스리그 트로피를 6% 농도의 장식 워터마크로 분산 배치했다. 하단 서명 영역은 장식 이미지 없이 여백을 유지한다. 로고 자산은 `public/images/about-logos/`에 영문 파일명으로 보관하고 48px 원형 슬롯 안에서 비율을 유지한다. 온라인 권위 문구는 `플랫폼 + 활동/자격 + (계정명·보충정보)` 형식을 사용하며 복수 계정은 가운데점으로 구분한다. NAVER 인물검색과 인플루언서 공인은 별도 카드이며, 브런치 작가(@삥이)와 티스토리 저자(@BBingStory)도 서로 다른 삥이 계열 브랜드로 별도 표시한다. 확정 이력·성과 본문은 유지. 로컬 380/768/1440px에서 가로 넘침 없음, Pretendard 및 스크롤 순차 등장 확인.
 - 신뢰·의무 페이지(2026-08-13): 개인정보처리방침·이용약관·문의 페이지를 실제 운영 상태에 맞게 정비하고, 취재·콘텐츠 제작·출처·정정·광고 독립성 원칙(`/editorial-policy/`)을 추가. 개인정보처리방침은 현재 실제 처리 항목인 이메일 문의·호스팅 접속 정보·브라우저 내 GOAT 진행 저장을 중심으로 법정 항목 순서에 맞춰 간결하게 구성하며, 미도입 분석·광고 서비스의 예고 문구는 두지 않는다. 공개 편집 원칙에서는 운영자가 글·이미지·영상 전반을 직접 기획·조사·집필·편집하고 최종 책임을 진다는 제작 기준을 밝힘. 공통 푸터에 콘텐츠 탐색·정책·문의 동선을 통합하고 WebSite·Person 구조화 데이터를 추가함.
 - 도메인 `bbingefc.com`을 Cloudflare Pages에 연결했으며 루트와 `www` 모두 SSL 활성 상태다. 루트 HTTPS 응답, HTTP→HTTPS 전환, `www`→루트 경로 보존 리다이렉트, canonical, robots.txt, sitemap을 실서비스에서 확인했다(2026-08-13).
-- Google Search Console 도메인 소유권 인증 및 sitemap 제출 성공(2026-08-13). NAVER Search Advisor 소유권 인증 및 `sitemap-index.xml` 제출 완료(2026-08-13), `/rss.xml` 배포 후 RSS 제출 예정. AdSense 심사 신청과 GA4는 콘텐츠 분량 확보 후 진행한다.
+- Google Search Console 도메인 소유권 인증 및 `sitemap-index.xml` 제출 성공(2026-08-13).
+- NAVER Search Advisor 소유권 인증, `sitemap-index.xml`, `/rss.xml` 제출 완료(운영자 확인, 2026-08-13). RSS 제출 화면의 등록 완료도 운영자가 직접 확인했다.
+- AdSense 심사 신청과 GA4는 콘텐츠 분량 확보 후 진행한다.
 - 글 페이지와 도구 페이지의 JS 번들 분리 검증 (도구 구현 시점에)
 
-## 6. 검증 기준
+## 6. 2026-08-13 최신 작업 체크포인트
+
+다음 Claude/Codex 세션은 이 절을 먼저 읽고 아래 상태에서 이어간다.
+
+### 완료된 외부 작업
+
+- Cloudflare Pages에 `bbingefc.com`과 `www.bbingefc.com` 연결 및 SSL 활성화 완료.
+- Google Search Console: `bbingefc.com` 도메인 속성 소유권 인증 완료, `https://bbingefc.com/sitemap-index.xml` 제출 상태 성공.
+- NAVER Search Advisor: `https://bbingefc.com` 소유권 인증 완료, 사이트맵과 RSS 제출 완료.
+- 네이버 인증 메타는 공통 `src/layouts/Layout.astro`에 있다. 인증이 유지되는 동안 임의로 제거하지 않는다. 값은 공개 메타지만 다른 문서나 답변에 불필요하게 반복하지 않는다.
+
+### 검색 피드 운영 방식
+
+- 사이트맵은 `@astrojs/sitemap`이 빌드 시 `sitemap-index.xml`과 하위 사이트맵을 자동 생성한다. 수동 URL 목록을 별도로 관리하지 않는다.
+- RSS는 `src/pages/rss.xml.ts`가 `articles`와 `archive` 컬렉션의 공개 글 중 발행일이 현재 이하인 최신 50개를 합쳐 생성한다.
+- RSS 주소는 `https://bbingefc.com/rss.xml`이며 RSS 2.0, 절대 URL, 발행일, permalink GUID와 본문을 포함한다. 새 글 발행 후 별도 파일 편집 없이 빌드·배포 시 갱신된다.
+- RSS 변경 시 `npm run build` 후 PowerShell의 화면 출력만 믿지 말고 `[xml]` 파싱으로 문법을 검사한다. 배포 후에는 HTTP 200, XML Content-Type, `<rss version="2.0">`, item 1개 이상, 모든 item 링크가 `bbingefc.com`인지 확인한다.
+- 현재 RSS에는 실아카이브 1916년 글과 공개 상태인 수페르가 자리표시자 글이 들어간다. 다음 콘텐츠 작업에서 수페르가를 완성하거나 공개 제외하기 전까지 이를 실제 완성 글로 소개하지 않는다.
+
+### 바로 다음 우선순위
+
+1. UI나 에디터 기능을 더 만들기보다 두 번째 실제 아카이브 콘텐츠를 발행한다.
+2. 자연스러운 다음 기록은 1917년 남미 축구 선수권 대회다. 같은 `national-team / copa-america` 색인에 발행하면 기존 연도 정렬 로직이 1916년 글의 다음 기록과 1917년 글의 이전 기록을 자동 연결한다.
+3. 운영자가 원문·썸네일·사진을 제공하면 사실 검증과 출처 조사를 거쳐 학술체 원고를 디벨롭한다. 원어는 해당 국가·기관의 언어를 사용하고, 국가명에는 로컬 SVG 국기를 병기한다.
+4. 운영자 검수 전에는 확정 문장이나 관점을 임의로 바꾸지 않는다. 자료가 불확실하면 단정하지 말고 기록의 성격과 한계를 본문 또는 각주에서 구분한다.
+5. 발행 후 일반 검증에 더해 아카이브 색인 노출, 이전·다음 자동 연결, Article JSON-LD, RSS 포함, sitemap 포함, 실서비스 URL을 확인한다.
+
+### 현재 의도적으로 하지 않는 작업
+
+- GA4와 AdSense 신청·코드 활성화: 콘텐츠 축적 후 진행한다.
+- TipTap/Sveltia 에디터 고도화, 유튜브 블록, R2, D1 투표 통계: 운영자가 다시 명시적으로 지시하기 전에는 시작하지 않는다.
+- 아카이브 예정 수량·총량·이관 카운터 표시: 이 프로젝트는 0부터 무기한 축적하는 체계이므로 추가하지 않는다.
+- 기존 네이버 글의 단순 복사: 새 사이트의 아카이브 기준에 맞춰 사실·맥락·출처·내부 연결을 개발한다.
+
+## 7. 검증 기준
 
 - `npm run build` 성공
 - 380px 모바일 우선, 768px 태블릿, 데스크톱
@@ -130,7 +170,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - CMS 변경 시 /admin 로그인·저장·커밋 흐름 확인
 - Cloudflare Pages 실제 배포 확인
 
-## 7. 작업 종료 절차
+## 8. 작업 종료 절차
 
 1. 변경 파일과 사용자 기존 변경을 구분한다.
 2. `npm run build`와 화면 검증을 수행한다.
@@ -140,7 +180,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 6. `git push origin main`
 7. Cloudflare Pages 배포 결과를 확인한다.
 
-## 8. 다른 PC에서 처음 시작
+## 9. 다른 PC에서 처음 시작
 
 ```powershell
 git clone https://github.com/BBINGE/bbinge-fc.git bbinge-fc
@@ -155,4 +195,13 @@ Claude 또는 Codex에 보낼 첫 문장:
 저장소 루트의 AGENTS.md, BBINGE_FC_BRIEF.md, CLAUDE.md, HANDOFF.md를
 처음부터 끝까지 읽고, git status와 최근 커밋, 원격 브랜치 상태를 확인한 뒤
 현재 상태에서 이어서 작업해줘.
+```
+
+두 번째 아카이브 글부터 이어갈 때 권장 문장:
+
+```text
+저장소 루트의 AGENTS.md, BBINGE_FC_BRIEF.md, CLAUDE.md, HANDOFF.md를
+처음부터 끝까지 읽고 원격 main과 로컬 변경을 확인해줘. HANDOFF.md의
+2026-08-13 최신 작업 체크포인트를 기준으로, 내가 제공하는 1917년 자료를
+두 번째 코파 아메리카 아카이브 글로 검증·개발·미리보기한 뒤 내 검수를 받아 발행해줘.
 ```
