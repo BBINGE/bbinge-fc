@@ -148,14 +148,14 @@ if (props.kind === 'category') {
   >
     {articleView.faqSchema && <script type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
 
-    <div class="max-w-[680px] mx-auto px-4 md:px-5 py-6">
+    <div class="max-w-[920px] mx-auto px-4 md:px-6 py-8 md:py-12">
       <article>
         <span class="text-[11px] text-[var(--bbfc-blue)]">{articleView.meta.label}</span>
-        <h1 class="text-[24px] font-medium mt-2 mb-2 leading-snug text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
+        <h1 class="text-[30px] md:text-[42px] font-semibold mt-3 mb-4 leading-[1.2] tracking-[-0.035em] text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
         <p class="text-[13px] text-[var(--bbfc-gray-2)] mb-6">
           {articleView.entry.data.pubDate.toLocaleDateString('ko-KR')} · {articleView.readingMinutes}분 읽기
         </p>
-        <div class="article-body text-[16px] leading-[1.7] text-[var(--bbfc-ink)]">
+        <div class="article-body text-[17px] md:text-[18px] leading-[1.9] text-[var(--bbfc-ink)]">
           <articleView.Content />
         </div>
 
@@ -181,15 +181,18 @@ if (props.kind === 'category') {
 
 <style>
   .article-body :global(h2) {
-    font-size: 18px;
-    font-weight: 500;
+    border-left: 4px solid var(--bbfc-blue);
+    padding-left: 14px;
+    font-size: 26px;
+    font-weight: 650;
     line-height: 1.35;
-    margin-top: 32px;
-    margin-bottom: 8px;
+    letter-spacing: -0.025em;
+    margin-top: 76px;
+    margin-bottom: 20px;
     color: var(--bbfc-ink);
   }
   .article-body :global(p) {
-    margin-top: 14px;
+    margin-top: 22px;
   }
   .article-body :global(a) {
     color: var(--bbfc-blue);
@@ -200,6 +203,22 @@ if (props.kind === 'category') {
     margin: 20px 0;
     color: var(--bbfc-ink-2);
   }
+  .article-body :global(strong) { font-weight: 680; }
+  .article-body :global(figure) { margin: 48px 0; }
+  .article-body :global(figure > img) { display: block; width: 100%; height: auto; border-radius: var(--bbfc-radius-lg); }
+  .article-body :global(figcaption) { margin-top: 11px; font-size: 13px; line-height: 1.65; text-align: center; color: var(--bbfc-gray-2); }
+  .article-body :global(.hero-figure) { margin-top: 12px; }
+  .article-body :global(.portrait-figure) { max-width: 620px; margin-left: auto; margin-right: auto; }
+  .article-body :global(.document-figure) { max-width: 780px; margin-left: auto; margin-right: auto; padding: 18px; border: 1px solid var(--bbfc-border); background: var(--bbfc-fill-2); border-radius: var(--bbfc-radius-lg); }
+  .article-body :global(.document-figure img) { border-radius: var(--bbfc-radius); }
+  .article-body :global(.media-grid) { display: grid; gap: 16px; margin: 52px 0; }
+  .article-body :global(.media-grid-three) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .article-body :global(.media-grid > figure) { margin: 0; }
+  .article-body :global(.media-grid img) { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--bbfc-radius-lg); }
+  .article-body :global(.column-thesis) { margin: 48px 0 64px; padding: 24px 28px 26px; border-top: 2px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
+  .article-body :global(.column-thesis > span) { font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .article-body :global(.column-thesis p) { margin-top: 12px; font-size: 20px; line-height: 1.65; font-weight: 620; color: var(--bbfc-ink); }
+  .article-body :global(.foreign-note) { font-size: max(.72em, 12px); line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2); vertical-align: baseline; }
   .article-body :global(code) {
     background: var(--bbfc-fill);
     border-radius: 4px;
@@ -220,12 +239,25 @@ if (props.kind === 'category') {
     width: 100%;
     background: var(--bbfc-fill);
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 32px 0;
   }
   .article-body :global(th),
   .article-body :global(td) {
     border: 1px solid var(--bbfc-border);
     padding: 8px 10px;
     text-align: left;
+  }
+  @media (max-width: 899px) {
+    .article-body :global(.media-grid-three) { grid-template-columns: 1fr; }
+    .article-body :global(.media-grid img) { aspect-ratio: 16 / 10; }
+  }
+  @media (max-width: 767px) {
+    .article-body :global(h2) { margin-top: 58px; padding-left: 11px; font-size: 22px; }
+    .article-body :global(p) { margin-top: 19px; }
+    .article-body :global(figure) { margin: 38px 0; }
+    .article-body :global(.document-figure) { padding: 10px; }
+    .article-body :global(.column-thesis) { margin: 38px 0 52px; padding: 21px 20px 23px; }
+    .article-body :global(.column-thesis p) { font-size: 18px; }
+    .article-body :global(table) { display: block; overflow-x: auto; font-size: 14px; }
   }
 </style>
