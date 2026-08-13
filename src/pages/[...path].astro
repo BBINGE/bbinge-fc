@@ -146,7 +146,7 @@ if (props.kind === 'category') {
       { label: articleView.entry.data.title, href: `/${articleView.entry.data.category}/${articleView.entry.id}/` },
     ]}
   >
-    {articleView.faqSchema && <script type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
+    {articleView.faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
 
     <div class="max-w-[920px] mx-auto px-4 md:px-6 py-8 md:py-12">
       <article>

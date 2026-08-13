@@ -41,7 +41,7 @@ const searchIndex = entries.map((entry) => ({
   </div>
 </Layout>
 
-<script define:vars={{ searchIndex }}>
+<script is:inline define:vars={{ searchIndex }}>
   const input = document.getElementById('bbfc-search-input');
   const resultsEl = document.getElementById('bbfc-search-results');
   const countEl = document.getElementById('bbfc-search-count');

@@ -4,17 +4,19 @@
 import Layout from '../../layouts/Layout.astro';
 import ArticleCardGrid from '../../components/ArticleCardGrid.astro';
 import { getCollection } from 'astro:content';
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
 import { site } from '../../config/site';
 import { PAGE_SIZE } from '../../config/pagination';
 
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id)
   );
   return paginate(articles, { pageSize: PAGE_SIZE }).filter((route) => Number(route.params.page) !== 1);
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+const { page } = Astro.props as Props;
 ---
 
 <Layout

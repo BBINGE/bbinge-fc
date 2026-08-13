@@ -149,14 +149,14 @@ const authorSchema = {
     <!-- Kakao SDK: 카카오 디벨로퍼스 JavaScript 키 발급 후 이 자리에 <script src="https://t1.kakaocdn.net/kakao_js_sdk/.../kakao.min.js"> 삽입 + Kakao.init(키).
          키 등록 전까지 ShareButtons.astro의 카카오 공유 버튼은 링크 복사로 자동 대체된다. -->
 
-    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
-    <script type="application/ld+json" set:html={JSON.stringify(authorSchema)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(authorSchema)} />
     {articleSchema && (
-      <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}
     {extraSchema && (Array.isArray(extraSchema) ? extraSchema : [extraSchema]).map((schema) => (
-      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
     ))}
   </head>
   <body>

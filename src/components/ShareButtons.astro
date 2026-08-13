@@ -50,14 +50,28 @@ const naverShareUrl = `https://share.naver.com/web/shareView?url=${encodedUrl}&t
 </section>
 
 <script>
-  function showMessage(el, text) {
+  interface KakaoShareSdk {
+    isInitialized?: () => boolean;
+    Share: {
+      sendDefault: (settings: {
+        objectType: 'feed';
+        content: {
+          title: string;
+          description: string;
+          link: { mobileWebUrl: string; webUrl: string };
+        };
+      }) => void;
+    };
+  }
+
+  function showMessage(el: Element | null, text: string) {
     if (!(el instanceof HTMLElement)) return;
     el.hidden = false;
     el.textContent = text;
     setTimeout(() => { el.hidden = true; }, 2200);
   }
 
-  async function copyLink(url) {
+  async function copyLink(url: string) {
     try {
       await navigator.clipboard.writeText(url);
       return true;
@@ -78,7 +92,7 @@ const naverShareUrl = `https://share.naver.com/web/shareView?url=${encodedUrl}&t
     });
 
     container.querySelector('[data-share-kakao]')?.addEventListener('click', async () => {
-      const kakao = window.Kakao;
+      const kakao = (window as Window & { Kakao?: KakaoShareSdk }).Kakao;
       if (kakao?.isInitialized?.()) {
         kakao.Share.sendDefault({
           objectType: 'feed',

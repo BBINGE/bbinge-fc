@@ -37,7 +37,7 @@ const articleMap: Record<string, string> = Object.fromEntries(
   </div>
 </Layout>
 
-<script define:vars={{ players, drawAllocation, articleMap }}>
+<script is:inline define:vars={{ players, drawAllocation, articleMap }}>
   const STORAGE_KEY = 'bbfc-goat-v1';
   const ROUND_NAME = { 32: '32강', 16: '16강', 8: '8강', 4: '4강', 2: '결승' };
   const POSITION_KR = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };

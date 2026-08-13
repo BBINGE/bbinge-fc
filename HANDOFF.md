@@ -226,3 +226,10 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 사이트맵의 실제 글 URL에는 `updatedDate` 또는 `pubDate` 기반 `lastmod`를 기록한다.
 - 홈에 시각적 레이아웃을 바꾸지 않는 명확한 H1을 추가하고, 공통 레이아웃에 RSS 발견 링크와 OG/X 이미지 대체 설명을 추가했다.
 - 저자 `Person` 스키마에 직업과 전문 주제를 보강하고 소개 페이지를 `ProfilePage`로 연결했다.
+
+## 12. 정적 타입 검사 경고 정리 (2026-08-13)
+
+- `npx astro check` 기준을 `0 errors / 0 warnings / 0 hints`로 정리했다. 콘텐츠 스키마의 Zod는 Astro 6 권장 경로인 `astro/zod`에서 가져오며, 페이지네이션은 `GetStaticPaths`와 `InferGetStaticPropsType`으로 타입을 연결한다.
+- 공유 영역에는 카카오 SDK의 최소 타입과 DOM 함수 인자 타입을 명시했다. JSON-LD와 `define:vars` 스크립트에는 Astro가 이미 적용하던 인라인 실행 의도를 `is:inline`으로 명시했다. 출력 HTML과 사용자 동작은 바뀌지 않는다.
+- 당분간 후순위로 보존하는 `/admin/write/`의 단일 브라우저 스크립트는 실행 코드 변경 없이 `@ts-nocheck` 경계를 명시했다. 에디터 개발을 재개할 때 별도 TypeScript 모듈로 분리하면서 DOM·TipTap·GitHub API 타입을 단계적으로 적용한다.
+- 일반 검증은 `npm run build`에 더해 `$env:ASTRO_TELEMETRY_DISABLED='1'; npx.cmd astro check`를 실행한다. PowerShell 실행 정책상 `npx` 대신 `npx.cmd`를 사용한다.
