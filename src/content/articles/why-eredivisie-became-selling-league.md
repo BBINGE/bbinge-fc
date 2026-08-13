@@ -38,7 +38,7 @@ draft: false
 
 차이가 있다면 네덜란드는 그 유산을 훨씬 높은 강도의 압박, 라인 컨트롤, 집단적 공간 압축으로 다시 조립했다는 데 있다. 다뉴브 학파가 조합과 유연성의 미학에 가까웠다면 네덜란드는 그 미학이 90분 동안 반복 작동하도록 구조를 만들었다. **네덜란드 축구의 위대함은 발명이라기보다 재조직에 있었다.**
 
-그 전환의 한쪽에는 리뉘스 미헐스<span class="foreign-note" lang="nl">(Marinus Jacobus Hendricus Michels; 네덜란드 축구 감독, 1928~2005)</span>와 요한 크라위프<span class="foreign-note" lang="nl">(Hendrik Johannes Cruijff; 네덜란드 축구 선수·감독, 1947~2016)</span>가 대표하는 암스테르담 계보가 있었다. 다른 한쪽에는 에른스트 하펠<span class="foreign-note" lang="de">(Ernst Franz Hermann Happel; 오스트리아 축구 선수·감독, 1925~1992)</span>처럼 대륙적 전술 감각을 네덜란드 선수군 위에 씌운 외부 계보가 있었다.
+그 전환의 한쪽에는 리뉘스 미헐스<span class="foreign-note" lang="nl">(Marinus Jacobus Hendricus Michels; 네덜란드 축구 감독, 1928–2005)</span>와 요한 크라위프<span class="foreign-note" lang="nl">(Hendrik Johannes Cruijff; 네덜란드 축구 선수·감독, 1947–2016)</span>가 대표하는 암스테르담 계보가 있었다. 다른 한쪽에는 에른스트 하펠<span class="foreign-note" lang="de">(Ernst Franz Hermann Happel; 오스트리아 축구 선수·감독, 1925–1992)</span>처럼 대륙적 전술 감각을 네덜란드 선수군 위에 씌운 외부 계보가 있었다.
 
 <figure>
   <img src="/images/history/eredivisie-selling-league/michels-cruyff-european-cup.png" alt="유러피언컵과 함께한 리뉘스 미헐스와 요한 크라위프" />
@@ -52,7 +52,7 @@ draft: false
 
 이들은 클럽 축구가 ‘아름답기만 한 축구’가 아니라 유럽 정상급의 실전 경쟁력을 갖춘 축구가 될 수 있음을 증명했다. 풀백이 전진하면 누군가가 빈 공간을 덮고, 9번이 내려오면 다른 선수가 최전방을 메우며, 볼을 잃으면 가장 가까운 선수가 즉시 압박하고 뒤의 라인은 그 압박이 헛되지 않도록 전진한다. 공격의 자유는 구조 밖에서 주어지는 특권이 아니라 구조 안에서 서로를 이해한 결과였다.
 
-1990년대에는 루이 판할<span class="foreign-note" lang="nl">(Aloysius Paulus Maria van Gaal; 네덜란드 축구 선수·감독, 1951~)</span>이 이 문법을 다시 체계화했다. 1995년의 아약스가 1971~73년 팀의 복제품이 아니었던 이유도 여기에 있다. 전자가 직관적 혁명에 가까웠다면 후자는 공간 점유, 세 번째 선수의 움직임, 볼 상실 직후 압박을 훈련 가능한 운영 체계로 정교화했다.
+1990년대에는 루이 판할<span class="foreign-note" lang="nl">(Aloysius Paulus Maria van Gaal; 네덜란드 축구 선수·감독, 1951–)</span>이 이 문법을 다시 체계화했다. 1995년의 아약스가 1971–73년 팀의 복제품이 아니었던 이유도 여기에 있다. 전자가 직관적 혁명에 가까웠다면 후자는 공간 점유, 세 번째 선수의 움직임, 볼 상실 직후 압박을 훈련 가능한 운영 체계로 정교화했다.
 
 네덜란드 전술의 본질은 공격적 자유가 아니라 **구조적 상호의존성**이었다. 그리고 이 모델은 전술적 판단이 빠른 유소년을 지속적으로 길러낼 수 있을 때 특히 강했다.
 
@@ -144,14 +144,14 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 
 네덜란드처럼 유소년 육성 효율은 높지만 빅리그보다 임금 지불 능력이 낮은 곳에서 충격은 비대칭적이었다. 클럽은 계속 세계급 선수를 길러냈다. 그러나 계약 종료가 가까워질수록 더 큰 임금을 제시하는 리그 앞에서 협상력은 빠르게 약해졌다.
 
-다만 여기서 보스만을 모든 것의 원인으로 만들면 또 다른 오류가 생긴다. 판결 이전에도 네덜란드의 스타들은 세리에 A와 라리가로 떠났다. 1993년 데니스 베르흐캄프<span class="foreign-note" lang="nl">(Dennis Nicolaas Maria Bergkamp; 네덜란드 축구 선수, 1969~)</span>와 빔 용크<span class="foreign-note" lang="nl">(Wilhelmus Maria Jonk; 네덜란드 축구 선수·지도자, 1966~)</span>는 인테르로 향했다. 마르코 판바스턴, 뤼트 휠릿과 프랑크 레이카르트는 이미 AC 밀란에서 뛰고 있었다.
+다만 여기서 보스만을 모든 것의 원인으로 만들면 또 다른 오류가 생긴다. 판결 이전에도 네덜란드의 스타들은 세리에 A와 라리가로 떠났다. 1993년 데니스 베르흐캄프<span class="foreign-note" lang="nl">(Dennis Nicolaas Maria Bergkamp; 네덜란드 축구 선수, 1969–)</span>와 빔 용크<span class="foreign-note" lang="nl">(Wilhelmus Maria Jonk; 네덜란드 축구 선수·지도자, 1966–)</span>는 인테르로 향했다. 마르코 판바스턴, 뤼트 휠릿과 프랑크 레이카르트는 이미 AC 밀란에서 뛰고 있었다.
 
 <figure>
   <img src="/images/history/eredivisie-selling-league/bergkamp-jonk-inter.jpg" alt="인테르 입단식의 데니스 베르흐캄프와 빔 용크" />
   <figcaption>기회의 땅 이탈리아 세리에 A로 향한 데니스 베르흐캄프와 빔 용크. 베르흐캄프는 인테르에서 기대만큼 적응하지 못했지만 UEFA컵 우승에 기여했고, 훗날 아르센 벵거의 부름을 받아 아스널로 옮긴 뒤 프리미어리그를 대표하는 ‘영혼의 투톱’ 중 한 명이 됐다. 이 장면의 핵심은 성공과 실패가 아니다. 네덜란드의 최정상 선수가 이미 보스만 이전부터 더 큰 임금과 무대를 찾아 이동했다는 사실이다.</figcaption>
 </figure>
 
-보스만 이후 달라진 것은 이동 그 자체가 아니라 **이동을 둘러싼 마찰 비용과 협상력**이었다. 상위 리그는 계약 만료 선수를 훨씬 쉽게 유인했고, 중소 리그는 핵심 선수를 오래 보유하기 위해 더 이른 재계약과 더 빠른 매각 사이에서 선택해야 했다. 1995년 아약스의 유럽 제패를 이끈 파트릭 클라위버르트<span class="foreign-note" lang="nl">(Patrick Stephan Kluivert; 네덜란드 축구 선수·지도자, 1976~)</span>가 1997년 AC 밀란으로 자유 이적한 장면은 그 변화를 상징한다.
+보스만 이후 달라진 것은 이동 그 자체가 아니라 **이동을 둘러싼 마찰 비용과 협상력**이었다. 상위 리그는 계약 만료 선수를 훨씬 쉽게 유인했고, 중소 리그는 핵심 선수를 오래 보유하기 위해 더 이른 재계약과 더 빠른 매각 사이에서 선택해야 했다. 1995년 아약스의 유럽 제패를 이끈 파트릭 클라위버르트<span class="foreign-note" lang="nl">(Patrick Stephan Kluivert; 네덜란드 축구 선수·지도자, 1976–)</span>가 1997년 AC 밀란으로 자유 이적한 장면은 그 변화를 상징한다.
 
 <figure>
   <img src="/images/history/eredivisie-selling-league/kluivert-milan.jpg" alt="AC 밀란 유니폼을 입은 파트릭 클라위버르트" />
