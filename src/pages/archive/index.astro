@@ -2,12 +2,22 @@
 import Layout from '../../layouts/Layout.astro';
 import { archiveBranches } from '../../data/archive';
 import { site } from '../../config/site';
+import { getCollection } from 'astro:content';
 
-const featuredSeries = [
-  { href: '/archive/awards/ballon-dor/', year: '1956—', eyebrow: 'BALLON D’OR', title: '발롱도르 역대 수상자', note: '연도별 인물·득표·시대적 배경' },
-  { href: '/archive/national-team/copa-america/', year: '1916—', eyebrow: 'COPA AMÉRICA', title: '코파 아메리카 최우수 선수', note: '대회별 수상 기록과 원전 대조' },
-  { href: '/archive/european-club/european-cup/', year: '1955—', eyebrow: 'EUROPEAN CUP', title: '유러피언컵 결승전', note: 'UEFA 챔피언스 리그 이전의 기록' },
+const records = (await getCollection('archive', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const firstRecord = [...records].sort((a, b) => a.data.year - b.data.year)[0];
+const activeSeries = archiveBranches.flatMap((branch) => branch.indexes.map((index) => {
+  const seriesRecords = records.filter((record) => record.data.branch === branch.id && record.data.index === index.slug);
+  return { branch, index, records: seriesRecords.sort((a, b) => a.data.year - b.data.year) };
+})).filter((series) => series.records.length > 0);
+
+const readingPaths = [
+  { label: '인물로 읽기', note: '선수의 생애와 경력을 국가와 지역의 축구사 안에서 읽습니다.', branches: ['legends'] },
+  { label: '대회로 읽기', note: '리그와 클럽·국가대표팀 대회를 연도와 당대 명칭으로 따라갑니다.', branches: ['leagues', 'european-club', 'national-team'] },
+  { label: '수상 기록으로 읽기', note: '개인상과 득점 기록을 선정 당시의 맥락과 함께 확인합니다.', branches: ['awards'] },
 ];
+const recordHref = (record: typeof records[number]) => `/archive/${record.data.branch}/${record.data.index}/${record.id}/`;
 ---
 
 <Layout
@@ -17,189 +27,137 @@ const featuredSeries = [
 >
   <div class="archive-page">
     <section class="archive-hero" data-reveal>
-      <div class="archive-kicker"><span>BBINGE ARCHIVE</span><span>AN OPEN-ENDED RECORD</span></div>
+      <div class="archive-kicker"><span>BBINGE ARCHIVE</span><span>FOOTBALL RECORD SERIES</span></div>
       <div class="archive-hero-grid">
         <div class="archive-title-wrap" data-parallax>
           <p class="archive-label">삥이FC 기록총서</p>
           <h1><span>삥이</span><span>아카이브</span></h1>
         </div>
         <div class="archive-intro">
-          <p>선수와 리그, 국제 대회와 시상 기록을 단편적인 정보가 아니라 서로 이어지는 축구사의 일부로 정리합니다.</p>
-          <p>대회·기관·시상 명칭은 당대의 공식 명칭을 우선하며, 후대의 통칭으로 소급해 표기하지 않습니다.</p>
-          <div class="archive-principle"><span>기록의 시작은 0</span><strong>끝은 정하지 않습니다.</strong></div>
+          <strong>축구의 인물·대회·수상 기록을 연도순으로 읽는 기록 총서입니다.</strong>
+          <p>당대의 공식 명칭과 원자료를 바탕으로 하나의 기록이 다음 기록으로 이어집니다.</p>
+          {firstRecord && <a class="first-record-link" href={recordHref(firstRecord)}><span>첫 기록부터 읽기</span><b>{firstRecord.data.year} · {firstRecord.data.subject}</b><i>→</i></a>}
         </div>
       </div>
-      <div class="archive-rule"><span>PERSON</span><span>COMPETITION</span><span>YEAR</span><span>RECORD</span></div>
+      <div class="archive-rule"><span>인물</span><span>대회</span><span>연도</span><span>기록</span></div>
     </section>
 
-    <section class="archive-directory" aria-labelledby="directory-title" data-reveal>
-      <div class="section-heading">
-        <div><p>ARCHIVE DIRECTORY</p><h2 id="directory-title">기록 분류</h2></div>
-        <p>인물과 대회의 이름을 당대의 언어로 구분하고, 서로 연결되는 기록으로 쌓아갑니다.</p>
-      </div>
-
-      <div class="directory-list">
-        {archiveBranches.map((branch) => (
-          <article class="directory-row" id={branch.id} data-reveal data-interactive>
-            <a class="directory-link" href={`/archive/${branch.id}/`} aria-label={`${branch.title} 전체 보기`}></a>
-            <div class="directory-number">{branch.number}</div>
-            <div class="directory-main">
-              <p>{branch.originalTitle}</p>
-              <h3>{branch.title}</h3>
-              <p class="directory-description">{branch.description}</p>
-            </div>
-            <div class="directory-indexes">
-              {branch.indexes.map((index) => <a href={`/archive/${branch.id}/${index.slug}/`}>{index.label}</a>)}
-            </div>
-            <span class="directory-arrow">전체 보기 <i aria-hidden="true">→</i></span>
-          </article>
-        ))}
-      </div>
-    </section>
-
-    <section class="archive-series" aria-labelledby="series-title" data-reveal>
-      <div class="section-heading">
-        <div><p>SERIAL ARCHIVES</p><h2 id="series-title">대표 연재</h2></div>
-        <p>한 번의 선정으로 끝나지 않고, 연도와 대회의 계보를 따라 계속 이어지는 기록입니다.</p>
-      </div>
-      <div class="series-grid">
-        {featuredSeries.map((series, index) => (
-          <a class="series-card" href={series.href} data-reveal data-interactive>
-            <div class="series-visual" aria-hidden="true">
-              <span>{series.eyebrow}</span><strong>{series.year}</strong><i>0{index + 1}</i>
-            </div>
-            <div class="series-copy"><p>{series.eyebrow}</p><h3>{series.title}</h3><span>{series.note}</span></div>
+    <section class="latest-records" aria-labelledby="latest-title" data-reveal>
+      <div class="section-heading"><div><p>AVAILABLE NOW</p><h2 id="latest-title">지금 읽을 수 있는 기록</h2></div><p>발행이 끝난 기록만 모았습니다. 새로운 글은 이곳에 먼저 추가됩니다.</p></div>
+      <div class="record-grid">
+        {records.map((record) => (
+          <a class="record-card" href={recordHref(record)} data-interactive>
+            <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+            <div><p>{record.data.year} · {archiveBranches.find((branch) => branch.id === record.data.branch)?.indexes.find((index) => index.slug === record.data.index)?.label}</p><h3>{record.data.title}</h3><span>{record.data.description}</span><b>기록 읽기 →</b></div>
           </a>
         ))}
       </div>
     </section>
 
+    <section class="reading-guide" aria-labelledby="guide-title" data-reveal>
+      <div class="section-heading"><div><p>HOW TO READ</p><h2 id="guide-title">어떻게 읽을까요?</h2></div><p>익숙한 방식으로 먼저 들어가세요. 세부 분류는 페이지 아래에서 모두 볼 수 있습니다.</p></div>
+      <div class="guide-grid">
+        {readingPaths.map((path, index) => {
+          const count = records.filter((record) => path.branches.includes(record.data.branch)).length;
+          const target = archiveBranches.find((branch) => path.branches.includes(branch.id) && records.some((record) => record.data.branch === branch.id))
+            ?? archiveBranches.find((branch) => path.branches.includes(branch.id));
+          return <a class="guide-card" href={target ? `/archive/${target.id}/` : '/archive/'}><span>0{index + 1}</span><h3>{path.label}</h3><p>{path.note}</p><b>{count > 0 ? `${count}편 보기` : '분류 살펴보기'} →</b></a>;
+        })}
+      </div>
+    </section>
+
+    {activeSeries.length > 0 && <section class="active-series" aria-labelledby="series-title" data-reveal>
+      <div class="section-heading"><div><p>CONTINUING SERIES</p><h2 id="series-title">이어지는 기록</h2></div><p>첫 글이 실제로 발행된 연속 기록만 표시합니다.</p></div>
+      <div class="series-list">
+        {activeSeries.map((series) => <a href={`/archive/${series.branch.id}/${series.index.slug}/`}><div><span>{series.branch.originalTitle}</span><h3>{series.index.label}</h3><p>{series.records[0].data.year}년부터 연도순으로 이어지는 기록</p></div><strong>{series.records.length}편 <i>→</i></strong></a>)}
+      </div>
+    </section>}
+
+    <details class="archive-directory" data-reveal>
+      <summary><div><p>FULL DIRECTORY</p><h2>전체 기록 분류</h2></div><span>세부 분류 펼치기 ＋</span></summary>
+      <div class="directory-list">
+        {archiveBranches.map((branch) => (
+          <article class="directory-row" id={branch.id}>
+            <div class="directory-number">{branch.number}</div>
+            <div class="directory-main"><p>{branch.originalTitle}</p><h3><a href={`/archive/${branch.id}/`}>{branch.title}</a></h3><p>{branch.description}</p></div>
+            <div class="directory-indexes">{branch.indexes.map((index) => <a href={`/archive/${branch.id}/${index.slug}/`}>{index.label}</a>)}</div>
+          </article>
+        ))}
+      </div>
+    </details>
   </div>
 </Layout>
 
 <script>
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const revealItems = document.querySelectorAll<HTMLElement>('[data-reveal]');
-
-  if (reduceMotion || !('IntersectionObserver' in window)) {
-    revealItems.forEach((item) => item.classList.add('is-visible'));
-  } else {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      });
-    }, { threshold: 0.12, rootMargin: '0px 0px -7% 0px' });
+  if (reduceMotion || !('IntersectionObserver' in window)) revealItems.forEach((item) => item.classList.add('is-visible'));
+  else {
+    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), { threshold: .1, rootMargin: '0px 0px -6% 0px' });
     revealItems.forEach((item) => observer.observe(item));
-
     const title = document.querySelector<HTMLElement>('[data-parallax]');
-    let ticking = false;
-    const updateTitle = () => {
-      if (title) title.style.setProperty('--archive-shift', `${Math.min(window.scrollY * 0.055, 22)}px`);
-      ticking = false;
-    };
-    window.addEventListener('scroll', () => {
-      if (!ticking) { requestAnimationFrame(updateTitle); ticking = true; }
-    }, { passive: true });
-
-    document.querySelectorAll<HTMLElement>('[data-interactive]').forEach((card) => {
-      card.addEventListener('pointermove', (event) => {
-        if (event.pointerType === 'touch') return;
-        const rect = card.getBoundingClientRect();
-        card.style.setProperty('--mx', `${((event.clientX - rect.left) / rect.width) * 100}%`);
-        card.style.setProperty('--my', `${((event.clientY - rect.top) / rect.height) * 100}%`);
-      });
-      card.addEventListener('pointerleave', () => {
-        card.style.removeProperty('--mx');
-        card.style.removeProperty('--my');
-      });
-    });
+    window.addEventListener('scroll', () => title?.style.setProperty('--archive-shift', `${Math.min(window.scrollY * .045, 18)}px`), { passive: true });
   }
 </script>
 
 <style>
-  .archive-page { max-width: 1040px; margin: 0 auto; padding: 44px 20px 20px; overflow: clip; }
+  .archive-page { max-width: 1040px; margin: 0 auto; padding: 44px 20px 40px; overflow: clip; }
   .archive-hero { border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
-  .archive-kicker, .archive-rule { display: flex; justify-content: space-between; font-size: 10px; font-weight: 600; letter-spacing: .16em; color: var(--bbfc-gray-2); }
-  .archive-kicker { padding: 12px 0 26px; }
-  .archive-hero-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(300px, .92fr); gap: clamp(56px, 8vw, 112px); align-items: center; min-height: 390px; padding: 34px 0 58px; }
-  .archive-label, .section-heading > div > p { font-size: 10px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
-  .archive-title-wrap { transform: translateY(var(--archive-shift, 0)); }
-  .archive-hero h1 { display: grid; gap: .08em; margin-top: 18px; font-size: clamp(58px, 6.8vw, 84px); line-height: .9; font-weight: 720; letter-spacing: -.07em; }
-  .archive-hero h1 span { display: block; white-space: nowrap; }
-  .archive-intro > p { max-width: 430px; font-size: 15px; line-height: 1.85; color: var(--bbfc-ink-2); }
-  .archive-intro > p + p { margin-top: 18px; }
-  .archive-principle { display: grid; gap: 5px; margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--bbfc-border); }
-  .archive-principle span { font-size: 10px; letter-spacing: .08em; color: var(--bbfc-gray-2); }
-  .archive-principle strong { font-size: 20px; font-weight: 620; letter-spacing: -.03em; }
-  .archive-rule { padding: 13px 0; border-top: 1px solid var(--bbfc-line); }
-  .archive-directory, .archive-series { padding-top: 112px; }
-  .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 48px; padding-bottom: 22px; border-bottom: 2px solid var(--bbfc-ink); }
-  .section-heading h2 { margin-top: 7px; font-size: 31px; font-weight: 650; letter-spacing: -.045em; }
-  .section-heading > p { max-width: 390px; font-size: 13px; line-height: 1.7; text-align: right; color: var(--bbfc-gray-2); }
-  .directory-list { display: grid; }
-  .directory-row { --mx: 50%; --my: 50%; position: relative; display: grid; grid-template-columns: 58px minmax(230px, .9fr) minmax(320px, 1.15fr) 28px; gap: 28px; align-items: center; min-height: 180px; padding: 34px 10px; border-bottom: 1px solid var(--bbfc-border); isolation: isolate; transition: padding 220ms ease, border-color 220ms ease; }
-  .directory-row::before { content: ''; position: absolute; inset: 0; z-index: -1; background: radial-gradient(360px circle at var(--mx) var(--my), var(--bbfc-blue-weak), transparent 68%); opacity: 0; transition: opacity 240ms ease; }
-  .directory-link { position: absolute; inset: 0; z-index: 1; }
-  .directory-row:hover { padding-left: 18px; padding-right: 18px; border-color: var(--bbfc-gray-3); }
-  .directory-row:hover::before { opacity: 1; }
-  .directory-number { align-self: start; padding-top: 3px; font-size: 11px; font-weight: 650; color: var(--bbfc-blue); }
-  .directory-main > p:first-child, .series-copy > p { font-size: 9px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-gray-2); }
-  .directory-main h3 { margin-top: 8px; font-size: 20px; font-weight: 630; letter-spacing: -.03em; }
-  .directory-description { margin-top: 13px; max-width: 330px; font-size: 13px; line-height: 1.65; color: var(--bbfc-gray-1); }
-  .directory-indexes { position: relative; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px; align-content: center; }
-  .directory-indexes a { padding: 7px 10px; border: 1px solid var(--bbfc-border); border-radius: 99px; background: color-mix(in srgb, var(--bbfc-bg) 88%, transparent); font-size: 11px; color: var(--bbfc-ink-2); transition: color 180ms ease, border-color 180ms ease, transform 180ms ease; }
-  .directory-row:hover .directory-indexes a { border-color: color-mix(in srgb, var(--bbfc-blue) 24%, var(--bbfc-border)); }
-  .directory-indexes a:hover { color: var(--bbfc-blue-strong); transform: translateY(-2px); }
-  .directory-arrow { display: flex; gap: 5px; align-items: center; justify-content: end; white-space: nowrap; font-size: 10px; color: var(--bbfc-gray-2); transition: transform 200ms ease, color 200ms ease; }
-  .directory-arrow i { font-size: 14px; font-style: normal; }
-  .directory-row:hover .directory-arrow { color: var(--bbfc-blue); transform: translateX(3px); }
-  .series-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding-top: 30px; }
-  .series-card { --mx: 50%; --my: 50%; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); overflow: hidden; transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease; }
-  .series-card:hover { transform: translateY(-7px); border-color: var(--bbfc-gray-3); box-shadow: 0 18px 42px rgba(25,31,40,.09); }
-  .series-visual { position: relative; display: flex; width: 100%; aspect-ratio: 1 / 1; flex-direction: column; justify-content: space-between; padding: 24px; background: var(--bbfc-ink); color: white; overflow: hidden; }
-  .series-visual > img { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: contain; background: var(--bbfc-ink); }
-  .series-visual::before { content: ''; position: absolute; inset: 0; background: radial-gradient(280px circle at var(--mx) var(--my), rgba(49,130,246,.3), transparent 65%); opacity: 0; transition: opacity 250ms ease; }
-  .series-card:hover .series-visual::before { opacity: 1; }
-  .series-visual::after { content: ''; position: absolute; width: 190px; height: 190px; right: -58px; bottom: -68px; border: 25px solid rgba(255,255,255,.07); border-radius: 50%; transition: transform 500ms cubic-bezier(.2,.8,.2,1); }
-  .series-card:hover .series-visual::after { transform: scale(1.12) rotate(8deg); }
-  .series-visual span { position: relative; z-index: 1; font-size: 9px; letter-spacing: .18em; opacity: .68; }
-  .series-visual strong { position: relative; z-index: 1; font-size: 46px; line-height: 1; letter-spacing: -.055em; }
-  .series-visual i { position: absolute; right: 18px; top: 15px; font-size: 68px; line-height: 1; font-style: normal; font-weight: 700; opacity: .07; }
-  .series-copy { padding: 19px 18px 21px; }
-  .series-copy h3 { margin-top: 7px; font-size: 16px; font-weight: 610; }
-  .series-copy > span { display: block; margin-top: 9px; font-size: 11px; line-height: 1.5; color: var(--bbfc-gray-2); }
-  [data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity 720ms ease, transform 720ms cubic-bezier(.2,.7,.2,1); }
-  [data-reveal].is-visible { opacity: 1; transform: translateY(0); }
-  .directory-row[data-reveal]:nth-child(2), .series-card[data-reveal]:nth-child(2) { transition-delay: 70ms; }
-  .directory-row[data-reveal]:nth-child(3), .series-card[data-reveal]:nth-child(3) { transition-delay: 140ms; }
-
-  @media (max-width: 900px) {
-    .archive-hero-grid { gap: 48px; }
-    .directory-row { grid-template-columns: 44px minmax(200px, .8fr) minmax(260px, 1.2fr); gap: 18px; }
-    .directory-arrow { display: none; }
+  .archive-kicker,.archive-rule { display:flex; justify-content:space-between; font-size:10px; font-weight:650; letter-spacing:.14em; color:var(--bbfc-gray-2); }
+  .archive-kicker { padding:12px 0 24px; }
+  .archive-hero-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(56px,8vw,110px); align-items:center; min-height:390px; padding:34px 0 58px; }
+  .archive-label,.section-heading div>p,details summary div>p { font-size:10px; font-weight:650; letter-spacing:.15em; color:var(--bbfc-blue); }
+  .archive-title-wrap { transform:translateY(var(--archive-shift,0)); }
+  .archive-hero h1 { display:grid; margin-top:18px; font-size:clamp(58px,6.8vw,84px); line-height:.92; font-weight:720; letter-spacing:-.07em; }
+  .archive-intro>strong { display:block; font-size:21px; line-height:1.55; letter-spacing:-.035em; }
+  .archive-intro>p { margin-top:14px; font-size:14px; line-height:1.8; color:var(--bbfc-gray-1); }
+  .first-record-link { position:relative; display:grid; gap:5px; margin-top:30px; padding:20px 46px 20px 0; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
+  .first-record-link span { font-size:10px; color:var(--bbfc-blue); }
+  .first-record-link b { font-size:15px; font-weight:620; }
+  .first-record-link i { position:absolute; right:5px; top:50%; font-size:20px; font-style:normal; transform:translateY(-50%); }
+  .archive-rule { padding:13px 0; border-top:1px solid var(--bbfc-line); }
+  .latest-records,.reading-guide,.active-series { padding-top:104px; }
+  .section-heading { display:flex; justify-content:space-between; align-items:end; gap:42px; padding-bottom:22px; border-bottom:2px solid var(--bbfc-ink); }
+  .section-heading h2,details summary h2 { margin-top:7px; font-size:31px; font-weight:650; letter-spacing:-.045em; }
+  .section-heading>p { max-width:390px; font-size:13px; line-height:1.7; text-align:right; color:var(--bbfc-gray-2); }
+  .record-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px 22px; padding-top:30px; }
+  .record-card img { width:100%; aspect-ratio:1; object-fit:contain; border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill); transition:transform .25s ease; }
+  .record-card:hover img { transform:translateY(-5px); }
+  .record-card div { padding:16px 2px 0; }
+  .record-card div>p { font-size:10px; color:var(--bbfc-blue); }
+  .record-card h3 { margin-top:7px; font-size:17px; line-height:1.45; font-weight:630; }
+  .record-card div>span { display:block; margin-top:9px; font-size:12px; line-height:1.6; color:var(--bbfc-gray-1); }
+  .record-card b { display:block; margin-top:13px; font-size:11px; font-weight:600; color:var(--bbfc-blue-strong); }
+  .guide-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; padding-top:28px; }
+  .guide-card { min-height:235px; padding:24px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); transition:transform .2s ease,border-color .2s ease; }
+  .guide-card:hover { transform:translateY(-5px); border-color:var(--bbfc-blue); }
+  .guide-card>span { font-size:10px; color:var(--bbfc-blue); }
+  .guide-card h3 { margin-top:38px; font-size:21px; font-weight:640; }
+  .guide-card p { margin-top:12px; font-size:13px; line-height:1.7; color:var(--bbfc-gray-1); }
+  .guide-card b { display:block; margin-top:22px; font-size:11px; font-weight:600; color:var(--bbfc-blue-strong); }
+  .series-list { display:grid; padding-top:12px; }
+  .series-list>a { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:28px 10px; border-bottom:1px solid var(--bbfc-border); }
+  .series-list span { font-size:9px; letter-spacing:.13em; color:var(--bbfc-gray-2); }
+  .series-list h3 { margin-top:7px; font-size:22px; font-weight:640; }
+  .series-list p { margin-top:8px; font-size:12px; color:var(--bbfc-gray-1); }
+  .series-list strong { font-size:12px; color:var(--bbfc-blue-strong); white-space:nowrap; }
+  .series-list i { margin-left:8px; font-size:17px; font-style:normal; }
+  details.archive-directory { margin-top:104px; border-top:2px solid var(--bbfc-ink); }
+  details summary { display:flex; justify-content:space-between; align-items:center; padding:26px 0; cursor:pointer; list-style:none; }
+  details summary::-webkit-details-marker { display:none; }
+  details summary>span { font-size:11px; color:var(--bbfc-gray-1); }
+  details[open] summary>span { font-size:0; } details[open] summary>span::after { content:'세부 분류 접기 −'; font-size:11px; }
+  .directory-row { display:grid; grid-template-columns:54px minmax(220px,.8fr) minmax(320px,1.2fr); gap:26px; padding:32px 8px; border-bottom:1px solid var(--bbfc-border); }
+  .directory-number { font-size:11px; font-weight:650; color:var(--bbfc-blue); }
+  .directory-main>p:first-child { font-size:9px; letter-spacing:.13em; color:var(--bbfc-gray-2); }
+  .directory-main h3 { margin-top:7px; font-size:19px; font-weight:630; }
+  .directory-main>p:last-child { margin-top:11px; font-size:12px; line-height:1.65; color:var(--bbfc-gray-1); }
+  .directory-indexes { display:flex; flex-wrap:wrap; gap:7px; align-content:center; }
+  .directory-indexes a { padding:7px 10px; border:1px solid var(--bbfc-border); border-radius:99px; font-size:11px; }
+  [data-reveal] { opacity:0; transform:translateY(24px); transition:opacity .65s ease,transform .65s ease; }
+  [data-reveal].is-visible { opacity:1; transform:translateY(0); }
+  @media(max-width:767px){
+    .archive-page{padding:26px 16px 20px}.archive-kicker{padding-bottom:10px}.archive-hero-grid{grid-template-columns:1fr;gap:42px;min-height:0;padding:40px 0 42px}.archive-title-wrap{transform:none!important}.archive-hero h1{font-size:clamp(52px,15.5vw,64px)}.archive-intro>strong{font-size:19px}.archive-rule span:nth-child(2),.archive-rule span:nth-child(3){display:none}.latest-records,.reading-guide,.active-series{padding-top:76px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card div>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
   }
-  @media (max-width: 767px) {
-    .archive-page { padding: 26px 16px 12px; }
-    .archive-kicker { padding-bottom: 12px; }
-    .archive-hero-grid { grid-template-columns: 1fr; gap: 46px; min-height: 0; padding: 42px 0 44px; }
-    .archive-title-wrap { transform: none !important; }
-    .archive-hero h1 { gap: .1em; font-size: clamp(52px, 15.5vw, 64px); line-height: .92; }
-    .archive-intro > p { font-size: 14px; }
-    .archive-principle { margin-top: 28px; }
-    .archive-rule span:nth-child(2), .archive-rule span:nth-child(3) { display: none; }
-    .archive-directory, .archive-series { padding-top: 78px; }
-    .section-heading { display: block; padding-bottom: 20px; }
-    .section-heading > p { margin-top: 15px; text-align: left; }
-    .directory-row { grid-template-columns: 32px 1fr; gap: 12px; min-height: 0; padding: 30px 0 34px; }
-    .directory-row:hover { padding-left: 0; padding-right: 0; }
-    .directory-indexes { grid-column: 2; margin-top: 8px; gap: 7px; }
-    .directory-description { padding-right: 4px; }
-    .series-grid { grid-template-columns: 1fr; gap: 20px; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    [data-reveal] { opacity: 1; transform: none; transition: none; }
-    .archive-title-wrap, .directory-row, .series-card, .directory-indexes a { transform: none !important; transition: none; }
-  }
+  @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}.archive-title-wrap,.record-card img,.guide-card{transform:none!important}}
 </style>
