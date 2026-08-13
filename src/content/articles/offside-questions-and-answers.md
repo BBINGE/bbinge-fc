@@ -9,11 +9,11 @@ tags:
   - "축구 입문"
   - "경기규칙 11조"
 pubDate: 2026-08-13
-coverImage: "/images/football-made-easy/offside-qa-cover.png"
-coverImageAlt: "축구장 위 공격수와 수비수의 위치로 오프사이드 선을 설명한 정보 그래픽"
-coverImageCaption: "오프사이드는 공격수가 어디에 서 있었는지만으로 결정되지 않는다. 동료가 공을 건드린 순간의 위치와 이후 플레이 관여 여부를 함께 봐야 한다."
-coverImageWidth: 1200
-coverImageHeight: 630
+coverImage: "/images/football-made-easy/offside-match-thumbnail.png"
+coverImageAlt: "수비선 앞뒤에 자리한 파란색과 빨간색 유니폼의 선수들 사이로 오프사이드 판정선이 표시된 경기 장면"
+coverImageCaption: "오프사이드 판정은 동료가 공을 건드린 순간 공격수와 공, 뒤에서 두 번째 상대 선수의 위치를 함께 비교한다."
+coverImageWidth: 465
+coverImageHeight: 318
 faq:
   - question: "오프사이드 위치에 있기만 해도 반칙인가요?"
     answer: "아닙니다. 오프사이드 위치 자체는 반칙이 아니며, 그 위치에 있던 선수가 공을 플레이하거나 상대를 방해하는 등 적극적으로 플레이에 관여할 때 판정됩니다."
