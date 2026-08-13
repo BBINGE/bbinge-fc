@@ -22,6 +22,7 @@ Cloudflare Pages 기본 주소: https://bbinge-fc.pages.dev
 - 현재 원격 `main`의 최신 기준 커밋은 `7fc7cdf`다. 집 PC에서는 작업 전에 `git fetch origin` → `git status --short --branch`를 확인하고, 로컬 변경이 없을 때만 `git pull --ff-only origin main`을 실행한다. 커밋 번호는 이후 바뀔 수 있으므로 `git log -10 --oneline` 결과를 최종 기준으로 삼는다.
 - 2026-08-14 현재 새 콘텐츠 축 `축떡`과 첫 글 `오프사이드에 대한 Q&A`가 실서비스에 공개됐다. 다음 작업은 새 기능 개발보다 축떡의 다음 Q&A 주제를 정하거나 기존에 받은 실제 원고·사진으로 후속 콘텐츠를 발행하는 것이다.
 - 오프사이드 글 URL은 `/football-made-easy/offside-questions-and-answers/`다. 본문에는 질문별 HTML/CSS 전술판 모션 10개가 있으며, 우리 팀 파랑·상대 팀 빨강·공과 경로 흰색·오프사이드선 노랑을 공통 규칙으로 쓴다.
+- 전술판의 공·선수 이동 거리는 고정 px가 아니라 각 전술판 너비에 비례하는 컨테이너 단위(`cqw`)를 사용한다. 2026-08-14에 모바일에서 공이 과도하게 멀리 이동하던 문제를 수정했으며, 380px와 1440px에서 10개 전술판의 이동 요소가 영역 밖으로 벗어나지 않고 페이지 가로 넘침이 없는 것을 확인했다.
 - 팀 범례는 CSS `content` 문자열로 만들지 않는다. 각 전술판 안의 실제 `.team-legend` HTML과 4열 grid를 유지해야 모바일에서 색점과 글자가 깨지지 않는다. 380px 기준 범례 폭 128px, 색점 8px, `white-space: nowrap`, 페이지 가로 넘침 없음이 확인된 상태다.
 - 오프사이드 대표 이미지는 운영자가 제공한 `/images/football-made-easy/offside-match-thumbnail.png`(465×318)다. 글 화면·OG·Twitter·Article 이미지가 모두 이 파일을 사용한다. 이전 자체 도식 `/images/football-made-easy/offside-qa-cover.png`는 현재 글에서 참조하지 않지만 삭제하지 않고 보존한다.
 - 최신 연속 커밋은 `999a47d`(축떡 신설), `e2fdc19`(서술·전술판 모션), `51c5896`(대표 이미지 교체), `2491a43`·`7fc7cdf`(팀 범례 수정)다. 모두 `main`에 push되고 커스텀 도메인에서 확인됐다.
