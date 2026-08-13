@@ -73,10 +73,6 @@ const featuredSeries = [
       </div>
     </section>
 
-    <section class="archive-closing" data-reveal>
-      <p>ARCHIVE WITHOUT END</p>
-      <div><strong>0부터, 계속.</strong><span>이미 모아둔 기록은 출발을 빠르게 해주는 자산일 뿐입니다.<br />아카이브는 앞으로 쓰이는 모든 기록과 함께 확장됩니다.</span></div>
-    </section>
   </div>
 </Layout>
 
@@ -159,7 +155,8 @@ const featuredSeries = [
   .series-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding-top: 30px; }
   .series-card { --mx: 50%; --my: 50%; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); overflow: hidden; transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease; }
   .series-card:hover { transform: translateY(-7px); border-color: var(--bbfc-gray-3); box-shadow: 0 18px 42px rgba(25,31,40,.09); }
-  .series-visual { position: relative; display: flex; min-height: 230px; flex-direction: column; justify-content: space-between; padding: 24px; background: var(--bbfc-ink); color: white; overflow: hidden; }
+  .series-visual { position: relative; display: flex; width: 100%; aspect-ratio: 1 / 1; flex-direction: column; justify-content: space-between; padding: 24px; background: var(--bbfc-ink); color: white; overflow: hidden; }
+  .series-visual > img { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: contain; background: var(--bbfc-ink); }
   .series-visual::before { content: ''; position: absolute; inset: 0; background: radial-gradient(280px circle at var(--mx) var(--my), rgba(49,130,246,.3), transparent 65%); opacity: 0; transition: opacity 250ms ease; }
   .series-card:hover .series-visual::before { opacity: 1; }
   .series-visual::after { content: ''; position: absolute; width: 190px; height: 190px; right: -58px; bottom: -68px; border: 25px solid rgba(255,255,255,.07); border-radius: 50%; transition: transform 500ms cubic-bezier(.2,.8,.2,1); }
@@ -170,11 +167,6 @@ const featuredSeries = [
   .series-copy { padding: 19px 18px 21px; }
   .series-copy h3 { margin-top: 7px; font-size: 16px; font-weight: 610; }
   .series-copy > span { display: block; margin-top: 9px; font-size: 11px; line-height: 1.5; color: var(--bbfc-gray-2); }
-  .archive-closing { display: grid; grid-template-columns: .7fr 1.3fr; gap: 32px; margin-top: 116px; padding: 38px 0 52px; border-top: 2px solid var(--bbfc-ink); }
-  .archive-closing > p { font-size: 9px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
-  .archive-closing div { display: grid; grid-template-columns: .65fr 1.35fr; gap: 32px; }
-  .archive-closing strong { font-size: 24px; line-height: 1.2; font-weight: 650; letter-spacing: -.04em; }
-  .archive-closing span { font-size: 13px; line-height: 1.75; color: var(--bbfc-gray-1); }
   [data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity 720ms ease, transform 720ms cubic-bezier(.2,.7,.2,1); }
   [data-reveal].is-visible { opacity: 1; transform: translateY(0); }
   .directory-row[data-reveal]:nth-child(2), .series-card[data-reveal]:nth-child(2) { transition-delay: 70ms; }
@@ -202,9 +194,6 @@ const featuredSeries = [
     .directory-indexes { grid-column: 2; margin-top: 8px; gap: 7px; }
     .directory-description { padding-right: 4px; }
     .series-grid { grid-template-columns: 1fr; gap: 20px; }
-    .series-visual { min-height: 190px; }
-    .archive-closing { grid-template-columns: 1fr; gap: 22px; margin-top: 82px; padding-bottom: 34px; }
-    .archive-closing div { grid-template-columns: 1fr; gap: 14px; }
   }
   @media (prefers-reduced-motion: reduce) {
     [data-reveal] { opacity: 1; transform: none; transition: none; }
