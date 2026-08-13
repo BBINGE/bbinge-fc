@@ -31,8 +31,8 @@ draft: false
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2승 1무 | 9득점 2실점 |
-| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 1승 2무 | 4득점 2실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 세 번째 우승</span> | 2승 1무 | 9득점 2실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 세 번째 준우승</span> | 1승 2무 | 4득점 2실점 |
 | 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 1승 2패 | 1득점 8실점 |
 | 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 1무 2패 | 2득점 4실점 |
 
