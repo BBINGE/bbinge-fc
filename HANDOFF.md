@@ -56,7 +56,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - 4개 카테고리 확정: history(축세·축구로 보는 세계사)·pilgrimage(축행·축구로 가는 세계여행)·play(축겜·축구로 노는 게임)·culture(축디·축구로 보는 OOTD) — `src/config/categories.ts`. URL 슬러그는 영문 유지, 표시명만 한글. `/play/`는 카테고리 글 목록이 아니라 GOAT 도구 전용 페이지
 - 컴포넌트: Header, Footer, HomeHero, CategorySidebar, ArticleCardGrid, CategoryArticleList, RelatedList, ShareButtons, AdSlot, InfoPage
 - Pretendard 서브셋 폰트, Tailwind, sitemap 통합, robots.txt
-- GA4·AdSense 삽입 자리 주석 처리 (`Layout.astro` 88–89행, `AdSlot.astro`)
+- GA4 측정 ID `G-3931E0CPPK`를 공통 `Layout.astro`에 적용해 전 페이지 방문 통계를 수집한다. AdSense는 `AdSlot.astro`를 포함한 삽입 자리만 유지한다.
 - Sveltia CMS 관리자 + GitHub OAuth + 6시간 예약 배포
 
 글 현황:
@@ -92,7 +92,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - 목표 흐름: `원문·카드뉴스·기획 투입 → AI 구조화·편집 → HTML/마크다운 생성 → 로컬 미리보기 → 운영자 검수 → main 커밋·배포`.
 - 운영자는 주제·핵심 주장·사실 판단·최종 승인에 집중한다. AI는 서식, 이미지 경로, 메타데이터, 출처, 내부 링크, SEO, 빌드와 배포를 담당한다. 운영자가 쓴 확정 문장과 관점은 요청 없이 바꾸지 않는다.
 - 초기 콘텐츠 포트폴리오는 기존 자산 재개발을 중심으로 하고, 아카이브형·대중형·고밀도 대표 칼럼을 서로 다른 호흡으로 운영한다. 모든 글을 대표 칼럼 수준으로 수작업하지 않는다.
-- Google Search Console 도메인 속성 인증과 sitemap 제출을 완료했다. NAVER Search Advisor도 공통 head의 소유권 확인 태그로 인증하고 sitemap과 RSS를 모두 제출했다. 최신 일반 글과 아카이브 기록의 본문을 포함하는 `/rss.xml`은 빌드 때 자동 생성된다. GA4와 AdSense는 실제 콘텐츠를 더 축적한 뒤 진행한다.
+- Google Search Console 도메인 속성 인증과 sitemap 제출을 완료했다. NAVER Search Advisor도 공통 head의 소유권 확인 태그로 인증하고 sitemap과 RSS를 모두 제출했다. 최신 일반 글과 아카이브 기록의 본문을 포함하는 `/rss.xml`은 빌드 때 자동 생성된다. GA4는 2026-08-13부터 측정을 시작하며, AdSense는 실제 콘텐츠를 더 축적한 뒤 진행한다.
 - 다음 작업자는 새 UI나 편집기 기능을 먼저 제안하지 말고, 운영자가 전달하는 첫 실제 콘텐츠 묶음을 사이트 형식으로 전환하는 일부터 시작한다.
 
 ### 보존된 에디터 구현 상태 — 당분간 후순위
@@ -124,7 +124,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - 도메인 `bbingefc.com`을 Cloudflare Pages에 연결했으며 루트와 `www` 모두 SSL 활성 상태다. 루트 HTTPS 응답, HTTP→HTTPS 전환, `www`→루트 경로 보존 리다이렉트, canonical, robots.txt, sitemap을 실서비스에서 확인했다(2026-08-13).
 - Google Search Console 도메인 소유권 인증 및 `sitemap-index.xml` 제출 성공(2026-08-13).
 - NAVER Search Advisor 소유권 인증, `sitemap-index.xml`, `/rss.xml` 제출 완료(운영자 확인, 2026-08-13). RSS 제출 화면의 등록 완료도 운영자가 직접 확인했다.
-- AdSense 심사 신청과 GA4는 콘텐츠 분량 확보 후 진행한다.
+- GA4 속성·웹 스트림 생성과 사이트 태그 적용은 완료했다. AdSense 심사 신청은 콘텐츠 분량 확보 후 진행한다.
 - 글 페이지와 도구 페이지의 JS 번들 분리 검증 (도구 구현 시점에)
 
 ## 6. 2026-08-13 최신 작업 체크포인트
@@ -136,6 +136,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - Cloudflare Pages에 `bbingefc.com`과 `www.bbingefc.com` 연결 및 SSL 활성화 완료.
 - Google Search Console: `bbingefc.com` 도메인 속성 소유권 인증 완료, `https://bbingefc.com/sitemap-index.xml` 제출 상태 성공.
 - NAVER Search Advisor: `https://bbingefc.com` 소유권 인증 완료, 사이트맵과 RSS 제출 완료.
+- Google Analytics 4: `삥이FC` 속성과 `https://bbingefc.com` 웹 스트림을 만들고 측정 ID `G-3931E0CPPK`를 사이트 공통 레이아웃에 적용했다.
 - 네이버 인증 메타는 공통 `src/layouts/Layout.astro`에 있다. 인증이 유지되는 동안 임의로 제거하지 않는다. 값은 공개 메타지만 다른 문서나 답변에 불필요하게 반복하지 않는다.
 
 ### 검색 피드 운영 방식
@@ -156,7 +157,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 ### 현재 의도적으로 하지 않는 작업
 
-- GA4와 AdSense 신청·코드 활성화: 콘텐츠 축적 후 진행한다.
+- AdSense 신청·코드 활성화: 콘텐츠 축적 후 진행한다. GA4는 이미 활성화했으므로 실시간 수집 상태와 콘텐츠별 유입을 운영 중 확인한다.
 - TipTap/Sveltia 에디터 고도화, 유튜브 블록, R2, D1 투표 통계: 운영자가 다시 명시적으로 지시하기 전에는 시작하지 않는다.
 - 아카이브 예정 수량·총량·이관 카운터 표시: 이 프로젝트는 0부터 무기한 축적하는 체계이므로 추가하지 않는다.
 - 기존 네이버 글의 단순 복사: 새 사이트의 아카이브 기준에 맞춰 사실·맥락·출처·내부 연결을 개발한다.
