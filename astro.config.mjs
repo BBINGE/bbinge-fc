@@ -8,6 +8,20 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 const contentRoot = fileURLToPath(new URL('./src/content/', import.meta.url));
+/** @type {{ categories: Array<{ slug: string, parentSlug: string | null }> }} */
+const categoryData = JSON.parse(readFileSync(fileURLToPath(new URL('./src/data/categories.json', import.meta.url)), 'utf8'));
+const categoryParents = new Map(categoryData.categories.map((category) => [category.slug, category.parentSlug]));
+const categoryPaths = new Map();
+for (const category of categoryData.categories) {
+  const chain = [];
+  /** @type {string | null | undefined} */
+  let slug = category.slug;
+  while (slug) {
+    chain.unshift(slug);
+    slug = categoryParents.get(slug);
+  }
+  categoryPaths.set(category.slug, `/${chain.join('/')}/`);
+}
 
 /** @param {string} directory @returns {string[]} */
 function markdownFiles(directory) {
@@ -25,6 +39,7 @@ function frontmatterValue(source, key) {
 
 const populatedArchiveBranches = new Set();
 const populatedArchiveIndexes = new Set();
+const populatedArticleCategories = new Set();
 const contentLastModified = new Map();
 
 for (const file of markdownFiles(join(contentRoot, 'archive'))) {
@@ -45,6 +60,12 @@ for (const file of markdownFiles(join(contentRoot, 'articles'))) {
   const category = frontmatterValue(source, 'category');
   const slug = relative(join(contentRoot, 'articles'), file).split(sep).join('/').replace(/\.md$/, '');
   const modified = frontmatterValue(source, 'updatedDate') ?? frontmatterValue(source, 'pubDate');
+  /** @type {string | null | undefined} */
+  let populatedSlug = category;
+  while (populatedSlug) {
+    populatedArticleCategories.add(populatedSlug);
+    populatedSlug = categoryParents.get(populatedSlug);
+  }
   if (category && modified) contentLastModified.set(`/${category}/${slug}/`, new Date(modified));
 }
 
@@ -60,6 +81,10 @@ export default defineConfig({
       filter: (page) => {
         const pathname = new URL(page).pathname;
         if (pathname.startsWith('/admin/')) return false;
+        if (pathname === '/search/') return false;
+        for (const [categorySlug, categoryPath] of categoryPaths) {
+          if (pathname === categoryPath && categorySlug !== 'play') return populatedArticleCategories.has(categorySlug);
+        }
         const segments = pathname.split('/').filter(Boolean);
         if (segments[0] !== 'archive') return true;
         if (segments.length === 2) return populatedArchiveBranches.has(segments[1]);
