@@ -60,29 +60,29 @@ draft: false
 
 네덜란드 축구의 성취를 읽을 때 중요한 것은 우승 횟수만이 아니다. 압도적인 내수시장이나 다수의 초대형 도시를 가진 나라가 아니었음에도 서로 다른 클럽이 반복해서 유럽 결승 단계에 진입했다는 사실이 더 중요하다.
 
-<div class="club-honours-wrap">
+<div id="club-honours" class="club-honours-wrap">
   <table class="club-honours">
     <thead>
       <tr><th>구분</th><th>조직</th><th>성과</th></tr>
     </thead>
     <tbody>
       <tr class="ajax-row">
-        <th rowspan="3" scope="rowgroup">클럽</th>
-        <th scope="row">AFC 아약스</th>
-        <td><ul><li>1968-69 시즌 유러피언컵 준우승</li><li>1970-71 시즌 유러피언컵 우승</li><li>1971-72 시즌 유러피언컵 및 인터콘티넨털컵 우승</li><li>1972-73 시즌 유러피언컵 3연패 및 UEFA 배지 오브 아너 자격 획득</li><li>1994-95 시즌 무패 더블</li><li>1995-96 시즌 UEFA 챔피언스리그 준우승</li></ul></td>
+        <th class="group-cell" rowspan="3" scope="rowgroup">클럽</th>
+        <th class="org-cell" scope="row">AFC 아약스</th>
+        <td class="honours-cell"><ul><li>1968-69 시즌 유러피언컵 준우승</li><li>1970-71 시즌 유러피언컵 우승</li><li>1971-72 시즌 유러피언컵 및 인터콘티넨털컵 우승</li><li>1972-73 시즌 유러피언컵 3연패 및 UEFA 배지 오브 아너 자격 획득</li><li>1994-95 시즌 무패 더블</li><li>1995-96 시즌 UEFA 챔피언스리그 준우승</li></ul></td>
       </tr>
       <tr class="feyenoord-row">
-        <th scope="row">페예노르트 로테르담</th>
-        <td><ul><li>1969-70 시즌 유러피언컵 우승</li><li>1973-74 시즌 UEFA컵 우승</li></ul></td>
+        <th class="org-cell" scope="row">페예노르트 로테르담</th>
+        <td class="honours-cell"><ul><li>1969-70 시즌 유러피언컵 우승</li><li>1973-74 시즌 UEFA컵 우승</li></ul></td>
       </tr>
       <tr class="psv-row">
-        <th scope="row">PSV 에인트호번</th>
-        <td><ul><li>1977-78 시즌 UEFA컵 우승</li><li>1987-88 시즌 트레블</li></ul></td>
+        <th class="org-cell" scope="row">PSV 에인트호번</th>
+        <td class="honours-cell"><ul><li>1977-78 시즌 UEFA컵 우승</li><li>1987-88 시즌 트레블</li></ul></td>
       </tr>
       <tr class="netherlands-row">
-        <th scope="row">국가대표</th>
-        <th scope="row">네덜란드 축구 국가대표팀</th>
-        <td><ul><li>1974 FIFA 월드컵 준우승</li><li>UEFA 유로 1976 3위</li><li>1978 FIFA 월드컵 준우승</li><li>UEFA 유로 1988 우승</li><li>UEFA 유로 1992 4강</li></ul></td>
+        <th class="group-cell" scope="row">국가대표</th>
+        <th class="org-cell" scope="row">네덜란드 축구 국가대표팀</th>
+        <td class="honours-cell"><ul><li>1974 FIFA 월드컵 준우승</li><li>UEFA 유로 1976 3위</li><li>1978 FIFA 월드컵 준우승</li><li>UEFA 유로 1988 우승</li><li>UEFA 유로 1992 4강</li></ul></td>
       </tr>
     </tbody>
   </table>
