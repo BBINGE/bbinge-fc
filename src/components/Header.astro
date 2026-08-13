@@ -1,12 +1,19 @@
 ---
 import { getTopLevel } from '../config/categories';
-import { site } from '../config/site';
 import CategorySidebar from './CategorySidebar.astro';
 
 const currentPath = Astro.url.pathname;
-// 상단 네비의 "카테고리"는 대분류만, 가나다순으로 노출한다. 계층 전체는 좌측 사이드바(데스크톱)와
-// 모바일 드로어의 CategorySidebar 트리에서 다룬다.
-const topCategories = getTopLevel().sort((a, b) => a.label.localeCompare(b.label, 'ko'));
+const topCategories = getTopLevel();
+const primaryNav = [
+  { href: '/', label: 'MAIN', active: currentPath === '/' },
+  { href: '/about/', label: '저자 @삥이', active: currentPath.startsWith('/about/') },
+  ...topCategories.flatMap(({ slug, label }) => {
+    const item = { href: `/${slug}/`, label, active: currentPath.startsWith(`/${slug}/`) };
+    return slug === 'pilgrimage'
+      ? [item, { href: '/archive/', label: '삥이 아카이브', active: currentPath.startsWith('/archive/') }]
+      : [item];
+  }),
+];
 ---
 
 <header class="sticky top-0 z-30 bg-[var(--bbfc-bg)] border-b border-[var(--bbfc-line)]">
@@ -29,34 +36,18 @@ const topCategories = getTopLevel().sort((a, b) => a.label.localeCompare(b.label
         삥이<span class="text-[var(--bbfc-blue)]">FC</span>
       </a>
 
-      <nav class="hidden md:flex items-center gap-5">
-        <a
-          href="/"
-          class:list={['text-[13.5px]', currentPath === '/' ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal']}
-        >
-          MAIN
-        </a>
-        <a
-          href="/about/"
-          class:list={['text-[13.5px]', currentPath.startsWith('/about/') ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal']}
-        >
-          저자 @삥이
-        </a>
-        {topCategories.map(({ slug, label }) => {
-          const href = `/${slug}/`;
-          const isActive = currentPath.startsWith(href);
-          return (
+      <nav class="hidden md:flex items-center gap-4" aria-label="주요 메뉴">
+        {primaryNav.map(({ href, label, active }) => (
             <a
               href={href}
               class:list={[
-                'text-[13.5px]',
-                isActive ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal',
+                'text-[13px] whitespace-nowrap',
+                active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal',
               ]}
             >
               {label}
             </a>
-          );
-        })}
+        ))}
       </nav>
     </div>
 
@@ -90,22 +81,16 @@ const topCategories = getTopLevel().sort((a, b) => a.label.localeCompare(b.label
     </button>
   </div>
   <ul class="space-y-1 mb-4 pb-4 border-b border-[var(--bbfc-line)]">
-    <li>
-      <a
-        href="/"
-        class:list={['block text-[13.5px] py-2', currentPath === '/' ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
-      >
-        MAIN
-      </a>
-    </li>
-    <li>
-      <a
-        href="/about/"
-        class:list={['block text-[13.5px] py-2', currentPath.startsWith('/about/') ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
-      >
-        저자 @삥이
-      </a>
-    </li>
+    {primaryNav.map(({ href, label, active }) => (
+      <li>
+        <a
+          href={href}
+          class:list={['block text-[13.5px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
+        >
+          {label}
+        </a>
+      </li>
+    ))}
     <li>
       <a href="/search/" class="block text-[13.5px] py-2 text-[var(--bbfc-ink-2)]">검색</a>
     </li>
