@@ -1,8 +1,8 @@
 ---
 title: '1916 코파 아메리카 최우수 선수: 이사벨리노 그라딘'
 description: '1916 남미 축구 선수권 대회의 기록과 초대 챔피언 우루과이, 그리고 공식 아카이브에 남은 이사벨리노 그라딘의 활약을 살핀다.'
-branch: 'awards'
-index: 'copa-america-best-player'
+branch: 'national-team'
+index: 'copa-america'
 year: 1916
 subject: '이사벨리노 그라딘'
 pubDate: 2026-08-13
