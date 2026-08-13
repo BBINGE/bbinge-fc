@@ -7,7 +7,7 @@ year: 1919
 subject: '아르투르 프리덴라이히'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1919'
 keywords: ['CONMEBOL Copa América', 'Arthur Friedenreich', 'Neco', '브라질 축구 국가대표팀', '스페인 독감', 'Estádio das Laranjeiras']
-pubDate: 2026-08-14
+pubDate: 2026-08-14T01:30:00+09:00
 coverImage: '/images/archive/1919-copa-america/cover.jpg'
 coverImageAlt: '1919 코파 아메리카와 아르투르 프리덴라이히를 기록한 표지'
 coverImageWidth: 773
