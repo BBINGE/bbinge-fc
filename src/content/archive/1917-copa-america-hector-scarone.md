@@ -71,7 +71,7 @@ draft: false
 
 ### 국가가 경기장을 지은 대회
 
-개최지는 대회를 위해 경기장부터 새로 마련했다. 우루과이 정부는 대통령 펠리시아노 비에라<span class="foreign-note" lang="es">(Feliciano Alberto Viera Borges; 우루과이 대통령)</span>의 법률에 따라 국가체육위원회에 5만 페소를 지급했고, 기술자 리카르도 아코스타<span class="foreign-note" lang="es">(Ricardo Acosta; 경기장 설계·시공 책임자)</span>가 파르케 페레이라<span class="foreign-note" lang="es">(Parque Pereira; 대회를 위해 조성한 몬테비데오 경기장)</span>의 설계와 공사를 맡았다. 목재로 만든 거대한 타원형 지붕 관중석, 철근콘크리트 방식의 특별석, 선수들이 그라운드로 들어오는 터널은 당시 현지 기록이 강조한 신식 요소였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+개최지는 대회를 위해 경기장부터 새로 마련했다. 우루과이 정부는 펠리시아노 비에라<span class="foreign-note" lang="es">(Feliciano Alberto Viera Borges; 우루과이 정치인·변호사, 1872–1927년, 제19대 헌법 대통령·재임 1915–1919년)</span> 대통령 재임 중 제정된 법률에 따라 국가체육위원회에 5만 페소를 지급했고, 기술자 리카르도 아코스타<span class="foreign-note" lang="es">(Ricardo Acosta; 경기장 설계·시공 책임자)</span>가 파르케 페레이라<span class="foreign-note" lang="es">(Parque Pereira; 대회를 위해 조성한 몬테비데오 경기장)</span>의 설계와 공사를 맡았다. 목재로 만든 거대한 타원형 지붕 관중석, 철근콘크리트 방식의 특별석, 선수들이 그라운드로 들어오는 터널은 당시 현지 기록이 강조한 신식 요소였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 원래 경기장 개장과 대회 개막은 우루과이 독립기념일인 8월 25일에 맞출 예정이었다. 그러나 일정은 한 달 이상 늦어졌고 실제 첫 경기는 9월 30일에 열렸다. 공식 회고는 개장일 관중을 약 2만5천 명으로 추산한다. 새 경기장에 들어선 첫 상대는 전년도 최하위 칠레였다. 우루과이는 카를로스 스카로네<span class="foreign-note" lang="es">(Carlos Scarone; 우루과이 공격수)</span>와 앙헬 로마노<span class="foreign-note" lang="es">(Alfredo Ángel Romano; 우루과이 공격수, 1893~1972)</span>가 두 골씩 넣어 4-0으로 이겼다. 파르케 페레이라는 단순한 개최 장소가 아니라 새로 생긴 대륙 연맹이 두 번째 선수권을 제도화하기 위해 국가 행정과 도시 공간을 함께 동원한 결과물이었다.
 
