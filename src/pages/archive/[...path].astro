@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { archiveBranches, type ArchiveBranch, type ArchiveIndex } from '../../data/archive';
+import { getCollection, type CollectionEntry } from 'astro:content';
 
 interface Props { branch: ArchiveBranch; index?: ArchiveIndex }
 
@@ -16,6 +17,9 @@ const pageTitle = index?.label ?? branch.title;
 const pageDescription = index
   ? `${branch.title} 가운데 ${index.label}에 관한 기록을 축적하는 색인입니다.`
   : branch.description;
+const records = (await getCollection('archive', ({ data }) =>
+  !data.draft && data.branch === branch.id && (!index || data.index === index.slug)
+)).sort((a, b) => b.data.year - a.data.year);
 ---
 
 <Layout
@@ -48,12 +52,21 @@ const pageDescription = index
     </nav>
 
     <section class="collection-content" aria-labelledby="records-title">
-      <div class="content-heading"><h2 id="records-title">기록</h2><span>0편</span></div>
-      <div class="empty-state">
+      <div class="content-heading"><h2 id="records-title">기록</h2><span>{records.length}편</span></div>
+      {records.length > 0 ? (
+        <div class="record-grid">
+          {records.map((record) => (
+            <a class="record-card" href={`/archive/${record.data.branch}/${record.data.index}/${record.id}/`}>
+              <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+              <div><p>{record.data.year} · {record.data.subject}</p><h2>{record.data.title}</h2><span>{record.data.description}</span></div>
+            </a>
+          ))}
+        </div>
+      ) : <div class="empty-state">
         <p>FIRST RECORD</p>
         <strong>첫 기록이 이곳에서 시작됩니다.</strong>
         <span>발행되는 글은 정사각형 썸네일과 함께 이 색인에 순서대로 쌓입니다.</span>
-      </div>
+      </div>}
     </section>
   </div>
 </Layout>
@@ -78,6 +91,14 @@ const pageDescription = index
   .empty-state p { font-size: 9px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
   .empty-state strong { margin-top: 12px; font-size: 20px; font-weight: 620; letter-spacing: -.03em; }
   .empty-state span { max-width: 380px; margin-top: 10px; font-size: 12px; line-height: 1.65; color: var(--bbfc-gray-2); }
+  .record-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 22px; padding-top: 28px; }
+  .record-card { display: block; min-width: 0; }
+  .record-card img { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; border-radius: var(--bbfc-radius-lg); background: var(--bbfc-fill); transition: transform 260ms ease, box-shadow 260ms ease; }
+  .record-card:hover img { transform: translateY(-5px); box-shadow: 0 16px 35px rgba(25,31,40,.1); }
+  .record-card div { padding: 15px 2px 0; }
+  .record-card p { font-size: 10px; font-weight: 600; letter-spacing: .08em; color: var(--bbfc-blue); }
+  .record-card h2 { margin-top: 7px; font-size: 16px; line-height: 1.4; font-weight: 620; letter-spacing: -.025em; }
+  .record-card span { display: block; margin-top: 8px; font-size: 11px; line-height: 1.55; color: var(--bbfc-gray-2); }
   @media (max-width: 767px) {
     .collection-page { padding: 24px 16px 52px; }
     .collection-hero { margin-top: 24px; padding: 44px 0 42px; }
@@ -87,5 +108,8 @@ const pageDescription = index
     .index-nav a { flex: none; }
     .collection-content { padding-top: 54px; }
     .empty-state { min-height: 280px; }
+    .record-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
+    .record-card h2 { font-size: 14px; }
+    .record-card span { display: none; }
   }
 </style>

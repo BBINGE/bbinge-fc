@@ -32,4 +32,20 @@ const articles = defineCollection({
     }),
 });
 
-export const collections = { articles };
+const archive = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/archive' }),
+  schema: () => z.object({
+    title: z.string(),
+    description: z.string(),
+    branch: z.string(),
+    index: z.string(),
+    year: z.number(),
+    subject: z.string(),
+    pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    coverImage: z.string(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { articles, archive };
