@@ -51,7 +51,11 @@ collections:
       - { label: 태그, name: tags, widget: list, default: [] }
       - { label: 발행일, name: pubDate, widget: datetime }
       - { label: 수정일, name: updatedDate, widget: datetime, required: false }
-      - { label: 대표 이미지, name: coverImage, widget: image, required: false }
+      - { label: 대표 이미지, name: coverImage, widget: image, required: false, hint: '검색·공유·글 상단에 동일하게 노출됩니다. 발행 글은 반드시 지정하세요.' }
+      - { label: 대표 이미지 설명, name: coverImageAlt, widget: string, required: false, hint: '사진 속 대상과 장면을 짧고 정확하게 적으세요.' }
+      - { label: 대표 이미지 캡션, name: coverImageCaption, widget: text, required: false }
+      - { label: 대표 이미지 가로(px), name: coverImageWidth, widget: number, value_type: int, min: 1, required: false }
+      - { label: 대표 이미지 세로(px), name: coverImageHeight, widget: number, value_type: int, min: 1, required: false }
       - { label: 갤러리 이미지, name: gallery, widget: list, field: { label: 이미지, name: image, widget: image }, required: false }
       - label: FAQ (선택)
         name: faq

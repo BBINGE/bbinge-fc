@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import ShareButtons from '../../../../components/ShareButtons.astro';
+import ContentCover from '../../../../components/ContentCover.astro';
 import { site } from '../../../../config/site';
 import { archiveBranches } from '../../../../data/archive';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
@@ -38,6 +39,10 @@ const relatedRecords = indexRecords
   title={entry.data.title}
   description={entry.data.description}
   ogImage={entry.data.coverImage}
+  ogImageAlt={entry.data.coverImageAlt}
+  ogImageWidth={entry.data.coverImageWidth}
+  ogImageHeight={entry.data.coverImageHeight}
+  ogImageCaption={entry.data.coverImageCaption}
   type="article"
   article={{
     pubDate: entry.data.pubDate,
@@ -59,6 +64,14 @@ const relatedRecords = indexRecords
       <h1>{entry.data.title}</h1>
       <span>{entry.data.description}</span>
     </header>
+    <ContentCover
+      src={entry.data.coverImage}
+      alt={entry.data.coverImageAlt}
+      caption={entry.data.coverImageCaption}
+      width={entry.data.coverImageWidth}
+      height={entry.data.coverImageHeight}
+      variant="archive"
+    />
     <div class="archive-body"><Content /></div>
     <div class="archive-share">
       <ShareButtons

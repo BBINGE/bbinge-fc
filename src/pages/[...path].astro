@@ -13,6 +13,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import { categories, categoryList, getAncestorChain, getChildren } from '../config/categories';
 import CategorySidebar from '../components/CategorySidebar.astro';
 import ShareButtons from '../components/ShareButtons.astro';
+import ContentCover from '../components/ContentCover.astro';
 
 type CategoryProps = { kind: 'category'; categorySlug: string };
 type ArticleProps = { kind: 'article'; entry: CollectionEntry<'articles'> };
@@ -138,6 +139,11 @@ if (props.kind === 'category') {
   <Layout
     title={articleView.entry.data.title}
     description={articleView.entry.data.description}
+    ogImage={articleView.entry.data.coverImage}
+    ogImageAlt={articleView.entry.data.coverImageAlt ?? articleView.entry.data.title}
+    ogImageWidth={articleView.entry.data.coverImageWidth}
+    ogImageHeight={articleView.entry.data.coverImageHeight}
+    ogImageCaption={articleView.entry.data.coverImageCaption}
     type="article"
     article={{ pubDate: articleView.entry.data.pubDate, updatedDate: articleView.entry.data.updatedDate }}
     breadcrumbs={[
@@ -155,6 +161,15 @@ if (props.kind === 'category') {
         <p class="text-[13px] text-[var(--bbfc-gray-2)] mb-6">
           {articleView.entry.data.pubDate.toLocaleDateString('ko-KR')} · {articleView.readingMinutes}분 읽기
         </p>
+        {articleView.entry.data.coverImage && (
+          <ContentCover
+            src={articleView.entry.data.coverImage}
+            alt={articleView.entry.data.coverImageAlt ?? articleView.entry.data.title}
+            caption={articleView.entry.data.coverImageCaption}
+            width={articleView.entry.data.coverImageWidth}
+            height={articleView.entry.data.coverImageHeight}
+          />
+        )}
         <div class="article-body text-[17px] md:text-[18px] leading-[1.9] text-[var(--bbfc-ink)]">
           <articleView.Content />
         </div>

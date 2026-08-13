@@ -1,0 +1,62 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  width?: number;
+  height?: number;
+  variant?: 'article' | 'archive';
+}
+
+const {
+  src,
+  alt,
+  caption,
+  width,
+  height,
+  variant = 'article',
+} = Astro.props;
+---
+
+<figure class:list={['content-cover', `content-cover--${variant}`]}>
+  <img
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    loading="eager"
+    decoding="async"
+    fetchpriority="high"
+  />
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
+
+<style>
+  .content-cover { margin: 12px 0 48px; }
+  .content-cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: var(--bbfc-radius-lg);
+  }
+  .content-cover figcaption {
+    margin-top: 11px;
+    font-size: 13px;
+    line-height: 1.65;
+    text-align: center;
+    color: var(--bbfc-gray-2);
+  }
+  .content-cover--archive {
+    width: min(100%, 560px);
+    margin: 44px auto 10px;
+  }
+  .content-cover--archive img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    background: var(--bbfc-fill-2);
+  }
+  @media (max-width: 767px) {
+    .content-cover { margin-bottom: 38px; }
+    .content-cover--archive { margin-top: 34px; margin-bottom: 4px; }
+  }
+</style>

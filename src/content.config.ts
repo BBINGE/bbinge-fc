@@ -18,6 +18,10 @@ const articles = defineCollection({
       updatedDate: z.coerce.date().optional(),
       // CMS가 public/uploads/에 올린 이미지의 경로 문자열 (예: /uploads/xxx.jpg)
       coverImage: z.string().optional(),
+      coverImageAlt: z.string().optional(),
+      coverImageCaption: z.string().optional(),
+      coverImageWidth: z.number().int().positive().optional(),
+      coverImageHeight: z.number().int().positive().optional(),
       gallery: z.array(z.string()).optional(),
       faq: z
         .array(
@@ -47,6 +51,10 @@ const archive = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     coverImage: z.string(),
+    coverImageAlt: z.string(),
+    coverImageCaption: z.string().optional(),
+    coverImageWidth: z.number().int().positive(),
+    coverImageHeight: z.number().int().positive(),
     draft: z.boolean().default(false),
   }),
 });

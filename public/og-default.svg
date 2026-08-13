@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">삥이FC</title>
+  <desc id="desc">축구의 역사를 놀고, 읽고, 걷는 곳</desc>
+  <rect width="1200" height="630" fill="#f9fafb"/>
+  <rect x="64" y="64" width="1072" height="502" rx="28" fill="#ffffff" stroke="#e5e8eb" stroke-width="2"/>
+  <rect x="104" y="106" width="72" height="8" rx="4" fill="#3182f6"/>
+  <text x="104" y="285" fill="#191f28" font-family="Pretendard, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-7">삥이FC</text>
+  <text x="108" y="366" fill="#4e5968" font-family="Pretendard, Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="-1.5">축구의 역사를 놀고, 읽고, 걷는 곳</text>
+  <text x="108" y="490" fill="#3182f6" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">FOOTBALL × HISTORY × CULTURE</text>
+</svg>

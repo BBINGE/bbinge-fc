@@ -14,6 +14,9 @@ interface Props {
   description: string;
   ogImage?: string;
   ogImageAlt?: string;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+  ogImageCaption?: string;
   type?: 'website' | 'article';
   robots?: string;
   breadcrumbs?: Breadcrumb[];
@@ -31,6 +34,9 @@ const {
   description,
   ogImage = '/og-default.png',
   ogImageAlt = description,
+  ogImageWidth,
+  ogImageHeight,
+  ogImageCaption,
   type = 'website',
   robots = 'index,follow,max-image-preview:large',
   breadcrumbs = [{ label: '홈', href: '/' }],
@@ -41,6 +47,13 @@ const {
 const pageTitle = title === site.name ? title : `${title} — ${site.name}`;
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 const ogImageURL = new URL(ogImage, site.url).toString();
+const resolvedOgImageWidth = ogImageWidth ?? (ogImage === '/og-default.png' ? 1200 : undefined);
+const resolvedOgImageHeight = ogImageHeight ?? (ogImage === '/og-default.png' ? 630 : undefined);
+const ogImageType = ogImage.toLowerCase().endsWith('.png')
+  ? 'image/png'
+  : ogImage.toLowerCase().endsWith('.webp')
+    ? 'image/webp'
+    : 'image/jpeg';
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -59,7 +72,14 @@ const articleSchema = article
       '@type': 'Article',
       headline: title,
       description,
-      image: ogImageURL,
+      image: {
+        '@type': 'ImageObject',
+        url: ogImageURL,
+        contentUrl: ogImageURL,
+        ...(resolvedOgImageWidth ? { width: resolvedOgImageWidth } : {}),
+        ...(resolvedOgImageHeight ? { height: resolvedOgImageHeight } : {}),
+        ...(ogImageCaption ? { caption: ogImageCaption } : {}),
+      },
       datePublished: article.pubDate.toISOString(),
       dateModified: (article.updatedDate ?? article.pubDate).toISOString(),
       mainEntityOfPage: {
@@ -114,6 +134,7 @@ const authorSchema = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title={`${site.name} RSS`} href="/rss.xml" />
     <link rel="canonical" href={canonicalURL} />
+    <link rel="image_src" href={ogImageURL} />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="author" content={`${site.authorName}(${site.author})`} />
@@ -126,6 +147,10 @@ const authorSchema = {
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:secure_url" content={ogImageURL} />
+    <meta property="og:image:type" content={ogImageType} />
+    {resolvedOgImageWidth && <meta property="og:image:width" content={String(resolvedOgImageWidth)} />}
+    {resolvedOgImageHeight && <meta property="og:image:height" content={String(resolvedOgImageHeight)} />}
     <meta property="og:image:alt" content={ogImageAlt} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:site_name" content={site.name} />
