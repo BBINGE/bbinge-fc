@@ -94,9 +94,14 @@ CONMEBOL의 공식 소개에 따르면 오늘날 우승팀이 드는 은제 트�
 
 ## 출처와 기록 기준
 
-- [CONMEBOL Copa América™ 공식 역사 아카이브](https://copaamerica.com/es/novedades/110-anos-conmebol-copa-america): 대회 창설과 초대 대회 개요.
-- [CONMEBOL Copa América™ 역대 득점왕 기록](https://copaamerica.com/es/novedades/maximo-goleador-todas-ediciones-conmebol-copa-america): 1916년 이사벨리노 그라딘의 3골과 득점왕 기록.
-- [CONMEBOL Copa América™ 공식 역사 자료](https://copaamerica.com/pt/noticias/historias-copa-america-curiosidades-feitos): 트로피와 대회 명칭, 그라딘의 축구·육상 경력.
-- [우루과이축구협회 1916년 대회 기록](https://www.auf.org.uy/copa-america-1916/): 우루과이 대표팀 명단과 경기별 전개.
-- [우루과이축구협회 이사벨리노 그라딘 기록](https://www.auf.org.uy/isabelino-gradin/): A대표팀 출전·득점·우승 기록.
-- 최우수 선수 표기는 주관 기관의 역사 아카이브가 대회별 대표 선수를 소급 정리한 기록을 따른다. 당시에 현대적 형식의 개인상 시상식이 열렸다는 의미로 사용하지 않는다.
+<div class="source-notes">
+
+- [«110 años de la CONMEBOL Copa América™: el torneo de selecciones más antiguo del mundo»](https://copaamerica.com/es/novedades/110-anos-conmebol-copa-america), CONMEBOL Copa América™.
+- [«El máximo goleador de la CONMEBOL Copa América™»](https://copaamerica.com/es/novedades/maximo-goleador-todas-ediciones-conmebol-copa-america), CONMEBOL Copa América™.
+- [«Histórias que você provavelmente não sabia sobre a CONMEBOL Copa América™»](https://copaamerica.com/pt/noticias/historias-copa-america-curiosidades-feitos), CONMEBOL Copa América™.
+- [«Copa América 1916»](https://www.auf.org.uy/copa-america-1916/), Asociación Uruguaya de Fútbol.
+- [«Isabelino Gradín»](https://www.auf.org.uy/isabelino-gradin/), Asociación Uruguaya de Fútbol.
+
+<p class="record-note">※ 최우수 선수 표기는 주관 기관의 역사 아카이브가 대회별 대표 선수를 소급 정리한 기록을 따른다. 당시에 현대적 형식의 개인상 시상식이 열렸다는 의미로 사용하지 않는다.</p>
+
+</div>

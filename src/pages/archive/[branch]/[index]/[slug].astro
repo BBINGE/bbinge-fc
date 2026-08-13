@@ -78,6 +78,12 @@ const { Content } = await render(entry);
   .archive-body :global(.honours-grid small) { margin-top: 6px; font-size: 12px; color: var(--bbfc-gray-2); }
   .archive-body :global(ul) { margin: 18px 0; padding-left: 20px; }
   .archive-body :global(li) { margin-top: 8px; }
+  .archive-body :global(.source-notes) { margin-top: -4px; font-size: 13px; line-height: 1.7; color: var(--bbfc-gray-1); }
+  .archive-body :global(.source-notes ul) { padding-left: 18px; list-style: disc; }
+  .archive-body :global(.source-notes li) { margin-top: 10px; padding-left: 3px; }
+  .archive-body :global(.source-notes a) { color: var(--bbfc-ink-2); text-decoration: underline; text-decoration-color: var(--bbfc-gray-3); text-underline-offset: 3px; }
+  .archive-body :global(.source-notes a:hover) { color: var(--bbfc-blue-strong); text-decoration-color: var(--bbfc-blue); }
+  .archive-body :global(.record-note) { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--bbfc-border); font-size: 12px; line-height: 1.75; color: var(--bbfc-gray-2); }
   @media (max-width: 767px) {
     .archive-article { padding: 24px 16px 60px; }
     .article-header { margin-top: 24px; padding: 42px 0 38px; }
@@ -89,5 +95,7 @@ const { Content } = await render(entry);
     .archive-body :global(.record-facts), .archive-body :global(.honours-grid) { grid-template-columns: 1fr; }
     .archive-body :global(.honours-grid div) { min-height: 118px; }
     .archive-body :global(table) { display: block; overflow-x: auto; white-space: nowrap; }
+    .archive-body :global(.source-notes) { font-size: 12.5px; }
+    .archive-body :global(.record-note) { font-size: 12px; }
   }
 </style>
