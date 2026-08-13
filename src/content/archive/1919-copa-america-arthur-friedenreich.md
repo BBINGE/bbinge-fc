@@ -6,7 +6,7 @@ index: 'copa-america'
 year: 1919
 subject: '아르투르 프리덴라이히'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1919'
-keywords: ['CONMEBOL Copa América', 'Arthur Friedenreich', 'Neco', '브라질 축구 국가대표팀', '스페인 독감', 'Estádio das Laranjeiras']
+keywords: ['CONMEBOL Copa América', 'Arthur Friedenreich', 'Neco', '브라질 축구 국가대표팀', '스페인 독감', 'Estádio das Laranjeiras', '히우지자네이루', '리우데자네이루', '라랑제이라스', '라란제이라스']
 pubDate: 2026-08-14T01:30:00+09:00
 coverImage: '/images/archive/1919-copa-america/cover.jpg'
 coverImageAlt: '1919 코파 아메리카와 아르투르 프리덴라이히를 기록한 표지'
@@ -17,7 +17,7 @@ draft: false
 
 <aside class="record-abstract" aria-label="기록 요약">
   <span>RECORD ABSTRACT</span>
-  <p>1918년에 열려야 했던 세 번째 남미축구선수권대회는 스페인 독감으로 한 해를 건너뛰었다. 1919년 리우데자네이루에서 다시 열린 대회에서 브라질은 우루과이와 승점·득실까지 같아 별도의 우승 결정전을 치렀고, 150분째 이어진 경기에서 아르투르 프리덴라이히<span class="foreign-note" lang="pt">(Arthur Friedenreich; 브라질 공격수, 1892~1969)</span>가 유일한 골을 넣었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 네쿠와 함께 4골로 공동 득점왕에 오른 그는 브라질의 첫 남미 정상과 ‘첫 번째 축구 스타’의 탄생을 한 장면으로 묶었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
+  <p>1918년에 열려야 했던 세 번째 남미축구선수권대회는 스페인 독감으로 한 해를 건너뛰었다. 1919년 히우지자네이루<span class="foreign-note" lang="pt-BR">(Rio de Janeiro; 브라질의 도시)</span>에서 다시 열린 대회에서 브라질은 우루과이와 승점·득실까지 같아 별도의 우승 결정전을 치렀고, 150분째 이어진 경기에서 아르투르 프리덴라이히<span class="foreign-note" lang="pt-BR">(Arthur Friedenreich; 브라질 공격수, 1892~1969)</span>가 유일한 골을 넣었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 네쿠와 함께 4골로 공동 득점왕에 오른 그는 브라질의 첫 남미 정상과 ‘첫 번째 축구 스타’의 탄생을 한 장면으로 묶었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
 </aside>
 
 <div class="record-lead">
@@ -33,7 +33,7 @@ draft: false
   <dl><dt>대회 기간</dt><dd>1919년 5월 11일–29일</dd></dl>
   <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
   <dl><dt>방식</dt><dd>단일 리그전 + 우승 결정전</dd></dl>
-  <dl><dt>경기장</dt><dd>이스타지우 다스 라란제이라스, 리우데자네이루</dd></dl>
+  <dl><dt>경기장</dt><dd>이스타지우 다스 라랑제이라스, 히우지자네이루</dd></dl>
 </div>
 
 ### 최종 순위
@@ -69,9 +69,9 @@ draft: false
 
 ### 1918년 대회가 목록에 없는 이유
 
-1917년 다음 기록은 1918년이 아니라 1919년이다. 대회 하나가 사라진 것이 아니라, 브라질에서 1918년에 열릴 예정이던 제3회 남미축구선수권대회가 스페인 독감 때문에 연기됐기 때문이다. 1918년 하반기 리우데자네이루를 덮친 유행병은 도시의 일상과 스포츠 일정을 함께 멈췄다. CONMEBOL의 대회 연표도 세 번째 대회를 별도의 ‘1918년 대회’로 세지 않고 `Brasil 1919`로 기록한다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+1917년 다음 기록은 1918년이 아니라 1919년이다. 대회 하나가 사라진 것이 아니라, 브라질에서 1918년에 열릴 예정이던 제3회 남미축구선수권대회가 스페인 독감 때문에 연기됐기 때문이다. 1918년 하반기 히우지자네이루를 덮친 유행병은 도시의 일상과 스포츠 일정을 함께 멈췄다. CONMEBOL의 대회 연표도 세 번째 대회를 별도의 ‘1918년 대회’로 세지 않고 `Brasil 1919`로 기록한다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-연기는 개최 준비의 시간도 바꿨다. 브라질축구협회 기록에 따르면 그 사이 리우데자네이루의 이스타지우 다스 라란제이라스<span class="foreign-note" lang="pt">(Estádio das Laranjeiras; 플루미넨시의 경기장)</span> 공사가 마무리됐다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1919년 5월의 관중은 단순히 축구대회 하나의 개막을 본 것이 아니었다. 전염병으로 멈췄던 국제 스포츠가 새 경기장과 함께 돌아오는 장면을 목격했다. 따라서 1918년의 빈칸은 오기가 아니다. 1919년 대회의 출발점 자체가 그 빈칸이다.
+연기는 개최 준비의 시간도 바꿨다. 브라질축구협회 기록에 따르면 그 사이 히우지자네이루의 이스타지우 다스 라랑제이라스<span class="foreign-note" lang="pt-BR">(Estádio das Laranjeiras; 플루미넨시의 경기장)</span> 공사가 마무리됐다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1919년 5월의 관중은 단순히 축구대회 하나의 개막을 본 것이 아니었다. 전염병으로 멈췄던 국제 스포츠가 새 경기장과 함께 돌아오는 장면을 목격했다. 따라서 1918년의 빈칸은 오기가 아니다. 1919년 대회의 출발점 자체가 그 빈칸이다.
 
 ### 세 경기로 끝나지 않은 단일 리그
 
@@ -95,7 +95,7 @@ draft: false
 
 프리덴라이히는 독일계 상인의 아버지와 흑인 교사인 어머니 사이에서 태어났다. 브라질 축구가 백인 상류층의 사교 공간에서 대중의 경기로 넓어지던 시기, 그의 경력은 경기력만으로 설명할 수 없는 인종차별의 장벽과 겹쳐 있었다. 브라질 축구박물관은 그를 ‘브라질 최초의 크라키<span class="foreign-note" lang="pt">(craque; 특출난 스타 선수)</span>’로 소개하면서, 1921년 남미선수권에는 백인 선수만 데려가려는 결정 때문에 빠졌다고 기록한다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
-그렇다고 1919년 한 경기가 브라질 축구의 차별을 끝냈다는 식으로 읽을 수는 없다. 오히려 반대다. 대표팀의 중심이 된 뒤에도 배제될 수 있었다는 사실이 당시의 경계를 보여준다. 다만 1919년 라란제이라스에서 그 경계가 감출 수 없는 이름 하나가 생겼다. ‘엘 티그레’ 프리덴라이히는 백인 엘리트의 경기로 출발한 브라질 축구가 누구의 열광을 먹고 국민적 문화가 될 것인지를 먼저 보여준 선수였다.
+그렇다고 1919년 한 경기가 브라질 축구의 차별을 끝냈다는 식으로 읽을 수는 없다. 오히려 반대다. 대표팀의 중심이 된 뒤에도 배제될 수 있었다는 사실이 당시의 경계를 보여준다. 다만 1919년 라랑제이라스에서 그 경계가 감출 수 없는 이름 하나가 생겼다. ‘엘 티그레’ 프리덴라이히는 백인 엘리트의 경기로 출발한 브라질 축구가 누구의 열광을 먹고 국민적 문화가 될 것인지를 먼저 보여준 선수였다.
 
 ### 우승 트로피보다 먼저 도시를 돈 이름
 

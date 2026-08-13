@@ -7,6 +7,10 @@ tags:
   - "수페르가의 비극"
   - "토리노 FC"
   - "비주얼 스토리"
+  - "에그리 에르브슈타인 에르뇌"
+  - "에르뇌 에그리 에르브슈타인"
+  - "카테나초"
+  - "카테나치오"
 pubDate: 2026-08-13
 coverImage: "/images/history/grande-torino-cards/card-01.png"
 coverImageAlt: "라 그란데 토리노의 주장 발렌티노 마촐라와 구단 관계자들이 함께 선 모습 위에 위대한 토리노라는 제목이 적힌 비주얼 스토리 첫 장"
@@ -39,7 +43,7 @@ draft: false
 
   <figure>
     <img src="/images/history/grande-torino-cards/card-04.png" alt="토리노와 벤피카 선수들이 경기 전 악수하는 사진과 사고 발생 전 친선 경기 설명" width="773" height="773" loading="lazy" />
-    <figcaption><strong>04</strong> 리스본에서 치른 벤피카와의 친선경기.</figcaption>
+    <figcaption><strong>04</strong> 리스보아에서 치른 벤피카와의 친선경기.</figcaption>
   </figure>
 
   <figure>
@@ -60,13 +64,13 @@ draft: false
 
 <aside class="cardnews-note">
   <strong>기록을 덧붙이면</strong>
-  <p>사고 당시 악천후가 비행에 영향을 미쳤다는 점은 여러 기록에 등장하지만, 정확한 원인은 악천후와 시계 불량, 고도계 이상 가능성 등이 함께 거론된다. 또한 수페르가 참사가 이후 이탈리아의 수비 축구를 단독으로 만들어냈다고 단정할 수는 없다. 카테나치오 계열의 전술은 참사 이전부터 존재했다.</p>
+  <p>사고 당시 악천후가 비행에 영향을 미쳤다는 점은 여러 기록에 등장하지만, 정확한 원인은 악천후와 시계 불량, 고도계 이상 가능성 등이 함께 거론된다. 또한 수페르가 참사가 이후 이탈리아의 수비 축구를 단독으로 만들어냈다고 단정할 수는 없다. 카테나초 계열의 전술은 참사 이전부터 존재했다.</p>
 </aside>
 
 <a class="deep-read-link" href="/history/why-grande-torino-did-not-remain/">
   <span>DEEP READ · 축세</span>
   <strong>세계 최고였던 토리노의 축구는 왜 이탈리아에 남지 못했을까?</strong>
-  <p>에르뇌 에그리 에르브슈타인의 시스템과 피아트·유벤투스의 도시, 그리고 카테나치오가 이탈리아의 언어가 된 과정을 따라간다.</p>
+  <p>에그리 에르브슈타인 에르뇌의 시스템과 피아트·유벤투스의 도시, 그리고 카테나초가 이탈리아의 언어가 된 과정을 따라간다.</p>
   <em>장문으로 깊게 읽기 →</em>
 </a>
 
