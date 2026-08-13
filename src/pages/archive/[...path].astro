@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { archiveBranches, type ArchiveBranch, type ArchiveIndex } from '../../data/archive';
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { isNewlyPublished, isRecentlyChanged } from '../../utils/freshness';
 
 interface Props { branch: ArchiveBranch; index?: ArchiveIndex }
@@ -47,7 +47,8 @@ const collectionSchema = {
 <Layout
   title={pageTitle}
   description={pageDescription}
-  extraSchema={collectionSchema}
+  robots={records.length > 0 ? 'index,follow,max-image-preview:large' : 'noindex,follow'}
+  extraSchema={records.length > 0 ? collectionSchema : undefined}
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: '삥이 아카이브', href: '/archive/' },

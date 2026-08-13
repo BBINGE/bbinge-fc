@@ -13,7 +13,9 @@ interface Props {
   title: string;
   description: string;
   ogImage?: string;
+  ogImageAlt?: string;
   type?: 'website' | 'article';
+  robots?: string;
   breadcrumbs?: Breadcrumb[];
   article?: {
     pubDate: Date;
@@ -28,7 +30,9 @@ const {
   title,
   description,
   ogImage = '/og-default.png',
+  ogImageAlt = description,
   type = 'website',
+  robots = 'index,follow,max-image-preview:large',
   breadcrumbs = [{ label: '홈', href: '/' }],
   article,
   extraSchema,
@@ -97,6 +101,8 @@ const authorSchema = {
   alternateName: site.author,
   url: `${site.url}/about/`,
   sameAs: [site.naverBlog, site.instagram],
+  jobTitle: '기획자·축구사 저자',
+  knowsAbout: ['축구사', '축구 문화', '축구 산업', '축구 전술사', '스포츠 마케팅'],
 };
 ---
 
@@ -106,11 +112,12 @@ const authorSchema = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title={`${site.name} RSS`} href="/rss.xml" />
     <link rel="canonical" href={canonicalURL} />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="author" content={`${site.authorName}(${site.author})`} />
-    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="robots" content={robots} />
     <meta name="naver-site-verification" content="d6fb2830beb60655dc0db5fb92eae1fe8b1cf6be" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -119,6 +126,7 @@ const authorSchema = {
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:alt" content={ogImageAlt} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content={site.locale} />
@@ -127,6 +135,7 @@ const authorSchema = {
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageURL} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
 
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3931E0CPPK"></script>

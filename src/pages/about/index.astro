@@ -5,6 +5,14 @@ import Layout from '../../layouts/Layout.astro';
 const INSTAGRAM_URL = 'https://www.instagram.com/bbinge_26/';
 const NAVER_BLOG_URL = 'https://blog.naver.com/sho3603';
 const EMAIL = 'sho3603@naver.com';
+const profileSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  '@id': `${site.url}/about/#profile`,
+  url: `${site.url}/about/`,
+  name: '박성호(삥이) 소개',
+  mainEntity: { '@id': `${site.url}/#author` },
+};
 
 const footballLetter = [
   { text: '축구를 언제부터 좋아했느냐고 물으면 대답은 조금 우습습니다. 세 살 때이기 때문입니다. ㅋㅋㅋㅋ아.' },
@@ -139,6 +147,7 @@ const clients = [
 <Layout
   title="소개"
   description={`${site.fullName} — 박성호(삥이) 공식 소개`}
+  extraSchema={profileSchema}
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: '소개', href: '/about/' },

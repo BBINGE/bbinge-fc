@@ -17,6 +17,7 @@ const hasMore = articles.length > PAGE_SIZE;
 
 <Layout title={site.name} description={site.tagline} breadcrumbs={[{ label: '홈', href: '/' }]}>
   <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6 space-y-7">
+    <h1 class="sr-only">삥이FC — 축구 역사와 문화를 읽고 기록하는 독립 매거진</h1>
     <HomeHero hotArticles={hotArticles} />
     <ArticleCardGrid entries={firstPage} />
     {hasMore && (
