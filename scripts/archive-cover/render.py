@@ -38,6 +38,29 @@ def paste_text_gradient(
     canvas.paste(gradient, (0, 0), mask)
 
 
+def paste_fitted_text_gradient(
+    canvas: Image.Image,
+    text: str,
+    xy: tuple[int, int],
+    font: ImageFont.FreeTypeFont,
+    max_width: int,
+    top: str = "#F8F7F6",
+    bottom: str = "#DCDDD8",
+) -> None:
+    mask = Image.new("L", canvas.size, 0)
+    ImageDraw.Draw(mask).text(xy, text, font=font, fill=255, anchor="la")
+    bbox = mask.getbbox()
+    if not bbox:
+        return
+    glyph = mask.crop(bbox)
+    if glyph.width > max_width:
+        glyph = glyph.resize((max_width, glyph.height), Image.Resampling.LANCZOS)
+    fitted_mask = Image.new("L", canvas.size, 0)
+    fitted_mask.paste(glyph, (xy[0], bbox[1]))
+    gradient = vertical_gradient(canvas.size, top, bottom)
+    canvas.paste(gradient, (0, 0), fitted_mask)
+
+
 def render(args: argparse.Namespace) -> None:
     here = Path(__file__).resolve().parent
     font_dir = here / "fonts"
@@ -47,7 +70,19 @@ def render(args: argparse.Namespace) -> None:
     signature = ImageFont.truetype(font_dir / "GmarketSansTTFMedium.ttf", 20)
 
     portrait = Image.open(args.photo).convert("RGB")
-    portrait = ImageOps.fit(portrait, (CANVAS - PANEL_WIDTH, CANVAS), method=Image.Resampling.LANCZOS, centering=(0.5, 0.42))
+    target_width = CANVAS - PANEL_WIDTH
+    zoomed_size = (round(target_width * args.zoom), round(CANVAS * args.zoom))
+    portrait = ImageOps.fit(
+        portrait,
+        zoomed_size,
+        method=Image.Resampling.LANCZOS,
+        centering=(args.focus_x, args.focus_y),
+    )
+    overflow_x = portrait.width - target_width
+    overflow_y = portrait.height - CANVAS
+    crop_x = round(overflow_x * args.focus_x)
+    crop_y = round(overflow_y * args.focus_y)
+    portrait = portrait.crop((crop_x, crop_y, crop_x + target_width, crop_y + CANVAS))
     canvas = Image.new("RGB", (CANVAS, CANVAS), "white")
     canvas.paste(portrait, (PANEL_WIDTH, 0))
 
@@ -75,7 +110,7 @@ def render(args: argparse.Namespace) -> None:
     draw = ImageDraw.Draw(canvas)
     draw.text((24, 373), args.year, font=light, fill="white", anchor="la")
     draw.text((24, 454), "코파 아메리카", font=medium, fill="white", anchor="la")
-    paste_text_gradient(canvas, "MVP", (20, 505), bold)
+    paste_fitted_text_gradient(canvas, "MVP", (20, 505), bold, PANEL_WIDTH - 45)
     draw = ImageDraw.Draw(canvas)
     draw.text((292, 691), "삥이FC", font=signature, fill="white", anchor="la")
     draw.text((CANVAS - 42, CANVAS - 43), "삥이FC", font=signature, fill="white", anchor="ra")
@@ -93,10 +128,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--trophy", required=True, help="1080px PSD-exported trophy source layer")
     parser.add_argument("--top", default="#525589")
     parser.add_argument("--bottom", default="#ACA8E0")
+    parser.add_argument("--focus-x", type=float, default=0.5)
+    parser.add_argument("--focus-y", type=float, default=0.2)
+    parser.add_argument("--zoom", type=float, default=1.0)
     parser.add_argument("--output", required=True)
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     render(parse_args())
-

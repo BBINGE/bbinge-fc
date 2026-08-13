@@ -374,5 +374,6 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 표제 인물은 AFA가 1925년에 이어 대회 최고 선수로 회고한 마누엘 세오아네다. 득점왕은 CONMEBOL·AFA 대회별 표를 따라 로베르토 피게로아 4골로 기록하되, AFA 내부의 3골 공동 선두 회고 및 볼리비아전 득점자 오기를 본문에 병기했다. 오래된 통계가 공식 기관 안에서도 충돌하면 하나를 조용히 삭제하지 말고 기준과 충돌을 함께 남긴다.
 - 표지는 기존 PSD를 직접 자동 수정하지 않는다. PSD는 좌표·폰트·트로피·그라데이션·테두리·서명 배치의 설계 기준으로만 분석했다. `scripts/archive-cover/render.py`가 실제 인물 사진, 연도·개최국 우표, 상하 색상, 고정 트로피 원판을 입력받아 773×773 PNG를 생성한다.
 - 코파 표지의 고정 자산은 `scripts/archive-cover/assets/copa-trophy-source.png`, 글꼴은 공식 배포·재배포 허용된 Gmarket Sans TTF다. 실행 예시는 `scripts/archive-cover/README.md`에 있다. 새 연도는 Photoshop을 켜지 않고 `--year`, `--photo`, `--stamp`, `--top`, `--bottom`, `--output`만 바꿔 렌더링한다.
+- 인물 사진은 자동 중앙 크롭 결과를 그대로 발행하지 않는다. `--focus-x`, `--focus-y`, `--zoom`으로 얼굴 위치·머리 여백·상체 비중을 연도별로 조정하고, 773×773 원본과 실제 상세 화면을 육안 검수한다. `MVP` 글자는 좌측 패널 최대폭 안으로 자동 압축되며 주황색 경계를 넘어가면 실패로 간주한다.
 - 표지 우측 상단의 작은 자료는 무관한 장식이 아니라 해당 개최국·연도와 연결되는 실제 우표나 공식 기념물이어야 한다. 1927년은 페루 우정 당국이 그해 발행한 타크나·아리카 국민투표 기금 우표를 사용했다. 우표를 찾지 못하면 검증되지 않은 이미지를 억지로 넣지 말고 생략한다.
 - 공개 파일은 `src/content/archive/1927-copa-america-manuel-seoane.md`, 이미지는 `public/images/archive/1927-copa-america/`다. 페루 국기 `public/images/flags/pe.svg`도 로컬 자산으로 추가했다.
