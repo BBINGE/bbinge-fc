@@ -64,6 +64,10 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 ### 2026-08-13 삥이 아카이브 UI 골격 추가
 
+- 첫 아카이브 글의 검색·인용 기반을 공통 골격으로 보강했다. 아카이브 frontmatter에 `originalTitle`·`keywords`를 선택 항목으로 추가하고, 상세 글의 Article JSON-LD에 `mainEntityOfPage`·`inLanguage`·`articleSection`·`about`·작성자 URL·publisher를 연결했다. 색인 페이지에는 `CollectionPage`와 `ItemList`를 출력한다.
+- Windows에서 국기 이모지가 `AR`·`BR`처럼 풀리는 문제를 피하기 위해 `public/images/flags/`의 로컬 SVG 국기를 사용한다. 아카이브 본문에서는 `.flag` 클래스로 크기와 수직 정렬을 통일한다.
+- 첫 글에는 `RECORD ABSTRACT` 요약과 번호 각주 링크를 넣었으며, 출처 목록은 원어 표기를 유지한 순서 목록으로 바꿨다. 같은 색인에 글이 2편 이상 생기면 상세 하단에 관련 기록이 자동 노출된다.
+
 - 상단 주요 메뉴의 `축행` 다음에 독립 메뉴 `삥이 아카이브`를 추가하고 `/archive/` 랜딩 페이지를 만들었다. 모바일 드로어와 공통 푸터에도 같은 동선을 반영했다.
 - 아카이브 랜딩은 `기록총서 소개 → 5개 기록 계열 → 공식 명칭별 색인 → 대표 연재 미리보기` 순서로 구성한다. 5개 계열은 `삥이 IN 레전드`, `삥이 IN 리그`, `삥이 IN 클럽 대항전`, `삥이 IN 국가대표팀 대회`, `삥이 IN 시상식`이다.
 - 분류 및 표시 데이터는 `src/data/archive.ts`에서 관리한다. 아카이브는 기존 글을 정해진 수량만큼 옮기는 이관 프로젝트가 아니라 **0부터 새로 축적하며 끝을 정하지 않는 장기 기록 체계**다. 기존 원고는 초기 집필 자산으로 활용하되, 랜딩 페이지에 예정 수량이나 총량을 표시하지 않는다.

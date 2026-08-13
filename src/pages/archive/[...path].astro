@@ -20,11 +20,28 @@ const pageDescription = index
 const records = (await getCollection('archive', ({ data }) =>
   !data.draft && data.branch === branch.id && (!index || data.index === index.slug)
 )).sort((a, b) => b.data.year - a.data.year);
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: pageTitle,
+  description: pageDescription,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: records.length,
+    itemListElement: records.map((record, position) => ({
+      '@type': 'ListItem',
+      position: position + 1,
+      name: record.data.title,
+      url: `https://bbingefc.com/archive/${record.data.branch}/${record.data.index}/${record.id}/`,
+    })),
+  },
+};
 ---
 
 <Layout
   title={pageTitle}
   description={pageDescription}
+  extraSchema={collectionSchema}
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: '삥이 아카이브', href: '/archive/' },

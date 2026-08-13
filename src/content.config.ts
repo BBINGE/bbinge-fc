@@ -41,6 +41,8 @@ const archive = defineCollection({
     index: z.string(),
     year: z.number(),
     subject: z.string(),
+    originalTitle: z.string().optional(),
+    keywords: z.array(z.string()).default([]),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     coverImage: z.string(),

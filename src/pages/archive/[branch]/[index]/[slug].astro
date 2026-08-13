@@ -17,6 +17,12 @@ const { entry } = Astro.props as Props;
 const branch = archiveBranches.find((item) => item.id === entry.data.branch)!;
 const archiveIndex = branch.indexes.find((item) => item.slug === entry.data.index)!;
 const { Content } = await render(entry);
+const relatedRecords = (await getCollection('archive', ({ data }) =>
+  !data.draft && data.index === entry.data.index
+))
+  .filter((record) => record.id !== entry.id)
+  .sort((a, b) => b.data.year - a.data.year)
+  .slice(0, 3);
 ---
 
 <Layout
@@ -24,7 +30,12 @@ const { Content } = await render(entry);
   description={entry.data.description}
   ogImage={entry.data.coverImage}
   type="article"
-  article={{ pubDate: entry.data.pubDate, updatedDate: entry.data.updatedDate }}
+  article={{
+    pubDate: entry.data.pubDate,
+    updatedDate: entry.data.updatedDate,
+    section: `${branch.title} · ${archiveIndex.label}`,
+    subjects: [entry.data.subject, archiveIndex.label, entry.data.originalTitle, ...entry.data.keywords].filter(Boolean) as string[],
+  }}
   breadcrumbs={[
     { label: '홈', href: '/' }, { label: '삥이 아카이브', href: '/archive/' },
     { label: branch.title, href: `/archive/${branch.id}/` },
@@ -40,6 +51,20 @@ const { Content } = await render(entry);
       <span>{entry.data.description}</span>
     </header>
     <div class="archive-body"><Content /></div>
+    {relatedRecords.length > 0 && (
+      <aside class="related-records" aria-labelledby="related-records-title">
+        <div><p>SAME INDEX</p><h2 id="related-records-title">같은 색인의 기록</h2></div>
+        <div class="related-grid">
+          {relatedRecords.map((record) => (
+            <a href={`/archive/${record.data.branch}/${record.data.index}/${record.id}/`}>
+              <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+              <span>{record.data.year} · {record.data.subject}</span>
+              <strong>{record.data.title}</strong>
+            </a>
+          ))}
+        </div>
+      </aside>
+    )}
   </article>
 </Layout>
 
@@ -84,6 +109,21 @@ const { Content } = await render(entry);
   .archive-body :global(.source-notes a) { color: var(--bbfc-ink-2); text-decoration: underline; text-decoration-color: var(--bbfc-gray-3); text-underline-offset: 3px; }
   .archive-body :global(.source-notes a:hover) { color: var(--bbfc-blue-strong); text-decoration-color: var(--bbfc-blue); }
   .archive-body :global(.record-note) { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--bbfc-border); font-size: 12px; line-height: 1.75; color: var(--bbfc-gray-2); }
+  .archive-body :global(.record-abstract) { margin: 0 0 58px; padding: 26px 28px 28px; border-top: 2px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
+  .archive-body :global(.record-abstract span) { display: block; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .archive-body :global(.record-abstract p) { margin-top: 12px; font-size: 17px; line-height: 1.82; font-weight: 520; color: var(--bbfc-ink-2); }
+  .archive-body :global(.flag) { display: inline-block; width: 1.35em; height: .9em; margin-left: .22em; border: 1px solid rgba(25,31,40,.12); border-radius: 2px; object-fit: cover; vertical-align: -.08em; }
+  .archive-body :global(.cite) { margin-left: .14em; font-size: .68em; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: super; }
+  .archive-body :global(.source-notes ol) { padding-left: 22px; list-style: decimal; }
+  .archive-body :global(.source-notes li:target) { background: var(--bbfc-blue-weak); }
+  .related-records { margin-top: 90px; padding-top: 24px; border-top: 2px solid var(--bbfc-ink); }
+  .related-records > div:first-child p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .related-records h2 { margin-top: 8px; font-size: 26px; font-weight: 680; letter-spacing: -.04em; }
+  .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px; }
+  .related-grid img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: var(--bbfc-radius); background: var(--bbfc-fill); }
+  .related-grid span, .related-grid strong { display: block; }
+  .related-grid span { margin-top: 11px; font-size: 10px; color: var(--bbfc-blue); }
+  .related-grid strong { margin-top: 5px; font-size: 14px; line-height: 1.45; }
   @media (max-width: 767px) {
     .archive-article { padding: 24px 16px 60px; }
     .article-header { margin-top: 24px; padding: 42px 0 38px; }
@@ -97,5 +137,8 @@ const { Content } = await render(entry);
     .archive-body :global(table) { display: block; overflow-x: auto; white-space: nowrap; }
     .archive-body :global(.source-notes) { font-size: 12.5px; }
     .archive-body :global(.record-note) { font-size: 12px; }
+    .archive-body :global(.record-abstract) { margin-bottom: 46px; padding: 22px 20px 24px; }
+    .archive-body :global(.record-abstract p) { font-size: 16px; }
+    .related-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   }
 </style>

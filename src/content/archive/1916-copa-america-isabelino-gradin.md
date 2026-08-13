@@ -5,10 +5,17 @@ branch: 'national-team'
 index: 'copa-america'
 year: 1916
 subject: '이사벨리노 그라딘'
+originalTitle: 'Campeonato Sudamericano de Fútbol 1916'
+keywords: ['CONMEBOL Copa América™', 'Isabelino Gradín', '우루과이 축구 국가대표팀', '남미축구연맹']
 pubDate: 2026-08-13
 coverImage: '/images/archive/1916-copa-america/cover.jpg'
 draft: false
 ---
+
+<aside class="record-abstract" aria-label="기록 요약">
+  <span>RECORD ABSTRACT</span>
+  <p>이사벨리노 그라딘은 공식 역사 아카이브에서 1916년 남미 축구 선수권 대회의 대표 선수로 정리된다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 우루과이의 초대 우승 과정에서 3골을 기록해 대회 득점왕에 올랐으며, 칠레전 2골과 브라질전 동점골을 남겼다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a></p>
+</aside>
 
 <div class="record-lead">
   <img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" />
@@ -19,9 +26,9 @@ draft: false
 ## 대회 기록
 
 <div class="record-facts">
-  <dl><dt>개최국</dt><dd>아르헨티나 🇦🇷</dd></dl>
+  <dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl>
   <dl><dt>대회 기간</dt><dd>1916년 7월 2일–17일</dd></dl>
-  <dl><dt>참가국</dt><dd>아르헨티나 🇦🇷 · 브라질 🇧🇷 · 칠레 🇨🇱 · 우루과이 🇺🇾</dd></dl>
+  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
   <dl><dt>방식</dt><dd>단일 리그전</dd></dl>
 </div>
 
@@ -29,21 +36,21 @@ draft: false
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 🇺🇾 | 2승 1무 | 6득점 1실점 |
-| 2 | 아르헨티나 🇦🇷 | 1승 2무 | 7득점 2실점 |
-| 3 | 브라질 🇧🇷 | 2무 1패 | 3득점 4실점 |
-| 4 | 칠레 🇨🇱 | 3패 | 1득점 10실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2승 1무 | 6득점 1실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 1승 2무 | 7득점 2실점 |
+| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 2무 1패 | 3득점 4실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 1득점 10실점 |
 
 <figure>
   <img src="/images/archive/1916-copa-america/uruguay-team.jpg" alt="1916년 남미 축구 선수권 대회에 출전한 우루과이 대표팀" width="773" height="506" loading="lazy" />
-  <figcaption>1916년 남미 축구 선수권 대회의 초대 챔피언 우루과이 🇺🇾 대표팀.</figcaption>
+  <figcaption>1916년 남미 축구 선수권 대회의 초대 챔피언 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> 대표팀.</figcaption>
 </figure>
 
 ## 개인 기록
 
 <div class="honours-grid">
-  <div><span>최우수 선수</span><strong>이사벨리노 그라딘</strong><small>우루과이 🇺🇾</small></div>
-  <div><span>득점왕</span><strong>이사벨리노 그라딘</strong><small>3골 · 우루과이 🇺🇾</small></div>
+  <div><span>최우수 선수</span><strong>이사벨리노 그라딘</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
+  <div><span>득점왕</span><strong>이사벨리노 그라딘</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
   <div><span>득점 2위</span><strong>4명 공동</strong><small>2골</small></div>
 </div>
 
@@ -56,7 +63,7 @@ draft: false
 
 ### 독립 100주년에 시작된 대회
 
-1916년의 부에노스아이레스는 축구 대회의 개최만으로 설명하기 어려운 도시였다. 아르헨티나는 1816년 투쿠만 회의에서 독립을 선언한 뒤 정확히 한 세기를 맞고 있었다. 대회 역시 그 100주년 기념행사의 일부로 마련되었다. 유럽에서는 제1차 세계대전이 한창이었고, 대서양 건너에서는 네 나라가 모여 남아메리카 축구의 제도적 원형을 만들고 있었다. 세계사의 시계는 언제나 같은 속도로 흐르지 않는다.
+1916년의 부에노스아이레스는 축구 대회의 개최만으로 설명하기 어려운 도시였다. 아르헨티나는 1816년 투쿠만 회의에서 독립을 선언한 뒤 정확히 한 세기를 맞고 있었다. 대회 역시 그 100주년 기념행사의 일부로 마련되었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 유럽에서는 제1차 세계대전이 한창이었고, 대서양 건너에서는 네 나라가 모여 남아메리카 축구의 제도적 원형을 만들고 있었다. 세계사의 시계는 언제나 같은 속도로 흐르지 않는다.
 
 오늘날의 명칭으로는 `CONMEBOL 코파 아메리카™`의 첫 대회가 된다. 그러나 당시 사람들이 경기장 입구에서 코파 아메리카 티켓을 내밀었던 것은 아니다. 대회의 이름은 남미 축구 선수권 대회, 곧 스페인어로 `Campeonato Sudamericano de Fútbol`이었다. 코파 아메리카라는 명칭은 1975년부터 정식으로 사용되었다. 현재의 이름을 1916년에 붙이는 것은 대회의 계보를 설명하기에는 편리하지만, 당대의 언어까지 보존하려면 두 명칭을 구별해야 한다.
 
@@ -68,7 +75,7 @@ draft: false
 
 ### 세 경기, 세 골
 
-그라딘은 칠레와의 첫 경기에서 두 골을 넣었다. 우루과이는 4-0으로 승리했고, 나머지 두 골은 호세 피엔디베네가 기록했다. 이어 브라질전에서는 아르투르 프리덴라이히에게 선제골을 허용한 뒤 후반 13분 동점골을 넣었다. 경기는 2-1로 끝났다. 우루과이축구협회가 남긴 경기 기록에 따르면 그의 대회 득점은 이 세 골이었다.
+그라딘은 칠레와의 첫 경기에서 두 골을 넣었다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 우루과이는 4-0으로 승리했고, 나머지 두 골은 호세 피엔디베네가 기록했다. 이어 브라질전에서는 아르투르 프리덴라이히에게 선제골을 허용한 뒤 후반 13분 동점골을 넣었다. 경기는 2-1로 끝났다. 우루과이축구협회가 남긴 경기 기록에 따르면 그의 대회 득점은 이 세 골이었다.
 
 마지막 상대는 개최국 아르헨티나였다. 우루과이는 승점에서 앞서 있었으므로 무승부만 거두어도 우승할 수 있었다. 경기는 0-0으로 끝났고 우루과이는 초대 챔피언이 되었다. 결승전은 존재하지 않았지만, 마지막 경기는 결승전과 거의 같은 기능을 했다. 훗날 토너먼트에 익숙해진 눈으로 보면 결승전 없는 결승전인 셈이다.
 
@@ -84,7 +91,7 @@ draft: false
 
 그라딘의 속도는 수사만이 아니었다. 그는 육상 선수이기도 했다. 200m와 400m를 주 종목으로 삼았고, 1919년 남미 육상 선수권 대회에서 금메달을 획득했다. 축구의 측면 공격수와 육상의 단거리 선수가 한 몸에 들어 있던 셈이다. 오늘날이라면 경기력 데이터 부서가 침을 흘릴 만한 프로필이지만, 당시에는 한 선수가 여러 종목을 오가는 일이 지금보다 낯설지 않았다.
 
-그의 축구 경력은 1916년에 멈추지 않았다. 우루과이축구협회 기록에 따르면 1915년 아르헨티나전을 통해 A대표팀에 데뷔했고, 1927년까지 23경기에서 10골을 남겼다. 1916년과 1917년 남미 축구 선수권 대회를 연속으로 제패했다. 그러나 우루과이가 올림픽 2연패와 FIFA 월드컵™ 초대 우승으로 세계사의 전면에 등장했을 때, 그라딘은 그 대표팀의 주역이 아니었다. 초기의 문을 연 사람이 반드시 가장 화려한 방까지 들어가는 것은 아니다.
+그의 축구 경력은 1916년에 멈추지 않았다. 우루과이축구협회 기록에 따르면 1915년 아르헨티나전을 통해 A대표팀에 데뷔했고, 1927년까지 23경기에서 10골을 남겼다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 1916년과 1917년 남미 축구 선수권 대회를 연속으로 제패했다. 그러나 우루과이가 올림픽 2연패와 FIFA 월드컵™ 초대 우승으로 세계사의 전면에 등장했을 때, 그라딘은 그 대표팀의 주역이 아니었다. 초기의 문을 연 사람이 반드시 가장 화려한 방까지 들어가는 것은 아니다.
 
 ### 같은 트로피, 달라진 이름
 
@@ -96,11 +103,13 @@ CONMEBOL의 공식 소개에 따르면 오늘날 우승팀이 드는 은제 트�
 
 <div class="source-notes">
 
-- [«110 años de la CONMEBOL Copa América™: el torneo de selecciones más antiguo del mundo»](https://copaamerica.com/es/novedades/110-anos-conmebol-copa-america), CONMEBOL Copa América™.
-- [«El máximo goleador de la CONMEBOL Copa América™»](https://copaamerica.com/es/novedades/maximo-goleador-todas-ediciones-conmebol-copa-america), CONMEBOL Copa América™.
-- [«Histórias que você provavelmente não sabia sobre a CONMEBOL Copa América™»](https://copaamerica.com/pt/noticias/historias-copa-america-curiosidades-feitos), CONMEBOL Copa América™.
-- [«Copa América 1916»](https://www.auf.org.uy/copa-america-1916/), Asociación Uruguaya de Fútbol.
-- [«Isabelino Gradín»](https://www.auf.org.uy/isabelino-gradin/), Asociación Uruguaya de Fútbol.
+<ol>
+<li id="source-1"><a href="https://copaamerica.com/es/novedades/110-anos-conmebol-copa-america">«110 años de la CONMEBOL Copa América™: el torneo de selecciones más antiguo del mundo»</a>, CONMEBOL Copa América™.</li>
+<li id="source-2"><a href="https://copaamerica.com/es/novedades/maximo-goleador-todas-ediciones-conmebol-copa-america">«El máximo goleador de la CONMEBOL Copa América™»</a>, CONMEBOL Copa América™.</li>
+<li id="source-3"><a href="https://copaamerica.com/pt/noticias/historias-copa-america-curiosidades-feitos">«Histórias que você provavelmente não sabia sobre a CONMEBOL Copa América™»</a>, CONMEBOL Copa América™.</li>
+<li id="source-4"><a href="https://www.auf.org.uy/copa-america-1916/">«Copa América 1916»</a>, Asociación Uruguaya de Fútbol.</li>
+<li id="source-5"><a href="https://www.auf.org.uy/isabelino-gradin/">«Isabelino Gradín»</a>, Asociación Uruguaya de Fútbol.</li>
+</ol>
 
 <p class="record-note">※ 최우수 선수 표기는 주관 기관의 역사 아카이브가 대회별 대표 선수를 소급 정리한 기록을 따른다. 당시에 현대적 형식의 개인상 시상식이 열렸다는 의미로 사용하지 않는다.</p>
 

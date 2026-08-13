@@ -18,7 +18,10 @@ interface Props {
   article?: {
     pubDate: Date;
     updatedDate?: Date;
+    section?: string;
+    subjects?: string[];
   };
+  extraSchema?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
@@ -28,6 +31,7 @@ const {
   type = 'website',
   breadcrumbs = [{ label: '홈', href: '/' }],
   article,
+  extraSchema,
 } = Astro.props;
 
 const pageTitle = title === site.name ? title : `${title} — ${site.name}`;
@@ -54,10 +58,22 @@ const articleSchema = article
       image: ogImageURL,
       datePublished: article.pubDate.toISOString(),
       dateModified: (article.updatedDate ?? article.pubDate).toISOString(),
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': canonicalURL,
+      },
+      inLanguage: site.locale,
+      ...(article.section ? { articleSection: article.section } : {}),
+      ...(article.subjects?.length
+        ? { about: article.subjects.map((name) => ({ '@type': 'Thing', name })) }
+        : {}),
       author: {
         '@type': 'Person',
-        name: site.author,
+        '@id': `${site.url}/#author`,
+        name: site.authorName,
+        url: `${site.url}/about/`,
       },
+      publisher: { '@id': `${site.url}/#author` },
     }
   : null;
 
@@ -122,6 +138,9 @@ const authorSchema = {
     {articleSchema && (
       <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}
+    {extraSchema && (Array.isArray(extraSchema) ? extraSchema : [extraSchema]).map((schema) => (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    ))}
   </head>
   <body>
     <Header />
