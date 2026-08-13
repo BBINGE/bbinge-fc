@@ -44,11 +44,20 @@ def paste_fitted_text_gradient(
     xy: tuple[int, int],
     font: ImageFont.FreeTypeFont,
     max_width: int,
+    stroke_width: int = 0,
     top: str = "#F8F7F6",
     bottom: str = "#DCDDD8",
 ) -> None:
     mask = Image.new("L", canvas.size, 0)
-    ImageDraw.Draw(mask).text(xy, text, font=font, fill=255, anchor="la")
+    ImageDraw.Draw(mask).text(
+        xy,
+        text,
+        font=font,
+        fill=255,
+        anchor="la",
+        stroke_width=stroke_width,
+        stroke_fill=255,
+    )
     bbox = mask.getbbox()
     if not bbox:
         return
@@ -110,14 +119,14 @@ def render(args: argparse.Namespace) -> None:
     draw = ImageDraw.Draw(canvas)
     draw.text((24, 373), args.year, font=light, fill="white", anchor="la")
     draw.text((24, 454), "코파 아메리카", font=medium, fill="white", anchor="la")
-    paste_fitted_text_gradient(canvas, "MVP", (20, 505), bold, PANEL_WIDTH - 45)
+    paste_fitted_text_gradient(canvas, "MVP", (20, 505), bold, PANEL_WIDTH - 45, stroke_width=8)
     draw = ImageDraw.Draw(canvas)
     draw.text((292, 691), "삥이FC", font=signature, fill="white", anchor="la")
     draw.text((CANVAS - 42, CANVAS - 43), "삥이FC", font=signature, fill="white", anchor="ra")
 
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
-    canvas.convert("RGB").resize((773, 773), Image.Resampling.LANCZOS).save(output, optimize=True)
+    canvas.convert("RGB").resize((773, 773), Image.Resampling.LANCZOS).save(output, compress_level=4)
 
 
 def parse_args() -> argparse.Namespace:

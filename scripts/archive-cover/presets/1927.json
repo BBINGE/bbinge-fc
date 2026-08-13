@@ -1,0 +1,11 @@
+{
+  "year": "1927",
+  "photo": "public/images/archive/1927-copa-america/manuel-seoane.jpg",
+  "stamp": "public/images/archive/1927-copa-america/peru-1927-stamp.jpg",
+  "top": "#7A263A",
+  "bottom": "#C45A68",
+  "focusX": 0.5,
+  "focusY": 0.1,
+  "zoom": 1.42,
+  "cropIntent": "얼굴과 흉부 우선. 무릎과 하체 보존보다 눈높이와 상체 점유율을 우선한다."
+}

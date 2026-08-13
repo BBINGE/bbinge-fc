@@ -21,6 +21,8 @@ python scripts/archive-cover/render.py `
 - `--top`, `--bottom`: 좌측 패널의 위·아래 색상.
 - `--focus-x`, `--focus-y`: 인물의 얼굴과 시선에 맞춘 사진 초점. 0에서 1 사이 값이다.
 - `--zoom`: 사진 확대율. 인물 사진마다 표지에서 얼굴 크기를 확인해 조정한다.
+- 확정한 연도별 값은 `presets/{연도}.json`에 남긴다. 1927년 기준은 `focusX 0.5`, `focusY 0.1`, `zoom 1.42`다.
+- 첫 렌더링 때 3개 확대율 후보를 동시에 만들고 한 번만 육안 비교한다. 후보를 한 장씩 순차 생성하지 않는다. 렌더링은 장당 약 1초 이내이며 Photoshop을 실행하지 않는다.
 - 고정 트로피 원판은 기존 PSD의 사진 레이어에서 한 번 분리한 자산이다.
 - 글꼴은 [G마켓 공식 배포 페이지](https://news.gmarket.com/fonts/)의 Gmarket Sans TTF를 사용한다. 공식 안내에 따라 수정과 재배포가 허용된다.
 
