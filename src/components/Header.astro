@@ -50,17 +50,35 @@ const primaryNav = [
       </a>
 
       <nav class="hidden md:flex items-center gap-[18px]" aria-label="주요 메뉴">
-        {primaryNav.map(({ href, label, active, isNew }) => (
+        {primaryNav.map(({ href, label, active, isNew }) => href === '/about/' ? (
+          <div class="about-nav">
             <a
               href={href}
               class:list={[
-                'text-[14.5px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
+                'about-nav-trigger text-[14.5px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
                 active ? 'text-[var(--bbfc-blue)] font-semibold' : 'text-[var(--bbfc-ink-2)] font-medium',
               ]}
+              aria-haspopup="true"
             >
               {label}
-              {isNew && <span class="nav-new">NEW</span>}
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" /></svg>
             </a>
+            <div class="about-nav-menu">
+              <a href="/about/"><span>AUTHOR</span><strong>저자 이야기</strong><small>박성호, 온라인에서는 삥이</small></a>
+              <a href="/about/logo/"><span>IDENTITY</span><strong>로고 이야기</strong><small>P와 BB, 하나의 저자명</small></a>
+            </div>
+          </div>
+        ) : (
+          <a
+            href={href}
+            class:list={[
+              'text-[14.5px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
+              active ? 'text-[var(--bbfc-blue)] font-semibold' : 'text-[var(--bbfc-ink-2)] font-medium',
+            ]}
+          >
+            {label}
+            {isNew && <span class="nav-new">NEW</span>}
+          </a>
         ))}
       </nav>
     </div>
@@ -95,7 +113,17 @@ const primaryNav = [
     </button>
   </div>
   <ul class="space-y-1 mb-4 pb-4 border-b border-[var(--bbfc-line)]">
-    {primaryNav.map(({ href, label, active, isNew }) => (
+    {primaryNav.map(({ href, label, active, isNew }) => href === '/about/' ? (
+      <li class="mobile-about">
+        <details open={active}>
+          <summary class:list={['text-[13.5px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}>{label}</summary>
+          <div>
+            <a href="/about/">저자 이야기</a>
+            <a href="/about/logo/">로고 이야기</a>
+          </div>
+        </details>
+      </li>
+    ) : (
       <li>
         <a
           href={href}
@@ -115,6 +143,23 @@ const primaryNav = [
 
 <style>
   .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
+  .about-nav { position:relative; height:64px; display:flex; align-items:center; }
+  .about-nav-trigger { display:flex; align-items:center; gap:4px; }
+  .about-nav-trigger svg { width:11px; height:11px; fill:none; stroke:currentColor; stroke-width:1.4; transition:transform 160ms ease; }
+  .about-nav-menu { position:absolute; top:56px; left:-18px; width:238px; padding:8px; border:1px solid var(--bbfc-border); border-radius:12px; background:#fff; box-shadow:0 18px 42px -24px rgba(25,31,40,.38); opacity:0; visibility:hidden; transform:translateY(-5px); transition:opacity 150ms ease,transform 150ms ease,visibility 150ms; }
+  .about-nav:hover .about-nav-menu,.about-nav:focus-within .about-nav-menu { opacity:1; visibility:visible; transform:translateY(0); }
+  .about-nav:hover .about-nav-trigger svg,.about-nav:focus-within .about-nav-trigger svg { transform:rotate(180deg); }
+  .about-nav-menu a { display:grid; padding:12px; border-radius:8px; transition:background 140ms ease; }
+  .about-nav-menu a:hover,.about-nav-menu a:focus-visible { background:var(--bbfc-fill-2); outline:none; }
+  .about-nav-menu span { color:var(--bbfc-blue); font-size:8px; font-weight:700; letter-spacing:.15em; }
+  .about-nav-menu strong { margin-top:4px; color:var(--bbfc-ink); font-size:13px; font-weight:650; }
+  .about-nav-menu small { margin-top:3px; color:var(--bbfc-gray-2); font-size:10.5px; }
+  .mobile-about summary { display:flex; align-items:center; justify-content:space-between; list-style:none; cursor:pointer; }
+  .mobile-about summary::-webkit-details-marker { display:none; }
+  .mobile-about summary::after { content:'+'; color:var(--bbfc-gray-2); font-size:15px; font-weight:400; }
+  .mobile-about details[open] summary::after { content:'−'; }
+  .mobile-about details div { margin:0 0 5px 8px; padding:2px 0 3px 12px; border-left:1px solid var(--bbfc-border); }
+  .mobile-about details div a { display:block; padding:7px 0; color:var(--bbfc-gray-1); font-size:12.5px; }
 </style>
 
 <script>

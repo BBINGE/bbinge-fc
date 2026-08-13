@@ -1,0 +1,74 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { site } from '../../config/site';
+
+const brandSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: '삥이FC 로고 이야기',
+  url: `${site.url}/about/logo/`,
+  description: '박성호의 P와 삥이의 BB가 하나의 저자명으로 만나는 삥이FC 로고의 의미와 색상 체계.',
+  about: { '@type': 'Brand', name: site.name },
+};
+---
+
+<Layout
+  title="로고 이야기"
+  description="박성호의 P와 삥이의 BB가 하나의 저자명으로 만나는 삥이FC 로고의 의미와 색상 체계입니다."
+  breadcrumbs={[{ label: '홈', href: '/' }, { label: '저자 @삥이', href: '/about/' }, { label: '로고 이야기', href: '/about/logo/' }]}
+  extraSchema={brandSchema}
+>
+  <article class="brand-page">
+    <header class="brand-hero">
+      <div class="brand-intro">
+        <p class="brand-eyebrow">BBINGE FC · BRAND IDENTITY</p>
+        <h1>한 사람,<br /><span>두 개의 이름.</span></h1>
+        <p class="brand-lead">박성호로 기획하고, 삥이로 씁니다. 로고는 실명과 필명이 한 사람 안에서 만나 축구를 기록하는 방식을 담았습니다.</p>
+      </div>
+      <div class="brand-symbol-stage" aria-label="삥이FC PBB 심볼">
+        <svg viewBox="0 0 200 200" role="img" aria-labelledby="symbol-title">
+          <title id="symbol-title">P와 두 개의 B를 결합한 삥이FC 심볼</title>
+          <path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z" />
+          <path fill="var(--bbfc-blue)" d="M59 86h42c26 0 43 10 49 28-7 2-14 6-20 11-4-10-14-15-30-15H59zM59 108h50c37 0 57 12 57 34 0 23-21 34-60 34H59v-24h46c23 0 35-3 35-10 0-7-11-10-32-10H59z" />
+        </svg>
+        <p>P · BB</p>
+      </div>
+    </header>
+
+    <section class="brand-meaning">
+      <div class="section-heading"><p>01 · THE NAME</p><h2>P와 BB가 만나는 곳</h2></div>
+      <div class="meaning-grid">
+        <div><strong>P</strong><span>PARK SEONGHO</span><p>자료를 찾고 구조를 세우며 기록에 책임지는 기획자 박성호.</p></div>
+        <div><strong>BB</strong><span>BBINGE</span><p>온라인에서 독자와 만나고, 축구를 자기 언어로 해석하는 필명 삥이.</p></div>
+        <div class="meaning-result"><strong>PBB</strong><span>ONE AUTHOR</span><p>서로 다른 두 이름은 분리된 인격이 아니라 하나의 저자가 가진 두 가지 목소리입니다.</p></div>
+      </div>
+    </section>
+
+    <section class="brand-form">
+      <div class="section-heading"><p>02 · THE MARK</p><h2>읽기보다 먼저 기억되는 형태</h2></div>
+      <div class="form-grid">
+        <div class="form-copy"><p>심볼은 P와 두 개의 B를 한 덩어리로 압축했습니다. 세 글자를 모두 해독시키기보다, 작은 화면에서도 하나의 단단한 인상으로 남기는 것을 우선했습니다.</p><p>검정 골격 위로 파란 곡선이 이어지는 모습은 과거의 기록 위에 오늘의 해석이 덧붙는 과정을 뜻합니다.</p></div>
+        <div class="form-demo"><span>SYMBOL</span><svg viewBox="0 0 200 200" aria-hidden="true"><path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z"/><path fill="var(--bbfc-blue)" d="M59 86h42c26 0 43 10 49 28-7 2-14 6-20 11-4-10-14-15-30-15H59zM59 108h50c37 0 57 12 57 34 0 23-21 34-60 34H59v-24h46c23 0 35-3 35-10 0-7-11-10-32-10H59z"/></svg><b>삥이<span>FC</span></b></div>
+      </div>
+    </section>
+
+    <section class="brand-color">
+      <div class="section-heading"><p>03 · THE COLOR</p><h2>기록의 검정, 발행의 파랑</h2></div>
+      <div class="color-grid">
+        <div class="color-card ink"><i></i><div><strong>BBFC INK</strong><code>#191F28</code><p>사실, 기록, 구조. 오래 읽어도 흔들리지 않는 본문의 중심색입니다.</p></div></div>
+        <div class="color-card blue"><i></i><div><strong>BBFC BLUE</strong><code>#3182F6</code><p>해석, 연결, 발행. 기록을 현재의 독자에게 건네는 목소리입니다.</p></div></div>
+        <div class="color-card pale"><i></i><div><strong>ARCHIVE PALE</strong><code>#F2F6FE</code><p>파랑을 절제해 확장한 보조색. 정보의 층을 조용히 구분합니다.</p></div></div>
+      </div>
+    </section>
+
+    <section class="brand-signature">
+      <div class="signature-mark"><svg viewBox="0 0 200 200" aria-hidden="true"><path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z"/><path fill="var(--bbfc-blue)" d="M59 86h42c26 0 43 10 49 28-7 2-14 6-20 11-4-10-14-15-30-15H59zM59 108h50c37 0 57 12 57 34 0 23-21 34-60 34H59v-24h46c23 0 35-3 35-10 0-7-11-10-32-10H59z"/></svg></div>
+      <div><p>BBINGE FC</p><h2>축구의 역사를 놀고,<br />읽고, 걷는 곳.</h2><a href="/about/">저자 이야기 보기 <span aria-hidden="true">→</span></a></div>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  .brand-page{max-width:1200px;margin:0 auto;padding:0 20px 100px}.brand-hero{display:grid;grid-template-columns:1.15fr .85fr;min-height:640px;border-bottom:1px solid var(--bbfc-ink)}.brand-intro{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(20px,5vw,72px) 70px 0}.brand-eyebrow,.section-heading>p{color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.18em}.brand-intro h1{margin-top:22px;font-size:clamp(50px,7vw,88px);font-weight:650;line-height:1.02;letter-spacing:-.065em}.brand-intro h1 span{color:var(--bbfc-blue)}.brand-lead{max-width:580px;margin-top:34px;color:var(--bbfc-ink-2);font-size:clamp(16px,2vw,20px);line-height:1.85}.brand-symbol-stage{display:grid;place-items:center;align-content:center;gap:24px;background:var(--bbfc-fill-2);color:var(--bbfc-ink)}.brand-symbol-stage svg{width:min(62%,300px)}.brand-symbol-stage p{font-size:10px;font-weight:700;letter-spacing:.35em}.brand-page section:not(.brand-signature){padding:110px 0;border-bottom:1px solid var(--bbfc-border)}.section-heading{display:grid;grid-template-columns:1fr 2fr;align-items:start}.section-heading h2{font-size:clamp(30px,4vw,52px);font-weight:600;line-height:1.15;letter-spacing:-.05em}.meaning-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:64px;background:var(--bbfc-border);border:1px solid var(--bbfc-border)}.meaning-grid>div{min-height:310px;padding:36px;background:#fff}.meaning-grid strong{display:block;font-size:clamp(62px,8vw,100px);font-weight:650;line-height:1}.meaning-grid span{display:block;margin-top:22px;color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.16em}.meaning-grid p{margin-top:28px;color:var(--bbfc-gray-1);font-size:14px;line-height:1.8}.meaning-grid .meaning-result{background:var(--bbfc-ink);color:#fff}.meaning-result p{color:#b0b8c1}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:64px}.form-copy p{color:var(--bbfc-ink-2);font-size:17px;line-height:1.95}.form-copy p+p{margin-top:22px}.form-demo{position:relative;min-height:420px;display:grid;place-items:center;align-content:center;background:var(--bbfc-ink);color:#fff}.form-demo>span{position:absolute;top:22px;left:24px;color:#8b95a1;font-size:9px;letter-spacing:.16em}.form-demo svg{width:190px}.form-demo b{margin-top:18px;font-size:26px;letter-spacing:-.04em}.form-demo b span{color:var(--bbfc-blue)}.color-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:64px}.color-card{border:1px solid var(--bbfc-border);background:#fff}.color-card i{display:block;height:180px}.color-card.ink i{background:#191f28}.color-card.blue i{background:#3182f6}.color-card.pale i{background:#f2f6fe}.color-card div{padding:24px}.color-card strong,.color-card code{display:block}.color-card strong{font-size:12px;letter-spacing:.1em}.color-card code{margin-top:6px;color:var(--bbfc-gray-2);font-size:11px}.color-card p{margin-top:22px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.75}.brand-signature{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;min-height:500px;margin-top:110px;background:var(--bbfc-blue-weak)}.signature-mark{display:grid;place-items:center}.signature-mark svg{width:180px}.brand-signature>div:last-child{padding:60px}.brand-signature p{color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.18em}.brand-signature h2{margin-top:18px;font-size:clamp(34px,5vw,58px);font-weight:650;line-height:1.2;letter-spacing:-.055em}.brand-signature a{display:inline-flex;gap:18px;margin-top:40px;padding-bottom:6px;border-bottom:1px solid var(--bbfc-ink);font-size:13px;font-weight:600}
+  @media(max-width:760px){.brand-page{padding:0 16px 70px}.brand-hero{grid-template-columns:1fr;min-height:0}.brand-intro{padding:72px 0 56px}.brand-symbol-stage{min-height:360px}.brand-page section:not(.brand-signature){padding:72px 0}.section-heading{grid-template-columns:1fr;gap:16px}.meaning-grid,.color-grid{grid-template-columns:1fr;margin-top:40px}.meaning-grid>div{min-height:250px}.form-grid{grid-template-columns:1fr;gap:40px;margin-top:40px}.form-demo{min-height:360px}.brand-signature{grid-template-columns:1fr;min-height:0;margin-top:72px;padding-top:48px}.signature-mark svg{width:130px}.brand-signature>div:last-child{padding:38px 26px 54px}}
+</style>
