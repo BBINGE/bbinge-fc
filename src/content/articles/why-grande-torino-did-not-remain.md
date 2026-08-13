@@ -175,6 +175,12 @@ draft: false
 
 그들은 지금도 원정 중이다. 다만 이탈리아 축구는 그들이 돌아올 자리를 오래 비워두지 않았다.
 
+<a class="visual-story-link" href="/history/grande-torino-card-news/">
+  <span>VISUAL STORY · 7 SCENES</span>
+  <strong>위대한 토리노 — 7장으로 보는 수페르가의 비극</strong>
+  <em>비주얼 스토리로 빠르게 보기 →</em>
+</a>
+
 <section class="source-notes">
 <h2>자료와 확인 경로</h2>
 <ol>
@@ -198,6 +204,10 @@ draft: false
   .closing-quote { margin: 48px 0; padding: 30px 32px; border: 0 !important; border-top: 2px solid var(--bbfc-ink) !important; border-bottom: 1px solid var(--bbfc-border) !important; }
   .closing-quote p:first-child { margin: 0; font-family: Georgia, serif; font-size: 20px; line-height: 1.7; color: var(--bbfc-ink); }
   .closing-quote p:last-child { margin-top: 18px; font-size: 15px; line-height: 1.7; color: var(--bbfc-gray-1); }
+  .visual-story-link { display: block; margin: 48px 0 62px; padding: 25px 28px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; }
+  .visual-story-link span { display: block; color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .15em; }
+  .visual-story-link strong { display: block; margin-top: 10px; font-size: 21px; line-height: 1.4; letter-spacing: -.03em; }
+  .visual-story-link em { display: inline-block; margin-top: 15px; font-size: 12px; font-style: normal; font-weight: 650; border-bottom: 1px solid currentColor; }
   .source-notes ol { list-style: decimal; }
   @media (max-width: 767px) {
     .media-grid-two, .stat-line { grid-template-columns: 1fr; }
@@ -205,5 +215,7 @@ draft: false
     .stat-line div { min-height: 112px; }
     .closing-quote { padding: 24px 20px; }
     .closing-quote p:first-child { font-size: 18px; }
+    .visual-story-link { padding: 22px 20px; }
+    .visual-story-link strong { font-size: 19px; }
   }
 </style>

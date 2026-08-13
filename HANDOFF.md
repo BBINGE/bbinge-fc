@@ -102,7 +102,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 
 글 현황:
 
-- 일반 글 컬렉션 `src/content/articles/`에는 5개 파일이 있다. `why-eredivisie-became-selling-league.md`와 `why-grande-torino-did-not-remain.md`는 완성·공개된 축세 장문 칼럼이다. 기존 `supurga-pilgrimage.md` 자리표시자는 `draft: true`로 공개 제외했으며 옛 URL은 완성된 라 그란데 토리노 축세 글로 301 연결한다. `3141.md`와 `423423423.md`는 `draft: true`인 발행 흐름 시험 산출물이다.
+- 일반 글 컬렉션 `src/content/articles/`에는 6개 파일이 있다. `why-eredivisie-became-selling-league.md`와 `why-grande-torino-did-not-remain.md`는 완성·공개된 축세 장문 칼럼이며, `grande-torino-card-news.md`는 원본 이미지 7장을 사용하는 축세 비주얼 스토리다. 토리노 장문과 비주얼 스토리는 서로 명시적 링크로 연결한다. 기존 `supurga-pilgrimage.md` 자리표시자는 `draft: true`로 공개 제외했으며 옛 URL은 완성된 라 그란데 토리노 축세 글로 301 연결한다. `3141.md`와 `423423423.md`는 `draft: true`인 발행 흐름 시험 산출물이다.
 - 아카이브 컬렉션 `src/content/archive/`에는 `1916 코파 아메리카 최우수 선수: 이사벨리노 그라딘`, `1917 코파 아메리카 최우수 선수: 엑토르 스카로네` 2편이 공개되어 있다.
 
 ## 5. 남은 주요 작업
