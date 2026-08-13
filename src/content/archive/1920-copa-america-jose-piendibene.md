@@ -36,7 +36,7 @@ draft: false
 | 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 1승 2패 | 1득점 8실점 |
 | 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 1무 2패 | 2득점 4실점 |
 
-<figure><img src="/images/archive/1920-copa-america/source-1.jpg" alt="1920년 남미 축구를 기록한 흑백 사진" width="773" height="504" loading="lazy" /><figcaption>운영자가 1920년 원문에 사용한 기록 사진. 세부 인물은 현존 자료만으로 단정하지 않는다.</figcaption></figure>
+<figure><img src="/images/archive/1920-copa-america/source-1.jpg" alt="1920년 남미 축구를 기록한 흑백 사진" width="773" height="504" loading="lazy" /><figcaption>1920년 남미 축구를 담은 기록 사진. 세부 인물은 현존 자료만으로 단정하지 않는다.</figcaption></figure>
 
 ## 개인 기록
 
@@ -54,7 +54,7 @@ draft: false
 
 아르헨티나가 9월 25일 브라질을 2-0으로 꺾으면서 우루과이는 마지막 칠레전에서 이겨야 했다. 개최국이 먼저 득점했지만 로마노가 동점을 만들고 페레스가 역전골을 넣었다. 2승 1무, 9득점 2실점. 6-0이 가장 큰 장면이었다면 우승을 확정한 것은 가장 작은 한 골 차였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-‘최우수 선수’는 당시 공식 시상명이 아니다. CONMEBOL의 후대 대회사는 피엔디베네를 1920년의 인물로 소개하지만, 우루과이축구협회와 축구사가협회의 상세 회고는 안토니오 우르디나란을 대회 최고의 선수로 평가한다. 이 아카이브는 운영자의 원문과 CONMEBOL 회고를 따라 피엔디베네를 표제 인물로 유지하되, 서로 다른 평가를 함께 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+‘최우수 선수’는 당시 공식 시상명이 아니다. CONMEBOL의 후대 대회사는 피엔디베네를 1920년의 인물로 소개하지만, 우루과이축구협회와 축구사가협회의 상세 회고는 안토니오 우르디나란을 대회 최고의 선수로 평가한다. 여기서는 피엔디베네를 표제 인물로 삼되, 서로 다른 평가를 함께 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 ### 6-0, 왕좌를 되찾는 가장 거친 방식
 

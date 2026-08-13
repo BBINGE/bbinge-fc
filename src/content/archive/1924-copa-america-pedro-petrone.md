@@ -30,7 +30,7 @@ draft: false
 | 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 1승 1무 1패 | 4득점 4실점 |
 | 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 1득점 10실점 |
 
-<figure><img src="/images/archive/1924-copa-america/source-1.jpg" alt="1924년 우루과이 축구 관련 역사 사진" width="773" height="387" loading="lazy" /><figcaption>운영자의 1924년 원문에 실린 역사 사진.</figcaption></figure>
+<figure><img src="/images/archive/1924-copa-america/source-1.jpg" alt="1924년 우루과이 축구 관련 역사 사진" width="773" height="387" loading="lazy" /><figcaption>1924년 우루과이 축구의 한 장면을 담은 역사 사진.</figcaption></figure>
 
 ## 개인 기록
 

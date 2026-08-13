@@ -30,7 +30,7 @@ draft: false
 | 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 1승 2패 | 3득점 4실점 |
 | 4 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 1승 2패 | 2득점 7실점 |
 
-<figure><img src="/images/archive/1921-copa-america/source-2.jpg" alt="1921년 남미축구선수권대회 관련 흑백 사진" width="773" height="501" loading="lazy" /><figcaption>운영자의 1921년 원문에 실린 대회 기록 사진.</figcaption></figure>
+<figure><img src="/images/archive/1921-copa-america/source-2.jpg" alt="1921년 남미축구선수권대회 관련 흑백 사진" width="773" height="501" loading="lazy" /><figcaption>1921년 남미축구선수권대회의 한 장면을 담은 기록 사진.</figcaption></figure>
 
 ## 개인 기록
 
@@ -48,7 +48,7 @@ draft: false
 
 테소리에레는 1920년부터 1925년까지 아르헨티나 대표로 32경기를 뛴 아마추어 시대의 골키퍼였다. 1921년 세 경기 무실점은 단순한 개인 숫자가 아니라 아르헨티나가 한 점 차 승리를 두 번 지킬 수 있었던 토대였다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-다만 CONMEBOL의 공식 회고가 대회의 위대한 인물로 꼽는 선수는 3골의 리보나티다. 그는 두 해 뒤 이탈리아로 건너가 남미 출신 선수의 유럽 이적을 상징하는 인물이 됐다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 이 글은 운영자 원문의 테소리에레 선정을 유지하되, 공식 회고의 중심 인물이 리보나티라는 점을 함께 기록한다.
+다만 CONMEBOL의 공식 회고가 대회의 위대한 인물로 꼽는 선수는 3골의 리보나티다. 그는 두 해 뒤 이탈리아로 건너가 남미 출신 선수의 유럽 이적을 상징하는 인물이 됐다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 테소리에레를 표제 인물로 삼으면서도, 공식 회고의 중심 인물이 리보나티라는 점은 함께 기록한다.
 
 ### 우승권에서 밀려난 적 없던 나라의 첫 3위
 
@@ -66,4 +66,4 @@ draft: false
 
 ## 출처와 기록 기준
 
-<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-2"><a href="https://museudofutebol.org.br/arthur-o-tigre-friedenreich/">«Arthur “O Tigre” Friedenreich, o primeiro craque brasileiro»</a>, Museu do Futebol.</li><li id="source-3"><a href="https://blog.naver.com/sho3603/223507395676">«1921 코파 아메리카 득점왕 MVP “아메리코 테소리에레”»</a>, 삥이의 축구 기록.</li><li id="source-4"><a href="https://www.afa.com.ar/11270/posts/1921-el-primer-grito-de-campeon">«1921: el primer grito de campeón»</a>, AFA.</li><li id="source-5"><a href="https://www.afa.com.ar/Sitio/posts/americo-tesoriere-la-gloria">«Américo Tesoriere, la gloria»</a>, AFA.</li></ol><p class="record-note">‘대회 대표 선수’는 당시 공식 트로피가 아니다. 운영자 원문은 테소리에레를 선정했으며, CONMEBOL 후대 대회사는 리보나티를 대회의 핵심 인물로 소개한다.</p></div>
+<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-2"><a href="https://museudofutebol.org.br/arthur-o-tigre-friedenreich/">«Arthur “O Tigre” Friedenreich, o primeiro craque brasileiro»</a>, Museu do Futebol.</li><li id="source-3"><a href="https://blog.naver.com/sho3603/223507395676">«1921 코파 아메리카 득점왕 MVP “아메리코 테소리에레”»</a>, 삥이의 축구 기록.</li><li id="source-4"><a href="https://www.afa.com.ar/11270/posts/1921-el-primer-grito-de-campeon">«1921: el primer grito de campeón»</a>, AFA.</li><li id="source-5"><a href="https://www.afa.com.ar/Sitio/posts/americo-tesoriere-la-gloria">«Américo Tesoriere, la gloria»</a>, AFA.</li></ol><p class="record-note">‘대회 대표 선수’는 당시 공식 트로피가 아니다. 이 기록에서는 테소리에레를 선정했으며, CONMEBOL 후대 대회사는 리보나티를 대회의 핵심 인물로 소개한다.</p></div>
