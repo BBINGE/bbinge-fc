@@ -9,6 +9,7 @@ const encodedUrl = encodeURIComponent(url);
 const encodedTitle = encodeURIComponent(title);
 const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
 const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+const naverShareUrl = `https://share.naver.com/web/shareView?url=${encodedUrl}&title=${encodedTitle}`;
 ---
 
 <section class="share-panel" aria-labelledby="share-title" data-share-url={url} data-share-title={title}>
@@ -20,22 +21,30 @@ const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encoded
     </div>
   </div>
   <div class="share-actions" aria-label="글 공유 방법">
-    <button type="button" data-share-copy aria-label="링크 복사">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a4 4 0 0 0 5.7 0l2.1-2.1a4 4 0 0 0-5.7-5.7l-1.2 1.2M13.4 10.6a4 4 0 0 0-5.7 0l-2.1 2.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/></svg>
-      <span>링크복사</span>
-    </button>
     <button type="button" data-share-kakao aria-label="카카오톡으로 공유">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4C6.9 4 3 7.1 3 10.9c0 2.5 1.7 4.7 4.3 5.9l-.9 3.1c-.1.3.2.5.5.3l3.7-2.5c.5.1.9.1 1.4.1 5.1 0 9-3.1 9-6.9S17.1 4 12 4Z"/><circle cx="8.5" cy="11" r=".8"/><circle cx="12" cy="11" r=".8"/><circle cx="15.5" cy="11" r=".8"/></svg>
-      <span>카카오</span>
+      <img src="/images/share/kakaotalk.png" alt="" width="44" height="44" loading="lazy" />
+      <span>카카오톡</span>
     </button>
-    <a href={xShareUrl} target="_blank" rel="noopener noreferrer" aria-label="X로 공유">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4 5 20"/></svg>
-      <span>X</span>
-    </a>
+    <button type="button" data-share-instagram aria-label="인스타그램으로 공유">
+      <img src="/images/about-logos/instagram.svg" alt="" width="44" height="44" loading="lazy" />
+      <span>인스타그램</span>
+    </button>
     <a href={facebookShareUrl} target="_blank" rel="noopener noreferrer" aria-label="페이스북으로 공유">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h3l.5-3H14V8.2c0-.9.3-1.7 1.8-1.7H18V3.8c-.4-.1-1.6-.2-2.8-.2-2.8 0-4.7 1.7-4.7 4.8V10H8v3h2.5v8"/></svg>
+      <img src="/images/share/facebook.png" alt="" width="44" height="44" loading="lazy" />
       <span>페이스북</span>
     </a>
+    <a href={xShareUrl} target="_blank" rel="noopener noreferrer" aria-label="X 구 트위터로 공유">
+      <img src="/images/share/x.png" alt="" width="44" height="44" loading="lazy" />
+      <span>X(구 트위터)</span>
+    </a>
+    <a href={naverShareUrl} target="_blank" rel="noopener noreferrer" aria-label="네이버 블로그로 퍼가기">
+      <img src="/images/about-logos/naver-blog.png" alt="" width="44" height="44" loading="lazy" />
+      <span>네이버 블로그</span>
+    </a>
+    <button type="button" data-share-copy aria-label="링크 복사">
+      <span class="link-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10.6 13.4a4 4 0 0 0 5.7 0l2.1-2.1a4 4 0 0 0-5.7-5.7l-1.2 1.2M13.4 10.6a4 4 0 0 0-5.7 0l-2.1 2.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/></svg></span>
+      <span>링크복사</span>
+    </button>
   </div>
   <p class="share-message" data-share-message aria-live="polite" hidden></p>
 </section>
@@ -80,6 +89,19 @@ const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encoded
       const copied = await copyLink(url);
       showMessage(message, copied ? '카카오 연동 전이라 링크를 복사했어요! 💛' : '복사창에서 링크를 복사해 주세요.');
     });
+
+    container.querySelector('[data-share-instagram]')?.addEventListener('click', async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share({ title, text: title, url });
+          return;
+        } catch (error) {
+          if (error instanceof DOMException && error.name === 'AbortError') return;
+        }
+      }
+      const copied = await copyLink(url);
+      showMessage(message, copied ? '인스타그램에 붙여넣을 링크를 복사했어요! 💗' : '복사창에서 링크를 복사해 주세요.');
+    });
   });
 </script>
 
@@ -89,19 +111,19 @@ const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encoded
   .share-copy > span { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--bbfc-blue-weak); font-size: 17px; }
   .share-copy h2 { font-size: 17px; line-height: 1.35; font-weight: 680; letter-spacing: -.02em; color: var(--bbfc-blue-strong); }
   .share-copy p { margin-top: 3px; font-size: 11.5px; line-height: 1.5; color: var(--bbfc-gray-2); }
-  .share-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 17px; }
-  .share-actions button, .share-actions a { display: inline-flex; align-items: center; gap: 7px; min-height: 38px; padding: 8px 12px; border: 1px solid var(--bbfc-border); border-radius: 999px; background: #fff; color: var(--bbfc-ink-2); font-size: 12px; line-height: 1; transition: border-color .15s ease, color .15s ease, transform .15s ease; }
-  .share-actions button:hover, .share-actions a:hover { border-color: var(--bbfc-blue); color: var(--bbfc-blue-strong); transform: translateY(-1px); }
-  .share-actions svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-  .share-actions [data-share-kakao] svg { width: 18px; height: 18px; fill: #fee500; stroke: #321f1f; stroke-width: 1.4; }
-  .share-actions [data-share-kakao] circle { fill: #321f1f; stroke: none; }
-  .share-actions a:last-child svg { fill: currentColor; stroke: none; }
+  .share-actions { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+  .share-actions button, .share-actions a { display: flex; min-width: 0; min-height: 82px; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 10px 5px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; color: var(--bbfc-ink-2); font-size: 11px; line-height: 1.25; text-align: center; transition: border-color .15s ease, color .15s ease, transform .15s ease, box-shadow .15s ease; }
+  .share-actions button:hover, .share-actions a:hover { border-color: var(--bbfc-blue); color: var(--bbfc-blue-strong); box-shadow: 0 5px 16px rgba(27, 102, 214, .08); transform: translateY(-2px); }
+  .share-actions img, .link-icon { display: grid; width: 36px; height: 36px; flex: 0 0 36px; place-items: center; border-radius: 10px; object-fit: contain; }
+  .share-actions a[href*="share.naver.com"] img { padding: 3px; border: 1px solid var(--bbfc-border); background: #fff; }
+  .link-icon { background: var(--bbfc-blue-weak); color: var(--bbfc-blue-strong); }
+  .link-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
   .share-message { margin-top: 10px; font-size: 11px; color: var(--bbfc-blue-strong); }
   @media (max-width: 480px) {
     .share-panel { padding-top: 19px; }
     .share-copy h2 { font-size: 16px; }
     .share-copy p { display: none; }
-    .share-actions { gap: 7px; }
-    .share-actions button, .share-actions a { flex: 1 1 calc(50% - 4px); justify-content: center; }
+    .share-actions { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+    .share-actions button, .share-actions a { min-height: 84px; padding: 9px 3px; }
   }
 </style>
