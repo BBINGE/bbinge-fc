@@ -90,12 +90,12 @@ draft: false
 
 <figure class="media-grid media-grid-three">
   <figure>
-    <img src="/images/history/eredivisie-selling-league/feyenoord-european-cup.jpg" alt="1970년 유러피언컵을 든 페예노르트" />
+    <img src="/images/history/eredivisie-selling-league/feyenoord-1970-final-stadium.jpeg" alt="1970년 유러피언컵 결승 직후 밀라노 산시로 경기장의 페예노르트 선수단과 관중" />
     <figcaption>1969-70 시즌 페예노르트는 셀틱을 꺾고 네덜란드 클럽 최초로 유러피언컵을 들어 올렸다. 이 우승은 아약스의 전성기가 열리기 전에 로테르담이 먼저 유럽 정복의 문을 열었다는 점, 그리고 네덜란드 축구의 혁신이 한 도시와 한 클럽만의 산물이 아니었다는 점에서 중요하다.</figcaption>
   </figure>
   <figure>
-    <img src="/images/history/eredivisie-selling-league/ajax-1969-final.jpeg" alt="1969년 유러피언컵 결승전이 열린 경기장" />
-    <figcaption>1969년 유러피언컵 결승에서 AC 밀란에 패한 아약스. 결과만 보면 완패였지만 이 경험은 유럽 정상과의 거리를 측정한 실전 자료가 됐다. 미헐스의 팀은 이후 압박의 간격과 수비 전환을 보완했고, 1971년부터 세 시즌 연속 유럽 정상에 올랐다. 패배는 왕조의 반대말이 아니라 왕조가 완성되기 전의 시행착오였다.</figcaption>
+    <img src="/images/history/eredivisie-selling-league/ajax-cruyff-1973-european-cup.jpg" alt="1973년 유러피언컵 우승 트로피 빅이어를 들어 올리는 아약스 주장 요한 크라위프" />
+    <figcaption>1973년 AFC 아약스의 주장 요한 크라위프가 유러피언컵 우승 트로피 ‘빅이어’를 들어 올리고 있다. 뒤편의 아디다스 재킷 차림 인물은 당시 아약스를 이끌던 슈테판 코바치 감독이다. 아약스는 이 우승으로 유러피언컵 3연패를 완성했고, 토털 풋볼을 매력적인 실험이 아니라 유럽을 지배하는 완성된 경기 체계로 증명했다.</figcaption>
   </figure>
   <figure>
     <img src="/images/history/eredivisie-selling-league/psv-1988.jpg" alt="1988년 유러피언컵 우승을 축하하는 PSV 선수단" />
