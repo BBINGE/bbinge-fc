@@ -302,6 +302,7 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 로고 심볼은 검정 P에 파란 아래 반원 하나를 더해 전체가 B로 읽히는 단순한 형태이며, 타이포 로고 `삥이FC`와 함께 사용한다.
 - 푸터 사이트 안내에도 `로고 이야기` 링크를 추가했다.
 - PB 심볼 원본은 `public/images/brand/bbinge-symbol.svg`이며, 상단 헤더에서 `삥이FC` 타이포와 함께 사용한다. 같은 조형을 `public/favicon.svg`에도 적용했다.
+- 파비콘 세트는 PB 심볼 원본으로 통일한다. `public/favicon.svg`, 다중 크기 `public/favicon.ico`, 검색·브라우저용 `public/favicon-48x48.png`, Apple 홈 화면용 `public/apple-touch-icon.png`를 공통 `Layout.astro`와 관리자 글쓰기 화면에서 명시하며, 초기 Astro 파비콘으로 되돌리지 않는다.
 - 일반 카테고리는 자신이나 하위 카테고리에 공개 글이 없으면 `noindex,follow`가 되고 사이트맵에서 제외된다. 글이 발행되면 빌드 시 자동으로 `index,follow`와 사이트맵 대상으로 복귀한다.
 - `/search/`는 기능 페이지이므로 `noindex,follow`로 제공하고 사이트맵에서 제외한다.
 
