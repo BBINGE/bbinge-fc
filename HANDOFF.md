@@ -293,3 +293,10 @@ Claude 또는 Codex에 보낼 첫 문장:
 - PB 심볼 원본은 `public/images/brand/bbinge-symbol.svg`이며, 상단 헤더에서 `삥이FC` 타이포와 함께 사용한다. 같은 조형을 `public/favicon.svg`에도 적용했다.
 - 일반 카테고리는 자신이나 하위 카테고리에 공개 글이 없으면 `noindex,follow`가 되고 사이트맵에서 제외된다. 글이 발행되면 빌드 시 자동으로 `index,follow`와 사이트맵 대상으로 복귀한다.
 - `/search/`는 기능 페이지이므로 `noindex,follow`로 제공하고 사이트맵에서 제외한다.
+
+## 14. SEO·AEO·GEO 잔여 보강 (2026-08-13)
+
+- `src/pages/404.astro`를 추가해 Cloudflare Pages에서 존재하지 않는 경로가 홈을 `200`으로 반환하지 않고 전용 안내 화면과 실제 HTTP `404`로 응답하게 했다. 404 문서는 `noindex,follow`다.
+- 일반 칼럼과 아카이브의 Article JSON-LD에 `articleSection`, `about`, `keywords`를 채운다. 일반 칼럼은 카테고리 전체 이름과 글 태그를, 아카이브는 분류·인물·원제·키워드를 사용한다.
+- 로고 이야기 페이지의 전용 1200×630 공유 이미지는 `public/images/brand/bbinge-brand-og.png`다. OG·Twitter·`image_src`가 모두 이 이미지를 가리킨다.
+- SEO 확인 시 빌드 성공만 보지 말고 임의의 존재하지 않는 실제 도메인 URL이 `404`인지, 빈 카테고리와 검색이 사이트맵에서 빠졌는지 함께 확인한다.

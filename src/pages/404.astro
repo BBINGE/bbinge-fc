@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="페이지를 찾을 수 없습니다"
+  description="요청한 페이지가 없거나 주소가 변경되었습니다."
+  robots="noindex,follow"
+  breadcrumbs={[{ label: '홈', href: '/' }, { label: '페이지를 찾을 수 없습니다', href: '/404/' }]}
+>
+  <section class="not-found">
+    <div class="not-found-mark" aria-hidden="true">404</div>
+    <p>PAGE NOT FOUND</p>
+    <h1>이 기록은<br />아직 존재하지 않습니다.</h1>
+    <div class="not-found-copy">
+      <p>주소가 잘못 입력됐거나 페이지가 이동되었을 수 있습니다.</p>
+      <div><a href="/">메인으로 돌아가기</a><a href="/archive/">아카이브 둘러보기</a></div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .not-found{position:relative;max-width:1040px;min-height:620px;margin:0 auto;padding:120px 20px 100px;overflow:hidden}.not-found>p{color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.18em}.not-found h1{position:relative;z-index:1;margin-top:20px;font-size:clamp(42px,7vw,78px);font-weight:650;line-height:1.08;letter-spacing:-.06em}.not-found-copy{position:relative;z-index:1;max-width:520px;margin-top:46px;padding-top:24px;border-top:1px solid var(--bbfc-ink)}.not-found-copy>p{color:var(--bbfc-gray-1);font-size:14px;line-height:1.75}.not-found-copy>div{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.not-found-copy a{padding:11px 16px;border:1px solid var(--bbfc-border);border-radius:8px;color:var(--bbfc-ink-2);font-size:12px;font-weight:600;transition:border-color 150ms,color 150ms}.not-found-copy a:first-child{border-color:var(--bbfc-ink);background:var(--bbfc-ink);color:#fff}.not-found-copy a:hover{border-color:var(--bbfc-blue);color:var(--bbfc-blue)}.not-found-copy a:first-child:hover{background:var(--bbfc-blue);color:#fff}.not-found-mark{position:absolute;top:64px;right:20px;color:var(--bbfc-blue-weak);font-size:clamp(180px,30vw,390px);font-weight:760;line-height:1;letter-spacing:-.09em}@media(max-width:640px){.not-found{min-height:590px;padding-top:92px}.not-found-mark{top:155px;right:-18px;font-size:190px}.not-found-copy{margin-top:150px}}
+</style>

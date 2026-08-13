@@ -25,6 +25,7 @@ interface Props {
     updatedDate?: Date;
     section?: string;
     subjects?: string[];
+    keywords?: string[];
   };
   extraSchema?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -88,6 +89,7 @@ const articleSchema = article
       },
       inLanguage: site.locale,
       ...(article.section ? { articleSection: article.section } : {}),
+      ...(article.keywords?.length ? { keywords: article.keywords.join(', ') } : {}),
       ...(article.subjects?.length
         ? { about: article.subjects.map((name) => ({ '@type': 'Thing', name })) }
         : {}),

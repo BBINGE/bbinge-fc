@@ -49,6 +49,7 @@ const relatedRecords = indexRecords
     updatedDate: entry.data.updatedDate,
     section: `${branch.title} · ${archiveIndex.label}`,
     subjects: [entry.data.subject, archiveIndex.label, entry.data.originalTitle, ...entry.data.keywords].filter(Boolean) as string[],
+    keywords: entry.data.keywords,
   }}
   breadcrumbs={[
     { label: '홈', href: '/' }, { label: '삥이 아카이브', href: '/archive/' },

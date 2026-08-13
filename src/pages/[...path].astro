@@ -146,7 +146,13 @@ if (props.kind === 'category') {
     ogImageHeight={articleView.entry.data.coverImageHeight}
     ogImageCaption={articleView.entry.data.coverImageCaption}
     type="article"
-    article={{ pubDate: articleView.entry.data.pubDate, updatedDate: articleView.entry.data.updatedDate }}
+    article={{
+      pubDate: articleView.entry.data.pubDate,
+      updatedDate: articleView.entry.data.updatedDate,
+      section: articleView.meta.fullLabel,
+      subjects: [articleView.meta.fullLabel, ...articleView.entry.data.tags],
+      keywords: articleView.entry.data.tags,
+    }}
     breadcrumbs={[
       { label: '홈', href: '/' },
       { label: articleView.meta.label, href: `/${articleView.entry.data.category}/` },
