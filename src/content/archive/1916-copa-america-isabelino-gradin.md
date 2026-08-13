@@ -13,15 +13,15 @@ draft: false
 <div class="record-lead">
   <img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" />
   <p>제1회 남미 축구 선수권 대회</p>
-  <strong>1916 South American Championship</strong>
+  <strong lang="es">Campeonato Sudamericano de Fútbol 1916</strong>
 </div>
 
 ## 대회 기록
 
 <div class="record-facts">
-  <dl><dt>개최국</dt><dd>아르헨티나</dd></dl>
+  <dl><dt>개최국</dt><dd>아르헨티나 🇦🇷</dd></dl>
   <dl><dt>대회 기간</dt><dd>1916년 7월 2일–17일</dd></dl>
-  <dl><dt>참가국</dt><dd>아르헨티나 · 브라질 · 칠레 · 우루과이</dd></dl>
+  <dl><dt>참가국</dt><dd>아르헨티나 🇦🇷 · 브라질 🇧🇷 · 칠레 🇨🇱 · 우루과이 🇺🇾</dd></dl>
   <dl><dt>방식</dt><dd>단일 리그전</dd></dl>
 </div>
 
@@ -29,21 +29,21 @@ draft: false
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 | 2승 1무 | 6득점 1실점 |
-| 2 | 아르헨티나 | 1승 2무 | 7득점 2실점 |
-| 3 | 브라질 | 2무 1패 | 3득점 4실점 |
-| 4 | 칠레 | 3패 | 1득점 10실점 |
+| 1 | 우루과이 🇺🇾 | 2승 1무 | 6득점 1실점 |
+| 2 | 아르헨티나 🇦🇷 | 1승 2무 | 7득점 2실점 |
+| 3 | 브라질 🇧🇷 | 2무 1패 | 3득점 4실점 |
+| 4 | 칠레 🇨🇱 | 3패 | 1득점 10실점 |
 
 <figure>
   <img src="/images/archive/1916-copa-america/uruguay-team.jpg" alt="1916년 남미 축구 선수권 대회에 출전한 우루과이 대표팀" width="773" height="506" loading="lazy" />
-  <figcaption>1916년 남미 축구 선수권 대회의 초대 챔피언 우루과이 대표팀.</figcaption>
+  <figcaption>1916년 남미 축구 선수권 대회의 초대 챔피언 우루과이 🇺🇾 대표팀.</figcaption>
 </figure>
 
 ## 개인 기록
 
 <div class="honours-grid">
-  <div><span>최우수 선수</span><strong>이사벨리노 그라딘</strong><small>우루과이</small></div>
-  <div><span>득점왕</span><strong>이사벨리노 그라딘</strong><small>3골 · 우루과이</small></div>
+  <div><span>최우수 선수</span><strong>이사벨리노 그라딘</strong><small>우루과이 🇺🇾</small></div>
+  <div><span>득점왕</span><strong>이사벨리노 그라딘</strong><small>3골 · 우루과이 🇺🇾</small></div>
   <div><span>득점 2위</span><strong>4명 공동</strong><small>2골</small></div>
 </div>
 
@@ -58,7 +58,7 @@ draft: false
 
 1916년의 부에노스아이레스는 축구 대회의 개최만으로 설명하기 어려운 도시였다. 아르헨티나는 1816년 투쿠만 회의에서 독립을 선언한 뒤 정확히 한 세기를 맞고 있었다. 대회 역시 그 100주년 기념행사의 일부로 마련되었다. 유럽에서는 제1차 세계대전이 한창이었고, 대서양 건너에서는 네 나라가 모여 남아메리카 축구의 제도적 원형을 만들고 있었다. 세계사의 시계는 언제나 같은 속도로 흐르지 않는다.
 
-오늘날의 명칭으로는 `CONMEBOL 코파 아메리카™`의 첫 대회가 된다. 그러나 당시 사람들이 경기장 입구에서 코파 아메리카 티켓을 내밀었던 것은 아니다. 대회의 이름은 남미 축구 선수권 대회, 곧 `Campeonato Sudamericano de Football`이었다. 코파 아메리카라는 명칭은 1975년부터 정식으로 사용되었다. 현재의 이름을 1916년에 붙이는 것은 대회의 계보를 설명하기에는 편리하지만, 당대의 언어까지 보존하려면 두 명칭을 구별해야 한다.
+오늘날의 명칭으로는 `CONMEBOL 코파 아메리카™`의 첫 대회가 된다. 그러나 당시 사람들이 경기장 입구에서 코파 아메리카 티켓을 내밀었던 것은 아니다. 대회의 이름은 남미 축구 선수권 대회, 곧 스페인어로 `Campeonato Sudamericano de Fútbol`이었다. 코파 아메리카라는 명칭은 1975년부터 정식으로 사용되었다. 현재의 이름을 1916년에 붙이는 것은 대회의 계보를 설명하기에는 편리하지만, 당대의 언어까지 보존하려면 두 명칭을 구별해야 한다.
 
 ### 대회를 치르다가 연맹을 만들다
 
