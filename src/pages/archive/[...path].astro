@@ -1,0 +1,91 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { archiveBranches, type ArchiveBranch, type ArchiveIndex } from '../../data/archive';
+
+interface Props { branch: ArchiveBranch; index?: ArchiveIndex }
+
+export function getStaticPaths() {
+  return archiveBranches.flatMap((branch) => [
+    { params: { path: branch.id }, props: { branch } },
+    ...branch.indexes.map((index) => ({ params: { path: `${branch.id}/${index.slug}` }, props: { branch, index } })),
+  ]);
+}
+
+const { branch, index } = Astro.props as Props;
+const pageTitle = index?.label ?? branch.title;
+const pageDescription = index
+  ? `${branch.title} 가운데 ${index.label}에 관한 기록을 축적하는 색인입니다.`
+  : branch.description;
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: '삥이 아카이브', href: '/archive/' },
+    { label: branch.title, href: `/archive/${branch.id}/` },
+    ...(index ? [{ label: index.label, href: `/archive/${branch.id}/${index.slug}/` }] : []),
+  ]}
+>
+  <div class="collection-page">
+    <nav class="collection-breadcrumb" aria-label="아카이브 경로">
+      <a href="/archive/">삥이 아카이브</a><span>/</span>
+      {index ? <><a href={`/archive/${branch.id}/`}>{branch.title}</a><span>/</span><strong>{index.label}</strong></> : <strong>{branch.title}</strong>}
+    </nav>
+
+    <header class="collection-hero">
+      <p>{index ? branch.originalTitle : `${branch.number} · ${branch.originalTitle}`}</p>
+      <h1>{pageTitle}</h1>
+      <span>{pageDescription}</span>
+    </header>
+
+    <nav class="index-nav" aria-label={`${branch.title} 세부 색인`}>
+      <a class:list={[!index && 'is-active']} href={`/archive/${branch.id}/`}>전체</a>
+      {branch.indexes.map((item) => (
+        <a class:list={[index?.slug === item.slug && 'is-active']} href={`/archive/${branch.id}/${item.slug}/`}>{item.label}</a>
+      ))}
+    </nav>
+
+    <section class="collection-content" aria-labelledby="records-title">
+      <div class="content-heading"><h2 id="records-title">기록</h2><span>0편</span></div>
+      <div class="empty-state">
+        <p>FIRST RECORD</p>
+        <strong>첫 기록이 이곳에서 시작됩니다.</strong>
+        <span>발행되는 글은 정사각형 썸네일과 함께 이 색인에 순서대로 쌓입니다.</span>
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .collection-page { max-width: 1040px; min-height: 72vh; margin: 0 auto; padding: 38px 20px 70px; }
+  .collection-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 11px; color: var(--bbfc-gray-2); }
+  .collection-breadcrumb a:hover { color: var(--bbfc-blue); }
+  .collection-breadcrumb strong { color: var(--bbfc-ink-2); font-weight: 550; }
+  .collection-hero { margin-top: 34px; padding: 58px 0 54px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
+  .collection-hero > p { font-size: 10px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
+  .collection-hero h1 { margin-top: 12px; font-size: clamp(40px, 6vw, 72px); line-height: 1; font-weight: 700; letter-spacing: -.06em; }
+  .collection-hero > span { display: block; max-width: 550px; margin-top: 22px; font-size: 14px; line-height: 1.75; color: var(--bbfc-gray-1); }
+  .index-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 26px 0; border-bottom: 1px solid var(--bbfc-border); }
+  .index-nav a { padding: 8px 12px; border: 1px solid var(--bbfc-border); border-radius: 99px; font-size: 11.5px; color: var(--bbfc-ink-2); transition: border-color 160ms ease, color 160ms ease, background 160ms ease; }
+  .index-nav a:hover, .index-nav a.is-active { border-color: var(--bbfc-blue); background: var(--bbfc-blue-weak); color: var(--bbfc-blue-strong); }
+  .collection-content { padding-top: 70px; }
+  .content-heading { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 16px; border-bottom: 2px solid var(--bbfc-ink); }
+  .content-heading h2 { font-size: 24px; font-weight: 650; }
+  .content-heading span { font-size: 11px; color: var(--bbfc-gray-2); }
+  .empty-state { display: grid; place-items: center; min-height: 330px; padding: 60px 20px; text-align: center; border-bottom: 1px solid var(--bbfc-border); }
+  .empty-state p { font-size: 9px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
+  .empty-state strong { margin-top: 12px; font-size: 20px; font-weight: 620; letter-spacing: -.03em; }
+  .empty-state span { max-width: 380px; margin-top: 10px; font-size: 12px; line-height: 1.65; color: var(--bbfc-gray-2); }
+  @media (max-width: 767px) {
+    .collection-page { padding: 24px 16px 52px; }
+    .collection-hero { margin-top: 24px; padding: 44px 0 42px; }
+    .collection-hero h1 { font-size: 42px; }
+    .index-nav { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 22px 16px; scrollbar-width: none; }
+    .index-nav::-webkit-scrollbar { display: none; }
+    .index-nav a { flex: none; }
+    .collection-content { padding-top: 54px; }
+    .empty-state { min-height: 280px; }
+  }
+</style>

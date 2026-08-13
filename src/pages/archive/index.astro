@@ -4,9 +4,9 @@ import { archiveBranches } from '../../data/archive';
 import { site } from '../../config/site';
 
 const featuredSeries = [
-  { year: '1956—', eyebrow: 'BALLON D’OR', title: '발롱도르 역대 수상자', note: '연도별 인물·득표·시대적 배경' },
-  { year: '1916—', eyebrow: 'COPA AMÉRICA', title: '코파 아메리카 최우수 선수', note: '대회별 수상 기록과 원전 대조' },
-  { year: '1955—', eyebrow: 'EUROPEAN CUP', title: '유러피언컵 결승전', note: 'UEFA 챔피언스 리그 이전의 기록' },
+  { href: '/archive/awards/ballon-dor/', year: '1956—', eyebrow: 'BALLON D’OR', title: '발롱도르 역대 수상자', note: '연도별 인물·득표·시대적 배경' },
+  { href: '/archive/awards/copa-america-best-player/', year: '1916—', eyebrow: 'COPA AMÉRICA', title: '코파 아메리카 최우수 선수', note: '대회별 수상 기록과 원전 대조' },
+  { href: '/archive/european-club/european-cup/', year: '1955—', eyebrow: 'EUROPEAN CUP', title: '유러피언컵 결승전', note: 'UEFA 챔피언스 리그 이전의 기록' },
 ];
 ---
 
@@ -41,6 +41,7 @@ const featuredSeries = [
       <div class="directory-list">
         {archiveBranches.map((branch) => (
           <article class="directory-row" id={branch.id} data-reveal data-interactive>
+            <a class="directory-link" href={`/archive/${branch.id}/`} aria-label={`${branch.title} 전체 보기`}></a>
             <div class="directory-number">{branch.number}</div>
             <div class="directory-main">
               <p>{branch.originalTitle}</p>
@@ -48,9 +49,9 @@ const featuredSeries = [
               <p class="directory-description">{branch.description}</p>
             </div>
             <div class="directory-indexes">
-              {branch.indexes.map((index) => <span>{index}</span>)}
+              {branch.indexes.map((index) => <a href={`/archive/${branch.id}/${index.slug}/`}>{index.label}</a>)}
             </div>
-            <span class="directory-arrow" aria-hidden="true">↗</span>
+            <span class="directory-arrow">전체 보기 <i aria-hidden="true">→</i></span>
           </article>
         ))}
       </div>
@@ -63,12 +64,12 @@ const featuredSeries = [
       </div>
       <div class="series-grid">
         {featuredSeries.map((series, index) => (
-          <article class="series-card" data-reveal data-interactive>
+          <a class="series-card" href={series.href} data-reveal data-interactive>
             <div class="series-visual" aria-hidden="true">
               <span>{series.eyebrow}</span><strong>{series.year}</strong><i>0{index + 1}</i>
             </div>
             <div class="series-copy"><p>{series.eyebrow}</p><h3>{series.title}</h3><span>{series.note}</span></div>
-          </article>
+          </a>
         ))}
       </div>
     </section>
@@ -140,18 +141,20 @@ const featuredSeries = [
   .directory-list { display: grid; }
   .directory-row { --mx: 50%; --my: 50%; position: relative; display: grid; grid-template-columns: 58px minmax(230px, .9fr) minmax(320px, 1.15fr) 28px; gap: 28px; align-items: center; min-height: 180px; padding: 34px 10px; border-bottom: 1px solid var(--bbfc-border); isolation: isolate; transition: padding 220ms ease, border-color 220ms ease; }
   .directory-row::before { content: ''; position: absolute; inset: 0; z-index: -1; background: radial-gradient(360px circle at var(--mx) var(--my), var(--bbfc-blue-weak), transparent 68%); opacity: 0; transition: opacity 240ms ease; }
+  .directory-link { position: absolute; inset: 0; z-index: 1; }
   .directory-row:hover { padding-left: 18px; padding-right: 18px; border-color: var(--bbfc-gray-3); }
   .directory-row:hover::before { opacity: 1; }
   .directory-number { align-self: start; padding-top: 3px; font-size: 11px; font-weight: 650; color: var(--bbfc-blue); }
   .directory-main > p:first-child, .series-copy > p { font-size: 9px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-gray-2); }
   .directory-main h3 { margin-top: 8px; font-size: 20px; font-weight: 630; letter-spacing: -.03em; }
   .directory-description { margin-top: 13px; max-width: 330px; font-size: 13px; line-height: 1.65; color: var(--bbfc-gray-1); }
-  .directory-indexes { display: flex; flex-wrap: wrap; gap: 8px; align-content: center; }
-  .directory-indexes span { padding: 7px 10px; border: 1px solid var(--bbfc-border); border-radius: 99px; background: color-mix(in srgb, var(--bbfc-bg) 88%, transparent); font-size: 11px; color: var(--bbfc-ink-2); transition: color 180ms ease, border-color 180ms ease, transform 180ms ease; }
-  .directory-row:hover .directory-indexes span { border-color: color-mix(in srgb, var(--bbfc-blue) 24%, var(--bbfc-border)); }
-  .directory-indexes span:hover { color: var(--bbfc-blue-strong); transform: translateY(-2px); }
-  .directory-arrow { font-size: 17px; color: var(--bbfc-gray-3); transform: translate(-5px, 5px); opacity: 0; transition: transform 200ms ease, opacity 200ms ease, color 200ms ease; }
-  .directory-row:hover .directory-arrow { color: var(--bbfc-blue); transform: translate(0, 0); opacity: 1; }
+  .directory-indexes { position: relative; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px; align-content: center; }
+  .directory-indexes a { padding: 7px 10px; border: 1px solid var(--bbfc-border); border-radius: 99px; background: color-mix(in srgb, var(--bbfc-bg) 88%, transparent); font-size: 11px; color: var(--bbfc-ink-2); transition: color 180ms ease, border-color 180ms ease, transform 180ms ease; }
+  .directory-row:hover .directory-indexes a { border-color: color-mix(in srgb, var(--bbfc-blue) 24%, var(--bbfc-border)); }
+  .directory-indexes a:hover { color: var(--bbfc-blue-strong); transform: translateY(-2px); }
+  .directory-arrow { display: flex; gap: 5px; align-items: center; justify-content: end; white-space: nowrap; font-size: 10px; color: var(--bbfc-gray-2); transition: transform 200ms ease, color 200ms ease; }
+  .directory-arrow i { font-size: 14px; font-style: normal; }
+  .directory-row:hover .directory-arrow { color: var(--bbfc-blue); transform: translateX(3px); }
   .series-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding-top: 30px; }
   .series-card { --mx: 50%; --my: 50%; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); overflow: hidden; transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease; }
   .series-card:hover { transform: translateY(-7px); border-color: var(--bbfc-gray-3); box-shadow: 0 18px 42px rgba(25,31,40,.09); }
@@ -197,6 +200,6 @@ const featuredSeries = [
   }
   @media (prefers-reduced-motion: reduce) {
     [data-reveal] { opacity: 1; transform: none; transition: none; }
-    .archive-title-wrap, .directory-row, .series-card, .directory-indexes span { transform: none !important; transition: none; }
+    .archive-title-wrap, .directory-row, .series-card, .directory-indexes a { transform: none !important; transition: none; }
   }
 </style>
