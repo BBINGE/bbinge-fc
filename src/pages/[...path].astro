@@ -11,7 +11,6 @@ import RelatedList from '../components/RelatedList.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import { categories, categoryList, getAncestorChain, getChildren } from '../config/categories';
-import CategorySidebar from '../components/CategorySidebar.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import ContentCover from '../components/ContentCover.astro';
 
@@ -104,12 +103,8 @@ if (props.kind === 'category') {
       { label: categoryView.meta.label, href: `/${categoryView.categorySlug}/` },
     ]}
   >
-    <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6 flex gap-8 items-start">
-      <aside class="hidden md:block w-[200px] shrink-0">
-        <CategorySidebar activeSlug={categoryView.categorySlug} />
-      </aside>
-
-      <div class="min-w-0 flex-1">
+    <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
+      <div class="min-w-0">
         <div class="flex items-baseline gap-2 mb-5">
           <h1 class="text-[24px] font-medium text-[var(--bbfc-ink)]">{categoryView.meta.label}</h1>
           <p class="text-[13px] text-[var(--bbfc-gray-2)] mt-1">{categoryView.meta.fullLabel}</p>
