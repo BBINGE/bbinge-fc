@@ -3,9 +3,10 @@ import Layout from '../../layouts/Layout.astro';
 import { archiveBranches } from '../../data/archive';
 import { site } from '../../config/site';
 import { getCollection } from 'astro:content';
+import { isNewlyPublished, isRecentlyChanged } from '../../utils/freshness';
 
 const records = (await getCollection('archive', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
 const firstRecord = [...records].sort((a, b) => a.data.year - b.data.year)[0];
 const activeSeries = archiveBranches.flatMap((branch) => branch.indexes.map((index) => {
   const seriesRecords = records.filter((record) => record.data.branch === branch.id && record.data.index === index.slug);
@@ -18,6 +19,12 @@ const readingPaths = [
   { label: '수상 기록으로 읽기', note: '개인상과 득점 기록을 선정 당시의 맥락과 함께 확인합니다.', branches: ['awards'] },
 ];
 const recordHref = (record: typeof records[number]) => `/archive/${record.data.branch}/${record.data.index}/${record.id}/`;
+const freshBranches = new Set(
+  records.filter((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate)).map((record) => record.data.branch)
+);
+const freshIndexes = new Set(
+  records.filter((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate)).map((record) => `${record.data.branch}/${record.data.index}`)
+);
 ---
 
 <Layout
@@ -47,7 +54,10 @@ const recordHref = (record: typeof records[number]) => `/archive/${record.data.b
       <div class="record-grid">
         {records.map((record) => (
           <a class="record-card" href={recordHref(record)} data-interactive>
-            <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+            <div class="record-cover">
+              <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+              {isNewlyPublished(record.data.pubDate) && <span class="new-badge">NEW</span>}
+            </div>
             <div><p>{record.data.year} · {archiveBranches.find((branch) => branch.id === record.data.branch)?.indexes.find((index) => index.slug === record.data.index)?.label}</p><h3>{record.data.title}</h3><span>{record.data.description}</span><b>기록 읽기 →</b></div>
           </a>
         ))}
@@ -79,8 +89,8 @@ const recordHref = (record: typeof records[number]) => `/archive/${record.data.b
         {archiveBranches.map((branch) => (
           <article class="directory-row" id={branch.id}>
             <div class="directory-number">{branch.number}</div>
-            <div class="directory-main"><p>{branch.originalTitle}</p><h3><a href={`/archive/${branch.id}/`}>{branch.title}</a></h3><p>{branch.description}</p></div>
-            <div class="directory-indexes">{branch.indexes.map((index) => <a href={`/archive/${branch.id}/${index.slug}/`}>{index.label}</a>)}</div>
+            <div class="directory-main"><p>{branch.originalTitle}</p><h3><a href={`/archive/${branch.id}/`}>{branch.title}{freshBranches.has(branch.id) && <span class="category-new">NEW</span>}</a></h3><p>{branch.description}</p></div>
+            <div class="directory-indexes">{branch.indexes.map((index) => <a href={`/archive/${branch.id}/${index.slug}/`}>{index.label}{freshIndexes.has(`${branch.id}/${index.slug}`) && <span class="category-new">NEW</span>}</a>)}</div>
           </article>
         ))}
       </div>
@@ -121,13 +131,16 @@ const recordHref = (record: typeof records[number]) => `/archive/${record.data.b
   .section-heading h2,details summary h2 { margin-top:7px; font-size:31px; font-weight:650; letter-spacing:-.045em; }
   .section-heading>p { max-width:390px; font-size:13px; line-height:1.7; text-align:right; color:var(--bbfc-gray-2); }
   .record-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px 22px; padding-top:30px; }
+  .record-cover { position:relative; }
   .record-card img { width:100%; aspect-ratio:1; object-fit:contain; border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill); transition:transform .25s ease; }
   .record-card:hover img { transform:translateY(-5px); }
-  .record-card div { padding:16px 2px 0; }
-  .record-card div>p { font-size:10px; color:var(--bbfc-blue); }
+  .record-card > div:last-child { padding:16px 2px 0; }
+  .record-card > div:last-child>p { font-size:10px; color:var(--bbfc-blue); }
   .record-card h3 { margin-top:7px; font-size:17px; line-height:1.45; font-weight:630; }
-  .record-card div>span { display:block; margin-top:9px; font-size:12px; line-height:1.6; color:var(--bbfc-gray-1); }
+  .record-card > div:last-child>span { display:block; margin-top:9px; font-size:12px; line-height:1.6; color:var(--bbfc-gray-1); }
   .record-card b { display:block; margin-top:13px; font-size:11px; font-weight:600; color:var(--bbfc-blue-strong); }
+  .new-badge { position:absolute; top:10px; right:10px; z-index:1; padding:5px 8px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:9px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
+  .category-new { margin-left:7px; color:var(--bbfc-blue); font-size:8px; font-style:normal; font-weight:750; letter-spacing:.06em; vertical-align:top; }
   .guide-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; padding-top:28px; }
   .guide-card { min-height:235px; padding:24px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); transition:transform .2s ease,border-color .2s ease; }
   .guide-card:hover { transform:translateY(-5px); border-color:var(--bbfc-blue); }
@@ -157,7 +170,7 @@ const recordHref = (record: typeof records[number]) => `/archive/${record.data.b
   [data-reveal] { opacity:0; transform:translateY(24px); transition:opacity .65s ease,transform .65s ease; }
   [data-reveal].is-visible { opacity:1; transform:translateY(0); }
   @media(max-width:767px){
-    .archive-page{padding:26px 16px 20px}.archive-kicker{padding-bottom:10px}.archive-hero-grid{grid-template-columns:1fr;gap:42px;min-height:0;padding:40px 0 42px}.archive-title-wrap{transform:none!important}.archive-hero h1{font-size:clamp(52px,15.5vw,64px)}.archive-intro>strong{font-size:19px}.archive-rule span:nth-child(2),.archive-rule span:nth-child(3){display:none}.latest-records,.reading-guide,.active-series{padding-top:76px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card div>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
+    .archive-page{padding:26px 16px 20px}.archive-kicker{padding-bottom:10px}.archive-hero-grid{grid-template-columns:1fr;gap:42px;min-height:0;padding:40px 0 42px}.archive-title-wrap{transform:none!important}.archive-hero h1{font-size:clamp(52px,15.5vw,64px)}.archive-intro>strong{font-size:19px}.archive-rule span:nth-child(2),.archive-rule span:nth-child(3){display:none}.latest-records,.reading-guide,.active-series{padding-top:76px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
   }
   @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}.archive-title-wrap,.record-card img,.guide-card{transform:none!important}}
 </style>

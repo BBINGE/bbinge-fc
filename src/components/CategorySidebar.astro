@@ -3,30 +3,37 @@
 // 중분류(parentSlug)가 늘어나면 자동으로 접기/펼치기 단계가 늘어난다.
 // 노드별 글 수는 draft 제외 후 자식 → 부모로 롤업된 값(countByNode)을 그대로 받아 표시한다.
 import type { CategoryTreeNode } from '../config/categories';
-import { buildTree, countByNode } from '../config/categories';
+import { buildTree, countByNode, getAncestorChain } from '../config/categories';
 import { getCollection } from 'astro:content';
+import { isRecentlyChanged } from '../utils/freshness';
 
 interface Props {
   activeSlug?: string;
   nodes?: CategoryTreeNode[];
   counts?: Record<string, number>;
+  freshCategorySlugs?: Set<string>;
   depth?: number;
 }
 
 const { activeSlug, depth = 0 } = Astro.props;
-let { nodes, counts } = Astro.props;
+let { nodes, counts, freshCategorySlugs = new Set<string>() } = Astro.props;
 
 if (!nodes || !counts) {
   nodes = buildTree();
   const articles = await getCollection('articles', ({ data }) => !data.draft);
   counts = countByNode(articles.map((a) => a.data.category));
+  freshCategorySlugs = new Set(
+    articles
+      .filter((article) => isRecentlyChanged(article.data.pubDate, article.data.updatedDate))
+      .flatMap((article) => getAncestorChain(article.data.category).map((category) => category.slug))
+  );
 }
 ---
 
 {depth === 0 ? (
   <nav aria-label="카테고리" class="bbfc-cat-sidebar">
     <p class="text-[12px] font-medium text-[var(--bbfc-gray-2)] mb-2">카테고리</p>
-    <Astro.self nodes={nodes} counts={counts} activeSlug={activeSlug} depth={1} />
+    <Astro.self nodes={nodes} counts={counts} freshCategorySlugs={freshCategorySlugs} activeSlug={activeSlug} depth={1} />
   </nav>
 ) : (
   <ul class:list={['bbfc-cat-list', depth > 1 && 'bbfc-cat-list--nested']}>
@@ -38,6 +45,7 @@ if (!nodes || !counts) {
         <div class="bbfc-cat-row">
           <a href={`/${node.slug}/`} class:list={['bbfc-cat-link', isActive && 'is-active']}>
             {node.label}
+            {freshCategorySlugs.has(node.slug) && <span class="category-new">NEW</span>}
           </a>
           <span class="bbfc-cat-count">{count}</span>
         </div>
@@ -47,7 +55,7 @@ if (!nodes || !counts) {
           {hasChildren ? (
             <details open={isActive || depth === 1}>
               <summary class="bbfc-cat-summary">{row}</summary>
-              <Astro.self nodes={node.children} counts={counts} activeSlug={activeSlug} depth={depth + 1} />
+              <Astro.self nodes={node.children} counts={counts} freshCategorySlugs={freshCategorySlugs} activeSlug={activeSlug} depth={depth + 1} />
             </details>
           ) : (
             row
@@ -90,6 +98,7 @@ if (!nodes || !counts) {
     color: var(--bbfc-blue);
     font-weight: 500;
   }
+  .category-new { margin-left: 5px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
   .bbfc-cat-count {
     color: var(--bbfc-gray-2);
     font-size: 11px;

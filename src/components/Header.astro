@@ -1,16 +1,29 @@
 ---
-import { getTopLevel } from '../config/categories';
+import { getAncestorChain, getTopLevel } from '../config/categories';
 import CategorySidebar from './CategorySidebar.astro';
+import { getCollection } from 'astro:content';
+import { isRecentlyChanged } from '../utils/freshness';
 
 const currentPath = Astro.url.pathname;
 const topCategories = getTopLevel();
+const [articles, archiveRecords] = await Promise.all([
+  getCollection('articles', ({ data }) => !data.draft),
+  getCollection('archive', ({ data }) => !data.draft),
+]);
+const freshTopCategories = new Set(
+  articles
+    .filter((article) => isRecentlyChanged(article.data.pubDate, article.data.updatedDate))
+    .map((article) => getAncestorChain(article.data.category)[0]?.slug)
+    .filter(Boolean)
+);
+const archiveIsFresh = archiveRecords.some((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate));
 const primaryNav = [
-  { href: '/', label: 'MAIN', active: currentPath === '/' },
-  { href: '/about/', label: '저자 @삥이', active: currentPath.startsWith('/about/') },
+  { href: '/', label: 'MAIN', active: currentPath === '/', isNew: false },
+  { href: '/about/', label: '저자 @삥이', active: currentPath.startsWith('/about/'), isNew: false },
   ...topCategories.flatMap(({ slug, label }) => {
-    const item = { href: `/${slug}/`, label, active: currentPath.startsWith(`/${slug}/`) };
+    const item = { href: `/${slug}/`, label, active: currentPath.startsWith(`/${slug}/`), isNew: freshTopCategories.has(slug) };
     return slug === 'pilgrimage'
-      ? [item, { href: '/archive/', label: '삥이 아카이브', active: currentPath.startsWith('/archive/') }]
+      ? [item, { href: '/archive/', label: '삥이 아카이브', active: currentPath.startsWith('/archive/'), isNew: archiveIsFresh }]
       : [item];
   }),
 ];
@@ -37,7 +50,7 @@ const primaryNav = [
       </a>
 
       <nav class="hidden md:flex items-center gap-4" aria-label="주요 메뉴">
-        {primaryNav.map(({ href, label, active }) => (
+        {primaryNav.map(({ href, label, active, isNew }) => (
             <a
               href={href}
               class:list={[
@@ -46,6 +59,7 @@ const primaryNav = [
               ]}
             >
               {label}
+              {isNew && <span class="nav-new">NEW</span>}
             </a>
         ))}
       </nav>
@@ -81,13 +95,14 @@ const primaryNav = [
     </button>
   </div>
   <ul class="space-y-1 mb-4 pb-4 border-b border-[var(--bbfc-line)]">
-    {primaryNav.map(({ href, label, active }) => (
+    {primaryNav.map(({ href, label, active, isNew }) => (
       <li>
         <a
           href={href}
           class:list={['block text-[13.5px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
         >
           {label}
+          {isNew && <span class="nav-new">NEW</span>}
         </a>
       </li>
     ))}
@@ -97,6 +112,10 @@ const primaryNav = [
   </ul>
   <CategorySidebar activeSlug={currentPath.split('/').filter(Boolean)[0]} />
 </div>
+
+<style>
+  .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 7px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
+</style>
 
 <script>
   const menuBtn = document.getElementById('bbfc-menu-btn');

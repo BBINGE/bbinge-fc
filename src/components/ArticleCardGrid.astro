@@ -5,6 +5,7 @@
 import { categories } from '../config/categories';
 import AdSlot from './AdSlot.astro';
 import type { CollectionEntry } from 'astro:content';
+import { isNewlyPublished } from '../utils/freshness';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -21,12 +22,13 @@ const { entries, adEvery = 8 } = Astro.props;
     {entries.map((entry, i) => (
       <>
         <a href={`/${entry.data.category}/${entry.id}/`} class="block group">
-          <div class="aspect-square rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
+          <div class="relative aspect-square rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
             {entry.data.coverImage ? (
               <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" />
             ) : (
               <span class="text-[11px] text-[var(--bbfc-gray-2)]">사진 없음</span>
             )}
+            {isNewlyPublished(entry.data.pubDate) && <span class="new-badge">NEW</span>}
           </div>
           <p class="text-[11px] text-[var(--bbfc-blue)] mt-2.5">{categories[entry.data.category]?.label}</p>
           <p class="text-[13.5px] font-medium text-[var(--bbfc-ink)] mt-1 leading-snug line-clamp-2">
@@ -46,3 +48,7 @@ const { entries, adEvery = 8 } = Astro.props;
     ))}
   </div>
 )}
+
+<style>
+  .new-badge { position:absolute; top:10px; right:10px; z-index:1; padding:5px 8px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:9px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
+</style>
