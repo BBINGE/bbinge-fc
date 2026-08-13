@@ -3,6 +3,7 @@
     { "slug": "history", "label": "축세", "fullLabel": "축구로 보는 세계사", "parentSlug": null },
     { "slug": "pilgrimage", "label": "축행", "fullLabel": "축구로 가는 세계여행", "parentSlug": null },
     { "slug": "play", "label": "축겜", "fullLabel": "축구로 노는 게임", "parentSlug": null },
-    { "slug": "culture", "label": "축디", "fullLabel": "축구로 보는 OOTD", "parentSlug": null }
+    { "slug": "culture", "label": "축디", "fullLabel": "축구로 보는 OOTD", "parentSlug": null },
+    { "slug": "football-made-easy", "label": "축떡", "fullLabel": "축구를 누워서 떡 먹는 것처럼 쉽게 보는 법", "parentSlug": null }
   ]
 }

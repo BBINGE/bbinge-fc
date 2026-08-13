@@ -300,3 +300,10 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 일반 칼럼과 아카이브의 Article JSON-LD에 `articleSection`, `about`, `keywords`를 채운다. 일반 칼럼은 카테고리 전체 이름과 글 태그를, 아카이브는 분류·인물·원제·키워드를 사용한다.
 - 로고 이야기 페이지의 전용 1200×630 공유 이미지는 `public/images/brand/bbinge-brand-og.png`다. OG·Twitter·`image_src`가 모두 이 이미지를 가리킨다.
 - SEO 확인 시 빌드 성공만 보지 말고 임의의 존재하지 않는 실제 도메인 URL이 `404`인지, 빈 카테고리와 검색이 사이트맵에서 빠졌는지 함께 확인한다.
+
+## 15. `축떡` 규칙 콘텐츠 신설 (2026-08-13)
+
+- 새 최상위 카테고리는 `축떡`, slug는 `football-made-easy`다. 전체 이름은 `축구를 누워서 떡 먹는 것처럼 쉽게 보는 법`이며 축구 규칙과 관전 지식을 문답형으로 쉽게 설명한다.
+- 첫 글은 `/football-made-easy/offside-questions-and-answers/`의 `오프사이드에 대한 Q&A`다. IFAB 2026/27 경기규칙 11조와 공식 해설을 기준으로 작성했으며 FAQ 구조화 데이터 4개를 포함한다.
+- 이 시리즈의 표지는 생성형 AI 사진을 사용하지 않는다. `public/images/football-made-easy/` 아래에 주제를 즉시 알아볼 수 있는 자체 편집 도식으로 제작한다.
+- 경기규칙은 시즌별 개정 가능성이 있으므로 새 규칙 글 발행과 기존 글의 정기 점검 때 IFAB 최신판과 시행일을 다시 확인한다.
