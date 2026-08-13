@@ -30,7 +30,7 @@ const primaryNav = [
 ---
 
 <header class="sticky top-0 z-30 bg-[var(--bbfc-bg)] border-b border-[var(--bbfc-line)]">
-  <div class="max-w-[1040px] mx-auto px-4 md:px-5 h-14 flex items-center justify-between">
+  <div class="max-w-[1040px] mx-auto px-4 md:px-5 h-14 md:h-16 flex items-center justify-between">
     <div class="flex items-center gap-6">
       <button
         id="bbfc-menu-btn"
@@ -49,13 +49,13 @@ const primaryNav = [
         삥이<span class="text-[var(--bbfc-blue)]">FC</span>
       </a>
 
-      <nav class="hidden md:flex items-center gap-4" aria-label="주요 메뉴">
+      <nav class="hidden md:flex items-center gap-[18px]" aria-label="주요 메뉴">
         {primaryNav.map(({ href, label, active, isNew }) => (
             <a
               href={href}
               class:list={[
-                'text-[13px] whitespace-nowrap',
-                active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)] font-normal',
+                'text-[14.5px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
+                active ? 'text-[var(--bbfc-blue)] font-semibold' : 'text-[var(--bbfc-ink-2)] font-medium',
               ]}
             >
               {label}
@@ -114,7 +114,7 @@ const primaryNav = [
 </div>
 
 <style>
-  .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 7px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
+  .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
 </style>
 
 <script>

@@ -46,7 +46,6 @@ const freshIndexes = new Set(
           {firstRecord && <a class="first-record-link" href={recordHref(firstRecord)}><span>첫 기록부터 읽기</span><b>{firstRecord.data.year} · {firstRecord.data.subject}</b><i>→</i></a>}
         </div>
       </div>
-      <div class="archive-rule"><span>인물</span><span>대회</span><span>연도</span><span>기록</span></div>
     </section>
 
     <section class="latest-records" aria-labelledby="latest-title" data-reveal>
@@ -113,7 +112,7 @@ const freshIndexes = new Set(
 <style>
   .archive-page { max-width: 1040px; margin: 0 auto; padding: 44px 20px 40px; overflow: clip; }
   .archive-hero { border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
-  .archive-kicker,.archive-rule { display:flex; justify-content:space-between; font-size:10px; font-weight:650; letter-spacing:.14em; color:var(--bbfc-gray-2); }
+  .archive-kicker { display:flex; justify-content:space-between; font-size:10px; font-weight:650; letter-spacing:.14em; color:var(--bbfc-gray-2); }
   .archive-kicker { padding:12px 0 24px; }
   .archive-hero-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(56px,8vw,110px); align-items:center; min-height:390px; padding:34px 0 58px; }
   .archive-label,.section-heading div>p,details summary div>p { font-size:10px; font-weight:650; letter-spacing:.15em; color:var(--bbfc-blue); }
@@ -125,7 +124,6 @@ const freshIndexes = new Set(
   .first-record-link span { font-size:10px; color:var(--bbfc-blue); }
   .first-record-link b { font-size:15px; font-weight:620; }
   .first-record-link i { position:absolute; right:5px; top:50%; font-size:20px; font-style:normal; transform:translateY(-50%); }
-  .archive-rule { padding:13px 0; border-top:1px solid var(--bbfc-line); }
   .latest-records,.reading-guide,.active-series { padding-top:104px; }
   .section-heading { display:flex; justify-content:space-between; align-items:end; gap:42px; padding-bottom:22px; border-bottom:2px solid var(--bbfc-ink); }
   .section-heading h2,details summary h2 { margin-top:7px; font-size:31px; font-weight:650; letter-spacing:-.045em; }
@@ -170,7 +168,7 @@ const freshIndexes = new Set(
   [data-reveal] { opacity:0; transform:translateY(24px); transition:opacity .65s ease,transform .65s ease; }
   [data-reveal].is-visible { opacity:1; transform:translateY(0); }
   @media(max-width:767px){
-    .archive-page{padding:26px 16px 20px}.archive-kicker{padding-bottom:10px}.archive-hero-grid{grid-template-columns:1fr;gap:42px;min-height:0;padding:40px 0 42px}.archive-title-wrap{transform:none!important}.archive-hero h1{font-size:clamp(52px,15.5vw,64px)}.archive-intro>strong{font-size:19px}.archive-rule span:nth-child(2),.archive-rule span:nth-child(3){display:none}.latest-records,.reading-guide,.active-series{padding-top:76px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
+    .archive-page{padding:26px 16px 20px}.archive-kicker{padding-bottom:10px}.archive-hero-grid{grid-template-columns:1fr;gap:42px;min-height:0;padding:40px 0 42px}.archive-title-wrap{transform:none!important}.archive-hero h1{font-size:clamp(52px,15.5vw,64px)}.archive-intro>strong{font-size:19px}.latest-records,.reading-guide,.active-series{padding-top:76px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
   }
   @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}.archive-title-wrap,.record-card img,.guide-card{transform:none!important}}
 </style>
