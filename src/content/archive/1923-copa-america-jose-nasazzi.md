@@ -7,7 +7,7 @@ year: 1923
 subject: '호세 나사시'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1923'
 keywords: ['CONMEBOL Copa América', 'José Nasazzi', 'Pedro Petrone', 'Vicente Aguirre', '우루과이 축구 국가대표팀', '1924 파리 올림픽', '1923 남미축구선수권대회']
-pubDate: 2026-08-14T10:40:00+09:00
+pubDate: 2026-08-14T02:13:00+09:00
 coverImage: '/images/archive/1923-copa-america/cover.png'
 coverImageAlt: '1923 코파 아메리카와 호세 나사시를 기록한 표지'
 coverImageWidth: 773

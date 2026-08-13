@@ -7,7 +7,7 @@ year: 1920
 subject: '호세 피엔디베네'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1920'
 keywords: ['CONMEBOL Copa América', 'José Piendibene', 'Ángel Romano', 'José Pérez', '우루과이 축구 국가대표팀', '비냐델마르', '1920 남미축구선수권대회']
-pubDate: 2026-08-14T10:10:00+09:00
+pubDate: 2026-08-14T02:10:00+09:00
 coverImage: '/images/archive/1920-copa-america/cover.jpg'
 coverImageAlt: '1920 코파 아메리카와 호세 피엔디베네를 기록한 표지'
 coverImageWidth: 773

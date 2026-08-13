@@ -7,7 +7,7 @@ year: 1922
 subject: '아구스치뉴 포르치스'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1922'
 keywords: ['CONMEBOL Copa América', 'Agostinho Fortes Filho', 'Juan Francia', 'Neco', 'Formiga', '브라질 축구 국가대표팀', '1922 남미축구선수권대회']
-pubDate: 2026-08-14T10:30:00+09:00
+pubDate: 2026-08-14T02:12:00+09:00
 coverImage: '/images/archive/1922-copa-america/cover.jpg'
 coverImageAlt: '1922 코파 아메리카와 아구스치뉴 포르치스를 기록한 표지'
 coverImageWidth: 773

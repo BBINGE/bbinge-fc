@@ -7,7 +7,7 @@ year: 1924
 subject: '페드로 페트로네'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1924'
 keywords: ['CONMEBOL Copa América', 'Pedro Petrone', 'Ángel Romano', 'Héctor Scarone', '우루과이 축구 국가대표팀', '1924 파리 올림픽', '1924 남미축구선수권대회']
-pubDate: 2026-08-14T10:50:00+09:00
+pubDate: 2026-08-14T02:14:00+09:00
 coverImage: '/images/archive/1924-copa-america/cover.png'
 coverImageAlt: '1924 코파 아메리카와 페드로 페트로네를 기록한 표지'
 coverImageWidth: 773

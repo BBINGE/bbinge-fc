@@ -7,7 +7,7 @@ year: 1921
 subject: '아메리코 테소리에레'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1921'
 keywords: ['CONMEBOL Copa América', 'Américo Tesoriere', 'Julio Libonatti', '아르헨티나 축구 국가대표팀', '파라과이 축구 국가대표팀', '1921 남미축구선수권대회']
-pubDate: 2026-08-14T10:20:00+09:00
+pubDate: 2026-08-14T02:11:00+09:00
 coverImage: '/images/archive/1921-copa-america/cover.jpg'
 coverImageAlt: '1921 코파 아메리카와 아메리코 테소리에레를 기록한 표지'
 coverImageWidth: 773
