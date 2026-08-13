@@ -1,5 +1,7 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
+import ShareButtons from '../../../../components/ShareButtons.astro';
+import { site } from '../../../../config/site';
 import { archiveBranches } from '../../../../data/archive';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 
@@ -58,6 +60,12 @@ const relatedRecords = indexRecords
       <span>{entry.data.description}</span>
     </header>
     <div class="archive-body"><Content /></div>
+    <div class="archive-share">
+      <ShareButtons
+        url={new URL(`/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`, site.url).toString()}
+        title={entry.data.title}
+      />
+    </div>
     <nav class="sequence-nav" aria-label={`${archiveIndex.label} 이전·다음 기록`}>
       {previousRecord && (
         <a class="sequence-link is-previous" href={`/archive/${previousRecord.data.branch}/${previousRecord.data.index}/${previousRecord.id}/`}>
@@ -146,6 +154,7 @@ const relatedRecords = indexRecords
   .archive-body :global(.foreign-note) { font-size: max(.72em, 12px) !important; line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2) !important; vertical-align: baseline; }
   .archive-body :global(.source-notes ol) { padding-left: 22px; list-style: decimal; }
   .archive-body :global(.source-notes li:target) { background: var(--bbfc-blue-weak); }
+  .archive-share { margin-top: 54px; padding-top: 8px; border-top: 1px solid var(--bbfc-border); }
   .sequence-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 86px; padding: 22px 0; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
   .sequence-link { display: grid; align-content: start; min-width: 0; padding: 8px 10px; }
   .sequence-link.is-next { grid-column: 2; text-align: right; }

@@ -1,6 +1,4 @@
 ---
-// 글 공유 전용(카드 이미지 스크랩 아님) — 링크복사 + 카카오/X/페이스북.
-// 카카오는 JS SDK 키가 없으면(Kakao.init 미실행) 자동으로 링크 복사로 대체된다.
 interface Props {
   url: string;
   title: string;
@@ -13,48 +11,41 @@ const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${e
 const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
 ---
 
-<div class="flex items-center gap-2" data-share-url={url} data-share-title={title}>
-  <span class="text-[12px] text-[var(--bbfc-gray-2)] mr-1">공유</span>
-  <button
-    type="button"
-    id="bbfc-share-copy"
-    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
-  >
-    링크복사
-  </button>
-  <button
-    type="button"
-    id="bbfc-share-kakao"
-    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
-  >
-    카카오
-  </button>
-  <a
-    href={xShareUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
-  >
-    X
-  </a>
-  <a
-    href={facebookShareUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
-  >
-    페이스북
-  </a>
-  <span id="bbfc-share-msg" class="text-[11px] text-[var(--bbfc-gray-2)]" hidden></span>
-</div>
+<section class="share-panel" aria-labelledby="share-title" data-share-url={url} data-share-title={title}>
+  <div class="share-copy">
+    <span aria-hidden="true">💙</span>
+    <div>
+      <h2 id="share-title">이 글이 좋았다면 공유해 주세요!</h2>
+      <p>함께 읽고 싶은 사람에게 삥이FC를 보내주세요.</p>
+    </div>
+  </div>
+  <div class="share-actions" aria-label="글 공유 방법">
+    <button type="button" data-share-copy aria-label="링크 복사">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a4 4 0 0 0 5.7 0l2.1-2.1a4 4 0 0 0-5.7-5.7l-1.2 1.2M13.4 10.6a4 4 0 0 0-5.7 0l-2.1 2.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/></svg>
+      <span>링크복사</span>
+    </button>
+    <button type="button" data-share-kakao aria-label="카카오톡으로 공유">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4C6.9 4 3 7.1 3 10.9c0 2.5 1.7 4.7 4.3 5.9l-.9 3.1c-.1.3.2.5.5.3l3.7-2.5c.5.1.9.1 1.4.1 5.1 0 9-3.1 9-6.9S17.1 4 12 4Z"/><circle cx="8.5" cy="11" r=".8"/><circle cx="12" cy="11" r=".8"/><circle cx="15.5" cy="11" r=".8"/></svg>
+      <span>카카오</span>
+    </button>
+    <a href={xShareUrl} target="_blank" rel="noopener noreferrer" aria-label="X로 공유">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4 5 20"/></svg>
+      <span>X</span>
+    </a>
+    <a href={facebookShareUrl} target="_blank" rel="noopener noreferrer" aria-label="페이스북으로 공유">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h3l.5-3H14V8.2c0-.9.3-1.7 1.8-1.7H18V3.8c-.4-.1-1.6-.2-2.8-.2-2.8 0-4.7 1.7-4.7 4.8V10H8v3h2.5v8"/></svg>
+      <span>페이스북</span>
+    </a>
+  </div>
+  <p class="share-message" data-share-message aria-live="polite" hidden></p>
+</section>
 
 <script>
   function showMessage(el, text) {
+    if (!(el instanceof HTMLElement)) return;
     el.hidden = false;
     el.textContent = text;
-    setTimeout(() => {
-      el.hidden = true;
-    }, 2000);
+    setTimeout(() => { el.hidden = true; }, 2200);
   }
 
   async function copyLink(url) {
@@ -62,43 +53,55 @@ const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encoded
       await navigator.clipboard.writeText(url);
       return true;
     } catch {
-      try {
-        window.prompt('아래 링크를 복사하세요', url);
-        return true;
-      } catch {
-        return false;
-      }
+      window.prompt('아래 링크를 복사하세요', url);
+      return false;
     }
   }
 
   document.querySelectorAll('[data-share-url]').forEach((container) => {
-    const url = container.getAttribute('data-share-url');
-    const title = container.getAttribute('data-share-title');
-    const msgEl = container.querySelector('#bbfc-share-msg');
-    const copyBtn = container.querySelector('#bbfc-share-copy');
-    const kakaoBtn = container.querySelector('#bbfc-share-kakao');
+    const url = container.getAttribute('data-share-url') || window.location.href;
+    const title = container.getAttribute('data-share-title') || document.title;
+    const message = container.querySelector('[data-share-message]');
 
-    copyBtn?.addEventListener('click', async () => {
+    container.querySelector('[data-share-copy]')?.addEventListener('click', async () => {
       const copied = await copyLink(url);
-      showMessage(msgEl, copied ? '링크가 복사됐어요.' : url);
+      showMessage(message, copied ? '링크를 복사했어요! 💙' : '복사창에서 링크를 복사해 주세요.');
     });
 
-    kakaoBtn?.addEventListener('click', async () => {
-      // Kakao JS SDK 키가 등록·초기화되지 않은 동안은 링크 복사로 자동 대체한다.
+    container.querySelector('[data-share-kakao]')?.addEventListener('click', async () => {
       const kakao = window.Kakao;
       if (kakao?.isInitialized?.()) {
         kakao.Share.sendDefault({
           objectType: 'feed',
-          content: {
-            title,
-            description: title,
-            link: { mobileWebUrl: url, webUrl: url },
-          },
+          content: { title, description: title, link: { mobileWebUrl: url, webUrl: url } },
         });
         return;
       }
       const copied = await copyLink(url);
-      showMessage(msgEl, copied ? '카카오 연동 전이라 링크를 복사했어요.' : url);
+      showMessage(message, copied ? '카카오 연동 전이라 링크를 복사했어요! 💛' : '복사창에서 링크를 복사해 주세요.');
     });
   });
 </script>
+
+<style>
+  .share-panel { position: relative; padding: 22px 0 4px; }
+  .share-copy { display: flex; align-items: center; gap: 11px; }
+  .share-copy > span { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--bbfc-blue-weak); font-size: 17px; }
+  .share-copy h2 { font-size: 17px; line-height: 1.35; font-weight: 680; letter-spacing: -.02em; color: var(--bbfc-blue-strong); }
+  .share-copy p { margin-top: 3px; font-size: 11.5px; line-height: 1.5; color: var(--bbfc-gray-2); }
+  .share-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 17px; }
+  .share-actions button, .share-actions a { display: inline-flex; align-items: center; gap: 7px; min-height: 38px; padding: 8px 12px; border: 1px solid var(--bbfc-border); border-radius: 999px; background: #fff; color: var(--bbfc-ink-2); font-size: 12px; line-height: 1; transition: border-color .15s ease, color .15s ease, transform .15s ease; }
+  .share-actions button:hover, .share-actions a:hover { border-color: var(--bbfc-blue); color: var(--bbfc-blue-strong); transform: translateY(-1px); }
+  .share-actions svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .share-actions [data-share-kakao] svg { width: 18px; height: 18px; fill: #fee500; stroke: #321f1f; stroke-width: 1.4; }
+  .share-actions [data-share-kakao] circle { fill: #321f1f; stroke: none; }
+  .share-actions a:last-child svg { fill: currentColor; stroke: none; }
+  .share-message { margin-top: 10px; font-size: 11px; color: var(--bbfc-blue-strong); }
+  @media (max-width: 480px) {
+    .share-panel { padding-top: 19px; }
+    .share-copy h2 { font-size: 16px; }
+    .share-copy p { display: none; }
+    .share-actions { gap: 7px; }
+    .share-actions button, .share-actions a { flex: 1 1 calc(50% - 4px); justify-content: center; }
+  }
+</style>
