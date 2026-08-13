@@ -1,34 +1,222 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import HomeHero from '../components/HomeHero.astro';
-import ArticleCardGrid from '../components/ArticleCardGrid.astro';
 import { getCollection } from 'astro:content';
+import { categories } from '../config/categories';
 import { site } from '../config/site';
-import { PAGE_SIZE } from '../config/pagination';
+import { isNewlyPublished } from '../utils/freshness';
 
-const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id)
+const articles = (await getCollection('articles', ({ data }) => !data.draft)).map((entry) => ({
+  id: entry.id,
+  href: `/${entry.data.category}/${entry.id}/`,
+  title: entry.data.title,
+  description: entry.data.description,
+  label: categories[entry.data.category]?.label ?? entry.data.category,
+  coverImage: entry.data.coverImage,
+  coverImageAlt: entry.data.coverImageAlt ?? entry.data.title,
+  pubDate: entry.data.pubDate,
+  kind: 'article' as const,
+}));
+
+const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft)).map((entry) => ({
+  id: entry.id,
+  href: `/archive/${entry.data.branch}/${entry.data.index}/${entry.id}/`,
+  title: entry.data.title,
+  description: entry.data.description,
+  label: '삥이 아카이브',
+  coverImage: entry.data.coverImage,
+  coverImageAlt: entry.data.coverImageAlt,
+  pubDate: entry.data.pubDate,
+  kind: 'archive' as const,
+}));
+
+const editorialFeed = [...articles, ...archiveEntries].sort(
+  (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf() || b.id.localeCompare(a.id)
 );
 
-const hotArticles = articles.filter((entry) => entry.data.featured).slice(0, 4);
-const firstPage = articles.slice(0, PAGE_SIZE);
-const hasMore = articles.length > PAGE_SIZE;
+const lead = editorialFeed[0];
+const secondary = editorialFeed.slice(1, 3);
+const latest = editorialFeed.slice(3, 7);
 ---
 
 <Layout title={site.name} description={site.tagline} breadcrumbs={[{ label: '홈', href: '/' }]}>
-  <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6 space-y-7">
-    <h1 class="sr-only">삥이FC — 축구 역사와 문화를 읽고 기록하는 독립 매거진</h1>
-    <HomeHero hotArticles={hotArticles} />
-    <ArticleCardGrid entries={firstPage} />
-    {hasMore && (
-      <div class="flex justify-center">
-        <a
-          href="/page/2/"
-          class="text-[13px] font-medium text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-5 py-2.5"
-        >
-          다음 페이지 →
+  <main class="home-magazine max-w-[1180px] mx-auto px-4 md:px-6 py-7 md:py-10">
+    <h1 class="sr-only">삥이FC — 축구의 역사와 문화를 읽고 기록하는 독립 매거진</h1>
+
+    <header class="edition-head">
+      <div>
+        <p class="edition-kicker">BBINGE FC · FOOTBALL ARCHIVE MAGAZINE</p>
+        <p class="edition-title">축구의 역사를 놀고, 읽고, 걷는 곳</p>
+      </div>
+      <p class="edition-note">역사 · 공간 · 유니폼 · 서사</p>
+    </header>
+
+    {lead ? (
+      <section class="cover-grid" aria-label="주요 기사">
+        <a href={lead.href} class="lead-story group">
+          <div class="lead-image media-frame">
+            {lead.coverImage ? (
+              <img src={lead.coverImage} alt={lead.coverImageAlt} loading="eager" fetchpriority="high" />
+            ) : (
+              <span>이미지 준비 중</span>
+            )}
+            <span class="story-label story-label-on-image">COVER STORY</span>
+          </div>
+          <div class="lead-copy">
+            <div class="story-meta">
+              <span>{lead.label}</span>
+              <time datetime={lead.pubDate.toISOString()}>{lead.pubDate.toLocaleDateString('ko-KR')}</time>
+              {isNewlyPublished(lead.pubDate) && <span class="new-mark">NEW</span>}
+            </div>
+            <h2>{lead.title}</h2>
+            <p>{lead.description}</p>
+            <span class="read-more">이야기 읽기 <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <div class="secondary-stack">
+          {secondary.map((item, index) => (
+            <a href={item.href} class="secondary-story group">
+              <div class="secondary-image media-frame">
+                {item.coverImage ? (
+                  <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" />
+                ) : (
+                  <span>이미지 준비 중</span>
+                )}
+                <span class="story-number">0{index + 2}</span>
+              </div>
+              <div class="secondary-copy">
+                <div class="story-meta">
+                  <span>{item.label}</span>
+                  {isNewlyPublished(item.pubDate) && <span class="new-mark">NEW</span>}
+                </div>
+                <h2>{item.title}</h2>
+                <p>{item.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <p class="empty-state">첫 번째 이야기를 준비하고 있습니다.</p>
+    )}
+
+    <section class="below-fold" aria-labelledby="latest-heading">
+      <div class="section-heading">
+        <div>
+          <p>THE LATEST</p>
+          <h2 id="latest-heading">최근 기록</h2>
+        </div>
+        <a href="/archive/">전체 아카이브 <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="latest-layout">
+        <div class="latest-list">
+          {latest.length > 0 ? latest.map((item, index) => (
+            <a href={item.href} class="latest-row">
+              <span class="latest-index">{String(index + 1).padStart(2, '0')}</span>
+              <div class="latest-thumb media-frame">
+                {item.coverImage ? <img src={item.coverImage} alt="" loading="lazy" /> : <span>NO IMAGE</span>}
+              </div>
+              <div class="latest-copy">
+                <div class="story-meta"><span>{item.label}</span></div>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+              <time datetime={item.pubDate.toISOString()}>{item.pubDate.toLocaleDateString('ko-KR')}</time>
+            </a>
+          )) : (
+            <p class="empty-latest">다음 기록을 준비하고 있습니다.</p>
+          )}
+        </div>
+
+        <a href="/play/" class="play-feature">
+          <div>
+            <p>PLAY · 32강</p>
+            <h2>당신의 GOAT는 누구입니까?</h2>
+            <span>카드 토너먼트 시작하기 <span aria-hidden="true">→</span></span>
+          </div>
+          <strong aria-hidden="true">32</strong>
         </a>
       </div>
-    )}
-  </div>
+    </section>
+  </main>
 </Layout>
+
+<style>
+  .home-magazine { color:var(--bbfc-ink); }
+  .edition-head { display:flex; align-items:flex-end; justify-content:space-between; gap:24px; padding:0 0 18px; border-bottom:2px solid var(--bbfc-ink); }
+  .edition-kicker,.section-heading p { color:var(--bbfc-blue); font-size:10px; line-height:1.4; font-weight:750; letter-spacing:.16em; }
+  .edition-title { margin-top:7px; font-size:17px; line-height:1.4; font-weight:620; letter-spacing:-.025em; }
+  .edition-note { color:var(--bbfc-gray-2); font-size:11px; letter-spacing:.08em; white-space:nowrap; }
+  .cover-grid { display:grid; grid-template-columns:minmax(0,1.72fr) minmax(300px,.88fr); gap:30px; padding:28px 0 42px; border-bottom:1px solid var(--bbfc-border); }
+  .lead-story { display:grid; grid-template-rows:auto 1fr; min-width:0; }
+  .media-frame { position:relative; overflow:hidden; background:var(--bbfc-fill); }
+  .media-frame img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .45s ease; }
+  .group:hover .media-frame img { transform:scale(1.025); }
+  .media-frame>span:not(.story-label):not(.story-number) { display:grid; place-items:center; min-height:100%; color:var(--bbfc-gray-2); font-size:11px; }
+  .lead-image { aspect-ratio:16/9; }
+  .story-label-on-image { position:absolute; left:0; bottom:0; padding:8px 12px; background:var(--bbfc-blue); color:white; font-size:9px; font-weight:750; letter-spacing:.13em; }
+  .lead-copy { padding-top:20px; }
+  .story-meta { display:flex; align-items:center; gap:9px; color:var(--bbfc-gray-2); font-size:10px; line-height:1.4; }
+  .story-meta>span:first-child { color:var(--bbfc-blue); font-weight:700; }
+  .new-mark { padding:3px 5px; border-radius:999px; background:var(--bbfc-blue-weak); color:var(--bbfc-blue)!important; font-size:8px; font-weight:800; letter-spacing:.06em; }
+  .lead-copy h2 { max-width:760px; margin-top:10px; font-size:clamp(29px,3.25vw,45px); line-height:1.16; font-weight:720; letter-spacing:-.055em; text-wrap:balance; }
+  .lead-copy>p { max-width:740px; margin-top:13px; color:var(--bbfc-gray-1); font-size:14px; line-height:1.75; }
+  .read-more { display:inline-block; margin-top:19px; color:var(--bbfc-ink); font-size:12px; font-weight:650; border-bottom:1px solid var(--bbfc-ink); padding-bottom:3px; }
+  .secondary-stack { display:grid; grid-template-rows:repeat(2,minmax(0,1fr)); gap:25px; min-width:0; }
+  .secondary-story { display:grid; grid-template-columns:132px minmax(0,1fr); gap:16px; padding-bottom:25px; border-bottom:1px solid var(--bbfc-border); }
+  .secondary-story:last-child { padding-bottom:0; border-bottom:0; }
+  .secondary-image { aspect-ratio:4/3; align-self:start; }
+  .story-number { position:absolute; top:7px; left:7px; padding:4px 6px; background:rgba(25,31,40,.78); color:#fff; font-size:8px; font-weight:750; letter-spacing:.08em; }
+  .secondary-copy h2 { margin-top:8px; font-size:17px; line-height:1.38; font-weight:680; letter-spacing:-.035em; }
+  .secondary-copy>p { margin-top:8px; color:var(--bbfc-gray-1); font-size:12px; line-height:1.65; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .below-fold { padding-top:38px; }
+  .section-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:20px; padding-bottom:14px; border-bottom:1px solid var(--bbfc-ink); }
+  .section-heading h2 { margin-top:5px; font-size:25px; line-height:1.2; font-weight:680; letter-spacing:-.04em; }
+  .section-heading>a { color:var(--bbfc-gray-1); font-size:11px; }
+  .latest-layout { display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:34px; padding-top:4px; }
+  .latest-row { display:grid; grid-template-columns:28px 112px minmax(0,1fr) auto; align-items:center; gap:15px; padding:16px 0; border-bottom:1px solid var(--bbfc-line); }
+  .latest-index { color:var(--bbfc-gray-3); font-family:Georgia,serif; font-size:13px; }
+  .latest-thumb { aspect-ratio:4/3; border-radius:2px; }
+  .latest-copy h3 { margin-top:5px; font-size:15px; line-height:1.4; font-weight:650; letter-spacing:-.025em; }
+  .latest-copy>p { margin-top:5px; color:var(--bbfc-gray-1); font-size:11.5px; line-height:1.55; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .latest-row>time { align-self:start; padding-top:4px; color:var(--bbfc-gray-3); font-size:10px; white-space:nowrap; }
+  .play-feature { position:relative; min-height:210px; margin-top:16px; overflow:hidden; background:var(--bbfc-blue-strong); color:#fff; padding:25px; display:flex; align-items:flex-end; }
+  .play-feature>div { position:relative; z-index:1; }
+  .play-feature p { color:rgba(255,255,255,.68); font-size:9px; font-weight:750; letter-spacing:.15em; }
+  .play-feature h2 { max-width:190px; margin-top:9px; font-size:22px; line-height:1.25; font-weight:680; letter-spacing:-.04em; }
+  .play-feature span { display:inline-block; margin-top:18px; font-size:11px; }
+  .play-feature>strong { position:absolute; top:-25px; right:-8px; color:rgba(255,255,255,.1); font-family:Georgia,serif; font-size:150px; line-height:1; font-weight:400; }
+  .empty-state,.empty-latest { padding:50px 0; color:var(--bbfc-gray-2); font-size:13px; text-align:center; }
+
+  @media (max-width: 900px) {
+    .cover-grid { grid-template-columns:1fr; }
+    .secondary-stack { grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:none; }
+    .secondary-story { grid-template-columns:1fr; }
+    .secondary-image { aspect-ratio:16/9; }
+    .latest-layout { grid-template-columns:1fr; }
+    .play-feature { min-height:180px; margin-top:0; }
+  }
+  @media (max-width: 600px) {
+    .home-magazine { padding-top:20px; }
+    .edition-head { align-items:flex-start; }
+    .edition-note { display:none; }
+    .edition-title { font-size:15px; }
+    .cover-grid { gap:28px; padding-top:20px; }
+    .lead-copy h2 { font-size:30px; }
+    .lead-copy>p { font-size:13px; line-height:1.7; }
+    .secondary-stack { grid-template-columns:1fr; gap:20px; }
+    .secondary-story { grid-template-columns:118px minmax(0,1fr); padding-bottom:20px; }
+    .secondary-image { aspect-ratio:4/3; }
+    .secondary-copy h2 { font-size:15px; }
+    .secondary-copy>p { -webkit-line-clamp:2; font-size:11.5px; }
+    .below-fold { padding-top:30px; }
+    .latest-row { grid-template-columns:22px 82px minmax(0,1fr); gap:10px; }
+    .latest-copy>p,.latest-row>time { display:none; }
+    .latest-copy h3 { font-size:13.5px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .media-frame img { transition:none; }
+    .group:hover .media-frame img { transform:none; }
+  }
+</style>
