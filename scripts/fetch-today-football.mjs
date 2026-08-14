@@ -54,11 +54,13 @@ LIMIT 12`;
   const row = payload?.results?.bindings?.[0];
   if (!row?.personLabel?.value || !row?.birth?.value) return null;
   const born = new Date(row.birth.value);
+  const originalImage = row.image.value.replace(/^http:/, 'https:');
+  const imageUrl = `${originalImage.replace('/wiki/Special:FilePath/', '/wiki/Special:Redirect/file/')}?width=700`;
   return {
     name: row.personLabel.value,
     birthYear: born.getUTCFullYear(),
     wikidataUrl: row.person.value,
-    imageUrl: row.image.value.replace(/^http:/, 'https:'),
+    imageUrl,
   };
 }
 
