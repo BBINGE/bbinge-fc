@@ -628,3 +628,8 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 네이버 원문 `토리노 여행 할리우드 명예의 거리 감성을 느낄 수 있는 곳`을 `/pilgrimage/turin-juventus-walk-of-fame-travel-10/`에 축행 두 번째 글로 옮겼다. 운영자가 제공한 `14.png`를 표지로, 김민재·나폴리 이미지를 도입부로, 유벤투스 50인 이미지를 Walk of Fame 본문 자료로 보존했다.
 - 원문의 토리노 여행지 10곳을 유지하고 각 장소에 Wikimedia Commons의 CC·공공 영역 실사진을 한 장씩 붙였다. 2024년 여행 정보는 현재 공식 Turismo Torino·Museo Egizio·Juventus 안내와 대조했으며, 변동 가능한 운영시간·입장료는 고정값으로 단정하지 않는다.
 - 기존 조각 문장과 `토리노 시민 95%`처럼 출처가 불분명한 수치는 사용하지 않았다. 나폴리 유니폼 문구는 현지 문화를 존중하자는 농담의 맥락으로 정리하고, Juventus 공식 기록을 근거로 경기장 Walk of Fame의 50인을 설명했다.
+## 2026-08-15 GOAT 선수 사진 전수 감사
+
+- `bbinge_fc_goat_photo_targets_136.xlsx`의 136명을 기준으로 `src/data/player-photo-audit.json`을 만들었다. 기존 후보 사진은 Wikimedia Commons 원본 메타데이터와 라이선스를 다시 조회했고, 전성기 연도·허용 구단·반응형 얼굴 구도를 확정한 사진만 GOAT 카드에 연결한다.
+- 현재 판정은 확보 완료 34명, 미확보 101명, 라이선스 확인 필요 1명이다. 애매한 사진은 기존 로컬 파일이 있더라도 카드에서 사용하지 않는다. 상세 명단과 사유는 `GOAT_PHOTO_AUDIT_REPORT.md`에 있다.
+- 통과 사진은 선수 ID 기반 WebP이며, `src/pages/play/index.astro`가 감사 데이터의 desktop/laptop/tablet/mobile별 `photoPosition`과 `photoScale`을 읽는다. `?debugPhotoFocus=1`에서 좌표·배율을 볼 수 있고 `debugPlayers=pele,maradona`로 검수 선수를 고정할 수 있다.

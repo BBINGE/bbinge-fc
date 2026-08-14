@@ -2,7 +2,7 @@
   "updatedAt": "2026-08-14T16:29:25.498Z",
   "portraits": {
     "friedenreich": {
-      "src": "/images/goat/players/friedenreich.jpg",
+      "src": "/images/goat/players/friedenreich.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q366156",
       "commons": "https://commons.wikimedia.org/wiki/File:Arthur_friedenreich.jpg",
       "author": "Unknown author Unknown author",
@@ -23,7 +23,7 @@
       "license": "Public domain"
     },
     "meazza": {
-      "src": "/images/goat/players/meazza.jpg",
+      "src": "/images/goat/players/meazza.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q192131",
       "commons": "https://commons.wikimedia.org/wiki/File:Giuseppe_Meazza_1935.jpg",
       "author": "Unknown author Unknown author",
@@ -58,7 +58,7 @@
       "license": "Public domain"
     },
     "puskas": {
-      "src": "/images/goat/players/puskas.png",
+      "src": "/images/goat/players/puskas.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q482931",
       "commons": "https://commons.wikimedia.org/wiki/File:Puskas_1954.png",
       "author": "Wim van Rossem for Anefo",
@@ -72,7 +72,7 @@
       "license": "Public domain"
     },
     "kocsis": {
-      "src": "/images/goat/players/kocsis.jpg",
+      "src": "/images/goat/players/kocsis.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q295265",
       "commons": "https://commons.wikimedia.org/wiki/File:Kocsis_S%C3%A1ndor_Fortepan_261526.jpg",
       "author": "Fortepan/Faragó György",
@@ -86,14 +86,14 @@
       "license": "CC BY-SA 3.0 nl"
     },
     "pele": {
-      "src": "/images/goat/players/pele.jpg",
+      "src": "/images/goat/players/pele.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q12897",
       "commons": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
     "garrincha": {
-      "src": "/images/goat/players/garrincha.jpg",
+      "src": "/images/goat/players/garrincha.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q180642",
       "commons": "https://commons.wikimedia.org/wiki/File:Manoel_Francisco_dos_Santos-Garrincha.jpg",
       "author": "El Gráfico, n° 2233",
@@ -114,7 +114,7 @@
       "license": "Public domain"
     },
     "yashin": {
-      "src": "/images/goat/players/yashin.jpg",
+      "src": "/images/goat/players/yashin.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q167828",
       "commons": "https://commons.wikimedia.org/wiki/File:Lev_Yashin_1966.jpg",
       "author": "Unknown author Unknown author",
@@ -128,14 +128,14 @@
       "license": "Public domain"
     },
     "bobby-charlton": {
-      "src": "/images/goat/players/bobby-charlton.jpg",
+      "src": "/images/goat/players/bobby-charlton.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q171583",
       "commons": "https://commons.wikimedia.org/wiki/File:Bobby_Charlton_en_1966_160.jpg",
       "author": "Panini",
       "license": "Public domain"
     },
     "bobby-moore": {
-      "src": "/images/goat/players/bobby-moore.jpg",
+      "src": "/images/goat/players/bobby-moore.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q191492",
       "commons": "https://commons.wikimedia.org/wiki/File:Bobby_moore_elgrafico_1970.jpg",
       "author": "Unknown author Unknown author",
@@ -163,21 +163,21 @@
       "license": "Public domain"
     },
     "fontaine": {
-      "src": "/images/goat/players/fontaine.jpg",
+      "src": "/images/goat/players/fontaine.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q192749",
       "commons": "https://commons.wikimedia.org/wiki/File:Just_Fontaine_en_1958.jpg",
       "author": "Panini",
       "license": "Public domain"
     },
     "gento": {
-      "src": "/images/goat/players/gento.jpg",
+      "src": "/images/goat/players/gento.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q493081",
       "commons": "https://commons.wikimedia.org/wiki/File:Gento_with_Leo_Horn_,_Di_Stefano_(cropped).jpg",
       "author": "Wim van Rossem for Anefo",
       "license": "CC0"
     },
     "luis-suarez-m": {
-      "src": "/images/goat/players/luis-suarez-m.jpg",
+      "src": "/images/goat/players/luis-suarez-m.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q270367",
       "commons": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_Miramontes.JPG",
       "author": "Unknown author Unknown author",
@@ -198,7 +198,7 @@
       "license": "Public domain"
     },
     "varela": {
-      "src": "/images/goat/players/varela.jpg",
+      "src": "/images/goat/players/varela.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q471743",
       "commons": "https://commons.wikimedia.org/wiki/File:Obdulio_varela_uruguay.jpg",
       "author": "Unknown author Unknown author",
@@ -212,28 +212,28 @@
       "license": "CC0"
     },
     "cruyff": {
-      "src": "/images/goat/players/cruyff.jpg",
+      "src": "/images/goat/players/cruyff.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q17163",
       "commons": "https://commons.wikimedia.org/wiki/File:Johan_Cruijff_(1974).jpg",
       "author": "Rob Mieremet / Anefo",
       "license": "CC0"
     },
     "neeskens": {
-      "src": "/images/goat/players/neeskens.jpg",
+      "src": "/images/goat/players/neeskens.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q233819",
       "commons": "https://commons.wikimedia.org/wiki/File:Johan_Neeskens_1974.jpg",
       "author": "Mieremet, Rob / Anefo",
       "license": "CC BY-SA 3.0 nl"
     },
     "beckenbauer": {
-      "src": "/images/goat/players/beckenbauer.jpg",
+      "src": "/images/goat/players/beckenbauer.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q4457",
       "commons": "https://commons.wikimedia.org/wiki/File:Franz_Beckenbauer_(1975).jpg",
       "author": "Panini Group",
       "license": "Public domain"
     },
     "gerd-muller": {
-      "src": "/images/goat/players/gerd-muller.jpg",
+      "src": "/images/goat/players/gerd-muller.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q43744",
       "commons": "https://commons.wikimedia.org/wiki/File:Gerd_M%C3%BCller_c1973_(cropped).jpg",
       "author": "Unknown author Unknown author",
@@ -268,21 +268,21 @@
       "license": "Public domain"
     },
     "falcao-paulo": {
-      "src": "/images/goat/players/falcao-paulo.jpg",
+      "src": "/images/goat/players/falcao-paulo.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q312454",
       "commons": "https://commons.wikimedia.org/wiki/File:Paulo_Roberto_Falc%C3%A3o,_Roma_1983-84.jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
     "rivellino": {
-      "src": "/images/goat/players/rivellino.jpg",
+      "src": "/images/goat/players/rivellino.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q220283",
       "commons": "https://commons.wikimedia.org/wiki/File:Rivelino_brasil_figurita.jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
     "jairzinho": {
-      "src": "/images/goat/players/jairzinho.jpg",
+      "src": "/images/goat/players/jairzinho.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q210102",
       "commons": "https://commons.wikimedia.org/wiki/File:Jairzinho_1970s.jpg",
       "author": "Unknown author Unknown author",
@@ -296,7 +296,7 @@
       "license": "Public domain"
     },
     "maradona": {
-      "src": "/images/goat/players/maradona.jpg",
+      "src": "/images/goat/players/maradona.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q17515",
       "commons": "https://commons.wikimedia.org/wiki/File:Argentina_celebrando_copa_(cropped).jpg",
       "author": "Unknown author Unknown author",
@@ -317,7 +317,7 @@
       "license": "CC BY-SA 4.0"
     },
     "dalglish": {
-      "src": "/images/goat/players/dalglish.jpg",
+      "src": "/images/goat/players/dalglish.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q187198",
       "commons": "https://commons.wikimedia.org/wiki/File:Kenny_Dalglish_1980s_(cropped).jpg",
       "author": "Jim Wall from Burntwood, UK",
@@ -366,14 +366,14 @@
       "license": "CC0"
     },
     "hugo-sanchez": {
-      "src": "/images/goat/players/hugo-sanchez.jpg",
+      "src": "/images/goat/players/hugo-sanchez.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q487155",
       "commons": "https://commons.wikimedia.org/wiki/File:Hugo_S%C3%A1nchez_1988_(cropped).jpg",
       "author": "Rob Bogaerts for Anefo",
       "license": "CC BY-SA 3.0 nl"
     },
     "francescoli": {
-      "src": "/images/goat/players/francescoli.jpg",
+      "src": "/images/goat/players/francescoli.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q210083",
       "commons": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_1984.jpg",
       "author": "Unknown author Unknown author",
@@ -450,7 +450,7 @@
       "license": "Public domain"
     },
     "kaka": {
-      "src": "/images/goat/players/kaka.jpg",
+      "src": "/images/goat/players/kaka.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q531814",
       "commons": "https://commons.wikimedia.org/wiki/File:Kaka_355_280_px.jpg",
       "author": "Kaka06052007.jpg : Roberto Vicario derivative work: Garcia1 ( talk )",
@@ -520,7 +520,7 @@
       "license": "CC BY 3.0"
     },
     "zanetti": {
-      "src": "/images/goat/players/zanetti.jpg",
+      "src": "/images/goat/players/zanetti.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q52876",
       "commons": "https://commons.wikimedia.org/wiki/File:Javier_Adelmar_Zanetti.jpg",
       "author": "Давиденко Валерий",
@@ -555,7 +555,7 @@
       "license": "CC BY 2.0"
     },
     "gerrard": {
-      "src": "/images/goat/players/gerrard.jpg",
+      "src": "/images/goat/players/gerrard.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q459830",
       "commons": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard.jpg",
       "author": "Elwedritsch",
@@ -576,7 +576,7 @@
       "license": "CC BY-SA 3.0"
     },
     "van-basten": {
-      "src": "/images/goat/players/van-basten.jpg",
+      "src": "/images/goat/players/van-basten.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q483629",
       "commons": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_1990-1992.jpg",
       "author": "Unknown author Unknown author",
@@ -688,14 +688,14 @@
       "license": "CC BY-SA 4.0"
     },
     "lewandowski": {
-      "src": "/images/goat/players/lewandowski.jpg",
+      "src": "/images/goat/players/lewandowski.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q151269",
       "commons": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg",
       "author": "Светлана Бекетова",
       "license": "CC BY-SA 3.0"
     },
     "zlatan": {
-      "src": "/images/goat/players/zlatan.jpg",
+      "src": "/images/goat/players/zlatan.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q46896",
       "commons": "https://commons.wikimedia.org/wiki/File:PSG-Shakhter15_(11).jpg",
       "author": "Богдан Заяц",
@@ -786,7 +786,7 @@
       "license": "Public domain"
     },
     "nasazzi": {
-      "src": "/images/goat/players/nasazzi.jpg",
+      "src": "/images/goat/players/nasazzi.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q312164",
       "commons": "https://commons.wikimedia.org/wiki/File:JoseNasazzi1926.JPG",
       "author": "Unknown author Unknown author",
@@ -800,7 +800,7 @@
       "license": "CC BY-SA 3.0 de"
     },
     "bozsik": {
-      "src": "/images/goat/players/bozsik.jpg",
+      "src": "/images/goat/players/bozsik.webp",
       "wikidata": "https://www.wikidata.org/wiki/Q318752",
       "commons": "https://commons.wikimedia.org/wiki/File:Bozsik_J%C3%B3zsef_Fortepan_261523.jpg",
       "author": "Fortepan/Faragó György",
@@ -903,7 +903,7 @@
       "license": "CC BY-SA 3.0 nl"
     },
     "albert": {
-      "src": "/images/goat/players/albert.jpg",
+      "src": "/images/goat/players/albert.webp",
       "commons": "https://commons.wikimedia.org/wiki/File:Florian_Albert_en_1966.jpg",
       "author": "Panini",
       "license": "Public domain"
@@ -939,7 +939,7 @@
       "license": "Public domain"
     },
     "figueroa": {
-      "src": "/images/goat/players/figueroa.jpg",
+      "src": "/images/goat/players/figueroa.webp",
       "commons": "https://commons.wikimedia.org/wiki/File:Elias_figueroa_inter.jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"

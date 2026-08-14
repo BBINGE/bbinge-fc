@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import playersFile from '../../data/goat-players.json';
 import playerImageFile from '../../data/goat-player-images.json';
-import focalPointFile from '../../data/image-focal-points.json';
+import playerPhotoAuditFile from '../../data/player-photo-audit.json';
 
 const { players, drawAllocation } = playersFile;
 
@@ -15,20 +15,14 @@ const articleMap: Record<string, string> = Object.fromEntries(
     .map((entry) => [entry.id, `/history/${entry.id}/`])
 );
 
-// 아카이브에서 인물 확인을 마친 사진부터 GOAT 카드에도 재사용한다.
-// 새 사진은 출처 확인 후 이 목록에 한 명씩 연결한다.
-const archivePlayerImages: Record<string, string> = {
-  meazza: '/images/archive/1934-fifa-world-cup-best-xi/players/giuseppe-meazza.png',
-  sindelar: '/images/archive/1934-fifa-world-cup-best-xi/players/matthias-sindelar.png',
-  monti: '/images/archive/1930-fifa-world-cup-best-xi/players/luis-monti.jpg',
-  scarone: '/images/archive/1930-fifa-world-cup-best-xi/players/hector-scarone.jpg',
-  nasazzi: '/images/archive/1930-fifa-world-cup-best-xi/players/jose-nasazzi.jpg',
-  leonidas: '/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png',
-};
-const playerImages: Record<string, string> = Object.fromEntries(
-  Object.entries(playerImageFile.portraits).map(([id, portrait]) => [id, portrait.src])
+const auditedPhotos = Object.fromEntries(
+  playerPhotoAuditFile.players
+    .filter((entry) => ['focus-review', 'ready'].includes(entry.status) && entry.currentAsset)
+    .map((entry) => [entry.id, entry])
 );
-Object.assign(playerImages, archivePlayerImages);
+const playerImages: Record<string, string> = Object.fromEntries(
+  Object.entries(auditedPhotos).map(([id, entry]) => [id, entry.currentAsset])
+);
 const playerCredits = playerImageFile.portraits;
 const flagBackgrounds: Record<string, string> = {
   브라질: 'linear-gradient(145deg,#159447 0 34%,#f7d117 34% 66%,#17479e 66%)',
@@ -63,12 +57,10 @@ const flagBackgrounds: Record<string, string> = {
   웨일스: 'linear-gradient(180deg,#fff 0 50%,#00ab39 50%)',
   덴마크: 'linear-gradient(90deg,transparent 30%,#fff 30% 38%,transparent 38%),linear-gradient(180deg,#c60c30 43%,#fff 43% 56%,#c60c30 56%)',
 };
-const focalPoints = focalPointFile.points as Record<string, { x: number; y: number; faceWidth?: number }>;
-const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, src]) => {
-  const point = focalPoints[src] ?? { x: 50, y: 28, faceWidth: 32 };
-  const zoom = Math.min(1.55, Math.max(1, 32 / (point.faceWidth || 32)));
-  return [id, { ...point, zoom: Number(zoom.toFixed(2)) }];
-}));
+const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, entry]) => [id, {
+  position: entry.photoPosition,
+  scale: entry.photoScale,
+}]));
 ---
 
 <Layout
@@ -103,6 +95,8 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
 
   const app = document.getElementById('goat-app');
   const playersById = Object.fromEntries(players.map((p) => [p.id, p]));
+  const debugPhotoFocus = new URLSearchParams(window.location.search).get('debugPhotoFocus') === '1';
+  if (debugPhotoFocus) app?.classList.add('goat-app--debug-photo-focus');
 
   function escapeHTML(value = '') {
     return String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -197,10 +191,37 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
     return state;
   }
 
+  function currentFocusBreakpoint() {
+    if (window.innerWidth >= 1280) return 'desktop';
+    if (window.innerWidth >= 1024) return 'laptop';
+    if (window.innerWidth >= 768) return 'tablet';
+    return 'mobile';
+  }
+
+  function updatePhotoFocusDebugLabels() {
+    const breakpoint = currentFocusBreakpoint();
+    document.querySelectorAll('.goat-card__focus-debug').forEach((label) => {
+      label.textContent = label.dataset[breakpoint] ?? '';
+    });
+  }
+
   function playerCardHTML(player, side) {
     const clubs = player.clubs.join(' · ');
     const image = playerImages[player.id];
-    const focus = playerFocus[player.id] ?? { x: 50, y: 28, zoom: 1 };
+    const focus = playerFocus[player.id] ?? {
+      position: { desktop: '50% 22%', laptop: '50% 24%', tablet: '50% 26%', mobile: '50% 28%' },
+      scale: { desktop: 1, laptop: 1, tablet: 1, mobile: 1 },
+    };
+    const focusStyle = [
+      `--face-position-desktop:${focus.position.desktop}`,
+      `--face-position-laptop:${focus.position.laptop}`,
+      `--face-position-tablet:${focus.position.tablet}`,
+      `--face-position-mobile:${focus.position.mobile}`,
+      `--face-scale-desktop:${focus.scale.desktop}`,
+      `--face-scale-laptop:${focus.scale.laptop}`,
+      `--face-scale-tablet:${focus.scale.tablet}`,
+      `--face-scale-mobile:${focus.scale.mobile}`,
+    ].join(';');
     const nationality = player.nationality.split('·')[0];
     const flag = flagBackgrounds[nationality] ?? 'linear-gradient(135deg,#1d395a,#12243b)';
     const punchline = player.nicknameKr || player.nickname || player.note || `${player.position}의 정점`;
@@ -210,7 +231,7 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
         <span class="goat-card__impact" aria-hidden="true"></span>
         <span class="goat-card__media ${image ? '' : 'goat-card__media--empty'}">
           ${image
-            ? `<img src="${image}" alt="${player.name}" loading="eager" decoding="async" style="--face-x:${focus.x}%;--face-y:${focus.y}%;--face-zoom:${focus.zoom}">`
+            ? `<img src="${image}" alt="${player.name}" loading="eager" decoding="async" style="${focusStyle}"><span class="goat-card__focus-debug" data-mobile="mobile ${focus.position.mobile} · ${focus.scale.mobile}×" data-tablet="tablet ${focus.position.tablet} · ${focus.scale.tablet}×" data-laptop="laptop ${focus.position.laptop} · ${focus.scale.laptop}×" data-desktop="desktop ${focus.position.desktop} · ${focus.scale.desktop}×">${currentFocusBreakpoint()} ${focus.position[currentFocusBreakpoint()]} · ${focus.scale[currentFocusBreakpoint()]}×</span>`
             : `<span class="goat-card__initial">${player.name.slice(0, 1)}</span><span class="goat-card__waiting">사진 수급 중</span>`}
           <span class="goat-card__shade"></span>
           <span class="goat-card__position">${player.position}</span>
@@ -426,6 +447,14 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
     const params = new URLSearchParams(window.location.search);
     const sharedWinner = params.get('w');
     const sharedSeed = params.get('seed');
+    const debugPlayers = (params.get('debugPlayers') ?? '').split(',').filter((id) => playersById[id]).slice(0, 2);
+
+    if (debugPhotoFocus && debugPlayers.length) {
+      const state = newState('photo-focus-debug');
+      state.roundPlayers.splice(0, debugPlayers.length, ...debugPlayers);
+      render(state);
+      return;
+    }
 
     if (sharedWinner && sharedSeed) {
       const final4Ids = (params.get('f4') ?? '').split(',').filter(Boolean);
@@ -452,6 +481,10 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
   }
 
   init();
+  if (debugPhotoFocus) {
+    updatePhotoFocusDebugLabels();
+    window.addEventListener('resize', updatePhotoFocusDebugLabels);
+  }
 </script>
 
 <style is:global>
@@ -466,7 +499,9 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
   .goat-card:hover::after { transform: translateX(120%); }
   .goat-card:focus-visible { outline: 3px solid #fff; outline-offset: -5px; }
   .goat-card__media { position: relative; display: block; height: clamp(220px, 38vw, 400px); overflow: hidden; background: #1b314c; }
-  .goat-card__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--face-x,50%) var(--face-y,28%); transform-origin:var(--face-x,50%) var(--face-y,28%); scale:var(--face-zoom,1); filter: grayscale(100%) contrast(1.06); transition: transform .28s ease, filter .25s ease; }
+  .goat-card__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--face-position-mobile,50% 28%); transform-origin:var(--face-position-mobile,50% 28%); scale:var(--face-scale-mobile,1); filter: grayscale(100%) contrast(1.06); transition: transform .28s ease, filter .25s ease; }
+  .goat-card__focus-debug { display:none; position:absolute; z-index:4; left:8px; bottom:8px; padding:4px 6px; border-radius:5px; background:rgba(0,0,0,.78); color:#8bd5ff; font:700 10px/1.2 ui-monospace,monospace; }
+  .goat-app--debug-photo-focus .goat-card__focus-debug { display:block; }
   .goat-card:hover .goat-card__media img { transform: scale(1.035); filter: grayscale(35%) contrast(1.08); }
   .goat-card__media--empty { display: grid; place-items: center; background: radial-gradient(circle at 50% 32%, #345072 0, #192e48 37%, #102137 75%); }
   .goat-card__initial { font-size: clamp(70px, 13vw, 132px); font-weight: 900; color: rgba(255,255,255,.12); }
@@ -506,6 +541,15 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
   @media (hover: hover) and (pointer: fine) {
     .goat-card { --mouse-x: 50%; --mouse-y: 42%; }
     .goat-card__crosshair { left: var(--mouse-x); top: var(--mouse-y); }
+  }
+  @media (min-width: 768px) {
+    .goat-card__media img { object-position:var(--face-position-tablet,50% 26%); transform-origin:var(--face-position-tablet,50% 26%); scale:var(--face-scale-tablet,1); }
+  }
+  @media (min-width: 1024px) {
+    .goat-card__media img { object-position:var(--face-position-laptop,50% 24%); transform-origin:var(--face-position-laptop,50% 24%); scale:var(--face-scale-laptop,1); }
+  }
+  @media (min-width: 1280px) {
+    .goat-card__media img { object-position:var(--face-position-desktop,50% 22%); transform-origin:var(--face-position-desktop,50% 22%); scale:var(--face-scale-desktop,1); }
   }
   @media (max-width: 480px) {
     .goat-arena { gap: 7px; padding: 7px; border-radius: 17px; }
