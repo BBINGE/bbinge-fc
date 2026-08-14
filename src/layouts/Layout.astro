@@ -175,7 +175,13 @@ const authorSchema = {
       gtag('js', new Date());
       gtag('config', 'G-3931E0CPPK');
     </script>
-    <!-- AdSense: 심사 승인 후 이 자리에 계정 인증 스니펫 삽입 -->
+    <!-- AdSense 사이트 소유권 확인 및 심사용 공통 스니펫. 광고 단위는 승인 후 AdSlot에서 별도 활성화한다. -->
+    <script
+      is:inline
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649211764099932"
+      crossorigin="anonymous"
+    ></script>
     <!-- Kakao SDK: 카카오 디벨로퍼스 JavaScript 키 발급 후 이 자리에 <script src="https://t1.kakaocdn.net/kakao_js_sdk/.../kakao.min.js"> 삽입 + Kakao.init(키).
          키 등록 전까지 ShareButtons.astro의 카카오 공유 버튼은 링크 복사로 자동 대체된다. -->
 
