@@ -17,21 +17,27 @@ const freshTopCategories = new Set(
     .filter(Boolean)
 );
 const archiveIsFresh = archiveRecords.some((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate));
-const primaryNav = [
-  { href: '/', label: 'MAIN', active: currentPath === '/', isNew: false },
+const sortedNav = [
   { href: '/about/', label: '저자 @삥이', active: currentPath.startsWith('/about/'), isNew: false },
-  ...topCategories.flatMap(({ slug, label }) => {
-    const item = { href: `/${slug}/`, label, active: currentPath.startsWith(`/${slug}/`), isNew: freshTopCategories.has(slug) };
-    return slug === 'pilgrimage'
-      ? [item, { href: '/archive/', label: '삥이 아카이브', active: currentPath.startsWith('/archive/'), isNew: archiveIsFresh }]
-      : [item];
-  }),
-];
+  { href: '/archive/', label: '삥이 아카이브', active: currentPath.startsWith('/archive/'), isNew: archiveIsFresh },
+  ...topCategories.map(({ slug, label }) => ({
+    href: `/${slug}/`,
+    label,
+    active: currentPath.startsWith(`/${slug}/`),
+    isNew: freshTopCategories.has(slug),
+  })),
+].sort((a, b) => {
+  const aLatin = /^[A-Za-z]/.test(a.label);
+  const bLatin = /^[A-Za-z]/.test(b.label);
+  if (aLatin !== bLatin) return aLatin ? 1 : -1;
+  return a.label.localeCompare(b.label, aLatin ? 'en' : 'ko');
+});
+const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isNew: false }, ...sortedNav];
 ---
 
 <header class="sticky top-0 z-30 bg-[var(--bbfc-bg)] border-b border-[var(--bbfc-line)]">
-  <div class="max-w-[1040px] mx-auto px-4 md:px-5 h-14 md:h-16 flex items-center justify-between">
-    <div class="flex items-center gap-6">
+  <div class="max-w-[1280px] mx-auto px-4 md:px-5 h-14 md:h-16 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-5 min-w-0">
       <button
         id="bbfc-menu-btn"
         type="button"
@@ -50,7 +56,7 @@ const primaryNav = [
         <span>삥이<b>FC</b></span>
       </a>
 
-      <nav class="hidden md:flex items-center gap-[18px]" aria-label="주요 메뉴">
+      <nav class="hidden lg:flex items-center gap-[14px]" aria-label="주요 메뉴">
         {primaryNav.map(({ href, label, active, isNew }) => href === '/about/' ? (
           <div class="about-nav">
             <a
@@ -84,12 +90,14 @@ const primaryNav = [
       </nav>
     </div>
 
-    <a href="/search/" aria-label="검색" class="text-[var(--bbfc-gray-1)]">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <form action="/search/" method="get" class="header-search" role="search">
+      <label class="sr-only" for="header-search-input">삥이FC 통합 검색</label>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <circle cx="11" cy="11" r="7" />
         <path d="M21 21l-4.35-4.35" stroke-linecap="round" />
       </svg>
-    </a>
+      <input id="header-search-input" name="q" type="search" placeholder="무엇이든 검색해보세요" autocomplete="off" />
+    </form>
   </div>
 </header>
 
@@ -164,6 +172,21 @@ const primaryNav = [
   .mobile-about details[open] summary::after { content:'−'; }
   .mobile-about details div { margin:0 0 5px 8px; padding:2px 0 3px 12px; border-left:1px solid var(--bbfc-border); }
   .mobile-about details div a { display:block; padding:7px 0; color:var(--bbfc-gray-1); font-size:12.5px; }
+  .header-search { flex:0 0 218px; height:38px; display:flex; align-items:center; gap:9px; padding:0 13px; border:1px solid var(--bbfc-border); border-radius:999px; background:#fff; color:var(--bbfc-gray-2); box-shadow:0 9px 24px -18px rgba(22,31,43,.7); animation:search-float 4.2s ease-in-out infinite; transition:border-color 160ms ease,box-shadow 160ms ease; }
+  .header-search:focus-within { border-color:var(--bbfc-blue); box-shadow:0 10px 26px -15px rgba(41,112,240,.48); }
+  .header-search svg { flex:0 0 auto; }
+  .header-search input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:11.5px; }
+  .header-search input::placeholder { color:var(--bbfc-gray-2); opacity:1; }
+  @keyframes search-float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-2px); } }
+  @media (max-width: 1180px) {
+    .header-search { flex-basis:184px; }
+    .header-search input { font-size:10.5px; }
+  }
+  @media (max-width: 767px) {
+    .header-search { flex-basis:min(46vw,170px); height:36px; padding:0 11px; }
+    .header-search input { font-size:10.5px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .header-search { animation:none; } }
 </style>
 
 <script>

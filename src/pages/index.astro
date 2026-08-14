@@ -35,7 +35,8 @@ const editorialFeed = [...articles, ...archiveEntries].sort(
 
 const lead = editorialFeed[0];
 const secondary = editorialFeed.slice(1, 3);
-const latest = editorialFeed.slice(3, 7);
+const latest = editorialFeed.slice(3, 11);
+const moreStories = editorialFeed.slice(11, 17);
 ---
 
 <Layout title={site.name} description={site.tagline} breadcrumbs={[{ label: '홈', href: '/' }]}>
@@ -139,6 +140,27 @@ const latest = editorialFeed.slice(3, 7);
         </a>
       </div>
     </section>
+
+    {moreStories.length > 0 && (
+      <section class="more-records" aria-labelledby="more-records-heading">
+        <div class="section-heading">
+          <div><p>MORE STORIES</p><h2 id="more-records-heading">기록 더 보기</h2></div>
+          <a href="/search/">모든 기록 검색 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="more-grid">
+          {moreStories.map((item) => (
+            <a href={item.href} class="more-card group">
+              <div class="more-image media-frame">
+                {item.coverImage ? <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" /> : <span>NO IMAGE</span>}
+              </div>
+              <div class="story-meta"><span>{item.label}</span><time datetime={item.pubDate.toISOString()}>{item.pubDate.toLocaleDateString('ko-KR')}</time></div>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
   </main>
 </Layout>
 
@@ -188,6 +210,13 @@ const latest = editorialFeed.slice(3, 7);
   .play-feature span { display:inline-block; margin-top:18px; font-size:11px; }
   .play-feature>strong { position:absolute; top:-25px; right:-8px; color:rgba(255,255,255,.1); font-family:Georgia,serif; font-size:150px; line-height:1; font-weight:400; }
   .empty-state,.empty-latest { padding:50px 0; color:var(--bbfc-gray-2); font-size:13px; text-align:center; }
+  .more-records { margin-top:54px; padding-top:42px; border-top:1px solid var(--bbfc-border); }
+  .more-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:34px 22px; padding-top:22px; }
+  .more-card { min-width:0; }
+  .more-image { aspect-ratio:16/10; margin-bottom:14px; border-radius:3px; }
+  .more-card h3 { margin-top:8px; font-size:17px; line-height:1.4; font-weight:670; letter-spacing:-.035em; }
+  .more-card>p { margin-top:7px; color:var(--bbfc-gray-1); font-size:11.5px; line-height:1.65; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .more-card .story-meta { justify-content:space-between; }
 
   @media (max-width: 900px) {
     .cover-grid { grid-template-columns:1fr; }
@@ -196,6 +225,7 @@ const latest = editorialFeed.slice(3, 7);
     .secondary-image { aspect-ratio:16/9; }
     .latest-layout { grid-template-columns:1fr; }
     .play-feature { min-height:180px; margin-top:0; }
+    .more-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
   }
   @media (max-width: 600px) {
     .home-magazine { padding-top:20px; }
@@ -214,6 +244,13 @@ const latest = editorialFeed.slice(3, 7);
     .latest-row { grid-template-columns:22px 82px minmax(0,1fr); gap:10px; }
     .latest-copy>p,.latest-row>time { display:none; }
     .latest-copy h3 { font-size:13.5px; }
+    .more-records { margin-top:42px; padding-top:32px; }
+    .more-grid { grid-template-columns:1fr; gap:28px; }
+    .more-card { display:grid; grid-template-columns:112px minmax(0,1fr); column-gap:13px; align-items:start; }
+    .more-image { grid-row:1 / span 3; margin:0; aspect-ratio:4/3; }
+    .more-card .story-meta { justify-content:flex-start; }
+    .more-card h3 { margin-top:5px; font-size:14px; }
+    .more-card>p { margin-top:5px; font-size:11px; }
   }
   @media (prefers-reduced-motion: reduce) {
     .media-frame img { transition:none; }

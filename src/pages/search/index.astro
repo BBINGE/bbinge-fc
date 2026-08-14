@@ -8,15 +8,25 @@ import { categories, getArticlePath } from '../../config/categories';
 const entries = (await getCollection('articles', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id)
 );
+const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id)
+);
 
-const searchIndex = entries.map((entry) => ({
+const searchIndex = [...entries.map((entry) => ({
   title: entry.data.title,
   description: entry.data.description,
   tags: entry.data.tags,
   href: getArticlePath(entry.data.category, entry.id),
   categoryLabel: categories[entry.data.category]?.label ?? '',
   pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
-}));
+})), ...archiveEntries.map((entry) => ({
+  title: entry.data.title,
+  description: entry.data.description,
+  tags: entry.data.keywords,
+  href: `/archive/${entry.data.branch}/${entry.data.index}/${entry.id}/`,
+  categoryLabel: '삥이 아카이브',
+  pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
+}))];
 ---
 
 <Layout
@@ -29,18 +39,24 @@ const searchIndex = entries.map((entry) => ({
   ]}
 >
   <div class="max-w-[680px] mx-auto px-4 md:px-5 py-6">
-    <h1 class="text-[20px] font-medium text-[var(--bbfc-ink)] mb-4">검색</h1>
-    <input
-      id="bbfc-search-input"
-      type="search"
-      placeholder="제목, 설명, 태그로 검색"
-      class="w-full text-[15px] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3.5 py-2.5 outline-none bg-[var(--bbfc-bg)] text-[var(--bbfc-ink)]"
-      autofocus
-    />
+    <h1 class="text-[20px] font-medium text-[var(--bbfc-ink)] mb-4">무엇이든 검색해보세요</h1>
+    <div class="search-prompt">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.35-4.35" stroke-linecap="round" /></svg>
+      <input id="bbfc-search-input" type="search" placeholder="선수, 대회, 장소, 이야기…" autofocus />
+    </div>
     <p id="bbfc-search-count" class="text-[12px] text-[var(--bbfc-gray-2)] mt-3 mb-1"></p>
     <div id="bbfc-search-results"></div>
   </div>
 </Layout>
+
+<style>
+  .search-prompt { display:flex; align-items:center; gap:11px; width:100%; min-height:52px; padding:0 17px; border:1px solid var(--bbfc-border); border-radius:26px; background:#fff; color:var(--bbfc-gray-2); box-shadow:0 16px 36px -26px rgba(22,31,43,.7); animation:prompt-float 4.2s ease-in-out infinite; }
+  .search-prompt:focus-within { border-color:var(--bbfc-blue); box-shadow:0 16px 40px -25px rgba(41,112,240,.55); }
+  .search-prompt input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:15px; }
+  .search-prompt input::placeholder { color:var(--bbfc-gray-2); }
+  @keyframes prompt-float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-3px); } }
+  @media (prefers-reduced-motion:reduce) { .search-prompt { animation:none; } }
+</style>
 
 <script is:inline define:vars={{ searchIndex }}>
   const input = document.getElementById('bbfc-search-input');
