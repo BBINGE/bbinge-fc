@@ -31,9 +31,10 @@ async function fetchJson(url, options = {}) {
 
 async function fetchBirthday(month, day) {
   const query = `
-SELECT ?person ?personLabel ?birth ?sitelinks WHERE {
+SELECT ?person ?personLabel ?birth ?image ?sitelinks WHERE {
   ?person wdt:P106/wdt:P279* wd:Q937857;
           wdt:P569 ?birth;
+          wdt:P18 ?image;
           wikibase:sitelinks ?sitelinks.
   FILTER(MONTH(?birth) = ${month} && DAY(?birth) = ${day})
   FILTER(?sitelinks >= 20)
@@ -57,16 +58,53 @@ LIMIT 12`;
     name: row.personLabel.value,
     birthYear: born.getUTCFullYear(),
     wikidataUrl: row.person.value,
+    imageUrl: row.image.value.replace(/^http:/, 'https:'),
   };
 }
 
+const FEATURED_LEAGUES = [
+  { id: '4480', weight: 100 },
+  { id: '4328', weight: 95 },
+  { id: '4335', weight: 90 },
+  { id: '4332', weight: 85 },
+  { id: '4331', weight: 80 },
+  { id: '4334', weight: 75 },
+  { id: '4481', weight: 70 },
+  { id: '4406', weight: 60 },
+  { id: '4351', weight: 55 },
+  { id: '4337', weight: 50 },
+];
+
+const BIG_CLUBS = [
+  'real madrid', 'barcelona', 'manchester united', 'manchester city', 'liverpool', 'arsenal', 'chelsea',
+  'tottenham', 'bayern munich', 'borussia dortmund', 'inter milan', 'internazionale', 'ac milan',
+  'juventus', 'napoli', 'paris saint-germain', 'psg', 'marseille', 'ajax', 'psv', 'benfica', 'porto',
+  'boca juniors', 'river plate', 'racing club', 'flamengo', 'palmeiras', 'corinthians', 'santos',
+];
+
+function eventScore(event, leagueWeight) {
+  const teams = `${event.strHomeTeam || ''} ${event.strAwayTeam || ''}`.toLowerCase();
+  const clubBonus = BIG_CLUBS.some((club) => teams.includes(club)) ? 100 : 0;
+  return clubBonus + leagueWeight;
+}
+
 async function fetchMatches(date) {
-  const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
-  url.searchParams.set('d', date);
-  url.searchParams.set('s', 'Soccer');
-  const payload = await fetchJson(url, { headers: { Accept: 'application/json' } });
-  const events = Array.isArray(payload?.events) ? payload.events : [];
-  return events.map((event) => {
+  const results = await Promise.allSettled(FEATURED_LEAGUES.map(async (league) => {
+    const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
+    url.searchParams.set('d', date);
+    url.searchParams.set('l', league.id);
+    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } });
+    return (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: league.weight }));
+  }));
+  let events = results.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
+  if (!events.length) {
+    const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
+    url.searchParams.set('d', date);
+    url.searchParams.set('s', 'Soccer');
+    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } });
+    events = (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: 0 }));
+  }
+  return events.map(({ event, weight }) => {
     const timestamp = event.strTimestamp ? new Date(event.strTimestamp) : null;
     const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
     const koreaDate = validTimestamp
@@ -80,10 +118,16 @@ async function fetchMatches(date) {
       league: event.strLeague || '축구 경기',
       home: event.strHomeTeam || '',
       away: event.strAwayTeam || '',
+      homeBadge: event.strHomeTeamBadge || '',
+      awayBadge: event.strAwayTeamBadge || '',
       time: koreaTime,
       date: koreaDate,
+      score: eventScore(event, weight),
     };
-  }).filter((event) => event.home && event.away && event.date === date).slice(0, 3);
+  }).filter((event) => event.home && event.away && event.date === date)
+    .sort((a, b) => b.score - a.score || a.time.localeCompare(b.time))
+    .slice(0, 3)
+    .map(({ score, ...event }) => event);
 }
 
 async function previousData() {
