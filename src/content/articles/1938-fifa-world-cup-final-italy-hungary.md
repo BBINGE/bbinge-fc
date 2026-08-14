@@ -34,7 +34,7 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <section class="highlight-scene">
   <header><span>6' · ITALY 1-0</span><h3>지노 콜라우시, 결승의 첫 터치</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="지노 콜라우시의 1938 월드컵 결승전 선제골"><source src="/media/highlights/1938-world-cup-final/colaussi-6.mp4" type="video/mp4" /></video><figcaption>오른쪽에서 시작된 공격을 콜라우시가 마무리하며 이탈리아가 먼저 앞섰다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="지노 콜라우시의 1938 월드컵 결승전 선제골"><source src="/media/highlights/1938-world-cup-final/colaussi-6.mp4?v=2" type="video/mp4" /></video><figcaption>오른쪽에서 시작된 공격을 콜라우시가 마무리하며 이탈리아가 먼저 앞섰다.</figcaption></figure></div>
   <p>경기 시작 6분 만에 이탈리아가 먼저 골문을 열었다. 오른쪽에서 넘어온 공이 문전으로 이어지고, 지노 콜라우시는 공을 길게 끌지 않은 채 골키퍼보다 먼저 마무리한다. 프랑스와의 8강, 브라질과의 준결승에서도 골을 넣었던 왼쪽 공격수가 결승에서도 가장 먼저 이름을 남겼다.</p>
   <p>영상에서 눈에 들어오는 것은 공격의 길이가 아니라 속도다. 이탈리아는 헝가리 수비가 자리를 완전히 잡기 전에 공을 골문 앞으로 보냈고, 콜라우시는 한 번의 간결한 판단으로 선제골을 만들었다.</p>
 </section>
@@ -43,7 +43,7 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <section class="highlight-scene">
   <header><span>8' · 1-1</span><h3>팔 티트코시, 2분 만에 경기를 되돌리다</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="팔 티트코시의 1938 월드컵 결승전 동점골"><source src="/media/highlights/1938-world-cup-final/titkos-8.mp4" type="video/mp4" /></video><figcaption>문전에서 흘러나온 공을 티트코시가 왼발로 때려 2분 만에 동점을 만들었다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="팔 티트코시의 1938 월드컵 결승전 동점골"><source src="/media/highlights/1938-world-cup-final/titkos-8.mp4?v=2" type="video/mp4" /></video><figcaption>문전에서 흘러나온 공을 티트코시가 왼발로 때려 2분 만에 동점을 만들었다.</figcaption></figure></div>
   <p>하지만 이탈리아의 리드는 2분밖에 가지 않았다. 헝가리가 곧장 이탈리아 진영으로 밀고 들어갔고, 문전에서 흘러나온 공을 팔 티트코시가 왼발로 때렸다. 골키퍼 알도 올리비에리가 몸을 날렸지만 공은 골문 안으로 들어갔다.</p>
   <p>결승전의 첫 두 골 사이에는 준비할 시간도, 분위기를 정리할 틈도 없었다. 앞선 팀이 숨을 고르기도 전에 1-1. 대회 최다 득점 팀 헝가리가 왜 결승까지 올라왔는지 보여주는 반응이었다.</p>
 </section>
@@ -52,7 +52,7 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <section class="highlight-scene">
   <header><span>16' · ITALY 2-1</span><h3>실비오 피올라, 좁은 문전을 뚫다</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="실비오 피올라의 1938 월드컵 결승전 첫 번째 골"><source src="/media/highlights/1938-world-cup-final/piola-16.mp4" type="video/mp4" /></video><figcaption>피올라가 문전의 혼전에서 공을 밀어 넣어 이탈리아를 다시 앞세웠다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="실비오 피올라의 1938 월드컵 결승전 첫 번째 골"><source src="/media/highlights/1938-world-cup-final/piola-16.mp4?v=2" type="video/mp4" /></video><figcaption>피올라가 문전의 혼전에서 공을 밀어 넣어 이탈리아를 다시 앞세웠다.</figcaption></figure></div>
   <p>균형이 깨지는 데에는 다시 8분밖에 걸리지 않았다. 이탈리아의 공격이 페널티 지역 안으로 이어졌고, 실비오 피올라는 수비수와 골키퍼가 몰린 좁은 공간에서 공을 골문으로 밀어 넣었다.</p>
   <p>피올라는 노르웨이전에서 결승골을 넣었고 개최국 프랑스를 상대로도 두 골을 기록했다. 결승의 첫 골까지 더하면서 그는 단순히 마지막 패스를 기다리는 공격수가 아니라, 대회 내내 이탈리아가 가장 필요할 때 승부를 움직인 해결사였음을 다시 보여줬다.</p>
 </section>
@@ -61,7 +61,7 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <section class="highlight-scene">
   <header><span>35' · ITALY 3-1</span><h3>콜라우시의 두 번째 골, 메아차의 마지막 패스</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="지노 콜라우시의 1938 월드컵 결승전 두 번째 골"><source src="/media/highlights/1938-world-cup-final/colaussi-35.mp4" type="video/mp4" /></video><figcaption>메아차가 오른쪽에서 보낸 공을 콜라우시가 받아 전반의 세 번째 골을 넣었다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="지노 콜라우시의 1938 월드컵 결승전 두 번째 골"><source src="/media/highlights/1938-world-cup-final/colaussi-35.mp4?v=2" type="video/mp4" /></video><figcaption>메아차가 오른쪽에서 보낸 공을 콜라우시가 받아 전반의 세 번째 골을 넣었다.</figcaption></figure></div>
   <p>전반 35분에는 주장 주세페 메아차가 오른쪽에서 공격을 이어받아 골문 앞을 바라봤다. 중앙으로 보낸 공을 콜라우시가 마무리하면서 점수는 3-1이 됐다. 선제골을 넣은 콜라우시가 멀티골을 완성했고, 이탈리아는 전반에만 세 골을 쌓았다.</p>
   <p>이 장면은 포초의 팀이 가진 공격진의 연결을 압축한다. 메아차가 수비의 시선을 끌고 마지막 공을 건네자 콜라우시가 반대편에서 들어왔다. 헝가리는 먼저 동점을 만들고도 전반이 끝나기 전에 두 골 차로 밀렸다.</p>
 </section>
@@ -80,7 +80,7 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <section class="highlight-scene">
   <header><span>70' · ITALY 3-2</span><h3>샤로시 죄르지, 다시 한 골 차</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="샤로시 죄르지의 1938 월드컵 결승전 추격골"><source src="/media/highlights/1938-world-cup-final/sarosi-70.mp4" type="video/mp4" /></video><figcaption>헝가리의 빠른 전개를 샤로시 죄르지가 마무리해 점수를 3-2로 좁혔다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="샤로시 죄르지의 1938 월드컵 결승전 추격골"><source src="/media/highlights/1938-world-cup-final/sarosi-70.mp4?v=2" type="video/mp4" /></video><figcaption>헝가리의 빠른 전개를 샤로시 죄르지가 마무리해 점수를 3-2로 좁혔다.</figcaption></figure></div>
   <p>후반 25분, 헝가리가 다시 속도를 냈다. 오른쪽으로 전개된 공격이 골문 앞으로 낮게 이어졌고, 주장 샤로시 죄르지가 달려들어 마무리했다. 3-2. 전반에 벌어진 두 골 차가 다시 한 골로 줄었다.</p>
   <p>샤로시 죄르지는 스위스전과 스웨덴전에서도 득점한 헝가리 공격의 중심이었다. 결승골이 되지는 못했지만, 그의 골은 끝난 듯 보이던 경기를 마지막 20분 동안 다시 살아 있게 만들었다.</p>
 </section>
@@ -89,7 +89,7 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <section class="highlight-scene">
   <header><span>82' · ITALY 4-2</span><h3>실비오 피올라, 최초의 2연패를 확정하다</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="실비오 피올라의 1938 월드컵 결승전 두 번째 골"><source src="/media/highlights/1938-world-cup-final/piola-82.mp4" type="video/mp4" /></video><figcaption>피올라가 오른발로 자신의 두 번째 골을 넣어 결승전을 4-2로 닫았다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="실비오 피올라의 1938 월드컵 결승전 두 번째 골"><source src="/media/highlights/1938-world-cup-final/piola-82.mp4?v=2" type="video/mp4" /></video><figcaption>피올라가 오른발로 자신의 두 번째 골을 넣어 결승전을 4-2로 닫았다.</figcaption></figure></div>
   <p>헝가리가 동점을 향해 올라오던 후반 37분, 이탈리아가 결정적인 한 번을 만들었다. 오른쪽에서 시작된 공격이 메아차를 거쳐 중앙으로 이어졌고, 피올라는 달려들며 오른발로 골문을 갈랐다. 자신의 결승전 두 번째 골이자 대회 다섯 번째 골이었다.</p>
   <p>첫 번째 피올라의 골이 이탈리아를 다시 앞세웠다면, 두 번째 골은 헝가리의 추격을 끝냈다. 남은 시간은 8분. 점수는 더 움직이지 않았고 이탈리아는 1934년에 이어 다시 세계 정상에 섰다.</p>
 </section>
