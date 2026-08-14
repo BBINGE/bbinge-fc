@@ -14,6 +14,7 @@ coverImageCaption: '1934 월드컵 베스트 11을 위해 직접 제작했던 �
 coverImageWidth: 773
 coverImageHeight: 773
 draft: false
+relatedGroup: 'fifa-world-cup-1934'
 ---
 
 <aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>1934년 이탈리아 월드컵은 유럽에서 열린 첫 대회이자, 조별리그 없이 16강부터 단판 승부로 시작한 월드컵이다. 개최국 이탈리아가 체코슬로바키아를 연장전 끝에 2-1로 꺾고 처음 우승했다. 이 글의 베스트 11은 당시 FIFA가 시상식에서 발표한 공식 명단이 아니라, 후대 월드컵 회고와 통계 자료에서 반복되는 열한 명을 2-3-5로 정리한 기록이다.</p></aside>
