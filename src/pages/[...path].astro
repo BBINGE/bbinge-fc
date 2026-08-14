@@ -316,9 +316,34 @@ if (props.kind === 'category') {
   .article-body :global(.highlight-clip-grid figure) { min-width: 0; margin: 0; }
   .article-body :global(.highlight-clip) { display: block; width: 100%; aspect-ratio: 10 / 7; border-radius: var(--bbfc-radius-lg); background: #101820; object-fit: cover; }
   .article-body :global(.highlight-clip-grid figcaption) { margin-top: 9px; padding: 0 4px; text-align: left; }
-  .article-body :global(.score-divider) { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin: 70px 0; padding: 18px 20px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
-  .article-body :global(.score-divider span) { color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .14em; }
-  .article-body :global(.score-divider strong) { font-size: 18px; }
+  .article-body :global(.world-cup-transition) { position: relative; overflow: hidden; margin: 82px 0; border-radius: 20px; color: #fff; isolation: isolate; box-shadow: 0 20px 48px rgba(6, 13, 22, .17); }
+  .article-body :global(.world-cup-transition::before) { content: ''; position: absolute; inset: 0; z-index: -2; background: radial-gradient(circle at 12% 18%, rgba(104, 176, 226, .18), transparent 30%), radial-gradient(circle at 90% 84%, rgba(204, 166, 91, .15), transparent 32%), linear-gradient(145deg, #152b43 0%, #08111d 62%, #05090e 100%); }
+  .article-body :global(.world-cup-transition::after) { content: ''; position: absolute; inset: 0; z-index: -1; opacity: .2; background-image: repeating-linear-gradient(0deg, transparent 0 3px, rgba(255,255,255,.04) 3px 4px), radial-gradient(ellipse at center, transparent 35%, #000 120%); pointer-events: none; }
+  .article-body :global(.transition-kicker) { display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 9px; line-height: 1.4; font-weight: 750; letter-spacing: .16em; }
+  .article-body :global(.transition-kicker span) { color: #9ed5f5; }
+  .article-body :global(.transition-kicker b) { color: rgba(255,255,255,.56); font-size: inherit; }
+  .article-body :global(.half-time-card) { padding: 27px 34px 23px; }
+  .article-body :global(.transition-score) { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 28px; margin: 35px auto 26px; max-width: 650px; }
+  .article-body :global(.transition-team) { display: grid; justify-items: center; text-align: center; }
+  .article-body :global(.transition-team img) { display: block; width: 76px; height: 50px; border-radius: 5px; object-fit: cover; box-shadow: 0 7px 18px rgba(0,0,0,.28); }
+  .article-body :global(.transition-team strong) { margin-top: 11px; font-size: 17px; line-height: 1.3; font-weight: 700; }
+  .article-body :global(.transition-team small) { margin-top: 2px; color: rgba(255,255,255,.46); font-size: 8px; letter-spacing: .14em; }
+  .article-body :global(.transition-numbers) { display: flex; align-items: center; gap: 17px; }
+  .article-body :global(.transition-numbers span) { color: #f4f2e8; font-family: Georgia, 'Times New Roman', serif; font-size: 78px; line-height: 1; font-weight: 400; }
+  .article-body :global(.transition-numbers em) { color: #d6b76d; font-size: 8px; line-height: 1.5; font-style: normal; font-weight: 750; letter-spacing: .14em; text-align: center; }
+  .article-body :global(.half-time-card > p) { margin: 0; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14); color: rgba(255,255,255,.42); font-size: 8px; line-height: 1.4; letter-spacing: .19em; text-align: center; }
+  .article-body :global(.full-time-poster) { min-height: 480px; padding: 31px 34px 28px; display: flex; flex-direction: column; justify-content: space-between; background: #080d14; }
+  .article-body :global(.full-time-poster::before) { background: linear-gradient(90deg, rgba(4,8,13,.96) 0%, rgba(4,8,13,.86) 43%, rgba(4,8,13,.2) 78%, rgba(4,8,13,.5) 100%), url('/images/highlights/1930-world-cup-final-cover.png') center 29% / cover no-repeat; filter: saturate(.48) contrast(1.08); }
+  .article-body :global(.full-time-poster::after) { opacity: .28; }
+  .article-body :global(.poster-shade) { position: absolute; inset: auto 0 0; z-index: -1; height: 48%; background: linear-gradient(transparent, rgba(2,5,9,.88)); }
+  .article-body :global(.poster-copy) { margin: 74px 0 54px; }
+  .article-body :global(.poster-copy small) { display: block; color: #d6b76d; font-size: 9px; font-weight: 750; letter-spacing: .15em; }
+  .article-body :global(.poster-copy strong) { display: block; margin-top: 12px; max-width: 430px; color: #f5f4ef; font-size: clamp(42px, 6.2vw, 66px); line-height: .98; font-weight: 760; letter-spacing: -.055em; text-shadow: 0 3px 20px rgba(0,0,0,.48); }
+  .article-body :global(.poster-copy p) { margin: 16px 0 0; color: rgba(255,255,255,.55); font-size: 9px; line-height: 1.4; letter-spacing: .14em; }
+  .article-body :global(.poster-winner) { display: flex; align-items: center; gap: 13px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.18); }
+  .article-body :global(.poster-winner img) { width: 58px; height: 38px; border-radius: 4px; object-fit: cover; box-shadow: 0 5px 14px rgba(0,0,0,.3); }
+  .article-body :global(.poster-winner span) { color: rgba(255,255,255,.5); font-size: 8px; line-height: 1.45; letter-spacing: .14em; }
+  .article-body :global(.poster-winner b) { color: #fff; font-size: 12px; }
   .article-body :global(.best-xi-cta) { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 20px; margin: 80px 0 28px; padding: 25px 28px; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: var(--bbfc-fill-2); color: var(--bbfc-ink); transition: border-color 160ms ease, transform 160ms ease; }
   .article-body :global(.best-xi-cta:hover) { border-color: var(--bbfc-blue); transform: translateY(-2px); }
   .article-body :global(.best-xi-cta > span) { font-size: 34px; }
@@ -350,8 +375,22 @@ if (props.kind === 'category') {
     .article-body :global(.highlight-scene) { margin-bottom: 54px; }
     .article-body :global(.highlight-scene header h3) { font-size: 19px; }
     .article-body :global(.highlight-clip-grid.two-clips) { grid-template-columns: 1fr; gap: 24px; }
-    .article-body :global(.score-divider) { margin: 56px 0; padding: 15px 12px; }
-    .article-body :global(.score-divider strong) { font-size: 15px; }
+    .article-body :global(.world-cup-transition) { margin: 62px 0; border-radius: 16px; }
+    .article-body :global(.half-time-card) { padding: 22px 15px 19px; }
+    .article-body :global(.transition-kicker) { gap: 12px; font-size: 7px; }
+    .article-body :global(.transition-score) { gap: 10px; margin: 28px auto 22px; }
+    .article-body :global(.transition-team img) { width: 55px; height: 36px; }
+    .article-body :global(.transition-team strong) { margin-top: 8px; font-size: 13px; }
+    .article-body :global(.transition-team small) { font-size: 6px; }
+    .article-body :global(.transition-numbers) { gap: 7px; }
+    .article-body :global(.transition-numbers span) { font-size: 52px; }
+    .article-body :global(.transition-numbers em) { font-size: 6px; }
+    .article-body :global(.full-time-poster) { min-height: 420px; padding: 23px 20px 21px; }
+    .article-body :global(.full-time-poster::before) { background-position: 62% 28%; }
+    .article-body :global(.poster-copy) { margin: 70px 0 72px; }
+    .article-body :global(.poster-copy strong) { max-width: 280px; font-size: 43px; }
+    .article-body :global(.poster-copy p) { max-width: 230px; font-size: 7px; }
+    .article-body :global(.poster-winner img) { width: 50px; height: 33px; }
     .article-body :global(.best-xi-cta) { gap: 14px; margin-top: 62px; padding: 20px 18px; }
     .article-body :global(.best-xi-cta > span) { font-size: 27px; }
     .article-body :global(.best-xi-cta strong) { font-size: 16px; }

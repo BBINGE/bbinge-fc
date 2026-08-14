@@ -67,7 +67,15 @@ featured: false
   <p>스타빌레는 프랑스와의 조별리그 첫 경기에 뛰지 못했다. 그런데 멕시코전 해트트릭으로 대회에 등장한 뒤 칠레전 2골, 미국과의 준결승 2골, 결승 1골까지 4경기에서 8골을 넣었다. 첫 월드컵의 득점왕은 전반을 아르헨티나의 2-1로 끝내는 데까지 자신의 이름을 남겼다.</p>
 </section>
 
-<div class="score-divider"><span>HALF TIME</span><strong>우루과이 1-2 아르헨티나</strong></div>
+<div class="world-cup-transition half-time-card" aria-label="전반 종료, 우루과이 1대2 아르헨티나">
+  <div class="transition-kicker"><span>1930 FIFA WORLD CUP</span><b>FINAL · MONTEVIDEO</b></div>
+  <div class="transition-score">
+    <div class="transition-team"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <div class="transition-numbers"><span>1</span><em>HALF<br />TIME</em><span>2</span></div>
+    <div class="transition-team"><img src="/images/flags/ar.svg" alt="아르헨티나 국기" /><strong>아르헨티나</strong><small>ARGENTINA</small></div>
+  </div>
+  <p>45 MINUTES · THE FINAL TURNS</p>
+</div>
 
 전반에 사용한 아르헨티나의 공은 여기까지였다. 후반에는 약속대로 우루과이가 준비한 공으로 바뀐다. 당시의 공은 지금처럼 완벽히 규격화된 하나의 감각이 아니었고, 가죽의 상태와 공기압에 따라 선수들이 느끼는 차이도 컸다. 그리고 공이 바뀐 뒤 경기의 방향도 정말 뒤집혔다.
 
@@ -97,7 +105,12 @@ featured: false
   <p>카스트로는 어린 시절 사고로 오른팔의 일부를 잃어 ‘엘 만코<span class="foreign-note" lang="es">(El Manco; 외팔이)</span>’라고 불렸다. 그는 페루와의 첫 경기에서 우루과이의 월드컵 첫 골을 넣었고, 결승에서는 대회의 마지막 골을 넣었다. 우루과이의 첫 월드컵은 카스트로의 골로 시작해 카스트로의 골로 끝났다.</p>
 </section>
 
-## Full Time: 첫 번째 세계 챔피언
+<div class="world-cup-transition full-time-poster" aria-label="경기 종료, 우루과이 초대 월드컵 우승">
+  <div class="poster-shade"></div>
+  <div class="transition-kicker"><span>30 JULY 1930</span><b>ESTADIO CENTENARIO</b></div>
+  <div class="poster-copy"><small>FULL TIME · URUGUAY 4–2 ARGENTINA</small><strong>첫 번째<br />세계 챔피언</strong><p>URUGUAY · THE FIRST WORLD CHAMPIONS</p></div>
+  <div class="poster-winner"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
+</div>
 
 <section class="highlight-scene">
   <header><span>FULL TIME · 4-2</span><h3>우루과이, 초대 월드컵 우승</h3></header>
