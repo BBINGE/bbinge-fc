@@ -94,6 +94,8 @@ const LEAGUE_LABELS = new Map([
   ['Dutch Eredivisie', '에레디비시'],
   ['UEFA Champions League', 'UEFA 챔피언스 리그'],
   ['UEFA Europa League', 'UEFA 유로파 리그'],
+  ['UEFA Europa Conference League', 'UEFA 컨퍼런스 리그'],
+  ['UEFA Conference League', 'UEFA 컨퍼런스 리그'],
   ['Portuguese Primeira Liga', '프리메이라리가'],
   ['Argentinian Primera Division', '아르헨티나 프리메라 디비시온'],
 ]);

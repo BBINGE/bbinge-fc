@@ -40,7 +40,7 @@ export const archiveBranches: ArchiveBranch[] = [
     originalTitle: 'CLUB COMPETITIONS',
     description: '대륙별 클럽 대항전의 개편 전후를 당대의 공식 명칭으로 구분한 기록.',
     indexes: [
-      ['european-cup', '유러피언컵'], ['uefa-champions-league', 'UEFA 챔피언스 리그'], ['uefa-cup-winners-cup', 'UEFA 컵위너스컵'], ['uefa-cup', 'UEFA 컵'], ['uefa-europa-league', 'UEFA 유로파 리그'], ['uefa-europa-conference-league', 'UEFA 유로파 콘퍼런스 리그'], ['copa-libertadores', '코파 리베르타도레스'], ['intercontinental-cup', '인터콘티넨털컵'],
+      ['european-cup', '유러피언컵'], ['uefa-champions-league', 'UEFA 챔피언스 리그'], ['uefa-cup-winners-cup', 'UEFA 컵위너스컵'], ['uefa-cup', 'UEFA 컵'], ['uefa-europa-league', 'UEFA 유로파 리그'], ['uefa-europa-conference-league', 'UEFA 컨퍼런스 리그'], ['copa-libertadores', '코파 리베르타도레스'], ['intercontinental-cup', '인터콘티넨털컵'],
     ].map(([slug, label]) => ({ slug, label })),
   },
   {
