@@ -30,6 +30,39 @@ const playerImages: Record<string, string> = Object.fromEntries(
 );
 Object.assign(playerImages, archivePlayerImages);
 const playerCredits = playerImageFile.portraits;
+const flagBackgrounds: Record<string, string> = {
+  브라질: 'linear-gradient(145deg,#159447 0 34%,#f7d117 34% 66%,#17479e 66%)',
+  우루과이: 'repeating-linear-gradient(180deg,#fff 0 12%,#69b9e9 12% 24%)',
+  스페인: 'linear-gradient(180deg,#aa151b 0 25%,#f1bf00 25% 75%,#aa151b 75%)',
+  이탈리아: 'linear-gradient(90deg,#169b62 0 33%,#fff 33% 66%,#ce2b37 66%)',
+  오스트리아: 'linear-gradient(180deg,#ed2939 0 33%,#fff 33% 66%,#ed2939 66%)',
+  잉글랜드: 'linear-gradient(90deg,transparent 43%,#c8102e 43% 57%,transparent 57%),linear-gradient(180deg,#fff 42%,#c8102e 42% 58%,#fff 58%)',
+  헝가리: 'linear-gradient(180deg,#ce2939 0 33%,#fff 33% 66%,#477050 66%)',
+  프랑스: 'linear-gradient(90deg,#183b8f 0 33%,#fff 33% 66%,#e23b45 66%)',
+  독일: 'linear-gradient(180deg,#161616 0 33%,#d71920 33% 66%,#f5cf35 66%)',
+  서독: 'linear-gradient(180deg,#161616 0 33%,#d71920 33% 66%,#f5cf35 66%)',
+  네덜란드: 'linear-gradient(180deg,#ae1c28 0 33%,#fff 33% 66%,#21468b 66%)',
+  포르투갈: 'linear-gradient(90deg,#046a38 0 40%,#da291c 40%)',
+  아르헨티나: 'linear-gradient(180deg,#75aadb 0 33%,#fff 33% 66%,#75aadb 66%)',
+  체코: 'linear-gradient(180deg,#fff 0 50%,#d7141a 50%)',
+  체코슬로바키아: 'linear-gradient(180deg,#fff 0 50%,#d7141a 50%)',
+  소련: 'linear-gradient(135deg,#cd0000 0 72%,#f5d000 72%)',
+  스코틀랜드: 'linear-gradient(45deg,transparent 43%,#fff 43% 57%,transparent 57%),linear-gradient(-45deg,#07519b 43%,#fff 43% 57%,#07519b 57%)',
+  북아일랜드: 'linear-gradient(90deg,transparent 43%,#c8102e 43% 57%,transparent 57%),linear-gradient(180deg,#fff 42%,#c8102e 42% 58%,#fff 58%)',
+  폴란드: 'linear-gradient(180deg,#fff 0 50%,#dc143c 50%)',
+  우크라이나: 'linear-gradient(180deg,#1769aa 0 50%,#ffd700 50%)',
+  라이베리아: 'repeating-linear-gradient(180deg,#c8102e 0 9%,#fff 9% 18%)',
+  코트디부아르: 'linear-gradient(90deg,#f77f00 0 33%,#fff 33% 66%,#009e60 66%)',
+  카메룬: 'linear-gradient(90deg,#007a5e 0 33%,#ce1126 33% 66%,#fcd116 66%)',
+  대한민국: 'linear-gradient(135deg,#fff 0 44%,#cd2e3a 44% 58%,#0047a0 58% 72%,#fff 72%)',
+  불가리아: 'linear-gradient(180deg,#fff 0 33%,#00966e 33% 66%,#d62612 66%)',
+  벨기에: 'linear-gradient(90deg,#111 0 33%,#fdda24 33% 66%,#ef3340 66%)',
+  스웨덴: 'linear-gradient(90deg,transparent 30%,#ffcd00 30% 40%,transparent 40%),linear-gradient(180deg,#006aa7 42%,#ffcd00 42% 58%,#006aa7 58%)',
+  크로아티아: 'linear-gradient(180deg,#ff0000 0 33%,#fff 33% 66%,#171796 66%)',
+  이집트: 'linear-gradient(180deg,#ce1126 0 33%,#fff 33% 66%,#000 66%)',
+  웨일스: 'linear-gradient(180deg,#fff 0 50%,#00ab39 50%)',
+  덴마크: 'linear-gradient(90deg,transparent 30%,#fff 30% 38%,transparent 38%),linear-gradient(180deg,#c60c30 43%,#fff 43% 56%,#c60c30 56%)',
+};
 const focalPoints = focalPointFile.points as Record<string, { x: number; y: number; faceWidth?: number }>;
 const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, src]) => {
   const point = focalPoints[src] ?? { x: 50, y: 28, faceWidth: 32 };
@@ -61,7 +94,7 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
   </div>
 </Layout>
 
-<script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits, playerFocus }}>
+<script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits, playerFocus, flagBackgrounds }}>
   const STORAGE_KEY = 'bbfc-goat-v3';
   const ROUND_NAME = { 32: '32강', 16: '16강', 8: '8강', 4: '4강', 2: '결승' };
   const POSITION_KR = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };
@@ -168,6 +201,8 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
     const clubs = player.clubs.join(' · ');
     const image = playerImages[player.id];
     const focus = playerFocus[player.id] ?? { x: 50, y: 28, zoom: 1 };
+    const nationality = player.nationality.split('·')[0];
+    const flag = flagBackgrounds[nationality] ?? 'linear-gradient(135deg,#1d395a,#12243b)';
     const punchline = player.nicknameKr || player.nickname || player.note || `${player.position}의 정점`;
     return `
       <button type="button" class="goat-card goat-card--${side}" data-player-id="${player.id}" data-side="${side}" aria-label="${player.name} 선택">
@@ -180,10 +215,11 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
           <span class="goat-card__shade"></span>
           <span class="goat-card__position">${player.position}</span>
         </span>
-        <span class="goat-card__body">
+        <span class="goat-card__body" style="--player-flag:${flag}">
           <span class="goat-card__country">${player.nationality} · ${POSITION_KR[player.position] ?? player.position}</span>
           <strong class="goat-card__name">${player.name}</strong>
           <span class="goat-card__nickname">“${punchline}”</span>
+          <span class="goat-card__greatness">${player.greatness}</span>
           <span class="goat-card__clubs">${clubs}</span>
         </span>
       </button>
@@ -437,11 +473,15 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
   .goat-card__waiting { position: absolute; bottom: 38px; font-size: 10px; color: rgba(255,255,255,.45); letter-spacing: .1em; }
   .goat-card__shade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 48%, rgba(5,13,24,.9) 100%); }
   .goat-card__position { position: absolute; top: 12px; left: 12px; padding: 5px 7px; border: 1px solid rgba(255,255,255,.22); border-radius: 5px; background: rgba(5,15,28,.68); color: #9dc3ff; font-size: 10px; font-weight: 800; letter-spacing: .08em; backdrop-filter: blur(5px); }
-  .goat-card__body { display: flex; min-height: 150px; flex-direction: column; padding: 15px 15px 17px; }
-  .goat-card__country { color: #91a4ba; font-size: 10px; }
+  .goat-card__body { position:relative; display:flex; min-height:250px; flex-direction:column; padding:22px 22px 24px; overflow:hidden; background:#12243b; }
+  .goat-card__body::before { content:''; position:absolute; inset:0; background:var(--player-flag); opacity:.13; filter:saturate(.85); transform:scale(1.08); }
+  .goat-card__body::after { content:''; position:absolute; inset:0; background:linear-gradient(110deg,rgba(9,24,42,.94),rgba(9,24,42,.68)); }
+  .goat-card__body > * { position:relative; z-index:1; }
+  .goat-card__country { color:#b8c9dc; font-size:17px; font-weight:650; }
   .goat-card__name { display: block; margin-top: 4px; color: #fff; font-size: clamp(17px, 2.4vw, 24px); line-height: 1.18; letter-spacing: -.03em; }
-  .goat-card__nickname { display: block; margin-top: 11px; color: #8fbdff; font-size: clamp(12px, 1.5vw, 14px); font-weight: 700; }
-  .goat-card__clubs { display: block; margin-top: auto; padding-top: 13px; color: #8092a8; font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .goat-card__nickname { display:block; margin-top:14px; color:#91bdff; font-size:clamp(19px,2vw,24px); line-height:1.2; font-weight:850; }
+  .goat-card__greatness { display:block; margin-top:10px; color:rgba(255,255,255,.86); font-size:15px; line-height:1.5; font-weight:560; }
+  .goat-card__clubs { display:block; margin-top:auto; padding-top:18px; color:#a9bbcf; font-size:17px; line-height:1.35; white-space:normal; }
   .goat-vs { position: absolute; z-index: 8; top: 42%; left: 50%; display: grid; width: 52px; height: 52px; place-items: center; border: 3px solid #091525; border-radius: 50%; background: #fff; transform: translate(-50%,-50%) rotate(-7deg); box-shadow: 0 8px 24px rgba(0,0,0,.28); pointer-events: none; }
   .goat-vs span { color: #0b1b2d; font-size: 16px; font-weight: 950; font-style: italic; }
   .goat-credits { margin-top: 10px; color: var(--bbfc-gray-2); font-size: 10px; }
@@ -471,9 +511,10 @@ const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, sr
     .goat-arena { gap: 7px; padding: 7px; border-radius: 17px; }
     .goat-card { border-radius: 12px; }
     .goat-card__media { height: 235px; }
-    .goat-card__body { min-height: 143px; padding: 12px 10px 14px; }
-    .goat-card__country, .goat-card__clubs { font-size: 9px; }
-    .goat-card__nickname { min-height: 32px; line-height: 1.3; }
+    .goat-card__body { min-height:260px; padding:16px 12px 18px; }
+    .goat-card__country, .goat-card__clubs { font-size:15px; }
+    .goat-card__nickname { min-height:46px; font-size:19px; line-height:1.25; }
+    .goat-card__greatness { font-size:13px; line-height:1.45; }
     .goat-vs { width: 42px; height: 42px; }
     .goat-vs span { font-size: 13px; }
   }

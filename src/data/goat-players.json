@@ -22,7 +22,8 @@
       "era": "pre1950",
       "nickname": "O Tigre",
       "nicknameKr": "호랑이",
-      "note": "최초의 혼혈 슈퍼스타"
+      "note": "최초의 혼혈 슈퍼스타",
+      "greatness": "최초의 혼혈 슈퍼스타"
     },
     {
       "id": "andrade",
@@ -36,7 +37,8 @@
       "era": "pre1950",
       "nickname": "La Maravilla Negra",
       "nicknameKr": "검은 경이",
-      "note": ""
+      "note": "",
+      "greatness": "1920년대 세계 축구가 처음 마주한 흑인 미드필더 슈퍼스타"
     },
     {
       "id": "zamora",
@@ -51,7 +53,8 @@
       "era": "pre1950",
       "nickname": "El Divino",
       "nicknameKr": "신성한 자",
-      "note": "사모라상의 그 사모라"
+      "note": "사모라상의 그 사모라",
+      "greatness": "사모라상의 그 사모라"
     },
     {
       "id": "meazza",
@@ -65,7 +68,8 @@
       "era": "pre1950",
       "nickname": "Il Balilla",
       "nicknameKr": "소년",
-      "note": "산 시로의 정식 명칭"
+      "note": "산 시로의 정식 명칭",
+      "greatness": "산 시로의 정식 명칭"
     },
     {
       "id": "sindelar",
@@ -79,7 +83,8 @@
       "era": "pre1950",
       "nickname": "Der Papierene",
       "nicknameKr": "종이 인간",
-      "note": "분더팀의 심장"
+      "note": "분더팀의 심장",
+      "greatness": "분더팀의 심장"
     },
     {
       "id": "leonidas",
@@ -93,7 +98,8 @@
       "era": "pre1950",
       "nickname": "Diamante Negro",
       "nicknameKr": "검은 다이아몬드",
-      "note": "바이시클킥의 대중화"
+      "note": "바이시클킥의 대중화",
+      "greatness": "바이시클킥의 대중화"
     },
     {
       "id": "matthews",
@@ -108,7 +114,8 @@
       "era": "pre1950",
       "nickname": "The Wizard of the Dribble",
       "nicknameKr": "드리블의 마법사",
-      "note": "초대 발롱도르"
+      "note": "초대 발롱도르",
+      "greatness": "초대 발롱도르"
     },
     {
       "id": "zizinho",
@@ -122,7 +129,8 @@
       "era": "pre1950",
       "nickname": "Mestre Ziza",
       "nicknameKr": "지자 선생",
-      "note": "펠레의 우상"
+      "note": "펠레의 우상",
+      "greatness": "펠레의 우상"
     },
     {
       "id": "mazzola-valentino",
@@ -136,7 +144,8 @@
       "era": "pre1950",
       "nickname": "",
       "nicknameKr": "",
-      "note": "그란데 토리노의 주장"
+      "note": "그란데 토리노의 주장",
+      "greatness": "그란데 토리노의 주장"
     },
     {
       "id": "puskas",
@@ -151,7 +160,8 @@
       "era": "1950s60s",
       "nickname": "Öcsi",
       "nicknameKr": "꼬마 동생",
-      "note": ""
+      "note": "",
+      "greatness": "헝가리 황금세대의 주장, 대표팀 85경기 84골의 왼발"
     },
     {
       "id": "di-stefano",
@@ -165,11 +175,12 @@
       "era": "1950s60s",
       "nickname": "La Saeta Rubia",
       "nicknameKr": "금발의 화살",
-      "note": ""
+      "note": "",
+      "greatness": "유러피언컵 5연패를 지휘한 레알 마드리드 최초의 절대자"
     },
     {
       "id": "kocsis",
-      "name": "산도르 코치시",
+      "name": "코치시 샨도르",
       "nameOriginal": "Kocsis Sándor",
       "nationality": "헝가리",
       "clubs": [
@@ -180,11 +191,12 @@
       "era": "1950s60s",
       "nickname": "Aranyfejű",
       "nicknameKr": "황금 머리",
-      "note": "헤더의 신"
+      "note": "헤더의 신",
+      "greatness": "헤더의 신"
     },
     {
       "id": "hidegkuti",
-      "name": "난도르 히데구티",
+      "name": "히데그쿠티 난도르",
       "nameOriginal": "Hidegkuti Nándor",
       "nationality": "헝가리",
       "clubs": [
@@ -194,7 +206,8 @@
       "era": "1950s60s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "폴스 나인의 원조"
+      "note": "폴스 나인의 원조",
+      "greatness": "폴스 나인의 원조"
     },
     {
       "id": "pele",
@@ -208,7 +221,8 @@
       "era": "1950s60s",
       "nickname": "O Rei",
       "nicknameKr": "왕",
-      "note": ""
+      "note": "",
+      "greatness": "월드컵을 세 번 들어 올린 축구 역사상 유일한 선수"
     },
     {
       "id": "garrincha",
@@ -222,7 +236,8 @@
       "era": "1950s60s",
       "nickname": "A Alegria do Povo",
       "nicknameKr": "민중의 기쁨",
-      "note": "이름 자체가 '굴뚝새'"
+      "note": "이름 자체가 '굴뚝새'",
+      "greatness": "이름 자체가 '굴뚝새'"
     },
     {
       "id": "didi",
@@ -236,7 +251,8 @@
       "era": "1950s60s",
       "nickname": "O Príncipe Etíope",
       "nicknameKr": "에티오피아의 왕자",
-      "note": "폴랴 세카 프리킥"
+      "note": "폴랴 세카 프리킥",
+      "greatness": "폴랴 세카 프리킥"
     },
     {
       "id": "nilton-santos",
@@ -250,7 +266,8 @@
       "era": "1950s60s",
       "nickname": "A Enciclopédia",
       "nicknameKr": "백과사전",
-      "note": "공격형 풀백의 원조"
+      "note": "공격형 풀백의 원조",
+      "greatness": "축구사 이래 가장 완벽한 레프트백 TOP 5에 드는 선구자"
     },
     {
       "id": "yashin",
@@ -264,7 +281,8 @@
       "era": "1950s60s",
       "nickname": "Chyorny Pauk",
       "nicknameKr": "검은 거미",
-      "note": "GK 유일 발롱도르"
+      "note": "GK 유일 발롱도르",
+      "greatness": "GK 유일 발롱도르"
     },
     {
       "id": "eusebio",
@@ -278,7 +296,8 @@
       "era": "1950s60s",
       "nickname": "Pantera Negra",
       "nicknameKr": "검은 표범",
-      "note": ""
+      "note": "",
+      "greatness": "벤피카와 포르투갈을 세계 정상권으로 끌어올린 득점왕"
     },
     {
       "id": "bobby-charlton",
@@ -292,7 +311,8 @@
       "era": "1950s60s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "뮌헨의 생존자, 유럽의 정복자"
+      "note": "뮌헨의 생존자, 유럽의 정복자",
+      "greatness": "뮌헨의 생존자, 유럽의 정복자"
     },
     {
       "id": "bobby-moore",
@@ -306,7 +326,8 @@
       "era": "1950s60s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "펠레가 꼽은 최고의 수비수"
+      "note": "펠레가 꼽은 최고의 수비수",
+      "greatness": "펠레가 꼽은 최고의 수비수"
     },
     {
       "id": "denis-law",
@@ -320,7 +341,8 @@
       "era": "1950s60s",
       "nickname": "The Lawman",
       "nicknameKr": "로우맨",
-      "note": ""
+      "note": "",
+      "greatness": "맨체스터 유나이티드의 왕이 된 1964년 발롱도르"
     },
     {
       "id": "george-best",
@@ -334,7 +356,8 @@
       "era": "1950s60s",
       "nickname": "El Beatle",
       "nicknameKr": "다섯 번째 비틀",
-      "note": ""
+      "note": "",
+      "greatness": "드리블과 스타성을 동시에 지배한 북아일랜드 최고의 재능"
     },
     {
       "id": "kopa",
@@ -349,7 +372,8 @@
       "era": "1950s60s",
       "nickname": "Le Napoléon du football",
       "nicknameKr": "축구의 나폴레옹",
-      "note": ""
+      "note": "",
+      "greatness": "레알의 유럽 제패를 완성한 프랑스 최초의 발롱도르"
     },
     {
       "id": "fontaine",
@@ -363,7 +387,8 @@
       "era": "1950s60s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "단일 월드컵 13골"
+      "note": "단일 월드컵 13골",
+      "greatness": "단일 월드컵 13골"
     },
     {
       "id": "gento",
@@ -377,7 +402,8 @@
       "era": "1950s60s",
       "nickname": "La Galerna del Cantábrico",
       "nicknameKr": "칸타브리아의 돌풍",
-      "note": "유러피언컵 6회"
+      "note": "유러피언컵 6회",
+      "greatness": "유러피언컵 6회"
     },
     {
       "id": "luis-suarez-m",
@@ -392,7 +418,8 @@
       "era": "1950s60s",
       "nickname": "El Arquitecto",
       "nicknameKr": "건축가",
-      "note": ""
+      "note": "",
+      "greatness": "스페인 남자 선수 최초의 발롱도르 수상자"
     },
     {
       "id": "sivori",
@@ -406,7 +433,8 @@
       "era": "1950s60s",
       "nickname": "El Cabezón",
       "nicknameKr": "큰머리",
-      "note": "고집쟁이"
+      "note": "고집쟁이",
+      "greatness": "고집쟁이"
     },
     {
       "id": "schiaffino",
@@ -421,7 +449,8 @@
       "era": "1950s60s",
       "nickname": "Pepe",
       "nicknameKr": "페페",
-      "note": ""
+      "note": "",
+      "greatness": "마라카나수와 밀란을 연결한 1950년대 최고의 플레이메이커"
     },
     {
       "id": "varela",
@@ -435,7 +464,8 @@
       "era": "1950s60s",
       "nickname": "El Negro Jefe",
       "nicknameKr": "검은 대장",
-      "note": "마라카나수의 주역"
+      "note": "마라카나수의 주역",
+      "greatness": "마라카나수의 주역"
     },
     {
       "id": "masopust",
@@ -449,11 +479,12 @@
       "era": "1950s60s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "1962 발롱도르"
+      "note": "1962 발롱도르",
+      "greatness": "1962 발롱도르"
     },
     {
       "id": "albert",
-      "name": "플로리안 알베르트",
+      "name": "얼베르트 플로리안",
       "nameOriginal": "Albert Flórián",
       "nationality": "헝가리",
       "clubs": [
@@ -463,7 +494,8 @@
       "era": "1950s60s",
       "nickname": "A Császár",
       "nicknameKr": "황제",
-      "note": "1967 발롱도르"
+      "note": "1967 발롱도르",
+      "greatness": "1967 발롱도르"
     },
     {
       "id": "seeler",
@@ -477,7 +509,8 @@
       "era": "1950s60s",
       "nickname": "Uns Uwe",
       "nicknameKr": "우리의 우베",
-      "note": "원클럽맨"
+      "note": "원클럽맨",
+      "greatness": "원클럽맨"
     },
     {
       "id": "cruyff",
@@ -492,7 +525,8 @@
       "era": "1970s80s",
       "nickname": "El Flaco",
       "nicknameKr": "홀쭉이",
-      "note": ""
+      "note": "",
+      "greatness": "토털 풋볼을 한 선수의 몸으로 설명한 세 차례 발롱도르"
     },
     {
       "id": "neeskens",
@@ -507,7 +541,8 @@
       "era": "1970s80s",
       "nickname": "Johan de Tweede",
       "nicknameKr": "요한 2세",
-      "note": ""
+      "note": "",
+      "greatness": "압박·침투·득점을 모두 수행한 토털 풋볼의 엔진"
     },
     {
       "id": "beckenbauer",
@@ -521,7 +556,8 @@
       "era": "1970s80s",
       "nickname": "Der Kaiser",
       "nicknameKr": "황제",
-      "note": ""
+      "note": "",
+      "greatness": "리베로를 수비수가 아닌 경기 지휘자로 바꾼 황제"
     },
     {
       "id": "gerd-muller",
@@ -535,7 +571,8 @@
       "era": "1970s80s",
       "nickname": "Der Bomber der Nation",
       "nicknameKr": "국가의 폭격기",
-      "note": ""
+      "note": "",
+      "greatness": "작은 공간에서 골을 발명한 독일 축구 최고의 해결사"
     },
     {
       "id": "rummenigge",
@@ -549,7 +586,8 @@
       "era": "1970s80s",
       "nickname": "Kalle",
       "nicknameKr": "칼레",
-      "note": ""
+      "note": "",
+      "greatness": "속도와 파괴력으로 발롱도르를 연속 수상한 바이에른의 에이스"
     },
     {
       "id": "platini",
@@ -563,7 +601,8 @@
       "era": "1970s80s",
       "nickname": "Le Roi",
       "nicknameKr": "왕",
-      "note": "발롱도르 3연속"
+      "note": "발롱도르 3연속",
+      "greatness": "발롱도르 3연속"
     },
     {
       "id": "zico",
@@ -577,7 +616,8 @@
       "era": "1970s80s",
       "nickname": "O Galinho de Quintino",
       "nicknameKr": "킨치누의 작은 수탉",
-      "note": "하얀 펠레"
+      "note": "하얀 펠레",
+      "greatness": "하얀 펠레"
     },
     {
       "id": "socrates",
@@ -591,7 +631,8 @@
       "era": "1970s80s",
       "nickname": "O Doutor",
       "nicknameKr": "박사",
-      "note": "실제 의학박사"
+      "note": "실제 의학박사",
+      "greatness": "실제 의학박사"
     },
     {
       "id": "falcao-paulo",
@@ -606,7 +647,8 @@
       "era": "1970s80s",
       "nickname": "O Rei de Roma",
       "nicknameKr": "로마의 왕",
-      "note": ""
+      "note": "",
+      "greatness": "브라질 1982의 리듬을 설계한 완성형 중앙 미드필더"
     },
     {
       "id": "rivellino",
@@ -620,7 +662,8 @@
       "era": "1970s80s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "엘라스티코의 원조"
+      "note": "엘라스티코의 원조",
+      "greatness": "엘라스티코의 원조"
     },
     {
       "id": "jairzinho",
@@ -634,7 +677,8 @@
       "era": "1970s80s",
       "nickname": "Furacão da Copa",
       "nicknameKr": "월드컵의 허리케인",
-      "note": "1970 전경기 득점"
+      "note": "1970 전경기 득점",
+      "greatness": "1970 전경기 득점"
     },
     {
       "id": "carlos-alberto",
@@ -648,7 +692,8 @@
       "era": "1970s80s",
       "nickname": "O Capitão do Tri",
       "nicknameKr": "3회 우승의 주장",
-      "note": ""
+      "note": "",
+      "greatness": "1970 브라질의 주장, 풀백 공격의 교과서가 된 결승골"
     },
     {
       "id": "maradona",
@@ -662,7 +707,8 @@
       "era": "1970s80s",
       "nickname": "El Pibe de Oro",
       "nicknameKr": "황금 소년",
-      "note": ""
+      "note": "",
+      "greatness": "한 사람의 재능으로 나폴리와 아르헨티나의 운명을 바꾼 10번"
     },
     {
       "id": "passarella",
@@ -676,7 +722,8 @@
       "era": "1970s80s",
       "nickname": "El Gran Capitán",
       "nicknameKr": "위대한 주장",
-      "note": ""
+      "note": "",
+      "greatness": "월드컵 우승을 이끈 주장, 공격력까지 갖춘 남미 최고의 센터백"
     },
     {
       "id": "kempes",
@@ -690,7 +737,8 @@
       "era": "1970s80s",
       "nickname": "El Matador",
       "nicknameKr": "마타도르",
-      "note": ""
+      "note": "",
+      "greatness": "1978 월드컵 득점왕과 우승을 동시에 움켜쥔 아르헨티나의 영웅"
     },
     {
       "id": "dalglish",
@@ -704,7 +752,8 @@
       "era": "1970s80s",
       "nickname": "King Kenny",
       "nicknameKr": "킹 케니",
-      "note": ""
+      "note": "",
+      "greatness": "리버풀 황금기의 공격과 우승 문화를 지배한 킹 케니"
     },
     {
       "id": "keegan",
@@ -719,7 +768,8 @@
       "era": "1970s80s",
       "nickname": "Mighty Mouse",
       "nicknameKr": "마이티 마우스",
-      "note": "발롱도르 2회"
+      "note": "발롱도르 2회",
+      "greatness": "발롱도르 2회"
     },
     {
       "id": "lineker",
@@ -734,7 +784,8 @@
       "era": "1970s80s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "경고 0회 커리어"
+      "note": "경고 0회 커리어",
+      "greatness": "경고 0회 커리어"
     },
     {
       "id": "paolo-rossi",
@@ -748,7 +799,8 @@
       "era": "1970s80s",
       "nickname": "Pablito",
       "nicknameKr": "파블리토",
-      "note": ""
+      "note": "",
+      "greatness": "1982 월드컵을 해트트릭부터 결승골까지 끝낸 승부사"
     },
     {
       "id": "zoff",
@@ -762,7 +814,8 @@
       "era": "1970s80s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "40세 월드컵 우승 주장"
+      "note": "40세 월드컵 우승 주장",
+      "greatness": "40세 월드컵 우승 주장"
     },
     {
       "id": "scirea",
@@ -776,7 +829,8 @@
       "era": "1970s80s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "리베로의 품격"
+      "note": "리베로의 품격",
+      "greatness": "리베로의 품격"
     },
     {
       "id": "boniek",
@@ -790,7 +844,8 @@
       "era": "1970s80s",
       "nickname": "Bello di notte",
       "nicknameKr": "밤의 미남",
-      "note": "아넬리가 붙임"
+      "note": "아넬리가 붙임",
+      "greatness": "아넬리가 붙임"
     },
     {
       "id": "blokhin",
@@ -804,7 +859,8 @@
       "era": "1970s80s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "1975 발롱도르"
+      "note": "1975 발롱도르",
+      "greatness": "1975 발롱도르"
     },
     {
       "id": "hugo-sanchez",
@@ -818,7 +874,8 @@
       "era": "1970s80s",
       "nickname": "Hugol",
       "nicknameKr": "우골",
-      "note": "시저스킥의 사나이"
+      "note": "시저스킥의 사나이",
+      "greatness": "시저스킥의 사나이"
     },
     {
       "id": "francescoli",
@@ -832,7 +889,8 @@
       "era": "1970s80s",
       "nickname": "El Príncipe",
       "nicknameKr": "왕자",
-      "note": "지단의 우상"
+      "note": "지단의 우상",
+      "greatness": "지단의 우상"
     },
     {
       "id": "figueroa",
@@ -846,7 +904,8 @@
       "era": "1970s80s",
       "nickname": "Don Elías",
       "nicknameKr": "돈 엘리아스",
-      "note": ""
+      "note": "",
+      "greatness": "펠레 시대 남미에서 3년 연속 최고로 뽑힌 수비수"
     },
     {
       "id": "cha-bum-kun",
@@ -861,7 +920,8 @@
       "era": "1970s80s",
       "nickname": "Tscha Bum",
       "nicknameKr": "차붐",
-      "note": "푸스발-분데스리가의 갈색 폭격기"
+      "note": "푸스발-분데스리가의 갈색 폭격기",
+      "greatness": "푸스발-분데스리가의 갈색 폭격기"
     },
     {
       "id": "laudrup",
@@ -876,7 +936,8 @@
       "era": "1970s80s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "우아함의 대명사"
+      "note": "우아함의 대명사",
+      "greatness": "우아함의 대명사"
     },
     {
       "id": "zidane",
@@ -891,7 +952,8 @@
       "era": "1990s00s",
       "nickname": "Zizou",
       "nicknameKr": "지주",
-      "note": ""
+      "note": "",
+      "greatness": "월드컵과 유로, 챔피언스리그 결승을 지배한 큰 경기의 10번"
     },
     {
       "id": "henry",
@@ -905,7 +967,8 @@
       "era": "1990s00s",
       "nickname": "Titi",
       "nicknameKr": "티티",
-      "note": "하이버리의 왕"
+      "note": "하이버리의 왕",
+      "greatness": "하이버리의 왕"
     },
     {
       "id": "cantona",
@@ -919,7 +982,8 @@
       "era": "1990s00s",
       "nickname": "The King",
       "nicknameKr": "킹",
-      "note": ""
+      "note": "",
+      "greatness": "맨유의 우승 본능을 깨운 프리미어리그 시대의 첫 번째 왕"
     },
     {
       "id": "ronaldo-r9",
@@ -934,7 +998,8 @@
       "era": "1990s00s",
       "nickname": "O Fenômeno",
       "nicknameKr": "현상",
-      "note": ""
+      "note": "",
+      "greatness": "속도·기술·결정력을 한 몸에 넣은 현대형 스트라이커의 원형"
     },
     {
       "id": "ronaldinho",
@@ -948,7 +1013,8 @@
       "era": "1990s00s",
       "nickname": "Gaúcho",
       "nicknameKr": "가우슈",
-      "note": "O Bruxo(마법사)"
+      "note": "O Bruxo(마법사)",
+      "greatness": "O Bruxo(마법사)"
     },
     {
       "id": "rivaldo",
@@ -962,7 +1028,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "1999 발롱도르"
+      "note": "1999 발롱도르",
+      "greatness": "1999 발롱도르"
     },
     {
       "id": "romario",
@@ -976,7 +1043,8 @@
       "era": "1990s00s",
       "nickname": "O Baixinho",
       "nicknameKr": "꼬마",
-      "note": ""
+      "note": "",
+      "greatness": "페널티박스 안 한 번의 터치로 1994 브라질을 우승시킨 골잡이"
     },
     {
       "id": "cafu",
@@ -990,7 +1058,8 @@
       "era": "1990s00s",
       "nickname": "Il Pendolino",
       "nicknameKr": "특급열차",
-      "note": ""
+      "note": "",
+      "greatness": "월드컵 결승에 세 번 연속 선발로 나선 유일한 선수"
     },
     {
       "id": "roberto-carlos",
@@ -1004,7 +1073,8 @@
       "era": "1990s00s",
       "nickname": "El Hombre Bala",
       "nicknameKr": "총알 사나이",
-      "note": ""
+      "note": "",
+      "greatness": "왼쪽 측면을 혼자 점유한 역대 최고 공격형 풀백 후보"
     },
     {
       "id": "kaka",
@@ -1018,7 +1088,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "2007 발롱도르, 이름 자체가 애칭"
+      "note": "2007 발롱도르, 이름 자체가 애칭",
+      "greatness": "2007 발롱도르, 이름 자체가 애칭"
     },
     {
       "id": "maldini",
@@ -1032,7 +1103,8 @@
       "era": "1990s00s",
       "nickname": "Il Capitano",
       "nicknameKr": "주장",
-      "note": ""
+      "note": "",
+      "greatness": "25년 동안 세계 최고 수준을 유지한 수비의 기준점"
     },
     {
       "id": "baresi",
@@ -1046,7 +1118,8 @@
       "era": "1990s00s",
       "nickname": "Piscinin",
       "nicknameKr": "꼬마",
-      "note": "밀라노 방언"
+      "note": "밀라노 방언",
+      "greatness": "밀라노 방언"
     },
     {
       "id": "nesta",
@@ -1061,7 +1134,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "수비의 예술"
+      "note": "수비의 예술",
+      "greatness": "수비의 예술"
     },
     {
       "id": "cannavaro",
@@ -1076,7 +1150,8 @@
       "era": "1990s00s",
       "nickname": "Il Muro di Berlino",
       "nicknameKr": "베를린 장벽",
-      "note": "2006 발롱도르"
+      "note": "2006 발롱도르",
+      "greatness": "2006 발롱도르"
     },
     {
       "id": "buffon",
@@ -1090,7 +1165,8 @@
       "era": "1990s00s",
       "nickname": "Gigi",
       "nicknameKr": "지지",
-      "note": ""
+      "note": "",
+      "greatness": "20년 넘게 정상급을 지킨 골키퍼 포지션의 절대 기준"
     },
     {
       "id": "totti",
@@ -1104,7 +1180,8 @@
       "era": "1990s00s",
       "nickname": "Er Pupone",
       "nicknameKr": "큰 아기",
-      "note": "로마 방언"
+      "note": "로마 방언",
+      "greatness": "로마 방언"
     },
     {
       "id": "baggio",
@@ -1119,7 +1196,8 @@
       "era": "1990s00s",
       "nickname": "Il Divin Codino",
       "nicknameKr": "신성한 꽁지머리",
-      "note": ""
+      "note": "",
+      "greatness": "세리에 A의 수비를 상대로 예술과 득점을 함께 만든 판타지스타"
     },
     {
       "id": "batistuta",
@@ -1134,7 +1212,8 @@
       "era": "1990s00s",
       "nickname": "Batigol",
       "nicknameKr": "바티골",
-      "note": ""
+      "note": "",
+      "greatness": "강한 슈팅과 연속 득점으로 세리에 A를 폭격한 바티골"
     },
     {
       "id": "riquelme",
@@ -1148,7 +1227,8 @@
       "era": "1990s00s",
       "nickname": "El Último Diez",
       "nicknameKr": "마지막 10번",
-      "note": ""
+      "note": "",
+      "greatness": "경기의 속도를 자신의 발밑에 묶어 둔 마지막 고전적 10번"
     },
     {
       "id": "zanetti",
@@ -1162,7 +1242,8 @@
       "era": "1990s00s",
       "nickname": "Il Trattore",
       "nicknameKr": "트랙터",
-      "note": ""
+      "note": "",
+      "greatness": "인테르 858경기와 트레블을 완성한 측면의 철인"
     },
     {
       "id": "raul",
@@ -1176,7 +1257,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "라울이 곧 브랜드"
+      "note": "라울이 곧 브랜드",
+      "greatness": "라울이 곧 브랜드"
     },
     {
       "id": "casillas",
@@ -1190,7 +1272,8 @@
       "era": "1990s00s",
       "nickname": "San Iker",
       "nicknameKr": "성(聖) 이케르",
-      "note": ""
+      "note": "",
+      "greatness": "레알과 스페인의 황금기를 문 앞에서 지킨 성 이케르"
     },
     {
       "id": "figo",
@@ -1205,7 +1288,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "세기의 이적"
+      "note": "세기의 이적",
+      "greatness": "세기의 이적"
     },
     {
       "id": "beckham",
@@ -1220,7 +1304,8 @@
       "era": "1990s00s",
       "nickname": "Becks",
       "nicknameKr": "벡스",
-      "note": ""
+      "note": "",
+      "greatness": "오른발 킥 하나를 세계적인 전술 무기로 만든 맨유의 7번"
     },
     {
       "id": "scholes",
@@ -1234,7 +1319,8 @@
       "era": "1990s00s",
       "nickname": "The Ginger Prince",
       "nicknameKr": "빨간 머리 왕자",
-      "note": ""
+      "note": "",
+      "greatness": "패스·중거리 슛·경기 조율을 겸비한 미드필더들의 교과서"
     },
     {
       "id": "gerrard",
@@ -1248,7 +1334,8 @@
       "era": "1990s00s",
       "nickname": "Stevie G",
       "nicknameKr": "스티비 지",
-      "note": "이스탄불의 밤"
+      "note": "이스탄불의 밤",
+      "greatness": "이스탄불의 밤"
     },
     {
       "id": "bergkamp",
@@ -1262,7 +1349,8 @@
       "era": "1990s00s",
       "nickname": "The Non-Flying Dutchman",
       "nicknameKr": "날지 않는 네덜란드인",
-      "note": "비행공포증"
+      "note": "비행공포증",
+      "greatness": "비행공포증"
     },
     {
       "id": "gullit",
@@ -1276,7 +1364,8 @@
       "era": "1990s00s",
       "nickname": "De Zwarte Tulp",
       "nicknameKr": "검은 튤립",
-      "note": "1987 발롱도르"
+      "note": "1987 발롱도르",
+      "greatness": "1987 발롱도르"
     },
     {
       "id": "van-basten",
@@ -1290,7 +1379,8 @@
       "era": "1990s00s",
       "nickname": "San Marco",
       "nicknameKr": "성(聖) 마르코",
-      "note": "발롱도르 3회"
+      "note": "발롱도르 3회",
+      "greatness": "발롱도르 3회"
     },
     {
       "id": "matthaus",
@@ -1305,7 +1395,8 @@
       "era": "1990s00s",
       "nickname": "Loddar",
       "nicknameKr": "로다",
-      "note": "1990 발롱도르"
+      "note": "1990 발롱도르",
+      "greatness": "1990 발롱도르"
     },
     {
       "id": "kahn",
@@ -1319,7 +1410,8 @@
       "era": "1990s00s",
       "nickname": "Der Titan",
       "nicknameKr": "타이탄",
-      "note": ""
+      "note": "",
+      "greatness": "골키퍼 최초 월드컵 골든볼로 증명한 압도적 존재감"
     },
     {
       "id": "nedved",
@@ -1334,11 +1426,12 @@
       "era": "1990s00s",
       "nickname": "La Furia Ceca",
       "nicknameKr": "체코의 분노",
-      "note": "2003 발롱도르"
+      "note": "2003 발롱도르",
+      "greatness": "2003 발롱도르"
     },
     {
       "id": "shevchenko",
-      "name": "안드리 셰브첸코",
+      "name": "안드리 셰우첸코",
       "nameOriginal": "Andriy Shevchenko",
       "nationality": "우크라이나",
       "clubs": [
@@ -1348,7 +1441,8 @@
       "era": "1990s00s",
       "nickname": "Sheva",
       "nicknameKr": "셰바",
-      "note": "2004 발롱도르"
+      "note": "2004 발롱도르",
+      "greatness": "2004 발롱도르"
     },
     {
       "id": "weah",
@@ -1362,7 +1456,8 @@
       "era": "1990s00s",
       "nickname": "King George",
       "nicknameKr": "조지 왕",
-      "note": "훗날 진짜 대통령"
+      "note": "훗날 진짜 대통령",
+      "greatness": "훗날 진짜 대통령"
     },
     {
       "id": "drogba",
@@ -1376,7 +1471,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "내전을 멈춘 남자"
+      "note": "내전을 멈춘 남자",
+      "greatness": "내전을 멈춘 남자"
     },
     {
       "id": "etoo",
@@ -1391,7 +1487,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "트레블 백투백"
+      "note": "트레블 백투백",
+      "greatness": "트레블 백투백"
     },
     {
       "id": "xavi",
@@ -1405,7 +1502,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "라 마시아의 메트로놈"
+      "note": "라 마시아의 메트로놈",
+      "greatness": "라 마시아의 메트로놈"
     },
     {
       "id": "iniesta",
@@ -1419,7 +1517,8 @@
       "era": "1990s00s",
       "nickname": "Don Andrés",
       "nicknameKr": "돈 안드레스",
-      "note": ""
+      "note": "",
+      "greatness": "공간을 지우는 드리블과 결승골로 스페인의 황금기를 완성"
     },
     {
       "id": "park-ji-sung",
@@ -1433,7 +1532,8 @@
       "era": "1990s00s",
       "nickname": "Three-Lung Park",
       "nicknameKr": "산소탱크",
-      "note": ""
+      "note": "",
+      "greatness": "압박과 활동량으로 유럽 최정상 전술에 들어간 아시아 미드필더"
     },
     {
       "id": "stoichkov",
@@ -1447,7 +1547,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "1994 발롱도르"
+      "note": "1994 발롱도르",
+      "greatness": "1994 발롱도르"
     },
     {
       "id": "messi",
@@ -1461,7 +1562,8 @@
       "era": "2010s",
       "nickname": "La Pulga",
       "nicknameKr": "벼룩",
-      "note": ""
+      "note": "",
+      "greatness": "득점·도움·드리블을 모두 역사상 최고 수준으로 끌어올린 8회 발롱도르"
     },
     {
       "id": "cristiano",
@@ -1475,7 +1577,8 @@
       "era": "2010s",
       "nickname": "CR7",
       "nicknameKr": "CR7",
-      "note": "El Bicho"
+      "note": "El Bicho",
+      "greatness": "El Bicho"
     },
     {
       "id": "neymar",
@@ -1490,7 +1593,8 @@
       "era": "2010s",
       "nickname": "Ney",
       "nicknameKr": "네이",
-      "note": ""
+      "note": "",
+      "greatness": "브라질의 10번 계보를 이은 동시대 최고의 일대일 공격수"
     },
     {
       "id": "mbappe",
@@ -1505,7 +1609,8 @@
       "era": "2010s",
       "nickname": "Donatello",
       "nicknameKr": "도나텔로",
-      "note": "월드컵 결승 해트트릭"
+      "note": "월드컵 결승 해트트릭",
+      "greatness": "월드컵 결승 해트트릭"
     },
     {
       "id": "lewandowski",
@@ -1520,7 +1625,8 @@
       "era": "2010s",
       "nickname": "Lewangoalski",
       "nicknameKr": "레반골스키",
-      "note": "9분 5골"
+      "note": "9분 5골",
+      "greatness": "9분 5골"
     },
     {
       "id": "zlatan",
@@ -1535,7 +1641,8 @@
       "era": "2010s",
       "nickname": "Ibracadabra",
       "nicknameKr": "이브라카다브라",
-      "note": ""
+      "note": "",
+      "greatness": "네 개 리그에서 우승과 곡예 같은 득점을 반복한 장수 스트라이커"
     },
     {
       "id": "luis-suarez",
@@ -1550,7 +1657,8 @@
       "era": "2010s",
       "nickname": "El Pistolero",
       "nicknameKr": "총잡이",
-      "note": ""
+      "note": "",
+      "greatness": "압박·연계·득점을 모두 갖춘 2010년대 최고의 9번 후보"
     },
     {
       "id": "modric",
@@ -1564,7 +1672,8 @@
       "era": "2010s",
       "nickname": "Lukita",
       "nicknameKr": "루키타",
-      "note": "2018 발롱도르"
+      "note": "2018 발롱도르",
+      "greatness": "2018 발롱도르"
     },
     {
       "id": "kroos",
@@ -1578,7 +1687,8 @@
       "era": "2010s",
       "nickname": "Garçom",
       "nicknameKr": "웨이터",
-      "note": "브라질 팬들이 붙임"
+      "note": "브라질 팬들이 붙임",
+      "greatness": "브라질 팬들이 붙임"
     },
     {
       "id": "sergio-ramos",
@@ -1592,7 +1702,8 @@
       "era": "2010s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "93:20"
+      "note": "93:20",
+      "greatness": "93:20"
     },
     {
       "id": "salah",
@@ -1606,7 +1717,8 @@
       "era": "2010s",
       "nickname": "The Egyptian King",
       "nicknameKr": "이집트의 왕",
-      "note": ""
+      "note": "",
+      "greatness": "리버풀의 프리미어리그·유럽 제패를 이끈 이집트의 득점왕"
     },
     {
       "id": "van-dijk",
@@ -1620,7 +1732,8 @@
       "era": "2010s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "수비의 재정의"
+      "note": "수비의 재정의",
+      "greatness": "수비의 재정의"
     },
     {
       "id": "de-bruyne",
@@ -1634,7 +1747,8 @@
       "era": "2010s",
       "nickname": "KDB",
       "nicknameKr": "KDB",
-      "note": ""
+      "note": "",
+      "greatness": "프리미어리그의 패스 각도와 속도를 다시 정의한 플레이메이커"
     },
     {
       "id": "neuer",
@@ -1648,7 +1762,8 @@
       "era": "2010s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "스위퍼 키퍼의 재정의"
+      "note": "스위퍼 키퍼의 재정의",
+      "greatness": "바이에른 전성기와 독일의 월드컵 우승을 완성한 스위퍼 키퍼"
     },
     {
       "id": "thomas-muller",
@@ -1662,7 +1777,8 @@
       "era": "2010s",
       "nickname": "Raumdeuter",
       "nicknameKr": "공간 해석가",
-      "note": "본인이 만든 말"
+      "note": "본인이 만든 말",
+      "greatness": "본인이 만든 말"
     },
     {
       "id": "benzema",
@@ -1676,7 +1792,8 @@
       "era": "2010s",
       "nickname": "The Cat",
       "nicknameKr": "고양이",
-      "note": "2022 발롱도르"
+      "note": "2022 발롱도르",
+      "greatness": "2022 발롱도르"
     },
     {
       "id": "pirlo",
@@ -1691,7 +1808,8 @@
       "era": "2010s",
       "nickname": "L'Architetto",
       "nicknameKr": "건축가",
-      "note": ""
+      "note": "",
+      "greatness": "낮은 위치에서 경기 전체를 설계한 레지스타의 완성형"
     },
     {
       "id": "son-heung-min",
@@ -1705,7 +1823,8 @@
       "era": "2010s",
       "nickname": "Sonny",
       "nicknameKr": "소니",
-      "note": "손세이셔널"
+      "note": "손세이셔널",
+      "greatness": "손세이셔널"
     },
     {
       "id": "kim-min-jae",
@@ -1720,7 +1839,8 @@
       "era": "2010s",
       "nickname": "The Monster",
       "nicknameKr": "괴물",
-      "note": ""
+      "note": "",
+      "greatness": "나폴리 33년 만의 우승을 지탱한 세리에 A 최우수 수비수"
     },
     {
       "id": "scarone",
@@ -1734,7 +1854,8 @@
       "era": "pre1950",
       "nickname": "El Mago",
       "nicknameKr": "마법사",
-      "note": ""
+      "note": "",
+      "greatness": "우루과이 최초의 세계 제패 시대를 대표한 당대 최고의 내부 공격수"
     },
     {
       "id": "nasazzi",
@@ -1748,7 +1869,8 @@
       "era": "pre1950",
       "nickname": "El Gran Mariscal",
       "nicknameKr": "위대한 원수",
-      "note": "1930 초대 월드컵 우승 주장"
+      "note": "1930 초대 월드컵 우승 주장",
+      "greatness": "1930 초대 월드컵 우승 주장"
     },
     {
       "id": "fritz-walter",
@@ -1762,11 +1884,12 @@
       "era": "1950s60s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "비 오면 강해서 '프리츠 발터 날씨'"
+      "note": "비 오면 강해서 '프리츠 발터 날씨'",
+      "greatness": "비 오면 강해서 '프리츠 발터 날씨'"
     },
     {
       "id": "bozsik",
-      "name": "요제프 보지크",
+      "name": "보지크 요제프",
       "nameOriginal": "Bozsik József",
       "nationality": "헝가리",
       "clubs": [
@@ -1776,7 +1899,8 @@
       "era": "1950s60s",
       "nickname": "Cucu",
       "nicknameKr": "쿠쿠",
-      "note": ""
+      "note": "",
+      "greatness": "경기의 리듬과 공간을 지배한 시대 대표 미드필더"
     },
     {
       "id": "zagallo",
@@ -1790,7 +1914,8 @@
       "era": "1950s60s",
       "nickname": "Formiguinha",
       "nicknameKr": "작은 개미",
-      "note": "감독으로는 '늙은 늑대'"
+      "note": "감독으로는 '늙은 늑대'",
+      "greatness": "감독으로는 '늙은 늑대'"
     },
     {
       "id": "coluna",
@@ -1804,7 +1929,8 @@
       "era": "1950s60s",
       "nickname": "O Monstro Sagrado",
       "nicknameKr": "신성한 괴물",
-      "note": ""
+      "note": "",
+      "greatness": "벤피카 유러피언컵 2연패를 지휘한 중원의 장군"
     },
     {
       "id": "greaves",
@@ -1818,7 +1944,8 @@
       "era": "1950s60s",
       "nickname": "Greavsie",
       "nicknameKr": "그리브시",
-      "note": ""
+      "note": "",
+      "greatness": "잉글랜드 1부 통산 357골을 남긴 페널티박스의 천재"
     },
     {
       "id": "finney",
@@ -1832,7 +1959,8 @@
       "era": "1950s60s",
       "nickname": "The Preston Plumber",
       "nicknameKr": "프레스턴의 배관공",
-      "note": ""
+      "note": "",
+      "greatness": "당대 수비가 가장 두려워한 시대 대표 공격수"
     },
     {
       "id": "john-charles",
@@ -1846,7 +1974,8 @@
       "era": "1950s60s",
       "nickname": "Il Gigante Buono",
       "nicknameKr": "착한 거인",
-      "note": "퇴장 0회"
+      "note": "퇴장 0회",
+      "greatness": "퇴장 0회"
     },
     {
       "id": "vogts",
@@ -1860,7 +1989,8 @@
       "era": "1970s80s",
       "nickname": "Der Terrier",
       "nicknameKr": "테리어",
-      "note": ""
+      "note": "",
+      "greatness": "크라위프를 봉쇄하고 월드컵을 들어 올린 대인 수비의 표본"
     },
     {
       "id": "rijkaard",
@@ -1874,7 +2004,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "밀란 3대장의 축"
+      "note": "밀란 3대장의 축",
+      "greatness": "밀란 3대장의 축"
     },
     {
       "id": "giggs",
@@ -1888,7 +2019,8 @@
       "era": "1990s00s",
       "nickname": "The Welsh Wizard",
       "nicknameKr": "웨일스의 마법사",
-      "note": ""
+      "note": "",
+      "greatness": "프리미어리그 13회 우승을 관통한 맨유 왼쪽 측면의 상징"
     },
     {
       "id": "thuram",
@@ -1903,7 +2035,8 @@
       "era": "1990s00s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "1998 준결승 인생 두 골"
+      "note": "1998 준결승 인생 두 골",
+      "greatness": "1998 준결승 인생 두 골"
     },
     {
       "id": "del-piero",
@@ -1917,7 +2050,8 @@
       "era": "1990s00s",
       "nickname": "Pinturicchio",
       "nicknameKr": "핀투리키오",
-      "note": "화가 이름, 아넬리가 붙임"
+      "note": "화가 이름, 아넬리가 붙임",
+      "greatness": "화가 이름, 아넬리가 붙임"
     },
     {
       "id": "rodri",
@@ -1931,7 +2065,8 @@
       "era": "2010s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "2024 발롱도르"
+      "note": "2024 발롱도르",
+      "greatness": "맨체스터 시티의 트레블과 스페인의 유로 우승을 통제한 발롱도르"
     },
     {
       "id": "dani-alves",
@@ -1945,7 +2080,8 @@
       "era": "2010s",
       "nickname": "",
       "nicknameKr": "",
-      "note": "역대 최다 우승 커리어"
+      "note": "역대 최다 우승 커리어",
+      "greatness": "역대 최다 우승 커리어"
     }
   ]
 }

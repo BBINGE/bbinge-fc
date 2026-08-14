@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T14:38:57.922Z",
+  "updatedAt": "2026-08-14T15:12:00.422Z",
   "portraits": {
     "friedenreich": {
       "src": "/images/goat/players/friedenreich.jpg",
@@ -58,11 +58,11 @@
       "license": "Public domain"
     },
     "puskas": {
-      "src": "/images/goat/players/puskas.jpg",
+      "src": "/images/goat/players/puskas.png",
       "wikidata": "https://www.wikidata.org/wiki/Q482931",
-      "commons": "https://commons.wikimedia.org/wiki/File:Puskas_(1971).tif",
-      "author": "Unknown Unknown",
-      "license": "Public domain"
+      "commons": "https://commons.wikimedia.org/wiki/File:Puskas_1954.png",
+      "author": "Wim van Rossem for Anefo",
+      "license": "CC BY-SA 3.0"
     },
     "di-stefano": {
       "src": "/images/goat/players/di-stefano.jpg",
@@ -109,9 +109,9 @@
     "nilton-santos": {
       "src": "/images/goat/players/nilton-santos.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q83329",
-      "commons": "https://commons.wikimedia.org/wiki/File:Nilton_Santos_-_2004.jpg",
-      "author": "Rose Brasil",
-      "license": "CC BY 3.0 br"
+      "commons": "https://commons.wikimedia.org/wiki/File:Castilho,_Pel%C3%A9,_Bellini,_De_Sordi_and_N%C3%ADlton_Santos_at_Maracan%C3%A3_stadium,_circa_1959.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
     },
     "yashin": {
       "src": "/images/goat/players/yashin.jpg",
@@ -207,9 +207,9 @@
     "seeler": {
       "src": "/images/goat/players/seeler.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q44470",
-      "commons": "https://commons.wikimedia.org/wiki/File:Uwe_Seeler_%E2%80%93_Tag_der_Legenden_2016_03.jpg",
-      "author": "Frank Schwichtenberg",
-      "license": "CC BY-SA 3.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Uwe_Seeler_1966_(cropped).jpg",
+      "author": "Joop van Bilsen for Anefo",
+      "license": "CC0"
     },
     "cruyff": {
       "src": "/images/goat/players/cruyff.jpg",
@@ -242,9 +242,9 @@
     "rummenigge": {
       "src": "/images/goat/players/rummenigge.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q152871",
-      "commons": "https://commons.wikimedia.org/wiki/File:2015-02-06_Rummenigge_0400.JPG",
-      "author": "Michael Lucan",
-      "license": "CC BY-SA 3.0 de"
+      "commons": "https://commons.wikimedia.org/wiki/File:FC_Inter_1985-86_-_Karl-Heinz_Rummenigge_e_Franco_Selvaggi.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
     },
     "platini": {
       "src": "/images/goat/players/platini.jpg",
@@ -263,8 +263,8 @@
     "socrates": {
       "src": "/images/goat/players/socrates.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q913",
-      "commons": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg",
-      "author": "Copy of Lysippos (?)",
+      "commons": "https://commons.wikimedia.org/wiki/File:Socrates_elgrafico_1983.jpg",
+      "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
     "falcao-paulo": {
@@ -319,8 +319,8 @@
     "dalglish": {
       "src": "/images/goat/players/dalglish.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q187198",
-      "commons": "https://commons.wikimedia.org/wiki/File:Kenny_Dalglish_2009_Singapore.jpg",
-      "author": "Saw from Singapore",
+      "commons": "https://commons.wikimedia.org/wiki/File:Kenny_Dalglish_1980s_(cropped).jpg",
+      "author": "Jim Wall from Burntwood, UK",
       "license": "CC BY-SA 2.0"
     },
     "lineker": {
@@ -361,9 +361,9 @@
     "blokhin": {
       "src": "/images/goat/players/blokhin.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q186691",
-      "commons": "https://commons.wikimedia.org/wiki/File:Oleg_Blokhin2013.jpg",
-      "author": "Илья Хохлов",
-      "license": "CC BY-SA 3.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Oleg_Blokhin_1977.jpg",
+      "author": "Croes, Rob C. for Anefo",
+      "license": "CC0"
     },
     "hugo-sanchez": {
       "src": "/images/goat/players/hugo-sanchez.jpg",
@@ -375,9 +375,9 @@
     "francescoli": {
       "src": "/images/goat/players/francescoli.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q210083",
-      "commons": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_2011.jpg",
-      "author": "Christophe95",
-      "license": "CC BY-SA 3.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_1984.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
     },
     "cha-bum-kun": {
       "src": "/images/goat/players/cha-bum-kun.jpg",
@@ -396,30 +396,30 @@
     "zidane": {
       "src": "/images/goat/players/zidane.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q1835",
-      "commons": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg",
-      "author": "Hadi Abyar",
-      "license": "CC BY 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Zinedine_zidane_2005_cropped.jpg",
+      "author": "David de Biasi De Biasí from málaga, españa",
+      "license": "CC BY 2.0"
     },
     "henry": {
       "src": "/images/goat/players/henry.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q45901",
-      "commons": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg",
-      "author": "Web Summit",
+      "commons": "https://commons.wikimedia.org/wiki/File:Italy_vs_France_-_FIFA_World_Cup_2006_final_-_Thierry_Henry.jpg",
+      "author": "Original: David Ruddell / Derivative work: Danyele",
       "license": "CC BY 2.0"
     },
     "cantona": {
       "src": "/images/goat/players/cantona.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q170328",
-      "commons": "https://commons.wikimedia.org/wiki/File:Eric_Cantona_Cannes_2009.jpg",
-      "author": "Georges Biard",
-      "license": "CC BY-SA 3.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Cantona,_Eric.jpg",
+      "author": "Stan Wiechers",
+      "license": "CC BY-SA 2.0"
     },
     "ronaldinho": {
       "src": "/images/goat/players/ronaldinho.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q111918457",
-      "commons": "https://commons.wikimedia.org/wiki/File:Ensaio_da_Acad%C3%AAmicos_do_Salgueiro_no_Samb%C3%B3dromo_2008_04.jpg",
-      "author": "Ricardo Almeida Fotógrafo",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Ronaldinho.jpg",
+      "author": "Darz Mol",
+      "license": "CC BY-SA 3.0"
     },
     "rivaldo": {
       "src": "/images/goat/players/rivaldo.jpg",
@@ -431,23 +431,23 @@
     "romario": {
       "src": "/images/goat/players/romario.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q178649",
-      "commons": "https://commons.wikimedia.org/wiki/File:Senadores_da_57%C2%AA_Legislatura_(52689451805).jpg",
-      "author": "Agência Senado from Brasilia, Brazil",
-      "license": "CC BY 2.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Dunga,_Lula_%26_Rom%C3%A1rio_at_announcement_of_Brazil_as_2014_FIFA_World_Cup_host_2007-10-30_(cropped).jpg",
+      "author": "Ricardo Stuckert/PR",
+      "license": "CC BY 3.0 br"
     },
     "cafu": {
       "src": "/images/goat/players/cafu.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q178683",
-      "commons": "https://commons.wikimedia.org/wiki/File:Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg",
-      "author": "Lula Oficial",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Cafu_2007.jpg",
+      "author": "Александр Мельников",
+      "license": "CC BY-SA 3.0"
     },
     "roberto-carlos": {
       "src": "/images/goat/players/roberto-carlos.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q465191",
-      "commons": "https://commons.wikimedia.org/wiki/File:Roberto_Carlos_Credicard_Hall_(44435767951).jpg",
-      "author": "Teca Lamboglia from São Paulo, Brasil",
-      "license": "CC BY 2.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Roberto_Carlos_Corinthians.jpg",
+      "author": "50brian",
+      "license": "Public domain"
     },
     "kaka": {
       "src": "/images/goat/players/kaka.jpg",
@@ -459,9 +459,9 @@
     "maldini": {
       "src": "/images/goat/players/maldini.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q483027",
-      "commons": "https://commons.wikimedia.org/wiki/File:Paolo_Maldini_press_conference_in_Tehran_(cropped).jpg",
-      "author": "Foad Ashtari",
-      "license": "CC BY 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Maldini2008.JPG",
+      "author": "Yelena Rybakova",
+      "license": "CC BY-SA 1.0"
     },
     "baresi": {
       "src": "/images/goat/players/baresi.jpg",
@@ -473,16 +473,16 @@
     "nesta": {
       "src": "/images/goat/players/nesta.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q227892",
-      "commons": "https://commons.wikimedia.org/wiki/File:Alessandro_Nesta_as_Miami_FC_Manager.jpg",
-      "author": "Joerudi",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Alessandro_Nesta_Impact_Montreal_2012-07-28_(cropped).jpg",
+      "author": "Francis Bourgouin from Montréal, Québec, Canada",
+      "license": "CC BY-SA 2.0"
     },
     "cannavaro": {
       "src": "/images/goat/players/cannavaro.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q102027",
-      "commons": "https://commons.wikimedia.org/wiki/File:Fabio_Cannavaro_-_2024_(cropped).jpg",
-      "author": "Original: Mech867 / Derivative work: Danyele",
-      "license": "CC BY 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Fabio_Cannavaro.jpg",
+      "author": "Paul Blank",
+      "license": "CC BY 2.5"
     },
     "buffon": {
       "src": "/images/goat/players/buffon.jpg",
@@ -536,9 +536,9 @@
     "figo": {
       "src": "/images/goat/players/figo.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q483145",
-      "commons": "https://commons.wikimedia.org/wiki/File:L._Figo_2017_(cropped).jpg",
-      "author": "Biser Todorov",
-      "license": "CC BY 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Lu%C3%ADs_Figo_2009.jpg",
+      "author": "Christophe95",
+      "license": "CC BY-SA 3.0"
     },
     "beckham": {
       "src": "/images/goat/players/beckham.jpg",
@@ -557,8 +557,8 @@
     "gerrard": {
       "src": "/images/goat/players/gerrard.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q459830",
-      "commons": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2018.jpg",
-      "author": "Эдгар Брещанов",
+      "commons": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard.jpg",
+      "author": "Elwedritsch",
       "license": "CC BY-SA 3.0"
     },
     "bergkamp": {
@@ -571,30 +571,30 @@
     "gullit": {
       "src": "/images/goat/players/gullit.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q173972",
-      "commons": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Ruud_Gullit_-_240422_131911_(cropped).jpg",
-      "author": "Barcex",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Ruud_Gullit_1983_(cropped).jpg",
+      "author": "Rob Croes for Anefo",
+      "license": "CC BY-SA 3.0"
     },
     "van-basten": {
       "src": "/images/goat/players/van-basten.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q483629",
-      "commons": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_(ca_2006).jpg",
-      "author": "Paul Blank - Postproduktie.nl",
-      "license": "CC BY 2.5"
+      "commons": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_1989_crop.jpg",
+      "author": "NL-HaNA, ANEFO / neg. stroken, 1945-1989, 2.24.01.05, item number 934-4427",
+      "license": "CC0"
     },
     "matthaus": {
       "src": "/images/goat/players/matthaus.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q36386",
-      "commons": "https://commons.wikimedia.org/wiki/File:2019_Lothar_Matth%C3%A4us.jpg",
-      "author": "Steffen Prößdorf",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Lothar_Matth%C3%A4us_1995.jpg",
+      "author": "Übrigens",
+      "license": "CC BY-SA 3.0"
     },
     "kahn": {
       "src": "/images/goat/players/kahn.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q131261",
-      "commons": "https://commons.wikimedia.org/wiki/File:2022-07-30_Fu%C3%9Fball,_M%C3%A4nner,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3179_by_Stepro.jpg",
-      "author": "Steffen Prößdorf",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Oliver_Kahn_06-2004.jpg",
+      "author": "Schwarzwälder",
+      "license": "CC BY-SA 3.0"
     },
     "nedved": {
       "src": "/images/goat/players/nedved.jpg",
@@ -604,17 +604,17 @@
       "license": "CC BY-SA 2.0"
     },
     "shevchenko": {
-      "src": "/images/goat/players/shevchenko.png",
+      "src": "/images/goat/players/shevchenko.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q41244",
-      "commons": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_2024_(cropped).png",
-      "author": "Міністерство молоді та спорту України",
-      "license": "CC BY 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Andriy_Shevchenko_Golden_Foot_2005.jpg",
+      "author": "Nikolai Twin",
+      "license": "CC BY-SA 3.0"
     },
     "weah": {
       "src": "/images/goat/players/weah.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q173139",
-      "commons": "https://commons.wikimedia.org/wiki/File:George_Weah_in_2019_(cropped)_mod-2.jpg",
-      "author": "File:George Weah in 2019 (cropped).jpg : U.S. Embassy in Monrovia, Liberia derivative work: Boros.i",
+      "commons": "https://commons.wikimedia.org/wiki/File:Coppa_UEFA_1992-93_-_Napoli_vs_PSG_-_George_Weah.jpg",
+      "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
     "drogba": {
@@ -655,9 +655,9 @@
     "stoichkov": {
       "src": "/images/goat/players/stoichkov.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q187125",
-      "commons": "https://commons.wikimedia.org/wiki/File:Hristo_stoichkov-2010.jpg",
-      "author": "Biso",
-      "license": "CC BY 3.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:World_Cup_1994_-_Bulgaria_v_Germany_-_Stoichkov_has_scored_in_75th_minute.jpg",
+      "author": "Jonathan Schilling",
+      "license": "CC BY-SA 4.0"
     },
     "messi": {
       "src": "/images/goat/players/messi.jpg",
@@ -753,8 +753,8 @@
     "neuer": {
       "src": "/images/goat/players/neuer.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q107365",
-      "commons": "https://commons.wikimedia.org/wiki/File:Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg",
-      "author": "Bryan Berlin",
+      "commons": "https://commons.wikimedia.org/wiki/File:2022-07-30_Fu%C3%9Fball,_M%C3%A4nner,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3417_by_Stepro_(Manuel_Neuer).jpg",
+      "author": "Derivative work: MajorPrince",
       "license": "CC BY-SA 4.0"
     },
     "benzema": {
@@ -865,16 +865,16 @@
     "thuram": {
       "src": "/images/goat/players/thuram.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q180326",
-      "commons": "https://commons.wikimedia.org/wiki/File:Lilian_Thuram_-_F%C3%A9vrier_2013.jpg",
-      "author": "English : This photo has been taken by Matthieu Riegler ( User:Kyro ) and released under the licenses stated below. You are free to use it for any purpose as long as you credit me as author, Wikimedia Commons as site and follow the terms of the licenses. Could you be kind enough to leave me a message on this page to inform me about your use of this picture. Example : © Matthieu Riegler , CC-BY Français : Cette photo a été prise par Matthieu Riegler ( User:Kyro ) et placée sous les licences ci-dessous. Vous êtes libre de la réutiliser, pour n'importe quelle utilisation, tant que vous me citez en tant qu'auteur, Wikimedia Commons en tant que site et suivez les instructions des licences. Pourriez-vous avoir l'amabilité de me laisser un message sur cette page pour m'informer de votre utilisation de cette image. Exemple : © Matthieu Riegler , CC-BY This file is licensed under the Creative Commons Attribution 3.0 Unported license. Attribution: Matthieu Riegler, CC-by You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. https://creativecommons.org/licenses/by/3.0 CC BY 3.0 Creative Commons Attribution 3.0 true true Vous souhaitez faire apparaitre cette photo sans crédit ? Contactez moi ! If you want to use the photo without credit, please contact me .",
-      "license": "CC BY 3.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Lilian_Thuram_2007.jpg",
+      "author": "Nicolas Richoffer",
+      "license": "CC BY-SA 4.0"
     },
     "del-piero": {
       "src": "/images/goat/players/del-piero.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q624",
-      "commons": "https://commons.wikimedia.org/wiki/File:Alessandro_Del_Piero,_New_York_NY_2015.jpg",
-      "author": "Retouched by Blackcat",
-      "license": "CC BY-SA 2.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Alessandro_Del_Piero_Rimini-Juventus_2006_cropped.jpg",
+      "author": "Rimini-juve3.jpg : Danilo Giorgio \"theSPOT\" derivative work: RanZag",
+      "license": "Public domain"
     },
     "rodri": {
       "src": "/images/goat/players/rodri.jpg",
@@ -889,6 +889,12 @@
       "commons": "https://commons.wikimedia.org/wiki/File:07_07_2019_Final_da_Copa_Am%C3%A9rica_2019_(48226649586)_(cropped).jpg",
       "author": "Palácio do Planalto from Brasilia, Brasil",
       "license": "CC BY 2.0"
+    },
+    "puskas-banner": {
+      "src": "/images/goat/players/puskas-banner.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Ferenc_Pusk%C3%A1s,_Estadio,_1954-03-27_(567).jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
     }
   },
   "unresolved": [

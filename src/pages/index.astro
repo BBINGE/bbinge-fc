@@ -143,7 +143,7 @@ const moreStories = editorialFeed.slice(13, 19);
           </div>
           <div class="play-feature__roster" aria-hidden="true">
             <img src="/images/goat/players/di-stefano.jpg" alt="" class="goat-face goat-face--1" />
-            <img src="/images/goat/players/puskas.jpg" alt="" class="goat-face goat-face--2" />
+            <img src="/images/goat/players/puskas-banner.jpg" alt="" class="goat-face goat-face--2" />
             <img src="/images/goat/players/pele.jpg" alt="" class="goat-face goat-face--3" />
             <img src="/images/goat/players/beckenbauer.jpg" alt="" class="goat-face goat-face--4" />
             <img src="/images/goat/players/cruyff.jpg" alt="" class="goat-face goat-face--5" />
@@ -219,8 +219,8 @@ const moreStories = editorialFeed.slice(13, 19);
   .latest-copy h3 { margin-top:5px; font-size:15px; line-height:1.4; font-weight:650; letter-spacing:-.025em; }
   .latest-copy>p { margin-top:5px; color:var(--bbfc-gray-1); font-size:11.5px; line-height:1.55; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .latest-row>time { align-self:start; padding-top:4px; color:var(--bbfc-gray-3); font-size:10px; white-space:nowrap; }
-  .play-feature { position:relative; align-self:start; min-height:0; aspect-ratio:1/2; margin-top:16px; overflow:hidden; border-radius:12px; background:radial-gradient(circle at 72% 22%,#24599a 0,#0d294e 34%,#07182e 72%); color:#fff; isolation:isolate; box-shadow:0 18px 45px -24px rgba(5,20,42,.8); }
-  .play-feature::before { content:''; position:absolute; inset:0; z-index:3; background:linear-gradient(180deg,rgba(5,15,29,.05) 25%,rgba(5,15,29,.92) 82%); }
+  .play-feature { position:relative; align-self:start; min-height:0; aspect-ratio:5/11; margin-top:16px; overflow:hidden; border-radius:12px; background:radial-gradient(circle at 72% 22%,#24599a 0,#0d294e 34%,#07182e 72%); color:#fff; isolation:isolate; box-shadow:0 18px 45px -24px rgba(5,20,42,.8); }
+  .play-feature::before { content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(180deg,rgba(5,15,29,.05) 25%,rgba(5,15,29,.92) 82%); }
   .play-feature::after { content:''; position:absolute; inset:0; z-index:5; border:1px solid rgba(255,255,255,.16); border-radius:inherit; pointer-events:none; }
   .play-feature__copy { position:absolute; z-index:6; left:21px; right:19px; bottom:22px; }
   .play-feature__copy p { color:#78acff; font-size:8px; font-weight:850; letter-spacing:.18em; }
@@ -228,17 +228,17 @@ const moreStories = editorialFeed.slice(13, 19);
   .play-feature__copy h2 { margin-top:12px; color:rgba(255,255,255,.94); font-size:15px; line-height:1.35; font-weight:720; letter-spacing:-.035em; }
   .play-feature__copy>span { display:inline-flex; align-items:center; gap:8px; margin-top:13px; padding:8px 11px; border:1px solid rgba(255,255,255,.27); border-radius:999px; background:rgba(23,100,218,.72); font-size:9px; font-weight:800; backdrop-filter:blur(7px); }
   .play-feature__copy b { font-size:7px; }
-  .play-feature__roster { position:absolute; inset:0; z-index:1; }
+  .play-feature__roster { position:absolute; inset:0; z-index:2; }
   .play-feature__roster img { position:absolute; display:block; object-fit:cover; object-position:center top; filter:saturate(.78) contrast(1.08); transition:transform .35s ease,filter .35s ease; }
   .play-feature:hover .play-feature__roster img { filter:saturate(1) contrast(1.08); }
   .goat-face { z-index:4; width:82px; height:98px; border:2px solid rgba(255,255,255,.34); border-radius:10px; box-shadow:0 8px 18px rgba(0,0,0,.3); }
   .goat-face--1 { left:14px; top:14px; transform:rotate(-4deg); }
-  .goat-face--2 { left:50%; top:8px; z-index:2; transform:translateX(-50%) rotate(2deg); }
+  .goat-face--2 { left:50%; top:8px; transform:translateX(-50%) rotate(2deg); }
   .goat-face--3 { right:14px; top:14px; transform:rotate(4deg); }
   .goat-face--4 { left:14px; top:96px; transform:rotate(3deg); }
-  .goat-face--5 { left:50%; top:102px; z-index:2; transform:translateX(-50%) rotate(-2deg); }
+  .goat-face--5 { left:50%; top:102px; transform:translateX(-50%) rotate(-2deg); }
   .goat-face--6 { right:14px; top:96px; transform:rotate(-3deg); }
-  .goat-hero { bottom:112px; width:67%; height:330px; object-position:center top; -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%); mask-image:linear-gradient(to bottom,#000 70%,transparent 100%); }
+  .goat-hero { bottom:118px; width:64%; height:348px; object-position:center top; -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%); mask-image:linear-gradient(to bottom,#000 70%,transparent 100%); }
   .goat-hero--ronaldo { left:-15%; z-index:2; }
   .goat-hero--messi { right:-15%; z-index:1; transform:scale(1.03); }
   .play-feature:hover .goat-hero--ronaldo { transform:translateX(4px) scale(1.02); }
@@ -261,12 +261,12 @@ const moreStories = editorialFeed.slice(13, 19);
     .secondary-story:nth-last-child(-n+2) { padding-bottom:0; border-bottom:0; }
     .secondary-image { aspect-ratio:16/9; }
     .latest-layout { grid-template-columns:1fr; }
-    .play-feature { width:100%; aspect-ratio:16/7; margin-top:0; }
+    .play-feature { width:100%; aspect-ratio:16/8.5; margin-top:0; }
     .play-feature__copy { top:50%; right:auto; bottom:auto; width:42%; transform:translateY(-50%); }
     .play-feature__copy>strong { font-size:34px; }
     .play-feature__copy h2 { font-size:14px; }
     .play-feature__roster { left:0; }
-    .goat-hero { bottom:-42px; height:280px; }
+    .goat-hero { bottom:-34px; height:282px; }
     .goat-face { top:14px; width:48px; height:58px; }
     .goat-face--1 { left:8px; top:14px; }.goat-face--2 { left:25%; top:8px; }.goat-face--3 { left:42%; right:auto; top:14px; }
     .goat-face--4 { left:auto; right:42%; top:14px; }.goat-face--5 { left:auto; right:25%; top:8px; transform:rotate(-3deg); }.goat-face--6 { right:8px; top:14px; }
@@ -300,7 +300,7 @@ const moreStories = editorialFeed.slice(13, 19);
     .more-card .story-meta { justify-content:flex-start; }
     .more-card h3 { margin-top:5px; font-size:14px; }
     .more-card>p { margin-top:5px; font-size:11px; }
-    .play-feature { aspect-ratio:16/10; border-radius:10px; }
+    .play-feature { aspect-ratio:5/4; border-radius:10px; }
     .play-feature__copy { left:17px; width:46%; }
     .play-feature__copy p { font-size:7px; }
     .play-feature__copy>strong { font-size:25px; }
@@ -310,10 +310,10 @@ const moreStories = editorialFeed.slice(13, 19);
     .goat-face { width:39px; height:48px; }
     .goat-face--1 { left:2px; top:14px; }.goat-face--2 { left:20%; top:8px; }.goat-face--3 { left:38%; top:14px; }
     .goat-face--4 { left:auto; right:38%; top:14px; }.goat-face--5 { left:auto; right:20%; top:8px; }.goat-face--6 { right:2px; top:14px; }
-    .goat-hero { bottom:-30px; width:38%; height:220px; }
+    .goat-hero { bottom:-22px; width:38%; height:188px; }
     .goat-hero--ronaldo { left:37%; }
     .goat-hero--messi { right:-1%; }
-    .play-feature::before { background:linear-gradient(90deg,rgba(5,17,33,.96) 0,rgba(5,17,33,.9) 35%,rgba(5,17,33,.08) 63%),linear-gradient(180deg,rgba(5,15,29,.04) 25%,rgba(5,15,29,.9) 100%); }
+    .play-feature::before { background:linear-gradient(90deg,rgba(5,17,33,.74) 0,rgba(5,17,33,.56) 35%,rgba(5,17,33,.03) 63%),linear-gradient(180deg,rgba(5,15,29,.02) 25%,rgba(5,15,29,.78) 100%); }
   }
   @media (prefers-reduced-motion: reduce) {
     .media-frame img { transition:none; }
