@@ -7,5 +7,9 @@
   "focusX": 0.5,
   "focusY": 0.1,
   "zoom": 1.42,
+  "mvpX": 24,
+  "mvpY": 520,
+  "mvpWidth": 362,
+  "mvpHeight": 154,
   "cropIntent": "얼굴과 흉부 우선. 무릎과 하체 보존보다 눈높이와 상체 점유율을 우선한다."
 }

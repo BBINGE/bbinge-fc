@@ -8,6 +8,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 CANVAS = 1080
 PANEL_WIDTH = 410
+TEXT_LEFT = 24
+TEXT_RIGHT = 386
 
 
 def vertical_gradient(size: tuple[int, int], top: str, bottom: str) -> Image.Image:
@@ -38,34 +40,66 @@ def paste_text_gradient(
     canvas.paste(gradient, (0, 0), mask)
 
 
-def paste_fitted_text_gradient(
+def paste_text_in_box_gradient(
     canvas: Image.Image,
     text: str,
-    xy: tuple[int, int],
+    box: tuple[int, int, int, int],
     font: ImageFont.FreeTypeFont,
-    max_width: int,
-    stroke_width: int = 0,
     top: str = "#F8F7F6",
     bottom: str = "#DCDDD8",
 ) -> None:
-    mask = Image.new("L", canvas.size, 0)
-    ImageDraw.Draw(mask).text(
-        xy,
-        text,
-        font=font,
-        fill=255,
-        anchor="la",
-        stroke_width=stroke_width,
-        stroke_fill=255,
-    )
-    bbox = mask.getbbox()
+    raw_mask = Image.new("L", canvas.size, 0)
+    ImageDraw.Draw(raw_mask).text((0, 0), text, font=font, fill=255)
+    bbox = raw_mask.getbbox()
     if not bbox:
         return
-    glyph = mask.crop(bbox)
-    if glyph.width > max_width:
-        glyph = glyph.resize((max_width, glyph.height), Image.Resampling.LANCZOS)
+    glyph = raw_mask.crop(bbox)
+    left, top_y, right, bottom_y = box
+    glyph = glyph.resize((right - left, bottom_y - top_y), Image.Resampling.LANCZOS)
     fitted_mask = Image.new("L", canvas.size, 0)
-    fitted_mask.paste(glyph, (xy[0], bbox[1]))
+    fitted_mask.paste(glyph, (left, top_y))
+    gradient = vertical_gradient(canvas.size, top, bottom)
+    canvas.paste(gradient, (0, 0), fitted_mask)
+
+
+def paste_tracked_text_gradient(
+    canvas: Image.Image,
+    text: str,
+    box: tuple[int, int, int, int],
+    font: ImageFont.FreeTypeFont,
+    top: str = "#FFFFFF",
+    bottom: str = "#FFFFFF",
+) -> None:
+    left, top_y, right, bottom_y = box
+    target_height = bottom_y - top_y
+    raw_size = font.size * max(len(text) + 2, 4)
+    untracked = Image.new("L", (raw_size, font.size * 2), 0)
+    ImageDraw.Draw(untracked).text((0, 0), text, font=font, fill=255)
+    untracked_bbox = untracked.getbbox()
+    if not untracked_bbox:
+        return
+
+    scale = target_height / (untracked_bbox[3] - untracked_bbox[1])
+    desired_raw_width = (right - left) / scale
+    gap_count = max(len(text) - 1, 1)
+    tracking = (desired_raw_width - (untracked_bbox[2] - untracked_bbox[0])) / gap_count
+    if tracking < 0:
+        raise ValueError("Tracked text does not fit without compressing glyphs")
+
+    tracked = Image.new("L", (raw_size, font.size * 2), 0)
+    tracked_draw = ImageDraw.Draw(tracked)
+    x = 0.0
+    for char in text:
+        tracked_draw.text((round(x), 0), char, font=font, fill=255)
+        x += font.getlength(char) + tracking
+    tracked_bbox = tracked.getbbox()
+    glyph = tracked.crop(tracked_bbox)
+    fitted_width = round(glyph.width * scale)
+    glyph = glyph.resize((fitted_width, target_height), Image.Resampling.LANCZOS)
+
+    fitted_mask = Image.new("L", canvas.size, 0)
+    fitted_mask.paste(glyph, (left, top_y), glyph)
+
     gradient = vertical_gradient(canvas.size, top, bottom)
     canvas.paste(gradient, (0, 0), fitted_mask)
 
@@ -73,9 +107,9 @@ def paste_fitted_text_gradient(
 def render(args: argparse.Namespace) -> None:
     here = Path(__file__).resolve().parent
     font_dir = here / "fonts"
-    light = ImageFont.truetype(font_dir / "GmarketSansTTFLight.ttf", 64)
-    medium = ImageFont.truetype(font_dir / "GmarketSansTTFMedium.ttf", 50)
-    bold = ImageFont.truetype(font_dir / "GmarketSansTTFBold.ttf", 194)
+    year = ImageFont.truetype(font_dir / "Pretendard-ExtraLight.ttf", 64)
+    title = ImageFont.truetype(font_dir / "Pretendard-SemiBold.ttf", 60)
+    mvp = ImageFont.truetype(font_dir / "Pretendard-Black.ttf", 220)
     signature = ImageFont.truetype(font_dir / "GmarketSansTTFMedium.ttf", 20)
 
     portrait = Image.open(args.photo).convert("RGB")
@@ -117,9 +151,23 @@ def render(args: argparse.Namespace) -> None:
         canvas.paste(border, (CANVAS - border.width - 24, 20))
 
     draw = ImageDraw.Draw(canvas)
-    draw.text((24, 373), args.year, font=light, fill="white", anchor="la")
-    draw.text((24, 454), "코파 아메리카", font=medium, fill="white", anchor="la")
-    paste_fitted_text_gradient(canvas, "MVP", (20, 505), bold, PANEL_WIDTH - 45, stroke_width=8)
+    draw.text((TEXT_LEFT, 373), args.year, font=year, fill="white", anchor="la")
+    paste_tracked_text_gradient(
+        canvas,
+        "코파 아메리카",
+        (TEXT_LEFT, 448, TEXT_RIGHT, 506),
+        title,
+        top="#FFFFFF",
+        bottom="#FFFFFF",
+    )
+    paste_text_in_box_gradient(
+        canvas,
+        "MVP",
+        (args.mvp_x, args.mvp_y, args.mvp_x + args.mvp_width, args.mvp_y + args.mvp_height),
+        mvp,
+        top="#FFFFFF",
+        bottom="#E9EAEC",
+    )
     draw = ImageDraw.Draw(canvas)
     draw.text((292, 691), "삥이FC", font=signature, fill="white", anchor="la")
     draw.text((CANVAS - 42, CANVAS - 43), "삥이FC", font=signature, fill="white", anchor="ra")
@@ -140,6 +188,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--focus-x", type=float, default=0.5)
     parser.add_argument("--focus-y", type=float, default=0.2)
     parser.add_argument("--zoom", type=float, default=1.0)
+    parser.add_argument("--mvp-x", type=int, default=TEXT_LEFT)
+    parser.add_argument("--mvp-y", type=int, default=520)
+    parser.add_argument("--mvp-width", type=int, default=TEXT_RIGHT - TEXT_LEFT)
+    parser.add_argument("--mvp-height", type=int, default=154)
     parser.add_argument("--output", required=True)
     return parser.parse_args()
 
