@@ -14,6 +14,7 @@ coverImageCaption: '삥이의 축구 기록에서 제작한 1930 월드컵 베�
 coverImageWidth: 773
 coverImageHeight: 773
 draft: false
+relatedGroup: 'fifa-world-cup-1930'
 ---
 
 <aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>1930년 우루과이에서 처음 열린 FIFA 월드컵에는 열세 나라가 참가했다. 우루과이가 네 경기 전승으로 첫 우승국이 되었고, 아르헨티나는 대회 최다인 18골을 넣으며 결승에 올랐다. 이 글의 베스트 11은 대회 당시 시상식에서 발표된 공식 명단이 아니다. 훗날 월드컵 회고 자료와 통계 아카이브에서 반복해 정리된 열한 명을 모아, 첫 대회를 지배한 2-3-5와 네 나라의 흔적을 함께 읽는 기록이다.</p></aside>

@@ -13,6 +13,8 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import { categories, categoryList, getAncestorChain, getArticlePath, getCategoryPath, getChildren } from '../config/categories';
 import ShareButtons from '../components/ShareButtons.astro';
 import ContentCover from '../components/ContentCover.astro';
+import RelatedAssets from '../components/RelatedAssets.astro';
+import { archiveBranches } from '../data/archive';
 
 type CategoryProps = { kind: 'category'; categorySlug: string };
 type ArticleProps = { kind: 'article'; entry: CollectionEntry<'articles'> };
@@ -53,6 +55,7 @@ let articleView:
       Content: Awaited<ReturnType<typeof render>>['Content'];
       readingMinutes: number;
       related: CollectionEntry<'articles'>[];
+      relatedAssets: Array<{ href: string; title: string; description: string; label: string; coverImage?: string }>;
       faqSchema: object | null;
     }
   | null = null;
@@ -89,6 +92,20 @@ if (props.kind === 'category') {
   )
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id))
     .slice(0, 3);
+  const relatedAssets = entry.data.relatedGroup
+    ? (await getCollection('archive', ({ data }) => !data.draft && data.relatedGroup === entry.data.relatedGroup))
+        .map((record) => {
+          const relatedBranch = archiveBranches.find((item) => item.id === record.data.branch);
+          const relatedIndex = relatedBranch?.indexes.find((item) => item.slug === record.data.index);
+          return {
+            href: `/archive/${record.data.branch}/${record.data.index}/${record.id}/`,
+            title: record.data.title,
+            description: record.data.description,
+            label: relatedIndex?.label ?? '삥이 아카이브',
+            coverImage: record.data.coverImage,
+          };
+        })
+    : [];
   const faqSchema =
     faq && faq.length > 0
       ? {
@@ -101,7 +118,7 @@ if (props.kind === 'category') {
           })),
         }
       : null;
-  articleView = { entry, meta, Content, readingMinutes, related, faqSchema };
+  articleView = { entry, meta, Content, readingMinutes, related, relatedAssets, faqSchema };
 }
 ---
 
@@ -193,6 +210,7 @@ if (props.kind === 'category') {
             title={articleView.entry.data.title}
           />
         </div>
+        <RelatedAssets items={articleView.relatedAssets} />
       </article>
 
       {articleView.related.length > 0 && (

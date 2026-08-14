@@ -11,6 +11,7 @@ coverImageWidth: 773
 coverImageHeight: 773
 draft: false
 featured: false
+relatedGroup: 'fifa-world-cup-1930'
 ---
 
 <div class="match-board" aria-label="1930 FIFA 월드컵 결승전 결과">

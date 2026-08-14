@@ -2,6 +2,8 @@
 import Layout from '../../../../layouts/Layout.astro';
 import ShareButtons from '../../../../components/ShareButtons.astro';
 import ContentCover from '../../../../components/ContentCover.astro';
+import RelatedAssets from '../../../../components/RelatedAssets.astro';
+import { categories, getArticlePath } from '../../../../config/categories';
 import { site } from '../../../../config/site';
 import { archiveBranches } from '../../../../data/archive';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
@@ -33,6 +35,16 @@ const relatedRecords = indexRecords
   .filter((record) => record.id !== entry.id)
   .sort((a, b) => b.data.year - a.data.year)
   .slice(0, 3);
+const relatedAssets = entry.data.relatedGroup
+  ? (await getCollection('articles', ({ data }) => !data.draft && data.relatedGroup === entry.data.relatedGroup))
+      .map((record) => ({
+        href: getArticlePath(record.data.category, record.id),
+        title: record.data.title,
+        description: record.data.description,
+        label: categories[record.data.category]?.label ?? '연관 기록',
+        coverImage: record.data.coverImage,
+      }))
+  : [];
 ---
 
 <Layout
@@ -80,6 +92,7 @@ const relatedRecords = indexRecords
         title={entry.data.title}
       />
     </div>
+    <RelatedAssets items={relatedAssets} />
     <nav class="sequence-nav" aria-label={`${archiveIndex.label} 이전·다음 기록`}>
       {previousRecord && (
         <a class="sequence-link is-previous" href={`/archive/${previousRecord.data.branch}/${previousRecord.data.index}/${previousRecord.id}/`}>
