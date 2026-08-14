@@ -2,9 +2,22 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const replacements = {
-  zico: 'Zico panini card 79.jpg',
+  leonidas: 'Leônidas da Silva 01.jpg',
+  figueroa: 'Elias figueroa inter.jpg',
+  'kim-min-jae': 'FC RB Salzburg gegen FC Bayern München (2026-01-06 Testspiel) 39.jpg',
+  kaka: 'Kaka 355 280 px.jpg',
+  'van-basten': 'Marco van Basten 1990-1992.jpg',
+  zlatan: 'PSG-Shakhter15 (11).jpg',
+  'ronaldo-r9': 'Ronaldo 2002 cropped.jpg',
+  zico: 'Zico flamengo elgrafico.jpg',
   platini: 'Platini juventus2 (cropped).jpg',
   coluna: 'Mario Coluna (1965).jpg',
+  masopust: 'Bobby Moore vs Josef Masopust 1963.jpg',
+  'thomas-muller': 'Thomas Müller 2013.jpg',
+  albert: 'Florian Albert en 1966.jpg',
+  lineker: 'EK voetbal in West Duitsland Engeland tegen Nederland 1-3, Bestanddeelnr 934-2662.jpg',
+  keegan: 'FC Zürich against Liverpool - Kevin Keegan.jpg',
+  raul: 'Raul Gonzalez 10mar2007.jpg',
   puskas: 'Puskas 1954.png',
   'puskas-banner': 'Ferenc Puskás, Estadio, 1954-03-27 (567).jpg',
   cannavaro: 'Fabio Cannavaro.jpg',
@@ -15,14 +28,16 @@ const replacements = {
   blokhin: 'Oleg Blokhin 1977.jpg',
   ronaldinho: 'Ronaldinho.jpg',
   cantona: 'Cantona, Eric.jpg',
-  neuer: '2022-07-30 Fußball, Männer, DFL-Supercup, RB Leipzig - FC Bayern München 1DX 3417 by Stepro (Manuel Neuer).jpg',
+  neuer: 'Матч «Динамо» - «Баварія» 1-2. 23 листопада 2021 року — 1297009.jpg',
   'roberto-carlos': 'Roberto Carlos Corinthians.jpg',
-  stoichkov: 'World Cup 1994 - Bulgaria v Germany - Stoichkov has scored in 75th minute.jpg',
+  rummenigge: 'FC Bayern Munchen tegen Aston Villa 0-1 Europa Cup I Rummennige in aktie, Bestanddeelnr 932-1815.jpg',
+  'nilton-santos': 'Nilton Santos na Seleção Brasileira.jpg',
   thuram: 'Lilian Thuram 2007.jpg',
   maldini: 'Maldini2008.JPG',
   shevchenko: 'Andriy Shevchenko - 2004 - AC Milan (1).jpg',
   zidane: 'Zinedine zidane 2005 cropped.jpg',
 };
+const requestedIds = new Set(process.argv.slice(2));
 const manifestPath = resolve('src/data/goat-player-images.json');
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const userAgent = 'BBingeFC/1.0 (https://bbingefc.com/contact/)';
@@ -32,6 +47,7 @@ function plain(value = '') {
 }
 
 for (const [id, filename] of Object.entries(replacements)) {
+  if (requestedIds.size && !requestedIds.has(id)) continue;
   const url = new URL('https://commons.wikimedia.org/w/api.php');
   url.search = new URLSearchParams({
     action: 'query', format: 'json', origin: '*', prop: 'imageinfo',
@@ -54,6 +70,8 @@ for (const [id, filename] of Object.entries(replacements)) {
     author: plain(meta.Artist?.value || meta.Credit?.value || 'Wikimedia Commons contributor'),
     license: plain(meta.LicenseShortName?.value || meta.UsageTerms?.value || 'Commons 파일 페이지 참조'),
   };
+  manifest.updatedAt = new Date().toISOString();
+  await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
   console.log(`${id}: ${filename}`);
 }
 

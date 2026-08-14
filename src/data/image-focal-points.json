@@ -566,6 +566,11 @@
       "y": 40.6,
       "faceWidth": 22.6
     },
+    "/images/goat/players/albert.jpg": {
+      "x": 48.2,
+      "y": 36.1,
+      "faceWidth": 47.4
+    },
     "/images/goat/players/andrade.jpg": {
       "x": 12.8,
       "y": 48.4,
@@ -667,9 +672,9 @@
       "faceWidth": 33.4
     },
     "/images/goat/players/cristiano.jpg": {
-      "x": 57.9,
-      "y": 22.9,
-      "faceWidth": 47.0
+      "x": 57.4,
+      "y": 22.8,
+      "faceWidth": 48.3
     },
     "/images/goat/players/cruyff.jpg": {
       "x": 59.3,
@@ -730,6 +735,11 @@
       "x": 51.4,
       "y": 40.0,
       "faceWidth": 45.8
+    },
+    "/images/goat/players/figueroa.jpg": {
+      "x": 52.0,
+      "y": 24.0,
+      "faceWidth": 43.0
     },
     "/images/goat/players/finney.jpg": {
       "x": 54.9,
@@ -832,14 +842,24 @@
       "faceWidth": 33.2
     },
     "/images/goat/players/kaka.jpg": {
-      "x": 44.4,
-      "y": 37.4,
-      "faceWidth": 68.3
+      "x": 47.9,
+      "y": 35.0,
+      "faceWidth": 28.2
+    },
+    "/images/goat/players/keegan.jpg": {
+      "x": 80.0,
+      "y": 66.1,
+      "faceWidth": 18.5
     },
     "/images/goat/players/kempes.jpg": {
       "x": 43.8,
       "y": 56.9,
       "faceWidth": 26.8
+    },
+    "/images/goat/players/kim-min-jae.jpg": {
+      "x": 17.0,
+      "y": 22.0,
+      "faceWidth": 13.0
     },
     "/images/goat/players/kocsis.jpg": {
       "x": 47.7,
@@ -867,9 +887,9 @@
       "faceWidth": 26.5
     },
     "/images/goat/players/lineker.jpg": {
-      "x": 47.9,
-      "y": 69.6,
-      "faceWidth": 83.0
+      "x": 62.3,
+      "y": 44.7,
+      "faceWidth": 6.1
     },
     "/images/goat/players/luis-suarez-m.jpg": {
       "x": 33.9,
@@ -890,6 +910,11 @@
       "x": 38.5,
       "y": 17.0,
       "faceWidth": 35.3
+    },
+    "/images/goat/players/masopust.jpg": {
+      "x": 27.0,
+      "y": 31.6,
+      "faceWidth": 7.7
     },
     "/images/goat/players/matthaus.jpg": {
       "x": 62.1,
@@ -917,9 +942,9 @@
       "faceWidth": 59.8
     },
     "/images/goat/players/messi.jpg": {
-      "x": 55.3,
-      "y": 22.3,
-      "faceWidth": 41.6
+      "x": 54.4,
+      "y": 22.1,
+      "faceWidth": 41.0
     },
     "/images/goat/players/modric.jpg": {
       "x": 50.8,
@@ -947,9 +972,9 @@
       "faceWidth": 17.0
     },
     "/images/goat/players/neuer.jpg": {
-      "x": 26.8,
-      "y": 60.8,
-      "faceWidth": 43.4
+      "x": 38.0,
+      "y": 24.0,
+      "faceWidth": 14.0
     },
     "/images/goat/players/neymar.jpg": {
       "x": 49.3,
@@ -957,9 +982,9 @@
       "faceWidth": 59.3
     },
     "/images/goat/players/nilton-santos.jpg": {
-      "x": 62.4,
-      "y": 27.6,
-      "faceWidth": 6.6
+      "x": 68.0,
+      "y": 22.0,
+      "faceWidth": 25.0
     },
     "/images/goat/players/paolo-rossi.jpg": {
       "x": 50.4,
@@ -1001,6 +1026,11 @@
       "y": 12.7,
       "faceWidth": 18.3
     },
+    "/images/goat/players/raul.jpg": {
+      "x": 49.1,
+      "y": 23.8,
+      "faceWidth": 23.7
+    },
     "/images/goat/players/rijkaard.jpg": {
       "x": 47.7,
       "y": 43.0,
@@ -1036,10 +1066,15 @@
       "y": 65.4,
       "faceWidth": 11.8
     },
+    "/images/goat/players/ronaldo-r9.jpg": {
+      "x": 46.9,
+      "y": 38.2,
+      "faceWidth": 63.2
+    },
     "/images/goat/players/rummenigge.jpg": {
-      "x": 63.8,
-      "y": 25.6,
-      "faceWidth": 18.0
+      "x": 43.6,
+      "y": 22.0,
+      "faceWidth": 14.8
     },
     "/images/goat/players/salah.jpg": {
       "x": 50.2,
@@ -1101,15 +1136,25 @@
       "y": 37.0,
       "faceWidth": 44.1
     },
+    "/images/goat/players/stoichkov.jpg": {
+      "x": 66.0,
+      "y": 22.0,
+      "faceWidth": 15.0
+    },
+    "/images/goat/players/thomas-muller.jpg": {
+      "x": 9.2,
+      "y": 11.4,
+      "faceWidth": 15.1
+    },
     "/images/goat/players/totti.jpg": {
       "x": 43.0,
       "y": 19.3,
       "faceWidth": 28.1
     },
     "/images/goat/players/van-basten.jpg": {
-      "x": 45.1,
-      "y": 51.4,
-      "faceWidth": 55.2
+      "x": 60.2,
+      "y": 19.7,
+      "faceWidth": 15.2
     },
     "/images/goat/players/van-dijk.jpg": {
       "x": 42.7,
@@ -1160,11 +1205,6 @@
       "x": 46.6,
       "y": 26.1,
       "faceWidth": 32.4
-    },
-    "/images/goat/players/zlatan.jpg": {
-      "x": 48.3,
-      "y": 30.6,
-      "faceWidth": 77.7
     },
     "/images/goat/players/zoff.jpg": {
       "x": 47.4,
@@ -1315,6 +1355,16 @@
       "x": 27.0,
       "y": 22.0,
       "faceWidth": 24.0
+    },
+    "/images/goat/players/leonidas.jpg": {
+      "x": 72.0,
+      "y": 31.0,
+      "faceWidth": 21.0
+    },
+    "/images/goat/players/zlatan.jpg": {
+      "x": 48.0,
+      "y": 20.0,
+      "faceWidth": 25.0
     }
   }
 }

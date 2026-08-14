@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T15:12:00.422Z",
+  "updatedAt": "2026-08-14T16:29:25.498Z",
   "portraits": {
     "friedenreich": {
       "src": "/images/goat/players/friedenreich.jpg",
@@ -109,7 +109,7 @@
     "nilton-santos": {
       "src": "/images/goat/players/nilton-santos.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q83329",
-      "commons": "https://commons.wikimedia.org/wiki/File:Castilho,_Pel%C3%A9,_Bellini,_De_Sordi_and_N%C3%ADlton_Santos_at_Maracan%C3%A3_stadium,_circa_1959.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Nilton_Santos_na_Sele%C3%A7%C3%A3o_Brasileira.jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
@@ -242,9 +242,9 @@
     "rummenigge": {
       "src": "/images/goat/players/rummenigge.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q152871",
-      "commons": "https://commons.wikimedia.org/wiki/File:FC_Inter_1985-86_-_Karl-Heinz_Rummenigge_e_Franco_Selvaggi.jpg",
-      "author": "Unknown author Unknown author",
-      "license": "Public domain"
+      "commons": "https://commons.wikimedia.org/wiki/File:FC_Bayern_Munchen_tegen_Aston_Villa_0-1_Europa_Cup_I_Rummennige_in_aktie,_Bestanddeelnr_932-1815.jpg",
+      "author": "Marcel Antonisse / Anefo",
+      "license": "CC0"
     },
     "platini": {
       "src": "/images/goat/players/platini.jpg",
@@ -256,7 +256,7 @@
     "zico": {
       "src": "/images/goat/players/zico.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q47526",
-      "commons": "https://commons.wikimedia.org/wiki/File:Zico_panini_card_79.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Zico_flamengo_elgrafico.jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"
     },
@@ -326,9 +326,9 @@
     "lineker": {
       "src": "/images/goat/players/lineker.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q47778",
-      "commons": "https://commons.wikimedia.org/wiki/File:Gary_Lineker_(cropped).jpg",
-      "author": "Liton Ali",
-      "license": "CC BY 2.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:EK_voetbal_in_West_Duitsland_Engeland_tegen_Nederland_1-3,_Bestanddeelnr_934-2662.jpg",
+      "author": "Rob Bogaerts for Anefo",
+      "license": "CC0"
     },
     "paolo-rossi": {
       "src": "/images/goat/players/paolo-rossi.jpg",
@@ -452,9 +452,9 @@
     "kaka": {
       "src": "/images/goat/players/kaka.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q531814",
-      "commons": "https://commons.wikimedia.org/wiki/File:Ricardo_Izecson_dos_Santos_Leite_(Kak%C3%A1)_01.jpg",
-      "author": "José Cruz/ABr (cropped by tales.ebner )",
-      "license": "CC BY 3.0 br"
+      "commons": "https://commons.wikimedia.org/wiki/File:Kaka_355_280_px.jpg",
+      "author": "Kaka06052007.jpg : Roberto Vicario derivative work: Garcia1 ( talk )",
+      "license": "CC BY-SA 3.0"
     },
     "maldini": {
       "src": "/images/goat/players/maldini.jpg",
@@ -578,9 +578,9 @@
     "van-basten": {
       "src": "/images/goat/players/van-basten.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q483629",
-      "commons": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_1989_crop.jpg",
-      "author": "NL-HaNA, ANEFO / neg. stroken, 1945-1989, 2.24.01.05, item number 934-4427",
-      "license": "CC0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_1990-1992.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
     },
     "matthaus": {
       "src": "/images/goat/players/matthaus.jpg",
@@ -606,8 +606,8 @@
     "shevchenko": {
       "src": "/images/goat/players/shevchenko.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q41244",
-      "commons": "https://commons.wikimedia.org/wiki/File:Andriy_Shevchenko_Golden_Foot_2005.jpg",
-      "author": "Nikolai Twin",
+      "commons": "https://commons.wikimedia.org/wiki/File:Andriy_Shevchenko_-_2004_-_AC_Milan_(1).jpg",
+      "author": "Original: Anastasiya Fedorenko Derivative work: Danyele",
       "license": "CC BY-SA 3.0"
     },
     "weah": {
@@ -655,9 +655,9 @@
     "stoichkov": {
       "src": "/images/goat/players/stoichkov.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q187125",
-      "commons": "https://commons.wikimedia.org/wiki/File:World_Cup_1994_-_Bulgaria_v_Germany_-_Stoichkov_has_scored_in_75th_minute.jpg",
-      "author": "Jonathan Schilling",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://www.fcbarcelona.com/en/football/barca-legends/players/1054352/stoichkov",
+      "author": "FC Barcelona",
+      "license": "© FC Barcelona"
     },
     "messi": {
       "src": "/images/goat/players/messi.jpg",
@@ -697,9 +697,9 @@
     "zlatan": {
       "src": "/images/goat/players/zlatan.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q46896",
-      "commons": "https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg",
-      "author": "Colleen Sturtevant",
-      "license": "CC BY-SA 4.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:PSG-Shakhter15_(11).jpg",
+      "author": "Богдан Заяц",
+      "license": "CC BY-SA 3.0"
     },
     "luis-suarez": {
       "src": "/images/goat/players/luis-suarez.jpg",
@@ -753,8 +753,8 @@
     "neuer": {
       "src": "/images/goat/players/neuer.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q107365",
-      "commons": "https://commons.wikimedia.org/wiki/File:2022-07-30_Fu%C3%9Fball,_M%C3%A4nner,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3417_by_Stepro_(Manuel_Neuer).jpg",
-      "author": "Derivative work: MajorPrince",
+      "commons": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D0%B2%D0%B0%D1%80%D1%96%D1%8F%C2%BB_1-2._23_%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0_2021_%D1%80%D0%BE%D0%BA%D1%83_%E2%80%94_1297009.jpg",
+      "author": "Olga Shcherbytska",
       "license": "CC BY-SA 4.0"
     },
     "benzema": {
@@ -895,6 +895,60 @@
       "commons": "https://commons.wikimedia.org/wiki/File:Ferenc_Pusk%C3%A1s,_Estadio,_1954-03-27_(567).jpg",
       "author": "Unknown author Unknown author",
       "license": "Public domain"
+    },
+    "masopust": {
+      "src": "/images/goat/players/masopust.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Bobby_Moore_vs_Josef_Masopust_1963.jpg",
+      "author": "Bilsen, Joop van / Anefo",
+      "license": "CC BY-SA 3.0 nl"
+    },
+    "albert": {
+      "src": "/images/goat/players/albert.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Florian_Albert_en_1966.jpg",
+      "author": "Panini",
+      "license": "Public domain"
+    },
+    "keegan": {
+      "src": "/images/goat/players/keegan.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:FC_Z%C3%BCrich_against_Liverpool_-_Kevin_Keegan.jpg",
+      "author": "ETH-Bibliothek Zürich, Bildarchiv / Fotograf: Comet Photo AG (Zürich) / Com_LC1432-000-012 / CC BY-SA 4.0",
+      "license": "CC BY 4.0"
+    },
+    "raul": {
+      "src": "/images/goat/players/raul.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Raul_Gonzalez_10mar2007.jpg",
+      "author": "Darz Mol",
+      "license": "CC BY-SA 2.5 es"
+    },
+    "ronaldo-r9": {
+      "src": "/images/goat/players/ronaldo-r9.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Ronaldo_2002_cropped.jpg",
+      "author": "Milly barzellai",
+      "license": "CC BY-SA 4.0"
+    },
+    "thomas-muller": {
+      "src": "/images/goat/players/thomas-muller.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Thomas_M%C3%BCller_2013.jpg",
+      "author": "Дмитрий Садовников",
+      "license": "CC BY-SA 3.0"
+    },
+    "leonidas": {
+      "src": "/images/goat/players/leonidas.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Le%C3%B4nidas_da_Silva_01.jpg",
+      "author": "Arquivo Tricolor",
+      "license": "Public domain"
+    },
+    "figueroa": {
+      "src": "/images/goat/players/figueroa.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Elias_figueroa_inter.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
+    },
+    "kim-min-jae": {
+      "src": "/images/goat/players/kim-min-jae.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_(2026-01-06_Testspiel)_39.jpg",
+      "author": "Werner100359",
+      "license": "CC BY-SA 4.0"
     }
   },
   "unresolved": [

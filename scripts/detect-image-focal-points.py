@@ -13,6 +13,13 @@ MANUAL_OVERRIDES = {
     "/images/goat/players/zico.jpg": {"x": 53.0, "y": 31.0, "faceWidth": 35.0},
     "/images/goat/players/platini.jpg": {"x": 50.0, "y": 23.0, "faceWidth": 29.0},
     "/images/goat/players/coluna.jpg": {"x": 27.0, "y": 22.0, "faceWidth": 24.0},
+    "/images/goat/players/leonidas.jpg": {"x": 72.0, "y": 31.0, "faceWidth": 21.0},
+    "/images/goat/players/figueroa.jpg": {"x": 52.0, "y": 24.0, "faceWidth": 43.0},
+    "/images/goat/players/kim-min-jae.jpg": {"x": 17.0, "y": 22.0, "faceWidth": 13.0},
+    "/images/goat/players/stoichkov.jpg": {"x": 66.0, "y": 22.0, "faceWidth": 15.0},
+    "/images/goat/players/zlatan.jpg": {"x": 48.0, "y": 20.0, "faceWidth": 25.0},
+    "/images/goat/players/neuer.jpg": {"x": 38.0, "y": 24.0, "faceWidth": 14.0},
+    "/images/goat/players/nilton-santos.jpg": {"x": 68.0, "y": 22.0, "faceWidth": 25.0},
 }
 
 frontal = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
