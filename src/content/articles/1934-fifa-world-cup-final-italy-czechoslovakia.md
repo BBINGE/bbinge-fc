@@ -63,20 +63,20 @@ relatedGroup: 'fifa-world-cup-1934'
 <section class="highlight-scene">
   <header><span>71' · CZECHOSLOVAKIA 1-0</span><h3>안토닌 푸치, 개최국을 침묵시키다</h3></header>
   <div class="highlight-clip-grid two-clips">
-    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안토닌 푸치의 선제골 공격 전개"><source src="/media/highlights/1934-world-cup-final/clip-03.mp4" type="video/mp4" /></video><figcaption>푸치가 이탈리아 수비 라인을 깨고 골문 쪽으로 공을 넘긴다.</figcaption></figure>
-    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안토닌 푸치의 1934 월드컵 결승전 선제골"><source src="/media/highlights/1934-world-cup-final/clip-04.mp4" type="video/mp4" /></video><figcaption>푸치의 슈팅을 향해 콤비가 몸을 날리지만 체코슬로바키아가 먼저 앞선다.</figcaption></figure>
+    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안토닌 푸치의 선제골 슈팅 장면"><source src="/media/highlights/1934-world-cup-final/clip-04.mp4" type="video/mp4" /></video><figcaption>푸치가 왼쪽의 좁은 각도에서 슈팅한다.</figcaption></figure>
+    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안토닌 푸치의 선제골이 들어간 뒤 골문 장면"><source src="/media/highlights/1934-world-cup-final/clip-03.mp4" type="video/mp4" /></video><figcaption>콤비가 몸을 날렸지만 공은 골문 안으로 들어갔다.</figcaption></figure>
   </div>
   <p>후반 26분, 먼저 골문을 연 팀은 체코슬로바키아였다. 푸치는 왼쪽 측면에서 수비를 벗겨낸 뒤 각도가 거의 없는 자리까지 들어간다. 그리고 콤비가 가까운 골문을 막으려는 순간, 공을 먼 쪽으로 보내버렸다.</p>
-  <p>짧은 필름은 득점 직전과 직후의 움직임을 여러 각도에서 반복한다. 푸치가 공을 놓지 않고 끝까지 몰고 들어간 판단, 골키퍼가 몸을 낮춘 뒤 반대편으로 공이 빠져나가는 순간, 동료들이 그를 향해 달려드는 장면이 이어진다. 결승 종료까지 19분. 개최국 이탈리아가 처음으로 탈락 직전까지 밀렸다.</p>
+  <p>두 영상은 푸치의 선제골을 시간 순서대로 나눈 것이다. 첫 영상에서 푸치가 왼쪽의 좁은 각도에서 슈팅하고, 이어지는 영상에는 콤비가 몸을 날린 뒤 공이 들어간 골문이 잡힌다. 결승 종료까지 19분. 개최국 이탈리아가 처음으로 탈락 직전까지 밀렸다.</p>
 </section>
 
 <section class="highlight-scene">
   <header><span>81' · 1-1</span><h3>라이문도 오르시, 오른발로 만든 동점</h3></header>
   <div class="highlight-clip-grid two-clips">
-    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="라이문도 오르시의 이탈리아 동점골 공격"><source src="/media/highlights/1934-world-cup-final/clip-05.mp4" type="video/mp4" /></video><figcaption>오르시가 수비 사이에서 오른발 슈팅의 공간을 만든다.</figcaption></figure>
-    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="라이문도 오르시의 이탈리아 동점골"><source src="/media/highlights/1934-world-cup-final/clip-06.mp4" type="video/mp4" /></video><figcaption>왼발잡이 오르시가 오른발로 동점을 만들며 결승전을 연장으로 끌고 갔다.</figcaption></figure>
+    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="라이문도 오르시의 동점골 연속 장면 전반부"><source src="/media/highlights/1934-world-cup-final/clip-05.mp4" type="video/mp4" /></video><figcaption>같은 동점골 장면 ① 오르시가 수비 사이에서 오른발 슈팅을 준비한다.</figcaption></figure>
+    <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="라이문도 오르시의 동점골 연속 장면 후반부"><source src="/media/highlights/1934-world-cup-final/clip-06.mp4" type="video/mp4" /></video><figcaption>같은 동점골 장면 ② 슈팅 뒤 오르시가 돌아서고 동료들이 달려온다.</figcaption></figure>
   </div>
-  <p>푸치의 골이 터진 지 10분 뒤, 오르시가 경기를 원점으로 돌렸다. 그는 왼쪽에서 안으로 들어오며 오른발로 공을 감아 찼고, 플라니치카가 몸을 날렸지만 공은 먼 쪽 골문으로 휘어 들어갔다.</p>
+  <p>푸치의 골이 터진 지 10분 뒤, 오르시가 경기를 원점으로 돌렸다. 위 두 영상은 서로 다른 공격이 아니라 하나의 동점골을 앞뒤로 나눈 연속 장면이다. 오르시는 왼쪽에서 안으로 들어오며 오른발로 공을 감아 찼고, 플라니치카가 몸을 날렸지만 공은 먼 쪽 골문으로 휘어 들어갔다.</p>
   <p>아르헨티나에서 태어나 이탈리아 대표가 된 오르시는 강한 왼발로 이름을 얻은 윙포워드였다. 그런데 결승전에서 이탈리아를 살린 슈팅은 오른발에서 나왔다. 남은 9분 동안 추가골은 없었고, 두 번째 월드컵 결승전은 최초로 연장전에 들어갔다.</p>
 </section>
 
