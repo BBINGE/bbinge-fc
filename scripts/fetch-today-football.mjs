@@ -84,6 +84,24 @@ const BIG_CLUBS = [
   'boca juniors', 'river plate', 'racing club', 'flamengo', 'palmeiras', 'corinthians', 'santos',
 ];
 
+const LEAGUE_LABELS = new Map([
+  ['English Premier League', '프리미어 리그'],
+  ['German Bundesliga', '푸스발-분데스리가'],
+  ['Bundesliga', '푸스발-분데스리가'],
+  ['Spanish La Liga', '라리가'],
+  ['Italian Serie A', '세리에 A'],
+  ['French Ligue 1', '리그 1'],
+  ['Dutch Eredivisie', '에레디비시'],
+  ['UEFA Champions League', 'UEFA 챔피언스 리그'],
+  ['UEFA Europa League', 'UEFA 유로파 리그'],
+  ['Portuguese Primeira Liga', '프리메이라리가'],
+  ['Argentinian Primera Division', '아르헨티나 프리메라 디비시온'],
+]);
+
+function leagueLabel(name) {
+  return LEAGUE_LABELS.get(name) || name || '축구 경기';
+}
+
 function eventScore(event, leagueWeight) {
   const teams = `${event.strHomeTeam || ''} ${event.strAwayTeam || ''}`.toLowerCase();
   const clubBonus = BIG_CLUBS.some((club) => teams.includes(club)) ? 100 : 0;
@@ -117,7 +135,7 @@ async function fetchMatches(date) {
       : '';
     return {
       id: event.idEvent,
-      league: event.strLeague || '축구 경기',
+      league: leagueLabel(event.strLeague),
       home: event.strHomeTeam || '',
       away: event.strAwayTeam || '',
       homeBadge: event.strHomeTeamBadge || '',
@@ -156,7 +174,9 @@ const data = {
     : previous.date === date ? previous.birthday ?? null : null,
   matches: matchesResult.status === 'fulfilled' && matchesResult.value.length
     ? matchesResult.value
-    : previous.date === date ? previous.matches ?? [] : [],
+    : previous.date === date
+      ? (previous.matches ?? []).map((event) => ({ ...event, league: leagueLabel(event.league) }))
+      : [],
   sources: {
     birthday: 'Wikidata',
     matches: 'TheSportsDB',

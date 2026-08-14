@@ -30,7 +30,7 @@ export const archiveBranches: ArchiveBranch[] = [
     originalTitle: 'DOMESTIC LEAGUES',
     description: '각국 리그의 역사와 시즌, 구단과 스쿼드를 축적하는 국내 대회 기록.',
     indexes: [
-      ['premier-league', '프리미어리그'], ['la-liga', '라리가'], ['serie-a', '세리에 A'], ['bundesliga', '분데스리가'], ['ligue-1', '리그 1'], ['other-domestic-leagues', '기타 국내 리그'],
+      ['premier-league', '프리미어 리그'], ['la-liga', '라리가'], ['serie-a', '세리에 A'], ['bundesliga', '푸스발-분데스리가'], ['ligue-1', '리그 1'], ['other-domestic-leagues', '기타 국내 리그'],
     ].map(([slug, label]) => ({ slug, label })),
   },
   {
