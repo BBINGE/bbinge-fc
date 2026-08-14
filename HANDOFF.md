@@ -1,5 +1,14 @@
 # BBinge FC — 공용 인수인계
 
+## 2026-08-14 최종 세션 종료 — 다음 채팅은 여기서 시작
+
+- 다음 채팅은 반드시 `BBINGE_FC_BRIEF.md` → `CLAUDE.md` → 이 파일을 처음부터 읽고, `git fetch origin` → `git status --short --branch` → `git log -10 --oneline`으로 실제 상태를 확인한다. 이 인수인계 커밋 직전 공개 기준점은 `be0b733`(`축디 두 편 본문 사진 복구`)이며, 인수인계 자체 커밋이 그 뒤에 추가된다.
+- 로컬에는 운영자가 별도로 수정한 `public/images/archive/1930-fifa-world-cup-best-xi/players/hector-castro.jpg` 한 파일만 수정 상태로 남는다. 새 채팅은 이 파일을 되돌리거나 덮어쓰거나 다른 작업 커밋에 포함하지 않는다. 교체·발행 여부는 운영자의 명시적 지시를 기다린다.
+- Google AdSense에는 `bbingefc.com` 소유권 확인과 검토 요청이 완료됐다. 마지막 확인 상태는 `준비 중`·`사이트의 광고 게재 가능 여부 검토 중`·`리뷰가 요청됨`이다. 공통 심사 스크립트는 `Layout.astro`에 배포됐지만 광고 단위와 자동 광고는 아직 켜지 않았고, `AdSlot.astro`도 방문자에게 빈 광고 상자를 출력하지 않는다. 심사 중 사이트를 삭제·재등록하지 않는다.
+- AdSense 사이트 목록에서 더 이상 운영하지 않는 `bbingedanmat.tistory.com`만 사용자가 직접 삭제했다. 기존의 다른 티스토리 두 곳은 목록에 남았으며 BBinge FC 심사와는 별개다. `bbingefc.com`의 `ads.txt`는 마지막 화면에서 `찾을 수 없음`이었고 아직 로컬 파일을 추가하지 않았다. 후속 작업은 Google이 제공하는 정확한 판매자 행을 UI에서 확인한 뒤에만 진행하며 게시자 ID를 추측해 작성하지 않는다.
+- 축디 두 편은 `/culture/oh-hayoung-manchester-united-blockcore/`, `/culture/juventus-blockcore-outfits/`에 공개됐다. 최초 발행 때 빠졌던 본문 사진은 네이버 원문 순서대로 각각 15장·19장을 전부 복구했고, WebP 총 2.56MB·2열 반응형 갤러리·대체문구·묶음 캡션을 적용했다. 실서비스에서 표지 포함 각각 16장·20장과 캡션 노출을 확인했다.
+- 이번 마지막 검증은 `npx.cmd astro check` 0 errors/0 warnings/0 hints, `npm.cmd run build` 85페이지 성공, 두 축디 글의 실서비스 이미지 수와 캡션 확인까지 완료했다. 다음 콘텐츠는 사용자가 새 원고·자료를 주는 순서대로 이어가고, AdSense 결과가 오기 전에는 사이트 구조나 광고를 성급하게 변경하지 않는다.
+
 ## 2026-08-14 축디 첫 두 편 발행 및 광고 자리 비노출
 
 - 축디 첫 공개 글 두 편을 추가했다. `/culture/oh-hayoung-manchester-united-blockcore/`는 오하영의 맨체스터 유나이티드 레트로 유니폼 코디를 봄 스타일·청바지·셸 파카의 세 가지 활용법으로 정리하고, `/culture/juventus-blockcore-outfits/`는 비안코네리의 흑백 정체성을 중심으로 홈·원정 유니폼 블록코어룩을 소개한다.
@@ -15,7 +24,7 @@
 
 ### Git과 로컬 상태
 
-- 콘텐츠·기능 기준점은 `4f67b6b`(`UEFA 컨퍼런스 리그 명칭 수정`)까지 `origin/main`에 push됐고 Cloudflare Pages 실서비스에서 확인됐다. 이 인수인계 갱신 커밋이 그 뒤에 추가되므로 새 채팅에서는 고정 번호를 믿지 말고 `git fetch origin` → `git status --short --branch` → `git log -10 --oneline`으로 실제 최신점을 확인한다.
+- 이 절의 과거 기준점보다 문서 최상단 `2026-08-14 최종 세션 종료`가 우선한다. 새 채팅에서는 고정 번호를 그대로 믿지 말고 `git fetch origin` → `git status --short --branch` → `git log -10 --oneline`으로 실제 최신점을 확인한다.
 - 로컬에는 운영자가 따로 수정한 `public/images/archive/1930-fifa-world-cup-best-xi/players/hector-castro.jpg`가 수정 상태로 남아 있다. 출처가 분명한 사용자 자산이므로 새 채팅은 이 파일을 되돌리거나 덮어쓰거나 다른 작업 커밋에 섞지 않는다. 교체·발행 여부는 운영자의 다음 지시를 받는다.
 - 기준 브랜치는 `main`, 운영 주소는 `https://bbingefc.com`, Pages 확인 주소는 `https://bbinge-fc.pages.dev`다. 작업 종료 때 빌드, 380px·태블릿·PC, 실제 배포를 확인하고 한국어 커밋으로 `main`에 push한다.
 
