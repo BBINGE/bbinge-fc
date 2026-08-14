@@ -27,8 +27,8 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
           <p class="today-card__eyebrow">오늘 태어난 축구인</p>
           <h2>{birthday.name}</h2>
           <p class="today-card__copy">{birthday.birthYear}년 오늘 태어났습니다.<br />오늘의 축구사에서 이름을 꺼내봅니다. 🎂</p>
-          <a href={birthday.wikidataUrl} target="_blank" rel="noreferrer">인물 기록 확인하기 <span aria-hidden="true">→</span></a>
         </div>
+        <a class="today-card__cta" href={birthday.wikidataUrl} target="_blank" rel="noreferrer" aria-label={`${birthday.name} 인물 기록 보러가기`}><span>보러<br />가기</span><i aria-hidden="true">→</i></a>
       </>
     ) : (
       <>
@@ -36,8 +36,8 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
           <p class="today-card__eyebrow">오늘의 축구사</p>
           <h2>기록은 오늘도 계속됩니다</h2>
           <p class="today-card__copy">오늘과 이어지는 오래된 축구 이야기를<br />삥이 아카이브에서 골라보세요. 🕰️</p>
-          <a href="/archive/">과거로 시간여행하기 <span aria-hidden="true">→</span></a>
         </div>
+        <a class="today-card__cta" href="/archive/" aria-label="삥이 아카이브 보러가기"><span>보러<br />가기</span><i aria-hidden="true">→</i></a>
       </>
     )}
   </article>
@@ -57,8 +57,8 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
         <div class="today-card__body">
           <p class="today-card__eyebrow">{match.league}</p>
           <p class="today-card__copy">오늘 열리는 축구입니다. 늦은 경기라면 내일 H/L로 만나요. ☕</p>
-          <a href="/highlights/">하이라이트 모아보기 <span aria-hidden="true">→</span></a>
         </div>
+        <a class="today-card__cta" href="/highlights/" aria-label="하이라이트 보러가기"><span>보러<br />가기</span><i aria-hidden="true">→</i></a>
       </>
     ) : (
       <>
@@ -66,8 +66,8 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
           <p class="today-card__eyebrow">오늘 밤 어디 볼까?</p>
           <h2>오늘 밤은 잠시 조용합니다</h2>
           <p class="today-card__copy">실시간 일정이 쉬어가는 동안<br />옛 결승전 한 편은 어떨까요? 📼</p>
-          <a href="/highlights/">명경기 다시 보기 <span aria-hidden="true">→</span></a>
         </div>
+        <a class="today-card__cta" href="/highlights/" aria-label="명경기 하이라이트 보러가기"><span>보러<br />가기</span><i aria-hidden="true">→</i></a>
       </>
     )}
   </article>
@@ -79,26 +79,28 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
   .today-card--tonight { background:linear-gradient(145deg,#10192b 0%,#182b50 62%,#2468dc 145%); color:#fff; }
   .today-card__top { position:relative; z-index:3; display:flex; justify-content:space-between; gap:16px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:10px; font-weight:800; letter-spacing:.15em; }
   .today-card--tonight .today-card__top { border-color:rgba(255,255,255,.18); color:rgba(255,255,255,.56); }
-  .today-card__body { position:relative; z-index:3; }
-  .today-card__eyebrow { margin-top:17px; color:var(--bbfc-blue); font-size:10px; font-weight:800; letter-spacing:.07em; }
+  .today-card__body { position:absolute; z-index:3; left:24px; right:92px; bottom:20px; }
+  .today-card__eyebrow { color:var(--bbfc-blue); font-size:10px; font-weight:800; letter-spacing:.07em; }
   .today-card--tonight .today-card__eyebrow { color:#79aefc; }
   .today-card h2 { margin-top:6px; font-size:26px; line-height:1.18; font-weight:760; letter-spacing:-.05em; text-wrap:balance; }
   .today-card h2 span { color:var(--bbfc-gray-3); font-family:Georgia,serif; font-size:.72em; font-weight:400; font-style:italic; }
   .today-card__copy { margin-top:9px; color:var(--bbfc-gray-1); font-size:12px; line-height:1.6; }
   .today-card--tonight .today-card__copy { color:rgba(255,255,255,.66); }
-  .today-card__body>a { display:inline-block; margin-top:13px; color:inherit; font-size:11px; font-weight:700; border-bottom:1px solid currentColor; padding-bottom:2px; }
-  .today-card__portrait { position:absolute; z-index:1; inset:0; background-image:linear-gradient(90deg,rgba(8,16,29,.96) 0%,rgba(8,16,29,.78) 47%,rgba(8,16,29,.08) 100%),var(--portrait); background-position:center,right 18% center; background-size:cover,auto 125%; background-repeat:no-repeat; opacity:0; }
+  .today-card__cta { position:absolute; z-index:4; right:18px; bottom:18px; width:62px; height:62px; display:flex; align-items:center; justify-content:center; gap:2px; border:1px solid rgba(255,255,255,.35); border-radius:50%; background:rgba(49,130,246,.72); box-shadow:0 10px 28px rgba(6,34,78,.24); color:#fff; font-size:10px; line-height:1.05; font-weight:800; letter-spacing:-.02em; text-align:center; backdrop-filter:blur(7px); transition:transform .2s ease,background .2s ease; }
+  .today-card__cta i { font-family:Georgia,serif; font-size:12px; font-style:normal; }
+  .today-card__cta:hover { transform:translateY(-3px); background:rgba(49,130,246,.9); }
+  .today-card__portrait { position:absolute; z-index:1; inset:0; background-image:linear-gradient(0deg,rgba(5,12,23,.96) 0%,rgba(5,12,23,.76) 32%,rgba(5,12,23,.16) 68%,rgba(5,12,23,0) 100%),linear-gradient(90deg,rgba(5,12,23,.3) 0%,rgba(5,12,23,0) 62%),var(--portrait); background-position:center,center,right 18% center; background-size:cover,cover,auto 125%; background-repeat:no-repeat; opacity:0; }
   .today-card--with-portrait { background:#0b1423; color:#fff; }
   .today-card--with-portrait .today-card__portrait { opacity:1; }
   .today-card--with-portrait .today-card__top { border-color:rgba(255,255,255,.2); color:rgba(255,255,255,.7); }
   .today-card--with-portrait .today-card__eyebrow { color:#8bbcff; }
-  .today-card--with-portrait .today-card__copy { max-width:64%; color:rgba(255,255,255,.74); }
+  .today-card--with-portrait .today-card__copy { color:rgba(255,255,255,.76); }
   .match-visual { position:relative; z-index:3; display:grid; grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr); align-items:center; gap:8px; padding-top:18px; text-align:center; }
   .match-visual>div { min-width:0; display:grid; justify-items:center; gap:7px; }
   .match-visual img,.match-visual>div>span { width:58px; height:58px; object-fit:contain; display:grid; place-items:center; font-size:34px; filter:drop-shadow(0 8px 12px rgba(0,0,0,.28)); }
   .match-visual strong { max-width:100%; font-size:14px; line-height:1.2; font-weight:750; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .match-visual>b { color:rgba(255,255,255,.45); font-family:Georgia,serif; font-size:13px; font-style:italic; }
-  .today-card--tonight .today-card__eyebrow { margin-top:13px; }
+  .today-card--tonight::after { content:""; position:absolute; z-index:2; inset:auto 0 0; height:58%; background:linear-gradient(0deg,rgba(4,12,27,.74),rgba(4,12,27,0)); pointer-events:none; }
 
   @media (min-width: 1600px) {
     .today-football { position:absolute; inset:192px auto auto 50%; width:1px; margin:0; border:0; background:transparent; pointer-events:none; }
@@ -107,7 +109,8 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
     .today-card--tonight { left:calc(50% + 600px); }
     .today-card h2 { font-size:clamp(21px,1.45vw,27px); }
     .today-card__copy { font-size:11.5px; }
-    .today-card--with-portrait .today-card__copy { max-width:76%; }
+    .today-card__body { left:17px; right:82px; bottom:18px; }
+    .today-card__cta { right:14px; bottom:14px; width:58px; height:58px; }
     .match-visual { grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr); }
     .match-visual img,.match-visual>div>span { width:clamp(48px,4vw,68px); height:clamp(48px,4vw,68px); }
     .match-visual strong { font-size:13px; }
@@ -117,6 +120,8 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
     .today-football { display:flex; gap:10px; margin-bottom:28px; padding:0 0 7px; overflow-x:auto; border:0; background:transparent; scroll-snap-type:x mandatory; scrollbar-width:thin; scrollbar-color:var(--bbfc-border) transparent; }
     .today-card { flex:0 0 89%; min-height:224px; padding:18px 19px 17px; border:1px solid var(--bbfc-border); scroll-snap-align:start; }
     .today-card h2 { font-size:24px; }
+    .today-card__body { left:19px; right:84px; bottom:18px; }
+    .today-card__cta { right:15px; bottom:15px; width:58px; height:58px; }
     .today-card__copy br { display:none; }
   }
 </style>
