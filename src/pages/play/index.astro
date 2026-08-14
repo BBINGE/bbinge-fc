@@ -4,9 +4,7 @@ import { getCollection } from 'astro:content';
 import playersFile from '../../data/goat-players.json';
 import playerImageFile from '../../data/goat-player-images.json';
 
-const { players } = playersFile;
-const GOAT_IDS = ['di-stefano', 'puskas', 'pele', 'beckenbauer', 'cruyff', 'maradona', 'cristiano', 'messi'];
-const goatPlayers = GOAT_IDS.map((id) => players.find((player) => player.id === id)).filter(Boolean);
+const { players, drawAllocation } = playersFile;
 
 // 선수 id와 슬러그가 같은 '역사' 카테고리 글이 있으면 우승 화면에서 바로 연결한다.
 const historyArticles = await getCollection('articles', ({ data }) => !data.draft && data.category === 'history');
@@ -35,7 +33,7 @@ const playerCredits = playerImageFile.portraits;
 
 <Layout
   title="GOAT 토너먼트"
-  description="축구 역사를 대표하는 8명의 전설이 맞붙는 GOAT 토너먼트. 한 명만 끝까지 남겨보세요."
+  description="시대별 136명 중 32명이 출전하는 GOAT 토너먼트. 한 명만 끝까지 남겨보세요."
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: '놀이', href: '/play/' },
@@ -43,7 +41,7 @@ const playerCredits = playerImageFile.portraits;
 >
   <div class="max-w-[980px] mx-auto px-3 md:px-5 py-5 md:py-7">
     <header class="mb-5">
-      <p class="text-[11px] text-[var(--bbfc-blue)]">PLAY · GOAT 8</p>
+      <p class="text-[11px] text-[var(--bbfc-blue)]">PLAY · 32강</p>
       <h1 class="text-[24px] md:text-[30px] font-medium text-[var(--bbfc-ink)] mt-1">둘 중 한 명만 찍어.</h1>
       <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1.5">
         고민은 짧게, 클릭은 세게. 살아남은 한 명이 다음 라운드로 갑니다.
@@ -56,10 +54,11 @@ const playerCredits = playerImageFile.portraits;
   </div>
 </Layout>
 
-<script is:inline define:vars={{ players: goatPlayers, articleMap, playerImages, playerCredits }}>
-  const STORAGE_KEY = 'bbfc-goat-v2';
+<script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits }}>
+  const STORAGE_KEY = 'bbfc-goat-v3';
   const ROUND_NAME = { 32: '32강', 16: '16강', 8: '8강', 4: '4강', 2: '결승' };
   const POSITION_KR = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };
+  const ERA_ORDER = ['pre1950', '1950s60s', '1970s80s', '1990s00s', '2010s'];
   const MATCH_LINES = ['누가 올라가?', '한 명만 찍어.', '이건 좀 어렵다.', '오늘은 네가 감독이다.', '고민하다 둘 다 늙는다.'];
 
   const app = document.getElementById('goat-app');
@@ -104,7 +103,14 @@ const playerCredits = playerImageFile.portraits;
 
   function buildBracket(seedStr) {
     const rng = mulberry32(hashSeed(seedStr));
-    return seededShuffle(players.map((player) => player.id), rng);
+    const pool = ERA_ORDER.flatMap((era) => {
+      const needed = drawAllocation[era] ?? 0;
+      const eraPlayers = players.filter((player) => player.era === era);
+      return seededShuffle(eraPlayers, rng)
+        .slice(0, Math.min(needed, eraPlayers.length))
+        .map((player) => player.id);
+    });
+    return seededShuffle(pool, rng);
   }
 
   function loadState() {
