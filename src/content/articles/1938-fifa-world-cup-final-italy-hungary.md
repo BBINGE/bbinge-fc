@@ -42,9 +42,9 @@ relatedGroup: 'fifa-world-cup-1938'
 ## 전반 8분: 헝가리의 즉답
 
 <section class="highlight-scene">
-  <header><span>8' · 1-1</span><h3>팔 티트코시, 2분 만에 경기를 되돌리다</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="팔 티트코시의 1938 월드컵 결승전 동점골"><source src="/media/highlights/1938-world-cup-final/titkos-8.mp4?v=2" type="video/mp4" /></video><figcaption>문전에서 흘러나온 공을 티트코시가 왼발로 때려 2분 만에 동점을 만들었다.</figcaption></figure></div>
-  <p>하지만 이탈리아의 리드는 2분밖에 가지 않았다. 헝가리가 곧장 이탈리아 진영으로 밀고 들어갔고, 문전에서 흘러나온 공을 팔 티트코시가 왼발로 때렸다. 골키퍼 알도 올리비에리가 몸을 날렸지만 공은 골문 안으로 들어갔다.</p>
+  <header><span>8' · 1-1</span><h3>티트코시 팔, 2분 만에 경기를 되돌리다</h3></header>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" autoplay muted loop playsinline controls preload="auto" aria-label="티트코시 팔의 1938 월드컵 결승전 동점골"><source src="/media/highlights/1938-world-cup-final/titkos-8.mp4?v=2" type="video/mp4" /></video><figcaption>문전에서 흘러나온 공을 티트코시가 왼발로 때려 2분 만에 동점을 만들었다.</figcaption></figure></div>
+  <p>하지만 이탈리아의 리드는 2분밖에 가지 않았다. 헝가리가 곧장 이탈리아 진영으로 밀고 들어갔고, 문전에서 흘러나온 공을 티트코시 팔<span class="foreign-note" lang="hu">(Titkos Pál)</span>이 왼발로 때렸다. 골키퍼 알도 올리비에리가 몸을 날렸지만 공은 골문 안으로 들어갔다.</p>
   <p>결승전의 첫 두 골 사이에는 준비할 시간도, 분위기를 정리할 틈도 없었다. 앞선 팀이 숨을 고르기도 전에 1-1. 대회 최다 득점 팀 헝가리가 왜 결승까지 올라왔는지 보여주는 반응이었다.</p>
 </section>
 
