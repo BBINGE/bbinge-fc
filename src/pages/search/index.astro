@@ -3,7 +3,7 @@
 // 클라이언트 JS로 제목·설명·태그를 부분일치 검색한다. draft는 애초에 제외.
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { categories } from '../../config/categories';
+import { categories, getArticlePath } from '../../config/categories';
 
 const entries = (await getCollection('articles', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id)
@@ -13,7 +13,7 @@ const searchIndex = entries.map((entry) => ({
   title: entry.data.title,
   description: entry.data.description,
   tags: entry.data.tags,
-  href: `/${entry.data.category}/${entry.id}/`,
+  href: getArticlePath(entry.data.category, entry.id),
   categoryLabel: categories[entry.data.category]?.label ?? '',
   pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
 }));

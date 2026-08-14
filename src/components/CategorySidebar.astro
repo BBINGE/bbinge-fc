@@ -3,7 +3,7 @@
 // 중분류(parentSlug)가 늘어나면 자동으로 접기/펼치기 단계가 늘어난다.
 // 노드별 글 수는 draft 제외 후 자식 → 부모로 롤업된 값(countByNode)을 그대로 받아 표시한다.
 import type { CategoryTreeNode } from '../config/categories';
-import { buildTree, countByNode, getAncestorChain } from '../config/categories';
+import { buildTree, countByNode, getAncestorChain, getCategoryPath } from '../config/categories';
 import { getCollection } from 'astro:content';
 import { isRecentlyChanged } from '../utils/freshness';
 
@@ -43,7 +43,7 @@ if (!nodes || !counts) {
       const isActive = node.slug === activeSlug;
       const row = (
         <div class="bbfc-cat-row">
-          <a href={`/${node.slug}/`} class:list={['bbfc-cat-link', isActive && 'is-active']}>
+          <a href={getCategoryPath(node.slug)} class:list={['bbfc-cat-link', isActive && 'is-active']}>
             {node.label}
             {freshCategorySlugs.has(node.slug) && <span class="category-new">NEW</span>}
           </a>

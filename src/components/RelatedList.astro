@@ -1,6 +1,7 @@
 ---
 import { categories } from '../config/categories';
 import type { CollectionEntry } from 'astro:content';
+import { getArticlePath } from '../config/categories';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -12,7 +13,7 @@ const { entries } = Astro.props;
 <ul>
   {entries.map((entry) => (
     <li class="border-t border-[var(--bbfc-line)] py-3 first:pt-0">
-      <a href={`/${entry.data.category}/${entry.id}/`} class="block">
+      <a href={getArticlePath(entry.data.category, entry.id)} class="block">
         <p class="text-[11px] text-[var(--bbfc-blue)]">{categories[entry.data.category].label}</p>
         <p class="text-[13.5px] text-[var(--bbfc-ink)] mt-1 leading-snug">{entry.data.title}</p>
       </a>

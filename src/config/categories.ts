@@ -49,6 +49,14 @@ export function getAncestorChain(slug: CategorySlug): CategoryNode[] {
   return chain;
 }
 
+export function getCategoryPath(slug: CategorySlug): string {
+  return `/${getAncestorChain(slug).map((category) => category.slug).join('/')}/`;
+}
+
+export function getArticlePath(categorySlug: CategorySlug, articleId: string): string {
+  return `${getCategoryPath(categorySlug)}${articleId}/`;
+}
+
 export function buildTree(): CategoryTreeNode[] {
   const toNode = (c: CategoryNode): CategoryTreeNode => ({
     ...c,

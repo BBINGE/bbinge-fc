@@ -1,5 +1,13 @@
 # BBinge FC — 공용 인수인계
 
+## 2026-08-14 — 하이라이트 모아보기·1930 월드컵 결승전 H/L 신설
+
+- 일반 글 카테고리에 최상위 `H/L`(`highlights`, 전체 표시명 `하이라이트 모아보기`)과 하위 `FIFA 월드컵`(`fifa-world-cup`)을 추가했다. 중첩 카테고리의 글 URL도 조상 경로를 포함해 `/highlights/fifa-world-cup/{slug}/`로 생성되며, 기존 최상위 카테고리 글 URL은 바뀌지 않는다.
+- 첫 H/L 글 `1930 FIFA 월드컵 결승전 H/L: 우루과이 4-2 아르헨티나`를 `/highlights/fifa-world-cup/1930-fifa-world-cup-final-uruguay-argentina/`에 발행했다. 대표 이미지는 운영자가 제공한 773×773 원본 `/images/highlights/1930-world-cup-final-cover.png`다.
+- 운영자의 기존 NAVER 원문에 있던 12개 짧은 영상을 MP4 로컬 자산으로 옮겼다. 영상은 `muted`·`loop`·`playsinline`·`controls`를 사용하고, H/L 글에서만 실행되는 IntersectionObserver가 화면에 들어온 영상만 자동 재생하고 벗어난 영상은 정지한다. 모션 감소 설정에서는 자동 재생하지 않는다.
+- 경기 흐름은 관중·경기장 2개, 도라도 선제골, 페우셀레 동점골, 스타빌레 역전골 2개, 세아 동점골 2개, 이리아르테 역전골, 카스트로 쐐기골, 종료 뒤 우승 장면 2개로 배열했다. 기존 원문의 89분 득점자 `엑토르 스카로네` 표기는 기록과 영상에 맞춰 `엑토르 카스트로`로 바로잡았다.
+- 본문 하단의 `👀⚽ 당대 베스트 11 구경하기` 카드는 `/archive/national-team/fifa-world-cup/1930-fifa-world-cup-best-xi/`로 연결한다.
+
 ## 2026-08-14 — 1930 FIFA 월드컵 베스트 11 발행
 
 - 국가대표팀 대회 아카이브의 `fifa-world-cup` 분류에 첫 기록 `1930 FIFA 월드컵 베스트 11: 첫 세계선수권의 얼굴들`을 발행했다. URL은 `/archive/national-team/fifa-world-cup/1930-fifa-world-cup-best-xi/`다.

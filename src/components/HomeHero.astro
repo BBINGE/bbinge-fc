@@ -4,6 +4,7 @@
 import { categories } from '../config/categories';
 import type { CollectionEntry } from 'astro:content';
 import { isNewlyPublished } from '../utils/freshness';
+import { getArticlePath } from '../config/categories';
 
 interface Props {
   hotArticles: CollectionEntry<'articles'>[];
@@ -41,7 +42,7 @@ const { hotArticles } = Astro.props;
       <ul class="flex-1">
         {hotArticles.map((entry) => (
           <li class="border-t border-[var(--bbfc-line)] py-3 first:pt-0 first:border-t-0">
-            <a href={`/${entry.data.category}/${entry.id}/`} class="flex gap-3 items-center group">
+            <a href={getArticlePath(entry.data.category, entry.id)} class="flex gap-3 items-center group">
               <div class="relative w-[56px] h-[56px] shrink-0 rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
                 {entry.data.coverImage ? (
                   <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" />

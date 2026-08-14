@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { site } from '../config/site';
+import { getArticlePath } from '../config/categories';
 
 const escapeXml = (value: string) =>
   value
@@ -25,7 +26,7 @@ export const GET: APIRoute = async () => {
       description: entry.data.description,
       body: entry.body ?? entry.data.description,
       pubDate: entry.data.pubDate,
-      url: `${site.url}/${entry.data.category}/${entry.id}/`,
+      url: new URL(getArticlePath(entry.data.category, entry.id), site.url).toString(),
     })),
     ...archiveRecords.map((entry) => ({
       title: entry.data.title,
