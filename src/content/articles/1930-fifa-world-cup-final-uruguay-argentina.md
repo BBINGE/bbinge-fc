@@ -27,6 +27,8 @@ featured: false
 
 아래 영상은 국제축구연맹 FIFA가 공개한 1930년 결승전 기록 영상을 짧은 장면으로 나눈 것이다. 화질과 프레임은 시대의 한계를 품고 있지만, 관중이 몰려드는 순간부터 여섯 골과 종료 뒤 환호까지 경기의 순서를 따라갈 수 있다.
 
+두 팀의 대결은 처음부터 ‘남미의 라이벌전’ 이상이었다. 2년 전 암스테르담 올림픽 결승에서도 우루과이와 아르헨티나가 만났고, 첫 경기를 1-1로 비긴 뒤 재경기에서 우루과이가 2-1로 이겼다. 초대 월드컵 결승은 그 세계 정상전을 몬테비데오에서 다시 치르는 경기였다.
+
 ## 결승전이 시작되기 전
 
 <section class="highlight-scene">
@@ -35,6 +37,8 @@ featured: false
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1930 월드컵 결승전을 보기 위해 모인 관중"><source src="/media/highlights/1930-world-cup-final/clip-01.mp4" type="video/mp4" /></video><figcaption>결승전을 보기 위해 센테나리오 주변으로 몰려든 관중.</figcaption></figure>
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1930 월드컵 결승전 경기장과 관중"><source src="/media/highlights/1930-world-cup-final/clip-02.mp4" type="video/mp4" /></video><figcaption>첫 월드컵의 우승국이 결정될 경기장 안팎의 풍경.</figcaption></figure>
   </div>
+  <p>첫 두 영상부터 사람의 밀도가 다르다. 공식 경기표에 남은 관중은 6만 8,346명. 지금처럼 지정 좌석과 거대한 전광판이 경기를 정리해주던 시대도 아니었는데, 사람들은 첫 세계 챔피언이 탄생하는 장면을 보려고 센테나리오로 몰려들었다.</p>
+  <p>경기 시작 전부터 해결할 문제가 하나 있었다. 두 팀이 서로 자기 공을 쓰겠다고 맞섰고, 결국 전반은 아르헨티나가 가져온 공, 후반은 우루과이가 가져온 공으로 치렀다. 공 하나가 결과를 갈랐다고 단정할 수는 없지만, 아르헨티나가 전반을 2-1로 앞서고 우루과이가 후반에 세 골을 넣었다는 결말 때문에 지금까지도 빠지지 않는 결승전의 유명한 일화가 됐다.</p>
 </section>
 
 ## 전반: 아르헨티나의 역전
@@ -42,12 +46,15 @@ featured: false
 <section class="highlight-scene">
   <header><span>12' · URUGUAY 1-0</span><h3>파블로 도라도, 첫 골</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="파블로 도라도의 우루과이 선제골"><source src="/media/highlights/1930-world-cup-final/clip-03.mp4" type="video/mp4" /></video><figcaption>오른쪽에서 침투한 파블로 도라도가 파 포스트 쪽으로 밀어 넣었다.</figcaption></figure></div>
-  <p>시작은 개최국의 몫이었다. 도라도가 전반 12분 선제골을 넣으며 센테나리오를 흔들었다.</p>
+  <p>시작은 개최국의 몫이었다. 영상을 보면 오른쪽으로 빠진 파블로 도라도가 수비보다 먼저 공간을 잡고, 각도가 넓지 않은 자리에서 반대편 골문을 향해 낮게 찬다. 전반 12분, 우루과이가 결승전의 첫 흐름을 가져온 장면이다.</p>
+  <p>도라도는 루마니아전에서도 첫 골을 넣었던 오른쪽 공격수다. 가장 큰 무대에서도 같은 쪽에서 출발해 선제골을 만들었다. 관중석이 한꺼번에 일어나는 짧은 화면만으로도 개최국이 홈에서 먼저 앞섰을 때의 압력이 느껴진다.</p>
 </section>
 
 <section class="highlight-scene">
   <header><span>20' · 1-1</span><h3>카를로스 페우셀레, 곧바로 동점</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="카를로스 페우셀레의 아르헨티나 동점골"><source src="/media/highlights/1930-world-cup-final/clip-04.mp4" type="video/mp4" /></video><figcaption>카를로스 페우셀레가 우루과이의 기세를 끊고 경기를 원점으로 돌렸다.</figcaption></figure></div>
+  <p>그런데 아르헨티나는 흔들리지 않았다. 선제골을 내준 지 8분 뒤, 카를로스 페우셀레가 오른쪽에서 들어와 가까운 골문 쪽을 찔렀다. 골키퍼 엔리케 바예스트레로가 몸을 낮췄지만 공은 먼저 골문을 통과했다.</p>
+  <p>나는 이 장면에서 아르헨티나의 반응 속도가 먼저 보인다. 센테나리오의 분위기가 완전히 우루과이 쪽으로 넘어가기 전에 바로 1-1을 만들었다. 결승전은 시작 20분 만에 홈팀의 축제가 아니라 팽팽한 리오데라플라타의 싸움으로 돌아갔다.</p>
 </section>
 
 <section class="highlight-scene">
@@ -56,9 +63,13 @@ featured: false
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="기예르모 스타빌레의 역전골 전개"><source src="/media/highlights/1930-world-cup-final/clip-05.mp4" type="video/mp4" /></video><figcaption>우루과이 수비 뒤로 이어진 아르헨티나의 공격.</figcaption></figure>
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="기예르모 스타빌레의 아르헨티나 역전골"><source src="/media/highlights/1930-world-cup-final/clip-06.mp4" type="video/mp4" /></video><figcaption>스타빌레의 대회 여덟 번째 골. 아르헨티나가 전반을 2-1로 마쳤다.</figcaption></figure>
   </div>
+  <p>전반 37분에는 기예르모 스타빌레가 수비 뒤로 빠져나가 역전골을 넣는다. 첫 영상은 패스가 우루과이 수비선을 가르는 순간, 두 번째 영상은 스타빌레가 달려들어 마무리하고 아르헨티나 선수들이 돌아 나오는 장면이다.</p>
+  <p>스타빌레는 프랑스와의 조별리그 첫 경기에 뛰지 못했다. 그런데 멕시코전 해트트릭으로 대회에 등장한 뒤 칠레전 2골, 미국과의 준결승 2골, 결승 1골까지 4경기에서 8골을 넣었다. 첫 월드컵의 득점왕은 전반을 아르헨티나의 2-1로 끝내는 데까지 자신의 이름을 남겼다.</p>
 </section>
 
 <div class="score-divider"><span>HALF TIME</span><strong>우루과이 1-2 아르헨티나</strong></div>
+
+전반에 사용한 아르헨티나의 공은 여기까지였다. 후반에는 약속대로 우루과이가 준비한 공으로 바뀐다. 당시의 공은 지금처럼 완벽히 규격화된 하나의 감각이 아니었고, 가죽의 상태와 공기압에 따라 선수들이 느끼는 차이도 컸다. 그리고 공이 바뀐 뒤 경기의 방향도 정말 뒤집혔다.
 
 ## 후반: 우루과이가 경기를 뒤집다
 
@@ -68,17 +79,22 @@ featured: false
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="페드로 세아의 동점골 전개"><source src="/media/highlights/1930-world-cup-final/clip-07.mp4" type="video/mp4" /></video><figcaption>후반 들어 다시 속도를 높인 우루과이.</figcaption></figure>
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="페드로 세아의 우루과이 동점골"><source src="/media/highlights/1930-world-cup-final/clip-08.mp4" type="video/mp4" /></video><figcaption>페드로 세아가 1-2를 2-2로 돌려놓았다.</figcaption></figure>
   </div>
+  <p>후반 12분, 페드로 세아가 가운데로 파고들며 2-2를 만든다. 첫 영상에서 우루과이는 짧게 공을 주고받으며 아르헨티나 수비를 안쪽으로 끌어당기고, 다음 화면에서 세아가 넘어지기 직전까지 공을 밀어 넣는다. 화려한 개인기보다 문전으로 한 발 더 들어간 집념이 만든 골에 가깝다.</p>
+  <p>세아는 유고슬라비아와의 준결승에서 이미 해트트릭을 기록했다. 결승 동점골까지 더해 우루과이 선수 중 가장 많은 5골로 대회를 마쳤다. 1924년과 1928년 올림픽 금메달을 모두 경험한 공격수가, 뒤지고 있던 초대 월드컵 결승의 균형까지 직접 되돌린 셈이다.</p>
 </section>
 
 <section class="highlight-scene">
   <header><span>68' · URUGUAY 3-2</span><h3>산토스 이리아르테, 역전</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="산토스 이리아르테의 우루과이 역전골"><source src="/media/highlights/1930-world-cup-final/clip-09.mp4" type="video/mp4" /></video><figcaption>산토스 이리아르테의 슈팅이 우루과이를 다시 앞에 세웠다.</figcaption></figure></div>
+  <p>동점이 된 지 11분 뒤에는 산토스 이리아르테가 해결했다. 영상의 핵심은 슈팅 거리다. 문전까지 더 들어가지 않고 페널티 지역 밖에서 왼발을 크게 휘둘렀고, 공은 골키퍼가 손을 뻗기 어려운 쪽으로 뻗었다.</p>
+  <p>준결승에서도 한 골을 넣었던 이리아르테의 이 슈팅이 결승골이 됐다. 전반에 먼저 앞섰다가 역전을 허용했던 우루과이가 3-2로 다시 경기를 뒤집는다. 짧은 흑백 화면 속 선수들이 곧장 중앙선 쪽으로 돌아가는 모습까지 보면, 아직 20분 넘게 남은 결승의 긴장도 함께 보인다.</p>
 </section>
 
 <section class="highlight-scene">
   <header><span>89' · URUGUAY 4-2</span><h3>엑토르 카스트로, 초대 챔피언을 확정하다</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="엑토르 카스트로의 우루과이 네 번째 골"><source src="/media/highlights/1930-world-cup-final/clip-10.mp4" type="video/mp4" /></video><figcaption>엑토르 카스트로가 크로스를 머리로 마무리했다. 첫 월드컵 결승전의 마지막 골이었다.</figcaption></figure></div>
-  <p>원문의 초기 기록에서 스카로네로 적었던 마지막 득점자는 엑토르 카스트로다. 우루과이의 월드컵 첫 경기 첫 골과 결승전 마지막 골이 모두 카스트로에게서 나왔다.</p>
+  <p>아르헨티나도 마지막 기회가 있었다. 스타빌레의 슈팅이 골대를 때리고 나온 뒤, 반대편에서 우루과이의 공격이 이어졌다. 오른쪽에서 올라온 공을 엑토르 카스트로가 머리로 마무리했다. 89분, 4-2. 첫 월드컵의 승부를 닫은 골이다.</p>
+  <p>카스트로는 어린 시절 사고로 오른팔의 일부를 잃어 ‘엘 만코<span class="foreign-note" lang="es">(El Manco; 외팔이)</span>’라고 불렸다. 그는 페루와의 첫 경기에서 우루과이의 월드컵 첫 골을 넣었고, 결승에서는 대회의 마지막 골을 넣었다. 우루과이의 첫 월드컵은 카스트로의 골로 시작해 카스트로의 골로 끝났다.</p>
 </section>
 
 ## Full Time: 첫 번째 세계 챔피언
@@ -89,6 +105,8 @@ featured: false
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1930 월드컵 결승전 종료와 우루과이의 환호"><source src="/media/highlights/1930-world-cup-final/clip-11.mp4" type="video/mp4" /></video><figcaption>경기 종료. 센테나리오가 우루과이의 첫 월드컵 우승을 맞았다.</figcaption></figure>
     <figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1930 월드컵 우승을 차지한 우루과이"><source src="/media/highlights/1930-world-cup-final/clip-12.mp4" type="video/mp4" /></video><figcaption>코파 아메리카 초대 우승국은 FIFA 월드컵의 초대 우승국도 되었다.</figcaption></figure>
   </div>
+  <p>종료 휘슬 뒤 영상에는 선수와 관중이 뒤섞인 채 그라운드를 채우는 모습이 남아 있다. 다만 오늘날 익숙한 시상대와 트로피 세리머니를 찾으면 장면이 조금 낯설다. AUF의 기록에 따르면 월드컵 트로피는 경기장에서 전달되지 않았다. 그래서 이 영상의 주인공은 컵보다 국기와 사람, 그리고 막 초대 챔피언이 된 팀을 에워싼 군중이다.</p>
+  <p>우루과이는 1924년 파리, 1928년 암스테르담 올림픽에 이어 1930년 몬테비데오에서도 세계 정상에 섰다. 코파 아메리카 초대 우승국이 FIFA 월드컵 초대 우승국까지 된 순간. 열두 개의 짧은 영상은 그렇게 한 나라의 세 번째 연속 세계 정상과 월드컵 역사의 첫 페이지를 함께 남겼다.</p>
 </section>
 
 <a class="best-xi-cta" href="/archive/national-team/fifa-world-cup/1930-fifa-world-cup-best-xi/">
@@ -101,6 +119,9 @@ featured: false
   <ol>
     <li>경기 영상: 국제축구연맹 FIFA 공개 기록 영상. 짧은 장면은 경기 순서에 맞춰 배치했다.</li>
     <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina">“World Cup winners from 1930 to 1978”</a>, FIFA.</li>
+    <li><a href="https://inside.fifa.com/de/tournaments/mens/worldcup/1930uruguay/news/zahlen-und-fakten-zu-uruguay-1930-2865148">“Zahlen und Fakten zu Uruguay 1930”</a>, FIFA. 결승전 전·후반 공 교체 기록.</li>
+    <li><a href="https://www.auf.org.uy/copa-del-mundo-1930/">“Copa del Mundo 1930”</a>, 우루과이축구협회. 경기 흐름과 당시 결승전·우승 뒤 기록.</li>
+    <li><a href="https://auf.org.uy/copa-mundial-uruguay-1930uruguay-vs-argentina1930-07-30/">“Uruguay vs Argentina”</a>, 우루과이축구협회. 출전 명단·득점 시간·관중 기록.</li>
     <li><a href="https://www.rsssf.org/tables/30full.html">“World Cup 1930 finals”</a>, RSSSF. 경기 시간과 득점자 대조.</li>
   </ol>
 </div>
