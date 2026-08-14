@@ -1,21 +1,21 @@
 ---
-title: '1937 코파 아메리카 최우수 선수: 비센테 데 라 마타'
-description: '여섯 나라가 모인 최대 규모의 대회, 브라질과의 연장 결승에서 17세 비센테 데 라 마타가 두 골로 아르헨티나의 다섯 번째 우승을 결정한 1937년의 기록.'
+title: '1937 코파 아메리카 최우수 선수: 비센테 데라마타'
+description: '여섯 나라가 모인 최대 규모의 대회, 브라질과의 연장 결승에서 17세 비센테 데라마타가 두 골로 아르헨티나의 다섯 번째 우승을 결정한 1937년의 기록.'
 branch: 'national-team'
 index: 'copa-america'
 year: 1937
-subject: '비센테 데 라 마타'
+subject: '비센테 데라마타'
 originalTitle: 'Campeonato Sudamericano de Football 1937'
-keywords: ['CONMEBOL Copa América', 'Vicente de la Mata', 'Raúl Toro', 'Antonio Sastre', '아르헨티나 축구 국가대표팀', '브라질 축구 국가대표팀', '1937 남미축구선수권대회']
+keywords: ['CONMEBOL Copa América', 'Vicente de la Mata', '비센테 데라마타', '비센테 데 라 마타', 'Raúl Toro', 'Antonio Sastre', '아르헨티나 축구 국가대표팀', '브라질 축구 국가대표팀', '1937 남미축구선수권대회']
 pubDate: 2026-08-14T04:02:00+09:00
 coverImage: '/images/archive/1937-copa-america/cover.png'
-coverImageAlt: '1937 코파 아메리카와 비센테 데 라 마타를 기록한 표지'
+coverImageAlt: '1937 코파 아메리카와 비센테 데라마타를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>당시 최다인 여섯 나라가 참가했고, 아르헨티나와 브라질은 단일 리그를 같은 승점으로 마쳤다. 별도 우승 결정전은 90분 동안 0-0. 연장에 교체로 들어간 17세 비센테 데 라 마타<span class="foreign-note" lang="es-AR">(Vicente de la Mata; 아르헨티나 공격수, 1918~1980)</span>가 3분 사이 두 골을 넣어 아르헨티나의 다섯 번째 우승을 결정했다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>당시 최다인 여섯 나라가 참가했고, 아르헨티나와 브라질은 단일 리그를 같은 승점으로 마쳤다. 별도 우승 결정전은 90분 동안 0-0. 연장에 교체로 들어간 17세 비센테 데라마타<span class="foreign-note" lang="es-AR">(Vicente de la Mata; 아르헨티나 공격수, 1918~1980)</span>가 3분 사이 두 골을 넣어 아르헨티나의 다섯 번째 우승을 결정했다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제14회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1937</strong></div>
 
@@ -36,7 +36,7 @@ draft: false
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>비센테 데 라 마타</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>라울 토로</strong><small>7골 · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></small></div><div><span>결정전</span><strong>아르헨티나 2-0 브라질</strong><small>연장전</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>비센테 데라마타</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>라울 토로</strong><small>7골 · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></small></div><div><span>결정전</span><strong>아르헨티나 2-0 브라질</strong><small>연장전</small></div></div>
 
 ## 여담
 
@@ -50,13 +50,13 @@ draft: false
 
 2월 1일 가스오메트로 데 보에도에 약 8만 명이 모였다. 정규시간은 0-0으로 끝났다. 경기 막판 관중과 심판 판정을 둘러싼 혼란으로 약 40분간 중단됐고, 재개 뒤 연장으로 넘어갔다. 이미 두 팀 모두 여러 교체를 사용하며 전열을 바꾼 상태였다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-아르헨티나는 프란시스코 바라요 대신 17세 데 라 마타를 투입했다. 그는 연장 109분과 112분에 연속골을 넣었다. 단 세 분이 한 달 넘게 이어진 대회의 우승국을 갈랐다.
+아르헨티나는 프란시스코 바라요 대신 17세 데라마타를 투입했다. 그는 연장 109분과 112분에 연속골을 넣었다. 단 세 분이 한 달 넘게 이어진 대회의 우승국을 갈랐다.
 
 ### 열일곱 살이 만든 두 골의 크기
 
-데 라 마타의 대회 득점은 결정전의 두 골이 전부였다. 그럼에도 표제 인물로 삼을 이유는 분명하다. 가장 많은 골을 넣은 선수와 가장 결정적인 골을 넣은 선수는 같지 않았다. 리그 전체를 지배한 스타들 사이에서 가장 어린 교체 선수가 우승의 마지막 장면을 차지했다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+데라마타의 대회 득점은 결정전의 두 골이 전부였다. 그럼에도 표제 인물로 삼을 이유는 분명하다. 가장 많은 골을 넣은 선수와 가장 결정적인 골을 넣은 선수는 같지 않았다. 리그 전체를 지배한 스타들 사이에서 가장 어린 교체 선수가 우승의 마지막 장면을 차지했다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-이 대회는 그의 출발점이었다. 데 라 마타는 인데펜디엔테에서 아르세니오 에리코·안토니오 사스트레와 공격진을 이루며 1938·1939년 리그 우승으로 이어갔다. 1937년의 연장 두 골은 우연한 단발이 아니라 한 시대를 대표할 공격수의 첫 국제무대 서명이었다.
+이 대회는 그의 출발점이었다. 데라마타는 인데펜디엔테에서 아르세니오 에리코·안토니오 사스트레와 공격진을 이루며 1938·1939년 리그 우승으로 이어갔다. 1937년의 연장 두 골은 우연한 단발이 아니라 한 시대를 대표할 공격수의 첫 국제무대 서명이었다.
 
 ### 우승국 밖에서 빛난 라울 토로
 
