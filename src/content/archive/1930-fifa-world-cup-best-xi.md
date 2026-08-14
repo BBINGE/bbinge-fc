@@ -35,7 +35,7 @@ draft: false
 | 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 4승 | 15득점 3실점 |
 | 준우승 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 4승 1패 | 18득점 9실점 |
 | 준결승 | 미국 <img class="flag" src="/images/flags/us.svg" alt="미국 국기" /> | 2승 1패 | 7득점 6실점 |
-| 준결승 | 유고슬라비아 | 2승 1패 | 7득점 7실점 |
+| 준결승 | 유고슬라비아 <img class="flag" src="/images/flags/yu-kingdom.svg" alt="유고슬라비아 왕국 국기" /> | 2승 1패 | 7득점 7실점 |
 
 3·4위 결정전은 열리지 않았다. 오늘날 FIFA 자료는 조별리그와 준결승 성적을 비교해 미국을 3위로 정리하지만, 두 팀이 순위를 가리는 경기를 치른 것은 아니다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -45,27 +45,41 @@ draft: false
 
 <div class="best-xi" aria-label="1930 FIFA 월드컵 베스트 11 2-3-5 배치">
   <div class="best-xi-line forwards">
-    <div><span>FW</span><strong>버트 페이트노드</strong><small>미국 · 3경기 4골</small></div>
-    <div><span>FW</span><strong>페드로 세아</strong><small>우루과이 · 4경기 5골</small></div>
-    <div><span>CF</span><strong>기예르모 스타빌레</strong><small>아르헨티나 · 4경기 8골</small></div>
-    <div><span>FW</span><strong>엑토르 스카로네</strong><small>우루과이 · 3경기 1골</small></div>
-    <div><span>FW</span><strong>엑토르 카스트로</strong><small>우루과이 · 2경기 2골</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/bert-patenaude.jpg" alt="버트 페이트노드" loading="lazy" /><span>FW</span><strong>버트 페이트노드</strong><small>미국 · 3경기 4골</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/pedro-cea.jpg" alt="페드로 세아" loading="lazy" /><span>FW</span><strong>페드로 세아</strong><small>우루과이 · 4경기 5골</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/guillermo-stabile.jpg" alt="기예르모 스타빌레" loading="lazy" /><span>CF</span><strong>기예르모 스타빌레</strong><small>아르헨티나 · 4경기 8골</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/hector-scarone.jpg" alt="엑토르 스카로네" loading="lazy" /><span>FW</span><strong>엑토르 스카로네</strong><small>우루과이 · 3경기 1골</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/hector-castro.jpg" alt="엑토르 카스트로" loading="lazy" /><span>FW</span><strong>엑토르 카스트로</strong><small>우루과이 · 2경기 2골</small></div>
   </div>
   <div class="best-xi-line halves">
-    <div><span>RH</span><strong>호세 레안드로 안드라데</strong><small>우루과이 · 4경기</small></div>
-    <div><span>CH</span><strong>루이스 몬티</strong><small>아르헨티나 · 5경기 2골</small></div>
-    <div><span>LH</span><strong>알바로 헤스티도</strong><small>우루과이 · 4경기</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/jose-leandro-andrade.jpg" alt="호세 레안드로 안드라데" loading="lazy" /><span>RH</span><strong>호세 레안드로 안드라데</strong><small>우루과이 · 4경기</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/luis-monti.jpg" alt="루이스 몬티" loading="lazy" /><span>CH</span><strong>루이스 몬티</strong><small>아르헨티나 · 5경기 2골</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/alvaro-gestido.jpg" alt="알바로 헤스티도" loading="lazy" /><span>LH</span><strong>알바로 헤스티도</strong><small>우루과이 · 4경기</small></div>
   </div>
   <div class="best-xi-line backs">
-    <div><span>FB</span><strong>호세 나사시</strong><small>우루과이 · 4경기</small></div>
-    <div><span>FB</span><strong>밀루틴 이브코비치</strong><small>유고슬라비아 · 3경기</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/jose-nasazzi.jpg" alt="호세 나사시" loading="lazy" /><span>FB</span><strong>호세 나사시</strong><small>우루과이 · 4경기</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/milutin-ivkovic.jpg" alt="밀루틴 이브코비치" loading="lazy" /><span>FB</span><strong>밀루틴 이브코비치</strong><small>유고슬라비아 · 3경기</small></div>
   </div>
   <div class="best-xi-line keeper">
-    <div><span>GK</span><strong>엔리케 바예스테로스</strong><small>우루과이 · 4경기 3실점</small></div>
+    <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/enrique-ballestrero.jpg" alt="엔리케 바예스테로스" loading="lazy" /><span>GK</span><strong>엔리케 바예스테로스</strong><small>우루과이 · 4경기 3실점</small></div>
   </div>
 </div>
 
 이 배치는 열한 명을 당시의 기본 대형인 2-3-5 안에 보여주기 위한 회고적 구성이다. 특히 공격수 다섯 명의 좌우 자리는 매 경기 실제 선발 위치를 그대로 복원한 것이 아니다. 반면 나사시와 이브코비치를 두 풀백으로, 안드라데·몬티·헤스티도를 세 명의 하프로 놓는 뼈대는 1930년 경기표에 남은 당시 포지션 언어와 맞닿아 있다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+
+<div class="best-xi-roster" aria-label="1930 FIFA 월드컵 베스트 11 선수 카드">
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/enrique-ballestrero.jpg" alt="엔리케 바예스테로스" loading="lazy" /><div><span>GK · 골키퍼</span><strong>엔리케 바예스테로스</strong><small lang="es-UY">Enrique Ballestrero</small><p>우루과이 · 4경기 3실점</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/jose-nasazzi.jpg" alt="호세 나사시" loading="lazy" /><div><span>FB · 오른쪽 풀백</span><strong>호세 나사시</strong><small lang="es-UY">José Nasazzi</small><p>우루과이 · 4경기 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/milutin-ivkovic.jpg" alt="밀루틴 이브코비치" loading="lazy" /><div><span>FB · 왼쪽 풀백</span><strong>밀루틴 이브코비치</strong><small lang="sr-Latn">Milutin Ivković</small><p>유고슬라비아 <img class="flag" src="/images/flags/yu-kingdom.svg" alt="유고슬라비아 왕국 국기" /> · 3경기 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/jose-leandro-andrade.jpg" alt="호세 레안드로 안드라데" loading="lazy" /><div><span>RH · 오른쪽 하프</span><strong>호세 레안드로 안드라데</strong><small lang="es-UY">José Leandro Andrade</small><p>우루과이 · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/luis-monti.jpg" alt="루이스 몬티" loading="lazy" /><div><span>CH · 센터 하프</span><strong>루이스 몬티</strong><small lang="es-AR">Luis Monti</small><p>아르헨티나 · 5경기 2골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/alvaro-gestido.jpg" alt="알바로 헤스티도" loading="lazy" /><div><span>LH · 왼쪽 하프</span><strong>알바로 헤스티도</strong><small lang="es-UY">Álvaro Gestido</small><p>우루과이 · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/bert-patenaude.jpg" alt="버트 페이트노드" loading="lazy" /><div><span>FW · 아웃사이드 레프트</span><strong>버트 페이트노드</strong><small lang="en-US">Bert Patenaude</small><p>미국 · 3경기 4골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/pedro-cea.jpg" alt="페드로 세아" loading="lazy" /><div><span>FW · 인사이드 레프트</span><strong>페드로 세아</strong><small lang="es-UY">Pedro Cea</small><p>우루과이 · 4경기 5골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/guillermo-stabile.jpg" alt="기예르모 스타빌레" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>기예르모 스타빌레</strong><small lang="es-AR">Guillermo Stábile</small><p>아르헨티나 · 4경기 8골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/hector-scarone.jpg" alt="엑토르 스카로네" loading="lazy" /><div><span>FW · 인사이드 라이트</span><strong>엑토르 스카로네</strong><small lang="es-UY">Héctor Scarone</small><p>우루과이 · 3경기 1골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1930-fifa-world-cup-best-xi/players/hector-castro.jpg" alt="엑토르 카스트로" loading="lazy" /><div><span>FW · 아웃사이드 라이트</span><strong>엑토르 카스트로</strong><small lang="es-UY">Héctor Castro</small><p>우루과이 · 2경기 2골</p></div></article>
+</div>
 
 ### 골문과 두 명의 풀백
 
