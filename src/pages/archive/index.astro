@@ -4,6 +4,7 @@ import { archiveBranches } from '../../data/archive';
 import { site } from '../../config/site';
 import { getCollection } from 'astro:content';
 import { isNewlyPublished, isRecentlyChanged } from '../../utils/freshness';
+import { imageFocusStyle } from '../../utils/imageFocus';
 
 const records = (await getCollection('archive', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
@@ -54,7 +55,7 @@ const freshIndexes = new Set(
         {records.map((record) => (
           <a class="record-card" href={recordHref(record)} data-interactive>
             <div class="record-cover">
-              <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+              <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" style={imageFocusStyle(record.data.coverImage)} />
               {isNewlyPublished(record.data.pubDate) && <span class="new-badge">NEW</span>}
             </div>
             <div><p>{record.data.year} · {archiveBranches.find((branch) => branch.id === record.data.branch)?.indexes.find((index) => index.slug === record.data.index)?.label}</p><h3>{record.data.title}</h3><span>{record.data.description}</span><b>기록 읽기 →</b></div>

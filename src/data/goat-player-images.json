@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T13:53:06.781Z",
+  "updatedAt": "2026-08-14T14:38:57.922Z",
   "portraits": {
     "friedenreich": {
       "src": "/images/goat/players/friedenreich.jpg",
@@ -249,16 +249,16 @@
     "platini": {
       "src": "/images/goat/players/platini.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q4261",
-      "commons": "https://commons.wikimedia.org/wiki/File:Michel_Platini_2010_(cropped).jpg",
-      "author": "Chancellery of the President of the Republic of Poland",
-      "license": "GFDL 1.2"
+      "commons": "https://commons.wikimedia.org/wiki/File:Platini_juventus2_(cropped).jpg",
+      "author": "Caio Brandão Costa and unknow",
+      "license": "Public domain"
     },
     "zico": {
       "src": "/images/goat/players/zico.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q47526",
-      "commons": "https://commons.wikimedia.org/wiki/File:Zico_2012.jpg",
-      "author": "Doha Stadium Plus",
-      "license": "CC BY 2.0"
+      "commons": "https://commons.wikimedia.org/wiki/File:Zico_panini_card_79.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain"
     },
     "socrates": {
       "src": "/images/goat/players/socrates.jpg",
@@ -816,8 +816,8 @@
     "coluna": {
       "src": "/images/goat/players/coluna.jpg",
       "wikidata": "https://www.wikidata.org/wiki/Q705585",
-      "commons": "https://commons.wikimedia.org/wiki/File:Mario_Coluna_(1969).jpg",
-      "author": "Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 922-0864",
+      "commons": "https://commons.wikimedia.org/wiki/File:Mario_Coluna_(1965).jpg",
+      "author": "Jack de Nijs for Anefo Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 917-7445",
       "license": "CC BY-SA 3.0 nl"
     },
     "greaves": {

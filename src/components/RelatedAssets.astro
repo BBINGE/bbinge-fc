@@ -1,4 +1,6 @@
 ---
+import { imageFocusStyle } from '../utils/imageFocus';
+
 interface RelatedAsset {
   href: string;
   title: string;
@@ -17,7 +19,7 @@ const { items } = Astro.props;
     <div class="related-assets-grid">
       {items.map((item) => (
         <a href={item.href}>
-          {item.coverImage && <img src={item.coverImage} alt="" width="220" height="220" loading="lazy" />}
+          {item.coverImage && <img src={item.coverImage} alt="" width="220" height="220" loading="lazy" style={imageFocusStyle(item.coverImage)} />}
           <span>{item.label}</span>
           <strong>{item.title}</strong>
           <small>{item.description}</small>

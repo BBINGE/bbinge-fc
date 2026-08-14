@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import playersFile from '../../data/goat-players.json';
 import playerImageFile from '../../data/goat-player-images.json';
+import focalPointFile from '../../data/image-focal-points.json';
 
 const { players, drawAllocation } = playersFile;
 
@@ -29,6 +30,12 @@ const playerImages: Record<string, string> = Object.fromEntries(
 );
 Object.assign(playerImages, archivePlayerImages);
 const playerCredits = playerImageFile.portraits;
+const focalPoints = focalPointFile.points as Record<string, { x: number; y: number; faceWidth?: number }>;
+const playerFocus = Object.fromEntries(Object.entries(playerImages).map(([id, src]) => {
+  const point = focalPoints[src] ?? { x: 50, y: 28, faceWidth: 32 };
+  const zoom = Math.min(1.55, Math.max(1, 32 / (point.faceWidth || 32)));
+  return [id, { ...point, zoom: Number(zoom.toFixed(2)) }];
+}));
 ---
 
 <Layout
@@ -54,7 +61,7 @@ const playerCredits = playerImageFile.portraits;
   </div>
 </Layout>
 
-<script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits }}>
+<script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits, playerFocus }}>
   const STORAGE_KEY = 'bbfc-goat-v3';
   const ROUND_NAME = { 32: '32강', 16: '16강', 8: '8강', 4: '4강', 2: '결승' };
   const POSITION_KR = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };
@@ -160,6 +167,7 @@ const playerCredits = playerImageFile.portraits;
   function playerCardHTML(player, side) {
     const clubs = player.clubs.join(' · ');
     const image = playerImages[player.id];
+    const focus = playerFocus[player.id] ?? { x: 50, y: 28, zoom: 1 };
     const punchline = player.nicknameKr || player.nickname || player.note || `${player.position}의 정점`;
     return `
       <button type="button" class="goat-card goat-card--${side}" data-player-id="${player.id}" data-side="${side}" aria-label="${player.name} 선택">
@@ -167,7 +175,7 @@ const playerCredits = playerImageFile.portraits;
         <span class="goat-card__impact" aria-hidden="true"></span>
         <span class="goat-card__media ${image ? '' : 'goat-card__media--empty'}">
           ${image
-            ? `<img src="${image}" alt="${player.name}" loading="eager" decoding="async">`
+            ? `<img src="${image}" alt="${player.name}" loading="eager" decoding="async" style="--face-x:${focus.x}%;--face-y:${focus.y}%;--face-zoom:${focus.zoom}">`
             : `<span class="goat-card__initial">${player.name.slice(0, 1)}</span><span class="goat-card__waiting">사진 수급 중</span>`}
           <span class="goat-card__shade"></span>
           <span class="goat-card__position">${player.position}</span>
@@ -422,7 +430,7 @@ const playerCredits = playerImageFile.portraits;
   .goat-card:hover::after { transform: translateX(120%); }
   .goat-card:focus-visible { outline: 3px solid #fff; outline-offset: -5px; }
   .goat-card__media { position: relative; display: block; height: clamp(220px, 38vw, 400px); overflow: hidden; background: #1b314c; }
-  .goat-card__media img { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: grayscale(100%) contrast(1.06); transition: transform .28s ease, filter .25s ease; }
+  .goat-card__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--face-x,50%) var(--face-y,28%); transform-origin:var(--face-x,50%) var(--face-y,28%); scale:var(--face-zoom,1); filter: grayscale(100%) contrast(1.06); transition: transform .28s ease, filter .25s ease; }
   .goat-card:hover .goat-card__media img { transform: scale(1.035); filter: grayscale(35%) contrast(1.08); }
   .goat-card__media--empty { display: grid; place-items: center; background: radial-gradient(circle at 50% 32%, #345072 0, #192e48 37%, #102137 75%); }
   .goat-card__initial { font-size: clamp(70px, 13vw, 132px); font-weight: 900; color: rgba(255,255,255,.12); }

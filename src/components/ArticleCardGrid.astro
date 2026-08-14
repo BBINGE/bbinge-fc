@@ -6,6 +6,7 @@ import { categories, getArticlePath } from '../config/categories';
 import AdSlot from './AdSlot.astro';
 import type { CollectionEntry } from 'astro:content';
 import { isNewlyPublished } from '../utils/freshness';
+import { imageFocusStyle } from '../utils/imageFocus';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -24,7 +25,7 @@ const { entries, adEvery = 8 } = Astro.props;
         <a href={getArticlePath(entry.data.category, entry.id)} class="block group">
           <div class="relative aspect-square rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
             {entry.data.coverImage ? (
-              <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" />
+              <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" style={imageFocusStyle(entry.data.coverImage)} />
             ) : (
               <span class="text-[11px] text-[var(--bbfc-gray-2)]">사진 없음</span>
             )}

@@ -3,6 +3,7 @@ import AdSlot from './AdSlot.astro';
 import type { CollectionEntry } from 'astro:content';
 import { isNewlyPublished } from '../utils/freshness';
 import { getArticlePath } from '../config/categories';
+import { imageFocusStyle } from '../utils/imageFocus';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -27,7 +28,7 @@ const adAfterIndex = entries.length > 5 ? 4 : entries.length - 1;
         >
           <div class="relative w-[120px] aspect-[4/3] shrink-0 rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
             {entry.data.coverImage ? (
-              <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" />
+              <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" style={imageFocusStyle(entry.data.coverImage)} />
             ) : (
               <span class="text-[10px] text-[var(--bbfc-gray-2)]">사진 없음</span>
             )}

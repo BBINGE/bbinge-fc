@@ -5,6 +5,7 @@ import { categories, getArticlePath } from '../config/categories';
 import { site } from '../config/site';
 import { isNewlyPublished } from '../utils/freshness';
 import TodayFootball from '../components/TodayFootball.astro';
+import { imageFocusStyle } from '../utils/imageFocus';
 
 const articles = (await getCollection('articles', ({ data }) => !data.draft)).map((entry) => ({
   id: entry.id,
@@ -57,7 +58,7 @@ const moreStories = editorialFeed.slice(13, 19);
         <a href={lead.href} class="lead-story group">
           <div class="lead-image media-frame">
             {lead.coverImage ? (
-              <img src={lead.coverImage} alt={lead.coverImageAlt} loading="eager" fetchpriority="high" />
+              <img src={lead.coverImage} alt={lead.coverImageAlt} loading="eager" fetchpriority="high" style={imageFocusStyle(lead.coverImage)} />
             ) : (
               <span>이미지 준비 중</span>
             )}
@@ -80,7 +81,7 @@ const moreStories = editorialFeed.slice(13, 19);
             <a href={item.href} class="secondary-story group">
               <div class="secondary-image media-frame">
                 {item.coverImage ? (
-                  <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" />
+                  <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.coverImage)} />
                 ) : (
                   <span>이미지 준비 중</span>
                 )}
@@ -119,7 +120,7 @@ const moreStories = editorialFeed.slice(13, 19);
             <a href={item.href} class="latest-row">
               <span class="latest-index">{String(index + 1).padStart(2, '0')}</span>
               <div class="latest-thumb media-frame">
-                {item.coverImage ? <img src={item.coverImage} alt="" loading="lazy" /> : <span>NO IMAGE</span>}
+                {item.coverImage ? <img src={item.coverImage} alt="" loading="lazy" style={imageFocusStyle(item.coverImage)} /> : <span>NO IMAGE</span>}
               </div>
               <div class="latest-copy">
                 <div class="story-meta"><span>{item.label}</span></div>
@@ -165,7 +166,7 @@ const moreStories = editorialFeed.slice(13, 19);
           {moreStories.map((item) => (
             <a href={item.href} class="more-card group">
               <div class="more-image media-frame">
-                {item.coverImage ? <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" /> : <span>NO IMAGE</span>}
+                {item.coverImage ? <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.coverImage)} /> : <span>NO IMAGE</span>}
               </div>
               <div class="story-meta"><span>{item.label}</span><time datetime={item.pubDate.toISOString()}>{item.pubDate.toLocaleDateString('ko-KR')}</time></div>
               <h3>{item.title}</h3>
@@ -230,7 +231,7 @@ const moreStories = editorialFeed.slice(13, 19);
   .play-feature__roster { position:absolute; inset:0; z-index:1; }
   .play-feature__roster img { position:absolute; display:block; object-fit:cover; object-position:center top; filter:saturate(.78) contrast(1.08); transition:transform .35s ease,filter .35s ease; }
   .play-feature:hover .play-feature__roster img { filter:saturate(1) contrast(1.08); }
-  .goat-face { width:82px; height:98px; border:2px solid rgba(255,255,255,.34); border-radius:10px; box-shadow:0 8px 18px rgba(0,0,0,.3); }
+  .goat-face { z-index:4; width:82px; height:98px; border:2px solid rgba(255,255,255,.34); border-radius:10px; box-shadow:0 8px 18px rgba(0,0,0,.3); }
   .goat-face--1 { left:14px; top:14px; transform:rotate(-4deg); }
   .goat-face--2 { left:50%; top:8px; z-index:2; transform:translateX(-50%) rotate(2deg); }
   .goat-face--3 { right:14px; top:14px; transform:rotate(4deg); }
@@ -264,7 +265,7 @@ const moreStories = editorialFeed.slice(13, 19);
     .play-feature__copy { top:50%; right:auto; bottom:auto; width:42%; transform:translateY(-50%); }
     .play-feature__copy>strong { font-size:34px; }
     .play-feature__copy h2 { font-size:14px; }
-    .play-feature__roster { left:39%; }
+    .play-feature__roster { left:0; }
     .goat-hero { bottom:-42px; height:280px; }
     .goat-face { top:14px; width:48px; height:58px; }
     .goat-face--1 { left:8px; top:14px; }.goat-face--2 { left:25%; top:8px; }.goat-face--3 { left:42%; right:auto; top:14px; }
@@ -305,11 +306,14 @@ const moreStories = editorialFeed.slice(13, 19);
     .play-feature__copy>strong { font-size:25px; }
     .play-feature__copy h2 { display:none; }
     .play-feature__copy>span { margin-top:11px; padding:7px 9px; font-size:8px; }
-    .play-feature__roster { left:34%; }
+    .play-feature__roster { left:0; }
     .goat-face { width:39px; height:48px; }
     .goat-face--1 { left:2px; top:14px; }.goat-face--2 { left:20%; top:8px; }.goat-face--3 { left:38%; top:14px; }
     .goat-face--4 { left:auto; right:38%; top:14px; }.goat-face--5 { left:auto; right:20%; top:8px; }.goat-face--6 { right:2px; top:14px; }
-    .goat-hero { bottom:-30px; height:220px; }
+    .goat-hero { bottom:-30px; width:38%; height:220px; }
+    .goat-hero--ronaldo { left:37%; }
+    .goat-hero--messi { right:-1%; }
+    .play-feature::before { background:linear-gradient(90deg,rgba(5,17,33,.96) 0,rgba(5,17,33,.9) 35%,rgba(5,17,33,.08) 63%),linear-gradient(180deg,rgba(5,15,29,.04) 25%,rgba(5,15,29,.9) 100%); }
   }
   @media (prefers-reduced-motion: reduce) {
     .media-frame img { transition:none; }
