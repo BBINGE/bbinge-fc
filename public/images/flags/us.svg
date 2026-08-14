@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 741 390" role="img" aria-label="미국 국기">
+  <path fill="#b22234" d="M0 0h741v390H0z"/>
+  <path stroke="#fff" stroke-width="30" stroke-dasharray="30" d="M0 45h741M0 105h741M0 165h741M0 225h741M0 285h741M0 345h741"/>
+  <path fill="#3c3b6e" d="M0 0h296.4v210H0z"/>
+  <defs><g id="s"><path fill="#fff" d="m0-7 1.65 5.1 5.35-.02-4.34 3.13L4.33 6.3 0 3.15-4.33 6.3l1.67-5.09L-7-1.92l5.35.02z"/></g></defs>
+  <g transform="translate(24 18)">
+    <g id="r"><use href="#s" x="0"/><use href="#s" x="49"/><use href="#s" x="98"/><use href="#s" x="147"/><use href="#s" x="196"/><use href="#s" x="245"/></g>
+    <g id="q" transform="translate(24.5 21)"><use href="#s" x="0"/><use href="#s" x="49"/><use href="#s" x="98"/><use href="#s" x="147"/><use href="#s" x="196"/></g>
+    <use href="#r" y="42"/><use href="#q" y="42"/><use href="#r" y="84"/><use href="#q" y="84"/><use href="#r" y="126"/><use href="#q" y="126"/><use href="#r" y="168"/><use href="#q" y="168"/>
+  </g>
+</svg>

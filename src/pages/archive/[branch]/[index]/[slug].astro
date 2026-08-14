@@ -165,6 +165,16 @@ const relatedRecords = indexRecords
   .archive-body :global(.record-abstract p) { margin-top: 12px; font-size: 17px; line-height: 1.82; font-weight: 520; color: var(--bbfc-ink-2); }
   .archive-body :global(.flag) { display: inline-block; width: 1.35em; height: .9em; margin-left: .22em; border: 1px solid rgba(25,31,40,.12); border-radius: 2px; object-fit: cover; vertical-align: -.08em; }
   .archive-body :global(.placement-count) { display: inline-block; margin-left: .45em; padding: .18em .48em; border-radius: 999px; background: var(--bbfc-blue-weak); font-size: 10px; line-height: 1.4; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: .08em; }
+  .archive-body :global(.best-xi) { display: grid; gap: 22px; margin: 30px 0 48px; padding: 34px 24px; border-radius: var(--bbfc-radius-lg); background: linear-gradient(180deg, #183f70 0%, #102d53 100%); color: #fff; }
+  .archive-body :global(.best-xi-line) { display: grid; gap: 10px; justify-content: center; }
+  .archive-body :global(.best-xi-line.forwards) { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .archive-body :global(.best-xi-line.halves) { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0 12%; }
+  .archive-body :global(.best-xi-line.backs) { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 24%; }
+  .archive-body :global(.best-xi-line.keeper) { grid-template-columns: minmax(150px, 32%); }
+  .archive-body :global(.best-xi-line div) { display: grid; align-content: center; min-height: 98px; padding: 13px 10px; border: 1px solid rgba(255,255,255,.2); border-radius: 10px; background: rgba(255,255,255,.07); text-align: center; }
+  .archive-body :global(.best-xi-line span) { font-size: 9px; font-weight: 750; letter-spacing: .12em; color: #9dd2ff; }
+  .archive-body :global(.best-xi-line strong) { margin-top: 6px; font-size: 13px; line-height: 1.35; font-weight: 650; }
+  .archive-body :global(.best-xi-line small) { margin-top: 5px; font-size: 9px; line-height: 1.4; color: rgba(255,255,255,.68); }
   .archive-body :global(.cite) { margin-left: .14em; font-size: .68em; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: super; }
   .archive-body :global(.foreign-note) { font-size: max(.72em, 12px) !important; line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2) !important; vertical-align: baseline; }
   .archive-body :global(.source-notes ol) { padding-left: 22px; list-style: decimal; }
@@ -202,6 +212,14 @@ const relatedRecords = indexRecords
     .archive-body :global(.record-note) { font-size: 12px; }
     .archive-body :global(.record-abstract) { margin-bottom: 46px; padding: 22px 20px 24px; }
     .archive-body :global(.record-abstract p) { font-size: 16px; }
+    .archive-body :global(.best-xi) { gap: 14px; margin: 24px -4px 40px; padding: 24px 12px; }
+    .archive-body :global(.best-xi-line) { gap: 6px; }
+    .archive-body :global(.best-xi-line.halves) { padding: 0 8%; }
+    .archive-body :global(.best-xi-line.backs) { padding: 0 18%; }
+    .archive-body :global(.best-xi-line.keeper) { grid-template-columns: minmax(130px, 42%); }
+    .archive-body :global(.best-xi-line div) { min-height: 82px; padding: 10px 5px; }
+    .archive-body :global(.best-xi-line strong) { font-size: 10px; }
+    .archive-body :global(.best-xi-line small) { font-size: 8px; }
     .related-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .sequence-nav { gap: 8px; margin-top: 68px; }
     .sequence-link { padding: 6px 4px; }
