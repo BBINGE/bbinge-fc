@@ -1,0 +1,90 @@
+---
+import todayData from '../data/today-football.json';
+
+type Birthday = { name: string; birthYear: number; wikidataUrl: string };
+type Match = { id: string; league: string; home: string; away: string; time: string; date: string };
+
+const now = new Date();
+const kst = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
+const today = `${kst.getFullYear()}-${String(kst.getMonth() + 1).padStart(2, '0')}-${String(kst.getDate()).padStart(2, '0')}`;
+const isCurrent = todayData.date === today;
+const birthday = (isCurrent ? todayData.birthday : null) as Birthday | null;
+const match = (isCurrent ? todayData.matches[0] : null) as Match | null;
+const dateLabel = new Intl.DateTimeFormat('en-US', { month: 'short', day: '2-digit', timeZone: 'Asia/Seoul' }).format(now).toUpperCase();
+const matchTime = match?.time ? `${match.time} KST` : '오늘';
+---
+
+<aside class="today-football" aria-label="오늘의 축구 안내">
+  <article class="today-card today-card--history">
+    <div class="today-card__top">
+      <p>ON THIS DAY</p>
+      <time datetime={today}>{dateLabel}</time>
+    </div>
+    {birthday ? (
+      <>
+        <p class="today-card__eyebrow">오늘 태어난 축구인</p>
+        <h2>{birthday.name}</h2>
+        <p class="today-card__copy">{birthday.birthYear}년 오늘 태어났습니다.<br />오늘의 축구사에서 이름을 꺼내봅니다. 🎂</p>
+        <a href={birthday.wikidataUrl} target="_blank" rel="noreferrer">인물 기록 확인하기 <span aria-hidden="true">→</span></a>
+      </>
+    ) : (
+      <>
+        <p class="today-card__eyebrow">오늘의 축구사</p>
+        <h2>기록은 오늘도 계속됩니다</h2>
+        <p class="today-card__copy">오늘과 이어지는 오래된 축구 이야기를<br />삥이 아카이브에서 골라보세요. 🕰️</p>
+        <a href="/archive/">과거로 시간여행하기 <span aria-hidden="true">→</span></a>
+      </>
+    )}
+  </article>
+
+  <article class="today-card today-card--tonight">
+    <div class="today-card__top">
+      <p>TONIGHT</p>
+      <time datetime={match?.date || today}>{matchTime}</time>
+    </div>
+    {match ? (
+      <>
+        <p class="today-card__eyebrow">{match.league}</p>
+        <h2>{match.home}<span> vs </span>{match.away}</h2>
+        <p class="today-card__copy">오늘 열리는 축구입니다.<br />늦은 경기라면 내일 H/L로 만나요. ☕</p>
+        <a href="/highlights/">하이라이트 모아보기 <span aria-hidden="true">→</span></a>
+      </>
+    ) : (
+      <>
+        <p class="today-card__eyebrow">오늘 밤 어디 볼까?</p>
+        <h2>오늘 밤은 잠시 조용합니다</h2>
+        <p class="today-card__copy">실시간 일정이 쉬어가는 동안<br />옛 결승전 한 편은 어떨까요? 📼</p>
+        <a href="/highlights/">명경기 다시 보기 <span aria-hidden="true">→</span></a>
+      </>
+    )}
+  </article>
+</aside>
+
+<style>
+  .today-football { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1px; margin:0 0 38px; border:1px solid var(--bbfc-border); background:var(--bbfc-border); }
+  .today-card { position:relative; min-width:0; min-height:174px; padding:20px 22px 18px; background:#fff; }
+  .today-card--tonight { background:var(--bbfc-ink); color:#fff; }
+  .today-card__top { display:flex; justify-content:space-between; gap:16px; padding-bottom:12px; border-bottom:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:9px; font-weight:750; letter-spacing:.14em; }
+  .today-card--tonight .today-card__top { border-color:rgba(255,255,255,.18); color:rgba(255,255,255,.56); }
+  .today-card__eyebrow { margin-top:15px; color:var(--bbfc-blue); font-size:9px; font-weight:750; letter-spacing:.08em; }
+  .today-card--tonight .today-card__eyebrow { color:#79aefc; }
+  .today-card h2 { margin-top:5px; font-size:20px; line-height:1.25; font-weight:700; letter-spacing:-.04em; text-wrap:balance; }
+  .today-card h2 span { color:var(--bbfc-gray-3); font-family:Georgia,serif; font-size:.72em; font-weight:400; font-style:italic; }
+  .today-card__copy { margin-top:7px; color:var(--bbfc-gray-1); font-size:11px; line-height:1.55; }
+  .today-card--tonight .today-card__copy { color:rgba(255,255,255,.66); }
+  .today-card>a { display:inline-block; margin-top:11px; color:inherit; font-size:10px; font-weight:650; border-bottom:1px solid currentColor; padding-bottom:2px; }
+
+  @media (min-width: 1600px) {
+    .today-football { position:absolute; inset:192px auto auto 50%; width:1px; margin:0; border:0; background:transparent; pointer-events:none; }
+    .today-card { position:fixed; top:210px; width:clamp(170px,calc((100vw - 1230px) / 2),260px); min-height:230px; padding-inline:16px; border-top:2px solid var(--bbfc-ink); pointer-events:auto; }
+    .today-card--history { right:calc(50% + 600px); }
+    .today-card--tonight { left:calc(50% + 600px); }
+    .today-card h2 { font-size:18px; }
+    .today-card__copy br { display:none; }
+  }
+  @media (max-width: 700px) {
+    .today-football { display:flex; gap:10px; margin-bottom:28px; padding:0 0 7px; overflow-x:auto; border:0; background:transparent; scroll-snap-type:x mandatory; scrollbar-width:thin; scrollbar-color:var(--bbfc-border) transparent; }
+    .today-card { flex:0 0 89%; min-height:174px; padding:17px 18px 16px; border:1px solid var(--bbfc-border); scroll-snap-align:start; }
+    .today-card__copy br { display:none; }
+  }
+</style>

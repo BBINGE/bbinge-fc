@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { categories, getArticlePath } from '../config/categories';
 import { site } from '../config/site';
 import { isNewlyPublished } from '../utils/freshness';
+import TodayFootball from '../components/TodayFootball.astro';
 
 const articles = (await getCollection('articles', ({ data }) => !data.draft)).map((entry) => ({
   id: entry.id,
@@ -100,6 +101,8 @@ const moreStories = editorialFeed.slice(13, 19);
     ) : (
       <p class="empty-state">첫 번째 이야기를 준비하고 있습니다.</p>
     )}
+
+    <TodayFootball />
 
     <section class="below-fold" aria-labelledby="latest-heading">
       <div class="section-heading">
