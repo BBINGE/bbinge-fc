@@ -1,22 +1,4 @@
 ---
-interface Props {
-  label?: string;
-  square?: boolean;
-}
-
-const { label = '광고 · 채널 배너 영역', square = false } = Astro.props;
-
-// AdSense/제휴 배너 승인 전까지는 자리만 표시. 승인 후 이 자리에 실제 스니펫으로 교체.
-// square: 카드 피드 그리드 안에 한 칸으로 끼워 넣는 인피드 광고용(카드와 동일한 1:1 비율).
-// 팝업·오버레이 없이 항상 카드와 같은 자리만 차지하고, 라벨은 광고 심의 기준에 맞춰 "AD · 스폰서"로 고정.
+// 광고 승인 전에는 방문자에게 빈 광고 자리를 노출하지 않는다.
+// 승인 뒤 이 컴포넌트 한 곳에서 실제 광고 스니펫을 활성화한다.
 ---
-
-{square ? (
-  <div class="border border-dashed border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] aspect-square flex items-center justify-center">
-    <p class="text-[11px] text-[var(--bbfc-gray-1)]">AD · 스폰서</p>
-  </div>
-) : (
-  <div class="border border-dashed border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] p-4 text-center my-4">
-    <p class="text-[12px] text-[var(--bbfc-gray-1)]">{label}</p>
-  </div>
-)}
