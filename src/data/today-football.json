@@ -1,34 +1,56 @@
 {
-  "date": "2026-08-14",
-  "updatedAt": "2026-08-14T07:08:40.243Z",
+  "date": "2026-08-17",
+  "updatedAt": "2026-08-16T15:14:41.986Z",
   "birthday": {
-    "name": "조르조 키엘리니",
-    "birthYear": 1984,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q80306",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sergio%20Mattarella%20meets%20Italy%20national%20football%20team%20and%20Matteo%20Berrettini%20%2812%20July%202021%29%2030%20-%20Chiellini%20%28cropped%29.jpg?width=700"
+    "name": "티에리 앙리",
+    "birthYear": 1977,
+    "wikidataUrl": "http://www.wikidata.org/entity/Q45901",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thierry%20Henry%20%2851649035951%29%20%28cropped%29.jpg?width=700"
   },
   "matches": [
     {
-      "id": "2398021",
-      "league": "아르헨티나 프리메라 디비시온",
-      "home": "Racing Club",
-      "away": "Banfield",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/c2ea011775756104.png",
-      "time": "23:30",
-      "date": "2026-08-14"
+      "id": "2506177",
+      "league": "라리가",
+      "home": "Deportivo de A Coruña",
+      "away": "Elche",
+      "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/62bvwv1783013156.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/e4vaw51655594332.png",
+      "time": "19:00",
+      "date": "2026-08-17"
     },
     {
-      "id": "2489075",
-      "league": "에레디비시",
-      "home": "Telstar",
-      "away": "Sparta Rotterdam",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xg1ss31579463659.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/upluv31586362224.png",
-      "time": "18:00",
-      "date": "2026-08-14"
+      "id": "2398016",
+      "league": "아르헨티나 프리메라 디비시온",
+      "home": "Estudiantes de Río Cuarto",
+      "away": "Atlético Tucumán",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/391thp1775793121.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
+      "time": "17:45",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "2398018",
+      "league": "아르헨티나 프리메라 디비시온",
+      "home": "Lanús",
+      "away": "Independiente",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/ddty0w1769146364.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/eki4nd1580842605.png",
+      "time": "20:00",
+      "date": "2026-08-17"
     }
   ],
+  "status": {
+    "birthday": {
+      "state": "ok",
+      "source": "Wikidata",
+      "error": null
+    },
+    "matches": {
+      "state": "ok",
+      "source": "TheSportsDB",
+      "error": null
+    }
+  },
   "sources": {
     "birthday": "Wikidata",
     "matches": "TheSportsDB"

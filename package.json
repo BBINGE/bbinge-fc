@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/fetch-today-football.mjs && astro build",
+    "validate:today": "node scripts/validate-today-football.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

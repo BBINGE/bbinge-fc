@@ -2,7 +2,9 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 const outputPath = resolve(process.argv[2] || 'src/data/today-football.json');
+const birthdayFallbackPath = resolve('src/data/football-birthday-fallbacks.json');
 const KST_OFFSET = 9 * 60 * 60 * 1000;
+const RETRY_DELAYS = [0, 1_000, 3_000];
 
 function koreaParts(date = new Date()) {
   const shifted = new Date(date.getTime() + KST_OFFSET);
@@ -17,16 +19,28 @@ function isoDate(parts) {
   return `${parts.year}-${String(parts.month).padStart(2, '0')}-${String(parts.day).padStart(2, '0')}`;
 }
 
-async function fetchJson(url, options = {}) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 15_000);
-  try {
-    const response = await fetch(url, { ...options, signal: controller.signal });
-    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-    return await response.json();
-  } finally {
-    clearTimeout(timeout);
+function wait(ms) {
+  return new Promise((resolveWait) => setTimeout(resolveWait, ms));
+}
+
+async function fetchJson(url, options = {}, label = 'API') {
+  let lastError;
+  for (let attempt = 0; attempt < RETRY_DELAYS.length; attempt += 1) {
+    if (RETRY_DELAYS[attempt]) await wait(RETRY_DELAYS[attempt]);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15_000);
+    try {
+      const response = await fetch(url, { ...options, signal: controller.signal });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+      console.warn(`${label}: ${attempt + 1}/${RETRY_DELAYS.length}회 시도 실패 - ${error.message}`);
+    } finally {
+      clearTimeout(timeout);
+    }
   }
+  throw new Error(`${label} ${RETRY_DELAYS.length}회 시도 실패: ${lastError?.message || 'unknown error'}`);
 }
 
 async function fetchBirthday(month, day) {
@@ -50,7 +64,7 @@ LIMIT 12`;
       Accept: 'application/sparql-results+json',
       'User-Agent': 'BBingeFC/1.0 (https://bbingefc.com/contact/)',
     },
-  });
+  }, 'Wikidata');
   const row = payload?.results?.bindings?.[0];
   if (!row?.personLabel?.value || !row?.birth?.value) return null;
   const born = new Date(row.birth.value);
@@ -115,7 +129,7 @@ async function fetchMatches(date) {
     const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
     url.searchParams.set('d', date);
     url.searchParams.set('l', league.id);
-    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } });
+    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB league ${league.id}`);
     return (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: league.weight }));
   }));
   let events = results.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
@@ -123,7 +137,7 @@ async function fetchMatches(date) {
     const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
     url.searchParams.set('d', date);
     url.searchParams.set('s', 'Soccer');
-    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } });
+    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, 'TheSportsDB all soccer');
     events = (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: 0 }));
   }
   return events.map(({ event, weight }) => {
@@ -152,6 +166,63 @@ async function fetchMatches(date) {
     .map(({ score, ...event }) => event);
 }
 
+async function fetchFootballDataMatches(date) {
+  const token = process.env.FOOTBALL_DATA_API_TOKEN;
+  if (!token) return null;
+  const url = new URL('https://api.football-data.org/v4/matches');
+  url.searchParams.set('date', date);
+  const payload = await fetchJson(url, {
+    headers: { Accept: 'application/json', 'X-Auth-Token': token },
+  }, 'football-data.org');
+  const events = Array.isArray(payload?.matches) ? payload.matches : [];
+  return events.map((event) => {
+    const timestamp = event.utcDate ? new Date(event.utcDate) : null;
+    const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
+    const koreaDate = validTimestamp
+      ? new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(timestamp)
+      : date;
+    const koreaTime = validTimestamp
+      ? new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Seoul', hour: '2-digit', minute: '2-digit', hour12: false }).format(timestamp)
+      : '';
+    return {
+      id: `fd-${event.id}`,
+      league: leagueLabel(event.competition?.name),
+      home: event.homeTeam?.shortName || event.homeTeam?.name || '',
+      away: event.awayTeam?.shortName || event.awayTeam?.name || '',
+      homeBadge: event.homeTeam?.crest || '',
+      awayBadge: event.awayTeam?.crest || '',
+      time: koreaTime,
+      date: koreaDate,
+      score: eventScore({ strHomeTeam: event.homeTeam?.name, strAwayTeam: event.awayTeam?.name }, 40),
+    };
+  }).filter((event) => event.home && event.away && event.date === date)
+    .sort((a, b) => b.score - a.score || a.time.localeCompare(b.time))
+    .slice(0, 3)
+    .map(({ score, ...event }) => event);
+}
+
+async function birthdayFallback(month, day) {
+  try {
+    const calendar = JSON.parse(await readFile(birthdayFallbackPath, 'utf8'));
+    return calendar.people?.[`${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`] ?? null;
+  } catch (error) {
+    console.warn(`Local birthday fallback: ${error.message}`);
+    return null;
+  }
+}
+
+async function rememberBirthdayFallback(month, day, birthday) {
+  try {
+    const calendar = JSON.parse(await readFile(birthdayFallbackPath, 'utf8'));
+    calendar.people ||= {};
+    calendar.people[`${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`] = birthday;
+    const sortedPeople = Object.fromEntries(Object.entries(calendar.people).sort(([a], [b]) => a.localeCompare(b)));
+    await writeFile(birthdayFallbackPath, `${JSON.stringify({ ...calendar, people: sortedPeople }, null, 2)}\n`, 'utf8');
+  } catch (error) {
+    console.warn(`Local birthday fallback save: ${error.message}`);
+  }
+}
+
 async function previousData() {
   try {
     return JSON.parse(await readFile(outputPath, 'utf8'));
@@ -168,26 +239,76 @@ const [birthdayResult, matchesResult] = await Promise.allSettled([
   fetchMatches(date),
 ]);
 
+const localBirthday = await birthdayFallback(parts.month, parts.day);
+let selectedBirthday = null;
+let birthdayState = 'unavailable';
+let birthdaySource = 'none';
+if (birthdayResult.status === 'fulfilled' && birthdayResult.value) {
+  selectedBirthday = birthdayResult.value;
+  birthdayState = 'ok';
+  birthdaySource = 'Wikidata';
+  await rememberBirthdayFallback(parts.month, parts.day, selectedBirthday);
+} else if (localBirthday) {
+  selectedBirthday = localBirthday;
+  birthdayState = 'fallback';
+  birthdaySource = 'local-calendar';
+} else if (birthdayResult.status === 'fulfilled') {
+  birthdayState = 'empty';
+  birthdaySource = 'Wikidata';
+}
+
+let selectedMatches = [];
+let matchesState = 'unavailable';
+let matchesSource = 'none';
+if (matchesResult.status === 'fulfilled') {
+  selectedMatches = matchesResult.value;
+  matchesState = selectedMatches.length ? 'ok' : 'empty';
+  matchesSource = 'TheSportsDB';
+} else {
+  try {
+    const backupMatches = await fetchFootballDataMatches(date);
+    if (backupMatches) {
+      selectedMatches = backupMatches;
+      matchesState = selectedMatches.length ? 'ok' : 'empty';
+      matchesSource = 'football-data.org';
+    }
+  } catch (error) {
+    console.warn(`football-data.org backup: ${error.message}`);
+  }
+}
+
+const dataWithoutTimestamp = {
+  date,
+  birthday: selectedBirthday,
+  matches: selectedMatches,
+  status: {
+    birthday: {
+      state: birthdayState,
+      source: birthdaySource,
+      error: birthdayResult.status === 'rejected' ? birthdayResult.reason.message : null,
+    },
+    matches: {
+      state: matchesState,
+      source: matchesSource,
+      error: matchesResult.status === 'rejected' ? matchesResult.reason.message : null,
+    },
+  },
+  sources: {
+    birthday: birthdaySource,
+    matches: matchesSource,
+  },
+};
+const { updatedAt: previousUpdatedAt, ...previousWithoutTimestamp } = previous;
+const contentChanged = JSON.stringify(previousWithoutTimestamp) !== JSON.stringify(dataWithoutTimestamp);
 const data = {
   date,
-  updatedAt: new Date().toISOString(),
-  birthday: birthdayResult.status === 'fulfilled' && birthdayResult.value
-    ? birthdayResult.value
-    : previous.date === date ? previous.birthday ?? null : null,
-  matches: matchesResult.status === 'fulfilled' && matchesResult.value.length
-    ? matchesResult.value
-    : previous.date === date
-      ? (previous.matches ?? []).map((event) => ({ ...event, league: leagueLabel(event.league) }))
-      : [],
-  sources: {
-    birthday: 'Wikidata',
-    matches: 'TheSportsDB',
-  },
+  updatedAt: contentChanged || !previousUpdatedAt ? new Date().toISOString() : previousUpdatedAt,
+  ...Object.fromEntries(Object.entries(dataWithoutTimestamp).filter(([key]) => key !== 'date')),
 };
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 console.log(JSON.stringify(data));
 
-if (birthdayResult.status === 'rejected') console.warn(`Wikidata: ${birthdayResult.reason.message}`);
-if (matchesResult.status === 'rejected') console.warn(`TheSportsDB: ${matchesResult.reason.message}`);
+if (birthdayResult.status === 'rejected') console.warn(`Wikidata final: ${birthdayResult.reason.message}`);
+if (matchesResult.status === 'rejected') console.warn(`TheSportsDB final: ${matchesResult.reason.message}`);

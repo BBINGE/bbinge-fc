@@ -1,5 +1,15 @@
 # BBinge FC — 공용 인수인계
 
+## 2026-08-17 저자 표시 배포 검증·오늘의 축구 데이터 강화
+
+- 일반 글과 아카이브 상세의 제목 아래 `박성호(삥이) · 발행일 · 읽기 시간 · 편집·출처 원칙` 표시가 로컬 1440px·768px·380px에서 정상 노출되고 가로 넘침이 없음을 재확인했다. 홈·목록 카드에는 표시하지 않는다.
+- `scripts/fetch-today-football.mjs`는 Wikidata와 TheSportsDB 요청을 1초·3초 간격으로 최대 3회 재시도하고, 각 실패 시도와 최종 원인을 로그에 남긴다. `FOOTBALL_DATA_API_TOKEN`이 GitHub Secret에 설정되면 공식 football-data.org를 경기 보조 소스로 사용하며 토큰은 저장소에 기록하지 않는다.
+- 오늘의 축구 JSON은 생일·경기별로 `ok`, `fallback`, `empty`, `unavailable` 상태와 실제 사용한 소스를 기록한다. UI는 실제 무경기(`empty`)와 API 연결 실패(`unavailable`), 오래된 빌드(`stale`)를 서로 다른 문구로 보여준다.
+- 로컬 생일 기본 데이터는 `src/data/football-birthday-fallbacks.json`에서 날짜별로 관리하며 8월 17일 티에리 앙리를 첫 기준값으로 넣었다. API 성공 시 API 결과가 우선하고, 실패 시에만 `LOCAL` 표시와 함께 기본값을 쓴다.
+- `scripts/validate-today-football.mjs`가 JSON 날짜가 서울 기준 오늘인지, 상태와 실제 데이터가 일치하는지 검사한다. GitHub Actions는 API 갱신·검증·데이터 커밋 후 Cloudflare 배포 훅을 호출한다.
+- `/deploy.json`은 Cloudflare의 `CF_PAGES_COMMIT_SHA`를 노출한다. 예약 배포 작업은 훅 호출 뒤 최대 5분 동안 Pages 운영 커밋을 확인하며, 실제 배포가 `main`과 일치하지 않으면 성공으로 끝내지 않는다.
+- 2026-08-17 실제 호출에서 Wikidata 첫 시도 502 후 재시도 성공, 티에리 앙리와 TheSportsDB 경기 3건 저장, 데이터 검증 통과, Astro 88페이지 빌드 성공을 확인했다. 완전한 네트워크 차단 시험에서도 로컬 생일 `fallback`과 경기 `unavailable` 상태가 정상 생성됐다.
+
 ## 2026-08-16 AdSense 독창성·저자성·이미지 권리 보강
 
 - 공개 콘텐츠를 전수 점검했다. 일반 글·아카이브의 실제 공개 장문은 29편이며, 본문 28~39자의 테스트성 파일 3편은 모두 기존부터 `draft: true`라 검색·사이트맵·공개 화면에 포함되지 않는다.
