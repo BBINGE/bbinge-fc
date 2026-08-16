@@ -1,44 +1,13 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-16T15:14:41.986Z",
+  "updatedAt": "2026-08-16T15:16:23.122Z",
   "birthday": {
     "name": "티에리 앙리",
     "birthYear": 1977,
     "wikidataUrl": "http://www.wikidata.org/entity/Q45901",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thierry%20Henry%20%2851649035951%29%20%28cropped%29.jpg?width=700"
   },
-  "matches": [
-    {
-      "id": "2506177",
-      "league": "라리가",
-      "home": "Deportivo de A Coruña",
-      "away": "Elche",
-      "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/62bvwv1783013156.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/e4vaw51655594332.png",
-      "time": "19:00",
-      "date": "2026-08-17"
-    },
-    {
-      "id": "2398016",
-      "league": "아르헨티나 프리메라 디비시온",
-      "home": "Estudiantes de Río Cuarto",
-      "away": "Atlético Tucumán",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/391thp1775793121.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
-      "time": "17:45",
-      "date": "2026-08-17"
-    },
-    {
-      "id": "2398018",
-      "league": "아르헨티나 프리메라 디비시온",
-      "home": "Lanús",
-      "away": "Independiente",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/ddty0w1769146364.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/eki4nd1580842605.png",
-      "time": "20:00",
-      "date": "2026-08-17"
-    }
-  ],
+  "matches": [],
   "status": {
     "birthday": {
       "state": "ok",
@@ -46,7 +15,7 @@
       "error": null
     },
     "matches": {
-      "state": "ok",
+      "state": "empty",
       "source": "TheSportsDB",
       "error": null
     }
