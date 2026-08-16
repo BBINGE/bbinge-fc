@@ -46,6 +46,10 @@ PREFERRED_CLUB_ADDITIONS = {
     "cannavaro": "파르마 칼초 1913",
 }
 
+CACHE_REVISIONS = {
+    "buffon": "2",
+}
+
 FOCUS = {
     "friedenreich": (50, 23, 1.0),
     "meazza": (50, 17, 1.28),
@@ -138,6 +142,8 @@ with zipfile.ZipFile(args.zip_path) as archive:
         destination = OUTPUT_DIR / f"{player_id}.webp"
         source_bytes = archive.read(member)
         photo_version = hashlib.sha256(source_bytes).hexdigest()[:12]
+        if player_id in CACHE_REVISIONS:
+            photo_version = photo_version[:11] + CACHE_REVISIONS[player_id]
         with Image.open(io.BytesIO(source_bytes)) as image:
             image = ImageOps.exif_transpose(image).convert("RGB")
             image.thumbnail((1800, 2400), Image.Resampling.LANCZOS)
