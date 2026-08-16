@@ -39,6 +39,12 @@ FOCUS = {
     "matthews": (50, 16, 1.0),
     "mazzola-valentino": (43, 28, 1.3),
     "zizinho": (54, 20, 1.08),
+    "di-stefano": (48, 20, 1.45),
+    "bobby-charlton": (43, 20, 1.35),
+    "fontaine": (50, 18, 1.25),
+    "varela": (32, 18, 1.18),
+    "pele": (58, 20, 1.22),
+    "puskas": (50, 18, 1.15),
 }
 
 
@@ -49,7 +55,7 @@ def normalized_stem(filename):
 
 
 def responsive_focus(player_id):
-    x, y, scale = FOCUS[player_id]
+    x, y, scale = FOCUS.get(player_id, (50, 18, 1.0))
     return (
         {
             "desktop": f"{x}% {y}%",
@@ -73,6 +79,7 @@ args = parser.parse_args()
 
 audit = json.loads(AUDIT_PATH.read_text(encoding="utf-8"))
 players = {player["id"]: player for player in audit["players"]}
+player_names = {normalized_stem(player["player"]): player["id"] for player in audit["players"]}
 images = json.loads(IMAGES_PATH.read_text(encoding="utf-8"))
 portraits = images["portraits"]
 imported = []
@@ -84,7 +91,7 @@ with zipfile.ZipFile(args.zip_path) as archive:
         }:
             continue
         key = normalized_stem(member.filename)
-        player_id = PLAYER_IDS.get(key)
+        player_id = PLAYER_IDS.get(key) or player_names.get(key)
         if not player_id:
             raise ValueError(f"Unmatched player filename: {member.filename}")
 

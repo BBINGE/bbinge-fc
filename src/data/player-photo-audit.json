@@ -671,34 +671,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puskas_1954.png",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "47.8% 12.7%",
-        "laptop": "47.8% 13.7%",
-        "tablet": "47.8% 14.7%",
-        "mobile": "47.8% 15.7%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.15,
+        "laptop": 1.15,
+        "tablet": 1.12,
+        "mobile": 1.09
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/puskas.webp",
-      "sourceAuthor": "Wim van Rossem for Anefo",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Puskas 1954.png",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Puskas_1954.png",
@@ -730,34 +730,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Di_stefano_argentina_(cropped).jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "48% 20%",
+        "laptop": "48% 21%",
+        "tablet": "48% 22%",
+        "mobile": "48% 23%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.45,
+        "laptop": 1.45,
+        "tablet": 1.42,
+        "mobile": 1.39
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/di-stefano.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/di-stefano.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Di stefano argentina (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Di_stefano_argentina_(cropped).jpg",
@@ -790,34 +790,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kocsis_S%C3%A1ndor_Fortepan_261526.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "47.7% 35.1%",
-        "laptop": "47.7% 36.1%",
-        "tablet": "47.7% 37.1%",
-        "mobile": "47.7% 38.1%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/kocsis.webp",
-      "sourceAuthor": "Fortepan/Faragó György",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Kocsis Sándor Fortepan 261526.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Kocsis_S%C3%A1ndor_Fortepan_261526.jpg",
@@ -849,34 +849,34 @@
         "감독 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nandor_Hidegkuti.jpg",
-      "license": "CC BY-SA 3.0 nl",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/hidegkuti.jpg",
-      "sourceAuthor": "Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 917-4570",
+      "currentAsset": "/images/goat/players/hidegkuti.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Nandor Hidegkuti.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Nandor_Hidegkuti.jpg",
@@ -908,34 +908,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "39% 26.7%",
-        "laptop": "39% 27.7%",
-        "tablet": "39% 28.7%",
-        "mobile": "39% 29.7%"
+        "desktop": "58% 20%",
+        "laptop": "58% 21%",
+        "tablet": "58% 22%",
+        "mobile": "58% 23%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.22,
+        "laptop": 1.22,
+        "tablet": 1.19,
+        "mobile": 1.16
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/pele.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Pele con brasil (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg",
@@ -967,34 +967,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manoel_Francisco_dos_Santos-Garrincha.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "55.9% 14.4%",
-        "laptop": "55.9% 15.4%",
-        "tablet": "55.9% 16.4%",
-        "mobile": "55.9% 17.4%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.1,
-        "laptop": 1.1,
-        "tablet": 1.07,
-        "mobile": 1.04
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/garrincha.webp",
-      "sourceAuthor": "El Gráfico, n° 2233",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Manoel Francisco dos Santos-Garrincha.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Manoel_Francisco_dos_Santos-Garrincha.jpg",
@@ -1026,34 +1026,34 @@
         "말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldir_Pereira_1958.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "정장 차림 사진으로 허용 구단·대표팀 전성기 사진 여부를 확인하기 어려움.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/didi.jpg",
-      "sourceAuthor": "Emilio Ronchini (Mondadori Publishers)",
+      "currentAsset": "/images/goat/players/didi.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Waldir Pereira 1958.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Waldir_Pereira_1958.jpg",
@@ -1085,34 +1085,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilton_Santos_na_Sele%C3%A7%C3%A3o_Brasileira.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "트로피 전달 행사 구도로 경기·선수 프로필 사진 기준에 부적합.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/nilton-santos.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/nilton-santos.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Nilton Santos na Seleção Brasileira.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Nilton_Santos_na_Sele%C3%A7%C3%A3o_Brasileira.jpg",
@@ -1144,34 +1144,34 @@
         "행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lev_Yashin_1966.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "49.8% 32.3%",
-        "laptop": "49.8% 33.3%",
-        "tablet": "49.8% 34.3%",
-        "mobile": "49.8% 35.3%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/yashin.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Lev Yashin 1966.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Lev_Yashin_1966.jpg",
@@ -1203,34 +1203,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eusebio_en_1973.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/eusebio.jpg",
-      "sourceAuthor": "Panini",
+      "currentAsset": "/images/goat/players/eusebio.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Eusebio en 1973.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Eusebio_en_1973.jpg",
@@ -1262,34 +1262,34 @@
         "감독/행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Charlton_en_1966_160.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50.4% 30.3%",
-        "laptop": "50.4% 31.3%",
-        "tablet": "50.4% 32.3%",
-        "mobile": "50.4% 33.3%"
+        "desktop": "43% 20%",
+        "laptop": "43% 21%",
+        "tablet": "43% 22%",
+        "mobile": "43% 23%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.35,
+        "laptop": 1.35,
+        "tablet": 1.32,
+        "mobile": 1.29
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/bobby-charlton.webp",
-      "sourceAuthor": "Panini",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Bobby Charlton en 1966 160.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Charlton_en_1966_160.jpg",
@@ -1321,34 +1321,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bobby_moore_elgrafico_1970.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "48% 23.8%",
-        "laptop": "48% 24.8%",
-        "tablet": "48% 25.8%",
-        "mobile": "48% 26.8%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.25,
-        "laptop": 1.25,
-        "tablet": 1.22,
-        "mobile": 1.19
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/bobby-moore.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Bobby moore elgrafico 1970.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Bobby_moore_elgrafico_1970.jpg",
@@ -1380,34 +1380,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Denis_Law.jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/denis-law.jpg",
-      "sourceAuthor": "Danny Molyneux",
+      "currentAsset": "/images/goat/players/denis-law.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Denis Law.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Denis_Law.jpg",
@@ -1439,34 +1439,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_Best_(1976).jpg",
-      "license": "CC0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/george-best.jpg",
-      "sourceAuthor": "Hans Peters for Anefo",
+      "currentAsset": "/images/goat/players/george-best.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:George Best (1976).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:George_Best_(1976).jpg",
@@ -1499,34 +1499,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raymond_Kopa,_Estadio,_1962-03-01.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/kopa.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/kopa.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Raymond Kopa, Estadio, 1962-03-01.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Raymond_Kopa,_Estadio,_1962-03-01.jpg",
@@ -1558,34 +1558,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Just_Fontaine_en_1958.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "47% 36.6%",
-        "laptop": "47% 37.6%",
-        "tablet": "47% 38.6%",
-        "mobile": "47% 39.6%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.25,
+        "laptop": 1.25,
+        "tablet": 1.22,
+        "mobile": 1.19
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/fontaine.webp",
-      "sourceAuthor": "Panini",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Just Fontaine en 1958.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Just_Fontaine_en_1958.jpg",
@@ -1617,34 +1617,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gento_with_Leo_Horn_,_Di_Stefano_(cropped).jpg",
-      "license": "CC0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "66.1% 18.7%",
-        "laptop": "66.1% 19.7%",
-        "tablet": "66.1% 20.7%",
-        "mobile": "66.1% 21.7%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/gento.webp",
-      "sourceAuthor": "Wim van Rossem for Anefo",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Gento with Leo Horn , Di Stefano (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Gento_with_Leo_Horn_,_Di_Stefano_(cropped).jpg",
@@ -1677,34 +1677,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_Miramontes.JPG",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "33.9% 29.4%",
-        "laptop": "33.9% 30.4%",
-        "tablet": "33.9% 31.4%",
-        "mobile": "33.9% 32.4%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/luis-suarez-m.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Luis Suárez Miramontes.JPG",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_Miramontes.JPG",
@@ -1736,34 +1736,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Omar_sivori_argentina.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/sivori.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/sivori.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Omar sivori argentina.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Omar_sivori_argentina.jpg",
@@ -1796,34 +1796,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schiaffino_(cropped).jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/schiaffino.jpg",
-      "sourceAuthor": "The original uploader was Freddyballo at Italian Wikipedia .",
+      "currentAsset": "/images/goat/players/schiaffino.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Schiaffino (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Schiaffino_(cropped).jpg",
@@ -1855,34 +1855,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Obdulio_varela_uruguay.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50.8% 24.7%",
-        "laptop": "50.8% 25.7%",
-        "tablet": "50.8% 26.7%",
-        "mobile": "50.8% 27.7%"
+        "desktop": "32% 18%",
+        "laptop": "32% 19%",
+        "tablet": "32% 20%",
+        "mobile": "32% 21%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.18,
+        "laptop": 1.18,
+        "tablet": 1.15,
+        "mobile": 1.12
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/varela.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Obdulio varela uruguay.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Obdulio_varela_uruguay.jpg",
@@ -1914,34 +1914,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Moore_vs_Josef_Masopust_1963.jpg",
-      "license": "CC BY-SA 3.0 nl",
-      "status": "missing",
-      "notes": "Responsive crops do not keep the face inside the frame.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "27% 31.6%",
-        "laptop": "27% 32.6%",
-        "tablet": "27% 33.6%",
-        "mobile": "27% 34.6%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/masopust.jpg",
-      "sourceAuthor": "Bilsen, Joop van / Anefo",
+      "currentAsset": "/images/goat/players/masopust.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Bobby Moore vs Josef Masopust 1963.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Moore_vs_Josef_Masopust_1963.jpg",
@@ -1973,34 +1973,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florian_Albert_en_1966.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "48.2% 36.1%",
-        "laptop": "48.2% 37.1%",
-        "tablet": "48.2% 38.1%",
-        "mobile": "48.2% 39.1%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/albert.webp",
-      "sourceAuthor": "Panini",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Florian Albert en 1966.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Florian_Albert_en_1966.jpg",
@@ -2032,34 +2032,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uwe_Seeler_1966_(cropped).jpg",
-      "license": "CC0",
-      "status": "missing",
-      "notes": "정장 차림 이동·행사 사진으로 전성기 선수 사진 기준에 부적합.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/seeler.jpg",
-      "sourceAuthor": "Joop van Bilsen for Anefo",
+      "currentAsset": "/images/goat/players/seeler.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Uwe Seeler 1966 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Uwe_Seeler_1966_(cropped).jpg",
@@ -2091,34 +2091,34 @@
         "행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fritz_Walter_Trainingslager_der_Deutschen_Fu%C3%9Fballnationalmannschaft_in_der_Sportschule_Malente_(cropped).jpg",
-      "license": "CC BY-SA 3.0 de",
-      "status": "missing",
-      "notes": "실제 촬영일이 목표 구간 이후인 정장 사진.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/fritz-walter.jpg",
-      "sourceAuthor": "Magnussen, Friedrich (1914-1987)",
+      "currentAsset": "/images/goat/players/fritz-walter.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Fritz Walter Trainingslager der Deutschen Fußballnationalmannschaft in der Sportschule Malente (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fritz_Walter_Trainingslager_der_Deutschen_Fu%C3%9Fballnationalmannschaft_in_der_Sportschule_Malente_(cropped).jpg",
@@ -2150,34 +2150,34 @@
         "정치인 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bozsik_J%C3%B3zsef_Fortepan_261523.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "43% 34.8%",
-        "laptop": "43% 35.8%",
-        "tablet": "43% 36.8%",
-        "mobile": "43% 37.8%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/bozsik.webp",
-      "sourceAuthor": "Fortepan/Faragó György",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Bozsik József Fortepan 261523.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Bozsik_J%C3%B3zsef_Fortepan_261523.jpg",
@@ -2209,34 +2209,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A1rio_Zagallo_1974.jpg",
-      "license": "CC BY-SA 3.0 nl",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/zagallo.jpg",
-      "sourceAuthor": "Mieremet, Rob / Anefo",
+      "currentAsset": "/images/goat/players/zagallo.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Mário Zagallo 1974.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A1rio_Zagallo_1974.jpg",
@@ -2268,34 +2268,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mario_Coluna_(1965).jpg",
-      "license": "CC BY-SA 3.0 nl",
-      "status": "missing",
-      "notes": "경기 장면에서 얼굴이 숙여져 반응형 카드의 눈·코·입 중심을 확보할 수 없음.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "27% 22%",
-        "laptop": "27% 23%",
-        "tablet": "27% 24%",
-        "mobile": "27% 25%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.33,
-        "laptop": 1.33,
-        "tablet": 1.3,
-        "mobile": 1.27
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/coluna.jpg",
-      "sourceAuthor": "Jack de Nijs for Anefo Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 917-7445",
+      "currentAsset": "/images/goat/players/coluna.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Mario Coluna (1965).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Mario_Coluna_(1965).jpg",
@@ -2327,34 +2327,34 @@
         "방송인 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Greaves_(cropped).jpg",
-      "license": "CC BY-SA 3.0 nl",
-      "status": "missing",
-      "notes": "정장 차림 이동·행사 사진으로 전성기 유니폼을 확인할 수 없음.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/greaves.jpg",
-      "sourceAuthor": "Jack de Nijs for Anefo / Anefo",
+      "currentAsset": "/images/goat/players/greaves.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Jimmy Greaves (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Greaves_(cropped).jpg",
@@ -2385,34 +2385,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_finney_with_england_c1950.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/finney.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/finney.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Tom finney with england c1950.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Tom_finney_with_england_c1950.jpg",
@@ -2443,34 +2443,34 @@
         "로마/카디프 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Charles,_Wales_versus_Scotland,_Ninian_Park,_1954.jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/john-charles.jpg",
-      "sourceAuthor": "Geoff Charles",
+      "currentAsset": "/images/goat/players/john-charles.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:John Charles, Wales versus Scotland, Ninian Park, 1954.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:John_Charles,_Wales_versus_Scotland,_Ninian_Park,_1954.jpg",
