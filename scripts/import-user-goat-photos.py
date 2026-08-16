@@ -26,6 +26,14 @@ PLAYER_IDS = {
     "stanley matthews": "matthews",
     "valentino mazzola": "mazzola-valentino",
     "zizinho": "zizinho",
+    "xdhtyum233bgrdgu3dbu8p-1200-80": "keegan",
+}
+
+SKIP_FILENAMES = {
+    "berti vogts": "감독 시기로 보이는 사진",
+    "carlos alberto torres": "허용 전성기 구단이 아닌 New York Cosmos 사진",
+    "enzo francescoli": "목표 전성기보다 뒤의 River Plate 후기 사진",
+    "kenny dalglish": "뒷모습이라 반응형 얼굴 포커싱 불가",
 }
 
 FOCUS = {
@@ -46,6 +54,10 @@ FOCUS = {
     "varela": (32, 18, 1.18),
     "pele": (58, 20, 1.22),
     "puskas": (50, 18, 1.15),
+    "passarella": (50, 20, 1.18),
+    "hugo-sanchez": (32, 19, 1.32),
+    "gerd-muller": (62, 19, 1.22),
+    "keegan": (55, 19, 1.25),
 }
 
 
@@ -84,6 +96,7 @@ player_names = {normalized_stem(player["player"]): player["id"] for player in au
 images = json.loads(IMAGES_PATH.read_text(encoding="utf-8"))
 portraits = images["portraits"]
 imported = []
+skipped = []
 
 with zipfile.ZipFile(args.zip_path) as archive:
     for member in archive.infolist():
@@ -92,6 +105,9 @@ with zipfile.ZipFile(args.zip_path) as archive:
         }:
             continue
         key = normalized_stem(member.filename)
+        if key in SKIP_FILENAMES:
+            skipped.append(f"{Path(member.filename).stem}: {SKIP_FILENAMES[key]}")
+            continue
         player_id = PLAYER_IDS.get(key) or player_names.get(key)
         if not player_id:
             raise ValueError(f"Unmatched player filename: {member.filename}")
@@ -136,3 +152,7 @@ with zipfile.ZipFile(args.zip_path) as archive:
 AUDIT_PATH.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 IMAGES_PATH.write_text(json.dumps(images, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"Imported {len(imported)} user-provided photos: {', '.join(imported)}")
+if skipped:
+    print("Skipped photos:")
+    for reason in skipped:
+        print(f"- {reason}")

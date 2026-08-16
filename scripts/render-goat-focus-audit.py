@@ -11,6 +11,9 @@ OUTPUT.mkdir(parents=True, exist_ok=True)
 audit = json.loads((ROOT / "src/data/player-photo-audit.json").read_text(encoding="utf-8"))
 statuses = set(sys.argv[2].split(",")) if len(sys.argv) > 2 else {"focus-review"}
 players = [player for player in audit["players"] if player["status"] in statuses]
+if len(sys.argv) > 3:
+    selected_ids = set(sys.argv[3].split(","))
+    players = [player for player in players if player["id"] in selected_ids]
 
 frames = {
     "desktop": (235, 200),
