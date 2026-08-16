@@ -1,0 +1,127 @@
+import argparse
+import io
+import json
+import unicodedata
+import zipfile
+from pathlib import Path
+
+from PIL import Image, ImageOps
+
+
+ROOT = Path(__file__).resolve().parents[1]
+AUDIT_PATH = ROOT / "src/data/player-photo-audit.json"
+IMAGES_PATH = ROOT / "src/data/goat-player-images.json"
+OUTPUT_DIR = ROOT / "public/images/goat/players"
+
+PLAYER_IDS = {
+    "arthur friedenreich": "friedenreich",
+    "giuseppe meazza": "meazza",
+    "hector scarone": "scarone",
+    "jose leandro andrade": "andrade",
+    "jose nasazzi": "nasazzi",
+    "leonidas da silva": "leonidas",
+    "matthias sindelar": "sindelar",
+    "ricardo zamora": "zamora",
+    "stanley matthews": "matthews",
+    "valentino mazzola": "mazzola-valentino",
+    "zizinho": "zizinho",
+}
+
+FOCUS = {
+    "friedenreich": (50, 23, 1.0),
+    "meazza": (50, 17, 1.28),
+    "scarone": (52, 24, 1.22),
+    "andrade": (50, 20, 1.0),
+    "nasazzi": (50, 16, 1.25),
+    "leonidas": (50, 17, 1.0),
+    "sindelar": (50, 18, 1.0),
+    "zamora": (50, 18, 1.12),
+    "matthews": (50, 16, 1.0),
+    "mazzola-valentino": (43, 28, 1.3),
+    "zizinho": (54, 20, 1.08),
+}
+
+
+def normalized_stem(filename):
+    stem = Path(filename).stem
+    decomposed = unicodedata.normalize("NFKD", stem)
+    return "".join(char for char in decomposed if not unicodedata.combining(char)).lower()
+
+
+def responsive_focus(player_id):
+    x, y, scale = FOCUS[player_id]
+    return (
+        {
+            "desktop": f"{x}% {y}%",
+            "laptop": f"{x}% {y + 1}%",
+            "tablet": f"{x}% {y + 2}%",
+            "mobile": f"{x}% {y + 3}%",
+        },
+        {
+            "desktop": scale,
+            "laptop": scale,
+            "tablet": max(1, round(scale - 0.03, 2)),
+            "mobile": max(1, round(scale - 0.06, 2)),
+        },
+    )
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("zip_path", type=Path)
+parser.add_argument("--mark-focus-reviewed", action="store_true")
+args = parser.parse_args()
+
+audit = json.loads(AUDIT_PATH.read_text(encoding="utf-8"))
+players = {player["id"]: player for player in audit["players"]}
+images = json.loads(IMAGES_PATH.read_text(encoding="utf-8"))
+portraits = images["portraits"]
+imported = []
+
+with zipfile.ZipFile(args.zip_path) as archive:
+    for member in archive.infolist():
+        if member.is_dir() or Path(member.filename).suffix.lower() not in {
+            ".jpg", ".jpeg", ".png", ".webp",
+        }:
+            continue
+        key = normalized_stem(member.filename)
+        player_id = PLAYER_IDS.get(key)
+        if not player_id:
+            raise ValueError(f"Unmatched player filename: {member.filename}")
+
+        destination = OUTPUT_DIR / f"{player_id}.webp"
+        with Image.open(io.BytesIO(archive.read(member))) as image:
+            image = ImageOps.exif_transpose(image).convert("RGB")
+            image.thumbnail((1800, 2400), Image.Resampling.LANCZOS)
+            image.save(destination, "WEBP", quality=88, method=6)
+
+        position, scale = responsive_focus(player_id)
+        player = players[player_id]
+        player.update({
+            "sourceUrl": "",
+            "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+            "status": "user-provided",
+            "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
+            "currentAsset": f"/images/goat/players/{player_id}.webp",
+            "sourceAuthor": "사용자 제공",
+            "photoPosition": position,
+            "photoScale": scale,
+        })
+        player["review"].update({
+            "identityConfirmed": True,
+            "licenseConfirmed": False,
+            "desktopChecked": args.mark_focus_reviewed,
+            "laptopChecked": args.mark_focus_reviewed,
+            "tabletChecked": args.mark_focus_reviewed,
+            "mobileChecked": args.mark_focus_reviewed,
+        })
+        portraits[player_id].update({
+            "src": f"/images/goat/players/{player_id}.webp",
+            "author": "사용자 제공",
+            "license": "출처 및 라이선스 확인 필요",
+            "commons": "",
+        })
+        imported.append(player_id)
+
+AUDIT_PATH.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+IMAGES_PATH.write_text(json.dumps(images, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(f"Imported {len(imported)} user-provided photos: {', '.join(imported)}")

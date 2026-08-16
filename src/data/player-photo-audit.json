@@ -20,34 +20,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_friedenreich.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "55% 27.3%",
-        "laptop": "55% 28.3%",
-        "tablet": "55% 29.3%",
-        "mobile": "55% 30.3%"
+        "desktop": "50% 23%",
+        "laptop": "50% 24%",
+        "tablet": "50% 25%",
+        "mobile": "50% 26%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/friedenreich.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Arthur friedenreich.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Arthur_friedenreich.jpg",
@@ -79,34 +79,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jose_Leandro_Andrade_2949307144_5777c02cf1_o.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "현역 연도 사진이지만 구단·대표팀 선수 사진 맥락을 확인하기 어려운 실내 사진.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 20%",
+        "laptop": "50% 21%",
+        "tablet": "50% 22%",
+        "mobile": "50% 23%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/andrade.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/andrade.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Jose Leandro Andrade 2949307144 5777c02cf1 o.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Jose_Leandro_Andrade_2949307144_5777c02cf1_o.jpg",
@@ -139,34 +139,34 @@
         "행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ricardo_Zamora_(arquero_espa%C3%B1ol)_-_El_Gr%C3%A1fico_363.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.12,
+        "laptop": 1.12,
+        "tablet": 1.09,
+        "mobile": 1.06
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/zamora.jpg",
-      "sourceAuthor": "El Gráfico",
+      "currentAsset": "/images/goat/players/zamora.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Ricardo Zamora (arquero español) - El Gráfico 363.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Ricardo_Zamora_(arquero_espa%C3%B1ol)_-_El_Gr%C3%A1fico_363.jpg",
@@ -198,34 +198,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Meazza_1935.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "60.8% 31.3%",
-        "laptop": "60.8% 32.3%",
-        "tablet": "60.8% 33.3%",
-        "mobile": "60.8% 34.3%"
+        "desktop": "50% 17%",
+        "laptop": "50% 18%",
+        "tablet": "50% 19%",
+        "mobile": "50% 20%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.28,
+        "laptop": 1.28,
+        "tablet": 1.25,
+        "mobile": 1.22
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/meazza.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Giuseppe Meazza 1935.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Meazza_1935.jpg",
@@ -257,34 +257,34 @@
         "추모 사진"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sindelar-aut.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/sindelar.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/sindelar.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Sindelar-aut.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Sindelar-aut.jpg",
@@ -316,34 +316,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le%C3%B4nidas_da_Silva_01.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "어두운 복수 인물 사진으로 얼굴 식별이 불안정함.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "72% 31%",
-        "laptop": "72% 32%",
-        "tablet": "72% 33%",
-        "mobile": "72% 34%"
+        "desktop": "50% 17%",
+        "laptop": "50% 18%",
+        "tablet": "50% 19%",
+        "mobile": "50% 20%"
       },
       "photoScale": {
-        "desktop": 1.52,
-        "laptop": 1.52,
-        "tablet": 1.49,
-        "mobile": 1.46
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/leonidas.jpg",
-      "sourceAuthor": "Arquivo Tricolor",
+      "currentAsset": "/images/goat/players/leonidas.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Leônidas da Silva 01.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Le%C3%B4nidas_da_Silva_01.jpg",
@@ -375,34 +375,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanley_Matthews_1962_(crop).jpg",
-      "license": "CC0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 16%",
+        "laptop": "50% 17%",
+        "tablet": "50% 18%",
+        "mobile": "50% 19%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/matthews.jpg",
-      "sourceAuthor": "Harry Pot for Anefo ]] NL-HaNA / neg. stroken, 1945-1989",
+      "currentAsset": "/images/goat/players/matthews.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Stanley Matthews 1962 (crop).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Stanley_Matthews_1962_(crop).jpg",
@@ -434,34 +434,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zizinho,_Fundo_Correio_da_Manh%C3%A3_-_2.tif",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "54% 20%",
+        "laptop": "54% 21%",
+        "tablet": "54% 22%",
+        "mobile": "54% 23%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.08,
+        "laptop": 1.08,
+        "tablet": 1.05,
+        "mobile": 1.02
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/zizinho.jpg",
-      "sourceAuthor": "Unknown Unknown",
+      "currentAsset": "/images/goat/players/zizinho.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Zizinho, Fundo Correio da Manhã - 2.tif",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Zizinho,_Fundo_Correio_da_Manh%C3%A3_-_2.tif",
@@ -493,34 +493,34 @@
         "추모물"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mazzola_primo_piano.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "43% 28%",
+        "laptop": "43% 29%",
+        "tablet": "43% 30%",
+        "mobile": "43% 31%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.3,
+        "laptop": 1.3,
+        "tablet": 1.27,
+        "mobile": 1.24
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/mazzola-valentino.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/mazzola-valentino.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Mazzola primo piano.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Mazzola_primo_piano.jpg",
@@ -552,34 +552,34 @@
         "감독 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hector_scarone_nacional.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "52% 24%",
+        "laptop": "52% 25%",
+        "tablet": "52% 26%",
+        "mobile": "52% 27%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.22,
+        "laptop": 1.22,
+        "tablet": 1.19,
+        "mobile": 1.16
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/scarone.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/scarone.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Hector scarone nacional.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Hector_scarone_nacional.jpg",
@@ -611,34 +611,34 @@
         "감독 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JoseNasazzi1926.JPG",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "42.9% 32.5%",
-        "laptop": "42.9% 33.5%",
-        "tablet": "42.9% 34.5%",
-        "mobile": "42.9% 35.5%"
+        "desktop": "50% 16%",
+        "laptop": "50% 17%",
+        "tablet": "50% 18%",
+        "mobile": "50% 19%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.25,
+        "laptop": 1.25,
+        "tablet": 1.22,
+        "mobile": 1.19
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/nasazzi.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:JoseNasazzi1926.JPG",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:JoseNasazzi1926.JPG",

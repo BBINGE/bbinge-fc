@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "tmp/goat-focus-audit"
 OUTPUT.mkdir(parents=True, exist_ok=True)
 audit = json.loads((ROOT / "src/data/player-photo-audit.json").read_text(encoding="utf-8"))
-players = [player for player in audit["players"] if player["status"] == "focus-review"]
+statuses = set(sys.argv[2].split(",")) if len(sys.argv) > 2 else {"focus-review"}
+players = [player for player in audit["players"] if player["status"] in statuses]
 
 frames = {
     "desktop": (235, 200),

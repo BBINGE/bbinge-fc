@@ -633,3 +633,8 @@ Claude 또는 Codex에 보낼 첫 문장:
 - `bbinge_fc_goat_photo_targets_136.xlsx`의 136명을 기준으로 `src/data/player-photo-audit.json`을 만들었다. 기존 후보 사진은 Wikimedia Commons 원본 메타데이터와 라이선스를 다시 조회했고, 전성기 연도·허용 구단·반응형 얼굴 구도를 확정한 사진만 GOAT 카드에 연결한다.
 - 현재 판정은 확보 완료 34명, 미확보 101명, 라이선스 확인 필요 1명이다. 애매한 사진은 기존 로컬 파일이 있더라도 카드에서 사용하지 않는다. 상세 명단과 사유는 `GOAT_PHOTO_AUDIT_REPORT.md`에 있다.
 - 통과 사진은 선수 ID 기반 WebP이며, `src/pages/play/index.astro`가 감사 데이터의 desktop/laptop/tablet/mobile별 `photoPosition`과 `photoScale`을 읽는다. `?debugPhotoFocus=1`에서 좌표·배율을 볼 수 있고 `debugPlayers=pele,maradona`로 검수 선수를 고정할 수 있다.
+## 2026-08-16 GOAT 1950년 이전 사용자 제공 사진 시험 적용
+
+- 사용자 제공 `1950년이전.zip`의 11명을 선수 ID에 맞춰 WebP로 변환하고 GOAT 카드에 연결했다. 대상은 프리덴라이히, 메아차, 스카로네, 안드라데, 나사치, 레오니다스, 진델라, 사모라, 매튜스, 발렌티노 마촐라, 지지뉴다.
+- 네 반응형 구간의 얼굴·이마·턱·인물 크기를 포커스 시트로 수동 확인했다. 감사 상태는 `user-provided`이며 화면에는 적용하지만 원본 출처 URL과 라이선스를 받기 전까지 `ready`로 승격하지 않는다.
+- `scripts/import-user-goat-photos.py`가 이름의 발음기호를 정규화해 선수 ID와 매칭하고, 긴 변 2,400px 이내 WebP로 변환하며 선수별 포커스 값을 기록한다.

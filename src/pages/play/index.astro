@@ -17,7 +17,7 @@ const articleMap: Record<string, string> = Object.fromEntries(
 
 const auditedPhotos = Object.fromEntries(
   playerPhotoAuditFile.players
-    .filter((entry) => ['focus-review', 'ready'].includes(entry.status) && entry.currentAsset)
+    .filter((entry) => ['focus-review', 'ready', 'user-provided'].includes(entry.status) && entry.currentAsset)
     .map((entry) => [entry.id, entry])
 );
 const playerImages: Record<string, string> = Object.fromEntries(

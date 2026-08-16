@@ -22,6 +22,7 @@ report = f"""# GOAT 선수 사진 감사 보고서
 ## 결과
 
 - 확보 완료: {counts['ready']}명
+- 사용자 제공·화면 적용(출처 확인 대기): {counts['user-provided']}명
 - 미확보: {counts['missing']}명
 - 라이선스 확인 필요: {counts['license-review']}명
 - 전체: {len(players)}명
@@ -37,6 +38,12 @@ report = f"""# GOAT 선수 사진 감사 보고서
 {names('license-review') or '없음'}
 
 Hristo Stoichkov 후보는 FC Barcelona 페이지의 저작권 표기만 확인되어 재사용 라이선스를 확정할 수 없다. 따라서 사이트에는 연결하지 않았다.
+
+## 사용자 제공·화면 적용
+
+{names('user-provided') or '없음'}
+
+사용자가 선수 시절 사진으로 직접 제공했고 반응형 구도를 확인해 시험 적용한 사진이다. 원본 출처 URL과 라이선스는 아직 확인되지 않았으므로 `ready`와 구분한다.
 
 ## 미확보 및 판별 보류
 
