@@ -34,6 +34,16 @@ SKIP_FILENAMES = {
     "carlos alberto torres": "허용 전성기 구단이 아닌 New York Cosmos 사진",
     "enzo francescoli": "목표 전성기보다 뒤의 River Plate 후기 사진",
     "kenny dalglish": "뒷모습이라 반응형 얼굴 포커싱 불가",
+    "didier drogba": "목표 전성기 이후인 Chelsea 2014–15 우승 사진",
+    "roberto baggio": "등을 보인 구도라 반응형 얼굴 포커싱 불가",
+    "samuel eto'o": "목표 전성기보다 훨씬 뒤의 Cameroon 사진",
+    "thierry henry": "목표 전성기 이후인 Arsenal 복귀 시기 사진",
+}
+
+PREFERRED_CLUB_ADDITIONS = {
+    "thuram": "파르마 칼초 1913",
+    "buffon": "파르마 칼초 1913",
+    "cannavaro": "파르마 칼초 1913",
 }
 
 FOCUS = {
@@ -58,6 +68,16 @@ FOCUS = {
     "hugo-sanchez": (32, 19, 1.32),
     "gerd-muller": (62, 19, 1.22),
     "keegan": (55, 19, 1.25),
+    "iniesta": (55, 19, 1.3),
+    "cafu": (36, 19, 1.32),
+    "batistuta": (30, 19, 1.32),
+    "baresi": (62, 19, 1.3),
+    "thuram": (38, 19, 1.3),
+    "matthaus": (66, 19, 1.28),
+    "figo": (50, 19, 1.22),
+    "kahn": (42, 19, 1.3),
+    "ronaldinho": (56, 19, 1.22),
+    "gerrard": (72, 19, 1.28),
 }
 
 
@@ -93,6 +113,9 @@ args = parser.parse_args()
 audit = json.loads(AUDIT_PATH.read_text(encoding="utf-8"))
 players = {player["id"]: player for player in audit["players"]}
 player_names = {normalized_stem(player["player"]): player["id"] for player in audit["players"]}
+for player_id, club in PREFERRED_CLUB_ADDITIONS.items():
+    if club not in players[player_id]["preferredClubs"]:
+        players[player_id]["preferredClubs"].append(club)
 images = json.loads(IMAGES_PATH.read_text(encoding="utf-8"))
 portraits = images["portraits"]
 imported = []

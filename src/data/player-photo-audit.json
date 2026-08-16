@@ -4279,34 +4279,34 @@
         "은퇴 후 감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zinedine_zidane_2005_cropped.jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/zidane.jpg",
-      "sourceAuthor": "David de Biasi De Biasí from málaga, españa",
+      "currentAsset": "/images/goat/players/zidane.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Zinedine zidane 2005 cropped.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Zinedine_zidane_2005_cropped.jpg",
@@ -4319,7 +4319,8 @@
         "dateTimeOriginal": "2005-12-11 20:25",
         "categories": "Zinedine Zidane|Extracted images|Flickr images reviewed by FlickreviewR|Flickr images missing SDC creator|Flickr images missing SDC source of file|Flickr images missing SDC Flickr photo ID|Flickr images missing SDC published in",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f12eb76193d3"
     },
     {
       "id": "henry",
@@ -4395,34 +4396,34 @@
         "은퇴 후 배우/행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantona,_Eric.jpg",
-      "license": "CC BY-SA 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/cantona.jpg",
-      "sourceAuthor": "Stan Wiechers",
+      "currentAsset": "/images/goat/players/cantona.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Cantona, Eric.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Cantona,_Eric.jpg",
@@ -4435,7 +4436,8 @@
         "dateTimeOriginal": "2007-01-25 12:43:19",
         "categories": "Éric Cantona|Taken with HTC Excalibur|Flickr images reviewed by FlickreviewR 2|Celebrations of Manchester United FC",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "e760d325c312"
     },
     {
       "id": "ronaldo-r9",
@@ -4457,34 +4459,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ronaldo_2002_cropped.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/ronaldo-r9.jpg",
-      "sourceAuthor": "Milly barzellai",
+      "currentAsset": "/images/goat/players/ronaldo-r9.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Ronaldo 2002 cropped.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Ronaldo_2002_cropped.jpg",
@@ -4497,7 +4499,8 @@
         "dateTimeOriginal": "Taken on 30 June 2002",
         "categories": "Retouched pictures|Extracted images|Files allowed to be overwritten by everyone|Photographs taken on 2002-06-30|Ronaldo Nazário in 2002",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "059223a82fff"
     },
     {
       "id": "ronaldinho",
@@ -4516,34 +4519,34 @@
         "브라질 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ronaldinho.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "The face leaves the frame at multiple breakpoints.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "30.9% 65.4%",
-        "laptop": "30.9% 60%",
-        "tablet": "30.9% 60%",
-        "mobile": "30.9% 60%"
+        "desktop": "56% 19%",
+        "laptop": "56% 20%",
+        "tablet": "56% 21%",
+        "mobile": "56% 22%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.22,
+        "laptop": 1.22,
+        "tablet": 1.19,
+        "mobile": 1.16
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/ronaldinho.jpg",
-      "sourceAuthor": "Darz Mol",
+      "currentAsset": "/images/goat/players/ronaldinho.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Ronaldinho.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Ronaldinho.jpg",
@@ -4556,7 +4559,8 @@
         "dateTimeOriginal": "2004-10-03",
         "categories": "GFDL|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Self-published work|Ronaldinho Gaúcho in 2004",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "632f8955d118"
     },
     {
       "id": "rivaldo",
@@ -4574,34 +4578,34 @@
         "AC 밀란/그리스 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rivaldo_bunyodkor_2010.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/rivaldo.jpg",
-      "sourceAuthor": "w:User:Nursultan12",
+      "currentAsset": "/images/goat/players/rivaldo.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Rivaldo bunyodkor 2010.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Rivaldo_bunyodkor_2010.jpg",
@@ -4614,7 +4618,8 @@
         "dateTimeOriginal": "2020-April-19",
         "categories": "GFDL|2010 in association football|License migration not eligible|Rivaldo|Self-published work",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "07f77f4cdc7b"
     },
     {
       "id": "romario",
@@ -4633,34 +4638,34 @@
         "브라질 복귀 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunga,_Lula_%26_Rom%C3%A1rio_at_announcement_of_Brazil_as_2014_FIFA_World_Cup_host_2007-10-30_(cropped).jpg",
-      "license": "CC BY 3.0 br",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/romario.jpg",
-      "sourceAuthor": "Ricardo Stuckert/PR",
+      "currentAsset": "/images/goat/players/romario.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Dunga, Lula & Romário at announcement of Brazil as 2014 FIFA World Cup host 2007-10-30 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Dunga,_Lula_%26_Rom%C3%A1rio_at_announcement_of_Brazil_as_2014_FIFA_World_Cup_host_2007-10-30_(cropped).jpg",
@@ -4673,7 +4678,8 @@
         "dateTimeOriginal": "2007-10-30",
         "categories": "Photographs by Agencia Brasil|Extracted images|Files by User:BrokenSphere|Photographs by Ricardo Stuckert|October 2007 Switzerland photographs|Switzerland photographs taken on 2007-10-30|Romário in 2007|Announcement of Brazil as host nation for the FIFA World Cup 2014",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "d4c7953a87b9"
     },
     {
       "id": "cafu",
@@ -4692,34 +4698,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cafu_2007.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "36% 19%",
+        "laptop": "36% 20%",
+        "tablet": "36% 21%",
+        "mobile": "36% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.32,
+        "laptop": 1.32,
+        "tablet": 1.29,
+        "mobile": 1.26
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/cafu.jpg",
-      "sourceAuthor": "Александр Мельников",
+      "currentAsset": "/images/goat/players/cafu.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Cafu 2007.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Cafu_2007.jpg",
@@ -4732,7 +4738,8 @@
         "dateTimeOriginal": "5.08.2007",
         "categories": "GFDL|License migration redundant|Items with VRTS permission confirmed|Photos from soccer.ru|Cafu in 2007|A.C. Milan team jerseys (adidas)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f6cd0f80ac13"
     },
     {
       "id": "roberto-carlos",
@@ -4750,34 +4757,34 @@
         "페네르바흐체 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Carlos_Corinthians.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/roberto-carlos.jpg",
-      "sourceAuthor": "50brian",
+      "currentAsset": "/images/goat/players/roberto-carlos.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Roberto Carlos Corinthians.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Carlos_Corinthians.jpg",
@@ -4790,7 +4797,8 @@
         "dateTimeOriginal": "2010-01-04",
         "categories": "Sport Club Corinthians Paulista|Roberto Carlos|Self-published work|PD-self",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "60dc8566dd19"
     },
     {
       "id": "kaka",
@@ -4808,34 +4816,34 @@
         "레알 마드리드/MLS 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaka_355_280_px.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "47.9% 35%",
-        "laptop": "47.9% 36%",
-        "tablet": "47.9% 37%",
-        "mobile": "47.9% 38%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.13,
-        "laptop": 1.13,
-        "tablet": 1.1,
-        "mobile": 1.07
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/kaka.webp",
-      "sourceAuthor": "Kaka06052007.jpg : Roberto Vicario derivative work: Garcia1 ( talk )",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Kaka 355 280 px.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Kaka_355_280_px.jpg",
@@ -4848,7 +4856,8 @@
         "dateTimeOriginal": "2007-06-05",
         "categories": "Retouched pictures|Personality rights warning|Self-published work|Roberto Vicario|Uploaded with derivativeFX|Kaká (association football player) in 2007|A.C. Milan team jerseys (adidas)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "b4422d5a2b84"
     },
     {
       "id": "maldini",
@@ -4867,34 +4876,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maldini2008.JPG",
-      "license": "CC BY-SA 1.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/maldini.jpg",
-      "sourceAuthor": "Yelena Rybakova",
+      "currentAsset": "/images/goat/players/maldini.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Maldini2008.JPG",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Maldini2008.JPG",
@@ -4907,7 +4916,8 @@
         "dateTimeOriginal": "1 August 2008",
         "categories": "Paolo Maldini|Items with VRTS permission confirmed|Photographs taken on 2008-08-01|Files tagged CC-by-sa-old|White male clothing|People with Adidas clothing",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "7d671bca57a1"
     },
     {
       "id": "baresi",
@@ -4926,34 +4936,34 @@
         "행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franco_baresi_panini_card_1979.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "62% 19%",
+        "laptop": "62% 20%",
+        "tablet": "62% 21%",
+        "mobile": "62% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.3,
+        "laptop": 1.3,
+        "tablet": 1.27,
+        "mobile": 1.24
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/baresi.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/baresi.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Franco baresi panini card 1979.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Franco_baresi_panini_card_1979.jpg",
@@ -4966,7 +4976,8 @@
         "dateTimeOriginal": "1979",
         "categories": "PD Italy (20 years after creation)|Franco Baresi|Panini association football cards|Works copyrighted in the U.S.|Images with extracted images|Template Unknown (author)|1979 in association football in Europe",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "62fdb171a3b9"
     },
     {
       "id": "nesta",
@@ -4985,34 +4996,34 @@
         "부상 이후 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alessandro_Nesta_Impact_Montreal_2012-07-28_(cropped).jpg",
-      "license": "CC BY-SA 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/nesta.jpg",
-      "sourceAuthor": "Francis Bourgouin from Montréal, Québec, Canada",
+      "currentAsset": "/images/goat/players/nesta.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Alessandro Nesta Impact Montreal 2012-07-28 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Alessandro_Nesta_Impact_Montreal_2012-07-28_(cropped).jpg",
@@ -5025,7 +5036,8 @@
         "dateTimeOriginal": "2012-07-28 21:29",
         "categories": "2012 Montreal Impact season|2012 New York Red Bulls season|Alessandro Nesta|Extracted images|Flickr images reviewed by File Upload Bot (Magnus Manske)|Uploaded by user Montrealaholic",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "201de7baa3df"
     },
     {
       "id": "cannavaro",
@@ -5034,7 +5046,8 @@
       "era": "1990~2000년대 (44명)",
       "targetYears": "2004–2006",
       "preferredClubs": [
-        "유벤투스 FC"
+        "유벤투스 FC",
+        "파르마 칼초 1913"
       ],
       "secondaryAllowed": [
         "이탈리아 대표팀 2006"
@@ -5044,34 +5057,34 @@
         "중동"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fabio_Cannavaro.jpg",
-      "license": "CC BY 2.5",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/cannavaro.jpg",
-      "sourceAuthor": "Paul Blank",
+      "currentAsset": "/images/goat/players/cannavaro.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Fabio Cannavaro.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fabio_Cannavaro.jpg",
@@ -5084,7 +5097,8 @@
         "dateTimeOriginal": "Unknown date",
         "categories": "Fabio Cannavaro|Items with VRTS permission confirmed|Unknown date|Files by User:Paulblank from nl.wikipedia",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "960d6a66fbf0"
     },
     {
       "id": "buffon",
@@ -5093,7 +5107,8 @@
       "era": "1990~2000년대 (44명)",
       "targetYears": "2002–2007",
       "preferredClubs": [
-        "유벤투스 FC"
+        "유벤투스 FC",
+        "파르마 칼초 1913"
       ],
       "secondaryAllowed": [
         "이탈리아 대표팀 2006"
@@ -5103,34 +5118,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(31784615942)_(cropped).jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/buffon.jpg",
-      "sourceAuthor": "Original: Doha Stadium Plus Qatar from Doha, Qatar Derivative work: Alza08 Author",
+      "currentAsset": "/images/goat/players/buffon.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Gianluigi Buffon (31784615942) (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(31784615942)_(cropped).jpg",
@@ -5143,7 +5158,8 @@
         "dateTimeOriginal": "2016-12-23 10:06",
         "categories": "Extracted images|Gianluigi Buffon in 2016|2016 Supercoppa Italiana",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "eb8913b8ffd1"
     },
     {
       "id": "totti",
@@ -5162,34 +5178,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francesco_Totti_Vicario_(crop).jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/totti.jpg",
-      "sourceAuthor": "Photojournalist Roberto Vicario derivative work: Clarus The Dogcow ( talk )",
+      "currentAsset": "/images/goat/players/totti.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Francesco Totti Vicario (crop).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Francesco_Totti_Vicario_(crop).jpg",
@@ -5202,7 +5218,8 @@
         "dateTimeOriginal": "2011-07-11 15:52",
         "categories": "Retouched pictures|Roberto Vicario|Uploaded with derivativeFX|ACF Fiorentina v AS Roma, 25 April 2009|AS Roma team jerseys (Kappa)|Francesco Totti in 2009",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "4c8720be521e"
     },
     {
       "id": "baggio",
@@ -5280,34 +5297,34 @@
         "카타르"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gabriel_batistuta.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "30% 19%",
+        "laptop": "30% 20%",
+        "tablet": "30% 21%",
+        "mobile": "30% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.32,
+        "laptop": 1.32,
+        "tablet": 1.29,
+        "mobile": 1.26
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/batistuta.jpg",
-      "sourceAuthor": "Wikimedia Commons contributor",
+      "currentAsset": "/images/goat/players/batistuta.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Gabriel batistuta.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Gabriel_batistuta.jpg",
@@ -5320,7 +5337,8 @@
         "dateTimeOriginal": "",
         "categories": "Gabriel Batistuta|Taken with Nikon Coolpix 3200|PD-user|Files with no machine-readable author|Files with no machine-readable source|Media missing infobox template|Files with derivative versions",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "0482fd0dae4f"
     },
     {
       "id": "riquelme",
@@ -5338,34 +5356,34 @@
         "비야레알은 대체 허용, 말년 제외"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juan_Rom%C3%A1n_Riquelme_-_2019.jpg",
-      "license": "CC BY 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/riquelme.jpg",
-      "sourceAuthor": "Todo Noticias",
+      "currentAsset": "/images/goat/players/riquelme.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Juan Román Riquelme - 2019.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Juan_Rom%C3%A1n_Riquelme_-_2019.jpg",
@@ -5378,7 +5396,8 @@
         "dateTimeOriginal": "2019-09-17",
         "categories": "Juan Román Riquelme|Media from YouTube|YouTube files uploaded by Franco Brignone",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "afa62a165104"
     },
     {
       "id": "zanetti",
@@ -5397,34 +5416,34 @@
         "부회장 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Javier_Adelmar_Zanetti.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "44.4% 20.7%",
-        "laptop": "44.4% 21.7%",
-        "tablet": "44.4% 22.7%",
-        "mobile": "44.4% 23.7%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/zanetti.webp",
-      "sourceAuthor": "Давиденко Валерий",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Javier Adelmar Zanetti.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Javier_Adelmar_Zanetti.jpg",
@@ -5437,7 +5456,8 @@
         "dateTimeOriginal": "2009",
         "categories": "Javier Zanetti|GFDL|License migration redundant|Items with VRTS permission confirmed|Photos from soccer.ru|FC Internazionale Milano team jerseys (Nike)|Scudetto on association football jerseys|2009-11-04 Dynamo Kyiv vs Inter Milan",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "8948737e8df9"
     },
     {
       "id": "raul",
@@ -5455,34 +5475,34 @@
         "샬케/카타르 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raul_Gonzalez_10mar2007.jpg",
-      "license": "CC BY-SA 2.5 es",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/raul.jpg",
-      "sourceAuthor": "Darz Mol",
+      "currentAsset": "/images/goat/players/raul.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Raul Gonzalez 10mar2007.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Raul_Gonzalez_10mar2007.jpg",
@@ -5495,7 +5515,8 @@
         "dateTimeOriginal": "2007-03-10",
         "categories": "La Liga season 2006-2007|Raúl González|Images with annotations|Association football captain armbands|Images with extracted images|Association football players in 2007|Players of Real Madrid CF 2006/2007",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "1b73d02d2d4d"
     },
     {
       "id": "casillas",
@@ -5513,34 +5534,34 @@
         "FC 포르투 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iker_Casillas_2.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/casillas.jpg",
-      "sourceAuthor": "Зайцев Антон",
+      "currentAsset": "/images/goat/players/casillas.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Iker Casillas 2.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Iker_Casillas_2.jpg",
@@ -5553,7 +5574,8 @@
         "dateTimeOriginal": "2018-10-24",
         "categories": "GFDL|Iker Casillas|License migration redundant|Items with VRTS permission confirmed|Photos from soccer.ru|People of Spain in 2018",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "485548ed46b0"
     },
     {
       "id": "figo",
@@ -5572,34 +5594,34 @@
         "인테르 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lu%C3%ADs_Figo_2009.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 19%",
+        "laptop": "50% 20%",
+        "tablet": "50% 21%",
+        "mobile": "50% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.22,
+        "laptop": 1.22,
+        "tablet": 1.19,
+        "mobile": 1.16
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/figo.jpg",
-      "sourceAuthor": "Christophe95",
+      "currentAsset": "/images/goat/players/figo.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Luís Figo 2009.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Lu%C3%ADs_Figo_2009.jpg",
@@ -5612,7 +5634,8 @@
         "dateTimeOriginal": "2009",
         "categories": "Luís Figo|Self-published work|Images by Christophe95/Sportspeople",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "64d7d27f5183"
     },
     {
       "id": "beckham",
@@ -5630,34 +5653,34 @@
         "LA 갤럭시/PSG 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Beckham_2009.jpg",
-      "license": "CC BY-SA 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/beckham.jpg",
-      "sourceAuthor": "The Democratic Alliance",
+      "currentAsset": "/images/goat/players/beckham.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:David Beckham 2009.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:David_Beckham_2009.jpg",
@@ -5670,7 +5693,8 @@
         "dateTimeOriginal": "4 December 2009",
         "categories": "Taken with Nikon D3x|Flickr images reviewed by trusted users|Photographs taken on 2009-12-04|David Beckham in 2009",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "0d07ffef58a5"
     },
     {
       "id": "scholes",
@@ -5689,34 +5713,34 @@
         "코치 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P_Scholes.jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "The face remains too small for stable responsive framing.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50.8% 20.2%",
-        "laptop": "50.8% 21.2%",
-        "tablet": "50.8% 22.2%",
-        "mobile": "50.8% 23.2%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.15,
-        "laptop": 1.15,
-        "tablet": 1.12,
-        "mobile": 1.09
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/scholes.jpg",
-      "sourceAuthor": "James Adams",
+      "currentAsset": "/images/goat/players/scholes.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:P Scholes.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:P_Scholes.jpg",
@@ -5729,7 +5753,8 @@
         "dateTimeOriginal": "2008-08-06",
         "categories": "Taken with Canon EOS 350D|Paul Scholes|Flickr images reviewed by trusted users|Flickr images missing SDC source of file|Manchester United v Juventus, 6 August 2008",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "4a6712d5d6f3"
     },
     {
       "id": "gerrard",
@@ -5747,34 +5772,34 @@
         "MLS 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "39.4% 57.7%",
-        "laptop": "39.4% 58.7%",
-        "tablet": "39.4% 59.7%",
-        "mobile": "39.4% 60%"
+        "desktop": "72% 19%",
+        "laptop": "72% 20%",
+        "tablet": "72% 21%",
+        "mobile": "72% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.28,
+        "laptop": 1.28,
+        "tablet": 1.25,
+        "mobile": 1.22
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/gerrard.webp",
-      "sourceAuthor": "Elwedritsch",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Steven Gerrard.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard.jpg",
@@ -5787,7 +5812,8 @@
         "dateTimeOriginal": "2006-08-04",
         "categories": "GFDL|Taken with Canon PowerShot S50|User-created GFDL images|Steven Gerrard|Personality rights warning|License migration completed|Self-published work",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f8e080e8303b"
     },
     {
       "id": "bergkamp",
@@ -5806,34 +5832,34 @@
         "코치"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dennis_Bergkamp_2014_(cropped).jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/bergkamp.jpg",
-      "sourceAuthor": "Kieran Clarke",
+      "currentAsset": "/images/goat/players/bergkamp.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Dennis Bergkamp 2014 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Dennis_Bergkamp_2014_(cropped).jpg",
@@ -5846,7 +5872,8 @@
         "dateTimeOriginal": "2014-02-22 12:39:42",
         "categories": "Dennis Bergkamp|Extracted images|Flickr images uploaded by Flickr upload bot|Files from Kieran Clarke Flickr stream",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "b02c8006054e"
     },
     {
       "id": "gullit",
@@ -5865,34 +5892,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruud_Gullit_1983_(cropped).jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/gullit.jpg",
-      "sourceAuthor": "Rob Croes for Anefo",
+      "currentAsset": "/images/goat/players/gullit.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Ruud Gullit 1983 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Ruud_Gullit_1983_(cropped).jpg",
@@ -5905,7 +5932,8 @@
         "dateTimeOriginal": "1983-10-13",
         "categories": "Ruud Gullit|Images from Anefo|Extracted images|Photographs by Rob Croes|Photographs by Rob Croes (flat list)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "65ff342abe21"
     },
     {
       "id": "van-basten",
@@ -5924,34 +5952,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_1990-1992.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "60.2% 19.7%",
-        "laptop": "60.2% 20.7%",
-        "tablet": "60.2% 21.7%",
-        "mobile": "60.2% 22.7%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/van-basten.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Marco van Basten 1990-1992.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Marco_van_Basten_1990-1992.jpg",
@@ -5964,7 +5992,8 @@
         "dateTimeOriginal": "between 1990 and 1992 date QS:P,+1990-00-00T00:00:00Z/8,P1319,+1990-00-00T00:00:00Z/9,P1326,+1992-00-00T00:00:00Z/9",
         "categories": "Marco van Basten|PD Italy (20 years after creation)|Template Unknown (author)|A.C. Milan team jerseys (adidas)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "254b6545200d"
     },
     {
       "id": "matthaus",
@@ -5984,34 +6013,34 @@
         "미국"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lothar_Matth%C3%A4us_1995.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "66% 19%",
+        "laptop": "66% 20%",
+        "tablet": "66% 21%",
+        "mobile": "66% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.28,
+        "laptop": 1.28,
+        "tablet": 1.25,
+        "mobile": 1.22
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/matthaus.jpg",
-      "sourceAuthor": "Übrigens",
+      "currentAsset": "/images/goat/players/matthaus.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Lothar Matthäus 1995.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Lothar_Matth%C3%A4us_1995.jpg",
@@ -6024,7 +6053,8 @@
         "dateTimeOriginal": "1995-03",
         "categories": "GFDL|Lothar Matthäus|License migration completed",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "60716f5735e1"
     },
     {
       "id": "kahn",
@@ -6043,34 +6073,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oliver_Kahn_06-2004.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "42% 19%",
+        "laptop": "42% 20%",
+        "tablet": "42% 21%",
+        "mobile": "42% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.3,
+        "laptop": 1.3,
+        "tablet": 1.27,
+        "mobile": 1.24
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/kahn.jpg",
-      "sourceAuthor": "Schwarzwälder",
+      "currentAsset": "/images/goat/players/kahn.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Oliver Kahn 06-2004.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Oliver_Kahn_06-2004.jpg",
@@ -6083,7 +6113,8 @@
         "dateTimeOriginal": "2004-06",
         "categories": "GFDL|Oliver Kahn|License migration completed",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "9d77a213ba52"
     },
     {
       "id": "nedved",
@@ -6103,34 +6134,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavel_Nedv%C4%9Bd.jpg",
-      "license": "CC BY-SA 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/nedved.jpg",
-      "sourceAuthor": "Pavel Lebeda",
+      "currentAsset": "/images/goat/players/nedved.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Pavel Nedvěd.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Pavel_Nedv%C4%9Bd.jpg",
@@ -6143,7 +6174,8 @@
         "dateTimeOriginal": "2006-06-17",
         "categories": "Taken with Canon EOS-1D Mark II|Personality rights warning|2006 FIFA World Cup Match 26, Czech Republic v Ghana|Items with VRTS permission confirmed|Images with extracted images|Pavel Nedvěd in 2006|People with Adidas Teamgeist",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "395ba5fc5418"
     },
     {
       "id": "shevchenko",
@@ -6161,34 +6193,34 @@
         "첼시/디나모 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andriy_Shevchenko_-_2004_-_AC_Milan_(1).jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "The face remains too small for stable responsive framing.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "57.2% 15%",
-        "laptop": "57.2% 16%",
-        "tablet": "57.2% 17%",
-        "mobile": "57.2% 18%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/shevchenko.jpg",
-      "sourceAuthor": "Original: Anastasiya Fedorenko Derivative work: Danyele",
+      "currentAsset": "/images/goat/players/shevchenko.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Andriy Shevchenko - 2004 - AC Milan (1).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Andriy_Shevchenko_-_2004_-_AC_Milan_(1).jpg",
@@ -6201,7 +6233,8 @@
         "dateTimeOriginal": "14 September 2004",
         "categories": "Retouched pictures|Extracted images|Photographs taken on 2004-09-14|Andriy Shevchenko in 2004|A.C. Milan team jerseys (adidas)|Sponsorship by Opel|Scudetto on association football jerseys|Portraits by Anastasiya Fedorenko|2004-09-14 Shakhtar Donetsk vs Milan",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "818b1af26ded"
     },
     {
       "id": "weah",
@@ -6221,34 +6254,34 @@
         "정치인"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coppa_UEFA_1992-93_-_Napoli_vs_PSG_-_George_Weah.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/weah.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/weah.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Coppa UEFA 1992-93 - Napoli vs PSG - George Weah.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Coppa_UEFA_1992-93_-_Napoli_vs_PSG_-_George_Weah.jpg",
@@ -6261,7 +6294,8 @@
         "dateTimeOriginal": "1992-10-21",
         "categories": "UEFA Cup 1992-1993|PD Italy (20 years after creation)|George Weah|Photographs taken on 1992-10-21|Template Unknown (author)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f9c520dac31d"
     },
     {
       "id": "drogba",
@@ -6398,34 +6432,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xavi_13981129001173637176666027076571.jpg",
-      "license": "CC BY 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/xavi.jpg",
-      "sourceAuthor": "Mehdi Zare",
+      "currentAsset": "/images/goat/players/xavi.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Xavi 13981129001173637176666027076571.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Xavi_13981129001173637176666027076571.jpg",
@@ -6438,7 +6472,8 @@
         "dateTimeOriginal": "2020-02-18",
         "categories": "Files from external sources with reviewed licenses|Xavi Hernández in 2020|Photographs from farsnews.ir|Photos by Mahdi Zare for Fars News Agency",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "c28a17abf511"
     },
     {
       "id": "iniesta",
@@ -6457,34 +6492,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "55% 19%",
+        "laptop": "55% 20%",
+        "tablet": "55% 21%",
+        "mobile": "55% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.3,
+        "laptop": 1.3,
+        "tablet": 1.27,
+        "mobile": 1.24
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/iniesta.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/iniesta.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Andrés Iniesta Argentina v Spain 19 July 2026-034 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg",
@@ -6497,7 +6532,8 @@
         "dateTimeOriginal": "2026-07-19 14:50:52",
         "categories": "Personality rights warning|Creative Commons Attribution-Share Alike missing SDC copyright status|Self-published work|Extracted images|Creative Commons Attribution-Share Alike 4.0 missing SDC copyright license|Self-published work missing SDC copyright license|People with FIFA World Cup trophy|WikiPortraits photos missing depicts statements|Andrés Iniesta in 2026|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (Argentina v Spain, 19 July 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "39977d3519d8"
     },
     {
       "id": "park-ji-sung",
@@ -6516,34 +6552,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Ji-sung_G20_Seoul_Summit_Ambassador_(cropped).jpg",
-      "license": "CC BY-SA 2.0",
-      "status": "missing",
-      "notes": "현역 시기이지만 구단·대표팀 유니폼이 아닌 홍보성 인물 사진.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/park-ji-sung.jpg",
-      "sourceAuthor": "Korea.net / Korean Culture and Information Service",
+      "currentAsset": "/images/goat/players/park-ji-sung.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Park Ji-sung G20 Seoul Summit Ambassador (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Park_Ji-sung_G20_Seoul_Summit_Ambassador_(cropped).jpg",
@@ -6556,7 +6592,8 @@
         "dateTimeOriginal": "2010-07-23 14:58:20",
         "categories": "Park Ji-sung|Files from Korea.net Flickr stream|Items with VRTS permission confirmed|Extracted images|Preparations for the 2010 G-20 Seoul Summit",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "cdae20c6e7e0"
     },
     {
       "id": "stoichkov",
@@ -6574,34 +6611,35 @@
         "MLS/일본 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://www.fcbarcelona.com/en/football/barca-legends/players/1054352/stoichkov",
-      "license": "© FC Barcelona",
-      "status": "license-review",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
         "licenseConfirmed": false,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/stoichkov.jpg",
-      "sourceAuthor": "FC Barcelona"
+      "currentAsset": "/images/goat/players/stoichkov.webp",
+      "sourceAuthor": "사용자 제공",
+      "photoVersion": "18ed89c4085e"
     },
     {
       "id": "rijkaard",
@@ -6620,34 +6658,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ajax_selectie_seizoen_1981_1982_nr._140a_E._Ophof_speler,_nr._15a_F._Rijka,_Bestanddeelnr_253-8568.jpg",
-      "license": "CC0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/rijkaard.jpg",
-      "sourceAuthor": "Marcel Antonisse / Anefo",
+      "currentAsset": "/images/goat/players/rijkaard.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Ajax selectie seizoen 1981 1982 nr. 140a E. Ophof speler, nr. 15a F. Rijka, Bestanddeelnr 253-8568.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Ajax_selectie_seizoen_1981_1982_nr._140a_E._Ophof_speler,_nr._15a_F._Rijka,_Bestanddeelnr_253-8568.jpg",
@@ -6660,7 +6698,8 @@
         "dateTimeOriginal": "1981-07-13",
         "categories": "CC-Zero|Images from Nationaal Archief|Frank Rijkaard|Images from Anefo|Football photography by Marcel Antonisse",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "e75c6b880c94"
     },
     {
       "id": "giggs",
@@ -6679,34 +6718,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryan_Giggs_in_2008.jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/giggs.jpg",
-      "sourceAuthor": "James Adams",
+      "currentAsset": "/images/goat/players/giggs.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Ryan Giggs in 2008.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Ryan_Giggs_in_2008.jpg",
@@ -6719,7 +6758,8 @@
         "dateTimeOriginal": "2008-08-06",
         "categories": "Taken with Canon EOS 350D|Ryan Giggs|Flickr images reviewed by trusted users|Flickr images missing SDC source of file|Manchester United v Juventus, 6 August 2008",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "2fed716849d1"
     },
     {
       "id": "thuram",
@@ -6738,34 +6778,34 @@
         "FC 바르셀로나 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lilian_Thuram_2007.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "38% 19%",
+        "laptop": "38% 20%",
+        "tablet": "38% 21%",
+        "mobile": "38% 22%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.3,
+        "laptop": 1.3,
+        "tablet": 1.27,
+        "mobile": 1.24
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/thuram.jpg",
-      "sourceAuthor": "Nicolas Richoffer",
+      "currentAsset": "/images/goat/players/thuram.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Lilian Thuram 2007.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Lilian_Thuram_2007.jpg",
@@ -6778,7 +6818,8 @@
         "dateTimeOriginal": "2007-03-25 12:48:29",
         "categories": "Lilian Thuram|Self-published work",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "277fe3110c9e"
     },
     {
       "id": "del-piero",
@@ -6796,34 +6837,34 @@
         "세리에 B/말년도 상징성이면 제한 허용, 은퇴 후 제외"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alessandro_Del_Piero_Rimini-Juventus_2006_cropped.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/del-piero.jpg",
-      "sourceAuthor": "Rimini-juve3.jpg : Danilo Giorgio \"theSPOT\" derivative work: RanZag",
+      "currentAsset": "/images/goat/players/del-piero.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Alessandro Del Piero Rimini-Juventus 2006 cropped.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Alessandro_Del_Piero_Rimini-Juventus_2006_cropped.jpg",
@@ -6836,7 +6877,8 @@
         "dateTimeOriginal": "2013-01-02 12:58",
         "categories": "Taken with Canon EOS 350D|Retouched pictures|Self-published work|PD-self|Derivative versions|Uploaded with derivativeFX|Rimini vs Juventus, 9 September 2006 Serie B|Alessandro Del Piero in 2006|Juventus FC team jerseys (Nike)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "0a44b5efd34a"
     },
     {
       "id": "messi",
