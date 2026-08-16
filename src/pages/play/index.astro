@@ -74,17 +74,17 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     { label: '놀이', href: '/play/' },
   ]}
 >
-  <div class="max-w-[980px] mx-auto px-3 md:px-5 py-5 md:py-7">
-    <header class="mb-5">
-      <p class="text-[11px] text-[var(--bbfc-blue)]">PLAY · 32강</p>
-      <h1 class="text-[24px] md:text-[30px] font-medium text-[var(--bbfc-ink)] mt-1">둘 중 한 명만 찍어.</h1>
-      <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1.5">
+  <div class="max-w-[1160px] mx-auto px-3 md:px-6 py-6 md:py-9">
+    <header class="mb-6 md:mb-7">
+      <p class="text-[13px] font-bold text-[var(--bbfc-blue)]">PLAY · 32강</p>
+      <h1 class="text-[29px] md:text-[38px] font-semibold text-[var(--bbfc-ink)] mt-1">둘 중 한 명만 찍어.</h1>
+      <p class="text-[15px] md:text-[17px] leading-relaxed text-[var(--bbfc-gray-1)] mt-2">
         고민은 짧게, 클릭은 세게. 살아남은 한 명이 다음 라운드로 갑니다.
       </p>
     </header>
 
     <div id="goat-app" data-loading="true">
-      <p class="text-[13px] text-[var(--bbfc-gray-1)] py-10 text-center">불러오는 중…</p>
+      <p class="text-[15px] text-[var(--bbfc-gray-1)] py-10 text-center">불러오는 중…</p>
     </div>
   </div>
 </Layout>
@@ -284,7 +284,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     app.innerHTML = `
       <div class="flex items-center justify-between mb-3">
         <span class="goat-round">${ROUND_NAME[size] ?? `${size}강`} · ${state.matchIndex + 1}/${totalMatches}</span>
-        <button type="button" id="goat-restart" class="text-[12px] text-[var(--bbfc-gray-1)] underline">다시 시작</button>
+        <button type="button" id="goat-restart" class="text-[14px] font-medium text-[var(--bbfc-gray-1)] underline">다시 시작</button>
       </div>
       <div class="goat-progress" aria-hidden="true"><span style="width:${((state.matchIndex + 1) / totalMatches) * 100}%"></span></div>
       <p class="goat-match-line">${MATCH_LINES[(state.matchIndex + size) % MATCH_LINES.length]}</p>
@@ -466,21 +466,21 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
 
     app.innerHTML = `
       <div class="text-center py-6 border-b border-[var(--bbfc-line)]">
-        <p class="text-[11px] text-[var(--bbfc-blue)]">🏆 우승</p>
-        <h2 class="text-[22px] font-medium text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
-        <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
-        ${nickname ? `<p class="text-[13px] text-[var(--bbfc-ink-2)] mt-2">${nickname}</p>` : ''}
+        <p class="text-[13px] font-bold text-[var(--bbfc-blue)]">🏆 우승</p>
+        <h2 class="text-[28px] md:text-[34px] font-semibold text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
+        <p class="text-[15px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
+        ${nickname ? `<p class="text-[16px] text-[var(--bbfc-ink-2)] mt-2">${nickname}</p>` : ''}
       </div>
 
       <div class="py-5">
-        <h3 class="text-[14px] font-medium text-[var(--bbfc-ink)] mb-2">내 브래킷 — 4강</h3>
+        <h3 class="text-[17px] font-semibold text-[var(--bbfc-ink)] mb-2">내 브래킷 — 4강</h3>
         <ul>
           ${final4
             .map(
               (p) => `
-            <li class="flex items-center justify-between py-2 border-t border-[var(--bbfc-line)] first:border-t-0 text-[13.5px]">
+            <li class="flex items-center justify-between py-2.5 border-t border-[var(--bbfc-line)] first:border-t-0 text-[15px]">
               <span class="${p.id === winner.id ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink)]'}">${p.name}</span>
-              ${p.id === winner.id ? '<span class="text-[11px] text-[var(--bbfc-blue)]">우승</span>' : ''}
+              ${p.id === winner.id ? '<span class="text-[13px] font-bold text-[var(--bbfc-blue)]">우승</span>' : ''}
             </li>`
             )
             .join('')}
@@ -488,17 +488,17 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
       </div>
 
       <div class="flex flex-wrap gap-2 mt-2">
-        <button type="button" id="goat-share" class="bg-[var(--bbfc-blue)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2.5">
+        <button type="button" id="goat-share" class="bg-[var(--bbfc-blue)] text-white text-[15px] font-semibold rounded-[var(--bbfc-radius)] px-4 py-3">
           결과 공유
         </button>
-        <a href="${articleHref}" class="text-[13px] font-medium text-[var(--bbfc-ink)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-4 py-2.5">
+        <a href="${articleHref}" class="text-[15px] font-semibold text-[var(--bbfc-ink)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-4 py-3">
           이 선수의 역사 깊이 읽기
         </a>
-        <button type="button" id="goat-restart" class="text-[13px] text-[var(--bbfc-gray-1)] rounded-[var(--bbfc-radius)] px-4 py-2.5">
+        <button type="button" id="goat-restart" class="text-[15px] text-[var(--bbfc-gray-1)] rounded-[var(--bbfc-radius)] px-4 py-3">
           다시 하기
         </button>
       </div>
-      <p id="goat-share-msg" class="text-[12px] text-[var(--bbfc-gray-2)] mt-2" hidden>링크가 복사됐어요.</p>
+      <p id="goat-share-msg" class="text-[14px] text-[var(--bbfc-gray-2)] mt-2" hidden>링크가 복사됐어요.</p>
       <section class="goat-community" aria-labelledby="goat-community-title">
         <div class="goat-community__head">
           <div>
@@ -557,21 +557,21 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     }
     app.innerHTML = `
       <div class="text-center py-6 border-b border-[var(--bbfc-line)]">
-        <p class="text-[11px] text-[var(--bbfc-blue)]">공유된 결과</p>
-        <h2 class="text-[22px] font-medium text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
-        <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
+        <p class="text-[13px] font-bold text-[var(--bbfc-blue)]">공유된 결과</p>
+        <h2 class="text-[28px] md:text-[34px] font-semibold text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
+        <p class="text-[15px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
       </div>
       <div class="py-5">
-        <h3 class="text-[14px] font-medium text-[var(--bbfc-ink)] mb-2">4강</h3>
+        <h3 class="text-[17px] font-semibold text-[var(--bbfc-ink)] mb-2">4강</h3>
         <ul>
           ${final4
             .map(
-              (p) => `<li class="py-2 border-t border-[var(--bbfc-line)] first:border-t-0 text-[13.5px] ${p.id === winner.id ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink)]'}">${p.name}</li>`
+              (p) => `<li class="py-2.5 border-t border-[var(--bbfc-line)] first:border-t-0 text-[15px] ${p.id === winner.id ? 'text-[var(--bbfc-blue)] font-semibold' : 'text-[var(--bbfc-ink)]'}">${p.name}</li>`
             )
             .join('')}
         </ul>
       </div>
-      <button type="button" id="goat-play-same" class="bg-[var(--bbfc-blue)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2.5">
+      <button type="button" id="goat-play-same" class="bg-[var(--bbfc-blue)] text-white text-[15px] font-semibold rounded-[var(--bbfc-radius)] px-4 py-3">
         나도 이 대진으로 플레이하기
       </button>
     `;
@@ -660,38 +660,38 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
 </script>
 
 <style is:global>
-  .goat-round { font-size: 12px; font-weight: 700; color: var(--bbfc-blue); letter-spacing: .04em; }
-  .goat-progress { height: 3px; overflow: hidden; border-radius: 99px; background: #e8ecf2; }
+  .goat-round { font-size: 15px; font-weight: 800; color: var(--bbfc-blue); letter-spacing: .04em; }
+  .goat-progress { height: 5px; overflow: hidden; border-radius: 99px; background: #e8ecf2; }
   .goat-progress span { display: block; height: 100%; border-radius: inherit; background: var(--bbfc-blue); transition: width .3s ease; }
-  .goat-match-line { margin: 18px 0 12px; text-align: center; font-size: 18px; font-weight: 800; color: var(--bbfc-ink); }
-  .goat-arena { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; padding: 10px; overflow: hidden; border-radius: 22px; background: #091525; box-shadow: 0 18px 50px rgba(7, 19, 38, .18); }
-  .goat-card { position: relative; min-width: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.16); border-radius: 15px; background: #12243b; color: #fff; text-align: left; isolation: isolate; cursor: crosshair; transition: transform .18s cubic-bezier(.2,.8,.2,1), border-color .18s, box-shadow .18s, opacity .24s, filter .24s; }
+  .goat-match-line { margin: 22px 0 15px; text-align: center; font-size: clamp(21px,2.2vw,27px); font-weight: 850; color: var(--bbfc-ink); }
+  .goat-arena { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; padding: 12px; overflow: hidden; border-radius: 26px; background: #091525; box-shadow: 0 18px 50px rgba(7, 19, 38, .18); }
+  .goat-card { position: relative; min-width: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.18); border-radius: 18px; background: #12243b; color: #fff; text-align: left; isolation: isolate; cursor: crosshair; transition: transform .18s cubic-bezier(.2,.8,.2,1), border-color .18s, box-shadow .18s, opacity .24s, filter .24s; }
   .goat-card::after { content: ''; position: absolute; inset: 0; z-index: 4; pointer-events: none; background: linear-gradient(115deg, transparent 32%, rgba(255,255,255,.15) 49%, transparent 66%); transform: translateX(-120%); transition: transform .45s ease; }
   .goat-card:hover { z-index: 3; border-color: #74a9ff; transform: translateY(-5px) scale(1.012); box-shadow: 0 0 0 1px rgba(89,150,255,.25), 0 16px 35px rgba(0,0,0,.32); }
   .goat-card:hover::after { transform: translateX(120%); }
   .goat-card:focus-visible { outline: 3px solid #fff; outline-offset: -5px; }
-  .goat-card__media { position: relative; display: block; height: clamp(220px, 38vw, 400px); overflow: hidden; background: #1b314c; }
-  .goat-card__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--face-position-mobile,50% 28%); transform-origin:var(--face-position-mobile,50% 28%); scale:var(--face-scale-mobile,1); filter: grayscale(100%) contrast(1.06); transition: transform .28s ease, filter .25s ease; }
+  .goat-card__media { position: relative; display: block; height: clamp(300px, 35vw, 460px); overflow: hidden; background: #1b314c; }
+  .goat-card__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--face-position-mobile,50% 28%); transform-origin:var(--face-position-mobile,50% 28%); scale:var(--face-scale-mobile,1); filter: saturate(.82) contrast(1.06); transition: transform .28s ease, filter .25s ease; }
   .goat-card__focus-debug { display:none; position:absolute; z-index:4; left:8px; bottom:8px; padding:4px 6px; border-radius:5px; background:rgba(0,0,0,.78); color:#8bd5ff; font:700 10px/1.2 ui-monospace,monospace; }
   .goat-app--debug-photo-focus .goat-card__focus-debug { display:block; }
-  .goat-card:hover .goat-card__media img { transform: scale(1.035); filter: grayscale(35%) contrast(1.08); }
+  .goat-card:hover .goat-card__media img { transform: scale(1.035); filter: saturate(1.05) contrast(1.08); }
   .goat-card__media--empty { display: grid; place-items: center; background: radial-gradient(circle at 50% 32%, #345072 0, #192e48 37%, #102137 75%); }
   .goat-card__initial { font-size: clamp(70px, 13vw, 132px); font-weight: 900; color: rgba(255,255,255,.12); }
   .goat-card__waiting { position: absolute; bottom: 38px; font-size: 10px; color: rgba(255,255,255,.45); letter-spacing: .1em; }
   .goat-card__shade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 48%, rgba(5,13,24,.9) 100%); }
-  .goat-card__position { position: absolute; top: 12px; left: 12px; padding: 5px 7px; border: 1px solid rgba(255,255,255,.22); border-radius: 5px; background: rgba(5,15,28,.68); color: #9dc3ff; font-size: 10px; font-weight: 800; letter-spacing: .08em; backdrop-filter: blur(5px); }
-  .goat-card__body { position:relative; display:flex; min-height:250px; flex-direction:column; padding:22px 22px 24px; overflow:hidden; background:#12243b; }
+  .goat-card__position { position: absolute; top: 14px; left: 14px; padding: 7px 9px; border: 1px solid rgba(255,255,255,.24); border-radius: 7px; background: rgba(5,15,28,.7); color: #a9ccff; font-size: 12px; font-weight: 850; letter-spacing: .08em; backdrop-filter: blur(5px); }
+  .goat-card__body { position:relative; display:flex; min-height:300px; flex-direction:column; padding:26px 26px 28px; overflow:hidden; background:#12243b; }
   .goat-card__body::before { content:''; position:absolute; inset:0; background:var(--player-flag); opacity:.13; filter:saturate(.85); transform:scale(1.08); }
   .goat-card__body::after { content:''; position:absolute; inset:0; background:linear-gradient(110deg,rgba(9,24,42,.94),rgba(9,24,42,.68)); }
   .goat-card__body > * { position:relative; z-index:1; }
-  .goat-card__country { color:#b8c9dc; font-size:17px; font-weight:650; }
-  .goat-card__name { display: block; margin-top: 4px; color: #fff; font-size: clamp(17px, 2.4vw, 24px); line-height: 1.18; letter-spacing: -.03em; }
-  .goat-card__nickname { display:block; margin-top:14px; color:#91bdff; font-size:clamp(19px,2vw,24px); line-height:1.2; font-weight:850; }
-  .goat-card__greatness { display:block; margin-top:10px; color:rgba(255,255,255,.86); font-size:15px; line-height:1.5; font-weight:560; }
-  .goat-card__clubs { display:block; margin-top:auto; padding-top:18px; color:#a9bbcf; font-size:17px; line-height:1.35; white-space:normal; }
+  .goat-card__country { color:#c6d5e6; font-size:18px; font-weight:700; }
+  .goat-card__name { display: block; margin-top: 6px; color: #fff; font-size: clamp(27px, 3vw, 38px); line-height: 1.12; letter-spacing: -.035em; }
+  .goat-card__nickname { display:block; margin-top:17px; color:#91bdff; font-size:clamp(23px,2.3vw,30px); line-height:1.22; font-weight:850; }
+  .goat-card__greatness { display:block; margin-top:12px; color:rgba(255,255,255,.9); font-size:17px; line-height:1.55; font-weight:590; }
+  .goat-card__clubs { display:block; margin-top:auto; padding-top:22px; color:#b7c6d7; font-size:17px; line-height:1.45; font-weight:600; white-space:normal; }
   .goat-vs { position: absolute; z-index: 8; top: 42%; left: 50%; display: grid; width: 52px; height: 52px; place-items: center; border: 3px solid #091525; border-radius: 50%; background: #fff; transform: translate(-50%,-50%) rotate(-7deg); box-shadow: 0 8px 24px rgba(0,0,0,.28); pointer-events: none; }
   .goat-vs span { color: #0b1b2d; font-size: 16px; font-weight: 950; font-style: italic; }
-  .goat-credits { margin-top: 10px; color: var(--bbfc-gray-2); font-size: 10px; }
+  .goat-credits { margin-top: 12px; color: var(--bbfc-gray-2); font-size: 12px; }
   .goat-credits summary { width: fit-content; cursor: pointer; }
   .goat-credits a { display: block; width: fit-content; margin-top: 5px; color: var(--bbfc-gray-1); text-decoration: underline; text-underline-offset: 2px; }
   .goat-card__crosshair { position: absolute; z-index: 9; width: 34px; height: 34px; border: 1px solid rgba(126,177,255,.85); border-radius: 50%; opacity: 0; transform: translate(-50%,-50%) scale(1.4); pointer-events: none; transition: opacity .15s, transform .15s; }
@@ -710,26 +710,26 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-app--hit .goat-arena { animation: goat-shake .22s linear; }
   .goat-community { margin-top:32px; padding-top:26px; border-top:1px solid var(--bbfc-line); }
   .goat-community__head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; }
-  .goat-community__eyebrow { color:var(--bbfc-blue); font-size:11px; font-weight:800; letter-spacing:.06em; }
-  .goat-community__head h3 { margin-top:4px; color:var(--bbfc-ink); font-size:19px; font-weight:800; }
-  .goat-community__head a { flex:none; color:var(--bbfc-blue); font-size:12px; font-weight:750; }
-  .goat-winner-stats { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:14px; padding:16px; border-radius:14px; background:#0d2038; color:#dceaff; font-size:13px; }
+  .goat-community__eyebrow { color:var(--bbfc-blue); font-size:13px; font-weight:800; letter-spacing:.06em; }
+  .goat-community__head h3 { margin-top:4px; color:var(--bbfc-ink); font-size:23px; font-weight:800; }
+  .goat-community__head a { flex:none; color:var(--bbfc-blue); font-size:14px; font-weight:750; }
+  .goat-winner-stats { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:14px; padding:17px; border-radius:14px; background:#0d2038; color:#dceaff; font-size:15px; }
   .goat-winner-stats strong { color:#8dbbff; }
   .goat-comment-write { margin-top:22px; padding:18px; border:1px solid var(--bbfc-line); border-radius:16px; background:#fff; }
-  .goat-comment-write h3 { color:var(--bbfc-ink); font-size:16px; font-weight:800; }
-  .goat-comment-write > p { margin-top:3px; color:var(--bbfc-gray-1); font-size:12px; }
+  .goat-comment-write h3 { color:var(--bbfc-ink); font-size:19px; font-weight:800; }
+  .goat-comment-write > p { margin-top:4px; color:var(--bbfc-gray-1); font-size:14px; }
   .goat-comment-write form { display:grid; grid-template-columns:180px minmax(0,1fr) auto; gap:10px; align-items:end; margin-top:14px; }
-  .goat-comment-write label { display:grid; gap:5px; color:var(--bbfc-gray-1); font-size:11px; font-weight:700; }
-  .goat-comment-write input, .goat-comment-write textarea { width:100%; border:1px solid var(--bbfc-border); border-radius:9px; background:#fff; padding:10px 11px; color:var(--bbfc-ink); font-family:inherit; font-size:13px; font-weight:500; line-height:1.4; resize:vertical; }
+  .goat-comment-write label { display:grid; gap:6px; color:var(--bbfc-gray-1); font-size:13px; font-weight:700; }
+  .goat-comment-write input, .goat-comment-write textarea { width:100%; border:1px solid var(--bbfc-border); border-radius:9px; background:#fff; padding:11px 12px; color:var(--bbfc-ink); font-family:inherit; font-size:15px; font-weight:500; line-height:1.45; resize:vertical; }
   .goat-comment-write input:focus, .goat-comment-write textarea:focus { outline:2px solid #8bb9ff; outline-offset:1px; }
-  .goat-comment-write button { min-height:40px; border-radius:9px; background:var(--bbfc-blue); padding:0 17px; color:#fff; font-size:13px; font-weight:800; }
+  .goat-comment-write button { min-height:44px; border-radius:9px; background:var(--bbfc-blue); padding:0 18px; color:#fff; font-size:15px; font-weight:800; }
   .goat-comment-write button:disabled { cursor:not-allowed; opacity:.45; }
   .goat-comment-message { min-height:18px; }
   .goat-comment-list { margin-top:12px; }
   .goat-comment { padding:14px 2px; border-bottom:1px solid var(--bbfc-line); }
-  .goat-comment__heading { color:var(--bbfc-blue); font-size:12px; font-weight:800; }
-  .goat-comment__content { margin-top:4px; color:var(--bbfc-ink-2); font-size:13.5px; line-height:1.55; overflow-wrap:anywhere; }
-  .goat-comment--empty { color:var(--bbfc-gray-2); font-size:13px; }
+  .goat-comment__heading { color:var(--bbfc-blue); font-size:14px; font-weight:800; }
+  .goat-comment__content { margin-top:5px; color:var(--bbfc-ink-2); font-size:15px; line-height:1.6; overflow-wrap:anywhere; }
+  .goat-comment--empty { color:var(--bbfc-gray-2); font-size:15px; }
   @keyframes goat-impact { 0% { opacity: 1; transform: translate(-50%,-50%) scale(.2); } 100% { opacity: 0; transform: translate(-50%,-50%) scale(7); } }
   @keyframes goat-shake { 0%,100% { transform: translate(0); } 25% { transform: translate(-3px,2px); } 50% { transform: translate(3px,-1px); } 75% { transform: translate(-2px,-1px); } }
   @media (hover: hover) and (pointer: fine) {
@@ -748,15 +748,18 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   @media (max-width: 480px) {
     .goat-arena { gap: 7px; padding: 7px; border-radius: 17px; }
     .goat-card { border-radius: 12px; }
-    .goat-card__media { height: 235px; }
-    .goat-card__body { min-height:260px; padding:16px 12px 18px; }
-    .goat-card__country, .goat-card__clubs { font-size:15px; }
-    .goat-card__nickname { min-height:46px; font-size:19px; line-height:1.25; }
-    .goat-card__greatness { font-size:13px; line-height:1.45; }
+    .goat-card__media { height: 255px; }
+    .goat-card__body { min-height:290px; padding:18px 13px 20px; }
+    .goat-card__position { top:10px; left:10px; padding:6px 8px; font-size:11px; }
+    .goat-card__country { font-size:15px; line-height:1.35; }
+    .goat-card__name { margin-top:6px; font-size:22px; line-height:1.14; }
+    .goat-card__nickname { min-height:48px; margin-top:14px; font-size:20px; line-height:1.25; }
+    .goat-card__greatness { font-size:14px; line-height:1.5; }
+    .goat-card__clubs { padding-top:16px; font-size:15px; line-height:1.4; }
     .goat-vs { width: 42px; height: 42px; }
     .goat-vs span { font-size: 13px; }
     .goat-community__head { align-items:flex-start; }
-    .goat-community__head h3 { font-size:17px; }
+    .goat-community__head h3 { font-size:20px; }
     .goat-comment-write { padding:15px; }
     .goat-comment-write form { grid-template-columns:1fr; }
     .goat-comment-write button { width:100%; }
