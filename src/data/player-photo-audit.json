@@ -6904,34 +6904,34 @@
         "PSG/인터 마이애미 제외"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/messi.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/messi.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Leo Messi Argentina v Egypt 7 July 2026-1.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
@@ -6944,7 +6944,8 @@
         "dateTimeOriginal": "Taken on 7 July 2026, 11:58:26",
         "categories": "Personality rights warning|Self-published work|Information field template with formatting|Lionel Messi in 2026|United States photographs taken on 2026-07-07|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (Argentina v Egypt, 7 July 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "312ff9752397"
     },
     {
       "id": "cristiano",
@@ -6964,34 +6965,34 @@
         "사우디"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/cristiano.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/cristiano.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Cristiano Ronaldo Croatia v Portugal 2 July 2026-075 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
@@ -7004,7 +7005,8 @@
         "dateTimeOriginal": "2026-07-02 19:04:40",
         "categories": "Personality rights warning|Self-published work|Extracted images|Information field template with formatting|Cristiano Ronaldo in 2026|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (Croatia v Portugal, 2 July 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "dafd44c51e36"
     },
     {
       "id": "neymar",
@@ -7023,34 +7025,34 @@
         "알힐랄"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/neymar.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/neymar.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Neymar Junior Brazil V Morocco 13 June 2026-40.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
@@ -7063,7 +7065,8 @@
         "dateTimeOriginal": "2026-06-13 17:56:42",
         "categories": "Personality rights warning|Self-published work|Information field template with formatting|Neymar in 2026|Photos by Bryan Berlin|Brazil at the 2026 FIFA World Cup|WikiPortraits at 2026 FIFA World Cup (Brazil v Morocco, 13 June 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "473a0925596e"
     },
     {
       "id": "mbappe",
@@ -7082,34 +7085,34 @@
         "모나코 초기, 레알은 보조"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/mbappe.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/mbappe.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Kylian Mbappe France v Senegal 16 June 2026-391 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg",
@@ -7122,7 +7125,8 @@
         "dateTimeOriginal": "2026-06-16 15:54:08",
         "categories": "Personality rights warning|Self-published work|Extracted images|Information field template with formatting|Kylian Mbappé in 2026|Portrait photographs of Kylian Mbappé|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (France v Senegal, 16 June 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "5ffaa95373b8"
     },
     {
       "id": "lewandowski",
@@ -7141,34 +7145,34 @@
         "바르사 후기"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "63% 18.3%",
-        "laptop": "63% 19.3%",
-        "tablet": "63% 20.3%",
-        "mobile": "63% 21.3%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.21,
-        "laptop": 1.21,
-        "tablet": 1.18,
-        "mobile": 1.15
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/lewandowski.webp",
-      "sourceAuthor": "Светлана Бекетова",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Robert Lewandowski 2018, JAP-POL (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg",
@@ -7181,7 +7185,8 @@
         "dateTimeOriginal": "2018-06-30 23:26:33",
         "categories": "GFDL|2018 FIFA World Cup Match 47, Japan v Poland|Association football captain armbands|License migration redundant|Items with VRTS permission confirmed|Images with extracted images|Extracted images|Photos from soccer.ru|Robert Lewandowski in 2018",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "8d284e09874c"
     },
     {
       "id": "zlatan",
@@ -7201,34 +7206,34 @@
         "AC 밀란 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PSG-Shakhter15_(11).jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "48% 20%",
-        "laptop": "48% 21%",
-        "tablet": "48% 22%",
-        "mobile": "48% 23%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.28,
-        "laptop": 1.28,
-        "tablet": 1.25,
-        "mobile": 1.22
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/zlatan.webp",
-      "sourceAuthor": "Богдан Заяц",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:PSG-Shakhter15 (11).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:PSG-Shakhter15_(11).jpg",
@@ -7241,7 +7246,8 @@
         "dateTimeOriginal": "2015-10-01 18:33:10",
         "categories": "GFDL|License migration redundant|Zlatan Ibrahimović in 2015|Items with VRTS permission confirmed|Photos from football.ua|2015-09-30 Shakhtar Donetsk vs Paris Saint-Germain",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "939cb8e1702d"
     },
     {
       "id": "luis-suarez",
@@ -7262,34 +7268,34 @@
         "인터 마이애미"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_NE_Revolution_Inter_Miami_7.9.25-053_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/luis-suarez.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/luis-suarez.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Luis Suárez NE Revolution Inter Miami 7.9.25-053 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_NE_Revolution_Inter_Miami_7.9.25-053_(cropped).jpg",
@@ -7302,7 +7308,8 @@
         "dateTimeOriginal": "2025-07-09 19:40:23",
         "categories": "Personality rights warning|Self-published work|Extracted images|Luis Suárez in 2025|New England Revolution v Inter Miami CF, 9 July 2025|WikiPortraits at 2025 Major League Soccer season (New England Revolution v Inter Miami CF, 9 July 2025)|Photos by Bryan Berlin in July 2025",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "99a93cba46b7"
     },
     {
       "id": "modric",
@@ -7321,34 +7328,34 @@
         "말년 행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/modric.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/modric.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Luka Modric Croatia v Portugal 2 July 2026-055.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
@@ -7361,7 +7368,8 @@
         "dateTimeOriginal": "2026-07-02 18:56:25",
         "categories": "Personality rights warning|Self-published work|Information field template with formatting|Luka Modrić in 2026|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (Croatia v Portugal, 2 July 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "37a495ee9cc2"
     },
     {
       "id": "kroos",
@@ -7380,34 +7388,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Kroos_Real_Madrid_2021.jpg",
-      "license": "CC BY 3.0",
-      "status": "missing",
-      "notes": "현역 시기 인터뷰 사진으로 레알 마드리드·독일 대표팀 선수 사진 맥락을 확인하기 어려움.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/kroos.jpg",
-      "sourceAuthor": "https://www.youtube.com/@realmadrid",
+      "currentAsset": "/images/goat/players/kroos.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Toni Kroos Real Madrid 2021.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Toni_Kroos_Real_Madrid_2021.jpg",
@@ -7420,7 +7428,8 @@
         "dateTimeOriginal": "2021-03-05",
         "categories": "Media from YouTube|Toni Kroos|License review needed",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "2975dbecb46a"
     },
     {
       "id": "sergio-ramos",
@@ -7439,34 +7448,34 @@
         "세비야 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sergio_Ramos_Interview_2021_(cropped).jpg",
-      "license": "CC BY 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/sergio-ramos.jpg",
-      "sourceAuthor": "Real Madrid",
+      "currentAsset": "/images/goat/players/sergio-ramos.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Sergio Ramos Interview 2021 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Sergio_Ramos_Interview_2021_(cropped).jpg",
@@ -7479,7 +7488,8 @@
         "dateTimeOriginal": "2021-03-11",
         "categories": "Media from YouTube|License review needed|YouTube review needed|Extracted images|Sergio Ramos in 2021",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "12a882530eb1"
     },
     {
       "id": "salah",
@@ -7498,34 +7508,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/salah.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/salah.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Mohamed Salah Argentina v Egypt 7 July 2026-163 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
@@ -7538,7 +7548,8 @@
         "dateTimeOriginal": "2026-07-07 12:18:48",
         "categories": "Mohamed Salah|Personality rights warning|Self-published work|Extracted images|Information field template with formatting|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (Argentina v Egypt, 7 July 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "0e1b60d177a8"
     },
     {
       "id": "van-dijk",
@@ -7557,34 +7568,34 @@
         "말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20160604_AUT_NED_8876_(cropped).jpg",
-      "license": "CC BY-SA 3.0 at",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/van-dijk.jpg",
-      "sourceAuthor": "Ailura",
+      "currentAsset": "/images/goat/players/van-dijk.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:20160604 AUT NED 8876 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:20160604_AUT_NED_8876_(cropped).jpg",
@@ -7597,7 +7608,8 @@
         "dateTimeOriginal": "2016-06-04 20:26:30",
         "categories": "Virgil van Dijk|Personality rights warning|Supported by Wikimedia Österreich|Extracted images|Austria - Netherlands, 4 Juni 2016|Uploaded with LrMediaWiki|Austria photographs taken on 2016-06-04|People images Supported by Wikimedia Österreich in 2016|2016 Photographs by Ailura|Sports by Ailura",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f2a9f5e71041"
     },
     {
       "id": "de-bruyne",
@@ -7616,34 +7628,34 @@
         "말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/de-bruyne.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/de-bruyne.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Kevin De Bruyne USMNT v Belgium Mar 28 2026-64 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
@@ -7656,7 +7668,8 @@
         "dateTimeOriginal": "2026-03-28 15:31:25",
         "categories": "Kevin De Bruyne|Personality rights warning|Self-published work|Extracted images|WikiPortraits photos missing depicts statements|Photos by Bryan Berlin|WikiPortraits at 2026 International Soccer Matches|WikiPortraits at 2026 International Soccer Matches (USMNT v Belgium, 28 March 2026)",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "c85ce640f506"
     },
     {
       "id": "neuer",
@@ -7675,34 +7688,34 @@
         "말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D0%B2%D0%B0%D1%80%D1%96%D1%8F%C2%BB_1-2._23_%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0_2021_%D1%80%D0%BE%D0%BA%D1%83_%E2%80%94_1297009.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/neuer.jpg",
-      "sourceAuthor": "Olga Shcherbytska",
+      "currentAsset": "/images/goat/players/neuer.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Матч «Динамо» - «Баварія» 1-2. 23 листопада 2021 року — 1297009.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D0%B2%D0%B0%D1%80%D1%96%D1%8F%C2%BB_1-2._23_%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0_2021_%D1%80%D0%BE%D0%BA%D1%83_%E2%80%94_1297009.jpg",
@@ -7715,7 +7728,8 @@
         "dateTimeOriginal": "2021-11-23",
         "categories": "Manuel Neuer|Images with watermarks|Items with VRTS permission confirmed|Photos from dynamomania.com|2021-11-23 Dynamo Kyiv vs Bayern München|Photographs by Olga Shcherbytska",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "46d4d45a3a10"
     },
     {
       "id": "thomas-muller",
@@ -7734,34 +7748,34 @@
         "행사"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_M%C3%BCller_2013.jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "The head remains clipped at the top across breakpoints.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "9.2% 11.4%",
-        "laptop": "9.2% 12.4%",
-        "tablet": "9.2% 13.4%",
-        "mobile": "9.2% 14.4%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/thomas-muller.jpg",
-      "sourceAuthor": "Дмитрий Садовников",
+      "currentAsset": "/images/goat/players/thomas-muller.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Thomas Müller 2013.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Thomas_M%C3%BCller_2013.jpg",
@@ -7774,7 +7788,8 @@
         "dateTimeOriginal": "2013-11-30 15:21:55",
         "categories": "GFDL|License migration redundant|Items with VRTS permission confirmed|Photos from soccer.ru|Thomas Müller in 2013",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "fa29bc4f8b78"
     },
     {
       "id": "benzema",
@@ -7793,34 +7808,34 @@
         "초기 리옹"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karim_Benzema_Pick.jpg",
-      "license": "CC BY 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/benzema.jpg",
-      "sourceAuthor": "Zack",
+      "currentAsset": "/images/goat/players/benzema.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Karim Benzema Pick.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Karim_Benzema_Pick.jpg",
@@ -7833,7 +7848,8 @@
         "dateTimeOriginal": "2024-08-18",
         "categories": "Media from YouTube|Karim Benzema in 2024",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "0094fdac91ed"
     },
     {
       "id": "pirlo",
@@ -7851,34 +7867,34 @@
         "유벤투스는 대체 허용, MLS 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/pirlo.jpg",
-      "sourceAuthor": "Clément Bucco-Lechat",
+      "currentAsset": "/images/goat/players/pirlo.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:20150616 - Portugal - Italie - Genève - Andrea Pirlo (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg",
@@ -7891,7 +7907,8 @@
         "dateTimeOriginal": "2015-06-16 19:22:40",
         "categories": "Extracted images|All media supported by Wikimedia CH|Files by Pleclown|Andrea Pirlo in 2015|Friendly association football match Italy vs Portugal (2015)|Sport files by Pleclown|Portugal - Italia 16 June 2015 - Supported by Wikimedia CH",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "b38eca8b27ed"
     },
     {
       "id": "son-heung-min",
@@ -7910,34 +7927,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BFA_2023_-2_Heung-Min_Son_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "목표 전성기 구간 이후 촬영된 시상 관련 사진.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/son-heung-min.jpg",
-      "sourceAuthor": "Ujishadow",
+      "currentAsset": "/images/goat/players/son-heung-min.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:BFA 2023 -2 Heung-Min Son (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:BFA_2023_-2_Heung-Min_Son_(cropped).jpg",
@@ -7950,7 +7967,8 @@
         "dateTimeOriginal": "2024-05-16 09:54:13",
         "categories": "Extracted images|Son Heung-min in 2024",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "3c8dd19beecc"
     },
     {
       "id": "kim-min-jae",
@@ -7968,34 +7986,34 @@
         "바이에른은 대체 허용, 중국/튀르키예 초기"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_(2026-01-06_Testspiel)_39.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/kim-min-jae.jpg",
-      "sourceAuthor": "Werner100359",
+      "currentAsset": "/images/goat/players/kim-min-jae.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:FC RB Salzburg gegen FC Bayern München (2026-01-06 Testspiel) 39.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_(2026-01-06_Testspiel)_39.jpg",
@@ -8008,7 +8026,8 @@
         "dateTimeOriginal": "2026-01-06 16:59:56",
         "categories": "Jonathan Tah|Self-published work|Images with extracted images|Moussa Kounfolo Yeo in 2026|Tom Bischof|Kim Min-jae (footballer) in 2026|FC RB Salzburg gegen FC Bayern München (2026-01-06)|Aleksandar Pavlović|Konrad Laimer in 2026|Felipe Chávez|Enrique Aguilar in 2026|Wals-Siezenheim photographs taken on 2026-01-06",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "d833160db7d1"
     },
     {
       "id": "rodri",
@@ -8027,34 +8046,34 @@
         "부상 이후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rodri_Argentina_v_Spain_19_July_2026-187_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/rodri.jpg",
-      "sourceAuthor": "Bryan Berlin",
+      "currentAsset": "/images/goat/players/rodri.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Rodri Argentina v Spain 19 July 2026-187 (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Rodri_Argentina_v_Spain_19_July_2026-187_(cropped).jpg",
@@ -8067,7 +8086,8 @@
         "dateTimeOriginal": "2026-07-19 16:53:41",
         "categories": "Personality rights warning|Creative Commons Attribution-Share Alike missing SDC copyright status|Self-published work|Extracted images|Creative Commons Attribution-Share Alike 4.0 missing SDC copyright license|Self-published work missing SDC copyright license|WikiPortraits photos missing depicts statements|Photos by Bryan Berlin|WikiPortraits at 2026 FIFA World Cup (Argentina v Spain, 19 July 2026)|Rodrigo Hernández Cascante in 2026",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f97e1c9a2930"
     },
     {
       "id": "dani-alves",
@@ -8085,34 +8105,34 @@
         "유벤투스/PSG/상파울루 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:07_07_2019_Final_da_Copa_Am%C3%A9rica_2019_(48226649586)_(cropped).jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/dani-alves.jpg",
-      "sourceAuthor": "Palácio do Planalto from Brasilia, Brasil",
+      "currentAsset": "/images/goat/players/dani-alves.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:07 07 2019 Final da Copa América 2019 (48226649586) (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:07_07_2019_Final_da_Copa_Am%C3%A9rica_2019_(48226649586)_(cropped).jpg",
@@ -8125,7 +8145,8 @@
         "dateTimeOriginal": "2019-07-07 19:19",
         "categories": "Copa América 2019 Final|Extracted images|Sportspeople with tattoos|Photographs by Clauber Cleber Caetano|Dani Alves in 2019",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "9b8cae6f5a2e"
     }
   ]
 }
