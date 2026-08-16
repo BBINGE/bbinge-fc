@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import io
 import json
 import unicodedata
@@ -96,7 +97,9 @@ with zipfile.ZipFile(args.zip_path) as archive:
             raise ValueError(f"Unmatched player filename: {member.filename}")
 
         destination = OUTPUT_DIR / f"{player_id}.webp"
-        with Image.open(io.BytesIO(archive.read(member))) as image:
+        source_bytes = archive.read(member)
+        photo_version = hashlib.sha256(source_bytes).hexdigest()[:12]
+        with Image.open(io.BytesIO(source_bytes)) as image:
             image = ImageOps.exif_transpose(image).convert("RGB")
             image.thumbnail((1800, 2400), Image.Resampling.LANCZOS)
             image.save(destination, "WEBP", quality=88, method=6)
@@ -109,6 +112,7 @@ with zipfile.ZipFile(args.zip_path) as archive:
             "status": "user-provided",
             "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
             "currentAsset": f"/images/goat/players/{player_id}.webp",
+            "photoVersion": photo_version,
             "sourceAuthor": "사용자 제공",
             "photoPosition": position,
             "photoScale": scale,
@@ -122,7 +126,7 @@ with zipfile.ZipFile(args.zip_path) as archive:
             "mobileChecked": args.mark_focus_reviewed,
         })
         portraits[player_id].update({
-            "src": f"/images/goat/players/{player_id}.webp",
+            "src": f"/images/goat/players/{player_id}.webp?v={photo_version}",
             "author": "사용자 제공",
             "license": "출처 및 라이선스 확인 필요",
             "commons": "",

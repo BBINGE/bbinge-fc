@@ -21,7 +21,10 @@ const auditedPhotos = Object.fromEntries(
     .map((entry) => [entry.id, entry])
 );
 const playerImages: Record<string, string> = Object.fromEntries(
-  Object.entries(auditedPhotos).map(([id, entry]) => [id, entry.currentAsset])
+  Object.entries(auditedPhotos).map(([id, entry]) => [
+    id,
+    entry.photoVersion ? `${entry.currentAsset}?v=${entry.photoVersion}` : entry.currentAsset,
+  ])
 );
 const playerCredits = playerImageFile.portraits;
 const flagBackgrounds: Record<string, string> = {
