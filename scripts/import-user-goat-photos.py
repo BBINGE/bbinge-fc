@@ -29,16 +29,7 @@ PLAYER_IDS = {
     "xdhtyum233bgrdgu3dbu8p-1200-80": "keegan",
 }
 
-SKIP_FILENAMES = {
-    "berti vogts": "감독 시기로 보이는 사진",
-    "carlos alberto torres": "허용 전성기 구단이 아닌 New York Cosmos 사진",
-    "enzo francescoli": "목표 전성기보다 뒤의 River Plate 후기 사진",
-    "kenny dalglish": "뒷모습이라 반응형 얼굴 포커싱 불가",
-    "didier drogba": "목표 전성기 이후인 Chelsea 2014–15 우승 사진",
-    "roberto baggio": "등을 보인 구도라 반응형 얼굴 포커싱 불가",
-    "samuel eto'o": "목표 전성기보다 훨씬 뒤의 Cameroon 사진",
-    "thierry henry": "목표 전성기 이후인 Arsenal 복귀 시기 사진",
-}
+SKIP_FILENAMES = {}
 
 PREFERRED_CLUB_ADDITIONS = {
     "thuram": "파르마 칼초 1913",
@@ -82,6 +73,14 @@ FOCUS = {
     "kahn": (42, 19, 1.3),
     "ronaldinho": (56, 19, 1.22),
     "gerrard": (72, 19, 1.28),
+    "vogts": (50, 32, 1.0),
+    "carlos-alberto": (50, 20, 1.12),
+    "francescoli": (50, 20, 1.12),
+    "dalglish": (50, 18, 1.3),
+    "drogba": (54, 46, 1.0),
+    "baggio": (50, 34, 1.0),
+    "etoo": (55, 18, 1.12),
+    "henry": (50, 18, 1.0),
 }
 
 

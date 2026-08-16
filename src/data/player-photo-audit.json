@@ -3204,34 +3204,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carlos_alberto_cosmos.jpg",
-      "license": "Public domain",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 20%",
+        "laptop": "50% 21%",
+        "tablet": "50% 22%",
+        "mobile": "50% 23%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.12,
+        "laptop": 1.12,
+        "tablet": 1.09,
+        "mobile": 1.06
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/carlos-alberto.jpg",
-      "sourceAuthor": "Unknown author Unknown author",
+      "currentAsset": "/images/goat/players/carlos-alberto.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Carlos alberto cosmos.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Carlos_alberto_cosmos.jpg",
@@ -3244,7 +3244,8 @@
         "dateTimeOriginal": "1978",
         "categories": "PD-AR-Photo|PD US no notice 1989|Template Unknown (author)|El Gráfico, 1978|Carlos Alberto Torres in 1978|PD-US missing SDC copyright status|Association football in the United States in 1978",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "ce3f0830bb6d"
     },
     {
       "id": "maradona",
@@ -3442,34 +3443,34 @@
         "감독 시절"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kenny_Dalglish_1980s_(cropped).jpg",
-      "license": "CC BY-SA 2.0",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "52.3% 14%",
-        "laptop": "52.3% 15%",
-        "tablet": "52.3% 16%",
-        "mobile": "52.3% 17%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.3,
+        "laptop": 1.3,
+        "tablet": 1.27,
+        "mobile": 1.24
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/dalglish.webp",
-      "sourceAuthor": "Jim Wall from Burntwood, UK",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Kenny Dalglish 1980s (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Kenny_Dalglish_1980s_(cropped).jpg",
@@ -3482,7 +3483,8 @@
         "dateTimeOriginal": "2019-11-10 20:45",
         "categories": "Kenny Dalglish|Extracted images",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "354da3842e84"
     },
     {
       "id": "keegan",
@@ -3980,34 +3982,34 @@
         "일본 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_1984.jpg",
-      "license": "Public domain",
-      "status": "ready",
-      "notes": "Source, license, target era and responsive face crop were manually reviewed.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "52.5% 42.7%",
-        "laptop": "52.5% 43.7%",
-        "tablet": "52.5% 44.7%",
-        "mobile": "52.5% 45.7%"
+        "desktop": "50% 20%",
+        "laptop": "50% 21%",
+        "tablet": "50% 22%",
+        "mobile": "50% 23%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.12,
+        "laptop": 1.12,
+        "tablet": 1.09,
+        "mobile": 1.06
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": true,
-        "licenseConfirmed": true,
+        "licenseConfirmed": false,
         "desktopChecked": true,
         "laptopChecked": true,
         "tabletChecked": true,
         "mobileChecked": true
       },
       "currentAsset": "/images/goat/players/francescoli.webp",
-      "sourceAuthor": "Unknown author Unknown author",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Enzo Francescoli 1984.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_1984.jpg",
@@ -4020,7 +4022,8 @@
         "dateTimeOriginal": "1984",
         "categories": "PD-AR-Photo|PD US no notice 1989|Template Unknown (author)|El Gráfico, 1984|Enzo Francescoli in 1984",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "f7398939b7c7"
     },
     {
       "id": "figueroa",
@@ -4220,34 +4223,34 @@
         "감독"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berti_Vogts_1_(cropped).JPG",
-      "license": "CC BY-SA 3.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 32%",
+        "laptop": "50% 33%",
+        "tablet": "50% 34%",
+        "mobile": "50% 35%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/vogts.jpg",
-      "sourceAuthor": "Eminn",
+      "currentAsset": "/images/goat/players/vogts.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Berti Vogts 1 (cropped).JPG",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Berti_Vogts_1_(cropped).JPG",
@@ -4260,7 +4263,8 @@
         "dateTimeOriginal": "2014-02-10 16:39:32",
         "categories": "Berti Vogts|Self-published work|Extracted images",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "0716342a2dcc"
     },
     {
       "id": "zidane",
@@ -4338,34 +4342,34 @@
         "바르사/MLS 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italy_vs_France_-_FIFA_World_Cup_2006_final_-_Thierry_Henry.jpg",
-      "license": "CC BY 2.0",
-      "status": "missing",
-      "notes": "The downward-facing action pose does not provide a stable facial profile.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "31.2% 13.8%",
-        "laptop": "31.2% 14.8%",
-        "tablet": "31.2% 15.8%",
-        "mobile": "31.2% 16.8%"
+        "desktop": "50% 18%",
+        "laptop": "50% 19%",
+        "tablet": "50% 20%",
+        "mobile": "50% 21%"
       },
       "photoScale": {
-        "desktop": 1.55,
-        "laptop": 1.55,
-        "tablet": 1.52,
-        "mobile": 1.49
+        "desktop": 1.0,
+        "laptop": 1.0,
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
         "identityConfirmed": true,
         "eraConfirmed": true,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/henry.jpg",
-      "sourceAuthor": "Original: David Ruddell / Derivative work: Danyele",
+      "currentAsset": "/images/goat/players/henry.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Italy vs France - FIFA World Cup 2006 final - Thierry Henry.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Italy_vs_France_-_FIFA_World_Cup_2006_final_-_Thierry_Henry.jpg",
@@ -4378,7 +4382,8 @@
         "dateTimeOriginal": "2006-07-10 04:00:33",
         "categories": "Final of the 2006 FIFA World Cup|Retouched pictures|Created with Adobe Photoshop Elements|Franck Ribéry|France at the 2006 FIFA World Cup|Extracted images|Thierry Henry in 2006|Number 22 on association football kits|Number 12 on association football kits",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "aa5fe93a80d9"
     },
     {
       "id": "cantona",
@@ -5238,34 +5243,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "50% 34%",
+        "laptop": "50% 35%",
+        "tablet": "50% 36%",
+        "mobile": "50% 37%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/baggio.jpg",
-      "sourceAuthor": "AbolfaZl0990",
+      "currentAsset": "/images/goat/players/baggio.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:روبرتو باجو (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_(cropped).jpg",
@@ -5278,7 +5283,8 @@
         "dateTimeOriginal": "2023-08-27 23:21:36",
         "categories": "Roberto Baggio|Self-published work|Extracted images",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "12ca6078a448"
     },
     {
       "id": "batistuta",
@@ -6314,34 +6320,34 @@
         "은퇴 후"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "54% 46%",
+        "laptop": "54% 47%",
+        "tablet": "54% 48%",
+        "mobile": "54% 49%"
       },
       "photoScale": {
         "desktop": 1.0,
         "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "tablet": 1,
+        "mobile": 1
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/drogba.jpg",
-      "sourceAuthor": "Y.Leclercq©",
+      "currentAsset": "/images/goat/players/drogba.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Didier Drogba (2019) (cropped).jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg",
@@ -6354,7 +6360,8 @@
         "dateTimeOriginal": "2019-06-30 16:09:07",
         "categories": "Richard Mille|Didier Drogba|Self-published work|Images with extracted images|Extracted images|Chantilly Arts & Elegance Richard Mille 2019",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "751c478de66e"
     },
     {
       "id": "etoo",
@@ -6373,34 +6380,34 @@
         "러시아/터키 말년"
       ],
       "commonCriteria": "현역 선수 시절만 · 얼굴 식별 가능 · 전성기 유니폼 우선 · 은퇴 후/감독/행사 사진 금지",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg",
-      "license": "CC BY-SA 4.0",
-      "status": "missing",
-      "notes": "기존 사진은 목표 전성기 연도와 일치가 확인되지 않아 연결 금지. 새 후보 필요.",
+      "sourceUrl": "",
+      "license": "사용자 제공 · 출처 및 라이선스 확인 필요",
+      "status": "user-provided",
+      "notes": "사용자가 선수 시절 사진으로 제공. 화면 적용 완료, 원본 출처와 라이선스 확인 대기.",
       "photoPosition": {
-        "desktop": "50% 22%",
-        "laptop": "50% 24%",
-        "tablet": "50% 26%",
-        "mobile": "50% 28%"
+        "desktop": "55% 18%",
+        "laptop": "55% 19%",
+        "tablet": "55% 20%",
+        "mobile": "55% 21%"
       },
       "photoScale": {
-        "desktop": 1.0,
-        "laptop": 1.0,
-        "tablet": 1.0,
-        "mobile": 1.0
+        "desktop": 1.12,
+        "laptop": 1.12,
+        "tablet": 1.09,
+        "mobile": 1.06
       },
       "review": {
-        "identityConfirmed": false,
+        "identityConfirmed": true,
         "eraConfirmed": false,
         "clubOrNationalTeamConfirmed": false,
-        "licenseConfirmed": true,
-        "desktopChecked": false,
-        "laptopChecked": false,
-        "tabletChecked": false,
-        "mobileChecked": false
+        "licenseConfirmed": false,
+        "desktopChecked": true,
+        "laptopChecked": true,
+        "tabletChecked": true,
+        "mobileChecked": true
       },
-      "currentAsset": "/images/goat/players/etoo.jpg",
-      "sourceAuthor": "BACHELOR45",
+      "currentAsset": "/images/goat/players/etoo.webp",
+      "sourceAuthor": "사용자 제공",
       "sourceVerification": {
         "pageTitle": "File:Sammuel Eto'o Fils 02.jpg",
         "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg",
@@ -6413,7 +6420,8 @@
         "dateTimeOriginal": "2023-02-11 22:30:43",
         "categories": "Football|Samuel Eto'o|Self-published work",
         "verifiedAt": "2026-08-15"
-      }
+      },
+      "photoVersion": "cf151979e2b8"
     },
     {
       "id": "xavi",

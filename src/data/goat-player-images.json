@@ -289,11 +289,11 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "carlos-alberto": {
-      "src": "/images/goat/players/carlos-alberto.jpg",
+      "src": "/images/goat/players/carlos-alberto.webp?v=ce3f0830bb6d",
       "wikidata": "https://www.wikidata.org/wiki/Q295262",
-      "commons": "https://commons.wikimedia.org/wiki/File:Carlos_alberto_cosmos.jpg",
-      "author": "Unknown author Unknown author",
-      "license": "Public domain"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "maradona": {
       "src": "/images/goat/players/maradona.webp?v=1a8f6401b518",
@@ -317,11 +317,11 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "dalglish": {
-      "src": "/images/goat/players/dalglish.webp",
+      "src": "/images/goat/players/dalglish.webp?v=354da3842e84",
       "wikidata": "https://www.wikidata.org/wiki/Q187198",
-      "commons": "https://commons.wikimedia.org/wiki/File:Kenny_Dalglish_1980s_(cropped).jpg",
-      "author": "Jim Wall from Burntwood, UK",
-      "license": "CC BY-SA 2.0"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "lineker": {
       "src": "/images/goat/players/lineker.webp?v=e397d91ac7ff",
@@ -373,11 +373,11 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "francescoli": {
-      "src": "/images/goat/players/francescoli.webp",
+      "src": "/images/goat/players/francescoli.webp?v=f7398939b7c7",
       "wikidata": "https://www.wikidata.org/wiki/Q210083",
-      "commons": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_1984.jpg",
-      "author": "Unknown author Unknown author",
-      "license": "Public domain"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "cha-bum-kun": {
       "src": "/images/goat/players/cha-bum-kun.webp?v=bb179d077902",
@@ -401,11 +401,11 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "henry": {
-      "src": "/images/goat/players/henry.jpg",
+      "src": "/images/goat/players/henry.webp?v=aa5fe93a80d9",
       "wikidata": "https://www.wikidata.org/wiki/Q45901",
-      "commons": "https://commons.wikimedia.org/wiki/File:Italy_vs_France_-_FIFA_World_Cup_2006_final_-_Thierry_Henry.jpg",
-      "author": "Original: David Ruddell / Derivative work: Danyele",
-      "license": "CC BY 2.0"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "cantona": {
       "src": "/images/goat/players/cantona.webp?v=e760d325c312",
@@ -499,11 +499,11 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "baggio": {
-      "src": "/images/goat/players/baggio.jpg",
+      "src": "/images/goat/players/baggio.webp?v=12ca6078a448",
       "wikidata": "https://www.wikidata.org/wiki/Q67964",
-      "commons": "https://commons.wikimedia.org/wiki/File:%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_(cropped).jpg",
-      "author": "AbolfaZl0990",
-      "license": "CC BY-SA 4.0"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "batistuta": {
       "src": "/images/goat/players/batistuta.webp?v=0482fd0dae4f",
@@ -618,18 +618,18 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "drogba": {
-      "src": "/images/goat/players/drogba.jpg",
+      "src": "/images/goat/players/drogba.webp?v=751c478de66e",
       "wikidata": "https://www.wikidata.org/wiki/Q48892",
-      "commons": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg",
-      "author": "Y.Leclercq©",
-      "license": "CC BY-SA 4.0"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "etoo": {
-      "src": "/images/goat/players/etoo.jpg",
+      "src": "/images/goat/players/etoo.webp?v=cf151979e2b8",
       "wikidata": "https://www.wikidata.org/wiki/Q1255625",
-      "commons": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg",
-      "author": "BACHELOR45",
-      "license": "CC BY-SA 4.0"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "xavi": {
       "src": "/images/goat/players/xavi.webp?v=c28a17abf511",
@@ -842,11 +842,11 @@
       "license": "출처 및 라이선스 확인 필요"
     },
     "vogts": {
-      "src": "/images/goat/players/vogts.jpg",
+      "src": "/images/goat/players/vogts.webp?v=0716342a2dcc",
       "wikidata": "https://www.wikidata.org/wiki/Q828203",
-      "commons": "https://commons.wikimedia.org/wiki/File:Berti_Vogts_1_(cropped).JPG",
-      "author": "Eminn",
-      "license": "CC BY-SA 3.0"
+      "commons": "",
+      "author": "사용자 제공",
+      "license": "출처 및 라이선스 확인 필요"
     },
     "rijkaard": {
       "src": "/images/goat/players/rijkaard.webp?v=e75c6b880c94",
