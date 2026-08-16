@@ -3,6 +3,7 @@ import Layout from '../../../../layouts/Layout.astro';
 import ShareButtons from '../../../../components/ShareButtons.astro';
 import ContentCover from '../../../../components/ContentCover.astro';
 import RelatedAssets from '../../../../components/RelatedAssets.astro';
+import ArticleByline from '../../../../components/ArticleByline.astro';
 import { categories, getArticlePath } from '../../../../config/categories';
 import { site } from '../../../../config/site';
 import { archiveBranches } from '../../../../data/archive';
@@ -76,6 +77,7 @@ const relatedAssets = entry.data.relatedGroup
       <p>{entry.data.year} · {archiveIndex.label}</p>
       <h1>{entry.data.title}</h1>
       <span>{entry.data.description}</span>
+      <ArticleByline pubDate={entry.data.pubDate} updatedDate={entry.data.updatedDate} />
     </header>
     <ContentCover
       src={entry.data.coverImage}
@@ -140,6 +142,7 @@ const relatedAssets = entry.data.relatedGroup
   .article-header > p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
   .article-header h1 { margin-top: 14px; font-size: clamp(34px, 5.3vw, 55px); line-height: 1.12; font-weight: 700; letter-spacing: -.055em; }
   .article-header > span { display: block; max-width: 620px; margin-top: 22px; font-size: 14px; line-height: 1.7; color: var(--bbfc-gray-1); }
+  .article-header :global(.article-byline) { margin-top: 18px; }
   .archive-body { padding-top: 58px; font-family: var(--font-sans); font-size: 18px; line-height: 1.92; color: var(--bbfc-ink); word-break: keep-all; overflow-wrap: break-word; }
   .archive-body :global(*) { font-family: inherit; }
   .archive-body :global(h2) { margin: 82px 0 25px; padding-top: 20px; border-top: 2px solid var(--bbfc-ink); font-size: 30px; line-height: 1.3; font-weight: 680; letter-spacing: -.04em; }

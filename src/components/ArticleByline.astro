@@ -1,0 +1,36 @@
+---
+interface Props {
+  pubDate: Date;
+  updatedDate?: Date;
+  readingMinutes?: number;
+}
+
+const { pubDate, updatedDate, readingMinutes } = Astro.props;
+const formatDate = (date: Date) => date.toLocaleDateString('ko-KR');
+---
+
+<div class="article-byline" aria-label="글 작성 정보">
+  <a href="/about/" rel="author">박성호(삥이)</a>
+  <span aria-hidden="true">·</span>
+  <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+  {updatedDate && (
+    <>
+      <span aria-hidden="true">·</span>
+      <span>업데이트 <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time></span>
+    </>
+  )}
+  {readingMinutes && (
+    <>
+      <span aria-hidden="true">·</span>
+      <span>{readingMinutes}분 읽기</span>
+    </>
+  )}
+  <span aria-hidden="true">·</span>
+  <a href="/editorial-policy/">편집·출처 원칙</a>
+</div>
+
+<style>
+  .article-byline { display:flex; flex-wrap:wrap; align-items:center; gap:5px 7px; font-size:12px; line-height:1.6; color:var(--bbfc-gray-2); }
+  .article-byline a { color:var(--bbfc-ink-2); text-decoration:underline; text-decoration-color:var(--bbfc-gray-3); text-underline-offset:3px; }
+  .article-byline a:hover { color:var(--bbfc-blue-strong); text-decoration-color:var(--bbfc-blue); }
+</style>

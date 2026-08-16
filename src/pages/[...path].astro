@@ -13,6 +13,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import { categories, categoryList, getAncestorChain, getArticlePath, getCategoryPath, getChildren } from '../config/categories';
 import ShareButtons from '../components/ShareButtons.astro';
 import ContentCover from '../components/ContentCover.astro';
+import ArticleByline from '../components/ArticleByline.astro';
 import RelatedAssets from '../components/RelatedAssets.astro';
 import { archiveBranches } from '../data/archive';
 
@@ -188,9 +189,13 @@ if (props.kind === 'category') {
       <article>
         <span class="text-[11px] text-[var(--bbfc-blue)]">{articleView.meta.label}</span>
         <h1 class="text-[30px] md:text-[42px] font-semibold mt-3 mb-4 leading-[1.2] tracking-[-0.035em] text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
-        <p class="text-[13px] text-[var(--bbfc-gray-2)] mb-6">
-          {articleView.entry.data.pubDate.toLocaleDateString('ko-KR')} · {articleView.readingMinutes}분 읽기
-        </p>
+        <div class="mb-6">
+          <ArticleByline
+            pubDate={articleView.entry.data.pubDate}
+            updatedDate={articleView.entry.data.updatedDate}
+            readingMinutes={articleView.readingMinutes}
+          />
+        </div>
         {articleView.entry.data.coverImage && (
           <ContentCover
             src={articleView.entry.data.coverImage}
