@@ -44,6 +44,10 @@ relatedGroup: 'fifa-world-cup-1930'
 
 1930년 대회에는 오늘날의 골든볼·골든글러브·공식 팀 오브 더 토너먼트 시상 체계가 없었다. 아래 명단은 당시 FIFA가 폐막식에서 발표한 공식 수상자 목록이 아니라, 후대의 월드컵 회고와 통계 데이터베이스에서 공통적으로 반복되는 올스타 팀이다. 코파 아메리카 초창기의 ‘최우수 선수’ 기록과 마찬가지로, 제도의 역사를 현재에서 과거로 소급하지 않으면서 후대가 무엇을 대회의 대표 활약으로 기억했는지를 살피는 자료에 가깝다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
+### 명단을 읽는 법
+
+대회의 당대 명칭은 제1회 세계축구선수권대회<span class="foreign-note" lang="es-UY">(1er Campeonato Mundial de Fútbol; 첫 번째 세계축구선수권대회)</span>였다. 아래의 `GK`는 골키퍼<span class="foreign-note" lang="en">(goalkeeper)</span>, `FB`는 풀백<span class="foreign-note" lang="en">(full-back)</span>, `RH·CH·LH`는 오른쪽·중앙·왼쪽 하프<span class="foreign-note" lang="en">(right·centre·left half)</span>, `CF`는 센터 포워드<span class="foreign-note" lang="en">(centre-forward)</span>를 뜻한다. 오늘날의 포백과 미드필더를 그대로 대입하기보다, 두 풀백 앞에 세 하프가 서고 다섯 공격수가 폭을 나누던 2-3-5의 언어로 읽어야 한다.
+
 <div class="best-xi" aria-label="1930 FIFA 월드컵 베스트 11 2-3-5 배치">
   <div class="best-xi-line forwards">
     <div><img src="/images/archive/1930-fifa-world-cup-best-xi/players/bert-patenaude.jpg" alt="버트 페이트노드" loading="lazy" /><span>FW</span><strong>버트 페이트노드</strong><small>미국 · 3경기 4골</small></div>

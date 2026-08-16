@@ -24,7 +24,7 @@ relatedGroup: 'fifa-world-cup-1934'
   <dl><div><dt>날짜</dt><dd>1934년 6월 10일</dd></div><div><dt>장소</dt><dd>스타디오 나치오날레 PNF</dd></div><div><dt>90분</dt><dd>1-1</dd></div><div><dt>연장</dt><dd>2-1</dd></div></dl>
 </div>
 
-1934년 6월 10일, 로마의 스타디오 나치오날레 델 파르티토 나치오날레 파시스타<span class="foreign-note" lang="it">(Stadio Nazionale del Partito Nazionale Fascista; 국가 파시스트당 경기장)</span>에 유럽에서 열린 첫 월드컵의 마지막 두 팀이 들어섰다. 개최국 이탈리아와 체코슬로바키아. 두 팀 모두 첫 세계 챔피언 자리를 노리는 결승전이었다.
+1934년 6월 10일, 로마의 스타디오 나치오날레 델 파르티토 나치오날레 파시스타<span class="foreign-note" lang="it">(Stadio Nazionale del Partito Nazionale Fascista; 국가 파시스트당 경기장)</span>에 유럽에서 열린 첫 월드컵의 마지막 두 팀이 들어섰다. 개최국 이탈리아와 체코슬로바키아. 두 팀 모두 첫 세계 챔피언 자리를 노리는 결승전이었다. 개최국이 붙인 대회명은 축구 세계선수권대회<span class="foreign-note" lang="it">(Campionato Mondiale di Calcio; 축구 세계선수권대회)</span>였고, 필름은 그 거대한 명칭보다 세 번의 짧은 득점 장면으로 결승을 기억하게 한다.
 
 아래 다섯 개 영상은 국제축구연맹 FIFA의 결승전 기록 영상을 장면별로 나눈 것이다. 득점 장면은 공격이 시작되는 순간부터 골이 들어간 뒤까지 한 영상으로 이어지도록 다시 편집했다. 영상이 경기의 모든 순간을 남기지는 않지만, 결승전이 시작되기 전의 로마부터 세 골이 터지는 흐름까지 순서대로 볼 수 있다.
 
@@ -36,7 +36,8 @@ relatedGroup: 'fifa-world-cup-1934'
   <header><span>BEFORE KICK-OFF</span><h3>유럽에서 열린 첫 월드컵의 마지막 경기</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1934 월드컵 결승전을 앞둔 경기장 풍경"><source src="/media/highlights/1934-world-cup-final/clip-01.mp4" type="video/mp4" /></video><figcaption>결승전을 앞둔 로마와 스타디오 나치오날레 PNF의 풍경.</figcaption></figure></div>
   <p>공식 기록이 전하는 관중 수는 자료마다 조금씩 다르다. FIGC의 대회 회고는 약 5만 명, 다른 경기 기록은 약 4만~5만5천 명을 남긴다. 정확한 한 자리 숫자보다 분명한 것은 이 경기가 개최국의 수도에서 열렸고, 무솔리니가 지켜보는 가운데 이탈리아의 첫 우승을 요구하는 거대한 압력 속에서 시작됐다는 사실이다.</p>
-  <p>주심은 스웨덴의 이반 에클린드였다. 포초의 이탈리아에는 잔피에로 콤비, 루이스 몬티, 주세페 메아차, 라이문도 오르시와 안젤로 스키아비오가 섰다. 체코슬로바키아는 프란티셰크 플라니치카가 골문을 지키고, 네예들리와 안토닌 푸치가 공격을 이끌었다.</p>
+  <p>주심은 스웨덴의 이반 에클린드였다. 포초의 이탈리아에는 주장 잔피에로 콤비와 루이스 몬티, 주세페 메아차<span class="foreign-note" lang="it">(Giuseppe Meazza; 이탈리아 주장·인사이드 포워드)</span>, 라이문도 오르시<span class="foreign-note" lang="es-AR">(Raimundo Orsi; 아르헨티나 출생 이탈리아 윙포워드)</span>, 안젤로 스키아비오<span class="foreign-note" lang="it">(Angelo Schiavio; 이탈리아 센터 포워드)</span>가 섰다.</p>
+  <p>체코슬로바키아는 프란티셰크 플라니치카<span class="foreign-note" lang="cs">(František Plánička; 체코슬로바키아 골키퍼)</span>가 골문을 지키고, 올드르지흐 네예들리와 안토닌 푸치<span class="foreign-note" lang="cs">(Antonín Puč; 체코슬로바키아 아웃사이드 레프트)</span>가 공격을 이끌었다. 결승의 세 득점자는 양쪽 공격선에 미리 서 있었지만, 누가 먼저 장면을 차지할지는 후반 26분까지 드러나지 않았다.</p>
 </section>
 
 ## 전반: 골 없이 쌓인 압력
@@ -90,7 +91,7 @@ relatedGroup: 'fifa-world-cup-1934'
   <header><span>95' · ITALY 2-1</span><h3>안젤로 스키아비오, 돌아서며 끝낸 결승전</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안젤로 스키아비오의 1934 월드컵 연장 결승골 전체 장면"><source src="/media/highlights/1934-world-cup-final/schiavio-goal.mp4" type="video/mp4" /></video><figcaption>문전 공격이 이어지고 스키아비오의 슈팅이 골문으로 향한다. 득점 직후 사람들이 그라운드로 뛰어나온다.</figcaption></figure></div>
 
-연장이 시작된 지 5분 만에 승부가 갈렸다. 메아차가 아래로 내려와 공격을 잇고, 엔리케 과이타가 공을 스키아비오에게 연결했다. 스키아비오는 수비를 등진 채 방향을 바꾼 뒤 오른발 슈팅으로 플라니치카를 넘어섰다. 공식 기록에 남은 시간은 95분. 이탈리아가 결승전에서 처음 앞선 순간이자 마지막 골이었다.
+연장이 시작된 지 5분 만에 승부가 갈렸다. 메아차가 아래로 내려와 공격을 잇고, 엔리케 과이타<span class="foreign-note" lang="es-AR">(Enrique Guaita; 아르헨티나 출생 이탈리아 공격수)</span>가 공을 스키아비오에게 연결했다. 스키아비오는 수비를 등진 채 방향을 바꾼 뒤 오른발 슈팅으로 플라니치카를 넘어섰다. 공식 기록에 남은 시간은 95분. 이탈리아가 결승전에서 처음 앞선 순간이자 마지막 골이었다.
 
 필름에는 이탈리아의 문전 공격과 스키아비오의 슈팅, 공이 골문으로 향한 뒤 사람들이 그라운드로 뛰어나오는 모습까지 이어서 남아 있다. 이탈리아는 남은 연장 시간을 버텼고 스키아비오는 미국전 해트트릭에 이어 결승골까지 넣으며 대회를 4골로 마쳤다.
 </section>
