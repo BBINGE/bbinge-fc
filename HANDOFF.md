@@ -1,5 +1,14 @@
 # BBinge FC — 공용 인수인계
 
+## 2026-08-16 GOAT 랭킹·완주 댓글 구현
+
+- GOAT 게임은 선택할 때마다 서버로 보내지 않고 브라우저에 31경기를 모은 뒤 우승 확정 순간 `POST /api/goat/result`를 한 번 호출한다. 서버는 대진 진행과 선수 id를 검증하고 D1의 `tournament_results`, `matchup_votes`에 저장한다. D1 장애 시에도 게임·결과 화면은 그대로 동작한다.
+- `/play/ranking/`과 `GET /api/goat/ranking`을 추가했다. 136명 전원의 우승 횟수·우승률, 1대1 승수·승률, 결승·4강 진출 횟수를 제공한다.
+- 결과 화면에 완주자 전용 댓글 폼과 최신 댓글을 추가했다. 닉네임 20자·본문 150자, URL 1개 제한, 세션당 30초 제한이며 동적 내용은 `textContent`로만 출력한다. 삭제 API는 `GOAT_ADMIN_TOKEN`이 설정된 경우에만 사용 가능하다.
+- Cloudflare D1 데이터베이스 이름은 `bbinge-fc-goat`, Pages Functions 바인딩 이름은 `GOAT_DB`다. 스키마 원본은 `migrations/0001_goat.sql`, API는 `functions/api/goat/`에 있다. 2026-08-16 운영 D1에 스키마를 적용하고 Production 바인딩을 저장했다.
+- 개인정보처리방침에 익명 세션 id, 완주 결과·31개 선택, 닉네임·댓글의 수집 목적과 저장 위치를 반영했다.
+- 검증 명령은 `node scripts/test-goat-validation.mjs`, `npm run build`, `git diff --check`다. 배포 후 `/api/goat/ranking`, `/play/ranking/`, 실제 32강 완주 기록을 다시 확인한다.
+
 ## 2026-08-15 GOAT 136명 초상 전수 점검·1차 교정
 
 - `scripts/audit-goat-portraits.py`로 136명 전체를 6장의 콘택트 시트로 확인했다. 사진 없음이던 레오니다스 다 시우바·엘리아스 피게로아·김민재를 추가해 136명 모두 실제 사진을 갖췄다.

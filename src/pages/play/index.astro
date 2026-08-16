@@ -91,6 +91,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
 
 <script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits, playerFocus, flagBackgrounds }}>
   const STORAGE_KEY = 'bbfc-goat-v3';
+  const SESSION_KEY = 'bbinge_session_id';
   const ROUND_NAME = { 32: '32강', 16: '16강', 8: '8강', 4: '4강', 2: '결승' };
   const POSITION_KR = { GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' };
   const ERA_ORDER = ['pre1950', '1950s60s', '1970s80s', '1990s00s', '2010s'];
@@ -98,6 +99,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
 
   const app = document.getElementById('goat-app');
   const playersById = Object.fromEntries(players.map((p) => [p.id, p]));
+  let fallbackSessionId = null;
   const debugPhotoFocus = new URLSearchParams(window.location.search).get('debugPhotoFocus') === '1';
   if (debugPhotoFocus) app?.classList.add('goat-app--debug-photo-focus');
 
@@ -167,9 +169,29 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     }
   }
 
+  function anonymousSessionId() {
+    try {
+      const existing = localStorage.getItem(SESSION_KEY);
+      if (existing) return existing;
+      const created = crypto.randomUUID();
+      localStorage.setItem(SESSION_KEY, created);
+      return created;
+    } catch {
+      fallbackSessionId ??= crypto.randomUUID();
+      return fallbackSessionId;
+    }
+  }
+
   function newState(seedStr) {
     const bracket = buildBracket(seedStr);
-    return { seed: seedStr, roundPlayers: bracket, matchIndex: 0, final4: null, winner: null };
+    return { seed: seedStr, roundPlayers: bracket, matchIndex: 0, final4: null, winner: null, runnerUp: null, matches: [], resultId: null };
+  }
+
+  function recordMatch(state, playerA, playerB, winnerId) {
+    const round = state.roundPlayers.length;
+    state.matches ??= [];
+    state.matches.push({ round, playerA, playerB, winner: winnerId });
+    if (round === 2) state.runnerUp = winnerId === playerA ? playerB : playerA;
   }
 
   function pickWinner(state, winnerId) {
@@ -299,6 +321,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
         });
         btn.classList.add('goat-card--selected');
         const winnerId = btn.getAttribute('data-player-id');
+        recordMatch(state, a.id, b.id, winnerId);
         setTimeout(() => {
           const nextState = pickWinner(state, winnerId);
           saveState(nextState);
@@ -309,6 +332,128 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     });
 
     document.getElementById('goat-restart')?.addEventListener('click', () => startNewGame());
+  }
+
+  async function submitCompletedResult(state) {
+    if (state.resultId || state.matches?.length !== 31 || !state.runnerUp || !state.final4?.length) return state.resultId;
+    const semifinalists = state.final4.filter((id) => id !== state.winner && id !== state.runnerUp);
+    try {
+      const response = await fetch('/api/goat/result', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          seed: state.seed,
+          winner: state.winner,
+          runnerUp: state.runnerUp,
+          semifinalists,
+          matches: state.matches,
+          anonymousSessionId: anonymousSessionId(),
+        }),
+      });
+      if (!response.ok) return null;
+      const data = await response.json();
+      if (!data.resultId) return null;
+      state.resultId = data.resultId;
+      saveState(state);
+      return data.resultId;
+    } catch (error) {
+      console.warn('GOAT 결과 저장을 건너뜁니다.', error);
+      return null;
+    }
+  }
+
+  async function loadWinnerStats(winnerId) {
+    const target = document.getElementById('goat-winner-stats');
+    if (!target) return;
+    try {
+      const response = await fetch('/api/goat/ranking');
+      if (!response.ok) throw new Error('ranking unavailable');
+      const data = await response.json();
+      const index = data.ranking.findIndex((item) => item.id === winnerId);
+      const item = data.ranking[index];
+      if (!item || !data.totalGames) {
+        target.textContent = '첫 기록들이 쌓이고 있어요.';
+        return;
+      }
+      target.innerHTML = `<strong>전체 ${index + 1}위</strong><span>우승률 ${(item.championshipRate * 100).toFixed(1)}%</span><span>1:1 승률 ${(item.matchupWinRate * 100).toFixed(1)}%</span>`;
+    } catch {
+      target.textContent = '통계는 잠시 후 다시 볼 수 있어요.';
+    }
+  }
+
+  function commentItem(comment) {
+    const item = document.createElement('li');
+    item.className = 'goat-comment';
+    const heading = document.createElement('p');
+    heading.className = 'goat-comment__heading';
+    const playerName = playersById[comment.winnerId]?.name ?? 'GOAT';
+    heading.textContent = `${comment.nickname} · ${playerName} 👑`;
+    const content = document.createElement('p');
+    content.className = 'goat-comment__content';
+    content.textContent = comment.content;
+    item.append(heading, content);
+    return item;
+  }
+
+  async function loadComments() {
+    const list = document.getElementById('goat-comment-list');
+    if (!list) return;
+    try {
+      const response = await fetch('/api/goat/comments?limit=20');
+      if (!response.ok) throw new Error('comments unavailable');
+      const data = await response.json();
+      list.replaceChildren();
+      if (!data.comments?.length) {
+        const empty = document.createElement('li');
+        empty.className = 'goat-comment goat-comment--empty';
+        empty.textContent = '첫 한마디를 남겨보세요.';
+        list.append(empty);
+        return;
+      }
+      data.comments.forEach((comment) => list.append(commentItem(comment)));
+    } catch {
+      list.textContent = '한마디를 잠시 불러오지 못했어요.';
+    }
+  }
+
+  function enableCommentForm(state, resultId) {
+    const form = document.getElementById('goat-comment-form');
+    const message = document.getElementById('goat-comment-message');
+    if (!form || !resultId) {
+      if (message) message.textContent = '기록 저장이 연결되면 한마디를 남길 수 있어요.';
+      return;
+    }
+    form.querySelectorAll('input, textarea, button').forEach((element) => { element.disabled = false; });
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const nickname = form.elements.nickname.value.trim();
+      const content = form.elements.content.value.trim();
+      if (!nickname || !content) return;
+      const button = form.querySelector('button');
+      button.disabled = true;
+      if (message) message.textContent = '남기는 중…';
+      try {
+        const response = await fetch('/api/goat/comments', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ resultId, anonymousSessionId: anonymousSessionId(), nickname, content }),
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error ?? 'comment_failed');
+        form.reset();
+        if (message) message.textContent = '남겼어요.';
+        const list = document.getElementById('goat-comment-list');
+        if (list) {
+          if (list.querySelector('.goat-comment--empty')) list.replaceChildren();
+          list.prepend(commentItem(data.comment));
+        }
+      } catch (error) {
+        const reason = error instanceof Error ? error.message : '';
+        if (message) message.textContent = reason === 'rate_limited' ? '잠시 뒤에 다시 남겨주세요.' : '지금은 남기지 못했어요. 잠시 후 다시 해주세요.';
+      } finally {
+        button.disabled = false;
+      }
+    }, { once: true });
   }
 
   function renderResult(state) {
@@ -354,6 +499,27 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
         </button>
       </div>
       <p id="goat-share-msg" class="text-[12px] text-[var(--bbfc-gray-2)] mt-2" hidden>링크가 복사됐어요.</p>
+      <section class="goat-community" aria-labelledby="goat-community-title">
+        <div class="goat-community__head">
+          <div>
+            <p class="goat-community__eyebrow">삥이FC 이용자 기록</p>
+            <h3 id="goat-community-title">다른 사람들은 누굴 골랐을까?</h3>
+          </div>
+          <a href="/play/ranking/">전체 랭킹 보기 →</a>
+        </div>
+        <div id="goat-winner-stats" class="goat-winner-stats" aria-live="polite">통계를 불러오는 중…</div>
+        <div class="goat-comment-write">
+          <h3>한마디 남기기</h3>
+          <p>${winner.name} GOAT 선택 이유를 짧게 남겨보세요.</p>
+          <form id="goat-comment-form">
+            <label>닉네임<input name="nickname" maxlength="20" autocomplete="nickname" placeholder="20자 이내" disabled required></label>
+            <label>한마디<textarea name="content" maxlength="150" rows="3" placeholder="150자 이내" disabled required></textarea></label>
+            <button type="submit" disabled>남기기</button>
+          </form>
+          <p id="goat-comment-message" class="goat-comment-message" aria-live="polite">완주 기록을 저장하는 중…</p>
+        </div>
+        <ul id="goat-comment-list" class="goat-comment-list"><li class="goat-comment goat-comment--empty">한마디를 불러오는 중…</li></ul>
+      </section>
     `;
 
     document.getElementById('goat-share')?.addEventListener('click', async () => {
@@ -377,6 +543,9 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
       }
     });
     document.getElementById('goat-restart')?.addEventListener('click', () => startNewGame());
+    loadWinnerStats(winner.id);
+    loadComments();
+    submitCompletedResult(state).then((resultId) => enableCommentForm(state, resultId));
   }
 
   function renderSharedPreview(seedStr, winnerId, final4Ids) {
@@ -539,6 +708,28 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-card--b.goat-card--eliminated { transform: translateX(22px) rotate(1.5deg) scale(.94); }
   .goat-app--locked .goat-card { pointer-events: none; }
   .goat-app--hit .goat-arena { animation: goat-shake .22s linear; }
+  .goat-community { margin-top:32px; padding-top:26px; border-top:1px solid var(--bbfc-line); }
+  .goat-community__head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; }
+  .goat-community__eyebrow { color:var(--bbfc-blue); font-size:11px; font-weight:800; letter-spacing:.06em; }
+  .goat-community__head h3 { margin-top:4px; color:var(--bbfc-ink); font-size:19px; font-weight:800; }
+  .goat-community__head a { flex:none; color:var(--bbfc-blue); font-size:12px; font-weight:750; }
+  .goat-winner-stats { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:14px; padding:16px; border-radius:14px; background:#0d2038; color:#dceaff; font-size:13px; }
+  .goat-winner-stats strong { color:#8dbbff; }
+  .goat-comment-write { margin-top:22px; padding:18px; border:1px solid var(--bbfc-line); border-radius:16px; background:#fff; }
+  .goat-comment-write h3 { color:var(--bbfc-ink); font-size:16px; font-weight:800; }
+  .goat-comment-write > p { margin-top:3px; color:var(--bbfc-gray-1); font-size:12px; }
+  .goat-comment-write form { display:grid; grid-template-columns:180px minmax(0,1fr) auto; gap:10px; align-items:end; margin-top:14px; }
+  .goat-comment-write label { display:grid; gap:5px; color:var(--bbfc-gray-1); font-size:11px; font-weight:700; }
+  .goat-comment-write input, .goat-comment-write textarea { width:100%; border:1px solid var(--bbfc-border); border-radius:9px; background:#fff; padding:10px 11px; color:var(--bbfc-ink); font-family:inherit; font-size:13px; font-weight:500; line-height:1.4; resize:vertical; }
+  .goat-comment-write input:focus, .goat-comment-write textarea:focus { outline:2px solid #8bb9ff; outline-offset:1px; }
+  .goat-comment-write button { min-height:40px; border-radius:9px; background:var(--bbfc-blue); padding:0 17px; color:#fff; font-size:13px; font-weight:800; }
+  .goat-comment-write button:disabled { cursor:not-allowed; opacity:.45; }
+  .goat-comment-message { min-height:18px; }
+  .goat-comment-list { margin-top:12px; }
+  .goat-comment { padding:14px 2px; border-bottom:1px solid var(--bbfc-line); }
+  .goat-comment__heading { color:var(--bbfc-blue); font-size:12px; font-weight:800; }
+  .goat-comment__content { margin-top:4px; color:var(--bbfc-ink-2); font-size:13.5px; line-height:1.55; overflow-wrap:anywhere; }
+  .goat-comment--empty { color:var(--bbfc-gray-2); font-size:13px; }
   @keyframes goat-impact { 0% { opacity: 1; transform: translate(-50%,-50%) scale(.2); } 100% { opacity: 0; transform: translate(-50%,-50%) scale(7); } }
   @keyframes goat-shake { 0%,100% { transform: translate(0); } 25% { transform: translate(-3px,2px); } 50% { transform: translate(3px,-1px); } 75% { transform: translate(-2px,-1px); } }
   @media (hover: hover) and (pointer: fine) {
@@ -564,6 +755,11 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     .goat-card__greatness { font-size:13px; line-height:1.45; }
     .goat-vs { width: 42px; height: 42px; }
     .goat-vs span { font-size: 13px; }
+    .goat-community__head { align-items:flex-start; }
+    .goat-community__head h3 { font-size:17px; }
+    .goat-comment-write { padding:15px; }
+    .goat-comment-write form { grid-template-columns:1fr; }
+    .goat-comment-write button { width:100%; }
   }
   @media (prefers-reduced-motion: reduce) {
     .goat-card, .goat-card::after, .goat-card__media img { transition: none; }
