@@ -33,10 +33,14 @@ const nextRecord = currentPosition >= 0 && currentPosition < indexRecords.length
   ? indexRecords[currentPosition + 1]
   : undefined;
 const nextExpectedYear = entry.data.year + 1;
+const chronologyWindowSize = Math.min(5, indexRecords.length);
+const chronologyStart = Math.min(
+  Math.max(currentPosition - 2, 0),
+  Math.max(indexRecords.length - chronologyWindowSize, 0)
+);
 const relatedRecords = indexRecords
-  .filter((record) => record.id !== entry.id)
-  .sort((a, b) => b.data.year - a.data.year)
-  .slice(0, 3);
+  .slice(chronologyStart, chronologyStart + chronologyWindowSize)
+  .filter((record) => record.id !== entry.id);
 const relatedAssets = entry.data.relatedGroup
   ? (await getCollection('articles', ({ data }) => !data.draft && data.relatedGroup === entry.data.relatedGroup))
       .map((record) => ({
@@ -120,12 +124,15 @@ const relatedAssets = entry.data.relatedGroup
     </nav>
     {relatedRecords.length > 0 && (
       <aside class="related-records" aria-labelledby="related-records-title">
-        <div><p>SAME INDEX</p><h2 id="related-records-title">같은 색인의 기록</h2></div>
+        <div><p>CHRONOLOGY</p><h2 id="related-records-title">연대기 이어보기</h2></div>
         <div class="related-grid">
           {relatedRecords.map((record) => (
             <a href={`/archive/${record.data.branch}/${record.data.index}/${record.id}/`}>
-              <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
-              <span>{record.data.year} · {record.data.subject}</span>
+              <div class="related-cover">
+                <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
+                <span>{record.data.year < entry.data.year ? '이전 기록' : '다음 기록'}</span>
+              </div>
+              <small>{record.data.year} · {archiveIndex.label}</small>
               <strong>{record.data.title}</strong>
             </a>
           ))}
@@ -233,11 +240,15 @@ const relatedAssets = entry.data.relatedGroup
   .related-records { margin-top: 90px; padding-top: 24px; border-top: 2px solid var(--bbfc-ink); }
   .related-records > div:first-child p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
   .related-records h2 { margin-top: 8px; font-size: 26px; font-weight: 680; letter-spacing: -.04em; }
-  .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px; }
-  .related-grid img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: var(--bbfc-radius); background: var(--bbfc-fill); }
-  .related-grid span, .related-grid strong { display: block; }
-  .related-grid span { margin-top: 11px; font-size: 10px; color: var(--bbfc-blue); }
-  .related-grid strong { margin-top: 5px; font-size: 14px; line-height: 1.45; }
+  .related-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top: 24px; }
+  .related-grid > a { min-width: 0; }
+  .related-cover { position: relative; overflow: hidden; border-radius: var(--bbfc-radius); background: var(--bbfc-fill); }
+  .related-cover img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; transition: transform .22s ease; }
+  .related-cover span { position: absolute; top: 8px; left: 8px; padding: 4px 7px; border-radius: 999px; background: rgba(255,255,255,.92); font-size: 8px; font-weight: 650; color: var(--bbfc-ink-2); }
+  .related-grid a:hover .related-cover img { transform: scale(1.025); }
+  .related-grid small, .related-grid strong { display: block; }
+  .related-grid small { margin-top: 11px; font-size: 9px; color: var(--bbfc-blue); }
+  .related-grid strong { margin-top: 5px; font-size: 13px; line-height: 1.45; font-weight: 620; }
   @media (max-width: 767px) {
     .archive-article { padding: 24px 16px 60px; }
     .article-header { margin-top: 24px; padding: 42px 0 38px; }
@@ -268,7 +279,7 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.best-xi-player > div) { padding: 17px 15px; }
     .archive-body :global(.best-xi-player strong) { font-size: 15px; }
     .archive-body :global(.best-xi-player p) { margin-top: 13px; font-size: 11px; }
-    .related-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
     .sequence-nav { gap: 8px; margin-top: 68px; }
     .sequence-link { padding: 6px 4px; }
     .sequence-link strong { font-size: 14px; }

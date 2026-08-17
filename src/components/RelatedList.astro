@@ -10,13 +10,44 @@ interface Props {
 const { entries } = Astro.props;
 ---
 
-<ul>
+<div class="related-card-grid">
   {entries.map((entry) => (
-    <li class="border-t border-[var(--bbfc-line)] py-3 first:pt-0">
-      <a href={getArticlePath(entry.data.category, entry.id)} class="block">
-        <p class="text-[11px] text-[var(--bbfc-blue)]">{categories[entry.data.category].label}</p>
-        <p class="text-[13.5px] text-[var(--bbfc-ink)] mt-1 leading-snug">{entry.data.title}</p>
-      </a>
-    </li>
+    <a href={getArticlePath(entry.data.category, entry.id)} class="related-card">
+      {entry.data.coverImage ? (
+        <img
+          src={entry.data.coverImage}
+          alt={entry.data.coverImageAlt ?? ''}
+          width={entry.data.coverImageWidth ?? 640}
+          height={entry.data.coverImageHeight ?? 360}
+          loading="lazy"
+        />
+      ) : (
+        <div class="related-card-fallback" aria-hidden="true">{categories[entry.data.category].label}</div>
+      )}
+      <div>
+        <p>{categories[entry.data.category].label}</p>
+        <strong>{entry.data.title}</strong>
+        <span>글 읽기 <i aria-hidden="true">→</i></span>
+      </div>
+    </a>
   ))}
-</ul>
+</div>
+
+<style>
+  .related-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 16px; }
+  .related-card { min-width: 0; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); background: var(--bbfc-white); transition: border-color .18s ease, transform .18s ease; }
+  .related-card:hover { transform: translateY(-3px); border-color: var(--bbfc-blue); }
+  .related-card > img, .related-card-fallback { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--bbfc-fill); }
+  .related-card-fallback { display: grid; place-items: center; font-size: 12px; font-weight: 650; color: var(--bbfc-gray-2); }
+  .related-card > div:last-child { display: grid; align-content: start; min-height: 126px; padding: 13px 14px 14px; }
+  .related-card p { font-size: 10px; color: var(--bbfc-blue); }
+  .related-card strong { display: -webkit-box; margin-top: 6px; overflow: hidden; font-size: 13.5px; line-height: 1.42; font-weight: 620; color: var(--bbfc-ink); -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+  .related-card span { align-self: end; margin-top: 13px; font-size: 10px; color: var(--bbfc-gray-2); }
+  .related-card i { font-style: normal; }
+  @media (max-width: 767px) {
+    .related-card-grid { grid-template-columns: 1fr; gap: 10px; }
+    .related-card { display: grid; grid-template-columns: 116px minmax(0, 1fr); }
+    .related-card > img, .related-card-fallback { height: 100%; min-height: 112px; aspect-ratio: auto; }
+    .related-card > div:last-child { min-height: 112px; padding: 12px 13px; }
+  }
+</style>
