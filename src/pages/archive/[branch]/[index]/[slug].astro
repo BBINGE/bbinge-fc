@@ -22,6 +22,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props as Props;
 const branch = archiveBranches.find((item) => item.id === entry.data.branch)!;
 const archiveIndex = branch.indexes.find((item) => item.slug === entry.data.index)!;
+const viewPath = `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`;
 const { Content } = await render(entry);
 const indexRecords = (await getCollection('archive', ({ data }) =>
   !data.draft && data.branch === entry.data.branch && data.index === entry.data.index
@@ -133,6 +134,21 @@ const relatedAssets = entry.data.relatedGroup
     )}
   </article>
 </Layout>
+
+<script is:inline define:vars={{ viewPath }}>
+  try {
+    const viewKey = `bbfc-archive-view:${viewPath}`;
+    if (!sessionStorage.getItem(viewKey)) {
+      sessionStorage.setItem(viewKey, '1');
+      fetch('/api/archive/views', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ path: viewPath }),
+        keepalive: true,
+      }).catch(() => {});
+    }
+  } catch {}
+</script>
 
 <style>
   .archive-article { max-width: 760px; margin: 0 auto; padding: 38px 20px 80px; }
