@@ -1,5 +1,11 @@
 # BBinge FC — 공용 인수인계
 
+## 2026-08-17 AdSense ads.txt 보완
+
+- AdSense 공통 레이아웃에 설치된 게시자 ID `ca-pub-7649211764099932`와 일치하도록 `public/ads.txt`를 추가했다.
+- 배포 파일의 판매자 행은 `google.com, pub-7649211764099932, DIRECT, f08c47fec0942fa0`이며 운영 도메인 `https://bbingefc.com/ads.txt`에서 공개되어야 한다.
+- 배포 후 AdSense의 `찾을 수 없음` 표시는 Google 재크롤링까지 며칠, 광고 요청이 적으면 최대 한 달가량 늦게 갱신될 수 있다.
+
 ## 2026-08-17 UEFA 플라크 장문 칼럼 발행
 
 - 운영자의 2024년 NAVER 원고와 원작 썸네일을 바탕으로 `UEFA 플라크: 유벤투스가 세 개의 유럽을 모두 정복한 날`을 `/history/uefa-plaque-juventus-chelsea/`에 발행했다.
