@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-17T15:04:57.285Z",
+  "updatedAt": "2026-08-17T15:57:05.373Z",
   "birthday": {
     "name": "쥐스트 퐁텐",
     "birthYear": 1933,
@@ -21,9 +21,9 @@
   ],
   "status": {
     "birthday": {
-      "state": "ok",
-      "source": "Wikidata",
-      "error": null
+      "state": "fallback",
+      "source": "local-calendar",
+      "error": "Wikidata 3회 시도 실패: 502 Bad Gateway"
     },
     "matches": {
       "state": "ok",
@@ -32,7 +32,7 @@
     }
   },
   "sources": {
-    "birthday": "Wikidata",
+    "birthday": "local-calendar",
     "matches": "TheSportsDB"
   }
 }
