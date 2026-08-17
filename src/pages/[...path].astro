@@ -242,6 +242,15 @@ if (props.kind === 'category') {
     margin-bottom: 20px;
     color: var(--bbfc-ink);
   }
+  .article-body :global(h3) {
+    margin-top: 42px;
+    margin-bottom: 14px;
+    font-size: 21px;
+    font-weight: 650;
+    line-height: 1.45;
+    letter-spacing: -0.02em;
+    color: var(--bbfc-ink);
+  }
   .article-body :global(p) {
     margin-top: 22px;
   }
@@ -272,6 +281,7 @@ if (props.kind === 'category') {
   .article-body :global(.column-thesis > span) { font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-blue); }
   .article-body :global(.column-thesis p) { margin-top: 12px; font-size: 20px; line-height: 1.65; font-weight: 620; color: var(--bbfc-ink); }
   .article-body :global(.foreign-note) { font-size: max(.72em, 12px); line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2); vertical-align: baseline; }
+  .article-body :global(.flag) { display: inline-block; width: 1.35em; height: .9em; margin-left: .22em; border: 1px solid rgba(25,31,40,.12); border-radius: 2px; object-fit: cover; vertical-align: -.08em; }
   .article-body :global(code) {
     background: var(--bbfc-fill);
     border-radius: 4px;
@@ -382,6 +392,7 @@ if (props.kind === 'category') {
   }
   @media (max-width: 767px) {
     .article-body :global(h2) { margin-top: 58px; padding-left: 11px; font-size: 22px; }
+    .article-body :global(h3) { margin-top: 34px; margin-bottom: 12px; font-size: 19px; }
     .article-body :global(p) { margin-top: 19px; }
     .article-body :global(figure) { margin: 38px 0; }
     .article-body :global(.document-figure) { padding: 10px; }
