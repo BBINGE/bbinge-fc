@@ -307,9 +307,9 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 <aside class="club-scoreboard" aria-label="2020년 UEFA 챔피언스 리그 8강 바이에른 뮌헨 대 바르셀로나 경기 결과">
   <p>UEFA CHAMPIONS LEAGUE · QUARTER-FINAL · LISBON</p>
   <div class="club-scoreboard__teams">
-    <div><span class="club-icon club-icon--bayern">FCB</span><strong>바이에른 뮌헨</strong></div>
+    <div><img class="club-crest" src="/images/clubs/bayern-2017.svg" alt="" width="64" height="64" loading="lazy" /><strong>바이에른 뮌헨</strong></div>
     <span><b>8</b><em>FULL TIME</em><b>2</b></span>
-    <div><span class="club-icon club-icon--barcelona">BAR</span><strong>바르셀로나</strong></div>
+    <div><img class="club-crest" src="/images/clubs/barcelona.svg" alt="" width="64" height="64" loading="lazy" /><strong>바르셀로나</strong></div>
   </div>
   <small>2020년 8월 14일 · 이스타디우 다 루스</small>
 </aside>
@@ -369,9 +369,9 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 <aside class="club-scoreboard" aria-label="2013년 UEFA 챔피언스 리그 준결승 바이에른 뮌헨 대 바르셀로나 합계 결과">
   <p>UEFA CHAMPIONS LEAGUE · SEMI-FINAL · AGGREGATE</p>
   <div class="club-scoreboard__teams">
-    <div><span class="club-icon club-icon--bayern">FCB</span><strong>바이에른 뮌헨</strong></div>
+    <div><img class="club-crest" src="/images/clubs/bayern-2002.svg" alt="" width="64" height="64" loading="lazy" /><strong>바이에른 뮌헨</strong></div>
     <span><b>7</b><em>AGG.</em><b>0</b></span>
-    <div><span class="club-icon club-icon--barcelona">BAR</span><strong>바르셀로나</strong></div>
+    <div><img class="club-crest" src="/images/clubs/barcelona.svg" alt="" width="64" height="64" loading="lazy" /><strong>바르셀로나</strong></div>
   </div>
   <small>뮌헨 4-0 · 바르셀로나 0-3</small>
 </aside>
@@ -580,9 +580,9 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 <aside class="club-scoreboard club-scoreboard--world" aria-label="1962년 인터콘티넨털컵 2차전 벤피카 대 산투스 경기 결과">
   <p>INTERCONTINENTAL CUP · SECOND LEG · LISBON</p>
   <div class="club-scoreboard__teams">
-    <div><span class="club-icon club-icon--benfica">SLB</span><strong>벤피카</strong></div>
+    <div><img class="club-crest" src="/images/clubs/benfica.svg" alt="" width="72" height="64" loading="lazy" /><strong>벤피카</strong></div>
     <span><b>2</b><em>FULL TIME</em><b>5</b></span>
-    <div><span class="club-icon club-icon--santos">SFC</span><strong>산투스</strong></div>
+    <div><img class="club-crest" src="/images/clubs/santos.svg" alt="" width="64" height="64" loading="lazy" /><strong>산투스</strong></div>
   </div>
   <small>펠레 해트트릭 · 두 경기 합계 8-4</small>
 </aside>
