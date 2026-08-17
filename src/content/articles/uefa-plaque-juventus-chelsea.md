@@ -77,7 +77,7 @@ UEFA 플라크는 UEFA 배지 오브 아너<span class="foreign-note" lang="en">
 
 유러피언컵<span class="foreign-note" lang="en">(European Cup)</span>은 말 그대로 각국 리그 챔피언의 대회였다. 전년도 우승팀이라는 예외를 빼면 국내 정상에 오르지 못한 거대 클럽도 문 앞에서 돌아서야 했다.
 
-유러피언 컵위너스컵<span class="foreign-note" lang="en">(European Cup Winners' Cup)</span>은 각국의 국내 컵 우승팀을 위한 별도의 유럽이었다. 리그의 장기적 강함과 달리, 단판 토너먼트를 끝까지 살아남는 팀의 계보를 만들었다.
+유러피언 컵위너스컵<span class="foreign-note" lang="en">(European Cup Winners&#39; Cup)</span>은 각국의 국내 컵 우승팀을 위한 별도의 유럽이었다. 리그의 장기적 강함과 달리, 단판 토너먼트를 끝까지 살아남는 팀의 계보를 만들었다.
 
 UEFA컵<span class="foreign-note" lang="en">(UEFA Cup)</span>은 인터-시티 페어스컵<span class="foreign-note" lang="en">(Inter-Cities Fairs Cup)</span>의 자리를 대신해 1971년에 출범했지만, UEFA는 두 대회를 공식적으로 같은 대회의 연속선으로 계산하지 않는다. UEFA컵에는 리그 챔피언도, 국내 컵 우승팀도 아니지만 강한 리그에서 높은 순위를 차지한 팀들이 몰렸다. 그래서 위계는 유러피언컵 아래였으나 우승 난도까지 언제나 낮았다고 말할 수는 없다. 여러 강호가 참가하고 홈 앤드 어웨이 라운드를 길게 통과해야 했기 때문이다.
 
