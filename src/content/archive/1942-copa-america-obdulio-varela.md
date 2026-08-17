@@ -21,7 +21,7 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1942년 1월 10일–2월 7일</dd></dl><dl><dt>참가국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>몬테비데오</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1942년 1월 10일–2월 7일</dd></dl><dl><dt>참가국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>몬테비데오</dd></dl><dl><dt>전 경기 개최지</dt><dd>에스타디오 센테나리오</dd></dl></div>
 
 ### 최종 순위
 
