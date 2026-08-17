@@ -23,6 +23,9 @@ const readingPaths = [
   { label: '수상 기록으로 읽기', note: '개인상과 득점 기록을 선정 당시의 맥락과 함께 확인합니다.', branches: ['awards'] },
 ];
 const recordHref = (record: typeof records[number]) => `/archive/${record.data.branch}/${record.data.index}/${record.id}/`;
+const hotPostTitle = (record: typeof records[number]) => record.data.index === 'copa-america'
+  ? `${record.data.year} 코파 아메리카 최우수선수`
+  : record.data.subject;
 const freshBranches = new Set(
   records.filter((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate)).map((record) => record.data.branch)
 );
@@ -56,13 +59,12 @@ const freshIndexes = new Set(
         <aside class="hot-panel" aria-labelledby="hot-post-title">
           <div class="hot-panel-head">
             <div><span>LIVE RANKING</span><h2 id="hot-post-title">HOT POST</h2></div>
-            <p data-hot-status>조회 데이터 집계 전 · 최신순</p>
           </div>
           <div class="hot-list">
             {records.map((record, index) => <a href={recordHref(record)} data-hot-path={recordHref(record)}>
               <span class="hot-rank">{String(index + 1).padStart(2, '0')}</span>
               <img src={record.data.coverImage} alt="" width="640" height="640" loading={index < 5 ? 'eager' : 'lazy'} style={imageFocusStyle(record.data.coverImage)} />
-              <div><small>{record.data.year} · {archiveBranches.find((branch) => branch.id === record.data.branch)?.indexes.find((item) => item.slug === record.data.index)?.label}</small><strong>{record.data.subject}</strong><em data-view-label>{index < 5 ? '최신 기록' : ''}</em></div>
+              <div><small>{archiveBranches.find((branch) => branch.id === record.data.branch)?.indexes.find((item) => item.slug === record.data.index)?.label} 아카이브</small><strong>{hotPostTitle(record)}</strong></div>
               <i aria-hidden="true">→</i>
             </a>)}
           </div>
@@ -133,8 +135,7 @@ const freshIndexes = new Set(
   }
 
   const hotList = document.querySelector<HTMLElement>('.hot-list');
-  const hotStatus = document.querySelector<HTMLElement>('[data-hot-status]');
-  if (hotList && hotStatus) {
+  if (hotList) {
     const cards = [...hotList.querySelectorAll<HTMLAnchorElement>('[data-hot-path]')];
     fetch('/api/archive/views')
       .then((response) => response.ok ? response.json() : Promise.reject())
@@ -145,7 +146,6 @@ const freshIndexes = new Set(
         const rankedCards = ranking.map((item: { path?: string; views?: number }) => {
           const card = item.path ? cardMap.get(item.path) : undefined;
           if (!card) return undefined;
-          card.querySelector<HTMLElement>('[data-view-label]')!.textContent = `조회 ${Number(item.views ?? 0).toLocaleString('ko-KR')}`;
           card.dataset.ranked = 'true';
           return card;
         }).filter(Boolean) as HTMLAnchorElement[];
@@ -154,7 +154,6 @@ const freshIndexes = new Set(
           card.querySelector<HTMLElement>('.hot-rank')!.textContent = String(index + 1).padStart(2, '0');
           hotList.append(card);
         });
-        hotStatus.textContent = '실시간 누적 조회수 순';
       })
       .catch(() => {});
   }
@@ -179,10 +178,9 @@ const freshIndexes = new Set(
   .archive-action.primary { border-color:var(--bbfc-ink); background:var(--bbfc-ink); color:#fff; }
   .archive-action.primary:hover { border-color:var(--bbfc-blue); background:var(--bbfc-blue); color:#fff; }
   .hot-panel { padding:18px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-white); }
-  .hot-panel-head { display:flex; justify-content:space-between; align-items:end; gap:16px; padding:0 2px 13px; border-bottom:1px solid var(--bbfc-ink); }
+  .hot-panel-head { padding:0 2px 13px; border-bottom:1px solid var(--bbfc-ink); }
   .hot-panel-head span { font-size:8px; font-weight:700; letter-spacing:.14em; color:var(--bbfc-blue); }
   .hot-panel-head h2 { margin-top:3px; font-size:22px; line-height:1; font-weight:720; letter-spacing:-.04em; }
-  .hot-panel-head>p { padding-bottom:1px; font-size:9px; color:var(--bbfc-gray-2); }
   .hot-list { display:grid; }
   .hot-list>a { display:grid; grid-template-columns:24px 54px minmax(0,1fr) 15px; align-items:center; gap:10px; min-height:68px; padding:8px 2px; border-bottom:1px solid var(--bbfc-border); transition:background .16s,color .16s; }
   .hot-list>a:nth-child(n+6) { display:none; }
@@ -191,8 +189,7 @@ const freshIndexes = new Set(
   .hot-list img { width:54px; height:54px; border-radius:8px; object-fit:cover; background:var(--bbfc-fill); }
   .hot-list div { display:grid; min-width:0; }
   .hot-list small { overflow:hidden; font-size:8px; line-height:1.3; color:var(--bbfc-gray-2); text-overflow:ellipsis; white-space:nowrap; }
-  .hot-list strong { overflow:hidden; margin-top:3px; font-size:13px; line-height:1.35; font-weight:650; letter-spacing:-.02em; text-overflow:ellipsis; white-space:nowrap; }
-  .hot-list em { margin-top:3px; font-size:8px; font-style:normal; color:var(--bbfc-blue); }
+  .hot-list strong { overflow:hidden; margin-top:4px; font-size:13px; line-height:1.38; font-weight:650; letter-spacing:-.025em; text-overflow:ellipsis; white-space:nowrap; }
   .hot-list i { font-size:13px; font-style:normal; color:var(--bbfc-gray-2); }
   .hero-series { display:flex; align-items:center; gap:24px; padding:14px 0; border-top:1px solid var(--bbfc-border); }
   .hero-series>span { flex:0 0 auto; font-size:9px; font-weight:700; letter-spacing:.12em; color:var(--bbfc-gray-2); }
