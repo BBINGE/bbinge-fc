@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T06:56:30.802Z",
+  "updatedAt": "2026-08-17T07:00:52.075Z",
   "birthday": {
     "name": "티에리 앙리",
     "birthYear": 1977,
@@ -10,9 +10,9 @@
   "matches": [],
   "status": {
     "birthday": {
-      "state": "fallback",
-      "source": "local-calendar",
-      "error": "Wikidata 3회 시도 실패: This operation was aborted"
+      "state": "ok",
+      "source": "Wikidata",
+      "error": null
     },
     "matches": {
       "state": "empty",
@@ -21,7 +21,7 @@
     }
   },
   "sources": {
-    "birthday": "local-calendar",
+    "birthday": "Wikidata",
     "matches": "TheSportsDB"
   }
 }
