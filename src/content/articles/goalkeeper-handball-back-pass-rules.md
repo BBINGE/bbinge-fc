@@ -13,11 +13,11 @@ tags:
   - "IFAB"
   - "경기규칙 12조"
 pubDate: 2026-08-18T00:30:00+09:00
-coverImage: "/images/football-made-easy/goalkeeper-handball-rules.png"
-coverImageAlt: "페널티지역 경계선 옆에서 공을 손으로 잡은 골키퍼와 골키퍼 핸드볼 규칙을 묻는 제목"
-coverImageCaption: "골키퍼의 손 사용 판정은 공과 손이 접촉한 위치, 동료가 공을 보낸 방법, 이미 공을 방출했는지를 차례로 구분한다."
-coverImageWidth: 1200
-coverImageHeight: 675
+coverImage: "/images/football-made-easy/goalkeeper-handball-match.png"
+coverImageAlt: "골문을 비우고 나온 골키퍼가 달려드는 공격수 앞에서 공을 손으로 쳐내는 경기 장면"
+coverImageCaption: "골키퍼가 손을 뻗는 순간, 판정은 공과 손이 접촉한 위치가 자기 페널티지역 안인지 밖인지부터 시작한다."
+coverImageWidth: 2048
+coverImageHeight: 1152
 faq:
   - question: "골키퍼도 핸드볼 반칙을 하나요?"
     answer: "네. 골키퍼도 자기 페널티지역 밖에서는 다른 선수와 같은 핸드볼 규정을 적용받습니다. 자기 페널티지역 안에서는 손을 쓸 수 있지만 동료의 의도적인 킥이나 스로인을 직접 받은 경우 등에는 제한됩니다."
