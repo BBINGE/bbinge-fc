@@ -1,13 +1,24 @@
 {
-  "date": "2026-08-17",
-  "updatedAt": "2026-08-17T09:53:25.621Z",
+  "date": "2026-08-18",
+  "updatedAt": "2026-08-17T15:04:57.285Z",
   "birthday": {
-    "name": "티에리 앙리",
-    "birthYear": 1977,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q45901",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thierry%20Henry%20%2851649035951%29%20%28cropped%29.jpg?width=700"
+    "name": "쥐스트 퐁텐",
+    "birthYear": 1933,
+    "wikidataUrl": "http://www.wikidata.org/entity/Q192749",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Just%20Fontaine%20en%201958.jpg?width=700"
   },
-  "matches": [],
+  "matches": [
+    {
+      "id": "2398017",
+      "league": "아르헨티나 프리메라 디비시온",
+      "home": "Gimnasia y Esgrima de Mendoza",
+      "away": "Talleres de Córdoba",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/h11mlf1677636958.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/7hum2t1769310938.png",
+      "time": "09:30",
+      "date": "2026-08-18"
+    }
+  ],
   "status": {
     "birthday": {
       "state": "ok",
@@ -15,7 +26,7 @@
       "error": null
     },
     "matches": {
-      "state": "empty",
+      "state": "ok",
       "source": "TheSportsDB",
       "error": null
     }
