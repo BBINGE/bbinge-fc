@@ -93,7 +93,7 @@ draft: false
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/10-barcelona-2008-09.webp" alt="2008-09시즌 스페인 최초의 대륙 트레블을 완성한 FC 바르셀로나 선수단" width="1200" height="846" loading="lazy" />
-  <figcaption>2008-09 FC 바르셀로나. 운영자 제공 자료.</figcaption>
+  <figcaption>2008-09 FC 바르셀로나.</figcaption>
 </figure>
 
 ### 시즌 기록
@@ -149,7 +149,7 @@ draft: false
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/09-river-plate-1986.webp" alt="1986년 국내와 남미, 세계 정상에 오른 CA 리버 플레이트 선수단" width="888" height="748" loading="lazy" />
-  <figcaption>1986 CA 리버 플레이트. 운영자 제공 자료.</figcaption>
+  <figcaption>1986 CA 리버 플레이트.</figcaption>
 </figure>
 
 ### 주요 3대회 기록
@@ -205,7 +205,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/08-boca-juniors-2000.webp" alt="2000년 레알 마드리드를 꺾고 세계 정상에 오른 CA 보카 주니어스 선수단" width="862" height="484" loading="lazy" />
-  <figcaption>2000 CA 보카 주니어스. 운영자 제공 자료.</figcaption>
+  <figcaption>2000 CA 보카 주니어스.</figcaption>
 </figure>
 
 ### 연간 기록
@@ -261,7 +261,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/07-sao-paulo-1993.webp" alt="1993년 네 개의 국제대회 트로피를 차지한 상파울루 FC 선수단" width="1600" height="1014" loading="lazy" />
-  <figcaption>1993 상파울루 FC. 운영자 제공 자료.</figcaption>
+  <figcaption>1993 상파울루 FC.</figcaption>
 </figure>
 
 ### 1993년 연간 기록
@@ -330,7 +330,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/06-bayern-2019-20.webp" alt="2019-20시즌 UEFA 챔피언스 리그 전승 우승과 트레블을 달성한 바이에른 뮌헨 선수단" width="1600" height="1066" loading="lazy" />
-  <figcaption>2019-20 FC 바이에른 뮌헨. 운영자 제공 자료.</figcaption>
+  <figcaption>2019-20 FC 바이에른 뮌헨.</figcaption>
 </figure>
 
 ### 시즌 기록
@@ -395,7 +395,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/05-bayern-2012-13.webp" alt="2012-13시즌 독일 클럽 최초의 대륙 트레블을 달성한 바이에른 뮌헨 선수단" width="1462" height="822" loading="lazy" />
-  <figcaption>2012-13 FC 바이에른 뮌헨. 운영자 제공 자료.</figcaption>
+  <figcaption>2012-13 FC 바이에른 뮌헨.</figcaption>
 </figure>
 
 ### 시즌 기록
@@ -469,7 +469,7 @@ UEFA도 이 결승을 바이에른이 2010년과 2012년 결승 패배를 끝낸
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/04-ajax-1994-95.webp" alt="1994-95시즌 에레디비시와 UEFA 챔피언스 리그에서 무패를 기록한 아약스 선수단" width="700" height="462" loading="lazy" />
-  <figcaption>1994-95 AFC 아약스. 운영자 제공 자료.</figcaption>
+  <figcaption>1994-95 AFC 아약스.</figcaption>
 </figure>
 
 ### 시즌 기록
@@ -537,7 +537,7 @@ UEFA는 1995 결승을 문자 그대로 **세대교체<span class="foreign-note"
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/03-celtic-1966-67.webp" alt="1966-67시즌 참가한 다섯 대회를 모두 우승한 셀틱 FC 선수단" width="702" height="459" loading="lazy" />
-  <figcaption>1966-67 셀틱 FC. 운영자 제공 자료.</figcaption>
+  <figcaption>1966-67 셀틱 FC.</figcaption>
 </figure>
 
 ### 시즌 기록
@@ -641,7 +641,7 @@ UEFA에 따르면 우승팀 대부분이 셀틱 파크 인근에서 태어났다
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/02-ajax-1971-72.webp" alt="1971-72시즌 공식전 한 경기만 패하고 트레블을 달성한 아약스 선수단" width="612" height="480" loading="lazy" />
-  <figcaption>1971-72 AFC 아약스. 운영자 제공 자료.</figcaption>
+  <figcaption>1971-72 AFC 아약스.</figcaption>
 </figure>
 
 ### 시즌 기록
@@ -731,7 +731,7 @@ UEFA의 역사적 설명대로 이 경기는 **토털 풋볼과 카테나치오�
 
 <figure>
   <img src="/images/history/greatest-teams-top-10/01-santos-1962.webp" alt="1962년 브라질과 남미, 세계 정상에 오른 펠레 시대의 산투스 FC 선수단" width="800" height="611" loading="lazy" />
-  <figcaption>1962 산투스 FC. 운영자 제공 자료.</figcaption>
+  <figcaption>1962 산투스 FC.</figcaption>
 </figure>
 
 ### 네 개의 왕관

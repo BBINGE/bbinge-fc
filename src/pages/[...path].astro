@@ -254,6 +254,15 @@ if (props.kind === 'category') {
   .article-body :global(p) {
     margin-top: 22px;
   }
+  .article-body :global(hr) {
+    margin: 64px 0 0;
+    border: 0;
+    border-top: 1px solid var(--bbfc-line);
+    opacity: 0.5;
+  }
+  .article-body :global(hr + h2) {
+    margin-top: 64px;
+  }
   .article-body :global(a) {
     color: var(--bbfc-blue);
   }
@@ -392,6 +401,8 @@ if (props.kind === 'category') {
   }
   @media (max-width: 767px) {
     .article-body :global(h2) { margin-top: 58px; padding-left: 11px; font-size: 22px; }
+    .article-body :global(hr) { margin-top: 52px; }
+    .article-body :global(hr + h2) { margin-top: 52px; }
     .article-body :global(h3) { margin-top: 34px; margin-bottom: 12px; font-size: 19px; }
     .article-body :global(p) { margin-top: 19px; }
     .article-body :global(figure) { margin: 38px 0; }
