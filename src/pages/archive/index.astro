@@ -9,6 +9,9 @@ import { imageFocusStyle } from '../../utils/imageFocus';
 const records = (await getCollection('archive', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
 const firstRecord = [...records].sort((a, b) => a.data.year - b.data.year)[0];
+const latestRecord = records[0];
+const archiveYears = records.map((record) => record.data.year);
+const yearRange = archiveYears.length > 0 ? `${Math.min(...archiveYears)}–${Math.max(...archiveYears)}` : '준비 중';
 const activeSeries = archiveBranches.flatMap((branch) => branch.indexes.map((index) => {
   const seriesRecords = records.filter((record) => record.data.branch === branch.id && record.data.index === index.slug);
   return { branch, index, records: seriesRecords.sort((a, b) => a.data.year - b.data.year) };
@@ -35,18 +38,38 @@ const freshIndexes = new Set(
 >
   <div class="archive-page">
     <section class="archive-hero" data-reveal>
-      <div class="archive-kicker"><span>BBINGE ARCHIVE</span><span>FOOTBALL RECORD SERIES</span></div>
       <div class="archive-hero-grid">
-        <div class="archive-title-wrap" data-parallax>
+        <div class="archive-title-wrap">
           <p class="archive-label">삥이FC 기록총서</p>
           <h1><span>삥이</span><span>아카이브</span></h1>
+          <p class="archive-description">축구의 인물·대회·수상 기록을 당대의 이름과 자료로 연결합니다.</p>
+          <div class="archive-stats" aria-label="아카이브 현황">
+            <div><strong>{records.length}</strong><span>RECORDS</span></div>
+            <div><strong>{yearRange}</strong><span>YEARS</span></div>
+            <div><strong>{activeSeries.length}</strong><span>SERIES</span></div>
+          </div>
+          <div class="archive-actions">
+            {latestRecord && <a class="archive-action primary" href={recordHref(latestRecord)}>최신 기록 읽기 <span aria-hidden="true">→</span></a>}
+            {firstRecord && <a class="archive-action" href={recordHref(firstRecord)}>{firstRecord.data.year}년부터 정주행 <span aria-hidden="true">→</span></a>}
+          </div>
         </div>
-        <div class="archive-intro">
-          <strong>축구의 인물·대회·수상 기록을 연도순으로 읽는 기록 총서입니다.</strong>
-          <p>당대의 공식 명칭과 원자료를 바탕으로 하나의 기록이 다음 기록으로 이어집니다.</p>
-          {firstRecord && <a class="first-record-link" href={recordHref(firstRecord)}><span>첫 기록부터 읽기</span><b>{firstRecord.data.year} · {firstRecord.data.subject}</b><i>→</i></a>}
-        </div>
+        {latestRecord && <a class="latest-feature" href={recordHref(latestRecord)} aria-label={`최신 기록: ${latestRecord.data.title}`}>
+          <div class="latest-feature-cover">
+            <img src={latestRecord.data.coverImage} alt="" width="640" height="640" style={imageFocusStyle(latestRecord.data.coverImage)} />
+            <span>NEWEST</span>
+          </div>
+          <div class="latest-feature-copy">
+            <p>최근 발행</p>
+            <strong>{latestRecord.data.year} · {latestRecord.data.subject}</strong>
+            <span>{archiveBranches.find((branch) => branch.id === latestRecord.data.branch)?.indexes.find((index) => index.slug === latestRecord.data.index)?.label}</span>
+          </div>
+          <i aria-hidden="true">↗</i>
+        </a>}
       </div>
+      {activeSeries.length > 0 && <nav class="hero-series" aria-label="현재 연재 바로가기">
+        <span>현재 연재</span>
+        <div>{activeSeries.map((series) => <a href={`/archive/${series.branch.id}/${series.index.slug}/`}><b>{series.index.label}</b><small>{series.records.length}편</small></a>)}</div>
+      </nav>}
     </section>
 
     <section class="latest-records" aria-labelledby="latest-title" data-reveal>
@@ -105,27 +128,45 @@ const freshIndexes = new Set(
   else {
     const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), { threshold: .1, rootMargin: '0px 0px -6% 0px' });
     revealItems.forEach((item) => observer.observe(item));
-    const title = document.querySelector<HTMLElement>('[data-parallax]');
-    window.addEventListener('scroll', () => title?.style.setProperty('--archive-shift', `${Math.min(window.scrollY * .045, 18)}px`), { passive: true });
   }
 </script>
 
 <style>
   .archive-page { max-width: 1040px; margin: 0 auto; padding: 44px 20px 40px; overflow: clip; }
   .archive-hero { border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
-  .archive-kicker { display:flex; justify-content:space-between; font-size:10px; font-weight:650; letter-spacing:.14em; color:var(--bbfc-gray-2); }
-  .archive-kicker { padding:12px 0 24px; }
-  .archive-hero-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(56px,8vw,110px); align-items:center; min-height:390px; padding:34px 0 58px; }
+  .archive-hero-grid { display:grid; grid-template-columns:minmax(0,1.12fr) minmax(330px,.88fr); gap:clamp(48px,7vw,86px); align-items:center; min-height:360px; padding:42px 0 38px; }
   .archive-label,.section-heading div>p,details summary div>p { font-size:10px; font-weight:650; letter-spacing:.15em; color:var(--bbfc-blue); }
-  .archive-title-wrap { transform:translateY(var(--archive-shift,0)); }
-  .archive-hero h1 { display:grid; margin-top:18px; font-size:clamp(58px,6.8vw,84px); line-height:.92; font-weight:720; letter-spacing:-.07em; }
-  .archive-intro>strong { display:block; font-size:21px; line-height:1.55; letter-spacing:-.035em; }
-  .archive-intro>p { margin-top:14px; font-size:14px; line-height:1.8; color:var(--bbfc-gray-1); }
-  .first-record-link { position:relative; display:grid; gap:5px; margin-top:30px; padding:20px 46px 20px 0; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
-  .first-record-link span { font-size:10px; color:var(--bbfc-blue); }
-  .first-record-link b { font-size:15px; font-weight:620; }
-  .first-record-link i { position:absolute; right:5px; top:50%; font-size:20px; font-style:normal; transform:translateY(-50%); }
-  .latest-records,.reading-guide,.active-series { padding-top:104px; }
+  .archive-hero h1 { display:grid; margin-top:15px; font-size:clamp(54px,6.1vw,75px); line-height:.91; font-weight:720; letter-spacing:-.07em; }
+  .archive-description { max-width:430px; margin-top:23px; font-size:14px; line-height:1.75; color:var(--bbfc-gray-1); }
+  .archive-stats { display:flex; margin-top:28px; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
+  .archive-stats>div { min-width:112px; padding:15px 22px 14px 0; }
+  .archive-stats>div+div { padding-left:22px; border-left:1px solid var(--bbfc-border); }
+  .archive-stats strong { display:block; font-size:19px; line-height:1.1; font-weight:680; letter-spacing:-.035em; }
+  .archive-stats span { display:block; margin-top:6px; font-size:8px; font-weight:700; letter-spacing:.14em; color:var(--bbfc-gray-2); }
+  .archive-actions { display:flex; flex-wrap:wrap; gap:9px; margin-top:20px; }
+  .archive-action { display:flex; align-items:center; justify-content:space-between; gap:28px; min-width:176px; padding:11px 13px; border:1px solid var(--bbfc-border); border-radius:8px; font-size:11px; font-weight:620; transition:border-color .18s,color .18s,background .18s; }
+  .archive-action span { font-size:14px; }
+  .archive-action:hover { border-color:var(--bbfc-blue); color:var(--bbfc-blue); }
+  .archive-action.primary { border-color:var(--bbfc-ink); background:var(--bbfc-ink); color:#fff; }
+  .archive-action.primary:hover { border-color:var(--bbfc-blue); background:var(--bbfc-blue); color:#fff; }
+  .latest-feature { position:relative; display:grid; grid-template-columns:124px minmax(0,1fr); align-items:end; gap:18px; padding:16px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-white); transition:transform .2s ease,border-color .2s ease; }
+  .latest-feature:hover { transform:translateY(-4px); border-color:var(--bbfc-blue); }
+  .latest-feature-cover { position:relative; }
+  .latest-feature-cover img { display:block; width:124px; aspect-ratio:1; object-fit:cover; border-radius:10px; background:var(--bbfc-fill); }
+  .latest-feature-cover>span { position:absolute; top:7px; left:7px; padding:4px 6px; border-radius:99px; background:var(--bbfc-blue); color:#fff; font-size:7px; font-weight:750; letter-spacing:.1em; }
+  .latest-feature-copy { min-width:0; padding-bottom:2px; }
+  .latest-feature-copy p { font-size:9px; font-weight:650; color:var(--bbfc-blue); }
+  .latest-feature-copy strong { display:block; margin-top:7px; font-size:17px; line-height:1.35; font-weight:650; letter-spacing:-.025em; }
+  .latest-feature-copy>span { display:block; margin-top:6px; font-size:10px; color:var(--bbfc-gray-2); }
+  .latest-feature>i { position:absolute; top:15px; right:17px; font-size:16px; font-style:normal; }
+  .hero-series { display:flex; align-items:center; gap:24px; padding:14px 0; border-top:1px solid var(--bbfc-border); }
+  .hero-series>span { flex:0 0 auto; font-size:9px; font-weight:700; letter-spacing:.12em; color:var(--bbfc-gray-2); }
+  .hero-series>div { display:flex; flex-wrap:wrap; gap:8px; }
+  .hero-series a { display:flex; align-items:center; gap:9px; padding:7px 10px; border-radius:99px; background:var(--bbfc-fill); transition:background .18s,color .18s; }
+  .hero-series a:hover { background:var(--bbfc-blue-weak); color:var(--bbfc-blue); }
+  .hero-series b { font-size:10px; font-weight:620; }
+  .hero-series small { font-size:9px; color:var(--bbfc-gray-2); }
+  .latest-records,.reading-guide,.active-series { padding-top:88px; }
   .section-heading { display:flex; justify-content:space-between; align-items:end; gap:42px; padding-bottom:22px; border-bottom:2px solid var(--bbfc-ink); }
   .section-heading h2,details summary h2 { margin-top:7px; font-size:31px; font-weight:650; letter-spacing:-.045em; }
   .section-heading>p { max-width:390px; font-size:13px; line-height:1.7; text-align:right; color:var(--bbfc-gray-2); }
@@ -169,7 +210,7 @@ const freshIndexes = new Set(
   [data-reveal] { opacity:0; transform:translateY(24px); transition:opacity .65s ease,transform .65s ease; }
   [data-reveal].is-visible { opacity:1; transform:translateY(0); }
   @media(max-width:767px){
-    .archive-page{padding:26px 16px 20px}.archive-kicker{padding-bottom:10px}.archive-hero-grid{grid-template-columns:1fr;gap:42px;min-height:0;padding:40px 0 42px}.archive-title-wrap{transform:none!important}.archive-hero h1{font-size:clamp(52px,15.5vw,64px)}.archive-intro>strong{font-size:19px}.latest-records,.reading-guide,.active-series{padding-top:76px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
+    .archive-page{padding:26px 16px 20px}.archive-hero-grid{grid-template-columns:1fr;gap:28px;min-height:0;padding:34px 0 28px}.archive-hero h1{font-size:clamp(50px,14.8vw,62px)}.archive-description{margin-top:18px}.archive-stats>div{min-width:0;flex:1;padding:13px 12px 12px 0}.archive-stats>div+div{padding-left:12px}.archive-stats strong{font-size:16px}.archive-actions{display:grid;grid-template-columns:1fr 1fr}.archive-action{min-width:0;gap:10px;padding:11px 10px}.latest-feature{grid-template-columns:96px minmax(0,1fr);padding:12px}.latest-feature-cover img{width:96px}.latest-feature-copy strong{font-size:15px}.hero-series{align-items:flex-start;gap:13px;padding:13px 0}.hero-series>div{gap:6px}.latest-records,.reading-guide,.active-series{padding-top:72px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
   }
-  @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}.archive-title-wrap,.record-card img,.guide-card{transform:none!important}}
+  @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}.record-card img,.guide-card,.latest-feature{transform:none!important}}
 </style>
