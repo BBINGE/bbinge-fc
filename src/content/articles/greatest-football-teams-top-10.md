@@ -466,7 +466,17 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 영국 클럽의 유럽 정복은 이미 움직이기 시작한 역사였다. 토트넘이 1963년 유러피언 컵위너스컵<span class="foreign-note" lang="en">(European Cup Winners' Cup)</span>으로 첫 문을 열었고 웨스트햄도 1965년 같은 컵을 들었다. 그러나 가장 큰 트로피를 처음 영국으로 가져온 도시는 런던도 맨체스터도 아닌 글래스고였다. 맨체스터 유나이티드의 잉글랜드 최초 우승은 그다음 해에 왔다.
 
-경기가 끝난 뒤 빌 섕클리<span class="foreign-note" lang="en">(Bill Shankly, 스코틀랜드 축구선수·감독, 1913–1981)</span>가 조크 스타인에게 “John, you're immortal now”라고 말했다는 일화가 남아 있다. 훗날 알렉스 퍼거슨은 스코틀랜드 대표팀에서 스타인을 보좌했고, 1985년 스타인이 경기 도중 쓰러졌을 때도 곁에 있었다. 셀틱의 리스본을 따라가다 보면 리버풀과 맨체스터 유나이티드의 역사까지 한 줄로 이어진다. 참가한 다섯 대회를 모두 우승했다는 표만으로는 보이지 않는, 이 시즌의 진짜 크기다.
+<figure class="history-quote-card">
+  <img src="/images/history/greatest-teams-top-10/jock-stein-1971.webp" alt="1971년 암스테르담의 조크 스타인" width="720" height="900" loading="lazy" />
+  <blockquote>
+    <span>AFTER LISBON · 25 MAY 1967</span>
+    <p lang="en">“John, you're immortal now.”</p>
+    <footer>빌 섕클리가 조크 스타인에게</footer>
+  </blockquote>
+  <figcaption>조크 스타인, 1971년 암스테르담. Anefo·네덜란드 국립기록원, CC0.</figcaption>
+</figure>
+
+경기가 끝난 뒤 빌 섕클리<span class="foreign-note" lang="en">(Bill Shankly, 스코틀랜드 축구선수·감독, 1913–1981)</span>가 조크 스타인에게 건넸다고 전해지는 말이다. 훗날 알렉스 퍼거슨은 스코틀랜드 대표팀에서 스타인을 보좌했고, 1985년 스타인이 경기 도중 쓰러졌을 때도 곁에 있었다. 셀틱의 리스본을 따라가다 보면 리버풀과 맨체스터 유나이티드의 역사까지 한 줄로 이어진다. 참가한 다섯 대회를 모두 우승했다는 표만으로는 보이지 않는, 이 시즌의 진짜 크기다.
 
 ---
 
@@ -504,11 +514,22 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 | 요한 크라위프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CF / AM |
 | 피트 케이저 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LW |
 
+<aside class="ajax-achievement-card" aria-label="1971-72 아약스의 핵심 성취">
+  <p>AFC AJAX · 1971-72</p>
+  <div>
+    <section><strong>1</strong><span>공식전 패배</span></section>
+    <section><strong>TREBLE</strong><span>리그·컵·유러피언컵</span></section>
+    <section><strong>2 / 3</strong><span>유러피언컵 3연패 중 두 번째 우승</span></section>
+  </div>
+</aside>
+
 1972년 5월 31일, 결승 장소는 로테르담의 더 카위프였다. 네덜란드에서 열린 유러피언컵 결승에 아약스와 인테르가 들어왔으니 대진표부터 전술사 교과서처럼 보였다. 한쪽에는 선수를 위치에 묶어두지 않는 아약스, 다른 쪽에는 위험 지역을 잠그는 법으로 한 시대를 지배한 인테르가 있었다. 크라위프는 후반에 두 골을 넣었고, 두 번째 골 뒤에는 골대 안으로 들어간 공보다 인테르 수비수들이 서로를 바라보는 장면이 더 오래 남는다.
 
 토털 풋볼<span class="foreign-note" lang="nl">(totaalvoetbal; 선수를 특정 위치에 고정하기보다 공간을 기준으로 움직이게 하고 한 선수가 비운 위치를 다른 선수가 메우며 팀의 구조를 유지하는 축구 사상)</span>을 ‘아무나 아무 데나 뛰는 축구’로 기억하면 정반대로 이해한 셈이다. 크라위프가 비운 중앙을 누가 공격할지, 크롤이 전진한 뒤를 누가 메울지, 모든 선수가 다음 이동을 알고 있어야 자유가 가능했다. 무질서가 아니라 공유된 질서가 너무 촘촘해서 위치가 자유롭게 보였던 축구였다.
 
-더 놀라운 것은 설계자 리뉘스 미헬스<span class="foreign-note" lang="nl">(Rinus Michels, 네덜란드 축구선수·감독, 1928–2005)</span>가 이미 바르셀로나로 떠난 뒤였다는 점이다. 후임 슈테판 코바치 아래에서 아약스는 약해지지 않았고, 오히려 리그·컵·유러피언컵을 한꺼번에 가져왔다. 페예노르트의 1970년 우승부터 아약스의 1971–73년 3연패까지 네덜란드 클럽이 유러피언컵을 네 시즌 연속 독점했는데, 그 한가운데 놓인 1972년은 아이디어가 유행을 넘어 지배 질서가 된 순간이었다.
+더 놀라운 것은 설계자 리뉘스 미헬스<span class="foreign-note" lang="nl">(Rinus Michels, 네덜란드 축구선수·감독, 1928–2005)</span>가 이미 바르셀로나로 떠난 뒤였다는 점이다. 후임 슈테판 코바치 아래에서 아약스는 약해지지 않았고, 오히려 리그·컵·유러피언컵을 한꺼번에 가져왔다.
+
+이 우승은 단발성 절정도 아니었다. 아약스는 1971년 파나티나이코스를 꺾고 처음 유럽 정상에 오른 뒤 1972년 인테르, 1973년 유벤투스를 차례로 꺾어 **유러피언컵 3연패**를 완성했다. 이 글이 고른 1971-72시즌은 그 왕조의 두 번째 왕관이자 유일한 트레블 시즌이다. 페예노르트의 1970년 우승까지 합치면 네덜란드 클럽이 유러피언컵을 네 시즌 연속 독점했으니, 로테르담의 2-0은 새로운 아이디어가 반짝 유행한 경기가 아니라 유럽의 지배 질서가 통째로 북해 쪽으로 이동한 장면이었다.
 
 ---
 
@@ -628,6 +649,8 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
     <li><a href="https://www.uefa.com/uefachampionsleague/news/0253-0d7ff54908f6-5927d0a16600-1000--the-greatest-teams-of-all-time-ajax-1971-73/">UEFA · 1971–73 아약스와 토털 풋볼</a></li>
     <li><a href="https://www.uefa.com/uefachampionsleague/news/0250-0e99a1320258-062bdd128088-1000--snap-shot-ajax-s-1995-champions-league-winners/">UEFA · 1995 결승과 클라위버르트의 84분 결승골</a></li>
     <li><a href="https://www.celticfc.com/news/5962">Celtic FC · 리스본 라이언스 11명의 30마일 출생 반경</a></li>
+    <li><a href="https://www.celticfc.com/players/legends/jock-stein/">Celtic FC · 조크 스타인과 빌 섕클리의 리스본 인용</a></li>
+    <li><a href="https://commons.wikimedia.org/wiki/File:Trainer_Jock_Stein_van_Celtic_in_het_Hiltonhotel,_Bestanddeelnr_924-3395.jpg">Wikimedia Commons · 1971년 조크 스타인 사진, Anefo·CC0</a></li>
     <li><a href="https://www.uefa.com/news-media/news/0250-0f8e6ac4697b-e70bae485838-1000--lisbon-lion-billy-mcneill-passes-away/">UEFA · 1967 유러피언컵과 리스본 라이언스</a></li>
     <li><a href="https://fcbayern.com/en/club/history/mile-stones/2010-to-2013-the-historic-treble">FC Bayern · 2012-13 역사적 트레블</a></li>
     <li><a href="https://fcbayern.com/de/news/spielberichte/2020/08/spielbericht-champions-league-paris-saint-germain-fc-bayern">FC Bayern · 2020 UEFA 챔피언스 리그 11전 전승</a></li>

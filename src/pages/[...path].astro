@@ -371,6 +371,20 @@ if (props.kind === 'category') {
   .article-body :global(.club-scoreboard__teams b) { font-family: var(--font-sans); font-size: 50px; line-height: 1; font-weight: 760; letter-spacing: -.045em; }
   .article-body :global(.club-scoreboard__teams em) { padding: 5px 7px; border: 1px solid rgba(255,255,255,.2); border-radius: 999px; color: rgba(255,255,255,.62); font-size: 7px; line-height: 1; font-style: normal; letter-spacing: .08em; white-space: nowrap; }
   .article-body :global(.club-scoreboard > small) { display: block; margin-top: 20px; padding-top: 13px; border-top: 1px solid rgba(255,255,255,.12); color: rgba(255,255,255,.48); font-size: 9px; line-height: 1.45; letter-spacing: .05em; text-align: center; }
+  .article-body :global(.history-quote-card) { display: grid; grid-template-columns: minmax(170px, .72fr) minmax(0, 1.55fr); margin: 32px 0 54px; overflow: hidden; border-radius: var(--bbfc-radius-lg); background: #111927; color: #fff; box-shadow: 0 12px 34px rgba(14,29,48,.14); }
+  .article-body :global(.history-quote-card > img) { grid-row: 1 / span 2; width: 100%; height: 100%; min-height: 280px; margin: 0; border-radius: 0; object-fit: cover; object-position: 50% 34%; filter: grayscale(1) contrast(1.06); }
+  .article-body :global(.history-quote-card blockquote) { align-self: center; margin: 0; padding: 34px 34px 26px; border: 0; font-family: var(--font-sans); }
+  .article-body :global(.history-quote-card blockquote > span) { display: block; color: rgba(255,255,255,.48); font-size: 9px; line-height: 1.4; font-weight: 750; letter-spacing: .14em; }
+  .article-body :global(.history-quote-card blockquote > p) { margin: 15px 0 18px; color: #fff; font-size: clamp(27px, 4.4vw, 43px); line-height: 1.08; font-weight: 780; letter-spacing: -.05em; }
+  .article-body :global(.history-quote-card blockquote footer) { color: rgba(255,255,255,.7); font-size: 12px; line-height: 1.5; font-weight: 620; }
+  .article-body :global(.history-quote-card > figcaption) { margin: 0; padding: 0 34px 24px; color: rgba(255,255,255,.42); font-size: 9px; line-height: 1.45; }
+  .article-body :global(.ajax-achievement-card) { margin: 30px 0 54px; padding: 24px 26px 26px; border-top: 3px solid var(--bbfc-blue); background: linear-gradient(145deg, #111927, #1b2a40); color: #fff; font-family: var(--font-sans); }
+  .article-body :global(.ajax-achievement-card > p) { margin: 0 0 19px; color: rgba(255,255,255,.48); font-size: 9px; line-height: 1.4; font-weight: 750; letter-spacing: .15em; }
+  .article-body :global(.ajax-achievement-card > div) { display: grid; grid-template-columns: .7fr 1.15fr 1.25fr; }
+  .article-body :global(.ajax-achievement-card section) { min-width: 0; padding: 0 20px; border-left: 1px solid rgba(255,255,255,.14); }
+  .article-body :global(.ajax-achievement-card section:first-child) { padding-left: 0; border-left: 0; }
+  .article-body :global(.ajax-achievement-card strong) { display: block; font-size: clamp(29px, 4.5vw, 43px); line-height: 1; font-weight: 790; letter-spacing: -.05em; }
+  .article-body :global(.ajax-achievement-card span) { display: block; margin-top: 9px; color: rgba(255,255,255,.62); font-size: 11px; line-height: 1.45; }
   .article-body :global(.highlight-scene) { margin: 34px 0 68px; }
   .article-body :global(.highlight-scene header) { margin-bottom: 18px; padding-bottom: 13px; border-bottom: 1px solid var(--bbfc-border); }
   .article-body :global(.highlight-scene header span) { display: block; color: var(--bbfc-blue); font-size: 9px; line-height: 1.4; font-weight: 750; letter-spacing: .13em; }
@@ -451,6 +465,20 @@ if (props.kind === 'category') {
     .article-body :global(.club-scoreboard__teams > span) { gap: 6px; }
     .article-body :global(.club-scoreboard__teams b) { font-size: 36px; }
     .article-body :global(.club-scoreboard__teams em) { padding: 4px; font-size: 6px; }
+    .article-body :global(.history-quote-card) { grid-template-columns: 112px minmax(0, 1fr); margin: 26px 0 48px; }
+    .article-body :global(.history-quote-card > img) { min-height: 224px; }
+    .article-body :global(.history-quote-card blockquote) { padding: 24px 18px 17px; }
+    .article-body :global(.history-quote-card blockquote > span) { font-size: 7px; letter-spacing: .1em; }
+    .article-body :global(.history-quote-card blockquote > p) { margin: 12px 0 15px; font-size: 24px; }
+    .article-body :global(.history-quote-card blockquote footer) { font-size: 10px; }
+    .article-body :global(.history-quote-card > figcaption) { padding: 0 18px 16px; font-size: 8px; }
+    .article-body :global(.ajax-achievement-card) { margin: 25px 0 48px; padding: 21px 17px 22px; }
+    .article-body :global(.ajax-achievement-card > div) { grid-template-columns: 1fr; }
+    .article-body :global(.ajax-achievement-card section) { display: grid; grid-template-columns: 92px minmax(0,1fr); align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid rgba(255,255,255,.14); border-left: 0; }
+    .article-body :global(.ajax-achievement-card section:first-child) { padding-top: 0; border-top: 0; }
+    .article-body :global(.ajax-achievement-card section:last-child) { padding-bottom: 0; }
+    .article-body :global(.ajax-achievement-card strong) { font-size: 29px; }
+    .article-body :global(.ajax-achievement-card span) { margin-top: 0; font-size: 10px; }
     .article-body :global(.highlight-scene) { margin-bottom: 54px; }
     .article-body :global(.highlight-scene header h3) { font-size: 19px; }
     .article-body :global(.highlight-clip-grid.two-clips) { grid-template-columns: 1fr; gap: 24px; }
