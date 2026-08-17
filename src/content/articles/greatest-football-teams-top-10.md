@@ -115,12 +115,12 @@ draft: false
 | 인물 | 국적 | 포지션·직군 | 역할 |
 |---|---|---|---|
 | 펩 과르디올라 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | 감독 | 1군 첫 시즌에 전술 구조 재편 |
-| 리오넬 메시 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | RW / CF | 오른쪽과 중앙을 오가며 공격 중심 |
+| 세르히오 부스케츠 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | DM | 1군 첫 시즌부터 후방 연결 |
 | 차비 에르난데스 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | CM | 경기 속도와 패스 방향 조절 |
 | 안드레스 이니에스타 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | CM / AM | 압박 탈출·전진 연결 |
+| 리오넬 메시 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | RW / CF | 오른쪽과 중앙을 오가며 공격 중심 |
 | 사뮈엘 에토 | 카메룬 <img class="flag" src="/images/flags/cm.svg" alt="카메룬 국기" /> | CF | 득점·전방 압박 |
 | 티에리 앙리 | 프랑스 <img class="flag" src="/images/flags/fr.svg" alt="프랑스 국기" /> | LW / CF | 왼쪽 침투·득점 |
-| 세르히오 부스케츠 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | DM | 1군 첫 시즌부터 후방 연결 |
 
 ### 시대 배경 │ 당시 유럽은 어떤 곳이었나
 
@@ -128,7 +128,7 @@ draft: false
 
 시작도 썩 좋지 않았다. 라리가 개막전에서 CD 누만시아<span class="foreign-note" lang="es">(CD Numancia)</span>에 0-1로 졌고 두 번째 경기에서는 라싱 산탄데르<span class="foreign-note" lang="es">(Racing de Santander)</span>와 1-1로 비겼다. 훗날의 역사를 모른 채 당시 신문만 읽었다면 ‘B팀 감독을 너무 빨리 1군에 올린 것 아닌가’라는 의문이 충분히 나올 수 있는 출발이었다.
 
-과르디올라는 메시를 오른쪽 윙어에 고정하지 않았다. 특히 중요한 경기에서는 메시가 중앙으로 내려가며 상대 센터백의 기준점을 흐렸고, 차비와 이니에스타가 그 주변에서 패스 선택지를 늘렸다. 거짓 9번<span class="foreign-note" lang="en">(false nine; 명목상 최전방 공격수가 미드필드 방향으로 내려와 상대 중앙수비의 판단을 어렵게 만드는 역할)</span>이 당대 대중에게 널리 알려진 것도 이 팀의 영향이 컸다.
+과르디올라는 메시를 오른쪽 윙어에 고정하지 않았다. 특히 중요한 경기에서는 메시가 중앙으로 내려가며 상대 센터백의 기준점을 흐렸고, 차비와 이니에스타가 그 주변에서 패스 선택지를 늘렸다. 폴스 나인<span class="foreign-note" lang="en">(false nine; 명목상 최전방 공격수가 미드필드 방향으로 내려와 상대 중앙수비의 판단을 어렵게 만드는 역할)</span>이 당대 대중에게 널리 알려진 것도 이 팀의 영향이 컸다.
 
 그리고 2009년 봄, 바르셀로나는 레알 마드리드 원정에서 **6-2**를 만들었다.
 
@@ -288,8 +288,8 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 | 텔레 산타나 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 감독 |
 | 제치 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | GK |
 | 카푸 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | RB |
-| 토니뉴 세레주 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CM |
 | 레오나르두 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | LB / LM |
+| 토니뉴 세레주 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CM |
 | 하이 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | AM |
 | 뮐레르 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | FW |
 
@@ -663,12 +663,12 @@ UEFA에 따르면 우승팀 대부분이 셀틱 파크 인근에서 태어났다
 | 인물 | 국적 | 포지션 |
 |---|---|---|
 | 슈테판 코바치 | 루마니아 <img class="flag" src="/images/flags/ro.svg" alt="루마니아 국기" /> | 감독 |
-| 요한 크라위프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CF / AM |
-| 요한 네이스컨스 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
-| 피트 케이저 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LW |
 | 뤼트 크롤 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LB / SW |
 | 바리 훌스호프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CB |
+| 요한 네이스컨스 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
 | 헤리 뮈런 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
+| 요한 크라위프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CF / AM |
+| 피트 케이저 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LW |
 
 1950년대 유러피언컵의 얼굴은 레알 마드리드였다.
 
