@@ -39,30 +39,30 @@ draft: false
 
 ## 여담
 
-### 산티아고 400주년이 부른 특별 대회
+### 생일잔치의 형식을 빌린 남미 최강전
 
-1941년 대회는 산티아고 건설 400주년을 기념해 열렸다. 볼리비아·브라질·파라과이가 빠졌지만 남미연맹의 공식 연표에서는 다른 대회와 마찬가지로 우승 횟수에 포함된다. 고정된 개최 주기가 없던 시절에는 국가적 기념일과 개최 도시의 의지가 대회를 움직이는 중요한 동력이었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+1941년 2월의 산티아고는 도시 건설 400주년을 기념하고 있었다. 그래서 이 대회는 남미연맹이 정례 일정에 따라 배정한 대회가 아니라 칠레가 기념사업으로 제안한 특별 대회였다. 브라질·파라과이·볼리비아가 오지 않았어도 우승의 무게까지 가벼워진 것은 아니다. 아직 개최 간격도, 예선도, 완성된 순번표도 없던 남미선수권에서는 도시의 기념일과 국가의 초청장이 곧 대회의 달력이었다. 그리고 CONMEBOL과 아르헨티나축구협회의 우승 연표는 이때의 결과를 정식 대륙 우승으로 센다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-아르헨티나가 데려온 공격진은 특별 대회라는 말의 가벼움을 허락하지 않았다. 호세 마누엘 모레노<span class="foreign-note" lang="es-AR">(José Manuel Moreno Fernández; 아르헨티나 공격수, 1916–1978)</span>, 아돌포 페데르네라, 안토니오 사스트레가 한 줄에 섰고, 중앙의 후안 마르베시가 에콰도르전에서만 다섯 골을 넣었다. 훗날 ‘라 마키나’라고 불릴 리버 플레이트 공격 축의 일부가 이미 대표팀에서 서로의 움직임을 알고 있었다.
+초청장을 받고 넘어온 아르헨티나 선수단을 보면 ‘특별’이라는 말은 더 이상 친선의 동의어가 아니다. 호세 마누엘 모레노<span class="foreign-note" lang="es-AR">(José Manuel Moreno Fernández; 아르헨티나 공격수, 1916–1978)</span>와 아돌포 페데르네라, 안토니오 사스트레가 있었고, 중앙에는 산 로렌소의 후안 마르베시가 섰다. 리버 플레이트가 곧 완성할 ‘라 마키나’의 핵심들이 대표팀 안에서 먼저 호흡을 맞추던 시기였다. 에콰도르전에서 마르베시가 혼자 다섯 골을 넣었지만, 아르헨티나의 위력은 한 명의 득점보다 공을 받을 자리가 계속 바뀐다는 데 있었다.
 
-### 스무 살 골키퍼에게 주어진 대표팀 첫 경기
+### 원래는 후보였던 스무 살의 한 달
 
-리빙스턴은 대회 개막전이던 에콰도르전에서 칠레 대표팀 공식 데뷔전을 치렀다. 칠레가 5-0으로 이긴 이 경기는 신인 골키퍼에게 조용한 출발처럼 보이지만, 다음 상대부터 상황이 달라졌다. 페루를 1-0으로 막아낸 뒤 우루과이와 아르헨티나를 차례로 만났다. 당시 두 나라는 남미선수권 열다섯 번 가운데 열두 번을 우승한 대륙의 양대 기준이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+리빙스턴은 처음부터 칠레의 확정된 주전으로 소집된 선수가 아니었다. 우니베르시다드 카톨리카에서 이제 막 두각을 나타낸 스무 살 후보 골키퍼였지만, 2월 2일 에콰도르와의 개막전에 선발돼 공식 A매치 데뷔전을 치렀다. 5-0 승리 뒤에는 페루를 1-0으로 막았고, 그 다음 두 경기에서 우루과이와 아르헨티나를 만났다. 당시까지 열린 남미선수권 열다섯 번 가운데 열두 번을 나눠 가진 두 나라가 신인의 실전 시험지로 연달아 놓인 셈이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
-우루과이는 전반 35분 후안 크루체의 골과 경기 막판 오스카르 치리미니의 골로 2-0 승리를 거뒀다. 한 달 뒤 마지막 경기에서는 아르헨티나가 엔리케 가르시아의 71분 결승골로 칠레를 눌렀다. 개최국은 두 강호에게 졌지만, 두 경기에서 허용한 골은 세 개뿐이었다. 아르헨티나가 에콰도르에 여섯 골을 넣고 우루과이가 같은 상대에 여섯 골을 넣던 대회였다는 점을 함께 놓아야 리빙스턴의 평가가 보인다.
+우루과이는 후안 크루체가 전반 35분 선제골을 넣은 뒤 경기 막판 오스카르 치리미니가 한 골을 보태 2-0으로 이겼다. 마지막 아르헨티나전에서는 71분 엔리케 가르시아의 슈팅 하나만 골문을 통과했다. 칠레는 결국 두 강국에 모두 졌다. 다만 에콰도르를 상대로 여섯 골씩 넣은 두 공격진이 개최국을 만났을 때 합쳐서 세 골에 그쳤다는 대조가 남았다. 순위표의 3위만 읽으면 사라지는 것이 바로 그 저항의 질이다.
 
-### 우승하지 않은 팀에서 대회의 얼굴이 나오다
+### 골키퍼가 골라인을 떠나는 일이 뉴스였던 시대
 
-칠레 국립도서관은 리빙스턴이 이 대회에서 최우수 골키퍼와 최우수 선수로 선정됐다고 기록한다. 초기 코파 아메리카의 후대 대표 선수 목록은 공식 트로피 수상자처럼 다뤄서는 안 되지만, 1941년만큼은 국가 기록기관이 구체적인 당대 평가를 별도로 남겼다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+칠레 국립도서관이 보존한 리빙스턴의 회고에는 당시 골키퍼의 조건이 아주 물리적으로 남아 있다. 1940년대 말까지도 칠레 골키퍼들은 맨손으로 공을 잡았고, 골문 앞 잔디가 벗겨진 땅에 몸을 던질 때 의지할 장비는 무릎 보호대 정도였다. 통상적인 골키퍼는 세 골대 사이에서 기다리며 실수를 줄이는 사람으로 이해됐다. 리빙스턴은 그 정형을 깨고 앞으로 나와 각도를 지웠으며, 다리를 굽힌 채 튀어 오르는 동작과 곡예에 가까운 선방을 반복했다. 중계자 구스타보 아기레가 그 모습을 보고 붙인 ‘사포’, 곧 두꺼비라는 별명이 단순한 외모 묘사가 아니었던 이유다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
-이 선택은 결과표만 따라가면 이상해 보인다. 아르헨티나는 전승했고, 마르베시는 득점왕이었으며, 모레노는 페루전 두 골을 포함해 공격을 지배했다. 리빙스턴의 칠레는 3위였다. 그러나 당시의 평가는 메달의 색보다 골키퍼가 어떤 공격을 상대로 얼마나 오래 경기를 붙잡았는지를 보았다. 우승팀의 공격수가 아니라, 그 공격을 가장 오래 견딘 개최국의 신인이 대회의 인상으로 남은 셈이다.
+그래서 칠레 국립도서관이 1941년의 그를 최우수 골키퍼이자 대회 최우수 선수로 기록한 대목은 우승국을 놓친 인기투표 정도로 치부하기 어렵다. 공식 MVP 트로피가 정비되기 전의 선정이라는 한계는 분명하지만, 당대의 관찰자들이 무엇을 새롭다고 느꼈는지는 선명하다. 전승 우승팀의 공격수가 아니라, 그 공격수들을 상대로 골키퍼의 활동 반경을 다시 보여준 개최국 신인이 대회의 얼굴이 됐다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-### ‘사포’가 남미의 골문을 배우기 시작한 곳
+### 산티아고에서 발견되고, 부에노스아이레스에서 검증되다
 
-리빙스턴의 별명은 ‘사포’, 두꺼비였다. 낮게 웅크렸다가 공을 향해 튀어 오르는 동작에서 붙은 이름으로 전해진다. 1943년에는 아르헨티나의 라싱 클루브로 건너가 주장까지 맡았고, 1949년에는 모레노와 함께 우니베르시다드 카톨리카의 첫 리그 우승을 이끌었다. 1950년 월드컵에서는 칠레의 주장이었다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+그 평판은 국경 안에서만 소비되지 않았다. 1943년 라싱 클루브는 우니베르시다드 카톨리카에 당시로서는 기록적인 2만4천 달러를 지불하고 리빙스턴을 데려갔다. 첫 상대는 공교롭게도 보카 주니어스였다. 외국 생활의 첫날, 코너킥을 그대로 흘려 올림피코 골을 내주고 2-4로 졌다. 훗날 그는 관중석에서 “이 선수를 데려온 거야?”라는 반응이 나왔다고 회고했다. 그러나 한 시즌 30경기를 치르는 동안 그 야유를 뒤집어 칠레 선수로서는 드물게 라싱의 주장까지 맡았다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-그 긴 경력의 출발점이 1941년 산티아고다. 우승컵은 아르헨티나가 가져갔지만, 홈 관중이 처음 발견한 골키퍼는 이후 여섯 차례 남미선수권을 치르며 대회 최다 출전 기록의 한 축이 됐다. 1941년을 전승 우승의 숫자로만 남기면, 남미 축구가 처음 자기 골키퍼 영웅을 알아본 순간이 사라진다.
+더 기묘한 것은 귀국 이유다. 실패해서 밀려난 것이 아니라, 훗날 아내가 되는 루시아 비방코와 떨어져 있고 싶지 않아 1944년 스스로 돌아왔다. 이후 1949년에는 1941년 산티아고에서 상대했던 모레노와 우니베르시다드 카톨리카의 첫 리그 우승을 함께 만들었고, 1950년 월드컵에서는 칠레의 주장이 됐다. 1941년은 위대한 경력의 예고편이어서 중요한 대회가 아니다. 후보 골키퍼가 한 달 만에 국가의 새로운 경기 양식을 대표하고, 그 장면을 본 이웃 나라의 거대 클럽이 실제 이적료를 지불한 출발점이었기에 중요하다.
 
 ## 출처와 기록 기준
 
-<div class="source-notes"><ol><li id="source-1"><a href="https://www.afa.com.ar/sitio/posts/1941-campeones-en-santiago-">«1941: campeones en Santiago»</a>, AFA.</li><li id="source-2"><a href="https://www.rsssf.org/tables/41safull.html">«Southamerican Championship 1941»</a>, RSSSF.</li><li id="source-3"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124736.html">«Campeonato Sudamericano»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-4"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124721.html">«Sergio Livingstone (1920–2012)»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-5"><a href="https://commons.wikimedia.org/wiki/File:Sergio_Livingstine_el_grafico.jpg">«Sergio Livingstine el grafico.jpg»</a>, 《El Gráfico》 1942년 사진, Wikimedia Commons, 공공영역.</li></ol><p class="record-note">1941년 리빙스턴의 선정은 칠레 국립도서관의 독립 기록으로 확인했다. 시리즈 제목의 ‘최우수 선수’와 별개로 구조화 카드에서는 초기 대회의 시상 체계를 현대 공식 MVP와 혼동하지 않도록 ‘대회 대표 선수’라고 표기한다.</p></div>
+<div class="source-notes"><ol><li id="source-1"><a href="https://www.afa.com.ar/sitio/posts/1941-campeones-en-santiago-">«1941: campeones en Santiago»</a>, AFA.</li><li id="source-2"><a href="https://www.rsssf.org/tables/41safull.html">«Southamerican Championship 1941»</a>, RSSSF.</li><li id="source-3"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124736.html">«Campeonato Sudamericano»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-4"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124721.html">«Sergio Livingstone (1920–2012)»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-5"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124738.html">«contratado por Racing Club»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-6"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124735.html">«un lugar en la Selección Nacional»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-7"><a href="https://www.memoriachilena.gob.cl/602/w3-article-124737.html">«estilo como guardavallas»</a>, Memoria Chilena·칠레 국립도서관.</li><li id="source-8"><a href="https://commons.wikimedia.org/wiki/File:Sergio_Livingstine_el_grafico.jpg">«Sergio Livingstine el grafico.jpg»</a>, 《El Gráfico》 1942년 사진, Wikimedia Commons, 공공영역.</li></ol><p class="record-note">1941년 리빙스턴의 선정은 칠레 국립도서관의 독립 기록으로 확인했다. 시리즈 제목의 ‘최우수 선수’와 별개로 구조화 카드에서는 초기 대회의 시상 체계를 현대 공식 MVP와 혼동하지 않도록 ‘대회 대표 선수’라고 표기한다.</p></div>
