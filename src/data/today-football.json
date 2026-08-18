@@ -1,24 +1,13 @@
 {
-  "date": "2026-08-18",
-  "updatedAt": "2026-08-17T16:02:52.889Z",
+  "date": "2026-08-19",
+  "updatedAt": "2026-08-18T18:41:19.408Z",
   "birthday": {
-    "name": "쥐스트 퐁텐",
-    "birthYear": 1933,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q192749",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Just%20Fontaine%20en%201958.jpg?width=700"
+    "name": "마르코 마테라치",
+    "birthYear": 1973,
+    "wikidataUrl": "http://www.wikidata.org/entity/Q185081",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Materazzi%202020.jpg?width=700"
   },
-  "matches": [
-    {
-      "id": "2398017",
-      "league": "아르헨티나 프리메라 디비시온",
-      "home": "Gimnasia y Esgrima de Mendoza",
-      "away": "Talleres de Córdoba",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/h11mlf1677636958.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/7hum2t1769310938.png",
-      "time": "09:30",
-      "date": "2026-08-18"
-    }
-  ],
+  "matches": [],
   "status": {
     "birthday": {
       "state": "ok",
@@ -26,7 +15,7 @@
       "error": null
     },
     "matches": {
-      "state": "ok",
+      "state": "empty",
       "source": "TheSportsDB",
       "error": null
     }

@@ -12,6 +12,12 @@
       "birthYear": 1933,
       "wikidataUrl": "http://www.wikidata.org/entity/Q192749",
       "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Just%20Fontaine%20en%201958.jpg?width=700"
+    },
+    "08-19": {
+      "name": "마르코 마테라치",
+      "birthYear": 1973,
+      "wikidataUrl": "http://www.wikidata.org/entity/Q185081",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Materazzi%202020.jpg?width=700"
     }
   }
 }
