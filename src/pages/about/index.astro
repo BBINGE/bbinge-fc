@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 
 const INSTAGRAM_URL = 'https://www.instagram.com/bbinge_26/';
 const NAVER_BLOG_URL = 'https://blog.naver.com/sho3603';
+const NAVER_PERSON_URL = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%82%A5%EC%9D%B4&ackey=dk3r9q7f';
 const EMAIL = 'sho3603@naver.com';
 const profileSchema = {
   '@context': 'https://schema.org',
@@ -184,7 +185,13 @@ const clients = [
           </div>
         </div>
         <div data-reveal class="order-1 md:order-2 md:justify-self-end">
-          <div class="about-photo-frame w-[176px] h-[208px] md:w-[300px] md:h-[360px]">
+          <a
+            href={NAVER_PERSON_URL}
+            target="_blank"
+            rel="noopener"
+            aria-label="네이버 인물정보에서 박성호(삥이) 보기 (새 창)"
+            class="about-photo-frame w-[176px] h-[208px] md:w-[300px] md:h-[360px]"
+          >
             <img
               src="/images/profile-bbinge.png"
               alt="박성호(삥이) 프로필"
@@ -194,7 +201,7 @@ const clients = [
               fetchpriority="high"
               class="about-photo"
             />
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -460,11 +467,16 @@ const clients = [
   }
 
   .about-photo-frame {
+    display: block;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 82%, 82% 100%, 0 100%);
     box-shadow: 0 0 0 1px var(--bbfc-border), 0 20px 40px -20px rgba(25, 31, 40, 0.25);
+  }
+  .about-photo-frame:focus-visible {
+    outline: 3px solid var(--bbfc-blue);
+    outline-offset: 4px;
   }
   .about-photo {
     width: 100%;
