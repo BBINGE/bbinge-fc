@@ -40,9 +40,9 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <div class="honours-grid"><div><span>득점 1위</span><strong>레오니다스 다시우바</strong><small>브라질 · 4경기 7골</small></div><div><span>득점 공동 2위</span><strong>실비오 피올라</strong><small>이탈리아 · 4경기 5골</small></div><div><span>득점 공동 2위</span><strong>샤로시 죄르지 · 젱겔러 줄러</strong><small>헝가리 · 각 5골</small></div></div>
 
-브라질은 우승하지 못했지만 대회의 가장 강렬한 공격수는 레오니다스 다시우바<span class="foreign-note" lang="pt-BR">(Leônidas da Silva; 브라질 공격수, 1913~2004)</span>였다. 폴란드와의 첫 경기에서 해트트릭을 포함해 네 골을 넣었고, 체코슬로바키아와의 두 경기와 3·4위전에서도 득점했다. 준결승 이탈리아전에는 출전하지 못했는데도 일곱 골로 득점왕을 차지했다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+브라질은 우승하지 못했지만 대회의 가장 강렬한 공격수는 레오니다스 다시우바<span class="foreign-note" lang="pt-BR">(Leônidas da Silva; 브라질 공격수, 1913–2004)</span>였다. 폴란드와의 첫 경기에서 해트트릭을 포함해 네 골을 넣었고, 체코슬로바키아와의 두 경기와 3·4위전에서도 득점했다. 준결승 이탈리아전에는 출전하지 못했는데도 일곱 골로 득점왕을 차지했다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-그 뒤를 실비오 피올라<span class="foreign-note" lang="it">(Silvio Piola; 이탈리아 센터 포워드, 1913~1996)</span>와 헝가리의 샤로시 죄르지<span class="foreign-note" lang="hu">(Sárosi György; 헝가리 공격수, 1912~1993)</span>, 젱겔러 줄러<span class="foreign-note" lang="hu">(Zsengellér Gyula; 헝가리 공격수, 1915~1999)</span>가 다섯 골로 따랐다. 결승에서도 피올라는 두 골, 샤로시는 한 골을 넣었다. 젱겔러는 결승에서 득점하지 못했지만 앞선 세 경기에서 다섯 골을 몰아쳤다. 공격수 네 명의 이름만으로도 이 대회가 왜 별들의 잔치였는지 충분히 설명된다.
+그 뒤를 실비오 피올라<span class="foreign-note" lang="it">(Silvio Piola; 이탈리아 센터 포워드, 1913–1996)</span>와 헝가리의 샤로시 죄르지<span class="foreign-note" lang="hu">(Sárosi György; 헝가리 공격수, 1912–1993)</span>, 젱겔러 줄러<span class="foreign-note" lang="hu">(Zsengellér Gyula; 헝가리 공격수, 1915–1999)</span>가 다섯 골로 따랐다. 결승에서도 피올라는 두 골, 샤로시는 한 골을 넣었다. 젱겔러는 결승에서 득점하지 못했지만 앞선 세 경기에서 다섯 골을 몰아쳤다. 공격수 네 명의 이름만으로도 이 대회가 왜 별들의 잔치였는지 충분히 설명된다.
 
 ## 1938 월드컵 베스트 11
 
@@ -92,13 +92,13 @@ relatedGroup: 'fifa-world-cup-1938'
 
 ### 플라니치카가 끝까지 지킨 골문
 
-프란티셰크 플라니치카<span class="foreign-note" lang="cs">(František Plánička; 체코슬로바키아 골키퍼, 1904~1996)</span>는 체코슬로바키아의 두 경기를 지켰다. 브라질과의 8강 첫 경기는 거친 충돌과 퇴장이 이어져 ‘보르도의 전투’로 불린다. 플라니치카는 부상을 입고도 연장까지 골문을 지켰지만 재경기에는 나서지 못했다. 두 경기만으로 베스트 11에 남은 이유는 출전 수가 아니라 그 경기에서 보여준 존재감에 있다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+프란티셰크 플라니치카<span class="foreign-note" lang="cs">(František Plánička; 체코슬로바키아 골키퍼, 1904–1996)</span>는 체코슬로바키아의 두 경기를 지켰다. 브라질과의 8강 첫 경기는 거친 충돌과 퇴장이 이어져 ‘보르도의 전투’로 불린다. 플라니치카는 부상을 입고도 연장까지 골문을 지켰지만 재경기에는 나서지 못했다. 두 경기만으로 베스트 11에 남은 이유는 출전 수가 아니라 그 경기에서 보여준 존재감에 있다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 ### 우승팀이 채운 중원
 
 라바, 로카텔리, 안드레올로, 포니까지 이탈리아 선수 네 명이 수비와 하프 라인을 채운다. 여기에 공격의 콜라우시와 피올라를 더하면 베스트 11 가운데 이탈리아 선수가 여섯 명이다. 주세페 메아차가 명단에서 빠졌다는 점이 오히려 이 팀의 성격을 선명하게 만든다. 이름값을 다시 세는 명단이 아니라, 프랑스에서 치른 네 경기를 가장 강하게 남긴 선수들을 모은 명단이다.
 
-도밍구스 다 기아<span class="foreign-note" lang="pt-BR">(Domingos Antônio da Guia; 브라질 풀백, 1912~2000)</span>는 우승팀의 수비 사이에 들어간 유일한 브라질 수비수다. 브라질이 폴란드와 11골을 주고받고 체코슬로바키아와 두 번 싸우는 동안, 그는 공격적인 대회의 흐름 속에서도 수비수가 기술로 경기를 풀 수 있다는 인상을 남겼다.
+도밍구스 다 기아<span class="foreign-note" lang="pt-BR">(Domingos Antônio da Guia; 브라질 풀백, 1912–2000)</span>는 우승팀의 수비 사이에 들어간 유일한 브라질 수비수다. 브라질이 폴란드와 11골을 주고받고 체코슬로바키아와 두 번 싸우는 동안, 그는 공격적인 대회의 흐름 속에서도 수비수가 기술로 경기를 풀 수 있다는 인상을 남겼다.
 
 ### 결승전으로 이어지는 여섯 이름
 
