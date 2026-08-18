@@ -25,11 +25,11 @@ featured: false
 
 ## 저승사자 군단이 남긴 숫자
 
-<div class="custom-xi-honours" aria-label="1953년부터 1964년까지 주요 성과"><div><strong>5</strong><span>유러피언컵 연속 우승</span></div><div><strong>8</strong><span>라리가 우승</span></div><div><strong>2</strong><span>코파 라티나 우승</span></div><div><strong>1</strong><span>인터컨티넨탈컵 우승</span></div><div><strong>3</strong><span>발롱도르 수상</span></div></div>
+<div class="custom-xi-honours" aria-label="1953년부터 1964년까지 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>5</strong><span>유러피언컵 연속 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="라리가 트로피" loading="lazy"><strong>8</strong><span>라리가 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="코파 라티나 트로피" loading="lazy"><strong>2</strong><span>코파 라티나 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인터컨티넨탈컵 트로피" loading="lazy"><strong>1</strong><span>인터컨티넨탈컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>3</strong><span>발롱도르 수상</span></div></div>
 
 ‘저승사자 군단’은 특정 감독 한 사람의 고정 전술보다, 베르나베우가 모은 서로 다른 축구 언어가 한 세대 안에서 결합한 팀에 가까웠다. 디스테파노는 전방과 중원을 오갔고, 엑토르 리알은 안쪽에서 경기를 읽었으며, 파코 헨토는 왼쪽 터치라인을 길게 썼다. 뒤에서는 호세 마리아 사라가와 후안 산티스테반이 공격수들이 떠난 공간을 메웠다.
 
-<a class="custom-xi-music" href="https://www.youtube.com/watch?v=RLsqgtD05pw" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Hala Madrid y nada más 재생"><span aria-hidden="true">▶</span><span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>YouTube에서 재생됩니다</em></span><b aria-hidden="true">재생하기 ↗</b></a>
+<a class="custom-xi-music" href="https://www.youtube.com/watch?v=RLsqgtD05pw" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Hala Madrid y nada más 재생"><span aria-hidden="true">▶</span><span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>YouTube에서 재생됩니다</em></span><b class="music-cta" aria-hidden="true">YouTube 이동</b></a>
 
 ## 삥이가 고른 베스트 11
 
