@@ -417,7 +417,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     }
   }
 
-  function enableCommentForm(state, resultId) {
+  function enableCommentForm(resultId) {
     const form = document.getElementById('goat-comment-form');
     const message = document.getElementById('goat-comment-message');
     if (!form || !resultId) {
@@ -546,7 +546,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     document.getElementById('goat-restart')?.addEventListener('click', () => startNewGame());
     loadWinnerStats(winner.id);
     loadComments();
-    submitCompletedResult(state).then((resultId) => enableCommentForm(state, resultId));
+    submitCompletedResult(state).then((resultId) => enableCommentForm(resultId));
   }
 
   function renderSharedPreview(seedStr, winnerId, final4Ids) {
