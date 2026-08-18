@@ -6,7 +6,10 @@ export type CategorySlug = string;
 
 interface CategoryMeta {
   label: string; // 짧은 표시명 (내비게이션)
+  pageTitle?: string; // 카테고리 페이지의 확장 제목 (없으면 label)
   fullLabel: string; // 전체 표시명 (카테고리 페이지 부제)
+  description?: string; // 카테고리 편집 방향
+  emptyMessage?: string; // 발행 글이 없을 때 안내
   parentSlug: CategorySlug | null; // 상위 카테고리 slug, 최상위는 null
 }
 
@@ -21,7 +24,10 @@ export interface CategoryTreeNode extends CategoryNode {
 export const categoryList: CategoryNode[] = categoriesData.categories as CategoryNode[];
 
 export const categories: Record<CategorySlug, CategoryMeta> = Object.fromEntries(
-  categoryList.map(({ slug, label, fullLabel, parentSlug }) => [slug, { label, fullLabel, parentSlug }])
+  categoryList.map(({ slug, label, pageTitle, fullLabel, description, emptyMessage, parentSlug }) => [
+    slug,
+    { label, pageTitle, fullLabel, description, emptyMessage, parentSlug },
+  ])
 );
 
 export const categorySlugs: CategorySlug[] = categoryList.map(({ slug }) => slug);

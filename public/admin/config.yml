@@ -24,7 +24,10 @@ collections:
             fields:
               - { label: 'slug (영문 소문자·숫자·하이픈만, 발행된 글이 있으면 바꾸지 말 것)', name: slug, widget: string, pattern: ['^[a-z0-9-]+$', '영문 소문자, 숫자, 하이픈만 사용'] }
               - { label: 표시명 (짧게, 메뉴에 노출), name: label, widget: string }
+              - { label: 페이지 제목 (선택), name: pageTitle, widget: string, required: false, hint: '메뉴명보다 긴 카테고리 제목이 필요할 때만 입력한다.' }
               - { label: 전체 표시명 (카테고리 페이지 부제), name: fullLabel, widget: string }
+              - { label: 카테고리 설명 (선택), name: description, widget: text, required: false }
+              - { label: 빈 카테고리 안내 (선택), name: emptyMessage, widget: text, required: false }
               - { label: '상위 카테고리 slug (최상위면 비워둘 것)', name: parentSlug, widget: string, required: false, hint: '다른 카테고리 항목의 slug 값을 그대로 입력. 대분류면 비워둔다.' }
   - name: articles
     label: 글

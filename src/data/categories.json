@@ -6,6 +6,36 @@
     { "slug": "culture", "label": "축디", "fullLabel": "축구로 보는 OOTD", "parentSlug": null },
     { "slug": "football-made-easy", "label": "축떡", "fullLabel": "축구를 누워서 떡 먹는 것처럼 쉽게 보는 법", "parentSlug": null },
     { "slug": "highlights", "label": "H/L", "fullLabel": "하이라이트 모아보기", "parentSlug": null },
-    { "slug": "fifa-world-cup", "label": "FIFA 월드컵", "fullLabel": "FIFA 월드컵 하이라이트", "parentSlug": "highlights" }
+    { "slug": "fifa-world-cup", "label": "FIFA 월드컵", "fullLabel": "FIFA 월드컵 하이라이트", "parentSlug": "highlights" },
+    {
+      "slug": "squads",
+      "label": "축쿼드",
+      "pageTitle": "축쿼드 모음.Zip",
+      "fullLabel": "선수 명단과 베스트 11을 기록하는 스쿼드 아카이브",
+      "description": "실제 대회 선수 명단부터 삥이가 직접 선정한 베스트 11과 창의적인 조건의 스쿼드까지, 누가 뽑혔고 왜 이 조합이어야 하는지를 함께 기록합니다.",
+      "emptyMessage": "첫 축쿼드를 준비하고 있습니다. 실제 선수 명단과 삥이의 선정 기준이 담긴 글부터 차례로 채웁니다.",
+      "parentSlug": null
+    },
+    {
+      "slug": "best-xi",
+      "label": "베스트 11",
+      "fullLabel": "삥이가 선정하고 논증하는 베스트 11",
+      "description": "선정 범위와 기준, 포메이션, 탈락 후보와 조합의 약점까지 밝히는 주관적 고관여 칼럼입니다.",
+      "parentSlug": "squads"
+    },
+    {
+      "slug": "creative-squad",
+      "label": "창의적 스쿼드",
+      "fullLabel": "하나의 조건과 질문에서 출발하는 창의적 스쿼드",
+      "description": "시대와 지역, 클럽과 수상 경력 등 명확한 선정 규칙을 먼저 세우고 가능한 조합을 탐구합니다.",
+      "parentSlug": "squads"
+    },
+    {
+      "slug": "tournament-squad",
+      "label": "대회별 팀 스쿼드",
+      "fullLabel": "대회별 선수 명단과 등번호를 보존하는 팀 스쿼드",
+      "description": "공식 최종 명단과 등번호, 당시 소속팀과 기록을 확인하고 그 구성이 지닌 맥락을 덧붙입니다.",
+      "parentSlug": "squads"
+    }
   ]
 }
