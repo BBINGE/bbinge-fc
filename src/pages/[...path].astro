@@ -461,7 +461,12 @@ if (props.kind === 'category') {
   .article-body :global(.custom-xi-music strong) { margin-top: 3px; color: var(--bbfc-ink); font-size: 19px; line-height: 1.35; font-weight: 600; }
   .article-body :global(.custom-xi-music em) { margin-top: 3px; color: var(--bbfc-blue); font-size: 11px; line-height: 1.4; font-style: normal; }
   .article-body :global(.custom-xi-music b) { padding: 9px 12px; border-radius: var(--bbfc-radius-sm); background: var(--bbfc-blue); color: var(--bbfc-bg); font-size: 11px; line-height: 1; font-weight: 600; white-space: nowrap; }
-  .article-body :global(.custom-xi-music .music-cta) { grid-column: 3 / 4; justify-self: end; padding: 9px 12px; border-radius: var(--bbfc-radius-sm); background: var(--bbfc-bg); color: var(--bbfc-blue); font-size: 12px; font-weight: 650; border: 1px solid currentColor; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--bbfc-bg) 28%, transparent); }
+  .article-body :global(.custom-xi-music .music-cta) { grid-column: 3 / 4; justify-self: end; padding: 9px 12px; border-radius: var(--bbfc-radius-sm); background: var(--bbfc-bg); color: var(--bbfc-blue); font-size: 12px; font-weight: 650; border: 1px solid currentColor; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--bbfc-bg) 28%, transparent); cursor: pointer; transition: background .16s ease, color .16s ease; }
+  .article-body :global(.custom-xi-music .music-cta:hover) { background: color-mix(in srgb, var(--bbfc-bg) 88%, #fff); }
+  .article-body :global(.custom-xi-music .music-cta:focus-visible) { outline: 2px solid var(--bbfc-blue); outline-offset: 2px; }
+  .article-body :global(.custom-xi-music .custom-xi-music-player) { grid-column: 1 / -1; margin-top: 12px; border-top: 1px solid color-mix(in srgb, var(--bbfc-blue) 24%, transparent); padding-top: 12px; }
+  .article-body :global(.custom-xi-music .custom-xi-music-player iframe) { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: var(--bbfc-radius-sm); min-height: 220px; }
+  .article-body :global(.custom-xi-music.is-playing .music-cta) { color: #fff; background: var(--bbfc-blue); }
   .article-body :global(.custom-xi-formation) { max-width: 774px; margin: 34px auto 52px; }
   .article-body :global(.custom-xi-formation > img) { border-radius: var(--bbfc-radius-lg); }
   .article-body :global(.custom-xi-player) { display: grid; grid-template-columns: minmax(210px, 290px) minmax(0, 1fr); align-items: stretch; margin: 22px 0 30px; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: var(--bbfc-bg); }
@@ -567,6 +572,9 @@ if (props.kind === 'category') {
     .article-body :global(.custom-xi-music strong) { font-size: 16px; }
     .article-body :global(.custom-xi-music .music-cta) { justify-self: end; }
     .article-body :global(.custom-xi-music b) { grid-column: 1 / -1; justify-self: stretch; padding: 10px 12px; text-align: center; }
+    .article-body :global(.custom-xi-music .music-cta) { grid-column: 1 / -1; justify-self: stretch; text-align: center; }
+    .article-body :global(.custom-xi-music .custom-xi-music-player) { margin-top: 10px; }
+    .article-body :global(.custom-xi-music .custom-xi-music-player iframe) { min-height: 190px; }
     .article-body :global(.custom-xi-formation) { margin: 28px -4px 42px; }
     .article-body :global(.custom-xi-player) { grid-template-columns: 124px minmax(0, 1fr); margin: 18px 0 25px; }
     .article-body :global(.custom-xi-player > img) { min-height: 196px; }
@@ -618,5 +626,39 @@ if (props.kind === 'category') {
       }, { threshold: 0.58 });
       clips.forEach((clip) => observer.observe(clip));
     }
+  </script>
+)}
+
+{articleView && (
+  <script is:inline>
+    (function () {
+      const containers = document.querySelectorAll('.custom-xi-music[data-youtube-id]');
+      if (!containers.length) return;
+
+      containers.forEach((container) => {
+        const button = container.querySelector('.music-cta');
+        const wrapper = container.querySelector('.custom-xi-music-player');
+        const frame = container.querySelector('iframe');
+        if (!button || !wrapper || !frame) return;
+
+        const videoId = container.getAttribute('data-youtube-id');
+        const playerSrc = videoId ? `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&playsinline=1` : '';
+
+        button.addEventListener('click', () => {
+          if (container.classList.contains('is-playing')) {
+            frame.removeAttribute('src');
+            wrapper.hidden = true;
+            container.classList.remove('is-playing');
+            button.textContent = '재생하기';
+            return;
+          }
+
+          if (playerSrc) frame.src = playerSrc;
+          wrapper.hidden = false;
+          container.classList.add('is-playing');
+          button.textContent = '접기';
+        });
+      });
+    })();
   </script>
 )}

@@ -29,7 +29,14 @@ featured: false
 
 ‘저승사자 군단’은 특정 감독 한 사람의 고정 전술보다, 베르나베우가 모은 서로 다른 축구 언어가 한 세대 안에서 결합한 팀에 가까웠다. 디스테파노는 전방과 중원을 오갔고, 엑토르 리알은 안쪽에서 경기를 읽었으며, 파코 헨토는 왼쪽 터치라인을 길게 썼다. 뒤에서는 호세 마리아 사라가와 후안 산티스테반이 공격수들이 떠난 공간을 메웠다.
 
-<a class="custom-xi-music" href="https://www.youtube.com/watch?v=RLsqgtD05pw" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Hala Madrid y nada más 재생"><span aria-hidden="true">▶</span><span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>YouTube에서 재생됩니다</em></span><b class="music-cta" aria-hidden="true">YouTube 이동</b></a>
+<div class="custom-xi-music" data-youtube-id="RLsqgtD05pw" role="region" aria-label="삽입형 BGM 재생">
+  <span aria-hidden="true">▶</span>
+  <span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>페이지 안에서 재생됩니다</em></span>
+  <button type="button" class="music-cta" aria-label="Hala Madrid y nada más 재생">재생하기</button>
+  <div class="custom-xi-music-player" hidden>
+    <iframe loading="lazy" title="YouTube embed: Hala Madrid y nada más" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
 
 ## 삥이가 고른 베스트 11
 
