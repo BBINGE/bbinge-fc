@@ -13,9 +13,9 @@ draft: false
 featured: false
 ---
 
-<aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 001</span><p>이 명단은 어느 한 시즌의 공식 베스트 11이 아니다. 알프레도 디스테파노가 입단한 1953년부터 그가 떠난 1964년까지, 레알 마드리드가 스페인의 강호에서 유럽의 기준으로 바뀐 시간을 한 팀으로 압축한 삥이의 선택이다.</p></aside>
+<aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 001</span><p>한국에서는 흔히 알프레도 디스테파노가 입단한 1953년부터 팀을 떠난 1964년까지의 레알 마드리드를 ‘저승사자 군단’이라 부릅니다. 이 글에서는 그 시기를 대표하는 선수들로 베스트 11을 선정했습니다.</p></aside>
 
-산티아고 베르나베우<span class="foreign-note" lang="es">(Santiago Bernabéu de Yeste; 레알 마드리드 회장, 1943–1978)</span>가 구단의 규모를 키우고, ‘금빛 화살’ 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나·스페인 공격수, 1926–2014)</span>가 경기의 중심을 차지한 시대였다. 1955–56시즌 시작된 유러피언컵<span class="foreign-note" lang="fr">(Coupe des Clubs Champions Européens; 유럽 각국 리그 챔피언이 겨룬 대회)</span>에서 레알 마드리드는 초대 대회부터 다섯 번 연속 우승했다. 오늘날 ‘챔피언스 리그 5연패’라고 검색되는 기록의 원형이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+산티아고 베르나베우<span class="foreign-note" lang="es">(Santiago Bernabéu de Yeste; 레알 마드리드 회장, 1943–1978)</span>가 구단의 규모를 키우고, ‘금빛 화살’ 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나·스페인 공격수, 1926–2014)</span>가 경기의 중심을 차지하던 시기다. 레알 마드리드는 이 기간 라리가에서 여덟 차례 정상에 올랐고, 1955–56시즌 창설된 유러피언컵<span class="foreign-note" lang="fr">(Coupe des Clubs Champions Européens; 유럽 각국 리그 챔피언이 겨룬 대회)</span>에서는 초대 대회부터 다섯 번 연속 우승했다. 오늘날 UEFA 챔피언스리그의 전신인 대회에서 아직도 어느 팀도 되풀이하지 못한 5연패를 가장 먼저 완성한 것이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 다만 이 열한 명이 매주 같은 선발표에 적힌 것은 아니다. 레몽 코파가 마드리드를 떠난 1959년은 푸슈카시가 합류한 지 한 시즌째였고, 호세 산타마리아는 첫 두 번의 유러피언컵 우승 뒤에 입단했다. 이 글은 한 경기의 복원이 아니라 **1953–1964년 왕조를 가장 선명하게 설명할 열한 명의 조합**이다.
 
@@ -27,7 +27,7 @@ featured: false
 
 ‘저승사자 군단’은 특정 감독 한 사람의 고정 전술보다, 베르나베우가 모은 서로 다른 축구 언어가 한 세대 안에서 결합한 팀에 가까웠다. 디스테파노는 전방과 중원을 오갔고, 엑토르 리알은 안쪽에서 경기를 읽었으며, 파코 헨토는 왼쪽 터치라인을 길게 썼다. 뒤에서는 호세 마리아 사라가와 후안 산티스테반이 공격수들이 떠난 공간을 메웠다.
 
-<a class="custom-xi-music" href="https://www.youtube.com/watch?v=RLsqgtD05pw" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span><span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>YouTube에서 듣기</em></span></a>
+<a class="custom-xi-music" href="https://www.youtube.com/watch?v=RLsqgtD05pw" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Hala Madrid y nada más 재생"><span aria-hidden="true">▶</span><span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>YouTube에서 재생됩니다</em></span><b aria-hidden="true">재생하기 ↗</b></a>
 
 ## 삥이가 고른 베스트 11
 
@@ -39,9 +39,9 @@ featured: false
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/juanito-alonso.png" alt="후안 알론소 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>GK · GOALKEEPER</span><h4>후안 알론소</h4><small lang="es">Juan Adelarpe Alonso</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1949–1961</dd></div><div><dt>공식 기록</dt><dd>296경기</dd></div></dl></div></article>
 
-디스테파노가 마드리드에 오기 전부터 골문을 지킨 선배였고, 레알 마드리드가 처음 세 차례 유러피언컵 결승을 통과할 때 모두 선발로 섰다. 화려한 반사 신경보다 먼저 언급할 장점은 위치 선정과 안정감이다. 공격수들이 앞쪽에 많은 인원을 둔 경기에서, 마지막 수비수처럼 뒷공간과 문전을 정리했다.
+후안 알론소<span class="foreign-note" lang="es">(Juan Adelarpe Alonso; 스페인 골키퍼, 1927–1994)</span>는 디스테파노가 마드리드에 오기 전부터 골문을 지킨 선배였다. 레알 마드리드가 처음 세 차례 유러피언컵 결승을 통과할 때 모두 선발로 섰고, 구단에서 공식전 296경기를 소화했다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-구단 공식 기록은 후안 알론소<span class="foreign-note" lang="es">(Juan Adelarpe Alonso; 스페인 골키퍼, 1927–1994)</span>의 레알 마드리드 공식전 출전을 296경기로 집계한다. 네이버 원문에서 사용한 266경기·392실점·65클린시트는 집계 범위가 다른 자료였기 때문에, 웹사이트판에서는 구단 공식전 총출전만 남겼다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+화려한 선방만으로 존재감을 드러내는 골키퍼라기보다 위치 선정과 안정감으로 수비를 정돈하는 유형이었다. 공격수들이 전방에 많은 인원을 두고 경기할수록 골문 앞에는 넓은 공간이 남았다. 알론소는 그 뒤를 침착하게 관리했고, 1950년대 레알의 공격적인 경기 운영이 무너지지 않도록 마지막 균형을 잡았다. 세 차례의 유러피언컵 결승을 연속으로 맡았다는 사실이 이 자리의 경쟁을 끝낸다.
 
 ### 2. 라파엘 레스메스｜레프트백
 
@@ -73,7 +73,7 @@ featured: false
 
 호세 마리아 사라가<span class="foreign-note" lang="es">(José María Zárraga Martín; 스페인 미드필더, 1930–2012)</span>는 유명 공격수들이 자유롭게 움직일 수 있도록 뒤에서 비용을 지불한 선수였다. 강한 압박과 수비 가담, 두 번째 공 회수, 짧고 안전한 연결을 맡았다. 공격의 마지막 장면보다 그 장면이 가능하도록 팀의 간격을 다시 맞추는 데 강했다.
 
-그는 유러피언컵 5연패의 모든 결승에 선발로 나섰고 마지막 두 번은 주장으로 트로피를 들었다. 다섯 결승의 공통분모라는 사실만으로도 이 시대의 중앙 미드필더 한 자리는 사라가의 몫이다. 구단 공식 집계는 303경기 7골로, 네이버판의 277경기 5골보다 넓은 공식전 범위를 사용한다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+그는 유러피언컵 5연패의 모든 결승에 선발로 나섰고 마지막 두 번은 주장으로 트로피를 들었다. 공식전 303경기 7골이라는 숫자보다 더 중요한 기록은 다섯 결승의 공통분모였다는 사실이다. 화려한 공격진이 매번 달라지는 동안 중원의 질서와 주장 완장은 사라가가 지켰다. 이 시대의 중앙 미드필더 한 자리는 그의 몫이다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 ### 6. 후안 산티스테반｜중앙 미드필더
 
@@ -105,7 +105,7 @@ featured: false
 
 ‘칸타브리아의 광풍’<span class="foreign-note" lang="es">(La Galerna del Cantábrico)</span> 파코 헨토<span class="foreign-note" lang="es">(Francisco Gento López; 스페인 왼쪽 윙어, 1933–2022)</span>는 이 팀의 폭과 속도다. 왼쪽에서 수비수를 세로로 밀어내고, 크로스와 컷백으로 안쪽의 리알·디스테파노·푸슈카시에게 시간을 줬다. 빠른 선수였다는 설명만으로는 부족하다. 같은 속도에서 공을 다루고, 달리는 동료에게 패스의 세기를 맞추는 능력이 있었다.
 
-유러피언컵 5연패 뒤에도 남아 1966년 스페인 선수들로 구성된 ‘예예 마드리드’의 주장으로 여섯 번째 우승을 들었다. 레알 마드리드 최초의 공식전 600경기 출전자이며 공식 득점은 182골이다. 네이버 원문의 183골은 구단 현재 집계에 맞춰 182골로 바로잡았다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
+1957년 피오렌티나와의 결승에서는 승부를 굳히는 골을, 1958년 AC 밀란과의 결승에서는 연장 결승골을 넣었다. 유러피언컵 5연패 뒤에도 남아 1966년 스페인 선수들로 구성된 ‘예예 마드리드’의 주장으로 여섯 번째 우승을 들었다. 레알 마드리드에서 공식전 600경기 182골을 기록한 헨토는 두 왕조를 직접 연결한 선수이기도 하다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
 ### 10. 레몽 코파｜라이트 윙
 
