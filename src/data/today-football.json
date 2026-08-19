@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T14:07:07.594Z",
+  "updatedAt": "2026-08-19T14:11:55.821Z",
   "birthday": {
     "name": "마르코 마테라치",
     "birthYear": 1973,
@@ -10,9 +10,9 @@
   "matches": [],
   "status": {
     "birthday": {
-      "state": "fallback",
-      "source": "local-calendar",
-      "error": "Wikidata 3회 시도 실패: This operation was aborted"
+      "state": "ok",
+      "source": "Wikidata",
+      "error": null
     },
     "matches": {
       "state": "empty",
@@ -21,7 +21,7 @@
     }
   },
   "sources": {
-    "birthday": "local-calendar",
+    "birthday": "Wikidata",
     "matches": "TheSportsDB"
   }
 }
