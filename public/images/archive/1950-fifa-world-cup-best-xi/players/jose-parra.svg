@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480" role="img" aria-label="사진이 확인되지 않은 선수 자리">
+  <rect width="400" height="480" fill="#e8eaed" />
+  <circle cx="200" cy="196" r="74" fill="#c3c7cd" />
+  <path d="M74 480c0-72 56-124 126-124s126 52 126 124z" fill="#c3c7cd" />
+</svg>

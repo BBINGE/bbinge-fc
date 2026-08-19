@@ -191,6 +191,12 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.honours-grid span) { font-size: 12px; color: var(--bbfc-blue); }
   .archive-body :global(.honours-grid strong) { margin-top: 8px; font-size: 17px; line-height: 1.4; }
   .archive-body :global(.honours-grid small) { margin-top: 6px; font-size: 12px; color: var(--bbfc-gray-2); }
+  /* 인용은 DESIGN.md의 글 상세 기준(좌측 3px 블루 보더)을 아카이브에도 그대로 쓴다.
+     외국어 원문은 본문보다 한 단계 크게, 한국어 번역은 한 단계 작고 옅게 둔다. */
+  .archive-body :global(.record-quote) { margin: 44px 0; padding: 2px 0 2px 22px; border-left: 3px solid var(--bbfc-blue); }
+  .archive-body :global(.record-quote > p) { margin: 0; font-size: 21px; line-height: 1.7; font-weight: 560; letter-spacing: -.02em; }
+  .archive-body :global(.record-quote > p + p) { margin-top: 14px; font-size: 16px; font-weight: 450; color: var(--bbfc-gray-1); }
+  .archive-body :global(.record-quote > small) { display: block; margin-top: 16px; font-size: 12px; line-height: 1.6; color: var(--bbfc-gray-2); }
   .archive-body :global(ul) { margin: 18px 0; padding-left: 20px; }
   .archive-body :global(li) { margin-top: 8px; }
   .archive-body :global(.source-notes) { margin-top: -4px; font-size: 13px; line-height: 1.7; color: var(--bbfc-gray-1); }
@@ -210,6 +216,12 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.best-xi-line.halves) { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0 12%; }
   .archive-body :global(.best-xi-line.backs) { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 24%; }
   .archive-body :global(.best-xi-line.keeper) { grid-template-columns: minmax(150px, 32%); }
+  /* WM(3-2-2-3) 배치용 라인. 2-3-5 시대(1930·1934·1938)와 달리 1950년 대회는 세 명의 백과
+     두 명의 하프백, 두 명의 인사이드 포워드, 세 명의 최전방으로 나뉜다. */
+  .archive-body :global(.best-xi-line.forwards-three) { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0 12%; }
+  .archive-body :global(.best-xi-line.inside) { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 24%; }
+  .archive-body :global(.best-xi-line.halves-two) { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 24%; }
+  .archive-body :global(.best-xi-line.backs-three) { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0 12%; }
   .archive-body :global(.best-xi-line div) { display: grid; align-content: center; min-height: 174px; padding: 13px 10px; border: 1px solid rgba(255,255,255,.2); border-radius: 10px; background: rgba(255,255,255,.07); text-align: center; }
   .archive-body :global(.best-xi-line img) { width: 62px; height: 62px; margin: 0 auto 10px; border: 2px solid rgba(255,255,255,.82); border-radius: 50%; object-fit: cover; object-position: 50% 22%; filter: grayscale(1); }
   .archive-body :global(.best-xi-line span) { font-size: 9px; font-weight: 750; letter-spacing: .12em; color: #9dd2ff; }
@@ -269,6 +281,13 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.best-xi-line.halves) { padding: 0 8%; }
     .archive-body :global(.best-xi-line.backs) { padding: 0 18%; }
     .archive-body :global(.best-xi-line.keeper) { grid-template-columns: minmax(130px, 42%); }
+    .archive-body :global(.record-quote) { margin: 34px 0; padding-left: 16px; }
+    .archive-body :global(.record-quote > p) { font-size: 18px; }
+    .archive-body :global(.record-quote > p + p) { font-size: 15px; }
+    .archive-body :global(.best-xi-line.forwards-three) { padding: 0 3%; }
+    .archive-body :global(.best-xi-line.backs-three) { padding: 0 3%; }
+    .archive-body :global(.best-xi-line.inside) { padding: 0 18%; }
+    .archive-body :global(.best-xi-line.halves-two) { padding: 0 18%; }
     .archive-body :global(.best-xi-line div) { min-height: 128px; padding: 9px 4px; }
     .archive-body :global(.best-xi-line img) { width: 38px; height: 38px; margin-bottom: 7px; border-width: 1px; }
     .archive-body :global(.best-xi-line strong) { font-size: 9px; }
