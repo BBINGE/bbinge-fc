@@ -1,18 +1,13 @@
 {
-  "date": "2026-08-19",
-  "updatedAt": "2026-08-19T14:11:55.821Z",
-  "birthday": {
-    "name": "마르코 마테라치",
-    "birthYear": 1973,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q185081",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Materazzi%202020.jpg?width=700"
-  },
+  "date": "2026-08-20",
+  "updatedAt": "2026-08-19T16:54:06.162Z",
+  "birthday": null,
   "matches": [],
   "status": {
     "birthday": {
-      "state": "ok",
-      "source": "Wikidata",
-      "error": null
+      "state": "unavailable",
+      "source": "none",
+      "error": "Wikidata 3회 시도 실패: This operation was aborted"
     },
     "matches": {
       "state": "empty",
@@ -21,7 +16,7 @@
     }
   },
   "sources": {
-    "birthday": "Wikidata",
+    "birthday": "none",
     "matches": "TheSportsDB"
   }
 }
