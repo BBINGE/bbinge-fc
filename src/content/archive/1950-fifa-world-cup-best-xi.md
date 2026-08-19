@@ -37,7 +37,9 @@ relatedGroup: 'fifa-world-cup-1950'
 
 ### 공사장에서 열린 대회
 
-마라카낭은 1950년 6월 16일에 문을 열었다. 개장 경기는 리우 선발과 상파울루 선발의 대결이었고 첫 골은 지지가 넣었다. 개막 여드레 전이었다. 노동자 1만 명이 22개월 동안 지었지만 화장실과 기자석이 아직 없었고, 겉모습은 여전히 공사장에 가까웠다. FIFA는 그 상태로 경기를 허가했다. 완전한 준공은 1965년에 이뤄진다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+마라카낭은 1950년 6월 16일에 문을 열었다. 개장 경기는 히우 선발과 상파울루 선발의 대결이었고 첫 골은 지지가 넣었다. 개막 여드레 전이었다. 노동자 1만 명이 22개월 동안 지었지만 화장실과 기자석이 아직 없었고, 겉모습은 여전히 공사장에 가까웠다. FIFA는 그 상태로 경기를 허가했다. 완전한 준공은 1965년에 이뤄진다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+
+<figure><img src="/images/archive/1950-fifa-world-cup-best-xi/maracana-aerial.jpg" alt="관중으로 가득 찬 마라카낭을 위에서 촬영한 사진" loading="lazy" width="773" height="442" /><figcaption>대회 기간의 마라카낭. 스탠드는 사람으로 덮여 있지만 바깥 둘레와 진입로는 아직 마감되지 않은 상태다.</figcaption></figure>
 
 이 경기장은 대회 내내 숫자로 존재감을 증명했다. 6월 24일 개막전에 8만 1,649명, 7월 1일 브라질-유고슬라비아전에 14만 2,429명, 7월 13일 브라질-스페인전에 15만 2,000명이 들어왔다.
 
@@ -56,6 +58,8 @@ relatedGroup: 'fifa-world-cup-1950'
 
 잉글랜드는 이 대회에서 월드컵에 처음 참가했다. 6월 29일 벨루오리존치의 이스타지우 인데펜덴시아에서 만난 상대는 직업 선수로 채워지지도 않은 미국이었다. 런던의 도박사들은 미국의 승리에 500 대 1을 걸었다. 조 게이첸스<span class="foreign-note" lang="fr-HT">(Joe Gaetjens; 아이티 출신 미국 공격수, 1924–1964)</span>가 다이빙 헤더로 넣은 한 골이 그날의 유일한 득점이었다. 관중은 약 1만 명이었고, 결과를 전달받은 영국의 일부 편집자는 오타를 의심해 10-1로 읽었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
+<figure><img src="/images/archive/1950-fifa-world-cup-best-xi/england-usa.jpg" alt="1950년 월드컵 잉글랜드와 미국의 경기 장면" loading="lazy" width="1439" height="900" /><figcaption>1950년 월드컵의 잉글랜드-미국전. 어두운 셔츠가 잉글랜드, 어깨띠가 있는 흰 셔츠가 미국이다.</figcaption></figure>
+
 ## 1950 월드컵 베스트 11
 
 1950년에도 오늘날의 골든볼이나 공식 팀 오브 더 토너먼트 시상 체계는 없었다. 아래 명단은 폐막식에서 발표된 수상자 목록이 아니라, 후대의 월드컵 회고와 통계 자료에서 공통으로 반복되는 열한 명이다. 1930·1934·1938년 기록과 같은 기준으로 다뤘다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
@@ -71,7 +75,7 @@ relatedGroup: 'fifa-world-cup-1950'
 <div class="best-xi" aria-label="1950 FIFA 월드컵 베스트 11 WM 배치">
   <div class="best-xi-line forwards-three">
     <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 알베르토 스키아피노" loading="lazy" /><span>IL</span><strong>스키아피노</strong><small>우루과이 · 4경기 3골</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.png" alt="아데미르" loading="lazy" /><span>CF</span><strong>아데미르</strong><small>브라질 · 6경기 9골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" alt="아데미르" loading="lazy" /><span>CF</span><strong>아데미르</strong><small>브라질 · 6경기 9골</small></div>
     <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="알시데스 기지아" loading="lazy" /><span>OR</span><strong>알시데스 기지아</strong><small>우루과이 · 4경기 4골</small></div>
   </div>
   <div class="best-xi-line inside">
@@ -84,7 +88,7 @@ relatedGroup: 'fifa-world-cup-1950'
   </div>
   <div class="best-xi-line backs-three">
     <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/erik-nilsson.jpg" alt="에리크 닐손" loading="lazy" /><span>FB</span><strong>에리크 닐손</strong><small>스웨덴 · 5경기</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.svg" alt="호세 파라" loading="lazy" /><span>CB</span><strong>호세 파라</strong><small>스페인 · 5경기</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.jpg" alt="호세 파라" loading="lazy" /><span>CB</span><strong>호세 파라</strong><small>스페인 · 5경기</small></div>
     <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/victor-rodriguez-andrade.jpg" alt="빅토르 로드리게스 안드라데" loading="lazy" /><span>FB</span><strong>로드리게스 안드라데</strong><small>우루과이 · 4경기</small></div>
   </div>
   <div class="best-xi-line keeper">
@@ -97,14 +101,14 @@ relatedGroup: 'fifa-world-cup-1950'
 <div class="best-xi-roster" aria-label="1950 FIFA 월드컵 베스트 11 선수 카드">
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/roque-maspoli.jpg" alt="로케 마스폴리" loading="lazy" /><div><span>GK · 골키퍼</span><strong>로케 마스폴리</strong><small lang="es-UY">Roque Gastón Máspoli</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 3실점</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/erik-nilsson.jpg" alt="에리크 닐손" loading="lazy" /><div><span>FB · 풀백</span><strong>에리크 닐손</strong><small lang="sv">Erik Nilsson</small><p>스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.svg" alt="호세 파라" loading="lazy" /><div><span>CB · 센터백</span><strong>호세 파라</strong><small lang="es">José Parra Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" alt="스페인 민간기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.jpg" alt="호세 파라" loading="lazy" /><div><span>CB · 센터백</span><strong>호세 파라</strong><small lang="es">José Parra Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" alt="스페인 민간기" /> · 5경기</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/victor-rodriguez-andrade.jpg" alt="빅토르 로드리게스 안드라데" loading="lazy" /><div><span>FB · 풀백</span><strong>빅토르 로드리게스 안드라데</strong><small lang="es-UY">Víctor Rodríguez Andrade</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/obdulio-varela.jpg" alt="옵둘리오 바렐라" loading="lazy" /><div><span>CH · 센터 하프</span><strong>옵둘리오 바렐라</strong><small lang="es-UY">Obdulio Jacinto Muiños Varela</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 1골 · 주장</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-carlos-bauer.jpg" alt="바우에르" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>바우에르</strong><small lang="pt-BR">José Carlos Bauer</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 5경기</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/zizinho.jpg" alt="지지뉴" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>지지뉴</strong><small lang="pt-BR">Thomaz Soares da Silva</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 4경기 2골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jair-rosa-pinto.jpg" alt="자이르 다 호자 핀투" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>자이르 다 호자 핀투</strong><small lang="pt-BR">Jair da Rosa Pinto</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 5경기 2골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="알시데스 기지아" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>알시데스 기지아</strong><small lang="es-UY">Alcides Edgardo Ghiggia</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 4골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.png" alt="아데미르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>아데미르</strong><small lang="pt-BR">Ademir Marques de Menezes</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 6경기 9골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" alt="아데미르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>아데미르</strong><small lang="pt-BR">Ademir Marques de Menezes</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 6경기 9골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 알베르토 스키아피노" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>후안 알베르토 스키아피노</strong><small lang="es-UY">Juan Alberto Schiaffino</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 3골</p></div></article>
 </div>
 
@@ -140,17 +144,21 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 ## 7월 16일, 마라카낭
 
-경기 시작 전 리우의 시장 앙젤루 멘지스 지 모라이스<span class="foreign-note" lang="pt-BR">(Ângelo Mendes de Morais; 리우데자네이루 시장, 1894–1990)</span>가 마이크를 잡았다. 아직 한 경기가 남아 있었다.
+경기 시작 전 히우의 시장 앙젤루 멘지스 지 모라이스<span class="foreign-note" lang="pt-BR">(Ângelo Mendes de Morais; 히우지자네이루 시장, 1894–1990)</span>가 마이크를 잡았다. 아직 한 경기가 남아 있었다.
+
+<figure class="portrait-figure"><img src="/images/archive/1950-fifa-world-cup-best-xi/mendes-de-morais.jpg" alt="정복 차림의 앙젤루 멘지스 지 모라이스" loading="lazy" width="960" height="1280" /><figcaption>연방구 시장 앙젤루 멘지스 지 모라이스. 마라카낭 건설을 밀어붙인 인물이자 결승 직전 연설의 주인공이다.</figcaption></figure>
 
 <div class="record-quote">
 <p lang="pt-BR">Vós, brasileiros, que em poucas horas sereis aclamados campeões por milhões de compatriotas… vós que não tendes rivais em todo o hemisfério… vós que eu já saúdo como vencedores.</p>
 <p>몇 시간 뒤 수백만 명의 동포들로부터 챔피언으로 환영받을 브라질인 여러분… 이 반구 전체에 적수가 없는 여러분… 내가 이미 승자로서 경례하는 여러분.</p>
-<small>1950년 7월 16일 마라카낭, 경기 시작 전 리우데자네이루 시장 연설</small>
+<small>1950년 7월 16일 마라카낭, 경기 시작 전 히우지자네이루 시장 연설</small>
 </div>
 
 브라질은 비기기만 해도 우승이었다. 최종 리그에서 스웨덴을 7-1, 스페인을 6-1로 이긴 팀이었다. 우루과이는 반드시 이겨야 했다.
 
 전반은 득점 없이 끝났다. 후반 2분, 프리아사<span class="foreign-note" lang="pt-BR">(Albino Friaça Cardoso; 브라질 공격수, 1924–2009)</span>가 브라질의 선제골을 넣었다. 비기기만 해도 되는 팀이 앞서 나갔으니 남은 43분은 지키기만 하면 되는 시간이었다. 66분, 오른쪽에서 기지아가 올린 공을 스키아피노가 마무리해 1-1이 됐다. 이때도 브라질은 여전히 우승이었다. 79분, 다시 오른쪽을 파고든 기지아가 크로스 대신 직접 슈팅을 골문 안으로 밀어 넣었다.
+
+<figure><img src="/images/archive/1950-fifa-world-cup-best-xi/friaca-goal.jpg" alt="골망 안에 들어간 공과 쓰러진 골키퍼, 마라카낭을 가득 채운 관중" loading="lazy" width="1920" height="1276" /><figcaption>1950년 월드컵에서 나온 프리아사의 득점 장면. 공이 골망 안에 있고 관중석은 위쪽 끝까지 차 있다.</figcaption></figure>
 
 공식 유료 관중은 17만 3,850명이었다. 무단으로 들어온 인원까지 더한 추정치는 20만에서 22만 사이이고, FIFA와 위키피디아 계열 자료는 총원을 19만 9,954명으로 적는다. RSSSF는 아예 20만으로 기록한다. 어떤 숫자를 쓰든 그때까지 축구 경기가 모은 가장 큰 군중이었다.
 
@@ -160,9 +168,11 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 이 대회의 개막과 폐막 사이에 한반도에서 전쟁이 시작됐다. 두 사건의 시간 관계는 대충 겹치는 정도가 아니라 시계로 맞출 수 있다.
 
-1950년 브라질은 6월과 7월에 서머타임을 쓰지 않았다. 그해 서머타임은 4월 16일에 끝났고 12월 1일에 다시 시작된다. 따라서 리우데자네이루는 UTC-3이었다. 한국은 UTC+9였다. 표준시가 UTC+8:30으로 바뀌는 것은 1954년의 일이다. 두 도시의 시차는 열두 시간이다.
+1950년 브라질은 6월과 7월에 서머타임을 쓰지 않았다. 그해 서머타임은 4월 16일에 끝났고 12월 1일에 다시 시작된다. 따라서 히우지자네이루는 UTC-3이었다. 한국은 UTC+9였다. 표준시가 UTC+8:30으로 바뀌는 것은 1954년의 일이다. 두 도시의 시차는 열두 시간이다.
 
-개막전 브라질-멕시코는 6월 24일 오후 3시에 시작했다. 북한군이 38선을 넘은 시각은 한국 시간 6월 25일 오전 4시, 리우 시간으로는 6월 24일 오후 4시다. 마라카낭에 8만 1,649명이 앉아 있었고, 경기는 후반으로 넘어가는 중이었다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+개막전 브라질-멕시코는 6월 24일 오후 3시에 시작했다. 북한군이 38선을 넘은 시각은 한국 시간 6월 25일 오전 4시, 히우 시간으로는 6월 24일 오후 4시다. 마라카낭에 8만 1,649명이 앉아 있었고, 경기는 후반으로 넘어가는 중이었다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+
+<figure><img src="/images/archive/1950-fifa-world-cup-best-xi/opening-ceremony.jpg" alt="1950년 월드컵 개막식 장면" loading="lazy" width="1920" height="1355" /><figcaption>1950년 6월 24일 마라카낭의 개막식. 이 경기가 진행되는 동안 한반도에서는 전쟁이 시작됐다.</figcaption></figure>
 
 마지막 경기도 마찬가지로 오후 3시에 시작했다. 한국 시간으로는 7월 17일 오전 3시다. 마라카낭이 조용해진 그 두 시간 동안 한반도의 달력은 이미 다음 날이었다.
 
@@ -203,5 +213,6 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 <li id="source-14"><a href="https://theme.archives.go.kr/next/625/process/timeline.do">「6·25 전쟁 연표」</a>, 국가기록원. 1950년 7월 16일 정부의 대전-대구 이전.</li>
 <li id="source-15"><a href="https://hypercritic.org/collection/1950-el-maracanazo-the-most-tragic-after-match-ever">「1950 El Maracanazo」</a>. 《Dossiê 50》의 자살 전승 검증.</li>
 <li id="source-16"><a href="https://en.wikipedia.org/wiki/Moacir_Barbosa">「Moacir Barbosa」</a>. 1993년 훈련장 방문과 2000년 발언.</li>
-<li><a href="https://blog.naver.com/sho3603/223500621952">「1950 FIFA 월드컵 브라질 당대 베스트 11」</a>, 삥이N스포츠_Official. 최초 구성과 표지.</li>
-</ol><p class="record-note">베스트 11 열한 명은 네이버 원문의 선정을 그대로 유지했다. 다만 원문의 스위퍼·센터백·윙어 표기는 1950년에 존재하지 않았거나 좌우가 뒤바뀐 현대식 명칭이라, 대회 당시의 WM 언어로 다시 적었다. 기지아는 오른쪽, 스키아피노와 지지뉴는 안쪽 공격수다. 아데미르의 득점은 원문의 8골 대신 FIFA·RSSSF 기록에 따라 9골로 적었고, 스웨덴의 득실은 11득점 15실점으로 바로잡았다. 관중 수는 공식 유료 인원과 총원 추정치가 자료마다 달라 본문에 모두 남겼다. 호세 파라는 저작권이 확인된 당대 사진을 찾지 못해 사진 자리를 비워 두었다. 선수 사진은 모두 Wikimedia Commons의 퍼블릭 도메인 자료다.</p></div>
+<li id="source-17">본문 사진 네 장은 브라질 국립문서보관소<span class="foreign-note" lang="pt-BR">(Arquivo Nacional)</span>와 《El Gráfico》의 퍼블릭 도메인 자료다. <a href="https://commons.wikimedia.org/wiki/File:Gol_de_Fria%C3%A7a_na_Copa_do_Mundo_de_1950.tif">프리아사의 골</a>, <a href="https://commons.wikimedia.org/wiki/File:Eurico_Gaspar_Dutra_na_Abertura_da_Copa_do_Mundo_de_Futebol_de_1950.tif">개막식</a>, <a href="https://commons.wikimedia.org/wiki/File:Fotografia_de_%C3%82ngelo_Mendes_de_Morais,_Prefeito_do_Distrito_Federal.tif">멘지스 지 모라이스 초상</a>, <a href="https://commons.wikimedia.org/wiki/File:England_v_USA_-_1950_FIFA_World_Cup_01.jpg">잉글랜드-미국전</a>.</li>
+<li><a href="https://blog.naver.com/sho3603/223500621952">「1950 FIFA 월드컵 브라질 당대 베스트 11」</a>, 삥이N스포츠_Official. 최초 구성과 표지, 선수 사진, 마라카낭 항공사진.</li>
+</ol><p class="record-note">베스트 11 열한 명은 네이버 원문의 선정을 그대로 유지했다. 다만 원문의 스위퍼·센터백·윙어 표기는 1950년에 존재하지 않았거나 좌우가 뒤바뀐 현대식 명칭이라, 대회 당시의 WM 언어로 다시 적었다. 기지아는 오른쪽, 스키아피노와 지지뉴는 안쪽 공격수다. 아데미르의 득점은 원문의 8골 대신 FIFA·RSSSF 기록에 따라 9골로 적었고, 스웨덴의 득실은 11득점 15실점으로 바로잡았다. 관중 수는 공식 유료 인원과 총원 추정치가 자료마다 달라 본문에 모두 남겼다. 선수 사진 아홉 장과 마라카낭 항공사진은 저자가 원문에 사용한 자료이며 촬영자와 최초 출처는 확인되지 않았다. 마스폴리와 바렐라의 사진, 본문의 나머지 네 장은 Wikimedia Commons의 퍼블릭 도메인 자료다. 권리자의 정정·삭제 요청은 문의 페이지로 접수한다. 브라질 고유명사는 관용 표기 대신 현지 발음을 따라 히우지자네이루·벨루오리존치·마라카낭·상자누아리우로 적었다.</p></div>
