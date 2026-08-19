@@ -33,10 +33,10 @@ relatedGroup: 'fifa-world-cup-1934'
 
 | 구분 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> | 4승 1무 | 12득점 3실점 |
-| 준우승 | 체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /> | 3승 1패 | 9득점 6실점 |
-| 3위 | 독일 <img class="flag" src="/images/flags/de-1934.svg" alt="1934년 독일 국기" /> | 3승 1패 | 11득점 8실점 |
-| 4위 | 오스트리아 <img class="flag" src="/images/flags/at-1934.svg" alt="오스트리아 국기" /> | 2승 2패 | 7득점 7실점 |
+| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> <span class="placement-count">첫 번째 우승</span> | 4승 1무 | 12득점 3실점 |
+| 준우승 | 체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /> <span class="placement-count">첫 번째 준우승</span> | 3승 1패 | 9득점 6실점 |
+| 3위 | 독일 <img class="flag" src="/images/flags/de-1934.svg" alt="1934년 독일 국기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1패 | 11득점 8실점 |
+| 4위 | 오스트리아 <img class="flag" src="/images/flags/at-1934.svg" alt="오스트리아 국기" /> <span class="placement-count">첫 번째 4위권</span> | 2승 2패 | 7득점 7실점 |
 
 결승에서 체코슬로바키아가 안토닌 푸치의 골로 먼저 앞섰지만, 라이문도 오르시가 후반 81분 동점골을 넣었다. 연장 95분 안젤로 스키아비오의 역전골이 터지며 이탈리아가 2-1로 첫 우승을 차지했다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 

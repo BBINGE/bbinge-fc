@@ -33,10 +33,10 @@ relatedGroup: 'fifa-world-cup-1930'
 
 | 구분 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 4승 | 15득점 3실점 |
-| 준우승 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 4승 1패 | 18득점 9실점 |
-| 준결승 | 미국 <img class="flag" src="/images/flags/us.svg" alt="미국 국기" /> | 2승 1패 | 7득점 6실점 |
-| 준결승 | 유고슬라비아 <img class="flag" src="/images/flags/yu-kingdom.svg" alt="유고슬라비아 왕국 국기" /> | 2승 1패 | 7득점 7실점 |
+| 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">첫 번째 우승</span> | 4승 | 15득점 3실점 |
+| 준우승 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">첫 번째 준우승</span> | 4승 1패 | 18득점 9실점 |
+| 준결승 | 미국 <img class="flag" src="/images/flags/us.svg" alt="미국 국기" /> <span class="placement-count">첫 번째 4위권</span> | 2승 1패 | 7득점 6실점 |
+| 준결승 | 유고슬라비아 <img class="flag" src="/images/flags/yu-kingdom.svg" alt="유고슬라비아 왕국 국기" /> <span class="placement-count">첫 번째 4위권</span> | 2승 1패 | 7득점 7실점 |
 
 3·4위 결정전은 열리지 않았다. 오늘날 FIFA 자료는 조별리그와 준결승 성적을 비교해 미국을 3위로 정리하지만, 두 팀이 순위를 가리는 경기를 치른 것은 아니다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 

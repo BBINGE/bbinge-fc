@@ -47,10 +47,10 @@ relatedGroup: 'fifa-world-cup-1950'
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 3승 1무 | 15득점 5실점 |
-| 준우승 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 4승 1무 1패 | 22득점 6실점 |
-| 3위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> | 2승 1무 2패 | 11득점 15실점 |
-| 4위 | 스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" alt="스페인 민간기" /> | 3승 1무 2패 | 10득점 12실점 |
+| 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">두 번째 우승</span> | 3승 1무 | 15득점 5실점 |
+| 준우승 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">첫 번째 준우승</span> | 4승 1무 1패 | 22득점 6실점 |
+| 3위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> <span class="placement-count">두 번째 4위권</span> | 2승 1무 2패 | 11득점 15실점 |
+| 4위 | 스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" alt="스페인 민간기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1무 2패 | 10득점 12실점 |
 
 이 대회에는 준결승도 결승도 없었다. 네 조의 1위가 다시 리그전을 치러 승점이 가장 높은 팀이 우승하는 방식이었고, 월드컵 역사에서 이 형식은 1950년 한 번뿐이다. 우루과이가 승점 5, 브라질이 4였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 

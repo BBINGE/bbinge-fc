@@ -29,10 +29,10 @@ relatedGroup: 'fifa-world-cup-1938'
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> | 4승 | 11득점 5실점 |
-| 준우승 | 헝가리 왕국 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> | 3승 1패 | 15득점 5실점 |
-| 3위 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 3승 1무 1패 | 14득점 11실점 |
-| 4위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> | 1승 2패 | 11득점 9실점 |
+| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> <span class="placement-count">두 번째 우승</span> | 4승 | 11득점 5실점 |
+| 준우승 | 헝가리 왕국 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> <span class="placement-count">첫 번째 준우승</span> | 3승 1패 | 15득점 5실점 |
+| 3위 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1무 1패 | 14득점 11실점 |
+| 4위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> <span class="placement-count">첫 번째 4위권</span> | 1승 2패 | 11득점 9실점 |
 
 이탈리아의 경로는 가벼운 적이 한 번도 없었다. 노르웨이전은 연장까지 갔고, 8강에서는 개최국 프랑스를 3-1로 꺾었다. 준결승 상대는 레오니다스를 앞세운 브라질, 결승 상대는 세 경기에서 13골을 몰아친 헝가리였다. 그 네 경기를 모두 이겨 1934년에 이어 다시 정상에 섰다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
