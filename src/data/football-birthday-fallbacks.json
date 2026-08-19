@@ -18,6 +18,12 @@
       "birthYear": 1973,
       "wikidataUrl": "http://www.wikidata.org/entity/Q185081",
       "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Materazzi%202020.jpg?width=700"
+    },
+    "08-20": {
+      "name": "유리 지르코프",
+      "birthYear": 1983,
+      "wikidataUrl": "http://www.wikidata.org/entity/Q184261",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yuri%20Zhirkov%20Anzhi%202011.jpg?width=700"
     }
   }
 }
