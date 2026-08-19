@@ -196,7 +196,17 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 1993년 바르보자는 이듬해 월드컵을 준비하던 대표팀 훈련장을 찾았다가 선수들을 만나지 못하고 돌아섰다. 불운을 부른다는 이유였다. 2000년 그는 브라질의 최고형이 30년인데 자신은 책임지지 않은 일로 50년째 복역 중이라고 말했다. 브라질 대표팀이 다시 흑인 골키퍼를 세우기까지 43년이 걸렸다.<a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
 
-흰 셔츠를 노란 셔츠로 바꾼 것은 패배 직후가 아니다. 1953년 《Correio da Manhã》가 국기의 네 가지 색을 쓰라는 조건으로 공모전을 열었고, 신문 삽화가 아우지르 가르시아 슐레이<span class="foreign-note" lang="pt-BR">(Aldyr Garcia Schlee; 브라질 삽화가·작가, 1934–2018)</span>의 도안이 당선됐다. 노란 셔츠에 초록 깃, 파란 바지, 흰 양말. 실제로 대표팀이 이 유니폼을 처음 입은 것은 1954년 3월 칠레전이다. 패배로부터 네 해가 지난 뒤였다.
+### 사라진 흰 셔츠
+
+책임은 사람에게만 물어지지 않았다. 언론과 축구 행정가들은 그날 브라질이 입고 있던 흰 셔츠를 지목했다. 국기의 색이 하나도 들어 있지 않아 애국적이지 않다는 것이 표면적인 이유였다. 그 셔츠를 찢어 불태웠다는 이야기가 전해지지만 실제로 그런 소각이 있었다는 기록은 확인되지 않는다. 일어난 일은 화형식이 아니라 퇴출이었다. 흰 셔츠는 조용히 쓰이지 않게 됐고, 다시 등장하지 못했다.<a class="cite" href="#source-19" aria-label="출처 19">[19]</a>
+
+이 판정에는 앞뒤가 맞지 않는 구석이 있다. 브라질은 그 흰 셔츠를 입고 1919년과 1922년 남미선수권에서 우승했고, [1949년 상자누아리우](/archive/national-team/copa-america/1949-copa-america-ademir/)에서도 같은 색으로 파라과이를 7-0으로 꺾었다. 마라카낭의 열네 달 전까지 흰 셔츠는 브라질이 안방에서 이길 때 입던 옷이었다. 90분 만에 같은 옷이 불운의 원인이 됐다.
+
+1953년 《Correio da Manhã》가 국기의 네 가지 색을 모두 쓰라는 조건으로 새 유니폼 공모전을 열었다. 당선자는 열아홉 살의 신문 삽화가 아우지르 가르시아 슐레이<span class="foreign-note" lang="pt-BR">(Aldyr Garcia Schlee; 브라질 삽화가·작가, 1934–2018)</span>였다. 노란 셔츠에 초록 깃, 파란 바지, 흰 양말. 대표팀이 이 옷을 처음 입은 것은 1954년 3월 칠레전으로, 패배로부터 네 해가 지난 뒤였다.
+
+슐레이는 우루과이 국경에 붙은 자구아랑<span class="foreign-note" lang="pt-BR">(Jaguarão; 우루과이와 국경을 맞댄 브라질 남부 도시)</span> 출신이었고, 평생 우루과이를 응원했다. 브라질과 우루과이가 맞붙는 날이면 자신이 만든 노란 셔츠 대신 하늘색 셔츠를 입고 국경을 넘어가 경기를 봤다. 우루과이가 벗겨낸 셔츠의 후임을 우루과이 편인 사람이 그린 셈이다.<a class="cite" href="#source-20" aria-label="출처 20">[20]</a>
+
+흰색이 다시 대표팀에 돌아온 것은 예순아홉 해 뒤다. 2019년 6월 15일 코파 아메리카 볼리비아전에서 브라질은 1919년 첫 우승 100주년 기념 유니폼으로 흰색과 파란색 셔츠를 입었다. 1950년 이후 처음이었다. 다만 그것은 한 대회를 위한 특별판이었지 원래 색의 복귀는 아니었다. 노란 셔츠는 그대로 남았고, 흰 셔츠는 기념할 때만 잠깐 꺼내는 옷이 됐다.<a class="cite" href="#source-21" aria-label="출처 21">[21]</a>
 
 한국은 이 대회에 없었다. 첫 월드컵 참가는 네 해 뒤 1954년 스위스 대회이고, 첫 상대는 매직 마자르<span class="foreign-note" lang="hu">(Aranycsapat; ‘황금 팀’이라 불린 1950년대 헝가리 대표팀)</span>였다. 결과는 0-9였다. 그 팀이 왜 그렇게 강했는지는 다음 대회의 기록에서 다시 다룬다.
 
@@ -221,5 +231,8 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 <li id="source-16"><a href="https://en.wikipedia.org/wiki/Moacir_Barbosa">「Moacir Barbosa」</a>. 1993년 훈련장 방문과 2000년 발언.</li>
 <li id="source-17">한반도 사진 두 장은 미국 정부 저작물로 퍼블릭 도메인이다. <a href="https://commons.wikimedia.org/wiki/File:KumRiver_Howitzer.jpg">1950년 7월 15일 금강 인근의 미군 포반</a>은 미 육군 통신대 촬영이고, <a href="https://commons.wikimedia.org/wiki/File:South_Korean_refugees_mid-1950.jpg">1950년 여름의 피란민 행렬</a>은 미 국방부 자료다.</li>
 <li id="source-18">브라질 본문 사진 네 장은 브라질 국립문서보관소<span class="foreign-note" lang="pt-BR">(Arquivo Nacional)</span>와 《El Gráfico》의 퍼블릭 도메인 자료다. <a href="https://commons.wikimedia.org/wiki/File:Gol_de_Fria%C3%A7a_na_Copa_do_Mundo_de_1950.tif">프리아사의 골</a>, <a href="https://commons.wikimedia.org/wiki/File:Eurico_Gaspar_Dutra_na_Abertura_da_Copa_do_Mundo_de_Futebol_de_1950.tif">개막식</a>, <a href="https://commons.wikimedia.org/wiki/File:Fotografia_de_%C3%82ngelo_Mendes_de_Morais,_Prefeito_do_Distrito_Federal.tif">멘지스 지 모라이스 초상</a>, <a href="https://commons.wikimedia.org/wiki/File:England_v_USA_-_1950_FIFA_World_Cup_01.jpg">잉글랜드-미국전</a>.</li>
+<li id="source-19"><a href="https://placar.com.br/placar/azarada-a-historia-da-camisa-branca-da-selecao-brasileira/">「Azarada? A história da camisa branca da seleção brasileira」</a>, 《Placar》. 흰 셔츠가 희생양이 된 과정과 퇴출.</li>
+<li id="source-20"><a href="https://www.bbc.com/news/world-latin-america-46243922">「Aldyr Schlee, designer of Brazil's famous yellow jersey, dies」</a>, BBC. 1953년 공모전 당선과 자구아랑 출신 배경, 우루과이 응원.</li>
+<li id="source-21"><a href="https://www.espn.com/soccer/story/_/id/37508201/selecao-return-white-kits-ly-reminder-brazil-past">「Seleção's return to white kits」</a>, ESPN. 2019년 코파 아메리카 100주년 기념 흰색 유니폼.</li>
 <li><a href="https://blog.naver.com/sho3603/223500621952">「1950 FIFA 월드컵 브라질 당대 베스트 11」</a>, 삥이N스포츠_Official. 최초 구성과 표지, 선수 사진, 마라카낭 항공사진.</li>
 </ol><p class="record-note">베스트 11 열한 명은 네이버 원문의 선정을 그대로 유지했다. 다만 원문의 스위퍼·센터백·윙어 표기는 1950년에 존재하지 않았거나 좌우가 뒤바뀐 현대식 명칭이라, 대회 당시의 WM 언어로 다시 적었다. 기지아는 오른쪽, 스키아피노와 지지뉴는 안쪽 공격수다. 아데미르의 득점은 원문의 8골 대신 FIFA·RSSSF 기록에 따라 9골로 적었고, 스웨덴의 득실은 11득점 15실점으로 바로잡았다. 관중 수는 공식 유료 인원과 총원 추정치가 자료마다 달라 본문에 모두 남겼다. 선수 사진과 마라카낭 항공사진은 1950년 전후에 공표된 당대 자료다. 브라질 저작권법은 사진 저작물을 공표 이듬해부터 70년까지 보호하므로 이 시기의 사진은 원산지에서 보호기간이 끝났다. 개별 촬영자를 특정하지 못한 자료가 있으며, 권리자의 정정·삭제 요청은 문의 페이지로 접수한다. 본문의 프리아사 득점·개막식·멘지스 지 모라이스 초상·잉글랜드전 사진은 Wikimedia Commons에 퍼블릭 도메인으로 공개된 브라질 국립문서보관소와 《El Gráfico》 자료다. 브라질 고유명사는 관용 표기 대신 현지 발음을 따라 히우지자네이루·벨루오리존치·마라카낭·상자누아리우로 적었다.</p></div>
