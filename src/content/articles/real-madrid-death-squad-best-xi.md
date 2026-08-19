@@ -30,12 +30,13 @@ featured: false
 ‘저승사자 군단’은 특정 감독 한 사람의 고정 전술보다, 베르나베우가 모은 서로 다른 축구 언어가 한 세대 안에서 결합한 팀에 가까웠다. 디스테파노는 전방과 중원을 오갔고, 엑토르 리알은 안쪽에서 경기를 읽었으며, 파코 헨토는 왼쪽 터치라인을 길게 썼다. 뒤에서는 호세 마리아 사라가와 후안 산티스테반이 공격수들이 떠난 공간을 메웠다.
 
 <div class="custom-xi-music" data-youtube-id="RLsqgtD05pw" role="region" aria-label="삽입형 BGM 재생">
-  <span aria-hidden="true">▶</span>
+  <button type="button" class="music-toggle" aria-label="재생하기">▶</button>
   <span><small>삥이가 이 글과 함께 고른 BGM</small><strong>Hala Madrid y nada más</strong><em>페이지 안에서 재생됩니다</em></span>
-  <button type="button" class="music-cta" aria-label="Hala Madrid y nada más 재생">재생하기</button>
+  <button type="button" class="music-cta music-toggle" aria-label="Hala Madrid y nada más 재생">재생하기</button>
   <div class="custom-xi-music-player" hidden>
     <iframe loading="lazy" title="YouTube embed: Hala Madrid y nada más" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+  <p class="custom-xi-music-credit"><a href="https://www.youtube.com/@Ichsports" target="_blank" rel="noopener noreferrer">잇스포츠(Ichsports)</a> 제작</p>
 </div>
 
 ## 삥이가 고른 베스트 11
@@ -166,6 +167,6 @@ featured: false
 
 그래서 이 명단은 세 가지를 기준으로 삼았다. 실제 왕조의 결정적 장면에 있었는가, 열한 명 안에서 고유한 역할을 갖는가, 그리고 한 팀으로 세웠을 때 서로의 장점을 키울 수 있는가. 그 결과 골문에는 알론소, 수비에는 레스메스·산타마리아·마르키토스, 중원에는 사라가·산티스테반, 자유로운 중심에는 디스테파노와 푸슈카시, 전방에는 헨토·리알·코파가 남았다.
 
-이것이 삥이가 고른 첫 번째 커스텀 베스트 11이다.
+이것이 필자가 고른 첫 번째 커스텀 베스트 11이다.
 
 <div class="source-notes"><h2>출처와 집계 기준</h2><ol><li id="source-1"><a href="https://www.realmadrid.com/static/en/about-real-madrid/history/football/1951-1960/">Real Madrid C.F., “1951–1960: Di Stéfano and the five European Cups”</a>. 유러피언컵 창설과 5연패 시대.</li><li id="source-2"><a href="https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/juan-adelarpe-alonso/">Real Madrid C.F., “Juanito Alonso”</a>. 공식전 296경기와 첫 세 결승 선발.</li><li id="source-3"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/rafael-lesmes-bobed">Real Madrid C.F., “Lesmes II”</a>. 221경기 1골과 첫 세 결승 선발.</li><li id="source-4"><a href="https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/jose-emilio-santamaria/">Real Madrid C.F., “Santamaría”</a>. 337경기 2골과 수상 기록.</li><li id="source-5"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/marcos-alonso-imaz">Real Madrid C.F., “Marquitos”</a>. 228경기 3골과 1956년 결승 동점골.</li><li id="source-6"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/jose-maria-zarraga">Real Madrid C.F., “Zárraga”</a>. 303경기 7골과 유러피언컵 5연패.</li><li id="source-7"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/juan-santisteban-troyano">Real Madrid C.F., “Santisteban”</a>. 115경기 4골과 부상 기록.</li><li id="source-8"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/alfredo-di-stefano-laulhe">Real Madrid C.F., “Di Stéfano”</a>. 396경기 308골.</li><li id="source-9"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/ferenc-puskas-biro">Real Madrid C.F., “Puskas”</a>. 262경기 242골.</li><li id="source-10"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/francisco-gento-lopez">Real Madrid C.F., “Gento”</a>. 600경기 182골.</li><li id="source-11"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/raymond-kopaszewski">Real Madrid C.F., “Kopa”</a>. 103경기 30골.</li><li id="source-12"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/jose-hector-rial-laguia">Real Madrid C.F., “Rial”</a>. 169경기 83골.</li><li><a href="https://blog.naver.com/sho3603/223537804267">삥이, “레알 마드리드 저승사자 군단 챔스 5연패 베스트 11 선정”</a>. 최초 선정과 선수별 원문.</li></ol><p class="record-note">선수 통계는 레알 마드리드 공식 레전드 페이지가 제시한 공식전 출전·득점으로 통일했다. 포메이션은 시대의 특정 경기 선발을 복원한 자료가 아니라, 1953–1964년을 대상으로 한 저자의 커스텀 선정이다.</p></div>
