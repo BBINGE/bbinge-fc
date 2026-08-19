@@ -6,7 +6,7 @@ index: 'fifa-world-cup'
 year: 1950
 subject: '1950 월드컵 베스트 11'
 originalTitle: 'IV Campeonato Mundial de Futebol'
-keywords: ['1950 FIFA World Cup', 'Brazil 1950', '1950 월드컵 베스트 11', 'Maracanazo', '마라카낭의 비극', 'Obdulio Varela', 'Ademir de Menezes', 'Alcides Ghiggia', 'Juan Alberto Schiaffino', 'Zizinho', '우루과이 축구 국가대표팀']
+keywords: ['1950 FIFA World Cup', 'Brazil 1950', '1950 월드컵 베스트 11', 'Maracanazo', '마라카낭의 비극', 'Obdulio Varela', 'Ademir de Menezes', 'Alcides Ghiggia', 'Juan Alberto Schiaffino', 'Zizinho', '우루과이 축구 국가대표팀', '히우지자네이루', '리우데자네이루']
 pubDate: 2026-08-19T22:40:00+09:00
 coverImage: '/images/archive/1950-fifa-world-cup-best-xi/cover.png'
 coverImageAlt: '쥘리메컵에 입을 맞추는 선수와 1950 월드컵 베스트 11을 담은 기록 표지'
@@ -176,9 +176,15 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 마지막 경기도 마찬가지로 오후 3시에 시작했다. 한국 시간으로는 7월 17일 오전 3시다. 마라카낭이 조용해진 그 두 시간 동안 한반도의 달력은 이미 다음 날이었다.
 
-그 전날인 7월 16일 새벽 3시, 북한군 항공기가 조명탄을 떨어뜨려 신호를 보냈다. 금강 도하 총공격이 시작됐고, 대평리 일대를 맡고 있던 미 24사단 19연대의 방어선이 무너졌다. 강변에 배치돼 있던 약 900명 가운데 이튿날 대전 지역에서 복귀 신고를 한 인원은 434명이었다. 도로를 따라 물러나던 차량 행렬이 차단선에 막히자 병사들은 길을 버리고 소규모로 흩어져 남쪽으로 이동했다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
+최종전 킥오프 하루 전, 그러니까 한국 시간 7월 15일의 금강에는 이런 장면이 남아 있다.
+
+<figure><img src="/images/archive/1950-fifa-world-cup-best-xi/kum-river-1950-07-15.jpg" alt="금강 인근에서 곡사포를 점검하는 미군 포병" loading="lazy" width="800" height="629" /><figcaption>1950년 7월 15일 금강 인근. 미군 포반이 장비를 점검하고 있다. 하루 뒤 이 일대의 방어선이 무너진다.</figcaption></figure>
+
+7월 16일 새벽 3시, 북한군 항공기가 조명탄을 떨어뜨려 신호를 보냈다. 금강 도하 총공격이 시작됐고, 대평리 일대를 맡고 있던 미 24사단 19연대의 방어선이 무너졌다. 강변에 배치돼 있던 약 900명 가운데 이튿날 대전 지역에서 복귀 신고를 한 인원은 434명이었다. 도로를 따라 물러나던 차량 행렬이 차단선에 막히자 병사들은 길을 버리고 소규모로 흩어져 남쪽으로 이동했다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
 
 같은 날 대한민국 정부는 대전을 떠나 대구로 옮겼다. 대전이 실제로 함락되는 것은 나흘 뒤인 7월 20일이다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
+
+<figure><img src="/images/archive/1950-fifa-world-cup-best-xi/korean-refugees-1950.jpg" alt="짐을 지고 철길을 따라 남쪽으로 이동하는 피란민 행렬" loading="lazy" width="600" height="434" /><figcaption>1950년 여름 남쪽으로 향하는 피란민 행렬. 등에 진 보따리와 머리에 인 짐이 각자가 가져갈 수 있는 전부였다.</figcaption></figure>
 
 낙동강 방어선은 아직 없었다. 미 8군이 낙동강 동안으로 물러나는 것은 8월 1일에서 3일 사이이고, 방어선을 놓고 벌어진 전투는 8월 4일에 시작된다. 정부가 부산으로 다시 옮기는 것은 8월 18일이다. 7월 16일의 한반도는 방어선을 지키던 중이 아니라 방어선을 만들 자리를 찾지 못한 채 밀려나던 중이었다.
 
@@ -213,6 +219,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 <li id="source-14"><a href="https://theme.archives.go.kr/next/625/process/timeline.do">「6·25 전쟁 연표」</a>, 국가기록원. 1950년 7월 16일 정부의 대전-대구 이전.</li>
 <li id="source-15"><a href="https://hypercritic.org/collection/1950-el-maracanazo-the-most-tragic-after-match-ever">「1950 El Maracanazo」</a>. 《Dossiê 50》의 자살 전승 검증.</li>
 <li id="source-16"><a href="https://en.wikipedia.org/wiki/Moacir_Barbosa">「Moacir Barbosa」</a>. 1993년 훈련장 방문과 2000년 발언.</li>
-<li id="source-17">본문 사진 네 장은 브라질 국립문서보관소<span class="foreign-note" lang="pt-BR">(Arquivo Nacional)</span>와 《El Gráfico》의 퍼블릭 도메인 자료다. <a href="https://commons.wikimedia.org/wiki/File:Gol_de_Fria%C3%A7a_na_Copa_do_Mundo_de_1950.tif">프리아사의 골</a>, <a href="https://commons.wikimedia.org/wiki/File:Eurico_Gaspar_Dutra_na_Abertura_da_Copa_do_Mundo_de_Futebol_de_1950.tif">개막식</a>, <a href="https://commons.wikimedia.org/wiki/File:Fotografia_de_%C3%82ngelo_Mendes_de_Morais,_Prefeito_do_Distrito_Federal.tif">멘지스 지 모라이스 초상</a>, <a href="https://commons.wikimedia.org/wiki/File:England_v_USA_-_1950_FIFA_World_Cup_01.jpg">잉글랜드-미국전</a>.</li>
+<li id="source-17">한반도 사진 두 장은 미국 정부 저작물로 퍼블릭 도메인이다. <a href="https://commons.wikimedia.org/wiki/File:KumRiver_Howitzer.jpg">1950년 7월 15일 금강 인근의 미군 포반</a>은 미 육군 통신대 촬영이고, <a href="https://commons.wikimedia.org/wiki/File:South_Korean_refugees_mid-1950.jpg">1950년 여름의 피란민 행렬</a>은 미 국방부 자료다.</li>
+<li id="source-18">브라질 본문 사진 네 장은 브라질 국립문서보관소<span class="foreign-note" lang="pt-BR">(Arquivo Nacional)</span>와 《El Gráfico》의 퍼블릭 도메인 자료다. <a href="https://commons.wikimedia.org/wiki/File:Gol_de_Fria%C3%A7a_na_Copa_do_Mundo_de_1950.tif">프리아사의 골</a>, <a href="https://commons.wikimedia.org/wiki/File:Eurico_Gaspar_Dutra_na_Abertura_da_Copa_do_Mundo_de_Futebol_de_1950.tif">개막식</a>, <a href="https://commons.wikimedia.org/wiki/File:Fotografia_de_%C3%82ngelo_Mendes_de_Morais,_Prefeito_do_Distrito_Federal.tif">멘지스 지 모라이스 초상</a>, <a href="https://commons.wikimedia.org/wiki/File:England_v_USA_-_1950_FIFA_World_Cup_01.jpg">잉글랜드-미국전</a>.</li>
 <li><a href="https://blog.naver.com/sho3603/223500621952">「1950 FIFA 월드컵 브라질 당대 베스트 11」</a>, 삥이N스포츠_Official. 최초 구성과 표지, 선수 사진, 마라카낭 항공사진.</li>
-</ol><p class="record-note">베스트 11 열한 명은 네이버 원문의 선정을 그대로 유지했다. 다만 원문의 스위퍼·센터백·윙어 표기는 1950년에 존재하지 않았거나 좌우가 뒤바뀐 현대식 명칭이라, 대회 당시의 WM 언어로 다시 적었다. 기지아는 오른쪽, 스키아피노와 지지뉴는 안쪽 공격수다. 아데미르의 득점은 원문의 8골 대신 FIFA·RSSSF 기록에 따라 9골로 적었고, 스웨덴의 득실은 11득점 15실점으로 바로잡았다. 관중 수는 공식 유료 인원과 총원 추정치가 자료마다 달라 본문에 모두 남겼다. 선수 사진 아홉 장과 마라카낭 항공사진은 저자가 원문에 사용한 자료이며 촬영자와 최초 출처는 확인되지 않았다. 마스폴리와 바렐라의 사진, 본문의 나머지 네 장은 Wikimedia Commons의 퍼블릭 도메인 자료다. 권리자의 정정·삭제 요청은 문의 페이지로 접수한다. 브라질 고유명사는 관용 표기 대신 현지 발음을 따라 히우지자네이루·벨루오리존치·마라카낭·상자누아리우로 적었다.</p></div>
+</ol><p class="record-note">베스트 11 열한 명은 네이버 원문의 선정을 그대로 유지했다. 다만 원문의 스위퍼·센터백·윙어 표기는 1950년에 존재하지 않았거나 좌우가 뒤바뀐 현대식 명칭이라, 대회 당시의 WM 언어로 다시 적었다. 기지아는 오른쪽, 스키아피노와 지지뉴는 안쪽 공격수다. 아데미르의 득점은 원문의 8골 대신 FIFA·RSSSF 기록에 따라 9골로 적었고, 스웨덴의 득실은 11득점 15실점으로 바로잡았다. 관중 수는 공식 유료 인원과 총원 추정치가 자료마다 달라 본문에 모두 남겼다. 선수 사진과 마라카낭 항공사진은 1950년 전후에 공표된 당대 자료다. 브라질 저작권법은 사진 저작물을 공표 이듬해부터 70년까지 보호하므로 이 시기의 사진은 원산지에서 보호기간이 끝났다. 개별 촬영자를 특정하지 못한 자료가 있으며, 권리자의 정정·삭제 요청은 문의 페이지로 접수한다. 본문의 프리아사 득점·개막식·멘지스 지 모라이스 초상·잉글랜드전 사진은 Wikimedia Commons에 퍼블릭 도메인으로 공개된 브라질 국립문서보관소와 《El Gráfico》 자료다. 브라질 고유명사는 관용 표기 대신 현지 발음을 따라 히우지자네이루·벨루오리존치·마라카낭·상자누아리우로 적었다.</p></div>

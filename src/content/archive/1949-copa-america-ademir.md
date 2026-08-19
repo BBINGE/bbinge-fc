@@ -6,7 +6,7 @@ index: 'copa-america'
 year: 1949
 subject: '아데미르'
 originalTitle: 'Campeonato Sudamericano de Football 1949'
-keywords: ['CONMEBOL Copa América', 'Ademir Marques de Menezes', 'Ademir de Menezes', '아데미르', 'Expresso da Vitória', '익스프레수 다 비토리아', '브라질 축구 국가대표팀', '브라질 파라과이 7대0', '1949 남미축구선수권대회']
+keywords: ['CONMEBOL Copa América', 'Ademir Marques de Menezes', 'Ademir de Menezes', '아데미르', 'Expresso da Vitória', '익스프레수 다 비토리아', '브라질 축구 국가대표팀', '브라질 파라과이 7대0', '1949 남미축구선수권대회', '히우지자네이루', '리우데자네이루']
 pubDate: 2026-08-17T23:42:00+09:00
 coverImage: '/images/archive/1949-copa-america/cover.png'
 coverImageAlt: '1949 코파 아메리카와 아데미르를 기록한 표지'
@@ -21,7 +21,7 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1949년 4월 3일–5월 11일</dd></dl><dl><dt>참가국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /></dd></dl><dl><dt>방식</dt><dd>8개국 단일 리그전 · 동률 시 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>리우데자네이루 · 상파울루 · 산투스 · 벨루오리존치</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1949년 4월 3일–5월 11일</dd></dl><dl><dt>참가국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /></dd></dl><dl><dt>방식</dt><dd>8개국 단일 리그전 · 동률 시 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>히우지자네이루 · 상파울루 · 산투스 · 벨루오리존치</dd></dl></div>
 
 ### 최종 순위
 
