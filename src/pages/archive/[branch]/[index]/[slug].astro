@@ -191,6 +191,15 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.honours-grid span) { font-size: 12px; color: var(--bbfc-blue); }
   .archive-body :global(.honours-grid strong) { margin-top: 8px; font-size: 17px; line-height: 1.4; }
   .archive-body :global(.honours-grid small) { margin-top: 6px; font-size: 12px; color: var(--bbfc-gray-2); }
+  /* 같은 인물·사건을 다룬 다른 기록으로 넘기는 배너. 일반 글의 .best-xi-cta와 같은
+     토큰을 쓰되 장식 이모지 대신 해당 기록의 표지를 놓아 연대기 카드와 결을 맞춘다. */
+  .archive-body :global(.record-cta) { display: grid; grid-template-columns: 88px minmax(0, 1fr); align-items: center; gap: 20px; margin: 34px 0 46px; padding: 18px 22px 18px 18px; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: var(--bbfc-fill-2); color: var(--bbfc-ink); text-decoration: none; transition: border-color 160ms ease, transform 160ms ease; }
+  .archive-body :global(.record-cta:hover) { border-color: var(--bbfc-blue); transform: translateY(-2px); }
+  .archive-body :global(.record-cta:focus-visible) { outline: 2px solid var(--bbfc-blue); outline-offset: 3px; }
+  .archive-body :global(.record-cta > img) { width: 88px; height: 88px; border-radius: var(--bbfc-radius); object-fit: cover; }
+  .archive-body :global(.record-cta small) { display: block; font-size: 9px; font-weight: 750; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .archive-body :global(.record-cta strong) { display: block; margin-top: 7px; font-size: 19px; line-height: 1.4; font-weight: 660; letter-spacing: -.03em; }
+  .archive-body :global(.record-cta p) { margin: 6px 0 0; font-size: 13px; line-height: 1.55; color: var(--bbfc-gray-1); }
   /* 인용은 DESIGN.md의 글 상세 기준(좌측 3px 블루 보더)을 아카이브에도 그대로 쓴다.
      외국어 원문은 본문보다 한 단계 크게, 한국어 번역은 한 단계 작고 옅게 둔다. */
   .archive-body :global(.record-quote) { margin: 44px 0; padding: 2px 0 2px 22px; border-left: 3px solid var(--bbfc-blue); }
@@ -281,6 +290,10 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.best-xi-line.halves) { padding: 0 8%; }
     .archive-body :global(.best-xi-line.backs) { padding: 0 18%; }
     .archive-body :global(.best-xi-line.keeper) { grid-template-columns: minmax(130px, 42%); }
+    .archive-body :global(.record-cta) { grid-template-columns: 64px minmax(0, 1fr); gap: 14px; margin: 26px 0 38px; padding: 14px 16px 14px 14px; }
+    .archive-body :global(.record-cta > img) { width: 64px; height: 64px; }
+    .archive-body :global(.record-cta strong) { font-size: 16px; }
+    .archive-body :global(.record-cta p) { font-size: 12px; }
     .archive-body :global(.record-quote) { margin: 34px 0; padding-left: 16px; }
     .archive-body :global(.record-quote > p) { font-size: 18px; }
     .archive-body :global(.record-quote > p + p) { font-size: 15px; }
