@@ -8,7 +8,7 @@ subject: '옵둘리오 바렐라'
 originalTitle: 'Campeonato Sudamericano de Football 1942'
 keywords: ['CONMEBOL Copa América', 'Obdulio Varela', '오브둘리오 바렐라', 'Bibiano Zapirain', 'Severino Varela', 'José Manuel Moreno', '우루과이 축구 국가대표팀', '센테나리오', '1942 남미축구선수권대회']
 pubDate: 2026-08-17T19:32:00+09:00
-coverImage: '/images/archive/1942-copa-america/cover.png'
+coverImage: '/images/archive/1942-copa-america/cover.webp'
 coverImageAlt: '1942 코파 아메리카와 옵둘리오 바렐라를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773

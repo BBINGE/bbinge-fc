@@ -8,7 +8,7 @@ subject: '세르히오 리빙스턴'
 originalTitle: 'Campeonato Sudamericano de Football 1941'
 keywords: ['CONMEBOL Copa América', 'Sergio Livingstone', '세르히오 리빙스톤', '세르히오 리빙스토네', 'José Manuel Moreno', 'Juan Marvezzi', '아르헨티나 축구 국가대표팀', '칠레 축구 국가대표팀', '1941 남미축구선수권대회']
 pubDate: 2026-08-17T19:31:00+09:00
-coverImage: '/images/archive/1941-copa-america/cover.png'
+coverImage: '/images/archive/1941-copa-america/cover.webp'
 coverImageAlt: '1941 코파 아메리카와 세르히오 리빙스턴을 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773

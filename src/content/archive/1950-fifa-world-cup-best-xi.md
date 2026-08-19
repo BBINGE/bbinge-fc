@@ -8,7 +8,7 @@ subject: '1950 월드컵 베스트 11'
 originalTitle: 'IV Campeonato Mundial de Futebol'
 keywords: ['1950 FIFA World Cup', 'Brazil 1950', '1950 월드컵 베스트 11', 'Maracanazo', '마라카낭의 비극', 'Obdulio Varela', 'Ademir de Menezes', 'Alcides Ghiggia', 'Juan Alberto Schiaffino', 'Zizinho', '우루과이 축구 국가대표팀', '히우지자네이루', '리우데자네이루']
 pubDate: 2026-08-19T22:40:00+09:00
-coverImage: '/images/archive/1950-fifa-world-cup-best-xi/cover.png'
+coverImage: '/images/archive/1950-fifa-world-cup-best-xi/cover.webp'
 coverImageAlt: '쥘리메컵에 입을 맞추는 선수와 1950 월드컵 베스트 11을 담은 기록 표지'
 coverImageCaption: '삥이의 축구 기록에서 제작한 1950 월드컵 베스트 11 원본 표지.'
 coverImageWidth: 773
@@ -127,7 +127,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 여덟 해 전 1942년 남미선수권에서 우루과이가 6전 전승으로 우승할 때, 스물네 살의 바렐라는 이미 같은 자리에 서 있었다. 그때 그는 몬테비데오 원더러스 소속이었고 대회의 대표 선수로 기록됐다. 1950년의 그는 페냐롤의 선수이자 주장이었다. 여덟 해 사이에 달라진 것은 소속팀과 완장이지 역할이 아니다.
 
 <a class="record-cta" href="/archive/national-team/copa-america/1942-copa-america-obdulio-varela/">
-  <img src="/images/archive/1942-copa-america/cover.png" alt="" loading="lazy" />
+  <img src="/images/archive/1942-copa-america/cover.webp" alt="" loading="lazy" />
   <div><small>같은 인물의 기록</small><strong>1942 코파 아메리카 최우수 선수: 옵둘리오 바렐라</strong><p>마라카낭보다 여덟 해 먼저 중원을 장악한 스물네 살 →</p></div>
 </a>
 
@@ -144,7 +144,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 이 활약은 갑자기 나온 것이 아니다. 열세 달 전 1949년 남미선수권의 우승 결정전에서 그는 파라과이를 상대로 전반 27분 안에 두 골을 넣고 해트트릭으로 경기를 끝냈다. 그때 브라질이 우승 결정전을 치른 경기장은 마라카낭이 아니라 상자누아리우였다. 마라카낭은 아직 공사 중이었다.
 
 <a class="record-cta" href="/archive/national-team/copa-america/1949-copa-america-ademir/">
-  <img src="/images/archive/1949-copa-america/cover.png" alt="" loading="lazy" />
+  <img src="/images/archive/1949-copa-america/cover.webp" alt="" loading="lazy" />
   <div><small>같은 인물의 기록</small><strong>1949 코파 아메리카 최우수 선수: 아데미르</strong><p>파라과이에 지고 사흘 만에 7-0으로 뒤집은 우승 결정전 →</p></div>
 </a>
 

@@ -8,10 +8,10 @@ subject: '아돌포 페데르네라'
 originalTitle: 'Campeonato Sudamericano de Football 1946'
 keywords: ['CONMEBOL Copa América', 'Adolfo Pedernera', '아돌포 페데르네라', 'La Máquina', '라 마키나', 'Alfredo Di Stéfano', '알프레도 디스테파노', '아르헨티나 축구 국가대표팀', '1946 남미축구선수권대회']
 pubDate: 2026-08-17T23:38:00+09:00
-coverImage: '/images/archive/1946-copa-america/cover.png'
+coverImage: '/images/archive/1946-copa-america/cover.webp'
 coverImageAlt: '1946 코파 아메리카와 아돌포 페데르네라를 기록한 표지'
-coverImageWidth: 1080
-coverImageHeight: 1080
+coverImageWidth: 800
+coverImageHeight: 800
 draft: false
 ---
 

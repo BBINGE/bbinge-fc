@@ -8,10 +8,10 @@ subject: '아데미르'
 originalTitle: 'Campeonato Sudamericano de Football 1949'
 keywords: ['CONMEBOL Copa América', 'Ademir Marques de Menezes', 'Ademir de Menezes', '아데미르', 'Expresso da Vitória', '익스프레수 다 비토리아', '브라질 축구 국가대표팀', '브라질 파라과이 7대0', '1949 남미축구선수권대회', '히우지자네이루', '리우데자네이루']
 pubDate: 2026-08-17T23:42:00+09:00
-coverImage: '/images/archive/1949-copa-america/cover.png'
+coverImage: '/images/archive/1949-copa-america/cover.webp'
 coverImageAlt: '1949 코파 아메리카와 아데미르를 기록한 표지'
-coverImageWidth: 1080
-coverImageHeight: 1080
+coverImageWidth: 800
+coverImageHeight: 800
 draft: false
 ---
 

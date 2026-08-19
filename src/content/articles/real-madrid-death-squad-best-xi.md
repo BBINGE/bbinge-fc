@@ -4,11 +4,11 @@ description: "알프레도 디스테파노가 군림한 1953–1964년 레알 �
 category: "custom-best-xi"
 tags: ["레알 마드리드 CF", "저승사자 군단", "베스트 11", "챔스 5연패", "알프레도 디스테파노", "파코 헨토"]
 pubDate: 2026-08-18
-coverImage: "/images/squads/real-madrid-death-squad-best-xi/cover.png"
+coverImage: "/images/squads/real-madrid-death-squad-best-xi/cover.webp"
 coverImageAlt: "유러피언컵을 든 레알 마드리드 선수단과 저승사자 군단 레알 마드리드 베스트 11 제목"
 coverImageCaption: "1953–1964년 레알 마드리드 CF 저승사자 군단. 표지 디자인: 삥이."
-coverImageWidth: 774
-coverImageHeight: 774
+coverImageWidth: 773
+coverImageHeight: 773
 draft: false
 featured: false
 ---

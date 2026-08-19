@@ -8,10 +8,10 @@ subject: '호세 마누엘 모레노'
 originalTitle: 'Campeonato Sudamericano de Football 1947'
 keywords: ['CONMEBOL Copa América', 'José Manuel Moreno', '호세 마누엘 모레노', 'Alfredo Di Stéfano', '알프레도 디스테파노', 'La Máquina', '라 마키나', '아르헨티나 코파 아메리카 3연패', '1947 남미축구선수권대회']
 pubDate: 2026-08-17T23:40:00+09:00
-coverImage: '/images/archive/1947-copa-america/cover.png'
+coverImage: '/images/archive/1947-copa-america/cover.webp'
 coverImageAlt: '1947 코파 아메리카와 호세 마누엘 모레노를 기록한 표지'
-coverImageWidth: 1080
-coverImageHeight: 1080
+coverImageWidth: 800
+coverImageHeight: 800
 draft: false
 ---
 

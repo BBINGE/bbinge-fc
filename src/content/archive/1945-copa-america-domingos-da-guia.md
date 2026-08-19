@@ -8,7 +8,7 @@ subject: '도밍구스 다 기아'
 originalTitle: 'Campeonato Sudamericano de Football 1945'
 keywords: ['CONMEBOL Copa América', 'Domingos da Guia', 'Domingos Antônio da Guia', '도밍구스 다기아', 'Norberto Méndez', 'Heleno de Freitas', '브라질 축구 국가대표팀', '아르헨티나 축구 국가대표팀', '1945 남미축구선수권대회']
 pubDate: 2026-08-17T19:33:00+09:00
-coverImage: '/images/archive/1945-copa-america/cover.png'
+coverImage: '/images/archive/1945-copa-america/cover.webp'
 coverImageAlt: '1945 코파 아메리카와 도밍구스 다 기아를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773

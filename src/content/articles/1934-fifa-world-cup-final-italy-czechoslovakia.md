@@ -34,7 +34,7 @@ relatedGroup: 'fifa-world-cup-1934'
 
 <section class="highlight-scene">
   <header><span>BEFORE KICK-OFF</span><h3>유럽에서 열린 첫 월드컵의 마지막 경기</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1934 월드컵 결승전을 앞둔 경기장 풍경"><source src="/media/highlights/1934-world-cup-final/clip-01.mp4" type="video/mp4" /></video><figcaption>결승전을 앞둔 로마와 스타디오 나치오날레 PNF의 풍경.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" aria-label="1934 월드컵 결승전을 앞둔 경기장 풍경"><source src="/media/highlights/1934-world-cup-final/clip-01.mp4" type="video/mp4" /></video><figcaption>결승전을 앞둔 로마와 스타디오 나치오날레 PNF의 풍경.</figcaption></figure></div>
   <p>공식 기록이 전하는 관중 수는 자료마다 조금씩 다르다. FIGC의 대회 회고는 약 5만 명, 다른 경기 기록은 약 4만~5만5천 명을 남긴다. 정확한 한 자리 숫자보다 분명한 것은 이 경기가 개최국의 수도에서 열렸고, 무솔리니가 지켜보는 가운데 이탈리아의 첫 우승을 요구하는 거대한 압력 속에서 시작됐다는 사실이다.</p>
   <p>주심은 스웨덴의 이반 에클린드였다. 포초의 이탈리아에는 주장 잔피에로 콤비와 루이스 몬티, 주세페 메아차<span class="foreign-note" lang="it">(Giuseppe Meazza; 이탈리아 주장·인사이드 포워드)</span>, 라이문도 오르시<span class="foreign-note" lang="es-AR">(Raimundo Orsi; 아르헨티나 출생 이탈리아 윙포워드)</span>, 안젤로 스키아비오<span class="foreign-note" lang="it">(Angelo Schiavio; 이탈리아 센터 포워드)</span>가 섰다.</p>
   <p>체코슬로바키아는 프란티셰크 플라니치카<span class="foreign-note" lang="cs">(František Plánička; 체코슬로바키아 골키퍼)</span>가 골문을 지키고, 올드르지흐 네예들리와 안토닌 푸치<span class="foreign-note" lang="cs">(Antonín Puč; 체코슬로바키아 아웃사이드 레프트)</span>가 공격을 이끌었다. 결승의 세 득점자는 양쪽 공격선에 미리 서 있었지만, 누가 먼저 장면을 차지할지는 후반 26분까지 드러나지 않았다.</p>
@@ -44,7 +44,7 @@ relatedGroup: 'fifa-world-cup-1934'
 
 <section class="highlight-scene">
   <header><span>FIRST HALF · 0-0</span><h3>이탈리아가 밀어붙였지만 열리지 않은 골문</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="1934 월드컵 결승전 이탈리아의 공격"><source src="/media/highlights/1934-world-cup-final/clip-02.mp4" type="video/mp4" /></video><figcaption>메아차와 스키아비오를 앞세운 이탈리아가 체코슬로바키아의 골문을 두드린다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" aria-label="1934 월드컵 결승전 이탈리아의 공격"><source src="/media/highlights/1934-world-cup-final/clip-02.mp4" type="video/mp4" /></video><figcaption>메아차와 스키아비오를 앞세운 이탈리아가 체코슬로바키아의 골문을 두드린다.</figcaption></figure></div>
   <p>기록 영상에서 이탈리아의 공격은 거칠고 빠르다. 공을 오래 소유하기보다 전방으로 곧장 보내고, 여러 선수가 문전으로 한꺼번에 들어간다. 하지만 플라니치카가 버틴 체코슬로바키아의 골문은 전반 45분 동안 열리지 않았다.</p>
   <p>체코슬로바키아 역시 뒤로만 물러서지 않았다. 네예들리를 중심으로 반격의 출구를 남겼고, 푸치는 왼쪽에서 콤비의 골문을 노렸다. 전반은 0-0. 개최국의 일방적인 축제로 보였던 결승전은 후반 들어 먼저 체코슬로바키아 쪽으로 기울었다.</p>
 </section>
@@ -63,14 +63,14 @@ relatedGroup: 'fifa-world-cup-1934'
 
 <section class="highlight-scene">
   <header><span>71' · CZECHOSLOVAKIA 1-0</span><h3>안토닌 푸치, 개최국을 침묵시키다</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안토닌 푸치의 측면 돌파와 1934 월드컵 결승전 선제골"><source src="/media/highlights/1934-world-cup-final/puc-goal.mp4" type="video/mp4" /></video><figcaption>푸치가 왼쪽 측면을 돌파해 슈팅하고, 콤비가 몸을 날린 뒤 골문이 다시 잡힌다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" aria-label="안토닌 푸치의 측면 돌파와 1934 월드컵 결승전 선제골"><source src="/media/highlights/1934-world-cup-final/puc-goal.mp4" type="video/mp4" /></video><figcaption>푸치가 왼쪽 측면을 돌파해 슈팅하고, 콤비가 몸을 날린 뒤 골문이 다시 잡힌다.</figcaption></figure></div>
   <p>후반 26분, 먼저 골문을 연 팀은 체코슬로바키아였다. 푸치는 왼쪽 측면에서 수비를 벗겨낸 뒤 각도가 거의 없는 자리까지 들어간다. 그리고 콤비가 가까운 골문을 막으려는 순간, 공을 먼 쪽으로 보내버렸다.</p>
   <p>필름은 푸치가 왼쪽 측면에서 수비를 벗겨내는 과정부터 슈팅, 몸을 날린 콤비와 골문까지 한 흐름으로 보여준다. 결승 종료까지 19분. 개최국 이탈리아가 처음으로 탈락 직전까지 밀렸다.</p>
 </section>
 
 <section class="highlight-scene">
   <header><span>81' · 1-1</span><h3>라이문도 오르시, 오른발로 만든 동점</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="라이문도 오르시의 오른발 슈팅과 1934 월드컵 결승전 동점골"><source src="/media/highlights/1934-world-cup-final/orsi-goal.mp4" type="video/mp4" /></video><figcaption>오르시가 수비를 앞에 두고 오른발로 슈팅한다. 다음 화면에서 공이 골망 안에 떨어진다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" aria-label="라이문도 오르시의 오른발 슈팅과 1934 월드컵 결승전 동점골"><source src="/media/highlights/1934-world-cup-final/orsi-goal.mp4" type="video/mp4" /></video><figcaption>오르시가 수비를 앞에 두고 오른발로 슈팅한다. 다음 화면에서 공이 골망 안에 떨어진다.</figcaption></figure></div>
   <p>푸치의 골이 터진 지 10분 뒤, 오르시가 경기를 원점으로 돌렸다. 영상에서는 오르시가 수비를 앞에 두고 오른발로 슈팅하는 모습과, 이어진 화면에서 공이 골망 안에 떨어지는 순간을 볼 수 있다.</p>
   <p>아르헨티나에서 태어나 이탈리아 대표가 된 오르시는 강한 왼발로 이름을 얻은 윙포워드였다. 그런데 결승전에서 이탈리아를 살린 슈팅은 오른발에서 나왔다. 남은 9분 동안 추가골은 없었고, 두 번째 월드컵 결승전은 최초로 연장전에 들어갔다.</p>
 </section>
@@ -89,7 +89,7 @@ relatedGroup: 'fifa-world-cup-1934'
 
 <section class="highlight-scene">
   <header><span>95' · ITALY 2-1</span><h3>안젤로 스키아비오, 돌아서며 끝낸 결승전</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="metadata" aria-label="안젤로 스키아비오의 1934 월드컵 연장 결승골 전체 장면"><source src="/media/highlights/1934-world-cup-final/schiavio-goal.mp4" type="video/mp4" /></video><figcaption>문전 공격이 이어지고 스키아비오의 슈팅이 골문으로 향한다. 득점 직후 사람들이 그라운드로 뛰어나온다.</figcaption></figure></div>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" aria-label="안젤로 스키아비오의 1934 월드컵 연장 결승골 전체 장면"><source src="/media/highlights/1934-world-cup-final/schiavio-goal.mp4" type="video/mp4" /></video><figcaption>문전 공격이 이어지고 스키아비오의 슈팅이 골문으로 향한다. 득점 직후 사람들이 그라운드로 뛰어나온다.</figcaption></figure></div>
 
 연장이 시작된 지 5분 만에 승부가 갈렸다. 메아차가 아래로 내려와 공격을 잇고, 엔리케 과이타<span class="foreign-note" lang="es-AR">(Enrique Guaita; 아르헨티나 출생 이탈리아 공격수)</span>가 공을 스키아비오에게 연결했다. 스키아비오는 수비를 등진 채 방향을 바꾼 뒤 오른발 슈팅으로 플라니치카를 넘어섰다. 공식 기록에 남은 시간은 95분. 이탈리아가 결승전에서 처음 앞선 순간이자 마지막 골이었다.
 
