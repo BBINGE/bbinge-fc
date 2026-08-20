@@ -739,3 +739,220 @@ if (props.kind === 'category') {
     })();
   </script>
 )}
+
+<style is:global>
+  /* GHIGGIA_QUOTE_REDESIGN_2026_08_20 */
+  .article-body .ghiggia-quote-finale {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr) !important;
+    min-height: 430px;
+    margin: clamp(3.5rem, 8vw, 6.5rem) 0;
+    overflow: hidden;
+    isolation: isolate;
+    border: 1px solid rgba(202, 165, 86, 0.3);
+    border-radius: 22px;
+    background:
+      radial-gradient(circle at 72% 30%, rgba(210, 168, 78, 0.17), transparent 35%),
+      linear-gradient(112deg, #050606 0%, #0d0d0b 48%, #181309 100%) !important;
+    box-shadow: 0 28px 65px rgba(8, 8, 6, 0.2);
+  }
+
+  .article-body .ghiggia-quote-finale::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+    background: linear-gradient(105deg, transparent 38%, rgba(255, 226, 151, 0.2) 49%, transparent 60%) !important;
+    transform: translateX(-115%);
+    animation: ghiggia-gold-sweep 1.5s cubic-bezier(.2, .7, .2, 1) 0.65s both;
+  }
+
+  .article-body .ghiggia-quote-copy {
+    position: relative;
+    z-index: 2;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.15rem;
+    padding: clamp(2rem, 4.8vw, 4.5rem);
+    background: linear-gradient(90deg, rgba(5, 6, 6, 0.99) 0%, rgba(8, 8, 7, 0.96) 72%, rgba(8, 8, 7, 0.28) 100%) !important;
+  }
+
+  .article-body .ghiggia-quote-kicker,
+  .article-body .ghiggia-quote-language,
+  .article-body .ghiggia-quote-finale figcaption {
+    opacity: 0;
+    transform: translateY(14px);
+    animation: ghiggia-quote-rise 0.7s cubic-bezier(.2, .75, .2, 1) forwards;
+  }
+
+  .article-body .ghiggia-quote-kicker {
+    margin: 0 0 0.25rem;
+    color: #d9b45f;
+    font-size: 0.67rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    animation-delay: 0.12s;
+  }
+
+  .article-body .ghiggia-quote-language {
+    display: grid;
+    gap: 0.38rem;
+    margin: 0;
+  }
+
+  .article-body .ghiggia-quote-original {
+    animation-delay: 0.24s;
+  }
+
+  .article-body .ghiggia-quote-translation {
+    animation-delay: 0.38s;
+  }
+
+  .article-body .ghiggia-quote-label {
+    color: rgba(231, 211, 163, 0.68);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+  }
+
+  .article-body .ghiggia-quote-language blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    line-height: 1.34;
+    word-break: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .article-body .ghiggia-quote-original blockquote {
+    max-width: 22ch;
+    color: #d7ad4f;
+    background: linear-gradient(118deg, #fff1ba 0%, #d4a849 48%, #8e6724 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.35rem, 2.4vw, 2rem);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .article-body .ghiggia-quote-translation blockquote {
+    max-width: 25ch;
+    color: #f1ead9;
+    font-size: clamp(1.05rem, 1.75vw, 1.42rem);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  .article-body .ghiggia-quote-finale figcaption {
+    margin: 0.35rem 0 0;
+    color: rgba(227, 215, 187, 0.58);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    animation-delay: 0.5s;
+  }
+
+  .article-body .ghiggia-quote-portrait {
+    position: relative;
+    z-index: 1;
+    display: block !important;
+    width: 100% !important;
+    min-width: 0;
+    min-height: 430px;
+    overflow: hidden;
+  }
+
+  .article-body .ghiggia-quote-portrait::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(90deg, #080807 0%, rgba(8, 8, 7, 0.48) 17%, transparent 45%),
+      linear-gradient(0deg, rgba(8, 7, 4, 0.32), transparent 45%);
+    pointer-events: none;
+  }
+
+  .article-body .ghiggia-quote-portrait img {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100%;
+    max-width: none !important;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+    object-fit: cover;
+    object-position: 52% center;
+    filter: grayscale(1) sepia(0.14) contrast(1.06);
+    transform: scale(1.055);
+    animation: ghiggia-portrait-settle 2.2s cubic-bezier(.2, .7, .2, 1) forwards;
+  }
+
+  @keyframes ghiggia-quote-rise {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes ghiggia-gold-sweep {
+    to { transform: translateX(115%); }
+  }
+
+  @keyframes ghiggia-portrait-settle {
+    to { transform: scale(1); }
+  }
+
+  @media (max-width: 700px) {
+    .article-body .ghiggia-quote-finale {
+      grid-template-columns: 1fr !important;
+      min-height: 0;
+      border-radius: 18px;
+    }
+
+    .article-body .ghiggia-quote-portrait {
+      grid-row: 1;
+      min-height: clamp(280px, 78vw, 390px);
+    }
+
+    .article-body .ghiggia-quote-portrait::after {
+      background: linear-gradient(0deg, #080807 0%, rgba(8, 8, 7, 0.22) 38%, transparent 66%);
+    }
+
+    .article-body .ghiggia-quote-copy {
+      grid-row: 2;
+      gap: 1rem;
+      margin-top: -1px;
+      padding: 1.75rem 1.4rem 2rem;
+      background:
+        radial-gradient(circle at 90% 0%, rgba(202, 159, 67, 0.13), transparent 42%),
+        #080807 !important;
+    }
+
+    .article-body .ghiggia-quote-original blockquote {
+      max-width: none;
+      font-size: clamp(1.18rem, 5.2vw, 1.48rem);
+    }
+
+    .article-body .ghiggia-quote-translation blockquote {
+      max-width: none;
+      font-size: clamp(0.95rem, 4vw, 1.1rem);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .article-body .ghiggia-quote-finale::before,
+    .article-body .ghiggia-quote-kicker,
+    .article-body .ghiggia-quote-language,
+    .article-body .ghiggia-quote-finale figcaption,
+    .article-body .ghiggia-quote-portrait img {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+</style>
