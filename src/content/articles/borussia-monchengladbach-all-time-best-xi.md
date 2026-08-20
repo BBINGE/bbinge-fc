@@ -20,7 +20,7 @@ featured: true
   <span class="gateway-line" aria-hidden="true"></span>
   <div class="gladbach-league"><img src="/images/leagues/bundesliga-symbol.webp" alt="푸스발-분데스리가 공식 상징" width="3840" height="3840" /><p>푸스발-분데스리가</p><small lang="de">Fußball-Bundesliga</small></div>
   <span class="gateway-line" aria-hidden="true"></span>
-  <div class="gladbach-club"><span class="gladbach-diamond" aria-hidden="true"><i>B</i></span><p>보루시아 묀헨글라트바흐</p><small lang="de">Borussia Verein für Leibesübungen 1900 Mönchengladbach e. V.</small></div>
+  <div class="gladbach-club"><img class="gladbach-club-logo" src="/images/clubs/borussia-monchengladbach-logo.webp" alt="보루시아 묀헨글라트바흐 문장" width="500" height="800" /><p>보루시아 묀헨글라트바흐</p><small lang="de">Borussia Verein für Leibesübungen 1900 Mönchengladbach e. V.</small></div>
 </section>
 
 **독일 연방 공화국**<span class="foreign-note" lang="de">(Bundesrepublik Deutschland; 1949년 수립된 독일의 공식 국호)</span> 서부, 노르트라인베스트팔렌주에 묀헨글라트바흐<span class="foreign-note" lang="de">(Mönchengladbach; 라인강 서쪽의 도시)</span>가 있다. 섬유 산업으로 성장한 이 도시는 쾰른이나 뒤셀도르프처럼 거대한 중심지가 아니었다. 그곳에서 태어난 축구단도 1963년 푸스발-분데스리가 창립 회원으로 선택받지 못했다.
@@ -29,7 +29,7 @@ featured: true
 
 1970년 첫 분데스리가 우승, 이듬해 리그 최초의 2연패, 1975년부터 1977년까지의 3연패. 1975년과 1979년에는 UEFA컵을 들었고 1977년 유러피언컵 결승에 닿았다. 이 팀의 황금기는 우승 횟수만으로 온전히 적히지 않는다. 바이언이 철과 기둥으로 제국을 세울 때 묀헨글라트바흐는 속도와 교환, 젊음의 무모함으로 축구의 문법을 흔들었다. 유럽이 만난 것은 승리하는 팀인 동시에 축구라는 게임의 진화를 시험하던 실험실이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-<div class="gladbach-era"><span>BORUSSIA VEREIN FÜR LEIBESÜBUNGEN 1900</span><strong>1900—2026</strong><p><em lang="de">Die Fohlen</em> · 초록과 검정에 남은 청춘의 속도</p></div>
+<div class="gladbach-era"><img src="/images/clubs/borussia-monchengladbach-logo.webp" alt="" aria-hidden="true" width="500" height="800" /><span>BORUSSIA VEREIN FÜR LEIBESÜBUNGEN 1900</span><strong>1900—2026</strong><p><em lang="de">Die Fohlen</em> · 초록과 검정에 남은 청춘의 속도</p></div>
 
 ## 열한 자리를 고른 방식
 
@@ -51,6 +51,8 @@ featured: true
 
 1973년 UEFA컵 결승과 1977년 유러피언컵 결승에서 리버풀을 넘지 못한 기억도 그의 역사다. 그 사이 분데스리가 다섯 차례, 1973년 DFB-포칼, 1975년 UEFA컵을 함께했다. 유럽 정상으로 솟아오른 팀과 정상에서 내려오는 팀의 골문을 모두 본 사람. 클레프의 긴 재임은 묀헨글라트바흐 황금기의 시작과 끝을 재는 눈금이다.
 
+바이스바일러의 수비는 골키퍼에게 편안한 저녁을 약속하지 않았다. 좌우 풀백이 전진하고 중원이 공을 잃으면 상대 공격수와 넓은 잔디를 마주해야 했다. 클레프는 페널티 지역 앞까지 나와 스루패스의 속도를 죽였고, 잡은 공을 오래 품기보다 측면으로 빠르게 보내 공격의 박자를 다시 붙였다. 1975년 UEFA컵 결승 2차전에서 트벤테를 5-1로 무너뜨린 선발 명단의 맨 뒤에도 그가 있었다. 한 팀의 공격성이 골키퍼의 성격에서 시작될 수 있음을 보여준 사례다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
+
 ## 2. 빌프리트 하네스｜중앙 수비수
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/wilfried-hannes.webp" alt="빌프리트 하네스 중앙 수비수 편집물" loading="lazy" width="966" height="2737" /></figure>
@@ -58,6 +60,8 @@ featured: true
 빌프리트 하네스<span class="foreign-note" lang="de">(Wilfried Hannes; 독일 축구선수·수비수, 1957–)</span>는 영광과 침묵 사이를 지킨 그림자였다. 1975년에 합류한 장신 수비수는 공중볼을 처리한 뒤 공을 버리지 않았고, 후방에서 한 줄을 건너뛰는 패스로 공격을 다시 살렸다. 리베로와 대인 수비를 오갈 수 있었기에 포크츠가 측면을 밀어 올리는 순간에도 수비의 중심은 쉽게 기울지 않았다.
 
 1979년 UEFA컵 우승은 왕조의 마지막 유럽 트로피였다. 이후 간판들이 하나씩 떠난 자리에서도 하네스는 1986년까지 남았다. 정점의 환호를 기억하면서 과도기의 무게까지 받아낸 수비수에게 화려한 별명은 필요하지 않다. 팀이 품위를 잃지 않고 내려올 수 있었던 까닭이 그의 침착한 첫 패스 안에 있었다.
+
+하네스는 상대 9번을 따라가는 스토퍼와 남은 공간을 읽는 리베로의 문법을 모두 알았다. 188cm의 신장은 높은 공에서 우위를 주었지만 그의 진짜 가치는 헤더 이후에 드러났다. 세컨드 볼의 낙하지점을 향해 한 발 먼저 움직이고, 압박이 비면 직접 중원으로 전진했다. 1980-81시즌에는 수비수의 위치에서 분데스리가 16골을 넣었다. 세트피스와 페널티킥, 전진 능력까지 후방 자원의 범위를 넓힌 수치다. 어린 시절 한쪽 눈의 시력을 잃고도 최고 수준의 거리 판단을 완성했다는 생애는 그 침착함을 더욱 특별하게 만든다.
 
 ## 3. 파트리크 안데르손｜중앙 수비수
 
@@ -67,6 +71,8 @@ featured: true
 
 이후 바이언과 바르셀로나로 이어진 경력은 그 판단력이 유럽의 높은 단계에서도 통했음을 보여준다. 전통은 전성기의 모양을 반복해서 살아남지 않는다. 안데르손은 황금빛 기억을 1990년대의 단단한 문법으로 번역했다.
 
+1995년 포칼 결승에서 볼프스부르크를 상대할 때에도 그는 수비의 기준점이었다. 앞선 압박이 벗겨지면 무작정 달려들지 않고 물러서며 동료가 복귀할 시간을 벌었고, 몸을 비스듬히 세워 공격수를 불편한 방향으로 몰았다. 공을 얻은 뒤에는 짧은 패스로 압박을 끌어낸 다음 대각선 전환으로 반대편을 열었다. 훗날 바이언의 2001년 UEFA 챔피언스리그 우승을 결정한 마지막 리그 경기에서 간접 프리킥을 성공시킨 강심장은 묀헨글라트바흐 시절부터 길러진 것이었다.
+
 ## 4. 한스-위르겐 클링하머｜왼쪽 풀백
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/hans-jurgen-klinkhammer.webp" alt="한스-위르겐 클링하머 왼쪽 풀백 편집물" loading="lazy" width="966" height="2737" /></figure>
@@ -74,6 +80,8 @@ featured: true
 한스-위르겐 클링하머<span class="foreign-note" lang="de">(Hans-Jürgen Klinkhammer; 독일 축구선수·수비수, 1953–)</span>의 장점은 장면을 빼앗지 않는 데 있었다. 공을 가진 동료의 길을 막지 않고, 측면과 중앙 사이에서 위험이 커지기 전에 자리를 메웠다. 풀백이 조용할수록 팀은 안전하다는 오래된 명제를 가장 성실하게 수행했다.
 
 그가 1군에서 뛴 1970년대 중후반, 팀은 리그 정상과 유럽대항전 결승을 일상처럼 오갔다. 스포트라이트는 네처와 시몬센, 하인케스에게 향했지만 그 빛이 오래 머물도록 전선을 정리한 사람도 필요했다. 클링하머는 묀헨글라트바흐의 거대한 시대가 오직 천재들의 즉흥으로 세워진 것이 아님을 알려준다.
+
+그는 전형적인 오버래핑 풀백처럼 터치라인 끝까지 매번 질주하지 않았다. 왼쪽 공격수가 안으로 접을 때 후방의 패스 길을 만들고, 반대쪽 포크츠가 올라가면 세 번째 중앙 수비수처럼 폭을 좁혔다. 1975년 UEFA컵 결승 2차전과 1977년 유러피언컵 결승의 선발 명단에 모두 이름을 올린 사실은 역할의 신뢰도를 말해준다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 결승의 조명 아래에서도 평소와 같은 간격을 유지하는 능력, 그것이 황금기 팀에서 클링하머가 얻은 자리였다.
 
 ## 5. 베르티 포크츠｜오른쪽 풀백
 
@@ -97,6 +105,8 @@ featured: true
 
 두 사람의 관계를 보조자와 주인공으로만 나누면 묀헨글라트바흐의 축구를 놓친다. 네처의 패스가 팀을 앞으로 당겼다면 비머의 회수는 그 팀이 다시 시도할 권리를 만들었다. 1972년 유럽선수권과 1974년 월드컵을 품은 서독에서도 같은 기능이 빛났다. 그는 화려함의 반대편이 아니라 화려함을 가능하게 한 구조였다.
 
+별명 *Iron Lung*, ‘철의 폐’는 장거리 주행만을 가리킨 찬사가 아니었다. 비머는 네처가 왼쪽 깊숙이 내려가면 그 앞의 하프스페이스를 채우고, 10번이 공을 잃는 순간에는 가장 가까운 패스 길부터 지웠다. 공격에서는 박스 바깥에 머물다가 늦게 침투해 수비의 시선을 갈랐다. 1972년 유럽선수권 결승에서는 네처의 슈팅이 골키퍼에게 맞고 흐르자 두 번째 골을 넣었다. UEFA 대회 베스트 XI는 그를 지칠 줄 모르는 선수로 기억한다. 366회의 분데스리가 경기를 한 구단에서 치르며 다섯 리그 우승을 함께한 지속성이 그 별명의 완성이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+
 ## 7. 라이너 본호프｜중앙 미드필더
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/rainer-bonhof.webp" alt="라이너 본호프 중앙 미드필더 편집물" loading="lazy" width="966" height="2737" /></figure>
@@ -104,6 +114,8 @@ featured: true
 라이너 본호프<span class="foreign-note" lang="de">(Rainer Bonhof; 독일 축구선수·미드필더, 1952–)</span>는 네처가 떠난 뒤에도 왕조가 계속 전진할 수 있다는 증명이었다. 강한 슈팅과 긴 패스, 넓은 활동 범위, 측면으로 흘러 크로스를 올릴 수 있는 유연함을 한 몸에 담았다. 네처가 불꽃이고 비머가 뿌리였다면 본호프는 그 둘의 유산을 다음 시대의 동력으로 바꾼 터빈이었다.
 
 1974년 월드컵 결승에서 게르트 뮐러의 결승골로 이어진 패스를 건넸고, 클럽에서는 네 차례의 분데스리가 우승과 1975년 UEFA컵을 함께했다. 발렌시아로 향한 1978년의 이적도 독일 미드필더가 국경 밖에서 전술적 권위를 인정받은 이른 사례였다. 오늘날 그는 구단의 행정가로 돌아와 과거를 전시하는 대신 미래에 연결한다. UEFA가 하인케스와 본호프를 두고 ‘그들이 없었다면 오늘의 보루시아도 없다’는 구단의 평가를 전한 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+
+본호프의 오른발은 중원을 통과하는 것과 중원을 생략하는 것을 모두 허락했다. 낮고 빠른 패스로 압박 사이를 찌르다가 상대가 안쪽을 잠그면 오른쪽으로 흘러 긴 크로스를 올렸다. 직접 프리킥과 중거리 슈팅은 수비 라인을 앞으로 끌어냈고, 그 틈을 시몬센과 하인케스가 사용했다. 1977년 로마의 유러피언컵 결승에서는 초반 슈팅으로 골대를 때렸다. 우승자는 리버풀이었으나 묀헨글라트바흐가 유럽의 가장 높은 경기에서도 먼저 상대를 흔들 수 있음을 보여준 장면이었다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
 ## 8. 귄터 네처｜공격형 미드필더
 
@@ -129,6 +141,8 @@ featured: true
 
 1962년 이탈리아로 떠난 선택은 당시 서독 선수에게 드문 길이었다. 세리에 A가 그의 패스와 침투를 원했다는 사실은 브륄스가 지역 영웅에 머물지 않았음을 말한다. 공격형 미드필더와 안쪽 공격수를 넘나든 그는 구단의 창세기와 유럽을 잇는 첫 문이었다.
 
+브륄스는 고정된 센터 포워드보다 공을 찾아 움직이는 내부 공격수에 가까웠다. 중원까지 내려와 패스를 받은 뒤 짧은 드리블로 수비수를 끌고 나왔고, 동료가 만든 틈에는 다시 문전으로 파고들었다. 1960년 포칼 우승 과정에서 보여준 득점과 조율은 지역 대회의 강호였던 팀을 전국의 시야 안으로 옮겼다. 이후 모데나와 브레시아에서 뛰며 이탈리아의 촘촘한 수비를 경험한 경력은, 훗날 묀헨글라트바흐가 유럽의 전술을 흡수하고 되돌려주는 구단이 될 것임을 먼저 예고했다.
+
 ## 10. 알란 시몬센｜세컨드 스트라이커
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/allan-simonsen.webp" alt="알란 시몬센 세컨드 스트라이커 편집물" loading="lazy" width="966" height="2737" /></figure>
@@ -136,6 +150,8 @@ featured: true
 알란 시몬센<span class="foreign-note" lang="da">(Allan Rodenkam Simonsen; 덴마크 축구선수·공격수, 1952–)</span>은 작은 몸으로 묀헨글라트바흐의 역사를 세계사에 연결했다. 첫 두 시즌에는 자리를 잡지 못했지만 빠른 방향 전환과 양발의 마무리, 측면과 중앙을 오가는 움직임으로 왕조의 최전선에 올랐다. 1977년 발롱도르는 리버풀과의 유러피언컵 결승에서 패한 팀의 공격수가 유럽 최고의 개인으로 선택된 사건이었다.
 
 그는 유러피언컵, UEFA컵, 컵위너스컵 결승에서 모두 득점한 유일한 선수로 기록된다. 서로 다른 세 유럽대항전의 마지막 무대에서 골을 남겼다는 사실은 한 체격이나 한 전술에 갇히지 않았던 공격수의 범위를 보여준다. 덴마크 축구가 훗날 라우드루프 형제와 크리스티안 에릭센을 낳기 전, 세계는 시몬센을 통해 그 나라의 창조성을 먼저 배웠다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
+
+공을 받을 때의 첫 방향이 시몬센의 무기였다. 터치라인 쪽으로 열어 수비수를 따라오게 만든 뒤 안쪽으로 급히 꺾었고, 좁은 보폭으로 두 번째 접촉까지 가져가 슈팅 각을 확보했다. 1975년 트벤테와의 UEFA컵 결승 2차전에서는 시작 3분 만에 골을 넣고 마지막 페널티킥까지 책임졌다. 1977년 로마에서는 리버풀 골문 오른쪽 위를 찌르는 동점골을 남겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 가장 큰 무대에서 수비가 좁힌 공간을 오히려 출발점으로 삼았으니, 발롱도르는 왕조의 명성에 얹힌 상이 아니라 그가 직접 만든 결승의 흔적이었다.
 
 ## 11. 유프 하인케스｜센터 포워드
 
@@ -182,7 +198,35 @@ featured: true
 
 ### 3군과 주요 후보
 
-<p class="candidate-names">볼프강 크나이프, 케이시 켈러, 마르크안드레 테어 슈테겐, 카를하인츠 지엘로프, 프랑크 셰퍼, 한스-게오르크 놀렌더스, 토니 얀치케, 단치 봉핑, 니코 엘베디, 오스카르 벤트, 카를 콜리크, 카를-하인츠 호흐슈테터, 크리스토프 크라머, 플로리안 노이하우스, 후안 아랑고, 마르코 로이스, 하파에우, 요나스 호프만, 울리히 르 페브르, 파트리크 헤어만, 베른트 루프, 하랄트 니켈, 한스 크리엔스, 프랑크 밀, 마르틴 달린, 하이코 헤를리히, 올리버 뇌빌.</p>
+<ul class="gladbach-candidates gladbach-candidates--third" aria-label="보루시아 묀헨글라트바흐 역대 베스트 11 3군과 주요 후보">
+  <li><strong>볼프강 크나이프</strong><small>골키퍼</small><p>클레프와 경쟁하며 1970년대 후반 골문의 깊이를 지킨 장신 수문장.</p></li>
+  <li><strong>케이시 켈러</strong><small lang="en">Kasey Keller · 골키퍼</small><p>강한 일대일 방어와 경험으로 2000년대 중반의 주장까지 맡았다.</p></li>
+  <li><strong>마르크안드레 테어 슈테겐</strong><small lang="de">Marc-André ter Stegen · 골키퍼</small><p>유소년팀에서 성장해 발밑 좋은 현대 골키퍼의 가능성을 먼저 보였다.</p></li>
+  <li><strong>클라우스-디터 지엘로프</strong><small lang="de">Klaus-Dieter Sieloff · 중앙 수비수</small><p>분데스리가 초창기 후방에 대인 수비와 강한 킥을 더했다.</p></li>
+  <li><strong>프랑크 셰퍼</strong><small lang="de">Frank Schäffer · 중앙 수비수</small><p>1975년 UEFA컵 우승기의 중앙을 지킨 황금기 수비수.</p></li>
+  <li><strong>한스-게오르크 놀렌더스</strong><small>중앙 수비수</small><p>승격 전후의 시대를 잇고 초기 분데스리가 수비에 몸을 보탰다.</p></li>
+  <li><strong>토니 얀치케</strong><small lang="de">Tony Jantschke · 중앙 수비수</small><p>유소년부터 1군까지 한 구단을 지키며 수비 전 포지션을 소화했다.</p></li>
+  <li><strong>단치 봉핑</strong><small lang="de">Dante Bonfim Costa Santos · 중앙 수비수</small><p>강한 제공권과 전진 패스로 2010년대 재도약의 기반을 놓았다.</p></li>
+  <li><strong>니코 엘베디</strong><small lang="de">Nico Elvedi · 중앙 수비수</small><p>빠른 커버와 빌드업으로 현대 수비 라인의 장기적인 축이 되었다.</p></li>
+  <li><strong>오스카르 벤트</strong><small lang="sv">Oscar Wendt · 왼쪽 풀백</small><p>안정된 전진과 왼발 킥으로 한 시대의 왼쪽을 오래 책임졌다.</p></li>
+  <li><strong>카를 콜리크</strong><small>수비형 미드필더</small><p>구단사의 이른 시기에 수비 앞 공간을 지킨 중원의 노동자.</p></li>
+  <li><strong>카를-하인츠 호흐슈테터</strong><small lang="de">Karl-Heinz Hochstätter · 수비형 미드필더</small><p>1980년대의 압박과 전환을 연결하며 중원에 균형을 더했다.</p></li>
+  <li><strong>크리스토프 크라머</strong><small lang="de">Christoph Kramer · 중앙 미드필더</small><p>왕성한 활동량과 압박 회피로 현대 팀의 리듬을 조율했다.</p></li>
+  <li><strong>플로리안 노이하우스</strong><small lang="de">Florian Neuhaus · 중앙 미드필더</small><p>전진 패스와 박스 침투로 중원에 창조적인 결을 보탰다.</p></li>
+  <li><strong>후안 아랑고</strong><small lang="es">Juan Arango · 왼쪽 미드필더</small><p>정교한 왼발과 프리킥으로 승격 이후의 팀에 낭만을 되돌렸다.</p></li>
+  <li><strong>마르코 로이스</strong><small lang="de">Marco Reus · 공격형 미드필더</small><p>폭발적인 운반과 득점으로 2011-12시즌의 유럽 무대 복귀를 이끌었다.</p></li>
+  <li><strong>하파에우</strong><small lang="pt-BR">Raffael · 공격형 미드필더</small><p>부드러운 연계와 골 결정력으로 파브르 시대 공격의 중심에 섰다.</p></li>
+  <li><strong>요나스 호프만</strong><small lang="de">Jonas Hofmann · 공격형 미드필더</small><p>측면과 중앙을 오가며 압박·침투·마지막 패스를 함께 제공했다.</p></li>
+  <li><strong>울리히 르 페브르</strong><small>왼쪽 윙어</small><p>1970년대 초 측면에서 속도와 폭을 공급한 공격 자원.</p></li>
+  <li><strong>파트리크 헤어만</strong><small lang="de">Patrick Herrmann · 오른쪽 윙어</small><p>유소년 출신의 빠른 침투로 2010년대 반등을 상징했다.</p></li>
+  <li><strong>베른트 루프</strong><small lang="de">Bernd Rupp · 센터 포워드</small><p>승격기와 초기 분데스리가에서 공격의 날을 세운 해결사.</p></li>
+  <li><strong>하랄트 니켈</strong><small lang="de">Harald Nickel · 센터 포워드</small><p>강한 슈팅과 득점 감각으로 1970년대 말 전방을 보충했다.</p></li>
+  <li><strong>한스 크리엔스</strong><small lang="de">Hans-Jörg Criens · 센터 포워드</small><p>교체 출전에서도 경기를 바꿔 ‘조커’의 전형으로 사랑받았다.</p></li>
+  <li><strong>프랑크 밀</strong><small lang="de">Frank Mill · 센터 포워드</small><p>빠른 움직임과 문전 감각으로 1980년대 초 공격을 이끌었다.</p></li>
+  <li><strong>마르틴 달린</strong><small lang="sv">Martin Dahlin · 센터 포워드</small><p>힘과 속도를 겸비해 1990년대 포칼 우승기의 전방을 책임졌다.</p></li>
+  <li><strong>하이코 헤를리히</strong><small lang="de">Heiko Herrlich · 센터 포워드</small><p>1994-95시즌 분데스리가 득점왕과 DFB-포칼 우승을 함께 거머쥐었다.</p></li>
+  <li><strong>올리버 뇌빌</strong><small lang="de">Oliver Neuville · 센터 포워드</small><p>노련한 침투와 주장 역할로 강등과 재승격의 시간을 버텼다.</p></li>
+</ul>
 
 <div class="source-notes">
 
@@ -197,7 +241,11 @@ featured: true
 7. <span id="source-7"></span>[UEFA: 알란 시몬센과 보루시아 묀헨글라트바흐의 유럽대항전](https://www.uefa.com/uefaeuropaleague/news/0236-0e964b2f68f3-1d6719a9af51-1000--ten-claims-to-fame-borussia-monchengladbach/)
 8. <span id="source-8"></span>[푸스발-분데스리가: 유프 하인케스의 369경기 220골과 득점 기록](https://www.bundesliga.com/de/bundesliga/news/jupp-heynckes-borussia-monchengladbach-hannover-96-sturmer-tore-24386)
 9. <span id="source-9"></span>[UEFA: 1975년 UEFA컵 결승, 하인케스의 해트트릭](https://www.uefa.com/uefaeuropaleague/news/0042-0e6a07710b2c-d9c643bf6484-1000--1974-75-heynckes-hat-trick-inspires-gladbach/)
-10. [푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
+10. <span id="source-10"></span>[UEFA: 1975년 UEFA컵 결승 공식 선발과 득점 기록](https://www.uefa.com/MultimediaFiles/Download/ITT/uefaorg/Publications/01/52/55/73/1525573_DOWNLOAD.pdf)
+11. <span id="source-11"></span>[UEFA: 1977년 유러피언컵 결승과 묀헨글라트바흐의 경기](https://www.uefa.com/uefachampionsleague/news/0239-0e9724a47b0c-91b83f515cb7-1000--40-years-on-liverpool-win-their-first-european-cup/)
+12. <span id="source-12"></span>[UEFA: 1972년 유럽선수권 베스트 XI, 헤르베르트 비머](https://de.uefa.com/uefaeuro/history/news/0253-0d7bca01b752-deaa0abd2f51-1000--uefaeuro1972-equipo-del-torneo/)
+13. [푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
+14. [보루시아 묀헨글라트바흐 문장 원본과 파일 정보](https://ko.wikipedia.org/wiki/파일:Borussia_Mönchengladbach_logo.svg)
 
 ### 이 글이 만들어진 방식
 
@@ -222,9 +270,9 @@ featured: true
   .gateway-line { position:relative; z-index:2; display:block; width:1px; height:44px; margin:-22px auto; background:linear-gradient(#b79532,#fff,#b79532); }
   .gladbach-league { background:#fff; }.gladbach-league img { width:min(170px,44%); height:auto; aspect-ratio:1; object-fit:contain; }.gladbach-league p{color:#d0021b}.gladbach-league small{color:#6b7280}
   .gladbach-club { background:radial-gradient(circle at 50% 20%,rgba(34,139,94,.32),transparent 38%),linear-gradient(145deg,#101513,#003d2a 60%,#07100c); }
-  .gladbach-diamond { display:grid; width:126px; height:126px; place-items:center; border:4px solid #fff; transform:rotate(45deg); box-shadow:0 0 0 7px #0b0d0c,0 0 0 10px #fff,0 14px 30px rgba(0,0,0,.4); }.gladbach-diamond i{color:#fff;font-size:4rem;font-style:normal;font-weight:900;transform:rotate(-45deg)}
+  .gladbach-club-logo { display:block; width:126px; height:150px; object-fit:contain; filter:drop-shadow(0 14px 22px rgba(0,0,0,.42)); }
   .gladbach-era { position:relative; left:50%; width:min(900px,calc(100vw - 32px)); margin:4rem 0; overflow:hidden; border:1px solid rgba(211,177,68,.55); border-radius:22px; padding:3.4rem 1.5rem 3rem; background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0 18px,transparent 18px 36px),radial-gradient(circle at 50% 0,#08704d,transparent 48%),linear-gradient(145deg,#060a08,#002c1e 62%,#050807); color:#fff;text-align:center;box-shadow:0 22px 50px rgba(0,45,32,.22);transform:translateX(-50%)}
-  .gladbach-era span{display:block;color:#dfbd52;font-size:.7rem;font-weight:800;letter-spacing:.18em}.gladbach-era strong{display:block;margin:.6rem 0 .55rem;font-size:clamp(3.1rem,9vw,5.8rem);font-weight:300;letter-spacing:-.075em;line-height:1}.gladbach-era p{margin:0;color:rgba(255,255,255,.76);font-size:.9rem}.gladbach-era em{color:#e6c765;font-style:normal;font-weight:700}
+  .gladbach-era>img{position:absolute;right:2.4rem;bottom:-3.8rem;width:180px;height:288px;object-fit:contain;opacity:.09;filter:drop-shadow(0 12px 18px rgba(0,0,0,.5))}.gladbach-era span,.gladbach-era strong,.gladbach-era p{position:relative;z-index:1}.gladbach-era span{display:block;color:#dfbd52;font-size:.7rem;font-weight:800;letter-spacing:.18em}.gladbach-era strong{display:block;margin:.6rem 0 .55rem;font-size:clamp(3.1rem,9vw,5.8rem);font-weight:300;letter-spacing:-.075em;line-height:1}.gladbach-era p{margin:0;color:rgba(255,255,255,.76);font-size:.9rem}.gladbach-era em{color:#e6c765;font-style:normal;font-weight:700}
   .article-body h2:has(+ .gladbach-player-art){margin-top:9rem;margin-bottom:2.2rem}.gladbach-player-art{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:0 0 3.7rem;transform:translateX(-50%)}.gladbach-player-art img{display:block;width:100%;height:auto}.gladbach-player-art+p{margin-top:0}
   .gladbach-deity,.netzer-prologue,.article-body .heynckes-invocation{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:2.8rem 0;border:1px solid rgba(211,177,68,.44);border-radius:18px;padding:2.1rem 2.25rem;background:linear-gradient(145deg,#080b0a,#003323);color:#fff;transform:translateX(-50%);box-shadow:0 18px 40px rgba(0,46,31,.15)}
   .gladbach-deity p{margin:0;padding:.65rem 0;border-bottom:1px solid rgba(255,255,255,.09);color:rgba(255,255,255,.86)}.gladbach-deity strong,.netzer-prologue strong,.heynckes-invocation strong{display:block;margin-top:1.35rem;color:#e8c65c;background:linear-gradient(105deg,#9d7118 0%,#e9c152 30%,#fff1ad 48%,#bd8b20 66%,#e9c152 100%);background-size:240% 100%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:gladbach-gold 18s cubic-bezier(.45,0,.18,1) infinite;font-size:clamp(1.08rem,2vw,1.4rem);line-height:1.7;text-align:center}
@@ -232,7 +280,7 @@ featured: true
   .netzer-rivalry{position:relative;left:50%;width:min(684px,calc(100vw - 32px));margin:3rem 0 3.5rem;transform:translateX(-50%)}.netzer-rivalry img{display:block;width:100%;height:auto}.netzer-rivalry figcaption{margin:0;padding:1rem 1.15rem;background:#07110d;color:rgba(255,255,255,.72);font-size:.85rem;text-align:center}
   .article-body .heynckes-invocation{border-left:4px solid #d2ae42;text-align:center}.heynckes-invocation span{display:block;margin-top:.8rem;color:rgba(255,255,255,.72);font-size:.92rem}.heynckes-invocation strong{margin-top:0}
   .gladbach-final-sequence{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:3.5rem 0 5rem;overflow:hidden;background:#050807;transform:translateX(-50%)}.gladbach-final-sequence img{display:block;width:100%;height:auto;margin:0;border:0;border-radius:0}
-  .gladbach-candidates{position:relative;left:50%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;width:min(900px,calc(100vw - 32px));margin:1.5rem 0 4rem;padding:0;list-style:none;transform:translateX(-50%)}.gladbach-candidates li{margin:0;border:1px solid rgba(0,72,48,.14);border-left:3px solid #b89531;border-radius:0 12px 12px 0;padding:1rem 1.1rem;background:linear-gradient(135deg,rgba(0,72,48,.045),rgba(200,164,54,.045))}.gladbach-candidates strong,.gladbach-candidates small{display:block}.gladbach-candidates small{margin-top:.18rem;color:#6b7280;font-size:.77rem}.gladbach-candidates p{margin:.55rem 0 0;color:#374151;font-size:.9rem;line-height:1.65}.candidate-names{padding:1.3rem 1.4rem;border-left:4px solid #0b6548;background:rgba(0,72,48,.045);line-height:2}.source-notes h3{margin-top:3rem;color:#07533c}
+  .gladbach-candidates{position:relative;left:50%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;width:min(900px,calc(100vw - 32px));margin:1.5rem 0 4rem;padding:0;list-style:none;transform:translateX(-50%)}.gladbach-candidates li{margin:0;border:1px solid rgba(0,79,53,.24);border-left:4px solid #c5a33a;border-radius:0 12px 12px 0;padding:1rem 1.1rem;background:linear-gradient(135deg,rgba(0,82,55,.12),rgba(8,119,82,.035) 66%,rgba(200,164,54,.07));box-shadow:0 10px 26px -24px rgba(0,56,38,.65)}.gladbach-candidates strong,.gladbach-candidates small{display:block}.gladbach-candidates strong{color:#064b36}.gladbach-candidates small{margin-top:.18rem;color:#527267;font-size:.77rem}.gladbach-candidates p{margin:.55rem 0 0;color:#304b42;font-size:.9rem;line-height:1.65}.gladbach-candidates--third li{background:linear-gradient(135deg,rgba(0,64,43,.16),rgba(9,116,81,.05) 70%,rgba(201,164,54,.07))}.source-notes h3{margin-top:3rem;color:#07533c}
   @keyframes gladbach-gold{0%,20%{background-position:120% 50%}76%,100%{background-position:-120% 50%}}
   @media(max-width:767px){.gladbach-gateway{border-radius:14px;margin:2rem 0 3rem}.gladbach-gateway>div{min-height:180px;padding:2rem 1rem}.germany-flag{height:110px}.gladbach-era{margin:3rem 0;border-radius:14px;padding:2.7rem 1rem 2.5rem}.article-body h2:has(+ .gladbach-player-art){margin-top:7rem;margin-bottom:1.65rem}.gladbach-player-art{margin-bottom:2.8rem}.gladbach-deity,.netzer-prologue,.article-body .heynckes-invocation{padding:1.45rem 1.15rem}.gladbach-candidates{grid-template-columns:minmax(0,1fr)}}
   @media(prefers-reduced-motion:reduce){.gladbach-deity strong,.netzer-prologue strong,.heynckes-invocation strong{animation:none;background-position:50% 50%}}

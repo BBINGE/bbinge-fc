@@ -154,8 +154,8 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
 <style>
   .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
   .site-wordmark { display:flex; align-items:center; gap:7px; white-space:nowrap; }
-  .site-wordmark__mark { display:grid; place-items:center; width:36px; height:28px; overflow:hidden; }
-  .site-wordmark__mark img { display:block; width:42px; height:42px; max-width:none; transform:scale(1.38); }
+  .site-wordmark__mark { display:grid; flex:0 0 34px; place-items:center; width:34px; height:34px; overflow:visible; }
+  .site-wordmark__mark img { display:block; width:34px; height:34px; max-width:100%; object-fit:contain; transform:none; }
   .site-wordmark b { color:var(--bbfc-blue); font-weight:inherit; }
   .about-nav { position:relative; height:64px; display:flex; align-items:center; }
   .about-nav-trigger { display:flex; align-items:center; gap:4px; }

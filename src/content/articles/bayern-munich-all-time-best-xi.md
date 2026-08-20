@@ -388,11 +388,11 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .gerd-question { color: #fff; -webkit-text-fill-color: #fff; }
   .beckenbauer-litany strong, .gerd-invocation strong { color: #efcc5c; background: linear-gradient(105deg, #b7861e 0%, #f1ca59 30%, #fff4bd 48%, #d8a72f 66%, #f1ca59 100%); background-size: 220% 100%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: bayern-gold-shimmer 15s cubic-bezier(.45, 0, .18, 1) infinite; }
   .bayern-candidate-list { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; width: min(900px, calc(100vw - 32px)); margin: 1.5rem 0 4rem; padding: 0; list-style: none; transform: translateX(-50%); }
-  .bayern-candidate-list li { margin: 0; border: 1px solid rgba(140,0,31,.14); border-left: 3px solid #c9a43a; border-radius: 0 12px 12px 0; padding: 1rem 1.1rem; background: linear-gradient(135deg, rgba(140,0,31,.035), rgba(201,164,58,.045)); }
+  .bayern-candidate-list li { margin: 0; border: 1px solid rgba(140,0,31,.24); border-left: 4px solid #c9a43a; border-radius: 0 12px 12px 0; padding: 1rem 1.1rem; background: linear-gradient(135deg, rgba(140,0,31,.13), rgba(191,0,42,.045) 68%, rgba(201,164,58,.07)); box-shadow: 0 10px 26px -24px rgba(104,0,25,.62); }
   .bayern-candidate-list strong, .bayern-candidate-list small { display: block; }
-  .bayern-candidate-list strong { color: #111827; font-size: 1.02rem; }
-  .bayern-candidate-list small { margin-top: .18rem; color: #6b7280; font-size: .77rem; line-height: 1.5; }
-  .bayern-candidate-list p { margin: .55rem 0 0; color: #374151; font-size: .9rem; line-height: 1.65; }
+  .bayern-candidate-list strong { color: #7f0020; font-size: 1.02rem; }
+  .bayern-candidate-list small { margin-top: .18rem; color: #8b5966; font-size: .77rem; line-height: 1.5; }
+  .bayern-candidate-list p { margin: .55rem 0 0; color: #51313a; font-size: .9rem; line-height: 1.65; }
   @keyframes bayern-gold-shimmer {
     0%, 18% { background-position: 120% 50%; }
     72%, 100% { background-position: -120% 50%; }
