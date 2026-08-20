@@ -1,5 +1,8 @@
 ## 2026-08-20 1950 FIFA 월드컵 하이라이트 전면 재구성
 
+- 후속 복구: 하이라이트 템플릿은 `coverImage`·`coverImageAlt`·`coverImageCaption` 키를 사용한다. 이를 일반 `cover` 키로 바꾸면 본문 썸네일이 출력되지 않는다.
+- 하이라이트 글을 전면 재구성하더라도 `match-board`, `highlight-clip-grid`, `world-cup-transition`, `full-time-poster`, `best-xi-cta` 구조는 삭제하거나 일반 HTML로 대체하지 않는다.
+- 1950 글에서 썸네일, 국기 포함 경기판, 66분 중간 스코어 배너, 우승 포스터, 베스트 XI CTA와 올바른 아카이브 경로를 복구했다.
 - `src/content/articles/1950-fifa-world-cup-final-uruguay-brazil.md`를 네이버 원문 기준으로 전면 재구성했다.
 - 원문의 개인적인 서술 리듬과 한국전쟁 연결고리를 복원하면서, 최종 리그 방식·공식 관중 수·기지아의 이적 시점·흰색 유니폼 관련 정정은 유지했다.
 - 원문 GIF 18개와 로컬 `clip-01.mp4`~`clip-18.mp4`의 재생 시간을 대조해 파일 순서가 동일함을 확인했다. 미디어 파일명과 순서는 변경하지 않았다.

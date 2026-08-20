@@ -4,20 +4,24 @@ description: '우승을 확신했던 20만의 마라카낭이 침묵했다. 프�
 category: 'fifa-world-cup'
 tags: ['1950 FIFA 월드컵', '브라질', '우루과이', '마라카나수', '알시데스 기지아', '오브둘리오 바렐라']
 pubDate: 2026-08-19T23:50:00+09:00
-cover: '/images/highlights/1950-world-cup-final-cover.webp'
-coverAlt: '1950 FIFA 월드컵 브라질 대 우루과이 경기의 마라카낭 관중석과 선수들'
-coverCaption: '1950년 7월 16일, 리우데자네이루 마라카낭'
-coverWidth: 773
-coverHeight: 773
+coverImage: '/images/highlights/1950-world-cup-final-cover.webp'
+coverImageAlt: '쥘리메컵과 오브둘리오 바렐라를 담은 1950 월드컵 최종 결전 하이라이트 표지'
+coverImageCaption: '브라질 1-2 우루과이. 결승전이라는 이름이 없던 경기가 월드컵 역사상 가장 큰 이변을 남겼다.'
+coverImageWidth: 773
+coverImageHeight: 773
 draft: false
 featured: false
 relatedGroup: 'fifa-world-cup-1950'
 ---
 
-<div class="match-board" style="display:grid; grid-template-columns:minmax(0, 1fr); gap:.45rem; white-space:normal; overflow-wrap:anywhere;">
-  <span>1950. 07. 16 · 마라카낭</span>
-  <strong>우루과이 2–1 브라질</strong>
-  <span>프리아사 47′ · 스키아피노 66′ · 기지아 79′</span>
+<div class="match-board" aria-label="1950 FIFA 월드컵 최종 결전 결과">
+  <p>1950 FIFA WORLD CUP · FINAL ROUND</p>
+  <div class="match-board-teams">
+    <div><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <span><b>2</b><em>FULL TIME</em><b>1</b></span>
+    <div><img src="/images/flags/br.svg" alt="브라질 국기" /><strong>브라질</strong><small>BRAZIL</small></div>
+  </div>
+  <dl><div><dt>날짜</dt><dd>1950년 7월 16일</dd></div><div><dt>장소</dt><dd>마라카낭</dd></div><div><dt>전반</dt><dd>0-0</dd></div><div><dt>최종</dt><dd>2-1</dd></div></dl>
 </div>
 
 브라질 축구 역사에서 ‘최악의 비극’을 하나 고르라면 많은 사람은 이 경기를 먼저 떠올린다. 그런데 나는 이 경기를 볼 때마다 조금 다른 감정도 든다. 이미 우승했다고 믿은 20만의 확신 앞에서, 우루과이는 끝까지 축구를 했다. 브라질에는 비극이었지만 우루과이에는 세상에서 가장 통쾌한 역전극이었다.
@@ -29,8 +33,11 @@ relatedGroup: 'fifa-world-cup-1950'
 브라질은 최종 리그에서 스웨덴을 7-1, 스페인을 6-1로 두들겼다. 우루과이는 스페인과 2-2로 비겼고 스웨덴에도 가까스로 3-2 역전승을 거뒀다. 흐름만 보면 누가 봐도 브라질이었다. 경기 전날 신문은 브라질을 챔피언이라 불렀고, 경기장 안팎은 결승보다 대관식에 가까웠다.<a class="cite" href="#source-2">[2]</a>
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-01.mp4"></video><figcaption><strong>장면 01.</strong> 킥오프를 앞둔 마라카낭. 관중과 관계자들이 그라운드 주변을 가득 메웠다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-02.mp4"></video><figcaption><strong>장면 02.</strong> 하늘로 오른 ‘VIVA O BRASIL’. 경기 전 분위기는 이미 우승 축하에 가까웠다.</figcaption></figure>
+  <header><span>BEFORE KICK-OFF · MARACANÃ</span><h3>우승 축제가 먼저 시작된 날</h3></header>
+  <div class="highlight-clip-grid two-clips">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-01.mp4" type="video/mp4" /></video><figcaption><strong>장면 01.</strong> 킥오프를 앞둔 마라카낭. 관중과 관계자들이 그라운드 주변을 가득 메웠다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-02.mp4" type="video/mp4" /></video><figcaption><strong>장면 02.</strong> 하늘로 오른 ‘VIVA O BRASIL’. 경기 전 분위기는 이미 우승 축하에 가까웠다.</figcaption></figure>
+  </div>
 </section>
 
 유료 관중은 공식적으로 17만 3,850명. 선수와 기자, 경기장 안으로 몰려든 인원까지 합친 추산은 약 20만 명이다. 숫자보다 중요한 건 그 모두가 같은 결말을 기다렸다는 사실이다.<a class="cite" href="#source-1">[1]</a>
@@ -42,8 +49,11 @@ relatedGroup: 'fifa-world-cup-1950'
 브라질은 시작부터 몰아쳤다. 하지만 우루과이는 급하게 맞불을 놓지 않았다. 촘촘하게 내려서고, 막고, 또 막았다. 전반은 0-0. 브라질에 필요한 건 한 골도 아니고 무승부였으니, 마라카낭의 확신은 아직 흔들리지 않았다.
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-03.mp4"></video><figcaption><strong>장면 03.</strong> 브라질이 밀어붙였지만 우루과이는 골문 앞을 끝까지 닫았다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-04.mp4"></video><figcaption><strong>장면 04.</strong> 브라질의 공격이 이어질 때마다 마라카낭 관중석이 먼저 들썩였다.</figcaption></figure>
+  <header><span>FIRST HALF · 0-0</span><h3>브라질의 공격, 우루과이의 우주 방어</h3></header>
+  <div class="highlight-clip-grid two-clips">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-03.mp4" type="video/mp4" /></video><figcaption><strong>장면 03.</strong> 브라질이 밀어붙였지만 우루과이는 골문 앞을 끝까지 닫았다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-04.mp4" type="video/mp4" /></video><figcaption><strong>장면 04.</strong> 브라질의 공격이 이어질 때마다 마라카낭 관중석이 먼저 들썩였다.</figcaption></figure>
+  </div>
 </section>
 
 ## 47분, 드디어 터진 프리아사의 골
@@ -51,8 +61,11 @@ relatedGroup: 'fifa-world-cup-1950'
 후반 2분. 프리아사가 오른쪽을 파고들어 슈팅했고, 공은 골키퍼 로케 마스폴리를 지나 골문으로 들어갔다. 브라질 1-0. 마라카낭이 기다린 장면이었다.
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-05.mp4"></video><figcaption><strong>장면 05.</strong> 오른쪽에서 파고든 프리아사의 선제골. 브라질이 마침내 앞서갔다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-06.mp4"></video><figcaption><strong>장면 06.</strong> 선제골 직후 들끓는 경기장과 중계석. 우승 축제가 폭발한 순간이다.</figcaption></figure>
+  <header><span>47′ · BRAZIL 1-0</span><h3>기다리던 골이 마침내 터졌다</h3></header>
+  <div class="highlight-clip-grid two-clips">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-05.mp4" type="video/mp4" /></video><figcaption><strong>장면 05.</strong> 오른쪽에서 파고든 프리아사의 선제골. 브라질이 마침내 앞서갔다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-06.mp4" type="video/mp4" /></video><figcaption><strong>장면 06.</strong> 선제골 직후 들끓는 경기장과 중계석. 우승 축제가 폭발한 순간이다.</figcaption></figure>
+  </div>
 </section>
 
 여기서 경기가 끝났어도 이상하지 않았다. 하지만 우루과이 주장 오브둘리오 바렐라는 골문에서 공을 들고 심판에게 천천히 항의했다. 오프사이드를 따지려는 행동이기도 했지만, 더 큰 목적은 시간을 쓰며 동료들을 진정시키는 데 있었다. 그는 관중의 함성을 향해 소변 보듯 버티라고 말했다고 전해진다. 그리고 동료들에게 이렇게 선언했다. 이제 우리가 이길 시간이라고.<a class="cite" href="#source-3">[3]</a>
@@ -62,20 +75,34 @@ relatedGroup: 'fifa-world-cup-1950'
 기지아가 오른쪽을 다시 허물었다. 낮게 내준 공을 후안 알베르토 스키아피노가 강하게 마무리했다. 1-1. 브라질은 여전히 이 점수로 우승할 수 있었다. 그런데 경기장의 공기가 달라졌다. 환호는 사라지고, 무승부를 지켜야 한다는 불안이 그 자리를 채웠다.
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-07.mp4"></video><figcaption><strong>장면 07.</strong> 기지아가 오른쪽에서 내준 공을 스키아피노가 동점골로 마무리한다.</figcaption></figure>
+  <header><span>66′ · 1-1</span><h3>스키아피노가 침묵을 시작했다</h3></header>
+  <div class="highlight-clip-grid">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-07.mp4" type="video/mp4" /></video><figcaption><strong>장면 07.</strong> 기지아가 오른쪽에서 내준 공을 스키아피노가 동점골로 마무리한다.</figcaption></figure>
+  </div>
 </section>
 
-<div class="score-transition"><span>47′ BRA 1–0 URU</span><strong>66′ BRA 1–1 URU</strong><span>브라질은 아직 우승</span></div>
+<div class="world-cup-transition half-time-card" aria-label="후반 21분, 우루과이 1대1 브라질">
+  <div class="transition-kicker"><span>1950 FIFA WORLD CUP</span><b>FINAL ROUND · MARACANÃ</b></div>
+  <div class="transition-score">
+    <div class="transition-team"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <div class="transition-numbers"><span>1</span><em>66′</em><span>1</span></div>
+    <div class="transition-team"><img src="/images/flags/br.svg" alt="브라질 국기" /><strong>브라질</strong><small>BRAZIL</small></div>
+  </div>
+  <p>A DRAW STILL CROWNS BRAZIL · 24 MINUTES LEFT</p>
+</div>
 
 ## 다시 밀어붙인 브라질
 
 동점 뒤 브라질은 다시 전진했다. 시쿠가 몸을 돌려 공을 내주고 자이르가 슈팅으로 연결했다. 들어갔다면 마라카낭은 다시 축제장이 됐을 것이다. 그러나 공은 골문을 비껴갔다. 이 장면에서 중요한 건 마스폴리의 선방이 아니라, 골을 기다리다 굳어버린 관중의 얼굴이다.
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-08.mp4"></video><figcaption><strong>장면 08.</strong> 동점 직후 브라질이 다시 우루과이 진영으로 전진한다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-09.mp4"></video><figcaption><strong>장면 09.</strong> 시쿠가 몸을 돌려 뒤따라오는 동료에게 공을 내준다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-10.mp4"></video><figcaption><strong>장면 10.</strong> 자이르의 슈팅. 그러나 기다리던 두 번째 골은 나오지 않았다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-11.mp4"></video><figcaption><strong>장면 11.</strong> 기회를 놓친 뒤 관중석의 표정. 환호 대신 초조함이 번진다.</figcaption></figure>
+  <header><span>66′–79′ · BRAZIL PUSH</span><h3>다시 밀어붙인 브라질</h3></header>
+  <div class="highlight-clip-grid two-clips">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-08.mp4" type="video/mp4" /></video><figcaption><strong>장면 08.</strong> 동점 직후 브라질이 다시 우루과이 진영으로 전진한다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-09.mp4" type="video/mp4" /></video><figcaption><strong>장면 09.</strong> 시쿠가 몸을 돌려 뒤따라오는 동료에게 공을 내준다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-10.mp4" type="video/mp4" /></video><figcaption><strong>장면 10.</strong> 자이르의 슈팅. 그러나 기다리던 두 번째 골은 나오지 않았다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-11.mp4" type="video/mp4" /></video><figcaption><strong>장면 11.</strong> 기회를 놓친 뒤 관중석의 표정. 환호 대신 초조함이 번진다.</figcaption></figure>
+  </div>
 </section>
 
 ## 79분, 기지아가 비극을 완성했다
@@ -83,10 +110,13 @@ relatedGroup: 'fifa-world-cup-1950'
 11분을 남기고 기지아가 다시 오른쪽을 달렸다. 앞선 동점골 때는 중앙으로 공을 보냈다. 그래서 브라질 골키퍼 바르보자는 이번에도 크로스를 예상하고 몸을 움직였다. 기지아는 그 틈을 보고 가까운 쪽 골대로 직접 찼다. 공은 바르보자와 골대 사이, 믿기 어려울 만큼 좁은 공간을 통과했다.<a class="cite" href="#source-2">[2]</a>
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-12.mp4"></video><figcaption><strong>장면 12.</strong> 기지아가 오른쪽 측면의 공간으로 파고든다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-13.mp4"></video><figcaption><strong>장면 13.</strong> 수비와 골키퍼가 크로스를 기다린 순간, 기지아는 직접 슈팅을 택했다.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-14.mp4"></video><figcaption><strong>장면 14.</strong> 공이 바르보자와 가까운 쪽 골대 사이를 통과한다. 우루과이 2-1.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-15.mp4"></video><figcaption><strong>장면 15.</strong> 실점을 확인한 관중석. 환호가 표정에서 먼저 사라졌다.</figcaption></figure>
+  <header><span>79′ · URUGUAY 2-1</span><h3>기지아가 비극을 완성했다</h3></header>
+  <div class="highlight-clip-grid two-clips">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-12.mp4" type="video/mp4" /></video><figcaption><strong>장면 12.</strong> 기지아가 오른쪽 측면의 공간으로 파고든다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-13.mp4" type="video/mp4" /></video><figcaption><strong>장면 13.</strong> 수비와 골키퍼가 크로스를 기다린 순간, 기지아는 직접 슈팅을 택했다.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-14.mp4" type="video/mp4" /></video><figcaption><strong>장면 14.</strong> 공이 바르보자와 가까운 쪽 골대 사이를 통과한다. 우루과이 2-1.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-15.mp4" type="video/mp4" /></video><figcaption><strong>장면 15.</strong> 실점을 확인한 관중석. 환호가 표정에서 먼저 사라졌다.</figcaption></figure>
+  </div>
 </section>
 
 <div class="score-transition"><span>79′</span><strong>BRA 1–2 URU</strong><span>이제 브라질은 한 골이 필요했다</span></div>
@@ -98,12 +128,20 @@ relatedGroup: 'fifa-world-cup-1950'
 종료 휘슬 뒤에도 제대로 된 시상식은 열리지 못했다. FIFA 회장 쥘 리메가 우루과이 주장 바렐라에게 트로피를 건넸고, 우루과이는 소란과 침묵 속에서 우승컵을 들어 올렸다. 영상의 마지막 세 장면은 브라질의 마지막 공격이 아니다. 경기가 끝난 뒤 선수들의 표정과 트로피 전달 장면이다.
 
 <section class="highlight-scene">
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-16.mp4"></video><figcaption><strong>장면 16.</strong> 경기가 끝난 뒤 서로를 부축하고 끌어안는 선수들.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-17.mp4"></video><figcaption><strong>장면 17.</strong> 모든 것이 끝난 뒤 카메라에 잡힌 선수의 굳은 얼굴.</figcaption></figure>
-  <figure><video controls muted loop playsinline preload="metadata" src="/media/highlights/1950-world-cup-final/clip-18.mp4"></video><figcaption><strong>장면 18.</strong> 패배한 선수의 눈물, 그리고 바렐라에게 건너간 쥘리메컵.</figcaption></figure>
+  <header><span>FULL TIME · AFTERMATH</span><h3>휘슬 뒤, 서로 다른 얼굴</h3></header>
+  <div class="highlight-clip-grid two-clips">
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-16.mp4" type="video/mp4" /></video><figcaption><strong>장면 16.</strong> 경기가 끝난 뒤 서로를 부축하고 끌어안는 선수들.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-17.mp4" type="video/mp4" /></video><figcaption><strong>장면 17.</strong> 모든 것이 끝난 뒤 카메라에 잡힌 선수의 굳은 얼굴.</figcaption></figure>
+  <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-18.mp4" type="video/mp4" /></video><figcaption><strong>장면 18.</strong> 패배한 선수의 눈물, 그리고 바렐라에게 건너간 쥘리메컵.</figcaption></figure>
+  </div>
 </section>
 
-<div class="full-time-poster"><span>FULL TIME</span><strong>URUGUAY<br />WORLD CHAMPIONS</strong><small>Maracanã · 16 July 1950</small></div>
+<div class="world-cup-transition full-time-poster poster-1950" aria-label="경기 종료, 우루과이 1950 월드컵 우승">
+  <div class="poster-shade"></div>
+  <div class="transition-kicker"><span>16 JULY 1950</span><b>ESTÁDIO DO MARACANÃ · RIO</b></div>
+  <div class="poster-copy"><small>FULL TIME · URUGUAY 2–1 BRAZIL</small><strong>결승전이 없던 대회의<br />마지막 경기</strong><p>URUGUAY · WORLD CHAMPIONS 1930 · 1950</p></div>
+  <div class="poster-winner"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
+</div>
 
 ## 경기가 끝난 뒤에도 끝나지 않은 비극
 
@@ -113,7 +151,10 @@ relatedGroup: 'fifa-world-cup-1950'
 
 기지아는 훗날 “마라카낭을 침묵시킨 사람은 교황과 프랭크 시나트라, 그리고 나뿐”이라고 말했다. 과장이 섞인 농담이지만 그날의 장면을 이보다 짧게 설명하기도 어렵다. 20만 명이 기다린 결말을 단 한 사람이 바꿨다. 그래서 이 경기는 브라질의 비극인 동시에, 축구가 미리 정해진 대관식을 거부한 날이기도 하다.
 
-<aside class="related-bestxi-cta"><span>1950 FIFA WORLD CUP</span><strong>이 대회의 전체 흐름과 베스트 XI도 함께 보기</strong><a href="/archive/1950-fifa-world-cup-best-xi/">1950 월드컵 베스트 XI →</a></aside>
+<a class="best-xi-cta" href="/archive/national-team/fifa-world-cup/1950-fifa-world-cup-best-xi/">
+  <span aria-hidden="true">XI</span>
+  <div><small>NEXT RECORD</small><strong>이 경기의 열한 명은 누구였을까?</strong><p>1950 월드컵 당대 베스트 11 보러 가기 →</p></div>
+</a>
 
 ## 출처와 기록 기준
 
