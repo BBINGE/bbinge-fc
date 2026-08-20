@@ -4,11 +4,11 @@ description: "뮌헨과 독일 현대사의 굴곡에서 출발해 프란츠 베
 category: "custom-best-xi"
 tags: ["FC 바이에른 뮌헨", "바이언", "푸스발-분데스리가", "베스트 11", "프란츠 베켄바워", "게르트 뮐러", "마누엘 노이어"]
 pubDate: 2026-08-21
-coverImage: "/images/squads/bayern-munich-all-time-best-xi/cover.webp"
-coverImageAlt: "밤하늘 아래 붉게 빛나는 뮌헨 알리안츠 아레나"
-coverImageCaption: "붉은빛을 밝힌 알리안츠 아레나. 사진: Johannes Plenio, CC0 1.0."
-coverImageWidth: 1200
-coverImageHeight: 675
+coverImage: "/images/squads/bayern-munich-all-time-best-xi/cover-editorial.webp"
+coverImageAlt: "붉게 빛나는 뮌헨 경기장과 유럽 제패의 금빛 궤적을 재구성한 바이언 역대 베스트 11 표지"
+coverImageCaption: "알리안츠 아레나 CC0 원사진을 바탕으로 유럽 제패의 기억을 재구성한 편집 표지. 기획·아트디렉션: 삥이FC, AI 기반 이미지 편집 도구 활용."
+coverImageWidth: 1600
+coverImageHeight: 900
 draft: false
 featured: true
 ---
@@ -23,7 +23,7 @@ featured: true
   </div>
   <span class="bayern-gateway-line" aria-hidden="true"></span>
   <div class="bayern-gateway-league">
-    <span class="league-mark" aria-hidden="true"><b>B</b></span>
+    <img class="bundesliga-logo" src="/images/leagues/bundesliga.svg" alt="푸스발-분데스리가 공식 워드마크" width="404" height="49" />
     <p>푸스발-분데스리가</p>
     <small lang="de">Fußball-Bundesliga</small>
   </div>
@@ -81,9 +81,36 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Anton Beckenbauer; 독일 축구선수·감독·행정가, 1945–2024)</span>의 바이언 입단기는 뮌헨 축구사의 갈림길로 전해진다. 열세 살의 소년은 원래 TSV 1860 뮌헨을 생각했으나 유소년 경기에서 상대 선수에게 뺨을 맞은 뒤 바이언으로 향했다. 1958년의 작은 충돌이 독일 최대 구단의 운명을 바꾸었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
+<div class="beckenbauer-litany" aria-label="프란츠 베켄바워를 설명하는 역사적 평가와 기록">
+  <p>바이에른 뮌헨의 첫 번째 전성기를 이끈 자.</p>
+  <p>바이에른 뮌헨 역사상 가장 위대한 축구선수이자 감독이며 회장.</p>
+  <p>독일 축구 역사상 가장 위대한 선수이자 감독.</p>
+  <p>독일 연방 역사를 빛낸 ‘위대한 독일인 100’.</p>
+  <p>발롱도르 최종 지명 12회, 포디움 5회, 수상 2회.</p>
+  <p>출전한 모든 FIFA 월드컵과 UEFA 유럽선수권에서 베스트 XI 선정.</p>
+  <p><i lang="de">kicker Rangliste</i> WK 27회, IK 7회, K 3회, B 3회.</p>
+  <p>세계 축구사가 낳은 가장 위대한 수비수이자 가장 위대한 리더.</p>
+  <p>요한 크라위프와의 세기적 결전, 1974년 월드컵 결승에서 승리를 이끈 주장.</p>
+  <strong>그 어떤 수식어로도 형용하기 힘든, 축구 역사상 가장 위대한 선수 여덟 명 가운데 한 명.</strong>
+</div>
+
+이 열거는 과장이 허락된 장식문이 아니다. 한 항목씩 펼치면 바이언의 창단 이후 역사, 서독이 국제사회로 돌아온 과정, 수비 전술의 계보, 발롱도르와 월드컵의 연대기가 각기 한 장을 요구한다. 그럼에도 먼저 압축해 세운 까닭은 베켄바워를 열한 자리 가운데 한 사람으로 평평하게 소개하는 순간, 이 명단의 역사적 축척 자체가 무너지기 때문이다. 바이언에서 그는 선수가 맡는 한 자리가 아니라 구단의 첫 세계 제패와 이후의 통치 구조를 함께 세운 원점이었다.
+
 그의 리베로<span class="foreign-note" lang="it">(libero; 이탈리아어로 ‘자유로운 사람’, 대인 수비에서 비교적 자유롭게 최후방을 지키고 공격을 시작하는 수비 역할)</span>는 뒤에 남는 안전장치에 머물지 않았다. 상대 공격을 읽어 공을 빼앗은 뒤 몸의 방향을 앞으로 열었고, 짧은 드리블과 패스로 미드필드의 수적 균형을 바꿨다. 수비가 끝난 순간 공은 그의 발에서 새 질서를 얻었다. 가벼운 보폭, 고개를 든 자세, 서두르지 않는 첫 터치가 경기 전체에 품위를 부여했다.
 
-바이언의 분데스리가 승격, 1967년 유러피언 컵위너스컵, 1974년부터 이어진 유러피언컵 3연패가 모두 그의 시간 안에 놓인다. 서독 대표팀에서는 1972년 UEFA 유럽선수권과 1974년 월드컵을 들어 올렸고, 발롱도르를 두 차례 받았다. 감독으로 1990년 월드컵과 1994년 바이언의 분데스리가 우승을 이끈 뒤 회장으로 돌아와 구단의 다음 세기를 설계했다. 선수와 감독과 행정가의 경력이 한 문장에 들어가는 순간, ‘황제’라는 별칭은 과장이 아니라 직책에 가까워진다.
+### 전술을 디자인한 자
+
+그가 완성한 리베로는 수비수·미드필더·플레이메이커의 경계를 한 몸 안에서 다시 그린 역할이었다. 전방 압박의 방향을 읽고, 최후방의 안정성을 보장하며, 공을 되찾은 즉시 공격의 첫 문장을 썼다. 정확한 첫 터치와 절제된 드리블, 한 줄을 건너뛰는 패스, 예고 없이 나타나는 전진은 서로 다른 재능의 병렬이 아니었다. 공이 어디로 흘러야 팀 전체가 가장 적게 흔들리는지를 먼저 계산한 하나의 지성이었다.
+
+무릎을 크게 굽히지 않고 내딛는 보폭, 땅을 디딜 때에도 무너지지 않는 시선과 허리의 각도, 움직이기 전에 다음 장면을 받아 둔 몸. 그의 드리블은 화려함을 과시하는 장기가 아니라 논리적 필연처럼 보였다. 축구가 삶의 태도가 될 수 있음을, 베켄바워는 수비수에게 좀처럼 허락되지 않던 우아함으로 증명했다.
+
+### 선수·감독·회장으로 이어진 한 사람의 왕조
+
+바이언의 분데스리가 승격, 1967년 유러피언 컵위너스컵, 1974년부터 이어진 유러피언컵 3연패가 모두 그의 시간 안에 놓인다. 서독 대표팀에서는 1972년 UEFA 유럽선수권과 1974년 월드컵을 들어 올렸고, 발롱도르를 두 차례 받았다. 참가한 두 차례 유럽선수권에서 모두 대회 베스트 XI에 들었으며, UEFA 역시 그를 ‘역대 가장 위대한 선수 가운데 한 명’으로 호명한다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
+
+감독으로는 1986년 월드컵 준우승 뒤 1990년 우승을 이루었고, 바이언의 지휘봉을 잡아 1994년 분데스리가와 1996년 UEFA컵을 더했다. 회장으로 돌아온 뒤에는 선수 시절 자신이 세계 정상에 올려놓았던 구단의 다음 세기를 설계했다. 선수·감독·행정가의 경력이 한 문장에 들어가는 순간, *Der Kaiser*는 별명이라기보다 그가 실제로 수행했던 직책의 총칭에 가까워진다.
+
+그가 그라운드를 떠난 뒤에도 모든 리베로와 빌드업형 수비수는 의식하든 그렇지 않든 그가 남긴 잔디 자국 위에서 출발한다. 베켄바워는 공을 막는 사람이 아니었다. 공이 다시 시작되는 장소였고, 바이언이 세계를 향해 자신을 설명하기 시작한 문장이었다.
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-2.webp" alt="프란츠 베켄바워의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-3.webp" alt="프란츠 베켄바워의 바이언 업적 편집물" loading="lazy"></div>
 
@@ -189,11 +216,17 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 게르트 뮐러<span class="foreign-note" lang="de">(Gerhard Müller; 독일 축구선수·센터 포워드, 1945–2021)</span>의 몸은 고전적인 미학과 거리가 있었다. 낮은 중심, 굵은 허벅지, 짧은 보폭. 그 구조는 페널티 지역에서 누구보다 빠르게 방향을 바꾸는 데 쓰였다. 등을 진 채 몸을 돌리고, 넘어지면서 발끝을 내밀며, 공이 완전히 정리되기 전에 골문 구석을 찾았다.
 
+<blockquote class="gerd-invocation"><strong>바이언의 두 번째 신.</strong><br />신은 어떻게 침묵 속에서 골을 넣는가.</blockquote>
+
 그에게 공간은 넓이보다 시간이었다. 수비수와 골키퍼가 공의 다음 위치를 이해하기 전, 짧은 찰나에 발을 갖다 댔다. 아름다운 자세를 완성할 필요가 없었고 슈팅을 위한 별도의 준비 동작도 거의 보이지 않았다. 독일어에는 그의 이름을 동사로 만든 *müllern*이라는 표현까지 생겼다. 어떻게든 공을 골문 안에 넣는 행위를 뜻했다.
+
+공을 받기 전부터 슈팅의 방향을 정했고, 몸은 반대를 말하면서 발끝만 골문을 향했다. 존재하지 않는 공간을 찾아낸 것이 아니라 수비수가 닫았다고 믿은 찰나에 자물쇠를 열었다. 몸을 뒤로 빼면서도 슈팅했고, 공을 멈추지 않은 채 방향을 바꿨으며, 수비가 준비 동작을 읽기도 전에 결과를 남겼다. 골의 모양보다 골이 태어나는 시간을 지배한 공격수였다.
 
 1964년 바이언에 입단한 뒤 공식전 607경기 566골, 분데스리가 365골, 일곱 차례 리그 득점왕을 기록했다. 1970년 월드컵 10골과 발롱도르, 1972년 유럽선수권, 1974년 월드컵 결승골, 바이언의 유러피언컵 3연패가 그의 득점 위에서 이어졌다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 베켄바워가 훗날 “그가 없었다면 우리는 아직도 낡은 목조 건물에 있었을지 모른다”고 말한 이유도 여기에 있다. 세계가 바이언을 알게 된 순간마다 골문 가까이에 뮐러가 있었다.
 
-알코올 의존으로 삶이 무너졌던 시기에는 옛 동료와 구단이 손을 내밀었다. 회복한 뒤 유소년팀 코치로 돌아와 다음 세대의 공격수들을 도왔다. 득점이 그의 언어였다면 바이언은 그 언어가 사라지지 않도록 지켜준 집이었다. 구단의 두 번째 신이라는 오래된 표현에는 566골과 함께 그 귀환까지 들어 있다.
+기록은 언젠가 경신된다. 실제로 단일 시즌 40골은 레반도프스키의 41골 앞에서 49년 만에 물러났다. 뮐러가 대체되지 않는 까닭은 숫자의 영구성에 있지 않다. 바이언이 지역의 강호에서 유럽의 제국으로 건너가던 모든 결정적 장면에 그의 득점이 놓였고, 그 뒤로 ‘바이언의 9번’이라는 말 자체가 골을 의무로 품게 되었기 때문이다. 그는 골을 넣은 선수를 넘어 축구에서 결과가 생기는 방식을 하나의 인격으로 만든 사람이었다.
+
+알코올 의존으로 삶이 무너졌던 시기에는 옛 동료와 구단이 손을 내밀었다. 회복한 뒤 유소년팀 코치로 돌아와 다음 세대의 공격수들을 도왔다. 득점이 그의 언어였다면 바이언은 그 언어가 사라지지 않도록 지켜준 집이었다. 그가 바이언에 남긴 것은 트로피보다 무겁고 독일에 남긴 것은 승리보다 깊다. ‘두 번째 신’이라는 오래된 표현에는 566골뿐 아니라 무너진 사람을 다시 가족 안으로 데려온 구단의 기억까지 함께 들어 있다.
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-5.webp" alt="게르트 뮐러의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-6.webp" alt="게르트 뮐러의 바이언 업적 편집물" loading="lazy"></div>
 
@@ -227,14 +260,27 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 10. <span id="source-10"></span>[FC 바이에른: 토마스 뮐러의 최종 구단 기록](https://fcbayern.com/en/news/2025/05/thomas-muller-s-greatest-records-at-bayern)
 11. <span id="source-11"></span>[FC 바이에른: 로베르트 레반도프스키의 바이언 375경기 344골](https://fcbayern.com/de/news/2023/02/die-bundesliga-torschuetzenkoenige-des-fc-bayern)
 12. <span id="source-12"></span>[FC 바이에른 명예의 전당: 게르트 뮐러](https://fcbayern.com/en/club/hall-of-fame/gerd-muller)
-13. [썸네일 원본: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
+13. [썸네일 바탕 사진: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
+14. [UEFA: EURO 1972 대회 베스트 XI와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
+15. [UEFA: EURO 1976 대회 베스트 XI와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
+16. [푸스발-분데스리가 공식 워드마크 원본과 권리 정보](https://commons.wikimedia.org/wiki/File:Bundesliga_logo.svg)
 
-기록은 2026년 8월 21일 확인했다. 선수 선정·자료 조사·서술·구성 및 편집 디자인은 박성호(삥이)의 창작물이다. 수록된 기존 편집물의 사진은 선수 식별과 축구사 비평·정보 전달을 위한 자료로 사용했으며, 정정 또는 권리 관련 문의는 사이트 문의 창구에서 확인한다.
+### 이 글이 만들어진 방식
+
+이 글은 2025년 네이버에 공개한 원고와 완성 편집물을 1차 저본으로 삼고, 2026년 8월 21일 현재의 구단 공식 기록·대회 주관단체 자료·선수별 명예의 전당을 다시 대조해 만든 개정판이다. 열한 명은 통산 기록의 단순 합계로 뽑지 않았다. 바이언에서의 전성기 크기, 구단사에 남긴 전술적 변화, 국가대표와 유럽대항전의 위상, 서로 다른 시대의 역할이 한 대형 안에서 공존할 수 있는지를 함께 평가했다. 선수별 서술도 약력을 바꾸어 적는 데 머물지 않고, 기록이 바이언과 독일 축구사의 어느 장면에서 의미를 얻는지 해석하는 방식으로 구성했다.
+
+선수별 세 장의 편집물에는 인물 선정, 사진 탐색, 시대별 기록 조사, 별칭과 원어 표기, 색채 설계, 정보 위계, 프레임과 배경, 수상·우승 내역의 배열이 함께 들어 있다. 표제에서 포메이션, 2군과 기타 후보로 이어지는 마지막 네 장 역시 별개의 첨부 이미지가 아니라 한 세계를 전제로 기획한 연속 시각물이다. 선수 선정·자료 조사·비교 기준·본문 서술·정보 배열·시각 구성과 완성 편집 디자인은 박성호(삥이)가 수행했다.
+
+### 이미지와 권리에 관한 편집 원칙
+
+완성 편집물에 포함된 선수 사진은 인물을 식별하고 그 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥 안에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며, 사진 위에 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 이러한 편집적 창작성과 원사진의 권리는 서로 다른 층위이므로, 본 사이트는 자체 기여를 분명히 밝히되 원사진에 관한 권리까지 소유한다고 주장하지 않는다.
+
+새 표지는 CC0로 공개된 알리안츠 아레나 사진을 바탕으로, 삥이FC가 구도·색채·상징과 노출 금지 요소를 설계하고 AI 기반 이미지 편집 도구를 활용해 선수나 실제 포메이션을 노출하지 않는 편집형 이미지로 재구성했다. 구단·리그 문장은 해당 대상을 식별하고 설명하기 위한 편집 문맥에서만 사용하며, 공식 후원이나 제휴를 뜻하지 않는다. 명백한 오류, 정정 요청 또는 구체적인 권리 근거를 갖춘 삭제 요청이 접수되면 해당 URL과 자료를 확인해 교체·수정·비공개 여부를 판단한다. 문의 절차는 사이트의 [문의 페이지](/contact/)에서 확인할 수 있다.
 
 </div>
 
 <style>
-  .bayern-gateway { max-width: 773px; margin: 3rem auto 4rem; overflow: hidden; border: 1px solid rgba(216, 177, 62, .45); border-radius: 22px; background: #080808; color: #fff; box-shadow: 0 22px 50px rgba(81, 0, 13, .18); text-align: center; }
+  .bayern-gateway { position: relative; left: 50%; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 3rem 0 4rem; overflow: hidden; border: 1px solid rgba(216, 177, 62, .45); border-radius: 22px; background: #080808; color: #fff; box-shadow: 0 22px 50px rgba(81, 0, 13, .18); text-align: center; transform: translateX(-50%); }
   .bayern-gateway > div { display: flex; min-height: 220px; flex-direction: column; align-items: center; justify-content: center; padding: 2.4rem 1.5rem; }
   .bayern-gateway p { margin: 1.15rem 0 .25rem; color: #fff; font-size: clamp(1.35rem, 3vw, 2rem); font-weight: 800; letter-spacing: -.035em; }
   .bayern-gateway small { color: rgba(255,255,255,.66); font-size: .82rem; letter-spacing: .08em; }
@@ -247,32 +293,43 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-gateway-league { background: #fff; }
   .bayern-gateway-league p { color: #d0021b; }
   .bayern-gateway-league small { color: #6b7280; }
-  .league-mark { display: grid; width: 96px; height: 96px; place-items: center; border-radius: 12px; background: #d0021b; color: #fff; line-height: 1; box-shadow: 0 12px 24px rgba(208,2,27,.22); }
-  .league-mark b { font-size: 3.8rem; font-style: italic; font-weight: 900; letter-spacing: -.12em; transform: translateX(-.08em); }
+  .bundesliga-logo { display: block; width: min(330px, 75%); height: auto; }
   .bayern-gateway-club { background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.12), transparent 35%), linear-gradient(145deg, #ed0039, #b80025 58%, #850019); }
   .bayern-gateway-club img { width: 150px; height: 150px; filter: drop-shadow(0 10px 16px rgba(0,0,0,.3)); }
-  .bayern-era { position: relative; max-width: 773px; margin: 4rem auto; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); }
+  .bayern-era { position: relative; left: 50%; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 4rem 0; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); transform: translateX(-50%); }
   .bayern-era img { position: absolute; right: -34px; bottom: -44px; width: 190px; height: 190px; opacity: .12; filter: grayscale(1); }
   .bayern-era span { position: relative; display: block; color: #e6c765; font-size: .7rem; font-weight: 800; letter-spacing: .22em; }
   .bayern-era strong { position: relative; display: block; margin: .6rem 0 .55rem; color: #fff; font-size: clamp(3.1rem, 9vw, 5.8rem); font-weight: 300; letter-spacing: -.075em; line-height: 1; text-shadow: 0 3px 22px rgba(0,0,0,.5); }
   .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: .9rem; }
   .bayern-era em { color: #e6c765; font-style: normal; font-weight: 700; }
   .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 1.7rem; }
-  .bayern-player-art { max-width: 773px; margin: 0 auto 2.7rem; }
+  .bayern-player-art { position: relative; left: 50%; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 0 0 2.7rem; transform: translateX(-50%); }
   .bayern-player-art img { display: block; width: 100%; height: auto; }
   .bayern-player-art + p { margin-top: 0; }
-  .custom-xi-gallery { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.15rem; max-width: 773px; margin: 2.4rem auto 4rem; }
+  .custom-xi-gallery { position: relative; left: 50%; display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.15rem; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 2.4rem 0 4rem; transform: translateX(-50%); }
   .custom-xi-gallery img { display: block; width: 100%; height: auto; }
-  .bayern-final-sequence { max-width: 773px; margin: 3.5rem auto 5rem; overflow: hidden; background: #050505; }
+  .bayern-final-sequence { position: relative; left: 50%; width: min(980px, calc(100vw - 16px)); max-width: none; margin: 3.5rem 0 5rem; overflow: hidden; background: #050505; transform: translateX(-50%); }
   .bayern-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
   .bayern-final-sequence figcaption { margin: 0; padding: 1rem 1.25rem 1.15rem; background: #090909; color: rgba(255,255,255,.66); text-align: center; }
+  .beckenbauer-litany { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.7rem 0; border: 1px solid rgba(198,155,36,.42); border-radius: 18px; padding: 2rem 2.2rem; background: linear-gradient(145deg, #160008, #35000e); color: #fff; transform: translateX(-50%); box-shadow: 0 18px 40px rgba(66,0,12,.14); }
+  .beckenbauer-litany p { position: relative; margin: 0; padding: .62rem 0 .62rem 1.25rem; border-bottom: 1px solid rgba(255,255,255,.09); color: rgba(255,255,255,.86); line-height: 1.65; }
+  .beckenbauer-litany p::before { content: ''; position: absolute; left: 0; top: 1.25rem; width: 5px; height: 5px; border-radius: 50%; background: #e2bd4f; box-shadow: 0 0 0 4px rgba(226,189,79,.1); }
+  .beckenbauer-litany strong { display: block; margin-top: 1.5rem; color: #efcc5c; font-size: clamp(1.2rem, 2.4vw, 1.65rem); line-height: 1.6; text-align: center; }
+  .gerd-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 4px solid #d8b13e; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #130006, #3a0010); color: rgba(255,255,255,.82); font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
+  .gerd-invocation strong { color: #efcc5c; font-size: 1.25em; }
+  .source-notes h3 { margin-top: 3rem; color: #8c001f; }
+  .source-notes h3 + p { margin-top: 1rem; }
   @media (max-width: 767px) {
-    .bayern-gateway { margin: 2rem auto 3rem; border-radius: 14px; }
+    .bayern-gateway { width: calc(100vw - 16px); margin-top: 2rem; margin-bottom: 3rem; border-radius: 14px; }
     .bayern-gateway > div { min-height: 180px; padding: 2rem 1rem; }
     .germany-flag { height: 110px; }
-    .bayern-era { margin: 3rem auto; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
+    .bayern-era { width: calc(100vw - 16px); margin-top: 3rem; margin-bottom: 3rem; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
     .article-body h2:has(+ .bayern-player-art) { margin-top: 5.3rem; margin-bottom: 1.35rem; }
-    .custom-xi-gallery { gap: .7rem; margin: 1.7rem auto 3rem; }
-    .bayern-final-sequence { margin: 2.7rem auto 4rem; }
+    .bayern-player-art, .custom-xi-gallery { width: calc(100vw - 16px); }
+    .custom-xi-gallery { gap: .7rem; margin-top: 1.7rem; margin-bottom: 3rem; }
+    .bayern-final-sequence { width: 100vw; margin-top: 2.7rem; margin-bottom: 4rem; }
+    .beckenbauer-litany { width: calc(100vw - 16px); padding: 1.35rem 1.15rem; }
+    .beckenbauer-litany p { padding-left: 1rem; font-size: .94rem; }
+    .gerd-invocation { width: calc(100vw - 16px); padding: 1.6rem 1rem; }
   }
 </style>
