@@ -17,11 +17,11 @@ featured: false
 
 주세페 메아차<span class="foreign-note" lang="it">(Giuseppe Meazza; 이탈리아 축구선수·공격수, 1910–1979)</span>가 현역에서 물러난 뒤 FC 인테르나치오날레 밀라노<span class="foreign-note" lang="it">(Football Club Internazionale Milano; ‘밀라노의 국제적인 축구단’을 뜻하는 구단 공식명)</span>가 다시 유럽 축구의 중심에 선 시기가 있었다. 안젤로 모라티<span class="foreign-note" lang="it">(Angelo Moratti; 이탈리아 기업가·인테르 회장, 1909–1981)</span> 회장이 판을 키우고, ‘마법사’ 엘레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera; 아르헨티나 태생 축구감독, 1910–1997)</span>가 전술과 심리를 함께 다뤘다. 그 아래에서 산드로 마촐라·루이스 수아레스 미라몬테스·자친토 파케티 같은 거물들이 검정과 파랑의 줄무늬 안에서 하나로 움직였다. 이름만 늘어놓아도 호화롭지만, 이 팀의 진짜 매력은 그 재능들이 서로의 빈칸을 정확히 메웠다는 데 있다.
 
-이 팀을 가리키는 이름이 **라 그란데 인테르**<span class="foreign-note" lang="it">(La Grande Inter; 위대한 인테르)</span>다. 1940년대 이탈리아를 지배한 라 그란데 토리노<span class="foreign-note" lang="it">(La Grande Torino)</span>가 먼저 떠오르는 표현이기도 하다. 두 왕조 사이에는 묘한 혈연도 있다. 라 그란데 토리노의 주장이었던 발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola)</span>의 아들 산드로 마촐라가, 이번에는 인테르 황금기의 공격을 이끌었다.
+이 팀을 가리키는 이름이 **라 그란데 인테르**<span class="foreign-note" lang="it">(La Grande Inter; 위대한 인테르)</span>다. 1940년대 이탈리아를 지배한 라 그란데 토리노<span class="foreign-note" lang="it">(La Grande Torino; 가 먼저 떠오르는 표현이기도 하다. 두 왕조 사이에는 묘한 혈연도 있다. 라 그란데 토리노의 주장이었던 발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola; 이탈리아 축구선수·공격수, 1919–1949)</span>의 아들 산드로 마촐라가, 이번에는 인테르 황금기의 공격을 이끌었다.
 
 다만 1960–1972년을 한 감독의 고정된 팀으로 보아서는 안 된다. 에레라의 재임기는 1960–1968년이고, 1970–71시즌 스쿠데토와 1972년 유러피언컵 준우승은 그 유산이 다음 시대로 이어진 장면에 가깝다. 이 글은 한 경기의 선발을 복원하는 작업이 아니라 그 긴 전성기를 설명할 베스트 11이다.
 
-그런데 선정을 마친 뒤 흥미로운 사실이 드러난다. **이 열한 명은 1964년 5월 27일 빈에서 레알 마드리드를 3-1로 꺾고 구단 최초의 유러피언컵을 든 선발 11명과 정확히 일치한다.** 시대 전체를 놓고 고른 명단이 결국 왕조가 탄생한 밤의 팀 시트로 돌아온 셈이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+선정 과정에서는 이름값보다 역할을 먼저 봤다. 누가 더 유명한가보다, 피키가 비운 자리를 누가 메우고 수아레스의 패스를 누가 다음 장면으로 이어갈 수 있는지를 따졌다. 그렇게 한 자리씩 채운 명단이 실제 역사와 어디에서 만나는지는 글의 마지막에서 확인한다.
 
 <div class="custom-xi-era" aria-label="라 그란데 인테르 선정 범위"><span>FOOTBALL CLUB INTERNAZIONALE MILANO</span><strong>1960—1972</strong><p>La Grande Inter · 유럽을 두 번 연속 제패한 네라주리<span class="foreign-note" lang="it">(Nerazzurri; ‘검정과 파랑’을 뜻하는 인테르의 별칭)</span> 왕조</p></div>
 
@@ -39,7 +39,7 @@ featured: false
 
 파케티는 왼쪽 풀백의 자리에서 하프라인을 넘어 페널티 지역까지 들어갔다. 부르니치는 반대편에 남아 그 전진의 위험을 나눠 가졌고, 피키는 두 선수 뒤에서 마지막 공간을 정리했다. 수아레스는 낮은 위치에서 짧은 패스로 상대를 끌어들인 다음 긴 패스로 공격 방향을 바꿨다. 코르소가 왼쪽에서 안으로 들어오면 파케티가 바깥을 차지했고, 오른쪽의 자이르는 수비수가 자세를 고쳐 잡기 전에 세로로 달렸다. 그 끝에서는 마촐라가 패스와 득점을 연결했다.
 
-낯설지 않을 것이다. 오늘날 우리는 이런 구조를 보면 비대칭 풀백, 후방 빌드업, 전환 공격, 레스트 디펜스<span class="foreign-note" lang="en">(rest defence; 공격 중에도 상대 역습에 대비해 후방의 수적·위치적 균형을 남겨두는 구조)</span>라고 설명한다. 감독이 풀백 한 명을 전진시키고 반대편 수비수를 남겨 균형을 잡으면 ‘현대적인 전술 설계’라고 감탄한다. 낮은 위치의 미드필더가 반대편 윙어에게 긴 패스를 보내면 압박을 전환한 영리한 빌드업이라고 부른다.
+지금의 전술 용어로 옮겨보면 구조가 더 선명해진다. 비대칭 풀백, 후방 빌드업, 전환 공격, 레스트 디펜스<span class="foreign-note" lang="en">(rest defence; 공격 중에도 상대 역습에 대비해 후방의 수적·위치적 균형을 남겨두는 구조)</span>라는 말로 설명할 수 있다. 풀백 한 명을 전진시키고 반대편 수비수를 남겨 균형을 잡는 방식, 낮은 위치의 미드필더가 반대편 윙어에게 긴 패스를 보내 압박 방향을 바꾸는 방식이 이미 한 팀 안에서 맞물렸다.
 
 그런데 그 기능들은 1960년대의 그란데 인테르 안에서도 이미 작동하고 있었다. 물론 당시 선수들이 오늘날의 용어를 사용한 것은 아니다. 훈련 방식과 경기 속도, 잔디 상태와 포메이션의 출발점도 달랐다. 그렇다고 그 시대의 선수들이 제자리에서 공이 오기만 기다렸던 것은 아니다. **우리가 이제야 이름을 붙였다고 해서 그 움직임까지 이제야 태어난 것은 아니다.**
 
@@ -83,7 +83,7 @@ featured: false
 
 그란데 인테르의 주장 아르만도 피키<span class="foreign-note" lang="it">(Armando Picchi; 이탈리아 축구선수·리베로, 1935–1971)</span>는 골키퍼 앞의 마지막 수비수이면서, 수비가 끝난 뒤 첫 패스를 결정하는 리베로였다. 여기서 중요한 건 ‘한 걸음 뒤’다. 상대 공격수와 같은 선에서 매번 몸을 부딪치는 대신, 동료가 놓칠 다음 장면을 먼저 읽었다. 파케티가 앞으로 사라지고 대인 수비수들이 각자의 상대를 따라가도 최후방이 텅 빈 것처럼 보이지 않았던 이유다.
 
-카테나초<span class="foreign-note" lang="it">(catenaccio; ‘빗장’을 뜻하는 이탈리아식 수비 전술 계열, 국내에서는 ‘카테나치오’로도 통용)</span>를 선수 전원이 골문 앞에 늘어선 장면으로만 상상하면 피키의 축구를 놓치게 된다. 그가 뒤를 책임졌기에 파케티는 올라갈 수 있었고, 전방의 다섯 재능도 수비 불안에 붙잡히지 않았다. 중계 화면에서 피키가 화려한 태클을 하지 않는 순간조차 그의 업적이었다. 이미 위험이 될 길을 닫아 놓았기 때문이다. 인테르 공식 기록이 그를 1960년 입단 뒤 모든 것을 이룬 라 그란데 인테르의 중심으로 설명하는 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+카테나초<span class="foreign-note" lang="it">(catenaccio; ‘빗장’을 뜻하는 이탈리아식 수비 전술 계열, 국내에서는 ‘카테나초’로도 통용)</span>를 선수 전원이 골문 앞에 늘어선 장면으로만 상상하면 피키의 축구를 놓치게 된다. 그가 뒤를 책임졌기에 파케티는 올라갈 수 있었고, 전방의 다섯 재능도 수비 불안에 붙잡히지 않았다. 중계 화면에서 피키가 화려한 태클을 하지 않는 순간조차 그의 업적이었다. 이미 위험이 될 길을 닫아 놓았기 때문이다. 인테르 공식 기록이 그를 1960년 입단 뒤 모든 것을 이룬 라 그란데 인테르의 중심으로 설명하는 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 ### 3. 아리스티데 과르네리｜중앙 수비수
 
@@ -193,22 +193,22 @@ featured: false
 
 이듬해 벤피카와의 결승에는 두 자리만 바뀌었다. 타그닌의 대인 방어 임무는 잔프랑코 베딘이 이어받아 에우제비우를 추적했고, 최전방에는 밀라니 대신 호아킨 페이로<span class="foreign-note" lang="es">(Joaquín Peiró; 스페인 축구선수·공격수, 1936–2020)</span>가 섰다. 같은 열한 명이 그대로 2연패한 것은 아니지만, 피키·파케티·부르니치·수아레스·마촐라·코르소·자이르로 이어지는 왕조의 척추는 남아 있었다.
 
-선정을 마치고 1964년 빈의 팀 시트와 대조해보니 열한 이름이 하나도 빠짐없이 겹쳤다. 결승 선발을 복원하려고 만든 명단이 아니었다. 1960년부터 1972년까지, 각 자리에서 그란데 인테르를 가장 잘 설명하는 선수를 한 명씩 골랐을 뿐이다. 그런데 마지막에 남은 것은 왕조가 처음 유럽 정상에 오른 밤의 열한 명이었다.
+결승 선발을 복원하려고 만든 명단은 아니었다. 1960년부터 1972년까지 각 자리에서 그란데 인테르를 가장 잘 설명하는 선수를 한 명씩 골랐고, 베딘과 도멩기니, 보닌세냐처럼 끝까지 고민한 후보도 있었다. 이 명단만이 정답이라고 주장할 생각은 없다.
 
-이 우연이 곧 유일한 정답을 증명하는 것은 아니다. 베딘과 도멩기니, 보닌세냐처럼 다른 시대의 전성기를 설명할 후보도 충분하다. 그래서 이 명단만이 정답이라고 주장할 생각은 없다. 다만 선정을 마친 뒤 공식 팀 시트를 확인하고는 나도 조금 놀랐다. 역할별로 한 명씩 고른 열한 명이 1964년 5월 27일 빈에서 실제로 함께 선발 출전했던 것이다.
+다만 선정을 마친 뒤 공식 팀 시트를 확인하고는 나도 조금 놀랐다. 열한 이름이 하나도 빠짐없이 겹쳤다. 글을 쓰기 전에 준비한 반전도, 결승 명단을 보고 거꾸로 맞춘 결과도 아니다. 역할을 따라 한 자리씩 고른 선수들이 1964년 5월 27일 빈에서 이미 함께 선발로 뛰고 있었다. 글을 마치며 발견하기에는 꽤 근사한 우연이었다.
 
 <div class="source-notes">
 
 ## 출처와 기록 기준
 
-1. <span id="source-1"></span>[Inter 공식: 1964·1965년 두 차례 유러피언컵 결승](https://www.inter.it/en/news/2020-05-27-27-may-inter-european-cups-1964-and-1965)
-2. <span id="source-2"></span>[Inter 공식: 아리스티데 과르네리가 회고한 그란데 인테르](https://www.inter.it/en/news/2017-05-10-guarneri-looks-back-on-la-grande-inter)
-3. <span id="source-3"></span>[Inter 공식: 1965년 벤피카전과 사르티의 선방](https://www.inter.it/en/news/previous-meetings-inter-benfica-champions-league)
-4. <span id="source-4"></span>[Inter 공식: 주장 아르만도 피키](https://www.inter.it/en/news/2017-06-1-throwback-thursday-armando-picchi-inter-legend)
-5. <span id="source-5"></span>[Inter 공식: 자친토 파케티의 경력과 기록](https://www.inter.it/en/news/giacinto-facchetti-2026-birth-anniversary)
-6. <span id="source-6"></span>[Inter 공식: 타르치시오 부르니치의 경력과 기록](https://www.inter.it/en/news/2021-05-26-condolences-from-inter-to-tarcisio-burgnich)
-7. <span id="source-7"></span>[Inter 공식: 마리오 코르소와 그란데 인테르](https://www.inter.it/en/news/2020-06-20-mario-corso-grande-inter-memories)
-8. <span id="source-8"></span>[Inter 공식: 자이르 다코스타와 1965년 결승골](https://www.inter.it/en/news/2020-07-09-birthday-80-years-old-jair-da-costa)
+1. <span id="source-1"></span>[인테르 공식: 1964·1965년 두 차례 유러피언컵 결승](https://www.inter.it/en/news/2020-05-27-27-may-inter-european-cups-1964-and-1965)
+2. <span id="source-2"></span>[인테르 공식: 아리스티데 과르네리가 회고한 그란데 인테르](https://www.inter.it/en/news/2017-05-10-guarneri-looks-back-on-la-grande-inter)
+3. <span id="source-3"></span>[인테르 공식: 1965년 벤피카전과 사르티의 선방](https://www.inter.it/en/news/previous-meetings-inter-benfica-champions-league)
+4. <span id="source-4"></span>[인테르 공식: 주장 아르만도 피키](https://www.inter.it/en/news/2017-06-1-throwback-thursday-armando-picchi-inter-legend)
+5. <span id="source-5"></span>[인테르 공식: 자친토 파케티의 경력과 기록](https://www.inter.it/en/news/giacinto-facchetti-2026-birth-anniversary)
+6. <span id="source-6"></span>[인테르 공식: 타르치시오 부르니치의 경력과 기록](https://www.inter.it/en/news/2021-05-26-condolences-from-inter-to-tarcisio-burgnich)
+7. <span id="source-7"></span>[인테르 공식: 마리오 코르소와 그란데 인테르](https://www.inter.it/en/news/2020-06-20-mario-corso-grande-inter-memories)
+8. <span id="source-8"></span>[인테르 공식: 자이르 다코스타와 1965년 결승골](https://www.inter.it/en/news/2020-07-09-birthday-80-years-old-jair-da-costa)
 
 </div>
 
