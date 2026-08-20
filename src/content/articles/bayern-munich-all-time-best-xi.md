@@ -140,7 +140,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 5. 로타어 마테우스｜중앙 미드필더
 
-<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-1.webp" alt="로타어 마테우스 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-4.webp" alt="로타어 마테우스 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 로타어 마테우스<span class="foreign-note" lang="de">(Lothar Herbert Matthäus; 독일 축구선수·미드필더·리베로, 1961–)</span>는 한 경기 안에서 가장 먼 거리를 가장 많은 책임과 함께 이동했다. 상대의 중심을 압박하고 공을 빼앗은 다음 직접 전진했으며, 페널티 지역 앞에서는 양발의 중거리 슈팅을 꺼냈다. 속도와 지구력, 패스와 대인 방어가 한 몸에 모였고, 경기의 온도가 오를수록 존재감도 커졌다.
 
@@ -148,11 +148,11 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 바이언에서 일곱 차례 분데스리가와 1996년 UEFA컵을 우승했고, 1990년 서독의 월드컵 우승 주장으로 발롱도르를 받았다. 공식 명예의 전당은 그를 *Der Leitwolf*, 무리를 이끄는 우두머리 늑대라 부른다. 2000년 3월 올림피아슈타디온의 마지막 홈경기에서 관중이 일제히 일어섰던 장면에는 그의 거친 리더십과 열두 시즌의 시간이 함께 담겼다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-2.webp" alt="로타어 마테우스의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-3.webp" alt="로타어 마테우스의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-5.webp" alt="로타어 마테우스의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-6.webp" alt="로타어 마테우스의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 6. 바스티안 슈바인슈타이거｜중앙 미드필더
 
-<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-4.webp" alt="바스티안 슈바인슈타이거 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-1.webp" alt="바스티안 슈바인슈타이거 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 바스티안 슈바인슈타이거<span class="foreign-note" lang="de">(Bastian Schweinsteiger; 독일 축구선수·중앙 미드필더, 1984–)</span>는 측면의 재기 넘치는 소년으로 1군에 올라왔다. 루이 판할이 그를 중앙으로 옮긴 뒤 바이언의 박동은 31번의 발끝에서 고르게 뛰었다. 수비선 앞에서 공을 받고, 압박을 등진 채 방향을 바꾸며, 전진한 풀백의 빈자리까지 메웠다.
 
@@ -160,7 +160,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2014년 월드컵 결승의 연장전, 아르헨티나 선수들과 부딪칠 때마다 얼굴과 몸에 상처가 늘었다. 그는 다시 일어나 중앙을 지켰고, 독일은 마리오 괴체의 골 뒤 네 번째 별을 달았다. 바이언 1군 공식전 500경기, 68골, 여덟 차례 분데스리가와 2013년 트레블. 팬들이 붙인 *Fußballgott*는 직역하면 ‘축구의 신’이다. 초월적인 재능보다 오래 견딘 충성에 바친 이름이었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-5.webp" alt="바스티안 슈바인슈타이거의 독일 대표팀 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-6.webp" alt="바스티안 슈바인슈타이거의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-2.webp" alt="바스티안 슈바인슈타이거의 독일 대표팀 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-3.webp" alt="바스티안 슈바인슈타이거의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 7. 프랑크 리베리｜왼쪽 윙어
 
@@ -300,7 +300,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   <li><strong>라이너 올하우저</strong><small lang="de">Rainer Ohlhauser · 센터 포워드</small><p>승격기와 초기 분데스리가에서 폭발적인 득점을 맡은 공격수.</p></li>
   <li><strong>위르겐 클린스만</strong><small lang="de">Jürgen Klinsmann · 센터 포워드</small><p>1990년대 ‘FC 할리우드’의 소란 속에서도 골을 책임졌다.</p></li>
   <li><strong>지오바니 에우베르</strong><small lang="pt-BR">Giovane Élber de Souza · 센터 포워드</small><p>유쾌한 움직임과 안정적인 득점으로 2001년 세대의 최전방을 이끌었다.</p></li>
-  <li><strong>호이 마카이</strong><small lang="nl">Roy Rudolphus Makaay · 센터 포워드</small><p>간결한 움직임과 빠른 슈팅으로 2000년대 중반 골을 축적했다.</p></li>
+  <li><strong>로이 마카이</strong><small lang="nl">Roy Rudolphus Makaay · 센터 포워드</small><p>간결한 움직임과 빠른 슈팅으로 2000년대 중반 골을 축적했다.</p></li>
   <li><strong>로케 산타 크루스</strong><small lang="es">Roque Luis Santa Cruz Cantero · 센터 포워드</small><p>젊은 재능과 제공권으로 2000년대 초 공격진의 선택지를 넓혔다.</p></li>
   <li><strong>제바스티안 다이슬러</strong><small lang="de">Sebastian Toni Deisler · 공격형 미드필더</small><p>짧았던 전성기에도 독일 축구가 기대한 창조성을 선명하게 보여줬다.</p></li>
   <li><strong>마리오 고메스</strong><small lang="de">Mario Gómez García · 센터 포워드</small><p>페널티 지역의 위치 선정으로 2010년대 초 득점을 쌓았다.</p></li>
@@ -370,8 +370,8 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-era strong { position: relative; display: block; margin: .6rem 0 .55rem; color: #fff; font-size: clamp(3.1rem, 9vw, 5.8rem); font-weight: 300; letter-spacing: -.075em; line-height: 1; text-shadow: 0 3px 22px rgba(0,0,0,.5); }
   .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: .9rem; }
   .bayern-era em { color: #e6c765; font-style: normal; font-weight: 700; }
-  .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 2.2rem; }
-  .bayern-player-art { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 0 0 2.7rem; transform: translateX(-50%); }
+  .article-body h2:has(+ .bayern-player-art) { margin-top: 9rem; margin-bottom: 2.2rem; }
+  .bayern-player-art { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 0 0 3.7rem; transform: translateX(-50%); }
   .bayern-player-art img { display: block; width: 100%; height: auto; }
   .bayern-player-art + p { margin-top: 0; }
   .custom-xi-gallery { position: relative; left: 50%; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 2.4rem 0 4rem; overflow: hidden; transform: translateX(-50%); }
@@ -404,8 +404,9 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
     .bayern-gateway > div { min-height: 180px; padding: 2rem 1rem; }
     .germany-flag { height: 110px; }
     .bayern-era { width: calc(100vw - 32px); margin-top: 3rem; margin-bottom: 3rem; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
-    .article-body h2:has(+ .bayern-player-art) { margin-top: 5.3rem; margin-bottom: 1.65rem; }
+    .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 1.65rem; }
     .bayern-player-art, .custom-xi-gallery { width: calc(100vw - 32px); }
+    .bayern-player-art { margin-bottom: 2.8rem; }
     .custom-xi-gallery { gap: 0; margin-top: 1.7rem; margin-bottom: 3rem; }
     .bayern-final-sequence { width: calc(100vw - 32px); margin-top: 2.7rem; margin-bottom: 4rem; }
     .beckenbauer-litany { width: calc(100vw - 32px); padding: 1.35rem 1.15rem; }
