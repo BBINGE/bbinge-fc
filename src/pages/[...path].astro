@@ -14,6 +14,7 @@ import { categories, categoryList, getAncestorChain, getArticlePath, getCategory
 import ShareButtons from '../components/ShareButtons.astro';
 import ContentCover from '../components/ContentCover.astro';
 import ArticleByline from '../components/ArticleByline.astro';
+import ReadingCompanion from '../components/ReadingCompanion.astro';
 import RelatedAssets from '../components/RelatedAssets.astro';
 import { archiveBranches } from '../data/archive';
 
@@ -212,6 +213,7 @@ if (props.kind === 'category') {
         <div class="article-body text-[17px] md:text-[18px] leading-[1.9] text-[var(--bbfc-ink)]">
           <articleView.Content />
         </div>
+        <ReadingCompanion />
 
         <aside class="article-provenance" aria-label="원저자 및 인용 안내">
           <strong>© 박성호(삥이) · 삥이FC</strong>
