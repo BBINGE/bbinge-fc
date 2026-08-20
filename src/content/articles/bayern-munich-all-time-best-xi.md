@@ -23,7 +23,7 @@ featured: true
   </div>
   <span class="bayern-gateway-line" aria-hidden="true"></span>
   <div class="bayern-gateway-league">
-    <img class="bundesliga-logo" src="/images/leagues/bundesliga.svg" alt="푸스발-분데스리가 공식 워드마크" width="404" height="49" />
+    <img class="bundesliga-logo" src="/images/leagues/bundesliga-symbol.webp" alt="공을 차는 선수의 흰색 실루엣을 붉은 바탕에 담은 푸스발-분데스리가 공식 상징" width="3840" height="3840" />
     <p>푸스발-분데스리가</p>
     <small lang="de">Fußball-Bundesliga</small>
   </div>
@@ -200,7 +200,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 10. 로베르트 레반도프스키｜센터 포워드
 
-<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-1.webp" alt="로베르트 레반도프스키 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-4.webp" alt="로베르트 레반도프스키 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 로베르트 레반도프스키<span class="foreign-note" lang="pl">(Robert Lewandowski; 폴란드 축구선수·센터 포워드, 1988–)</span>의 득점은 우연이 끼어들 틈을 줄이는 과정에서 태어났다. 첫 터치로 슈팅 각도를 만들고, 양발과 머리 가운데 가장 짧은 해결책을 골랐으며, 수비수의 시야 밖에서 한 걸음 먼저 출발했다. 체격과 기술은 철저한 훈련 아래 같은 속도로 움직였다.
 
@@ -208,15 +208,15 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2019-20시즌에는 분데스리가 34골, DFB-포칼 6골, UEFA 챔피언스 리그 15골로 세 대회 득점왕과 트레블을 함께 차지했다. 다음 시즌 리그 41골을 넣어 게르트 뮐러의 40골 기록을 49년 만에 넘어섰다. 바이언 공식전 375경기 344골, 여덟 시즌 동안 평균에 가까운 표현을 거부하는 득점 속도였다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 마지막 41번째 골 뒤 ‘4ever Gerd’ 셔츠를 뮐러의 아내 우시에게 건넨 장면은 기록의 경신과 계승을 같은 화면에 남겼다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-2.webp" alt="로베르트 레반도프스키의 폴란드 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-3.webp" alt="로베르트 레반도프스키의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-5.webp" alt="로베르트 레반도프스키의 폴란드 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-6.webp" alt="로베르트 레반도프스키의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 11. 게르트 뮐러｜센터 포워드
 
-<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-4.webp" alt="게르트 뮐러 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-1.webp" alt="게르트 뮐러 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 게르트 뮐러<span class="foreign-note" lang="de">(Gerhard Müller; 독일 축구선수·센터 포워드, 1945–2021)</span>의 몸은 고전적인 미학과 거리가 있었다. 낮은 중심, 굵은 허벅지, 짧은 보폭. 그 구조는 페널티 지역에서 누구보다 빠르게 방향을 바꾸는 데 쓰였다. 등을 진 채 몸을 돌리고, 넘어지면서 발끝을 내밀며, 공이 완전히 정리되기 전에 골문 구석을 찾았다.
 
-<blockquote class="gerd-invocation"><strong>바이언의 두 번째 신.</strong><br />신은 어떻게 침묵 속에서 골을 넣는가.</blockquote>
+<blockquote class="gerd-invocation"><strong>바이언의 두 번째 신.</strong><br /><span class="gerd-question">신은 어떻게 침묵 속에서 골을 넣는가.</span></blockquote>
 
 그에게 공간은 넓이보다 시간이었다. 수비수와 골키퍼가 공의 다음 위치를 이해하기 전, 짧은 찰나에 발을 갖다 댔다. 아름다운 자세를 완성할 필요가 없었고 슈팅을 위한 별도의 준비 동작도 거의 보이지 않았다. 독일어에는 그의 이름을 동사로 만든 *müllern*이라는 표현까지 생겼다. 어떻게든 공을 골문 안에 넣는 행위를 뜻했다.
 
@@ -228,7 +228,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 알코올 의존으로 삶이 무너졌던 시기에는 옛 동료와 구단이 손을 내밀었다. 회복한 뒤 유소년팀 코치로 돌아와 다음 세대의 공격수들을 도왔다. 득점이 그의 언어였다면 바이언은 그 언어가 사라지지 않도록 지켜준 집이었다. 그가 바이언에 남긴 것은 트로피보다 무겁고 독일에 남긴 것은 승리보다 깊다. ‘두 번째 신’이라는 오래된 표현에는 566골뿐 아니라 무너진 사람을 다시 가족 안으로 데려온 구단의 기억까지 함께 들어 있다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-5.webp" alt="게르트 뮐러의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-6.webp" alt="게르트 뮐러의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-2.webp" alt="게르트 뮐러의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-3.webp" alt="게르트 뮐러의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 마침내, 한 경기장에 선 열한 명
 
@@ -243,6 +243,74 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   <img src="/images/squads/bayern-munich-all-time-best-xi/other-candidates.webp" alt="시대와 포지션별로 정리한 FC 바이에른 뮌헨 역대 기타 후보 명단" loading="lazy" width="773" height="3387" />
   <figcaption>표제에서 베스트 11 포메이션, 2군과 기타 후보까지 한 세계로 이어지는 삥이의 바이언 편집 디자인.</figcaption>
 </figure>
+
+## 이미지 밖에서 다시 읽는 2군과 기타 후보
+
+최종 포메이션에 들지 못했다는 사실이 이들의 위계를 낮추지는 않는다. 시대별 전술과 열한 자리의 조화를 우선한 결과이며, 아래 명단은 이미지 안의 이름을 검색 가능한 텍스트로 다시 기록한 것이다. 한국어 이름 뒤에는 원어명과 주 포지션을 병기하고, 바이언에서 각자가 남긴 성격을 한 문장으로 요약했다.
+
+### 2군 명단
+
+<ul class="bayern-candidate-list" aria-label="FC 바이에른 뮌헨 역대 베스트 11 2군 명단">
+  <li><strong>제프 마이어</strong><small lang="de">Josef Dieter “Sepp” Maier · 골키퍼</small><p>1970년대 첫 유럽 왕조의 골문을 지킨 ‘안칭의 고양이’.</p></li>
+  <li><strong>올리버 칸</strong><small lang="de">Oliver Rolf Kahn · 골키퍼</small><p>2001년 유럽 정상 복귀를 투지와 존재감으로 끌어낸 주장.</p></li>
+  <li><strong>한스게오르크 슈바르첸베크</strong><small lang="de">Hans-Georg Schwarzenbeck · 중앙 수비수</small><p>베켄바워의 전진 뒤를 지키며 첫 왕조의 균형을 완성한 수비수.</p></li>
+  <li><strong>클라우스 아우겐탈러</strong><small lang="de">Klaus Augenthaler · 중앙 수비수·리베로</small><p>1980년대 후방을 통솔하고 주장 완장을 이어받은 리베로.</p></li>
+  <li><strong>제롬 보아텡</strong><small lang="de">Jérôme Agyenim Boateng · 중앙 수비수</small><p>긴 전진 패스로 2013년과 2020년의 축구를 연결한 수비수.</p></li>
+  <li><strong>빅상트 리자라쥐</strong><small lang="fr">Bixente Lizarazu · 왼쪽 풀백</small><p>측면의 속도와 수비 균형으로 2001년 유럽 제패를 뒷받침했다.</p></li>
+  <li><strong>다비드 알라바</strong><small lang="de">David Olatukunbo Alaba · 왼쪽 풀백·중앙 수비수</small><p>풀백과 중앙을 오가며 두 차례 트레블의 전술적 폭을 넓혔다.</p></li>
+  <li><strong>베른트 뒤른베르거</strong><small lang="de">Bernd Dürnberger · 수비형 미드필더·풀백</small><p>화려한 왕조의 여러 빈칸을 묵묵히 메운 다목적 선수.</p></li>
+  <li><strong>요주아 키미히</strong><small lang="de">Joshua Walter Kimmich · 수비형 미드필더·오른쪽 풀백</small><p>패스의 방향과 압박의 시작점을 함께 책임진 21세기 지휘자.</p></li>
+  <li><strong>프란츠 로트</strong><small lang="de">Franz Roth · 중앙 미드필더</small><p>큰 결승마다 득점해 ‘황소’라는 별칭을 유럽 무대에 새겼다.</p></li>
+  <li><strong>울리 회네스</strong><small lang="de">Ulrich “Uli” Hoeneß · 공격형 미드필더·공격수</small><p>선수로 첫 왕조를 질주하고 경영자로 현대 바이언의 규모를 세웠다.</p></li>
+  <li><strong>슈테판 에펜베르크</strong><small lang="de">Stefan Effenberg · 중앙 미드필더</small><p>2001년 팀을 유럽 정상으로 밀어 올린 강렬한 주장.</p></li>
+  <li><strong>디터 브레닝거</strong><small lang="de">Dieter Brenninger · 왼쪽 윙어</small><p>분데스리가 승격기와 첫 국내 우승기의 측면을 달린 공격수.</p></li>
+  <li><strong>아르연 로번</strong><small lang="nl">Arjen Robben · 오른쪽 윙어</small><p>왼발로 접어 들어가는 한 궤적을 2013년 트레블의 결승골로 완성했다.</p></li>
+  <li><strong>디터 회네스</strong><small lang="de">Dieter Hoeneß · 센터 포워드</small><p>1980년대 제공권과 투쟁심으로 최전방을 버틴 스트라이커.</p></li>
+</ul>
+
+### 기타 후보 명단
+
+<ul class="bayern-candidate-list bayern-candidate-list--others" aria-label="FC 바이에른 뮌헨 역대 베스트 11 기타 후보 명단">
+  <li><strong>장마리 파프</strong><small lang="fr">Jean-Marie Pfaff · 골키퍼</small><p>1980년대 바이언의 골문에 곡예 같은 반사 신경을 더했다.</p></li>
+  <li><strong>콘라트 하이트캄프</strong><small lang="de">Konrad Heidkamp · 중앙 수비수</small><p>1932년 바이언의 첫 독일 챔피언십을 이끈 주장.</p></li>
+  <li><strong>사뮈엘 쿠푸르</strong><small lang="en">Samuel Osei Kuffour · 중앙 수비수</small><p>1990년대 후반과 2001년 유럽 제패를 관통한 힘과 속도의 수비수.</p></li>
+  <li><strong>파트리크 안데르손</strong><small lang="sv">Patrik Jonas Andersson · 중앙 수비수</small><p>2001년 리그 최종전의 마지막 순간을 우승으로 바꾼 수비수.</p></li>
+  <li><strong>루시우</strong><small lang="pt-BR">Lucimar Ferreira da Silva · 중앙 수비수</small><p>공을 몰고 전진하는 힘으로 2000년대 후방에 공격성을 입혔다.</p></li>
+  <li><strong>마츠 후멜스</strong><small lang="de">Mats Julian Hummels · 중앙 수비수</small><p>유소년 시절과 전성기 후반을 바이언에서 보낸 빌드업형 수비수.</p></li>
+  <li><strong>뤼카 에르난데스</strong><small lang="fr">Lucas François Bernard Hernandez · 중앙 수비수·왼쪽 풀백</small><p>대인 수비와 다재다능함으로 2020년 전관왕의 수비 폭을 넓혔다.</p></li>
+  <li><strong>한스 플뤼글러</strong><small lang="de">Johannes Christian Pflügler · 왼쪽 풀백</small><p>1980년대 후반 왕조의 왼쪽을 오래 지킨 원클럽 수비수.</p></li>
+  <li><strong>후안 베르나트</strong><small lang="es">Juan Bernat Velasco · 왼쪽 풀백</small><p>짧은 패스와 전진성으로 과르디올라 시대의 측면을 지원했다.</p></li>
+  <li><strong>윌리 사뇰</strong><small lang="fr">Willy David Frédéric Sagnol · 오른쪽 풀백</small><p>정확한 크로스와 안정적인 수비로 2000년대 오른쪽을 맡았다.</p></li>
+  <li><strong>하피냐</strong><small lang="pt-BR">Márcio Rafael Ferreira de Souza · 오른쪽 풀백</small><p>주전과 교체의 경계를 받아들이며 긴 우승 시대를 지탱했다.</p></li>
+  <li><strong>뱅자맹 파바르</strong><small lang="fr">Benjamin Jacques Marcel Pavard · 오른쪽 풀백·중앙 수비수</small><p>후방의 여러 자리를 오가며 2020년 전관왕에 기여했다.</p></li>
+  <li><strong>하비 마르티네스</strong><small lang="es">Javier Martínez Aginaga · 수비형 미드필더·중앙 수비수</small><p>2013년 중원을 단단하게 만들고 2020년까지 두 트레블을 연결했다.</p></li>
+  <li><strong>샤비 알론소</strong><small lang="es">Xabier Alonso Olano · 수비형 미드필더</small><p>긴 패스와 경기 조절로 과르디올라 시대 후방 빌드업을 지휘했다.</p></li>
+  <li><strong>오언 하그리브스</strong><small lang="en">Owen Lee Hargreaves · 중앙 미드필더</small><p>활동량과 압박으로 2001년 유럽 정상 등극에 젊은 에너지를 보탰다.</p></li>
+  <li><strong>미하엘 발라크</strong><small lang="de">Michael Ballack · 중앙 미드필더</small><p>득점력과 제공권을 갖춘 2000년대 중반의 중심.</p></li>
+  <li><strong>토니 크로스</strong><small lang="de">Toni Kroos · 중앙 미드필더</small><p>바이언 유소년에서 성장해 2013년 트레블 세대의 패스 질서를 만들었다.</p></li>
+  <li><strong>티아고 알칸타라</strong><small lang="es">Thiago Alcântara do Nascimento · 중앙 미드필더</small><p>좁은 공간의 탈압박과 창조성으로 2020년 유럽 제패를 조율했다.</p></li>
+  <li><strong>코랑탱 톨리소</strong><small lang="fr">Corentin Tolisso · 중앙 미드필더</small><p>중원 여러 역할과 득점 가담으로 전관왕 시대의 깊이를 더했다.</p></li>
+  <li><strong>레온 고레츠카</strong><small lang="de">Leon Christoph Goretzka · 중앙 미드필더</small><p>전진과 압박, 페널티 지역 침투로 2020년의 강도를 끌어올렸다.</p></li>
+  <li><strong>제 호베르투</strong><small lang="pt-BR">José Roberto da Silva Júnior · 왼쪽 미드필더</small><p>측면과 중앙을 오간 기술로 2000년대 공격의 연결점을 만들었다.</p></li>
+  <li><strong>하산 살리하미지치</strong><small lang="bs">Hasan Salihamidžić · 오른쪽 미드필더</small><p>끝없는 활동량으로 2001년 우승 세대의 측면과 중원을 메웠다.</p></li>
+  <li><strong>메흐메트 숄</strong><small lang="de">Mehmet Tobias Scholl · 공격형 미드필더</small><p>창조적 패스와 킥으로 1990년대와 2000년대 초를 이어 준 기술자.</p></li>
+  <li><strong>루카스 포돌스키</strong><small lang="de">Lukas Josef Podolski · 왼쪽 윙어·공격수</small><p>강한 왼발과 직선적인 돌파를 남긴 독일 대표 공격수.</p></li>
+  <li><strong>킹슬레 코망</strong><small lang="fr">Kingsley Junior Coman · 왼쪽 윙어</small><p>2020년 챔피언스 리그 결승골로 유럽 제패를 확정했다.</p></li>
+  <li><strong>파울루 세르지우</strong><small lang="pt-BR">Paulo Sérgio Silvestre do Nascimento · 오른쪽 윙어</small><p>브라질 특유의 기술과 활동량으로 2001년 공격진을 보완했다.</p></li>
+  <li><strong>라이너 올하우저</strong><small lang="de">Rainer Ohlhauser · 센터 포워드</small><p>승격기와 초기 분데스리가에서 폭발적인 득점을 맡은 공격수.</p></li>
+  <li><strong>위르겐 클린스만</strong><small lang="de">Jürgen Klinsmann · 센터 포워드</small><p>1990년대 ‘FC 할리우드’의 소란 속에서도 골을 책임졌다.</p></li>
+  <li><strong>지오바니 에우베르</strong><small lang="pt-BR">Giovane Élber de Souza · 센터 포워드</small><p>유쾌한 움직임과 안정적인 득점으로 2001년 세대의 최전방을 이끌었다.</p></li>
+  <li><strong>호이 마카이</strong><small lang="nl">Roy Rudolphus Makaay · 센터 포워드</small><p>간결한 움직임과 빠른 슈팅으로 2000년대 중반 골을 축적했다.</p></li>
+  <li><strong>로케 산타 크루스</strong><small lang="es">Roque Luis Santa Cruz Cantero · 센터 포워드</small><p>젊은 재능과 제공권으로 2000년대 초 공격진의 선택지를 넓혔다.</p></li>
+  <li><strong>제바스티안 다이슬러</strong><small lang="de">Sebastian Toni Deisler · 공격형 미드필더</small><p>짧았던 전성기에도 독일 축구가 기대한 창조성을 선명하게 보여줬다.</p></li>
+  <li><strong>마리오 고메스</strong><small lang="de">Mario Gómez García · 센터 포워드</small><p>페널티 지역의 위치 선정으로 2010년대 초 득점을 쌓았다.</p></li>
+  <li><strong>이비차 올리치</strong><small lang="hr">Ivica Olić · 센터 포워드</small><p>멈추지 않는 압박과 큰 경기 득점으로 2010년 결승 진출을 이끌었다.</p></li>
+  <li><strong>루카 토니</strong><small lang="it">Luca Toni · 센터 포워드</small><p>제공권과 마무리로 2007-08시즌 국내 더블의 중심에 섰다.</p></li>
+  <li><strong>미로슬라프 클로제</strong><small lang="de">Miroslav Josef Klose · 센터 포워드</small><p>연계와 제공권으로 전방의 질서를 만든 독일 대표팀의 기록적 공격수.</p></li>
+  <li><strong>마리오 만주키치</strong><small lang="hr">Mario Mandžukić · 센터 포워드</small><p>강한 압박과 희생으로 2013년 트레블의 첫 수비수가 되었다.</p></li>
+  <li><strong>롤란트 볼파르트</strong><small lang="de">Roland Wohlfarth · 센터 포워드</small><p>1980년대 후반과 1990년대 초 두 차례 리그 득점왕에 오른 해결사.</p></li>
+  <li><strong>해리 케인</strong><small lang="en">Harry Edward Kane · 센터 포워드</small><p>정교한 마무리와 연계로 입단 직후부터 득점 기준을 새로 세웠다.</p></li>
+</ul>
 
 <div class="source-notes">
 
@@ -263,24 +331,24 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 13. [썸네일 바탕 사진: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
 14. [UEFA: EURO 1972 대회 베스트 XI와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
 15. [UEFA: EURO 1976 대회 베스트 XI와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
-16. [푸스발-분데스리가 공식 워드마크 원본과 권리 정보](https://commons.wikimedia.org/wiki/File:Bundesliga_logo.svg)
+16. [푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 
 ### 이 글이 만들어진 방식
 
 이 글은 2025년 네이버에 공개한 원고와 완성 편집물을 1차 저본으로 삼고, 2026년 8월 21일 현재의 구단 공식 기록·대회 주관단체 자료·선수별 명예의 전당을 다시 대조해 만든 개정판이다. 열한 명은 통산 기록의 단순 합계로 뽑지 않았다. 바이언에서의 전성기 크기, 구단사에 남긴 전술적 변화, 국가대표와 유럽대항전의 위상, 서로 다른 시대의 역할이 한 대형 안에서 공존할 수 있는지를 함께 평가했다. 선수별 서술도 약력을 바꾸어 적는 데 머물지 않고, 기록이 바이언과 독일 축구사의 어느 장면에서 의미를 얻는지 해석하는 방식으로 구성했다.
 
-선수별 세 장의 편집물에는 인물 선정, 사진 탐색, 시대별 기록 조사, 별칭과 원어 표기, 색채 설계, 정보 위계, 프레임과 배경, 수상·우승 내역의 배열이 함께 들어 있다. 표제에서 포메이션, 2군과 기타 후보로 이어지는 마지막 네 장 역시 별개의 첨부 이미지가 아니라 한 세계를 전제로 기획한 연속 시각물이다. 선수 선정·자료 조사·비교 기준·본문 서술·정보 배열·시각 구성과 완성 편집 디자인은 박성호(삥이)가 수행했다.
+선수별 세 장의 편집물에는 인물 선정, 사진 탐색, 시대별 기록 조사, 별칭과 원어 표기, 색채 설계, 정보 위계, 프레임과 배경, 수상·우승 내역의 배열이 함께 들어 있다. 표제에서 포메이션, 2군과 기타 후보로 이어지는 마지막 네 장 역시 별개의 첨부 이미지가 아니라 한 세계를 전제로 기획한 연속 시각물이다. 이 기존 편집물 전부는 박성호(삥이)가 Adobe Photoshop에서 한 장씩 직접 제작한 순수 수작업이며, 생성형 AI를 일절 사용하지 않았다. 선수 선정·자료 조사·비교 기준·본문 서술·정보 배열·시각 구성과 완성 편집 디자인 역시 박성호가 수행했다.
 
 ### 이미지와 권리에 관한 편집 원칙
 
 완성 편집물에 포함된 선수 사진은 인물을 식별하고 그 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥 안에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며, 사진 위에 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 이러한 편집적 창작성과 원사진의 권리는 서로 다른 층위이므로, 본 사이트는 자체 기여를 분명히 밝히되 원사진에 관한 권리까지 소유한다고 주장하지 않는다.
 
-새 표지는 CC0로 공개된 알리안츠 아레나 사진을 바탕으로, 삥이FC가 구도·색채·상징과 노출 금지 요소를 설계하고 AI 기반 이미지 편집 도구를 활용해 선수나 실제 포메이션을 노출하지 않는 편집형 이미지로 재구성했다. 구단·리그 문장은 해당 대상을 식별하고 설명하기 위한 편집 문맥에서만 사용하며, 공식 후원이나 제휴를 뜻하지 않는다. 명백한 오류, 정정 요청 또는 구체적인 권리 근거를 갖춘 삭제 요청이 접수되면 해당 URL과 자료를 확인해 교체·수정·비공개 여부를 판단한다. 문의 절차는 사이트의 [문의 페이지](/contact/)에서 확인할 수 있다.
+다만 2026년 사이트 개정판에 새로 추가한 대표 썸네일 한 장은 CC0로 공개된 알리안츠 아레나 사진을 바탕으로, 삥이FC가 구도·색채·상징과 노출 금지 요소를 설계하고 AI 기반 이미지 편집 도구를 활용해 재구성했다. 이 표지 제작 방식은 2025년의 선수별 편집물·포메이션·후보 명단과 무관하다. 구단·리그 문장은 해당 대상을 식별하고 설명하기 위한 편집 문맥에서만 사용하며, 공식 후원이나 제휴를 뜻하지 않는다. 명백한 오류, 정정 요청 또는 구체적인 권리 근거를 갖춘 삭제 요청이 접수되면 해당 URL과 자료를 확인해 교체·수정·비공개 여부를 판단한다. 문의 절차는 사이트의 [문의 페이지](/contact/)에서 확인할 수 있다.
 
 </div>
 
 <style>
-  .bayern-gateway { position: relative; left: 50%; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 3rem 0 4rem; overflow: hidden; border: 1px solid rgba(216, 177, 62, .45); border-radius: 22px; background: #080808; color: #fff; box-shadow: 0 22px 50px rgba(81, 0, 13, .18); text-align: center; transform: translateX(-50%); }
+  .bayern-gateway { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 3rem 0 4rem; overflow: hidden; border: 1px solid rgba(216, 177, 62, .45); border-radius: 22px; background: #080808; color: #fff; box-shadow: 0 22px 50px rgba(81, 0, 13, .18); text-align: center; transform: translateX(-50%); }
   .bayern-gateway > div { display: flex; min-height: 220px; flex-direction: column; align-items: center; justify-content: center; padding: 2.4rem 1.5rem; }
   .bayern-gateway p { margin: 1.15rem 0 .25rem; color: #fff; font-size: clamp(1.35rem, 3vw, 2rem); font-weight: 800; letter-spacing: -.035em; }
   .bayern-gateway small { color: rgba(255,255,255,.66); font-size: .82rem; letter-spacing: .08em; }
@@ -293,43 +361,59 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-gateway-league { background: #fff; }
   .bayern-gateway-league p { color: #d0021b; }
   .bayern-gateway-league small { color: #6b7280; }
-  .bundesliga-logo { display: block; width: min(330px, 75%); height: auto; }
+  .bundesliga-logo { display: block; width: min(170px, 44%); height: auto; aspect-ratio: 1; object-fit: contain; }
   .bayern-gateway-club { background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.12), transparent 35%), linear-gradient(145deg, #ed0039, #b80025 58%, #850019); }
   .bayern-gateway-club img { width: 150px; height: 150px; filter: drop-shadow(0 10px 16px rgba(0,0,0,.3)); }
-  .bayern-era { position: relative; left: 50%; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 4rem 0; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); transform: translateX(-50%); }
+  .bayern-era { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 4rem 0; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); transform: translateX(-50%); }
   .bayern-era img { position: absolute; right: -34px; bottom: -44px; width: 190px; height: 190px; opacity: .12; filter: grayscale(1); }
   .bayern-era span { position: relative; display: block; color: #e6c765; font-size: .7rem; font-weight: 800; letter-spacing: .22em; }
   .bayern-era strong { position: relative; display: block; margin: .6rem 0 .55rem; color: #fff; font-size: clamp(3.1rem, 9vw, 5.8rem); font-weight: 300; letter-spacing: -.075em; line-height: 1; text-shadow: 0 3px 22px rgba(0,0,0,.5); }
   .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: .9rem; }
   .bayern-era em { color: #e6c765; font-style: normal; font-weight: 700; }
-  .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 1.7rem; }
-  .bayern-player-art { position: relative; left: 50%; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 0 0 2.7rem; transform: translateX(-50%); }
+  .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 2.2rem; }
+  .bayern-player-art { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 0 0 2.7rem; transform: translateX(-50%); }
   .bayern-player-art img { display: block; width: 100%; height: auto; }
   .bayern-player-art + p { margin-top: 0; }
-  .custom-xi-gallery { position: relative; left: 50%; display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.15rem; width: min(980px, calc(100vw - 32px)); max-width: none; margin: 2.4rem 0 4rem; transform: translateX(-50%); }
-  .custom-xi-gallery img { display: block; width: 100%; height: auto; }
-  .bayern-final-sequence { position: relative; left: 50%; width: min(980px, calc(100vw - 16px)); max-width: none; margin: 3.5rem 0 5rem; overflow: hidden; background: #050505; transform: translateX(-50%); }
+  .custom-xi-gallery { position: relative; left: 50%; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 2.4rem 0 4rem; overflow: hidden; transform: translateX(-50%); }
+  .custom-xi-gallery img { display: block; width: 100%; height: auto; aspect-ratio: 1; }
+  .bayern-final-sequence { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 3.5rem 0 5rem; overflow: hidden; background: #050505; transform: translateX(-50%); }
   .bayern-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
   .bayern-final-sequence figcaption { margin: 0; padding: 1rem 1.25rem 1.15rem; background: #090909; color: rgba(255,255,255,.66); text-align: center; }
   .beckenbauer-litany { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.7rem 0; border: 1px solid rgba(198,155,36,.42); border-radius: 18px; padding: 2rem 2.2rem; background: linear-gradient(145deg, #160008, #35000e); color: #fff; transform: translateX(-50%); box-shadow: 0 18px 40px rgba(66,0,12,.14); }
   .beckenbauer-litany p { position: relative; margin: 0; padding: .62rem 0 .62rem 1.25rem; border-bottom: 1px solid rgba(255,255,255,.09); color: rgba(255,255,255,.86); line-height: 1.65; }
   .beckenbauer-litany p::before { content: ''; position: absolute; left: 0; top: 1.25rem; width: 5px; height: 5px; border-radius: 50%; background: #e2bd4f; box-shadow: 0 0 0 4px rgba(226,189,79,.1); }
-  .beckenbauer-litany strong { display: block; margin-top: 1.5rem; color: #efcc5c; font-size: clamp(1.2rem, 2.4vw, 1.65rem); line-height: 1.6; text-align: center; }
-  .gerd-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 4px solid #d8b13e; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #130006, #3a0010); color: rgba(255,255,255,.82); font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
-  .gerd-invocation strong { color: #efcc5c; font-size: 1.25em; }
+  .beckenbauer-litany strong { display: block; max-width: 780px; margin: 1.5rem auto 0; font-size: clamp(1.08rem, 1.8vw, 1.35rem); line-height: 1.6; text-align: center; text-wrap: balance; }
+  .article-body .gerd-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 4px solid #d8b13e; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #130006, #3a0010); color: #fff; font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
+  .gerd-invocation strong { font-size: 1.25em; }
+  .gerd-question { color: #fff; -webkit-text-fill-color: #fff; }
+  .beckenbauer-litany strong, .gerd-invocation strong { color: #efcc5c; background: linear-gradient(105deg, #b7861e 0%, #f1ca59 30%, #fff4bd 48%, #d8a72f 66%, #f1ca59 100%); background-size: 220% 100%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: bayern-gold-shimmer 5.5s ease-in-out infinite; }
+  .bayern-candidate-list { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; width: min(900px, calc(100vw - 32px)); margin: 1.5rem 0 4rem; padding: 0; list-style: none; transform: translateX(-50%); }
+  .bayern-candidate-list li { margin: 0; border: 1px solid rgba(140,0,31,.14); border-left: 3px solid #c9a43a; border-radius: 0 12px 12px 0; padding: 1rem 1.1rem; background: linear-gradient(135deg, rgba(140,0,31,.035), rgba(201,164,58,.045)); }
+  .bayern-candidate-list strong, .bayern-candidate-list small { display: block; }
+  .bayern-candidate-list strong { color: #111827; font-size: 1.02rem; }
+  .bayern-candidate-list small { margin-top: .18rem; color: #6b7280; font-size: .77rem; line-height: 1.5; }
+  .bayern-candidate-list p { margin: .55rem 0 0; color: #374151; font-size: .9rem; line-height: 1.65; }
+  @keyframes bayern-gold-shimmer {
+    0%, 16% { background-position: 120% 50%; }
+    56%, 100% { background-position: -120% 50%; }
+  }
   .source-notes h3 { margin-top: 3rem; color: #8c001f; }
   .source-notes h3 + p { margin-top: 1rem; }
   @media (max-width: 767px) {
-    .bayern-gateway { width: calc(100vw - 16px); margin-top: 2rem; margin-bottom: 3rem; border-radius: 14px; }
+    .bayern-gateway { width: calc(100vw - 32px); margin-top: 2rem; margin-bottom: 3rem; border-radius: 14px; }
     .bayern-gateway > div { min-height: 180px; padding: 2rem 1rem; }
     .germany-flag { height: 110px; }
-    .bayern-era { width: calc(100vw - 16px); margin-top: 3rem; margin-bottom: 3rem; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
-    .article-body h2:has(+ .bayern-player-art) { margin-top: 5.3rem; margin-bottom: 1.35rem; }
-    .bayern-player-art, .custom-xi-gallery { width: calc(100vw - 16px); }
-    .custom-xi-gallery { gap: .7rem; margin-top: 1.7rem; margin-bottom: 3rem; }
-    .bayern-final-sequence { width: 100vw; margin-top: 2.7rem; margin-bottom: 4rem; }
-    .beckenbauer-litany { width: calc(100vw - 16px); padding: 1.35rem 1.15rem; }
+    .bayern-era { width: calc(100vw - 32px); margin-top: 3rem; margin-bottom: 3rem; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
+    .article-body h2:has(+ .bayern-player-art) { margin-top: 5.3rem; margin-bottom: 1.65rem; }
+    .bayern-player-art, .custom-xi-gallery { width: calc(100vw - 32px); }
+    .custom-xi-gallery { gap: 0; margin-top: 1.7rem; margin-bottom: 3rem; }
+    .bayern-final-sequence { width: calc(100vw - 32px); margin-top: 2.7rem; margin-bottom: 4rem; }
+    .beckenbauer-litany { width: calc(100vw - 32px); padding: 1.35rem 1.15rem; }
     .beckenbauer-litany p { padding-left: 1rem; font-size: .94rem; }
-    .gerd-invocation { width: calc(100vw - 16px); padding: 1.6rem 1rem; }
+    .article-body .gerd-invocation { width: calc(100vw - 32px); padding: 1.6rem 1rem; }
+    .bayern-candidate-list { grid-template-columns: minmax(0, 1fr); width: calc(100vw - 32px); gap: .7rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .beckenbauer-litany strong, .gerd-invocation strong { animation: none; background-position: 50% 50%; }
   }
 </style>
