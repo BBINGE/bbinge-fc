@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-20T18:56:39.818Z",
+  "updatedAt": "2026-08-20T19:01:44.189Z",
   "birthday": {
     "name": "로베르트 레반도프스키",
     "birthYear": 1988,
@@ -12,7 +12,7 @@
     "birthday": {
       "state": "fallback",
       "source": "local-calendar",
-      "error": "Wikidata 3회 시도 실패: This operation was aborted"
+      "error": "Wikidata 3회 시도 실패: 502 Bad Gateway"
     },
     "matches": {
       "state": "empty",
