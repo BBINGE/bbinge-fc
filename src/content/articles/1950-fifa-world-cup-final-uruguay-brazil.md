@@ -142,11 +142,6 @@ relatedGroup: 'fifa-world-cup-1950'
   </div>
 </figure>
 
-<a class="best-xi-cta" href="/archive/national-team/fifa-world-cup/1950-fifa-world-cup-best-xi/">
-  <span aria-hidden="true">XI</span>
-  <div><small>NEXT RECORD</small><strong>이 경기의 열한 명은 누구였을까?</strong><p>1950 월드컵 당대 베스트 11 보러 가기 →</p></div>
-</a>
-
 <div class="source-notes">
   <h2>영상과 기록 출처</h2>
   <ol>
