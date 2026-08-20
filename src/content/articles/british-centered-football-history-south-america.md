@@ -180,6 +180,7 @@ featured: false
 .history-closing::before{content:"“";top:1rem}.history-closing::after{content:"”";bottom:.65rem}
 .article-body .history-closing>:not(.history-block-cite){margin:0!important;color:#1765c1!important;font-size:clamp(1.38rem,2.5vw,1.9rem)!important;font-weight:650;line-height:1.65;word-break:keep-all}
 .history-argument__labels>*{font-size:.9rem;line-height:1.45}
+.history-argument__labels,.history-argument article{grid-template-columns:repeat(3,minmax(0,1fr));gap:0;align-items:start}.history-argument__labels>*{padding:0 .75rem}.history-argument article{padding:0}.history-argument article>*{min-width:0;height:100%;margin:0!important;padding:1rem .75rem;border-left:1px solid #d5e3f7}.history-argument article>*:first-child{border-left:0}
 .history-argument article strong,.history-network__map strong,.history-archive__lane strong,.history-synthesis strong{font-size:1rem;line-height:1.5}
 .article-body .history-argument article p,.article-body .history-network__map p,.article-body .history-archive__lane li,.article-body .history-synthesis p{font-size:.97rem;line-height:1.72}
 .history-argument article em,.history-network__map span,.history-archive>p{font-size:.91rem!important;line-height:1.65!important}
@@ -192,6 +193,7 @@ featured: false
 .history-regions__head{min-height:3.35rem}
 .history-regions article{min-height:5.35rem!important;border:0!important;border-bottom:1px solid #c9dcf8!important}
 .history-regions article:last-child{border-bottom:0!important}
+@media(max-width:700px){.history-argument article{display:block;padding:1rem 0}.history-argument article>*{height:auto;padding:0;border-left:0}.history-argument article p{margin:.45rem 0!important}}
 .history-regions__head>*,.history-regions article>*{display:flex;min-width:0;align-items:center;margin:0!important;padding:1rem!important;border:0!important;border-right:1px solid #d5e3f7!important;box-sizing:border-box}
 .history-regions__head>*{color:#fff;font-size:.9rem;line-height:1.45}
 .history-regions__head>*:last-child,.history-regions article>*:last-child{border-right:0!important}
