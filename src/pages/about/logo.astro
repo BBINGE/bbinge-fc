@@ -2,77 +2,62 @@
 import Layout from '../../layouts/Layout.astro';
 import { site } from '../../config/site';
 
-const brandSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'AboutPage',
-  name: '삥이FC 로고 이야기',
-  url: `${site.url}/about/logo/`,
-  description: '박성호의 P와 삥이의 B가 하나의 저자명으로 만나는 삥이FC 로고의 의미와 색상 체계.',
-  about: { '@type': 'Brand', name: site.name },
-};
+const brandDescription = 'Park와 BBinge, 기획자 박성호와 디지털 크리에이터 삥이가 하나의 PB 심벌로 만나는 삥이FC 브랜드 아이덴티티 이야기.';
+const brandSchema = { '@context': 'https://schema.org', '@type': 'AboutPage', name: '삥이FC 로고 이야기', url: `${site.url}/about/logo/`, description: brandDescription, about: { '@type': 'Brand', name: site.name } };
 ---
 
-<Layout
-  title="로고 이야기"
-  description="박성호의 P와 삥이의 B가 하나의 저자명으로 만나는 삥이FC 로고의 의미와 색상 체계입니다."
-  ogImage="/images/brand/bbinge-brand-og.png"
-  ogImageAlt="검정 P와 파란 B를 결합한 삥이FC 브랜드 심볼"
-  ogImageWidth={1200}
-  ogImageHeight={630}
-  breadcrumbs={[{ label: '홈', href: '/' }, { label: '저자 @삥이', href: '/about/' }, { label: '로고 이야기', href: '/about/logo/' }]}
-  extraSchema={brandSchema}
->
-  <article class="brand-page">
-    <header class="brand-hero">
-      <div class="brand-intro">
-        <p class="brand-eyebrow">BBINGE FC · BRAND IDENTITY</p>
-        <h1>한 사람,<br /><span>두 개의 이름.</span></h1>
-        <p class="brand-lead">박성호로 기획하고, 삥이로 씁니다. 로고는 실명과 필명이 한 사람 안에서 만나 축구를 기록하는 방식을 담았습니다.</p>
-      </div>
-      <div class="brand-symbol-stage" aria-label="삥이FC PB 심볼">
-        <svg viewBox="0 0 200 200" role="img" aria-labelledby="symbol-title">
-          <title id="symbol-title">P와 B를 결합한 삥이FC 심볼</title>
-          <path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z" />
-          <path fill="var(--bbfc-blue)" d="M59 96h48c38 0 59 15 59 40s-21 40-59 40H59v-25h47c23 0 35-5 35-15s-12-15-35-15H59z" />
-        </svg>
-        <p>P · B</p>
-      </div>
+<Layout title="로고 이야기" description={brandDescription} ogImage="/images/brand/bbinge-brand-og.png" ogImageAlt="검정 P와 파란 B를 결합한 삥이FC 브랜드 심볼" ogImageWidth={1200} ogImageHeight={630} breadcrumbs={[{ label: '홈', href: '/' }, { label: '저자 @삥이', href: '/about/' }, { label: '로고 이야기', href: '/about/logo/' }]} extraSchema={brandSchema}>
+  <article class="identity-page">
+    <header class="identity-hero">
+      <div class="hero-copy"><p class="eyebrow">BBINGE FC · BRAND IDENTITY</p><h1>한 사람,<br />두 개의 역할.</h1><p class="hero-lead">Park로 기획하고, BBinge로 만듭니다.<br />삥이FC의 심벌은 기획자 박성호와 디지털 크리에이터 삥이가 한 사람 안에서 만나는 방식을 담았습니다.</p></div>
+      <div class="hero-mark"><img src="/images/brand/pb-mark-2026-color.png" alt="Park의 P와 BBinge의 B가 붓의 형태로 만난 삥이FC PB 심벌" /></div>
     </header>
 
-    <section class="brand-meaning">
-      <div class="section-heading"><p>01 · THE NAME</p><h2>P와 B가 만나는 곳</h2></div>
-      <div class="meaning-grid">
-        <div><strong>P</strong><span>PARK SEONGHO</span><p>자료를 찾고 구조를 세우며 기록에 책임지는 기획자 박성호.</p></div>
-        <div><strong>B</strong><span>BBINGE</span><p>온라인에서 독자와 만나고, 축구를 자기 언어로 해석하는 필명 삥이.</p></div>
-        <div class="meaning-result"><strong>PB</strong><span>ONE AUTHOR</span><p>서로 다른 두 이름은 분리된 인격이 아니라 하나의 저자가 가진 두 가지 목소리입니다.</p></div>
+    <section class="identity-section name-section">
+      <div class="section-index"><b>01</b><span>THE NAME</span></div>
+      <div class="section-body"><h2>P와 B가 만나는 곳</h2><div class="name-grid">
+        <div class="name-card"><strong>P</strong><h3>PARK</h3><span>PLANNER · PARK SEONGHO</span><p>자료를 찾고, 질문을 세우고, 구조를 만드는 기획자 박성호.</p></div>
+        <div class="name-card"><strong>B</strong><h3>BBINGE</h3><span>DIGITAL CREATOR</span><p>축구를 자기 언어와 디지털 형식으로 만들고 독자와 만나는 삥이.</p></div>
+        <div class="name-card result-card"><strong>PB</strong><h3>ONE PERSON · TWO ROLES</h3><p>서로 다른 두 사람이 아닙니다.<br />하나의 사람이 축구를 생각하고 만드는 두 가지 방식입니다.</p></div>
+      </div></div>
+    </section>
+
+    <section class="identity-section split-section stroke-section">
+      <div class="section-index"><b>02</b><span>THE STROKE</span></div>
+      <div class="section-body split-body"><div class="section-copy"><h2>붓에서 시작된 형태</h2><p>새 심벌의 검은 형태는 매끈한 기하학보다 손으로 밀어 올린 획에 가깝습니다.</p><p>삥이FC에서 검정은 기획자의 붓을 뜻합니다. 자료를 찾고, 판단하고, 구조를 세우며 하나의 기록으로 묶어내는 박성호의 작업입니다.</p></div><div class="mark-field quiet"><img src="/images/brand/pb-mark-2026-color.png" alt="검은 붓의 획이 중심을 이루는 PB 심벌" loading="lazy" /></div></div>
+    </section>
+
+    <section class="identity-section digital-section">
+      <div class="section-index"><b>03</b><span>THE DIGITAL</span></div>
+      <div class="section-body"><div class="digital-intro"><div class="section-copy"><h2>붓이 화면을 만날 때</h2><p>그러나 삥이FC는 종이 위에서 끝나지 않습니다. 글과 기록은 웹으로 옮겨지고, 이미지와 데이터와 인터랙션을 만나 하나의 디지털 콘텐츠가 됩니다.</p><p>BBFC Blue는 그 두 번째 역할을 맡습니다. 삥이라는 이름으로 만들고 발행하는 디지털 크리에이터의 색입니다.</p></div><div class="mark-field"><img src="/images/brand/pb-mark-2026-color.png" alt="검정과 BBFC Blue가 함께 쓰인 PB 심벌" loading="lazy" /></div></div>
+        <div class="color-system" aria-label="삥이FC 색상 체계"><div><i class="ink"></i><strong>BBFC INK</strong><code>#191F28</code><span>기획자의 붓</span></div><div><i class="blue"></i><strong>BBFC BLUE</strong><code>#3182F6</code><span>디지털의 색</span></div><div><i class="pale"></i><strong>ARCHIVE PALE</strong><code>#F2F6FE</code><span>정보와 기록을 구분하는 보조색</span></div></div>
       </div>
     </section>
 
-    <section class="brand-form">
-      <div class="section-heading"><p>02 · THE MARK</p><h2>읽기보다 먼저 기억되는 형태</h2></div>
-      <div class="form-grid">
-        <div class="form-copy"><p>심볼은 검정 P에 파란 아래 반원을 더해 하나의 B로 완성됩니다. 복잡한 중첩 없이, 작은 화면에서도 한 번에 기억되는 형태를 우선했습니다.</p><p>검정 골격 위로 파란 곡선이 이어지는 모습은 과거의 기록 위에 오늘의 해석이 덧붙는 과정을 뜻합니다.</p></div>
-        <div class="form-demo"><span>SYMBOL</span><svg viewBox="0 0 200 200" aria-hidden="true"><path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z"/><path fill="var(--bbfc-blue)" d="M59 96h48c38 0 59 15 59 40s-21 40-59 40H59v-25h47c23 0 35-5 35-15s-12-15-35-15H59z"/></svg><b>삥이<span>FC</span></b></div>
-      </div>
+    <section class="identity-section landscape-section">
+      <div class="section-index"><b>04</b><span>THE LANDSCAPE</span></div>
+      <div class="section-body landscape-body"><h2>오래 보고 나서 보이는 것들</h2><div class="landscape-grid"><div class="landscape-copy"><p>처음에는 P와 B가 보입니다.</p><p>조금 떨어져 보면 두 개의 봉우리처럼 보이기도 합니다. B의 아래를 들여다보면 축구 골망을 떠올리게 하는 격자가 남아 있습니다.</p><p>이것들을 로고의 정답으로 규정하지는 않습니다. 다만 흥미로운 우연은 있습니다. 삥이FC의 저자 소개에는 오래전부터 이런 문장이 적혀 있습니다.</p><blockquote>“축구를 핑계 삼아 서방의 역사와 철학을 제법 오래 등정했습니다.”</blockquote><p>한 선수를 읽다가 시대를 읽고, 한 경기를 따라가다 도시와 정치와 종교까지 올라갔던 시간.</p><p>그렇게 오래 쌓인 축구가 어느 날 PB라는 두 글자 안에서 조금은 산과 같은 풍경으로 보였습니다.</p></div><div class="landscape-mark"><img src="/images/brand/pb-mark-2026-color.png" alt="두 개의 봉우리와 골망의 인상도 함께 남기는 PB 심벌" loading="lazy" /></div></div></div>
     </section>
 
-    <section class="brand-color">
-      <div class="section-heading"><p>03 · THE COLOR</p><h2>기록의 검정, 발행의 파랑</h2></div>
-      <div class="color-grid">
-        <div class="color-card ink"><i></i><div><strong>BBFC INK</strong><code>#191F28</code><p>사실, 기록, 구조. 오래 읽어도 흔들리지 않는 본문의 중심색입니다.</p></div></div>
-        <div class="color-card blue"><i></i><div><strong>BBFC BLUE</strong><code>#3182F6</code><p>해석, 연결, 발행. 기록을 현재의 독자에게 건네는 목소리입니다.</p></div></div>
-        <div class="color-card pale"><i></i><div><strong>ARCHIVE PALE</strong><code>#F2F6FE</code><p>파랑을 절제해 확장한 보조색. 정보의 층을 조용히 구분합니다.</p></div></div>
-      </div>
+    <section class="identity-section previous-section">
+      <div class="section-index"><b>05</b><span>PREVIOUS MARK</span></div>
+      <div class="section-body previous-body"><div><p class="archive-label">PREVIOUS MARK</p><h2>첫 번째 PB</h2><p>이전 심벌은 Park와 BBinge를 기하학적으로 포개어 두 이름의 관계를 처음 정의했습니다.</p><p>새 심벌은 그 관계를 지우지 않습니다. 오랫동안 함께 작업하며 서로의 경계가 흐려진 지금의 형태에 조금 더 가깝습니다.</p></div><div class="legacy-mark" aria-label="이전 삥이FC PB 심벌"><svg viewBox="0 0 200 200" role="img" aria-labelledby="legacy-title"><title id="legacy-title">이전 P와 B 결합 심벌</title><path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z"/><path fill="var(--bbfc-blue)" d="M59 96h48c38 0 59 15 59 40s-21 40-59 40H59v-25h47c23 0 35-5 35-15s-12-15-35-15H59z"/></svg><span>2025 · LEGACY</span></div></div>
     </section>
 
-    <section class="brand-signature">
-      <div class="signature-mark"><svg viewBox="0 0 200 200" aria-hidden="true"><path fill="currentColor" d="M34 24h25v152H34zM59 24h43c34 0 54 18 54 49 0 20-10 35-29 43l-11-23c10-4 15-11 15-20 0-17-10-25-31-25H59z"/><path fill="var(--bbfc-blue)" d="M59 96h48c38 0 59 15 59 40s-21 40-59 40H59v-25h47c23 0 35-5 35-15s-12-15-35-15H59z"/></svg></div>
-      <div><p>BBINGE FC</p><h2>축구의 역사를 놀고,<br />읽고, 걷는 곳.</h2><a href="/about/">저자 이야기 보기 <span aria-hidden="true">→</span></a></div>
-    </section>
+    <footer class="identity-signature"><p>PARK <span>×</span> BBINGE</p><h2>기획자의 붓.<br />디지털 크리에이터의 화면.<br />그리고 그 사이에 쌓인 축구.</h2><div><strong>BBINGE FC</strong><span>축구의 역사를 놀고, 읽고, 걷는 곳.</span></div></footer>
   </article>
 </Layout>
 
 <style>
-  .brand-page{max-width:1200px;margin:0 auto;padding:0 20px 100px}.brand-hero{display:grid;grid-template-columns:1.15fr .85fr;min-height:640px;border-bottom:1px solid var(--bbfc-ink)}.brand-intro{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(20px,5vw,72px) 70px 0}.brand-eyebrow,.section-heading>p{color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.18em}.brand-intro h1{margin-top:22px;font-size:clamp(50px,7vw,88px);font-weight:650;line-height:1.02;letter-spacing:-.065em}.brand-intro h1 span{color:var(--bbfc-blue)}.brand-lead{max-width:580px;margin-top:34px;color:var(--bbfc-ink-2);font-size:clamp(16px,2vw,20px);line-height:1.85}.brand-symbol-stage{display:grid;place-items:center;align-content:center;gap:24px;background:var(--bbfc-fill-2);color:var(--bbfc-ink)}.brand-symbol-stage svg{width:min(62%,300px)}.brand-symbol-stage p{font-size:10px;font-weight:700;letter-spacing:.35em}.brand-page section:not(.brand-signature){padding:110px 0;border-bottom:1px solid var(--bbfc-border)}.section-heading{display:grid;grid-template-columns:1fr 2fr;align-items:start}.section-heading h2{font-size:clamp(30px,4vw,52px);font-weight:600;line-height:1.15;letter-spacing:-.05em}.meaning-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:64px;background:var(--bbfc-border);border:1px solid var(--bbfc-border)}.meaning-grid>div{min-height:310px;padding:36px;background:#fff}.meaning-grid strong{display:block;font-size:clamp(62px,8vw,100px);font-weight:650;line-height:1}.meaning-grid span{display:block;margin-top:22px;color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.16em}.meaning-grid p{margin-top:28px;color:var(--bbfc-gray-1);font-size:14px;line-height:1.8}.meaning-grid .meaning-result{background:var(--bbfc-ink);color:#fff}.meaning-result p{color:#b0b8c1}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:64px}.form-copy p{color:var(--bbfc-ink-2);font-size:17px;line-height:1.95}.form-copy p+p{margin-top:22px}.form-demo{position:relative;min-height:420px;display:grid;place-items:center;align-content:center;background:var(--bbfc-ink);color:#fff}.form-demo>span{position:absolute;top:22px;left:24px;color:#8b95a1;font-size:9px;letter-spacing:.16em}.form-demo svg{width:190px}.form-demo b{margin-top:18px;font-size:26px;letter-spacing:-.04em}.form-demo b span{color:var(--bbfc-blue)}.color-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:64px}.color-card{border:1px solid var(--bbfc-border);background:#fff}.color-card i{display:block;height:180px}.color-card.ink i{background:#191f28}.color-card.blue i{background:#3182f6}.color-card.pale i{background:#f2f6fe}.color-card div{padding:24px}.color-card strong,.color-card code{display:block}.color-card strong{font-size:12px;letter-spacing:.1em}.color-card code{margin-top:6px;color:var(--bbfc-gray-2);font-size:11px}.color-card p{margin-top:22px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.75}.brand-signature{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;min-height:500px;margin-top:110px;background:var(--bbfc-blue-weak)}.signature-mark{display:grid;place-items:center}.signature-mark svg{width:180px}.brand-signature>div:last-child{padding:60px}.brand-signature p{color:var(--bbfc-blue);font-size:10px;font-weight:700;letter-spacing:.18em}.brand-signature h2{margin-top:18px;font-size:clamp(34px,5vw,58px);font-weight:650;line-height:1.2;letter-spacing:-.055em}.brand-signature a{display:inline-flex;gap:18px;margin-top:40px;padding-bottom:6px;border-bottom:1px solid var(--bbfc-ink);font-size:13px;font-weight:600}
-  @media(max-width:760px){.brand-page{padding:0 16px 70px}.brand-hero{grid-template-columns:1fr;min-height:0}.brand-intro{padding:72px 0 56px}.brand-symbol-stage{min-height:360px}.brand-page section:not(.brand-signature){padding:72px 0}.section-heading{grid-template-columns:1fr;gap:16px}.meaning-grid,.color-grid{grid-template-columns:1fr;margin-top:40px}.meaning-grid>div{min-height:250px}.form-grid{grid-template-columns:1fr;gap:40px;margin-top:40px}.form-demo{min-height:360px}.brand-signature{grid-template-columns:1fr;min-height:0;margin-top:72px;padding-top:48px}.signature-mark svg{width:130px}.brand-signature>div:last-child{padding:38px 26px 54px}}
+  .identity-page{--line:var(--bbfc-border);max-width:1200px;margin:0 auto;padding:0 20px 110px;color:var(--bbfc-ink)}
+  .identity-hero{display:grid;grid-template-columns:55fr 45fr;align-items:center;min-height:620px;border-bottom:1px solid var(--bbfc-ink)}
+  .hero-copy{padding:84px clamp(20px,5vw,72px) 84px 0}.eyebrow,.archive-label{color:var(--bbfc-blue);font-size:10px;font-weight:750;letter-spacing:.17em}.hero-copy h1{margin-top:24px;font-size:clamp(54px,7vw,90px);font-weight:680;line-height:1.02;letter-spacing:-.07em}.hero-lead{max-width:600px;margin-top:36px;color:var(--bbfc-ink-2);font-size:clamp(16px,1.7vw,19px);line-height:1.9}.hero-mark{display:grid;place-items:center;min-width:0;padding:56px 0 56px 36px}.hero-mark img{display:block;width:100%;max-width:530px;height:auto}
+  .identity-section{display:grid;grid-template-columns:110px minmax(0,1fr);border-bottom:1px solid var(--line)}.section-index{padding:34px 14px 0 0}.section-index b,.section-index span{display:block}.section-index b{color:var(--bbfc-blue);font-size:12px}.section-index span{margin-top:4px;font-size:8px;font-weight:750;letter-spacing:.08em}.section-body{min-width:0;padding:102px 0 110px 34px;border-left:1px solid var(--line)}.section-body>h2,.section-copy h2,.previous-body h2{font-size:clamp(32px,4.2vw,54px);font-weight:640;line-height:1.13;letter-spacing:-.055em}
+  .name-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:64px;border-top:1px solid var(--line);border-left:1px solid var(--line)}.name-card{min-height:330px;padding:34px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.name-card strong{display:block;font-size:clamp(66px,8vw,100px);font-weight:670;line-height:1}.name-card h3{margin-top:22px;font-size:14px}.name-card span{display:block;margin-top:5px;color:var(--bbfc-blue);font-size:9px;font-weight:750;letter-spacing:.08em}.name-card p{margin-top:30px;color:var(--bbfc-gray-1);font-size:14px;line-height:1.85}.result-card{background:var(--bbfc-ink);color:#fff}.result-card h3{color:var(--bbfc-blue)}.result-card p{color:#c7cdd4}
+  .split-body,.digital-intro{display:grid;grid-template-columns:minmax(0,.85fr) minmax(360px,1.15fr);gap:clamp(44px,7vw,100px);align-items:center}.section-copy p,.previous-body>div:first-child>p:not(.archive-label){max-width:620px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.95}.section-copy h2+p,.previous-body h2+p{margin-top:34px}.section-copy p+p,.previous-body p+p{margin-top:20px}.mark-field{display:grid;place-items:center;min-height:360px;background:#fff}.mark-field.quiet{background:var(--bbfc-fill-2)}.mark-field img{display:block;width:min(100%,540px);height:auto}
+  .digital-intro{align-items:start}.color-system{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:70px;background:var(--line);border:1px solid var(--line)}.color-system>div{display:grid;grid-template-columns:54px 1fr;grid-template-rows:auto auto auto;column-gap:18px;min-height:150px;padding:26px;background:#fff}.color-system i{grid-row:1/4;width:54px;height:54px;border:1px solid rgba(25,31,40,.08)}.color-system i.ink{background:#191f28}.color-system i.blue{background:#3182f6}.color-system i.pale{background:#f2f6fe}.color-system strong{font-size:11px}.color-system code{margin-top:4px;color:var(--bbfc-gray-2);font-size:10px}.color-system span{align-self:end;color:var(--bbfc-gray-1);font-size:12px}
+  .landscape-body{padding-top:120px;padding-bottom:130px}.landscape-grid{display:grid;grid-template-columns:minmax(320px,.8fr) minmax(420px,1.2fr);gap:clamp(48px,8vw,120px);align-items:end;margin-top:62px}.landscape-copy p{color:var(--bbfc-ink-2);font-size:16px;line-height:1.95}.landscape-copy p+p{margin-top:20px}.landscape-copy blockquote{margin:40px 0;padding-left:24px;border-left:3px solid var(--bbfc-blue);color:var(--bbfc-blue);font-size:clamp(22px,3vw,35px);font-weight:620;line-height:1.55;letter-spacing:-.04em}.landscape-mark img{display:block;width:100%;height:auto}
+  .previous-body{display:grid;grid-template-columns:1fr .7fr;gap:60px;align-items:center}.previous-body>div:first-child{max-width:650px}.legacy-mark{display:grid;place-items:center;justify-self:center;width:220px;height:250px;color:var(--bbfc-ink);background:var(--bbfc-fill-2)}.legacy-mark svg{width:108px}.legacy-mark span{margin-top:12px;color:var(--bbfc-gray-2);font-size:8px;letter-spacing:.16em}
+  .identity-signature{padding:130px 0 20px}.identity-signature>p{font-size:14px;font-weight:750;letter-spacing:.08em}.identity-signature>p span{color:var(--bbfc-blue)}.identity-signature h2{margin-top:34px;font-size:clamp(42px,6.4vw,78px);font-weight:650;line-height:1.13;letter-spacing:-.065em}.identity-signature>div{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-top:100px;padding-top:22px;border-top:1px solid var(--bbfc-ink)}.identity-signature strong{font-size:18px}.identity-signature>div span{color:var(--bbfc-gray-1);font-size:12px}
+  @media(max-width:800px){.identity-page{padding:0 16px 76px}.identity-hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:74px 0 42px}.hero-copy h1{font-size:clamp(50px,15vw,68px)}.hero-lead br{display:none}.hero-mark{padding:18px 0 62px}.hero-mark img{width:min(100%,520px)}.identity-section{grid-template-columns:46px minmax(0,1fr)}.section-index{padding-top:24px}.section-index span{font-size:7px;writing-mode:vertical-rl}.section-body{padding:74px 0 78px 18px}.name-grid{grid-template-columns:1fr;margin-top:42px}.name-card{min-height:245px;padding:28px}.name-card strong{font-size:72px}.split-body,.digital-intro,.landscape-grid,.previous-body{grid-template-columns:1fr;gap:46px}.mark-field{min-height:270px}.color-system{grid-template-columns:1fr;margin-top:48px}.color-system>div{min-height:126px}.landscape-body{padding-top:82px;padding-bottom:88px}.landscape-grid{margin-top:44px}.landscape-copy blockquote{margin:32px 0;font-size:25px}.landscape-mark{order:-1}.legacy-mark{justify-self:start;width:180px;height:210px}.identity-signature{padding-top:88px}.identity-signature h2{font-size:clamp(38px,11vw,56px)}.identity-signature>div{display:grid;margin-top:70px}.identity-signature>div span{line-height:1.6}}
 </style>
