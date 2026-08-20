@@ -913,3 +913,10 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 베스트 11의 본문 포지션은 중앙 수비수·왼쪽 풀백·오른쪽 풀백·레지스타·왼쪽 윙어·오른쪽 윙어처럼 자연스러운 한국어로 정리하고, 선수 카드의 영문 역할명은 보존했다.
 
 ---
+## 2026-08-20 영국 중심 축구사 칼럼 학술 밀도·원어 표기 보강
+
+- 축세 칼럼의 영국 비공식 제국 비판을 인과관계의 미입증, 영문 자료 편향, 브라질·아르헨티나 사례의 대륙 일반화라는 세 층위로 명확히 재구성했다.
+- 인명뿐 아니라 The FA, association football, British informal empire, The Argentine Association Football League, SPAC, Río de la Plata, Campeonato Sudamericano de Selecciones, CONMEBOL 등 기관·대회·개념도 첫 등장 원어 병기 원칙을 적용했다.
+- AFA와 브라질 축구박물관 자료를 추가하고 도시화·교통·언론·문명화 담론·기록의 생존 편향·남미 스포츠 외교를 보강했다.
+
+---
