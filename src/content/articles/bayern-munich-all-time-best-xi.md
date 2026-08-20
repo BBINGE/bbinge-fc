@@ -386,7 +386,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .article-body .gerd-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 4px solid #d8b13e; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #130006, #3a0010); color: #fff; font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
   .gerd-invocation strong { font-size: 1.25em; }
   .gerd-question { color: #fff; -webkit-text-fill-color: #fff; }
-  .beckenbauer-litany strong, .gerd-invocation strong { color: #efcc5c; background: linear-gradient(105deg, #b7861e 0%, #f1ca59 30%, #fff4bd 48%, #d8a72f 66%, #f1ca59 100%); background-size: 220% 100%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: bayern-gold-shimmer 5.5s ease-in-out infinite; }
+  .beckenbauer-litany strong, .gerd-invocation strong { color: #efcc5c; background: linear-gradient(105deg, #b7861e 0%, #f1ca59 30%, #fff4bd 48%, #d8a72f 66%, #f1ca59 100%); background-size: 220% 100%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: bayern-gold-shimmer 15s cubic-bezier(.45, 0, .18, 1) infinite; }
   .bayern-candidate-list { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; width: min(900px, calc(100vw - 32px)); margin: 1.5rem 0 4rem; padding: 0; list-style: none; transform: translateX(-50%); }
   .bayern-candidate-list li { margin: 0; border: 1px solid rgba(140,0,31,.14); border-left: 3px solid #c9a43a; border-radius: 0 12px 12px 0; padding: 1rem 1.1rem; background: linear-gradient(135deg, rgba(140,0,31,.035), rgba(201,164,58,.045)); }
   .bayern-candidate-list strong, .bayern-candidate-list small { display: block; }
@@ -394,8 +394,8 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-candidate-list small { margin-top: .18rem; color: #6b7280; font-size: .77rem; line-height: 1.5; }
   .bayern-candidate-list p { margin: .55rem 0 0; color: #374151; font-size: .9rem; line-height: 1.65; }
   @keyframes bayern-gold-shimmer {
-    0%, 16% { background-position: 120% 50%; }
-    56%, 100% { background-position: -120% 50%; }
+    0%, 18% { background-position: 120% 50%; }
+    72%, 100% { background-position: -120% 50%; }
   }
   .source-notes h3 { margin-top: 3rem; color: #8c001f; }
   .source-notes h3 + p { margin-top: 1rem; }
