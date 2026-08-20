@@ -102,6 +102,9 @@ const articleSchema = article
         url: `${site.url}/about/`,
       },
       publisher: { '@id': `${site.url}/#author` },
+      copyrightHolder: { '@id': `${site.url}/#author` },
+      copyrightYear: String(article.pubDate.getFullYear()),
+      copyrightNotice: `© ${article.pubDate.getFullYear()} ${site.authorName}(${site.author}). All rights reserved.`,
     }
   : null;
 
@@ -144,6 +147,7 @@ const authorSchema = {
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="author" content={`${site.authorName}(${site.author})`} />
+    <meta name="copyright" content={`© ${article?.pubDate.getFullYear() ?? new Date().getFullYear()} ${site.authorName}(${site.author}) · ${site.name}`} />
     <meta name="robots" content={robots} />
     <meta name="naver-site-verification" content="d6fb2830beb60655dc0db5fb92eae1fe8b1cf6be" />
     <meta name="theme-color" content="#ffffff" />
@@ -199,6 +203,27 @@ const authorSchema = {
     {extraSchema && (Array.isArray(extraSchema) ? extraSchema : [extraSchema]).map((schema) => (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
     ))}
+    {articleSchema && (
+      <script is:inline define:vars={{ originalAuthor: `${site.authorName}(${site.author})`, originalSite: site.name, originalURL: canonicalURL }}>
+        (() => {
+          document.addEventListener('copy', (event) => {
+            const selection = window.getSelection();
+            if (!selection || selection.isCollapsed) return;
+            const selectedText = selection.toString().trim();
+            if (selectedText.length < 40) return;
+            const anchor = selection.anchorNode instanceof Element
+              ? selection.anchorNode
+              : selection.anchorNode?.parentElement;
+            if (!anchor?.closest('article')) return;
+            const active = document.activeElement;
+            if (active instanceof HTMLInputElement || active instanceof HTMLTextAreaElement || active?.getAttribute('contenteditable') === 'true') return;
+            const attribution = `\n\n— 원문: ${document.title}\n— 저자: ${originalAuthor} · ${originalSite}\n— 출처: ${originalURL}`;
+            event.clipboardData?.setData('text/plain', selectedText + attribution);
+            event.preventDefault();
+          });
+        })();
+      </script>
+    )}
   </head>
   <body>
     <Header />
