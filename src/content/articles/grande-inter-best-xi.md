@@ -27,7 +27,7 @@ featured: false
 
 ## 그란데 인테르가 남긴 숫자
 
-<div class="custom-xi-honours" aria-label="1960년부터 1972년까지 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>2</strong><span>유러피언컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>2</strong><span>유러피언컵 준우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="세리에 A 우승 트로피" loading="lazy"><strong>4</strong><span>세리에 A 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인터컨티넨탈컵 트로피" loading="lazy"><strong>2</strong><span>인터컨티넨탈컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>5</strong><span>발롱도르 포디움</span></div></div>
+<div class="custom-xi-honours" aria-label="1960년부터 1972년까지 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>2</strong><span>유러피언컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>2</strong><span>유러피언컵 준우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="세리에 A 우승 트로피" loading="lazy"><strong>4</strong><span>세리에 A 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인테르컨티넨탈컵 트로피" loading="lazy"><strong>2</strong><span>인테르컨티넨탈컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>5</strong><span>발롱도르 포디움</span></div></div>
 
 그란데 인테르를 단순히 ‘수비만 한 팀’이라고 설명하면 절반도 보지 못한 셈이다. 아리스티데 과르네리는 당시 팀을 돌아보며 “우리에겐 다섯 명의 정상급 공격수가 있었고, 산 시로에서는 결코 수비적이지 않았다”고 말했다. 피키가 마지막 공간을 읽고, 과르네리와 부르니치가 상대를 지우는 동안 파케티는 왼쪽을 타고 전진했다. 그 앞에서는 수아레스가 경기의 설계도를 그리고, 마촐라·코르소·자이르가 서로 다른 속도로 골문을 흔들었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
@@ -71,7 +71,7 @@ featured: false
 
 ### 1. 줄리아노 사르티｜골키퍼
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/giuliano-sarti.webp" alt="줄리아노 사르티 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>GK · GOALKEEPER</span><h4>줄리아노 사르티</h4><small lang="it">Giuliano Sarti</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1963–1968</dd></div><div><dt>선정 근거</dt><dd>유러피언컵 2연패 골키퍼</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/giuliano-sarti.webp" alt="줄리아노 사르티 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>GK · GOALKEEPER</span><h4>줄리아노 사르티</h4><small lang="it">Giuliano Sarti</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1963–1968</dd></div><div><dt>선정 근거</dt><dd>유러피언컵 2연패 골키퍼</dd></div></dl></div></article>
 
 줄리아노 사르티<span class="foreign-note" lang="it">(Giuliano Sarti; 이탈리아 축구선수·골키퍼, 1933–2017)</span>는 피오렌티나에서 이미 유러피언컵 결승을 경험한 골키퍼였다. 그러니 1963년 인테르에 온 그는 큰 무대를 처음 구경하는 신참이 아니라, 결승전의 공기가 얼마나 무거운지 아는 사람이었다. 그런데 첫 시즌부터 상대가 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano; 아르헨티나 태생 축구선수·공격수, 1926–2014)</span>와 페렌츠 푸슈카시<span class="foreign-note" lang="hu">(Ferenc Puskás; 헝가리 축구선수·공격수, 1927–2006)</span>의 레알 마드리드였다. 경기 전 워밍업에서 통증까지 느꼈지만, 사르티는 그대로 골문에 섰다.
 
@@ -79,15 +79,15 @@ featured: false
 
 ### 2. 아르만도 피키｜리베로
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/armando-picchi.webp" alt="아르만도 피키 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>SW · LIBERO</span><h4>아르만도 피키</h4><small lang="it">Armando Picchi</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1960–1967</dd></div><div><dt>선정 근거</dt><dd>주장·최후방 설계자</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/armando-picchi.webp" alt="아르만도 피키 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>SW · LIBERO</span><h4>아르만도 피키</h4><small lang="it">Armando Picchi</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1960–1967</dd></div><div><dt>선정 근거</dt><dd>주장·최후방 설계자</dd></div></dl></div></article>
 
 그란데 인테르의 주장 아르만도 피키<span class="foreign-note" lang="it">(Armando Picchi; 이탈리아 축구선수·리베로, 1935–1971)</span>는 골키퍼 앞의 마지막 수비수이면서, 수비가 끝난 뒤 첫 패스를 결정하는 리베로였다. 여기서 중요한 건 ‘한 걸음 뒤’다. 상대 공격수와 같은 선에서 매번 몸을 부딪치는 대신, 동료가 놓칠 다음 장면을 먼저 읽었다. 파케티가 앞으로 사라지고 대인 수비수들이 각자의 상대를 따라가도 최후방이 텅 빈 것처럼 보이지 않았던 이유다.
 
-카테나초<span class="foreign-note" lang="it">(catenaccio; ‘빗장’을 뜻하는 이탈리아식 수비 전술 계열, 국내에서는 ‘카테나치오’로도 통용)</span>를 선수 전원이 골문 앞에 늘어선 장면으로만 상상하면 피키의 축구를 놓치게 된다. 그가 뒤를 책임졌기에 파케티는 올라갈 수 있었고, 전방의 다섯 재능도 수비 불안에 붙잡히지 않았다. 중계 화면에서 피키가 화려한 태클을 하지 않는 순간조차 그의 업적이었다. 이미 위험이 될 길을 닫아 놓았기 때문이다. 인터 공식 기록이 그를 1960년 입단 뒤 모든 것을 이룬 라 그란데 인테르의 중심으로 설명하는 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+카테나초<span class="foreign-note" lang="it">(catenaccio; ‘빗장’을 뜻하는 이탈리아식 수비 전술 계열, 국내에서는 ‘카테나치오’로도 통용)</span>를 선수 전원이 골문 앞에 늘어선 장면으로만 상상하면 피키의 축구를 놓치게 된다. 그가 뒤를 책임졌기에 파케티는 올라갈 수 있었고, 전방의 다섯 재능도 수비 불안에 붙잡히지 않았다. 중계 화면에서 피키가 화려한 태클을 하지 않는 순간조차 그의 업적이었다. 이미 위험이 될 길을 닫아 놓았기 때문이다. 인테르 공식 기록이 그를 1960년 입단 뒤 모든 것을 이룬 라 그란데 인테르의 중심으로 설명하는 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 ### 3. 아리스티데 과르네리｜중앙 수비수
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/aristide-guarneri.webp" alt="아리스티데 과르네리 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CB · CENTRE BACK</span><h4>아리스티데 과르네리</h4><small lang="it">Aristide Guarneri</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1958–1967, 1969–1970</dd></div><div><dt>선정 근거</dt><dd>대인 방어와 위치 선정</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/aristide-guarneri.webp" alt="아리스티데 과르네리 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CB · CENTRE BACK</span><h4>아리스티데 과르네리</h4><small lang="it">Aristide Guarneri</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1958–1967, 1969–1970</dd></div><div><dt>선정 근거</dt><dd>대인 방어와 위치 선정</dd></div></dl></div></article>
 
 아리스티데 과르네리<span class="foreign-note" lang="it">(Aristide Guarneri; 이탈리아 축구선수·중앙 수비수, 1938–)</span>는 피키가 뒤에서 전체를 읽을 수 있도록 눈앞의 싸움을 정리한 수비수였다. 공격수 처지에서 생각해보면 정말 재미없는 상대였을 것이다. 공을 받았는데 돌아설 수 없고, 겨우 몸을 돌렸을 때는 이미 패스 길이 닫혀 있다. 과르네리는 화려한 태클로 장면을 끝내기보다 위험한 장면이 시작될 조건부터 없앴다.
 
@@ -95,23 +95,23 @@ featured: false
 
 ### 4. 자친토 파케티｜왼쪽 풀백
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/giacinto-facchetti.webp" alt="자친토 파케티 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>LB · LEFT BACK</span><h4>자친토 파케티</h4><small lang="it">Giacinto Facchetti</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1960–1978</dd></div><div><dt>선정 근거</dt><dd>공격형 풀백의 개척자</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/giacinto-facchetti.webp" alt="자친토 파케티 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>LB · LEFT BACK</span><h4>자친토 파케티</h4><small lang="it">Giacinto Facchetti</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1960–1978</dd></div><div><dt>선정 근거</dt><dd>공격형 풀백의 개척자</dd></div></dl></div></article>
 
 자친토 파케티<span class="foreign-note" lang="it">(Giacinto Facchetti; 이탈리아 축구선수·왼쪽 풀백, 1942–2006)</span>는 레프트백이라는 자리의 지도를 바꾼 선수였다. 지금이야 풀백이 상대 페널티 지역까지 올라가는 장면이 익숙하지만, 당시에는 수비수 한 명이 자기 자리를 비운다는 것 자체가 모험이었다. 큰 키의 파케티가 긴 보폭으로 하프라인을 넘기 시작하면 그 모험은 곧 정해진 공격 패턴이 됐다. 상대는 윙어만 막아서는 왼쪽을 닫을 수 없었다.
 
-인터에서만 17년을 뛰며 주장과 구단 회장까지 지낸 상징이기도 하다. 구단 공식 기록 기준 634경기 75골. 수비수의 득점 기록이라고 생각하면 숫자의 인상이 달라진다. 네 차례 스쿠데토와 두 차례 유러피언컵, 두 차례 인터컨티넨탈컵을 남겼고, 훗날 정장을 입고도 같은 구단을 이끌었다. 공격하는 풀백의 계보를 말할 때 니우통 산투스<span class="foreign-note" lang="pt-BR">(Nílton dos Santos; 브라질 축구선수·왼쪽 풀백, 1925–2013)</span>와 함께 가장 먼저 불려야 할 이름이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+인테르에서만 17년을 뛰며 주장과 구단 회장까지 지낸 상징이기도 하다. 구단 공식 기록 기준 634경기 75골. 수비수의 득점 기록이라고 생각하면 숫자의 인상이 달라진다. 네 차례 스쿠데토와 두 차례 유러피언컵, 두 차례 인테르컨티넨탈컵을 남겼고, 훗날 정장을 입고도 같은 구단을 이끌었다. 공격하는 풀백의 계보를 말할 때 니우통 산투스<span class="foreign-note" lang="pt-BR">(Nílton dos Santos; 브라질 축구선수·왼쪽 풀백, 1925–2013)</span>와 함께 가장 먼저 불려야 할 이름이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
 ### 5. 타르치시오 부르니치｜오른쪽 풀백
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/tarcisio-burgnich.webp" alt="타르치시오 부르니치 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>RB · RIGHT BACK</span><h4>타르치시오 부르니치</h4><small lang="it">Tarcisio Burgnich</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1962–1974</dd></div><div><dt>선정 근거</dt><dd>강인한 대인 수비와 커버</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/tarcisio-burgnich.webp" alt="타르치시오 부르니치 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>RB · RIGHT BACK</span><h4>타르치시오 부르니치</h4><small lang="it">Tarcisio Burgnich</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1962–1974</dd></div><div><dt>선정 근거</dt><dd>강인한 대인 수비와 커버</dd></div></dl></div></article>
 
 피키가 타르치시오 부르니치<span class="foreign-note" lang="it">(Tarcisio Burgnich; 이탈리아 축구선수·오른쪽 풀백, 1939–2021)</span>에게 붙인 별명은 ‘바위’였다. 별명부터 경기 방식이 보인다. 파케티가 왼쪽에서 운동장을 넓히는 동안 부르니치는 오른쪽 문을 잠갔다. 강한 체격과 좀처럼 흐트러지지 않는 집중력으로 가장 위험한 상대를 직접 맡았고, 필요할 때는 그 단단한 몸을 그대로 전진의 힘으로 바꿨다.
 
-두 풀백은 같은 방식으로 뛰지 않았기에 더 강했다. 한쪽 문이 열리면 반대쪽은 더 단단히 닫혔고, 그 뒤에는 피키가 있었다. 이 비대칭이 그란데 인테르 수비의 묘미다. 부르니치는 인터에서 467경기 6골을 기록하며 네 차례 스쿠데토, 두 차례 유러피언컵과 인터컨티넨탈컵을 함께했다. 숫자는 파케티보다 조용하지만, 왕조가 모험할 수 있게 만든 쪽은 이 ‘바위’였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+두 풀백은 같은 방식으로 뛰지 않았기에 더 강했다. 한쪽 문이 열리면 반대쪽은 더 단단히 닫혔고, 그 뒤에는 피키가 있었다. 이 비대칭이 그란데 인테르 수비의 묘미다. 부르니치는 인테르에서 467경기 6골을 기록하며 네 차례 스쿠데토, 두 차례 유러피언컵과 인테르컨티넨탈컵을 함께했다. 숫자는 파케티보다 조용하지만, 왕조가 모험할 수 있게 만든 쪽은 이 ‘바위’였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 ### 6. 카를로 타그닌｜수비형 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/carlo-tagnin.webp" alt="카를로 타그닌 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>DM · DEFENSIVE MIDFIELDER</span><h4>카를로 타그닌</h4><small lang="it">Carlo Tagnin</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1962–1965</dd></div><div><dt>선정 근거</dt><dd>1964 결승의 숨은 영웅</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/carlo-tagnin.webp" alt="카를로 타그닌 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>DM · DEFENSIVE MIDFIELDER</span><h4>카를로 타그닌</h4><small lang="it">Carlo Tagnin</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1962–1965</dd></div><div><dt>선정 근거</dt><dd>1964 결승의 숨은 영웅</dd></div></dl></div></article>
 
 활약 기간과 상징성만 보면 잔프랑코 베딘<span class="foreign-note" lang="it">(Gianfranco Bedin; 이탈리아 축구선수·수비형 미드필더, 1945–)</span>을 택하는 편이 더 자연스러울 수 있다. 그래도 이 자리에는 카를로 타그닌<span class="foreign-note" lang="it">(Carlo Tagnin; 이탈리아 축구선수·수비형 미드필더, 1932–2000)</span>을 넣었다. 베스트 11이라면 가장 오래 빛난 선수만 고를 수도 있다. 하지만 어떤 팀은 단 한 경기의 임무가 그 시대 전체를 설명하기도 한다.
 
@@ -119,7 +119,7 @@ featured: false
 
 ### 7. 루이스 수아레스 미라몬테스｜레지스타
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/luis-suarez.webp" alt="루이스 수아레스 미라몬테스 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CM · REGISTA</span><h4>루이스 수아레스</h4><small lang="es">Luis Suárez Miramontes</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>인터 소속</dt><dd>1961–1970</dd></div><div><dt>선정 근거</dt><dd>후방의 경기 설계자</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/luis-suarez.webp" alt="루이스 수아레스 미라몬테스 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CM · REGISTA</span><h4>루이스 수아레스</h4><small lang="es">Luis Suárez Miramontes</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>인테르 소속</dt><dd>1961–1970</dd></div><div><dt>선정 근거</dt><dd>후방의 경기 설계자</dd></div></dl></div></article>
 
 ‘건축가’ 루이스 수아레스 미라몬테스<span class="foreign-note" lang="es">(Luis Suárez Miramontes; 스페인 축구선수·중앙 미드필더, 1935–2023)</span>는 에레라가 바르셀로나에서부터 데려온 제자였다. 공격적인 인사이드 포워드로 이름을 날렸지만 인테르에서는 더 낮은 곳으로 내려왔다. 퇴보가 아니라 시야를 넓히기 위한 이동이었다. 짧은 패스로 상대를 한쪽에 모은 뒤, 고개를 들고 반대편 자이르나 전진하는 파케티에게 긴 공을 보냈다.
 
@@ -127,7 +127,7 @@ featured: false
 
 ### 8. 산드로 마촐라｜공격형 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/sandro-mazzola.webp" alt="산드로 마촐라 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>AM · INSIDE FORWARD</span><h4>산드로 마촐라</h4><small lang="it">Alessandro Mazzola</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1960–1977</dd></div><div><dt>선정 근거</dt><dd>왕조의 에이스</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/sandro-mazzola.webp" alt="산드로 마촐라 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>AM · INSIDE FORWARD</span><h4>산드로 마촐라</h4><small lang="it">Alessandro Mazzola</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1960–1977</dd></div><div><dt>선정 근거</dt><dd>왕조의 에이스</dd></div></dl></div></article>
 
 그란데 토리노의 주장 발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola; 이탈리아 축구선수·공격수, 1919–1949)</span>가 수페르가에서 세상을 떠났을 때 산드로 마촐라<span class="foreign-note" lang="it">(Alessandro “Sandro” Mazzola; 이탈리아 축구선수·공격형 미드필더, 1942–)</span>는 여섯 살이었다. 위대한 아버지의 성은 유산인 동시에 평생의 비교표였을 것이다. 산드로는 그 무게를 피하지 않고 전혀 다른 도시와 전혀 다른 전술 안에서 자기 시대를 만들었다.
 
@@ -135,7 +135,7 @@ featured: false
 
 ### 9. 마리오 코르소｜왼쪽 윙어
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/mario-corso.webp" alt="마리오 코르소 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>LW · LEFT WINGER</span><h4>마리오 코르소</h4><small lang="it">Mario Corso</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1957–1973</dd></div><div><dt>선정 근거</dt><dd>왼발의 창조성</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/mario-corso.webp" alt="마리오 코르소 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>LW · LEFT WINGER</span><h4>마리오 코르소</h4><small lang="it">Mario Corso</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1957–1973</dd></div><div><dt>선정 근거</dt><dd>왼발의 창조성</dd></div></dl></div></article>
 
 마리오 코르소<span class="foreign-note" lang="it">(Mario Corso; 이탈리아 축구선수·왼쪽 윙어, 1941–2020)</span>는 빨라 보이지 않는데 상대보다 먼저 도착하는 선수였다. 느슨한 리듬으로 수비수의 발을 멈추게 한 뒤, 마지막 40미터에서 왼발 한 번으로 패스 두 번을 대신했다. 그의 프리킥은 공이 벽을 넘은 뒤 갑자기 떨어지는 궤적으로 유명했고, 이스라엘 대표팀 감독은 패배 뒤 “신의 왼발이 우리를 이겼다”고 말했다.
 
@@ -143,7 +143,7 @@ featured: false
 
 ### 10. 자이르 다코스타｜오른쪽 윙어
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/jair-da-costa.webp" alt="자이르 다코스타 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>RW · RIGHT WINGER</span><h4>자이르 다코스타</h4><small lang="pt-BR">Jair da Costa</small><dl><div><dt>국적</dt><dd>브라질</dd></div><div><dt>인터 소속</dt><dd>1962–1967, 1968–1972</dd></div><div><dt>선정 근거</dt><dd>1965 결승골의 주인공</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/jair-da-costa.webp" alt="자이르 다코스타 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>RW · RIGHT WINGER</span><h4>자이르 다코스타</h4><small lang="pt-BR">Jair da Costa</small><dl><div><dt>국적</dt><dd>브라질</dd></div><div><dt>인테르 소속</dt><dd>1962–1967, 1968–1972</dd></div><div><dt>선정 근거</dt><dd>1965 결승골의 주인공</dd></div></dl></div></article>
 
 자이르 다코스타<span class="foreign-note" lang="pt-BR">(Jair da Costa; 브라질 축구선수·오른쪽 윙어, 1940–)</span>는 그란데 인테르의 오른쪽을 길게 찢었다. 큰 보폭으로 공간을 삼키면서도 공을 다루는 발은 부드러웠고, 수비수가 자세를 고쳐 잡기 전에 슈팅이나 크로스가 나왔다. 왼쪽의 코르소가 시간을 비틀었다면 오른쪽의 자이르는 상대에게 생각할 시간을 주지 않았다.
 
@@ -151,11 +151,11 @@ featured: false
 
 ### 11. 아우렐리오 밀라니｜센터 포워드
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/aurelio-milani.webp" alt="아우렐리오 밀라니 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CF · CENTRE FORWARD</span><h4>아우렐리오 밀라니</h4><small lang="it">Aurelio Milani</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인터 소속</dt><dd>1963–1965</dd></div><div><dt>선정 근거</dt><dd>1964 결승의 중앙 공격수</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/aurelio-milani.webp" alt="아우렐리오 밀라니 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CF · CENTRE FORWARD</span><h4>아우렐리오 밀라니</h4><small lang="it">Aurelio Milani</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1963–1965</dd></div><div><dt>선정 근거</dt><dd>1964 결승의 중앙 공격수</dd></div></dl></div></article>
 
 안젤로 도멩기니·레나토 카펠리니·로베르토 보닌세냐처럼 더 오래 활약한 공격수도 있다. 그래도 마지막 자리는 아우렐리오 밀라니<span class="foreign-note" lang="it">(Aurelio Milani; 이탈리아 축구선수·센터 포워드, 1934–2014)</span>에게 줬다. 베스트 11을 누적 경기 수로만 고르면 나오기 어려운 이름이다. 하지만 밀라니는 강한 체격으로 중앙 수비수를 붙잡아 두고, 마촐라와 두 윙어가 파고들 통로를 몸으로 만들었다.
 
-1964년 결승에서는 마촐라의 선제골 뒤 두 번째 골을 넣어 레알 마드리드의 추격을 더 어렵게 만들었다. 같은 해 인터컨티넨탈컵에서도 CA 인데펜디엔테<span class="foreign-note" lang="es">(Club Atlético Independiente; 아르헨티나 아베야네다를 연고로 하는 축구단)</span>를 상대로 득점했다. 척추 부상으로 전성기는 너무 일찍 끝났다. 그래서 그의 기록은 길지 않지만 장면은 크다. 그란데 인테르가 처음 유럽과 세계의 정상에 오르던 순간, 상대 센터백 사이에서 길을 열고 있던 중앙 공격수가 밀라니였다.
+1964년 결승에서는 마촐라의 선제골 뒤 두 번째 골을 넣어 레알 마드리드의 추격을 더 어렵게 만들었다. 같은 해 인테르컨티넨탈컵에서도 CA 인데펜디엔테<span class="foreign-note" lang="es">(Club Atlético Independiente; 아르헨티나 아베야네다를 연고로 하는 축구단)</span>를 상대로 득점했다. 척추 부상으로 전성기는 너무 일찍 끝났다. 그래서 그의 기록은 길지 않지만 장면은 크다. 그란데 인테르가 처음 유럽과 세계의 정상에 오르던 순간, 상대 센터백 사이에서 길을 열고 있던 중앙 공격수가 밀라니였다.
 
 ## 베스트 11 밖의 후보들
 
