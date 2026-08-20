@@ -54,7 +54,6 @@ let articleView:
       entry: CollectionEntry<'articles'>;
       meta: (typeof categories)[string];
       Content: Awaited<ReturnType<typeof render>>['Content'];
-      readingMinutes: number;
       related: CollectionEntry<'articles'>[];
       relatedAssets: Array<{ href: string; title: string; description: string; label: string; coverImage?: string }>;
       faqSchema: object | null;
@@ -81,13 +80,6 @@ if (props.kind === 'category') {
   const { category, faq } = entry.data;
   const meta = categories[category];
   const { Content } = await render(entry);
-  const readableText = (entry.body ?? '')
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/https?:\/\/\S+/g, ' ')
-    .replace(/[#*_`>\[\](){}|-]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-  const readingMinutes = Math.max(1, Math.round(readableText.length / 500));
   const related = (
     await getCollection(
       'articles',
@@ -122,7 +114,7 @@ if (props.kind === 'category') {
           })),
         }
       : null;
-  articleView = { entry, meta, Content, readingMinutes, related, relatedAssets, faqSchema };
+  articleView = { entry, meta, Content, related, relatedAssets, faqSchema };
 }
 ---
 
@@ -206,7 +198,6 @@ if (props.kind === 'category') {
           <ArticleByline
             pubDate={articleView.entry.data.pubDate}
             updatedDate={articleView.entry.data.updatedDate}
-            readingMinutes={articleView.readingMinutes}
           />
         </div>
         {articleView.entry.data.coverImage && (

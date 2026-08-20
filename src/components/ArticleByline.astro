@@ -2,10 +2,9 @@
 interface Props {
   pubDate: Date;
   updatedDate?: Date;
-  readingMinutes?: number;
 }
 
-const { pubDate, updatedDate, readingMinutes } = Astro.props;
+const { pubDate, updatedDate } = Astro.props;
 const formatDate = (date: Date) => date.toLocaleDateString('ko-KR');
 ---
 
@@ -17,12 +16,6 @@ const formatDate = (date: Date) => date.toLocaleDateString('ko-KR');
     <>
       <span aria-hidden="true">·</span>
       <span>업데이트 <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time></span>
-    </>
-  )}
-  {readingMinutes && (
-    <>
-      <span aria-hidden="true">·</span>
-      <span>{readingMinutes}분 읽기</span>
     </>
   )}
   <span aria-hidden="true">·</span>
