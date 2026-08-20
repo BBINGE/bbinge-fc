@@ -124,22 +124,8 @@ relatedGroup: 'fifa-world-cup-1950'
 
 20만 명이 기다린 결말을 단 한 사람이 바꿨다. 그래서 이 경기는 브라질의 비극인 동시에, 축구가 미리 정해진 대관식을 거부한 날이기도 하다.
 
-<figure class="ghiggia-quote-finale" aria-label="알시데스 기지아의 마라카낭 회고">
-  <div class="ghiggia-quote-copy">
-    <p class="ghiggia-quote-kicker">THE MAN WHO SILENCED MARACANÃ</p>
-    <div class="ghiggia-quote-language ghiggia-quote-original">
-      <span class="ghiggia-quote-label">원문</span>
-      <blockquote lang="es">“Solo tres personas fueron capaces de silenciar Maracaná: el Papa, Frank Sinatra y yo.”</blockquote>
-    </div>
-    <div class="ghiggia-quote-language ghiggia-quote-translation">
-      <span class="ghiggia-quote-label">번역문</span>
-      <blockquote>“마라카낭을 침묵시킨 사람은 단 세 명뿐이다. 프랭크 시나트라, 교황, 그리고 나.”</blockquote>
-    </div>
-    <figcaption>알시데스 기지아 · 우루과이 · 1950</figcaption>
-  </div>
-  <div class="ghiggia-quote-portrait" aria-hidden="true">
-    <img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="" loading="lazy" decoding="async" />
-  </div>
+<figure class="ghiggia-quote-image">
+  <img src="/images/highlights/1950-ghiggia-quote-banner.webp" alt="알시데스 기지아가 월드컵 트로피를 바라보는 사진과 마라카낭을 침묵시킨 세 사람에 관한 스페인어 원문 및 한국어 번역문" width="1500" height="600" loading="lazy" decoding="async" />
 </figure>
 
 <div class="source-notes">
