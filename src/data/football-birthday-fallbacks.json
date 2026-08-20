@@ -24,6 +24,12 @@
       "birthYear": 1983,
       "wikidataUrl": "http://www.wikidata.org/entity/Q184261",
       "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yuri%20Zhirkov%20Anzhi%202011.jpg?width=700"
+    },
+    "08-21": {
+      "name": "로베르트 레반도프스키",
+      "birthYear": 1988,
+      "wikidataUrl": "http://www.wikidata.org/entity/Q151269",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Robert%20Lewandowski%202018%2C%20JAP-POL%20%28cropped%29.jpg?width=700"
     }
   }
 }
