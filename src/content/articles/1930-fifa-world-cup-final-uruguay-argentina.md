@@ -106,7 +106,7 @@ relatedGroup: 'fifa-world-cup-1930'
   <p>카스트로는 어린 시절 사고로 오른팔의 일부를 잃어 ‘엘 만코<span class="foreign-note" lang="es">(El Manco; 외팔이)</span>’라고 불렸다. 그는 페루와의 첫 경기에서 우루과이의 월드컵 첫 골을 넣었고, 결승에서는 대회의 마지막 골을 넣었다. 우루과이의 첫 월드컵은 카스트로의 골로 시작해 카스트로의 골로 끝났다.</p>
 </section>
 
-<div class="world-cup-transition full-time-poster" aria-label="경기 종료, 우루과이 초대 월드컵 우승">
+<div class="world-cup-transition full-time-poster poster-1930" aria-label="경기 종료, 우루과이 초대 월드컵 우승">
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>30 JULY 1930</span><b>ESTADIO CENTENARIO</b></div>
   <div class="poster-copy"><small>FULL TIME · URUGUAY 4–2 ARGENTINA</small><strong>첫 번째<br />세계 챔피언</strong><p>URUGUAY · THE FIRST WORLD CHAMPIONS</p></div>

@@ -94,7 +94,7 @@ relatedGroup: 'fifa-world-cup-1938'
   <p>첫 번째 피올라의 골이 이탈리아를 다시 앞세웠다면, 두 번째 골은 헝가리의 추격을 끝냈다. 남은 시간은 8분. 점수는 더 움직이지 않았고 이탈리아는 1934년에 이어 다시 세계 정상에 섰다.</p>
 </section>
 
-<div class="world-cup-transition full-time-poster poster-1934" aria-label="경기 종료, 이탈리아 1938 월드컵 우승">
+<div class="world-cup-transition full-time-poster poster-1934 poster-1938" aria-label="경기 종료, 이탈리아 1938 월드컵 우승">
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>19 JUNE 1938</span><b>STADE OLYMPIQUE · COLOMBES</b></div>
   <div class="poster-copy"><small>FULL TIME · ITALY 4–2 HUNGARY</small><strong>두 대회를 잇는<br />세계 챔피언</strong><p>ITALY · BACK-TO-BACK WORLD CHAMPIONS</p></div>
