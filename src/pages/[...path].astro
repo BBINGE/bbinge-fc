@@ -66,13 +66,16 @@ if (props.kind === 'category') {
   const meta = categories[categorySlug];
   const children = getChildren(categorySlug);
   const publishedArticles = await getCollection('articles', ({ data }) => !data.draft);
+  const hasPublishedContent = (slug: string) =>
+    publishedArticles.some(({ data }) =>
+      getAncestorChain(data.category).some(({ slug: ancestorSlug }) => ancestorSlug === slug)
+    );
   const articles = publishedArticles
     .filter(({ data }) => getAncestorChain(data.category).some(({ slug }) => slug === categorySlug))
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
-  const hasContent = publishedArticles.some(({ data }) =>
-    getAncestorChain(data.category).some(({ slug }) => slug === categorySlug)
-  );
-  categoryView = { categorySlug, meta, children, articles, hasContent };
+  const hasContent = hasPublishedContent(categorySlug);
+  const visibleChildren = children.filter(({ slug }) => hasPublishedContent(slug));
+  categoryView = { categorySlug, meta, children: visibleChildren, articles, hasContent };
 } else {
   const { entry } = props;
   const { category, faq } = entry.data;
@@ -128,6 +131,7 @@ if (props.kind === 'category') {
     title={categoryView.meta.pageTitle ?? categoryView.meta.label}
     description={`${categoryView.meta.fullLabel} — ${site.name}`}
     robots={categoryView.hasContent ? 'index,follow,max-image-preview:large' : 'noindex,follow'}
+    adsEligible={categoryView.hasContent}
     breadcrumbs={[
       { label: '홈', href: '/' },
       ...getAncestorChain(categoryView.categorySlug).map((category) => ({

@@ -40,6 +40,7 @@ if (!nodes || !counts) {
     {nodes.map((node) => {
       const hasChildren = node.children.length > 0;
       const count = counts![node.slug] ?? 0;
+      if (count === 0) return null;
       const isActive = node.slug === activeSlug;
       const row = (
         <div class="bbfc-cat-row">

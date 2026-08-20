@@ -1,15 +1,16 @@
 ---
-import { getAncestorChain, getTopLevel } from '../config/categories';
+import { countByNode, getAncestorChain, getTopLevel } from '../config/categories';
 import CategorySidebar from './CategorySidebar.astro';
 import { getCollection } from 'astro:content';
 import { isRecentlyChanged } from '../utils/freshness';
 
 const currentPath = Astro.url.pathname;
-const topCategories = getTopLevel();
 const [articles, archiveRecords] = await Promise.all([
   getCollection('articles', ({ data }) => !data.draft),
   getCollection('archive', ({ data }) => !data.draft),
 ]);
+const categoryCounts = countByNode(articles.map((article) => article.data.category));
+const topCategories = getTopLevel().filter(({ slug }) => (categoryCounts[slug] ?? 0) > 0);
 const freshTopCategories = new Set(
   articles
     .filter((article) => isRecentlyChanged(article.data.pubDate, article.data.updatedDate))
