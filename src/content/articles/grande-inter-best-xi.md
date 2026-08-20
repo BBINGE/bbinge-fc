@@ -163,9 +163,37 @@ featured: false
 
 ## 한 경기의 선발표가 왕조의 얼굴이 되다
 
-이 조합의 인상적인 점은 ‘역대 최고의 이름’을 자리에 끼워 맞춘 결과가 아니라는 데 있다. 피키와 과르네리, 파케티와 부르니치의 역할이 다르고, 타그닌이 지워야 할 선수가 있으며, 수아레스가 공을 받아야 마촐라와 두 윙어가 움직일 수 있다. 밀라니는 그 움직임이 골문 앞에서 흩어지지 않도록 중앙을 점유한다.
+먼저 숫자 하나부터 바로잡아야 한다. 1964년의 인테르가 레알 마드리드의 ‘유러피언컵 6연패’를 저지한 것은 아니다. 레알 마드리드는 1956년부터 1960년까지 초대 대회 5연패를 달성했지만, 이후 우승은 SL 벤피카와 AC 밀란으로 넘어갔다. 빈에서 노린 것은 연속 여섯 번째가 아니라 **구단 통산 여섯 번째 유러피언컵**이었다.
 
-그래서 1964년 빈의 선발표와 정확히 겹친다는 사실이 우연처럼 느껴지지 않는다. 레알 마드리드의 유러피언컵 6연패를 저지하고, 이듬해 벤피카까지 꺾은 팀. 그란데 인테르의 베스트 11은 결국 왕조가 처음 자기 이름을 유럽에 새긴 밤의 열한 명으로 완성된다.
+그래도 상대의 무게가 가벼워지는 것은 아니다. 레알의 선발에는 이미 유럽을 다섯 번 제패한 알프레도 디스테파노와 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인 축구선수·왼쪽 윙어, 1933–2022)</span>, 네 차례 우승을 함께한 페렌츠 푸슈카시가 있었다. 인테르는 이 무대가 처음이었다. 한쪽에는 유러피언컵의 역사를 만든 팀이 섰고, 다른 한쪽에는 이제 자기 역사를 시작하려는 팀이 섰다.
+
+<div class="custom-xi-final-dossier" aria-label="1964년 유러피언컵 결승 인테르 대 레알 마드리드 기록">
+  <figure>
+    <img src="/images/squads/grande-inter-best-xi/formation.webp" alt="1964년 유러피언컵 결승 선발과 일치하는 그란데 인테르 베스트 11 포메이션" loading="lazy" width="773" height="773" />
+    <figcaption>시대 전체를 놓고 선정한 베스트 11을 1964년 빈의 공식 선발표와 대조하자 열한 자리가 모두 일치했다.</figcaption>
+  </figure>
+  <section>
+    <span>EUROPEAN CUP FINAL · 27 MAY 1964</span>
+    <small>PRATERSTADION · WIEN</small>
+    <div class="custom-xi-final-score"><b>인테르</b><strong>3–1</strong><b>레알 마드리드</b></div>
+    <ol>
+      <li><time>43′</time><b>산드로 마촐라</b><em>오른발 중거리 선제골</em></li>
+      <li><time>60′</time><b>아우렐리오 밀라니</b><em>낮은 오른발 슈팅</em></li>
+      <li class="is-opponent"><time>70′</time><b>펠로</b><em>레알 마드리드 추격골</em></li>
+      <li><time>76′</time><b>산드로 마촐라</b><em>왕조의 시작을 확정한 쐐기골</em></li>
+    </ol>
+  </section>
+</div>
+
+경기 전부터 계획이 흔들릴 뻔했다. 사르티가 워밍업 도중 강한 충격을 받아 통증을 호소했고, 후보 골키퍼 오타비오 부가티<span class="foreign-note" lang="it">(Ottavio Bugatti; 이탈리아 축구선수·골키퍼, 1928–2016)</span>가 대신 나갈 준비를 했다. 그러나 사르티는 이를 악물고 출전했다. 그 앞에서는 타그닌이 디스테파노를 따라다니며 레알 공격의 첫 문장을 지웠다.
+
+전반 43분 마촐라의 오른발 중거리 슈팅이 먼저 골문을 열었다. 후반 60분에는 밀라니가 두 번째 골을 낮게 밀어 넣었다. 레알이 펠로의 골로 2-1까지 따라왔을 때에는 골대와 피키의 골라인 수비가 인테르를 지켰다. 그리고 76분, 마촐라가 다시 득점했다. 결승전 두 골. 아버지 발렌티노의 이름을 등에 지고 살아온 스물한 살의 아들이 인테르의 첫 유럽 왕조를 자기 발로 열었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+
+이제 포메이션 이미지를 다시 보면 선수 이름이 아니라 역할이 보인다. 타그닌은 디스테파노를 지우기 위해 존재했고, 그 덕분에 수아레스는 공을 앞으로 보내는 일에 집중했다. 파케티가 왼쪽에서 높이를 올리면 부르니치가 반대편 균형을 잡았다. 피키는 그 뒤를 읽었고, 밀라니가 중앙 수비수를 붙들어 놓은 사이 마촐라와 두 윙어가 서로 다른 속도로 달렸다. 이 열한 명은 유명한 선수를 순서대로 세운 명단이 아니라, 한 경기 안에서 서로의 약점을 없애준 조합이었다.
+
+이듬해 벤피카와의 결승에는 두 자리만 바뀌었다. 타그닌의 대인 방어 임무는 잔프랑코 베딘이 이어받아 에우제비우를 추적했고, 최전방에는 밀라니 대신 호아킨 페이로<span class="foreign-note" lang="es">(Joaquín Peiró; 스페인 축구선수·공격수, 1936–2020)</span>가 섰다. 같은 열한 명이 그대로 2연패한 것은 아니지만, 피키·파케티·부르니치·수아레스·마촐라·코르소·자이르로 이어지는 왕조의 척추는 남아 있었다.
+
+그래서 베스트 11과 1964년 빈의 선발표가 정확히 겹친다는 사실은 이제 단순한 우연처럼 보이지 않는다. 시대 전체를 설명하려고 한 자리씩 역할을 맞추다 보니, 결국 왕조가 처음 자기 이름을 유럽에 새긴 밤의 팀 시트로 돌아온 것이다. **그날의 선발표는 오래된 경기 기록이 아니라 그란데 인테르가 어떻게 승리했는지를 보여주는 설계도였다.**
 
 <div class="source-notes">
 
@@ -186,8 +214,28 @@ featured: false
   .article-body h3:has(+ .custom-xi-player) { margin-top: 6.75rem; margin-bottom: 1.7rem; }
   .article-body .custom-xi-player { margin-top: 0; margin-bottom: 2.65rem; }
   .article-body .custom-xi-player + p { margin-top: 0; }
+  .custom-xi-final-dossier { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 1px; margin: 2.8rem 0 3.2rem; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); background: var(--bbfc-border); }
+  .custom-xi-final-dossier figure { margin: 0; padding: 1.25rem; background: #07182f; }
+  .custom-xi-final-dossier figure img { width: 100%; border-radius: calc(var(--bbfc-radius) - 4px); }
+  .custom-xi-final-dossier figcaption { margin-top: .9rem; color: #b9cae2; font-size: .82rem; line-height: 1.65; }
+  .custom-xi-final-dossier > section { padding: 2rem; background: #f5f9ff; }
+  .custom-xi-final-dossier > section > span { display: block; color: var(--bbfc-blue); font-size: .72rem; font-weight: 800; letter-spacing: .12em; }
+  .custom-xi-final-dossier > section > small { display: block; margin-top: .45rem; color: var(--bbfc-gray-1); font-size: .78rem; letter-spacing: .08em; }
+  .custom-xi-final-score { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center; margin: 1.6rem 0; padding: 1.3rem 0; border-top: 1px solid var(--bbfc-border); border-bottom: 1px solid var(--bbfc-border); text-align: center; }
+  .custom-xi-final-score b { font-size: 1rem; line-height: 1.35; }
+  .custom-xi-final-score strong { color: var(--bbfc-blue-strong); font-size: 2.2rem; line-height: 1; letter-spacing: -.06em; }
+  .custom-xi-final-dossier ol { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
+  .custom-xi-final-dossier li { display: grid; grid-template-columns: 2.6rem minmax(0, .8fr) minmax(0, 1.2fr); gap: .75rem; align-items: baseline; margin: 0; padding: .7rem .8rem; background: #fff; border-left: 3px solid var(--bbfc-blue); }
+  .custom-xi-final-dossier li.is-opponent { border-left-color: #c7ced8; }
+  .custom-xi-final-dossier time { color: var(--bbfc-blue-strong); font-size: .83rem; font-weight: 800; }
+  .custom-xi-final-dossier li b { font-size: .9rem; }
+  .custom-xi-final-dossier li em { color: var(--bbfc-gray-1); font-size: .8rem; font-style: normal; line-height: 1.45; }
   @media (max-width: 767px) {
     .article-body h3:has(+ .custom-xi-player) { margin-top: 5rem; margin-bottom: 1.35rem; }
     .article-body .custom-xi-player { margin-bottom: 2.2rem; }
+    .custom-xi-final-dossier { grid-template-columns: 1fr; }
+    .custom-xi-final-dossier > section { padding: 1.25rem; }
+    .custom-xi-final-dossier li { grid-template-columns: 2.4rem 1fr; }
+    .custom-xi-final-dossier li em { grid-column: 2; }
   }
 </style>
