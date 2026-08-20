@@ -25,6 +25,8 @@ featured: false
 
 <aside class="history-thesis"><span>THE QUESTION OF NARRATIVE POWER</span><strong>축구를 누가 처음 가져왔는가보다,<br>누가 그 역사를 말할 권리를 가졌는가.</strong><p>이 글은 영국의 기여를 지우지 않는다. 다만 ‘전파한 사람’의 기록만으로 ‘살아 낸 사람’의 역사를 대신할 수 있는지 묻는다.</p></aside>
 
+<section class="history-argument" aria-labelledby="argument-map-title"><header><span>ARGUMENT MAP</span><h3 id="argument-map-title">통설을 사실이 아니라 검증할 가설로 되돌리기</h3><p>브라운의 비판은 결론을 뒤집는 작업이 아니라, 결론에 이르는 증거의 사슬을 다시 확인하는 작업이다.</p></header><div class="history-argument__labels" aria-hidden="true"><b>반복된 통설</b><b>논문이 제기한 문제</b><b>추가로 필요한 증거</b></div><article><strong>영국 제국이 축구를 전파했다</strong><p>교역망의 존재와 계획된 문화정책 사이의 인과가 입증되지 않았다.</p><em>행정 문서·기업 기록·정책 주체의 의도</em></article><article><strong>허튼과 밀러가 축구를 시작했다</strong><p>공식 제도의 기록이 제도 밖에서 열린 경기의 부재를 증명하지 않는다.</p><em>현지어 신문·비공식 팀·학교 밖 경기</em></article><article><strong>두 나라의 사례가 남미를 대표한다</strong><p>브라질과 아르헨티나의 개척자 서사가 대륙 전체로 확대됐다.</p><em>우루과이·칠레·페루 등 지역 비교</em></article></section><p class="history-block-cite"><a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
+
 ## 1. ‘축구의 아버지’는 어떻게 만들어졌나
 
 아르헨티나에는 알렉산더 왓슨 허튼<span class="foreign-note" lang="en">(Alexander Watson Hutton; 아르헨티나 축구 제도화에 관여한 스코틀랜드 출신 교육자)</span>, 브라질에는 찰스 윌리엄 밀러<span class="foreign-note" lang="en">(Charles William Miller; 상파울루 태생의 브라질 축구 개척자)</span>가 있다. 허튼은 부에노스아이레스 잉글리시 하이스쿨<span class="foreign-note" lang="en">(Buenos Aires English High School; 허튼이 운영한 영어계 학교)</span>을 운영했고, 1893년 아르헨타인 어소시에이션 풋볼 리그<span class="foreign-note" lang="en">(The Argentine Association Football League; 오늘날 아르헨티나축구협회의 제도적 전신)</span> 창설을 주도했다. 밀러는 잉글랜드 유학을 마치고 1894년 상파울루로 돌아와 공과 규칙서를 소개했으며, 상파울루 애슬레틱 클럽<span class="foreign-note" lang="en">(São Paulo Athletic Club; SPAC, 밀러가 활동한 상파울루의 종합 스포츠클럽)</span>에서 경기 조직과 리그 형성에 관여했다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a><a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
@@ -34,11 +36,15 @@ featured: false
 <figure><img src="/images/history/british-centered-football-history/charles-miller.webp" alt="찰스 윌리엄 밀러의 초상" loading="lazy" width="432" height="640"><figcaption>찰스 윌리엄 밀러. 브라질 축구사의 대표적인 개척자로 기억된다.</figcaption></figure>
 </div>
 
+<section class="history-network" aria-labelledby="network-title"><header><span>ACTOR NETWORK</span><h3 id="network-title">한 명의 아버지가 아니라, 서로 연결된 도시의 행위자들</h3></header><div class="history-network__map"><div><strong>교육자·클럽 운영자</strong><p>규칙과 정기 경기를 제도화했다.</p></div><div><strong>철도·항구·우편</strong><p>사람과 장비, 결과표의 이동을 가능하게 했다.</p></div><div class="is-center"><strong>도시의 축구 문화</strong><p>여러 집단의 이해와 즐거움이 만난 결과</p></div><div><strong>학생·노동자·이민자</strong><p>경기의 참여 범위와 대표 대상을 넓혔다.</p></div><div><strong>신문·사진·회고록</strong><p>어떤 경험이 역사로 남을지를 결정했다.</p></div></div></section>
+
 두 사람의 제도적 공헌은 구체적이며 부정할 이유가 없다. 문제는 이들이 ‘중요한 행위자’에서 ‘한 나라 축구의 유일한 아버지’로 바뀌는 서사적 도약이다. 제도 설립의 기록이 남았다는 사실은 그 제도 밖에서 공을 찬 사람들의 부재를 증명하지 않는다. 최초의 공식 경기와 최초의 실제 경기도 반드시 일치하지 않는다.
 
 초기 기록을 남긴 언어가 영어였고, 클럽의 회의록과 신문, 회고록을 생산하고 보존한 집단도 주로 영국계 공동체였다. 선수와 경기 조직자가 기사를 쓰고, 그 기사가 훗날 역사가의 1차 자료가 됐다. 브라운의 표현을 빌리면 이들은 경기의 주인공이면서 동시에 최초의 역사가였다. 자기 경험을 기록할 수 있었던 집단의 시야가 도시 전체의 경험으로 확대된 셈이다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 이 과정에서 설명하기 쉬운 한 명의 영웅은 복잡한 도시사보다 오래 살아남았다. 허튼과 밀러의 전기는 제도화의 일부를 선명하게 보여주지만, 그 선명함을 남미 축구 전체의 기원으로 확장해서는 안 된다. 영국인 개척자의 존재를 확인한 뒤 현지인, 다른 이민자 공동체, 기존 스포츠와 놀이, 지역마다 달랐던 수용 과정을 별도의 자료로 검토해야 한다.
+
+<aside class="history-takeaway"><span>이 대목이 바꾸는 것</span><p>허튼과 밀러의 공헌을 인정하는 일과 그들을 한 나라 축구의 유일한 기원으로 선언하는 일은 다르다.</p></aside>
 
 <figure class="history-wide"><img src="/images/history/british-centered-football-history/matthew-brown.webp" alt="매슈 브라운 연구자의 모습" loading="lazy" width="773" height="464"><figcaption>매슈 브라운은 남미 스포츠사가 영국의 전파사로 축소되는 과정을 자료와 서술의 문제로 되짚었다.</figcaption></figure>
 
@@ -51,6 +57,8 @@ featured: false
 브라운은 자신의 저서 《남미의 스포츠: 하나의 역사》<span class="foreign-note" lang="en">(Sports in South America: A History; 매슈 브라운이 2023년에 펴낸 남미 스포츠 통사)</span>에서 축구를 남미 스포츠의 출발점이 아니라 **상대적으로 늦게 등장해 기존 스포츠 문화를 흡수한 종목**으로 배치한다. 축구가 압도적인 대중성을 얻은 것은 그것이 최초여서가 아니다. 1920–1930년대 도시화와 대중 언론, 학교와 군대, 클럽 조직을 타고 다른 놀이의 관중·공간·대표 기능을 빠르게 끌어안았기 때문이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 이 관점에 서면 질문이 달라진다. ‘누가 공을 가져왔는가’에서 ‘왜 하필 축구가 그토록 빠르게 현지의 삶을 장악했는가’로 이동한다. 답은 영국인의 영향력 하나가 아니라 노동과 여가의 변화, 항구도시의 성장, 이민과 인종 질서, 국가가 원한 시민의 몸, 신문이 만든 영웅을 함께 살펴야 나온다.
+
+<aside class="history-takeaway"><span>이 대목이 바꾸는 것</span><p>축구 이전의 남미는 문화적 공백이 아니었다. 축구의 성공은 최초의 스포츠였기 때문이 아니라 기존의 관중·공간·대표 기능을 흡수했기 때문이다.</p></aside>
 
 ## 3. 항구와 철도, 이민자가 만든 도시의 경기
 
@@ -66,6 +74,10 @@ featured: false
 
 그 결과 리오데라플라타 지역의 짧은 패스와 개인기, 브라질에서 인종의 경계를 밀어낸 선수들의 몸짓, 우루과이가 국가 규모를 뛰어넘어 조직한 대표팀 문화가 나타났다. 이것을 단순히 ‘영국 축구의 남미식 변형’이라고 부르면 변화의 주체를 놓친다. 남미는 축구를 수입한 뒤 장식만 바꾼 것이 아니라, 참여 자격과 관람 방식, 클럽의 대표 범위와 승리의 정치적 의미를 다시 만들었다.
 
+<section class="history-regions" aria-labelledby="regions-title"><header><span>REGIONAL COMPARISON</span><h3 id="regions-title">‘남미’라는 한 단어 안에서도 축구는 다르게 제도화됐다</h3></header><div role="table" aria-label="남미 네 지역의 축구 제도화 비교"><div class="history-regions__head" role="row"><b role="columnheader">지역</b><b role="columnheader">주요 이동 경로</b><b role="columnheader">제도화의 장면</b><b role="columnheader">현지화의 특징</b></div><article role="row"><strong role="cell">아르헨티나</strong><p role="cell">학교·철도·영국계 클럽</p><p role="cell">1893년 정기 리그</p><em role="cell">이민자 도시와 지역 리그</em></article><article role="row"><strong role="cell">브라질</strong><p role="cell">항구·우편·종합 스포츠클럽</p><p role="cell">상파울루의 경기와 리그</p><em role="cell">계급·인종 경계의 재구성</em></article><article role="row"><strong role="cell">우루과이</strong><p role="cell">항구·철도·리오데라플라타 교류</p><p role="cell">대표팀과 국제대회</p><em role="cell">올림픽 성공과 국가 정체성</em></article><article role="row"><strong role="cell">칠레</strong><p role="cell">발파라이소 항구·학교</p><p role="cell">도시별 협회의 경쟁</p><em role="cell">발파라이소와 산티아고의 분화</em></article></div><p class="history-block-cite"><a class="cite" href="#source-3" aria-label="출처 3">[3]</a><a class="cite" href="#source-7" aria-label="출처 7">[7]</a><a class="cite" href="#source-8" aria-label="출처 8">[8]</a></p></section>
+
+<aside class="history-takeaway"><span>이 대목이 바꾸는 것</span><p>교통망은 축구의 이동 조건을 만들었지만, 그 경기가 누구를 대표하고 어떤 의미를 가질지는 각 도시의 주민이 결정했다.</p></aside>
+
 ## 4. 문명화의 도구가 국가의 얼굴이 되다
 
 엘리트와 국가가 스포츠를 바라본 시선도 중요하다. 규율 있는 신체, 정해진 시간, 심판의 권위, 팀을 위한 희생은 근대 국가가 시민에게 기대한 가치와 잘 맞았다. 도밍고 파우스티노 사르미엔토<span class="foreign-note" lang="es">(Domingo Faustino Sarmiento; 아르헨티나 대통령을 지낸 교육사상가)</span>가 제시한 ‘문명과 야만’<span class="foreign-note" lang="es">(civilización y barbarie; 유럽적 근대와 토착적 전통을 대립시킨 담론)</span>의 이분법처럼, 19세기 남미 자유주의 엘리트는 유럽식 교육과 신체 규율을 국가의 진보와 연결했다. 학교와 군대, 체육 단체는 스포츠를 건강·질서·국방·애국심의 도구로 사용했다.
@@ -78,7 +90,9 @@ featured: false
 
 1922년 히우지자네이루에서는 브라질 독립 100주년을 계기로 라틴아메리카 경기대회<span class="foreign-note" lang="pt-BR">(Jogos Olímpicos Latino-Americanos; 브라질이 주최한 라틴아메리카 종합경기대회)</span>가 열렸다. 이 대회들은 유럽 대회의 단순한 모방이 아니라 국가 기념일, 도시 기반시설, 외교와 대중 동원을 하나로 묶는 지역적 실험이었다. 스포츠는 이미 국가 간 경쟁과 남미 지역주의가 교차하는 정치적 무대였다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a><a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-<div class="history-timeline" aria-label="남미 축구 세계화 연표"><div><time>1910</time><strong>부에노스아이레스의 시험 대회</strong><p>아르헨티나 5월 혁명 100주년. 남미 국가대항전의 가능성을 확인했다.</p></div><div><time>1916</time><strong>첫 공식 남미선수권</strong><p>아르헨티나 독립선언 100주년. 대회 기간 남미축구연맹이 창설됐다.</p></div><div><time>1922</time><strong>히우지자네이루의 라틴아메리카 경기대회</strong><p>브라질 독립 100주년. 스포츠와 국가 기념행사가 결합했다.</p></div><div><time>1930</time><strong>몬테비데오의 첫 월드컵</strong><p>우루과이가 남미 축구의 축적을 세계 챔피언이라는 결과로 증명했다.</p></div></div>
+<div class="history-timeline" aria-label="남미 축구 세계화 연표"><div><time>1910</time><strong>부에노스아이레스의 시험 대회</strong><p>아르헨티나 5월 혁명 100주년. 남미 국가대항전의 가능성을 확인했다.</p><em>일회성 기념행사가 국제대회의 실험장이 됐다.</em></div><div><time>1916</time><strong>첫 공식 남미선수권</strong><p>아르헨티나 독립선언 100주년. 대회 기간 남미축구연맹이 창설됐다.</p><em>경쟁이 상설 대륙 제도로 전환됐다.</em></div><div><time>1922</time><strong>히우지자네이루의 라틴아메리카 경기대회</strong><p>브라질 독립 100주년. 스포츠와 국가 기념행사가 결합했다.</p><em>국가 기억·외교·도시 행사가 한 무대에 놓였다.</em></div><div><time>1930</time><strong>몬테비데오의 첫 월드컵</strong><p>우루과이가 남미 축구의 축적을 세계 챔피언이라는 결과로 증명했다.</p><em>남미가 참가자를 넘어 세계대회의 주최자로 등장했다.</em></div></div>
+
+<aside class="history-takeaway"><span>이 대목이 바꾸는 것</span><p>남미는 유럽이 만든 국제 축구에 뒤늦게 합류한 지역이 아니라, 국가대항전과 대륙연맹의 가능성을 일찍 제도화한 지역이었다.</p></aside>
 
 ## 5. 공보다 먼저 국경을 넘은 것은 정보였다
 
@@ -86,7 +100,11 @@ featured: false
 
 이때 자료의 ‘생존 편향’이 발생한다. 영국계 클럽은 상대적으로 문서화된 회의록과 영문 언론을 남겼고, 노동자·비백인·비공식 팀의 경기는 파편적으로만 기록됐다. 오늘날 연구자가 접근하기 쉬운 자료가 당시 가장 중요한 현실이었다고 착각하기 쉬운 구조다. 기록의 양은 영향력의 크기를 보여주는 지표일 수 있지만, 그 자체로 유일한 기원을 증명하지는 않는다.
 
+<section class="history-archive" aria-labelledby="archive-title"><header><span>SOURCE SURVIVAL</span><h3 id="archive-title">경기의 영향력보다 기록의 생존력이 역사를 좌우할 때</h3></header><div class="history-archive__lane is-recorded"><strong>기록된 경로</strong><ol><li>영국계 클럽의 공식 경기</li><li>영문 기사와 회의록 생산</li><li>문서와 사진의 보존</li><li>후대 연구가 반복 인용</li><li>공식 기원 서사로 정착</li></ol></div><div class="history-archive__lane is-lost"><strong>주변화된 경로</strong><ol><li>노동자·비공식 팀의 경기</li><li>산발적인 현지어 보도</li><li>클럽 문서의 소실</li><li>연구 자료에서 배제</li><li>역사적 부재로 오인</li></ol></div><p>자료가 적다는 사실은 행위가 없었다는 증거가 아니라, 기록하고 보존할 권력이 달랐다는 신호일 수 있다.</p></section>
+
 그래서 축구사를 다시 쓰는 작업은 유명한 영국인 영웅을 현지 영웅으로 교체하는 데서 끝나지 않는다. 스페인어·포르투갈어 신문, 지역 클럽 문서, 선수와 관중의 구술, 학교·노동·교통·도시의 역사를 교차 검증해야 한다. 자료가 없다는 말이 실제 행위가 없었다는 뜻인지, 기록과 보존의 권력이 없었다는 뜻인지도 구분해야 한다. ‘최초’라는 한 줄보다 서로 다른 사람들이 축구에 부여한 의미의 층위를 복원하는 것이 먼저다.
+
+<aside class="history-takeaway"><span>이 대목이 바꾸는 것</span><p>오늘날 가장 쉽게 찾을 수 있는 자료가 당시 사회에서 가장 넓게 경험된 현실이었다고 단정할 수는 없다.</p></aside>
 
 ## 6. 결승전의 두 공, 하나가 아니었던 축구
 
@@ -97,6 +115,8 @@ featured: false
 공 두 개의 일화는 단순한 기행이 아니다. 같은 규칙 아래에서도 축구는 이미 하나의 중심이 정한 단일한 감각으로 존재하지 않았음을 보여준다. 남미의 두 국가는 유럽이 마련한 무대에 초대된 주변부가 아니었다. 지역 대회를 운영하고, 올림픽에서 경쟁력을 입증하고, 마침내 자국에서 세계대회를 성립시킬 만큼 독자적인 축구 세계를 구축한 주체였다.
 
 첫 월드컵 결승의 두 공은 축구사의 은유처럼 보인다. 규칙은 하나였지만 공의 감촉과 경기의 기억, 그 경기를 자기 것으로 만든 방식은 하나가 아니었다.
+
+<aside class="history-takeaway"><span>이 대목이 바꾸는 것</span><p>1930년의 몬테비데오는 유럽 축구의 복제품을 전시한 장소가 아니라, 남미가 축적한 제도와 외교·경기력을 세계에 제시한 무대였다.</p></aside>
 
 <div class="history-related"><span>함께 읽기</span><a href="/archive/national-team/copa-america/1916-copa-america-isabelino-gradin/">1916 남미선수권과 이사벨리노 그라딘</a><a href="/highlights/fifa-world-cup/1930-fifa-world-cup-final-uruguay-argentina/">1930 월드컵 결승 하이라이트</a><a href="/archive/national-team/fifa-world-cup/1930-fifa-world-cup-best-xi/">1930 FIFA 월드컵 베스트 11</a></div>
 
@@ -111,6 +131,8 @@ featured: false
 결국 중요한 질문은 ‘축구의 진짜 아버지가 누구인가’가 아니다. 그 질문 자체가 복수의 행위자와 장기간의 사회 변화를 한 명의 남성 개척자로 환원하는 방식이기 때문이다. 누가 기록을 남겼고, 누구의 기억은 자료가 되지 못했으며, 어떤 도시의 사례가 대륙 전체를 대표하게 됐는지를 물어야 한다.
 
 이 관점에서 축구의 세계화는 중심에서 주변으로 완성품이 전달된 단선적 과정이 아니다. 규칙은 번역됐고, 제도는 협상됐으며, 경기의 의미는 현지 사회의 계급·인종·지역·국가 관계 속에서 다시 생산됐다. 축구의 역사는 공의 이동만이 아니라 **이야기를 소유할 권리가 이동한 역사**이기도 하다.
+
+<section class="history-synthesis" aria-label="글의 핵심 결론"><article><span>규칙</span><strong>성문화의 역사</strong><p>잉글랜드에서 통일된 경기 규칙의 계보</p></article><article><span>사회</span><strong>수용과 변형의 역사</strong><p>남미의 도시와 공동체가 축구에 의미를 부여한 과정</p></article><article><span>기록</span><strong>서술 권력의 역사</strong><p>누구의 경험이 자료로 남아 세계사의 표준이 됐는가</p></article></section>
 
 <div class="source-notes">
 
@@ -149,4 +171,5 @@ featured: false
 .history-closing{margin:3.5rem 0;padding:2.05rem 1.2rem;border-radius:1.05rem;background:radial-gradient(circle at 80% 20%,rgba(214,170,85,.28),transparent 36%),linear-gradient(135deg,#111,#17150f)}
 .article-body .history-closing p{margin:0;color:#e6b85d!important;font-size:clamp(1.28rem,2.7vw,1.9rem);line-height:1.44;text-shadow:0 1px 18px rgba(230,184,93,.12)}
 @media(max-width:700px){.article-body{font-size:15.5px!important}.article-body>p{margin:1.25rem 0 1.55rem}.article-body>h2{margin-top:3.4rem!important}.history-thesis{margin:2.6rem 0;padding:1.4rem}.history-thesis strong{font-size:1.32rem}.history-closing{padding:1.75rem .85rem}.article-body .history-closing p{font-size:1.22rem}}
+.history-argument,.history-network,.history-regions,.history-archive{margin:3.4rem 0;padding:1.45rem;border:1px solid #d8d5cb;border-radius:1.05rem;background:#fbfaf6}.history-argument header span,.history-network header span,.history-regions header span,.history-archive header span{color:#9b6b1f;font-size:.66rem;font-weight:800;letter-spacing:.14em}.history-argument h3,.history-network h3,.history-regions h3,.history-archive h3{margin:.45rem 0 .55rem;font-size:1.1rem;line-height:1.5}.history-argument header p,.history-network header p,.history-regions header p,.history-archive header p{margin:0;color:#68747a;font-size:.84rem;line-height:1.65}.history-argument__labels,.history-argument article{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:1rem}.history-argument__labels{margin-top:1.25rem;padding:.55rem .75rem;background:#14262d;color:#f3efe4;font-size:.68rem;letter-spacing:.05em}.history-argument article{padding:1rem .75rem;border-bottom:1px solid #dfddd5}.history-argument article:last-child{border-bottom:0}.history-argument article strong{font-size:.88rem;line-height:1.55}.history-argument article p,.history-argument article em{margin:0;font-size:.8rem;line-height:1.6}.history-argument article em{color:#8c651f;font-style:normal}.history-block-cite{margin:.5rem 0 0!important;text-align:right}.history-network__map{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:1.25rem}.history-network__map>div{padding:1rem;border:1px solid #dfddd5;border-radius:.75rem;background:#fff}.history-network__map .is-center{grid-column:1/-1;background:#122a33;color:#f4efe4;text-align:center}.history-network__map strong{font-size:.86rem}.history-network__map p{margin:.35rem 0 0;font-size:.78rem;line-height:1.55;color:#68747a}.history-network__map .is-center p{color:#bfd0d3}.history-takeaway{display:grid;grid-template-columns:8rem 1fr;gap:1rem;align-items:start;margin:2.5rem 0 3.25rem;padding:1rem 1.15rem;border-left:3px solid #c28b2c;background:#f8f4e9}.history-takeaway span{padding-top:.15rem;color:#8f651f;font-size:.66rem;font-weight:800;letter-spacing:.08em}.article-body .history-takeaway p{margin:0;font-size:.86rem;font-weight:650;line-height:1.7}.history-regions [role=table]{margin-top:1.2rem}.history-regions__head,.history-regions article{display:grid;grid-template-columns:.7fr 1.25fr 1.15fr 1.35fr;gap:.75rem;align-items:start}.history-regions__head{padding:.55rem .7rem;background:#14262d;color:#f3efe4;font-size:.67rem}.history-regions article{padding:.85rem .7rem;border-bottom:1px solid #dfddd5}.history-regions article strong{font-size:.84rem}.history-regions article p,.history-regions article em{margin:0;font-size:.76rem;line-height:1.55}.history-regions article em{color:#765a26;font-style:normal}.history-archive{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.history-archive header,.history-archive>p{grid-column:1/-1}.history-archive__lane{padding:1rem;border-radius:.8rem}.history-archive__lane.is-recorded{background:#eaf2ef}.history-archive__lane.is-lost{background:#f1efeb}.history-archive__lane strong{font-size:.82rem}.history-archive__lane ol{margin:.75rem 0 0;padding:0;list-style:none;counter-reset:archive}.history-archive__lane li{position:relative;margin:.45rem 0;padding-left:1.4rem;font-size:.76rem;line-height:1.5;counter-increment:archive}.history-archive__lane li::before{content:counter(archive);position:absolute;left:0;top:.08rem;width:1rem;height:1rem;border-radius:50%;background:#315a58;color:white;font-size:.6rem;line-height:1rem;text-align:center}.history-archive__lane li+li::after{content:"↓";position:absolute;left:.22rem;top:-.55rem;color:#9ba7a3;font-size:.65rem}.article-body .history-archive>p{margin:.3rem 0 0;color:#5d686c;font-size:.79rem;line-height:1.65}.history-timeline div>em{display:block;margin-top:.85rem;padding-top:.7rem;border-top:1px solid #ddd7c9;color:#765a26;font-size:.72rem;font-style:normal;line-height:1.55}.history-synthesis{display:grid;grid-template-columns:repeat(3,1fr);gap:.65rem;margin:3.2rem 0}.history-synthesis article{padding:1.15rem;border-top:3px solid #b3812c;background:#f7f5ef}.history-synthesis span{color:#9b6b1f;font-size:.66rem;font-weight:800;letter-spacing:.1em}.history-synthesis strong{display:block;margin:.4rem 0;font-size:.9rem}.article-body .history-synthesis p{margin:0;color:#68747a;font-size:.76rem;line-height:1.55}@media(max-width:700px){.history-argument,.history-network,.history-regions,.history-archive{margin:2.8rem 0;padding:1.1rem}.history-argument__labels{display:none}.history-argument article{display:block;padding:1rem 0}.history-argument article p{margin:.45rem 0}.history-network__map{grid-template-columns:1fr}.history-network__map .is-center{grid-column:auto;grid-row:1}.history-takeaway{grid-template-columns:1fr;gap:.45rem;margin:2.2rem 0 2.8rem}.history-regions__head{display:none}.history-regions article{grid-template-columns:1fr 1fr;gap:.45rem .75rem;padding:1rem 0}.history-regions article strong{grid-column:1/-1;color:#8f651f}.history-archive{grid-template-columns:1fr}.history-archive header,.history-archive>p{grid-column:auto}.history-synthesis{grid-template-columns:1fr}}
 </style>
