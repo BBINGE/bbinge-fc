@@ -15,7 +15,25 @@ featured: true
 
 <aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 003</span><p>1900년 창단부터 2026년 8월까지의 FC 바이에른 뮌헨을 하나의 역사로 읽었다. 전성기의 크기, 바이언에서 수행한 역할, 시대를 바꾼 영향력과 열한 자리의 조화를 함께 살폈다.</p></aside>
 
-<figure class="bayern-flag"><img src="/images/squads/bayern-munich-all-time-best-xi/top-flag-reference.gif" alt="독일 국기가 펄럭이고 독일 연방 공화국의 기본 정보를 보여주는 삥이의 편집 디자인" width="787" height="851" /><figcaption>독일 국기와 공식 색상에서 출발했던 2025년 네이버 원문의 첫 장면. 편집 디자인: 삥이.</figcaption></figure>
+<section class="bayern-gateway" aria-label="독일에서 푸스발-분데스리가를 거쳐 FC 바이에른 뮌헨으로 이어지는 글의 도입부">
+  <div class="bayern-gateway-country">
+    <span class="germany-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+    <p>독일 연방 공화국</p>
+    <small lang="de">Bundesrepublik Deutschland</small>
+  </div>
+  <span class="bayern-gateway-line" aria-hidden="true"></span>
+  <div class="bayern-gateway-league">
+    <span class="league-mark" aria-hidden="true"><b>B</b></span>
+    <p>푸스발-분데스리가</p>
+    <small lang="de">Fußball-Bundesliga</small>
+  </div>
+  <span class="bayern-gateway-line" aria-hidden="true"></span>
+  <div class="bayern-gateway-club">
+    <img src="/images/clubs/bayern-2017.svg" alt="FC 바이에른 뮌헨 문장" width="150" height="150" />
+    <p>FC 바이에른 뮌헨</p>
+    <small lang="de">Fußball-Club Bayern München eingetragener Verein</small>
+  </div>
+</section>
 
 **독일 연방 공화국**<span class="foreign-note" lang="de">(Bundesrepublik Deutschland; 1949년 수립된 독일의 공식 국호)</span>. 그 동남부에는 바이에른 자유주<span class="foreign-note" lang="de">(Freistaat Bayern; ‘바이에른 자유주’를 뜻하는 공식 명칭)</span>가 있고, 알프스에서 내려온 바람과 이자르강<span class="foreign-note" lang="de">(Isar; 뮌헨을 관통하는 도나우강 수계의 강)</span>이 만나는 곳에 뮌헨<span class="foreign-note" lang="de">(München; 바이에른 자유주의 주도)</span>이 자리한다.
 
@@ -29,7 +47,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 1974년부터 유러피언컵을 세 차례 연속 들어 올린 왕조, 1980년대의 브라이트니게<span class="foreign-note" lang="de">(Breitnigge; 파울 브라이트너와 카를하인츠 루메니게의 성을 합친 별칭)</span>, 1990년대의 ‘FC 할리우드’와 2001년의 극적인 유럽 정상 복귀, 알리안츠 아레나 시대에 완성된 2013년과 2020년의 트레블. 바이언의 연대기는 매번 다른 얼굴을 하고도 같은 질문으로 돌아왔다. 독일에서 가장 강한 팀은 유럽에서도 가장 강할 수 있는가.
 
-<div class="custom-xi-era" aria-label="FC 바이에른 뮌헨 선정 범위"><span>FUSSBALL-CLUB BAYERN MÜNCHEN e. V.</span><strong>1900—2026</strong><p>Die Roten · 붉은 유니폼에 포개진 뮌헨과 독일 축구의 126년</p></div>
+<div class="bayern-era" aria-label="FC 바이에른 뮌헨 선정 범위"><img src="/images/clubs/bayern-2017.svg" alt="" aria-hidden="true" width="180" height="180" /><span>FUSSBALL-CLUB BAYERN MÜNCHEN e. V.</span><strong>1900—2026</strong><p><em lang="de">Die Roten</em> · 붉은 유니폼에 포개진 뮌헨과 독일 축구의 126년</p></div>
 
 ## 열한 자리를 고른 방식
 
@@ -47,7 +65,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 1. 마누엘 노이어｜골키퍼
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-1.webp" alt="마누엘 노이어 골키퍼 디자인 카드" loading="lazy" width="773" height="773" /><div><span>GK · TORWART</span><h4>마누엘 노이어</h4><small lang="de">Manuel Peter Neuer</small><dl><div><dt>별칭</dt><dd>Neuer, die Mauer</dd></div><div><dt>바이언</dt><dd>2011–현재</dd></div><div><dt>선정</dt><dd>골문 밖까지 넓힌 수비 범위</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-1.webp" alt="마누엘 노이어 골키퍼 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 마누엘 노이어<span class="foreign-note" lang="de">(Manuel Peter Neuer; 독일 축구선수·골키퍼, 1986–)</span> 이전에도 골문 밖으로 나오는 수문장은 있었다. 그로시치 줄러와 아마데오 카리소가 오래전에 그 길을 열었고, 레프 야신은 페널티 지역 전체를 지배하는 골키퍼의 권위를 세웠다. 노이어가 바꾼 것은 행동의 존재보다 그 행동이 팀 전술에서 차지하는 비중이었다.
 
@@ -59,7 +77,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 2. 프란츠 베켄바워｜리베로
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-1.webp" alt="프란츠 베켄바워 리베로 디자인 카드" loading="lazy" width="773" height="773" /><div><span>SW · LIBERO</span><h4>프란츠 베켄바워</h4><small lang="de">Franz Anton Beckenbauer</small><dl><div><dt>별칭</dt><dd>Der Kaiser</dd></div><div><dt>바이언</dt><dd>1964–1977</dd></div><div><dt>선정</dt><dd>구단과 독일 축구의 황제</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-1.webp" alt="프란츠 베켄바워 리베로 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Anton Beckenbauer; 독일 축구선수·감독·행정가, 1945–2024)</span>의 바이언 입단기는 뮌헨 축구사의 갈림길로 전해진다. 열세 살의 소년은 원래 TSV 1860 뮌헨을 생각했으나 유소년 경기에서 상대 선수에게 뺨을 맞은 뒤 바이언으로 향했다. 1958년의 작은 충돌이 독일 최대 구단의 운명을 바꾸었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -71,7 +89,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 3. 파울 브라이트너｜왼쪽 풀백
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-1.webp" alt="파울 브라이트너 레프트백 디자인 카드" loading="lazy" width="773" height="773" /><div><span>LB · LINKER VERTEIDIGER</span><h4>파울 브라이트너</h4><small lang="de">Paul Breitner</small><dl><div><dt>별칭</dt><dd>Der Stratege</dd></div><div><dt>바이언</dt><dd>1970–1974, 1978–1983</dd></div><div><dt>선정</dt><dd>측면과 중앙을 잇는 전략가</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-1.webp" alt="파울 브라이트너 레프트백 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 파울 브라이트너<span class="foreign-note" lang="de">(Paul Breitner; 독일 축구선수·수비수·미드필더, 1951–)</span>는 반듯한 영웅상이 품기 어려운 사람이다. 긴 머리와 수염, 체제와 권위를 향한 날 선 발언, 마오쩌둥의 초상 앞에서 찍은 사진이 그를 1970년대 서독의 논쟁 한가운데 세웠다. 그 소란을 걷어내고 경기만 보아도 여전히 평범한 풀백은 남지 않는다.
 
@@ -83,7 +101,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 4. 필리프 람｜오른쪽 풀백
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-1.webp" alt="필리프 람 라이트백 디자인 카드" loading="lazy" width="773" height="773" /><div><span>RB · RECHTER VERTEIDIGER</span><h4>필리프 람</h4><small lang="de">Philipp Lahm</small><dl><div><dt>별칭</dt><dd>Mr. Zuverlässig</dd></div><div><dt>바이언</dt><dd>2002–2017</dd></div><div><dt>선정</dt><dd>오류를 지우는 전술 지능</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-1.webp" alt="필리프 람 라이트백 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 필리프 람<span class="foreign-note" lang="de">(Philipp Lahm; 독일 축구선수·풀백·미드필더, 1983–)</span>의 플레이에는 낭비되는 동작이 드물었다. 상대가 공을 받기 전에 몸의 각도를 정하고, 패스가 도착하면 다음 선택을 위한 공간을 남겨두었다. 작은 체격을 약점으로 만들 장면 자체를 줄였으니, 태클의 힘보다 판단의 선행이 더 또렷하게 보였다.
 
@@ -95,7 +113,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 5. 로타어 마테우스｜중앙 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-1.webp" alt="로타어 마테우스 중앙 미드필더 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CM · ZENTRALES MITTELFELD</span><h4>로타어 마테우스</h4><small lang="de">Lothar Herbert Matthäus</small><dl><div><dt>별칭</dt><dd>Der Leitwolf</dd></div><div><dt>바이언</dt><dd>1984–1988, 1992–2000</dd></div><div><dt>선정</dt><dd>전장을 왕복한 무리의 우두머리</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-1.webp" alt="로타어 마테우스 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 로타어 마테우스<span class="foreign-note" lang="de">(Lothar Herbert Matthäus; 독일 축구선수·미드필더·리베로, 1961–)</span>는 한 경기 안에서 가장 먼 거리를 가장 많은 책임과 함께 이동했다. 상대의 중심을 압박하고 공을 빼앗은 다음 직접 전진했으며, 페널티 지역 앞에서는 양발의 중거리 슈팅을 꺼냈다. 속도와 지구력, 패스와 대인 방어가 한 몸에 모였고, 경기의 온도가 오를수록 존재감도 커졌다.
 
@@ -107,7 +125,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 6. 바스티안 슈바인슈타이거｜중앙 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-4.webp" alt="바스티안 슈바인슈타이거 중앙 미드필더 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CM · ZENTRALES MITTELFELD</span><h4>바스티안 슈바인슈타이거</h4><small lang="de">Bastian Schweinsteiger</small><dl><div><dt>별칭</dt><dd>Fußballgott</dd></div><div><dt>바이언</dt><dd>2002–2015</dd></div><div><dt>선정</dt><dd>패배를 견딘 축구의 신</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-4.webp" alt="바스티안 슈바인슈타이거 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 바스티안 슈바인슈타이거<span class="foreign-note" lang="de">(Bastian Schweinsteiger; 독일 축구선수·중앙 미드필더, 1984–)</span>는 측면의 재기 넘치는 소년으로 1군에 올라왔다. 루이 판할이 그를 중앙으로 옮긴 뒤 바이언의 박동은 31번의 발끝에서 고르게 뛰었다. 수비선 앞에서 공을 받고, 압박을 등진 채 방향을 바꾸며, 전진한 풀백의 빈자리까지 메웠다.
 
@@ -119,7 +137,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 7. 프랑크 리베리｜왼쪽 윙어
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-1.webp" alt="프랑크 리베리 레프트윙 디자인 카드" loading="lazy" width="773" height="773" /><div><span>LW · LINKSAUSSEN</span><h4>프랑크 리베리</h4><small lang="fr">Franck Henry Pierre Ribéry</small><dl><div><dt>별칭</dt><dd>Kaiser Franck</dd></div><div><dt>바이언</dt><dd>2007–2019</dd></div><div><dt>선정</dt><dd>왼쪽에서 피어난 감정의 곡선</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-1.webp" alt="프랑크 리베리 레프트윙 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 프랑크 리베리<span class="foreign-note" lang="fr">(Franck Henry Pierre Ribéry; 프랑스 축구선수·왼쪽 윙어, 1983–)</span>가 2007년 뮌헨에 왔을 때 바이언은 UEFA 챔피언스 리그 출전권조차 놓친 상태였다. 그는 낯선 리그의 적응기를 요구하지 않았다. 낮은 무게중심으로 왼쪽을 파고들고, 수비수의 발이 굳는 순간 안쪽과 바깥쪽 가운데 더 아픈 길을 골랐다. 관중은 첫 시즌부터 그를 ‘카이저 프랑크’라 불렀다.
 
@@ -131,7 +149,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 8. 카를하인츠 루메니게｜오른쪽 공격수
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-1.webp" alt="카를하인츠 루메니게 라이트윙 디자인 카드" loading="lazy" width="773" height="773" /><div><span>RF · RECHTER STÜRMER</span><h4>카를하인츠 루메니게</h4><small lang="de">Karl-Heinz Rummenigge</small><dl><div><dt>별칭</dt><dd>Kalle</dd></div><div><dt>바이언</dt><dd>1974–1984</dd></div><div><dt>선정</dt><dd>왕조 사이를 건넌 공격의 직선</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-1.webp" alt="카를하인츠 루메니게 라이트윙 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 카를하인츠 루메니게<span class="foreign-note" lang="de">(Karl-Heinz Rummenigge; 독일 축구선수·공격수·행정가, 1955–)</span>는 1974년 이름 없는 열여덟 살로 입단했다. 베켄바워와 게르트 뮐러의 왕조가 절정에 있던 시기였으니, 훗날 그는 그 도전을 ‘가미카제 임무’라고 회고했다. 두 번째 시즌부터 주전이 되었고, 선배들이 떠난 뒤에는 팀의 얼굴이 되었다.
 
@@ -143,7 +161,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 9. 토마스 뮐러｜공간 해석가
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-1.webp" alt="토마스 뮐러 세컨드 스트라이커 디자인 카드" loading="lazy" width="773" height="773" /><div><span>SS · RAUMDEUTER</span><h4>토마스 뮐러</h4><small lang="de">Thomas Müller</small><dl><div><dt>역할</dt><dd>Raumdeuter</dd></div><div><dt>바이언</dt><dd>2008–2025</dd></div><div><dt>선정</dt><dd>전술의 빈칸을 읽은 한 구단의 아들</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-1.webp" alt="토마스 뮐러 세컨드 스트라이커 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 토마스 뮐러<span class="foreign-note" lang="de">(Thomas Müller; 독일 축구선수·공격수, 1989–)</span>는 자기 역할을 *Raumdeuter*라 이름 붙였다. *Raum*은 공간, *Deuter*는 해석하는 사람을 뜻하니 ‘공간 해석가’가 된다. 빠른 드리블이나 정교한 몸동작으로 상대를 이기기보다, 수비수가 잠시 잊은 장소를 먼저 발견했다.
 
@@ -155,7 +173,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 10. 로베르트 레반도프스키｜센터 포워드
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-1.webp" alt="로베르트 레반도프스키 센터 포워드 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CF · MITTELSTÜRMER</span><h4>로베르트 레반도프스키</h4><small lang="pl">Robert Lewandowski</small><dl><div><dt>별칭</dt><dd>Lewy</dd></div><div><dt>바이언</dt><dd>2014–2022</dd></div><div><dt>선정</dt><dd>훈련으로 완성한 득점의 정밀도</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-1.webp" alt="로베르트 레반도프스키 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 로베르트 레반도프스키<span class="foreign-note" lang="pl">(Robert Lewandowski; 폴란드 축구선수·센터 포워드, 1988–)</span>의 득점은 우연이 끼어들 틈을 줄이는 과정에서 태어났다. 첫 터치로 슈팅 각도를 만들고, 양발과 머리 가운데 가장 짧은 해결책을 골랐으며, 수비수의 시야 밖에서 한 걸음 먼저 출발했다. 체격과 기술은 철저한 훈련 아래 같은 속도로 움직였다.
 
@@ -167,7 +185,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 11. 게르트 뮐러｜센터 포워드
 
-<article class="custom-xi-player"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-4.webp" alt="게르트 뮐러 센터 포워드 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CF · DER BOMBER</span><h4>게르트 뮐러</h4><small lang="de">Gerhard Müller</small><dl><div><dt>별칭</dt><dd>Der Bomber der Nation</dd></div><div><dt>바이언</dt><dd>1964–1979</dd></div><div><dt>선정</dt><dd>바이언을 세계로 밀어 올린 566골</dd></div></dl></div></article>
+<figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-4.webp" alt="게르트 뮐러 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
 게르트 뮐러<span class="foreign-note" lang="de">(Gerhard Müller; 독일 축구선수·센터 포워드, 1945–2021)</span>의 몸은 고전적인 미학과 거리가 있었다. 낮은 중심, 굵은 허벅지, 짧은 보폭. 그 구조는 페널티 지역에서 누구보다 빠르게 방향을 바꾸는 데 쓰였다. 등을 진 채 몸을 돌리고, 넘어지면서 발끝을 내밀며, 공이 완전히 정리되기 전에 골문 구석을 찾았다.
 
@@ -181,19 +199,17 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ## 마침내, 한 경기장에 선 열한 명
 
-<figure class="custom-xi-formation"><img src="/images/squads/bayern-munich-all-time-best-xi/formation.webp" alt="노이어, 베켄바워, 브라이트너, 람, 마테우스, 슈바인슈타이거, 리베리, 루메니게, 토마스 뮐러, 레반도프스키, 게르트 뮐러로 구성한 FC 바이에른 뮌헨 역대 베스트 11" loading="lazy" width="773" height="773" /><figcaption>삥이가 선정한 FC 바이에른 뮌헨 역대 베스트 11. 선수들의 전성기 역할을 한 대형 안에서 조정한 편집 포메이션이다.</figcaption></figure>
-
 공을 가진 순간에는 브라이트너가 안쪽으로 들어와 마테우스·슈바인슈타이거와 중앙을 만든다. 람은 오른쪽의 높이를 조절하고 베켄바워는 공을 몰고 전진한다. 리베리가 왼쪽에서 수비를 끌어당기면 루메니게가 반대편과 중앙을 오가고, 토마스 뮐러는 두 스트라이커 주변의 빈칸을 읽는다. 레반도프스키가 연계와 압박을 맡는 동안 게르트 뮐러는 가장 짧은 득점의 순간을 기다린다. 높은 최종선 뒤에는 노이어가 서 있다.
 
 모든 세대를 한 전술에 가둘 수는 없다. 1970년대의 잔디와 2020년의 압박 강도도 같지 않다. 이 포메이션이 보여주는 것은 가상의 경기 결과보다 바이언이 126년 동안 길러낸 역할의 계보다. 리베로, 공격형 풀백, 전천후 미드필더, 공간 해석가, 서로 다른 두 종류의 9번이 붉은 유니폼 안에서 서로를 이어받았다.
 
-## 2군 명단
-
-<figure class="custom-xi-longlist"><img src="/images/squads/bayern-munich-all-time-best-xi/second-team.webp" alt="삥이가 선정한 FC 바이에른 뮌헨 역대 2군 명단" loading="lazy" width="773" height="1519" /><figcaption>올리버 칸, 제프 마이어, 한스게오르크 슈바르첸베크, 아르연 로번을 비롯해 첫 명단과 마지막까지 경쟁한 2군 명단.</figcaption></figure>
-
-## 기타 명단
-
-<figure class="custom-xi-longlist"><img src="/images/squads/bayern-munich-all-time-best-xi/other-candidates.webp" alt="삥이가 정리한 FC 바이에른 뮌헨 역대 기타 후보 명단" loading="lazy" width="773" height="3387" /><figcaption>시대와 포지션별로 남겨 둔 기타 후보들. ‘3군’이라는 원본 파일명보다 네이버 공개본의 ‘기타 명단’ 표기를 따른다.</figcaption></figure>
+<figure class="bayern-final-sequence">
+  <img src="/images/squads/bayern-munich-all-time-best-xi/original-header.webp" alt="삥이가 디자인한 바이언 축구 역대 베스트 XI 선정 표제" loading="lazy" width="773" height="258" />
+  <img src="/images/squads/bayern-munich-all-time-best-xi/formation.webp" alt="노이어, 베켄바워, 브라이트너, 람, 마테우스, 슈바인슈타이거, 리베리, 루메니게, 토마스 뮐러, 레반도프스키, 게르트 뮐러로 구성한 FC 바이에른 뮌헨 역대 베스트 11" loading="lazy" width="773" height="773" />
+  <img src="/images/squads/bayern-munich-all-time-best-xi/second-team.webp" alt="올리버 칸, 제프 마이어, 한스게오르크 슈바르첸베크, 아르연 로번 등을 포함한 FC 바이에른 뮌헨 역대 2군 명단" loading="lazy" width="773" height="1519" />
+  <img src="/images/squads/bayern-munich-all-time-best-xi/other-candidates.webp" alt="시대와 포지션별로 정리한 FC 바이에른 뮌헨 역대 기타 후보 명단" loading="lazy" width="773" height="3387" />
+  <figcaption>표제에서 베스트 11 포메이션, 2군과 기타 후보까지 한 세계로 이어지는 삥이의 바이언 편집 디자인.</figcaption>
+</figure>
 
 <div class="source-notes">
 
@@ -218,18 +234,45 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 </div>
 
 <style>
-  .article-body h2:has(+ .custom-xi-player) { margin-top: 7rem; margin-bottom: 1.7rem; }
-  .article-body .custom-xi-player { margin-top: 0; margin-bottom: 2.7rem; }
-  .article-body .custom-xi-player + p { margin-top: 0; }
-  .bayern-flag { max-width: 650px; margin: 2.8rem auto 3.5rem; }
-  .bayern-flag img { width: 100%; }
-  .custom-xi-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 2.4rem 0 4rem; }
-  .custom-xi-gallery img { width: 100%; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); }
-  .custom-xi-longlist { margin: 2.4rem auto 5rem; }
-  .custom-xi-longlist img { width: 100%; border-radius: var(--bbfc-radius); }
+  .bayern-gateway { max-width: 773px; margin: 3rem auto 4rem; overflow: hidden; border: 1px solid rgba(216, 177, 62, .45); border-radius: 22px; background: #080808; color: #fff; box-shadow: 0 22px 50px rgba(81, 0, 13, .18); text-align: center; }
+  .bayern-gateway > div { display: flex; min-height: 220px; flex-direction: column; align-items: center; justify-content: center; padding: 2.4rem 1.5rem; }
+  .bayern-gateway p { margin: 1.15rem 0 .25rem; color: #fff; font-size: clamp(1.35rem, 3vw, 2rem); font-weight: 800; letter-spacing: -.035em; }
+  .bayern-gateway small { color: rgba(255,255,255,.66); font-size: .82rem; letter-spacing: .08em; }
+  .bayern-gateway-country { background: linear-gradient(135deg, #050505 0 72%, #161616 72%); }
+  .germany-flag { display: grid; width: min(280px, 70%); height: 140px; overflow: hidden; border-radius: 4px; box-shadow: 0 12px 30px rgba(0,0,0,.4); transform: perspective(500px) rotateY(-3deg); }
+  .germany-flag i:nth-child(1) { background: #000; }
+  .germany-flag i:nth-child(2) { background: #d00; }
+  .germany-flag i:nth-child(3) { background: #ffce00; }
+  .bayern-gateway-line { display: block; width: 1px; height: 44px; margin: -22px auto; position: relative; z-index: 2; background: linear-gradient(#d8b13e, #fff, #d8b13e); }
+  .bayern-gateway-league { background: #fff; }
+  .bayern-gateway-league p { color: #d0021b; }
+  .bayern-gateway-league small { color: #6b7280; }
+  .league-mark { display: grid; width: 96px; height: 96px; place-items: center; border-radius: 12px; background: #d0021b; color: #fff; line-height: 1; box-shadow: 0 12px 24px rgba(208,2,27,.22); }
+  .league-mark b { font-size: 3.8rem; font-style: italic; font-weight: 900; letter-spacing: -.12em; transform: translateX(-.08em); }
+  .bayern-gateway-club { background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.12), transparent 35%), linear-gradient(145deg, #ed0039, #b80025 58%, #850019); }
+  .bayern-gateway-club img { width: 150px; height: 150px; filter: drop-shadow(0 10px 16px rgba(0,0,0,.3)); }
+  .bayern-era { position: relative; max-width: 773px; margin: 4rem auto; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); }
+  .bayern-era img { position: absolute; right: -34px; bottom: -44px; width: 190px; height: 190px; opacity: .12; filter: grayscale(1); }
+  .bayern-era span { position: relative; display: block; color: #e6c765; font-size: .7rem; font-weight: 800; letter-spacing: .22em; }
+  .bayern-era strong { position: relative; display: block; margin: .6rem 0 .55rem; color: #fff; font-size: clamp(3.1rem, 9vw, 5.8rem); font-weight: 300; letter-spacing: -.075em; line-height: 1; text-shadow: 0 3px 22px rgba(0,0,0,.5); }
+  .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: .9rem; }
+  .bayern-era em { color: #e6c765; font-style: normal; font-weight: 700; }
+  .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 1.7rem; }
+  .bayern-player-art { max-width: 773px; margin: 0 auto 2.7rem; }
+  .bayern-player-art img { display: block; width: 100%; height: auto; }
+  .bayern-player-art + p { margin-top: 0; }
+  .custom-xi-gallery { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.15rem; max-width: 773px; margin: 2.4rem auto 4rem; }
+  .custom-xi-gallery img { display: block; width: 100%; height: auto; }
+  .bayern-final-sequence { max-width: 773px; margin: 3.5rem auto 5rem; overflow: hidden; background: #050505; }
+  .bayern-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
+  .bayern-final-sequence figcaption { margin: 0; padding: 1rem 1.25rem 1.15rem; background: #090909; color: rgba(255,255,255,.66); text-align: center; }
   @media (max-width: 767px) {
-    .article-body h2:has(+ .custom-xi-player) { margin-top: 5.3rem; margin-bottom: 1.35rem; }
-    .custom-xi-gallery { gap: .55rem; margin: 1.7rem 0 3rem; }
-    .bayern-flag { margin: 2rem auto 2.7rem; }
+    .bayern-gateway { margin: 2rem auto 3rem; border-radius: 14px; }
+    .bayern-gateway > div { min-height: 180px; padding: 2rem 1rem; }
+    .germany-flag { height: 110px; }
+    .bayern-era { margin: 3rem auto; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
+    .article-body h2:has(+ .bayern-player-art) { margin-top: 5.3rem; margin-bottom: 1.35rem; }
+    .custom-xi-gallery { gap: .7rem; margin: 1.7rem auto 3rem; }
+    .bayern-final-sequence { margin: 2.7rem auto 4rem; }
   }
 </style>
