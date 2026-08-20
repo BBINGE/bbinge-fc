@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-20T15:20:22.843Z",
+  "updatedAt": "2026-08-20T18:56:39.818Z",
   "birthday": {
     "name": "로베르트 레반도프스키",
     "birthYear": 1988,
@@ -10,9 +10,9 @@
   "matches": [],
   "status": {
     "birthday": {
-      "state": "ok",
-      "source": "Wikidata",
-      "error": null
+      "state": "fallback",
+      "source": "local-calendar",
+      "error": "Wikidata 3회 시도 실패: This operation was aborted"
     },
     "matches": {
       "state": "empty",
@@ -21,7 +21,7 @@
     }
   },
   "sources": {
-    "birthday": "Wikidata",
+    "birthday": "local-calendar",
     "matches": "TheSportsDB"
   }
 }
