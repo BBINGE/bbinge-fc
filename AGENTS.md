@@ -4,7 +4,8 @@
 
 1. `BBINGE_FC_BRIEF.md` — 프로젝트의 단일 설계 기준 (브랜드·구조·성능 원칙)
 2. `CLAUDE.md` — 장기 운영 규칙
-3. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
+3. `EDITORIAL_ASSET_POLICY.md` — 콘텐츠·편집물·썸네일·저작권·AdSense 판단 기준
+4. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
 
 ## 작업 시작
 

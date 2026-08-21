@@ -1,6 +1,6 @@
 # BBinge FC — 장기 운영 규칙
 
-Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIEF.md`와 `HANDOFF.md`도 처음부터 끝까지 읽는다. 설계 기준은 브리프가, 현재 상태는 `HANDOFF.md`가 우선하며, 이 파일은 쉽게 바뀌지 않는 운영 원칙을 정의한다.
+Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIEF.md`, `EDITORIAL_ASSET_POLICY.md`, `HANDOFF.md`도 처음부터 끝까지 읽는다. 설계 기준은 브리프가, 콘텐츠·편집 자산과 저작권·AdSense 판단은 `EDITORIAL_ASSET_POLICY.md`가, 현재 구현 상태는 `HANDOFF.md`가 우선하며, 이 파일은 쉽게 바뀌지 않는 운영 원칙을 정의한다.
 
 ## 프로젝트와 사용자
 
@@ -18,6 +18,9 @@ Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIE
 - 브리프의 기술 스택과 4개 카테고리 구조(history/pilgrimage/play/culture)를 임의로 바꾸지 않는다.
 - 비밀번호, GitHub 토큰, OAuth 클라이언트 시크릿, Cloudflare 배포 훅 URL, API 키를 저장소 파일이나 문서에 기록하지 않는다.
 - 큰 구조 변경, 라이브러리 도입, 배포·저장 방식 변경은 이유를 설명하고 승인받는다.
+- 운영자의 기존 Photoshop 편집물과 썸네일을 구체적인 권리 주장이나 정책 경고 없이 위험 자산으로 단정하거나 전면 교체하지 않는다. 관련 판단은 반드시 `EDITORIAL_ASSET_POLICY.md`를 따른다.
+- 저작권 불확실성을 침해 확정과 동일시하거나, 전수 라이선스 확인·모든 사진의 개별 허락·CC 이미지만 사용을 일반 운영 조건으로 제시하지 않는다.
+- AdSense 승인 가능성만 높인다는 이유로 썸네일의 클릭 훅, 브랜드 경쟁력, 독자 도달과 사이트의 수익 가능성을 희생하지 않는다.
 
 ## 브리프와 실제의 확정된 차이
 
