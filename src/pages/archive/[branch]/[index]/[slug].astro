@@ -4,6 +4,7 @@ import ShareButtons from '../../../../components/ShareButtons.astro';
 import ContentCover from '../../../../components/ContentCover.astro';
 import RelatedAssets from '../../../../components/RelatedAssets.astro';
 import ArticleByline from '../../../../components/ArticleByline.astro';
+import ArticleProvenance from '../../../../components/ArticleProvenance.astro';
 import ReadingCompanion from '../../../../components/ReadingCompanion.astro';
 import { categories, getArticlePath } from '../../../../config/categories';
 import { site } from '../../../../config/site';
@@ -95,6 +96,7 @@ const relatedAssets = entry.data.relatedGroup
     />
     <div class="archive-body"><Content /></div>
     <ReadingCompanion />
+    <ArticleProvenance />
     <div class="archive-share">
       <ShareButtons
         url={new URL(`/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`, site.url).toString()}
