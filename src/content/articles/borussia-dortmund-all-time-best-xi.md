@@ -321,6 +321,7 @@ featured: true
 21. <span id="source-21"></span>[BVB: 이탈리아 경험자들의 귀환과 1997년 유럽 제패팀 구성](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/A-victory-against-all-the-odds-a-triumph-for-the-ages.html)
 22. <span id="source-22"></span>[BVB: 마르코 로이스의 귀환, 주장 경력과 2019년 독일 올해의 선수](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/BVB-and-Reus-do-not-extend-contract.html)
 23. <span id="source-23"></span>[BVB: 1997년 UEFA 챔피언스 리그 결승 선발과 주장 초르크의 시상식](https://www.bvb.de/de/de/der-bvb/die-bvb-historie/historische-momente/bvb-champions-league-1997.html)
+24. [정사각 목록 카드의 2015년 마르코 로이스 사진: Tim Reckmann, CC BY 2.0](https://commons.wikimedia.org/wiki/File:Marco_Reus_%2816204330530%29_%28cropped%29.jpg)
 
 ### 이 글이 만들어진 방식
 
@@ -328,7 +329,9 @@ featured: true
 
 선수별 세로 편집물에는 인물 선정, 사진 탐색, 기록 조사, 원어·별칭 표기, 검정·노랑·금색의 색채 설계, 정보 위계, 프레임과 배경, 수상·우승 내역의 배열이 함께 들어 있다. 표제·포메이션·2군·3군 명단 또한 한 세계를 전제로 설계한 연속 시각물이다. 이 기존 편집물은 모두 박성호(삥이)가 Adobe Photoshop에서 한 장씩 직접 제작했으며, 생성형 AI를 사용하지 않았다. 이번 사이트 개정은 원본을 축소 카드로 분해하지 않고 이미지 속 기록까지 읽을 수 있는 폭으로 보존했다.
 
-사이트용 대표 썸네일 역시 생성형 AI를 쓰지 않았다. Tim Reckmann의 로이스 사진(CC BY-SA 3.0), Marvin Ronsdorf의 경기장 사진(CC0 1.0), 운영자가 제공한 BVB 문장을 박성호(삥이)·삥이FC가 직접 크롭·색보정·합성하고 타이포그래피를 설계했다. CC BY-SA 원본을 바탕으로 만든 썸네일은 같은 CC BY-SA 3.0 조건으로 이용할 수 있으며, 저자·원문·라이선스 표시를 유지해야 한다.
+사이트용 16:9 대표 썸네일은 생성형 AI를 쓰지 않았다. Tim Reckmann의 2014년 로이스 사진(CC BY-SA 3.0), Marvin Ronsdorf의 경기장 사진(CC0 1.0), 운영자가 제공한 BVB 문장을 박성호(삥이)·삥이FC가 직접 크롭·색보정·합성하고 타이포그래피를 설계했다. CC BY-SA 원본을 바탕으로 만든 이 대표 이미지는 같은 CC BY-SA 3.0 조건으로 이용할 수 있으며, 저자·원문·라이선스 표시를 유지해야 한다.
+
+카테고리 목록의 1:1 카드는 Tim Reckmann이 2015년에 촬영한 로이스 사진(CC BY 2.0)을 실제 인물 원본으로 삼아 얼굴과 상반신에 초점을 맞추고, Codex 내장 이미지 생성 편집으로 검정·노랑 정보판과 결합했다. 사진 속 인물을 다른 얼굴로 대체하려는 목적이 아니라 정사각 목록에서 로이스의 얼굴과 도르트문트 유니폼이 선명하게 읽히도록 재구성한 편집물이다. 사진 저자·원문·라이선스와 생성형 편집 사실을 함께 밝힌다.
 
 ### 이미지와 권리에 관한 편집 원칙
 
