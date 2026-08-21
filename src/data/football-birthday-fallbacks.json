@@ -30,6 +30,12 @@
       "birthYear": 1988,
       "wikidataUrl": "http://www.wikidata.org/entity/Q151269",
       "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Robert%20Lewandowski%202018%2C%20JAP-POL%20%28cropped%29.jpg?width=700"
+    },
+    "08-22": {
+      "name": "라우타로 마르티네스",
+      "birthYear": 1997,
+      "wikidataUrl": "http://www.wikidata.org/entity/Q21484126",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lautaro%20Martinez%20Argentina%20v%20Spain%2019%20July%202026-049%20%28cropped%29.jpg?width=700"
     }
   }
 }

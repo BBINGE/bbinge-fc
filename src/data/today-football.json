@@ -1,13 +1,44 @@
 {
-  "date": "2026-08-21",
-  "updatedAt": "2026-08-20T19:10:39.193Z",
+  "date": "2026-08-22",
+  "updatedAt": "2026-08-21T15:30:47.868Z",
   "birthday": {
-    "name": "로베르트 레반도프스키",
-    "birthYear": 1988,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q151269",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Robert%20Lewandowski%202018%2C%20JAP-POL%20%28cropped%29.jpg?width=700"
+    "name": "라우타로 마르티네스",
+    "birthYear": 1997,
+    "wikidataUrl": "http://www.wikidata.org/entity/Q21484126",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lautaro%20Martinez%20Argentina%20v%20Spain%2019%20July%202026-049%20%28cropped%29.jpg?width=700"
   },
-  "matches": [],
+  "matches": [
+    {
+      "id": "2494001",
+      "league": "프리미어 리그",
+      "home": "Hull City",
+      "away": "Manchester United",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/fbqqda1601726113.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
+      "time": "20:30",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "2494002",
+      "league": "프리미어 리그",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/eqayrf1523184794.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
+      "time": "23:00",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "2494003",
+      "league": "프리미어 리그",
+      "home": "Ipswich Town",
+      "away": "Sunderland",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/mdj1ey1634670785.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/tprtus1448813498.png",
+      "time": "23:00",
+      "date": "2026-08-22"
+    }
+  ],
   "status": {
     "birthday": {
       "state": "ok",
@@ -15,7 +46,7 @@
       "error": null
     },
     "matches": {
-      "state": "empty",
+      "state": "ok",
       "source": "TheSportsDB",
       "error": null
     }
