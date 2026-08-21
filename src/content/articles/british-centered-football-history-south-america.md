@@ -3,7 +3,7 @@ title: "영국 중심 축구 역사 서술의 한계: 남미가 다시 쓴 축�
 description: "축구 규칙의 영국 성문화와 남미 축구의 사회적 형성은 같은 역사가 아니다. 매슈 브라운의 비공식 제국 비판을 바탕으로 허튼과 밀러의 개척자 서사, 도시·철도·언론·국가와 1910·1916·1922·1930년의 전환점을 다시 읽는다."
 category: "history"
 tags: ["축구 역사", "남미 축구", "찰스 밀러", "알렉산더 왓슨 허튼", "매슈 브라운", "Matthew Brown", "1930 FIFA 월드컵"]
-pubDate: 2026-08-20
+pubDate: 2026-08-20T17:42:31+09:00
 coverImage: "/images/history/british-centered-football-history/uruguay-1930.webp"
 coverImageAlt: "1930 FIFA 월드컵 우승을 차지한 우루과이 선수단"
 coverImageCaption: "1930년 몬테비데오. 첫 FIFA 월드컵은 영국 축구의 복제품이 아니라 남미가 이미 구축한 축구 문화의 결실이었다."

@@ -5,7 +5,7 @@ category: pilgrimage
 tags:
   - "축구 성지순례"
   - "이탈리아"
-pubDate: 2026-07-08
+pubDate: 2026-07-08T12:00:00+09:00
 draft: true
 ---
 

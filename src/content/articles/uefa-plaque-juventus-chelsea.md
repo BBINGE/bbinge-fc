@@ -18,7 +18,7 @@ tags:
   - "UEFA Badge of Honour"
   - "유벤투스 유럽대항전"
   - "헤이젤 참사"
-pubDate: 2026-08-17
+pubDate: 2026-08-17T15:40:27+09:00
 coverImage: "/images/history/uefa-plaque/cover.webp"
 coverImageAlt: "유러피언컵과 UEFA컵 트로피 앞에 축구 역사상 단 1팀 UEFA 플라크라고 적힌 원작 썸네일"
 coverImageCaption: "2024년 처음 쓴 UEFA 플라크 원고의 표지. 당시에는 유벤투스의 1988년 표창만을 기준으로 ‘단 1팀’이라 썼다. 2025년 첼시가 새로운 특별 표창을 받은 지금, 이 문장은 역사적 질문이 되었다."

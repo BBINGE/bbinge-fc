@@ -14,6 +14,7 @@ const articles = defineCollection({
       description: z.string(),
       category: z.enum(categorySlugs),
       tags: z.array(z.string()).default([]),
+      // 최신순 동률을 피하려면 수동 발행도 날짜만 쓰지 말고 ISO 8601 시각까지 기록한다.
       pubDate: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
       // CMS가 public/uploads/에 올린 이미지의 경로 문자열 (예: /uploads/xxx.jpg)
@@ -50,6 +51,7 @@ const archive = defineCollection({
     subject: z.string(),
     originalTitle: z.string().optional(),
     keywords: z.array(z.string()).default([]),
+    // 아카이브 역시 같은 날 여러 건을 발행할 수 있으므로 ISO 8601 시각을 보존한다.
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     coverImage: z.string(),

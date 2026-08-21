@@ -3,7 +3,7 @@ title: "FC 바이에른 뮌헨 역대 베스트 11: 독일의 욕망이 입은 �
 description: "뮌헨과 독일 현대사의 굴곡에서 출발해 프란츠 베켄바워, 게르트 뮐러, 마누엘 노이어까지 FC 바이에른 뮌헨 역대 베스트 11을 선정하고 각 시대의 역할과 의미를 논증한다."
 category: "custom-best-xi"
 tags: ["FC 바이에른 뮌헨", "바이언", "푸스발-분데스리가", "베스트 11", "프란츠 베켄바워", "게르트 뮐러", "마누엘 노이어"]
-pubDate: 2026-08-21
+pubDate: 2026-08-21T02:44:22+09:00
 coverImage: "/images/squads/bayern-munich-all-time-best-xi/cover-editorial.webp"
 coverImageAlt: "붉게 빛나는 뮌헨 경기장과 유럽 제패의 금빛 궤적을 재구성한 바이언 역대 베스트 11 표지"
 coverImageCaption: "알리안츠 아레나 CC0 원사진을 바탕으로 유럽 제패의 기억을 재구성한 편집 표지. 기획·아트디렉션: 삥이FC, AI 기반 이미지 편집 도구 활용."

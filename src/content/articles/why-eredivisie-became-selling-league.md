@@ -10,7 +10,7 @@ tags:
   - "토털 풋볼"
   - "루이 판할"
   - "마르코 판바스턴"
-pubDate: 2026-08-13
+pubDate: 2026-08-13T17:16:21+09:00
 coverImage: "/images/history/eredivisie-selling-league/cover-eredivisie-now.png"
 coverImageAlt: "에레디비시를 대표하는 PSV, 아약스, 페예노르트 선수들"
 coverImageCaption: "PSV 에인트호번, AFC 아약스, 페예노르트 로테르담. 오늘의 에레디비시는 여전히 선수를 만들지만, 그 선수를 가장 오래 보유하는 리그는 아니다."

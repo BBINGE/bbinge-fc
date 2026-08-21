@@ -11,7 +11,7 @@ tags:
   - "카테나초"
   - "카테나치오"
   - "이탈리아 축구사"
-pubDate: 2026-08-13
+pubDate: 2026-08-13T21:04:31+09:00
 coverImage: "/images/history/grande-torino/grande-torino-filadelfia.png"
 coverImageAlt: "필라델피아 경기장에 입장하는 발렌티노 마촐라와 라 그란데 토리노 선수들"
 coverImageCaption: "필라델피아의 통로를 지나 경기장으로 들어서는 라 그란데 토리노. 이 팀의 역사는 수페르가에서 끝났지만, 그들이 무엇을 시작했는지는 참사만으로 설명되지 않는다."

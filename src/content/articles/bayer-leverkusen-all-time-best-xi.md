@@ -3,7 +3,7 @@ title: "바이어 04 레버쿠젠 역대 베스트 11: 차범근부터 비르츠
 description: "차범근, 미하엘 발라크, 울프 키르스텐, 플로리안 비르츠까지 바이어 04 레버쿠젠의 120년을 관통하는 역대 베스트 11을 역사와 전술로 복원한다."
 category: "custom-best-xi"
 tags: ["바이어 04 레버쿠젠", "레버쿠젠", "차범근", "손흥민", "플로리안 비르츠", "푸스발-분데스리가", "역대 베스트 11"]
-pubDate: 2026-08-21
+pubDate: 2026-08-21T18:59:19+09:00
 coverImage: "/images/squads/bayer-leverkusen-all-time-best-xi/bayer-leverkusen-best-xi-cover.webp"
 coverImageAlt: "차범근의 1979년 초상과 바이어 04 레버쿠젠 문장, 역대 베스트 11 제목을 검정과 적색으로 구성한 표지"
 coverImageCaption: "차범근의 얼굴로 문을 열고 레버쿠젠 120년의 열한 명을 만난다. 차범근 사진: Nationaal Archief/Anefo, CC BY-SA 3.0 NL. 바이아레나 사진: Partonez, CC BY-SA 4.0. 구도·색채·타이포그래피: 박성호(삥이)·삥이FC. 생성형 AI 미사용."

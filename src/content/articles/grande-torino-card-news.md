@@ -11,7 +11,7 @@ tags:
   - "에르뇌 에그리 에르브슈타인"
   - "카테나초"
   - "카테나치오"
-pubDate: 2026-08-13
+pubDate: 2026-08-13T22:03:49+09:00
 coverImage: "/images/history/grande-torino-cards/card-01.png"
 coverImageAlt: "라 그란데 토리노의 주장 발렌티노 마촐라와 구단 관계자들이 함께 선 모습 위에 위대한 토리노라는 제목이 적힌 비주얼 스토리 첫 장"
 coverImageCaption: "전후 이탈리아를 지배했던 라 그란데 토리노의 주장 발렌티노 마촐라와 구단 관계자들."

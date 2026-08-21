@@ -8,7 +8,7 @@ tags:
   - "IFAB"
   - "축구 입문"
   - "경기규칙 11조"
-pubDate: 2026-08-13
+pubDate: 2026-08-13T23:49:23+09:00
 coverImage: "/images/football-made-easy/offside-match-thumbnail.png"
 coverImageAlt: "수비선 앞뒤에 자리한 파란색과 빨간색 유니폼의 선수들 사이로 오프사이드 판정선이 표시된 경기 장면"
 coverImageCaption: "오프사이드 판정은 동료가 공을 건드린 순간 공격수와 공, 뒤에서 두 번째 상대 선수의 위치를 함께 비교한다."

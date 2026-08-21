@@ -15,7 +15,7 @@ tags:
   - "상파울루 FC"
   - "보카 주니어스"
   - "리버 플레이트"
-pubDate: 2026-08-17
+pubDate: 2026-08-17T17:33:10+09:00
 coverImage: "/images/history/greatest-teams-top-10/cover.webp"
 coverImageAlt: "산투스, 아약스, 셀틱, 바이에른, 상파울루, 보카 주니어스, 리버 플레이트, 바르셀로나의 우승 사진을 모은 역대 최고의 팀 10 표지"
 coverImageCaption: "유럽과 남미의 서로 다른 시대를 지배한 열 팀. 순위는 승률만이 아니라 트로피 완성도·상대 난이도·세계 검증·역사적 의미를 함께 평가했다. 운영자 제공 사진으로 구성."

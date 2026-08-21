@@ -7,7 +7,7 @@ year: 1916
 subject: '이사벨리노 그라딘'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1916'
 keywords: ['CONMEBOL Copa América™', 'Isabelino Gradín', '우루과이 축구 국가대표팀', '남미축구연맹']
-pubDate: 2026-08-13
+pubDate: 2026-08-13T13:53:10+09:00
 coverImage: '/images/archive/1916-copa-america/cover.jpg'
 coverImageAlt: '1916 코파 아메리카 최우수 선수 이사벨리노 그라딘 기록 표지'
 coverImageWidth: 773

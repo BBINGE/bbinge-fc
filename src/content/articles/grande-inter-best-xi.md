@@ -3,7 +3,7 @@ title: "위대한 인터 밀란, 그란데 인테르 베스트 11 선정(유러�
 description: "엘레니오 에레라가 이끈 1960–1972년 라 그란데 인테르에서 삥이가 직접 고른 베스트 11. 1964년 유러피언컵 결승 선발과 정확히 겹치는 열한 명의 역할과 선정 이유를 기록한다."
 category: "custom-best-xi"
 tags: ["인터 밀란", "FC 인테르나치오날레 밀라노", "그란데 인테르", "베스트 11", "엘레니오 에레라", "산드로 마촐라"]
-pubDate: 2026-08-20
+pubDate: 2026-08-20T17:08:15+09:00
 coverImage: "/images/squads/grande-inter-best-xi/cover.webp"
 coverImageAlt: "유러피언컵을 든 그란데 인테르 선수단과 인터 밀란 베스트 11 제목"
 coverImageCaption: "1960~1972년을 범위로 선정한 그란데 인테르 베스트 11. 표지 디자인: 삥이."

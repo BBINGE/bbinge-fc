@@ -3,7 +3,7 @@ title: "보루시아 묀헨글라트바흐 역대 베스트 11: 청춘이 유럽
 description: "베르티 포크츠와 유프 하인케스, 귄터 네처를 중심으로 보루시아 묀헨글라트바흐의 역사와 전술, 황금기의 열한 자리를 복원한다."
 category: "custom-best-xi"
 tags: ["보루시아 묀헨글라트바흐", "엠게", "푸스발-분데스리가", "베스트 11", "베르티 포크츠", "귄터 네처", "유프 하인케스"]
-pubDate: 2026-08-21
+pubDate: 2026-08-21T04:54:57+09:00
 coverImage: "/images/squads/borussia-monchengladbach-all-time-best-xi/foals-1970s.webp"
 coverImageAlt: "우승 방패 앞에 선 1970년대 보루시아 묀헨글라트바흐 선수단"
 coverImageCaption: "젊음과 속도로 유럽을 뒤흔든 1970년대 보루시아 묀헨글라트바흐. 2025년 네이버 원고에 사용한 자료 사진."

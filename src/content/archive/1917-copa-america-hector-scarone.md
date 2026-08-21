@@ -7,7 +7,7 @@ year: 1917
 subject: '엑토르 스카로네'
 originalTitle: 'Campeonato Sudamericano de Fútbol 1917'
 keywords: ['CONMEBOL Copa América™', 'Héctor Scarone', 'Ángel Romano', '우루과이 축구 국가대표팀', 'Parque Pereira']
-pubDate: 2026-08-13
+pubDate: 2026-08-13T16:07:18+09:00
 coverImage: '/images/archive/1917-copa-america/cover.jpg'
 coverImageAlt: '1917 코파 아메리카 최우수 선수 엑토르 스카로네 기록 표지'
 coverImageWidth: 773
