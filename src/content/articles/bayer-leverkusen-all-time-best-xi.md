@@ -27,9 +27,9 @@ featured: true
 
 1903년 11월 27일, 프리드리히 바이어 염료공장의 노동자 빌헬름 하우실트와 아우구스트 쿨만은 경영진 앞으로 편지 한 통을 보냈다. 노동자 170명이 서명한 체육회 창설 청원이었다. 이듬해 7월 1일 ‘바이어 체조·경기회’가 태어났고, 축구부는 1907년 6월 1일 문을 열었다. 놀라운 대목이 있다. 당시 ‘레버쿠젠’은 아직 도시의 이름이 아니었다. 기업가 카를 레버쿠스의 이름을 딴 공장 지구가 먼저 있었고 오늘의 레버쿠젠시는 1930년에야 성립했다. 이곳에서는 구단이 도시를 따라간 것이 아니라 도시와 구단이 한 공장의 시간에서 함께 자라났다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-공장 팀이라는 출신은 이 구단을 작게 보이게도, 남다르게 보이게도 했다. 거대한 회원제 구단의 계보와는 달랐고 독일 축구 안에서 바이어의 지원을 받는다는 시선도 견뎌야 했다. 그러나 1979년 푸스발-분데스리가에 올라온 뒤 단 한 번도 강등되지 않았고, 1988년 UEFA 컵과 1993년 DFB-포칼을 들어 올렸다. 축구부가 공장에서 떨어져 나와 독립 법인이 된 뒤에도 이름의 ‘04’와 십자가 문양은 출생증명서처럼 남았다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+공장 팀이라는 출신은 이 구단을 작게 보이게도, 남다르게 보이게도 했다. 거대한 회원제 구단의 계보와는 달랐고 독일 축구 안에서 바이어의 지원을 받는다는 시선도 견뎌야 했다. 그러나 1979년 푸스발-분데스리가에 올라온 뒤 단 한 번도 강등되지 않았고, 1988년 UEFA컵과 1993년 DFB-포칼을 들어 올렸다. 축구부가 공장에서 떨어져 나와 독립 법인이 된 뒤에도 이름의 ‘04’와 십자가 문양은 출생증명서처럼 남았다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-1988년 UEFA 컵 결승은 레버쿠젠의 첫 위대한 기적이었다. 에스파뇰 원정에서 0-3으로 패한 뒤 홈 2차전에서도 전반을 0-0으로 마쳤다. 후반 12분 틸만이 추격을 시작했고, 63분 괴츠와 81분 차범근의 헤더가 합계 점수를 원점으로 돌렸다. 연장전 뒤 승부차기. 첫 스페인 키커는 골대를 때렸고 뤼디거 폴보른은 네 번째 킥을 막았다. 마지막 키커 로사다는 골문 위로 찼다. ‘세 번 연속 선방’ 같은 후대의 장식 없이도 충분히 극적이었다. 레버쿠젠은 유럽의 우승팀이 되었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+1988년 UEFA컵 결승은 레버쿠젠의 첫 위대한 기적이었다. 에스파뇰 원정에서 0-3으로 패한 뒤 홈 2차전에서도 전반을 0-0으로 마쳤다. 후반 12분 틸만이 추격을 시작했고, 63분 괴츠와 81분 차범근의 헤더가 합계 점수를 원점으로 돌렸다. 연장전 뒤 승부차기. 첫 스페인 키커는 골대를 때렸고 뤼디거 폴보른은 네 번째 킥을 막았다. 마지막 키커 로사다는 골문 위로 찼다. ‘세 번 연속 선방’ 같은 후대의 장식 없이도 충분히 극적이었다. 레버쿠젠은 유럽의 우승팀이 되었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 그로부터 십여 년 뒤 이 팀은 우승 직전에서 멈추는 법까지 배웠다. 1999-2000시즌 마지막 경기, 운터하힝 원정에서 승점 1만 얻으면 첫 푸스발-분데스리가 우승이었다. 그러나 미하엘 발라크의 자책골로 시작해 0-2로 졌고 바이에른 뮌헨이 골득실로 정상에 섰다. 2001-02시즌에는 푸스발-분데스리가·DFB-포칼·UEFA 챔피언스 리그에서 모두 준우승했다. 독일에서는 *Vizekusen*, 영어권에서는 *Neverkusen*이라 불렸다. 조롱이었으되 아무나 받을 수 있는 조롱도 아니었다. 늘 우승 문 앞까지 가는 팀만이 ‘또 2등’이라는 말을 듣는다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
@@ -157,7 +157,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/cha-bum-kun.webp" alt="차범근의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-차범근<span class="foreign-note">(車範根; 대한민국 센터 포워드, 1953년생)</span>은 1983년 아인트라흐트 프랑크푸르트에서 레버쿠젠으로 왔다. 이미 독일에서 UEFA 컵과 DFB-포칼을 들어 올린 공격수였지만, 레버쿠젠에서는 아직 유럽의 주요 트로피가 없던 팀을 첫 우승으로 이끌었다. 구단이 그를 회고할 때 ‘가장 중요한 골’로 1988년 에스파뇰전 헤더를 먼저 꼽는 까닭이다.<a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
+차범근<span class="foreign-note">(車範根; 대한민국 센터 포워드, 1953년생)</span>은 1983년 아인트라흐트 프랑크푸르트에서 레버쿠젠으로 왔다. 이미 독일에서 UEFA컵과 DFB-포칼을 들어 올린 공격수였지만, 레버쿠젠에서는 아직 유럽의 주요 트로피가 없던 팀을 첫 우승으로 이끌었다. 구단이 그를 회고할 때 ‘가장 중요한 골’로 1988년 에스파뇰전 헤더를 먼저 꼽는 까닭이다.<a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
 
 차범근의 힘은 멈춰 선 몸보다 달리는 몸에서 커졌다. 넓은 보폭으로 수비수 옆을 통과하고, 접촉을 받은 뒤에도 상체가 쉽게 무너지지 않았다. 양발 슈팅이 가능해 수비수가 한쪽으로 몰기 어려웠으며 공을 길게 차놓고 따라가는 단순한 질주만 한 것도 아니었다. 동료에게 내주고 곧장 뒷공간으로 다시 들어가는 벽 패스, 측면에서 중앙으로 파고드는 대각선 움직임이 위력의 근간이었다.
 
@@ -197,7 +197,7 @@ featured: true
 
 <ul class="leverkusen-candidates" aria-label="바이어 04 레버쿠젠 역대 베스트 11 2군과 경쟁자">
   <li><strong>한스외르크 부트</strong><small lang="de">Hans-Jörg Butt · 골키퍼</small><p>페널티킥 득점과 안정된 선방을 함께 남긴 2002년 결승팀의 수문장.</p></li>
-  <li><strong>토마스 회르스터</strong><small lang="de">Thomas Hörster · 중앙 수비수</small><p>오랜 재임과 단단한 대인 방어로 1988년 UEFA 컵 우승의 후방을 지켰다.</p></li>
+  <li><strong>토마스 회르스터</strong><small lang="de">Thomas Hörster · 중앙 수비수</small><p>오랜 재임과 단단한 대인 방어로 1988년 UEFA컵 우승의 후방을 지켰다.</p></li>
   <li><strong>카르스텐 라멜로</strong><small lang="de">Carsten Ramelow · 중앙 수비수</small><p>수비와 중원을 오가며 2002년의 압박과 빌드업을 연결했다.</p></li>
   <li><strong>알레한드로 그리말도</strong><small lang="es">Alejandro Grimaldo · 왼쪽 윙백</small><p>정교한 왼발과 안쪽 침투로 2024년 무패 우승의 공격 출구가 됐다.</p></li>
   <li><strong>보리스 지브코비치</strong><small lang="hr">Boris Živković · 오른쪽 수비수</small><p>2002년 유럽 결승기의 수비 밸런스와 측면 전개를 책임졌다.</p></li>
@@ -222,7 +222,7 @@ featured: true
   <li><strong>디에고 플라센테</strong><small lang="es">Diego Placente · 왼쪽 수비수</small><p>왕성한 왕복과 안정된 볼 처리로 2002년의 왼쪽을 지켰다.</p></li>
   <li><strong>조르지뉴</strong><small lang="pt-BR">Jorginho · 오른쪽 수비수</small><p>공격적인 오버래핑과 기술로 1988년 우승 전후 측면을 넓혔다.</p></li>
   <li><strong>그라니트 자카</strong><small lang="de">Granit Xhaka · 수비형 미드필더</small><p>패스 방향과 경기의 감정을 통제하며 2024년 무패 우승의 중앙을 세웠다.</p></li>
-  <li><strong>안제이 분촐</strong><small lang="pl">Andrzej Buncol · 중앙 미드필더</small><p>왕성한 활동량과 전진으로 1988년 UEFA 컵 우승기의 중원을 움직였다.</p></li>
+  <li><strong>안제이 분촐</strong><small lang="pl">Andrzej Buncol · 중앙 미드필더</small><p>왕성한 활동량과 전진으로 1988년 UEFA컵 우승기의 중원을 움직였다.</p></li>
   <li><strong>아르투로 비달</strong><small lang="es">Arturo Vidal · 중앙 미드필더</small><p>충돌과 침투를 즐기는 전천후 능력으로 세계적 미드필더의 싹을 틔웠다.</p></li>
   <li><strong>크리스티안 슈라이어</strong><small lang="de">Christian Schreier · 공격형 미드필더</small><p>1988년 결승의 크로스와 공격 전개로 대역전의 마지막 고리를 만들었다.</p></li>
   <li><strong>율리안 브란트</strong><small lang="de">Julian Brandt · 공격형 미드필더</small><p>측면과 중앙을 유영하는 터치로 젊은 공격진의 창조성을 맡았다.</p></li>
@@ -242,7 +242,7 @@ featured: true
 
 1. <span id="source-1"></span>[바이어 04: 1903년 노동자 170명의 청원과 1904년 구단 창립](https://www.bayer04.de/de-de/news/bayer04/brief-vom-27-november-1903-grundstein-fuer-klub-gruendung-1904)
 2. <span id="source-2"></span>[바이어 04: 창단부터 2024년까지 120년 연표](https://www.bayer04.de/en-us/news/bayer04/120-years-of-bayer-04-leverkusen-timeline)
-3. <span id="source-3"></span>[바이어 04: 1988년 UEFA 컵 결승 2차전과 승부차기](https://www.bayer04.de/en-us/page/history/founding-years-to-the-new-millennium/1980s)
+3. <span id="source-3"></span>[바이어 04: 1988년 UEFA컵 결승 2차전과 승부차기](https://www.bayer04.de/en-us/page/history/founding-years-to-the-new-millennium/1980s)
 4. <span id="source-4"></span>[바이어 04: 1999-2000시즌 운터하힝의 마지막 경기](https://www.bayer04.de/en-us/page/history/seasons/1999-2000)
 5. <span id="source-5"></span>[바이어 04: 2023-24시즌 첫 푸스발-분데스리가 우승과 무패 기록](https://www.bayer04.de/en-us/competition/202324-season/bundesliga)
 6. <span id="source-6"></span>[바이어 04: 뤼디거 폴보른의 출전 기록과 구단 내 역할](https://www.bayer04.de/en-us/news/bayer04/ruediger-vollborn-player-with-most-appearances-title-winner-and-club-historian)
