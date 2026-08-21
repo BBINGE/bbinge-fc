@@ -229,7 +229,7 @@ featured: true
 
 ## 열한 명 뒤에 남은 또 다른 도르트문트
 
-로만 바이덴펠러, 볼프강 파울, 네벤 수보티치, 우카시 피슈체크, 제바스티안 켈, 누리 샤힌, 쿠바, 로타어 에메리히, 지크프리트 헬트, 슈테판 샤퓌자. 이 이름들만으로도 전혀 다른 베스트 11을 만들 수 있다. 3군에는 귄도안, 가가와, 괴체, 레반도프스키, 오바메양, 홀란까지 내려간다.
+로만 바이덴펠러, 볼프강 파울, 네벤 수보티치, 우카시 피슈체크, 제바스티안 켈, 누리 샤힌, 야쿠프 브와슈치코프스키, 로타어 에메리히, 지크프리트 헬트, 슈테판 샤퓌자. 이 이름들만으로도 전혀 다른 베스트 11을 만들 수 있다. 3군에는 귄도안, 가가와, 괴체, 레반도프스키, 피에르에므리크 오바므양, 홀란까지 내려간다.
 
 좋은 역대 베스트 11은 논쟁을 끝내는 명단이 아니다. 한 구단의 기억이 얼마나 두꺼운지 보여주고, 독자가 자기 열한 명을 다시 고르게 만드는 명단이다. 아래 네 장은 2025년 원고를 위해 만든 표제, 포메이션, 2군, 3군을 한 흐름으로 보존한 것이다.
 
@@ -253,7 +253,7 @@ featured: true
   <li><strong>제바스티안 켈</strong><small lang="de">Sebastian Kehl · 수비형 미드필더</small><p>2002·2011·2012년 세 번의 리그 우승을 연결한 주장과 중원의 방패.</p></li>
   <li><strong>누리 샤힌</strong><small lang="tr">Nuri Şahin · 중앙 미드필더</small><p>2010-11시즌 빌드업의 방향을 정하며 젊은 챔피언의 두뇌가 됐다.</p></li>
   <li><strong>아키 슈미트</strong><small lang="de">Alfred Schmidt · 공격형 미드필더</small><p>1950~60년대의 창조성과 득점으로 첫 황금기의 세대를 이었다.</p></li>
-  <li><strong>쿠바</strong><small lang="pl">Jakub Błaszczykowski · 오른쪽 윙어</small><p>직선적인 돌파와 헌신으로 클롭 시대의 오른쪽에 속도와 온기를 더했다.</p></li>
+  <li><strong>야쿠프 브와슈치코프스키</strong><small lang="pl">Jakub Błaszczykowski · 오른쪽 윙어</small><p>직선적인 돌파와 헌신으로 클롭 시대의 오른쪽에 속도와 온기를 더했다.</p></li>
   <li><strong>만프레트 부르크스뮐러</strong><small lang="de">Manfred Burgsmüller · 세컨드 스트라이커</small><p>1970~80년대의 어려운 시간을 득점으로 버틴 다재다능한 공격수.</p></li>
   <li><strong>알프레트 니피에클로</strong><small lang="de">Alfred Niepieklo · 센터 포워드</small><p>프라이슬러·켈바사와 ‘세 명의 알프레트’를 이루어 2연패를 만들었다.</p></li>
   <li><strong>로타어 에메리히</strong><small lang="de">Lothar Emmerich · 센터 포워드</small><p>강력한 왼발과 득점력으로 1966년 유럽 우승기의 공격을 상징했다.</p></li>
@@ -289,7 +289,7 @@ featured: true
   <li><strong>카를하인츠 리들레</strong><small>센터 포워드</small><p>1997년 결승에서 두 골을 넣어 유럽 챔피언의 길을 열었다.</p></li>
   <li><strong>얀 콜러</strong><small>센터 포워드</small><p>압도적 높이와 부드러운 연계로 2002년 우승팀의 기준점이 됐다.</p></li>
   <li><strong>로베르트 레반도프스키</strong><small>센터 포워드</small><p>압박형 공격수에서 세계적 9번으로 성장하며 더블을 완성했다.</p></li>
-  <li><strong>피에르에메릭 오바메양</strong><small>센터 포워드</small><p>폭발적인 뒷공간 침투와 득점왕 시즌으로 포스트 클롭 시대를 이끌었다.</p></li>
+  <li><strong>피에르에므리크 오바므양</strong><small>센터 포워드</small><p>폭발적인 뒷공간 침투와 득점왕 시즌으로 포스트 클롭 시대를 이끌었다.</p></li>
   <li><strong>엘링 홀란</strong><small>센터 포워드</small><p>짧은 재임에도 유럽 무대의 득점 속도를 새로 쓴 파괴적 골잡이.</p></li>
 </ul>
 
