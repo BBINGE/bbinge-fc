@@ -1,6 +1,6 @@
 ---
-// 정사각(1:1) 카드 피드. 데스크톱 4열 → 태블릿 2열 → 모바일 1열(모바일 퍼스트로는 1→2→4 순서로 작성).
-// 사진은 3000×3000 무손실 정사각 원본을 쓰는 게 원칙이라 object-fit:cover를 걸어도 실제로는 크롭이 일어나지 않는다.
+// 정사각(1:1) 카드 피드. 모바일 2열 → 태블릿 3열 → 데스크톱 4열.
+// cardImage가 있으면 정사각 전용 편집물을 쓰고, 일반 사진은 coverImage를 자연스럽게 중앙 크롭한다.
 // N개마다 인피드 광고(AdSlot square)를 같은 크기의 카드 한 칸으로 끼워 넣는다.
 import { categories, getArticlePath } from '../config/categories';
 import AdSlot from './AdSlot.astro';
@@ -11,37 +11,33 @@ import { imageFocusStyle } from '../utils/imageFocus';
 interface Props {
   entries: CollectionEntry<'articles'>[];
   adEvery?: number;
+  emptyMessage?: string;
 }
 
-const { entries, adEvery = 8 } = Astro.props;
+const { entries, adEvery = 8, emptyMessage = '아직 등록된 글이 없어요.' } = Astro.props;
 ---
 
 {entries.length === 0 ? (
-  <p class="text-[13px] text-[var(--bbfc-gray-1)] py-10 text-center">아직 등록된 글이 없어요.</p>
+  <p class="text-[13px] text-[var(--bbfc-gray-1)] py-10 text-center">{emptyMessage}</p>
 ) : (
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-7 md:gap-x-4 lg:gap-x-5">
     {entries.map((entry, i) => (
       <>
         <a href={getArticlePath(entry.data.category, entry.id)} class="block group">
           <div class="relative aspect-square rounded-[var(--bbfc-radius)] bg-[var(--bbfc-fill)] overflow-hidden flex items-center justify-center">
-            {entry.data.coverImage ? (
-              <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" style={imageFocusStyle(entry.data.coverImage)} />
+            {(entry.data.cardImage ?? entry.data.coverImage) ? (
+              <img src={entry.data.cardImage ?? entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.025]" style={imageFocusStyle(entry.data.cardImage ?? entry.data.coverImage)} />
             ) : (
               <span class="text-[11px] text-[var(--bbfc-gray-2)]">사진 없음</span>
             )}
             {isNewlyPublished(entry.data.pubDate) && <span class="new-badge">NEW</span>}
           </div>
-          <p class="text-[11px] text-[var(--bbfc-blue)] mt-2.5">{categories[entry.data.category]?.label}</p>
-          <p class="text-[13.5px] font-medium text-[var(--bbfc-ink)] mt-1 leading-snug line-clamp-2">
+          <div class="flex items-center justify-between gap-2 mt-2.5 text-[10px] md:text-[11px]">
+            <p class="min-w-0 truncate text-[var(--bbfc-blue)]">{categories[entry.data.category]?.label}</p>
+            <time class="shrink-0 text-[var(--bbfc-gray-2)]" datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('ko-KR')}</time>
+          </div>
+          <p class="text-[13px] md:text-[13.5px] font-medium text-[var(--bbfc-ink)] mt-1 leading-snug line-clamp-2">
             {entry.data.title}
-          </p>
-          {entry.data.tags.length > 0 && (
-            <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-1 truncate">
-              {entry.data.tags.slice(0, 2).map((tag) => `#${tag}`).join(' ')}
-            </p>
-          )}
-          <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-1">
-            {entry.data.pubDate.toLocaleDateString('ko-KR')}
           </p>
         </a>
         {adEvery > 0 && (i + 1) % adEvery === 0 && i !== entries.length - 1 && <AdSlot square />}
@@ -51,5 +47,5 @@ const { entries, adEvery = 8 } = Astro.props;
 )}
 
 <style>
-  .new-badge { position:absolute; top:10px; right:10px; z-index:1; padding:5px 8px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:9px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
+  .new-badge { position:absolute; top:8px; right:8px; z-index:1; padding:5px 7px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:8px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
 </style>
