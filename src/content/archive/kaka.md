@@ -128,10 +128,10 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid">
-  <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>두 차례의 출발</small></div>
+  <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>155경기 · 51골</small></div>
   <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2009 · 2013-14</span><small>307경기 · 104골</small></div>
   <div><img src="/images/archive/legends/kaka/club-real-madrid.svg" alt="레알 마드리드 CF 문장" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
-  <div><img src="/images/archive/legends/kaka/club-orlando-city.svg" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>주장 · 창단의 얼굴</small></div>
+  <div><img src="/images/archive/legends/kaka/club-orlando-city.svg" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>78경기 · 25골</small></div>
   <div><img src="/images/archive/legends/kaka/club-brazil.webp" alt="브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>2002-2016</span><small>92경기 · 29골</small></div>
 </div>
 
@@ -241,6 +241,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
   <li><a href="https://sco.wikipedia.org/wiki/File:Real_Madrid_CF.svg" rel="noopener noreferrer">Wikimedia: Real Madrid CF.svg</a>: 주요 클럽 기록의 레알 마드리드 문장.</li>
   <li><a href="https://fr.wikipedia.org/wiki/Fichier:Orlando_City_%28logo%29.svg" rel="noopener noreferrer">Wikimedia: Orlando City (logo).svg</a>: 주요 클럽 기록의 올랜도 시티 문장.</li>
   <li><a href="https://www.transfermarkt.com/kaka/rueckennummern/spieler/3366" rel="noopener noreferrer">Transfermarkt: Kaká squad number history</a>: 클럽·브라질 대표팀 시즌별 등번호 기록.</li>
+  <li><a href="https://www.saopaulofc.net/obrigado-kaka/" rel="noopener noreferrer">São Paulo FC: Obrigado, Kaká!</a>: 두 차례에 걸친 상파울루 통산 155경기 51골.</li>
+  <li><a href="https://www.orlandocitysc.com/news/orlando-city-sc-to-honor-lions-great-kaka-as-first-ever-inductee-to-club-s-legends-terrace-on-july-6" rel="noopener noreferrer">Orlando City SC: Kaká Legends’ Terrace</a>: 올랜도 시티 전 대회 통산 78경기 25골.</li>
 </ul></div>
 
 <p class="record-note">이 글은 운영자가 과거 작성한 카카 원고와 직접 선별한 여섯 편의 플레이 영상을 저본으로 삼고, 구단·UEFA·FIFA 기록과 동시대 보도를 대조해 확장한 개정판입니다.</p>
