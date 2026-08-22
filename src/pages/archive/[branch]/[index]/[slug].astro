@@ -283,7 +283,9 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.trophy-card.world) { background: linear-gradient(145deg, #073a23, #08783e); }
   .archive-body :global(.trophy-card.libertadores) { background: linear-gradient(145deg, #531a10, #a83a1c); }
   .archive-body :global(.trophy-card.champions) { background: linear-gradient(145deg, #071d4b, #174d96); }
-  .archive-body :global(.trophy-card img) { position: absolute; right: -8px; top: 15px; width: 118px; height: 136px; color: #fff; opacity: .1; }
+  .archive-body :global(.trophy-card img) { position: absolute; z-index: 0; right: -16px; top: 10px; width: 142px; height: 162px; object-fit: contain; object-position: center; opacity: .13; filter: grayscale(1) brightness(1.45) contrast(1.08); mix-blend-mode: screen; pointer-events: none; }
+  .archive-body :global(.trophy-card.libertadores img) { right: -4px; top: 7px; width: 112px; height: 170px; }
+  .archive-body :global(.trophy-card.champions img) { right: -22px; top: 8px; width: 158px; height: 166px; }
   .archive-body :global(.trophy-card span) { position: relative; font-size: 9px; font-weight: 800; letter-spacing: .15em; }
   .archive-body :global(.trophy-card strong) { position: relative; margin-top: 6px; font-size: 17px; line-height: 1.35; }
   .archive-body :global(.trophy-card small) { position: relative; margin-top: 7px; font-size: 11px; color: rgba(255,255,255,.68); }

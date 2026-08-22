@@ -123,9 +123,9 @@ draft: false
 ## 대표 우승 경력
 
 <div class="trophy-feature-grid">
-  <div class="trophy-card world"><img src="/images/archive/legends/cafu/trophy.svg" alt="" /><span>BRAZIL</span><strong>FIFA 월드컵</strong><small>두 번의 우승 · 세 번의 결승</small></div>
-  <div class="trophy-card libertadores"><img src="/images/archive/legends/cafu/trophy.svg" alt="" /><span>SÃO PAULO</span><strong>코파 리베르타도레스</strong><small>남미 2연패</small></div>
-  <div class="trophy-card champions"><img src="/images/archive/legends/cafu/trophy.svg" alt="" /><span>AC MILAN</span><strong>UEFA 챔피언스 리그</strong><small>2005년 준우승 · 2007년 우승</small></div>
+  <div class="trophy-card world"><img src="/images/about-world-cup-trophy.webp" alt="" /><span>BRAZIL</span><strong>FIFA 월드컵</strong><small>두 번의 우승 · 세 번의 결승</small></div>
+  <div class="trophy-card libertadores"><img src="/images/archive/legends/cafu/copa-libertadores-trophy.png" alt="" /><span>SÃO PAULO</span><strong>코파 리베르타도레스</strong><small>남미 2연패</small></div>
+  <div class="trophy-card champions"><img src="/images/about-champions-league-trophy.webp" alt="" /><span>AC MILAN</span><strong>UEFA 챔피언스 리그</strong><small>2005년 준우승 · 2007년 우승</small></div>
 </div>
 
 <div class="career-honours">
@@ -184,6 +184,7 @@ draft: false
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA: Behind the World Cup record, Cafu</a>: 세 차례 월드컵 결승, 1994년 교체 투입, 2002년 시상대 이야기.</li>
   <li><a href="https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828" rel="noopener noreferrer">FIFA: Scolari's Seleção of 02 in numbers</a>: 에메르송의 부상과 2002년 대표팀 기록.</li>
   <li><a href="https://inside.fifa.com/en/campaigns/football-unites-the-world/news/cafu-football-can-transform-peoples-lives" rel="noopener noreferrer">FIFA: Cafu, Football can transform people's lives</a>: A매치 142경기와 월드컵 20경기.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png" rel="noopener noreferrer">Wikimedia Commons: Copa Libertadores trophy</a>: 코파 리베르타도레스 트로피 장식 이미지, Mathiaseditorxd, CC BY-SA 4.0.</li>
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
 </ul></div>
 
