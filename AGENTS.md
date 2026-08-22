@@ -5,7 +5,8 @@
 1. `BBINGE_FC_BRIEF.md` — 프로젝트의 단일 설계 기준 (브랜드·구조·성능 원칙)
 2. `CLAUDE.md` — 장기 운영 규칙
 3. `EDITORIAL_ASSET_POLICY.md` — 콘텐츠·편집물·썸네일·저작권·AdSense 판단 기준
-4. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
+4. `PLAYER_ARCHIVE_RULES.md` — 선수 인물 아카이브 원고·표기·기록·사진·발행 필수 규칙
+5. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
 
 ## 작업 시작
 
@@ -27,6 +28,7 @@ git log -10 --oneline
 - 확정된 브랜드 문구, 카테고리 구조, 운영자가 작성한 글 본문을 요청 없이 수정하지 않는다.
 - 논의·질문은 구현 승인으로 간주하지 않는다.
 - CMS(`public/admin/`, `functions/`)를 수정할 때는 Sveltia CMS 설정과 GitHub OAuth 흐름의 호환성을 함께 확인한다.
+- 선수 인물 글을 조사·수정·발행할 때는 `PLAYER_ARCHIVE_RULES.md`의 체크리스트를 생략하지 않는다.
 
 ## 작업 종료
 
