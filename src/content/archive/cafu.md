@@ -23,6 +23,11 @@ draft: false
     <span>BRAZIL · ALL-TIME LEGEND</span>
     <strong>브라질 연방 공화국</strong>
     <small>República Federativa do Brasil</small>
+    <div class="identity-copy-white" aria-hidden="true">
+      <span>BRAZIL · ALL-TIME LEGEND</span>
+      <strong>브라질 연방 공화국</strong>
+      <small>República Federativa do Brasil</small>
+    </div>
   </div>
 </div>
 
@@ -59,6 +64,11 @@ draft: false
 ## 카푸 프로필
 
 <div class="record-facts record-facts-brazil">
+  <div class="profile-country-head">
+    <img src="/images/flags/br.svg" alt="" width="640" height="448" />
+    <strong>브라질 연방 공화국<small>República Federativa do Brasil</small></strong>
+    <img src="/images/archive/legends/cafu/club-brazil.webp" alt="2002년 브라질 축구 국가대표팀 문장" width="580" height="581" />
+  </div>
   <dl><dt>본명</dt><dd>Marcos Evangelista de Morais</dd></dl><dl><dt>등록명</dt><dd>Cafu · 카푸</dd></dl>
   <dl><dt>출생</dt><dd>1970년 6월 7일</dd></dl><dl><dt>출생지</dt><dd>브라질 상파울루</dd></dl>
   <dl><dt>신장</dt><dd>176cm</dd></dl><dl><dt>포지션</dt><dd>오른쪽 풀백 · 윙백</dd></dl>
@@ -85,7 +95,7 @@ draft: false
 
 ## AC 밀란 시절: 서른셋 이후의 두 번째 정상
 
-<figure class="legend-section-photo"><img src="/images/goat/players/cafu.webp" alt="2007년 AC 밀란 유니폼을 입은 카푸" width="299" height="417" loading="lazy" /><figcaption>2007년 AC 밀란의 카푸. 사진: Александр Мельников, CC BY-SA 3.0.</figcaption></figure>
+<figure class="legend-section-photo legend-section-portrait"><img src="/images/archive/legends/cafu/cafu-milan.jpg" alt="2007년 AC 밀란 유니폼을 입고 경기하는 카푸" width="299" height="417" loading="lazy" /><figcaption>2007년 AC 밀란 유니폼을 입고 경기하는 카푸. 사진: Александр Мельников, CC BY-SA 3.0.</figcaption></figure>
 
 2003년 카푸는 만 33세에 AC 밀란으로 향했다. 일반적인 풀백이라면 하락세를 걱정할 나이였지만, 그는 합류 첫 시즌 세리에 A 우승을 차지했다. 로마에서 측면을 폭파하던 선수가 밀란에서는 언제 전진하고 언제 자리를 지켜야 하는지 아는 베테랑으로 진화했다.
 
@@ -93,7 +103,7 @@ draft: false
 
 ## 브라질 대표팀 시절: 세 번의 결승, 두 번의 우승
 
-<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/cafu/cafu-cover.png" alt="2002 FIFA 월드컵 트로피에 입 맞추는 브라질 주장 카푸" width="966" height="966" loading="lazy" /><figcaption>세 번의 월드컵 결승 가운데 마지막 무대에서 주장으로 트로피를 든 카푸.</figcaption></figure>
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/cafu/cafu-brazil-fifa.png" alt="2002 FIFA 월드컵 트로피를 들어 올리는 브라질 주장 카푸" width="753" height="600" loading="lazy" /><figcaption>세 번의 월드컵 결승 가운데 마지막 무대에서 주장으로 트로피를 든 카푸. 사진: FIFA 공식 기록.</figcaption></figure>
 
 카푸는 브라질 A대표팀에서 **142경기**를 뛰었다. FIFA가 집계한 브라질 남자 대표팀 역대 최다 출전 기록이며, 월드컵 20경기도 브라질 공동 최다 기록이다. 숫자보다 강한 것은 결승의 연속성이다. 1994년 미국, 1998년 프랑스, 2002년 한일 월드컵. 카푸는 축구 역사상 세 차례 연속 월드컵 결승전에 실제로 출전한 유일한 선수다.
 
@@ -105,12 +115,12 @@ draft: false
 
 <div class="club-career-grid">
   <div><img src="/images/archive/legends/cafu/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>1989-1995</span><small>216경기 · 33골</small></div>
-  <div><img src="/images/archive/legends/cafu/club-zaragoza.svg" alt="레알 사라고사 문장" /><strong>레알 사라고사</strong><span>1995</span><small>16경기</small></div>
+  <div><img src="/images/archive/legends/cafu/club-zaragoza.png" alt="1951년형 레알 사라고사 문장" /><strong>레알 사라고사</strong><span>1995</span><small>16경기</small></div>
   <div><img src="/images/archive/legends/cafu/club-juventude.svg" alt="EC 주벤투지 문장" /><strong>EC 주벤투지</strong><span>1995</span><small>4경기</small></div>
   <div><img src="/images/archive/legends/cafu/club-palmeiras.svg" alt="SE 파우메이라스 문장" /><strong>SE 파우메이라스</strong><span>1995-1997</span><small>41경기 · 2골</small></div>
   <div><img src="/images/archive/legends/cafu/club-roma.svg" alt="AS 로마 1990년대형 문장" /><strong>AS 로마</strong><span>1997-2003</span><small>218경기 · 8골</small></div>
   <div><img src="/images/archive/legends/cafu/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2008</span><small>166경기 · 4골</small></div>
-  <div><img src="/images/archive/legends/cafu/club-brazil.svg" alt="브라질 대표팀 상징" /><strong>브라질 대표팀</strong><span>1990-2006</span><small>142경기 · 5골</small></div>
+  <div><img src="/images/archive/legends/cafu/club-brazil.webp" alt="1994-2002년형 브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>1990-2006</span><small>142경기 · 5골</small></div>
 </div>
 
 <p class="record-note">클럽별 통산 경기 수는 친선 경기 포함 여부 등 집계 범위에 따라 차이가 있다. 로마와 밀란은 각 구단 공식 명예의 전당, 대표팀은 FIFA 집계를 우선했다.</p>
@@ -178,6 +188,7 @@ draft: false
   <li><a href="https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828" rel="noopener noreferrer">FIFA: Scolari's Seleção of 02 in numbers</a>: 에메르송의 부상과 2002년 대표팀 기록.</li>
   <li><a href="https://inside.fifa.com/en/campaigns/football-unites-the-world/news/cafu-football-can-transform-peoples-lives" rel="noopener noreferrer">FIFA: Cafu, Football can transform people's lives</a>: A매치 142경기와 월드컵 20경기.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Cafu_2007.jpg" rel="noopener noreferrer">Wikimedia Commons: Cafu 2007</a>: AC 밀란 시절 사진, Александр Мельников, CC BY-SA 3.0.</li>
+  <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
 </ul></div>
 
 <p class="record-note">이 글은 운영자가 과거 작성한 카푸 원고와 직접 선별·편집한 영상 캡션을 저본으로 삼고, FIFA와 구단 공식 기록을 대조해 확장한 개정판입니다.</p>

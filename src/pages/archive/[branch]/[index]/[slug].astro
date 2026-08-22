@@ -239,10 +239,10 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-video) { width: 100%; margin: 42px 0; }
   .archive-body :global(.legend-video video) { display: block; width: 100%; max-height: 520px; border-radius: var(--bbfc-radius-lg); background: #0b0d10; }
   .archive-body :global(.legend-video figcaption) { text-align: left; }
-  .archive-body :global(.legend-identity-brazil) { position: relative; overflow: hidden; isolation: isolate; background: linear-gradient(135deg, #07883d 0 34%, #f7d910 34% 100%); color: #111; }
-  .archive-body :global(.legend-identity-brazil::after) { content: ''; position: absolute; inset: 0 66% 0 0; z-index: -1; background: #07883d; clip-path: polygon(0 0, 100% 0, 72% 100%, 0 100%); }
+  .archive-body :global(.legend-identity-brazil) { position: relative; overflow: hidden; background: linear-gradient(125deg, #07883d 0 34%, #f7d910 34% 100%); color: #111; }
   .archive-body :global(.legend-identity-brazil img) { position: relative; z-index: 1; }
-  .archive-body :global(.legend-identity-brazil .identity-copy > *) { color: transparent; background: linear-gradient(135deg, #fff 0 14%, #111 14% 100%); background-clip: text; -webkit-background-clip: text; }
+  .archive-body :global(.legend-identity-brazil .identity-copy) { position: relative; color: #111; }
+  .archive-body :global(.legend-identity-brazil .identity-copy-white) { position: absolute; inset: 0; color: #fff; clip-path: polygon(0 0, 16% 0, 0 100%); pointer-events: none; }
   .archive-body :global(.legend-reel) { overflow: hidden; margin: 40px 0 64px; border-radius: 20px; background: #061b11; color: #fff; box-shadow: 0 24px 60px rgba(1,41,22,.18); }
   .archive-body :global(.legend-reel-head) { display: grid; grid-template-columns: 1fr auto; padding: 20px 22px 18px; }
   .archive-body :global(.legend-reel-head span) { grid-column: 1; font-size: 9px; font-weight: 800; letter-spacing: .16em; color: #f8d80e; }
@@ -254,21 +254,28 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-reel-progress) { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; margin-top: 14px; }
   .archive-body :global(.legend-reel-progress i) { height: 3px; border-radius: 3px; background: rgba(255,255,255,.18); }
   .archive-body :global(.legend-reel-progress i.is-active) { background: #f8d80e; }
-  .archive-body :global(.record-facts-brazil) { overflow: hidden; border: 1px solid #08783e; border-radius: 16px; background: linear-gradient(135deg, rgba(7,136,61,.08), rgba(247,217,16,.16)); }
-  .archive-body :global(.record-facts-brazil dl) { border-color: rgba(8,120,62,.2); }
-  .archive-body :global(.record-facts-brazil dt) { color: #08783e; font-weight: 750; }
+  .archive-body :global(.record-facts-brazil) { overflow: hidden; border: 1px solid #07883d; border-radius: 16px; background: #fff; }
+  .archive-body :global(.profile-country-head) { grid-column: 1 / -1; display: grid; grid-template-columns: 112px 1fr 90px; align-items: center; gap: 22px; min-height: 154px; padding: 22px 28px; background: linear-gradient(135deg, #07883d 0 30%, #f7d910 30% 100%); }
+  .archive-body :global(.profile-country-head > img:first-child) { width: 112px; height: 78px; object-fit: cover; border-radius: 5px; }
+  .archive-body :global(.profile-country-head > img:last-child) { width: 76px; height: 82px; justify-self: end; object-fit: contain; }
+  .archive-body :global(.profile-country-head strong) { font-size: 21px; line-height: 1.3; color: #071d4b; }
+  .archive-body :global(.profile-country-head small) { display: block; margin-top: 5px; font-size: 11px; font-weight: 600; color: #071d4b; }
+  .archive-body :global(.record-facts-brazil dl) { border-color: rgba(8,120,62,.22); background: linear-gradient(90deg, rgba(7,136,61,.06), rgba(247,217,16,.08)); }
+  .archive-body :global(.record-facts-brazil dt) { color: #08783e; font-weight: 800; }
   .archive-body :global(.legend-section-photo) { max-width: 640px; }
   .archive-body :global(.legend-section-photo img) { display: block; width: 100%; max-height: 540px; object-fit: cover; object-position: 50% 20%; }
   .archive-body :global(.legend-section-cover img) { aspect-ratio: 16 / 10; object-position: 50% 24%; }
+  .archive-body :global(.legend-section-portrait) { max-width: 480px; }
+  .archive-body :global(.legend-section-portrait img) { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 18%; }
   .archive-body :global(.section-photo-fallback) { display: grid; min-height: 340px; place-content: end start; padding: 30px; border-radius: 18px; background: radial-gradient(circle at 72% 28%, #f2aa00 0 8%, transparent 9%), linear-gradient(135deg, #6d1426, #9c2335 55%, #ee9e00); color: #fff; }
   .archive-body :global(.section-photo-fallback span) { font-size: 10px; letter-spacing: .18em; color: #ffd36a; }
   .archive-body :global(.section-photo-fallback strong) { margin-top: 8px; font-size: clamp(34px, 8vw, 62px); line-height: .94; }
   .archive-body :global(.club-career-grid) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 26px 0 34px; }
   .archive-body :global(.club-career-grid > div) { display: grid; grid-template-columns: 58px 1fr auto; grid-template-rows: auto auto; gap: 2px 14px; align-items: center; padding: 16px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; }
   .archive-body :global(.club-career-grid img) { grid-row: 1 / 3; width: 58px; height: 58px; object-fit: contain; }
-  .archive-body :global(.club-career-grid strong) { font-size: 14px; line-height: 1.35; }
-  .archive-body :global(.club-career-grid span) { font-size: 11px; color: var(--bbfc-gray-2); }
-  .archive-body :global(.club-career-grid small) { grid-column: 3; grid-row: 1 / 3; font-size: 11px; font-weight: 700; color: var(--bbfc-blue-strong); }
+  .archive-body :global(.club-career-grid strong) { font-size: 16px; line-height: 1.35; }
+  .archive-body :global(.club-career-grid span) { font-size: 13px; font-weight: 600; color: var(--bbfc-gray-2); }
+  .archive-body :global(.club-career-grid small) { grid-column: 3; grid-row: 1 / 3; font-size: 14px; font-weight: 800; color: var(--bbfc-blue-strong); }
   .archive-body :global(.trophy-feature-grid) { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 26px 0 20px; }
   .archive-body :global(.trophy-card) { position: relative; display: grid; min-height: 190px; align-content: end; overflow: hidden; padding: 20px; border-radius: 16px; color: #d8b85b; }
   .archive-body :global(.trophy-card.world) { background: linear-gradient(145deg, #073a23, #08783e); }
@@ -280,8 +287,8 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.trophy-card small) { position: relative; margin-top: 7px; font-size: 11px; color: rgba(255,255,255,.68); }
   .archive-body :global(.career-honours) { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 24px; margin: 20px 0 46px; border-top: 1px solid var(--bbfc-ink); }
   .archive-body :global(.career-honours section) { padding: 17px 4px; border-bottom: 1px solid var(--bbfc-border); }
-  .archive-body :global(.career-honours strong) { display: block; margin-bottom: 8px; font-size: 14px; }
-  .archive-body :global(.career-honours p) { margin: 2px 0 0; font-size: 12px; line-height: 1.55; color: var(--bbfc-gray-1); }
+  .archive-body :global(.career-honours strong) { display: block; margin-bottom: 9px; font-size: 16px; }
+  .archive-body :global(.career-honours p) { margin: 3px 0 0; font-size: 14px; line-height: 1.6; color: var(--bbfc-gray-1); }
   .archive-body :global(.career-honours b) { color: #8b6a13; }
   /* 같은 인물·사건을 다룬 다른 기록으로 넘기는 배너. 일반 글의 .best-xi-cta와 같은
      토큰을 쓰되 장식 이모지 대신 해당 기록의 표지를 놓아 연대기 카드와 결을 맞춘다. */
@@ -376,7 +383,11 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.legend-identity strong) { font-size: 18px; }
     .archive-body :global(.honours-grid div) { min-height: 118px; }
     .archive-body :global(.legend-reel) { margin: 30px 0 52px; border-radius: 14px; }
-    .archive-body :global(.legend-identity-brazil .identity-copy > *) { color: #111; background: none; -webkit-text-fill-color: currentColor; }
+    .archive-body :global(.profile-country-head) { grid-template-columns: 72px 1fr 54px; gap: 12px; min-height: 118px; padding: 18px 14px; }
+    .archive-body :global(.profile-country-head > img:first-child) { width: 72px; height: 50px; }
+    .archive-body :global(.profile-country-head > img:last-child) { width: 48px; height: 58px; }
+    .archive-body :global(.profile-country-head strong) { font-size: 16px; }
+    .archive-body :global(.profile-country-head small) { font-size: 9px; }
     .archive-body :global(.legend-reel-head) { padding: 17px 16px 15px; }
     .archive-body :global(.legend-reel-head strong) { font-size: 16px; }
     .archive-body :global(.legend-reel-foot) { padding: 15px 16px 18px; }
@@ -384,6 +395,9 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.club-career-grid), .archive-body :global(.trophy-feature-grid), .archive-body :global(.career-honours) { grid-template-columns: 1fr; }
     .archive-body :global(.club-career-grid > div) { grid-template-columns: 48px 1fr auto; padding: 14px; }
     .archive-body :global(.club-career-grid img) { width: 48px; height: 48px; }
+    .archive-body :global(.club-career-grid strong) { font-size: 15px; }
+    .archive-body :global(.club-career-grid span) { font-size: 12px; }
+    .archive-body :global(.club-career-grid small) { font-size: 13px; }
     .archive-body :global(.trophy-card) { min-height: 150px; }
     .archive-body :global(table) { display: block; overflow-x: auto; white-space: nowrap; }
     .archive-body :global(.source-notes) { font-size: 12.5px; }
