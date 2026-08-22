@@ -90,7 +90,7 @@ draft: false
 
 ## AC 밀란 시절: 서른셋 이후의 두 번째 정상
 
-<figure class="legend-section-photo"><img src="/images/archive/legends/cafu/cafu-milan.png" alt="AC 밀란의 붉은색과 검은색 유니폼을 입고 공을 향해 뛰는 카푸" width="1024" height="716" loading="lazy" /><figcaption>AC 밀란 시절 경기 중인 카푸. 사진: 사용자 제공.</figcaption></figure>
+<figure class="legend-section-photo"><img src="/images/archive/legends/cafu/cafu-milan.png" alt="AC 밀란의 붉은색과 검은색 유니폼을 입고 공을 향해 뛰는 카푸" width="1024" height="716" loading="lazy" /><figcaption>AC 밀란 시절 경기 중인 카푸.</figcaption></figure>
 
 2003년 카푸는 만 33세에 AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈리아 밀라노의 축구단)</span>으로 향했다. 일반적인 풀백이라면 하락세를 걱정할 나이였지만, 그는 합류 첫 시즌 세리에 A 우승을 차지했다. 로마에서 측면을 폭파하던 선수가 밀란에서는 언제 전진하고 언제 자리를 지켜야 하는지 아는 노장으로 진화했다.
 
@@ -184,7 +184,6 @@ draft: false
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA: Behind the World Cup record, Cafu</a>: 세 차례 월드컵 결승, 1994년 교체 투입, 2002년 시상대 이야기.</li>
   <li><a href="https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828" rel="noopener noreferrer">FIFA: Scolari's Seleção of 02 in numbers</a>: 에메르송의 부상과 2002년 대표팀 기록.</li>
   <li><a href="https://inside.fifa.com/en/campaigns/football-unites-the-world/news/cafu-football-can-transform-peoples-lives" rel="noopener noreferrer">FIFA: Cafu, Football can transform people's lives</a>: A매치 142경기와 월드컵 20경기.</li>
-  <li>AC 밀란 시절 경기 사진: 사용자 제공.</li>
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
 </ul></div>
 
