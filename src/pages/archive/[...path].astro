@@ -87,7 +87,7 @@ const collectionSchema = {
                 <img src={record.data.coverImage} alt="" width="640" height="640" loading="lazy" />
                 {isNewlyPublished(record.data.pubDate) && <span class="new-badge">NEW</span>}
               </div>
-              <div><p>{record.data.year} · {record.data.subject}</p><h2>{record.data.title}</h2><span>{record.data.description}</span></div>
+              <div><p>{record.data.branch === 'legends' ? `${index?.label ?? branch.title} · LEGEND` : `${record.data.year} · ${record.data.subject}`}</p><h2>{record.data.title}</h2><span>{record.data.description}</span></div>
             </a>
           ))}
         </div>
