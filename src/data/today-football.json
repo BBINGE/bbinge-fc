@@ -1,42 +1,42 @@
 {
-  "date": "2026-08-22",
-  "updatedAt": "2026-08-22T13:06:03.707Z",
+  "date": "2026-08-23",
+  "updatedAt": "2026-08-22T18:34:44.069Z",
   "birthday": {
-    "name": "라우타로 마르티네스",
-    "birthYear": 1997,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q21484126",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lautaro%20Martinez%20Argentina%20v%20Spain%2019%20July%202026-049%20%28cropped%29.jpg?width=700"
+    "name": "주세페 메아차",
+    "birthYear": 1910,
+    "wikidataUrl": "http://www.wikidata.org/entity/Q192131",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Giuseppe%20Meazza%201935.jpg?width=700"
   },
   "matches": [
     {
-      "id": "2494001",
+      "id": "2494006",
       "league": "프리미어 리그",
-      "home": "Hull City",
-      "away": "Manchester United",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/fbqqda1601726113.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
-      "time": "20:30",
-      "date": "2026-08-22"
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/y08nak1534071116.png",
+      "time": "22:00",
+      "date": "2026-08-23"
     },
     {
-      "id": "2494002",
-      "league": "프리미어 리그",
-      "home": "Everton",
-      "away": "Crystal Palace",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/eqayrf1523184794.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
-      "time": "23:00",
-      "date": "2026-08-22"
+      "id": "2489089",
+      "league": "에레디비시",
+      "home": "PSV Eindhoven",
+      "away": "Groningen",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/f36qnp1666107447.png",
+      "time": "21:30",
+      "date": "2026-08-23"
     },
     {
-      "id": "2494003",
+      "id": "2494007",
       "league": "프리미어 리그",
-      "home": "Ipswich Town",
-      "away": "Sunderland",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/mdj1ey1634670785.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/tprtus1448813498.png",
-      "time": "23:00",
-      "date": "2026-08-22"
+      "home": "Brighton and Hove Albion",
+      "away": "Aston Villa",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/ywypts1448810904.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/cgvxt61785930389.png",
+      "time": "22:00",
+      "date": "2026-08-23"
     }
   ],
   "status": {
