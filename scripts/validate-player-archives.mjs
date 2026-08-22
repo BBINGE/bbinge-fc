@@ -2,6 +2,7 @@ import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const archiveRoot = path.resolve('src/content/archive');
+const playerTemplate = path.resolve('src/pages/archive/[branch]/[index]/[slug].astro');
 const requiredHeadings = [
   /^## 삥이FC .+ 평가$/m,
   /^## .+ 프로필$/m,
@@ -44,6 +45,10 @@ async function markdownFiles(directory) {
 }
 
 const failures = [];
+const playerTemplateSource = await readFile(playerTemplate, 'utf8');
+if (/font-size:\s*9px\b/.test(playerTemplateSource)) {
+  failures.push(`${path.relative(process.cwd(), playerTemplate)}: 선수 상세에 금지된 9px 글자 크기가 있습니다.`);
+}
 for (const file of await markdownFiles(archiveRoot)) {
   const source = await readFile(file, 'utf8');
   if (!source.includes('## 역대 클럽·국대 기록')) continue;
