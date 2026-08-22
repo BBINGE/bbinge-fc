@@ -178,18 +178,18 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
   <li><strong>월드 사커 올해의 선수</strong><small>영국 축구 전문지 World Soccer 선정</small><span>2007년</span></li>
   <li><strong>타임 100</strong><small>미국 시사주간지 TIME 선정 세계에서 가장 영향력 있는 100인</small><span>2008년 · 2009년</span></li>
   <li><strong>IFFHS 세계 최고의 플레이메이커</strong><small>국제축구역사통계연맹 선정</small><span>2007년</span></li>
-  <li><strong>FIFA 월드컵 도움왕</strong><span>2010년</span></li>
+  <li><strong>FIFA 월드컵 도움왕</strong><span>2010년 · 3도움</span></li>
   <li><strong>FIFA 컨페더레이션스컵 골든볼</strong><small>대회 최우수 선수</small><span>2009년</span></li>
   <li><strong>FIFA 컨페더레이션스컵 베스트 11</strong><span>2009년</span></li>
   <li><strong>FIFA 컨페더레이션스컵 결승전 최우수 선수</strong><small>결승전 Man of the Match</small><span>2009년</span></li>
   <li><strong>CONCACAF 골드컵 베스트 11</strong><small>북중미카리브축구연맹 주관 대회</small><span>2003년</span></li>
   <li><strong>UEFA 챔피언스 리그 득점왕</strong><span>2007년 (2006-07 시즌) · 10골</span></li>
-  <li><strong>UEFA 챔피언스 리그 도움왕</strong><span>2005년 (2004-05 시즌) · 2012년 (2011-12 시즌)</span></li>
+  <li><strong>UEFA 챔피언스 리그 도움왕</strong><span>2005년 (2004-05 시즌) · 5도움 / 2012년 (2011-12 시즌) · 5도움</span></li>
   <li><strong>볼라 지 오루</strong><small>Bola de Ouro · 브라질 세리에 A 최우수 선수</small><span>2002년</span></li>
   <li><strong>볼라 지 프라타</strong><small>Bola de Prata · 브라질 세리에 A 베스트 11</small><span>2002년</span></li>
   <li><strong>세리에 A 올해의 선수</strong><span>2004년 · 2007년</span></li>
   <li><strong>세리에 A 올해의 외국인 선수</strong><span>2004년 · 2006년 · 2007년</span></li>
-  <li><strong>세리에 A 도움왕</strong><span>2005년 (2004-05 시즌)</span></li>
+  <li><strong>세리에 A 도움왕</strong><span>2005년 (2004-05 시즌) · 13도움</span></li>
   <li><strong>메이저 리그 사커 올스타</strong><small>MLS 올스타 선정</small><span>2015년 · 2016년 · 2017년</span></li>
   <li><strong>메이저 리그 사커 올스타전 MVP</strong><small>MLS 올스타전 최우수 선수</small><span>2015년</span></li>
 </ul>
