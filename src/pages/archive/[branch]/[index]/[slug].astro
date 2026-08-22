@@ -253,7 +253,7 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-reel video) { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 520px; object-fit: contain; background: #000; }
   .archive-body :global(.legend-reel-foot) { padding: 18px 22px 22px; }
   .archive-body :global(.legend-reel-foot p) { min-height: 3.3em; margin: 0; font-size: 13px; line-height: 1.65; color: rgba(255,255,255,.8); }
-  .archive-body :global(.legend-reel-progress) { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; margin-top: 14px; }
+  .archive-body :global(.legend-reel-progress) { display: grid; grid-template-columns: repeat(var(--reel-count, 5), 1fr); gap: 5px; margin-top: 14px; }
   .archive-body :global(.legend-reel-progress i) { height: 3px; border-radius: 3px; background: rgba(255,255,255,.18); }
   .archive-body :global(.legend-reel-progress i.is-active) { background: #f8d80e; }
   .archive-body :global(.record-facts-brazil) { overflow: hidden; border: 1px solid #07883d; border-radius: 16px; background: #fff; }
