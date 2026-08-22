@@ -29,7 +29,7 @@ draft: false
 
 지금은 남미에서 열여덟 살짜리 특급 선수가 등장하면 얼마 지나지 않아 마드리드, 맨체스터, 런던, 파리로 향한다. 유럽에는 막대한 방송권료와 자본이 집중됐고, UEFA 챔피언스 리그<span class="foreign-note" lang="en">(UEFA Champions League)</span>는 오늘날 사실상의 세계 최고 클럽대항전으로 기능한다.
 
-펠레<span class="foreign-note" lang="pt-BR">(Edson Arantes do Nascimento, 브라질 축구선수·공격수, 1940–2022)</span>와 가린샤<span class="foreign-note" lang="pt-BR">(Manuel Francisco dos Santos, 브라질 축구선수·오른쪽 윙어, 1933–1983)</span>가 뛰던 시대에는 세계 최고의 남미 선수가 자국 클럽에서 전성기를 보내는 일이 낯설지 않았다. UEFA의 집계상 1982 FIFA 월드컵 이전까지 브라질의 월드컵 본선 명단에는 유럽 클럽 소속 선수가 한 명도 없었다. 유럽으로 건너간 선구자도 있었지만, 최정상급이면 어린 나이에 유럽으로 이동하는 오늘날의 경로가 아직 법칙은 아니었다.
+펠레<span class="foreign-note" lang="pt-BR">(Edson Arantes do Nascimento, 브라질 축구선수·공격수, 1940-2022)</span>와 가린샤<span class="foreign-note" lang="pt-BR">(Manuel Francisco dos Santos, 브라질 축구선수·오른쪽 윙어, 1933-1983)</span>가 뛰던 시대에는 세계 최고의 남미 선수가 자국 클럽에서 전성기를 보내는 일이 낯설지 않았다. UEFA의 집계상 1982 FIFA 월드컵 이전까지 브라질의 월드컵 본선 명단에는 유럽 클럽 소속 선수가 한 명도 없었다. 유럽으로 건너간 선구자도 있었지만, 최정상급이면 어린 나이에 유럽으로 이동하는 오늘날의 경로가 아직 법칙은 아니었다.
 
 이 한 가지 차이만 놓쳐도 1962년 산투스 FC<span class="foreign-note" lang="pt-BR">(Santos FC)</span>의 브라질 국내대회와 코파 리베르타도레스<span class="foreign-note" lang="es">(Copa Libertadores de América; 남미 각국의 최상위 클럽들이 겨루는 대륙선수권)</span>는 실제보다 작아 보인다. 오래된 팀을 비교하는 일은 기록을 현재의 서열표에 끼워 넣는 작업이 아니라, 그 기록을 만든 축구의 지도를 먼저 되찾는 작업에 가깝다.
 
@@ -116,7 +116,7 @@ draft: false
 
 챔피언스 리그에서는 훨씬 더 까다로운 문제가 기다리고 있었다. 당시 잉글랜드 클럽은 유럽대항전에서 강력했다. 준결승에는 바르셀로나를 제외하면 맨체스터 유나이티드 FC<span class="foreign-note" lang="en">(Manchester United FC)</span>, 첼시 FC<span class="foreign-note" lang="en">(Chelsea FC)</span>, 아스널 FC<span class="foreign-note" lang="en">(Arsenal FC)</span>가 올라왔다. 결승 상대 맨체스터 유나이티드는 전년도 챔피언이자 챔피언스 리그 시대 최초의 2연패를 노리던 팀이었다.
 
-알렉스 퍼거슨 경<span class="foreign-note" lang="en">(Sir Alexander Chapman Ferguson, 스코틀랜드 축구선수·감독, 1941–)</span>에게는 크리스티아누 호날두<span class="foreign-note" lang="pt-PT">(Cristiano Ronaldo dos Santos Aveiro, 포르투갈 축구선수·공격수, 1985–)</span>, 웨인 루니<span class="foreign-note" lang="en">(Wayne Mark Rooney, 잉글랜드 축구선수·공격수, 1985–)</span>, 리오 퍼디낸드<span class="foreign-note" lang="en">(Rio Gavin Ferdinand, 잉글랜드 축구선수·센터백, 1978–)</span>, 네마냐 비디치<span class="foreign-note" lang="sr-Latn">(Nemanja Vidić, 세르비아 축구선수·센터백, 1981–)</span>가 있었다.
+알렉스 퍼거슨 경<span class="foreign-note" lang="en">(Sir Alexander Chapman Ferguson, 스코틀랜드 축구선수·감독, 1941-)</span>에게는 크리스티아누 호날두<span class="foreign-note" lang="pt-PT">(Cristiano Ronaldo dos Santos Aveiro, 포르투갈 축구선수·공격수, 1985-)</span>, 웨인 루니<span class="foreign-note" lang="en">(Wayne Mark Rooney, 잉글랜드 축구선수·공격수, 1985-)</span>, 리오 퍼디낸드<span class="foreign-note" lang="en">(Rio Gavin Ferdinand, 잉글랜드 축구선수·센터백, 1978-)</span>, 네마냐 비디치<span class="foreign-note" lang="sr-Latn">(Nemanja Vidić, 세르비아 축구선수·센터백, 1981-)</span>가 있었다.
 
 로마 결승의 첫 10분은 오히려 맨체스터 유나이티드가 거칠게 밀어붙였다. 에토가 선제골을 넣자 경기의 공기가 바뀌었고, 후반에는 169cm의 메시가 퍼디낸드와 비디치 사이에서 헤더로 쐐기를 박았다. 바르셀로나는 스페인 클럽 최초의 리그·국내컵·유러피언컵 동시 우승팀이 됐다. 몇 달 뒤 슈퍼컵 두 개와 FIFA 클럽 월드컵까지 가져가 2009년 6관왕으로 불렸지만, 이미 5월의 로마에서 과르디올라가 1군 감독 첫해에 무엇을 바꾸었는지는 충분히 끝난 이야기였다.
 
@@ -164,7 +164,7 @@ draft: false
 
 그 뒤 도쿄에서 만난 상대를 ‘루마니아 팀’이라고 적으면 역사를 거의 지워버리는 셈이다.
 
-FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steaua București)</span>는 그해 유러피언컵 결승에서 FC 바르셀로나를 꺾은 **동유럽 최초의 유러피언컵 챔피언**이었다. 헬무트 두카담<span class="foreign-note" lang="ro">(Helmut Duckadam, 루마니아 축구선수·골키퍼, 1959–2024)</span>은 승부차기에서 바르셀로나의 네 차례 킥을 모두 막았다. UEFA가 지금도 따로 ‘기적’으로 다룰 만큼 충격적인 우승이었다.
+FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steaua București)</span>는 그해 유러피언컵 결승에서 FC 바르셀로나를 꺾은 **동유럽 최초의 유러피언컵 챔피언**이었다. 헬무트 두카담<span class="foreign-note" lang="ro">(Helmut Duckadam, 루마니아 축구선수·골키퍼, 1959-2024)</span>은 승부차기에서 바르셀로나의 네 차례 킥을 모두 막았다. UEFA가 지금도 따로 ‘기적’으로 다룰 만큼 충격적인 우승이었다.
 
 도쿄에서는 알사멘디가 골키퍼를 넘긴 공을 끝까지 따라가 머리로 밀어 넣었고, 리버는 1-0으로 이겼다. 리그 우승만으로는 채워지지 않던 구단의 빈칸이 한 해에 연달아 사라졌다. 첫 리베르타도레스, 첫 세계 정상. 더구나 마지막 문을 지키고 있던 팀은 이름 없는 동유럽의 복병이 아니라, 몇 달 전 바르셀로나의 승부차기 네 번을 모조리 막아 유럽을 뒤집어 놓은 챔피언이었다.
 
@@ -204,7 +204,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 2000년 11월 28일 도쿄. 마르틴 팔레르모가 레알 마드리드의 골문에 첫 골을 넣기까지 3분도 걸리지 않았고, 두 번째 골까지 더해졌을 때 경기 시계는 아직 6분을 가리키고 있었다. 상대 명단에는 피구, 라울, 호베르투 카를루스, 마켈렐레, 카시야스가 있었다. 챔피언스 리그 우승팀이 자기소개를 시작하기도 전에 보카가 두 골을 앞서 있었다.
 
-루이스 피구<span class="foreign-note" lang="pt-PT">(Luís Filipe Madeira Caeiro Figo, 포르투갈 축구선수·윙어, 1972–)</span>, 라울 곤살레스<span class="foreign-note" lang="es">(Raúl González Blanco, 스페인 축구선수·공격수, 1977–)</span>, 호베르투 카를루스<span class="foreign-note" lang="pt-BR">(Roberto Carlos da Silva Rocha, 브라질 축구선수·왼쪽 수비수, 1973–)</span>, 클로드 마켈렐레<span class="foreign-note" lang="fr">(Claude Makélélé Sinda, 프랑스 축구선수·미드필더, 1973–)</span>, 이케르 카시야스<span class="foreign-note" lang="es">(Iker Casillas Fernández, 스페인 축구선수·골키퍼, 1981–)</span>가 있었다.
+루이스 피구<span class="foreign-note" lang="pt-PT">(Luís Filipe Madeira Caeiro Figo, 포르투갈 축구선수·윙어, 1972-)</span>, 라울 곤살레스<span class="foreign-note" lang="es">(Raúl González Blanco, 스페인 축구선수·공격수, 1977-)</span>, 호베르투 카를루스<span class="foreign-note" lang="pt-BR">(Roberto Carlos da Silva Rocha, 브라질 축구선수·왼쪽 수비수, 1973-)</span>, 클로드 마켈렐레<span class="foreign-note" lang="fr">(Claude Makélélé Sinda, 프랑스 축구선수·미드필더, 1973-)</span>, 이케르 카시야스<span class="foreign-note" lang="es">(Iker Casillas Fernández, 스페인 축구선수·골키퍼, 1981-)</span>가 있었다.
 
 남은 시간은 후안 로만 리켈메의 것이었다. 그는 상대가 달려들기 전에 공을 처리하는 대신, 달려오도록 내버려 두었다가 몸으로 한 번 가리고 반대편을 열었다. 호베르투 카를루스를 향해 50m 가까운 패스를 떨어뜨려 팔레르모의 두 번째 골을 만든 장면과, 피구를 등진 채 공을 빼앗기지 않던 장면은 같은 능력의 두 얼굴이었다. 레알은 한 골을 만회했지만 경기의 속도만큼은 끝내 리켈메에게서 되찾지 못했다.
 
@@ -294,7 +294,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 | 세르주 그나브리 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | RW / LW |
 | 로베르트 레반도프스키 | 폴란드 <img class="flag" src="/images/flags/pl.svg" alt="폴란드 국기" /> | CF |
 
-2019년 11월 한지 플리크가 지휘봉을 잡았을 때 직함은 정식 후계자보다 임시 소방수에 가까웠다. 니코 코바치<span class="foreign-note" lang="hr">(Niko Kovač, 크로아티아 축구선수·감독, 1971–)</span>가 떠난 뒤 잠시 벤치를 맡길 사람이 필요했는데, 그 ‘잠시’가 유럽대항전에서 한 번도 비기지 않는 팀을 만들었다. 코로나19로 대회가 중단되고 8강부터 리스본 단판 토너먼트로 바뀐 특수한 시즌이었지만, 형식이 바뀌었다고 11경기를 모두 이겨야 한다는 규칙이 생긴 것은 아니었다.
+2019년 11월 한지 플리크가 지휘봉을 잡았을 때 직함은 정식 후계자보다 임시 소방수에 가까웠다. 니코 코바치<span class="foreign-note" lang="hr">(Niko Kovač, 크로아티아 축구선수·감독, 1971-)</span>가 떠난 뒤 잠시 벤치를 맡길 사람이 필요했는데, 그 ‘잠시’가 유럽대항전에서 한 번도 비기지 않는 팀을 만들었다. 코로나19로 대회가 중단되고 8강부터 리스본 단판 토너먼트로 바뀐 특수한 시즌이었지만, 형식이 바뀌었다고 11경기를 모두 이겨야 한다는 규칙이 생긴 것은 아니었다.
 
 <aside class="record-banner" aria-label="2019-20 바이에른 뮌헨 챔피언스 리그 기록">
   <span>UEFA CHAMPIONS LEAGUE · 2019-20</span>
@@ -316,7 +316,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 경기 시작 31분 만에 스코어가 4-1이 됐다. 2020년의 바르셀로나가 2009년의 팀은 아니었어도 메시, 수아레스, 부스케츠, 피케가 선발로 서 있었다. 챔피언스 리그 토너먼트에서 그 이름들을 상대로 여덟 골을 넣은 순간, 이 경기는 승리라기보다 한 시대의 강제 종료처럼 보였다.
 
-결승에서는 파리 생제르맹의 네이마르<span class="foreign-note" lang="pt-BR">(Neymar da Silva Santos Júnior, 브라질 축구선수·공격수, 1992–)</span>와 음바페<span class="foreign-note" lang="fr">(Kylian Mbappé Lottin, 프랑스 축구선수·공격수, 1998–)</span>를 노이어가 막았고, 파리에서 태어나 PSG 유소년팀에서 자란 킹슬리 코망이 친정팀의 골문에 결승골을 넣었다. 8-2 같은 폭발과 1-0 같은 인내를 모두 통과한 뒤에도 바이에른의 유럽 성적표에는 승리 말고 다른 단어가 없었다.
+결승에서는 파리 생제르맹의 네이마르<span class="foreign-note" lang="pt-BR">(Neymar da Silva Santos Júnior, 브라질 축구선수·공격수, 1992-)</span>와 음바페<span class="foreign-note" lang="fr">(Kylian Mbappé Lottin, 프랑스 축구선수·공격수, 1998-)</span>를 노이어가 막았고, 파리에서 태어나 PSG 유소년팀에서 자란 킹슬리 코망이 친정팀의 골문에 결승골을 넣었다. 8-2 같은 폭발과 1-0 같은 인내를 모두 통과한 뒤에도 바이에른의 유럽 성적표에는 승리 말고 다른 단어가 없었다.
 
 ---
 
@@ -341,7 +341,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 <div class="record-grid" aria-label="2012-13 바이에른 뮌헨 분데스리가 기록">
   <div><strong>29승 4무 1패</strong><span>리그 성적</span></div>
   <div><strong>승점 91</strong><span>당시 최고 기록</span></div>
-  <div><strong>98–18</strong><span>득점–실점</span></div>
+  <div><strong>98-18</strong><span>득점-실점</span></div>
   <div><strong>+80</strong><span>득실차</span></div>
   <div><strong>25점</strong><span>2위와의 격차</span></div>
 </div>
@@ -362,7 +362,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 이 시즌의 출발점은 2012년 8월이 아니라, 홈구장 알리안츠 아레나에서 첼시와 챔피언스 리그 결승을 치른 **2012년 5월 19일**이다. 바이에른은 선제골을 넣고도 동점을 허용했고, 연장전에서는 로번의 페널티킥이 막힌 끝에 승부차기로 패했다. 분데스리가에서는 도르트문트에 왕좌를 내줬고 DFB-포칼 결승에서도 같은 상대에게 2-5로 졌다. 한 시즌에 리그, 국내컵, 유럽대항전에서 모두 준우승한 실패가 다음 시즌의 기준점이 됐다.
 
-그리고 국내에서 바이에른의 왕좌를 빼앗은 팀은 위르겐 클로프<span class="foreign-note" lang="de">(Jürgen Norbert Klopp, 독일 축구선수·감독, 1967–)</span>의 보루시아 도르트문트<span class="foreign-note" lang="de">(Borussia Dortmund)</span>였다. 도르트문트는 분데스리가를 2연패했고, 2012 DFB-포칼 결승에서는 바이에른을 5-2로 이겼다.
+그리고 국내에서 바이에른의 왕좌를 빼앗은 팀은 위르겐 클로프<span class="foreign-note" lang="de">(Jürgen Norbert Klopp, 독일 축구선수·감독, 1967-)</span>의 보루시아 도르트문트<span class="foreign-note" lang="de">(Borussia Dortmund)</span>였다. 도르트문트는 분데스리가를 2연패했고, 2012 DFB-포칼 결승에서는 바이에른을 5-2로 이겼다.
 
 그 다음 시즌 바이에른은 리그에서 한 번만 졌고, 챔피언스 리그 준결승에서는 2012-13 라리가를 승점 100으로 우승한 바르셀로나를 만났다. 상대를 이미 황금기가 끝난 팀으로 축소해서는 이 준결승의 충격을 설명할 수 없다.
 
@@ -458,7 +458,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 ### 1967년 5월 25일, 리스본
 
-셀틱이 처음 오른 유러피언컵 결승에서 만난 팀은 헬레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera, 아르헨티나 출생 프랑스 축구선수·감독, 1910–1997)</span>의 인테르였다. 1964년과 1965년 유럽 챔피언, 1967년 다시 결승. 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola, 이탈리아 축구선수·공격형 미드필더·공격수, 1942–)</span>와 자친토 파케티<span class="foreign-note" lang="it">(Giacinto Facchetti, 이탈리아 축구선수·왼쪽 수비수, 1942–2006)</span>가 있던 ‘그란데 인테르’는 이 대회의 마지막 경기를 이미 너무 잘 아는 팀이었다.
+셀틱이 처음 오른 유러피언컵 결승에서 만난 팀은 헬레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera, 아르헨티나 출생 프랑스 축구선수·감독, 1910-1997)</span>의 인테르였다. 1964년과 1965년 유럽 챔피언, 1967년 다시 결승. 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola, 이탈리아 축구선수·공격형 미드필더·공격수, 1942-)</span>와 자친토 파케티<span class="foreign-note" lang="it">(Giacinto Facchetti, 이탈리아 축구선수·왼쪽 수비수, 1942-2006)</span>가 있던 ‘그란데 인테르’는 이 대회의 마지막 경기를 이미 너무 잘 아는 팀이었다.
 
 시작 7분 만에 마촐라가 페널티킥을 넣었다. 하필 인테르에게 가장 먼저 주면 안 되는 골이었다. 에레라의 팀은 카테나초<span class="foreign-note" lang="it">(catenaccio; 이탈리아어로 ‘빗장’, 최후방 수비수와 조직적 수적 우위를 이용해 위험 지역을 통제하는 전술 체계)</span>라는 한 단어보다 훨씬 정교하게, 앞선 뒤 상대가 조급해지는 시간을 다루는 법을 알고 있었다. 그런데 셀틱은 그 시간을 인테르에게 주지 않았다. 계속 전진했고, 계속 슈팅했고, 토미 게멀이 동점을 만든 뒤 84분 스티비 차머스가 방향을 바꾼 공이 골문으로 들어갔다.
 
@@ -477,7 +477,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
   <figcaption>조크 스타인, 1971년 암스테르담. Anefo·네덜란드 국립기록원, CC0.</figcaption>
 </figure>
 
-경기가 끝난 뒤 빌 섕클리<span class="foreign-note" lang="en">(Bill Shankly, 스코틀랜드 축구선수·감독, 1913–1981)</span>가 조크 스타인에게 건넸다고 전해지는 말이다. 훗날 알렉스 퍼거슨은 스코틀랜드 대표팀에서 스타인을 보좌했고, 1985년 스타인이 경기 도중 쓰러졌을 때도 곁에 있었다. 셀틱의 리스본을 따라가다 보면 리버풀과 맨체스터 유나이티드의 역사까지 한 줄로 이어진다. 참가한 다섯 대회를 모두 우승했다는 표만으로는 보이지 않는, 이 시즌의 진짜 크기다.
+경기가 끝난 뒤 빌 섕클리<span class="foreign-note" lang="en">(Bill Shankly, 스코틀랜드 축구선수·감독, 1913-1981)</span>가 조크 스타인에게 건넸다고 전해지는 말이다. 훗날 알렉스 퍼거슨은 스코틀랜드 대표팀에서 스타인을 보좌했고, 1985년 스타인이 경기 도중 쓰러졌을 때도 곁에 있었다. 셀틱의 리스본을 따라가다 보면 리버풀과 맨체스터 유나이티드의 역사까지 한 줄로 이어진다. 참가한 다섯 대회를 모두 우승했다는 표만으로는 보이지 않는, 이 시즌의 진짜 크기다.
 
 ---
 
@@ -528,7 +528,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 토털 풋볼<span class="foreign-note" lang="nl">(totaalvoetbal; 선수를 특정 위치에 고정하기보다 공간을 기준으로 움직이게 하고 한 선수가 비운 위치를 다른 선수가 메우며 팀의 구조를 유지하는 축구 사상)</span>을 ‘아무나 아무 데나 뛰는 축구’로 기억하면 정반대로 이해한 셈이다. 크라위프가 비운 중앙을 누가 공격할지, 크롤이 전진한 뒤를 누가 메울지, 모든 선수가 다음 이동을 알고 있어야 자유가 가능했다. 무질서가 아니라 공유된 질서가 너무 촘촘해서 위치가 자유롭게 보였던 축구였다.
 
-더 놀라운 것은 설계자 리뉘스 미헬스<span class="foreign-note" lang="nl">(Rinus Michels, 네덜란드 축구선수·감독, 1928–2005)</span>가 이미 바르셀로나로 떠난 뒤였다는 점이다. 후임 슈테판 코바치 아래에서 아약스는 약해지지 않았고, 오히려 리그·컵·유러피언컵을 한꺼번에 가져왔다.
+더 놀라운 것은 설계자 리뉘스 미헬스<span class="foreign-note" lang="nl">(Rinus Michels, 네덜란드 축구선수·감독, 1928-2005)</span>가 이미 바르셀로나로 떠난 뒤였다는 점이다. 후임 슈테판 코바치 아래에서 아약스는 약해지지 않았고, 오히려 리그·컵·유러피언컵을 한꺼번에 가져왔다.
 
 이 우승은 단발성 절정도 아니었다. 아약스는 1971년 파나티나이코스를 꺾고 처음 유럽 정상에 오른 뒤 1972년 인테르, 1973년 유벤투스를 차례로 꺾어 **유러피언컵 3연패**를 완성했다. 이 글이 고른 1971-72시즌은 그 왕조의 두 번째 왕관이자 유일한 트레블 시즌이다. 페예노르트의 1970년 우승까지 합치면 네덜란드 클럽이 유러피언컵을 네 시즌 연속 독점했으니, 로테르담의 2-0은 새로운 아이디어가 반짝 유행한 경기가 아니라 유럽의 지배 질서가 통째로 북해 쪽으로 이동한 장면이었다.
 
@@ -549,7 +549,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 **코파 리베르타도레스**<br />
 **인터콘티넨털컵**
 
-FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세계 타이틀을 같은 해에 모두 차지한 유일한 브라질 클럽**으로 정리돼 있다. 다만 산투스가 토르네이우 히우-상파울루<span class="foreign-note" lang="pt-BR">(Torneio Rio–São Paulo)</span>까지 우승했다는 일부 기록은 사실이 아니다. FIFA의 공식 산투스 우승 연혁에서 히우-상파울루 우승 연도는 1959·1963·1964·1966·1997이며 **1962는 없다.**
+FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세계 타이틀을 같은 해에 모두 차지한 유일한 브라질 클럽**으로 정리돼 있다. 다만 산투스가 토르네이우 히우-상파울루<span class="foreign-note" lang="pt-BR">(Torneio Rio-São Paulo)</span>까지 우승했다는 일부 기록은 사실이 아니다. FIFA의 공식 산투스 우승 연혁에서 히우-상파울루 우승 연도는 1959·1963·1964·1966·1997이며 **1962는 없다.**
 
 ### 네 우승대회
 
@@ -581,9 +581,9 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 
 ‘상파울루주 선수권’이라는 번역은 지금 독자에게 자꾸 하부 지역대회를 떠올리게 한다. 1962년에는 정반대였다. 전국리그 체제가 완전히 자리 잡기 전이었고, 파우메이라스·코린치앙스·상파울루 FC가 모인 파울리스타는 브라질 클럽 축구의 본무대였다. 산투스는 그 리그에서 102골을 넣었다.
 
-전국 챔피언을 가리는 타사 브라질의 마지막 상대는 보타포구였다. 한쪽에는 펠레, 지우마르, 지투, 마우루가 있었고 다른 쪽에는 가린샤, 니우통 산투스<span class="foreign-note" lang="pt-BR">(Nílton dos Santos, 브라질 축구선수·왼쪽 수비수, 1925–2013)</span>, 마리우 자갈루<span class="foreign-note" lang="pt-BR">(Mário Jorge Lobo Zagallo, 브라질 축구선수·감독, 1931–2024)</span>가 있었다. 몇 달 전 스웨덴과 칠레에서 월드컵을 연달아 제패한 대표팀의 핵심들이 둘로 갈라져 브라질 챔피언을 결정한 셈이다. 펠레가 유럽에 가지 않았다는 사실은 상대가 약했다는 증거가 아니라, 당시 세계적인 재능이 어디에 모여 있었는지를 알려주는 단서다.
+전국 챔피언을 가리는 타사 브라질의 마지막 상대는 보타포구였다. 한쪽에는 펠레, 지우마르, 지투, 마우루가 있었고 다른 쪽에는 가린샤, 니우통 산투스<span class="foreign-note" lang="pt-BR">(Nílton dos Santos, 브라질 축구선수·왼쪽 수비수, 1925-2013)</span>, 마리우 자갈루<span class="foreign-note" lang="pt-BR">(Mário Jorge Lobo Zagallo, 브라질 축구선수·감독, 1931-2024)</span>가 있었다. 몇 달 전 스웨덴과 칠레에서 월드컵을 연달아 제패한 대표팀의 핵심들이 둘로 갈라져 브라질 챔피언을 결정한 셈이다. 펠레가 유럽에 가지 않았다는 사실은 상대가 약했다는 증거가 아니라, 당시 세계적인 재능이 어디에 모여 있었는지를 알려주는 단서다.
 
-### 페냐롤 — 아직 이 대회에는 다른 챔피언이 없었다
+### 페냐롤 - 아직 이 대회에는 다른 챔피언이 없었다
 
 코파 리베르타도레스는 1960년에 출범했고 첫 두 대회는 모두 CA 페냐롤<span class="foreign-note" lang="es">(CA Peñarol)</span>이 우승했다. 산투스가 처음 결승에 올라왔을 때 이 대회에는 페냐롤 말고 다른 챔피언이 존재하지 않았다. 게다가 페냐롤은 1961년 인터콘티넨털컵까지 가져간 세계 챔피언이었다. 도전자가 초대 왕조를 끌어내리는 결승이 평범하게 끝날 리 없었다.
 
@@ -593,9 +593,9 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 
 결국 우승은 부에노스아이레스의 세 번째 경기에서 정해졌다. 산투스는 3-0으로 이겨 첫 출전 만에 대회의 유일한 챔피언을 끌어내렸다. 보통이라면 여기서 한 시즌의 절정이 끝나지만, 이 팀에게는 유럽 챔피언을 상대하는 두 경기가 더 남아 있었다.
 
-### 벤피카 — 레알 마드리드 왕조를 끊은 유럽 2연패 챔피언
+### 벤피카 - 레알 마드리드 왕조를 끊은 유럽 2연패 챔피언
 
-벤피카는 포르투갈 챔피언이라는 소개로는 모자란 팀이었다. 레알 마드리드의 유러피언컵 5연패를 끝내고 1961년 바르셀로나, 1962년 레알 마드리드를 결승에서 차례로 꺾은 유럽 2연패 챔피언이었다. 스무 살 에우제비우<span class="foreign-note" lang="pt-PT">(Eusébio da Silva Ferreira, 포르투갈 축구선수·공격수, 1942–2014)</span>도 이미 그 공격의 중심에 있었다.
+벤피카는 포르투갈 챔피언이라는 소개로는 모자란 팀이었다. 레알 마드리드의 유러피언컵 5연패를 끝내고 1961년 바르셀로나, 1962년 레알 마드리드를 결승에서 차례로 꺾은 유럽 2연패 챔피언이었다. 스무 살 에우제비우<span class="foreign-note" lang="pt-PT">(Eusébio da Silva Ferreira, 포르투갈 축구선수·공격수, 1942-2014)</span>도 이미 그 공격의 중심에 있었다.
 
 마라카낭 1차전은 산투스가 3-2로 이겼다. 한 골 차였으니 리스본에서는 벤피카가 뒤집을 수 있다는 계산이 자연스러웠다. 그런데 2차전 스코어는 산투스가 먼저 5-0까지 달아났다. 펠레는 해트트릭을 기록했고, 유럽 챔피언의 홈 관중은 자기 팀이 아니라 원정팀의 세계 최고 선수를 보고 있었다.
 
@@ -609,7 +609,7 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
   <small>펠레 해트트릭 · 두 경기 합계 8-4</small>
 </aside>
 
-벤피카 골키퍼 코스타 페레이라<span class="foreign-note" lang="pt-PT">(Costa Pereira, 포르투갈 축구선수·골키퍼, 1929–1990)</span>는 경기 뒤 펠레가 같은 행성에서 온 존재처럼 느껴지지 않았다는 취지의 말을 남겼다. 과장된 패자의 찬사처럼 들리지만, 그날 상대는 유럽의 평범한 강팀이 아니라 바르셀로나와 레알 마드리드를 연달아 쓰러뜨린 챔피언이었다.
+벤피카 골키퍼 코스타 페레이라<span class="foreign-note" lang="pt-PT">(Costa Pereira, 포르투갈 축구선수·골키퍼, 1929-1990)</span>는 경기 뒤 펠레가 같은 행성에서 온 존재처럼 느껴지지 않았다는 취지의 말을 남겼다. 과장된 패자의 찬사처럼 들리지만, 그날 상대는 유럽의 평범한 강팀이 아니라 바르셀로나와 레알 마드리드를 연달아 쓰러뜨린 챔피언이었다.
 
 산투스는 브라질에서 월드컵 챔피언들이 갈라져 싸운 국내 경쟁을 이겼고, 남미에서는 페냐롤밖에 우승해 보지 못한 대회의 왕조를 끝냈으며, 마지막에는 유럽 2연패 챔피언을 홈과 원정에서 모두 꺾었다. 강한 팀을 많이 이겼다는 말보다 더 정확한 표현이 있다. 1962년의 축구가 마련할 수 있었던 모든 층위의 시험을 통과한 팀. 그래서 이 순위의 첫 자리는 산투스다.
 
@@ -647,7 +647,7 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
   <h2>출처와 기록 기준</h2>
   <ul>
     <li><a href="https://www.fifa.com/en/articles/santos-brazilian-thrillers-who-unearthed-pele-neymar-and-more">FIFA · 산투스의 역사와 1962년 네 단계 제패</a></li>
-    <li><a href="https://www.uefa.com/uefachampionsleague/news/0253-0d7ff54908f6-5927d0a16600-1000--the-greatest-teams-of-all-time-ajax-1971-73/">UEFA · 1971–73 아약스와 토털 풋볼</a></li>
+    <li><a href="https://www.uefa.com/uefachampionsleague/news/0253-0d7ff54908f6-5927d0a16600-1000--the-greatest-teams-of-all-time-ajax-1971-73/">UEFA · 1971-73 아약스와 토털 풋볼</a></li>
     <li><a href="https://www.uefa.com/uefachampionsleague/news/0250-0e99a1320258-062bdd128088-1000--snap-shot-ajax-s-1995-champions-league-winners/">UEFA · 1995 결승과 클라위버르트의 84분 결승골</a></li>
     <li><a href="https://www.celticfc.com/news/5962">Celtic FC · 리스본 라이언스 11명의 30마일 출생 반경</a></li>
     <li><a href="https://www.celticfc.com/players/legends/jock-stein/">Celtic FC · 조크 스타인과 빌 섕클리의 리스본 인용</a></li>

@@ -15,13 +15,13 @@ coverImageHeight: 800
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 다섯 경기를 모두 이기고 17골을 넣으며 남미선수권 2연패를 완성했다. 후대의 대표 선수 목록에 남은 이름은 아돌포 페데르네라<span class="foreign-note" lang="es">(Adolfo Alfredo Pedernera; 아르헨티나 공격수, 1918–1995)</span>다. 그의 두 골보다 중요한 것은 골문 앞에 고정되지 않는 센터포워드가 동료 네 명의 길을 어떻게 열었는가였다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 다섯 경기를 모두 이기고 17골을 넣으며 남미선수권 2연패를 완성했다. 후대의 대표 선수 목록에 남은 이름은 아돌포 페데르네라<span class="foreign-note" lang="es">(Adolfo Alfredo Pedernera; 아르헨티나 공격수, 1918-1995)</span>다. 그의 두 골보다 중요한 것은 골문 앞에 고정되지 않는 센터포워드가 동료 네 명의 길을 어떻게 열었는가였다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제19회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1946</strong></div>
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1946년 1월 12일–2월 10일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1946년 1월 12일-2월 10일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
 
 ### 최종 순위
 
@@ -66,4 +66,4 @@ draft: false
 
 ## 출처와 기록 기준
 
-<div class="source-notes"><ol><li id="source-1"><a href="https://www.cariverplate.com.ar/club/institucional/historia">«Historia de River Plate»</a>, Club Atlético River Plate.</li><li id="source-2"><a href="https://www.rsssf.org/tables/46safull.html">«Southamerican Championship 1946»</a>, RSSSF.</li><li id="source-3"><a href="https://www.afa.com.ar/9076/posts/argentina-de-america-1946-el-calor-hogareno">«Un campeón con todas las letras»</a>, AFA.</li><li id="source-4"><a href="https://www.afa.com.ar/ligapro/posts/copa-america-las-quince-conquistas-argentinas">«Copa América: las quince conquistas argentinas»</a>, AFA.</li><li id="source-5"><a href="https://www.rsssf.org/tabless/sachampfulltrivia.html">«The Copa América Archive — Best Players»</a>, RSSSF.</li></ol><p class="record-note">페데르네라는 RSSSF의 후대 대표 선수 목록에 근거한다. 현대적 공식 MVP 트로피 수상자로 단정하지 않았으며 경기별 명단·득점과 최종 순위는 RSSSF와 AFA 기록으로 대조했다.</p></div>
+<div class="source-notes"><ol><li id="source-1"><a href="https://www.cariverplate.com.ar/club/institucional/historia">«Historia de River Plate»</a>, Club Atlético River Plate.</li><li id="source-2"><a href="https://www.rsssf.org/tables/46safull.html">«Southamerican Championship 1946»</a>, RSSSF.</li><li id="source-3"><a href="https://www.afa.com.ar/9076/posts/argentina-de-america-1946-el-calor-hogareno">«Un campeón con todas las letras»</a>, AFA.</li><li id="source-4"><a href="https://www.afa.com.ar/ligapro/posts/copa-america-las-quince-conquistas-argentinas">«Copa América: las quince conquistas argentinas»</a>, AFA.</li><li id="source-5"><a href="https://www.rsssf.org/tabless/sachampfulltrivia.html">«The Copa América Archive - Best Players»</a>, RSSSF.</li></ol><p class="record-note">페데르네라는 RSSSF의 후대 대표 선수 목록에 근거한다. 현대적 공식 MVP 트로피 수상자로 단정하지 않았으며 경기별 명단·득점과 최종 순위는 RSSSF와 AFA 기록으로 대조했다.</p></div>

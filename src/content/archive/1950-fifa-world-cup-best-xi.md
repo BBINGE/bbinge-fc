@@ -21,7 +21,7 @@ relatedGroup: 'fifa-world-cup-1950'
 
 ## 열두 해 만에 다시 열린 대회
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1950년 6월 24일–7월 16일</dd></dl><dl><dt>본선 참가</dt><dd>13개국</dd></dl><dl><dt>경기 수</dt><dd>22경기 · 88골</dd></dl><dl><dt>우승</dt><dd>우루과이 <span class="placement-count">두 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>아데미르 · 9골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1950년 6월 24일-7월 16일</dd></dl><dl><dt>본선 참가</dt><dd>13개국</dd></dl><dl><dt>경기 수</dt><dd>22경기 · 88골</dd></dl><dl><dt>우승</dt><dd>우루과이 <span class="placement-count">두 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>아데미르 · 9골</dd></dl></div>
 
 1942년과 1946년 대회는 열리지 못했다. 전쟁이 끝난 뒤에도 문제는 남았다. 유럽 대부분이 아직 재건 중이었고, 각국 정부는 축구 대회보다 급한 곳에 자원을 써야 한다고 판단했다. 유럽에서는 개최 신청이 한 건도 나오지 않았다. 1946년 7월 25일 룩셈부르크 총회에서 브라질이 나섰고, 1949년이 아니라 1950년에 치른다는 조건을 붙여 곧바로 승인받았다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
@@ -56,7 +56,7 @@ relatedGroup: 'fifa-world-cup-1950'
 
 ## 잉글랜드가 처음 온 대회
 
-잉글랜드는 이 대회에서 월드컵에 처음 참가했다. 6월 29일 벨루오리존치의 이스타지우 인데펜덴시아에서 만난 상대는 직업 선수로 채워지지도 않은 미국이었다. 런던의 도박사들은 미국의 승리에 500 대 1을 걸었다. 조 게이첸스<span class="foreign-note" lang="fr-HT">(Joe Gaetjens; 아이티 출신 미국 공격수, 1924–1964)</span>가 다이빙 헤더로 넣은 한 골이 그날의 유일한 득점이었다. 관중은 약 1만 명이었고, 결과를 전달받은 영국의 일부 편집자는 오타를 의심해 10-1로 읽었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
+잉글랜드는 이 대회에서 월드컵에 처음 참가했다. 6월 29일 벨루오리존치의 이스타지우 인데펜덴시아에서 만난 상대는 직업 선수로 채워지지도 않은 미국이었다. 런던의 도박사들은 미국의 승리에 500 대 1을 걸었다. 조 게이첸스<span class="foreign-note" lang="fr-HT">(Joe Gaetjens; 아이티 출신 미국 공격수, 1924-1964)</span>가 다이빙 헤더로 넣은 한 골이 그날의 유일한 득점이었다. 관중은 약 1만 명이었고, 결과를 전달받은 영국의 일부 편집자는 오타를 의심해 10-1로 읽었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
 <figure><img src="/images/archive/1950-fifa-world-cup-best-xi/england-usa.jpg" alt="1950년 월드컵 잉글랜드와 미국의 경기 장면" loading="lazy" width="1439" height="900" /><figcaption>1950년 월드컵의 잉글랜드-미국전. 어두운 셔츠가 잉글랜드, 어깨띠가 있는 흰 셔츠가 미국이다.</figcaption></figure>
 
@@ -68,7 +68,7 @@ relatedGroup: 'fifa-world-cup-1950'
 
 대회의 포르투갈어 명칭은 제4회 세계축구선수권대회<span class="foreign-note" lang="pt-BR">(IV Campeonato Mundial de Futebol; 제4회 세계축구선수권대회)</span>였다. 이 명단을 1930·1934·1938년과 같은 2-3-5로 읽으면 안 된다. 1950년의 기본 대형은 이미 WM<span class="foreign-note" lang="en">(WM; 세 명의 백과 두 명의 하프백, 두 명의 인사이드 포워드, 세 명의 최전방으로 나뉘는 3-2-2-3 대형)</span>이었다.
 
-브라질은 여기에 자기 해석을 붙였다. 감독 플라비우 코스타<span class="foreign-note" lang="pt-BR">(Flávio Costa; 브라질 감독, 1906–1999)</span>는 하프백 한 명을 뒤로 내리고 인사이드 포워드 한 명을 앞으로 밀어 대형을 비스듬히 기울였고, 이를 디아고나우<span class="foreign-note" lang="pt-BR">(diagonal; ‘대각선’이라는 뜻의 브라질식 WM 변형)</span>라고 불렀다. 공격에서 수적 우위를 만드는 데 목적이 있었고, 수비 전환의 빈틈은 감수했다. 이 시스템이 남긴 문제의식이 훗날 4-2-4로 이어진다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
+브라질은 여기에 자기 해석을 붙였다. 감독 플라비우 코스타<span class="foreign-note" lang="pt-BR">(Flávio Costa; 브라질 감독, 1906-1999)</span>는 하프백 한 명을 뒤로 내리고 인사이드 포워드 한 명을 앞으로 밀어 대형을 비스듬히 기울였고, 이를 디아고나우<span class="foreign-note" lang="pt-BR">(diagonal; ‘대각선’이라는 뜻의 브라질식 WM 변형)</span>라고 불렀다. 공격에서 수적 우위를 만드는 데 목적이 있었고, 수비 전환의 빈틈은 감수했다. 이 시스템이 남긴 문제의식이 훗날 4-2-4로 이어진다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 그러므로 이 열한 명을 오늘날의 포백과 미드필더로 옮기면 두 번 틀린다. 1958년 이후의 4-2-4로 소급해도 마찬가지다. `FB`는 풀백<span class="foreign-note" lang="en">(full-back)</span>, `CB`는 WM에서 뒤로 내려선 센터하프<span class="foreign-note" lang="en">(centre-back)</span>, `CH·RH`는 중앙과 오른쪽 하프백<span class="foreign-note" lang="en">(centre·right half)</span>, `IL·IR`는 안쪽 공격수<span class="foreign-note" lang="en">(inside left·right)</span>, `OR`는 오른쪽 바깥 공격수<span class="foreign-note" lang="en">(outside right)</span>, `CF`는 센터 포워드<span class="foreign-note" lang="en">(centre-forward)</span>를 뜻한다.
 
@@ -114,15 +114,15 @@ relatedGroup: 'fifa-world-cup-1950'
 
 ### 네 경기만 치른 우승팀의 골문
 
-로케 마스폴리<span class="foreign-note" lang="es-UY">(Roque Gastón Máspoli; 우루과이 골키퍼, 1917–2004)</span>는 대회 내내 네 경기만 뛰었다. 우루과이가 조별리그에서 한 경기밖에 치르지 않았기 때문이다. 프랑스가 빠진 4조에는 우루과이와 볼리비아만 남았고, 두 팀은 단 한 번 만나 우루과이가 8-0으로 이겼다. 다른 조의 팀들이 세 경기씩 치르며 몸을 만드는 동안 우루과이는 한 경기를 치르고 최종 리그전에 올랐다.
+로케 마스폴리<span class="foreign-note" lang="es-UY">(Roque Gastón Máspoli; 우루과이 골키퍼, 1917-2004)</span>는 대회 내내 네 경기만 뛰었다. 우루과이가 조별리그에서 한 경기밖에 치르지 않았기 때문이다. 프랑스가 빠진 4조에는 우루과이와 볼리비아만 남았고, 두 팀은 단 한 번 만나 우루과이가 8-0으로 이겼다. 다른 조의 팀들이 세 경기씩 치르며 몸을 만드는 동안 우루과이는 한 경기를 치르고 최종 리그전에 올랐다.
 
 준비 부족은 곧바로 드러났다. 최종 리그 첫 경기에서 스페인에 2-2로 비겼고, 두 번째 경기에서는 스웨덴에 두 골을 먼저 내주고도 3-2로 뒤집었다. 마스폴리가 네 경기에서 내준 골은 다섯이다. 마지막 경기 전까지 우루과이는 한 번도 이기지 못한 팀처럼 보였고, 실제로 브라질과 만나기 전 승점은 3이었다.
 
 ### 뒤로 내려간 센터하프와 내려가지 않은 센터하프
 
-WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이로 내려가 세 번째 백이 됐다. 스페인의 호세 파라<span class="foreign-note" lang="es">(José Parra Martínez; 스페인 수비수, 1925–2016)</span>와 스웨덴의 에리크 닐손<span class="foreign-note" lang="sv">(Erik Nilsson; 스웨덴 수비수, 1916–1995)</span>이 그 시대의 뒷선을 대표한다. 스페인은 조별리그에서 미국·칠레·잉글랜드를 차례로 꺾고 3전 전승으로 올라왔고, 그 세 경기에서 내준 골은 하나였다.
+WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이로 내려가 세 번째 백이 됐다. 스페인의 호세 파라<span class="foreign-note" lang="es">(José Parra Martínez; 스페인 수비수, 1925-2016)</span>와 스웨덴의 에리크 닐손<span class="foreign-note" lang="sv">(Erik Nilsson; 스웨덴 수비수, 1916-1995)</span>이 그 시대의 뒷선을 대표한다. 스페인은 조별리그에서 미국·칠레·잉글랜드를 차례로 꺾고 3전 전승으로 올라왔고, 그 세 경기에서 내준 골은 하나였다.
 
-우루과이의 중앙은 달랐다. 옵둘리오 바렐라<span class="foreign-note" lang="es-UY">(Obdulio Jacinto Muiños Varela; 우루과이 센터하프, 1917–1996)</span>는 뒤로 완전히 내려가지 않은 옛 방식의 센터하프였다. 상대 공격수와 직접 부딪치면서 공을 되찾으면 앞으로 첫 패스를 보내는 자리, 팀이 앞뒤로 접히는 경첩이다. 스페인전 동점골도 그의 발에서 나왔다.
+우루과이의 중앙은 달랐다. 옵둘리오 바렐라<span class="foreign-note" lang="es-UY">(Obdulio Jacinto Muiños Varela; 우루과이 센터하프, 1917-1996)</span>는 뒤로 완전히 내려가지 않은 옛 방식의 센터하프였다. 상대 공격수와 직접 부딪치면서 공을 되찾으면 앞으로 첫 패스를 보내는 자리, 팀이 앞뒤로 접히는 경첩이다. 스페인전 동점골도 그의 발에서 나왔다.
 
 여덟 해 전 1942년 남미선수권에서 우루과이가 6전 전승으로 우승할 때, 스물네 살의 바렐라는 이미 같은 자리에 서 있었다. 그때 그는 몬테비데오 원더러스 소속이었고 대회의 대표 선수로 기록됐다. 1950년의 그는 페냐롤의 선수이자 주장이었다. 여덟 해 사이에 달라진 것은 소속팀과 완장이지 역할이 아니다.
 
@@ -133,13 +133,13 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 ### 안쪽의 두 사람
 
-지지뉴<span class="foreign-note" lang="pt-BR">(Thomaz Soares da Silva; 브라질 인사이드 포워드, 1921–2002)</span>는 부상에서 회복 중이라 브라질의 첫 두 경기에 나오지 않았다. 유고슬라비아와의 조별리그 마지막 경기에서 돌아왔고, 아데미르의 골을 만들어준 뒤 직접 한 골을 넣어 팀을 최종 리그로 올렸다. 인사이드 라이트 지지뉴, 인사이드 레프트 자이르, 센터 포워드 아데미르로 이어지는 삼각형이 처음으로 완성된 경기였다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
+지지뉴<span class="foreign-note" lang="pt-BR">(Thomaz Soares da Silva; 브라질 인사이드 포워드, 1921-2002)</span>는 부상에서 회복 중이라 브라질의 첫 두 경기에 나오지 않았다. 유고슬라비아와의 조별리그 마지막 경기에서 돌아왔고, 아데미르의 골을 만들어준 뒤 직접 한 골을 넣어 팀을 최종 리그로 올렸다. 인사이드 라이트 지지뉴, 인사이드 레프트 자이르, 센터 포워드 아데미르로 이어지는 삼각형이 처음으로 완성된 경기였다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
-반대편의 후안 알베르토 스키아피노<span class="foreign-note" lang="es-UY">(Juan Alberto Schiaffino; 우루과이 인사이드 포워드, 1925–2002)</span>는 스물네 살이었다. 볼리비아전에서 네 골을 넣었고, 마지막 경기에서는 우루과이의 동점골을 기록한다. 두 사람 모두 윙어가 아니라 안쪽에서 경기를 읽는 자리의 선수였다는 점이 이 대회 공격의 성격을 보여준다. 폭을 만드는 일은 바깥의 몫이었고, 결정을 만드는 일은 안쪽의 몫이었다.
+반대편의 후안 알베르토 스키아피노<span class="foreign-note" lang="es-UY">(Juan Alberto Schiaffino; 우루과이 인사이드 포워드, 1925-2002)</span>는 스물네 살이었다. 볼리비아전에서 네 골을 넣었고, 마지막 경기에서는 우루과이의 동점골을 기록한다. 두 사람 모두 윙어가 아니라 안쪽에서 경기를 읽는 자리의 선수였다는 점이 이 대회 공격의 성격을 보여준다. 폭을 만드는 일은 바깥의 몫이었고, 결정을 만드는 일은 안쪽의 몫이었다.
 
 ### 아홉 골의 9번
 
-아데미르<span class="foreign-note" lang="pt-BR">(Ademir Marques de Menezes; 브라질 공격수, 1922–1996)</span>는 여섯 경기에서 아홉 골을 넣어 득점왕이 됐다. 스웨덴을 7-1로 이긴 경기에서만 네 골이었다. 짧은 도움닫기 뒤 양발로 마무리했고, 중앙에만 머물지 않고 오른쪽에서 안으로 파고들었다.
+아데미르<span class="foreign-note" lang="pt-BR">(Ademir Marques de Menezes; 브라질 공격수, 1922-1996)</span>는 여섯 경기에서 아홉 골을 넣어 득점왕이 됐다. 스웨덴을 7-1로 이긴 경기에서만 네 골이었다. 짧은 도움닫기 뒤 양발로 마무리했고, 중앙에만 머물지 않고 오른쪽에서 안으로 파고들었다.
 
 이 활약은 갑자기 나온 것이 아니다. 열세 달 전 1949년 남미선수권의 우승 결정전에서 그는 파라과이를 상대로 전반 27분 안에 두 골을 넣고 해트트릭으로 경기를 끝냈다. 그때 브라질이 우승 결정전을 치른 경기장은 마라카낭이 아니라 상자누아리우였다. 마라카낭은 아직 공사 중이었다.
 
@@ -150,11 +150,11 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 ### 오른쪽 끝의 한 명
 
-알시데스 기지아<span class="foreign-note" lang="es-UY">(Alcides Edgardo Ghiggia; 우루과이 공격수, 1926–2015)</span>는 스물세 살이었고, 네 경기에 모두 나와 네 골을 넣었다. 그의 자리는 오른쪽 바깥이다. 이 사실은 마지막 경기의 두 골을 이해하는 데 반드시 필요하다. 우루과이의 동점골도 결승골도 모두 오른쪽 터치라인에서 시작됐다.
+알시데스 기지아<span class="foreign-note" lang="es-UY">(Alcides Edgardo Ghiggia; 우루과이 공격수, 1926-2015)</span>는 스물세 살이었고, 네 경기에 모두 나와 네 골을 넣었다. 그의 자리는 오른쪽 바깥이다. 이 사실은 마지막 경기의 두 골을 이해하는 데 반드시 필요하다. 우루과이의 동점골도 결승골도 모두 오른쪽 터치라인에서 시작됐다.
 
 ## 7월 16일, 마라카낭
 
-경기 시작 전 히우의 시장 앙젤루 멘지스 지 모라이스<span class="foreign-note" lang="pt-BR">(Ângelo Mendes de Morais; 히우지자네이루 시장, 1894–1990)</span>가 마이크를 잡았다. 아직 한 경기가 남아 있었다.
+경기 시작 전 히우의 시장 앙젤루 멘지스 지 모라이스<span class="foreign-note" lang="pt-BR">(Ângelo Mendes de Morais; 히우지자네이루 시장, 1894-1990)</span>가 마이크를 잡았다. 아직 한 경기가 남아 있었다.
 
 <figure class="portrait-figure"><img src="/images/archive/1950-fifa-world-cup-best-xi/mendes-de-morais.jpg" alt="정복 차림의 앙젤루 멘지스 지 모라이스" loading="lazy" width="960" height="1280" /><figcaption>연방구 시장 앙젤루 멘지스 지 모라이스. 마라카낭 건설을 밀어붙인 인물이자 결승 직전 연설의 주인공이다.</figcaption></figure>
 
@@ -166,7 +166,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 브라질은 비기기만 해도 우승이었다. 최종 리그에서 스웨덴을 7-1, 스페인을 6-1로 이긴 팀이었다. 우루과이는 반드시 이겨야 했다.
 
-전반은 득점 없이 끝났다. 후반 2분, 프리아사<span class="foreign-note" lang="pt-BR">(Albino Friaça Cardoso; 브라질 공격수, 1924–2009)</span>가 브라질의 선제골을 넣었다. 비기기만 해도 되는 팀이 앞서 나갔으니 남은 43분은 지키기만 하면 되는 시간이었다. 66분, 오른쪽에서 기지아가 올린 공을 스키아피노가 마무리해 1-1이 됐다. 이때도 브라질은 여전히 우승이었다. 79분, 다시 오른쪽을 파고든 기지아가 크로스 대신 직접 슈팅을 골문 안으로 밀어 넣었다.
+전반은 득점 없이 끝났다. 후반 2분, 프리아사<span class="foreign-note" lang="pt-BR">(Albino Friaça Cardoso; 브라질 공격수, 1924-2009)</span>가 브라질의 선제골을 넣었다. 비기기만 해도 되는 팀이 앞서 나갔으니 남은 43분은 지키기만 하면 되는 시간이었다. 66분, 오른쪽에서 기지아가 올린 공을 스키아피노가 마무리해 1-1이 됐다. 이때도 브라질은 여전히 우승이었다. 79분, 다시 오른쪽을 파고든 기지아가 크로스 대신 직접 슈팅을 골문 안으로 밀어 넣었다.
 
 <figure><img src="/images/archive/1950-fifa-world-cup-best-xi/friaca-goal.jpg" alt="골망 안에 들어간 공과 쓰러진 골키퍼, 마라카낭을 가득 채운 관중" loading="lazy" width="1920" height="1276" /><figcaption>1950년 월드컵에서 나온 프리아사의 득점 장면. 공이 골망 안에 있고 관중석은 위쪽 끝까지 차 있다.</figcaption></figure>
 
@@ -202,7 +202,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 ## 여담: 남은 사람들
 
-브라질의 골키퍼 모아시르 바르보자<span class="foreign-note" lang="pt-BR">(Moacir Barbosa Nascimento; 브라질 골키퍼, 1921–2000)</span>는 기지아의 슈팅을 막지 못한 사람으로 남았다. 그와 함께 책임이 집중된 주베나우, 비고지도 흑인 선수였다. 주장 아우구스투를 포함한 네 명은 다시 대표팀에 뽑히지 않았다.
+브라질의 골키퍼 모아시르 바르보자<span class="foreign-note" lang="pt-BR">(Moacir Barbosa Nascimento; 브라질 골키퍼, 1921-2000)</span>는 기지아의 슈팅을 막지 못한 사람으로 남았다. 그와 함께 책임이 집중된 주베나우, 비고지도 흑인 선수였다. 주장 아우구스투를 포함한 네 명은 다시 대표팀에 뽑히지 않았다.
 
 1993년 바르보자는 이듬해 월드컵을 준비하던 대표팀 훈련장을 찾았다가 선수들을 만나지 못하고 돌아섰다. 불운을 부른다는 이유였다. 2000년 그는 브라질의 최고형이 30년인데 자신은 책임지지 않은 일로 50년째 복역 중이라고 말했다. 브라질 대표팀이 다시 흑인 골키퍼를 세우기까지 43년이 걸렸다.<a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
 
@@ -212,7 +212,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 이 판정에는 앞뒤가 맞지 않는 구석이 있다. 브라질은 그 흰 셔츠를 입고 1919년과 1922년 남미선수권에서 우승했고, [1949년 상자누아리우](/archive/national-team/copa-america/1949-copa-america-ademir/)에서도 같은 색으로 파라과이를 7-0으로 꺾었다. 마라카낭의 열네 달 전까지 흰 셔츠는 브라질이 안방에서 이길 때 입던 옷이었다. 90분 만에 같은 옷이 불운의 원인이 됐다.
 
-1953년 《Correio da Manhã》가 국기의 네 가지 색을 모두 쓰라는 조건으로 새 유니폼 공모전을 열었다. 당선자는 열아홉 살의 신문 삽화가 아우지르 가르시아 슐레이<span class="foreign-note" lang="pt-BR">(Aldyr Garcia Schlee; 브라질 삽화가·작가, 1934–2018)</span>였다. 노란 셔츠에 초록 깃, 파란 바지, 흰 양말. 대표팀이 이 옷을 처음 입은 것은 1954년 3월 칠레전으로, 패배로부터 네 해가 지난 뒤였다.
+1953년 《Correio da Manhã》가 국기의 네 가지 색을 모두 쓰라는 조건으로 새 유니폼 공모전을 열었다. 당선자는 열아홉 살의 신문 삽화가 아우지르 가르시아 슐레이<span class="foreign-note" lang="pt-BR">(Aldyr Garcia Schlee; 브라질 삽화가·작가, 1934-2018)</span>였다. 노란 셔츠에 초록 깃, 파란 바지, 흰 양말. 대표팀이 이 옷을 처음 입은 것은 1954년 3월 칠레전으로, 패배로부터 네 해가 지난 뒤였다.
 
 슐레이는 우루과이 국경에 붙은 자구아랑<span class="foreign-note" lang="pt-BR">(Jaguarão; 우루과이와 국경을 맞댄 브라질 남부 도시)</span> 출신이었고, 평생 우루과이를 응원했다. 브라질과 우루과이가 맞붙는 날이면 자신이 만든 노란 셔츠 대신 하늘색 셔츠를 입고 국경을 넘어가 경기를 봤다. 우루과이가 벗겨낸 셔츠의 후임을 우루과이 편인 사람이 그린 셈이다.<a class="cite" href="#source-20" aria-label="출처 20">[20]</a>
 

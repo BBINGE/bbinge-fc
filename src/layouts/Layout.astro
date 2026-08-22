@@ -47,7 +47,7 @@ const {
   extraSchema,
 } = Astro.props;
 
-const pageTitle = title === site.name ? title : `${title} — ${site.name}`;
+const pageTitle = title === site.name ? title : `${title} - ${site.name}`;
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 const ogImageURL = new URL(ogImage, site.url).toString();
 const resolvedOgImageWidth = ogImageWidth ?? (ogImage === '/og-default.png' ? 1200 : undefined);
@@ -217,7 +217,7 @@ const authorSchema = {
             if (!anchor?.closest('article')) return;
             const active = document.activeElement;
             if (active instanceof HTMLInputElement || active instanceof HTMLTextAreaElement || active?.getAttribute('contenteditable') === 'true') return;
-            const attribution = `\n\n— 원문: ${document.title}\n— 저자: ${originalAuthor} · ${originalSite}\n— 출처: ${originalURL}`;
+            const attribution = `\n\n- 원문: ${document.title}\n- 저자: ${originalAuthor} · ${originalSite}\n- 출처: ${originalURL}`;
             event.clipboardData?.setData('text/plain', selectedText + attribution);
             event.preventDefault();
           });

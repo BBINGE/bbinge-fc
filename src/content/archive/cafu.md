@@ -119,13 +119,13 @@ AS 로마의 공식 명예의 전당 자료도 이 장면을 특별히 남겼다
 
 | 구단 | 기간 | 공식 기록 |
 | --- | --- | --- |
-| 상파울루 FC | 1989–1995 | 남미와 세계 정상에 오른 첫 전성기 |
+| 상파울루 FC | 1989-1995 | 남미와 세계 정상에 오른 첫 전성기 |
 | 레알 사라고사 | 1995 | UEFA 컵위너스컵 우승 |
 | EC 주벤투지 | 1995 | 브라질 복귀 시기 |
-| SE 파우메이라스 | 1995–1997 | 캄페오나투 파울리스타 우승 |
-| AS 로마 | 1997–2003 | 218경기 8골 · 2000-01 세리에 A 우승 |
-| AC 밀란 | 2003–2008 | 166경기 4골 · 2006-07 UEFA 챔피언스 리그 우승 |
-| 브라질 대표팀 | 1990–2006 | 142경기 · FIFA 월드컵 2회 우승 |
+| SE 파우메이라스 | 1995-1997 | 캄페오나투 파울리스타 우승 |
+| AS 로마 | 1997-2003 | 218경기 8골 · 2000-01 세리에 A 우승 |
+| AC 밀란 | 2003-2008 | 166경기 4골 · 2006-07 UEFA 챔피언스 리그 우승 |
+| 브라질 대표팀 | 1990-2006 | 142경기 · FIFA 월드컵 2회 우승 |
 
 구단별 경기 수는 대회 포함 범위에 따라 자료마다 차이가 있다. 위 표에서 숫자를 제시한 로마와 밀란 기록은 각 구단 공식 명예의 전당, 대표팀 기록은 FIFA 집계를 따랐다.
 
@@ -171,10 +171,10 @@ AS 로마의 공식 명예의 전당 자료도 이 장면을 특별히 남겼다
 
 <div class="source-notes">
   <ul>
-    <li><a href="https://www.asroma.com/en/club/history/hall-of-fame/15235/cafu" rel="noopener noreferrer">AS Roma Hall of Fame — Cafu</a>: 로마 공식 출전·득점, 2001년 우승과 플레이 스타일.</li>
-    <li><a href="https://www.acmilan.com/en/club/hall-of-fame/players/evangelista-de-moraes" rel="noopener noreferrer">AC Milan Hall of Fame — Cafu</a>: 밀란 공식 출전·득점과 우승 기록.</li>
-    <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA — Behind the World Cup record: Cafu</a>: 월드컵 3회 연속 결승 진출과 2회 우승.</li>
-    <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/brazil-players-record-appearances-games" rel="noopener noreferrer">FIFA — Brazil players with the most World Cup appearances</a>: A매치 142경기와 월드컵 20경기.</li>
+    <li><a href="https://www.asroma.com/en/club/history/hall-of-fame/15235/cafu" rel="noopener noreferrer">AS Roma Hall of Fame - Cafu</a>: 로마 공식 출전·득점, 2001년 우승과 플레이 스타일.</li>
+    <li><a href="https://www.acmilan.com/en/club/hall-of-fame/players/evangelista-de-moraes" rel="noopener noreferrer">AC Milan Hall of Fame - Cafu</a>: 밀란 공식 출전·득점과 우승 기록.</li>
+    <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA - Behind the World Cup record: Cafu</a>: 월드컵 3회 연속 결승 진출과 2회 우승.</li>
+    <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/brazil-players-record-appearances-games" rel="noopener noreferrer">FIFA - Brazil players with the most World Cup appearances</a>: A매치 142경기와 월드컵 20경기.</li>
   </ul>
 </div>
 

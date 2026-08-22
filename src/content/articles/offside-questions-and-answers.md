@@ -153,10 +153,10 @@ TV 중계의 선이 공격수와 수비수를 거의 겹쳐 보이게 만들 때
 <section class="source-notes">
 <h2>자료와 확인 경로</h2>
 <ol>
-<li id="source-1"><a href="https://www.theifab.com/laws/latest/offside/">«Law 11 — Offside»</a>, The IFAB, Laws of the Game 2026/27. 오프사이드 위치·반칙·예외·의도적인 플레이의 기준.</li>
-<li id="source-2"><a href="https://www.theifab.com/news/law-11-offside-deliberate-play-guidelines-clarified/">«Law 11 — Offside: ‘deliberate play’ guidelines clarified»</a>, The IFAB. 의도적인 플레이와 굴절의 구분.</li>
-<li id="source-3"><a href="https://www.theifab.com/laws/latest/the-throw-in/">«Law 15 — The Throw-in»</a>, The IFAB. 스로인에서 직접 받은 공의 예외.</li>
-<li id="source-4"><a href="https://www.theifab.com/laws/latest/the-goal-kick/">«Law 16 — The Goal Kick»</a> 및 <a href="https://www.theifab.com/laws/latest/the-corner-kick/">«Law 17 — The Corner Kick»</a>, The IFAB. 골킥·코너킥 재개 규정.</li>
+<li id="source-1"><a href="https://www.theifab.com/laws/latest/offside/">«Law 11 - Offside»</a>, The IFAB, Laws of the Game 2026/27. 오프사이드 위치·반칙·예외·의도적인 플레이의 기준.</li>
+<li id="source-2"><a href="https://www.theifab.com/news/law-11-offside-deliberate-play-guidelines-clarified/">«Law 11 - Offside: ‘deliberate play’ guidelines clarified»</a>, The IFAB. 의도적인 플레이와 굴절의 구분.</li>
+<li id="source-3"><a href="https://www.theifab.com/laws/latest/the-throw-in/">«Law 15 - The Throw-in»</a>, The IFAB. 스로인에서 직접 받은 공의 예외.</li>
+<li id="source-4"><a href="https://www.theifab.com/laws/latest/the-goal-kick/">«Law 16 - The Goal Kick»</a> 및 <a href="https://www.theifab.com/laws/latest/the-corner-kick/">«Law 17 - The Corner Kick»</a>, The IFAB. 골킥·코너킥 재개 규정.</li>
 </ol>
 </section>
 

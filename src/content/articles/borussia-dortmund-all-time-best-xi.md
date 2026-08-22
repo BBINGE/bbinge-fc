@@ -36,7 +36,7 @@ featured: true
 
 강팀의 시간만 모으면 도르트문트의 절반을 잃는다. 이곳의 진짜 서사는 무너진 뒤 다시 만원 관중 앞에 서는 능력이다. 남쪽 스탠드 *Südtribüne*, 곧 ‘노란 벽’은 성공의 장식물이 아니라 그 회복력을 눈으로 볼 수 있게 만든 건축물이다.
 
-<div class="dortmund-era" aria-label="보루시아 도르트문트 역대 베스트 11 시대 범위"><img src="/images/squads/borussia-dortmund-all-time-best-xi/borussia-dortmund-logo.webp" alt="" aria-hidden="true" /><span>BALLSPIELVEREIN BORUSSIA 09</span><strong>1909—2026</strong><p><em>HEJA BVB</em> · 폐허, 유럽 정상, 파산 위기와 재건을 지나 남은 열한 명</p></div>
+<div class="dortmund-era" aria-label="보루시아 도르트문트 역대 베스트 11 시대 범위"><img src="/images/squads/borussia-dortmund-all-time-best-xi/borussia-dortmund-logo.webp" alt="" aria-hidden="true" /><span>BALLSPIELVEREIN BORUSSIA 09</span><strong>1909-2026</strong><p><em>HEJA BVB</em> · 폐허, 유럽 정상, 파산 위기와 재건을 지나 남은 열한 명</p></div>
 
 <div class="custom-xi-music" data-youtube-id="52nQqxsV9vk" role="region" aria-label="삽입형 BGM 재생">
   <button type="button" class="music-toggle" aria-label="재생하기">▶</button>
@@ -54,7 +54,7 @@ featured: true
 
 종이에 적으면 5-1-3-1이지만 실제 움직임은 3-4-2-1과 4-2-3-1 사이를 오간다. 서로 다른 시대의 이름을 억지로 같은 전술에 가두기보다, 각자의 장점을 가장 많이 남길 수 있는 가변 구조를 택했다.
 
-## 1. 골키퍼 — 슈테판 클로스
+## 1. 골키퍼 - 슈테판 클로스
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/stefan-klos.webp" alt="슈테판 클로스의 소속 기간, 기록, 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -66,7 +66,7 @@ featured: true
 
 로만 바이덴펠러는 더 오래 버텼고 클롭 시대의 감정까지 대표한다. 그래도 한 경기의 최고점과 왕조의 출발을 함께 묻는다면 클로스다. 이 팀의 골키퍼에게 요구되는 것은 후방 플레이메이킹보다 자머와 후멜스가 전진한 뒤 찾아오는 단 한 번을 막는 일이다. 도르트문트가 처음 유럽 챔피언이 된 골문에는 가장 조용하고 반복 가능한 답이 서 있다.
 
-## 2. 리베로 — 마티아스 자머
+## 2. 리베로 - 마티아스 자머
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/matthias-sammer.webp" alt="마티아스 자머의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -82,7 +82,7 @@ featured: true
 
 볼프강 파울은 1966년 유럽 제패의 주장이고, 후멜스는 현대적 빌드업 수비수의 완성형이다. 하지만 서로 다른 시대의 열한 명을 실제 팀으로 작동시키려면 수비와 중원을 동시에 맡을 수 있는 자머가 필요하다. 베켄바워 이후 사라져가던 리베로를 마지막으로 지배한 선수이면서, 그 위치가 왜 사라졌는지까지 보여준 마지막 황제다.
 
-## 3. 중앙 수비수 — 위르겐 콜러
+## 3. 중앙 수비수 - 위르겐 콜러
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/jurgen-kohler.webp" alt="위르겐 콜러의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -96,7 +96,7 @@ featured: true
 
 네벤 수보티치와 크리스티안 뵈른스도 대인 방어의 강도를 높일 수 있다. 그러나 FIFA 월드컵과 UEFA 유러피언 챔피언십, UEFA 챔피언스 리그의 가장 큰 무대에서 같은 방식으로 상대 에이스를 지워본 수비수는 콜러다. 그의 수비는 희생적이었지만, 그 희생을 가능하게 한 것은 정확한 거리 계산이었다.
 
-## 4. 중앙 수비수 — 마츠 후멜스
+## 4. 중앙 수비수 - 마츠 후멜스
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/mats-hummels.webp" alt="마츠 후멜스의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -110,7 +110,7 @@ featured: true
 
 볼프강 파울의 주장성과 수보티치의 투지도 강한 경쟁력이다. 하지만 이 열한 명에는 빼앗은 공을 곧바로 로이스와 데데에게 배달할 왼쪽 센터백이 필요하다. 후멜스는 수비를 잘해서만 뽑힌 것이 아니라, 도르트문트의 공격을 자기 진영에서 시작할 수 있어서 뽑혔다.
 
-## 5. 왼쪽 윙백 — 데데
+## 5. 왼쪽 윙백 - 데데
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/dede.webp" alt="데데의 소속 기간, 기록, 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -124,7 +124,7 @@ featured: true
 
 슈멜처는 압박 전술의 정합성과 주장 경력에서 밀리지 않는다. 하파엘 게헤이루는 중앙에서 경기를 만드는 기술이 더 좋다. 그래도 데데를 고른 까닭은 전성기의 공격성, 398경기의 지속성, 가장 밝은 시기와 가장 어두운 시기를 같은 태도로 건넌 서사가 함께 있기 때문이다. 그는 왼쪽 수비수였지만 팬들에게는 한 시대의 표정이었다.
 
-## 6. 오른쪽 윙백 — 슈테판 로이터
+## 6. 오른쪽 윙백 - 슈테판 로이터
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/stefan-reuter.webp" alt="슈테판 로이터의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -138,7 +138,7 @@ featured: true
 
 우카시 피슈체크는 현대 도르트문트의 오른쪽을 더 세련되게 완성했고 공격 연계에서도 강하다. 그럼에도 이 팀은 리베로의 전진을 보상하고 묄러의 자유를 지킬 선수가 필요하다. 로이터의 도르트문트 유산은 은퇴 뒤의 직함이 아니라, 주장 완장을 차고 오른쪽 선을 오르내린 12년과 세 시대를 연결한 전술적 신뢰다.
 
-## 7. 수비형 미드필더 — 미하엘 초르크
+## 7. 수비형 미드필더 - 미하엘 초르크
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/michael-zorc.webp" alt="미하엘 초르크의 소속 기간, 기록, 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -154,7 +154,7 @@ featured: true
 
 선수 은퇴와 동시에 프런트로 이동한 뒤에는 파산 위기와 클롭 시대의 재건을 모두 통과했다. 제바스티안 켈은 더 전형적인 홀딩 미드필더이고 누리 샤힌은 전진 패스가 더 섬세하다. 그러나 자머를 자유롭게 하고, 득점까지 더하며, 주장으로 서로 다른 세대를 묶을 한 사람을 고르면 ‘미스터 도르트문트’가 남는다. 프라이슬러가 첫 기준을 세웠다면 초르크는 그 기준이 끊기지 않도록 평생 연결한 사람이다.
 
-## 8. 공격형 미드필더 — 안드레아스 묄러
+## 8. 공격형 미드필더 - 안드레아스 묄러
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/andreas-moller.webp" alt="안드레아스 묄러의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -168,7 +168,7 @@ featured: true
 
 이 조합에서는 프라이슬러가 내려와 만든 틈, 리켄의 세로 침투, 로이스의 대각 이동을 동시에 본다. 누리 샤힌이나 귄도안은 중원의 전개를 더 안정적으로 만들고, 가가와는 짧은 연계가 더 날렵하다. 그러나 마지막 30미터에서 세 명의 움직임을 한 번에 득점 장면으로 바꾸고 세트피스까지 맡길 선수라면 묄러다. 도르트문트의 1997년은 공격형 미드필더가 경기를 얼마나 빨리 읽을 수 있는지 보여준 그의 대표작이다.
 
-## 9. 공격형 미드필더 — 라르스 리켄
+## 9. 공격형 미드필더 - 라르스 리켄
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/lars-ricken.webp" alt="라르스 리켄의 소속 기간, 기록, 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -182,7 +182,7 @@ featured: true
 
 그러나 이 명단은 커리어가 한 방향으로만 상승한 선수만 뽑는 자리가 아니다. 리켄은 세 차례 독일 챔피언이 되었고, 묄러의 패스와 프라이슬러의 연계를 득점으로 바꿀 침투자다. 괴체와 가가와가 공을 다루는 재능에서 앞설 수 있어도 도르트문트의 유소년, 가장 결정적인 유럽의 밤, 은퇴 뒤의 육성까지 한 선으로 연결하는 사람은 리켄이다. 2024년 스포츠 부문 경영 책임자가 된 뒤에도 그의 역할은 같다. 다른 사람이 만든 길을 누구보다 먼저 보고 다음 공간으로 들어간다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
-## 10. 공격형 미드필더 — 마르코 로이스
+## 10. 공격형 미드필더 - 마르코 로이스
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/marco-reus.webp" alt="마르코 로이스의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -200,7 +200,7 @@ featured: true
 
 괴체·가가와·귄도안은 클롭 시대의 특정 전술을 더 선명하게 대표할 수 있다. 로이스는 그 시대가 끝난 뒤에도 남아 여러 감독과 여러 실패를 통과했다. 떠날 수 있을 때 남았다는 사실만으로 선정을 낭만화할 필요는 없다. 득점, 도움, 공간 침투, 압박 전환에서 이미 역대급 성취를 남겼다. 다만 그 실력 위에 고향과의 관계가 겹쳤기에, 현대 도르트문트의 얼굴을 고르는 질문에는 결국 로이스가 답이 된다.
 
-## 11. 센터 포워드 — 알프레트 프라이슬러
+## 11. 센터 포워드 - 알프레트 프라이슬러
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/alfred-preissler.webp" alt="알프레트 프라이슬러의 소속 기간, 기록, 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2433" /></figure>
 
@@ -212,7 +212,7 @@ featured: true
   <strong>보루시아 도르트문트의 신.</strong>
 </section>
 
-알프레트 ‘아디’ 프라이슬러<span class="foreign-note" lang="de">(Alfred ‘Adi’ Preißler; 독일 공격수, 1921–2003)</span>는 이 글의 마지막 선수이자 모든 논쟁의 출발점이다. 클럽이 세계적 브랜드가 되기 전, 푸스발-분데스리가가 생기기 전, 텔레비전의 축구가 일상이 되기 전에 그는 도르트문트라는 이름을 독일 축구의 정상에 새겼다. 지금의 기준으로 옛 득점 기록만 비교하면 그의 크기를 놓친다. 프라이슬러 이전의 BVB와 이후의 BVB가 달라졌다는 사실을 봐야 한다.
+알프레트 ‘아디’ 프라이슬러<span class="foreign-note" lang="de">(Alfred ‘Adi’ Preißler; 독일 공격수, 1921-2003)</span>는 이 글의 마지막 선수이자 모든 논쟁의 출발점이다. 클럽이 세계적 브랜드가 되기 전, 푸스발-분데스리가가 생기기 전, 텔레비전의 축구가 일상이 되기 전에 그는 도르트문트라는 이름을 독일 축구의 정상에 새겼다. 지금의 기준으로 옛 득점 기록만 비교하면 그의 크기를 놓친다. 프라이슬러 이전의 BVB와 이후의 BVB가 달라졌다는 사실을 봐야 한다.
 
 1946년 합류한 뒤 1948-49, 1949-50시즌 오버리가 서부 득점왕이 됐다. 하지만 첫 전국 결승에서는 만하임을 상대로 연장 120분 끝에 2-3으로 졌다. 프로이센 뮌스터로 옮긴 뒤에도 1951년 결승에서 준우승했다. 두 번 정상 바로 앞에서 멈춘 공격수는 1952년 도르트문트로 돌아왔고, 마침내 주장으로 1956년 첫 독일 챔피언십 우승컵을 들었다. 이듬해에는 결승 선발 11명을 한 명도 바꾸지 않은 팀으로 2연패를 완성했다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 

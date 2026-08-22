@@ -69,7 +69,7 @@ relatedGroup: 'fifa-world-cup-1950'
 </div>
 
 <section class="highlight-scene scene-chapter">
-  <header><span>66′–79′ · BRAZIL PUSH</span><h2>브라질의 파상공세</h2></header>
+  <header><span>66′-79′ · BRAZIL PUSH</span><h2>브라질의 파상공세</h2></header>
   <p>동점 뒤 브라질은 다시 우루과이 골문을 몰아쳤다. 시쿠가 몸을 돌려 내준 공을 자이르가 넘어지며 슈팅으로 연결했다. 들어갔다면 마라카낭은 곧바로 축제장으로 돌아갔을 장면이었다. 그러나 기다리던 두 번째 골은 나오지 않았다.</p>
   <div class="highlight-clip-grid">
     <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-07.mp4" type="video/mp4" /></video><figcaption>CR 바스쿠 다 가마의 시쿠(Chico·11번)가 턴 동작으로 공을 내주고, SE 파우메이라스의 자이르 다 호자 핀투(Jair da Rosa Pinto)가 넘어지며 슈팅한다.</figcaption></figure>
@@ -88,7 +88,7 @@ relatedGroup: 'fifa-world-cup-1950'
 </section>
 
 <section class="highlight-scene scene-chapter">
-  <header><span>79′–90′ · THE LAST PUSH</span><h2>한 골을 향한 마지막 공세</h2></header>
+  <header><span>79′-90′ · THE LAST PUSH</span><h2>한 골을 향한 마지막 공세</h2></header>
   <p>브라질에는 동점골 하나면 충분했다. 남은 11분 동안 파상공세가 이어졌지만 공은 골문 위로 뜨거나 우루과이 수비에 막혔다. 마침내 종료 휘슬이 울리자 우루과이 선수들은 그 자리에서 뛰어오르며 두 번째 세계 제패를 확인했다.</p>
   <div class="highlight-clip-grid two-clips">
     <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-12.mp4" type="video/mp4" /></video><figcaption>동점골을 향해 우루과이 진영으로 밀고 들어가는 브라질의 파상공세.</figcaption></figure>
@@ -112,7 +112,7 @@ relatedGroup: 'fifa-world-cup-1950'
 <div class="world-cup-transition full-time-poster poster-1950" aria-label="경기 종료, 우루과이 1950 월드컵 우승">
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>16 JULY 1950</span><b>ESTÁDIO DO MARACANÃ · RIO</b></div>
-  <div class="poster-copy"><small>FULL TIME · URUGUAY 2–1 BRAZIL</small><strong>최종 결전<br />우루과이의 승리</strong><p>URUGUAY · WORLD CHAMPIONS 1930 · 1950</p></div>
+  <div class="poster-copy"><small>FULL TIME · URUGUAY 2-1 BRAZIL</small><strong>최종 결전<br />우루과이의 승리</strong><p>URUGUAY · WORLD CHAMPIONS 1930 · 1950</p></div>
   <div class="poster-winner"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
 </div>
 

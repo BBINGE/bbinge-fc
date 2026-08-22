@@ -5,9 +5,9 @@
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
-/* BBinge FC 디자인 토큰 — 단일 출처. 색상은 반드시 이 변수만 사용한다. (DESIGN.md 참고) */
+/* BBinge FC 디자인 토큰 - 단일 출처. 색상은 반드시 이 변수만 사용한다. (DESIGN.md 참고) */
 :root {
-  /* 액센트 — 사이트 전체에서 유채색은 이것 하나 */
+  /* 액센트 - 사이트 전체에서 유채색은 이것 하나 */
   --bbfc-blue: #3182F6;
   --bbfc-blue-weak: #F2F6FE;   /* 블루 연한 면 (배너·태그 배경) */
   --bbfc-blue-strong: #1B64DA; /* 호버·눌림 */

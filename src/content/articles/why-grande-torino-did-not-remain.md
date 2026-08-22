@@ -38,11 +38,11 @@ draft: false
 
 ### 에르브슈타인이라는 이방인
 
-에그리 에르브슈타인 에르뇌<span class="foreign-note" lang="hu">(Egri Erbstein Ernő; 헝가리 축구 선수·지도자, 1898–1949)</span>는 1898년 오스트리아-헝가리 제국의 너지바러드<span class="foreign-note" lang="hu">(Nagyvárad; 오늘날 루마니아 오라데아)</span>에서 태어났다. 현재 국경만 보면 루마니아 출생이지만, 그의 언어와 축구 교육은 헝가리의 것이었다.
+에그리 에르브슈타인 에르뇌<span class="foreign-note" lang="hu">(Egri Erbstein Ernő; 헝가리 축구 선수·지도자, 1898-1949)</span>는 1898년 오스트리아-헝가리 제국의 너지바러드<span class="foreign-note" lang="hu">(Nagyvárad; 오늘날 루마니아 오라데아)</span>에서 태어났다. 현재 국경만 보면 루마니아 출생이지만, 그의 언어와 축구 교육은 헝가리의 것이었다.
 
-1920–30년대 부다페스트와 빈, 프라하를 잇는 중부 유럽에는 영국식 힘과 속도만으로 경기를 이해하지 않는 흐름이 있었다. 짧은 패스, 기술적 숙련, 포지션 사이의 교환을 중시한 이른바 다뉴브 학파였다. 에르브슈타인은 이 환경에서 선수와 지도자로 성장한 뒤 이탈리아로 건너왔다.
+1920-30년대 부다페스트와 빈, 프라하를 잇는 중부 유럽에는 영국식 힘과 속도만으로 경기를 이해하지 않는 흐름이 있었다. 짧은 패스, 기술적 숙련, 포지션 사이의 교환을 중시한 이른바 다뉴브 학파였다. 에르브슈타인은 이 환경에서 선수와 지도자로 성장한 뒤 이탈리아로 건너왔다.
 
-그는 1938-39 시즌 토리노의 기술 책임자로 팀을 이끌었지만, 베니토 무솔리니 정권의 인종법은 유대인이었던 그와 가족의 삶을 무너뜨렸다. 이탈리아를 떠나 헝가리로 돌아간 그는 전쟁과 박해를 견뎠고, 전쟁이 끝난 뒤 다시 토리노로 돌아왔다. 페루초 노보 회장<span class="foreign-note" lang="it">(Ferruccio Novo; 토리노 회장, 1897–1974)</span>는 그를 단순한 감독이 아니라 선수 영입·훈련·전술을 연결하는 기술적 설계자로 복귀시켰다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+그는 1938-39 시즌 토리노의 기술 책임자로 팀을 이끌었지만, 베니토 무솔리니 정권의 인종법은 유대인이었던 그와 가족의 삶을 무너뜨렸다. 이탈리아를 떠나 헝가리로 돌아간 그는 전쟁과 박해를 견뎠고, 전쟁이 끝난 뒤 다시 토리노로 돌아왔다. 페루초 노보 회장<span class="foreign-note" lang="it">(Ferruccio Novo; 토리노 회장, 1897-1974)</span>는 그를 단순한 감독이 아니라 선수 영입·훈련·전술을 연결하는 기술적 설계자로 복귀시켰다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 <figure class="portrait-figure">
   <img src="/images/history/grande-torino/erbstein-torino-airfield.jpg" alt="비행기 앞에 선 에그리 에르브슈타인 에르뇌와 토리노 관계자 및 선수" width="773" height="542" loading="lazy" />
@@ -51,9 +51,9 @@ draft: false
 
 ### 메토도와 시스테마
 
-전쟁 전 이탈리아의 성공을 설명하는 전술 언어는 메토도<span class="foreign-note" lang="it">(Metodo; 비토리오 포초가 발전시킨 2-3-2-3 구조)</span>였다. 비토리오 포초<span class="foreign-note" lang="it">(Vittorio Pozzo; 이탈리아 감독, 1886–1968)</span>는 이 구조로 1934년과 1938년 FIFA 월드컵™을 연속 제패했다.
+전쟁 전 이탈리아의 성공을 설명하는 전술 언어는 메토도<span class="foreign-note" lang="it">(Metodo; 비토리오 포초가 발전시킨 2-3-2-3 구조)</span>였다. 비토리오 포초<span class="foreign-note" lang="it">(Vittorio Pozzo; 이탈리아 감독, 1886-1968)</span>는 이 구조로 1934년과 1938년 FIFA 월드컵™을 연속 제패했다.
 
-메토도는 두 명의 인사이드 포워드를 중원 가까이에 두고, 기술과 빠른 연결을 살리는 데 유리했다. 그러나 1925년 오프사이드 규정이 바뀐 뒤 영국에서는 다른 답이 발전했다. 허버트 채프먼<span class="foreign-note" lang="en">(Herbert Chapman; 잉글랜드 축구 감독, 1878–1934)</span>의 아스널은 센터하프를 수비선으로 내려 3-2-2-3 형태의 WM을 만들었다. 이탈리아에서는 이 계열을 시스테마<span class="foreign-note" lang="it">(Sistema; WM 계열의 전술 체계)</span>라고 불렀다.
+메토도는 두 명의 인사이드 포워드를 중원 가까이에 두고, 기술과 빠른 연결을 살리는 데 유리했다. 그러나 1925년 오프사이드 규정이 바뀐 뒤 영국에서는 다른 답이 발전했다. 허버트 채프먼<span class="foreign-note" lang="en">(Herbert Chapman; 잉글랜드 축구 감독, 1878-1934)</span>의 아스널은 센터하프를 수비선으로 내려 3-2-2-3 형태의 WM을 만들었다. 이탈리아에서는 이 계열을 시스테마<span class="foreign-note" lang="it">(Sistema; WM 계열의 전술 체계)</span>라고 불렀다.
 
 <div class="media-grid media-grid-two tactical-compare">
   <figure>
@@ -97,7 +97,7 @@ draft: false
 
 라 그란데 토리노를 전술만으로 설명하면 절반을 놓친다. 이 팀은 피아트<span class="foreign-note" lang="it">(FIAT; 토리노에서 성장한 이탈리아 자동차 기업)</span>의 도시에서 만들어졌다.
 
-1923년 에도아르도 아녤리<span class="foreign-note" lang="it">(Edoardo Agnelli; 이탈리아 기업가·유벤투스 회장, 1892–1935)</span>가 유벤투스 회장에 취임하면서 아녤리 가문과 유벤투스의 결합은 제도화됐다. 산업 자본의 지원을 받은 유벤투스는 1930년대 이탈리아 축구의 첫 장기 왕조를 구축했다.
+1923년 에도아르도 아녤리<span class="foreign-note" lang="it">(Edoardo Agnelli; 이탈리아 기업가·유벤투스 회장, 1892-1935)</span>가 유벤투스 회장에 취임하면서 아녤리 가문과 유벤투스의 결합은 제도화됐다. 산업 자본의 지원을 받은 유벤투스는 1930년대 이탈리아 축구의 첫 장기 왕조를 구축했다.
 
 <figure class="portrait-figure">
   <img src="/images/history/grande-torino/edoardo-agnelli.jpg" alt="유벤투스 회장을 지낸 이탈리아 기업가 에도아르도 아녤리" width="773" height="515" loading="lazy" />
@@ -112,7 +112,7 @@ draft: false
 
 ## 4. 리스보아에서 돌아오지 못한 팀
 
-1949년 5월 3일, 토리노는 리스보아에서 SL 벤피카와 친선경기를 치렀다. 벤피카 주장 프란시스쿠 페헤이라<span class="foreign-note" lang="pt-PT">(Francisco Ferreira; 포르투갈 축구 선수, 1919–1986)</span>를 기리는 경기였다. 발렌티노 마촐라와 페헤이라가 국가대표팀 경기에서 나눈 약속으로 성사된 이 친선전에는 약 4만 명이 모였고, 벤피카가 4-3으로 이겼다. 그것이 라 그란데 토리노의 마지막 경기였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+1949년 5월 3일, 토리노는 리스보아에서 SL 벤피카와 친선경기를 치렀다. 벤피카 주장 프란시스쿠 페헤이라<span class="foreign-note" lang="pt-PT">(Francisco Ferreira; 포르투갈 축구 선수, 1919-1986)</span>를 기리는 경기였다. 발렌티노 마촐라와 페헤이라가 국가대표팀 경기에서 나눈 약속으로 성사된 이 친선전에는 약 4만 명이 모였고, 벤피카가 4-3으로 이겼다. 그것이 라 그란데 토리노의 마지막 경기였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 <figure>
   <img src="/images/history/grande-torino/benfica-torino-1949.jpg" alt="1949년 5월 3일 벤피카와 토리노의 친선경기를 알리는 역사 이미지" width="773" height="433" loading="lazy" />
@@ -134,7 +134,7 @@ draft: false
 
 여기서 가장 조심해야 할 문장이 있다. “토리노가 사라지자 이탈리아는 카테나초를 선택했다.” 매혹적이지만, 그대로는 역사적으로 맞지 않는다.
 
-카테나초<span class="foreign-note" lang="it">(catenaccio; ‘빗장’을 뜻하는 이탈리아식 수비 전술 계열)</span>의 뿌리는 수페르가 이전으로 올라간다. 카를 라판<span class="foreign-note" lang="de">(Karl Rappan; 오스트리아 출신 스위스 축구 감독, 1905–1996)</span>의 베루<span class="foreign-note" lang="fr">(verrou; ‘자물쇠’를 뜻하는 스위스식 전술)</span>가 수비선 뒤에 여분의 수비수를 두었고, 네레오 로코<span class="foreign-note" lang="it">(Nereo Rocco; 이탈리아 축구 감독, 1912–1979)</span>는 이미 1947-48 시즌 트리에스티나에서 수비적 구조와 빠른 역습을 통해 세리에 A 2위에 올랐다. 수페르가가 카테나초를 발명한 것은 아니다.
+카테나초<span class="foreign-note" lang="it">(catenaccio; ‘빗장’을 뜻하는 이탈리아식 수비 전술 계열)</span>의 뿌리는 수페르가 이전으로 올라간다. 카를 라판<span class="foreign-note" lang="de">(Karl Rappan; 오스트리아 출신 스위스 축구 감독, 1905-1996)</span>의 베루<span class="foreign-note" lang="fr">(verrou; ‘자물쇠’를 뜻하는 스위스식 전술)</span>가 수비선 뒤에 여분의 수비수를 두었고, 네레오 로코<span class="foreign-note" lang="it">(Nereo Rocco; 이탈리아 축구 감독, 1912-1979)</span>는 이미 1947-48 시즌 트리에스티나에서 수비적 구조와 빠른 역습을 통해 세리에 A 2위에 올랐다. 수페르가가 카테나초를 발명한 것은 아니다.
 
 그럼에도 참사는 전술사의 분기점이었다. 새로운 수비 언어가 이미 존재하던 순간, 그와 경쟁할 수 있었던 가장 강력한 공격적 모델의 선수·지도자·훈련 문화가 한꺼번에 사라졌기 때문이다.
 
@@ -148,9 +148,9 @@ draft: false
 
 이 역설을 가장 선명하게 보여주는 이름이 마촐라다.
 
-발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola; 이탈리아 축구 선수, 1919–1949)</span>는 라 그란데 토리노의 주장이자 전술적 중심이었다. 소매를 걷어 올리는 그의 몸짓은 팀에 속도를 높이라는 신호로 기억된다. 그는 공격수이면서 중원으로 내려왔고, 득점하면서 압박했으며, 팀 전체의 리듬을 조절했다.
+발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola; 이탈리아 축구 선수, 1919-1949)</span>는 라 그란데 토리노의 주장이자 전술적 중심이었다. 소매를 걷어 올리는 그의 몸짓은 팀에 속도를 높이라는 신호로 기억된다. 그는 공격수이면서 중원으로 내려왔고, 득점하면서 압박했으며, 팀 전체의 리듬을 조절했다.
 
-그의 아들 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola; 이탈리아 축구 선수, 1942–)</span>는 아버지가 죽은 뒤 인테르에서 성장했다. 그리고 1960년대 엘레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera; 아르헨티나 태생 축구 감독, 1910–1997)</span>의 라 그란데 인테르<span class="foreign-note" lang="it">(La Grande Inter; 1960년대 유럽을 제패한 인테르)</span>에서 유러피언컵을 두 차례 들었다.
+그의 아들 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola; 이탈리아 축구 선수, 1942-)</span>는 아버지가 죽은 뒤 인테르에서 성장했다. 그리고 1960년대 엘레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera; 아르헨티나 태생 축구 감독, 1910-1997)</span>의 라 그란데 인테르<span class="foreign-note" lang="it">(La Grande Inter; 1960년대 유럽을 제패한 인테르)</span>에서 유러피언컵을 두 차례 들었다.
 
 아버지와 아들의 팀은 모두 ‘위대한’이라는 이름을 얻었다. 그러나 위대함을 조직한 방식은 달랐다. 토리노는 공을 소유하고 중원을 전진시키며 상대를 밀어냈다. 인테르는 수비적 질서와 전환의 정밀함으로 상대의 공간을 제거했다. 아버지가 열었던 가능성이 아들의 시대에는 정반대의 전술 언어 안에서 완성된 셈이다.
 
@@ -168,7 +168,7 @@ draft: false
 
 1947년 이탈리아 대표팀의 필드 플레이어 10명이 토리노 선수였다. 이탈리아는 토리노였다. 그리고 토리노는 사라졌다.
 
-《코리에레 델라 세라》의 인드로 몬타넬리<span class="foreign-note" lang="it">(Indro Montanelli; 이탈리아 언론인, 1909–2001)</span>는 장례 뒤 이렇게 썼다.
+《코리에레 델라 세라》의 인드로 몬타넬리<span class="foreign-note" lang="it">(Indro Montanelli; 이탈리아 언론인, 1909-2001)</span>는 장례 뒤 이렇게 썼다.
 
 <blockquote class="closing-quote">
   <p lang="it">Gli eroi sono sempre immortali agli occhi di chi in essi crede. E così i ragazzi crederanno che il Torino non è morto: è soltanto «in trasferta».</p>
@@ -179,7 +179,7 @@ draft: false
 
 <a class="visual-story-link" href="/history/grande-torino-card-news/">
   <span>VISUAL STORY · 7 SCENES</span>
-  <strong>위대한 토리노 — 7장으로 보는 수페르가의 비극</strong>
+  <strong>위대한 토리노 - 7장으로 보는 수페르가의 비극</strong>
   <em>비주얼 스토리로 빠르게 보기 →</em>
 </a>
 

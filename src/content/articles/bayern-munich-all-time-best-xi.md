@@ -39,15 +39,15 @@ featured: true
 
 뮌헨은 왕국의 수도였고 예술과 학문의 도시였으며, 나치 운동이 세를 불린 장소이기도 했다. 제2차 세계대전의 공습은 거리와 주택, 오래된 건축을 무너뜨렸다. 폐허를 치우고 서독의 경제 중심지로 성장한 도시에서는 과거를 기억하는 일과 새로운 번영을 과시하는 일이 오랫동안 한 풍경 안에 겹쳤다. 그 복잡한 자의식이 축구장에서 가장 크고 선명한 형태를 얻었다.
 
-Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein*은 독일 법에 따라 등록된 협회라는 뜻이다. 1900년 2월 27일 프란츠 욘<span class="foreign-note" lang="de">(Franz John; 바이에른 창립을 주도한 독일 사진가·축구 행정가, 1872–1952)</span>과 열 명의 동료가 뮌헨의 한 식당에서 만든 작은 구단은 한 세기 뒤 독일 축구의 최대 권력이 되었다.
+Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein*은 독일 법에 따라 등록된 협회라는 뜻이다. 1900년 2월 27일 프란츠 욘<span class="foreign-note" lang="de">(Franz John; 바이에른 창립을 주도한 독일 사진가·축구 행정가, 1872-1952)</span>과 열 명의 동료가 뮌헨의 한 식당에서 만든 작은 구단은 한 세기 뒤 독일 축구의 최대 권력이 되었다.
 
-그 길은 처음부터 곧지 않았다. 1932년 첫 독일 챔피언십을 차지한 팀에는 유대인 회장 쿠르트 란다우어<span class="foreign-note" lang="de">(Kurt Landauer; 바이에른 회장을 네 차례 지낸 유대계 독일 축구 행정가, 1884–1961)</span>와 유대인 감독 리하르트 콘<span class="foreign-note" lang="de">(Richard Kohn; ‘돔비’로 불린 오스트리아 축구감독, 1888–1963)</span>이 있었다. 나치 집권 뒤 란다우어는 수용소를 거쳐 스위스로 망명했고, 구단은 ‘유대인의 클럽’이라는 낙인 아래 밀려났다. 전쟁이 끝난 뒤 돌아온 그가 다시 회장직을 맡았다는 사실은 바이언의 역사에 승패표로는 적을 수 없는 깊이를 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+그 길은 처음부터 곧지 않았다. 1932년 첫 독일 챔피언십을 차지한 팀에는 유대인 회장 쿠르트 란다우어<span class="foreign-note" lang="de">(Kurt Landauer; 바이에른 회장을 네 차례 지낸 유대계 독일 축구 행정가, 1884-1961)</span>와 유대인 감독 리하르트 콘<span class="foreign-note" lang="de">(Richard Kohn; ‘돔비’로 불린 오스트리아 축구감독, 1888-1963)</span>이 있었다. 나치 집권 뒤 란다우어는 수용소를 거쳐 스위스로 망명했고, 구단은 ‘유대인의 클럽’이라는 낙인 아래 밀려났다. 전쟁이 끝난 뒤 돌아온 그가 다시 회장직을 맡았다는 사실은 바이언의 역사에 승패표로는 적을 수 없는 깊이를 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 1963년 푸스발-분데스리가<span class="foreign-note" lang="de">(Fußball-Bundesliga; ‘연방 축구 리그’를 뜻하는 독일 최상위 리그)</span>가 출범했을 때 뮌헨에 주어진 한 자리는 지역 라이벌 TSV 1860 뮌헨에게 돌아갔다. 바이언은 두 시즌을 더 기다려야 했다. 마침내 승격한 젊은 팀에는 프란츠 베켄바워, 제프 마이어, 게르트 뮐러가 있었다. 독일 축구의 변두리에 남겨졌던 구단이 유럽의 지도를 다시 그리는 데에는 십 년도 걸리지 않았다.
 
 1974년부터 유러피언컵을 세 차례 연속 들어 올린 왕조, 1980년대의 브라이트니게<span class="foreign-note" lang="de">(Breitnigge; 파울 브라이트너와 카를하인츠 루메니게의 성을 합친 별칭)</span>, 1990년대의 ‘FC 할리우드’와 2001년의 극적인 유럽 정상 복귀, 알리안츠 아레나 시대에 완성된 2013년과 2020년의 트레블. 바이언의 연대기는 매번 다른 얼굴을 하고도 같은 질문으로 돌아왔다. 독일에서 가장 강한 팀은 유럽에서도 가장 강할 수 있는가.
 
-<div class="bayern-era" aria-label="FC 바이에른 뮌헨 선정 범위"><img src="/images/clubs/bayern-2017.svg" alt="" aria-hidden="true" width="180" height="180" /><span>FUSSBALL-CLUB BAYERN MÜNCHEN e. V.</span><strong>1900—2026</strong><p><em lang="de">Die Roten</em> · 붉은 유니폼에 포개진 뮌헨과 독일 축구의 126년</p></div>
+<div class="bayern-era" aria-label="FC 바이에른 뮌헨 선정 범위"><img src="/images/clubs/bayern-2017.svg" alt="" aria-hidden="true" width="180" height="180" /><span>FUSSBALL-CLUB BAYERN MÜNCHEN e. V.</span><strong>1900-2026</strong><p><em lang="de">Die Roten</em> · 붉은 유니폼에 포개진 뮌헨과 독일 축구의 126년</p></div>
 
 ## 열한 자리를 고른 방식
 
@@ -67,7 +67,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-1.webp" alt="마누엘 노이어 골키퍼 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-마누엘 노이어<span class="foreign-note" lang="de">(Manuel Peter Neuer; 독일 축구선수·골키퍼, 1986–)</span> 이전에도 골문 밖으로 나오는 수문장은 있었다. 그로시치 줄러와 아마데오 카리소가 오래전에 그 길을 열었고, 레프 야신은 페널티 지역 전체를 지배하는 골키퍼의 권위를 세웠다. 노이어가 바꾼 것은 행동의 존재보다 그 행동이 팀 전술에서 차지하는 비중이었다.
+마누엘 노이어<span class="foreign-note" lang="de">(Manuel Peter Neuer; 독일 축구선수·골키퍼, 1986-)</span> 이전에도 골문 밖으로 나오는 수문장은 있었다. 그로시치 줄러와 아마데오 카리소가 오래전에 그 길을 열었고, 레프 야신은 페널티 지역 전체를 지배하는 골키퍼의 권위를 세웠다. 노이어가 바꾼 것은 행동의 존재보다 그 행동이 팀 전술에서 차지하는 비중이었다.
 
 그는 최종 수비선 뒤의 넓은 초원을 자기 구역으로 만들었다. 긴 공이 떨어질 지점을 향해 달려 나가고, 발등으로 걷어낼지 가슴으로 받을지, 짧은 패스로 다시 공격을 시작할지를 한 호흡 안에서 골랐다. 높은 수비선을 세운 바이언과 독일 대표팀은 그 판단 덕분에 전진할 수 있었다. 골키퍼의 위치가 열 명의 출발선을 몇 미터씩 밀어 올린 셈이다.
 
@@ -79,7 +79,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-1.webp" alt="프란츠 베켄바워 리베로 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Anton Beckenbauer; 독일 축구선수·감독·행정가, 1945–2024)</span>의 바이언 입단기는 뮌헨 축구사의 갈림길로 전해진다. 열세 살의 소년은 원래 TSV 1860 뮌헨을 생각했으나 유소년 경기에서 상대 선수에게 뺨을 맞은 뒤 바이언으로 향했다. 1958년의 작은 충돌이 독일 최대 구단의 운명을 바꾸었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Anton Beckenbauer; 독일 축구선수·감독·행정가, 1945-2024)</span>의 바이언 입단기는 뮌헨 축구사의 갈림길로 전해진다. 열세 살의 소년은 원래 TSV 1860 뮌헨을 생각했으나 유소년 경기에서 상대 선수에게 뺨을 맞은 뒤 바이언으로 향했다. 1958년의 작은 충돌이 독일 최대 구단의 운명을 바꾸었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 <div class="beckenbauer-litany" aria-label="프란츠 베켄바워를 설명하는 역사적 평가와 기록">
   <p>바이에른 뮌헨의 첫 번째 전성기를 이끈 자.</p>
@@ -118,7 +118,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-1.webp" alt="파울 브라이트너 레프트백 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-파울 브라이트너<span class="foreign-note" lang="de">(Paul Breitner; 독일 축구선수·수비수·미드필더, 1951–)</span>는 반듯한 영웅상이 품기 어려운 사람이다. 긴 머리와 수염, 체제와 권위를 향한 날 선 발언, 마오쩌둥의 초상 앞에서 찍은 사진이 그를 1970년대 서독의 논쟁 한가운데 세웠다. 그 소란을 걷어내고 경기만 보아도 여전히 평범한 풀백은 남지 않는다.
+파울 브라이트너<span class="foreign-note" lang="de">(Paul Breitner; 독일 축구선수·수비수·미드필더, 1951-)</span>는 반듯한 영웅상이 품기 어려운 사람이다. 긴 머리와 수염, 체제와 권위를 향한 날 선 발언, 마오쩌둥의 초상 앞에서 찍은 사진이 그를 1970년대 서독의 논쟁 한가운데 세웠다. 그 소란을 걷어내고 경기만 보아도 여전히 평범한 풀백은 남지 않는다.
 
 우도 라테크가 1970년 바이언에 데려온 젊은 브라이트너는 왼쪽에서 출발해 중앙으로 들어왔고, 강한 오른발 슈팅과 긴 패스로 공격의 방향을 정했다. 레알 마드리드에서 보낸 세 시즌을 거쳐 1978년 뮌헨에 돌아왔을 때에는 완전한 중앙 미드필더가 되어 있었다. 루메니게와 결성한 브라이트니게는 베켄바워·뮐러 세대가 떠난 뒤 생긴 공백을 메웠다. 바이언 공식 명예의 전당이 그를 *Der Stratege*, 곧 ‘전략가’로 부르는 까닭이다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
@@ -130,7 +130,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-1.webp" alt="필리프 람 라이트백 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-필리프 람<span class="foreign-note" lang="de">(Philipp Lahm; 독일 축구선수·풀백·미드필더, 1983–)</span>의 플레이에는 낭비되는 동작이 드물었다. 상대가 공을 받기 전에 몸의 각도를 정하고, 패스가 도착하면 다음 선택을 위한 공간을 남겨두었다. 작은 체격을 약점으로 만들 장면 자체를 줄였으니, 태클의 힘보다 판단의 선행이 더 또렷하게 보였다.
+필리프 람<span class="foreign-note" lang="de">(Philipp Lahm; 독일 축구선수·풀백·미드필더, 1983-)</span>의 플레이에는 낭비되는 동작이 드물었다. 상대가 공을 받기 전에 몸의 각도를 정하고, 패스가 도착하면 다음 선택을 위한 공간을 남겨두었다. 작은 체격을 약점으로 만들 장면 자체를 줄였으니, 태클의 힘보다 판단의 선행이 더 또렷하게 보였다.
 
 뮌헨에서 태어나 열한 살에 바이언 유소년팀에 들어온 그는 슈투트가르트 임대 뒤 양쪽 풀백을 오갔다. 주제프 과르디올라가 중앙 미드필더로 옮겼을 때에도 새로운 포지션을 배우는 시간이 거의 필요하지 않았다. 측면에서 익힌 시야가 중앙에서 더 많은 방향을 얻었다. 패스의 길이보다 어느 발에 보내느냐를 생각했고, 압박을 피한 뒤 동료의 다음 선택까지 편하게 했다.
 
@@ -142,7 +142,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-4.webp" alt="로타어 마테우스 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-로타어 마테우스<span class="foreign-note" lang="de">(Lothar Herbert Matthäus; 독일 축구선수·미드필더·리베로, 1961–)</span>는 한 경기 안에서 가장 먼 거리를 가장 많은 책임과 함께 이동했다. 상대의 중심을 압박하고 공을 빼앗은 다음 직접 전진했으며, 페널티 지역 앞에서는 양발의 중거리 슈팅을 꺼냈다. 속도와 지구력, 패스와 대인 방어가 한 몸에 모였고, 경기의 온도가 오를수록 존재감도 커졌다.
+로타어 마테우스<span class="foreign-note" lang="de">(Lothar Herbert Matthäus; 독일 축구선수·미드필더·리베로, 1961-)</span>는 한 경기 안에서 가장 먼 거리를 가장 많은 책임과 함께 이동했다. 상대의 중심을 압박하고 공을 빼앗은 다음 직접 전진했으며, 페널티 지역 앞에서는 양발의 중거리 슈팅을 꺼냈다. 속도와 지구력, 패스와 대인 방어가 한 몸에 모였고, 경기의 온도가 오를수록 존재감도 커졌다.
 
 보루시아 묀헨글라트바흐에서 성장한 그는 1984년 바이언으로 왔고, 인테르에서 세리에 A와 UEFA컵을 정복한 뒤 1992년 돌아왔다. 두 번째 바이언 시기에는 아킬레스건 부상을 통과하며 리베로로 변신했다. 젊은 시절의 폭발력을 잃어가는 대신 경기 전체를 내려다보는 위치를 얻었다. 한 선수의 몸 안에서 박스 투 박스 미드필더와 최후방 지휘관의 역사가 이어졌다.
 
@@ -154,7 +154,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-1.webp" alt="바스티안 슈바인슈타이거 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-바스티안 슈바인슈타이거<span class="foreign-note" lang="de">(Bastian Schweinsteiger; 독일 축구선수·중앙 미드필더, 1984–)</span>는 측면의 재기 넘치는 소년으로 1군에 올라왔다. 루이 판할이 그를 중앙으로 옮긴 뒤 바이언의 박동은 31번의 발끝에서 고르게 뛰었다. 수비선 앞에서 공을 받고, 압박을 등진 채 방향을 바꾸며, 전진한 풀백의 빈자리까지 메웠다.
+바스티안 슈바인슈타이거<span class="foreign-note" lang="de">(Bastian Schweinsteiger; 독일 축구선수·중앙 미드필더, 1984-)</span>는 측면의 재기 넘치는 소년으로 1군에 올라왔다. 루이 판할이 그를 중앙으로 옮긴 뒤 바이언의 박동은 31번의 발끝에서 고르게 뛰었다. 수비선 앞에서 공을 받고, 압박을 등진 채 방향을 바꾸며, 전진한 풀백의 빈자리까지 메웠다.
 
 2012년 챔피언스 리그 결승 승부차기에서 그의 슈팅은 골대를 때렸다. 고향의 경기장에서 우승컵을 내준 장면은 오래 남았고, 선수는 그 기억을 피해 가지 않았다. 2013년에는 더 낮고 단단한 중심이 되어 트레블을 완성했다. 우승의 장면만으로는 슈바인슈타이거를 다 설명하기 어렵다. 무너진 다음 해에 같은 대회를 처음부터 다시 건너간 시간이 그의 축구를 완성했다.
 
@@ -166,7 +166,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-1.webp" alt="프랑크 리베리 레프트윙 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-프랑크 리베리<span class="foreign-note" lang="fr">(Franck Henry Pierre Ribéry; 프랑스 축구선수·왼쪽 윙어, 1983–)</span>가 2007년 뮌헨에 왔을 때 바이언은 UEFA 챔피언스 리그 출전권조차 놓친 상태였다. 그는 낯선 리그의 적응기를 요구하지 않았다. 낮은 무게중심으로 왼쪽을 파고들고, 수비수의 발이 굳는 순간 안쪽과 바깥쪽 가운데 더 아픈 길을 골랐다. 관중은 첫 시즌부터 그를 ‘카이저 프랑크’라 불렀다.
+프랑크 리베리<span class="foreign-note" lang="fr">(Franck Henry Pierre Ribéry; 프랑스 축구선수·왼쪽 윙어, 1983-)</span>가 2007년 뮌헨에 왔을 때 바이언은 UEFA 챔피언스 리그 출전권조차 놓친 상태였다. 그는 낯선 리그의 적응기를 요구하지 않았다. 낮은 무게중심으로 왼쪽을 파고들고, 수비수의 발이 굳는 순간 안쪽과 바깥쪽 가운데 더 아픈 길을 골랐다. 관중은 첫 시즌부터 그를 ‘카이저 프랑크’라 불렀다.
 
 왼쪽의 리베리와 오른쪽의 아르연 로번이 만든 로베리<span class="foreign-note" lang="de">(Robbery; Robben과 Ribéry를 합친 바이언의 양쪽 윙어 듀오 별칭)</span>는 2010년대 바이언의 공격 문법이었다. 리베리는 터치라인에서 시작해 하프스페이스로 들어왔고, 다비드 알라바가 바깥을 질주할 길을 열었다. 공을 잃은 뒤에는 격한 감정으로 다시 달려들었다. 그의 축구에서는 기술과 분노, 장난기와 집요함이 좀처럼 분리되지 않았다.
 
@@ -178,7 +178,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-1.webp" alt="카를하인츠 루메니게 라이트윙 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-카를하인츠 루메니게<span class="foreign-note" lang="de">(Karl-Heinz Rummenigge; 독일 축구선수·공격수·행정가, 1955–)</span>는 1974년 이름 없는 열여덟 살로 입단했다. 베켄바워와 게르트 뮐러의 왕조가 절정에 있던 시기였으니, 훗날 그는 그 도전을 ‘가미카제 임무’라고 회고했다. 두 번째 시즌부터 주전이 되었고, 선배들이 떠난 뒤에는 팀의 얼굴이 되었다.
+카를하인츠 루메니게<span class="foreign-note" lang="de">(Karl-Heinz Rummenigge; 독일 축구선수·공격수·행정가, 1955-)</span>는 1974년 이름 없는 열여덟 살로 입단했다. 베켄바워와 게르트 뮐러의 왕조가 절정에 있던 시기였으니, 훗날 그는 그 도전을 ‘가미카제 임무’라고 회고했다. 두 번째 시즌부터 주전이 되었고, 선배들이 떠난 뒤에는 팀의 얼굴이 되었다.
 
 초기의 무기는 속도였다. 오른쪽에서 길게 전진한 뒤 중앙으로 파고들었고, 경력이 쌓이면서 양발 슈팅과 연계, 페널티 지역의 움직임을 더했다. 브라이트너가 중앙에서 경기의 방향을 틀면 루메니게가 마지막 직선을 그었다. 브라이트니게가 이끈 바이언은 1980년과 1981년 연속 리그 우승을 차지했고, 루메니게는 같은 두 해에 발롱도르를 받았다.
 
@@ -190,7 +190,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-1.webp" alt="토마스 뮐러 세컨드 스트라이커 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-토마스 뮐러<span class="foreign-note" lang="de">(Thomas Müller; 독일 축구선수·공격수, 1989–)</span>는 자기 역할을 *Raumdeuter*라 이름 붙였다. *Raum*은 공간, *Deuter*는 해석하는 사람을 뜻하니 ‘공간 해석가’가 된다. 빠른 드리블이나 정교한 몸동작으로 상대를 이기기보다, 수비수가 잠시 잊은 장소를 먼저 발견했다.
+토마스 뮐러<span class="foreign-note" lang="de">(Thomas Müller; 독일 축구선수·공격수, 1989-)</span>는 자기 역할을 *Raumdeuter*라 이름 붙였다. *Raum*은 공간, *Deuter*는 해석하는 사람을 뜻하니 ‘공간 해석가’가 된다. 빠른 드리블이나 정교한 몸동작으로 상대를 이기기보다, 수비수가 잠시 잊은 장소를 먼저 발견했다.
 
 그의 움직임은 공을 가진 선수의 선택지를 늘렸다. 센터백과 풀백 사이로 빠졌다가 크로스가 올라오기 직전 반대편으로 돌아왔고, 최전방이 내려오면 비워진 자리를 채웠다. 때로는 공을 어설프게 다루는 듯 보였으나 다음 장면에는 득점이나 도움의 가장 가까운 곳에 있었다. 전술판의 선으로 고정하기 어려운 성질이 오히려 여러 감독의 축구를 연결했다.
 
@@ -202,7 +202,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-4.webp" alt="로베르트 레반도프스키 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-로베르트 레반도프스키<span class="foreign-note" lang="pl">(Robert Lewandowski; 폴란드 축구선수·센터 포워드, 1988–)</span>의 득점은 우연이 끼어들 틈을 줄이는 과정에서 태어났다. 첫 터치로 슈팅 각도를 만들고, 양발과 머리 가운데 가장 짧은 해결책을 골랐으며, 수비수의 시야 밖에서 한 걸음 먼저 출발했다. 체격과 기술은 철저한 훈련 아래 같은 속도로 움직였다.
+로베르트 레반도프스키<span class="foreign-note" lang="pl">(Robert Lewandowski; 폴란드 축구선수·센터 포워드, 1988-)</span>의 득점은 우연이 끼어들 틈을 줄이는 과정에서 태어났다. 첫 터치로 슈팅 각도를 만들고, 양발과 머리 가운데 가장 짧은 해결책을 골랐으며, 수비수의 시야 밖에서 한 걸음 먼저 출발했다. 체격과 기술은 철저한 훈련 아래 같은 속도로 움직였다.
 
 2015년 9월 22일 볼프스부르크전의 후반 교체 투입은 그 정밀도가 폭발한 밤이다. 51분부터 60분 사이 다섯 골. 페널티 지역의 마무리, 중거리 슈팅, 가위차기가 아홉 분 안에 이어졌다. 기록은 기이할 만큼 빠르지만 장면마다 다른 해법이 담겼다.
 
@@ -214,7 +214,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-1.webp" alt="게르트 뮐러 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
-게르트 뮐러<span class="foreign-note" lang="de">(Gerhard Müller; 독일 축구선수·센터 포워드, 1945–2021)</span>의 몸은 고전적인 미학과 거리가 있었다. 낮은 중심, 굵은 허벅지, 짧은 보폭. 그 구조는 페널티 지역에서 누구보다 빠르게 방향을 바꾸는 데 쓰였다. 등을 진 채 몸을 돌리고, 넘어지면서 발끝을 내밀며, 공이 완전히 정리되기 전에 골문 구석을 찾았다.
+게르트 뮐러<span class="foreign-note" lang="de">(Gerhard Müller; 독일 축구선수·센터 포워드, 1945-2021)</span>의 몸은 고전적인 미학과 거리가 있었다. 낮은 중심, 굵은 허벅지, 짧은 보폭. 그 구조는 페널티 지역에서 누구보다 빠르게 방향을 바꾸는 데 쓰였다. 등을 진 채 몸을 돌리고, 넘어지면서 발끝을 내밀며, 공이 완전히 정리되기 전에 골문 구석을 찾았다.
 
 <blockquote class="gerd-invocation"><strong>바이언의 두 번째 신.</strong><br /><span class="gerd-question">신은 어떻게 침묵 속에서 골을 넣는가.</span></blockquote>
 

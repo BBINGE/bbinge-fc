@@ -11,7 +11,7 @@ const records = (await getCollection('archive', ({ data }) => !data.draft))
 const firstRecord = [...records].sort((a, b) => a.data.year - b.data.year)[0];
 const latestRecord = records[0];
 const archiveYears = records.map((record) => record.data.year);
-const yearRange = archiveYears.length > 0 ? `${Math.min(...archiveYears)}–${Math.max(...archiveYears)}` : '준비 중';
+const yearRange = archiveYears.length > 0 ? `${Math.min(...archiveYears)}-${Math.max(...archiveYears)}` : '준비 중';
 const activeSeries = archiveBranches.flatMap((branch) => branch.indexes.map((index) => {
   const seriesRecords = records.filter((record) => record.data.branch === branch.id && record.data.index === index.slug);
   return { branch, index, records: seriesRecords.sort((a, b) => a.data.year - b.data.year) };

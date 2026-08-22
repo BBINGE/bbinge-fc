@@ -54,7 +54,7 @@ featured: false
 
 여기서 ‘스포츠’라는 범주 자체도 역사화할 필요가 있다. 근대 스포츠는 규칙의 통일, 기록의 계량, 협회의 승인, 정기 대회 같은 조건으로 무엇이 스포츠인지를 분류했다. 이 기준에 맞지 않는 원주민·이베리아계 놀이가 비스포츠나 전근대적 오락으로 밀려난 것은 활동이 없었기 때문이 아니라, 분류 권력이 달라졌기 때문이다. 영국식 스포츠가 들어오기 전의 남미를 공백으로 보는 시선에는 이미 근대 스포츠의 정의가 숨어 있다.
 
-브라운은 자신의 저서 《남미의 스포츠: 하나의 역사》<span class="foreign-note" lang="en">(Sports in South America: A History; 매슈 브라운이 2023년에 펴낸 남미 스포츠 통사)</span>에서 축구를 남미 스포츠의 출발점이 아니라 **상대적으로 늦게 등장해 기존 스포츠 문화를 흡수한 종목**으로 배치한다. 축구가 압도적인 대중성을 얻은 것은 그것이 최초여서가 아니다. 1920–1930년대 도시화와 대중 언론, 학교와 군대, 클럽 조직을 타고 다른 놀이의 관중·공간·대표 기능을 빠르게 끌어안았기 때문이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+브라운은 자신의 저서 《남미의 스포츠: 하나의 역사》<span class="foreign-note" lang="en">(Sports in South America: A History; 매슈 브라운이 2023년에 펴낸 남미 스포츠 통사)</span>에서 축구를 남미 스포츠의 출발점이 아니라 **상대적으로 늦게 등장해 기존 스포츠 문화를 흡수한 종목**으로 배치한다. 축구가 압도적인 대중성을 얻은 것은 그것이 최초여서가 아니다. 1920-1930년대 도시화와 대중 언론, 학교와 군대, 클럽 조직을 타고 다른 놀이의 관중·공간·대표 기능을 빠르게 끌어안았기 때문이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 이 관점에 서면 질문이 달라진다. ‘누가 공을 가져왔는가’에서 ‘왜 하필 축구가 그토록 빠르게 현지의 삶을 장악했는가’로 이동한다. 답은 영국인의 영향력 하나가 아니라 노동과 여가의 변화, 항구도시의 성장, 이민과 인종 질서, 국가가 원한 시민의 몸, 신문이 만든 영웅을 함께 살펴야 나온다.
 
@@ -66,7 +66,7 @@ featured: false
 
 리오데라플라타<span class="foreign-note" lang="es">(Río de la Plata; 스페인어로 은의 강이라는 뜻의 거대한 하구)</span>를 오간 증기선과 도시 철도는 원정 경기를 가능하게 했고, 전차는 관중이 다른 구역의 경기장을 찾아갔다가 같은 날 돌아올 수 있게 했다. 교통망은 리그의 공간을 확장했을 뿐 아니라 ‘우리 동네’와 ‘상대의 영토’를 체감하게 했다. 이동의 인프라가 소속감의 지리를 만든 것이다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-경기의 확산은 영국인 공동체 안에서 끝나지 않았다. 현지 학교 학생, 도시 노동자, 크리오요<span class="foreign-note" lang="es">(criollos; 식민지 아메리카에서 태어난 유럽계 주민과 그 후손)</span>, 메스티소와 아프리카계 주민, 이탈리아·스페인·독일계 이민자가 공을 차기 시작하면서 축구의 언어와 몸짓은 빠르게 변했다. 상파울루의 공식 기억조차 1888–1909년 사이 신문에서 확인되는 축구 클럽이 700개가 넘는다고 기록한다. 한 명의 개척자만으로 설명하기 어려운 사회적 증식이다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
+경기의 확산은 영국인 공동체 안에서 끝나지 않았다. 현지 학교 학생, 도시 노동자, 크리오요<span class="foreign-note" lang="es">(criollos; 식민지 아메리카에서 태어난 유럽계 주민과 그 후손)</span>, 메스티소와 아프리카계 주민, 이탈리아·스페인·독일계 이민자가 공을 차기 시작하면서 축구의 언어와 몸짓은 빠르게 변했다. 상파울루의 공식 기억조차 1888-1909년 사이 신문에서 확인되는 축구 클럽이 700개가 넘는다고 기록한다. 한 명의 개척자만으로 설명하기 어려운 사회적 증식이다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 
 <figure class="history-wide"><img src="/images/history/british-centered-football-history/belgrano-athletic.webp" alt="초기 아르헨티나 축구 클럽 벨그라노 애슬레틱 선수단" loading="lazy" width="640" height="412"><figcaption>초기 클럽은 영국계 공동체의 사교 공간에서 출발했지만, 축구는 곧 그 울타리를 넘어 도시 전체의 언어가 됐다.</figcaption></figure>
 
@@ -138,7 +138,7 @@ featured: false
 
 ## 출처와 기록 기준
 
-1. <span id="source-1"></span>[Matthew Brown, “British Informal Empire and the Origins of Association Football in South America”](https://doi.org/10.1080/14660970.2014.961382), *Soccer & Society* 16(2–3), 2015.
+1. <span id="source-1"></span>[Matthew Brown, “British Informal Empire and the Origins of Association Football in South America”](https://doi.org/10.1080/14660970.2014.961382), *Soccer & Society* 16(2-3), 2015.
 2. <span id="source-2"></span>[Matthew Brown, *Sports in South America: A History*](https://yalebooks.yale.edu/book/9780300268447/sports-in-south-america/), Yale University Press, 2023.
 3. <span id="source-3"></span>[Toynbee Prize Foundation, “The History of Modern Sports in South America: An Interview with Matthew Brown”](https://toynbeeprize.org/posts/the-history-of-modern-sports-in-south-america-an-interview-with-matthew-brown/).
 4. <span id="source-4"></span>[CONMEBOL, *Guía Evolución CONMEBOL Copa América*](https://cdn.conmebol.com/wp-content/uploads/2025/02/GET_CA_2019_ESP.pdf).

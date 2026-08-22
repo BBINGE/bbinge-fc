@@ -21,7 +21,7 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1936년 12월 27일–1937년 2월 1일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그 후 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1936년 12월 27일-1937년 2월 1일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그 후 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
 
 ### 최종 순위
 

@@ -21,7 +21,7 @@ relatedGroup: 'fifa-world-cup-1934'
 
 ## 유럽에서 열린 두 번째 월드컵
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1934년 5월 27일–6월 10일</dd></dl><dl><dt>참가국</dt><dd>16개국</dd></dl><dl><dt>경기 수</dt><dd>17경기 · 70골</dd></dl><dl><dt>우승</dt><dd>이탈리아 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>올드르지흐 네예들리 · 5골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1934년 5월 27일-6월 10일</dd></dl><dl><dt>참가국</dt><dd>16개국</dd></dl><dl><dt>경기 수</dt><dd>17경기 · 70골</dd></dl><dl><dt>우승</dt><dd>이탈리아 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>올드르지흐 네예들리 · 5골</dd></dl></div>
 
 <div class="honours-grid"><div><span>득점 1위</span><strong>올드르지흐 네예들리</strong><small>체코슬로바키아 · 4경기 5골</small></div><div><span>득점 공동 2위</span><strong>에드문트 코넨</strong><small>독일 · 4경기 4골</small></div><div><span>득점 공동 2위</span><strong>안젤로 스키아비오</strong><small>이탈리아 · 4경기 4골</small></div></div>
 

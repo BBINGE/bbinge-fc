@@ -147,14 +147,14 @@ const clients = [
 
 <Layout
   title="소개"
-  description={`${site.fullName} — 박성호(삥이) 공식 소개`}
+  description={`${site.fullName} - 박성호(삥이) 공식 소개`}
   extraSchema={profileSchema}
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: '소개', href: '/about/' },
   ]}
 >
-  <!-- 섹션 1 — 히어로 -->
+  <!-- 섹션 1 - 히어로 -->
   <section class="relative overflow-hidden">
     <p
       id="about-watermark"
@@ -208,7 +208,7 @@ const clients = [
   </section>
 
   <div class="max-w-[1200px] mx-auto px-5 md:px-8">
-    <!-- 섹션 2 — 저자의 편지 -->
+    <!-- 섹션 2 - 저자의 편지 -->
     <section class="mt-6 md:mt-10" aria-labelledby="football-letter-title">
       <article class="about-letter">
         <img
@@ -246,7 +246,7 @@ const clients = [
       </article>
     </section>
 
-    <!-- 섹션 3 — 이력 -->
+    <!-- 섹션 3 - 이력 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">이력</h2>
       <div class="about-career-grid mt-7">
@@ -294,7 +294,7 @@ const clients = [
       </ul></div></div>
     </section>
 
-    <!-- 섹션 3 — 온라인 권위 -->
+    <!-- 섹션 3 - 온라인 권위 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">온라인 권위</h2>
       <ul class="about-authority-grid mt-7">
@@ -315,7 +315,7 @@ const clients = [
       </ul>
     </section>
 
-    <!-- 섹션 4 — 주요 의뢰인 / 성과 -->
+    <!-- 섹션 4 - 주요 의뢰인 / 성과 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">주요 의뢰인 · 성과</h2>
       <div class="about-clients-panel columns-1 md:columns-2 gap-x-12 mt-7">
@@ -326,7 +326,7 @@ const clients = [
               {c.items.map((item) => (
                 <li class="about-client-row">
                   <span class="text-[14px] md:text-[15px] leading-[1.7] text-[var(--bbfc-ink)]">{item.org}</span>
-                  <span class="text-[13px] md:text-[14px] leading-[1.7] text-[var(--bbfc-gray-1)]"> — {item.detail}</span>
+                  <span class="text-[13px] md:text-[14px] leading-[1.7] text-[var(--bbfc-gray-1)]"> - {item.detail}</span>
                 </li>
               ))}
             </ul>
@@ -335,7 +335,7 @@ const clients = [
       </div>
     </section>
 
-    <!-- 섹션 5 — 연락처 -->
+    <!-- 섹션 5 - 연락처 -->
     <section data-reveal class="about-contact mt-14 md:mt-24 mb-16 md:mb-24">
       <div><p class="about-kicker">CONTACT</p><h2 class="mt-2 text-[22px] md:text-[28px] font-medium text-[var(--bbfc-ink)]">연락은 이곳으로.</h2></div>
       <div class="flex flex-wrap gap-3 mt-5 md:mt-0">

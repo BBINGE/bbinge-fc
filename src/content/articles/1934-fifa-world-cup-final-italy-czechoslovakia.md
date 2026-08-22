@@ -99,7 +99,7 @@ relatedGroup: 'fifa-world-cup-1934'
 <div class="world-cup-transition full-time-poster poster-1934" aria-label="경기 종료, 이탈리아 1934 월드컵 우승">
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>10 JUNE 1934</span><b>STADIO NAZIONALE PNF · ROMA</b></div>
-  <div class="poster-copy"><small>AFTER EXTRA TIME · ITALY 2–1 CZECHOSLOVAKIA</small><strong>아주리의<br />첫 세계 정상</strong><p>ITALY · WORLD CHAMPIONS FOR THE FIRST TIME</p></div>
+  <div class="poster-copy"><small>AFTER EXTRA TIME · ITALY 2-1 CZECHOSLOVAKIA</small><strong>아주리의<br />첫 세계 정상</strong><p>ITALY · WORLD CHAMPIONS FOR THE FIRST TIME</p></div>
   <div class="poster-winner"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><span>CAMPIONE<br /><b>ITALIA</b></span></div>
 </div>
 

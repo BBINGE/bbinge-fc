@@ -97,7 +97,7 @@ relatedGroup: 'fifa-world-cup-1938'
 <div class="world-cup-transition full-time-poster poster-1934 poster-1938" aria-label="경기 종료, 이탈리아 1938 월드컵 우승">
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>19 JUNE 1938</span><b>STADE OLYMPIQUE · COLOMBES</b></div>
-  <div class="poster-copy"><small>FULL TIME · ITALY 4–2 HUNGARY</small><strong>두 대회를 잇는<br />세계 챔피언</strong><p>ITALY · BACK-TO-BACK WORLD CHAMPIONS</p></div>
+  <div class="poster-copy"><small>FULL TIME · ITALY 4-2 HUNGARY</small><strong>두 대회를 잇는<br />세계 챔피언</strong><p>ITALY · BACK-TO-BACK WORLD CHAMPIONS</p></div>
   <div class="poster-winner"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><span>CAMPIONE<br /><b>ITALIA</b></span></div>
 </div>
 

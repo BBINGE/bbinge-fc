@@ -38,7 +38,7 @@ collections:
     extension: md
     format: frontmatter
     identifier_field: title
-    summary: '{{title}} — {{category}}'
+    summary: '{{title}} - {{category}}'
     sortable_fields: [pubDate, title]
     fields:
       - { label: 제목, name: title, widget: string }

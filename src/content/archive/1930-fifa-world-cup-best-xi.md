@@ -21,7 +21,7 @@ relatedGroup: 'fifa-world-cup-1930'
 
 ## 첫 번째 월드컵
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1930년 7월 13일–30일</dd></dl><dl><dt>참가국</dt><dd>13개국</dd></dl><dl><dt>경기 수</dt><dd>18경기 · 70골</dd></dl><dl><dt>우승</dt><dd>우루과이 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>기예르모 스타빌레 · 8골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1930년 7월 13일-30일</dd></dl><dl><dt>참가국</dt><dd>13개국</dd></dl><dl><dt>경기 수</dt><dd>18경기 · 70골</dd></dl><dl><dt>우승</dt><dd>우루과이 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>기예르모 스타빌레 · 8골</dd></dl></div>
 
 <div class="honours-grid"><div><span>득점 1위</span><strong>기예르모 스타빌레</strong><small>아르헨티나 · 4경기 8골</small></div><div><span>득점 2위</span><strong>페드로 세아</strong><small>우루과이 · 4경기 5골</small></div><div><span>득점 3위</span><strong>버트 페이트노드</strong><small>미국 · 3경기 4골</small></div></div>
 
@@ -96,7 +96,7 @@ relatedGroup: 'fifa-world-cup-1930'
 
 ### 2-3-5의 중심선
 
-호세 레안드로 안드라데<span class="foreign-note" lang="es-UY">(José Leandro Andrade; 우루과이 하프백, 1901–1957)</span>와 알바로 헤스티도<span class="foreign-note" lang="es-UY">(Álvaro Antonio Gestido Pose; 우루과이 레프트 하프, 1907–1957)</span>는 우루과이의 오른쪽과 왼쪽 하프를 맡았다. 현대식 표에서 헤스티도가 수비수로 분류되기도 하지만, 1930년 경기표의 언어로는 레프트 하프였다. 풀백 둘 앞에서 세 명의 하프가 수비와 공격의 접속을 맡던 시대였기에, 오늘날의 ‘수비수/미드필더’ 두 칸만으로는 그의 위치를 온전히 번역하기 어렵다.
+호세 레안드로 안드라데<span class="foreign-note" lang="es-UY">(José Leandro Andrade; 우루과이 하프백, 1901-1957)</span>와 알바로 헤스티도<span class="foreign-note" lang="es-UY">(Álvaro Antonio Gestido Pose; 우루과이 레프트 하프, 1907-1957)</span>는 우루과이의 오른쪽과 왼쪽 하프를 맡았다. 현대식 표에서 헤스티도가 수비수로 분류되기도 하지만, 1930년 경기표의 언어로는 레프트 하프였다. 풀백 둘 앞에서 세 명의 하프가 수비와 공격의 접속을 맡던 시대였기에, 오늘날의 ‘수비수/미드필더’ 두 칸만으로는 그의 위치를 온전히 번역하기 어렵다.
 
 그 사이의 센터 하프는 아르헨티나의 루이스 몬티<span class="foreign-note" lang="es-AR">(Luis Felipe Monti; 아르헨티나·이탈리아 하프백, 1901~1983)</span>다. 몬티는 아르헨티나의 다섯 경기를 모두 뛰고 두 골을 넣었다. 프랑스전의 유일한 골과 미국과의 준결승 선제골이 그의 발에서 나왔다. 공격수들이 18골을 쌓는 동안 중앙에서 경기의 충돌을 감당한 선수였고, 네 해 뒤에는 이탈리아 대표로 다시 월드컵 결승에 서게 된다.
 

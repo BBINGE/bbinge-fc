@@ -35,7 +35,7 @@ const articles = defineCollection({
         )
         .optional(),
       draft: z.boolean().default(false),
-      // 홈 히어로 "이번 주 HOT" 노출 여부 — 조회수 자동 순위 아님, 운영자가 직접 켠다.
+      // 홈 히어로 "이번 주 HOT" 노출 여부 - 조회수 자동 순위 아님, 운영자가 직접 켠다.
       featured: z.boolean().default(false),
       // 같은 대회·사건을 다룬 글끼리 자동으로 서로 연결한다.
       relatedGroup: z.string().optional(),

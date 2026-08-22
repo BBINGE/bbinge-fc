@@ -34,19 +34,19 @@ featured: true
 
 그로부터 십여 년 뒤 이 팀은 우승 직전에서 멈추는 법까지 배웠다. 1999-2000시즌 마지막 경기, 운터하힝 원정에서 승점 1만 얻으면 첫 푸스발-분데스리가 우승이었다. 그러나 미하엘 발라크의 자책골로 시작해 0-2로 졌고 바이에른 뮌헨이 골득실로 정상에 섰다. 2001-02시즌에는 푸스발-분데스리가·DFB-포칼·UEFA 챔피언스 리그에서 모두 준우승했다. 독일에서는 *Vizekusen*, 영어권에서는 *Neverkusen*이라 불렸다. 조롱이었으되 아무나 받을 수 있는 조롱도 아니었다. 늘 우승 문 앞까지 가는 팀만이 ‘또 2등’이라는 말을 듣는다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
-그 명제(命題)가 끝내 참(眞)이었다. 2023-24시즌 사비 알론소의 팀은 푸스발-분데스리가 34경기를 한 번도 지지 않고 90점을 쌓아 구단 첫 독일 챔피언이 됐다. 89득점과 24실점, DFB-포칼까지 더한 국내 더블이었다. UEFA 유로파 리그 결승 패배로 공식전 무패 행진은 51경기에서 멈췄지만 ‘레버쿠젠은 끝내 우승하지 못한다’는 오래된 문장은 이미 폐기된 뒤였다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+그 명제(命題)가 끝내 참(眞)이 되었다. 2023-24시즌 사비 알론소의 팀은 푸스발-분데스리가 34경기를 한 번도 지지 않고 90점을 쌓아 구단 첫 독일 챔피언이 됐다. 89득점과 24실점, DFB-포칼까지 더한 국내 더블이었다. UEFA 유로파 리그 결승 패배로 공식전 무패 행진은 51경기에서 멈췄지만 ‘레버쿠젠은 끝내 우승하지 못한다’는 오래된 문장은 이미 폐기된 뒤였다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-<div class="leverkusen-era" aria-label="바이어 04 레버쿠젠 역대 베스트 11 시대 범위"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bayer-leverkusen-logo.webp" alt="" aria-hidden="true" /><span>WERKSELF · DIE SCHWARZROTEN</span><strong>1904—2026</strong><p>공장 팀의 탄생 · 1988년의 대역전 · ‘네버쿠젠’ · 무패 챔피언</p></div>
+<div class="leverkusen-era" aria-label="바이어 04 레버쿠젠 역대 베스트 11 시대 범위"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bayer-leverkusen-logo.webp" alt="" aria-hidden="true" /><span>WERKSELF · DIE SCHWARZROTEN</span><strong>1904-2026</strong><p>공장 팀의 탄생 · 1988년의 대역전 · ‘네버쿠젠’ · 무패 챔피언</p></div>
 
 ## 선정 전술: 시대를 세로로 잇는 3-4-1-2
 
-기본 대형은 3-4-1-2다. 옌스 노보트니가 중앙에서 한 발 물러나 리베로처럼 간격을 읽고, 루시우는 왼쪽에서 공을 몰고 전진한다. 요나탄 타는 오른쪽 넓은 공간과 상대의 가장 강한 공격수를 맡는다. 뤼디거 폴보른에게 오늘날의 에데르송처럼 빌드업을 전담시키지는 않는다. 첫 패스의 책임은 세 수비수와 시몬 롤페스가 나눠 갖는다.
+기본 대형은 3-4-1-2다. 옌스 노보트니가 중앙에서 한 발 물러나 리베로처럼 간격을 읽고, 루시우는 왼쪽에서 공을 몰고 전진한다. 요나단 타는 오른쪽 넓은 공간과 상대의 가장 강한 공격수를 맡는다. 뤼디거 폴보른에게 오늘날의 에데르송처럼 빌드업을 전담시키지는 않는다. 첫 패스의 책임은 세 수비수와 시몬 롤페스가 나눠 갖는다.
 
 롤페스는 후방 앞에서 균형을 잡고 미하엘 발라크는 한 칸 위에서 양쪽 박스를 오간다. 제 호베르투가 왼쪽의 폭과 운반, 베른트 슈나이더가 오른쪽의 크로스와 안쪽 패스를 맡는다. 수비 때는 두 측면 미드필더가 내려와 5-3-2를 만들고, 공을 찾는 순간 발라크와 함께 앞으로 뻗는다. 공격형 미드필더 플로리안 비르츠에게는 정해진 사각형이 없다. 두 줄 사이에서 받아 차범근의 질주와 울프 키르스텐의 문전 움직임을 고른다.
 
 차범근은 오른쪽 하프스페이스와 뒷공간을 찢고, 키르스텐은 수비수 사이의 가장 짧은 길로 골문을 찾아간다. 한 명은 열린 땅에서 힘을 얻고 한 명은 혼잡한 문전에서 살아난다. 비르츠가 공을 잡는 순간 어느 쪽으로도 답이 생긴다. 이른바 천외천이 아니라, 서로 다른 재주가 맞물려야 비로소 완성되는 열한 명이렸다.
 
-## 1. 골키퍼 — 뤼디거 폴보른
+## 1. 골키퍼 - 뤼디거 폴보른
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ruediger-vollborn.webp" alt="뤼디거 폴보른의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -58,7 +58,7 @@ featured: true
 
 베른트 레노와 레네 아들러는 더 세련된 반사 신경과 빌드업을 보여줬다. 그럼에도 이 팀의 골문을 폴보른에게 주는 까닭은 기록의 양만이 아니다. 선수 은퇴 뒤 골키퍼 코치, 팬 연락 담당, 구단 역사의 증언자로 남았다. 레버쿠젠이 무엇이었는지를 몸으로 기억하는 이가 레버쿠젠의 골문을 맡는다. 그러하였다지, 오래 지킨 자에게만 보이는 각도가 있는 법이다.
 
-## 2. 리베로 — 옌스 노보트니
+## 2. 리베로 - 옌스 노보트니
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jens-nowotny.webp" alt="옌스 노보트니의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -70,7 +70,7 @@ featured: true
 
 노보트니는 우승컵으로 자신의 전성기를 장식하지 못했다. 그래서 오히려 ‘네버쿠젠’ 시대의 얼굴에 가깝다. 가장 강했던 팀을 가장 오래 지휘했으나 마지막 사진에는 자주 빠져 있던 주장. 2024년 구단이 그를 명예 주장으로 세운 것은 늦은 보상이라기보다 기억의 교정이다. 현대 축구에서도 높은 라인 뒤를 읽고 양옆의 공격적 수비수를 조율하는 중앙 수비수로 손색이 없다.
 
-## 3. 왼쪽 중앙 수비수 — 루시우
+## 3. 왼쪽 중앙 수비수 - 루시우
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/lucio.webp" alt="루시우의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -82,11 +82,11 @@ featured: true
 
 위험도 있었다. 공을 잃은 뒤 빈자리는 컸고 그의 충동을 받아줄 수비 구조가 필요했다. 그래서 노보트니를 가운데, 롤페스를 앞에 둔다. 통제가 있을 때 루시우의 모험은 낭비가 아니라 공격 루트가 된다. 역사적으로는 2002년의 야심을, 현대적으로는 후방 압박을 단숨에 깨는 운반을 담당한다.
 
-## 4. 오른쪽 중앙 수비수 — 요나탄 타
+## 4. 오른쪽 중앙 수비수 - 요나단 타
 
-<figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jonathan-tah.webp" alt="요나탄 타의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
+<figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jonathan-tah.webp" alt="요나단 타의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-요나탄 글라오 타<span class="foreign-note" lang="de">(Jonathan Glao Tah; 독일 중앙 수비수, 1996년생)</span>는 2015년 스무 살도 되기 전에 레버쿠젠으로 왔다. 열 시즌 동안 공식전 402경기 17골 13도움. 2025년 떠날 때 그는 유망주가 아니라 구단 역사상 출전 상위권에 오른 리더였다. 400번째 경기인 프라이부르크전에서는 종료 직전 동점골까지 넣었다. 숫자와 장면이 마침맞게 겹쳤다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
+요나단 타<span class="foreign-note" lang="de">(Jonathan Tah; 독일 중앙 수비수, 1996년생)</span>는 2015년 스무 살도 되기 전에 레버쿠젠으로 왔다. 열 시즌 동안 공식전 402경기 17골 13도움. 2025년 떠날 때 그는 유망주가 아니라 구단 역사상 출전 상위권에 오른 리더였다. 400번째 경기인 프라이부르크전에서는 종료 직전 동점골까지 넣었다. 숫자와 장면이 마침맞게 겹쳤다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 타의 첫 재산은 체격이지만 진짜 강점은 그 체격을 함부로 쓰지 않는 데 있다. 어깨를 맞대기 전에 공격수의 진행 방향을 바깥으로 몰고, 속도 경쟁이 시작되면 긴 보폭으로 간격을 줄인다. 높은 수비선에서 뒤로 달리는 수비를 오래 해왔기에 넓은 공간을 두려워하지 않는다. 세 명의 수비 중 오른쪽을 맡기면 슈나이더가 올라간 뒤의 터치라인까지 처리할 수 있다.
 
@@ -94,7 +94,7 @@ featured: true
 
 토마스 회르스터와 카르스텐 라멜로에게는 더 오래된 공로가 있다. 타를 택한 것은 최근성 때문만이 아니다. 루시우의 모험과 노보트니의 커버 사이에서 대인 방어, 공중볼, 넓은 공간의 회수를 동시에 맡길 수 있기 때문이다. 1988년, 2002년, 2024년의 수비를 한 줄에 세웠을 때 가장 현대적인 버팀목이다.
 
-## 5. 수비형 미드필더 — 시몬 롤페스
+## 5. 수비형 미드필더 - 시몬 롤페스
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/simon-rolfes.webp" alt="시몬 롤페스의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -106,7 +106,7 @@ featured: true
 
 에메르송과 라르스 벤더도 더 강한 압박과 활동량을 보탤 수 있다. 그러나 이 팀에는 주장들의 주장, 즉 성격이 강한 수비와 공격 사이에서 경기의 온도를 낮출 선수가 필요하다. 롤페스는 가장 큰 목소리보다 가장 먼저 생기는 빈칸으로 질서를 세운다. 그리고 그가 훗날 만든 우승팀은, 선수 시절의 그 질서가 우연이 아니었음을 증명하였다.
 
-## 6. 중앙 미드필더 — 미하엘 발라크
+## 6. 중앙 미드필더 - 미하엘 발라크
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/michael-ballack.webp" alt="미하엘 발라크의 소속 기간, 기록과 수상 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -118,7 +118,7 @@ featured: true
 
 이 팀의 발라크는 홀로 지배하는 10번이 아니다. 롤페스 옆에서 전진 시점을 고르고 비르츠가 만든 공간으로 들어가는 박스 투 박스다. 공격이 막히면 높이와 중거리로 다른 문제를 내며, 수비 때는 중원의 몸싸움을 받는다. 사비 알론소의 유기적인 미드필드에도 그대로 번역될 능력이다. 우승컵이 그의 레버쿠젠 경력을 규정하지 못한다. 가장 높은 수준의 축구를 레버쿠젠에서 보여줬다는 사실이 먼저다.
 
-## 7. 왼쪽 미드필더 — 제 호베르투
+## 7. 왼쪽 미드필더 - 제 호베르투
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ze-roberto.webp" alt="제 호베르투의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -130,7 +130,7 @@ featured: true
 
 알레한드로 그리말도는 2024년 우승에 더 직접적인 숫자를 남겼다. 그래도 서로 다른 시대를 합친 팀에서 제 호베르투의 범용성이 한 발 앞선다. 수비 때 윙백으로 내려올 체력, 공격 때 중앙으로 들어올 기술, 역습 때 공을 오래 운반할 속도가 모두 있다. 오늘의 전술 언어로 바꿔도 설명이 줄지 않는 왼쪽이다.
 
-## 8. 오른쪽 미드필더 — 베른트 슈나이더
+## 8. 오른쪽 미드필더 - 베른트 슈나이더
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bernd-schneider.webp" alt="베른트 슈나이더의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -142,11 +142,11 @@ featured: true
 
 카림 벨라라비와 제레미 프림퐁은 더 폭발적인 직선 속도를 갖는다. 슈나이더를 고른 까닭은 이 조합에 필요한 오른쪽의 문법이 하나가 아니기 때문이다. 타가 바깥을 막으면 슈나이더는 높이 올라가고, 비르츠가 오른쪽으로 흐르면 안쪽 통로를 비운다. 좁은 공간의 패스와 긴 크로스를 같은 자세에서 보낼 수 있으니 상대는 먼저 답을 정하지 못한다.
 
-## 9. 공격형 미드필더 — 플로리안 비르츠
+## 9. 공격형 미드필더 - 플로리안 비르츠
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/florian-wirtz.webp" alt="플로리안 비르츠의 소속 기간, 기록과 수상 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-플로리안 리하르트 비르츠<span class="foreign-note" lang="de">(Florian Richard Wirtz; 독일 공격형 미드필더, 2003년생)</span>는 2020년 쾰른 유소년팀에서 레버쿠젠으로 건너왔다. 열여섯 살의 재능은 곧 구단 최연소 푸스발-분데스리가 출전자가 되었고, 다섯 해 반 만에 세계적인 공격형 미드필더로 떠났다. 2024년 푸스발-분데스리가·DFB-포칼 더블과 DFL-슈퍼컵, 2025년 독일 올해의 축구선수. 짧다고 하기에는 너무 많은 변화를 남긴 시간이었다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-17" aria-label="출처 17">[17]</a>
+플로리안 비르츠<span class="foreign-note" lang="de">(Florian Wirtz; 독일 공격형 미드필더, 2003년생)</span>는 2020년 쾰른 유소년팀에서 레버쿠젠으로 건너왔다. 열여섯 살의 재능은 곧 구단 최연소 푸스발-분데스리가 출전자가 되었고, 다섯 해 반 만에 세계적인 공격형 미드필더로 떠났다. 2024년 푸스발-분데스리가·DFB-포칼 더블과 DFL-슈퍼컵, 2025년 독일 올해의 축구선수. 짧다고 하기에는 너무 많은 변화를 남긴 시간이었다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-17" aria-label="출처 17">[17]</a>
 
 비르츠는 공을 받기 전에 수비수의 시선을 옮긴다. 중앙에 서 있다가 패스가 출발하는 순간 반대 어깨 뒤로 움직이고, 첫 터치로 다시 골문을 향한다. 그래서 드리블의 거리가 길지 않아도 두 명을 지나간 효과가 난다. 짧은 패스를 반복하다 박스 안 동료의 발 앞으로 찔러 넣는 마지막 공, 수비가 뒤로 물러서면 직접 감아 차는 슈팅이 이어진다.
 
@@ -154,7 +154,7 @@ featured: true
 
 카이 하베르츠와 율드라이 바슈튀르크도 이 자리를 탐낼 만하다. 비르츠에게 돌아가는 표는 재능의 최신판이어서가 아니다. 레버쿠젠이 마침내 첫 리그 우승을 차지한 방식, 즉 중앙과 측면의 경계를 지우는 축구를 가장 선명하게 구현했기 때문이다. 이 팀에서 그는 차범근에게 달릴 시간을, 키르스텐에게 한 걸음짜리 슈팅 공간을 준다.
 
-## 10. 센터 포워드 — 차범근
+## 10. 센터 포워드 - 차범근
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/cha-bum-kun.webp" alt="차범근의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -166,7 +166,7 @@ featured: true
 
 현대의 팀에 데려오면 차범근은 고정된 9번보다 오른쪽을 함께 쓰는 전방 공격수가 된다. 슈나이더가 공을 잡을 때 바깥에서 안으로 달리고, 비르츠가 돌아서면 센터백과 풀백 사이를 먼저 친다. 강한 전방 압박과 전환 질주까지 감당할 몸도 있었다. 한국 팬에게는 썸네일의 얼굴이지만, 선정의 논리는 국적이 아니다. 레버쿠젠의 첫 유럽 우승을 가능하게 한 결정력과 공격의 폭이 표를 얻었다.
 
-## 11. 센터 포워드 — 울프 키르스텐
+## 11. 센터 포워드 - 울프 키르스텐
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ulf-kirsten.webp" alt="울프 키르스텐의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -180,7 +180,7 @@ featured: true
 
 ## 마침내, 한 경기장에 선 열한 명
 
-공을 가진 순간에는 루시우가 왼쪽에서 공을 몰고 전진하고, 요나탄 타가 오른쪽의 넓은 공간을 지킨다. 노보트니는 두 사람의 뒤에서 위험의 순서를 정하며, 롤페스는 수비선 앞을 닫고 발라크가 박스로 들어갈 시간을 번다. 제 호베르투와 슈나이더가 양쪽 폭과 안쪽 통로를 번갈아 쓰면 비르츠가 그 사이에서 마지막 패스를 고른다. 차범근은 수비 뒤를 향해 달리고, 키르스텐은 그 움직임이 만든 가장 짧은 슈팅의 자리를 차지한다. 높은 최종선 뒤에는 폴보른이 서 있다.
+공을 가진 순간에는 루시우가 왼쪽에서 공을 몰고 전진하고, 요나단 타가 오른쪽의 넓은 공간을 지킨다. 노보트니는 두 사람의 뒤에서 위험의 순서를 정하며, 롤페스는 수비선 앞을 닫고 발라크가 박스로 들어갈 시간을 번다. 제 호베르투와 슈나이더가 양쪽 폭과 안쪽 통로를 번갈아 쓰면 비르츠가 그 사이에서 마지막 패스를 고른다. 차범근은 수비 뒤를 향해 달리고, 키르스텐은 그 움직임이 만든 가장 짧은 슈팅의 자리를 차지한다. 높은 최종선 뒤에는 폴보른이 서 있다.
 
 1988년의 유럽 우승팀, 2001-02시즌의 세 준우승팀, 2023-24시즌의 무패 챔피언을 하나의 전술에 그대로 가둘 수는 없다. 이 포메이션이 보여주는 것은 가상의 경기 결과보다 레버쿠젠 120여 년을 관통한 역할의 계보다. 낮은 골문 수비, 전진하는 센터백, 공수의 경계를 넘는 미드필더, 공간 해석가, 서로 다른 두 종류의 해결사가 검정과 빨강 안에서 서로의 시대를 이어받았다.
 
@@ -249,7 +249,7 @@ featured: true
 6. <span id="source-6"></span>[바이어 04: 뤼디거 폴보른의 출전 기록과 구단 내 역할](https://www.bayer04.de/en-us/news/bayer04/ruediger-vollborn-player-with-most-appearances-title-winner-and-club-historian)
 7. <span id="source-7"></span>[바이어 04: 옌스 노보트니 명예 주장 선정과 선수 평가](https://www.bayer04.de/en-us/news/bayer04/jens-nowotny-named-bayer-04-honorary-captain)
 8. <span id="source-8"></span>[바이어 04: 루시우 122경기 21골과 2002년 유럽 무대](https://www.bayer04.de/de-de/news/bayer04/legenden-lucio-die-brasilianische-urgewalt)
-9. <span id="source-9"></span>[바이어 04: 요나탄 타의 10년, 402경기와 작별](https://www.bayer04.de/de-de/news/bayer04/ein-leader-mit-vielen-facetten)
+9. <span id="source-9"></span>[바이어 04: 요나단 타의 10년, 402경기와 작별](https://www.bayer04.de/de-de/news/bayer04/ein-leader-mit-vielen-facetten)
 10. <span id="source-10"></span>[바이어 04: 시몬 롤페스의 선수·주장·경영자 경력](https://www.bayer04.de/en-us/news/bayer04/simon-rolfes-from-midfield-dynamo-to-decision-maker)
 11. <span id="source-11"></span>[바이어 04: 레버쿠젠에서 완성된 미하엘 발라크](https://www.bayer04.de/de-de/news/bayer04/legenden-michael-ballack-der-capitano)
 12. <span id="source-12"></span>[바이어 04: 제 호베르투의 149경기와 기술적 유산](https://www.bayer04.de/en-us/news/bayer04/legends-ze-roberto-the-man-with-the-magic-touch)

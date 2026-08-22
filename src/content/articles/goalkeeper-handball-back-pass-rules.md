@@ -161,9 +161,9 @@ featured: false
 <section class="source-notes">
 <h2>자료와 확인 경로</h2>
 <ol>
-<li id="source-1"><a href="https://www.theifab.com/laws/latest/fouls-and-misconduct/">«Law 12 — Fouls and Misconduct»</a>, The IFAB, Laws of the Game 2026/27. 골키퍼의 손 사용 제한, 백패스·재차 접촉·속임수와 징계 기준.</li>
-<li id="source-2"><a href="https://www.theifab.com/laws/latest/the-field-of-play/">«Law 1 — The Field of Play»</a>, The IFAB, Laws of the Game 2026/27. 경계선이 해당 영역에 포함된다는 원칙.</li>
-<li id="source-3"><a href="https://www.theifab.com/laws/latest/the-throw-in/">«Law 15 — The Throw-in»</a>, The IFAB, Laws of the Game 2026/27. 동료의 스로인을 직접 받은 골키퍼의 손 사용 제한.</li>
+<li id="source-1"><a href="https://www.theifab.com/laws/latest/fouls-and-misconduct/">«Law 12 - Fouls and Misconduct»</a>, The IFAB, Laws of the Game 2026/27. 골키퍼의 손 사용 제한, 백패스·재차 접촉·속임수와 징계 기준.</li>
+<li id="source-2"><a href="https://www.theifab.com/laws/latest/the-field-of-play/">«Law 1 - The Field of Play»</a>, The IFAB, Laws of the Game 2026/27. 경계선이 해당 영역에 포함된다는 원칙.</li>
+<li id="source-3"><a href="https://www.theifab.com/laws/latest/the-throw-in/">«Law 15 - The Throw-in»</a>, The IFAB, Laws of the Game 2026/27. 동료의 스로인을 직접 받은 골키퍼의 손 사용 제한.</li>
 <li id="source-4"><a href="https://www.theifab.com/news/the-ifab-tackles-time-wasting-by-goalkeepers/">«The IFAB tackles time-wasting by goalkeepers»</a>, The IFAB. 2025년 7월 1일부터 시행된 8초 제한과 코너킥 재개.</li>
 </ol>
 </section>

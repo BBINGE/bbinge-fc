@@ -109,7 +109,7 @@ relatedGroup: 'fifa-world-cup-1930'
 <div class="world-cup-transition full-time-poster poster-1930" aria-label="경기 종료, 우루과이 초대 월드컵 우승">
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>30 JULY 1930</span><b>ESTADIO CENTENARIO</b></div>
-  <div class="poster-copy"><small>FULL TIME · URUGUAY 4–2 ARGENTINA</small><strong>첫 번째<br />세계 챔피언</strong><p>URUGUAY · THE FIRST WORLD CHAMPIONS</p></div>
+  <div class="poster-copy"><small>FULL TIME · URUGUAY 4-2 ARGENTINA</small><strong>첫 번째<br />세계 챔피언</strong><p>URUGUAY · THE FIRST WORLD CHAMPIONS</p></div>
   <div class="poster-winner"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
 </div>
 

@@ -21,7 +21,7 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1925년 11월 29일–12월 25일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></dd></dl><dl><dt>방식</dt><dd>3개국 2회전 리그</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1925년 11월 29일-12월 25일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></dd></dl><dl><dt>방식</dt><dd>3개국 2회전 리그</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
 
 ### 최종 순위
 
