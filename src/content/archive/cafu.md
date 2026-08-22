@@ -23,11 +23,6 @@ draft: false
     <span>BRAZIL · ALL-TIME LEGEND</span>
     <strong>브라질 연방 공화국</strong>
     <small>República Federativa do Brasil</small>
-    <div class="identity-copy-white" aria-hidden="true">
-      <span>BRAZIL · ALL-TIME LEGEND</span>
-      <strong>브라질 연방 공화국</strong>
-      <small>República Federativa do Brasil</small>
-    </div>
   </div>
 </div>
 
