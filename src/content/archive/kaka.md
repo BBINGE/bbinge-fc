@@ -18,12 +18,14 @@ draft: false
 ---
 
 <div class="legend-identity legend-identity-brazil">
-  <img src="/images/flags/br.svg" alt="브라질 국기" width="640" height="448" />
-  <div class="identity-copy">
-    <span>BRASIL · LENDA DOS ANOS 2000</span>
-    <strong>브라질 연방 공화국</strong>
-    <small>República Federativa do Brasil</small>
-  </div>
+  <section class="identity-country">
+    <img src="/images/archive/legends/brazil/brazil-flag.svg" alt="브라질 국기" width="1000" height="700" />
+    <div><span>BRASIL</span><strong>브라질 연방 공화국</strong><small lang="pt-BR">República Federativa do Brasil</small></div>
+  </section>
+  <section class="identity-team">
+    <img src="/images/archive/legends/brazil/brazil-national-team-crest.svg" alt="브라질 축구협회 문장" width="212" height="302" />
+    <div><span>SELEÇÃO BRASILEIRA</span><strong>브라질 축구 국가대표팀</strong><small lang="pt-BR">Seleção Brasileira de Futebol · A Seleção(셀레상)</small></div>
+  </section>
 </div>
 
 <div class="record-abstract">

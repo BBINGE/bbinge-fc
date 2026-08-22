@@ -239,12 +239,16 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-video) { width: 100%; margin: 42px 0; }
   .archive-body :global(.legend-video video) { display: block; width: 100%; max-height: 520px; border-radius: var(--bbfc-radius-lg); background: #0b0d10; }
   .archive-body :global(.legend-video figcaption) { text-align: left; }
-  .archive-body :global(.legend-identity-brazil) { position: relative; overflow: hidden; background: linear-gradient(125deg, #07883d 0 34%, #f7d910 34% 100%); color: #111; }
-  .archive-body :global(.legend-identity-brazil img) { position: relative; z-index: 1; }
-  .archive-body :global(.legend-identity-brazil .identity-copy) { position: relative; color: #111; }
-  .archive-body :global(.legend-identity-brazil .identity-copy > span),
-  .archive-body :global(.legend-identity-brazil .identity-copy > strong),
-  .archive-body :global(.legend-identity-brazil .identity-copy > small) { color: #111; }
+  .archive-body :global(.legend-identity-brazil) { display: grid; grid-template-columns: 1fr 1.35fr; align-items: stretch; gap: 0; min-height: 140px; padding: 0; overflow: hidden; background: none; color: #fff; }
+  .archive-body :global(.legend-identity-brazil section) { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 18px; align-items: center; min-width: 0; padding: 22px 24px; }
+  .archive-body :global(.legend-identity-brazil .identity-country) { background: #009440; color: #fff; }
+  .archive-body :global(.legend-identity-brazil .identity-team) { background: #ffcb00; color: #302681; }
+  .archive-body :global(.legend-identity-brazil img) { width: 84px; height: 68px; border-radius: 0; object-fit: contain; box-shadow: none; }
+  .archive-body :global(.legend-identity-brazil .identity-country img) { height: 59px; border: 1px solid rgba(255,255,255,.8); border-radius: 8px; object-fit: cover; }
+  .archive-body :global(.legend-identity-brazil .identity-team img) { width: 58px; height: 82px; justify-self: center; }
+  .archive-body :global(.legend-identity-brazil span) { color: inherit; }
+  .archive-body :global(.legend-identity-brazil strong) { margin-top: 6px; color: inherit; font-size: 18px; }
+  .archive-body :global(.legend-identity-brazil small) { color: inherit; font-size: 10px; line-height: 1.45; }
   .archive-body :global(.legend-reel) { overflow: hidden; margin: 40px 0 64px; border-radius: 20px; background: #061b11; color: #fff; box-shadow: 0 24px 60px rgba(1,41,22,.18); }
   .archive-body :global(.legend-reel-head) { display: grid; grid-template-columns: 1fr auto; padding: 20px 22px 18px; }
   .archive-body :global(.legend-reel-head span) { grid-column: 1; font-size: 9px; font-weight: 800; letter-spacing: .16em; color: #f8d80e; }
@@ -405,6 +409,13 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.legend-identity) { grid-template-columns: 74px minmax(0, 1fr); gap: 16px; padding: 22px 18px; }
     .archive-body :global(.legend-identity img) { width: 74px; height: 52px; }
     .archive-body :global(.legend-identity strong) { font-size: 18px; }
+    .archive-body :global(.legend-identity-brazil) { grid-template-columns: 1fr; gap: 0; padding: 0; }
+    .archive-body :global(.legend-identity-brazil section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
+    .archive-body :global(.legend-identity-brazil img) { width: 62px; height: 52px; }
+    .archive-body :global(.legend-identity-brazil .identity-country img) { height: 43px; }
+    .archive-body :global(.legend-identity-brazil .identity-team img) { width: 42px; height: 60px; }
+    .archive-body :global(.legend-identity-brazil strong) { margin-top: 4px; font-size: 16px; }
+    .archive-body :global(.legend-identity-brazil small) { margin-top: 3px; font-size: 9px; }
     .archive-body :global(.honours-grid div) { min-height: 118px; }
     .archive-body :global(.legend-reel) { margin: 30px 0 52px; border-radius: 14px; }
     .archive-body :global(.profile-country-head) { grid-template-columns: 72px 1fr 54px; gap: 12px; min-height: 118px; padding: 18px 14px; }

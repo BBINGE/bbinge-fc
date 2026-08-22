@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import BrazilIdentity from '../../components/BrazilIdentity.astro';
 import { archiveBranches, type ArchiveBranch, type ArchiveIndex } from '../../data/archive';
 import { getCollection } from 'astro:content';
 import { isNewlyPublished, isRecentlyChanged } from '../../utils/freshness';
@@ -14,6 +15,7 @@ export function getStaticPaths() {
 }
 
 const { branch, index } = Astro.props as Props;
+const isBrazilLegendIndex = branch.id === 'legends' && index?.slug === 'brazil';
 const pageTitle = index?.label ?? branch.title;
 const pageDescription = index
   ? `${branch.title} 가운데 ${index.label}에 관한 기록을 축적하는 색인입니다.`
@@ -62,11 +64,15 @@ const collectionSchema = {
       {index ? <><a href={`/archive/${branch.id}/`}>{branch.title}</a><span>/</span><strong>{index.label}</strong></> : <strong>{branch.title}</strong>}
     </nav>
 
-    <header class="collection-hero">
-      <p>{index ? branch.originalTitle : `${branch.number} · ${branch.originalTitle}`}</p>
-      <h1>{pageTitle}</h1>
-      <span>{pageDescription}</span>
-    </header>
+    {isBrazilLegendIndex ? (
+      <BrazilIdentity headingLevel={1} />
+    ) : (
+      <header class="collection-hero">
+        <p>{index ? branch.originalTitle : `${branch.number} · ${branch.originalTitle}`}</p>
+        <h1>{pageTitle}</h1>
+        <span>{pageDescription}</span>
+      </header>
+    )}
 
     <nav class="index-nav" aria-label={`${branch.title} 세부 색인`}>
       <a class:list={[!index && 'is-active']} href={`/archive/${branch.id}/`}>전체</a>

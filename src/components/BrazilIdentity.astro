@@ -1,0 +1,73 @@
+---
+interface Props { headingLevel?: 1 | 2; compact?: boolean }
+
+const { headingLevel = 2, compact = false } = Astro.props;
+const Heading = headingLevel === 1 ? 'h1' : 'h2';
+---
+
+<header class:list={['brazil-identity', compact && 'is-compact']} aria-labelledby="brazil-identity-title">
+  <div class="brazil-identity__country">
+    <span aria-hidden="true"></span>
+    <div>
+      <img src="/images/archive/legends/brazil/brazil-flag.svg" alt="브라질 국기" width="1000" height="700" />
+      <p>브라질 연방 공화국 <b>|</b> <strong lang="pt-BR">República Federativa do Brasil</strong></p>
+    </div>
+    <span aria-hidden="true"></span>
+  </div>
+  <div class="brazil-identity__team">
+    <img src="/images/archive/legends/brazil/brazil-national-team-crest.svg" alt="브라질 축구협회 문장" width="212" height="302" />
+    <Heading id="brazil-identity-title">브라질 축구 국가대표팀</Heading>
+    <p lang="pt-BR">Seleção Brasileira de Futebol</p>
+    <strong><span lang="pt-BR">A Seleção</span><span>(셀레상)</span></strong>
+  </div>
+  <div class="brazil-identity__base" aria-hidden="true"></div>
+</header>
+
+<style>
+  .brazil-identity { --br-green: #009440; --br-yellow: #ffcb00; --br-blue: #302681; margin-top: 34px; overflow: hidden; border: 1px solid var(--br-yellow); color: var(--br-blue); }
+  .brazil-identity__country { display: grid; grid-template-columns: minmax(70px, 1fr) minmax(400px, 2.8fr) minmax(70px, 1fr); min-height: 140px; background: var(--br-yellow); }
+  .brazil-identity__country > span { background: var(--br-green); }
+  .brazil-identity__country > div { display: flex; justify-content: center; align-items: center; gap: 20px; padding: 20px 28px; text-align: center; }
+  .brazil-identity__country img { width: 94px; height: 66px; object-fit: cover; border: 2px solid #fff; border-radius: 11px; }
+  .brazil-identity__country p { font-size: 14px; line-height: 1.5; font-weight: 600; }
+  .brazil-identity__country b { margin: 0 5px; font-weight: 500; }
+  .brazil-identity__country strong { font-weight: 650; }
+  .brazil-identity__team { display: grid; place-items: center; align-content: center; min-height: 250px; padding: 28px 24px 25px; text-align: center; background: var(--br-yellow); border-top: 1px solid var(--br-green); }
+  .brazil-identity__team img { width: 84px; height: auto; }
+  .brazil-identity__team h1, .brazil-identity__team h2 { margin-top: 13px; color: var(--br-blue); font-size: clamp(23px, 3vw, 32px); line-height: 1.12; font-weight: 760; letter-spacing: -.045em; }
+  .brazil-identity__team > p { margin-top: 7px; color: var(--br-blue); font-size: 14px; font-weight: 650; letter-spacing: -.01em; }
+  .brazil-identity__team > strong { display: flex; margin-top: 8px; color: var(--br-blue); font-size: 14px; font-weight: 720; }
+  .brazil-identity__base { height: 34px; background: var(--br-blue); }
+  .brazil-identity.is-compact { margin-top: 22px; }
+  .brazil-identity.is-compact .brazil-identity__country { min-height: 100px; }
+  .brazil-identity.is-compact .brazil-identity__country img { width: 72px; height: 50px; border-radius: 8px; }
+  .brazil-identity.is-compact .brazil-identity__country p { font-size: 12px; }
+  .brazil-identity.is-compact .brazil-identity__team { grid-template-columns: auto auto; grid-template-rows: auto auto auto; column-gap: 18px; min-height: 170px; padding: 22px 24px; }
+  .brazil-identity.is-compact .brazil-identity__team img { grid-row: 1 / 4; width: 64px; }
+  .brazil-identity.is-compact .brazil-identity__team h2 { margin-top: 0; font-size: 23px; }
+  .brazil-identity.is-compact .brazil-identity__team > p { margin-top: 4px; font-size: 13px; }
+  .brazil-identity.is-compact .brazil-identity__team > strong { margin-top: 5px; font-size: 13px; }
+  .brazil-identity.is-compact .brazil-identity__base { height: 24px; }
+  @media (max-width: 767px) {
+    .brazil-identity { margin-top: 24px; }
+    .brazil-identity__country { grid-template-columns: 24px minmax(0, 1fr) 24px; min-height: 120px; }
+    .brazil-identity__country > div { display: grid; gap: 9px; padding: 14px 10px; }
+    .brazil-identity__country img { width: 76px; height: 53px; border-radius: 8px; }
+    .brazil-identity__country p { max-width: 245px; font-size: 12px; }
+    .brazil-identity__country p strong { display: block; margin-top: 2px; }
+    .brazil-identity__country b { display: none; }
+    .brazil-identity__team { min-height: 220px; padding: 24px 14px 21px; }
+    .brazil-identity__team img { width: 72px; }
+    .brazil-identity__team h1, .brazil-identity__team h2 { max-width: 290px; margin-top: 12px; font-size: 23px; }
+    .brazil-identity__team > p { font-size: 13px; }
+    .brazil-identity__team > strong { font-size: 13px; }
+    .brazil-identity__base { height: 30px; }
+    .brazil-identity.is-compact .brazil-identity__country { min-height: 90px; }
+    .brazil-identity.is-compact .brazil-identity__country img { width: 62px; height: 43px; }
+    .brazil-identity.is-compact .brazil-identity__team { grid-template-columns: 56px minmax(0, 1fr); min-height: 150px; column-gap: 12px; padding: 18px 12px; }
+    .brazil-identity.is-compact .brazil-identity__team img { width: 52px; }
+    .brazil-identity.is-compact .brazil-identity__team h2 { max-width: none; font-size: 19px; }
+    .brazil-identity.is-compact .brazil-identity__team > p, .brazil-identity.is-compact .brazil-identity__team > strong { font-size: 11px; }
+    .brazil-identity.is-compact .brazil-identity__base { height: 20px; }
+  }
+</style>
