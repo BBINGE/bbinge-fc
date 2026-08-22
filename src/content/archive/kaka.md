@@ -91,7 +91,7 @@ draft: false
 
 ## 밀라넬로 첫 훈련, 안첼로티의 예상이 무너지다
 
-<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/kaka/kaka-sao-paulo.jpg" alt="상파울루 FC 유니폼을 입고 골 세리머니를 하는 젊은 카카" width="622" height="350" loading="lazy" /><figcaption>밀라노로 향하기 전 상파울루 FC에서 이름을 알린 카카. 사진 자료: 운영자 제공.</figcaption></figure>
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/kaka/kaka-sao-paulo.jpg" alt="상파울루 FC 유니폼을 입고 골 세리머니를 하는 젊은 카카" width="622" height="350" loading="lazy" /><figcaption>밀라노로 향하기 전 상파울루 FC에서 이름을 알린 카카.</figcaption></figure>
 
 AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈리아 밀라노의 축구단)</span>은 2003년 상파울루에서 카카를 영입했다. 이미 후이 코스타라는 세계적인 10번이 있었기에 브라질에서 온 스물한 살은 미래를 위한 선수처럼 보였다. 안첼로티도 얌전한 얼굴에 안경을 쓴 청년을 처음 보고 학생 같은 인상을 받았다고 훗날 회고했다. 그러나 밀라넬로<span class="foreign-note" lang="it">(Milanello; AC 밀란의 훈련장)</span> 첫 훈련에서 공을 잡고 달리는 모습을 본 순간 판단은 끝났다. 시즌 개막 한 달 뒤 데르비 델라 마돈니나<span class="foreign-note" lang="it">(Derby della Madonnina; AC 밀란과 인테르의 밀라노 더비)</span>에서 골을 넣었고, 후이 코스타의 뒤가 아니라 앞에서 뛰기 시작했다.
 
@@ -255,5 +255,3 @@ AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈
   <li><a href="https://www.orlandocitysc.com/news/orlando-city-sc-to-honor-lions-great-kaka-as-first-ever-inductee-to-club-s-legends-terrace-on-july-6" rel="noopener noreferrer">Orlando City SC: Kaká Legends’ Terrace</a>: 올랜도 시티 전 대회 통산 78경기 25골.</li>
   <li><a href="https://spfc.net/news/119564/sexta-e-o-prazo-para-orlando-responder-sao-paulo-sobre-kaka-negocio-pode-ate-melar.html" rel="noopener noreferrer">SPFC.net·ESPN: Kaká의 상파울루 임대 협상</a>: 올랜도 시티 합류 전 2014년 상파울루 임대 협상의 경위.</li>
 </ul></div>
-
-<p class="record-note">이 글은 운영자가 과거 작성한 카카 원고와 직접 선별한 여섯 편의 플레이 영상을 저본으로 삼고, 구단·UEFA·FIFA 기록과 동시대 보도를 대조해 확장한 개정판입니다.</p>
