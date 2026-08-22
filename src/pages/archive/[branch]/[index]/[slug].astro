@@ -289,7 +289,8 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.trophy-card small) { position: relative; margin-top: 7px; font-size: 11px; color: rgba(255,255,255,.68); }
   .archive-body :global(.career-honours) { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 24px; margin: 20px 0 46px; border-top: 1px solid var(--bbfc-ink); }
   .archive-body :global(.career-honours section) { padding: 17px 4px; border-bottom: 1px solid var(--bbfc-border); }
-  .archive-body :global(.career-honours strong) { display: block; margin-bottom: 9px; font-size: 16px; }
+  .archive-body :global(.career-honours strong) { display: flex; align-items: baseline; gap: 8px; margin-bottom: 9px; font-size: 16px; }
+  .archive-body :global(.career-honours strong small) { color: #9ca3af; font-size: 11px; line-height: 1.35; font-weight: 500; }
   .archive-body :global(.career-honours p) { margin: 3px 0 0; font-size: 14px; line-height: 1.6; color: var(--bbfc-gray-1); }
   .archive-body :global(.career-honours b) { color: #8b6a13; }
   /* 같은 인물·사건을 다룬 다른 기록으로 넘기는 배너. 일반 글의 .best-xi-cta와 같은
@@ -377,6 +378,10 @@ const relatedAssets = entry.data.relatedGroup
   .related-grid small, .related-grid strong { display: block; }
   .related-grid small { margin-top: 11px; font-size: 9px; color: var(--bbfc-blue); }
   .related-grid strong { margin-top: 5px; font-size: 13px; line-height: 1.45; font-weight: 620; }
+  @media (max-width: 1023px) {
+    .archive-body :global(.career-honours strong) { display: block; }
+    .archive-body :global(.career-honours strong small) { display: block; margin-top: 4px; }
+  }
   @media (max-width: 767px) {
     .archive-article { padding: 24px 16px 60px; }
     .article-header { margin-top: 24px; padding: 42px 0 38px; }

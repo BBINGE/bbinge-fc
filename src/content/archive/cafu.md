@@ -129,21 +129,21 @@ draft: false
 </div>
 
 <div class="career-honours">
-  <section><strong>FIFA 월드컵</strong><p><b>우승:</b> 1994, 2002</p><p><b>준우승:</b> 1998</p><p><b>8강:</b> 2006</p></section>
-  <section><strong>코파 아메리카</strong><p><b>우승:</b> 1997, 1999</p><p><b>준우승:</b> 1991</p><p><b>8강:</b> 1993</p></section>
-  <section><strong>FIFA 컨페더레이션스컵</strong><p><b>우승:</b> 1997</p></section>
-  <section><strong>코파 리베르타도레스</strong><p><b>우승:</b> 1992, 1993</p></section>
-  <section><strong>인터콘티넨털컵</strong><p><b>우승:</b> 1992, 1993</p></section>
-  <section><strong>레코파 수다메리카나</strong><p><b>우승:</b> 1993, 1994</p></section>
-  <section><strong>수페르코파 수다메리카나</strong><p><b>우승:</b> 1993</p></section>
-  <section><strong>유러피언 컵위너스컵</strong><p><b>우승:</b> 1994-95</p></section>
-  <section><strong>UEFA 챔피언스 리그</strong><p><b>우승:</b> 2006-07</p><p><b>준우승:</b> 2004-05</p></section>
-  <section><strong>UEFA 슈퍼컵</strong><p><b>우승:</b> 2003, 2007</p></section>
-  <section><strong>FIFA 클럽 월드컵</strong><p><b>우승:</b> 2007</p></section>
-  <section><strong>캄페오나투 브라질레이루 세리 A</strong><p><b>우승:</b> 1991</p></section>
-  <section><strong>캄페오나투 파울리스타</strong><p><b>우승:</b> 1991, 1992, 1996</p></section>
-  <section><strong>세리에 A</strong><p><b>우승:</b> 2000-01, 2003-04</p></section>
-  <section><strong>수페르코파 이탈리아나</strong><p><b>우승:</b> 2001, 2004</p></section>
+  <section><strong>FIFA 월드컵<small lang="en">FIFA World Cup</small></strong><p><b>우승:</b> 1994, 2002</p><p><b>준우승:</b> 1998</p><p><b>8강:</b> 2006</p></section>
+  <section><strong>코파 아메리카<small lang="es">Copa América</small></strong><p><b>우승:</b> 1997, 1999</p><p><b>준우승:</b> 1991</p><p><b>8강:</b> 1993</p></section>
+  <section><strong>FIFA 컨페더레이션스컵<small lang="en">FIFA Confederations Cup</small></strong><p><b>우승:</b> 1997</p></section>
+  <section><strong>코파 리베르타도레스<small lang="es">Copa Libertadores</small></strong><p><b>우승:</b> 1992, 1993</p></section>
+  <section><strong>인터콘티넨털컵<small lang="en">Intercontinental Cup</small></strong><p><b>우승:</b> 1992, 1993</p></section>
+  <section><strong>레코파 수다메리카나<small lang="es">Recopa Sudamericana</small></strong><p><b>우승:</b> 1993, 1994</p></section>
+  <section><strong>수페르코파 수다메리카나<small lang="es">Supercopa Sudamericana</small></strong><p><b>우승:</b> 1993</p></section>
+  <section><strong>유러피언 컵위너스컵<small lang="en">European Cup Winners' Cup</small></strong><p><b>우승:</b> 1994-95</p></section>
+  <section><strong>UEFA 챔피언스 리그<small lang="en">UEFA Champions League</small></strong><p><b>우승:</b> 2006-07</p><p><b>준우승:</b> 2004-05</p></section>
+  <section><strong>UEFA 슈퍼컵<small lang="en">UEFA Super Cup</small></strong><p><b>우승:</b> 2003, 2007</p></section>
+  <section><strong>FIFA 클럽 월드컵<small lang="en">FIFA Club World Cup</small></strong><p><b>우승:</b> 2007</p></section>
+  <section><strong>캄페오나투 브라질레이루 세리 A<small lang="pt-BR">Campeonato Brasileiro Série A</small></strong><p><b>우승:</b> 1991</p></section>
+  <section><strong>캄페오나투 파울리스타<small lang="pt-BR">Campeonato Paulista</small></strong><p><b>우승:</b> 1991, 1992, 1996</p></section>
+  <section><strong>세리에 A<small lang="it">Serie A</small></strong><p><b>우승:</b> 2000-01, 2003-04</p></section>
+  <section><strong>수페르코파 이탈리아나<small lang="it">Supercoppa Italiana</small></strong><p><b>우승:</b> 2001, 2004</p></section>
 </div>
 
 ## 카푸의 개인 커리어 수상 경력
