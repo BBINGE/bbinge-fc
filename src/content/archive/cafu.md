@@ -20,19 +20,19 @@ draft: false
 <div class="legend-identity legend-identity-brazil">
   <img src="/images/flags/br.svg" alt="브라질 국기" width="640" height="448" />
   <div class="identity-copy">
-    <span>BRAZIL · ALL-TIME LEGEND</span>
+    <span>BRASIL · LENDA DE TODOS OS TEMPOS</span>
     <strong>브라질 연방 공화국</strong>
     <small>República Federativa do Brasil</small>
   </div>
 </div>
 
 <div class="record-abstract">
-  <span>EDITOR'S VERDICT</span>
-  <p>카푸는 단지 트로피가 많은 오른쪽 풀백이 아니다. 1994년부터 2002년까지 세 차례 연속 월드컵 결승을 밟았고 마지막에는 주장으로 트로피를 들었다. 클럽에서는 상파울루의 남미와 세계 제패, AS 로마의 스쿠데토, AC 밀란의 유럽 제패를 하나의 경력으로 이었다. 공격 가담과 수비 복귀를 90분 내내 반복한 고속 기관차(Il Pendolino). 축구사에서 오른쪽 풀백 한 명만 남긴다면 삥이FC의 답은 카푸다.</p>
+  <span>편집자 평가</span>
+  <p>카푸는 단지 트로피가 많은 오른쪽 풀백이 아니다. 1994년부터 2002년까지 세 차례 연속 FIFA 월드컵 결승을 밟았고 마지막에는 주장으로 트로피를 들었다. 클럽에서는 상파울루의 남미와 세계 제패, AS 로마의 세리에 A 우승, AC 밀란의 유럽 제패를 하나의 경력으로 이었다. 공격 가담과 수비 복귀를 90분 내내 반복한 고속 기관차. 축구사에서 오른쪽 풀백 한 명만 남긴다면 삥이FC의 답은 카푸다.</p>
 </div>
 
 <div class="legend-reel" data-legend-reel>
-  <div class="legend-reel-head"><span>CAFÚ ON FILM</span><strong>고속 기관차를 설명하는 다섯 장면</strong><small data-reel-count>1 / 5</small></div>
+  <div class="legend-reel-head"><span>카푸 플레이</span><strong>고속 기관차를 설명하는 다섯 장면</strong><small data-reel-count>1 / 5</small></div>
   <video muted playsinline preload="metadata" aria-label="카푸 플레이 영상 연속 재생"></video>
   <div class="legend-reel-foot"><p data-reel-caption>AS 로마 시절 라이벌 매치에서 SS 라치오의 파벨 네드비에트를 농락하는 장면.</p><div class="legend-reel-progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
   <ol hidden data-reel-playlist>
@@ -46,13 +46,13 @@ draft: false
 
 ## 카푸를 다섯 문장으로 평가한다면
 
-1. 많은 한국 축구 팬은 카푸의 전성기를 AC 밀란 시절로 기억한다. 그러나 가장 폭발적인 카푸는 AS 로마에 있었다. 뱅상 캉델라가 왼쪽을, 카푸가 오른쪽을 맡고 아우다이르가 후방을 지탱한 팀은 2000-01 세리에 A 정상에 올랐다.
+1. 많은 한국 축구 팬은 카푸의 전성기를 AC 밀란 시절로 기억한다. 그러나 가장 폭발적인 카푸는 AS 로마에 있었다. 뱅상 캉델라<span class="foreign-note" lang="fr">(Vincent Candela; 프랑스의 측면 수비수, 1973-)</span>가 왼쪽을, 카푸가 오른쪽을 맡고 아우다이르<span class="foreign-note" lang="pt-BR">(Aldair; 브라질의 중앙 수비수, 1965-)</span>가 후방을 지탱한 팀은 2000-01 세리에 A 정상에 올랐다.
 
-2. 브라질 오른쪽 풀백의 역사에서는 자우마 산투스, 카를루스 아우베르투 토히스, 카푸가 최고 자리를 놓고 비교된다. 그 뒤를 이은 마이콩과 다니 아우베스까지 포함해도 월드컵 세 대회 연속 결승 출전과 두 차례 우승을 동시에 가진 선수는 카푸뿐이다.
+2. 브라질 오른쪽 풀백의 역사에서는 자우마 산투스<span class="foreign-note" lang="pt-BR">(Djalma Santos; 브라질의 오른쪽 풀백, 1929-2013)</span>, 카를루스 아우베르투 토히스<span class="foreign-note" lang="pt-BR">(Carlos Alberto Torres; 브라질의 오른쪽 풀백, 1944-2016)</span>, 카푸가 최고 자리를 놓고 비교된다. 그 뒤를 이은 마이콩<span class="foreign-note" lang="pt-BR">(Maicon; 브라질의 오른쪽 풀백, 1981-)</span>과 다니 아우베스<span class="foreign-note" lang="pt-BR">(Dani Alves; 브라질의 오른쪽 풀백, 1983-)</span>까지 포함해도 FIFA 월드컵 세 대회 연속 결승 출전과 두 차례 우승을 동시에 가진 선수는 카푸뿐이다.
 
-3. 셀레상에서 카푸의 반대편에는 호베르투 카를루스가 있었다. 양쪽 풀백이 공격수처럼 전진하면서도 수비 라인까지 회복한 2002년 브라질은 풀백이 팀의 폭과 전진을 동시에 책임질 수 있음을 대중에게 각인시켰다.
+3. 브라질 대표팀에서 카푸의 반대편에는 호베르투 카를루스<span class="foreign-note" lang="pt-BR">(Roberto Carlos; 브라질의 왼쪽 풀백, 1973-)</span>가 있었다. 양쪽 풀백이 공격수처럼 전진하면서도 수비선까지 회복한 2002년 브라질은 풀백이 팀의 폭과 전진을 동시에 책임질 수 있음을 대중에게 각인시켰다.
 
-4. 카푸가 AC 밀란에 합류한 때는 2003년, 만 33세였다. 그 나이에 세리에 A와 UEFA 챔피언스 리그, FIFA 클럽 월드컵을 더했다. 순간적인 속도만이 아니라 기본기, 경기 판단, 체력 관리가 합쳐진 롱런이었다.
+4. 카푸가 AC 밀란에 합류한 때는 2003년, 만 33세였다. 그 나이에 세리에 A와 UEFA 챔피언스 리그, FIFA 클럽 월드컵을 더했다. 순간적인 속도만이 아니라 기본기, 경기 판단, 체력 관리가 합쳐진 장기 활약이었다.
 
 5. 공격적인 풀백에게 흔히 따라붙는 수비력 논쟁도 카푸에게는 잘 맞지 않는다. 빠른 복귀, 몸을 넣는 타이밍, 일대일 대응을 갖춘 그는 오른쪽 측면을 혼자 왕복하면서 팀의 폭과 균형을 함께 책임지는 현대 풀백의 원형이었다.
 
@@ -64,35 +64,35 @@ draft: false
     <strong>브라질 연방 공화국<small>República Federativa do Brasil</small></strong>
     <img src="/images/archive/legends/cafu/club-brazil.webp" alt="2002년 브라질 축구 국가대표팀 문장" width="580" height="581" />
   </div>
-  <dl><dt>본명</dt><dd>Marcos Evangelista de Morais</dd></dl><dl><dt>등록명</dt><dd>Cafu · 카푸</dd></dl>
+  <dl><dt>본명</dt><dd>마르쿠스 에반젤리스타 지 모라이스</dd></dl><dl><dt>등록명</dt><dd>카푸</dd></dl>
   <dl><dt>출생</dt><dd>1970년 6월 7일</dd></dl><dl><dt>출생지</dt><dd>브라질 상파울루</dd></dl>
   <dl><dt>신장</dt><dd>176cm</dd></dl><dl><dt>포지션</dt><dd>오른쪽 풀백 · 윙백</dd></dl>
-  <dl><dt>주요 등번호</dt><dd>2번</dd></dl><dl><dt>별명</dt><dd>Il Pendolino · 고속 기관차</dd></dl>
+  <dl><dt>주요 등번호</dt><dd>2번</dd></dl><dl><dt>별명</dt><dd>고속 기관차</dd></dl>
 </div>
 
-본명은 **마르쿠스 에반젤리스타 지 모라이스(Marcos Evangelista de Morais)**. 카푸라는 이름은 어린 시절 브라질의 오른쪽 윙어 카푸링가(Cafuringa)를 닮았다는 데서 왔다. 상파울루의 자르징 이레니에서 성장한 그는 여러 구단의 입단 테스트에서 거듭 탈락했다. 훗날 FIFA는 그의 왕복 운동량을 본 알렉스 퍼거슨의 표현을 전했다. “심장이 두 개”인 것 같다는 농담이었다.
+본명은 **마르쿠스 에반젤리스타 지 모라이스**<span class="foreign-note" lang="pt-BR">(Marcos Evangelista de Morais; 브라질의 오른쪽 풀백, 1970-)</span>다. 카푸라는 등록명은 어린 시절 브라질의 오른쪽 바깥 공격수 카푸링가<span class="foreign-note" lang="pt-BR">(Cafuringa; 브라질의 축구선수, 1948-1991)</span>를 닮았다는 데서 왔다. 상파울루의 자르징 이레니<span class="foreign-note" lang="pt-BR">(Jardim Irene; 상파울루 남부의 동네)</span>에서 성장한 그는 여러 구단의 입단 시험에서 거듭 탈락했다. 훗날 FIFA는 그의 왕복 운동량을 본 알렉스 퍼거슨<span class="foreign-note" lang="en">(Alex Ferguson; 스코틀랜드의 축구 감독, 1941-)</span>의 표현을 전했다. “심장이 두 개”인 것 같다는 농담이었다.
 
 ## 상파울루에서 세계를 꺾다
 
-텔레 산타나는 카푸의 왕성한 전진을 억누르지 않고 전술의 자원으로 바꿨다. 상파울루는 1992년과 1993년 코파 리베르타도레스를 연속 제패했고, 인터콘티넨털컵에서는 요한 크라위프의 바르셀로나와 파비오 카펠로의 AC 밀란을 차례로 꺾었다. 카푸는 남미의 유망한 측면 자원이 아니라 세계 챔피언의 오른쪽을 책임지는 선수로 올라섰다.
+텔레 산타나<span class="foreign-note" lang="pt-BR">(Telê Santana; 브라질의 축구 감독, 1931-2006)</span>는 카푸의 왕성한 전진을 억누르지 않고 전술의 자원으로 바꿨다. 상파울루 FC<span class="foreign-note" lang="pt-BR">(São Paulo Futebol Clube; 브라질 상파울루의 축구단)</span>는 1992년과 1993년 코파 리베르타도레스를 연속 제패했고, 인터콘티넨털컵에서는 요한 크라위프의 바르셀로나와 파비오 카펠로의 AC 밀란을 차례로 꺾었다. 카푸는 남미의 유망한 측면 자원이 아니라 세계 챔피언의 오른쪽을 책임지는 선수로 올라섰다.
 
-1994년에는 남아메리카 올해의 축구선수에 뽑혔다. 풀백이 공격 장면의 장식물이 아니라 빌드업의 출구, 폭의 공급자, 압박 뒤 복귀까지 한꺼번에 맡을 수 있다는 증명이었다. 유럽으로 건너간 뒤 사라고사에서 UEFA 컵위너스컵을 들었고, 브라질로 돌아와 주벤투지와 파우메이라스를 거친 짧은 이력도 그의 직선적인 성공담 사이에 놓인 복잡한 환승 구간이었다.
+1994년에는 남아메리카 올해의 축구선수에 뽑혔다. 풀백이 공격 장면의 장식물이 아니라 후방 전개의 출구, 폭의 공급자, 압박 뒤 복귀까지 한꺼번에 맡을 수 있다는 증명이었다. 유럽으로 건너간 뒤 레알 사라고사에서 유러피언 컵위너스컵을 들었고, 브라질로 돌아와 주벤투지와 파우메이라스를 거친 짧은 이력도 그의 직선적인 성공담 사이에 놓인 복잡한 환승 구간이었다.
 
 ## AS 로마 시절: 고속 기관차의 전성기
 
 <figure class="legend-section-photo roma-photo"><img src="/images/archive/legends/cafu/cafu-roma.jpg" alt="AS 로마 유니폼을 입고 득점을 기뻐하는 카푸" width="1600" height="900" loading="lazy" /><figcaption>카푸의 폭발력이 가장 선명했던 AS 로마 시절. 사진: AS 로마 공식 미디어.</figcaption></figure>
 
-카푸가 1997년 로마에 도착했을 때 처음 만난 감독은 즈데네크 제만이었다. 제만의 공격적인 축구에서 오른쪽 터치라인을 번개처럼 오르내린 카푸에게 로마 사람들은 이탈리아의 고속 틸팅 열차 이름을 붙였다. **Il Pendolino**. 훗날 파비오 카펠로는 그 에너지를 3-4-1-2의 오른쪽 윙백으로 정리했다. 카푸가 폭을 만들고 캉델라가 반대편에서 전진하면, 토티와 바티스투타는 중앙에서 더 넓은 공간을 얻었다.
+카푸가 1997년 AS 로마<span class="foreign-note" lang="it">(Associazione Sportiva Roma; 이탈리아 로마의 축구단)</span>에 도착했을 때 처음 만난 감독은 즈데네크 제만<span class="foreign-note" lang="cs">(Zdeněk Zeman; 체코 출신의 축구 감독, 1947-)</span>이었다. 제만의 공격적인 축구에서 오른쪽 측면선을 번개처럼 오르내린 카푸에게 로마 사람들은 이탈리아의 고속 틸팅 열차에서 따온 별명을 붙였다. 고속 기관차<span class="foreign-note" lang="it">(Il Pendolino; 이탈리아의 틸팅 열차 계열에서 온 별명)</span>였다. 훗날 파비오 카펠로<span class="foreign-note" lang="it">(Fabio Capello; 이탈리아의 축구 감독, 1946-)</span>는 그 에너지를 3-4-1-2의 오른쪽 윙백으로 정리했다. 카푸가 폭을 만들고 캉델라가 반대편에서 전진하면, 프란체스코 토티<span class="foreign-note" lang="it">(Francesco Totti; 이탈리아의 공격형 미드필더, 1976-)</span>와 가브리엘 바티스투타<span class="foreign-note" lang="es-AR">(Gabriel Batistuta; 아르헨티나의 중앙 공격수, 1969-)</span>는 중앙에서 더 넓은 공간을 얻었다.
 
-로마 공식 기록은 **218경기 8골**이다. 공식 명예의 전당 자료는 우승 시즌 데르비 델라 카피탈레의 한 장면까지 따로 남겼다. 카푸가 라치오의 파벨 네드비에트 머리 위로 공을 세 번 연속 띄워 넘긴 트리플 솜브레로다. 단순한 묘기가 아니다. 가장 적대적인 경기에서 상대의 압박을 기술로 조롱할 수 있었던 전성기 카푸의 자신감이 압축돼 있다.
+로마 공식 기록은 **218경기 8골**이다. 공식 명예의 전당 자료는 우승 시즌 데르비 델라 카피탈레<span class="foreign-note" lang="it">(Derby della Capitale; 로마와 라치오의 수도 더비)</span>의 한 장면까지 따로 남겼다. 카푸가 SS 라치오<span class="foreign-note" lang="it">(Società Sportiva Lazio; 이탈리아 로마의 축구단)</span>의 파벨 네드비에트<span class="foreign-note" lang="cs">(Pavel Nedvěd; 체코의 미드필더, 1972-)</span> 머리 위로 공을 세 번 연속 띄워 넘긴 솜브레로 기술이다. 단순한 묘기가 아니다. 가장 적대적인 경기에서 상대의 압박을 기술로 조롱할 수 있었던 전성기 카푸의 자신감이 압축돼 있다.
 
 2000-01 시즌 로마는 18년 만에 스쿠데토를 차지했다. 밀란의 노련한 카푸만 기억하면 이 시기를 놓친다. 로마의 카푸는 측면 수비수가 공격에 참여한 선수가 아니라, 오른쪽 측면 전체를 하나의 포지션처럼 사용한 선수였다.
 
 ## AC 밀란 시절: 서른셋 이후의 두 번째 정상
 
-<figure class="legend-section-photo legend-section-portrait"><img src="/images/archive/legends/cafu/cafu-milan.jpg" alt="2007년 AC 밀란 유니폼을 입고 경기하는 카푸" width="299" height="417" loading="lazy" /><figcaption>2007년 AC 밀란 유니폼을 입고 경기하는 카푸. 사진: Александр Мельников, CC BY-SA 3.0.</figcaption></figure>
+<figure class="legend-section-photo"><img src="/images/archive/legends/cafu/cafu-milan.png" alt="AC 밀란의 붉은색과 검은색 유니폼을 입고 공을 향해 뛰는 카푸" width="1024" height="716" loading="lazy" /><figcaption>AC 밀란 시절 경기 중인 카푸. 사진: 사용자 제공.</figcaption></figure>
 
-2003년 카푸는 만 33세에 AC 밀란으로 향했다. 일반적인 풀백이라면 하락세를 걱정할 나이였지만, 그는 합류 첫 시즌 세리에 A 우승을 차지했다. 로마에서 측면을 폭파하던 선수가 밀란에서는 언제 전진하고 언제 자리를 지켜야 하는지 아는 베테랑으로 진화했다.
+2003년 카푸는 만 33세에 AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈리아 밀라노의 축구단)</span>으로 향했다. 일반적인 풀백이라면 하락세를 걱정할 나이였지만, 그는 합류 첫 시즌 세리에 A 우승을 차지했다. 로마에서 측면을 폭파하던 선수가 밀란에서는 언제 전진하고 언제 자리를 지켜야 하는지 아는 노장으로 진화했다.
 
 밀란 공식 명예의 전당이 기록한 성적은 **166경기 4골**이다. 2005년 이스탄불 결승의 패배도 그의 경력에 남아 있다. 그로부터 2년 뒤 아테네에서 밀란은 리버풀을 다시 만나 UEFA 챔피언스 리그 정상에 올랐고, 카푸는 2007년 FIFA 클럽 월드컵까지 들었다. 서른셋에 시작한 밀란 생활은 전성기의 연장이 아니라 기술과 판단으로 신체의 시간을 다시 설계한 두 번째 전성기였다.
 
@@ -100,11 +100,11 @@ draft: false
 
 <figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/cafu/cafu-brazil-fifa.png" alt="2002 FIFA 월드컵 트로피를 들어 올리는 브라질 주장 카푸" width="753" height="600" loading="lazy" /><figcaption>세 번의 월드컵 결승 가운데 마지막 무대에서 주장으로 트로피를 든 카푸. 사진: FIFA 공식 기록.</figcaption></figure>
 
-카푸는 브라질 A대표팀에서 **142경기**를 뛰었다. FIFA가 집계한 브라질 남자 대표팀 역대 최다 출전 기록이며, 월드컵 20경기도 브라질 공동 최다 기록이다. 숫자보다 강한 것은 결승의 연속성이다. 1994년 미국, 1998년 프랑스, 2002년 한일 월드컵. 카푸는 축구 역사상 세 차례 연속 월드컵 결승전에 실제로 출전한 유일한 선수다.
+카푸는 셀레상<span class="foreign-note" lang="pt-BR">(Seleção Brasileira; 브라질 남자 축구 국가대표팀)</span>에서 **142경기**를 뛰었다. FIFA가 집계한 브라질 남자 대표팀 역대 최다 출전 기록이며, FIFA 월드컵 20경기도 브라질 공동 최다 기록이다. 숫자보다 강한 것은 결승의 연속성이다. 1994년 미국, 1998년 프랑스, 2002년 한일 FIFA 월드컵. 카푸는 축구 역사상 세 차례 연속 FIFA 월드컵 결승전에 실제로 출전한 유일한 선수다.
 
 1994년 결승에서는 선발이 아니었다. 조르지뉴가 전반 21분 부상으로 빠지자 카푸가 들어갔고, 브라질은 이탈리아를 승부차기로 꺾었다. 1998년에는 주전으로 결승에 섰지만 프랑스에 0-3으로 졌다. 영광만 이어진 기록이 아니기에 2002년의 장면은 더 무겁다.
 
-2002년 대회 직전 주장 에메르송이 훈련에서 골키퍼 놀이를 하다 어깨가 탈구됐다. 완장은 카푸에게 넘어갔다. 그는 일곱 경기 전승을 이끈 뒤 요코하마의 시상대에 올라 독일전 2-0 승리를 완성했다. 유니폼에는 자신이 자란 동네를 향한 문구를 적었고, 트로피를 들며 아내에게 “Regina, eu te amo”라고 외쳤다. 월드컵의 거대한 역사가 자르징 이레니와 한 사람의 이름으로 돌아간 순간이었다.
+2002년 대회 직전 주장 에메르송이 훈련에서 골키퍼 역할을 하다 어깨가 탈구됐다. 완장은 카푸에게 넘어갔다. 그는 일곱 경기 전승을 이끈 뒤 요코하마의 시상대에 올라 독일전 2-0 승리를 완성했다. 유니폼에는 자신이 자란 동네를 향한 문구를 적었고, 트로피를 들며 <span lang="pt-BR">“Regina, eu te amo”</span>, 곧 “헤지나, 사랑해”라고 외쳤다. FIFA 월드컵의 거대한 역사가 자르징 이레니와 한 사람의 이름으로 돌아간 순간이었다.
 
 ## 주요 클럽 기록
 
@@ -136,7 +136,7 @@ draft: false
   <section><strong>인터콘티넨털컵</strong><p><b>우승:</b> 1992, 1993</p></section>
   <section><strong>레코파 수다메리카나</strong><p><b>우승:</b> 1993, 1994</p></section>
   <section><strong>수페르코파 수다메리카나</strong><p><b>우승:</b> 1993</p></section>
-  <section><strong>UEFA 컵위너스컵</strong><p><b>우승:</b> 1994-95</p></section>
+  <section><strong>유러피언 컵위너스컵</strong><p><b>우승:</b> 1994-95</p></section>
   <section><strong>UEFA 챔피언스 리그</strong><p><b>우승:</b> 2006-07</p><p><b>준우승:</b> 2004-05</p></section>
   <section><strong>UEFA 슈퍼컵</strong><p><b>우승:</b> 2003, 2007</p></section>
   <section><strong>FIFA 클럽 월드컵</strong><p><b>우승:</b> 2007</p></section>
@@ -151,23 +151,23 @@ draft: false
 - 브라질 축구 국가대표팀 역대 최다 출전자: 142경기, 2024년 기준
 - AC 밀란 명예의 전당 헌액
 - AS 로마 명예의 전당 헌액
-- 발롱도르: 2001년 노미네이트, 2002년 15위
-- 발롱도르 드림팀: 라이트백 1위, 2020
+- 발롱도르: 2001년 후보, 2002년 15위
+- 발롱도르 드림팀<span class="foreign-note" lang="fr">(Ballon d'Or Dream Team; 프랑스 풋볼이 선정한 역대 선수단)</span>: 오른쪽 풀백 1위, 2020
 - 남아메리카 올해의 축구선수: 1993년 3위, 1994년 1위
-- 남아메리카 베스트 XI: 1992, 1993, 1994, 1995
-- 옹즈 드 옹즈(유럽 베스트 XI): 2002, 2004
-- <i>World Soccer</i> 선정 역대 베스트 XI: 2013
-- IFFHS 선정 전 세계 역대 베스트 XI: 2021
-- IFFHS 선정 남아메리카 역대 베스트 XI: 2021
-- IFFHS 선정 브라질 역대 베스트 XI: 2021
+- 남아메리카 베스트 11: 1992, 1993, 1994, 1995
+- 옹즈 드 옹즈<span class="foreign-note" lang="fr">(Onze de Onze; 유럽 베스트 11)</span>: 2002, 2004
+- <i lang="en">World Soccer</i><span class="foreign-note" lang="en">(월드 사커; 영국 축구 전문지)</span> 선정 역대 베스트 11: 2013
+- 국제축구역사통계연맹<span class="foreign-note" lang="en">(International Federation of Football History & Statistics, IFFHS)</span> 선정 전 세계 역대 베스트 11: 2021
+- 국제축구역사통계연맹 선정 남아메리카 역대 베스트 11: 2021
+- 국제축구역사통계연맹 선정 브라질 역대 베스트 11: 2021
 - FIFA 100: 국제축구연맹 창립 100주년을 맞아 펠레가 선정한 125인의 축구선수, 2004
-- FIFA 월드컵™ 베스트 XI 후보: 2002
-- FIFPro 월드 XI: 2005
-- UEFA 시즌 베스트 XI: 2004, 2005
+- FIFA 월드컵 베스트 11 후보: 2002
+- 국제축구선수협회<span class="foreign-note" lang="fr">(Fédération Internationale des Associations de Footballeurs Professionnels, FIFPro)</span> 월드 11: 2005
+- UEFA 올해의 팀: 2004, 2005
 
 ## 오늘날 카푸는 어떻게 평가받는가
 
-2020년 <i>France Football</i>의 발롱도르 드림팀 투표에서 카푸는 오른쪽 풀백 1위에 올랐다. 이 선택은 단순한 인기 투표의 결과가 아니다. 자우마 산투스가 포지션의 고전적 완성도를, 카를루스 아우베르투가 1970년 브라질의 상징성을 대표한다면 카푸는 남미와 유럽, 국가대표팀과 클럽, 폭발적인 전성기와 노련한 말년을 모두 연결한다.
+2020년 프랑스 풋볼<span class="foreign-note" lang="fr">(France Football; 프랑스 축구 전문지)</span>의 발롱도르 드림팀 투표에서 카푸는 오른쪽 풀백 1위에 올랐다. 이 선택은 단순한 인기 투표의 결과가 아니다. 자우마 산투스가 포지션의 고전적 완성도를, 카를루스 아우베르투 토히스가 1970년 브라질의 상징성을 대표한다면 카푸는 남미와 유럽, 국가대표팀과 클럽, 폭발적인 전성기와 노련한 말년을 모두 연결한다.
 
 후대의 다니 아우베스는 더 많은 우승과 정교한 중앙 플레이를 보여줬고, 필리프 람은 전술적 변환 능력에서 다른 기준을 세웠다. 그러나 카푸가 최고 논쟁에서 사라지지 않는 이유는 역할의 완성도와 경력의 무대가 동시에 크기 때문이다. 1994년 결승의 교체 선수, 1998년 결승의 패자, 2002년 결승의 주장. 로마에서는 측면 전체를 달렸고 밀란에서는 속도를 판단으로 바꿨다. 한 가지 장점이나 한 시대가 아니라, 오른쪽 풀백이라는 직업의 거의 모든 생애를 보여준 선수다.
 
@@ -182,7 +182,7 @@ draft: false
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA: Behind the World Cup record, Cafu</a>: 세 차례 월드컵 결승, 1994년 교체 투입, 2002년 시상대 이야기.</li>
   <li><a href="https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828" rel="noopener noreferrer">FIFA: Scolari's Seleção of 02 in numbers</a>: 에메르송의 부상과 2002년 대표팀 기록.</li>
   <li><a href="https://inside.fifa.com/en/campaigns/football-unites-the-world/news/cafu-football-can-transform-peoples-lives" rel="noopener noreferrer">FIFA: Cafu, Football can transform people's lives</a>: A매치 142경기와 월드컵 20경기.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:Cafu_2007.jpg" rel="noopener noreferrer">Wikimedia Commons: Cafu 2007</a>: AC 밀란 시절 사진, Александр Мельников, CC BY-SA 3.0.</li>
+  <li>AC 밀란 시절 경기 사진: 사용자 제공.</li>
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
 </ul></div>
 
