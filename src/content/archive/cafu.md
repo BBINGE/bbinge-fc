@@ -44,7 +44,7 @@ draft: false
   </ol>
 </div>
 
-## 카푸를 다섯 문장으로 평가한다면
+## 삥이FC 카푸 평가
 
 1. 많은 한국 축구 팬은 카푸의 전성기를 AC 밀란 시절로 기억한다. 그러나 가장 폭발적인 카푸는 AS 로마에 있었다. 뱅상 캉델라<span class="foreign-note" lang="fr">(Vincent Candela; 프랑스의 측면 수비수, 1973-)</span>가 왼쪽을, 카푸가 오른쪽을 맡고 아우다이르<span class="foreign-note" lang="pt-BR">(Aldair; 브라질의 중앙 수비수, 1965-)</span>가 후방을 지탱한 팀은 2000-01 세리에 A 정상에 올랐다.
 

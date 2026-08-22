@@ -45,7 +45,7 @@ draft: false
   </ol>
 </div>
 
-## 카카를 다섯 문장으로 평가한다면
+## 삥이FC 카카 평가
 
 1. 카카의 드리블은 브라질 선수에게 기대하는 작은 개인기의 연속이 아니었다. 첫 터치로 수비선 사이를 열고, 두 번째부터 보폭을 키워 상대가 방향을 바꾸기 전에 공간을 통과했다. 공을 잡고 속도를 줄이는 10번이 아니라 공을 잡는 순간 경기 전체의 속도를 높이는 10번이었다.
 
@@ -101,7 +101,7 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 
 밀란은 1차전을 2-3으로 졌지만 산시로에서 3-0으로 뒤집었다. 결승에서는 다시 리버풀을 만나 2-1로 이겼다. 카카는 10골로 대회 득점왕에 올랐고 UEFA 클럽 올해의 선수, 발롱도르, FIFA 올해의 선수를 차례로 받았다. 2007년은 상이 카카를 유명하게 만든 해가 아니라, 유럽 최고의 무대에서 이미 증명한 선수를 상들이 뒤따라간 해였다.
 
-## 메시와 호날두 이전이 아니라, 그들을 이긴 2007년
+## 발롱도르를 수상했던 2007년
 
 카카를 ‘메시와 호날두 이전의 마지막 발롱도르’라고만 부르면 시간의 순서가 흐려진다. 2007년 투표에서 크리스티아누 호날두는 2위, 메시는 3위였다. 두 사람은 아직 등장 전이 아니었다. 이미 세계 최고 후보였고, 카카가 같은 투표에서 둘을 앞섰다. 이후 2008년부터 2017년까지 발롱도르는 호날두와 메시만 나눠 가졌다.
 
@@ -113,7 +113,7 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 
 그 장면은 영원한 잔류 선언처럼 남았지만 다섯 달 뒤 상황이 바뀌었다. 밀란은 재정 문제 속에서 레알 마드리드와 협상했고, 카카는 2009년 여름 마드리드로 떠났다. 맨체스터 시티를 거절한 낭만과 레알 이적은 모순이라기보다, 선수의 선택과 구단의 필요가 서로 다른 시간에 움직였던 이적시장의 기록이었다.
 
-## 레알 마드리드: 사라진 것은 이름이 아니라 연속 질주였다
+## 레알 마드리드 시절
 
 카카는 크리스티아누 호날두, 카림 벤제마, 사비 알론소와 함께 플로렌티노 페레스의 두 번째 갈락티코스 시대를 열었다. 첫 시즌에도 득점과 도움을 만들었지만 밀란에서 보이던 폭발력은 오래 이어지지 않았다. 2010년 월드컵 뒤 왼쪽 무릎 수술을 받으며 여러 달을 쉬었고, 복귀 뒤에도 사타구니와 근육 문제가 반복됐다.
 
@@ -130,8 +130,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 <div class="club-career-grid">
   <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>두 차례의 출발</small></div>
   <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2009 · 2013-14</span><small>307경기 · 104골</small></div>
-  <div><img src="/images/flags/es.svg" alt="스페인 국기" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
-  <div><img src="/images/flags/us.svg" alt="미국 국기" /><strong>올랜도 시티</strong><span>2015-2017</span><small>주장 · 창단의 얼굴</small></div>
+  <div><img src="/images/archive/legends/kaka/club-real-madrid.webp" alt="레알 마드리드 CF 문장" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-orlando-city.webp" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>주장 · 창단의 얼굴</small></div>
   <div><img src="/images/archive/legends/kaka/club-brazil.webp" alt="브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>2002-2016</span><small>92경기 · 29골</small></div>
 </div>
 
@@ -160,17 +160,37 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 ## 카카의 개인 커리어 수상 경력
 
 <ul class="career-awards">
-  <li><strong>발롱도르</strong><span>2007년 1위</span></li>
-  <li><strong>FIFA 올해의 선수</strong><span>2007년 1위</span></li>
+  <li><strong>마라카낭 명예의 전당 헌액</strong><span>2008</span></li>
+  <li><strong>AC 밀란 명예의 전당 헌액</strong><span>2010</span></li>
+  <li><strong>발롱도르</strong><span>2004년 15위 · 2005년 9위 · 2006년 11위 · 2007년 1위 · 2008년 8위 · 2009년 6위</span></li>
+  <li><strong>옹즈도르</strong><span>2007</span></li>
+  <li><strong>옹즈 드 옹즈</strong><span>2007</span></li>
+  <li><strong>삼바도르</strong><span>2008</span></li>
+  <li><strong>FIFA 올해의 선수</strong><span>2004년 10위 · 2005년 8위 · 2006년 7위 · 2007년 1위 · 2008년 4위 · 2009년 4위</span></li>
   <li><strong>FIFPro 올해의 선수</strong><span>2007</span></li>
+  <li><strong>FIFPro 월드 XI</strong><span>2006 · 2007 · 2008</span></li>
+  <li><strong>CONMEBOL 올해의 베스트 XI</strong><span>2002</span></li>
   <li><strong>UEFA 클럽 올해의 선수</strong><span>2006-07</span></li>
   <li><strong>UEFA 올해의 공격수</strong><span>2006-07</span></li>
-  <li><strong>UEFA 챔피언스 리그 득점왕</strong><span>2006-07 · 10골</span></li>
-  <li><strong>FIFA 클럽 월드컵 골든볼</strong><span>2007</span></li>
+  <li><strong>UEFA 올해의 미드필더</strong><span>2004-05</span></li>
+  <li><strong>UEFA 올해의 팀</strong><span>2006 · 2007 · 2009</span></li>
+  <li><strong>FourFourTwo 올해의 선수</strong><span>2007</span></li>
+  <li><strong>World Soccer 올해의 선수</strong><span>2007</span></li>
+  <li><strong>타임 100</strong><span>2008 · 2009</span></li>
+  <li><strong>국제축구역사통계연맹 세계 최고의 플레이메이커</strong><span>2007</span></li>
+  <li><strong>FIFA 월드컵 도움왕</strong><span>2010</span></li>
   <li><strong>FIFA 컨페더레이션스컵 골든볼</strong><span>2009</span></li>
+  <li><strong>FIFA 컨페더레이션스컵 베스트 XI</strong><span>2009</span></li>
+  <li><strong>FIFA 컨페더레이션스컵 결승전 최우수 선수</strong><span>2009</span></li>
+  <li><strong>CONCACAF 골드컵 베스트 XI</strong><span>2003</span></li>
+  <li><strong>UEFA 챔피언스 리그 득점왕</strong><span>2006-07 · 10골</span></li>
+  <li><strong>UEFA 챔피언스 리그 도움왕</strong><span>2004-05 · 2011-12</span></li>
+  <li><strong>볼라 지 오루</strong><small>캄페오나투 브라질레이루 세리 A 최우수 선수</small><span>2002</span></li>
+  <li><strong>볼라 지 프라타</strong><small>캄페오나투 브라질레이루 세리 A 베스트 XI</small><span>2002</span></li>
   <li><strong>세리에 A 올해의 선수</strong><span>2004 · 2007</span></li>
   <li><strong>세리에 A 올해의 외국인 선수</strong><span>2004 · 2006 · 2007</span></li>
-  <li><strong>국제축구선수협회 월드 11</strong><span>2006 · 2007 · 2008</span></li>
+  <li><strong>세리에 A 도움왕</strong><span>2004-05</span></li>
+  <li><strong>메이저 리그 사커 올스타</strong><span>2015 · 2016 · 2017</span></li>
   <li><strong>메이저 리그 사커 올스타전 MVP</strong><span>2015</span></li>
 </ul>
 
@@ -191,6 +211,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
   <li><a href="https://www.fifa.com/tournaments/mens/confederationscup/south-africa-2009" rel="noopener noreferrer">FIFA Confederations Cup South Africa 2009</a>: 브라질 우승과 카카의 골든볼.</li>
   <li><a href="https://www.britannica.com/biography/Kaka-Brazilian-football-player" rel="noopener noreferrer">Encyclopaedia Britannica: Kaká</a>: 성장 과정, 상파울루·밀란·레알 마드리드 경력.</li>
   <li><a href="https://www.espn.com/sports/soccer/story/_/id/7853871/10-million-eye-tweets-real-madrid-kaka" rel="noopener noreferrer">ESPN: Kaká tops 10M Twitter followers</a>: 2012년 스포츠 선수 최초 1,000만 팔로워 기록.</li>
+  <li><a href="https://sco.wikipedia.org/wiki/File:Real_Madrid_CF.svg" rel="noopener noreferrer">Wikimedia: Real Madrid CF.svg</a>: 주요 클럽 기록의 레알 마드리드 문장.</li>
+  <li><a href="https://fr.wikipedia.org/wiki/Fichier:Orlando_City_%28logo%29.svg" rel="noopener noreferrer">Wikimedia: Orlando City (logo).svg</a>: 주요 클럽 기록의 올랜도 시티 문장.</li>
 </ul></div>
 
 <p class="record-note">이 글은 운영자가 과거 작성한 카카 원고와 직접 선별한 여섯 편의 플레이 영상을 저본으로 삼고, 구단·UEFA·FIFA 기록과 동시대 보도를 대조해 확장한 개정판입니다.</p>
