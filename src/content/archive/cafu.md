@@ -217,5 +217,3 @@ draft: false
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
   <li><a href="https://www.transfermarkt.com/cafu/rueckennummern/spieler/5937" rel="noopener noreferrer">Transfermarkt: Cafu squad number history</a>: 클럽·브라질 대표팀 시즌별 등번호 기록.</li>
 </ul></div>
-
-<p class="record-note">이 글은 운영자가 과거 작성한 카푸 원고와 직접 선별·편집한 영상 캡션을 저본으로 삼고, FIFA와 구단 공식 기록을 대조해 확장한 개정판입니다.</p>
