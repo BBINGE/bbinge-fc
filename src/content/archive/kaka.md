@@ -1,12 +1,12 @@
 ---
-title: "카카(Kaká) 프로필, 메시와 호날두 이전 마지막 슈퍼스타"
+title: "카카(Kaká) 프로필·스탯·역대 등번호: 밀란을 유럽 정상으로 이끈 브라질의 10번"
 description: "밀란의 10번, 2007년 발롱도르, 맨체스터 유나이티드를 무너뜨린 질주. 고전적 플레이메이커와 현대적 전환 공격 사이에 섰던 카카를 영상과 역사로 다시 읽는다."
 branch: legends
 index: brazil
 year: 1982
 subject: "카카"
 originalTitle: "Ricardo Izecson dos Santos Leite · Kaká"
-keywords: ["카카", "Kaká", "카카 프로필", "카카 발롱도르", "카카 AC 밀란", "카카 레알 마드리드", "2007 발롱도르", "2006-07 UEFA 챔피언스 리그", "브라질 축구 국가대표팀"]
+keywords: ["카카", "Kaká", "카카 프로필", "카카 스탯", "카카 등번호", "카카 발롱도르", "카카 AC 밀란", "카카 레알 마드리드", "2007 발롱도르", "2006-07 UEFA 챔피언스 리그", "브라질 축구 국가대표팀"]
 tags: ["브라질", "AC 밀란", "레알 마드리드", "세리에 A", "공격형 미드필더", "발롱도르"]
 pubDate: 2026-08-22T18:20:00+09:00
 coverImage: "/images/archive/legends/kaka/kaka-cover.png"
@@ -125,7 +125,7 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 
 이후 신생 구단 올랜도 시티의 첫 지정 선수이자 주장으로 미국에 건너갔다. 2015년 메이저 리그 사커 올스타전에서는 MVP에 선정됐다. 상파울루에서 시작해 밀라노와 마드리드를 거친 10번은 미국에서 축구를 알리는 얼굴로 마지막 역할을 맡고 2017년 은퇴했다.
 
-## 주요 클럽 기록
+## 역대 클럽·국대 기록
 
 <div class="club-career-grid">
   <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>두 차례의 출발</small></div>
@@ -136,6 +136,33 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 </div>
 
 <p class="record-note">클럽 통산 기록은 대회·친선 경기와 도움 집계 범위에 따라 자료별 차이가 커서, 공식 구단 자료로 확인되는 밀란과 레알 마드리드의 공식전 수치를 우선했다. 브라질 대표팀의 마지막 출전은 2016년이며 2017년은 선수 은퇴 연도다.</p>
+
+## 역대 등번호
+
+### 클럽
+
+<div class="number-history-table">
+  <table>
+    <thead><tr><th>소속팀</th><th>확인 시즌</th><th>등번호</th></tr></thead>
+    <tbody>
+      <tr><td data-label="소속팀">상파울루 FC</td><td data-label="확인 시즌">2000-01~2002-03 · 2013-14</td><td data-label="등번호"><strong>8</strong></td></tr>
+      <tr><td data-label="소속팀">AC 밀란</td><td data-label="확인 시즌">2003-04~2008-09 · 2013-14</td><td data-label="등번호"><strong>22</strong></td></tr>
+      <tr><td data-label="소속팀">레알 마드리드</td><td data-label="확인 시즌">2009-10~2013-14</td><td data-label="등번호"><strong>8</strong></td></tr>
+      <tr><td data-label="소속팀">올랜도 시티</td><td data-label="확인 시즌">2014-15~2016-17</td><td data-label="등번호"><strong>10</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 브라질 국가대표팀
+
+<div class="number-history-table number-history-national">
+  <table>
+    <thead><tr><th>대표팀</th><th>확인 기간</th><th>등번호</th></tr></thead>
+    <tbody><tr><td data-label="대표팀">브라질</td><td data-label="확인 기간">2001-2016</td><td data-label="등번호"><strong>10</strong> · 7 · 8 · 16 · 22 · 23</td></tr></tbody>
+  </table>
+</div>
+
+<p class="record-note">등번호는 트랜스퍼마크트에 등록된 시즌별 기록을 기준으로 정리했다. 굵은 숫자는 해당 팀에서 가장 오래 사용했거나 상징성이 가장 큰 대표 등번호이며, 대표팀 등번호는 대회와 소집 시기에 따라 달라졌다.</p>
 
 ## 대표 우승 경력
 
@@ -213,6 +240,7 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
   <li><a href="https://www.espn.com/sports/soccer/story/_/id/7853871/10-million-eye-tweets-real-madrid-kaka" rel="noopener noreferrer">ESPN: Kaká tops 10M Twitter followers</a>: 2012년 스포츠 선수 최초 1,000만 팔로워 기록.</li>
   <li><a href="https://sco.wikipedia.org/wiki/File:Real_Madrid_CF.svg" rel="noopener noreferrer">Wikimedia: Real Madrid CF.svg</a>: 주요 클럽 기록의 레알 마드리드 문장.</li>
   <li><a href="https://fr.wikipedia.org/wiki/Fichier:Orlando_City_%28logo%29.svg" rel="noopener noreferrer">Wikimedia: Orlando City (logo).svg</a>: 주요 클럽 기록의 올랜도 시티 문장.</li>
+  <li><a href="https://www.transfermarkt.com/kaka/rueckennummern/spieler/3366" rel="noopener noreferrer">Transfermarkt: Kaká squad number history</a>: 클럽·브라질 대표팀 시즌별 등번호 기록.</li>
 </ul></div>
 
 <p class="record-note">이 글은 운영자가 과거 작성한 카카 원고와 직접 선별한 여섯 편의 플레이 영상을 저본으로 삼고, 구단·UEFA·FIFA 기록과 동시대 보도를 대조해 확장한 개정판입니다.</p>

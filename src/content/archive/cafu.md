@@ -1,12 +1,12 @@
 ---
-title: "카푸(Cafu) 프로필, 축구사 이래 역대 최고의 오른쪽 풀백(All Time No.1)"
+title: "카푸(Cafu) 프로필·스탯·역대 등번호: 축구 역사상 최고의 오른쪽 풀백"
 description: "세 차례 연속 월드컵 결승, AS 로마의 스쿠데토와 AC 밀란의 유럽 제패를 관통한 브라질의 고속 기관차 카푸. 영상과 기록, 역사적 장면으로 다시 읽는다."
 branch: legends
 index: brazil
 year: 1970
 subject: "카푸"
 originalTitle: "Marcos Evangelista de Morais · Cafu"
-keywords: ["카푸", "Cafu", "카푸 프로필", "카푸 선수 경력", "역대 최고의 오른쪽 풀백", "브라질 축구 국가대표팀", "AS 로마", "AC 밀란", "세리에 A", "2002 월드컵"]
+keywords: ["카푸", "Cafu", "카푸 프로필", "카푸 스탯", "카푸 등번호", "카푸 선수 경력", "역대 최고의 오른쪽 풀백", "브라질 축구 국가대표팀", "AS 로마", "AC 밀란", "세리에 A", "2002 월드컵"]
 tags: ["브라질", "AS 로마", "AC 밀란", "세리에 A", "오른쪽 풀백", "FIFA 월드컵"]
 pubDate: 2026-08-22T13:24:57+09:00
 coverImage: "/images/archive/legends/cafu/cafu-cover.png"
@@ -106,7 +106,7 @@ draft: false
 
 2002년 대회 직전 주장 에메르송이 훈련에서 골키퍼 역할을 하다 어깨가 탈구됐다. 완장은 카푸에게 넘어갔다. 그는 일곱 경기 전승을 이끈 뒤 요코하마의 시상대에 올라 독일전 2-0 승리를 완성했다. 유니폼에는 자신이 자란 동네를 향한 문구를 적었고, 트로피를 들며 <span lang="pt-BR">“Regina, eu te amo”</span>, 곧 “헤지나, 사랑해”라고 외쳤다. FIFA 월드컵의 거대한 역사가 자르징 이레니와 한 사람의 이름으로 돌아간 순간이었다.
 
-## 주요 클럽 기록
+## 역대 클럽·국대 기록
 
 <div class="club-career-grid">
   <div><img src="/images/archive/legends/cafu/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>1989-1995</span><small>216경기 · 33골</small></div>
@@ -119,6 +119,35 @@ draft: false
 </div>
 
 <p class="record-note">클럽별 통산 경기 수는 친선 경기 포함 여부 등 집계 범위에 따라 차이가 있다. 로마와 밀란은 각 구단 공식 명예의 전당, 대표팀은 FIFA 집계를 우선했다.</p>
+
+## 역대 등번호
+
+### 클럽
+
+<div class="number-history-table">
+  <table>
+    <thead><tr><th>소속팀</th><th>확인 시즌</th><th>등번호</th></tr></thead>
+    <tbody>
+      <tr><td data-label="소속팀">상파울루 FC</td><td data-label="확인 시즌">1990-91 · 1992-94</td><td data-label="등번호"><strong>2</strong> · 8 · 10 · 11</td></tr>
+      <tr><td data-label="소속팀">레알 사라고사</td><td data-label="확인 시즌">1995</td><td data-label="등번호">자료 미등록</td></tr>
+      <tr><td data-label="소속팀">EC 주벤투지</td><td data-label="확인 시즌">1995</td><td data-label="등번호">자료 미등록</td></tr>
+      <tr><td data-label="소속팀">SE 파우메이라스</td><td data-label="확인 시즌">1994-95</td><td data-label="등번호"><strong>2</strong> · 5 · 7 · 8</td></tr>
+      <tr><td data-label="소속팀">AS 로마</td><td data-label="확인 시즌">1997-98~2002-03</td><td data-label="등번호"><strong>2</strong></td></tr>
+      <tr><td data-label="소속팀">AC 밀란</td><td data-label="확인 시즌">2003-04~2007-08</td><td data-label="등번호"><strong>2</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 브라질 국가대표팀
+
+<div class="number-history-table number-history-national">
+  <table>
+    <thead><tr><th>대표팀</th><th>확인 기간</th><th>등번호</th></tr></thead>
+    <tbody><tr><td data-label="대표팀">브라질</td><td data-label="확인 기간">1990-2006</td><td data-label="등번호"><strong>2</strong> · 13 · 14</td></tr></tbody>
+  </table>
+</div>
+
+<p class="record-note">등번호는 트랜스퍼마크트에 등록된 시즌별 기록을 기준으로 정리했다. 굵은 숫자는 해당 팀에서 가장 오래 사용한 대표 등번호다. 1990년대 남미·스페인 클럽의 일부 시즌은 등번호 자료가 등록되지 않아 실제 착용 이력이 더 있을 수 있다.</p>
 
 ## 대표 우승 경력
 
@@ -186,6 +215,7 @@ draft: false
   <li><a href="https://inside.fifa.com/en/campaigns/football-unites-the-world/news/cafu-football-can-transform-peoples-lives" rel="noopener noreferrer">FIFA: Cafu, Football can transform people's lives</a>: A매치 142경기와 월드컵 20경기.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png" rel="noopener noreferrer">Wikimedia Commons: Copa Libertadores trophy</a>: 코파 리베르타도레스 트로피 장식 이미지, Mathiaseditorxd, CC BY-SA 4.0.</li>
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
+  <li><a href="https://www.transfermarkt.com/cafu/rueckennummern/spieler/5937" rel="noopener noreferrer">Transfermarkt: Cafu squad number history</a>: 클럽·브라질 대표팀 시즌별 등번호 기록.</li>
 </ul></div>
 
 <p class="record-note">이 글은 운영자가 과거 작성한 카푸 원고와 직접 선별·편집한 영상 캡션을 저본으로 삼고, FIFA와 구단 공식 기록을 대조해 확장한 개정판입니다.</p>
