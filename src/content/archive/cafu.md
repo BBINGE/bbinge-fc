@@ -149,22 +149,22 @@ draft: false
 ## 카푸의 개인 커리어 수상 경력
 
 <ul class="career-awards">
-  <li><strong>브라질 축구 국가대표팀 역대 최다 출전자</strong><span>142경기 · 2024년 기준</span></li>
+  <li><strong>브라질 축구 국가대표팀 역대 최다 출전자</strong><small>A매치 142경기</small><span>2024년 기준</span></li>
   <li><strong>AC 밀란 명예의 전당 헌액</strong></li>
   <li><strong>AS 로마 명예의 전당 헌액</strong></li>
   <li><strong>발롱도르</strong><span>2001년 후보 · 2002년 15위</span></li>
-  <li><strong>발롱도르 드림팀</strong><small>오른쪽 풀백 1위</small><span>2020</span></li>
+  <li><strong>발롱도르 드림팀</strong><small>오른쪽 풀백 부문 1위</small><span>2020년</span></li>
   <li><strong>남아메리카 올해의 축구선수</strong><span>1993년 3위 · 1994년 1위</span></li>
-  <li><strong>남아메리카 베스트 11</strong><span>1992 · 1993 · 1994 · 1995</span></li>
-  <li><strong>옹즈 드 옹즈</strong><small>유럽 베스트 11</small><span>2002 · 2004</span></li>
-  <li><strong>월드 사커 선정 역대 베스트 11</strong><span>2013</span></li>
-  <li><strong>국제축구역사통계연맹 선정 전 세계 역대 베스트 11</strong><span>2021</span></li>
-  <li><strong>국제축구역사통계연맹 선정 남아메리카 역대 베스트 11</strong><span>2021</span></li>
-  <li><strong>국제축구역사통계연맹 선정 브라질 역대 베스트 11</strong><span>2021</span></li>
-  <li><strong>FIFA 100</strong><small>국제축구연맹 창립 100주년을 맞아 펠레가 선정한 125인의 축구선수</small><span>2004</span></li>
-  <li><strong>FIFA 월드컵 베스트 11 후보</strong><span>2002</span></li>
-  <li><strong>국제축구선수협회 월드 11</strong><span>2005</span></li>
-  <li><strong>UEFA 올해의 팀</strong><span>2004 · 2005</span></li>
+  <li><strong>남아메리카 베스트 11</strong><span>1992년 · 1993년 · 1994년 · 1995년</span></li>
+  <li><strong>옹즈 드 옹즈</strong><small>옹즈 몽디알 선정 유럽 베스트 11</small><span>2002년 · 2004년</span></li>
+  <li><strong>월드 사커 선정 역대 베스트 11</strong><small>영국 축구 전문지 선정</small><span>2013년</span></li>
+  <li><strong>IFFHS 선정 전 세계 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년</span></li>
+  <li><strong>IFFHS 선정 남아메리카 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년</span></li>
+  <li><strong>IFFHS 선정 브라질 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년</span></li>
+  <li><strong>FIFA 100</strong><small>국제축구연맹 창립 100주년을 기념해 펠레가 선정한 125인의 축구선수</small><span>2004년</span></li>
+  <li><strong>FIFA 월드컵 베스트 11 후보</strong><span>2002년</span></li>
+  <li><strong>FIFPro 월드 11</strong><small>국제축구선수협회 선정 세계 베스트 11</small><span>2005년</span></li>
+  <li><strong>UEFA 시즌 베스트 11</strong><small>유럽축구연맹 선정</small><span>2004년 · 2005년</span></li>
 </ul>
 
 ## 오늘날 카푸는 어떻게 평가받는가

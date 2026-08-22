@@ -160,38 +160,38 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 ## 카카의 개인 커리어 수상 경력
 
 <ul class="career-awards">
-  <li><strong>마라카낭 명예의 전당 헌액</strong><span>2008</span></li>
-  <li><strong>AC 밀란 명예의 전당 헌액</strong><span>2010</span></li>
+  <li><strong>마라카낭 명예의 전당 헌액</strong><span>2008년</span></li>
+  <li><strong>AC 밀란 명예의 전당 헌액</strong><span>2010년</span></li>
   <li><strong>발롱도르</strong><span>2004년 15위 · 2005년 9위 · 2006년 11위 · 2007년 1위 · 2008년 8위 · 2009년 6위</span></li>
-  <li><strong>옹즈도르</strong><span>2007</span></li>
-  <li><strong>옹즈 드 옹즈</strong><span>2007</span></li>
-  <li><strong>삼바도르</strong><span>2008</span></li>
-  <li><strong>FIFA 올해의 선수</strong><span>2004년 10위 · 2005년 8위 · 2006년 7위 · 2007년 1위 · 2008년 4위 · 2009년 4위</span></li>
-  <li><strong>FIFPro 올해의 선수</strong><span>2007</span></li>
-  <li><strong>FIFPro 월드 XI</strong><span>2006 · 2007 · 2008</span></li>
-  <li><strong>CONMEBOL 올해의 베스트 XI</strong><span>2002</span></li>
-  <li><strong>UEFA 클럽 올해의 선수</strong><span>2006-07</span></li>
-  <li><strong>UEFA 올해의 공격수</strong><span>2006-07</span></li>
-  <li><strong>UEFA 올해의 미드필더</strong><span>2004-05</span></li>
-  <li><strong>UEFA 올해의 팀</strong><span>2006 · 2007 · 2009</span></li>
-  <li><strong>FourFourTwo 올해의 선수</strong><span>2007</span></li>
-  <li><strong>World Soccer 올해의 선수</strong><span>2007</span></li>
-  <li><strong>타임 100</strong><span>2008 · 2009</span></li>
-  <li><strong>국제축구역사통계연맹 세계 최고의 플레이메이커</strong><span>2007</span></li>
-  <li><strong>FIFA 월드컵 도움왕</strong><span>2010</span></li>
-  <li><strong>FIFA 컨페더레이션스컵 골든볼</strong><span>2009</span></li>
-  <li><strong>FIFA 컨페더레이션스컵 베스트 XI</strong><span>2009</span></li>
-  <li><strong>FIFA 컨페더레이션스컵 결승전 최우수 선수</strong><span>2009</span></li>
-  <li><strong>CONCACAF 골드컵 베스트 XI</strong><span>2003</span></li>
-  <li><strong>UEFA 챔피언스 리그 득점왕</strong><span>2006-07 · 10골</span></li>
-  <li><strong>UEFA 챔피언스 리그 도움왕</strong><span>2004-05 · 2011-12</span></li>
-  <li><strong>볼라 지 오루</strong><small>캄페오나투 브라질레이루 세리 A 최우수 선수</small><span>2002</span></li>
-  <li><strong>볼라 지 프라타</strong><small>캄페오나투 브라질레이루 세리 A 베스트 XI</small><span>2002</span></li>
-  <li><strong>세리에 A 올해의 선수</strong><span>2004 · 2007</span></li>
-  <li><strong>세리에 A 올해의 외국인 선수</strong><span>2004 · 2006 · 2007</span></li>
-  <li><strong>세리에 A 도움왕</strong><span>2004-05</span></li>
-  <li><strong>메이저 리그 사커 올스타</strong><span>2015 · 2016 · 2017</span></li>
-  <li><strong>메이저 리그 사커 올스타전 MVP</strong><span>2015</span></li>
+  <li><strong>옹즈도르</strong><small>옹즈 몽디알 선정 유럽 올해의 선수</small><span>2007년</span></li>
+  <li><strong>옹즈 드 옹즈</strong><small>옹즈 몽디알 선정 유럽 베스트 11</small><span>2007년</span></li>
+  <li><strong>삼바도르</strong><small>유럽에서 활약한 브라질 올해의 선수</small><span>2008년</span></li>
+  <li><strong>FIFA 올해의 선수</strong><small>국제축구연맹 선정</small><span>2004년 10위 · 2005년 8위 · 2006년 7위 · 2007년 1위 · 2008년 4위 · 2009년 4위</span></li>
+  <li><strong>FIFPro 올해의 선수</strong><small>국제축구선수협회 선정</small><span>2007년</span></li>
+  <li><strong>FIFPro 월드 11</strong><small>국제축구선수협회 선정 세계 베스트 11</small><span>2006년 · 2007년 · 2008년</span></li>
+  <li><strong>CONMEBOL 올해의 베스트 11</strong><small>남미축구연맹 선정</small><span>2002년</span></li>
+  <li><strong>UEFA 올해의 클럽 축구선수</strong><small>유럽축구연맹 클럽 부문 최우수 선수</small><span>2007년 (2006-07 시즌)</span></li>
+  <li><strong>UEFA 올해의 공격수</strong><small>유럽축구연맹 클럽 부문</small><span>2007년 (2006-07 시즌)</span></li>
+  <li><strong>UEFA 올해의 미드필더</strong><small>유럽축구연맹 클럽 부문</small><span>2005년 (2004-05 시즌)</span></li>
+  <li><strong>UEFA 시즌 베스트 11</strong><small>유럽축구연맹 선정</small><span>2006년 · 2007년 · 2009년</span></li>
+  <li><strong>포포투 올해의 선수</strong><small>영국 축구 전문지 FourFourTwo 선정</small><span>2007년</span></li>
+  <li><strong>월드 사커 올해의 선수</strong><small>영국 축구 전문지 World Soccer 선정</small><span>2007년</span></li>
+  <li><strong>타임 100</strong><small>미국 시사주간지 TIME 선정 세계에서 가장 영향력 있는 100인</small><span>2008년 · 2009년</span></li>
+  <li><strong>IFFHS 세계 최고의 플레이메이커</strong><small>국제축구역사통계연맹 선정</small><span>2007년</span></li>
+  <li><strong>FIFA 월드컵 도움왕</strong><span>2010년</span></li>
+  <li><strong>FIFA 컨페더레이션스컵 골든볼</strong><small>대회 최우수 선수</small><span>2009년</span></li>
+  <li><strong>FIFA 컨페더레이션스컵 베스트 11</strong><span>2009년</span></li>
+  <li><strong>FIFA 컨페더레이션스컵 결승전 최우수 선수</strong><small>결승전 Man of the Match</small><span>2009년</span></li>
+  <li><strong>CONCACAF 골드컵 베스트 11</strong><small>북중미카리브축구연맹 주관 대회</small><span>2003년</span></li>
+  <li><strong>UEFA 챔피언스 리그 득점왕</strong><span>2007년 (2006-07 시즌) · 10골</span></li>
+  <li><strong>UEFA 챔피언스 리그 도움왕</strong><span>2005년 (2004-05 시즌) · 2012년 (2011-12 시즌)</span></li>
+  <li><strong>볼라 지 오루</strong><small>Bola de Ouro · 브라질 세리에 A 최우수 선수</small><span>2002년</span></li>
+  <li><strong>볼라 지 프라타</strong><small>Bola de Prata · 브라질 세리에 A 베스트 11</small><span>2002년</span></li>
+  <li><strong>세리에 A 올해의 선수</strong><span>2004년 · 2007년</span></li>
+  <li><strong>세리에 A 올해의 외국인 선수</strong><span>2004년 · 2006년 · 2007년</span></li>
+  <li><strong>세리에 A 도움왕</strong><span>2005년 (2004-05 시즌)</span></li>
+  <li><strong>메이저 리그 사커 올스타</strong><small>MLS 올스타 선정</small><span>2015년 · 2016년 · 2017년</span></li>
+  <li><strong>메이저 리그 사커 올스타전 MVP</strong><small>MLS 올스타전 최우수 선수</small><span>2015년</span></li>
 </ul>
 
 ## 오늘날 카카는 어떻게 평가받는가
