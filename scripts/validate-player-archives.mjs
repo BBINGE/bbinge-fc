@@ -22,7 +22,16 @@ const knownWrongNames = new Map([
   ['사비 알론소', '샤비 알론소'],
   ['주제 모리뉴', '조제 모리뉴'],
   ['클라렌서 세도르프', '클라렌스 세도르프'],
+  ['리우데자네이루', '히우지자네이루'],
 ]);
+const needlessClubNotes = [
+  'Liverpool Football Club;',
+  'Real Madrid Club de Fútbol;',
+  'Associazione Calcio Milan;',
+  'Fußball-Club Bayern München;',
+  'Manchester United Football Club;',
+  'Manchester City Football Club;',
+];
 
 async function markdownFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -38,6 +47,7 @@ const failures = [];
 for (const file of await markdownFiles(archiveRoot)) {
   const source = await readFile(file, 'utf8');
   if (!source.includes('## 역대 클럽·국대 기록')) continue;
+  const body = source.replace(/^---[\s\S]*?---\s*/, '');
 
   const relative = path.relative(process.cwd(), file);
   const title = source.match(/^title:\s*["'](.+)["']\s*$/m)?.[1] ?? '';
@@ -62,10 +72,13 @@ for (const file of await markdownFiles(archiveRoot)) {
     failures.push(`${relative}: 최초 등장 원어 병기가 없습니다.`);
   }
   for (const phrase of bannedPublicPhrases) {
-    if (source.includes(phrase)) failures.push(`${relative}: 공개 금지 제작 문구 '${phrase}' 발견.`);
+    if (body.includes(phrase)) failures.push(`${relative}: 공개 금지 제작 문구 '${phrase}' 발견.`);
   }
   for (const [wrong, correct] of knownWrongNames) {
-    if (source.includes(wrong)) failures.push(`${relative}: '${wrong}' 대신 '${correct}' 사용.`);
+    if (body.includes(wrong)) failures.push(`${relative}: '${wrong}' 대신 '${correct}' 사용.`);
+  }
+  for (const note of needlessClubNotes) {
+    if (body.includes(note)) failures.push(`${relative}: 널리 알려진 구단에 불필요한 원어 풀이 '${note}' 발견.`);
   }
 }
 

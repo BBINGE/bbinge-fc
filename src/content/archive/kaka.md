@@ -51,11 +51,11 @@ draft: false
 
 2. 카를로 안첼로티<span class="foreign-note" lang="it">(Carlo Ancelotti; 이탈리아의 축구 감독, 1959-)</span>의 밀란에는 이미 안드레아 피를로<span class="foreign-note" lang="it">(Andrea Pirlo; 이탈리아의 중앙 미드필더, 1979-)</span>, 젠나로 가투소<span class="foreign-note" lang="it">(Gennaro Gattuso; 이탈리아의 수비형 미드필더, 1978-)</span>, 클라렌스 세도르프<span class="foreign-note" lang="nl">(Clarence Seedorf; 네덜란드의 미드필더, 1976-)</span>, 후이 코스타<span class="foreign-note" lang="pt-PT">(Rui Costa; 포르투갈의 공격형 미드필더, 1972-)</span>가 있었다. 카카는 이 완성된 중원에 자리를 배정받은 선수가 아니라, 팀이 전진하는 방식을 바꾸며 자신의 자리를 새로 만든 선수였다.
 
-3. 2005년 이스탄불 결승의 패배는 카카의 유럽 경력을 꺾지 못했다. 전반에는 에르난 크레스포<span class="foreign-note" lang="es-AR">(Hernán Crespo; 아르헨티나의 중앙 공격수, 1975-)</span>의 골을 만든 패스로 리버풀 FC<span class="foreign-note" lang="en">(Liverpool Football Club; 잉글랜드 리버풀의 축구단)</span>를 갈랐고, 2년 뒤에는 대회 10골로 득점왕에 오르며 같은 상대를 결승에서 다시 만나 우승했다. 2007년의 카카는 복수극의 주인공이자 대회 최고의 공격수였다.
+3. 2005년 이스탄불 결승의 패배는 카카의 유럽 경력을 꺾지 못했다. 전반에는 에르난 크레스포<span class="foreign-note" lang="es-AR">(Hernán Crespo; 아르헨티나의 중앙 공격수, 1975-)</span>의 골을 만든 패스로 리버풀을 갈랐고, 2년 뒤에는 대회 10골로 득점왕에 오르며 같은 상대를 결승에서 다시 만나 우승했다. 2007년의 카카는 복수극의 주인공이자 대회 최고의 공격수였다.
 
 4. 2007년 발롱도르 투표에서 카카는 크리스티아누 호날두<span class="foreign-note" lang="pt-PT">(Cristiano Ronaldo; 포르투갈의 공격수, 1985-)</span>와 리오넬 메시<span class="foreign-note" lang="es-AR">(Lionel Messi; 아르헨티나의 공격수, 1987-)</span>를 앞섰다. 이후 두 선수가 10년 넘게 상을 나눠 가진 탓에 카카는 흔히 ‘메날두 이전 마지막 수상자’로 기억되지만, 정확히는 그 둘의 시대가 이미 시작된 자리에서 정면으로 이긴 선수였다.
 
-5. 레알 마드리드 CF<span class="foreign-note" lang="es">(Real Madrid Club de Fútbol; 스페인 마드리드의 축구단)</span>에서의 카카는 밀란의 복제품이 아니었다. 무릎과 사타구니 부상, 달라진 전술, 메수트 외질<span class="foreign-note" lang="de">(Mesut Özil; 독일의 공격형 미드필더, 1988-)</span>의 등장이 겹치면서 폭발적인 첫걸음과 연속 질주가 사라졌다. 카카의 전성기가 짧게 느껴지는 이유는 기술이 없어져서가 아니라, 그의 축구를 완성하던 신체의 리듬이 먼저 달라졌기 때문이다.
+5. 레알 마드리드에서의 카카는 밀란의 복제품이 아니었다. 무릎과 사타구니 부상, 달라진 전술, 메수트 외질<span class="foreign-note" lang="de">(Mesut Özil; 독일의 공격형 미드필더, 1988-)</span>의 등장이 겹치면서 폭발적인 첫걸음과 연속 질주가 사라졌다. 카카의 전성기가 짧게 느껴지는 이유는 기술이 없어져서가 아니라, 그의 축구를 완성하던 신체의 리듬이 먼저 달라졌기 때문이다.
 
 ## 카카 프로필
 
@@ -77,7 +77,7 @@ draft: false
 
 ## 수영장 바닥에서 다시 일어난 소년
 
-18세였던 2000년, 카카는 수영장에서 미끄러져 목 부위 척추를 다쳤다. 이후 이 사고는 신앙과 결합해 ‘선수 생명이 끝날 뻔한 기적’으로 널리 전해졌다. 다만 공개된 회고는 사고의 중대성과 빠른 회복을 말할 뿐, 후대에 덧붙은 모든 극적인 세부를 의료기록처럼 확정해 주지는 않는다. 분명한 것은 회복한 다음 해인 2001년 상파울루 FC<span class="foreign-note" lang="pt-BR">(São Paulo Futebol Clube; 브라질 상파울루의 축구단)</span> 1군에 데뷔했고, 토르네이우 히우-상파울루<span class="foreign-note" lang="pt-BR">(Torneio Rio-São Paulo; 리우데자네이루주와 상파울루주 구단이 겨룬 대회)</span> 결승에서 보타포구 FR<span class="foreign-note" lang="pt-BR">(Botafogo de Futebol e Regatas; 브라질 리우데자네이루의 축구단)</span>를 상대로 결정적인 두 골을 넣으며 이름을 알렸다는 사실이다.
+18세였던 2000년, 카카는 수영장에서 미끄러져 목 부위 척추를 다쳤다. 이후 이 사고는 신앙과 결합해 ‘선수 생명이 끝날 뻔한 기적’으로 널리 전해졌다. 다만 공개된 회고는 사고의 중대성과 빠른 회복을 말할 뿐, 후대에 덧붙은 모든 극적인 세부를 의료기록처럼 확정해 주지는 않는다. 분명한 것은 회복한 다음 해인 2001년 상파울루 FC<span class="foreign-note" lang="pt-BR">(São Paulo Futebol Clube; 브라질 상파울루의 축구단)</span> 1군에 데뷔했고, 토르네이우 히우-상파울루<span class="foreign-note" lang="pt-BR">(Torneio Rio-São Paulo; 히우지자네이루주와 상파울루주 구단이 겨룬 대회)</span> 결승에서 보타포구 FR<span class="foreign-note" lang="pt-BR">(Botafogo de Futebol e Regatas; 브라질 히우지자네이루의 축구단)</span>를 상대로 결정적인 두 골을 넣으며 이름을 알렸다는 사실이다.
 
 카카가 골을 넣은 뒤 두 손가락을 하늘로 올린 세리머니도 이 사고 이후의 신앙과 연결됐다. 그러나 그를 종교적 이미지 하나로만 읽으면 선수의 실제 능력을 놓친다. 상파울루의 카카는 이미 186cm의 큰 체격으로 중앙을 달리고, 마지막 패스와 중거리 슛을 함께 꺼내는 보기 드문 유형이었다.
 
@@ -93,7 +93,7 @@ draft: false
 
 <figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/kaka/kaka-sao-paulo.jpg" alt="상파울루 FC 유니폼을 입고 골 세리머니를 하는 젊은 카카" width="622" height="350" loading="lazy" /><figcaption>밀라노로 향하기 전 상파울루 FC에서 이름을 알린 카카.</figcaption></figure>
 
-AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈리아 밀라노의 축구단)</span>은 2003년 상파울루에서 카카를 영입했다. 이미 후이 코스타라는 세계적인 10번이 있었기에 브라질에서 온 스물한 살은 미래를 위한 선수처럼 보였다. 안첼로티도 얌전한 얼굴에 안경을 쓴 청년을 처음 보고 학생 같은 인상을 받았다고 훗날 회고했다. 그러나 밀라넬로<span class="foreign-note" lang="it">(Milanello; AC 밀란의 훈련장)</span> 첫 훈련에서 공을 잡고 달리는 모습을 본 순간 판단은 끝났다. 시즌 개막 한 달 뒤 데르비 델라 마돈니나<span class="foreign-note" lang="it">(Derby della Madonnina; AC 밀란과 인테르의 밀라노 더비)</span>에서 골을 넣었고, 후이 코스타의 뒤가 아니라 앞에서 뛰기 시작했다.
+AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 코스타라는 세계적인 10번이 있었기에 브라질에서 온 스물한 살은 미래를 위한 선수처럼 보였다. 안첼로티도 얌전한 얼굴에 안경을 쓴 청년을 처음 보고 학생 같은 인상을 받았다고 훗날 회고했다. 그러나 밀라넬로<span class="foreign-note" lang="it">(Milanello; AC 밀란의 훈련장)</span> 첫 훈련에서 공을 잡고 달리는 모습을 본 순간 판단은 끝났다. 시즌 개막 한 달 뒤 데르비 델라 마돈니나<span class="foreign-note" lang="it">(Derby della Madonnina; AC 밀란과 인테르의 밀라노 더비)</span>에서 골을 넣었고, 후이 코스타의 뒤가 아니라 앞에서 뛰기 시작했다.
 
 피를로가 후방에서 방향을 정하고 가투소가 공간을 지우며 세도르프가 왼쪽에서 연결하면, 카카는 그 위의 빈 곳에서 전진했다. 당시 세리에 A의 수비는 공격형 미드필더가 공을 받으면 등을 지게 만들려 했다. 카카는 등을 대고 싸우는 대신 몸을 돌린 첫 순간에 압박선을 벗어났다. 2003-04 시즌 밀란은 세리에 A 정상에 올랐고 카카는 리그 올해의 선수와 올해의 외국인 선수에 선정됐다.
 
@@ -103,7 +103,7 @@ AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈
 
 2005년 UEFA 챔피언스 리그 결승 전반, 카카는 리버풀 수비 사이로 돌아선 뒤 크레스포에게 믿기 어려울 만큼 정확한 스루패스를 보냈다. 밀란은 3-0으로 앞섰지만 후반 여섯 분 사이 세 골을 내주고 승부차기에서 졌다. 카카 최고의 패스 가운데 하나는 축구사에서 가장 유명한 역전패의 일부가 됐다.
 
-두 시즌 뒤 카카는 자신의 힘으로 결승까지 돌아왔다. 셀틱 FC<span class="foreign-note" lang="en">(Celtic Football Club; 스코틀랜드 글래스고의 축구단)</span>와의 16강 연장전에서는 중앙을 혼자 돌파해 결승골을 넣었고, FC 바이에른 뮌헨<span class="foreign-note" lang="de">(Fußball-Club Bayern München; 독일 뮌헨의 축구단)</span>을 지나 맨체스터 유나이티드 FC<span class="foreign-note" lang="en">(Manchester United Football Club; 잉글랜드 맨체스터의 축구단)</span>를 만났다. 올드 트래퍼드<span class="foreign-note" lang="en">(Old Trafford; 맨체스터 유나이티드의 홈 경기장)</span> 1차전의 첫 골은 수비 뒤로 빠져나간 뒤 왼발로 마무리했다. 두 번째 골은 더 기묘했다. 머리로 공을 넘기며 가브리엘 에인세<span class="foreign-note" lang="es-AR">(Gabriel Heinze; 아르헨티나의 수비수, 1978-)</span>와 파트리스 에브라<span class="foreign-note" lang="fr">(Patrice Evra; 프랑스의 왼쪽 풀백, 1981-)</span>가 서로 부딪치게 만든 다음, 떨어지는 공을 자신만의 것으로 만들었다. 수비수 둘을 제친 장면이 아니라 둘의 움직임을 하나의 장애물로 이용한 장면이었다.
+두 시즌 뒤 카카는 자신의 힘으로 결승까지 돌아왔다. 셀틱과의 16강 연장전에서는 중앙을 혼자 돌파해 결승골을 넣었고, 바이에른 뮌헨을 지나 맨체스터 유나이티드를 만났다. 올드 트래퍼드 1차전의 첫 골은 수비 뒤로 빠져나간 뒤 왼발로 마무리했다. 두 번째 골은 더 기묘했다. 머리로 공을 넘기며 가브리엘 에인세<span class="foreign-note" lang="es-AR">(Gabriel Heinze; 아르헨티나의 수비수, 1978-)</span>와 파트리스 에브라<span class="foreign-note" lang="fr">(Patrice Evra; 프랑스의 왼쪽 풀백, 1981-)</span>가 서로 부딪치게 만든 다음, 떨어지는 공을 자신만의 것으로 만들었다. 수비수 둘을 제친 장면이 아니라 둘의 움직임을 하나의 장애물로 이용한 장면이었다.
 
 밀란은 1차전을 2-3으로 졌지만 산 시로<span class="foreign-note" lang="it">(Stadio San Siro; AC 밀란과 인테르의 홈 경기장)</span>에서 3-0으로 뒤집었다. 결승에서는 다시 리버풀을 만나 2-1로 이겼다. 카카는 10골로 대회 득점왕에 올랐고 UEFA 클럽 올해의 선수, 발롱도르, FIFA 올해의 선수를 차례로 받았다. 2007년은 상이 카카를 유명하게 만든 해가 아니라, 유럽 최고의 무대에서 이미 증명한 선수를 상들이 뒤따라간 해였다.
 
@@ -117,7 +117,7 @@ AC 밀란<span class="foreign-note" lang="it">(Associazione Calcio Milan; 이탈
 
 ## 1억 파운드의 밤, 밀란 창문 앞에 나타난 유니폼
 
-2009년 1월 맨체스터 시티 FC<span class="foreign-note" lang="en">(Manchester City Football Club; 잉글랜드 맨체스터의 축구단)</span>는 카카 영입에 당시 축구계를 뒤흔든 거액을 준비했다. 보도된 액수와 조건은 매체마다 달랐지만, 거래가 성사됐다면 세계 이적료 기록을 크게 바꿀 협상이었다는 점은 분명했다. 밀라노의 팬들은 카카의 집 주변에 모여 잔류를 외쳤고, 카카는 창문에 나타나 밀란 유니폼을 들어 보였다. 실비오 베를루스코니<span class="foreign-note" lang="it">(Silvio Berlusconi; 당시 AC 밀란 구단주, 1936-2023)</span>는 곧 선수가 돈보다 밀란을 택했다고 발표했다.
+2009년 1월 맨체스터 시티는 카카 영입에 당시 축구계를 뒤흔든 거액을 준비했다. 보도된 액수와 조건은 매체마다 달랐지만, 거래가 성사됐다면 세계 이적료 기록을 크게 바꿀 협상이었다는 점은 분명했다. 밀라노의 팬들은 카카의 집 주변에 모여 잔류를 외쳤고, 카카는 창문에 나타나 밀란 유니폼을 들어 보였다. 실비오 베를루스코니<span class="foreign-note" lang="it">(Silvio Berlusconi; 당시 AC 밀란 구단주, 1936-2023)</span>는 곧 선수가 돈보다 밀란을 택했다고 발표했다.
 
 그 장면은 영원한 잔류 선언처럼 남았지만 다섯 달 뒤 상황이 바뀌었다. 밀란은 재정 문제 속에서 레알 마드리드와 협상했고, 카카는 2009년 여름 마드리드로 떠났다. 맨체스터 시티를 거절한 낭만과 레알 이적은 모순이라기보다, 선수의 선택과 구단의 필요가 서로 다른 시간에 움직였던 이적시장의 기록이었다.
 
