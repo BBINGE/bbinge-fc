@@ -148,22 +148,24 @@ draft: false
 
 ## 카푸의 개인 커리어 수상 경력
 
-- 브라질 축구 국가대표팀 역대 최다 출전자: 142경기, 2024년 기준
-- AC 밀란 명예의 전당 헌액
-- AS 로마 명예의 전당 헌액
-- 발롱도르: 2001년 후보, 2002년 15위
-- 발롱도르 드림팀<span class="foreign-note" lang="fr">(Ballon d'Or Dream Team; 프랑스 풋볼이 선정한 역대 선수단)</span>: 오른쪽 풀백 1위, 2020
-- 남아메리카 올해의 축구선수: 1993년 3위, 1994년 1위
-- 남아메리카 베스트 11: 1992, 1993, 1994, 1995
-- 옹즈 드 옹즈<span class="foreign-note" lang="fr">(Onze de Onze; 유럽 베스트 11)</span>: 2002, 2004
-- <i lang="en">World Soccer</i><span class="foreign-note" lang="en">(월드 사커; 영국 축구 전문지)</span> 선정 역대 베스트 11: 2013
-- 국제축구역사통계연맹<span class="foreign-note" lang="en">(International Federation of Football History & Statistics, IFFHS)</span> 선정 전 세계 역대 베스트 11: 2021
-- 국제축구역사통계연맹 선정 남아메리카 역대 베스트 11: 2021
-- 국제축구역사통계연맹 선정 브라질 역대 베스트 11: 2021
-- FIFA 100: 국제축구연맹 창립 100주년을 맞아 펠레가 선정한 125인의 축구선수, 2004
-- FIFA 월드컵 베스트 11 후보: 2002
-- 국제축구선수협회<span class="foreign-note" lang="fr">(Fédération Internationale des Associations de Footballeurs Professionnels, FIFPro)</span> 월드 11: 2005
-- UEFA 올해의 팀: 2004, 2005
+<ul class="career-awards">
+  <li><strong>브라질 축구 국가대표팀 역대 최다 출전자</strong><span>142경기 · 2024년 기준</span></li>
+  <li><strong>AC 밀란 명예의 전당 헌액</strong></li>
+  <li><strong>AS 로마 명예의 전당 헌액</strong></li>
+  <li><strong>발롱도르</strong><span>2001년 후보 · 2002년 15위</span></li>
+  <li><strong>발롱도르 드림팀</strong><small>오른쪽 풀백 1위</small><span>2020</span></li>
+  <li><strong>남아메리카 올해의 축구선수</strong><span>1993년 3위 · 1994년 1위</span></li>
+  <li><strong>남아메리카 베스트 11</strong><span>1992 · 1993 · 1994 · 1995</span></li>
+  <li><strong>옹즈 드 옹즈</strong><small>유럽 베스트 11</small><span>2002 · 2004</span></li>
+  <li><strong>월드 사커 선정 역대 베스트 11</strong><span>2013</span></li>
+  <li><strong>국제축구역사통계연맹 선정 전 세계 역대 베스트 11</strong><span>2021</span></li>
+  <li><strong>국제축구역사통계연맹 선정 남아메리카 역대 베스트 11</strong><span>2021</span></li>
+  <li><strong>국제축구역사통계연맹 선정 브라질 역대 베스트 11</strong><span>2021</span></li>
+  <li><strong>FIFA 100</strong><small>국제축구연맹 창립 100주년을 맞아 펠레가 선정한 125인의 축구선수</small><span>2004</span></li>
+  <li><strong>FIFA 월드컵 베스트 11 후보</strong><span>2002</span></li>
+  <li><strong>국제축구선수협회 월드 11</strong><span>2005</span></li>
+  <li><strong>UEFA 올해의 팀</strong><span>2004 · 2005</span></li>
+</ul>
 
 ## 오늘날 카푸는 어떻게 평가받는가
 
