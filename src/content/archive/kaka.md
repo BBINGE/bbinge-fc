@@ -130,8 +130,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 <div class="club-career-grid">
   <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>두 차례의 출발</small></div>
   <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2009 · 2013-14</span><small>307경기 · 104골</small></div>
-  <div><img src="/images/archive/legends/kaka/kaka-real-madrid-crest.webp" alt="레알 마드리드 CF 문장" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
-  <div><img src="/images/archive/legends/kaka/kaka-orlando-city-crest.webp" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>주장 · 창단의 얼굴</small></div>
+  <div><img src="/images/archive/legends/kaka/club-real-madrid.svg" alt="레알 마드리드 CF 문장" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-orlando-city.svg" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>주장 · 창단의 얼굴</small></div>
   <div><img src="/images/archive/legends/kaka/club-brazil.webp" alt="브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>2002-2016</span><small>92경기 · 29골</small></div>
 </div>
 
