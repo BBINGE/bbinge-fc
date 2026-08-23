@@ -55,24 +55,26 @@ draft: false
 
 ## 열한 명을 읽는 법
 
-이 명단은 현대의 4-3-3을 1954년에 덮어씌운 것이 아니다. 당시 선수들은 WM의 풀백, 하프백, 인사이드 포워드와 아웃사이드 포워드라는 역할 언어로 뛰었다. 다만 서로 다른 나라의 핵심 선수를 한 화면에 세우기 위해, 삥이의 원고가 정한 네 명의 수비수와 세 명의 중원, 세 명의 공격수를 시각적으로 배열했다. 치보르와 코치시의 표기 위치보다 중요한 것은 헝가리 공격진이 경기 안에서 끊임없이 자리를 바꿨다는 사실이다.
+FIFA 아카이브의 현재 영문 표제는 1954 FIFA 월드컵 스위스<span class="foreign-note" lang="en">(1954 FIFA World Cup Switzerland™)</span>다. 이 명단은 현대의 4-3-3을 1954년에 덮어씌운 것이 아니다. `GK`는 골키퍼<span class="foreign-note" lang="en">(goalkeeper)</span>, `FB`는 풀백<span class="foreign-note" lang="en">(full-back)</span>, `RH·CH·LH`는 오른쪽·중앙·왼쪽 하프<span class="foreign-note" lang="en">(right·centre·left half)</span>, `OL·IL·CF·IR·OR`는 아웃사이드 레프트부터 아웃사이드 라이트까지 이어지는 다섯 공격 역할<span class="foreign-note" lang="en">(outside left·inside left·centre-forward·inside right·outside right)</span>을 뜻한다.
+
+아래 전술판은 서로 다른 나라의 핵심 선수를 운영자의 선정 위치에 맞춰 한 화면에 세운 회고적 배열이다. 따라서 카드의 위아래·좌우를 실제 1954년 선발 대형으로 읽기보다, 선수 이름 위의 약어를 당대 역할로 읽어야 한다. 예컨대 치보르는 전술판 하단에 놓였어도 본래 아웃사이드 레프트였고, 코치시는 화면 왼쪽에 놓였어도 헝가리에서는 인사이드 라이트로 움직였다. 위치를 현대식 수비수·미드필더·공격수로 바꾸는 대신 당대 역할어를 보존한 이유다.
 
 <div class="best-xi" aria-label="1954 FIFA 월드컵 당대 베스트 11 배치">
   <div class="best-xi-line forwards-three">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><span>LW</span><strong>코치시 샨도르</strong><small>헝가리 · 5경기 11골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><span>CF</span><strong>푸슈카시 페렌츠</strong><small>헝가리 · 3경기 4골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" alt="히데그쿠티 난도르" loading="lazy" /><span>RW</span><strong>히데그쿠티 난도르</strong><small>헝가리 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><span>IR</span><strong>코치시 샨도르</strong><small>헝가리 · 5경기 11골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><span>IL</span><strong>푸슈카시 페렌츠</strong><small>헝가리 · 3경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" alt="히데그쿠티 난도르" loading="lazy" /><span>CF</span><strong>히데그쿠티 난도르</strong><small>헝가리 · 4경기 4골</small></div>
   </div>
   <div class="best-xi-line midfield-three">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" alt="헬무트 란" loading="lazy" /><span>LM</span><strong>헬무트 란</strong><small>서독 · 4경기 4골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" alt="보지크 요제프" loading="lazy" /><span>DM</span><strong>보지크 요제프</strong><small>헝가리 · 5경기</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><span>RM</span><strong>프리츠 발터</strong><small>서독 · 6경기 3골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" alt="헬무트 란" loading="lazy" /><span>OR</span><strong>헬무트 란</strong><small>서독 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" alt="보지크 요제프" loading="lazy" /><span>RH</span><strong>보지크 요제프</strong><small>헝가리 · 5경기</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><span>IL</span><strong>프리츠 발터</strong><small>서독 · 6경기 3골</small></div>
   </div>
   <div class="best-xi-line backs-four">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" alt="치보르 졸탄" loading="lazy" /><span>LB</span><strong>치보르 졸탄</strong><small>헝가리 · 5경기 3골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" alt="호세 산타마리아" loading="lazy" /><span>CB</span><strong>산타마리아</strong><small>우루과이 · 5경기</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" alt="에른스트 오크비르크" loading="lazy" /><span>CB</span><strong>에른스트 오크비르크</strong><small>오스트리아 · 5경기 2골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" alt="자우마 산투스" loading="lazy" /><span>RB</span><strong>자우마 산투스</strong><small>브라질 · 3경기 1골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" alt="치보르 졸탄" loading="lazy" /><span>OL</span><strong>치보르 졸탄</strong><small>헝가리 · 5경기 3골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" alt="호세 산타마리아" loading="lazy" /><span>FB</span><strong>산타마리아</strong><small>우루과이 · 5경기</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" alt="에른스트 오크비르크" loading="lazy" /><span>CH</span><strong>에른스트 오크비르크</strong><small>오스트리아 · 5경기 2골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" alt="자우마 산투스" loading="lazy" /><span>FB</span><strong>자우마 산투스</strong><small>브라질 · 3경기 1골</small></div>
   </div>
   <div class="best-xi-line keeper"><div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" alt="그로시치 줄러" loading="lazy" /><span>GK</span><strong>그로시치 줄러</strong><small>헝가리 · 5경기</small></div></div>
 </div>
@@ -85,33 +87,33 @@ draft: false
   <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" alt="자우마 산투스" loading="lazy" /><div><span>FB · 풀백</span><strong>자우마 산투스</strong><small lang="pt-BR">Djalma Pereira Dias dos Santos</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 3경기 1골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" alt="헬무트 란" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>헬무트 란</strong><small lang="de">Helmut Rahn</small><p>서독 <img class="flag" src="/images/flags/de.svg" alt="서독 국기" /> · 4경기 4골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" alt="보지크 요제프" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>보지크 요제프</strong><small lang="hu">Bozsik József</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><div><span>IF · 인사이드 포워드</span><strong>프리츠 발터</strong><small lang="de">Friedrich Walter</small><p>서독 <img class="flag" src="/images/flags/de.svg" alt="서독 국기" /> · 6경기 3골 · 주장</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><div><span>IF · 인사이드 포워드</span><strong>코치시 샨도르</strong><small lang="hu">Kocsis Sándor Péter</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기 11골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><div><span>IF · 인사이드 포워드</span><strong>푸슈카시 페렌츠</strong><small lang="hu">Puskás Ferenc</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 3경기 4골 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>프리츠 발터</strong><small lang="de">Friedrich Walter</small><p>서독 <img class="flag" src="/images/flags/de.svg" alt="서독 국기" /> · 6경기 3골 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>코치시 샨도르</strong><small lang="hu">Kocsis Sándor Péter</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기 11골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>푸슈카시 페렌츠</strong><small lang="hu">Puskás Ferenc</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 3경기 4골 · 주장</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" alt="히데그쿠티 난도르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>히데그쿠티 난도르</strong><small lang="hu">Hidegkuti Nándor</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 4경기 4골</p></div></article>
 </div>
 
 ### 골문에서 하프라인까지
 
-그로시치는 골라인에만 머물지 않았다. 넓은 활동 반경으로 최종 수비수 뒤를 정리하고 공을 잡은 뒤 빠르게 던져 헝가리의 다음 공격을 열었다. 산타마리아는 스무 살을 갓 넘긴 나이에 우루과이의 다섯 경기를 모두 뛰며 길을 먼저 읽는 수비를 보여줬고, 자우마 산투스는 브라질의 세 경기를 모두 소화하며 헝가리전에서 페널티킥까지 성공시켰다.
+그로시치 줄러<span class="foreign-note" lang="hu">(Grosics Gyula; goalkeeper)</span>는 골라인에만 머물지 않았다. 넓은 활동 반경으로 최종 수비수 뒤를 정리하고 공을 잡은 뒤 빠르게 던져 헝가리의 다음 공격을 열었다. 호세 산타마리아<span class="foreign-note" lang="es-UY">(José Emilio Santamaría Iglesias; full-back)</span>는 스무 살을 갓 넘긴 나이에 우루과이의 다섯 경기를 모두 뛰며 길을 먼저 읽는 수비를 보여줬고, 자우마 산투스<span class="foreign-note" lang="pt-BR">(Djalma Pereira Dias dos Santos; full-back)</span>는 브라질의 세 경기를 모두 소화하며 헝가리전에서 페널티킥까지 성공시켰다.
 
-오크비르크는 오스트리아의 주장이자 후방 플레이메이커였다. 중앙에서 공을 빼앗은 뒤 곧바로 전진 패스를 붙였고, 스위스와의 7-5 난타전에서는 두 골을 넣었다. 치보르의 본래 역할은 왼쪽 측면 공격수였다. 다섯 경기 3골과 결승의 두 번째 골을 남긴 그를 이 배열에서는 왼쪽 전 구역을 맡는 선수로 세웠다.
+에른스트 오크비르크<span class="foreign-note" lang="de-AT">(Ernst Ocwirk; centre-half)</span>는 오스트리아의 주장이자 후방 플레이메이커였다. 중앙에서 공을 빼앗은 뒤 곧바로 전진 패스를 붙였고, 스위스와의 7-5 난타전에서는 두 골을 넣었다. 치보르 졸탄<span class="foreign-note" lang="hu">(Czibor Zoltán; outside left)</span>의 본래 역할은 왼쪽 측면 공격수였다. 다섯 경기 3골과 결승의 두 번째 골을 남긴 그를 이 배열에서는 왼쪽 전 구역을 맡는 선수로 세웠다.
 
 ### 경기를 조율한 세 사람
 
-보지크는 푸슈카시의 뒤에서 헝가리 공격의 속도와 방향을 정했다. 짧게 공을 순환하다 틈이 열리는 순간 공격진의 발앞으로 찔렀으며, 브라질전에서는 니우통 산투스와 충돌해 함께 퇴장당했다. 프리츠 발터는 서독의 주장이자 제프 헤어베르거가 신뢰한 조율자였다. 비가 내린 베른에서도 템포를 잃지 않았고, 결승의 두 코너킥으로 추격의 발판을 만들었다. 란은 네 경기 4골 가운데 두 골을 결승에서 넣었다. 18분 동점골과 84분의 왼발 역전골은 서독의 첫 우승을 결정했다.
+보지크 요제프<span class="foreign-note" lang="hu">(Bozsik József; right-half)</span>는 푸슈카시의 뒤에서 헝가리 공격의 속도와 방향을 정했다. 짧게 공을 순환하다 틈이 열리는 순간 공격진의 발앞으로 찔렀으며, 브라질전에서는 니우통 산투스와 충돌해 함께 퇴장당했다. 프리츠 발터<span class="foreign-note" lang="de">(Friedrich Walter; inside left)</span>는 서독의 주장이자 제프 헤어베르거가 신뢰한 조율자였다. 비가 내린 베른에서도 템포를 잃지 않았고, 결승의 두 코너킥으로 추격의 발판을 만들었다. 헬무트 란<span class="foreign-note" lang="de">(Helmut Rahn; outside right)</span>은 네 경기 4골 가운데 두 골을 결승에서 넣었다. 18분 동점골과 84분의 왼발 역전골은 서독의 첫 우승을 결정했다.
 
 ### 고정된 자리를 무너뜨린 공격
 
-히데그쿠티가 9번 자리에서 중원으로 내려오면 상대 센터하프의 기준점이 사라졌다. 그 빈 공간으로 푸슈카시와 코치시가 침투했다. 푸슈카시는 서독과의 조별리그에서 발목을 다쳐 두 경기를 쉬고도 결승에 돌아와 선제골을 넣었다. 코치시는 대한민국전 해트트릭, 서독전 네 골, 브라질전과 우루과이전 두 골씩을 기록했다. 다섯 경기 11골과 압도적인 헤더 능력은 결승 무득점만으로 흐려지지 않는다.
+히데그쿠티 난도르<span class="foreign-note" lang="hu">(Hidegkuti Nándor; centre-forward)</span>가 9번 자리에서 중원으로 내려오면 상대 센터 하프의 기준점이 사라졌다. 이 후퇴형 센터 포워드<span class="foreign-note" lang="en">(deep-lying centre-forward)</span>의 움직임으로 열린 공간에 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; inside left)</span>와 코치시 샨도르<span class="foreign-note" lang="hu">(Kocsis Sándor Péter; inside right)</span>가 침투했다. 푸슈카시는 서독과의 조별리그에서 발목을 다쳐 두 경기를 쉬고도 결승에 돌아와 선제골을 넣었다. 코치시는 대한민국전 해트트릭, 서독전 네 골, 브라질전과 우루과이전 두 골씩을 기록했다. 다섯 경기 11골과 압도적인 헤더 능력은 결승 무득점만으로 흐려지지 않는다.
 
 ## 아라니처파트, 골문 앞의 자리를 없애다
 
-헝가리에서 이 팀을 부른 이름은 아라니처파트<span class="foreign-note" lang="hu">(Aranycsapat; ‘황금 팀’)</span>였다. 국내에서 굳어진 ‘매직 마자르’보다 선수단 내부의 정체성에 가까운 말이다. 세베시 구스타브 감독은 대표팀의 중심을 부다페스트 혼베드와 MTK 부다페스트에 모아 훈련 시간을 확보했다. 히데그쿠티는 등번호 9를 달고도 중원으로 내려왔고, 센터하프가 그를 따라오면 푸슈카시와 코치시가 열린 중앙으로 들어갔다. 보지크는 뒤에서 패스의 방향을 바꾸고, 치보르와 부다이는 폭을 넓혔다.
+헝가리에서 이 팀을 부른 이름은 아라니처파트<span class="foreign-note" lang="hu">(Aranycsapat; ‘황금 팀’)</span>였다. 국내에서 굳어진 ‘매직 마자르’보다 선수단 내부의 정체성에 가까운 말이다. 세베시 구스타브 감독은 대표팀의 중심을 부다페스트 혼베드와 MTK 부다페스트에 모아 훈련 시간을 확보했다. 히데그쿠티는 등번호 9를 달고도 중원으로 내려왔고, 센터 하프<span class="foreign-note" lang="en">(centre-half)</span>가 그를 따라오면 푸슈카시와 코치시가 열린 중앙으로 들어갔다. 보지크는 뒤에서 패스의 방향을 바꾸고, 치보르와 부다이는 폭을 넓혔다.
 
 이 팀은 1950년부터 결승 전까지 31경기 연속 무패였다. 1952년 헬싱키 올림픽에서 금메달을 땄고, 1953년 웸블리에서 잉글랜드를 6-3으로 꺾었다. 이듬해 부다페스트에서 다시 만난 잉글랜드에는 7-1로 이겼다. 스위스에 도착했을 때 헝가리는 우승 후보 가운데 하나가 아니라, 다른 팀이 해답을 찾아야 하는 문제 그 자체였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-그 강함은 단순히 유명 선수가 많아서가 아니었다. 당시 대부분의 팀은 상대 9번과 센터하프의 일대일을 수비의 기준으로 삼았다. 히데그쿠티가 중원까지 내려오자 그 기준이 깨졌다. 센터하프가 따라 나오면 중앙이 비었고, 남으면 히데그쿠티가 보지크와 수적 우위를 만들었다. 푸슈카시가 왼쪽 안쪽에서 공을 잡고 치보르가 바깥을 달리며, 반대쪽 코치시가 골문으로 파고드는 순간 수비수가 지켜야 할 사람과 공간이 동시에 바뀌었다. 후대의 ‘가짜 9번’과 닮았다는 설명은 결과를 이해하기에는 편하지만, 이 팀의 원형은 한 선수의 위치보다 다섯 공격수와 두 하프백이 함께 간격을 바꾼 집단 이동에 있었다.
+그 강함은 단순히 유명 선수가 많아서가 아니었다. 당시 대부분의 팀은 상대 9번과 센터 하프의 일대일을 수비의 기준으로 삼았다. 히데그쿠티가 중원까지 내려오자 그 기준이 깨졌다. 센터 하프가 따라 나오면 중앙이 비었고, 남으면 히데그쿠티가 보지크와 수적 우위를 만들었다. 푸슈카시가 왼쪽 안쪽에서 공을 잡고 치보르가 바깥을 달리며, 반대쪽 코치시가 골문으로 파고드는 순간 수비수가 지켜야 할 사람과 공간이 동시에 바뀌었다. 후대의 가짜 9번<span class="foreign-note" lang="en">(false nine)</span>과 닮았다는 설명은 결과를 이해하기에는 편하지만, 이 팀의 원형은 한 선수의 위치보다 다섯 공격수와 두 하프<span class="foreign-note" lang="en">(halves)</span>가 함께 간격을 바꾼 집단 이동에 있었다.
 
 ### 황금 머리의 열한 골
 
@@ -121,7 +123,7 @@ draft: false
 
 결승에서는 골이 없었다. 헝가리는 6분 푸슈카시, 9분 치보르의 골로 2-0을 만들었다. 그러나 막스 모를로크가 곧 한 골을 돌려놓았고, 18분 란이 동점을 만들었다. 84분 란이 왼발로 다시 골망을 흔들었다. 종료 직전 푸슈카시의 슛이 들어갔지만 오프사이드가 선언됐다. 조별리그의 8-3은 결승의 점수를 한 점도 대신해 주지 못했다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
-결승의 푸슈카시는 조별리그 서독전에서 베르너 리브리히에게 발목을 다친 뒤 브라질전과 우루과이전을 쉬었다. 결승 선발 출전이 가능할 만큼 회복했지만 평소의 움직임은 아니었다. 여기에 비까지 내렸다. 서독 장비를 맡은 아디 다슬러의 교체형 스터드가 젖은 잔디에 대응하는 데 도움을 준 것은 사실이지만, 한 장비가 우승을 만들었다는 식으로 설명하면 모를로크의 압박과 란의 두 골, 토니 투레크의 선방을 지우게 된다. ‘베른의 기적’은 신발 한 켤레의 기적이 아니라, 0-2 뒤에도 무너지지 않은 팀이 여섯 분 만에 경기를 원점으로 돌리고 마지막 순간을 가져간 경기였다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+결승의 푸슈카시는 조별리그 서독전에서 베르너 리브리히에게 발목을 다친 뒤 브라질전과 우루과이전을 쉬었다. 결승 선발 출전이 가능할 만큼 회복했지만 평소의 움직임은 아니었다. 여기에 비까지 내렸다. 서독 장비를 맡은 아디 다슬러의 교체형 스터드<span class="foreign-note" lang="en">(screw-in studs)</span>가 젖은 잔디에 대응하는 데 도움을 준 것은 사실이지만, 한 장비가 우승을 만들었다는 식으로 설명하면 모를로크의 압박과 란의 두 골, 토니 투레크의 선방을 지우게 된다. ‘베른의 기적’은 신발 한 켤레의 기적이 아니라, 0-2 뒤에도 무너지지 않은 팀이 여섯 분 만에 경기를 원점으로 돌리고 마지막 순간을 가져간 경기였다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 ## 휴전 11개월 뒤, 대한민국의 첫 월드컵
 
