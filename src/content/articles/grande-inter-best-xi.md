@@ -9,6 +9,7 @@ coverImageAlt: "유러피언컵을 든 그란데 인테르 선수단과 인터 �
 coverImageCaption: "1960~1972년을 범위로 선정한 그란데 인테르 베스트 11. 표지 디자인: 삥이."
 coverImageWidth: 773
 coverImageHeight: 773
+relatedGroup: "luis-suarez-grande-inter"
 draft: false
 featured: false
 ---
