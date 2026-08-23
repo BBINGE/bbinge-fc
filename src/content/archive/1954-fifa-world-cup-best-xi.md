@@ -59,39 +59,23 @@ draft: false
 
 <div class="best-xi" aria-label="1954 FIFA 월드컵 당대 베스트 11 배치">
   <div class="best-xi-line forwards-three">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/sandor-kocsis.jpg" alt="코치시 샨도르" loading="lazy" /><span>LW</span><strong>코치시 샨도르</strong><small>헝가리 · 5경기 11골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/ferenc-puskas.jpg" alt="푸슈카시 페렌츠" loading="lazy" /><span>CF</span><strong>푸슈카시 페렌츠</strong><small>헝가리 · 3경기 4골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/nandor-hidegkuti.jpg" alt="히데그쿠티 난도르" loading="lazy" /><span>RW</span><strong>히데그쿠티 난도르</strong><small>헝가리 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><span>LW</span><strong>코치시 샨도르</strong><small>헝가리 · 5경기 11골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><span>CF</span><strong>푸슈카시 페렌츠</strong><small>헝가리 · 3경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" alt="히데그쿠티 난도르" loading="lazy" /><span>RW</span><strong>히데그쿠티 난도르</strong><small>헝가리 · 4경기 4골</small></div>
   </div>
   <div class="best-xi-line midfield-three">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/helmut-rahn.jpg" alt="헬무트 란" loading="lazy" /><span>LM</span><strong>헬무트 란</strong><small>서독 · 4경기 4골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/jozsef-bozsik.jpg" alt="보지크 요제프" loading="lazy" /><span>DM</span><strong>보지크 요제프</strong><small>헝가리 · 5경기</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/fritz-walter.jpg" alt="프리츠 발터" loading="lazy" /><span>RM</span><strong>프리츠 발터</strong><small>서독 · 6경기 3골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" alt="헬무트 란" loading="lazy" /><span>LM</span><strong>헬무트 란</strong><small>서독 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" alt="보지크 요제프" loading="lazy" /><span>DM</span><strong>보지크 요제프</strong><small>헝가리 · 5경기</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><span>RM</span><strong>프리츠 발터</strong><small>서독 · 6경기 3골</small></div>
   </div>
   <div class="best-xi-line backs-four">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/zoltan-czibor.jpg" alt="치보르 졸탄" loading="lazy" /><span>LB</span><strong>치보르 졸탄</strong><small>헝가리 · 5경기 3골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/jose-santamaria.jpg" alt="호세 산타마리아" loading="lazy" /><span>CB</span><strong>산타마리아</strong><small>우루과이 · 5경기</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/ernst-ocwirk.jpg" alt="에른스트 오크비르크" loading="lazy" /><span>CB</span><strong>에른스트 오크비르크</strong><small>오스트리아 · 5경기 2골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/djalma-santos.jpg" alt="자우마 산투스" loading="lazy" /><span>RB</span><strong>자우마 산투스</strong><small>브라질 · 3경기 1골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" alt="치보르 졸탄" loading="lazy" /><span>LB</span><strong>치보르 졸탄</strong><small>헝가리 · 5경기 3골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" alt="호세 산타마리아" loading="lazy" /><span>CB</span><strong>산타마리아</strong><small>우루과이 · 5경기</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" alt="에른스트 오크비르크" loading="lazy" /><span>CB</span><strong>에른스트 오크비르크</strong><small>오스트리아 · 5경기 2골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" alt="자우마 산투스" loading="lazy" /><span>RB</span><strong>자우마 산투스</strong><small>브라질 · 3경기 1골</small></div>
   </div>
-  <div class="best-xi-line keeper"><div><img src="/images/archive/1954-fifa-world-cup-best-xi/players/gyula-grosics.jpg" alt="그로시치 줄러" loading="lazy" /><span>GK</span><strong>그로시치 줄러</strong><small>헝가리 · 5경기</small></div></div>
+  <div class="best-xi-line keeper"><div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" alt="그로시치 줄러" loading="lazy" /><span>GK</span><strong>그로시치 줄러</strong><small>헝가리 · 5경기</small></div></div>
 </div>
-
-### 베스트 11
-
-| 위치 | 선수 | 국가 | 대회 기록 |
-| --- | --- | --- | --- |
-| GK | 그로시치 줄러 <span class="foreign-note" lang="hu">(Grosics Gyula)</span> | 헝가리 | 5경기 |
-| LB | 치보르 졸탄 <span class="foreign-note" lang="hu">(Czibor Zoltán)</span> | 헝가리 | 5경기 3골 |
-| CB | 호세 산타마리아 <span class="foreign-note" lang="es-UY">(José Emilio Santamaría Iglesias)</span> | 우루과이 | 5경기 |
-| CB | 에른스트 오크비르크 <span class="foreign-note" lang="de-AT">(Ernst Ocwirk)</span> | 오스트리아 | 5경기 2골 |
-| RB | 자우마 산투스 <span class="foreign-note" lang="pt-BR">(Djalma Pereira Dias dos Santos)</span> | 브라질 | 3경기 1골 |
-| LM | 헬무트 란 <span class="foreign-note" lang="de">(Helmut Rahn)</span> | 서독 | 4경기 4골 |
-| DM | 보지크 요제프 <span class="foreign-note" lang="hu">(Bozsik József)</span> | 헝가리 | 5경기 |
-| RM | 프리츠 발터 <span class="foreign-note" lang="de">(Friedrich Walter)</span> | 서독 | 6경기 3골 |
-| LW | 코치시 샨도르 <span class="foreign-note" lang="hu">(Kocsis Sándor Péter)</span> | 헝가리 | 5경기 11골 |
-| CF | 푸슈카시 페렌츠 <span class="foreign-note" lang="hu">(Puskás Ferenc)</span> | 헝가리 | 3경기 4골 |
-| RW | 히데그쿠티 난도르 <span class="foreign-note" lang="hu">(Hidegkuti Nándor)</span> | 헝가리 | 4경기 4골 |
 
 <div class="best-xi-roster" aria-label="1954 FIFA 월드컵 베스트 11 선수 카드">
   <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" alt="그로시치 줄러" loading="lazy" /><div><span>GK · 골키퍼</span><strong>그로시치 줄러</strong><small lang="hu">Grosics Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기</p></div></article>
