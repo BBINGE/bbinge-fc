@@ -29,8 +29,8 @@ draft: false
 | 순위 | 국가 | 리그전 | 득실 |
 | --- | --- | --- | --- |
 | 1 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">우승 결정전 3-2 승</span> | 3승 2무 1패 | 11득점 6실점 |
-| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 4승 2패 | 15득점 6실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 3승 1무 2패 | 15득점 6실점 |
+| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 여섯 번째 준우승</span> | 4승 2패 | 15득점 6실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 여섯 번째 3위</span> | 3승 1무 2패 | 15득점 6실점 |
 | 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3승 1무 2패 | 10득점 10실점 |
 | 5 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 3승 1무 2패 | 4득점 6실점 |
 | 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 1승 1무 4패 | 6득점 15실점 |
@@ -73,12 +73,6 @@ draft: false
 파라과이 축구는 1922·1929·1947·1949년 준우승 뒤 마침내 첫 남미 정상에 올랐다. 플레이다스 솔리치가 1947년부터 다듬은 세대는 후안 앙헬 로메로의 기술, 베르니와 페르난데스의 득점, 에레라의 수비를 하나로 묶었다. CONMEBOL의 대회 회고가 이 팀을 거칠면서도 좋은 축구를 한 강력한 팀으로 설명하는 이유다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 에레라는 이후 스페인으로 건너가 아틀레티코 마드리드에서 뛰었고 스페인 대표팀에도 한 차례 출전했다. 지도자가 된 뒤에는 엄격한 규율로 ‘철의 중사’<span class="foreign-note" lang="es">(El Sargento de Hierro; 강한 규율에서 나온 별명)</span>라 불렸으며 유벤투스와 인테르를 지휘했다. 엘레니오 에레라와 구분해 이탈리아에서 ‘HH2’로 불린 감독의 출발점에는, 골 없이도 대회의 대표 선수로 남은 1953년 리마의 수비가 있었다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
-
-<a class="record-cta" href="/archive/national-team/fifa-world-cup/1950-fifa-world-cup-best-xi/">
-  <span>직전 세계 대회</span>
-  <strong>1950 FIFA 월드컵 베스트 11과 마라카낭의 결말</strong>
-  <small>파라과이가 꺾은 브라질과 우루과이가 세계 정상에서 만났던 대회로 돌아간다.</small>
-</a>
 
 ## 출처와 기록 기준
 
