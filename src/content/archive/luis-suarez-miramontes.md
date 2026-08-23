@@ -56,7 +56,7 @@ draft: false
 
 3. 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola; 이탈리아 공격형 미드필더, 1942-)</span>와의 분업은 그란데 인테르의 중심이었다. 수아레스가 아래에서 공을 배급하면 마촐라는 수비 사이로 침투했고, 마리우 코르소는 왼발로 마지막 패스를 보탰다. 파케티의 긴 오버래핑까지 더해지면서 한 번의 긴 패스가 곧 여러 선수의 동시 출발 신호가 됐다.
 
-4. 그는 1960년 발롱도르를 받은 최초의 스페인 선수였다. 로드리가 2024년 두 번째 스페인 남자 수상자가 되기까지 64년 동안 유일한 이름으로 남았다. 개인상만이 아니라 1964년 유러피언컵과 유럽선수권을 같은 해에 지휘했다는 사실이 그의 전성기를 더 정확히 보여준다.
+4. 그는 1960년 발롱도르를 받은 최초의 스페인 선수였다. 로드리가 2024년 두 번째 스페인 남자 수상자가 되기까지 64년 동안 유일한 이름으로 남았다. 개인상만이 아니라 1964년 유러피언컵과 유러피언 네이션스컵<span class="foreign-note" lang="en">(European Nations' Cup; 현재의 UEFA 유로)</span>을 같은 해에 지휘했다는 사실이 그의 전성기를 더 정확히 보여준다.
 
 5. 삥이FC는 수아레스를 스페인 축구사 최고의 미드필더 첫 줄에 둔다. 차비가 패스의 연결로 경기 구조를 장악하고 이니에스타가 압박 속에서 전진을 만들었다면, 수아레스는 공격형 미드필더의 득점력과 레지스타의 장거리 설계를 모두 최고 수준에서 증명한 선배였다.
 
@@ -101,11 +101,11 @@ draft: false
 
 ## 스페인의 첫 유럽 정상
 
-수아레스는 1957년부터 1972년까지 스페인 대표팀에서 32경기 14골을 기록했다. 1962·1966 FIFA 월드컵에서는 모두 조별리그에서 탈락했지만, 자국에서 열린 1964년 유럽선수권에서는 스페인의 첫 메이저 대회 우승을 지휘했다.
+수아레스는 1957년부터 1972년까지 스페인 대표팀에서 32경기 14골을 기록했다. 1962·1966 FIFA 월드컵에서는 모두 조별리그에서 탈락했지만, 자국에서 열린 UEFA 유로 1964에서는 스페인의 첫 메이저 대회 우승을 지휘했다.
 
 준결승 헝가리전에서 연장 승리를 거둔 스페인은 산티아고 베르나베우에서 소련과 결승을 치렀다. 수아레스는 중원의 가장 경험 많은 선수로 경기의 속도를 조절했고, 후반 39분 마르셀리노의 결승 헤더로 이어진 공격에서도 오른쪽으로 공을 전개했다. UEFA는 그를 결승의 최우수 선수이자 대회 베스트 11로 기록한다.
 
-<figure><img src="/images/archive/legends/luis-suarez/spain-euro-1964.png" alt="1964년 유럽선수권 우승 트로피와 함께 모인 스페인 대표팀" width="900" height="600" loading="lazy" /><figcaption>1964년 유럽선수권을 우승한 스페인 대표팀. 앞줄 오른쪽 두 번째에 앉은 수아레스는 대표팀의 경기 방향을 정한 중심이었다.</figcaption></figure>
+<figure><img src="/images/archive/legends/luis-suarez/spain-euro-1964.png" alt="UEFA 유로 1964 우승 트로피와 함께 모인 스페인 대표팀" width="900" height="600" loading="lazy" /><figcaption>UEFA 유로 1964을 우승한 스페인 대표팀. 앞줄 오른쪽 두 번째에 앉은 수아레스는 대표팀의 경기 방향을 정한 중심이었다.</figcaption></figure>
 
 ## 역대 클럽·국대 기록
 
@@ -139,7 +139,7 @@ draft: false
 <div class="number-history-table number-history-national">
   <table><thead><tr><th>대표팀</th><th>확인 대회·기간</th><th>등번호</th></tr></thead><tbody>
     <tr><td>스페인</td><td>1962 FIFA 월드컵</td><td><strong>10</strong></td></tr>
-    <tr><td>스페인</td><td>1964 유럽선수권</td><td><strong>10</strong></td></tr>
+    <tr><td>스페인</td><td>UEFA 유로 1964</td><td><strong>10</strong></td></tr>
     <tr><td>스페인</td><td>1966 FIFA 월드컵</td><td><strong>10</strong></td></tr>
   </tbody></table>
 </div>
@@ -155,7 +155,7 @@ draft: false
   <section><strong>세리에 A<small lang="it">Serie A</small></strong><p><b>우승:</b> 1962-63, 1964-65, 1965-66</p></section>
   <section><strong>유러피언컵<small lang="fr">Coupe des clubs champions européens</small></strong><p><b>우승:</b> 1963-64, 1964-65</p><p><b>준우승:</b> 1960-61, 1966-67</p></section>
   <section><strong>인터콘티넨털컵<small lang="es">Copa Intercontinental</small></strong><p><b>우승:</b> 1964, 1965</p></section>
-  <section><strong>유럽선수권<small lang="fr">Championnat d'Europe de football</small></strong><p><b>우승:</b> 1964</p></section>
+  <section><strong>유러피언 네이션스컵<small lang="en">European Nations' Cup · 현재의 UEFA 유로</small></strong><p><b>우승:</b> 1964</p></section>
 </div>
 
 ## 루이스 수아레스의 개인 커리어 수상 경력
@@ -185,7 +185,7 @@ draft: false
   <li><a href="https://www.inter.it/it/notizie/2016-10-28-luis-suarez-faro-e-architetto" rel="noopener noreferrer">Inter: Luis Suárez, faro e architetto</a>: 라코루냐 시절, 1964년 결승 일화, 마촐라·자이르와의 플레이.</li>
   <li><a href="https://www.inter.it/it/notizie/2023-05-02-compleanno-suarez" rel="noopener noreferrer">Inter: Buon compleanno, Luis Suárez</a>: 인테르 공식전 328경기 54골과 우승 기록.</li>
   <li><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d7d0bdc396b-570ad6e6ff87-1000--euro-1964-team-of-the-tournament/" rel="noopener noreferrer">UEFA: EURO 1964 Team of the Tournament</a>: 결승 최우수 선수 평가, 대회 베스트 11과 대표팀 32경기 14골.</li>
-  <li><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d81002b8cf1-1cc8563243f0-1000--snap-shot-spain-celebrate-1964-euro-triumph/" rel="noopener noreferrer">UEFA: Spain celebrate 1964 EURO triumph</a>: 유럽선수권 결승과 스페인 대표팀 우승 기록.</li>
+  <li><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d81002b8cf1-1cc8563243f0-1000--snap-shot-spain-celebrate-1964-euro-triumph/" rel="noopener noreferrer">UEFA: Spain celebrate 1964 EURO triumph</a>: UEFA 유로 1964 결승과 스페인 대표팀 우승 기록.</li>
   <li><a href="https://app.francefootball.fr/ballon-d-or/palmares/" rel="noopener noreferrer">France Football: Ballon d'Or palmarès</a>: 1960년 발롱도르 수상.</li>
   <li><a href="https://blog.naver.com/sho3603/223494912950" rel="noopener noreferrer">삥이 네이버 포스팅: 루이스 수아레스</a>: 기존 평가, 기록 목록, 사진과 영상 구성.</li>
 </ul></div>

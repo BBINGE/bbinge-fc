@@ -50,7 +50,7 @@ export const archiveBranches: ArchiveBranch[] = [
     originalTitle: 'INTERNATIONAL COMPETITIONS',
     description: '국가대표팀 대회의 역사와 결승전, 선정 기록을 연도별로 정리한 총람.',
     indexes: [
-      ['fifa-world-cup', 'FIFA 월드컵™'], ['uefa-european-championship', 'UEFA 유러피언 챔피언십'], ['copa-america', '코파 아메리카'], ['afc-asian-cup', 'AFC 아시안컵'], ['africa-cup-of-nations', '아프리카 네이션스컵'],
+      ['fifa-world-cup', 'FIFA 월드컵™'], ['uefa-european-championship', 'UEFA 유러피언 풋볼 챔피언십'], ['copa-america', '코파 아메리카'], ['afc-asian-cup', 'AFC 아시안컵'], ['africa-cup-of-nations', '아프리카 네이션스컵'],
     ].map(([slug, label]) => ({ slug, label })),
   },
   {

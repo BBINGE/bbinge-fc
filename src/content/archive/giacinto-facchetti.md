@@ -79,7 +79,7 @@ draft: false
 
 ## 아주리의 주장
 
-파케티는 이탈리아 대표팀에서 94경기 3골을 기록했다. 자국에서 열린 1968년 유럽선수권에서는 주장으로 우승했고, 1970년 멕시코 월드컵에서는 서독과의 ‘세기의 경기’를 지나 결승에 올랐다. 결승에서 브라질에 1-4로 졌지만, 이탈리아가 전후 처음 월드컵 결승으로 돌아온 여정의 리더였다.
+파케티는 이탈리아 대표팀에서 94경기 3골을 기록했다. 자국에서 열린 UEFA 유러피언 풋볼 챔피언십<span class="foreign-note" lang="en">(UEFA European Football Championship; 통칭 UEFA 유로)</span> 1968에서는 주장으로 우승했고, 1970년 멕시코 월드컵에서는 서독과의 ‘세기의 경기’를 지나 결승에 올랐다. 결승에서 브라질에 1-4로 졌지만, 이탈리아가 전후 처음 월드컵 결승으로 돌아온 여정의 리더였다.
 
 <figure><img src="/images/archive/legends/facchetti/facchetti-italy.jpg" alt="파란 이탈리아 대표팀 유니폼을 입은 주장 자친토 파케티" width="466" height="599" loading="lazy" /><figcaption>이탈리아 대표팀 주장 파케티. 유로 1968 우승과 1970 월드컵 준우승을 이끌었다.</figcaption></figure>
 
@@ -113,7 +113,7 @@ draft: false
   <section><strong>코파 이탈리아<small lang="it">Coppa Italia</small></strong><p><b>우승:</b> 1977-78</p></section>
   <section><strong>유러피언컵<small lang="fr">Coupe des clubs champions européens</small></strong><p><b>우승:</b> 1963-64, 1964-65</p><p><b>준우승:</b> 1966-67, 1971-72</p></section>
   <section><strong>인터콘티넨털컵<small lang="es">Copa Intercontinental</small></strong><p><b>우승:</b> 1964, 1965</p></section>
-  <section><strong>유럽선수권<small lang="fr">Championnat d'Europe de football</small></strong><p><b>우승:</b> 1968</p></section>
+  <section><strong>UEFA 유로<small lang="en">UEFA European Football Championship</small></strong><p><b>우승:</b> 1968</p></section>
   <section><strong>FIFA 월드컵<small lang="fr">Coupe du Monde de la FIFA</small></strong><p><b>준우승:</b> 1970</p></section>
 </div>
 

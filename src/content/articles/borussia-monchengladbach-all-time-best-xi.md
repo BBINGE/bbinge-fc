@@ -103,9 +103,9 @@ featured: true
 
 헤르베르트 비머<span class="foreign-note" lang="de">(Herbert Wimmer; 독일 축구선수·미드필더, 1944-)</span>는 소음을 제거하고 본질만 남긴 중원의 전사였다. 네처가 고개를 들고 먼 곳을 볼 수 있었던 것은 비머가 가까운 위험을 먼저 치웠기 때문이다. 압박의 첫 걸음, 패스 길을 닫는 각도, 동료가 비운 공간을 향한 반복 주행이 창조자의 시간을 벌었다.
 
-두 사람의 관계를 보조자와 주인공으로만 나누면 묀헨글라트바흐의 축구를 놓친다. 네처의 패스가 팀을 앞으로 당겼다면 비머의 회수는 그 팀이 다시 시도할 권리를 만들었다. 1972년 유럽선수권과 1974년 월드컵을 품은 서독에서도 같은 기능이 빛났다. 그는 화려함의 반대편이 아니라 화려함을 가능하게 한 구조였다.
+두 사람의 관계를 보조자와 주인공으로만 나누면 묀헨글라트바흐의 축구를 놓친다. 네처의 패스가 팀을 앞으로 당겼다면 비머의 회수는 그 팀이 다시 시도할 권리를 만들었다. UEFA 유로 1972와 1974년 월드컵을 품은 서독에서도 같은 기능이 빛났다. 그는 화려함의 반대편이 아니라 화려함을 가능하게 한 구조였다.
 
-별명 *Iron Lung*, ‘철의 폐’는 장거리 주행만을 가리킨 찬사가 아니었다. 비머는 네처가 왼쪽 깊숙이 내려가면 그 앞의 하프스페이스를 채우고, 10번이 공을 잃는 순간에는 가장 가까운 패스 길부터 지웠다. 공격에서는 박스 바깥에 머물다가 늦게 침투해 수비의 시선을 갈랐다. 1972년 유럽선수권 결승에서는 네처의 슈팅이 골키퍼에게 맞고 흐르자 두 번째 골을 넣었다. UEFA 대회 베스트 XI는 그를 지칠 줄 모르는 선수로 기억한다. 366회의 분데스리가 경기를 한 구단에서 치르며 다섯 리그 우승을 함께한 지속성이 그 별명의 완성이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+별명 *Iron Lung*, ‘철의 폐’는 장거리 주행만을 가리킨 찬사가 아니었다. 비머는 네처가 왼쪽 깊숙이 내려가면 그 앞의 하프스페이스를 채우고, 10번이 공을 잃는 순간에는 가장 가까운 패스 길부터 지웠다. 공격에서는 박스 바깥에 머물다가 늦게 침투해 수비의 시선을 갈랐다. UEFA 유로 1972 결승에서는 네처의 슈팅이 골키퍼에게 맞고 흐르자 두 번째 골을 넣었다. UEFA 대회 베스트 XI는 그를 지칠 줄 모르는 선수로 기억한다. 366회의 분데스리가 경기를 한 구단에서 치르며 다섯 리그 우승을 함께한 지속성이 그 별명의 완성이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
 ## 7. 라이너 본호프｜중앙 미드필더
 
@@ -129,7 +129,7 @@ featured: true
 
 <figure class="netzer-rivalry"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/netzer-overath.webp" alt="서독 대표팀에서 악수하는 귄터 네처와 볼프강 오베라트" loading="lazy" width="684" height="684" /><figcaption>질서의 선제후 볼프강 오베라트와 자유의 황제 귄터 네처. 서독 중원을 둘러싼 한 시대의 논쟁.</figcaption></figure>
 
-볼프강 오베라트<span class="foreign-note" lang="de">(Wolfgang Overath; 독일 축구선수·미드필더, 1943-)</span>와의 경쟁은 잔니 리베라와 산드로 마촐라를 두고 갈라졌던 이탈리아의 논쟁만큼이나 시대를 드러낸다. 오베라트는 균형과 지속성에 강했고 네처는 한 번의 패스로 경기의 법칙을 바꾸었다. 1972년 오베라트가 부상으로 빠진 유럽선수권에서 네처가 지휘한 서독은 대회의 기준이 되었고, 1974년 월드컵에서는 다시 오베라트가 중심에 섰다. 한쪽을 낮춰야 다른 한쪽이 커지는 경쟁이 아니었다. 독일 축구가 질서와 자유 가운데 어느 얼굴로 세계를 마주할지를 묻던 양자택일이었다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+볼프강 오베라트<span class="foreign-note" lang="de">(Wolfgang Overath; 독일 축구선수·미드필더, 1943-)</span>와의 경쟁은 잔니 리베라와 산드로 마촐라를 두고 갈라졌던 이탈리아의 논쟁만큼이나 시대를 드러낸다. 오베라트는 균형과 지속성에 강했고 네처는 한 번의 패스로 경기의 법칙을 바꾸었다. 오베라트가 부상으로 빠진 UEFA 유로 1972에서 네처가 지휘한 서독은 대회의 기준이 되었고, 1974년 월드컵에서는 다시 오베라트가 중심에 섰다. 한쪽을 낮춰야 다른 한쪽이 커지는 경쟁이 아니었다. 독일 축구가 질서와 자유 가운데 어느 얼굴로 세계를 마주할지를 묻던 양자택일이었다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 1973년 DFB-포칼 결승, 네처는 선발에서 빠졌다. 연장전이 시작되기 전 감독의 지시를 기다리는 대신 “그럼 이제 제가 뛰겠습니다”라고 말하고 스스로 교체 투입되었다. 잠시 뒤 결승골을 넣었다. 오만과 천재성이 한 장면에서 구별되지 않는 순간, 그는 묀헨글라트바흐에서의 마지막 경기를 전설로 닫고 레알 마드리드로 떠났다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
@@ -243,7 +243,7 @@ featured: true
 9. <span id="source-9"></span>[UEFA: 1975년 UEFA컵 결승, 하인케스의 해트트릭](https://www.uefa.com/uefaeuropaleague/news/0042-0e6a07710b2c-d9c643bf6484-1000--1974-75-heynckes-hat-trick-inspires-gladbach/)
 10. <span id="source-10"></span>[UEFA: 1975년 UEFA컵 결승 공식 선발과 득점 기록](https://www.uefa.com/MultimediaFiles/Download/ITT/uefaorg/Publications/01/52/55/73/1525573_DOWNLOAD.pdf)
 11. <span id="source-11"></span>[UEFA: 1977년 유러피언컵 결승과 묀헨글라트바흐의 경기](https://www.uefa.com/uefachampionsleague/news/0239-0e9724a47b0c-91b83f515cb7-1000--40-years-on-liverpool-win-their-first-european-cup/)
-12. <span id="source-12"></span>[UEFA: 1972년 유럽선수권 베스트 XI, 헤르베르트 비머](https://de.uefa.com/uefaeuro/history/news/0253-0d7bca01b752-deaa0abd2f51-1000--uefaeuro1972-equipo-del-torneo/)
+12. <span id="source-12"></span>[UEFA: UEFA 유로 1972 베스트 XI, 헤르베르트 비머](https://de.uefa.com/uefaeuro/history/news/0253-0d7bca01b752-deaa0abd2f51-1000--uefaeuro1972-equipo-del-torneo/)
 13. [푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 14. [보루시아 묀헨글라트바흐 문장 원본과 파일 정보](https://ko.wikipedia.org/wiki/파일:Borussia_Mönchengladbach_logo.svg)
 
