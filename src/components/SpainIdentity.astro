@@ -1,0 +1,50 @@
+---
+interface Props { headingLevel?: 1 | 2; compact?: boolean }
+
+const { headingLevel = 2, compact = false } = Astro.props;
+const Heading = headingLevel === 1 ? 'h1' : 'h2';
+---
+
+<header class:list={['spain-identity', compact && 'is-compact']} aria-labelledby="spain-identity-title">
+  <div class="spain-identity__country">
+    <img src="/images/archive/legends/spain/spain-flag.svg" alt="스페인 국기" width="1136" height="758" />
+    <div><span>ESPAÑA</span><strong>스페인 왕국</strong><p lang="es">Reino de España</p></div>
+  </div>
+  <div class="spain-identity__team">
+    <img src="/images/archive/legends/spain/spain-national-team-crest.svg" alt="스페인 왕립 축구 연맹 문장" width="960" height="1625" />
+    <div>
+      <span>SELECCIÓN ESPAÑOLA</span>
+      <Heading id="spain-identity-title">스페인 축구 국가대표팀</Heading>
+      <p lang="es">Selección de fútbol de España</p>
+      <strong><span aria-hidden="true">|</span><span lang="es">La Roja</span><span>(라 로하)</span></strong>
+    </div>
+  </div>
+</header>
+
+<style>
+  .spain-identity { --es-red: #aa151b; --es-yellow: #f1bf00; margin-top: 34px; overflow: hidden; border: 1px solid var(--es-red); }
+  .spain-identity__country, .spain-identity__team { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 24px; align-items: center; min-height: 156px; padding: 24px 34px; }
+  .spain-identity__country { background: var(--es-red); color: #fff; }
+  .spain-identity__team { border-top: 1px solid rgba(170,21,27,.35); background: var(--es-yellow); color: #751116; }
+  .spain-identity img { justify-self: center; object-fit: contain; }
+  .spain-identity__country img { width: 100px; height: 67px; border: 1px solid rgba(255,255,255,.8); border-radius: 9px; object-fit: cover; }
+  .spain-identity__team img { width: 68px; height: 115px; }
+  .spain-identity span { display: block; font-size: 11px; line-height: 1.4; font-weight: 800; letter-spacing: .13em; }
+  .spain-identity h1, .spain-identity h2, .spain-identity__country strong { display: block; margin-top: 6px; color: inherit; font-size: clamp(22px, 3vw, 30px); line-height: 1.15; font-weight: 760; letter-spacing: -.04em; }
+  .spain-identity p { margin-top: 6px; font-size: 13px; line-height: 1.45; font-weight: 600; }
+  .spain-identity__team > div > strong { display: flex; gap: 3px; margin-top: 7px; }
+  .spain-identity__team > div > strong span { letter-spacing: 0; }
+  .spain-identity.is-compact { margin-top: 22px; }
+  .spain-identity.is-compact .spain-identity__country, .spain-identity.is-compact .spain-identity__team { min-height: 118px; padding: 18px 26px; }
+  .spain-identity.is-compact .spain-identity__team img { width: 54px; height: 91px; }
+  @media (max-width: 767px) {
+    .spain-identity { margin-top: 24px; }
+    .spain-identity__country, .spain-identity__team { grid-template-columns: 70px minmax(0, 1fr); gap: 14px; min-height: 118px; padding: 17px 18px; }
+    .spain-identity__country img { width: 68px; height: 45px; border-radius: 7px; }
+    .spain-identity__team img { width: 48px; height: 81px; }
+    .spain-identity span { font-size: 11px; }
+    .spain-identity h1, .spain-identity h2, .spain-identity__country strong { margin-top: 4px; font-size: 20px; }
+    .spain-identity p { margin-top: 4px; font-size: 12px; }
+    .spain-identity.is-compact .spain-identity__country, .spain-identity.is-compact .spain-identity__team { min-height: 106px; padding: 15px 16px; }
+  }
+</style>

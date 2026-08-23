@@ -159,8 +159,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
     <tbody>
       <tr><td data-label="소속팀">상파울루 FC</td><td data-label="확인 시즌">2000-01~2002-03 · 2013-14</td><td data-label="등번호"><strong>8</strong></td></tr>
       <tr><td data-label="소속팀">AC 밀란</td><td data-label="확인 시즌">2003-04~2008-09 · 2013-14</td><td data-label="등번호"><strong>22</strong></td></tr>
-      <tr><td data-label="소속팀">레알 마드리드</td><td data-label="확인 시즌">2009-10~2013-14</td><td data-label="등번호"><strong>8</strong></td></tr>
-      <tr><td data-label="소속팀">올랜도 시티</td><td data-label="확인 시즌">2014-15~2016-17</td><td data-label="등번호"><strong>10</strong></td></tr>
+      <tr><td data-label="소속팀">레알 마드리드 CF</td><td data-label="확인 시즌">2009-10~2013-14</td><td data-label="등번호"><strong>8</strong></td></tr>
+      <tr><td data-label="소속팀">올랜도 시티 SC</td><td data-label="확인 시즌">2014-15~2016-17</td><td data-label="등번호"><strong>10</strong></td></tr>
     </tbody>
   </table>
 </div>

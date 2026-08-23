@@ -249,6 +249,16 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-identity-brazil span) { color: inherit; font-size: 11px; }
   .archive-body :global(.legend-identity-brazil strong) { margin-top: 6px; color: inherit; font-size: 22px; }
   .archive-body :global(.legend-identity-brazil small) { color: inherit; font-size: 12px; line-height: 1.45; }
+  .archive-body :global(.legend-identity-spain) { display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, minmax(112px, 1fr)); align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; }
+  .archive-body :global(.legend-identity-spain section) { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; min-width: 0; padding: 20px 30px; }
+  .archive-body :global(.legend-identity-spain .identity-country) { background: #aa151b; color: #fff; }
+  .archive-body :global(.legend-identity-spain .identity-team) { background: #f1bf00; color: #751116; }
+  .archive-body :global(.legend-identity-spain img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
+  .archive-body :global(.legend-identity-spain .identity-country img) { height: 67px; border: 1px solid rgba(255,255,255,.8); border-radius: 9px; object-fit: cover; }
+  .archive-body :global(.legend-identity-spain .identity-team img) { width: 54px; height: 91px; justify-self: center; }
+  .archive-body :global(.legend-identity-spain span) { color: inherit; font-size: 11px; }
+  .archive-body :global(.legend-identity-spain strong) { margin-top: 6px; color: inherit; font-size: 22px; }
+  .archive-body :global(.legend-identity-spain small) { color: inherit; font-size: 12px; line-height: 1.45; }
   .archive-body :global(.legend-reel) { overflow: hidden; margin: 40px 0 64px; border-radius: 20px; background: #061b11; color: #fff; box-shadow: 0 24px 60px rgba(1,41,22,.18); }
   .archive-body :global(.legend-reel-head) { display: grid; grid-template-columns: 1fr auto; padding: 20px 22px 18px; }
   .archive-body :global(.legend-reel-head span) { grid-column: 1; font-size: 11px; font-weight: 800; letter-spacing: .16em; color: #f8d80e; }
@@ -268,6 +278,13 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.profile-country-head small) { display: block; margin-top: 5px; font-size: 13px; font-weight: 600; color: #071d4b; }
   .archive-body :global(.record-facts-brazil dl) { border-color: rgba(8,120,62,.22); background: linear-gradient(90deg, rgba(7,136,61,.06), rgba(247,217,16,.08)); }
   .archive-body :global(.record-facts-brazil dt) { color: #08783e; font-weight: 800; }
+  .archive-body :global(.record-facts-spain) { overflow: hidden; border: 1px solid #aa151b; border-radius: 16px; background: #fff; }
+  .archive-body :global(.record-facts-spain .profile-country-head) { grid-template-columns: 112px minmax(0, 1fr) 90px; background: linear-gradient(128deg, #c8102e 0 58%, #ffc400 58% 74%, #c8102e 74% 100%); }
+  .archive-body :global(.record-facts-spain .profile-country-head > img:first-child) { border: 2px solid rgba(255,255,255,.92); box-shadow: 0 4px 14px rgba(71,0,8,.18); }
+  .archive-body :global(.record-facts-spain .profile-country-head > img:last-child) { width: 52px; height: 88px; filter: drop-shadow(0 4px 8px rgba(71,0,8,.18)); }
+  .archive-body :global(.record-facts-spain .profile-country-head strong), .archive-body :global(.record-facts-spain .profile-country-head small) { color: #fff; text-shadow: 0 1px 2px rgba(77,0,8,.28); }
+  .archive-body :global(.record-facts-spain dl) { border-color: rgba(170,21,27,.2); background: linear-gradient(90deg, rgba(170,21,27,.055), rgba(241,191,0,.06)); }
+  .archive-body :global(.record-facts-spain dt) { color: #92151b; font-weight: 800; }
   .archive-body :global(.legend-section-photo) { max-width: 640px; }
   .archive-body :global(.legend-section-photo img) { display: block; width: 100%; max-height: 540px; object-fit: cover; object-position: 50% 20%; }
   .archive-body :global(.legend-section-cover img) { aspect-ratio: 16 / 10; object-position: 50% 24%; }
@@ -369,6 +386,11 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.career-awards strong) { color: #111827; font-size: .96em; font-weight: 700; }
   .archive-body :global(.career-awards small) { color: #4b5563; font-size: .72em; font-weight: 600; }
   .archive-body :global(.career-awards span) { color: #9ca3af; font-size: .82em; font-weight: 500; }
+  .archive-body :global(.archive-crosslink) { display: grid; gap: 5px; margin: 34px 0 48px; padding: 22px 24px; border: 1px solid #d6b45c; border-radius: 16px; background: linear-gradient(135deg, #111 0 38%, #f8f5ea 38%); color: #111827; }
+  .archive-body :global(.archive-crosslink span) { color: #f1c75b; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+  .archive-body :global(.archive-crosslink strong), .archive-body :global(.archive-crosslink small) { margin-left: 38%; padding-left: 22px; }
+  .archive-body :global(.archive-crosslink strong) { font-size: 19px; line-height: 1.35; }
+  .archive-body :global(.archive-crosslink small) { color: #4b5563; font-size: 12px; line-height: 1.55; }
   .archive-body :global(.source-notes ol) { padding-left: 22px; list-style: decimal; }
   .archive-body :global(.source-notes li:target) { background: var(--bbfc-blue-weak); }
   .archive-share { margin-top: 54px; padding-top: 8px; border-top: 1px solid var(--bbfc-border); }
@@ -416,6 +438,13 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.legend-identity-brazil .identity-team img) { width: 42px; height: 60px; }
     .archive-body :global(.legend-identity-brazil strong) { margin-top: 4px; font-size: 19px; }
     .archive-body :global(.legend-identity-brazil small) { margin-top: 3px; font-size: 11px; }
+    .archive-body :global(.legend-identity-spain) { grid-template-columns: 1fr; gap: 0; padding: 0; }
+    .archive-body :global(.legend-identity-spain section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
+    .archive-body :global(.legend-identity-spain img) { width: 62px; height: 46px; }
+    .archive-body :global(.legend-identity-spain .identity-country img) { height: 41px; }
+    .archive-body :global(.legend-identity-spain .identity-team img) { width: 38px; height: 64px; }
+    .archive-body :global(.legend-identity-spain strong) { margin-top: 4px; font-size: 19px; }
+    .archive-body :global(.legend-identity-spain small) { margin-top: 3px; font-size: 11px; }
     .archive-body :global(.honours-grid div) { min-height: 118px; }
     .archive-body :global(.legend-reel) { margin: 30px 0 52px; border-radius: 14px; }
     .archive-body :global(.profile-country-head) { grid-template-columns: 72px 1fr 54px; gap: 12px; min-height: 118px; padding: 18px 14px; }
@@ -423,6 +452,8 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.profile-country-head > img:last-child) { width: 48px; height: 58px; }
     .archive-body :global(.profile-country-head strong) { font-size: 19px; }
     .archive-body :global(.profile-country-head small) { font-size: 11px; }
+    .archive-body :global(.record-facts-spain .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #c8102e 0 69%, #ffc400 69% 82%, #c8102e 82% 100%); }
+    .archive-body :global(.record-facts-spain .profile-country-head > img:last-child) { width: 38px; height: 64px; }
     .archive-body :global(.legend-reel-head) { padding: 17px 16px 15px; }
     .archive-body :global(.legend-reel-head strong) { font-size: 19px; }
     .archive-body :global(.legend-reel-foot) { padding: 15px 16px 18px; }
@@ -438,6 +469,9 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.number-history-table table) { display: table; overflow: visible; white-space: normal; font-size: 13px; }
     .archive-body :global(.number-history-table th), .archive-body :global(.number-history-table td) { padding: 11px 10px; }
     .archive-body :global(.number-history-table th:nth-child(2)), .archive-body :global(.number-history-table td:nth-child(2)) { width: 42%; }
+    .archive-body :global(.archive-crosslink) { background: #111; color: #fff; }
+    .archive-body :global(.archive-crosslink strong), .archive-body :global(.archive-crosslink small) { margin-left: 0; padding-left: 0; }
+    .archive-body :global(.archive-crosslink small) { color: rgba(255,255,255,.72); }
     .archive-body :global(.source-notes) { font-size: 12.5px; }
     .archive-body :global(.record-note) { font-size: 12px; }
     .archive-body :global(.record-abstract) { margin-bottom: 46px; padding: 22px 20px 24px; }

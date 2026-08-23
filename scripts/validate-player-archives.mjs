@@ -24,6 +24,7 @@ const knownWrongNames = new Map([
   ['주제 모리뉴', '조제 모리뉴'],
   ['클라렌서 세도르프', '클라렌스 세도르프'],
   ['리우데자네이루', '히우지자네이루'],
+  ['라울레', '라울헤'],
 ]);
 const needlessClubNotes = [
   'Liverpool Football Club;',
@@ -32,6 +33,22 @@ const needlessClubNotes = [
   'Fußball-Club Bayern München;',
   'Manchester United Football Club;',
   'Manchester City Football Club;',
+];
+const shortenedClubNames = new Map([
+  ['리버 플레이트', 'CA 리버 플레이트'],
+  ['우라칸', 'CA 우라칸'],
+  ['미요나리오스', '미요나리오스 FC'],
+  ['레알 마드리드', '레알 마드리드 CF'],
+  ['에스파뇰', 'RCD 에스파뇰'],
+  ['올랜도 시티', '올랜도 시티 SC'],
+]);
+const requiredPlayerMarkup = [
+  ['class="legend-identity', '국가·대표팀 표'],
+  ['class="record-facts', '프로필 정보표'],
+  ['class="club-career-grid', '클럽·국대 기록 카드'],
+  ['class="number-history-table', '등번호 표'],
+  ['class="career-awards', '개인 수상 목록'],
+  ['class="source-notes', '출처 설명 목록'],
 ];
 
 async function markdownFiles(directory) {
@@ -84,6 +101,23 @@ for (const file of await markdownFiles(archiveRoot)) {
   }
   for (const note of needlessClubNotes) {
     if (body.includes(note)) failures.push(`${relative}: 널리 알려진 구단에 불필요한 원어 풀이 '${note}' 발견.`);
+  }
+  const numberHistoryStart = body.indexOf('## 역대 등번호');
+  const numberHistoryEnd = body.indexOf('\n## ', numberHistoryStart + 1);
+  const numberHistorySection = numberHistoryStart === -1
+    ? ''
+    : body.slice(numberHistoryStart, numberHistoryEnd === -1 ? undefined : numberHistoryEnd);
+  for (const [shortened, full] of shortenedClubNames) {
+    const escaped = shortened.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    if (new RegExp(`<td(?:\\s[^>]*)?>${escaped}<\\/td>`).test(numberHistorySection)) {
+      failures.push(`${relative}: 역대 등번호 표의 '${shortened}' 대신 공식 구단명 '${full}' 사용.`);
+    }
+  }
+  for (const [marker, label] of requiredPlayerMarkup) {
+    if (!body.includes(marker)) failures.push(`${relative}: 필수 ${label} 마크업 누락.`);
+  }
+  if (/\b디 스테파노\b/.test(body) || /\b디 스테파노\b/.test(title)) {
+    failures.push(`${relative}: '디 스테파노' 대신 '디스테파노' 사용.`);
   }
 }
 
