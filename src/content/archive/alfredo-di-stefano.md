@@ -188,7 +188,7 @@ draft: false
   <li><strong>트로페오 피치치</strong><small>라리가 득점왕</small><span>1953-54 시즌 · 27골 / 1955-56 시즌 · 24골 / 1956-57 시즌 · 31골 / 1957-58 시즌 · 19골, 공동 수상 / 1958-59 시즌 · 23골</span></li>
   <li><strong>FIFA 100</strong><small>국제축구연맹 창립 100주년을 맞아 펠레가 선정한 생존 선수 125인</small><span>2004년</span></li>
   <li><strong>FIFA 공로훈장</strong><small>국제축구연맹이 축구 발전에 기여한 인물에게 수여</small><span>1994년</span></li>
-  <li><strong>국제축구 명예의 전당 헌액</strong><small>FIFA 후원 명예의 전당 최초 헌액자 10인</small><span>1998년</span></li>
+  <li><strong>국제축구 명예의 전당 헌액</strong><span>1998년</span></li>
   <li><strong>UEFA 회장상</strong><small>유럽축구연맹 선정</small><span>2008년</span></li>
   <li><strong>IFFHS 선정 20세기 세계 최고의 축구선수</strong><small>국제축구역사통계연맹 선정</small><span>2000년 · 4위</span></li>
   <li><strong>IFFHS 선정 전 세계 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년 · 2군</span></li>

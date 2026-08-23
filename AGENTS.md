@@ -29,14 +29,17 @@ git log -10 --oneline
 - 논의·질문은 구현 승인으로 간주하지 않는다.
 - CMS(`public/admin/`, `functions/`)를 수정할 때는 Sveltia CMS 설정과 GitHub OAuth 흐름의 호환성을 함께 확인한다.
 - 선수 인물 글을 조사·수정·발행할 때는 `PLAYER_ARCHIVE_RULES.md`의 체크리스트를 생략하지 않는다.
+- 선수 인물 글의 개인 수상·기록·등번호를 수정하기 전에는 카푸와 카카의 같은 섹션을 실제 파일에서 대조한다. `통일`을 새 해설·새 항목을 늘리라는 뜻으로 재해석하지 않는다.
+- 검수 실패는 발행 중단 신호다. 오류 문구에서 원인을 찾고 해당 원고나 코드를 수정한 뒤 같은 검사를 다시 실행한다. 검수 스크립트 삭제·완화·우회, 빌드 명령 변경, 실패한 상태의 push는 금지한다.
 
 ## 작업 종료
 
-1. `npm run build`가 성공하는지 확인한다.
-2. PC·태블릿·모바일(380px 우선) 화면을 검증한다.
-3. 운영 상태나 절차가 달라졌다면 같은 작업에서 `HANDOFF.md`도 갱신한다.
-4. 한국어 커밋 메시지로 커밋하고 `main`에 push한다.
-5. Cloudflare Pages 배포 결과(https://bbinge-fc.pages.dev)를 확인한다.
+1. 선수 인물 글이 포함되면 `npm run test:player-rules`와 `npm run validate:players`를 먼저 통과시킨다.
+2. `npm run build`가 성공하는지 확인한다. 이 빌드는 선수 검수 실패 시 즉시 중단되어야 한다.
+3. PC·태블릿·모바일(380px 우선) 화면을 검증한다.
+4. 운영 상태나 절차가 달라졌다면 같은 작업에서 `HANDOFF.md`도 갱신한다.
+5. 한국어 커밋 메시지로 커밋하고 `main`에 push한다.
+6. Cloudflare Pages 배포 결과(https://bbinge-fc.pages.dev)를 확인한다.
 
 ## 개발 서버
 
