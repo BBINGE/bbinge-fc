@@ -20,6 +20,7 @@ interface Props {
   type?: 'website' | 'article';
   robots?: string;
   adsEligible?: boolean;
+  analyticsEligible?: boolean;
   breadcrumbs?: Breadcrumb[];
   article?: {
     pubDate: Date;
@@ -42,6 +43,7 @@ const {
   type = 'website',
   robots = 'index,follow,max-image-preview:large',
   adsEligible = true,
+  analyticsEligible = true,
   breadcrumbs = [{ label: '홈', href: '/' }],
   article,
   extraSchema,
@@ -172,14 +174,18 @@ const authorSchema = {
     <meta name="twitter:image" content={ogImageURL} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
 
-    <!-- Google tag (gtag.js) -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3931E0CPPK"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-3931E0CPPK');
-    </script>
+    {analyticsEligible && (
+      <>
+        <!-- Google tag (gtag.js) -->
+        <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3931E0CPPK"></script>
+        <script is:inline>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-3931E0CPPK');
+        </script>
+      </>
+    )}
     {adsEligible && (
       <>
         {/* AdSense 사이트 소유권 확인 및 심사용 스니펫. 실제 광고는 권리 확인된 본문 화면의 AdSlot에서만 활성화한다. */}

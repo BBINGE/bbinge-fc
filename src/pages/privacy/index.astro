@@ -3,12 +3,14 @@ import InfoPage from '../../components/InfoPage.astro';
 import Layout from '../../layouts/Layout.astro';
 import { site } from '../../config/site';
 
-const UPDATED_DATE = '2026-08-20';
+const UPDATED_DATE = '2026-08-23';
 ---
 
 <Layout
   title="개인정보처리방침"
   description={`${site.name}의 개인정보 처리 목적, 항목, 보유기간과 이용자 권리에 관한 안내입니다.`}
+  adsEligible={false}
+  analyticsEligible={false}
   breadcrumbs={[{ label: '홈', href: '/' }, { label: '개인정보처리방침', href: '/privacy/' }]}
 >
   <InfoPage

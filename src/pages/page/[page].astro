@@ -22,6 +22,7 @@ const { page } = Astro.props as Props;
 <Layout
   title={`${page.currentPage}페이지`}
   description={site.tagline}
+  adsEligible={false}
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: `${page.currentPage}페이지`, href: `/page/${page.currentPage}/` },

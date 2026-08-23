@@ -124,7 +124,7 @@ if (props.kind === 'category') {
     title={categoryView.meta.pageTitle ?? categoryView.meta.label}
     description={`${categoryView.meta.fullLabel} - ${site.name}`}
     robots={categoryView.hasContent ? 'index,follow,max-image-preview:large' : 'noindex,follow'}
-    adsEligible={categoryView.hasContent}
+    adsEligible={false}
     breadcrumbs={[
       { label: '홈', href: '/' },
       ...getAncestorChain(categoryView.categorySlug).map((category) => ({

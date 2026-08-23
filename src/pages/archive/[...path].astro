@@ -51,6 +51,7 @@ const collectionSchema = {
 <Layout
   title={pageTitle}
   description={pageDescription}
+  adsEligible={false}
   robots={records.length > 0 ? 'index,follow,max-image-preview:large' : 'noindex,follow'}
   extraSchema={records.length > 0 ? collectionSchema : undefined}
   breadcrumbs={[
