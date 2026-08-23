@@ -8,6 +8,7 @@ subject: "알프레도 디스테파노"
 originalTitle: "Alfredo Di Stéfano Laulhé"
 keywords: ["알프레도 디스테파노", "Alfredo Di Stéfano", "디스테파노 프로필", "디스테파노 스탯", "디스테파노 등번호", "금빛 화살", "레알 마드리드", "유러피언컵 5연패", "슈퍼 발롱도르", "1953년 이적 분쟁"]
 tags: ["스페인", "아르헨티나", "레알 마드리드", "유러피언컵", "발롱도르", "중앙 공격수"]
+relatedGroup: "alfredo-di-stefano-real-madrid"
 pubDate: 2026-08-23T12:00:00+09:00
 coverImage: "/images/archive/legends/di-stefano/di-stefano-cover.png"
 coverImageAlt: "레알 마드리드 훈련복을 입고 두 개의 축구공을 든 알프레도 디스테파노"
@@ -98,8 +99,6 @@ draft: false
 
 그는 최전방과 중원을 왕복했다. 수비수의 시야 밖에서 기다리기보다 공이 나오지 않으면 직접 내려가 가져왔고, 동료가 전진하면 비운 공간을 다시 메웠다. 헨토가 왼쪽 측면을 질주할 때는 중앙에서 패스의 각도를 만들었고, 코파가 들어오자 조립의 부담을 나눴으며, 푸슈카시가 합류한 뒤에는 왼발 득점원의 움직임을 살리면서 자신의 득점도 유지했다. 이 팀의 공격은 한 명에게 공을 몰아주는 체계가 아니라 디스테파노가 계속 위치를 바꾸며 동료들의 장점을 연결하는 체계였다.
 
-<a class="archive-crosslink" href="/squads/custom-best-xi/real-madrid-death-squad-best-xi/"><span>함께 읽기</span><strong>레알 마드리드 저승사자 군단 역대 베스트 11</strong><small>디스테파노와 유러피언컵 5연패의 동료들을 한 팀으로 다시 본다.</small></a>
-
 ## 유러피언컵 다섯 결승, 다섯 번의 득점
 
 <figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/di-stefano/five-european-cups.png" alt="알프레도 디스테파노가 다섯 개의 유러피언컵 트로피 뒤에 앉아 있는 모습" width="800" height="450" loading="lazy" /><figcaption>1956년부터 1960년까지 유러피언컵을 다섯 차례 연속 제패한 디스테파노와 레알 마드리드.</figcaption></figure>
@@ -179,28 +178,25 @@ draft: false
 ## 알프레도 디스테파노의 개인 커리어 수상 경력
 
 <ul class="career-awards">
-  <li><strong>발롱도르</strong><small>프랑스 축구 전문지 프랑스 풋볼이 선정한 유럽 올해의 축구선수</small><span>1956년 2위 · 1957년 1위 · 1959년 1위 · 1960년 4위 · 1961년 6위</span></li>
-  <li><strong>슈퍼 발롱도르</strong><small>프랑스 풋볼이 역대 발롱도르 수상자의 선수 경력 전체를 평가해 선정</small><span>1989년 · 요한 크라위프와 미셸 플라티니를 제치고 수상한 유일한 수상자</span></li>
-  <li><strong>발롱도르 드림팀</strong><small>프랑스 풋볼이 축구 역사 전체를 대상으로 선정한 역대 베스트 11</small><span>2020년 · 중앙 공격수 2군</span></li>
-  <li><strong>UEFA 주빌리 골든 플레이어</strong><small>유럽축구연맹 창립 50주년을 맞아 각 회원국 협회가 뽑은 지난 50년 최고의 선수</small><span>2003년 · 스페인 선정</span></li>
-  <li><strong>UEFA 주빌리 선정 1954-63년 최고의 유럽 선수</strong><small>유럽축구연맹 창립 50주년 온라인 투표에서 시대별 최고 선수를 선정</small><span>2004년 발표 · 1954-63년 부문 1위</span></li>
-  <li><strong>유러피언컵 득점왕</strong><small>현재 UEFA 챔피언스 리그의 전신인 유럽 챔피언 구단 대항전</small><span>1957-58 시즌 · 10골</span></li>
-  <li><strong>아르헨티나 프리메라 디비시온 득점왕</strong><small>아르헨티나 1부 리그 최다 득점자</small><span>1947년 · 27골</span></li>
-  <li><strong>콜롬비아 카테고리아 프리메라 A 득점왕</strong><small>콜롬비아 1부 리그 최다 득점자</small><span>1951년 · 31골 / 1952년 · 19골</span></li>
-  <li><strong>트로페오 피치치</strong><small>스페인 스포츠지 마르카가 수여하는 라리가 득점왕</small><span>1953-54 시즌 · 27골 / 1955-56 시즌 · 24골 / 1956-57 시즌 · 31골 / 1957-58 시즌 · 19골, 공동 수상 / 1958-59 시즌 · 23골</span></li>
+  <li><strong>발롱도르</strong><span>1956년 2위 · 1957년 1위 · 1959년 1위 · 1960년 4위 · 1961년 6위</span></li>
+  <li><strong>슈퍼 발롱도르</strong><small>역대 발롱도르 수상자 대상 · 유일한 수상자</small><span>1989년</span></li>
+  <li><strong>발롱도르 드림팀</strong><span>2020년 · 중앙 공격수 2군</span></li>
+  <li><strong>UEFA 주빌리 골든 플레이어</strong><small>유럽축구연맹 창립 50주년 기념 스페인 최고의 선수</small><span>2003년</span></li>
+  <li><strong>유러피언컵 득점왕</strong><span>1957-58 시즌 · 10골</span></li>
+  <li><strong>아르헨티나 프리메라 디비시온 득점왕</strong><span>1947년 · 27골</span></li>
+  <li><strong>콜롬비아 카테고리아 프리메라 A 득점왕</strong><span>1951년 · 31골 / 1952년 · 19골</span></li>
+  <li><strong>트로페오 피치치</strong><small>라리가 득점왕</small><span>1953-54 시즌 · 27골 / 1955-56 시즌 · 24골 / 1956-57 시즌 · 31골 / 1957-58 시즌 · 19골, 공동 수상 / 1958-59 시즌 · 23골</span></li>
   <li><strong>FIFA 100</strong><small>국제축구연맹 창립 100주년을 맞아 펠레가 선정한 생존 선수 125인</small><span>2004년</span></li>
   <li><strong>FIFA 공로훈장</strong><small>국제축구연맹이 축구 발전에 기여한 인물에게 수여</small><span>1994년</span></li>
-  <li><strong>국제축구 명예의 전당 헌액</strong><small>국제축구연맹 후원으로 출범한 인터내셔널 풋볼 홀 오브 챔피언스의 최초 헌액자 10인</small><span>1998년</span></li>
-  <li><strong>UEFA 회장상</strong><small>유럽축구연맹이 탁월한 업적과 축구에 남긴 공헌을 기리는 상</small><span>2008년</span></li>
-  <li><strong>마르카 레전드</strong><small>스페인 스포츠지 마르카가 세계 스포츠사에 큰 발자취를 남긴 인물에게 수여</small><span>1999년</span></li>
-  <li><strong>IFFHS 선정 20세기 세계 최고의 축구선수</strong><small>국제축구역사통계연맹이 기자와 전문가 투표로 선정</small><span>2000년 발표 · 4위</span></li>
-  <li><strong>IFFHS 선정 전 세계 역대 베스트 11</strong><small>국제축구역사통계연맹이 세계 축구사를 대상으로 선정</small><span>2021년 · 2군</span></li>
-  <li><strong>IFFHS 선정 남아메리카 역대 베스트 11</strong><small>국제축구역사통계연맹이 남아메리카 축구사를 대상으로 선정</small><span>2021년 · 1군</span></li>
-  <li><strong>IFFHS 선정 아르헨티나 역대 베스트 11</strong><small>국제축구역사통계연맹이 아르헨티나 축구사를 대상으로 선정</small><span>2021년 · 1군 왼쪽 공격수</span></li>
-  <li><strong>월드 사커 선정 20세기 최고의 축구선수</strong><small>영국 축구 전문지 월드 사커가 독자 투표로 선정</small><span>1999년 · 6위</span></li>
-  <li><strong>월드 사커 선정 전 세계 역대 베스트 11</strong><small>영국 축구 전문지 월드 사커가 기자·선수·감독 등 전문가 74명의 투표로 선정</small><span>2013년 · 1군</span></li>
-  <li><strong>월드 사커 전 세계 베스트 11</strong><small>영국 축구 전문지 월드 사커가 매년 선정한 세계 베스트 11</small><span>1960년 · 1961년 · 1962년 · 1963년 · 1964년</span></li>
-  <li><strong>레알 마드리드 CF 명예 회장</strong><small>선수와 구단의 역사를 대표하는 인물로 레알 마드리드 회원 총회에서 추대</small><span>2000년</span></li>
+  <li><strong>국제축구 명예의 전당 헌액</strong><small>FIFA 후원 명예의 전당 최초 헌액자 10인</small><span>1998년</span></li>
+  <li><strong>UEFA 회장상</strong><small>유럽축구연맹 선정</small><span>2008년</span></li>
+  <li><strong>IFFHS 선정 20세기 세계 최고의 축구선수</strong><small>국제축구역사통계연맹 선정</small><span>2000년 · 4위</span></li>
+  <li><strong>IFFHS 선정 전 세계 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년 · 2군</span></li>
+  <li><strong>IFFHS 선정 남아메리카 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년 · 1군</span></li>
+  <li><strong>IFFHS 선정 아르헨티나 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2021년 · 1군 왼쪽 공격수</span></li>
+  <li><strong>월드 사커 선정 전 세계 역대 베스트 11</strong><small>영국 축구 전문지 선정</small><span>2013년 · 1군</span></li>
+  <li><strong>월드 사커 전 세계 베스트 11</strong><small>영국 축구 전문지 선정</small><span>1960년 · 1961년 · 1962년 · 1963년 · 1964년</span></li>
+  <li><strong>레알 마드리드 CF 명예 회장</strong><span>2000년</span></li>
 </ul>
 
 ## 경기장을 떠난 뒤에도 남은 레알 마드리드
@@ -220,14 +216,12 @@ draft: false
   <li><a href="https://app.francefootball.fr/fiche/joueur/stefano-alfredo-di/10288" rel="noopener noreferrer">France Football: Alfredo Di Stéfano</a>: 발롱도르 순위, 유러피언컵·라리가·남미 리그 득점왕 기록.</li>
   <li><a href="https://www.realmadrid.com/en-US/news/club/latest-news/34-years-ago-di-stefano-was-awarded-super-ballon-dor-24-12-2023" rel="noopener noreferrer">Real Madrid: Di Stéfano's Super Ballon d'Or</a>: 1989년 슈퍼 발롱도르의 선정 방식과 최종 후보.</li>
   <li><a href="https://www.uefa.com/newsfiles/130279.pdf" rel="noopener noreferrer">UEFA: Golden Players</a>: 스페인의 지난 50년 골든 플레이어 선정.</li>
-  <li><a href="https://www.uefa.com/newsfiles/171606.pdf" rel="noopener noreferrer">UEFA: Jubilee top players</a>: 1954-63년 최고의 유럽 선수 투표 결과.</li>
   <li><a href="https://editorial.uefa.com/resources/01cb-0f842a2a6758-2f4f4041575c-1000/uefadirect-72-200804.pdf" rel="noopener noreferrer">UEFA Direct nº 72</a>: 2008년 UEFA 회장상 수여 기록.</li>
   <li><a href="https://portal.iffhs.com/posts/501" rel="noopener noreferrer">IFFHS: 20세기 세계 최고의 축구선수</a>: 2000년 발표 순위와 디스테파노의 4위.</li>
   <li><a href="https://iffhs.com/it/news/iffhs-all-time-world-mens-dream-team-1110" rel="noopener noreferrer">IFFHS: 전 세계 역대 드림팀</a>: 2021년 전 세계 역대 베스트 11의 2군 선정.</li>
   <li><a href="https://iffhs.com/en/news/iffhs-all-time-south-america-mens-dream-team-1116" rel="noopener noreferrer">IFFHS: 남아메리카 역대 드림팀</a>: 2021년 남아메리카 역대 베스트 11의 1군 선정.</li>
   <li><a href="https://iffhs.com/news/iffhs-all-time-argentina-mens-dream-team-9-1239" rel="noopener noreferrer">IFFHS: 아르헨티나 역대 드림팀</a>: 2021년 아르헨티나 역대 베스트 11의 포지션과 1군 선정.</li>
   <li><a href="https://www.worldsoccer.com/world-soccer-latest/the-greatest-xi-how-the-panel-voted-341427" rel="noopener noreferrer">World Soccer: The Greatest XI</a>: 2013년 전문가 투표 방식과 역대 베스트 11 선정.</li>
-  <li><a href="https://especiales.marca.com/80-aniversario/marca-leyenda.html" rel="noopener noreferrer">MARCA: Marca Leyenda</a>: 1999년 디스테파노의 마르카 레전드 선정.</li>
   <li><a href="https://www.lanacion.com.ar/deportes/futbol/los-documentos-que-confirman-que-barcelona-le-compro-a-river-a-alfredo-di-stefano-y-como-real-madrid-se-lo-quito-nid2050780/" rel="noopener noreferrer">LA NACION: 디스테파노 이적 문서</a>: 리버·미요나리오스·바르셀로나·레알 마드리드 사이의 이중 권리와 계약 과정.</li>
   <li><a href="https://www.cuadernosdefutbol.com/2024/04/el-fichaje-de-di-stefano-como-no-nos-lo-contaron-2/?print=pdf" rel="noopener noreferrer">Cuadernos de Fútbol: El fichaje de Di Stéfano</a>: 1953년 이적 분쟁의 계약·연맹 중재 자료.</li>
   <li><a href="https://www.rsssf.org/players/distefano-in-ec.html" rel="noopener noreferrer">RSSSF: Di Stéfano in European Cups</a>: 유러피언컵 시즌별 출전과 득점.</li>

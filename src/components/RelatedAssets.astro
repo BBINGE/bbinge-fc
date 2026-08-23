@@ -9,13 +9,13 @@ interface RelatedAsset {
   coverImage?: string;
 }
 
-interface Props { items: RelatedAsset[] }
-const { items } = Astro.props;
+interface Props { items: RelatedAsset[]; title?: string }
+const { items, title = '이 대회의 다른 기록' } = Astro.props;
 ---
 
 {items.length > 0 && (
   <aside class="related-assets" aria-labelledby="related-assets-title">
-    <header><p>RELATED RECORDS</p><h2 id="related-assets-title">이 대회의 다른 기록</h2></header>
+    <header><p>RELATED RECORDS</p><h2 id="related-assets-title">{title}</h2></header>
     <div class="related-assets-grid">
       {items.map((item) => (
         <a href={item.href}>

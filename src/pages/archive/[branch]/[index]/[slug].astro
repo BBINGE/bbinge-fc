@@ -107,7 +107,7 @@ const relatedAssets = entry.data.relatedGroup
         title={entry.data.title}
       />
     </div>
-    <RelatedAssets items={relatedAssets} />
+    <RelatedAssets items={relatedAssets} title={isLegend ? `${entry.data.subject}의 다른 기록` : undefined} />
     <nav class="sequence-nav" aria-label={`${archiveIndex.label} 이전·다음 기록`}>
       {previousRecord && (
         <a class="sequence-link is-previous" href={`/archive/${previousRecord.data.branch}/${previousRecord.data.index}/${previousRecord.id}/`}>
