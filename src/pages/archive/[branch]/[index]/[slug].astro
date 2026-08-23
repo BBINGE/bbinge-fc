@@ -259,6 +259,16 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-identity-spain span) { color: inherit; font-size: 11px; }
   .archive-body :global(.legend-identity-spain strong) { margin-top: 6px; color: inherit; font-size: 22px; }
   .archive-body :global(.legend-identity-spain small) { color: inherit; font-size: 12px; line-height: 1.45; }
+  .archive-body :global(.legend-identity-italy) { display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, minmax(112px, 1fr)); align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; color: #fff; }
+  .archive-body :global(.legend-identity-italy section) { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; min-width: 0; padding: 20px 30px; }
+  .archive-body :global(.legend-identity-italy .identity-country) { background: linear-gradient(90deg, #009246 0 71%, #f1f2f1 71% 85%, #ce2b37 85% 100%); color: #fff; }
+  .archive-body :global(.legend-identity-italy .identity-team) { background: #0755a5; color: #fff; }
+  .archive-body :global(.legend-identity-italy img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
+  .archive-body :global(.legend-identity-italy .identity-country img) { height: 67px; border: 1px solid rgba(255,255,255,.9); border-radius: 9px; object-fit: cover; }
+  .archive-body :global(.legend-identity-italy .identity-team img) { width: 68px; height: 82px; justify-self: center; }
+  .archive-body :global(.legend-identity-italy span) { color: inherit; font-size: 11px; }
+  .archive-body :global(.legend-identity-italy strong) { margin-top: 6px; color: inherit; font-size: 22px; }
+  .archive-body :global(.legend-identity-italy small) { color: inherit; font-size: 12px; line-height: 1.45; }
   .archive-body :global(.legend-reel) { overflow: hidden; margin: 40px 0 64px; border-radius: 20px; background: #061b11; color: #fff; box-shadow: 0 24px 60px rgba(1,41,22,.18); }
   .archive-body :global(.legend-reel-head) { display: grid; grid-template-columns: 1fr auto; padding: 20px 22px 18px; }
   .archive-body :global(.legend-reel-head span) { grid-column: 1; font-size: 11px; font-weight: 800; letter-spacing: .16em; color: #f8d80e; }
@@ -285,6 +295,13 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.record-facts-spain .profile-country-head strong), .archive-body :global(.record-facts-spain .profile-country-head small) { color: #fff; text-shadow: 0 1px 2px rgba(77,0,8,.28); }
   .archive-body :global(.record-facts-spain dl) { border-color: rgba(170,21,27,.2); background: linear-gradient(90deg, rgba(170,21,27,.055), rgba(241,191,0,.06)); }
   .archive-body :global(.record-facts-spain dt) { color: #92151b; font-weight: 800; }
+  .archive-body :global(.record-facts-italy) { overflow: hidden; border: 1px solid #0755a5; border-radius: 16px; background: #fff; }
+  .archive-body :global(.record-facts-italy .profile-country-head) { grid-template-columns: 112px minmax(0, 1fr) 90px; background: linear-gradient(128deg, #009246 0 58%, #f1f2f1 58% 74%, #ce2b37 74% 100%); }
+  .archive-body :global(.record-facts-italy .profile-country-head > img:first-child) { border: 2px solid rgba(255,255,255,.92); box-shadow: 0 4px 14px rgba(0,64,42,.18); }
+  .archive-body :global(.record-facts-italy .profile-country-head > img:last-child) { width: 62px; height: 74px; filter: drop-shadow(0 4px 8px rgba(0,48,95,.2)); }
+  .archive-body :global(.record-facts-italy .profile-country-head strong), .archive-body :global(.record-facts-italy .profile-country-head small) { color: #fff; text-shadow: 0 1px 3px rgba(0,45,31,.45); }
+  .archive-body :global(.record-facts-italy dl) { border-color: rgba(7,85,165,.2); background: linear-gradient(90deg, rgba(0,146,70,.055), rgba(7,85,165,.055)); }
+  .archive-body :global(.record-facts-italy dt) { color: #0755a5; font-weight: 800; }
   .archive-body :global(.legend-section-photo) { max-width: 640px; }
   .archive-body :global(.legend-section-photo img) { display: block; width: 100%; max-height: 540px; object-fit: cover; object-position: 50% 20%; }
   .archive-body :global(.legend-section-cover img) { aspect-ratio: 16 / 10; object-position: 50% 24%; }
@@ -445,6 +462,13 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.legend-identity-spain .identity-team img) { width: 38px; height: 64px; }
     .archive-body :global(.legend-identity-spain strong) { margin-top: 4px; font-size: 19px; }
     .archive-body :global(.legend-identity-spain small) { margin-top: 3px; font-size: 11px; }
+    .archive-body :global(.legend-identity-italy) { grid-template-columns: 1fr; gap: 0; padding: 0; }
+    .archive-body :global(.legend-identity-italy section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
+    .archive-body :global(.legend-identity-italy img) { width: 62px; height: 46px; }
+    .archive-body :global(.legend-identity-italy .identity-country img) { height: 41px; }
+    .archive-body :global(.legend-identity-italy .identity-team img) { width: 46px; height: 56px; }
+    .archive-body :global(.legend-identity-italy strong) { margin-top: 4px; font-size: 19px; }
+    .archive-body :global(.legend-identity-italy small) { margin-top: 3px; font-size: 11px; }
     .archive-body :global(.honours-grid div) { min-height: 118px; }
     .archive-body :global(.legend-reel) { margin: 30px 0 52px; border-radius: 14px; }
     .archive-body :global(.profile-country-head) { grid-template-columns: 72px 1fr 54px; gap: 12px; min-height: 118px; padding: 18px 14px; }
@@ -454,6 +478,8 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.profile-country-head small) { font-size: 11px; }
     .archive-body :global(.record-facts-spain .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #c8102e 0 69%, #ffc400 69% 82%, #c8102e 82% 100%); }
     .archive-body :global(.record-facts-spain .profile-country-head > img:last-child) { width: 38px; height: 64px; }
+    .archive-body :global(.record-facts-italy .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #009246 0 69%, #f1f2f1 69% 82%, #ce2b37 82% 100%); }
+    .archive-body :global(.record-facts-italy .profile-country-head > img:last-child) { width: 42px; height: 50px; }
     .archive-body :global(.legend-reel-head) { padding: 17px 16px 15px; }
     .archive-body :global(.legend-reel-head strong) { font-size: 19px; }
     .archive-body :global(.legend-reel-foot) { padding: 15px 16px 18px; }
