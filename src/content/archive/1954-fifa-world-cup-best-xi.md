@@ -18,7 +18,13 @@ draft: false
 
 <aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>헝가리는 다섯 경기에서 27골을 넣었다. 대한민국에 9골, 서독에 8골을 넣고 브라질과 우루과이까지 꺾었지만, 다시 만난 서독과의 결승에서 2-0 리드를 지키지 못했다. 서독은 조별리그의 3-8 패배를 결승의 3-2 승리로 바꾸며 첫 쥘리메컵을 들었다. 아래 열한 명은 당시 FIFA의 공식 시상 명단이 아니라 삥이가 2024년 네이버에 기록한 당대 베스트 11을 경기 기록과 원어명으로 다시 검증한 명단이다.</p></aside>
 
-> 당시 포스팅 BGM: [Welshly Arms - Legendary](https://www.youtube.com/watch?v=Z2CZn966cUg)
+<div class="archive-music" data-youtube-id="Z2CZn966cUg" role="region" aria-label="1954 월드컵 글 BGM 재생">
+  <button type="button" class="music-toggle" aria-label="재생하기">▶</button>
+  <span><small>삥이가 당시 포스팅에 고른 BGM</small><strong>Welshly Arms · Legendary</strong><em>1954 월드컵 기록과 함께 듣는 편집 선곡</em></span>
+  <button type="button" class="music-cta music-toggle" aria-label="Welshly Arms Legendary 재생">재생하기</button>
+  <div class="archive-music-player" hidden><iframe loading="lazy" title="YouTube embed: Welshly Arms Legendary" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <p class="archive-music-credit"><a href="https://www.youtube.com/watch?v=Z2CZn966cUg" target="_blank" rel="noopener noreferrer">YouTube에서 원본 보기</a></p>
+</div>
 
 ## 가장 많은 골이 나온 월드컵
 
