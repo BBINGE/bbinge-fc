@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T10:45:27.581Z",
+  "updatedAt": "2026-08-23T10:59:34.645Z",
   "birthday": {
     "name": "주세페 메아차",
     "birthYear": 1910,
@@ -41,9 +41,9 @@
   ],
   "status": {
     "birthday": {
-      "state": "fallback",
-      "source": "local-calendar",
-      "error": "Wikidata 3회 시도 실패: This operation was aborted"
+      "state": "ok",
+      "source": "Wikidata",
+      "error": null
     },
     "matches": {
       "state": "ok",
@@ -52,7 +52,7 @@
     }
   },
   "sources": {
-    "birthday": "local-calendar",
+    "birthday": "Wikidata",
     "matches": "TheSportsDB"
   }
 }
