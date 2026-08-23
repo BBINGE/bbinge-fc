@@ -56,6 +56,7 @@ const awardCountBaselines = new Map([
   ['kaka.md', 32],
   ['alfredo-di-stefano.md', 19],
   ['luis-suarez-miramontes.md', 7],
+  ['giacinto-facchetti.md', 12],
 ]);
 const selfExplanatoryAward = /(?:^발롱도르$|득점왕$|도움왕$|명예의 전당 헌액$|명예 회장$)/;
 const overExplainedAwardPhrases = [
