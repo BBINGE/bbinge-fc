@@ -143,6 +143,7 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
+  <li><a href="https://blog.naver.com/sho3603/223505967929" rel="noopener noreferrer">삥이 네이버 블로그: 역대 레프트백 계보 서열 2위 자친토 파케티</a>: 박성호가 작성한 기존 원고와 선수 평가의 출발점.</li>
   <li><a href="https://www.inter.it/en/club/hall-of-fame/giacinto-facchetti" rel="noopener noreferrer">Inter Hall of Fame: Giacinto Facchetti</a>: 인테르 공식 634경기 75골, 선수 전환과 명예의 전당 기록.</li>
   <li><a href="https://www.inter.it/en/news/giacinto-facchetti-2026-birth-anniversary" rel="noopener noreferrer">Inter: Giacinto Facchetti, the legend of a gentleman</a>: 18시즌과 주요 우승 기록.</li>
   <li><a href="https://www.figc.it/it/full-html?path=%2Fmuseo-del-calcio%2Fhall-of-fame%2Friconoscimenti-alla-memoria%2Fgiacinto-facchetti" rel="noopener noreferrer">FIGC Museo del Calcio: Giacinto Facchetti</a>: 이탈리아 대표팀 94경기 3골과 명예의 전당 기록.</li>
