@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-23T18:33:23.905Z",
+  "updatedAt": "2026-08-23T21:07:31.785Z",
   "birthday": {
     "name": "요시다 마야",
     "birthYear": 1988,
@@ -21,9 +21,9 @@
   ],
   "status": {
     "birthday": {
-      "state": "ok",
-      "source": "Wikidata",
-      "error": null
+      "state": "fallback",
+      "source": "local-calendar",
+      "error": "Wikidata 3회 시도 실패: This operation was aborted"
     },
     "matches": {
       "state": "ok",
@@ -32,7 +32,7 @@
     }
   },
   "sources": {
-    "birthday": "Wikidata",
+    "birthday": "local-calendar",
     "matches": "TheSportsDB"
   }
 }
