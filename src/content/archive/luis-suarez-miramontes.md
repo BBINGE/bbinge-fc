@@ -79,7 +79,7 @@ draft: false
 
 ## 라코루냐에서 바르셀로나의 중심으로
 
-수아레스가 데포르티보 1군에서 처음 바르셀로나를 만난 경기는 1-6 패배였다. 그러나 쿠벌러 라슬로는 경기 뒤 이 소년이 크게 될 것이라고 내다봤다. 바르셀로나는 1954년 그를 영입했고, 당시 규정과 등록 문제로 위성 구단 에스파냐 인두스트리알에서도 한 시즌을 보냈다.
+수아레스가 데포르티보 1군에서 처음 바르셀로나를 만난 경기는 1-6 패배였다. 그러나 쿠벌러 라슬로는 경기 뒤 이 소년이 크게 될 것이라고 내다봤다. 바르셀로나는 1954년 그를 영입했고, 당시 규정과 등록 문제로 위성 구단 에스파냐 인두스트리알에서도 한 시즌을 보냈다. 에스파냐 인두스트리알은 이후 CD 콘달이 됐고, 1970년 합병을 거쳐 오늘날 FC 바르셀로나 아틀레틱으로 이어지는 전신 중 하나다.
 
 바르셀로나에서 수아레스는 처음부터 후방에 머무는 선수가 아니었다. 왼쪽 안쪽 공격수와 공격형 미드필더로 뛰며 퍼스트 터치로 수비 방향을 지우고, 직접 드리블한 뒤 강한 슈팅으로 공격을 끝냈다. 쿠벌러, 코치시 샨도르, 치보르 졸탄, 안토니 라마예츠가 있던 팀에서 공의 흐름을 정하는 동시에 공식전 176경기 80골을 기록했다.
 
@@ -110,11 +110,11 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic">
-  <div><img src="/images/archive/legends/luis-suarez/luis-suarez-barcelona.jpg" alt="바르셀로나 시절 루이스 수아레스" /><strong>데포르티보 라코루냐</strong><span>1953-1954</span><small>17경기 · 3골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-deportivo.webp" alt="데포르티보 라코루냐 문장" /><strong>데포르티보 라코루냐</strong><span>1953-1954</span><small>17경기 · 3골</small></div>
   <div><img src="/images/clubs/barcelona.svg" alt="FC 바르셀로나 문장" /><strong>CD 에스파냐 인두스트리알</strong><span>1954-1955</span><small>21경기 · 6골</small></div>
   <div><img src="/images/clubs/barcelona.svg" alt="FC 바르셀로나 문장" /><strong>FC 바르셀로나</strong><span>1954-1961</span><small>176경기 · 80골</small></div>
-  <div><img src="/images/archive/legends/luis-suarez/luis-suarez-inter.png" alt="인테르 시절 루이스 수아레스" /><strong>FC 인테르나치오날레 밀라노</strong><span>1961-1970</span><small>328경기 · 54골</small></div>
-  <div><img src="/images/archive/legends/luis-suarez/luis-suarez-inter.png" alt="이탈리아 시절 루이스 수아레스" /><strong>UC 삼프도리아</strong><span>1970-1973</span><small>73경기 · 13골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-inter.webp" alt="FC 인테르나치오날레 밀라노 문장" /><strong>FC 인테르나치오날레 밀라노</strong><span>1961-1970</span><small>328경기 · 54골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-sampdoria.webp" alt="UC 삼프도리아 문장" /><strong>UC 삼프도리아</strong><span>1970-1973</span><small>73경기 · 13골</small></div>
   <div><img src="/images/archive/legends/spain/spain-national-team-crest.svg" alt="스페인 왕립 축구 연맹 문장" /><strong>스페인 대표팀</strong><span>1957-1972</span><small>32경기 · 14골</small></div>
 </div>
 
@@ -161,7 +161,7 @@ draft: false
 ## 루이스 수아레스의 개인 커리어 수상 경력
 
 <ul class="career-awards">
-  <li><strong>왕립 스포츠 공로장 금메달</strong><span>2001년</span></li>
+  <li><strong>스페인 왕립 스포츠 공로장 금메달</strong><span>2001년 · 스페인 정부가 수여하는 스포츠 공로 훈장</span></li>
   <li><strong>발롱도르</strong><span>1958년 14위 · 1959년 4위 · 1960년 1위 · 1961년 2위 · 1962년 15위 · 1963년 8위 · 1964년 2위 · 1965년 3위</span></li>
   <li><strong>발롱도르 드림팀</strong><span>2020년 · 미드필더 후보 19위</span></li>
   <li><strong>IFFHS 선정 스페인 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2022년 · 1군</span></li>
