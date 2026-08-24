@@ -1437,5 +1437,6 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 네이버 원문 「세계 축구 Elo 레이팅 역대 1위 헝가리 축구 그리고 토털 풋볼」을 저본으로, 다뉴브 학파·분더팀·메토도·WM·헝가리 황금의 팀·토털 풋볼의 관계를 사료와 당대 역할 표기에 맞춰 다시 썼다.
 - 새 글은 `src/content/articles/hungary-golden-team-total-football-elo-rating.md`, 공개 경로는 `/tactics/hungary-golden-team-total-football-elo-rating/`이다.
 - 운영자가 제공한 `감독.zip`의 자체 제작물을 `public/images/tactics/hungary-golden-team/`에 정리했다. 오스트리아·이탈리아 참고 전술 PNG는 공개 본문에 사용하지 않고 HTML 전술판으로 재구성했다.
+- 운영자 제작 완성 편집물인 헝가리 황금의 팀 베스트 11과 헝가리 성적 이미지는 본문에 포함했다. 성적 이미지의 프랑스전 13-1은 1927년 기록이므로 1950-1956년 황금의 팀 집계와 범위가 다르다는 캡션을 붙였다.
 - HTML 전술판은 1930년대 오스트리아의 역할 관계와 1953년 웸블리 헝가리 선발·움직임을 보여준다. 모바일 380px에서 선수명이 겹치지 않는지 우선 확인한다.
 - `relatedGroup: fifa-world-cup-1954`로 1954 FIFA 월드컵 베스트 11 아카이브가 자동 연결되며, 대한민국 1954 월드컵 글에는 본문 CTA로 연결한다.

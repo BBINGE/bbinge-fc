@@ -149,6 +149,11 @@ relatedGroup: 'fifa-world-cup-1954'
 - 윙어는 측면에 못 박히지 않고 중원을 도왔다.
 - 선수들은 자기 자리보다 동료가 비운 공간에 반응했다.
 
+<figure class="editorial-graphic">
+  <img src="/images/tactics/hungary-golden-team/hungary-golden-team.png" alt="푸슈카시, 코치시, 히데그쿠티를 비롯한 헝가리 황금의 팀 베스트 11을 당대 역할에 맞춰 배치한 운영자 제작 전술 이미지" width="966" height="966" loading="lazy" decoding="async" />
+  <figcaption>운영자가 직접 선정하고 제작한 헝가리 황금의 팀 베스트 11. 현대 포지션 칸에 억지로 가두기보다 당시의 아웃사이드·인사이드 포워드와 하프백 역할을 함께 읽어야 한다.</figcaption>
+</figure>
+
 즉 “누가 어느 칸에 서는가”보다 “누가 움직였을 때 다른 선수가 어디를 채우는가”가 중요해졌다. 현대 축구의 전술판이 화살표투성이가 된 원인 가운데 하나다.
 
 ## 그래서 정말 역사상 가장 강한 팀이었는가
@@ -167,6 +172,11 @@ relatedGroup: 'fifa-world-cup-1954'
 숫자 밖의 성취도 거대하다. 헝가리는 1950년부터 1954년 월드컵 결승까지 31경기 무패를 이어갔고, 1952 헬싱키 올림픽에서 금메달을 차지했다. 1954년 월드컵에서는 27골을 넣어 단일 대회 한 팀 최다 득점 기록을 남겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
 UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50경기에서 패배는 딱 한 번이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+
+<figure class="editorial-graphic">
+  <img src="/images/tactics/hungary-golden-team/hungary-results.png" alt="헝가리 대표팀의 성적과 잉글랜드, 서독, 프랑스, 브라질전 기록을 정리한 운영자 제작 이미지" width="966" height="1228" loading="lazy" decoding="async" />
+  <figcaption>2025년 네이버 원문에 공개한 운영자 제작 기록물. 프랑스전 13-1은 황금의 팀 시기보다 앞선 1927년 헝가리 대표팀의 역사적 기록이며, 본문의 1950-1956년 집계와는 범위가 다르다.</figcaption>
+</figure>
 
 하필 그 한 번이 월드컵 결승이었다.
 
