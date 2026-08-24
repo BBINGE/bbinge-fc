@@ -127,9 +127,10 @@ const authorSchema = {
   '@type': 'Person',
   '@id': `${site.url}/#author`,
   name: site.authorName,
-  alternateName: site.author,
+  alternateName: [site.author, 'BBingStory', 'Park Seongho', '朴誠護'],
   url: `${site.url}/about/`,
-  sameAs: [site.naverBlog, site.instagram],
+  image: `${site.url}/images/profile-bbinge.png`,
+  sameAs: site.authorProfiles,
   jobTitle: '기획자·축구사 저자',
   knowsAbout: ['축구사', '축구 문화', '축구 산업', '축구 전술사', '스포츠 마케팅'],
 };
