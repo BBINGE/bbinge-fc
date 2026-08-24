@@ -178,9 +178,16 @@ draft: false
 그들은 지금도 원정 중이다. 다만 이탈리아 축구는 그들이 돌아올 자리를 오래 비워두지 않았다.
 
 <a class="visual-story-link" href="/history/grande-torino-card-news/">
-  <span>VISUAL STORY · 7 SCENES</span>
-  <strong>위대한 토리노 - 7장으로 보는 수페르가의 비극</strong>
-  <em>비주얼 스토리로 빠르게 보기 →</em>
+  <div class="visual-story-copy">
+    <span>VISUAL STORY · 7 SCENES</span>
+    <strong>위대한 토리노 - 7장으로 보는 수페르가의 비극</strong>
+    <p>세리에 A 5연패와 이탈리아 대표팀의 중심이었던 팀이 수페르가에서 멈추기까지, 일곱 장면으로 빠르게 따라간다.</p>
+    <em>비주얼 스토리로 빠르게 보기 <b aria-hidden="true">→</b></em>
+  </div>
+  <div class="visual-story-thumb" aria-hidden="true">
+    <img src="/images/history/grande-torino-cards/card-01.png" alt="" width="773" height="773" loading="lazy" />
+    <span>반대편 기록</span>
+  </div>
 </a>
 
 <section class="source-notes">
@@ -206,10 +213,27 @@ draft: false
   .closing-quote { margin: 48px 0; padding: 30px 32px; border: 0 !important; border-top: 2px solid var(--bbfc-ink) !important; border-bottom: 1px solid var(--bbfc-border) !important; }
   .closing-quote p:first-child { margin: 0; font-family: Georgia, serif; font-size: 20px; line-height: 1.7; color: var(--bbfc-ink); }
   .closing-quote p:last-child { margin-top: 18px; font-size: 15px; line-height: 1.7; color: var(--bbfc-gray-1); }
-  .visual-story-link { display: block; margin: 48px 0 62px; padding: 25px 28px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; }
-  .visual-story-link span { display: block; color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .15em; }
+  .visual-story-link { display: grid; grid-template-columns: minmax(0, 1fr) 224px; align-items: center; gap: 34px; margin: 48px 0 62px; padding: 28px 30px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff 58%, rgba(36,107,253,.04)); transition: border-color .25s ease, background-color .25s ease; }
+  .visual-story-copy > span { display: block; color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .15em; }
   .visual-story-link strong { display: block; margin-top: 10px; font-size: 21px; line-height: 1.4; letter-spacing: -.03em; }
-  .visual-story-link em { display: inline-block; margin-top: 15px; font-size: 12px; font-style: normal; font-weight: 650; border-bottom: 1px solid currentColor; }
+  .visual-story-copy > p { margin-top: 10px !important; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.65; }
+  .visual-story-link em { position: relative; z-index: 0; display: inline-flex; align-items: center; gap: 9px; margin-top: 18px; padding: 7px 11px 8px; color: var(--bbfc-ink); font-size: 16px; line-height: 1.2; font-style: normal; font-weight: 750; letter-spacing: -.025em; }
+  .visual-story-link em::before { position: absolute; z-index: -1; inset: 0; border: 1px solid rgba(36,107,253,.28); border-radius: 999px; background: rgba(36,107,253,.07); box-shadow: 0 0 0 0 rgba(36,107,253,.16); content: ""; animation: visual-story-breathe 2.8s ease-in-out infinite; }
+  .visual-story-link em b { color: var(--bbfc-blue); font-size: 20px; font-weight: 650; animation: visual-story-arrow 1.8s ease-in-out infinite; }
+  .visual-story-thumb { position: relative; aspect-ratio: 1; overflow: hidden; border: 1px solid var(--bbfc-border); background: #e8ebef; box-shadow: 0 18px 34px -26px rgba(18,27,42,.8); }
+  .visual-story-thumb::after { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 52%, rgba(11,18,28,.72)); content: ""; }
+  .visual-story-thumb img { width: 100% !important; height: 100% !important; object-fit: cover !important; border-radius: 0 !important; filter: grayscale(1) contrast(1.04); transition: transform .45s ease, filter .35s ease; }
+  .visual-story-thumb span { position: absolute; z-index: 1; right: 13px; bottom: 11px; color: #fff; font-size: 9px; font-weight: 750; letter-spacing: .12em; }
+  .visual-story-link:hover { border-color: var(--bbfc-blue); background: linear-gradient(105deg, #fff 52%, rgba(36,107,253,.08)); }
+  .visual-story-link:hover .visual-story-thumb img { transform: scale(1.045); filter: grayscale(.15) contrast(1.02); }
+  @keyframes visual-story-breathe {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(36,107,253,.16); }
+    50% { box-shadow: 0 0 0 7px rgba(36,107,253,0); }
+  }
+  @keyframes visual-story-arrow {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(4px); }
+  }
   .source-notes ol { list-style: decimal; }
   @media (max-width: 767px) {
     .media-grid-two, .stat-line { grid-template-columns: 1fr; }
@@ -217,7 +241,13 @@ draft: false
     .stat-line div { min-height: 112px; }
     .closing-quote { padding: 24px 20px; }
     .closing-quote p:first-child { font-size: 18px; }
-    .visual-story-link { padding: 22px 20px; }
+    .visual-story-link { grid-template-columns: 1fr; gap: 22px; padding: 24px 20px; }
     .visual-story-link strong { font-size: 19px; }
+    .visual-story-link em { font-size: 16px; }
+    .visual-story-thumb { width: 100%; aspect-ratio: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .visual-story-link em::before, .visual-story-link em b { animation: none; }
+    .visual-story-thumb img { transition: none; }
   }
 </style>
