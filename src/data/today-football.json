@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-24T20:28:08.690Z",
+  "updatedAt": "2026-08-24T21:27:03.093Z",
   "birthday": {
     "name": "숀 코너리",
     "birthYear": 1930,
@@ -43,9 +43,9 @@
       "away": "피오렌티나",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-25"
@@ -57,9 +57,9 @@
       "away": "첼시",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xwwvyt1448811086.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
-      "homeScore": 1,
-      "awayScore": 2,
-      "status": "HT",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-25"
@@ -71,12 +71,26 @@
       "away": "데포르티보 라코루냐",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/upqyvr1473502952.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/62bvwv1783013156.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "04:30",
       "date": "2026-08-25"
+    },
+    {
+      "id": "2570479",
+      "league": "UEFA 챔피언스 리그",
+      "home": "사바 FK",
+      "away": "하포엘 베르셰바",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ar5zft1781239007.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "01:45",
+      "date": "2026-08-26"
     }
   ],
   "status": {
