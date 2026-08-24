@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-24T22:23:56.637Z",
+  "updatedAt": "2026-08-24T23:20:39.333Z",
   "birthday": {
     "name": "숀 코너리",
     "birthYear": 1930,
@@ -90,6 +90,48 @@
       "status": "NS",
       "progress": "",
       "time": "01:45",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "2558134",
+      "league": "UEFA 챔피언스 리그",
+      "home": "LASK",
+      "away": "셀틱",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "2570480",
+      "league": "UEFA 챔피언스 리그",
+      "home": "Bodø/Glimt",
+      "away": "NEC Nijmegen",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/uqpwwx1449165943.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "2506171",
+      "league": "라리가",
+      "home": "발렌시아",
+      "away": "레알 베티스",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
       "date": "2026-08-26"
     }
   ],
