@@ -155,6 +155,31 @@ const authority = [
   { logos: [{ src: '/images/about-logos/substack.png', alt: 'Substack', fit: 'flush' }], text: 'Substack 저자 (@bbinge)', href: site.substack },
 ];
 
+const currentChannel = officialChannels[0];
+const connectedRecords = [
+  ...officialChannels.slice(1).map((channel) => ({
+    label: channel.name,
+    detail: `${channel.platform} · ${channel.handle}`,
+    description: channel.description,
+    href: channel.href,
+    logo: channel.logo,
+  })),
+  ...identityReferences.map((reference) => ({
+    label: reference.label,
+    detail: reference.detail,
+    description: '',
+    href: reference.href,
+    logo: reference.logo,
+  })),
+  ...authority.map((record) => ({
+    label: record.text,
+    detail: '',
+    description: '',
+    href: record.href,
+    logo: record.logos[0],
+  })),
+];
+
 const clients = [
   {
     group: '방송',
@@ -382,96 +407,50 @@ const clients = [
         </p>
       </div>
 
-      <div class="about-channel-grid" aria-label="삥이의 공식 운영 채널">
-        {officialChannels.map((channel, i) => (
-          <a
-            data-reveal
-            style={`transition-delay:${(i % 4) * 55}ms`}
-            href={channel.href}
-            target={channel.href.startsWith('http') ? '_blank' : undefined}
-            rel={channel.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-            class:list={['about-channel-card', 'current' in channel && channel.current && 'is-current']}
-            aria-label={`${channel.name} ${channel.handle}${channel.href.startsWith('http') ? ' (새 창)' : ''}`}
-          >
-            <span class:list={['about-brand-mark', `is-${channel.logo.fit}`]}>
-              <img src={channel.logo.src} alt={channel.logo.alt} width="48" height="48" loading="lazy" decoding="async" />
-            </span>
-            <span class="about-channel-copy">
-              <span class="about-channel-platform">
-                {channel.platform}
-                {'current' in channel && channel.current && <span class="about-current-badge">현재 위치</span>}
-              </span>
-              <strong>{channel.name}</strong>
-              <span class="about-channel-handle">{channel.handle}</span>
-              <span class="about-channel-description">{channel.description}</span>
-            </span>
-            <span class="about-channel-arrow" aria-hidden="true">{channel.href.startsWith('http') ? '↗' : '→'}</span>
-          </a>
+      <a data-reveal href={currentChannel.href} class="about-channel-card is-current about-current-record">
+        <span class:list={['about-brand-mark', `is-${currentChannel.logo.fit}`]}>
+          <img src={currentChannel.logo.src} alt={currentChannel.logo.alt} width="48" height="48" loading="lazy" decoding="async" />
+        </span>
+        <span class="about-channel-copy">
+          <span class="about-channel-platform">
+            {currentChannel.platform}
+            <span class="about-current-badge">현재 위치</span>
+          </span>
+          <strong>{currentChannel.name}</strong>
+          <span class="about-channel-handle">{currentChannel.handle}</span>
+          <span class="about-channel-description">{currentChannel.description}</span>
+        </span>
+        <span class="about-channel-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <ul class="about-record-grid" aria-label="삥이의 연결된 채널과 활동 이력">
+        {connectedRecords.map((record, i) => (
+          <li data-reveal style={`transition-delay:${(i % 4) * 45}ms`} class:list={['about-record-card', record.href && 'is-linked']}>
+            {record.href ? (
+              <a href={record.href} target="_blank" rel="noopener noreferrer" class="about-record-card-inner" aria-label={`${record.label} (새 창)`}>
+                <span class:list={['about-brand-mark', `is-${record.logo.fit}`]}>
+                  <img src={record.logo.src} alt={record.logo.alt} width="48" height="48" loading="lazy" decoding="async" />
+                </span>
+                <span class="about-record-copy">
+                  <strong>{record.label}</strong>
+                  {record.detail && <small>{record.detail}</small>}
+                  {record.description && <small>{record.description}</small>}
+                </span>
+                <span class="about-record-arrow" aria-hidden="true">↗</span>
+              </a>
+            ) : (
+              <div class="about-record-card-inner is-static">
+                <span class:list={['about-brand-mark', `is-${record.logo.fit}`]}>
+                  <img src={record.logo.src} alt={record.logo.alt} width="48" height="48" loading="lazy" decoding="async" />
+                </span>
+                <span class="about-record-copy">
+                  <strong>{record.label}</strong>
+                </span>
+              </div>
+            )}
+          </li>
         ))}
-      </div>
-
-      <div data-reveal class="about-reference-panel">
-        <div class="about-reference-heading">
-          <p class="about-track-label">EXTERNAL IDENTITY</p>
-          <p>직접 운영 채널과 별개로 삥이를 확인할 수 있는 외부 인물정보입니다.</p>
-        </div>
-        <div class="about-reference-grid">
-          {identityReferences.map((reference) => (
-            <a href={reference.href} target="_blank" rel="noopener noreferrer" class="about-reference-link">
-              <span class:list={['about-brand-mark', `is-${reference.logo.fit}`]}>
-                <img src={reference.logo.src} alt={reference.logo.alt} width="48" height="48" loading="lazy" decoding="async" />
-              </span>
-              <span>
-                <strong>{reference.label}</strong>
-                <small>{reference.detail}</small>
-              </span>
-              <span aria-hidden="true">↗</span>
-            </a>
-          ))}
-        </div>
-      </div>
-
-      <div id="activities" data-reveal class="about-credential-panel">
-        <div class="about-credential-heading">
-          <p class="about-track-label">ACTIVITY · CREDENTIALS</p>
-          <h3>활동과 공인</h3>
-          <p>공식 채널과 외부 인물정보에 이어, 삥이의 주요 활동 이력을 한곳에 정리했습니다.</p>
-        </div>
-        <ul class="about-authority-grid">
-          {authority.map((a, i) => (
-            <li
-              data-reveal
-              style={`transition-delay:${(i % 4) * 60}ms`}
-              class:list={['about-link-row', a.href && 'is-linked']}
-            >
-              {a.href ? (
-                <a href={a.href} target="_blank" rel="noopener noreferrer" class="about-link-row-inner" aria-label={`${a.text} (새 창)`}>
-                  <span class="about-logo-stack">
-                    {a.logos.map((logo) => (
-                      <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
-                        <img src={logo.src} alt={logo.alt} width="48" height="48" loading="lazy" decoding="async" />
-                      </span>
-                    ))}
-                  </span>
-                  <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
-                  <span class="about-link-arrow" aria-hidden="true">↗</span>
-                </a>
-              ) : (
-                <div class="about-link-row-inner is-static">
-                  <span class="about-logo-stack">
-                    {a.logos.map((logo) => (
-                      <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
-                        <img src={logo.src} alt={logo.alt} width="48" height="48" loading="lazy" decoding="async" />
-                      </span>
-                    ))}
-                  </span>
-                  <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
-                </div>
-              )}
-            </li>
-          ))}
-        </ul>
-      </div>
+      </ul>
     </section>
 
     <!-- 섹션 5 - 주요 의뢰인 / 성과 -->
@@ -560,7 +539,7 @@ const clients = [
   .about-hero-action-primary:hover { border-color:var(--bbfc-blue-strong); background:var(--bbfc-blue-strong); color:var(--bbfc-bg); }
   .about-hero-action:focus-visible,
   .about-channel-card:focus-visible,
-  .about-reference-link:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:3px; }
+  .about-record-card-inner:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:3px; }
 
   .about-identity-hub {
     scroll-margin-top:80px;
@@ -574,7 +553,6 @@ const clients = [
   .about-section-intro { max-width:740px; }
   .about-section-title { margin-top:8px; color:var(--bbfc-ink); font-size:clamp(24px,3.2vw,32px); font-weight:500; line-height:1.35; letter-spacing:-.03em; }
   .about-section-description { margin-top:13px; color:var(--bbfc-gray-1); font-size:15px; line-height:1.75; }
-  .about-channel-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:28px; }
   .about-channel-card {
     position:relative;
     display:grid;
@@ -591,6 +569,7 @@ const clients = [
   }
   .about-channel-card:hover { border-color:var(--bbfc-blue); box-shadow:0 14px 28px -25px var(--bbfc-ink); transform:translateY(-2px); }
   .about-channel-card.is-current { grid-column:1 / -1; min-height:96px; border-color:var(--bbfc-blue); background:var(--bbfc-blue-weak); }
+  .about-current-record { margin-top:28px; }
   .about-channel-copy { display:flex; min-width:0; flex-direction:column; align-items:flex-start; }
   .about-channel-platform { display:flex; align-items:center; flex-wrap:wrap; gap:6px; color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.11em; }
   .about-current-badge { padding:2px 6px; border-radius:999px; background:var(--bbfc-blue); color:var(--bbfc-bg); font-size:11px; letter-spacing:0; }
@@ -599,19 +578,16 @@ const clients = [
   .about-channel-description { margin-top:5px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.45; }
   .about-channel-arrow { align-self:start; color:var(--bbfc-gray-3); font-size:15px; transition:color .2s ease, transform .2s ease; }
   .about-channel-card:hover .about-channel-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
-  .about-reference-panel { display:grid; grid-template-columns:minmax(190px,.7fr) minmax(0,1.3fr); gap:22px; align-items:center; margin-top:18px; padding-top:18px; border-top:1px solid var(--bbfc-border); }
-  .about-reference-heading > p:last-child { margin-top:6px; color:var(--bbfc-gray-1); font-size:12px; line-height:1.65; }
-  .about-reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
-  .about-reference-link { display:grid; grid-template-columns:auto minmax(0,1fr) auto; align-items:center; gap:10px; min-height:76px; padding:12px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-bg); transition:border-color .2s ease, color .2s ease; }
-  .about-reference-link:hover { border-color:var(--bbfc-blue); }
-  .about-reference-link strong { display:block; color:var(--bbfc-ink); font-size:13px; font-weight:500; line-height:1.45; }
-  .about-reference-link small { display:block; margin-top:3px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.45; }
-  .about-reference-link > span:last-child { color:var(--bbfc-gray-3); font-size:14px; }
-  .about-credential-panel { margin-top:24px; padding-top:24px; border-top:1px solid var(--bbfc-border); }
-  .about-credential-heading { max-width:680px; }
-  .about-credential-heading h3 { margin-top:7px; color:var(--bbfc-ink); font-size:18px; font-weight:500; line-height:1.45; }
-  .about-credential-heading > p:last-child { margin-top:6px; color:var(--bbfc-gray-1); font-size:12px; line-height:1.65; }
-  .about-credential-panel .about-authority-grid { margin-top:18px; }
+  .about-record-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:10px; }
+  .about-record-card { min-width:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-bg); transition:border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+  .about-record-card-inner { display:grid; grid-template-columns:auto minmax(0,1fr) auto; align-items:center; gap:12px; min-height:82px; padding:13px 15px; }
+  .about-record-card.is-linked:hover { border-color:var(--bbfc-blue); box-shadow:0 12px 28px -24px rgba(25,31,40,.52); transform:translateY(-1px); }
+  .about-record-card-inner.is-static { cursor:default; }
+  .about-record-copy { display:flex; min-width:0; flex-direction:column; }
+  .about-record-copy strong { color:var(--bbfc-ink); font-size:14px; font-weight:500; line-height:1.45; }
+  .about-record-copy small { margin-top:2px; overflow:hidden; color:var(--bbfc-gray-2); font-size:11px; line-height:1.4; text-overflow:ellipsis; white-space:nowrap; }
+  .about-record-arrow { align-self:start; color:var(--bbfc-gray-3); font-size:14px; transition:color .2s ease, transform .2s ease; }
+  .about-record-card.is-linked:hover .about-record-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
   .about-letter {
     position: relative;
     max-width: 820px;
@@ -671,7 +647,6 @@ const clients = [
   .about-letter-signature { position:relative; z-index:1; display:flex; align-items:center; justify-content:flex-end; gap:14px; margin-top:28px; color:var(--bbfc-gray-1); font-size:13px; }
   .about-letter-signature-line { width:48px; height:1px; background:var(--bbfc-border); }
   .about-career-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(36px,7vw,96px); }
-  .about-authority-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
   .about-clients-panel { background:var(--bbfc-fill-2); border:1px solid var(--bbfc-border); border-radius:16px; padding:clamp(24px,4vw,48px); }
   .about-contact { display:flex; align-items:center; justify-content:space-between; gap:28px; background:var(--bbfc-fill-2); border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); padding:36px clamp(20px,4vw,48px); }
   .about-h2 {
@@ -722,38 +697,12 @@ const clients = [
     transform: scale(1.05);
   }
 
-  .about-link-row {
-    border: 1px solid var(--bbfc-border);
-    border-radius: 12px;
-    background:#fff;
-  }
-  .about-link-row-inner {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    width:100%;
-    min-height:76px;
-    padding:14px 16px;
-    transition: transform .25s ease, box-shadow .25s ease, color .25s ease;
-  }
-  .about-logo-stack { display:flex; align-items:center; flex:0 0 auto; min-width:48px; }
   .about-brand-mark { width:48px; height:48px; display:inline-flex; align-items:center; justify-content:center; overflow:hidden; border-radius:50%; background:#fff; border:1px solid var(--bbfc-border); box-shadow:0 4px 14px -10px rgba(25,31,40,.55); flex:0 0 auto; }
   .about-brand-mark img { width:100%; height:100%; object-fit:contain; display:block; }
   .about-brand-mark.is-flush img { object-fit:cover; }
   .about-brand-mark.is-padded img { width:68%; height:68%; }
   .about-brand-mark.is-padded-dark { background:#24272d; }
   .about-brand-mark.is-padded-dark img { width:72%; height:72%; }
-  .about-link-row.is-linked:hover { border-color:var(--bbfc-blue); }
-  .about-link-row.is-linked:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); }
-  .about-link-row-inner.is-static { cursor:default; }
-  .about-link-row-inner:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:3px; border-radius:12px; }
-  .about-link-arrow { margin-left:auto; flex:0 0 auto; color:var(--bbfc-gray-3); font-size:15px; transition:color .2s ease, transform .2s ease; }
-  .about-link-row.is-linked:hover .about-link-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
-  .about-link-icon {
-    flex-shrink: 0;
-    transition: color 0.25s ease;
-  }
 
   .about-client-row {
     padding: 6px 0;
@@ -806,20 +755,18 @@ const clients = [
   }
 
   @media (max-width: 767px) {
-    .about-hero-grid,.about-career-grid,.about-authority-grid { grid-template-columns:1fr; }
+    .about-hero-grid,.about-career-grid,.about-record-grid { grid-template-columns:1fr; }
     .about-hero-grid { gap:32px; }
     .about-hero-actions { display:grid; grid-template-columns:1fr; }
     .about-hero-action { width:100%; }
     .about-photo-frame { margin:0 auto; }
     .about-identity-hub { margin-top:0; padding:24px 16px; border-radius:16px; }
-    .about-channel-grid,.about-reference-grid { grid-template-columns:1fr; }
+    .about-identity-hub-lower { margin-top:56px; }
     .about-channel-card { min-height:104px; padding:14px 13px; }
-    .about-reference-panel { grid-template-columns:1fr; gap:13px; }
     .about-contact { display:block; }
-    .about-authority-grid { gap:9px; }
-    .about-link-row-inner { min-height:76px; padding:12px 13px; }
+    .about-record-grid { gap:9px; }
+    .about-record-card-inner { min-height:76px; padding:12px 13px; }
     .about-brand-mark { width:44px; height:44px; }
-    .about-logo-stack { min-width:44px; }
     .about-letter { padding-left:40px; }
     .about-letter::before { left:18px; }
     .about-letter-head { align-items:flex-start; }
@@ -829,11 +776,6 @@ const clients = [
     .about-letter-trophy-euro { top:1250px; right:-39%; width:82%; }
     .about-letter-trophy-asian { top:2450px; right:-42%; width:88%; }
     .about-letter-trophy-champions { top:3650px; right:-45%; width:92%; }
-  }
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .about-channel-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
-    .about-reference-panel { grid-template-columns:1fr; }
   }
 
   @media (prefers-reduced-motion: reduce) {
