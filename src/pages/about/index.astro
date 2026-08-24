@@ -410,8 +410,7 @@ const clients = [
         <p class="about-kicker">ONE PERSON · CONNECTED RECORDS</p>
         <h2 id="identity-hub-title" class="about-section-title">하나의 이름, 이어진 기록</h2>
         <p class="about-section-description">
-          네이버에서 쓴 시간, 티스토리에 남긴 기록, 인스타그램의 활동은 지금 삥이FC로 이어집니다.
-          이름과 플랫폼은 달라도 저자와 운영자는 박성호(삥이) 한 사람입니다.
+          네이버에서 쓴 시간, 티스토리에 남긴 기록, 인스타그램의 활동은 지금 삥이FC로 이어집니다. 이름과 플랫폼은 달라도 저자와 운영자는 박성호(삥이) 한 사람입니다.
         </p>
       </div>
 
@@ -559,6 +558,7 @@ const clients = [
   }
   .about-identity-hub-lower { margin-top:clamp(56px,8vw,80px); }
   .about-section-intro { max-width:740px; }
+  .about-identity-hub-lower .about-section-intro { max-width:none; }
   .about-section-title { margin-top:8px; color:var(--bbfc-ink); font-size:clamp(24px,3.2vw,32px); font-weight:500; line-height:1.35; letter-spacing:-.03em; }
   .about-section-description { margin-top:13px; color:var(--bbfc-gray-1); font-size:15px; line-height:1.75; }
   .about-channel-card {
@@ -760,6 +760,10 @@ const clients = [
   [data-reveal].is-visible {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  @media (min-width: 1280px) {
+    .about-identity-hub-lower .about-section-description { font-size:13px; letter-spacing:-.025em; white-space:nowrap; }
   }
 
   @media (max-width: 767px) {
