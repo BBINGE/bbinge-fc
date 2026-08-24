@@ -67,9 +67,6 @@ const careerTrack2 = [
   { label: '前', text: '대전시 소재 종합광고대행사 마케팅팀 대리' },
   { label: '前', text: '대전시 소재 언론기획사 기획팀 총괄' },
   { label: '現', text: '서울시 소재 IT 개발 및 종합기획사 COO' },
-  { label: '선정', text: 'NAVER 슈퍼애드 선정 (대한민국 64번째)' },
-  { label: '수상', text: '고용노동부 청년내일채움공제 수기 공모전 우수상' },
-  { label: '운영', text: '블로그 마케팅 교육 커뮤니티 운영 (회원 500명 이상)' },
 ];
 
 const officialChannels = [
@@ -220,6 +217,14 @@ const clients = [
     items: [
       { org: '건양사이버대학교', detail: '소상공인 상대 NAVER 광고 자문·교육 (2023~2025)' },
       { org: '건양대학교', detail: '온·오프라인 홍보' },
+      { org: '블로그 마케팅 교육 커뮤니티', detail: '운영 회원 500명 이상' },
+    ],
+  },
+  {
+    group: '수상·공인',
+    items: [
+      { org: 'NAVER 슈퍼애드 선정', detail: '대한민국 64번째' },
+      { org: '고용노동부 청년내일채움공제 수기 공모전', detail: '우수상' },
     ],
   },
   {
@@ -376,7 +381,7 @@ const clients = [
           </li>
         ))}
       </ul></div>
-      <div><p class="about-track-label">PLANNING · BUSINESS · EDUCATION</p><ul class="mt-3">
+      <div><p class="about-track-label">PLANNING · BUSINESS</p><ul class="mt-3">
         {careerTrack2.map((c, i) => (
           <li
             data-reveal
