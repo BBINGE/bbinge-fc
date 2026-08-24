@@ -815,7 +815,7 @@ git pull --ff-only origin main
 
 - Cloudflare Pages가 `main` push 시 자동 빌드·배포한다.
 - 공개 확인과 검색엔진 제출에는 커스텀 도메인 `https://bbingefc.com`을 기준으로 사용한다. `www.bbingefc.com`과 HTTP 요청은 루트 HTTPS 주소로 리다이렉트된다.
-- GitHub Actions `scheduled-deploy.yml`이 6시간마다 Cloudflare 배포 훅을 호출한다 (예약 발행 글 반영 목적. 월 빌드 한도 관리를 위해 2시간→6시간으로 완화, 2026-07-28). 훅 URL은 GitHub Secrets `CLOUDFLARE_DEPLOY_HOOK`에만 있다.
+- GitHub Actions `scheduled-deploy.yml`은 매시간 경기 데이터를 확인한다. 실제 데이터가 달라지면 즉시 Cloudflare 배포 훅을 호출하고, 변화가 없어도 예약 발행 반영을 위해 6시간마다 기준 배포를 실행한다. 훅 URL은 GitHub Secrets `CLOUDFLARE_DEPLOY_HOOK`에만 있다.
 - CMS 로그인용 GitHub OAuth는 Cloudflare Pages Functions(`functions/auth.js`, `functions/callback.js`)가 처리한다. `GITHUB_OAUTH_CLIENT_ID`와 시크릿은 Cloudflare 환경변수에만 있다.
 - 비밀값은 어떤 것도 저장소에 없다. 새로 추가하지도 않는다.
 
@@ -825,7 +825,7 @@ git pull --ff-only origin main
 2. "글" 컬렉션에서 작성 (제목, 설명, 카테고리, 태그, 발행일, 초안 여부, 본문 마크다운)
 3. 저장하면 `src/content/articles/{slug}.md`로 GitHub `main`에 직접 커밋된다
 4. push가 곧 발행이다 — Cloudflare가 자동 재빌드하며, `draft: true`인 글은 사이트에 노출되지 않는다
-5. 미래 날짜(`pubDate`) 글은 6시간 주기 예약 배포가 시간이 되면 반영한다
+5. 미래 날짜(`pubDate`) 글은 최대 6시간 간격의 기준 예약 배포가 시간이 되면 반영한다
 
 CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI, 구글 검색결과 미리보기 패널 포함). 로컬에서 글을 직접 만들 때도 같은 frontmatter 형식을 따른다.
 
@@ -838,7 +838,7 @@ CMS 설정: `public/admin/config.yml` (Sveltia CMS, GitHub backend, 한국어 UI
 - 컴포넌트: Header, Footer, HomeHero, CategorySidebar, ArticleCardGrid, CategoryArticleList, RelatedList, ShareButtons, AdSlot, InfoPage
 - Pretendard 서브셋 폰트, Tailwind, sitemap 통합, robots.txt
 - GA4 측정 ID `G-3931E0CPPK`를 공통 `Layout.astro`에 적용해 전 페이지 방문 통계를 수집한다. AdSense는 `AdSlot.astro`를 포함한 삽입 자리만 유지한다.
-- Sveltia CMS 관리자 + GitHub OAuth + 6시간 예약 배포
+- Sveltia CMS 관리자 + GitHub OAuth + 매시간 데이터 확인·6시간 기준 예약 배포
 
 글 현황:
 
@@ -1006,7 +1006,7 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 일반 글과 아카이브 목록은 `pubDate` 내림차순으로 배치하며, 날짜가 같으면 slug 역순으로 고정해 새 글의 좌상단 배치를 안정적으로 유지한다. 같은 날 여러 글을 정확한 작성 순서로 구분하려면 CMS의 발행일에 시각까지 입력한다.
 - 발행 후 48시간 동안 글 카드 이미지 우상단에 `NEW` 배지를 표시한다. 미래 예약 글에는 표시하지 않는다.
 - 카테고리는 소속 글의 `pubDate` 또는 더 최근의 `updatedDate`가 48시간 이내이면 상단 메뉴·카테고리 메뉴·아카이브 분류에 `NEW`를 표시한다.
-- 기준 로직은 `src/utils/freshness.ts`에 모았으며, 정적 사이트 특성상 6시간 주기 예약 배포 때 만료 상태가 갱신된다.
+- 기준 로직은 `src/utils/freshness.ts`에 모았으며, 정적 사이트 특성상 데이터 변경 배포 또는 최대 6시간 간격의 기준 예약 배포 때 만료 상태가 갱신된다.
 - PC 상단 주 메뉴는 14.5px·중간 굵기로 가독성을 높였다. 아카이브 히어로 아래의 비기능성 `인물·대회·연도·기록` 장식 축은 실제 필터로 오인될 수 있어 제거했다.
 
 ## 11. SEO·AEO·GEO 안전 기반 보강 (2026-08-13)
@@ -1115,7 +1115,7 @@ Claude 또는 Codex에 보낼 첫 문장:
 ## 2026-08-14 오늘의 축구 API 카드
 
 - 메인에 `오늘의 축구사`와 `오늘 밤 어디 볼까?` 카드를 추가했다. `scripts/fetch-today-football.mjs`가 한국 시각의 날짜를 기준으로 Wikidata에서 오늘 태어난 축구인을, TheSportsDB에서 오늘의 축구 일정을 받아 `src/data/today-football.json`으로 정규화한다.
-- `npm run build`는 API 갱신 후 Astro 빌드를 실행한다. 기존 6시간 예약 Cloudflare 배포에서도 같은 갱신이 실행된다. 어느 API가 실패하면 같은 날짜의 마지막 정상값을 보존하고, 값이 없으면 아카이브 및 H/L 추천 문구를 표시해 메인 빌드와 UI가 깨지지 않는다.
+- `npm run build`는 API 갱신 후 Astro 빌드를 실행한다. GitHub Actions는 매시간 같은 갱신을 확인하되 데이터가 달라질 때만 추가 배포하고, 변화가 없어도 예약 발행을 위해 6시간마다 기준 배포한다. 어느 API가 실패하면 같은 날짜의 마지막 정상값을 보존하고, 값이 없으면 아카이브 및 H/L 추천 문구를 표시해 메인 빌드와 UI가 깨지지 않는다.
 - 화면 폭 1600px 이상에서는 두 카드를 메인 본문 좌우 여백에 배치한다. 노트북과 태블릿에서는 커버 기사 아래 2열 띠, 700px 이하에서는 다음 카드 가장자리가 보이는 가로 스와이프 카드로 표시한다. 모든 화면에서 동일한 두 정보에 접근할 수 있다.
 - 축구인 생일은 Wikidata의 축구 선수 직업 계층과 20개 이상 사이트링크 조건으로 후보 품질을 제한하고, 사이트링크가 가장 많은 인물을 우선한다. 일정 시간은 API의 ISO 타임스탬프를 `Asia/Seoul`로 변환하며 서울 날짜가 오늘인 경기만 사용한다.
 - 첫 실데이터 검증에서는 2026-08-14 생일 인물로 조르조 키엘리니, 일정으로 라싱 클루브-반필드 등 3경기가 반환됐다. 외부 API 원문을 기사처럼 자동 발행하지 않고 날짜, 이름, 경기 일정만 짧은 편집 카드에 사용한다.
@@ -1369,5 +1369,15 @@ Claude 또는 Codex에 보낼 첫 문장:
 - 헝가리 인명은 자국식 성-이름 순서, 튀르키예 인명은 원어 철자, 역사·전술 용어는 첫 등장 한 번만 `foreign-note`로 병기했다. `false nine`은 후대 용어임을 본문에서 분명히 했다.
 - 한국편의 영상·병렬 사진 묶음에만 `history-media-block`을 적용했다. PC·태블릿은 위 44px·아래 56px, 767px 이하에서는 위 36px·아래 46px로 본문과 미디어 사이에 약 두 줄의 호흡을 둔다. 다른 아카이브의 공용 미디어 간격은 바꾸지 않는다.
 - 정적 빌드 119페이지와 `git diff --check`를 통과했다. 로컬 운영 렌더에서 380·820·1440px을 확인했으며, 380px에서 미디어 폭 333px, 두 칸 묶음의 한 칸 전환, 원어 주석 줄바꿈, 가로 넘침 없음이 확인됐다.
+
+### 오늘 밤 경기 카드 스코어·한글 팀명
+
+- `src/data/football-team-labels.json`을 팀명 표준 사전으로 추가했다. 수집 원문은 보존하면서 메인 카드에는 등록된 유럽 주요 구단명을 한글로 표시하고, 등록되지 않은 팀만 원문을 안전하게 사용한다.
+- TheSportsDB와 football-data.org의 홈·원정 득점 및 경기 상태를 함께 저장한다. 카드 중앙은 예정 경기에서 `VS`, 진행·종료 경기에서 실제 스코어를 표시하며 `LIVE`, `하프타임`, `종료`, `연기`, `취소` 상태를 구분한다.
+- 종료 직후 결과도 남도록 경기 수집 범위를 현재 시각 기준 3시간 전에서 12시간 전으로 넓혔다. 정적 사이트이므로 초 단위 중계가 아니라 매시간 자동 확인 결과를 반영한다.
+- TheSportsDB의 시간대 표기가 없는 ISO 시각은 UTC로 명시해 Windows 로컬과 GitHub Actions가 같은 한국 시각을 계산한다. 날짜 차이에 따라 `어제·오늘·내일`을 구분한다.
+- 경기 API와 보조 API가 동시에 실패해도 같은 날짜의 직전 정상 경기 목록이 있으면 `previous-data` 폴백으로 보존해 일시적인 통신 장애가 카드를 비우지 않게 했다.
+- GitHub Actions는 매시간 데이터를 확인하지만 값이 달라질 때만 추가 배포한다. 데이터 변화가 없을 때는 기존 예약 발행 정책대로 6시간마다 기준 배포해 Cloudflare 월 빌드 사용량을 제어한다.
+- 일부 리그 요청만 호출 제한에 걸린 경우 성공한 최신 응답과 같은 날짜의 직전 정상 경기 목록을 경기 ID로 합쳐, 한 리그의 통신 실패가 다른 주요리그 경기를 카드에서 지우지 않게 했다.
 
 ---

@@ -2,7 +2,20 @@
 import todayData from '../data/today-football.json';
 
 type Birthday = { name: string; birthYear: number; wikidataUrl: string; imageUrl?: string };
-type Match = { id: string; league: string; home: string; away: string; homeBadge?: string; awayBadge?: string; time: string; date: string };
+type Match = {
+  id: string;
+  league: string;
+  home: string;
+  away: string;
+  homeBadge?: string;
+  awayBadge?: string;
+  homeScore?: number | null;
+  awayScore?: number | null;
+  status?: string;
+  progress?: string;
+  time: string;
+  date: string;
+};
 type DataState = 'ok' | 'fallback' | 'empty' | 'unavailable' | 'stale';
 
 const now = new Date();
@@ -16,6 +29,28 @@ const birthdayState = (isCurrent ? todayData.status?.birthday?.state : 'stale') 
 const matchState = (isCurrent ? todayData.status?.matches?.state : 'stale') as DataState;
 const dateLabel = new Intl.DateTimeFormat('en-US', { month: 'short', day: '2-digit', timeZone: 'Asia/Seoul' }).format(now).toUpperCase();
 const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
+
+const FINISHED_STATUSES = new Set(['FT', 'AET', 'PEN', 'FINISHED', 'MATCH FINISHED']);
+const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
+const POSTPONED_STATUSES = new Set(['PST', 'POSTPONED', 'CANC', 'CANCELLED', 'ABD', 'ABANDONED']);
+
+function matchView(item: Match) {
+  const status = (item.status || '').trim().toUpperCase();
+  const hasScore = Number.isInteger(item.homeScore) && Number.isInteger(item.awayScore);
+  if (FINISHED_STATUSES.has(status)) return { label: '종료', kind: 'finished', hasScore };
+  if (LIVE_STATUSES.has(status)) {
+    const progress = (item.progress || '').trim();
+    return { label: status === 'HT' ? '하프타임' : (progress || 'LIVE'), kind: 'live', hasScore };
+  }
+  if (POSTPONED_STATUSES.has(status)) return { label: status.startsWith('CANC') ? '취소' : '연기', kind: 'postponed', hasScore };
+  const dayDifference = Math.round((Date.parse(`${item.date}T00:00:00+09:00`) - Date.parse(`${today}T00:00:00+09:00`)) / 86_400_000);
+  const dayLabel = dayDifference === 1 ? '내일 ' : dayDifference === -1 ? '어제 ' : dayDifference === 0 ? '' : `${item.date.slice(5)} `;
+  return {
+    label: `${dayLabel}${item.time || 'TBD'}`,
+    kind: 'scheduled',
+    hasScore,
+  };
+}
 ---
 
 <aside class="today-football" aria-label="오늘의 축구 안내">
@@ -63,21 +98,25 @@ const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
     {match ? (
       <>
         <div class="match-list" aria-label="오늘 밤 유럽 주요 축구 경기">
-          {matches.map((item) => (
-            <article class="match-row" aria-label={`${item.league}, ${item.home} 대 ${item.away}, ${item.time || '시간 미정'}`}>
+          {matches.map((item) => {
+            const view = matchView(item);
+            const scoreLabel = view.hasScore ? `${item.homeScore} 대 ${item.awayScore}` : '대';
+            return (
+            <article class:list={['match-row', `match-row--${view.kind}`]} aria-label={`${item.league}, ${item.home} ${scoreLabel} ${item.away}, ${view.label}`}>
               <div class="match-row__meta">
-                <time datetime={`${item.date}${item.time ? `T${item.time}:00+09:00` : ''}`}>{item.date === today ? (item.time || 'TBD') : `내일 ${item.time || 'TBD'}`}</time>
+                <time datetime={`${item.date}${item.time ? `T${item.time}:00+09:00` : ''}`}>{view.label}</time>
                 <span>{item.league}</span>
               </div>
               <div class="match-row__teams">
                 <strong>{item.home}</strong>
                 {item.homeBadge ? <img src={item.homeBadge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
-                <b>VS</b>
+                <b class="match-score">{view.hasScore ? `${item.homeScore}:${item.awayScore}` : 'VS'}</b>
                 {item.awayBadge ? <img src={item.awayBadge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
                 <strong>{item.away}</strong>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
         <div class="today-card__body tonight-summary">
           <p class="today-card__eyebrow">주요리그 경기 큐레이션</p>
@@ -135,11 +174,19 @@ const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
   .match-row__meta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:7px; color:rgba(255,255,255,.5); font-size:8px; font-weight:750; letter-spacing:.06em; }
   .match-row__meta time { color:#86b7ff; font-size:10px; }
   .match-row__meta span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .match-row__teams { display:grid; grid-template-columns:minmax(0,1fr) 24px 20px 24px minmax(0,1fr); align-items:center; gap:5px; }
+  .match-row__teams { display:grid; grid-template-columns:minmax(0,1fr) 24px 30px 24px minmax(0,1fr); align-items:center; gap:5px; }
   .match-row__teams strong { min-width:0; overflow:hidden; color:#fff; font-size:10.5px; line-height:1.2; font-weight:700; text-overflow:ellipsis; white-space:nowrap; }
   .match-row__teams strong:first-child { text-align:right; }
   .match-row__teams img,.match-row__teams i { display:grid; place-items:center; width:24px; height:24px; object-fit:contain; font-size:14px; font-style:normal; filter:drop-shadow(0 4px 7px rgba(0,0,0,.28)); }
   .match-row__teams b { color:rgba(255,255,255,.38); font-family:Georgia,serif; font-size:8px; font-style:italic; text-align:center; }
+  .match-row__teams .match-score { color:#fff; font-family:Arial,sans-serif; font-size:11px; font-style:normal; font-variant-numeric:tabular-nums; letter-spacing:-.03em; }
+  .match-row--scheduled .match-score { color:rgba(255,255,255,.38); font-family:Georgia,serif; font-size:8px; font-style:italic; }
+  .match-row--live .match-score { color:#ffe36e; }
+  .match-row--live .match-row__meta time { display:flex; align-items:center; gap:5px; color:#ffe36e; }
+  .match-row--live .match-row__meta time::before { content:""; width:5px; height:5px; border-radius:50%; background:#ff4d5e; box-shadow:0 0 0 4px rgba(255,77,94,.14); animation:score-live 1.5s ease-in-out infinite; }
+  .match-row--finished .match-row__meta time { color:rgba(255,255,255,.7); }
+  .match-row--postponed { opacity:.58; }
+  @keyframes score-live { 50% { opacity:.42; transform:scale(.76); } }
   .today-card--tonight .tonight-summary { right:112px; }
   .today-card--tonight::after { content:""; position:absolute; z-index:2; inset:auto 0 0; height:58%; background:linear-gradient(0deg,rgba(4,12,27,.74),rgba(4,12,27,0)); pointer-events:none; }
 

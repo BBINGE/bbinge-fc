@@ -3,10 +3,11 @@ import { dirname, resolve } from 'node:path';
 
 const outputPath = resolve(process.argv[2] || 'src/data/today-football.json');
 const birthdayFallbackPath = resolve('src/data/football-birthday-fallbacks.json');
+const teamLabelsPath = resolve('src/data/football-team-labels.json');
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const RETRY_DELAYS = [0, 1_000, 3_000];
 const MATCH_LIMIT = 12;
-const MATCH_WINDOW_BEFORE = 3 * 60 * 60 * 1000;
+const MATCH_WINDOW_BEFORE = 12 * 60 * 60 * 1000;
 const MATCH_WINDOW_AFTER = 20 * 60 * 60 * 1000;
 
 function koreaParts(date = new Date()) {
@@ -121,6 +122,20 @@ function leagueLabel(name) {
   return LEAGUE_LABELS.get(name) || name || '축구 경기';
 }
 
+const TEAM_LABELS = JSON.parse(await readFile(teamLabelsPath, 'utf8'));
+
+function teamLabel(name) {
+  if (!name) return '';
+  const withoutSuffix = name.replace(/\s+FC$/i, '');
+  return TEAM_LABELS[name] || TEAM_LABELS[withoutSuffix] || name;
+}
+
+function nullableScore(value) {
+  if (value === null || value === undefined || value === '') return null;
+  const score = Number(value);
+  return Number.isInteger(score) && score >= 0 ? score : null;
+}
+
 function eventScore(event, leagueWeight) {
   const teams = `${event.strHomeTeam || ''} ${event.strAwayTeam || ''}`.toLowerCase();
   const clubBonus = BIG_CLUBS.some((club) => teams.includes(club)) ? 100 : 0;
@@ -129,6 +144,13 @@ function eventScore(event, leagueWeight) {
 
 function utcDate(date) {
   return date.toISOString().slice(0, 10);
+}
+
+function parseUtcTimestamp(value) {
+  if (!value) return null;
+  const normalized = /(?:Z|[+-]\d{2}:?\d{2})$/i.test(value) ? value : `${value}Z`;
+  const timestamp = new Date(normalized);
+  return Number.isNaN(timestamp.valueOf()) ? null : timestamp;
 }
 
 function curateMatches(events) {
@@ -155,7 +177,7 @@ function curateMatches(events) {
     .map(({ score, sortTime, leagueId, ...event }) => event);
 }
 
-async function fetchMatches(date) {
+async function fetchMatches(date, previousMatches = []) {
   const windowStart = new Date(Date.now() - MATCH_WINDOW_BEFORE);
   const windowEnd = new Date(Date.now() + MATCH_WINDOW_AFTER);
   const queryDates = [...new Set([utcDate(windowStart), utcDate(windowEnd)])];
@@ -168,6 +190,7 @@ async function fetchMatches(date) {
   }));
   const results = await Promise.allSettled(requests);
   const featuredRequestSucceeded = results.some((result) => result.status === 'fulfilled');
+  const hasPartialFailure = results.some((result) => result.status === 'rejected');
   let events = results.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
   if (!events.length) {
     const fallbackResults = await Promise.allSettled(queryDates.map(async (queryDate) => {
@@ -182,15 +205,13 @@ async function fetchMatches(date) {
     }));
     const fallbackRequestSucceeded = fallbackResults.some((result) => result.status === 'fulfilled');
     const fallbackEvents = fallbackResults.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
-    if (!featuredRequestSucceeded && !fallbackRequestSucceeded) {
-      throw new Error('TheSportsDB 유럽 주요리그 및 전체 축구 일정 요청 실패');
-    }
+    if (!featuredRequestSucceeded && !fallbackRequestSucceeded) throw new Error('TheSportsDB 유럽 주요리그 및 전체 축구 일정 요청 실패');
     const featuredFallbacks = fallbackEvents.filter(({ event }) => FEATURED_LEAGUE_IDS.has(event.idLeague));
     events = featuredFallbacks.length ? featuredFallbacks : fallbackEvents;
   }
   const normalizedEvents = events.map(({ event, weight }) => {
-    const timestamp = event.strTimestamp ? new Date(event.strTimestamp) : null;
-    const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
+    const timestamp = parseUtcTimestamp(event.strTimestamp);
+    const validTimestamp = Boolean(timestamp);
     const koreaDate = validTimestamp
       ? new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(timestamp)
       : event.dateEvent || date;
@@ -200,10 +221,14 @@ async function fetchMatches(date) {
     return {
       id: event.idEvent,
       league: leagueLabel(event.strLeague),
-      home: event.strHomeTeam || '',
-      away: event.strAwayTeam || '',
+      home: teamLabel(event.strHomeTeam),
+      away: teamLabel(event.strAwayTeam),
       homeBadge: event.strHomeTeamBadge || '',
       awayBadge: event.strAwayTeamBadge || '',
+      homeScore: nullableScore(event.intHomeScore),
+      awayScore: nullableScore(event.intAwayScore),
+      status: event.strStatus || '',
+      progress: event.strProgress || '',
       time: koreaTime,
       date: koreaDate,
       score: eventScore(event, weight),
@@ -213,7 +238,19 @@ async function fetchMatches(date) {
     };
   }).filter((event) => event.home && event.away && event.inWindow)
     .map(({ inWindow, ...event }) => event);
-  return curateMatches(normalizedEvents);
+  const reusablePrevious = hasPartialFailure ? previousMatches.map((event) => {
+    const timestamp = event.date && event.time ? new Date(`${event.date}T${event.time}:00+09:00`) : null;
+    const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
+    return {
+      ...event,
+      score: 0,
+      sortTime: validTimestamp ? timestamp.toISOString() : `${event.date}T${event.time || '23:59'}`,
+      leagueId: `previous-${event.league}`,
+      inWindow: validTimestamp ? timestamp >= windowStart && timestamp <= windowEnd : false,
+    };
+  }).filter((event) => event.home && event.away && event.inWindow)
+    .map(({ inWindow, ...event }) => event) : [];
+  return curateMatches([...reusablePrevious, ...normalizedEvents]);
 }
 
 async function fetchFootballDataMatches(date) {
@@ -226,8 +263,8 @@ async function fetchFootballDataMatches(date) {
   }, 'football-data.org');
   const events = Array.isArray(payload?.matches) ? payload.matches : [];
   return events.map((event) => {
-    const timestamp = event.utcDate ? new Date(event.utcDate) : null;
-    const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
+    const timestamp = parseUtcTimestamp(event.utcDate);
+    const validTimestamp = Boolean(timestamp);
     const koreaDate = validTimestamp
       ? new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(timestamp)
       : date;
@@ -237,10 +274,14 @@ async function fetchFootballDataMatches(date) {
     return {
       id: `fd-${event.id}`,
       league: leagueLabel(event.competition?.name),
-      home: event.homeTeam?.shortName || event.homeTeam?.name || '',
-      away: event.awayTeam?.shortName || event.awayTeam?.name || '',
+      home: teamLabel(event.homeTeam?.shortName || event.homeTeam?.name),
+      away: teamLabel(event.awayTeam?.shortName || event.awayTeam?.name),
       homeBadge: event.homeTeam?.crest || '',
       awayBadge: event.awayTeam?.crest || '',
+      homeScore: nullableScore(event.score?.fullTime?.home),
+      awayScore: nullableScore(event.score?.fullTime?.away),
+      status: event.status || '',
+      progress: '',
       time: koreaTime,
       date: koreaDate,
       score: eventScore({ strHomeTeam: event.homeTeam?.name, strAwayTeam: event.awayTeam?.name }, 40),
@@ -286,7 +327,7 @@ const date = isoDate(parts);
 const previous = await previousData();
 const [birthdayResult, matchesResult] = await Promise.allSettled([
   fetchBirthday(parts.month, parts.day),
-  fetchMatches(date),
+  fetchMatches(date, previous.matches || []),
 ]);
 
 const localBirthday = await birthdayFallback(parts.month, parts.day);
@@ -324,6 +365,11 @@ if (matchesResult.status === 'fulfilled') {
     }
   } catch (error) {
     console.warn(`football-data.org backup: ${error.message}`);
+  }
+  if (!selectedMatches.length && previous.date === date && previous.matches?.length) {
+    selectedMatches = previous.matches;
+    matchesState = 'fallback';
+    matchesSource = 'previous-data';
   }
 }
 
