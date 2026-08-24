@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-24T16:35:31.326Z",
+  "updatedAt": "2026-08-24T17:31:02.852Z",
   "birthday": {
     "name": "숀 코너리",
     "birthYear": 1930,
@@ -15,9 +15,9 @@
       "away": "라치오",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/2qi1u31655592366.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "01:30",
       "date": "2026-08-25"
