@@ -32,6 +32,15 @@ const freshBranches = new Set(
 const freshIndexes = new Set(
   records.filter((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate)).map((record) => `${record.data.branch}/${record.data.index}`)
 );
+const branchRecordCounts = new Map<string, number>(
+  archiveBranches.map((branch) => [branch.id, records.filter((record) => record.data.branch === branch.id).length] as const)
+);
+const indexRecordCounts = new Map<string, number>(
+  archiveBranches.flatMap((branch) => branch.indexes.map((index) => [
+    `${branch.id}/${index.slug}`,
+    records.filter((record) => record.data.branch === branch.id && record.data.index === index.slug).length,
+  ] as const))
+);
 ---
 
 <Layout
@@ -117,8 +126,11 @@ const freshIndexes = new Set(
         {archiveBranches.map((branch) => (
           <article class="directory-row" id={branch.id}>
             <div class="directory-number">{branch.number}</div>
-            <div class="directory-main"><p>{branch.originalTitle}</p><h3><a href={`/archive/${branch.id}/`}>{branch.title}{freshBranches.has(branch.id) && <span class="category-new">NEW</span>}</a></h3><p>{branch.description}</p></div>
-            <div class="directory-indexes">{branch.indexes.map((index) => <a href={`/archive/${branch.id}/${index.slug}/`}>{index.label}{freshIndexes.has(`${branch.id}/${index.slug}`) && <span class="category-new">NEW</span>}</a>)}</div>
+            <div class="directory-main"><p>{branch.originalTitle}</p><h3>{branchRecordCounts.get(branch.id) ? <a href={`/archive/${branch.id}/`}>{branch.title}{freshBranches.has(branch.id) && <span class="category-new">NEW</span>}</a> : <span>{branch.title}</span>}</h3><p>{branch.description}</p></div>
+            <div class="directory-indexes">{branch.indexes.map((index) => {
+              const key = `${branch.id}/${index.slug}`;
+              return indexRecordCounts.get(key) ? <a href={`/archive/${key}/`}>{index.label}{freshIndexes.has(key) && <span class="category-new">NEW</span>}</a> : <span aria-label={`${index.label}, 기록 준비 중`}>{index.label}</span>;
+            })}</div>
           </article>
         ))}
       </div>
@@ -239,7 +251,8 @@ const freshIndexes = new Set(
   .directory-main h3 { margin-top:7px; font-size:19px; font-weight:630; }
   .directory-main>p:last-child { margin-top:11px; font-size:12px; line-height:1.65; color:var(--bbfc-gray-1); }
   .directory-indexes { display:flex; flex-wrap:wrap; gap:7px; align-content:center; }
-  .directory-indexes a { padding:7px 10px; border:1px solid var(--bbfc-border); border-radius:99px; font-size:11px; }
+  .directory-indexes a,.directory-indexes>span { padding:7px 10px; border:1px solid var(--bbfc-border); border-radius:99px; font-size:11px; }
+  .directory-indexes>span { color:var(--bbfc-gray-2); }
   [data-reveal] { opacity:0; transform:translateY(24px); transition:opacity .65s ease,transform .65s ease; }
   [data-reveal].is-visible { opacity:1; transform:translateY(0); }
   @media(max-width:767px){
