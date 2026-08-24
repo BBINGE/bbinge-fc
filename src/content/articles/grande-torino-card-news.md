@@ -120,10 +120,16 @@ draft: false
 </aside>
 
 <a class="deep-read-link" href="/history/why-grande-torino-did-not-remain/">
-  <span>DEEP READ · 축세</span>
-  <strong>세계 최고였던 토리노의 축구는 왜 이탈리아에 남지 못했을까?</strong>
-  <p>에그리 에르브슈타인 에르뇌의 시스템과 피아트·유벤투스의 도시, 그리고 카테나초가 이탈리아의 언어가 된 과정을 따라간다.</p>
-  <em>장문으로 깊게 읽기 →</em>
+  <div class="deep-read-copy">
+    <span class="deep-read-eyebrow">DEEP READ · 축세</span>
+    <strong>세계 최고였던 토리노의 축구는 왜 이탈리아에 남지 못했을까?</strong>
+    <p>에그리 에르브슈타인 에르뇌의 시스템과 피아트·유벤투스의 도시, 그리고 카테나초가 이탈리아의 언어가 된 과정을 따라간다.</p>
+    <em>장문으로 깊게 읽기 <b aria-hidden="true">→</b></em>
+  </div>
+  <div class="deep-read-thumb" aria-hidden="true">
+    <img src="/images/history/grande-torino/grande-torino-filadelfia.png" alt="" width="773" height="571" loading="lazy" />
+    <span>이어지는 기록</span>
+  </div>
 </a>
 
 <section class="source-notes">
@@ -153,11 +159,27 @@ draft: false
   .cardnews-note { margin: 70px 0 32px; padding: 24px 26px; border-left: 3px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
   .cardnews-note strong { font-size: 13px; color: var(--bbfc-ink); }
   .cardnews-note p { margin-top: 9px !important; font-size: 13px; line-height: 1.75; color: var(--bbfc-gray-1); }
-  .deep-read-link { display: block; margin: 42px 0 64px; padding: 28px 30px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: #fff; }
-  .deep-read-link span { color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .15em; }
+  .deep-read-link { display: grid; grid-template-columns: minmax(0, 1fr) 224px; align-items: center; gap: 34px; margin: 42px 0 64px; padding: 28px 30px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff 58%, rgba(36,107,253,.04)); transition: border-color .25s ease, background-color .25s ease; }
+  .deep-read-link .deep-read-eyebrow { color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .15em; }
   .deep-read-link strong { display: block; max-width: 650px; margin-top: 12px; font-size: 23px; line-height: 1.4; letter-spacing: -.035em; }
   .deep-read-link p { margin-top: 10px !important; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.65; }
-  .deep-read-link em { display: inline-block; margin-top: 17px; color: var(--bbfc-ink); font-size: 12px; font-style: normal; font-weight: 650; border-bottom: 1px solid currentColor; }
+  .deep-read-link em { position: relative; z-index: 0; display: inline-flex; align-items: center; gap: 9px; margin-top: 18px; padding: 7px 11px 8px; color: var(--bbfc-ink); font-size: 18px; line-height: 1.2; font-style: normal; font-weight: 750; letter-spacing: -.025em; }
+  .deep-read-link em::before { position: absolute; z-index: -1; inset: 0; border: 1px solid rgba(36,107,253,.28); border-radius: 999px; background: rgba(36,107,253,.07); box-shadow: 0 0 0 0 rgba(36,107,253,.16); content: ""; animation: deep-read-breathe 2.8s ease-in-out infinite; }
+  .deep-read-link em b { color: var(--bbfc-blue); font-size: 20px; font-weight: 650; animation: deep-read-arrow 1.8s ease-in-out infinite; }
+  .deep-read-thumb { position: relative; aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--bbfc-border); background: #e8ebef; box-shadow: 0 18px 34px -26px rgba(18,27,42,.8); }
+  .deep-read-thumb::after { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 52%, rgba(11,18,28,.72)); content: ""; }
+  .deep-read-thumb img { width: 100% !important; height: 100% !important; object-fit: cover !important; border-radius: 0 !important; filter: grayscale(1) contrast(1.04); transition: transform .45s ease, filter .35s ease; }
+  .deep-read-thumb span { position: absolute; z-index: 1; right: 13px; bottom: 11px; color: #fff; font-size: 9px; font-weight: 750; letter-spacing: .12em; }
+  .deep-read-link:hover { border-color: var(--bbfc-blue); background: linear-gradient(105deg, #fff 52%, rgba(36,107,253,.08)); }
+  .deep-read-link:hover .deep-read-thumb img { transform: scale(1.045); filter: grayscale(.15) contrast(1.02); }
+  @keyframes deep-read-breathe {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(36,107,253,.16); }
+    50% { box-shadow: 0 0 0 7px rgba(36,107,253,0); }
+  }
+  @keyframes deep-read-arrow {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(4px); }
+  }
   @media (max-width: 767px) {
     .cardnews-intro { margin: 34px 0 38px; padding: 20px; }
     .cardnews-stack { gap: 44px; }
@@ -165,7 +187,13 @@ draft: false
     .cardnews-scene-copy p { font-size: 15px; line-height: 1.85; }
     .cardnews-stack figcaption { font-size: 12px !important; }
     .cardnews-note { margin-top: 54px; padding: 21px 20px; }
-    .deep-read-link { margin-top: 34px; padding: 24px 20px; }
+    .deep-read-link { grid-template-columns: 1fr; gap: 22px; margin-top: 34px; padding: 24px 20px; }
     .deep-read-link strong { font-size: 20px; }
+    .deep-read-link em { font-size: 16px; }
+    .deep-read-thumb { width: 100%; aspect-ratio: 16 / 9; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .deep-read-link em::before, .deep-read-link em b { animation: none; }
+    .deep-read-thumb img { transition: none; }
   }
 </style>
