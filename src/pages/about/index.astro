@@ -145,18 +145,13 @@ const identityReferences = [
 ] as const;
 
 const authority = [
-  { logos: [{ src: '/images/about-logos/chosun.png', alt: '조선일보', fit: 'padded' }], text: '조선일보 광고 생태계 자문 (Google · NAVER)', href: site.chosunAdvisor },
-  { logos: [{ src: '/images/about-logos/namuwiki.webp', alt: '나무위키', fit: 'flush' }], text: '나무위키 인물 문서 (@삥이)', href: site.namuwiki },
-  { logos: [{ src: '/images/about-logos/naver.jpg', alt: 'NAVER', fit: 'flush' }], text: 'NAVER 인물검색 등재', href: site.naverPerson },
+  { logos: [{ src: '/images/about-logos/chosun.png', alt: '조선일보', fit: 'padded' }], text: '조선일보 광고 생태계 자문 (Google · NAVER)', href: null },
   { logos: [{ src: '/images/about-logos/naver-influencer.png', alt: 'NAVER 인플루언서', fit: 'flush' }], text: 'NAVER 인플루언서 공인 (@삥이)', href: site.naverInfluencer },
-  { logos: [{ src: '/images/about-logos/naver-cafe.png', alt: 'NAVER 카페', fit: 'flush' }], text: 'NAVER 카페 운영 (중고거래 틈새마켓 · 회원 약 1만)', href: site.naverCafe },
-  { logos: [{ src: '/images/about-logos/naver-blog.png', alt: 'NAVER 블로그', fit: 'padded' }], text: 'NAVER 블로그 운영 (@삥이N스포츠 · @삥이N패션 · @삥이N경제학개론)', href: '#official-channels' },
-  { logos: [{ src: '/images/about-logos/naver-clip.png', alt: 'NAVER Clip', fit: 'padded-dark' }], text: 'NAVER TV·Clip 운영 (@삥이_official)', href: site.naverTv },
-  { logos: [{ src: '/images/about-logos/naver-expert.png', alt: 'NAVER expert', fit: 'flush' }], text: 'NAVER expert 공인 (광고 전문가)', href: site.naverExpertSearch },
+  { logos: [{ src: '/images/about-logos/naver-cafe.png', alt: 'NAVER 카페', fit: 'flush' }], text: 'NAVER 카페 운영 (중고거래 틈새마켓 · 회원 약 1만)', href: null },
+  { logos: [{ src: '/images/about-logos/naver-clip.png', alt: 'NAVER Clip', fit: 'padded-dark' }], text: 'NAVER TV·Clip 운영 (@삥이_official)', href: null },
+  { logos: [{ src: '/images/about-logos/naver-expert.png', alt: 'NAVER expert', fit: 'flush' }], text: 'NAVER expert 공인 (광고 전문가)', href: null },
   { logos: [{ src: '/images/about-logos/brunchstory.svg', alt: '브런치스토리', fit: 'flush' }], text: '브런치 작가 (@삥이)', href: site.brunch },
-  { logos: [{ src: '/images/about-logos/tistory.png', alt: '티스토리', fit: 'flush' }], text: '티스토리 저자 (@BBingStory)', href: site.tistory },
-  { logos: [{ src: '/images/about-logos/instagram.svg', alt: 'Instagram', fit: 'flush' }], text: 'Instagram 운영 (@bbinge_26 · @bbinge_official)', href: '#official-channels' },
-  { logos: [{ src: '/images/about-logos/spotv-now.png', alt: 'SPOTV NOW', fit: 'flush' }], text: 'SPOTV NOW 전문 프리뷰어 (8년 협업)', href: site.namuwiki },
+  { logos: [{ src: '/images/about-logos/spotv-now.png', alt: 'SPOTV NOW', fit: 'flush' }], text: 'SPOTV NOW 전문 프리뷰어 (8년 협업)', href: null },
   { logos: [{ src: '/images/about-logos/substack.png', alt: 'Substack', fit: 'flush' }], text: 'Substack 저자 (@bbinge)', href: site.substack },
 ];
 
@@ -290,8 +285,94 @@ const clients = [
   </section>
 
   <div class="max-w-[1200px] mx-auto px-5 md:px-8">
-    <!-- 섹션 2 - 공식 채널과 외부 인물정보 -->
-    <section id="official-channels" class="about-identity-hub" aria-labelledby="identity-hub-title">
+    <!-- 섹션 2 - 저자의 편지 -->
+    <section class="mt-6 md:mt-10" aria-labelledby="football-letter-title">
+      <article class="about-letter">
+        <img
+          src="/images/about-world-cup-trophy.webp"
+          alt=""
+          aria-hidden="true"
+          class="about-letter-trophy"
+          loading="lazy"
+          decoding="async"
+        />
+        <img src="/images/about-euro-trophy.webp" alt="" aria-hidden="true" class="about-letter-trophy about-letter-trophy-euro" loading="lazy" decoding="async" />
+        <img src="/images/about-asian-cup-trophy.webp" alt="" aria-hidden="true" class="about-letter-trophy about-letter-trophy-asian" loading="lazy" decoding="async" />
+        <img src="/images/about-champions-league-trophy.webp" alt="" aria-hidden="true" class="about-letter-trophy about-letter-trophy-champions" loading="lazy" decoding="async" />
+        <div class="about-letter-head">
+          <p class="about-letter-kicker">A LETTER FROM BBINGE</p>
+          <span aria-hidden="true" class="about-letter-mark">BBINGE FC · 01</span>
+        </div>
+
+        <h2 id="football-letter-title" class="about-letter-title">나는 왜 축구를 쓰는가</h2>
+
+        <div class="about-letter-body">
+          {footballLetter.map((paragraph) => (
+            <p>
+              {'text' in paragraph ? paragraph.text : (
+                <>{paragraph.before}<strong>{paragraph.strong}</strong>{paragraph.after}</>
+              )}
+            </p>
+          ))}
+        </div>
+
+        <footer class="about-letter-signature">
+          <span class="about-letter-signature-line" aria-hidden="true"></span>
+          <p>삥이, 박성호</p>
+        </footer>
+      </article>
+    </section>
+
+    <!-- 섹션 3 - 이력 -->
+    <section class="mt-14 md:mt-20">
+      <h2 data-reveal class="about-h2">이력</h2>
+      <div class="about-career-grid mt-7">
+      <div><p class="about-track-label">MEDIA · WRITING</p><ul class="mt-3">
+        {careerTrack1.map((c, i) => (
+          <li
+            data-reveal
+            style={`transition-delay:${i * 60}ms`}
+            class="flex items-start gap-4 py-3 border-b border-[var(--bbfc-line)]"
+          >
+            <span
+              class:list={[
+                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                c.label === '現'
+                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
+                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
+              ]}
+            >
+              {c.label}
+            </span>
+            <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
+          </li>
+        ))}
+      </ul></div>
+      <div><p class="about-track-label">PLANNING · BUSINESS</p><ul class="mt-3">
+        {careerTrack2.map((c, i) => (
+          <li
+            data-reveal
+            style={`transition-delay:${i * 60}ms`}
+            class="flex items-start gap-4 py-3 border-b border-[var(--bbfc-line)] last:border-b-0"
+          >
+            <span
+              class:list={[
+                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                c.label === '現'
+                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
+                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
+              ]}
+            >
+              {c.label}
+            </span>
+            <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
+          </li>
+        ))}
+      </ul></div></div>
+    </section>
+
+    <!-- 섹션 4 - 공식 채널·외부 인물정보·활동과 공인 -->
+    <section id="official-channels" class="about-identity-hub about-identity-hub-lower" aria-labelledby="identity-hub-title">
       <div data-reveal class="about-section-intro">
         <p class="about-kicker">ONE PERSON · CONNECTED RECORDS</p>
         <h2 id="identity-hub-title" class="about-section-title">하나의 이름, 이어진 기록</h2>
@@ -349,123 +430,51 @@ const clients = [
           ))}
         </div>
       </div>
-    </section>
 
-    <!-- 섹션 3 - 저자의 편지 -->
-    <section class="mt-6 md:mt-10" aria-labelledby="football-letter-title">
-      <article class="about-letter">
-        <img
-          src="/images/about-world-cup-trophy.webp"
-          alt=""
-          aria-hidden="true"
-          class="about-letter-trophy"
-          loading="lazy"
-          decoding="async"
-        />
-        <img src="/images/about-euro-trophy.webp" alt="" aria-hidden="true" class="about-letter-trophy about-letter-trophy-euro" loading="lazy" decoding="async" />
-        <img src="/images/about-asian-cup-trophy.webp" alt="" aria-hidden="true" class="about-letter-trophy about-letter-trophy-asian" loading="lazy" decoding="async" />
-        <img src="/images/about-champions-league-trophy.webp" alt="" aria-hidden="true" class="about-letter-trophy about-letter-trophy-champions" loading="lazy" decoding="async" />
-        <div class="about-letter-head">
-          <p class="about-letter-kicker">A LETTER FROM BBINGE</p>
-          <span aria-hidden="true" class="about-letter-mark">BBINGE FC · 01</span>
+      <div id="activities" data-reveal class="about-credential-panel">
+        <div class="about-credential-heading">
+          <p class="about-track-label">ACTIVITY · CREDENTIALS</p>
+          <h3>활동과 공인</h3>
+          <p>공식 채널과 외부 인물정보에 이어, 삥이의 주요 활동 이력을 한곳에 정리했습니다.</p>
         </div>
-
-        <h2 id="football-letter-title" class="about-letter-title">나는 왜 축구를 쓰는가</h2>
-
-        <div class="about-letter-body">
-          {footballLetter.map((paragraph) => (
-            <p>
-              {'text' in paragraph ? paragraph.text : (
-                <>{paragraph.before}<strong>{paragraph.strong}</strong>{paragraph.after}</>
-              )}
-            </p>
-          ))}
-        </div>
-
-        <footer class="about-letter-signature">
-          <span class="about-letter-signature-line" aria-hidden="true"></span>
-          <p>삥이, 박성호</p>
-        </footer>
-      </article>
-    </section>
-
-    <!-- 섹션 4 - 이력 -->
-    <section class="mt-14 md:mt-20">
-      <h2 data-reveal class="about-h2">이력</h2>
-      <div class="about-career-grid mt-7">
-      <div><p class="about-track-label">MEDIA · WRITING</p><ul class="mt-3">
-        {careerTrack1.map((c, i) => (
-          <li
-            data-reveal
-            style={`transition-delay:${i * 60}ms`}
-            class="flex items-start gap-4 py-3 border-b border-[var(--bbfc-line)]"
-          >
-            <span
-              class:list={[
-                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
-                c.label === '現'
-                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
-                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
-              ]}
+        <ul class="about-authority-grid">
+          {authority.map((a, i) => (
+            <li
+              data-reveal
+              style={`transition-delay:${(i % 4) * 60}ms`}
+              class:list={['about-link-row', a.href && 'is-linked']}
             >
-              {c.label}
-            </span>
-            <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
-          </li>
-        ))}
-      </ul></div>
-      <div><p class="about-track-label">PLANNING · BUSINESS</p><ul class="mt-3">
-        {careerTrack2.map((c, i) => (
-          <li
-            data-reveal
-            style={`transition-delay:${i * 60}ms`}
-            class="flex items-start gap-4 py-3 border-b border-[var(--bbfc-line)] last:border-b-0"
-          >
-            <span
-              class:list={[
-                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
-                c.label === '現'
-                  ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
-                  : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
-              ]}
-            >
-              {c.label}
-            </span>
-            <span class="text-[15px] md:text-[16px] leading-[1.6] text-[var(--bbfc-ink-2)]">{c.text}</span>
-          </li>
-        ))}
-      </ul></div></div>
-    </section>
-
-    <!-- 섹션 5 - 활동과 공인 -->
-    <section id="activities" class="mt-14 md:mt-20">
-      <h2 data-reveal class="about-h2">활동과 공인</h2>
-      <ul class="about-authority-grid mt-7">
-        {authority.map((a, i) => (
-          <li data-reveal style={`transition-delay:${(i % 4) * 60}ms`} class="about-link-row">
-            <a
-              href={a.href}
-              target={a.href.startsWith('http') ? '_blank' : undefined}
-              rel={a.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-              class="about-link-row-inner"
-              aria-label={`${a.text}${a.href.startsWith('http') ? ' (새 창)' : ''}`}
-            >
-              <span class="about-logo-stack">
-                {a.logos.map((logo) => (
-                  <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
-                    <img src={logo.src} alt={logo.alt} width="48" height="48" />
+              {a.href ? (
+                <a href={a.href} target="_blank" rel="noopener noreferrer" class="about-link-row-inner" aria-label={`${a.text} (새 창)`}>
+                  <span class="about-logo-stack">
+                    {a.logos.map((logo) => (
+                      <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
+                        <img src={logo.src} alt={logo.alt} width="48" height="48" loading="lazy" decoding="async" />
+                      </span>
+                    ))}
                   </span>
-                ))}
-              </span>
-              <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
-              <span class="about-link-arrow" aria-hidden="true">{a.href.startsWith('http') ? '↗' : '↑'}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+                  <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
+                  <span class="about-link-arrow" aria-hidden="true">↗</span>
+                </a>
+              ) : (
+                <div class="about-link-row-inner is-static">
+                  <span class="about-logo-stack">
+                    {a.logos.map((logo) => (
+                      <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
+                        <img src={logo.src} alt={logo.alt} width="48" height="48" loading="lazy" decoding="async" />
+                      </span>
+                    ))}
+                  </span>
+                  <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
 
-    <!-- 섹션 6 - 주요 의뢰인 / 성과 -->
+    <!-- 섹션 5 - 주요 의뢰인 / 성과 -->
     <section class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">주요 의뢰인 · 성과</h2>
       <div class="about-clients-panel columns-1 md:columns-2 gap-x-12 mt-7">
@@ -485,7 +494,7 @@ const clients = [
       </div>
     </section>
 
-    <!-- 섹션 7 - 연락처 -->
+    <!-- 섹션 6 - 연락처 -->
     <section data-reveal class="about-contact mt-14 md:mt-24 mb-16 md:mb-24">
       <div><p class="about-kicker">CONTACT</p><h2 class="mt-2 text-[22px] md:text-[28px] font-medium text-[var(--bbfc-ink)]">연락은 이곳으로.</h2></div>
       <div class="flex flex-wrap gap-3 mt-5 md:mt-0">
@@ -561,6 +570,7 @@ const clients = [
     border-radius:20px;
     background:var(--bbfc-fill-2);
   }
+  .about-identity-hub-lower { margin-top:clamp(56px,8vw,80px); }
   .about-section-intro { max-width:740px; }
   .about-section-title { margin-top:8px; color:var(--bbfc-ink); font-size:clamp(24px,3.2vw,32px); font-weight:500; line-height:1.35; letter-spacing:-.03em; }
   .about-section-description { margin-top:13px; color:var(--bbfc-gray-1); font-size:15px; line-height:1.75; }
@@ -597,6 +607,11 @@ const clients = [
   .about-reference-link strong { display:block; color:var(--bbfc-ink); font-size:13px; font-weight:500; line-height:1.45; }
   .about-reference-link small { display:block; margin-top:3px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.45; }
   .about-reference-link > span:last-child { color:var(--bbfc-gray-3); font-size:14px; }
+  .about-credential-panel { margin-top:24px; padding-top:24px; border-top:1px solid var(--bbfc-border); }
+  .about-credential-heading { max-width:680px; }
+  .about-credential-heading h3 { margin-top:7px; color:var(--bbfc-ink); font-size:18px; font-weight:500; line-height:1.45; }
+  .about-credential-heading > p:last-child { margin-top:6px; color:var(--bbfc-gray-1); font-size:12px; line-height:1.65; }
+  .about-credential-panel .about-authority-grid { margin-top:18px; }
   .about-letter {
     position: relative;
     max-width: 820px;
@@ -729,11 +744,12 @@ const clients = [
   .about-brand-mark.is-padded img { width:68%; height:68%; }
   .about-brand-mark.is-padded-dark { background:#24272d; }
   .about-brand-mark.is-padded-dark img { width:72%; height:72%; }
-  .about-link-row:hover { border-color:var(--bbfc-blue); }
-  .about-link-row:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); }
+  .about-link-row.is-linked:hover { border-color:var(--bbfc-blue); }
+  .about-link-row.is-linked:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); }
+  .about-link-row-inner.is-static { cursor:default; }
   .about-link-row-inner:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:3px; border-radius:12px; }
   .about-link-arrow { margin-left:auto; flex:0 0 auto; color:var(--bbfc-gray-3); font-size:15px; transition:color .2s ease, transform .2s ease; }
-  .about-link-row:hover .about-link-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
+  .about-link-row.is-linked:hover .about-link-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
   .about-link-icon {
     flex-shrink: 0;
     transition: color 0.25s ease;
