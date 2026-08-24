@@ -145,14 +145,19 @@ const identityReferences = [
 ] as const;
 
 const authority = [
-  { logos: [{ src: '/images/about-logos/chosun.png', alt: '조선일보', fit: 'padded' }], text: '조선일보 광고 생태계 자문 (Google · NAVER)' },
-  { logos: [{ src: '/images/about-logos/naver-influencer.png', alt: 'NAVER 인플루언서', fit: 'flush' }], text: 'NAVER 인플루언서 공인 (@삥이)' },
-  { logos: [{ src: '/images/about-logos/naver-cafe.png', alt: 'NAVER 카페', fit: 'flush' }], text: 'NAVER 카페 운영 (중고거래 틈새마켓 · 회원 약 1만)' },
-  { logos: [{ src: '/images/about-logos/naver-clip.png', alt: 'NAVER Clip', fit: 'padded-dark' }], text: 'NAVER TV·Clip 운영 (@삥이_official)' },
-  { logos: [{ src: '/images/about-logos/naver-expert.png', alt: 'NAVER expert', fit: 'flush' }], text: 'NAVER expert 공인 (광고 전문가)' },
-  { logos: [{ src: '/images/about-logos/brunchstory.svg', alt: '브런치스토리', fit: 'flush' }], text: '브런치 작가 (@삥이)' },
-  { logos: [{ src: '/images/about-logos/spotv-now.png', alt: 'SPOTV NOW', fit: 'flush' }], text: 'SPOTV NOW 전문 프리뷰어 (8년 협업)' },
-  { logos: [{ src: '/images/about-logos/substack.png', alt: 'Substack', fit: 'flush' }], text: 'Substack 저자 (@bbinge)' },
+  { logos: [{ src: '/images/about-logos/chosun.png', alt: '조선일보', fit: 'padded' }], text: '조선일보 광고 생태계 자문 (Google · NAVER)', href: site.chosunAdvisor },
+  { logos: [{ src: '/images/about-logos/namuwiki.webp', alt: '나무위키', fit: 'flush' }], text: '나무위키 인물 문서 (@삥이)', href: site.namuwiki },
+  { logos: [{ src: '/images/about-logos/naver.jpg', alt: 'NAVER', fit: 'flush' }], text: 'NAVER 인물검색 등재', href: site.naverPerson },
+  { logos: [{ src: '/images/about-logos/naver-influencer.png', alt: 'NAVER 인플루언서', fit: 'flush' }], text: 'NAVER 인플루언서 공인 (@삥이)', href: site.naverInfluencer },
+  { logos: [{ src: '/images/about-logos/naver-cafe.png', alt: 'NAVER 카페', fit: 'flush' }], text: 'NAVER 카페 운영 (중고거래 틈새마켓 · 회원 약 1만)', href: site.naverCafe },
+  { logos: [{ src: '/images/about-logos/naver-blog.png', alt: 'NAVER 블로그', fit: 'padded' }], text: 'NAVER 블로그 운영 (@삥이N스포츠 · @삥이N패션 · @삥이N경제학개론)', href: '#official-channels' },
+  { logos: [{ src: '/images/about-logos/naver-clip.png', alt: 'NAVER Clip', fit: 'padded-dark' }], text: 'NAVER TV·Clip 운영 (@삥이_official)', href: site.naverTv },
+  { logos: [{ src: '/images/about-logos/naver-expert.png', alt: 'NAVER expert', fit: 'flush' }], text: 'NAVER expert 공인 (광고 전문가)', href: site.naverExpertSearch },
+  { logos: [{ src: '/images/about-logos/brunchstory.svg', alt: '브런치스토리', fit: 'flush' }], text: '브런치 작가 (@삥이)', href: site.brunch },
+  { logos: [{ src: '/images/about-logos/tistory.png', alt: '티스토리', fit: 'flush' }], text: '티스토리 저자 (@BBingStory)', href: site.tistory },
+  { logos: [{ src: '/images/about-logos/instagram.svg', alt: 'Instagram', fit: 'flush' }], text: 'Instagram 운영 (@bbinge_26 · @bbinge_official)', href: '#official-channels' },
+  { logos: [{ src: '/images/about-logos/spotv-now.png', alt: 'SPOTV NOW', fit: 'flush' }], text: 'SPOTV NOW 전문 프리뷰어 (8년 협업)', href: site.namuwiki },
+  { logos: [{ src: '/images/about-logos/substack.png', alt: 'Substack', fit: 'flush' }], text: 'Substack 저자 (@bbinge)', href: site.substack },
 ];
 
 const clients = [
@@ -433,12 +438,18 @@ const clients = [
     </section>
 
     <!-- 섹션 5 - 활동과 공인 -->
-    <section class="mt-14 md:mt-20">
+    <section id="activities" class="mt-14 md:mt-20">
       <h2 data-reveal class="about-h2">활동과 공인</h2>
       <ul class="about-authority-grid mt-7">
         {authority.map((a, i) => (
           <li data-reveal style={`transition-delay:${(i % 4) * 60}ms`} class="about-link-row">
-            <span class="about-link-row-inner">
+            <a
+              href={a.href}
+              target={a.href.startsWith('http') ? '_blank' : undefined}
+              rel={a.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+              class="about-link-row-inner"
+              aria-label={`${a.text}${a.href.startsWith('http') ? ' (새 창)' : ''}`}
+            >
               <span class="about-logo-stack">
                 {a.logos.map((logo) => (
                   <span class:list={['about-brand-mark', `is-${logo.fit}`]}>
@@ -447,7 +458,8 @@ const clients = [
                 ))}
               </span>
               <span class="text-[14px] md:text-[15px] leading-[1.6] text-[var(--bbfc-ink-2)]">{a.text}</span>
-            </span>
+              <span class="about-link-arrow" aria-hidden="true">{a.href.startsWith('http') ? '↗' : '↑'}</span>
+            </a>
           </li>
         ))}
       </ul>
@@ -705,9 +717,10 @@ const clients = [
     align-items: center;
     gap: 10px;
     position: relative;
+    width:100%;
     min-height:76px;
     padding:14px 16px;
-    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    transition: transform .25s ease, box-shadow .25s ease, color .25s ease;
   }
   .about-logo-stack { display:flex; align-items:center; flex:0 0 auto; min-width:48px; }
   .about-brand-mark { width:48px; height:48px; display:inline-flex; align-items:center; justify-content:center; overflow:hidden; border-radius:50%; background:#fff; border:1px solid var(--bbfc-border); box-shadow:0 4px 14px -10px rgba(25,31,40,.55); flex:0 0 auto; }
@@ -716,7 +729,11 @@ const clients = [
   .about-brand-mark.is-padded img { width:68%; height:68%; }
   .about-brand-mark.is-padded-dark { background:#24272d; }
   .about-brand-mark.is-padded-dark img { width:72%; height:72%; }
-  .about-link-row:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); border-color:#cad1d8; }
+  .about-link-row:hover { border-color:var(--bbfc-blue); }
+  .about-link-row:hover .about-link-row-inner { transform:translateY(-2px); box-shadow:0 12px 28px -22px rgba(25,31,40,.5); }
+  .about-link-row-inner:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:3px; border-radius:12px; }
+  .about-link-arrow { margin-left:auto; flex:0 0 auto; color:var(--bbfc-gray-3); font-size:15px; transition:color .2s ease, transform .2s ease; }
+  .about-link-row:hover .about-link-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
   .about-link-icon {
     flex-shrink: 0;
     transition: color 0.25s ease;

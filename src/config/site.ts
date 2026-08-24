@@ -15,6 +15,13 @@ export const site = {
   instagramOfficial: 'https://www.instagram.com/bbinge_official/',
   naverPerson: 'https://search.naver.com/search.naver?where=nexearch&query=%EC%82%A5%EC%9D%B4',
   namuwiki: 'https://namu.wiki/w/%EC%82%A5%EC%9D%B4',
+  naverInfluencer: 'https://in.naver.com/soccerbybbing2',
+  naverCafe: 'https://cafe.naver.com/teumsaemarket',
+  naverTv: 'https://tv.naver.com/bbinge_official',
+  brunch: 'https://brunch.co.kr/@c50aa0b5d6d4431',
+  substack: 'https://substack.com/@bbinge',
+  chosunAdvisor: 'https://www.chosun.com/site/data/html_dir/2020/05/15/2020051503430.html',
+  naverExpertSearch: 'https://search.naver.com/search.naver?where=nexearch&query=%EC%82%A5%EC%9D%B4%20NAVER%20expert%20%EA%B4%91%EA%B3%A0%20%EC%A0%84%EB%AC%B8%EA%B0%80',
   authorProfiles: [
     'https://blog.naver.com/sho3603',
     'https://blog.naver.com/sunghoandbbing2',
@@ -24,5 +31,9 @@ export const site = {
     'https://www.instagram.com/bbinge_official/',
     'https://search.naver.com/search.naver?where=nexearch&query=%EC%82%A5%EC%9D%B4',
     'https://namu.wiki/w/%EC%82%A5%EC%9D%B4',
+    'https://in.naver.com/soccerbybbing2',
+    'https://tv.naver.com/bbinge_official',
+    'https://brunch.co.kr/@c50aa0b5d6d4431',
+    'https://substack.com/@bbinge',
   ],
 };
