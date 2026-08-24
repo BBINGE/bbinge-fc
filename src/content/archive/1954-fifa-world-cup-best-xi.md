@@ -8,12 +8,14 @@ subject: '1954 월드컵 베스트 11'
 originalTitle: '1954 FIFA World Cup Switzerland™'
 keywords: ['1954 FIFA World Cup', 'Switzerland 1954', '1954 월드컵 베스트 11', 'Magic Magyars', '매직 마자르', 'Aranycsapat', '베른의 기적', 'Fritz Walter', 'Ferenc Puskás', 'Sándor Kocsis', '대한민국 첫 월드컵', '대한민국 헝가리 0대9']
 pubDate: 2026-08-23T19:20:00+09:00
+updatedDate: 2026-08-24T12:07:10+09:00
 coverImage: '/images/archive/1954-fifa-world-cup-best-xi/cover.png'
 coverImageAlt: '푸슈카시와 프리츠 발터가 입장하는 장면을 담은 1954 FIFA 월드컵 베스트 11 표지'
 coverImageCaption: '1954년 베른 결승의 두 주장, 푸슈카시 페렌츠와 프리츠 발터. 표지 디자인: 삥이FC.'
 coverImageWidth: 966
 coverImageHeight: 966
 draft: false
+relatedGroup: 'fifa-world-cup-1954'
 ---
 
 <aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>헝가리는 다섯 경기에서 27골을 넣었다. 대한민국에 9골, 서독에 8골을 넣고 브라질과 우루과이까지 꺾었지만, 다시 만난 서독과의 결승에서 2-0 리드를 지키지 못했다. 서독은 조별리그의 3-8 패배를 결승의 3-2 승리로 바꾸며 첫 쥘리메컵을 들었다. 아래 열한 명은 당시 FIFA가 발표한 공식 시상 명단이 아니라 삥이가 2024년 선정한 당대 베스트 11이며, 각 선수는 1954년의 역할과 대회 기록으로 읽는다.</p></aside>
@@ -150,6 +152,8 @@ FIFA의 회고 기준으로 이 팀은 1950년부터 결승 전까지 31경기 �
 선수들이 귀국했을 때 월드컵은 곧바로 안정된 투자와 리그로 이어지지 않았다. 나라 전체가 재건 중이었고 축구의 기반도 다시 만들어야 했다. 그래서 1954년과 1986년 사이의 32년은 단순한 본선 탈락의 연속이 아니다. 전쟁 뒤의 사회가 국내 대회와 대표팀 운영, 국제 원정을 감당할 토대를 쌓는 데 걸린 시간이기도 했다.
 
 대한민국은 이후 32년 동안 월드컵 본선에 돌아오지 못했다. 1986년 멕시코에서 두 번째 본선을 치렀고, 첫 승은 첫 참가로부터 48년이 지난 2002년 폴란드전에서 나왔다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
+
+서울에서 부산, 일본에서 캘커타와 방콕을 거쳐 경기 전날 밤 스위스에 닿기까지의 여정은 <a href="/history/1954-korea-world-cup-journey/">「폐허 속 대한민국 축구 국가대표팀의 1954 FIFA 월드컵 도전기」</a>에서 사진과 기록 영상으로 이어진다.
 
 ## 베른 이후 흩어진 황금 팀
 
