@@ -1,7 +1,12 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-24T15:39:46.737Z",
-  "birthday": null,
+  "updatedAt": "2026-08-24T16:35:31.326Z",
+  "birthday": {
+    "name": "숀 코너리",
+    "birthYear": 1930,
+    "wikidataUrl": "http://www.wikidata.org/entity/Q4573",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sean%20Connery%20%281983%29.jpg?width=700"
+  },
   "matches": [
     {
       "id": "2482142",
@@ -76,9 +81,9 @@
   ],
   "status": {
     "birthday": {
-      "state": "unavailable",
-      "source": "none",
-      "error": "Wikidata 3회 시도 실패: This operation was aborted"
+      "state": "ok",
+      "source": "Wikidata",
+      "error": null
     },
     "matches": {
       "state": "ok",
@@ -87,7 +92,7 @@
     }
   },
   "sources": {
-    "birthday": "none",
+    "birthday": "Wikidata",
     "matches": "TheSportsDB"
   }
 }
