@@ -29,6 +29,8 @@ const searchIndex = [...entries.map((entry) => ({
   href: getArticlePath(entry.data.category, entry.id),
   categoryLabel: categories[entry.data.category]?.label ?? '',
   pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
+  image: entry.data.cardImage ?? entry.data.coverImage ?? '',
+  imageAlt: entry.data.coverImageAlt ?? '',
 })), ...archiveEntries.map((entry) => ({
   title: entry.data.title,
   description: entry.data.description,
@@ -37,6 +39,8 @@ const searchIndex = [...entries.map((entry) => ({
   href: `/archive/${entry.data.branch}/${entry.data.index}/${entry.id}/`,
   categoryLabel: '삥이 아카이브',
   pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
+  image: entry.data.coverImage,
+  imageAlt: entry.data.coverImageAlt,
 }))];
 ---
 
@@ -50,23 +54,50 @@ const searchIndex = [...entries.map((entry) => ({
     { label: '검색', href: '/search/' },
   ]}
 >
-  <div class="max-w-[680px] mx-auto px-4 md:px-5 py-6">
-    <h1 class="text-[20px] font-medium text-[var(--bbfc-ink)] mb-4">무엇이든 검색해보세요</h1>
+  <div class="search-shell">
+    <h1>무엇이든 검색해보세요</h1>
     <div class="search-prompt">
       <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.35-4.35" stroke-linecap="round" /></svg>
       <input id="bbfc-search-input" type="search" placeholder="선수, 대회, 장소, 이야기…" autofocus />
     </div>
-    <p id="bbfc-search-count" class="text-[12px] text-[var(--bbfc-gray-2)] mt-3 mb-1"></p>
-    <div id="bbfc-search-results"></div>
+    <p id="bbfc-search-count" class="search-curation-call" role="status" aria-live="polite"></p>
+    <div id="bbfc-search-results" class="search-explore-grid"></div>
   </div>
 </Layout>
 
 <style>
-  .search-prompt { display:flex; align-items:center; gap:11px; width:100%; min-height:52px; padding:0 17px; border:1px solid var(--bbfc-border); border-radius:26px; background:#fff; color:var(--bbfc-gray-2); box-shadow:0 16px 36px -26px rgba(22,31,43,.7); animation:prompt-float 4.2s ease-in-out infinite; }
+  .search-shell { width:min(100%, 1040px); margin:0 auto; padding:30px 20px 72px; }
+  .search-shell h1 { margin:0 0 18px; color:var(--bbfc-ink); font-size:22px; font-weight:650; letter-spacing:-.035em; }
+  .search-prompt { display:flex; align-items:center; gap:11px; width:100%; min-height:54px; padding:0 19px; border:1px solid var(--bbfc-border); border-radius:28px; background:#fff; color:var(--bbfc-gray-2); box-shadow:0 16px 36px -26px rgba(22,31,43,.7); animation:prompt-float 5.2s ease-in-out infinite; will-change:transform; }
   .search-prompt:focus-within { border-color:var(--bbfc-blue); box-shadow:0 16px 40px -25px rgba(41,112,240,.55); }
   .search-prompt input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:15px; }
   .search-prompt input::placeholder { color:var(--bbfc-gray-2); }
-  @keyframes prompt-float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-3px); } }
+  .search-curation-call { min-height:51px; margin:26px 0 14px; color:var(--bbfc-ink); }
+  .search-curation-call strong { display:block; font-size:17px; font-weight:700; letter-spacing:-.025em; }
+  .search-curation-call span { display:block; margin-top:4px; color:var(--bbfc-gray-2); font-size:11px; }
+  .search-explore-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:3px; }
+  :global(.search-explore-card) { position:relative; aspect-ratio:1/1; overflow:hidden; background:linear-gradient(145deg,#e9edf3,#dce3ed); color:#fff !important; isolation:isolate; }
+  :global(.search-explore-card img) { width:100%; height:100%; object-fit:cover; transition:transform .45s ease,filter .35s ease; }
+  :global(.search-explore-card::after) { position:absolute; z-index:1; inset:32% 0 0; background:linear-gradient(180deg,transparent,rgba(7,13,22,.84)); content:""; transition:opacity .25s ease; }
+  :global(.search-explore-card:hover img),:global(.search-explore-card:focus-visible img) { transform:scale(1.045); filter:saturate(1.08) contrast(1.03); }
+  :global(.search-explore-card:focus-visible) { outline:3px solid var(--bbfc-blue); outline-offset:2px; z-index:2; }
+  :global(.search-explore-fallback) { position:absolute; inset:0; display:grid; place-items:center; color:rgba(255,255,255,.9); font-family:Georgia,serif; font-size:34px; font-weight:700; background:linear-gradient(135deg,#1a2638,#3974d9); }
+  :global(.search-explore-copy) { position:absolute; z-index:2; right:0; bottom:0; left:0; padding:34px 15px 14px; }
+  :global(.search-explore-copy small) { display:block; color:rgba(255,255,255,.74); font-size:9px; font-weight:750; letter-spacing:.09em; }
+  :global(.search-explore-copy strong) { display:-webkit-box; margin-top:5px; overflow:hidden; font-size:14px; line-height:1.35; font-weight:700; letter-spacing:-.025em; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+  :global(.search-explore-copy span) { display:block; margin-top:6px; color:rgba(255,255,255,.72); font-size:9px; }
+  @keyframes prompt-float {
+    0%,100% { transform:translate3d(0,0,0); box-shadow:0 16px 36px -26px rgba(22,31,43,.7); }
+    30% { transform:translate3d(1px,-5px,0); box-shadow:0 22px 42px -25px rgba(41,112,240,.42); }
+    66% { transform:translate3d(-1px,-2px,0); }
+  }
+  @media (max-width:767px) {
+    .search-shell { padding:24px 16px 56px; }
+    .search-shell h1 { font-size:20px; }
+    .search-explore-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:2px; }
+    :global(.search-explore-copy) { padding:30px 11px 11px; }
+    :global(.search-explore-copy strong) { font-size:12px; }
+  }
   @media (prefers-reduced-motion:reduce) { .search-prompt { animation:none; } }
 </style>
 
@@ -77,6 +108,24 @@ const searchIndex = [...entries.map((entry) => ({
 
   function render(query) {
     const normalize = (value) => String(value ?? '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+    const compact = (value) => normalize(value).replace(/\s+/g, '');
+    const bigrams = (value) => {
+      const chars = compact(value);
+      if (chars.length < 2) return chars ? [chars] : [];
+      return Array.from({ length: chars.length - 1 }, (_, index) => chars.slice(index, index + 2));
+    };
+    const similarity = (left, right) => {
+      const a = bigrams(left);
+      const b = bigrams(right);
+      if (!a.length || !b.length) return 0;
+      const pool = [...b];
+      let overlap = 0;
+      a.forEach((pair) => {
+        const index = pool.indexOf(pair);
+        if (index >= 0) { overlap += 1; pool.splice(index, 1); }
+      });
+      return (2 * overlap) / (a.length + b.length);
+    };
     const q = normalize(query);
     if (!q) {
       resultsEl.innerHTML = '';
@@ -84,34 +133,40 @@ const searchIndex = [...entries.map((entry) => ({
       return;
     }
     const tokens = q.split(/\s+/).filter(Boolean);
-    const matches = searchIndex
-      .map((item) => {
+    const scored = searchIndex
+      .map((item, order) => {
         const title = normalize(item.title);
-        const summary = normalize([item.description, ...(item.tags || [])].join(' '));
+        const tags = normalize((item.tags || []).join(' '));
+        const description = normalize(item.description);
+        const summary = `${tags} ${description}`.trim();
         const context = normalize(item.context);
-        const haystack = `${title} ${summary} ${context}`;
-        if (!tokens.every((token) => haystack.includes(token))) return null;
-        let score = title === q ? 1000 : title.includes(q) ? 500 : summary.includes(q) ? 250 : context.includes(q) ? 100 : 0;
-        score += tokens.reduce((sum, token) => sum + (title.includes(token) ? 40 : summary.includes(token) ? 15 : 2), 0);
-        return { ...item, score };
+        let hits = 0;
+        let score = title === q ? 1200 : title.includes(q) ? 620 : tags.includes(q) ? 420 : description.includes(q) ? 280 : context.includes(q) ? 120 : 0;
+        tokens.forEach((token) => {
+          if (title.includes(token)) { score += 95; hits += 1; }
+          else if (tags.includes(token)) { score += 72; hits += 1; }
+          else if (description.includes(token)) { score += 46; hits += 1; }
+          else if (context.includes(token)) { score += 18; hits += 1; }
+        });
+        if (hits === tokens.length) score += 90;
+        score += similarity(q, title) * 90 + similarity(q, summary) * 35;
+        return { ...item, score, hits, order };
       })
-      .filter(Boolean)
-      .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, 'ko'));
+      .sort((a, b) => b.score - a.score || b.hits - a.hits || a.order - b.order);
+    const relevant = scored.filter((item) => item.hits > 0 || item.score >= 28);
+    const matches = (relevant.length ? relevant : scored).slice(0, 24);
+    const isFallback = relevant.length === 0;
     const escapeHtml = (value) => String(value ?? '').replace(/[&<>'"]/g, (char) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' })[char]);
-    countEl.textContent = `${matches.length}건`;
-    resultsEl.innerHTML = matches.length
-      ? matches
-          .map(
-            (item) => `
-        <a href="${escapeHtml(item.href)}" class="block py-4 border-b border-[var(--bbfc-line)] first:pt-0">
-          <p class="text-[11px] text-[var(--bbfc-blue)]">${escapeHtml(item.categoryLabel)}</p>
-          <p class="text-[14px] font-medium text-[var(--bbfc-ink)] mt-1 leading-snug">${escapeHtml(item.title)}</p>
-          <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-1 leading-relaxed">${escapeHtml(item.description)}</p>
-          <p class="text-[11px] text-[var(--bbfc-gray-2)] mt-1.5">${escapeHtml(item.pubDate)}</p>
-        </a>`
-          )
-          .join('')
-      : '<p class="text-[13px] text-[var(--bbfc-gray-1)] py-8 text-center">검색 결과가 없어요.</p>';
+    countEl.innerHTML = `<strong>아래 큐레이션이 호출됐어요!</strong><span>${isFallback ? '정확히 겹치는 기록 대신 지금 둘러볼 만한 콘텐츠를 담았어요.' : `검색어 ‘${escapeHtml(query)}’에 가까운 기록 ${matches.length}개를 모았어요.`}</span>`;
+    resultsEl.innerHTML = matches.map((item) => `
+      <a href="${escapeHtml(item.href)}" class="search-explore-card" aria-label="${escapeHtml(item.title)}">
+        ${item.image ? `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.imageAlt)}" width="520" height="520" loading="lazy" />` : '<span class="search-explore-fallback" aria-hidden="true">B</span>'}
+        <span class="search-explore-copy">
+          <small>${escapeHtml(item.categoryLabel)}</small>
+          <strong>${escapeHtml(item.title)}</strong>
+          <span>${escapeHtml(item.pubDate)}</span>
+        </span>
+      </a>`).join('');
   }
 
   input.addEventListener('input', () => render(input.value));
