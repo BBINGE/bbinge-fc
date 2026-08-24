@@ -10,11 +10,12 @@ const kst = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
 const today = `${kst.getFullYear()}-${String(kst.getMonth() + 1).padStart(2, '0')}-${String(kst.getDate()).padStart(2, '0')}`;
 const isCurrent = todayData.date === today;
 const birthday = (isCurrent ? todayData.birthday : null) as Birthday | null;
-const match = (isCurrent ? todayData.matches[0] : null) as Match | null;
+const matches = (isCurrent ? todayData.matches : []).slice(0, 12) as Match[];
+const match = matches[0] ?? null;
 const birthdayState = (isCurrent ? todayData.status?.birthday?.state : 'stale') as DataState;
 const matchState = (isCurrent ? todayData.status?.matches?.state : 'stale') as DataState;
 const dateLabel = new Intl.DateTimeFormat('en-US', { month: 'short', day: '2-digit', timeZone: 'Asia/Seoul' }).format(now).toUpperCase();
-const matchTime = match?.time ? `${match.time} KST` : '오늘';
+const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
 ---
 
 <aside class="today-football" aria-label="오늘의 축구 안내">
@@ -56,19 +57,31 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
 
   <article class="today-card today-card--tonight">
     <div class="today-card__top">
-      <p>TONIGHT</p>
-      <time datetime={match?.date || today}>{matchTime}</time>
+      <p>EUROPE TONIGHT</p>
+      <time datetime={match?.date || today}>{matchCountLabel}</time>
     </div>
     {match ? (
       <>
-        <div class="match-visual" aria-label={`${match.home} 대 ${match.away}`}>
-          <div>{match.homeBadge ? <img src={match.homeBadge} alt="" loading="lazy" /> : <span>⚽</span>}<strong>{match.home}</strong></div>
-          <b>VS</b>
-          <div>{match.awayBadge ? <img src={match.awayBadge} alt="" loading="lazy" /> : <span>⚽</span>}<strong>{match.away}</strong></div>
+        <div class="match-list" aria-label="오늘 밤 유럽 주요 축구 경기">
+          {matches.map((item) => (
+            <article class="match-row" aria-label={`${item.league}, ${item.home} 대 ${item.away}, ${item.time || '시간 미정'}`}>
+              <div class="match-row__meta">
+                <time datetime={`${item.date}${item.time ? `T${item.time}:00+09:00` : ''}`}>{item.date === today ? (item.time || 'TBD') : `내일 ${item.time || 'TBD'}`}</time>
+                <span>{item.league}</span>
+              </div>
+              <div class="match-row__teams">
+                <strong>{item.home}</strong>
+                {item.homeBadge ? <img src={item.homeBadge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
+                <b>VS</b>
+                {item.awayBadge ? <img src={item.awayBadge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
+                <strong>{item.away}</strong>
+              </div>
+            </article>
+          ))}
         </div>
-        <div class="today-card__body">
-          <p class="today-card__eyebrow">{match.league}</p>
-          <p class="today-card__copy">오늘 열리는 축구입니다. 늦은 경기라면 내일 H/L로 만나요. ☕</p>
+        <div class="today-card__body tonight-summary">
+          <p class="today-card__eyebrow">주요리그 경기 큐레이션</p>
+          <p class="today-card__copy">오늘 밤부터 내일 오전까지, 한국 시간으로 모았습니다.</p>
         </div>
         <a class="today-card__cta" href="/highlights/" aria-label="하이라이트 보러가기"><span>보러가기</span><i aria-hidden="true">↗</i></a>
       </>
@@ -95,7 +108,7 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
 </aside>
 
 <style>
-  .today-football { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1px; margin:0 0 38px; border:1px solid var(--bbfc-border); background:var(--bbfc-border); }
+  .today-football { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:1px; margin:0 0 38px; border:1px solid var(--bbfc-border); background:var(--bbfc-border); }
   .today-card { position:relative; min-width:0; min-height:224px; overflow:hidden; padding:22px 24px 20px; background:#fff; isolation:isolate; }
   .today-card--tonight { background:linear-gradient(145deg,#10192b 0%,#182b50 62%,#2468dc 145%); color:#fff; }
   .today-card__top { position:relative; z-index:3; display:flex; justify-content:space-between; gap:16px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:10px; font-weight:800; letter-spacing:.15em; }
@@ -116,33 +129,40 @@ const matchTime = match?.time ? `${match.time} KST` : '오늘';
   .today-card--with-portrait .today-card__top { border-color:rgba(255,255,255,.2); color:rgba(255,255,255,.7); }
   .today-card--with-portrait .today-card__eyebrow { color:#8bbcff; }
   .today-card--with-portrait .today-card__copy { color:rgba(255,255,255,.76); }
-  .match-visual { position:relative; z-index:3; display:grid; grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr); align-items:center; gap:8px; padding-top:18px; text-align:center; }
-  .match-visual>div { min-width:0; display:grid; justify-items:center; gap:7px; }
-  .match-visual img,.match-visual>div>span { width:58px; height:58px; object-fit:contain; display:grid; place-items:center; font-size:34px; filter:drop-shadow(0 8px 12px rgba(0,0,0,.28)); }
-  .match-visual strong { max-width:100%; font-size:14px; line-height:1.2; font-weight:750; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .match-visual>b { color:rgba(255,255,255,.45); font-family:Georgia,serif; font-size:13px; font-style:italic; }
+  .match-list { position:relative; z-index:3; max-height:292px; margin:14px -8px 74px 0; padding-right:6px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:rgba(255,255,255,.26) transparent; }
+  .match-row { padding:10px 8px 11px 0; border-bottom:1px solid rgba(255,255,255,.12); }
+  .match-row:first-child { padding-top:2px; }
+  .match-row__meta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:7px; color:rgba(255,255,255,.5); font-size:8px; font-weight:750; letter-spacing:.06em; }
+  .match-row__meta time { color:#86b7ff; font-size:10px; }
+  .match-row__meta span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .match-row__teams { display:grid; grid-template-columns:minmax(0,1fr) 24px 20px 24px minmax(0,1fr); align-items:center; gap:5px; }
+  .match-row__teams strong { min-width:0; overflow:hidden; color:#fff; font-size:10.5px; line-height:1.2; font-weight:700; text-overflow:ellipsis; white-space:nowrap; }
+  .match-row__teams strong:first-child { text-align:right; }
+  .match-row__teams img,.match-row__teams i { display:grid; place-items:center; width:24px; height:24px; object-fit:contain; font-size:14px; font-style:normal; filter:drop-shadow(0 4px 7px rgba(0,0,0,.28)); }
+  .match-row__teams b { color:rgba(255,255,255,.38); font-family:Georgia,serif; font-size:8px; font-style:italic; text-align:center; }
+  .today-card--tonight .tonight-summary { right:112px; }
   .today-card--tonight::after { content:""; position:absolute; z-index:2; inset:auto 0 0; height:58%; background:linear-gradient(0deg,rgba(4,12,27,.74),rgba(4,12,27,0)); pointer-events:none; }
 
   @media (min-width: 1600px) {
     .today-football { position:absolute; inset:192px auto auto 50%; width:1px; margin:0; border:0; background:transparent; pointer-events:none; }
     .today-card { position:fixed; top:190px; width:clamp(170px,calc((100vw - 1230px) / 2),300px); min-height:310px; padding:20px 17px; border-top:2px solid var(--bbfc-ink); pointer-events:auto; }
     .today-card--history { right:calc(50% + 600px); }
-    .today-card--tonight { left:calc(50% + 600px); }
+    .today-card--tonight { top:190px; left:calc(50% + 600px); min-height:min(460px,calc(100vh - 220px)); max-height:calc(100vh - 210px); }
     .today-card h2 { font-size:clamp(21px,1.45vw,27px); }
     .today-card__copy { font-size:11.5px; }
     .today-card__body { left:17px; right:110px; bottom:18px; }
     .today-card__cta { right:14px; bottom:14px; height:36px; padding-inline:12px; }
-    .match-visual { grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr); }
-    .match-visual img,.match-visual>div>span { width:clamp(48px,4vw,68px); height:clamp(48px,4vw,68px); }
-    .match-visual strong { font-size:13px; }
+    .match-list { max-height:calc(100vh - 350px); }
     .today-card__copy br { display:none; }
   }
   @media (max-width: 700px) {
     .today-football { display:flex; gap:10px; margin-bottom:28px; padding:0 0 7px; overflow-x:auto; border:0; background:transparent; scroll-snap-type:x mandatory; scrollbar-width:thin; scrollbar-color:var(--bbfc-border) transparent; }
     .today-card { flex:0 0 89%; min-height:224px; padding:18px 19px 17px; border:1px solid var(--bbfc-border); scroll-snap-align:start; }
+    .today-card--tonight { min-height:390px; }
     .today-card h2 { font-size:24px; }
     .today-card__body { left:19px; right:108px; bottom:18px; }
     .today-card__cta { right:15px; bottom:15px; height:36px; padding-inline:12px; }
     .today-card__copy br { display:none; }
+    .match-list { max-height:230px; margin-bottom:72px; }
   }
 </style>

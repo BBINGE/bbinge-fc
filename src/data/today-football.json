@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T11:37:01.385Z",
+  "updatedAt": "2026-08-24T11:46:43.967Z",
   "birthday": {
     "name": "요시다 마야",
     "birthYear": 1988,
@@ -9,14 +9,44 @@
   },
   "matches": [
     {
-      "id": "2398036",
-      "league": "아르헨티나 프리메라 디비시온",
-      "home": "Racing Club",
-      "away": "Boca Juniors",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
-      "time": "09:30",
+      "id": "2482140",
+      "league": "세리에 A",
+      "home": "Roma",
+      "away": "Fiorentina",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
+      "time": "18:45",
       "date": "2026-08-24"
+    },
+    {
+      "id": "2494009",
+      "league": "프리미어 리그",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xwwvyt1448811086.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
+      "time": "19:00",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "2506182",
+      "league": "라리가",
+      "home": "Málaga",
+      "away": "Deportivo de A Coruña",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/upqyvr1473502952.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/62bvwv1783013156.png",
+      "time": "19:30",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "2570479",
+      "league": "UEFA 챔피언스 리그",
+      "home": "Sabah Baku",
+      "away": "Hapoel Be'er Sheva",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ar5zft1781239007.png",
+      "time": "16:45",
+      "date": "2026-08-25"
     }
   ],
   "status": {

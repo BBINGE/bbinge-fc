@@ -5,6 +5,9 @@ const outputPath = resolve(process.argv[2] || 'src/data/today-football.json');
 const birthdayFallbackPath = resolve('src/data/football-birthday-fallbacks.json');
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const RETRY_DELAYS = [0, 1_000, 3_000];
+const MATCH_LIMIT = 12;
+const MATCH_WINDOW_BEFORE = 3 * 60 * 60 * 1000;
+const MATCH_WINDOW_AFTER = 20 * 60 * 60 * 1000;
 
 function koreaParts(date = new Date()) {
   const shifted = new Date(date.getTime() + KST_OFFSET);
@@ -79,17 +82,17 @@ LIMIT 12`;
 }
 
 const FEATURED_LEAGUES = [
-  { id: '4480', weight: 100 },
-  { id: '4328', weight: 95 },
-  { id: '4335', weight: 90 },
-  { id: '4332', weight: 85 },
-  { id: '4331', weight: 80 },
-  { id: '4334', weight: 75 },
-  { id: '4481', weight: 70 },
-  { id: '4406', weight: 60 },
-  { id: '4351', weight: 55 },
-  { id: '4337', weight: 50 },
+  { id: '4480', weight: 110 }, // UEFA Champions League
+  { id: '4328', weight: 105 }, // English Premier League
+  { id: '4335', weight: 100 }, // Spanish La Liga
+  { id: '4332', weight: 95 },  // Italian Serie A
+  { id: '4331', weight: 90 },  // German Bundesliga
+  { id: '4334', weight: 85 },  // French Ligue 1
+  { id: '4481', weight: 80 },  // UEFA Europa League
+  { id: '4337', weight: 75 },  // Dutch Eredivisie
 ];
+const FEATURED_LEAGUE_IDS = new Set(FEATURED_LEAGUES.map((league) => league.id));
+const FEATURED_LEAGUE_WEIGHTS = new Map(FEATURED_LEAGUES.map((league) => [league.id, league.weight]));
 
 const BIG_CLUBS = [
   'real madrid', 'barcelona', 'manchester united', 'manchester city', 'liverpool', 'arsenal', 'chelsea',
@@ -124,23 +127,68 @@ function eventScore(event, leagueWeight) {
   return clubBonus + leagueWeight;
 }
 
+function utcDate(date) {
+  return date.toISOString().slice(0, 10);
+}
+
+function curateMatches(events) {
+  const unique = [...new Map(events.map((event) => [event.id, event])).values()]
+    .sort((a, b) => a.sortTime.localeCompare(b.sortTime) || b.score - a.score);
+  const selected = [];
+  const selectedIds = new Set();
+  const coveredLeagues = new Set();
+  for (const event of unique) {
+    if (coveredLeagues.has(event.leagueId)) continue;
+    selected.push(event);
+    selectedIds.add(event.id);
+    coveredLeagues.add(event.leagueId);
+  }
+  for (const event of unique) {
+    if (selected.length >= MATCH_LIMIT) break;
+    if (selectedIds.has(event.id)) continue;
+    selected.push(event);
+    selectedIds.add(event.id);
+  }
+  return selected
+    .sort((a, b) => a.sortTime.localeCompare(b.sortTime) || b.score - a.score)
+    .slice(0, MATCH_LIMIT)
+    .map(({ score, sortTime, leagueId, ...event }) => event);
+}
+
 async function fetchMatches(date) {
-  const results = await Promise.allSettled(FEATURED_LEAGUES.map(async (league) => {
+  const windowStart = new Date(Date.now() - MATCH_WINDOW_BEFORE);
+  const windowEnd = new Date(Date.now() + MATCH_WINDOW_AFTER);
+  const queryDates = [...new Set([utcDate(windowStart), utcDate(windowEnd)])];
+  const requests = FEATURED_LEAGUES.flatMap((league) => queryDates.map(async (queryDate) => {
     const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
-    url.searchParams.set('d', date);
+    url.searchParams.set('d', queryDate);
     url.searchParams.set('l', league.id);
-    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB league ${league.id}`);
+    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB league ${league.id} ${queryDate}`);
     return (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: league.weight }));
   }));
+  const results = await Promise.allSettled(requests);
+  const featuredRequestSucceeded = results.some((result) => result.status === 'fulfilled');
   let events = results.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
   if (!events.length) {
-    const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
-    url.searchParams.set('d', date);
-    url.searchParams.set('s', 'Soccer');
-    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, 'TheSportsDB all soccer');
-    events = (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: 0 }));
+    const fallbackResults = await Promise.allSettled(queryDates.map(async (queryDate) => {
+      const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
+      url.searchParams.set('d', queryDate);
+      url.searchParams.set('s', 'Soccer');
+      const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB all soccer ${queryDate}`);
+      return (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({
+        event,
+        weight: FEATURED_LEAGUE_WEIGHTS.get(event.idLeague) ?? 0,
+      }));
+    }));
+    const fallbackRequestSucceeded = fallbackResults.some((result) => result.status === 'fulfilled');
+    const fallbackEvents = fallbackResults.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
+    if (!featuredRequestSucceeded && !fallbackRequestSucceeded) {
+      throw new Error('TheSportsDB 유럽 주요리그 및 전체 축구 일정 요청 실패');
+    }
+    const featuredFallbacks = fallbackEvents.filter(({ event }) => FEATURED_LEAGUE_IDS.has(event.idLeague));
+    events = featuredFallbacks.length ? featuredFallbacks : fallbackEvents;
   }
-  return events.map(({ event, weight }) => {
+  const normalizedEvents = events.map(({ event, weight }) => {
     const timestamp = event.strTimestamp ? new Date(event.strTimestamp) : null;
     const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
     const koreaDate = validTimestamp
@@ -159,11 +207,13 @@ async function fetchMatches(date) {
       time: koreaTime,
       date: koreaDate,
       score: eventScore(event, weight),
+      sortTime: validTimestamp ? timestamp.toISOString() : `${koreaDate}T${koreaTime || '23:59'}`,
+      leagueId: event.idLeague || event.strLeague || 'other',
+      inWindow: validTimestamp ? timestamp >= windowStart && timestamp <= windowEnd : true,
     };
-  }).filter((event) => event.home && event.away && event.date === date)
-    .sort((a, b) => b.score - a.score || a.time.localeCompare(b.time))
-    .slice(0, 3)
-    .map(({ score, ...event }) => event);
+  }).filter((event) => event.home && event.away && event.inWindow)
+    .map(({ inWindow, ...event }) => event);
+  return curateMatches(normalizedEvents);
 }
 
 async function fetchFootballDataMatches(date) {
@@ -195,9 +245,9 @@ async function fetchFootballDataMatches(date) {
       date: koreaDate,
       score: eventScore({ strHomeTeam: event.homeTeam?.name, strAwayTeam: event.awayTeam?.name }, 40),
     };
-  }).filter((event) => event.home && event.away && event.date === date)
+  }).filter((event) => event.home && event.away && event.date >= date)
     .sort((a, b) => b.score - a.score || a.time.localeCompare(b.time))
-    .slice(0, 3)
+    .slice(0, MATCH_LIMIT)
     .map(({ score, ...event }) => event);
 }
 

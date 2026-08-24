@@ -12,6 +12,8 @@ if (!allowed.has(data.status?.birthday?.state)) errors.push('birthday status mis
 if (!allowed.has(data.status?.matches?.state)) errors.push('matches status missing or invalid');
 if (data.status?.matches?.state === 'ok' && !data.matches?.length) errors.push('matches state is ok but matches are empty');
 if (data.status?.matches?.state === 'empty' && data.matches?.length) errors.push('matches state is empty but matches exist');
+if ((data.matches?.length ?? 0) > 12) errors.push('matches exceed display limit of 12');
+if (new Set((data.matches ?? []).map((match) => match.id)).size !== (data.matches?.length ?? 0)) errors.push('duplicate match ids');
 if (['ok', 'fallback'].includes(data.status?.birthday?.state) && !data.birthday?.name) errors.push('birthday data missing');
 
 if (errors.length) {
