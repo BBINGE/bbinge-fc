@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-24T18:37:48.752Z",
+  "updatedAt": "2026-08-24T19:28:19.555Z",
   "birthday": {
     "name": "숀 코너리",
     "birthYear": 1930,
@@ -17,7 +17,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "01:30",
       "date": "2026-08-25"
@@ -31,7 +31,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xwtxsx1473503739.png",
       "homeScore": 0,
       "awayScore": 0,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "02:30",
       "date": "2026-08-25"
@@ -43,9 +43,9 @@
       "away": "피오렌티나",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-25"
