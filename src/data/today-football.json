@@ -1,12 +1,6 @@
 {
   "date": "2026-08-25",
   "updatedAt": "2026-08-25T06:22:47.460Z",
-  "birthday": {
-    "name": "숀 코너리",
-    "birthYear": 1930,
-    "wikidataUrl": "http://www.wikidata.org/entity/Q4573",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sean%20Connery%20%281983%29.jpg?width=700"
-  },
   "matches": [
     {
       "id": "2482140",
@@ -52,11 +46,6 @@
     }
   ],
   "status": {
-    "birthday": {
-      "state": "ok",
-      "source": "Wikidata",
-      "error": null
-    },
     "matches": {
       "state": "ok",
       "source": "TheSportsDB",
@@ -64,7 +53,6 @@
     }
   },
   "sources": {
-    "birthday": "Wikidata",
     "matches": "TheSportsDB"
   }
 }

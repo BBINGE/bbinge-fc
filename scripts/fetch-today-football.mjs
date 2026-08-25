@@ -2,7 +2,6 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 const outputPath = resolve(process.argv[2] || 'src/data/today-football.json');
-const birthdayFallbackPath = resolve('src/data/football-birthday-fallbacks.json');
 const teamLabelsPath = resolve('src/data/football-team-labels.json');
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const RETRY_DELAYS = [0, 1_000, 3_000];
@@ -45,41 +44,6 @@ async function fetchJson(url, options = {}, label = 'API') {
     }
   }
   throw new Error(`${label} ${RETRY_DELAYS.length}회 시도 실패: ${lastError?.message || 'unknown error'}`);
-}
-
-async function fetchBirthday(month, day) {
-  const query = `
-SELECT ?person ?personLabel ?birth ?image ?sitelinks WHERE {
-  ?person wdt:P106/wdt:P279* wd:Q937857;
-          wdt:P569 ?birth;
-          wdt:P18 ?image;
-          wikibase:sitelinks ?sitelinks.
-  FILTER(MONTH(?birth) = ${month} && DAY(?birth) = ${day})
-  FILTER(?sitelinks >= 20)
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "ko,en". }
-}
-ORDER BY DESC(?sitelinks)
-LIMIT 12`;
-  const url = new URL('https://query.wikidata.org/sparql');
-  url.searchParams.set('query', query);
-  url.searchParams.set('format', 'json');
-  const payload = await fetchJson(url, {
-    headers: {
-      Accept: 'application/sparql-results+json',
-      'User-Agent': 'BBingeFC/1.0 (https://bbingefc.com/contact/)',
-    },
-  }, 'Wikidata');
-  const row = payload?.results?.bindings?.[0];
-  if (!row?.personLabel?.value || !row?.birth?.value) return null;
-  const born = new Date(row.birth.value);
-  const originalImage = row.image.value.replace(/^http:/, 'https:');
-  const imageUrl = `${originalImage.replace('/wiki/Special:FilePath/', '/wiki/Special:Redirect/file/')}?width=700`;
-  return {
-    name: row.personLabel.value,
-    birthYear: born.getUTCFullYear(),
-    wikidataUrl: row.person.value,
-    imageUrl,
-  };
 }
 
 const FEATURED_LEAGUES = [
@@ -292,28 +256,6 @@ async function fetchFootballDataMatches(date) {
     .map(({ score, ...event }) => event);
 }
 
-async function birthdayFallback(month, day) {
-  try {
-    const calendar = JSON.parse(await readFile(birthdayFallbackPath, 'utf8'));
-    return calendar.people?.[`${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`] ?? null;
-  } catch (error) {
-    console.warn(`Local birthday fallback: ${error.message}`);
-    return null;
-  }
-}
-
-async function rememberBirthdayFallback(month, day, birthday) {
-  try {
-    const calendar = JSON.parse(await readFile(birthdayFallbackPath, 'utf8'));
-    calendar.people ||= {};
-    calendar.people[`${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`] = birthday;
-    const sortedPeople = Object.fromEntries(Object.entries(calendar.people).sort(([a], [b]) => a.localeCompare(b)));
-    await writeFile(birthdayFallbackPath, `${JSON.stringify({ ...calendar, people: sortedPeople }, null, 2)}\n`, 'utf8');
-  } catch (error) {
-    console.warn(`Local birthday fallback save: ${error.message}`);
-  }
-}
-
 async function previousData() {
   try {
     return JSON.parse(await readFile(outputPath, 'utf8'));
@@ -325,28 +267,9 @@ async function previousData() {
 const parts = koreaParts();
 const date = isoDate(parts);
 const previous = await previousData();
-const [birthdayResult, matchesResult] = await Promise.allSettled([
-  fetchBirthday(parts.month, parts.day),
+const [matchesResult] = await Promise.allSettled([
   fetchMatches(date, previous.matches || []),
 ]);
-
-const localBirthday = await birthdayFallback(parts.month, parts.day);
-let selectedBirthday = null;
-let birthdayState = 'unavailable';
-let birthdaySource = 'none';
-if (birthdayResult.status === 'fulfilled' && birthdayResult.value) {
-  selectedBirthday = birthdayResult.value;
-  birthdayState = 'ok';
-  birthdaySource = 'Wikidata';
-  await rememberBirthdayFallback(parts.month, parts.day, selectedBirthday);
-} else if (localBirthday) {
-  selectedBirthday = localBirthday;
-  birthdayState = 'fallback';
-  birthdaySource = 'local-calendar';
-} else if (birthdayResult.status === 'fulfilled') {
-  birthdayState = 'empty';
-  birthdaySource = 'Wikidata';
-}
 
 let selectedMatches = [];
 let matchesState = 'unavailable';
@@ -375,14 +298,8 @@ if (matchesResult.status === 'fulfilled') {
 
 const dataWithoutTimestamp = {
   date,
-  birthday: selectedBirthday,
   matches: selectedMatches,
   status: {
-    birthday: {
-      state: birthdayState,
-      source: birthdaySource,
-      error: birthdayResult.status === 'rejected' ? birthdayResult.reason.message : null,
-    },
     matches: {
       state: matchesState,
       source: matchesSource,
@@ -390,7 +307,6 @@ const dataWithoutTimestamp = {
     },
   },
   sources: {
-    birthday: birthdaySource,
     matches: matchesSource,
   },
 };
@@ -406,5 +322,4 @@ await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 console.log(JSON.stringify(data));
 
-if (birthdayResult.status === 'rejected') console.warn(`Wikidata final: ${birthdayResult.reason.message}`);
 if (matchesResult.status === 'rejected') console.warn(`TheSportsDB final: ${matchesResult.reason.message}`);

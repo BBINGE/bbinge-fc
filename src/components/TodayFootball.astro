@@ -1,7 +1,6 @@
 ---
 import todayData from '../data/today-football.json';
 
-type Birthday = { name: string; birthYear: number; wikidataUrl: string; imageUrl?: string };
 type Match = {
   id: string;
   league: string;
@@ -22,12 +21,9 @@ const now = new Date();
 const kst = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
 const today = `${kst.getFullYear()}-${String(kst.getMonth() + 1).padStart(2, '0')}-${String(kst.getDate()).padStart(2, '0')}`;
 const isCurrent = todayData.date === today;
-const birthday = (isCurrent ? todayData.birthday : null) as Birthday | null;
 const matches = (isCurrent ? todayData.matches : []).slice(0, 12) as Match[];
 const match = matches[0] ?? null;
-const birthdayState = (isCurrent ? todayData.status?.birthday?.state : 'stale') as DataState;
 const matchState = (isCurrent ? todayData.status?.matches?.state : 'stale') as DataState;
-const dateLabel = new Intl.DateTimeFormat('en-US', { month: 'short', day: '2-digit', timeZone: 'Asia/Seoul' }).format(now).toUpperCase();
 const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
 
 const FINISHED_STATUSES = new Set(['FT', 'AET', 'PEN', 'FINISHED', 'MATCH FINISHED']);
@@ -54,42 +50,6 @@ function matchView(item: Match) {
 ---
 
 <aside class="today-football" aria-label="오늘의 축구 안내">
-  <article class:list={['today-card', 'today-card--history', birthday?.imageUrl && 'today-card--with-portrait']} style={birthday?.imageUrl ? `--portrait:url('${birthday.imageUrl}')` : undefined}>
-    <span class="today-card__portrait" aria-hidden="true"></span>
-    <div class="today-card__top">
-      <p>ON THIS DAY</p>
-      <time datetime={today}>{dateLabel}</time>
-    </div>
-    {birthday ? (
-      <>
-        <div class="today-card__body">
-          <p class="today-card__eyebrow">오늘 태어난 축구인{birthdayState === 'fallback' ? ' · LOCAL' : ''}</p>
-          <h2>{birthday.name}</h2>
-          <p class="today-card__copy">{birthday.birthYear}년 오늘 태어났습니다.<br />오늘의 축구사에서 이름을 꺼내봅니다. 🎂</p>
-        </div>
-        <a class="today-card__cta" href={birthday.wikidataUrl} target="_blank" rel="noreferrer" aria-label={`${birthday.name} 인물 기록 보러가기`}><span>보러가기</span><i aria-hidden="true">↗</i></a>
-      </>
-    ) : birthdayState === 'unavailable' || birthdayState === 'stale' ? (
-      <>
-        <div class="today-card__body">
-          <p class="today-card__eyebrow">데이터 연결 지연</p>
-          <h2>오늘의 기록을 확인하고 있습니다</h2>
-          <p class="today-card__copy">생일 기록 갱신이 늦어지고 있어요.<br />확인되지 않은 인물을 대신 보여주지는 않습니다.</p>
-        </div>
-        <a class="today-card__cta" href="/archive/" aria-label="삥이 아카이브 보러가기"><span>보러가기</span><i aria-hidden="true">↗</i></a>
-      </>
-    ) : (
-      <>
-        <div class="today-card__body">
-          <p class="today-card__eyebrow">오늘의 축구사</p>
-          <h2>기록은 오늘도 계속됩니다</h2>
-          <p class="today-card__copy">오늘과 이어지는 오래된 축구 이야기를<br />삥이 아카이브에서 골라보세요. 🕰️</p>
-        </div>
-        <a class="today-card__cta" href="/archive/" aria-label="삥이 아카이브 보러가기"><span>보러가기</span><i aria-hidden="true">↗</i></a>
-      </>
-    )}
-  </article>
-
   <article class="today-card today-card--tonight">
     <div class="today-card__top">
       <p>EUROPE TONIGHT</p>
@@ -147,8 +107,8 @@ function matchView(item: Match) {
 </aside>
 
 <style>
-  .today-football { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:1px; margin:0 0 38px; border:1px solid var(--bbfc-border); background:var(--bbfc-border); }
-  .today-card { position:relative; min-width:0; min-height:224px; overflow:hidden; padding:22px 24px 20px; background:#fff; isolation:isolate; }
+  .today-football { display:flex; justify-content:flex-end; align-items:start; margin:0 0 38px; }
+  .today-card { position:relative; width:calc(50% - .5px); min-width:0; min-height:224px; overflow:hidden; padding:22px 24px 20px; border:1px solid var(--bbfc-border); background:#fff; isolation:isolate; }
   .today-card--tonight { background:linear-gradient(145deg,#10192b 0%,#182b50 62%,#2468dc 145%); color:#fff; }
   .today-card__top { position:relative; z-index:3; display:flex; justify-content:space-between; gap:16px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:10px; font-weight:800; letter-spacing:.15em; }
   .today-card--tonight .today-card__top { border-color:rgba(255,255,255,.18); color:rgba(255,255,255,.56); }
@@ -162,12 +122,6 @@ function matchView(item: Match) {
   .today-card__cta { position:absolute; z-index:4; right:18px; bottom:18px; height:38px; display:flex; align-items:center; justify-content:center; gap:7px; padding:0 13px 0 15px; border:1px solid rgba(255,255,255,.28); border-radius:999px; background:rgba(49,130,246,.68); box-shadow:0 8px 24px rgba(6,34,78,.2); color:#fff; font-size:10px; line-height:1; font-weight:800; letter-spacing:-.01em; white-space:nowrap; backdrop-filter:blur(9px); transition:transform .2s ease,background .2s ease,border-color .2s ease; }
   .today-card__cta i { width:18px; height:18px; display:grid; place-items:center; border-radius:50%; background:rgba(255,255,255,.18); font-family:Arial,sans-serif; font-size:11px; font-style:normal; }
   .today-card__cta:hover { transform:translateY(-2px); border-color:rgba(255,255,255,.5); background:rgba(49,130,246,.88); }
-  .today-card__portrait { position:absolute; z-index:1; inset:0; background-image:linear-gradient(0deg,rgba(5,12,23,.96) 0%,rgba(5,12,23,.72) 30%,rgba(5,12,23,.1) 66%,rgba(5,12,23,0) 100%),linear-gradient(90deg,rgba(5,12,23,.22) 0%,rgba(5,12,23,0) 60%),var(--portrait); background-position:center,center,52% 24%; background-size:cover,cover,auto 158%; background-repeat:no-repeat; opacity:0; }
-  .today-card--with-portrait { background:#0b1423; color:#fff; }
-  .today-card--with-portrait .today-card__portrait { opacity:1; }
-  .today-card--with-portrait .today-card__top { border-color:rgba(255,255,255,.2); color:rgba(255,255,255,.7); }
-  .today-card--with-portrait .today-card__eyebrow { color:#8bbcff; }
-  .today-card--with-portrait .today-card__copy { color:rgba(255,255,255,.76); }
   .match-list { position:relative; z-index:3; max-height:292px; margin:14px -8px 74px 0; padding-right:6px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:rgba(255,255,255,.26) transparent; }
   .match-row { padding:10px 8px 11px 0; border-bottom:1px solid rgba(255,255,255,.12); }
   .match-row:first-child { padding-top:2px; }
@@ -193,7 +147,6 @@ function matchView(item: Match) {
   @media (min-width: 1600px) {
     .today-football { position:absolute; inset:192px auto auto 50%; width:1px; margin:0; border:0; background:transparent; pointer-events:none; }
     .today-card { position:fixed; top:190px; width:clamp(170px,calc((100vw - 1230px) / 2),300px); min-height:310px; padding:20px 17px; border-top:2px solid var(--bbfc-ink); pointer-events:auto; }
-    .today-card--history { right:calc(50% + 600px); }
     .today-card--tonight { top:190px; left:calc(50% + 600px); min-height:min(460px,calc(100vh - 220px)); max-height:calc(100vh - 210px); }
     .today-card h2 { font-size:clamp(21px,1.45vw,27px); }
     .today-card__copy { font-size:11.5px; }
@@ -203,8 +156,8 @@ function matchView(item: Match) {
     .today-card__copy br { display:none; }
   }
   @media (max-width: 700px) {
-    .today-football { display:flex; gap:10px; margin-bottom:28px; padding:0 0 7px; overflow-x:auto; border:0; background:transparent; scroll-snap-type:x mandatory; scrollbar-width:thin; scrollbar-color:var(--bbfc-border) transparent; }
-    .today-card { flex:0 0 89%; min-height:224px; padding:18px 19px 17px; border:1px solid var(--bbfc-border); scroll-snap-align:start; }
+    .today-football { display:block; margin-bottom:28px; }
+    .today-card { width:100%; min-height:224px; padding:18px 19px 17px; border:1px solid var(--bbfc-border); }
     .today-card--tonight { min-height:390px; }
     .today-card h2 { font-size:24px; }
     .today-card__body { left:19px; right:108px; bottom:18px; }
