@@ -24,13 +24,13 @@ featured: false
     <p class="culture-person-card__roman" lang="en">Dua Lipa</p>
     <dl>
       <div><dt>풀네임</dt><dd>두아 리파 <span lang="en">(Dua Lipa)</span></dd></div>
-      <div><dt>출생</dt><dd><time datetime="1995-08-22">1995년 8월 22일</time> <span class="culture-person-card__age" data-birth-date="1995-08-22">(연 <span data-year-age>31</span>세/만 <span data-full-age>31</span>세)</span> · 영국 🇬🇧 런던</dd></div>
-      <div><dt>국적</dt><dd>영국 🇬🇧 · 알바니아 🇦🇱 · 코소보 🇽🇰</dd></div>
+      <div><dt>출생</dt><dd><time datetime="1995-08-22">1995년 8월 22일</time> <span class="culture-person-card__age" data-birth-date="1995-08-22">(연 <span data-year-age>31</span>세/만 <span data-full-age>31</span>세)</span> · 영국 <img class="flag" src="/images/flags/gb.svg" alt="영국 국기" /> 런던</dd></div>
+      <div><dt>국적</dt><dd>영국 <img class="flag" src="/images/flags/gb.svg" alt="영국 국기" /> · 알바니아 <img class="flag" src="/images/flags/al.svg" alt="알바니아 국기" /> · 코소보 <img class="flag" src="/images/flags/xk.svg" alt="코소보 국기" /></dd></div>
       <div><dt>직업</dt><dd>싱어송라이터, 배우</dd></div>
       <div><dt>대표 음악</dt><dd><span lang="en">New Rules · Future Nostalgia · Radical Optimism</span></dd></div>
       <div><dt>기록</dt><dd>그래미 어워드 3회 수상</dd></div>
       <div><dt>오늘의 옷</dt><dd>SSC 나폴리 2023-24 홈 유니폼</dd></div>
-      <div><dt>공식 채널</dt><dd><a class="culture-instagram-handle" href="https://www.instagram.com/dualipa/" aria-label="두아 리파 공식 인스타그램"><span lang="en">Instagram</span> @dualipa</a></dd></div>
+      <div><dt>공식 채널</dt><dd><a class="culture-instagram-handle" href="https://www.instagram.com/dualipa/" aria-label="두아 리파 공식 인스타그램"><span class="culture-instagram-brand" lang="en">Instagram</span> <span class="culture-instagram-id" lang="en">@dualipa</span></a></dd></div>
     </dl>
     <p class="culture-person-card__credit" lang="en">Vogue Italia, September 2026 · Photo Carlijn Jacobs · Styling Imruh</p>
   </div>
@@ -115,7 +115,16 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
   .culture-person-card dt { color: var(--bbfc-gray-2); font-size: 11px; line-height: 1.55; font-weight: 650; }
   .culture-person-card dd { margin: 0; color: var(--bbfc-ink-2); font-size: 13px; line-height: 1.55; }
   .culture-person-card__age { white-space: nowrap; }
-  .culture-instagram-handle { display: inline-block; background: linear-gradient(90deg, #833ab4 0%, #c13584 35%, #e1306c 56%, #f77737 78%, #fcaf45 100%); background-clip: text; -webkit-background-clip: text; color: transparent; font-weight: 760; text-decoration: none; }
+  .culture-person-card .flag { width: 1.35em; height: .9em; margin-left: .18em; border: 1px solid rgba(25, 31, 40, .12); border-radius: 2px; object-fit: cover; vertical-align: -.08em; }
+  .culture-instagram-handle { display: inline-block; color: #e1306c !important; font-weight: 760; text-decoration: none; }
+  .culture-instagram-brand { color: #c13584 !important; }
+  .culture-instagram-id { color: #f56040 !important; }
+  @supports ((background-clip: text) or (-webkit-background-clip: text)) {
+    .culture-instagram-brand,
+    .culture-instagram-id { background-clip: text !important; -webkit-background-clip: text !important; color: transparent !important; -webkit-text-fill-color: transparent !important; }
+    .culture-instagram-brand { background-image: linear-gradient(90deg, #833ab4 0%, #c13584 42%, #e1306c 70%, #f77737 100%) !important; }
+    .culture-instagram-id { background-image: linear-gradient(90deg, #e1306c 0%, #f56040 58%, #fcaf45 100%) !important; }
+  }
   .culture-instagram-handle:hover { text-decoration: underline; text-decoration-color: #e1306c; text-underline-offset: 3px; }
   .culture-instagram-handle:focus-visible { outline: 2px solid var(--bbfc-blue); outline-offset: 3px; border-radius: 2px; }
   .culture-person-card__credit { margin: 15px 0 0; color: var(--bbfc-gray-2); font-size: 10px; line-height: 1.55; }
@@ -133,6 +142,8 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
     .culture-kit-grid figcaption { font-size: 11px; }
   }
   @media (forced-colors: active) {
-    .culture-instagram-handle { background: none; color: LinkText; }
+    .culture-instagram-handle,
+    .culture-instagram-brand,
+    .culture-instagram-id { background: none !important; color: LinkText !important; -webkit-text-fill-color: LinkText !important; }
   }
 </style>
