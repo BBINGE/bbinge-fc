@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-25T21:26:14.438Z",
+  "updatedAt": "2026-08-25T22:25:17.976Z",
   "matches": [
     {
       "id": "2570479",
@@ -23,9 +23,9 @@
       "away": "셀틱",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 1,
-      "status": "2H",
+      "status": "ET",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
@@ -39,7 +39,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
       "homeScore": 3,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
