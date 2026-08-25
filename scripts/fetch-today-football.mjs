@@ -8,6 +8,7 @@ const RETRY_DELAYS = [0, 1_000, 3_000];
 const MATCH_LIMIT = 12;
 const MATCH_WINDOW_BEFORE = 12 * 60 * 60 * 1000;
 const MATCH_WINDOW_AFTER = 20 * 60 * 60 * 1000;
+const STANDINGS_LIMIT = 5;
 
 function koreaParts(date = new Date()) {
   const shifted = new Date(date.getTime() + KST_OFFSET);
@@ -58,6 +59,13 @@ const FEATURED_LEAGUES = [
 ];
 const FEATURED_LEAGUE_IDS = new Set(FEATURED_LEAGUES.map((league) => league.id));
 const FEATURED_LEAGUE_WEIGHTS = new Map(FEATURED_LEAGUES.map((league) => [league.id, league.weight]));
+const STANDINGS_LEAGUES = [
+  { id: '4328', label: '프리미어 리그' },
+  { id: '4335', label: '라리가' },
+  { id: '4332', label: '세리에 A' },
+  { id: '4331', label: '푸스발-분데스리가' },
+  { id: '4334', label: '리그 1' },
+];
 
 const BIG_CLUBS = [
   'real madrid', 'barcelona', 'manchester united', 'manchester city', 'liverpool', 'arsenal', 'chelsea',
@@ -92,6 +100,11 @@ function teamLabel(name) {
   if (!name) return '';
   const withoutSuffix = name.replace(/\s+FC$/i, '');
   return TEAM_LABELS[name] || TEAM_LABELS[withoutSuffix] || name;
+}
+
+function currentSeason(parts) {
+  const startYear = parts.month >= 7 ? parts.year : parts.year - 1;
+  return `${startYear}-${startYear + 1}`;
 }
 
 function nullableScore(value) {
@@ -256,6 +269,47 @@ async function fetchFootballDataMatches(date) {
     .map(({ score, ...event }) => event);
 }
 
+async function fetchStandings(season, previousStandings = []) {
+  const requests = STANDINGS_LEAGUES.map(async (league) => {
+    const url = new URL('https://www.thesportsdb.com/api/v1/json/123/lookuptable.php');
+    url.searchParams.set('l', league.id);
+    url.searchParams.set('s', season);
+    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB table ${league.id} ${season}`);
+    const rows = (Array.isArray(payload?.table) ? payload.table : []).slice(0, STANDINGS_LIMIT).map((row, index) => ({
+      rank: Number(row.intRank) || index + 1,
+      team: teamLabel(row.strTeam),
+      badge: row.strBadge || '',
+      played: Number(row.intPlayed) || 0,
+      goalDifference: Number(row.intGoalDifference) || 0,
+      points: Number(row.intPoints) || 0,
+    })).filter((row) => row.team);
+    return { leagueId: league.id, league: league.label, season, rows };
+  });
+  const results = await Promise.allSettled(requests);
+  const tables = [];
+  let usedPrevious = false;
+  for (let index = 0; index < STANDINGS_LEAGUES.length; index += 1) {
+    const league = STANDINGS_LEAGUES[index];
+    const result = results[index];
+    if (result.status === 'fulfilled' && result.value.rows.length) {
+      tables.push(result.value);
+      continue;
+    }
+    const previous = previousStandings.find((table) => table.leagueId === league.id && table.season === season && table.rows?.length);
+    if (previous) {
+      tables.push(previous);
+      usedPrevious = true;
+    }
+  }
+  const errors = results.filter((result) => result.status === 'rejected').map((result) => result.reason.message);
+  if (!tables.length && errors.length === results.length) throw new Error('TheSportsDB 유럽 주요리그 순위 요청 실패');
+  return {
+    standings: tables,
+    source: usedPrevious ? 'TheSportsDB + previous-data' : 'TheSportsDB',
+    error: errors.length ? `${errors.length}개 리그 순위 갱신 실패` : null,
+  };
+}
+
 async function previousData() {
   try {
     return JSON.parse(await readFile(outputPath, 'utf8'));
@@ -266,9 +320,11 @@ async function previousData() {
 
 const parts = koreaParts();
 const date = isoDate(parts);
+const season = currentSeason(parts);
 const previous = await previousData();
-const [matchesResult] = await Promise.allSettled([
+const [matchesResult, standingsResult] = await Promise.allSettled([
   fetchMatches(date, previous.matches || []),
+  fetchStandings(season, previous.standings || []),
 ]);
 
 let selectedMatches = [];
@@ -296,18 +352,43 @@ if (matchesResult.status === 'fulfilled') {
   }
 }
 
+let selectedStandings = [];
+let standingsState = 'unavailable';
+let standingsSource = 'none';
+let standingsError = null;
+if (standingsResult.status === 'fulfilled') {
+  selectedStandings = standingsResult.value.standings;
+  standingsState = selectedStandings.length
+    ? (standingsResult.value.source.includes('previous-data') ? 'fallback' : 'ok')
+    : 'empty';
+  standingsSource = standingsResult.value.source;
+  standingsError = standingsResult.value.error;
+} else if (previous.standings?.length) {
+  selectedStandings = previous.standings;
+  standingsState = 'fallback';
+  standingsSource = 'previous-data';
+  standingsError = standingsResult.reason.message;
+}
+
 const dataWithoutTimestamp = {
   date,
   matches: selectedMatches,
+  standings: selectedStandings,
   status: {
     matches: {
       state: matchesState,
       source: matchesSource,
       error: matchesResult.status === 'rejected' ? matchesResult.reason.message : null,
     },
+    standings: {
+      state: standingsState,
+      source: standingsSource,
+      error: standingsError,
+    },
   },
   sources: {
     matches: matchesSource,
+    standings: standingsSource,
   },
 };
 const { updatedAt: previousUpdatedAt, ...previousWithoutTimestamp } = previous;
@@ -323,3 +404,4 @@ await writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 console.log(JSON.stringify(data));
 
 if (matchesResult.status === 'rejected') console.warn(`TheSportsDB final: ${matchesResult.reason.message}`);
+if (standingsResult.status === 'rejected') console.warn(`TheSportsDB standings final: ${standingsResult.reason.message}`);

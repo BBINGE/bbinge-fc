@@ -9,6 +9,7 @@ const errors = [];
 
 if (data.date !== today) errors.push(`date mismatch: expected ${today}, received ${data.date}`);
 if (!allowed.has(data.status?.matches?.state)) errors.push('matches status missing or invalid');
+if (!allowed.has(data.status?.standings?.state)) errors.push('standings status missing or invalid');
 if (data.status?.matches?.state === 'ok' && !data.matches?.length) errors.push('matches state is ok but matches are empty');
 if (data.status?.matches?.state === 'empty' && data.matches?.length) errors.push('matches state is empty but matches exist');
 if ((data.matches?.length ?? 0) > 12) errors.push('matches exceed display limit of 12');
@@ -19,9 +20,19 @@ for (const match of data.matches ?? []) {
   if (homeHasScore !== awayHasScore) errors.push(`incomplete score pair: ${match.id}`);
   if (!match.home || !match.away) errors.push(`team name missing: ${match.id}`);
 }
+if ((data.standings?.length ?? 0) > 5) errors.push('standings exceed display limit of 5 leagues');
+for (const table of data.standings ?? []) {
+  if (!table.leagueId || !table.league || !table.season) errors.push('standings league metadata missing');
+  if (!table.rows?.length || table.rows.length > 5) errors.push(`invalid standings row count: ${table.leagueId}`);
+  for (const row of table.rows ?? []) {
+    if (!Number.isInteger(row.rank) || !row.team || !Number.isInteger(row.played) || !Number.isInteger(row.points)) {
+      errors.push(`invalid standings row: ${table.leagueId}`);
+    }
+  }
+}
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
 
-console.log(JSON.stringify({ date: data.date, matches: data.status.matches }));
+console.log(JSON.stringify({ date: data.date, matches: data.status.matches, standings: data.status.standings }));

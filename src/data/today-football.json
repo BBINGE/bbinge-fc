@@ -1,15 +1,258 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T07:42:14.172Z",
+  "updatedAt": "2026-08-25T07:56:40.128Z",
   "matches": [],
+  "standings": [
+    {
+      "leagueId": "4328",
+      "league": "프리미어 리그",
+      "season": "2026-2027",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "브라이턴",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/ywypts1448810904.png/tiny",
+          "played": 1,
+          "goalDifference": 4,
+          "points": 3
+        },
+        {
+          "rank": 2,
+          "team": "아스널",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png/tiny",
+          "played": 1,
+          "goalDifference": 3,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "team": "브렌트퍼드",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/grv1aw1546453779.png/tiny",
+          "played": 1,
+          "goalDifference": 3,
+          "points": 3
+        },
+        {
+          "rank": 4,
+          "team": "에버턴",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/eqayrf1523184794.png/tiny",
+          "played": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 5,
+          "team": "헐 시티",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/fbqqda1601726113.png/tiny",
+          "played": 1,
+          "goalDifference": 2,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "leagueId": "4335",
+      "league": "라리가",
+      "season": "2026-2027",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "세비야",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/vpsqqx1473502977.png/tiny",
+          "played": 2,
+          "goalDifference": 3,
+          "points": 6
+        },
+        {
+          "rank": 2,
+          "team": "데포르티보 알라베스",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png/tiny",
+          "played": 2,
+          "goalDifference": 3,
+          "points": 4
+        },
+        {
+          "rank": 3,
+          "team": "아틀레티코 마드리드",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png/tiny",
+          "played": 2,
+          "goalDifference": 2,
+          "points": 4
+        },
+        {
+          "rank": 4,
+          "team": "바르셀로나",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png/tiny",
+          "played": 1,
+          "goalDifference": 5,
+          "points": 3
+        },
+        {
+          "rank": 5,
+          "team": "에스파뇰",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/867nzz1681703222.png/tiny",
+          "played": 2,
+          "goalDifference": 2,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "leagueId": "4332",
+      "league": "세리에 A",
+      "season": "2026-2027",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "인테르나치오날레",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png/tiny",
+          "played": 1,
+          "goalDifference": 3,
+          "points": 3
+        },
+        {
+          "rank": 2,
+          "team": "나폴리",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png/tiny",
+          "played": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "team": "레체",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png/tiny",
+          "played": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 4,
+          "team": "AC 밀란",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png/tiny",
+          "played": 1,
+          "goalDifference": 1,
+          "points": 3
+        },
+        {
+          "rank": 5,
+          "team": "아탈란타",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png/tiny",
+          "played": 1,
+          "goalDifference": 1,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "leagueId": "4331",
+      "league": "푸스발-분데스리가",
+      "season": "2026-2027",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "바이에른 뮌헨",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png/tiny",
+          "played": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "보루시아 도르트문트",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/tqo8ge1716960353.png/tiny",
+          "played": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "RB 라이프치히",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png/tiny",
+          "played": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "슈투트가르트",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png/tiny",
+          "played": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 5,
+          "team": "호펜하임",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/9hwvb21621593919.png/tiny",
+          "played": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "leagueId": "4334",
+      "league": "리그 1",
+      "season": "2026-2027",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "올랭피크 드 마르세유",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/c6bazh1779212287.png/tiny",
+          "played": 1,
+          "goalDifference": 4,
+          "points": 3
+        },
+        {
+          "rank": 2,
+          "team": "랑스",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png/tiny",
+          "played": 1,
+          "goalDifference": 3,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "team": "릴",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/2giize1534005340.png/tiny",
+          "played": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 4,
+          "team": "올랭피크 리옹",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png/tiny",
+          "played": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "rank": 5,
+          "team": "AS 모나코",
+          "badge": "https://r2.thesportsdb.com/images/media/team/badge/exjf5l1678808044.png/tiny",
+          "played": 1,
+          "goalDifference": 1,
+          "points": 3
+        }
+      ]
+    }
+  ],
   "status": {
     "matches": {
       "state": "empty",
       "source": "TheSportsDB",
       "error": null
+    },
+    "standings": {
+      "state": "ok",
+      "source": "TheSportsDB",
+      "error": null
     }
   },
   "sources": {
-    "matches": "TheSportsDB"
+    "matches": "TheSportsDB",
+    "standings": "TheSportsDB"
   }
 }
