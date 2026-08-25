@@ -16,9 +16,9 @@ fashionProfile:
   eyebrow: 'PROFILE · K-POP ARTIST'
   name: '제니'
   romanName: 'JENNIE'
-  portrait: '/images/culture/jennie-manchester-united-teamgeist/manutd-official-post.jpg'
-  portraitAlt: '맨체스터 유나이티드가 공식 Instagram에 소개한 팀가이스트 저지 차림의 제니'
-  portraitCredit: 'Manchester United official Instagram, August 2022'
+  portrait: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
+  portraitAlt: '맨체스터 유나이티드 팀가이스트 저지와 진주 목걸이를 함께 착용한 제니의 화보'
+  portraitCredit: 'Pink Venom style editorial · Image Double Kick'
   facts:
     - label: '풀네임'
       value: '김제니 (Jennie Kim)'
@@ -126,16 +126,21 @@ fashionProfile:
   .fashion-wide-figure img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); }
   .fashion-kit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 44px 0 54px; }
   .fashion-kit-grid figure { margin: 0; }
-  .fashion-kit-grid img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: #111; }
-  .fashion-style-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin: 34px 0 50px; border: 1px solid var(--bbfc-border); background: var(--bbfc-border); }
-  .fashion-style-notes section { padding: 24px 22px; background: #fff; }
-  .fashion-style-notes strong { color: var(--bbfc-blue); font-size: 12px; letter-spacing: .08em; }
-  .fashion-style-notes p { margin: 14px 0 0; font-size: 14px; line-height: 1.8; }
+  .fashion-kit-grid img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid #253129; border-radius: var(--bbfc-radius-lg); background: #111; filter: brightness(1.48) contrast(.96) saturate(1.08); }
+  .fashion-style-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin: 34px 0 50px; border: 1px solid #222a35; background: #222a35; box-shadow: 0 20px 44px -38px rgba(0,0,0,.9); }
+  .fashion-style-notes section { position: relative; min-height: 224px; overflow: hidden; padding: 27px 24px; background: #080a0d; isolation: isolate; }
+  .fashion-style-notes section::before { content: ''; position: absolute; z-index: -2; width: 250px; height: 250px; right: -58px; bottom: -68px; border-radius: 50%; background-image: url('/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-front.jpg'); background-repeat: no-repeat; background-size: 1160px 1160px; background-position: 64% 33%; opacity: .1; filter: saturate(1.25) brightness(1.5); }
+  .fashion-style-notes section::after { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(112deg, rgba(8,10,13,.98) 0%, rgba(8,10,13,.9) 58%, rgba(8,10,13,.44) 100%); }
+  .fashion-style-notes strong { display: block; max-width: 210px; color: #fff; font-size: 13px; line-height: 1.55; letter-spacing: .045em; }
+  .fashion-style-notes strong::before { content: ''; display: block; width: 28px; height: 2px; margin-bottom: 17px; background: var(--bbfc-blue); }
+  .fashion-style-notes p { max-width: 230px; margin: 17px 0 0; color: #d7dce4; font-size: 13.5px; line-height: 1.85; }
   @media (max-width: 640px) {
     .fashion-wide-figure { margin: 36px 0 42px; }
     .fashion-kit-grid { gap: 8px; margin: 36px 0 44px; }
     .fashion-kit-grid figcaption { font-size: 11px; }
     .fashion-style-notes { grid-template-columns: 1fr; margin-top: 28px; }
-    .fashion-style-notes section { padding: 20px 18px; }
+    .fashion-style-notes section { min-height: 0; padding: 24px 21px 27px; }
+    .fashion-style-notes section::before { right: -40px; bottom: -80px; }
+    .fashion-style-notes strong, .fashion-style-notes p { max-width: 260px; }
   }
 </style>
