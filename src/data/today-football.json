@@ -1,25 +1,10 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T07:01:28.004Z",
-  "matches": [
-    {
-      "id": "2506182",
-      "league": "라리가",
-      "home": "말라가",
-      "away": "데포르티보 라코루냐",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/upqyvr1473502952.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/62bvwv1783013156.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "FT",
-      "progress": "",
-      "time": "04:30",
-      "date": "2026-08-25"
-    }
-  ],
+  "updatedAt": "2026-08-25T07:42:14.172Z",
+  "matches": [],
   "status": {
     "matches": {
-      "state": "ok",
+      "state": "empty",
       "source": "TheSportsDB",
       "error": null
     }
