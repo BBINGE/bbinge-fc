@@ -6,7 +6,6 @@ const teamLabelsPath = resolve('src/data/football-team-labels.json');
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const RETRY_DELAYS = [0, 1_000, 3_000];
 const MATCH_LIMIT = 12;
-const MATCH_WINDOW_BEFORE = 12 * 60 * 60 * 1000;
 const MATCH_WINDOW_AFTER = 20 * 60 * 60 * 1000;
 const STANDINGS_LIMIT = 5;
 
@@ -57,8 +56,6 @@ const FEATURED_LEAGUES = [
   { id: '4481', weight: 80 },  // UEFA Europa League
   { id: '4337', weight: 75 },  // Dutch Eredivisie
 ];
-const FEATURED_LEAGUE_IDS = new Set(FEATURED_LEAGUES.map((league) => league.id));
-const FEATURED_LEAGUE_WEIGHTS = new Map(FEATURED_LEAGUES.map((league) => [league.id, league.weight]));
 const STANDINGS_LEAGUES = [
   { id: '4328', label: '프리미어 리그' },
   { id: '4335', label: '라리가' },
@@ -102,6 +99,15 @@ function teamLabel(name) {
   return TEAM_LABELS[name] || TEAM_LABELS[withoutSuffix] || name;
 }
 
+async function settleInBatches(tasks, batchSize = 4, pauseMs = 250) {
+  const results = [];
+  for (let index = 0; index < tasks.length; index += batchSize) {
+    results.push(...await Promise.allSettled(tasks.slice(index, index + batchSize).map((task) => task())));
+    if (index + batchSize < tasks.length) await wait(pauseMs);
+  }
+  return results;
+}
+
 function currentSeason(parts) {
   const startYear = parts.month >= 7 ? parts.year : parts.year - 1;
   return `${startYear}-${startYear + 1}`;
@@ -121,6 +127,17 @@ function eventScore(event, leagueWeight) {
 
 function utcDate(date) {
   return date.toISOString().slice(0, 10);
+}
+
+function utcDatesBetween(start, end) {
+  const dates = [];
+  const cursor = new Date(`${utcDate(start)}T00:00:00Z`);
+  const last = new Date(`${utcDate(end)}T00:00:00Z`);
+  while (cursor <= last) {
+    dates.push(utcDate(cursor));
+    cursor.setUTCDate(cursor.getUTCDate() + 1);
+  }
+  return dates;
 }
 
 function parseUtcTimestamp(value) {
@@ -155,37 +172,24 @@ function curateMatches(events) {
 }
 
 async function fetchMatches(date, previousMatches = []) {
-  const windowStart = new Date(Date.now() - MATCH_WINDOW_BEFORE);
+  const todayStart = new Date(`${date}T00:00:00+09:00`);
+  const koreaWeekday = new Date(Date.now() + KST_OFFSET).getUTCDay();
+  const weekendRetentionDays = koreaWeekday === 1 ? 2 : 0;
+  const windowStart = new Date(todayStart.getTime() - weekendRetentionDays * 86_400_000);
   const windowEnd = new Date(Date.now() + MATCH_WINDOW_AFTER);
-  const queryDates = [...new Set([utcDate(windowStart), utcDate(windowEnd)])];
-  const requests = FEATURED_LEAGUES.flatMap((league) => queryDates.map(async (queryDate) => {
+  const queryDates = utcDatesBetween(windowStart, windowEnd);
+  const requests = FEATURED_LEAGUES.flatMap((league) => queryDates.map((queryDate) => async () => {
     const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
     url.searchParams.set('d', queryDate);
     url.searchParams.set('l', league.id);
     const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB league ${league.id} ${queryDate}`);
     return (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({ event, weight: league.weight }));
   }));
-  const results = await Promise.allSettled(requests);
-  const featuredRequestSucceeded = results.some((result) => result.status === 'fulfilled');
+  const results = await settleInBatches(requests, 2, 650);
+  const requestSucceeded = results.some((result) => result.status === 'fulfilled');
   const hasPartialFailure = results.some((result) => result.status === 'rejected');
   let events = results.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
-  if (!events.length) {
-    const fallbackResults = await Promise.allSettled(queryDates.map(async (queryDate) => {
-      const url = new URL('https://www.thesportsdb.com/api/v1/json/123/eventsday.php');
-      url.searchParams.set('d', queryDate);
-      url.searchParams.set('s', 'Soccer');
-      const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB all soccer ${queryDate}`);
-      return (Array.isArray(payload?.events) ? payload.events : []).map((event) => ({
-        event,
-        weight: FEATURED_LEAGUE_WEIGHTS.get(event.idLeague) ?? 0,
-      }));
-    }));
-    const fallbackRequestSucceeded = fallbackResults.some((result) => result.status === 'fulfilled');
-    const fallbackEvents = fallbackResults.flatMap((result) => result.status === 'fulfilled' ? result.value : []);
-    if (!featuredRequestSucceeded && !fallbackRequestSucceeded) throw new Error('TheSportsDB 유럽 주요리그 및 전체 축구 일정 요청 실패');
-    const featuredFallbacks = fallbackEvents.filter(({ event }) => FEATURED_LEAGUE_IDS.has(event.idLeague));
-    events = featuredFallbacks.length ? featuredFallbacks : fallbackEvents;
-  }
+  if (!requestSucceeded) throw new Error('TheSportsDB 유럽 주요리그 및 전체 축구 일정 요청 실패');
   const normalizedEvents = events.map(({ event, weight }) => {
     const timestamp = parseUtcTimestamp(event.strTimestamp);
     const validTimestamp = Boolean(timestamp);
@@ -270,7 +274,7 @@ async function fetchFootballDataMatches(date) {
 }
 
 async function fetchStandings(season, previousStandings = []) {
-  const requests = STANDINGS_LEAGUES.map(async (league) => {
+  const requests = STANDINGS_LEAGUES.map((league) => async () => {
     const url = new URL('https://www.thesportsdb.com/api/v1/json/123/lookuptable.php');
     url.searchParams.set('l', league.id);
     url.searchParams.set('s', season);
@@ -285,7 +289,7 @@ async function fetchStandings(season, previousStandings = []) {
     })).filter((row) => row.team);
     return { leagueId: league.id, league: league.label, season, rows };
   });
-  const results = await Promise.allSettled(requests);
+  const results = await settleInBatches(requests, 1, 650);
   const tables = [];
   let usedPrevious = false;
   for (let index = 0; index < STANDINGS_LEAGUES.length; index += 1) {
@@ -322,10 +326,9 @@ const parts = koreaParts();
 const date = isoDate(parts);
 const season = currentSeason(parts);
 const previous = await previousData();
-const [matchesResult, standingsResult] = await Promise.allSettled([
-  fetchMatches(date, previous.matches || []),
-  fetchStandings(season, previous.standings || []),
-]);
+const [matchesResult] = await Promise.allSettled([fetchMatches(date, previous.matches || [])]);
+await wait(650);
+const [standingsResult] = await Promise.allSettled([fetchStandings(season, previous.standings || [])]);
 
 let selectedMatches = [];
 let matchesState = 'unavailable';

@@ -28,8 +28,7 @@ const standings = (isCurrent ? todayData.standings : []).slice(0, 5) as Standing
 const match = matches[0] ?? null;
 const matchState = (isCurrent ? todayData.status?.matches?.state : 'stale') as DataState;
 const standingsState = (isCurrent ? todayData.status?.standings?.state : 'stale') as DataState;
-const matchCountLabel = matches.length ? `${matches.length} GAMES` : standings.length ? `${standings.length} LEAGUES` : 'TODAY';
-const cardTitle = matches.length ? 'EUROPE TONIGHT' : standings.length ? 'EUROPE TABLE' : 'EUROPE TONIGHT';
+const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
 
 const FINISHED_STATUSES = new Set(['FT', 'AET', 'PEN', 'FINISHED', 'MATCH FINISHED']);
 const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
@@ -55,13 +54,14 @@ function matchView(item: Match) {
 ---
 
 <aside class="today-football" aria-label="오늘의 축구 안내">
-  <article class="today-card today-card--tonight">
+  <article class:list={['today-card', 'today-card--tonight', match && standings.length && 'today-card--combined']}>
     <div class="today-card__top">
-      <p>{cardTitle}</p>
+      <p>EUROPE TODAY</p>
       <time datetime={match?.date || today}>{matchCountLabel}</time>
     </div>
     {match ? (
-      <>
+      <section class="fixtures-section" aria-label="최근 경기 결과와 예정 경기">
+        <div class="fixtures-heading"><strong>경기 결과·일정</strong><span>한국시간</span></div>
         <div class="match-list" aria-label="오늘 밤 유럽 주요 축구 경기">
           {matches.map((item) => {
             const view = matchView(item);
@@ -83,14 +83,15 @@ function matchView(item: Match) {
             );
           })}
         </div>
-        <div class="today-card__body tonight-summary">
-          <p class="today-card__eyebrow">주요리그 경기 큐레이션</p>
-          <p class="today-card__copy">오늘 밤부터 내일 오전까지, 한국 시간으로 모았습니다.</p>
-        </div>
-        <a class="today-card__cta" href="/highlights/" aria-label="하이라이트 보러가기"><span>보러가기</span><i aria-hidden="true">↗</i></a>
-      </>
-    ) : standings.length ? (
-      <>
+      </section>
+    ) : (
+      <div class:list={['fixtures-empty', (matchState === 'unavailable' || matchState === 'stale') && 'fixtures-empty--delayed']}>
+        <strong>{matchState === 'unavailable' || matchState === 'stale' ? '경기 일정을 확인하고 있습니다' : '오늘 예정된 주요 경기가 없습니다'}</strong>
+        <span>{matchState === 'unavailable' || matchState === 'stale' ? '제공처 응답이 늦어져 순위표를 먼저 보여드립니다.' : '아래에서 유럽 주요리그 순위를 확인해보세요.'}</span>
+      </div>
+    )}
+    {standings.length ? (
+      <section class="standings-section" aria-label="유럽 주요리그 순위">
         <div class="standings-toolbar">
           <div>
             <strong>유럽 주요리그 현재 순위</strong>
@@ -124,26 +125,12 @@ function matchView(item: Match) {
             </section>
           ))}
         </div>
-        <p class="standings-note">오늘 예정 경기가 없어 순위표를 보여드립니다.{standingsState === 'fallback' ? ' · 직전 갱신값' : ''}</p>
-      </>
-    ) : matchState === 'unavailable' || matchState === 'stale' || standingsState === 'unavailable' || standingsState === 'stale' ? (
-      <>
-        <div class="today-card__body">
-          <p class="today-card__eyebrow">일정 연결 지연</p>
-          <h2>오늘 경기를 확인하고 있습니다</h2>
-          <p class="today-card__copy">일정 제공처 응답이 늦어지고 있어요.<br />경기가 없다고 단정하지 않고 다시 확인합니다.</p>
-        </div>
-        <a class="today-card__cta" href="/highlights/" aria-label="명경기 하이라이트 보러가기"><span>보러가기</span><i aria-hidden="true">↗</i></a>
-      </>
+        <p class="standings-note">TheSportsDB 기준 · 리그별 상위 5팀{standingsState === 'fallback' ? ' · 직전 갱신값' : ''}</p>
+      </section>
     ) : (
-      <>
-        <div class="today-card__body">
-          <p class="today-card__eyebrow">오늘 밤 어디 볼까?</p>
-          <h2>오늘 밤은 잠시 조용합니다</h2>
-          <p class="today-card__copy">실시간 일정이 쉬어가는 동안<br />옛 결승전 한 편은 어떨까요? 📼</p>
-        </div>
-        <a class="today-card__cta" href="/highlights/" aria-label="명경기 하이라이트 보러가기"><span>보러가기</span><i aria-hidden="true">↗</i></a>
-      </>
+      <div class="standings-empty">
+        <strong>{standingsState === 'unavailable' || standingsState === 'stale' ? '순위표를 갱신하고 있습니다' : '현재 순위 정보가 없습니다'}</strong>
+      </div>
     )}
   </article>
 </aside>
@@ -164,19 +151,18 @@ function matchView(item: Match) {
   .today-football { display:flex; justify-content:flex-end; align-items:start; margin:0 0 38px; }
   .today-card { position:relative; width:calc(50% - .5px); min-width:0; min-height:224px; overflow:hidden; padding:22px 24px 20px; border:1px solid var(--bbfc-border); background:#fff; isolation:isolate; }
   .today-card--tonight { background:linear-gradient(145deg,#10192b 0%,#182b50 62%,#2468dc 145%); color:#fff; }
+  .today-card--combined { min-height:560px; }
   .today-card__top { position:relative; z-index:3; display:flex; justify-content:space-between; gap:16px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:10px; font-weight:800; letter-spacing:.15em; }
   .today-card--tonight .today-card__top { border-color:rgba(255,255,255,.18); color:rgba(255,255,255,.56); }
-  .today-card__body { position:absolute; z-index:3; left:24px; right:116px; bottom:20px; }
-  .today-card__eyebrow { color:var(--bbfc-blue); font-size:10px; font-weight:800; letter-spacing:.07em; }
-  .today-card--tonight .today-card__eyebrow { color:#79aefc; }
-  .today-card h2 { margin-top:6px; font-size:26px; line-height:1.18; font-weight:760; letter-spacing:-.05em; text-wrap:balance; }
-  .today-card h2 span { color:var(--bbfc-gray-3); font-family:Georgia,serif; font-size:.72em; font-weight:400; font-style:italic; }
-  .today-card__copy { margin-top:9px; color:var(--bbfc-gray-1); font-size:12px; line-height:1.6; }
-  .today-card--tonight .today-card__copy { color:rgba(255,255,255,.66); }
-  .today-card__cta { position:absolute; z-index:4; right:18px; bottom:18px; height:38px; display:flex; align-items:center; justify-content:center; gap:7px; padding:0 13px 0 15px; border:1px solid rgba(255,255,255,.28); border-radius:999px; background:rgba(49,130,246,.68); box-shadow:0 8px 24px rgba(6,34,78,.2); color:#fff; font-size:10px; line-height:1; font-weight:800; letter-spacing:-.01em; white-space:nowrap; backdrop-filter:blur(9px); transition:transform .2s ease,background .2s ease,border-color .2s ease; }
-  .today-card__cta i { width:18px; height:18px; display:grid; place-items:center; border-radius:50%; background:rgba(255,255,255,.18); font-family:Arial,sans-serif; font-size:11px; font-style:normal; }
-  .today-card__cta:hover { transform:translateY(-2px); border-color:rgba(255,255,255,.5); background:rgba(49,130,246,.88); }
-  .match-list { position:relative; z-index:3; max-height:292px; margin:14px -8px 74px 0; padding-right:6px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:rgba(255,255,255,.26) transparent; }
+  .fixtures-section { position:relative; z-index:3; }
+  .fixtures-heading { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:13px; color:rgba(255,255,255,.48); font-size:8px; letter-spacing:.05em; }
+  .fixtures-heading strong { color:#fff; font-size:11px; letter-spacing:0; }
+  .fixtures-empty,.standings-empty { position:relative; z-index:3; display:flex; flex-direction:column; gap:5px; margin-top:13px; padding:14px 0; border-bottom:1px solid rgba(255,255,255,.14); }
+  .fixtures-empty strong,.standings-empty strong { color:#fff; font-size:11px; }
+  .fixtures-empty span { color:rgba(255,255,255,.5); font-size:8.5px; line-height:1.45; }
+  .fixtures-empty--delayed strong { color:#86b7ff; }
+  .standings-empty { border-bottom:0; }
+  .match-list { position:relative; z-index:3; max-height:190px; margin:8px -8px 0 0; padding-right:6px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:rgba(255,255,255,.26) transparent; }
   .match-row { padding:10px 8px 11px 0; border-bottom:1px solid rgba(255,255,255,.12); }
   .match-row:first-child { padding-top:2px; }
   .match-row__meta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:7px; color:rgba(255,255,255,.5); font-size:8px; font-weight:750; letter-spacing:.06em; }
@@ -195,7 +181,8 @@ function matchView(item: Match) {
   .match-row--finished .match-row__meta time { color:rgba(255,255,255,.7); }
   .match-row--postponed { opacity:.58; }
   @keyframes score-live { 50% { opacity:.42; transform:scale(.76); } }
-  .standings-toolbar { position:relative; z-index:3; display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin-top:13px; }
+  .standings-section { position:relative; z-index:3; margin-top:14px; padding-top:12px; border-top:1px solid rgba(255,255,255,.18); }
+  .standings-toolbar { display:flex; align-items:flex-end; justify-content:space-between; gap:10px; }
   .standings-toolbar strong { display:block; color:#fff; font-size:12px; line-height:1.2; }
   .standings-toolbar span { display:block; margin-top:4px; color:rgba(255,255,255,.5); font-size:8.5px; }
   .standings-controls { display:flex; gap:5px; }
@@ -218,32 +205,24 @@ function matchView(item: Match) {
   .standings-slide li span:nth-of-type(1) { grid-column:2; }
   .standings-slide li span:nth-of-type(2) { grid-column:3; }
   .standings-slide li em { grid-column:4; color:#fff; font-size:10px; font-style:normal; font-weight:800; }
-  .standings-note { position:relative; z-index:3; margin-top:9px; color:rgba(255,255,255,.45); font-size:8px; line-height:1.4; }
-  .today-card--tonight .tonight-summary { right:112px; }
+  .standings-note { margin-top:8px; color:rgba(255,255,255,.45); font-size:8px; line-height:1.4; }
   .today-card--tonight::after { content:""; position:absolute; z-index:2; inset:auto 0 0; height:58%; background:linear-gradient(0deg,rgba(4,12,27,.74),rgba(4,12,27,0)); pointer-events:none; }
 
   @media (min-width: 1600px) {
     .today-football { position:absolute; inset:192px auto auto 50%; width:1px; margin:0; border:0; background:transparent; pointer-events:none; }
     .today-card { position:fixed; top:190px; width:clamp(170px,calc((100vw - 1230px) / 2),300px); min-height:310px; padding:20px 17px; border-top:2px solid var(--bbfc-ink); pointer-events:auto; }
     .today-card--tonight { top:190px; left:calc(50% + 600px); min-height:min(460px,calc(100vh - 220px)); max-height:calc(100vh - 210px); }
-    .today-card h2 { font-size:clamp(21px,1.45vw,27px); }
-    .today-card__copy { font-size:11.5px; }
-    .today-card__body { left:17px; right:110px; bottom:18px; }
-    .today-card__cta { right:14px; bottom:14px; height:36px; padding-inline:12px; }
-    .match-list { max-height:calc(100vh - 350px); }
+    .today-card--tonight.today-card--combined { height:min(650px,calc(100vh - 220px)); min-height:0; }
+    .today-card--combined .match-list { max-height:clamp(105px,calc(100vh - 610px),220px); }
     .standings-toolbar span { display:none; }
     .standings-slide li { min-height:32px; }
-    .today-card__copy br { display:none; }
   }
   @media (max-width: 700px) {
     .today-football { display:block; margin-bottom:28px; }
     .today-card { width:100%; min-height:224px; padding:18px 19px 17px; border:1px solid var(--bbfc-border); }
     .today-card--tonight { min-height:390px; }
-    .today-card h2 { font-size:24px; }
-    .today-card__body { left:19px; right:108px; bottom:18px; }
-    .today-card__cta { right:15px; bottom:15px; height:36px; padding-inline:12px; }
-    .today-card__copy br { display:none; }
-    .match-list { max-height:230px; margin-bottom:72px; }
+    .today-card--combined { min-height:560px; }
+    .match-list { max-height:180px; }
     .standings-slide li { min-height:36px; }
   }
   @media (prefers-reduced-motion: reduce) { .standings-carousel { scroll-behavior:auto; } }
