@@ -7,7 +7,7 @@ const KST_OFFSET = 9 * 60 * 60 * 1000;
 const RETRY_DELAYS = [0, 1_000, 3_000];
 const MATCH_LIMIT = 12;
 const MATCH_WINDOW_AFTER = 20 * 60 * 60 * 1000;
-const STANDINGS_LIMIT = 5;
+const STANDINGS_LIMIT = 24;
 
 function koreaParts(date = new Date()) {
   const shifted = new Date(date.getTime() + KST_OFFSET);
@@ -57,11 +57,11 @@ const FEATURED_LEAGUES = [
   { id: '4337', weight: 75 },  // Dutch Eredivisie
 ];
 const STANDINGS_LEAGUES = [
-  { id: '4328', label: '프리미어 리그' },
-  { id: '4335', label: '라리가' },
-  { id: '4332', label: '세리에 A' },
-  { id: '4331', label: '푸스발-분데스리가' },
-  { id: '4334', label: '리그 1' },
+  { id: '4328', espn: 'eng.1', label: '프리미어 리그' },
+  { id: '4335', espn: 'esp.1', label: '라리가' },
+  { id: '4332', espn: 'ita.1', label: '세리에 A' },
+  { id: '4331', espn: 'ger.1', label: '푸스발-분데스리가' },
+  { id: '4334', espn: 'fra.1', label: '리그 1' },
 ];
 
 const BIG_CLUBS = [
@@ -275,28 +275,55 @@ async function fetchFootballDataMatches(date) {
 
 async function fetchStandings(season, previousStandings = []) {
   const requests = STANDINGS_LEAGUES.map((league) => async () => {
-    const url = new URL('https://www.thesportsdb.com/api/v1/json/123/lookuptable.php');
-    url.searchParams.set('l', league.id);
-    url.searchParams.set('s', season);
-    const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB table ${league.id} ${season}`);
-    const rows = (Array.isArray(payload?.table) ? payload.table : []).slice(0, STANDINGS_LIMIT).map((row, index) => ({
-      rank: Number(row.intRank) || index + 1,
-      team: teamLabel(row.strTeam),
-      badge: row.strBadge || '',
-      played: Number(row.intPlayed) || 0,
-      goalDifference: Number(row.intGoalDifference) || 0,
-      points: Number(row.intPoints) || 0,
-    })).filter((row) => row.team);
-    return { leagueId: league.id, league: league.label, season, rows };
+    try {
+      const url = new URL(`https://site.web.api.espn.com/apis/v2/sports/soccer/${league.espn}/standings`);
+      const payload = await fetchJson(url, {
+        headers: { Accept: 'application/json', 'User-Agent': 'BBinge-FC/1.0 (+https://bbingefc.com)' },
+      }, `ESPN table ${league.espn}`);
+      const entries = Array.isArray(payload?.children?.[0]?.standings?.entries)
+        ? payload.children[0].standings.entries
+        : [];
+      const rows = entries.slice(0, STANDINGS_LIMIT).map((entry, index) => {
+        const stats = new Map((Array.isArray(entry?.stats) ? entry.stats : []).map((stat) => [stat.name, Number(stat.value)]));
+        return {
+          rank: stats.get('rank') || index + 1,
+          team: teamLabel(entry?.team?.displayName || entry?.team?.name),
+          badge: entry?.team?.logos?.[0]?.href || '',
+          played: stats.get('gamesPlayed') || 0,
+          goalDifference: stats.get('pointDifferential') || 0,
+          points: stats.get('points') || 0,
+        };
+      }).filter((row) => row.team);
+      if (rows.length < 10) throw new Error(`전체 순위 행 부족: ${rows.length}`);
+      return { leagueId: league.id, league: league.label, season, rows, provider: 'ESPN' };
+    } catch (espnError) {
+      console.warn(`ESPN standings fallback ${league.espn}: ${espnError.message}`);
+      const url = new URL('https://www.thesportsdb.com/api/v1/json/123/lookuptable.php');
+      url.searchParams.set('l', league.id);
+      url.searchParams.set('s', season);
+      const payload = await fetchJson(url, { headers: { Accept: 'application/json' } }, `TheSportsDB table ${league.id} ${season}`);
+      const rows = (Array.isArray(payload?.table) ? payload.table : []).slice(0, STANDINGS_LIMIT).map((row, index) => ({
+        rank: Number(row.intRank) || index + 1,
+        team: teamLabel(row.strTeam),
+        badge: row.strBadge || '',
+        played: Number(row.intPlayed) || 0,
+        goalDifference: Number(row.intGoalDifference) || 0,
+        points: Number(row.intPoints) || 0,
+      })).filter((row) => row.team);
+      return { leagueId: league.id, league: league.label, season, rows, provider: 'TheSportsDB' };
+    }
   });
   const results = await settleInBatches(requests, 1, 650);
   const tables = [];
   let usedPrevious = false;
+  let usedTheSportsDb = false;
   for (let index = 0; index < STANDINGS_LEAGUES.length; index += 1) {
     const league = STANDINGS_LEAGUES[index];
     const result = results[index];
     if (result.status === 'fulfilled' && result.value.rows.length) {
-      tables.push(result.value);
+      const { provider, ...table } = result.value;
+      tables.push(table);
+      usedTheSportsDb ||= provider === 'TheSportsDB';
       continue;
     }
     const previous = previousStandings.find((table) => table.leagueId === league.id && table.season === season && table.rows?.length);
@@ -309,7 +336,9 @@ async function fetchStandings(season, previousStandings = []) {
   if (!tables.length && errors.length === results.length) throw new Error('TheSportsDB 유럽 주요리그 순위 요청 실패');
   return {
     standings: tables,
-    source: usedPrevious ? 'TheSportsDB + previous-data' : 'TheSportsDB',
+    source: usedPrevious
+      ? 'ESPN + previous-data'
+      : usedTheSportsDb ? 'ESPN + TheSportsDB' : 'ESPN',
     error: errors.length ? `${errors.length}개 리그 순위 갱신 실패` : null,
   };
 }

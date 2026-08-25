@@ -23,7 +23,7 @@ for (const match of data.matches ?? []) {
 if ((data.standings?.length ?? 0) > 5) errors.push('standings exceed display limit of 5 leagues');
 for (const table of data.standings ?? []) {
   if (!table.leagueId || !table.league || !table.season) errors.push('standings league metadata missing');
-  if (!table.rows?.length || table.rows.length > 5) errors.push(`invalid standings row count: ${table.leagueId}`);
+  if (!table.rows?.length || table.rows.length > 24) errors.push(`invalid standings row count: ${table.leagueId}`);
   for (const row of table.rows ?? []) {
     if (!Number.isInteger(row.rank) || !row.team || !Number.isInteger(row.played) || !Number.isInteger(row.points)) {
       errors.push(`invalid standings row: ${table.leagueId}`);

@@ -95,7 +95,7 @@ function matchView(item: Match) {
         <div class="standings-toolbar">
           <div>
             <strong>유럽 주요리그 현재 순위</strong>
-            <span>리그별 상위 5팀 · 옆으로 넘겨보세요</span>
+            <span>10위까지 확인하고 · 옆으로 넘겨보세요</span>
           </div>
           <div class="standings-controls" aria-label="리그 순위 이동">
             <button type="button" class="standings-prev" aria-label="이전 리그">‹</button>
@@ -103,16 +103,16 @@ function matchView(item: Match) {
           </div>
         </div>
         <div class="standings-carousel" tabindex="0" aria-label="유럽 주요리그 순위표">
-          {standings.map((table) => (
-            <section class="standings-slide" aria-label={`${table.league} 상위 5팀`}>
+          {standings.map((table, tableIndex) => (
+            <section class:list={['standings-slide', tableIndex === 0 && 'is-active']} aria-label={`${table.league} 순위표`}>
               <div class="standings-slide__title">
                 <strong>{table.league}</strong>
                 <span>{table.season.replace('-', '/')}</span>
               </div>
               <div class="standings-columns" aria-hidden="true"><span>순위 · 팀</span><span>경기</span><span>득실</span><span>승점</span></div>
-              <ol>
-                {table.rows.map((row) => (
-                  <li>
+              <ol class="standings-list" id={`standings-${table.leagueId}`}>
+                {table.rows.map((row, rowIndex) => (
+                  <li class:list={['standings-row', rowIndex >= 10 && 'standings-row--extra']}>
                     <b>{row.rank}</b>
                     {row.badge ? <img src={row.badge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
                     <strong>{row.team}</strong>
@@ -122,10 +122,15 @@ function matchView(item: Match) {
                   </li>
                 ))}
               </ol>
+              {table.rows.length > 10 && (
+                <button class="standings-more" type="button" aria-expanded="false" aria-controls={`standings-${table.leagueId}`}>
+                  11위부터 더보기 <span aria-hidden="true">⌄</span>
+                </button>
+              )}
             </section>
           ))}
         </div>
-        <p class="standings-note">TheSportsDB 기준 · 리그별 상위 5팀{standingsState === 'fallback' ? ' · 직전 갱신값' : ''}</p>
+        <p class="standings-note">공개 순위 데이터 기준 · 리그별 전체 순위{standingsState === 'fallback' ? ' · 직전 갱신값' : ''}</p>
       </section>
     ) : (
       <div class="standings-empty">
@@ -141,9 +146,42 @@ function matchView(item: Match) {
     const previous = card.querySelector<HTMLButtonElement>('.standings-prev');
     const next = card.querySelector<HTMLButtonElement>('.standings-next');
     if (!carousel || !previous || !next) return;
-    const move = (direction: number) => carousel.scrollBy({ left: direction * carousel.clientWidth, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
-    previous.addEventListener('click', () => move(-1));
-    next.addEventListener('click', () => move(1));
+    const slides = [...carousel.querySelectorAll<HTMLElement>('.standings-slide')];
+    let activeIndex = 0;
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const activate = (index: number) => {
+      activeIndex = index;
+      slides.forEach((slide, slideIndex) => slide.classList.toggle('is-active', slideIndex === activeIndex));
+    };
+    const pulse = (button: HTMLButtonElement) => {
+      button.classList.remove('is-clicked');
+      requestAnimationFrame(() => button.classList.add('is-clicked'));
+      window.setTimeout(() => button.classList.remove('is-clicked'), 360);
+    };
+    const move = (direction: number, button: HTMLButtonElement) => {
+      if (!slides.length) return;
+      const destination = (activeIndex + direction + slides.length) % slides.length;
+      activate(destination);
+      carousel.scrollTo({ left: destination * carousel.clientWidth, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+      pulse(button);
+    };
+    previous.addEventListener('click', () => move(-1, previous));
+    next.addEventListener('click', () => move(1, next));
+    let scrollFrame = 0;
+    carousel.addEventListener('scroll', () => {
+      cancelAnimationFrame(scrollFrame);
+      scrollFrame = requestAnimationFrame(() => activate(Math.round(carousel.scrollLeft / Math.max(carousel.clientWidth, 1))));
+    }, { passive: true });
+    card.querySelectorAll<HTMLButtonElement>('.standings-more').forEach((button) => {
+      button.addEventListener('click', () => {
+        const slide = button.closest<HTMLElement>('.standings-slide');
+        if (!slide) return;
+        const expanded = slide.classList.toggle('is-expanded');
+        button.setAttribute('aria-expanded', String(expanded));
+        button.innerHTML = expanded ? '10위까지만 보기 <span aria-hidden="true">⌃</span>' : '11위부터 더보기 <span aria-hidden="true">⌄</span>';
+        pulse(button);
+      });
+    });
   });
 </script>
 
@@ -186,25 +224,36 @@ function matchView(item: Match) {
   .standings-toolbar strong { display:block; color:#fff; font-size:12px; line-height:1.2; }
   .standings-toolbar span { display:block; margin-top:4px; color:rgba(255,255,255,.5); font-size:8.5px; }
   .standings-controls { display:flex; gap:5px; }
-  .standings-controls button { width:25px; height:25px; border:1px solid rgba(255,255,255,.22); border-radius:50%; color:#fff; font-family:Arial,sans-serif; font-size:18px; line-height:1; transition:background .2s ease,border-color .2s ease; }
-  .standings-controls button:hover { border-color:rgba(255,255,255,.5); background:rgba(255,255,255,.1); }
+  .standings-controls button { position:relative; width:30px; height:30px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.3); border-radius:50%; background:rgba(255,255,255,.04); color:#fff; cursor:pointer; font-family:Arial,sans-serif; font-size:21px; line-height:1; box-shadow:0 5px 15px rgba(1,7,19,.18); transition:transform .2s ease,background .2s ease,border-color .2s ease,box-shadow .2s ease; }
+  .standings-controls button:hover { transform:translateY(-2px) scale(1.08); border-color:#86b7ff; background:rgba(134,183,255,.16); box-shadow:0 8px 20px rgba(1,7,19,.28); }
+  .standings-controls button:active { transform:scale(.9); }
+  .standings-controls button:focus-visible,.standings-more:focus-visible { outline:2px solid #86b7ff; outline-offset:3px; }
+  .standings-controls button.is-clicked { animation:standings-control-pop .34s ease; }
+  @keyframes standings-control-pop { 50% { border-color:#fff; background:rgba(134,183,255,.28); box-shadow:0 0 0 6px rgba(134,183,255,.1); } }
   .standings-carousel { position:relative; z-index:3; display:flex; margin:11px -6px 0; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; }
   .standings-carousel::-webkit-scrollbar { display:none; }
-  .standings-slide { flex:0 0 100%; min-width:0; padding:0 6px; scroll-snap-align:start; }
+  .standings-slide { flex:0 0 100%; min-width:0; padding:0 6px; opacity:.62; transform:translateX(7px); scroll-snap-align:start; transition:opacity .36s ease,transform .36s ease; }
+  .standings-slide.is-active { opacity:1; transform:translateX(0); }
   .standings-slide__title { display:flex; align-items:baseline; justify-content:space-between; gap:10px; padding:7px 0 8px; border-top:1px solid rgba(255,255,255,.16); }
   .standings-slide__title strong { overflow:hidden; color:#fff; font-size:13px; text-overflow:ellipsis; white-space:nowrap; }
   .standings-slide__title span { color:#86b7ff; font-size:8px; font-weight:750; letter-spacing:.05em; }
   .standings-columns,.standings-slide li { display:grid; grid-template-columns:minmax(0,1fr) 28px 28px 28px; align-items:center; gap:3px; }
   .standings-columns { padding:0 4px 5px; color:rgba(255,255,255,.38); font-size:7.5px; text-align:center; }
   .standings-columns span:first-child { text-align:left; }
-  .standings-slide ol { margin:0; padding:0; list-style:none; }
-  .standings-slide li { min-height:34px; padding:4px; border-top:1px solid rgba(255,255,255,.1); color:rgba(255,255,255,.72); font-size:9px; text-align:center; font-variant-numeric:tabular-nums; }
+  .standings-list { max-height:280px; margin:0; padding:0; overflow-y:auto; list-style:none; scrollbar-width:thin; scrollbar-color:rgba(134,183,255,.38) transparent; }
+  .standings-slide li { min-height:28px; padding:3px 4px; border-top:1px solid rgba(255,255,255,.1); color:rgba(255,255,255,.72); font-size:9px; text-align:center; font-variant-numeric:tabular-nums; }
+  .standings-row--extra { display:none !important; }
+  .standings-slide.is-expanded .standings-row--extra { display:grid !important; }
   .standings-slide li b { grid-column:1; grid-row:1; width:14px; color:#86b7ff; font-size:9px; text-align:left; }
   .standings-slide li img,.standings-slide li i { grid-column:1; grid-row:1; width:20px; height:20px; margin-left:18px; object-fit:contain; font-size:12px; font-style:normal; }
-  .standings-slide li strong { grid-column:1; grid-row:1; min-width:0; margin-left:43px; overflow:hidden; color:#fff; font-size:9.5px; text-align:left; text-overflow:ellipsis; white-space:nowrap; }
+  .standings-slide li strong { grid-column:1; grid-row:1; min-width:0; margin-left:43px; overflow:hidden; color:#fff; font-size:11.4px; text-align:left; text-overflow:ellipsis; white-space:nowrap; }
   .standings-slide li span:nth-of-type(1) { grid-column:2; }
   .standings-slide li span:nth-of-type(2) { grid-column:3; }
   .standings-slide li em { grid-column:4; color:#fff; font-size:10px; font-style:normal; font-weight:800; }
+  .standings-more { width:100%; min-height:31px; display:flex; align-items:center; justify-content:center; gap:6px; margin-top:7px; border:1px solid rgba(134,183,255,.28); border-radius:6px; background:rgba(134,183,255,.08); color:#b9d5ff; cursor:pointer; font-size:9px; font-weight:800; transition:transform .2s ease,background .2s ease,border-color .2s ease,color .2s ease; }
+  .standings-more span { font-size:13px; transition:transform .2s ease; }
+  .standings-more:hover { transform:translateY(-1px); border-color:rgba(134,183,255,.66); background:rgba(134,183,255,.16); color:#fff; }
+  .standings-more.is-clicked span { transform:scale(1.3); }
   .standings-note { margin-top:8px; color:rgba(255,255,255,.45); font-size:8px; line-height:1.4; }
   .today-card--tonight::after { content:""; position:absolute; z-index:2; inset:auto 0 0; height:58%; background:linear-gradient(0deg,rgba(4,12,27,.74),rgba(4,12,27,0)); pointer-events:none; }
 
@@ -213,9 +262,9 @@ function matchView(item: Match) {
     .today-card { position:fixed; top:190px; width:clamp(170px,calc((100vw - 1230px) / 2),300px); min-height:310px; padding:20px 17px; border-top:2px solid var(--bbfc-ink); pointer-events:auto; }
     .today-card--tonight { top:190px; left:calc(50% + 600px); min-height:min(460px,calc(100vh - 220px)); max-height:calc(100vh - 210px); }
     .today-card--tonight.today-card--combined { height:min(650px,calc(100vh - 220px)); min-height:0; }
-    .today-card--combined .match-list { max-height:clamp(105px,calc(100vh - 610px),220px); }
+    .today-card--combined .match-list { max-height:clamp(78px,calc(100vh - 680px),105px); }
     .standings-toolbar span { display:none; }
-    .standings-slide li { min-height:32px; }
+    .standings-slide li { min-height:28px; }
   }
   @media (max-width: 700px) {
     .today-football { display:block; margin-bottom:28px; }
@@ -223,7 +272,8 @@ function matchView(item: Match) {
     .today-card--tonight { min-height:390px; }
     .today-card--combined { min-height:560px; }
     .match-list { max-height:180px; }
+    .standings-list { max-height:360px; }
     .standings-slide li { min-height:36px; }
   }
-  @media (prefers-reduced-motion: reduce) { .standings-carousel { scroll-behavior:auto; } }
+  @media (prefers-reduced-motion: reduce) { .standings-carousel { scroll-behavior:auto; } .standings-slide,.standings-controls button,.standings-more { animation:none; transition:none; } }
 </style>
