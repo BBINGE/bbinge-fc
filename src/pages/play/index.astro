@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import playersFile from '../../data/goat-players.json';
 import playerImageFile from '../../data/goat-player-images.json';
 import playerPhotoAuditFile from '../../data/player-photo-audit.json';
+import { categories } from '../../config/categories';
 
 const { players, drawAllocation } = playersFile;
 
@@ -82,6 +83,9 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
       <p class="text-[15px] md:text-[17px] leading-relaxed text-[var(--bbfc-gray-1)] mt-2">
         고민은 짧게, 클릭은 세게. 살아남은 한 명이 다음 라운드로 갑니다.
       </p>
+      {categories.play.description && (
+        <p class="play-editorial">{categories.play.description}</p>
+      )}
     </header>
 
     <div id="goat-app" data-loading="true">
@@ -89,6 +93,19 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     </div>
   </div>
 </Layout>
+
+<style>
+  .play-editorial {
+    max-width: 860px;
+    margin-top: 18px;
+    padding: 16px 18px;
+    border-left: 3px solid var(--bbfc-blue);
+    background: var(--bbfc-fill-2);
+    color: var(--bbfc-gray-1);
+    font-size: 13px;
+    line-height: 1.78;
+  }
+</style>
 
 <script is:inline define:vars={{ players, drawAllocation, articleMap, playerImages, playerCredits, playerFocus, flagBackgrounds }}>
   const STORAGE_KEY = 'bbfc-goat-v3';

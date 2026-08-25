@@ -56,6 +56,7 @@ const indexRecordCounts = new Map<string, number>(
           <p class="archive-label">삥이FC 기록총서</p>
           <h1><span>삥이</span><span>아카이브</span></h1>
           <p class="archive-description">축구의 인물·대회·수상 기록을 당대의 이름과 자료로 연결합니다.</p>
+          <p class="archive-editorial">1916년의 운동장에는 소리가 남아 있지 않습니다. 누군가가 공을 찼고, 누군가가 환호했으며, 어떤 선수는 그날 한 나라의 영웅이 되었으나 지금 우리에게 남은 것은 몇 줄의 기록과 빛바랜 사진뿐입니다. 삥이 아카이브는 그 조각들을 다시 한 장면으로 이어봅니다. 선수의 이름과 등번호, 대회의 명칭과 당시의 포지션을 그 시대의 언어로 되돌려놓습니다. 이미 끝난 경기를 바꿀 수는 없겠으나, 그 경기를 바라보는 우리의 자리는 조금 더 가까이 옮겨놓을 수 있을지도 모르니까요.</p>
           <div class="archive-stats" aria-label="아카이브 현황">
             <div><strong>{records.length}</strong><span>RECORDS</span></div>
             <div><strong>{yearRange}</strong><span>YEARS</span></div>
@@ -179,6 +180,7 @@ const indexRecordCounts = new Map<string, number>(
   .archive-label,.section-heading div>p,details summary div>p { font-size:10px; font-weight:650; letter-spacing:.15em; color:var(--bbfc-blue); }
   .archive-hero h1 { display:grid; margin-top:15px; font-size:clamp(54px,6.1vw,75px); line-height:.91; font-weight:720; letter-spacing:-.07em; }
   .archive-description { max-width:430px; margin-top:23px; font-size:14px; line-height:1.75; color:var(--bbfc-gray-1); }
+  .archive-editorial { max-width:620px; margin-top:18px; padding-left:14px; border-left:3px solid var(--bbfc-blue); font-size:12.5px; line-height:1.78; color:var(--bbfc-gray-1); }
   .archive-stats { display:flex; margin-top:28px; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
   .archive-stats>div { min-width:112px; padding:15px 22px 14px 0; }
   .archive-stats>div+div { padding-left:22px; border-left:1px solid var(--bbfc-border); }
