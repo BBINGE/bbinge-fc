@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-25T18:37:02.677Z",
+  "updatedAt": "2026-08-25T19:30:08.246Z",
   "matches": [
     {
       "id": "2570479",
@@ -9,9 +9,9 @@
       "away": "하포엘 베르셰바",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ar5zft1781239007.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "HT",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "2H",
       "progress": "",
       "time": "01:45",
       "date": "2026-08-26"
@@ -51,9 +51,9 @@
       "away": "레알 베티스",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
