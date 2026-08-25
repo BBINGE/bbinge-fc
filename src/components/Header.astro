@@ -3,8 +3,6 @@ import { countByNode, getAncestorChain, getTopLevel } from '../config/categories
 import CategorySidebar from './CategorySidebar.astro';
 import { getCollection } from 'astro:content';
 import { isRecentlyChanged } from '../utils/freshness';
-import CommemorativeBanner from './CommemorativeBanner.astro';
-import { commemorativeEvents } from '../data/commemorative-events';
 
 const currentPath = Astro.url.pathname;
 const [articles, archiveRecords] = await Promise.all([
@@ -93,8 +91,6 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
       </nav>
     </div>
 
-    <CommemorativeBanner variant="desktop" />
-
     <form action="/search/" method="get" class="header-search" role="search">
       <label class="sr-only" for="header-search-input">삥이FC 통합 검색</label>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -104,8 +100,6 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
       <input id="header-search-input" name="q" type="search" placeholder="무엇이든 검색해보세요" autocomplete="off" />
     </form>
   </div>
-  <CommemorativeBanner variant="compact" />
-  <script is:inline id="bbfc-commemorative-data" type="application/json" set:html={JSON.stringify(commemorativeEvents)}></script>
 </header>
 
 <div
