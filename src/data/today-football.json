@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-25T22:25:17.976Z",
+  "updatedAt": "2026-08-25T23:23:52.144Z",
   "matches": [
     {
       "id": "2570479",
@@ -57,6 +57,62 @@
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
+    },
+    {
+      "id": "2506175",
+      "league": "라리가",
+      "home": "레알 마드리드",
+      "away": "레알 소시에다드",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vptvpr1473502986.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "2570481",
+      "league": "UEFA 챔피언스 리그",
+      "home": "Celje",
+      "away": "Slovan Bratislava",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "2570482",
+      "league": "UEFA 챔피언스 리그",
+      "home": "올랭피크 리옹",
+      "away": "페네르바흐체",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "2570483",
+      "league": "UEFA 챔피언스 리그",
+      "home": "AEK Athens",
+      "away": "Levski Sofia",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/4nogst1602773624.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/9krgx71781149189.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-08-27"
     }
   ],
   "standings": [
