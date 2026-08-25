@@ -7,6 +7,8 @@ export type CommemorativeScene =
   | 'remember'
   | 'season';
 
+export type CommemorativeStory = 'pass' | 'liberation';
+
 export type CommemorativeEvent = {
   id: string;
   /** 해마다 반복되는 날짜. MM-DD */
@@ -16,6 +18,8 @@ export type CommemorativeEvent = {
   message: string;
   label: string;
   scene: CommemorativeScene;
+  /** 반복 모션의 장면 구성. 새 전용 스토리를 만들 때 이 값을 확장한다. */
+  story?: CommemorativeStory;
   prop: string;
   priority?: number;
 };
@@ -41,7 +45,7 @@ export const commemorativeEvents: CommemorativeEvent[] = [
   { id: 'memorial-day', monthDay: '06-06', message: '당신의 이름을 기억하겠습니다', label: '6.6 현충일', scene: 'remember', prop: '🇰🇷', priority: 100 },
   { id: 'constitution-day', monthDay: '07-17', message: '헌법의 약속을 기억합니다', label: '7.17 제헌절', scene: 'remember', prop: '🇰🇷', priority: 100 },
   { id: 'first-world-cup-final', monthDay: '07-30', message: '첫 월드컵 우승자가 탄생한 날!', label: '1930.7.30 월드컵 첫 결승', scene: 'football', prop: '⚽' },
-  { id: 'liberation-day', monthDay: '08-15', message: '그날을 잊지 않겠습니다', label: '8.15 광복절', scene: 'remember', prop: '🇰🇷', priority: 110 },
+  { id: 'liberation-day', monthDay: '08-15', message: '그날을 잊지 않겠습니다', label: '8.15 광복절', scene: 'remember', story: 'liberation', prop: '🇰🇷', priority: 110 },
   { id: 'numbered-shirts', monthDay: '08-25', message: '오늘, 유니폼에 번호가 생겼어요!', label: '1928.8.25 등번호의 시작', scene: 'football', prop: '10·7', priority: 70 },
   { id: 'armed-forces-day', monthDay: '10-01', message: '오늘의 평화를 지켜줘서 고맙습니다', label: '10.1 국군의 날', scene: 'remember', prop: '🇰🇷', priority: 90 },
   { id: 'foundation-day', monthDay: '10-03', message: '오늘, 아주 오래된 이야기를 펼쳐요', label: '10.3 개천절', scene: 'remember', prop: '🇰🇷', priority: 100 },

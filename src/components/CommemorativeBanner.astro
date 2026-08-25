@@ -14,13 +14,20 @@ const { variant } = Astro.props;
   tabindex="0"
   role="status"
 >
-  <div class="commemorative-characters" aria-hidden="true">
-    <img class="commemorative-character commemorative-character--messi" src="/images/brand-events/messi-10.jpg" alt="" width="240" height="360" />
-    <span class="commemorative-prop" data-commemorative-prop></span>
-    <img class="commemorative-character commemorative-character--ronaldo" src="/images/brand-events/ronaldo-7.jpg" alt="" width="240" height="360" />
-    <i class="commemorative-spark commemorative-spark--one"></i>
-    <i class="commemorative-spark commemorative-spark--two"></i>
+  <div class="commemorative-stage" aria-hidden="true">
+    <div class="story story--pass">
+      <img class="pass-character pass-character--messi" src="/images/brand-events/messi-10.jpg" alt="" width="240" height="360" />
+      <span class="pass-ball">⚽</span>
+      <img class="pass-character pass-character--ronaldo" src="/images/brand-events/ronaldo-7.jpg" alt="" width="240" height="360" />
+    </div>
+
+    <div class="story story--liberation">
+      <img class="liberation-character liberation-character--messi" src="/images/brand-events/liberation-messi.png" alt="" width="240" height="360" />
+      <img class="liberation-flag" src="/images/brand-events/taegeukgi.svg" alt="" width="72" height="48" />
+      <img class="liberation-character liberation-character--ronaldo" src="/images/brand-events/liberation-ronaldo.png" alt="" width="240" height="360" />
+    </div>
   </div>
+
   <div class="commemorative-copy">
     <strong data-commemorative-message></strong>
     <small data-commemorative-label></small>
@@ -58,12 +65,17 @@ const { variant } = Astro.props;
     gap:8px;
     border-top:1px solid var(--bbfc-line);
   }
-  .commemorative-characters {
+  .commemorative-stage {
     position:relative;
-    flex:0 0 103px;
+    flex:0 0 108px;
     align-self:stretch;
   }
-  .commemorative-character {
+  .story { position:absolute; inset:0; }
+  .story--liberation { display:none; }
+  .commemorative-banner[data-story='liberation'] .story--pass { display:none; }
+  .commemorative-banner[data-story='liberation'] .story--liberation { display:block; }
+
+  .pass-character {
     position:absolute;
     bottom:-2px;
     width:49px;
@@ -73,30 +85,67 @@ const { variant } = Astro.props;
     mix-blend-mode:multiply;
     transform-origin:50% 100%;
   }
-  .commemorative-character--messi { left:1px; }
-  .commemorative-character--ronaldo { right:1px; }
-  .commemorative-prop {
+  .pass-character--messi { left:1px; animation:pass-messi 4.2s ease-in-out infinite; }
+  .pass-character--ronaldo { right:1px; animation:pass-ronaldo 4.2s ease-in-out infinite; }
+  .pass-ball {
+    position:absolute;
+    z-index:3;
+    left:28px;
+    top:37px;
+    width:18px;
+    height:18px;
+    font-size:16px;
+    line-height:18px;
+    text-align:center;
+    filter:saturate(.2);
+    animation:pass-ball 4.2s linear infinite;
+  }
+
+  .liberation-character {
     position:absolute;
     z-index:2;
-    left:50%;
-    top:50%;
-    min-width:25px;
-    padding:1px 3px;
-    transform:translate(-50%,-32%);
-    color:var(--bbfc-blue-strong);
-    font-size:16px;
-    font-weight:750;
-    line-height:1;
-    text-align:center;
-    text-shadow:0 1px 0 var(--bbfc-bg);
+    bottom:-2px;
+    width:50px;
+    height:61px;
+    object-fit:contain;
+    mix-blend-mode:multiply;
+    transform-origin:50% 100%;
   }
+  .liberation-character--messi { left:-1px; animation:liberation-messi 7.2s ease-in-out infinite; }
+  .liberation-character--ronaldo { right:-1px; animation:liberation-ronaldo 7.2s ease-in-out infinite; }
+  .liberation-flag {
+    position:absolute;
+    z-index:3;
+    left:29px;
+    top:13px;
+    width:51px;
+    height:34px;
+    object-fit:fill;
+    filter:drop-shadow(0 1px 1px rgba(25,31,40,.16));
+    transform-origin:50% 50%;
+    animation:liberation-flag 7.2s cubic-bezier(.42,0,.2,1) infinite;
+  }
+
   .commemorative-copy {
+    position:relative;
     display:flex;
     flex:0 1 166px;
     min-width:0;
     height:43px;
     flex-direction:column;
     justify-content:center;
+  }
+  .commemorative-copy::after {
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:5px;
+    width:22px;
+    height:1px;
+    background:var(--bbfc-blue);
+    opacity:.32;
+    transform-origin:left center;
+    animation:message-story-line 4.2s ease-in-out infinite;
   }
   .commemorative-copy strong {
     display:block;
@@ -107,6 +156,7 @@ const { variant } = Astro.props;
     line-height:1.25;
     white-space:nowrap;
     text-overflow:ellipsis;
+    animation:message-story 4.2s ease-in-out infinite;
   }
   .commemorative-copy small {
     display:block;
@@ -121,73 +171,64 @@ const { variant } = Astro.props;
     white-space:nowrap;
     text-overflow:ellipsis;
   }
-  .commemorative-spark {
-    position:absolute;
-    z-index:3;
-    width:3px;
-    height:3px;
-    border-radius:50%;
-    background:var(--bbfc-blue);
-    opacity:0;
-  }
-  .commemorative-spark--one { left:45%; top:11px; }
-  .commemorative-spark--two { left:58%; top:20px; }
+  .commemorative-banner[data-story='liberation'] .commemorative-copy strong,
+  .commemorative-banner[data-story='liberation'] .commemorative-copy::after { animation-duration:7.2s; }
 
-  .commemorative-banner.is-playing .commemorative-character--messi {
-    animation:commemorative-messi-in 1.15s cubic-bezier(.2,.8,.2,1) both, commemorative-idle 5.4s 1.2s ease-in-out infinite;
+  @keyframes pass-messi {
+    0%,7%,42%,100% { transform:translate3d(0,0,0) rotate(0); }
+    12% { transform:translate3d(2px,-1px,0) rotate(2deg); }
+    18% { transform:translate3d(3px,0,0) rotate(4deg); }
+    24% { transform:translate3d(0,0,0) rotate(0); }
+    72% { transform:translate3d(1px,-1px,0) rotate(-1deg); }
+    82% { transform:translate3d(-1px,0,0) rotate(-2deg); }
   }
-  .commemorative-banner.is-playing .commemorative-character--ronaldo {
-    animation:commemorative-ronaldo-in 1.15s .12s cubic-bezier(.2,.8,.2,1) both, commemorative-idle 5.4s 1.32s ease-in-out infinite reverse;
+  @keyframes pass-ronaldo {
+    0%,38%,100% { transform:translate3d(0,0,0) rotate(0); }
+    47% { transform:translate3d(-2px,-1px,0) rotate(-2deg); }
+    55% { transform:translate3d(-3px,0,0) rotate(-4deg); }
+    62% { transform:translate3d(0,0,0) rotate(0); }
   }
-  .commemorative-banner.is-playing .commemorative-prop { animation:commemorative-prop-in 1s .45s cubic-bezier(.16,1,.3,1) both; }
-  .commemorative-banner.is-playing .commemorative-copy strong { animation:commemorative-copy-in .78s .78s cubic-bezier(.2,.8,.2,1) both; }
-  .commemorative-banner.is-playing .commemorative-copy small { animation:commemorative-label-in .65s 1.08s ease-out both; }
-  .commemorative-banner.is-playing .commemorative-spark { animation:commemorative-spark 1.2s .75s ease-out both; }
-  .commemorative-banner.is-playing .commemorative-spark--two { animation-delay:.9s; }
-
-  .commemorative-banner[data-scene='remember'] .commemorative-prop { font-size:19px; }
-  .commemorative-banner[data-scene='remember'].is-playing .commemorative-character--messi,
-  .commemorative-banner[data-scene='remember'].is-playing .commemorative-character--ronaldo { animation:commemorative-stand-in .85s ease-out both; }
-  .commemorative-banner[data-scene='remember'].is-playing .commemorative-prop { animation:commemorative-flag-in 1.45s .35s ease-out both; }
-  .commemorative-banner[data-scene='love'] .commemorative-prop { color:var(--bbfc-blue); }
-  .commemorative-banner[data-scene='nature'] .commemorative-prop,
-  .commemorative-banner[data-scene='food'] .commemorative-prop,
-  .commemorative-banner[data-scene='season'] .commemorative-prop { font-size:19px; }
-
-  @keyframes commemorative-messi-in {
-    0% { opacity:0; transform:translate3d(-12px,4px,0) rotate(-3deg); }
-    58% { opacity:1; transform:translate3d(3px,-2px,0) rotate(2deg); }
-    100% { opacity:1; transform:none; }
+  @keyframes pass-ball {
+    0%,7% { transform:translate3d(0,0,0) rotate(0); }
+    18% { transform:translate3d(14px,-13px,0) rotate(120deg); }
+    32% { transform:translate3d(31px,-18px,0) rotate(250deg); }
+    43%,49% { transform:translate3d(49px,0,0) rotate(380deg); }
+    58% { transform:translate3d(40px,-12px,0) rotate(470deg); }
+    73% { transform:translate3d(20px,-18px,0) rotate(600deg); }
+    90%,100% { transform:translate3d(0,0,0) rotate(760deg); }
   }
-  @keyframes commemorative-ronaldo-in {
-    0% { opacity:0; transform:translate3d(12px,4px,0) rotate(3deg); }
-    58% { opacity:1; transform:translate3d(-3px,-2px,0) rotate(-2deg); }
-    100% { opacity:1; transform:none; }
+  @keyframes liberation-messi {
+    0%,100% { opacity:0; transform:translate3d(-9px,2px,0); }
+    10% { opacity:1; }
+    19%,78% { opacity:1; transform:translate3d(3px,0,0); }
+    35%,62% { opacity:1; transform:translate3d(4px,-1px,0) rotate(1deg); }
+    91% { opacity:0; transform:translate3d(-7px,2px,0); }
   }
-  @keyframes commemorative-stand-in {
-    0% { opacity:0; transform:translateY(4px); }
-    100% { opacity:1; transform:none; }
+  @keyframes liberation-ronaldo {
+    0%,100% { opacity:0; transform:translate3d(9px,2px,0); }
+    10% { opacity:1; }
+    19%,78% { opacity:1; transform:translate3d(-3px,0,0); }
+    35%,62% { opacity:1; transform:translate3d(-4px,-1px,0) rotate(-1deg); }
+    91% { opacity:0; transform:translate3d(7px,2px,0); }
   }
-  @keyframes commemorative-idle { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-1.5px); } }
-  @keyframes commemorative-prop-in {
-    0% { opacity:0; transform:translate(-50%,35%) scale(.35) rotate(-12deg); }
-    64% { opacity:1; transform:translate(-50%,-45%) scale(1.14) rotate(4deg); }
-    100% { opacity:1; transform:translate(-50%,-32%) scale(1); }
+  @keyframes liberation-flag {
+    0%,15%,100% { opacity:0; transform:scaleX(.04) translateY(2px); }
+    21% { opacity:1; }
+    34% { opacity:1; transform:scaleX(1.04) translateY(-1px); }
+    42%,68% { opacity:1; transform:scaleX(1) translateY(0) rotate(.5deg); }
+    74% { opacity:1; transform:scaleX(.96) translateY(1px) rotate(-.6deg); }
+    88% { opacity:0; transform:scaleX(.05) translateY(2px); }
   }
-  @keyframes commemorative-flag-in {
-    0% { opacity:0; transform:translate(-50%,20%) scale(.55) rotate(-8deg); }
-    55% { opacity:1; transform:translate(-50%,-40%) scale(1.05) rotate(5deg); }
-    100% { opacity:1; transform:translate(-50%,-32%) scale(1) rotate(0); }
+  @keyframes message-story {
+    0%,100% { opacity:.82; transform:translateY(0); }
+    12% { opacity:1; transform:translateY(-1px); }
+    25%,74% { opacity:1; transform:translateY(0); }
+    88% { opacity:.86; }
   }
-  @keyframes commemorative-copy-in {
-    0% { opacity:0; clip-path:inset(0 100% 0 0); transform:translateX(8px); letter-spacing:.06em; }
-    100% { opacity:1; clip-path:inset(0 0 0 0); transform:none; letter-spacing:-.01em; }
-  }
-  @keyframes commemorative-label-in { from { opacity:0; transform:translateY(3px); } to { opacity:1; transform:none; } }
-  @keyframes commemorative-spark {
-    0% { opacity:0; transform:translateY(4px) scale(.5); }
-    35% { opacity:.9; }
-    100% { opacity:0; transform:translateY(-8px) scale(1.5); }
+  @keyframes message-story-line {
+    0%,100% { opacity:.16; transform:scaleX(.25); }
+    18%,68% { opacity:.42; transform:scaleX(1); }
+    86% { opacity:.2; transform:scaleX(.35); }
   }
 
   @media (min-width:1280px) {
@@ -197,8 +238,11 @@ const { variant } = Astro.props;
   @media (max-width:1279px) {
     .commemorative-banner--desktop { display:none !important; }
     .commemorative-banner--compact { display:flex; }
-    .commemorative-banner--compact .commemorative-characters { flex-basis:88px; }
-    .commemorative-banner--compact .commemorative-character { width:42px; height:47px; }
+    .commemorative-banner--compact .commemorative-stage { flex-basis:94px; }
+    .commemorative-banner--compact .pass-character { width:42px; height:47px; }
+    .commemorative-banner--compact .pass-ball { left:24px; top:29px; width:16px; height:16px; font-size:14px; line-height:16px; }
+    .commemorative-banner--compact .liberation-character { width:43px; height:48px; }
+    .commemorative-banner--compact .liberation-flag { left:26px; top:10px; width:43px; height:29px; }
     .commemorative-banner--compact .commemorative-copy { flex-basis:min(64vw,245px); height:38px; }
     .commemorative-banner--compact .commemorative-copy strong { font-size:12px; }
   }
@@ -210,6 +254,7 @@ const { variant } = Astro.props;
   }
   @media (prefers-reduced-motion:reduce) {
     .commemorative-banner *, .commemorative-banner *::before, .commemorative-banner *::after { animation:none !important; transition:none !important; }
+    .liberation-character, .liberation-flag { opacity:1; transform:none; }
   }
 </style>
 
@@ -221,6 +266,7 @@ const { variant } = Astro.props;
     message: string;
     label: string;
     scene: string;
+    story?: string;
     prop: string;
     priority?: number;
   };
@@ -246,35 +292,28 @@ const { variant } = Astro.props;
       })[0];
   }
 
-  function playBanner(banner: HTMLElement) {
-    banner.classList.remove('is-playing');
-    void banner.offsetWidth;
-    banner.classList.add('is-playing');
-  }
-
   function initialiseCommemorativeBanners() {
     const data = document.getElementById('bbfc-commemorative-data');
     if (!data?.textContent) return;
 
     let events: HeaderEvent[] = [];
     try { events = JSON.parse(data.textContent); } catch { return; }
-    const event = chooseEvent(events);
+    const previewId = ['localhost', '127.0.0.1'].includes(window.location.hostname)
+      ? new URLSearchParams(window.location.search).get('event')
+      : null;
+    const event = (previewId ? events.find(({ id }) => id === previewId) : undefined) ?? chooseEvent(events);
     if (!event) return;
 
     document.querySelectorAll<HTMLElement>('[data-commemorative-banner]').forEach((banner) => {
       banner.hidden = false;
       banner.dataset.event = event.id;
       banner.dataset.scene = event.scene;
+      banner.dataset.story = event.story ?? 'pass';
       banner.setAttribute('aria-label', `${event.message} — ${event.label}`);
       const message = banner.querySelector<HTMLElement>('[data-commemorative-message]');
       const label = banner.querySelector<HTMLElement>('[data-commemorative-label]');
-      const prop = banner.querySelector<HTMLElement>('[data-commemorative-prop]');
       if (message) message.textContent = event.message;
       if (label) label.textContent = event.label;
-      if (prop) prop.textContent = event.prop;
-      playBanner(banner);
-      banner.addEventListener('mouseenter', () => playBanner(banner));
-      banner.addEventListener('focus', () => playBanner(banner));
     });
   }
 
