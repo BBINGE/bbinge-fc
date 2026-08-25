@@ -16,6 +16,8 @@ import ContentCover from '../components/ContentCover.astro';
 import ArticleByline from '../components/ArticleByline.astro';
 import ArticleProvenance from '../components/ArticleProvenance.astro';
 import RelatedAssets from '../components/RelatedAssets.astro';
+import FashionCategoryPage from '../components/FashionCategoryPage.astro';
+import FashionProfileCard from '../components/FashionProfileCard.astro';
 import { archiveBranches } from '../data/archive';
 
 type CategoryProps = { kind: 'category'; categorySlug: string };
@@ -133,6 +135,9 @@ if (props.kind === 'category') {
       })),
     ]}
   >
+    {categoryView.categorySlug === 'culture' ? (
+      <FashionCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
+    ) : (
     <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
       <div class="min-w-0">
         <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-5">
@@ -170,6 +175,7 @@ if (props.kind === 'category') {
         </section>
       </div>
     </div>
+    )}
   </Layout>
 )}
 
@@ -198,10 +204,13 @@ if (props.kind === 'category') {
   >
     {articleView.faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
 
-    <div class="max-w-[920px] mx-auto px-4 md:px-6 py-8 md:py-12">
-      <article>
-        <span class="text-[11px] text-[var(--bbfc-blue)]">{articleView.meta.label}</span>
-        <h1 class="text-[30px] md:text-[42px] font-semibold mt-3 mb-4 leading-[1.2] tracking-[-0.035em] text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
+    <div class:list={["mx-auto px-4 md:px-6 py-8 md:py-12", articleView.entry.data.category === 'culture' ? 'max-w-[1080px] fashion-article-shell' : 'max-w-[920px]']}>
+      <article class:list={[{ 'fashion-article': articleView.entry.data.category === 'culture' }]}>
+        <header class="article-heading">
+          <span class="text-[11px] text-[var(--bbfc-blue)]">{articleView.meta.label}</span>
+          {articleView.entry.data.category === 'culture' && <p class="fashion-article__issue">BBINGE FC · STYLE FILE</p>}
+          <h1 class="text-[30px] md:text-[42px] font-semibold mt-3 mb-4 leading-[1.2] tracking-[-0.035em] text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
+        </header>
         <div class="mb-6">
           <ArticleByline
             pubDate={articleView.entry.data.pubDate}
@@ -218,6 +227,7 @@ if (props.kind === 'category') {
           />
         )}
         <div class="article-body text-[17px] md:text-[18px] leading-[1.9] text-[var(--bbfc-ink)]">
+          {articleView.entry.data.fashionProfile && <FashionProfileCard profile={articleView.entry.data.fashionProfile} />}
           <articleView.Content />
         </div>
         <ArticleProvenance />
@@ -269,6 +279,26 @@ if (props.kind === 'category') {
 )}
 
 <style>
+  .fashion-article .article-heading { display:grid; grid-template-columns:auto 1fr; column-gap:13px; align-items:center; padding-bottom:21px; border-bottom:3px solid var(--bbfc-ink); }
+  .fashion-article .article-heading>span { font-weight:760; letter-spacing:.12em; }
+  .fashion-article__issue { justify-self:end; color:var(--bbfc-gray-2); font-size:9px; font-weight:650; letter-spacing:.14em; }
+  .fashion-article .article-heading h1 { grid-column:1/3; max-width:920px; margin-top:17px; font-size:clamp(38px,5.2vw,64px); line-height:1.08; font-weight:780; letter-spacing:-.052em; text-wrap:balance; }
+  .fashion-article :global(.content-cover) { margin-top:0; }
+  .fashion-article .article-body { margin-top:34px; }
+  .fashion-article .article-body>:global(p),
+  .fashion-article .article-body>:global(h2),
+  .fashion-article .article-body>:global(h3),
+  .fashion-article .article-body>:global(blockquote),
+  .fashion-article .article-body>:global(.source-notes) { max-width:760px; margin-left:auto; margin-right:auto; }
+  .fashion-article .article-body>:global(h2) { border-left:0; padding:20px 0 0; border-top:2px solid var(--bbfc-ink); font-size:clamp(27px,3.4vw,36px); }
+  .fashion-article .article-body>:global(p:first-of-type)::first-letter { float:left; margin:10px 9px 0 0; color:var(--bbfc-blue); font-size:66px; line-height:.68; font-weight:780; }
+  @media (max-width:680px) {
+    .fashion-article-shell { padding-top:25px; }
+    .fashion-article .article-heading h1 { font-size:36px; }
+    .fashion-article__issue { font-size:8px; }
+    .fashion-article .article-body { margin-top:26px; }
+    .fashion-article .article-body>:global(p:first-of-type)::first-letter { font-size:54px; }
+  }
   .category-intro {
     margin: 0 0 24px;
     padding: 0 0 24px;

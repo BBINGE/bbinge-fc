@@ -39,6 +39,21 @@ const articles = defineCollection({
       featured: z.boolean().default(false),
       // 같은 대회·사건을 다룬 글끼리 자동으로 서로 연결한다.
       relatedGroup: z.string().optional(),
+      // 축디 인물 피처의 상단 프로필 카드. 값이 있으면 축디 전용 상세 템플릿에서 자동 렌더링한다.
+      fashionProfile: z.object({
+        eyebrow: z.string(),
+        name: z.string(),
+        romanName: z.string().optional(),
+        portrait: z.string(),
+        portraitAlt: z.string(),
+        portraitCredit: z.string().optional(),
+        facts: z.array(z.object({ label: z.string(), value: z.string() })),
+        officialChannel: z.object({
+          label: z.string(),
+          handle: z.string(),
+          href: z.url(),
+        }).optional(),
+      }).optional(),
     }),
 });
 

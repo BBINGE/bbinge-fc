@@ -12,29 +12,33 @@ coverImageWidth: 1200
 coverImageHeight: 675
 draft: false
 featured: false
+fashionProfile:
+  eyebrow: 'PROFILE · POP ARTIST'
+  name: '두아 리파'
+  romanName: 'Dua Lipa'
+  portrait: '/images/culture/dua-lipa-napoli-shirt/dua-lipa-vogue-italia.webp'
+  portraitAlt: 'Vogue Italia 2026년 9월호를 장식한 두아 리파'
+  portraitCredit: 'Vogue Italia, September 2026 · Photo Carlijn Jacobs · Styling Imruh'
+  facts:
+    - label: '풀네임'
+      value: '두아 리파 (Dua Lipa)'
+    - label: '출생'
+      value: '1995년 8월 22일 · 영국 런던'
+    - label: '국적'
+      value: '영국 · 알바니아 · 코소보'
+    - label: '직업'
+      value: '싱어송라이터, 배우'
+    - label: '대표 음악'
+      value: 'New Rules · Future Nostalgia · Radical Optimism'
+    - label: '기록'
+      value: '그래미 어워드 3회 수상'
+    - label: '오늘의 옷'
+      value: 'SSC 나폴리 2023-24 홈 유니폼'
+  officialChannel:
+    label: 'Instagram'
+    handle: '@dualipa'
+    href: 'https://www.instagram.com/dualipa/'
 ---
-
-<section class="culture-person-card" aria-labelledby="dua-lipa-profile-title">
-  <div class="culture-person-card__portrait">
-    <img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-vogue-italia.webp" alt="Vogue Italia 2026년 9월호 표지를 장식한 두아 리파" width="720" height="960" loading="lazy" decoding="async" />
-  </div>
-  <div class="culture-person-card__body">
-    <p class="culture-person-card__eyebrow">PROFILE · POP ARTIST</p>
-    <p class="culture-person-card__name" id="dua-lipa-profile-title">두아 리파</p>
-    <p class="culture-person-card__roman" lang="en">Dua Lipa</p>
-    <dl>
-      <div><dt>풀네임</dt><dd>두아 리파 <span lang="en">(Dua Lipa)</span></dd></div>
-      <div><dt>출생</dt><dd><time datetime="1995-08-22">1995년 8월 22일</time> <span class="culture-person-card__age" data-birth-date="1995-08-22">(연 <span data-year-age>31</span>세/만 <span data-full-age>31</span>세)</span> · 영국 <img class="flag" src="/images/flags/gb.svg" alt="영국 국기" /> 런던</dd></div>
-      <div><dt>국적</dt><dd>영국 <img class="flag" src="/images/flags/gb.svg" alt="영국 국기" /> · 알바니아 <img class="flag" src="/images/flags/al.svg" alt="알바니아 국기" /> · 코소보 <img class="flag" src="/images/flags/xk.svg" alt="코소보 국기" /></dd></div>
-      <div><dt>직업</dt><dd>싱어송라이터, 배우</dd></div>
-      <div><dt>대표 음악</dt><dd><span lang="en">New Rules · Future Nostalgia · Radical Optimism</span></dd></div>
-      <div><dt>기록</dt><dd>그래미 어워드 3회 수상</dd></div>
-      <div><dt>오늘의 옷</dt><dd>SSC 나폴리 2023-24 홈 유니폼</dd></div>
-      <div><dt>공식 채널</dt><dd><a class="culture-instagram-handle" href="https://www.instagram.com/dualipa/" aria-label="두아 리파 공식 인스타그램"><span class="culture-instagram-brand" lang="en">Instagram</span> <span class="culture-instagram-id" lang="en">@dualipa</span></a></dd></div>
-    </dl>
-    <p class="culture-person-card__credit" lang="en">Vogue Italia, September 2026 · Photo Carlijn Jacobs · Styling Imruh</p>
-  </div>
-</section>
 
 두아 리파가 2026년 6월 29일 인스타그램에 올린 사진의 장소는 나폴리가 아니다. 이탈리아 토스카나<span class="foreign-note" lang="it">(Toscana)</span>주의 포르토 에르콜레<span class="foreign-note" lang="it">(Porto Ercole; 토스카나 남부 해안 마을)</span>에 자리한 호텔 일 펠리카노<span class="foreign-note" lang="it">(Hotel Il Pellicano)</span>다. 티레니아해의 짙은 물빛과 노란 파라솔이 펼쳐진 휴양지에서 그가 입은 것은 **SSC 나폴리<span class="foreign-note" lang="it">(SSC Napoli)</span>의 2023-24 시즌 홈 유니폼**이었다.
 
@@ -103,47 +107,12 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
 </div>
 
 <style>
-  .culture-person-card { display: grid; grid-template-columns: minmax(240px, .82fr) minmax(0, 1.18fr); overflow: hidden; margin: 14px 0 52px; border: 1px solid var(--bbfc-border); border-top: 4px solid var(--bbfc-blue); border-radius: var(--bbfc-radius-lg); background: var(--bbfc-fill-2); box-shadow: 0 18px 45px -38px rgba(15, 34, 58, .7); }
-  .culture-person-card__portrait { min-height: 100%; background: var(--bbfc-ink); }
-  .culture-person-card__portrait img { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; }
-  .culture-person-card__body { align-self: center; padding: 28px 30px 26px; }
-  .culture-person-card__eyebrow { margin: 0; color: var(--bbfc-blue); font-size: 10px; line-height: 1.4; font-weight: 760; letter-spacing: .16em; }
-  .culture-person-card__name { margin: 10px 0 0; color: var(--bbfc-ink); font-size: 30px; line-height: 1.12; font-weight: 780; letter-spacing: -.045em; }
-  .culture-person-card__roman { margin: 4px 0 22px; color: var(--bbfc-gray-2); font-size: 13px; line-height: 1.4; font-weight: 620; letter-spacing: .04em; }
-  .culture-person-card dl { margin: 0; border-top: 1px solid var(--bbfc-border); }
-  .culture-person-card dl div { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--bbfc-border); }
-  .culture-person-card dt { color: var(--bbfc-gray-2); font-size: 11px; line-height: 1.55; font-weight: 650; }
-  .culture-person-card dd { margin: 0; color: var(--bbfc-ink-2); font-size: 13px; line-height: 1.55; }
-  .culture-person-card__age { white-space: nowrap; }
-  .culture-person-card .flag { width: 1.35em; height: .9em; margin-left: .18em; border: 1px solid rgba(25, 31, 40, .12); border-radius: 2px; object-fit: cover; vertical-align: -.08em; }
-  .culture-instagram-handle { display: inline-block; color: #e1306c !important; font-weight: 760; text-decoration: none; }
-  .culture-instagram-brand { color: #c13584 !important; }
-  .culture-instagram-id { color: #f56040 !important; }
-  @supports ((background-clip: text) or (-webkit-background-clip: text)) {
-    .culture-instagram-brand,
-    .culture-instagram-id { background-clip: text !important; -webkit-background-clip: text !important; color: transparent !important; -webkit-text-fill-color: transparent !important; }
-    .culture-instagram-brand { background-image: linear-gradient(90deg, #833ab4 0%, #c13584 42%, #e1306c 70%, #f77737 100%) !important; }
-    .culture-instagram-id { background-image: linear-gradient(90deg, #e1306c 0%, #f56040 58%, #fcaf45 100%) !important; }
-  }
-  .culture-instagram-handle:hover { text-decoration: underline; text-decoration-color: #e1306c; text-underline-offset: 3px; }
-  .culture-instagram-handle:focus-visible { outline: 2px solid var(--bbfc-blue); outline-offset: 3px; border-radius: 2px; }
-  .culture-person-card__credit { margin: 15px 0 0; color: var(--bbfc-gray-2); font-size: 10px; line-height: 1.55; }
   .culture-kit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 44px 0 54px; }
   .culture-kit-grid figure { margin: 0; }
   .culture-kit-grid img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: #fff; }
   .culture-look-figure { margin-top: 42px; }
   @media (max-width: 640px) {
-    .culture-person-card { grid-template-columns: 1fr; margin-bottom: 44px; }
-    .culture-person-card__portrait { aspect-ratio: 3 / 4; }
-    .culture-person-card__body { padding: 23px 20px 21px; }
-    .culture-person-card__name { font-size: 27px; }
-    .culture-person-card dl div { grid-template-columns: 68px minmax(0, 1fr); gap: 9px; }
     .culture-kit-grid { gap: 8px; margin-top: 36px; }
     .culture-kit-grid figcaption { font-size: 11px; }
-  }
-  @media (forced-colors: active) {
-    .culture-instagram-handle,
-    .culture-instagram-brand,
-    .culture-instagram-id { background: none !important; color: LinkText !important; -webkit-text-fill-color: LinkText !important; }
   }
 </style>
