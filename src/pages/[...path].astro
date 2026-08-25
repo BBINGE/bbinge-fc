@@ -681,6 +681,38 @@ if (props.kind === 'category') {
 {articleView && (
   <script is:inline>
     (function () {
+      const ageItems = document.querySelectorAll('[data-birth-date]');
+      if (!ageItems.length) return;
+
+      const todayParts = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'Asia/Seoul',
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+      }).formatToParts(new Date());
+      const today = Object.fromEntries(todayParts.map(({ type, value }) => [type, Number(value)]));
+
+      ageItems.forEach((item) => {
+        const birthDate = item.getAttribute('data-birth-date');
+        if (!birthDate) return;
+        const [birthYear, birthMonth, birthDay] = birthDate.split('-').map(Number);
+        if (![birthYear, birthMonth, birthDay].every(Number.isFinite)) return;
+
+        const yearAge = today.year - birthYear;
+        const birthdayPassed = today.month > birthMonth || (today.month === birthMonth && today.day >= birthDay);
+        const fullAge = yearAge - (birthdayPassed ? 0 : 1);
+        const yearAgeTarget = item.querySelector('[data-year-age]');
+        const fullAgeTarget = item.querySelector('[data-full-age]');
+        if (yearAgeTarget) yearAgeTarget.textContent = String(yearAge);
+        if (fullAgeTarget) fullAgeTarget.textContent = String(fullAge);
+      });
+    })();
+  </script>
+)}
+
+{articleView && (
+  <script is:inline>
+    (function () {
       const containers = document.querySelectorAll('.custom-xi-music[data-youtube-id]');
       if (!containers.length) return;
 
