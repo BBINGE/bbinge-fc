@@ -78,8 +78,8 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   .fashion-index__manifesto strong { font-size:16px; line-height:1.05; letter-spacing:.02em; }
   .fashion-index__manifesto span { margin-top:8px; color:var(--bbfc-gray-2); font-size:11px; }
   .fashion-index__note { max-width:880px; margin:19px 0 30px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; text-wrap:pretty; }
-  .fashion-cover { display:grid; grid-template-columns:minmax(0,1.65fr) minmax(290px,.75fr); min-height:520px; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
-  .fashion-cover__image { position:relative; display:block; min-height:520px; overflow:hidden; background:var(--bbfc-fill); }
+  .fashion-cover { display:grid; grid-template-columns:minmax(0,1fr) minmax(290px,.58fr); border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
+  .fashion-cover__image { position:relative; display:block; aspect-ratio:1/1; overflow:hidden; background:var(--bbfc-fill); }
   .fashion-cover__image img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
   .fashion-cover__image:hover img { transform:scale(1.012); }
   .fashion-cover__image>span { position:absolute; top:18px; left:18px; padding:7px 9px; background:var(--bbfc-blue); color:#fff; font-size:8px; font-weight:760; letter-spacing:.14em; }
@@ -96,8 +96,8 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   .fashion-section-title span { margin-left:auto; color:var(--bbfc-gray-2); font-size:9px; letter-spacing:.12em; }
   .fashion-edit__grid { display:grid; grid-template-columns:1.18fr .82fr .82fr; gap:25px 18px; margin-top:20px; }
   .fashion-edit__story--major { grid-row:span 2; }
-  .fashion-edit__story>div { position:relative; aspect-ratio:4/5; overflow:hidden; background:var(--bbfc-fill); }
-  .fashion-edit__story:not(.fashion-edit__story--major)>div { aspect-ratio:4/3; }
+  .fashion-edit__story>div,
+  .fashion-edit__story:not(.fashion-edit__story--major)>div { position:relative; aspect-ratio:1/1; overflow:hidden; background:var(--bbfc-fill); }
   .fashion-edit__story img { width:100%; height:100%; object-fit:cover; transition:transform .35s ease; }
   .fashion-edit__story:hover img { transform:scale(1.02); }
   .fashion-edit__story>div span { position:absolute; right:9px; bottom:8px; color:#fff; font-size:11px; font-weight:750; text-shadow:0 1px 8px rgba(0,0,0,.7); }
@@ -111,11 +111,11 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   .fashion-index__empty { padding:70px 0; text-align:center; color:var(--bbfc-gray-2); }
   @media (max-width:820px) {
     .fashion-cover { grid-template-columns:1fr; }
-    .fashion-cover__image { min-height:auto; aspect-ratio:16/10; }
+    .fashion-cover__image { aspect-ratio:1/1; }
     .fashion-cover__copy { padding:30px 26px; }
     .fashion-edit__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
     .fashion-edit__story--major { grid-row:auto; }
-    .fashion-edit__story--major>div { aspect-ratio:4/5; }
+    .fashion-edit__story--major>div { aspect-ratio:1/1; }
   }
   @media (max-width:560px) {
     .fashion-index { padding:25px 16px 55px; }
@@ -123,12 +123,12 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
     .fashion-index__manifesto span { display:none; }
     .fashion-index__manifesto strong { font-size:11px; }
     .fashion-index__note { margin-bottom:24px; font-size:12.5px; }
-    .fashion-cover__image { aspect-ratio:4/5; }
+    .fashion-cover__image { aspect-ratio:1/1; }
     .fashion-cover__copy { padding:25px 20px 24px; }
     .fashion-cover__copy h2 { font-size:29px; }
     .fashion-edit__grid { gap:24px 10px; }
     .fashion-edit__story h3 { font-size:13.5px; }
-    .fashion-edit__story:not(.fashion-edit__story--major)>div { aspect-ratio:4/5; }
+    .fashion-edit__story:not(.fashion-edit__story--major)>div { aspect-ratio:1/1; }
     .fashion-archive>a { grid-template-columns:1fr auto; }
     .fashion-archive time { grid-column:1/3; }
   }
