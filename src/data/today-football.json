@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-25T20:26:50.356Z",
+  "updatedAt": "2026-08-25T21:26:14.438Z",
   "matches": [
     {
       "id": "2570479",
@@ -23,9 +23,9 @@
       "away": "셀틱",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 1,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
@@ -37,9 +37,9 @@
       "away": "NEC Nijmegen",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/uqpwwx1449165943.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
@@ -52,8 +52,8 @@
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
       "homeScore": 0,
-      "awayScore": 0,
-      "status": "2H",
+      "awayScore": 1,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
@@ -242,6 +242,14 @@
         },
         {
           "rank": 2,
+          "team": "레알 베티스",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+          "played": 2,
+          "goalDifference": 2,
+          "points": 6
+        },
+        {
+          "rank": 3,
           "team": "데포르티보 알라베스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
           "played": 2,
@@ -249,7 +257,7 @@
           "points": 4
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "아틀레티코 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 2,
@@ -257,7 +265,7 @@
           "points": 4
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "played": 1,
@@ -265,7 +273,7 @@
           "points": 3
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "played": 2,
@@ -273,17 +281,9 @@
           "points": 3
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "레알 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-          "played": 1,
-          "goalDifference": 1,
-          "points": 3
-        },
-        {
-          "rank": 7,
-          "team": "레알 베티스",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 1,
           "goalDifference": 1,
           "points": 3
@@ -322,14 +322,6 @@
         },
         {
           "rank": 12,
-          "team": "발렌시아",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-          "played": 1,
-          "goalDifference": 0,
-          "points": 1
-        },
-        {
-          "rank": 13,
           "team": "셀타 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 1,
@@ -337,7 +329,7 @@
           "points": 1
         },
         {
-          "rank": 14,
+          "rank": 13,
           "team": "라싱 산탄데르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
           "played": 2,
@@ -345,9 +337,17 @@
           "points": 1
         },
         {
-          "rank": 15,
+          "rank": 14,
           "team": "라요 바예카노",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+          "played": 2,
+          "goalDifference": -1,
+          "points": 1
+        },
+        {
+          "rank": 15,
+          "team": "발렌시아",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
           "played": 2,
           "goalDifference": -1,
           "points": 1
