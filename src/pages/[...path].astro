@@ -142,25 +142,32 @@ if (props.kind === 'category') {
         </div>
 
         {categoryView.meta.description && (
-          <p class="max-w-[760px] text-[14px] leading-[1.75] text-[var(--bbfc-gray-1)] mb-5">
-            {categoryView.meta.description}
-          </p>
+          <section class="category-intro" aria-label={`${categoryView.meta.pageTitle ?? categoryView.meta.label} 소개`}>
+            <p>{categoryView.meta.description}</p>
+          </section>
         )}
 
-        {categoryView.children.length > 0 && (
-          <div class="flex flex-wrap gap-2 mb-5">
-            {categoryView.children.map((child) => (
-              <a
-                href={getCategoryPath(child.slug)}
-                class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
-              >
-                {child.label}
-              </a>
-            ))}
+        <section class="category-contents" aria-label={`${categoryView.meta.pageTitle ?? categoryView.meta.label} 콘텐츠`}>
+          <div class="category-contents__heading" aria-hidden="true">
+            <span>CONTENTS</span>
+            <i></i>
           </div>
-        )}
 
-        <CategoryArticleList entries={categoryView.articles} emptyMessage={categoryView.meta.emptyMessage} />
+          {categoryView.children.length > 0 && (
+            <div class="flex flex-wrap gap-2 mb-5">
+              {categoryView.children.map((child) => (
+                <a
+                  href={getCategoryPath(child.slug)}
+                  class="text-[12.5px] text-[var(--bbfc-ink-2)] border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius)] px-3 py-1.5"
+                >
+                  {child.label}
+                </a>
+              ))}
+            </div>
+          )}
+
+          <CategoryArticleList entries={categoryView.articles} emptyMessage={categoryView.meta.emptyMessage} />
+        </section>
       </div>
     </div>
   </Layout>
@@ -262,6 +269,42 @@ if (props.kind === 'category') {
 )}
 
 <style>
+  .category-intro {
+    margin: 0 0 24px;
+    padding: 0 0 24px;
+    border-bottom: 1px solid var(--bbfc-ink);
+  }
+  .category-intro p {
+    max-width: none;
+    color: var(--bbfc-gray-1);
+    font-size: 14px;
+    line-height: 1.82;
+    text-wrap: pretty;
+  }
+  .category-contents__heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .category-contents__heading span {
+    flex: none;
+    color: var(--bbfc-blue);
+    font-size: 9px;
+    line-height: 1;
+    font-weight: 750;
+    letter-spacing: .16em;
+  }
+  .category-contents__heading i {
+    width: 28px;
+    height: 2px;
+    background: var(--bbfc-blue);
+  }
+  @media (max-width: 600px) {
+    .category-intro { margin-bottom: 20px; padding-bottom: 20px; }
+    .category-intro p { font-size: 13.5px; line-height: 1.78; }
+    .category-contents__heading { margin-bottom: 14px; }
+  }
   .article-body :global(h2) {
     border-left: 4px solid var(--bbfc-blue);
     padding-left: 14px;
