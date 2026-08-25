@@ -73,7 +73,7 @@ relatedGroup: 'fifa-world-cup-1954'
 
 1925년 오프사이드 규정이 바뀌자 잉글랜드의 허버트 채프먼<span class="foreign-note" lang="en">(Herbert Chapman; 잉글랜드 축구 감독, 1878-1934)</span>과 아스널은 센터하프를 수비선으로 내렸다. 그렇게 3-2-2-3, 글자 모양을 따라 WM이라 불린 구조가 발전했다. 수비 숫자가 늘었고, 공을 빼앗은 뒤 빠르게 전진할 길도 또렷해졌다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-이탈리아의 비토리오 포초<span class="foreign-note" lang="it">(Vittorio Pozzo; 이탈리아 축구 감독, 1886-1968)</span>는 다른 답을 발전시켰다. 메토도<span class="foreign-note" lang="it">(Metodo; 두 인사이드 포워드를 내려 2-3-2-3으로 연결한 포초의 전술 체계)</span>였다. 센터하프를 최후방으로 내리는 대신 두 인사이드 포워드를 중원 가까이 두어 기술과 연결을 살렸다. 포초는 이 구조를 바탕으로 1934년과 1938년 FIFA 월드컵™을 연속 제패했다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+이탈리아의 비토리오 포초<span class="foreign-note" lang="it">(Vittorio Pozzo; 이탈리아 축구 감독, 1886-1968)</span>는 다른 답을 발전시켰다. 메토도<span class="foreign-note" lang="it">(Metodo; 두 인사이드 포워드를 내려 2-3-2-3으로 연결한 포초의 전술 체계)</span>였다. 센터하프를 최후방으로 내리는 대신 두 인사이드 포워드를 중원 가까이 두어 기술과 연결을 살렸다. 포초는 이 구조를 바탕으로 1934년과 1938년 FIFA 월드컵을 연속 제패했다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 <div class="shape-comparison" aria-label="피라미드, 메토도, WM 포메이션 비교">
   <article><span>PYRAMID</span><strong>2-3-5</strong><p>두 풀백, 세 하프백, 다섯 포워드. 여러 변형이 출발한 오래된 기본형.</p></article>
@@ -101,7 +101,7 @@ relatedGroup: 'fifa-world-cup-1954'
 
 그런데 경기 시작 1분도 되지 않아 히데그쿠티 난도르<span class="foreign-note" lang="hu">(Hidegkuti Nándor; 헝가리 축구선수·센터포워드, 1922-2002)</span>가 골을 넣었다.
 
-잉글랜드 센터하프 해리 존스턴에게 히데그쿠티의 이동은 단순한 개인 마크의 실패가 아니라 WM 수비 원리의 충돌이었다. 센터하프는 상대 센터포워드를 기준으로 자기 위치를 정했지만, 정작 그 센터포워드가 하프백 선 가까이까지 내려갔다. 존스턴이 따라가면 잉글랜드의 최종 수비선은 중앙을 잃었고, 자리를 지키면 히데그쿠티가 보지크와 수적 우위를 이루며 전방을 향해 몸을 돌렸다. 그 순간 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리 축구선수·인사이드 레프트, 1927-2006)</span>와 코치시 샨도르<span class="foreign-note" lang="hu">(Kocsis Sándor; 헝가리 축구선수·인사이드 라이트, 1929-1979)</span>는 인사이드 포워드의 출발 위치를 버리고 중앙 수비 뒤의 공간을 공격했다. 잉글랜드 수비수들은 사람을 기준으로 역할을 배분했지만, 헝가리는 그 사람이 있어야 할 자리 자체를 없애 버렸다.
+잉글랜드 센터하프 해리 존스턴에게 히데그쿠티의 이동은 단순한 개인 마크의 실패가 아니라 WM 수비 원리의 충돌이었다. 센터하프는 상대 센터포워드를 기준으로 자기 위치를 정했지만, 정작 그 센터포워드가 하프백 선 가까이까지 내려갔다. 존스턴이 따라가면 잉글랜드의 최종 수비선은 중앙을 잃었고, 자리를 지키면 히데그쿠티가 보지크와 수적 우위를 이루며 전방을 향해 몸을 돌렸다. 그 순간 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리 축구선수·인사이드 레프트, 1927-2006)</span>와 코치시 샨도르<span class="foreign-note" lang="hu">(Kocsis Sándor Péter; 헝가리 축구선수·인사이드 라이트, 1929-1979)</span>는 인사이드 포워드의 출발 위치를 버리고 중앙 수비 뒤의 공간을 공격했다. 잉글랜드 수비수들은 사람을 기준으로 역할을 배분했지만, 헝가리는 그 사람이 있어야 할 자리 자체를 없애 버렸다.
 
 <div class="tactics-board hungary-board" role="img" aria-label="1953년 웸블리 잉글랜드전 헝가리의 유동적 공격 배치">
   <div class="board-heading"><span>WEMBLEY · 25 NOV 1953</span><strong>히데그쿠티가 내려가고, 두 인사이드가 찔렀다</strong><small>선발 명단과 대표적 공격 움직임</small></div>
@@ -128,8 +128,8 @@ relatedGroup: 'fifa-world-cup-1954'
 그러므로 헝가리가 남긴 핵심은 3-2-3-2나 4-2-4 가운데 어느 숫자가 더 정확한가에 있지 않다. 명목상 포지션과 실제 기능을 분리하고, 공의 위치와 동료의 이동에 따라 역할을 재배분했다는 데 있다. 포메이션이 경기 시작 전의 배치라면, 헝가리의 전술은 그 배치가 경기 중 어떤 관계로 변형되는지를 보여준 사례였다.
 
 <figure class="editorial-graphic">
-  <img src="/images/tactics/hungary-golden-team/hungary-golden-team.png" alt="푸슈카시, 코치시, 히데그쿠티를 비롯한 헝가리 황금의 팀 베스트 11을 당대 역할에 맞춰 배치한 운영자 제작 전술 이미지" width="966" height="966" loading="lazy" decoding="async" />
-  <figcaption>운영자가 직접 선정하고 제작한 헝가리 황금의 팀 베스트 11. 현대 포지션 칸에 억지로 가두기보다 당시의 아웃사이드·인사이드 포워드와 하프백 역할을 함께 읽어야 한다.</figcaption>
+  <img src="/images/tactics/hungary-golden-team/hungary-golden-team.png" alt="푸슈카시, 코치시, 히데그쿠티를 비롯한 헝가리 황금의 팀 베스트 11을 당대 역할에 맞춰 배치한 전술 이미지" width="966" height="966" loading="lazy" decoding="async" />
+  <figcaption>푸슈카시와 코치시가 안쪽을 파고들고, 히데그쿠티가 그들 뒤로 내려오는 헝가리 황금의 팀 베스트 11. 현대식 공격수·미드필더 구분보다 당시의 아웃사이드·인사이드 포워드와 하프백 역할로 읽어야 한다.</figcaption>
 </figure>
 
 바로 이 지점에서 현대 전술과의 연결이 생긴다. 중요한 것은 누가 어느 칸에 서 있는가가 아니라, 한 선수가 움직인 결과로 생긴 공간을 누가 어떤 속도와 방향으로 점유하는가다. 오늘날 전술판이 선수의 최초 위치보다 이동의 화살표로 가득한 이유를 1950년대 헝가리에서도 읽을 수 있다.
@@ -144,16 +144,22 @@ relatedGroup: 'fifa-world-cup-1954'
 
 <figure class="editorial-graphic">
   <img src="/images/tactics/hungary-golden-team/historic-elo-ranking.png" alt="World Football Elo Ratings의 소급 계산을 토대로 정리한 국가대표팀 역사상 최고 Elo 등급 순위" width="966" height="1228" loading="lazy" decoding="async" />
-  <figcaption>2025년 1월 공개한 운영자 제작 자료. Elo는 FIFA 공식 랭킹이 아니라 과거 경기까지 소급 계산하는 별도 평가 체계다.</figcaption>
+  <figcaption>World Football Elo Ratings의 소급 계산에서 1954년 헝가리는 2231점으로 가장 높은 고점에 놓인다. FIFA 공식 랭킹이 아니라 과거 경기까지 다시 계산한 별도 평가 체계다.</figcaption>
 </figure>
 
 숫자 밖의 성취도 거대하다. 헝가리는 1950년부터 1954년 월드컵 결승까지 31경기 무패를 이어갔고, 1952 헬싱키 올림픽에서 금메달을 차지했다. 1954년 월드컵에서는 27골을 넣어 단일 대회 한 팀 최다 득점 기록을 남겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
 UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50경기에서 패배는 딱 한 번이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
+그 압도는 한두 번의 유명한 대승으로 만들어진 인상이 아니었다. 1952년 헬싱키 올림픽 준결승에서 디펜딩 챔피언 스웨덴을 6-0으로 밀어냈고, 이듬해 로마에서는 이탈리아를 3-0으로 꺾으며 중부유럽 국제컵을 가져왔다. 1953년 웸블리 6-3과 1954년 부다페스트 7-1은 잉글랜드를 두 경기 합계 13-4로 무너뜨린 연속전이었다. 월드컵에 들어가서는 대한민국에 9-0, 서독에 8-3을 기록한 뒤 8강에서 브라질을 4-2, 준결승에서 디펜딩 챔피언 우루과이를 연장 끝에 4-2로 꺾었다. 유럽의 강호만 팬 것이 아니다. 남미의 직전 월드컵 우승국과 우승 후보까지 정면으로 눌렀다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a><a class="cite" href="#source-10" aria-label="출처 10">[10]</a><a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+
+아래 성적표의 프랑스전 13-1은 이보다 한 세대 앞선 1927년 6월 12일의 경기다. 터카치 2세 요제프<span class="foreign-note" lang="hu">(Takács II József; 헝가리 축구 국가대표팀 공격수, 1904-1983)</span>가 여섯 골을 넣었고, 헝가리가 A매치 한 경기에서 기록한 13골은 지금도 대표팀 최다 득점 기록으로 남아 있다. 1950년대 아라니처파트의 성적은 아니지만 뜬금없이 끼어든 숫자도 아니다. 프로화 직후 첫 황금기를 연 1920-1930년대 헝가리와, 그 축구 문화가 세계의 정점까지 올라간 1950년대를 한 장에서 겹쳐 보여주는 기록이다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
+
+다만 `69경기 58승 10무 1패 436골`은 공식 A매치만 센 단일 기준과 일치하지 않는 넓은 집계다. 헝가리축구협회는 1950년 6월 4일부터 1956년 10월 14일까지의 대표팀 공식 64경기를 49승 10무 5패로 기록하고, UEFA는 1950년 6월부터 1956년 2월까지의 더 짧은 50경기에서 월드컵 결승 한 번만 졌다고 정리한다. 어느 수치를 쓰든 먼저 기간과 포함 경기를 밝혀야 한다. 이것은 헝가리의 압도성을 깎는 단서가 아니라, 그 압도성을 정확한 기록으로 남기기 위한 집계 기준의 구분이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a><a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+
 <figure class="editorial-graphic">
-  <img src="/images/tactics/hungary-golden-team/hungary-results.png" alt="헝가리 대표팀의 성적과 잉글랜드, 서독, 프랑스, 브라질전 기록을 정리한 운영자 제작 이미지" width="966" height="1228" loading="lazy" decoding="async" />
-  <figcaption>2025년 네이버 원문에 공개한 운영자 제작 기록물. 프랑스전 13-1은 황금의 팀 시기보다 앞선 1927년 헝가리 대표팀의 역사적 기록이며, 본문의 1950-1956년 집계와는 범위가 다르다.</figcaption>
+  <img src="/images/tactics/hungary-golden-team/hungary-results.png" alt="헝가리 대표팀의 성적과 잉글랜드, 서독, 프랑스, 브라질전 기록을 정리한 이미지" width="966" height="1228" loading="lazy" decoding="async" />
+  <figcaption>1927년 프랑스전 13-1부터 잉글랜드와의 두 경기 합계 13-4, 1954년 서독전 8-3과 브라질전 4-2까지. 한 장에 겹친 두 황금기는 헝가리 축구가 유럽의 변방이 아니라 세계 전술사의 중심이었던 시간을 보여준다.</figcaption>
 </figure>
 
 하필 그 한 번이 월드컵 결승이었다.
@@ -196,13 +202,15 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
   <li id="source-2"><a href="https://www.fifa.com/it/tournaments/mens/worldcup/articles/austria-il-wunderteam-matthias-sindelar-1934">「Matthias Sindelar e il Wunderteam」</a>, FIFA. 신델라르와 분더팀, 호건과 마이슬의 전술적 관계.</li>
   <li id="source-3"><a href="https://hospitality.arsenal.com/packages/inner-circle">「The WM」</a>, Arsenal FC. 채프먼과 찰리 버컨이 발전시킨 3-2-2-3 구조.</li>
   <li id="source-4"><a href="https://inside.fifa.com/tournaments/mens/worldcup/2018russia/news/20-march-countdown-86-days-2932639">「Pozzo enters the stage」</a>, FIFA. 포초의 메토도와 1934·1938년 연속 우승.</li>
-  <li id="source-5"><a href="https://www.uefa.com/european-qualifiers/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56/">「The greatest teams of all time: Hungary 1950–56」</a>, UEFA. 선수 집중, 비공식 훈련 경기, 전술 토론과 50경기 기록.</li>
+  <li id="source-5"><a href="https://www.uefa.com/european-qualifiers/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56/">「The greatest teams of all time: Hungary 1950-56」</a>, UEFA. 선수 집중, 비공식 훈련 경기, 전술 토론과 50경기 기록.</li>
   <li id="source-6"><a href="https://www.fifa.com/en/news/articles/hungary-magical-magyars-puskas-hidegkuti-england-wembley-1953-six-three">「The day magic wowed Wembley」</a>, FIFA. 1953년 잉글랜드전의 경기 전 상황, 슈팅 수와 전술적 충격.</li>
   <li id="source-7"><a href="https://www.uefa.com/news-media/news/0261-10715f1f077b-8325b0ae2a47-1000--uefa-super-cup-might-of-the-magyars/">「Might of the Magyars」</a>, UEFA. 히데그쿠티의 후퇴와 푸슈카시의 토털 풋볼 회고.</li>
   <li id="source-8"><a href="https://www.uefa.com/uefachampionsleague/news/0230-0e94a8068d01-a93b114660e2-1000--in-profile-rinus-michels/">「In profile: Rinus Michels」</a>, UEFA. 헝가리 황금의 팀과 잭 레이놀즈의 아약스를 미헐스 이전의 토대로 설명한 기록.</li>
   <li id="source-9"><a href="https://www.eloratings.net/Hungary">「Hungary」</a>, World Football Elo Ratings. 국가대표팀 경기 결과를 소급 계산한 비공식 Elo 자료.</li>
   <li id="source-10"><a href="https://www.fifa.com/en/tournaments/olympicgames/paris2024/articles/magic-magyars-ten-moments">「The Magyars work their magic」</a>·<a href="https://inside.fifa.com/tournaments/mens/worldcup/2018russia/news/27-days-to-go-record-setting-mighty-magyars">「Record-setting Mighty Magyars」</a>, FIFA. 31경기 무패, 1952년 올림픽 금메달과 1954년 월드컵 27골.</li>
   <li id="source-11"><a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/west-germany-hungary-1954-final">「The Miracle of Bern」</a>, FIFA. 결승전 득점, 현장 예측과 헝가리의 골대·크로스바 기록.</li>
+  <li id="source-12"><a href="https://www.mlsz.hu/hir/az-aranycsapat-legendaja">「Az Aranycsapat legendája」</a>, 헝가리축구협회. 1950년 6월부터 1956년 10월까지 공식 64경기의 범위와 성적.</li>
+  <li id="source-13"><a href="https://valogatott.mlsz.hu/ferfi-a-valogatott/meccs/213">「Magyarország 13-1 Franciaország」</a>, 헝가리축구협회. 1927년 프랑스전의 날짜, 득점자와 경기 기록.</li>
   <li><a href="https://blog.naver.com/sho3603/223725911729">원문: 「세계 축구 Elo 레이팅 역대 1위 헝가리 축구 그리고 토털 풋볼」</a>. 2025년 공개한 운영자 원고와 제작 이미지를 저본으로 삼아 인물 표기, 전술 용어, 기록 범위와 출처를 다시 대조한 개정판이다.</li>
 </ol>
 </section>
@@ -222,8 +230,8 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
   .pitch-lines { position: absolute; z-index: 0; inset: 118px 22px 22px; border: 2px solid rgba(255,255,255,.36); }
   .pitch-lines::before { position: absolute; top: 50%; left: 0; width: 100%; border-top: 2px solid rgba(255,255,255,.3); content: ''; }
   .pitch-lines::after { position: absolute; top: calc(50% - 55px); left: calc(50% - 55px); width: 110px; height: 110px; border: 2px solid rgba(255,255,255,.3); border-radius: 50%; content: ''; }
-  .player { position: absolute; z-index: 2; width: 104px; padding: 8px 6px; transform: translate(-50%, -50%); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; background: rgba(8,25,14,.86); box-shadow: 0 8px 20px -14px #000; color: #fff; text-align: center; font-size: 12px; font-weight: 720; line-height: 1.15; }
-  .player small { display: block; margin-top: 3px; color: #b8d3ff; font-size: 8px; letter-spacing: .08em; }
+  .player { position: absolute; z-index: 2; width: 112px; padding: 9px 6px; transform: translate(-50%, -50%); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; background: rgba(8,25,14,.86); box-shadow: 0 8px 20px -14px #000; color: #fff; text-align: center; font-size: 14px; font-weight: 750; line-height: 1.15; }
+  .player small { display: block; margin-top: 4px; color: #b8d3ff; font-size: 10px; letter-spacing: .08em; }
   .featured-player { border-color: #8eb6ff; background: #173f2a; box-shadow: 0 0 0 5px rgba(142,182,255,.12); }
   .runner { border-color: rgba(255,215,92,.65); }
   .p-gk { left: 50%; top: 90%; } .p-lb { left: 34%; top: 76%; } .p-cb { left: 50%; top: 78%; } .p-rb { left: 66%; top: 76%; }
@@ -232,9 +240,11 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
   .drop-arrow, .run-arrow { position: absolute; z-index: 1; color: #b8d3ff; font-size: 38px; font-weight: 300; animation: tactical-pulse 1.8s ease-in-out infinite; }
   .drop-arrow { top: 47%; left: calc(50% - 9px); } .run-left { top: 24%; left: calc(30% - 8px); color: #ffe58c; } .run-right { top: 24%; left: calc(70% - 8px); color: #ffe58c; }
   .shape-comparison { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 36px 0 42px; }
-  .shape-comparison article { padding: 19px 17px; border-top: 2px solid var(--bbfc-ink); background: var(--bbfc-fill-2); }
-  .shape-comparison strong { display: block; margin-top: 7px; font-size: 27px; letter-spacing: -.04em; }
-  .shape-comparison p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.6; }
+  .shape-comparison article { position: relative; overflow: hidden; padding: 19px 17px; border-top: 2px solid rgba(255,255,255,.88); background-color: #205b34; background-image: linear-gradient(90deg, rgba(255,255,255,.035) 50%, transparent 50%), repeating-linear-gradient(104deg, rgba(255,255,255,.035) 0 1px, transparent 1px 5px), linear-gradient(160deg, rgba(52,126,72,.96), rgba(18,67,38,.98)); background-size: 44px 100%, 7px 7px, 100% 100%; box-shadow: inset 0 0 28px rgba(4,28,14,.24); color: #fff; }
+  .shape-comparison article::after { position: absolute; inset: 8px; border: 1px solid rgba(255,255,255,.16); pointer-events: none; content: ''; }
+  .shape-comparison span { color: #c7ddff; }
+  .shape-comparison strong { position: relative; z-index: 1; display: block; margin-top: 7px; font-size: 27px; letter-spacing: -.04em; }
+  .shape-comparison p { position: relative; z-index: 1; margin: 8px 0 0 !important; color: rgba(255,255,255,.78); font-size: 12px; line-height: 1.6; }
   .related-story { display: block; margin: 48px 0; padding: 25px 27px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff, rgba(36,107,253,.05)); }
   .related-story strong { display: block; margin-top: 9px; font-size: 21px; line-height: 1.4; }
   .related-story p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.65; }
@@ -247,7 +257,8 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
     .board-heading { padding: 18px 17px 15px; }
     .board-heading strong { font-size: 16px; }
     .pitch-lines { inset: 111px 10px 12px; }
-    .player { width: 62px; padding: 7px 2px; font-size: 9px; }
+    .player { width: 64px; padding: 8px 2px; font-size: 11px; }
+    .player small { font-size: 9px; }
     .p-lb { left: 25%; } .p-rb { left: 75%; }
     .p-lh { left: 19%; } .p-rh { left: 81%; }
     .p-ol { left: 10%; } .p-il { left: 30%; } .p-ir { left: 70%; } .p-or { left: 90%; }
