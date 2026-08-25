@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T04:12:54.783Z",
+  "updatedAt": "2026-08-25T04:37:00.814Z",
   "birthday": {
     "name": "숀 코너리",
     "birthYear": 1930,
@@ -8,20 +8,6 @@
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sean%20Connery%20%281983%29.jpg?width=700"
   },
   "matches": [
-    {
-      "id": "2482142",
-      "league": "세리에 A",
-      "home": "볼로냐",
-      "away": "라치오",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/2qi1u31655592366.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
-      "homeScore": 0,
-      "awayScore": 1,
-      "status": "FT",
-      "progress": "",
-      "time": "01:30",
-      "date": "2026-08-25"
-    },
     {
       "id": "2506186",
       "league": "라리가",
