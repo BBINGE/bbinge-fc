@@ -4,7 +4,7 @@ description: '1903년 시작된 비안코네리의 흑백 줄무늬와 2023-24 �
 category: 'culture'
 tags: ['유벤투스 FC', '유벤투스 유니폼', '비안코네리', '블록코어룩', '축구 패션', '세리에 A']
 pubDate: 2026-08-14T19:31:00+09:00
-updatedDate: 2026-08-24T12:00:00+09:00
+updatedDate: 2026-08-26T15:30:00+09:00
 coverImage: '/images/culture/juventus-blockcore-outfits.png'
 coverImageAlt: '유벤투스 유니폼을 입은 모델과 축구는 패션이다, 블록코어룩 모음이라는 문구를 배치한 표지'
 coverImageCaption: '흰색과 검은색이라는 가장 단순한 조합이 유벤투스 유니폼에서는 가장 분명한 패션 언어가 된다.'
@@ -37,7 +37,7 @@ featured: false
   <img src="/images/culture/juventus-blockcore-outfits/05.webp" alt="2024 유벤투스 원정 유니폼 디자인 1" width="773" height="435" loading="lazy" decoding="async" />
   <img src="/images/culture/juventus-blockcore-outfits/06.webp" alt="2024 유벤투스 원정 유니폼 디자인 2" width="750" height="500" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">전통적인 흑백 줄무늬를 얼룩말의 붓질 무늬로 다시 만든 2023-24 시즌 유벤투스 홈 유니폼과 같은 시기의 디자인.</p>
+<p class="culture-photo-caption">전통적인 흑백 줄무늬를 얼룩말의 붓질 무늬로 다시 만든 2023-24 시즌 유벤투스 홈·원정 유니폼. 사진: Juventus FC·adidas 공식 공개 자료.</p>
 
 ## 홈 유니폼: 줄무늬를 중심에 두기
 
@@ -59,7 +59,7 @@ featured: false
   <img src="/images/culture/juventus-blockcore-outfits/09.webp" alt="유벤투스 유니폼을 활용한 블록코어룩 3" width="773" height="447" loading="lazy" decoding="async" />
   <img src="/images/culture/juventus-blockcore-outfits/10.webp" alt="유벤투스 유니폼을 활용한 블록코어룩 4" width="773" height="412" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">흑백 줄무늬를 중심에 두고 나머지 아이템을 단순하게 맞춘 블록코어룩.</p>
+<p class="culture-photo-caption">흑백 줄무늬를 중심에 두고 나머지 아이템을 단순하게 맞춘 블록코어룩. 사진: Juventus FC × 032c 공식 협업 화보 및 로스앤젤레스 공개 행사.</p>
 
 ## 원정 유니폼: 색 하나를 반복하기
 
@@ -91,7 +91,7 @@ featured: false
   <img src="/images/culture/juventus-blockcore-outfits/19.webp" alt="유벤투스 유니폼과 일상복을 조합한 패션 9" width="773" height="447" loading="lazy" decoding="async" />
   <img src="/images/culture/juventus-blockcore-outfits/20.webp" alt="유벤투스 유니폼과 일상복을 조합한 패션 10" width="773" height="541" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">모노톤을 벗어나 데님과 컬러 아이템까지 확장한 유벤투스 패션 모음.</p>
+<p class="culture-photo-caption">모노톤을 벗어나 데님과 컬러 아이템까지 확장한 유벤투스 패션 모음. Juventus Icon Collection 공식 화보와 2024년 네이버 원문 수록 자료를 함께 배치했다.</p>
 
 ## 유니폼을 입는 순간 함께 걸치는 것
 
@@ -104,7 +104,11 @@ featured: false
   <ol>
     <li><a href="https://blog.naver.com/sho3603/223374822239">“유벤투스 유니폼으로 블록코어룩 입는 법”</a>, 삥이N스포츠_Official. 2024년 작성한 원문을 바탕으로 구단과 유니폼의 역사, 코디 해설을 보강했다.</li>
     <li>Juventus, <a href="https://www.juventus.com/en/news/articles/black-and-white-brothers-unite-in-the-name-of-tom-savage">「Black and white brothers unite in the name of Tom Savage」</a>: 1903년 흑백 줄무늬와 비안코네리 정체성의 시작.</li>
-    <li>Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-adidas-present-the-home-kit-23-24">「Juventus & adidas present the Home Kit 23/24」</a>: 2023-24 시즌 홈 유니폼의 얼룩말 패턴과 노란색 디테일.</li>
+    <li>본문 사진 02–04: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-adidas-present-the-home-kit-23-24">「Juventus & adidas present the Home Kit 23/24」</a>. 2023-24 시즌 홈 유니폼의 얼룩말 패턴과 노란색 디테일.</li>
+    <li>본문 사진 05–06: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-and-adidas-present-the-2023-24-away-kit">「Juventus and adidas present the 2023/24 Away Kit」</a>. 흰색 바탕과 회색·분홍색 줄무늬의 공식 원정 유니폼 공개 자료.</li>
+    <li>본문 사진 07–10: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-football-club-x032c-football-and-fashion-raise-the-bar">「Juventus Football Club × 032c」</a> 및 <a href="https://www.juventus.com/en/news/galleries/juventus-x-032c-the-event-in-los-angeles">로스앤젤레스 행사 갤러리</a>. 협업 셔츠와 공개 행사의 공식 자료.</li>
+    <li>본문 사진 11·16–19: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-launch-icon-collection">「Juventus launch Icon Collection」</a> 및 <a href="https://www.soccerbible.com/lifestyle/clothing/2019/01/juventus-launch-the-icon-collection/">SoccerBible 화보</a>. 일상복으로 확장한 공식 컬렉션의 착장 확인.</li>
+    <li>표지와 본문 사진 12–15·20은 2024년 네이버 원문에 실렸던 기존 편집 자료다. 원문에 개별 게시물·촬영자 정보가 남아 있지 않아 확인되지 않은 원출처를 임의로 기재하지 않았다. 사진 14의 착장은 <a href="https://www.mujerhoy.com/moda/no-te-pierdas/blokecore-tendencia-camiseta-futbol-looks-diario-20230820144941-nt.html">MujerHoy</a>, 사진 15의 켄달 제너 착장은 <a href="https://www.nss-sports.com/en/lifestyle/10707/all-the-football-inspiration-behind-gosha-rubchinskiy-third-drop">nss sports</a>에서 교차 확인했다.</li>
     <li>adidas, <a href="https://www.adidas.com/us/blog/1003164-2023-trend-check-blokecore">「2023 Trend Check: Bloke-Core」</a>: 블로크코어와 블로켓의 용어 및 스타일 맥락.</li>
   </ol>
 </div>

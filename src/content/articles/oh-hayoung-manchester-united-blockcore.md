@@ -4,7 +4,7 @@ description: '오하영의 맨체스터 유나이티드 레트로 유니폼 코�
 category: 'culture'
 tags: ['맨체스터 유나이티드', '맨유 유니폼', '오하영', '블록코어룩', '축구 패션', '레트로 유니폼']
 pubDate: 2026-08-14T19:32:00+09:00
-updatedDate: 2026-08-24T12:00:00+09:00
+updatedDate: 2026-08-26T15:30:00+09:00
 coverImage: '/images/culture/oh-hayoung-manchester-united-blockcore.png'
 coverImageAlt: '맨체스터 유나이티드 레트로 유니폼을 입은 오하영과 맨유 패션이라는 문구를 배치한 표지'
 coverImageCaption: '언제나 맨유에는 진심인 에이핑크 오하영. 축구 유니폼을 일상의 옷으로 옮기는 세 가지 방법을 보여준다.'
@@ -42,7 +42,7 @@ featured: false
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/06.webp" alt="맨체스터 유나이티드 베컴 레트로 유니폼을 활용한 오하영의 봄 코디 5" width="773" height="966" loading="lazy" decoding="async" />
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/07.webp" alt="셸 파카를 겹쳐 입은 오하영의 맨체스터 유나이티드 유니폼 코디" width="773" height="966" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">베컴 레트로 유니폼을 중심으로 가벼운 봄옷과 셸 파카를 조합한 모습.</p>
+<p class="culture-photo-caption">베컴 레트로 유니폼을 중심으로 가벼운 봄옷과 셸 파카를 조합한 모습. 사진: 오하영 공식 Instagram @_ohhayoung_.</p>
 
 ## 2. 청바지와 함께 입는 놈코어룩
 
@@ -60,7 +60,7 @@ featured: false
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/10.webp" alt="맨체스터 유나이티드 유니폼과 청바지를 조합한 오하영의 코디 3" width="773" height="966" loading="lazy" decoding="async" />
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/11.webp" alt="맨체스터 유나이티드 유니폼과 청바지를 조합한 오하영의 코디 4" width="773" height="966" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">유니폼의 그래픽을 살리고 청바지와 신발은 단순하게 정리한 블록코어룩.</p>
+<p class="culture-photo-caption">유니폼의 그래픽을 살리고 청바지와 신발은 단순하게 정리한 블록코어룩. 사진: 오하영 공식 Instagram @_ohhayoung_.</p>
 
 ## 3. 셸 파카와 맨유의 검정·빨강
 
@@ -81,7 +81,7 @@ featured: false
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/15.webp" alt="검정과 빨강 셸 파카를 활용한 오하영의 맨체스터 유나이티드 코디 4" width="773" height="966" loading="lazy" decoding="async" />
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/16.webp" alt="검정과 빨강 셸 파카를 활용한 오하영의 맨체스터 유나이티드 코디 5" width="773" height="966" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">맨유의 검정과 빨강을 바람막이와 유니폼에 나눠 담은 레이어드.</p>
+<p class="culture-photo-caption">맨유의 검정과 빨강을 바람막이와 유니폼에 나눠 담은 레이어드. 사진: 오하영 공식 Instagram @_ohhayoung_.</p>
 
 ## 오래된 유니폼이 새 옷보다 재미있는 이유
 
@@ -93,7 +93,8 @@ featured: false
   <h2>원문과 이미지</h2>
   <ol>
     <li><a href="https://blog.naver.com/sho3603/223405641378">“오하영이 보여주는 맨유 유니폼 블록코어룩 코디 모음”</a>, 삥이N스포츠_Official. 2024년 작성한 원문을 바탕으로 유니폼의 시대와 코디 해설을 보강했다.</li>
-    <li>표지 및 원문 속 오하영 사진 출처: 오하영 인스타그램 <a href="https://www.instagram.com/_ohhayoung_/">@_ohhayoung_</a>.</li>
+    <li>표지 및 본문 사진 02–16: 오하영 공식 Instagram <a href="https://www.instagram.com/_ohhayoung_/">@_ohhayoung_</a> 공개 사진. 2024년 네이버 원문에 함께 실린 세 착장 묶음을 게시 순서대로 옮겼으며, 이번 보강에서 새 외부 사진은 추가하지 않았다. 네이버 원문에는 계정 단위 출처만 기록되어 있어 개별 게시물 주소는 확인되지 않았다.</li>
+    <li>Fashion & Style, <a href="https://www.fashionandstyle.com/posts/2024/03/12/%EB%A7%A8%EC%9C%A0%ED%8C%AC-%EB%91%90%EA%B7%BC%EA%B1%B0%EB%A6%AC%EA%B2%8C%ED%95%98%EB%8A%94-%EC%98%A4%ED%95%98%EC%98%81?id=108863">「맨유팬 두근거리게하는 오하영」</a>, 2024년 3월 12일: 검정 맨체스터 유나이티드 셔츠 착장과 사진 출처 @_ohhayoung_ 교차 확인.</li>
     <li>adidas, <a href="https://www.adidas.com/us/blog/1003164-2023-trend-check-blokecore">「2023 Trend Check: Bloke-Core」</a>: 블로크코어와 블로켓의 용어 및 스타일 맥락.</li>
     <li>Museum of Jerseys, <a href="https://museumofjerseys.com/2021/01/01/fantasy-kit-friday-if-manchester-united-never-left-adidas-part-2-1997-2002/">「Manchester United 1997-2002 kit history」</a>: 2000-01 시즌 흰색 원정 셔츠와 보다폰·엄브로 시기의 확인.</li>
   </ol>
