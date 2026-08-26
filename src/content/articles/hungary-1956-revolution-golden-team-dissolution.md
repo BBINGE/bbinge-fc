@@ -4,12 +4,12 @@ description: '1956년 헝가리 혁명은 세계 최강 헝가리 축구대표�
 category: 'history'
 tags: ['1956년 헝가리 혁명', '헝가리 황금의 팀', '매직 마자르', '푸슈카시 페렌츠', '부다페스트 혼베드', '코치시 샨도르', '치보르 졸탄', '축구 세계사', 'Elo 레이팅', '헝가리 축구 역사']
 pubDate: 2026-08-27T19:10:00+09:00
-coverImage: '/images/archive/1954-fifa-world-cup-best-xi/magic-magyars.png'
-cardImage: '/images/archive/1954-fifa-world-cup-best-xi/magic-magyars.png'
-coverImageAlt: '1950년대 헝가리 황금의 팀 선수들이 경기 전 함께 촬영한 단체사진'
-coverImageCaption: '한 장의 단체사진은 열한 명을 같은 시간에 세운다. 역사는 그 뒤 각자에게 서로 다른 시간을 주었다.'
-coverImageWidth: 966
-coverImageHeight: 606
+coverImage: '/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp'
+cardImage: '/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp'
+coverImageAlt: '1956년 헝가리 혁명 당시 부다페스트 거리에 모인 시민과 헝가리 국기'
+coverImageCaption: '1956년 부다페스트. 한 사람의 혁명이 아니라 서로 다른 이유로 거리에 나온 사람들의 시간이다. Fortepan 40165 · 기증자 Nagy Gyula · CC BY-SA 3.0.'
+coverImageWidth: 1400
+coverImageHeight: 896
 featured: false
 draft: false
 relatedGroup: 'hungary-golden-team'
@@ -217,11 +217,6 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
 후대의 우리는 11월 4일을 알고 10월 30일을 읽는다. 그러나 10월 30일을 살던 사람에게 11월 4일은 아직 오지 않았다. 이 차이를 지우면 모든 선택이 처음부터 망명과 진압을 향해 정렬돼 있었던 것처럼 보인다.
 
 혼베드의 출국도 마찬가지다. 공식 경기는 11월 22일이었지만 선수단은 11월 1~2일 오스트리아로 향했다. 혁명 때문에 국내에서 훈련하기 어려웠고, 너지 임레 정부의 승인을 받아 여권을 마련했다. 후대의 회고에는 “우리는 이미 탈출하려 했다”는 설명과 “경기를 치른 뒤 돌아올 생각이었다”는 설명이 겹친다. 출발의 동기가 한 사람의 머릿속에서도 하나였다고 확정하기 어려운데, 선수단 전체의 의도를 한 단어로 고정할 수는 더더욱 없다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
-
-<figure class="history-photo">
-  <img src="/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp" alt="1956년 헝가리 혁명 당시 부다페스트 거리에 모인 시민과 헝가리 국기" width="1400" height="896" loading="lazy" decoding="async" />
-  <figcaption><strong>‘혁명’이라는 한 단어 안에도 시위, 협상, 잠깐의 철수와 재침공이 차례로 있었다.</strong> 1956년 부다페스트. Fortepan 40165 · 기증자 Nagy Gyula · CC BY-SA 3.0.</figcaption>
-</figure>
 
 ## 해외에 있었다고 모두가 남은 것은 아니다
 
@@ -497,7 +492,7 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .research-note ol { display: grid; grid-template-columns: repeat(2, 1fr); gap: 13px; margin: 22px 0 0 !important; padding: 0 !important; list-style: none !important; }
   .research-note li { padding: 17px; border-top: 2px solid var(--bbfc-ink); background: #fff; }
   .research-note li strong { font-size: 14px; }
-  .research-note li p { margin: 7px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.65; }
+  .research-note li p { margin: 7px 0 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.7; }
   .evidence-graphic { max-width: 610px; }
   .history-photo--portrait { max-width: 680px; }
   .world-clock { display: grid; grid-template-columns: 150px 1fr; margin: 42px 0 52px; overflow: hidden; border-top: 3px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
@@ -506,22 +501,22 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .world-clock__time { display: grid; align-content: center; background: var(--bbfc-ink); color: #fff; font-size: 25px; line-height: 1; }
   .world-clock__time { grid-row: 1 / 4; }
   .world-clock__time strong { margin-top: 10px; color: #9fc0ff; font-size: 9px; letter-spacing: .08em; }
-  .world-clock article span, .social-lenses span, .aftermath-ledger span { color: var(--bbfc-blue); font-size: 9px; font-weight: 800; letter-spacing: .12em; }
-  .world-clock article strong { display: block; margin-top: 10px; font-size: 14px; line-height: 1.5; }
-  .world-clock article p { margin: 9px 0 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
+  .world-clock article span, .social-lenses span, .aftermath-ledger span { color: var(--bbfc-blue); font-size: 11px; font-weight: 800; letter-spacing: .1em; }
+  .world-clock article strong { display: block; margin-top: 10px; font-size: 16px; line-height: 1.5; }
+  .world-clock article p { margin: 9px 0 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.7; }
   .social-lenses { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 28px; margin: 42px 0 52px; border-top: 3px solid var(--bbfc-ink); }
   .social-lenses article { min-height: 0; padding: 20px 2px; border-bottom: 1px solid var(--bbfc-border); background: transparent; }
   .social-lenses strong { display: block; margin-top: 12px; font-size: 16px; line-height: 1.45; }
-  .social-lenses p { margin: 11px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.7; }
+  .social-lenses p { margin: 11px 0 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.7; }
   .paradox-panel { margin: 44px 0; padding: 34px 28px; border-radius: 20px; background: var(--bbfc-ink); color: #fff; text-align: center; }
   .paradox-panel span { color: #9fc0ff; }
   .paradox-panel strong { display: block; margin-top: 12px; font-size: 25px; line-height: 1.45; }
   .paradox-panel p { max-width: 610px; margin: 16px auto 0 !important; color: rgba(255,255,255,.7); font-size: 13px; line-height: 1.75; }
   .split-timeline { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin: 42px 0 50px; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: 20px; background: var(--bbfc-border); }
   .split-timeline article { min-height: 168px; padding: 22px; background: #fff; }
-  .split-timeline time { display: block; color: var(--bbfc-blue); font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+  .split-timeline time { display: block; color: var(--bbfc-blue); font-size: 13px; font-weight: 800; letter-spacing: .06em; }
   .split-timeline strong { display: block; margin-top: 8px; font-size: 17px; }
-  .split-timeline p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.65; }
+  .split-timeline p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.7; }
   .split-timeline .timeline-crisis { background: var(--bbfc-ink); color: #fff; }
   .split-timeline .timeline-crisis time { color: #a9c6ff; }
   .split-timeline .timeline-crisis p { color: rgba(255,255,255,.7); }
@@ -532,13 +527,13 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .choice-card--return { border-top: 3px solid var(--bbfc-ink); }
   .choice-card > span { display: block; font-size: 13px; line-height: 1.45; letter-spacing: .07em; }
   .choice-card h3 { margin: 12px 0 1px !important; font-size: 19px !important; }
-  .choice-card small { color: var(--bbfc-gray-2); font-size: 11px; }
-  .choice-card p { margin: 13px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.7; }
+  .choice-card small { color: var(--bbfc-gray-2); font-size: 13px; }
+  .choice-card p { margin: 13px 0 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.72; }
   .identity-stack { margin: 40px 0 48px; border-top: 2px solid var(--bbfc-ink); }
   .identity-stack > div { display: grid; grid-template-columns: 42px 190px 1fr; align-items: center; gap: 12px; padding: 16px 4px; border-bottom: 1px solid var(--bbfc-border); }
-  .identity-stack span { color: var(--bbfc-blue); font-size: 10px; font-weight: 800; }
-  .identity-stack strong { font-size: 15px; }
-  .identity-stack p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 12px; }
+  .identity-stack span { color: var(--bbfc-blue); font-size: 12px; font-weight: 800; }
+  .identity-stack strong { font-size: 17px; }
+  .identity-stack p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 14px; }
   .film-compare { display: grid; grid-template-columns: 1fr 42px 1fr; align-items: stretch; margin: 42px 0; }
   .film-compare article { padding: 25px 23px; border: 1px solid var(--bbfc-border); background: linear-gradient(145deg, #fff, var(--bbfc-fill-2)); }
   .film-compare article:first-child { border-radius: 18px 0 0 18px; }
@@ -561,15 +556,15 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .stage-number { position: absolute; top: 16px; left: 16px; z-index: 5; display: flex; align-items: center; gap: 8px; }
   .stage-number b { display: grid; width: 28px; height: 28px; place-items: center; background: var(--bbfc-ink); color: #fff; font-size: 13px; }
   .stage-number span { color: var(--bbfc-ink); font-size: 10px; font-weight: 800; letter-spacing: .14em; }
-  .country-label { position: absolute; z-index: 2; color: #5d6670; font-size: 10px; font-weight: 700; }
+  .country-label { position: absolute; z-index: 2; color: #5d6670; font-size: 12px; font-weight: 700; }
   .country-label--west { top: 46%; left: 2%; }
   .country-label--north { top: 13%; left: 38%; }
   .country-label--east { top: 35%; right: 1%; color: #9b3025; }
   .country-label--south { bottom: 23%; left: 38%; }
   .budapest-pin { position: absolute; top: 42%; left: 48%; z-index: 5; display: grid; padding: 9px 11px 9px 28px; background: rgba(255,255,255,.94); box-shadow: 0 4px 14px rgba(20,28,40,.15); }
   .budapest-pin i { position: absolute; top: 50%; left: 11px; width: 9px; height: 9px; transform: translateY(-50%); border: 2px solid #fff; border-radius: 50%; background: #a63225; box-shadow: 0 0 0 2px #a63225; }
-  .budapest-pin strong { font-size: 12px; }
-  .budapest-pin small { color: var(--bbfc-gray-1); font-size: 9px; }
+  .budapest-pin strong { font-size: 14px; }
+  .budapest-pin small { color: var(--bbfc-gray-1); font-size: 11px; }
   .reinforcement-arrow { position: absolute; z-index: 4; width: 86px; height: 4px; background: #a63225; transform-origin: right center; animation: route-pulse 2.4s ease-in-out infinite; }
   .reinforcement-arrow::before { content: ''; position: absolute; left: -7px; top: -5px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-right: 11px solid #a63225; }
   .reinforcement-arrow span { position: absolute; right: 0; bottom: 8px; color: #8e2b21; font-size: 9px; font-weight: 800; }
@@ -583,18 +578,18 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .city-half--pest { right: 11%; }
   .city-half strong { display: block; font-size: 24px; letter-spacing: .08em; }
   .city-half small { font-size: 9px; }
-  .city-target { position: absolute; z-index: 5; display: flex; align-items: center; gap: 7px; padding: 7px 9px; background: rgba(255,255,255,.94); box-shadow: 0 3px 10px rgba(20,28,40,.12); font-size: 9px; font-weight: 700; }
+  .city-target { position: absolute; z-index: 5; display: flex; align-items: center; gap: 7px; padding: 7px 9px; background: rgba(255,255,255,.94); box-shadow: 0 3px 10px rgba(20,28,40,.12); font-size: 11px; font-weight: 700; }
   .city-target i { width: 8px; height: 8px; border: 2px solid #fff; border-radius: 50%; background: var(--bbfc-ink); box-shadow: 0 0 0 1px var(--bbfc-ink); }
   .city-target--parliament { top: 31%; left: 55%; }
   .city-target--radio { top: 46%; left: 60%; }
   .city-target--corvin { right: 7%; bottom: 27%; }
-  .city-route { position: absolute; z-index: 4; display: grid; padding: 7px 9px; border-left: 4px solid #a63225; background: rgba(255,255,255,.95); font-size: 9px; }
+  .city-route { position: absolute; z-index: 4; display: grid; padding: 7px 9px; border-left: 4px solid #a63225; background: rgba(255,255,255,.95); font-size: 11px; }
   .city-route b { color: #8e2b21; }
   .city-route--north { top: 15%; right: 6%; }
   .city-route--south { right: 5%; bottom: 15%; }
   .city-route--west { bottom: 18%; left: 5%; }
-  .stage-caption { position: absolute; right: 18px; bottom: 14px; left: 18px; z-index: 5; margin: 0 !important; padding-top: 10px; border-top: 1px solid rgba(20,28,40,.25); color: #3d4650; font-size: 11px; line-height: 1.65; }
-  .invasion-map footer { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 18px; border-top: 1px solid #ccd2da; background: #fff; color: #58616b; font-size: 10px; }
+  .stage-caption { position: absolute; right: 18px; bottom: 14px; left: 18px; z-index: 5; margin: 0 !important; padding-top: 10px; border-top: 1px solid rgba(20,28,40,.25); color: #3d4650; font-size: 13px; line-height: 1.7; }
+  .invasion-map footer { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 18px; border-top: 1px solid #ccd2da; background: #fff; color: #58616b; font-size: 12px; }
   .invasion-map footer strong { color: var(--bbfc-ink); }
   @keyframes route-pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
   .archive-video { margin: 50px 0 58px; padding: 24px; border: 1px solid var(--bbfc-border); border-radius: 20px; background: var(--bbfc-ink); color: #fff; }
@@ -606,8 +601,8 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .archive-video > a { display: inline-block; margin-top: 15px; color: #9fc0ff !important; font-size: 11px; font-weight: 800; }
   .aftermath-ledger { display: grid; grid-template-columns: 1fr; gap: 0; margin: 40px 0 50px; border-top: 3px solid var(--bbfc-ink); }
   .aftermath-ledger article { display: grid; grid-template-columns: 70px 190px 1fr; align-items: center; gap: 12px; padding: 16px 4px; border-bottom: 1px solid var(--bbfc-border); background: transparent; }
-  .aftermath-ledger strong { display: block; margin: 0; font-size: 14px; line-height: 1.45; }
-  .aftermath-ledger p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
+  .aftermath-ledger strong { display: block; margin: 0; font-size: 16px; line-height: 1.45; }
+  .aftermath-ledger p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.7; }
   .time-bridge { margin: 58px 0 46px; border-top: 4px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); background: #f7f7f5; }
   .time-bridge header { padding: 25px 26px 20px; }
   .time-bridge header span { color: var(--bbfc-blue); font-size: 10px; font-weight: 800; letter-spacing: .11em; }
@@ -629,9 +624,9 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .prose-ending p { margin: 0 0 1.85em !important; font-size: 18px; line-height: 1.9; }
   .causal-layers { display: grid; grid-template-columns: 1fr; gap: 0; margin: 40px 0 48px; border-top: 3px solid var(--bbfc-ink); }
   .causal-layers article { display: grid; grid-template-columns: 70px 190px 1fr; align-items: center; gap: 12px; padding: 16px 4px; border-bottom: 1px solid var(--bbfc-border); background: transparent; }
-  .causal-layers span { color: var(--bbfc-blue); font-size: 9px; font-weight: 800; letter-spacing: .13em; }
-  .causal-layers strong { display: block; margin: 0; font-size: 14px; line-height: 1.45; }
-  .causal-layers p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
+  .causal-layers span { color: var(--bbfc-blue); font-size: 11px; font-weight: 800; letter-spacing: .1em; }
+  .causal-layers strong { display: block; margin: 0; font-size: 16px; line-height: 1.45; }
+  .causal-layers p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.7; }
   .related-story { display: block; margin: 54px 0; padding: 26px 28px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff, rgba(36,107,253,.05)); }
   .related-story strong { display: block; margin-top: 9px; font-size: 21px; line-height: 1.4; }
   .related-story p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.65; }
