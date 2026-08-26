@@ -115,7 +115,7 @@ featured: false
   <div><span>2024</span><small>가바라가 40년 만에 귀환</small></div>
 </div>
 
-산 마메스에서 열린 오래된 밤을 먼저 읽고 싶다면 [1977년 UEFA컵 결승 2차전](/history/uefa-plaque-juventus-chelsea/)으로 이어가면 좋다. 아틀레틱은 유벤투스를 2-1로 이겼지만 원정 다득점 규칙에 막혀 우승컵을 들지 못했다. 지역 선수들로 유럽 정상 문턱까지 간 팀의 철학이 가장 팽팽하게 드러난 경기다.
+산 마메스에서 열린 오래된 밤은 [UEFA 플라크 글의 1977년 결승 대목](/history/uefa-plaque-juventus-chelsea/)에서 이어진다. 아틀레틱은 유벤투스를 2-1로 이겼지만 원정 다득점 규칙에 막혀 우승컵을 들지 못했다. 지역 선수들로 유럽 정상 문턱까지 간 팀의 철학이 가장 팽팽하게 드러난 경기다.
 
 ## 7. AC Museoa와 투어에서 전날의 함성을 정리한다
 
@@ -137,7 +137,7 @@ AC Museoa는 1898년 이후의 유니폼, 트로피, 사진과 영상을 전시�
 비가 잦은 계절에는 얇은 방수 재킷을 챙기고, 하구 산책과 박물관을 한 동선에 놓으면 날씨에 맞춰 순서를 바꾸기 쉽다. 경기 티켓을 먼저 확정한 뒤 카스코 비에호와 구겐하임, Itsasmuseum을 배치하면 2박 3일의 여행이 안정적으로 완성된다.
 
 <div class="journey-links">
-  <a href="/history/uefa-plaque-juventus-chelsea/" style="--journey-image:url('/images/history/uefa-plaque/cover.webp')"><span>HISTORY</span><strong>1977년 산 마메스, 아틀레틱과 유벤투스의 결승</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
+  <a href="/history/uefa-plaque-juventus-chelsea/" style="--journey-image:url('/images/history/uefa-plaque/cover.webp')"><span>HISTORY</span><strong>UEFA 플라크: 유벤투스가 세 개의 유럽을 모두 정복한 날</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
   <a href="/pilgrimage/budapest-honeymoon-football-travel-10/" style="--journey-image:url('/images/pilgrimage/budapest-honeymoon-football-10/card.webp')"><span>PILGRIMAGE</span><strong>피치치에게 꽃을 바친 MTK의 도시, 부더페슈트</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
   <a href="/history/british-centered-football-history-south-america/" style="--journey-image:url('/images/history/british-centered-football-history/uruguay-1930.webp')"><span>WORLD HISTORY</span><strong>항구를 건넌 축구가 현지의 문화가 되는 과정</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
 </div>
