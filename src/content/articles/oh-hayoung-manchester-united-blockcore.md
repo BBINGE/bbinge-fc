@@ -90,11 +90,10 @@ featured: false
 그래서 축구 유니폼 패션은 팀을 모르는 사람이 흉내 낼 수 없는 영역이라는 뜻은 아니다. 다만 좋아하는 팀의 기억까지 알고 입으면 조합의 이유가 하나 더 생긴다. 오하영의 사진이 설득력 있는 것도 맨유라는 이름을 빌린 패션이 아니라, 오래 응원한 사람이 자기 방식으로 꺼내 입은 옷이기 때문이다. 그게 블록코어의 시작점이기도 하다. 유행보다 먼저 팬의 생활이 있었다.
 
 <div class="source-notes">
-  <h2>원문과 이미지</h2>
+  <h2>출처</h2>
   <ol>
-    <li><a href="https://blog.naver.com/sho3603/223405641378">“오하영이 보여주는 맨유 유니폼 블록코어룩 코디 모음”</a>, 삥이N스포츠_Official. 2024년 작성한 원문을 바탕으로 유니폼의 시대와 코디 해설을 보강했다.</li>
-    <li>표지 및 본문 사진 02–16: 오하영 공식 Instagram <a href="https://www.instagram.com/_ohhayoung_/">@_ohhayoung_</a> 공개 사진. 2024년 네이버 원문에 함께 실린 세 착장 묶음을 게시 순서대로 옮겼으며, 이번 보강에서 새 외부 사진은 추가하지 않았다. 네이버 원문에는 계정 단위 출처만 기록되어 있어 개별 게시물 주소는 확인되지 않았다.</li>
-    <li>Fashion & Style, <a href="https://www.fashionandstyle.com/posts/2024/03/12/%EB%A7%A8%EC%9C%A0%ED%8C%AC-%EB%91%90%EA%B7%BC%EA%B1%B0%EB%A6%AC%EA%B2%8C%ED%95%98%EB%8A%94-%EC%98%A4%ED%95%98%EC%98%81?id=108863">「맨유팬 두근거리게하는 오하영」</a>, 2024년 3월 12일: 검정 맨체스터 유나이티드 셔츠 착장과 사진 출처 @_ohhayoung_ 교차 확인.</li>
+    <li>표지 및 본문 사진 02–16: 오하영 공식 Instagram <a href="https://www.instagram.com/_ohhayoung_/">@_ohhayoung_</a>.</li>
+    <li>Fashion & Style, <a href="https://www.fashionandstyle.com/posts/2024/03/12/%EB%A7%A8%EC%9C%A0%ED%8C%AC-%EB%91%90%EA%B7%BC%EA%B1%B0%EB%A6%AC%EA%B2%8C%ED%95%98%EB%8A%94-%EC%98%A4%ED%95%98%EC%98%81?id=108863">「맨유팬 두근거리게하는 오하영」</a>, 2024년 3월 12일.</li>
     <li>adidas, <a href="https://www.adidas.com/us/blog/1003164-2023-trend-check-blokecore">「2023 Trend Check: Bloke-Core」</a>: 블로크코어와 블로켓의 용어 및 스타일 맥락.</li>
     <li>Museum of Jerseys, <a href="https://museumofjerseys.com/2021/01/01/fantasy-kit-friday-if-manchester-united-never-left-adidas-part-2-1997-2002/">「Manchester United 1997-2002 kit history」</a>: 2000-01 시즌 흰색 원정 셔츠와 보다폰·엄브로 시기의 확인.</li>
   </ol>
