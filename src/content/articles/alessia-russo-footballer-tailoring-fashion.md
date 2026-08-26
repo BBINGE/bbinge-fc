@@ -27,7 +27,7 @@ fashionProfile:
       flagAlt: '영국 국기'
   facts:
     - label: '풀네임'
-      value: '알레시아 루소 (Alessia Russo)'
+      value: '알레시아 미아 테레사 루소 MBE (Alessia Mia Teresa Russo MBE)'
     - label: '포지션'
       value: '센터 포워드'
     - label: '소속'
@@ -35,7 +35,7 @@ fashionProfile:
     - label: '주요 우승'
       value: 'UEFA 여자 유로 2022·2025 · UEFA 여자 챔피언스 리그 2024-25'
     - label: '개인 기록'
-      value: '잉글랜드 올해의 여자 선수 2023-24'
+      value: 'MBE 수훈(2026) · 잉글랜드 올해의 여자 선수 2023-24'
     - label: '오늘의 옷'
       value: 'Wonderland Winter 2023 테일러링 화보'
   officialChannel:
@@ -44,7 +44,7 @@ fashionProfile:
     href: 'https://www.instagram.com/alessiarusso99/'
 ---
 
-축구선수의 패션 화보에는 자주 공과 유니폼이 따라온다. 누구인지 즉시 설명할 수 있는 가장 쉬운 장치이기 때문이다. 그러나 영국 패션지 《Wonderland》가 2023년 겨울호에서 알레시아 루소<span class="foreign-note" lang="en">(Alessia Russo; 잉글랜드 축구 선수, 1999–)</span>를 찍은 방식은 달랐다. 공도 골대도 없고, 아스널<span class="foreign-note" lang="en">(Arsenal Women Football Club)</span>이나 잉글랜드 대표팀 문장도 보이지 않는다. 대신 흰 재킷과 검정 타이, 비대칭 스커트와 부츠가 그의 몸을 둘러싼다.
+축구선수의 패션 화보에는 자주 공과 유니폼이 따라온다. 누구인지 즉시 설명할 수 있는 가장 쉬운 장치이기 때문이다. 그러나 영국 패션지 《Wonderland》가 2023년 겨울호에서 알레시아 미아 테레사 루소 MBE<span class="foreign-note" lang="en">(Alessia Mia Teresa Russo MBE; 잉글랜드 축구 선수, 1999–)</span>를 찍은 방식은 달랐다. 공도 골대도 없고, 아스널<span class="foreign-note" lang="en">(Arsenal Women Football Club)</span>이나 잉글랜드 대표팀 문장도 보이지 않는다. 대신 흰 재킷과 검정 타이, 비대칭 스커트와 부츠가 그의 몸을 둘러싼다.
 
 그래도 루소는 모델처럼 위장되지 않는다. 넓은 어깨와 단단한 허벅지, 바닥을 안정적으로 딛는 발이 옷보다 먼저 보인다. 이 화보의 성취는 운동선수의 몸을 평범한 패션 체형으로 고쳐 보이게 한 데 있지 않다. **선수의 몸을 그대로 둔 채 옷의 선을 바꿔가며 서로 다른 인상을 만든 데 있다.**
 
@@ -149,6 +149,7 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
     <li><a href="https://www.englandfootball.com/england/womens-senior-team/squad/alessia-russo">England Football, “Alessia Russo”</a>. 1999년 2월 8일 영국 메이드스톤 출생, 포지션, 소속팀과 대표팀 데뷔 기록.</li>
     <li><a href="https://www.uefa.com/womenschampionsleague/news/02a3-201ee7569f46-6e058a6d542b-1000--alessia-russo-records-and-stats-how-brilliant-is-the-arsenal/">UEFA, “Alessia Russo records and stats”</a>. UEFA 여자 유로 2022·2025, UEFA 여자 챔피언스 리그 2024-25 우승과 주요 기록.</li>
     <li><a href="https://www.englandfootball.com/articles/2024/Sep/24/alessia-russo-named-england-womens-player-of-the-year-2023-24-20242409">England Football, “Alessia Russo named England Women’s Player of the Year”</a>, 2024년 9월 24일. 2023-24 잉글랜드 올해의 여자 선수 선정.</li>
+    <li><a href="https://www.thegazette.co.uk/London/issue/65091/">The London Gazette, Birthday Honours 2026</a>. ‘Alessia Mia Teresa Russo’를 대영제국 훈장 5등급(MBE) 수훈자로 공시.</li>
   </ol>
 </div>
 
