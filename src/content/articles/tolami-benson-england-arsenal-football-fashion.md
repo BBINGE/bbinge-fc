@@ -16,9 +16,9 @@ fashionProfile:
   eyebrow: 'PROFILE · MEDIA STRATEGIST'
   name: '톨라미 벤슨'
   romanName: 'Tolami Benson'
-  portrait: '/images/culture/tolami-benson-football-style/05-beauty.webp'
-  portraitAlt: '차 안에서 선글라스를 머리에 올리고 주얼리를 착용한 톨라미 벤슨'
-  portraitCredit: 'British Vogue · Photo courtesy of Tolami Benson'
+  portrait: '/images/culture/tolami-benson-football-style/tolami-river-island-portrait.webp'
+  portraitAlt: '검정 베레와 가죽 재킷, 진주 목걸이를 착용한 톨라미 벤슨의 패션 화보'
+  portraitCredit: 'River Island, RI × Tolami Benson'
   birthYear: 2000
   birthPlace: '영국 허트퍼드셔'
   nationalities:
@@ -30,10 +30,10 @@ fashionProfile:
       value: '톨라미 벤슨 (Tolami Benson)'
     - label: '직업'
       value: '미디어 전략가, 패션 크리에이터'
-    - label: '주요 활동'
-      value: '패션·뷰티 캠페인 · 경기일 스타일'
-    - label: '기록'
-      value: '로레알 파리 앰배서더 · River Island 협업 컬렉션'
+    - label: '대표 활동'
+      value: 'L’Oréal Paris 앰배서더 · RI × Tolami Benson'
+    - label: '패션 이력'
+      value: 'London Fashion Week · The Fashion Awards · Brit Awards'
     - label: '오늘의 옷'
       value: '잉글랜드 유로 셔츠와 87번 커스텀 피스'
   officialChannel:
@@ -119,6 +119,7 @@ fashionProfile:
     <li><a href="https://www.vogue.co.uk/article/tolami-benson-euro-2024-final-outfit">British Vogue, “I Don’t Have A Stylist - Just A Very Honest Group Chat”</a>, 2024년 7월 14일. 유로 2024 결승 착장, 미디어 전략 직무, 해티 크라우더의 업사이클 코르셋과 사진 9장.</li>
     <li><a href="https://www.instagram.com/p/C8S0hStNFhI/">Tolami Benson 공식 Instagram</a>, 2024년 6월. 안토니아 브론즈 87번 재킷과 디젤 톱 착장.</li>
     <li><a href="https://www.whowhatwear.com/fashion/tolami-benson-2026-world-cup-style-interview">Who What Wear, “Tolami Benson Is on the 2026 World Cup's Best Dressed List”</a>, 2026년 6월 30일. 나이지리아계 가정의 맞춤옷 문화, 경기일 스타일과 직접 스타일링하는 과정에 관한 인터뷰.</li>
+    <li><a href="https://www.riverisland.com/us/editorial/ri-x-tolami-benson">River Island, “Meet Tolami Benson”</a>. `RI × Tolami Benson` 컬렉션과 인물 카드에 사용한 공식 캠페인 화보.</li>
     <li><a href="https://www.instagram.com/tolami_benson/p/DZs2rSoD5jA/">Tolami Benson 공식 Instagram</a>, 2026년. 커스텀 저지와 경기일 룩 확인.</li>
   </ol>
 </div>
