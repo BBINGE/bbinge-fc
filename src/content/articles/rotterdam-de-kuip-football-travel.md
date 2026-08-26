@@ -76,7 +76,7 @@ featured: false
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="22" rx="23" ry="10"/><path d="M9 22v21c0 6 10 10 23 10s23-4 23-10V22M16 31c10 5 22 5 32 0M18 42c9 4 19 4 28 0"/></svg><b>7</b></span><span class="journey-map__label"><small>경기</small><strong>더 카위프</strong></span>
     </a>
   </div>
-  <p>본 지도는 로테르담시 공식 기본지도에서 중앙역부터 더 카위프까지의 범위를 그대로 가져왔다. 오른쪽 위 전체 행정 경계의 파란 상자가 현재 확대 범위다. 아이콘을 누르면 해당 장소로 이동한다. 지도·행정 경계: 로테르담시 공개 GIS.</p>
+  <p>본 지도는 로테르담시 공식 기본지도에서 중앙역부터 더 카위프까지의 범위를 그대로 가져왔다. <span class="journey-map__overview-note">오른쪽 위 전체 행정 경계의 파란 상자가 현재 확대 범위다. </span>아이콘을 누르면 해당 장소로 이동한다. 지도·행정 경계: 로테르담시 공개 GIS.</p>
 </nav>
 
 첫날은 중앙역에서 도시의 재건 과정을 보고 니우어 마스강<span class="foreign-note" lang="nl">(Nieuwe Maas; 로테르담 도심을 가르는 강)</span>까지 걷는다. 콥 판 자위트<span class="foreign-note" lang="nl">(Kop van Zuid; ‘남쪽의 머리’라는 뜻의 옛 항만 지구)</span>에 짐을 푼 뒤 카텐드레흐트<span class="foreign-note" lang="nl">(Katendrecht; 강 남쪽의 옛 항만 반도)</span>에서 저녁을 먹는다. 둘째 날은 강변에서 시간을 보내다가 트램으로 더 카위프에 간다. 홈경기가 없다면 스타디움 투어를 넣고, 레인하번<span class="foreign-note" lang="nl">(Rijnhaven; 도심 남쪽의 옛 항만)</span>에서 반나절을 더 쓰면 된다.
