@@ -4,7 +4,7 @@ description: '신혼여행으로 떠난 부더페슈트에서 푸슈카시 박�
 category: 'pilgrimage'
 tags: ['부다페스트 신혼여행', '부더페슈트 여행', '푸슈카시 박물관', '푸슈카시 아레나', '헝가리 축구', '아라니처파트', '축구 여행']
 pubDate: 2026-08-26T20:20:00+09:00
-updatedDate: 2026-08-26T20:20:00+09:00
+updatedDate: 2026-08-26T20:47:00+09:00
 coverImage: '/images/pilgrimage/budapest-honeymoon-football-10/cover.webp'
 cardImage: '/images/pilgrimage/budapest-honeymoon-football-10/card.webp'
 coverImageAlt: '다뉴브강의 헝가리 국회의사당 야경과 푸슈카시 아레나, 푸슈카시 페렌츠 동상을 함께 배치한 부더페슈트 축행 표지'
@@ -24,11 +24,11 @@ draft: false
 featured: false
 ---
 
-신혼여행에서 한 사람은 야경을 고르고, 다른 한 사람은 경기 일정을 먼저 본다. **부더페슈트<span class="foreign-note" lang="hu">(Budapest; 헝가리의 수도, 한국어 관용 표기는 부다페스트)</span>**에서는 둘이 같은 지도를 펼쳐도 된다.
+신혼여행에서 한 사람은 야경을 고르고, 다른 한 사람은 경기 일정을 먼저 본다. <strong>부더페슈트<span class="foreign-note" lang="hu">(Budapest; 헝가리의 수도, 한국어 관용 표기는 부다페스트)</span></strong>에서는 둘이 같은 지도를 펼쳐도 된다.
 
 다뉴브강을 사이에 둔 부더와 페슈트, 온천에서 보내는 오후와 불이 켜진 국회의사당은 이미 좋은 여행의 조건이다. 축구 팬에게는 주소가 더 붙는다. 푸슈카시 페렌츠가 자란 키슈페슈트, 히데그쿠티 난도르의 이름이 걸린 MTK의 경기장, 옛 네프슈타디온의 탑을 품은 푸슈카시 박물관이 도시 안에 남아 있다.
 
-1950년대 헝가리 대표팀 **황금의 팀<span class="foreign-note" lang="hu">(Aranycsapat; 헝가리어 별칭)</span>**의 호흡은 대표팀 소집 때만 만들어지지 않았다. 푸슈카시 페렌츠, 보지크 요제프, 코치시 샨도르는 혼베드에서, 히데그쿠티 난도르와 란토시 미하이는 MTK에서 매주 함께 뛰었다. 부더페슈트를 축구로 여행할 이유는 이 관계를 실제 거리와 경기장으로 확인할 수 있다는 데 있다.
+1950년대 헝가리 대표팀 <strong>황금의 팀<span class="foreign-note" lang="hu">(Aranycsapat; 헝가리어 별칭)</span></strong>의 호흡은 대표팀 소집 때만 만들어지지 않았다. 푸슈카시 페렌츠, 보지크 요제프, 코치시 샨도르는 혼베드에서, 히데그쿠티 난도르와 란토시 미하이는 MTK에서 매주 함께 뛰었다. 부더페슈트를 축구로 여행할 이유는 이 관계를 실제 거리와 경기장으로 확인할 수 있다는 데 있다.
 
 <div class="journey-deck">
   <p>BBINGE FC · HONEYMOON CITY GUIDE</p>
