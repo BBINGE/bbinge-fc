@@ -19,23 +19,23 @@ const { hotArticles } = Astro.props;
     class="flex flex-col justify-between gap-4 bg-[var(--bbfc-blue-weak)] rounded-[var(--bbfc-radius-lg)] p-6 min-h-[240px]"
   >
     <div>
-      <p class="text-[15px] text-[var(--bbfc-blue)] font-medium">축겜 · 32강</p>
+      <p class="text-[11px] text-[var(--bbfc-blue)] font-medium">축겜 · 32강</p>
       <h2 class="text-[20px] md:text-[22px] font-medium text-[var(--bbfc-ink)] mt-2 leading-snug">
         당신의 GOAT는 누구인가요?
       </h2>
-      <p class="text-[15px] text-[var(--bbfc-gray-1)] mt-2 leading-relaxed">
+      <p class="text-[13px] text-[var(--bbfc-gray-1)] mt-2 leading-relaxed">
         역대 최고의 축구선수를 가리는 32강 토너먼트. 카드를 눌러 다음 라운드로 진출시키세요.
       </p>
     </div>
-    <span class="self-start bg-[var(--bbfc-blue)] text-white text-[15px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2.5">
+    <span class="self-start bg-[var(--bbfc-blue)] text-white text-[13.5px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2.5">
       시작하기
     </span>
   </a>
 
   <div class="border border-[var(--bbfc-border)] rounded-[var(--bbfc-radius-lg)] p-5 min-h-[240px] flex flex-col">
-    <p class="text-[15px] font-medium text-[var(--bbfc-ink)] mb-1">이번 주 HOT</p>
+    <p class="text-[13px] font-medium text-[var(--bbfc-ink)] mb-1">이번 주 HOT</p>
     {hotArticles.length === 0 ? (
-      <p class="flex-1 flex items-center justify-center text-[15px] text-[var(--bbfc-gray-1)] text-center">
+      <p class="flex-1 flex items-center justify-center text-[13px] text-[var(--bbfc-gray-1)] text-center">
         곧 이번 주 HOT 글이 채워져요.
       </p>
     ) : (
@@ -47,13 +47,13 @@ const { hotArticles } = Astro.props;
                 {entry.data.coverImage ? (
                   <img src={entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover" />
                 ) : (
-                  <span class="text-[15px] text-[var(--bbfc-gray-2)]">사진 없음</span>
+                  <span class="text-[9px] text-[var(--bbfc-gray-2)]">사진 없음</span>
                 )}
                 {isNewlyPublished(entry.data.pubDate) && <span class="new-dot" aria-label="새 글">N</span>}
               </div>
               <div class="min-w-0">
-                <p class="text-[15px] text-[var(--bbfc-blue)]">{categories[entry.data.category]?.label}</p>
-                <p class="text-[15px] text-[var(--bbfc-ink)] mt-0.5 leading-snug line-clamp-2">
+                <p class="text-[11px] text-[var(--bbfc-blue)]">{categories[entry.data.category]?.label}</p>
+                <p class="text-[13.5px] text-[var(--bbfc-ink)] mt-0.5 leading-snug line-clamp-2">
                   {entry.data.title}
                 </p>
               </div>
@@ -66,5 +66,5 @@ const { hotArticles } = Astro.props;
 </div>
 
 <style>
-  .new-dot { position:absolute; top:4px; right:4px; display:grid; place-items:center; width:16px; height:16px; border-radius:50%; background:var(--bbfc-blue); color:#fff; font-size:15px; line-height:1; font-weight:750; }
+  .new-dot { position:absolute; top:4px; right:4px; display:grid; place-items:center; width:16px; height:16px; border-radius:50%; background:var(--bbfc-blue); color:#fff; font-size:8px; line-height:1; font-weight:750; }
 </style>

@@ -38,11 +38,11 @@ const { entries } = Astro.props;
   .related-card { min-width: 0; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); background: var(--bbfc-white); transition: border-color .18s ease, transform .18s ease; }
   .related-card:hover { transform: translateY(-3px); border-color: var(--bbfc-blue); }
   .related-card > img, .related-card-fallback { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--bbfc-fill); }
-  .related-card-fallback { display: grid; place-items: center; font-size:15px; font-weight: 650; color: var(--bbfc-gray-2); }
+  .related-card-fallback { display: grid; place-items: center; font-size: 12px; font-weight: 650; color: var(--bbfc-gray-2); }
   .related-card > div:last-child { display: grid; align-content: start; min-height: 126px; padding: 13px 14px 14px; }
-  .related-card p { font-size:15px; color: var(--bbfc-blue); }
-  .related-card strong { display: -webkit-box; margin-top: 6px; overflow: hidden; font-size: 15px; line-height: 1.42; font-weight: 620; color: var(--bbfc-ink); -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
-  .related-card span { align-self: end; margin-top: 13px; font-size:15px; color: var(--bbfc-gray-2); }
+  .related-card p { font-size: 10px; color: var(--bbfc-blue); }
+  .related-card strong { display: -webkit-box; margin-top: 6px; overflow: hidden; font-size: 13.5px; line-height: 1.42; font-weight: 620; color: var(--bbfc-ink); -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+  .related-card span { align-self: end; margin-top: 13px; font-size: 10px; color: var(--bbfc-gray-2); }
   .related-card i { font-style: normal; }
   @media (max-width: 767px) {
     .related-card-grid { grid-template-columns: 1fr; gap: 10px; }

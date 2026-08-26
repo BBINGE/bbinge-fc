@@ -158,9 +158,9 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
 <style>
   .russo-shoot-credit { position: relative; left: 50%; display: flex; align-items: baseline; justify-content: space-between; gap: 18px; width: min(960px, calc(100vw - 32px)); margin: 42px 0 -30px; padding-top: 13px; border-top: 1px solid var(--bbfc-ink); color: var(--bbfc-muted); transform: translateX(-50%); }
   .russo-shoot-credit strong, .russo-shoot-credit span { display: block; }
-  .russo-shoot-credit strong { color: var(--bbfc-blue); font-size: 15px; letter-spacing: .14em; white-space: nowrap; }
-  .russo-shoot-credit span { font-size: 15px; letter-spacing: .02em; text-align: right; }
-  .russo-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 15px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
+  .russo-shoot-credit strong { color: var(--bbfc-blue); font-size: 10px; letter-spacing: .14em; white-space: nowrap; }
+  .russo-shoot-credit span { font-size: 10px; letter-spacing: .02em; text-align: right; }
+  .russo-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 9px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
   .russo-opening-grid { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; width: min(960px, calc(100vw - 32px)); margin: 46px 0 58px; transform: translateX(-50%); }
   .russo-opening-grid figure, .russo-lookbook figure { margin: 0; }
   .russo-opening-grid img { display: block; width: 100%; height: auto; margin: 0; border-radius: var(--bbfc-radius-lg); }
@@ -172,19 +172,19 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
   .russo-lookbook img { display: block; width: 100%; height: auto; margin: 0; border-radius: var(--bbfc-radius-lg) var(--bbfc-radius-lg) 0 0; }
   .russo-lookbook figcaption { min-height: 98px; margin: 0; padding: 14px 15px 16px; border: 1px solid var(--bbfc-border); border-top: 0; border-radius: 0 0 var(--bbfc-radius-lg) var(--bbfc-radius-lg); background: #fff; }
   .russo-lookbook strong, .russo-lookbook span { display: block; }
-  .russo-lookbook strong { margin-bottom: 6px; color: var(--bbfc-blue); font-size: 15px; letter-spacing: .11em; }
-  .russo-lookbook span { color: var(--bbfc-muted); font-size: 15px; line-height: 1.55; }
+  .russo-lookbook strong { margin-bottom: 6px; color: var(--bbfc-blue); font-size: 11px; letter-spacing: .11em; }
+  .russo-lookbook span { color: var(--bbfc-muted); font-size: 12px; line-height: 1.55; }
   .russo-style-notes { position: relative; left: 50%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; width: min(1040px, calc(100vw - 32px)); margin: 40px 0 58px; border: 1px solid #d8dee8; border-top: 3px solid var(--bbfc-blue); border-radius: var(--bbfc-radius-lg); background: #f7f9fc; transform: translateX(-50%); overflow: hidden; }
   .russo-style-notes article { margin: 0; padding: 28px 25px 30px; }
   .russo-style-notes article + article { border-left: 1px solid #d8dee8; }
-  .russo-style-notes span { color: var(--bbfc-blue); font-size: 15px; font-weight: 800; letter-spacing: .12em; }
+  .russo-style-notes span { color: var(--bbfc-blue); font-size: 11px; font-weight: 800; letter-spacing: .12em; }
   .russo-style-notes h3 { margin: 12px 0 12px; font-size: 17px; line-height: 1.35; }
-  .russo-style-notes p { margin: 0; color: #4d596a; font-size: 15px; line-height: 1.75; }
+  .russo-style-notes p { margin: 0; color: #4d596a; font-size: 14px; line-height: 1.75; }
   @media (max-width: 720px) {
     .russo-shoot-credit { display: block; margin-top: 36px; margin-bottom: -24px; }
     .russo-shoot-credit span { margin-top: 5px; text-align: left; }
     .russo-opening-grid { gap: 8px; margin-top: 36px; }
-    .russo-opening-grid figcaption { padding-inline: 2px; font-size: 15px; line-height: 1.55; }
+    .russo-opening-grid figcaption { padding-inline: 2px; font-size: 10px; line-height: 1.55; }
     .russo-lookbook { display: flex; gap: 10px; padding: 0 16px 12px; overflow-x: auto; scroll-padding-inline: 16px; scroll-snap-type: x mandatory; scrollbar-width: none; }
     .russo-lookbook::-webkit-scrollbar { display: none; }
     .russo-lookbook figure { flex: 0 0 min(78vw, 330px); scroll-snap-align: start; }

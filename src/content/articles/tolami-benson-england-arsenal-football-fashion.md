@@ -134,13 +134,13 @@ fashionProfile:
   .fashion-process-grid img { aspect-ratio:4/5; }
   .fashion-rule-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; margin:34px 0 50px; border:1px solid #263247; background:#263247; }
   .fashion-rule-cards section { padding:26px 23px 28px; background:#0b111a; }
-  .fashion-rule-cards strong { display:block; color:#fff; font-size: 15px; line-height:1.55; letter-spacing:.035em; }
+  .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards strong::before { content:''; display:block; width:26px; height:2px; margin-bottom:16px; background:#e31b4b; }
-  .fashion-rule-cards p { margin:15px 0 0; color:#d5dbe5; font-size: 15px; line-height:1.82; }
-  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size: 15px; font-weight:500; letter-spacing:.025em; line-height:1.5; }
+  .fashion-rule-cards p { margin:15px 0 0; color:#d5dbe5; font-size:13px; line-height:1.82; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .fashion-editorial-pair, .fashion-process-grid { gap:8px; margin:36px 0 44px; }
-    .fashion-editorial-pair figcaption, .fashion-process-grid figcaption { font-size: 15px; }
+    .fashion-editorial-pair figcaption, .fashion-process-grid figcaption { font-size:11px; }
     .fashion-rule-cards { grid-template-columns:1fr; }
   }
 </style>

@@ -135,13 +135,13 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
   .fashion-object-pair img { aspect-ratio:4/5; object-fit:cover; }
   .fashion-rule-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; margin:34px 0 50px; border:1px solid #3c3138; background:#3c3138; }
   .fashion-rule-cards section { padding:26px 23px 28px; background:#120e11; }
-  .fashion-rule-cards strong { display:block; color:#fff; font-size: 15px; line-height:1.55; letter-spacing:.035em; }
+  .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards strong::before { content:''; display:block; width:26px; height:2px; margin-bottom:16px; background:#ef7f9f; }
-  .fashion-rule-cards p { margin:15px 0 0; color:#e0d7dc; font-size: 15px; line-height:1.82; }
-  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size: 15px; font-weight:500; letter-spacing:.025em; line-height:1.5; }
+  .fashion-rule-cards p { margin:15px 0 0; color:#e0d7dc; font-size:13px; line-height:1.82; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .fashion-object-pair { gap:8px; margin:36px 0 44px; }
-    .fashion-object-pair figcaption { font-size: 15px; }
+    .fashion-object-pair figcaption { font-size:11px; }
     .fashion-rule-cards { grid-template-columns:1fr; }
   }
 </style>

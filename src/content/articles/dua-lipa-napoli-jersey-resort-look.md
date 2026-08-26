@@ -118,10 +118,10 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
   .culture-kit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 44px 0 54px; }
   .culture-kit-grid figure { margin: 0; }
   .culture-kit-grid img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: #fff; }
-  .culture-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 15px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
+  .culture-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 9px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
   .culture-look-figure { margin-top: 42px; }
   @media (max-width: 640px) {
     .culture-kit-grid { gap: 8px; margin-top: 36px; }
-    .culture-kit-grid figcaption { font-size: 15px; }
+    .culture-kit-grid figcaption { font-size: 11px; }
   }
 </style>

@@ -351,7 +351,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-gateway { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 3rem 0 4rem; overflow: hidden; border: 1px solid rgba(216, 177, 62, .45); border-radius: 22px; background: #080808; color: #fff; box-shadow: 0 22px 50px rgba(81, 0, 13, .18); text-align: center; transform: translateX(-50%); }
   .bayern-gateway > div { display: flex; min-height: 220px; flex-direction: column; align-items: center; justify-content: center; padding: 2.4rem 1.5rem; }
   .bayern-gateway p { margin: 1.15rem 0 .25rem; color: #fff; font-size: clamp(1.35rem, 3vw, 2rem); font-weight: 800; letter-spacing: -.035em; }
-  .bayern-gateway small { color: rgba(255,255,255,.66); font-size: 15px; letter-spacing: .08em; }
+  .bayern-gateway small { color: rgba(255,255,255,.66); font-size: .82rem; letter-spacing: .08em; }
   .bayern-gateway-country { background: linear-gradient(135deg, #050505 0 72%, #161616 72%); }
   .germany-flag { display: grid; width: min(280px, 70%); height: 140px; overflow: hidden; border-radius: 4px; box-shadow: 0 12px 30px rgba(0,0,0,.4); transform: perspective(500px) rotateY(-3deg); }
   .germany-flag i:nth-child(1) { background: #000; }
@@ -366,9 +366,9 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-gateway-club img { width: 150px; height: 150px; filter: drop-shadow(0 10px 16px rgba(0,0,0,.3)); }
   .bayern-era { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 4rem 0; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); transform: translateX(-50%); }
   .bayern-era img { position: absolute; right: -34px; bottom: -44px; width: 190px; height: 190px; opacity: .12; filter: grayscale(1); }
-  .bayern-era span { position: relative; display: block; color: #e6c765; font-size: 15px; font-weight: 800; letter-spacing: .22em; }
+  .bayern-era span { position: relative; display: block; color: #e6c765; font-size: .7rem; font-weight: 800; letter-spacing: .22em; }
   .bayern-era strong { position: relative; display: block; margin: .6rem 0 .55rem; color: #fff; font-size: clamp(3.1rem, 9vw, 5.8rem); font-weight: 300; letter-spacing: -.075em; line-height: 1; text-shadow: 0 3px 22px rgba(0,0,0,.5); }
-  .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: 15px; }
+  .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: .9rem; }
   .bayern-era em { color: #e6c765; font-style: normal; font-weight: 700; }
   .article-body h2:has(+ .bayern-player-art) { margin-top: 9rem; margin-bottom: 2.2rem; }
   .bayern-player-art { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 0 0 3.7rem; transform: translateX(-50%); }
@@ -391,8 +391,8 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-candidate-list li { margin: 0; border: 1px solid rgba(140,0,31,.24); border-left: 4px solid #c9a43a; border-radius: 0 12px 12px 0; padding: 1rem 1.1rem; background: linear-gradient(135deg, rgba(140,0,31,.13), rgba(191,0,42,.045) 68%, rgba(201,164,58,.07)); box-shadow: 0 10px 26px -24px rgba(104,0,25,.62); }
   .bayern-candidate-list strong, .bayern-candidate-list small { display: block; }
   .bayern-candidate-list strong { color: #7f0020; font-size: 1.02rem; }
-  .bayern-candidate-list small { margin-top: .18rem; color: #8b5966; font-size: 15px; line-height: 1.5; }
-  .bayern-candidate-list p { margin: .55rem 0 0; color: #51313a; font-size: 15px; line-height: 1.65; }
+  .bayern-candidate-list small { margin-top: .18rem; color: #8b5966; font-size: .77rem; line-height: 1.5; }
+  .bayern-candidate-list p { margin: .55rem 0 0; color: #51313a; font-size: .9rem; line-height: 1.65; }
   @keyframes bayern-gold-shimmer {
     0%, 18% { background-position: 120% 50%; }
     72%, 100% { background-position: -120% 50%; }

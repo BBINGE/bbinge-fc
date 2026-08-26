@@ -197,15 +197,15 @@ const relatedAssets = entry.data.relatedGroup
 
 <style>
   .archive-article { max-width: 760px; margin: 0 auto; padding: 38px 20px 80px; }
-  .article-path { display: flex; gap: 8px; font-size:15px; color: var(--bbfc-gray-2); }
+  .article-path { display: flex; gap: 8px; font-size: 11px; color: var(--bbfc-gray-2); }
   .article-path a:hover { color: var(--bbfc-blue); }
   .article-header { margin-top: 30px; padding: 54px 0 46px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
-  .article-header > p { font-size:15px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .article-header > p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
   .article-header h1 { margin-top: 14px; font-size: clamp(34px, 5.3vw, 55px); line-height: 1.12; font-weight: 700; letter-spacing: -.055em; }
-  .article-header > span { display: block; max-width: 620px; margin-top: 22px; font-size:15px; line-height: 1.7; color: var(--bbfc-gray-1); }
+  .article-header > span { display: block; max-width: 620px; margin-top: 22px; font-size: 14px; line-height: 1.7; color: var(--bbfc-gray-1); }
   .article-header :global(.article-byline) { margin-top: 18px; }
   .archive-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; }
-  .archive-tags span { padding: 6px 10px; border: 1px solid var(--bbfc-border); border-radius: 999px; font-size:15px; font-weight: 600; color: var(--bbfc-ink-2); background: #fff; }
+  .archive-tags span { padding: 6px 10px; border: 1px solid var(--bbfc-border); border-radius: 999px; font-size: 10px; font-weight: 600; color: var(--bbfc-ink-2); background: #fff; }
   .archive-body { padding-top: 58px; font-family: var(--font-sans); font-size: 18px; line-height: 1.92; color: var(--bbfc-ink); word-break: keep-all; overflow-wrap: break-word; }
   .archive-body :global(*) { font-family: inherit; }
   .archive-body :global(h2) { margin: 82px 0 25px; padding-top: 20px; border-top: 2px solid var(--bbfc-ink); font-size: 30px; line-height: 1.3; font-weight: 680; letter-spacing: -.04em; }
@@ -214,28 +214,28 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(figure) { width: calc(100% - 48px); margin: 48px auto; }
   .archive-body :global(figure img) { width: 100%; height: auto; border-radius: var(--bbfc-radius-lg); }
   .archive-body :global(.portrait-figure) { max-width: 520px; }
-  .archive-body :global(figcaption) { margin-top: 12px; text-align: center; font-size:15px; line-height: 1.6; color: var(--bbfc-gray-2); }
+  .archive-body :global(figcaption) { margin-top: 12px; text-align: center; font-size: 13px; line-height: 1.6; color: var(--bbfc-gray-2); }
   .archive-body :global(table) { width: 100%; margin: 28px 0 42px; border-collapse: collapse; font-size: 15px; }
   .archive-body :global(th), .archive-body :global(td) { padding: 14px 12px; border-bottom: 1px solid var(--bbfc-border); text-align: left; }
-  .archive-body :global(th) { font-size:15px; letter-spacing: .08em; color: var(--bbfc-gray-2); }
+  .archive-body :global(th) { font-size: 12px; letter-spacing: .08em; color: var(--bbfc-gray-2); }
   .archive-body :global(.record-lead) { display: grid; place-items: center; padding: 24px 0 44px; text-align: center; }
   .archive-body :global(.record-lead img) { width: 120px; height: auto; object-fit: contain; }
   .archive-body :global(.record-lead p) { margin-top: 24px; font-size: 22px; font-weight: 650; }
   .archive-body :global(.record-lead strong) { margin-top: 7px; font-family: var(--font-sans); font-size: 15px; font-weight: 450; letter-spacing: .015em; color: var(--bbfc-gray-1); }
   .archive-body :global(.record-facts) { display: grid; grid-template-columns: repeat(2, 1fr); margin: 26px 0 40px; border-top: 1px solid var(--bbfc-ink); }
   .archive-body :global(.record-facts dl) { display: grid; grid-template-columns: 96px 1fr; gap: 14px; padding: 17px 10px; border-bottom: 1px solid var(--bbfc-border); }
-  .archive-body :global(.record-facts dt) { font-size:15px; color: var(--bbfc-gray-2); }
+  .archive-body :global(.record-facts dt) { font-size: 13px; color: var(--bbfc-gray-2); }
   .archive-body :global(.record-facts dd) { font-size: 15px; line-height: 1.55; font-weight: 550; }
   .archive-body :global(.honours-grid) { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 24px 0 42px; }
   .archive-body :global(.honours-grid div) { display: grid; min-height: 150px; align-content: end; padding: 20px; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); }
-  .archive-body :global(.honours-grid span) { font-size:15px; color: var(--bbfc-blue); }
+  .archive-body :global(.honours-grid span) { font-size: 12px; color: var(--bbfc-blue); }
   .archive-body :global(.honours-grid strong) { margin-top: 8px; font-size: 17px; line-height: 1.4; }
-  .archive-body :global(.honours-grid small) { margin-top: 6px; font-size:15px; color: var(--bbfc-gray-2); }
+  .archive-body :global(.honours-grid small) { margin-top: 6px; font-size: 12px; color: var(--bbfc-gray-2); }
   .archive-body :global(.legend-identity) { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 24px; align-items: center; margin: 0 0 58px; padding: 30px; border-radius: var(--bbfc-radius-lg); background: linear-gradient(135deg, #07883d 0 31%, #f7d910 31% 100%); color: #123826; }
   .archive-body :global(.legend-identity img) { width: 112px; height: 78px; border-radius: 5px; object-fit: cover; box-shadow: 0 8px 24px rgba(0,0,0,.14); }
-  .archive-body :global(.legend-identity span) { display: block; font-size:15px; font-weight: 800; letter-spacing: .14em; }
+  .archive-body :global(.legend-identity span) { display: block; font-size: 11px; font-weight: 800; letter-spacing: .14em; }
   .archive-body :global(.legend-identity strong) { display: block; margin-top: 8px; font-size: 22px; line-height: 1.25; }
-  .archive-body :global(.legend-identity small) { display: block; margin-top: 4px; font-size:15px; }
+  .archive-body :global(.legend-identity small) { display: block; margin-top: 4px; font-size: 12px; }
   .archive-body :global(.legend-video) { width: 100%; margin: 42px 0; }
   .archive-body :global(.legend-video video) { display: block; width: 100%; max-height: 520px; border-radius: var(--bbfc-radius-lg); background: #0b0d10; }
   .archive-body :global(.legend-video figcaption) { text-align: left; }
@@ -246,9 +246,9 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-identity-brazil img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
   .archive-body :global(.legend-identity-brazil .identity-country img) { height: 70px; border: 1px solid rgba(255,255,255,.8); border-radius: 9px; object-fit: cover; }
   .archive-body :global(.legend-identity-brazil .identity-team img) { width: 64px; height: 91px; justify-self: center; }
-  .archive-body :global(.legend-identity-brazil span) { color: inherit; font-size:15px; }
+  .archive-body :global(.legend-identity-brazil span) { color: inherit; font-size: 11px; }
   .archive-body :global(.legend-identity-brazil strong) { margin-top: 6px; color: inherit; font-size: 22px; }
-  .archive-body :global(.legend-identity-brazil small) { color: inherit; font-size:15px; line-height: 1.45; }
+  .archive-body :global(.legend-identity-brazil small) { color: inherit; font-size: 12px; line-height: 1.45; }
   .archive-body :global(.legend-identity-spain) { display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, minmax(112px, 1fr)); align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; }
   .archive-body :global(.legend-identity-spain section) { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; min-width: 0; padding: 20px 30px; }
   .archive-body :global(.legend-identity-spain .identity-country) { background: #aa151b; color: #fff; }
@@ -256,9 +256,9 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-identity-spain img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
   .archive-body :global(.legend-identity-spain .identity-country img) { height: 67px; border: 1px solid rgba(255,255,255,.8); border-radius: 9px; object-fit: cover; }
   .archive-body :global(.legend-identity-spain .identity-team img) { width: 54px; height: 91px; justify-self: center; }
-  .archive-body :global(.legend-identity-spain span) { color: inherit; font-size:15px; }
+  .archive-body :global(.legend-identity-spain span) { color: inherit; font-size: 11px; }
   .archive-body :global(.legend-identity-spain strong) { margin-top: 6px; color: inherit; font-size: 22px; }
-  .archive-body :global(.legend-identity-spain small) { color: inherit; font-size:15px; line-height: 1.45; }
+  .archive-body :global(.legend-identity-spain small) { color: inherit; font-size: 12px; line-height: 1.45; }
   .archive-body :global(.legend-identity-italy) { display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, minmax(112px, 1fr)); align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; color: #fff; }
   .archive-body :global(.legend-identity-italy section) { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; min-width: 0; padding: 20px 30px; }
   .archive-body :global(.legend-identity-italy .identity-country) { background: linear-gradient(90deg, #009246 0 71%, #f1f2f1 71% 85%, #ce2b37 85% 100%); color: #fff; }
@@ -266,14 +266,14 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-identity-italy img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
   .archive-body :global(.legend-identity-italy .identity-country img) { height: 67px; border: 1px solid rgba(255,255,255,.9); border-radius: 9px; object-fit: cover; }
   .archive-body :global(.legend-identity-italy .identity-team img) { width: 68px; height: 82px; justify-self: center; padding: 7px; border: 1px solid rgba(255,255,255,.92); border-radius: 12px; background: rgba(255,255,255,.96); box-shadow: 0 7px 18px rgba(0,34,76,.28); }
-  .archive-body :global(.legend-identity-italy span) { color: inherit; font-size:15px; }
+  .archive-body :global(.legend-identity-italy span) { color: inherit; font-size: 11px; }
   .archive-body :global(.legend-identity-italy strong) { margin-top: 6px; color: inherit; font-size: 22px; }
-  .archive-body :global(.legend-identity-italy small) { color: inherit; font-size:15px; line-height: 1.45; }
+  .archive-body :global(.legend-identity-italy small) { color: inherit; font-size: 12px; line-height: 1.45; }
   .archive-body :global(.legend-reel) { overflow: hidden; margin: 40px 0 64px; border-radius: 20px; background: #061b11; color: #fff; box-shadow: 0 24px 60px rgba(1,41,22,.18); }
   .archive-body :global(.legend-reel-head) { display: grid; grid-template-columns: 1fr auto; padding: 20px 22px 18px; }
-  .archive-body :global(.legend-reel-head span) { grid-column: 1; font-size:15px; font-weight: 800; letter-spacing: .16em; color: #f8d80e; }
+  .archive-body :global(.legend-reel-head span) { grid-column: 1; font-size: 11px; font-weight: 800; letter-spacing: .16em; color: #f8d80e; }
   .archive-body :global(.legend-reel-head strong) { grid-column: 1; margin-top: 4px; font-size: 22px; }
-  .archive-body :global(.legend-reel-head small) { grid-column: 2; grid-row: 1 / 3; align-self: center; color: rgba(255,255,255,.62); font-size:15px; }
+  .archive-body :global(.legend-reel-head small) { grid-column: 2; grid-row: 1 / 3; align-self: center; color: rgba(255,255,255,.62); font-size: 12px; }
   .archive-body :global(.legend-reel video) { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 520px; object-fit: contain; background: #000; }
   .archive-body :global(.legend-reel-foot) { padding: 18px 22px 22px; }
   .archive-body :global(.legend-reel-foot p) { min-height: 3.3em; margin: 0; font-size: 16px; line-height: 1.65; color: rgba(255,255,255,.8); }
@@ -285,7 +285,7 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.profile-country-head > img:first-child) { width: 112px; height: 78px; object-fit: cover; border-radius: 5px; }
   .archive-body :global(.profile-country-head > img:last-child) { width: 76px; height: 82px; justify-self: end; object-fit: contain; }
   .archive-body :global(.profile-country-head strong) { font-size: 25px; line-height: 1.3; color: #071d4b; }
-  .archive-body :global(.profile-country-head small) { display: block; margin-top: 5px; font-size:15px; font-weight: 600; color: #071d4b; }
+  .archive-body :global(.profile-country-head small) { display: block; margin-top: 5px; font-size: 13px; font-weight: 600; color: #071d4b; }
   .archive-body :global(.record-facts-brazil dl) { border-color: rgba(8,120,62,.22); background: linear-gradient(90deg, rgba(7,136,61,.06), rgba(247,217,16,.08)); }
   .archive-body :global(.record-facts-brazil dt) { color: #08783e; font-weight: 800; }
   .archive-body :global(.record-facts-spain) { overflow: hidden; border: 1px solid #aa151b; border-radius: 16px; background: #fff; }
@@ -308,17 +308,17 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.legend-section-portrait) { max-width: 480px; }
   .archive-body :global(.legend-section-portrait img) { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 18%; }
   .archive-body :global(.section-photo-fallback) { display: grid; min-height: 340px; place-content: end start; padding: 30px; border-radius: 18px; background: radial-gradient(circle at 72% 28%, #f2aa00 0 8%, transparent 9%), linear-gradient(135deg, #6d1426, #9c2335 55%, #ee9e00); color: #fff; }
-  .archive-body :global(.section-photo-fallback span) { font-size:15px; letter-spacing: .18em; color: #ffd36a; }
+  .archive-body :global(.section-photo-fallback span) { font-size: 10px; letter-spacing: .18em; color: #ffd36a; }
   .archive-body :global(.section-photo-fallback strong) { margin-top: 8px; font-size: clamp(34px, 8vw, 62px); line-height: .94; }
   .archive-body :global(.club-career-grid) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 26px 0 34px; }
   .archive-body :global(.club-career-grid > div) { display: grid; grid-template-columns: 58px 1fr auto; grid-template-rows: auto auto; gap: 2px 14px; align-items: center; padding: 16px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; }
   .archive-body :global(.club-career-grid img) { grid-row: 1 / 3; width: 58px; height: 58px; object-fit: contain; }
   .archive-body :global(.club-career-grid strong) { font-size: 16px; line-height: 1.35; }
-  .archive-body :global(.club-career-grid span) { font-size:15px; font-weight: 600; color: var(--bbfc-gray-2); }
-  .archive-body :global(.club-career-grid small) { grid-column: 3; grid-row: 1 / 3; font-size:15px; font-weight: 800; color: var(--bbfc-blue-strong); }
+  .archive-body :global(.club-career-grid span) { font-size: 13px; font-weight: 600; color: var(--bbfc-gray-2); }
+  .archive-body :global(.club-career-grid small) { grid-column: 3; grid-row: 1 / 3; font-size: 14px; font-weight: 800; color: var(--bbfc-blue-strong); }
   .archive-body :global(.number-history-table) { margin: 20px 0 30px; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; }
-  .archive-body :global(.number-history-table table) { width: 100%; margin: 0; border-collapse: collapse; font-size:15px; line-height: 1.55; }
-  .archive-body :global(.number-history-table th) { padding: 11px 14px; border-bottom: 1px solid var(--bbfc-ink); background: var(--bbfc-fill-2); color: var(--bbfc-gray-1); font-size:15px; font-weight: 750; letter-spacing: .06em; text-align: left; }
+  .archive-body :global(.number-history-table table) { width: 100%; margin: 0; border-collapse: collapse; font-size: 14px; line-height: 1.55; }
+  .archive-body :global(.number-history-table th) { padding: 11px 14px; border-bottom: 1px solid var(--bbfc-ink); background: var(--bbfc-fill-2); color: var(--bbfc-gray-1); font-size: 12px; font-weight: 750; letter-spacing: .06em; text-align: left; }
   .archive-body :global(.number-history-table td) { padding: 13px 14px; border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-gray-1); vertical-align: middle; }
   .archive-body :global(.number-history-table tr:last-child td) { border-bottom: 0; }
   .archive-body :global(.number-history-table td:first-child) { color: var(--bbfc-ink); font-weight: 700; }
@@ -333,14 +333,14 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.trophy-card img) { position: absolute; z-index: 0; right: -16px; top: 10px; width: 142px; height: 162px; object-fit: contain; object-position: center; opacity: .13; filter: grayscale(1) brightness(1.45) contrast(1.08); mix-blend-mode: screen; pointer-events: none; }
   .archive-body :global(.trophy-card.libertadores img) { right: -4px; top: 7px; width: 112px; height: 170px; }
   .archive-body :global(.trophy-card.champions img) { right: -22px; top: 8px; width: 158px; height: 166px; }
-  .archive-body :global(.trophy-card span) { position: relative; font-size:15px; font-weight: 800; letter-spacing: .15em; }
+  .archive-body :global(.trophy-card span) { position: relative; font-size: 11px; font-weight: 800; letter-spacing: .15em; }
   .archive-body :global(.trophy-card strong) { position: relative; margin-top: 6px; font-size: 17px; line-height: 1.35; }
-  .archive-body :global(.trophy-card small) { position: relative; margin-top: 7px; font-size:15px; color: #fff; }
+  .archive-body :global(.trophy-card small) { position: relative; margin-top: 7px; font-size: 14px; color: #fff; }
   .archive-body :global(.career-honours) { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 24px; margin: 20px 0 46px; border-top: 1px solid var(--bbfc-ink); }
   .archive-body :global(.career-honours section) { padding: 17px 4px; border-bottom: 1px solid var(--bbfc-border); }
   .archive-body :global(.career-honours strong) { display: flex; align-items: baseline; gap: 8px; margin-bottom: 9px; font-size: 16px; }
-  .archive-body :global(.career-honours strong small) { color: #9ca3af; font-size:15px; line-height: 1.35; font-weight: 500; }
-  .archive-body :global(.career-honours p) { margin: 3px 0 0; font-size:15px; line-height: 1.6; color: var(--bbfc-gray-1); }
+  .archive-body :global(.career-honours strong small) { color: #9ca3af; font-size: 11px; line-height: 1.35; font-weight: 500; }
+  .archive-body :global(.career-honours p) { margin: 3px 0 0; font-size: 14px; line-height: 1.6; color: var(--bbfc-gray-1); }
   .archive-body :global(.career-honours b) { color: #8b6a13; }
   /* 같은 인물·사건을 다룬 다른 기록으로 넘기는 배너. 일반 글의 .best-xi-cta와 같은
      토큰을 쓰되 장식 이모지 대신 해당 기록의 표지를 놓아 연대기 카드와 결을 맞춘다. */
@@ -348,28 +348,28 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.record-cta:hover) { border-color: var(--bbfc-blue); transform: translateY(-2px); }
   .archive-body :global(.record-cta:focus-visible) { outline: 2px solid var(--bbfc-blue); outline-offset: 3px; }
   .archive-body :global(.record-cta > img) { width: 88px; height: 88px; border-radius: var(--bbfc-radius); object-fit: cover; }
-  .archive-body :global(.record-cta small) { display: block; font-size:15px; font-weight: 750; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .archive-body :global(.record-cta small) { display: block; font-size: 11px; font-weight: 750; letter-spacing: .14em; color: var(--bbfc-blue); }
   .archive-body :global(.record-cta strong) { display: block; margin-top: 7px; font-size: 19px; line-height: 1.4; font-weight: 660; letter-spacing: -.03em; }
-  .archive-body :global(.record-cta p) { margin: 6px 0 0; font-size:15px; line-height: 1.55; color: var(--bbfc-gray-1); }
+  .archive-body :global(.record-cta p) { margin: 6px 0 0; font-size: 13px; line-height: 1.55; color: var(--bbfc-gray-1); }
   /* 인용은 DESIGN.md의 글 상세 기준(좌측 3px 블루 보더)을 아카이브에도 그대로 쓴다.
      외국어 원문은 본문보다 한 단계 크게, 한국어 번역은 한 단계 작고 옅게 둔다. */
   .archive-body :global(.record-quote) { margin: 44px 0; padding: 2px 0 2px 22px; border-left: 3px solid var(--bbfc-blue); }
   .archive-body :global(.record-quote > p) { margin: 0; font-size: 21px; line-height: 1.7; font-weight: 560; letter-spacing: -.02em; }
   .archive-body :global(.record-quote > p + p) { margin-top: 14px; font-size: 16px; font-weight: 450; color: var(--bbfc-gray-1); }
-  .archive-body :global(.record-quote > small) { display: block; margin-top: 16px; font-size:15px; line-height: 1.6; color: var(--bbfc-gray-2); }
+  .archive-body :global(.record-quote > small) { display: block; margin-top: 16px; font-size: 12px; line-height: 1.6; color: var(--bbfc-gray-2); }
   .archive-body :global(ul) { margin: 18px 0; padding-left: 20px; }
   .archive-body :global(li) { margin-top: 8px; }
-  .archive-body :global(.source-notes) { margin-top: -4px; font-size:15px; line-height: 1.7; color: var(--bbfc-gray-1); }
+  .archive-body :global(.source-notes) { margin-top: -4px; font-size: 13px; line-height: 1.7; color: var(--bbfc-gray-1); }
   .archive-body :global(.source-notes ul) { padding-left: 18px; list-style: disc; }
   .archive-body :global(.source-notes li) { margin-top: 10px; padding-left: 3px; }
   .archive-body :global(.source-notes a) { color: var(--bbfc-ink-2); text-decoration: underline; text-decoration-color: var(--bbfc-gray-3); text-underline-offset: 3px; }
   .archive-body :global(.source-notes a:hover) { color: var(--bbfc-blue-strong); text-decoration-color: var(--bbfc-blue); }
-  .archive-body :global(.record-note) { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--bbfc-border); font-size:15px; line-height: 1.75; color: var(--bbfc-gray-2); }
+  .archive-body :global(.record-note) { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--bbfc-border); font-size: 12px; line-height: 1.75; color: var(--bbfc-gray-2); }
   .archive-body :global(.record-abstract) { margin: 0 0 58px; padding: 26px 28px 28px; border-top: 2px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
-  .archive-body :global(.record-abstract > span) { display: block; font-size:15px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .archive-body :global(.record-abstract > span) { display: block; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-blue); }
   .archive-body :global(.record-abstract p) { margin-top: 12px; font-size: 17px; line-height: 1.82; font-weight: 520; color: var(--bbfc-ink-2); }
   .archive-body :global(.flag) { display: inline-block; width: 1.35em; height: .9em; margin-left: .22em; border: 1px solid rgba(25,31,40,.12); border-radius: 2px; object-fit: cover; vertical-align: -.08em; }
-  .archive-body :global(.placement-count) { display: inline-block; margin-left: .45em; padding: .18em .48em; border-radius: 999px; background: var(--bbfc-blue-weak); font-size:15px; line-height: 1.4; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: .08em; }
+  .archive-body :global(.placement-count) { display: inline-block; margin-left: .45em; padding: .18em .48em; border-radius: 999px; background: var(--bbfc-blue-weak); font-size: 10px; line-height: 1.4; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: .08em; }
   .archive-body :global(.best-xi) { display: grid; gap: 22px; margin: 30px 0 48px; padding: 34px 24px; border-radius: var(--bbfc-radius-lg); background: linear-gradient(180deg, #183f70 0%, #102d53 100%); color: #fff; }
   .archive-body :global(.best-xi-line) { display: grid; gap: 10px; justify-content: center; }
   .archive-body :global(.best-xi-line.forwards) { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -387,64 +387,64 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.archive-music) { display: grid; grid-template-columns: 54px minmax(0, 1fr) auto; align-items: center; gap: 18px; margin: 30px 0 58px; padding: 20px 22px; border: 2px solid color-mix(in srgb, var(--bbfc-blue) 38%, #fff); border-radius: var(--bbfc-radius-lg); background: linear-gradient(140deg, color-mix(in srgb, var(--bbfc-blue) 12%, var(--bbfc-bg)), color-mix(in srgb, var(--bbfc-blue) 4%, #fff)); }
   .archive-body :global(.archive-music .music-toggle) { display: grid; width: 54px; height: 54px; place-items: center; border: 0; border-radius: 50%; background: var(--bbfc-blue); color: #fff; font: inherit; font-size: 18px; cursor: pointer; box-shadow: 0 0 0 6px color-mix(in srgb, var(--bbfc-blue) 12%, transparent); }
   .archive-body :global(.archive-music > span) { display: grid; min-width: 0; }
-  .archive-body :global(.archive-music small) { color: var(--bbfc-gray-2); font-size:15px; line-height: 1.4; letter-spacing: .1em; }
+  .archive-body :global(.archive-music small) { color: var(--bbfc-gray-2); font-size: 10px; line-height: 1.4; letter-spacing: .1em; }
   .archive-body :global(.archive-music strong) { margin-top: 3px; color: var(--bbfc-ink); font-size: 19px; line-height: 1.35; font-weight: 650; }
-  .archive-body :global(.archive-music em) { margin-top: 3px; color: var(--bbfc-blue); font-size:15px; line-height: 1.4; font-style: normal; }
-  .archive-body :global(.archive-music .music-cta) { grid-column: 3 / 4; justify-self: end; width: auto; height: auto; padding: 9px 12px; border: 1px solid currentColor; border-radius: var(--bbfc-radius-sm); background: var(--bbfc-bg); color: var(--bbfc-blue); font-size:15px; font-weight: 650; white-space: nowrap; box-shadow: none; }
+  .archive-body :global(.archive-music em) { margin-top: 3px; color: var(--bbfc-blue); font-size: 11px; line-height: 1.4; font-style: normal; }
+  .archive-body :global(.archive-music .music-cta) { grid-column: 3 / 4; justify-self: end; width: auto; height: auto; padding: 9px 12px; border: 1px solid currentColor; border-radius: var(--bbfc-radius-sm); background: var(--bbfc-bg); color: var(--bbfc-blue); font-size: 12px; font-weight: 650; white-space: nowrap; box-shadow: none; }
   .archive-body :global(.archive-music-player) { grid-column: 1 / -1; width: 100%; margin-top: 12px; padding-top: 12px; border-top: 1px solid color-mix(in srgb, var(--bbfc-blue) 24%, transparent); }
   .archive-body :global(.archive-music-player iframe) { width: 100%; min-height: 220px; aspect-ratio: 16 / 9; border: 0; border-radius: var(--bbfc-radius-sm); }
-  .archive-body :global(.archive-music-credit) { grid-column: 1 / -1; margin: 8px 0 0; font-size:15px; line-height: 1.5; }
+  .archive-body :global(.archive-music-credit) { grid-column: 1 / -1; margin: 8px 0 0; font-size: 11px; line-height: 1.5; }
   .archive-body :global(.archive-music-credit a) { color: var(--bbfc-gray-2); }
   .archive-body :global(.best-xi-line div) { display: grid; align-content: center; min-height: 174px; padding: 13px 10px; border: 1px solid rgba(255,255,255,.2); border-radius: 10px; background: rgba(255,255,255,.07); text-align: center; }
   .archive-body :global(.best-xi-line img) { width: 62px; height: 62px; margin: 0 auto 10px; border: 2px solid rgba(255,255,255,.82); border-radius: 50%; object-fit: cover; object-position: 50% 22%; filter: grayscale(1); }
-  .archive-body :global(.best-xi-line span) { font-size:15px; font-weight: 750; letter-spacing: .12em; color: #9dd2ff; }
-  .archive-body :global(.best-xi-line strong) { margin-top: 6px; font-size:15px; line-height: 1.35; font-weight: 650; }
-  .archive-body :global(.best-xi-line small) { margin-top: 5px; font-size:15px; line-height: 1.4; color: rgba(255,255,255,.68); }
+  .archive-body :global(.best-xi-line span) { font-size: 11px; font-weight: 750; letter-spacing: .12em; color: #9dd2ff; }
+  .archive-body :global(.best-xi-line strong) { margin-top: 6px; font-size: 13px; line-height: 1.35; font-weight: 650; }
+  .archive-body :global(.best-xi-line small) { margin-top: 5px; font-size: 11px; line-height: 1.4; color: rgba(255,255,255,.68); }
   .archive-body :global(.best-xi-roster) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 36px 0 58px; }
   .archive-body :global(.best-xi-player) { display: grid; grid-template-columns: 142px minmax(0, 1fr); min-height: 184px; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); background: #fff; }
   .archive-body :global(.best-xi-player > img) { width: 100%; height: 100%; min-height: 184px; object-fit: cover; object-position: 50% 20%; filter: grayscale(1); }
   .archive-body :global(.best-xi-player > div) { display: grid; align-content: center; min-width: 0; padding: 20px 18px; }
-  .archive-body :global(.best-xi-player span) { font-size:15px; line-height: 1.4; font-weight: 750; letter-spacing: .11em; color: var(--bbfc-blue); }
+  .archive-body :global(.best-xi-player span) { font-size: 11px; line-height: 1.4; font-weight: 750; letter-spacing: .11em; color: var(--bbfc-blue); }
   .archive-body :global(.best-xi-player strong) { margin-top: 8px; font-size: 17px; line-height: 1.35; font-weight: 680; letter-spacing: -.025em; color: var(--bbfc-ink); }
-  .archive-body :global(.best-xi-player small) { margin-top: 5px; overflow: hidden; font-size:15px; line-height: 1.4; color: var(--bbfc-gray-2); text-overflow: ellipsis; white-space: nowrap; }
-  .archive-body :global(.best-xi-player p) { margin: 18px 0 0; font-size:15px; line-height: 1.5; font-weight: 600; color: var(--bbfc-ink-2); }
-  .archive-body :global(.cite) { margin-left: .14em; font-size: 15px; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: super; }
-  .archive-body :global(.foreign-note) { font-size: 15px !important; line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2) !important; vertical-align: baseline; }
+  .archive-body :global(.best-xi-player small) { margin-top: 5px; overflow: hidden; font-size: 11px; line-height: 1.4; color: var(--bbfc-gray-2); text-overflow: ellipsis; white-space: nowrap; }
+  .archive-body :global(.best-xi-player p) { margin: 18px 0 0; font-size: 12px; line-height: 1.5; font-weight: 600; color: var(--bbfc-ink-2); }
+  .archive-body :global(.cite) { margin-left: .14em; font-size: .68em; font-weight: 650; color: var(--bbfc-blue-strong); vertical-align: super; }
+  .archive-body :global(.foreign-note) { font-size: max(.72em, 12px) !important; line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2) !important; vertical-align: baseline; }
   .archive-body :global(.career-awards) { display: grid; gap: 0; margin: 1.2rem 0 2rem; padding: 0; list-style: none; }
   .archive-body :global(.career-awards li) { display: flex; align-items: baseline; flex-wrap: wrap; gap: .3rem .5rem; margin: 0; padding: .72rem .15rem; border-bottom: 1px solid #e5e7eb; }
   .archive-body :global(.career-awards li::before) { content: ""; width: 5px; height: 5px; margin: 0 .35rem 3px 0; border-radius: 50%; background: #111; flex: 0 0 auto; }
-  .archive-body :global(.career-awards strong) { color: #111827; font-size: max(.96em, 15px); font-weight: 700; }
-  .archive-body :global(.career-awards small) { color: #4b5563; font-size: 15px; font-weight: 600; }
-  .archive-body :global(.career-awards span) { color: #9ca3af; font-size: 15px; font-weight: 500; }
+  .archive-body :global(.career-awards strong) { color: #111827; font-size: .96em; font-weight: 700; }
+  .archive-body :global(.career-awards small) { color: #4b5563; font-size: .72em; font-weight: 600; }
+  .archive-body :global(.career-awards span) { color: #9ca3af; font-size: .82em; font-weight: 500; }
   .archive-body :global(.archive-crosslink) { display: grid; gap: 5px; margin: 34px 0 48px; padding: 22px 24px; border: 1px solid #d6b45c; border-radius: 16px; background: linear-gradient(135deg, #111 0 38%, #f8f5ea 38%); color: #111827; }
-  .archive-body :global(.archive-crosslink span) { color: #f1c75b; font-size:15px; font-weight: 800; letter-spacing: .12em; }
+  .archive-body :global(.archive-crosslink span) { color: #f1c75b; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
   .archive-body :global(.archive-crosslink strong), .archive-body :global(.archive-crosslink small) { margin-left: 38%; padding-left: 22px; }
   .archive-body :global(.archive-crosslink strong) { font-size: 19px; line-height: 1.35; }
-  .archive-body :global(.archive-crosslink small) { color: #4b5563; font-size:15px; line-height: 1.55; }
+  .archive-body :global(.archive-crosslink small) { color: #4b5563; font-size: 12px; line-height: 1.55; }
   .archive-body :global(.source-notes ol) { padding-left: 22px; list-style: decimal; }
   .archive-body :global(.source-notes li:target) { background: var(--bbfc-blue-weak); }
   .archive-share { margin-top: 54px; padding-top: 8px; border-top: 1px solid var(--bbfc-border); }
   .sequence-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 86px; padding: 22px 0; border-top: 2px solid var(--bbfc-ink); }
   .sequence-link { display: grid; align-content: start; min-width: 0; padding: 8px 10px; }
   .sequence-link.is-next { grid-column: 2; text-align: right; }
-  .sequence-link span { font-size:15px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-gray-2); }
+  .sequence-link span { font-size: 11px; font-weight: 700; letter-spacing: .14em; color: var(--bbfc-gray-2); }
   .sequence-link strong { margin-top: 8px; font-size: 16px; line-height: 1.45; font-weight: 620; color: var(--bbfc-blue-strong); }
-  .sequence-link small { margin-top: 5px; overflow: hidden; font-size:15px; line-height: 1.5; color: var(--bbfc-gray-2); text-overflow: ellipsis; white-space: nowrap; }
+  .sequence-link small { margin-top: 5px; overflow: hidden; font-size: 11px; line-height: 1.5; color: var(--bbfc-gray-2); text-overflow: ellipsis; white-space: nowrap; }
   a.sequence-link:hover strong { text-decoration: underline; text-underline-offset: 4px; }
   .sequence-link.is-pending { cursor: default; }
   .sequence-link.is-pending strong, .sequence-link.is-pending small { color: var(--bbfc-gray-3); }
   .related-records { margin-top: 90px; padding-top: 24px; border-top: 2px solid var(--bbfc-ink); }
-  .related-records > div:first-child p { font-size:15px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
+  .related-records > div:first-child p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }
   .related-records h2 { margin-top: 8px; font-size: 26px; font-weight: 680; letter-spacing: -.04em; }
   .related-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top: 24px; }
   .related-grid > a { min-width: 0; }
   .related-cover { position: relative; overflow: hidden; border-radius: var(--bbfc-radius); background: var(--bbfc-fill); }
   .related-cover img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; transition: transform .22s ease; }
-  .related-cover span { position: absolute; top: 8px; left: 8px; padding: 4px 7px; border-radius: 999px; background: rgba(255,255,255,.92); font-size:15px; font-weight: 650; color: var(--bbfc-ink-2); }
+  .related-cover span { position: absolute; top: 8px; left: 8px; padding: 4px 7px; border-radius: 999px; background: rgba(255,255,255,.92); font-size: 10px; font-weight: 650; color: var(--bbfc-ink-2); }
   .related-grid a:hover .related-cover img { transform: scale(1.025); }
   .related-grid small, .related-grid strong { display: block; }
-  .related-grid small { margin-top: 11px; font-size:15px; color: var(--bbfc-blue); }
-  .related-grid strong { margin-top: 5px; font-size:15px; line-height: 1.45; font-weight: 620; }
+  .related-grid small { margin-top: 11px; font-size: 11px; color: var(--bbfc-blue); }
+  .related-grid strong { margin-top: 5px; font-size: 13px; line-height: 1.45; font-weight: 620; }
   @media (max-width: 1023px) {
     .archive-body :global(.career-honours strong) { display: block; }
     .archive-body :global(.career-honours strong small) { display: block; margin-top: 4px; }
@@ -467,28 +467,28 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.legend-identity-brazil .identity-country img) { height: 43px; }
     .archive-body :global(.legend-identity-brazil .identity-team img) { width: 42px; height: 60px; }
     .archive-body :global(.legend-identity-brazil strong) { margin-top: 4px; font-size: 19px; }
-    .archive-body :global(.legend-identity-brazil small) { margin-top: 3px; font-size:15px; }
+    .archive-body :global(.legend-identity-brazil small) { margin-top: 3px; font-size: 11px; }
     .archive-body :global(.legend-identity-spain) { grid-template-columns: 1fr; gap: 0; padding: 0; }
     .archive-body :global(.legend-identity-spain section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
     .archive-body :global(.legend-identity-spain img) { width: 62px; height: 46px; }
     .archive-body :global(.legend-identity-spain .identity-country img) { height: 41px; }
     .archive-body :global(.legend-identity-spain .identity-team img) { width: 38px; height: 64px; }
     .archive-body :global(.legend-identity-spain strong) { margin-top: 4px; font-size: 19px; }
-    .archive-body :global(.legend-identity-spain small) { margin-top: 3px; font-size:15px; }
+    .archive-body :global(.legend-identity-spain small) { margin-top: 3px; font-size: 11px; }
     .archive-body :global(.legend-identity-italy) { grid-template-columns: 1fr; gap: 0; padding: 0; }
     .archive-body :global(.legend-identity-italy section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
     .archive-body :global(.legend-identity-italy img) { width: 62px; height: 46px; }
     .archive-body :global(.legend-identity-italy .identity-country img) { height: 41px; }
     .archive-body :global(.legend-identity-italy .identity-team img) { width: 46px; height: 56px; padding: 5px; border-radius: 9px; }
     .archive-body :global(.legend-identity-italy strong) { margin-top: 4px; font-size: 19px; }
-    .archive-body :global(.legend-identity-italy small) { margin-top: 3px; font-size:15px; }
+    .archive-body :global(.legend-identity-italy small) { margin-top: 3px; font-size: 11px; }
     .archive-body :global(.honours-grid div) { min-height: 118px; }
     .archive-body :global(.legend-reel) { margin: 30px 0 52px; border-radius: 14px; }
     .archive-body :global(.profile-country-head) { grid-template-columns: 72px 1fr 54px; gap: 12px; min-height: 118px; padding: 18px 14px; }
     .archive-body :global(.profile-country-head > img:first-child) { width: 72px; height: 50px; }
     .archive-body :global(.profile-country-head > img:last-child) { width: 48px; height: 58px; }
     .archive-body :global(.profile-country-head strong) { font-size: 19px; }
-    .archive-body :global(.profile-country-head small) { font-size:15px; }
+    .archive-body :global(.profile-country-head small) { font-size: 11px; }
     .archive-body :global(.record-facts-spain .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #c8102e 0 69%, #ffc400 69% 82%, #c8102e 82% 100%); }
     .archive-body :global(.record-facts-spain .profile-country-head > img:last-child) { width: 38px; height: 64px; }
     .archive-body :global(.record-facts-italy .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #009246 0 69%, #f1f2f1 69% 82%, #ce2b37 82% 100%); }
@@ -501,18 +501,18 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.club-career-grid > div) { grid-template-columns: 48px 1fr auto; padding: 14px; }
     .archive-body :global(.club-career-grid img) { width: 48px; height: 48px; }
     .archive-body :global(.club-career-grid strong) { font-size: 15px; }
-    .archive-body :global(.club-career-grid span) { font-size:15px; }
-    .archive-body :global(.club-career-grid small) { font-size:15px; }
+    .archive-body :global(.club-career-grid span) { font-size: 12px; }
+    .archive-body :global(.club-career-grid small) { font-size: 13px; }
     .archive-body :global(.trophy-card) { min-height: 150px; }
     .archive-body :global(table) { display: block; overflow-x: auto; white-space: nowrap; }
-    .archive-body :global(.number-history-table table) { display: table; overflow: visible; white-space: normal; font-size:15px; }
+    .archive-body :global(.number-history-table table) { display: table; overflow: visible; white-space: normal; font-size: 13px; }
     .archive-body :global(.number-history-table th), .archive-body :global(.number-history-table td) { padding: 11px 10px; }
     .archive-body :global(.number-history-table th:nth-child(2)), .archive-body :global(.number-history-table td:nth-child(2)) { width: 42%; }
     .archive-body :global(.archive-crosslink) { background: #111; color: #fff; }
     .archive-body :global(.archive-crosslink strong), .archive-body :global(.archive-crosslink small) { margin-left: 0; padding-left: 0; }
     .archive-body :global(.archive-crosslink small) { color: rgba(255,255,255,.72); }
-    .archive-body :global(.source-notes) { font-size: 15px; }
-    .archive-body :global(.record-note) { font-size:15px; }
+    .archive-body :global(.source-notes) { font-size: 12.5px; }
+    .archive-body :global(.record-note) { font-size: 12px; }
     .archive-body :global(.record-abstract) { margin-bottom: 46px; padding: 22px 20px 24px; }
     .archive-body :global(.record-abstract p) { font-size: 16px; }
     .archive-body :global(.best-xi) { gap: 14px; margin: 24px -4px 40px; padding: 24px 12px; }
@@ -523,7 +523,7 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.record-cta) { grid-template-columns: 64px minmax(0, 1fr); gap: 14px; margin: 26px 0 38px; padding: 14px 16px 14px 14px; }
     .archive-body :global(.record-cta > img) { width: 64px; height: 64px; }
     .archive-body :global(.record-cta strong) { font-size: 16px; }
-    .archive-body :global(.record-cta p) { font-size:15px; }
+    .archive-body :global(.record-cta p) { font-size: 12px; }
     .archive-body :global(.record-quote) { margin: 34px 0; padding-left: 16px; }
     .archive-body :global(.record-quote > p) { font-size: 18px; }
     .archive-body :global(.record-quote > p + p) { font-size: 15px; }
@@ -539,18 +539,18 @@ const relatedAssets = entry.data.relatedGroup
     .archive-body :global(.best-xi-line.halves-two) { padding: 0 18%; }
     .archive-body :global(.best-xi-line div) { min-height: 128px; padding: 9px 4px; }
     .archive-body :global(.best-xi-line img) { width: 38px; height: 38px; margin-bottom: 7px; border-width: 1px; }
-    .archive-body :global(.best-xi-line strong) { font-size:15px; }
-    .archive-body :global(.best-xi-line small) { font-size:15px; }
+    .archive-body :global(.best-xi-line strong) { font-size: 11px; }
+    .archive-body :global(.best-xi-line small) { font-size: 10px; }
     .archive-body :global(.best-xi-roster) { grid-template-columns: 1fr; gap: 12px; margin: 30px 0 46px; }
     .archive-body :global(.best-xi-player) { grid-template-columns: 112px minmax(0, 1fr); min-height: 154px; }
     .archive-body :global(.best-xi-player > img) { min-height: 154px; }
     .archive-body :global(.best-xi-player > div) { padding: 17px 15px; }
     .archive-body :global(.best-xi-player strong) { font-size: 15px; }
-    .archive-body :global(.best-xi-player p) { margin-top: 13px; font-size:15px; }
+    .archive-body :global(.best-xi-player p) { margin-top: 13px; font-size: 11px; }
     .related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
     .sequence-nav { gap: 8px; margin-top: 68px; }
     .sequence-link { padding: 6px 4px; }
-    .sequence-link strong { font-size:15px; }
+    .sequence-link strong { font-size: 14px; }
   }
 </style>
 

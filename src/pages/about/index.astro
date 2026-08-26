@@ -281,7 +281,7 @@ const clients = [
           </div>
 
           <div data-reveal style="transition-delay:140ms" class="mt-9 md:mt-12">
-            <p class="text-[15px] tracking-[0.16em] text-[var(--bbfc-gray-2)] font-medium">SKILL</p>
+            <p class="text-[11px] tracking-[0.16em] text-[var(--bbfc-gray-2)] font-medium">SKILL</p>
             <div class="flex flex-wrap gap-2 mt-3">
               {skills.map((s) => <span class="about-skill">{s}</span>)}
             </div>
@@ -369,7 +369,7 @@ const clients = [
           >
             <span
               class:list={[
-                'shrink-0 text-[15px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
                 c.label === '現'
                   ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
                   : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
@@ -390,7 +390,7 @@ const clients = [
           >
             <span
               class:list={[
-                'shrink-0 text-[15px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
+                'shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-[4px] mt-0.5',
                 c.label === '現'
                   ? 'text-[var(--bbfc-blue)] bg-[var(--bbfc-blue-weak)]'
                   : 'text-[var(--bbfc-gray-2)] bg-[var(--bbfc-fill)]',
@@ -466,12 +466,12 @@ const clients = [
       <div class="about-clients-panel columns-1 md:columns-2 gap-x-12 mt-7">
         {clients.map((c, gi) => (
           <div data-reveal style={`transition-delay:${(gi % 4) * 80}ms`} class="break-inside-avoid mb-8">
-            <p class="text-[15px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
+            <p class="text-[11px] tracking-wide text-[var(--bbfc-blue)] font-medium">{c.group}</p>
             <ul class="mt-2">
               {c.items.map((item) => (
                 <li class="about-client-row">
-                  <span class="text-[15px] md:text-[15px] leading-[1.7] text-[var(--bbfc-ink)]">{item.org}</span>
-                  <span class="text-[15px] md:text-[15px] leading-[1.7] text-[var(--bbfc-gray-1)]"> - {item.detail}</span>
+                  <span class="text-[14px] md:text-[15px] leading-[1.7] text-[var(--bbfc-ink)]">{item.org}</span>
+                  <span class="text-[13px] md:text-[14px] leading-[1.7] text-[var(--bbfc-gray-1)]"> - {item.detail}</span>
                 </li>
               ))}
             </ul>
@@ -523,8 +523,8 @@ const clients = [
 
 <style>
   .about-hero-grid { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:clamp(40px,7vw,112px); }
-  .about-kicker,.about-track-label { font-size:15px; font-weight:600; letter-spacing:.16em; color:var(--bbfc-blue); }
-  .about-skill { font-size:15px; color:var(--bbfc-gray-1); background:rgba(255,255,255,.82); border:1px solid var(--bbfc-border); padding:7px 12px; border-radius:999px; }
+  .about-kicker,.about-track-label { font-size:11px; font-weight:600; letter-spacing:.16em; color:var(--bbfc-blue); }
+  .about-skill { font-size:13px; color:var(--bbfc-gray-1); background:rgba(255,255,255,.82); border:1px solid var(--bbfc-border); padding:7px 12px; border-radius:999px; }
   .about-hero-actions { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:28px; }
   .about-hero-action {
     display:inline-flex;
@@ -537,7 +537,7 @@ const clients = [
     border-radius:var(--bbfc-radius);
     color:var(--bbfc-ink-2);
     background:var(--bbfc-bg);
-    font-size:15px;
+    font-size:13px;
     font-weight:500;
     transition:border-color .2s ease, background .2s ease, color .2s ease, transform .2s ease;
   }
@@ -579,11 +579,11 @@ const clients = [
   .about-channel-card.is-current { grid-column:1 / -1; min-height:96px; border-color:var(--bbfc-blue); background:var(--bbfc-blue-weak); }
   .about-current-record { margin-top:28px; }
   .about-channel-copy { display:flex; min-width:0; flex-direction:column; align-items:flex-start; }
-  .about-channel-platform { display:flex; align-items:center; flex-wrap:wrap; gap:6px; color:var(--bbfc-blue); font-size:15px; font-weight:500; letter-spacing:.11em; }
-  .about-current-badge { padding:2px 6px; border-radius:999px; background:var(--bbfc-blue); color:var(--bbfc-bg); font-size:15px; letter-spacing:0; }
+  .about-channel-platform { display:flex; align-items:center; flex-wrap:wrap; gap:6px; color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.11em; }
+  .about-current-badge { padding:2px 6px; border-radius:999px; background:var(--bbfc-blue); color:var(--bbfc-bg); font-size:11px; letter-spacing:0; }
   .about-channel-copy strong { margin-top:5px; color:var(--bbfc-ink); font-size:15px; font-weight:500; line-height:1.4; }
-  .about-channel-handle { margin-top:1px; overflow:hidden; max-width:100%; color:var(--bbfc-gray-1); font-size:15px; line-height:1.45; text-overflow:ellipsis; white-space:nowrap; }
-  .about-channel-description { margin-top:5px; color:var(--bbfc-gray-2); font-size:15px; line-height:1.45; }
+  .about-channel-handle { margin-top:1px; overflow:hidden; max-width:100%; color:var(--bbfc-gray-1); font-size:12px; line-height:1.45; text-overflow:ellipsis; white-space:nowrap; }
+  .about-channel-description { margin-top:5px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.45; }
   .about-channel-arrow { align-self:start; color:var(--bbfc-gray-3); font-size:15px; transition:color .2s ease, transform .2s ease; }
   .about-channel-card:hover .about-channel-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
   .about-record-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:10px; }
@@ -592,9 +592,9 @@ const clients = [
   .about-record-card.is-linked:hover { border-color:var(--bbfc-blue); box-shadow:0 12px 28px -24px rgba(25,31,40,.52); transform:translateY(-1px); }
   .about-record-card-inner.is-static { cursor:default; }
   .about-record-copy { display:flex; min-width:0; flex-direction:column; }
-  .about-record-copy strong { color:var(--bbfc-ink); font-size:15px; font-weight:500; line-height:1.45; }
-  .about-record-copy small { margin-top:2px; overflow:hidden; color:var(--bbfc-gray-2); font-size:15px; line-height:1.4; text-overflow:ellipsis; white-space:nowrap; }
-  .about-record-arrow { align-self:start; color:var(--bbfc-gray-3); font-size:15px; transition:color .2s ease, transform .2s ease; }
+  .about-record-copy strong { color:var(--bbfc-ink); font-size:14px; font-weight:500; line-height:1.45; }
+  .about-record-copy small { margin-top:2px; overflow:hidden; color:var(--bbfc-gray-2); font-size:11px; line-height:1.4; text-overflow:ellipsis; white-space:nowrap; }
+  .about-record-arrow { align-self:start; color:var(--bbfc-gray-3); font-size:14px; transition:color .2s ease, transform .2s ease; }
   .about-record-card.is-linked:hover .about-record-arrow { color:var(--bbfc-blue); transform:translate(2px,-2px); }
   .about-letter {
     position: relative;
@@ -644,15 +644,15 @@ const clients = [
   .about-letter-trophy-asian { top: 1950px; right: -17%; width: min(56%, 460px); }
   .about-letter-trophy-champions { top: 2850px; right: -13%; width: min(58%, 480px); }
   .about-letter-head { position:relative; z-index:1; display:flex; align-items:center; justify-content:space-between; gap:20px; }
-  .about-letter-kicker { color:var(--bbfc-blue); font-size:15px; font-weight:600; letter-spacing:.17em; }
-  .about-letter-mark { color:var(--bbfc-gray-3); font-size:15px; letter-spacing:.14em; white-space:nowrap; }
+  .about-letter-kicker { color:var(--bbfc-blue); font-size:10px; font-weight:600; letter-spacing:.17em; }
+  .about-letter-mark { color:var(--bbfc-gray-3); font-size:9px; letter-spacing:.14em; white-space:nowrap; }
   .about-letter-title { position:relative; z-index:1; margin-top:26px; color:var(--bbfc-ink); font-size:clamp(25px,4vw,36px); font-weight:500; line-height:1.35; letter-spacing:-.035em; }
   .about-letter-body { position:relative; z-index:1; min-height:132px; margin-top:30px; }
   .about-letter-body p { max-width:610px; color:var(--bbfc-ink-2); font-size:clamp(15px,2vw,17px); line-height:1.95; letter-spacing:-.012em; }
   .about-letter-body strong { color:var(--bbfc-ink); font-weight:650; }
   .about-letter-body p + p { margin-top:20px; }
   .about-letter-placeholder { color:var(--bbfc-gray-2) !important; }
-  .about-letter-signature { position:relative; z-index:1; display:flex; align-items:center; justify-content:flex-end; gap:14px; margin-top:28px; color:var(--bbfc-gray-1); font-size:15px; }
+  .about-letter-signature { position:relative; z-index:1; display:flex; align-items:center; justify-content:flex-end; gap:14px; margin-top:28px; color:var(--bbfc-gray-1); font-size:13px; }
   .about-letter-signature-line { width:48px; height:1px; background:var(--bbfc-border); }
   .about-career-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(36px,7vw,96px); }
   .about-clients-panel { background:var(--bbfc-fill-2); border:1px solid var(--bbfc-border); border-radius:16px; padding:clamp(24px,4vw,48px); }
@@ -726,7 +726,7 @@ const clients = [
     justify-content: center;
     padding: 10px 20px;
     border-radius: 8px;
-    font-size:15px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--bbfc-ink-2);
     background: var(--bbfc-fill);
@@ -763,7 +763,7 @@ const clients = [
   }
 
   @media (min-width: 1280px) {
-    .about-identity-hub-lower .about-section-description { font-size:15px; letter-spacing:-.025em; white-space:nowrap; }
+    .about-identity-hub-lower .about-section-description { font-size:13px; letter-spacing:-.025em; white-space:nowrap; }
   }
 
   @media (max-width: 767px) {
