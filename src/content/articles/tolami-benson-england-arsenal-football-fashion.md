@@ -3,7 +3,7 @@ title: '톨라미 벤슨의 축구 패션: 잉글랜드 유니폼을 단 하나�
 description: '톨라미 벤슨이 유로 2024에서 보여준 잉글랜드 셔츠 코르셋, 87번 바이커 재킷과 경기일 스타일을 통해 커스텀 축구 패션의 설계법을 읽는다.'
 category: 'culture'
 tags: ['톨라미 벤슨', '잉글랜드 유니폼', '아스널', '유로 2024', '축구 패션', '업사이클링', '블록코어']
-pubDate: 2026-08-26T20:10:00+09:00
+pubDate: 2026-08-26T12:45:11+09:00
 coverImage: '/images/culture/tolami-benson-football-style/cover.webp'
 cardImage: '/images/culture/tolami-benson-football-style/card.webp'
 coverImageAlt: '잉글랜드 유니폼을 재구성한 코르셋과 87번 바이커 재킷을 입은 톨라미 벤슨'

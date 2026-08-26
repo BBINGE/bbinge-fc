@@ -3,7 +3,7 @@ title: '말루 보르지스의 바스쿠 유니폼 패션: 진주와 롱스커�
 description: '브라질 패션 크리에이터 말루 보르지스가 바스쿠 다 가마 셔츠에 진주, 롱스커트, 힐과 구조적인 가방을 더하는 방식에서 브라질식 축구 패션을 읽는다.'
 category: 'culture'
 tags: ['말루 보르지스', '바스쿠 다 가마', '바스쿠 유니폼', '브라질 패션', '축구 셔츠', '블록코어', 'Brazilcore']
-pubDate: 2026-08-26T20:30:00+09:00
+pubDate: 2026-08-26T12:45:13+09:00
 coverImage: '/images/culture/malu-borges-football-shirt-style/cover.webp'
 cardImage: '/images/culture/malu-borges-football-shirt-style/card.webp'
 coverImageAlt: '바스쿠 다 가마 유니폼에 빨간 롱스커트와 검정 액세서리를 조합한 말루 보르지스'
