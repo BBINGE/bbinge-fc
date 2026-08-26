@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-26T16:16:36.396Z",
+  "updatedAt": "2026-08-26T20:21:43.357Z",
   "matches": [
     {
       "id": "2506175",
@@ -9,9 +9,9 @@
       "away": "레알 소시에다드",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vptvpr1473502986.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
@@ -23,9 +23,9 @@
       "away": "Slovan Bratislava",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
@@ -37,9 +37,9 @@
       "away": "페네르바흐체",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "2H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
@@ -51,9 +51,9 @@
       "away": "Levski Sofia",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/4nogst1602773624.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/9krgx71781149189.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "2H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
