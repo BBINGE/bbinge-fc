@@ -4,7 +4,7 @@ description: '신혼여행으로 떠난 부더페슈트에서 푸슈카시 박�
 category: 'pilgrimage'
 tags: ['부다페스트 신혼여행', '부더페슈트 여행', '푸슈카시 박물관', '푸슈카시 아레나', '헝가리 축구', '아라니처파트', '축구 여행']
 pubDate: 2026-08-26T20:20:00+09:00
-updatedDate: 2026-08-26T21:00:00+09:00
+updatedDate: 2026-08-26T21:13:00+09:00
 coverImage: '/images/pilgrimage/budapest-honeymoon-football-10/cover.webp'
 cardImage: '/images/pilgrimage/budapest-honeymoon-football-10/card.webp'
 coverImageAlt: '다뉴브강의 헝가리 국회의사당 야경과 푸슈카시 아레나, 푸슈카시 페렌츠 동상을 함께 배치한 부더페슈트 축행 표지'
@@ -165,9 +165,9 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 1956년 헝가리 혁명 뒤 푸슈카시는 부더페슈트를 떠나 레알 마드리드에서 두 번째 전성기를 열었다. 그다음 장면은 [알프레도 디스테파노와 함께 만든 유러피언컵 5연패](/archive/legends/spain/alfredo-di-stefano/)와 [레알 마드리드 저승사자 군단 베스트 11](/squads/custom-best-xi/real-madrid-death-squad-best-xi/)에서 계속된다. 한 도시를 걷고 나면 사이트 안의 오래된 경기들이 서로 가까워진다.
 
 <div class="journey-links">
-  <a href="/tactics/hungary-golden-team-total-football-elo-rating/" style="--journey-image:url('/images/tactics/hungary-golden-team/puskas.png')"><span>TACTICS</span><strong>헝가리 황금의 팀은 어떻게 세계를 앞서갔나</strong><i>읽기 →</i></a>
-  <a href="/history/1954-korea-world-cup-journey/" style="--journey-image:url('/images/history/1954-korea-world-cup/cover.png')"><span>HISTORY</span><strong>1954년, 한국이 처음 만난 월드컵</strong><i>읽기 →</i></a>
-  <a href="/archive/national-team/fifa-world-cup/1954-fifa-world-cup-best-xi/" style="--journey-image:url('/images/archive/1954-fifa-world-cup-best-xi/cover.png')"><span>ARCHIVE</span><strong>1954 FIFA 월드컵 베스트 11</strong><i>읽기 →</i></a>
+  <a href="/tactics/hungary-golden-team-total-football-elo-rating/" style="--journey-image:url('/images/tactics/hungary-golden-team/puskas.png')"><span>TACTICS</span><strong>헝가리 황금의 팀은 어떻게 세계를 앞서갔나</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
+  <a href="/history/1954-korea-world-cup-journey/" style="--journey-image:url('/images/history/1954-korea-world-cup/cover.png')"><span>HISTORY</span><strong>1954년, 한국이 처음 만난 월드컵</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
+  <a href="/archive/national-team/fifa-world-cup/1954-fifa-world-cup-best-xi/" style="--journey-image:url('/images/archive/1954-fifa-world-cup-best-xi/cover.png')"><span>ARCHIVE</span><strong>1954 FIFA 월드컵 베스트 11</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
 </div>
 
 <div class="source-notes">
