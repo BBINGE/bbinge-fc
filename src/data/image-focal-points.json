@@ -1,6 +1,21 @@
 {
   "version": 1,
   "points": {
+    "/images/culture/alessia-russo-tailoring/shirt-tie.webp": {
+      "x": 50.0,
+      "y": 43.0,
+      "scale": 1.0
+    },
+    "/images/culture/peggy-gou-football-shirt-style/04-blue-jersey.webp": {
+      "x": 51.0,
+      "y": 61.0,
+      "scale": 1.48
+    },
+    "/images/culture/tolami-benson-football-style/03-final-look.webp": {
+      "x": 47.0,
+      "y": 51.0,
+      "scale": 1.65
+    },
     "/images/about-asian-cup-trophy.webp": {
       "x": 73.1,
       "y": 20.0,

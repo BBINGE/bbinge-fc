@@ -5,7 +5,7 @@ category: 'culture'
 tags: ['톨라미 벤슨', '잉글랜드 유니폼', '아스널', '유로 2024', '축구 패션', '업사이클링', '블록코어']
 pubDate: 2026-08-26T12:45:11+09:00
 coverImage: '/images/culture/tolami-benson-football-style/cover.webp'
-cardImage: '/images/culture/tolami-benson-football-style/card.webp'
+cardImage: '/images/culture/tolami-benson-football-style/03-final-look.webp'
 coverImageAlt: '잉글랜드 유니폼을 재구성한 코르셋과 87번 바이커 재킷을 입은 톨라미 벤슨'
 coverImageCaption: '톨라미 벤슨은 잉글랜드 셔츠를 그대로 입는 대신 코르셋과 바이커 재킷, 개인적인 숫자 87로 다시 설계했다. Photo via @tolami_benson / Instagram.'
 coverImageWidth: 1200

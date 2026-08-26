@@ -5,7 +5,7 @@ category: 'culture'
 tags: ['알레시아 루소', '아스널 여자축구', '잉글랜드 여자축구', '축구선수 패션', '테일러링', 'Wonderland']
 pubDate: 2026-08-26T15:23:18+09:00
 coverImage: '/images/culture/alessia-russo-tailoring-cover.webp'
-cardImage: '/images/culture/alessia-russo-tailoring-card.webp'
+cardImage: '/images/culture/alessia-russo-tailoring/shirt-tie.webp'
 coverImageAlt: '흰 재킷과 검정 타이를 입고 정면을 바라보는 알레시아 루소'
 coverImageCaption: 'Wonderland는 알레시아 루소에게 축구공을 쥐여주는 대신 재킷과 타이, 데님과 부츠를 입혔다. 그래도 화면에서 가장 먼저 읽히는 것은 선수의 자세다. Photo © Aaron Crossman / Wonderland.'
 coverImageWidth: 1200

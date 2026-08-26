@@ -5,7 +5,7 @@ category: 'culture'
 tags: ['페기 구', 'Peggy Gou', '마틴 로즈', '유벤투스', 'Kappa', '축구 셔츠', '클럽 패션', '블록코어']
 pubDate: 2026-08-26T12:45:12+09:00
 coverImage: '/images/culture/peggy-gou-football-shirt-style/cover.webp'
-cardImage: '/images/culture/peggy-gou-football-shirt-style/card.webp'
+cardImage: '/images/culture/peggy-gou-football-shirt-style/04-blue-jersey.webp'
 coverImageAlt: '빨강과 흰색의 마틴 로즈 풋볼 셔츠에 검정 버킨백을 든 페기 구'
 coverImageCaption: '페기 구는 마틴 로즈의 풋볼 셔츠를 사이클링 쇼츠와 검정 버킨백 사이에 놓았다. Photo via @peggygou_ / Instagram.'
 coverImageWidth: 1200
