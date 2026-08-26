@@ -4,7 +4,7 @@ description: 'BLACKPINK 제니가 Pink Venom에서 입은 맨체스터 유나이
 category: 'culture'
 tags: ['제니', 'BLACKPINK', '맨체스터 유나이티드', '팀가이스트', 'Teamgeist', '블록코어', '축구 패션', 'Pink Venom']
 pubDate: 2026-08-26T02:41:00+09:00
-updatedDate: 2026-08-26T10:47:00+09:00
+updatedDate: 2026-08-26T11:00:00+09:00
 coverImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 cardImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 coverImageAlt: '검정과 빨강의 맨체스터 유나이티드 팀가이스트 저지에 진주 목걸이를 겹쳐 착용한 제니'
@@ -127,13 +127,23 @@ fashionProfile:
   </section>
 </div>
 
-[오하영은 흰색 맨체스터 유나이티드 홈 저지를 청바지와 함께 입어](/culture/oh-hayoung-manchester-united-blockcore/) 구단 셔츠의 고전적인 인상을 살렸다. 제니는 검정 프리매치 저지를 잘라 진주와 가죽에 붙였다. 같은 구단의 셔츠도 하나는 낮의 거리로, 다른 하나는 조명과 크리스털이 있는 무대로 이동한다. 블록코어의 가치는 특정 조합을 복제하는 데 있지 않고, 유니폼이 놓일 장면을 새로 정하는 데 있다.
-
-## 제목의 ‘맨유’, 본문의 ‘맨체스터 유나이티드’
-
-이 글의 제목에는 한국어 검색에서 널리 쓰이는 **맨유**를 남겼다. 그러나 본문에서는 첫 언급을 **맨체스터 유나이티드<span class="foreign-note" lang="en">(Manchester United FC)</span>**로 쓰고, 이후에는 ‘유나이티드’ 또는 정식 명칭을 사용했다. 영어권에서 `Man U`는 뮌헨 비행기 참사 이후 모욕적인 구호에 끌어다 쓰인 역사 때문에 불편하게 받아들이는 팬들이 있다. 한국어 ‘맨유’가 그 조롱을 뜻한다고 단정할 수는 없지만, 검색어와 구단을 부르는 문장은 분리하는 편이 정확하다.
+오하영은 흰색 맨체스터 유나이티드 홈 저지를 청바지와 함께 입어 구단 셔츠의 고전적인 인상을 살렸다. 제니는 검정 프리매치 저지를 잘라 진주와 가죽에 붙였다. 같은 구단의 셔츠도 하나는 낮의 거리로, 다른 하나는 조명과 크리스털이 있는 무대로 이동한다. 블록코어의 가치는 특정 조합을 복제하는 데 있지 않고, 유니폼이 놓일 장면을 새로 정하는 데 있다.
 
 〈<span lang="en">Pink Venom</span>〉의 팀가이스트 저지는 복각, 프리매치웨어, 커스텀 무대 의상이라는 세 단계를 거쳤다. 그 과정에서 2006년의 곡선은 보존됐지만 옷의 쓰임은 계속 달라졌다. 제니의 착장이 오래 남는 이유는 축구의 흔적을 지우지 않은 채, 그 위에 다른 재료와 다른 장면을 설득력 있게 겹쳤기 때문이다.
+
+<aside class="fashion-related-cta" aria-labelledby="more-united-looks">
+  <a href="/culture/oh-hayoung-manchester-united-blockcore/">
+    <span class="fashion-related-cta__image">
+      <img src="/images/culture/oh-hayoung-manchester-united-blockcore/02.webp" alt="흰색 맨체스터 유나이티드 레트로 유니폼과 스팽글 스커트를 함께 입은 오하영" width="773" height="966" loading="lazy" decoding="async" />
+    </span>
+    <span class="fashion-related-cta__body">
+      <span class="fashion-related-cta__eyebrow">MORE LOOKS · MANCHESTER UNITED</span>
+      <span class="fashion-related-cta__title" id="more-united-looks">맨유 유니폼,<br />다른 코디도 보러가기</span>
+      <span class="fashion-related-cta__copy">흰 레트로 셔츠를 스팽글 스커트, 청바지, 셸 파카로 바꿔 입은 오하영의 세 가지 스타일.</span>
+      <span class="fashion-related-cta__action">오하영의 룩 더보기 <span aria-hidden="true">→</span></span>
+    </span>
+  </a>
+</aside>
 
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
@@ -145,7 +155,6 @@ fashionProfile:
     <li><a href="https://doublekick.shop/blogs/off-pitch-icons/jennie-man-utd-teamgeist-pre-match-jersey">Double Kick, “JENNIE - Man Utd Teamgeist Pre-Match Jersey”</a>. 착장 화면과 제품 앞·뒷면 참고. 제품 사진은 원본을 바탕으로 배경만 밝게 편집했다.</li>
     <li><a href="https://www.ygfamily.com/en/artists/blackpink/profile">YG Entertainment, BLACKPINK profile</a>. 인물 정보 확인.</li>
     <li><a href="https://shop.jenn.ie/collections/jennie-ruby">JENNIE Official Shop, 《Ruby》</a>. 2025년 정규 앨범 정보.</li>
-    <li><a href="https://www.united.no/jan-erik-hopland-leserbrev/den-unevnelige-forkortelsen/709204">United.no, “Den unevnelige forkortelsen”</a>. `Man U` 표기의 역사적 맥락과 팬 증언 참고.</li>
   </ol>
 </div>
 
@@ -165,6 +174,23 @@ fashionProfile:
   .fashion-style-notes strong { display:block; max-width:210px; color:#fff; font-size:13px; line-height:1.55; letter-spacing:.045em; }
   .fashion-style-notes strong::before { content:''; display:block; width:28px; height:2px; margin-bottom:17px; background:var(--bbfc-blue); }
   .fashion-style-notes p { max-width:230px; margin:17px 0 0; color:#d7dce4; font-size:13.5px; line-height:1.85; }
+  .fashion-related-cta { margin:58px 0 54px; overflow:hidden; border:1px solid #222a35; border-radius:var(--bbfc-radius-lg); background:#080a0d; box-shadow:0 24px 48px -38px rgba(0,0,0,.95); }
+  .fashion-related-cta a { display:grid; grid-template-columns:minmax(260px,.86fr) minmax(0,1.14fr); min-height:370px; color:inherit; text-decoration:none; }
+  .fashion-related-cta__image { position:relative; display:block; min-height:100%; overflow:hidden; }
+  .fashion-related-cta__image::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,transparent 64%,rgba(8,10,13,.68) 100%); pointer-events:none; }
+  .fashion-related-cta__image img { display:block; width:100%; height:100%; margin:0; border:0; border-radius:0; object-fit:cover; object-position:center 37%; transition:transform .45s ease; }
+  .fashion-related-cta__body { display:flex; flex-direction:column; justify-content:center; align-items:flex-start; padding:42px 42px 40px; }
+  .fashion-related-cta__eyebrow { color:#8cbcff; font-size:10px; line-height:1.4; font-weight:780; letter-spacing:.15em; }
+  .fashion-related-cta__title { display:block; margin-top:15px; color:#fff; font-size:32px; line-height:1.16; font-weight:790; letter-spacing:-.045em; }
+  .fashion-related-cta__copy { max-width:410px; margin-top:20px; color:#cfd5df; font-size:13.5px; line-height:1.82; }
+  .fashion-related-cta__action { display:inline-flex; align-items:center; gap:10px; margin-top:30px; padding-bottom:7px; border-bottom:1px solid rgba(140,188,255,.68); color:#fff; font-size:12px; line-height:1.4; font-weight:760; letter-spacing:.04em; }
+  .fashion-related-cta__action span { color:#8cbcff; font-size:17px; transition:translate .25s ease; }
+  .fashion-related-cta a:hover .fashion-related-cta__image img { transform:scale(1.025); }
+  .fashion-related-cta a:hover .fashion-related-cta__action span { translate:4px 0; }
+  .fashion-related-cta a:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:-3px; }
+  @media (prefers-reduced-motion:reduce) {
+    .fashion-related-cta__image img, .fashion-related-cta__action span { transition:none; }
+  }
   @media (max-width:640px) {
     .fashion-wide-figure { margin:36px 0 42px; }
     .fashion-kit-grid, .fashion-look-pair { gap:8px; margin:36px 0 44px; }
@@ -173,5 +199,14 @@ fashionProfile:
     .fashion-style-notes section { min-height:0; padding:24px 21px 27px; }
     .fashion-style-notes section::before { width:150px; height:150px; right:10px; }
     .fashion-style-notes strong, .fashion-style-notes p { max-width:260px; }
+    .fashion-related-cta { margin:46px 0 42px; }
+    .fashion-related-cta a { grid-template-columns:1fr; min-height:0; }
+    .fashion-related-cta__image { aspect-ratio:4/3; min-height:0; }
+    .fashion-related-cta__image::after { background:linear-gradient(0deg,rgba(8,10,13,.55) 0%,transparent 34%); }
+    .fashion-related-cta__image img { object-position:center 34%; }
+    .fashion-related-cta__body { padding:28px 23px 30px; }
+    .fashion-related-cta__title { font-size:27px; }
+    .fashion-related-cta__copy { margin-top:16px; font-size:13px; }
+    .fashion-related-cta__action { margin-top:24px; }
   }
 </style>
