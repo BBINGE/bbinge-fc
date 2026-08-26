@@ -7,7 +7,7 @@ pubDate: 2026-08-26T12:45:13+09:00
 coverImage: '/images/culture/malu-borges-football-shirt-style/cover.webp'
 cardImage: '/images/culture/malu-borges-football-shirt-style/card.webp'
 coverImageAlt: '바스쿠 다 가마 유니폼에 빨간 롱스커트와 검정 액세서리를 조합한 말루 보르지스'
-coverImageCaption: '말루 보르지스는 바스쿠의 흰 셔츠와 붉은 띠를 긴 빨간 스커트로 연장했다.'
+coverImageCaption: '말루 보르지스는 바스쿠의 흰 셔츠와 붉은 띠를 긴 빨간 스커트로 연장했다. Photo via @maluborgesm / Instagram.'
 coverImageWidth: 1200
 coverImageHeight: 675
 draft: false
@@ -18,7 +18,7 @@ fashionProfile:
   romanName: 'Malu Borges'
   portrait: '/images/culture/malu-borges-football-shirt-style/profile-elle.webp'
   portraitAlt: '빨간 드레스와 검정 부츠를 입은 말루 보르지스의 패션 화보'
-  portraitCredit: 'ELLE Brasil · Photo Gui Paganini · Styling Marcell Maia'
+  portraitCredit: 'ELLE Brasil · Photo © Gui Paganini · Styling Marcell Maia'
   birthDate: '1997-06-06'
   birthPlace: '브라질 페트로폴리스'
   nationalities:
@@ -49,11 +49,11 @@ fashionProfile:
 <div class="malu-opening-grid">
   <figure>
     <img src="/images/culture/malu-borges-football-shirt-style/01-pearls.webp" alt="바스쿠 다 가마 셔츠에 여러 겹의 큰 진주 목걸이를 착용한 말루 보르지스" width="924" height="1152" loading="eager" decoding="async" />
-    <figcaption>바스쿠의 사선 띠 위로 크기가 다른 진주 목걸이를 여러 겹 쌓았다.</figcaption>
+    <figcaption>바스쿠의 사선 띠 위로 크기가 다른 진주 목걸이를 여러 겹 쌓았다.<small class="culture-image-credit">Source: Vogue Brasil · Photo via @maluborgesm</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/malu-borges-football-shirt-style/02-red-skirt.webp" alt="바스쿠 다 가마 셔츠와 빨간 롱스커트, 검정 가방을 착용한 말루 보르지스" width="785" height="1200" loading="lazy" decoding="async" />
-    <figcaption>셔츠의 붉은 사선을 롱스커트로 길게 이어 만든 흰색·빨강·검정 룩.</figcaption>
+    <figcaption>셔츠의 붉은 사선을 롱스커트로 길게 이어 만든 흰색·빨강·검정 룩.<small class="culture-image-credit">Source: NETVASCO · Photo via @maluborgesm</small></figcaption>
   </figure>
 </div>
 
@@ -65,7 +65,7 @@ fashionProfile:
 
 <figure class="malu-wide-figure">
   <img src="/images/culture/malu-borges-football-shirt-style/06-vasco.webp" alt="침실에서 바스쿠 다 가마 셔츠와 흰 하의, 진주 목걸이를 착용한 말루 보르지스" width="888" height="1107" loading="lazy" decoding="async" />
-  <figcaption>진주의 원형과 셔츠의 사선이 한 상체 안에서 맞부딪친다. 사진 Malu Borges Instagram.</figcaption>
+  <figcaption>진주의 원형과 셔츠의 사선이 한 상체 안에서 맞부딪친다.<small class="culture-image-credit">Photo via @maluborgesm / Instagram</small></figcaption>
 </figure>
 
 ## 빨간 스커트는 사선 띠의 다음 장면이다
@@ -76,7 +76,7 @@ fashionProfile:
 
 <figure class="malu-wide-figure malu-wide-figure--red">
   <img src="/images/culture/malu-borges-football-shirt-style/02-red-skirt.webp" alt="빨간 롱스커트와 검정 털 장식, 바스쿠 셔츠를 조합한 말루 보르지스의 전신" width="785" height="1200" loading="lazy" decoding="async" />
-  <figcaption>흰 셔츠의 빨간 띠를 스커트로 확장하고, 검정 액세서리로 문장의 윤곽을 반복했다.</figcaption>
+  <figcaption>흰 셔츠의 빨간 띠를 스커트로 확장하고, 검정 액세서리로 문장의 윤곽을 반복했다.<small class="culture-image-credit">Source: NETVASCO · Photo via @maluborgesm</small></figcaption>
 </figure>
 
 ## 상자누아리우에서는 흰 바지와 힐을 골랐다
@@ -87,7 +87,7 @@ fashionProfile:
 
 <figure class="malu-wide-figure malu-wide-figure--stadium">
   <img src="/images/culture/malu-borges-football-shirt-style/05-elle.webp" alt="상자누아리우 관중석에서 검정 바스쿠 셔츠와 흰 와이드 팬츠를 입은 말루 보르지스" width="768" height="957" loading="lazy" decoding="async" />
-  <figcaption>상자누아리우에서 검정 셔츠, 흰 와이드 팬츠, 헤드밴드와 퀼팅백을 연결한 룩.</figcaption>
+  <figcaption>상자누아리우에서 검정 셔츠, 흰 와이드 팬츠, 헤드밴드와 퀼팅백을 연결한 룩.<small class="culture-image-credit">Source: MeuVasco · Photo via @maluborgesm</small></figcaption>
 </figure>
 
 ## 영상에서는 옷이 완성되는 순서까지 보인다
@@ -97,11 +97,11 @@ fashionProfile:
 <div class="instagram-look-grid">
   <figure>
     <iframe src="https://www.instagram.com/reel/C2uklCurOBw/embed/captioned/" title="말루 보르지스가 바스쿠 레트로 셔츠를 스타일링하는 Instagram 영상" loading="lazy" allowtransparency="true"></iframe>
-    <figcaption>1997년 브라질 챔피언 바스쿠와 에드문두를 기념한 레트로 셔츠 스타일링.</figcaption>
+    <figcaption>1997년 브라질 챔피언 바스쿠와 에드문두를 기념한 레트로 셔츠 스타일링.<small class="culture-image-credit">Embedded from @maluborgesm / Instagram</small></figcaption>
   </figure>
   <figure>
     <iframe src="https://www.instagram.com/reel/C2Iw7DpPCvI/embed/captioned/" title="말루 보르지스가 바스쿠 윈드브레이커를 스타일링하는 Instagram 영상" loading="lazy" allowtransparency="true"></iframe>
-    <figcaption>셔츠뿐 아니라 윈드브레이커까지 일상복의 레이어로 가져오는 방식.</figcaption>
+    <figcaption>셔츠뿐 아니라 윈드브레이커까지 일상복의 레이어로 가져오는 방식.<small class="culture-image-credit">Embedded from @maluborgesm / Instagram</small></figcaption>
   </figure>
 </div>
 
@@ -144,6 +144,7 @@ fashionProfile:
   .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards strong::before { content:''; display:block; width:26px; height:2px; margin-bottom:16px; background:#d71e34; }
   .fashion-rule-cards p { margin:15px 0 0; color:#ddd7d7; font-size:13px; line-height:1.82; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .malu-opening-grid, .instagram-look-grid { gap:8px; margin:36px 0 44px; }
     .malu-opening-grid figcaption, .instagram-look-grid figcaption { font-size:11px; }

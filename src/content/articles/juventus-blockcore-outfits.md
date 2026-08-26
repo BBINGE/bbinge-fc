@@ -7,7 +7,7 @@ pubDate: 2026-08-14T19:31:00+09:00
 updatedDate: 2026-08-26T15:30:00+09:00
 coverImage: '/images/culture/juventus-blockcore-outfits.png'
 coverImageAlt: '유벤투스 유니폼을 입은 모델과 축구는 패션이다, 블록코어룩 모음이라는 문구를 배치한 표지'
-coverImageCaption: '흰색과 검은색이라는 가장 단순한 조합이 유벤투스 유니폼에서는 가장 분명한 패션 언어가 된다.'
+coverImageCaption: '흰색과 검은색이라는 가장 단순한 조합이 유벤투스 유니폼에서는 가장 분명한 패션 언어가 된다. Editorial cover: BBinge FC.'
 coverImageWidth: 773
 coverImageHeight: 773
 draft: false
@@ -37,7 +37,7 @@ featured: false
   <img src="/images/culture/juventus-blockcore-outfits/05.webp" alt="2024 유벤투스 원정 유니폼 디자인 1" width="773" height="435" loading="lazy" decoding="async" />
   <img src="/images/culture/juventus-blockcore-outfits/06.webp" alt="2024 유벤투스 원정 유니폼 디자인 2" width="750" height="500" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">전통적인 흑백 줄무늬를 얼룩말의 붓질 무늬로 다시 만든 2023-24 시즌 유벤투스 홈·원정 유니폼. 사진: Juventus FC·adidas 공식 공개 자료.</p>
+<p class="culture-photo-caption">전통적인 흑백 줄무늬를 얼룩말의 붓질 무늬로 다시 만든 2023-24 시즌 유벤투스 홈·원정 유니폼.<span class="culture-image-credit">Images 02–06: Juventus FC · adidas official kit releases</span></p>
 
 ## 홈 유니폼: 줄무늬를 중심에 두기
 
@@ -59,7 +59,7 @@ featured: false
   <img src="/images/culture/juventus-blockcore-outfits/09.webp" alt="유벤투스 유니폼을 활용한 블록코어룩 3" width="773" height="447" loading="lazy" decoding="async" />
   <img src="/images/culture/juventus-blockcore-outfits/10.webp" alt="유벤투스 유니폼을 활용한 블록코어룩 4" width="773" height="412" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">흑백 줄무늬를 중심에 두고 나머지 아이템을 단순하게 맞춘 블록코어룩. 사진: Juventus FC × 032c 공식 협업 화보 및 로스앤젤레스 공개 행사.</p>
+<p class="culture-photo-caption">흑백 줄무늬를 중심에 두고 나머지 아이템을 단순하게 맞춘 블록코어룩.<span class="culture-image-credit">Images 07–10: Juventus FC × 032c official editorial and Los Angeles event gallery</span></p>
 
 ## 원정 유니폼: 색 하나를 반복하기
 
@@ -91,7 +91,7 @@ featured: false
   <img src="/images/culture/juventus-blockcore-outfits/19.webp" alt="유벤투스 유니폼과 일상복을 조합한 패션 9" width="773" height="447" loading="lazy" decoding="async" />
   <img src="/images/culture/juventus-blockcore-outfits/20.webp" alt="유벤투스 유니폼과 일상복을 조합한 패션 10" width="773" height="541" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">모노톤을 벗어나 데님과 컬러 아이템까지 확장한 유벤투스 패션 모음. Juventus Icon Collection과 셀럽·스트리트 스타일을 함께 모았다.</p>
+<p class="culture-photo-caption">모노톤을 벗어나 데님과 컬러 아이템까지 확장한 유벤투스 패션 모음. Juventus Icon Collection과 셀럽·스트리트 스타일을 함께 모았다.<span class="culture-image-credit">Source publications: Juventus Icon Collection · SoccerBible · MujerHoy · nss sports · 링크는 아래 출처 목록 참조</span></p>
 
 ## 유니폼을 입는 순간 함께 걸치는 것
 
@@ -116,5 +116,6 @@ featured: false
   .culture-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin: 1.35rem 0 .55rem; align-items: start; }
   .culture-photo-grid img { display: block; width: 100%; height: auto; margin: 0; border-radius: 14px; }
   .culture-photo-caption { margin: 0 0 1.75rem; color: #7b8797; font-size: .88rem; line-height: 1.6; }
+  .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .68rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
   @media (max-width: 560px) { .culture-photo-grid { gap: .45rem; } .culture-photo-grid img { border-radius: 9px; } }
 </style>

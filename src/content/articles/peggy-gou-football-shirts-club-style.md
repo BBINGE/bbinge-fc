@@ -7,7 +7,7 @@ pubDate: 2026-08-26T12:45:12+09:00
 coverImage: '/images/culture/peggy-gou-football-shirt-style/cover.webp'
 cardImage: '/images/culture/peggy-gou-football-shirt-style/card.webp'
 coverImageAlt: '빨강과 흰색의 마틴 로즈 풋볼 셔츠에 검정 버킨백을 든 페기 구'
-coverImageCaption: '페기 구는 마틴 로즈의 풋볼 셔츠를 사이클링 쇼츠와 검정 버킨백 사이에 놓았다.'
+coverImageCaption: '페기 구는 마틴 로즈의 풋볼 셔츠를 사이클링 쇼츠와 검정 버킨백 사이에 놓았다. Photo via @peggygou_ / Instagram.'
 coverImageWidth: 1200
 coverImageHeight: 675
 draft: false
@@ -18,7 +18,7 @@ fashionProfile:
   romanName: 'Peggy Gou'
   portrait: '/images/culture/peggy-gou-football-shirt-style/profile-vogue-hk.webp'
   portraitAlt: '흰 터틀넥을 입고 카메라를 바라보는 페기 구의 흑백 포트레이트'
-  portraitCredit: 'Vogue Hong Kong · Photo Maik Schuster, 2021'
+  portraitCredit: 'Vogue Hong Kong · Photo © Maik Schuster, 2021'
   birthDate: '1991-07-03'
   birthPlace: '대한민국 인천'
   nationalities:
@@ -48,7 +48,7 @@ fashionProfile:
 
 <figure class="fashion-hero-figure">
   <img src="/images/culture/peggy-gou-football-shirt-style/02-martine-rose-look.webp" alt="마틴 로즈 풋볼 셔츠와 검정 사이클링 쇼츠, 버킨백을 착용한 페기 구" width="1200" height="1500" loading="eager" decoding="async" />
-  <figcaption>마틴 로즈 2024 봄·여름 풋볼 셔츠, 프라다 선글라스, 검정 버킨백. 사진 Peggy Gou Instagram.</figcaption>
+  <figcaption>마틴 로즈 2024 봄·여름 풋볼 셔츠, 프라다 선글라스, 검정 버킨백.<small class="culture-image-credit">Photo via @peggygou_ / Instagram</small></figcaption>
 </figure>
 
 ## 경기복의 그래픽, 도시복의 비율
@@ -60,11 +60,11 @@ fashionProfile:
 <div class="fashion-object-pair">
   <figure>
     <img src="/images/culture/peggy-gou-football-shirt-style/05-martine-rose-shirt.webp" alt="빨간 가로선과 레터링이 들어간 흰색 마틴 로즈 풋볼 셔츠 제품 앞면" width="1200" height="1200" loading="lazy" decoding="async" />
-    <figcaption>경기 셔츠의 패치와 스폰서 문법을 패션 레터링으로 바꾼 마틴 로즈 디자인.</figcaption>
+    <figcaption>경기 셔츠의 패치와 스폰서 문법을 패션 레터링으로 바꾼 마틴 로즈 디자인.<small class="culture-image-credit">Product image: Martine Rose · Source: What's On The Star</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/peggy-gou-football-shirt-style/02-martine-rose-look.webp" alt="마틴 로즈 풋볼 셔츠를 길게 내려 입고 검정 가방을 든 페기 구" width="1200" height="1500" loading="lazy" decoding="async" />
-    <figcaption>긴 셔츠와 짧은 하의, 각진 가방이 만드는 세 단계의 비율.</figcaption>
+    <figcaption>긴 셔츠와 짧은 하의, 각진 가방이 만드는 세 단계의 비율.<small class="culture-image-credit">Photo via @peggygou_ / Instagram</small></figcaption>
   </figure>
 </div>
 
@@ -76,7 +76,7 @@ fashionProfile:
 
 <figure class="fashion-juve-figure">
   <img src="/images/culture/peggy-gou-football-shirt-style/03-juventus.webp" alt="뒷면에 P. GOU와 숫자 3이 마킹된 흰색 유벤투스 셔츠를 입은 페기 구" width="750" height="746" loading="lazy" decoding="async" />
-  <figcaption>`P. GOU 3` 마킹이 들어간 유벤투스 셔츠. 사진 Peggy Gou Instagram.</figcaption>
+  <figcaption>`P. GOU 3` 마킹이 들어간 유벤투스 셔츠.<small class="culture-image-credit">Photo via @peggygou_ / Instagram · Source: nss sports</small></figcaption>
 </figure>
 
 ## 파란 저지에는 테일러드 팬츠를 둔다
@@ -87,7 +87,7 @@ fashionProfile:
 
 <figure class="fashion-hero-figure fashion-hero-figure--blue">
   <img src="/images/culture/peggy-gou-football-shirt-style/04-blue-jersey.webp" alt="파란 풋볼 티셔츠와 검정 테일러드 팬츠, 샤넬백을 착용한 페기 구" width="1080" height="1350" loading="lazy" decoding="async" />
-  <figcaption>파란 오버사이즈 저지에 검정 테일러드 팬츠와 작은 샤넬백을 붙인 도시의 비율.</figcaption>
+  <figcaption>파란 오버사이즈 저지에 검정 테일러드 팬츠와 작은 샤넬백을 붙인 도시의 비율.<small class="culture-image-credit">Source: Grazia Malaysia</small></figcaption>
 </figure>
 
 ## 분홍색 Kappa, 클럽 조명 밖의 스포츠웨어
@@ -98,7 +98,7 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
 
 <figure class="fashion-hero-figure fashion-hero-figure--portrait">
   <img src="/images/culture/peggy-gou-football-shirt-style/01-kappa.webp" alt="분홍색 Kappa 풋볼 저지와 은색 팔찌를 착용한 페기 구" width="1000" height="1250" loading="lazy" decoding="async" />
-  <figcaption>분홍색 Kappa 저지와 은색 액세서리만 남긴 포트레이트. 사진 Untitled Group.</figcaption>
+  <figcaption>분홍색 Kappa 저지와 은색 액세서리만 남긴 포트레이트.<small class="culture-image-credit">Campaign image: Untitled Group · Source: The Partae</small></figcaption>
 </figure>
 
 ## 페기 구처럼 입으려면 로고보다 물성을 본다
@@ -138,6 +138,7 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
   .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards strong::before { content:''; display:block; width:26px; height:2px; margin-bottom:16px; background:#ef7f9f; }
   .fashion-rule-cards p { margin:15px 0 0; color:#e0d7dc; font-size:13px; line-height:1.82; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .fashion-object-pair { gap:8px; margin:36px 0 44px; }
     .fashion-object-pair figcaption { font-size:11px; }

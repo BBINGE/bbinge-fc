@@ -7,7 +7,7 @@ pubDate: 2026-08-14T19:32:00+09:00
 updatedDate: 2026-08-26T15:30:00+09:00
 coverImage: '/images/culture/oh-hayoung-manchester-united-blockcore.png'
 coverImageAlt: '맨체스터 유나이티드 레트로 유니폼을 입은 오하영과 맨유 패션이라는 문구를 배치한 표지'
-coverImageCaption: '언제나 맨유에는 진심인 에이핑크 오하영. 축구 유니폼을 일상의 옷으로 옮기는 세 가지 방법을 보여준다.'
+coverImageCaption: '언제나 맨유에는 진심인 에이핑크 오하영. 축구 유니폼을 일상의 옷으로 옮기는 세 가지 방법을 보여준다. Photo via @_ohhayoung_ / Instagram.'
 coverImageWidth: 773
 coverImageHeight: 773
 draft: false
@@ -42,7 +42,7 @@ featured: false
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/06.webp" alt="맨체스터 유나이티드 베컴 레트로 유니폼을 활용한 오하영의 봄 코디 5" width="773" height="966" loading="lazy" decoding="async" />
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/07.webp" alt="셸 파카를 겹쳐 입은 오하영의 맨체스터 유나이티드 유니폼 코디" width="773" height="966" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">베컴 레트로 유니폼을 중심으로 가벼운 봄옷과 셸 파카를 조합한 모습. 사진: 오하영 공식 Instagram @_ohhayoung_.</p>
+<p class="culture-photo-caption">베컴 레트로 유니폼을 중심으로 가벼운 봄옷과 셸 파카를 조합한 모습.<span class="culture-image-credit">Images 02–07: Photo via @_ohhayoung_ / Instagram</span></p>
 
 ## 2. 청바지와 함께 입는 놈코어룩
 
@@ -60,7 +60,7 @@ featured: false
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/10.webp" alt="맨체스터 유나이티드 유니폼과 청바지를 조합한 오하영의 코디 3" width="773" height="966" loading="lazy" decoding="async" />
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/11.webp" alt="맨체스터 유나이티드 유니폼과 청바지를 조합한 오하영의 코디 4" width="773" height="966" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">유니폼의 그래픽을 살리고 청바지와 신발은 단순하게 정리한 블록코어룩. 사진: 오하영 공식 Instagram @_ohhayoung_.</p>
+<p class="culture-photo-caption">유니폼의 그래픽을 살리고 청바지와 신발은 단순하게 정리한 블록코어룩.<span class="culture-image-credit">Images 08–11: Photo via @_ohhayoung_ / Instagram</span></p>
 
 ## 3. 셸 파카와 맨유의 검정·빨강
 
@@ -81,7 +81,7 @@ featured: false
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/15.webp" alt="검정과 빨강 셸 파카를 활용한 오하영의 맨체스터 유나이티드 코디 4" width="773" height="966" loading="lazy" decoding="async" />
   <img src="/images/culture/oh-hayoung-manchester-united-blockcore/16.webp" alt="검정과 빨강 셸 파카를 활용한 오하영의 맨체스터 유나이티드 코디 5" width="773" height="966" loading="lazy" decoding="async" />
 </div>
-<p class="culture-photo-caption">맨유의 검정과 빨강을 바람막이와 유니폼에 나눠 담은 레이어드. 사진: 오하영 공식 Instagram @_ohhayoung_.</p>
+<p class="culture-photo-caption">맨유의 검정과 빨강을 바람막이와 유니폼에 나눠 담은 레이어드.<span class="culture-image-credit">Images 12–16: Photo via @_ohhayoung_ / Instagram</span></p>
 
 ## 오래된 유니폼이 새 옷보다 재미있는 이유
 
@@ -103,5 +103,6 @@ featured: false
   .culture-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin: 1.35rem 0 .55rem; }
   .culture-photo-grid img { display: block; width: 100%; height: auto; margin: 0; border-radius: 14px; }
   .culture-photo-caption { margin: 0 0 1.75rem; color: #7b8797; font-size: .88rem; line-height: 1.6; }
+  .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .68rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
   @media (max-width: 560px) { .culture-photo-grid { gap: .45rem; } .culture-photo-grid img { border-radius: 9px; } }
 </style>

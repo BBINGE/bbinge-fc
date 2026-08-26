@@ -8,7 +8,7 @@ updatedDate: 2026-08-26T11:00:00+09:00
 coverImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 cardImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 coverImageAlt: '검정과 빨강의 맨체스터 유나이티드 팀가이스트 저지에 진주 목걸이를 겹쳐 착용한 제니'
-coverImageCaption: '제니가 고른 것은 홈 유니폼이 아니라 2006년의 디자인을 되살린 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지였다.'
+coverImageCaption: '제니가 고른 것은 홈 유니폼이 아니라 2006년의 디자인을 되살린 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지였다. Still: BLACKPINK 〈Pink Venom〉 / YG Entertainment.'
 coverImageWidth: 1200
 coverImageHeight: 1200
 draft: false
@@ -19,7 +19,7 @@ fashionProfile:
   romanName: 'JENNIE'
   portrait: '/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-portrait.webp'
   portraitAlt: '데님 코르셋과 빨간 리본 헤어를 연출한 제니의 Pink Venom 의상 화보'
-  portraitCredit: 'JENNIE Weverse, 2022 · Pink Venom outfit photo'
+  portraitCredit: 'Image via JENNIE Weverse, 2022 · Pink Venom outfit photo'
   birthDate: '1996-01-16'
   birthPlace: '대한민국 서울'
   nationalities:
@@ -51,7 +51,7 @@ fashionProfile:
 
 <figure class="fashion-wide-figure">
   <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-pink-venom-front-back.webp" alt="Pink Venom 뮤직비디오에서 맨체스터 유나이티드 팀가이스트 저지의 앞면과 JENNIE 96 마킹 뒷면을 보여주는 제니" width="1800" height="800" loading="eager" decoding="async" />
-  <figcaption>앞에서는 구단 문장과 진주가 겹치고, 뒤에서는 `JENNIE 96` 마킹이 화면을 채운다. 화면 캡처 구성 Double Kick.</figcaption>
+  <figcaption>앞에서는 구단 문장과 진주가 겹치고, 뒤에서는 `JENNIE 96` 마킹이 화면을 채운다.<small class="culture-image-credit">Editorial composition: Double Kick · Source stills: YG Entertainment</small></figcaption>
 </figure>
 
 ## 2006년의 곡선이 2021년에 돌아온 이유
@@ -62,7 +62,7 @@ fashionProfile:
 
 <figure class="fashion-wide-figure">
   <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-group-adidas.jpg" alt="2021년 아디다스 팀가이스트 컬렉션을 입은 아홉 구단의 모델들" width="1920" height="1080" loading="lazy" decoding="async" />
-  <figcaption>아홉 구단의 색으로 복각된 2021 팀가이스트 컬렉션. 사진 Adidas.</figcaption>
+  <figcaption>아홉 구단의 색으로 복각된 2021 팀가이스트 컬렉션.<small class="culture-image-credit">Image: adidas official campaign</small></figcaption>
 </figure>
 
 이 셔츠가 이미 경기장 밖을 바라보고 있었다는 사실은 중요하다. 2006년의 도안을 그대로 보존한 복제품이 아니라, 2021년의 프리매치웨어와 패션 화보를 위해 다시 만든 옷이기 때문이다. 〈<span lang="en">Pink Venom</span>〉은 그 이동을 한 단계 더 밀었다. 유나이티드의 검정·빨강·흰색은 남았지만, 셔츠의 용도와 실루엣은 달라졌다.
@@ -74,11 +74,11 @@ fashionProfile:
 <div class="fashion-kit-grid">
   <figure>
     <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-front-studio.webp" alt="밝은 스튜디오 배경에 놓인 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지 앞면" width="1254" height="1254" loading="lazy" decoding="async" />
-    <figcaption>구단 문장, 빨간 삼선과 흰 곡선이 분명히 드러나는 앞면.</figcaption>
+    <figcaption>구단 문장, 빨간 삼선과 흰 곡선이 분명히 드러나는 앞면.<small class="culture-image-credit">Product image: Double Kick · Background edited</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-back-studio.webp" alt="밝은 스튜디오 배경에 놓인 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지 뒷면" width="1254" height="1254" loading="lazy" decoding="async" />
-    <figcaption>어깨의 삼선과 옆선을 감싸는 빨간 패널이 이어지는 뒷면.</figcaption>
+    <figcaption>어깨의 삼선과 옆선을 감싸는 빨간 패널이 이어지는 뒷면.<small class="culture-image-credit">Product image: Double Kick · Background edited</small></figcaption>
   </figure>
 </div>
 
@@ -90,7 +90,7 @@ fashionProfile:
 
 <figure class="fashion-wide-figure fashion-wide-figure--editorial">
   <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-pink-venom-wide.webp" alt="맨체스터 유나이티드 팀가이스트 저지와 진주 목걸이, 검정 가죽 의상을 착용한 제니" width="1800" height="800" loading="lazy" decoding="async" />
-  <figcaption>둥근 구단 문장과 진주, 크리스털이 상체에 모이고 검정 가죽이 셔츠의 아래를 받친다. 이미지 Double Kick.</figcaption>
+  <figcaption>둥근 구단 문장과 진주, 크리스털이 상체에 모이고 검정 가죽이 셔츠의 아래를 받친다.<small class="culture-image-credit">Editorial composition: Double Kick · Source still: YG Entertainment</small></figcaption>
 </figure>
 
 ## 같은 뮤직비디오 안에서 반복된 재료
@@ -100,11 +100,11 @@ fashionProfile:
 <div class="fashion-look-pair">
   <figure>
     <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-white-look.webp" alt="흰색 스트랩 톱과 금속 체인 벨트를 착용한 제니의 Pink Venom 의상 화보" width="670" height="894" loading="lazy" decoding="async" />
-    <figcaption>흰색 스트랩과 금속 체인으로 선을 만든 착장.</figcaption>
+    <figcaption>흰색 스트랩과 금속 체인으로 선을 만든 착장.<small class="culture-image-credit">Image via JENNIE Weverse</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-denim-look.webp" alt="데님 코르셋과 빨간 리본 헤어를 연출한 제니의 Pink Venom 의상 화보" width="670" height="894" loading="lazy" decoding="async" />
-    <figcaption>데님의 거친 표면 위에 빨간 리본을 반복한 착장.</figcaption>
+    <figcaption>데님의 거친 표면 위에 빨간 리본을 반복한 착장.<small class="culture-image-credit">Image via JENNIE Weverse</small></figcaption>
   </figure>
 </div>
 
@@ -159,6 +159,7 @@ fashionProfile:
 </div>
 
 <style>
+  .culture-image-credit { display:block; margin-top:7px; color:#8a94a3; font-size:9px; font-weight:500; letter-spacing:.025em; line-height:1.45; }
   .fashion-wide-figure { margin:46px 0 54px; }
   .fashion-wide-figure img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .fashion-wide-figure--editorial img { border-color:#352b3c; }

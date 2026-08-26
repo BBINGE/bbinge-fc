@@ -7,7 +7,7 @@ pubDate: 2026-08-25T22:13:23+09:00
 coverImage: '/images/culture/dua-lipa-napoli-shirt-cover.webp'
 cardImage: '/images/culture/dua-lipa-napoli-shirt-card.webp'
 coverImageAlt: '이탈리아 해안의 테라스에서 SSC 나폴리 유니폼을 입고 웃는 두아 리파'
-coverImageCaption: '두아 리파가 고른 것은 최신 셔츠가 아니라 나폴리의 세 번째 스쿠데토가 붙은 2023-24 시즌 홈 유니폼이었다.'
+coverImageCaption: '두아 리파가 고른 것은 최신 셔츠가 아니라 나폴리의 세 번째 스쿠데토가 붙은 2023-24 시즌 홈 유니폼이었다. Photo via @dualipa / Instagram.'
 coverImageWidth: 1200
 coverImageHeight: 675
 draft: false
@@ -18,7 +18,7 @@ fashionProfile:
   romanName: 'Dua Lipa'
   portrait: '/images/culture/dua-lipa-napoli-shirt/dua-lipa-vogue-italia.webp'
   portraitAlt: 'Vogue Italia 2026년 9월호를 장식한 두아 리파'
-  portraitCredit: 'Vogue Italia, September 2026 · Photo Carlijn Jacobs · Styling Imruh'
+  portraitCredit: 'Vogue Italia, September 2026 · Photo © Carlijn Jacobs · Styling Imruh'
   birthDate: '1995-08-22'
   birthPlace: '영국 런던'
   nationalities:
@@ -61,11 +61,11 @@ fashionProfile:
 <div class="culture-kit-grid">
   <figure>
     <img src="/images/culture/dua-lipa-napoli-shirt/napoli-shirt-front.webp" alt="SSC 나폴리 2023-24 홈 유니폼 앞면과 가슴 중앙의 스쿠데토" width="800" height="800" loading="lazy" decoding="async" />
-    <figcaption>하늘색 몸판과 흰색 로고 사이에 삼색 스쿠데토가 놓인 앞면.</figcaption>
+    <figcaption>하늘색 몸판과 흰색 로고 사이에 삼색 스쿠데토가 놓인 앞면.<small class="culture-image-credit">Product image: SSC Napoli official store</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/dua-lipa-napoli-shirt/napoli-shirt-back.webp" alt="빅터 오시멘 9번이 마킹된 SSC 나폴리 2023-24 홈 유니폼 뒷면" width="800" height="800" loading="lazy" decoding="async" />
-    <figcaption>목과 소매 끝의 삼색, 흰색 파이핑이 이어지는 뒷면.</figcaption>
+    <figcaption>목과 소매 끝의 삼색, 흰색 파이핑이 이어지는 뒷면.<small class="culture-image-credit">Product image: SSC Napoli official store</small></figcaption>
   </figure>
 </div>
 
@@ -79,7 +79,7 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
 
 <figure class="portrait-figure culture-look-figure">
   <img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="금색 후프 귀걸이와 흰색 비키니에 SSC 나폴리 유니폼을 조합한 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" />
-  <figcaption>흰색 비키니와 금색 주얼리를 더해 나폴리 셔츠를 휴양지의 옷으로 바꾼 두아 리파. 사진은 공식 Instagram 게시물의 첫 번째 장면이다.</figcaption>
+  <figcaption>흰색 비키니와 금색 주얼리를 더해 나폴리 셔츠를 휴양지의 옷으로 바꾼 두아 리파. 사진은 공식 Instagram 게시물의 첫 번째 장면이다.<small class="culture-image-credit">Photo via @dualipa / Instagram</small></figcaption>
 </figure>
 
 이 조합은 흔히 말하는 블록코어<span class="foreign-note" lang="en">(blokecore; 축구 셔츠를 일상복과 섞는 스타일)</span>의 교과서와도 조금 다르다. 축구 셔츠에 청바지와 스니커즈를 붙이는 영국식 거리 패션이 아니라, 수영복 위에 셔츠를 걸치는 해변의 방식이다. 팬의 유니폼을 일상복으로 옮겼다는 점은 같지만, 바지와 신발을 아예 지워버리니 셔츠는 저지보다 가벼운 커버업<span class="foreign-note" lang="en">(cover-up; 수영복 위에 덧입는 옷)</span>에 가까워진다.
@@ -118,6 +118,7 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
   .culture-kit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 44px 0 54px; }
   .culture-kit-grid figure { margin: 0; }
   .culture-kit-grid img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); background: #fff; }
+  .culture-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 9px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
   .culture-look-figure { margin-top: 42px; }
   @media (max-width: 640px) {
     .culture-kit-grid { gap: 8px; margin-top: 36px; }

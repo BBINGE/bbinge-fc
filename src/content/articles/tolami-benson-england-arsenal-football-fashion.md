@@ -7,7 +7,7 @@ pubDate: 2026-08-26T12:45:11+09:00
 coverImage: '/images/culture/tolami-benson-football-style/cover.webp'
 cardImage: '/images/culture/tolami-benson-football-style/card.webp'
 coverImageAlt: '잉글랜드 유니폼을 재구성한 코르셋과 87번 바이커 재킷을 입은 톨라미 벤슨'
-coverImageCaption: '톨라미 벤슨은 잉글랜드 셔츠를 그대로 입는 대신 코르셋과 바이커 재킷, 개인적인 숫자 87로 다시 설계했다.'
+coverImageCaption: '톨라미 벤슨은 잉글랜드 셔츠를 그대로 입는 대신 코르셋과 바이커 재킷, 개인적인 숫자 87로 다시 설계했다. Photo via @tolami_benson / Instagram.'
 coverImageWidth: 1200
 coverImageHeight: 675
 draft: false
@@ -18,7 +18,7 @@ fashionProfile:
   romanName: 'Tolami Benson'
   portrait: '/images/culture/tolami-benson-football-style/tolami-river-island-portrait.webp'
   portraitAlt: '검정 베레와 가죽 재킷, 진주 목걸이를 착용한 톨라미 벤슨의 패션 화보'
-  portraitCredit: 'River Island, RI × Tolami Benson'
+  portraitCredit: 'Campaign image: River Island · RI × Tolami Benson'
   birthDate: '2000-12-03'
   birthPlace: '영국 허트퍼드셔'
   nationalities:
@@ -49,11 +49,11 @@ fashionProfile:
 <div class="fashion-editorial-pair">
   <figure>
     <img src="/images/culture/tolami-benson-football-style/03-final-look.webp" alt="잉글랜드 셔츠 코르셋과 데님 쇼츠, 대표팀 재킷을 함께 입은 톨라미 벤슨" width="1400" height="1866" loading="eager" decoding="async" />
-    <figcaption>잉글랜드 셔츠 코르셋, 해진 데님 쇼츠, 대표팀 재킷을 한 장면에 겹쳤다.</figcaption>
+    <figcaption>잉글랜드 셔츠 코르셋, 해진 데님 쇼츠, 대표팀 재킷을 한 장면에 겹쳤다.<small class="culture-image-credit">Image published by British Vogue · Photo via Tolami Benson</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/tolami-benson-football-style/08-stadium.webp" alt="베를린 올림피아슈타디온으로 들어가며 잉글랜드 커스텀 룩을 입은 톨라미 벤슨" width="1400" height="1867" loading="lazy" decoding="async" />
-    <figcaption>유로 2024 결승이 열린 베를린 올림피아슈타디온으로 향하는 경기일 룩.</figcaption>
+    <figcaption>유로 2024 결승이 열린 베를린 올림피아슈타디온으로 향하는 경기일 룩.<small class="culture-image-credit">Image published by British Vogue · Photo via Tolami Benson</small></figcaption>
   </figure>
 </div>
 
@@ -66,12 +66,12 @@ fashionProfile:
 <div class="fashion-process-grid">
   <figure>
     <img src="/images/culture/tolami-benson-football-style/06-corset-making.webp" alt="재단대 위에서 잉글랜드 유니폼 코르셋을 제작하는 해티 크라우더" width="1400" height="1866" loading="lazy" decoding="async" />
-    <figcaption>해티 크라우더의 작업실. 셔츠의 문장과 숫자가 새 패턴 안으로 이동한다.</figcaption>
+    <figcaption>해티 크라우더의 작업실. 셔츠의 문장과 숫자가 새 패턴 안으로 이동한다.<small class="culture-image-credit">Image published by British Vogue · Photo via Tolami Benson</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/tolami-benson-football-style/07-number-87.webp" alt="잉글랜드 유니폼 원단을 잘라 만든 붉은 87번 코르셋 뒷면"
       width="1400" height="1866" loading="lazy" decoding="async" />
-    <figcaption>사카가 아스널에서 처음 사용한 87번을 코르셋의 등판에 남겼다.</figcaption>
+    <figcaption>사카가 아스널에서 처음 사용한 87번을 코르셋의 등판에 남겼다.<small class="culture-image-credit">Image published by British Vogue · Photo via Tolami Benson</small></figcaption>
   </figure>
 </div>
 
@@ -83,7 +83,7 @@ fashionProfile:
 
 <figure class="fashion-wide-figure">
   <img src="/images/culture/tolami-benson-football-style/01-cover.webp" alt="87번 가죽 재킷과 잉글랜드 셔츠 코르셋을 착용한 톨라미 벤슨의 상반신" width="1400" height="2100" loading="lazy" decoding="async" />
-  <figcaption>검정·빨강·흰색의 바이커 재킷과 잉글랜드 셔츠를 잇는 숫자 87. 사진 Tolami Benson.</figcaption>
+  <figcaption>검정·빨강·흰색의 바이커 재킷과 잉글랜드 셔츠를 잇는 숫자 87.<small class="culture-image-credit">Photo via @tolami_benson / Instagram</small></figcaption>
 </figure>
 
 ## 사무실에서 경기장까지 가는 옷
@@ -95,11 +95,11 @@ fashionProfile:
 <div class="fashion-editorial-pair fashion-editorial-pair--detail">
   <figure>
     <img src="/images/culture/tolami-benson-football-style/02-glam.webp" alt="거울 앞에서 잉글랜드 커스텀 룩과 작은 가방을 확인하는 톨라미 벤슨" width="1400" height="1866" loading="lazy" decoding="async" />
-    <figcaption>작은 가방과 주얼리로 경기복의 부피를 정리한 출발 전 모습.</figcaption>
+    <figcaption>작은 가방과 주얼리로 경기복의 부피를 정리한 출발 전 모습.<small class="culture-image-credit">Image published by British Vogue · Photo via Tolami Benson</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/tolami-benson-football-style/09-golden-hour.webp" alt="베를린의 햇빛 아래 잉글랜드 대표팀 재킷과 주얼리를 착용한 톨라미 벤슨" width="1400" height="1866" loading="lazy" decoding="async" />
-    <figcaption>대표팀 재킷의 파랑·빨강과 은색 주얼리가 저녁 빛에서 분리된다.</figcaption>
+    <figcaption>대표팀 재킷의 파랑·빨강과 은색 주얼리가 저녁 빛에서 분리된다.<small class="culture-image-credit">Image published by British Vogue · Photo via Tolami Benson</small></figcaption>
   </figure>
 </div>
 
@@ -137,6 +137,7 @@ fashionProfile:
   .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards strong::before { content:''; display:block; width:26px; height:2px; margin-bottom:16px; background:#e31b4b; }
   .fashion-rule-cards p { margin:15px 0 0; color:#d5dbe5; font-size:13px; line-height:1.82; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .fashion-editorial-pair, .fashion-process-grid { gap:8px; margin:36px 0 44px; }
     .fashion-editorial-pair figcaption, .fashion-process-grid figcaption { font-size:11px; }
