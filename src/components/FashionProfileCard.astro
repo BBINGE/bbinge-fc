@@ -4,6 +4,12 @@ interface Fact {
   value: string;
 }
 
+interface Nationality {
+  name: string;
+  flag: string;
+  flagAlt: string;
+}
+
 interface Profile {
   eyebrow: string;
   name: string;
@@ -11,6 +17,9 @@ interface Profile {
   portrait: string;
   portraitAlt: string;
   portraitCredit?: string;
+  birthDate?: string;
+  birthPlace?: string;
+  nationalities?: Nationality[];
   facts: Fact[];
   officialChannel?: {
     label: string;
@@ -21,6 +30,27 @@ interface Profile {
 
 const { profile } = Astro.props as { profile: Profile };
 const titleId = `fashion-profile-${profile.name.replace(/\s+/g, '-')}`;
+const channelClass = profile.officialChannel?.label.toLowerCase() === 'instagram'
+  ? 'fashion-profile__channel is-instagram'
+  : 'fashion-profile__channel';
+
+const birthLabel = (() => {
+  if (!profile.birthDate) return undefined;
+  const [birthYear, birthMonth, birthDay] = profile.birthDate.split('-').map(Number);
+  const currentParts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(new Date());
+  const current = Object.fromEntries(currentParts.map(({ type, value }) => [type, value]));
+  const currentYear = Number(current.year);
+  const currentMonth = Number(current.month);
+  const currentDay = Number(current.day);
+  const yearAge = currentYear - birthYear;
+  const fullAge = yearAge - (currentMonth < birthMonth || (currentMonth === birthMonth && currentDay < birthDay) ? 1 : 0);
+  return `${birthYear}년 ${birthMonth}월 ${birthDay}일 (연 ${yearAge}세/만 ${fullAge}세)${profile.birthPlace ? ` · ${profile.birthPlace}` : ''}`;
+})();
 ---
 
 <section class="fashion-profile" aria-labelledby={titleId}>
@@ -32,6 +62,20 @@ const titleId = `fashion-profile-${profile.name.replace(/\s+/g, '-')}`;
     <h2 id={titleId}>{profile.name}</h2>
     {profile.romanName && <p class="fashion-profile__roman" lang="en">{profile.romanName}</p>}
     <dl>
+      {birthLabel && <div><dt>출생</dt><dd>{birthLabel}</dd></div>}
+      {profile.nationalities && profile.nationalities.length > 0 && (
+        <div>
+          <dt>국적</dt>
+          <dd class="fashion-profile__nationalities">
+            {profile.nationalities.map((nationality) => (
+              <span>
+                <img src={nationality.flag} alt={nationality.flagAlt} width="24" height="18" loading="lazy" decoding="async" />
+                {nationality.name}
+              </span>
+            ))}
+          </dd>
+        </div>
+      )}
       {profile.facts.map((fact) => (
         <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>
       ))}
@@ -39,7 +83,7 @@ const titleId = `fashion-profile-${profile.name.replace(/\s+/g, '-')}`;
         <div>
           <dt>공식 채널</dt>
           <dd>
-            <a class="fashion-profile__channel" href={profile.officialChannel.href} rel="noopener noreferrer">
+            <a class={channelClass} href={profile.officialChannel.href} rel="noopener noreferrer">
               <span>{profile.officialChannel.label}</span> {profile.officialChannel.handle}
             </a>
           </dd>
@@ -62,11 +106,27 @@ const titleId = `fashion-profile-${profile.name.replace(/\s+/g, '-')}`;
   .fashion-profile dl div { display:grid; grid-template-columns:78px minmax(0,1fr); gap:13px; padding:9px 0; border-bottom:1px solid var(--bbfc-border); }
   .fashion-profile dt { color:var(--bbfc-gray-2); font-size:11px; line-height:1.55; font-weight:650; }
   .fashion-profile dd { margin:0; color:var(--bbfc-ink-2); font-size:13px; line-height:1.55; }
+  .fashion-profile__nationalities { display:flex; flex-wrap:wrap; gap:7px 15px; }
+  .fashion-profile__nationalities span { display:inline-flex; align-items:center; gap:7px; white-space:nowrap; }
+  .fashion-profile__nationalities img { display:block; width:24px; height:18px; margin:0; border:1px solid rgba(15,34,58,.15); border-radius:2px; object-fit:cover; box-shadow:0 1px 3px rgba(15,34,58,.08); }
   .fashion-profile__channel { color:var(--bbfc-blue); font-weight:760; text-decoration:none; }
   .fashion-profile__channel span { color:var(--bbfc-gray-1); }
+  .fashion-profile__channel.is-instagram { color:#c13584; }
+  @supports ((background-clip:text) or (-webkit-background-clip:text)) {
+    .fashion-profile__channel.is-instagram {
+      background:linear-gradient(90deg,#833ab4 0%,#c13584 34%,#e1306c 58%,#fd1d1d 78%,#fcb045 100%);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+    .fashion-profile__channel.is-instagram span { color:inherit; }
+  }
   .fashion-profile__channel:hover { text-decoration:underline; text-underline-offset:3px; }
   .fashion-profile__channel:focus-visible { outline:2px solid var(--bbfc-blue); outline-offset:3px; }
   .fashion-profile__credit { margin:15px 0 0; color:var(--bbfc-gray-2); font-size:10px; line-height:1.55; }
+  @media (forced-colors:active) {
+    .fashion-profile__channel.is-instagram { background:none; color:LinkText; }
+  }
   @media (max-width:680px) {
     .fashion-profile { grid-template-columns:1fr; margin-bottom:46px; }
     .fashion-profile__portrait { aspect-ratio:4/5; }

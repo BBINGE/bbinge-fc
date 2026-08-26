@@ -47,6 +47,13 @@ const articles = defineCollection({
         portrait: z.string(),
         portraitAlt: z.string(),
         portraitCredit: z.string().optional(),
+        birthDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+        birthPlace: z.string().optional(),
+        nationalities: z.array(z.object({
+          name: z.string(),
+          flag: z.string(),
+          flagAlt: z.string(),
+        })).optional(),
         facts: z.array(z.object({ label: z.string(), value: z.string() })),
         officialChannel: z.object({
           label: z.string(),

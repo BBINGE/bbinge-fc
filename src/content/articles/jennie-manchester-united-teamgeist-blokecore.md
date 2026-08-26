@@ -4,10 +4,11 @@ description: 'BLACKPINK 제니가 Pink Venom에서 입은 맨체스터 유나이
 category: 'culture'
 tags: ['제니', 'BLACKPINK', '맨체스터 유나이티드', '팀가이스트', 'Teamgeist', '블록코어', '축구 패션', 'Pink Venom']
 pubDate: 2026-08-26T02:41:00+09:00
+updatedDate: 2026-08-26T10:47:00+09:00
 coverImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 cardImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 coverImageAlt: '검정과 빨강의 맨체스터 유나이티드 팀가이스트 저지에 진주 목걸이를 겹쳐 착용한 제니'
-coverImageCaption: '제니가 고른 것은 맨유의 경기용 홈 유니폼이 아니라, 2006년의 디자인을 되살린 2021-22 팀가이스트 프리매치 저지였다.'
+coverImageCaption: '제니가 고른 것은 홈 유니폼이 아니라 2006년의 디자인을 되살린 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지였다.'
 coverImageWidth: 1200
 coverImageHeight: 1200
 draft: false
@@ -16,14 +17,18 @@ fashionProfile:
   eyebrow: 'PROFILE · K-POP ARTIST'
   name: '제니'
   romanName: 'JENNIE'
-  portrait: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
-  portraitAlt: '맨체스터 유나이티드 팀가이스트 저지와 진주 목걸이를 함께 착용한 제니의 화보'
-  portraitCredit: 'Pink Venom style editorial · Image Double Kick'
+  portrait: '/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-portrait.webp'
+  portraitAlt: '데님 코르셋과 빨간 리본 헤어를 연출한 제니의 Pink Venom 의상 화보'
+  portraitCredit: 'JENNIE Weverse, 2022 · Pink Venom outfit photo'
+  birthDate: '1996-01-16'
+  birthPlace: '대한민국 서울'
+  nationalities:
+    - name: '대한민국'
+      flag: '/images/flags/kr.svg'
+      flagAlt: '대한민국 국기'
   facts:
     - label: '풀네임'
       value: '김제니 (Jennie Kim)'
-    - label: '출생'
-      value: '1996년 1월 16일 · 대한민국'
     - label: '그룹'
       value: 'BLACKPINK'
     - label: '직업'
@@ -33,114 +38,140 @@ fashionProfile:
     - label: '정규 앨범'
       value: 'Ruby (2025)'
     - label: '오늘의 옷'
-      value: '맨유 2021-22 팀가이스트 프리매치 저지'
+      value: '맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지'
   officialChannel:
     label: 'Instagram'
     handle: '@jennierubyjane'
     href: 'https://www.instagram.com/jennierubyjane/'
 ---
 
-화면이 붉게 번지고, 제니가 고개를 돌립니다. 목에는 진주가 여러 겹이고, 어깨에는 맨체스터 유나이티드의 빨간 선이 달려 있습니다. 축구 유니폼을 입었는데 경기장으로 갈 사람처럼 보이지는 않습니다. 그렇다고 유니폼을 억지로 패션으로 바꾸려 애쓴 사람처럼 보이지도 않습니다. 이미 노래와 카메라와 옷이 같은 장면 안에 들어와 있기 때문입니다.
+2022년 8월 19일 공개된 BLACKPINK의 〈<span lang="en">Pink Venom</span>〉에서 제니<span class="foreign-note" lang="en">(JENNIE; BLACKPINK 멤버)</span>는 검정 축구 셔츠를 짧게 잘라 입었다. 등에는 이름 `JENNIE`와 숫자 `96`을 새겼고, 목에는 진주와 크리스털 장식을 여러 겹 쌓았다. 이 장면의 중심은 ‘연예인이 축구 유니폼을 입었다’는 사실보다 **경기복의 표면을 무대 의상의 문법으로 바꾼 방식**에 있다.
 
-2022년 8월 19일 공개된 BLACKPINK의 **〈Pink Venom〉** 뮤직비디오에서 제니가 입은 옷은 맨체스터 유나이티드의 홈 유니폼이 아닙니다. 정확히는 아디다스가 2021년 12월 공개한 **맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지**입니다. 선수들이 경기 전에 몸을 풀 때 입던 옷이고, 2006년의 축구 디자인을 15년 뒤 다시 불러온 컬렉션입니다.
-
-그러니까 이 장면에는 시간이 두 번 겹칩니다. 2022년의 제니가 2021년의 셔츠를 입었고, 그 셔츠는 다시 2006년을 바라봅니다. 패션은 가끔 이렇게 줏대가 없습니다. 최신의 뮤직비디오 한가운데 오래된 축구의 곡선을 세워두고도, 아무렇지 않은 얼굴을 합니다.
-
-## 경기복이 아니라, 경기 직전의 옷
-
-팀가이스트<span class="foreign-note" lang="de">(Teamgeist; 독일어로 ‘팀 정신’)</span>는 본래 2006 FIFA 월드컵 공인구의 이름으로 널리 알려졌습니다. 동시에 아디다스가 당시 국가대표팀과 2006-07 시즌 여러 구단의 유니폼에 사용한 하나의 디자인 언어이기도 했습니다. 어깨에서 옆구리로 흘러내리는 둥근 패널, 등과 소매를 감싸는 굵은 선은 셔츠를 멀리서 보아도 알아보게 만들었습니다.
-
-아디다스는 2021년 이 틀을 아약스, 아스널, 셀틱, 바이에른 뮌헨, 보카 주니어스, 플라멩구, 유벤투스, 맨체스터 유나이티드, 레알 마드리드의 아홉 구단으로 되살렸습니다. 흥미로운 것은 공식 발표가 이 복각을 오직 경기력의 언어로 설명하지 않았다는 점입니다. 일본의 축구 문화지 《SHUKYU Magazine》과 함께 컬렉션을 패션과 문화의 시선으로 보여주었습니다. 경기장으로 돌아온 옛 디자인은 처음부터 다시 거리로 나갈 준비를 하고 있었던 셈입니다.
+옷의 정식 명칭은 **아디다스 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지**다. 홈 유니폼도, 선수가 공식 경기에서 입는 매치 저지<span class="foreign-note" lang="en">(match jersey; 경기용 유니폼)</span>도 아니다. 프리매치 저지<span class="foreign-note" lang="en">(pre-match jersey; 경기 전 몸풀이나 이동 때 입는 상의)</span>라는 중간 지대의 옷이 K-팝 뮤직비디오에서 다시 잘리고, 이름과 숫자를 얻고, 장신구의 받침이 됐다.
 
 <figure class="fashion-wide-figure">
-  <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-group-adidas.jpg" alt="2021년 팀가이스트 컬렉션을 입은 아홉 구단의 모델들" width="1920" height="1080" loading="lazy" decoding="async" />
-  <figcaption>2006년의 디자인을 아홉 구단으로 되살린 2021 팀가이스트 컬렉션. 오른쪽 끝에 맨체스터 유나이티드 저지가 보인다. 사진 Adidas.</figcaption>
+  <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-pink-venom-front-back.webp" alt="Pink Venom 뮤직비디오에서 맨체스터 유나이티드 팀가이스트 저지의 앞면과 JENNIE 96 마킹 뒷면을 보여주는 제니" width="1800" height="800" loading="eager" decoding="async" />
+  <figcaption>앞에서는 구단 문장과 진주가 겹치고, 뒤에서는 `JENNIE 96` 마킹이 화면을 채운다. 화면 캡처 구성 Double Kick.</figcaption>
 </figure>
 
-제니의 셔츠가 더욱 재미있는 까닭도 여기에 있습니다. 이것은 선수의 이름과 등번호가 새겨진 매치 저지가 아니라 **프리매치 저지**입니다. 이미 경기와 일상의 경계에 서 있던 옷입니다. 제니는 그 애매한 자리를 정확히 이용했습니다. 셔츠를 경기복에서 패션으로 멀리 끌고 간 것이 아니라, 원래 반쯤 열려 있던 문을 통과했습니다.
+## 2006년의 곡선이 2021년에 돌아온 이유
 
-## 검정과 빨강 사이에 진주를 놓는 법
+팀가이스트<span class="foreign-note" lang="de">(Teamgeist; 독일어로 ‘팀 정신’)</span>는 2006 FIFA 월드컵 공인구의 이름이면서, 당시 아디다스가 국가대표팀과 여러 구단의 셔츠에 펼친 디자인 체계이기도 하다. 어깨에서 가슴과 옆구리로 이어지는 둥근 패널, 공의 그래픽과 연결되는 곡선은 직선적인 삼선과 다른 속도를 만든다. 제니가 입은 셔츠에서 빨간 선이 어깨를 감싸고 흰 패널이 허리를 향해 흐르는 이유도 이 계보에 있다.
 
-이 저지는 꽤 시끄럽습니다. 검정 몸판 위로 흰색 곡선이 가슴과 옆구리를 가르고, 빨간 삼선이 어깨에서 내려옵니다. 맨유 문장과 아디다스 로고도 각자의 자리를 차지합니다. 여기에 다른 색을 몇 개 더 얹으면 옷보다 조합표가 먼저 보이기 쉽습니다.
+아디다스는 2021년 이 틀을 아약스, 아스널, 셀틱, 바이에른 뮌헨, 보카 주니어스, 플라멩구, 유벤투스, 맨체스터 유나이티드, 레알 마드리드의 아홉 구단으로 복각했다. 협업 상대는 일본의 축구 문화지 《<span lang="en">SHUKYU Magazine</span>》이었다. 옛 경기복을 성능의 역사만으로 소환하지 않고, 축구와 패션이 만나는 문화적 이미지로 다시 편집한 것이다.
 
-제니는 색을 늘리지 않았습니다. 검정과 빨강을 중심에 두고, 흰색은 저지의 선과 진주 목걸이로 반복했습니다. 진주가 중요한 이유는 단지 비싸 보이기 때문이 아닙니다. 광택이 있는 둥근 알이 기능성 폴리에스터의 표면과 전혀 다른 질감을 만듭니다. 하나는 경기 전에 땀을 흘리기 위한 재료이고, 다른 하나는 목에 빛을 모으기 위한 재료입니다. 서로 어울릴 리 없는 두 표면이 같은 흰색을 나눠 가지면서 장면이 완성됩니다.
+<figure class="fashion-wide-figure">
+  <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-group-adidas.jpg" alt="2021년 아디다스 팀가이스트 컬렉션을 입은 아홉 구단의 모델들" width="1920" height="1080" loading="lazy" decoding="async" />
+  <figcaption>아홉 구단의 색으로 복각된 2021 팀가이스트 컬렉션. 사진 Adidas.</figcaption>
+</figure>
 
-검정 가죽과 메탈 장식도 같은 일을 합니다. 저지의 운동성을 더욱 강조하기보다, 뮤직비디오의 거칠고 화려한 세계로 방향을 돌립니다. 그래서 맨유 문장은 팬 인증 도장처럼 홀로 튀지 않고 수많은 그래픽 가운데 하나로 놓입니다. 축구를 지우지는 않되, 축구만 말하게 두지도 않는 방식입니다.
+이 셔츠가 이미 경기장 밖을 바라보고 있었다는 사실은 중요하다. 2006년의 도안을 그대로 보존한 복제품이 아니라, 2021년의 프리매치웨어와 패션 화보를 위해 다시 만든 옷이기 때문이다. 〈<span lang="en">Pink Venom</span>〉은 그 이동을 한 단계 더 밀었다. 유나이티드의 검정·빨강·흰색은 남았지만, 셔츠의 용도와 실루엣은 달라졌다.
+
+## 검정 저지가 보이도록, 제품 사진도 다시 세웠다
+
+원본 제품 사진은 검정 셔츠를 짙은 초록 잔디 위에 놓아 몸판과 배경의 경계가 거의 사라졌다. 아래 이미지는 셔츠의 앞·뒷면과 패널을 읽을 수 있도록 배경만 밝은 중성색 스튜디오 톤으로 바꾼 편집본이다. 검정 원단의 굴곡, 빨간 삼선, 흰 파이핑<span class="foreign-note" lang="en">(piping; 가장자리를 따라 덧댄 선 장식)</span>이 서로 분리되면서 팀가이스트의 구조가 비로소 보인다.
 
 <div class="fashion-kit-grid">
   <figure>
-    <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-front.jpg" alt="맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지 앞면" width="1600" height="1600" loading="lazy" decoding="async" />
-    <figcaption>검정 몸판, 흰 곡선과 빨간 삼선이 겹치는 앞면.</figcaption>
+    <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-front-studio.webp" alt="밝은 스튜디오 배경에 놓인 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지 앞면" width="1254" height="1254" loading="lazy" decoding="async" />
+    <figcaption>구단 문장, 빨간 삼선과 흰 곡선이 분명히 드러나는 앞면.</figcaption>
   </figure>
   <figure>
-    <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-back.jpg" alt="맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지 뒷면" width="1600" height="1600" loading="lazy" decoding="async" />
-    <figcaption>목 뒤의 맨유 문장과 팀가이스트 로고가 남는 뒷면.</figcaption>
+    <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-back-studio.webp" alt="밝은 스튜디오 배경에 놓인 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지 뒷면" width="1254" height="1254" loading="lazy" decoding="async" />
+    <figcaption>어깨의 삼선과 옆선을 감싸는 빨간 패널이 이어지는 뒷면.</figcaption>
   </figure>
 </div>
 
-## 제니처럼 팀가이스트를 입으려면
+## 진주는 장식이 아니라 번역 장치였다
 
-그대로 복사할 필요는 없습니다. 뮤직비디오 의상은 카메라와 조명 안에서 완성된 옷이니까요. 대신 제니가 쓴 원리는 일상으로 가져올 수 있습니다.
+제니의 스타일링은 셔츠에 없는 색을 추가하는 대신 이미 있는 흰색을 다른 재료로 반복한다. 목선의 흰 파이핑은 진주 목걸이로 이어지고, 크리스털 커프와 메탈 장식은 무대 조명을 잘게 반사한다. 기능성 폴리에스터가 빛을 넓고 낮게 흘려보낸다면 진주와 크리스털은 작은 점으로 빛을 모은다. 같은 흰색이 서로 다른 표면을 가질 때 스포츠웨어와 주얼리의 거리가 오히려 선명해진다.
+
+검정 가죽 장갑과 바이커 팬츠<span class="foreign-note" lang="en">(biker pants; 모터사이클 복식에서 온 밀착형 하의)</span>도 같은 역할을 한다. 셔츠의 검정을 이어받지만 재질을 바꾸어, 운동복의 가벼움에 가죽의 무게를 붙인다. 빨강은 어깨의 삼선과 뮤직비디오 세트에만 남겨 둔다. 셔츠 안의 세 색을 의상·장신구·배경에 나누어 배치했기 때문에 아이템이 많아도 팔레트는 흐트러지지 않는다.
+
+<figure class="fashion-wide-figure fashion-wide-figure--editorial">
+  <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-pink-venom-wide.webp" alt="맨체스터 유나이티드 팀가이스트 저지와 진주 목걸이, 검정 가죽 의상을 착용한 제니" width="1800" height="800" loading="lazy" decoding="async" />
+  <figcaption>둥근 구단 문장과 진주, 크리스털이 상체에 모이고 검정 가죽이 셔츠의 아래를 받친다. 이미지 Double Kick.</figcaption>
+</figure>
+
+## 같은 뮤직비디오 안에서 반복된 재료
+
+축구 셔츠 한 벌만 떼어 놓으면 스타일링의 선택이 우연처럼 보일 수 있다. 그러나 제니가 직접 공개한 〈<span lang="en">Pink Venom</span>〉 의상 사진을 함께 보면 이 뮤직비디오가 흰색, 금속, 데님, 빨간 리본처럼 서로 대비되는 표면을 반복했다는 점이 드러난다. 아래 두 착장은 팀가이스트 저지를 입은 장면이 아니다. 대신 같은 작품 안에서 스포티한 베이스에 장식적 재료를 얹는 방식이 어떻게 변주됐는지 보여주는 비교 자료다.
+
+<div class="fashion-look-pair">
+  <figure>
+    <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-white-look.webp" alt="흰색 스트랩 톱과 금속 체인 벨트를 착용한 제니의 Pink Venom 의상 화보" width="670" height="894" loading="lazy" decoding="async" />
+    <figcaption>흰색 스트랩과 금속 체인으로 선을 만든 착장.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-denim-look.webp" alt="데님 코르셋과 빨간 리본 헤어를 연출한 제니의 Pink Venom 의상 화보" width="670" height="894" loading="lazy" decoding="async" />
+    <figcaption>데님의 거친 표면 위에 빨간 리본을 반복한 착장.</figcaption>
+  </figure>
+</div>
+
+첫 번째 착장은 흰 천과 은색 체인으로, 두 번째 착장은 데님과 빨간 리본으로 대비를 만든다. 팀가이스트 장면의 진주·가죽·빨간 삼선도 같은 편집 원리에 놓인다. 축구 셔츠를 ‘평범한 티셔츠처럼’ 감추는 것이 아니라, 셔츠가 가진 선과 색을 더 이질적인 재료로 확대한다. 여기서 블록코어<span class="foreign-note" lang="en">(blokecore; 축구 유니폼을 일상복에 섞는 스타일)</span>는 완성된 복장 양식이라기보다 서로 다른 표면을 연결하는 방법에 가깝다.
+
+## 일상에서 가져갈 세 가지 원리
 
 <div class="fashion-style-notes">
   <section>
     <strong>01 · 색은 셔츠 안에서 끝내기</strong>
-    <p>검정 하의와 검정 신발을 두고, 빨강은 가방이나 양말처럼 한 곳에서만 반복합니다. 저지에 이미 세 색이 있으니 네 번째 색은 굳이 초대하지 않아도 됩니다.</p>
+    <p>검정 하의와 신발로 몸판을 이어 주고, 빨강은 가방이나 양말 한 곳에서만 반복한다. 셔츠의 검정·빨강·흰색만으로도 충분하다.</p>
   </section>
   <section>
-    <strong>02 · 다른 표면 하나 놓기</strong>
-    <p>진주, 은색 체인, 가죽 벨트처럼 폴리에스터와 다른 재질을 하나 더합니다. 축구 셔츠를 축구 셔츠와 가장 멀리 있는 재료에 붙이는 것이 핵심입니다.</p>
+    <strong>02 · 다른 표면은 하나만</strong>
+    <p>진주, 은색 체인, 가죽 벨트 가운데 하나를 고른다. 색을 늘리는 대신 폴리에스터와 다른 광택을 더하면 축구 셔츠의 인상이 바뀐다.</p>
   </section>
   <section>
-    <strong>03 · 실루엣은 하나만 크게</strong>
-    <p>저지가 넉넉하다면 하의는 짧거나 곧게, 몸에 맞는 저지라면 와이드 팬츠로 균형을 잡습니다. 상하의를 모두 선수복처럼 맞추면 다시 경기장으로 돌아갑니다.</p>
+    <strong>03 · 큰 실루엣은 한쪽에</strong>
+    <p>저지가 넉넉하면 하의를 짧거나 곧게, 몸에 맞으면 와이드 팬츠를 둔다. 상하의의 부피를 다르게 해야 선수복의 비례에서 벗어난다.</p>
   </section>
 </div>
 
-맨유 유니폼을 입는 방법도 하나뿐은 아닙니다. [오하영은 흰색 맨유 홈 저지를 청바지와 함께 입어](/culture/oh-hayoung-manchester-united-blockcore/) 셔츠의 클래식한 인상을 살렸습니다. 제니는 같은 구단의 검정 프리매치 저지에 진주와 가죽을 붙였습니다. 하나는 낮의 거리이고, 다른 하나는 조명 아래의 무대입니다. 팀은 같지만 옷이 도착한 장소는 완전히 다릅니다.
+[오하영은 흰색 맨체스터 유나이티드 홈 저지를 청바지와 함께 입어](/culture/oh-hayoung-manchester-united-blockcore/) 구단 셔츠의 고전적인 인상을 살렸다. 제니는 검정 프리매치 저지를 잘라 진주와 가죽에 붙였다. 같은 구단의 셔츠도 하나는 낮의 거리로, 다른 하나는 조명과 크리스털이 있는 무대로 이동한다. 블록코어의 가치는 특정 조합을 복제하는 데 있지 않고, 유니폼이 놓일 장면을 새로 정하는 데 있다.
 
-## 맨유를 입었다는 사실과 맨유 팬이라는 사실
+## 제목의 ‘맨유’, 본문의 ‘맨체스터 유나이티드’
 
-맨체스터 유나이티드 역시 뮤직비디오 공개 직후 공식 Instagram에 제니의 장면을 올렸습니다. 세계적인 스타가 구단 문장을 입었다면 구단으로서는 반가울 일입니다. 다만 한 장면으로 제니가 어느 팀을 얼마나 오래 좋아했는지까지 알 수는 없습니다. 옷은 보이지만 마음속의 시즌권은 보이지 않으니까요.
+이 글의 제목에는 한국어 검색에서 널리 쓰이는 **맨유**를 남겼다. 그러나 본문에서는 첫 언급을 **맨체스터 유나이티드<span class="foreign-note" lang="en">(Manchester United FC)</span>**로 쓰고, 이후에는 ‘유나이티드’ 또는 정식 명칭을 사용했다. 영어권에서 `Man U`는 뮌헨 비행기 참사 이후 모욕적인 구호에 끌어다 쓰인 역사 때문에 불편하게 받아들이는 팬들이 있다. 한국어 ‘맨유’가 그 조롱을 뜻한다고 단정할 수는 없지만, 검색어와 구단을 부르는 문장은 분리하는 편이 정확하다.
 
-그리고 블록코어의 재미는 바로 그곳에서 시작되기도 합니다. 누구는 팀을 사랑해서 유니폼을 사고, 누구는 색이 좋아서 사고, 누구는 2006년의 둥근 선이 다시 예뻐 보여서 삽니다. 동기는 제각각이어도 입는 순간 몸 위에는 같은 문장과 역사가 놓입니다. 축구가 패션의 언어로 번역될 때, 의미가 사라지는 것이 아니라 읽는 사람이 늘어납니다.
-
-〈Pink Venom〉의 제니는 맨유 저지를 얌전히 일상복으로 바꾸지 않았습니다. 진주를 겹치고, 가죽을 더하고, 붉은 화면 안으로 데려가 아예 다른 장르에 세웠습니다. 그제야 2006년의 팀가이스트는 복각품이 아니라 2022년의 장면이 되었습니다.
-
-아무래도 옷은 그렇습니다. 경기 전에 입으라고 만든 셔츠가 월드컵의 기억을 품고, 십수 년 뒤 K-팝 뮤직비디오에 나타나며, 또 누군가의 출근길 옷이 될 수도 있습니다. 같은 셔츠인데 세상은 매번 다른 곳으로 데려갑니다. 그러니 블록코어를 입는 법은 생각보다 간단할지도 모릅니다. 유니폼을 평범하게 만들려고 애쓰지 말고, 내가 사는 장면 한가운데 정확히 놓는 것. 제니는 그렇게 입었습니다.
+〈<span lang="en">Pink Venom</span>〉의 팀가이스트 저지는 복각, 프리매치웨어, 커스텀 무대 의상이라는 세 단계를 거쳤다. 그 과정에서 2006년의 곡선은 보존됐지만 옷의 쓰임은 계속 달라졌다. 제니의 착장이 오래 남는 이유는 축구의 흔적을 지우지 않은 채, 그 위에 다른 재료와 다른 장면을 설득력 있게 겹쳤기 때문이다.
 
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
-    <li><a href="https://www.youtube.com/watch?v=gQlMMD8auMs">BLACKPINK, 〈Pink Venom〉 공식 뮤직비디오</a>, 2022년 8월 19일. 제니의 맨유 팀가이스트 착장 장면.</li>
-    <li><a href="https://www.instagram.com/p/Chc1grDNPEM/">Manchester United 공식 Instagram</a>, 2022년 8월. 뮤직비디오 속 제니의 팀가이스트 착장 소개.</li>
-    <li><a href="https://news.adidas.com/football/reimagining-the-iconic-2006-teamgeist-collection/s/2b353667-fb26-4d96-8919-530748b6c585">Adidas, “Reimagining the Iconic 2006 Teamgeist Collection”</a>, 2021년 12월 2일. 복각 시점, 아홉 구단과 패션·문화 캠페인 설명.</li>
-    <li><a href="https://doublekick.shop/blogs/off-pitch-icons/jennie-man-utd-teamgeist-pre-match-jersey">Double Kick, “Jennie Man Utd Teamgeist Pre-Match Jersey”</a>. 착장 및 제품 사진 참고.</li>
-    <li><a href="https://www.ygfamily.com/en/artists/blackpink/profile">YG Entertainment, BLACKPINK profile</a>. 제니의 생년월일과 그룹 프로필.</li>
-    <li><a href="https://shop.jenn.ie/products/ruby-digital-download">JENNIE Official Shop, 《Ruby》</a>. 2025년 첫 정규 앨범 발매 정보.</li>
+    <li><a href="https://www.youtube.com/watch?v=gQlMMD8auMs">BLACKPINK, 〈Pink Venom〉 공식 뮤직비디오</a>, 2022년 8월 19일. 팀가이스트 착장과 커스텀 마킹 확인.</li>
+    <li><a href="https://weverse.io/blackpink/artist/3-102732520?hl=ko">JENNIE Weverse, “착장별 사진 모아봤어요”</a>, 2022년 8월 21일. 프로필 및 의상 비교 사진.</li>
+    <li><a href="https://www.instagram.com/p/Chc1grDNPEM/">Manchester United 공식 Instagram</a>, 2022년 8월. 뮤직비디오 속 착장 소개.</li>
+    <li><a href="https://news.adidas.com/football/reimagining-the-iconic-2006-teamgeist-collection/s/2b353667-fb26-4d96-8919-530748b6c585">Adidas, “Reimagining the Iconic 2006 Teamgeist Collection”</a>, 2021년 12월 2일. 아홉 구단과 SHUKYU Magazine 협업 확인.</li>
+    <li><a href="https://doublekick.shop/blogs/off-pitch-icons/jennie-man-utd-teamgeist-pre-match-jersey">Double Kick, “JENNIE - Man Utd Teamgeist Pre-Match Jersey”</a>. 착장 화면과 제품 앞·뒷면 참고. 제품 사진은 원본을 바탕으로 배경만 밝게 편집했다.</li>
+    <li><a href="https://www.ygfamily.com/en/artists/blackpink/profile">YG Entertainment, BLACKPINK profile</a>. 인물 정보 확인.</li>
+    <li><a href="https://shop.jenn.ie/collections/jennie-ruby">JENNIE Official Shop, 《Ruby》</a>. 2025년 정규 앨범 정보.</li>
+    <li><a href="https://www.united.no/jan-erik-hopland-leserbrev/den-unevnelige-forkortelsen/709204">United.no, “Den unevnelige forkortelsen”</a>. `Man U` 표기의 역사적 맥락과 팬 증언 참고.</li>
   </ol>
 </div>
 
 <style>
-  .fashion-wide-figure { margin: 46px 0 54px; }
-  .fashion-wide-figure img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius-lg); }
-  .fashion-kit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 44px 0 54px; }
-  .fashion-kit-grid figure { margin: 0; }
-  .fashion-kit-grid img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid #253129; border-radius: var(--bbfc-radius-lg); background: #111; filter: brightness(1.48) contrast(.96) saturate(1.08); }
-  .fashion-style-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin: 34px 0 50px; border: 1px solid #222a35; background: #222a35; box-shadow: 0 20px 44px -38px rgba(0,0,0,.9); }
-  .fashion-style-notes section { position: relative; min-height: 224px; overflow: hidden; padding: 27px 24px; background: #080a0d; isolation: isolate; }
-  .fashion-style-notes section::before { content: ''; position: absolute; z-index: -2; width: 250px; height: 250px; right: -58px; bottom: -68px; border-radius: 50%; background-image: url('/images/culture/jennie-manchester-united-teamgeist/teamgeist-shirt-front.jpg'); background-repeat: no-repeat; background-size: 1160px 1160px; background-position: 64% 33%; opacity: .1; filter: saturate(1.25) brightness(1.5); }
-  .fashion-style-notes section::after { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(112deg, rgba(8,10,13,.98) 0%, rgba(8,10,13,.9) 58%, rgba(8,10,13,.44) 100%); }
-  .fashion-style-notes strong { display: block; max-width: 210px; color: #fff; font-size: 13px; line-height: 1.55; letter-spacing: .045em; }
-  .fashion-style-notes strong::before { content: ''; display: block; width: 28px; height: 2px; margin-bottom: 17px; background: var(--bbfc-blue); }
-  .fashion-style-notes p { max-width: 230px; margin: 17px 0 0; color: #d7dce4; font-size: 13.5px; line-height: 1.85; }
-  @media (max-width: 640px) {
-    .fashion-wide-figure { margin: 36px 0 42px; }
-    .fashion-kit-grid { gap: 8px; margin: 36px 0 44px; }
-    .fashion-kit-grid figcaption { font-size: 11px; }
-    .fashion-style-notes { grid-template-columns: 1fr; margin-top: 28px; }
-    .fashion-style-notes section { min-height: 0; padding: 24px 21px 27px; }
-    .fashion-style-notes section::before { right: -40px; bottom: -80px; }
-    .fashion-style-notes strong, .fashion-style-notes p { max-width: 260px; }
+  .fashion-wide-figure { margin:46px 0 54px; }
+  .fashion-wide-figure img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
+  .fashion-wide-figure--editorial img { border-color:#352b3c; }
+  .fashion-kit-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:44px 0 54px; }
+  .fashion-kit-grid figure, .fashion-look-pair figure { margin:0; }
+  .fashion-kit-grid img { display:block; width:100%; height:auto; margin:0; border:1px solid #d7d2cf; border-radius:var(--bbfc-radius-lg); background:#eeeae7; }
+  .fashion-look-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:42px auto 52px; max-width:760px; }
+  .fashion-look-pair img { display:block; width:100%; aspect-ratio:3/4; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); object-fit:cover; }
+  .fashion-style-notes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; margin:34px 0 50px; border:1px solid #222a35; background:#222a35; box-shadow:0 20px 44px -38px rgba(0,0,0,.9); }
+  .fashion-style-notes section { position:relative; min-height:224px; overflow:hidden; padding:27px 24px; background:#080a0d; isolation:isolate; }
+  .fashion-style-notes section::before { content:''; position:absolute; z-index:-2; width:178px; height:178px; right:12px; top:50%; translate:0 -50%; background:url('/images/culture/jennie-manchester-united-teamgeist/manchester-united-crest.webp') center/contain no-repeat; opacity:.1; }
+  .fashion-style-notes section::after { content:''; position:absolute; z-index:-1; inset:0; background:linear-gradient(112deg,rgba(8,10,13,.99) 0%,rgba(8,10,13,.91) 57%,rgba(8,10,13,.58) 100%); }
+  .fashion-style-notes strong { display:block; max-width:210px; color:#fff; font-size:13px; line-height:1.55; letter-spacing:.045em; }
+  .fashion-style-notes strong::before { content:''; display:block; width:28px; height:2px; margin-bottom:17px; background:var(--bbfc-blue); }
+  .fashion-style-notes p { max-width:230px; margin:17px 0 0; color:#d7dce4; font-size:13.5px; line-height:1.85; }
+  @media (max-width:640px) {
+    .fashion-wide-figure { margin:36px 0 42px; }
+    .fashion-kit-grid, .fashion-look-pair { gap:8px; margin:36px 0 44px; }
+    .fashion-kit-grid figcaption, .fashion-look-pair figcaption { font-size:11px; }
+    .fashion-style-notes { grid-template-columns:1fr; margin-top:28px; }
+    .fashion-style-notes section { min-height:0; padding:24px 21px 27px; }
+    .fashion-style-notes section::before { width:150px; height:150px; right:10px; }
+    .fashion-style-notes strong, .fashion-style-notes p { max-width:260px; }
   }
 </style>
