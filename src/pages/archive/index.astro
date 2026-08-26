@@ -22,6 +22,13 @@ const readingPaths = [
   { label: '대회로 읽기', note: '리그와 클럽·국가대표팀 대회를 연도와 당대 명칭으로 따라갑니다.', branches: ['leagues', 'european-club', 'national-team'] },
   { label: '수상 기록으로 읽기', note: '개인상과 득점 기록을 선정 당시의 맥락과 함께 확인합니다.', branches: ['awards'] },
 ];
+const activeReadingPaths = readingPaths.flatMap((path) => {
+  const count = records.filter((record) => path.branches.includes(record.data.branch)).length;
+  const target = archiveBranches.find((branch) =>
+    path.branches.includes(branch.id) && records.some((record) => record.data.branch === branch.id)
+  );
+  return target && count > 0 ? [{ ...path, count, target }] : [];
+});
 const recordHref = (record: typeof records[number]) => `/archive/${record.data.branch}/${record.data.index}/${record.id}/`;
 const hotPostTitle = (record: typeof records[number]) => record.data.index === 'copa-america'
   ? `${record.data.year} 코파 아메리카 최우수선수`
@@ -104,13 +111,10 @@ const indexRecordCounts = new Map<string, number>(
 
     <section class="reading-guide" aria-labelledby="guide-title" data-reveal>
       <div class="section-heading"><div><p>HOW TO READ</p><h2 id="guide-title">어떻게 읽을까요?</h2></div><p>익숙한 방식으로 먼저 들어가세요. 세부 분류는 페이지 아래에서 모두 볼 수 있습니다.</p></div>
-      <div class="guide-grid">
-        {readingPaths.map((path, index) => {
-          const count = records.filter((record) => path.branches.includes(record.data.branch)).length;
-          const target = archiveBranches.find((branch) => path.branches.includes(branch.id) && records.some((record) => record.data.branch === branch.id))
-            ?? archiveBranches.find((branch) => path.branches.includes(branch.id));
-          return <a class="guide-card" href={target ? `/archive/${target.id}/` : '/archive/'}><span>0{index + 1}</span><h3>{path.label}</h3><p>{path.note}</p><b>{count > 0 ? `${count}편 보기` : '분류 살펴보기'} →</b></a>;
-        })}
+      <div class:list={['guide-grid', activeReadingPaths.length === 2 && 'is-two-column']}>
+        {activeReadingPaths.map((path, index) => (
+          <a class="guide-card" href={`/archive/${path.target.id}/`}><span>0{index + 1}</span><h3>{path.label}</h3><p>{path.note}</p><b>{path.count}편 보기 →</b></a>
+        ))}
       </div>
     </section>
 
@@ -229,6 +233,7 @@ const indexRecordCounts = new Map<string, number>(
   .new-badge { position:absolute; top:10px; right:10px; z-index:1; padding:5px 8px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:9px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
   .category-new { margin-left:7px; color:var(--bbfc-blue); font-size:8px; font-style:normal; font-weight:750; letter-spacing:.06em; vertical-align:top; }
   .guide-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; padding-top:28px; }
+  .guide-grid.is-two-column { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .guide-card { min-height:235px; padding:24px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); transition:transform .2s ease,border-color .2s ease; }
   .guide-card:hover { transform:translateY(-5px); border-color:var(--bbfc-blue); }
   .guide-card>span { font-size:10px; color:var(--bbfc-blue); }
@@ -258,7 +263,7 @@ const indexRecordCounts = new Map<string, number>(
   [data-reveal] { opacity:0; transform:translateY(24px); transition:opacity .65s ease,transform .65s ease; }
   [data-reveal].is-visible { opacity:1; transform:translateY(0); }
   @media(max-width:767px){
-    .archive-page{padding:26px 16px 20px}.archive-hero-grid{grid-template-columns:1fr;gap:28px;min-height:0;padding:34px 0 28px}.archive-hero h1{font-size:clamp(50px,14.8vw,62px)}.archive-description{margin-top:18px}.archive-stats>div{min-width:0;flex:1;padding:13px 12px 12px 0}.archive-stats>div+div{padding-left:12px}.archive-stats strong{font-size:16px}.archive-actions{display:grid;grid-template-columns:1fr 1fr}.archive-action{min-width:0;gap:10px;padding:11px 10px}.hot-panel{padding:14px}.hot-list>a{grid-template-columns:22px 48px minmax(0,1fr) 13px;min-height:62px;gap:8px}.hot-list img{width:48px;height:48px}.hot-panel-head h2{font-size:20px}.hero-series{align-items:flex-start;gap:13px;padding:13px 0}.hero-series>div{gap:6px}.latest-records,.reading-guide,.active-series{padding-top:72px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
+    .archive-page{padding:26px 16px 20px}.archive-hero-grid{grid-template-columns:1fr;gap:28px;min-height:0;padding:34px 0 28px}.archive-hero h1{font-size:clamp(50px,14.8vw,62px)}.archive-description{margin-top:18px}.archive-stats>div{min-width:0;flex:1;padding:13px 12px 12px 0}.archive-stats>div+div{padding-left:12px}.archive-stats strong{font-size:16px}.archive-actions{display:grid;grid-template-columns:1fr 1fr}.archive-action{min-width:0;gap:10px;padding:11px 10px}.hot-panel{padding:14px}.hot-list>a{grid-template-columns:22px 48px minmax(0,1fr) 13px;min-height:62px;gap:8px}.hot-list img{width:48px;height:48px}.hot-panel-head h2{font-size:20px}.hero-series{align-items:flex-start;gap:13px;padding:13px 0}.hero-series>div{gap:6px}.latest-records,.reading-guide,.active-series{padding-top:72px}.section-heading{display:block}.section-heading>p{margin-top:14px;text-align:left}.section-heading h2,details summary h2{font-size:27px}.record-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}.record-card h3{font-size:14px}.record-card > div:last-child>span{display:none}.guide-grid,.guide-grid.is-two-column{grid-template-columns:1fr;gap:12px}.guide-card{min-height:190px}.guide-card h3{margin-top:28px}.series-list>a{padding:24px 2px}details.archive-directory{margin-top:76px}.directory-row{grid-template-columns:30px 1fr;gap:12px;padding:28px 0}.directory-indexes{grid-column:2}details summary>span{max-width:100px;text-align:right}
   }
   @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}.record-card img,.guide-card{transform:none!important}}
 </style>

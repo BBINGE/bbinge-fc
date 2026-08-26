@@ -22,11 +22,15 @@ const pageTitle = index?.label ?? branch.title;
 const pageDescription = index
   ? `${branch.title} 가운데 ${index.label}에 관한 기록을 축적하는 색인입니다.`
   : branch.description;
-const records = (await getCollection('archive', ({ data }) =>
-  !data.draft && data.branch === branch.id && (!index || data.index === index.slug)
+const branchRecords = (await getCollection('archive', ({ data }) =>
+  !data.draft && data.branch === branch.id
 )).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
+const records = index ? branchRecords.filter((record) => record.data.index === index.slug) : branchRecords;
+const availableIndexes = branch.indexes.filter((item) =>
+  branchRecords.some((record) => record.data.index === item.slug)
+);
 const freshIndexes = new Set(
-  records
+  branchRecords
     .filter((record) => isRecentlyChanged(record.data.pubDate, record.data.updatedDate))
     .map((record) => record.data.index)
 );
@@ -81,7 +85,7 @@ const collectionSchema = {
 
     <nav class="index-nav" aria-label={`${branch.title} 세부 색인`}>
       <a class:list={[!index && 'is-active']} href={`/archive/${branch.id}/`}>전체</a>
-      {branch.indexes.map((item) => (
+      {availableIndexes.map((item) => (
         <a class:list={[index?.slug === item.slug && 'is-active']} href={`/archive/${branch.id}/${item.slug}/`}>
           {item.label}{freshIndexes.has(item.slug) && <span class="category-new">NEW</span>}
         </a>
