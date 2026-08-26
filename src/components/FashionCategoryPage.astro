@@ -10,8 +10,7 @@ interface Props {
 
 const { entries, description } = Astro.props;
 const [lead, ...rest] = entries;
-const edit = rest.slice(0, 4);
-const archive = rest.slice(4);
+const edit = rest;
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
 ---
 
@@ -59,14 +58,6 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
     </section>
   )}
 
-  {archive.length > 0 && (
-    <section class="fashion-archive" aria-labelledby="fashion-archive-title">
-      <div class="fashion-section-title"><p>ARCHIVE</p><h2 id="fashion-archive-title">지난 편집면</h2></div>
-      {archive.map((entry) => (
-        <a href={getArticlePath(entry.data.category, entry.id)}><time datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('ko-KR')}</time><strong>{entry.data.title}</strong><span>→</span></a>
-      ))}
-    </section>
-  )}
 </div>
 
 <style>
@@ -102,11 +93,6 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   .fashion-edit__story>div span { position:absolute; right:9px; bottom:8px; color:#fff; font-size:11px; font-weight:750; text-shadow:0 1px 8px rgba(0,0,0,.7); }
   .fashion-edit__story>p { margin-top:11px; }
   .fashion-edit__story h3 { margin-top:5px; font-size:16px; line-height:1.4; font-weight:650; letter-spacing:-.02em; }
-  .fashion-archive { margin-top:58px; }
-  .fashion-archive>a { display:grid; grid-template-columns:110px minmax(0,1fr) auto; align-items:center; gap:15px; padding:15px 2px; border-bottom:1px solid var(--bbfc-border); }
-  .fashion-archive time { color:var(--bbfc-gray-2); font-size:11px; }
-  .fashion-archive strong { font-size:14px; font-weight:620; }
-  .fashion-archive>a>span { color:var(--bbfc-blue); }
   .fashion-index__empty { padding:70px 0; text-align:center; color:var(--bbfc-gray-2); }
   @media (max-width:820px) {
     .fashion-cover { grid-template-columns:1fr; }
@@ -127,7 +113,5 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
     .fashion-edit__grid { gap:24px 10px; }
     .fashion-edit__story h3 { font-size:13.5px; }
     .fashion-edit__story:not(.fashion-edit__story--major)>div { aspect-ratio:1/1; }
-    .fashion-archive>a { grid-template-columns:1fr auto; }
-    .fashion-archive time { grid-column:1/3; }
   }
 </style>

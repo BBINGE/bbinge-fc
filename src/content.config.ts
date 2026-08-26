@@ -48,6 +48,7 @@ const articles = defineCollection({
         portraitAlt: z.string(),
         portraitCredit: z.string().optional(),
         birthDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+        birthYear: z.number().int().min(1800).max(2100).optional(),
         birthPlace: z.string().optional(),
         nationalities: z.array(z.object({
           name: z.string(),

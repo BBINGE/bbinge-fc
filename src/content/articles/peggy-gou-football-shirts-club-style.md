@@ -16,9 +16,9 @@ fashionProfile:
   eyebrow: 'PROFILE · DJ & PRODUCER'
   name: '페기 구'
   romanName: 'Peggy Gou'
-  portrait: '/images/culture/peggy-gou-football-shirt-style/01-kappa.webp'
-  portraitAlt: '분홍색 Kappa 풋볼 저지를 입은 페기 구의 스튜디오 포트레이트'
-  portraitCredit: 'Peggy Gou press portrait · Untitled Group'
+  portrait: '/images/culture/peggy-gou-football-shirt-style/profile-vogue-hk.webp'
+  portraitAlt: '흰 터틀넥을 입고 카메라를 바라보는 페기 구의 흑백 포트레이트'
+  portraitCredit: 'Vogue Hong Kong · Photo Maik Schuster, 2021'
   birthDate: '1991-07-03'
   birthPlace: '대한민국 인천'
   nationalities:
@@ -114,6 +114,7 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
+    <li><a href="https://www.voguehk.com/en/article/celebrity/why-peggy-gou-is-the-biggest-dj-in-the-world/">Vogue Hong Kong, “How Peggy Gou Became The World’s Coolest DJ”</a>, 2021년. Maik Schuster가 촬영한 인물 카드의 흑백 포트레이트.</li>
     <li><a href="https://whatsonthestar.com/outfit/peggy-gou-41525">What's On The Star, “Peggy Gou Outfit from May 8, 2024”</a>. 마틴 로즈 풋볼 셔츠, 프라다 선글라스, 에르메스 버킨백 착장과 제품 사진.</li>
     <li><a href="https://www.grazia.my/fashion/peggy-gou-signature-style-dissected/">Grazia Malaysia, “Peggy Gou’s Signature Styles, Dissected”</a>, 2025년 5월. 파란 풋볼 티셔츠, 테일러드 팬츠와 샤넬백 착장.</li>
     <li><a href="https://www.nss-sports.com/en/lifestyle/20185/rihanna-juventus">nss sports, “So Rihanna is a Juventus supporter?”</a>, 2019년. 유벤투스의 문화 인물 초청 맥락과 `P. GOU 3` 셔츠 사진.</li>

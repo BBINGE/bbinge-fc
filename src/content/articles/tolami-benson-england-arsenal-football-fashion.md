@@ -19,20 +19,21 @@ fashionProfile:
   portrait: '/images/culture/tolami-benson-football-style/05-beauty.webp'
   portraitAlt: '차 안에서 선글라스를 머리에 올리고 주얼리를 착용한 톨라미 벤슨'
   portraitCredit: 'British Vogue · Photo courtesy of Tolami Benson'
+  birthYear: 2000
   birthPlace: '영국 허트퍼드셔'
   nationalities:
     - name: '영국'
       flag: '/images/flags/gb.svg'
       flagAlt: '영국 국기'
   facts:
-    - label: '출생'
-      value: '2000년, 영국 허트퍼드셔'
     - label: '배경'
       value: '나이지리아계 영국인'
     - label: '직업'
       value: '미디어 전략가, 패션 크리에이터'
-    - label: '스타일'
-      value: '커스텀 저지 · 코르셋 · 경기일 패션'
+    - label: '학력'
+      value: '버밍엄 시티 대학교 홍보·미디어 학사'
+    - label: '활동'
+      value: '로레알 파리 앰배서더 · River Island 협업'
     - label: '오늘의 옷'
       value: '잉글랜드 유로 셔츠와 87번 커스텀 피스'
   officialChannel:

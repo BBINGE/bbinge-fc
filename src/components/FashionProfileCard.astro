@@ -18,6 +18,7 @@ interface Profile {
   portraitAlt: string;
   portraitCredit?: string;
   birthDate?: string;
+  birthYear?: number;
   birthPlace?: string;
   nationalities?: Nationality[];
   facts: Fact[];
@@ -35,7 +36,10 @@ const channelClass = profile.officialChannel?.label.toLowerCase() === 'instagram
   : 'fashion-profile__channel';
 
 const birthLabel = (() => {
-  if (!profile.birthDate) return undefined;
+  if (!profile.birthDate) {
+    if (!profile.birthYear) return undefined;
+    return `${profile.birthYear}년${profile.birthPlace ? ` · ${profile.birthPlace}` : ''}`;
+  }
   const [birthYear, birthMonth, birthDay] = profile.birthDate.split('-').map(Number);
   const currentParts = new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Asia/Seoul',

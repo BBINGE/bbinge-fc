@@ -16,9 +16,9 @@ fashionProfile:
   eyebrow: 'PROFILE · FASHION CREATOR'
   name: '말루 보르지스'
   romanName: 'Malu Borges'
-  portrait: '/images/culture/malu-borges-football-shirt-style/05-elle.webp'
-  portraitAlt: '상자누아리우 관중석에서 바스쿠 다 가마 유니폼과 흰 바지를 입은 말루 보르지스'
-  portraitCredit: 'Malu Borges Instagram · São Januário, 2024'
+  portrait: '/images/culture/malu-borges-football-shirt-style/profile-elle.webp'
+  portraitAlt: '빨간 드레스와 검정 부츠를 입은 말루 보르지스의 패션 화보'
+  portraitCredit: 'ELLE Brasil · Photo Gui Paganini · Styling Marcell Maia'
   birthDate: '1997-06-06'
   birthPlace: '브라질 페트로폴리스'
   nationalities:
@@ -32,8 +32,8 @@ fashionProfile:
       value: '패션 크리에이터, 모델'
     - label: '주요 형식'
       value: 'GRWM · 무언어 스타일링 영상'
-    - label: '응원 구단'
-      value: 'CR 바스쿠 다 가마'
+    - label: '기록'
+      value: 'Forbes Brasil Under 30 2024'
     - label: '오늘의 옷'
       value: '바스쿠 레트로·홈·골키퍼 셔츠'
   officialChannel:
@@ -118,6 +118,8 @@ fashionProfile:
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
+    <li><a href="https://elle.com.br/revista-digital-33/ensaio-entrevista">ELLE Brasil, “Ensaio & entrevista: Malu Borges”</a>. 인물 카드 화보, Gui Paganini 촬영과 Marcell Maia 스타일링.</li>
+    <li><a href="https://forbes.com.br/forbeslife/2024/12/forbes-under-30-2024-malu-borges-criadora-de-conteudo/">Forbes Brasil, “Forbes Under 30 2024: Malu Borges”</a>, 2024년. 패션 크리에이터 활동과 선정 기록.</li>
     <li><a href="https://vogue.globo.com/moda/noticia/2024/04/blokecore-como-montar-looks-com-camisa-de-time-de-futebol.ghtml">Vogue Brasil, “Blokecore: como montar looks com camisa de time de futebol”</a>, 2024년 4월. 진주와 바스쿠 셔츠 착장 사진.</li>
     <li><a href="https://www.netvasco.com.br/n/333895/modelo-e-influenciadora-malu-borges-posta-foto-com-camisa-do-vasco-de-patrocinio-master-da-brahma-veja-video">NETVASCO, 바스쿠 브라마 셔츠 착장</a>, 2024년 4월 2일. 빨간 롱스커트와 검정 액세서리 구성.</li>
     <li><a href="https://www.meuvasco.com.br/malu-borges-modelo-e-influenciadora-faz-visita-ao-estadio-de-sao-januario-confira-as-fotos-e-video/">MeuVasco, 말루 보르지스의 상자누아리우 방문</a>, 2024년 5월 14일. 검정 바스쿠 셔츠와 흰 팬츠 착장, 공식 Instagram 게시물 연결.</li>
