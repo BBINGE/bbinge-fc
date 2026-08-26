@@ -7,7 +7,7 @@ pubDate: 2026-08-26T15:23:18+09:00
 coverImage: '/images/culture/alessia-russo-tailoring-cover.webp'
 cardImage: '/images/culture/alessia-russo-tailoring-card.webp'
 coverImageAlt: '흰 재킷과 검정 타이를 입고 정면을 바라보는 알레시아 루소'
-coverImageCaption: 'Wonderland는 알레시아 루소에게 축구공을 쥐여주는 대신 재킷과 타이, 데님과 부츠를 입혔다. 그래도 화면에서 가장 먼저 읽히는 것은 선수의 자세다.'
+coverImageCaption: 'Wonderland는 알레시아 루소에게 축구공을 쥐여주는 대신 재킷과 타이, 데님과 부츠를 입혔다. 그래도 화면에서 가장 먼저 읽히는 것은 선수의 자세다. Photo © Aaron Crossman / Wonderland.'
 coverImageWidth: 1200
 coverImageHeight: 675
 draft: false
@@ -18,7 +18,7 @@ fashionProfile:
   romanName: 'Alessia Russo'
   portrait: '/images/culture/alessia-russo-tailoring/profile.webp'
   portraitAlt: '흰 재킷을 입고 정면을 바라보는 알레시아 루소의 Wonderland 화보'
-  portraitCredit: 'Wonderland Winter 2023 · Photo Aaron Crossman · Fashion Toni-Blaze Ibekwe'
+  portraitCredit: 'Wonderland Winter 2023 · Photo © Aaron Crossman · Fashion Toni-Blaze Ibekwe'
   birthDate: '1999-02-08'
   birthPlace: '영국 메이드스톤'
   nationalities:
@@ -48,14 +48,16 @@ fashionProfile:
 
 그래도 루소는 모델처럼 위장되지 않는다. 넓은 어깨와 단단한 허벅지, 바닥을 안정적으로 딛는 발이 옷보다 먼저 보인다. 이 화보의 성취는 운동선수의 몸을 평범한 패션 체형으로 고쳐 보이게 한 데 있지 않다. **선수의 몸을 그대로 둔 채 옷의 선을 바꿔가며 서로 다른 인상을 만든 데 있다.**
 
+<p class="russo-shoot-credit"><strong>WONDERLAND · WINTER 2023</strong><span>Photography © Aaron Crossman · Fashion Toni-Blaze Ibekwe</span></p>
+
 <div class="russo-opening-grid">
   <figure>
     <img src="/images/culture/alessia-russo-tailoring/white-skirt.webp" alt="흰 비대칭 재킷과 스커트, 부츠를 입고 선 알레시아 루소" width="900" height="1200" loading="lazy" decoding="async" />
-    <figcaption>Patrycja Pagas의 비대칭 흰색 셋업. 치맛단과 재킷의 사선이 곧게 선 자세를 가로지른다.</figcaption>
+    <figcaption>Patrycja Pagas의 비대칭 흰색 셋업. 치맛단과 재킷의 사선이 곧게 선 자세를 가로지른다.<small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/alessia-russo-tailoring/attico-denim.webp" alt="질감이 강한 상의와 넓은 데님 팬츠를 입은 알레시아 루소" width="900" height="1200" loading="lazy" decoding="async" />
-    <figcaption>The Attico의 데님 룩. 넓은 바짓단과 잘린 면이 하체의 움직임을 과장한다.</figcaption>
+    <figcaption>The Attico의 데님 룩. 넓은 바짓단과 잘린 면이 하체의 움직임을 과장한다.<small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
   </figure>
 </div>
 
@@ -69,7 +71,7 @@ fashionProfile:
 
 <figure class="russo-portrait-focus">
   <img src="/images/culture/alessia-russo-tailoring/shirt-tie.webp" alt="흰 재킷과 검정 가죽 상의, 셔츠와 타이를 청바지에 조합한 알레시아 루소" width="900" height="1200" loading="lazy" decoding="async" />
-  <figcaption>MM6 Maison Margiela 재킷과 데님, Marks &amp; Spencer 셔츠와 타이. 남성복의 문법을 그대로 복사하지 않고 길이와 소재를 잘라 다시 조립했다.</figcaption>
+  <figcaption>MM6 Maison Margiela 재킷과 데님, Marks &amp; Spencer 셔츠와 타이. 남성복의 문법을 그대로 복사하지 않고 길이와 소재를 잘라 다시 조립했다.<small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
 </figure>
 
 흰 셔츠와 검정 타이는 학교와 사무실, 남성 정장의 질서를 떠올리게 한다. 이 화보는 그 익숙한 조합을 단정하게 마무리하지 않는다. 흰 재킷 아래에는 짧은 검정 가죽 레이어를 넣고, 타이 아래로 드러난 셔츠와 청바지 사이에 빈 공간을 만든다. 위쪽은 규율을 말하지만 허리에서는 옷이 갑자기 끊긴다.
@@ -80,7 +82,7 @@ fashionProfile:
 
 <figure class="russo-panorama">
   <img src="/images/culture/alessia-russo-tailoring/givenchy-black.webp" alt="검정 드레스와 긴 부츠를 신고 낮게 기대 선 알레시아 루소" width="1600" height="900" loading="lazy" decoding="async" />
-  <figcaption>Givenchy의 검정 룩. 색을 하나로 줄이자 시선은 장식보다 몸의 기울기와 부츠의 길이를 따라간다.</figcaption>
+  <figcaption>Givenchy의 검정 룩. 색을 하나로 줄이자 시선은 장식보다 몸의 기울기와 부츠의 길이를 따라간다.<small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
 </figure>
 
 검정 드레스에서는 반대의 일이 벌어진다. 흰 재킷 룩이 여러 개의 모서리로 몸을 나눴다면, Givenchy<span class="foreign-note" lang="fr">(지방시; 프랑스 패션 하우스)</span>의 검정 룩은 상의부터 부츠까지 색을 하나로 묶는다. 화면을 넓게 비우고 인물을 왼쪽에 두면서, 기울어진 몸과 길게 뻗은 다리가 하나의 대각선이 된다.
@@ -98,15 +100,15 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
 <div class="russo-lookbook" aria-label="알레시아 루소 Wonderland 화보 세 장">
   <figure>
     <img src="/images/culture/alessia-russo-tailoring/white-trouser.webp" alt="흰 재킷과 팬츠를 입고 낮게 앉은 알레시아 루소" width="900" height="1200" loading="lazy" decoding="async" />
-    <figcaption><strong>01 · JACQUEMUS</strong><span>전신을 흰색으로 묶고 낮은 자세로 실루엣을 압축한다.</span></figcaption>
+    <figcaption><strong>01 · JACQUEMUS</strong><span>전신을 흰색으로 묶고 낮은 자세로 실루엣을 압축한다.</span><small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/alessia-russo-tailoring/miumiu.webp" alt="줄무늬 니트와 검정 핀스트라이프 재킷을 입은 알레시아 루소의 얼굴 중심 화보" width="900" height="1200" loading="lazy" decoding="async" />
-    <figcaption><strong>02 · MIU MIU</strong><span>줄무늬 니트와 핀스트라이프가 프레피 룩의 밀도를 얼굴 가까이 끌어올린다.</span></figcaption>
+    <figcaption><strong>02 · MIU MIU</strong><span>줄무늬 니트와 핀스트라이프가 프레피 룩의 밀도를 얼굴 가까이 끌어올린다.</span><small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
   </figure>
   <figure>
     <img src="/images/culture/alessia-russo-tailoring/wonderland-cover.webp" alt="검정 컷아웃 상의와 가죽 재킷을 입은 알레시아 루소의 Wonderland 표지" width="900" height="1200" loading="lazy" decoding="async" />
-    <figcaption><strong>03 · COVER</strong><span>검정 가죽과 컷아웃, 정면의 시선만 남겨 표지의 힘을 만든다.</span></figcaption>
+    <figcaption><strong>03 · COVER</strong><span>검정 가죽과 컷아웃, 정면의 시선만 남겨 표지의 힘을 만든다.</span><small class="russo-image-credit">Photo © Aaron Crossman / Wonderland</small></figcaption>
   </figure>
 </div>
 
@@ -154,6 +156,11 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
 </div>
 
 <style>
+  .russo-shoot-credit { position: relative; left: 50%; display: flex; align-items: baseline; justify-content: space-between; gap: 18px; width: min(960px, calc(100vw - 32px)); margin: 42px 0 -30px; padding-top: 13px; border-top: 1px solid var(--bbfc-ink); color: var(--bbfc-muted); transform: translateX(-50%); }
+  .russo-shoot-credit strong, .russo-shoot-credit span { display: block; }
+  .russo-shoot-credit strong { color: var(--bbfc-blue); font-size: 10px; letter-spacing: .14em; white-space: nowrap; }
+  .russo-shoot-credit span { font-size: 10px; letter-spacing: .02em; text-align: right; }
+  .russo-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 9px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
   .russo-opening-grid { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; width: min(960px, calc(100vw - 32px)); margin: 46px 0 58px; transform: translateX(-50%); }
   .russo-opening-grid figure, .russo-lookbook figure { margin: 0; }
   .russo-opening-grid img { display: block; width: 100%; height: auto; margin: 0; border-radius: var(--bbfc-radius-lg); }
@@ -174,6 +181,8 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
   .russo-style-notes h3 { margin: 12px 0 12px; font-size: 17px; line-height: 1.35; }
   .russo-style-notes p { margin: 0; color: #4d596a; font-size: 14px; line-height: 1.75; }
   @media (max-width: 720px) {
+    .russo-shoot-credit { display: block; margin-top: 36px; margin-bottom: -24px; }
+    .russo-shoot-credit span { margin-top: 5px; text-align: left; }
     .russo-opening-grid { gap: 8px; margin-top: 36px; }
     .russo-opening-grid figcaption { padding-inline: 2px; font-size: 10px; line-height: 1.55; }
     .russo-lookbook { display: flex; gap: 10px; padding: 0 16px 12px; overflow-x: auto; scroll-padding-inline: 16px; scroll-snap-type: x mandatory; scrollbar-width: none; }
