@@ -1,3 +1,16 @@
+## 2026-08-27 로테르담 De Kuip 축행 발행·카테고리별 편집 모드 고정
+
+- `/pilgrimage/rotterdam-de-kuip-football-travel/`을 추가했다. 검색 제목은 `네덜란드 로테르담 여행, “축빠”라면 De Kuip에 가야 하는 이유`이고, 본문 첫 언급에는 `Rotterdam`, `Feyenoord Rotterdam`, `De Kuip`의 원어와 필요한 뜻을 병기했다.
+- 기획 트리거는 `새로 짓는 도시가 1937년을 지키는 방법`이다. 2026년 7월 페예노르트가 De Kuip 지분 95% 이상을 확보해 구단과 경기장을 통합한 현재 사건에서 출발해, 전후 재건 건축·Kop van Zuid의 항만 재생·로테르담 남부 노동자 클럽의 정체성을 연결했다.
+- 상단에 `2 NIGHTS · 7 STOPS · 1 MATCH` 큐레이션 지도를 추가했다. Rotterdam Centraal → De Ballentent → Erasmusbrug → Kop van Zuid 숙소 → Fenix → Rijnhaven → De Kuip의 핀이 본문 앵커로 이동한다. 680px 이하에서는 겹치는 축소 지도를 쓰지 않고 같은 순서의 세로 경로 카드로 전환한다.
+- 숙소는 nhow Rotterdam·Hotel New York·ss Rotterdam을 `이동 균형 / 항만 이야기 / 선박 체험`으로 구분했다. 음식은 De Ballentent과 Fenix Food Factory를 실제 이동 동선에 넣고, Spotify의 `Hand in Hand, Kameraden`을 자동재생 없는 경기일 음악 카드로 연결했다.
+- 대표·목록·본문에는 Feyenoord와 Rotterdam Partners의 공식 사진을 로컬 WebP 10장으로 저장했다. 사진은 도시 전경, 강변 생활, Fenix의 식사, De Kuip 관중석, 2026년 경기장 인수식으로 역할을 나눴다. 잘못 받은 프로모션 이미지와 변환 전 원본은 커밋에서 제외했다.
+- 에레디비시 변화 글, 위대한 팀 10선의 1972년 De Kuip 결승, 빌바오 축행으로 관련 글을 연결했다. `/pilgrimage/`의 로마 대표 고정은 유지하고, 최신 로테르담 편이 `NEXT DESTINATION`, 빌바오·부더페슈트·토리노가 `CITY FILES`에 최신순으로 진열된다.
+- `EDITORIAL_ASSET_POLICY.md`에 `카테고리별 독자 심리와 편집 모드`를 영구 규칙으로 추가했다. 축디는 강한 룩과 화보 리듬, 대표·카드·프로필 이미지 역할 분리, 모바일 화보를 기준으로 삼고, 축행은 현재의 기획 트리거·둘이 결정하는 동선·숙소와 음식·큐레이션 지도·최소 5장의 역할 분리 사진을 기준으로 삼는다. 한 저자가 썼다는 이유로 전 카테고리에 같은 UI를 강제하지 않는다.
+- `npm.cmd run build`에서 선수 검수와 133페이지 정적 빌드를 통과했다. 380·768·1440px에서 가로 넘침 0, 지도 핀과 앵커 이동, 모바일 세로 경로 전환, 숙소 1·3열 전환, 응원가 카드, 시각 모듈 최소 글자 12px를 확인했다. 외부 경기 API 실패로 바뀐 `today-football.json`은 작업 전 상태로 복원한다.
+
+---
+
 ## 2026-08-26 전역 확대 철회·시각 정보 모듈 가독성 선별 보정
 
 - `a779c5b`에서 모든 작은 글자를 15px로 일괄 확대했던 변경을 철회했다. 홈 카드 설명·날짜·카테고리·일반 메타·본문 주변 글자는 `a53cc01` 당시의 편집 밀도로 돌아갔다.

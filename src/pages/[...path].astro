@@ -362,6 +362,42 @@ if (props.kind === 'category') {
   .journey-article .article-body>:global(.journey-links a:focus-visible i) { border-color:#2c72ff; background:var(--bbfc-blue); transform:translateX(3px); }
   .journey-article .article-body>:global(.journey-links a:hover i b),
   .journey-article .article-body>:global(.journey-links a:focus-visible i b) { color:#fff; animation:none; transform:translateX(5px); }
+  .journey-article .article-body>:global(h2[id]) { scroll-margin-top:110px; }
+  .journey-article .article-body>:global(h2[id]:target) { border-top-color:var(--bbfc-blue); color:var(--bbfc-blue); }
+  .journey-article .article-body>:global(.journey-map) { margin:0 0 58px; overflow:hidden; border:1px solid #d4dae3; background:#f2f4f7; color:var(--bbfc-ink); }
+  .journey-article .article-body>:global(.journey-map header) { display:flex; align-items:flex-end; justify-content:space-between; gap:20px; padding:24px 27px 21px; border-bottom:1px solid #d4dae3; background:#fff; }
+  .journey-article .article-body>:global(.journey-map header span) { display:block; color:var(--bbfc-blue); font-size:13px; line-height:1.4; font-weight:780; letter-spacing:.12em; }
+  .journey-article .article-body>:global(.journey-map header strong) { display:block; margin-top:6px; font-size:25px; line-height:1.18; letter-spacing:-.035em; }
+  .journey-article .article-body>:global(.journey-map header small) { color:#697483; font-size:12px; line-height:1.4; font-weight:670; letter-spacing:.08em; }
+  .journey-article .article-body :global(.journey-map__canvas) { position:relative; min-height:520px; overflow:hidden; background:radial-gradient(circle at 16% 18%,rgba(255,255,255,.95),transparent 22%),linear-gradient(145deg,#eef1f4,#dfe5eb); }
+  .journey-article .article-body :global(.journey-map__canvas::after) { content:'ROTTERDAM'; position:absolute; right:-12px; top:18px; color:rgba(16,27,43,.045); font-size:104px; line-height:1; font-weight:820; letter-spacing:-.07em; }
+  .journey-article .article-body :global(.journey-map__lines) { position:absolute; inset:0; width:100%; height:100%; }
+  .journey-article .article-body :global(.journey-map__river) { fill:none; stroke:#b7d2ec; stroke-width:64; stroke-linecap:round; opacity:.72; }
+  .journey-article .article-body :global(.journey-map__route) { fill:none; stroke:#172233; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; stroke-dasharray:10 11; }
+  .journey-article .article-body :global(.journey-map__pin) { position:absolute; z-index:2; left:var(--x); top:var(--y); display:grid; min-width:118px; grid-template-columns:34px 1fr; grid-template-rows:auto auto; column-gap:9px; padding:10px 12px 11px; border:1px solid rgba(16,27,43,.18); background:rgba(255,255,255,.94); color:var(--bbfc-ink); text-decoration:none; box-shadow:0 8px 21px rgba(23,34,51,.12); transform:translate(-50%,-50%); transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease; backdrop-filter:blur(7px); }
+  .journey-article .article-body :global(.journey-map__pin b) { grid-row:1/3; display:grid; width:34px; height:34px; place-items:center; align-self:center; border-radius:50%; background:#172233; color:#fff; font-size:15px; line-height:1; }
+  .journey-article .article-body :global(.journey-map__pin span) { color:#617084; font-size:12px; line-height:1.25; font-weight:780; letter-spacing:.1em; }
+  .journey-article .article-body :global(.journey-map__pin strong) { font-size:14px; line-height:1.3; white-space:nowrap; }
+  .journey-article .article-body :global(.journey-map__pin--stay b) { background:#b06b22; }
+  .journey-article .article-body :global(.journey-map__pin--match b) { background:#d8182d; }
+  .journey-article .article-body :global(.journey-map__pin:hover),
+  .journey-article .article-body :global(.journey-map__pin:focus-visible) { z-index:3; border-color:var(--bbfc-blue); outline:0; box-shadow:0 12px 29px rgba(35,89,183,.2); transform:translate(-50%,-54%); }
+  .journey-article .article-body>:global(.journey-map>p) { margin:0; padding:17px 27px 19px; border-top:1px solid #d4dae3; background:#fff; color:#556171; font-size:15px; line-height:1.65; }
+  .journey-article .article-body>:global(.journey-stays) { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:37px 0 51px; }
+  .journey-article .article-body :global(.journey-stay) { display:flex; min-height:286px; flex-direction:column; padding:25px 22px 22px; border:1px solid #d8dee6; background:#f6f7f9; }
+  .journey-article .article-body :global(.journey-stay--pick) { border-color:#9cbcff; background:#eaf1ff; box-shadow:inset 0 4px 0 var(--bbfc-blue); }
+  .journey-article .article-body :global(.journey-stay span) { color:var(--bbfc-blue); font-size:13px; line-height:1.4; font-weight:780; letter-spacing:.11em; }
+  .journey-article .article-body :global(.journey-stay strong) { display:block; margin-top:12px; font-size:24px; line-height:1.2; letter-spacing:-.035em; }
+  .journey-article .article-body :global(.journey-stay p) { margin:17px 0 0; color:#354153; font-size:15px; line-height:1.72; }
+  .journey-article .article-body :global(.journey-stay small) { display:block; margin-top:auto; padding-top:22px; color:#5c6878; font-size:13px; line-height:1.55; }
+  .journey-article .article-body>:global(.journey-audio) { position:relative; display:block; max-width:760px; margin:33px auto 57px; overflow:hidden; padding:31px 34px 34px; background:radial-gradient(circle at 90% 16%,rgba(239,36,55,.42),transparent 28%),linear-gradient(135deg,#11151d,#261017); color:#fff; text-decoration:none; transition:transform .24s ease,box-shadow .24s ease; }
+  .journey-article .article-body>:global(.journey-audio::after) { content:'♪'; position:absolute; right:25px; bottom:-30px; color:rgba(255,255,255,.06); font-size:156px; line-height:1; font-weight:800; }
+  .journey-article .article-body>:global(.journey-audio span) { position:relative; z-index:1; color:#ff8996; font-size:13px; line-height:1.4; font-weight:780; letter-spacing:.12em; }
+  .journey-article .article-body>:global(.journey-audio strong) { position:relative; z-index:1; display:block; margin-top:12px; font-size:clamp(27px,4vw,40px); line-height:1.12; letter-spacing:-.04em; }
+  .journey-article .article-body>:global(.journey-audio p) { position:relative; z-index:1; max-width:570px; margin:16px 0 0; color:rgba(255,255,255,.78); font-size:15px; line-height:1.7; }
+  .journey-article .article-body>:global(.journey-audio i) { position:relative; z-index:1; display:inline-flex; align-items:center; gap:8px; margin-top:23px; padding:9px 13px 10px; border:1px solid rgba(255,255,255,.33); color:#fff; font-size:15px; line-height:1; font-style:normal; font-weight:720; }
+  .journey-article .article-body>:global(.journey-audio:hover),
+  .journey-article .article-body>:global(.journey-audio:focus-visible) { outline:3px solid rgba(216,24,45,.35); outline-offset:4px; box-shadow:0 17px 34px rgba(31,10,14,.22); transform:translateY(-3px); }
   @keyframes journey-read-arrow {
     0%,62%,100% { transform:translateX(0); }
     72% { transform:translateX(4px); }
@@ -371,7 +407,9 @@ if (props.kind === 'category') {
   @media (prefers-reduced-motion:reduce) {
     .journey-article .article-body>:global(.journey-links a),
     .journey-article .article-body>:global(.journey-links i),
-    .journey-article .article-body>:global(.journey-links i b) { animation:none; transition:none; }
+    .journey-article .article-body>:global(.journey-links i b),
+    .journey-article .article-body :global(.journey-map__pin),
+    .journey-article .article-body>:global(.journey-audio) { animation:none; transition:none; }
   }
   @media (max-width:680px) {
     .journey-article-shell { padding-top:25px; }
@@ -387,6 +425,22 @@ if (props.kind === 'category') {
     .journey-article .article-body>:global(.journey-route-card) { padding:20px 16px; }
     .journey-article .article-body>:global(.journey-route-card>div) { grid-template-columns:1fr; }
     .journey-article .article-body>:global(.journey-route-card section) { min-height:190px; padding:20px 18px; }
+    .journey-article .article-body>:global(.journey-map header) { display:block; padding:20px 18px 18px; }
+    .journey-article .article-body>:global(.journey-map header strong) { font-size:22px; }
+    .journey-article .article-body>:global(.journey-map header small) { display:block; margin-top:11px; }
+    .journey-article .article-body :global(.journey-map__canvas) { display:grid; min-height:0; gap:10px; padding:20px 18px 22px 48px; }
+    .journey-article .article-body :global(.journey-map__canvas::before) { content:''; position:absolute; left:31px; top:36px; bottom:38px; width:2px; background:#aab4c0; }
+    .journey-article .article-body :global(.journey-map__canvas::after),
+    .journey-article .article-body :global(.journey-map__lines) { display:none; }
+    .journey-article .article-body :global(.journey-map__pin) { position:relative; left:auto; top:auto; width:100%; min-width:0; transform:none; }
+    .journey-article .article-body :global(.journey-map__pin::before) { content:''; position:absolute; left:-23px; top:50%; width:12px; height:12px; border:3px solid #f2f4f7; border-radius:50%; background:#5f6d7c; box-shadow:0 0 0 1px #8995a3; transform:translate(-50%,-50%); }
+    .journey-article .article-body :global(.journey-map__pin:hover),
+    .journey-article .article-body :global(.journey-map__pin:focus-visible) { transform:translateX(3px); }
+    .journey-article .article-body>:global(.journey-map>p) { padding:15px 18px 17px; }
+    .journey-article .article-body>:global(.journey-stays) { grid-template-columns:1fr; gap:12px; }
+    .journey-article .article-body :global(.journey-stay) { min-height:0; }
+    .journey-article .article-body :global(.journey-stay small) { margin-top:20px; padding-top:0; }
+    .journey-article .article-body>:global(.journey-audio) { padding:27px 22px 30px; }
     .journey-article .article-body>:global(.journey-image-pair) { grid-template-columns:1fr; gap:20px; }
     .journey-article .article-body>:global(.journey-image-pair figure) { display:block; background:#eef1f5; }
     .journey-article .article-body>:global(.journey-image-pair img) { height:auto; min-height:0; aspect-ratio:16/10; }
