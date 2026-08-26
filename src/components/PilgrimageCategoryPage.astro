@@ -37,6 +37,13 @@ const routeProfiles: Record<string, TravelMeta> = {
     clubs: 'JUVENTUS FC · TORINO FC',
     route: '명예의 거리 · 몰레 안토넬리아나 · 이집트 박물관 · 알 비체린',
   },
+  'budapest-honeymoon-football-travel-10': {
+    city: 'BUDAPEST',
+    country: 'MAGYARORSZÁG',
+    stadium: 'PUSKÁS ARÉNA',
+    clubs: 'KISPEST–HONVÉD · MTK · FERENCVÁROS',
+    route: '어부의 요새 · 푸슈카시 박물관 · 세체니 온천 · 다뉴브의 밤',
+  },
 };
 
 const metaFor = (entry: CollectionEntry<'articles'>): TravelMeta => routeProfiles[entry.id] ?? {

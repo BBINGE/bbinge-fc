@@ -207,11 +207,12 @@ if (props.kind === 'category') {
   >
     {articleView.faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
 
-    <div class:list={["mx-auto px-4 md:px-6 py-8 md:py-12", articleView.entry.data.category === 'culture' ? 'max-w-[1080px] fashion-article-shell' : 'max-w-[920px]']}>
-      <article class:list={[{ 'fashion-article': articleView.entry.data.category === 'culture' }]}>
+    <div class:list={["mx-auto px-4 md:px-6 py-8 md:py-12", articleView.entry.data.category === 'culture' ? 'max-w-[1080px] fashion-article-shell' : articleView.entry.data.category === 'pilgrimage' ? 'max-w-[1080px] journey-article-shell' : 'max-w-[920px]']}>
+      <article class:list={[{ 'fashion-article': articleView.entry.data.category === 'culture', 'journey-article': articleView.entry.data.category === 'pilgrimage' }]}>
         <header class="article-heading">
           <span class="text-[11px] text-[var(--bbfc-blue)]">{articleView.meta.label}</span>
           {articleView.entry.data.category === 'culture' && <p class="fashion-article__issue">BBINGE FC · STYLE FILE</p>}
+          {articleView.entry.data.category === 'pilgrimage' && <p class="journey-article__issue">BBINGE FC · FOOTBALL TRAVEL JOURNAL</p>}
           <h1 class="text-[30px] md:text-[42px] font-semibold mt-3 mb-4 leading-[1.2] tracking-[-0.035em] text-[var(--bbfc-ink)]">{articleView.entry.data.title}</h1>
         </header>
         <div class="mb-6">
@@ -301,6 +302,79 @@ if (props.kind === 'category') {
     .fashion-article__issue { font-size:8px; }
     .fashion-article .article-body { margin-top:26px; }
     .fashion-article .article-body>:global(p:first-of-type)::first-letter { font-size:54px; }
+  }
+  .journey-article .article-heading { display:grid; grid-template-columns:auto 1fr; column-gap:13px; align-items:center; padding-bottom:21px; border-bottom:3px solid var(--bbfc-ink); }
+  .journey-article .article-heading>span { font-weight:760; letter-spacing:.12em; }
+  .journey-article__issue { justify-self:end; color:var(--bbfc-gray-2); font-size:9px; font-weight:650; letter-spacing:.14em; }
+  .journey-article .article-heading h1 { grid-column:1/3; max-width:980px; margin-top:17px; font-size:clamp(38px,5vw,62px); line-height:1.1; font-weight:780; letter-spacing:-.052em; text-wrap:balance; }
+  .journey-article :global(.content-cover) { margin-top:0; }
+  .journey-article .article-body { margin-top:38px; }
+  .journey-article .article-body>:global(p),
+  .journey-article .article-body>:global(h2),
+  .journey-article .article-body>:global(h3),
+  .journey-article .article-body>:global(blockquote),
+  .journey-article .article-body>:global(.journey-note),
+  .journey-article .article-body>:global(.source-notes) { max-width:760px; margin-left:auto; margin-right:auto; }
+  .journey-article .article-body>:global(h2) { margin-top:92px; padding:21px 0 0; border-top:2px solid var(--bbfc-ink); border-left:0; font-size:clamp(27px,3.3vw,36px); line-height:1.28; letter-spacing:-.04em; }
+  .journey-article .article-body>:global(p:first-of-type)::first-letter { float:left; margin:10px 9px 0 0; color:var(--bbfc-blue); font-size:66px; line-height:.68; font-weight:780; }
+  .journey-article .article-body>:global(figure) { overflow:hidden; border-radius:0; }
+  .journey-article .article-body>:global(figure img) { border-radius:0; }
+  .journey-article .article-body>:global(figcaption) { padding:0 8px; text-align:left; }
+  .journey-article .article-body>:global(.journey-deck) { position:relative; overflow:hidden; margin:62px 0 24px; padding:52px 54px 55px; background:radial-gradient(circle at 88% 15%,rgba(65,127,255,.33),transparent 34%),linear-gradient(145deg,#09111e,#17253a); color:#fff; }
+  .journey-article .article-body>:global(.journey-deck::after) { content:'BUDAPEST'; position:absolute; right:-10px; bottom:-31px; color:rgba(255,255,255,.045); font-size:116px; line-height:1; font-weight:820; letter-spacing:-.07em; }
+  .journey-article .article-body>:global(.journey-deck p) { position:relative; z-index:1; margin:0; color:#85b5ff; font-size:9px; line-height:1.4; font-weight:760; letter-spacing:.18em; }
+  .journey-article .article-body>:global(.journey-deck strong) { position:relative; z-index:1; display:block; max-width:720px; margin-top:19px; font-size:clamp(34px,5vw,56px); line-height:1.08; font-weight:760; letter-spacing:-.052em; }
+  .journey-article .article-body>:global(.journey-deck span) { position:relative; z-index:1; display:block; margin-top:24px; color:rgba(255,255,255,.63); font-size:11px; letter-spacing:.06em; }
+  .journey-article .article-body>:global(.journey-route-card) { margin:0 0 54px; padding:24px 26px 26px; border:1px solid var(--bbfc-border); background:#f5f6f8; }
+  .journey-article .article-body>:global(.journey-route-card>p) { margin:0; color:var(--bbfc-blue); font-size:9px; line-height:1.4; font-weight:760; letter-spacing:.16em; }
+  .journey-article .article-body>:global(.journey-route-card>div) { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; margin-top:17px; background:var(--bbfc-border); }
+  .journey-article .article-body>:global(.journey-route-card section) { padding:20px 18px; background:#fff; }
+  .journey-article .article-body>:global(.journey-route-card span) { display:block; color:var(--bbfc-blue); font-size:8px; line-height:1.4; font-weight:760; letter-spacing:.13em; }
+  .journey-article .article-body>:global(.journey-route-card strong) { display:block; margin-top:6px; font-size:18px; line-height:1.35; }
+  .journey-article .article-body>:global(.journey-route-card small) { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:10px; line-height:1.55; }
+  .journey-article .article-body>:global(.journey-wide) { margin:48px 0 64px; }
+  .journey-article .article-body>:global(.journey-poster) { max-width:920px; margin:48px auto 64px; background:#090d14; }
+  .journey-article .article-body>:global(.journey-poster figcaption) { margin:0; padding:13px 16px 15px; color:rgba(255,255,255,.6); }
+  .journey-article .article-body>:global(.journey-image-pair) { display:grid; grid-template-columns:1.12fr .88fr; gap:10px; margin:48px 0 66px; }
+  .journey-article .article-body>:global(.journey-image-pair figure) { display:grid; grid-template-rows:1fr auto; min-width:0; margin:0; overflow:hidden; background:#f3f4f5; }
+  .journey-article .article-body>:global(.journey-image-pair img) { width:100%; height:100%; min-height:330px; border-radius:0; object-fit:cover; }
+  .journey-article .article-body>:global(.journey-image-pair figcaption) { margin:0; padding:11px 13px 13px; text-align:left; }
+  .journey-article .article-body>:global(.journey-note) { margin-top:35px; margin-bottom:55px; padding:23px 25px 25px; border-top:3px solid var(--bbfc-blue); background:#f2f5fb; }
+  .journey-article .article-body>:global(.journey-note span) { display:block; color:var(--bbfc-blue); font-size:9px; line-height:1.4; font-weight:760; letter-spacing:.15em; }
+  .journey-article .article-body>:global(.journey-note p) { margin:10px 0 0; color:var(--bbfc-ink-2); font-size:15px; line-height:1.75; }
+  .journey-article .article-body>:global(.journey-fact-strip) { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1px; margin:4px 0 67px; border:1px solid var(--bbfc-border); background:var(--bbfc-border); }
+  .journey-article .article-body>:global(.journey-fact-strip div) { padding:23px 12px 21px; background:#fff; text-align:center; }
+  .journey-article .article-body>:global(.journey-fact-strip span) { display:block; color:var(--bbfc-blue); font-size:25px; line-height:1; font-weight:760; letter-spacing:-.04em; }
+  .journey-article .article-body>:global(.journey-fact-strip small) { display:block; margin-top:8px; color:var(--bbfc-gray-2); font-size:9px; line-height:1.4; }
+  .journey-article .article-body>:global(.journey-finale) { margin:52px 0 74px; background:#07100f; }
+  .journey-article .article-body>:global(.journey-finale img) { min-height:500px; object-fit:cover; }
+  .journey-article .article-body>:global(.journey-finale figcaption) { margin:0; padding:13px 16px 15px; color:rgba(255,255,255,.62); }
+  .journey-article .article-body>:global(.journey-links) { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:42px 0 70px; }
+  .journey-article .article-body>:global(.journey-links a) { display:flex; min-height:190px; flex-direction:column; padding:22px 20px 19px; border:1px solid var(--bbfc-border); background:#fff; color:var(--bbfc-ink); text-decoration:none; transition:transform .25s ease,border-color .25s ease; }
+  .journey-article .article-body>:global(.journey-links a:hover) { transform:translateY(-3px); border-color:var(--bbfc-blue); }
+  .journey-article .article-body>:global(.journey-links span) { color:var(--bbfc-blue); font-size:8px; line-height:1.4; font-weight:760; letter-spacing:.14em; }
+  .journey-article .article-body>:global(.journey-links strong) { display:block; margin-top:13px; font-size:18px; line-height:1.45; letter-spacing:-.025em; }
+  .journey-article .article-body>:global(.journey-links i) { margin-top:auto; color:var(--bbfc-gray-2); font-size:10px; font-style:normal; font-weight:650; }
+  @media (max-width:680px) {
+    .journey-article-shell { padding-top:25px; }
+    .journey-article .article-heading h1 { font-size:35px; }
+    .journey-article__issue { font-size:7px; letter-spacing:.08em; }
+    .journey-article .article-body { margin-top:27px; }
+    .journey-article .article-body>:global(p:first-of-type)::first-letter { font-size:54px; }
+    .journey-article .article-body>:global(h2) { margin-top:66px; padding-top:17px; font-size:25px; }
+    .journey-article .article-body>:global(.journey-deck) { margin-top:47px; padding:35px 22px 38px; }
+    .journey-article .article-body>:global(.journey-deck::after) { right:-5px; bottom:-15px; font-size:62px; }
+    .journey-article .article-body>:global(.journey-deck strong) { font-size:35px; }
+    .journey-article .article-body>:global(.journey-deck span) { font-size:9px; line-height:1.6; }
+    .journey-article .article-body>:global(.journey-route-card) { padding:20px 16px; }
+    .journey-article .article-body>:global(.journey-route-card>div) { grid-template-columns:1fr; }
+    .journey-article .article-body>:global(.journey-route-card section) { padding:16px 15px; }
+    .journey-article .article-body>:global(.journey-image-pair) { grid-template-columns:1fr; gap:20px; }
+    .journey-article .article-body>:global(.journey-image-pair img) { min-height:0; aspect-ratio:16/10; }
+    .journey-article .article-body>:global(.journey-fact-strip) { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .journey-article .article-body>:global(.journey-finale img) { min-height:340px; }
+    .journey-article .article-body>:global(.journey-links) { grid-template-columns:1fr; }
+    .journey-article .article-body>:global(.journey-links a) { min-height:145px; }
   }
   .category-intro {
     margin: 0 0 24px;
