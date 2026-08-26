@@ -157,7 +157,7 @@ fashionProfile:
   .sakina-material-map article, .sakina-style-notes article { margin:0; padding:27px 24px 29px; }
   .sakina-material-map article + article, .sakina-style-notes article + article { border-left:1px solid #303741; }
   .sakina-material-map span, .sakina-style-notes span { color:#6fa8ff; font-size:10px; font-weight:800; letter-spacing:.13em; }
-  .sakina-material-map h3, .sakina-style-notes h3 { margin:11px 0 10px; color:#fff; font-size:17px; line-height:1.35; }
+  .article-body .sakina-material-map article > h3, .article-body .sakina-style-notes article > h3 { margin:11px 0 10px; color:#fff; font-size:17px; line-height:1.35; }
   .sakina-material-map p, .sakina-style-notes p { margin:0; color:#c7ccd4; font-size:13px; line-height:1.72; }
   .sakina-object-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:42px 0 58px; }
   .sakina-instagram-grid { width:min(1040px,calc(100vw - 32px)); }
