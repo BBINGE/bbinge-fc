@@ -26,14 +26,14 @@ fashionProfile:
       flag: '/images/flags/kr.svg'
       flagAlt: '대한민국 국기'
   facts:
-    - label: '본명'
+    - label: '풀네임'
       value: '김민지 (Kim Min-ji)'
     - label: '직업'
       value: 'DJ, 프로듀서, 싱어송라이터'
-    - label: '레이블'
-      value: 'Gudu Records'
-    - label: '정규 앨범'
-      value: 'I Hear You (2024)'
+    - label: '대표 음악'
+      value: '(It Goes Like) Nanana · Starry Night · I Go'
+    - label: '기록'
+      value: '정규 1집 I Hear You (2024)'
     - label: '오늘의 옷'
       value: '마틴 로즈·유벤투스·Kappa 풋볼 셔츠'
   officialChannel:
@@ -119,7 +119,7 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
     <li><a href="https://www.grazia.my/fashion/peggy-gou-signature-style-dissected/">Grazia Malaysia, “Peggy Gou’s Signature Styles, Dissected”</a>, 2025년 5월. 파란 풋볼 티셔츠, 테일러드 팬츠와 샤넬백 착장.</li>
     <li><a href="https://www.nss-sports.com/en/lifestyle/20185/rihanna-juventus">nss sports, “So Rihanna is a Juventus supporter?”</a>, 2019년. 유벤투스의 문화 인물 초청 맥락과 `P. GOU 3` 셔츠 사진.</li>
     <li><a href="https://thepartae.com/peggy-gou-announces-exclusive-sydney-show-presented-by-untitled-group/">The Partae, Peggy Gou Sydney show announcement</a>, 2025년. 분홍색 Kappa 저지 공식 홍보 포트레이트.</li>
-    <li><a href="https://music.apple.com/us/artist/peggy-gou/1068912248">Apple Music, Peggy Gou</a>. 출생지·생년월일, 음악 활동과 Gudu Records 소개.</li>
+    <li><a href="https://music.apple.com/us/artist/peggy-gou/1068912248">Apple Music, Peggy Gou</a>. 대표 음악과 정규 앨범.</li>
     <li><a href="https://peggygou.com/">Peggy Gou 공식 웹사이트</a>. 공식 활동과 채널 확인.</li>
   </ol>
 </div>

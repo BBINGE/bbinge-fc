@@ -26,11 +26,11 @@ fashionProfile:
       flag: '/images/flags/br.svg'
       flagAlt: '브라질 국기'
   facts:
-    - label: '활동명'
+    - label: '풀네임'
       value: '말루 보르지스 (Malu Borges)'
     - label: '직업'
       value: '패션 크리에이터, 모델'
-    - label: '주요 형식'
+    - label: '주요 활동'
       value: 'GRWM · 무언어 스타일링 영상'
     - label: '기록'
       value: 'Forbes Brasil Under 30 2024'
@@ -126,7 +126,6 @@ fashionProfile:
     <li><a href="https://www.instagram.com/reel/C2uklCurOBw/">Malu Borges 공식 Instagram</a>, 2024년 1월. 1997년 우승과 에드문두를 기념한 바스쿠 레트로 셔츠 GRWM.</li>
     <li><a href="https://www.instagram.com/reel/C2Iw7DpPCvI/">Malu Borges 공식 Instagram</a>, 2024년 1월. 바스쿠 윈드브레이커 스타일링.</li>
     <li><a href="https://trivela.com.br/brasil/block-core-camisas-de-time-moda/">Trivela, “Arrume-se comigo e o bloke core”</a>, 2024년 6월 27일. 브라질 주변부의 축구 셔츠 문화와 말루 보르지스의 바스쿠 착장.</li>
-    <li><a href="https://gshow.globo.com/cultura-pop/famosos/noticia/malu-borges-mostra-preparativos-para-cha-de-bebe-de-sua-segunda-filha.ghtml">gshow, 말루 보르지스 29세 생일</a>, 2026년 6월 6일. 생년월일 확인.</li>
   </ol>
 </div>
 
