@@ -29,23 +29,11 @@ relatedGroup: 'hungary-golden-team'
   <p>현대 기준으로도 “축구사 이래 역대 최고의 팀”이라고 평가되는 당시의 <span lang="hu">Aranycsapat</span>(어러니처퍼트; 황금의 팀, 영문으로는 <span lang="en">The Magical Magyars</span>라며 ‘매직 머저르’라고 부르기도 한다) 세대가 라디오 앞에 늘어서 있었습니다.</p>
 </div>
 
-<div class="cinematic-zoom" aria-label="1956년 혼베드 선수단이 있던 장소를 세계에서 빌바오까지 좁혀 보여주는 지도형 그래픽">
-  <div class="zoom-world"><span>THE WORLD</span><strong>1956</strong></div>
-  <div class="zoom-europe"><span>EUROPE</span><strong>냉전의 경계</strong></div>
-  <div class="zoom-iberia"><span>IBERIAN PENINSULA</span><strong>스페인 왕국</strong></div>
-  <div class="zoom-bilbao"><span>BILBAO</span><strong>라디오 앞의 황금의 팀</strong></div>
-</div>
-
 <div class="prose-opening prose-opening--scene">
   <p>스페인어 중계가 잡음 사이로 흘러나왔고, 선수들은 명확히 알아들을 수 없었으나 한 가지는 깨달을 수 있었습니다. ‘전차’, ‘진압’, 자기 앞에 열거된 ‘국가’의 이름을 들을 때는 딱히 별다른 통역도 없었겠지요.</p>
 
   <p>그 라디오 앞에는 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리식 성명 순서의 인사이드 포워드·육군 소령, 1927–2006)</span>, 코치시 샨도르<span class="foreign-note" lang="hu">(Kocsis Sándor Péter; 인사이드 포워드·육군 소령, 1929–1979)</span>, 치보르 졸탄<span class="foreign-note" lang="hu">(Czibor Zoltán; 아웃사이드 레프트·육군 대위, 1929–1997)</span>, 보지크 요제프<span class="foreign-note" lang="hu">(Bozsik József; 라이트 하프·육군 소령, 1925–1978)</span>가 있었다. 1952년 올림픽 금메달을 목에 걸고, 웸블리에서 잉글랜드를 6-3으로 무너뜨렸으며, 1954년 월드컵에서 27골을 넣은 세대였다.</p>
 </div>
-
-<figure class="history-photo history-photo--wide">
-  <img src="/images/history/hungary-1956-revolution/fortepan-40141-radio.webp" alt="1956년 헝가리 혁명 당시 지하 공간에 모여 라디오를 듣는 부다페스트 시민들" width="1400" height="942" loading="lazy" decoding="async" />
-  <figcaption><strong>1956년, 라디오는 사건과 사람 사이의 가장 짧고도 불완전한 길이었다.</strong> 부다페스트 시민들이 지하 공간에 모여 방송을 듣고 있다. Fortepan 40141 · 기증자 Nagy Gyula · CC BY-SA 3.0.</figcaption>
-</figure>
 
 스페인어 방송이든, 유럽의 신문이든, 라디오 프리 유럽<span class="foreign-note" lang="en">(Radio Free Europe; 냉전기 동유럽권을 향해 송출된 미국 지원 국제방송)</span>이든 국외에 있던 선수들이 접한 것은 이미 누군가가 고르고 배열한 소식이었다. 잡음 사이로 흘러나온 도시 이름과 전차, 진압, 정부라는 단어. 그들은 나라 전체를 내려다보는 역사학자가 아니라 가족을 남겨둔 채 다음 경기를 준비하던 사람들이었다.
 
@@ -164,20 +152,34 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
 소련군의 목표는 단순히 국경을 넘는 데 있지 않았다. 수도의 교량, 방송, 정부기관, 병영과 주요 저항 거점을 빠르게 분리해야 했다. 북쪽에서는 바치 거리<span class="foreign-note" lang="hu">(Váci út)</span>, 남쪽에서는 쇼록샤리 거리<span class="foreign-note" lang="hu">(Soroksári út)</span>를 따라 페슈트로 접근했고, 서쪽의 부더외르시 거리<span class="foreign-note" lang="hu">(Budaörsi út)</span>에서는 병영이 공격받았다. 다뉴브의 교두보를 장악하면 부더와 페슈트의 저항이 서로 연결되는 것을 막을 수 있었다. 아래 도해는 부대별 세부 기동을 확정하는 전황도가 아니라 유엔 보고서와 군사사 연구에 반복되는 수도 진입축을 독자가 읽을 수 있게 단순화한 편집 지도다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
 
 <section class="invasion-map" aria-label="1956년 11월 4일 소련군의 부더페슈트 주요 진입축을 단순화한 지도">
-  <header><span>OPERATION WHIRLWIND · 04 NOV 1956</span><strong>부더페슈트를 세 방향에서 분리하다</strong></header>
-  <div class="map-field">
-    <div class="map-danube" aria-hidden="true"><span>DUNA · DANUBE</span></div>
-    <div class="map-buda"><strong>BUDA</strong><small>구릉 · 부더외르시 병영</small></div>
-    <div class="map-pest"><strong>PEST</strong><small>의회 · 방송 · 코르빈 거리</small></div>
-    <div class="map-node map-node--parliament"><i></i><span>의회</span></div>
-    <div class="map-node map-node--radio"><i></i><span>국영 라디오</span></div>
-    <div class="map-node map-node--corvin"><i></i><span>코르빈 거리 저항</span></div>
-    <div class="map-route map-route--north"><b>① 북부 진입</b><span>Váci út ↓</span></div>
-    <div class="map-route map-route--south"><b>② 남부 진입</b><span>Soroksári út ↑</span></div>
-    <div class="map-route map-route--west"><b>③ 서부 공격</b><span>Budaörsi út →</span></div>
-    <div class="map-ring" aria-hidden="true"></div>
+  <header><span>OPERATION WHIRLWIND · 04 NOV 1956</span><strong>나라를 포위한 뒤, 수도의 연결을 끊었다</strong><p>큰 지도에서 작은 지도로 내려가며 읽는다.</p></header>
+  <div class="map-lesson">
+    <div class="country-stage">
+      <div class="stage-number"><b>1</b><span>HUNGARY</span></div>
+      <div class="country-label country-label--west">오스트리아</div>
+      <div class="country-label country-label--north">체코슬로바키아</div>
+      <div class="country-label country-label--east">소련·루마니아 방면</div>
+      <div class="country-label country-label--south">유고슬라비아</div>
+      <div class="budapest-pin"><i></i><strong>부더페슈트</strong><small>11월 3일 밤 포위</small></div>
+      <div class="reinforcement-arrow reinforcement-arrow--one"><span>증원군</span></div>
+      <div class="reinforcement-arrow reinforcement-arrow--two"><span>소련군</span></div>
+      <p class="stage-caption">헝가리 안에 주둔하던 병력에 국경 밖 증원군이 합류했다. 먼저 수도와 지방의 헝가리군을 서로 고립시켰다.</p>
+    </div>
+    <div class="city-stage">
+      <div class="stage-number"><b>2</b><span>BUDAPEST</span></div>
+      <div class="city-danube"><span>다뉴브</span></div>
+      <div class="city-half city-half--buda"><strong>BUDA</strong><small>서쪽 구릉</small></div>
+      <div class="city-half city-half--pest"><strong>PEST</strong><small>동쪽 시가지</small></div>
+      <div class="city-target city-target--parliament"><i></i><span>의회·정부기관</span></div>
+      <div class="city-target city-target--radio"><i></i><span>방송 시설</span></div>
+      <div class="city-target city-target--corvin"><i></i><span>코르빈 거리</span></div>
+      <div class="city-route city-route--north"><b>북쪽</b><span>Váci út ↓</span></div>
+      <div class="city-route city-route--south"><b>남쪽</b><span>Soroksári út ↑</span></div>
+      <div class="city-route city-route--west"><b>서쪽</b><span>Budaörsi út →</span></div>
+      <p class="stage-caption">북·남·서쪽 진입축과 교두보 장악은 부더와 페슈트, 저항 거점과 정부기관이 하나의 전선이 되는 것을 막았다.</p>
+    </div>
   </div>
-  <footer><span><i class="legend-route"></i> 소련군 주요 진입축</span><span><i class="legend-water"></i> 다뉴브</span><span><i class="legend-node"></i> 핵심 도시 지점</span></footer>
+  <footer><strong>읽는 순서</strong><span>헝가리 포위</span><i>→</i><span>부더페슈트 확대</span><i>→</i><span>교량·방송·정부·저항 거점 분리</span></footer>
 </section>
 
 전차를 몰던 병사 역시 지도 위의 붉은 화살표로만 존재하지 않았다. 소련군 병사 가운데 일부는 자신이 독일의 파시스트를 상대하러 간다고 들었다는 증언이 전한다. 반대편의 헝가리군도 한 몸처럼 움직이지 않았다. 고위 지휘부와 부대, 병사 개인의 판단이 갈렸고 무기를 시민에게 넘긴 경우와 진압에 가담한 경우가 함께 기록됐다. 장교의 작전도에는 목표물이지만, 전차 안 병사에게는 처음 보는 거리였고, 창문 뒤 시민에게는 자기 집 앞이었다.
@@ -400,33 +402,54 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
 
 한 나라의 황금세대가 끝난 자리에서 스페인 클럽축구의 다른 역사가 시작됐다. 끝과 시작은 같은 이동 안에 겹쳐 있었다.
 
-## 세계는 왜 이렇게 줏대가 없을까
+여기까지 확인하면 이 글의 처음에 놓인 질문으로 돌아갈 수 있다. 푸슈카시·코치시·치보르·보지크·그로시치·히데그쿠티는 같은 대표팀 사진 안에 있었고, 같은 혁명을 지나왔지만 같은 결론에 도착하지 않았다. ‘1956년 혁명으로 황금의 팀이 해체됐다’는 문장은 이 복수의 시간을 한 줄로 압축한 결과다.
 
-여러분은 오늘 저녁에 식사하실 건가요?
+압축 자체가 잘못은 아니다. 연표와 사전, 검색 결과는 압축 없이는 작동할 수 없다. 문제는 요약된 시간을 실제 인간 모두의 시간표로 오해하는 순간 생긴다. 사건의 이름이 같다고 경험까지 같다고 가정하는 오류는 역사책 안에만 머물지 않는다. 우리는 일상에서도 시각 하나에 대표 행동 하나를 붙인 뒤, 그 규칙 밖의 사람을 예외로 처리한다.
 
-저는 안 먹으려고요. 살을 빼야 해서요.
+<section class="time-bridge" aria-labelledby="time-bridge-title">
+  <header><span>한 문장에는 한 시각만 남는다</span><h2 id="time-bridge-title">하지만 같은 시각 안에는 여러 사람의 시간이 겹친다</h2></header>
+  <div class="time-bridge__equations">
+    <article><small>역사의 요약</small><strong>1956년</strong><b>혁명 → 황금의 팀 해체</b></article>
+    <article><small>일상의 요약</small><strong>18:00</strong><b>저녁시간 → 식사</b></article>
+  </div>
+  <div class="time-bridge__reveal">
+    <span>실제로는</span>
+    <div><i>18:00</i><b>식사</b></div>
+    <div><i>18:00</i><b>퇴근</b></div>
+    <div><i>18:00</i><b>발레</b></div>
+    <div><i>18:00</i><b>술자리</b></div>
+    <div><i>18:00</i><b>휴가</b></div>
+  </div>
+  <p>이제 카메라는 1956년의 국가와 선수에게서 빠져나와, 같은 논리 구조가 반복되는 2026년의 평범한 저녁으로 이동한다. 아래 이야기는 갑자기 붙은 농담이 아니라 이 글의 논증을 가장 작은 생활 단위에서 다시 시험하는 장면이다.</p>
+</section>
 
-그런데 제 친구는 발레가 끝나고 샤인머스캣을 사 간다네요. 어떤 친구는 조기 퇴근하고 오후 5시부터 친구들과 술을 마시고 있다고 전화가 옵니다. 제가 알던 과거 대표님은 누군가와 미팅하고 있고, 우리 직원 중 모 개발자는 휴가를 떠났습니다. 아마 간식을 먹고 있겠지요.
+<div class="prose-ending">
+<p>여러분은 오늘 저녁에 식사하실 건가요?</p>
 
-같은 저녁 6시인데 세상은 이렇게 줏대없습니다.
+<p>저는 안 먹으려고요. 살을 빼야 해서요.</p>
 
-누군가 “저녁 6시는 밥을 먹는 시간”이라고 정의했을 뿐, 인간이 모두 그 시각에 식탁 앞에 앉아야 하는 것은 아닙니다. 저만 해도 퇴근이 7시라 집에 가서 밥을 먹으면 8시입니다. 일찍 저녁을 먹고 운동한 사람은 자신의 몸을 보며 뿌듯해할 수 있습니다. 하지만 그가 늦게 퇴근해 지친 몸으로 식당에 들어가는 사람을 보며 게으르다고 말하는 순간, 자신의 생활조건을 인간 일반의 도덕으로 바꿔버립니다.
+<p>그런데 제 친구는 발레가 끝나고 샤인머스캣을 사 간다네요. 어떤 친구는 조기 퇴근하고 오후 5시부터 친구들과 술을 마시고 있다고 전화가 옵니다. 제가 알던 과거 대표님은 누군가와 미팅하고 있고, 우리 직원 중 모 개발자는 휴가를 떠났습니다. 아마 간식을 먹고 있겠지요.</p>
 
-1956년도 그랬을 것입니다.
+<p>같은 저녁 6시인데 세상은 이렇게 줏대없습니다.</p>
 
-푸슈카시에게는 군인의 신분과 가족, 남은 선수 경력의 시간이 있었습니다. 치보르에게는 혁명기 행적에 대한 더 직접적인 위험이 있었습니다. 보지크에게는 귀환 뒤 이어갈 삶이 있었고, 히데그쿠티는 다른 클럽의 다른 원정을 지나 같은 나라로 돌아갔습니다. 같은 혁명, 같은 대표팀, 비슷한 저녁. 그러나 누구도 완전히 같은 1956년을 살지는 않았습니다.
+<p>누군가 “저녁 6시는 밥을 먹는 시간”이라고 정의했을 뿐, 인간이 모두 그 시각에 식탁 앞에 앉아야 하는 것은 아닙니다. 저만 해도 퇴근이 7시라 집에 가서 밥을 먹으면 8시입니다. 일찍 저녁을 먹고 운동한 사람은 자신의 몸을 보며 뿌듯해할 수 있습니다. 하지만 그가 늦게 퇴근해 지친 몸으로 식당에 들어가는 사람을 보며 게으르다고 말하는 순간, 자신의 생활조건을 인간 일반의 도덕으로 바꿔버립니다.</p>
 
-“1956년 헝가리 혁명이 일어났고, 그로 인해 황금의 팀이 해체됐다.”
+<p>1956년도 그랬을 것입니다.</p>
 
-틀린 문장은 아닙니다.
+<p>푸슈카시에게는 군인의 신분과 가족, 남은 선수 경력의 시간이 있었습니다. 치보르에게는 혁명기 행적에 대한 더 직접적인 위험이 있었습니다. 보지크에게는 귀환 뒤 이어갈 삶이 있었고, 히데그쿠티는 다른 클럽의 다른 원정을 지나 같은 나라로 돌아갔습니다. 같은 혁명, 같은 대표팀, 비슷한 저녁. 그러나 누구도 완전히 같은 1956년을 살지는 않았습니다.</p>
 
-다만 그 문장을 이해했다는 이유로 그 안의 사람들까지 모두 이해했다고 생각한다면, 저녁 6시라는 말만 듣고 세상 사람 전부의 식탁을 그려버린 것과 같습니다.
+<p>“1956년 헝가리 혁명이 일어났고, 그로 인해 황금의 팀이 해체됐다.”</p>
 
-역사에는 줏대가 없습니다.
+<p>틀린 문장은 아닙니다.</p>
 
-정확히 말하면, 역사에는 모두를 대신해 하나의 줏대를 세울 단 한 명의 주인공이 없습니다.
+<p>다만 그 문장을 이해했다는 이유로 그 안의 사람들까지 모두 이해했다고 생각한다면, 저녁 6시라는 말만 듣고 세상 사람 전부의 식탁을 그려버린 것과 같습니다.</p>
 
-저마다의 세상 속에 살 뿐이라.
+<p>역사에는 줏대가 없습니다.</p>
+
+<p>정확히 말하면, 역사에는 모두를 대신해 하나의 줏대를 세울 단 한 명의 주인공이 없습니다.</p>
+
+<p>저마다의 세상 속에 살 뿐이라.</p>
+</div>
 
 <a class="related-story" href="/tactics/hungary-golden-team-total-football-elo-rating/">
   <span>RELATED · TACTICAL LINEAGE</span>
@@ -454,7 +477,7 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   <li id="source-14">Hannah Arendt, <em>The Origins of Totalitarianism</em>, Part II, chapter 9, 「The Decline of the Nation-State and the End of the Rights of Man」. 난민과 무국적자의 권리를 설명하는 분석틀만 참조했으며 특정 선수의 내면을 소급해 단정하는 근거로 사용하지 않았다.</li>
   <li><a href="https://www.youtube.com/watch?v=bE1FX0Uf01I">「The Battle of Budapest: Hungarian Revolution (1956)」</a>, British Pathé. 당시 뉴스릴 화면. 촬영·선택·해설이 개입한 매체 사료라는 한계를 본문에 명시했다.</li>
   <li><a href="https://puskasintezet.hu/hir/Az-Aranycsapat-szetesese">「Az Aranycsapat szétesése」</a>·<a href="https://puskasintezet.hu/hir/Forradalmi-aranycsapat">「Forradalmi aranycsapat」</a>, Puskás Intézet. 1956년 10월 14일 마지막 대표팀 경기, 선수들의 귀환 시점과 이후 경력.</li>
-  <li>혁명 사진 세 장은 Fortepan 40141·40165(Nagy Gyula 기증), 146973(Klausz Ádám 기증)이며 모두 <a href="https://fortepan.hu/en/">Fortepan</a>의 CC BY-SA 3.0 조건에 따라 출처와 식별번호를 병기했다. 황금의 팀 단체사진과 Elo 그래픽은 삥이FC의 기존 1954 월드컵·헝가리 전술 편에서 출처와 기록을 검수한 편집 자산이다.</li>
+  <li>혁명 사진은 Fortepan 40165(Nagy Gyula 기증), 146973(Klausz Ádám 기증)이며 <a href="https://fortepan.hu/en/">Fortepan</a>의 CC BY-SA 3.0 조건에 따라 출처와 식별번호를 병기했다. 작전 도해의 헝가리 지형 배경은 NordNordWest의 <a href="https://commons.wikimedia.org/wiki/File:Hungary_location_map.svg">「Hungary location map.svg」</a>(CC BY-SA 3.0)를 사용하고, 진입 방향·부더페슈트 확대·설명 표시는 삥이FC가 별도로 구성했다. 황금의 팀 단체사진과 Elo 그래픽은 기존 1954 월드컵·헝가리 전술 편에서 출처와 기록을 검수한 편집 자산이다.</li>
 </ol>
 </section>
 
@@ -462,19 +485,6 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .prose-opening { margin: 8px 0 46px; }
   .prose-opening p { margin: 0 0 1.75em !important; font-size: 18px; line-height: 1.85; }
   .prose-opening--scene { margin-top: 44px; }
-  .cinematic-zoom { position: relative; display: grid; grid-template-columns: 1.35fr 1.1fr .9fr .75fr; min-height: 210px; margin: 50px 0; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: 20px; background: #f4f5f7; }
-  .cinematic-zoom > div { position: relative; display: flex; flex-direction: column; justify-content: flex-end; padding: 22px 18px; border-right: 1px solid rgba(20,28,40,.13); }
-  .cinematic-zoom > div::before { content: ''; position: absolute; inset: 18px; border: 1px solid rgba(36,107,253,.22); border-radius: 50%; transform: scale(var(--zoom-scale)); }
-  .cinematic-zoom > div::after { content: '→'; position: absolute; top: 24px; right: -11px; z-index: 2; display: grid; width: 22px; height: 22px; place-items: center; border-radius: 50%; background: var(--bbfc-ink); color: #fff; font-size: 11px; }
-  .cinematic-zoom > div:last-child { border-right: 0; background: var(--bbfc-ink); color: #fff; }
-  .cinematic-zoom > div:last-child::after { display: none; }
-  .cinematic-zoom span { position: relative; z-index: 1; color: var(--bbfc-blue); font-size: 9px; font-weight: 800; letter-spacing: .14em; }
-  .cinematic-zoom strong { position: relative; z-index: 1; margin-top: 5px; font-size: 14px; line-height: 1.35; }
-  .zoom-world { --zoom-scale: 1; }
-  .zoom-europe { --zoom-scale: .78; }
-  .zoom-iberia { --zoom-scale: .56; }
-  .zoom-bilbao { --zoom-scale: .34; }
-  .zoom-bilbao span { color: #9fc0ff; }
   .opening-note { margin: 0 0 38px; padding: 24px 26px; border-top: 3px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); background: linear-gradient(110deg, #fff, var(--bbfc-fill-2)); }
   .opening-note span, .research-note span, .paradox-panel span, .choice-card > span, .film-compare span, .related-story > span { color: var(--bbfc-blue); font-size: 9px; font-weight: 800; letter-spacing: .16em; }
   .opening-note p { margin: 10px 0 0 !important; color: var(--bbfc-ink); font-size: 17px; font-weight: 700; line-height: 1.72; }
@@ -490,16 +500,17 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .research-note li p { margin: 7px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.65; }
   .evidence-graphic { max-width: 610px; }
   .history-photo--portrait { max-width: 680px; }
-  .world-clock { display: grid; grid-template-columns: 150px repeat(3, 1fr); margin: 42px 0 52px; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: 20px; }
-  .world-clock > * { padding: 22px 18px; border-right: 1px solid var(--bbfc-border); }
-  .world-clock > *:last-child { border-right: 0; }
+  .world-clock { display: grid; grid-template-columns: 150px 1fr; margin: 42px 0 52px; overflow: hidden; border-top: 3px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
+  .world-clock > * { padding: 18px 20px; border-bottom: 1px solid var(--bbfc-border); }
+  .world-clock > *:last-child { border-bottom: 0; }
   .world-clock__time { display: grid; align-content: center; background: var(--bbfc-ink); color: #fff; font-size: 25px; line-height: 1; }
+  .world-clock__time { grid-row: 1 / 4; }
   .world-clock__time strong { margin-top: 10px; color: #9fc0ff; font-size: 9px; letter-spacing: .08em; }
   .world-clock article span, .social-lenses span, .aftermath-ledger span { color: var(--bbfc-blue); font-size: 9px; font-weight: 800; letter-spacing: .12em; }
   .world-clock article strong { display: block; margin-top: 10px; font-size: 14px; line-height: 1.5; }
   .world-clock article p { margin: 9px 0 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
-  .social-lenses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 42px 0 52px; }
-  .social-lenses article { min-height: 190px; padding: 22px 19px; border: 1px solid var(--bbfc-border); border-top: 3px solid var(--bbfc-blue); background: linear-gradient(145deg, #fff, var(--bbfc-fill-2)); }
+  .social-lenses { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 28px; margin: 42px 0 52px; border-top: 3px solid var(--bbfc-ink); }
+  .social-lenses article { min-height: 0; padding: 20px 2px; border-bottom: 1px solid var(--bbfc-border); background: transparent; }
   .social-lenses strong { display: block; margin-top: 12px; font-size: 16px; line-height: 1.45; }
   .social-lenses p { margin: 11px 0 0 !important; color: var(--bbfc-gray-1); font-size: 12px; line-height: 1.7; }
   .paradox-panel { margin: 44px 0; padding: 34px 28px; border-radius: 20px; background: var(--bbfc-ink); color: #fff; text-align: center; }
@@ -538,42 +549,54 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .history-quote { margin: 42px 0 50px; padding: 27px 29px; border-left: 3px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
   .history-quote p { margin: 0 !important; color: var(--bbfc-ink); font-size: 19px; font-weight: 700; line-height: 1.75; }
   .history-quote cite { display: block; margin-top: 12px; color: var(--bbfc-gray-2); font-size: 11px; font-style: normal; }
-  .invasion-map { margin: 44px 0 52px; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: 22px; background: #f1eee8; }
-  .invasion-map header { display: flex; align-items: end; justify-content: space-between; gap: 18px; padding: 20px 24px; border-bottom: 1px solid rgba(20,28,40,.16); background: #fff; }
-  .invasion-map header span { color: #b33a2b; font-size: 9px; font-weight: 800; letter-spacing: .13em; }
-  .invasion-map header strong { font-size: 18px; }
-  .map-field { position: relative; min-height: 480px; overflow: hidden; background: linear-gradient(155deg, rgba(255,255,255,.75), rgba(217,208,193,.72)); }
-  .map-field::before, .map-field::after { content: ''; position: absolute; width: 55%; height: 1px; background: rgba(76,64,48,.22); transform: rotate(-18deg); }
-  .map-field::before { top: 32%; left: -6%; }
-  .map-field::after { right: -5%; bottom: 25%; }
-  .map-danube { position: absolute; top: -8%; left: 43%; width: 14%; height: 116%; transform: rotate(7deg); border-right: 2px solid rgba(255,255,255,.8); border-left: 2px solid rgba(255,255,255,.8); background: #7aa6c2; }
-  .map-danube span { position: absolute; top: 42%; left: 50%; transform: translate(-50%,-50%) rotate(90deg); color: rgba(255,255,255,.8); font-size: 9px; font-weight: 800; letter-spacing: .15em; white-space: nowrap; }
-  .map-buda, .map-pest { position: absolute; top: 44%; display: grid; color: rgba(20,28,40,.55); }
-  .map-buda { left: 16%; }
-  .map-pest { right: 14%; }
-  .map-buda strong, .map-pest strong { font-size: 28px; letter-spacing: .08em; }
-  .map-buda small, .map-pest small { font-size: 10px; }
-  .map-node { position: absolute; z-index: 3; display: flex; align-items: center; gap: 7px; padding: 6px 8px; border-radius: 8px; background: rgba(255,255,255,.9); box-shadow: 0 3px 12px rgba(20,28,40,.12); font-size: 10px; font-weight: 700; }
-  .map-node i { width: 9px; height: 9px; border: 2px solid #fff; border-radius: 50%; background: var(--bbfc-ink); box-shadow: 0 0 0 2px var(--bbfc-ink); }
-  .map-node--parliament { top: 29%; left: 57%; }
-  .map-node--radio { top: 47%; left: 62%; }
-  .map-node--corvin { right: 17%; bottom: 25%; }
-  .map-route { position: absolute; z-index: 2; display: grid; gap: 3px; min-width: 118px; padding: 10px 12px; border-left: 4px solid #b33a2b; background: rgba(255,255,255,.93); box-shadow: 0 4px 14px rgba(74,34,27,.12); }
-  .map-route::after { content: ''; position: absolute; width: 54px; height: 3px; background: #b33a2b; transform-origin: left center; }
-  .map-route b { color: #8b2b20; font-size: 11px; }
-  .map-route span { font-size: 10px; }
-  .map-route--north { top: 10%; right: 9%; }
-  .map-route--north::after { left: 16px; bottom: -20px; transform: rotate(72deg); }
-  .map-route--south { right: 11%; bottom: 7%; }
-  .map-route--south::after { top: -15px; left: 5px; transform: rotate(-57deg); }
-  .map-route--west { bottom: 12%; left: 7%; }
-  .map-route--west::after { top: 50%; right: -54px; }
-  .map-ring { position: absolute; inset: 10% 8%; border: 2px dashed rgba(179,58,43,.45); border-radius: 48% 42% 45% 50%; }
-  .invasion-map footer { display: flex; gap: 20px; padding: 14px 22px; border-top: 1px solid rgba(20,28,40,.14); background: #fff; color: var(--bbfc-gray-1); font-size: 10px; }
-  .invasion-map footer span { display: flex; align-items: center; gap: 7px; }
-  .legend-route, .legend-water, .legend-node { display: inline-block; width: 18px; height: 4px; background: #b33a2b; }
-  .legend-water { background: #7aa6c2; }
-  .legend-node { width: 8px; height: 8px; border-radius: 50%; background: var(--bbfc-ink); }
+  .invasion-map { margin: 46px 0 54px; overflow: hidden; border: 1px solid #ccd2da; background: #f5f2ea; }
+  .invasion-map header { display: grid; grid-template-columns: auto 1fr; align-items: end; gap: 7px 22px; padding: 22px 24px; border-bottom: 1px solid #ccd2da; background: #fff; }
+  .invasion-map header span { grid-column: 1 / -1; color: #a63225; font-size: 10px; font-weight: 800; letter-spacing: .12em; }
+  .invasion-map header strong { font-size: 21px; line-height: 1.4; }
+  .invasion-map header p { justify-self: end; margin: 0 !important; color: var(--bbfc-gray-1); font-size: 12px; }
+  .map-lesson { display: grid; grid-template-columns: 1fr 1fr; }
+  .country-stage, .city-stage { position: relative; min-height: 520px; overflow: hidden; }
+  .country-stage { border-right: 1px solid #ccd2da; background: #edf0e7 url('/images/history/hungary-1956-revolution/hungary-location-map.svg') center 42% / 112% auto no-repeat; }
+  .country-stage::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, rgba(255,255,255,.52), transparent 25%, transparent 72%, rgba(245,242,234,.96)); }
+  .stage-number { position: absolute; top: 16px; left: 16px; z-index: 5; display: flex; align-items: center; gap: 8px; }
+  .stage-number b { display: grid; width: 28px; height: 28px; place-items: center; background: var(--bbfc-ink); color: #fff; font-size: 13px; }
+  .stage-number span { color: var(--bbfc-ink); font-size: 10px; font-weight: 800; letter-spacing: .14em; }
+  .country-label { position: absolute; z-index: 2; color: #5d6670; font-size: 10px; font-weight: 700; }
+  .country-label--west { top: 46%; left: 2%; }
+  .country-label--north { top: 13%; left: 38%; }
+  .country-label--east { top: 35%; right: 1%; color: #9b3025; }
+  .country-label--south { bottom: 23%; left: 38%; }
+  .budapest-pin { position: absolute; top: 42%; left: 48%; z-index: 5; display: grid; padding: 9px 11px 9px 28px; background: rgba(255,255,255,.94); box-shadow: 0 4px 14px rgba(20,28,40,.15); }
+  .budapest-pin i { position: absolute; top: 50%; left: 11px; width: 9px; height: 9px; transform: translateY(-50%); border: 2px solid #fff; border-radius: 50%; background: #a63225; box-shadow: 0 0 0 2px #a63225; }
+  .budapest-pin strong { font-size: 12px; }
+  .budapest-pin small { color: var(--bbfc-gray-1); font-size: 9px; }
+  .reinforcement-arrow { position: absolute; z-index: 4; width: 86px; height: 4px; background: #a63225; transform-origin: right center; animation: route-pulse 2.4s ease-in-out infinite; }
+  .reinforcement-arrow::before { content: ''; position: absolute; left: -7px; top: -5px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-right: 11px solid #a63225; }
+  .reinforcement-arrow span { position: absolute; right: 0; bottom: 8px; color: #8e2b21; font-size: 9px; font-weight: 800; }
+  .reinforcement-arrow--one { top: 31%; right: 2%; transform: rotate(-12deg); }
+  .reinforcement-arrow--two { top: 57%; right: 3%; transform: rotate(15deg); animation-delay: .7s; }
+  .city-stage { background: repeating-linear-gradient(18deg, transparent 0 52px, rgba(86,96,105,.1) 53px 54px), #e9e5dc; }
+  .city-danube { position: absolute; top: -6%; left: 43%; width: 15%; height: 112%; transform: rotate(6deg); background: #77a6c4; box-shadow: inset 2px 0 rgba(255,255,255,.6), inset -2px 0 rgba(255,255,255,.6); }
+  .city-danube span { position: absolute; top: 48%; left: 50%; transform: translate(-50%,-50%) rotate(90deg); color: #fff; font-size: 9px; font-weight: 800; letter-spacing: .12em; }
+  .city-half { position: absolute; top: 48%; z-index: 1; color: rgba(20,28,40,.62); }
+  .city-half--buda { left: 12%; }
+  .city-half--pest { right: 11%; }
+  .city-half strong { display: block; font-size: 24px; letter-spacing: .08em; }
+  .city-half small { font-size: 9px; }
+  .city-target { position: absolute; z-index: 5; display: flex; align-items: center; gap: 7px; padding: 7px 9px; background: rgba(255,255,255,.94); box-shadow: 0 3px 10px rgba(20,28,40,.12); font-size: 9px; font-weight: 700; }
+  .city-target i { width: 8px; height: 8px; border: 2px solid #fff; border-radius: 50%; background: var(--bbfc-ink); box-shadow: 0 0 0 1px var(--bbfc-ink); }
+  .city-target--parliament { top: 31%; left: 55%; }
+  .city-target--radio { top: 46%; left: 60%; }
+  .city-target--corvin { right: 7%; bottom: 27%; }
+  .city-route { position: absolute; z-index: 4; display: grid; padding: 7px 9px; border-left: 4px solid #a63225; background: rgba(255,255,255,.95); font-size: 9px; }
+  .city-route b { color: #8e2b21; }
+  .city-route--north { top: 15%; right: 6%; }
+  .city-route--south { right: 5%; bottom: 15%; }
+  .city-route--west { bottom: 18%; left: 5%; }
+  .stage-caption { position: absolute; right: 18px; bottom: 14px; left: 18px; z-index: 5; margin: 0 !important; padding-top: 10px; border-top: 1px solid rgba(20,28,40,.25); color: #3d4650; font-size: 11px; line-height: 1.65; }
+  .invasion-map footer { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 18px; border-top: 1px solid #ccd2da; background: #fff; color: #58616b; font-size: 10px; }
+  .invasion-map footer strong { color: var(--bbfc-ink); }
+  @keyframes route-pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
   .archive-video { margin: 50px 0 58px; padding: 24px; border: 1px solid var(--bbfc-border); border-radius: 20px; background: var(--bbfc-ink); color: #fff; }
   .archive-video__copy span { color: #9fc0ff; font-size: 9px; font-weight: 800; letter-spacing: .14em; }
   .archive-video__copy h3 { margin: 10px 0 0 !important; color: #fff !important; font-size: 22px !important; }
@@ -581,48 +604,73 @@ World Football Elo Ratings는 국가대표팀 경기 결과와 상대의 강도,
   .video-frame { position: relative; overflow: hidden; padding-top: 56.25%; border-radius: 13px; background: #000; }
   .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   .archive-video > a { display: inline-block; margin-top: 15px; color: #9fc0ff !important; font-size: 11px; font-weight: 800; }
-  .aftermath-ledger { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 40px 0 50px; }
-  .aftermath-ledger article { padding: 20px 17px; border-top: 3px solid var(--bbfc-ink); background: var(--bbfc-fill-2); }
-  .aftermath-ledger strong { display: block; margin-top: 10px; font-size: 14px; line-height: 1.45; }
-  .aftermath-ledger p { margin: 9px 0 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
-  .causal-layers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 40px 0 48px; }
-  .causal-layers article { padding: 20px 16px; border-top: 3px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
+  .aftermath-ledger { display: grid; grid-template-columns: 1fr; gap: 0; margin: 40px 0 50px; border-top: 3px solid var(--bbfc-ink); }
+  .aftermath-ledger article { display: grid; grid-template-columns: 70px 190px 1fr; align-items: center; gap: 12px; padding: 16px 4px; border-bottom: 1px solid var(--bbfc-border); background: transparent; }
+  .aftermath-ledger strong { display: block; margin: 0; font-size: 14px; line-height: 1.45; }
+  .aftermath-ledger p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
+  .time-bridge { margin: 58px 0 46px; border-top: 4px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); background: #f7f7f5; }
+  .time-bridge header { padding: 25px 26px 20px; }
+  .time-bridge header span { color: var(--bbfc-blue); font-size: 10px; font-weight: 800; letter-spacing: .11em; }
+  .time-bridge header h2 { margin: 8px 0 0 !important; font-size: 23px !important; line-height: 1.45; }
+  .time-bridge__equations { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--bbfc-border); border-bottom: 1px solid var(--bbfc-border); }
+  .time-bridge__equations article { display: grid; grid-template-columns: 86px 90px 1fr; align-items: center; min-height: 100px; padding: 18px 22px; }
+  .time-bridge__equations article:first-child { border-right: 1px solid var(--bbfc-border); }
+  .time-bridge__equations small { color: var(--bbfc-gray-1); font-size: 10px; }
+  .time-bridge__equations strong { font-size: 23px; }
+  .time-bridge__equations b { font-size: 12px; line-height: 1.5; }
+  .time-bridge__reveal { display: grid; grid-template-columns: 80px repeat(5, 1fr); gap: 1px; padding: 18px 22px; background: var(--bbfc-border); }
+  .time-bridge__reveal > * { min-height: 68px; background: #fff; }
+  .time-bridge__reveal > span { display: grid; place-items: center; color: var(--bbfc-blue); font-size: 10px; font-weight: 800; }
+  .time-bridge__reveal > div { display: grid; place-content: center; text-align: center; }
+  .time-bridge__reveal i { color: var(--bbfc-gray-2); font-size: 9px; font-style: normal; }
+  .time-bridge__reveal b { margin-top: 3px; font-size: 12px; }
+  .time-bridge > p { margin: 0 !important; padding: 20px 26px 24px; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.8; }
+  .prose-ending { margin: 0 0 50px; }
+  .prose-ending p { margin: 0 0 1.85em !important; font-size: 18px; line-height: 1.9; }
+  .causal-layers { display: grid; grid-template-columns: 1fr; gap: 0; margin: 40px 0 48px; border-top: 3px solid var(--bbfc-ink); }
+  .causal-layers article { display: grid; grid-template-columns: 70px 190px 1fr; align-items: center; gap: 12px; padding: 16px 4px; border-bottom: 1px solid var(--bbfc-border); background: transparent; }
   .causal-layers span { color: var(--bbfc-blue); font-size: 9px; font-weight: 800; letter-spacing: .13em; }
-  .causal-layers strong { display: block; margin-top: 9px; font-size: 14px; line-height: 1.45; }
-  .causal-layers p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
+  .causal-layers strong { display: block; margin: 0; font-size: 14px; line-height: 1.45; }
+  .causal-layers p { margin: 0 !important; color: var(--bbfc-gray-1); font-size: 11px; line-height: 1.65; }
   .related-story { display: block; margin: 54px 0; padding: 26px 28px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff, rgba(36,107,253,.05)); }
   .related-story strong { display: block; margin-top: 9px; font-size: 21px; line-height: 1.4; }
   .related-story p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.65; }
   .related-story em { display: inline-block; margin-top: 14px; color: var(--bbfc-blue); font-size: 12px; font-style: normal; font-weight: 800; }
   .source-notes ol { list-style: decimal; }
+  @media (prefers-reduced-motion: reduce) { .reinforcement-arrow { animation: none; opacity: 1; } }
   @media (max-width: 767px) {
     .prose-opening p { margin-bottom: 2em !important; font-size: 17px; line-height: 1.9; }
-    .cinematic-zoom { grid-template-columns: 1fr; }
-    .cinematic-zoom > div { min-height: 92px; border-right: 0; border-bottom: 1px solid rgba(20,28,40,.13); }
-    .cinematic-zoom > div::before { border-radius: 16px; transform: none; }
-    .cinematic-zoom > div::after { top: auto; right: 18px; bottom: -11px; transform: rotate(90deg); }
-    .world-clock, .social-lenses, .aftermath-ledger { grid-template-columns: 1fr; }
-    .world-clock > * { border-right: 0; border-bottom: 1px solid var(--bbfc-border); }
-    .world-clock > *:last-child { border-bottom: 0; }
-    .world-clock__time { min-height: 110px; }
+    .world-clock, .social-lenses { grid-template-columns: 1fr; }
+    .world-clock__time { grid-row: auto; min-height: 100px; }
     .social-lenses article { min-height: auto; }
     .opening-note { padding: 20px; }
     .opening-note p { font-size: 15px; }
     .history-photo img, .evidence-graphic img { border-radius: 13px; }
     .research-note { padding: 21px 17px; border-radius: 14px; }
     .research-note ol, .split-timeline, .choice-grid, .causal-layers { grid-template-columns: 1fr; }
+    .aftermath-ledger article, .causal-layers article { grid-template-columns: 58px 1fr; gap: 7px 10px; }
+    .aftermath-ledger p, .causal-layers p { grid-column: 2; }
     .choice-card img { height: 240px; }
-    .map-field { min-height: 560px; }
-    .map-buda { left: 7%; }
-    .map-pest { right: 6%; }
-    .map-buda strong, .map-pest strong { font-size: 20px; }
-    .map-route { min-width: 105px; padding: 8px 9px; }
-    .map-route--north { right: 3%; }
-    .map-route--south { right: 3%; }
-    .map-route--west { left: 3%; }
-    .invasion-map header { display: grid; }
-    .invasion-map footer { flex-wrap: wrap; gap: 10px 16px; }
+    .invasion-map header { display: block; padding: 19px 17px; }
+    .invasion-map header strong { display: block; margin-top: 7px; font-size: 18px; }
+    .invasion-map header p { margin-top: 7px !important; }
+    .map-lesson { grid-template-columns: 1fr; }
+    .country-stage, .city-stage { min-height: 500px; }
+    .country-stage { border-right: 0; border-bottom: 1px solid #ccd2da; background-size: 118% auto; }
+    .country-label--east { right: 2%; }
+    .city-half strong { font-size: 20px; }
+    .invasion-map footer { flex-wrap: wrap; gap: 7px; }
     .archive-video { padding: 18px; }
+    .time-bridge header { padding: 21px 18px 17px; }
+    .time-bridge header h2 { font-size: 20px !important; }
+    .time-bridge__equations { grid-template-columns: 1fr; }
+    .time-bridge__equations article { grid-template-columns: 72px 76px 1fr; min-height: 88px; padding: 15px 16px; }
+    .time-bridge__equations article:first-child { border-right: 0; border-bottom: 1px solid var(--bbfc-border); }
+    .time-bridge__equations strong { font-size: 19px; }
+    .time-bridge__reveal { grid-template-columns: repeat(5, 1fr); padding: 14px 16px; }
+    .time-bridge__reveal > span { grid-column: 1 / -1; min-height: 38px; }
+    .time-bridge > p { padding: 18px; font-size: 12px; }
+    .prose-ending p { margin-bottom: 2em !important; font-size: 17px; }
     .split-timeline article { min-height: auto; }
     .paradox-panel { padding: 28px 19px; border-radius: 15px; }
     .paradox-panel strong { font-size: 21px; }
