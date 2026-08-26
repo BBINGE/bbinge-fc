@@ -4,7 +4,7 @@ description: '새 건축으로 전진해온 로테르담과 1937년의 De Kuip, 
 category: 'pilgrimage'
 tags: ['네덜란드 로테르담 여행', '로테르담 여행', 'De Kuip', '더 카위프', '페예노르트', '로테르담 축구 여행', '로테르담 호텔', '로테르담 맛집']
 pubDate: 2026-08-27T01:37:00+09:00
-updatedDate: 2026-08-27T01:37:00+09:00
+updatedDate: 2026-08-27T02:24:00+09:00
 coverImage: '/images/pilgrimage/rotterdam-de-kuip/cover.webp'
 cardImage: '/images/pilgrimage/rotterdam-de-kuip/card.webp'
 coverImageAlt: '관중이 들어찬 De Kuip 피치에서 단체 사진을 찍는 페예노르트 선수단'
@@ -37,22 +37,52 @@ featured: false
 <nav class="journey-map" aria-label="로테르담 2박 3일 큐레이션 지도">
   <header>
     <div><span>CURATED CITY MAP</span><strong>2 NIGHTS · 7 STOPS · 1 MATCH</strong></div>
-    <small>SCHEMATIC ROUTE · NOT TO SCALE</small>
+    <small>NORTH ↑ · WALK + TRAM</small>
   </header>
   <div class="journey-map__canvas">
-    <svg class="journey-map__lines" viewBox="0 0 1000 520" preserveAspectRatio="none" aria-hidden="true">
-      <path class="journey-map__river" d="M-30 250 C170 150 315 355 520 273 S805 110 1040 228" />
-      <path class="journey-map__route" d="M112 94 L232 188 L350 250 L475 321 L596 385 L735 350 L878 438" />
+    <svg class="journey-map__terrain" viewBox="0 0 1000 660" preserveAspectRatio="none" aria-hidden="true">
+      <path class="journey-map__north" d="M0 0H1000V284C846 248 714 263 581 306C424 357 299 343 166 306C100 288 46 283 0 292Z" />
+      <path class="journey-map__south" d="M0 382C122 350 218 382 333 411C473 446 584 408 701 361C823 312 905 313 1000 342V660H0Z" />
+      <path class="journey-map__river" d="M-40 320C120 246 245 388 400 367C579 343 653 236 805 254C901 265 957 306 1040 318" />
+      <path class="journey-map__harbour" d="M337 404C382 391 431 397 457 424L429 483H329L309 446Z" />
+      <path class="journey-map__route" d="M430 79C405 170 332 215 260 277L460 290L610 402C540 430 465 443 410 462C454 489 498 512 540 528C650 548 741 559 840 568" />
+      <g class="journey-map__city">
+        <path d="M356 178h35v68h-35zM399 151h45v95h-45zM453 191h30v55h-30zM494 166h58v80h-58z" />
+        <path d="M520 366h36v52h-36zM564 337h52v81h-52zM625 358h31v60h-31z" />
+      </g>
+      <g class="journey-map__bridge">
+        <path d="M485 280L542 403M500 287L550 398" />
+        <path d="M514 282L513 367M514 300L489 349M514 311L541 369" />
+      </g>
+      <g class="journey-map__trees">
+        <path d="M86 177l12-28 12 28h-8v20h-8v-20zM744 103l12-28 12 28h-8v20h-8v-20zM167 468l12-28 12 28h-8v20h-8v-20zM914 437l12-28 12 28h-8v20h-8v-20z" />
+      </g>
     </svg>
-    <a class="journey-map__pin" href="#centraal" style="--x:11%;--y:18%"><b>1</b><span>SEE</span><strong>Centraal</strong></a>
-    <a class="journey-map__pin" href="#ballentent" style="--x:23%;--y:36%"><b>2</b><span>EAT</span><strong>De Ballentent</strong></a>
-    <a class="journey-map__pin" href="#erasmusbrug" style="--x:35%;--y:48%"><b>3</b><span>SEE</span><strong>Erasmusbrug</strong></a>
-    <a class="journey-map__pin journey-map__pin--stay" href="#stay" style="--x:47%;--y:62%"><b>4</b><span>STAY</span><strong>Kop van Zuid</strong></a>
-    <a class="journey-map__pin" href="#fenix" style="--x:59%;--y:74%"><b>5</b><span>EAT</span><strong>Fenix</strong></a>
-    <a class="journey-map__pin" href="#rijnhaven" style="--x:73%;--y:67%"><b>6</b><span>SEE</span><strong>Rijnhaven</strong></a>
-    <a class="journey-map__pin journey-map__pin--match" href="#de-kuip" style="--x:87%;--y:84%"><b>7</b><span>MATCH</span><strong>De Kuip</strong></a>
+    <span class="journey-map__district journey-map__district--north">CENTRUM</span>
+    <span class="journey-map__district journey-map__district--south">ROTTERDAM-ZUID</span>
+    <a class="journey-map__pin journey-map__pin--station" href="#centraal" style="--x:43%;--y:12%;--mx:52%;--my:8%;--delay:-.4s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 12h30v31H17z"/><path d="M22 18h20v12H22zM23 48l5-7m13 7l-5-7M22 36h4m12 0h4"/></svg><b>1</b></span><span class="journey-map__label"><small>START</small><strong>Centraal</strong></span>
+    </a>
+    <a class="journey-map__pin journey-map__pin--food" href="#ballentent" style="--x:26%;--y:42%;--mx:19%;--my:29%;--delay:-1.8s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 34c1 10 8 16 16 16s15-6 16-16z"/><path d="M15 31h34M23 24c0-5 4-8 9-8s9 3 9 8M32 14v4"/></svg><b>2</b></span><span class="journey-map__label"><small>EAT</small><strong>De Ballentent</strong></span>
+    </a>
+    <a class="journey-map__pin journey-map__pin--bridge" href="#erasmusbrug" style="--x:46%;--y:44%;--mx:55%;--my:35%;--delay:-1s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 47h42M18 44V30m28 14V22M31 44V13M14 38c9-1 12-8 17-18 4 8 7 15 20 17"/><path d="M31 13l15 9"/></svg><b>3</b></span><span class="journey-map__label"><small>WALK</small><strong>Erasmusbrug</strong></span>
+    </a>
+    <a class="journey-map__pin journey-map__pin--stay" href="#stay" style="--x:61%;--y:61%;--mx:68%;--my:54%;--delay:-2.5s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 18h36v33H14zM21 26h7v7h-7zm15 0h7v7h-7zM21 39h22v12M32 39v12"/><path d="M10 51h44"/></svg><b>4</b></span><span class="journey-map__label"><small>STAY</small><strong>Kop van Zuid</strong></span>
+    </a>
+    <a class="journey-map__pin journey-map__pin--food" href="#fenix" style="--x:41%;--y:70%;--mx:22%;--my:64%;--delay:-.7s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 13v17m6-17v17m-12-17v12c0 4 3 7 6 7v19M42 13c-5 7-6 16-1 22l3 2v14M42 13v24"/></svg><b>5</b></span><span class="journey-map__label"><small>EAT</small><strong>Fenix</strong></span>
+    </a>
+    <a class="journey-map__pin journey-map__pin--camera" href="#rijnhaven" style="--x:54%;--y:80%;--mx:46%;--my:80%;--delay:-2s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 23h10l4-7h12l4 7h10v27H12z"/><circle cx="32" cy="36" r="9"/><path d="M46 28h2"/></svg><b>6</b></span><span class="journey-map__label"><small>PHOTO</small><strong>Rijnhaven</strong></span>
+    </a>
+    <a class="journey-map__pin journey-map__pin--match" href="#de-kuip" style="--x:84%;--y:86%;--mx:80%;--my:91%;--delay:-1.3s">
+      <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="22" rx="23" ry="10"/><path d="M9 22v21c0 6 10 10 23 10s23-4 23-10V22M16 31c10 5 22 5 32 0M18 42c9 4 19 4 28 0"/></svg><b>7</b></span><span class="journey-map__label"><small>MATCH</small><strong>De Kuip</strong></span>
+    </a>
   </div>
-  <p>핀을 누르면 이 글의 해당 장소로 이동한다. 숙소는 강 남쪽에 두고, 도시의 북쪽에서 경기장까지 한 방향으로 내려가는 동선이다.</p>
+  <p>아이콘을 누르면 해당 장소로 이동한다. 강 북쪽에서 시작해 Erasmusbrug를 건너고, 숙소와 저녁을 남쪽에 둔 뒤 트램으로 De Kuip까지 간다.</p>
 </nav>
 
 첫날은 중앙역에서 도시의 재건 과정을 보고 Nieuwe Maas까지 걷는다. Kop van Zuid에 짐을 푼 뒤 Katendrecht에서 저녁을 먹는다. 둘째 날은 강변에서 시간을 보내다가 트램으로 De Kuip에 간다. 홈경기가 없다면 스타디움 투어를 넣고, Rijnhaven에서 반나절을 더 쓰면 된다.
@@ -136,6 +166,11 @@ De Kuip<span class="foreign-note" lang="nl">(더 카위프; ‘욕조’를 뜻�
 
 <figure class="journey-finale"><img src="/images/pilgrimage/rotterdam-de-kuip/de-kuip-festival.webp" alt="De Kuip 관중석을 가득 메운 팬들과 피치에 선 페예노르트 선수단" width="1800" height="720" loading="lazy" /><figcaption>피치 가까이 내려오는 2층 관중석과 네 개의 조명탑. 사진: Feyenoord.</figcaption></figure>
 
+<div class="journey-social-shot">
+  <figure><img src="/images/pilgrimage/rotterdam-de-kuip/de-kuip-social-shot.webp" alt="De Kuip 관중석에서 페예노르트 머플러를 들고 사진을 찍은 릴리안 마레이니선" width="656" height="437" loading="lazy" /></figure>
+  <div><span>THE PHOTO YOU BRING HOME</span><strong>관중석에 들어가면<br />한 장은 이렇게 남는다</strong><p>네덜란드 정치인 릴리안 마레이니선<span class="foreign-note" lang="nl">(Lilian Marijnissen)</span>이 페예노르트와 아약스의 더 클라시케르를 찾은 날. 경기장 전경만 찍는 것보다 붉고 흰 머플러와 관중석을 한 프레임에 넣으면 De Kuip에 왔다는 장면이 선명해진다.</p><small>Photo via @lilianmarijnissen / Instagram</small></div>
+</div>
+
 <div class="journey-fact-strip" style="--journey-image:url('/images/pilgrimage/rotterdam-de-kuip/de-kuip-festival.webp')">
   <div><span>1908</span><small>페예노르트 창립</small></div>
   <div><span>1937</span><small>De Kuip 개장</small></div>
@@ -157,6 +192,12 @@ De Kuip<span class="foreign-note" lang="nl">(더 카위프; ‘욕조’를 뜻�
 </a>
 
 노래 제목과 후렴의 박자를 알고 들어가면 관중석의 첫 장면을 놓치지 않는다. 가사를 크게 따라 부르는 일보다 주변의 속도를 먼저 살피면 된다. 붉고 흰 셔츠가 트램에서부터 늘어나고, 경기장에 가까워질수록 같은 노래와 구호가 여러 방향에서 겹친다.
+
+<div class="journey-video-callout"><span>TURN THE SOUND ON</span><strong>영상도 봐야지</strong><p>선수들이 피치로 나올 때 De Kuip 전체가 부르는 ‘Hand in Hand, Kameraden’. 경기장 구조보다 먼저 체감해야 할 것은 이 소리다.</p></div>
+
+<div class="video-embed journey-video">
+  <iframe src="https://www.youtube-nocookie.com/embed/nTgSvcP8hmE?rel=0" title="De Kuip에서 페예노르트 팬들이 부르는 Hand in Hand Kameraden" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Rotterdam Centraal에서는 23번 트램을 타고 Stadion Feijenoord 정류장에 내린다. 경기일에는 12번 트램도 운행한다. Kop van Zuid에서는 Wilhelminaplein에서 갈아타면 되고, Watertaxi의 Stadion Feyenoord 선착장도 경기장에서 도보 약 5분 거리다. 구단은 경기일 주변 도로가 매우 혼잡하므로 대중교통이나 자전거 이용을 권한다.
 
@@ -186,6 +227,8 @@ Rotterdam Centraal에서는 23번 트램을 타고 Stadion Feijenoord 정류장�
     <li><a href="https://www.rotterdam.info/en/visit/guide/architecture-in-rotterdam">Rotterdam Partners, 로테르담 건축과 재건</a>, <a href="https://www.rotterdam.info/en/visit/guide/visit-kop-van-zuid">Kop van Zuid 안내</a>, <a href="https://www.rotterdam.info/nl/visit/finder-locations/erasmusbrug">Erasmusbrug 안내</a>.</li>
     <li><a href="https://hotelnewyork.nl/over-hotel-new-york/geschiedenis-hotel-new-york/">Hotel New York 공식 역사</a>, <a href="https://www.nh-hotels.com/en/hotel/nhow-rotterdam">nhow Rotterdam 공식 안내</a>, <a href="https://ssrotterdam.com/">ss Rotterdam 공식 사이트</a>. 숙소의 위치와 건축·항만 배경.</li>
     <li><a href="https://www.rotterdam.info/en/visit/guide/rotterdam-port-visit">Rotterdam Partners, 항구 여행과 De Ballentent</a>, <a href="https://www.rotterdam.info/nl/visit/finder-locations/fenix-food-factory">Fenix Food Factory 안내</a>. 식사와 강변 동선.</li>
+    <li><a href="https://www.instagram.com/lilianmarijnissen/">릴리안 마레이니선 공식 Instagram</a> 및 <a href="https://www.feyenoordpings.nl/marijnissen-trots-op-feyenoord/">De Kuip 방문 사진 기록</a>. 2024년 더 클라시케르 관중석 사진.</li>
+    <li><a href="https://www.youtube.com/watch?v=nTgSvcP8hmE">De Kuip의 ‘Hand in Hand, Kameraden’ 현장 영상</a>. 선수 입장 때 관중석이 함께 부르는 장면.</li>
     <li>De Kuip·인수식·선수 터널 사진은 Feyenoord 공식 채널, Kop van Zuid·Rijnhaven·Fenix 사진은 Rotterdam Partners 공식 관광 채널에서 가져와 로컬 WebP로 저장했다. 표지와 카드는 Feyenoord의 공식 De Kuip 사진을 축행 지면에 맞게 크롭했다.</li>
   </ol>
 </div>

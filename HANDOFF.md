@@ -1,8 +1,18 @@
+## 2026-08-27 로테르담 축행 지도·인물 훅·현장 영상 후속 개편
+
+- `/pilgrimage/rotterdam-de-kuip-football-travel/`의 첫 큐레이션 지도를 대각선 번호표 일정표에서 로테르담 일러스트 지도로 다시 만들었다. Nieuwe Maas, Erasmusbrug, Rijnhaven과 북쪽 도심·남쪽 항만의 상대 위치를 보존하고, 역·음식·다리·호텔·촬영지·De Kuip을 서로 다른 손그림형 아이콘과 이름 상자로 구분한다.
+- 7개 아이콘은 각기 다른 속도로 작게 떠 있으며 hover·focus에서 해당 장소가 강조된다. `prefers-reduced-motion`에서는 정지한다. 680px 이하에서도 목록으로 바꾸지 않고 720px 세로형 지도 안에서 실제 방향 관계를 유지한다.
+- De Kuip 파트에는 릴리안 마레이니선의 공식 Instagram 관중석 사진을 인물 중심 소셜 컷으로 추가했다. 경기장 전경만 반복하지 않고 독자가 현장에서 남길 사진을 상상하게 하는 훅이다.
+- `Hand in Hand, Kameraden`을 실제 관중이 부르는 YouTube 영상을 `영상도 봐야지` 모듈과 함께 `youtube-nocookie.com`으로 임베드했다. Spotify 선곡 카드는 유지하며 자동재생은 하지 않는다.
+- `EDITORIAL_ASSET_POLICY.md`의 축행 규칙에 실제 지형 고증, 장소별 일러스트 아이콘·이름 상자, 작은 부유 모션, 모바일 지도 유지, 인물 중심 여행 훅을 영구 기준으로 추가했다.
+
+---
+
 ## 2026-08-27 로테르담 De Kuip 축행 발행·카테고리별 편집 모드 고정
 
 - `/pilgrimage/rotterdam-de-kuip-football-travel/`을 추가했다. 검색 제목은 `네덜란드 로테르담 여행, “축빠”라면 De Kuip에 가야 하는 이유`이고, 본문 첫 언급에는 `Rotterdam`, `Feyenoord Rotterdam`, `De Kuip`의 원어와 필요한 뜻을 병기했다.
 - 기획 트리거는 `새로 짓는 도시가 1937년을 지키는 방법`이다. 2026년 7월 페예노르트가 De Kuip 지분 95% 이상을 확보해 구단과 경기장을 통합한 현재 사건에서 출발해, 전후 재건 건축·Kop van Zuid의 항만 재생·로테르담 남부 노동자 클럽의 정체성을 연결했다.
-- 상단에 `2 NIGHTS · 7 STOPS · 1 MATCH` 큐레이션 지도를 추가했다. Rotterdam Centraal → De Ballentent → Erasmusbrug → Kop van Zuid 숙소 → Fenix → Rijnhaven → De Kuip의 핀이 본문 앵커로 이동한다. 680px 이하에서는 겹치는 축소 지도를 쓰지 않고 같은 순서의 세로 경로 카드로 전환한다.
+- 상단에 `2 NIGHTS · 7 STOPS · 1 MATCH` 큐레이션 지도를 추가했다. Rotterdam Centraal → De Ballentent → Erasmusbrug → Kop van Zuid 숙소 → Fenix → Rijnhaven → De Kuip의 핀이 본문 앵커로 이동한다. 최초 발행 때의 세로 경로 카드 방식은 바로 위 후속 개편에서 실제 위치 관계를 보존한 세로형 일러스트 지도로 교체했다.
 - 숙소는 nhow Rotterdam·Hotel New York·ss Rotterdam을 `이동 균형 / 항만 이야기 / 선박 체험`으로 구분했다. 음식은 De Ballentent과 Fenix Food Factory를 실제 이동 동선에 넣고, Spotify의 `Hand in Hand, Kameraden`을 자동재생 없는 경기일 음악 카드로 연결했다.
 - 대표·목록·본문에는 Feyenoord와 Rotterdam Partners의 공식 사진을 로컬 WebP 10장으로 저장했다. 사진은 도시 전경, 강변 생활, Fenix의 식사, De Kuip 관중석, 2026년 경기장 인수식으로 역할을 나눴다. 잘못 받은 프로모션 이미지와 변환 전 원본은 커밋에서 제외했다.
 - 에레디비시 변화 글, 위대한 팀 10선의 1972년 De Kuip 결승, 빌바오 축행으로 관련 글을 연결했다. `/pilgrimage/`의 로마 대표 고정은 유지하고, 최신 로테르담 편이 `NEXT DESTINATION`, 빌바오·부더페슈트·토리노가 `CITY FILES`에 최신순으로 진열된다.
