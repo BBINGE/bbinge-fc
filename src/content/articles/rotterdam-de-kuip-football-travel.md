@@ -4,7 +4,7 @@ description: '새 건축으로 전진해온 로테르담과 1937년의 De Kuip, 
 category: 'pilgrimage'
 tags: ['네덜란드 로테르담 여행', '로테르담 여행', 'De Kuip', '더 카위프', '페예노르트', '로테르담 축구 여행', '로테르담 호텔', '로테르담 맛집']
 pubDate: 2026-08-27T01:37:00+09:00
-updatedDate: 2026-08-27T04:20:00+09:00
+updatedDate: 2026-08-27T06:10:00+09:00
 coverImage: '/images/pilgrimage/rotterdam-de-kuip/cover.webp'
 cardImage: '/images/pilgrimage/rotterdam-de-kuip/card.webp'
 coverImageAlt: '관중이 들어찬 더 카위프 피치에서 단체 사진을 찍는 페예노르트 선수단'
@@ -40,51 +40,43 @@ featured: false
     <small>북쪽 ↑ · 도보 + 트램</small>
   </header>
   <div class="journey-map__canvas">
-    <svg class="journey-map__terrain" viewBox="0 0 1000 720" preserveAspectRatio="none" role="img" aria-label="니우어 마스강을 중심으로 로테르담 도심과 남부 주요 지명을 표시한 지도">
-      <path class="journey-map__city-shape" d="M76 61L176 34L286 50L376 27L498 48L593 25L698 61L783 48L901 94L938 171L921 252L969 322L939 403L965 485L919 570L846 596L813 674L709 691L638 655L546 696L460 676L373 704L282 674L206 697L135 638L103 553L50 489L77 407L36 329L76 250L53 165Z" />
+    <img class="journey-map__base" src="/images/pilgrimage/rotterdam-de-kuip/rotterdam-city-map.webp" alt="로테르담 중앙역에서 더 카위프까지의 실제 도로·철도·강과 항만을 표시한 로테르담시 기본지도" width="1600" height="1152" loading="lazy" />
+    <svg class="journey-map__terrain" viewBox="0 0 1000 720" preserveAspectRatio="none" aria-hidden="true">
+      <path class="journey-map__route" d="M222 173L259 378L434 354L458 382L374 449L541 431L860 532" />
       <g class="journey-map__overview">
-        <rect x="728" y="18" width="246" height="170" rx="16" />
-        <path transform="translate(724 12) scale(.245 .22)" d="M877 436L914 444L903 535L853 567L801 566L770 592L698 551L666 550L651 589L650 660L637 657L605 628L585 578L490 574L456 545L424 449L359 373L352 345L326 326L278 308L269 354L257 321L227 317L93 394L50 354L70 109L178 60L295 60L338 123L333 145L391 203L386 215L393 244L430 293L420 321L455 387L519 450L576 469L619 451L663 462L692 448L686 406L698 369L686 333L699 311L680 315L669 279L660 284L648 219L667 223L714 172L739 223L757 202L770 159L837 234L860 198L877 189L888 205L912 191L919 179L912 184L907 167L919 160L919 128L940 112L946 135L939 179L950 193L896 240L910 297L893 306L900 365L888 382L861 382L867 431L887 401Z" />
-        <text x="851" y="174">로테르담 전체</text>
-      </g>
-      <text class="journey-map__detail-title" x="430" y="79">도심 확대</text>
-      <path class="journey-map__district-line" d="M210 42L225 238M381 34L399 246M605 32L579 225M794 57L740 233M180 410L172 665M329 393L310 690M489 369L486 685M653 341L671 666M828 316L848 590" />
-      <path class="journey-map__river" d="M-25 306C105 266 204 301 306 329C405 356 484 350 567 303C654 254 744 244 840 264C911 279 957 308 1025 326L1025 407C946 391 894 351 818 340C724 327 653 345 577 390C483 447 382 448 281 408C177 367 95 356-25 396Z" />
-      <path class="journey-map__harbour" d="M343 407L433 410L461 446L431 511L333 508L307 458ZM487 389L590 375L622 411L607 481L506 492L468 449Z" />
-      <path class="journey-map__route" d="M222 94C238 179 267 279 259 356C322 355 382 354 434 351C442 374 450 393 458 415C429 433 398 454 374 488C426 478 483 466 541 460C625 495 742 550 860 610" />
-      <g class="journey-map__bridge"><path d="M418 321L462 408M430 318L474 403"/><path d="M441 318L440 385M440 337L423 366M440 343L463 380"/></g>
-      <g class="journey-map__landmark journey-map__landmark--tower"><path d="M170 312h22M181 247v65M173 272h16M176 247h10L181 226z"/><text x="181" y="329">유로마스트</text></g>
-      <g class="journey-map__landmark journey-map__landmark--market"><path d="M418 201h54v35h-54zM425 215h40M445 201v35"/><text x="445" y="252">마르크탈</text></g>
-      <g class="journey-map__landmark journey-map__landmark--cube"><path d="M491 209l15-12 15 12-15 12zM506 221v19M493 240h26"/><text x="506" y="257">큐브하우스</text></g>
-      <g class="journey-map__area-labels">
-        <text x="112" y="178">델프스하번</text><text x="314" y="134">도심</text><text x="690" y="143">크랄링언</text>
-        <text x="218" y="559">카텐드레흐트</text><text x="448" y="546">콥 판 자위트</text><text x="690" y="505">페예노르트</text><text x="827" y="442">에이설몬더</text>
-        <text class="journey-map__river-name" x="615" y="325">니우어 마스강</text><text class="journey-map__harbour-name" x="493" y="442">레인하번</text>
+        <rect class="journey-map__overview-panel" x="724" y="18" width="252" height="180" rx="16" />
+        <path class="journey-map__boundary" transform="translate(724 12) scale(.245 .22)" d="M877 436L914 444L903 535L853 567L801 566L770 592L698 551L666 550L651 589L650 660L637 657L605 628L585 578L490 574L456 545L424 449L359 373L352 345L326 326L278 308L269 354L257 321L227 317L93 394L50 354L70 109L178 60L295 60L338 123L333 145L391 203L386 215L393 244L430 293L420 321L455 387L519 450L576 469L619 451L663 462L692 448L686 406L698 369L686 333L699 311L680 315L669 279L660 284L648 219L667 223L714 172L739 223L757 202L770 159L837 234L860 198L877 189L888 205L912 191L919 179L912 184L907 167L919 160L919 128L940 112L946 135L939 179L950 193L896 240L910 297L893 306L900 365L888 382L861 382L867 431L887 401Z" />
+        <rect class="journey-map__focus" x="905" y="80" width="29" height="50" rx="2" />
+        <text x="850" y="179">로테르담 전체</text>
+        <text class="journey-map__focus-label" x="919" y="73">현재 지도</text>
       </g>
     </svg>
-    <a class="journey-map__pin journey-map__pin--station" href="#centraal" style="--x:22.2%;--y:13%;--delay:-.4s">
+    <span class="journey-map__place-label" style="--lx:8%;--ly:37%">델프스하번</span><span class="journey-map__place-label" style="--lx:38%;--ly:25%">도심</span><span class="journey-map__place-label" style="--lx:67%;--ly:29%">크랄링언</span>
+    <span class="journey-map__place-label" style="--lx:21%;--ly:70%">카텐드레흐트</span><span class="journey-map__place-label" style="--lx:44%;--ly:68%">콥 판 자위트</span><span class="journey-map__place-label" style="--lx:70%;--ly:67%">페예노르트</span><span class="journey-map__place-label" style="--lx:83%;--ly:57%">에이설몬더</span>
+    <span class="journey-map__place-label journey-map__place-label--water" style="--lx:61%;--ly:51%">니우어 마스강</span><span class="journey-map__place-label journey-map__place-label--water" style="--lx:50%;--ly:61%">레인하번</span>
+    <a class="journey-map__pin journey-map__pin--station" href="#centraal" style="--x:22.2%;--y:24%;--delay:-.4s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 12h30v31H17z"/><path d="M22 18h20v12H22zM23 48l5-7m13 7l-5-7M22 36h4m12 0h4"/></svg><b>1</b></span><span class="journey-map__label"><small>출발</small><strong>로테르담 중앙역</strong></span>
     </a>
-    <a class="journey-map__pin journey-map__pin--food" href="#ballentent" style="--x:25.9%;--y:49.5%;--delay:-1.8s">
+    <a class="journey-map__pin journey-map__pin--food" href="#ballentent" style="--x:25.9%;--y:52.5%;--delay:-1.8s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 34c1 10 8 16 16 16s15-6 16-16z"/><path d="M15 31h34M23 24c0-5 4-8 9-8s9 3 9 8M32 14v4"/></svg><b>2</b></span><span class="journey-map__label"><small>맛집</small><strong>더 발런텐트</strong></span>
     </a>
-    <a class="journey-map__pin journey-map__pin--bridge" href="#erasmusbrug" style="--x:43.4%;--y:48.8%;--delay:-1s">
+    <a class="journey-map__pin journey-map__pin--bridge" href="#erasmusbrug" style="--x:43.4%;--y:49.2%;--delay:-1s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 47h42M18 44V30m28 14V22M31 44V13M14 38c9-1 12-8 17-18 4 8 7 15 20 17"/><path d="M31 13l15 9"/></svg><b>3</b></span><span class="journey-map__label"><small>산책</small><strong>에라스뮈스 다리</strong></span>
     </a>
-    <a class="journey-map__pin journey-map__pin--stay" href="#stay" style="--x:45.8%;--y:57.6%;--delay:-2.5s">
+    <a class="journey-map__pin journey-map__pin--stay" href="#stay" style="--x:45.8%;--y:53.1%;--delay:-2.5s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 18h36v33H14zM21 26h7v7h-7zm15 0h7v7h-7zM21 39h22v12M32 39v12"/><path d="M10 51h44"/></svg><b>4</b></span><span class="journey-map__label"><small>숙소</small><strong>콥 판 자위트</strong></span>
     </a>
-    <a class="journey-map__pin journey-map__pin--food" href="#fenix" style="--x:37.4%;--y:67.8%;--delay:-.7s">
+    <a class="journey-map__pin journey-map__pin--food" href="#fenix" style="--x:37.4%;--y:62.4%;--delay:-.7s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M17 13v17m6-17v17m-12-17v12c0 4 3 7 6 7v19M42 13c-5 7-6 16-1 22l3 2v14M42 13v24"/></svg><b>5</b></span><span class="journey-map__label"><small>맛집</small><strong>피닉스</strong></span>
     </a>
-    <a class="journey-map__pin journey-map__pin--camera" href="#rijnhaven" style="--x:54.1%;--y:64%;--delay:-2s">
+    <a class="journey-map__pin journey-map__pin--camera" href="#rijnhaven" style="--x:54.1%;--y:59.8%;--delay:-2s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 23h10l4-7h12l4-7h10v27H12z"/><circle cx="32" cy="36" r="9"/><path d="M46 28h2"/></svg><b>6</b></span><span class="journey-map__label"><small>사진</small><strong>레인하번</strong></span>
     </a>
-    <a class="journey-map__pin journey-map__pin--match" href="#de-kuip" style="--x:86%;--y:84.7%;--delay:-1.3s">
+    <a class="journey-map__pin journey-map__pin--match" href="#de-kuip" style="--x:86%;--y:73.9%;--delay:-1.3s">
       <span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="22" rx="23" ry="10"/><path d="M9 22v21c0 6 10 10 23 10s23-4 23-10V22M16 31c10 5 22 5 32 0M18 42c9 4 19 4 28 0"/></svg><b>7</b></span><span class="journey-map__label"><small>경기</small><strong>더 카위프</strong></span>
     </a>
   </div>
-  <p>오른쪽 위는 로테르담시 전체 행정 경계, 본 지도는 도심 여행권을 확대한 그림이다. 니우어 마스강과 주요 지구·랜드마크를 기준으로 실제 상대 위치를 옮겼다. 아이콘을 누르면 해당 장소로 이동한다. 지형·위치 기준: 로테르담시 공개 GIS·OpenStreetMap contributors.</p>
+  <p>본 지도는 로테르담시 공식 기본지도에서 중앙역부터 더 카위프까지의 범위를 그대로 가져왔다. 오른쪽 위 전체 행정 경계의 파란 상자가 현재 확대 범위다. 아이콘을 누르면 해당 장소로 이동한다. 지도·행정 경계: 로테르담시 공개 GIS.</p>
 </nav>
 
 첫날은 중앙역에서 도시의 재건 과정을 보고 니우어 마스강<span class="foreign-note" lang="nl">(Nieuwe Maas; 로테르담 도심을 가르는 강)</span>까지 걷는다. 콥 판 자위트<span class="foreign-note" lang="nl">(Kop van Zuid; ‘남쪽의 머리’라는 뜻의 옛 항만 지구)</span>에 짐을 푼 뒤 카텐드레흐트<span class="foreign-note" lang="nl">(Katendrecht; 강 남쪽의 옛 항만 반도)</span>에서 저녁을 먹는다. 둘째 날은 강변에서 시간을 보내다가 트램으로 더 카위프에 간다. 홈경기가 없다면 스타디움 투어를 넣고, 레인하번<span class="foreign-note" lang="nl">(Rijnhaven; 도심 남쪽의 옛 항만)</span>에서 반나절을 더 쓰면 된다.
@@ -125,13 +117,16 @@ featured: false
 
 <div class="journey-stays">
   <article class="journey-stay journey-stay--pick">
-    <span>동선 균형</span><strong>나우 로테르담<span class="foreign-note" lang="en">(nhow Rotterdam)</span></strong><p>네덜란드 건축가 렘 콜하스<span class="foreign-note" lang="nl">(Rem Koolhaas)</span>와 그가 공동 설립한 건축사무소 OMA<span class="foreign-note" lang="en">(Office for Metropolitan Architecture)</span>가 설계한 더 로테르담<span class="foreign-note" lang="nl">(De Rotterdam; 세 동으로 구성된 복합 건축)</span> 안에 있다. 빌헬미나플레인역과 가깝고, 강과 에라스뮈스 다리가 보이는 객실이 장점이다.</p><small>추천 · 경기 이동과 도시 산책을 함께 잡고 싶을 때</small>
+    <figure><img src="/images/pilgrimage/rotterdam-de-kuip/nhow-rotterdam.webp" alt="에라스뮈스 다리와 나우 로테르담이 들어선 더 로테르담의 강변 야경" width="1200" height="675" loading="lazy" /><figcaption>에라스뮈스 다리 옆 더 로테르담. 사진: nhow Rotterdam.</figcaption></figure>
+    <div><span>동선 균형</span><strong>나우 로테르담<span class="foreign-note" lang="en">(nhow Rotterdam)</span></strong><p>네덜란드 건축가 렘 콜하스<span class="foreign-note" lang="nl">(Rem Koolhaas)</span>와 그가 공동 설립한 건축사무소 OMA<span class="foreign-note" lang="en">(Office for Metropolitan Architecture)</span>가 설계한 더 로테르담<span class="foreign-note" lang="nl">(De Rotterdam; 세 동으로 구성된 복합 건축)</span> 안에 있다. 빌헬미나플레인역과 가깝고, 강과 에라스뮈스 다리가 보이는 객실이 장점이다.</p><small>추천 · 경기 이동과 도시 산책을 함께 잡고 싶을 때</small></div>
   </article>
   <article class="journey-stay">
-    <span>이야기가 있는 숙소</span><strong>호텔 뉴욕<span class="foreign-note" lang="en">(Hotel New York)</span></strong><p>1901년 완공된 홀랜드 아메리카 라인<span class="foreign-note" lang="en">(Holland America Line; 대서양 여객·해운 회사)</span>의 옛 본사다. 이민자들이 대서양을 건너던 항구의 기억이 객실과 식당에 남아 있다.</p><small>추천 · 숙소 자체가 여행의 한 장면이어야 할 때</small>
+    <figure><img src="/images/pilgrimage/rotterdam-de-kuip/hotel-new-york.webp" alt="목재 벽과 욕조, 선명한 색의 침대가 놓인 호텔 뉴욕 객실" width="1024" height="576" loading="lazy" /><figcaption>옛 해운회사 본사의 분위기를 살린 객실. 사진: Hotel New York.</figcaption></figure>
+    <div><span>이야기가 있는 숙소</span><strong>호텔 뉴욕<span class="foreign-note" lang="en">(Hotel New York)</span></strong><p>1901년 완공된 홀랜드 아메리카 라인<span class="foreign-note" lang="en">(Holland America Line; 대서양 여객·해운 회사)</span>의 옛 본사다. 이민자들이 대서양을 건너던 항구의 기억이 객실과 식당에 남아 있다.</p><small>추천 · 숙소 자체가 여행의 한 장면이어야 할 때</small></div>
   </article>
   <article class="journey-stay">
-    <span>하루 더 머문다면</span><strong>에스에스 로테르담<span class="foreign-note" lang="en">(ss Rotterdam)</span></strong><p>홀랜드 아메리카 라인의 옛 기함을 호텔로 바꿨다. 이동 효율보다 배에서 보내는 밤과 항만 경험을 우선하는 선택이다.</p><small>추천 · 3박 이상이거나 선박 여행을 좋아할 때</small>
+    <figure><img src="/images/pilgrimage/rotterdam-de-kuip/ss-rotterdam.webp" alt="둥근 선창이 보이는 에스에스 로테르담 객실에서 아침을 먹는 여행자들" width="1280" height="600" loading="lazy" /><figcaption>배의 선창이 그대로 보이는 객실. 사진: ss Rotterdam.</figcaption></figure>
+    <div><span>하루 더 머문다면</span><strong>에스에스 로테르담<span class="foreign-note" lang="en">(ss Rotterdam)</span></strong><p>홀랜드 아메리카 라인의 옛 기함을 호텔로 바꿨다. 이동 효율보다 배에서 보내는 밤과 항만 경험을 우선하는 선택이다.</p><small>추천 · 3박 이상이거나 선박 여행을 좋아할 때</small></div>
   </article>
 </div>
 
@@ -203,7 +198,7 @@ featured: false
 
 로테르담 중앙역에서는 23번 트램을 타고 스타디온 페예노르트 정류장에 내린다. 경기일에는 12번 트램도 운행한다. 콥 판 자위트에서는 빌헬미나플레인에서 갈아타면 되고, 수상택시<span class="foreign-note" lang="nl">(Watertaxi)</span>의 스타디온 페예노르트 선착장도 경기장에서 도보 약 5분 거리다. 구단은 경기일 주변 도로가 매우 혼잡하므로 대중교통이나 자전거 이용을 권한다.
 
-<div class="journey-note"><span>경기일 이동</span><p>티켓의 게이트와 입장 시각을 먼저 확인하고, 경기 시작 90분 전에는 경기장 권역에 도착하자. 경기일 대중교통 무료 적용 범위와 운행 노선은 시즌마다 달라질 수 있으므로 페예노르트 공식 교통 안내와 로테르담 대중교통 운영사 RET<span class="foreign-note" lang="nl">(Rotterdamse Elektrische Tram)</span> 정보를 함께 확인한다.</p></div>
+<div class="journey-note"><span>경기일 이동</span><p>티켓의 게이트와 입장 시각을 먼저 확인하고, 경기 시작 90분 전에는 경기장 권역에 도착하자. 경기일 대중교통 무료 적용 범위와 운행 노선은 시즌마다 달라질 수 있으므로 페예노르트 공식 교통 안내와 로테르담 대중교통 운영사 <span class="journey-inline-term">RET<span class="foreign-note" lang="nl">(Rotterdamse Elektrische Tram)</span></span> 정보를 함께 확인한다.</p></div>
 
 ## 로테르담을 축구로 여행해야 하는 이유
 
@@ -222,13 +217,13 @@ featured: false
 <div class="source-notes">
   <h2>정보와 이미지 출처</h2>
   <ol>
-    <li><a href="https://services.arcgis.com/zP1tGdLpGvt2qNJ6/ArcGIS/rest/services/Gemeentegrens_Rotterdam/FeatureServer">로테르담시 공개 행정 경계 GIS</a>와 <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. 전체 행정 경계와 도심 지구·강·장소의 상대 위치.</li>
+    <li><a href="https://diensten.rotterdam.nl/arcgis/rest/services/SB_BI/Basiskaart_BI_Grijs_Update_20260106/MapServer">로테르담시 공식 회색 기본지도</a>와 <a href="https://services.arcgis.com/zP1tGdLpGvt2qNJ6/ArcGIS/rest/services/Gemeentegrens_Rotterdam/FeatureServer">공개 행정 경계 GIS</a>. 중앙역부터 더 카위프까지의 실제 도로·철도·수계와 전체 행정 경계 속 확대 범위.</li>
     <li><a href="https://www.feyenoord.com/nl/news/overname-de-kuip-door-feyenoord-officieel-afgerond-140726">Feyenoord, De Kuip 인수 공식 완료</a> 및 <a href="https://www.feyenoord.com/en/news/we-will-soon-be-one-110626">구단·경기장 통합 발표</a>. 2026년 지분 취득, 투자와 보수 계획.</li>
     <li><a href="https://www.feyenoord.com/en/our-club/organisation/history">Feyenoord 공식 구단사</a>. 1908년 창립, 로테르담 남부와 노동자 클럽의 정체성, 1970년·2002년 유럽 우승.</li>
     <li><a href="https://www.feyenoord.com/en/our-club/locations/the-stadium">Feyenoord, De Kuip 공식 안내</a> 및 <a href="https://www.feyenoord.com/en/our-club/contact/route">경기장 교통 안내</a>. 개장 연도, 수용 규모, 투어와 트램·기차·Watertaxi 동선.</li>
     <li><a href="https://www.feyenoord.com/nl/news/bijzonder-bezoek-voor-vertolker-hand-in-hand-kameraden-210121">Feyenoord, Hand in Hand Kameraden</a>. 1963년 녹음과 홈경기 입장 음악 기록.</li>
     <li><a href="https://www.rotterdam.info/en/visit/guide/architecture-in-rotterdam">Rotterdam Partners, 로테르담 건축과 재건</a>, <a href="https://www.rotterdam.info/en/visit/guide/visit-kop-van-zuid">Kop van Zuid 안내</a>, <a href="https://www.rotterdam.info/nl/visit/finder-locations/erasmusbrug">Erasmusbrug 안내</a>.</li>
-    <li><a href="https://hotelnewyork.nl/over-hotel-new-york/geschiedenis-hotel-new-york/">Hotel New York 공식 역사</a>, <a href="https://www.nh-hotels.com/en/hotel/nhow-rotterdam">nhow Rotterdam 공식 안내</a>, <a href="https://ssrotterdam.com/">ss Rotterdam 공식 사이트</a>. 숙소의 위치와 건축·항만 배경.</li>
+    <li><a href="https://hotelnewyork.nl/over-hotel-new-york/geschiedenis-hotel-new-york/">Hotel New York 공식 역사</a>와 <a href="https://hotelnewyork.nl/slapen-in-rotterdam/kamers/">객실</a>, <a href="https://www.nh-hotels.com/en/hotel/nhow-rotterdam">nhow Rotterdam 공식 안내</a>, <a href="https://ssrotterdam.com/sleep/rooms-ss-rotterdam/">ss Rotterdam 공식 객실</a>. 숙소의 위치와 건축·항만 배경 및 카드 사진.</li>
     <li><a href="https://www.rotterdam.info/en/visit/guide/rotterdam-port-visit">Rotterdam Partners, 항구 여행과 De Ballentent</a>, <a href="https://www.rotterdam.info/nl/visit/finder-locations/fenix-food-factory">Fenix Food Factory 안내</a>. 식사와 강변 동선.</li>
     <li><a href="https://www.instagram.com/lilianmarijnissen/">릴리안 마레이니선 공식 Instagram</a> 및 <a href="https://www.feyenoordpings.nl/marijnissen-trots-op-feyenoord/">De Kuip 방문 사진 기록</a>. 2024년 더 클라시케르 관중석 사진.</li>
     <li><a href="https://www.youtube.com/watch?v=nTgSvcP8hmE">De Kuip의 ‘Hand in Hand, Kameraden’ 현장 영상</a>. 선수 입장 때 관중석이 함께 부르는 장면.</li>
