@@ -17,6 +17,7 @@ import ArticleByline from '../components/ArticleByline.astro';
 import ArticleProvenance from '../components/ArticleProvenance.astro';
 import RelatedAssets from '../components/RelatedAssets.astro';
 import FashionCategoryPage from '../components/FashionCategoryPage.astro';
+import PilgrimageCategoryPage from '../components/PilgrimageCategoryPage.astro';
 import FashionProfileCard from '../components/FashionProfileCard.astro';
 import { archiveBranches } from '../data/archive';
 
@@ -137,6 +138,8 @@ if (props.kind === 'category') {
   >
     {categoryView.categorySlug === 'culture' ? (
       <FashionCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
+    ) : categoryView.categorySlug === 'pilgrimage' ? (
+      <PilgrimageCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
     ) : (
     <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
       <div class="min-w-0">

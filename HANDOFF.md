@@ -1,3 +1,12 @@
+## 2026-08-26 축행 카테고리 여행 매거진 편집면 전환
+
+- `/pilgrimage/`를 공용 글 목록에서 전용 `PilgrimageCategoryPage.astro`로 분리했다. 로마를 `THE LEAD ROUTE`, 토리노를 `NEXT DESTINATION`으로 진열하고 도시·경기장·클럽·여행 동선을 한 화면에서 비교할 수 있게 했다.
+- 로마 편의 `featured` 값을 켜 현재 커버 스토리로 고정했다. 이후 다른 축행 글에 `featured: true`를 지정하면 전용 편집면의 대표 도시가 자동으로 교체된다.
+- 커버 CTA 앞에는 `START → MATCHDAY` 경로점 모션을 넣었고 `prefers-reduced-motion`에서는 정지한다. 세 번째 글부터는 아래 `CITY FILES` 그리드가 자동 생성된다.
+- 로컬 운영 렌더에서 1280px와 380px를 확인했다. 로마·토리노 순서, 단일 열 전환, 경로 모션, CTA와 이미지 포커스, 전 화면 가로 넘침 없음을 검증했다.
+
+---
+
 ## 2026-08-26 사키나 카르샤위 PSG 리크리에이션 축디 발행
 
 - `/culture/sakina-karchaoui-psg-recreation-fashion/`을 추가했다. PSG × Nike Re-Creation × Courtney McWilliams 컬렉션을 사키나 카르샤위의 검정 패딩 룩에서 시작해 스우시 갈비뼈 구조, 고딕 레터링, 호랑이 자수, LeLabPlus 제작 과정으로 읽는다.

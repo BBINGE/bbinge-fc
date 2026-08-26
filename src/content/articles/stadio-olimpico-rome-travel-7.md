@@ -11,7 +11,7 @@ coverImageCaption: '축구를 보러 떠난 로마에서 경기장만 보고 돌
 coverImageWidth: 773
 coverImageHeight: 773
 draft: false
-featured: false
+featured: true
 ---
 
 길거리에 지나다니는 모든 사람이 잘생겼다는 나라, 낭만의 도시 로마.
