@@ -33,11 +33,15 @@ const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
 const FINISHED_STATUSES = new Set(['FT', 'AET', 'PEN', 'FINISHED', 'MATCH FINISHED']);
 const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
 const POSTPONED_STATUSES = new Set(['PST', 'POSTPONED', 'CANC', 'CANCELLED', 'ABD', 'ABANDONED']);
+const LIVE_STATUS_MAX_AGE = 4 * 60 * 60 * 1000;
 
 function matchView(item: Match) {
   const status = (item.status || '').trim().toUpperCase();
   const hasScore = Number.isInteger(item.homeScore) && Number.isInteger(item.awayScore);
+  const kickoff = Date.parse(`${item.date}T${item.time || '00:00'}:00+09:00`);
+  const expiredLiveStatus = LIVE_STATUSES.has(status) && Number.isFinite(kickoff) && now.valueOf() - kickoff >= LIVE_STATUS_MAX_AGE;
   if (FINISHED_STATUSES.has(status)) return { label: '종료', kind: 'finished', hasScore };
+  if (expiredLiveStatus) return { label: '종료', kind: 'finished', hasScore };
   if (LIVE_STATUSES.has(status)) {
     const progress = (item.progress || '').trim();
     return { label: status === 'HT' ? '하프타임' : (progress || 'LIVE'), kind: 'live', hasScore };

@@ -7,7 +7,9 @@ const KST_OFFSET = 9 * 60 * 60 * 1000;
 const RETRY_DELAYS = [0, 1_000, 3_000];
 const MATCH_LIMIT = 12;
 const MATCH_WINDOW_AFTER = 20 * 60 * 60 * 1000;
+const LIVE_STATUS_MAX_AGE = 4 * 60 * 60 * 1000;
 const STANDINGS_LIMIT = 24;
+const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
 
 function koreaParts(date = new Date()) {
   const shifted = new Date(date.getTime() + KST_OFFSET);
@@ -147,6 +149,12 @@ function parseUtcTimestamp(value) {
   return Number.isNaN(timestamp.valueOf()) ? null : timestamp;
 }
 
+function normalizeMatchStatus(status, kickoff) {
+  const normalized = String(status || '').trim().toUpperCase();
+  if (!LIVE_STATUSES.has(normalized) || !kickoff || Number.isNaN(kickoff.valueOf())) return status || '';
+  return Date.now() - kickoff.valueOf() >= LIVE_STATUS_MAX_AGE ? 'FT' : status;
+}
+
 function curateMatches(events) {
   const unique = [...new Map(events.map((event) => [event.id, event])).values()]
     .sort((a, b) => a.sortTime.localeCompare(b.sortTime) || b.score - a.score);
@@ -208,7 +216,7 @@ async function fetchMatches(date, previousMatches = []) {
       awayBadge: event.strAwayTeamBadge || '',
       homeScore: nullableScore(event.intHomeScore),
       awayScore: nullableScore(event.intAwayScore),
-      status: event.strStatus || '',
+      status: normalizeMatchStatus(event.strStatus, timestamp),
       progress: event.strProgress || '',
       time: koreaTime,
       date: koreaDate,
@@ -224,6 +232,7 @@ async function fetchMatches(date, previousMatches = []) {
     const validTimestamp = timestamp && !Number.isNaN(timestamp.valueOf());
     return {
       ...event,
+      status: normalizeMatchStatus(event.status, timestamp),
       score: 0,
       sortTime: validTimestamp ? timestamp.toISOString() : `${event.date}T${event.time || '23:59'}`,
       leagueId: `previous-${event.league}`,
@@ -261,7 +270,7 @@ async function fetchFootballDataMatches(date) {
       awayBadge: event.awayTeam?.crest || '',
       homeScore: nullableScore(event.score?.fullTime?.home),
       awayScore: nullableScore(event.score?.fullTime?.away),
-      status: event.status || '',
+      status: normalizeMatchStatus(event.status, timestamp),
       progress: '',
       time: koreaTime,
       date: koreaDate,

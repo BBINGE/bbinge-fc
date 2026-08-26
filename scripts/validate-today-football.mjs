@@ -5,6 +5,8 @@ const shifted = new Date(Date.now() + KST_OFFSET);
 const today = `${shifted.getUTCFullYear()}-${String(shifted.getUTCMonth() + 1).padStart(2, '0')}-${String(shifted.getUTCDate()).padStart(2, '0')}`;
 const data = JSON.parse(await readFile('src/data/today-football.json', 'utf8'));
 const allowed = new Set(['ok', 'fallback', 'empty', 'unavailable']);
+const liveStatuses = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
+const liveStatusMaxAge = 4 * 60 * 60 * 1000;
 const errors = [];
 
 if (data.date !== today) errors.push(`date mismatch: expected ${today}, received ${data.date}`);
@@ -19,6 +21,10 @@ for (const match of data.matches ?? []) {
   const awayHasScore = Number.isInteger(match.awayScore) && match.awayScore >= 0;
   if (homeHasScore !== awayHasScore) errors.push(`incomplete score pair: ${match.id}`);
   if (!match.home || !match.away) errors.push(`team name missing: ${match.id}`);
+  const kickoff = Date.parse(`${match.date}T${match.time || '00:00'}:00+09:00`);
+  if (liveStatuses.has(String(match.status || '').trim().toUpperCase()) && Number.isFinite(kickoff) && Date.now() - kickoff >= liveStatusMaxAge) {
+    errors.push(`stale live status: ${match.id}`);
+  }
 }
 if ((data.standings?.length ?? 0) > 5) errors.push('standings exceed display limit of 5 leagues');
 for (const table of data.standings ?? []) {

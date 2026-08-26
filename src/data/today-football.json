@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-25T23:23:52.144Z",
+  "updatedAt": "2026-08-26T05:25:34.494Z",
   "matches": [
     {
       "id": "2570479",
@@ -11,7 +11,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ar5zft1781239007.png",
       "homeScore": 5,
       "awayScore": 2,
-      "status": "ET",
+      "status": "FT",
       "progress": "",
       "time": "01:45",
       "date": "2026-08-26"
@@ -25,7 +25,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
       "homeScore": 5,
       "awayScore": 1,
-      "status": "ET",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-26"
