@@ -30,7 +30,7 @@ featured: false
 
 1950년대 헝가리 대표팀 <strong>황금의 팀<span class="foreign-note" lang="hu">(Aranycsapat; 헝가리어 별칭)</span></strong>의 호흡은 대표팀 소집 때만 만들어지지 않았다. 푸슈카시 페렌츠, 보지크 요제프, 코치시 샨도르는 혼베드에서, 히데그쿠티 난도르와 란토시 미하이는 MTK에서 매주 함께 뛰었다. 부더페슈트를 축구로 여행할 이유는 이 관계를 실제 거리와 경기장으로 확인할 수 있다는 데 있다.
 
-<div class="journey-deck">
+<div class="journey-deck" data-city="BUDAPEST">
   <p>BBINGE FC · HONEYMOON CITY GUIDE</p>
   <strong>둘이 걷는 도시,<br />한 사람이 먼저 알아보는 이름들</strong>
   <span>부더의 아침 · 황금의 팀이 남긴 주소 · 경기 뒤 다뉴브의 밤</span>

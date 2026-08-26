@@ -321,7 +321,7 @@ if (props.kind === 'category') {
   .journey-article .article-body>:global(figure img) { border-radius:0; }
   .journey-article .article-body>:global(figcaption) { padding:0 8px; text-align:left; }
   .journey-article .article-body>:global(.journey-deck) { position:relative; overflow:hidden; margin:62px 0 24px; padding:52px 54px 55px; background:radial-gradient(circle at 88% 15%,rgba(65,127,255,.33),transparent 34%),linear-gradient(145deg,#09111e,#17253a); color:#fff; }
-  .journey-article .article-body>:global(.journey-deck::after) { content:'BUDAPEST'; position:absolute; right:-10px; bottom:-31px; color:rgba(255,255,255,.045); font-size:116px; line-height:1; font-weight:820; letter-spacing:-.07em; }
+  .journey-article .article-body>:global(.journey-deck::after) { content:attr(data-city); position:absolute; right:-10px; bottom:-31px; color:rgba(255,255,255,.045); font-size:116px; line-height:1; font-weight:820; letter-spacing:-.07em; }
   .journey-article .article-body>:global(.journey-deck p) { position:relative; z-index:1; margin:0; color:#85b5ff; font-size:15px; line-height:1.4; font-weight:760; letter-spacing:.12em; }
   .journey-article .article-body>:global(.journey-deck strong) { position:relative; z-index:1; display:block; max-width:720px; margin-top:19px; font-size:clamp(34px,5vw,56px); line-height:1.08; font-weight:760; letter-spacing:-.052em; }
   .journey-article .article-body>:global(.journey-deck span) { position:relative; z-index:1; display:block; margin-top:24px; color:rgba(255,255,255,.76); font-size:15px; line-height:1.55; letter-spacing:.04em; }

@@ -44,6 +44,13 @@ const routeProfiles: Record<string, TravelMeta> = {
     clubs: 'KISPEST–HONVÉD · MTK · FERENCVÁROS',
     route: '어부의 요새 · 푸슈카시 박물관 · 세체니 온천 · 다뉴브의 밤',
   },
+  'bilbao-san-mames-football-travel': {
+    city: 'BILBAO',
+    country: 'EUSKAL HERRIA',
+    stadium: 'SAN MAMÉS',
+    clubs: 'ATHLETIC CLUB',
+    route: '카스코 비에호 · 구겐하임 · 카롤라 크레인 · 포사 · 산 마메스',
+  },
 };
 
 const metaFor = (entry: CollectionEntry<'articles'>): TravelMeta => routeProfiles[entry.id] ?? {
