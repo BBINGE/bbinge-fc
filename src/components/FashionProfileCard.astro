@@ -38,11 +38,7 @@ const channelClass = profile.officialChannel?.label.toLowerCase() === 'instagram
 const birthLabel = (() => {
   if (!profile.birthDate) {
     if (!profile.birthYear) return undefined;
-    const currentYear = Number(new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Asia/Seoul',
-      year: 'numeric',
-    }).format(new Date()));
-    return `${profile.birthYear}년 (연 ${currentYear - profile.birthYear}세)${profile.birthPlace ? ` · ${profile.birthPlace}` : ''}`;
+    return `${profile.birthYear}년${profile.birthPlace ? ` · ${profile.birthPlace}` : ''}`;
   }
   const [birthYear, birthMonth, birthDay] = profile.birthDate.split('-').map(Number);
   const currentParts = new Intl.DateTimeFormat('en-CA', {

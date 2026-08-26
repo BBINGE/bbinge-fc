@@ -19,7 +19,7 @@ fashionProfile:
   portrait: '/images/culture/tolami-benson-football-style/tolami-river-island-portrait.webp'
   portraitAlt: '검정 베레와 가죽 재킷, 진주 목걸이를 착용한 톨라미 벤슨의 패션 화보'
   portraitCredit: 'River Island, RI × Tolami Benson'
-  birthYear: 2000
+  birthDate: '2000-12-03'
   birthPlace: '영국 허트퍼드셔'
   nationalities:
     - name: '영국'
@@ -119,6 +119,7 @@ fashionProfile:
     <li><a href="https://www.vogue.co.uk/article/tolami-benson-euro-2024-final-outfit">British Vogue, “I Don’t Have A Stylist - Just A Very Honest Group Chat”</a>, 2024년 7월 14일. 유로 2024 결승 착장, 미디어 전략 직무, 해티 크라우더의 업사이클 코르셋과 사진 9장.</li>
     <li><a href="https://www.instagram.com/p/C8S0hStNFhI/">Tolami Benson 공식 Instagram</a>, 2024년 6월. 안토니아 브론즈 87번 재킷과 디젤 톱 착장.</li>
     <li><a href="https://www.whowhatwear.com/fashion/tolami-benson-2026-world-cup-style-interview">Who What Wear, “Tolami Benson Is on the 2026 World Cup's Best Dressed List”</a>, 2026년 6월 30일. 나이지리아계 가정의 맞춤옷 문화, 경기일 스타일과 직접 스타일링하는 과정에 관한 인터뷰.</li>
+    <li><a href="https://businessday.ng/sports/article/10-facts-to-know-about-bukayo-sakas-fiancee-tolami-benson/">BusinessDay, “10 facts to know about Bukayo Saka’s fiancée, Tolami Benson”</a>, 2025년 11월 28일. 톨라미 벤슨의 생년월일과 출생지, 학력과 직업.</li>
     <li><a href="https://www.riverisland.com/us/editorial/ri-x-tolami-benson">River Island, “Meet Tolami Benson”</a>. `RI × Tolami Benson` 컬렉션과 인물 카드에 사용한 공식 캠페인 화보.</li>
     <li><a href="https://www.instagram.com/tolami_benson/p/DZs2rSoD5jA/">Tolami Benson 공식 Instagram</a>, 2026년. 커스텀 저지와 경기일 룩 확인.</li>
   </ol>
