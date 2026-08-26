@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-26T20:21:43.357Z",
+  "updatedAt": "2026-08-26T21:12:57.472Z",
   "matches": [
     {
       "id": "2506175",
@@ -9,9 +9,9 @@
       "away": "레알 소시에다드",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vptvpr1473502986.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "1H",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "2H",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
@@ -57,6 +57,34 @@
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
+    },
+    {
+      "id": "2570007",
+      "league": "UEFA 유로파 리그",
+      "home": "Viktoria Plzeň",
+      "away": "Crvena Zvezda",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/at8i2h1679265942.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/osgmbz1781157114.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "02:00",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "2573288",
+      "league": "UEFA 유로파 리그",
+      "home": "Lillestrøm",
+      "away": "Egnatia",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/txpuvv1448823342.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "02:00",
+      "date": "2026-08-28"
     }
   ],
   "standings": [
@@ -234,6 +262,14 @@
       "rows": [
         {
           "rank": 1,
+          "team": "레알 마드리드",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+          "played": 2,
+          "goalDifference": 4,
+          "points": 6
+        },
+        {
+          "rank": 2,
           "team": "세비야",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 2,
@@ -241,7 +277,7 @@
           "points": 6
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "레알 베티스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 2,
@@ -249,7 +285,7 @@
           "points": 6
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "데포르티보 알라베스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
           "played": 2,
@@ -257,7 +293,7 @@
           "points": 4
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "아틀레티코 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 2,
@@ -265,7 +301,7 @@
           "points": 4
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "played": 1,
@@ -273,19 +309,11 @@
           "points": 3
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "played": 2,
           "goalDifference": 2,
-          "points": 3
-        },
-        {
-          "rank": 7,
-          "team": "레알 마드리드",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-          "played": 1,
-          "goalDifference": 1,
           "points": 3
         },
         {
@@ -378,18 +406,18 @@
         },
         {
           "rank": 19,
-          "team": "레알 소시에다드",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "played": 1,
-          "goalDifference": -1,
-          "points": 0
-        },
-        {
-          "rank": 20,
           "team": "아틀레틱 클루브",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
           "played": 1,
           "goalDifference": -2,
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "team": "레알 소시에다드",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+          "played": 2,
+          "goalDifference": -4,
           "points": 0
         }
       ]
