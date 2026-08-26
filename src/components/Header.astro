@@ -63,7 +63,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
             <a
               href={href}
               class:list={[
-                'about-nav-trigger text-[14.5px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
+                'about-nav-trigger text-[15px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
                 active ? 'text-[var(--bbfc-blue)] font-semibold' : 'text-[var(--bbfc-ink-2)] font-medium',
               ]}
               aria-haspopup="true"
@@ -80,7 +80,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
           <a
             href={href}
             class:list={[
-              'text-[14.5px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
+              'text-[15px] leading-none whitespace-nowrap transition-colors hover:text-[var(--bbfc-blue)]',
               active ? 'text-[var(--bbfc-blue)] font-semibold' : 'text-[var(--bbfc-ink-2)] font-medium',
             ]}
           >
@@ -115,7 +115,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
   hidden
 >
   <div class="flex items-center justify-between mb-4">
-    <span class="text-[14px] font-medium text-[var(--bbfc-ink)]">메뉴</span>
+    <span class="text-[15px] font-medium text-[var(--bbfc-ink)]">메뉴</span>
     <button id="bbfc-close-btn" type="button" aria-label="메뉴 닫기" class="text-[var(--bbfc-gray-1)]">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
@@ -126,7 +126,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
     {primaryNav.map(({ href, label, active, isNew }) => href === '/about/' ? (
       <li class="mobile-about">
         <details open={active}>
-          <summary class:list={['text-[13.5px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}>{label}</summary>
+          <summary class:list={['text-[15px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}>{label}</summary>
           <div>
             <a href="/about/">저자 이야기</a>
             <a href="/about/logo/">로고 이야기</a>
@@ -137,7 +137,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
       <li>
         <a
           href={href}
-          class:list={['block text-[13.5px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
+          class:list={['block text-[15px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}
         >
           {label}
           {isNew && <span class="nav-new">NEW</span>}
@@ -145,14 +145,14 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
       </li>
     ))}
     <li>
-      <a href="/search/" class="block text-[13.5px] py-2 text-[var(--bbfc-ink-2)]">검색</a>
+      <a href="/search/" class="block text-[15px] py-2 text-[var(--bbfc-ink-2)]">검색</a>
     </li>
   </ul>
   <CategorySidebar activeSlug={currentPath.split('/').filter(Boolean)[0]} />
 </div>
 
 <style>
-  .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
+  .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size:15px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
   .site-wordmark { display:flex; align-items:center; gap:7px; white-space:nowrap; }
   .site-wordmark__mark { display:grid; flex:0 0 34px; place-items:center; width:34px; height:34px; overflow:visible; }
   .site-wordmark__mark img { display:block; width:34px; height:34px; max-width:100%; object-fit:contain; transform:none; }
@@ -165,19 +165,19 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
   .about-nav:hover .about-nav-trigger svg,.about-nav:focus-within .about-nav-trigger svg { transform:rotate(180deg); }
   .about-nav-menu a { display:grid; padding:12px; border-radius:8px; transition:background 140ms ease; }
   .about-nav-menu a:hover,.about-nav-menu a:focus-visible { background:var(--bbfc-fill-2); outline:none; }
-  .about-nav-menu span { color:var(--bbfc-blue); font-size:8px; font-weight:700; letter-spacing:.15em; }
-  .about-nav-menu strong { margin-top:4px; color:var(--bbfc-ink); font-size:13px; font-weight:650; }
-  .about-nav-menu small { margin-top:3px; color:var(--bbfc-gray-2); font-size:10.5px; }
+  .about-nav-menu span { color:var(--bbfc-blue); font-size:15px; font-weight:700; letter-spacing:.15em; }
+  .about-nav-menu strong { margin-top:4px; color:var(--bbfc-ink); font-size:15px; font-weight:650; }
+  .about-nav-menu small { margin-top:3px; color:var(--bbfc-gray-2); font-size: 15px; }
   .mobile-about summary { display:flex; align-items:center; justify-content:space-between; list-style:none; cursor:pointer; }
   .mobile-about summary::-webkit-details-marker { display:none; }
   .mobile-about summary::after { content:'+'; color:var(--bbfc-gray-2); font-size:15px; font-weight:400; }
   .mobile-about details[open] summary::after { content:'−'; }
   .mobile-about details div { margin:0 0 5px 8px; padding:2px 0 3px 12px; border-left:1px solid var(--bbfc-border); }
-  .mobile-about details div a { display:block; padding:7px 0; color:var(--bbfc-gray-1); font-size:12.5px; }
+  .mobile-about details div a { display:block; padding:7px 0; color:var(--bbfc-gray-1); font-size: 15px; }
   .header-search { flex:0 0 218px; height:38px; display:flex; align-items:center; gap:9px; padding:0 13px; border:1px solid var(--bbfc-border); border-radius:999px; background:#fff; color:var(--bbfc-gray-2); box-shadow:0 9px 24px -18px rgba(22,31,43,.7); animation:search-float 5.6s ease-in-out infinite; transition:border-color 160ms ease,box-shadow 160ms ease; will-change:transform; }
   .header-search:focus-within { border-color:var(--bbfc-blue); box-shadow:0 10px 26px -15px rgba(41,112,240,.48); }
   .header-search svg { flex:0 0 auto; }
-  .header-search input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:11.5px; }
+  .header-search input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size: 15px; }
   .header-search input::placeholder { color:var(--bbfc-gray-2); opacity:1; }
   @keyframes search-float {
     0%,100% { transform:translate3d(0,0,0); box-shadow:0 9px 24px -18px rgba(22,31,43,.7); }
@@ -186,11 +186,11 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
   }
   @media (max-width: 1180px) {
     .header-search { flex-basis:184px; }
-    .header-search input { font-size:10.5px; }
+    .header-search input { font-size: 15px; }
   }
   @media (max-width: 767px) {
     .header-search { flex-basis:min(46vw,170px); height:36px; padding:0 11px; }
-    .header-search input { font-size:10.5px; }
+    .header-search input { font-size: 15px; }
   }
   @media (prefers-reduced-motion: reduce) { .header-search { animation:none; } }
 </style>

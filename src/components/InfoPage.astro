@@ -11,14 +11,14 @@ const { eyebrow, title, description, updated } = Astro.props;
 
 <article class="max-w-[760px] mx-auto px-5 md:px-8 py-12 md:py-20">
   <header class="pb-9 md:pb-12 border-b border-[var(--bbfc-border)]">
-    <p class="text-[11px] font-medium tracking-[0.16em] text-[var(--bbfc-blue)]">{eyebrow}</p>
+    <p class="text-[15px] font-medium tracking-[0.16em] text-[var(--bbfc-blue)]">{eyebrow}</p>
     <h1 class="mt-4 text-[28px] md:text-[38px] font-medium tracking-[-0.035em] leading-[1.3] text-[var(--bbfc-ink)]">
       {title}
     </h1>
     <p class="mt-4 max-w-[620px] text-[15px] md:text-[17px] leading-[1.75] text-[var(--bbfc-gray-1)]">
       {description}
     </p>
-    {updated && <p class="mt-5 text-[12px] text-[var(--bbfc-gray-2)]">최종 업데이트 {updated}</p>}
+    {updated && <p class="mt-5 text-[15px] text-[var(--bbfc-gray-2)]">최종 업데이트 {updated}</p>}
   </header>
 
   <div class="info-body pt-9 md:pt-12">
@@ -44,7 +44,7 @@ const { eyebrow, title, description, updated } = Astro.props;
   }
   .info-body :global(p), .info-body :global(li) {
     color: var(--bbfc-gray-1);
-    font-size: 14px;
+    font-size:15px;
     line-height: 1.85;
   }
   .info-body :global(ul) { margin-top: 0.65rem; padding-left: 1.25rem; list-style: disc; }
@@ -57,7 +57,7 @@ const { eyebrow, title, description, updated } = Astro.props;
     border-radius: var(--bbfc-radius-lg);
     background: var(--bbfc-blue-weak);
     color: var(--bbfc-ink-2);
-    font-size: 13px;
+    font-size:15px;
     line-height: 1.75;
   }
 </style>

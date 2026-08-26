@@ -20,11 +20,11 @@ import { site } from '../../config/site';
         <div class="max-w-[900px] mx-auto px-4 md:px-5 h-14 flex items-center justify-between gap-3">
           <p class="text-[15px] font-medium text-[var(--bbfc-ink)] shrink-0">새 글쓰기</p>
           <div class="flex items-center gap-2 min-w-0">
-            <span id="bbfc-login-state" class="text-[11px] text-[var(--bbfc-gray-2)] whitespace-nowrap"></span>
+            <span id="bbfc-login-state" class="text-[15px] text-[var(--bbfc-gray-2)] whitespace-nowrap"></span>
             <button
               type="button"
               id="bbfc-publish-btn"
-              class="bg-[var(--bbfc-blue)] text-white text-[13px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2 shrink-0"
+              class="bg-[var(--bbfc-blue)] text-white text-[15px] font-medium rounded-[var(--bbfc-radius)] px-4 py-2 shrink-0"
             >
               발행
             </button>
@@ -33,8 +33,8 @@ import { site } from '../../config/site';
       </header>
 
       <div class="max-w-[900px] mx-auto px-4 md:px-5 py-6">
-        <p id="bbfc-autosave-indicator" class="text-[11px] text-[var(--bbfc-gray-2)] mb-2 min-h-[14px]"></p>
-        <p id="bbfc-status" class="text-[12px] mb-2 min-h-[16px]"></p>
+        <p id="bbfc-autosave-indicator" class="text-[15px] text-[var(--bbfc-gray-2)] mb-2 min-h-[14px]"></p>
+        <p id="bbfc-status" class="text-[15px] mb-2 min-h-[16px]"></p>
 
         <input
           id="bbfc-title-input"
@@ -44,37 +44,37 @@ import { site } from '../../config/site';
         />
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
             카테고리
             <div id="bbfc-category-levels" class="flex flex-wrap gap-2"></div>
           </label>
 
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
             URL slug (영문 소문자·숫자·하이픈, 발행 후 변경 금지)
             <input id="bbfc-slug-input" type="text" placeholder="예: my-first-post" class="bbfc-field" />
           </label>
 
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1 sm:col-span-2">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex flex-col gap-1 sm:col-span-2">
             설명 (검색결과에 노출)
             <textarea id="bbfc-description-input" rows="2" class="bbfc-field resize-none"></textarea>
           </label>
 
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
             태그 (쉼표로 구분)
             <input id="bbfc-tags-input" type="text" placeholder="예: 이탈리아, 축구 성지순례" class="bbfc-field" />
           </label>
 
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex flex-col gap-1">
             발행일 (예약 발행 시 미래 시각 지정)
             <input id="bbfc-pubdate-input" type="datetime-local" class="bbfc-field" />
           </label>
 
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex items-center gap-2 sm:col-span-2">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex items-center gap-2 sm:col-span-2">
             <input id="bbfc-draft-checkbox" type="checkbox" checked />
             비공개(초안)로 저장 - 체크 해제해야 사이트에 노출됩니다
           </label>
 
-          <label class="text-[12px] text-[var(--bbfc-gray-2)] flex items-center gap-2 sm:col-span-2">
+          <label class="text-[15px] text-[var(--bbfc-gray-2)] flex items-center gap-2 sm:col-span-2">
             <input id="bbfc-featured-checkbox" type="checkbox" />
             이번 주 HOT (홈 히어로에 노출)
           </label>
@@ -142,10 +142,10 @@ import { site } from '../../config/site';
         <div id="bbfc-editor" class="bbfc-editor-surface"></div>
 
         <div class="flex items-center justify-between mt-2">
-          <p class="text-[11px] text-[var(--bbfc-gray-2)]">
+          <p class="text-[15px] text-[var(--bbfc-gray-2)]">
             사진은 선택 즉시 GitHub의 public/images/에 업로드됩니다(첫 사진 업로드 시 GitHub 로그인 페이지로 이동하며, 로그인 후 다시 시도하면 됩니다). 유튜브 임베드는 다음 단계에서 이어집니다.
           </p>
-          <button type="button" id="bbfc-clear-draft-btn" class="text-[11px] text-[var(--bbfc-gray-2)] underline shrink-0 ml-2">
+          <button type="button" id="bbfc-clear-draft-btn" class="text-[15px] text-[var(--bbfc-gray-2)] underline shrink-0 ml-2">
             임시 초고 지우고 새로 시작
           </button>
         </div>
@@ -790,7 +790,7 @@ import { site } from '../../config/site';
 
     <style>
       .bbfc-field {
-        font-size: 13px;
+        font-size:15px;
         color: var(--bbfc-ink);
         background: var(--bbfc-bg);
         border: 1px solid var(--bbfc-border);
@@ -802,7 +802,7 @@ import { site } from '../../config/site';
         border-color: var(--bbfc-blue);
       }
       .bbfc-tb-btn {
-        font-size: 12.5px;
+        font-size: 15px;
         padding: 6px 10px;
         border-radius: var(--bbfc-radius);
         color: var(--bbfc-ink-2);
@@ -815,7 +815,7 @@ import { site } from '../../config/site';
         color: var(--bbfc-blue);
       }
       .bbfc-tb-select {
-        font-size: 12.5px;
+        font-size: 15px;
         color: var(--bbfc-ink-2);
         background: var(--bbfc-bg);
         border: 1px solid var(--bbfc-border);

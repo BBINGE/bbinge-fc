@@ -102,7 +102,7 @@ featured: false
 <style>
   .culture-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin: 1.35rem 0 .55rem; }
   .culture-photo-grid img { display: block; width: 100%; height: auto; margin: 0; border-radius: 14px; }
-  .culture-photo-caption { margin: 0 0 1.75rem; color: #7b8797; font-size: .88rem; line-height: 1.6; }
-  .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .68rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
+  .culture-photo-caption { margin: 0 0 1.75rem; color: #7b8797; font-size: 15px; line-height: 1.6; }
+  .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: 15px; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
   @media (max-width: 560px) { .culture-photo-grid { gap: .45rem; } .culture-photo-grid img { border-radius: 9px; } }
 </style>

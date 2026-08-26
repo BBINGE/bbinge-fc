@@ -32,7 +32,7 @@ if (!nodes || !counts) {
 
 {depth === 0 ? (
   <nav aria-label="카테고리" class="bbfc-cat-sidebar">
-    <p class="text-[12px] font-medium text-[var(--bbfc-gray-2)] mb-2">카테고리</p>
+    <p class="text-[15px] font-medium text-[var(--bbfc-gray-2)] mb-2">카테고리</p>
     <Astro.self nodes={nodes} counts={counts} freshCategorySlugs={freshCategorySlugs} activeSlug={activeSlug} depth={1} />
   </nav>
 ) : (
@@ -69,7 +69,7 @@ if (!nodes || !counts) {
 
 <style>
   .bbfc-cat-sidebar {
-    font-size: 13px;
+    font-size:15px;
   }
   .bbfc-cat-list {
     display: flex;
@@ -93,16 +93,16 @@ if (!nodes || !counts) {
   }
   .bbfc-cat-link {
     color: var(--bbfc-ink-2);
-    font-size: 13px;
+    font-size:15px;
   }
   .bbfc-cat-link.is-active {
     color: var(--bbfc-blue);
     font-weight: 500;
   }
-  .category-new { margin-left: 5px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
+  .category-new { margin-left: 5px; color: var(--bbfc-blue); font-size:15px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
   .bbfc-cat-count {
     color: var(--bbfc-gray-2);
-    font-size: 11px;
+    font-size:15px;
   }
   .bbfc-cat-summary {
     cursor: pointer;

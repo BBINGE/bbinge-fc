@@ -171,7 +171,7 @@ adidas의 삼선은 이 화보에서 옷을 조립하는 선으로 움직인다.
 </div>
 
 <style>
-  .brand-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 9px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
+  .brand-image-credit { display: block; margin-top: 7px; color: #8a94a3; font-size: 15px; font-weight: 500; letter-spacing: .025em; line-height: 1.45; }
   .brand-opening-grid, .brand-night-grid { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; width: min(960px, calc(100vw - 32px)); margin: 44px 0 58px; transform: translateX(-50%); }
   .brand-opening-grid figure, .brand-night-grid figure { margin: 0; }
   .brand-opening-grid img, .brand-night-grid img, .brand-full-look img, .brand-detail-focus img { display: block; width: 100%; height: auto; margin: 0; border-radius: var(--bbfc-radius-lg); }
@@ -180,14 +180,14 @@ adidas의 삼선은 이 화보에서 옷을 조립하는 선으로 움직인다.
   .brand-material-map, .brand-style-notes { position: relative; left: 50%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: min(1040px, calc(100vw - 32px)); margin: 42px 0 58px; border: 1px solid #d8dee8; border-top: 3px solid var(--bbfc-blue); border-radius: var(--bbfc-radius-lg); background: #f7f9fc; transform: translateX(-50%); overflow: hidden; }
   .brand-material-map article, .brand-style-notes article { margin: 0; padding: 27px 24px 29px; }
   .brand-material-map article + article, .brand-style-notes article + article { border-left: 1px solid #d8dee8; }
-  .brand-material-map span, .brand-style-notes span { color: var(--bbfc-blue); font-size: 10px; font-weight: 800; letter-spacing: .13em; }
+  .brand-material-map span, .brand-style-notes span { color: var(--bbfc-blue); font-size: 15px; font-weight: 800; letter-spacing: .13em; }
   .brand-material-map h3, .brand-style-notes h3 { margin: 11px 0 10px; font-size: 17px; line-height: 1.35; }
-  .brand-material-map p, .brand-style-notes p { margin: 0; color: #4d596a; font-size: 13px; line-height: 1.72; }
+  .brand-material-map p, .brand-style-notes p { margin: 0; color: #4d596a; font-size: 15px; line-height: 1.72; }
   .brand-night-grid { width: min(1040px, calc(100vw - 32px)); }
   .brand-night-grid figure:first-child { padding-top: 68px; }
   @media (max-width: 720px) {
     .brand-opening-grid, .brand-night-grid { gap: 8px; margin-top: 36px; }
-    .brand-opening-grid figcaption, .brand-night-grid figcaption { padding-inline: 2px; font-size: 10px; line-height: 1.55; }
+    .brand-opening-grid figcaption, .brand-night-grid figcaption { padding-inline: 2px; font-size: 15px; line-height: 1.55; }
     .brand-night-grid figure:first-child { padding-top: 34px; }
     .brand-material-map, .brand-style-notes { grid-template-columns: 1fr; }
     .brand-material-map article, .brand-style-notes article { padding: 23px 21px 25px; }

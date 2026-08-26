@@ -78,7 +78,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
 >
   <div class="max-w-[1160px] mx-auto px-3 md:px-6 py-6 md:py-9">
     <header class="mb-6 md:mb-7">
-      <p class="text-[13px] font-bold text-[var(--bbfc-blue)]">PLAY · 32강</p>
+      <p class="text-[15px] font-bold text-[var(--bbfc-blue)]">PLAY · 32강</p>
       <h1 class="text-[29px] md:text-[38px] font-semibold text-[var(--bbfc-ink)] mt-1">둘 중 한 명만 찍어.</h1>
       <p class="text-[15px] md:text-[17px] leading-relaxed text-[var(--bbfc-gray-1)] mt-2">
         고민은 짧게, 클릭은 세게. 살아남은 한 명이 다음 라운드로 갑니다.
@@ -102,7 +102,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     border-left: 3px solid var(--bbfc-blue);
     background: var(--bbfc-fill-2);
     color: var(--bbfc-gray-1);
-    font-size: 13px;
+    font-size:15px;
     line-height: 1.78;
   }
 </style>
@@ -302,7 +302,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     app.innerHTML = `
       <div class="flex items-center justify-between mb-3">
         <span class="goat-round">${ROUND_NAME[size] ?? `${size}강`} · ${state.matchIndex + 1}/${totalMatches}</span>
-        <button type="button" id="goat-restart" class="text-[14px] font-medium text-[var(--bbfc-gray-1)] underline">다시 시작</button>
+        <button type="button" id="goat-restart" class="text-[15px] font-medium text-[var(--bbfc-gray-1)] underline">다시 시작</button>
       </div>
       <div class="goat-progress" aria-hidden="true"><span style="width:${((state.matchIndex + 1) / totalMatches) * 100}%"></span></div>
       <p class="goat-match-line">${MATCH_LINES[(state.matchIndex + size) % MATCH_LINES.length]}</p>
@@ -484,7 +484,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
 
     app.innerHTML = `
       <div class="text-center py-6 border-b border-[var(--bbfc-line)]">
-        <p class="text-[13px] font-bold text-[var(--bbfc-blue)]">🏆 우승</p>
+        <p class="text-[15px] font-bold text-[var(--bbfc-blue)]">🏆 우승</p>
         <h2 class="text-[28px] md:text-[34px] font-semibold text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
         <p class="text-[15px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
         ${nickname ? `<p class="text-[16px] text-[var(--bbfc-ink-2)] mt-2">${nickname}</p>` : ''}
@@ -498,7 +498,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
               (p) => `
             <li class="flex items-center justify-between py-2.5 border-t border-[var(--bbfc-line)] first:border-t-0 text-[15px]">
               <span class="${p.id === winner.id ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink)]'}">${p.name}</span>
-              ${p.id === winner.id ? '<span class="text-[13px] font-bold text-[var(--bbfc-blue)]">우승</span>' : ''}
+              ${p.id === winner.id ? '<span class="text-[15px] font-bold text-[var(--bbfc-blue)]">우승</span>' : ''}
             </li>`
             )
             .join('')}
@@ -516,7 +516,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
           다시 하기
         </button>
       </div>
-      <p id="goat-share-msg" class="text-[14px] text-[var(--bbfc-gray-2)] mt-2" hidden>링크가 복사됐어요.</p>
+      <p id="goat-share-msg" class="text-[15px] text-[var(--bbfc-gray-2)] mt-2" hidden>링크가 복사됐어요.</p>
       <section class="goat-community" aria-labelledby="goat-community-title">
         <div class="goat-community__head">
           <div>
@@ -575,7 +575,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     }
     app.innerHTML = `
       <div class="text-center py-6 border-b border-[var(--bbfc-line)]">
-        <p class="text-[13px] font-bold text-[var(--bbfc-blue)]">공유된 결과</p>
+        <p class="text-[15px] font-bold text-[var(--bbfc-blue)]">공유된 결과</p>
         <h2 class="text-[28px] md:text-[34px] font-semibold text-[var(--bbfc-ink)] mt-2">${winner.name}</h2>
         <p class="text-[15px] text-[var(--bbfc-gray-1)] mt-1">${winner.nationality} · ${POSITION_KR[winner.position] ?? winner.position}</p>
       </div>
@@ -695,9 +695,9 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-card:hover .goat-card__media img { transform: scale(1.035); filter: saturate(1.05) contrast(1.08); }
   .goat-card__media--empty { display: grid; place-items: center; background: radial-gradient(circle at 50% 32%, #345072 0, #192e48 37%, #102137 75%); }
   .goat-card__initial { font-size: clamp(70px, 13vw, 132px); font-weight: 900; color: rgba(255,255,255,.12); }
-  .goat-card__waiting { position: absolute; bottom: 38px; font-size: 10px; color: rgba(255,255,255,.45); letter-spacing: .1em; }
+  .goat-card__waiting { position: absolute; bottom: 38px; font-size:15px; color: rgba(255,255,255,.45); letter-spacing: .1em; }
   .goat-card__shade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 48%, rgba(5,13,24,.9) 100%); }
-  .goat-card__position { position: absolute; top: 14px; left: 14px; padding: 7px 9px; border: 1px solid rgba(255,255,255,.24); border-radius: 7px; background: rgba(5,15,28,.7); color: #a9ccff; font-size: 12px; font-weight: 850; letter-spacing: .08em; backdrop-filter: blur(5px); }
+  .goat-card__position { position: absolute; top: 14px; left: 14px; padding: 7px 9px; border: 1px solid rgba(255,255,255,.24); border-radius: 7px; background: rgba(5,15,28,.7); color: #a9ccff; font-size:15px; font-weight: 850; letter-spacing: .08em; backdrop-filter: blur(5px); }
   .goat-card__body { position:relative; display:flex; min-height:300px; flex-direction:column; padding:26px 26px 28px; overflow:hidden; background:#12243b; }
   .goat-card__body::before { content:''; position:absolute; inset:0; background:var(--player-flag); opacity:.13; filter:saturate(.85); transform:scale(1.08); }
   .goat-card__body::after { content:''; position:absolute; inset:0; background:linear-gradient(110deg,rgba(9,24,42,.94),rgba(9,24,42,.68)); }
@@ -709,7 +709,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-card__clubs { display:block; margin-top:auto; padding-top:22px; color:#b7c6d7; font-size:17px; line-height:1.45; font-weight:600; white-space:normal; }
   .goat-vs { position: absolute; z-index: 8; top: 42%; left: 50%; display: grid; width: 52px; height: 52px; place-items: center; border: 3px solid #091525; border-radius: 50%; background: #fff; transform: translate(-50%,-50%) rotate(-7deg); box-shadow: 0 8px 24px rgba(0,0,0,.28); pointer-events: none; }
   .goat-vs span { color: #0b1b2d; font-size: 16px; font-weight: 950; font-style: italic; }
-  .goat-credits { margin-top: 12px; color: var(--bbfc-gray-2); font-size: 12px; }
+  .goat-credits { margin-top: 12px; color: var(--bbfc-gray-2); font-size:15px; }
   .goat-credits summary { width: fit-content; cursor: pointer; }
   .goat-credits a { display: block; width: fit-content; margin-top: 5px; color: var(--bbfc-gray-1); text-decoration: underline; text-underline-offset: 2px; }
   .goat-card__crosshair { position: absolute; z-index: 9; width: 34px; height: 34px; border: 1px solid rgba(126,177,255,.85); border-radius: 50%; opacity: 0; transform: translate(-50%,-50%) scale(1.4); pointer-events: none; transition: opacity .15s, transform .15s; }
@@ -728,16 +728,16 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-app--hit .goat-arena { animation: goat-shake .22s linear; }
   .goat-community { margin-top:32px; padding-top:26px; border-top:1px solid var(--bbfc-line); }
   .goat-community__head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; }
-  .goat-community__eyebrow { color:var(--bbfc-blue); font-size:13px; font-weight:800; letter-spacing:.06em; }
+  .goat-community__eyebrow { color:var(--bbfc-blue); font-size:15px; font-weight:800; letter-spacing:.06em; }
   .goat-community__head h3 { margin-top:4px; color:var(--bbfc-ink); font-size:23px; font-weight:800; }
-  .goat-community__head a { flex:none; color:var(--bbfc-blue); font-size:14px; font-weight:750; }
+  .goat-community__head a { flex:none; color:var(--bbfc-blue); font-size:15px; font-weight:750; }
   .goat-winner-stats { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:14px; padding:17px; border-radius:14px; background:#0d2038; color:#dceaff; font-size:15px; }
   .goat-winner-stats strong { color:#8dbbff; }
   .goat-comment-write { margin-top:22px; padding:18px; border:1px solid var(--bbfc-line); border-radius:16px; background:#fff; }
   .goat-comment-write h3 { color:var(--bbfc-ink); font-size:19px; font-weight:800; }
-  .goat-comment-write > p { margin-top:4px; color:var(--bbfc-gray-1); font-size:14px; }
+  .goat-comment-write > p { margin-top:4px; color:var(--bbfc-gray-1); font-size:15px; }
   .goat-comment-write form { display:grid; grid-template-columns:180px minmax(0,1fr) auto; gap:10px; align-items:end; margin-top:14px; }
-  .goat-comment-write label { display:grid; gap:6px; color:var(--bbfc-gray-1); font-size:13px; font-weight:700; }
+  .goat-comment-write label { display:grid; gap:6px; color:var(--bbfc-gray-1); font-size:15px; font-weight:700; }
   .goat-comment-write input, .goat-comment-write textarea { width:100%; border:1px solid var(--bbfc-border); border-radius:9px; background:#fff; padding:11px 12px; color:var(--bbfc-ink); font-family:inherit; font-size:15px; font-weight:500; line-height:1.45; resize:vertical; }
   .goat-comment-write input:focus, .goat-comment-write textarea:focus { outline:2px solid #8bb9ff; outline-offset:1px; }
   .goat-comment-write button { min-height:44px; border-radius:9px; background:var(--bbfc-blue); padding:0 18px; color:#fff; font-size:15px; font-weight:800; }
@@ -745,7 +745,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-comment-message { min-height:18px; }
   .goat-comment-list { margin-top:12px; }
   .goat-comment { padding:14px 2px; border-bottom:1px solid var(--bbfc-line); }
-  .goat-comment__heading { color:var(--bbfc-blue); font-size:14px; font-weight:800; }
+  .goat-comment__heading { color:var(--bbfc-blue); font-size:15px; font-weight:800; }
   .goat-comment__content { margin-top:5px; color:var(--bbfc-ink-2); font-size:15px; line-height:1.6; overflow-wrap:anywhere; }
   .goat-comment--empty { color:var(--bbfc-gray-2); font-size:15px; }
   @keyframes goat-impact { 0% { opacity: 1; transform: translate(-50%,-50%) scale(.2); } 100% { opacity: 0; transform: translate(-50%,-50%) scale(7); } }
@@ -768,14 +768,14 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     .goat-card { border-radius: 12px; }
     .goat-card__media { height: 255px; }
     .goat-card__body { min-height:290px; padding:18px 13px 20px; }
-    .goat-card__position { top:10px; left:10px; padding:6px 8px; font-size:11px; }
+    .goat-card__position { top:10px; left:10px; padding:6px 8px; font-size:15px; }
     .goat-card__country { font-size:15px; line-height:1.35; }
     .goat-card__name { margin-top:6px; font-size:22px; line-height:1.14; }
     .goat-card__nickname { min-height:48px; margin-top:14px; font-size:20px; line-height:1.25; }
-    .goat-card__greatness { font-size:14px; line-height:1.5; }
+    .goat-card__greatness { font-size:15px; line-height:1.5; }
     .goat-card__clubs { padding-top:16px; font-size:15px; line-height:1.4; }
     .goat-vs { width: 42px; height: 42px; }
-    .goat-vs span { font-size: 13px; }
+    .goat-vs span { font-size:15px; }
     .goat-community__head { align-items:flex-start; }
     .goat-community__head h3 { font-size:20px; }
     .goat-comment-write { padding:15px; }

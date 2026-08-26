@@ -217,21 +217,21 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
 
 <style>
   .tactics-thesis { margin: 0 0 34px; padding: 23px 25px; border-left: 3px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
-  .tactics-thesis span, .board-heading > span, .shape-comparison span, .related-story > span { color: var(--bbfc-blue); font-size: 9px; font-weight: 750; letter-spacing: .15em; }
+  .tactics-thesis span, .board-heading > span, .shape-comparison span, .related-story > span { color: var(--bbfc-blue); font-size: 15px; font-weight: 750; letter-spacing: .15em; }
   .tactics-thesis p { margin: 10px 0 0 !important; color: var(--bbfc-ink); font-size: 16px; font-weight: 650; line-height: 1.75; }
   .lead-motion, .editorial-graphic { margin: 34px 0 42px; }
   .lead-motion img, .editorial-graphic img { width: 100%; border: 1px solid var(--bbfc-border); border-radius: 18px; }
-  .lead-motion figcaption, .editorial-graphic figcaption { margin-top: 10px; color: var(--bbfc-gray-2); font-size: 12px; line-height: 1.6; }
+  .lead-motion figcaption, .editorial-graphic figcaption { margin-top: 10px; color: var(--bbfc-gray-2); font-size: 15px; line-height: 1.6; }
   .tactics-board { position: relative; min-height: 680px; margin: 44px 0; overflow: hidden; border: 1px solid rgba(255,255,255,.22); border-radius: 20px; background: linear-gradient(160deg, #285d36, #163d27); box-shadow: 0 24px 60px -44px rgba(11,18,28,.9); color: #fff; }
   .board-heading { position: relative; z-index: 4; padding: 22px 24px 18px; border-bottom: 1px solid rgba(255,255,255,.22); background: rgba(5,18,10,.38); }
   .board-heading > span { display: block; color: #b8d3ff; }
   .board-heading strong { display: block; margin-top: 7px; font-size: 19px; line-height: 1.4; }
-  .board-heading small { display: block; margin-top: 4px; color: rgba(255,255,255,.64); font-size: 10px; }
+  .board-heading small { display: block; margin-top: 4px; color: rgba(255,255,255,.64); font-size: 15px; }
   .pitch-lines { position: absolute; z-index: 0; inset: 118px 22px 22px; border: 2px solid rgba(255,255,255,.36); }
   .pitch-lines::before { position: absolute; top: 50%; left: 0; width: 100%; border-top: 2px solid rgba(255,255,255,.3); content: ''; }
   .pitch-lines::after { position: absolute; top: calc(50% - 55px); left: calc(50% - 55px); width: 110px; height: 110px; border: 2px solid rgba(255,255,255,.3); border-radius: 50%; content: ''; }
-  .player { position: absolute; z-index: 2; width: 112px; padding: 9px 6px; transform: translate(-50%, -50%); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; background: rgba(8,25,14,.86); box-shadow: 0 8px 20px -14px #000; color: #fff; text-align: center; font-size: 14px; font-weight: 750; line-height: 1.15; }
-  .player small { display: block; margin-top: 4px; color: #b8d3ff; font-size: 10px; letter-spacing: .08em; }
+  .player { position: absolute; z-index: 2; width: 112px; padding: 9px 6px; transform: translate(-50%, -50%); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; background: rgba(8,25,14,.86); box-shadow: 0 8px 20px -14px #000; color: #fff; text-align: center; font-size: 15px; font-weight: 750; line-height: 1.15; }
+  .player small { display: block; margin-top: 4px; color: #b8d3ff; font-size: 15px; letter-spacing: .08em; }
   .featured-player { border-color: #8eb6ff; background: #173f2a; box-shadow: 0 0 0 5px rgba(142,182,255,.12); }
   .runner { border-color: rgba(255,215,92,.65); }
   .p-gk { left: 50%; top: 90%; } .p-lb { left: 34%; top: 76%; } .p-cb { left: 50%; top: 78%; } .p-rb { left: 66%; top: 76%; }
@@ -244,11 +244,11 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
   .shape-comparison article::after { position: absolute; inset: 8px; border: 1px solid rgba(255,255,255,.16); pointer-events: none; content: ''; }
   .shape-comparison span { color: #c7ddff; }
   .shape-comparison strong { position: relative; z-index: 1; display: block; margin-top: 7px; font-size: 27px; letter-spacing: -.04em; }
-  .shape-comparison p { position: relative; z-index: 1; margin: 8px 0 0 !important; color: rgba(255,255,255,.78); font-size: 12px; line-height: 1.6; }
+  .shape-comparison p { position: relative; z-index: 1; margin: 8px 0 0 !important; color: rgba(255,255,255,.78); font-size: 15px; line-height: 1.6; }
   .related-story { display: block; margin: 48px 0; padding: 25px 27px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff, rgba(36,107,253,.05)); }
   .related-story strong { display: block; margin-top: 9px; font-size: 21px; line-height: 1.4; }
-  .related-story p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.65; }
-  .related-story em { display: inline-block; margin-top: 14px; color: var(--bbfc-blue); font-size: 12px; font-style: normal; font-weight: 750; }
+  .related-story p { margin: 8px 0 0 !important; color: var(--bbfc-gray-1); font-size: 15px; line-height: 1.65; }
+  .related-story em { display: inline-block; margin-top: 14px; color: var(--bbfc-blue); font-size: 15px; font-style: normal; font-weight: 750; }
   .source-notes ol { list-style: decimal; }
   @keyframes tactical-pulse { 0%,100% { transform: translateY(0); opacity: .55; } 50% { transform: translateY(6px); opacity: 1; } }
   @media (max-width: 767px) {
@@ -257,8 +257,8 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
     .board-heading { padding: 18px 17px 15px; }
     .board-heading strong { font-size: 16px; }
     .pitch-lines { inset: 111px 10px 12px; }
-    .player { width: 64px; padding: 8px 2px; font-size: 11px; }
-    .player small { font-size: 9px; }
+    .player { width: 64px; padding: 8px 2px; font-size: 15px; }
+    .player small { font-size: 15px; }
     .p-lb { left: 25%; } .p-rb { left: 75%; }
     .p-lh { left: 19%; } .p-rh { left: 81%; }
     .p-ol { left: 10%; } .p-il { left: 30%; } .p-ir { left: 70%; } .p-or { left: 90%; }

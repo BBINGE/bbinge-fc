@@ -322,22 +322,22 @@ UEFA 플라크는 축구의 영광이면서 동시에 축구를 기록하는 권
 <style>
   .plaque-inscription { margin: 42px 0; padding: 30px 32px; border: 1px solid var(--bbfc-border) !important; border-top: 3px solid var(--bbfc-ink) !important; background: var(--bbfc-fill-2); text-align: center; }
   .plaque-inscription p:first-child { margin: 0; font-family: Georgia, serif; font-size: 20px; line-height: 1.75; color: var(--bbfc-ink); }
-  .plaque-inscription p:last-child { margin: 20px 0 0; padding-top: 20px; border-top: 1px solid var(--bbfc-border); font-size: 14px; line-height: 1.8; color: var(--bbfc-gray-1); }
+  .plaque-inscription p:last-child { margin: 20px 0 0; padding-top: 20px; border-top: 1px solid var(--bbfc-border); font-size: 15px; line-height: 1.8; color: var(--bbfc-gray-1); }
   .plaque-figure img { width: min(100%, 620px) !important; margin-inline: auto; }
   .trophy-figure img { width: min(100%, 560px) !important; max-height: 700px; object-fit: contain; margin-inline: auto; background: var(--bbfc-fill-2); }
   .heysel-figure img { filter: grayscale(1); }
   .europe-map { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 36px 0 52px; }
   .europe-map article { display: grid; min-height: 190px; align-content: end; padding: 20px; border: 1px solid var(--bbfc-border); border-top: 3px solid var(--bbfc-blue); border-radius: var(--bbfc-radius); background: var(--bbfc-fill-2); }
-  .europe-map span { color: var(--bbfc-blue-strong); font-size: 10px; font-weight: 750; letter-spacing: .12em; }
+  .europe-map span { color: var(--bbfc-blue-strong); font-size: 15px; font-weight: 750; letter-spacing: .12em; }
   .europe-map strong { margin-top: 12px; font-size: 23px; letter-spacing: -.04em; }
-  .europe-map p { margin: 8px 0 0; font-size: 13px; line-height: 1.5; color: var(--bbfc-gray-1); }
-  .europe-map b { margin-top: 18px; font-size: 12px; }
+  .europe-map p { margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: var(--bbfc-gray-1); }
+  .europe-map b { margin-top: 18px; font-size: 15px; }
   .trapattoni-line { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 34px 0 52px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
   .trapattoni-line div { display: grid; padding: 20px 16px; border-right: 1px solid var(--bbfc-border); }
   .trapattoni-line div:last-child { border-right: 0; }
-  .trapattoni-line time { color: var(--bbfc-blue-strong); font-size: 11px; font-weight: 750; }
+  .trapattoni-line time { color: var(--bbfc-blue-strong); font-size: 15px; font-weight: 750; }
   .trapattoni-line strong { margin-top: 9px; font-size: 16px; letter-spacing: -.03em; }
-  .trapattoni-line span { margin-top: 6px; font-size: 11px; color: var(--bbfc-gray-1); }
+  .trapattoni-line span { margin-top: 6px; font-size: 15px; color: var(--bbfc-gray-1); }
   .source-notes ol { list-style: decimal; }
   @media (max-width: 767px) {
     .plaque-inscription { padding: 24px 18px; }

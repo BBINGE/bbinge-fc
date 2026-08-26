@@ -159,7 +159,7 @@ fashionProfile:
 </div>
 
 <style>
-  .culture-image-credit { display:block; margin-top:7px; color:#8a94a3; font-size:9px; font-weight:500; letter-spacing:.025em; line-height:1.45; }
+  .culture-image-credit { display:block; margin-top:7px; color:#8a94a3; font-size: 15px; font-weight:500; letter-spacing:.025em; line-height:1.45; }
   .fashion-wide-figure { margin:46px 0 54px; }
   .fashion-wide-figure img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .fashion-wide-figure--editorial img { border-color:#352b3c; }
@@ -172,19 +172,19 @@ fashionProfile:
   .fashion-style-notes section { position:relative; min-height:224px; overflow:hidden; padding:27px 24px; background:#080a0d; isolation:isolate; }
   .fashion-style-notes section::before { content:''; position:absolute; z-index:-2; width:178px; height:178px; right:12px; top:50%; translate:0 -50%; background:url('/images/culture/jennie-manchester-united-teamgeist/manchester-united-crest.webp') center/contain no-repeat; opacity:.1; }
   .fashion-style-notes section::after { content:''; position:absolute; z-index:-1; inset:0; background:linear-gradient(112deg,rgba(8,10,13,.99) 0%,rgba(8,10,13,.91) 57%,rgba(8,10,13,.58) 100%); }
-  .fashion-style-notes strong { display:block; max-width:210px; color:#fff; font-size:13px; line-height:1.55; letter-spacing:.045em; }
+  .fashion-style-notes strong { display:block; max-width:210px; color:#fff; font-size: 15px; line-height:1.55; letter-spacing:.045em; }
   .fashion-style-notes strong::before { content:''; display:block; width:28px; height:2px; margin-bottom:17px; background:var(--bbfc-blue); }
-  .fashion-style-notes p { max-width:230px; margin:17px 0 0; color:#d7dce4; font-size:13.5px; line-height:1.85; }
+  .fashion-style-notes p { max-width:230px; margin:17px 0 0; color:#d7dce4; font-size: 15px; line-height:1.85; }
   .fashion-related-cta { margin:58px 0 54px; overflow:hidden; border:1px solid #222a35; border-radius:var(--bbfc-radius-lg); background:#080a0d; box-shadow:0 24px 48px -38px rgba(0,0,0,.95); }
   .fashion-related-cta a { display:grid; grid-template-columns:minmax(260px,.86fr) minmax(0,1.14fr); min-height:370px; color:inherit; text-decoration:none; }
   .fashion-related-cta__image { position:relative; display:block; min-height:100%; overflow:hidden; }
   .fashion-related-cta__image::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,transparent 64%,rgba(8,10,13,.68) 100%); pointer-events:none; }
   .fashion-related-cta__image img { display:block; width:100%; height:100%; margin:0; border:0; border-radius:0; object-fit:cover; object-position:center 37%; transition:transform .45s ease; }
   .fashion-related-cta__body { display:flex; flex-direction:column; justify-content:center; align-items:flex-start; padding:42px 42px 40px; }
-  .fashion-related-cta__eyebrow { color:#8cbcff; font-size:10px; line-height:1.4; font-weight:780; letter-spacing:.15em; }
+  .fashion-related-cta__eyebrow { color:#8cbcff; font-size: 15px; line-height:1.4; font-weight:780; letter-spacing:.15em; }
   .fashion-related-cta__title { display:block; margin-top:15px; color:#fff; font-size:32px; line-height:1.16; font-weight:790; letter-spacing:-.045em; }
-  .fashion-related-cta__copy { max-width:410px; margin-top:20px; color:#cfd5df; font-size:13.5px; line-height:1.82; }
-  .fashion-related-cta__action { display:inline-flex; align-items:center; gap:10px; margin-top:30px; padding-bottom:7px; border-bottom:1px solid rgba(140,188,255,.68); color:#fff; font-size:12px; line-height:1.4; font-weight:760; letter-spacing:.04em; }
+  .fashion-related-cta__copy { max-width:410px; margin-top:20px; color:#cfd5df; font-size: 15px; line-height:1.82; }
+  .fashion-related-cta__action { display:inline-flex; align-items:center; gap:10px; margin-top:30px; padding-bottom:7px; border-bottom:1px solid rgba(140,188,255,.68); color:#fff; font-size: 15px; line-height:1.4; font-weight:760; letter-spacing:.04em; }
   .fashion-related-cta__action span { color:#8cbcff; font-size:17px; transition:translate .25s ease; }
   .fashion-related-cta a:hover .fashion-related-cta__image img { transform:scale(1.025); }
   .fashion-related-cta a:hover .fashion-related-cta__action span { translate:4px 0; }
@@ -195,7 +195,7 @@ fashionProfile:
   @media (max-width:640px) {
     .fashion-wide-figure { margin:36px 0 42px; }
     .fashion-kit-grid, .fashion-look-pair { gap:8px; margin:36px 0 44px; }
-    .fashion-kit-grid figcaption, .fashion-look-pair figcaption { font-size:11px; }
+    .fashion-kit-grid figcaption, .fashion-look-pair figcaption { font-size: 15px; }
     .fashion-style-notes { grid-template-columns:1fr; margin-top:28px; }
     .fashion-style-notes section { min-height:0; padding:24px 21px 27px; }
     .fashion-style-notes section::before { width:150px; height:150px; right:10px; }
@@ -207,7 +207,7 @@ fashionProfile:
     .fashion-related-cta__image img { object-position:center 34%; }
     .fashion-related-cta__body { padding:28px 23px 30px; }
     .fashion-related-cta__title { font-size:27px; }
-    .fashion-related-cta__copy { margin-top:16px; font-size:13px; }
+    .fashion-related-cta__copy { margin-top:16px; font-size: 15px; }
     .fashion-related-cta__action { margin-top:24px; }
   }
 </style>
