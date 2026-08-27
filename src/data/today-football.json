@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-26T21:46:31.564Z",
+  "updatedAt": "2026-08-27T02:48:37.157Z",
   "matches": [
     {
       "id": "2506175",
@@ -25,7 +25,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
       "homeScore": 1,
       "awayScore": 2,
-      "status": "ET",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-27"
@@ -84,6 +84,48 @@
       "status": "NS",
       "progress": "",
       "time": "02:00",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "2573289",
+      "league": "UEFA 유로파 리그",
+      "home": "AGF Aarhus",
+      "away": "벤피카",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hj4kyc1781152436.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "03:00",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "2506173",
+      "league": "라리가",
+      "home": "셀타 비고",
+      "away": "오사수나",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/rvspvt1473502960.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "03:30",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "2506169",
+      "league": "라리가",
+      "home": "바르셀로나",
+      "away": "아틀레틱 클루브",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
       "date": "2026-08-28"
     }
   ],
