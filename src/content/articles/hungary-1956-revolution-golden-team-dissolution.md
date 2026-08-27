@@ -11,7 +11,7 @@ coverImageCaption: '1956년 부다페스트. 한 사람의 혁명이 아니라 �
 coverImageWidth: 1400
 coverImageHeight: 896
 featured: false
-draft: false
+draft: true
 relatedGroup: 'hungary-golden-team'
 ---
 
