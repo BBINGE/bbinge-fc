@@ -175,7 +175,7 @@ featured: false
   <header><span>FROM KIT TO LOOK</span><h3 id="celebrity-spread-title">같은 셔츠도 누가, 무엇과 입느냐에 따라 구매 이유가 달라진다</h3><p>선수의 경기 사진은 기능과 소속을 판다. 여성 아티스트의 화보는 색, 실루엣, 피부에 닿는 액세서리와 장소까지 함께 보여준다. 셔츠는 그 조합 안에서 스타일링 재료로 다시 읽힌다.</p></header>
   <div>
     <figure class="celebrity-spread__dua"><div class="celebrity-spread__media"><img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="흰색 비키니와 금색 귀걸이에 SSC 나폴리 유니폼을 입은 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" /></div><figcaption><span>01 · RESORT</span><strong>두아 리파</strong><p>하늘색 셔츠를 바다·흰색 비키니·금색 주얼리와 묶었다. MSC는 휴양지의 색 안에서 다시 노출된다.</p><small>Photo via @dualipa / Instagram.<sup><a href="#source-11">[11]</a></sup></small></figcaption></figure>
-    <figure class="celebrity-spread__olivia"><div class="celebrity-spread__media"><img src="/images/history/football-shirt-sponsorship-history/olivia-rodrigo-barca.webp" alt="분홍색 배경에서 자신의 OR 로고가 들어간 FC 바르셀로나 유니폼을 입은 올리비아 로드리고" width="1200" height="750" loading="lazy" decoding="async" /></div><figcaption><span>02 · CAMPAIGN</span><strong>올리비아 로드리고</strong><p>가수의 로고·캠페인 색·반바지까지 하나의 상품 세계로 설계됐다. 광고면이 아티스트의 패션 화보를 구성한다.</p><small>Photo: FC Barcelona · Spotify, 2026.<sup><a href="#source-21">[21]</a></sup></small></figcaption></figure>
+    <figure class="celebrity-spread__mabel"><div class="celebrity-spread__media"><img src="/images/history/football-shirt-sponsorship-history/mabel-arsenal-away-shirt.webp" alt="형광색 아스널 원정 유니폼을 입고 웃는 메이블" width="1800" height="1200" loading="lazy" decoding="async" /></div><figcaption><span>02 · AIRWAVES</span><strong>메이블</strong><p>가수의 기존 관객과 지역 활동이 형광색 원정 셔츠를 경기장 밖으로 옮긴다. 아스널 문장과 에미레이츠는 얼굴 바로 아래에서 함께 기억된다.</p><small>Photo: Arsenal FC, 2023.<sup><a href="#source-21">[21]</a></sup></small></figcaption></figure>
   </div>
 </section>
 
@@ -319,7 +319,7 @@ featured: false
 18. <span id="source-18"></span>[Barça Official Store, “Younger Kids' Home Kit 26/27 FC Barcelona”](https://store.fcbarcelona.com/products/younger-kids-home-kit-26-27-fc-barcelona). 2026-27 FC 바르셀로나 홈 셔츠·쇼츠·양말 구성과 가슴 스폰서 배치.
 19. <span id="source-19"></span>[Juventus Official Store, “Juventus Home Minikit 2026/27”](https://store.juventus.com/us/juventus-home-minikit-2026-27). 2026-27 유벤투스 홈 셔츠·쇼츠 구성과 가슴 스폰서 배치.
 20. <span id="source-20"></span>[PSG Store, “PSG Nike Home Stadium Mini Kit 2026-27”](https://store.psg.fr/en/football-kits/psg-nike-home-stadium-mini-kit-2026-27-little-kids/d-7816543837%2Bf-4633476103933%2Bz-8-804602678). 2026-27 파리 생제르맹 홈 셔츠·쇼츠·양말 구성과 가슴 스폰서 배치.
-21. <span id="source-21"></span>[FC Barcelona, “US artist Olivia Rodrigo to feature on shirt for next el Clásico”](https://www.fcbarcelona.com/en/club/news/4496112/us-artist-olivia-rodrigo-to-feature-on-shirt-for-next-el-clasico), 2026년 5월 1일. 올리비아 로드리고의 로고가 든 경기 셔츠와 공식 라이프스타일 캠페인.
+21. <span id="source-21"></span>[Arsenal FC, “Mabel surprises youngsters at Arsenal Hub”](https://www.arsenal.com/news/mabel-surprises-youngsters-at-arsenal-hub-aWc9C3p7JrGp), 2023년 7월 21일. 아스널 원정 셔츠를 입은 메이블의 지역 프로그램 방문과 공식 사진.
 22. <span id="source-22"></span>[Paris Saint-Germain, “Beyoncé sporting Rouge et Bleu!”](https://en.psg.fr/teams/club/content/beyonce-sporting-rouge-et-bleu-1), 2018년 7월 26일; [L'Équipe, “Beyonce pose avec un maillot customisé du PSG”](https://www.lequipe.fr/Sport-et-style/People/Actualites/Beyonce-pose-avec-un-maillot-customise-du-psg/926153), 2018년 7월 27일. PSG x KOCHÉ 단 한 벌의 셔츠, 스와로브스키 크리스털 장식과 비욘세 착장 사진.
 
 </div>
@@ -1077,9 +1077,9 @@ featured: false
     transition: transform 280ms ease;
   }
 
-  .celebrity-spread__olivia img {
-    object-position: 69% center;
-    transform: scale(1.55);
+  .celebrity-spread__mabel img {
+    object-position: center 42%;
+    transform: scale(1.03);
   }
 
   .celebrity-spread__dua img {
@@ -1090,8 +1090,8 @@ featured: false
     transform: scale(1.04);
   }
 
-  .celebrity-spread figure:hover .celebrity-spread__olivia img {
-    transform: scale(1.61);
+  .celebrity-spread figure:hover .celebrity-spread__mabel img {
+    transform: scale(1.075);
   }
 
   .celebrity-spread figcaption {
