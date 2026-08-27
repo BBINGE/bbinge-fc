@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-27T15:22:33.847Z",
+  "updatedAt": "2026-08-27T17:23:48.602Z",
   "matches": [
     {
       "id": "2570007",
@@ -9,9 +9,9 @@
       "away": "Crvena Zvezda",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/at8i2h1679265942.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/osgmbz1781157114.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "1H",
       "progress": "",
       "time": "02:00",
       "date": "2026-08-28"
@@ -23,9 +23,9 @@
       "away": "Egnatia",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/txpuvv1448823342.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "02:00",
       "date": "2026-08-28"
