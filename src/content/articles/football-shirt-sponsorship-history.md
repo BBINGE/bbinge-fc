@@ -805,7 +805,7 @@ featured: false
 
   .replica-editorial {
     display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.8rem;
     margin: 2.1rem 0 3.5rem;
   }
