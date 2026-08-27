@@ -192,7 +192,7 @@ featured: false
       <p>가상의 라디오 방송이라는 서사는 선수, 음악가, 배우를 하나의 편성표로 묶는다. 제품 사진이 아니라 재생·공유되는 프로그램으로 유니폼을 만든 것이다.</p>
     </div>
     <div class="platform-pair__frame">
-      <button class="video-poster video-poster--vertical" type="button" data-article-video="https://www.instagram.com/reel/Cu1K_slgjSY/embed/" data-video-title="아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상" data-video-format="vertical" aria-label="사이트 안에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
+      <button class="video-poster video-poster--vertical" type="button" data-article-video="https://www.youtube-nocookie.com/embed/gmIPqbKE54w?autoplay=1&rel=0&playsinline=1" data-video-title="아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상" aria-label="사이트 안에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
         <img src="/images/history/football-shirt-sponsorship-history/arsenal-islington-fm-reel.webp" alt="아스널 2023-24 원정 유니폼 공식 영상의 형광색 타이틀 화면" width="384" height="640" loading="lazy" decoding="async" />
         <span><b aria-hidden="true">▶</b> 공식 릴 재생</span>
       </button>
@@ -293,7 +293,7 @@ featured: false
 10. <span id="source-10"></span>[Eintracht Braunschweig, “Neue Jägermeister-Kollektion erhältlich!”](https://www.eintracht.com/news/artikel/neue-jaegermeister-kollektion-erhaeltlich), 2023년 10월 27일. 셔츠 광고 50주년 레트로 상품 판매.
 11. <span id="source-11"></span>[Dua Lipa, “heaven on earth”](https://www.instagram.com/p/DaLCgiUDmob/), Instagram, 2026년 6월 29일; [SSC Napoli, “A New 3ra. From Napoli to the World.”](https://sscnapoli.it/en/a-new-3ra-from-napoli-to-the-world/), 2023년 7월 10일. 나폴리 2023-24 홈 셔츠와 착장 확인.
 12. <span id="source-12"></span>Keith Negus, [“The Work of Cultural Intermediaries and the Enduring Distance Between Production and Consumption”](https://doi.org/10.1080/09502380210139089), *Cultural Studies* 16(4), 2002. 생산과 소비 사이에서 상징 형식을 유통하는 문화적 매개자 개념의 범위와 한계.
-13. <span id="source-13"></span>[Arsenal FC, “Arsenal release new 2023/24 men's away kit”](https://www.arsenal.com/photos/arsenal-release-new-202324-mens-away-kit-abMbF4n7rGZ9), 2023년 7월 18일; [Arsenal official Instagram reel](https://www.instagram.com/reel/Cu1K_slgjSY/). 메이블, 애슐리 월터스, 에이사 버터필드, 이즐링턴 유스 콰이어 등이 참여한 ‘188.6 Islington FM’ 캠페인과 영상.
+13. <span id="source-13"></span>[Arsenal FC, “Arsenal release new 2023/24 men's away kit”](https://www.arsenal.com/photos/arsenal-release-new-202324-mens-away-kit-abMbF4n7rGZ9), 2023년 7월 18일; [Arsenal, “Introducing the new Arsenal x adidas 23/24 Men's Team away kit”](https://www.youtube.com/watch?v=gmIPqbKE54w), YouTube. 메이블, 애슐리 월터스, 에이사 버터필드, 이즐링턴 유스 콰이어 등이 참여한 ‘188.6 Islington FM’ 캠페인과 영상.
 14. <span id="source-14"></span>[Arsenal FC, “Introducing our new 2022/23 adidas third kit”](https://www.arsenal.com/photos/introducing-our-new-202223-adidas-third-kit-awwc07c9EywE), 2022년. 지역 활동가·음악가와 Melanin Skate Gals & Pals를 공식 유니폼 캠페인의 주체로 배치한 사례.
 15. <span id="source-15"></span>[FC Barcelona Official Store, “FC Barcelona x Travis Scott”](https://store.fcbarcelona.com/pages/fc-barcelona-x-travis-scott); [FC Barcelona, “FLAME ON. BARÇA x SPOTIFY x TRAVIS SCOTT”](https://www.youtube.com/watch?v=tNIdxIiWexQ), 2025년 5월 2일. Cactus Jack 로고의 경기 셔츠 적용, 한정판 판매와 공식 영상.
 
