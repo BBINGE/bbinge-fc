@@ -12,6 +12,36 @@ coverImageWidth: 773
 coverImageHeight: 966
 draft: false
 featured: false
+fashionProfile:
+  eyebrow: 'PROFILE · K-POP ARTIST'
+  name: '오하영'
+  romanName: 'OH HAYOUNG'
+  portrait: '/images/culture/oh-hayoung-manchester-united-blockcore/profile-2026.webp'
+  portraitAlt: '축구공 모양의 가방을 들고 필드 위에 선 오하영의 마이쉘 협업 화보'
+  portraitCredit: 'MY SHELL · FIELD TO EVERYDAY, 2026 · Photo courtesy of MY SHELL'
+  birthDate: '1996-07-19'
+  birthPlace: '대한민국 서울'
+  nationalities:
+    - name: '대한민국'
+      flag: '/images/flags/kr.svg'
+      flagAlt: '대한민국 국기'
+  facts:
+    - label: '그룹'
+      value: '에이핑크'
+    - label: '직업'
+      value: '가수, 유튜브 크리에이터'
+    - label: '솔로 앨범'
+      value: 'OH! (2019)'
+    - label: '축구 채널'
+      value: 'Official Hayoung'
+    - label: '응원 구단'
+      value: '맨체스터 유나이티드'
+    - label: '오늘의 옷'
+      value: '맨유 레트로 셔츠와 블록코어룩'
+  officialChannel:
+    label: 'Instagram'
+    handle: '@_ohhayoung_'
+    href: 'https://www.instagram.com/_ohhayoung_/'
 ---
 
 언제나 **맨체스터 유나이티드**에는 진심인 에이핑크 오하영. 방송에서 잠깐 유니폼을 걸친 정도가 아니라 경기 결과에 울고 웃고, 오래된 셔츠를 일상복으로 꺼내 입는 축구팬이다. 그 차이가 사진에도 남는다. 유니폼이 콘셉트를 위한 소품처럼 떠 있지 않고 원래 입던 옷처럼 자연스럽다.
@@ -54,7 +84,7 @@ featured: false
     <img src="/images/culture/oh-hayoung-manchester-united-blockcore/02.webp" alt="화이트 맨체스터 유나이티드 베컴 레트로 유니폼과 은빛 스팽글 스커트를 입은 오하영" width="773" height="966" loading="lazy" decoding="async" />
     <span class="look-feature__badge">LOOK 01 · HIGH CONTRAST</span>
   </div>
-  <figcaption class="look-feature__panel">
+  <figcaption class="look-feature__panel look-feature__panel--club-mark">
     <p class="look-feature__eyebrow">THE FASHION LOOK</p>
     <h3>축구 셔츠보다 먼저<br />은빛이 보이게</h3>
     <p>유니폼의 스포츠성을 줄인 것이 아니라, 스팽글의 밤과 주얼리의 광택을 맞은편에 놓았다. 그래서 베컴 셔츠가 굿즈가 아니라 스타일의 한 재료로 보인다.</p>
@@ -90,7 +120,7 @@ featured: false
     <img src="/images/culture/oh-hayoung-manchester-united-blockcore/11.webp" alt="블랙 맨체스터 유나이티드 셔츠를 중청 데님에 넣어 입은 오하영" width="773" height="966" loading="lazy" decoding="async" />
     <span class="look-feature__badge">LOOK 02 · EASY ENTRY</span>
   </div>
-  <figcaption class="look-feature__panel">
+  <figcaption class="look-feature__panel look-feature__panel--club-mark">
     <p class="look-feature__eyebrow">THE FIRST SHIRT</p>
     <h3>처음 산다면<br />검정부터</h3>
     <p>클럽 컬러는 빨간 세 줄과 문장에만 남고, 큰 면은 검정이 맡는다. 평소 입던 데님을 그대로 두어도 축구 셔츠만 새롭게 들어오는 가장 낮은 진입점이다.</p>
@@ -169,6 +199,7 @@ featured: false
 <div class="source-notes">
   <h2>출처</h2>
   <ol>
+    <li>상단 프로필 사진: 마이쉘이 제공한 오하영 협업 컬렉션 ‘FIELD TO EVERYDAY’ 공식 화보. <a href="https://pickcon.co.kr/m/view.html?contid=2026050180020">Pickcon 공개 기사</a>, 2026년 5월 1일.</li>
     <li>표지 및 본문 사진 02–16: 오하영 공식 Instagram <a href="https://www.instagram.com/_ohhayoung_/">@_ohhayoung_</a>.</li>
     <li>Fashion & Style, <a href="https://www.fashionandstyle.com/posts/2024/03/12/%EB%A7%A8%EC%9C%A0%ED%8C%AC-%EB%91%90%EA%B7%BC%EA%B1%B0%EB%A6%AC%EA%B2%8C%ED%95%98%EB%8A%94-%EC%98%A4%ED%95%98%EC%98%81?id=108863">「맨유팬 두근거리게하는 오하영」</a>, 2024년 3월 12일.</li>
     <li>adidas, <a href="https://www.adidas.com/us/blog/1003164-2023-trend-check-blokecore">「2023 Trend Check: Bloke-Core」</a>: 블로크코어와 블로켓의 용어 및 스타일 맥락.</li>
@@ -178,7 +209,7 @@ featured: false
 
 <style>
   .look-index { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 2rem 0 3.25rem; border: 1px solid #d8dee8; border-radius: 20px; overflow: hidden; background: #f7f8fa; }
-  .look-index__item { position: relative; display: flex; min-height: 116px; padding: 1.1rem; gap: .8rem; color: #081a34; text-decoration: none; align-items: flex-end; isolation: isolate; transition: color .25s ease, transform .25s ease; }
+  .look-index__item { position: relative; display: flex; min-height: 104px; padding: 1.2rem 1.35rem; gap: .95rem; color: #081a34; text-decoration: none; align-items: center; isolation: isolate; transition: color .25s ease, transform .25s ease; }
   .look-index__item + .look-index__item { border-left: 1px solid #d8dee8; }
   .look-index__item::before { content: ''; position: absolute; inset: 100% 0 0; z-index: -1; transition: inset .28s ease; }
   .look-index__item--silver::before { background: linear-gradient(145deg, #d7d9df, #ffffff 55%, #a5adb9); }
@@ -186,10 +217,10 @@ featured: false
   .look-index__item--red::before { background: linear-gradient(145deg, #d7192d, #64111b); }
   .look-index__item:hover { color: #fff; transform: translateY(-2px); }
   .look-index__item:hover::before { inset: 0; }
-  .look-index__number { color: #287cff; font: 800 .75rem/1 system-ui, sans-serif; letter-spacing: .08em; }
+  .look-index__number { color: #287cff; font: 800 .82rem/1 system-ui, sans-serif; letter-spacing: .08em; }
   .look-index__copy { display: grid; gap: .28rem; }
-  .look-index__copy b { font-size: .92rem; line-height: 1.25; }
-  .look-index__copy small { color: #6e7b8d; font-size: .72rem; }
+  .look-index__copy b { font-size: 1rem; line-height: 1.25; }
+  .look-index__copy small { color: #6e7b8d; font-size: .78rem; }
   .look-index__item:hover .look-index__copy small, .look-index__item:hover .look-index__number { color: rgba(255,255,255,.76); }
 
   .look-feature { display: grid; grid-template-columns: 1.12fr .88fr; margin: 1.7rem 0 .85rem; border-radius: 24px; overflow: hidden; background: #07192f; box-shadow: 0 24px 54px rgba(7,25,47,.16); }
@@ -197,9 +228,13 @@ featured: false
   .look-feature--reverse .look-feature__panel { order: 1; }
   .look-feature__image { position: relative; min-height: 610px; overflow: hidden; }
   .look-feature__image img { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; object-position: center top; transition: transform .7s cubic-bezier(.2,.65,.2,1); }
+  .look-feature--denim .look-feature__image img { object-position: 76% center; transform: scale(1.28); }
+  .look-feature--denim:hover .look-feature__image img { transform: scale(1.32); }
   .look-feature:hover .look-feature__image img { transform: scale(1.025); }
   .look-feature__badge { position: absolute; left: 1rem; bottom: 1rem; padding: .6rem .75rem; border: 1px solid rgba(255,255,255,.45); border-radius: 999px; background: rgba(5,18,34,.72); color: #fff; font: 800 .67rem/1 system-ui, sans-serif; letter-spacing: .11em; backdrop-filter: blur(8px); }
-  .look-feature__panel { display: flex; flex-direction: column; justify-content: center; padding: clamp(1.5rem, 4vw, 3rem); color: #fff; }
+  .look-feature__panel { position: relative; display: flex; flex-direction: column; justify-content: center; padding: clamp(1.5rem, 4vw, 3rem); color: #fff; isolation: isolate; overflow: hidden; }
+  .look-feature__panel--club-mark::after { content: ''; position: absolute; z-index: -1; width: 170px; aspect-ratio: 1; right: -35px; top: -32px; background: url('/images/culture/brand-marks/manchester-united-crest.svg') center / contain no-repeat; opacity: .1; filter: grayscale(1); }
+  .look-feature--reverse .look-feature__panel--club-mark::after { right: auto; left: -38px; }
   .look-feature--silver .look-feature__panel { background: radial-gradient(circle at 100% 0, #525d6b 0, #16243a 42%, #07192f 78%); }
   .look-feature--denim .look-feature__panel { background: radial-gradient(circle at 0 100%, #29547e 0, #122b4b 45%, #07192f 78%); }
   .look-feature__eyebrow { margin: 0 0 1rem; color: #75baff; font: 800 .7rem/1.2 system-ui, sans-serif; letter-spacing: .16em; }
@@ -217,11 +252,11 @@ featured: false
   .portrait-strip { display: grid; grid-template-columns: 1.05fr .9fr 1.05fr; gap: .65rem; margin: 1.6rem 0 .55rem; }
   .portrait-strip img { aspect-ratio: 3 / 4; }
 
-  .night-look { position: relative; display: grid; grid-template-columns: 1.08fr .92fr; grid-template-rows: 1fr 1fr; min-height: 690px; margin: 1.7rem 0 .85rem; border-radius: 24px; overflow: hidden; background: #05080d; box-shadow: 0 24px 54px rgba(35,0,4,.22); }
+  .night-look { position: relative; display: grid; grid-template-columns: 1.08fr .92fr; grid-template-rows: 345px 345px; margin: 1.7rem 0 .85rem; border-radius: 24px; overflow: hidden; background: #05080d; box-shadow: 0 24px 54px rgba(35,0,4,.22); }
   .night-look::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, transparent 32%, rgba(4,8,14,.12) 54%, rgba(4,8,14,.65)); }
   .night-look__hero { grid-row: 1 / 3; display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; }
   .night-look__detail { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; object-position: center 72%; }
-  .night-look__copy { z-index: 1; display: flex; flex-direction: column; justify-content: flex-end; padding: clamp(1.45rem, 4vw, 2.65rem); background: linear-gradient(150deg, #e21b2d, #4a0810); color: #fff; }
+  .night-look__copy { z-index: 1; display: flex; flex-direction: column; justify-content: center; padding: clamp(1.45rem, 4vw, 2.65rem); background: radial-gradient(circle at 100% 0, rgba(255,255,255,.14), transparent 36%), linear-gradient(150deg, #e21b2d, #4a0810); color: #fff; }
   .night-look__copy span { margin-bottom: .9rem; color: #ffb0b7; font: 800 .69rem/1.2 system-ui, sans-serif; letter-spacing: .15em; }
   .night-look__copy h3 { margin: 0 0 .85rem !important; color: #fff !important; font-size: clamp(1.65rem, 3.2vw, 2.4rem) !important; line-height: 1.14 !important; letter-spacing: -.04em; }
   .night-look__copy p { margin: 0; color: #f7dadd; font-size: .87rem; line-height: 1.72; }
@@ -242,13 +277,17 @@ featured: false
   .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .68rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
   @media (max-width: 720px) {
     .look-index { grid-template-columns: 1fr; margin-bottom: 2.5rem; border-radius: 15px; }
-    .look-index__item { min-height: 74px; padding: .85rem 1rem; align-items: center; }
+    .look-index__item { min-height: 82px; padding: .95rem 1rem; align-items: center; }
     .look-index__item + .look-index__item { border-left: 0; border-top: 1px solid #d8dee8; }
     .look-index__item::before { inset: 0 100% 0 0; }
     .look-index__item:hover::before { inset: 0; }
     .look-feature, .look-feature--reverse { grid-template-columns: 1fr; border-radius: 17px; }
     .look-feature--reverse .look-feature__image, .look-feature--reverse .look-feature__panel { order: initial; }
     .look-feature__image { min-height: 0; aspect-ratio: 4 / 5; }
+    .look-feature--denim .look-feature__image img { object-position: 70% center; transform: scale(1.18); }
+    .look-feature--denim:hover .look-feature__image img { transform: scale(1.18); }
+    .look-feature__panel--club-mark::after { width: 130px; right: -28px; top: -25px; }
+    .look-feature--reverse .look-feature__panel--club-mark::after { right: -28px; left: auto; }
     .look-feature__panel { padding: 1.45rem 1.15rem 1.55rem; }
     .look-feature__panel h3 { font-size: 1.72rem; }
     .editorial-grid--five { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 220px; gap: .42rem; }

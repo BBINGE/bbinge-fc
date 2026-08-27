@@ -1,3 +1,11 @@
+## 2026-08-28 오하영·유벤투스 축디와 로마 문장 흐름 후속 개편
+
+- `/culture/oh-hayoung-manchester-united-blockcore/` 상단에 2026년 마이쉘 공식 협업 화보를 사용한 인물 프로필 카드를 추가했다. 본문은 3개 룩 인덱스의 글자 위계를 키우고, 블랙 셔츠 화보의 인물을 중앙에 확대했으며, 공식 형태와 대조한 맨체스터 유나이티드 엠블럼 SVG를 정보 패널의 저채도 워터마크로 배치했다. 야간 룩의 적색·검정 빈 면도 고정 행과 중앙 정렬로 줄였다.
+- `/culture/juventus-blockcore-outfits/`은 같은 크기의 사진을 나열하던 구조를 폐기했다. 홈 셔츠의 제품·질감 비교, 인물 중심 메인 룩, 데님 화보, 분홍 원정 룩으로 역할을 나누고 현행 Juventus J SVG를 저채도 표식으로 사용했다. 출처가 모호하거나 품질이 낮은 착장은 공개 구성에서 제외했다.
+- `/pilgrimage/stadio-olimpico-rome-travel-7/`의 독립된 첫 문장을 첫 문단으로 회수했다. Testaccio, 시장, Piazza della Libertà, Flaminio, Ponte Milvio, Foro Italico, 올림피코 사이의 전환을 원인·대조·동선에 맞춰 다시 연결했으며 소제목과 사실관계는 유지했다.
+
+---
+
 ## 2026-08-28 로마 축행 전면 개편
 
 - `/pilgrimage/stadio-olimpico-rome-travel-7/`을 기존 관광지 7선에서 `로마에는 홈이 하나이고, 고향이 둘이다`라는 도시사 중심 축행으로 전면 재구성했다. AS 로마의 Testaccio, 라치오의 Piazza della Libertà·Flaminio, 파시즘기의 Foro Italico, 두 Curva가 공유하는 Stadio Olimpico를 하나의 남북 동선으로 연결한다.
