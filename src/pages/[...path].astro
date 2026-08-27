@@ -431,6 +431,16 @@ if (props.kind === 'category') {
   .journey-article .article-body :global(.journey-stay>div>span) { color:var(--bbfc-blue); font-size:13px; line-height:1.4; font-weight:780; letter-spacing:.11em; }
   .journey-article .article-body :global(.journey-stay strong) { display:block; margin-top:12px; font-size:24px; line-height:1.2; letter-spacing:-.035em; }
   .journey-article .article-body :global(.journey-stay p) { margin:17px 0 0; color:#354153; font-size:15px; line-height:1.72; }
+  .journey-article .article-body :global(.journey-stay dl) { display:grid; gap:10px; margin:20px 0 0; }
+  .journey-article .article-body :global(.journey-stay dl div) { display:grid; grid-template-columns:62px minmax(0,1fr); gap:8px; padding-top:10px; border-top:1px solid #d8dee6; }
+  .journey-article .article-body :global(.journey-stay dt) { color:#1f5fcf; font-size:13px; line-height:1.55; font-weight:780; }
+  .journey-article .article-body :global(.journey-stay dd) { margin:0; color:#4d5968; font-size:13px; line-height:1.55; }
+  .journey-article .article-body :global(.journey-stay__link) { display:inline-flex; width:max-content; align-items:center; gap:7px; margin-top:auto; padding-top:21px; color:var(--bbfc-blue); font-size:13px; line-height:1.4; font-weight:780; text-decoration:none; }
+  .journey-article .article-body :global(.journey-stay__link:hover),
+  .journey-article .article-body :global(.journey-stay__link:focus-visible) { text-decoration:underline; text-underline-offset:4px; }
+  .journey-article .article-body :global(.journey-stay__link b) { font-size:17px; line-height:1; transition:transform .2s ease; }
+  .journey-article .article-body :global(.journey-stay__link:hover b),
+  .journey-article .article-body :global(.journey-stay__link:focus-visible b) { transform:translateX(3px); }
   .journey-article .article-body :global(.journey-stay small) { display:block; margin-top:auto; padding-top:22px; color:#5c6878; font-size:13px; line-height:1.55; }
   .journey-article .article-body>:global(.journey-social-shot) { display:grid; grid-template-columns:1.14fr .86fr; margin:0 0 67px; overflow:hidden; background:#182232; color:#fff; }
   .journey-article .article-body :global(.journey-social-shot figure) { margin:0; min-width:0; }

@@ -5,6 +5,28 @@ import sharp from 'sharp';
 const outDir = path.resolve('public/images/pilgrimage/turin-two-museums');
 await fs.mkdir(outDir, { recursive: true });
 
+const hotelDownloads = [
+  ['hotel-turin-palace.webp', 'https://www.turinpalacehotel.com/wp-content/uploads/2025/02/turin-palace-hotel-gallery-camere-15.jpg'],
+  ['hotel-doubletree-lingotto.webp', 'https://www.lingotto-hotels.com/wp-content/uploads/2023/10/doubletree-1.jpeg'],
+  ['hotel-j-hotel.webp', 'https://www.jhotel.eu/inc/scripts/source/www.jhotel.eu/crp1600x915-camere-4.jpg?v=1787584430.jpg'],
+];
+
+for (const [name, url] of hotelDownloads) {
+  const response = await fetch(url, { headers: { 'user-agent': 'BBingeFC editorial asset builder/1.0' } });
+  if (!response.ok) throw new Error(`${response.status} ${url}`);
+  const input = Buffer.from(await response.arrayBuffer());
+  await sharp(input)
+    .rotate()
+    .resize(1200, 675, { fit: 'cover', position: 'centre' })
+    .webp({ quality: 84 })
+    .toFile(path.join(outDir, name));
+}
+
+if (process.argv.includes('--hotels-only')) {
+  console.log(`Built Turin hotel assets in ${outDir}`);
+  process.exit(0);
+}
+
 const downloads = [
   ['juventus-hall-of-fame.webp', 'https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/f_auto/dev/p2ljygtjn8crb6e3tmoc.jpg'],
   ['juventus-hall-room.webp', 'https://www.juventus.com/images/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/dev/almgu4nv1h9e5rjzi2nt.jpg'],
