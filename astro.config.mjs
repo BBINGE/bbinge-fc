@@ -82,6 +82,8 @@ export default defineConfig({
         const pathname = new URL(page).pathname;
         if (pathname.startsWith('/admin/')) return false;
         if (pathname === '/search/') return false;
+        if (pathname.startsWith('/page/')) return false;
+        if (pathname === '/play/ranking/') return false;
         for (const [categorySlug, categoryPath] of categoryPaths) {
           if (pathname === categoryPath && categorySlug !== 'play') return populatedArticleCategories.has(categorySlug);
         }

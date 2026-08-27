@@ -26,6 +26,7 @@ const previousHref = page.url.prev === '/page/1/' || page.url.prev === '/page/1'
   title={`${page.currentPage}페이지`}
   description={site.tagline}
   adsEligible={false}
+  robots="noindex,follow"
   breadcrumbs={[
     { label: '홈', href: '/' },
     { label: `${page.currentPage}페이지`, href: `/page/${page.currentPage}/` },
