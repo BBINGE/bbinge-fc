@@ -4,12 +4,12 @@ description: '축구 유니폼 광고는 언제 시작됐을까. 1973년 브라�
 category: 'history'
 tags: ['축구 유니폼 스폰서', '유니폼 광고 역사', '셔츠 스폰서', '축구 유니폼 역사', '레플리카 유니폼', '축구 산업']
 pubDate: 2026-08-27T15:40:00+09:00
-coverImage: '/images/culture/dua-lipa-napoli-shirt-cover.webp'
-cardImage: '/images/culture/dua-lipa-napoli-shirt-card.webp'
-coverImageAlt: 'SSC 나폴리 유니폼의 MSC 스폰서 로고를 드러내며 웃고 있는 두아 리파'
-coverImageCaption: '한때 경기 규정이 금지했던 셔츠 광고는 이제 팝스타의 휴양지 사진까지 이동한다. 두아 리파가 입은 SSC 나폴리 2023-24 홈 셔츠에는 MSC 로고가 선명하다. Photo via @dualipa / Instagram.'
-coverImageWidth: 1200
-coverImageHeight: 675
+coverImage: '/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp'
+cardImage: '/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp'
+coverImageAlt: '캑터스 잭 로고가 들어간 FC 바르셀로나 유니폼을 입은 트래비스 스콧과 모델'
+coverImageCaption: '셀럽이 스폰서 셔츠를 입는 단계를 넘어, 그의 시각 정체성이 셔츠의 가장 비싼 광고면을 차지했다. 트래비스 스콧과 FC 바르셀로나의 Cactus Jack 협업. Video still: FC Barcelona official YouTube, 2025.'
+coverImageWidth: 1280
+coverImageHeight: 720
 draft: false
 featured: false
 ---
@@ -26,10 +26,10 @@ featured: false
     <h2 id="review-frame-title">무엇을 ‘시작’으로 볼 것인가</h2>
   </header>
   <div class="review-frame__grid">
-    <article><strong>질문</strong><p>기업 표식은 어떻게 선수의 몸에서 팬의 일상복으로 이동했는가.</p></article>
-    <article><strong>자료</strong><p>구단·협회·박물관 공식 기록, 장비 규정, 스포츠사·복식사 연구, 실제 착장 이미지.</p></article>
-    <article><strong>선정 기준</strong><p>표식의 허용, 방송 노출, 복제품 판매, 문화적 재유통 가운데 한 단계 이상을 직접 증명하는 자료.</p></article>
-    <article><strong>한계</strong><p>‘세계 최초’ 주장은 국가와 리그마다 기준이 다르다. 독일·영국의 제도화 사례를 중심으로 비교한다.</p></article>
+    <article data-frame="question"><span class="review-frame__icon" aria-hidden="true">?</span><strong>질문</strong><p>기업 표식은 어떻게 선수의 몸에서 팬의 일상복으로 이동했는가.</p></article>
+    <article data-frame="archive"><span class="review-frame__icon" aria-hidden="true">▤</span><strong>자료</strong><p>구단·협회·박물관 공식 기록, 장비 규정, 스포츠사·복식사 연구, 실제 착장 이미지.</p></article>
+    <article data-frame="filter"><span class="review-frame__icon" aria-hidden="true">◇</span><strong>선정 기준</strong><p>표식의 허용, 방송 노출, 복제품 판매, 문화적 재유통 가운데 한 단계 이상을 직접 증명하는 자료.</p></article>
+    <article data-frame="boundary"><span class="review-frame__icon" aria-hidden="true">⌁</span><strong>한계</strong><p>‘세계 최초’ 주장은 국가와 리그마다 기준이 다르다. 독일·영국의 제도화 사례를 중심으로 비교한다.</p></article>
   </div>
 </section>
 
@@ -71,8 +71,8 @@ featured: false
 
 <div class="case-compare" role="table" aria-label="브라운슈바이크와 케터링 타운 셔츠 광고 사례 비교">
   <div class="case-compare__head" role="row"><span>사례</span><span>금지의 대상</span><span>우회 방식</span><span>남은 변화</span></div>
-  <div role="row"><strong>브라운슈바이크<br />1973</strong><p>광고 문구·표식</p><p>기업 로고를 프로팀 문장으로 채택</p><p>독일 프로축구의 선례</p></div>
-  <div role="row"><strong>케터링 타운<br />1976</strong><p>스폰서 명칭</p><p>`KETTERING T`를 구단명으로 주장</p><p>1977년 잉글랜드 허용</p></div>
+  <div role="row" data-case="crest"><span class="case-compare__symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 4 39 10v11c0 10-5.8 17.1-15 23-9.2-5.9-15-13-15-23V10L24 4Z"/><path d="M17 16c3 1 5 3 7 7 2-4 4-6 7-7M19 14l-3-4m13 4 3-4M20 27h8"/></svg><small>문장으로 위장</small></span><strong>브라운슈바이크<br />1973</strong><p>광고 문구·표식</p><p>기업 로고를 프로팀 문장으로 채택</p><p>독일 프로축구의 선례</p></div>
+  <div role="row" data-case="letters"><span class="case-compare__symbol" aria-hidden="true"><b>TYRES</b><i>→ T</i><small>글자를 지움</small></span><strong>케터링 타운<br />1976</strong><p>스폰서 명칭</p><p>KETTERING T를 구단명으로 주장</p><p>1977년 잉글랜드 허용</p></div>
 </div>
 
 ## 허용만으로는 부족했다: 카메라가 광고의 값을 정했다
@@ -86,13 +86,13 @@ featured: false
 <section class="exposure-chain" aria-labelledby="exposure-chain-title">
   <header><span>EXPOSURE CHAIN</span><h3 id="exposure-chain-title">광고면은 움직일수록 커졌다</h3></header>
   <div>
-    <article><b>01</b><strong>선수의 몸</strong><p>경기의 모든 동작에 표식이 붙는다.</p></article>
+    <article><span class="exposure-chain__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="10" r="5"/><path d="M15 43l3-17-5-9 7-3 4 6 4-6 7 3-5 9 3 17M18 26h12"/></svg></span><b>01</b><strong>선수의 몸</strong><p>경기의 모든 동작에 표식이 붙는다.</p></article>
     <i aria-hidden="true">→</i>
-    <article><b>02</b><strong>중계 화면</strong><p>클로즈업과 재방송이 노출을 복제한다.</p></article>
+    <article><span class="exposure-chain__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="27" rx="3"/><path d="m21 17 9 5-9 5v-10ZM17 42h14M24 35v7"/></svg></span><b>02</b><strong>중계 화면</strong><p>클로즈업과 재방송이 노출을 복제한다.</p></article>
     <i aria-hidden="true">→</i>
-    <article><b>03</b><strong>레플리카</strong><p>시청자는 같은 표식이 든 셔츠를 구매한다.</p></article>
+    <article><span class="exposure-chain__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m16 7-11 8 6 9 5-3v20h16V21l5 3 6-9-11-8c-2 4-5 6-8 6s-6-2-8-6Z"/><path d="M19 26h10"/></svg></span><b>03</b><strong>레플리카</strong><p>시청자는 같은 표식이 든 셔츠를 구매한다.</p></article>
     <i aria-hidden="true">→</i>
-    <article><b>04</b><strong>일상 이미지</strong><p>셀럽 착장과 팬의 사진이 다시 배포한다.</p></article>
+    <article><span class="exposure-chain__icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="11" y="4" width="26" height="40" rx="5"/><circle cx="24" cy="36" r="1.5"/><path d="M17 13h14v14H17zM20 22l3-3 3 3 2-2 3 3"/></svg></span><b>04</b><strong>일상 이미지</strong><p>셀럽 착장과 팬의 사진이 다시 배포한다.</p></article>
   </div>
 </section>
 
@@ -192,10 +192,10 @@ featured: false
       <p>가상의 라디오 방송이라는 서사는 선수, 음악가, 배우를 하나의 편성표로 묶는다. 제품 사진이 아니라 재생·공유되는 프로그램으로 유니폼을 만든 것이다.</p>
     </div>
     <div class="platform-pair__frame">
-      <a class="video-poster video-poster--vertical" href="https://www.instagram.com/reel/Cu1K_slgjSY/" target="_blank" rel="noopener noreferrer" aria-label="Instagram에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
+      <button class="video-poster video-poster--vertical" type="button" data-article-video="https://www.instagram.com/reel/Cu1K_slgjSY/embed/" data-video-title="아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상" data-video-format="vertical" aria-label="사이트 안에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
         <img src="/images/history/football-shirt-sponsorship-history/arsenal-islington-fm-reel.webp" alt="아스널 2023-24 원정 유니폼 공식 영상의 형광색 타이틀 화면" width="384" height="640" loading="lazy" decoding="async" />
         <span><b aria-hidden="true">▶</b> 공식 릴 재생</span>
-      </a>
+      </button>
     </div>
   </div>
   <div class="platform-pair__side">
@@ -232,9 +232,14 @@ featured: false
       <div><dt>경기</dt><dd>남자 엘 클라시코·여자 아틀레틱 클루브전</dd></div>
       <div><dt>판매</dt><dd>한정판 1,899벌·서명판 22벌</dd></div>
     </dl>
-    <a href="https://www.youtube.com/watch?v=tNIdxIiWexQ" target="_blank" rel="noopener noreferrer"><b aria-hidden="true">▶</b> FC 바르셀로나 공식 영상 재생</a>
+    <button type="button" data-article-video="https://www.youtube-nocookie.com/embed/tNIdxIiWexQ?autoplay=1&rel=0&playsinline=1" data-video-title="FC 바르셀로나와 트래비스 스콧의 공식 협업 영상"><b aria-hidden="true">▶</b> 사이트에서 공식 영상 재생</button>
   </div>
 </section>
+
+<dialog class="article-video-dialog" aria-labelledby="article-video-dialog-title">
+  <div class="article-video-dialog__bar"><strong id="article-video-dialog-title">공식 영상</strong><button type="button" data-video-close aria-label="영상 닫기">×</button></div>
+  <div class="article-video-dialog__frame"><iframe title="공식 캠페인 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+</dialog>
 
 두 사례의 차이가 중요하다. 아스널은 여러 문화적 매개자를 통해 하나의 셔츠가 닿는 관객을 넓혔다. 바르셀로나는 셔츠의 광고면 자체를 음악가의 세계관으로 바꾸었다. 셀럽은 더 이상 완성된 유니폼을 받아 입는 마지막 사람이 아니다. 누구를 캐스팅하고, 어떤 음악을 붙이며, 어느 플랫폼에서 재생시킬지까지 셔츠 광고의 설계 안에 들어왔다.
 
@@ -331,6 +336,7 @@ featured: false
   }
 
   .review-frame {
+    margin: 3.2rem 0 3.6rem;
     padding: 1.75rem;
     border: 0;
     background: linear-gradient(135deg, #eaf3ff 0%, #f8fbff 68%);
@@ -361,11 +367,37 @@ featured: false
   }
 
   .review-frame article {
+    position: relative;
+    min-height: 10.2rem;
     padding: 1.2rem;
     border: 1px solid #d5e2f2;
     border-radius: 0.8rem;
     box-shadow: 0 6px 18px rgba(24, 65, 112, 0.06);
+    animation: evidence-rise 0.55s ease both;
   }
+
+  .review-frame article:nth-child(2) { animation-delay: 0.08s; }
+  .review-frame article:nth-child(3) { animation-delay: 0.16s; }
+  .review-frame article:nth-child(4) { animation-delay: 0.24s; }
+
+  .review-frame__icon {
+    display: grid;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-bottom: 0.9rem;
+    place-items: center;
+    border-radius: 0.7rem;
+    color: #fff;
+    background: #1267c7;
+    box-shadow: 0 7px 18px rgba(18, 103, 199, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 900;
+  }
+
+  .review-frame article[data-frame="archive"] .review-frame__icon { color: #103d73; background: #acd6ff; }
+  .review-frame article[data-frame="filter"] .review-frame__icon { color: #204d23; background: #cce8b9; }
+  .review-frame article[data-frame="boundary"] .review-frame__icon { color: #704311; background: #ffdaa8; }
 
   .review-frame strong {
     display: block;
@@ -385,6 +417,7 @@ featured: false
     overflow: visible;
     border: 0;
     border-radius: 0;
+    margin: 3.25rem 0 3.7rem;
   }
 
   .case-compare__head {
@@ -392,6 +425,7 @@ featured: false
   }
 
   .case-compare > div:not(.case-compare__head) {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.45rem;
@@ -401,7 +435,47 @@ featured: false
     border-radius: 0.9rem;
     background: #fff;
     box-shadow: 0 10px 26px rgba(15, 58, 108, 0.08);
+    transition: transform 180ms ease, box-shadow 180ms ease;
   }
+
+  .case-compare > div:not(.case-compare__head):hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 30px rgba(15, 58, 108, 0.13);
+  }
+
+  .case-compare__symbol {
+    display: flex;
+    gap: 0.55rem;
+    align-items: center;
+    min-height: 3.6rem;
+    margin-bottom: 0.7rem;
+    padding: 0.55rem 0.7rem;
+    border-radius: 0.75rem;
+    color: #0e57ad;
+    background: #edf5ff;
+  }
+
+  .case-compare__symbol svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    flex: 0 0 auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.2;
+  }
+
+  .case-compare__symbol b,
+  .case-compare__symbol i,
+  .case-compare__symbol small {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+  }
+
+  .case-compare__symbol b { text-decoration: line-through 2px #dc3f4b; }
+  .case-compare__symbol i { font-weight: 900; }
+  .case-compare__symbol small { margin-left: auto; color: #536a86; font-size: 13px; font-weight: 800; }
 
   .case-compare > div:not(.case-compare__head) > * {
     padding: 0;
@@ -438,8 +512,68 @@ featured: false
   .case-compare p:nth-of-type(3)::before { content: "남은 변화"; }
 
   .exposure-chain {
+    margin: 3.25rem 0 3.7rem;
     padding: 1.8rem;
     background: radial-gradient(circle at 0 0, #173d6d, #091b34 68%);
+    color: #fff !important;
+  }
+
+  .article-body .exposure-chain h3 {
+    color: #fff !important;
+  }
+
+  .exposure-chain header span,
+  .exposure-chain article b,
+  .exposure-chain > div > i {
+    color: #78bfff !important;
+  }
+
+  .exposure-chain > div {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+    gap: 0.65rem;
+    align-items: stretch;
+  }
+
+  .exposure-chain article {
+    min-width: 0;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    border-radius: 0.85rem;
+    background: rgba(255, 255, 255, 0.065);
+    animation: evidence-rise 0.55s ease both;
+  }
+
+  .exposure-chain article:nth-of-type(2) { animation-delay: 0.12s; }
+  .exposure-chain article:nth-of-type(3) { animation-delay: 0.24s; }
+  .exposure-chain article:nth-of-type(4) { animation-delay: 0.36s; }
+
+  .exposure-chain > div > i {
+    align-self: center;
+    font-size: 1.15rem;
+    font-style: normal;
+    animation: chain-pulse 1.8s ease-in-out infinite;
+  }
+
+  .exposure-chain__icon {
+    display: grid;
+    width: 2.55rem;
+    height: 2.55rem;
+    margin-bottom: 0.8rem;
+    place-items: center;
+    border-radius: 50%;
+    color: #9ed2ff;
+    background: rgba(97, 176, 255, 0.13);
+  }
+
+  .exposure-chain__icon svg {
+    width: 1.55rem;
+    height: 1.55rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.1;
   }
 
   .exposure-chain article b,
@@ -449,7 +583,26 @@ featured: false
   }
 
   .exposure-chain article strong {
+    display: block;
+    margin-top: 0.18rem;
+    color: #fff !important;
     font-size: 15px;
+  }
+
+  .article-body .exposure-chain article p {
+    margin: 0.55rem 0 0;
+    color: #c8d9ec !important;
+    line-height: 1.62;
+  }
+
+  @keyframes evidence-rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes chain-pulse {
+    0%, 100% { opacity: 0.5; transform: translateX(-2px); }
+    50% { opacity: 1; transform: translateX(2px); }
   }
 
   .shirt-inventory__crest,
@@ -663,8 +816,12 @@ featured: false
     position: relative;
     display: block;
     width: 100%;
+    padding: 0;
     overflow: hidden;
+    border: 0;
     color: #fff;
+    background: #05070a;
+    cursor: pointer;
     text-decoration: none;
   }
 
@@ -676,6 +833,13 @@ featured: false
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 240ms ease, filter 240ms ease;
+  }
+
+  .video-poster:hover img,
+  .video-poster:focus-visible img {
+    filter: brightness(0.82);
+    transform: scale(1.025);
   }
 
   .video-poster > span {
@@ -823,19 +987,100 @@ featured: false
     font-weight: 750;
   }
 
-  .takeover-proof__facts > a {
+  .takeover-proof__facts > button {
     display: flex;
     gap: 0.55rem;
     align-items: center;
     justify-content: center;
     min-height: 3.15rem;
+    width: 100%;
     padding: 0.75rem 1rem;
+    border: 0;
     border-radius: 999px;
     color: #150d14;
     background: #f2c36d;
     font-size: 14px;
     font-weight: 850;
+    cursor: pointer;
     text-decoration: none;
+  }
+
+  .video-poster:focus-visible,
+  .takeover-proof__facts > button:focus-visible,
+  .article-video-dialog button:focus-visible {
+    outline: 3px solid #67aff7;
+    outline-offset: 3px;
+  }
+
+  .article-video-dialog {
+    width: min(920px, calc(100vw - 2rem));
+    max-width: none;
+    max-height: calc(100vh - 2rem);
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    color: #fff;
+    background: #081629;
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.45);
+  }
+
+  .article-video-dialog::backdrop {
+    background: rgba(2, 9, 20, 0.82);
+    backdrop-filter: blur(5px);
+  }
+
+  .article-video-dialog__bar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+  }
+
+  .article-video-dialog__bar strong {
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .article-video-dialog__bar button {
+    display: grid;
+    width: 2.35rem;
+    height: 2.35rem;
+    padding: 0;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .article-video-dialog__frame {
+    aspect-ratio: 16 / 9;
+    background: #000;
+  }
+
+  .article-video-dialog[data-video-format="vertical"] {
+    width: min(460px, calc(100vw - 2rem));
+  }
+
+  .article-video-dialog[data-video-format="vertical"] .article-video-dialog__frame {
+    aspect-ratio: 9 / 16;
+    max-height: calc(100vh - 5.5rem);
+  }
+
+  .article-video-dialog iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
 
   .interpretation-boundary {
@@ -956,6 +1201,17 @@ featured: false
       padding: 1.2rem;
     }
 
+    .review-frame,
+    .case-compare,
+    .exposure-chain {
+      margin-top: 2.8rem;
+      margin-bottom: 3.15rem;
+    }
+
+    .review-frame article {
+      min-height: 0;
+    }
+
     .review-frame__grid,
     .case-compare,
     .platform-pair,
@@ -966,6 +1222,16 @@ featured: false
 
     .case-compare > div:not(.case-compare__head) {
       padding: 1.15rem;
+    }
+
+    .exposure-chain > div {
+      grid-template-columns: 1fr;
+    }
+
+    .exposure-chain > div > i {
+      transform: rotate(90deg);
+      text-align: center;
+      animation-name: chain-pulse-mobile;
     }
 
     .circulation-map ol {
@@ -1001,6 +1267,15 @@ featured: false
 
     .takeover-proof {
       gap: 1.2rem;
+    }
+
+    .article-video-dialog {
+      width: calc(100vw - 1rem);
+      max-height: calc(100vh - 1rem);
+    }
+
+    .article-video-dialog[data-video-format="vertical"] {
+      width: min(430px, calc(100vw - 1rem));
     }
 
     .interpretation-boundary div + div {
@@ -1039,6 +1314,21 @@ featured: false
     .shirt-closing__steps i {
       transform: rotate(90deg);
       text-align: center;
+    }
+  }
+
+  @keyframes chain-pulse-mobile {
+    0%, 100% { opacity: 0.5; transform: rotate(90deg) translateX(-2px); }
+    50% { opacity: 1; transform: rotate(90deg) translateX(2px); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .review-frame article,
+    .exposure-chain article,
+    .exposure-chain > div > i,
+    .video-poster img {
+      animation: none !important;
+      transition: none !important;
     }
   }
 </style>

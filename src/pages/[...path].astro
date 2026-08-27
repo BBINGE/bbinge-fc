@@ -964,6 +964,53 @@ if (props.kind === 'category') {
 {articleView && (
   <script is:inline>
     (function () {
+      const dialog = document.querySelector('.article-video-dialog');
+      const triggers = document.querySelectorAll('[data-article-video]');
+      if (!dialog || !triggers.length) return;
+
+      const frame = dialog.querySelector('iframe');
+      const title = dialog.querySelector('#article-video-dialog-title');
+      const close = dialog.querySelector('[data-video-close]');
+      if (!frame || !title || !close) return;
+
+      let opener = null;
+      const stopVideo = () => {
+        frame.removeAttribute('src');
+        dialog.removeAttribute('data-video-format');
+      };
+      const closeDialog = () => {
+        if (dialog.open) dialog.close();
+      };
+
+      triggers.forEach((trigger) => {
+        trigger.addEventListener('click', () => {
+          const src = trigger.getAttribute('data-article-video');
+          if (!src) return;
+          opener = trigger;
+          title.textContent = trigger.getAttribute('data-video-title') || '공식 영상';
+          frame.setAttribute('title', title.textContent);
+          frame.setAttribute('src', src);
+          const format = trigger.getAttribute('data-video-format');
+          if (format) dialog.setAttribute('data-video-format', format);
+          dialog.showModal();
+        });
+      });
+
+      close.addEventListener('click', closeDialog);
+      dialog.addEventListener('click', (event) => {
+        if (event.target === dialog) closeDialog();
+      });
+      dialog.addEventListener('close', () => {
+        stopVideo();
+        if (opener) opener.focus();
+      });
+    })();
+  </script>
+)}
+
+{articleView && (
+  <script is:inline>
+    (function () {
       const ageItems = document.querySelectorAll('[data-birth-date]');
       if (!ageItems.length) return;
 
