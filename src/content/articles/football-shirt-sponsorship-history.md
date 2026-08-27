@@ -354,10 +354,15 @@ featured: false
 
   .review-frame {
     margin: 3.2rem 0 3.6rem;
-    padding: 1.25rem;
+    padding: 0;
+    overflow: hidden;
     border: 0;
     background: #071a34;
     box-shadow: 0 18px 42px rgba(7, 26, 52, 0.15);
+  }
+
+  .review-frame > header {
+    padding: 1.25rem 1.25rem 0;
   }
 
   .review-frame header span,
@@ -385,7 +390,7 @@ featured: false
   .review-frame__grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.65rem;
+    gap: 0;
     overflow: visible;
     border: 0;
     background: transparent;
@@ -399,13 +404,13 @@ featured: false
     overflow: hidden;
     flex-direction: column;
     justify-content: flex-end;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 0.65rem;
+    border: 0;
+    border-radius: 0;
     color: #fff;
     background-image: linear-gradient(180deg, rgba(4, 16, 34, 0.12) 12%, rgba(4, 16, 34, 0.94) 100%), var(--frame-image);
     background-position: center;
     background-size: cover;
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
     animation: evidence-rise 0.55s ease both;
   }
 
@@ -1475,11 +1480,14 @@ featured: false
       font-size: 16px !important;
     }
 
-    .review-frame,
     .exposure-chain,
     .circulation-map,
     .shirt-closing {
       padding: 1.2rem;
+    }
+
+    .review-frame > header {
+      padding: 1.2rem 1.2rem 0;
     }
 
     .review-frame,
