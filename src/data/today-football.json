@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-27T17:23:48.602Z",
+  "updatedAt": "2026-08-27T18:22:05.377Z",
   "matches": [
     {
       "id": "2570007",
@@ -9,9 +9,9 @@
       "away": "Crvena Zvezda",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/at8i2h1679265942.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/osgmbz1781157114.png",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "02:00",
       "date": "2026-08-28"
@@ -24,8 +24,8 @@
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/txpuvv1448823342.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
       "homeScore": 0,
-      "awayScore": 0,
-      "status": "1H",
+      "awayScore": 1,
+      "status": "2H",
       "progress": "",
       "time": "02:00",
       "date": "2026-08-28"
@@ -37,9 +37,9 @@
       "away": "벤피카",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hj4kyc1781152436.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "1H",
       "progress": "",
       "time": "03:00",
       "date": "2026-08-28"
