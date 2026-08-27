@@ -195,11 +195,15 @@ featured: false
       <h3>캠페인은 세로 영상이 되어 곧바로 피드로 들어갔다</h3>
       <p>가상의 라디오 방송이라는 서사는 선수, 음악가, 배우를 하나의 편성표로 묶는다. 제품 사진이 아니라 재생·공유되는 프로그램으로 유니폼을 만든 것이다.</p>
     </div>
-    <div class="platform-pair__frame">
-      <button class="video-poster video-poster--vertical" type="button" data-article-video="https://www.youtube-nocookie.com/embed/gmIPqbKE54w?autoplay=1&rel=0&playsinline=1" data-video-title="아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상" aria-label="사이트 안에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
+    <div class="platform-pair__frame" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/gmIPqbKE54w?autoplay=1&rel=0&playsinline=1">
+      <button class="video-poster video-poster--vertical" type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
         <img src="/images/history/football-shirt-sponsorship-history/arsenal-islington-fm-reel.webp" alt="아스널 2023-24 원정 유니폼 공식 영상의 형광색 타이틀 화면" width="384" height="640" loading="lazy" decoding="async" />
         <span><b aria-hidden="true">▶</b> 공식 릴 재생</span>
       </button>
+      <div class="inline-video__player" hidden>
+        <iframe title="아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="inline-video__close" type="button" data-inline-video-close aria-label="아스널 공식 영상 닫기">×</button>
+      </div>
     </div>
   </div>
   <div class="platform-pair__side">
@@ -224,11 +228,17 @@ featured: false
 
 2025년 FC 바르셀로나와 스포티파이의 협업은 한 단계 더 나아갔다. 도입부에서 본 것처럼 트래비스 스콧이 유니폼을 입는 데서 끝나지 않고, 캑터스 잭 로고가 엘 클라시코 경기 셔츠의 스폰서 자리를 차지했다. 바르셀로나 공식 스토어는 1,899벌의 한정판과 22벌의 서명판을 판매했고, 이 협업을 드레이크·로살리아·콜드플레이 등 앞선 아티스트 로고 교체의 연장선에 놓았다.<sup><a href="#source-15">[15]</a></sup>
 
-<section class="takeover-proof" aria-labelledby="takeover-proof-title">
-  <figure>
-    <img src="/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp" alt="캑터스 잭 로고가 스폰서 자리 전면에 들어간 FC 바르셀로나 유니폼을 입은 트래비스 스콧과 모델" width="1280" height="720" loading="lazy" decoding="async" />
-    <figcaption><strong>착용에서 점유로</strong><span>팝스타가 스폰서 셔츠를 입은 장면이 아니다. 팝스타의 시각 정체성이 셔츠의 가장 비싼 광고면을 직접 점유했다.</span><small>Video still: FC Barcelona official YouTube, 2025</small></figcaption>
-  </figure>
+<section class="takeover-proof" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/tNIdxIiWexQ?autoplay=1&rel=0&playsinline=1" aria-labelledby="takeover-proof-title">
+  <div class="takeover-proof__media">
+    <figure data-inline-video-poster>
+      <img src="/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp" alt="캑터스 잭 로고가 스폰서 자리 전면에 들어간 FC 바르셀로나 유니폼을 입은 트래비스 스콧과 모델" width="1280" height="720" loading="lazy" decoding="async" />
+      <figcaption><strong>착용에서 점유로</strong><span>팝스타가 스폰서 셔츠를 입은 장면이 아니다. 팝스타의 시각 정체성이 셔츠의 가장 비싼 광고면을 직접 점유했다.</span><small>Video still: FC Barcelona official YouTube, 2025</small></figcaption>
+    </figure>
+    <div class="inline-video__player" hidden>
+      <iframe title="FC 바르셀로나와 트래비스 스콧의 공식 협업 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <button class="inline-video__close" type="button" data-inline-video-close aria-label="FC 바르셀로나 공식 영상 닫기">×</button>
+    </div>
+  </div>
   <div class="takeover-proof__facts">
     <span>OFFICIAL FILM · VERIFIED INVENTORY</span>
     <dl>
@@ -236,14 +246,9 @@ featured: false
       <div><dt>경기</dt><dd>남자 엘 클라시코·여자 아틀레틱 클루브전</dd></div>
       <div><dt>판매</dt><dd>한정판 1,899벌·서명판 22벌</dd></div>
     </dl>
-    <button type="button" data-article-video="https://www.youtube-nocookie.com/embed/tNIdxIiWexQ?autoplay=1&rel=0&playsinline=1" data-video-title="FC 바르셀로나와 트래비스 스콧의 공식 협업 영상"><b aria-hidden="true">▶</b> 사이트에서 공식 영상 재생</button>
+    <button type="button" data-inline-video-trigger><b aria-hidden="true">▶</b><span data-inline-video-label>이 자리에서 공식 영상 재생</span></button>
   </div>
 </section>
-
-<dialog class="article-video-dialog" aria-labelledby="article-video-dialog-title">
-  <div class="article-video-dialog__bar"><strong id="article-video-dialog-title">공식 영상</strong><button type="button" data-video-close aria-label="영상 닫기">×</button></div>
-  <div class="article-video-dialog__frame"><iframe title="공식 캠페인 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
-</dialog>
 
 두 사례의 차이가 중요하다. 아스널은 여러 문화적 매개자를 통해 하나의 셔츠가 닿는 관객을 넓혔다. 바르셀로나는 셔츠의 광고면 자체를 음악가의 세계관으로 바꾸었다. 셀럽은 더 이상 완성된 유니폼을 받아 입는 마지막 사람이 아니다. 누구를 캐스팅하고, 어떤 음악을 붙이며, 어느 플랫폼에서 재생시킬지까지 셔츠 광고의 설계 안에 들어왔다.
 
@@ -939,13 +944,17 @@ featured: false
     margin: 3.5rem 0;
   }
 
-  .takeover-proof figure,
+  .takeover-proof__media,
   .takeover-proof__facts {
     min-width: 0;
     overflow: hidden;
     border-radius: 1.05rem;
     background: #181019;
     box-shadow: 0 14px 36px rgba(26, 14, 25, 0.16);
+  }
+
+  .takeover-proof__media {
+    min-height: 20rem;
   }
 
   .takeover-proof__facts {
@@ -1011,80 +1020,52 @@ featured: false
 
   .video-poster:focus-visible,
   .takeover-proof__facts > button:focus-visible,
-  .article-video-dialog button:focus-visible {
+  .inline-video__close:focus-visible {
     outline: 3px solid #67aff7;
     outline-offset: 3px;
   }
 
-  .article-video-dialog {
-    width: min(920px, calc(100vw - 2rem));
-    max-width: none;
-    max-height: calc(100vh - 2rem);
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 1rem;
-    color: #fff;
-    background: #081629;
-    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.45);
-  }
-
-  .article-video-dialog::backdrop {
-    background: rgba(2, 9, 20, 0.82);
-    backdrop-filter: blur(5px);
-  }
-
-  .article-video-dialog__bar {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.8rem 1rem;
-  }
-
-  .article-video-dialog__bar strong {
-    overflow: hidden;
-    color: #fff;
-    font-size: 14px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .article-video-dialog__bar button {
-    display: grid;
-    width: 2.35rem;
-    height: 2.35rem;
-    padding: 0;
-    flex: 0 0 auto;
-    place-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    border-radius: 50%;
-    color: #fff;
-    background: transparent;
-    cursor: pointer;
-    font-size: 1.5rem;
-    line-height: 1;
-  }
-
-  .article-video-dialog__frame {
+  .inline-video__player {
+    position: relative;
+    width: 100%;
     aspect-ratio: 16 / 9;
     background: #000;
   }
 
-  .article-video-dialog[data-video-format="vertical"] {
-    width: min(460px, calc(100vw - 2rem));
+  .inline-video__player[hidden] {
+    display: none;
   }
 
-  .article-video-dialog[data-video-format="vertical"] .article-video-dialog__frame {
-    aspect-ratio: 9 / 16;
-    max-height: calc(100vh - 5.5rem);
+  .takeover-proof__media .inline-video__player {
+    height: 100%;
+    min-height: 20rem;
+    aspect-ratio: auto;
   }
 
-  .article-video-dialog iframe {
+  .inline-video__player iframe {
     display: block;
     width: 100%;
     height: 100%;
     border: 0;
+  }
+
+  .inline-video__close {
+    position: absolute;
+    z-index: 2;
+    top: 0.75rem;
+    right: 0.75rem;
+    display: grid;
+    width: 2.45rem;
+    height: 2.45rem;
+    padding: 0;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(5, 16, 33, 0.86);
+    cursor: pointer;
+    font-size: 1.45rem;
+    line-height: 1;
   }
 
   .interpretation-boundary {
@@ -1273,13 +1254,14 @@ featured: false
       gap: 1.2rem;
     }
 
-    .article-video-dialog {
-      width: calc(100vw - 1rem);
-      max-height: calc(100vh - 1rem);
+    .takeover-proof__media {
+      min-height: 0;
     }
 
-    .article-video-dialog[data-video-format="vertical"] {
-      width: min(430px, calc(100vw - 1rem));
+    .takeover-proof__media .inline-video__player {
+      height: auto;
+      min-height: 0;
+      aspect-ratio: 16 / 9;
     }
 
     .interpretation-boundary div + div {

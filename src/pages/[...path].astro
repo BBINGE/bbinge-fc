@@ -964,45 +964,53 @@ if (props.kind === 'category') {
 {articleView && (
   <script is:inline>
     (function () {
-      const dialog = document.querySelector('.article-video-dialog');
-      const triggers = document.querySelectorAll('[data-article-video]');
-      if (!dialog || !triggers.length) return;
+      const videos = document.querySelectorAll('[data-inline-video]');
+      if (!videos.length) return;
 
-      const frame = dialog.querySelector('iframe');
-      const title = dialog.querySelector('#article-video-dialog-title');
-      const close = dialog.querySelector('[data-video-close]');
-      if (!frame || !title || !close) return;
+      videos.forEach((video) => {
+        const triggers = video.querySelectorAll('[data-inline-video-trigger]');
+        const poster = video.querySelector('[data-inline-video-poster]');
+        const player = video.querySelector('.inline-video__player');
+        const frame = player?.querySelector('iframe');
+        const close = player?.querySelector('[data-inline-video-close]');
+        const label = video.querySelector('[data-inline-video-label]');
+        const icon = label?.previousElementSibling;
+        const src = video.getAttribute('data-video-src');
+        if (!triggers.length || !poster || !player || !frame || !close || !src) return;
 
-      let opener = null;
-      const stopVideo = () => {
-        frame.removeAttribute('src');
-        dialog.removeAttribute('data-video-format');
-      };
-      const closeDialog = () => {
-        if (dialog.open) dialog.close();
-      };
-
-      triggers.forEach((trigger) => {
-        trigger.addEventListener('click', () => {
-          const src = trigger.getAttribute('data-article-video');
-          if (!src) return;
+        let opener = triggers[0];
+        const setPlayingLabel = (isPlaying) => {
+          if (label) label.textContent = isPlaying ? '영상 닫기' : '이 자리에서 공식 영상 재생';
+          if (icon) icon.textContent = isPlaying ? '×' : '▶';
+        };
+        const openPlayer = (trigger) => {
           opener = trigger;
-          title.textContent = trigger.getAttribute('data-video-title') || '공식 영상';
-          frame.setAttribute('title', title.textContent);
           frame.setAttribute('src', src);
-          const format = trigger.getAttribute('data-video-format');
-          if (format) dialog.setAttribute('data-video-format', format);
-          dialog.showModal();
-        });
-      });
+          poster.hidden = true;
+          player.hidden = false;
+          video.classList.add('is-playing');
+          setPlayingLabel(true);
+        };
+        const closePlayer = () => {
+          frame.removeAttribute('src');
+          player.hidden = true;
+          poster.hidden = false;
+          video.classList.remove('is-playing');
+          setPlayingLabel(false);
+          opener?.focus();
+        };
 
-      close.addEventListener('click', closeDialog);
-      dialog.addEventListener('click', (event) => {
-        if (event.target === dialog) closeDialog();
-      });
-      dialog.addEventListener('close', () => {
-        stopVideo();
-        if (opener) opener.focus();
+        triggers.forEach((trigger) => {
+          trigger.addEventListener('click', () => {
+            if (video.classList.contains('is-playing')) {
+              closePlayer();
+              return;
+            }
+            openPlayer(trigger);
+          });
+        });
+        close.addEventListener('click', closePlayer);
+        setPlayingLabel(false);
       });
     })();
   </script>
