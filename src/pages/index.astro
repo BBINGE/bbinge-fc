@@ -14,6 +14,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft)).ma
   description: entry.data.description,
   label: categories[entry.data.category]?.label ?? entry.data.category,
   coverImage: entry.data.coverImage,
+  cardImage: entry.data.cardImage ?? entry.data.coverImage,
   coverImageAlt: entry.data.coverImageAlt ?? entry.data.title,
   pubDate: entry.data.pubDate,
   kind: 'article' as const,
@@ -26,6 +27,7 @@ const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft
   description: entry.data.description,
   label: '삥이 아카이브',
   coverImage: entry.data.coverImage,
+  cardImage: entry.data.coverImage,
   coverImageAlt: entry.data.coverImageAlt,
   pubDate: entry.data.pubDate,
   kind: 'archive' as const,
@@ -36,11 +38,25 @@ const editorialFeed = [...articles, ...archiveEntries].sort(
 );
 
 const FEATURED_ARTICLE_ID = 'hungary-golden-team-total-football-elo-rating';
+const CURATED_SECONDARY_IDS = [
+  'rotterdam-de-kuip-football-travel',
+  'malu-borges-vasco-brazil-football-fashion',
+  '1950-fifa-world-cup-final-uruguay-brazil',
+  'grande-inter-best-xi',
+];
 const lead = editorialFeed.find((item) => item.kind === 'article' && item.id === FEATURED_ARTICLE_ID) ?? editorialFeed[0];
-const rollingFeed = editorialFeed.filter((item) => item.href !== lead?.href);
-const secondary = rollingFeed.slice(0, 4);
-const latest = rollingFeed.slice(4, 12);
-const moreStories = rollingFeed.slice(12, 18);
+const pinnedSecondary = CURATED_SECONDARY_IDS.flatMap((id) => {
+  const item = editorialFeed.find((entry) => entry.kind === 'article' && entry.id === id);
+  return item ? [item] : [];
+});
+const secondaryFallback = editorialFeed.filter(
+  (item) => item.href !== lead?.href && !pinnedSecondary.some((pinned) => pinned.href === item.href)
+);
+const secondary = [...pinnedSecondary, ...secondaryFallback].slice(0, 4);
+const curatedHrefs = new Set([lead?.href, ...secondary.map((item) => item.href)]);
+const rollingFeed = editorialFeed.filter((item) => !curatedHrefs.has(item.href));
+const latest = rollingFeed.slice(0, 8);
+const moreStories = rollingFeed.slice(8, 14);
 ---
 
 <Layout title={site.name} description={site.tagline} breadcrumbs={[{ label: '홈', href: '/' }]}>
@@ -105,8 +121,8 @@ const moreStories = rollingFeed.slice(12, 18);
           {secondary.map((item, index) => (
             <a href={item.href} class="secondary-story group">
               <div class="secondary-image media-frame">
-                {item.coverImage ? (
-                  <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.coverImage)} />
+                {item.cardImage ? (
+                  <img src={item.cardImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.cardImage)} />
                 ) : (
                   <span>이미지 준비 중</span>
                 )}
