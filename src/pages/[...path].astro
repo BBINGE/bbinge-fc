@@ -355,16 +355,17 @@ if (props.kind === 'category') {
   .journey-article .article-body :global(.rome-trevi-story figure) { display:grid; grid-template-rows:1fr auto; min-width:0; margin:0; background:#050a12; }
   .journey-article .article-body :global(.rome-trevi-story figure img) { width:100%; height:100%; min-height:650px; object-fit:cover; }
   .journey-article .article-body :global(.rome-trevi-story figure figcaption) { margin:0; padding:12px 15px 14px; color:rgba(255,255,255,.58); font-size:11px; line-height:1.5; }
-  .journey-article .article-body :global(.rome-trevi-story__reel) { display:grid; grid-template-rows:minmax(650px,1fr) auto; min-width:0; background:#fff; }
-  .journey-article .article-body :global(.rome-trevi-story__player) { position:relative; min-height:650px; background:#050a12; }
+  .journey-article .article-body :global(.rome-trevi-story__reel) { display:grid; grid-template-rows:auto auto; min-width:0; background:#fff; }
+  .journey-article .article-body :global(.rome-trevi-story__player) { position:relative; min-height:0; aspect-ratio:4/5; background:#050a12; }
+  .journey-article .article-body :global(.rome-trevi-story__player.is-playing) { min-height:650px; aspect-ratio:auto; }
   .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster]) { position:absolute; inset:0; width:100%; height:100%; margin:0; padding:0; overflow:hidden; border:0; cursor:pointer; background:#050a12; color:#fff; text-align:left; }
   .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] img) { width:100%; height:100%; object-fit:cover; object-position:center; transition:transform .65s cubic-bezier(.22,1,.36,1); }
-  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster]::after) { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(4,9,16,.05) 38%,rgba(4,9,16,.9) 100%); }
+  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster]::after) { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 70%,rgba(4,9,16,.25) 100%); }
   .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster]:hover img) { transform:scale(1.025); }
-  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster]>span) { position:absolute; z-index:1; right:26px; bottom:27px; left:26px; }
-  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] b) { display:grid; width:54px; height:54px; margin-bottom:17px; place-items:center; border-radius:50%; background:#fff; color:#0b1320; font-size:18px; }
-  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] small) { display:block; color:#9fc2ff; font-size:11px; line-height:1.4; font-weight:800; letter-spacing:.13em; }
-  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] strong) { display:block; margin-top:7px; color:#fff; font-size:27px; line-height:1.18; letter-spacing:-.035em; }
+  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster]>span) { position:absolute; z-index:1; right:15px; bottom:15px; display:flex; align-items:center; gap:7px; padding:7px 11px 7px 8px; border:1px solid rgba(255,255,255,.44); border-radius:999px; background:rgba(5,10,18,.82); backdrop-filter:blur(7px); }
+  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] b) { display:grid; width:24px; height:24px; place-items:center; border-radius:50%; background:#fff; color:#0b1320; font-size:15px; }
+  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] small) { display:none; }
+  .journey-article .article-body :global(.rome-trevi-story__player>[data-inline-video-poster] strong) { color:#fff; font-size:13px; line-height:1.2; letter-spacing:-.02em; }
   .journey-article .article-body :global(.rome-trevi-story__player .inline-video__player) { position:absolute; inset:0; background:#fff; }
   .journey-article .article-body :global(.rome-trevi-story__player iframe) { display:block; width:100%; height:100%; min-height:650px; border:0; background:#fff; }
   .journey-article .article-body :global(.rome-trevi-story__player .inline-video__close) { position:absolute; z-index:2; top:10px; right:10px; display:grid; width:38px; height:38px; padding:0; place-items:center; border:1px solid rgba(255,255,255,.45); border-radius:50%; cursor:pointer; background:rgba(5,10,18,.78); color:#fff; font-size:25px; line-height:1; }
@@ -557,8 +558,9 @@ if (props.kind === 'category') {
     .journey-article .article-body :global(.rome-trevi-story>header p) { font-size:14px; }
     .journey-article .article-body :global(.rome-trevi-story>div) { grid-template-columns:1fr; }
     .journey-article .article-body :global(.rome-trevi-story figure img) { min-height:0; aspect-ratio:3/4; }
-    .journey-article .article-body :global(.rome-trevi-story__reel) { grid-template-rows:620px auto; }
-    .journey-article .article-body :global(.rome-trevi-story__player),
+    .journey-article .article-body :global(.rome-trevi-story__reel) { grid-template-rows:auto auto; }
+    .journey-article .article-body :global(.rome-trevi-story__player) { min-height:0; aspect-ratio:4/5; }
+    .journey-article .article-body :global(.rome-trevi-story__player.is-playing),
     .journey-article .article-body :global(.rome-trevi-story__player iframe) { min-height:620px; }
     .journey-article .article-body>:global(.journey-map header) { display:block; padding:20px 18px 18px; }
     .journey-article .article-body>:global(.journey-map header strong) { font-size:22px; }
