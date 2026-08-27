@@ -33,13 +33,13 @@ featured: false
   </div>
 </section>
 
-## 유니폼은 원래 광고가 없었던 것이 아니라, 다른 것을 광고했다
+## 기업 이름보다 먼저, 유니폼은 도시와 구단을 팔았다
 
 20세기 중반까지 선수의 셔츠 앞면은 오늘날보다 비어 있었다. 그러나 그 옷이 상업과 무관했던 것은 아니다. 색과 문장, 줄무늬는 구단과 도시를 식별했고, 제조업체는 이미 선수에게 장비를 공급하며 명성을 얻었다. 다만 기업의 이름을 경기 중인 선수의 가슴에 직접 적는 행위에는 별도의 경계가 있었다.
 
-그 경계가 중요하다. 관중석의 간판은 경기장에 남지만 셔츠는 선수와 함께 움직인다. 카메라가 공을 좇으면 로고도 화면 중앙으로 이동한다. 골을 넣은 선수가 클로즈업되면 기업명은 감정이 가장 커지는 순간에 노출된다. 셔츠 앞면은 고정된 광고판이 아니라 **경기의 서사를 따라다니는 매체**가 될 수 있었다.
+그 경계가 중요하다. 관중석의 간판은 경기장에 남지만 셔츠는 선수와 함께 움직인다. 카메라가 공을 좇으면 로고도 화면 중앙으로 이동한다. 골을 넣은 선수가 클로즈업되면 기업명은 감정이 가장 커지는 순간에 노출된다. 셔츠 앞면은 **경기의 서사를 따라다니는 매체**로 변환될 수 있었다.
 
-따라서 유니폼 스폰서의 역사는 빈 천에 로고 하나를 인쇄한 디자인사가 아니다. 협회가 선수의 몸을 어떤 공간으로 규정했는지, 방송사가 그 몸을 화면에 내보낼 것인지, 팬이 같은 옷을 상품으로 받아들일 것인지가 차례로 협상된 역사다.
+유니폼 스폰서의 역사를 쓰려면 로고의 모양보다 그 로고가 통과한 허가 절차를 먼저 보아야 한다. 협회는 선수의 몸을 어느 범위까지 상업 공간으로 인정했는가. 방송사는 그 몸을 화면에 실어 얼마나 많은 시청자에게 복제했는가. 팬은 어느 시점부터 기업명이 인쇄된 복제품을 자기 옷으로 받아들였는가. 세 질문의 답이 겹치면서 셔츠 앞면은 광고면이 되었다.
 
 ## 1973년, 광고는 구단 문장으로 위장했다
 
@@ -47,9 +47,9 @@ featured: false
 
 당시 규정은 구단명과 문장, 등번호는 허용했지만 광고 문구는 금지했다. 브라운슈바이크 회원들은 프로축구팀의 문장을 기존 사자에서 예거마이스터의 사슴으로 바꾸기로 의결했다. 기업 표식을 ‘광고’가 아니라 ‘구단 문장’으로 만들면 규정 안에 들어갈 수 있었다. DFB는 지름을 14cm로 줄이고 `EB`를 넣으라고 요구했고, 수정된 사슴은 결국 승인되었다.<sup><a href="#source-1">[1]</a></sup>
 
-이 사례가 유니폼 광고의 본질을 유난히 선명하게 드러낸다. 기업은 구단의 정체성 옆에 자리를 빌린 것이 아니라 잠시 정체성의 모양 자체가 되었다. 광고가 문장을 흉내 낸 것인지, 문장이 광고가 된 것인지 분리하기 어렵다. 오늘날 오래된 스폰서 로고를 ‘그 시절 우리 팀’으로 기억하는 현상은 이미 이때 예고되었다.
+이 사례에서 기업 표식은 구단 정체성의 문법을 직접 점유했다. 사슴은 상품의 로고이자 팀을 식별하는 문장이었다. 상업 표식과 구단 표식이 한 도형에 겹치자 둘을 시각적으로 분리할 방법도 사라졌다. 오늘날 오래된 스폰서 로고를 ‘그 시절 우리 팀’으로 기억하는 현상은 이 겹침에서 이미 예고되었다.
 
-브라운슈바이크 구단의 기록은 오스트리아에서 비슷한 관행이 앞서 존재했다고 명시한다.<sup><a href="#source-1">[1]</a></sup> 그러므로 이를 무리하게 ‘세계 최초’라고 부를 필요는 없다. 더 정확한 의미는 **독일 프로축구에서 광고 금지의 경계를 공개적으로 시험하고 제도를 바꾼 사건**이라는 데 있다.
+브라운슈바이크 구단의 기록은 오스트리아에서 비슷한 관행이 앞서 존재했다고 명시한다.<sup><a href="#source-1">[1]</a></sup> ‘세계 최초’라는 표지는 이 사례의 설명력을 줄인다. 1973년의 핵심은 **독일 프로축구에서 광고 금지의 경계를 공개적으로 시험하고 제도를 바꾼 사건**이라는 데 있다.
 
 ## 1976년, 한 글자를 지우면 광고가 아닌가
 
@@ -57,7 +57,7 @@ featured: false
 
 잉글랜드축구협회<span class="foreign-note" lang="en">(The Football Association, The FA)</span>는 나흘 뒤 문구를 지우라고 명령했다. 케터링은 `TYRES`의 마지막 네 글자를 없애 `KETTERING T`로 바꾸고, `T`는 타이어가 아니라 타운을 뜻한다고 주장했다. 협회가 1,000파운드의 벌금을 경고하자 결국 표식은 사라졌다. 이듬해인 1977년 잉글랜드 축구에서 셔츠 스폰서가 합법화되었다.<sup><a href="#source-2">[2]</a></sup>
 
-브라운슈바이크와 케터링의 방식은 달랐다. 하나는 기업의 그림을 구단 문장으로 바꾸었고, 다른 하나는 기업명을 구단명의 약자로 축소하려 했다. 그러나 둘 다 같은 사실을 드러낸다. 초창기의 싸움은 로고가 아름다운지 추한지에 관한 논쟁이 아니었다. **선수의 가슴을 구단만 말할 수 있는 공간으로 둘 것인지, 기업도 말할 수 있는 공간으로 열 것인지**에 관한 제도적 충돌이었다.
+브라운슈바이크는 기업의 그림을 구단 문장으로 바꾸었고, 케터링은 기업명을 구단명의 약자로 축소했다. 두 편법이 밀어붙인 경계는 같았다. **선수의 가슴에서 발언권을 가진 주체가 구단뿐인지, 비용을 지불한 기업도 그 권리를 얻는지**를 협회가 결정해야 했다. 초창기 셔츠 광고의 쟁점은 미감보다 표면의 소유권에 가까웠다.
 
 <section class="case-compare" aria-label="브라운슈바이크와 케터링 타운 셔츠 광고 사례 비교">
   <article data-case="crest">
@@ -72,11 +72,11 @@ featured: false
 
 ## 허용만으로는 부족했다: 카메라가 광고의 값을 정했다
 
-셔츠에 기업명을 새길 수 있게 되었다고 곧바로 큰 광고 상품이 된 것은 아니다. 광고주는 경기장 관중만이 아니라 화면의 관중을 원했다. 문제는 영국의 방송사들이 1970년대 말과 1980년대 초 스폰서가 붙은 셔츠의 방영을 거부했다는 점이다. 중계가 예정된 날 구단은 로고가 없는 셔츠로 갈아입어야 했다.<sup><a href="#source-3">[3]</a></sup>
+셔츠에 기업명을 새길 허가는 광고 상품의 출발 조건에 불과했다. 광고주는 경기장 관중과 함께 화면의 관중을 원했다. 영국 방송사들은 1970년대 말과 1980년대 초 스폰서가 붙은 셔츠의 방영을 거부했고, 중계가 예정된 날 구단은 로고가 없는 셔츠로 갈아입어야 했다.<sup><a href="#source-3">[3]</a></sup>
 
-이 모순은 셔츠 광고의 가격이 천의 면적만으로 결정되지 않는다는 사실을 보여준다. 같은 로고도 카메라가 없으면 경기장 안의 수천 명에게 보이고, 카메라가 있으면 도시 밖의 수백만 명에게 반복된다. 1983년 BBC와 ITV가 셔츠 광고의 화면 노출을 받아들이자, TV에 자주 등장하는 구단의 스폰서 권리는 더 비싼 상품이 될 수 있었다.<sup><a href="#source-4">[4]</a></sup>
+이 모순은 광고의 단가가 천의 면적과 일치하지 않는다는 사실을 보여준다. 카메라가 없는 로고는 경기장 안에서 한 번 보인다. 중계 화면에 들어온 로고는 클로즈업, 하이라이트, 재방송을 거치며 같은 경기에서 여러 차례 복제된다. 1983년 BBC와 ITV가 셔츠 광고의 화면 노출을 받아들이자, 자주 중계되는 구단은 같은 200cm² 안에서도 더 많은 시청 시간을 팔 수 있게 되었다.<sup><a href="#source-4">[4]</a></sup>
 
-스포츠 미디어 연구는 셔츠 스폰서십의 핵심 목표를 경기 중 브랜드 노출<span class="foreign-note" lang="en">(brand exposure; 기업의 명칭이나 표식이 매체 화면에 보이는 정도)</span>에서 찾는다.<sup><a href="#source-5">[5]</a></sup> 여기서 선수는 단순한 착용자가 아니다. 달리고, 몸을 돌리고, 골을 넣고, 환호하는 동안 로고를 이야기의 중심으로 운반한다. 광고주는 90분짜리 프로그램의 중간에 광고를 삽입하는 대신 프로그램의 주인공에게 광고를 입혔다.
+스포츠 미디어 연구는 셔츠 스폰서십의 핵심 목표를 경기 중 브랜드 노출<span class="foreign-note" lang="en">(brand exposure; 기업의 명칭이나 표식이 매체 화면에 보이는 정도)</span>에서 찾는다.<sup><a href="#source-5">[5]</a></sup> 선수의 달리기, 몸의 회전, 골 세리머니는 모두 로고가 등장하는 서로 다른 숏이 된다. 광고주는 90분짜리 프로그램 사이에 자리를 사는 대신, 프로그램의 주인공이 만드는 모든 화면에 표식을 붙였다.
 
 <section class="exposure-chain" aria-labelledby="exposure-chain-title">
   <header><span>EXPOSURE CHAIN</span><h3 id="exposure-chain-title">광고면은 움직일수록 커졌다</h3></header>
@@ -108,36 +108,36 @@ featured: false
   </div>
 </div>
 
-숫자는 상업화가 무제한이라는 뜻이 아니다. 오히려 축구 조직이 팀의 식별성과 대회 표식, 제조사와 복수 스폰서의 이해를 한 벌 안에서 배분하고 있음을 뜻한다. 광고는 더 이상 예외가 아니다. 너무 커지지 않도록 측정해야 하는 정상적인 구성 요소가 되었다.
+이 숫자는 한 벌 안에서 서로 경쟁하는 권리를 보여준다. 구단 문장, 제조사, 대회 패치, 메인 스폰서와 소매 파트너가 각자의 면적을 배정받는다. 한때 금지 대상이던 광고는 이제 위치와 크기를 측정해 관리하는 정상 항목이 되었다. 규정은 상업화를 막는 벽에서 상업 공간의 배치도로 바뀌었다.
 
 <section class="shirt-product-study" aria-labelledby="shirt-product-title">
   <header>
     <span>THE SHIRT AS INVENTORY</span>
-    <h3 id="shirt-product-title">한 벌이 아니라, 하나의 시장을 진열해 보면</h3>
-    <p>나폴리만의 예외가 아니다. 서로 다른 색과 문장을 가진 유럽 주요 구단의 정면을 같은 규격으로 놓으면, 가슴 중앙이 반복해서 가장 큰 기업명을 맡고 있음을 확인할 수 있다.</p>
+    <h3 id="shirt-product-title">다섯 벌을 진열하면 하나의 시장이 보인다</h3>
+    <p>유럽 5대 리그의 홈 키트를 같은 규격으로 놓았다. 색과 문장은 모두 달라도 가슴 중앙은 반복해서 가장 큰 기업명을 맡는다. 셔츠와 쇼츠를 함께 보면 광고면이 옷 전체에서 차지하는 위계도 더 선명해진다.</p>
   </header>
   <div class="shirt-shelf" aria-label="유럽 주요 구단 유니폼의 가슴 스폰서 배치">
-    <figure><div><img src="/images/culture/dua-lipa-napoli-shirt/napoli-shirt-front.webp" alt="MSC가 가슴 중앙에 놓인 SSC 나폴리 2023-24 홈 유니폼" width="800" height="800" loading="lazy" decoding="async" /></div><figcaption><b>SSC 나폴리</b><span>MSC</span></figcaption></figure>
-    <figure><div><img src="/images/history/football-shirt-sponsorship-history/arsenal-home-2627.webp" alt="에미레이트 항공이 가슴 중앙에 놓인 아스널 2026-27 홈 유니폼" width="900" height="600" loading="lazy" decoding="async" /></div><figcaption><b>아스널</b><span>Emirates</span></figcaption></figure>
-    <figure><div><img src="/images/history/football-shirt-sponsorship-history/barcelona-home-2627.webp" alt="스포티파이가 가슴 중앙에 놓인 FC 바르셀로나 2026-27 홈 유니폼" width="832" height="1105" loading="lazy" decoding="async" /></div><figcaption><b>FC 바르셀로나</b><span>Spotify</span></figcaption></figure>
-    <figure><div><img src="/images/history/football-shirt-sponsorship-history/inter-home-2627.webp" alt="벳손 스포츠가 가슴 중앙에 놓인 인테르나치오날레 2026-27 홈 유니폼" width="700" height="700" loading="lazy" decoding="async" /></div><figcaption><b>인테르나치오날레</b><span>Betsson Sport</span></figcaption></figure>
-    <figure><div><img src="/images/history/football-shirt-sponsorship-history/psg-home-2627.webp" alt="카타르항공이 가슴 중앙에 놓인 파리 생제르맹 2026-27 홈 유니폼" width="900" height="900" loading="lazy" decoding="async" /></div><figcaption><b>파리 생제르맹</b><span>Qatar Airways</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/bayern-home-mini-2627.webp" alt="도이체 텔레콤 표식이 가슴 중앙에 놓인 바이에른 뮌헨 2026-27 홈 키트 상하의" width="539" height="720" loading="lazy" decoding="async" /></div><figcaption><b>바이에른 뮌헨</b><span>Deutsche Telekom</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/man-utd-home-mini-2627.webp" alt="스냅드래곤이 가슴 중앙에 놓인 맨체스터 유나이티드 2026-27 홈 키트 상하의" width="922" height="922" loading="lazy" decoding="async" /></div><figcaption><b>맨체스터 유나이티드</b><span>Snapdragon</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/barcelona-home-mini-2627.webp" alt="스포티파이가 가슴 중앙에 놓인 FC 바르셀로나 2026-27 홈 키트 상하의" width="1000" height="1000" loading="lazy" decoding="async" /></div><figcaption><b>FC 바르셀로나</b><span>Spotify</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/juventus-home-mini-2627.webp" alt="지프와 비짓 디트로이트가 가슴 중앙에 놓인 유벤투스 2026-27 홈 키트 상하의" width="1000" height="1000" loading="lazy" decoding="async" /></div><figcaption><b>유벤투스</b><span>Jeep · Visit Detroit</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/psg-home-mini-2627.webp" alt="카타르항공이 가슴 중앙에 놓인 파리 생제르맹 2026-27 홈 키트 상하의" width="1000" height="1000" loading="lazy" decoding="async" /></div><figcaption><b>파리 생제르맹</b><span>Qatar Airways</span></figcaption></figure>
   </div>
   <div class="shirt-shelf__reading"><p><b>가슴 중앙</b><span>가장 큰 기업명이 반복되는 핵심 광고면</span></p><p><b>가슴 양쪽</b><span>구단 문장과 제조사가 균형을 이루는 식별면</span></p><p><b>소매</b><span>별도 파트너와 대회 패치가 붙는 보조 광고면</span></p></div>
-  <small class="shirt-shelf__credit">Product images: SSC Napoli · Arsenal Direct · Barça Official Store · Inter Online Store · PSG Store.<sup><a href="#source-11">[11]</a></sup><sup><a href="#source-16">[16]</a></sup><sup><a href="#source-17">[17]</a></sup><sup><a href="#source-18">[18]</a></sup><sup><a href="#source-19">[19]</a></sup></small>
+  <small class="shirt-shelf__credit">Product images: FC Bayern Store · Manchester United Store · Barça Official Store · Juventus Store · PSG Store.<sup><a href="#source-16">[16]</a></sup><sup><a href="#source-17">[17]</a></sup><sup><a href="#source-18">[18]</a></sup><sup><a href="#source-19">[19]</a></sup><sup><a href="#source-20">[20]</a></sup></small>
 </section>
 
 ## 팬은 언제부터 광고가 든 셔츠를 샀나
 
-여기까지는 기업이 구단에 돈을 내고 선수에게 광고를 입히는 이야기다. 그러나 오늘날의 유니폼 문화를 만든 더 이상한 거래는 반대 방향에서 일어났다. 팬이 구단에 돈을 내고, 같은 광고가 인쇄된 옷을 사기 시작했다.
+기업이 구단에 돈을 내면 선수의 가슴이 광고면이 되었다. 레플리카 시장은 이 거래에 두 번째 결제자를 끌어들였다. 팬이 구단에 돈을 내고 같은 기업명이 인쇄된 옷을 샀다. 광고주가 부담하던 노출 비용의 옆에서, 광고를 운반할 사람에게도 상품 가격을 받는 구조가 생겼다.
 
 영국 국립축구박물관<span class="foreign-note" lang="en">(National Football Museum)</span>은 1950년대 후반에도 어린이용 복제품이 소량 존재했지만, 1970년대 영국 스포츠웨어 기업 애드미럴<span class="foreign-note" lang="en">(Admiral)</span>이 선수들이 입는 디자인을 대중이 살 수 있는 상품으로 확장하며 시장을 바꾸었다고 정리한다.<sup><a href="#source-7">[7]</a></sup> 여기서 레플리카 키트<span class="foreign-note" lang="en">(replica kit)</span>는 선수용 유니폼의 색·문장·스폰서 구성을 대중 판매용으로 재현한 제품을 뜻한다. 영국 풋볼리그 셔츠 디자인을 분석한 연구도 1970년대 중반 이후 유니폼이 두 가지 상업 기능을 동시에 얻었다고 본다. 하나는 스폰서를 위한 캔버스, 다른 하나는 판매할 수 있는 레플리카 상품이었다.<sup><a href="#source-8">[8]</a></sup>
 
 처음부터 성인이 거리에서 유니폼을 입은 것은 아니었다. 레플리카는 1970년대 중반 어린이 시장에서 빠르게 퍼졌고, 성인용 일상복 시장은 1980년대 후반과 1990년대 초에야 뚜렷하게 성장했다.<sup><a href="#source-9">[9]</a></sup> 이 시차는 중요하다. 스폰서 로고가 셔츠에 붙는 제도적 변화와, 그 로고가 든 셔츠를 성인이 자발적으로 입는 문화적 변화는 같은 사건이 아니었다.
 
-레플리카가 팔리기 시작하자 스폰서는 한 경기의 노출을 넘어섰다. 팬은 경기장과 펍, 학교와 여행지에서 기업명을 운반했다. 한 시즌이 끝나도 셔츠는 옷장에 남았다. 시간이 더 흐르면 새 제품보다 오래된 스폰서가 붙은 셔츠가 특정 선수와 우승, 실패와 유년기를 호출하는 수집품이 되었다.
+레플리카가 팔리자 스폰서의 노출 시간은 경기 종료 휘슬에서 끊기지 않았다. 팬은 경기장과 펍, 학교와 여행지로 기업명을 옮겼고, 한 시즌이 끝난 뒤에도 셔츠를 옷장에 남겼다. 시간이 더 흐르면 오래된 스폰서는 선수, 우승, 실패와 유년기를 호출하는 연도 표기가 된다. 광고의 수명은 계약 기간보다 길어졌다.
 
-<section class="circulation-map" aria-labelledby="circulation-map-title">
+<section class="circulation-map" data-circulation-map aria-labelledby="circulation-map-title">
   <header>
     <span>FROM PRODUCT TO MEDIUM</span>
     <h3 id="circulation-map-title">레플리카 한 벌이 광고의 유통망을 바꾼다</h3>
@@ -150,33 +150,33 @@ featured: false
   </ol>
 </section>
 
-레플리카의 확장은 판매량으로만 끝나지 않았다. 복식사에서 말하는 레저웨어<span class="foreign-note" lang="en">(leisurewear; 운동 수행이 아니라 일상과 여가를 위해 입는 옷)</span>가 되자, 셔츠는 경기의 결과와 무관한 장면에도 등장할 수 있었다. 한 벌을 산 사람은 소비자인 동시에 그 옷의 사진을 만드는 다음 유통자가 되었다.
+복식사에서 말하는 레저웨어<span class="foreign-note" lang="en">(leisurewear; 운동 수행보다 일상과 여가를 위해 입는 옷)</span>가 되면서 셔츠는 경기 결과와 관계없는 장면에도 등장했다. 구매자는 옷을 소비하고, 그 옷을 입은 자기 이미지를 생산한다. 한 번 팔린 레플리카가 새로운 광고 지면을 계속 만들어내는 이유다.
 
 ## 광고는 어떻게 추억이 되었나
 
 2023년 브라운슈바이크는 셔츠 광고 50주년을 기념해 예거마이스터 레트로 셔츠와 스웨트 재킷을 판매했다.<sup><a href="#source-10">[10]</a></sup> 1973년 DFB의 금지 규정을 피하기 위해 채택했던 사슴이 반세기 뒤에는 팬이 돈을 내고 소유할 ‘전통’이 된 셈이다.
 
-이 현상을 단순히 향수라고 부르면 한 단계가 빠진다. 팬이 그리워하는 것은 기업 자체라기보다 로고가 붙어 있던 시기의 팀이다. 그러나 그 기억은 로고를 제거하면 정확히 복원되지 않는다. 스폰서가 당시 셔츠의 색과 비례, 선수의 몸, 중계 화면 속 장면에 결합했기 때문이다. 광고가 오랫동안 반복되면 상업 표식도 구단 기억의 색인처럼 기능한다.
+팬이 그리워하는 대상은 기업보다 그 로고가 붙어 있던 시기의 팀에 가깝다. 그런데 로고를 제거한 복각판은 당시의 화면을 정확히 복원하지 못한다. 스폰서가 셔츠의 색과 비례, 선수의 몸, 중계 화면 속 장면에 이미 결합했기 때문이다. 반복 노출된 상업 표식은 어느 순간 시즌과 선수를 찾는 색인으로 기능한다.
 
-복식사 연구가 축구 셔츠를 ‘스포츠웨어에서 레저웨어로’ 이동한 옷으로 분석하는 이유도 여기에 있다.<sup><a href="#source-8">[8]</a></sup> 레트로 셔츠를 입는 사람은 기업의 고객임을 선언하려는 것이 아니라, 특정 시대의 축구를 몸 위에 복원한다. 그렇다고 기업 로고가 사라지는 것은 아니다. 추억은 광고의 전파를 중단시키지 않고, 오히려 광고에 진품성과 시간을 더한다.
+복식사 연구가 축구 셔츠를 ‘스포츠웨어에서 레저웨어로’ 이동한 옷으로 분석하는 이유도 여기에 있다.<sup><a href="#source-8">[8]</a></sup> 레트로 셔츠는 특정 시대의 축구를 몸 위에 복원한다. 그 복원의 정확성을 높이는 요소 중 하나가 당시의 기업 로고다. 추억은 광고의 전파를 중단시키지 않는다. 오래된 광고에 진품성과 연도를 덧붙인다.
 
 ## 구단은 선수가 아닌 ‘전파 경로’를 캐스팅한다
 
 그러나 셔츠가 경기장 밖으로 이동하는 모든 장면을 구단이 설계하는 것은 아니다. 두아 리파<span class="foreign-note" lang="en">(Dua Lipa; 영국·알바니아 싱어송라이터, 1995–)</span>가 이탈리아의 한 해안에서 찍은 사진을 보자. 하늘색 셔츠와 바다, 흰색 비키니와 파라솔, 금색 귀걸이가 한여름의 색으로 묶인다. SSC 나폴리<span class="foreign-note" lang="it">(Società Sportiva Calcio Napoli)</span> 문장 아래에는 흰색 알파벳 세 글자가 크게 놓여 있다. `MSC`. 지중해해운<span class="foreign-note" lang="en">(Mediterranean Shipping Company)</span>의 이름이다.<sup><a href="#source-11">[11]</a></sup>
 
-이 사진을 축구 유니폼 화보라고 부르는 데에는 아무런 어색함이 없다. 우리는 기업 광고가 가슴 한가운데 놓인 옷을 보면서도 그것을 먼저 ‘나폴리의 셔츠’라고 인식한다. 광고는 보이지만 옷의 정체성을 훼손하는 이물질처럼 보이지 않는다. 오히려 특정 시즌을 기억하게 하는 표식이 된다.
+사진에서 나폴리 셔츠는 경기 장비의 기능을 거의 잃는다. 대신 바다의 청색, 비키니의 흰색, 주얼리의 금색을 묶는 중심 색면이 된다. MSC는 또렷하게 보이지만 사진의 독해 순서는 기업명에서 시작하지 않는다. 인물과 장소가 먼저 욕망을 만들고, 구단과 스폰서의 표식은 그 욕망이 향할 상품을 특정한다.
 
-그 게시물이 광고 계약의 결과였다고 단정할 근거는 없다. 착용자의 의도보다 이 글이 확인하려는 것은 이미지의 기능이다. 경기장을 보지 않던 사람도 사진을 보고, 옷을 찾고, 팀과 시즌을 알게 된다. **선수의 몸을 매체로 만든 셔츠가 이제 다른 문화권의 몸을 경유하는 매체가 되었다.**
+그 게시물이 광고 계약의 결과였다고 단정할 근거는 없다. 확인 가능한 것은 이미지가 수행한 일이다. 경기장을 보지 않던 사람의 화면에 나폴리의 색과 MSC가 함께 들어왔고, 셔츠는 휴양지 패션이라는 검색·구매 맥락을 얻었다. 선수의 몸에서 시작한 매체가 다른 문화권의 몸을 경유하며 새 독자를 확보한 셈이다.
 
 <section class="celebrity-spread" aria-labelledby="celebrity-spread-title">
-  <header><span>FROM KIT TO LOOK</span><h3 id="celebrity-spread-title">같은 셔츠도 누가, 무엇과 입느냐에 따라 구매 이유가 달라진다</h3><p>선수의 경기 사진은 기능과 소속을 판다. 여성 아티스트의 화보는 색, 실루엣, 피부에 닿는 액세서리와 장소까지 함께 보여준다. 셔츠는 이때 경기복의 복제품이 아니라 하나의 스타일링 재료가 된다.</p></header>
+  <header><span>FROM KIT TO LOOK</span><h3 id="celebrity-spread-title">같은 셔츠도 누가, 무엇과 입느냐에 따라 구매 이유가 달라진다</h3><p>선수의 경기 사진은 기능과 소속을 판다. 여성 아티스트의 화보는 색, 실루엣, 피부에 닿는 액세서리와 장소까지 함께 보여준다. 셔츠는 그 조합 안에서 스타일링 재료로 다시 읽힌다.</p></header>
   <div>
-    <figure class="celebrity-spread__dua"><img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="흰색 비키니와 금색 귀걸이에 SSC 나폴리 유니폼을 입은 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption><span>01 · RESORT</span><strong>두아 리파</strong><p>하늘색 셔츠를 바다·흰색 비키니·금색 주얼리와 묶었다. MSC는 경기장이 아니라 휴양지의 색 안에서 다시 노출된다.</p><small>Photo via @dualipa / Instagram.<sup><a href="#source-11">[11]</a></sup></small></figcaption></figure>
-    <figure class="celebrity-spread__olivia"><img src="/images/history/football-shirt-sponsorship-history/olivia-rodrigo-barca.webp" alt="분홍색 배경에서 자신의 OR 로고가 들어간 FC 바르셀로나 유니폼을 입은 올리비아 로드리고" width="1200" height="750" loading="lazy" decoding="async" /><figcaption><span>02 · CAMPAIGN</span><strong>올리비아 로드리고</strong><p>가수의 로고·캠페인 색·반바지까지 하나의 상품 세계로 설계됐다. 셔츠의 광고면이 아티스트의 패션 화보가 된 경우다.</p><small>Photo: FC Barcelona · Spotify, 2026.<sup><a href="#source-21">[21]</a></sup></small></figcaption></figure>
+    <figure class="celebrity-spread__dua"><div class="celebrity-spread__media"><img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="흰색 비키니와 금색 귀걸이에 SSC 나폴리 유니폼을 입은 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" /></div><figcaption><span>01 · RESORT</span><strong>두아 리파</strong><p>하늘색 셔츠를 바다·흰색 비키니·금색 주얼리와 묶었다. MSC는 휴양지의 색 안에서 다시 노출된다.</p><small>Photo via @dualipa / Instagram.<sup><a href="#source-11">[11]</a></sup></small></figcaption></figure>
+    <figure class="celebrity-spread__olivia"><div class="celebrity-spread__media"><img src="/images/history/football-shirt-sponsorship-history/olivia-rodrigo-barca.webp" alt="분홍색 배경에서 자신의 OR 로고가 들어간 FC 바르셀로나 유니폼을 입은 올리비아 로드리고" width="1200" height="750" loading="lazy" decoding="async" /></div><figcaption><span>02 · CAMPAIGN</span><strong>올리비아 로드리고</strong><p>가수의 로고·캠페인 색·반바지까지 하나의 상품 세계로 설계됐다. 광고면이 아티스트의 패션 화보를 구성한다.</p><small>Photo: FC Barcelona · Spotify, 2026.<sup><a href="#source-21">[21]</a></sup></small></figcaption></figure>
   </div>
 </section>
 
-구단과 제조사는 이 우연한 이동을 캠페인의 구조로 바꾸었다. 문화 연구에서 문화적 매개자<span class="foreign-note" lang="en">(cultural intermediary; 상품과 소비 사이에서 취향과 의미를 번역하는 사람이나 집단)</span>라고 부르는 역할을 가수·배우·디제이·지역 커뮤니티가 맡는다.<sup><a href="#source-12">[12]</a></sup> 이들은 유니폼을 설명하는 모델에 머물지 않는다. 음악, 영화, 거리 문화와 팬 공동체의 언어를 셔츠에 붙여 축구 밖의 관객에게 건넨다.
+구단과 제조사는 이런 이동을 캠페인의 구조로 편입했다. 문화 연구에서 문화적 매개자<span class="foreign-note" lang="en">(cultural intermediary; 상품과 소비 사이에서 취향과 의미를 번역하는 사람이나 집단)</span>라고 부르는 역할을 가수·배우·디제이·지역 커뮤니티가 맡는다.<sup><a href="#source-12">[12]</a></sup> 이들의 기존 관객, 장르, 장소는 모두 유니폼이 건너갈 통로가 된다. 캐스팅 명단은 곧 배포망의 설계도다.
 
 <section class="campaign-evidence" aria-labelledby="campaign-evidence-title">
   <header>
@@ -195,7 +195,7 @@ featured: false
     <div class="platform-pair__copy">
       <span>OFFICIAL REEL</span>
       <h3>캠페인은 세로 영상이 되어 곧바로 피드로 들어갔다</h3>
-      <p>가상의 라디오 방송이라는 서사는 선수, 음악가, 배우를 하나의 편성표로 묶는다. 제품 사진이 아니라 재생·공유되는 프로그램으로 유니폼을 만든 것이다.</p>
+      <p>가상의 라디오 방송이라는 서사는 선수, 음악가, 배우를 하나의 편성표로 묶는다. 유니폼은 정지된 제품 컷을 벗어나 재생·공유되는 프로그램의 주인공이 된다.</p>
     </div>
     <div class="platform-pair__frame" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/gmIPqbKE54w?autoplay=1&rel=0&playsinline=1">
       <button class="video-poster video-poster--vertical" type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
@@ -234,7 +234,7 @@ featured: false
   <div class="takeover-proof__media">
     <figure data-inline-video-poster>
       <img src="/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp" alt="캑터스 잭 로고가 스폰서 자리 전면에 들어간 FC 바르셀로나 유니폼을 입은 트래비스 스콧과 모델" width="1280" height="720" loading="lazy" decoding="async" />
-      <figcaption><strong>착용에서 점유로</strong><span>팝스타가 스폰서 셔츠를 입은 장면이 아니다. 팝스타의 시각 정체성이 셔츠의 가장 비싼 광고면을 직접 점유했다.</span><small>Video still: FC Barcelona official YouTube, 2025</small></figcaption>
+      <figcaption><strong>착용에서 점유로</strong><span>팝스타의 시각 정체성이 셔츠의 가장 비싼 광고면을 직접 점유했다. 인물의 착용보다 로고의 교체가 이 장면의 핵심이다.</span><small>Video still: FC Barcelona official YouTube, 2025</small></figcaption>
     </figure>
     <div class="inline-video__player" hidden>
       <iframe title="FC 바르셀로나와 트래비스 스콧의 공식 협업 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -252,26 +252,26 @@ featured: false
   </div>
 </section>
 
-두 사례의 차이가 중요하다. 아스널은 여러 문화적 매개자를 통해 하나의 셔츠가 닿는 관객을 넓혔다. 바르셀로나는 셔츠의 광고면 자체를 음악가의 세계관으로 바꾸었다. 셀럽은 더 이상 완성된 유니폼을 받아 입는 마지막 사람이 아니다. 누구를 캐스팅하고, 어떤 음악을 붙이며, 어느 플랫폼에서 재생시킬지까지 셔츠 광고의 설계 안에 들어왔다.
+아스널은 가수·배우·합창단이 이미 가진 관객을 한 셔츠로 교차시켰다. 바르셀로나는 더 비싼 권리를 내놓았다. 메인 스폰서의 자리를 음악가의 로고로 교체해 경기 화면과 한정판 판매를 동시에 묶었다. 이제 셀럽의 역할은 촬영 당일의 착용으로 끝나지 않는다. 캐스팅, 음악, 한정 수량, 경기 일정과 플랫폼 배포가 하나의 광고 상품으로 계산된다.
 
 ## 팬의 셀피는 무료 광고인가, 정체성의 표현인가
 
-팬이 유니폼을 입고 사진을 올리면 사용자 생성 콘텐츠<span class="foreign-note" lang="en">(user-generated content, UGC; 이용자가 자발적으로 제작·게시한 이미지와 영상)</span>가 된다. 기업은 광고 지면을 새로 사지 않고도 획득 미디어<span class="foreign-note" lang="en">(earned media; 보도·공유·게시를 통해 얻는 비구매 노출)</span>를 얻는다. 그렇다고 모든 착용을 기업에 대한 충성이나 협찬의 결과로 해석할 수는 없다. 팬은 구단을 지지하고, 선수를 기억하고, 색이 좋아서 입거나, 유행에 참여하기 위해 셔츠를 고른다. 기업명은 그 서로 다른 욕망을 따라 이동한다.
+팬이 유니폼을 입고 사진을 올리면 사용자 생성 콘텐츠<span class="foreign-note" lang="en">(user-generated content, UGC; 이용자가 자발적으로 제작·게시한 이미지와 영상)</span>가 된다. 기업은 추가 지면을 사지 않고 획득 미디어<span class="foreign-note" lang="en">(earned media; 보도·공유·게시를 통해 얻는 비구매 노출)</span>를 얻는다. 그러나 노출의 발생과 착용자의 동기는 구분해야 한다. 구단 지지, 선수의 기억, 색에 대한 취향, 유행 참여가 각각 같은 셔츠를 선택하게 만들 수 있다. 스폰서 기업에 대한 호감은 사진만으로 입증되지 않는다. 기업명은 자신을 향하지 않은 욕망에도 실려 이동한다.
 
 <aside class="interpretation-boundary" aria-label="소셜 미디어 착장 이미지의 해석 범위">
-  <div class="interpretation-boundary__copy"><article><span>이미지로 확인할 수 있는 것</span><strong>누가 어떤 셔츠를 어디서, 어떤 옷과 함께 보이게 했는가</strong></article><article><span>이미지만으로 단정할 수 없는 것</span><strong>협찬 여부, 착용자의 구매 동기, 스폰서 기업에 대한 호감</strong></article></div>
-  <figure><img src="/images/history/football-shirt-sponsorship-history/rosalia-barca-selfie.webp" alt="자신의 모토마미 로고가 들어간 FC 바르셀로나 유니폼을 입고 셀피를 찍은 로살리아" width="404" height="720" loading="lazy" decoding="async" /><figcaption><strong>로살리아의 셀피가 증명하는 범위</strong><span>그가 MOTOMAMI 로고 셔츠를 입어 자신의 화면에 배포했다는 사실은 보인다. 사진 한 장만으로 그 동기까지 만들어낼 수는 없다.</span><small>FC Barcelona official X, 2023.<sup><a href="#source-20">[20]</a></sup></small></figcaption></figure>
+  <figure><img src="/images/history/football-shirt-sponsorship-history/beyonce-psg-koche.webp" alt="PARIS 글자가 적힌 흰색 PSG x KOCHÉ 셔츠를 입고 뒤돌아본 비욘세" width="828" height="552" loading="lazy" decoding="async" /><figcaption><strong>비욘세, PSG x KOCHÉ</strong><span>사진에는 인물·셔츠·PARIS라는 표식이 함께 남는다.</span><small>Photo: QueenB / X, via L'Équipe.<sup><a href="#source-22">[22]</a></sup></small></figcaption></figure>
+  <div class="interpretation-boundary__copy"><article><span>01 · 이미지가 보여주는 것</span><strong>비욘세가 보석 장식의 흰색 PSG 셔츠를 입었고, ‘PARIS’가 화면의 중심에 놓였다는 사실.</strong></article><article><span>02 · 공식 기록이 확정하는 것</span><strong>PSG와 KOCHÉ의 단 한 벌뿐인 협업작이며 스와로브스키 크리스털을 수놓았고, On the Run II 유럽 일정 뒤 공개됐다는 사실.</strong></article><article><span>03 · 남겨 두어야 할 것</span><strong>개인의 구매 동기와 PSG·스폰서 기업에 대한 사적 호감은 이 사진과 공식 기사만으로 확정할 수 없다.</strong></article></div>
 </aside>
 
-그래서 축구 유니폼 광고는 일반적인 브랜드 티셔츠와 다르다. 거대한 기업명이 가슴에 있어도 구매의 주된 이유가 그 기업일 필요가 없다. 구단에 대한 애착이 광고를 함께 운반한다. 스폰서는 팬이 이미 사랑하는 문장과 색의 옆자리를 사고, 팬은 사랑하는 팀의 ‘완성된 모습’에 스폰서까지 포함해 기억한다.
+축구 유니폼에서 기업명은 구매 이유와 노출 결과가 분리되는 독특한 위치를 차지한다. 팬은 구단의 문장과 색, 선수와 시즌을 사지만 거리와 사진에서는 스폰서까지 함께 보여준다. 스폰서는 팬이 이미 사랑하는 기호의 옆자리를 사고, 팬은 그 시기의 팀을 정확히 기억하기 위해 스폰서가 포함된 ‘완성된 모습’을 찾는다.
 
-이 관계는 언제나 평화롭지 않다. 로고의 업종과 디자인이 구단의 이미지에 맞지 않는다는 반발도 생기고, 규제 때문에 같은 시즌의 셔츠가 대회마다 달라지기도 한다. 광고가 정체성에 녹아들 수 있다는 사실과, 광고가 여전히 임대된 상업 공간이라는 사실은 동시에 참이다. 바로 그 긴장이 스폰서가 사라진 레트로 복각판을 어딘가 허전하게 만들고, 반대로 낯선 새 로고를 처음에는 이물질처럼 보이게 한다.
+이 결합에는 계속 마찰이 생긴다. 업종과 디자인을 둘러싼 반발, 대회별 규제로 달라지는 로고, 계약 종료 뒤 생기는 빈자리가 그것을 드러낸다. 익숙한 스폰서는 구단 정체성의 일부처럼 기억되지만 계약상으로는 임대한 상업 공간이다. 그래서 로고를 지운 레트로 복각판은 어딘가 허전하고, 새 로고는 팀의 문법을 아직 배우지 못한 이물질처럼 보인다.
 
 ## 축구 유니폼은 언제 광고판이 되었나
 
 독일에서는 1973년 사슴이 구단 문장으로 들어왔고, 영국에서는 1976년 한 지역 타이어 업체의 이름이 협회의 금지선을 시험했다. 1977년 잉글랜드가 셔츠 스폰서를 허용했지만 방송 화면의 문은 더 늦게 열렸다. 1970년대의 레플리카 시장은 선수의 셔츠를 팬의 상품으로 바꾸었고, 1980년대 말 이후 성인들은 그 상품을 경기장 밖에서도 입기 시작했다. 오늘날 셀럽과 크리에이터, 팬은 같은 셔츠를 다시 촬영해 각자의 화면으로 보낸다.
 
-그러므로 하나의 날짜만 고르면 질문의 절반만 답하게 된다. 축구 유니폼은 협회가 로고를 허용했을 때 **광고면**이 되었고, 방송사가 그것을 내보냈을 때 **매체**가 되었으며, 팬이 같은 옷을 샀을 때 **상품**이 되었다. 그리고 팬이 그 옷으로 자신을 찍기 시작했을 때, 광고는 소비자의 정체성 안에서 스스로 재생산되는 이미지가 되었다.
+한 날짜만 고르면 셔츠에 로고가 들어온 시점은 말할 수 있어도, 그 로고의 경제는 설명하지 못한다. 협회의 허용은 **광고면**을 만들었고, 방송은 그 면을 반복 노출하는 **매체**로 키웠다. 레플리카 시장은 같은 표식을 **상품**에 복제했고, 셀럽과 팬의 카메라는 구매자의 일상을 다음 배포면으로 연결했다.
 
 <section class="shirt-closing" aria-label="선수의 셔츠에서 팬의 이미지까지 이어진 광고의 순환">
   <header><span>THE AD NEVER LEFT THE SHIRT</span><h3>광고의 마지막 매체는 구매자였다</h3></header>
@@ -284,9 +284,9 @@ featured: false
   </div>
 </section>
 
-처음에는 기업이 축구의 몸을 빌렸다. 이제는 우리가 그 몸의 복제품을 산다. 다만 거리에서 그것을 ‘광고판’이라고 부르는 사람은 드물다. 우리는 대개 팀의 이름, 선수의 번호, 어느 계절의 기억을 먼저 말한다.
+처음에는 기업이 선수에게 광고를 입히기 위해 구단에 돈을 냈다. 레플리카 시장이 열린 뒤에는 팬이 그 광고가 든 셔츠를 얻기 위해 구단에 돈을 냈다. 셔츠 스폰서십은 노출량을 늘리는 데서 멈추지 않았다. 광고를 운반할 사람에게 운반 비용까지 받는 구조를 완성했다.
 
-광고가 보이지 않게 된 것이 아니다. 너무 오래, 너무 정확하게 축구의 일부로 보이는 법을 배운 것이다.
+그런데 거리에서 그 사람을 광고판이라고 부르지는 않는다. 우리는 팀의 이름, 선수의 번호, 어느 계절의 기억을 먼저 말한다. 광고는 사라진 적이 없다. 너무 오래, 너무 정확하게 축구의 일부로 보이는 법을 배웠다.
 
 <div class="source-notes">
 
@@ -307,12 +307,13 @@ featured: false
 13. <span id="source-13"></span>[Arsenal FC, “Arsenal release new 2023/24 men's away kit”](https://www.arsenal.com/photos/arsenal-release-new-202324-mens-away-kit-abMbF4n7rGZ9), 2023년 7월 18일; [Arsenal, “Introducing the new Arsenal x adidas 23/24 Men's Team away kit”](https://www.youtube.com/watch?v=gmIPqbKE54w), YouTube. 메이블, 애슐리 월터스, 에이사 버터필드, 이즐링턴 유스 콰이어 등이 참여한 ‘188.6 Islington FM’ 캠페인과 영상.
 14. <span id="source-14"></span>[Arsenal FC, “Introducing our new 2022/23 adidas third kit”](https://www.arsenal.com/photos/introducing-our-new-202223-adidas-third-kit-awwc07c9EywE), 2022년. 지역 활동가·음악가와 Melanin Skate Gals & Pals를 공식 유니폼 캠페인의 주체로 배치한 사례.
 15. <span id="source-15"></span>[FC Barcelona Official Store, “FC Barcelona x Travis Scott”](https://store.fcbarcelona.com/pages/fc-barcelona-x-travis-scott); [FC Barcelona, “FLAME ON. BARÇA x SPOTIFY x TRAVIS SCOTT”](https://www.youtube.com/watch?v=tNIdxIiWexQ), 2025년 5월 2일. Cactus Jack 로고의 경기 셔츠 적용, 한정판 판매와 공식 영상.
-16. <span id="source-16"></span>[Arsenal Direct, “Arsenal adidas 26/27 Home Shirt”](https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/Home/Arsenal-adidas-26-27-Home-Shirt/p/MJZ3168). 2026-27 아스널 홈 셔츠 정면과 스폰서 배치.
-17. <span id="source-17"></span>[Barça Official Store, “Men's home jersey FC Barcelona 26/27”](https://store.fcbarcelona.com/en-us/products/fc-barcelona-home-fullshirt-26-27-ucl). 2026-27 FC 바르셀로나 홈 셔츠 정면과 스폰서 배치.
-18. <span id="source-18"></span>[Inter Online Store, “Inter Home Stadium Jersey 26/27”](https://store.inter.it/gb/inter-home-stadium-jersey-26-27). 2026-27 인테르나치오날레 홈 셔츠 정면과 스폰서 배치.
-19. <span id="source-19"></span>[PSG Store, “PSG Nike Home Stadium Shirt 2026-27”](https://store.psg.fr/en/maillot-domicile-stadium-psg-nike-26/27/p-137703163635607796%2Bz-99-1748606335). 2026-27 파리 생제르맹 홈 셔츠 정면과 스폰서 배치.
-20. <span id="source-20"></span>[FC Barcelona, “Rosalía sings FC Barcelona anthem a la ‘Motomami’”](https://www.fcbarcelona.com/en/club/news/3116497/rosalia-sings-fc-barcelona-anthem-a-la-motomami), 2023년 3월 19일; [FC Barcelona official X post](https://x.com/FCBarcelona/status/1637477837882966020). 로살리아의 모토마미 로고 셔츠 착장과 셀피.
+16. <span id="source-16"></span>[FC Bayern Store, “Mini Kit Jersey Home 26-27”](https://fcbayern.com/store/en-zz/p/mini-kit-jersey-home-26-27-83636). 2026-27 바이에른 뮌헨 홈 셔츠·쇼츠 구성과 가슴 스폰서 배치.
+17. <span id="source-17"></span>[Manchester United Store, “Manchester United Kids 26/27 Home Mini Kit”](https://store.manutd.com/en/p/manchester-united-kids-2627-home-mini-kit-5736). 2026-27 맨체스터 유나이티드 홈 셔츠·쇼츠 구성과 가슴 스폰서 배치.
+18. <span id="source-18"></span>[Barça Official Store, “Younger Kids' Home Kit 26/27 FC Barcelona”](https://store.fcbarcelona.com/products/younger-kids-home-kit-26-27-fc-barcelona). 2026-27 FC 바르셀로나 홈 셔츠·쇼츠·양말 구성과 가슴 스폰서 배치.
+19. <span id="source-19"></span>[Juventus Official Store, “Juventus Home Minikit 2026/27”](https://store.juventus.com/us/juventus-home-minikit-2026-27). 2026-27 유벤투스 홈 셔츠·쇼츠 구성과 가슴 스폰서 배치.
+20. <span id="source-20"></span>[PSG Store, “PSG Nike Home Stadium Mini Kit 2026-27”](https://store.psg.fr/en/football-kits/psg-nike-home-stadium-mini-kit-2026-27-little-kids/d-7816543837%2Bf-4633476103933%2Bz-8-804602678). 2026-27 파리 생제르맹 홈 셔츠·쇼츠·양말 구성과 가슴 스폰서 배치.
 21. <span id="source-21"></span>[FC Barcelona, “US artist Olivia Rodrigo to feature on shirt for next el Clásico”](https://www.fcbarcelona.com/en/club/news/4496112/us-artist-olivia-rodrigo-to-feature-on-shirt-for-next-el-clasico), 2026년 5월 1일. 올리비아 로드리고의 로고가 든 경기 셔츠와 공식 라이프스타일 캠페인.
+22. <span id="source-22"></span>[Paris Saint-Germain, “Beyoncé sporting Rouge et Bleu!”](https://en.psg.fr/teams/club/content/beyonce-sporting-rouge-et-bleu-1), 2018년 7월 26일; [L'Équipe, “Beyonce pose avec un maillot customisé du PSG”](https://www.lequipe.fr/Sport-et-style/People/Actualites/Beyonce-pose-avec-un-maillot-customise-du-psg/926153), 2018년 7월 27일. PSG x KOCHÉ 단 한 벌의 셔츠, 스와로브스키 크리스털 장식과 비욘세 착장 사진.
 
 </div>
 
@@ -526,8 +527,8 @@ featured: false
 
   .case-compare figure::after {
     position: absolute;
-    inset: 40% 0 0;
-    background: linear-gradient(180deg, transparent, rgba(3, 12, 25, 0.94));
+    inset: 26% 0 0;
+    background: linear-gradient(180deg, transparent 0%, rgba(3, 12, 25, 0.74) 42%, rgba(3, 12, 25, 0.98) 100%);
     content: "";
   }
 
@@ -544,6 +545,7 @@ featured: false
     bottom: 1rem;
     left: 1rem;
     color: #fff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
   }
 
   .case-compare figcaption b,
@@ -553,8 +555,8 @@ featured: false
   }
 
   .case-compare figcaption b { font-size: 17px; }
-  .case-compare figcaption span { margin-top: 0.25rem; font-size: 13px; line-height: 1.55; }
-  .case-compare figcaption small { margin-top: 0.45rem; color: #c9d6e7; font-size: 13px; }
+  .case-compare figcaption span { margin-top: 0.25rem; color: #fff; font-size: 13px; line-height: 1.55; }
+  .case-compare figcaption small { margin-top: 0.45rem; color: #e8f0fa; font-size: 13px; }
 
   .exposure-chain {
     margin: 3.25rem 0 3.7rem;
@@ -698,16 +700,25 @@ featured: false
   }
 
   .shirt-shelf figure {
+    display: flex;
     min-width: 0;
     margin: 0;
     overflow: hidden;
+    flex-direction: column;
     border: 1px solid #d8e2ed;
     border-radius: 0.75rem;
     background: #fff;
+    box-shadow: 0 8px 20px rgba(16, 53, 94, 0.07);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .shirt-shelf figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(16, 53, 94, 0.14);
   }
 
   .shirt-shelf figure > div {
-    height: 13rem;
+    height: 15.5rem;
     overflow: hidden;
     background: linear-gradient(145deg, #f9fbfd, #e8eef4);
   }
@@ -715,19 +726,20 @@ featured: false
   .shirt-shelf img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center top;
-    mix-blend-mode: multiply;
+    object-fit: contain;
+    object-position: center;
+    transform: scale(1.08);
+    transition: transform 220ms ease;
   }
 
-  .shirt-shelf figure:first-child img,
-  .shirt-shelf figure:nth-child(4) img {
-    object-fit: contain;
-    padding: 0.45rem;
+  .shirt-shelf figure:hover img {
+    transform: scale(1.13);
   }
 
   .shirt-shelf figcaption {
+    min-height: 4.5rem;
     padding: 0.72rem;
+    flex: 1;
   }
 
   .shirt-shelf figcaption b,
@@ -782,6 +794,7 @@ featured: false
   }
 
   .circulation-map {
+    position: relative;
     margin: 3.5rem 0;
     padding: 1.7rem;
     overflow: hidden;
@@ -797,6 +810,7 @@ featured: false
   }
 
   .circulation-map ol {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0;
@@ -806,10 +820,31 @@ featured: false
     counter-reset: none;
   }
 
+  .circulation-map ol::before {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #56b6ff, #7be6c7, #f7d66b);
+    content: "";
+    transform-origin: left center;
+  }
+
   .circulation-map li {
     position: relative;
     padding: 1rem 1.05rem 1.1rem;
     border-left: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+  }
+
+  .circulation-map li:hover,
+  .circulation-map li:focus-within {
+    z-index: 1;
+    background: rgba(71, 160, 255, 0.12);
+    box-shadow: inset 0 0 0 1px rgba(118, 186, 255, 0.3);
+    transform: translateY(-5px);
   }
 
   .circulation-map li:first-child {
@@ -886,39 +921,57 @@ featured: false
   }
 
   .celebrity-spread figure {
-    position: relative;
-    min-height: 32rem;
+    display: flex;
+    min-height: 0;
     margin: 0;
     overflow: hidden;
+    flex-direction: column;
     border-radius: 1rem;
     background: #101a2a;
     box-shadow: 0 16px 38px rgba(13, 31, 55, 0.16);
   }
 
   .celebrity-spread figure::after {
-    position: absolute;
-    inset: 38% 0 0;
-    background: linear-gradient(180deg, transparent, rgba(4, 12, 25, 0.96));
-    content: "";
+    display: none;
   }
 
-  .celebrity-spread img {
+  .celebrity-spread__media {
+    height: 27rem;
+    overflow: hidden;
+    background: #17243a;
+  }
+
+  .celebrity-spread__media img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 280ms ease;
   }
 
   .celebrity-spread__olivia img {
-    object-position: 58% center;
+    object-position: 59% center;
+    transform: scale(1.28);
+  }
+
+  .celebrity-spread__dua img {
+    object-position: center 34%;
+  }
+
+  .celebrity-spread figure:hover .celebrity-spread__dua img {
+    transform: scale(1.04);
+  }
+
+  .celebrity-spread figure:hover .celebrity-spread__olivia img {
+    transform: scale(1.34);
   }
 
   .celebrity-spread figcaption {
-    position: absolute;
-    z-index: 1;
-    right: 1.15rem;
-    bottom: 1.15rem;
-    left: 1.15rem;
+    position: static;
+    min-height: 12rem;
+    padding: 1.15rem;
     color: #fff;
+    background: linear-gradient(145deg, #122742, #07182f);
   }
 
   .celebrity-spread figcaption span,
@@ -948,38 +1001,53 @@ featured: false
 
   .celebrity-spread figcaption small {
     margin-top: 0.5rem;
-    color: #aebed1;
+    color: #c5d3e4;
     font-size: 13px;
     line-height: 1.5;
   }
 
   .campaign-evidence {
+    position: relative;
     margin: 3.5rem 0;
     overflow: hidden;
     border-radius: 1.15rem;
-    background: #f3f9bd;
+    background: #081b36;
     box-shadow: 0 18px 44px rgba(12, 35, 63, 0.12);
   }
 
+  .campaign-evidence::after {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(4, 15, 30, 0.96) 0%, rgba(4, 15, 30, 0.78) 48%, rgba(4, 15, 30, 0.08) 78%);
+    content: "";
+    pointer-events: none;
+  }
+
   .campaign-evidence > header {
-    padding: 1.65rem 1.75rem 1.5rem;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: min(59%, 34rem);
+    padding: 1.65rem 1.75rem;
   }
 
   .campaign-evidence > header > span {
-    color: #355b00;
+    color: #b9ec5f;
     font-weight: 850;
   }
 
   .article-body .campaign-evidence h3 {
     margin: 0.45rem 0 0.75rem;
-    color: #102600 !important;
+    color: #fff !important;
     font-size: clamp(1.28rem, 2.5vw, 1.65rem);
     line-height: 1.42;
   }
 
   .article-body .campaign-evidence header p {
     margin: 0;
-    color: #2f421d;
+    color: #e3edf8;
     font-size: 14px;
     line-height: 1.75;
   }
@@ -998,11 +1066,46 @@ featured: false
     height: auto;
   }
 
+  .campaign-evidence figure {
+    position: relative;
+    min-height: 30rem;
+  }
+
+  .article-body .campaign-evidence figure {
+    margin: 0 !important;
+  }
+
+  .campaign-evidence figure img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
   .campaign-evidence figcaption,
   .platform-pair figcaption,
   .takeover-proof figcaption {
     padding: 1rem 1.2rem 1.2rem;
     background: #fff;
+  }
+
+  .campaign-evidence figcaption {
+    position: absolute;
+    z-index: 2;
+    right: 1.4rem;
+    bottom: 1.25rem;
+    left: 1.75rem;
+    width: min(55%, 31rem);
+    padding: 0;
+    color: #fff;
+    background: transparent;
+  }
+
+  .campaign-evidence figcaption strong,
+  .campaign-evidence figcaption span,
+  .campaign-evidence figcaption small {
+    color: #fff;
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.72);
   }
 
   .campaign-evidence figcaption strong,
@@ -1019,6 +1122,12 @@ featured: false
   .takeover-proof figcaption span {
     display: block;
     color: #44556b;
+  }
+
+  .campaign-evidence figcaption strong,
+  .campaign-evidence figcaption span,
+  .campaign-evidence figcaption small {
+    color: #fff;
   }
 
   .platform-pair {
@@ -1318,9 +1427,9 @@ featured: false
 
   .interpretation-boundary {
     display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(14rem, 0.85fr);
-    gap: 0.8rem;
-    height: 30rem;
+    grid-template-columns: minmax(0, 1.08fr) minmax(18rem, 0.92fr);
+    gap: 0;
+    min-height: 27rem;
     margin: 2.8rem 0 3.2rem;
     overflow: hidden;
     border-radius: 1rem;
@@ -1330,14 +1439,14 @@ featured: false
 
   .interpretation-boundary__copy {
     display: grid;
-    gap: 0.65rem;
-    padding: 1.1rem 0 1.1rem 1.1rem;
+    gap: 0.55rem;
+    padding: 0.85rem;
   }
 
   .interpretation-boundary__copy article {
     display: flex;
-    min-height: 8rem;
-    padding: 1.15rem;
+    min-height: 0;
+    padding: 0.95rem 1rem;
     flex-direction: column;
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -1363,33 +1472,34 @@ featured: false
   }
 
   .interpretation-boundary figure {
-    position: relative;
-    min-height: 0;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    min-height: 27rem;
     margin: 0;
     overflow: hidden;
   }
 
+  .article-body .interpretation-boundary figure {
+    margin: 0 !important;
+  }
+
   .interpretation-boundary figure::after {
-    position: absolute;
-    inset: 45% 0 0;
-    background: linear-gradient(180deg, transparent, rgba(3, 12, 25, 0.96));
-    content: "";
+    display: none;
   }
 
   .interpretation-boundary figure img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 28%;
+    min-height: 0;
+    object-position: center;
   }
 
   .interpretation-boundary figcaption {
-    position: absolute;
-    z-index: 1;
-    right: 1rem;
-    bottom: 1rem;
-    left: 1rem;
+    position: static;
+    padding: 0.9rem 1rem 1rem;
     color: #fff;
+    background: #06162d;
   }
 
   .interpretation-boundary figcaption strong,
@@ -1532,6 +1642,15 @@ featured: false
       grid-template-columns: 1fr;
     }
 
+    .circulation-map ol::before {
+      top: 0;
+      right: auto;
+      bottom: 0;
+      width: 2px;
+      height: auto;
+      transform-origin: center top;
+    }
+
     .circulation-map li {
       padding: 1rem 0;
       border-top: 1px solid rgba(255, 255, 255, 0.18);
@@ -1549,6 +1668,29 @@ featured: false
     .campaign-evidence > header,
     .platform-pair__copy {
       padding: 1.2rem;
+    }
+
+    .campaign-evidence::after {
+      display: none;
+    }
+
+    .campaign-evidence > header {
+      position: static;
+      width: auto;
+      background: #081b36;
+    }
+
+    .campaign-evidence figure,
+    .campaign-evidence figure img {
+      min-height: 0;
+      height: auto;
+    }
+
+    .campaign-evidence figcaption {
+      position: static;
+      width: auto;
+      padding: 1rem 1.2rem 1.2rem;
+      background: #102744;
     }
 
     .platform-pair {
@@ -1585,16 +1727,28 @@ featured: false
     }
 
     .celebrity-spread figure {
-      min-height: 31rem;
+      min-height: 0;
       scroll-snap-align: start;
     }
 
+    .celebrity-spread__media {
+      height: 25rem;
+    }
+
+    .celebrity-spread figcaption {
+      min-height: 13rem;
+    }
+
     .interpretation-boundary__copy {
-      padding: 1rem 1rem 0;
+      padding: 0.8rem;
     }
 
     .interpretation-boundary figure {
-      min-height: 30rem;
+      min-height: 0;
+    }
+
+    .interpretation-boundary figure img {
+      height: 20rem;
     }
 
     .shirt-product-study {
@@ -1641,11 +1795,55 @@ featured: false
     50% { opacity: 1; transform: rotate(90deg) translateX(2px); }
   }
 
+  @keyframes circulation-line-x {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+
+  @keyframes circulation-line-y {
+    from { transform: scaleY(0); }
+    to { transform: scaleY(1); }
+  }
+
+  @keyframes circulation-rise {
+    from { opacity: 0.28; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @supports (animation-timeline: view()) {
+    .circulation-map ol::before {
+      animation: circulation-line-x linear both;
+      animation-range: entry 5% cover 55%;
+      animation-timeline: view();
+    }
+
+    .circulation-map li {
+      animation: circulation-rise linear both;
+      animation-range: entry 8% cover 38%;
+      animation-timeline: view();
+    }
+
+    .circulation-map li:nth-child(2) { animation-range: entry 13% cover 43%; }
+    .circulation-map li:nth-child(3) { animation-range: entry 18% cover 48%; }
+    .circulation-map li:nth-child(4) { animation-range: entry 23% cover 53%; }
+
+    @media (max-width: 720px) {
+      .circulation-map ol::before {
+        animation-name: circulation-line-y;
+      }
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .review-frame article,
     .exposure-chain article,
     .exposure-chain > div > i,
-    .video-poster img {
+    .video-poster img,
+    .circulation-map ol::before,
+    .circulation-map li,
+    .shirt-shelf figure,
+    .shirt-shelf img,
+    .celebrity-spread img {
       animation: none !important;
       transition: none !important;
     }
