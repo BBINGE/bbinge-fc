@@ -375,6 +375,12 @@ if (props.kind === 'category') {
   .journey-article .article-body :global(.journey-map--rome .journey-map__pin) { width:108px; }
   .journey-article .article-body :global(.journey-map--rome .journey-map__icon) { width:54px; height:54px; }
   .journey-article .article-body :global(.journey-map--rome .journey-map__route--rome) { stroke:#246bfd; stroke-width:7; stroke-dasharray:4 15; filter:drop-shadow(0 1px 2px rgba(255,255,255,.95)); }
+  .journey-article .article-body :global(.journey-map--turin .journey-map__canvas) { aspect-ratio:7/5; }
+  .journey-article .article-body :global(.journey-map--turin .journey-map__pin) { width:94px; }
+  .journey-article .article-body :global(.journey-map--turin .journey-map__icon) { width:48px; height:48px; }
+  .journey-article .article-body :global(.journey-map--turin .journey-map__icon svg) { width:30px; height:30px; }
+  .journey-article .article-body :global(.journey-map--turin .journey-map__label) { min-width:90px; max-width:104px; }
+  .journey-article .article-body :global(.journey-map--turin .journey-map__route--turin) { stroke:#246bfd; stroke-width:7; stroke-dasharray:4 14; filter:drop-shadow(0 1px 2px rgba(255,255,255,.95)); }
   .journey-article .article-body :global(.journey-map__mobile-legend) { display:none; }
   .journey-article .article-body :global(.journey-map__base) { position:absolute; inset:0; z-index:0; width:100%; height:100%; border-radius:0; object-fit:fill; filter:sepia(.13) saturate(.72) brightness(1.04); }
   .journey-article .article-body :global(.journey-map__terrain) { position:absolute; inset:0; z-index:1; width:100%; height:100%; pointer-events:none; }
@@ -408,6 +414,9 @@ if (props.kind === 'category') {
     .journey-article .article-body :global(.journey-map--rome .journey-map__pin[href="#milvio"] .journey-map__label) { transform:translate(58px,-26px); }
     .journey-article .article-body :global(.journey-map--rome .journey-map__pin[href="#foro"] .journey-map__label) { transform:translate(67px,28px); }
     .journey-article .article-body :global(.journey-map--rome .journey-map__pin[href="#olimpico"] .journey-map__label) { transform:translate(-73px,18px); }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__pin[href="#lingotto"] .journey-map__label) { transform:translate(60px,8px); }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__pin[href="#filadelfia"] .journey-map__label) { transform:translate(-61px,17px); }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__pin[href="#olimpico"] .journey-map__label) { transform:translate(-61px,-23px); }
   }
   .journey-article .article-body>:global(.journey-map>p) { margin:0; padding:17px 27px 19px; border-top:1px solid #d4dae3; background:#fff; color:#556171; font-size:15px; line-height:1.65; }
   .journey-article .article-body>:global(.journey-stays) { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:37px 0 51px; }
@@ -491,6 +500,12 @@ if (props.kind === 'category') {
     .journey-article .article-body :global(.journey-map--rome .journey-map__icon svg) { width:25px; height:25px; }
     .journey-article .article-body :global(.journey-map--rome .journey-map__label) { display:none; }
     .journey-article .article-body :global(.journey-map--rome .journey-map__place-label) { display:none; }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__canvas) { min-height:0; aspect-ratio:7/5; }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__pin) { width:38px; }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__icon) { width:36px; height:36px; border-width:2px; }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__icon svg) { width:22px; height:22px; }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__icon b) { right:-6px; top:-6px; width:20px; height:20px; font-size:10px; }
+    .journey-article .article-body :global(.journey-map--turin .journey-map__label) { display:none; }
     .journey-article .article-body :global(.journey-map__mobile-legend) { display:grid; grid-template-columns:1fr 1fr; gap:0; margin:0; padding:10px 18px 14px; border-top:1px solid #d4dae3; background:#fff; list-style:none; }
     .journey-article .article-body :global(.journey-map__mobile-legend li) { display:flex; min-width:0; align-items:center; gap:8px; padding:8px 4px; color:#354153; font-size:12px; line-height:1.35; }
     .journey-article .article-body :global(.journey-map__mobile-legend b) { display:grid; width:22px; height:22px; flex:0 0 22px; place-items:center; border-radius:50%; background:#172233; color:#fff; font-size:10px; }
