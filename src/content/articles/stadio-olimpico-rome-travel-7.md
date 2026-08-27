@@ -62,6 +62,22 @@ AS 로마<span class="foreign-note" lang="it">(Associazione Sportiva Roma)</span
 
 여행은 팀을 고르는 시험이 아니다. 남쪽에서 AS 로마의 기억을 읽고 북쪽에서 라치오의 시작을 확인한 뒤, 두 선이 올림피코에서 만나는 구조를 보는 일이다. 로마 더비<span class="foreign-note" lang="it">(Derby della Capitale; 수도의 두 구단이 맞붙는 경기)</span>가 아니어도 이 동선은 성립한다. 오히려 한쪽의 홈경기를 보러 갔을 때 다른 쪽의 출발점까지 걸어야 이 도시의 축구가 단순한 색깔 싸움보다 오래되었다는 사실이 보인다.
 
+<section class="rome-desire" aria-labelledby="rome-desire-title">
+  <header><span>ROME BETWEEN MATCHDAYS</span><h2 id="rome-desire-title">경기 없는 몇 시간까지 로마다</h2><p>첫날 Testaccio를 다 본 뒤에는 트라스테베레의 카페로 건너간다. 둘째 날 Flaminio에서 조금 남쪽으로 내려오면 핀초 테라스에 해가 걸린다. 축구를 좋아하는 사람에게는 동선을 잇는 여백이고, 동행에게는 로마에 온 이유가 된다.</p></header>
+  <div>
+    <figure><img src="/images/pilgrimage/rome-football-city/rome-pincio-sunset.webp" alt="소나무 사이로 성베드로 대성당의 돔과 로마의 석양이 보이는 핀초 테라스" width="1400" height="1050" loading="lazy" /><figcaption><span>18:06 · PINCIO</span><strong>경기 전날의 석양</strong><small>핀초 테라스에서 성베드로 대성당 방향을 본다. 사진: Radek Kucharski, CC BY 2.0.</small></figcaption></figure>
+    <figure><img src="/images/pilgrimage/rome-football-city/rome-trastevere-cafe.webp" alt="주황색 벽과 초록 식물 사이 야외 테이블에 사람들이 앉아 있는 트라스테베레의 카페" width="1400" height="1050" loading="lazy" /><figcaption><span>15:30 · TRASTEVERE</span><strong>한 잔이 길어지는 골목</strong><small>Testaccio에서 강을 건넌 오후의 카페. 사진: Jorge Franganillo, CC BY 2.0.</small></figcaption></figure>
+  </div>
+</section>
+
+<section class="rome-trevi-story" aria-labelledby="rome-trevi-title">
+  <header><span>ROME AFTER DARK · TREVI</span><h2 id="rome-trevi-title">동전을 던진 뒤, 디발라는 반지를 꺼냈다</h2><p>2023년 10월, 당시 AS 로마 선수 파울로 디발라<span class="foreign-note" lang="es">(Paulo Dybala)</span>는 가수 겸 배우 오리아나 사바티니<span class="foreign-note" lang="es">(Oriana Sabatini)</span>에게 트레비 분수 앞에서 청혼했다. 사바티니가 동전을 던지는 사이 레안드로 파레데스가 휴대전화를 들었고, 화면 뒤에는 알바로 모라타와 앨리스 캄펠로도 보인다. 그날의 로마는 디발라에게 경기 도시이자 자기 인생의 무대가 되었다.</p></header>
+  <div>
+    <figure><img src="/images/pilgrimage/rome-football-city/rome-trevi-night.webp" alt="밤에 밝게 빛나는 로마 트레비 분수의 조각과 흐르는 물" width="1200" height="1600" loading="lazy" /><figcaption>2025년 11월의 트레비 분수. 사진: NovaEmicss, CC0.</figcaption></figure>
+    <div class="rome-trevi-story__reel"><div class="rome-trevi-story__player" data-inline-video data-video-src="https://www.instagram.com/p/CzEXUv_IJDu/embed/captioned/"><button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 파울로 디발라의 트레비 분수 청혼 영상 재생"><img src="/images/pilgrimage/rome-football-city/rome-dybala-proposal-poster.jpg" alt="트레비 분수 곁에 함께 선 파울로 디발라와 오리아나 사바티니" width="1080" height="1350" loading="lazy" /><span><b aria-hidden="true">▶</b><small>PAULO × ORIANA · TREVI</small><strong>그날의 장면 재생</strong></span></button><div class="inline-video__player" hidden><iframe title="트레비 분수에서 파울로 디발라가 오리아나 사바티니에게 청혼하는 영상" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture" allowtransparency="true"></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="디발라의 트레비 분수 청혼 영상 닫기">×</button></div></div><p>레안드로 파레데스가 촬영한 장면을 Sky Sport Italia가 공개한 Instagram 영상이다. <a href="https://www.instagram.com/p/CzEXUv_IJDu/">원문 영상 보기 <b aria-hidden="true">↗</b></a></p></div>
+  </div>
+</section>
+
 <h2 id="testaccio">1. Testaccio에서 AS 로마가 ‘로마의 팀’이 된 방식을 본다</h2>
 
 **시작점** · Via Nicola Zabaglia의 Campo Testaccio 옛터<br />
@@ -177,6 +193,8 @@ AS 로마의 Pietralata 계획과 라치오의 Flaminio 계획은 아직 같은 
   <li><a href="https://www.comune.roma.it/web-resources/cms/documents/deliberanointeressepubblicoprogettoromanuoto.pdf">Roma Capitale, 로마 스포츠 시설 공공관심 심의 자료</a>. Stadio Flaminio의 전신, 두 구단의 사용과 1960년 올림픽 건축.</li>
   <li>AS 로마 역사 사진은 구단 공식 역사 아카이브, 라치오 창립자·Farnesina 사진과 Flaminio 렌더링은 구단 공식 역사·발표 자료, Testaccio·Ponte Milvio·Foro Italico 사진은 Turismo Roma에서 가져와 로컬 WebP로 저장했다. 올림피코 관중석 사진은 Gary Denham의 CC BY-SA 2.0 자료다.</li>
   <li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. 실제 도로·철도·수계 바탕지도, Open Database License. 지도 위 핀은 본문 큐레이션 지점이다.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:Fountain_Trevi_Night_20251112.jpg">NovaEmicss의 2025년 트레비 분수 야경</a>, CC0. <a href="https://commons.wikimedia.org/wiki/File:Sunset_in_Rome_(53306759500).jpg">Radek Kucharski의 핀초 석양</a>과 <a href="https://commons.wikimedia.org/wiki/File:Roma_Trastevere_(52345941595).jpg">Jorge Franganillo의 트라스테베레 카페</a>, 각 CC BY 2.0. 원본을 기사 규격의 WebP로 변환했다.</li>
+  <li><a href="https://www.instagram.com/p/CzEXUv_IJDu/">Sky Sport Italia, Paulo Dybala의 트레비 분수 청혼 영상</a>. Leandro Paredes가 촬영한 공개 Instagram 포스트를 임베드했다. 장면과 참석자는 <a href="https://www.repubblica.it/sport/2023/10/31/video/paulo_dybala_fa_la_proposta_di_matrimonio_alla_fidanzata_oriana_davanti_alla_fontana_di_trevi-422478592/">La Repubblica 영상 보도</a>와 <a href="https://www.rainews.it/tgr/lazio/video/2023/11/matrimonio-dybala-roma-fontana-trevi-e2d7990e-3325-4152-9f19-e633811636e9.html">RaiNews Lazio 보도</a>로 교차 확인했다.</li>
   <li>표지는 두 클럽의 색과 테베레강·올림피코의 관계를 시각화한 AI 생성 편집 이미지다. 실제 장소의 형태나 위치를 입증하는 자료로 사용하지 않았으며, 지리 정보는 위 OpenStreetMap 지도와 각 공식 출처로 분리했다.</li>
   <li><a href="https://blog.naver.com/sho3603/223366317766">2024년 운영자 원문 「스타디오 올림피코 직관 시 함께 가면 좋을 로마 여행지 7선」</a>. 이번 개정판은 기존 7곳 목록을 유지하지 않고 두 클럽의 도시 기원과 현재의 경기장 분화 계획을 새 조사·동선·논증으로 다시 구성했다.</li>
 </ol></div>

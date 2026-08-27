@@ -5,6 +5,50 @@ import sharp from 'sharp';
 const outDir = path.resolve('public/images/pilgrimage/rome-football-city');
 await fs.mkdir(outDir, { recursive: true });
 
+const editorialDownloads = [
+  {
+    name: 'rome-trevi-night.webp',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Fountain_Trevi_Night_20251112.jpg',
+    width: 1200,
+    height: 1600,
+  },
+  {
+    name: 'rome-pincio-sunset.webp',
+    url: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Sunset%20in%20Rome%20%2853306759500%29.jpg',
+    width: 1400,
+    height: 1050,
+  },
+  {
+    name: 'rome-trastevere-cafe.webp',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Roma_Trastevere_%2852345941595%29.jpg',
+    width: 1400,
+    height: 1050,
+  },
+];
+
+for (const asset of editorialDownloads) {
+  const output = path.join(outDir, asset.name);
+  try {
+    if (!process.argv.includes('--force')) {
+      await fs.access(output);
+      continue;
+    }
+  } catch {}
+  const response = await fetch(asset.url, { headers: { 'user-agent': 'BBingeFC editorial asset builder/1.0' } });
+  if (!response.ok) throw new Error(`${response.status} ${asset.url}`);
+  const input = Buffer.from(await response.arrayBuffer());
+  await sharp(input)
+    .rotate()
+    .resize(asset.width, asset.height, { fit: 'cover', position: 'centre' })
+    .webp({ quality: 86 })
+    .toFile(output);
+}
+
+if (process.argv.includes('--editorial-only')) {
+  console.log(`Built Rome editorial assets in ${outDir}`);
+  process.exit(0);
+}
+
 const downloads = [
   ['as-roma-foundation.webp', 'https://media.asroma.com/prod/images/original/3a00596bf5fb-as-roma-storia-2.webp'],
   ['lazio-founders.jpg', 'https://mediaverse.sslazio.hiway.media/VMFS1/FILES/public/upload/63b2e9be/1900_Bigiarelli-Giacomo.jpg'],
