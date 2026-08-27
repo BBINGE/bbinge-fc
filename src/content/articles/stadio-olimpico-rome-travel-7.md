@@ -160,9 +160,9 @@ AS 로마의 Pietralata 계획과 라치오의 Flaminio 계획은 아직 같은 
 같은 집을 쓴다고 같은 기억을 갖는 것은 아니다. 반대로 기억이 다르다고 두 클럽의 도시가 완전히 분리되는 것도 아니다. 테베레강과 도로, 국가가 만든 경기장, 매주 이동하는 관중이 두 로마를 계속 섞는다. 그래서 로마 축구 여행은 더비의 승패보다 긴 질문을 남긴다. 한 도시에서 홈은 건물인가, 출발점인가, 아니면 매주 같은 방향으로 걷는 사람들인가.
 
 <div class="journey-links">
-  <a href="/archive/legends/brazil/cafu/" style="--journey-image:url('/images/pilgrimage/rome-travel-7/stadio-olimpico.jpg')"><span>AS ROMA LEGEND</span><strong>카푸의 전성기가 AS 로마였던 이유</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
+  <a href="/archive/legends/brazil/cafu/" style="--journey-image:url('/images/archive/legends/cafu/cafu-roma.jpg')"><span>AS ROMA LEGEND</span><strong>카푸의 전성기가 AS 로마였던 이유</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
   <a href="/pilgrimage/rotterdam-de-kuip-football-travel/" style="--journey-image:url('/images/pilgrimage/rotterdam-de-kuip/de-kuip-festival.webp')"><span>PILGRIMAGE</span><strong>1937년의 경기장을 지키기로 한 로테르담</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
-  <a href="/history/football-shirt-sponsorship-history/" style="--journey-image:url('/images/history/football-shirt-sponsorship-history/replica-museum-shirt-wall.webp')"><span>FOOTBALL CULTURE</span><strong>축구 유니폼은 언제 광고판이 되었나</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
+  <a href="/history/football-shirt-sponsorship-history/" style="--journey-image:url('/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp')"><span>FOOTBALL CULTURE</span><strong>축구 유니폼은 언제 광고판이 되었나</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
 </div>
 
 <div class="source-notes"><h2>정보와 이미지 출처</h2><ol>
