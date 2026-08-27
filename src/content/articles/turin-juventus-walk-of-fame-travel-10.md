@@ -144,6 +144,8 @@ featured: false
 
 과거 경기장 외부의 워크 오브 페임<span class="foreign-note" lang="en">(Walk of Fame; 헌액자의 이름을 새긴 명예의 거리)</span>은 스타디움 건립기의 기억 장치였다. 새 명예의 전당은 그 명단을 실내의 전시 언어로 다시 조직한다. 선정 기준, 유니폼, 영상, 조명을 통해 구단이 스스로의 계보를 설명하고, 팬에게 다음 이름의 선택권 일부를 건넨다.
 
+<figure class="journey-poster journey-poster--hall"><img src="/images/pilgrimage/turin-walk-of-fame/juventus-walk-of-fame-50.png" alt="유벤투스 워크 오브 페임에 이름을 올린 역대 선수 50명의 얼굴과 이름을 정리한 도식" width="773" height="773" loading="lazy" /><figcaption>알리안츠 스타디움 바깥의 워크 오브 페임을 구성했던 50인의 계보. 얼굴과 이름을 한 장에 모으면, 2025년 새 명예의 전당이 무엇을 실내의 전시 언어로 다시 배열했는지 선명해진다.</figcaption></figure>
+
 <div class="journey-social-shot journey-social-shot--turin"><figure><img src="/images/pilgrimage/turin-two-museums/juventus-hall-room.webp" alt="유벤투스 명예의 전당 전시실 가운데에서 검정과 흰색 유니폼 전시를 보는 관람객" width="824" height="464" loading="lazy" /></figure><div><span>ONE CITY, ANOTHER METHOD</span><strong>목재를 보존하는 방과<br />이름을 선출하는 방</strong><p>토리노 FC 박물관은 철거와 사고 뒤에 남은 물건을 모아 공동체의 연속성을 증명한다. 유벤투스 명예의 전당은 거대한 선수 계보를 편집하고 다음 입성자를 갱신한다. 우열의 문제가 아니다. 두 구단이 자신을 시간 속에서 설명하는 문법이 다르다.</p><small>사진: Juventus, 2025.</small></div></div>
 
 <div class="journey-fact-strip" style="--journey-image:url('/images/pilgrimage/turin-two-museums/juventus-museum-trophies.webp')"><div><span>1897</span><small>학생들이 유벤투스 창립</small></div><div><span>1923</span><small>아녤리 가문과 관계 시작</small></div><div><span>50</span><small>첫 명예의 전당 헌액자</small></div><div><span>140,712</span><small>2025년 J 박물관 방문객</small></div></div>
