@@ -1768,25 +1768,64 @@ featured: false
 
     .circulation-map ol {
       grid-template-columns: 1fr;
+      gap: 0.65rem;
+    }
+
+    .article-body .circulation-map h3,
+    .circulation-map strong {
+      word-break: keep-all;
     }
 
     .circulation-map ol::before {
-      top: 0;
-      right: auto;
-      bottom: 0;
-      width: 2px;
-      height: auto;
-      transform-origin: center top;
+      display: none;
     }
 
     .circulation-map li {
-      padding: 1rem 0;
-      border-top: 1px solid rgba(255, 255, 255, 0.18);
-      border-left: 0;
+      min-height: 6.4rem;
+      padding: 0.9rem 0.9rem 0.95rem 3.5rem;
+      border: 1px solid rgba(130, 191, 255, 0.2);
+      border-left: 3px solid #76baff;
+      border-radius: 0.8rem;
+      background: rgba(255, 255, 255, 0.055);
     }
 
     .circulation-map li:first-child {
-      border-top: 0;
+      border-left: 3px solid #76baff;
+    }
+
+    .circulation-map li:nth-child(2) {
+      border-left-color: #72ddc1;
+    }
+
+    .circulation-map li:nth-child(3) {
+      border-left-color: #f2cf66;
+    }
+
+    .circulation-map li:nth-child(4) {
+      border-left-color: #f19b72;
+    }
+
+    .circulation-map b {
+      position: absolute;
+      top: 0.95rem;
+      left: 0.95rem;
+      display: grid;
+      width: 1.75rem;
+      height: 1.75rem;
+      place-items: center;
+      border-radius: 999px;
+      background: rgba(118, 186, 255, 0.14);
+      font-size: 12px;
+    }
+
+    .circulation-map strong {
+      margin: 0 0 0.3rem;
+      font-size: 16px;
+    }
+
+    .article-body .circulation-map p {
+      font-size: 13px;
+      line-height: 1.55;
     }
 
     .circulation-map li:not(:last-child)::after {
@@ -1844,45 +1883,66 @@ featured: false
     }
 
     .replica-editorial {
-      display: grid;
-      grid-auto-columns: min(82vw, 20rem);
-      grid-auto-flow: column;
-      grid-template-columns: none;
-      gap: 0.75rem;
-      padding-bottom: 0.4rem;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 0;
+      overflow: visible;
     }
 
     .replica-editorial figure {
-      height: 27rem;
-      scroll-snap-align: start;
+      height: auto;
+    }
+
+    .replica-editorial figure::after {
+      display: none;
+    }
+
+    .replica-editorial img {
+      height: auto;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+    }
+
+    .replica-editorial figcaption {
+      position: static;
+      padding: 1rem 1.05rem 1.1rem;
+      color: #fff;
+      background: #091a31;
+      text-shadow: none;
     }
 
     .article-body .memory-editorial {
-      height: 33rem;
+      height: auto;
     }
 
     .memory-editorial::after {
-      inset: 42% 0 0;
-      background: linear-gradient(180deg, transparent, rgba(2, 16, 37, 0.96));
+      display: none;
     }
 
     .memory-editorial img {
-      object-position: 42% center;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      object-position: center;
     }
 
     .memory-editorial figcaption {
-      top: auto;
-      right: 1.1rem;
-      bottom: 1.1rem;
-      left: 1.1rem;
+      position: static;
       width: auto;
+      padding: 1.05rem 1.1rem 1.15rem;
+      background: #091a31;
       transform: none;
+      text-shadow: none;
     }
 
     .memory-editorial figcaption strong {
-      font-size: 1.55rem;
+      color: #fff;
+      font-size: 1.3rem;
+      line-height: 1.38;
+    }
+
+    .memory-editorial figcaption small {
+      color: #d8e5f4;
     }
 
     .celebrity-spread > div {
