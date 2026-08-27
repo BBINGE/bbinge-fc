@@ -14,11 +14,11 @@ draft: false
 featured: false
 ---
 
-두아 리파<span class="foreign-note" lang="en">(Dua Lipa)</span>가 이탈리아의 한 해안에서 찍은 사진을 보자. 하늘색 셔츠와 바다, 흰색 비키니와 파라솔, 금색 귀걸이가 한여름의 색으로 묶인다. SSC 나폴리<span class="foreign-note" lang="it">(SSC Napoli)</span> 문장 아래에는 흰색 알파벳 세 글자가 크게 놓여 있다. `MSC`. 지중해 해운회사<span class="foreign-note" lang="en">(Mediterranean Shipping Company)</span>의 이름이다.
+두아 리파<span class="foreign-note" lang="en">(Dua Lipa; 영국·알바니아 싱어송라이터, 1995–)</span>가 이탈리아의 한 해안에서 찍은 사진을 보자. 하늘색 셔츠와 바다, 흰색 비키니와 파라솔, 금색 귀걸이가 한여름의 색으로 묶인다. SSC 나폴리<span class="foreign-note" lang="it">(Società Sportiva Calcio Napoli)</span> 문장 아래에는 흰색 알파벳 세 글자가 크게 놓여 있다. `MSC`. 지중해해운<span class="foreign-note" lang="en">(Mediterranean Shipping Company)</span>의 이름이다.<sup><a href="#source-11">[11]</a></sup>
 
 이 사진을 축구 유니폼 화보라고 부르는 데에는 아무런 어색함이 없다. 더 흥미로운 사실은 우리가 기업 광고가 가슴 한가운데 놓인 옷을 보면서도 그것을 먼저 ‘나폴리의 셔츠’라고 인식한다는 점이다. 광고는 보이지만 옷의 정체성을 훼손하는 이물질처럼 보이지 않는다. 오히려 특정 시즌을 기억하게 하는 표식이 된다.
 
-축구 유니폼은 언제 광고판이 되었을까. 어느 한 해를 골라 답하면 간단하다. 그러나 그 답만으로는 선수가 입던 광고를 팬이 왜 돈을 내고 사 입게 되었는지 설명할 수 없다. 이 글은 광고가 **허용된 순간**, 중계를 통해 **가치가 커진 순간**, 레플리카로 **판매된 순간**, 경기장 밖의 이미지로 **다시 유통된 순간**을 나누어 살핀다.
+축구 유니폼은 언제 광고판이 되었을까. 어느 한 해를 골라 답하면 간단하다. 그러나 그 답만으로는 선수가 입던 광고를 팬이 왜 돈을 내고 사 입게 되었는지 설명할 수 없다. 이 글에서 셔츠 스폰서십<span class="foreign-note" lang="en">(shirt sponsorship; 구단이 유니폼의 표면을 기업의 명칭·표식이 노출되는 권리로 판매하는 계약)</span>은 하나의 사건이 아니라 연속된 과정이다. 광고가 **허용된 순간**, 중계를 통해 **가치가 커진 순간**, 레플리카로 **판매된 순간**, 경기장 밖의 이미지로 **다시 유통된 순간**을 나누어 살핀다.
 
 <section class="review-frame" aria-labelledby="review-frame-title">
   <header>
@@ -43,7 +43,7 @@ featured: false
 
 ## 1973년, 광고는 구단 문장으로 위장했다
 
-1973년 3월 24일, 아인트라흐트 브라운슈바이크<span class="foreign-note" lang="de">(Eintracht Braunschweig)</span> 선수들은 샬케 04와의 분데스리가 경기에 사슴 머리 표식을 달고 나왔다. 예거마이스터<span class="foreign-note" lang="de">(Jägermeister)</span>의 상징이었다. 독일축구협회<span class="foreign-note" lang="de">(DFB)</span>가 셔츠 광고를 허용해서 생긴 변화는 아니었다. 구단과 기업이 금지 규정의 문법을 역으로 이용했다.
+1973년 3월 24일, 아인트라흐트 브라운슈바이크<span class="foreign-note" lang="de">(Eintracht Braunschweig)</span> 선수들은 샬케 04와의 분데스리가 경기에 사슴 머리 표식을 달고 나왔다. 독일 주류 기업 예거마이스터<span class="foreign-note" lang="de">(Jägermeister)</span>의 상징이었다. 독일축구협회<span class="foreign-note" lang="de">(Deutscher Fußball-Bund, DFB)</span>가 셔츠 광고를 허용해서 생긴 변화는 아니었다. 구단과 기업이 금지 규정의 문법을 역으로 이용했다.
 
 당시 규정은 구단명과 문장, 등번호는 허용했지만 광고 문구는 금지했다. 브라운슈바이크 회원들은 프로축구팀의 문장을 기존 사자에서 예거마이스터의 사슴으로 바꾸기로 의결했다. 기업 표식을 ‘광고’가 아니라 ‘구단 문장’으로 만들면 규정 안에 들어갈 수 있었다. DFB는 지름을 14cm로 줄이고 `EB`를 넣으라고 요구했고, 수정된 사슴은 결국 승인되었다.<sup><a href="#source-1">[1]</a></sup>
 
@@ -60,11 +60,11 @@ featured: false
 
 영국에서는 케터링 타운<span class="foreign-note" lang="en">(Kettering Town FC)</span>이 같은 경계를 밀었다. 1976년 1월 24일 배스 시티전, 선수들의 붉은 셔츠에는 지역 기업 `KETTERING TYRES`가 적혔다. 잉글랜드 축구에서 구단 셔츠에 스폰서 이름을 인쇄한 최초 사례로 케터링 구단은 이 경기를 기록한다.<sup><a href="#source-2">[2]</a></sup>
 
-잉글랜드축구협회<span class="foreign-note" lang="en">(The FA)</span>는 나흘 뒤 문구를 지우라고 명령했다. 케터링은 `TYRES`의 마지막 네 글자를 없애 `KETTERING T`로 바꾸고, `T`는 타이어가 아니라 타운을 뜻한다고 주장했다. 협회가 1,000파운드의 벌금을 경고하자 결국 표식은 사라졌다. 이듬해인 1977년 잉글랜드 축구에서 셔츠 스폰서가 합법화되었다.<sup><a href="#source-2">[2]</a></sup>
+잉글랜드축구협회<span class="foreign-note" lang="en">(The Football Association, The FA)</span>는 나흘 뒤 문구를 지우라고 명령했다. 케터링은 `TYRES`의 마지막 네 글자를 없애 `KETTERING T`로 바꾸고, `T`는 타이어가 아니라 타운을 뜻한다고 주장했다. 협회가 1,000파운드의 벌금을 경고하자 결국 표식은 사라졌다. 이듬해인 1977년 잉글랜드 축구에서 셔츠 스폰서가 합법화되었다.<sup><a href="#source-2">[2]</a></sup>
 
 <figure class="shirt-archive-figure">
   <img src="/images/history/football-shirt-sponsorship-history/kettering-tyres-1976.webp" alt="케터링 타이어스 문구가 적힌 셔츠를 입고 경기하는 데릭 두건" width="1024" height="767" loading="lazy" decoding="async" />
-  <figcaption>데릭 두건의 셔츠에는 지역 업체의 업종까지 완전한 문장으로 적혀 있다. 이 사진은 ‘광고인가 아닌가’라는 논쟁이 실제로 어느 글자에서 벌어졌는지를 보여준다. <small>Kettering Town FC official archive</small></figcaption>
+  <figcaption>데릭 두건<span class="foreign-note" lang="en">(Derek Dougan; 북아일랜드 축구 선수, 1938–2007)</span>의 셔츠에는 지역 업체의 업종까지 완전한 문장으로 적혀 있다. 이 사진은 ‘광고인가 아닌가’라는 논쟁이 실제로 어느 글자에서 벌어졌는지를 보여준다. <small>Kettering Town FC official archive</small></figcaption>
 </figure>
 
 브라운슈바이크와 케터링의 방식은 달랐다. 하나는 기업의 그림을 구단 문장으로 바꾸었고, 다른 하나는 기업명을 구단명의 약자로 축소하려 했다. 그러나 둘 다 같은 사실을 드러낸다. 초창기의 싸움은 로고가 아름다운지 추한지에 관한 논쟁이 아니었다. **선수의 가슴을 구단만 말할 수 있는 공간으로 둘 것인지, 기업도 말할 수 있는 공간으로 열 것인지**에 관한 제도적 충돌이었다.
@@ -81,7 +81,7 @@ featured: false
 
 이 모순은 셔츠 광고의 가격이 천의 면적만으로 결정되지 않는다는 사실을 보여준다. 같은 로고도 카메라가 없으면 경기장 안의 수천 명에게 보이고, 카메라가 있으면 도시 밖의 수백만 명에게 반복된다. 1983년 BBC와 ITV가 셔츠 광고의 화면 노출을 받아들이자, TV에 자주 등장하는 구단의 스폰서 권리는 더 비싼 상품이 될 수 있었다.<sup><a href="#source-4">[4]</a></sup>
 
-스포츠 미디어 연구는 셔츠 스폰서십의 핵심 목표를 경기 중 텔레비전 노출에서 찾는다.<sup><a href="#source-5">[5]</a></sup> 여기서 선수는 단순한 착용자가 아니다. 달리고, 몸을 돌리고, 골을 넣고, 환호하는 동안 로고를 이야기의 중심으로 운반한다. 광고주는 90분짜리 프로그램의 중간에 광고를 삽입하는 대신 프로그램의 주인공에게 광고를 입혔다.
+스포츠 미디어 연구는 셔츠 스폰서십의 핵심 목표를 경기 중 브랜드 노출<span class="foreign-note" lang="en">(brand exposure; 기업의 명칭이나 표식이 매체 화면에 보이는 정도)</span>에서 찾는다.<sup><a href="#source-5">[5]</a></sup> 여기서 선수는 단순한 착용자가 아니다. 달리고, 몸을 돌리고, 골을 넣고, 환호하는 동안 로고를 이야기의 중심으로 운반한다. 광고주는 90분짜리 프로그램의 중간에 광고를 삽입하는 대신 프로그램의 주인공에게 광고를 입혔다.
 
 <section class="exposure-chain" aria-labelledby="exposure-chain-title">
   <header><span>EXPOSURE CHAIN</span><h3 id="exposure-chain-title">광고면은 움직일수록 커졌다</h3></header>
@@ -137,28 +137,26 @@ featured: false
 
 여기까지는 기업이 구단에 돈을 내고 선수에게 광고를 입히는 이야기다. 그러나 오늘날의 유니폼 문화를 만든 더 이상한 거래는 반대 방향에서 일어났다. 팬이 구단에 돈을 내고, 같은 광고가 인쇄된 옷을 사기 시작했다.
 
-영국 국립축구박물관<span class="foreign-note" lang="en">(National Football Museum)</span>은 1950년대 후반에도 어린이용 복제품이 소량 존재했지만, 1970년대 애드미럴<span class="foreign-note" lang="en">(Admiral)</span>이 선수들이 입는 디자인을 대중이 살 수 있는 상품으로 확장하며 시장을 바꾸었다고 정리한다.<sup><a href="#source-7">[7]</a></sup> 영국 풋볼리그 셔츠 디자인을 분석한 연구도 1970년대 중반 이후 유니폼이 두 가지 상업 기능을 동시에 얻었다고 본다. 하나는 스폰서를 위한 캔버스, 다른 하나는 판매할 수 있는 레플리카 상품이었다.<sup><a href="#source-8">[8]</a></sup>
+영국 국립축구박물관<span class="foreign-note" lang="en">(National Football Museum)</span>은 1950년대 후반에도 어린이용 복제품이 소량 존재했지만, 1970년대 영국 스포츠웨어 기업 애드미럴<span class="foreign-note" lang="en">(Admiral)</span>이 선수들이 입는 디자인을 대중이 살 수 있는 상품으로 확장하며 시장을 바꾸었다고 정리한다.<sup><a href="#source-7">[7]</a></sup> 여기서 레플리카 키트<span class="foreign-note" lang="en">(replica kit)</span>는 선수용 유니폼의 색·문장·스폰서 구성을 대중 판매용으로 재현한 제품을 뜻한다. 영국 풋볼리그 셔츠 디자인을 분석한 연구도 1970년대 중반 이후 유니폼이 두 가지 상업 기능을 동시에 얻었다고 본다. 하나는 스폰서를 위한 캔버스, 다른 하나는 판매할 수 있는 레플리카 상품이었다.<sup><a href="#source-8">[8]</a></sup>
 
 처음부터 성인이 거리에서 유니폼을 입은 것은 아니었다. 레플리카는 1970년대 중반 어린이 시장에서 빠르게 퍼졌고, 성인용 일상복 시장은 1980년대 후반과 1990년대 초에야 뚜렷하게 성장했다.<sup><a href="#source-9">[9]</a></sup> 이 시차는 중요하다. 스폰서 로고가 셔츠에 붙는 제도적 변화와, 그 로고가 든 셔츠를 성인이 자발적으로 입는 문화적 변화는 같은 사건이 아니었다.
 
 레플리카가 팔리기 시작하자 스폰서는 한 경기의 노출을 넘어섰다. 팬은 경기장과 펍, 학교와 여행지에서 기업명을 운반했다. 한 시즌이 끝나도 셔츠는 옷장에 남았다. 시간이 더 흐르면 새 제품보다 오래된 스폰서가 붙은 셔츠가 특정 선수와 우승, 실패와 유년기를 호출하는 수집품이 되었다.
 
-<div class="shirt-street-rail" aria-label="축구 셔츠가 도시의 패션 이미지로 이동한 사례">
-  <figure class="shirt-street-rail__wide">
-    <img src="/images/culture/peggy-gou-football-shirt-style/02-martine-rose-look.webp" alt="스폰서 레터링을 응용한 마틴 로즈 풋볼 셔츠를 입은 페기 구" width="1200" height="1500" loading="lazy" decoding="async" />
-    <figcaption><b>01</b><span>구단 셔츠의 문법이 디자이너 패션으로 이동한다.</span></figcaption>
-  </figure>
-  <figure>
-    <img src="/images/culture/peggy-gou-football-shirt-style/03-juventus.webp" alt="P. GOU 3 마킹이 들어간 유벤투스 셔츠를 입은 페기 구" width="750" height="746" loading="lazy" decoding="async" />
-    <figcaption><b>02</b><span>선수의 이름 자리에 착용자의 정체성이 들어간다.</span></figcaption>
-  </figure>
-  <figure>
-    <img src="/images/culture/peggy-gou-football-shirt-style/04-blue-jersey.webp" alt="파란 풋볼 저지와 검정 테일러드 팬츠를 입은 페기 구" width="1080" height="1350" loading="lazy" decoding="async" />
-    <figcaption><b>03</b><span>경기복은 도시의 가방·팬츠·거리와 한 화면을 만든다.</span></figcaption>
-  </figure>
-</div>
+<section class="circulation-map" aria-labelledby="circulation-map-title">
+  <header>
+    <span>FROM PRODUCT TO MEDIUM</span>
+    <h3 id="circulation-map-title">레플리카 한 벌이 광고의 유통망을 바꾼다</h3>
+  </header>
+  <ol>
+    <li><b>01</b><strong>구단이 판다</strong><p>선수용 디자인과 스폰서 표식이 대중 상품으로 복제된다.</p></li>
+    <li><b>02</b><strong>팬이 입는다</strong><p>경기장에 묶였던 로고가 거리·학교·여행지로 이동한다.</p></li>
+    <li><b>03</b><strong>카메라가 다시 잡는다</strong><p>셀럽의 화보와 팬의 셀피가 셔츠를 새로운 맥락에 놓는다.</p></li>
+    <li><b>04</b><strong>플랫폼이 재배포한다</strong><p>좋아요·공유·추천이 공식 중계 밖의 노출을 계속 복제한다.</p></li>
+  </ol>
+</section>
 
-레플리카의 확장은 판매량으로만 끝나지 않았다. 위 세 장에는 경기와 관중석이 없지만, 셔츠 특유의 넓은 레터링과 문장, 등번호 문법은 더 선명하게 남아 있다. 유니폼을 닮은 디자이너 제품과 실제 구단 셔츠가 같은 옷장에 들어가면서 축구가 만든 광고 언어도 패션 이미지의 재료가 되었다.<sup><a href="#source-13">[13]</a></sup>
+레플리카의 확장은 판매량으로만 끝나지 않았다. 복식사에서 말하는 레저웨어<span class="foreign-note" lang="en">(leisurewear; 운동 수행이 아니라 일상과 여가를 위해 입는 옷)</span>가 되자, 셔츠는 경기의 결과와 무관한 장면에도 등장할 수 있었다. 한 벌을 산 사람은 소비자인 동시에 그 옷의 사진을 만드는 다음 유통자가 되었다.
 
 ## 광고는 어떻게 추억이 되었나
 
@@ -168,47 +166,86 @@ featured: false
 
 복식사 연구가 축구 셔츠를 ‘스포츠웨어에서 레저웨어로’ 이동한 옷으로 분석하는 이유도 여기에 있다.<sup><a href="#source-8">[8]</a></sup> 레트로 셔츠를 입는 사람은 기업의 고객임을 선언하려는 것이 아니라, 특정 시대의 축구를 몸 위에 복원한다. 그렇다고 기업 로고가 사라지는 것은 아니다. 추억은 광고의 전파를 중단시키지 않고, 오히려 광고에 진품성과 시간을 더한다.
 
-## 경기장 밖에서 완성된 두 번째 중계
+## 구단은 선수가 아닌 ‘전파 경로’를 캐스팅한다
 
-이제 첫 사진으로 돌아가자. 두아 리파는 경기장도, 나폴리도 아닌 토스카나의 휴양지에서 2023-24 나폴리 홈 셔츠를 입었다. 사진의 중심에는 얼굴과 바다가 있지만 MSC 로고도 완전하게 읽힌다. 공식 경기 중계가 아닌 팝스타의 인스타그램 게시물이 나폴리와 스폰서를 세계의 피드로 다시 보낸 것이다.
+첫 사진의 두아 리파는 개인 계정에 유니폼을 입은 장면을 올렸다. 그 게시물이 광고 계약의 결과였다고 단정할 근거는 없다. 착용자의 의도보다 이 글이 확인하려는 것은 이미지의 기능이다. 경기장을 보지 않던 사람도 사진을 보고, 옷을 찾고, 팀과 시즌을 알게 된다. **선수의 몸을 매체로 만든 셔츠가 이제 다른 문화권의 몸을 경유하는 매체가 되었다.**
 
-그 사진이 광고 계약의 결과였다고 단정할 근거는 없다. 착용자의 의도를 추측할 필요도 없다. 여기서 확인할 수 있는 것은 이미지의 기능이다. 축구를 보지 않던 사람도 사진을 보고, 옷을 찾고, 팀과 시즌을 알게 된다. **선수의 몸을 매체로 만든 셔츠가 이제 셀럽의 몸을 경유하는 매체가 되었다.**
+구단과 제조사는 이 우연한 이동을 캠페인의 구조로 바꾸었다. 문화 연구에서 문화적 매개자<span class="foreign-note" lang="en">(cultural intermediary; 상품과 소비 사이에서 취향과 의미를 번역하는 사람이나 집단)</span>라고 부르는 역할을 가수·배우·디제이·지역 커뮤니티가 맡는다.<sup><a href="#source-12">[12]</a></sup> 이들은 유니폼을 설명하는 모델에 머물지 않는다. 음악, 영화, 거리 문화와 팬 공동체의 언어를 셔츠에 붙여 축구 밖의 관객에게 건넨다.
 
-브라질 패션 크리에이터 말루 보르지스<span class="foreign-note" lang="pt-BR">(Malu Borges)</span>의 바스쿠 다 가마<span class="foreign-note" lang="pt-BR">(Club de Regatas Vasco da Gama)</span> 착장은 또 다른 단계를 보여준다. 그는 `BRAHMA`가 크게 적힌 레트로 셔츠를 붉은 롱스커트, 선글라스, 털 장식과 조합하고 짧은 스타일링 영상으로 공개했다. 구단 문장과 맥주 광고를 가리지 않은 채 패션의 문법 안에서 다시 편집했다.
-
-<div class="modern-proof-grid">
+<section class="campaign-evidence" aria-labelledby="campaign-evidence-title">
+  <header>
+    <span>CASE 01 · CULTURAL INTERMEDIARIES</span>
+    <h3 id="campaign-evidence-title">아스널은 한 벌에 가수·배우·청소년 합창단을 함께 태웠다</h3>
+    <p>2023-24 원정 유니폼 캠페인 ‘188.6 Islington FM’은 선수만 내세우지 않았다. 메이블<span class="foreign-note" lang="en">(Mabel Alabama-Pearl McVey; 영국 싱어송라이터, 1996–)</span>, 애슐리 월터스<span class="foreign-note" lang="en">(Ashley Walters; 영국 배우·래퍼, 1982–)</span>, 에이사 버터필드<span class="foreign-note" lang="en">(Asa Butterfield; 영국 배우, 1997–)</span>, 이즐링턴 유스 콰이어<span class="foreign-note" lang="en">(Islington Youth Choir; 런던 북부 청소년 합창단)</span>를 한 영상 안에 배치했다.<sup><a href="#source-13">[13]</a></sup></p>
+  </header>
   <figure>
-    <img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="MSC 로고가 있는 나폴리 셔츠를 휴양지에서 입은 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" />
-    <figcaption><strong>고화질 화보의 역할</strong> 셔츠와 로고가 경기 결과가 아니라 휴양지의 색·인물의 인지도·스타일 욕망과 결합한다. <small>Photo via @dualipa / Instagram</small></figcaption>
+    <img src="/images/history/football-shirt-sponsorship-history/arsenal-islington-fm-away-kit.webp" alt="형광 노랑 아스널 원정 유니폼을 입은 음악가와 지역 문화 참여자들이 가상의 라디오 스튜디오에 모인 모습" width="1920" height="1080" loading="lazy" decoding="async" />
+    <figcaption><strong>한 화면, 서로 다른 관객</strong><span>가수는 음악 팬을, 배우는 드라마·영화 관객을, 청소년 합창단은 지역 공동체를 셔츠와 연결한다. 가운데 반복되는 에미레이트 항공 로고는 그 연결을 함께 통과한다.</span><small>Photo: Arsenal FC · adidas, 2023</small></figcaption>
   </figure>
-  <figure>
-    <img src="/images/culture/malu-borges-football-shirt-style/02-red-skirt.webp" alt="브라마 스폰서가 적힌 바스쿠 셔츠와 빨간 롱스커트를 입은 말루 보르지스의 세로 영상" width="785" height="1200" loading="lazy" decoding="async" />
-    <figcaption><strong>플랫폼 이미지의 역할</strong> 세로 영상의 반응 수와 공유 인터페이스까지, 유니폼이 SNS에서 재가공되고 확산되는 조건을 함께 보여준다. <small>Video still via @maluborgesm</small></figcaption>
-  </figure>
-</div>
+</section>
 
-<section class="shirt-social-video" aria-labelledby="shirt-video-title">
-  <div class="shirt-social-video__copy">
-    <span>VERTICAL BROADCAST</span>
-    <h3 id="shirt-video-title">사진이 착장을 보여준다면, 영상은 전파 과정을 보여준다</h3>
-    <p>셔츠를 입고 목걸이와 스커트, 가방을 더하는 순서가 그대로 콘텐츠가 된다. 경기 중계가 한 벌을 반복 노출했다면 세로 영상은 한 벌을 따라 입을 수 있는 형식으로 바꾼다.</p>
+<section class="platform-pair" aria-label="공식 캠페인 영상과 지역 커뮤니티 착장 이미지">
+  <div class="platform-pair__video">
+    <div class="platform-pair__copy">
+      <span>OFFICIAL REEL</span>
+      <h3>캠페인은 세로 영상이 되어 곧바로 피드로 들어갔다</h3>
+      <p>가상의 라디오 방송이라는 서사는 선수, 음악가, 배우를 하나의 편성표로 묶는다. 제품 사진이 아니라 재생·공유되는 프로그램으로 유니폼을 만든 것이다.</p>
+    </div>
+    <div class="platform-pair__frame">
+      <a class="video-poster video-poster--vertical" href="https://www.instagram.com/reel/Cu1K_slgjSY/" target="_blank" rel="noopener noreferrer" aria-label="Instagram에서 아스널 2023-24 원정 유니폼 공식 Islington FM 캠페인 영상 재생">
+        <img src="/images/history/football-shirt-sponsorship-history/arsenal-islington-fm-reel.webp" alt="아스널 2023-24 원정 유니폼 공식 영상의 형광색 타이틀 화면" width="384" height="640" loading="lazy" decoding="async" />
+        <span><b aria-hidden="true">▶</b> 공식 릴 재생</span>
+      </a>
+    </div>
   </div>
-  <div class="shirt-social-video__frame">
-    <iframe src="https://www.instagram.com/reel/C2uklCurOBw/embed/captioned/" title="말루 보르지스가 바스쿠 레트로 셔츠를 스타일링하는 Instagram 영상" loading="lazy" allowtransparency="true"></iframe>
+  <div class="platform-pair__side">
+    <figure class="platform-pair__community">
+      <img src="/images/history/football-shirt-sponsorship-history/arsenal-melanin-skate-community.webp" alt="분홍색 아스널 유니폼을 각자의 방식으로 입고 스케이트파크에 선 지역 스케이트 커뮤니티 구성원 두 명" width="1000" height="1000" loading="lazy" decoding="async" />
+      <figcaption><strong>선수 다음에 놓인 지역 공동체</strong><span>아스널의 2022-23 캠페인은 런던의 스케이트 커뮤니티 ‘Melanin Skate Gals & Pals’를 공식 서사의 주체로 불렀다. 셔츠는 경기복의 핏을 벗고 각자의 바지·치마·스케이트보드와 결합한다.<sup><a href="#source-14">[14]</a></sup></span><small>Photo: Arsenal FC · adidas, 2022</small></figcaption>
+    </figure>
+    <aside class="platform-pair__route" aria-label="아스널 유니폼 캠페인이 연결한 관객 집단">
+      <span>AUDIENCE ROUTE</span>
+      <h3>한 벌이 서로 다른 관객을 만나는 순서</h3>
+      <ol>
+        <li><b>경기</b><strong>선수와 축구 관객</strong></li>
+        <li><b>음악·연기</b><strong>가수·배우의 기존 관객</strong></li>
+        <li><b>지역</b><strong>합창단·스케이트 공동체</strong></li>
+        <li><b>피드</b><strong>재생·공유하는 플랫폼 이용자</strong></li>
+      </ol>
+    </aside>
   </div>
 </section>
 
-두아 리파의 고화질 화보는 기업 로고가 얼마나 매력적인 이미지 안에 자연스럽게 들어갈 수 있는지를 증명한다. 말루 보르지스의 영상은 그 이미지가 선택과 조합, 반응과 재게시를 거치며 어떻게 움직이는지 보여준다. 잘 찍힌 화보와 팬의 셀피, 짧은 영상은 역사 사진의 장식용 후손이 아니다. 오늘날 광고가 이동하는 경로 자체다.
+## 셀럽의 몸을 넘어, 셀럽의 이름이 광고면이 되다
 
-<aside class="reading-bridge">
-  <span>함께 읽기</span>
-  <a href="/culture/dua-lipa-napoli-jersey-resort-look/">두아 리파의 나폴리 유니폼, 축구 셔츠가 휴양지의 옷이 된 순간</a>
-  <a href="/culture/malu-borges-vasco-brazil-football-fashion/">말루 보르지스의 바스쿠 유니폼 패션</a>
-</aside>
+2025년 FC 바르셀로나와 스포티파이<span class="foreign-note" lang="en">(Spotify)</span>의 협업은 한 단계 더 나아갔다. 트래비스 스콧<span class="foreign-note" lang="en">(Travis Scott; 미국 래퍼·프로듀서, 1991–)</span>이 유니폼을 입는 데서 끝나지 않고, 그의 레이블·브랜드 표식인 캑터스 잭<span class="foreign-note" lang="en">(Cactus Jack)</span> 로고가 엘 클라시코 경기 셔츠의 스폰서 자리를 차지했다. 바르셀로나 공식 스토어는 1,899벌의 한정판과 22벌의 서명판을 판매했고, 이 협업을 드레이크·로살리아·콜드플레이 등 앞선 아티스트 로고 교체의 연장선에 놓았다.<sup><a href="#source-15">[15]</a></sup>
+
+<section class="takeover-proof" aria-labelledby="takeover-proof-title">
+  <figure>
+    <img src="/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp" alt="캑터스 잭 로고가 스폰서 자리 전면에 들어간 FC 바르셀로나 유니폼을 입은 트래비스 스콧과 모델" width="1280" height="720" loading="lazy" decoding="async" />
+    <figcaption><strong>착용에서 점유로</strong><span>팝스타가 스폰서 셔츠를 입은 장면이 아니다. 팝스타의 시각 정체성이 셔츠의 가장 비싼 광고면을 직접 점유했다.</span><small>Video still: FC Barcelona official YouTube, 2025</small></figcaption>
+  </figure>
+  <div class="takeover-proof__facts">
+    <span>OFFICIAL FILM · VERIFIED INVENTORY</span>
+    <dl>
+      <div><dt>광고면</dt><dd>Spotify → Cactus Jack</dd></div>
+      <div><dt>경기</dt><dd>남자 엘 클라시코·여자 아틀레틱 클루브전</dd></div>
+      <div><dt>판매</dt><dd>한정판 1,899벌·서명판 22벌</dd></div>
+    </dl>
+    <a href="https://www.youtube.com/watch?v=tNIdxIiWexQ" target="_blank" rel="noopener noreferrer"><b aria-hidden="true">▶</b> FC 바르셀로나 공식 영상 재생</a>
+  </div>
+</section>
+
+두 사례의 차이가 중요하다. 아스널은 여러 문화적 매개자를 통해 하나의 셔츠가 닿는 관객을 넓혔다. 바르셀로나는 셔츠의 광고면 자체를 음악가의 세계관으로 바꾸었다. 셀럽은 더 이상 완성된 유니폼을 받아 입는 마지막 사람이 아니다. 누구를 캐스팅하고, 어떤 음악을 붙이며, 어느 플랫폼에서 재생시킬지까지 셔츠 광고의 설계 안에 들어왔다.
 
 ## 팬의 셀피는 무료 광고인가, 정체성의 표현인가
 
-팬이 유니폼을 입고 사진을 올리면 기업은 추가 비용 없이 노출을 얻는다. 그렇다고 모든 착용을 기업에 대한 충성으로 해석할 수는 없다. 팬은 구단을 지지하고, 선수를 기억하고, 색이 좋아서 입거나, 유행에 참여하기 위해 셔츠를 고른다. 기업명은 그 서로 다른 욕망을 따라 이동한다.
+팬이 유니폼을 입고 사진을 올리면 사용자 생성 콘텐츠<span class="foreign-note" lang="en">(user-generated content, UGC; 이용자가 자발적으로 제작·게시한 이미지와 영상)</span>가 된다. 기업은 광고 지면을 새로 사지 않고도 획득 미디어<span class="foreign-note" lang="en">(earned media; 보도·공유·게시를 통해 얻는 비구매 노출)</span>를 얻는다. 그렇다고 모든 착용을 기업에 대한 충성이나 협찬의 결과로 해석할 수는 없다. 팬은 구단을 지지하고, 선수를 기억하고, 색이 좋아서 입거나, 유행에 참여하기 위해 셔츠를 고른다. 기업명은 그 서로 다른 욕망을 따라 이동한다.
+
+<aside class="interpretation-boundary" aria-label="소셜 미디어 착장 이미지의 해석 범위">
+  <div><span>이미지로 확인할 수 있는 것</span><strong>누가 어떤 셔츠를 어디서, 어떤 옷과 함께 보이게 했는가</strong></div>
+  <div><span>이미지만으로 단정할 수 없는 것</span><strong>협찬 여부, 착용자의 구매 동기, 스폰서 기업에 대한 호감</strong></div>
+</aside>
 
 그래서 축구 유니폼 광고는 일반적인 브랜드 티셔츠와 다르다. 거대한 기업명이 가슴에 있어도 구매의 주된 이유가 그 기업일 필요가 없다. 구단에 대한 애착이 광고를 함께 운반한다. 스폰서는 팬이 이미 사랑하는 문장과 색의 옆자리를 사고, 팬은 사랑하는 팀의 ‘완성된 모습’에 스폰서까지 포함해 기억한다.
 
@@ -221,19 +258,13 @@ featured: false
 그러므로 하나의 날짜만 고르면 질문의 절반만 답하게 된다. 축구 유니폼은 협회가 로고를 허용했을 때 **광고면**이 되었고, 방송사가 그것을 내보냈을 때 **매체**가 되었으며, 팬이 같은 옷을 샀을 때 **상품**이 되었다. 그리고 팬이 그 옷으로 자신을 찍기 시작했을 때, 광고는 소비자의 정체성 안에서 스스로 재생산되는 이미지가 되었다.
 
 <section class="shirt-closing" aria-label="선수의 셔츠에서 팬의 이미지까지 이어진 광고의 순환">
-  <div class="shirt-closing__history">
-    <img src="/images/history/football-shirt-sponsorship-history/eintracht-jaegermeister-1973.webp" alt="1973년 예거마이스터 사슴 문장이 들어간 셔츠를 입은 아인트라흐트 브라운슈바이크 선수들" width="1200" height="921" loading="lazy" decoding="async" />
-    <span>1973 · PLAYER</span>
-  </div>
-  <div class="shirt-closing__copy">
-    <span>THE AD NEVER LEFT THE SHIRT</span>
-    <p>기업은 선수에게 광고를 입히기 위해 구단에 돈을 냈다.</p>
-    <i aria-hidden="true">↓</i>
-    <p>팬은 그 광고를 입기 위해 다시 구단에 돈을 냈다.</p>
-  </div>
-  <div class="shirt-closing__now">
-    <img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="MSC 스폰서가 보이는 나폴리 셔츠를 입은 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" />
-    <span>2026 · FEED</span>
+  <header><span>THE AD NEVER LEFT THE SHIRT</span><h3>광고의 마지막 매체는 구매자였다</h3></header>
+  <div class="shirt-closing__steps">
+    <article><b>구단 → 선수</b><p>기업이 돈을 내고 선수의 몸에 표식을 놓았다.</p></article>
+    <i aria-hidden="true">→</i>
+    <article><b>구단 → 팬</b><p>팬이 돈을 내고 같은 표식이 든 복제품을 샀다.</p></article>
+    <i aria-hidden="true">→</i>
+    <article><b>팬 → 피드</b><p>팬이 자신을 찍으며 그 표식을 다시 배포했다.</p></article>
   </div>
 </section>
 
@@ -255,12 +286,759 @@ featured: false
 8. <span id="source-8"></span>Christopher Stride, Jean Williams, David Moor, Nick Catley, [“From Sportswear to Leisurewear: The Evolution of English Football League Shirt Design in the Replica Kit Era”](https://doi.org/10.1080/17460263.2014.986518), *Sport in History* 35(1), 2015.
 9. <span id="source-9"></span>Chris Stride 외, [“Shirt tales: how adults adopted the replica football kit”](https://doi.org/10.1080/17460263.2019.1578255), *Sport in History* 40(1), 2020.
 10. <span id="source-10"></span>[Eintracht Braunschweig, “Neue Jägermeister-Kollektion erhältlich!”](https://www.eintracht.com/news/artikel/neue-jaegermeister-kollektion-erhaeltlich), 2023년 10월 27일. 셔츠 광고 50주년 레트로 상품 판매.
-11. [Dua Lipa, “heaven on earth”](https://www.instagram.com/p/DaLCgiUDmob/), Instagram, 2026년 6월 29일; [SSC Napoli, “A New 3ra. From Napoli to the World.”](https://sscnapoli.it/en/a-new-3ra-from-napoli-to-the-world/), 2023년 7월 10일. 나폴리 2023-24 홈 셔츠와 착장 확인.
-12. [Malu Borges, Vasco da Gama styling reel](https://www.instagram.com/reel/C2uklCurOBw/), Instagram; [Vogue Brasil, “Malu Borges prova que camisa de futebol também é look”](https://vogue.globo.com/moda/noticia/2024/01/malu-borges-prova-que-camisa-de-futebol-tambem-e-look.ghtml). 바스쿠 셔츠의 패션·플랫폼 재유통 사례.
-13. <span id="source-13"></span>[Peggy Gou, Instagram](https://www.instagram.com/peggygou_/); [Grazia Malaysia, “Peggy Gou’s Signature Styles, Dissected”](https://www.grazia.my/fashion/peggy-gou-signature-style-dissected/); [nss sports, “So Rihanna is a Juventus supporter?”](https://www.nss-sports.com/en/lifestyle/20185/rihanna-juventus). 축구 셔츠와 그 시각 문법이 도시 패션 이미지로 이동한 사례.
+11. <span id="source-11"></span>[Dua Lipa, “heaven on earth”](https://www.instagram.com/p/DaLCgiUDmob/), Instagram, 2026년 6월 29일; [SSC Napoli, “A New 3ra. From Napoli to the World.”](https://sscnapoli.it/en/a-new-3ra-from-napoli-to-the-world/), 2023년 7월 10일. 나폴리 2023-24 홈 셔츠와 착장 확인.
+12. <span id="source-12"></span>Keith Negus, [“The Work of Cultural Intermediaries and the Enduring Distance Between Production and Consumption”](https://doi.org/10.1080/09502380210139089), *Cultural Studies* 16(4), 2002. 생산과 소비 사이에서 상징 형식을 유통하는 문화적 매개자 개념의 범위와 한계.
+13. <span id="source-13"></span>[Arsenal FC, “Arsenal release new 2023/24 men's away kit”](https://www.arsenal.com/photos/arsenal-release-new-202324-mens-away-kit-abMbF4n7rGZ9), 2023년 7월 18일; [Arsenal official Instagram reel](https://www.instagram.com/reel/Cu1K_slgjSY/). 메이블, 애슐리 월터스, 에이사 버터필드, 이즐링턴 유스 콰이어 등이 참여한 ‘188.6 Islington FM’ 캠페인과 영상.
+14. <span id="source-14"></span>[Arsenal FC, “Introducing our new 2022/23 adidas third kit”](https://www.arsenal.com/photos/introducing-our-new-202223-adidas-third-kit-awwc07c9EywE), 2022년. 지역 활동가·음악가와 Melanin Skate Gals & Pals를 공식 유니폼 캠페인의 주체로 배치한 사례.
+15. <span id="source-15"></span>[FC Barcelona Official Store, “FC Barcelona x Travis Scott”](https://store.fcbarcelona.com/pages/fc-barcelona-x-travis-scott); [FC Barcelona, “FLAME ON. BARÇA x SPOTIFY x TRAVIS SCOTT”](https://www.youtube.com/watch?v=tNIdxIiWexQ), 2025년 5월 2일. Cactus Jack 로고의 경기 셔츠 적용, 한정판 판매와 공식 영상.
 
 </div>
 
+
+
 <style>
-  .article-body{font-size:clamp(15.5px,1.2vw,17px)!important;line-height:1.92!important}.article-body>p{margin:1.45rem 0 1.8rem}.article-body>h2{margin-top:4.4rem!important;margin-bottom:1.4rem!important;font-size:clamp(1.38rem,2.6vw,1.8rem)!important;line-height:1.42!important}.article-body sup a{color:var(--bbfc-blue);font-size:.72em;text-decoration:none}.shirt-hero-proof,.shirt-archive-figure{margin:3rem 0}.shirt-hero-proof img,.shirt-archive-figure img{display:block;width:100%;height:auto;border-radius:1.05rem}.shirt-hero-proof figcaption,.shirt-archive-figure figcaption,.modern-proof-grid figcaption{margin-top:.8rem;color:#667488;font-size:.82rem;line-height:1.65}.shirt-hero-proof figcaption small,.shirt-archive-figure figcaption small,.modern-proof-grid figcaption small{display:block;margin-top:.3rem;color:#8994a4;font-size:.72rem}.review-frame{margin:3.5rem 0;padding:1.5rem;border:1px solid #cbdcf4;border-radius:1.1rem;background:#f7faff}.review-frame header span,.exposure-chain header span,.shirt-inventory__copy>span{color:#1765c1;font-size:.7rem;font-weight:800;letter-spacing:.14em}.review-frame h2{margin:.45rem 0 1.2rem!important;font-size:1.2rem!important}.review-frame__grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;overflow:hidden;border:1px solid #d8e4f4;border-radius:.8rem;background:#d8e4f4}.review-frame article{padding:1rem;background:#fff}.review-frame strong{font-size:.9rem}.article-body .review-frame p{margin:.4rem 0 0;color:#607086;font-size:.82rem;line-height:1.65}.case-compare{margin:3rem 0;overflow:hidden;border:1px solid #cbdcf4;border-radius:.9rem}.case-compare__head,.case-compare>div:not(.case-compare__head){display:grid;grid-template-columns:1.05fr .9fr 1.25fr 1fr;gap:0}.case-compare__head{background:#0d3d82;color:#fff}.case-compare__head span,.case-compare>div:not(.case-compare__head)>*{min-width:0;margin:0!important;padding:.9rem;border-right:1px solid #d8e4f4}.case-compare__head span{border-color:rgba(255,255,255,.2);font-size:.75rem;font-weight:750}.case-compare__head span:last-child,.case-compare>div:not(.case-compare__head)>*:last-child{border-right:0}.case-compare>div:not(.case-compare__head){border-top:1px solid #d8e4f4;background:#fff}.case-compare strong{color:#145fc3;font-size:.86rem;line-height:1.55}.article-body .case-compare p{font-size:.8rem;line-height:1.6}.exposure-chain{margin:3.4rem 0;padding:1.5rem;border-radius:1.1rem;background:#0c2140;color:#fff}.article-body .exposure-chain h3{margin:.35rem 0 1.3rem;color:#fff!important;font-size:1.15rem}.exposure-chain>div{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:.55rem;align-items:center}.exposure-chain article{min-height:8.2rem;padding:1rem;border:1px solid rgba(255,255,255,.14);border-radius:.8rem;background:rgba(255,255,255,.06)}.exposure-chain article b{display:block;color:#70b5ff;font-size:.72rem}.exposure-chain article strong{display:block;margin:.55rem 0;font-size:.9rem}.article-body .exposure-chain article p{margin:0;color:#c8d8eb;font-size:.75rem;line-height:1.55}.exposure-chain i{color:#70b5ff;font-style:normal}.shirt-inventory{display:grid;grid-template-columns:minmax(14rem,.8fr) 1.4fr;gap:2rem;align-items:center;margin:3.2rem 0;padding:2rem;border:1px solid #cbdcf4;border-radius:1.1rem;background:linear-gradient(135deg,#eef5ff,#fbfdff)}.shirt-inventory__shirt{position:relative;width:11rem;height:12.5rem;margin:auto;border-radius:1.8rem 1.8rem .8rem .8rem;background:#175fae;clip-path:polygon(18% 0,35% 7%,65% 7%,82% 0,100% 14%,86% 35%,78% 29%,78% 100%,22% 100%,22% 29%,14% 35%,0 14%);color:#fff;text-align:center}.shirt-inventory__shirt strong{position:absolute;top:48%;left:50%;width:7.2rem;padding:.55rem .2rem;border:1px solid rgba(255,255,255,.7);transform:translate(-50%,-50%);font-size:1rem}.shirt-inventory__crest{position:absolute;top:21%;left:31%;font-size:.46rem}.shirt-inventory__sleeve{position:absolute;top:23%;right:4%;font-size:.55rem}.shirt-inventory__copy h3{margin:.5rem 0 .8rem;font-size:1.15rem;line-height:1.5}.article-body .shirt-inventory__copy p{margin:0;color:#607086;font-size:.85rem;line-height:1.7}.shirt-product-study{margin:3.4rem 0;overflow:hidden;border-radius:1.15rem;background:#0b203f;color:#fff}.shirt-product-study>header{padding:1.55rem 1.6rem 1.35rem}.shirt-product-study>header>span,.shirt-social-video__copy>span,.shirt-closing__copy>span{color:#75b9ff;font-size:.7rem;font-weight:850;letter-spacing:.16em}.article-body .shirt-product-study h3,.article-body .shirt-social-video h3{margin:.45rem 0 .55rem;color:#fff!important;font-size:1.18rem;line-height:1.45}.article-body .shirt-product-study header p{margin:0;color:#c6d7eb;font-size:.82rem;line-height:1.65}.shirt-product-study>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1px;background:#314765}.shirt-product-study figure{position:relative;min-width:0;margin:0;overflow:hidden;background:#f3f6fa}.shirt-product-study img{display:block;width:100%;height:auto}.shirt-product-study figcaption{display:grid;grid-template-columns:auto 1fr;gap:.15rem .7rem;padding:1rem 1.1rem;color:#172235;background:#fff}.shirt-product-study figcaption b{grid-row:1/3;color:#1765c1;font-size:.7rem;letter-spacing:.1em}.shirt-product-study figcaption strong{font-size:.82rem}.shirt-product-study figcaption span{font-size:.73rem;line-height:1.55;color:#657286}.shirt-street-rail{display:grid;grid-template-columns:1.16fr .92fr .92fr;gap:.65rem;margin:3.4rem 0}.shirt-street-rail figure{position:relative;min-width:0;margin:0;overflow:hidden;border-radius:1rem;background:#0b203f}.shirt-street-rail img{display:block;width:100%;height:22rem;object-fit:cover}.shirt-street-rail__wide img{object-position:center 25%}.shirt-street-rail figcaption{position:absolute;right:0;bottom:0;left:0;display:grid;grid-template-columns:auto 1fr;gap:.65rem;align-items:end;padding:2.4rem .85rem .85rem;color:#fff;background:linear-gradient(transparent,rgba(5,17,35,.92))}.shirt-street-rail figcaption b{color:#76baff;font-size:.7rem}.shirt-street-rail figcaption span{font-size:.73rem;line-height:1.5}.modern-proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:3.2rem 0}.modern-proof-grid figure{margin:0}.modern-proof-grid img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:1rem}.modern-proof-grid figcaption strong{display:block;margin-bottom:.25rem;color:#145fc3}.shirt-social-video{display:grid;grid-template-columns:minmax(0,.9fr) minmax(18rem,.72fr);gap:1.3rem;align-items:center;margin:3.6rem 0;padding:1.3rem;border-radius:1.2rem;background:#0b203f;color:#fff}.shirt-social-video__copy{padding:1rem}.article-body .shirt-social-video__copy p{margin:.8rem 0 0;color:#c7d8eb;font-size:.82rem;line-height:1.72}.shirt-social-video__frame{min-width:0;overflow:hidden;border-radius:.9rem;background:#fff}.shirt-social-video iframe{display:block;width:100%;height:690px;border:0}.reading-bridge{display:grid;gap:.55rem;margin:3rem 0;padding:1.35rem;border-left:3px solid var(--bbfc-blue);background:#f4f8fe}.reading-bridge span{color:#1765c1;font-size:.7rem;font-weight:800;letter-spacing:.12em}.reading-bridge a{color:#172235;font-size:.88rem;font-weight:700;text-decoration:none}.reading-bridge a::after{content:" →";color:#1765c1}.shirt-closing{display:grid;grid-template-columns:.9fr 1.25fr .9fr;min-height:27rem;margin:4rem 0;overflow:hidden;border-radius:1.15rem;background:#081b37}.shirt-closing__history,.shirt-closing__now{position:relative;min-width:0}.shirt-closing__history::after,.shirt-closing__now::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(5,16,34,.82))}.shirt-closing img{display:block;width:100%;height:100%;object-fit:cover}.shirt-closing__history img{filter:saturate(.78) contrast(1.08)}.shirt-closing__history>span,.shirt-closing__now>span{position:absolute;z-index:1;right:.85rem;bottom:.7rem;left:.85rem;color:#fff;font-size:.7rem;font-weight:800;letter-spacing:.14em}.shirt-closing__copy{display:flex;min-width:0;flex-direction:column;align-items:center;justify-content:center;padding:2.1rem 1.45rem;text-align:center}.article-body .shirt-closing__copy p{margin:.55rem 0;color:#fff;font-family:inherit;font-size:clamp(1.12rem,2.1vw,1.55rem);font-weight:800;line-height:1.48;word-break:keep-all}.shirt-closing__copy i{margin:.6rem 0;color:#75b9ff;font-size:1.25rem;font-style:normal}@media(max-width:720px){.article-body{font-size:15.5px!important}.article-body>h2{margin-top:3.5rem!important}.review-frame{padding:1.1rem}.review-frame__grid{grid-template-columns:1fr}.case-compare__head{display:none}.case-compare>div:not(.case-compare__head){grid-template-columns:1fr;padding:1rem}.case-compare>div:not(.case-compare__head)>*{padding:.25rem 0;border:0}.case-compare p:nth-of-type(1)::before{content:"금지 · ";color:#6a82a3;font-weight:700}.case-compare p:nth-of-type(2)::before{content:"우회 · ";color:#6a82a3;font-weight:700}.case-compare p:nth-of-type(3)::before{content:"결과 · ";color:#6a82a3;font-weight:700}.exposure-chain{padding:1.1rem}.exposure-chain>div{grid-template-columns:1fr}.exposure-chain article{min-height:0}.exposure-chain i{transform:rotate(90deg);text-align:center}.shirt-inventory{grid-template-columns:1fr;gap:1.25rem;padding:1.35rem}.shirt-product-study>header{padding:1.3rem 1.15rem 1.1rem}.shirt-product-study>div{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.shirt-product-study figcaption{display:block;padding:.75rem .55rem;text-align:center}.shirt-product-study figcaption b,.shirt-product-study figcaption strong{display:block}.shirt-product-study figcaption strong{margin:.2rem 0;font-size:.7rem;line-height:1.45}.shirt-product-study figcaption span{display:none}.shirt-street-rail{grid-template-columns:1.25fr .75fr;grid-template-rows:11rem 11rem;gap:.45rem}.shirt-street-rail__wide{grid-row:1/3}.shirt-street-rail img{height:100%}.shirt-street-rail figcaption{padding:.65rem}.shirt-street-rail figcaption span{display:none}.modern-proof-grid{grid-template-columns:1fr;gap:2.4rem}.modern-proof-grid figcaption{font-size:.8rem}.shirt-social-video{grid-template-columns:1fr;padding:.8rem}.shirt-social-video__copy{padding:.65rem}.shirt-social-video iframe{height:620px}.shirt-closing{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:13rem auto;min-height:0}.shirt-closing__history,.shirt-closing__now{grid-row:1}.shirt-closing__copy{grid-column:1/3;grid-row:2;padding:1.8rem 1.1rem 2rem}.article-body .shirt-closing__copy p{font-size:1rem;line-height:1.55;word-break:normal}.shirt-hero-proof,.shirt-archive-figure{margin:2.5rem 0}}
+  /* Readability and evidence-layout revision: no module copy below 13px. */
+  .article-body {
+    font-size: clamp(16px, 1.2vw, 17px) !important;
+  }
+
+  .article-body sup a {
+    font-size: 13px;
+  }
+
+  .article-body sup,
+  .article-body .foreign-note {
+    font-size: 13px !important;
+  }
+
+  .shirt-archive-figure figcaption,
+  .campaign-evidence figcaption,
+  .platform-pair figcaption,
+  .takeover-proof figcaption {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+
+  .shirt-archive-figure figcaption small,
+  .campaign-evidence figcaption small,
+  .platform-pair figcaption small,
+  .takeover-proof figcaption small {
+    display: block;
+    margin-top: 0.45rem;
+    color: #77859a;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .review-frame {
+    padding: 1.75rem;
+    border: 0;
+    background: linear-gradient(135deg, #eaf3ff 0%, #f8fbff 68%);
+    box-shadow: inset 0 0 0 1px #c4d8f1;
+  }
+
+  .review-frame header span,
+  .exposure-chain header span,
+  .shirt-inventory__copy > span,
+  .circulation-map header span,
+  .campaign-evidence > header > span,
+  .platform-pair__copy > span,
+  .shirt-closing > header > span {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+  }
+
+  .review-frame h2 {
+    font-size: clamp(1.3rem, 2.2vw, 1.55rem) !important;
+  }
+
+  .review-frame__grid {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 0.75rem;
+    overflow: visible;
+    border: 0;
+    background: transparent;
+  }
+
+  .review-frame article {
+    padding: 1.2rem;
+    border: 1px solid #d5e2f2;
+    border-radius: 0.8rem;
+    box-shadow: 0 6px 18px rgba(24, 65, 112, 0.06);
+  }
+
+  .review-frame strong {
+    display: block;
+    color: #0e57ad;
+    font-size: 15px;
+  }
+
+  .article-body .review-frame p {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+
+  .case-compare {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .case-compare__head {
+    display: none !important;
+  }
+
+  .case-compare > div:not(.case-compare__head) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    padding: 1.3rem;
+    border: 1px solid #c8d9ef;
+    border-top: 5px solid #155fbd;
+    border-radius: 0.9rem;
+    background: #fff;
+    box-shadow: 0 10px 26px rgba(15, 58, 108, 0.08);
+  }
+
+  .case-compare > div:not(.case-compare__head) > * {
+    padding: 0;
+    border: 0;
+  }
+
+  .case-compare strong {
+    margin-bottom: 0.35rem !important;
+    font-size: 17px;
+    line-height: 1.45;
+  }
+
+  .article-body .case-compare p {
+    margin: 0 !important;
+    padding-top: 0.55rem;
+    border-top: 1px solid #e2eaf4;
+    color: #34455b;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .case-compare p:nth-of-type(1)::before,
+  .case-compare p:nth-of-type(2)::before,
+  .case-compare p:nth-of-type(3)::before {
+    display: block;
+    margin-bottom: 0.14rem;
+    color: #6a7f9b;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .case-compare p:nth-of-type(1)::before { content: "금지의 대상"; }
+  .case-compare p:nth-of-type(2)::before { content: "우회 방식"; }
+  .case-compare p:nth-of-type(3)::before { content: "남은 변화"; }
+
+  .exposure-chain {
+    padding: 1.8rem;
+    background: radial-gradient(circle at 0 0, #173d6d, #091b34 68%);
+  }
+
+  .exposure-chain article b,
+  .exposure-chain article strong,
+  .article-body .exposure-chain article p {
+    font-size: 13px;
+  }
+
+  .exposure-chain article strong {
+    font-size: 15px;
+  }
+
+  .shirt-inventory__crest,
+  .shirt-inventory__sleeve {
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .article-body .shirt-inventory__copy p,
+  .article-body .shirt-product-study header p,
+  .shirt-product-study figcaption b,
+  .shirt-product-study figcaption strong,
+  .shirt-product-study figcaption span {
+    font-size: 13px;
+  }
+
+  .shirt-product-study figcaption strong {
+    font-size: 14px;
+  }
+
+  .shirt-product-study figcaption span {
+    line-height: 1.6;
+  }
+
+  .circulation-map {
+    margin: 3.5rem 0;
+    padding: 1.7rem;
+    overflow: hidden;
+    border-radius: 1.1rem;
+    background: #081b36;
+    color: #fff;
+  }
+
+  .article-body .circulation-map h3 {
+    margin: 0.4rem 0 1.4rem;
+    color: #fff !important;
+    font-size: clamp(1.25rem, 2.3vw, 1.55rem);
+  }
+
+  .circulation-map ol {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: none;
+  }
+
+  .circulation-map li {
+    position: relative;
+    padding: 1rem 1.05rem 1.1rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .circulation-map li:first-child {
+    border-left: 0;
+  }
+
+  .circulation-map li:not(:last-child)::after {
+    content: "→";
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: -0.55rem;
+    display: grid;
+    width: 1.1rem;
+    height: 1.1rem;
+    place-items: center;
+    color: #76baff;
+    background: #081b36;
+    transform: translateY(-50%);
+  }
+
+  .circulation-map b {
+    display: block;
+    color: #76baff;
+    font-size: 13px;
+  }
+
+  .circulation-map strong {
+    display: block;
+    margin: 0.45rem 0;
+    font-size: 15px;
+  }
+
+  .article-body .circulation-map p {
+    margin: 0;
+    color: #c9d7e9;
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+  .campaign-evidence {
+    margin: 3.5rem 0;
+    overflow: hidden;
+    border-radius: 1.15rem;
+    background: #f3f9bd;
+    box-shadow: 0 18px 44px rgba(12, 35, 63, 0.12);
+  }
+
+  .campaign-evidence > header {
+    padding: 1.65rem 1.75rem 1.5rem;
+  }
+
+  .campaign-evidence > header > span {
+    color: #355b00;
+    font-weight: 850;
+  }
+
+  .article-body .campaign-evidence h3 {
+    margin: 0.45rem 0 0.75rem;
+    color: #102600 !important;
+    font-size: clamp(1.28rem, 2.5vw, 1.65rem);
+    line-height: 1.42;
+  }
+
+  .article-body .campaign-evidence header p {
+    margin: 0;
+    color: #2f421d;
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .campaign-evidence figure,
+  .platform-pair figure,
+  .takeover-proof figure {
+    margin: 0;
+  }
+
+  .campaign-evidence img,
+  .platform-pair img,
+  .takeover-proof img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .campaign-evidence figcaption,
+  .platform-pair figcaption,
+  .takeover-proof figcaption {
+    padding: 1rem 1.2rem 1.2rem;
+    background: #fff;
+  }
+
+  .campaign-evidence figcaption strong,
+  .platform-pair figcaption strong,
+  .takeover-proof figcaption strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #0e58ad;
+    font-size: 15px;
+  }
+
+  .campaign-evidence figcaption span,
+  .platform-pair figcaption span,
+  .takeover-proof figcaption span {
+    display: block;
+    color: #44556b;
+  }
+
+  .platform-pair {
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+    gap: 1rem;
+    margin: 3.6rem 0;
+  }
+
+  .platform-pair__video,
+  .platform-pair__community {
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 1.05rem;
+    box-shadow: 0 14px 36px rgba(10, 35, 67, 0.12);
+  }
+
+  .platform-pair__video {
+    background: #0a203d;
+    color: #fff;
+  }
+
+  .platform-pair__copy {
+    padding: 1.35rem 1.4rem;
+  }
+
+  .platform-pair__copy > span {
+    color: #77bbff;
+    font-weight: 850;
+  }
+
+  .article-body .platform-pair__copy h3 {
+    margin: 0.4rem 0 0.65rem;
+    color: #fff !important;
+    font-size: 1.22rem;
+    line-height: 1.45;
+  }
+
+  .article-body .platform-pair__copy p {
+    margin: 0;
+    color: #c8d7e9;
+    font-size: 14px;
+    line-height: 1.72;
+  }
+
+  .platform-pair__frame {
+    overflow: hidden;
+    background: #05070a;
+  }
+
+  .video-poster {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .video-poster--vertical {
+    height: 620px;
+  }
+
+  .video-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-poster > span {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    gap: 0.65rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.2rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 999px;
+    background: rgba(5, 16, 33, 0.88);
+    backdrop-filter: blur(8px);
+    font-size: 14px;
+    font-weight: 850;
+  }
+
+  .video-poster > span b {
+    color: #9fd0ff;
+    font-size: 16px;
+  }
+
+  .platform-pair__community {
+    align-self: start;
+    background: #fff;
+  }
+
+  .platform-pair__side {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+    min-width: 0;
+  }
+
+  .platform-pair__route {
+    padding: 1.3rem;
+    border-radius: 1.05rem;
+    color: #fff;
+    background: #145eb5;
+    box-shadow: 0 14px 36px rgba(10, 35, 67, 0.12);
+  }
+
+  .platform-pair__route > span {
+    color: #b9dcff;
+    font-size: 13px;
+    font-weight: 850;
+    letter-spacing: 0.11em;
+  }
+
+  .article-body .platform-pair__route h3 {
+    margin: 0.35rem 0 0.9rem;
+    color: #fff !important;
+    font-size: 1.12rem;
+    line-height: 1.45;
+  }
+
+  .platform-pair__route ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .platform-pair__route li {
+    display: grid;
+    grid-template-columns: 4.4rem 1fr;
+    gap: 0.7rem;
+    padding: 0.62rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.23);
+  }
+
+  .platform-pair__route b,
+  .platform-pair__route strong {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .platform-pair__route b {
+    color: #b9dcff;
+  }
+
+  .platform-pair__route strong {
+    color: #fff;
+  }
+
+  .takeover-proof {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1rem;
+    margin: 3.5rem 0;
+  }
+
+  .takeover-proof figure,
+  .takeover-proof__facts {
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 1.05rem;
+    background: #181019;
+    box-shadow: 0 14px 36px rgba(26, 14, 25, 0.16);
+  }
+
+  .takeover-proof__facts {
+    padding: 1.4rem;
+    color: #fff;
+    background: linear-gradient(145deg, #21111e, #100b12 72%);
+  }
+
+  .takeover-proof__facts > span {
+    display: block;
+    color: #f0b85a;
+    font-size: 13px;
+    font-weight: 850;
+    letter-spacing: 0.1em;
+  }
+
+  .takeover-proof__facts dl {
+    margin: 1rem 0 1.25rem;
+  }
+
+  .takeover-proof__facts dl div {
+    display: grid;
+    grid-template-columns: 4.6rem 1fr;
+    gap: 0.7rem;
+    padding: 0.8rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.17);
+  }
+
+  .takeover-proof__facts dt,
+  .takeover-proof__facts dd {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .takeover-proof__facts dt {
+    color: #b9aab5;
+    font-weight: 750;
+  }
+
+  .takeover-proof__facts dd {
+    color: #fff;
+    font-weight: 750;
+  }
+
+  .takeover-proof__facts > a {
+    display: flex;
+    gap: 0.55rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.15rem;
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    color: #150d14;
+    background: #f2c36d;
+    font-size: 14px;
+    font-weight: 850;
+    text-decoration: none;
+  }
+
+  .interpretation-boundary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+    margin: 2.8rem 0 3.2rem;
+    overflow: hidden;
+    border: 1px solid #c8d9ed;
+    border-radius: 1rem;
+  }
+
+  .interpretation-boundary div {
+    padding: 1.35rem;
+    background: #f4f9ff;
+  }
+
+  .interpretation-boundary div + div {
+    border-left: 1px solid #c8d9ed;
+    background: #fff8ed;
+  }
+
+  .interpretation-boundary span,
+  .interpretation-boundary strong {
+    display: block;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .interpretation-boundary span {
+    margin-bottom: 0.35rem;
+    color: #1765bd;
+    font-weight: 850;
+  }
+
+  .interpretation-boundary div + div span {
+    color: #9a5b00;
+  }
+
+  .shirt-closing {
+    display: block;
+    min-height: 0;
+    padding: 2rem;
+    background: radial-gradient(circle at 100% 0, #173e70, #071a34 62%);
+  }
+
+  .shirt-closing > header {
+    text-align: left;
+  }
+
+  .shirt-closing > header > span {
+    color: #77bbff;
+    font-weight: 850;
+  }
+
+  .article-body .shirt-closing h3 {
+    margin: 0.4rem 0 1.4rem;
+    color: #fff !important;
+    font-size: clamp(1.35rem, 2.8vw, 1.8rem);
+  }
+
+  .shirt-closing__steps {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    gap: 0.8rem;
+    align-items: center;
+  }
+
+  .shirt-closing__steps article {
+    min-height: 9.5rem;
+    padding: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 0.9rem;
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  .shirt-closing__steps b {
+    display: block;
+    color: #7dc0ff;
+    font-size: 15px;
+  }
+
+  .article-body .shirt-closing__steps p {
+    margin: 0.6rem 0 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.68;
+  }
+
+  .shirt-closing__steps i {
+    color: #77bbff;
+    font-size: 1.3rem;
+    font-style: normal;
+  }
+
+  .article-body .source-notes,
+  .article-body .source-notes ol,
+  .article-body .source-notes li,
+  .article-body .source-notes a,
+  .article-body .source-notes em {
+    font-size: 13px !important;
+    line-height: 1.7;
+  }
+
+  .article-body .source-notes h2 {
+    font-size: 1.25rem !important;
+  }
+
+  @media (max-width: 720px) {
+    .article-body {
+      font-size: 16px !important;
+    }
+
+    .review-frame,
+    .exposure-chain,
+    .circulation-map,
+    .shirt-closing {
+      padding: 1.2rem;
+    }
+
+    .review-frame__grid,
+    .case-compare,
+    .platform-pair,
+    .takeover-proof,
+    .interpretation-boundary {
+      grid-template-columns: 1fr;
+    }
+
+    .case-compare > div:not(.case-compare__head) {
+      padding: 1.15rem;
+    }
+
+    .circulation-map ol {
+      grid-template-columns: 1fr;
+    }
+
+    .circulation-map li {
+      padding: 1rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      border-left: 0;
+    }
+
+    .circulation-map li:first-child {
+      border-top: 0;
+    }
+
+    .circulation-map li:not(:last-child)::after {
+      display: none;
+    }
+
+    .campaign-evidence > header,
+    .platform-pair__copy {
+      padding: 1.2rem;
+    }
+
+    .platform-pair {
+      gap: 1.4rem;
+    }
+
+    .video-poster--vertical {
+      height: 570px;
+    }
+
+    .takeover-proof {
+      gap: 1.2rem;
+    }
+
+    .interpretation-boundary div + div {
+      border-top: 1px solid #c8d9ed;
+      border-left: 0;
+    }
+
+    .shirt-product-study > div {
+      grid-template-columns: 1fr;
+    }
+
+    .shirt-product-study figcaption {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.2rem 0.7rem;
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .shirt-product-study figcaption b {
+      grid-row: 1 / 3;
+    }
+
+    .shirt-product-study figcaption span {
+      display: block;
+    }
+
+    .shirt-closing__steps {
+      grid-template-columns: 1fr;
+    }
+
+    .shirt-closing__steps article {
+      min-height: 0;
+    }
+
+    .shirt-closing__steps i {
+      transform: rotate(90deg);
+      text-align: center;
+    }
+  }
 </style>
