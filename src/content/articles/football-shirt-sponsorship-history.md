@@ -26,10 +26,10 @@ featured: false
     <h2 id="review-frame-title">무엇을 ‘시작’으로 볼 것인가</h2>
   </header>
   <div class="review-frame__grid">
-    <article data-frame="question"><span class="review-frame__icon" aria-hidden="true">?</span><strong>질문</strong><p>기업 표식은 어떻게 선수의 몸에서 팬의 일상복으로 이동했는가.</p></article>
-    <article data-frame="archive"><span class="review-frame__icon" aria-hidden="true">▤</span><strong>자료</strong><p>구단·협회·박물관 공식 기록, 장비 규정, 스포츠사·복식사 연구, 실제 착장 이미지.</p></article>
-    <article data-frame="filter"><span class="review-frame__icon" aria-hidden="true">◇</span><strong>선정 기준</strong><p>표식의 허용, 방송 노출, 복제품 판매, 문화적 재유통 가운데 한 단계 이상을 직접 증명하는 자료.</p></article>
-    <article data-frame="boundary"><span class="review-frame__icon" aria-hidden="true">⌁</span><strong>한계</strong><p>‘세계 최초’ 주장은 국가와 리그마다 기준이 다르다. 독일·영국의 제도화 사례를 중심으로 비교한다.</p></article>
+    <article data-frame="question" style="--frame-image: url('/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp')"><span>01 · QUESTION</span><strong>질문</strong><p>기업 표식은 어떻게 선수의 몸에서 팬의 일상복으로 이동했는가.</p></article>
+    <article data-frame="archive" style="--frame-image: url('/images/history/football-shirt-sponsorship-history/eintracht-jaegermeister-1973.webp')"><span>02 · ARCHIVE</span><strong>자료</strong><p>구단·협회·박물관 기록, 장비 규정, 스포츠사·복식사 연구와 실제 착장 이미지.</p></article>
+    <article data-frame="filter" style="--frame-image: url('/images/history/football-shirt-sponsorship-history/arsenal-islington-fm-away-kit.webp')"><span>03 · FILTER</span><strong>선정 기준</strong><p>허용·방송·판매·문화적 재유통 중 한 단계 이상을 직접 증명하는 자료.</p></article>
+    <article data-frame="boundary" style="--frame-image: url('/images/history/football-shirt-sponsorship-history/kettering-tyres-1976.webp')"><span>04 · LIMIT</span><strong>한계</strong><p>‘세계 최초’의 기준은 국가와 리그마다 다르다. 독일·영국의 제도화 사례를 비교한다.</p></article>
   </div>
 </section>
 
@@ -47,11 +47,6 @@ featured: false
 
 당시 규정은 구단명과 문장, 등번호는 허용했지만 광고 문구는 금지했다. 브라운슈바이크 회원들은 프로축구팀의 문장을 기존 사자에서 예거마이스터의 사슴으로 바꾸기로 의결했다. 기업 표식을 ‘광고’가 아니라 ‘구단 문장’으로 만들면 규정 안에 들어갈 수 있었다. DFB는 지름을 14cm로 줄이고 `EB`를 넣으라고 요구했고, 수정된 사슴은 결국 승인되었다.<sup><a href="#source-1">[1]</a></sup>
 
-<figure class="shirt-archive-figure">
-  <img src="/images/history/football-shirt-sponsorship-history/eintracht-jaegermeister-1973.webp" alt="1973년 예거마이스터 사슴 문장이 크게 들어간 아인트라흐트 브라운슈바이크 셔츠를 입은 선수들" width="1200" height="921" loading="lazy" decoding="async" />
-  <figcaption>선수 가슴의 원형 사슴은 기업 로고이면서, 규정을 통과하기 위해 새로 채택된 구단 문장이었다. 광고와 정체성의 경계가 첫 장면부터 겹쳐 있다. <small>Photo: Fritz Rust · Eintracht Braunschweig official archive</small></figcaption>
-</figure>
-
 이 사례가 유니폼 광고의 본질을 유난히 선명하게 드러낸다. 기업은 구단의 정체성 옆에 자리를 빌린 것이 아니라 잠시 정체성의 모양 자체가 되었다. 광고가 문장을 흉내 낸 것인지, 문장이 광고가 된 것인지 분리하기 어렵다. 오늘날 오래된 스폰서 로고를 ‘그 시절 우리 팀’으로 기억하는 현상은 이미 이때 예고되었다.
 
 브라운슈바이크 구단의 기록은 오스트리아에서 비슷한 관행이 앞서 존재했다고 명시한다.<sup><a href="#source-1">[1]</a></sup> 그러므로 이를 무리하게 ‘세계 최초’라고 부를 필요는 없다. 더 정확한 의미는 **독일 프로축구에서 광고 금지의 경계를 공개적으로 시험하고 제도를 바꾼 사건**이라는 데 있다.
@@ -62,18 +57,18 @@ featured: false
 
 잉글랜드축구협회<span class="foreign-note" lang="en">(The Football Association, The FA)</span>는 나흘 뒤 문구를 지우라고 명령했다. 케터링은 `TYRES`의 마지막 네 글자를 없애 `KETTERING T`로 바꾸고, `T`는 타이어가 아니라 타운을 뜻한다고 주장했다. 협회가 1,000파운드의 벌금을 경고하자 결국 표식은 사라졌다. 이듬해인 1977년 잉글랜드 축구에서 셔츠 스폰서가 합법화되었다.<sup><a href="#source-2">[2]</a></sup>
 
-<figure class="shirt-archive-figure">
-  <img src="/images/history/football-shirt-sponsorship-history/kettering-tyres-1976.webp" alt="케터링 타이어스 문구가 적힌 셔츠를 입고 경기하는 데릭 두건" width="1024" height="767" loading="lazy" decoding="async" />
-  <figcaption>데릭 두건<span class="foreign-note" lang="en">(Derek Dougan; 북아일랜드 축구 선수, 1938–2007)</span>의 셔츠에는 지역 업체의 업종까지 완전한 문장으로 적혀 있다. 이 사진은 ‘광고인가 아닌가’라는 논쟁이 실제로 어느 글자에서 벌어졌는지를 보여준다. <small>Kettering Town FC official archive</small></figcaption>
-</figure>
-
 브라운슈바이크와 케터링의 방식은 달랐다. 하나는 기업의 그림을 구단 문장으로 바꾸었고, 다른 하나는 기업명을 구단명의 약자로 축소하려 했다. 그러나 둘 다 같은 사실을 드러낸다. 초창기의 싸움은 로고가 아름다운지 추한지에 관한 논쟁이 아니었다. **선수의 가슴을 구단만 말할 수 있는 공간으로 둘 것인지, 기업도 말할 수 있는 공간으로 열 것인지**에 관한 제도적 충돌이었다.
 
-<div class="case-compare" role="table" aria-label="브라운슈바이크와 케터링 타운 셔츠 광고 사례 비교">
-  <div class="case-compare__head" role="row"><span>사례</span><span>금지의 대상</span><span>우회 방식</span><span>남은 변화</span></div>
-  <div role="row" data-case="crest"><span class="case-compare__symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 4 39 10v11c0 10-5.8 17.1-15 23-9.2-5.9-15-13-15-23V10L24 4Z"/><path d="M17 16c3 1 5 3 7 7 2-4 4-6 7-7M19 14l-3-4m13 4 3-4M20 27h8"/></svg><small>문장으로 위장</small></span><strong>브라운슈바이크<br />1973</strong><p>광고 문구·표식</p><p>기업 로고를 프로팀 문장으로 채택</p><p>독일 프로축구의 선례</p></div>
-  <div role="row" data-case="letters"><span class="case-compare__symbol" aria-hidden="true"><b>TYRES</b><i>→ T</i><small>글자를 지움</small></span><strong>케터링 타운<br />1976</strong><p>스폰서 명칭</p><p>KETTERING T를 구단명으로 주장</p><p>1977년 잉글랜드 허용</p></div>
-</div>
+<section class="case-compare" aria-label="브라운슈바이크와 케터링 타운 셔츠 광고 사례 비교">
+  <article data-case="crest">
+    <div class="case-compare__copy"><span>GERMANY · 1973</span><strong>브라운슈바이크</strong><dl><div><dt>금지의 대상</dt><dd>광고 문구·표식</dd></div><div><dt>우회 방식</dt><dd>기업 로고를 프로팀 문장으로 채택</dd></div><div><dt>남은 변화</dt><dd>독일 프로축구의 선례</dd></div></dl></div>
+    <figure><img src="/images/history/football-shirt-sponsorship-history/eintracht-jaegermeister-1973.webp" alt="1973년 예거마이스터 사슴 문장이 크게 들어간 아인트라흐트 브라운슈바이크 셔츠를 입은 선수들" width="1200" height="921" loading="lazy" decoding="async" /><figcaption><b>문장으로 위장</b><span>사슴은 기업 로고이면서 새 구단 문장이었다.</span><small>Photo: Fritz Rust · Eintracht Braunschweig</small></figcaption></figure>
+  </article>
+  <article data-case="letters">
+    <div class="case-compare__copy"><span>ENGLAND · 1976</span><strong>케터링 타운</strong><dl><div><dt>금지의 대상</dt><dd>스폰서 명칭</dd></div><div><dt>우회 방식</dt><dd>KETTERING T를 구단명으로 주장</dd></div><div><dt>남은 변화</dt><dd>1977년 잉글랜드 허용</dd></div></dl></div>
+    <figure><img src="/images/history/football-shirt-sponsorship-history/kettering-tyres-1976.webp" alt="케터링 타이어스 문구가 적힌 셔츠를 입고 경기하는 데릭 두건" width="1024" height="767" loading="lazy" decoding="async" /><figcaption><b>글자를 지움</b><span>TYRES는 T 한 글자로 줄었다.</span><small>Kettering Town FC official archive</small></figcaption></figure>
+  </article>
+</section>
 
 ## 허용만으로는 부족했다: 카메라가 광고의 값을 정했다
 
@@ -118,19 +113,18 @@ featured: false
 <section class="shirt-product-study" aria-labelledby="shirt-product-title">
   <header>
     <span>THE SHIRT AS INVENTORY</span>
-    <h3 id="shirt-product-title">한 벌 안에서 로고는 어떻게 자리를 나누는가</h3>
-    <p>나폴리의 2023-24 홈 셔츠를 앞뒤로 놓으면 규정의 숫자가 실제 제품의 표면으로 바뀐다.</p>
+    <h3 id="shirt-product-title">한 벌이 아니라, 하나의 시장을 진열해 보면</h3>
+    <p>나폴리만의 예외가 아니다. 서로 다른 색과 문장을 가진 유럽 주요 구단의 정면을 같은 규격으로 놓으면, 가슴 중앙이 반복해서 가장 큰 기업명을 맡고 있음을 확인할 수 있다.</p>
   </header>
-  <div>
-    <figure>
-      <img src="/images/culture/dua-lipa-napoli-shirt/napoli-shirt-front.webp" alt="EA7, SSC 나폴리 문장, 스쿠데토와 MSC 스폰서가 배치된 2023-24 나폴리 홈 셔츠 앞면" width="800" height="800" loading="lazy" decoding="async" />
-      <figcaption><b>FRONT</b><strong>가슴은 가장 비싼 화면이다</strong><span>제조사·구단 문장·우승 표식·메인 스폰서가 몸통의 중심을 나눠 쓴다.</span></figcaption>
-    </figure>
-    <figure>
-      <img src="/images/culture/dua-lipa-napoli-shirt/napoli-shirt-back.webp" alt="선수 이름과 등번호가 들어가는 공간이 보이는 2023-24 나폴리 홈 셔츠 뒷면" width="800" height="800" loading="lazy" decoding="async" />
-      <figcaption><b>BACK</b><strong>등은 선수를 식별하는 화면이다</strong><span>같은 옷도 앞에서는 기업과 구단을, 뒤에서는 이름과 번호를 먼저 말한다.</span></figcaption>
-    </figure>
+  <div class="shirt-shelf" aria-label="유럽 주요 구단 유니폼의 가슴 스폰서 배치">
+    <figure><div><img src="/images/culture/dua-lipa-napoli-shirt/napoli-shirt-front.webp" alt="MSC가 가슴 중앙에 놓인 SSC 나폴리 2023-24 홈 유니폼" width="800" height="800" loading="lazy" decoding="async" /></div><figcaption><b>SSC 나폴리</b><span>MSC</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/arsenal-home-2627.webp" alt="에미레이트 항공이 가슴 중앙에 놓인 아스널 2026-27 홈 유니폼" width="900" height="600" loading="lazy" decoding="async" /></div><figcaption><b>아스널</b><span>Emirates</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/barcelona-home-2627.webp" alt="스포티파이가 가슴 중앙에 놓인 FC 바르셀로나 2026-27 홈 유니폼" width="832" height="1105" loading="lazy" decoding="async" /></div><figcaption><b>FC 바르셀로나</b><span>Spotify</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/inter-home-2627.webp" alt="벳손 스포츠가 가슴 중앙에 놓인 인테르나치오날레 2026-27 홈 유니폼" width="700" height="700" loading="lazy" decoding="async" /></div><figcaption><b>인테르나치오날레</b><span>Betsson Sport</span></figcaption></figure>
+    <figure><div><img src="/images/history/football-shirt-sponsorship-history/psg-home-2627.webp" alt="카타르항공이 가슴 중앙에 놓인 파리 생제르맹 2026-27 홈 유니폼" width="900" height="900" loading="lazy" decoding="async" /></div><figcaption><b>파리 생제르맹</b><span>Qatar Airways</span></figcaption></figure>
   </div>
+  <div class="shirt-shelf__reading"><p><b>가슴 중앙</b><span>가장 큰 기업명이 반복되는 핵심 광고면</span></p><p><b>가슴 양쪽</b><span>구단 문장과 제조사가 균형을 이루는 식별면</span></p><p><b>소매</b><span>별도 파트너와 대회 패치가 붙는 보조 광고면</span></p></div>
+  <small class="shirt-shelf__credit">Product images: SSC Napoli · Arsenal Direct · Barça Official Store · Inter Online Store · PSG Store.<sup><a href="#source-11">[11]</a></sup><sup><a href="#source-16">[16]</a></sup><sup><a href="#source-17">[17]</a></sup><sup><a href="#source-18">[18]</a></sup><sup><a href="#source-19">[19]</a></sup></small>
 </section>
 
 ## 팬은 언제부터 광고가 든 셔츠를 샀나
@@ -173,6 +167,14 @@ featured: false
 이 사진을 축구 유니폼 화보라고 부르는 데에는 아무런 어색함이 없다. 우리는 기업 광고가 가슴 한가운데 놓인 옷을 보면서도 그것을 먼저 ‘나폴리의 셔츠’라고 인식한다. 광고는 보이지만 옷의 정체성을 훼손하는 이물질처럼 보이지 않는다. 오히려 특정 시즌을 기억하게 하는 표식이 된다.
 
 그 게시물이 광고 계약의 결과였다고 단정할 근거는 없다. 착용자의 의도보다 이 글이 확인하려는 것은 이미지의 기능이다. 경기장을 보지 않던 사람도 사진을 보고, 옷을 찾고, 팀과 시즌을 알게 된다. **선수의 몸을 매체로 만든 셔츠가 이제 다른 문화권의 몸을 경유하는 매체가 되었다.**
+
+<section class="celebrity-spread" aria-labelledby="celebrity-spread-title">
+  <header><span>FROM KIT TO LOOK</span><h3 id="celebrity-spread-title">같은 셔츠도 누가, 무엇과 입느냐에 따라 구매 이유가 달라진다</h3><p>선수의 경기 사진은 기능과 소속을 판다. 여성 아티스트의 화보는 색, 실루엣, 피부에 닿는 액세서리와 장소까지 함께 보여준다. 셔츠는 이때 경기복의 복제품이 아니라 하나의 스타일링 재료가 된다.</p></header>
+  <div>
+    <figure class="celebrity-spread__dua"><img src="/images/culture/dua-lipa-napoli-shirt/dua-lipa-napoli-look.webp" alt="흰색 비키니와 금색 귀걸이에 SSC 나폴리 유니폼을 입은 두아 리파" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption><span>01 · RESORT</span><strong>두아 리파</strong><p>하늘색 셔츠를 바다·흰색 비키니·금색 주얼리와 묶었다. MSC는 경기장이 아니라 휴양지의 색 안에서 다시 노출된다.</p><small>Photo via @dualipa / Instagram.<sup><a href="#source-11">[11]</a></sup></small></figcaption></figure>
+    <figure class="celebrity-spread__olivia"><img src="/images/history/football-shirt-sponsorship-history/olivia-rodrigo-barca.webp" alt="분홍색 배경에서 자신의 OR 로고가 들어간 FC 바르셀로나 유니폼을 입은 올리비아 로드리고" width="1200" height="750" loading="lazy" decoding="async" /><figcaption><span>02 · CAMPAIGN</span><strong>올리비아 로드리고</strong><p>가수의 로고·캠페인 색·반바지까지 하나의 상품 세계로 설계됐다. 셔츠의 광고면이 아티스트의 패션 화보가 된 경우다.</p><small>Photo: FC Barcelona · Spotify, 2026.<sup><a href="#source-21">[21]</a></sup></small></figcaption></figure>
+  </div>
+</section>
 
 구단과 제조사는 이 우연한 이동을 캠페인의 구조로 바꾸었다. 문화 연구에서 문화적 매개자<span class="foreign-note" lang="en">(cultural intermediary; 상품과 소비 사이에서 취향과 의미를 번역하는 사람이나 집단)</span>라고 부르는 역할을 가수·배우·디제이·지역 커뮤니티가 맡는다.<sup><a href="#source-12">[12]</a></sup> 이들은 유니폼을 설명하는 모델에 머물지 않는다. 음악, 영화, 거리 문화와 팬 공동체의 언어를 셔츠에 붙여 축구 밖의 관객에게 건넨다.
 
@@ -257,8 +259,8 @@ featured: false
 팬이 유니폼을 입고 사진을 올리면 사용자 생성 콘텐츠<span class="foreign-note" lang="en">(user-generated content, UGC; 이용자가 자발적으로 제작·게시한 이미지와 영상)</span>가 된다. 기업은 광고 지면을 새로 사지 않고도 획득 미디어<span class="foreign-note" lang="en">(earned media; 보도·공유·게시를 통해 얻는 비구매 노출)</span>를 얻는다. 그렇다고 모든 착용을 기업에 대한 충성이나 협찬의 결과로 해석할 수는 없다. 팬은 구단을 지지하고, 선수를 기억하고, 색이 좋아서 입거나, 유행에 참여하기 위해 셔츠를 고른다. 기업명은 그 서로 다른 욕망을 따라 이동한다.
 
 <aside class="interpretation-boundary" aria-label="소셜 미디어 착장 이미지의 해석 범위">
-  <div><span>이미지로 확인할 수 있는 것</span><strong>누가 어떤 셔츠를 어디서, 어떤 옷과 함께 보이게 했는가</strong></div>
-  <div><span>이미지만으로 단정할 수 없는 것</span><strong>협찬 여부, 착용자의 구매 동기, 스폰서 기업에 대한 호감</strong></div>
+  <div class="interpretation-boundary__copy"><article><span>이미지로 확인할 수 있는 것</span><strong>누가 어떤 셔츠를 어디서, 어떤 옷과 함께 보이게 했는가</strong></article><article><span>이미지만으로 단정할 수 없는 것</span><strong>협찬 여부, 착용자의 구매 동기, 스폰서 기업에 대한 호감</strong></article></div>
+  <figure><img src="/images/history/football-shirt-sponsorship-history/rosalia-barca-selfie.webp" alt="자신의 모토마미 로고가 들어간 FC 바르셀로나 유니폼을 입고 셀피를 찍은 로살리아" width="404" height="720" loading="lazy" decoding="async" /><figcaption><strong>로살리아의 셀피가 증명하는 범위</strong><span>그가 MOTOMAMI 로고 셔츠를 입어 자신의 화면에 배포했다는 사실은 보인다. 사진 한 장만으로 그 동기까지 만들어낼 수는 없다.</span><small>FC Barcelona official X, 2023.<sup><a href="#source-20">[20]</a></sup></small></figcaption></figure>
 </aside>
 
 그래서 축구 유니폼 광고는 일반적인 브랜드 티셔츠와 다르다. 거대한 기업명이 가슴에 있어도 구매의 주된 이유가 그 기업일 필요가 없다. 구단에 대한 애착이 광고를 함께 운반한다. 스폰서는 팬이 이미 사랑하는 문장과 색의 옆자리를 사고, 팬은 사랑하는 팀의 ‘완성된 모습’에 스폰서까지 포함해 기억한다.
@@ -305,6 +307,12 @@ featured: false
 13. <span id="source-13"></span>[Arsenal FC, “Arsenal release new 2023/24 men's away kit”](https://www.arsenal.com/photos/arsenal-release-new-202324-mens-away-kit-abMbF4n7rGZ9), 2023년 7월 18일; [Arsenal, “Introducing the new Arsenal x adidas 23/24 Men's Team away kit”](https://www.youtube.com/watch?v=gmIPqbKE54w), YouTube. 메이블, 애슐리 월터스, 에이사 버터필드, 이즐링턴 유스 콰이어 등이 참여한 ‘188.6 Islington FM’ 캠페인과 영상.
 14. <span id="source-14"></span>[Arsenal FC, “Introducing our new 2022/23 adidas third kit”](https://www.arsenal.com/photos/introducing-our-new-202223-adidas-third-kit-awwc07c9EywE), 2022년. 지역 활동가·음악가와 Melanin Skate Gals & Pals를 공식 유니폼 캠페인의 주체로 배치한 사례.
 15. <span id="source-15"></span>[FC Barcelona Official Store, “FC Barcelona x Travis Scott”](https://store.fcbarcelona.com/pages/fc-barcelona-x-travis-scott); [FC Barcelona, “FLAME ON. BARÇA x SPOTIFY x TRAVIS SCOTT”](https://www.youtube.com/watch?v=tNIdxIiWexQ), 2025년 5월 2일. Cactus Jack 로고의 경기 셔츠 적용, 한정판 판매와 공식 영상.
+16. <span id="source-16"></span>[Arsenal Direct, “Arsenal adidas 26/27 Home Shirt”](https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/Home/Arsenal-adidas-26-27-Home-Shirt/p/MJZ3168). 2026-27 아스널 홈 셔츠 정면과 스폰서 배치.
+17. <span id="source-17"></span>[Barça Official Store, “Men's home jersey FC Barcelona 26/27”](https://store.fcbarcelona.com/en-us/products/fc-barcelona-home-fullshirt-26-27-ucl). 2026-27 FC 바르셀로나 홈 셔츠 정면과 스폰서 배치.
+18. <span id="source-18"></span>[Inter Online Store, “Inter Home Stadium Jersey 26/27”](https://store.inter.it/gb/inter-home-stadium-jersey-26-27). 2026-27 인테르나치오날레 홈 셔츠 정면과 스폰서 배치.
+19. <span id="source-19"></span>[PSG Store, “PSG Nike Home Stadium Shirt 2026-27”](https://store.psg.fr/en/maillot-domicile-stadium-psg-nike-26/27/p-137703163635607796%2Bz-99-1748606335). 2026-27 파리 생제르맹 홈 셔츠 정면과 스폰서 배치.
+20. <span id="source-20"></span>[FC Barcelona, “Rosalía sings FC Barcelona anthem a la ‘Motomami’”](https://www.fcbarcelona.com/en/club/news/3116497/rosalia-sings-fc-barcelona-anthem-a-la-motomami), 2023년 3월 19일; [FC Barcelona official X post](https://x.com/FCBarcelona/status/1637477837882966020). 로살리아의 모토마미 로고 셔츠 착장과 셀피.
+21. <span id="source-21"></span>[FC Barcelona, “US artist Olivia Rodrigo to feature on shirt for next el Clásico”](https://www.fcbarcelona.com/en/club/news/4496112/us-artist-olivia-rodrigo-to-feature-on-shirt-for-next-el-clasico), 2026년 5월 1일. 올리비아 로드리고의 로고가 든 경기 셔츠와 공식 라이프스타일 캠페인.
 
 </div>
 
@@ -346,10 +354,10 @@ featured: false
 
   .review-frame {
     margin: 3.2rem 0 3.6rem;
-    padding: 1.75rem;
+    padding: 1.25rem;
     border: 0;
-    background: linear-gradient(135deg, #eaf3ff 0%, #f8fbff 68%);
-    box-shadow: inset 0 0 0 1px #c4d8f1;
+    background: #071a34;
+    box-shadow: 0 18px 42px rgba(7, 26, 52, 0.15);
   }
 
   .review-frame header span,
@@ -363,13 +371,21 @@ featured: false
     letter-spacing: 0.12em;
   }
 
+  .review-frame > header > span {
+    color: #8cc8ff;
+    font-weight: 900;
+  }
+
   .review-frame h2 {
+    margin: 0.45rem 0 1.1rem !important;
+    color: #fff !important;
     font-size: clamp(1.3rem, 2.2vw, 1.55rem) !important;
   }
 
   .review-frame__grid {
-    grid-template-columns: 1.15fr 0.85fr;
-    gap: 0.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
     overflow: visible;
     border: 0;
     background: transparent;
@@ -377,11 +393,19 @@ featured: false
 
   .review-frame article {
     position: relative;
-    min-height: 10.2rem;
-    padding: 1.2rem;
-    border: 1px solid #d5e2f2;
-    border-radius: 0.8rem;
-    box-shadow: 0 6px 18px rgba(24, 65, 112, 0.06);
+    display: flex;
+    min-height: 12rem;
+    padding: 1.25rem;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 0.65rem;
+    color: #fff;
+    background-image: linear-gradient(180deg, rgba(4, 16, 34, 0.12) 12%, rgba(4, 16, 34, 0.94) 100%), var(--frame-image);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
     animation: evidence-rise 0.55s ease both;
   }
 
@@ -389,39 +413,31 @@ featured: false
   .review-frame article:nth-child(3) { animation-delay: 0.16s; }
   .review-frame article:nth-child(4) { animation-delay: 0.24s; }
 
-  .review-frame__icon {
-    display: grid;
-    width: 2.3rem;
-    height: 2.3rem;
-    margin-bottom: 0.9rem;
-    place-items: center;
-    border-radius: 0.7rem;
-    color: #fff;
-    background: #1267c7;
-    box-shadow: 0 7px 18px rgba(18, 103, 199, 0.2);
+  .review-frame article > span {
+    margin-bottom: 0.45rem;
+    color: #9ed0ff;
     font-family: Arial, sans-serif;
-    font-size: 1.15rem;
+    font-size: 13px;
     font-weight: 900;
+    letter-spacing: 0.1em;
   }
-
-  .review-frame article[data-frame="archive"] .review-frame__icon { color: #103d73; background: #acd6ff; }
-  .review-frame article[data-frame="filter"] .review-frame__icon { color: #204d23; background: #cce8b9; }
-  .review-frame article[data-frame="boundary"] .review-frame__icon { color: #704311; background: #ffdaa8; }
 
   .review-frame strong {
     display: block;
-    color: #0e57ad;
-    font-size: 15px;
+    color: #fff;
+    font-size: 18px;
   }
 
   .article-body .review-frame p {
+    margin: 0.4rem 0 0;
+    color: #e2ebf7;
     font-size: 14px;
     line-height: 1.68;
   }
 
   .case-compare {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 1rem;
     overflow: visible;
     border: 0;
@@ -429,96 +445,111 @@ featured: false
     margin: 3.25rem 0 3.7rem;
   }
 
-  .case-compare__head {
-    display: none !important;
-  }
-
-  .case-compare > div:not(.case-compare__head) {
-    position: relative;
+  .case-compare > article {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.45rem;
-    padding: 1.3rem;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.95fr);
+    min-height: 18rem;
+    overflow: hidden;
     border: 1px solid #c8d9ef;
-    border-top: 5px solid #155fbd;
     border-radius: 0.9rem;
     background: #fff;
     box-shadow: 0 10px 26px rgba(15, 58, 108, 0.08);
     transition: transform 180ms ease, box-shadow 180ms ease;
   }
 
-  .case-compare > div:not(.case-compare__head):hover {
+  .case-compare > article:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 30px rgba(15, 58, 108, 0.13);
   }
 
-  .case-compare__symbol {
-    display: flex;
-    gap: 0.55rem;
-    align-items: center;
-    min-height: 3.6rem;
-    margin-bottom: 0.7rem;
-    padding: 0.55rem 0.7rem;
-    border-radius: 0.75rem;
-    color: #0e57ad;
-    background: #edf5ff;
+  .case-compare__copy {
+    padding: 1.5rem;
   }
 
-  .case-compare__symbol svg {
-    width: 2.5rem;
-    height: 2.5rem;
-    flex: 0 0 auto;
-    fill: none;
-    stroke: currentColor;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 2.2;
+  .case-compare__copy > span {
+    color: #1765bd;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
   }
 
-  .case-compare__symbol b,
-  .case-compare__symbol i,
-  .case-compare__symbol small {
-    font-family: Arial, sans-serif;
-    font-style: normal;
-  }
-
-  .case-compare__symbol b { text-decoration: line-through 2px #dc3f4b; }
-  .case-compare__symbol i { font-weight: 900; }
-  .case-compare__symbol small { margin-left: auto; color: #536a86; font-size: 13px; font-weight: 800; }
-
-  .case-compare > div:not(.case-compare__head) > * {
-    padding: 0;
-    border: 0;
-  }
-
-  .case-compare strong {
-    margin-bottom: 0.35rem !important;
-    font-size: 17px;
+  .case-compare__copy > strong {
+    display: block;
+    margin: 0.45rem 0 1rem;
+    color: #111d2f;
+    font-size: 21px;
     line-height: 1.45;
   }
 
-  .article-body .case-compare p {
-    margin: 0 !important;
-    padding-top: 0.55rem;
+  .case-compare dl,
+  .case-compare dl div,
+  .case-compare dt,
+  .case-compare dd {
+    margin: 0;
+  }
+
+  .case-compare dl div {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 0.7rem;
+    padding: 0.7rem 0;
     border-top: 1px solid #e2eaf4;
-    color: #34455b;
+  }
+
+  .case-compare dt,
+  .case-compare dd {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.55;
   }
 
-  .case-compare p:nth-of-type(1)::before,
-  .case-compare p:nth-of-type(2)::before,
-  .case-compare p:nth-of-type(3)::before {
-    display: block;
-    margin-bottom: 0.14rem;
+  .case-compare dt {
     color: #6a7f9b;
-    font-size: 13px;
-    font-weight: 800;
+    font-weight: 850;
   }
 
-  .case-compare p:nth-of-type(1)::before { content: "금지의 대상"; }
-  .case-compare p:nth-of-type(2)::before { content: "우회 방식"; }
-  .case-compare p:nth-of-type(3)::before { content: "남은 변화"; }
+  .case-compare dd {
+    color: #34455b;
+  }
+
+  .case-compare figure {
+    position: relative;
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #0b1b31;
+  }
+
+  .case-compare figure::after {
+    position: absolute;
+    inset: 40% 0 0;
+    background: linear-gradient(180deg, transparent, rgba(3, 12, 25, 0.94));
+    content: "";
+  }
+
+  .case-compare figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .case-compare figcaption {
+    position: absolute;
+    z-index: 1;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+  }
+
+  .case-compare figcaption b,
+  .case-compare figcaption span,
+  .case-compare figcaption small {
+    display: block;
+  }
+
+  .case-compare figcaption b { font-size: 17px; }
+  .case-compare figcaption span { margin-top: 0.25rem; font-size: 13px; line-height: 1.55; }
+  .case-compare figcaption small { margin-top: 0.45rem; color: #c9d6e7; font-size: 13px; }
 
   .exposure-chain {
     margin: 3.25rem 0 3.7rem;
@@ -620,20 +651,129 @@ featured: false
     font-weight: 800;
   }
 
-  .article-body .shirt-inventory__copy p,
-  .article-body .shirt-product-study header p,
-  .shirt-product-study figcaption b,
-  .shirt-product-study figcaption strong,
-  .shirt-product-study figcaption span {
-    font-size: 13px;
-  }
-
-  .shirt-product-study figcaption strong {
+  .article-body .shirt-inventory__copy p {
     font-size: 14px;
   }
 
-  .shirt-product-study figcaption span {
-    line-height: 1.6;
+  .shirt-product-study {
+    margin: 3.5rem 0;
+    padding: 1.6rem;
+    overflow: hidden;
+    border-radius: 1.1rem;
+    background: #eef3f8;
+    box-shadow: inset 0 0 0 1px #d5e0ec;
+  }
+
+  .shirt-product-study > header > span {
+    color: #1765bd;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+  }
+
+  .article-body .shirt-product-study h3 {
+    margin: 0.45rem 0 0.65rem;
+    color: #111d2f !important;
+    font-size: clamp(1.3rem, 2.4vw, 1.65rem);
+    line-height: 1.42;
+  }
+
+  .article-body .shirt-product-study header p {
+    margin: 0;
+    color: #4a5b70;
+    font-size: 14px;
+    line-height: 1.72;
+  }
+
+  .shirt-shelf {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.55rem;
+    margin-top: 1.35rem;
+  }
+
+  .shirt-shelf figure {
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #d8e2ed;
+    border-radius: 0.75rem;
+    background: #fff;
+  }
+
+  .shirt-shelf figure > div {
+    height: 13rem;
+    overflow: hidden;
+    background: linear-gradient(145deg, #f9fbfd, #e8eef4);
+  }
+
+  .shirt-shelf img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    mix-blend-mode: multiply;
+  }
+
+  .shirt-shelf figure:first-child img,
+  .shirt-shelf figure:nth-child(4) img {
+    object-fit: contain;
+    padding: 0.45rem;
+  }
+
+  .shirt-shelf figcaption {
+    padding: 0.72rem;
+  }
+
+  .shirt-shelf figcaption b,
+  .shirt-shelf figcaption span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .shirt-shelf figcaption b {
+    color: #182538;
+    font-size: 13px;
+  }
+
+  .shirt-shelf figcaption span {
+    margin-top: 0.2rem;
+    color: #5d7087;
+    font-size: 13px;
+  }
+
+  .shirt-shelf__reading {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.6rem;
+    margin-top: 0.85rem;
+  }
+
+  .article-body .shirt-shelf__reading p {
+    margin: 0;
+    padding: 0.85rem;
+    border-left: 3px solid #1765bd;
+    background: #fff;
+  }
+
+  .shirt-shelf__reading b,
+  .shirt-shelf__reading span {
+    display: block;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .shirt-shelf__reading b { color: #1765bd; }
+  .shirt-shelf__reading span { margin-top: 0.2rem; color: #4b5d73; }
+
+  .shirt-shelf__credit {
+    display: block;
+    margin-top: 0.85rem;
+    color: #6c7d91;
+    font-size: 13px;
+    line-height: 1.55;
   }
 
   .circulation-map {
@@ -703,6 +843,109 @@ featured: false
     color: #c9d7e9;
     font-size: 13px;
     line-height: 1.65;
+  }
+
+  .celebrity-spread {
+    margin: 3.5rem 0;
+  }
+
+  .celebrity-spread > header {
+    margin-bottom: 1rem;
+  }
+
+  .celebrity-spread > header > span {
+    color: #1765bd;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+  }
+
+  .article-body .celebrity-spread h3 {
+    margin: 0.45rem 0 0.65rem;
+    color: #111d2f !important;
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+    line-height: 1.42;
+  }
+
+  .article-body .celebrity-spread header p {
+    margin: 0;
+    color: #4a5b70;
+    font-size: 14px;
+    line-height: 1.72;
+  }
+
+  .celebrity-spread > div {
+    display: grid;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+    gap: 0.85rem;
+  }
+
+  .celebrity-spread figure {
+    position: relative;
+    min-height: 32rem;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    background: #101a2a;
+    box-shadow: 0 16px 38px rgba(13, 31, 55, 0.16);
+  }
+
+  .celebrity-spread figure::after {
+    position: absolute;
+    inset: 38% 0 0;
+    background: linear-gradient(180deg, transparent, rgba(4, 12, 25, 0.96));
+    content: "";
+  }
+
+  .celebrity-spread img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .celebrity-spread__olivia img {
+    object-position: 58% center;
+  }
+
+  .celebrity-spread figcaption {
+    position: absolute;
+    z-index: 1;
+    right: 1.15rem;
+    bottom: 1.15rem;
+    left: 1.15rem;
+    color: #fff;
+  }
+
+  .celebrity-spread figcaption span,
+  .celebrity-spread figcaption strong,
+  .celebrity-spread figcaption small {
+    display: block;
+  }
+
+  .celebrity-spread figcaption > span {
+    color: #8cc8ff;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.09em;
+  }
+
+  .celebrity-spread figcaption strong {
+    margin-top: 0.25rem;
+    font-size: 20px;
+  }
+
+  .article-body .celebrity-spread figcaption p {
+    margin: 0.45rem 0 0;
+    color: #ecf3fb;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .celebrity-spread figcaption small {
+    margin-top: 0.5rem;
+    color: #aebed1;
+    font-size: 13px;
+    line-height: 1.5;
   }
 
   .campaign-evidence {
@@ -1070,39 +1313,92 @@ featured: false
 
   .interpretation-boundary {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0;
+    grid-template-columns: minmax(0, 1.15fr) minmax(14rem, 0.85fr);
+    gap: 0.8rem;
+    height: 30rem;
     margin: 2.8rem 0 3.2rem;
     overflow: hidden;
-    border: 1px solid #c8d9ed;
     border-radius: 1rem;
+    background: #0b1d37;
+    box-shadow: 0 15px 36px rgba(11, 29, 55, 0.14);
   }
 
-  .interpretation-boundary div {
-    padding: 1.35rem;
-    background: #f4f9ff;
+  .interpretation-boundary__copy {
+    display: grid;
+    gap: 0.65rem;
+    padding: 1.1rem 0 1.1rem 1.1rem;
   }
 
-  .interpretation-boundary div + div {
-    border-left: 1px solid #c8d9ed;
-    background: #fff8ed;
+  .interpretation-boundary__copy article {
+    display: flex;
+    min-height: 8rem;
+    padding: 1.15rem;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.06);
   }
 
-  .interpretation-boundary span,
-  .interpretation-boundary strong {
+  .interpretation-boundary__copy span,
+  .interpretation-boundary__copy strong {
     display: block;
     font-size: 14px;
     line-height: 1.65;
   }
 
-  .interpretation-boundary span {
+  .interpretation-boundary__copy span {
     margin-bottom: 0.35rem;
-    color: #1765bd;
+    color: #8cc8ff;
     font-weight: 850;
   }
 
-  .interpretation-boundary div + div span {
-    color: #9a5b00;
+  .interpretation-boundary__copy strong {
+    color: #fff;
+  }
+
+  .interpretation-boundary figure {
+    position: relative;
+    min-height: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .interpretation-boundary figure::after {
+    position: absolute;
+    inset: 45% 0 0;
+    background: linear-gradient(180deg, transparent, rgba(3, 12, 25, 0.96));
+    content: "";
+  }
+
+  .interpretation-boundary figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 28%;
+  }
+
+  .interpretation-boundary figcaption {
+    position: absolute;
+    z-index: 1;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+  }
+
+  .interpretation-boundary figcaption strong,
+  .interpretation-boundary figcaption span,
+  .interpretation-boundary figcaption small {
+    display: block;
+  }
+
+  .interpretation-boundary figcaption strong { font-size: 15px; }
+  .interpretation-boundary figcaption span { margin-top: 0.3rem; color: #dce8f6; font-size: 13px; line-height: 1.55; }
+  .interpretation-boundary figcaption small { margin-top: 0.45rem; color: #aebed1; font-size: 13px; line-height: 1.5; }
+
+  .interpretation-boundary sup a {
+    color: #8cc8ff;
   }
 
   .shirt-closing {
@@ -1194,7 +1490,7 @@ featured: false
     }
 
     .review-frame article {
-      min-height: 0;
+      min-height: 10.5rem;
     }
 
     .review-frame__grid,
@@ -1203,10 +1499,15 @@ featured: false
     .takeover-proof,
     .interpretation-boundary {
       grid-template-columns: 1fr;
+      height: auto;
     }
 
-    .case-compare > div:not(.case-compare__head) {
-      padding: 1.15rem;
+    .case-compare > article {
+      grid-template-columns: 1fr;
+    }
+
+    .case-compare figure {
+      min-height: 17rem;
     }
 
     .exposure-chain > div {
@@ -1264,29 +1565,53 @@ featured: false
       aspect-ratio: 16 / 9;
     }
 
-    .interpretation-boundary div + div {
-      border-top: 1px solid #c8d9ed;
-      border-left: 0;
-    }
-
-    .shirt-product-study > div {
-      grid-template-columns: 1fr;
-    }
-
-    .shirt-product-study figcaption {
+    .celebrity-spread > div {
       display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 0.2rem 0.7rem;
-      padding: 1rem;
-      text-align: left;
+      grid-auto-columns: min(82vw, 20rem);
+      grid-auto-flow: column;
+      grid-template-columns: none;
+      gap: 0.75rem;
+      padding-bottom: 0.4rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
     }
 
-    .shirt-product-study figcaption b {
-      grid-row: 1 / 3;
+    .celebrity-spread figure {
+      min-height: 31rem;
+      scroll-snap-align: start;
     }
 
-    .shirt-product-study figcaption span {
-      display: block;
+    .interpretation-boundary__copy {
+      padding: 1rem 1rem 0;
+    }
+
+    .interpretation-boundary figure {
+      min-height: 30rem;
+    }
+
+    .shirt-product-study {
+      padding: 1.2rem;
+    }
+
+    .shirt-shelf {
+      grid-auto-columns: min(66vw, 16rem);
+      grid-auto-flow: column;
+      grid-template-columns: none;
+      padding-bottom: 0.45rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+
+    .shirt-shelf figure {
+      scroll-snap-align: start;
+    }
+
+    .shirt-shelf figure > div {
+      height: 17rem;
+    }
+
+    .shirt-shelf__reading {
+      grid-template-columns: 1fr;
     }
 
     .shirt-closing__steps {
