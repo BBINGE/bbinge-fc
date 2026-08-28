@@ -3,7 +3,8 @@
 // 빌드 타임에 색인한다. draft는 애초에 제외한다.
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { categories, getArticlePath } from '../../config/categories';
+import { categories, categoryList, getAncestorChain, getArticlePath, getCategoryPath } from '../../config/categories';
+import { archiveBranches } from '../../data/archive';
 
 const entries = (await getCollection('articles', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id)
@@ -21,7 +22,7 @@ const searchableBody = (body = '') => body
   .replace(/\s+/g, ' ')
   .trim();
 
-const searchIndex = [...entries.map((entry) => ({
+const articleRecords = entries.map((entry) => ({
   title: entry.data.title,
   description: entry.data.description,
   tags: entry.data.tags,
@@ -31,17 +32,111 @@ const searchIndex = [...entries.map((entry) => ({
   pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
   image: entry.data.cardImage ?? entry.data.coverImage ?? '',
   imageAlt: entry.data.coverImageAlt ?? '',
-})), ...archiveEntries.map((entry) => ({
+  topicKeys: getAncestorChain(entry.data.category).map((category) => `category:${category.slug}`),
+  year: 0,
+}));
+const archiveRecords = archiveEntries.map((entry) => ({
   title: entry.data.title,
   description: entry.data.description,
   tags: entry.data.keywords,
   context: [entry.data.year, entry.data.subject, entry.data.originalTitle ?? '', entry.data.branch, entry.data.index, searchableBody(entry.body)].join(' '),
   href: `/archive/${entry.data.branch}/${entry.data.index}/${entry.id}/`,
   categoryLabel: '삥이 아카이브',
-  pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
+  pubDate: `${entry.data.year}년 기록`,
   image: entry.data.coverImage,
   imageAlt: entry.data.coverImageAlt,
-}))];
+  topicKeys: ['archive:root', `archive:${entry.data.branch}`, `archive:${entry.data.branch}:${entry.data.index}`],
+  year: entry.data.year,
+}));
+const searchIndex = [...articleRecords, ...archiveRecords];
+
+const normalizeTopicAlias = (value: string) => value
+  .normalize('NFKC')
+  .toLocaleLowerCase('ko-KR')
+  .replace(/™/g, '')
+  .replace(/[^\p{L}\p{N}]+/gu, ' ')
+  .trim();
+const aliasesFor = (...values: string[]) => Array.from(new Set(values
+  .flatMap((value) => {
+    const normalized = normalizeTopicAlias(value);
+    const withoutOrganizer = normalized.replace(/^(fifa|uefa)\s+/u, '');
+    return [normalized, withoutOrganizer, normalized.replace(/\s+/g, '')];
+  })
+  .filter(Boolean)));
+const firstForTopic = (key: string) => searchIndex.find((record) => record.topicKeys.includes(key));
+const countForTopic = (key: string) => searchIndex.filter((record) => record.topicKeys.includes(key)).length;
+
+const categoryTopics = categoryList.map((category) => {
+  const key = `category:${category.slug}`;
+  const first = firstForTopic(key);
+  const count = countForTopic(key);
+  return count > 0 ? {
+    key,
+    label: category.label,
+    title: category.pageTitle ?? category.fullLabel,
+    description: category.description ?? `${category.fullLabel}에 관한 글을 모았습니다.`,
+    aliases: aliasesFor(category.label, category.fullLabel, category.pageTitle ?? '', category.slug),
+    href: getCategoryPath(category.slug),
+    categoryLabel: category.label,
+    pubDate: `${count}편`,
+    image: first?.image ?? '',
+    imageAlt: first?.imageAlt ?? '',
+    sortMode: 'published',
+  } : null;
+}).filter(Boolean);
+
+const archiveTopics = archiveBranches.flatMap((branch) => {
+  const branchKey = `archive:${branch.id}`;
+  const branchFirst = firstForTopic(branchKey);
+  const branchCount = countForTopic(branchKey);
+  const branchTopic = branchCount > 0 ? [{
+    key: branchKey,
+    label: branch.title,
+    title: branch.title,
+    description: branch.description,
+    aliases: aliasesFor(branch.title, branch.originalTitle, branch.id),
+    href: `/archive/${branch.id}/`,
+    categoryLabel: '삥이 아카이브',
+    pubDate: `${branchCount}편`,
+    image: branchFirst?.image ?? '',
+    imageAlt: branchFirst?.imageAlt ?? '',
+    sortMode: 'published',
+  }] : [];
+  const indexes = branch.indexes.map((index) => {
+    const key = `archive:${branch.id}:${index.slug}`;
+    const records = archiveRecords.filter((record) => record.topicKeys.includes(key)).sort((a, b) => a.year - b.year);
+    const first = records[0];
+    return records.length > 0 ? {
+      key,
+      label: index.label,
+      title: `${index.label} 아카이브`,
+      description: `${branch.title} 가운데 ${index.label}에 관한 기록을 연도순으로 모았습니다.`,
+      aliases: aliasesFor(index.label, index.slug),
+      href: `/archive/${branch.id}/${index.slug}/`,
+      categoryLabel: '삥이 아카이브',
+      pubDate: `${records.length}편`,
+      image: first.image,
+      imageAlt: first.imageAlt,
+      sortMode: 'year',
+    } : null;
+  }).filter(Boolean);
+  return [...branchTopic, ...indexes];
+});
+
+const rootFirst = firstForTopic('archive:root');
+const searchTopics = [{
+  key: 'archive:root',
+  label: '삥이 아카이브',
+  title: '삥이 아카이브',
+  description: '축구의 인물·대회·수상 기록을 당대의 이름과 자료로 연결합니다.',
+  aliases: aliasesFor('삥이 아카이브', '아카이브', 'football archive'),
+  href: '/archive/',
+  categoryLabel: '삥이 아카이브',
+  pubDate: `${archiveRecords.length}편`,
+  image: rootFirst?.image ?? '',
+  imageAlt: rootFirst?.imageAlt ?? '',
+  sortMode: 'published',
+}, ...categoryTopics, ...archiveTopics];
 ---
 
 <Layout
@@ -62,11 +157,11 @@ const searchIndex = [...entries.map((entry) => ({
     </div>
     <p id="bbfc-search-count" class="search-curation-call" role="status" aria-live="polite"></p>
     <section id="bbfc-search-primary" class="search-tier" hidden aria-labelledby="bbfc-search-primary-title">
-      <div class="search-tier__head"><span>1순위</span><h2 id="bbfc-search-primary-title">가장 가까운 결과</h2></div>
+      <div class="search-tier__head"><span id="bbfc-search-primary-kicker">1순위</span><h2 id="bbfc-search-primary-title">가장 가까운 결과</h2></div>
       <div id="bbfc-search-primary-results" class="search-explore-grid"></div>
     </section>
     <section id="bbfc-search-secondary" class="search-tier search-tier--secondary" hidden aria-labelledby="bbfc-search-secondary-title">
-      <div class="search-tier__head"><span>2순위</span><h2 id="bbfc-search-secondary-title">함께 보면 좋은 결과</h2></div>
+      <div class="search-tier__head"><span id="bbfc-search-secondary-kicker">2순위</span><h2 id="bbfc-search-secondary-title">함께 보면 좋은 결과</h2></div>
       <div id="bbfc-search-secondary-results" class="search-explore-grid"></div>
     </section>
   </div>
@@ -80,8 +175,8 @@ const searchIndex = [...entries.map((entry) => ({
   .search-prompt input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:15px; }
   .search-prompt input::placeholder { color:var(--bbfc-gray-2); }
   .search-curation-call { min-height:51px; margin:26px 0 6px; color:var(--bbfc-ink); }
-  .search-curation-call strong { display:block; font-size:20px; font-weight:720; letter-spacing:-.035em; }
-  .search-curation-call span { display:block; margin-top:4px; color:var(--bbfc-gray-2); font-size:11px; }
+  :global(.search-curation-call strong) { display:block; font-size:20px; font-weight:720; letter-spacing:-.035em; }
+  :global(.search-curation-call span) { display:block; margin-top:5px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.65; }
   .search-tier[hidden] { display:none; }
   .search-tier { margin-top:24px; }
   .search-tier--secondary { margin-top:43px; }
@@ -109,7 +204,7 @@ const searchIndex = [...entries.map((entry) => ({
   @media (max-width:767px) {
     .search-shell { padding:24px 16px 56px; }
     .search-shell h1 { font-size:20px; }
-    .search-curation-call strong { font-size:18px; }
+    :global(.search-curation-call strong) { font-size:18px; line-height:1.45; }
     .search-tier { margin-top:19px; }
     .search-tier--secondary { margin-top:34px; }
     .search-explore-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:2px; }
@@ -120,13 +215,28 @@ const searchIndex = [...entries.map((entry) => ({
   @media (prefers-reduced-motion:reduce) { .search-prompt { animation:none; } }
 </style>
 
-<script is:inline define:vars={{ searchIndex }}>
+<script is:inline define:vars={{ searchIndex, searchTopics }}>
   const input = document.getElementById('bbfc-search-input');
   const countEl = document.getElementById('bbfc-search-count');
   const primarySection = document.getElementById('bbfc-search-primary');
   const secondarySection = document.getElementById('bbfc-search-secondary');
   const primaryResults = document.getElementById('bbfc-search-primary-results');
   const secondaryResults = document.getElementById('bbfc-search-secondary-results');
+  const primaryKicker = document.getElementById('bbfc-search-primary-kicker');
+  const primaryTitle = document.getElementById('bbfc-search-primary-title');
+  const secondaryKicker = document.getElementById('bbfc-search-secondary-kicker');
+  const secondaryTitle = document.getElementById('bbfc-search-secondary-title');
+
+  const setTierLabels = (primaryLabel, primaryHeading, secondaryLabel, secondaryHeading) => {
+    primaryKicker.textContent = primaryLabel;
+    primaryTitle.textContent = primaryHeading;
+    secondaryKicker.textContent = secondaryLabel;
+    secondaryTitle.textContent = secondaryHeading;
+  };
+  const setPrimaryLayout = (count) => {
+    primaryResults.dataset.count = String(count);
+    primaryResults.style.gridTemplateColumns = count === 1 ? 'minmax(0,420px)' : count === 2 ? 'repeat(2,minmax(0,1fr))' : '';
+  };
 
   function render(query) {
     const normalize = (value) => String(value ?? '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
@@ -155,6 +265,7 @@ const searchIndex = [...entries.map((entry) => ({
       primarySection.hidden = true;
       secondarySection.hidden = true;
       countEl.textContent = '';
+      setTierLabels('1순위', '가장 가까운 결과', '2순위', '함께 보면 좋은 결과');
       return;
     }
     const stopwords = ['왜', '뭐', '어떤', '이런', '저런', '그런', '인가요', '축구', '싶어', '싶어요', '싶다', '보고', '보러', '가고', '가요', '알려줘', '해줘'];
@@ -196,6 +307,37 @@ const searchIndex = [...entries.map((entry) => ({
         </span>
       </a>`;
 
+    const topicQuery = q.split(/\s+/)
+      .filter((token) => !['전체', '기록', '아카이브', '모음', '보여줘', '찾아줘'].includes(token))
+      .join(' ')
+      .trim();
+    const topicAliases = new Set([topicQuery, compact(topicQuery)]);
+    const matchedTopics = /(?:18|19|20)\d{2}/u.test(q)
+      ? []
+      : searchTopics.filter((topic) => topic.aliases.some((alias) => topicAliases.has(alias)));
+
+    if (matchedTopics.length > 0) {
+      const keys = new Set(matchedTopics.map((topic) => topic.key));
+      const seen = new Set();
+      let topicRecords = searchIndex.filter((item) => {
+        if (!item.topicKeys.some((key) => keys.has(key)) || seen.has(item.href)) return false;
+        seen.add(item.href);
+        return true;
+      });
+      const isSingleYearSeries = matchedTopics.length === 1 && matchedTopics[0].sortMode === 'year';
+      if (isSingleYearSeries) topicRecords = [...topicRecords].sort((a, b) => a.year - b.year);
+      const records = topicRecords.slice(0, 9);
+      const topicLabel = matchedTopics.length === 1 ? matchedTopics[0].label : topicQuery;
+      countEl.innerHTML = `<strong>${escapeHtml(topicLabel)} 기록을 찾으시는 것 같아요..!</strong><span>순위를 억지로 나누지 않고, 주제 입구와 그 안의 기록을 함께 불러왔어요.</span>`;
+      setTierLabels('주제', '전체 보기', isSingleYearSeries ? '연도순' : '기록', isSingleYearSeries ? '처음부터 이어 보기' : '이 주제의 기록');
+      primaryResults.innerHTML = matchedTopics.slice(0, 3).map(card).join('');
+      setPrimaryLayout(Math.min(matchedTopics.length, 3));
+      secondaryResults.innerHTML = records.map(card).join('');
+      primarySection.hidden = false;
+      secondarySection.hidden = records.length === 0;
+      return;
+    }
+
     if (!relevant.length) {
       primaryResults.innerHTML = '';
       secondaryResults.innerHTML = '';
@@ -210,9 +352,9 @@ const searchIndex = [...entries.map((entry) => ({
     const primaryHrefs = new Set(primary.map((item) => item.href));
     const secondary = relevant.filter((item) => !primaryHrefs.has(item.href)).slice(0, 6);
     countEl.innerHTML = `<strong>아마 이런 걸 찾으시는 것 같아요..!</strong><span>삥이FC 전체 기록에서 ‘${escapeHtml(query)}’에 가까운 순서로 골랐어요.</span>`;
+    setTierLabels('1순위', '가장 가까운 결과', '2순위', '함께 보면 좋은 결과');
     primaryResults.innerHTML = primary.map(card).join('');
-    primaryResults.dataset.count = String(primary.length);
-    primaryResults.style.gridTemplateColumns = primary.length === 1 ? 'minmax(0,420px)' : primary.length === 2 ? 'repeat(2,minmax(0,1fr))' : '';
+    setPrimaryLayout(primary.length);
     secondaryResults.innerHTML = secondary.map(card).join('');
     primarySection.hidden = false;
     secondarySection.hidden = secondary.length === 0;
