@@ -4,9 +4,12 @@
 
 1. `BBINGE_FC_BRIEF.md` — 프로젝트의 단일 설계 기준 (브랜드·구조·성능 원칙)
 2. `CLAUDE.md` — 장기 운영 규칙
-3. `EDITORIAL_ASSET_POLICY.md` — 콘텐츠·편집물·썸네일·저작권·AdSense 판단 기준
-4. `PLAYER_ARCHIVE_RULES.md` — 선수 인물 아카이브 원고·표기·기록·사진·발행 필수 규칙
-5. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
+3. `EDITORIAL_RISK_GATE.md` — 저작권·AdSense·이미지·영상 감사의 증거 등급과 금지된 오판
+4. `EDITORIAL_ASSET_POLICY.md` — 콘텐츠·편집물·썸네일·저작권·AdSense 판단 기준
+5. `PLAYER_ARCHIVE_RULES.md` — 선수 인물 아카이브 원고·표기·기록·사진·발행 필수 규칙
+6. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
+
+저작권, 이미지, 영상, 출처, AdSense, 저가치 콘텐츠, 사이트 위험을 묻거나 감사할 때는 답변 전에 `EDITORIAL_RISK_GATE.md`의 A·B·C 등급을 실제 대상에 적용한다. 구체적 외부 신호가 없는 C등급 가능성을 오류나 수정 과제로 보고하지 않으며, 운영자에게 사진·영상의 필요성과 사이트의 가치를 다시 해명하게 하지 않는다.
 
 ## 작업 시작
 
@@ -14,12 +17,14 @@
 git fetch origin
 git status --short --branch
 git log -10 --oneline
+npm run validate:risk-gate
 ```
 
 - 기준 브랜치는 `main`이다.
 - 원격보다 뒤처졌고 로컬 변경이 없다면 `git pull --ff-only origin main`으로 최신화한다.
 - 사용자의 변경이나 출처가 불분명한 변경은 덮어쓰거나 삭제하지 않는다.
 - 공개 저장소이므로 비밀번호, 토큰, API 키, OAuth 시크릿, 배포 훅 URL을 파일에 기록하지 않는다. 비밀값은 Cloudflare Pages 환경변수와 GitHub Secrets에만 존재한다.
+- 시작 검사가 통과해도 `EDITORIAL_RISK_GATE.md` 읽기를 생략하지 않는다. 검사는 필수 규약이 진입점과 빌드에서 떨어져 나가지 않았는지 확인하는 회귀 방지 장치다.
 
 ## 작업 중
 
@@ -27,6 +32,7 @@ git log -10 --oneline
 - 브리프의 기술 스택(Astro + Cloudflare Pages, 백엔드 없음, Tailwind)을 임의로 바꾸지 않는다.
 - 확정된 브랜드 문구, 카테고리 구조, 운영자가 작성한 글 본문을 요청 없이 수정하지 않는다.
 - 논의·질문은 구현 승인으로 간주하지 않는다.
+- 저작권·AdSense 감사를 수행하거나 관련 운영 문서를 바꾼 작업은 `npm run validate:risk-gate`를 통과시킨다.
 - CMS(`public/admin/`, `functions/`)를 수정할 때는 Sveltia CMS 설정과 GitHub OAuth 흐름의 호환성을 함께 확인한다.
 - 선수 인물 글을 조사·수정·발행할 때는 `PLAYER_ARCHIVE_RULES.md`의 체크리스트를 생략하지 않는다.
 - 선수 인물 글의 개인 수상·기록·등번호를 수정하기 전에는 카푸와 카카의 같은 섹션을 실제 파일에서 대조한다. `통일`을 새 해설·새 항목을 늘리라는 뜻으로 재해석하지 않는다.
