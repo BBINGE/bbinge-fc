@@ -22,9 +22,9 @@ faq:
     answer: '가능하다. Campo Testaccio, Piazza della Libertà, Stadio Flaminio, Ponte Milvio와 Foro Italico는 두 클럽의 도시사를 읽는 장소다. 실제 경기가 없다면 올림피코 투어 또는 구단 공식 일정으로 대체한다.'
 ---
 
-로마에는 홈이 하나이고 고향이 둘이다. AS 로마<span class="foreign-note" lang="it">(Associazione Sportiva Roma)</span>와 SS 라치오<span class="foreign-note" lang="it">(Società Sportiva Lazio)</span>는 지금도 스타디오 올림피코<span class="foreign-note" lang="it">(Stadio Olimpico; 로마 북부 Foro Italico의 국립 종합경기장)</span>를 함께 쓴다. 홈경기 날짜가 바뀌면 같은 콘크리트와 육상 트랙, 두 개의 곡선형 관중석이 전혀 다른 색으로 채워진다.
+로마에서 축구 경기를 한 번 보고 싶다면 먼저 달력을 살펴보자. AS 로마<span class="foreign-note" lang="it">(Associazione Sportiva Roma)</span>와 SS 라치오<span class="foreign-note" lang="it">(Società Sportiva Lazio)</span>는 지금도 스타디오 올림피코<span class="foreign-note" lang="it">(Stadio Olimpico; 로마 북부 Foro Italico의 국립 종합경기장)</span>를 함께 쓰기 때문이다. AS 로마의 홈경기 날에는 붉고 노란 머플러가, 라치오의 경기 날에는 흰색과 하늘색 깃발이 같은 콘크리트와 육상 트랙을 전혀 다른 풍경으로 바꾼다.
 
-같은 경기장을 쓴다고 두 팀의 로마까지 같아지는 것은 아니다. AS 로마는 남쪽 Testaccio의 목조 관중석을 고향으로 기억하고, 라치오는 테베레강 북쪽 Piazza della Libertà의 벤치를 창립 장소로 기념한다. 공동의 홈보다 각자의 출발점이 먼저 있는 셈이다.
+그런데 두 팀의 이야기는 올림피코에서 시작하지 않는다. AS 로마 팬들은 남쪽 Testaccio의 목조 관중석을 첫 고향으로 기억하고, 라치오 팬들은 테베레강 북쪽 Piazza della Libertà의 벤치를 창립 장소로 기념한다. 그래서 이 여행은 한 경기장을 향해 곧장 북쪽으로 올라가기보다, 서로 다른 두 출발점을 먼저 걸어보는 편이 재미있다.
 
 더구나 2026년에는 이 오래된 동거가 한층 임시적으로 보인다. AS 로마는 올림피코 사용 계약을 2027-28시즌까지 연장하면서 이 경기장을 Pietralata의 새 홈으로 가는 ‘다리’라고 불렀다. 같은 해 2월 라치오는 Stadio Flaminio 재개발안을 발표했고, 5월에는 로마시의 예비 관계기관 회의가 시작됐다. 두 구단이 나란히 자기 경기장을 말하기 시작했으니, 공동의 집으로 향하기 전에 서로 다른 출발점을 걸어볼 이유도 분명해졌다.
 
@@ -60,10 +60,10 @@ faq:
   <section style="--journey-image:url('/images/pilgrimage/rome-travel-7/stadio-olimpico.jpg')"><span>MATCHDAY · SHARED HOME</span><strong>같은 경기장의 다른 로마</strong><small>Foro Italico · Curva Nord · Curva Sud</small></section>
 </div></div>
 
-이 여행은 어느 팀을 고를지 묻는 시험이 아니다. 남쪽에서 AS 로마의 기억을 읽고 북쪽에서 라치오의 시작을 확인한 뒤, 두 선이 올림피코에서 합쳐지는 구조를 보는 일이다. 로마 더비<span class="foreign-note" lang="it">(Derby della Capitale; 수도의 두 구단이 맞붙는 경기)</span>가 아닌 날에도 동선은 성립한다. 오히려 한쪽의 홈경기를 보러 갔을 때 다른 쪽의 출발점까지 걸어야, 이 도시의 축구가 단순한 색깔 싸움보다 오래되었다는 사실이 드러난다.
+축구팀을 잘 몰라도 이 동선은 어렵지 않다. 첫날에는 남쪽 Testaccio에서 AS 로마의 옛 동네를 걷고, 둘째 날에는 라치오가 태어난 강 북쪽으로 올라간다. 그러면 서로 멀리 떨어져 있던 두 길이 경기일 저녁 올림피코 앞에서 자연스럽게 합쳐진다. 로마 더비<span class="foreign-note" lang="it">(Derby della Capitale; 수도의 두 구단이 맞붙는 경기)</span>가 없는 주말에도 충분히 걸을 수 있고, 한쪽의 홈경기만 보더라도 다른 팀의 출발점을 함께 보면 머플러 색 너머의 로마가 훨씬 또렷해진다.
 
 <section class="rome-desire" aria-labelledby="rome-desire-title">
-  <header><span>ROME BETWEEN MATCHDAYS</span><h2 id="rome-desire-title">경기 없는 몇 시간까지 로마다</h2><p>첫날 Testaccio를 다 본 뒤에는 트라스테베레의 카페로 건너간다. 둘째 날 Flaminio에서 조금 남쪽으로 내려오면 핀초 테라스에 해가 걸린다. 축구를 좋아하는 사람에게는 동선을 잇는 여백이고, 동행에게는 로마에 온 이유가 된다.</p></header>
+  <header><span>ROME BETWEEN MATCHDAYS</span><h2 id="rome-desire-title">경기가 없는 저녁엔 트라스테베레로 가보세요</h2><p>첫날 Testaccio를 다 본 뒤에는 강을 건너 트라스테베레의 카페에 앉는다. 둘째 날 Flaminio에서 조금 남쪽으로 내려오면 핀초 테라스에 해가 걸린다. 축구 팬은 다음 장소로 가는 길에 숨을 고를 수 있고, 동행은 로마에 온 이유를 자기 방식으로 하나 더 얻게 된다.</p></header>
   <div>
     <figure><img src="/images/pilgrimage/rome-football-city/rome-pincio-sunset.webp" alt="소나무 사이로 성베드로 대성당의 돔과 로마의 석양이 보이는 핀초 테라스" width="1400" height="1050" loading="lazy" /><figcaption><span>18:06 · PINCIO</span><strong>경기 전날의 석양</strong><small>핀초 테라스에서 성베드로 대성당 방향을 본다. 사진: Radek Kucharski, CC BY 2.0.</small></figcaption></figure>
     <figure><img src="/images/pilgrimage/rome-football-city/rome-trastevere-cafe.webp" alt="주황색 벽과 초록 식물 사이 야외 테이블에 사람들이 앉아 있는 트라스테베레의 카페" width="1400" height="1050" loading="lazy" /><figcaption><span>15:30 · TRASTEVERE</span><strong>한 잔이 길어지는 골목</strong><small>Testaccio에서 강을 건넌 오후의 카페. 사진: Jorge Franganillo, CC BY 2.0.</small></figcaption></figure>
@@ -71,43 +71,43 @@ faq:
 </section>
 
 <section class="rome-trevi-story" aria-labelledby="rome-trevi-title">
-  <header><span>ROME AFTER DARK · TREVI</span><h2 id="rome-trevi-title">동전을 던진 뒤, 디발라는 반지를 꺼냈다</h2><p>2023년 10월, 당시 AS 로마 선수 파울로 디발라<span class="foreign-note" lang="es">(Paulo Dybala)</span>는 가수 겸 배우 오리아나 사바티니<span class="foreign-note" lang="es">(Oriana Sabatini)</span>에게 트레비 분수 앞에서 청혼했다. 사바티니가 동전을 던지는 사이 레안드로 파레데스가 휴대전화를 들었고, 화면 뒤에는 알바로 모라타와 앨리스 캄펠로도 보인다. 그날의 로마는 디발라에게 경기 도시이자 자기 인생의 무대가 되었다.</p></header>
+  <header><span>ROME AFTER DARK · TREVI</span><h2 id="rome-trevi-title">트레비 분수에 동전을 던지면 사랑이 이루어진대요 🪙💍</h2><p>2023년 10월에는 이 유명한 속설 위로 실제 청혼 장면 하나가 더해졌다. 당시 AS 로마에서 뛰던 파울로 디발라<span class="foreign-note" lang="es">(Paulo Exequiel Dybala; 아르헨티나 축구 선수, 1993년생)</span>가 연인이자 아르헨티나 가수 겸 배우인 오리아나 사바티니<span class="foreign-note" lang="es">(Oriana Gabriela Sabatini; 아르헨티나 가수·배우, 1996년생)</span>에게 트레비 분수 앞에서 반지를 건넨 것이다. 사바티니가 분수를 등지고 동전을 던지는 동안 디발라의 오랜 친구 알바로 모라타<span class="foreign-note" lang="es">(Álvaro Borja Morata Martín; 스페인 축구 선수, 1992년생)</span> 부부가 곁에서 지켜봤고, AS 로마 동료 레안드로 파레데스<span class="foreign-note" lang="es">(Leandro Daniel Paredes; 아르헨티나 축구 선수, 1994년생)</span>가 휴대전화로 그 순간을 촬영했다. 여행객들 사이에서 시작된 청혼은 파레데스가 공개한 영상과 함께 세상에 알려졌다.</p></header>
   <div>
     <figure><img src="/images/pilgrimage/rome-football-city/rome-trevi-night.webp" alt="밤에 밝게 빛나는 로마 트레비 분수의 조각과 흐르는 물" width="1200" height="1600" loading="lazy" /><figcaption>2025년 11월의 트레비 분수. 사진: NovaEmicss, CC0.</figcaption></figure>
     <div class="rome-trevi-story__reel"><div class="rome-trevi-story__player" data-inline-video data-video-src="https://www.instagram.com/p/CzEXUv_IJDu/embed/captioned/"><button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 파울로 디발라의 트레비 분수 청혼 캐러셀 보기"><img src="/images/pilgrimage/rome-football-city/rome-dybala-proposal-poster.jpg" alt="트레비 분수 앞에서 입을 맞추는 파울로 디발라와 오리아나 사바티니를 담은 Sky Sport 캐러셀 표지" width="1440" height="1800" loading="lazy" /><span><b aria-hidden="true">＋</b><small>SKY SPORT · INSTAGRAM</small><strong>캐러셀 보기</strong></span></button><div class="inline-video__player" hidden><iframe title="파울로 디발라와 오리아나 사바티니의 트레비 분수 청혼 Instagram 캐러셀" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture" allowtransparency="true"></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="디발라의 트레비 분수 청혼 캐러셀 닫기">×</button></div></div><p>Sky Sport Italia가 사진과 레안드로 파레데스의 촬영 영상을 함께 묶은 Instagram 캐러셀이다. <a href="https://www.instagram.com/p/CzEXUv_IJDu/">원문 캐러셀 보기 <b aria-hidden="true">↗</b></a></p></div>
   </div>
 </section>
 
-<h2 id="testaccio">1. Testaccio에서 AS 로마가 ‘로마의 팀’이 된 방식을 본다</h2>
+<h2 id="testaccio">1. AS 로마의 첫 번째 집은 골목 사이에 있었어요</h2>
 
 **시작점** · Via Nicola Zabaglia의 Campo Testaccio 옛터<br />
 **함께 걷기** · Piazza Testaccio → Monte dei Cocci → 옛 경기장 터
 
-AS 로마는 1927년 Alba-Audace, Fortitudo-ProRoma, Football Club di Roma가 합쳐져 만들어졌다. 새 구단은 도시의 전통색인 노랑과 빨강, 카피톨리누스의 늑대를 가져왔지만 상징만으로 곧장 ‘로마의 팀’이 된 것은 아니었다. 창단 두 해 뒤 들어간 Campo Testaccio가 그 표식을 관중의 생활권에 내려놓았다. 1929년부터 1940년까지 사용한 목조 경기장은 Testaccio의 주택과 작업장 사이에 있었고, AS 로마 공식사는 이곳을 초기 로마니스타의 자부심이 드러난 장소로 기록한다.
+AS 로마는 1927년 Alba-Audace, Fortitudo-ProRoma, Football Club di Roma가 합쳐지며 태어났다. 새 구단은 도시의 전통색인 노랑과 빨강, 카피톨리누스의 늑대를 품었다. 여기에 창단 두 해 뒤 들어간 Campo Testaccio가 사람들의 생활까지 보탰다. 1929년부터 1940년까지 사용한 목조 경기장은 Testaccio의 주택과 작업장 사이에 있었고, AS 로마 공식사는 이곳을 초기 로마니스타의 자부심이 드러난 장소로 기록한다.
 
-그렇다고 Testaccio를 ‘서민 동네’라는 한 문장으로 접어서는 안 된다. 고대에는 테베레강을 통해 들어온 기름 항아리가 쌓였고, 19세기 말에는 Ostiense의 산업과 도살장 주변에 노동자 주거지가 형성됐다. 물류와 생산, 공동주택, 시장이 겹친 동네 한가운데 축구장이 들어왔다. 경기장이 동네를 상징했다기보다 동네의 생활 방식이 경기장의 관중 문화를 만들었다고 보는 편이 정확하다.
+Testaccio를 걷다 보면 이곳을 흔히 말하는 ‘서민 동네’ 한마디로 묶기 어려운 이유도 보인다. 고대에는 테베레강을 통해 들어온 기름 항아리가 쌓였고, 19세기 말에는 Ostiense의 산업과 도살장 주변에 노동자 주거지가 형성됐다. 물류와 생산, 공동주택과 시장이 겹친 동네 한가운데 축구장이 들어왔으니, 주민의 생활 방식이 관중 문화로 이어지는 데에도 오랜 시간이 필요하지 않았다.
 
 <div class="journey-image-pair"><figure><img src="/images/pilgrimage/rome-football-city/testaccio.webp" alt="주황색 건물과 빨래, 작은 정원이 보이는 로마 Testaccio의 주거 공간" width="1800" height="1200" loading="lazy" /><figcaption>관광 기념물보다 주거와 시장의 리듬이 먼저 읽히는 Testaccio. 사진: Turismo Roma.</figcaption></figure><figure><img src="/images/pilgrimage/rome-football-city/as-roma-foundation.webp" alt="초기 AS 로마 유니폼을 입고 경기 중인 아틸리오 페라리스" width="1460" height="730" loading="lazy" /><figcaption>로마 도심 Borgo Pio 출신으로 초기 AS 로마의 얼굴이 된 아틸리오 페라리스. 사진: AS Roma 공식 역사 아카이브.</figcaption></figure></div>
 
 Campo Testaccio의 원형은 남아 있지 않다. 이곳에서 여행자는 웅장한 유적을 확인하는 대신, 사라진 경기장이 왜 계속 ‘진짜 집’으로 불리는지를 동네의 크기와 거리에서 가늠하게 된다. 올림피코의 7만 석보다 작은 빈자리가 AS 로마의 기원에 더 가깝다는 역설이 첫날의 핵심이다.
 
-<h2 id="testaccio-table">2. 점심은 Testaccio에서 도시의 공급망을 먹는다</h2>
+<h2 id="testaccio-table">2. 테스타초 시장에서는 로마식 점심을 골라보세요</h2>
 
 Campo Testaccio의 빈자리를 보았다면 점심은 Mercato Testaccio<span class="foreign-note" lang="it">(테스타초 구역 시장)</span>로 이어진다. 이곳은 여행자용 ‘로마 음식 모음’보다 동네의 역사를 압축한다. 시장 지하에는 고대 항구 Emporium의 창고와 재사용된 암포라 유구가 남아 있고, 지상에서는 내장 요리와 빵, 채소, 치즈가 팔린다. 도살장과 노동자 주거지의 식문화가 오늘의 푸드 마켓 안에서 다시 상품이 된 셈이다.
 
-다만 경기 당일에 이곳을 넣지는 않는다. Testaccio에서 올림피코까지는 도시를 남북으로 가로질러야 하고, 입장 시간과 교통 통제까지 겹치면 원고의 논증은 좋아도 실제 여행은 나빠진다. 첫날 점심에 시장을 보고 오후에는 Monte dei Cocci와 Campo Testaccio 옛터를 걷는 편이 안전하다.
+시장과 옛 경기장 터는 첫날에 함께 보는 편이 여유롭다. Testaccio에서 올림피코까지는 도시를 남북으로 가로질러야 해서, 경기 당일에는 입장 시간과 교통 통제까지 신경 써야 하기 때문이다. 첫날 점심에 시장을 둘러보고 오후에 Monte dei Cocci와 Campo Testaccio 옛터를 걸으면 음식과 동네 이야기도 서두르지 않고 즐길 수 있다.
 
 <div class="journey-note"><span>첫날의 실제 선택</span><p>Mercato Testaccio는 점포별 영업일과 시간이 다르다. 늦은 오후보다 점심에 방문하고, 월요일·공휴일 일정은 공식 채널에서 다시 확인한다. AS 로마 홈경기만 보고 싶더라도 Testaccio를 경기일과 분리해야 도시와 축구를 모두 놓치지 않는다.</p></div>
 
-<h2 id="liberta">3. Piazza della Libertà에서는 라치오가 ‘먼저’였다는 사실부터 시작한다</h2>
+<h2 id="liberta">3. 라치오는 강 북쪽의 벤치에서 시작됐어요</h2>
 
 라치오는 AS 로마보다 27년 먼저 태어났다. Luigi Bigiarelli를 포함한 아홉 명이 1900년 1월 9일 Piazza della Libertà의 벤치에서 Società Podistica Lazio<span class="foreign-note" lang="it">(라치오 육상회)</span>를 만들었다. 처음부터 축구단이었던 것도 아니다. 달리기 대회에 단체로 참가하기 위해 조직됐고, 수영과 조정, 하이킹을 거쳐 1901년에 football을 받아들였다. 흰색과 하늘색은 고대 로마보다 근대 올림픽의 고향 그리스를 가리켰다.
 
-여기서 곧장 남과 북의 계급 지도를 그리는 일은 조심해야 한다. AS 로마를 남쪽의 노동자, 라치오를 북쪽의 부유층으로 완전히 나누면 현재 팬의 거주와 이동, 세대별 기억이 지워진다. 확인할 수 있는 것은 두 클럽이 서로 다른 시기와 방식으로 도시 안에 자리를 얻었다는 사실이다. 라치오는 다종목 스포츠회로 강 북쪽을 이동했고, AS 로마는 여러 구단의 통합과 Campo Testaccio를 통해 도시의 대표성을 빠르게 조직했다. 더비의 문구는 그 복잡한 역사를 경기 때마다 단순한 우열로 다시 편집한다.
+이 이야기를 남과 북의 계급 지도로 곧장 옮기면 현재 팬의 거주와 이동, 세대별 기억이 사라진다. AS 로마는 남쪽 노동자의 팀, 라치오는 북쪽 부유층의 팀이라는 구분만으로 오늘의 로마를 모두 설명하기 어렵다. 두 클럽은 서로 다른 시기와 방식으로 도시 안에 자리를 얻었다. 라치오는 다종목 스포츠회로 강 북쪽을 이동했고, AS 로마는 여러 구단의 통합과 Campo Testaccio를 통해 도시의 대표성을 빠르게 조직했다. 더비의 문구는 그 복잡한 역사를 경기 때마다 단순한 우열로 다시 편집한다.
 
 <div class="journey-image-pair journey-image-pair--history"><figure><img src="/images/pilgrimage/rome-football-city/lazio-founders.webp" alt="베르살리에리 군모를 쓴 라치오 창립자 루이지 비자렐리의 흑백 초상" width="1600" height="1200" loading="lazy" /><figcaption>라치오 창립을 주도한 육상 선수 Luigi Bigiarelli. 사진: S.S. Lazio 공식 역사 아카이브.</figcaption></figure><figure><img src="/images/pilgrimage/rome-football-city/lazio-farnesina.webp" alt="1912년 로마 북부 Farnesina의 흙 경기장에서 축구하는 라치오 선수들" width="1600" height="1200" loading="lazy" /><figcaption>1912년경 Farnesina의 경기장. 라치오는 Ponte Milvio 너머 북쪽으로 일찍 이동했다. 사진: S.S. Lazio 공식 역사 아카이브.</figcaption></figure></div>
 
-<h2 id="flaminio">4. Stadio Flaminio에서 두 클럽이 다시 갈라지려는 현재를 본다</h2>
+<h2 id="flaminio">4. 라치오는 왜 플라미니오로 돌아가려 할까요?</h2>
 
 Piazza della Libertà에서 북쪽으로 올라가면 Stadio Flaminio<span class="foreign-note" lang="it">(스타디오 플라미니오)</span>가 나온다. Pier Luigi Nervi와 Antonio Nervi가 1960년 로마 올림픽을 위해 설계한 경기장이다. 이 자리의 전신 Stadio Nazionale은 1953년까지 AS 로마와 라치오가 사용했고, 올림피코가 1990 FIFA 월드컵을 앞두고 공사할 때 두 팀은 다시 Flaminio에서 한 시즌을 보냈다.
 
@@ -115,15 +115,15 @@ Piazza della Libertà에서 북쪽으로 올라가면 Stadio Flaminio<span class
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rome-football-city/flaminio-project.webp" alt="라치오가 2026년 공개한 Stadio Flaminio 재개발안의 야간 외관 렌더링" width="1320" height="742" loading="lazy" /><figcaption>2026년 2월 공개된 라치오의 Flaminio 재개발 구상. 제안 단계의 이미지이며 완공된 경기장이 아니다. 이미지: S.S. Lazio.</figcaption></figure>
 
-<h2 id="milvio">5. Ponte Milvio에서 경기일의 북쪽 입구를 고른다</h2>
+<h2 id="milvio">5. 경기 두 시간 전, 폰테 밀비오에서 먼저 저녁을 드세요</h2>
 
-Flaminio에서 올림피코로 향하는 길은 Ponte Milvio<span class="foreign-note" lang="it">(폰테 밀비오; 테베레강 북쪽의 고대 교량)</span>를 지나며 경기일의 리듬으로 바뀐다. 이 다리는 사진을 찍기 위한 우회로가 아니라 Flaminia·Cassia 방면 길이 만났던 전략적 통로였고, 오늘은 보행교와 식당·바가 모인 경기 전 집결지다. Campo Testaccio에서 시작한 남쪽의 기억과 Piazza della Libertà에서 출발한 북쪽의 기억도 이 지점부터 같은 올림피코 동선으로 들어간다.
+Flaminio에서 올림피코로 향하다 보면 Ponte Milvio<span class="foreign-note" lang="it">(폰테 밀비오; 테베레강 북쪽의 고대 교량)</span>에서 여행의 속도가 달라진다. 고대에는 Flaminia·Cassia 방면의 길이 만나던 전략적 통로였고, 오늘은 보행교 주변의 식당과 바에 관중이 모이는 경기 전 집결지다. 다리 위에서 사진을 찍고 이른 저녁을 먹은 뒤 머플러 행렬을 따라가면, Campo Testaccio와 Piazza della Libertà에서 출발한 두 이야기도 어느새 같은 올림피코 동선으로 들어온다.
 
 경기 시작 2시간 전쯤 이곳에 도착하면 식사와 입장 시간을 분리할 수 있다. 다리 위에서 머플러와 셔츠의 비율을 보고 그날 어느 팀이 도시의 북쪽을 점유했는지도 체감하게 된다. 더비 날에는 이 낭만적인 산책로를 평소처럼 소비하면 안 된다. 구단·경찰·교통기관의 동선 분리와 통제 공지를 우선하고, 상대 팀 색을 입고 지정 구역을 거슬러 이동하지 않는다.
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rome-football-city/ponte-milvio.webp" alt="테베레강 위 Ponte Milvio의 고대 석조 아치와 Torretta Valadier" width="1800" height="1013" loading="lazy" /><figcaption>올림피코 북동쪽의 경기일 관문 Ponte Milvio. 사진: Turismo Roma, Zètema.</figcaption></figure>
 
-<h2 id="foro">6. Foro Italico의 아름다움은 그 정치적 기원을 지우지 않는다</h2>
+<h2 id="foro">6. 아름다운 포로 이탈리코에는 불편한 역사도 남아 있어요</h2>
 
 Ponte Milvio의 식당과 머플러 행렬을 지나 올림피코에 가까워지면 풍경의 성격이 다시 바뀐다. 대리석과 모자이크, 거대한 인체가 먼저 관중을 맞는다. Foro Italico<span class="foreign-note" lang="it">(포로 이탈리코; 1943년 이전 명칭 Foro Mussolini)</span>는 1920년대 말 Opera Nazionale Balilla<span class="foreign-note" lang="it">(파시스트 청소년 조직)</span>의 Renato Ricci가 기획하고 Enrico Del Debbio 등이 설계했다. 젊은 신체를 규율과 국가의 이상에 연결하려는 정치적 교육 공간이었다.
 
@@ -131,9 +131,9 @@ Stadio dei Marmi<span class="foreign-note" lang="it">(스타디오 데이 마르
 
 <figure class="journey-wide journey-wide--portrait"><img src="/images/pilgrimage/rome-football-city/foro-italico.webp" alt="푸른 하늘을 배경으로 원반을 든 Foro Italico Stadio dei Marmi의 대리석 선수상" width="1800" height="1013" loading="lazy" /><figcaption>스포츠 신체를 국가의 기념비로 만든 Stadio dei Marmi의 선수상. 사진: Turismo Roma.</figcaption></figure>
 
-이 불편한 연속성을 보지 않으면 올림피코는 ‘로마와 라치오가 함께 쓰는 큰 경기장’으로만 남는다. 반대로 건축의 출신만으로 오늘의 모든 팬 문화를 파시즘과 동일시해도 현재를 놓친다. 같은 공간은 왕정, 독재, 공화국, 올림픽, 월드컵, 두 클럽의 홈경기를 차례로 수용했다. 축행의 역할은 어느 한 시대를 지우는 대신 겹친 시간을 눈앞의 동선으로 보여주는 데 있다.
+그래서 포로 이탈리코에서는 대리석의 아름다움과 그 아름다움을 만든 정치적 의도를 함께 보게 된다. 이후 이 공간은 왕정과 독재를 지나 공화국의 올림픽과 월드컵, 두 클럽의 홈경기까지 차례로 받아들였다. 오늘의 팬 문화를 과거의 파시즘과 같은 것으로 볼 수는 없지만, 관중이 어떤 역사 위를 걸어 경기장에 들어가는지 알고 나면 올림피코의 풍경은 훨씬 입체적으로 보인다.
 
-<h2 id="olimpico">7. 올림피코에서는 같은 구조가 두 개의 홈으로 작동한다</h2>
+<h2 id="olimpico">7. 같은 올림피코가 두 팀의 홈이 되는 순간</h2>
 
 **개장** · 1953년 5월 17일<br />
 **현재 공식 수용 규모** · 70,634석<br />
@@ -149,7 +149,7 @@ Stadio dei Marmi<span class="foreign-note" lang="it">(스타디오 데이 마르
 
 ### 소리를 알고 들어가면 경기장이 빨리 열린다
 
-AS 로마 홈경기를 고른다면 Antonello Venditti의 ‘Roma Roma Roma’를 미리 들어두자. 노래의 역사나 가사를 외우는 일보다, 경기 직전 수만 명이 같은 속도로 제목을 길게 끌어 부를 때 언제 카메라를 내리고 귀로 들어야 하는지 아는 데 의미가 있다. 라치오 홈경기라면 구단이 공지하는 입장 음악과 Curva Nord의 호흡을 따로 확인해야 한다. 하나의 경기장이라고 소리까지 같지는 않다.
+AS 로마 홈경기를 골랐다면 Antonello Venditti의 ‘Roma Roma Roma’를 미리 한 번 들어보자. 역사나 가사를 모두 외울 필요는 없다. 경기 직전 수만 명이 같은 속도로 제목을 길게 끌어 부를 때 카메라를 잠시 내리고 그 소리를 듣는 것만으로도 충분하다. 라치오 홈경기에서는 구단이 공지하는 입장 음악과 Curva Nord의 호흡이 또 다른 분위기를 만든다. 같은 경기장에서도 홈팀이 달라지면 들리는 로마도 달라진다.
 
 <div class="journey-video-callout"><span>소리를 켜고</span><strong>경기장은 관중이 완성한다</strong><p>AS 로마의 홈경기에서 ‘Roma Roma Roma’가 울리는 장면. 사진으로 보이지 않는 공동의 호흡이 올림피코를 로마의 홈으로 바꾼다.</p></div>
 
@@ -157,7 +157,7 @@ AS 로마 홈경기를 고른다면 Antonello Venditti의 ‘Roma Roma Roma’�
 
 <div class="journey-note"><span>경기일 이동</span><p>티켓의 구단·게이트·좌석 구역을 먼저 확인하고 경기 시작 90분 전에는 Foro Italico 권역에 도착한다. 더비와 고위험 경기에서는 평소 교통 정보보다 구단과 Roma Mobilità의 당일 공지가 우선한다. 경기 종료 뒤 Ponte Milvio·Flaminio 방향의 인파가 한꺼번에 움직이므로 막차 한 편에 맞춘 일정은 피한다.</p></div>
 
-## 숙소는 어느 팀을 응원하느냐보다 하루를 어떻게 쓸지로 고른다
+## 숙소는 경기 없는 시간까지 생각해서 골라보세요
 
 <div class="journey-stays journey-stays--rome">
   <article class="journey-stay journey-stay--pick"><figure><img src="/images/pilgrimage/rome-football-city/ponte-milvio.webp" alt="Ponte Milvio와 테베레강 북쪽의 Flaminio·Prati 숙박 권역" width="1800" height="1013" loading="lazy" /><figcaption>경기장과 도심 사이의 균형점인 Flaminio·Prati 권역.</figcaption></figure><div><span>동선 균형</span><strong>Prati · Flaminio</strong><p>Piazza della Libertà와 Stadio Flaminio를 걸을 수 있고, 올림피코와 역사 중심부 사이의 이동도 비교적 단순하다.</p><small>추천 · 축구와 첫 로마 여행을 함께 할 때</small></div></article>
@@ -167,7 +167,7 @@ AS 로마 홈경기를 고른다면 Antonello Venditti의 ‘Roma Roma Roma’�
 
 둘이 함께 가고 한 사람만 축구 팬이라면 Prati·Flaminio가 가장 무난하다. 한 사람에게는 클럽의 기원과 경기장 이동이 이어지고, 다른 사람에게는 바티칸과 역사 중심부로 갈 선택지가 남는다. 반면 경기장 바로 앞의 숙소는 귀가를 편하게 해도 하루 전체를 북쪽에 묶는다. 로마의 두 축구를 도시 여행과 함께 읽으려면 ‘경기장에서 얼마나 가까운가’보다 ‘경기 없는 시간을 어디에서 보낼 수 있는가’를 먼저 물어야 한다.
 
-## 두 구단이 떠나려 할 때, 올림피코는 오히려 선명해진다
+## 로마와 라치오는 왜 새 경기장을 꿈꾸고 있을까요?
 
 AS 로마의 Pietralata 계획과 라치오의 Flaminio 계획은 아직 같은 단계에 있지 않고, 어느 쪽도 이 글이 미래의 완공을 보장할 수 있는 사업이 아니다. 그럼에도 두 계획이 동시에 움직인다는 사실은 중요하다. 1953년 이후 국가의 대형 스포츠 무대에 세 들어온 두 구단이 각자의 자산과 수익, 관람 경험, 지역의 기억을 담을 전용 홈을 원하고 있기 때문이다.
 

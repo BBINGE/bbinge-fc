@@ -14,13 +14,13 @@ draft: false
 featured: false
 ---
 
-유벤투스 유니폼은 이미 그래픽이 완성된 옷이다. 세로로 흐르는 흑백, 가슴의 문장과 스폰서, 어깨를 가르는 세 줄이 한 장 안에서 서로 다른 방향을 만든다. 일상복으로 옮길 때 필요한 것은 장식을 더하는 솜씨보다 이 정보 가운데 무엇을 남길지 고르는 감각이다.
+유벤투스 유니폼 한 장에는 볼 것이 많다. 세로로 흐르는 흑백, 가슴의 문장과 스폰서, 어깨를 가르는 세 줄이 서로 다른 방향으로 움직인다. 그래서 처음 입을 때는 무엇을 더할지보다, 이 가운데 어떤 선과 색을 가장 잘 보이게 할지부터 고르면 한결 쉬워진다.
 
 그 선택을 가장 쉽게 보여주는 이름이 비안코네리<span class="foreign-note" lang="it">(Bianconeri; 흰색과 검은색의 사람들)</span>다. 홈 셔츠는 검정 하의와 만나면 패턴이 또렷해지고, 데님을 만나면 경기복의 긴장이 풀린다. 분홍색 원정 셔츠는 구단의 창단기까지 불러오면서 흑백 밖의 유벤투스를 보여준다.
 
 <nav class="juve-index" aria-label="유벤투스 유니폼 코디 세 가지"><a href="#stripe"><span>01</span><b>줄무늬를 남긴다</b><small>홈 셔츠 + 단색 하의</small></a><a href="#break"><span>02</span><b>흑백을 한 번 끊는다</b><small>홈 셔츠 + 데님</small></a><a href="#pink"><span>03</span><b>분홍색으로 돌아간다</b><small>원정 셔츠 + 무채색</small></a></nav>
 
-## 흑백은 1903년에 토리노로 왔다
+## 유벤투스의 흑백 줄무늬는 영국에서 건너왔어요
 
 유벤투스가 처음부터 흑백을 입었던 것은 아니다. 창단 초기 셔츠는 분홍색이었고, 1903년 노팅엄 출신의 톰 고든 새비지<span class="foreign-note" lang="en">(Tom Gordon Savage; 유벤투스의 초기 구성원)</span>가 노츠 카운티의 줄무늬를 토리노에 전하면서 지금의 인상이 시작됐다. 임시 교체복에 가까웠던 선택이 120년 넘게 구단의 별명과 경기장 풍경을 지배한 셈이다.
 
@@ -33,14 +33,14 @@ featured: false
 
 유벤투스 홈 셔츠의 세로선은 상체를 길게 보이게 하지만, 동시에 시선을 많이 요구한다. 바지와 아우터까지 무늬를 더하면 각 아이템이 서로 앞에 서려 한다. 검정 와이드 팬츠나 트랙 팬츠처럼 큰 단색 면을 아래에 두면 셔츠의 선은 남고 코디의 소음은 줄어든다.
 
-핏은 선수용처럼 몸에 붙이기보다 어깨가 조금 내려오는 정도가 좋다. 소매가 팔꿈치 위에 머물고 밑단이 골반을 살짝 덮으면 경기복의 윤곽을 지우지 않으면서 티셔츠처럼 움직인다. 셔츠가 더 길다면 앞부분만 넣어 허리선을 만든다. 중요한 것은 큰 사이즈 자체가 아니라 상의와 하의 사이의 경계를 다시 세우는 일이다.
+핏은 어깨가 조금 내려오는 정도면 일상복으로 입기 편하다. 소매가 팔꿈치 위에 머물고 밑단이 골반을 살짝 덮으면 경기복의 윤곽을 남기면서도 티셔츠처럼 움직인다. 셔츠가 더 길다면 앞부분만 넣어 허리선을 만들 수 있다. 이렇게 상의와 하의 사이의 경계가 보이면 넉넉한 셔츠도 몸을 통째로 덮지 않는다.
 
 <figure class="juve-look"><div><img src="/images/culture/juventus-blockcore-outfits/07.webp" alt="유벤투스 흑백 홈 셔츠와 검정 하의를 입고 거리에 선 여성 모델" width="386" height="532" loading="lazy" decoding="async" /><span>LOOK 01 · KEEP THE STRIPE</span></div><figcaption><img src="/images/culture/brand-marks/juventus-j.svg" alt="" aria-hidden="true" /><p>THE HOME LOOK</p><h3>선은 셔츠에만,<br />실루엣은 하의에서</h3><dl><div><dt>TOP</dt><dd>어깨가 살짝 내려오는 홈 셔츠</dd></div><div><dt>BOTTOM</dt><dd>검정 팬츠 또는 짧은 단색 하의</dd></div><div><dt>POINT</dt><dd>노랑은 구단 문장에만 남기기</dd></div></dl></figcaption></figure>
 
 <div class="juve-filmstrip" aria-label="유벤투스 032c 협업 화보"><img src="/images/culture/juventus-blockcore-outfits/08.webp" alt="유벤투스 셔츠를 입고 픽업트럭에 앉은 여성 모델" width="386" height="532" loading="lazy" decoding="async" /><img src="/images/culture/juventus-blockcore-outfits/09.webp" alt="유벤투스와 032c 협업 행사 참가자" width="773" height="447" loading="lazy" decoding="async" /><img src="/images/culture/juventus-blockcore-outfits/10.webp" alt="유벤투스 머플러와 셔츠를 스트리트웨어로 연출한 두 모델" width="773" height="412" loading="lazy" decoding="async" /></div>
 <p class="juve-credit">Images 07-10: Juventus FC × 032c official editorial and Los Angeles event gallery.</p>
 
-<h2 id="break">2. 데님은 흑백의 긴장을 한 번 끊는다</h2>
+<h2 id="break">2. 흑백이 어렵다면 익숙한 데님을 꺼내보세요</h2>
 
 홈 셔츠를 매일 입고 싶다면 검정 대신 데님을 붙이는 편이 가볍다. 파랑이 흑백 사이에 들어오면 유니폼 세트의 인상이 느슨해지고, 오래 입던 청바지의 질감이 새 셔츠를 생활 쪽으로 끌어당긴다. 이때 워싱과 액세서리를 동시에 세게 쓰기보다 둘 중 하나만 고르면 줄무늬가 다시 중심을 잡는다.
 
@@ -49,20 +49,20 @@ featured: false
 <section class="juve-editorial" aria-label="유벤투스 유니폼과 데님 패션 화보"><figure class="lead"><img src="/images/culture/juventus-blockcore-outfits/18.webp" alt="흰색 유벤투스 상의를 입고 관중석에서 정면을 바라보는 여성 모델" width="773" height="447" loading="lazy" decoding="async" /><figcaption><span>01 · CLEAN FRAME</span><strong>얼굴과 문장 사이에<br />다른 장식을 두지 않는다</strong></figcaption></figure><figure><img src="/images/culture/juventus-blockcore-outfits/14.webp" alt="유벤투스 레트로 셔츠와 체크 재킷, 데님을 입은 여성" width="773" height="773" loading="lazy" decoding="async" /><figcaption>레트로 셔츠 + 체크 재킷 + 데님</figcaption></figure><figure><img src="/images/culture/juventus-blockcore-outfits/13.webp" alt="유벤투스 머플러를 들고 거리에서 포즈를 취한 여성" width="773" height="515" loading="lazy" decoding="async" /><figcaption>머플러는 한 번만</figcaption></figure><figure><img src="/images/culture/juventus-blockcore-outfits/19.webp" alt="유벤투스 컬렉션을 데님과 함께 입은 두 여성" width="773" height="447" loading="lazy" decoding="async" /><figcaption>같은 흑백, 다른 핏</figcaption></figure></section>
 <p class="juve-credit">Images 13-14, 18-19: Juventus Icon Collection and published street-style editorials.</p>
 
-<h2 id="pink">3. 원정 셔츠는 색 하나만 되받는다</h2>
+<h2 id="pink">3. 분홍색은 가방이나 신발에서 한 번만 이어보세요</h2>
 
-원정 유니폼은 홈 셔츠보다 계절의 영향을 크게 받는다. 2023-24 셔츠는 흰색 바탕에 회색과 분홍색의 가로선을 놓았다. 여기서 분홍을 가방, 모자, 신발에 모두 반복하면 셔츠가 코디의 출발점이 아니라 색 맞추기 문제처럼 보인다. 작은 아이템 한 곳에서만 되받고, 나머지는 회색이나 검정으로 눌러야 원정 셔츠의 표정이 남는다.
+원정 유니폼은 시즌마다 색이 크게 달라진다. 2023-24 셔츠에는 흰색 바탕 위로 회색과 분홍색의 가로선이 흐른다. 이 분홍을 작은 가방이나 신발 한 곳에서만 이어주고, 나머지를 회색이나 검정으로 두면 셔츠의 색도 또렷하게 남는다. 모자와 가방, 신발을 모두 맞추지 않아도 충분하다.
 
 분홍색은 유벤투스 바깥에서 빌려온 유행색도 아니다. 흑백 이전의 창단기 셔츠가 먼저 품었던 색이다. 최신 원정 유니폼을 입으면서 구단의 가장 오래된 색을 함께 꺼내는 셈이니 비안코네리의 역사도 흑백 한 줄로만 정리되지 않는다.
 
 <section class="juve-away"><figure><img src="/images/culture/juventus-blockcore-outfits/05.webp" alt="흰색과 분홍색 유벤투스 2023-24 원정 셔츠를 입은 두 선수" width="773" height="435" loading="lazy" decoding="async" /></figure><div><span>LOOK 03 · AWAY COLOUR</span><h3>분홍은 한 번만<br />되받으면 충분하다</h3><p>셔츠의 분홍을 작은 가방이나 신발에서 한 번 반복한다. 하의는 회색 또는 검정으로 두어 가로선과 스폰서가 경쟁하지 않게 만든다.</p><img src="/images/culture/brand-marks/juventus-j.svg" alt="" aria-hidden="true" /></div><figure><img src="/images/culture/juventus-blockcore-outfits/20.webp" alt="분홍색과 흰색 유벤투스 셔츠를 입은 두 모델" width="773" height="541" loading="lazy" decoding="async" /></figure></section>
 <p class="juve-credit">Images 05 and 20: Juventus FC · adidas away kit and Juventus lifestyle collections.</p>
 
-## 셔츠를 잘 입는다는 것은 기억의 양을 조절하는 일이다
+## 오늘은 유벤투스의 어떤 기억을 꺼내 입어볼까요?
 
 축구 유니폼은 단순한 기능성 티셔츠보다 많은 정보를 품는다. 유벤투스의 흑백을 입는 순간 노츠 카운티에서 토리노로 건너온 1903년의 사연, 비안코네리라는 이름, 시대마다 바뀐 선수와 스폰서까지 몸 위에 함께 올라온다. 이 옷이 평범한 팬 상품보다 강하게 보이는 이유도 그 축적에 있다.
 
-그렇기에 코디는 새로운 이야기를 계속 덧붙이는 작업일 필요가 없다. 줄무늬를 남길지, 데님으로 한 번 끊을지, 분홍색을 한 점 되받을지 정하면 된다. 구단이 같은 두 색을 120년 동안 다르게 그려왔듯, 입는 사람은 한 장의 셔츠에서 오늘 필요한 부분만 골라 자기 옷장의 문장으로 바꾼다.
+줄무늬를 그대로 보이게 할지, 데님으로 한 번 끊을지, 분홍색을 작은 물건에서 이어줄지에 따라 같은 셔츠도 다른 날의 옷이 된다. 구단이 120년 동안 같은 두 색을 계속 새롭게 그려왔듯, 입는 사람도 한 장의 셔츠에서 오늘 마음에 드는 부분을 골라 자기 옷장으로 옮길 수 있다.
 
 <div class="source-notes"><h2>출처</h2><ol><li>Juventus, <a href="https://www.juventus.com/en/news/articles/black-and-white-brothers-unite-in-the-name-of-tom-savage">「Black and white brothers unite in the name of Tom Savage」</a>: 1903년 흑백 줄무늬의 도입.</li><li>사진 02-04: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-adidas-present-the-home-kit-23-24">2023-24 홈 유니폼 공식 공개</a>.</li><li>사진 05-06: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-and-adidas-present-the-2023-24-away-kit">2023-24 원정 유니폼 공식 공개</a>.</li><li>사진 07-10: Juventus, <a href="https://www.juventus.com/en/news/articles/juventus-football-club-x032c-football-and-fashion-raise-the-bar">Juventus FC × 032c</a>와 <a href="https://www.juventus.com/en/news/galleries/juventus-x-032c-the-event-in-los-angeles">공식 행사 갤러리</a>.</li><li>사진 13-14·18-19: Juventus <a href="https://www.juventus.com/en/news/articles/juventus-launch-icon-collection">Icon Collection</a>, <a href="https://www.soccerbible.com/lifestyle/clothing/2019/01/juventus-launch-the-icon-collection/">SoccerBible</a>, <a href="https://www.mujerhoy.com/moda/no-te-pierdas/blokecore-tendencia-camiseta-futbol-looks-diario-20230820144941-nt.html">MujerHoy</a>.</li><li>adidas, <a href="https://www.adidas.com/us/blog/1003164-2023-trend-check-blokecore">「2023 Trend Check: Bloke-Core」</a>.</li><li>J 표식은 <a href="https://www.juventus.com/en/club/logo">유벤투스 공식 로고 페이지</a>와 대조한 현행 SVG다.</li></ol></div>
 

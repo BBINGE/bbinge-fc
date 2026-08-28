@@ -43,9 +43,9 @@ featured: false
   </div>
 </div>
 
-일정은 홈경기를 중심에 놓고 짜는 편이 좋다. 첫날 하구를 걸으며 도시의 변화를 보고, 경기일에는 포사 거리에서 산 마메스까지 사람의 흐름을 따라간다. 다음 날 박물관과 경기장 투어를 보면 전날의 함성이 한 세기의 기록과 이어진다.
+일정은 먼저 홈경기 날짜를 정한 뒤 그 앞뒤에 도시를 붙이면 편하다. 첫날에는 하구를 따라 걸으며 빌바오가 산업도시에서 여행 도시로 달라진 풍경을 보고, 경기일에는 포사 거리에서 산 마메스까지 붉고 흰 사람들의 흐름을 따라간다. 다음 날 박물관과 경기장 투어를 천천히 돌면 전날의 함성이 한 세기의 기록으로 이어진다.
 
-## 1. 카스코 비에호에서 축구가 들어온 물길을 본다
+## 1. 첫날은 카스코 비에호에서 핀초스부터 골라보세요
 
 **추천 시작점** · Plaza Nueva, Casco Viejo<br />
 **가까운 역** · Casco Viejo
@@ -56,7 +56,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/bilbao-san-mames/casco-viejo.webp" alt="아케이드와 카페가 둘러싼 빌바오 카스코 비에호의 누에바 광장" width="1440" height="762" loading="lazy" /><figcaption>핀초스 바가 이어지는 누에바 광장. 사진: Visit Biscay 공식 여행 가이드.</figcaption></figure>
 
-## 2. 구겐하임에서 산업도시가 방향을 바꾼 장면을 읽는다
+## 2. 구겐하임 앞에서는 빌바오가 달라진 풍경이 한눈에 보여요
 
 **추천 동선** · Casco Viejo → Guggenheim Bilbao → Abandoibarra
 
@@ -66,7 +66,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/bilbao-san-mames/guggenheim.webp" alt="빌바오 하구와 라 살베 다리 옆에 선 구겐하임 빌바오" width="1600" height="1118" loading="lazy" /><figcaption>하구, 다리, 티타늄 외벽이 겹치는 구겐하임 빌바오. 사진: Jacek Urbanski, Unsplash.</figcaption></figure>
 
-## 3. 카롤라 크레인에서 산 마메스의 재료를 이해한다
+## 3. 강변의 빨간 크레인이 왜 그대로 남아 있을까요?
 
 **위치** · Ramón de la Sota Kaia, 1<br />
 **시설** · Itsasmuseum Bilbao
@@ -77,7 +77,7 @@ featured: false
 
 <figure class="journey-poster"><img src="/images/pilgrimage/bilbao-san-mames/carola.webp" alt="Itsasmuseum Bilbao 앞에 보존된 붉은 카롤라 크레인" width="532" height="784" loading="lazy" /><figcaption>옛 에우스칼두나 조선소에서 선박 블록을 들던 카롤라 크레인. 사진: Itsasmuseum Bilbao.</figcaption></figure>
 
-## 4. 아틀레틱 클루브의 철학은 도시의 범위를 그린다
+## 4. 아틀레틱은 왜 이 지역에서 자란 선수들과 뛰는 걸까요?
 
 아틀레틱 클루브의 1군은 에우스칼 에리아<span class="foreign-note" lang="eu">(Euskal Herria; 바스크어권 역사·문화 지역)</span>에서 태어났거나 이 지역 구단의 유소년 체계에서 성장한 선수로 구성된다. 구단이 공식적으로 제시하는 범위는 비스카이아, 기푸스코아, 알라바, 나바라와 프랑스령 바스크의 라부르, 술, 바스나바르다.
 
@@ -87,7 +87,7 @@ featured: false
 
 <div class="journey-note"><span>CLUB LANGUAGE</span><p>현지에서는 구단을 ‘아틀레틱’이라고 부르고, 지지자를 Athleticzale이라고 쓴다. Athletic과 바스크어의 사람을 뜻하는 접미사 -zale가 결합한 말이다. 경기일의 간판과 응원 문구에서 자주 만난다.</p></div>
 
-## 5. 포사 거리에서 경기일의 빌바오를 만난다
+## 5. 경기 두 시간 전에는 포사 거리로 가보세요
 
 **추천 구간** · Moyúa 또는 Indautxu → Calle Licenciado Poza → San Mamés
 
@@ -97,7 +97,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/bilbao-san-mames/matchday.webp" alt="붉고 흰 옷을 입은 관중이 가득 찬 산 마메스의 홈경기" width="1600" height="1067" loading="lazy" /><figcaption>산 마메스의 홈경기. 관중석의 붉고 흰 색이 경기장의 내부를 완성한다. 사진: Athletic Club.</figcaption></figure>
 
-## 6. 산 마메스에서 한 세기의 자리를 확인한다
+## 6. 산 마메스의 사자들은 어디에서 태어났을까요?
 
 **주소** · Rafael Moreno “Pichichi” Kalea, s/n, 48013 Bilbao<br />
 **연결 구단** · Athletic Club
@@ -117,7 +117,7 @@ featured: false
 
 산 마메스에서 열린 오래된 밤은 [UEFA 플라크 글의 1977년 결승 대목](/history/uefa-plaque-juventus-chelsea/)에서 이어진다. 아틀레틱은 유벤투스를 2-1로 이겼지만 원정 다득점 규칙에 막혀 우승컵을 들지 못했다. 지역 선수들로 유럽 정상 문턱까지 간 팀의 철학이 가장 팽팽하게 드러난 경기다.
 
-## 7. AC Museoa와 투어에서 전날의 함성을 정리한다
+## 7. 다음 날에는 박물관과 선수 터널을 천천히 걸어보세요
 
 AC Museoa는 1898년 이후의 유니폼, 트로피, 사진과 영상을 전시한다. 공식 안내 기준으로 천 점이 넘는 실물 자료와 900개의 영상이 있고, 경기장 투어는 라커룸과 선수 터널, 벤치, 피치치 흉상을 잇는다. 가이드 투어와 개인 오디오 가이드 가운데 여행 속도에 맞는 방식을 고르면 된다.
 
@@ -128,7 +128,7 @@ AC Museoa는 1898년 이후의 유니폼, 트로피, 사진과 영상을 전시�
   <figure><img src="/images/pilgrimage/bilbao-san-mames/museum-copa.webp" alt="아틀레틱 클루브 유니폼을 입고 박물관의 가상현실 전시를 체험하는 관람객" width="1600" height="900" loading="lazy" /><figcaption>클럽의 기록을 현재의 관람 방식으로 연결한 체험 전시. 사진: Athletic Club.</figcaption></figure>
 </div>
 
-## 빌바오를 축구로 여행해야 하는 이유
+## 우승 바지선이 강을 오르면 빌바오 전체가 붉고 하얘져요
 
 2024년 아틀레틱 클루브가 40년 만에 코파 델 레이를 들어 올리자, 우승팀을 태운 바지선 가바라<span class="foreign-note" lang="es">(La Gabarra; 우승 축하 행렬에 쓰이는 아틀레틱의 상징적 바지선)</span>가 다시 하구를 올랐다. 공식 집계로 백만 명이 넘는 사람이 양쪽 강변에 모였다. 항만의 운송 수단이 도시 전체의 축구 의식으로 바뀐 장면이었다.
 

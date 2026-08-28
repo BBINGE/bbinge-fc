@@ -45,9 +45,9 @@ featured: false
   </div>
 </div>
 
-열 곳을 하루에 모두 찍을 필요는 없다. 박물관과 아레나를 중심에 두고, 혼베드·MTK·페렌츠바로시 가운데 홈경기가 있는 한 팀을 고르는 편이 좋다. 나머지는 두 사람이 함께 좋아할 장면으로 채우면 된다.
+아래 열 곳 가운데 마음이 가는 장면만 여행 날짜에 맞춰 골라도 좋다. 먼저 박물관과 아레나를 중심에 놓고, 혼베드·MTK·페렌츠바로시 가운데 홈경기가 있는 한 팀을 고른다. 그러고 나서 어부의 요새와 온천, 시장과 다뉴브 야경을 더하면 두 사람이 각자 기다리던 장면이 한 여행 안에 자연스럽게 섞인다.
 
-## 1. 어부의 요새에서 두 도시를 먼저 본다
+## 1. 첫날 아침, 어부의 요새에서 다뉴브를 먼저 보세요
 
 **위치** · Szentháromság tér, 1014 Budapest
 
@@ -57,7 +57,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/budapest-honeymoon-football-10/fishermans-bastion.webp" alt="아치 사이로 햇빛이 들어오는 부더페슈트 어부의 요새" width="1080" height="720" loading="lazy" /><figcaption>부더에서 도시의 방향을 잡는다. 사진: Visit Hungary 공식 여행 가이드.</figcaption></figure>
 
-## 2. 오부더의 푸슈카시 동상에서 여행의 얼굴을 만난다
+## 2. 축구를 몰라도 푸슈카시 동상은 즐겁게 만날 수 있어요
 
 **위치** · Bécsi út 57–61, 1036 Budapest
 
@@ -67,7 +67,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/budapest-honeymoon-football-10/puskas-statue.webp" alt="오부더 거리에서 아이들에게 공을 보여주는 푸슈카시 페렌츠 동상" width="1600" height="897" loading="lazy" /><figcaption>아이들에게 공을 보여주는 푸슈카시 페렌츠. 사진: Visit Óbuda, Sánta Balázs.</figcaption></figure>
 
-## 3. 보지크 아레나에서 푸슈카시의 출발점을 찾는다
+## 3. 푸슈카시가 처음 뛴 동네에서 홈경기를 골라보세요
 
 **위치** · Puskás Ferenc u. 1–3, 1194 Budapest<br />
 **연결 구단** · 키슈페슈트–혼베드 FC
@@ -76,9 +76,9 @@ featured: false
 
 현재의 보지크 아레나는 2021년에 문을 연 새 경기장이다. 이름은 푸슈카시의 오랜 동료 보지크 요제프에게서 왔다. 중심가의 대형 관광지와 떨어져 있어 경기 일정이 없는 날에는 외관을 보는 데 그칠 수 있다. 이곳을 넣는다면 [키슈페슈트–혼베드 공식 일정](https://honvedfc.hu/)에 맞춰 홈경기를 고르는 편이 낫다.
 
-<div class="journey-note"><span>MATCHDAY NOTE</span><p>부더페슈트의 세 경기장을 모두 도장처럼 찍기보다 여행 날짜에 홈경기가 있는 한 곳을 고르자. 보지크 아레나는 푸슈카시의 출발점, MTK는 전술의 다른 축, 페렌츠바로시는 현재의 큰 관중 문화를 보여준다.</p></div>
+<div class="journey-note"><span>MATCHDAY NOTE</span><p>여행 날짜에 홈경기가 있는 한 곳을 고르면 된다. 보지크 아레나는 푸슈카시의 출발점, MTK는 황금의 팀 전술의 다른 축, 페렌츠바로시는 지금 부더페슈트의 큰 관중 문화를 보여준다. 세 곳의 공식 일정을 비교한 뒤 둘이 가장 보고 싶은 밤을 선택하자.</p></div>
 
-## 4. 히데그쿠티 난도르 슈터디온에서 전술의 다른 절반을 읽는다
+## 4. 웸블리를 흔든 전술은 MTK에서도 함께 자랐어요
 
 **위치** · Salgótarjáni út 12–14, 1087 Budapest<br />
 **연결 구단** · MTK Budapest FC
@@ -92,7 +92,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
   <figure><img src="/images/pilgrimage/budapest-honeymoon-football-10/mtk-matchday.webp" alt="조명 아래 경기가 열리는 히데그쿠티 난도르 슈터디온 내부" width="800" height="393" loading="lazy" /><figcaption>터치라인 가까이 붙은 관중석. 사진: MTK Budapest 공식 사이트.</figcaption></figure>
 </div>
 
-## 5. 그루파마 아레나에서 지금의 부더페슈트를 본다
+## 5. 지금 가장 뜨거운 홈경기는 페렌츠바로시에서 찾아보세요
 
 **위치** · Üllői út 129, 1091 Budapest<br />
 **연결 구단** · 페렌츠바로시 TC
@@ -103,7 +103,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 
 <figure class="journey-wide"><img src="/images/pilgrimage/budapest-honeymoon-football-10/fradi-museum.webp" alt="페렌츠바로시의 트로피가 전시된 프라디 박물관" width="1240" height="698" loading="lazy" /><figcaption>그루파마 아레나 안의 프라디 박물관. 사진: Ferencvárosi TC 공식 사이트.</figcaption></figure>
 
-## 6. 푸슈카시 박물관에서 이번 여행의 이유를 완성한다
+## 6. 2024년에 문 연 푸슈카시 박물관이 기다리고 있어요
 
 **위치** · Istvánmezei út 3–5, 1146 Budapest
 
@@ -113,7 +113,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 
 <figure class="journey-poster"><img src="/images/pilgrimage/budapest-honeymoon-football-10/puskas-museum-tour.webp" alt="푸슈카시와 헝가리 대표팀 선수들, 푸슈카시 아레나를 배치한 박물관 공식 투어 포스터" width="1170" height="779" loading="lazy" /><figcaption>‘과거의 영광, 미래의 무대’를 함께 보여주는 박물관·아레나 투어. 이미지: Puskás Múzeum 공식 사이트.</figcaption></figure>
 
-## 7. 푸슈카시 아레나에서 옛 경기장의 중심을 밟는다
+## 7. 옛 경기장 자리에 새 아레나가 어떻게 들어섰을까요?
 
 **위치** · Dózsa György út 1, 1146 Budapest
 
@@ -130,7 +130,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
   <div><span>2026</span><small>영어 오디오 가이드 운영</small></div>
 </div>
 
-## 8. 세체니 온천에서 경기 다음 날을 늦춘다
+## 8. 경기 다음 날에는 세체니 온천에서 천천히 쉬어가세요
 
 **위치** · Állatkerti krt. 9–11, 1146 Budapest
 
@@ -140,7 +140,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 
 <figure class="journey-wide"><img src="/images/pilgrimage/budapest-honeymoon-football-10/szechenyi-bath.webp" alt="노란 건물과 푸른 야외 풀이 보이는 세체니 온천" width="1200" height="630" loading="lazy" /><figcaption>경기 다음 날의 속도를 늦추는 세체니 온천. 사진: Széchenyi Gyógyfürdő 공식 사이트.</figcaption></figure>
 
-## 9. 중앙시장에서 굴라시와 랑고시를 나눠 먹는다
+## 9. 중앙시장에서 굴라시와 랑고시를 나눠 드세요
 
 **위치** · Vámház krt. 1–3, 1093 Budapest
 
@@ -148,7 +148,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 
 신혼여행의 식사를 모두 시장에서 해결할 이유는 없다. 한 끼를 가볍게 나눠 먹고, 저녁에는 예약해 둔 식당으로 옮기는 정도가 좋다. 경기 시작 시간이 늦다면 낮 동선에 넣고, 휴무와 단축 운영 여부를 방문 전에 확인하자.
 
-## 10. 다뉴브의 밤으로 둘의 여행을 돌려놓는다
+## 10. 마지막 밤은 다뉴브강의 불빛으로 남겨두세요
 
 **추천 구간** · 버차니 광장–세체니 다리 또는 비거도 광장 선착장
 
@@ -158,7 +158,7 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 
 <figure class="journey-finale"><img src="/images/pilgrimage/budapest-honeymoon-football-10/danube-night.webp" alt="다뉴브강에 불빛이 비친 헝가리 국회의사당 야경" width="1800" height="1200" loading="lazy" /><figcaption>다뉴브 건너에서 보는 헝가리 국회의사당의 밤. 사진: XAVIER PHOTOGRAPHY, Unsplash.</figcaption></figure>
 
-## 이 도시에서 다음 글로 이어지는 길
+## 축구 이야기가 궁금해졌다면 여기로 이어가세요
 
 부더페슈트는 삥이FC 안의 여러 기록을 한꺼번에 불러낸다. 혼베드와 MTK에서 출발한 전술은 [헝가리 황금세대와 토털풋볼의 계보](/tactics/hungary-golden-team-total-football-elo-rating/)로 이어지고, 1954년의 압도적인 대표팀은 [월드컵 베스트 11](/archive/national-team/fifa-world-cup/1954-fifa-world-cup-best-xi/)과 한국의 첫 월드컵 여정에 다시 등장한다.
 

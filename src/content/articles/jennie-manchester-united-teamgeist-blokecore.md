@@ -8,7 +8,7 @@ updatedDate: 2026-08-26T11:00:00+09:00
 coverImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 cardImage: '/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg'
 coverImageAlt: '검정과 빨강의 맨체스터 유나이티드 팀가이스트 저지에 진주 목걸이를 겹쳐 착용한 제니'
-coverImageCaption: '제니가 고른 것은 홈 유니폼이 아니라 2006년의 디자인을 되살린 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지였다. Still: BLACKPINK 〈Pink Venom〉 / YG Entertainment.'
+coverImageCaption: '제니는 2006년의 디자인을 되살린 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지를 무대 의상으로 바꿨다. Still: BLACKPINK 〈Pink Venom〉 / YG Entertainment.'
 coverImageWidth: 1200
 coverImageHeight: 1200
 draft: false
@@ -45,16 +45,16 @@ fashionProfile:
     href: 'https://www.instagram.com/jennierubyjane/'
 ---
 
-2022년 8월 19일 공개된 BLACKPINK의 〈<span lang="en">Pink Venom</span>〉에서 제니<span class="foreign-note" lang="en">(JENNIE; BLACKPINK 멤버)</span>는 검정 축구 셔츠를 짧게 잘라 입었다. 등에는 이름 `JENNIE`와 숫자 `96`을 새겼고, 목에는 진주와 크리스털 장식을 여러 겹 쌓았다. 이 장면의 중심은 ‘연예인이 축구 유니폼을 입었다’는 사실보다 **경기복의 표면을 무대 의상의 문법으로 바꾼 방식**에 있다.
+2022년 8월 19일 공개된 BLACKPINK의 〈<span lang="en">Pink Venom</span>〉에서 제니<span class="foreign-note" lang="en">(Jennie Kim; 대한민국 가수, 1996년생)</span>는 검정 축구 셔츠를 짧게 잘라 입었다. 등에는 `JENNIE`와 태어난 해를 가리키는 숫자 `96`을 새겼고, 목에는 진주와 크리스털 장식을 여러 겹 쌓았다. 맨체스터 유나이티드를 잘 몰라도 눈길이 가는 건, 익숙한 경기복이 화려한 무대 의상으로 바뀌는 과정이 한눈에 보이기 때문이다.
 
-옷의 정식 명칭은 **아디다스 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지**다. 홈 유니폼도, 선수가 공식 경기에서 입는 매치 저지<span class="foreign-note" lang="en">(match jersey; 경기용 유니폼)</span>도 아니다. 프리매치 저지<span class="foreign-note" lang="en">(pre-match jersey; 경기 전 몸풀이나 이동 때 입는 상의)</span>라는 중간 지대의 옷이 K-팝 뮤직비디오에서 다시 잘리고, 이름과 숫자를 얻고, 장신구의 받침이 됐다.
+이 옷의 정식 명칭은 **아디다스 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지**다. 선수들이 공식 경기에서 입는 홈 유니폼이 아니라, 몸풀이나 이동 때 입는 프리매치 저지<span class="foreign-note" lang="en">(pre-match jersey; 경기 전 몸풀이나 이동 때 입는 상의)</span>였다. 그 중간 지대의 옷이 K-팝 뮤직비디오로 건너오면서 다시 잘리고, 이름과 숫자를 얻고, 진주 장식의 받침이 됐다.
 
 <figure class="fashion-wide-figure">
   <img src="/images/culture/jennie-manchester-united-teamgeist/jennie-pink-venom-front-back.webp" alt="Pink Venom 뮤직비디오에서 맨체스터 유나이티드 팀가이스트 저지의 앞면과 JENNIE 96 마킹 뒷면을 보여주는 제니" width="1800" height="800" loading="eager" decoding="async" />
   <figcaption>앞에서는 구단 문장과 진주가 겹치고, 뒤에서는 `JENNIE 96` 마킹이 화면을 채운다.<small class="culture-image-credit">Editorial composition: Double Kick · Source stills: YG Entertainment</small></figcaption>
 </figure>
 
-## 2006년의 곡선이 2021년에 돌아온 이유
+## 이 곡선, 2006년 월드컵에서 본 적 있나요?
 
 팀가이스트<span class="foreign-note" lang="de">(Teamgeist; 독일어로 ‘팀 정신’)</span>는 2006 FIFA 월드컵 공인구의 이름이면서, 당시 아디다스가 국가대표팀과 여러 구단의 셔츠에 펼친 디자인 체계이기도 하다. 어깨에서 가슴과 옆구리로 이어지는 둥근 패널, 공의 그래픽과 연결되는 곡선은 직선적인 삼선과 다른 속도를 만든다. 제니가 입은 셔츠에서 빨간 선이 어깨를 감싸고 흰 패널이 허리를 향해 흐르는 이유도 이 계보에 있다.
 
@@ -67,7 +67,7 @@ fashionProfile:
 
 이 셔츠가 이미 경기장 밖을 바라보고 있었다는 사실은 중요하다. 2006년의 도안을 그대로 보존한 복제품이 아니라, 2021년의 프리매치웨어와 패션 화보를 위해 다시 만든 옷이기 때문이다. 〈<span lang="en">Pink Venom</span>〉은 그 이동을 한 단계 더 밀었다. 유나이티드의 검정·빨강·흰색은 남았지만, 셔츠의 용도와 실루엣은 달라졌다.
 
-## 검정 저지가 보이도록, 제품 사진도 다시 세웠다
+## 검정 저지의 앞과 뒤를 한눈에 펼쳐봤어요
 
 원본 제품 사진은 검정 셔츠를 짙은 초록 잔디 위에 놓아 몸판과 배경의 경계가 거의 사라졌다. 아래 이미지는 셔츠의 앞·뒷면과 패널을 읽을 수 있도록 배경만 밝은 중성색 스튜디오 톤으로 바꾼 편집본이다. 검정 원단의 굴곡, 빨간 삼선, 흰 파이핑<span class="foreign-note" lang="en">(piping; 가장자리를 따라 덧댄 선 장식)</span>이 서로 분리되면서 팀가이스트의 구조가 비로소 보인다.
 
@@ -82,7 +82,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 진주는 장식이 아니라 번역 장치였다
+## 축구 셔츠에 진주를 여러 겹 두른 이유
 
 제니의 스타일링은 셔츠에 없는 색을 추가하는 대신 이미 있는 흰색을 다른 재료로 반복한다. 목선의 흰 파이핑은 진주 목걸이로 이어지고, 크리스털 커프와 메탈 장식은 무대 조명을 잘게 반사한다. 기능성 폴리에스터가 빛을 넓고 낮게 흘려보낸다면 진주와 크리스털은 작은 점으로 빛을 모은다. 같은 흰색이 서로 다른 표면을 가질 때 스포츠웨어와 주얼리의 거리가 오히려 선명해진다.
 
@@ -93,7 +93,7 @@ fashionProfile:
   <figcaption>둥근 구단 문장과 진주, 크리스털이 상체에 모이고 검정 가죽이 셔츠의 아래를 받친다.<small class="culture-image-credit">Editorial composition: Double Kick · Source still: YG Entertainment</small></figcaption>
 </figure>
 
-## 같은 뮤직비디오 안에서 반복된 재료
+## 다른 장면의 흰 천과 데님도 같은 이야기를 해요
 
 축구 셔츠 한 벌만 떼어 놓으면 스타일링의 선택이 우연처럼 보일 수 있다. 그러나 제니가 직접 공개한 〈<span lang="en">Pink Venom</span>〉 의상 사진을 함께 보면 이 뮤직비디오가 흰색, 금속, 데님, 빨간 리본처럼 서로 대비되는 표면을 반복했다는 점이 드러난다. 아래 두 착장은 팀가이스트 저지를 입은 장면이 아니다. 대신 같은 작품 안에서 스포티한 베이스에 장식적 재료를 얹는 방식이 어떻게 변주됐는지 보여주는 비교 자료다.
 
@@ -108,9 +108,9 @@ fashionProfile:
   </figure>
 </div>
 
-첫 번째 착장은 흰 천과 은색 체인으로, 두 번째 착장은 데님과 빨간 리본으로 대비를 만든다. 팀가이스트 장면의 진주·가죽·빨간 삼선도 같은 편집 원리에 놓인다. 축구 셔츠를 ‘평범한 티셔츠처럼’ 감추는 것이 아니라, 셔츠가 가진 선과 색을 더 이질적인 재료로 확대한다. 여기서 블록코어<span class="foreign-note" lang="en">(blokecore; 축구 유니폼을 일상복에 섞는 스타일)</span>는 완성된 복장 양식이라기보다 서로 다른 표면을 연결하는 방법에 가깝다.
+첫 번째 착장은 흰 천과 은색 체인으로, 두 번째 착장은 데님과 빨간 리본으로 대비를 만든다. 팀가이스트 장면의 진주·가죽·빨간 삼선도 같은 편집 원리에 놓인다. 셔츠가 가진 선과 색을 이질적인 재료가 더욱 크게 보이게 만들고, 그 과정에서 블록코어<span class="foreign-note" lang="en">(blokecore; 축구 유니폼을 일상복에 섞는 스타일)</span>도 정해진 복장 공식보다 서로 다른 표면을 연결하는 방법에 가까워진다.
 
-## 일상에서 가져갈 세 가지 원리
+## 제니의 무대 의상에서 일상으로 가져올 조합
 
 <div class="fashion-style-notes">
   <section>

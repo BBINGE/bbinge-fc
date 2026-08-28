@@ -79,9 +79,9 @@ featured: false
   <p>본 지도는 로테르담시 공식 기본지도에서 중앙역부터 더 카위프까지의 범위를 그대로 가져왔다. <span class="journey-map__overview-note">오른쪽 위 전체 행정 경계의 파란 상자가 현재 확대 범위다. </span>아이콘을 누르면 해당 장소로 이동한다. 지도·행정 경계: 로테르담시 공개 GIS.</p>
 </nav>
 
-첫날은 중앙역에서 도시의 재건 과정을 보고 니우어 마스강<span class="foreign-note" lang="nl">(Nieuwe Maas; 로테르담 도심을 가르는 강)</span>까지 걷는다. 콥 판 자위트<span class="foreign-note" lang="nl">(Kop van Zuid; ‘남쪽의 머리’라는 뜻의 옛 항만 지구)</span>에 짐을 푼 뒤 카텐드레흐트<span class="foreign-note" lang="nl">(Katendrecht; 강 남쪽의 옛 항만 반도)</span>에서 저녁을 먹는다. 둘째 날은 강변에서 시간을 보내다가 트램으로 더 카위프에 간다. 홈경기가 없다면 스타디움 투어를 넣고, 레인하번<span class="foreign-note" lang="nl">(Rijnhaven; 도심 남쪽의 옛 항만)</span>에서 반나절을 더 쓰면 된다.
+첫날에는 중앙역에서 니우어 마스강<span class="foreign-note" lang="nl">(Nieuwe Maas; 로테르담 도심을 가르는 강)</span>까지 걸으며 전쟁 뒤 새로 지은 도시를 만난다. 콥 판 자위트<span class="foreign-note" lang="nl">(Kop van Zuid; ‘남쪽의 머리’라는 뜻의 옛 항만 지구)</span>에 짐을 풀고 카텐드레흐트<span class="foreign-note" lang="nl">(Katendrecht; 강 남쪽의 옛 항만 반도)</span>에서 저녁을 먹으면 하루의 끝도 자연스럽다. 둘째 날에는 강변에서 천천히 시간을 보내다가 트램을 타고 더 카위프로 간다. 홈경기가 없는 날짜라면 스타디움 투어를 예약하고, 레인하번<span class="foreign-note" lang="nl">(Rijnhaven; 도심 남쪽의 옛 항만)</span>에서 반나절을 더 보내면 된다.
 
-<h2 id="centraal">1. 중앙역에서 로테르담이 시간을 다루는 법을 본다</h2>
+<h2 id="centraal">1. 중앙역에 내리면 오래된 유럽과 다른 풍경이 보여요</h2>
 
 **추천 시작점** · 로테르담 중앙역<br />
 **걷는 방향** · 역 앞 광장<span class="foreign-note" lang="nl">(Stationsplein)</span> → 콜싱얼 대로<span class="foreign-note" lang="nl">(Coolsingel)</span> → 니우어 마스강
@@ -92,7 +92,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rotterdam-de-kuip/kop-van-zuid.webp" alt="니우어 마스강 건너편에서 본 콥 판 자위트의 고층 건물과 호텔 뉴욕" width="1600" height="944" loading="lazy" /><figcaption>니우어 마스강과 콥 판 자위트. 낮은 갈색 건물이 호텔 뉴욕이고, 그 뒤로 로테르담의 고층 건축이 이어진다. 사진: Iris van den Broek, Rotterdam Partners.</figcaption></figure>
 
-<h2 id="ballentent">2. 더 발런텐트에서 항구도시의 점심을 고른다</h2>
+<h2 id="ballentent">2. 점심은 강을 보며 미트볼을 드셔보세요</h2>
 
 **주소** · 파르크카더 1<span class="foreign-note" lang="nl">(Parkkade 1, Rotterdam)</span><br />
 **추천 시간** · 강변 산책을 시작하기 전 점심
@@ -103,7 +103,7 @@ featured: false
 
 <div class="journey-note"><span>둘이 먹는 첫날</span><p>점심은 더 발런텐트, 저녁은 카텐드레흐트로 나누면 메뉴와 풍경이 겹치지 않는다. 영업일과 주방 마감 시간은 여행 날짜에 맞춰 공식 채널에서 다시 확인하자.</p></div>
 
-<h2 id="erasmusbrug">3. 에라스뮈스 다리를 건너며 도시의 남과 북을 잇는다</h2>
+<h2 id="erasmusbrug">3. 에라스뮈스 다리는 천천히 걸어서 건너보세요</h2>
 
 에라스뮈스 다리는 1996년 문을 열었다. 139m 높이의 비대칭 주탑 때문에 ‘백조’라는 별명으로 불리고, 도심과 콥 판 자위트를 보행·자동차·트램으로 연결한다.
 
@@ -111,7 +111,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rotterdam-de-kuip/fenix-food-factory-2.webp" alt="니우어 마스강 남쪽 강변에서 쉬는 사람들과 로테르담의 고층 건물" width="1600" height="1032" loading="lazy" /><figcaption>강변의 생활과 고층 건축이 한 프레임에 들어오는 콥 판 자위트. 사진: Rotterdam Partners.</figcaption></figure>
 
-<h2 id="stay">4. 숙소는 콥 판 자위트에 둔다</h2>
+<h2 id="stay">4. 항구의 야경을 보고 싶다면 콥 판 자위트에 머물러보세요</h2>
 
 경기장 바로 앞에서 자면 입장과 귀가는 편하다. 2박 3일 전체를 놓고 보면 빌헬미나플레인<span class="foreign-note" lang="nl">(Wilhelminaplein; 콥 판 자위트의 광장·지하철역)</span> 주변이 더 많은 시간을 돌려준다. 에라스뮈스 다리, 호텔 뉴욕, 레인하번과 카텐드레흐트가 걸어서 이어지고, 경기일에는 트램으로 더 카위프에 갈 수 있다.
 
@@ -132,7 +132,7 @@ featured: false
 
 둘이 함께 간다면 나우 로테르담이 가장 무난하다. 한 사람은 경기장 이동을 설명하기 쉽고, 다른 사람은 객실과 강변, 다음 날의 식당을 여행의 이유로 삼을 수 있다. 호텔 뉴욕은 가격과 객실 조건이 맞을 때 기억에 오래 남는 선택이다. 실제 예약에서는 경기 일정, 무료 취소 조건, 조식 포함 여부를 먼저 비교하자.
 
-<h2 id="fenix">5. 피닉스에서 저녁의 선택지를 넓힌다</h2>
+<h2 id="fenix">5. 저녁 메뉴가 고민될 때는 피닉스로 가보세요</h2>
 
 빌헬미나피어<span class="foreign-note" lang="nl">(Wilhelminapier; 옛 여객선 부두)</span>에서 레인하번 다리<span class="foreign-note" lang="nl">(Rijnhavenbrug; 레인하번을 건너는 보행교)</span>를 건너면 카텐드레흐트다. 선원과 이주민이 모이던 항만 지구는 창고와 부두를 문화·주거·식음 공간으로 바꾸며 다시 사람이 머무는 동네가 됐다. 피닉스 푸드 팩토리<span class="foreign-note" lang="en">(Fenix Food Factory; 창고를 활용한 푸드홀)</span>는 그 변화가 식탁으로 이어지는 장소다.
 
@@ -143,7 +143,7 @@ featured: false
   <figure><img src="/images/pilgrimage/rotterdam-de-kuip/fenix-food-factory-3.webp" alt="벽돌과 콘크리트로 된 피닉스 건물 앞 야외 테이블에 앉은 사람들" width="1600" height="1110" loading="lazy" /><figcaption>서로 다른 메뉴를 한 테이블에서 고르기 좋은 피닉스 푸드 팩토리. 사진: Rotterdam Partners.</figcaption></figure>
 </div>
 
-<h2 id="rijnhaven">6. 레인하번에서 경기 다음 날의 속도를 낮춘다</h2>
+<h2 id="rijnhaven">6. 경기 다음 날은 레인하번에서 늦게 시작하세요</h2>
 
 홈경기 다음 날은 박물관과 명소를 촘촘히 넣기보다 레인하번 주변에서 늦게 시작해도 좋다. 물 위에 세운 플로팅 오피스 로테르담<span class="foreign-note" lang="en">(Floating Office Rotterdam; 수상 사무 건물)</span>, 도심 해수욕 공간과 산책로, 카텐드레흐트의 카페가 가까이 모여 있다. 여름에는 물가에 앉아 전날 촬영한 영상과 사진을 정리하기 좋고, 날씨가 흐리면 네덜란드 사진박물관<span class="foreign-note" lang="nl">(Nederlands Fotomuseum)</span>이나 피닉스의 실내 일정으로 바꿀 수 있다.
 
@@ -151,7 +151,7 @@ featured: false
 
 레인하번의 반나절은 두 사람이 함께 즐기는 일정이다. 강 남쪽의 항만이 주거, 문화, 휴식 공간으로 바뀐 과정을 보고 나면 더 카위프가 계속 같은 이름과 기능을 지킨 이유도 더 선명해진다.
 
-<h2 id="de-kuip">7. 더 카위프에서 로테르담 남부의 목소리를 듣는다</h2>
+<h2 id="de-kuip">7. 더 카위프에서는 노래가 먼저 들려와요</h2>
 
 **공식 이름** · 스타디온 페예노르트<span class="foreign-note" lang="nl">(Stadion Feijenoord)</span><br />
 **개장** · 1937년<br />
@@ -179,7 +179,7 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rotterdam-de-kuip/feyenoord-ownership.webp" alt="더 카위프의 페예노르트 문장 앞에서 경기장 인수를 축하하는 구단과 경기장 관계자들" width="1800" height="720" loading="lazy" /><figcaption>2026년 7월 14일, 페예노르트의 더 카위프 인수를 공식적으로 마친 날. 사진: Feyenoord.</figcaption></figure>
 
-### 경기일에는 노래를 먼저 익힌다
+### 경기 전에 이 노래 하나만 들어두세요
 
 <a class="journey-audio" href="https://open.spotify.com/album/0sziALPOin9qg9OluXthiW" target="_blank" rel="noopener noreferrer">
   <span>경기 전에 듣기</span>
@@ -200,7 +200,7 @@ featured: false
 
 <div class="journey-note"><span>경기일 이동</span><p>티켓의 게이트와 입장 시각을 먼저 확인하고, 경기 시작 90분 전에는 경기장 권역에 도착하자. 경기일 대중교통 무료 적용 범위와 운행 노선은 시즌마다 달라질 수 있으므로 페예노르트 공식 교통 안내와 로테르담 대중교통 운영사 <span class="journey-inline-term">RET<span class="foreign-note" lang="nl">(Rotterdamse Elektrische Tram)</span></span> 정보를 함께 확인한다.</p></div>
 
-## 로테르담을 축구로 여행해야 하는 이유
+## 새것을 좋아하는 도시가 1937년의 경기장을 지키는 이유
 
 로테르담의 건축은 완성된 풍경보다 계속되는 결정을 보여준다. 전후의 재건, 항만 기능이 옮겨간 뒤의 콥 판 자위트, 창고를 다시 쓰는 카텐드레흐트가 서로 다른 시대의 선택을 드러낸다. 더 카위프도 이제 그 흐름 안에서 새로운 시간을 준비한다.
 

@@ -42,9 +42,9 @@ fashionProfile:
     href: 'https://www.instagram.com/tolami_benson/'
 ---
 
-톨라미 벤슨<span class="foreign-note" lang="en">(Tolami Benson; 영국 미디어 전략가·패션 크리에이터, 2000-)</span>의 경기일 옷에는 응원의 대상을 알아보게 하는 표식이 남아 있다. 잉글랜드 문장, 아스널의 색, 그리고 부카요 사카<span class="foreign-note" lang="en">(Bukayo Saka; 잉글랜드 축구 선수, 2001-)</span>가 아스널 1군에서 처음 달았던 숫자 `87`이다. 다만 그 표식을 경기장에서 판매하는 모습 그대로 두지는 않는다. 셔츠는 코르셋이 되고, 등번호는 가죽 재킷의 그래픽이 되며, 대표팀 재킷은 몸의 선에 맞춰 다시 고정된다.
+톨라미 벤슨<span class="foreign-note" lang="en">(Tolami Benson; 영국 미디어 전략가·패션 크리에이터, 2000년생)</span>의 경기일 옷에는 잉글랜드 문장과 아스널의 색, 그리고 숫자 `87`이 반복해서 등장한다. 이 숫자는 부카요 아요잉카 테미다요 사카<span class="foreign-note" lang="en">(Bukayo Ayoyinka Temidayo Saka; 잉글랜드 축구 선수, 2001년생)</span>가 아스널 1군에서 처음 달았던 등번호다. 벤슨은 이 표식들을 경기장에서 판매하는 모습 그대로 입기보다, 셔츠를 코르셋으로 바꾸고 등번호를 가죽 재킷의 그래픽으로 옮긴다.
 
-이 차이가 벤슨의 축구 패션을 단순한 ‘유니폼 코디’에서 떼어낸다. 그는 어느 팀을 응원하는지 감추지 않으면서도, <strong>공식 상품과 자신의 몸 사이에 반드시 한 번의 편집을 넣는다.</strong>
+어느 팀과 선수를 응원하는지는 한눈에 보이지만, 완성된 옷은 매장에서 본 상품과 전혀 다르다. 공식 셔츠와 재킷이 벤슨의 몸을 거치며 한 번씩 잘리고 조여지고 다시 연결되기 때문이다.
 
 <div class="fashion-editorial-pair">
   <figure>
@@ -57,7 +57,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 셔츠를 몸에 맞추는 대신, 셔츠의 구조를 바꾼다
+## 잉글랜드 셔츠가 코르셋으로 다시 태어났어요
 
 유로 2024 결승을 위해 해티 크라우더<span class="foreign-note" lang="en">(Hattie Crowther; 영국 패션 디자이너)</span>가 만든 코르셋은 잉글랜드의 유로 2020 셔츠를 해체해 다시 조립한 옷이다. 가슴의 문장과 `ENGLAND` 레터링은 남겼지만, 목과 소매, 몸판의 익숙한 경계는 사라졌다. 앞 중심은 코르셋처럼 세워지고 뒤에는 붉은 `87`이 들어갔다.
 
@@ -75,7 +75,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 87번은 선수의 기록이면서 착장의 모노그램이다
+## 옷마다 반복되는 87번에는 사카의 시작이 담겼어요
 
 숫자 `87`은 코르셋 한 벌에서 끝나지 않는다. 안토니아 브론즈<span class="foreign-note" lang="en">(Antonia Bronze; 영국 패션 디자이너)</span>가 제작한 가죽 바이커 재킷에도 같은 숫자가 들어갔다. 벤슨은 이 재킷 안에 디젤<span class="foreign-note" lang="en">(Diesel)</span>의 톱을 입고, 작은 선글라스와 은색 주얼리를 더했다. 대표팀 상품을 위아래로 맞춘 응원복이 아니라, 패션 피스 사이에 잉글랜드와 사카의 표식을 끼워 넣은 구성이다.
 
@@ -86,7 +86,7 @@ fashionProfile:
   <figcaption>검정·빨강·흰색의 바이커 재킷과 잉글랜드 셔츠를 잇는 숫자 87.<small class="culture-image-credit">Photo via @tolami_benson / Instagram</small></figcaption>
 </figure>
 
-## 사무실에서 경기장까지 가는 옷
+## 사무실에서 경기장까지 그대로 갈 수 있을까요?
 
 벤슨은 《British Vogue》에 전담 스타일리스트가 없으며, 친구들의 단체 대화방에서 솔직한 의견을 듣는다고 말했다. 유로 기간에도 미디어 전략 업무를 계속했고, 사무실에서 곧바로 경기장으로 이동할 수 있는 옷을 익혔다고 설명했다. 이 배경은 그의 룩이 화려하면서도 실제 이동에 강한 이유를 보여준다.
 
@@ -103,7 +103,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 톨라미 벤슨의 방식에서 가져올 세 가지
+## 톨라미 벤슨의 경기일 옷에서 가져올 아이디어
 
 <div class="fashion-rule-cards">
   <section><strong>01 · 상징 하나를 정한다</strong><p>문장, 색, 등번호를 모두 크게 쓰기보다 가장 개인적인 표식 하나를 반복한다. 벤슨에게는 87번이다.</p></section>

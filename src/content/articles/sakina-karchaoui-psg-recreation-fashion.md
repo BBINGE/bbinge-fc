@@ -44,9 +44,9 @@ fashionProfile:
     href: 'https://www.instagram.com/sakinakarchaoui/'
 ---
 
-2026년 3월 파르크 데 프랭스<span class="foreign-note" lang="fr">(Parc des Princes; 파리 생제르맹의 홈구장)</span>에서 사키나 카르샤위<span class="foreign-note" lang="fr">(Sakina Karchaoui; 프랑스 축구 선수, 1996-)</span>는 검정 패딩 재킷과 팬츠를 입고 카메라 앞에 섰다. 재킷의 어깨와 소매는 둥글게 부풀고, 팬츠 앞에는 뾰족한 획으로 그린 `PSG`가 허벅지를 가로지른다. 경기장 좌석의 파란색만 남긴 배경에서 검정 옷의 부피와 흰 글자가 또렷하게 솟는다.
+2026년 3월 파르크 데 프랭스<span class="foreign-note" lang="fr">(Parc des Princes; 파리 생제르맹의 홈구장)</span>에서 사키나 카르샤위<span class="foreign-note" lang="fr">(Sakina Karchaoui; 프랑스 축구 선수, 1996년생)</span>는 갑옷처럼 둥글게 부푼 검정 패딩을 입고 카메라 앞에 섰다. 팬츠 앞에는 뾰족한 획으로 그린 `PSG`가 허벅지를 가로지른다. 경기장 좌석의 파란색만 남긴 배경 덕분에 검정 옷의 부피와 흰 글자가 더욱 또렷하게 솟는다.
 
-코트니 맥윌리엄스<span class="foreign-note" lang="en">(Courtney McWilliams; 영국 패션 디자이너)</span>가 이끈 Nike Re-Creation<span class="foreign-note" lang="en">(나이키의 재고 의류 재구성 프로젝트)</span>은 Nike와 PSG의 오래된 의류를 해체하고 다시 이어 붙였다. 남은 문장과 스우시, 유니폼의 색은 새 옷의 자수와 패딩 구조 안으로 이동했다. 컬렉션의 인상은 검정, 갑옷처럼 부푼 형태, 고딕 레터링으로 모인다.
+이 낯선 옷은 새 원단만으로 만든 컬렉션이 아니다. 코트니 맥윌리엄스<span class="foreign-note" lang="en">(Courtney McWilliams; 영국 패션 디자이너)</span>가 이끈 Nike Re-Creation<span class="foreign-note" lang="en">(나이키의 재고 의류 재구성 프로젝트)</span>이 Nike와 PSG의 오래된 의류를 해체한 뒤 다시 이어 붙였다. 남아 있던 문장과 스우시, 유니폼의 색은 자수와 패딩 구조 안으로 옮겨졌고, 검정과 부푼 형태, 고딕 레터링이 하나의 새로운 인상을 만들었다.
 
 <p class="sakina-shoot-credit"><strong>PSG × NIKE RE-CREATION · MARCH 2026</strong><span>Design Courtney McWilliams · Photography © Maxime Ballesteros · Production Amplify</span></p>
 
@@ -61,7 +61,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 패딩의 부피가 몸의 윤곽을 그린다
+## 갑옷처럼 부푼 패딩을 입으면 실루엣도 달라져요
 
 카르샤위가 입은 검정 재킷은 허리 위에서 짧게 끝난다. 어깨에는 각진 패드가 들어가고, 소매는 팔꿈치 아래까지 넓은 곡선을 만든다. 앞지퍼를 끝까지 올린 높은 목과 바깥으로 퍼진 소매가 얼굴 가까이에 단단한 프레임을 세운다.
 
@@ -69,7 +69,7 @@ fashionProfile:
 
 검정 한 색 안에서도 표면은 계속 바뀐다. 패딩 재킷은 플래시를 부드럽게 반사하고, 팬츠의 면은 빛을 눌러 받는다. 지퍼와 작은 스우시는 매끈하게 번쩍이고, 흰색 그래픽은 가장 거친 획으로 남는다.
 
-## 스우시가 갈비뼈처럼 겹친다
+## 익숙한 스우시를 여러 겹 겹쳐 갈비뼈를 만들었어요
 
 <figure class="sakina-feature-look">
   <img src="/images/culture/sakina-karchaoui-psg-recreation/swoosh-rib-look.webp" alt="여러 개의 흰색과 파란색 스우시를 갈비뼈처럼 겹친 검정 크롭 재킷" width="1080" height="1350" loading="lazy" decoding="async" />
@@ -86,7 +86,7 @@ fashionProfile:
   <article><span>FORM 03</span><h3>고딕 그래픽</h3><p>PSG와 ‘Ici C’est Paris’를 뾰족한 획으로 바꾸고 검정 바탕에 크게 남긴다.</p></article>
 </div>
 
-## 호랑이와 ‘Ici C’est Paris’가 옷의 등판을 채운다
+## 등 뒤의 호랑이와 ‘여기는 파리’는 어디서 왔을까요?
 
 파카의 등에는 흰 호랑이가 축구공에 발을 올리고 있다. 갈기와 발톱 사이에는 붉은 선이 섞이고, 위아래의 `Ici C’est Paris`는 중세 서체처럼 길고 날카로운 획을 뻗는다. PSG의 원형 문장도 소매와 패딩 조각에 남아 있다.
 
@@ -105,7 +105,7 @@ fashionProfile:
 
 이 옷들은 이브리쉬르센<span class="foreign-note" lang="fr">(Ivry-sur-Seine; 파리 남동쪽 도시)</span>의 르라브플뤼스<span class="foreign-note" lang="fr">(LeLabPlus; 의류 재사용·가공 작업장)</span>에서 제작됐다. Nike와 PSG의 재고 의류를 분류하고 염색한 뒤, 패딩과 자수, 새로운 절개를 더했다. 한 가지 도안도 확보된 원단과 문장의 위치에 따라 조금씩 다른 결과를 낸다.
 
-## 카르샤위의 일상복은 더 가볍고 선명하다
+## 경기장 밖의 카르샤위는 더 가볍고 선명하게 입어요
 
 카르샤위는 2026년 6월 《Dégaine》 인터뷰에서 패션을 여러 질감과 소재를 즐기며 그날의 기분을 표현하는 방식으로 설명했다. 편안한 스포츠웨어와 단정한 옷을 번갈아 고르고, 클레르퐁텐<span class="foreign-note" lang="fr">(Clairefontaine; 프랑스 축구 국가대표팀 훈련센터)</span> 입소 때도 자신에게 맞는 한 벌을 고른다.
 
@@ -122,7 +122,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 일상으로 옮길 수 있는 세 가지 비율
+## 이 대담한 옷에서 일상으로 가져올 수 있는 비율
 
 <div class="sakina-style-notes">
   <article><span>01</span><h3>짧은 패딩과 긴 팬츠</h3><p>재킷은 허리 위에서 끝내고 팬츠는 발등 가까이 길게 둔다. 검정 한 색만으로도 상·하체의 비율이 분명해진다.</p></article>
