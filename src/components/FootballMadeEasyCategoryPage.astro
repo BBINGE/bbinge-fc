@@ -1,0 +1,274 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getArticlePath } from '../config/categories';
+import { imageFocusStyle } from '../utils/imageFocus';
+
+interface Props {
+  entries: CollectionEntry<'articles'>[];
+  description?: string;
+}
+
+interface MatchFile {
+  code: string;
+  shortCode: string;
+  question: string;
+  clue: string;
+  verdict: string;
+  notation: string;
+}
+
+const { entries, description } = Astro.props;
+const [lead, ...replays] = entries;
+const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
+
+const matchFiles: Record<string, MatchFile> = {
+  '2026-football-rule-changes-substitution-throw-in-goal-kick': {
+    code: 'TIME LIMITS',
+    shortCode: '10s · 5s · 5s',
+    question: '교체 선수는 왜 바로 들어오지 못했을까?',
+    clue: '심판의 신호와 공이 다시 움직이는 순간',
+    verdict: '자동 제한이 아니라 고의적인 지연을 심판이 선언한 때부터 센다.',
+    notation: 'SIGNAL → COUNT → RESTART',
+  },
+  'goalkeeper-handball-back-pass-rules': {
+    code: 'GOALKEEPER',
+    shortCode: 'BALL × AREA',
+    question: '골키퍼인데 왜 손을 쓰면 반칙일까?',
+    clue: '손과 공, 페널티지역의 관계',
+    verdict: '누가 공을 보냈는지와 손이 공에 닿은 위치가 판정을 나눈다.',
+    notation: 'SOURCE → AREA → HAND',
+  },
+  'offside-questions-and-answers': {
+    code: 'OFFSIDE',
+    shortCode: 'PASS → TOUCH',
+    question: '깃발은 왜 골이 들어간 뒤에야 올라갔을까?',
+    clue: '공을 받은 때가 아니라 패스가 출발한 순간',
+    verdict: '위치만으로 끝나지 않고 그 선수가 플레이에 관여했는지까지 본다.',
+    notation: 'POSITION → INVOLVEMENT',
+  },
+};
+
+const fallbackFile = (entry: CollectionEntry<'articles'>): MatchFile => ({
+  code: 'MATCH QUESTION',
+  shortCode: 'WHY?',
+  question: entry.data.title,
+  clue: entry.data.tags?.[0] ?? '판정을 가른 장면',
+  verdict: entry.data.description,
+  notation: 'SCENE → CLUE → VERDICT',
+});
+
+const fileFor = (entry: CollectionEntry<'articles'>) => matchFiles[entry.id] ?? fallbackFile(entry);
+const leadFile = lead ? fileFor(lead) : undefined;
+---
+
+<div class="easy-index">
+  <header class="easy-masthead">
+    <div>
+      <p>BBINGE FC · FOOTBALL EXPLAINED</p>
+      <h1>축떡</h1>
+    </div>
+    <p class="easy-masthead__manifesto">
+      <strong>FOOTBALL,<br />MADE CLEAR.</strong>
+      <span>경기는 계속됩니다. 놓친 판정은 여기서 따라잡습니다.</span>
+    </p>
+  </header>
+
+  {description && <p class="easy-intro">{description}</p>}
+
+  {lead && leadFile ? (
+    <section class="easy-lead" aria-labelledby="easy-lead-title">
+      <a class="easy-lead__image" href={hrefFor(lead)}>
+        {imageFor(lead) && (
+          <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} style={imageFocusStyle(imageFor(lead))} />
+        )}
+        <span class="easy-lead__live"><i></i> LIVE QUESTION</span>
+        <span class="easy-lead__sequence">FILE {String(entries.length).padStart(2, '0')}</span>
+      </a>
+
+      <div class="easy-lead__desk">
+        <div class="easy-lead__scoreline">
+          <span>{leadFile.code}</span>
+          <strong>{leadFile.shortCode}</strong>
+        </div>
+        <p class="easy-lead__eyebrow">지금 화면에서 놓친 질문</p>
+        <h2 id="easy-lead-title"><a href={hrefFor(lead)}>{leadFile.question}</a></h2>
+        <p class="easy-lead__answer">{lead.data.description}</p>
+        <dl>
+          <div>
+            <dt>판정을 가른 단서</dt>
+            <dd>{leadFile.clue}</dd>
+          </div>
+          <div>
+            <dt>짧은 답</dt>
+            <dd>{leadFile.verdict}</dd>
+          </div>
+        </dl>
+        <a class="easy-lead__cta" href={hrefFor(lead)}>
+          <span>장면의 순서로 납득하기</span>
+          <i aria-hidden="true">→</i>
+        </a>
+      </div>
+    </section>
+  ) : <p class="easy-empty">아직 설명할 장면을 준비하고 있어요.</p>}
+
+  {replays.length > 0 && (
+    <section class="easy-replays" aria-labelledby="easy-replays-title">
+      <div class="easy-section-title">
+        <p>REPLAY FILES</p>
+        <h2 id="easy-replays-title">판정 다시 보기</h2>
+        <span>{String(replays.length).padStart(2, '0')} FILES</span>
+      </div>
+      <div class="easy-replays__grid">
+        {replays.map((entry, index) => {
+          const file = fileFor(entry);
+          return (
+            <a class="easy-replay" href={hrefFor(entry)}>
+              <span class="easy-replay__image">
+                {imageFor(entry) && <img src={imageFor(entry)} alt="" loading="lazy" style={imageFocusStyle(imageFor(entry))} />}
+                <small>{String(index + 1).padStart(2, '0')}</small>
+              </span>
+              <span class="easy-replay__copy">
+                <span><b>{file.code}</b><i>{file.shortCode}</i></span>
+                <strong>{file.question}</strong>
+                <em>판정을 가른 단서</em>
+                <span class="easy-replay__clue">{file.clue}</span>
+                <span class="easy-replay__notation">{file.notation}<i aria-hidden="true">→</i></span>
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  {entries.length > 0 && (
+    <nav class="easy-question-index" aria-labelledby="easy-question-index-title">
+      <div class="easy-section-title">
+        <p>MATCH QUESTIONS</p>
+        <h2 id="easy-question-index-title">무엇을 놓쳤나요?</h2>
+        <span>{String(entries.length).padStart(2, '0')} ANSWERS</span>
+      </div>
+      <div>
+        {entries.map((entry, index) => {
+          const file = fileFor(entry);
+          return (
+            <a href={hrefFor(entry)}>
+              <span>{String(index + 1).padStart(2, '0')}</span>
+              <small>{file.code}</small>
+              <strong>{file.question}</strong>
+              <i aria-hidden="true">↗</i>
+            </a>
+          );
+        })}
+      </div>
+    </nav>
+  )}
+</div>
+
+<style>
+  .easy-index { max-width:1180px; margin:0 auto; padding:34px 20px 76px; }
+  .easy-masthead { display:flex; align-items:end; justify-content:space-between; gap:30px; padding-bottom:23px; border-bottom:3px solid var(--bbfc-ink); }
+  .easy-masthead>div>p { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.17em; }
+  .easy-masthead h1 { margin-top:7px; font-size:clamp(52px,8vw,94px); line-height:.88; font-weight:820; letter-spacing:-.075em; }
+  .easy-masthead__manifesto { display:grid; justify-items:end; text-align:right; }
+  .easy-masthead__manifesto strong { font-size:16px; line-height:1.05; letter-spacing:.02em; }
+  .easy-masthead__manifesto span { margin-top:8px; color:var(--bbfc-gray-2); font-size:11px; }
+  .easy-intro { max-width:960px; margin:19px 0 31px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; text-wrap:pretty; }
+
+  .easy-lead { display:grid; grid-template-columns:minmax(0,1.08fr) minmax(350px,.92fr); min-height:540px; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
+  .easy-lead__image { position:relative; display:block; min-height:100%; overflow:hidden; background:var(--bbfc-fill); }
+  .easy-lead__image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(25,31,40,.03) 46%,rgba(25,31,40,.55)); pointer-events:none; }
+  .easy-lead__image img { width:100%; height:100%; object-fit:cover; transition:transform .55s cubic-bezier(.22,1,.36,1); }
+  .easy-lead__image:hover img { transform:scale(1.018); }
+  .easy-lead__live { position:absolute; z-index:1; top:19px; left:19px; display:flex; align-items:center; gap:7px; padding:7px 10px; background:var(--bbfc-blue); color:white; font-size:8px; font-weight:780; letter-spacing:.14em; }
+  .easy-lead__live i { width:5px; height:5px; border-radius:50%; background:white; box-shadow:0 0 0 3px rgba(255,255,255,.22); animation:easy-live 2.4s ease-in-out infinite; }
+  .easy-lead__sequence { position:absolute; z-index:1; right:19px; bottom:17px; color:white; font-size:10px; font-weight:760; letter-spacing:.18em; text-shadow:0 2px 12px rgba(25,31,40,.7); }
+  .easy-lead__desk { position:relative; display:flex; flex-direction:column; justify-content:center; overflow:hidden; padding:34px 36px 32px; background-color:#16351e; background-image:linear-gradient(90deg,rgba(8,35,12,.38),rgba(47,92,39,.1) 50%,rgba(8,35,12,.38)),url('/images/football-made-easy/pitch-notes/grass-texture.webp'); background-size:auto,360px 360px; color:#f7f4e8; }
+  .easy-lead__desk::before { content:""; position:absolute; top:-12%; right:-25%; width:58%; aspect-ratio:1/1; border:2px solid rgba(247,244,232,.28); border-radius:50%; pointer-events:none; }
+  .easy-lead__desk::after { content:""; position:absolute; top:0; right:4px; bottom:0; width:2px; background:rgba(247,244,232,.24); pointer-events:none; }
+  .easy-lead__desk>* { position:relative; z-index:1; }
+  .easy-lead__scoreline { display:flex; align-items:end; justify-content:space-between; gap:18px; padding-bottom:12px; border-bottom:1px solid rgba(247,244,232,.38); }
+  .easy-lead__scoreline span { color:#c8e56f; font-size:9px; font-weight:780; letter-spacing:.16em; }
+  .easy-lead__scoreline strong { color:#f7f4e8; font-size:17px; line-height:1; font-weight:780; letter-spacing:.08em; }
+  .easy-lead__eyebrow { margin-top:24px; color:#c8e56f; font-size:9px; font-weight:760; letter-spacing:.14em; }
+  .easy-lead h2 { margin-top:11px; max-width:470px; color:#f7f4e8; font-size:clamp(29px,3.2vw,43px); line-height:1.14; font-weight:760; letter-spacing:-.047em; text-wrap:balance; }
+  .easy-lead__answer { margin-top:16px; color:rgba(247,244,232,.78); font-size:12.5px; line-height:1.72; }
+  .easy-lead dl { margin-top:21px; border-top:1px solid rgba(247,244,232,.23); }
+  .easy-lead dl div { display:grid; grid-template-columns:105px minmax(0,1fr); gap:14px; padding:10px 0; border-bottom:1px solid rgba(247,244,232,.23); }
+  .easy-lead dt { color:#c8e56f; font-size:9px; font-weight:760; letter-spacing:.08em; }
+  .easy-lead dd { margin:0; color:#f7f4e8; font-size:11.5px; line-height:1.55; }
+  .easy-lead__cta { display:flex; align-items:center; justify-content:space-between; gap:18px; margin-top:22px; color:#f7f4e8; font-size:13.5px; font-weight:720; }
+  .easy-lead__cta i { display:grid; width:35px; height:35px; flex:0 0 auto; place-items:center; border:1px solid rgba(247,244,232,.5); border-radius:50%; color:#c8e56f; font-size:17px; font-style:normal; transition:transform .3s ease,background-color .3s ease; }
+  .easy-lead__cta:hover i { background:rgba(247,244,232,.12); transform:translateX(4px); }
+
+  .easy-replays,.easy-question-index { margin-top:58px; }
+  .easy-section-title { display:flex; align-items:baseline; gap:12px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-ink); }
+  .easy-section-title p { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.15em; }
+  .easy-section-title h2 { font-size:22px; font-weight:720; letter-spacing:-.025em; }
+  .easy-section-title>span { margin-left:auto; color:var(--bbfc-gray-2); font-size:9px; letter-spacing:.12em; }
+  .easy-replays__grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin-top:20px; }
+  .easy-replay { display:grid; grid-template-columns:minmax(190px,.92fr) minmax(0,1.08fr); min-height:250px; border-bottom:1px solid var(--bbfc-border); background:var(--bbfc-fill-2); }
+  .easy-replay__image { position:relative; display:block; min-height:100%; overflow:hidden; background:var(--bbfc-fill); }
+  .easy-replay__image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 60%,rgba(25,31,40,.5)); }
+  .easy-replay__image img { width:100%; height:100%; object-fit:cover; transition:transform .45s ease; }
+  .easy-replay__image small { position:absolute; z-index:1; left:13px; bottom:11px; color:white; font-size:10px; font-weight:760; letter-spacing:.12em; }
+  .easy-replay__copy { display:flex; flex-direction:column; padding:22px 20px 19px; }
+  .easy-replay__copy>span:first-child { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .easy-replay__copy>span:first-child b { color:var(--bbfc-blue); font-size:8px; font-weight:780; letter-spacing:.13em; }
+  .easy-replay__copy>span:first-child i { color:var(--bbfc-gray-2); font-size:8px; font-style:normal; letter-spacing:.08em; }
+  .easy-replay__copy>strong { margin-top:13px; color:var(--bbfc-ink); font-size:19px; line-height:1.34; font-weight:700; letter-spacing:-.032em; text-wrap:balance; }
+  .easy-replay__copy>em { margin-top:auto; padding-top:20px; color:var(--bbfc-gray-2); font-size:8px; font-style:normal; font-weight:760; letter-spacing:.1em; }
+  .easy-replay__clue { margin-top:5px; color:var(--bbfc-ink-2); font-size:11.5px; line-height:1.5; }
+  .easy-replay__notation { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:12px; padding-top:9px; border-top:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:8px; letter-spacing:.08em; }
+  .easy-replay__notation i { color:var(--bbfc-blue); font-size:14px; font-style:normal; transition:transform .25s ease; }
+  .easy-replay:hover .easy-replay__image img { transform:scale(1.025); }
+  .easy-replay:hover .easy-replay__notation i { transform:translateX(4px); }
+
+  .easy-question-index>div:last-child { border-bottom:1px solid var(--bbfc-border); }
+  .easy-question-index a { display:grid; grid-template-columns:40px 115px minmax(0,1fr) 24px; align-items:center; gap:12px; min-height:64px; border-top:1px solid var(--bbfc-border); }
+  .easy-question-index a:first-child { border-top:0; }
+  .easy-question-index a>span { color:var(--bbfc-gray-2); font-size:10px; }
+  .easy-question-index a>small { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.12em; }
+  .easy-question-index a>strong { color:var(--bbfc-ink); font-size:14px; line-height:1.4; font-weight:650; }
+  .easy-question-index a>i { color:var(--bbfc-gray-2); font-size:15px; font-style:normal; transition:transform .25s ease,color .25s ease; }
+  .easy-question-index a:hover>i { color:var(--bbfc-blue); transform:translate(2px,-2px); }
+  .easy-empty { padding:70px 0; color:var(--bbfc-gray-2); text-align:center; }
+  .easy-lead__image:focus-visible,.easy-lead__cta:focus-visible,.easy-replay:focus-visible,.easy-question-index a:focus-visible { outline:2px solid var(--bbfc-blue); outline-offset:5px; }
+
+  @keyframes easy-live { 0%,100% { opacity:.55; transform:scale(.85); } 50% { opacity:1; transform:scale(1); } }
+  @media (max-width:960px) {
+    .easy-lead { grid-template-columns:1fr; min-height:0; }
+    .easy-lead__image { aspect-ratio:16/10; min-height:0; }
+    .easy-lead__desk { padding:34px 30px; }
+    .easy-replay { grid-template-columns:1fr; }
+    .easy-replay__image { aspect-ratio:16/10; }
+  }
+  @media (max-width:680px) {
+    .easy-replays__grid { grid-template-columns:1fr; }
+    .easy-replay { grid-template-columns:minmax(145px,.8fr) minmax(0,1.2fr); }
+    .easy-replay__image { aspect-ratio:auto; }
+  }
+  @media (max-width:560px) {
+    .easy-index { padding:25px 16px 58px; }
+    .easy-masthead { align-items:start; }
+    .easy-masthead__manifesto strong { font-size:11px; }
+    .easy-masthead__manifesto span { display:none; }
+    .easy-intro { margin-bottom:24px; font-size:12.5px; }
+    .easy-lead__image { aspect-ratio:4/3; }
+    .easy-lead__desk { padding:27px 20px 25px; }
+    .easy-lead h2 { font-size:29px; }
+    .easy-lead__answer { font-size:12px; }
+    .easy-lead dl div { grid-template-columns:92px minmax(0,1fr); gap:10px; }
+    .easy-replays,.easy-question-index { margin-top:48px; }
+    .easy-replay { grid-template-columns:1fr; }
+    .easy-replay__image { aspect-ratio:16/10; }
+    .easy-replay__copy { min-height:220px; }
+    .easy-question-index a { grid-template-columns:28px minmax(0,1fr) 20px; gap:10px; padding:12px 0; }
+    .easy-question-index a>small { display:none; }
+    .easy-question-index a>strong { font-size:13px; }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .easy-lead__live i,.easy-lead__image img,.easy-lead__cta i,.easy-replay__image img,.easy-replay__notation i,.easy-question-index a>i { animation:none; transition:none; }
+  }
+</style>
