@@ -15,6 +15,7 @@ interface MatchFile {
   clue: string;
   verdict: string;
   notation: string;
+  searchIntents: string[];
 }
 
 const { entries, description } = Astro.props;
@@ -30,6 +31,7 @@ const matchFiles: Record<string, MatchFile> = {
     clue: '심판의 신호와 공이 다시 움직이는 순간',
     verdict: '자동 제한이 아니라 고의적인 지연을 심판이 선언한 때부터 센다.',
     notation: 'SIGNAL → COUNT → RESTART',
+    searchIntents: ['교체 선수가 왜 안 들어와', '교체 투입 지연', '교체 10초', '스로인 5초', '골킥 5초', '시간 지연 경고'],
   },
   'goalkeeper-handball-back-pass-rules': {
     code: 'GOALKEEPER',
@@ -38,6 +40,7 @@ const matchFiles: Record<string, MatchFile> = {
     clue: '손과 공, 페널티지역의 관계',
     verdict: '누가 공을 보냈는지와 손이 공에 닿은 위치가 판정을 나눈다.',
     notation: 'SOURCE → AREA → HAND',
+    searchIntents: ['골키퍼가 공을 잡았는데 왜 반칙', '골키퍼 손 반칙', '백패스 손으로 잡기', '페널티지역 밖 핸드볼', '골키퍼 8초'],
   },
   'offside-questions-and-answers': {
     code: 'OFFSIDE',
@@ -46,6 +49,7 @@ const matchFiles: Record<string, MatchFile> = {
     clue: '공을 받은 때가 아니라 패스가 출발한 순간',
     verdict: '위치만으로 끝나지 않고 그 선수가 플레이에 관여했는지까지 본다.',
     notation: 'POSITION → INVOLVEMENT',
+    searchIntents: ['골 넣고 깃발이 늦게 올라간 이유', '오프사이드 깃발 지연', '득점 뒤 오프사이드', 'VAR 오프사이드', '패스 순간 위치'],
   },
 };
 
@@ -56,6 +60,7 @@ const fallbackFile = (entry: CollectionEntry<'articles'>): MatchFile => ({
   clue: entry.data.tags?.[0] ?? '판정을 가른 장면',
   verdict: entry.data.description,
   notation: 'SCENE → CLUE → VERDICT',
+  searchIntents: entry.data.tags ?? [],
 });
 
 const fileFor = (entry: CollectionEntry<'articles'>) => matchFiles[entry.id] ?? fallbackFile(entry);
@@ -125,12 +130,23 @@ const leadFile = lead ? fileFor(lead) : undefined;
           <input id="easy-question-search" type="search" placeholder="뭐든 검색해봐요! (대신 제가 쓴 것만 나와요.. ㄱ-..)" autocomplete="off" aria-controls="easy-library-list" />
         </div>
       </div>
-      <div class="easy-library__list" id="easy-library-list">
+      <p class="easy-library__call" hidden data-easy-call>아마 이런 걸 찾으시는 것 같아요..!</p>
+      <section class="easy-library__tier" data-easy-primary aria-labelledby="easy-primary-title">
+        <div class="easy-library__tier-head" hidden data-easy-primary-head>
+          <span>1순위</span>
+          <h3 id="easy-primary-title">가장 가까운 결과</h3>
+        </div>
+        <div class="easy-library__list" id="easy-library-list" data-easy-primary-list>
         {entries.map((entry) => {
           const file = fileFor(entry);
-          const searchText = [entry.data.title, entry.data.description, ...(entry.data.tags ?? []), file.question, file.clue].join(' ').toLocaleLowerCase('ko-KR');
+          const searchText = [entry.data.title, entry.data.description, ...(entry.data.tags ?? []), file.question, file.clue, file.verdict, ...file.searchIntents].join(' ');
           return (
-            <article class="easy-library__item" data-search={searchText}>
+            <article
+              class="easy-library__item"
+              data-search={searchText}
+              data-title={entry.data.title}
+              data-summary={[entry.data.description, file.question, file.verdict, ...file.searchIntents].join(' ')}
+            >
               <a href={hrefFor(entry)}>
                 <span class="easy-library__thumb">
                   {imageFor(entry) && <img src={imageFor(entry)} alt="" loading="lazy" style={imageFocusStyle(imageFor(entry))} />}
@@ -143,7 +159,15 @@ const leadFile = lead ? fileFor(lead) : undefined;
             </article>
           );
         })}
-      </div>
+        </div>
+      </section>
+      <section class="easy-library__tier easy-library__tier--secondary" hidden data-easy-secondary aria-labelledby="easy-secondary-title">
+        <div class="easy-library__tier-head">
+          <span>2순위</span>
+          <h3 id="easy-secondary-title">함께 보면 좋은 결과</h3>
+        </div>
+        <div class="easy-library__list" data-easy-secondary-list></div>
+      </section>
       <p class="easy-library__empty" hidden data-easy-empty>아직 이 질문을 풀어놓은 글이 없어요.</p>
       <span class="sr-only" aria-live="polite" data-easy-status></span>
     </section>
@@ -154,23 +178,90 @@ const leadFile = lead ? fileFor(lead) : undefined;
   const library = document.querySelector<HTMLElement>('[data-easy-library]');
   const input = library?.querySelector<HTMLInputElement>('#easy-question-search');
   const items = Array.from(library?.querySelectorAll<HTMLElement>('[data-search]') ?? []);
+  const primaryList = library?.querySelector<HTMLElement>('[data-easy-primary-list]');
+  const secondaryList = library?.querySelector<HTMLElement>('[data-easy-secondary-list]');
+  const primaryHead = library?.querySelector<HTMLElement>('[data-easy-primary-head]');
+  const secondary = library?.querySelector<HTMLElement>('[data-easy-secondary]');
+  const call = library?.querySelector<HTMLElement>('[data-easy-call]');
   const empty = library?.querySelector<HTMLElement>('[data-easy-empty]');
   const status = library?.querySelector<HTMLElement>('[data-easy-status]');
 
-  input?.addEventListener('input', () => {
-    const terms = input.value.trim().toLocaleLowerCase('ko-KR').split(/\s+/).filter(Boolean);
-    let visible = 0;
-
-    items.forEach((item) => {
-      const haystack = item.dataset.search ?? '';
-      const matches = terms.every((term) => haystack.includes(term));
-      item.hidden = !matches;
-      if (matches) visible += 1;
+  const normalize = (value: string) => value.normalize('NFKC').toLocaleLowerCase('ko-KR').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const compact = (value: string) => normalize(value).replace(/\s+/g, '');
+  const bigrams = (value: string) => {
+    const chars = compact(value);
+    if (chars.length < 2) return chars ? [chars] : [];
+    return Array.from({ length: chars.length - 1 }, (_, index) => chars.slice(index, index + 2));
+  };
+  const similarity = (left: string, right: string) => {
+    const a = bigrams(left);
+    const b = bigrams(right);
+    if (!a.length || !b.length) return 0;
+    const pool = [...b];
+    let overlap = 0;
+    a.forEach((pair) => {
+      const index = pool.indexOf(pair);
+      if (index >= 0) { overlap += 1; pool.splice(index, 1); }
     });
+    return (2 * overlap) / (a.length + b.length);
+  };
+  const tokensFor = (value: string) => normalize(value).split(/\s+/)
+    .map((token) => token.length > 2 ? token.replace(/(에서|으로|에게|한테|부터|까지|처럼|보다|하고|이며|이고|이라면|라면|인가요|이야|은|는|이|가|을|를|의|와|과|도|로)$/u, '') : token)
+    .filter((token) => token.length > 1 && !['왜', '뭐', '어떤', '이런', '저런', '그런', '인가요', '축구'].includes(token));
 
-    if (empty) empty.hidden = visible !== 0;
-    if (status) status.textContent = terms.length > 0 ? `${visible}개의 글을 찾았습니다.` : '';
-  });
+  const reset = () => {
+    items.forEach((item) => { item.hidden = false; primaryList?.append(item); });
+    if (primaryHead) primaryHead.hidden = true;
+    if (secondary) secondary.hidden = true;
+    if (call) call.hidden = true;
+    if (empty) empty.hidden = true;
+    if (status) status.textContent = '';
+  };
+
+  const render = () => {
+    const query = input?.value.trim() ?? '';
+    if (!query) { reset(); return; }
+    const q = normalize(query);
+    const tokens = tokensFor(q);
+    const ranked = items.map((item, order) => {
+      const title = normalize(item.dataset.title ?? '');
+      const summary = normalize(item.dataset.summary ?? '');
+      const context = normalize(item.dataset.search ?? '');
+      let hits = 0;
+      let score = title === q ? 1000 : title.includes(q) ? 520 : summary.includes(q) ? 330 : context.includes(q) ? 180 : 0;
+      tokens.forEach((token) => {
+        if (title.includes(token)) { score += 110; hits += 1; }
+        else if (summary.includes(token)) { score += 72; hits += 1; }
+        else if (context.includes(token)) { score += 36; hits += 1; }
+      });
+      score += similarity(q, title) * 110 + similarity(q, summary) * 150 + similarity(q, context) * 70;
+      return { item, order, hits, score };
+    }).sort((a, b) => b.score - a.score || b.hits - a.hits || a.order - b.order);
+    const relevant = ranked.filter((result) => result.hits > 0 || result.score >= 30);
+    items.forEach((item) => { item.hidden = true; });
+
+    if (!relevant.length) {
+      if (primaryHead) primaryHead.hidden = true;
+      if (secondary) secondary.hidden = true;
+      if (call) call.hidden = true;
+      if (empty) empty.hidden = false;
+      if (status) status.textContent = '아직 이 질문을 풀어놓은 글이 없습니다.';
+      return;
+    }
+
+    const [closest, ...candidates] = relevant;
+    const related = candidates.filter((result) => result.score >= Math.max(42, closest.score * .3));
+    closest.item.hidden = false;
+    primaryList?.append(closest.item);
+    related.slice(0, 4).forEach(({ item }) => { item.hidden = false; secondaryList?.append(item); });
+    if (primaryHead) primaryHead.hidden = false;
+    if (secondary) secondary.hidden = related.length === 0;
+    if (call) call.hidden = false;
+    if (empty) empty.hidden = true;
+    if (status) status.textContent = `${Math.min(relevant.length, 5)}개의 축떡 글을 순서대로 찾았습니다.`;
+  };
+
+  input?.addEventListener('input', render);
 </script>
 
 <style>
@@ -221,6 +312,13 @@ const leadFile = lead ? fileFor(lead) : undefined;
   .easy-search input::placeholder { color:var(--bbfc-gray-2); }
   .easy-search:focus-within { border-color:rgba(49,130,246,.38); box-shadow:0 17px 38px -25px rgba(25,31,40,.4),inset 0 1px rgba(255,255,255,.96); }
   .easy-search:focus-within svg { stroke:var(--bbfc-blue); }
+  .easy-library__call { margin:30px 0 6px; color:var(--bbfc-ink); font-size:20px; line-height:1.35; font-weight:720; letter-spacing:-.035em; }
+  .easy-library__call[hidden],.easy-library__tier[hidden],.easy-library__tier-head[hidden] { display:none; }
+  .easy-library__tier { margin-top:24px; }
+  .easy-library__tier--secondary { margin-top:42px; }
+  .easy-library__tier-head { display:flex; align-items:baseline; gap:11px; padding-bottom:10px; border-bottom:1px solid var(--bbfc-ink); }
+  .easy-library__tier-head span { color:var(--bbfc-blue); font-size:9px; line-height:1; font-weight:780; letter-spacing:.15em; }
+  .easy-library__tier-head h3 { color:var(--bbfc-ink); font-size:16px; line-height:1.3; font-weight:720; letter-spacing:-.025em; }
   .easy-library__list { border-bottom:1px solid var(--bbfc-border); }
   .easy-library__item { border-top:1px solid var(--bbfc-border); }
   .easy-library__item:first-child { border-top:0; }
@@ -260,6 +358,9 @@ const leadFile = lead ? fileFor(lead) : undefined;
     .easy-library__head>div:first-child { display:grid; gap:6px; }
     .easy-library__head h2 { font-size:23px; }
     .easy-search { width:calc(100% - 8px); height:46px; margin:0 4px; }
+    .easy-library__call { margin-top:25px; font-size:18px; }
+    .easy-library__tier { margin-top:19px; }
+    .easy-library__tier--secondary { margin-top:34px; }
     .easy-library__item>a { grid-template-columns:112px minmax(0,1fr); gap:14px; padding:15px 0; }
     .easy-library__thumb { border-radius:8px; }
     .easy-library__copy { gap:5px; }

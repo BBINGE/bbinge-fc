@@ -61,7 +61,14 @@ const searchIndex = [...entries.map((entry) => ({
       <input id="bbfc-search-input" type="search" placeholder="선수, 대회, 장소, 이야기…" autofocus />
     </div>
     <p id="bbfc-search-count" class="search-curation-call" role="status" aria-live="polite"></p>
-    <div id="bbfc-search-results" class="search-explore-grid"></div>
+    <section id="bbfc-search-primary" class="search-tier" hidden aria-labelledby="bbfc-search-primary-title">
+      <div class="search-tier__head"><span>1순위</span><h2 id="bbfc-search-primary-title">가장 가까운 결과</h2></div>
+      <div id="bbfc-search-primary-results" class="search-explore-grid"></div>
+    </section>
+    <section id="bbfc-search-secondary" class="search-tier search-tier--secondary" hidden aria-labelledby="bbfc-search-secondary-title">
+      <div class="search-tier__head"><span>2순위</span><h2 id="bbfc-search-secondary-title">함께 보면 좋은 결과</h2></div>
+      <div id="bbfc-search-secondary-results" class="search-explore-grid"></div>
+    </section>
   </div>
 </Layout>
 
@@ -72,10 +79,18 @@ const searchIndex = [...entries.map((entry) => ({
   .search-prompt:focus-within { border-color:var(--bbfc-blue); box-shadow:0 16px 40px -25px rgba(41,112,240,.55); }
   .search-prompt input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:15px; }
   .search-prompt input::placeholder { color:var(--bbfc-gray-2); }
-  .search-curation-call { min-height:51px; margin:26px 0 14px; color:var(--bbfc-ink); }
-  .search-curation-call strong { display:block; font-size:17px; font-weight:700; letter-spacing:-.025em; }
+  .search-curation-call { min-height:51px; margin:26px 0 6px; color:var(--bbfc-ink); }
+  .search-curation-call strong { display:block; font-size:20px; font-weight:720; letter-spacing:-.035em; }
   .search-curation-call span { display:block; margin-top:4px; color:var(--bbfc-gray-2); font-size:11px; }
+  .search-tier[hidden] { display:none; }
+  .search-tier { margin-top:24px; }
+  .search-tier--secondary { margin-top:43px; }
+  .search-tier__head { display:flex; align-items:baseline; gap:11px; padding-bottom:11px; border-bottom:1px solid var(--bbfc-ink); }
+  .search-tier__head span { color:var(--bbfc-blue); font-size:9px; line-height:1; font-weight:780; letter-spacing:.15em; }
+  .search-tier__head h2 { color:var(--bbfc-ink); font-size:16px; line-height:1.3; font-weight:720; letter-spacing:-.025em; }
   .search-explore-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:3px; }
+  #bbfc-search-primary-results[data-count="1"] { grid-template-columns:minmax(0,420px); }
+  #bbfc-search-primary-results[data-count="2"] { grid-template-columns:repeat(2,minmax(0,1fr)); }
   :global(.search-explore-card) { position:relative; aspect-ratio:1/1; overflow:hidden; background:linear-gradient(145deg,#e9edf3,#dce3ed); color:#fff !important; isolation:isolate; }
   :global(.search-explore-card img) { width:100%; height:100%; object-fit:cover; transition:transform .45s ease,filter .35s ease; }
   :global(.search-explore-card::after) { position:absolute; z-index:1; inset:32% 0 0; background:linear-gradient(180deg,transparent,rgba(7,13,22,.84)); content:""; transition:opacity .25s ease; }
@@ -94,7 +109,11 @@ const searchIndex = [...entries.map((entry) => ({
   @media (max-width:767px) {
     .search-shell { padding:24px 16px 56px; }
     .search-shell h1 { font-size:20px; }
+    .search-curation-call strong { font-size:18px; }
+    .search-tier { margin-top:19px; }
+    .search-tier--secondary { margin-top:34px; }
     .search-explore-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:2px; }
+    #bbfc-search-primary-results[data-count="1"] { grid-template-columns:minmax(0,1fr); }
     :global(.search-explore-copy) { padding:30px 11px 11px; }
     :global(.search-explore-copy strong) { font-size:12px; }
   }
@@ -103,8 +122,11 @@ const searchIndex = [...entries.map((entry) => ({
 
 <script is:inline define:vars={{ searchIndex }}>
   const input = document.getElementById('bbfc-search-input');
-  const resultsEl = document.getElementById('bbfc-search-results');
   const countEl = document.getElementById('bbfc-search-count');
+  const primarySection = document.getElementById('bbfc-search-primary');
+  const secondarySection = document.getElementById('bbfc-search-secondary');
+  const primaryResults = document.getElementById('bbfc-search-primary-results');
+  const secondaryResults = document.getElementById('bbfc-search-secondary-results');
 
   function render(query) {
     const normalize = (value) => String(value ?? '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
@@ -128,11 +150,20 @@ const searchIndex = [...entries.map((entry) => ({
     };
     const q = normalize(query);
     if (!q) {
-      resultsEl.innerHTML = '';
+      primaryResults.innerHTML = '';
+      secondaryResults.innerHTML = '';
+      primarySection.hidden = true;
+      secondarySection.hidden = true;
       countEl.textContent = '';
       return;
     }
-    const tokens = q.split(/\s+/).filter(Boolean);
+    const stopwords = ['왜', '뭐', '어떤', '이런', '저런', '그런', '인가요', '축구', '싶어', '싶어요', '싶다', '보고', '보러', '가고', '가요', '알려줘', '해줘'];
+    const tokens = q.split(/\s+/)
+      .map((token) => token.length > 2 ? token.replace(/(에서|으로|에게|한테|부터|까지|처럼|보다|하고|이며|이고|이라면|라면|인가요|이야|은|는|이|가|을|를|의|와|과|도|로)$/u, '') : token)
+      .filter((token) => token.length > 1 && !stopwords.includes(token));
+    if (/보러|여행|가고\s*싶/u.test(q)) tokens.push('여행');
+    if (/입고|옷|패션|코디/u.test(q)) tokens.push('패션', '코디', '유니폼');
+    if (/규칙|반칙|판정|왜/u.test(q)) tokens.push('규칙', '판정');
     const scored = searchIndex
       .map((item, order) => {
         const title = normalize(item.title);
@@ -149,16 +180,13 @@ const searchIndex = [...entries.map((entry) => ({
           else if (context.includes(token)) { score += 18; hits += 1; }
         });
         if (hits === tokens.length) score += 90;
-        score += similarity(q, title) * 90 + similarity(q, summary) * 35;
+        score += similarity(q, title) * 105 + similarity(q, summary) * 65 + similarity(q, context) * 30;
         return { ...item, score, hits, order };
       })
       .sort((a, b) => b.score - a.score || b.hits - a.hits || a.order - b.order);
     const relevant = scored.filter((item) => item.hits > 0 || item.score >= 28);
-    const matches = (relevant.length ? relevant : scored).slice(0, 24);
-    const isFallback = relevant.length === 0;
     const escapeHtml = (value) => String(value ?? '').replace(/[&<>'"]/g, (char) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' })[char]);
-    countEl.innerHTML = `<strong>아래 큐레이션이 호출됐어요!</strong><span>${isFallback ? '정확히 겹치는 기록 대신 지금 둘러볼 만한 콘텐츠를 담았어요.' : `검색어 ‘${escapeHtml(query)}’에 가까운 기록 ${matches.length}개를 모았어요.`}</span>`;
-    resultsEl.innerHTML = matches.map((item) => `
+    const card = (item) => `
       <a href="${escapeHtml(item.href)}" class="search-explore-card" aria-label="${escapeHtml(item.title)}">
         ${item.image ? `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.imageAlt)}" width="520" height="520" loading="lazy" />` : '<span class="search-explore-fallback" aria-hidden="true">B</span>'}
         <span class="search-explore-copy">
@@ -166,7 +194,28 @@ const searchIndex = [...entries.map((entry) => ({
           <strong>${escapeHtml(item.title)}</strong>
           <span>${escapeHtml(item.pubDate)}</span>
         </span>
-      </a>`).join('');
+      </a>`;
+
+    if (!relevant.length) {
+      primaryResults.innerHTML = '';
+      secondaryResults.innerHTML = '';
+      primarySection.hidden = true;
+      secondarySection.hidden = true;
+      countEl.innerHTML = '<strong>아직 이 질문과 가까운 기록을 찾지 못했어요.</strong><span>다른 표현이나 선수·대회·도시 이름으로 다시 찾아봐 주세요.</span>';
+      return;
+    }
+
+    const topScore = relevant[0].score;
+    const primary = relevant.filter((item) => item.score >= Math.max(30, topScore * .82)).slice(0, 3);
+    const primaryHrefs = new Set(primary.map((item) => item.href));
+    const secondary = relevant.filter((item) => !primaryHrefs.has(item.href)).slice(0, 6);
+    countEl.innerHTML = `<strong>아마 이런 걸 찾으시는 것 같아요..!</strong><span>삥이FC 전체 기록에서 ‘${escapeHtml(query)}’에 가까운 순서로 골랐어요.</span>`;
+    primaryResults.innerHTML = primary.map(card).join('');
+    primaryResults.dataset.count = String(primary.length);
+    primaryResults.style.gridTemplateColumns = primary.length === 1 ? 'minmax(0,420px)' : primary.length === 2 ? 'repeat(2,minmax(0,1fr))' : '';
+    secondaryResults.innerHTML = secondary.map(card).join('');
+    primarySection.hidden = false;
+    secondarySection.hidden = secondary.length === 0;
   }
 
   input.addEventListener('input', () => render(input.value));
