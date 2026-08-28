@@ -122,7 +122,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
         <div class="easy-search">
           <label for="easy-question-search">축떡 글 검색</label>
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
-          <input id="easy-question-search" type="search" placeholder="뭐가 궁금하세요?" autocomplete="off" aria-controls="easy-library-list" />
+          <input id="easy-question-search" type="search" placeholder="뭐든 검색해보삼 (대신 제가 쓴 것만 나와요.. ㄱ-..)" autocomplete="off" aria-controls="easy-library-list" />
         </div>
       </div>
       <div class="easy-library__list" id="easy-library-list">
@@ -214,15 +214,15 @@ const leadFile = lead ? fileFor(lead) : undefined;
   .easy-library__head>div:first-child { display:flex; align-items:baseline; gap:12px; min-width:0; }
   .easy-library__head>div:first-child p { flex:0 0 auto; color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.15em; }
   .easy-library__head h2 { font-size:25px; line-height:1.25; font-weight:720; letter-spacing:-.035em; text-wrap:balance; }
-  .easy-search { position:relative; z-index:1; display:flex; align-items:center; align-self:center; width:100%; height:48px; padding:0 17px; border:1px solid rgba(49,130,246,.18); border-radius:999px; background:linear-gradient(120deg,rgba(255,255,255,.86),rgba(242,246,254,.58),rgba(255,255,255,.74)); box-shadow:0 14px 38px -21px rgba(49,130,246,.62),0 8px 24px -22px rgba(25,31,40,.45),inset 0 1px rgba(255,255,255,.88); backdrop-filter:blur(18px) saturate(140%); animation:easy-search-float 7s ease-in-out infinite; }
-  .easy-search::before,.easy-search::after { content:""; position:absolute; z-index:-1; border-radius:999px; pointer-events:none; filter:blur(16px); opacity:.34; }
-  .easy-search::before { inset:-12px 18% -10px -4%; background:radial-gradient(ellipse at center,rgba(49,130,246,.4),rgba(49,130,246,0) 70%); animation:easy-search-aura 6.4s ease-in-out infinite alternate; }
-  .easy-search::after { inset:-9px -5% -14px 42%; background:radial-gradient(ellipse at center,rgba(200,229,111,.28),rgba(49,130,246,0) 72%); animation:easy-search-aura 7.6s 1.2s ease-in-out infinite alternate-reverse; }
+  .easy-search { position:relative; z-index:1; display:flex; align-items:center; align-self:center; width:100%; height:48px; padding:0 17px; border:1px solid rgba(139,149,161,.26); border-radius:999px; background:rgba(255,255,255,.76); box-shadow:0 15px 34px -24px rgba(25,31,40,.38),inset 0 1px rgba(255,255,255,.96); backdrop-filter:blur(18px) saturate(115%); animation:easy-search-float 5.2s ease-in-out infinite; }
+  .easy-search::before,.easy-search::after { content:""; position:absolute; z-index:-1; border-radius:999px; pointer-events:none; filter:blur(23px); }
+  .easy-search::before { inset:-20px 7% -18px -8%; background:radial-gradient(ellipse at center,rgba(49,130,246,.52),rgba(49,130,246,0) 72%); animation:easy-search-aura 5.4s ease-in-out infinite alternate; }
+  .easy-search::after { inset:-18px -9% -22px 32%; background:radial-gradient(ellipse at center,rgba(151,198,255,.46),rgba(151,198,255,0) 74%); animation:easy-search-aura 6.6s 1s ease-in-out infinite alternate-reverse; }
   .easy-search label { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); clip-path:inset(50%); white-space:nowrap; }
   .easy-search svg { width:18px; height:18px; flex:0 0 auto; fill:none; stroke:var(--bbfc-gray-2); stroke-width:1.7; transition:stroke .25s ease; }
   .easy-search input { width:100%; min-width:0; height:100%; padding:0 3px 0 11px; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font:inherit; font-size:13px; }
   .easy-search input::placeholder { color:var(--bbfc-gray-2); }
-  .easy-search:focus-within { border-color:rgba(49,130,246,.4); box-shadow:0 18px 44px -22px rgba(49,130,246,.72),0 8px 24px -22px rgba(25,31,40,.45),inset 0 1px rgba(255,255,255,.92); }
+  .easy-search:focus-within { border-color:rgba(49,130,246,.38); box-shadow:0 17px 38px -25px rgba(25,31,40,.4),inset 0 1px rgba(255,255,255,.96); }
   .easy-search:focus-within svg { stroke:var(--bbfc-blue); }
   .easy-library__list { border-bottom:1px solid var(--bbfc-border); }
   .easy-library__item { border-top:1px solid var(--bbfc-border); }
@@ -240,8 +240,8 @@ const leadFile = lead ? fileFor(lead) : undefined;
   .easy-lead__image:focus-visible,.easy-lead__cta:focus-visible,.easy-library__item>a:focus-visible { outline:2px solid var(--bbfc-blue); outline-offset:5px; }
 
   @keyframes easy-live { 0%,100% { opacity:.55; transform:scale(.85); } 50% { opacity:1; transform:scale(1); } }
-  @keyframes easy-search-float { 0%,100% { transform:translateY(1px); } 50% { transform:translateY(-3px); } }
-  @keyframes easy-search-aura { 0% { opacity:.18; transform:scale(.86) translateX(-2%); } 55% { opacity:.42; } 100% { opacity:.24; transform:scale(1.16) translateX(3%); } }
+  @keyframes easy-search-float { 0%,100% { transform:translateY(3px); } 50% { transform:translateY(-7px); } }
+  @keyframes easy-search-aura { 0% { opacity:.12; transform:scale(.78) translateX(-4%); } 52% { opacity:.55; } 100% { opacity:.24; transform:scale(1.28) translateX(5%); } }
   @media (max-width:960px) {
     .easy-lead { grid-template-columns:1fr; min-height:0; }
     .easy-lead__image { aspect-ratio:16/10; min-height:0; }
