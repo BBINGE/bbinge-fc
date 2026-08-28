@@ -18,7 +18,7 @@ interface MatchFile {
 }
 
 const { entries, description } = Astro.props;
-const [lead, ...replays] = entries;
+const [lead] = entries;
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
 
@@ -112,59 +112,66 @@ const leadFile = lead ? fileFor(lead) : undefined;
     </section>
   ) : <p class="easy-empty">아직 설명할 장면을 준비하고 있어요.</p>}
 
-  {replays.length > 0 && (
-    <section class="easy-replays" aria-labelledby="easy-replays-title">
-      <div class="easy-section-title">
-        <p>REPLAY FILES</p>
-        <h2 id="easy-replays-title">판정 다시 보기</h2>
-        <span>{String(replays.length).padStart(2, '0')} FILES</span>
+  {entries.length > 0 && (
+    <section class="easy-library" aria-labelledby="easy-library-title" data-easy-library>
+      <div class="easy-library__head">
+        <div>
+          <p>ASK BBINGE</p>
+          <h2 id="easy-library-title">님들 궁금한 거 다 풀어드림</h2>
+        </div>
+        <div class="easy-search">
+          <label for="easy-question-search">축떡 글 검색</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+          <input id="easy-question-search" type="search" placeholder="뭐가 궁금하세요?" autocomplete="off" aria-controls="easy-library-list" />
+        </div>
       </div>
-      <div class="easy-replays__grid">
-        {replays.map((entry, index) => {
+      <div class="easy-library__list" id="easy-library-list">
+        {entries.map((entry) => {
           const file = fileFor(entry);
+          const searchText = [entry.data.title, entry.data.description, ...(entry.data.tags ?? []), file.question, file.clue].join(' ').toLocaleLowerCase('ko-KR');
           return (
-            <a class="easy-replay" href={hrefFor(entry)}>
-              <span class="easy-replay__image">
-                {imageFor(entry) && <img src={imageFor(entry)} alt="" loading="lazy" style={imageFocusStyle(imageFor(entry))} />}
-                <small>{String(index + 1).padStart(2, '0')}</small>
-              </span>
-              <span class="easy-replay__copy">
-                <span><b>{file.code}</b><i>{file.shortCode}</i></span>
-                <strong>{file.question}</strong>
-                <em>판정을 가른 단서</em>
-                <span class="easy-replay__clue">{file.clue}</span>
-                <span class="easy-replay__notation">{file.notation}<i aria-hidden="true">→</i></span>
-              </span>
-            </a>
+            <article class="easy-library__item" data-search={searchText}>
+              <a href={hrefFor(entry)}>
+                <span class="easy-library__thumb">
+                  {imageFor(entry) && <img src={imageFor(entry)} alt="" loading="lazy" style={imageFocusStyle(imageFor(entry))} />}
+                </span>
+                <span class="easy-library__copy">
+                  <strong>{entry.data.title}</strong>
+                  <span>{entry.data.description}</span>
+                </span>
+              </a>
+            </article>
           );
         })}
       </div>
+      <p class="easy-library__empty" hidden data-easy-empty>아직 이 질문을 풀어놓은 글이 없어요.</p>
+      <span class="sr-only" aria-live="polite" data-easy-status></span>
     </section>
   )}
-
-  {entries.length > 0 && (
-    <nav class="easy-question-index" aria-labelledby="easy-question-index-title">
-      <div class="easy-section-title">
-        <p>MATCH QUESTIONS</p>
-        <h2 id="easy-question-index-title">무엇을 놓쳤나요?</h2>
-        <span>{String(entries.length).padStart(2, '0')} ANSWERS</span>
-      </div>
-      <div>
-        {entries.map((entry, index) => {
-          const file = fileFor(entry);
-          return (
-            <a href={hrefFor(entry)}>
-              <span>{String(index + 1).padStart(2, '0')}</span>
-              <small>{file.code}</small>
-              <strong>{file.question}</strong>
-              <i aria-hidden="true">↗</i>
-            </a>
-          );
-        })}
-      </div>
-    </nav>
-  )}
 </div>
+
+<script>
+  const library = document.querySelector<HTMLElement>('[data-easy-library]');
+  const input = library?.querySelector<HTMLInputElement>('#easy-question-search');
+  const items = Array.from(library?.querySelectorAll<HTMLElement>('[data-search]') ?? []);
+  const empty = library?.querySelector<HTMLElement>('[data-easy-empty]');
+  const status = library?.querySelector<HTMLElement>('[data-easy-status]');
+
+  input?.addEventListener('input', () => {
+    const terms = input.value.trim().toLocaleLowerCase('ko-KR').split(/\s+/).filter(Boolean);
+    let visible = 0;
+
+    items.forEach((item) => {
+      const haystack = item.dataset.search ?? '';
+      const matches = terms.every((term) => haystack.includes(term));
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    });
+
+    if (empty) empty.hidden = visible !== 0;
+    if (status) status.textContent = terms.length > 0 ? `${visible}개의 글을 찾았습니다.` : '';
+  });
+</script>
 
 <style>
   .easy-index { max-width:1180px; margin:0 auto; padding:34px 20px 76px; }
@@ -202,52 +209,44 @@ const leadFile = lead ? fileFor(lead) : undefined;
   .easy-lead__cta i { display:grid; width:35px; height:35px; flex:0 0 auto; place-items:center; border:1px solid rgba(247,244,232,.5); border-radius:50%; color:#c8e56f; font-size:17px; font-style:normal; transition:transform .3s ease,background-color .3s ease; }
   .easy-lead__cta:hover i { background:rgba(247,244,232,.12); transform:translateX(4px); }
 
-  .easy-replays,.easy-question-index { margin-top:58px; }
-  .easy-section-title { display:flex; align-items:baseline; gap:12px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-ink); }
-  .easy-section-title p { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.15em; }
-  .easy-section-title h2 { font-size:22px; font-weight:720; letter-spacing:-.025em; }
-  .easy-section-title>span { margin-left:auto; color:var(--bbfc-gray-2); font-size:9px; letter-spacing:.12em; }
-  .easy-replays__grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin-top:20px; }
-  .easy-replay { display:grid; grid-template-columns:minmax(190px,.92fr) minmax(0,1.08fr); min-height:250px; border-bottom:1px solid var(--bbfc-border); background:var(--bbfc-fill-2); }
-  .easy-replay__image { position:relative; display:block; min-height:100%; overflow:hidden; background:var(--bbfc-fill); }
-  .easy-replay__image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 60%,rgba(25,31,40,.5)); }
-  .easy-replay__image img { width:100%; height:100%; object-fit:cover; transition:transform .45s ease; }
-  .easy-replay__image small { position:absolute; z-index:1; left:13px; bottom:11px; color:white; font-size:10px; font-weight:760; letter-spacing:.12em; }
-  .easy-replay__copy { display:flex; flex-direction:column; padding:22px 20px 19px; }
-  .easy-replay__copy>span:first-child { display:flex; align-items:center; justify-content:space-between; gap:8px; }
-  .easy-replay__copy>span:first-child b { color:var(--bbfc-blue); font-size:8px; font-weight:780; letter-spacing:.13em; }
-  .easy-replay__copy>span:first-child i { color:var(--bbfc-gray-2); font-size:8px; font-style:normal; letter-spacing:.08em; }
-  .easy-replay__copy>strong { margin-top:13px; color:var(--bbfc-ink); font-size:19px; line-height:1.34; font-weight:700; letter-spacing:-.032em; text-wrap:balance; }
-  .easy-replay__copy>em { margin-top:auto; padding-top:20px; color:var(--bbfc-gray-2); font-size:8px; font-style:normal; font-weight:760; letter-spacing:.1em; }
-  .easy-replay__clue { margin-top:5px; color:var(--bbfc-ink-2); font-size:11.5px; line-height:1.5; }
-  .easy-replay__notation { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:12px; padding-top:9px; border-top:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:8px; letter-spacing:.08em; }
-  .easy-replay__notation i { color:var(--bbfc-blue); font-size:14px; font-style:normal; transition:transform .25s ease; }
-  .easy-replay:hover .easy-replay__image img { transform:scale(1.025); }
-  .easy-replay:hover .easy-replay__notation i { transform:translateX(4px); }
-
-  .easy-question-index>div:last-child { border-bottom:1px solid var(--bbfc-border); }
-  .easy-question-index a { display:grid; grid-template-columns:40px 115px minmax(0,1fr) 24px; align-items:center; gap:12px; min-height:64px; border-top:1px solid var(--bbfc-border); }
-  .easy-question-index a:first-child { border-top:0; }
-  .easy-question-index a>span { color:var(--bbfc-gray-2); font-size:10px; }
-  .easy-question-index a>small { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.12em; }
-  .easy-question-index a>strong { color:var(--bbfc-ink); font-size:14px; line-height:1.4; font-weight:650; }
-  .easy-question-index a>i { color:var(--bbfc-gray-2); font-size:15px; font-style:normal; transition:transform .25s ease,color .25s ease; }
-  .easy-question-index a:hover>i { color:var(--bbfc-blue); transform:translate(2px,-2px); }
+  .easy-library { margin-top:64px; }
+  .easy-library__head { display:grid; grid-template-columns:minmax(0,1fr) minmax(280px,370px); align-items:end; gap:32px; padding-bottom:17px; border-bottom:1px solid var(--bbfc-ink); }
+  .easy-library__head>div:first-child { display:flex; align-items:baseline; gap:12px; min-width:0; }
+  .easy-library__head>div:first-child p { flex:0 0 auto; color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.15em; }
+  .easy-library__head h2 { font-size:25px; line-height:1.25; font-weight:720; letter-spacing:-.035em; text-wrap:balance; }
+  .easy-search { position:relative; z-index:1; display:flex; align-items:center; align-self:center; width:100%; height:48px; padding:0 17px; border:1px solid rgba(49,130,246,.18); border-radius:999px; background:linear-gradient(120deg,rgba(255,255,255,.86),rgba(242,246,254,.58),rgba(255,255,255,.74)); box-shadow:0 14px 38px -21px rgba(49,130,246,.62),0 8px 24px -22px rgba(25,31,40,.45),inset 0 1px rgba(255,255,255,.88); backdrop-filter:blur(18px) saturate(140%); animation:easy-search-float 7s ease-in-out infinite; }
+  .easy-search::before,.easy-search::after { content:""; position:absolute; z-index:-1; border-radius:999px; pointer-events:none; filter:blur(16px); opacity:.34; }
+  .easy-search::before { inset:-12px 18% -10px -4%; background:radial-gradient(ellipse at center,rgba(49,130,246,.4),rgba(49,130,246,0) 70%); animation:easy-search-aura 6.4s ease-in-out infinite alternate; }
+  .easy-search::after { inset:-9px -5% -14px 42%; background:radial-gradient(ellipse at center,rgba(200,229,111,.28),rgba(49,130,246,0) 72%); animation:easy-search-aura 7.6s 1.2s ease-in-out infinite alternate-reverse; }
+  .easy-search label { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); clip-path:inset(50%); white-space:nowrap; }
+  .easy-search svg { width:18px; height:18px; flex:0 0 auto; fill:none; stroke:var(--bbfc-gray-2); stroke-width:1.7; transition:stroke .25s ease; }
+  .easy-search input { width:100%; min-width:0; height:100%; padding:0 3px 0 11px; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font:inherit; font-size:13px; }
+  .easy-search input::placeholder { color:var(--bbfc-gray-2); }
+  .easy-search:focus-within { border-color:rgba(49,130,246,.4); box-shadow:0 18px 44px -22px rgba(49,130,246,.72),0 8px 24px -22px rgba(25,31,40,.45),inset 0 1px rgba(255,255,255,.92); }
+  .easy-search:focus-within svg { stroke:var(--bbfc-blue); }
+  .easy-library__list { border-bottom:1px solid var(--bbfc-border); }
+  .easy-library__item { border-top:1px solid var(--bbfc-border); }
+  .easy-library__item:first-child { border-top:0; }
+  .easy-library__item[hidden] { display:none; }
+  .easy-library__item>a { display:grid; grid-template-columns:220px minmax(0,1fr); align-items:center; gap:25px; padding:18px 0; }
+  .easy-library__thumb { display:block; aspect-ratio:16/9; overflow:hidden; border-radius:10px; background:var(--bbfc-fill); }
+  .easy-library__thumb img { width:100%; height:100%; object-fit:cover; transition:transform .42s ease; }
+  .easy-library__copy { display:grid; gap:9px; min-width:0; }
+  .easy-library__copy>strong { color:var(--bbfc-ink); font-size:18px; line-height:1.4; font-weight:680; letter-spacing:-.028em; text-wrap:balance; }
+  .easy-library__copy>span { max-width:760px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.7; }
+  .easy-library__item>a:hover .easy-library__thumb img { transform:scale(1.025); }
+  .easy-library__empty { padding:58px 0; border-bottom:1px solid var(--bbfc-border); color:var(--bbfc-gray-2); font-size:13px; text-align:center; }
   .easy-empty { padding:70px 0; color:var(--bbfc-gray-2); text-align:center; }
-  .easy-lead__image:focus-visible,.easy-lead__cta:focus-visible,.easy-replay:focus-visible,.easy-question-index a:focus-visible { outline:2px solid var(--bbfc-blue); outline-offset:5px; }
+  .easy-lead__image:focus-visible,.easy-lead__cta:focus-visible,.easy-library__item>a:focus-visible { outline:2px solid var(--bbfc-blue); outline-offset:5px; }
 
   @keyframes easy-live { 0%,100% { opacity:.55; transform:scale(.85); } 50% { opacity:1; transform:scale(1); } }
+  @keyframes easy-search-float { 0%,100% { transform:translateY(1px); } 50% { transform:translateY(-3px); } }
+  @keyframes easy-search-aura { 0% { opacity:.18; transform:scale(.86) translateX(-2%); } 55% { opacity:.42; } 100% { opacity:.24; transform:scale(1.16) translateX(3%); } }
   @media (max-width:960px) {
     .easy-lead { grid-template-columns:1fr; min-height:0; }
     .easy-lead__image { aspect-ratio:16/10; min-height:0; }
     .easy-lead__desk { padding:34px 30px; }
-    .easy-replay { grid-template-columns:1fr; }
-    .easy-replay__image { aspect-ratio:16/10; }
-  }
-  @media (max-width:680px) {
-    .easy-replays__grid { grid-template-columns:1fr; }
-    .easy-replay { grid-template-columns:minmax(145px,.8fr) minmax(0,1.2fr); }
-    .easy-replay__image { aspect-ratio:auto; }
+    .easy-library__head { grid-template-columns:minmax(0,1fr) minmax(250px,330px); gap:22px; }
   }
   @media (max-width:560px) {
     .easy-index { padding:25px 16px 58px; }
@@ -260,15 +259,18 @@ const leadFile = lead ? fileFor(lead) : undefined;
     .easy-lead h2 { font-size:29px; }
     .easy-lead__answer { font-size:12px; }
     .easy-lead dl div { grid-template-columns:92px minmax(0,1fr); gap:10px; }
-    .easy-replays,.easy-question-index { margin-top:48px; }
-    .easy-replay { grid-template-columns:1fr; }
-    .easy-replay__image { aspect-ratio:16/10; }
-    .easy-replay__copy { min-height:220px; }
-    .easy-question-index a { grid-template-columns:28px minmax(0,1fr) 20px; gap:10px; padding:12px 0; }
-    .easy-question-index a>small { display:none; }
-    .easy-question-index a>strong { font-size:13px; }
+    .easy-library { margin-top:50px; }
+    .easy-library__head { grid-template-columns:1fr; gap:18px; padding-bottom:25px; }
+    .easy-library__head>div:first-child { display:grid; gap:6px; }
+    .easy-library__head h2 { font-size:23px; }
+    .easy-search { width:calc(100% - 8px); height:46px; margin:0 4px; }
+    .easy-library__item>a { grid-template-columns:112px minmax(0,1fr); gap:14px; padding:15px 0; }
+    .easy-library__thumb { border-radius:8px; }
+    .easy-library__copy { gap:5px; }
+    .easy-library__copy>strong { font-size:13.5px; line-height:1.42; }
+    .easy-library__copy>span { display:-webkit-box; overflow:hidden; font-size:11px; line-height:1.55; -webkit-box-orient:vertical; -webkit-line-clamp:3; }
   }
   @media (prefers-reduced-motion:reduce) {
-    .easy-lead__live i,.easy-lead__image img,.easy-lead__cta i,.easy-replay__image img,.easy-replay__notation i,.easy-question-index a>i { animation:none; transition:none; }
+    .easy-lead__live i,.easy-lead__image img,.easy-lead__cta i,.easy-search,.easy-search::before,.easy-search::after,.easy-library__thumb img { animation:none; transition:none; }
   }
 </style>
