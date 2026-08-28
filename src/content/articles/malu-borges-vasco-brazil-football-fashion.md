@@ -57,7 +57,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 축구 셔츠에 진주를 여러 겹 걸면 어떻게 보일까요?
+## 축구 셔츠에 진주를 겹치면 이렇게 근사해져요 ✨
 
 첫 번째 착장의 큰 진주는 여러 줄이 가슴까지 내려오며 바스쿠 셔츠의 검정 사선, 붉은 십자 문장과 비슷한 면적을 차지한다. 작은 목선 장식이라기보다 두 개의 강한 그래픽을 겹친 모습에 가깝다.
 
@@ -68,7 +68,7 @@ fashionProfile:
   <figcaption>진주의 원형과 셔츠의 사선이 한 상체 안에서 맞부딪친다.<small class="culture-image-credit">Photo via @maluborgesm / Instagram</small></figcaption>
 </figure>
 
-## 빨간 스커트가 셔츠의 사선 띠를 길게 이어줘요
+## 빨간 스커트 하나로 사선 띠가 더 길어 보여요 ❤️
 
 브라마<span class="foreign-note" lang="pt-BR">(Brahma; 브라질 맥주 브랜드)</span> 스폰서가 들어간 흰색 바스쿠 셔츠에는 긴 빨간 스커트를 붙였다. 이 선택은 단순히 구단 색을 맞춘 것보다 영리하다. 어깨에서 허리로 내려가는 붉은 띠가 스커트의 넓은 면적으로 이어지면서 상의와 하의 사이의 경계가 약해진다.
 
@@ -79,7 +79,7 @@ fashionProfile:
   <figcaption>흰 셔츠의 빨간 띠를 스커트로 확장하고, 검정 액세서리로 문장의 윤곽을 반복했다.<small class="culture-image-credit">Source: NETVASCO · Photo via @maluborgesm</small></figcaption>
 </figure>
 
-## 경기장에 간 날에는 흰 바지와 힐을 골랐어요
+## 경기장 가는 날, 흰 바지에 힐도 꽤 멋져요 👠
 
 2024년 5월 바스쿠의 홈구장 상자누아리우<span class="foreign-note" lang="pt-BR">(Estádio São Januário)</span>를 찾았을 때는 검정 셔츠에 흰 와이드 팬츠를 입었다. 관중석과 선수 벤치라는 축구의 공간 안에서도 룩은 경기 관람용 캐주얼웨어에 머물지 않는다. 흰 헤드밴드, 검정 퀼팅백과 힐이 셔츠의 색을 전신에 반복한다.
 
@@ -90,7 +90,7 @@ fashionProfile:
   <figcaption>상자누아리우에서 검정 셔츠, 흰 와이드 팬츠, 헤드밴드와 퀼팅백을 연결한 룩.<small class="culture-image-credit">Source: MeuVasco · Photo via @maluborgesm</small></figcaption>
 </figure>
 
-## 완성 사진보다 옷을 고르는 순서가 더 재미있어요
+## 완성 사진보다 옷을 고르는 과정이 더 재밌어요
 
 말루 보르지스의 대표 형식은 GRWM<span class="foreign-note" lang="en">(Get Ready With Me; 옷을 고르고 갖춰 입는 과정을 보여주는 영상)</span>이다. 셔츠 위에 목걸이가 놓이고 스커트와 가방이 선택되는 순서까지 보여주기 때문에, 완성 사진에서는 지나치기 쉬운 고민도 함께 보인다. 주변 물건이 하나씩 더해질 때마다 축구 셔츠의 문맥이 바뀌는 과정을 독자도 그대로 따라가게 된다.
 
@@ -105,7 +105,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 말루 보르지스처럼 강한 셔츠를 즐기는 방법
+## 강한 셔츠가 끌리는 날, 말루처럼 입어볼까요?
 
 <div class="fashion-rule-cards malu-rule-cards">
   <section><strong>01 · 셔츠 안의 색을 길게 늘인다</strong><p>붉은 띠가 있다면 빨간 스커트로, 흰 문장이 있다면 흰 바지로 이어준다. 새로운 색을 늘리기보다 기존 색의 면적을 바꾼다.</p></section>

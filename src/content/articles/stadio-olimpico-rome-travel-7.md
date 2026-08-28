@@ -63,7 +63,7 @@ faq:
 축구팀을 잘 몰라도 이 동선은 어렵지 않다. 첫날에는 남쪽 Testaccio에서 AS 로마의 옛 동네를 걷고, 둘째 날에는 라치오가 태어난 강 북쪽으로 올라간다. 그러면 서로 멀리 떨어져 있던 두 길이 경기일 저녁 올림피코 앞에서 자연스럽게 합쳐진다. 로마 더비<span class="foreign-note" lang="it">(Derby della Capitale; 수도의 두 구단이 맞붙는 경기)</span>가 없는 주말에도 충분히 걸을 수 있고, 한쪽의 홈경기만 보더라도 다른 팀의 출발점을 함께 보면 머플러 색 너머의 로마가 훨씬 또렷해진다.
 
 <section class="rome-desire" aria-labelledby="rome-desire-title">
-  <header><span>ROME BETWEEN MATCHDAYS</span><h2 id="rome-desire-title">경기가 없는 저녁엔 트라스테베레로 가보세요</h2><p>첫날 Testaccio를 다 본 뒤에는 강을 건너 트라스테베레의 카페에 앉는다. 둘째 날 Flaminio에서 조금 남쪽으로 내려오면 핀초 테라스에 해가 걸린다. 축구 팬은 다음 장소로 가는 길에 숨을 고를 수 있고, 동행은 로마에 온 이유를 자기 방식으로 하나 더 얻게 된다.</p></header>
+  <header><span>ROME BETWEEN MATCHDAYS</span><h2 id="rome-desire-title">경기 없는 저녁엔 트라스테베레에서 천천히 한잔해요 🍷</h2><p>첫날 Testaccio를 다 본 뒤에는 강을 건너 트라스테베레의 카페에 앉는다. 둘째 날 Flaminio에서 조금 남쪽으로 내려오면 핀초 테라스에 해가 걸린다. 축구 팬은 다음 장소로 가는 길에 숨을 고를 수 있고, 동행은 로마에 온 이유를 자기 방식으로 하나 더 얻게 된다.</p></header>
   <div>
     <figure><img src="/images/pilgrimage/rome-football-city/rome-pincio-sunset.webp" alt="소나무 사이로 성베드로 대성당의 돔과 로마의 석양이 보이는 핀초 테라스" width="1400" height="1050" loading="lazy" /><figcaption><span>18:06 · PINCIO</span><strong>경기 전날의 석양</strong><small>핀초 테라스에서 성베드로 대성당 방향을 본다. 사진: Radek Kucharski, CC BY 2.0.</small></figcaption></figure>
     <figure><img src="/images/pilgrimage/rome-football-city/rome-trastevere-cafe.webp" alt="주황색 벽과 초록 식물 사이 야외 테이블에 사람들이 앉아 있는 트라스테베레의 카페" width="1400" height="1050" loading="lazy" /><figcaption><span>15:30 · TRASTEVERE</span><strong>한 잔이 길어지는 골목</strong><small>Testaccio에서 강을 건넌 오후의 카페. 사진: Jorge Franganillo, CC BY 2.0.</small></figcaption></figure>
@@ -78,7 +78,7 @@ faq:
   </div>
 </section>
 
-<h2 id="testaccio">1. AS 로마의 첫 번째 집은 골목 사이에 있었어요</h2>
+<h2 id="testaccio">1. AS 로마의 첫 집을 찾아 테스타초 골목을 걸어보세요 🐺</h2>
 
 **시작점** · Via Nicola Zabaglia의 Campo Testaccio 옛터<br />
 **함께 걷기** · Piazza Testaccio → Monte dei Cocci → 옛 경기장 터
@@ -91,7 +91,7 @@ Testaccio를 걷다 보면 이곳을 흔히 말하는 ‘서민 동네’ 한마
 
 Campo Testaccio의 원형은 남아 있지 않다. 이곳에서 여행자는 웅장한 유적을 확인하는 대신, 사라진 경기장이 왜 계속 ‘진짜 집’으로 불리는지를 동네의 크기와 거리에서 가늠하게 된다. 올림피코의 7만 석보다 작은 빈자리가 AS 로마의 기원에 더 가깝다는 역설이 첫날의 핵심이다.
 
-<h2 id="testaccio-table">2. 테스타초 시장에서는 로마식 점심을 골라보세요</h2>
+<h2 id="testaccio-table">2. 테스타초 시장에선 로마식 점심부터 골라볼까요? 🍝</h2>
 
 Campo Testaccio의 빈자리를 보았다면 점심은 Mercato Testaccio<span class="foreign-note" lang="it">(테스타초 구역 시장)</span>로 이어진다. 이곳은 여행자용 ‘로마 음식 모음’보다 동네의 역사를 압축한다. 시장 지하에는 고대 항구 Emporium의 창고와 재사용된 암포라 유구가 남아 있고, 지상에서는 내장 요리와 빵, 채소, 치즈가 팔린다. 도살장과 노동자 주거지의 식문화가 오늘의 푸드 마켓 안에서 다시 상품이 된 셈이다.
 
@@ -99,7 +99,7 @@ Campo Testaccio의 빈자리를 보았다면 점심은 Mercato Testaccio<span cl
 
 <div class="journey-note"><span>첫날의 실제 선택</span><p>Mercato Testaccio는 점포별 영업일과 시간이 다르다. 늦은 오후보다 점심에 방문하고, 월요일·공휴일 일정은 공식 채널에서 다시 확인한다. AS 로마 홈경기만 보고 싶더라도 Testaccio를 경기일과 분리해야 도시와 축구를 모두 놓치지 않는다.</p></div>
 
-<h2 id="liberta">3. 라치오는 강 북쪽의 벤치에서 시작됐어요</h2>
+<h2 id="liberta">3. 라치오가 시작된 강 북쪽 벤치도 만나보세요 🦅</h2>
 
 라치오는 AS 로마보다 27년 먼저 태어났다. Luigi Bigiarelli를 포함한 아홉 명이 1900년 1월 9일 Piazza della Libertà의 벤치에서 Società Podistica Lazio<span class="foreign-note" lang="it">(라치오 육상회)</span>를 만들었다. 처음부터 축구단이었던 것도 아니다. 달리기 대회에 단체로 참가하기 위해 조직됐고, 수영과 조정, 하이킹을 거쳐 1901년에 football을 받아들였다. 흰색과 하늘색은 고대 로마보다 근대 올림픽의 고향 그리스를 가리켰다.
 
@@ -107,7 +107,7 @@ Campo Testaccio의 빈자리를 보았다면 점심은 Mercato Testaccio<span cl
 
 <div class="journey-image-pair journey-image-pair--history"><figure><img src="/images/pilgrimage/rome-football-city/lazio-founders.webp" alt="베르살리에리 군모를 쓴 라치오 창립자 루이지 비자렐리의 흑백 초상" width="1600" height="1200" loading="lazy" /><figcaption>라치오 창립을 주도한 육상 선수 Luigi Bigiarelli. 사진: S.S. Lazio 공식 역사 아카이브.</figcaption></figure><figure><img src="/images/pilgrimage/rome-football-city/lazio-farnesina.webp" alt="1912년 로마 북부 Farnesina의 흙 경기장에서 축구하는 라치오 선수들" width="1600" height="1200" loading="lazy" /><figcaption>1912년경 Farnesina의 경기장. 라치오는 Ponte Milvio 너머 북쪽으로 일찍 이동했다. 사진: S.S. Lazio 공식 역사 아카이브.</figcaption></figure></div>
 
-<h2 id="flaminio">4. 라치오는 왜 플라미니오로 돌아가려 할까요?</h2>
+<h2 id="flaminio">4. 라치오는 왜 다시 플라미니오로 돌아가고 싶을까요?</h2>
 
 Piazza della Libertà에서 북쪽으로 올라가면 Stadio Flaminio<span class="foreign-note" lang="it">(스타디오 플라미니오)</span>가 나온다. Pier Luigi Nervi와 Antonio Nervi가 1960년 로마 올림픽을 위해 설계한 경기장이다. 이 자리의 전신 Stadio Nazionale은 1953년까지 AS 로마와 라치오가 사용했고, 올림피코가 1990 FIFA 월드컵을 앞두고 공사할 때 두 팀은 다시 Flaminio에서 한 시즌을 보냈다.
 
@@ -115,7 +115,7 @@ Piazza della Libertà에서 북쪽으로 올라가면 Stadio Flaminio<span class
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rome-football-city/flaminio-project.webp" alt="라치오가 2026년 공개한 Stadio Flaminio 재개발안의 야간 외관 렌더링" width="1320" height="742" loading="lazy" /><figcaption>2026년 2월 공개된 라치오의 Flaminio 재개발 구상. 제안 단계의 이미지이며 완공된 경기장이 아니다. 이미지: S.S. Lazio.</figcaption></figure>
 
-<h2 id="milvio">5. 경기 두 시간 전, 폰테 밀비오에서 먼저 저녁을 드세요</h2>
+<h2 id="milvio">5. 경기 두 시간 전엔 폰테 밀비오에서 먼저 저녁을 드세요</h2>
 
 Flaminio에서 올림피코로 향하다 보면 Ponte Milvio<span class="foreign-note" lang="it">(폰테 밀비오; 테베레강 북쪽의 고대 교량)</span>에서 여행의 속도가 달라진다. 고대에는 Flaminia·Cassia 방면의 길이 만나던 전략적 통로였고, 오늘은 보행교 주변의 식당과 바에 관중이 모이는 경기 전 집결지다. 다리 위에서 사진을 찍고 이른 저녁을 먹은 뒤 머플러 행렬을 따라가면, Campo Testaccio와 Piazza della Libertà에서 출발한 두 이야기도 어느새 같은 올림피코 동선으로 들어온다.
 
@@ -123,7 +123,7 @@ Flaminio에서 올림피코로 향하다 보면 Ponte Milvio<span class="foreign
 
 <figure class="journey-wide"><img src="/images/pilgrimage/rome-football-city/ponte-milvio.webp" alt="테베레강 위 Ponte Milvio의 고대 석조 아치와 Torretta Valadier" width="1800" height="1013" loading="lazy" /><figcaption>올림피코 북동쪽의 경기일 관문 Ponte Milvio. 사진: Turismo Roma, Zètema.</figcaption></figure>
 
-<h2 id="foro">6. 아름다운 포로 이탈리코에는 불편한 역사도 남아 있어요</h2>
+<h2 id="foro">6. 포로 이탈리코의 아름다움 뒤에는 불편한 역사도 있어요</h2>
 
 Ponte Milvio의 식당과 머플러 행렬을 지나 올림피코에 가까워지면 풍경의 성격이 다시 바뀐다. 대리석과 모자이크, 거대한 인체가 먼저 관중을 맞는다. Foro Italico<span class="foreign-note" lang="it">(포로 이탈리코; 1943년 이전 명칭 Foro Mussolini)</span>는 1920년대 말 Opera Nazionale Balilla<span class="foreign-note" lang="it">(파시스트 청소년 조직)</span>의 Renato Ricci가 기획하고 Enrico Del Debbio 등이 설계했다. 젊은 신체를 규율과 국가의 이상에 연결하려는 정치적 교육 공간이었다.
 
@@ -133,7 +133,7 @@ Stadio dei Marmi<span class="foreign-note" lang="it">(스타디오 데이 마르
 
 그래서 포로 이탈리코에서는 대리석의 아름다움과 그 아름다움을 만든 정치적 의도를 함께 보게 된다. 이후 이 공간은 왕정과 독재를 지나 공화국의 올림픽과 월드컵, 두 클럽의 홈경기까지 차례로 받아들였다. 오늘의 팬 문화를 과거의 파시즘과 같은 것으로 볼 수는 없지만, 관중이 어떤 역사 위를 걸어 경기장에 들어가는지 알고 나면 올림피코의 풍경은 훨씬 입체적으로 보인다.
 
-<h2 id="olimpico">7. 같은 올림피코가 두 팀의 홈이 되는 순간</h2>
+<h2 id="olimpico">7. 같은 올림피코가 두 팀의 홈이 되는 밤을 만나보세요 ⚽</h2>
 
 **개장** · 1953년 5월 17일<br />
 **현재 공식 수용 규모** · 70,634석<br />
@@ -147,7 +147,7 @@ Stadio dei Marmi<span class="foreign-note" lang="it">(스타디오 데이 마르
 
 <div class="journey-fact-strip" style="--journey-image:url('/images/pilgrimage/rome-travel-7/stadio-olimpico.jpg')"><div><span>1900</span><small>라치오 창립</small></div><div><span>1927</span><small>AS 로마 창립</small></div><div><span>1953</span><small>올림피코 개장</small></div><div><span>70,634</span><small>현재 공식 수용 규모</small></div></div>
 
-### 소리를 알고 들어가면 경기장이 빨리 열린다
+### 응원가를 알고 들어가면 경기장이 더 빨리 뜨거워져요 🎶
 
 AS 로마 홈경기를 골랐다면 Antonello Venditti의 ‘Roma Roma Roma’를 미리 한 번 들어보자. 역사나 가사를 모두 외울 필요는 없다. 경기 직전 수만 명이 같은 속도로 제목을 길게 끌어 부를 때 카메라를 잠시 내리고 그 소리를 듣는 것만으로도 충분하다. 라치오 홈경기에서는 구단이 공지하는 입장 음악과 Curva Nord의 호흡이 또 다른 분위기를 만든다. 같은 경기장에서도 홈팀이 달라지면 들리는 로마도 달라진다.
 
@@ -157,7 +157,7 @@ AS 로마 홈경기를 골랐다면 Antonello Venditti의 ‘Roma Roma Roma’�
 
 <div class="journey-note"><span>경기일 이동</span><p>티켓의 구단·게이트·좌석 구역을 먼저 확인하고 경기 시작 90분 전에는 Foro Italico 권역에 도착한다. 더비와 고위험 경기에서는 평소 교통 정보보다 구단과 Roma Mobilità의 당일 공지가 우선한다. 경기 종료 뒤 Ponte Milvio·Flaminio 방향의 인파가 한꺼번에 움직이므로 막차 한 편에 맞춘 일정은 피한다.</p></div>
 
-## 숙소는 경기 없는 시간까지 생각해서 골라보세요
+## 숙소는 경기 없는 시간까지 즐길 수 있는 곳으로 골라보세요 🛏️
 
 <div class="journey-stays journey-stays--rome">
   <article class="journey-stay journey-stay--pick"><figure><img src="/images/pilgrimage/rome-football-city/ponte-milvio.webp" alt="Ponte Milvio와 테베레강 북쪽의 Flaminio·Prati 숙박 권역" width="1800" height="1013" loading="lazy" /><figcaption>경기장과 도심 사이의 균형점인 Flaminio·Prati 권역.</figcaption></figure><div><span>동선 균형</span><strong>Prati · Flaminio</strong><p>Piazza della Libertà와 Stadio Flaminio를 걸을 수 있고, 올림피코와 역사 중심부 사이의 이동도 비교적 단순하다.</p><small>추천 · 축구와 첫 로마 여행을 함께 할 때</small></div></article>

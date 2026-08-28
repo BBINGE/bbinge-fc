@@ -51,7 +51,7 @@ fashionProfile:
   <figcaption>마틴 로즈 2024 봄·여름 풋볼 셔츠, 프라다 선글라스, 검정 버킨백.<small class="culture-image-credit">Photo via @peggygou_ / Instagram</small></figcaption>
 </figure>
 
-## 버킨백 옆에 축구 셔츠를 두면 어떤 모습일까요?
+## 버킨백 옆에 축구 셔츠, 의외로 정말 잘 어울려요 👜
 
 마틴 로즈의 2024 봄·여름 풋볼 셔츠는 어느 구단의 공식 유니폼이 아니다. 메시 원단, V넥, 가슴의 패치와 스폰서처럼 보이는 레터링을 가져오되 `MR CHASIN A DREAM` 같은 문구로 축구 셔츠의 시각 체계를 비튼 패션 피스다. 흰색 몸판 아래로 굵은 빨강 줄무늬가 흐르기 때문에 상의 하나만으로도 화면의 방향이 정해진다.
 
@@ -68,7 +68,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 등번호 자리에 ‘P. GOU 3’를 새겼어요
+## 내 이름을 등번호처럼 새기면 더 갖고 싶어져요
 
 2019년 무렵 공개된 유벤투스<span class="foreign-note" lang="it">(Juventus FC)</span> 셔츠 사진에서 등에는 `P. GOU`, 아래에는 숫자 `3`이 찍혀 있다. 구단의 검정·흰색은 남아 있지만 선수 이름 대신 예명이 들어가면서 저지는 아티스트 머천다이즈와 가까워진다. 페기 구라는 이름과 유벤투스의 시각 체계가 한 장의 옷을 나눠 쓴다.
 
@@ -79,7 +79,7 @@ fashionProfile:
   <figcaption>`P. GOU 3` 마킹이 들어간 유벤투스 셔츠.<small class="culture-image-credit">Photo via @peggygou_ / Instagram · Source: nss sports</small></figcaption>
 </figure>
 
-## 파란 저지는 테일러드 팬츠와도 잘 어울려요
+## 파란 저지는 테일러드 팬츠와도 근사해요 💙
 
 파란 풋볼 티셔츠를 입은 거리 사진은 같은 원리를 더 일상적으로 보여준다. 상의는 넉넉하게 내리고, 하의는 검정 테일러드 팬츠로 길게 연결했다. 운동화와 스포츠 가방으로 끝내지 않고 작은 샤넬 플랩백을 들어 소재와 크기의 긴장을 만든다.
 
@@ -90,7 +90,7 @@ fashionProfile:
   <figcaption>파란 오버사이즈 저지에 검정 테일러드 팬츠와 작은 샤넬백을 붙인 도시의 비율.<small class="culture-image-credit">Source: Grazia Malaysia</small></figcaption>
 </figure>
 
-## 분홍색 Kappa 톱은 햇빛 아래서 더 경쾌해져요
+## 분홍색 Kappa 톱은 햇빛 아래서 더 예뻐요 ☀️
 
 분홍색 Kappa 저지를 입은 포트레이트에서는 스타일링이 더 절제된다. 부드러운 분홍 원단과 흰 로고, 은색 팔찌, 검정 타투가 화면의 재질을 나눈다. 가방과 하의를 보여주지 않는 상반신 사진이므로 셔츠의 목선과 소매 패널, 피부 위 액세서리가 더 또렷하다.
 
@@ -101,7 +101,7 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
   <figcaption>분홍색 Kappa 저지와 은색 액세서리만 남긴 포트레이트.<small class="culture-image-credit">Campaign image: Untitled Group · Source: The Partae</small></figcaption>
 </figure>
 
-## 페기 구의 사진에서 먼저 눈여겨볼 것은 재질이에요
+## 페기 구처럼 입고 싶다면 재질부터 골라보세요
 
 <div class="fashion-rule-cards peggy-rule-cards">
   <section><strong>01 · 큰 저지에는 선명한 하의</strong><p>사이클링 쇼츠처럼 짧게 끊거나, 테일러드 팬츠처럼 길고 곧게 내린다. 애매한 중간 길이보다 비율의 차이를 크게 둔다.</p></section>

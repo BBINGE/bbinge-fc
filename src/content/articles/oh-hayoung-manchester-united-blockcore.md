@@ -63,13 +63,13 @@ fashionProfile:
   </a>
 </nav>
 
-## 축구 셔츠는 언제부터 거리의 옷이 됐을까요?
+## 축구 셔츠가 거리의 옷이 된 순간부터 볼까요?
 
 국내에서 흔히 블록코어라고 부르는 말의 원형은 블로크코어<span class="foreign-note" lang="en">(blokecore; 영국의 평범한 남자를 뜻하는 bloke와 core의 결합)</span>다. 1990년대 영국 축구팬이 유니폼에 청바지와 스니커즈를 곁들이던 옷차림을 2020년대의 스트리트 패션이 다시 불러냈다. 2022 FIFA 월드컵을 앞뒤로 빈티지 축구 셔츠가 유행하면서, 팀을 응원하는 옷과 일상복의 경계가 더 빠르게 허물어졌다.
 
 여기에 스커트와 스타킹, 주얼리, 리본처럼 여성적인 요소를 섞으면 블로켓<span class="foreign-note" lang="en">(blokette; 축구 셔츠와 여성적 실루엣을 결합한 스타일)</span>이라는 갈래가 된다. 오하영의 첫 번째 코디가 흥미로운 이유도 여기에 있다. 오래된 맨유 셔츠 아래 반짝이는 스커트를 두고, 목걸이와 신발로 질감을 이어간다. 축구팬의 옷이면서 동시에 무대 밖 패션이 되는 지점이다.
 
-<h2 id="look-01">1. 흰 베컴 셔츠에는 반짝이는 스커트를 입어보세요</h2>
+<h2 id="look-01">1. 흰 베컴 셔츠에는 반짝이는 스커트가 의외로 잘 어울려요 ✨</h2>
 
 첫 번째는 데이비드 베컴 시대를 떠올리게 하는 맨유 레트로 유니폼을 활용한 코디다. 사진 속 흰색 셔츠는 엄브로와 보다폰 로고가 함께 있던 2000-01 시즌 원정 유니폼 계열이다. 샤프가 오랫동안 자리했던 가슴에 보다폰이 처음 들어오고, 맨유가 프리미어 리그 3연패를 완성하던 시기였다. 베컴과 긱스, 스콜스, 킨의 기억이 이 셔츠 한 장에 겹쳐 보이는 까닭이다.
 
@@ -86,7 +86,7 @@ fashionProfile:
   </div>
   <figcaption class="look-feature__panel look-feature__panel--club-mark">
     <p class="look-feature__eyebrow">THE FASHION LOOK</p>
-    <h3>축구 셔츠보다 먼저<br />은빛이 보이게</h3>
+    <h3>은빛이 먼저 보이면<br />축구 셔츠도 드레시해져요</h3>
     <p>유니폼의 스포츠성 맞은편에 스팽글과 주얼리의 광택을 놓았다. 서로 다른 빛이 한 벌 안에서 부딪히면서 베컴 셔츠도 응원 굿즈를 넘어 스타일의 선명한 재료가 된다.</p>
     <dl class="look-recipe">
       <div><dt>FIT</dt><dd>상의는 한두 사이즈 크게</dd></div>
@@ -105,7 +105,7 @@ fashionProfile:
 </div>
 <p class="culture-photo-caption">앞·뒤·전신·레이어드까지 한 벌의 작동 방식을 나눠 본 장면들.<span class="culture-image-credit">Images 02–07: Photo via @_ohhayoung_ / Instagram</span></p>
 
-<h2 id="look-02">2. 검정 셔츠는 청바지와 가장 편하게 시작할 수 있어요</h2>
+<h2 id="look-02">2. 검정 셔츠는 청바지만 있으면 바로 입을 수 있어요 🖤</h2>
 
 두 번째는 가장 단순하고 실패하기 어려운 조합이다. 맨유 유니폼에 청바지를 매치하면 별다른 장식 없이도 블록코어룩의 성격이 바로 드러난다. 사진 속 검정 셔츠는 어깨의 세 줄과 소매의 빨강이 세로선을 만들고, 가슴의 문장이 작은 색점처럼 남는다. 맨유의 홈 유니폼처럼 상의 전체가 빨갛지 않아 데님과 섞기도 한결 편하다.
 
@@ -122,7 +122,7 @@ fashionProfile:
   </div>
   <figcaption class="look-feature__panel look-feature__panel--club-mark">
     <p class="look-feature__eyebrow">THE FIRST SHIRT</p>
-    <h3>처음 산다면<br />검정부터</h3>
+    <h3>첫 맨유 셔츠라면<br />검정부터 입어볼까요?</h3>
     <p>클럽 컬러는 빨간 세 줄과 문장에만 남고, 큰 면은 검정이 맡는다. 평소 입던 데님을 그대로 두어도 축구 셔츠만 새롭게 들어오는 가장 낮은 진입점이다.</p>
     <dl class="look-recipe">
       <div><dt>FIT</dt><dd>허리선이 보이도록 앞만 넣기</dd></div>
@@ -139,7 +139,7 @@ fashionProfile:
 </div>
 <p class="culture-photo-caption">같은 셔츠를 얼굴, 문장, 실루엣의 거리로 나눠 보면 단순한 조합이 왜 강한지 보인다.<span class="culture-image-credit">Images 08–11: Photo via @_ohhayoung_ / Instagram</span></p>
 
-<h2 id="look-03">3. 빨간 셔츠 위에는 검정 셸 파카를 겹쳐보세요</h2>
+<h2 id="look-03">3. 빨간 셔츠 위에 검정 셸 파카를 툭 걸쳐보세요 ❤️</h2>
 
 세 번째는 바람막이를 이용한 레이어드다.
 
@@ -155,7 +155,7 @@ fashionProfile:
   <img class="night-look__hero" src="/images/culture/oh-hayoung-manchester-united-blockcore/12.webp" alt="도시의 야경을 배경으로 맨유 검정·빨강 셸 파카를 입은 오하영" width="773" height="966" loading="lazy" decoding="async" />
   <figcaption class="night-look__copy">
     <span>LOOK 03 · AFTER DARK</span>
-    <h3>맨유의 빨강을<br />도시의 조명처럼</h3>
+    <h3>맨유의 빨강을<br />도시의 불빛처럼 입어보세요</h3>
     <p>밤에는 검정이 배경으로 물러나고 빨강만 남는다. 셔츠를 더 입는 대신, 팀의 색을 아우터 한 벌로 키운 방식이다.</p>
   </figcaption>
   <img class="night-look__detail" src="/images/culture/oh-hayoung-manchester-united-blockcore/15.webp" alt="검정·빨강 셸 파카와 메시 스커트, 스니커즈의 질감이 보이는 오하영 코디" width="773" height="966" loading="lazy" decoding="async" />
@@ -168,7 +168,7 @@ fashionProfile:
 </div>
 <p class="culture-photo-caption">인물 가까이에서는 문장과 색을, 전신에서는 양말과 가방까지 이어지는 빨강의 경로를 확인할 수 있다.<span class="culture-image-credit">Images 12–16: Photo via @_ohhayoung_ / Instagram</span></p>
 
-## 오래된 유니폼에는 그때의 선수와 경기가 함께 남아요
+## 오래된 유니폼을 입으면 그날의 경기까지 따라와요
 
 레트로 유니폼은 색과 디자인만 오래된 옷이 아니다. 특정 선수와 경기, 스폰서와 제조사, 그 셔츠를 입던 시절의 분위기가 함께 붙어 있다. 흰색 보다폰 셔츠를 보면 베컴이 있던 맨유를 기억하는 사람이 있고, 검정과 빨강의 최신 셔츠에서는 지금의 팀을 읽는 사람이 있다. 서로 다른 시대가 한 사람의 옷장 안에서 만난다.
 
@@ -176,20 +176,20 @@ fashionProfile:
 
 <section class="wardrobe-guide" aria-labelledby="wardrobe-guide-title">
   <p class="wardrobe-guide__eyebrow">YOUR FIRST FOOTBALL SHIRT</p>
-  <h2 id="wardrobe-guide-title">내 옷장에는 어떤 맨유 셔츠가 잘 맞을까요?</h2>
+  <h2 id="wardrobe-guide-title">내 옷장에 데려오고 싶은 맨유 셔츠는 뭘까요? 👕</h2>
   <div class="wardrobe-guide__grid">
     <article>
-      <span>01</span><h3>옷을 먼저 보는 사람</h3>
+      <span>01</span><h3>옷이 먼저 눈에 들어오는 날</h3>
       <p>화이트 레트로 셔츠. 스커트와 주얼리처럼 축구 밖의 질감을 붙일수록 재미있다.</p>
       <b>추천 난이도 · 과감함</b>
     </article>
     <article>
-      <span>02</span><h3>매일 입고 싶은 사람</h3>
+      <span>02</span><h3>매일 손이 가는 셔츠를 찾는 날</h3>
       <p>검정 셔츠. 이미 가진 중청 데님 한 벌이면 시작할 수 있고 로고도 과하게 뜨지 않는다.</p>
       <b>추천 난이도 · 쉬움</b>
     </article>
     <article>
-      <span>03</span><h3>팀의 색을 보여줄 사람</h3>
+      <span>03</span><h3>팀의 색을 제대로 보여주고 싶은 날</h3>
       <p>검정·빨강 아우터. 이너를 고민하기보다 지퍼를 여는 정도로 팬의 농도를 조절한다.</p>
       <b>추천 난이도 · 보통</b>
     </article>

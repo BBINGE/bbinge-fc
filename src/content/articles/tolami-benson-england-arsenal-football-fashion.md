@@ -57,7 +57,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 잉글랜드 셔츠가 코르셋으로 다시 태어났어요
+## 잉글랜드 셔츠가 코르셋이 되면 이런 느낌이에요 🤍
 
 유로 2024 결승을 위해 해티 크라우더<span class="foreign-note" lang="en">(Hattie Crowther; 영국 패션 디자이너)</span>가 만든 코르셋은 잉글랜드의 유로 2020 셔츠를 해체해 다시 조립한 옷이다. 가슴의 문장과 `ENGLAND` 레터링은 남겼지만, 목과 소매, 몸판의 익숙한 경계는 사라졌다. 앞 중심은 코르셋처럼 세워지고 뒤에는 붉은 `87`이 들어갔다.
 
@@ -75,7 +75,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 옷마다 반복되는 87번에는 사카의 시작이 담겼어요
+## 87번을 알고 보면 사카와 아스널이 더 가까워져요
 
 숫자 `87`은 코르셋 한 벌에서 끝나지 않는다. 안토니아 브론즈<span class="foreign-note" lang="en">(Antonia Bronze; 영국 패션 디자이너)</span>가 제작한 가죽 바이커 재킷에도 같은 숫자가 들어갔다. 벤슨은 이 재킷 안에 디젤<span class="foreign-note" lang="en">(Diesel)</span>의 톱을 입고, 작은 선글라스와 은색 주얼리를 더했다. 대표팀 상품을 위아래로 맞춘 응원복이 아니라, 패션 피스 사이에 잉글랜드와 사카의 표식을 끼워 넣은 구성이다.
 
@@ -86,7 +86,7 @@ fashionProfile:
   <figcaption>검정·빨강·흰색의 바이커 재킷과 잉글랜드 셔츠를 잇는 숫자 87.<small class="culture-image-credit">Photo via @tolami_benson / Instagram</small></figcaption>
 </figure>
 
-## 사무실에서 경기장까지 그대로 갈 수 있을까요?
+## 사무실에서 경기장까지, 그대로 입고 가도 될까요? ⚽
 
 벤슨은 《British Vogue》에 전담 스타일리스트가 없으며, 친구들의 단체 대화방에서 솔직한 의견을 듣는다고 말했다. 유로 기간에도 미디어 전략 업무를 계속했고, 사무실에서 곧바로 경기장으로 이동할 수 있는 옷을 익혔다고 설명했다. 이 배경은 그의 룩이 화려하면서도 실제 이동에 강한 이유를 보여준다.
 
@@ -103,7 +103,7 @@ fashionProfile:
   </figure>
 </div>
 
-## 톨라미 벤슨의 경기일 옷에서 가져올 아이디어
+## 톨라미의 경기일 룩, 내 옷장에도 가져와볼까요?
 
 <div class="fashion-rule-cards">
   <section><strong>01 · 상징 하나를 정한다</strong><p>문장, 색, 등번호를 모두 크게 쓰기보다 가장 개인적인 표식 하나를 반복한다. 벤슨에게는 87번이다.</p></section>

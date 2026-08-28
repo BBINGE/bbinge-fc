@@ -64,7 +64,7 @@ featured: false
   <section style="--journey-image:url('/images/pilgrimage/turin-two-museums/juventus-hall-of-fame.webp')"><span>MATCHDAY · NORTH</span><strong>명예가 새로 쓰이는 방</strong><small>J 박물관 → 스타디움 투어 또는 홈경기</small></section>
 </div></div>
 
-<h2 id="bench">1. 유벤투스의 첫 회의실은 길가의 벤치였어요</h2>
+<h2 id="bench">1. 유벤투스가 태어난 길가의 벤치부터 찾아가볼까요? 🪑</h2>
 
 **찾아갈 곳** · 코르소 레 움베르토 42<span class="foreign-note" lang="it">(Corso Re Umberto 42)</span><br />
 **함께 볼 것** · 인근 도심 산책과 포르타 누오바역<span class="foreign-note" lang="it">(Torino Porta Nuova)</span>
@@ -73,7 +73,7 @@ featured: false
 
 전승 속 그 벤치는 2012년부터 유벤투스 박물관에 전시돼 있다. 도시의 일상용품이 구단의 원본으로 승격된 셈이다. 코르소 레 움베르토에는 사건의 장소가 남고, 알리안츠 스타디움에는 그 장소에서 옮겨온 물건이 남는다. 토리노에서 기억은 처음부터 제자리에 있지 않다.
 
-<h2 id="lingotto">2. 옛 피아트 공장 옥상에서 자동차 도시를 만나보세요</h2>
+<h2 id="lingotto">2. 옛 피아트 공장 옥상에서 자동차 도시를 내려다보세요 🚗</h2>
 
 1923년 7월 24일, 에도아르도 아녤리<span class="foreign-note" lang="it">(Edoardo Agnelli; 이탈리아 기업인·스포츠 행정가, 1892-1935)</span>가 유벤투스 회장으로 선임됐다. 아녤리 가문과 피아트<span class="foreign-note" lang="it">(FIAT; 토리노에서 성장한 자동차 기업)</span>, 유벤투스의 장기 관계가 시작된 날짜다. 링고토의 옛 피아트 공장은 그 관계를 구단 연대기 밖에서 보게 한다.
 
@@ -83,7 +83,7 @@ featured: false
 
 토리노의 두 구단을 ‘기업의 유벤투스 대 노동자의 토리노’라는 한 줄로 고정하면 도시를 너무 빨리 안 셈이 된다. 토리노 FC도 사업가와 전문직, 이주민과 노동자의 지지를 함께 받았고 유벤투스의 관중도 한 계층에 갇히지 않았다. 링고토에서는 팬의 신분보다 규모를 가능하게 한 조건이 보인다. 유벤투스는 자동차 산업과 결합해 전국과 세계로 확장할 조직을 일찍 얻었다.
 
-<h2 id="filadelfia">3. 사라진 경기장 필라델피아가 아직도 홈인 이유</h2>
+<h2 id="filadelfia">3. 사라진 필라델피아가 아직도 ‘우리 집’인 이유를 들어보세요</h2>
 
 스타디오 필라델피아는 1926년 문을 열었다. 토리노 FC<span class="foreign-note" lang="it">(Torino Football Club; 토리노를 연고로 하는 이탈리아 프로축구단)</span>의 그란데 토리노<span class="foreign-note" lang="it">(Grande Torino; 1940년대 이탈리아 축구를 지배한 토리노 FC 팀)</span>가 성장한 경기장이었고, 공식 경기는 1963년까지, 훈련은 1993년까지 이어졌다. 낡은 구조물은 1997~98년에 철거됐다.
 
@@ -93,7 +93,7 @@ featured: false
 
 2026년 8월 승인된 박물관 이전 계획은 이 복원에 다음 기능을 더한다. 그루글리아스코에서 보관하던 자료를 필라델피아로 옮기면 경기장, 훈련장, 박물관이 다시 같은 주소를 공유하게 된다. 아직 공사 완료도 개관도 아니다. 다만 토리노시가 무엇을 복원하려는지는 분명하다. 건물의 외형보다 **기억이 만들어진 자리와 기억을 설명하는 장소 사이의 거리**다.
 
-<h2 id="olimpico">4. 지금의 토리노 FC를 보고 싶다면 올림피코로 가세요</h2>
+<h2 id="olimpico">4. 오늘의 토리노 FC가 궁금하다면 올림피코로 가보세요</h2>
 
 필라델피아에서 스타디오 올림피코 그란데 토리노<span class="foreign-note" lang="it">(Stadio Olimpico Grande Torino)</span>까지는 걸어서 이동할 수 있다. 옛 홈은 훈련과 기억의 장소로 돌아왔지만, 현재 홈경기는 이곳에서 열린다.
 
@@ -101,7 +101,7 @@ featured: false
 
 <div class="journey-note"><span>더비 날짜라면</span><p>토리노 더비<span class="foreign-note" lang="it">(Derby della Mole; 유벤투스와 토리노 FC의 지역 라이벌전)</span>는 일반 관광 일정처럼 접근하지 않는다. 공식 판매처에서 예매 조건과 신분증 규정을 확인하고, 원정색 노출과 좌석 구역의 규칙을 따른다. 경기 시작 90분 전에는 경기장 권역에 도착하는 편이 안전하다.</p></div>
 
-<h2 id="toro-museum">5. 사고기의 바퀴와 오래된 나무까지 보존한 박물관</h2>
+<h2 id="toro-museum">5. 사고기의 바퀴와 오래된 나무까지 남은 박물관이에요</h2>
 
 **현재 위치** · 빌라 클라레타 아산드리, 비아 라 살레 87, 그루글리아스코<span class="foreign-note" lang="it">(Villa Claretta Assandri, Via La Salle 87)</span><br />
 **관람 방식** · 공식 안내 기준 주말 예약제 해설 관람, 약 1시간 30분
@@ -117,13 +117,13 @@ featured: false
 
 <figure class="journey-wide"><img src="/images/pilgrimage/turin-two-museums/toro-shirts.webp" alt="그란데 토리노 박물관 벽면을 채운 여러 시대의 토리노 FC 유니폼" width="1600" height="1200" loading="lazy" /><figcaption>여러 시대의 토리노 FC 유니폼. 한 벌의 유명 셔츠보다 이어지는 착용 기록과 기증의 층위가 박물관의 성격을 만든다. 사진: Museo del Grande Torino e della Leggenda Granata·Turismo Torino.</figcaption></figure>
 
-<h2 id="sassi">6. 수페르가에는 산악 트램을 타고 올라가보세요</h2>
+<h2 id="sassi">6. 수페르가에는 노란 산악 트램을 타고 올라가보세요 🚋</h2>
 
 수페르가로 가는 대표적인 방법은 사시-수페르가 산악 트램<span class="foreign-note" lang="it">(Tranvia Sassi–Superga; 사시역과 수페르가 언덕을 잇는 랙식 트램)</span>이다. 도심에서 사시역으로 간 뒤 톱니식 궤도를 따라 언덕을 오른다. 전망을 위한 교통수단이면서, 1934년부터 현재 노선의 전동차가 운행된 도시 교통의 유산이다.
 
 2026년 여름 토리노 교통공사 GTT<span class="foreign-note" lang="it">(Gruppo Torinese Trasporti; 토리노 대중교통 운영사)</span>는 6월 27일부터의 계절 운행표와 수요일 휴무, 주말 저녁 연장 운행을 안내했다. 시간표는 여행기가 대신 확정할 수 있는 정보가 아니다. 홈경기와 마찬가지로 출발 전 공식 운행 페이지를 열어야 한다.
 
-<h2 id="superga">7. 토리노가 매년 오후 5시 3분을 기억하는 이유</h2>
+<h2 id="superga">7. 매년 오후 5시 3분, 토리노가 멈추는 순간을 만나보세요</h2>
 
 1949년 5월 4일, 리스본 원정에서 돌아오던 토리노 선수단의 비행기가 짙은 안개 속 수페르가 대성당<span class="foreign-note" lang="it">(Basilica di Superga)</span> 뒤편에 추락했다. 이탈리아 리그를 지배하던 그란데 토리노의 선수들과 구단 관계자, 기자, 승무원이 숨졌다.
 
@@ -133,7 +133,7 @@ featured: false
 
 수페르가에서는 사고 장면보다 그 뒤에 남은 기억의 방식을 오래 바라보게 된다. 필라델피아의 목재와 박물관의 바퀴, 매년 같은 시각에 읽히는 이름이 하나의 기억 체계로 이어진다. 도시의 동쪽 끝까지 올라오고 나면 서쪽 박물관의 작은 물건들이 왜 지금까지 보존됐는지도 조금씩 이해된다.
 
-<h2 id="allianz">8. 유벤투스의 다음 전설은 팬들이 함께 고릅니다</h2>
+<h2 id="allianz">8. 다음 유벤투스 전설은 팬들과 함께 골라보세요 ⭐</h2>
 
 **위치** · 알리안츠 스타디움, 코르소 가에타노 시레아 50<span class="foreign-note" lang="it">(Allianz Stadium, Corso Gaetano Scirea 50)</span><br />
 **함께 예약** · 유벤투스 박물관 + 스타디움 투어 또는 홈경기
@@ -152,7 +152,7 @@ featured: false
 
 2025년 유벤투스 박물관 방문객은 14만712명이었고, 그중 10만1,223명이 스타디움 투어에도 참여했다. 경기 없는 날에도 박물관은 경기장 경험을 연중 유통한다. 반면 토리노 FC의 박물관은 예약 해설과 기증·보존을 중심으로 작동한다. 같은 도시의 축구 박물관이라는 명칭만으로 둘을 같은 상품처럼 비교할 수 없다.
 
-## 숙소는 경기 없는 시간까지 생각해서 골라보세요
+## 숙소는 경기 없는 시간까지 즐길 수 있는 곳으로 골라보세요
 
 축구 여행이라고 숙소까지 경기장에 붙일 필요는 없다. 둘 중 한 사람이 축구에 관심이 덜하다면 객실, 스파, 식사와 저녁 산책이 오히려 여행의 공통분모가 된다. 아래에는 실제로 예약할 수 있는 호텔 세 곳만 놓았다. **어디가 편한지와 무엇을 포기하는지**를 함께 보고 고른다.
 
@@ -162,7 +162,7 @@ featured: false
   <article class="journey-stay"><figure><img src="/images/pilgrimage/turin-two-museums/hotel-j-hotel.webp" alt="검정과 회색의 가구로 꾸민 J 호텔의 현대적인 더블 객실" width="1200" height="675" loading="lazy" /><figcaption>유벤투스 색을 절제해 담은 객실. 사진: J|Hotel.</figcaption></figure><div><span>유벤투스 홈경기 · 늦은 귀가</span><strong>J 호텔<span class="foreign-note" lang="en">(J|Hotel)</span></strong><p>알리안츠 스타디움에서 약 800m, 유벤투스 박물관에서 약 1.3km 떨어진 4성급 호텔이다. 정원과 레스토랑이 있어 경기장 옆 숙소가 곧바로 삭막한 선택이 되지는 않는다.</p><dl><div><dt>좋은 점</dt><dd>야간 홈경기 뒤 복잡한 도심 귀가를 줄이는 데 가장 확실하다.</dd></div><div><dt>감수할 점</dt><dd>도심·필라델피아·수페르가를 함께 볼 여행에는 위치가 한쪽으로 치우친다.</dd></div></dl><a class="journey-stay__link" href="https://www.jhotel.eu/en/suite-room.php">공식 객실 보기 <b aria-hidden="true">→</b></a></div></article>
 </div>
 
-## 두 팀의 박물관을 보고 나면 토리노가 다르게 보여요
+## 두 팀의 박물관을 보고 나면 토리노를 더 오래 기억하게 돼요
 
 학생들의 벤치, 피아트의 공장, 철거된 필라델피아의 나무, 수페르가의 바퀴, 검정과 흰색으로 새로 만든 명예의 전당은 서로 다른 규모의 물건이다. 하나의 구단 연표에 넣으면 나란히 놓일 이유가 없다. 토리노라는 도시를 사이에 두면 모두 같은 질문으로 모인다. 사람들은 사라지거나 이동한 과거를 어떻게 현재의 주소로 되돌려 놓는가.
 
