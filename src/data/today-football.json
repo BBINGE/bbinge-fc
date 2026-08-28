@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-28T15:05:23.811Z",
+  "updatedAt": "2026-08-28T15:32:46.163Z",
   "matches": [
     {
       "id": "2506198",
@@ -98,6 +98,20 @@
       "status": "NS",
       "progress": "",
       "time": "04:30",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "2494012",
+      "league": "프리미어 리그",
+      "home": "리버풀",
+      "away": "노팅엄 포리스트",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sar2y41781740886.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "20:30",
       "date": "2026-08-29"
     }
   ],
