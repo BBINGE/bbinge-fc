@@ -176,3 +176,208 @@ FIFA 심판위원장 피에를루이지 콜리나는 2026 월드컵 조별리그
 <style>
 .delay-stakes{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin:34px 0 50px;overflow:hidden;border:1px solid var(--bbfc-border);border-radius:15px;background:var(--bbfc-border)}.delay-stakes span{display:flex;min-height:128px;flex-direction:column;justify-content:center;padding:21px;background:#fff}.delay-stakes b{margin-bottom:10px;color:var(--bbfc-blue);font-size:12px;letter-spacing:.04em}.delay-stakes em{color:var(--bbfc-ink);font-size:16px;font-style:normal;font-weight:680;line-height:1.55}.rule-photo{margin:36px 0 52px;overflow:hidden;border:1px solid #d8e0ea;border-radius:17px;background:#fff;box-shadow:0 14px 34px rgba(24,45,76,.06)}.rule-photo img{display:block;width:100%;height:auto;object-fit:cover}.rule-photo-wide img{object-position:center}.rule-photo figcaption{display:grid;grid-template-columns:142px 1fr max-content;gap:8px 20px;padding:20px 22px 22px;border-top:3px solid var(--bbfc-blue);text-align:left!important}.rule-photo figcaption strong{align-self:start;color:var(--bbfc-blue);font-size:13px;line-height:1.55}.rule-photo figcaption span{color:var(--bbfc-ink);font-size:14px;line-height:1.72}.rule-photo figcaption small{align-self:start;color:var(--bbfc-muted);font-size:11px;white-space:nowrap}.substitution-timeline{display:grid;grid-template-columns:1fr 48px 1fr 48px 1fr;align-items:stretch;margin:34px 0 50px;padding:24px;border:1px solid #d7e1ef;border-radius:15px;background:linear-gradient(135deg,#f7faff 0%,#eef4ff 100%)}.substitution-timeline span{position:relative;display:flex;min-height:112px;flex-direction:column;justify-content:flex-end;padding:43px 16px 16px;border-radius:11px;background:#fff;box-shadow:0 6px 18px rgba(39,91,173,.07)}.substitution-timeline span:before{content:attr(data-step);position:absolute;top:15px;left:16px;color:var(--bbfc-blue);font-size:11px;font-weight:800;letter-spacing:.12em}.substitution-timeline b{margin-bottom:7px;color:var(--bbfc-blue);font-size:13px}.substitution-timeline em{color:var(--bbfc-ink);font-size:15px;font-style:normal;font-weight:700;line-height:1.48}.substitution-timeline>i{align-self:center;height:2px;background:var(--bbfc-blue);position:relative}.substitution-timeline>i:after{content:"";position:absolute;right:0;top:-4px;width:8px;height:8px;border-top:2px solid var(--bbfc-blue);border-right:2px solid var(--bbfc-blue);transform:rotate(45deg)}.restart-result{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:34px 0 50px}.restart-result span{display:grid;grid-template-columns:1fr;gap:8px;padding:25px 26px;border:1px solid #d8e0ea;border-top:4px solid var(--bbfc-blue);border-radius:14px;background:#fff}.restart-result b{color:var(--bbfc-blue);font-size:12px;letter-spacing:.04em}.restart-result em{color:var(--bbfc-muted);font-size:13px;font-style:normal}.restart-result strong{font-size:18px;letter-spacing:-.03em}.restart-result strong i{padding:0 6px;color:var(--bbfc-blue);font-style:normal}.restart-result small{padding-top:10px;border-top:1px solid var(--bbfc-border);color:var(--bbfc-ink);font-size:12px;font-weight:650}.countdown-compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:32px 0 48px}.countdown-compare section{overflow:hidden;border:1px solid #d8e0ea;border-radius:15px;background:#fff}.countdown-compare header{display:flex;align-items:center;gap:14px;padding:18px 20px;background:var(--bbfc-blue-weak)}.countdown-compare header b{display:grid;width:48px;height:48px;place-items:center;border-radius:50%;background:var(--bbfc-blue);color:#fff;font-size:17px}.countdown-compare header span{color:var(--bbfc-ink);font-size:17px;font-weight:750}.countdown-compare dl{margin:0;padding:5px 20px 15px}.countdown-compare dl div{display:grid;grid-template-columns:74px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--bbfc-border)}.countdown-compare dl div:last-child{border-bottom:0}.countdown-compare dt{color:var(--bbfc-blue);font-size:12px;font-weight:750}.countdown-compare dd{margin:0;color:var(--bbfc-ink);font-size:13px;line-height:1.55}.world-cup-counts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:34px 0 48px}.world-cup-counts span{display:flex;min-height:116px;flex-direction:column;align-items:center;justify-content:center;border:1px solid var(--bbfc-border);border-radius:14px;background:#fff}.world-cup-counts b{color:var(--bbfc-blue);font-size:clamp(30px,5vw,46px);line-height:1}.world-cup-counts em{margin-top:10px;color:var(--bbfc-ink);font-size:13px;font-style:normal;font-weight:650}.rule-summary{display:grid;grid-template-columns:48px 1fr;margin:34px 0;border-top:2px solid var(--bbfc-ink)}.rule-summary span,.rule-summary p{margin:0!important;padding:16px 10px;border-bottom:1px solid var(--bbfc-border)}.rule-summary span{color:var(--bbfc-blue);font-size:12px;font-weight:700;letter-spacing:.08em}.rule-summary p{font-size:16px;line-height:1.65}.rule-summary strong{margin-right:8px}@media(max-width:620px){.delay-stakes{grid-template-columns:1fr}.delay-stakes span{min-height:auto;padding:18px}.rule-photo{margin:30px 0 44px}.rule-photo figcaption{grid-template-columns:1fr;gap:7px;padding:17px 18px 19px}.rule-photo figcaption small{grid-column:1}.substitution-timeline{grid-template-columns:1fr;padding:14px}.substitution-timeline span{min-height:102px}.substitution-timeline>i{width:2px;height:25px;margin-left:28px}.substitution-timeline>i:after{right:-3px;top:auto;bottom:0;transform:rotate(135deg)}.restart-result,.countdown-compare{grid-template-columns:1fr}.restart-result span{padding:21px}.countdown-compare dl div{grid-template-columns:68px 1fr}.world-cup-counts{gap:6px}.world-cup-counts span{min-height:100px}.world-cup-counts em{font-size:11px;text-align:center}.rule-summary{grid-template-columns:42px 1fr}.rule-summary p{font-size:15px}}
 </style>
+
+<style>
+/* PITCH NOTES: 축떡 전용 정보 UI */
+:is(.delay-stakes,.substitution-timeline,.countdown-compare section,.world-cup-counts,.rule-summary),
+.restart-result span{
+  --pitch-paint:#f4f1dc;
+  --pitch-muted:rgba(244,241,220,.76);
+  --pitch-mark:#dce86d;
+  position:relative;
+  isolation:isolate;
+  color:var(--pitch-paint);
+  background-color:#173b19;
+  background-image:linear-gradient(90deg,rgba(8,35,12,.22),rgba(47,92,39,.08) 50%,rgba(8,35,12,.22)),url('/images/football-made-easy/pitch-notes/grass-texture.webp');
+  background-size:100% 100%,360px 360px;
+  box-shadow:inset 0 0 34px rgba(2,20,6,.34),0 12px 28px rgba(19,49,22,.11);
+}
+:is(.delay-stakes,.substitution-timeline,.countdown-compare section,.world-cup-counts,.rule-summary):after,
+.restart-result span:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background-image:radial-gradient(circle,rgba(255,255,255,.16) 0 .55px,transparent .75px);
+  background-size:7px 9px;
+  mix-blend-mode:soft-light;
+  opacity:.38;
+}
+:is(.delay-stakes,.substitution-timeline,.countdown-compare,.world-cup-counts,.rule-summary) :is(b,strong,dt),
+.restart-result :is(b,strong,small){
+  text-shadow:.45px .25px 0 rgba(255,255,255,.32),-.35px -.2px 0 rgba(13,45,17,.5);
+}
+.delay-stakes{
+  gap:0;
+  border:2px solid rgba(244,241,220,.86);
+  border-radius:14px;
+  background-color:#173b19;
+}
+.delay-stakes:before{
+  content:"";
+  position:absolute;
+  inset:9px;
+  z-index:0;
+  border:1px solid rgba(244,241,220,.2);
+  border-radius:8px;
+  pointer-events:none;
+}
+.delay-stakes span{
+  position:relative;
+  z-index:1;
+  min-height:138px;
+  padding:25px 24px;
+  border-right:2px solid rgba(244,241,220,.68);
+  background:rgba(4,27,8,.08);
+}
+.delay-stakes span:last-child{border-right:0}
+.delay-stakes b{color:var(--pitch-mark);font-size:12px;letter-spacing:.06em}
+.delay-stakes em{color:var(--pitch-paint);font-size:17px;letter-spacing:-.015em}
+.substitution-timeline{
+  gap:0;
+  padding:34px 25px 25px;
+  border:2px solid rgba(244,241,220,.88);
+  border-radius:14px;
+  background-color:#173b19;
+}
+.substitution-timeline:before{
+  content:"SUBSTITUTION ZONE";
+  position:absolute;
+  top:10px;
+  left:25px;
+  z-index:2;
+  color:rgba(244,241,220,.58);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.18em;
+  text-shadow:.4px .2px 0 rgba(255,255,255,.2);
+}
+.substitution-timeline span{
+  z-index:1;
+  min-height:112px;
+  padding:45px 17px 17px;
+  border:1px solid rgba(244,241,220,.32);
+  border-radius:4px;
+  background:rgba(2,24,6,.34);
+  box-shadow:none;
+}
+.substitution-timeline span:before{color:rgba(244,241,220,.64);font-size:12px}
+.substitution-timeline b{color:var(--pitch-mark)}
+.substitution-timeline em{color:var(--pitch-paint)}
+.substitution-timeline>i{z-index:2;background:var(--pitch-paint);opacity:.86}
+.substitution-timeline>i:after{border-color:var(--pitch-paint)}
+.restart-result{gap:14px;background:transparent}
+.restart-result span{
+  overflow:hidden;
+  padding:29px 28px;
+  border:2px solid rgba(244,241,220,.86);
+  border-top:2px solid rgba(244,241,220,.86);
+  border-radius:14px;
+  background-color:#173b19;
+}
+.restart-result span:after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  pointer-events:none;
+  border:2px solid rgba(244,241,220,.28);
+}
+.restart-result span:first-child:after{top:-8px;right:28px;bottom:-8px;width:1px;border-width:0 2px 0 0}
+.restart-result span:last-child:after{right:-32px;bottom:-32px;width:92px;height:92px;border-radius:50%}
+.restart-result b{color:var(--pitch-mark);letter-spacing:.07em}
+.restart-result em{color:var(--pitch-muted)}
+.restart-result strong{color:var(--pitch-paint);font-size:19px}
+.restart-result strong i{color:var(--pitch-mark)}
+.restart-result small{border-top-color:rgba(244,241,220,.28);color:var(--pitch-paint)}
+.countdown-compare{gap:14px}
+.countdown-compare section{
+  border:2px solid rgba(244,241,220,.86);
+  border-radius:14px;
+  background-color:#173b19;
+}
+.countdown-compare section:before{
+  content:"";
+  position:absolute;
+  top:50%;
+  right:-30px;
+  z-index:-1;
+  width:58px;
+  height:58px;
+  border:2px solid rgba(244,241,220,.25);
+  border-radius:50%;
+  transform:translateY(-50%);
+}
+.countdown-compare section:last-child:before{right:auto;left:-30px}
+.countdown-compare header{position:relative;z-index:1;border-bottom:2px solid rgba(244,241,220,.42);background:rgba(3,27,7,.26)}
+.countdown-compare header b{border:2px solid var(--pitch-paint);background:transparent;color:var(--pitch-paint);font-size:16px}
+.countdown-compare header span{color:var(--pitch-paint)}
+.countdown-compare dl{position:relative;z-index:1}
+.countdown-compare dl div{border-bottom-color:rgba(244,241,220,.24)}
+.countdown-compare dt{color:var(--pitch-mark)}
+.countdown-compare dd{color:var(--pitch-paint)}
+.world-cup-counts{
+  gap:0;
+  overflow:hidden;
+  border:2px solid rgba(244,241,220,.86);
+  border-radius:14px;
+  background-color:#173b19;
+}
+.world-cup-counts:before{
+  content:"";
+  position:absolute;
+  top:-58px;
+  left:50%;
+  z-index:0;
+  width:116px;
+  height:116px;
+  border:2px solid rgba(244,241,220,.34);
+  border-radius:50%;
+  transform:translateX(-50%);
+}
+.world-cup-counts span{
+  position:relative;
+  z-index:1;
+  min-height:128px;
+  border:0;
+  border-right:2px solid rgba(244,241,220,.52);
+  border-radius:0;
+  background:rgba(3,27,7,.12);
+}
+.world-cup-counts span:last-child{border-right:0}
+.world-cup-counts b{color:var(--pitch-paint);font-family:Impact,'Arial Narrow',sans-serif;font-weight:500;letter-spacing:.03em}
+.world-cup-counts em{color:var(--pitch-mark);letter-spacing:.02em}
+.rule-summary{
+  overflow:hidden;
+  border:2px solid rgba(244,241,220,.86);
+  border-radius:14px;
+  background-color:#173b19;
+}
+.rule-summary:before{
+  content:"MATCH READING ORDER";
+  grid-column:1/-1;
+  padding:13px 16px 11px;
+  border-bottom:2px solid rgba(244,241,220,.48);
+  color:rgba(244,241,220,.6);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.18em;
+}
+.rule-summary span,.rule-summary p{position:relative;z-index:1;border-bottom-color:rgba(244,241,220,.28)}
+.rule-summary span{color:var(--pitch-mark);font-family:Impact,'Arial Narrow',sans-serif;font-size:13px;font-weight:500}
+.rule-summary p{color:var(--pitch-paint)}
+.rule-summary strong{color:var(--pitch-paint)}
+@media(max-width:620px){
+  :is(.delay-stakes,.substitution-timeline,.countdown-compare section,.world-cup-counts,.rule-summary),.restart-result span{background-size:100% 100%,280px 280px}
+  .delay-stakes span{min-height:105px;border-right:0;border-bottom:2px solid rgba(244,241,220,.58)}
+  .delay-stakes span:last-child{border-bottom:0}
+  .substitution-timeline{padding:36px 14px 14px}
+  .substitution-timeline:before{left:16px}
+  .substitution-timeline>i{background:var(--pitch-paint)}
+  .restart-result span{padding:24px 22px}
+  .countdown-compare section:before{display:none}
+  .world-cup-counts span{min-height:110px}
+  .world-cup-counts b{font-size:32px}
+  .rule-summary:before{padding-left:12px}
+}
+</style>
