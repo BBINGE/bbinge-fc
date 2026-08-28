@@ -183,3 +183,23 @@ featured: false
 @media(max-width:560px){.keeper-rule{grid-template-columns:1fr}.keeper-rule span{min-height:100px;padding:19px}.keeper-rule em{font-size:15px}.rule-callout{gap:9px;padding:19px 15px}.rule-callout strong{font-size:12px}.rule-callout span{font-size:17px}.keeper-scene{min-height:270px}.boundary-scene{--keeper-start:25%;--keeper-end:43%;--ball-start:76%;--ball-end:64%;--figure-scale:.78}.release-scene{--keeper-start:12%;--keeper-end:43%;--ball-start:30%;--ball-end:55%;--figure-scale:.78}.boundary-scene .contact-ring{left:61%}.boundary-scene .foul-x{left:64%}.release-scene .foul-x{left:57%}.keeper-scene>b{right:12px;bottom:12px;left:12px;padding:10px}.keeper-scene>b span{font-size:12px}.keeper-scene>b em{font-size:12px}.foul-x{width:48px;height:48px;border-width:4px;font-size:38px}.eight-count{gap:3px}.eight-count>span{font-size:12px}.eight-count>b{grid-template-columns:27px auto 1fr;gap:8px;padding:9px}.eight-count>b em{font-size:12px}.corner-flag{transform:scale(.78)}}
 @media(prefers-reduced-motion:reduce){.keeper-scene *,.eight-count *{animation:none!important}.keeper-scene>b em{opacity:1;transform:none}.eight-count>b{opacity:1}}
 </style>
+
+<style>
+/* 기기마다 달랐던 공의 시작·도착 비율을 통일하고 순간 이동 구간을 늘린다. */
+.boundary-scene{--keeper-start:34%;--keeper-end:54%;--ball-start:78%;--ball-end:68%}.release-scene{--keeper-start:20%;--keeper-end:52%;--ball-start:34%;--ball-end:60%}
+.boundary-scene .keeper-figure{animation:keeper-boundary-glide 6.4s ease-in-out infinite}.boundary-scene .ball-dot{animation:keeper-boundary-ball-glide 6.4s ease-in-out infinite}.boundary-scene .contact-ring{left:64%;animation:keeper-contact-soft 6.4s ease-out infinite}.boundary-scene .foul-x{left:67%;animation:keeper-boundary-foul 6.4s ease-out infinite}.boundary-scene>b em{animation:keeper-boundary-result 6.4s ease-out infinite}
+.release-scene .keeper-figure{animation:keeper-release-glide 7s ease-in-out infinite}.release-scene .ball-dot{animation:keeper-release-ball-glide 7s ease-in-out infinite}.release-scene .release-trail{animation:keeper-release-trail 7s ease-in-out infinite}.release-scene .foul-x{left:63%;animation:keeper-release-foul 7s ease-out infinite}.release-scene>b em{animation:keeper-release-result 7s ease-out infinite}
+@keyframes keeper-boundary-glide{0%,12%{left:var(--keeper-start);transform:translateY(4px) scale(var(--figure-scale)) rotateY(0)}72%,100%{left:var(--keeper-end);transform:translateY(-3px) scale(var(--figure-scale)) rotate(-12deg) rotateY(-18deg)}}
+@keyframes keeper-boundary-ball-glide{0%,10%{left:var(--ball-start);transform:translateY(-10px) rotate(0)}72%,100%{left:var(--ball-end);transform:translateY(2px) rotate(-120deg)}}
+@keyframes keeper-contact-soft{0%,64%{opacity:0;transform:scale(.25)}72%{opacity:1;transform:scale(1.08)}84%,100%{opacity:0;transform:scale(1.45)}}
+@keyframes keeper-boundary-foul{0%,72%{opacity:0;transform:scale(.5) rotate(-18deg)}80%,94%{opacity:1;transform:scale(1) rotate(0)}100%{opacity:0;transform:scale(.9)}}
+@keyframes keeper-boundary-result{0%,75%{opacity:0;transform:translateY(7px)}83%,96%{opacity:1;transform:none}100%{opacity:0}}
+@keyframes keeper-release-glide{0%,15%{left:var(--keeper-start);transform:translateY(0) scale(var(--figure-scale)) rotateY(0)}35%{left:calc(var(--keeper-start) - 2%);transform:translateY(4px) scale(var(--figure-scale)) rotateY(14deg)}78%,100%{left:var(--keeper-end);transform:translateY(-4px) scale(var(--figure-scale)) rotate(-10deg) rotateY(-20deg)}}
+@keyframes keeper-release-ball-glide{0%,18%{left:calc(var(--ball-start) - 4%);transform:translateY(-42px) rotate(0)}34%{left:var(--ball-start);transform:translateY(0) scale(.92)}82%,100%{left:var(--ball-end);transform:translateY(-25px) rotate(160deg)}}
+@keyframes keeper-release-trail{0%,30%{opacity:0;transform:scaleX(.1)}48%,82%{opacity:1;transform:scaleX(1);transform-origin:left}94%,100%{opacity:0}}
+@keyframes keeper-release-foul{0%,80%{opacity:0;transform:scale(.5) rotate(-18deg)}87%,96%{opacity:1;transform:scale(1)}100%{opacity:0}}
+@keyframes keeper-release-result{0%,82%{opacity:0;transform:translateY(7px)}89%,97%{opacity:1;transform:none}100%{opacity:0}}
+@media(min-width:901px) and (max-width:1200px){.boundary-scene,.release-scene{--figure-scale:.95}}
+@media(min-width:561px) and (max-width:900px){.boundary-scene,.release-scene{--figure-scale:.9}}
+@media(max-width:560px){.boundary-scene,.release-scene{--figure-scale:.78}}
+</style>
