@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-29T19:12:33.838Z",
+  "updatedAt": "2026-08-29T22:22:03.494Z",
   "matches": [
     {
       "id": "2506192",
@@ -67,7 +67,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
       "homeScore": 2,
       "awayScore": 1,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "01:30",
       "date": "2026-08-30"
@@ -81,7 +81,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
       "homeScore": 0,
       "awayScore": 3,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "01:30",
       "date": "2026-08-30"
@@ -121,9 +121,9 @@
       "away": "파르마",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/6yiaxs1627406063.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-30"
@@ -135,9 +135,9 @@
       "away": "르아브르",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/aikowk1546475003.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-30"
@@ -149,9 +149,9 @@
       "away": "트루아",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sl5kzg1766617559.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-30"
@@ -163,9 +163,9 @@
       "away": "NEC Nijmegen",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/qpvqwy1473534822.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-30"
@@ -346,6 +346,14 @@
       "rows": [
         {
           "rank": 1,
+          "team": "아틀레티코 마드리드",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "played": 3,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "rank": 2,
           "team": "데포르티보 알라베스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
           "played": 3,
@@ -353,7 +361,7 @@
           "points": 7
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "played": 2,
@@ -361,7 +369,7 @@
           "points": 6
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "레알 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "played": 2,
@@ -369,28 +377,20 @@
           "points": 6
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "세비야",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-          "played": 2,
-          "goalDifference": 3,
+          "played": 3,
+          "goalDifference": 1,
           "points": 6
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "레알 베티스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 3,
           "goalDifference": -1,
           "points": 6
-        },
-        {
-          "rank": 6,
-          "team": "아틀레티코 마드리드",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "played": 2,
-          "goalDifference": 2,
-          "points": 4
         },
         {
           "rank": 7,
@@ -521,6 +521,14 @@
         },
         {
           "rank": 2,
+          "team": "유벤투스",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+          "played": 2,
+          "goalDifference": 3,
+          "points": 6
+        },
+        {
+          "rank": 3,
           "team": "우디네세",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
           "played": 2,
@@ -528,7 +536,7 @@
           "points": 4
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "AS 로마",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
           "played": 1,
@@ -536,7 +544,7 @@
           "points": 3
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "인테르나치오날레",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "played": 1,
@@ -544,7 +552,7 @@
           "points": 3
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "레체",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
           "played": 1,
@@ -552,7 +560,7 @@
           "points": 3
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "나폴리",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
           "played": 1,
@@ -560,7 +568,7 @@
           "points": 3
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "아탈란타",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
           "played": 1,
@@ -568,17 +576,9 @@
           "points": 3
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "칼리아리",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-          "played": 1,
-          "goalDifference": 1,
-          "points": 3
-        },
-        {
-          "rank": 9,
-          "team": "유벤투스",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "played": 1,
           "goalDifference": 1,
           "points": 3
@@ -625,14 +625,6 @@
         },
         {
           "rank": 15,
-          "team": "파르마",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-          "played": 1,
-          "goalDifference": -1,
-          "points": 0
-        },
-        {
-          "rank": 16,
           "team": "제노아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
           "played": 1,
@@ -640,11 +632,19 @@
           "points": 0
         },
         {
-          "rank": 17,
+          "rank": 16,
           "team": "토리노",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "played": 2,
           "goalDifference": -2,
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "team": "파르마",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+          "played": 2,
+          "goalDifference": -3,
           "points": 0
         },
         {
@@ -839,6 +839,22 @@
         },
         {
           "rank": 2,
+          "team": "올랭피크 리옹",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+          "played": 2,
+          "goalDifference": 2,
+          "points": 4
+        },
+        {
+          "rank": 3,
+          "team": "트루아",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+          "played": 2,
+          "goalDifference": 1,
+          "points": 4
+        },
+        {
+          "rank": 4,
           "team": "올랭피크 드 마르세유",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
           "played": 1,
@@ -846,7 +862,7 @@
           "points": 3
         },
         {
-          "rank": 3,
+          "rank": 5,
           "team": "랑스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
           "played": 2,
@@ -854,15 +870,7 @@
           "points": 3
         },
         {
-          "rank": 4,
-          "team": "올랭피크 리옹",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-          "played": 1,
-          "goalDifference": 2,
-          "points": 3
-        },
-        {
-          "rank": 5,
+          "rank": 6,
           "team": "AS 모나코",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
           "played": 1,
@@ -870,7 +878,15 @@
           "points": 3
         },
         {
-          "rank": 6,
+          "rank": 7,
+          "team": "앙제",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+          "played": 2,
+          "goalDifference": 0,
+          "points": 3
+        },
+        {
+          "rank": 8,
           "team": "스트라스부르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
           "played": 2,
@@ -878,7 +894,15 @@
           "points": 3
         },
         {
-          "rank": 7,
+          "rank": 9,
+          "team": "브레스트",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+          "played": 2,
+          "goalDifference": 0,
+          "points": 2
+        },
+        {
+          "rank": 10,
           "team": "파리 생제르맹",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
           "played": 2,
@@ -886,15 +910,7 @@
           "points": 2
         },
         {
-          "rank": 8,
-          "team": "브레스트",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-          "played": 1,
-          "goalDifference": 0,
-          "points": 1
-        },
-        {
-          "rank": 9,
+          "rank": 11,
           "team": "르망",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
           "played": 1,
@@ -902,7 +918,7 @@
           "points": 1
         },
         {
-          "rank": 10,
+          "rank": 12,
           "team": "스타드 렌",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
           "played": 1,
@@ -910,15 +926,7 @@
           "points": 1
         },
         {
-          "rank": 11,
-          "team": "로리앙",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-          "played": 1,
-          "goalDifference": 0,
-          "points": 1
-        },
-        {
-          "rank": 12,
+          "rank": 13,
           "team": "니스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
           "played": 1,
@@ -926,7 +934,7 @@
           "points": 1
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "파리 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
           "played": 1,
@@ -934,43 +942,35 @@
           "points": 1
         },
         {
-          "rank": 14,
-          "team": "트루아",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-          "played": 1,
-          "goalDifference": 0,
+          "rank": 15,
+          "team": "로리앙",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+          "played": 2,
+          "goalDifference": -1,
           "points": 1
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "르아브르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
-          "played": 1,
+          "played": 2,
           "goalDifference": -1,
-          "points": 0
-        },
-        {
-          "rank": 16,
-          "team": "툴루즈",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-          "played": 1,
-          "goalDifference": -2,
-          "points": 0
+          "points": 1
         },
         {
           "rank": 17,
-          "team": "앙제",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-          "played": 1,
+          "team": "툴루즈",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+          "played": 2,
           "goalDifference": -2,
-          "points": 0
+          "points": 1
         },
         {
           "rank": 18,
           "team": "오세르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-          "played": 1,
-          "goalDifference": -3,
+          "played": 2,
+          "goalDifference": -5,
           "points": 0
         }
       ]
