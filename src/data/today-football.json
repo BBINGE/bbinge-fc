@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-28T21:05:55.132Z",
+  "updatedAt": "2026-08-29T03:30:44.380Z",
   "matches": [
     {
       "id": "2506198",
@@ -51,9 +51,9 @@
       "away": "베네치아",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-29"
@@ -65,9 +65,9 @@
       "away": "파리 생제르맹",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/2giize1534005340.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "2H",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-08-29"
@@ -81,7 +81,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
       "homeScore": 1,
       "awayScore": 4,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-08-29"
@@ -95,7 +95,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
       "homeScore": 1,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "04:30",
       "date": "2026-08-29"
@@ -346,6 +346,14 @@
       "rows": [
         {
           "rank": 1,
+          "team": "데포르티보 알라베스",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+          "played": 3,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "rank": 2,
           "team": "바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "played": 2,
@@ -353,7 +361,7 @@
           "points": 6
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "레알 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "played": 2,
@@ -361,7 +369,7 @@
           "points": 6
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "세비야",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 2,
@@ -369,20 +377,12 @@
           "points": 6
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "레알 베티스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 2,
           "goalDifference": 2,
           "points": 6
-        },
-        {
-          "rank": 5,
-          "team": "데포르티보 알라베스",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-          "played": 2,
-          "goalDifference": 3,
-          "points": 4
         },
         {
           "rank": 6,
@@ -426,18 +426,18 @@
         },
         {
           "rank": 11,
-          "team": "비야레알",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+          "team": "데포르티보 라코루냐",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
           "played": 2,
           "goalDifference": 0,
           "points": 2
         },
         {
           "rank": 12,
-          "team": "데포르티보 라코루냐",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "played": 2,
-          "goalDifference": 0,
+          "team": "비야레알",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+          "played": 3,
+          "goalDifference": -1,
           "points": 2
         },
         {
