@@ -36,12 +36,12 @@ featured: false
 
 <div class="column-thesis">
   <span>짧은 답</span>
-  <p>전광판의 <strong>+5</strong>는 최소 5분을 더 진행한다는 표시이므로 95분 정각의 종료를 예약하지 않는다. 90분 이후에도 교체·부상·비디오 판독 심판<span class="foreign-note" lang="en">(video assistant referee, VAR; 영상으로 주심의 판정을 지원하는 심판)</span>의 확인·득점 세리머니로 시간이 소요되면 주심은 그 시간을 다시 더할 수 있고, 이미 표시한 시간은 줄일 수 없다.</p>
+  <p>전광판의 <strong>+5</strong>는 최소 5분을 더 진행한다는 표시이므로 95분 정각의 종료를 예약하지 않는다. 90분 이후에도 교체·부상·VAR 확인·득점 세리머니로 시간이 소요되면 주심은 그 시간을 다시 더할 수 있고, 이미 표시한 시간은 줄일 수 없다.</p>
 </div>
 
-추가시간<span class="foreign-note" lang="en">(additional time; 경기 중 잃은 시간을 각 전·후반 끝에 보상하는 시간)</span>이 5분이라고 떴는데 96분에도 경기가 계속되면 댓글창의 시계부터 빨라진다. 흔히 인저리 타임<span class="foreign-note" lang="en">(injury time; 추가시간을 가리키는 관용 표현)</span>이라고도 부르는 이 구간에서 지고 있는 팀의 팬은 조금만 더 달라고 하고, 이기고 있는 팀의 팬은 이미 끝났어야 한다며 같은 숫자를 정반대로 읽는다. 중계 화면도 대개 `90+6`만 보여주기 때문에, 그 사이에 무엇이 멈췄는지는 기억에서 금세 사라진다.
+추가시간이 5분이라고 떴는데 96분에도 경기가 계속되면 댓글창의 시계부터 빨라진다. 흔히 인저리 타임이라고도 부르는 이 구간에서 지고 있는 팀의 팬은 조금만 더 달라고 하고, 이기고 있는 팀의 팬은 이미 끝났어야 한다며 같은 숫자를 정반대로 읽는다. 중계 화면도 대개 `90+6`만 보여주기 때문에, 그 사이에 무엇이 멈췄는지는 기억에서 금세 사라진다.
 
-축구 추가시간 계산법을 이해하려면 경기 시계와 손실 시간<span class="foreign-note" lang="en">(time lost; 경기가 실제로 중단돼 보상해야 하는 시간)</span> 기록을 함께 봐야 한다. 경기장 시계는 90분을 향해 계속 움직이지만, 주심과 심판진은 교체·부상·VAR처럼 실제 경기가 중단된 사건을 별도로 기록한다. 전광판에는 그 합계를 바탕으로 정한 <strong>최소 추가시간<span class="foreign-note" lang="en">(minimum additional time)</span></strong>이 표시되고, 90분 뒤에 새로 발생한 중단은 종료 시각을 다시 뒤로 민다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+축구 추가시간 계산법을 이해하려면 경기 시계와 손실 시간 기록을 함께 봐야 한다. 경기장 시계는 90분을 향해 계속 움직이지만, 주심과 심판진은 교체·부상·VAR처럼 실제 경기가 중단된 사건을 별도로 기록한다. 전광판에는 그 합계를 바탕으로 정한 <strong>최소 추가시간</strong>이 표시되고, 90분 뒤에 새로 발생한 중단은 종료 시각을 다시 뒤로 민다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 <section class="st-lab" aria-labelledby="st-lab-title">
   <header class="st-lab__head">
@@ -84,9 +84,9 @@ featured: false
 
 ## 추가시간은 어떤 장면에서 쌓이나요?
 
-경기규칙은 교체, 부상 선수의 상태 확인과 이송, 의도적인 시간 지연, 징계, 대회 규정이 허용한 음료 휴식<span class="foreign-note" lang="en">(drinks break; 1분을 넘기지 않는 의료 목적의 휴식)</span>·쿨링 브레이크<span class="foreign-note" lang="en">(cooling break; 고온 환경에서 체온을 낮추는 90초에서 3분의 휴식)</span>, VAR 체크와 리뷰, 골 세리머니, 외부 방해를 비롯해 재개가 크게 늦어진 상황을 보상 대상으로 든다. 볼 아웃 오브 플레이<span class="foreign-note" lang="en">(ball out of play; 공이 경계선을 완전히 넘거나 주심이 경기를 중단한 상태)</span>가 될 때마다 스톱워치를 멈추지는 않으며, 정상적인 스로인·골킥 준비 사이에서 발생한 **유의미한 손실**을 심판진이 기록한다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+경기규칙은 교체, 부상 선수의 상태 확인과 이송, 의도적인 시간 지연, 징계, 대회 규정이 허용한 음료 휴식과 쿨링 브레이크, VAR 체크와 리뷰, 골 세리머니, 외부 방해를 비롯해 재개가 크게 늦어진 상황을 보상 대상으로 든다. 공이 터치라인이나 골라인을 완전히 벗어날 때마다 스톱워치를 멈추지는 않으며, 정상적인 스로인·골킥 준비 사이에서 발생한 **유의미한 손실**을 심판진이 기록한다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-대회 운영 지침은 같은 규칙 안에서도 계산 방식을 조금 더 구체화할 수 있다. 프리미어리그<span class="foreign-note" lang="en">(Premier League; 잉글랜드 프로축구 1부 리그)</span>는 2024/25 운영 안내에서 교체·부상·페널티킥·퇴장·VAR 지연은 재개까지 걸린 실제 시간을 반영하고, 득점 뒤에는 30초가 지난 시점부터 추가시간 시계를 세기 시작한다고 공개했다. VAR 확인과 다른 사건이 겹쳤을 때 시간을 이중으로 합산하지 않는다는 조건도 함께 밝혔다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+대회 운영 지침은 같은 규칙 안에서도 계산 방식을 조금 더 구체화할 수 있다. 프리미어리그는 2024/25 운영 안내에서 교체·부상·페널티킥·퇴장·VAR 지연은 재개까지 걸린 실제 시간을 반영하고, 득점 뒤에는 30초가 지난 시점부터 추가시간 시계를 세기 시작한다고 공개했다. VAR 확인과 다른 사건이 겹쳤을 때 시간을 이중으로 합산하지 않는다는 조건도 함께 밝혔다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 <section class="st-causes" aria-labelledby="st-causes-title">
   <header><span>IFAB LAW 7</span><h2 id="st-causes-title">중계 화면에서 무엇을 기억해 두면 될까요?</h2></header>
@@ -100,7 +100,7 @@ featured: false
 
 ## 프리미어리그·라리가·FIFA 월드컵에서는 실제로 얼마나 길어졌나요?
 
-같은 `90+` 표기라도 경기마다 길어진 이유는 다르다. 라리가<span class="foreign-note" lang="es">(LALIGA EA SPORTS; 스페인 프로축구 1부 리그)</span>와 FIFA 월드컵<span class="foreign-note" lang="en">(FIFA World Cup; 국제축구연맹이 주관하는 남자 국가대표 세계대회)</span>처럼 공식 경기 기록이 사건의 순서를 보여주는 경우도 있고, 심판위원장이 손실 시간을 직접 설명한 경우도 있다. 반면 공개 기록만으로 주심의 초 단위 계산표까지 복원할 수 없는 경기도 있으므로, 결과와 계산 근거의 증거 수준은 나눠서 보는 편이 정확하다.
+같은 `90+` 표기라도 경기마다 길어진 이유는 다르다. 라리가와 FIFA 월드컵처럼 공식 경기 기록이 사건의 순서를 보여주는 경우도 있고, 심판위원장이 손실 시간을 직접 설명한 경우도 있다. 반면 공개 기록만으로 주심의 초 단위 계산표까지 복원할 수 없는 경기도 있으므로, 결과와 계산 근거의 증거 수준은 나눠서 보는 편이 정확하다.
 
 <section class="st-cases" aria-label="프리미어리그 라리가 월드컵 추가시간 사례">
   <article class="st-case st-case--photo">
@@ -113,7 +113,7 @@ featured: false
   </article>
   <article class="st-case st-case--photo">
     <figure><img src="/images/football-made-easy/stoppage-time/world-cup-england-iran.webp" alt="2022 카타르 월드컵 잉글랜드와 이란 경기에서 이란의 메흐디 타레미가 득점하는 모습" width="1600" height="1066" loading="lazy" decoding="async" /><figcaption>Photo: FIFA / Getty Images, 2022</figcaption></figure>
-    <div class="st-case__copy"><span>FIFA WORLD CUP · 2022</span><h3>잉글랜드-이란전의 23분은 어디서 나왔을까요?</h3><p>국제축구연맹<span class="foreign-note" lang="fr">(Fédération Internationale de Football Association, FIFA; 세계 축구 행정 기구)</span> 심판위원장 피에를루이지 콜리나<span class="foreign-note" lang="it">(Pierluigi Collina; 이탈리아 축구 심판, 1960-)</span>는 전·후반 합계 23분 가운데 14분이 두 선수의 부상 치료에서 나왔다고 설명했다. 여기에 8골의 세리머니, VAR 체크 한 차례와 온필드 리뷰<span class="foreign-note" lang="en">(on-field review, OFR; 주심이 경기장 옆 모니터에서 영상을 직접 확인하는 절차)</span> 한 차례가 더해졌다. 이란의 마지막 득점은 90+12분에 나왔다.</p><small>FIFA가 사건별 근거까지 직접 공개해 긴 추가시간의 계산 원리를 가장 선명하게 보여준 사례다.</small><a href="https://vod.fifa.com/refereeing/news/collina-weve-asked-referees-to-calculate-stoppage-time-more-accurately" rel="noopener noreferrer">FIFA의 추가시간 설명 보기</a></div>
+    <div class="st-case__copy"><span>FIFA WORLD CUP · 2022</span><h3>잉글랜드-이란전의 23분은 어디서 나왔을까요?</h3><p>FIFA 심판위원장 피에를루이지 콜리나<span class="foreign-note" lang="it">(Pierluigi Collina; 이탈리아 축구 심판, 1960-)</span>는 전·후반 합계 23분 가운데 14분이 두 선수의 부상 치료에서 나왔다고 설명했다. 여기에 8골의 세리머니, VAR 체크 한 차례와 주심의 현장 모니터 확인 한 차례가 더해졌다. 이란의 마지막 득점은 90+12분에 나왔다.</p><small>FIFA가 사건별 근거까지 직접 공개해 긴 추가시간의 계산 원리를 가장 선명하게 보여준 사례다.</small><a href="https://vod.fifa.com/refereeing/news/collina-weve-asked-referees-to-calculate-stoppage-time-more-accurately" rel="noopener noreferrer">FIFA의 추가시간 설명 보기</a></div>
   </article>
 </section>
 
@@ -137,7 +137,7 @@ featured: false
 
 ## 추가시간과 연장전은 어떻게 다른가요?
 
-추가시간은 해당 전·후반 안에서 잃은 시간을 돌려주는 구간이다. 전반의 손실은 전반 끝에, 후반의 손실은 후반 끝에 보상하며, 전반 시간 계산의 실수를 후반 길이로 보충할 수는 없다. 무승부를 가려야 하는 토너먼트의 연장전<span class="foreign-note" lang="en">(extra time; 정규시간 뒤 승부를 가리기 위해 치르는 15분 두 차례)</span>은 별도의 경기 구간이며, 그 각 15분에도 부상이나 교체가 생기면 추가시간이 붙을 수 있다.
+추가시간은 해당 전·후반 안에서 잃은 시간을 돌려주는 구간이다. 전반의 손실은 전반 끝에, 후반의 손실은 후반 끝에 보상하며, 전반 시간 계산의 실수를 후반 길이로 보충할 수는 없다. 무승부를 가려야 하는 토너먼트의 연장전은 별도의 경기 구간이며, 그 각 15분에도 부상이나 교체가 생기면 추가시간이 붙을 수 있다.
 
 따라서 중계 표기의 `90+8`과 `연장 전반 8분`은 전혀 다른 경기 구간이다. 앞의 숫자는 후반 45분에 잃은 시간을 보상하는 중이고, 뒤의 숫자는 정규 90분이 끝난 뒤 새로 시작한 연장전의 시간이다.
 
