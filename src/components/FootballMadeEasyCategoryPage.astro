@@ -24,6 +24,15 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
 
 const matchFiles: Record<string, MatchFile> = {
+  'football-stoppage-time-calculation': {
+    code: 'STOPPAGE TIME',
+    shortCode: '90:00 → +MIN',
+    question: '추가시간 5분인데 왜 96분에도 안 끝날까?',
+    clue: '전광판의 최소 시간과 90분 뒤 새로 생긴 중단',
+    verdict: '표시된 시간은 최소치이며, 추가시간 중 교체·부상·VAR·세리머니로 잃은 시간도 다시 보상한다.',
+    notation: 'LOST TIME → BOARD → WHISTLE',
+    searchIntents: ['축구 추가시간 계산법', '추가시간 몇 분', '추가시간 기준', '90분 지나도 경기', '추가시간 골', '인저리 타임', 'EPL 추가시간', '라리가 추가시간', '월드컵 추가시간'],
+  },
   'football-var-review-criteria': {
     code: 'VAR REVIEW',
     shortCode: 'CHECK → DECISION',
