@@ -24,6 +24,15 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
 
 const matchFiles: Record<string, MatchFile> = {
+  'football-var-review-criteria': {
+    code: 'VAR REVIEW',
+    shortCode: 'CHECK → DECISION',
+    question: 'VAR는 언제 개입하고, 왜 판정이 그대로일까?',
+    clue: '판독 범위와 명백한 오심의 두 단계',
+    verdict: '자동 체크 뒤 뚜렷한 오류가 확인될 때 주심이 리뷰와 최종 판정을 결정한다.',
+    notation: 'SCOPE → CHECK → REVIEW',
+    searchIntents: ['축구 VAR 판독 기준', 'VAR 개입 기준', 'VAR 판정 번복', 'VAR 모니터', '온필드 리뷰', 'VAR 체크', '두 번째 경고 VAR', 'VAR 코너킥'],
+  },
   '2026-football-rule-changes-substitution-throw-in-goal-kick': {
     code: 'TIME LIMITS',
     shortCode: '10s · 5s · 5s',
