@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-30T17:55:09.809Z",
+  "updatedAt": "2026-08-30T20:35:54.583Z",
   "matches": [
     {
       "id": "2506198",
@@ -394,6 +394,14 @@
         },
         {
           "rank": 7,
+          "team": "데포르티보 라코루냐",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+          "played": 3,
+          "goalDifference": 2,
+          "points": 5
+        },
+        {
+          "rank": 8,
           "team": "오사수나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
           "played": 2,
@@ -401,7 +409,7 @@
           "points": 4
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "레반테",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
           "played": 3,
@@ -409,7 +417,7 @@
           "points": 4
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "라싱 산탄데르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
           "played": 3,
@@ -417,7 +425,7 @@
           "points": 4
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": "에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "played": 3,
@@ -425,7 +433,7 @@
           "points": 3
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "헤타페",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "played": 2,
@@ -433,20 +441,12 @@
           "points": 3
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "레알 소시에다드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "played": 3,
           "goalDifference": -3,
           "points": 3
-        },
-        {
-          "rank": 13,
-          "team": "데포르티보 라코루냐",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "played": 2,
-          "goalDifference": 0,
-          "points": 2
         },
         {
           "rank": 14,
@@ -476,8 +476,8 @@
           "rank": 17,
           "team": "발렌시아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-          "played": 2,
-          "goalDifference": -1,
+          "played": 3,
+          "goalDifference": -3,
           "points": 1
         },
         {
@@ -537,6 +537,14 @@
         },
         {
           "rank": 4,
+          "team": "코모",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+          "played": 2,
+          "goalDifference": 1,
+          "points": 4
+        },
+        {
+          "rank": 5,
           "team": "AS 로마",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
           "played": 1,
@@ -544,7 +552,7 @@
           "points": 3
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "인테르나치오날레",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "played": 1,
@@ -552,17 +560,9 @@
           "points": 3
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "레체",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-          "played": 1,
-          "goalDifference": 2,
-          "points": 3
-        },
-        {
-          "rank": 7,
-          "team": "나폴리",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
           "played": 1,
           "goalDifference": 2,
           "points": 3
@@ -601,19 +601,19 @@
         },
         {
           "rank": 12,
+          "team": "나폴리",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+          "played": 2,
+          "goalDifference": 1,
+          "points": 3
+        },
+        {
+          "rank": 13,
           "team": "사수올로",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
           "played": 2,
           "goalDifference": 0,
           "points": 3
-        },
-        {
-          "rank": 13,
-          "team": "코모",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-          "played": 1,
-          "goalDifference": 0,
-          "points": 1
         },
         {
           "rank": 14,
