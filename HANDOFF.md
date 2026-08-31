@@ -2,6 +2,7 @@
 
 - `/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/`을 추가했다. 검색 제목은 `올리비아 로드리고 바르셀로나 유니폼: 엘클라시코 협업 디자인`이며, OR 나비 로고가 들어간 2025/26 홈 셔츠를 `RODRIGO 27` 마킹, 여자팀의 선착용, 2003/04 레트로 셔츠, 라이프스타일 컬렉션과 Billions Club Live까지 연결한다.
 - 대표 이미지는 FC Barcelona의 3200×2000 공식 캠페인 컷을 1600×900 WebP로 편집했다. 목록은 `RODRIGO 27` 백 프린트, 프로필은 Spotify의 테아트레 그렉 공연 사진으로 분리해 표지·카드·인물 식별 역할을 반복하지 않는다. Vogue가 공개한 Spotify 화보, FC Barcelona 여자팀 공식 갤러리, Olivia Rodrigo Official Store 상품 컷과 Spotify 공연 사진을 포함해 로컬 WebP 14종을 사용했다.
+- 대표 이미지의 넓은 핑크 여백을 줄이고 인물을 약 28% 확대했다. 생성형 보정 없이 같은 공식 원본을 픽셀 크롭해 얼굴·유니폼·로고를 보존했으며, 왼쪽 Spotify·OR·FC Barcelona 마크와 상의 협업 로고·흰 쇼츠가 한 프레임에 남는다.
 - 본문은 어두운 3단 신호 모듈, 라민 야말과 선수용 셔츠의 2열 디테일, 여자팀 와이드 매치 컷, 레트로 셔츠·후디·머플러의 3열 컬렉션, 와이드 공연 무대로 화보 리듬을 나눴다. 색상은 전역 `--bbfc-*` 토큰만 사용하고 캠페인의 핑크·파랑·빨강은 사진이 담당한다. 스캔 라인, 카드 부유, 포스터 확대 모션은 `prefers-reduced-motion`에서 모두 멈춘다.
 - FC Barcelona 공식 YouTube의 캠페인 발표편, 올리비아의 바르셀로나 주말 브이로그, 여자팀 레반테전 하이라이트 3편을 클릭 후 로드하는 영상 카드로 넣었다. 초기에는 로컬 포스터만 표시하고 재생 시 `youtube-nocookie.com` iframe을 생성하며, 닫으면 `src`를 제거한다. 원문 링크도 각 카드에 유지한다.
 - `npm.cmd run test:writing-rules`, `npm.cmd run validate:writing`, `npm.cmd run validate:risk-gate`, `npm.cmd run build`, `git diff --check`를 통과했고 141페이지 정적 빌드에 새 경로가 포함됐다. 로컬 380·768·1440px에서 가로 넘침 0, 인물 프로필 크롭과 모바일 1열 전환, 이미지 로딩과 공식 영상 3개를 확인했다. 브이로그 재생·닫기 뒤 iframe 생성·제거와 콘솔 오류 0도 실제로 검증했다.
