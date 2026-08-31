@@ -252,5 +252,18 @@ const authorSchema = {
       <slot />
     </main>
     <Footer />
+    {analyticsEligible && (
+      <>
+        <!-- NAVER Analytics -->
+        <script is:inline type="text/javascript" src="https://wcs.pstatic.net/wcslog.js"></script>
+        <script is:inline type="text/javascript">
+          if (!window.wcs_add) window.wcs_add = {};
+          window.wcs_add["wa"] = "25cc1f313cc6800";
+          if (window.wcs) {
+            window.wcs_do();
+          }
+        </script>
+      </>
+    )}
   </body>
 </html>
