@@ -1,0 +1,89 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getArticlePath } from '../config/categories';
+
+interface Props { entries: CollectionEntry<'articles'>[]; description?: string; }
+interface Profile { era:string; shape:string; depth:string; formation:string; file:string; }
+const { entries, description } = Astro.props;
+const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
+const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const profiles:Record<string,Profile> = {
+  'grande-inter-best-xi': { era:'1960—1972', shape:'1964 FINAL XI', depth:'DYNASTY XI · CANDIDATES', formation:'/images/squads/grande-inter-best-xi/formation.webp', file:'THE GRANDE INTER FILE' },
+  'real-madrid-death-squad-best-xi': { era:'1953—1964', shape:'3—2—2—3', depth:'EUROPEAN DYNASTY XI', formation:'/images/squads/real-madrid-death-squad-best-xi/formation.png', file:'THE DEATH SQUAD FILE' },
+  'bayern-munich-all-time-best-xi': { era:'ALL-TIME', shape:'4—2—2—2', depth:'1ST XI · 2ND XI · CANDIDATES', formation:'/images/squads/bayern-munich-all-time-best-xi/formation.webp', file:'CLUB XI 01' },
+  'borussia-monchengladbach-all-time-best-xi': { era:'ALL-TIME', shape:'4—3—2—1', depth:'1ST XI · 2ND XI · 3RD XI', formation:'/images/squads/borussia-monchengladbach-all-time-best-xi/formation.webp', file:'CLUB XI 02' },
+  'borussia-dortmund-all-time-best-xi': { era:'116 YEARS', shape:'5—1—3—1', depth:'1ST XI · 2ND XI · 3RD XI', formation:'/images/squads/borussia-dortmund-all-time-best-xi/formation.webp', file:'CLUB XI 03' },
+  'bayer-leverkusen-all-time-best-xi': { era:'120 YEARS', shape:'3—4—1—2', depth:'1ST XI · 2ND XI · 3RD XI', formation:'/images/squads/bayer-leverkusen-all-time-best-xi/formation.webp', file:'CLUB XI 04' },
+};
+const fallback:Profile = { era:'BEST XI', shape:'XI', depth:'SELECTED BY BBINGE', formation:'', file:'SQUAD FILE' };
+const signature = entries.find((entry) => entry.id === 'grande-inter-best-xi') ?? entries[0];
+const archive = entries.filter((entry) => entry.id !== signature?.id);
+const signatureProfile = signature ? (profiles[signature.id] ?? fallback) : undefined;
+---
+
+<div class="squad-index">
+  <header class="masthead">
+    <div><p>BBINGE FC · CUSTOM SQUAD ARCHIVE</p><h1>축쿼드</h1></div>
+    <p class="manifesto"><strong>ELEVEN PLAYERS.<br />ONE ARGUMENT.</strong><span>이름을 모으는 데서 끝내지 않고, 한 팀으로 세웁니다.</span></p>
+  </header>
+  {description && <p class="intro">{description}</p>}
+  <div class="ledger" aria-label="축쿼드 아카이브 현황">
+    <span><b>{String(entries.length).padStart(2,'0')}</b><small>SQUAD FILES</small></span>
+    <span><b>{entries.length * 11}</b><small>STARTING PLACES</small></span>
+    <span><b>XI</b><small>ONE TEAM AT A TIME</small></span>
+  </div>
+
+  {signature && signatureProfile ? (
+    <section class="signature" aria-labelledby="signature-title">
+      <div class="section-rule"><p>SIGNATURE SELECTION</p><span>삥이의 선정 논리가 가장 선명한 한 팀</span></div>
+      <div class="signature-layout">
+        <a class="signature-cover" href={hrefFor(signature)}>
+          {imageFor(signature) && <img src={imageFor(signature)} alt={signature.data.coverImageAlt ?? ''} />}
+          <span>{signatureProfile.file}</span>
+        </a>
+        <div class="signature-copy">
+          <div class="signature-meta"><span>{signatureProfile.era}</span><span>{signatureProfile.shape}</span></div>
+          <h2 id="signature-title"><a href={hrefFor(signature)}>{signature.data.title}</a></h2>
+          <p>{signature.data.description}</p>
+          <blockquote>“그란데 인테르의 위대함은 수비를 포기하고 공격했다는 데 있지 않다. 수비를 가장 잘 이해했기 때문에 공격의 위험까지 체계적으로 감당할 수 있었다는 데 있다.”</blockquote>
+          <dl><div><dt>SELECTION</dt><dd>{signatureProfile.depth}</dd></div><div><dt>STRUCTURE</dt><dd>피키의 커버 · 파케티의 전진 · 수아레스의 방향 전환</dd></div></dl>
+          <a class="signature-cta" href={hrefFor(signature)}><span>그란데 인테르의 열한 명 읽기</span><i aria-hidden="true">↗</i></a>
+        </div>
+        <a class="signature-board" href={hrefFor(signature)} aria-label={`${signature.data.title} 포메이션 보기`}>
+          <span><b>TACTICAL BOARD</b><i>{signatureProfile.shape}</i></span>
+          <img src={signatureProfile.formation} alt="그란데 인테르 베스트 11 포메이션" loading="lazy" />
+        </a>
+      </div>
+    </section>
+  ) : <p class="empty">첫 번째 열한 명을 준비하고 있습니다.</p>}
+
+  {archive.length > 0 && (
+    <section class="archive" aria-labelledby="archive-title">
+      <div class="section-rule archive-title"><p>THE TEAM FILES</p><h2 id="archive-title">나머지 열한 명</h2><span>{String(archive.length).padStart(2,'0')}</span></div>
+      <div class="archive-grid">
+        {archive.map((entry,index) => {
+          const profile = profiles[entry.id] ?? fallback;
+          return <article class="team-card">
+            <a class="team-visual" href={hrefFor(entry)}>
+              {profile.formation ? <img src={profile.formation} alt={`${entry.data.title} 포메이션`} loading="lazy" /> : imageFor(entry) && <img src={imageFor(entry)} alt={entry.data.coverImageAlt ?? ''} loading="lazy" />}
+              <span class="number">{String(index+2).padStart(2,'0')}</span><span class="shape">{profile.shape}</span>
+            </a>
+            <div class="team-copy">
+              <p class="team-meta"><span>{profile.file}</span><span>{profile.era}</span></p>
+              <h3><a href={hrefFor(entry)}>{entry.data.title}</a></h3>
+              <p class="team-description">{entry.data.description}</p>
+              <div class="team-footer"><span>{profile.depth}</span><a href={hrefFor(entry)} aria-label={`${entry.data.title} 읽기`}>열기 <b aria-hidden="true">→</b></a></div>
+            </div>
+          </article>;
+        })}
+      </div>
+    </section>
+  )}
+</div>
+
+<style>
+  .squad-index{max-width:1180px;margin:0 auto;padding:34px 20px 82px}.masthead{display:flex;align-items:end;justify-content:space-between;gap:32px;padding-bottom:23px;border-bottom:3px solid var(--bbfc-ink)}.masthead>div>p{color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.16em}.masthead h1{margin-top:7px;font-size:clamp(54px,8vw,94px);line-height:.86;font-weight:840;letter-spacing:-.075em}.manifesto{display:grid;justify-items:end;text-align:right}.manifesto strong{font-size:17px;line-height:1.04}.manifesto span{margin-top:9px;color:var(--bbfc-gray-2);font-size:11px}.intro{margin:20px 0 25px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.82;text-wrap:pretty}.ledger{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--bbfc-ink)}.ledger>span{display:flex;align-items:baseline;gap:11px;padding:13px 16px;border-right:1px solid var(--bbfc-border)}.ledger>span:last-child{border-right:0}.ledger b{color:var(--bbfc-blue);font-size:22px;font-weight:820}.ledger small{color:var(--bbfc-gray-2);font-size:11px;font-weight:760;letter-spacing:.1em}
+  .signature{margin-top:56px}.section-rule{display:flex;align-items:baseline;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--bbfc-ink)}.section-rule p{color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.14em}.section-rule>span{margin-left:auto;color:var(--bbfc-gray-2);font-size:11px}.signature-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(330px,.78fr);grid-template-areas:'cover copy' 'board copy';margin-top:20px;border-bottom:1px solid var(--bbfc-ink)}.signature-cover{grid-area:cover;position:relative;display:block;min-height:410px;overflow:hidden;background:var(--bbfc-fill)}.signature-cover:after,.team-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 54%,rgba(7,12,20,.68));pointer-events:none}.signature-cover img,.team-visual img{width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.22,1,.36,1)}.signature-cover>span{position:absolute;z-index:1;left:20px;bottom:18px;color:white;font-size:11px;font-weight:780;letter-spacing:.15em}.signature-copy{grid-area:copy;display:flex;flex-direction:column;padding:32px 34px;background:var(--bbfc-fill);border-left:1px solid var(--bbfc-border)}.signature-meta{display:flex;justify-content:space-between;gap:16px;color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.12em}.signature h2{margin-top:18px;font-size:clamp(28px,3.2vw,43px);line-height:1.13;font-weight:790;letter-spacing:-.05em;text-wrap:balance}.signature-copy>p{margin-top:18px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.78}.signature blockquote{margin:25px 0 0;padding:18px 0;border-block:1px solid var(--bbfc-border);border-top-color:var(--bbfc-ink);color:var(--bbfc-ink-2);font-size:14px;line-height:1.75;font-weight:670}.signature dl{margin:20px 0 0}.signature dl div{display:grid;grid-template-columns:83px minmax(0,1fr);gap:10px;padding:8px 0;border-bottom:1px solid var(--bbfc-border)}.signature dt{color:var(--bbfc-gray-2);font-size:11px;font-weight:760}.signature dd{margin:0;color:var(--bbfc-ink-2);font-size:11.5px;line-height:1.5;font-weight:650}.signature-cta{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:auto;padding-top:24px;font-size:14px;font-weight:780}.signature-cta i{display:grid;width:40px;height:40px;place-items:center;border-radius:50%;background:var(--bbfc-blue);color:white;font-size:18px;font-style:normal}.signature-board{grid-area:board;display:grid;grid-template-columns:155px minmax(0,1fr);min-height:220px;overflow:hidden;border-top:1px solid var(--bbfc-ink);background:var(--bbfc-ink);color:white}.signature-board>span{display:flex;flex-direction:column;justify-content:space-between;padding:19px}.signature-board b{font-size:11px;letter-spacing:.13em}.signature-board i{color:var(--bbfc-blue);font-size:18px;font-style:normal;font-weight:820}.signature-board img{width:100%;height:100%;object-fit:cover}
+  .archive{margin-top:66px}.archive-title h2{font-size:24px;font-weight:750}.archive-title>span{font-weight:760;letter-spacing:.12em}.archive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px 22px;margin-top:24px}.team-card{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);min-height:320px;border-bottom:1px solid var(--bbfc-ink)}.team-visual{position:relative;display:block;min-height:100%;overflow:hidden;background:var(--bbfc-ink)}.number,.shape{position:absolute;z-index:1;color:white;font-weight:800}.number{top:14px;left:14px;font-size:11px}.shape{right:14px;bottom:13px;font-size:17px}.team-copy{display:flex;flex-direction:column;padding:20px 20px 17px;border:1px solid var(--bbfc-border);border-bottom:0}.team-meta{display:flex;justify-content:space-between;gap:10px;color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.09em}.team-card h3{margin-top:15px;font-size:21px;line-height:1.28;font-weight:750;letter-spacing:-.035em;text-wrap:balance}.team-description{margin-top:13px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.team-footer{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:auto;padding-top:18px;color:var(--bbfc-gray-2);font-size:11px;font-weight:720}.team-footer>a{flex:0 0 auto;color:var(--bbfc-ink);border-bottom:1px solid var(--bbfc-ink)}.team-footer b{color:var(--bbfc-blue);font-size:15px}.signature-cover:hover img,.team-card:hover .team-visual img{transform:scale(1.02)}.signature a:focus-visible,.team-card a:focus-visible{outline:2px solid var(--bbfc-blue);outline-offset:4px}.empty{padding:80px 0;text-align:center}
+  @media(max-width:980px){.archive-grid{grid-template-columns:1fr}.team-card{grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr)}}@media(max-width:760px){.signature-layout{grid-template-columns:1fr;grid-template-areas:'cover' 'copy' 'board'}.signature-cover{min-height:0;aspect-ratio:4/3}.signature-copy{border-left:0}.signature-cta{margin-top:28px}.signature-board{min-height:250px}.team-card{grid-template-columns:1fr 1fr}}@media(max-width:560px){.squad-index{padding:25px 16px 62px}.masthead{align-items:start;gap:18px}.manifesto strong{font-size:11px}.manifesto span{display:none}.intro{font-size:12.5px}.ledger{grid-template-columns:1fr}.ledger>span{justify-content:space-between;border-right:0;border-bottom:1px solid var(--bbfc-border)}.ledger>span:last-child{border-bottom:0}.signature{margin-top:48px}.section-rule>span{display:none}.signature-cover{aspect-ratio:1/1}.signature-copy{padding:26px 20px 25px}.signature h2{font-size:29px}.signature blockquote{font-size:13px}.signature-board{grid-template-columns:110px minmax(0,1fr);min-height:205px}.archive{margin-top:54px}.archive-title{flex-wrap:wrap}.archive-title h2{width:100%}.team-card{grid-template-columns:1fr}.team-visual{aspect-ratio:4/3}.team-copy{min-height:300px}}@media(prefers-reduced-motion:reduce){.signature-cover img,.team-visual img{transition:none}}
+</style>
