@@ -17,8 +17,8 @@ fashionProfile:
   name: '권은비'
   romanName: 'KWON EUN BI'
   portrait: '/images/culture/kwon-eunbi-world-cup/profile.webp'
-  portraitAlt: '검은 드레스를 입고 카메라를 바라보는 권은비의 마리끌레르 화보'
-  portraitCredit: 'Marie Claire Korea, May 2020 · CC BY 3.0 via Wikimedia Commons · cropped'
+  portraitAlt: '2025 워터밤 포토월 앞에서 빨간 체크 크롭 셔츠와 데님 쇼츠를 입은 권은비'
+  portraitCredit: 'Photo: Kwon Eun-bi Instagram via Sports Kyunghyang · cropped'
   birthDate: '1995-09-27'
   nationalities:
     - name: '대한민국'
@@ -134,7 +134,7 @@ fashionProfile:
     <li><a href="https://www.adidas.co.kr/adidas-x-coca-cola-%ED%81%AC%EB%A1%AD-%EC%A0%80%EC%A7%80/KY7571.html">adidas Korea, ADIDAS X COCA-COLA 크롭 저지</a>. 제품 코드 KY7571, 공식 사진과 2026년 8월 31일 표시 가격.</li>
     <li><a href="https://www.adidas.co.kr/adidas-x-coca-cola-%EB%8D%B0%EB%8B%98-%EC%87%BC%EC%B8%A0/KY7564.html">adidas Korea, ADIDAS X COCA-COLA 데님 쇼츠</a>. 제품 코드 KY7564, 공식 사진과 2026년 8월 31일 표시 가격.</li>
     <li><a href="https://www.youtube.com/watch?v=xZWMh5ivk6Q">채널A, “권은비·카리나·윈터, 태극전사 응원 떠났다”</a>, 2026년 6월 9일. 인천공항 출국길의 크롭 티, 와이드 데님과 빨간 백 움직임.</li>
-    <li><a href="https://commons.wikimedia.org/wiki/File:Kwon_Eunbi_for_Marie_Claire_Korea_in_May_2020.png">Marie Claire Korea, 권은비 화보</a>, 2020년 5월. 인물카드 사진, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>, 세로 크롭.</li>
+    <li><a href="https://sports.khan.co.kr/article/202507070543003">스포츠경향, “권은비, 더 과감해졌다…레트로 섹시룩으로 ‘워터밤’ 접수”</a>, 2025년 7월 7일. 권은비 공식 Instagram에 공개된 워터밤 포트레이트, 인물카드 세로 크롭.</li>
     <li><a href="https://weverse.io/kwoneunbi/notice/36672?hl=ko">Weverse, 권은비 공식 SNS 계정 안내</a>, 2026년. 현재 공식 Instagram과 YouTube 채널 확인.</li>
   </ol>
 </div>
