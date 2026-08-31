@@ -107,9 +107,8 @@ fashionProfile:
     </div>
   </article>
   <article class="ls-video">
-    <div class="ls-video__media" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/safzyuZNCGI?autoplay=1&amp;rel=0">
-      <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 리사와 아니타, 레마의 FIFA 월드컵 공식곡 Goals 뮤직비디오 재생"><img src="/images/culture/lisa-nike-football/video-goals.webp" alt="브라운 톱과 노란색 미니스커트를 입은 리사, 아니타와 레마가 보이는 Goals 뮤직비디오 포스터" width="1280" height="720" loading="lazy" decoding="async" /><span><b aria-hidden="true">▶</b> 뮤직비디오 재생</span></button>
-      <div class="inline-video__player" hidden><iframe title="LISA Anitta Rema Goals FIFA 월드컵 2026 공식 뮤직비디오" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="Goals 뮤직비디오 닫기">×</button></div>
+    <div class="ls-video__media">
+      <a class="ls-video__external" href="https://www.youtube.com/watch?v=safzyuZNCGI" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 리사와 아니타, 레마의 FIFA 월드컵 공식곡 Goals 뮤직비디오 보기"><img src="/images/culture/lisa-nike-football/video-goals.webp" alt="브라운 톱과 노란색 미니스커트를 입은 리사, 아니타와 레마가 보이는 Goals 뮤직비디오 포스터" width="1280" height="720" loading="lazy" decoding="async" /><span><b aria-hidden="true">▶</b> YouTube에서 뮤직비디오 보기</span></a>
     </div>
     <div class="ls-video__copy"><span>FIFA SOUND · OFFICIAL MUSIC VIDEO</span><h3>Goals</h3><p>브라운 톱, 노란색 미니스커트와 니하이 부츠로 바뀐 리사의 또 다른 2026 월드컵 룩.</p><a href="https://www.youtube.com/watch?v=safzyuZNCGI" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기</a></div>
   </article>
@@ -161,13 +160,13 @@ Nike와 장기 파트너십을 시작한 리사는 공식 인터뷰에서 패션
   .ls-video--lead .ls-video__copy p { color:var(--bbfc-gray-3); }
   .ls-video__copy a { display:inline-flex; margin-top:16px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }
   .ls-video__media { position:relative; aspect-ratio:16/9; overflow:hidden; background:var(--bbfc-ink); }
-  .ls-video__media>[data-inline-video-poster], .ls-video__media .inline-video__player { position:absolute; inset:0; width:100%; height:100%; }
-  .ls-video__media>[data-inline-video-poster] { margin:0; padding:0; overflow:hidden; border:0; cursor:pointer; background:var(--bbfc-ink); color:var(--bbfc-bg); }
-  .ls-video__media>[data-inline-video-poster] img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease,filter .5s ease; }
-  .ls-video__media>[data-inline-video-poster]:hover img { transform:scale(1.025); filter:saturate(1.08); }
-  .ls-video__media>[data-inline-video-poster]::after { content:''; position:absolute; inset:0; background:linear-gradient(180deg,transparent 55%,color-mix(in srgb,var(--bbfc-ink) 82%,transparent)); }
-  .ls-video__media>[data-inline-video-poster]>span { position:absolute; z-index:1; right:13px; bottom:13px; display:flex; align-items:center; gap:8px; padding:7px 11px 7px 7px; border:1px solid color-mix(in srgb,var(--bbfc-bg) 56%,transparent); border-radius:999px; background:color-mix(in srgb,var(--bbfc-ink) 80%,transparent); color:var(--bbfc-bg); font-size:12px; font-weight:500; backdrop-filter:blur(8px); }
-  .ls-video__media>[data-inline-video-poster] b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--bbfc-bg); color:var(--bbfc-blue); font-size:12px; }
+  .ls-video__media>[data-inline-video-poster], .ls-video__media>.ls-video__external, .ls-video__media .inline-video__player { position:absolute; inset:0; width:100%; height:100%; }
+  .ls-video__media>[data-inline-video-poster], .ls-video__media>.ls-video__external { margin:0; padding:0; overflow:hidden; border:0; cursor:pointer; background:var(--bbfc-ink); color:var(--bbfc-bg); }
+  .ls-video__media>[data-inline-video-poster] img, .ls-video__media>.ls-video__external img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease,filter .5s ease; }
+  .ls-video__media>[data-inline-video-poster]:hover img, .ls-video__media>.ls-video__external:hover img { transform:scale(1.025); filter:saturate(1.08); }
+  .ls-video__media>[data-inline-video-poster]::after, .ls-video__media>.ls-video__external::after { content:''; position:absolute; inset:0; background:linear-gradient(180deg,transparent 55%,color-mix(in srgb,var(--bbfc-ink) 82%,transparent)); }
+  .ls-video__media>[data-inline-video-poster]>span, .ls-video__media>.ls-video__external>span { position:absolute; z-index:1; right:13px; bottom:13px; display:flex; align-items:center; gap:8px; padding:7px 11px 7px 7px; border:1px solid color-mix(in srgb,var(--bbfc-bg) 56%,transparent); border-radius:999px; background:color-mix(in srgb,var(--bbfc-ink) 80%,transparent); color:var(--bbfc-bg); font-size:12px; font-weight:500; backdrop-filter:blur(8px); }
+  .ls-video__media>[data-inline-video-poster] b, .ls-video__media>.ls-video__external b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--bbfc-bg); color:var(--bbfc-blue); font-size:12px; }
   .ls-video__media iframe { display:block; width:100%; height:100%; border:0; background:var(--bbfc-ink); }
   .ls-video__media .inline-video__close { position:absolute; z-index:2; top:10px; right:10px; display:grid; width:38px; height:38px; padding:0; place-items:center; border:1px solid color-mix(in srgb,var(--bbfc-bg) 56%,transparent); border-radius:50%; cursor:pointer; background:color-mix(in srgb,var(--bbfc-ink) 82%,transparent); color:var(--bbfc-bg); font-size:24px; line-height:1; }
   @keyframes ls-scan { from { transform:translateX(-125%); } to { transform:translateX(610%); } }
@@ -183,5 +182,5 @@ Nike와 장기 파트너십을 시작한 리사는 공식 인터뷰에서 패션
     .ls-sketch figcaption, .ls-detail figcaption, .ls-skirt figcaption { font-size:11px; line-height:1.58; }
     .ls-video__copy { padding:20px 18px 22px; }
   }
-  @media (prefers-reduced-motion:reduce) { .ls-look-index__scan { display:none; animation:none; } .ls-video__media>[data-inline-video-poster] img { transition:none; } .ls-enter { animation:none; } }
+  @media (prefers-reduced-motion:reduce) { .ls-look-index__scan { display:none; animation:none; } .ls-video__media>[data-inline-video-poster] img, .ls-video__media>.ls-video__external img { transition:none; } .ls-enter { animation:none; } }
 </style>
