@@ -4,7 +4,7 @@
 ## 현재 운영 상태
 
 - 기준 브랜치는 `main`, 공개 주소는 `https://bbingefc.com`과 `https://bbinge-fc.pages.dev`다. 문서에 적힌 과거 SHA를 현재값으로 믿지 말고 `git fetch origin`, `git status --short --branch`, `git log -10 --oneline`, 공개 `/deploy.json`으로 실제 상태를 확인한다.
-- 최근 축디는 `태연 대한민국 축구 유니폼: 보라색 어웨이 9번과 축구화`와 `올리비아 로드리고 바르셀로나 유니폼: 엘클라시코 협업 디자인`이다. 다음 축디 주제는 운영자와 새로 선정한다.
+- 최신 축디는 `리사 나이키 축구 패션: 2026 월드컵 캠페인과 머큐리얼 드레스`다. 직전 글은 태연의 대한민국 보라색 어웨이 유니폼과 올리비아 로드리고의 FC 바르셀로나 협업 디자인이다. 다음 축디 주제는 운영자와 새로 선정한다.
 - 태연 글의 영상 소제목은 `영상으로 보는 태연의 보라색 어웨이 유니폼`으로 교정됐다. 존댓말을 유치한 설명으로 해석하지 않으며, 자명한 문장·가짜 친근함·일반 연예기사 문체를 쓰지 않는다.
 
 ## 새 세션이 놓치면 안 되는 편집 판단
@@ -21,6 +21,16 @@
 - 단순 문구 수정은 HANDOFF에 새 기록을 계속 쌓지 않는다. 현재 상태·운영 절차·다음 우선순위가 바뀐 경우에만 이 브리프와 최신 기록을 갱신한다.
 
 <!-- CURRENT-BRIEF:END -->
+
+---
+
+## 2026-08-31 리사 Nike Football 머큐리얼 드레스 축디 발행
+
+- `/culture/lisa-nike-football-mercurial-dress-world-cup/`을 추가했다. 검색 제목은 `리사 나이키 축구 패션: 2026 월드컵 캠페인과 머큐리얼 드레스`이며, Nike Football의 `Rip the Script` 캠페인과 머큐리얼 베이퍼 17을 해체해 만든 IWANNABANGKOK·Nan Nist의 커스텀 드레스를 연결한다.
+- 표지는 얼굴·핑크색 갑피 드레스·은색 Nike 축구공이 함께 보이는 1600×900 컷, 목록은 Nike 공식 캠페인의 별도 900×900 인물 컷, 프로필은 Nike 공식 전신 사진을 사용했다. 스케치·갑피·끈·밑창·토 박스 상세 4장도 로컬 WebP로 최적화해 표지와 본문 이미지의 역할을 분리했다.
+- 본문은 축구화 부품 4단 인덱스, 디자인 스케치, 상의와 스커트의 소재 해부, Nike Football 출연진, 구매 욕망으로 이어지는 머큐리얼 실루엣 순서로 편집했다. 스캔 라인과 진입 모션은 전역 토큰을 사용하며 `prefers-reduced-motion`에서 멈춘다.
+- Nike Football의 `Rip the Script`와 FIFA 공식곡 `Goals` 뮤직비디오를 클릭 후 로드하는 영상 카드로 넣었다. 초기에는 로컬 포스터만 표시하고 재생할 때 `youtube-nocookie.com` iframe을 만들며 닫으면 `src`를 제거한다.
+- `npm.cmd run test:writing-rules`, `npm.cmd run validate:writing`, `npm.cmd run validate:risk-gate`, `npm.cmd run build`를 통과했다. 380·768·1440px에서 가로 넘침 0과 반응형 열 전환을 확인했고, 공식 영상 재생·닫기와 콘솔 오류 0도 실제로 검증했다. 진입 애니메이션이 중앙 정렬의 `transform`을 덮어 모바일 가로 스크롤을 만들던 문제는 개별 `translate` 속성으로 교정했다.
 
 ---
 
