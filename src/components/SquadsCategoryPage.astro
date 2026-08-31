@@ -19,6 +19,25 @@ const fallback:Profile = { era:'BEST XI', shape:'XI', depth:'SELECTED BY BBINGE'
 const signature = entries.find((entry) => entry.id === 'grande-inter-best-xi') ?? entries[0];
 const archive = entries.filter((entry) => entry.id !== signature?.id);
 const signatureProfile = signature ? (profiles[signature.id] ?? fallback) : undefined;
+const countryMeta = {
+  germany: { label:'독일 연방 공화국', flag:'🇩🇪' },
+  spain: { label:'스페인 왕국', flag:'🇪🇸' },
+  italy: { label:'이탈리아 공화국', flag:'🇮🇹' },
+} as const;
+type CountryKey = keyof typeof countryMeta;
+const countryFor:Record<string,CountryKey> = {
+  'bayer-leverkusen-all-time-best-xi':'germany',
+  'borussia-dortmund-all-time-best-xi':'germany',
+  'borussia-monchengladbach-all-time-best-xi':'germany',
+  'bayern-munich-all-time-best-xi':'germany',
+  'real-madrid-death-squad-best-xi':'spain',
+  'grande-inter-best-xi':'italy',
+};
+const countryOrder:CountryKey[] = ['germany','spain','italy'];
+const countryGroups = countryOrder.map((country) => ({
+  country,
+  entries:archive.filter((entry) => countryFor[entry.id] === country),
+})).filter((group) => group.entries.length > 0);
 ---
 
 <div class="squad-index">
@@ -55,24 +74,30 @@ const signatureProfile = signature ? (profiles[signature.id] ?? fallback) : unde
 
   {archive.length > 0 && (
     <section class="archive" aria-labelledby="archive-title">
-      <div class="section-rule archive-title"><p>THE TEAM FILES</p><h2 id="archive-title">나머지 열한 명</h2><span>{String(archive.length).padStart(2,'0')}</span></div>
-      <div class="archive-grid">
-        {archive.map((entry,index) => {
-          const profile = profiles[entry.id] ?? fallback;
-          return <article class="team-card">
-            <a class="team-visual" href={hrefFor(entry)}>
-              {imageFor(entry) && <img src={imageFor(entry)} alt={entry.data.coverImageAlt ?? ''} loading="lazy" />}
-              <span class="number">{String(index+2).padStart(2,'0')}</span><span class="shape">{profile.shape}</span>
-            </a>
-            <div class="team-copy">
-              <p class="team-meta"><span>{profile.file}</span><span>{profile.era}</span></p>
-              <h3><a href={hrefFor(entry)}>{entry.data.title}</a></h3>
-              <p class="team-description">{entry.data.description}</p>
-              <div class="team-footer"><span>{profile.depth}</span><a href={hrefFor(entry)} aria-label={`${entry.data.title} 읽기`}>열기 <b aria-hidden="true">→</b></a></div>
-            </div>
-          </article>;
-        })}
-      </div>
+      <div class="section-rule archive-title"><p>THE TEAM FILES</p><h2 id="archive-title">나라별 열한 명</h2><span>{String(archive.length).padStart(2,'0')}</span></div>
+      {countryGroups.map((group) => (
+        <section class="country-group" aria-labelledby={`country-${group.country}`}>
+          <header><h3 id={`country-${group.country}`}>{countryMeta[group.country].label} <span aria-hidden="true">{countryMeta[group.country].flag}</span></h3><p>{String(group.entries.length).padStart(2,'0')} SQUAD FILES</p></header>
+          <div class="archive-grid">
+            {group.entries.map((entry) => {
+              const profile = profiles[entry.id] ?? fallback;
+              const index = archive.findIndex((item) => item.id === entry.id);
+              return <article class="team-card">
+                <a class="team-visual" href={hrefFor(entry)}>
+                  {imageFor(entry) && <img src={imageFor(entry)} alt={entry.data.coverImageAlt ?? ''} loading="lazy" />}
+                  <span class="number">{String(index+2).padStart(2,'0')}</span><span class="shape">{profile.shape}</span>
+                </a>
+                <div class="team-copy">
+                  <p class="team-meta"><span>{profile.file}</span><span>{profile.era}</span></p>
+                  <h3><a href={hrefFor(entry)}>{entry.data.title}</a></h3>
+                  <p class="team-description">{entry.data.description}</p>
+                  <div class="team-footer"><span>{profile.depth}</span><a href={hrefFor(entry)} aria-label={`${entry.data.title} 읽기`}>열기 <b aria-hidden="true">→</b></a></div>
+                </div>
+              </article>;
+            })}
+          </div>
+        </section>
+      ))}
     </section>
   )}
 </div>
@@ -80,6 +105,6 @@ const signatureProfile = signature ? (profiles[signature.id] ?? fallback) : unde
 <style>
   .squad-index{max-width:1180px;margin:0 auto;padding:34px 20px 82px}.masthead{display:flex;align-items:end;justify-content:space-between;gap:32px;padding-bottom:23px;border-bottom:3px solid var(--bbfc-ink)}.masthead>div>p{color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.16em}.masthead h1{margin-top:7px;font-size:clamp(54px,8vw,94px);line-height:.86;font-weight:840;letter-spacing:-.075em}.manifesto{display:grid;justify-items:end;text-align:right}.manifesto strong{font-size:17px;line-height:1.04}.manifesto span{margin-top:9px;color:var(--bbfc-gray-2);font-size:11px}.intro{margin:20px 0 25px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.82;text-wrap:pretty}.ledger{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--bbfc-ink)}.ledger>span{display:flex;align-items:baseline;gap:11px;padding:13px 16px;border-right:1px solid var(--bbfc-border)}.ledger>span:last-child{border-right:0}.ledger b{color:var(--bbfc-blue);font-size:22px;font-weight:820}.ledger small{color:var(--bbfc-gray-2);font-size:11px;font-weight:760;letter-spacing:.1em}
   .signature{margin-top:56px}.section-rule{display:flex;align-items:baseline;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--bbfc-ink)}.section-rule p{color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.14em}.section-rule>span{margin-left:auto;color:var(--bbfc-gray-2);font-size:11px}.signature-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(330px,.78fr);margin-top:20px;border-bottom:1px solid var(--bbfc-ink)}.signature-cover{position:relative;display:block;min-height:570px;overflow:hidden;background:var(--bbfc-fill)}.signature-cover:after,.team-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 54%,rgba(7,12,20,.68));pointer-events:none}.signature-cover img,.team-visual img{width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.22,1,.36,1)}.signature-cover>span{position:absolute;z-index:1;left:20px;bottom:18px;color:white;font-size:11px;font-weight:780;letter-spacing:.15em}.signature-copy{display:flex;flex-direction:column;padding:32px 34px;background:var(--bbfc-fill);border-left:1px solid var(--bbfc-border)}.signature-meta{display:flex;justify-content:space-between;gap:16px;color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.12em}.signature h2{margin-top:18px;font-size:clamp(28px,3.2vw,43px);line-height:1.13;font-weight:790;letter-spacing:-.05em;text-wrap:balance}.signature-copy>p{margin-top:18px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.78}.signature blockquote{margin:25px 0 0;padding:18px 0;border-block:1px solid var(--bbfc-border);border-top-color:var(--bbfc-ink);color:var(--bbfc-ink-2);font-size:14px;line-height:1.75;font-weight:670}.signature dl{margin:20px 0 0}.signature dl div{display:grid;grid-template-columns:83px minmax(0,1fr);gap:10px;padding:8px 0;border-bottom:1px solid var(--bbfc-border)}.signature dt{color:var(--bbfc-gray-2);font-size:11px;font-weight:760}.signature dd{margin:0;color:var(--bbfc-ink-2);font-size:11.5px;line-height:1.5;font-weight:650}.signature-cta{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:auto;padding-top:24px;font-size:14px;font-weight:780}.signature-cta i{display:grid;width:40px;height:40px;place-items:center;border-radius:50%;background:var(--bbfc-blue);color:white;font-size:18px;font-style:normal}
-  .archive{margin-top:66px}.archive-title h2{font-size:24px;font-weight:750}.archive-title>span{font-weight:760;letter-spacing:.12em}.archive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px 22px;margin-top:24px}.team-card{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);min-height:320px;border-bottom:1px solid var(--bbfc-ink)}.team-visual{position:relative;display:block;min-height:100%;overflow:hidden;background:var(--bbfc-ink)}.number,.shape{position:absolute;z-index:1;color:white;font-weight:800}.number{top:14px;left:14px;font-size:11px}.shape{right:14px;bottom:13px;font-size:17px}.team-copy{display:flex;flex-direction:column;padding:20px 20px 17px;border:1px solid var(--bbfc-border);border-bottom:0}.team-meta{display:flex;justify-content:space-between;gap:10px;color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.09em}.team-card h3{margin-top:15px;font-size:21px;line-height:1.28;font-weight:750;letter-spacing:-.035em;text-wrap:balance}.team-description{margin-top:13px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.team-footer{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:auto;padding-top:18px;color:var(--bbfc-gray-2);font-size:11px;font-weight:720}.team-footer>a{flex:0 0 auto;color:var(--bbfc-ink);border-bottom:1px solid var(--bbfc-ink)}.team-footer b{color:var(--bbfc-blue);font-size:15px}.signature-cover:hover img,.team-card:hover .team-visual img{transform:scale(1.02)}.signature a:focus-visible,.team-card a:focus-visible{outline:2px solid var(--bbfc-blue);outline-offset:4px}.empty{padding:80px 0;text-align:center}
-  @media(max-width:980px){.archive-grid{grid-template-columns:1fr}.team-card{grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr)}}@media(max-width:760px){.signature-layout{grid-template-columns:1fr}.signature-cover{min-height:0;aspect-ratio:4/3}.signature-copy{border-left:0}.signature-cta{margin-top:28px}.team-card{grid-template-columns:1fr 1fr}}@media(max-width:560px){.squad-index{padding:25px 16px 62px}.masthead{align-items:start;gap:18px}.manifesto strong{font-size:11px}.manifesto span{display:none}.intro{font-size:12.5px}.ledger{grid-template-columns:1fr}.ledger>span{justify-content:space-between;border-right:0;border-bottom:1px solid var(--bbfc-border)}.ledger>span:last-child{border-bottom:0}.signature{margin-top:48px}.section-rule>span{display:none}.signature-cover{aspect-ratio:1/1}.signature-copy{padding:26px 20px 25px}.signature h2{font-size:29px}.signature blockquote{font-size:13px}.archive{margin-top:54px}.archive-title{flex-wrap:wrap}.archive-title h2{width:100%}.team-card{grid-template-columns:1fr}.team-visual{aspect-ratio:4/3}.team-copy{min-height:300px}}@media(prefers-reduced-motion:reduce){.signature-cover img,.team-visual img{transition:none}}
+  .archive{margin-top:66px}.archive-title h2{font-size:24px;font-weight:750}.archive-title>span{font-weight:760;letter-spacing:.12em}.country-group{margin-top:38px}.country-group>header{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding-bottom:13px;border-bottom:2px solid var(--bbfc-ink)}.country-group>header h3{font-size:25px;font-weight:780;letter-spacing:-.04em}.country-group>header h3 span{margin-left:5px;font-size:.8em;letter-spacing:0}.country-group>header p{color:var(--bbfc-gray-2);font-size:11px;font-weight:760;letter-spacing:.1em}.archive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px 22px;margin-top:24px}.team-card{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);min-height:320px;border-bottom:1px solid var(--bbfc-ink)}.team-visual{position:relative;display:block;min-height:100%;overflow:hidden;background:var(--bbfc-ink)}.number,.shape{position:absolute;z-index:1;color:white;font-weight:800}.number{top:14px;left:14px;font-size:11px}.shape{right:14px;bottom:13px;font-size:17px}.team-copy{display:flex;flex-direction:column;padding:20px 20px 17px;border:1px solid var(--bbfc-border);border-bottom:0}.team-meta{display:flex;justify-content:space-between;gap:10px;color:var(--bbfc-blue);font-size:11px;font-weight:780;letter-spacing:.09em}.team-card h3{margin-top:15px;font-size:21px;line-height:1.28;font-weight:750;letter-spacing:-.035em;text-wrap:balance}.team-description{margin-top:13px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.team-footer{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:auto;padding-top:18px;color:var(--bbfc-gray-2);font-size:11px;font-weight:720}.team-footer>a{flex:0 0 auto;color:var(--bbfc-ink);border-bottom:1px solid var(--bbfc-ink)}.team-footer b{color:var(--bbfc-blue);font-size:15px}.signature-cover:hover img,.team-card:hover .team-visual img{transform:scale(1.02)}.signature a:focus-visible,.team-card a:focus-visible{outline:2px solid var(--bbfc-blue);outline-offset:4px}.empty{padding:80px 0;text-align:center}
+  @media(max-width:980px){.archive-grid{grid-template-columns:1fr}.team-card{grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr)}}@media(max-width:760px){.signature-layout{grid-template-columns:1fr}.signature-cover{min-height:0;aspect-ratio:4/3}.signature-copy{border-left:0}.signature-cta{margin-top:28px}.team-card{grid-template-columns:1fr 1fr}}@media(max-width:560px){.squad-index{padding:25px 16px 62px}.masthead{align-items:start;gap:18px}.manifesto strong{font-size:11px}.manifesto span{display:none}.intro{font-size:12.5px}.ledger{grid-template-columns:1fr}.ledger>span{justify-content:space-between;border-right:0;border-bottom:1px solid var(--bbfc-border)}.ledger>span:last-child{border-bottom:0}.signature{margin-top:48px}.section-rule>span{display:none}.signature-cover{aspect-ratio:1/1}.signature-copy{padding:26px 20px 25px}.signature h2{font-size:29px}.signature blockquote{font-size:13px}.archive{margin-top:54px}.archive-title{flex-wrap:wrap}.archive-title h2{width:100%}.country-group{margin-top:32px}.country-group>header h3{font-size:21px}.country-group>header p{font-size:11px}.team-card{grid-template-columns:1fr}.team-visual{aspect-ratio:4/3}.team-copy{min-height:300px}}@media(prefers-reduced-motion:reduce){.signature-cover img,.team-visual img{transition:none}}
 </style>
