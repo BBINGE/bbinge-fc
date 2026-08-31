@@ -1,3 +1,14 @@
+## 2026-08-31 태연 대한민국 보라색 어웨이 유니폼 축디 발행
+
+- `/culture/taeyeon-korea-away-jersey-number-9-football-boots/`을 추가했다. 검색 제목은 `태연 대한민국 축구 유니폼: 보라색 어웨이 9번과 축구화`이며, 대한민국 2026 어웨이 셔츠의 무궁화 패턴과 `TAEYEON 9` 커스텀 마킹, 검정 쇼츠, Nike Phantom 6 Low의 Racer Blue/White/Pink Blast 배색을 한 착장으로 연결한다.
+- 태연 공식 Instagram 게시물의 3072×4096급 원본 4장을 직접 확보해 얼굴·전신·축구화·촬영 현장으로 나눴다. 표지는 웃는 얼굴과 셔츠가 함께 잡힌 1600×900 크롭, 목록은 별도 800×800 크롭이며, 생성형 보정 없이 인물과 유니폼 문장을 보존했다. Nike 공식 제품 앞·뒤 이미지도 로컬 WebP로 최적화했다.
+- 인물 프로필 카드는 유니폼 사진을 반복하지 않는다. `Panorama : The Best of TAEYEON`의 SM Entertainment 제공 클로즈업을 720×900으로 편집해 표지는 오늘의 착장, 목록은 클릭 입구, 프로필은 태연의 인물 식별이라는 서로 다른 역할을 갖는다.
+- 본문은 공식 실착 2열 오프닝, 무궁화·마킹·축구화 3단 신호 모듈, Nike 앞·뒤 제품 카드, 전신과 축구화 확대, 촬영 스태프까지 보이는 와이드 현장 컷으로 구성했다. 색상은 전역 `--bbfc-*` 토큰만 사용하고 스캔 빔·카드 부유·포스터 확대 모션은 `prefers-reduced-motion`에서 모두 멈춘다.
+- TAEYEON Official YouTube의 `탱구의 불꽃 축구 입덕기 (w/ 민호)`를 클릭 후 불러오는 영상 카드로 넣었다. 초기에는 로컬 포스터만 표시하고 재생 시 `youtube-nocookie.com` iframe을 생성하며, 닫으면 `src`를 제거한다. 공식 원문 링크도 유지한다.
+- `npm.cmd run test:writing-rules`, `npm.cmd run validate:writing`, `npm.cmd run validate:risk-gate`, `npm.cmd run build`를 통과했다. 로컬 380·768·1440px에서 가로 넘침 0, 이미지 16개 전부 로딩, 모바일 1열·태블릿/PC 다열 전환, 비유니폼 프로필 사진을 확인했다. 영상 재생·닫기 뒤 iframe 생성·제거와 콘솔 오류 0도 실제로 검증했다.
+
+---
+
 ## 2026-08-31 올리비아 로드리고 × FC 바르셀로나 엘클라시코 축디 발행
 
 - `/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/`을 추가했다. 검색 제목은 `올리비아 로드리고 바르셀로나 유니폼: 엘클라시코 협업 디자인`이며, OR 나비 로고가 들어간 2025/26 홈 셔츠를 `RODRIGO 27` 마킹, 여자팀의 선착용, 2003/04 레트로 셔츠, 라이프스타일 컬렉션과 Billions Club Live까지 연결한다.
