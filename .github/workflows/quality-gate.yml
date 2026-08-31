@@ -21,6 +21,10 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      - name: Test editorial writing rules
+        run: npm run test:writing-rules
+      - name: Validate editorial writing
+        run: npm run validate:writing
       - name: Test player archive rules
         run: npm run test:player-rules
       - name: Validate player archives

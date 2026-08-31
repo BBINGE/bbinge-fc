@@ -1,0 +1,291 @@
+import { readdir, readFile } from 'node:fs/promises';
+import path from 'node:path';
+
+const root = path.resolve(import.meta.dirname, '..');
+const contentRoots = [
+  path.resolve(root, 'src/content/articles'),
+  path.resolve(root, 'src/content/archive'),
+];
+
+const processMetaPatterns = [
+  '운영자 제공',
+  '운영자 제작',
+  '직접 선별',
+  'AI 작업',
+  'AI가 작성',
+  '자료를 찾아보니',
+  '조사해보니',
+  '조사 과정에서',
+  '사진을 확보',
+  '이미지를 확보',
+  '저작권을 검토',
+  '원고를 바탕으로',
+  '개정판에서 수정',
+];
+
+const commonForeignNoteTerms = [
+  '추가시간',
+  '추가 시간',
+  '손실 시간',
+  '인저리 타임',
+  'VAR',
+  '오프사이드',
+  '페널티킥',
+  'AC 밀란',
+  '레알 마드리드',
+  '리버풀',
+  '맨체스터 유나이티드',
+  '맨체스터 시티',
+  '바이에른 뮌헨',
+];
+
+const connectiveOpening = /^(?:그러나|하지만|다만|그래서|따라서|그럼에도|반면|한편|실제로|이후|이때|동시에|결국|즉|또한|그러면서|그런데|마침|그제야|반대로|그 사이|이 과정|때문에)/;
+
+const integrationRequirements = new Map([
+  ['EDITORIAL_WRITING_RULES.md', [
+    'VOICE-OWNER',
+    'HEADING-NO-FORCED-CONTRAST',
+    'PROSE-FLOW',
+    'FOREIGN-NOTE-SELECTIVE',
+    'NO-PROCESS-META',
+    'WRITING-GATE-1',
+  ]],
+  ['AGENTS.md', ['EDITORIAL_WRITING_RULES.md', 'npm run test:writing-rules', 'npm run validate:writing']],
+  ['CLAUDE.md', ['EDITORIAL_WRITING_RULES.md', 'npm run test:writing-rules']],
+  ['HANDOFF.md', ['EDITORIAL_WRITING_RULES.md', 'validate-editorial-writing.mjs']],
+  ['package.json', ['validate:writing', 'test:writing-rules', 'validate-editorial-writing.mjs']],
+  ['.github/workflows/quality-gate.yml', ['npm run test:writing-rules', 'npm run validate:writing']],
+]);
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function preserveLinesWithoutFrontmatter(source) {
+  return source.replace(/^---[\s\S]*?---(?=\s|$)/, (frontmatter) => frontmatter.replace(/[^\n]/g, ' '));
+}
+
+function visibleText(value) {
+  return value
+    .replace(/<!--[\s\S]*?-->/g, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/[`*_~]/g, '')
+    .replace(/&[a-zA-Z#0-9]+;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function lineAt(source, index) {
+  return source.slice(0, index).split('\n').length;
+}
+
+function sentenceParts(text) {
+  return (text.match(/[^.!?]+(?:[.!?]+|$)/g) ?? [])
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+}
+
+function letterCount(text) {
+  return (text.match(/[가-힣A-Za-z0-9]/g) ?? []).length;
+}
+
+function isShortSentence(sentence, maximum = 30) {
+  const length = letterCount(sentence);
+  return length >= 6 && length <= maximum;
+}
+
+function staccatoIssues(body, relative) {
+  const issues = [];
+  const withoutCode = body
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
+  const blockPattern = /(?:^|\n\s*\n)([\s\S]*?)(?=\n\s*\n|$)/g;
+  const shortParagraphRun = [];
+
+  for (const match of withoutCode.matchAll(blockPattern)) {
+    const rawBlock = match[1].trim();
+    const startIndex = match.index + match[0].indexOf(match[1]);
+    const excluded = !rawBlock
+      || /^(?:#{1,6}\s|[-*+]\s|\d+[.)]\s|>|\||:::)/.test(rawBlock)
+      || /<(?:section|div|figure|figcaption|aside|article|header|footer|ul|ol|li|table|style|script|iframe|details|summary)\b/i.test(rawBlock);
+
+    if (excluded) {
+      shortParagraphRun.length = 0;
+      continue;
+    }
+
+    const text = visibleText(rawBlock.replace(/^<p\b[^>]*>|<\/p>$/gi, ''));
+    const sentences = sentenceParts(text);
+
+    let sentenceRun = [];
+    sentences.forEach((sentence, index) => {
+      if (!isShortSentence(sentence) || (sentenceRun.length > 0 && connectiveOpening.test(sentence))) {
+        sentenceRun = isShortSentence(sentence) ? [sentence] : [];
+        return;
+      }
+      sentenceRun.push(sentence);
+      if (sentenceRun.length === 6) {
+        issues.push({
+          code: 'PROSE-FLOW',
+          message: '연결어와 전개 없이 짧은 문장 6개가 연속됩니다. 원인·장면·결과가 한 흐름으로 읽히도록 연결하십시오.',
+          line: lineAt(body, startIndex),
+          relative,
+        });
+      }
+      if (index === sentences.length - 1 && sentenceRun.length > 6) sentenceRun.shift();
+    });
+
+    const isSingleShortParagraph = sentences.length === 1 && isShortSentence(sentences[0], 38);
+    if (isSingleShortParagraph) {
+      shortParagraphRun.push({ line: lineAt(body, startIndex), text });
+      if (shortParagraphRun.length === 5) {
+        issues.push({
+          code: 'PROSE-FLOW',
+          message: '짧은 한 문장짜리 문단 5개가 연속됩니다. 리듬용 단문을 줄이고 문단 안의 관계를 연결하십시오.',
+          line: shortParagraphRun[0].line,
+          relative,
+        });
+      }
+      if (shortParagraphRun.length > 5) shortParagraphRun.shift();
+    } else {
+      shortParagraphRun.length = 0;
+    }
+  }
+
+  return issues;
+}
+
+function validateSource(source, relative = 'fixture.md') {
+  const body = preserveLinesWithoutFrontmatter(source);
+  const issues = [];
+
+  for (const phrase of processMetaPatterns) {
+    let index = source.indexOf(phrase);
+    while (index !== -1) {
+      issues.push({
+        code: 'NO-PROCESS-META',
+        message: `공개 원고에 내부 제작 과정 '${phrase}'이 남아 있습니다.`,
+        line: lineAt(source, index),
+        relative,
+      });
+      index = source.indexOf(phrase, index + phrase.length);
+    }
+  }
+
+  const headings = [];
+  for (const match of body.matchAll(/^#{2,4}\s+(.+)$/gm)) {
+    headings.push({ text: visibleText(match[1]), index: match.index });
+  }
+  for (const match of body.matchAll(/<h([2-4])\b[^>]*>([\s\S]*?)<\/h\1>/gi)) {
+    headings.push({ text: visibleText(match[2]), index: match.index });
+  }
+
+  for (const heading of headings) {
+    if (/(?:이|가|은|는)\s+아니라(?:[\s,]|$)/.test(heading.text)
+      || /이전이\s+아니라(?:[\s,]|$)/.test(heading.text)) {
+      issues.push({
+        code: 'HEADING-NO-FORCED-CONTRAST',
+        message: `대비형 소제목 '${heading.text}'을 장면·쟁점 중심 표현으로 바꾸십시오.`,
+        line: lineAt(body, heading.index),
+        relative,
+      });
+    }
+  }
+
+  for (const term of commonForeignNoteTerms) {
+    const pattern = new RegExp(`${escapeRegExp(term)}\\s*<span\\b[^>]*class=["'][^"']*foreign-note`, 'gi');
+    for (const match of body.matchAll(pattern)) {
+      issues.push({
+        code: 'FOREIGN-NOTE-SELECTIVE',
+        message: `대중적인 용어·구단 '${term}'에 불필요한 원어 풀이가 붙었습니다.`,
+        line: lineAt(body, match.index),
+        relative,
+      });
+    }
+  }
+
+  issues.push(...staccatoIssues(body, relative));
+  return issues;
+}
+
+async function markdownFiles(directory) {
+  const entries = await readdir(directory, { withFileTypes: true });
+  const nested = await Promise.all(entries.map(async (entry) => {
+    const target = path.join(directory, entry.name);
+    if (entry.isDirectory()) return markdownFiles(target);
+    return entry.isFile() && entry.name.endsWith('.md') ? [target] : [];
+  }));
+  return nested.flat();
+}
+
+function runSelfTest() {
+  const fixtures = [
+    ['대비형 소제목', '## 스타가 아니라 시스템이었다\n\n본문입니다.', 'HEADING-NO-FORCED-CONTRAST'],
+    ['제작 과정', '자료를 찾아보니 이 기록이 나왔다.', 'NO-PROCESS-META'],
+    ['대중 용어 원어 풀이', '추가시간<span class="foreign-note" lang="en">(additional time)</span>은 주심이 정한다.', 'FOREIGN-NOTE-SELECTIVE'],
+    ['짧은 문단 연타', '경기가 다시 시작됐다.\n\n관중은 시계를 바라봤다.\n\n벤치는 항의를 이어갔다.\n\n주심은 손목을 가리켰다.\n\n휘슬은 아직 울리지 않았다.', 'PROSE-FLOW'],
+  ];
+
+  for (const [label, source, expectedCode] of fixtures) {
+    if (!validateSource(source).some((issue) => issue.code === expectedCode)) {
+      console.error(`글쓰기 규칙 자체 시험 실패: ${label} 위반을 차단하지 못했습니다.`);
+      process.exit(1);
+    }
+  }
+
+  const allowed = [
+    '## 이것만 보시면 됩니다\n\n공식 타임라인에는 표시 뒤에 발생한 교체와 득점이 함께 남아 있다.',
+    '## 빨강과 검정 사이, 어떤 장면을 먼저 입고 싶을까요?\n\n솔직히, 이건 못 참지 ㅋㅋ. 다만 캠페인의 핵심은 재킷과 셔츠가 겹치는 방식에 있다.',
+  ];
+  for (const source of allowed) {
+    const issues = validateSource(source);
+    if (issues.length > 0) {
+      console.error(`글쓰기 규칙 자체 시험 실패: 허용 문장을 오탐했습니다. ${issues.map((issue) => issue.code).join(', ')}`);
+      process.exit(1);
+    }
+  }
+
+  console.log('글쓰기 규칙 자체 시험 통과');
+}
+
+if (process.argv.includes('--self-test')) {
+  runSelfTest();
+  process.exit(0);
+}
+
+const failures = [];
+for (const [relativePath, markers] of integrationRequirements) {
+  const source = await readFile(path.resolve(root, relativePath), 'utf8');
+  for (const marker of markers) {
+    if (!source.includes(marker)) {
+      failures.push({
+        relative: relativePath,
+        line: 1,
+        code: 'WRITING-GATE-1',
+        message: `필수 규약 연결 또는 표식 '${marker}'이 누락됐습니다.`,
+      });
+    }
+  }
+}
+
+for (const contentRoot of contentRoots) {
+  for (const file of await markdownFiles(contentRoot)) {
+    const source = await readFile(file, 'utf8');
+    const relative = path.relative(root, file);
+    failures.push(...validateSource(source, relative));
+  }
+}
+
+if (failures.length > 0) {
+  console.error('삥이FC 글쓰기 규칙 검수 실패');
+  failures.forEach((failure) => {
+    console.error(`- ${failure.relative}:${failure.line} [${failure.code}] ${failure.message}`);
+  });
+  console.error('\n발행 중단: 원고와 규약 연결을 수정한 뒤 npm run test:writing-rules, npm run validate:writing, npm run build를 다시 실행하십시오. 검사 우회는 금지됩니다.');
+  process.exit(1);
+}
+
+console.log('삥이FC 글쓰기 규칙 검수 통과');
+console.log('자동 차단: 제작 과정 노출 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타');

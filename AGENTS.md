@@ -4,10 +4,11 @@
 
 1. `BBINGE_FC_BRIEF.md` — 프로젝트의 단일 설계 기준 (브랜드·구조·성능 원칙)
 2. `CLAUDE.md` — 장기 운영 규칙
-3. `EDITORIAL_RISK_GATE.md` — 저작권·AdSense·이미지·영상 감사의 증거 등급과 금지된 오판
-4. `EDITORIAL_ASSET_POLICY.md` — 콘텐츠·편집물·썸네일·저작권·AdSense 판단 기준
-5. `PLAYER_ARCHIVE_RULES.md` — 선수 인물 아카이브 원고·표기·기록·사진·발행 필수 규칙
-6. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
+3. `EDITORIAL_WRITING_RULES.md` — 전 카테고리 문체·소제목·원어 병기·공개 본문 규칙
+4. `EDITORIAL_RISK_GATE.md` — 저작권·AdSense·이미지·영상 감사의 증거 등급과 금지된 오판
+5. `EDITORIAL_ASSET_POLICY.md` — 콘텐츠·편집물·썸네일·저작권·AdSense 판단 기준
+6. `PLAYER_ARCHIVE_RULES.md` — 선수 인물 아카이브 원고·표기·기록·사진·발행 필수 규칙
+7. `HANDOFF.md` — 현재 구현 상태·운영 방법·남은 작업
 
 저작권, 이미지, 영상, 출처, AdSense, 저가치 콘텐츠, 사이트 위험을 묻거나 감사할 때는 답변 전에 `EDITORIAL_RISK_GATE.md`의 A·B·C 등급을 실제 대상에 적용한다. 구체적 외부 신호가 없는 C등급 가능성을 오류나 수정 과제로 보고하지 않으며, 운영자에게 사진·영상의 필요성과 사이트의 가치를 다시 해명하게 하지 않는다.
 
@@ -33,6 +34,7 @@ npm run validate:risk-gate
 - 확정된 브랜드 문구, 카테고리 구조, 운영자가 작성한 글 본문을 요청 없이 수정하지 않는다.
 - 논의·질문은 구현 승인으로 간주하지 않는다.
 - 저작권·AdSense 감사를 수행하거나 관련 운영 문서를 바꾼 작업은 `npm run validate:risk-gate`를 통과시킨다.
+- 새 글을 쓰거나 기존 원고·소제목·캡션을 수정할 때는 `EDITORIAL_WRITING_RULES.md`를 적용하고 `npm run test:writing-rules`, `npm run validate:writing`을 통과시킨다.
 - CMS(`public/admin/`, `functions/`)를 수정할 때는 Sveltia CMS 설정과 GitHub OAuth 흐름의 호환성을 함께 확인한다.
 - 선수 인물 글을 조사·수정·발행할 때는 `PLAYER_ARCHIVE_RULES.md`의 체크리스트를 생략하지 않는다.
 - 선수 인물 글의 개인 수상·기록·등번호를 수정하기 전에는 카푸와 카카의 같은 섹션을 실제 파일에서 대조한다. `통일`을 새 해설·새 항목을 늘리라는 뜻으로 재해석하지 않는다.
@@ -40,12 +42,13 @@ npm run validate:risk-gate
 
 ## 작업 종료
 
-1. 선수 인물 글이 포함되면 `npm run test:player-rules`와 `npm run validate:players`를 먼저 통과시킨다.
-2. `npm run build`가 성공하는지 확인한다. 이 빌드는 선수 검수 실패 시 즉시 중단되어야 한다.
-3. PC·태블릿·모바일(380px 우선) 화면을 검증한다.
-4. 운영 상태나 절차가 달라졌다면 같은 작업에서 `HANDOFF.md`도 갱신한다.
-5. 한국어 커밋 메시지로 커밋하고 `main`에 push한다.
-6. Cloudflare Pages 배포 결과(https://bbinge-fc.pages.dev)를 확인한다.
+1. 원고 작업이 포함되면 `npm run test:writing-rules`와 `npm run validate:writing`을 먼저 통과시킨다.
+2. 선수 인물 글이 포함되면 `npm run test:player-rules`와 `npm run validate:players`도 통과시킨다.
+3. `npm run build`가 성공하는지 확인한다. 이 빌드는 글쓰기·선수 검수 실패 시 즉시 중단되어야 한다.
+4. PC·태블릿·모바일(380px 우선) 화면을 검증한다.
+5. 운영 상태나 절차가 달라졌다면 같은 작업에서 `HANDOFF.md`도 갱신한다.
+6. 한국어 커밋 메시지로 커밋하고 `main`에 push한다.
+7. Cloudflare Pages 배포 결과(https://bbinge-fc.pages.dev)를 확인한다.
 
 ## 개발 서버
 

@@ -1,6 +1,6 @@
 # BBinge FC — 장기 운영 규칙
 
-Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIEF.md`, `EDITORIAL_RISK_GATE.md`, `EDITORIAL_ASSET_POLICY.md`, `PLAYER_ARCHIVE_RULES.md`, `HANDOFF.md`도 처음부터 끝까지 읽는다. 설계 기준은 브리프가, 저작권·AdSense 감사의 증거 등급과 출력 형식은 `EDITORIAL_RISK_GATE.md`가, 콘텐츠·편집 자산 운영은 `EDITORIAL_ASSET_POLICY.md`가, 선수 인물 아카이브는 `PLAYER_ARCHIVE_RULES.md`가, 현재 구현 상태는 `HANDOFF.md`가 우선하며, 이 파일은 쉽게 바뀌지 않는 운영 원칙을 정의한다.
+Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIEF.md`, `EDITORIAL_WRITING_RULES.md`, `EDITORIAL_RISK_GATE.md`, `EDITORIAL_ASSET_POLICY.md`, `PLAYER_ARCHIVE_RULES.md`, `HANDOFF.md`도 처음부터 끝까지 읽는다. 설계 기준은 브리프가, 전 카테고리 글의 문체·소제목·원어 병기·공개 본문은 `EDITORIAL_WRITING_RULES.md`가, 저작권·AdSense 감사의 증거 등급과 출력 형식은 `EDITORIAL_RISK_GATE.md`가, 콘텐츠·편집 자산 운영은 `EDITORIAL_ASSET_POLICY.md`가, 선수 인물 아카이브는 `PLAYER_ARCHIVE_RULES.md`가, 현재 구현 상태는 `HANDOFF.md`가 우선하며, 이 파일은 쉽게 바뀌지 않는 운영 원칙을 정의한다.
 
 ## 프로젝트와 사용자
 
@@ -46,7 +46,9 @@ Claude와 다른 AI 도구는 이 파일을 읽은 뒤 반드시 `BBINGE_FC_BRIE
 - 인물의 원어 전체 이름은 검색과 확인을 위해 괄호 안에 둘 수 있지만, 한글 이름은 통용되는 약칭을 우선한다. 예: `요나단 타`, `플로리안 비르츠`. 독일어 복합 이름의 한글 음역은 `한스게오르크`, `한스위르겐`, `클라우스디터`, `카를하인츠`처럼 붙여 쓴다. 원어의 하이픈은 그대로 보존한다.
 - 유럽대항전의 역사적 명칭은 대회 시기를 따른다. `UEFA컵`, `유러피언컵`, `유러피언 컵위너스컵`을 사용하며 `UEFA 컵`, `유러피언 컵`, `UEFA 컵위너스컵`, `컵 위너스 컵`으로 쓰지 않는다. 현재 대회는 `UEFA 챔피언스 리그`, `UEFA 유로파 리그`, `UEFA 컨퍼런스 리그`로 쓴다.
 - 국가대표 대회의 정식명은 `UEFA 유러피언 풋볼 챔피언십`(`UEFA European Football Championship`)이며, 본문 통용명은 `UEFA 유로`로 쓴다. 1960·1964년은 당시 명칭 `유러피언 네이션스컵`을 병기할 수 있다. `유럽선수권`, `UEFA 유럽선수권`, `UEFA 유러피언 챔피언십`으로 줄여 쓰지 않는다.
+- 모든 원고는 `EDITORIAL_WRITING_RULES.md`의 운영자 1인칭, 소제목, 문장 흐름, 선택적 원어 병기, 제작 과정 비노출 규칙을 적용한다. 친근한 표현 자체를 금지하지 않되 AI가 운영자의 말투를 지어내지 않는다.
 - 선수 인물 아카이브는 `PLAYER_ARCHIVE_RULES.md`의 제목·원어·기록·등번호·개인 수상·사진·출처·발행 검수 규칙을 모두 적용한다. 운영자가 `올려`, `발행`, `공개`라고 명시하면 검수와 실배포 확인까지 완료한다.
+- 글쓰기 검수 실패 시 원고를 수정한 뒤 `npm run test:writing-rules`, `npm run validate:writing`, `npm run build`를 다시 실행한다. 실패 회피를 위한 검사 완화나 예외 추가는 금지한다.
 - 선수 검수 실패 시 push·배포를 중단한다. 오류가 가리킨 원고·표기·UI 원인을 수정한 뒤 `npm run test:player-rules`, `npm run validate:players`, `npm run build`를 처음부터 다시 실행한다. 스크립트·기준값·빌드 명령을 실패 회피 목적으로 완화하지 않는다.
 
 ## 작업·검증 원칙

@@ -16,10 +16,10 @@ const requirements = new Map([
     'REPORT-CONTRACT',
     'NO ACTION',
   ]],
-  ['AGENTS.md', ['EDITORIAL_RISK_GATE.md', 'npm run validate:risk-gate']],
-  ['CLAUDE.md', ['EDITORIAL_RISK_GATE.md']],
+  ['AGENTS.md', ['EDITORIAL_RISK_GATE.md', 'EDITORIAL_WRITING_RULES.md', 'npm run validate:risk-gate']],
+  ['CLAUDE.md', ['EDITORIAL_RISK_GATE.md', 'EDITORIAL_WRITING_RULES.md']],
   ['EDITORIAL_ASSET_POLICY.md', ['EDITORIAL_RISK_GATE.md']],
-  ['package.json', ['validate:risk-gate', 'validate-editorial-risk-gate.mjs']],
+  ['package.json', ['validate:risk-gate', 'validate-editorial-risk-gate.mjs', 'validate-editorial-writing.mjs --self-test']],
 ]);
 
 const failures = [];

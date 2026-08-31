@@ -29,7 +29,7 @@ featured: false
 
 <aside class="history-thesis"><span>THE QUESTION OF NARRATIVE POWER</span><strong>축구를 누가 처음 가져왔는가보다,<br>누가 그 역사를 말할 권리를 가졌는가.</strong><p>이 글은 영국의 기여를 지우지 않는다. 다만 ‘전파한 사람’의 기록만으로 ‘살아 낸 사람’의 역사를 대신할 수 있는지 묻는다.</p></aside>
 
-<section class="history-argument" aria-labelledby="argument-map-title"><header><span>ARGUMENT MAP</span><h3 id="argument-map-title">통설을 사실이 아니라 검증할 가설로 되돌리기</h3><p>브라운의 비판은 결론을 뒤집는 작업이 아니라, 결론에 이르는 증거의 사슬을 다시 확인하는 작업이다.</p></header><div class="history-argument__labels" aria-hidden="true"><b>반복된 통설</b><b>논문이 제기한 문제</b><b>추가로 필요한 증거</b></div><article><strong>영국 제국이 축구를 전파했다</strong><p>교역망의 존재와 계획된 문화정책 사이의 인과가 입증되지 않았다.</p><em>행정 문서·기업 기록·정책 주체의 의도</em></article><article><strong>허튼과 밀러가 축구를 시작했다</strong><p>공식 제도의 기록이 제도 밖에서 열린 경기의 부재를 증명하지 않는다.</p><em>현지어 신문·비공식 팀·학교 밖 경기</em></article><article><strong>두 나라의 사례가 남미를 대표한다</strong><p>브라질과 아르헨티나의 개척자 서사가 대륙 전체로 확대됐다.</p><em>우루과이·칠레·페루 등 지역 비교</em></article></section><p class="history-block-cite"><a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
+<section class="history-argument" aria-labelledby="argument-map-title"><header><span>ARGUMENT MAP</span><h3 id="argument-map-title">통설을 검증할 가설로 되돌리기</h3><p>브라운의 비판은 결론을 뒤집는 작업이 아니라, 결론에 이르는 증거의 사슬을 다시 확인하는 작업이다.</p></header><div class="history-argument__labels" aria-hidden="true"><b>반복된 통설</b><b>논문이 제기한 문제</b><b>추가로 필요한 증거</b></div><article><strong>영국 제국이 축구를 전파했다</strong><p>교역망의 존재와 계획된 문화정책 사이의 인과가 입증되지 않았다.</p><em>행정 문서·기업 기록·정책 주체의 의도</em></article><article><strong>허튼과 밀러가 축구를 시작했다</strong><p>공식 제도의 기록이 제도 밖에서 열린 경기의 부재를 증명하지 않는다.</p><em>현지어 신문·비공식 팀·학교 밖 경기</em></article><article><strong>두 나라의 사례가 남미를 대표한다</strong><p>브라질과 아르헨티나의 개척자 서사가 대륙 전체로 확대됐다.</p><em>우루과이·칠레·페루 등 지역 비교</em></article></section><p class="history-block-cite"><a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
 
 ## 1. ‘축구의 아버지’는 어떻게 만들어졌나
 
@@ -40,7 +40,7 @@ featured: false
 <figure><img src="/images/history/british-centered-football-history/charles-miller.webp" alt="찰스 윌리엄 밀러의 초상" loading="lazy" width="432" height="640"><figcaption>찰스 윌리엄 밀러. 브라질 축구사의 대표적인 개척자로 기억된다.</figcaption></figure>
 </div>
 
-<section class="history-network" aria-labelledby="network-title"><header><span>ACTOR NETWORK</span><h3 id="network-title">한 명의 아버지가 아니라, 서로 연결된 도시의 행위자들</h3></header><div class="history-network__map"><div><strong>교육자·클럽 운영자</strong><p>규칙과 정기 경기를 제도화했다.</p></div><div><strong>철도·항구·우편</strong><p>사람과 장비, 결과표의 이동을 가능하게 했다.</p></div><div class="is-center"><strong>도시의 축구 문화</strong><p>여러 집단의 이해와 즐거움이 만난 결과</p></div><div><strong>학생·노동자·이민자</strong><p>경기의 참여 범위와 대표 대상을 넓혔다.</p></div><div><strong>신문·사진·회고록</strong><p>어떤 경험이 역사로 남을지를 결정했다.</p></div></div></section>
+<section class="history-network" aria-labelledby="network-title"><header><span>ACTOR NETWORK</span><h3 id="network-title">서로 연결된 도시의 행위자들</h3></header><div class="history-network__map"><div><strong>교육자·클럽 운영자</strong><p>규칙과 정기 경기를 제도화했다.</p></div><div><strong>철도·항구·우편</strong><p>사람과 장비, 결과표의 이동을 가능하게 했다.</p></div><div class="is-center"><strong>도시의 축구 문화</strong><p>여러 집단의 이해와 즐거움이 만난 결과</p></div><div><strong>학생·노동자·이민자</strong><p>경기의 참여 범위와 대표 대상을 넓혔다.</p></div><div><strong>신문·사진·회고록</strong><p>어떤 경험이 역사로 남을지를 결정했다.</p></div></div></section>
 
 두 사람의 제도적 공헌은 구체적이며 부정할 이유가 없다. 문제는 이들이 ‘중요한 행위자’에서 ‘한 나라 축구의 유일한 아버지’로 바뀌는 서사적 도약이다. 제도 설립의 기록이 남았다는 사실은 그 제도 밖에서 공을 찬 사람들의 부재를 증명하지 않는다. 최초의 공식 경기와 최초의 실제 경기도 반드시 일치하지 않는다.
 
