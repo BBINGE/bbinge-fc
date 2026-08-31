@@ -6,8 +6,8 @@ tags: ['권은비', '권은비 월드컵', '코카콜라 유니폼', '아디다�
 pubDate: 2026-08-31T20:25:00+09:00
 coverImage: '/images/culture/kwon-eunbi-world-cup/cover.webp'
 cardImage: '/images/culture/kwon-eunbi-world-cup/card.webp'
-coverImageAlt: '과달라하라 경기장에서 빨간 코카콜라 유니폼과 데님 미니스커트를 입고 태극기 앞에 선 권은비'
-coverImageCaption: '붉은 관중석과 초록 피치 사이에서 빨간 유니폼, 데님 미니스커트, 투명 크로스백이 한 번에 보인다. 권은비가 대한민국과 체코의 경기를 앞두고 공개한 과달라하라 현장이다. Photo: Kwon Eun-bi Instagram via ELLE Taiwan.'
+coverImageAlt: '흰색 아디다스 코카콜라 크롭 저지와 데님 미니스커트를 입은 권은비'
+coverImageCaption: '빨간 칼라와 삼선을 얼굴 가까이에 두고, 흰 크롭 저지 아래로 데님 미니스커트를 연결했다. 권은비의 세 가지 월드컵 룩 가운데 가장 직접적인 행사 화보다. Photo: Kwon Eun-bi Instagram via ELLE Taiwan.'
 coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
@@ -47,21 +47,10 @@ fashionProfile:
 
 <section class="ke-look-strip" aria-label="권은비 월드컵 패션의 세 가지 착장">
   <span class="ke-look-strip__light" aria-hidden="true"></span>
-  <article><span>01 · STADIUM</span><h3>빨간 유니폼</h3><p>붉은 관중석과 같은 색을 입고 데님 미니스커트로 가볍게 끊었다.</p></article>
-  <article><span>02 · EVENT</span><h3>흰 크롭 저지</h3><p>빨간 칼라와 삼선, 잘록한 허리가 축구 셔츠를 가장 짧게 바꾼다.</p></article>
+  <article><span>01 · EVENT</span><h3>흰 크롭 저지</h3><p>빨간 칼라와 삼선, 잘록한 허리가 축구 셔츠를 가장 짧게 바꾼다.</p></article>
+  <article><span>02 · STADIUM</span><h3>빨간 유니폼</h3><p>붉은 관중석과 같은 색을 입고 데님 미니스커트로 가볍게 끊었다.</p></article>
   <article><span>03 · AIRPORT</span><h3>빨간 미니 백</h3><p>와이드 데님 아래로 검정 플랫폼을 숨기고 빨간 백만 손에 남겼다.</p></article>
 </section>
-
-## 빨간 유니폼은 경기장에서 왜 더 예뻐 보이나요?
-
-첫 번째 사진은 대한민국과 체코의 경기가 열린 과달라하라 경기장이다. 권은비는 검정 칼라와 소매 끝이 붙은 빨간 코카콜라 유니폼을 데님 미니스커트 안에 살짝 넣었다. 흰 크루 삭스와 검정 스니커즈가 맨다리 아래에서 색을 다시 끊고, 목에는 빨간 스트랩의 투명 PVC 크로스백을 걸었다.
-
-이 룩의 가장 좋은 배경은 스튜디오가 아니라 실제 관중석이다. 초록 피치가 화면 절반을 차지하고, 붉은 좌석과 낮은 햇빛이 권은비의 셔츠를 더 밝게 만든다. 태극기를 난간에 펼친 사진에서는 빨강·흰색·검정이 옷과 깃발에 동시에 반복된다. 응원복인데도 단체 티셔츠처럼 보이지 않는 이유는 셔츠 아래에서 바로 시작되는 짧은 데님과 투명한 가방 때문이다.
-
-<figure class="ke-stadium ke-enter">
-  <img src="/images/culture/kwon-eunbi-world-cup/stadium.webp" alt="빨간 코카콜라 유니폼과 데님 미니스커트 차림으로 태극기를 펼친 권은비와 과달라하라 경기장" width="1080" height="1440" loading="eager" decoding="async" />
-  <figcaption>경기장에서는 빨간 셔츠를 가장 크게, 데님과 흰 양말은 가장 익숙하게 보이게 했다.<small class="ke-credit">Photo: Kwon Eun-bi Instagram via ELLE Taiwan</small></figcaption>
-</figure>
 
 ## 흰 크롭 저지와 데님 미니스커트는 바로 사고 싶은 조합이에요
 
@@ -70,7 +59,7 @@ fashionProfile:
 하의는 경기장에서 입었던 데님 미니스커트다. 허리를 높게 잡고 밑단은 허벅지 중간에서 반듯하게 끊었다. 셔츠를 넣어 입지 않아도 배와 허리선이 보여 상·하의가 겹치지 않는다. 빨간 PVC 크로스백과 작은 축구공 참까지 붙이자, 흰색 상의의 빈 공간이 코카콜라 그래픽과 소품을 위한 배경이 된다.
 
 <figure class="ke-crop-look ke-enter">
-  <img src="/images/culture/kwon-eunbi-world-cup/cropped-jersey.webp" alt="흰색 아디다스 코카콜라 크롭 저지와 데님 미니스커트, 축구공 참을 착용한 권은비" width="1080" height="1440" loading="lazy" decoding="async" />
+  <img src="/images/culture/kwon-eunbi-world-cup/cropped-jersey.webp" alt="흰색 아디다스 코카콜라 크롭 저지와 데님 미니스커트, 축구공 참을 착용한 권은비" width="1200" height="900" loading="eager" decoding="async" />
   <figcaption>빨간 칼라와 삼선은 얼굴 가까이에, 데님은 허리 아래에 둔 가장 직접적인 월드컵 여름 룩.<small class="ke-credit">Photo: Kwon Eun-bi Instagram via ELLE Taiwan</small></figcaption>
 </figure>
 
@@ -90,6 +79,17 @@ fashionProfile:
     <span><small>DENIM ALTERNATIVE · ADIDAS OFFICIAL</small><b>ADIDAS X COCA-COLA<br />데님 쇼츠</b><em>₩79,000 · 제품 보기 →</em></span>
   </a>
 </div>
+
+## 빨간 유니폼은 경기장에서 왜 더 예뻐 보이나요?
+
+두 번째 사진은 대한민국과 체코의 경기가 열린 과달라하라 경기장이다. 권은비는 검정 칼라와 소매 끝이 붙은 빨간 코카콜라 유니폼을 데님 미니스커트 안에 살짝 넣었다. 흰 크루 삭스와 검정 스니커즈가 맨다리 아래에서 색을 다시 끊고, 목에는 빨간 스트랩의 투명 PVC 크로스백을 걸었다.
+
+이 룩의 가장 좋은 배경은 스튜디오가 아니라 실제 관중석이다. 초록 피치가 화면 절반을 차지하고, 붉은 좌석과 낮은 햇빛이 권은비의 셔츠를 더 밝게 만든다. 태극기를 난간에 펼친 사진에서는 빨강·흰색·검정이 옷과 깃발에 동시에 반복된다. 응원복인데도 단체 티셔츠처럼 보이지 않는 이유는 셔츠 아래에서 바로 시작되는 짧은 데님과 투명한 가방 때문이다.
+
+<figure class="ke-stadium ke-enter">
+  <img src="/images/culture/kwon-eunbi-world-cup/stadium.webp" alt="빨간 코카콜라 유니폼과 데님 미니스커트 차림으로 태극기를 펼친 권은비와 과달라하라 경기장" width="1200" height="900" loading="lazy" decoding="async" />
+  <figcaption>경기장에서는 빨간 셔츠를 가장 크게, 데님과 흰 양말은 가장 익숙하게 보이게 했다.<small class="ke-credit">Photo: Kwon Eun-bi Instagram via ELLE Taiwan</small></figcaption>
+</figure>
 
 ## 공항에서는 흰 크롭 티와 와이드 데님으로 바꿨어요
 
