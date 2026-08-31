@@ -16,9 +16,9 @@ fashionProfile:
   eyebrow: 'PROFILE · K-POP ARTIST'
   name: '카리나'
   romanName: 'KARINA'
-  portrait: '/images/culture/karina-one-pulse/karina-jacket.jpg'
-  portraitAlt: '빨간 톱과 검정 재킷을 입고 흰 꽃잎 사이에 선 카리나의 One Pulse 화보'
-  portraitCredit: 'Instagram @katarinabluu · Nike × PEACEMINUSONE × KFA, June 2026'
+  portrait: '/images/culture/karina-one-pulse/karina-profile-aespa.webp'
+  portraitAlt: '헬멧을 두 손으로 잡고 의자에 앉은 카리나의 aespa 공식 프로필 사진'
+  portraitCredit: 'aespa JAPAN OFFICIAL WEBSITE · PROFILE'
   birthDate: '2000-04-11'
   nationalities:
     - name: '대한민국'
