@@ -17,8 +17,8 @@ fashionProfile:
   name: '권은비'
   romanName: 'KWON EUN BI'
   portrait: '/images/culture/kwon-eunbi-world-cup/profile.webp'
-  portraitAlt: '흰색 아디다스 코카콜라 크롭 티와 와이드 데님, 빨간 미우미우 백을 든 권은비'
-  portraitCredit: 'Photo: The Chosunilbo JNS/Getty Images via ELLE Taiwan'
+  portraitAlt: '검은 드레스를 입고 카메라를 바라보는 권은비의 마리끌레르 화보'
+  portraitCredit: 'Marie Claire Korea, May 2020 · CC BY 3.0 via Wikimedia Commons · cropped'
   birthDate: '1995-09-27'
   nationalities:
     - name: '대한민국'
@@ -134,6 +134,7 @@ fashionProfile:
     <li><a href="https://www.adidas.co.kr/adidas-x-coca-cola-%ED%81%AC%EB%A1%AD-%EC%A0%80%EC%A7%80/KY7571.html">adidas Korea, ADIDAS X COCA-COLA 크롭 저지</a>. 제품 코드 KY7571, 공식 사진과 2026년 8월 31일 표시 가격.</li>
     <li><a href="https://www.adidas.co.kr/adidas-x-coca-cola-%EB%8D%B0%EB%8B%98-%EC%87%BC%EC%B8%A0/KY7564.html">adidas Korea, ADIDAS X COCA-COLA 데님 쇼츠</a>. 제품 코드 KY7564, 공식 사진과 2026년 8월 31일 표시 가격.</li>
     <li><a href="https://www.youtube.com/watch?v=xZWMh5ivk6Q">채널A, “권은비·카리나·윈터, 태극전사 응원 떠났다”</a>, 2026년 6월 9일. 인천공항 출국길의 크롭 티, 와이드 데님과 빨간 백 움직임.</li>
+    <li><a href="https://commons.wikimedia.org/wiki/File:Kwon_Eunbi_for_Marie_Claire_Korea_in_May_2020.png">Marie Claire Korea, 권은비 화보</a>, 2020년 5월. 인물카드 사진, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>, 세로 크롭.</li>
     <li><a href="https://weverse.io/kwoneunbi/notice/36672?hl=ko">Weverse, 권은비 공식 SNS 계정 안내</a>, 2026년. 현재 공식 Instagram과 YouTube 채널 확인.</li>
   </ol>
 </div>
@@ -147,7 +148,7 @@ fashionProfile:
   .article-body .ke-look-strip h3 { margin:11px 0 9px; color:var(--bbfc-bg); font-size:19px; font-weight:500; line-height:1.35; }
   .ke-look-strip p { margin:0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.7; }
   .ke-look-strip__light { position:absolute; z-index:0; top:-30%; bottom:-30%; width:20%; background:linear-gradient(90deg,transparent,color-mix(in srgb,#ed1c24 28%,transparent),transparent); filter:blur(8px); animation:ke-light 6.2s linear infinite; }
-  .ke-stadium, .ke-crop-look, .ke-airport { position:relative; left:50%; width:min(760px,calc(100vw - 32px)); margin:42px 0 60px; transform:translateX(-50%); }
+  .article-body .ke-stadium, .article-body .ke-crop-look, .article-body .ke-airport { position:static; width:min(760px,calc(100vw - 32px)); margin:42px auto 60px; transform:none; }
   .ke-stadium img, .ke-crop-look img, .ke-airport img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .ke-shop-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 64px; transform:translateX(-50%); }
   .ke-shop-card { display:grid; min-width:0; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); color:var(--bbfc-ink); grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr); transition:transform .35s ease,box-shadow .35s ease; }
