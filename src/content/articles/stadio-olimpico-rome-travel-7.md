@@ -11,6 +11,10 @@ coverImageAlt: '테베레강을 사이에 둔 로마 도심과 스타디오 올�
 coverImageCaption: '한 도시의 두 클럽은 같은 경기장을 쓰지만, 서로 다른 장소에서 로마를 기억한다.'
 coverImageWidth: 1600
 coverImageHeight: 900
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223366317766'
+  relation: 'revised-edition'
 draft: false
 featured: true
 faq:

@@ -9,6 +9,10 @@ coverImageAlt: '1934 FIFA 월드컵 결승전 이탈리아 2대1 체코슬로바
 coverImageCaption: '로마에서 열린 두 번째 월드컵의 결승전. 이탈리아는 연장전 끝에 체코슬로바키아를 2-1로 꺾었다.'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223515199933'
+  relation: 'revised-edition'
 draft: false
 featured: false
 relatedGroup: 'fifa-world-cup-1934'

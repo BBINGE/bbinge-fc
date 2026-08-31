@@ -13,6 +13,10 @@ coverImageAlt: '이탈리아와 헝가리 선수들이 악수하는 사진으로
 coverImageCaption: '1938 월드컵 결승 직전 이탈리아와 헝가리. 이 대회는 이탈리아의 최초 2연패와 레오니다스의 등장을 함께 남겼다.'
 coverImageWidth: 773
 coverImageHeight: 776
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223499396026'
+  relation: 'revised-edition'
 draft: false
 relatedGroup: 'fifa-world-cup-1938'
 ---

@@ -9,6 +9,10 @@ coverImageAlt: '1938 FIFA 월드컵 결승전 이탈리아 4대2 헝가리 하�
 coverImageCaption: '두 번 앞서고 두 번 추격당한 결승전. 이탈리아는 헝가리를 4-2로 꺾고 월드컵 최초의 2연패를 완성했다.'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223525729483'
+  relation: 'revised-edition'
 draft: false
 featured: false
 relatedGroup: 'fifa-world-cup-1938'

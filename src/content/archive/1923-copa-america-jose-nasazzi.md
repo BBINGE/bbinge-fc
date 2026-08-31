@@ -12,6 +12,10 @@ coverImage: '/images/archive/1923-copa-america/cover.png'
 coverImageAlt: '1923 코파 아메리카와 호세 나사시를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223517737037'
+  relation: 'revised-edition'
 draft: false
 ---
 

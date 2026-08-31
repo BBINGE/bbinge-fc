@@ -15,6 +15,10 @@ coverImageAlt: "인테르 유니폼을 입고 미소 짓는 자친토 파케티"
 coverImageCaption: "그란데 인테르의 왼쪽을 바꾼 자친토 파케티. 썸네일 편집: 삥이FC."
 coverImageWidth: 966
 coverImageHeight: 966
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223505967929'
+  relation: 'revised-edition'
 draft: false
 ---
 

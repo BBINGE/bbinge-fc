@@ -10,6 +10,10 @@ coverImageAlt: "마르코 로이스의 얼굴과 보루시아 도르트문트 �
 coverImageCaption: "로이스의 얼굴로 문을 열되 마지막 자리는 프라이슬러에게 내준다. 마르코 로이스 사진: Tim Reckmann, CC BY-SA 3.0. 경기장 사진: Marvin Ronsdorf, CC0 1.0. 구도·색채·타이포그래피: 박성호(삥이)·삥이FC. 생성형 AI 미사용."
 coverImageWidth: 1200
 coverImageHeight: 675
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223921097233'
+  relation: 'revised-edition'
 draft: false
 featured: true
 ---

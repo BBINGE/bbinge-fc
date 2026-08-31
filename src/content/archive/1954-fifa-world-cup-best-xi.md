@@ -14,6 +14,10 @@ coverImageAlt: '푸슈카시와 프리츠 발터가 입장하는 장면을 담�
 coverImageCaption: '1954년 베른 결승의 두 주장, 푸슈카시 페렌츠와 프리츠 발터. 표지 디자인: 삥이FC.'
 coverImageWidth: 966
 coverImageHeight: 966
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223501669012'
+  relation: 'revised-edition'
 draft: false
 relatedGroup: 'fifa-world-cup-1954'
 ---

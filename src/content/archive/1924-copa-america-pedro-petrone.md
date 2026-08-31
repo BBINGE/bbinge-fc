@@ -12,6 +12,10 @@ coverImage: '/images/archive/1924-copa-america/cover.png'
 coverImageAlt: '1924 코파 아메리카와 페드로 페트로네를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223525673019'
+  relation: 'revised-edition'
 draft: false
 ---
 

@@ -10,6 +10,10 @@ coverImageAlt: "유러피언컵을 든 레알 마드리드 선수단과 저승�
 coverImageCaption: "1953-1964년 레알 마드리드 CF 저승사자 군단. 표지 디자인: 삥이."
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223537804267'
+  relation: 'revised-edition'
 draft: false
 featured: false
 ---

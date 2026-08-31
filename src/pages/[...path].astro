@@ -201,6 +201,7 @@ if (props.kind === 'category') {
       section: articleView.meta.fullLabel,
       subjects: [articleView.meta.fullLabel, ...articleView.entry.data.tags],
       keywords: articleView.entry.data.tags,
+      priorPublication: articleView.entry.data.priorPublication,
     }}
     breadcrumbs={[
       { label: '홈', href: '/' },
@@ -237,7 +238,7 @@ if (props.kind === 'category') {
           {articleView.entry.data.fashionProfile && <FashionProfileCard profile={articleView.entry.data.fashionProfile} />}
           <articleView.Content />
         </div>
-        <ArticleProvenance />
+        <ArticleProvenance priorPublication={articleView.entry.data.priorPublication} />
 
         <div class="mt-6 pt-4 border-t border-[var(--bbfc-line)]">
           <ShareButtons

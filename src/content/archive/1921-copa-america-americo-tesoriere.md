@@ -12,6 +12,10 @@ coverImage: '/images/archive/1921-copa-america/cover.jpg'
 coverImageAlt: '1921 코파 아메리카와 아메리코 테소리에레를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223507395676'
+  relation: 'revised-edition'
 draft: false
 ---
 

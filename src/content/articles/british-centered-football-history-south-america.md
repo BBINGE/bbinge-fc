@@ -9,6 +9,10 @@ coverImageAlt: "1930 FIFA 월드컵 우승을 차지한 우루과이 선수단"
 coverImageCaption: "1930년 몬테비데오. 첫 FIFA 월드컵은 영국 축구의 복제품이 아니라 남미가 이미 구축한 축구 문화의 결실이었다."
 coverImageWidth: 773
 coverImageHeight: 461
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/224252432468'
+  relation: 'revised-edition'
 draft: false
 featured: false
 ---

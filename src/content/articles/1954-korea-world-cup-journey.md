@@ -9,6 +9,10 @@ coverImageAlt: '1954 FIFA 월드컵에서 헝가리 선수들과 함께 경기�
 coverImageCaption: '휴전 11개월 뒤, 대한민국은 처음으로 월드컵 본선의 잔디를 밟았다.'
 coverImageWidth: 966
 coverImageHeight: 966
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223720768629'
+  relation: 'revised-edition'
 draft: false
 featured: false
 relatedGroup: 'fifa-world-cup-1954'

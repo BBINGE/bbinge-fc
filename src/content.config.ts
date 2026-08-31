@@ -39,6 +39,13 @@ const articles = defineCollection({
       featured: z.boolean().default(false),
       // 같은 대회·사건을 다룬 글끼리 자동으로 서로 연결한다.
       relatedGroup: z.string().optional(),
+      // 다른 플랫폼에 먼저 공개한 운영자 원고를 저본으로 삼은 경우에만 기록한다.
+      // 사람 단위 sameAs와 별개로 개별 문서의 구판-개정판 관계를 설명하는 메타데이터다.
+      priorPublication: z.object({
+        platform: z.literal('NAVER'),
+        url: z.url(),
+        relation: z.literal('revised-edition').default('revised-edition'),
+      }).optional(),
       // 축디 인물 피처의 상단 프로필 카드. 값이 있으면 축디 전용 상세 템플릿에서 자동 렌더링한다.
       fashionProfile: z.object({
         eyebrow: z.string(),
@@ -88,6 +95,11 @@ const archive = defineCollection({
     coverImageHeight: z.number().int().positive(),
     draft: z.boolean().default(false),
     relatedGroup: z.string().optional(),
+    priorPublication: z.object({
+      platform: z.literal('NAVER'),
+      url: z.url(),
+      relation: z.literal('revised-edition').default('revised-edition'),
+    }).optional(),
   }),
 });
 

@@ -9,6 +9,10 @@ coverImageAlt: '쥘리메컵과 오브둘리오 바렐라를 담은 1950 월드�
 coverImageCaption: '브라질 1-2 우루과이. 결승전이라는 이름이 없던 경기가 월드컵 역사상 가장 큰 이변을 남겼다.'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223536298022'
+  relation: 'revised-edition'
 draft: false
 featured: false
 relatedGroup: 'fifa-world-cup-1950'

@@ -12,6 +12,10 @@ coverImage: '/images/archive/1922-copa-america/cover.jpg'
 coverImageAlt: '1922 코파 아메리카와 아구스치뉴 포르치스를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223507421359'
+  relation: 'revised-edition'
 draft: false
 ---
 

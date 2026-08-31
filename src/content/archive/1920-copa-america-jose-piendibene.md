@@ -12,6 +12,10 @@ coverImage: '/images/archive/1920-copa-america/cover.jpg'
 coverImageAlt: '1920 코파 아메리카와 호세 피엔디베네를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223507380400'
+  relation: 'revised-edition'
 draft: false
 ---
 

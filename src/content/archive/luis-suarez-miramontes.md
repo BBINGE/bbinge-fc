@@ -15,6 +15,10 @@ coverImageAlt: "1960년 발롱도르 트로피를 바라보는 루이스 수아�
 coverImageCaption: "스페인 남자 선수 최초의 발롱도르 수상자이자 그란데 인테르의 ‘건축가’ 루이스 수아레스. 썸네일 편집: 삥이FC."
 coverImageWidth: 966
 coverImageHeight: 966
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223494912950'
+  relation: 'revised-edition'
 draft: false
 ---
 

@@ -12,6 +12,10 @@ coverImage: '/images/archive/1926-copa-america/cover.png'
 coverImageAlt: '1926 코파 아메리카 득점왕 다비드 아레야노를 담은 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/224036118748'
+  relation: 'revised-edition'
 draft: false
 ---
 

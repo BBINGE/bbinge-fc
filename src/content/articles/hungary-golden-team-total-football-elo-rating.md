@@ -11,6 +11,10 @@ coverImageCaption: '푸슈카시의 헝가리는 어느 날 갑자기 나타난 
 coverImageWidth: 966
 coverImageHeight: 966
 featured: false
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223725911729'
+  relation: 'revised-edition'
 draft: false
 relatedGroup: 'fifa-world-cup-1954'
 ---

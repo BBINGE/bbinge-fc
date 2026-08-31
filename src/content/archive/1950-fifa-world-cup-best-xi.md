@@ -13,6 +13,10 @@ coverImageAlt: '쥘리메컵에 입을 맞추는 선수와 1950 월드컵 베스
 coverImageCaption: '삥이의 축구 기록에서 제작한 1950 월드컵 베스트 11 원본 표지.'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223500621952'
+  relation: 'revised-edition'
 draft: false
 relatedGroup: 'fifa-world-cup-1950'
 ---

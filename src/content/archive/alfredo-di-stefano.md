@@ -15,6 +15,10 @@ coverImageAlt: "레알 마드리드 훈련복을 입고 두 개의 축구공을 
 coverImageCaption: "레알 마드리드의 첫 유럽 왕조를 지휘한 ‘금빛 화살’ 알프레도 디스테파노. 썸네일 편집: 삥이FC."
 coverImageWidth: 966
 coverImageHeight: 966
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223500533311'
+  relation: 'revised-edition'
 draft: false
 ---
 

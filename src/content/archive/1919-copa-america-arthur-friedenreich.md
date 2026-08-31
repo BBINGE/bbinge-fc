@@ -12,6 +12,10 @@ coverImage: '/images/archive/1919-copa-america/cover.jpg'
 coverImageAlt: '1919 코파 아메리카와 아르투르 프리덴라이히를 기록한 표지'
 coverImageWidth: 773
 coverImageHeight: 773
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223506151521'
+  relation: 'revised-edition'
 draft: false
 ---
 

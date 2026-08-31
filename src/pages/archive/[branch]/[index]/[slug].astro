@@ -70,6 +70,7 @@ const relatedAssets = entry.data.relatedGroup
     section: `${branch.title} · ${archiveIndex.label}`,
     subjects: [entry.data.subject, archiveIndex.label, entry.data.originalTitle, ...entry.data.tags, ...entry.data.keywords].filter(Boolean) as string[],
     keywords: entry.data.keywords,
+    priorPublication: entry.data.priorPublication,
   }}
   breadcrumbs={[
     { label: '홈', href: '/' }, { label: '삥이 아카이브', href: '/archive/' },
@@ -100,7 +101,7 @@ const relatedAssets = entry.data.relatedGroup
       </nav>
     )}
     <div class="archive-body"><Content /></div>
-    <ArticleProvenance />
+    <ArticleProvenance priorPublication={entry.data.priorPublication} />
     <div class="archive-share">
       <ShareButtons
         url={new URL(`/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`, site.url).toString()}

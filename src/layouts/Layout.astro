@@ -28,6 +28,11 @@ interface Props {
     section?: string;
     subjects?: string[];
     keywords?: string[];
+    priorPublication?: {
+      platform: 'NAVER';
+      url: string;
+      relation: 'revised-edition';
+    };
   };
   extraSchema?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -107,6 +112,15 @@ const articleSchema = article
       copyrightHolder: { '@id': `${site.url}/#author` },
       copyrightYear: String(article.pubDate.getFullYear()),
       copyrightNotice: `© ${article.pubDate.getFullYear()} ${site.authorName}(${site.author}). All rights reserved.`,
+      ...(article.priorPublication
+        ? {
+            isBasedOn: {
+              '@type': 'CreativeWork',
+              name: `${site.authorName}(${site.author})의 ${article.priorPublication.platform} 최초 공개본`,
+              url: article.priorPublication.url,
+            },
+          }
+        : {}),
     }
   : null;
 
