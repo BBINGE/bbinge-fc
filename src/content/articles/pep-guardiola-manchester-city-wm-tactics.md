@@ -73,6 +73,8 @@ UEFA 기술 관찰진은 이 구조를 볼 소유 시 1-3-2-4-1로 기록했다.
 
 WM의 목적은 현대의 점유 축구가 아니었다. 센터포워드를 추적할 수비수를 한 명 더 두고, 공을 빼앗은 뒤 인사이드 포워드와 빠른 윙어를 향해 전진하는 길을 정돈하는 데 가까웠다. 세 명의 후방과 두 명의 중원이라는 골격이 같아도, 1920년대 아스널과 2023년 맨체스터 시티가 같은 축구를 했다고 말할 수 없는 이유다.
 
+이 오래된 도형이 한 팀의 집단적 움직임으로 완성된 장면은 [발렌티노 마촐라와 그란데 토리노의 3-2-2-3](/tactics/grande-torino-wm-system-tactics/)에서 이어진다. 토리노는 센터 하프의 후퇴만으로 위대해진 것이 아니라, 마촐라와 에치오 로이크가 중원 사각형을 오가며 WM에 서로 다른 속도를 넣었다.
+
 <aside class="position-note">
   <div class="position-note__index"><span>POSITION NOTE</span><b>01</b><small>CENTRE-HALF</small></div>
   <div class="position-note__body">

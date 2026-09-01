@@ -15,6 +15,7 @@ import ShareButtons from '../components/ShareButtons.astro';
 import ContentCover from '../components/ContentCover.astro';
 import ArticleByline from '../components/ArticleByline.astro';
 import ArticleProvenance from '../components/ArticleProvenance.astro';
+import TorinoReadingRoute from '../components/TorinoReadingRoute.astro';
 import RelatedAssets from '../components/RelatedAssets.astro';
 import FashionCategoryPage from '../components/FashionCategoryPage.astro';
 import PilgrimageCategoryPage from '../components/PilgrimageCategoryPage.astro';
@@ -244,6 +245,9 @@ if (props.kind === 'category') {
           {articleView.entry.data.fashionProfile && <FashionProfileCard profile={articleView.entry.data.fashionProfile} />}
           <articleView.Content />
         </div>
+        {['grande-torino-wm-system-tactics', 'grande-torino-card-news', 'why-grande-torino-did-not-remain', 'turin-juventus-walk-of-fame-travel-10'].includes(articleView.entry.id) && (
+          <TorinoReadingRoute currentId={articleView.entry.id} />
+        )}
         <ArticleProvenance priorPublication={articleView.entry.data.priorPublication} />
 
         <div class="mt-6 pt-4 border-t border-[var(--bbfc-line)]">
