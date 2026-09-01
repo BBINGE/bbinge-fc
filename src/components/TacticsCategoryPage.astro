@@ -1,0 +1,200 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getArticlePath } from '../config/categories';
+
+interface Props {
+  entries: CollectionEntry<'articles'>[];
+  description?: string;
+}
+
+interface StudyProfile {
+  code: string;
+  type: string;
+  period: string;
+  field: string;
+  question: string;
+  thesis: string;
+  evidence: string;
+}
+
+const { entries, description } = Astro.props;
+const [lead, ...archive] = entries;
+const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
+const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const publishedYear = (entry: CollectionEntry<'articles'>) => entry.data.pubDate.getFullYear().toString();
+const publishedDate = (entry: CollectionEntry<'articles'>) =>
+  new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(entry.data.pubDate);
+
+const profiles: Record<string, StudyProfile> = {
+  'football-manager-change-effect-before-tactics': {
+    code: 'MANAGER EFFECT',
+    type: '연구 고찰',
+    period: '2011—2024',
+    field: '조직심리학 · 경기력 연구',
+    question: '감독을 바꾸면 정말 팀이 강해지는가',
+    thesis: '경질 직후의 반등만으로 감독의 효과를 증명할 수 없다. 변화가 처방이 되려면 언어와 집단 정서, 경기 행동을 잇는 작동 기제가 필요하다.',
+    evidence: '체계적 문헌고찰 · 리그 통계 · 단일팀 자연실험',
+  },
+  'valeriy-lobanovskyi-dynamo-kyiv-system-football': {
+    code: 'SYSTEM FOOTBALL',
+    type: '감독 연구',
+    period: '1964—2002',
+    field: '스포츠과학 · 시스템 이론',
+    question: '한 선수의 재능을 어떻게 집단의 반복 가능한 힘으로 바꾸는가',
+    thesis: '로바노우스키는 낡은 체계를 복원하지 않았다. 측정과 훈련, 압박과 전환을 하나의 언어로 묶어 같은 원리에서 새로운 속도를 만들었다.',
+    evidence: '전술사 · 훈련 방법론 · 대회 기록 · 인물사',
+  },
+  'grande-torino-wm-system-tactics': {
+    code: 'WM / SISTEMA',
+    type: '전술 사례연구',
+    period: '1939—1949',
+    field: '포메이션사 · 역할 분석',
+    question: 'WM은 어떻게 그란데 토리노의 공격적인 질서가 되었는가',
+    thesis: '마촐라와 로이크의 중원 사각형은 숫자를 고정한 것이 아니라, 전진과 복귀의 책임을 교환하며 시스테마를 살아 움직이게 했다.',
+    evidence: 'FIGC 지도자 논문 · 선수 기록 · 역사 사진 · 전술판',
+  },
+  'pep-guardiola-manchester-city-wm-tactics': {
+    code: 'WM / 3—2—4—1',
+    type: '비교 전술연구',
+    period: '1925—2023',
+    field: '전술 계보 · 역할 비교',
+    question: '맨체스터 시티의 3-2-4-1은 왜 100년 전 WM을 닮았는가',
+    thesis: '형태의 유사성보다 중요한 것은 점유 시 다섯 개의 공격선과 중원 사각형을 만드는 역할의 재배치다.',
+    evidence: '전술사 문헌 · 경기 장면 · 선수 역할 · 포메이션 비교',
+  },
+  'hungary-golden-team-total-football-elo-rating': {
+    code: 'DANUBIAN LINEAGE',
+    type: '전술사 연구',
+    period: '1920s—1954',
+    field: '사상 계보 · 경기력 지표',
+    question: '헝가리 황금의 팀은 어디에서 시작되어 무엇을 다음 시대로 넘겼는가',
+    thesis: '매직 마자르의 유동성은 한 번의 발명이 아니라 다뉴브 학파와 분더팀, 메토도와 WM을 통과한 축구 사상의 집적이었다.',
+    evidence: '전술사 문헌 · 국제경기 기록 · World Football Elo 자료',
+  },
+};
+
+const fallbackProfile = (entry: CollectionEntry<'articles'>): StudyProfile => ({
+  code: 'TACTICAL STUDY',
+  type: '축구 연구',
+  period: publishedYear(entry),
+  field: (entry.data.tags ?? []).slice(0, 2).join(' · ') || '전술과 아이디어',
+  question: entry.data.title,
+  thesis: entry.data.description,
+  evidence: '원고의 출처와 기록주를 따라 논증한 편집 연구',
+});
+
+const profileFor = (entry: CollectionEntry<'articles'>) => profiles[entry.id] ?? fallbackProfile(entry);
+const leadProfile = lead ? profileFor(lead) : undefined;
+---
+
+<main class="tactics-index">
+  <header class="journal-head">
+    <div class="journal-head__title">
+      <p>BBINGE FC · TACTICAL STUDIES</p>
+      <h1>축술</h1>
+      <span>축구 전술과 아이디어의 계보</span>
+    </div>
+    <dl class="journal-head__status">
+      <div><dt>ARCHIVE STATUS</dt><dd>{String(entries.length).padStart(2, '0')} PUBLISHED STUDIES</dd></div>
+      <div><dt>EDITORIAL METHOD</dt><dd>QUESTION · EVIDENCE · ARGUMENT</dd></div>
+    </dl>
+  </header>
+
+  {description && (
+    <section class="journal-intro" aria-label="축술 소개">
+      <p>{description}</p>
+      <strong>논문과 사료를 읽고,<br />경기장의 움직임으로 다시 논증합니다.</strong>
+    </section>
+  )}
+
+  {lead && leadProfile ? (
+    <section class="current-study" aria-labelledby="current-study-title">
+      <header class="section-head">
+        <p>CURRENT STUDY</p>
+        <span>가장 최근에 도착한 질문</span>
+        <b>{publishedDate(lead)}</b>
+      </header>
+      <div class="current-study__layout">
+        <div class="current-study__visual">
+          <a class="study-cover study-cover--lead" href={hrefFor(lead)}>
+            {imageFor(lead) && <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} />}
+          </a>
+          <p><span>FIG. 01</span>{lead.data.coverImageCaption ?? lead.data.coverImageAlt ?? lead.data.title}</p>
+        </div>
+        <article class="current-study__copy">
+          <p class="study-code"><span>{leadProfile.code}</span><b>{leadProfile.type}</b></p>
+          <p class="study-field">{leadProfile.period} · {leadProfile.field}</p>
+          <h2 id="current-study-title"><a href={hrefFor(lead)}>{lead.data.title}</a></h2>
+          <p class="study-description">{lead.data.description}</p>
+          <dl class="study-abstract">
+            <div><dt>RESEARCH QUESTION</dt><dd>{leadProfile.question}</dd></div>
+            <div><dt>ARGUMENT</dt><dd>{leadProfile.thesis}</dd></div>
+            <div><dt>EVIDENCE</dt><dd>{leadProfile.evidence}</dd></div>
+          </dl>
+          <a class="study-link" href={hrefFor(lead)}><span>논증 전체 읽기</span><i aria-hidden="true">→</i></a>
+        </article>
+      </div>
+    </section>
+  ) : <p class="empty">첫 연구를 준비하고 있습니다.</p>}
+
+  {archive.length > 0 && (
+    <section class="research-index" aria-labelledby="research-index-title">
+      <header class="section-head section-head--index">
+        <div><p>RESEARCH INDEX</p><h2 id="research-index-title">전술과 사상의 연구 목록</h2></div>
+        <span>{String(archive.length).padStart(2, '0')} FILES</span>
+      </header>
+      <div class="research-grid">
+        {archive.map((entry, index) => {
+          const profile = profileFor(entry);
+          return (
+            <article class="research-card">
+              <a class="study-cover" href={hrefFor(entry)}>
+                {imageFor(entry) && <img src={imageFor(entry)} alt={entry.data.coverImageAlt ?? ''} loading="lazy" />}
+              </a>
+              <div class="research-card__copy">
+                <p class="research-card__number">FILE {String(index + 2).padStart(2, '0')}</p>
+                <p class="study-code"><span>{profile.code}</span><b>{profile.type}</b></p>
+                <p class="study-field">{profile.period} · {profile.field}</p>
+                <h3><a href={hrefFor(entry)}>{entry.data.title}</a></h3>
+                <p class="research-card__question"><span>QUESTION</span>{profile.question}</p>
+                <p class="research-card__thesis">{profile.thesis}</p>
+                <div class="research-card__foot"><span>{profile.evidence}</span><a href={hrefFor(entry)} aria-label={`${entry.data.title} 논증 읽기`}>읽기 <i aria-hidden="true">↗</i></a></div>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <section class="method" aria-labelledby="method-title">
+    <header><p>EDITORIAL METHOD</p><h2 id="method-title">축술을 읽는 네 개의 좌표</h2></header>
+    <ol>
+      <li><span>01</span><strong>질문</strong><p>익숙한 포메이션과 통념에서 먼저 의심할 대상을 찾습니다.</p></li>
+      <li><span>02</span><strong>근거</strong><p>논문과 사료, 경기 기록과 전술 장면을 같은 탁자 위에 올립니다.</p></li>
+      <li><span>03</span><strong>논증</strong><p>숫자와 이름을 나열하지 않고 변화가 작동한 경로를 연결합니다.</p></li>
+      <li><span>04</span><strong>결론</strong><p>그 전술이 무엇을 남겼으며 다음 시대가 무엇을 바꾸었는지 묻습니다.</p></li>
+    </ol>
+  </section>
+</main>
+
+<style>
+  .tactics-index{--journal-ink:#101923;--journal-navy:#071522;--journal-blue:#12395b;--journal-gold:#c9a24f;--journal-paper:#f5f1e8;max-width:1180px;margin:0 auto;padding:36px 20px 84px;font-family:Pretendard,"Pretendard Variable",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--journal-ink)}
+  .journal-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.72fr);align-items:end;gap:44px;padding-bottom:25px;border-bottom:3px solid var(--journal-ink)}
+  .journal-head__title>p,.section-head>p,.section-head>div>p,.method header>p{color:#286a9b;font-size:12px;font-weight:800;letter-spacing:.16em}
+  .journal-head__title h1{margin-top:10px;font-size:clamp(58px,8vw,96px);line-height:.82;font-weight:850;letter-spacing:-.075em}
+  .journal-head__title>span{display:block;margin-top:17px;font-size:17px;font-weight:690;letter-spacing:-.025em}
+  .journal-head__status{margin:0;border-top:1px solid var(--journal-ink)}.journal-head__status>div{display:grid;grid-template-columns:126px minmax(0,1fr);gap:18px;padding:13px 0;border-bottom:1px solid #adb4ba}.journal-head__status dt{font-size:12px;font-weight:800;letter-spacing:.08em}.journal-head__status dd{margin:0;text-align:right;font-size:12px;font-weight:700;letter-spacing:.04em}
+  .journal-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,.43fr);gap:48px;padding:25px 0 29px;border-bottom:1px solid var(--journal-ink)}.journal-intro>p{color:#59636d;font-size:14px;line-height:1.9;text-wrap:pretty}.journal-intro>strong{align-self:end;padding-left:22px;border-left:3px solid var(--journal-gold);font-size:19px;line-height:1.48;font-weight:760;letter-spacing:-.035em}
+  .current-study{margin-top:58px}.section-head{display:flex;align-items:baseline;gap:16px;padding-bottom:12px;border-bottom:1px solid var(--journal-ink)}.section-head>span{color:#67717b;font-size:13px;font-weight:650}.section-head>b{margin-left:auto;font-size:12px;font-weight:700;letter-spacing:.04em}.current-study__layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(390px,.92fr);align-items:stretch;margin-top:20px}.study-cover{display:block;aspect-ratio:1/1;overflow:hidden;background:transparent}.study-cover img{display:block;width:100%;height:100%;object-fit:cover}.current-study__visual{align-self:start;background:var(--journal-paper)}.current-study__visual>p{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;margin:0;padding:13px 15px;border:1px solid #c5c9cc;border-top:0;color:#606a72;font-size:12px;line-height:1.58}.current-study__visual>p span{color:#876722;font-size:12px;font-weight:820;letter-spacing:.08em}.current-study__copy{position:relative;isolation:isolate;overflow:hidden;min-height:100%;padding:34px 36px 30px;background:var(--journal-navy);color:#fff}.current-study__copy:before{content:"";position:absolute;z-index:-2;inset:0;background:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px),radial-gradient(circle at 86% 18%,rgba(43,115,170,.34),transparent 34%);background-size:48px 48px,48px 48px,auto;animation:grid-drift 16s linear infinite}.current-study__copy:after{content:"";position:absolute;z-index:-1;right:-70px;bottom:-70px;width:240px;height:240px;border:1px solid rgba(201,162,79,.22);border-radius:50%;box-shadow:0 0 0 34px rgba(201,162,79,.06),0 0 0 68px rgba(201,162,79,.035)}
+  .study-code{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0}.study-code span{color:#85c5ef;font-size:12px;font-weight:820;letter-spacing:.13em}.study-code b{padding:5px 8px;border:1px solid currentColor;color:#d4b86f;font-size:12px;font-weight:760}.study-field{margin-top:13px;color:rgba(235,243,249,.64);font-size:12px;font-weight:650;letter-spacing:.04em}.current-study h2{margin-top:23px;font-size:clamp(30px,3.4vw,44px);line-height:1.16;font-weight:810;letter-spacing:-.052em;text-wrap:balance}.study-description{margin-top:18px;color:rgba(240,245,249,.78);font-size:14px;line-height:1.78}.study-abstract{margin:25px 0 0;border-top:1px solid rgba(255,255,255,.4)}.study-abstract>div{display:grid;grid-template-columns:125px minmax(0,1fr);gap:18px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.16)}.study-abstract dt{color:#8cc7e8;font-size:12px;font-weight:800;letter-spacing:.06em}.study-abstract dd{margin:0;color:rgba(255,255,255,.9);font-size:13px;line-height:1.65;font-weight:570}.study-link{display:flex;align-items:center;justify-content:space-between;margin-top:25px;min-height:54px;padding:13px 16px;border:1px solid rgba(218,190,119,.75);color:#fff;font-size:16px;font-weight:790}.study-link i{color:#e2c77f;font-size:20px;font-style:normal;transition:transform .25s ease}.study-link:hover i{transform:translateX(4px)}
+  .research-index{margin-top:72px}.section-head--index{align-items:end}.section-head--index>div h2{margin-top:5px;font-size:27px;font-weight:800;letter-spacing:-.04em}.section-head--index>span{margin-left:auto;font-size:12px;font-weight:780;letter-spacing:.1em}.research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 24px;margin-top:25px}.research-card{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);align-items:stretch;border:1px solid #c8cdd1;background:#fff;box-shadow:0 20px 42px -38px rgba(4,18,29,.55);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}.research-card:hover{transform:translateY(-4px);border-color:#8e9ba5;box-shadow:0 26px 52px -34px rgba(4,18,29,.5)}.research-card__copy{display:flex;position:relative;flex-direction:column;padding:19px 19px 17px;border-left:1px solid #c8cdd1;background:linear-gradient(150deg,#fff 0%,var(--journal-paper) 100%)}.research-card__number{position:absolute;top:0;right:0;padding:6px 8px;background:var(--journal-ink);color:#fff;font-size:12px;font-weight:780;letter-spacing:.08em}.research-card .study-code{padding-right:58px}.research-card .study-code span{color:#1f618f}.research-card .study-code b{color:#8a6a29}.research-card .study-field{margin-top:11px;color:#66717b}.research-card h3{margin-top:14px;font-size:21px;line-height:1.27;font-weight:790;letter-spacing:-.038em;text-wrap:balance}.research-card__question{margin-top:14px;padding-top:12px;border-top:1px solid #aeb5ba;font-size:13px;line-height:1.55;font-weight:700}.research-card__question span{display:block;margin-bottom:5px;color:#286a9b;font-size:12px;font-weight:820;letter-spacing:.09em}.research-card__thesis{display:-webkit-box;margin-top:10px;overflow:hidden;color:#59636c;font-size:12.5px;line-height:1.65;-webkit-box-orient:vertical;-webkit-line-clamp:3}.research-card__foot{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-top:auto;padding-top:17px}.research-card__foot>span{color:#6c747b;font-size:12px;line-height:1.45}.research-card__foot a{flex:0 0 auto;color:#173e5e;font-size:13px;font-weight:800}.research-card__foot i{font-style:normal}
+  .method{margin-top:76px;padding:29px 30px 31px;background:var(--journal-paper);border-block:2px solid var(--journal-ink)}.method header{display:flex;align-items:end;justify-content:space-between;gap:28px}.method h2{font-size:26px;font-weight:800;letter-spacing:-.04em}.method ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:24px;border:1px solid #aeb4b8}.method li{padding:18px;list-style:none}.method li+li{border-left:1px solid #aeb4b8}.method li span{color:#9a762f;font-size:12px;font-weight:820}.method li strong{display:block;margin-top:15px;font-size:18px;font-weight:800}.method li p{margin-top:8px;color:#606970;font-size:12.5px;line-height:1.65}
+  .empty{padding:80px 0;text-align:center;font-size:14px}.tactics-index a:focus-visible{outline:3px solid #338ac6;outline-offset:4px}
+  @keyframes grid-drift{from{background-position:0 0,0 0,0 0}to{background-position:48px 48px,48px 48px,0 0}}
+  @media(max-width:1000px){.current-study__layout{grid-template-columns:minmax(0,1fr) minmax(350px,.92fr)}.research-grid{grid-template-columns:1fr}.research-card{grid-template-columns:minmax(270px,.78fr) minmax(0,1.22fr)}}
+  @media(max-width:900px){.current-study__layout{grid-template-columns:1fr}.current-study__copy{min-height:0}}
+  @media(max-width:760px){.journal-head{grid-template-columns:1fr;gap:28px}.journal-head__status{max-width:none}.journal-intro{grid-template-columns:1fr;gap:23px}.journal-intro>strong{justify-self:start}.current-study__layout{grid-template-columns:1fr}.current-study__copy{min-height:0}.research-card{grid-template-columns:1fr 1fr}.method ol{grid-template-columns:repeat(2,minmax(0,1fr))}.method li:nth-child(3){border-left:0;border-top:1px solid #aeb4b8}.method li:nth-child(4){border-top:1px solid #aeb4b8}}
+  @media(max-width:560px){.tactics-index{padding:26px 16px 62px}.journal-head__title h1{font-size:64px}.journal-head__title>span{font-size:15px}.journal-head__status>div{grid-template-columns:1fr;gap:5px}.journal-head__status dd{text-align:left}.journal-intro>p{font-size:13px;line-height:1.82}.journal-intro>strong{font-size:17px}.current-study{margin-top:48px}.section-head{flex-wrap:wrap}.section-head>b{width:100%;margin-left:0}.current-study__copy{padding:27px 20px 24px}.current-study h2{font-size:30px}.study-abstract>div{grid-template-columns:1fr;gap:6px}.research-index{margin-top:58px}.research-card{grid-template-columns:1fr}.research-card__copy{min-height:390px;border-left:0;border-top:1px solid #c8cdd1}.section-head--index>div h2{font-size:24px}.method{margin-top:62px;padding:25px 0 0}.method header{display:block;padding:0 4px}.method h2{margin-top:6px;font-size:23px}.method ol{grid-template-columns:1fr;margin-top:20px;border-inline:0;border-bottom:0}.method li+li,.method li:nth-child(3),.method li:nth-child(4){border-left:0;border-top:1px solid #aeb4b8}}
+  @media(prefers-reduced-motion:reduce){.current-study__copy:before{animation:none}.research-card,.study-link i{transition:none}}
+</style>

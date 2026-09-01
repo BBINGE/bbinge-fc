@@ -22,6 +22,7 @@ import PilgrimageCategoryPage from '../components/PilgrimageCategoryPage.astro';
 import FootballMadeEasyCategoryPage from '../components/FootballMadeEasyCategoryPage.astro';
 import SquadsCategoryPage from '../components/SquadsCategoryPage.astro';
 import HighlightsCategoryPage from '../components/HighlightsCategoryPage.astro';
+import TacticsCategoryPage from '../components/TacticsCategoryPage.astro';
 import FashionProfileCard from '../components/FashionProfileCard.astro';
 import { archiveBranches } from '../data/archive';
 
@@ -150,6 +151,8 @@ if (props.kind === 'category') {
       <SquadsCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
     ) : categoryView.categorySlug === 'highlights' ? (
       <HighlightsCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
+    ) : categoryView.categorySlug === 'tactics' ? (
+      <TacticsCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
     ) : (
     <div class="max-w-[1040px] mx-auto px-4 md:px-5 py-6">
       <div class="min-w-0">
