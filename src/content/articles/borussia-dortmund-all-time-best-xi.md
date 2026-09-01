@@ -5,7 +5,7 @@ category: "custom-best-xi"
 tags: ["보루시아 도르트문트", "BVB", "푸스발-분데스리가", "베스트 11", "알프레트 프라이슬러", "마티아스 자머", "마르코 로이스"]
 pubDate: 2026-08-21T16:53:35+09:00
 coverImage: "/images/squads/borussia-dortmund-all-time-best-xi/borussia-dortmund-best-xi-cover.webp"
-cardImage: "/images/squads/borussia-dortmund-all-time-best-xi/borussia-dortmund-best-xi-card.webp"
+cardImage: "/images/squads/borussia-dortmund-all-time-best-xi/card-bbinge-2025.webp"
 coverImageAlt: "마르코 로이스의 얼굴과 보루시아 도르트문트 문장, 역대 베스트 11 제목을 노랑과 검정으로 구성한 표지"
 coverImageCaption: "로이스의 얼굴로 문을 열되 마지막 자리는 프라이슬러에게 내준다. 마르코 로이스 사진: Tim Reckmann, CC BY-SA 3.0. 경기장 사진: Marvin Ronsdorf, CC0 1.0. 구도·색채·타이포그래피: 박성호(삥이)·삥이FC. 생성형 AI 미사용."
 coverImageWidth: 1200
