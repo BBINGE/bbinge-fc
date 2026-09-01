@@ -10,36 +10,36 @@ const stories = [
     id: 'grande-torino-wm-system-tactics',
     href: '/tactics/grande-torino-wm-system-tactics/',
     index: '01',
-    label: '축술 · 움직임',
-    title: 'WM은 어떻게 살아 움직였나',
-    description: '마촐라와 로이크, 중원 사각형으로 읽는 3-2-2-3',
+    label: '축술 · 이기는 방식',
+    title: '그란데 토리노는 WM으로 어떻게 이겼나',
+    description: '마촐라와 로이크가 3-2-2-3 안에서 움직인 방식',
     image: '/images/tactics/grande-torino-wm/grande-torino-wm-cover.png',
   },
   {
     id: 'grande-torino-card-news',
     href: '/history/grande-torino-card-news/',
     index: '02',
-    label: '축세 · 일곱 장면',
-    title: '수페르가에서는 무엇이 멈췄나',
-    description: '마지막 원정과 참사, 애도의 시간을 비주얼 스토리로 읽기',
+    label: '축세 · 사고와 애도',
+    title: '수페르가 사고로 토리노에 무슨 일이 생겼나',
+    description: '마지막 경기부터 비행기 사고와 장례까지, 7장의 이미지로 빠르게 읽기',
     image: '/images/history/grande-torino-cards/card-01.png',
   },
   {
     id: 'why-grande-torino-did-not-remain',
     href: '/history/why-grande-torino-did-not-remain/',
     index: '03',
-    label: '축세 · 계승',
-    title: '왜 이탈리아에 남지 못했나',
-    description: '사라진 전술 생태계와 살아남은 카테나초의 계보',
+    label: '축세 · 몰락의 이유',
+    title: '최강 토리노는 왜 다시 만들어지지 못했나',
+    description: '선수단을 잃은 뒤 전술과 구단 시스템까지 함께 끊긴 이유',
     image: '/images/history/grande-torino/grande-torino-filadelfia.png',
   },
   {
     id: 'turin-juventus-walk-of-fame-travel-10',
     href: '/pilgrimage/turin-juventus-walk-of-fame-travel-10/',
     index: '04',
-    label: '축행 · 현장',
-    title: '토리노에서 기억의 주소를 걷다',
-    description: '필라델피아·박물관·수페르가를 잇는 2박 3일 동선',
+    label: '축행 · 여행 동선',
+    title: '토리노의 경기장과 수페르가는 어떻게 가나',
+    description: '필라델피아·박물관·수페르가를 실제 2박 3일 동선으로 연결하기',
     image: '/images/pilgrimage/turin-two-museums/turin-two-museums-card.webp',
   },
 ];
@@ -50,7 +50,7 @@ const related = stories.filter((story) => story.id !== currentId);
 <aside class="torino-route" aria-labelledby="torino-route-title">
   <header>
     <div><span>TORINO READING ROUTE · 01—04</span><h2 id="torino-route-title">그란데 토리노를<br />네 개의 시선으로 읽기</h2></div>
-    <p>전술의 움직임, 수페르가의 시간, 사라진 계승선, 그리고 오늘 걸을 수 있는 장소. 지금 읽은 글에서 멈추지 않도록 다음 질문을 골랐다.</p>
+    <p>전술이 궁금한지, 사고의 전말이 궁금한지, 몰락의 이유가 궁금한지, 직접 토리노에 가고 싶은지에 따라 다음 글을 고르면 된다.</p>
   </header>
   <div class="torino-route__grid">
     {related.map((story) => (
