@@ -25,6 +25,8 @@ const articles = defineCollection({
       coverImageCaption: z.string().optional(),
       coverImageWidth: z.number().int().positive().optional(),
       coverImageHeight: z.number().int().positive().optional(),
+      // OG·목록 이미지는 유지하되 글 본문의 상단 표지만 숨길 때 사용한다.
+      hideCoverImage: z.boolean().default(false),
       gallery: z.array(z.string()).optional(),
       faq: z
         .array(

@@ -10,6 +10,7 @@ coverImageAlt: "붉게 빛나는 뮌헨 경기장과 유럽 제패의 금빛 궤
 coverImageCaption: "알리안츠 아레나 CC0 원사진을 바탕으로 유럽 제패의 기억을 재구성한 편집 표지. 기획·아트디렉션: 삥이FC, AI 기반 이미지 편집 도구 활용."
 coverImageWidth: 1600
 coverImageHeight: 900
+hideCoverImage: true
 draft: false
 featured: true
 ---

@@ -10,6 +10,7 @@ coverImageAlt: "차범근의 1979년 초상과 바이어 04 레버쿠젠 문장,
 coverImageCaption: "차범근의 얼굴로 문을 열고 레버쿠젠 120년의 열한 명을 만난다. 차범근 사진: Nationaal Archief/Anefo, CC BY-SA 3.0 NL. 바이아레나 사진: Partonez, CC BY-SA 4.0. 구도·색채·타이포그래피: 박성호(삥이)·삥이FC. 생성형 AI 미사용."
 coverImageWidth: 1200
 coverImageHeight: 675
+hideCoverImage: true
 draft: false
 featured: true
 ---

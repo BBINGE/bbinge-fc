@@ -228,7 +228,7 @@ if (props.kind === 'category') {
             updatedDate={articleView.entry.data.updatedDate}
           />
         </div>
-        {articleView.entry.data.coverImage && (
+        {articleView.entry.data.coverImage && !articleView.entry.data.hideCoverImage && (
           <ContentCover
             src={articleView.entry.data.coverImage}
             alt={articleView.entry.data.coverImageAlt ?? articleView.entry.data.title}
