@@ -2,6 +2,7 @@ export const site = {
   name: '삥이FC',
   fullName: '삥이FC(풋볼N컬처)_official',
   tagline: '축구의 역사를 놀고, 읽고, 걷는 곳',
+  homeDescription: '축구의 역사·전술·규칙·여행·유니폼을 박성호(삥이)의 관점으로 읽고 기록하는 독립 축구 문화 매거진입니다.',
   url: 'https://bbingefc.com',
   locale: 'ko-KR',
   author: '삥이',
