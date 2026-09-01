@@ -215,7 +215,7 @@ UEFA의 집계로 범위를 1950년 6월부터 1956년 2월까지 넓히면 50�
   <li id="source-11"><a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/west-germany-hungary-1954-final">「The Miracle of Bern」</a>, FIFA. 결승전 득점, 현장 예측과 헝가리의 골대·크로스바 기록.</li>
   <li id="source-12"><a href="https://www.mlsz.hu/hir/az-aranycsapat-legendaja">「Az Aranycsapat legendája」</a>, 헝가리축구협회. 1950년 6월부터 1956년 10월까지 공식 64경기의 범위와 성적.</li>
   <li id="source-13"><a href="https://valogatott.mlsz.hu/ferfi-a-valogatott/meccs/213">「Magyarország 13-1 Franciaország」</a>, 헝가리축구협회. 1927년 프랑스전의 날짜, 득점자와 경기 기록.</li>
-  <li><a href="https://blog.naver.com/sho3603/223725911729">원문: 「세계 축구 Elo 레이팅 역대 1위 헝가리 축구 그리고 토털 풋볼」</a>. 2025년 공개한 운영자 원고와 제작 이미지를 저본으로 삼아 인물 표기, 전술 용어, 기록 범위와 출처를 다시 대조한 개정판이다.</li>
+  <li><a href="https://blog.naver.com/sho3603/223725911729">원문: 「세계 축구 Elo 레이팅 역대 1위 헝가리 축구 그리고 토털 풋볼」</a>. 2025년 공개한 원고와 제작 이미지를 저본으로 삼아 인물 표기, 전술 용어, 기록 범위와 출처를 다시 대조한 개정판이다.</li>
 </ol>
 </section>
 

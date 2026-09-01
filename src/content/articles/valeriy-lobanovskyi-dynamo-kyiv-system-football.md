@@ -84,7 +84,7 @@ draft: false
 
 <figure class="vl-photo vl-photo--diagram">
   <img src="/images/tactics/valeriy-lobanovskyi/dynamo-saint-etienne-tactical-map.jpg" alt="1975-76 유러피언컵 생테티엔전 디나모 키이우의 선수 배치와 이동을 표시한 전술도" width="966" height="658" loading="lazy" decoding="async" />
-  <figcaption>1975-76 유러피언컵 AS 생테티엔전의 디나모 키이우를 정리한 운영자의 전술도. 레오니드 부랴크·빅토르 콜로토우·볼로디미르 베레메예우의 위치 변화는 한 명의 가짜 9번보다 중원 전체가 전진선과 압박 방향을 바꾸는 유동성으로 읽는 편이 정확하다.</figcaption>
+  <figcaption>1975-76 유러피언컵 AS 생테티엔전 디나모 키이우의 선수 배치와 이동을 직접 정리한 전술도. 레오니드 부랴크·빅토르 콜로토우·볼로디미르 베레메예우의 위치 변화는 한 명의 가짜 9번보다 중원 전체가 전진선과 압박 방향을 바꾸는 유동성으로 읽는 편이 정확하다.</figcaption>
 </figure>
 
 이 전술도에서 중요한 것은 특정 선수 세 명에게 ‘가짜 9번’이라는 이름을 붙이는 일이 아니다. 레오니드 부랴크<span class="foreign-note" lang="uk">(Леонід Йосипович Буряк; 우크라이나 축구 선수·미드필더, 1953-)</span>, 빅토르 콜로토우<span class="foreign-note" lang="uk">(Віктор Михайлович Колотов; 우크라이나 축구 선수·미드필더, 1949-2000)</span>, 볼로디미르 베레메예우<span class="foreign-note" lang="uk">(Володимир Григорович Веремєєв; 우크라이나 축구 선수·미드필더, 1948-)</span>가 정해진 가로선에 머물지 않고 공의 위치에 따라 앞뒤 간격을 바꾸는 방식이다. 한 선수가 전진하면 다른 선수가 연결 지점을 만들고, 공을 잃으면 가까운 선수들이 함께 통로를 닫았다.

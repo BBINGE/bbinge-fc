@@ -131,6 +131,6 @@ relatedGroup: 'fifa-world-cup-1954'
     <li id="source-12"><a href="https://www.chosun.com/site/data/html_dir/2010/06/09/2010060902567.html?outputType=amp">「대한민국 월드컵 도전사」</a>, 조선일보. 출국복과 유니폼 번호에 관한 선수·수집가의 후대 회고.</li>
     <li id="source-13"><a href="https://www.kfa.or.kr/archive/player_record.php?search_val=%ED%99%8D%EB%8D%95%EC%98%81">「선수별 A매치 기록: 홍덕영」</a>, 대한축구협회. 홍덕영의 생년과 국가대표 골키퍼 기록.</li>
     <li id="source-14"><a href="https://www.tff.org/default.aspx?pageID=311">「A Milli Takım Tarihçesi 2」</a>, 튀르키예축구협회. 1954년 대한민국전 득점자와 득점 시간.</li>
-    <li><a href="https://blog.naver.com/sho3603/223720768629">원문: 「폐허 속 대한민국 축구 국가대표팀의 1954 FIFA 월드컵 도전기」</a>. 본문 사진과 영상은 운영자가 제공한 원문 자산을 사용했다.</li>
+    <li><a href="https://blog.naver.com/sho3603/223720768629">원문: 「폐허 속 대한민국 축구 국가대표팀의 1954 FIFA 월드컵 도전기」</a>. 본문 사진과 영상은 기존 원문 자산을 사용했다.</li>
   </ol>
 </div>

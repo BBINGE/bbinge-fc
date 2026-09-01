@@ -124,6 +124,6 @@ relatedGroup: 'fifa-world-cup-1934'
     <li><a href="https://inside.fifa.com/tournaments/mens/worldcup/1934italy/news/pozzo-prepares-azzurri-push-2769391">“Pozzo prepares Azzurri push”</a>, FIFA. 오르시의 동점골 뒤 포초의 전술 조정과 스키아비오의 연장 결승골.</li>
     <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina">“World Cup winners from 1930 to 1978”</a>, FIFA. 1934년 이탈리아의 첫 우승 기록.</li>
     <li><a href="https://www.rsssf.org/tables/34full.html">“World Cup 1934 finals”</a>, RSSSF. 출전 명단·득점 시간·경기 진행 대조.</li>
-    <li><a href="https://blog.naver.com/sho3603/223515199933">“1934 FIFA 월드컵 결승전: 이탈리아 v 체코슬로바키아”</a>, 삥이N스포츠_Official. 운영자의 기존 원문과 장면 배열.</li>
+    <li><a href="https://blog.naver.com/sho3603/223515199933">“1934 FIFA 월드컵 결승전: 이탈리아 v 체코슬로바키아”</a>, 삥이N스포츠_Official. 기존 원문과 장면 배열.</li>
   </ol>
 </div>
