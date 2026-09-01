@@ -2,7 +2,7 @@
 title: '세계 축구 Elo 레이팅 역대 1위, 헝가리 황금의 팀과 토털 풋볼'
 description: '다뉴브 학파와 오스트리아 분더팀, 이탈리아 메토도와 잉글랜드 WM을 지나 헝가리 황금의 팀에 모인 전술의 계보를 따라간다.'
 category: 'tactics'
-tags: ['헝가리 황금의 팀', '매직 마자르', '다뉴브 학파', '토털 풋볼', '푸슈카시 페렌츠', '히데그쿠티 난도르', '세베시 구스타브', '축구 전술사', 'Elo 레이팅']
+tags: ['헝가리 황금의 팀', '매직 마자르', '다뉴브 학파', '토털 풋볼', '푸슈카시 페렌츠', '히데그쿠티 난도르', '셰베시 구스타브', '축구 전술사', 'Elo 레이팅']
 pubDate: 2026-08-24T23:32:00+09:00
 coverImage: '/images/tactics/hungary-golden-team/puskas.png'
 cardImage: '/images/tactics/hungary-golden-team/puskas.png'
@@ -93,7 +93,7 @@ relatedGroup: 'fifa-world-cup-1954'
 
 헝가리 황금의 팀<span class="foreign-note" lang="hu">(Aranycsapat; ‘황금의 팀’을 뜻하는 1950년대 헝가리 대표팀의 별칭)</span>을 선수들의 우연한 황금세대라고만 보면 절반을 놓친다.
 
-세베시 구스타브<span class="foreign-note" lang="hu">(Sebes Gusztáv; 헝가리 축구 감독·노동운동가, 1906-1986)</span>는 대표팀을 소집 기간에만 만나는 선발팀이 아니라 지속적으로 훈련하는 하나의 경기 조직으로 바꾸려 했다. 공산주의 체제의 스포츠 정책 아래 핵심 선수들은 부다페스트 혼베드와 MTK 부다페스트에 집중됐다. 푸슈카시와 코치시, 보지크가 혼베드에서 호흡을 맞추고 히데그쿠티와 란토시, 저커리아시가 MTK에서 관계를 축적했다. 대표팀의 전술 토론에는 주장 푸슈카시를 비롯한 선수들이 참여했고, 지방 팀과의 비공식 경기에서는 국제경기에서 사용할 움직임을 반복했다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 소집 때마다 원칙을 새로 설명해야 하는 일반적인 국가대표팀과 달리, 헝가리는 오늘날 빅클럽이 매일 훈련장에서 축적하는 위치 감각과 패스의 시간을 대표팀 차원에서 공유할 수 있었다.
+셰베시 구스타브<span class="foreign-note" lang="hu">(Sebes Gusztáv; 헝가리 축구 감독·노동운동가, 1906-1986)</span>는 대표팀을 소집 기간에만 만나는 선발팀이 아니라 지속적으로 훈련하는 하나의 경기 조직으로 바꾸려 했다. 공산주의 체제의 스포츠 정책 아래 핵심 선수들은 부다페스트 혼베드와 MTK 부다페스트에 집중됐다. 푸슈카시와 코치시, 보지크가 혼베드에서 호흡을 맞추고 히데그쿠티와 런토시, 저커리아시가 MTK에서 관계를 축적했다. 대표팀의 전술 토론에는 주장 푸슈카시를 비롯한 선수들이 참여했고, 지방 팀과의 비공식 경기에서는 국제경기에서 사용할 움직임을 반복했다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 소집 때마다 원칙을 새로 설명해야 하는 일반적인 국가대표팀과 달리, 헝가리는 오늘날 빅클럽이 매일 훈련장에서 축적하는 위치 감각과 패스의 시간을 대표팀 차원에서 공유할 수 있었다.
 
 물론 이것을 낭만적인 축구 실험으로만 보면 곤란하다. 선수 이동을 국가가 관리했고 혼베드는 군대의 팀이었으므로, 푸슈카시의 별명 ‘질주하는 소령’도 그냥 멋으로 붙은 것이 아니었다. 실제 군 계급을 가진 선수였던 그의 자유로운 위치 교환은 자유롭지 않은 정치 체제 위에서 가능했다. 축구사는 가끔 이런 모순을 아무렇지도 않게 한 팀 안에 넣어 둔다.
 
@@ -111,7 +111,7 @@ relatedGroup: 'fifa-world-cup-1954'
   <div class="board-heading"><span>WEMBLEY · 25 NOV 1953</span><strong>히데그쿠티가 내려가고, 두 인사이드가 찔렀다</strong><small>선발 명단과 대표적 공격 움직임</small></div>
   <div class="pitch-lines" aria-hidden="true"></div>
   <span class="player p-gk">그로시치<small>GK</small></span>
-  <span class="player p-lb">란토시<small>FB</small></span><span class="player p-cb">로란트<small>CH</small></span><span class="player p-rb">부잔스키<small>FB</small></span>
+  <span class="player p-lb">런토시<small>FB</small></span><span class="player p-cb">로란트<small>CH</small></span><span class="player p-rb">부잔스키<small>FB</small></span>
   <span class="player p-lh">저커리아시<small>LH</small></span><span class="player p-rh">보지크<small>RH</small></span>
   <span class="player p-ol">치보르<small>OL</small></span><span class="player p-il runner">푸슈카시<small>IL ↑</small></span><span class="player p-cf featured-player">히데그쿠티<small>CF ↓</small></span><span class="player p-ir runner">코치시<small>IR ↑</small></span><span class="player p-or">부다이<small>OR</small></span>
   <span class="drop-arrow" aria-hidden="true">↓</span><span class="run-arrow run-left" aria-hidden="true">↑</span><span class="run-arrow run-right" aria-hidden="true">↑</span>

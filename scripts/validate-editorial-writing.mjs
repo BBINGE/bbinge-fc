@@ -39,6 +39,25 @@ const commonForeignNoteTerms = [
   '바이에른 뮌헨',
 ];
 
+const canonicalTermRules = [
+  [/프리미어리그/g, '프리미어 리그'],
+  [/UEFA 챔피언스리그/g, 'UEFA 챔피언스 리그'],
+  [/UEFA 유로파리그/g, 'UEFA 유로파 리그'],
+  [/UEFA 컨퍼런스리그/g, 'UEFA 컨퍼런스 리그'],
+  [/(?<!UEFA )(?<!AFC )(?<!여자 )챔피언스 리그/g, 'UEFA 챔피언스 리그'],
+  [/(?<!UEFA )유로파 리그/g, 'UEFA 유로파 리그'],
+  [/(?<!UEFA )컨퍼런스 리그/g, 'UEFA 컨퍼런스 리그'],
+  [/세베시 구스타브/g, '셰베시 구스타브'],
+  [/부다이 라슬로/g, '부더이 라슬로'],
+  [/란토시/g, '런토시'],
+  [/팔로타시/g, '펄로타시'],
+  [/젱겔러 줄러/g, '젱겔레르 줄러'],
+  [/리뉘스 미헬스/g, '리뉘스 미헐스'],
+  [/페렌츠 푸슈카시/g, '푸슈카시 페렌츠'],
+  [/매직 머저르/g, '매직 마자르'],
+  [/어러니처퍼트/g, '아라니처파트'],
+];
+
 const connectiveOpening = /^(?:그러나|하지만|다만|그래서|따라서|그럼에도|반면|한편|실제로|이후|이때|동시에|결국|즉|또한|그러면서|그런데|마침|그제야|반대로|그 사이|이 과정|때문에)/;
 
 const integrationRequirements = new Map([
@@ -174,6 +193,18 @@ function validateSource(source, relative = 'fixture.md') {
     }
   }
 
+  for (const [rule, replacement] of canonicalTermRules) {
+    const pattern = new RegExp(rule.source, rule.flags);
+    for (const match of source.matchAll(pattern)) {
+      issues.push({
+        code: 'CANONICAL-TERMINOLOGY',
+        message: `비표준 표기 '${match[0]}'를 '${replacement}'로 교정하십시오.`,
+        line: lineAt(source, match.index),
+        relative,
+      });
+    }
+  }
+
   const headings = [];
   for (const match of body.matchAll(/^#{2,4}\s+(.+)$/gm)) {
     headings.push({ text: visibleText(match[1]), index: match.index });
@@ -224,6 +255,8 @@ function runSelfTest() {
   const fixtures = [
     ['대비형 소제목', '## 스타가 아니라 시스템이었다\n\n본문입니다.', 'HEADING-NO-FORCED-CONTRAST'],
     ['제작 과정', '자료를 찾아보니 이 기록이 나왔다.', 'NO-PROCESS-META'],
+    ['비표준 대회명', '프리미어리그와 챔피언스 리그를 우승했다.', 'CANONICAL-TERMINOLOGY'],
+    ['비표준 인명', '세베시 구스타브와 리뉘스 미헬스가 남긴 전술을 비교했다.', 'CANONICAL-TERMINOLOGY'],
     ['대중 용어 원어 풀이', '추가시간<span class="foreign-note" lang="en">(additional time)</span>은 주심이 정한다.', 'FOREIGN-NOTE-SELECTIVE'],
     ['짧은 문단 연타', '경기가 다시 시작됐다.\n\n관중은 시계를 바라봤다.\n\n벤치는 항의를 이어갔다.\n\n주심은 손목을 가리켰다.\n\n휘슬은 아직 울리지 않았다.', 'PROSE-FLOW'],
   ];
@@ -288,4 +321,4 @@ if (failures.length > 0) {
 }
 
 console.log('삥이FC 글쓰기 규칙 검수 통과');
-console.log('자동 차단: 제작 과정 노출 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타');
+console.log('자동 차단: 제작 과정 노출 · 비표준 대회명·인명 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타');

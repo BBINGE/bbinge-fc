@@ -114,7 +114,7 @@ UEFA 챔피언스 리그 결승에서 시티는 공을 가졌을 때 3-2-4-1을 
 
 여기서 다뉴브 학파를 불러오는 이유는 펩의 족보를 억지로 1930년대 빈에 꽂기 위해서가 아니다.
 
-다뉴브 학파<span class="foreign-note" lang="en">(Danubian School; 다뉴브강 주변 중부유럽에서 발전한 짧은 패스와 유동적 위치 교환의 전술 계보)</span>에서 후고 마이슬<span class="foreign-note" lang="de">(Hugo Meisl; 오스트리아 축구 행정가·감독, 1881-1937)</span>과 지미 호건<span class="foreign-note" lang="en">(James Hogan; 잉글랜드 축구 선수·지도자, 1882-1974)</span>은 서로 영향을 주고받았다. 마티아스 신델라르<span class="foreign-note" lang="de">(Matthias Sindelar; 오스트리아 축구 선수·센터포워드, 1903-1939)</span>가 중앙에서 내려와 동료의 침투 공간을 만든 오스트리아 분더팀<span class="foreign-note" lang="de">(Wunderteam; ‘기적의 팀’이라 불린 후고 마이슬 시기의 오스트리아 대표팀)</span>, 세베시 구스타브<span class="foreign-note" lang="hu">(Sebes Gusztáv; 헝가리 축구 감독·노동운동가, 1906-1986)</span>의 헝가리에서 더 크게 폭발한 위치 교환은 포지션을 고정된 주소가 아니라 관계 속에서 바뀌는 역할로 읽게 했다. 그 변화의 전체 과정은 [헝가리 황금의 팀과 토털 풋볼의 계보](/tactics/hungary-golden-team-total-football-elo-rating/)에서 이미 길게 다뤘다.
+다뉴브 학파<span class="foreign-note" lang="en">(Danubian School; 다뉴브강 주변 중부유럽에서 발전한 짧은 패스와 유동적 위치 교환의 전술 계보)</span>에서 후고 마이슬<span class="foreign-note" lang="de">(Hugo Meisl; 오스트리아 축구 행정가·감독, 1881-1937)</span>과 지미 호건<span class="foreign-note" lang="en">(James Hogan; 잉글랜드 축구 선수·지도자, 1882-1974)</span>은 서로 영향을 주고받았다. 마티아스 신델라르<span class="foreign-note" lang="de">(Matthias Sindelar; 오스트리아 축구 선수·센터포워드, 1903-1939)</span>가 중앙에서 내려와 동료의 침투 공간을 만든 오스트리아 분더팀<span class="foreign-note" lang="de">(Wunderteam; ‘기적의 팀’이라 불린 후고 마이슬 시기의 오스트리아 대표팀)</span>, 셰베시 구스타브<span class="foreign-note" lang="hu">(Sebes Gusztáv; 헝가리 축구 감독·노동운동가, 1906-1986)</span>의 헝가리에서 더 크게 폭발한 위치 교환은 포지션을 고정된 주소가 아니라 관계 속에서 바뀌는 역할로 읽게 했다. 그 변화의 전체 과정은 [헝가리 황금의 팀과 토털 풋볼의 계보](/tactics/hungary-golden-team-total-football-elo-rating/)에서 이미 길게 다뤘다.
 
 <div class="history-pair">
   <figure class="editorial-photo">
@@ -137,7 +137,7 @@ UEFA 챔피언스 리그 결승에서 시티는 공을 가졌을 때 3-2-4-1을 
 
 그러니 펩을 현대 축구의 모든 것을 혼자 발명한 감독으로 떠받들 필요도 없고, 오래된 전술을 세련되게 복사한 사람으로 낮출 필요도 없다. 그의 능력은 과거의 답안을 외우는 데 있지 않다. 자신이 물려받은 원칙을 현재의 선수와 상대, 규칙과 압박 환경에 맞춰 다시 배열하는 데 있다.
 
-필자가 이 비교에서 얻은 결론은 하나다. 포메이션은 선수들이 선 자리를 기록하지만, 전술은 그들이 왜 그곳에 도착했는지를 설명한다. 전술의 천외천은 세상에 없던 숫자를 그리는 데 있지 않다. 같은 숫자라도 선수의 재능과 상대의 압박, 공을 잃은 뒤의 위험에 맞춰 전혀 다른 운동으로 바꾸는 데 있다.
+필자가 이 비교에서 얻은 결론은 하나다. 포메이션은 선수들이 선 자리를 기록하지만, 전술은 그들이 왜 그곳에 도착했는지를 설명한다. 전술의 천외천<span class="foreign-note" lang="zh-Hant">(天外天)</span>은 세상에 없던 숫자를 그리는 데 있지 않다. 같은 숫자라도 선수의 재능과 상대의 압박, 공을 잃은 뒤의 위험에 맞춰 전혀 다른 운동으로 바꾸는 데 있다.
 
 WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 오래된 3+2의 외곽선이, 한 세기 뒤 센터백이 올라가는 순간 다시 나타났다. 축구 전술은 직선으로 진화하지 않는다. 오래전에 사라진 모양이 전혀 다른 이유로 되돌아오고, 그리하여 우리는 비로소 포메이션의 숫자보다 움직임의 원인을 보게 된다.
 
@@ -148,8 +148,8 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
   <li id="source-2"><a href="https://nationalfootballmuseum.com/halloffame/herbert-chapman/">「Herbert Chapman Hall Of Fame profile」</a>, National Football Museum. 2-3-5가 지배적이던 시기의 채프먼과 3-2-2-3 WM 구조.</li>
   <li id="source-3"><a href="https://www.uefa.com/news-media/news/0284-18b1cabb3070-0e9f14781d59-1000--uefa-super-cup-talking-tactics/">「UEFA Super Cup: Talking tactics」</a>, UEFA. 스톤스가 로드리 옆으로 이동한 구조와 후방·중원의 수적 우위.</li>
   <li id="source-4"><a href="https://www.uefa.com/uefachampionsleague/news/0278-15f13230f46c-f5746795e8f3-1000--uefa-champions-league-technical-report-five-at-the-back-an/">「UEFA Champions League Technical Report: Five at the back … and the front too」</a>, UEFA. 시티의 전방 5레인과 인버티드 풀백이 공을 잃은 뒤 중앙을 보호하는 기능.</li>
-  <li id="source-5"><a href="https://www.mancity.com/news/mens/pep-guardiola-arsenal-press-conference-embargo-preview-63810348">「Guardiola: I am always picking up new ideas」</a>, Manchester City FC. 크루이프를 가장 큰 영향으로 꼽으면서도 계속 새로운 아이디어를 배운다는 과르디올라의 설명.</li>
-  <li id="source-6"><a href="https://www.mancity.com/features/cruyff-way/">「The Cruyff Way」</a>, Manchester City FC. 선수 시절부터 이어진 크루이프와 과르디올라의 직접적인 전술·철학 관계.</li>
+  <li id="source-5"><a href="https://www.mancity.com/news/mens/pep-guardiola-arsenal-press-conference-embargo-preview-63810348">「Guardiola: I am always picking up new ideas」</a>, Manchester City FC. 크라위프를 가장 큰 영향으로 꼽으면서도 계속 새로운 아이디어를 배운다는 과르디올라의 설명.</li>
+  <li id="source-6"><a href="https://www.mancity.com/features/cruyff-way/">「The Cruyff Way」</a>, Manchester City FC. 선수 시절부터 이어진 크라위프와 과르디올라의 직접적인 전술·철학 관계.</li>
   <li id="source-7"><a href="https://www.uefa.com/uefachampionsleague/news/0280-17cf300663cb-fb9072992b3f-1000--man-city-meet-the/">「Man City: Meet the Champions League winners」</a>, UEFA. 2022-23 맨체스터 시티의 첫 UEFA 챔피언스 리그 우승과 트레블 기록.</li>
 </ol>
 </section>

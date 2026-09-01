@@ -136,7 +136,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 뮌헨에서 태어나 열한 살에 바이언 유소년팀에 들어온 그는 슈투트가르트 임대 뒤 양쪽 풀백을 오갔다. 주제프 과르디올라가 중앙 미드필더로 옮겼을 때에도 새로운 포지션을 배우는 시간이 거의 필요하지 않았다. 측면에서 익힌 시야가 중앙에서 더 많은 방향을 얻었다. 패스의 길이보다 어느 발에 보내느냐를 생각했고, 압박을 피한 뒤 동료의 다음 선택까지 편하게 했다.
 
-2012년 ‘피날레 다호암’<span class="foreign-note" lang="de">(Finale dahoam; 바이에른 방언으로 ‘안방 결승’을 뜻하는 2012년 뮌헨 챔피언스 리그 결승의 별칭)</span>에서 무너진 주장은 이듬해 웸블리에서 빅이어를 가장 먼저 들어 올렸다. 2014년에는 독일 대표팀 주장으로 월드컵을 품었다. 바이언 공식전 517경기와 21개의 우승, 퇴장 없이 마친 경력은 ‘미스터 신뢰’라는 별칭에 숫자를 붙인다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+2012년 ‘피날레 다호암’<span class="foreign-note" lang="de">(Finale dahoam; 바이에른 방언으로 ‘안방 결승’을 뜻하는 2012년 뮌헨 UEFA 챔피언스 리그 결승의 별칭)</span>에서 무너진 주장은 이듬해 웸블리에서 빅이어를 가장 먼저 들어 올렸다. 2014년에는 독일 대표팀 주장으로 월드컵을 품었다. 바이언 공식전 517경기와 21개의 우승, 퇴장 없이 마친 경력은 ‘미스터 신뢰’라는 별칭에 숫자를 붙인다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-2.webp" alt="필리프 람의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-3.webp" alt="필리프 람의 바이언 업적 편집물" loading="lazy"></div>
 
@@ -158,7 +158,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 바스티안 슈바인슈타이거<span class="foreign-note" lang="de">(Bastian Schweinsteiger; 독일 축구선수·중앙 미드필더, 1984-)</span>는 측면의 재기 넘치는 소년으로 1군에 올라왔다. 루이 판할이 그를 중앙으로 옮긴 뒤 바이언의 박동은 31번의 발끝에서 고르게 뛰었다. 수비선 앞에서 공을 받고, 압박을 등진 채 방향을 바꾸며, 전진한 풀백의 빈자리까지 메웠다.
 
-2012년 챔피언스 리그 결승 승부차기에서 그의 슈팅은 골대를 때렸다. 고향의 경기장에서 우승컵을 내준 장면은 오래 남았고, 선수는 그 기억을 피해 가지 않았다. 2013년에는 더 낮고 단단한 중심이 되어 트레블을 완성했다. 우승의 장면만으로는 슈바인슈타이거를 다 설명하기 어렵다. 무너진 다음 해에 같은 대회를 처음부터 다시 건너간 시간이 그의 축구를 완성했다.
+2012년 UEFA 챔피언스 리그 결승 승부차기에서 그의 슈팅은 골대를 때렸다. 고향의 경기장에서 우승컵을 내준 장면은 오래 남았고, 선수는 그 기억을 피해 가지 않았다. 2013년에는 더 낮고 단단한 중심이 되어 트레블을 완성했다. 우승의 장면만으로는 슈바인슈타이거를 다 설명하기 어렵다. 무너진 다음 해에 같은 대회를 처음부터 다시 건너간 시간이 그의 축구를 완성했다.
 
 2014년 월드컵 결승의 연장전, 아르헨티나 선수들과 부딪칠 때마다 얼굴과 몸에 상처가 늘었다. 그는 다시 일어나 중앙을 지켰고, 독일은 마리오 괴체의 골 뒤 네 번째 별을 달았다. 바이언 1군 공식전 500경기, 68골, 여덟 차례 분데스리가와 2013년 트레블. 팬들이 붙인 *Fußballgott*는 직역하면 ‘축구의 신’이다. 초월적인 재능보다 오래 견딘 충성에 바친 이름이었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
@@ -297,7 +297,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   <li><strong>하산 살리하미지치</strong><small lang="bs">Hasan Salihamidžić · 오른쪽 미드필더</small><p>끝없는 활동량으로 2001년 우승 세대의 측면과 중원을 메웠다.</p></li>
   <li><strong>메흐메트 숄</strong><small lang="de">Mehmet Tobias Scholl · 공격형 미드필더</small><p>창조적 패스와 킥으로 1990년대와 2000년대 초를 이어 준 기술자.</p></li>
   <li><strong>루카스 포돌스키</strong><small lang="de">Lukas Josef Podolski · 왼쪽 윙어·공격수</small><p>강한 왼발과 직선적인 돌파를 남긴 독일 대표 공격수.</p></li>
-  <li><strong>킹슬레 코망</strong><small lang="fr">Kingsley Junior Coman · 왼쪽 윙어</small><p>2020년 챔피언스 리그 결승골로 유럽 제패를 확정했다.</p></li>
+  <li><strong>킹슬레 코망</strong><small lang="fr">Kingsley Junior Coman · 왼쪽 윙어</small><p>2020년 UEFA 챔피언스 리그 결승골로 유럽 제패를 확정했다.</p></li>
   <li><strong>파울루 세르지우</strong><small lang="pt-BR">Paulo Sérgio Silvestre do Nascimento · 오른쪽 윙어</small><p>브라질 특유의 기술과 활동량으로 2001년 공격진을 보완했다.</p></li>
   <li><strong>라이너 올하우저</strong><small lang="de">Rainer Ohlhauser · 센터 포워드</small><p>승격기와 초기 분데스리가에서 폭발적인 득점을 맡은 공격수.</p></li>
   <li><strong>위르겐 클린스만</strong><small lang="de">Jürgen Klinsmann · 센터 포워드</small><p>1990년대 ‘FC 할리우드’의 소란 속에서도 골을 책임졌다.</p></li>

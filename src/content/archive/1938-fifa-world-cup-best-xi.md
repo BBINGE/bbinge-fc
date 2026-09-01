@@ -42,11 +42,11 @@ relatedGroup: 'fifa-world-cup-1938'
 
 ## 레오니다스, 피올라, 그리고 헝가리의 두 명
 
-<div class="honours-grid"><div><span>득점 1위</span><strong>레오니다스 다시우바</strong><small>브라질 · 4경기 7골</small></div><div><span>득점 공동 2위</span><strong>실비오 피올라</strong><small>이탈리아 · 4경기 5골</small></div><div><span>득점 공동 2위</span><strong>샤로시 죄르지 · 젱겔러 줄러</strong><small>헝가리 · 각 5골</small></div></div>
+<div class="honours-grid"><div><span>득점 1위</span><strong>레오니다스 다시우바</strong><small>브라질 · 4경기 7골</small></div><div><span>득점 공동 2위</span><strong>실비오 피올라</strong><small>이탈리아 · 4경기 5골</small></div><div><span>득점 공동 2위</span><strong>샤로시 죄르지 · 젱겔레르 줄러</strong><small>헝가리 · 각 5골</small></div></div>
 
 브라질은 우승하지 못했지만 대회의 가장 강렬한 공격수는 레오니다스 다시우바<span class="foreign-note" lang="pt-BR">(Leônidas da Silva; 브라질 공격수, 1913-2004)</span>였다. 폴란드와의 첫 경기에서 해트트릭을 포함해 네 골을 넣었고, 체코슬로바키아와의 두 경기와 3·4위전에서도 득점했다. 준결승 이탈리아전에는 출전하지 못했는데도 일곱 골로 득점왕을 차지했다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-그 뒤를 실비오 피올라<span class="foreign-note" lang="it">(Silvio Piola; 이탈리아 센터 포워드, 1913-1996)</span>와 헝가리의 샤로시 죄르지<span class="foreign-note" lang="hu">(Sárosi György; 헝가리 공격수, 1912-1993)</span>, 젱겔러 줄러<span class="foreign-note" lang="hu">(Zsengellér Gyula; 헝가리 공격수, 1915-1999)</span>가 다섯 골로 따랐다. 결승에서도 피올라는 두 골, 샤로시는 한 골을 넣었다. 젱겔러는 결승에서 득점하지 못했지만 앞선 세 경기에서 다섯 골을 몰아쳤다. 공격수 네 명의 이름만으로도 이 대회가 왜 별들의 잔치였는지 충분히 설명된다.
+그 뒤를 실비오 피올라<span class="foreign-note" lang="it">(Silvio Piola; 이탈리아 센터 포워드, 1913-1996)</span>와 헝가리의 샤로시 죄르지<span class="foreign-note" lang="hu">(Sárosi György; 헝가리 공격수, 1912-1993)</span>, 젱겔레르 줄러<span class="foreign-note" lang="hu">(Zsengellér Gyula; 헝가리 공격수, 1915-1999)</span>가 다섯 골로 따랐다. 결승에서도 피올라는 두 골, 샤로시는 한 골을 넣었다. 젱겔레르는 결승에서 득점하지 못했지만 앞선 세 경기에서 다섯 골을 몰아쳤다. 공격수 네 명의 이름만으로도 이 대회가 왜 별들의 잔치였는지 충분히 설명된다.
 
 ## 1938 월드컵 베스트 11
 
@@ -62,7 +62,7 @@ relatedGroup: 'fifa-world-cup-1938'
     <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gino-colaussi.jpg" alt="지노 콜라우시" loading="lazy" /><span>IL</span><strong>지노 콜라우시</strong><small>이탈리아 · 3경기 4골</small></div>
     <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png" alt="레오니다스 다시우바" loading="lazy" /><span>CF</span><strong>레오니다스 다시우바</strong><small>브라질 · 4경기 7골</small></div>
     <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/silvio-piola.jpg" alt="실비오 피올라" loading="lazy" /><span>IR</span><strong>실비오 피올라</strong><small>이탈리아 · 4경기 5골</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" alt="젱겔러 줄러" loading="lazy" /><span>OR</span><strong>젱겔러 줄러</strong><small>헝가리 · 4경기 5골</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" alt="젱겔레르 줄러" loading="lazy" /><span>OR</span><strong>젱겔레르 줄러</strong><small>헝가리 · 4경기 5골</small></div>
   </div>
   <div class="best-xi-line halves">
     <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/ugo-locatelli.jpg" alt="우고 로카텔리" loading="lazy" /><span>LH</span><strong>우고 로카텔리</strong><small>이탈리아 · 4경기</small></div>
@@ -78,7 +78,7 @@ relatedGroup: 'fifa-world-cup-1938'
   </div>
 </div>
 
-2-3-5의 다섯 공격수는 단순히 득점 순위대로 세운 줄이 아니다. 샤로시와 젱겔러가 헝가리의 양쪽을 잡고, 결승에서 네 골을 합작한 콜라우시와 피올라가 레오니다스 곁에 선다. 중앙의 레오니다스는 이 대회 최다 득점자이자 브라질이 처음으로 월드컵 4강에 오른 공격의 중심이었다.
+2-3-5의 다섯 공격수는 단순히 득점 순위대로 세운 줄이 아니다. 샤로시와 젱겔레르가 헝가리의 양쪽을 잡고, 결승에서 네 골을 합작한 콜라우시와 피올라가 레오니다스 곁에 선다. 중앙의 레오니다스는 이 대회 최다 득점자이자 브라질이 처음으로 월드컵 4강에 오른 공격의 중심이었다.
 
 <div class="best-xi-roster" aria-label="1938 FIFA 월드컵 베스트 11 선수 카드">
   <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/frantisek-planicka.jpg" alt="프란티셰크 플라니치카" loading="lazy" /><div><span>GK · 골키퍼</span><strong>프란티셰크 플라니치카</strong><small lang="cs">František Plánička</small><p>체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /> · 2경기 1실점</p></div></article>
@@ -91,7 +91,7 @@ relatedGroup: 'fifa-world-cup-1938'
   <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gino-colaussi.jpg" alt="지노 콜라우시" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>지노 콜라우시</strong><small lang="it">Luigi “Gino” Colaussi</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 3경기 4골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png" alt="레오니다스 다시우바" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>레오니다스 다시우바</strong><small lang="pt-BR">Leônidas da Silva</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 4경기 7골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/silvio-piola.jpg" alt="실비오 피올라" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>실비오 피올라</strong><small lang="it">Silvio Piola</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 4경기 5골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" alt="젱겔러 줄러" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>젱겔러 줄러</strong><small lang="hu">Zsengellér Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 4경기 5골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" alt="젱겔레르 줄러" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>젱겔레르 줄러</strong><small lang="hu">Zsengellér Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 4경기 5골</p></div></article>
 </div>
 
 ### 플라니치카가 끝까지 지킨 골문
@@ -106,13 +106,13 @@ relatedGroup: 'fifa-world-cup-1938'
 
 ### 결승전으로 이어지는 여섯 이름
 
-이 베스트 11 가운데 라바, 로카텔리, 안드레올로, 포니, 콜라우시, 피올라는 헝가리와의 결승전에 선발 출전했다. 반대편에는 샤로시 죄르지와 젱겔러 줄러가 있었다. 열한 명 중 여덟 명이 마지막 경기 한 장면에 모인 셈이다.
+이 베스트 11 가운데 라바, 로카텔리, 안드레올로, 포니, 콜라우시, 피올라는 헝가리와의 결승전에 선발 출전했다. 반대편에는 샤로시 죄르지와 젱겔레르 줄러가 있었다. 열한 명 중 여덟 명이 마지막 경기 한 장면에 모인 셈이다.
 
 결승은 콜라우시의 두 골, 피올라의 두 골, 샤로시의 추격골까지 베스트 11 선수들이 직접 점수를 움직였다. 이 명단을 읽은 뒤 4-2 결승전을 다시 보면, 선수 이름과 실제 움직임이 곧바로 연결된다. 이 글과 1938 결승전 H/L을 같은 기록 묶음으로 연결한 이유다.
 
 ## 여담: 우승팀과 대회의 얼굴은 같지 않았다
 
-이탈리아가 우승과 2연패를 가져갔지만 대회의 얼굴을 한 명만 고르라면 레오니다스를 빼기 어렵다. 헝가리는 준우승에 머물렀지만 샤로시와 젱겔러 두 명을 공격진에 남겼다. 체코슬로바키아는 8강에서 멈췄지만 플라니치카가 골문을 차지했다.
+이탈리아가 우승과 2연패를 가져갔지만 대회의 얼굴을 한 명만 고르라면 레오니다스를 빼기 어렵다. 헝가리는 준우승에 머물렀지만 샤로시와 젱겔레르 두 명을 공격진에 남겼다. 체코슬로바키아는 8강에서 멈췄지만 플라니치카가 골문을 차지했다.
 
 그래서 1938년의 베스트 11은 우승팀의 복사본이 아니다. 이탈리아의 완성도, 헝가리의 폭발력, 브라질의 새로운 공격 감각, 플라니치카의 버티기가 한 화면에 겹친다. 전쟁 전 마지막 월드컵은 그렇게 서로 다른 축구의 방향을 보여주고 12년 동안 멈췄다.
 
@@ -123,4 +123,4 @@ relatedGroup: 'fifa-world-cup-1938'
 <li id="source-2"><a href="https://inside.fifa.com/tournaments/mens/worldcup/1938france/news/dominant-azzurri-retain-their-crown-2866627">“Dominant Azzurri retain their crown”</a>, FIFA. 이탈리아의 대회 경로와 최초 2연패.</li>
 <li id="source-3"><a href="https://fbref.com/en/awards/wc_all_star/FIFA-World-Cup-All-Star-Team">“FIFA World Cup All-Star Team”</a>, FBref. 후대에 정리된 1938 올스타 명단.</li>
 <li><a href="https://blog.naver.com/sho3603/223499396026">“1938 FIFA 프랑스 월드컵 당대 베스트 11”</a>, 삥이N스포츠_Official. 최초 구성과 표지·선수 사진.</li>
-</ol><p class="record-note">1938년에는 오늘날과 같은 공식 FIFA 베스트 11 시상이 없었다. 따라서 명단의 성격과 실제 대회 기록을 분리해 적었으며, 네이버 원문의 젱겔러 줄러 6골 표기는 대회 본선 득점 기록에 맞춰 5골로 바로잡았다.</p></div>
+</ol><p class="record-note">1938년에는 오늘날과 같은 공식 FIFA 베스트 11 시상이 없었다. 따라서 명단의 성격과 실제 대회 기록을 분리해 적었으며, 네이버 원문의 젱겔레르 줄러 6골 표기는 대회 본선 득점 기록에 맞춰 5골로 바로잡았다.</p></div>

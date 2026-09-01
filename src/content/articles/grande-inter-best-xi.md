@@ -74,7 +74,7 @@ featured: false
 
 <article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/giuliano-sarti.webp" alt="줄리아노 사르티 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>GK · GOALKEEPER</span><h4>줄리아노 사르티</h4><small lang="it">Giuliano Sarti</small><dl><div><dt>국적</dt><dd>이탈리아</dd></div><div><dt>인테르 소속</dt><dd>1963-1968</dd></div><div><dt>선정 근거</dt><dd>유러피언컵 2연패 골키퍼</dd></div></dl></div></article>
 
-줄리아노 사르티<span class="foreign-note" lang="it">(Giuliano Sarti; 이탈리아 축구선수·골키퍼, 1933-2017)</span>는 피오렌티나에서 이미 유러피언컵 결승을 경험한 골키퍼였다. 그러니 1963년 인테르에 온 그는 큰 무대를 처음 구경하는 신참이 아니라, 결승전의 공기가 얼마나 무거운지 아는 사람이었다. 그런데 첫 시즌부터 상대가 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano; 아르헨티나 태생 축구선수·공격수, 1926-2014)</span>와 페렌츠 푸슈카시<span class="foreign-note" lang="hu">(Ferenc Puskás; 헝가리 축구선수·공격수, 1927-2006)</span>의 레알 마드리드였다. 경기 전 워밍업에서 통증까지 느꼈지만, 사르티는 그대로 골문에 섰다.
+줄리아노 사르티<span class="foreign-note" lang="it">(Giuliano Sarti; 이탈리아 축구선수·골키퍼, 1933-2017)</span>는 피오렌티나에서 이미 유러피언컵 결승을 경험한 골키퍼였다. 그러니 1963년 인테르에 온 그는 큰 무대를 처음 구경하는 신참이 아니라, 결승전의 공기가 얼마나 무거운지 아는 사람이었다. 그런데 첫 시즌부터 상대가 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano; 아르헨티나 태생 축구선수·공격수, 1926-2014)</span>와 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리 축구선수·공격수, 1927-2006)</span>의 레알 마드리드였다. 경기 전 워밍업에서 통증까지 느꼈지만, 사르티는 그대로 골문에 섰다.
 
 이듬해 벤피카와의 결승은 더 골키퍼다운 밤이었다. 빗물에 잠긴 산 시로, 한 골의 리드, 그리고 반대편에서 계속 날아오는 에우제비우<span class="foreign-note" lang="pt-PT">(Eusébio da Silva Ferreira; 모잠비크 태생 포르투갈 축구선수·공격수, 1942-2014)</span>의 슈팅. 공격수는 한 번 성공하면 영웅이 되지만 골키퍼는 한 번 놓치면 모든 선방이 지워진다. 사르티는 그 긴장을 끝까지 버텼다. 레프 야신<span class="foreign-note" lang="ru-Latn">(Lev Yashin; 소련 축구선수·골키퍼, 1929-1990)</span>이 동시대 골키퍼의 절대적인 기준이었다면, 클럽 무대에서 그 기준에 가장 가까이 다가선 이름 가운데 하나가 사르티였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -164,7 +164,7 @@ featured: false
 
 ## 고르고 보니, 1964년 빈의 열한 명이었다
 
-1964년 빈에서 인테르를 기다린 상대는 유러피언컵 초대 5연패의 주인공 레알 마드리드였다. 1961년 이후 우승컵은 SL 벤피카와 AC 밀란으로 넘어갔지만, 레알의 선발에는 여전히 알프레도 디스테파노와 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인 축구선수·왼쪽 윙어, 1933-2022)</span>, 페렌츠 푸슈카시가 서 있었다. 유러피언컵이라는 대회의 역사를 만든 이름들이었다.
+1964년 빈에서 인테르를 기다린 상대는 유러피언컵 초대 5연패의 주인공 레알 마드리드였다. 1961년 이후 우승컵은 SL 벤피카와 AC 밀란으로 넘어갔지만, 레알의 선발에는 여전히 알프레도 디스테파노와 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인 축구선수·왼쪽 윙어, 1933-2022)</span>, 푸슈카시 페렌츠가 서 있었다. 유러피언컵이라는 대회의 역사를 만든 이름들이었다.
 
 레알은 통산 여섯 번째 우승을 노렸고, 인테르는 구단 역사상 처음 오른 결승에서 첫 유럽 정상을 바라봤다. 한쪽에는 이미 대회의 기준이 된 왕조가, 다른 한쪽에는 이제 자기 시대를 시작하려는 팀이 섰다. 이 열한 명이 왜 그란데 인테르의 얼굴인지 설명하려면 바로 그 온도 차이에서 출발해야 한다.
 

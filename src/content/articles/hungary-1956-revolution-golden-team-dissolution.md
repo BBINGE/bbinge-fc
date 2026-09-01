@@ -24,7 +24,7 @@ relatedGroup: 'hungary-golden-team'
 
   <p>1956년의 어느 밤, 이베리아 반도의 어디엔가. 정확히는 스페인 왕국의 어디엔가.</p>
 
-  <p>현대 기준으로도 "축구사 이래 역대 최고의 팀"이라고 평가되는 당시의 <span lang="hu">Aranycsapat</span>(어러니처퍼트; 황금의 팀, 영문으로는 <span lang="en">The Magical Magyars</span>라며 '매직 머저르'라고 부르기도 한다) 세대가 라디오 앞에 늘어서 있었습니다.</p>
+  <p>현대 기준으로도 "축구사 이래 역대 최고의 팀"이라고 평가되는 당시의 아라니처파트<span class="foreign-note" lang="hu">(Aranycsapat; 황금의 팀)</span>, 영문으로는 ‘매직 마자르’<span class="foreign-note" lang="en">(The Magical Magyars)</span>라 불린 세대가 라디오 앞에 늘어서 있었습니다.</p>
 
   <p>스페인어 중계가 잡음 사이로 흘러나왔고, 선수들은 명확히 알아들을 수 없었으나 한 가지는 깨달을 수 있었습니다. '전차', '진압', 자기 앞에 열거된 '국가'의 이름을 들을 때는 딱히 별다른 통역도 없었겠죠.</p>
 
@@ -97,7 +97,7 @@ relatedGroup: 'hungary-golden-team'
   <li><time datetime="1956-11-04">11월 4일 이후</time><div><strong>서독 친선경기에서 검은 완장</strong><p>소련군의 진압을 애도하는 표시는 새 카다르 정부가 선수단을 정치적으로 의심할 근거가 됐다.</p></div><span>제도사 연구</span></li>
   <li><time datetime="1956-11-22">11월 22일</time><div><strong>빌바오 원정 2-3 패배</strong><p>선수단은 아직 혼베드의 이름으로 같은 대회에 참가하고 있었다.</p></div><span>경기 기록</span></li>
   <li><time datetime="1956-12-20">12월 20일</time><div><strong>브뤼셀 2차전, 합계 5-6 탈락</strong><p>부다페스트 대신 중립지에서 경기를 치렀다. 이때도 선수들은 한 덩어리로 즉시 흩어지지 않았다.</p></div><span>경기 기록</span></li>
-  <li><time datetime="1957-01-13">1957년 1월 13일</time><div><strong>귀환 권유 뒤 남미 원정 출발</strong><p>세베시 구스타브의 설득으로 일부 젊은 선수는 돌아갔지만, 다른 선수들은 허가받지 않은 원정을 택했다.</p></div><span>연구·회고 대조</span></li>
+  <li><time datetime="1957-01-13">1957년 1월 13일</time><div><strong>귀환 권유 뒤 남미 원정 출발</strong><p>셰베시 구스타브의 설득으로 일부 젊은 선수는 돌아갔지만, 다른 선수들은 허가받지 않은 원정을 택했다.</p></div><span>연구·회고 대조</span></li>
   <li><time datetime="1957-02">1957년 2월</time><div><strong>빈에서 귀환과 잔류가 갈림</strong><p>남미 원정을 마친 뒤 다수는 헝가리로 돌아갔고, 푸슈카시·코치시·치보르는 국외에 남았다.</p></div><span>수사·원정 기록</span></li>
 </ol>
 

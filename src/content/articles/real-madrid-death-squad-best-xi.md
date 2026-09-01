@@ -20,7 +20,7 @@ featured: false
 
 <aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 001</span><p>한국에서는 흔히 알프레도 디스테파노가 입단한 1953년부터 팀을 떠난 1964년까지의 레알 마드리드를 ‘저승사자 군단’이라 부릅니다. 이 글에서는 그 시기를 대표하는 선수들로 베스트 11을 선정했습니다.</p></aside>
 
-산티아고 베르나베우<span class="foreign-note" lang="es">(Santiago Bernabéu de Yeste; 레알 마드리드 회장, 1943-1978)</span>가 구단의 규모를 키우고, ‘금빛 화살’ 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나·스페인 공격수, 1926-2014)</span>가 경기의 중심을 차지하던 시기다. 레알 마드리드는 이 기간 라리가에서 여덟 차례 정상에 올랐고, 1955-56시즌 창설된 유러피언컵<span class="foreign-note" lang="fr">(Coupe des Clubs Champions Européens; 유럽 각국 리그 챔피언이 겨룬 대회)</span>에서는 초대 대회부터 다섯 번 연속 우승했다. 오늘날 UEFA 챔피언스리그의 전신인 대회에서 아직도 어느 팀도 되풀이하지 못한 5연패를 가장 먼저 완성한 것이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+산티아고 베르나베우<span class="foreign-note" lang="es">(Santiago Bernabéu de Yeste; 레알 마드리드 회장, 1943-1978)</span>가 구단의 규모를 키우고, ‘금빛 화살’ 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나·스페인 공격수, 1926-2014)</span>가 경기의 중심을 차지하던 시기다. 레알 마드리드는 이 기간 라리가에서 여덟 차례 정상에 올랐고, 1955-56시즌 창설된 유러피언컵<span class="foreign-note" lang="fr">(Coupe des Clubs Champions Européens; 유럽 각국 리그 챔피언이 겨룬 대회)</span>에서는 초대 대회부터 다섯 번 연속 우승했다. 오늘날 UEFA 챔피언스 리그의 전신인 대회에서 아직도 어느 팀도 되풀이하지 못한 5연패를 가장 먼저 완성한 것이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 디스테파노가 떠난 뒤에는 스페인 선수들을 중심으로 세대교체한 ‘예예 마드리드’<span class="foreign-note" lang="es">(Yé-yé Madrid; 1960년대 중반 레알 마드리드의 젊은 스페인 선수단을 가리킨 별칭)</span>가 1966년 다시 유럽 정상에 올랐다. 훗날 세계적인 스타들을 한데 모은 ‘갈락티코스’<span class="foreign-note" lang="es">(Los Galácticos; 2000년대 레알 마드리드의 스타 영입 정책과 선수단을 가리킨 별칭)</span>도 또 하나의 전성기를 만들었다. 그러나 유럽대항전의 질서를 처음 세우고 레알 마드리드를 세계 축구의 기준으로 바꾼 출발점은 역시 1953-1964년의 저승사자 군단이었다.
 
@@ -124,7 +124,7 @@ featured: false
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/ferenc-puskas.png" alt="푸슈카시 페렌츠 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>IF · INSIDE FORWARD</span><h4>푸슈카시 페렌츠</h4><small lang="hu">Puskás Ferenc</small><dl><div><dt>국적</dt><dd>헝가리·스페인</dd></div><div><dt>레알 소속</dt><dd>1958-1967</dd></div><div><dt>공식 기록</dt><dd>262경기 242골</dd></div></dl></div></article>
 
-푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리식 성명 순서의 공격수, 1927-2006)</span>는 헝가리 대표팀 ‘매직 머저르’<span class="foreign-note" lang="en">(Magical Magyars; 1950년대 초 국제 축구를 지배한 헝가리 대표팀의 별칭)</span>의 주장으로 이미 한 시대를 만든 뒤 서른한 살에 마드리드에 왔다. 헝가리 혁명 이후 이어진 실전 공백과 불어난 체중 때문에 전성기가 끝났다는 시선도 있었다. 그러나 베르나베우가 선택한 것은 달리기 기록이 아니라, 공이 발을 떠나는 순간 골문을 바꾸는 왼발의 질이었다.
+푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리식 성명 순서의 공격수, 1927-2006)</span>는 헝가리 대표팀 ‘매직 마자르’<span class="foreign-note" lang="en">(Magical Magyars; 1950년대 초 국제 축구를 지배한 헝가리 대표팀의 별칭)</span>의 주장으로 이미 한 시대를 만든 뒤 서른한 살에 마드리드에 왔다. 헝가리 혁명 이후 이어진 실전 공백과 불어난 체중 때문에 전성기가 끝났다는 시선도 있었다. 그러나 베르나베우가 선택한 것은 달리기 기록이 아니라, 공이 발을 떠나는 순간 골문을 바꾸는 왼발의 질이었다.
 
 푸슈카시는 큰 동작 없이도 슈팅 각도를 만들었고, 강한 슛과 정확한 마무리를 같은 자세에서 구사했다. 디스테파노가 중원으로 내려가 수비수를 끌어내면 그 빈자리를 파고들었고, 반대로 자신이 수비수를 묶어 디스테파노에게 전진로를 열어주기도 했다. 두 거물의 공존이 가능했던 것은 한쪽이 양보했기 때문이 아니라 서로 다른 방식으로 공간을 만들고 끝냈기 때문이다.
 

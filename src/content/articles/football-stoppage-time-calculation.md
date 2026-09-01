@@ -1,6 +1,6 @@
 ---
 title: "축구 추가시간 계산법: 왜 90분이 지나도 경기가 안 끝날까"
-description: "축구 추가시간 계산법을 IFAB 경기규칙과 프리미어리그(EPL)·라리가·FIFA 월드컵 사례로 설명하고, 전광판에 표시된 시간보다 경기가 더 길어지는 이유를 알아본다."
+description: "축구 추가시간 계산법을 IFAB 경기규칙과 프리미어 리그(EPL)·라리가·FIFA 월드컵 사례로 설명하고, 전광판에 표시된 시간보다 경기가 더 길어지는 이유를 알아본다."
 category: football-made-easy
 tags:
   - "축구 추가시간 계산법"
@@ -16,7 +16,7 @@ tags:
 pubDate: 2026-08-30T19:45:00+09:00
 coverImage: "/images/football-made-easy/stoppage-time/premier-league-barnes.webp"
 coverImageAlt: "뉴캐슬 유나이티드의 하비 반스가 리즈 유나이티드를 상대로 101분 48초에 결승골을 넣고 세리머니하는 모습"
-coverImageCaption: "하비 반스의 101분 48초 결승골은 기록 집계가 시작된 뒤 프리미어리그에서 가장 늦게 나온 결승골이다. 추가시간 중 발생한 사건까지 다시 보상하면 전광판의 숫자를 넘겨 경기가 이어질 수 있다. Photo: Premier League, 2026."
+coverImageCaption: "하비 반스의 101분 48초 결승골은 기록 집계가 시작된 뒤 프리미어 리그에서 가장 늦게 나온 결승골이다. 추가시간 중 발생한 사건까지 다시 보상하면 전광판의 숫자를 넘겨 경기가 이어질 수 있다. Photo: Premier League, 2026."
 coverImageWidth: 1600
 coverImageHeight: 900
 faq:
@@ -86,7 +86,7 @@ featured: false
 
 경기규칙은 교체, 부상 선수의 상태 확인과 이송, 의도적인 시간 지연, 징계, 대회 규정이 허용한 음료 휴식과 쿨링 브레이크, VAR 체크와 리뷰, 골 세리머니, 외부 방해를 비롯해 재개가 크게 늦어진 상황을 보상 대상으로 든다. 공이 터치라인이나 골라인을 완전히 벗어날 때마다 스톱워치를 멈추지는 않으며, 정상적인 스로인·골킥 준비 사이에서 발생한 **유의미한 손실**을 심판진이 기록한다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-대회 운영 지침은 같은 규칙 안에서도 계산 방식을 조금 더 구체화할 수 있다. 프리미어리그는 2024/25 운영 안내에서 교체·부상·페널티킥·퇴장·VAR 지연은 재개까지 걸린 실제 시간을 반영하고, 득점 뒤에는 30초가 지난 시점부터 추가시간 시계를 세기 시작한다고 공개했다. VAR 확인과 다른 사건이 겹쳤을 때 시간을 이중으로 합산하지 않는다는 조건도 함께 밝혔다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+대회 운영 지침은 같은 규칙 안에서도 계산 방식을 조금 더 구체화할 수 있다. 프리미어 리그는 2024/25 운영 안내에서 교체·부상·페널티킥·퇴장·VAR 지연은 재개까지 걸린 실제 시간을 반영하고, 득점 뒤에는 30초가 지난 시점부터 추가시간 시계를 세기 시작한다고 공개했다. VAR 확인과 다른 사건이 겹쳤을 때 시간을 이중으로 합산하지 않는다는 조건도 함께 밝혔다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 <section class="st-causes" aria-labelledby="st-causes-title">
   <header><span>IFAB LAW 7</span><h2 id="st-causes-title">중계 화면에서 무엇을 기억해 두면 될까요?</h2></header>
@@ -98,14 +98,14 @@ featured: false
   </div>
 </section>
 
-## 프리미어리그·라리가·FIFA 월드컵에서는 실제로 얼마나 길어졌나요?
+## 프리미어 리그·라리가·FIFA 월드컵에서는 실제로 얼마나 길어졌나요?
 
 같은 `90+` 표기라도 경기마다 길어진 이유는 다르다. 라리가와 FIFA 월드컵처럼 공식 경기 기록이 사건의 순서를 보여주는 경우도 있고, 심판위원장이 손실 시간을 직접 설명한 경우도 있다. 반면 공개 기록만으로 주심의 초 단위 계산표까지 복원할 수 없는 경기도 있으므로, 결과와 계산 근거의 증거 수준은 나눠서 보는 편이 정확하다.
 
-<section class="st-cases" aria-label="프리미어리그 라리가 월드컵 추가시간 사례">
+<section class="st-cases" aria-label="프리미어 리그 라리가 월드컵 추가시간 사례">
   <article class="st-case st-case--photo">
     <figure><img src="/images/football-made-easy/stoppage-time/premier-league-barnes.webp" alt="하비 반스가 리즈전 101분 48초 결승골 뒤 세리머니하는 모습" width="1600" height="900" loading="lazy" decoding="async" /><figcaption>Photo: Premier League, 2026</figcaption></figure>
-    <div class="st-case__copy"><span>PREMIER LEAGUE · 2026.01.07</span><h3>뉴캐슬 유나이티드 4-3 리즈 유나이티드</h3><p>브루누 기마랑이스<span class="foreign-note" lang="pt-BR">(Bruno Guimarães Rodrigues Moura; 브라질 축구 선수, 1997-)</span>가 90+1분 페널티킥으로 동점을 만든 뒤 하비 반스<span class="foreign-note" lang="en">(Harvey Lewis Barnes; 잉글랜드 축구 선수, 1997-)</span>가 90+12분, 경기 시계 101분 48초에 결승골을 넣었다. 프리미어리그는 이 득점을 2006/07 시즌 이후 가장 늦은 결승골이라고 확인했다.</p><small>이 기록만으로 당시 주심의 초 단위 산출표까지 확인되지는 않는다. 다만 90+12라는 표기만으로 규칙 위반을 뜻하지는 않으며, 추가시간 안의 페널티킥과 재개 지연도 종료 시각에 반영될 수 있다.</small><a href="https://www.premierleague.com/en/news/4534710/harvey-barnes-scores-latest-ever-winning-goal-in-premier-league-as-newcastle-united-beat-leeds-united-4-3" rel="noopener noreferrer">Premier League 공식 기록 보기</a></div>
+    <div class="st-case__copy"><span>PREMIER LEAGUE · 2026.01.07</span><h3>뉴캐슬 유나이티드 4-3 리즈 유나이티드</h3><p>브루누 기마랑이스<span class="foreign-note" lang="pt-BR">(Bruno Guimarães Rodrigues Moura; 브라질 축구 선수, 1997-)</span>가 90+1분 페널티킥으로 동점을 만든 뒤 하비 반스<span class="foreign-note" lang="en">(Harvey Lewis Barnes; 잉글랜드 축구 선수, 1997-)</span>가 90+12분, 경기 시계 101분 48초에 결승골을 넣었다. 프리미어 리그는 이 득점을 2006/07 시즌 이후 가장 늦은 결승골이라고 확인했다.</p><small>이 기록만으로 당시 주심의 초 단위 산출표까지 확인되지는 않는다. 다만 90+12라는 표기만으로 규칙 위반을 뜻하지는 않으며, 추가시간 안의 페널티킥과 재개 지연도 종료 시각에 반영될 수 있다.</small><a href="https://www.premierleague.com/en/news/4534710/harvey-barnes-scores-latest-ever-winning-goal-in-premier-league-as-newcastle-united-beat-leeds-united-4-3" rel="noopener noreferrer">Premier League 공식 기록 보기</a></div>
   </article>
   <article class="st-case st-case--reverse">
     <figure><img src="/images/football-made-easy/stoppage-time/laliga-hugo-duro.webp" alt="발렌시아 선수들이 레알 마드리드전 90+5분 결승골을 넣은 뒤 함께 기뻐하는 모습" width="900" height="600" loading="lazy" decoding="async" /><figcaption>Photo: LALIGA, 2025</figcaption></figure>

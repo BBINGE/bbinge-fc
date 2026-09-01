@@ -76,7 +76,7 @@ relatedGroup: 'fifa-world-cup-1954'
 
 <figure><img src="/images/history/1954-korea-world-cup/korea-hungary-entrance.png" alt="1954 FIFA 월드컵 대한민국과 헝가리 선수들이 함께 경기장으로 입장하는 모습" width="966" height="544" loading="lazy" decoding="async" /><figcaption>생애 처음 세계적인 슈퍼스타들을 상대하러 경기장에 들어서는 대한민국 대표팀.</figcaption></figure>
 
-6월 17일 오후 6시, 취리히 하르트투름<span class="foreign-note" lang="de">(Hardturm; 당시 그라스호퍼 클럽 취리히의 홈 경기장)</span>. 대한민국은 홍덕영, 박규정, 주장 민병대, 박재승, 강창기, 주영광, 정남식, 박일갑, 성낙운, 우상권, 최정민을 선발로 내보냈다. 푸슈카시가 11분에 첫 골을 넣었고, 코치시는 전반에 두 골을 넣은 뒤 후반 시작 4분 만에 해트트릭<span class="foreign-note" lang="en">(hat-trick; 한 선수가 한 경기에서 세 골을 기록하는 것)</span>을 완성했다. 치보르와 팔로타시 페테르도 뒤를 이었다.<a class="cite" href="#source-8">[8]</a>
+6월 17일 오후 6시, 취리히 하르트투름<span class="foreign-note" lang="de">(Hardturm; 당시 그라스호퍼 클럽 취리히의 홈 경기장)</span>. 대한민국은 홍덕영, 박규정, 주장 민병대, 박재승, 강창기, 주영광, 정남식, 박일갑, 성낙운, 우상권, 최정민을 선발로 내보냈다. 푸슈카시가 11분에 첫 골을 넣었고, 코치시는 전반에 두 골을 넣은 뒤 후반 시작 4분 만에 해트트릭<span class="foreign-note" lang="en">(hat-trick; 한 선수가 한 경기에서 세 골을 기록하는 것)</span>을 완성했다. 치보르와 펄로타시 페테르도 뒤를 이었다.<a class="cite" href="#source-8">[8]</a>
 
 당시는 경기 중 선수 교체가 허용되지 않던 시대였다. 장거리 이동으로 지친 선수들에게 쥐와 근육통이 밀려와도 벤치의 새 선수를 투입할 수 없었다. 후대 기록에는 네 명이 더는 경기를 이어가지 못해 대한민국이 사실상 일곱 명으로 종료 휘슬을 맞았다고 전해진다. 세계 최강을 만났는데 몸은 이미 천근만근이었고, 사람을 바꿀 수도 없었다. 당연히 초전박살이었다. 스코어는 0-9. 그러나 점수판에 담기지 않은 장면도 있었다. 헝가리의 공세가 끝없이 이어지는 동안 골키퍼 홍덕영<span class="foreign-note" lang="ko-Latn">(HONG Deokyeong; 대한민국 축구 국가대표팀 골키퍼, 1921-2005)</span>은 슈팅을 막고 다시 일어나기를 반복했다.<a class="cite" href="#source-5">[5]</a><a class="cite" href="#source-8">[8]</a><a class="cite" href="#source-13">[13]</a>
 
