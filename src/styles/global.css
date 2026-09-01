@@ -38,3 +38,27 @@ body {
   letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
 }
+
+/* 편집형 CTA·관련 글 카드의 한글 단어가 음절 단위로 갈라지지 않게 한다. */
+:where(
+  .torino-route,
+  .related-assets,
+  .related-card-grid,
+  .journey-route-card,
+  .best-xi-cta,
+  .record-cta,
+  .fashion-related-cta,
+  .history-related,
+  .related-story,
+  .signature-cta,
+  .match-footer > a,
+  .team-footer > a,
+  .fashion-cover__cta,
+  .journey-cover__cta,
+  .easy-lead__cta,
+  .about-cta,
+  .author-cta
+) {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}

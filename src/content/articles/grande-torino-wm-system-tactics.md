@@ -170,7 +170,7 @@ FIGC 지도자 교육 자료는 그란데 토리노의 시스테마를 설명하
   <li id="source-7"><a href="https://www.figc.it/media/164673/javorcic_tesi.pdf">「L’evoluzione dei sistemi di gioco」</a>, FIGC Settore Tecnico. 시스테마, 네 명의 중원 사각형, 집단 전술과 전환에 관한 지도자 교육 논문.</li>
   <li id="source-8"><a href="https://www.torinofc.it/news/02/05/2026/quel-record-che-resiste_42638">「Quel record che resiste」</a>, Torino FC. 1948년 알레산드리아전 10-0과 ‘그라나타의 15분’에 관한 구단 기록.</li>
   <li id="source-9"><a href="https://www.torinofc.it/storia/la-rinascita-del-filadelfia">「La rinascita del Filadelfia」</a>, Torino FC. 스타디오 필라델피아에서의 홈 100경기 연속 무패 기록.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:Mario_Rigamonti.jpg">마리오 리가몬티</a>·<a href="https://commons.wikimedia.org/wiki/File:Giuseppe_Grezar.jpg">주세페 그레차르</a>·<a href="https://commons.wikimedia.org/wiki/File:Eusebio_Castigliano.jpg">에우세비오 카스틸리아노</a>·<a href="https://commons.wikimedia.org/wiki/File:Ezio_Loik,_Grande_Torino.jpg">에치오 로이크</a> 인물 사진, Wikimedia Commons. 각 파일 설명 페이지의 퍼블릭 도메인 표기를 확인했다. 발렌티노 마촐라는 삥이FC 인물 아카이브 자산을 사용했다.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:Mario_Rigamonti.jpg">마리오 리가몬티</a>·<a href="https://commons.wikimedia.org/wiki/File:Giuseppe_Grezar.jpg">주세페 그레차르</a>·<a href="https://commons.wikimedia.org/wiki/File:Eusebio_Castigliano.jpg">에우세비오 카스틸리아노</a>·<a href="https://commons.wikimedia.org/wiki/File:Ezio_Loik,_Grande_Torino.jpg">에치오 로이크</a> 인물 사진, Wikimedia Commons. 각 파일 설명 페이지의 퍼블릭 도메인 표기를 확인했다.</li>
 </ol>
 </section>
 
