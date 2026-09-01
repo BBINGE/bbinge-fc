@@ -23,8 +23,8 @@ const base = sharp(managerSource)
   .sharpen();
 
 const cover = await base.clone().webp({ quality: 92 }).toBuffer();
-await sharp(cover).toFile(path.join(assetDir, 'cover.webp'));
-await sharp(cover).resize(1200, 1200).webp({ quality: 90 }).toFile(path.join(assetDir, 'card.webp'));
+await sharp(cover).toFile(path.join(assetDir, 'cover-photo.webp'));
+await sharp(cover).resize(1200, 1200).webp({ quality: 90 }).toFile(path.join(assetDir, 'card-photo.webp'));
 
 await sharp(benchSource)
   .resize(1500, 774, { fit: 'cover', position: 'centre' })

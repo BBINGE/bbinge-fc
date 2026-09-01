@@ -4,8 +4,8 @@ description: '축구 감독 교체 뒤 성적이 오르는 뉴 매니저 바운�
 category: 'tactics'
 tags: ['축구 감독 교체', '뉴 매니저 바운스', '감독 경질', '축구 리더십', '팀 분위기', '축구 전술', '스포츠 심리학']
 pubDate: 2026-09-01T21:24:00+09:00
-coverImage: '/images/tactics/football-manager-change/cover.webp'
-cardImage: '/images/tactics/football-manager-change/card.webp'
+coverImage: '/images/tactics/football-manager-change/cover-photo.webp'
+cardImage: '/images/tactics/football-manager-change/card-photo.webp'
 coverImageAlt: '2009년 올드 트래퍼드의 기술 지역에서 경기를 지켜보는 샘 앨러다이스와 알렉스 퍼거슨'
 coverImageCaption: '2009년 올드 트래퍼드의 기술 지역에 선 샘 앨러다이스와 알렉스 퍼거슨. 이들은 본문 연구의 대상이 아니라, 서로 다른 감독이 같은 경기에서 각자의 팀을 이끄는 장면으로 배치했다. 사진: Abhijit Tembhekar, CC BY 2.0.'
 coverImageWidth: 1920
