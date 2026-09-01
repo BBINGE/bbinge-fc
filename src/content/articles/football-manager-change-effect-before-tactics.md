@@ -4,10 +4,10 @@ description: '축구 감독 교체 뒤 성적이 오르는 뉴 매니저 바운�
 category: 'tactics'
 tags: ['축구 감독 교체', '뉴 매니저 바운스', '감독 경질', '축구 리더십', '팀 분위기', '축구 전술', '스포츠 심리학']
 pubDate: 2026-09-01T21:24:00+09:00
-coverImage: '/images/tactics/football-manager-change/cover-photo.webp'
-cardImage: '/images/tactics/football-manager-change/card-photo.webp'
-coverImageAlt: '2009년 올드 트래퍼드의 기술 지역에서 경기를 지켜보는 샘 앨러다이스와 알렉스 퍼거슨'
-coverImageCaption: '2009년 올드 트래퍼드의 기술 지역에 선 샘 앨러다이스와 알렉스 퍼거슨. 이들은 본문 연구의 대상이 아니라, 서로 다른 감독이 같은 경기에서 각자의 팀을 이끄는 장면으로 배치했다. 사진: Abhijit Tembhekar, CC BY 2.0.'
+coverImage: '/images/tactics/football-manager-change/cover-ancelotti.webp'
+cardImage: '/images/tactics/football-manager-change/card-ancelotti.webp'
+coverImageAlt: '정장을 입고 경기장을 응시하는 브라질 대표팀 감독 카를로 안첼로티의 얼굴과 상반신'
+coverImageCaption: '2026 FIFA 월드컵 브라질-모로코전의 카를로 안첼로티. 본문 연구의 대상은 아니며, 감독에게 집중되는 경기장의 긴장감을 보여주는 장면으로 배치했다. 사진: Bryan Berlin / WikiPortraits, CC BY-SA 4.0.'
 coverImageWidth: 1920
 coverImageHeight: 1920
 featured: false
@@ -192,7 +192,7 @@ draft: false
   <li id="source-1"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212634">Paul Kattuman, Christoph Loch, Charlotte Kurchian, 「Management succession and success in a professional soccer team」</a>, <i>PLOS ONE</i> 14(3), 2019. 한 유럽 프로팀의 시즌 전체 관찰, 감독 교체 전후 지도자 행동·집단 정서·경기 행동·성과 비교. 본문 리그 순위 그래프는 CC BY 4.0으로 공개된 원 논문의 Figure 2를 WebP로 변환해 사용했다.</li>
   <li id="source-2"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017664">Andreas Heuer 외, 「Usefulness of Dismissing and Changing the Coach in Professional Soccer」</a>, <i>PLOS ONE</i> 6(3), 2011. 푸스발-분데스리가 감독 경질과 평균으로의 회귀 분석.</li>
   <li id="source-3"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10955743/">Honorato Sousa 외, 「Effects of changing the head coach on soccer team’s performance: A systematic review」</a>, <i>Biology of Sport</i> 41(2), 2024. 프로 남자축구 감독 교체 효과를 다룬 24개 연구의 체계적 문헌고찰.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:Old_Trafford_Technical_Area_Alex_Ferguson_Sam_Allardyce.jpg">「Old Trafford Technical Area Alex Ferguson Sam Allardyce.jpg」</a>, Abhijit Tembhekar, 2009, CC BY 2.0. 표지 사진은 정사각 편집과 색 보정을 적용했다.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:Carlo_Ancelotti_Brazil_V_Morocco_13_June_2026-47.jpg">「Carlo Ancelotti Brazil V Morocco 13 June 2026-47.jpg」</a>, Bryan Berlin / WikiPortraits, 2026, CC BY-SA 4.0. 표지 사진은 인물 중심의 정사각 편집과 색 보정을 적용했다.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Fussballtrainer-18-09-2005.jpg">「Fussballtrainer-18-09-2005.jpg」</a>, Markus Dallarosa, 2005, CC BY-SA 3.0 DE. 본문 벤치 사진은 화면 비율과 색을 조정했다.</li>
   <li><a href="https://www.youtube.com/watch?v=HQjWeYhIne0">「The New Manager Bounce: Is It Real? | A Closer Look」</a>, Football Made Simple, 2019. 본문 분석 영상.</li>
 </ol>
