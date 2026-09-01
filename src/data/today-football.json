@@ -1,78 +1,7 @@
 {
-  "date": "2026-09-01",
-  "updatedAt": "2026-08-31T22:28:30.349Z",
-  "matches": [
-    {
-      "id": "2482156",
-      "league": "세리에 A",
-      "home": "레체",
-      "away": "AS 로마",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-      "homeScore": 0,
-      "awayScore": 4,
-      "status": "FT",
-      "progress": "",
-      "time": "01:30",
-      "date": "2026-09-01"
-    },
-    {
-      "id": "2506197",
-      "league": "라리가",
-      "home": "오사수나",
-      "away": "헤타페",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rvspvt1473502960.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/eyh2891655594452.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "FT",
-      "progress": "",
-      "time": "02:30",
-      "date": "2026-09-01"
-    },
-    {
-      "id": "2482154",
-      "league": "세리에 A",
-      "home": "아탈란타",
-      "away": "볼로냐",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2qi1u31655592366.png",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "FT",
-      "progress": "",
-      "time": "03:45",
-      "date": "2026-09-01"
-    },
-    {
-      "id": "2494017",
-      "league": "프리미어 리그",
-      "home": "애스턴 빌라",
-      "away": "아스널",
-      "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/uwzw561787679026.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
-      "homeScore": 0,
-      "awayScore": 1,
-      "status": "FT",
-      "progress": "",
-      "time": "04:00",
-      "date": "2026-09-01"
-    },
-    {
-      "id": "2506189",
-      "league": "라리가",
-      "home": "바르셀로나",
-      "away": "라요 바예카노",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/nzhu941655595465.png",
-      "homeScore": 5,
-      "awayScore": 2,
-      "status": "FT",
-      "progress": "",
-      "time": "04:30",
-      "date": "2026-09-01"
-    }
-  ],
+  "date": "2026-09-02",
+  "updatedAt": "2026-09-01T16:54:03.236Z",
+  "matches": [],
   "standings": [
     {
       "leagueId": "4328",
@@ -880,7 +809,7 @@
   ],
   "status": {
     "matches": {
-      "state": "ok",
+      "state": "empty",
       "source": "TheSportsDB",
       "error": null
     },
