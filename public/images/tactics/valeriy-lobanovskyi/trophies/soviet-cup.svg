@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360" role="img" aria-labelledby="title">
+  <title id="title">소비에트컵 트로피 실루엣</title>
+  <g fill="none" stroke="#d6aa35" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="25" r="10" fill="#d6aa35" stroke-width="4"/>
+    <path d="M120 36v25m-13-14 13 14 14-14m-14 14-12 25m12-25 14 25m-26-1h27" stroke-width="6"/>
+    <path d="M70 100h100l-8 31c-4 17-17 29-33 32h-18c-16-3-29-15-33-32z" stroke-width="9"/>
+    <path d="M76 116H49c-13 0-20 11-16 24 7 23 22 38 47 43M164 116h27c13 0 20 11 16 24-7 23-22 38-47 43" stroke-width="8"/>
+    <path d="M102 163v28h36v-28M81 197h78l-9 93H90z" stroke-width="9"/>
+    <path d="M96 218h48M92 244h56M89 270h62" stroke-width="5" opacity=".72"/>
+    <path d="M104 290v28h32v-28M78 335h84M91 318h58l11 17H80z" stroke-width="10"/>
+  </g>
+</svg>

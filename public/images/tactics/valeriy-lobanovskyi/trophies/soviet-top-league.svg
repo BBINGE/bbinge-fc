@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360" role="img" aria-labelledby="title">
+  <title id="title">소비에트 톱리그 트로피 실루엣</title>
+  <g fill="none" stroke="#d6aa35" stroke-linejoin="round">
+    <path d="M120 18l12 25 28 4-20 20 5 28-25-13-25 13 5-28-20-20 28-4z" fill="#d6aa35" stroke-width="4"/>
+    <path d="M76 102h88l-9 117c-2 31-17 50-35 50s-33-19-35-50z" stroke-width="10"/>
+    <path d="M78 126H49c-13 0-21 11-17 25 8 30 29 47 54 53M162 126h29c13 0 21 11 17 25-8 30-29 47-54 53" stroke-width="9"/>
+    <path d="M103 267v28h34v-28M82 326h76M94 296h52l11 30H83z" stroke-width="10"/>
+    <path d="M101 139h38M97 165h46M96 191h48" stroke-width="5" opacity=".72"/>
+  </g>
+</svg>
