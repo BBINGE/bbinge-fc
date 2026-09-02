@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/validate-editorial-risk-gate.mjs && node scripts/validate-editorial-writing.mjs --self-test && node scripts/validate-editorial-writing.mjs && node scripts/validate-player-archives.mjs && node scripts/validate-site-identity.mjs && node scripts/fetch-today-football.mjs && astro build && node scripts/validate-site-identity.mjs --built",
+    "build": "node scripts/validate-editorial-risk-gate.mjs && node scripts/validate-editorial-writing.mjs --self-test && node scripts/validate-editorial-writing.mjs && node scripts/validate-player-archives.mjs && node scripts/validate-site-identity.mjs && node scripts/test-affiliate-products.mjs && node scripts/validate-affiliate-products.mjs && node scripts/fetch-today-football.mjs && astro build && node scripts/build-affiliate-redirects.mjs && node scripts/validate-site-identity.mjs --built",
     "validate:risk-gate": "node scripts/validate-editorial-risk-gate.mjs",
     "validate:writing": "node scripts/validate-editorial-writing.mjs",
     "test:writing-rules": "node scripts/validate-editorial-writing.mjs --self-test",
@@ -15,6 +15,10 @@
     "validate:identity": "node scripts/validate-site-identity.mjs",
     "test:player-rules": "node scripts/validate-player-archives.mjs --self-test",
     "validate:today": "node scripts/validate-today-football.mjs",
+    "validate:affiliates": "node scripts/validate-affiliate-products.mjs",
+    "test:affiliate-rules": "node scripts/test-affiliate-products.mjs",
+    "build:affiliate-redirects": "node scripts/build-affiliate-redirects.mjs",
+    "check:affiliates": "node scripts/check-affiliate-products.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -49,6 +53,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
     "@types/turndown": "^5.0.6",
+    "playwright": "^1.62.1",
     "typescript": "^6.0.3"
   }
 }

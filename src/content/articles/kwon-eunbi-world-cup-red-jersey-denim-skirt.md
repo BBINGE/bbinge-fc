@@ -75,14 +75,14 @@ fashionProfile:
 같은 컬렉션의 데님 쇼츠는 권은비의 미니스커트와 정확히 같은 제품은 아니다. 대신 흰 삼선과 빨간 트레포일이 들어간 연청 쇼츠라서, 스커트보다 움직이기 쉬운 버전으로 같은 색 조합을 만들 수 있다. 사진을 그대로 복제하려면 크롭 저지에 짧고 반듯한 데님 미니를, 더 스포티하게 입으려면 공식 데님 쇼츠를 고르면 된다.
 
 <div class="ke-shop-grid" aria-label="권은비 월드컵 룩과 함께 살펴볼 아디다스 코카콜라 제품">
-  <a class="ke-shop-card ke-enter" href="https://bitl.bz/njHNZd" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KY7571">
+  <a class="ke-shop-card ke-enter" href="/go/adidas-ky7571" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KY7571">
     <span class="ke-shop-card__visual">
       <img src="/images/culture/kwon-eunbi-world-cup/product-crop-jersey.webp" alt="흰색과 빨간색의 아디다스 코카콜라 크롭 저지 공식 착용 사진" width="1000" height="1000" loading="lazy" decoding="async" />
       <span class="ke-shop-card__badge">권은비 착용 제품</span>
     </span>
     <span class="ke-shop-card__copy"><small>EXACT TOP · ADIDAS OFFICIAL</small><strong>ADIDAS X COCA-COLA<br />크롭 저지</strong><span class="ke-shop-card__price">₩69,000</span><span class="ke-shop-card__cta">제품 자세히 보기 <b aria-hidden="true">↗</b></span></span>
   </a>
-  <a class="ke-shop-card ke-enter" href="https://bitl.bz/6a8XQu" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KY7564">
+  <a class="ke-shop-card ke-enter" href="/go/adidas-ky7564" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KY7564">
     <span class="ke-shop-card__visual">
       <img src="/images/culture/kwon-eunbi-world-cup/product-denim-shorts.webp" alt="흰 삼선과 빨간 로고가 있는 아디다스 코카콜라 연청 데님 쇼츠" width="1000" height="1000" loading="lazy" decoding="async" />
       <span class="ke-shop-card__badge">같은 컬렉션</span>

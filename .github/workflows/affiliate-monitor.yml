@@ -1,0 +1,72 @@
+name: Affiliate product monitor
+
+on:
+  schedule:
+    # 매주 수요일 12:17 KST. 정각 혼잡을 피한다.
+    - cron: '17 3 * * 3'
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: '실제 상품 검사 대신 Gmail 알림용 테스트 Issue 만들기'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: affiliate-product-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      AFFILIATE_MONITOR_ASSIGNEE: BBINGE
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install browser for blocked merchant pages
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_notification == true) }}
+        run: npx playwright install --with-deps chromium
+
+      - name: Validate affiliate catalog and article links
+        run: npm run test:affiliate-rules && npm run validate:affiliates
+
+      - name: Send Gmail delivery test
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.test_notification == true }}
+        run: node scripts/sync-affiliate-monitor-issue.mjs --test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check active affiliate products
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_notification == true) }}
+        run: node scripts/check-affiliate-products.mjs --output=${{ runner.temp }}/affiliate-monitor-report.json
+
+      - name: Open, update, or close the monitor Issue
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_notification == true) }}
+        run: node scripts/sync-affiliate-monitor-issue.mjs --report=${{ runner.temp }}/affiliate-monitor-report.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Keep the detailed report
+        if: ${{ always() && !(github.event_name == 'workflow_dispatch' && inputs.test_notification == true) }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: affiliate-monitor-report
+          path: ${{ runner.temp }}/affiliate-monitor-report.json
+          if-no-files-found: warn
+          retention-days: 30
