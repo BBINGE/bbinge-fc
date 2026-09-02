@@ -196,6 +196,20 @@ fashionProfile:
   </div>
 </section>
 
+<aside class="fashion-related-cta" aria-labelledby="more-teamgeist-look">
+  <a href="/culture/jennie-manchester-united-teamgeist-blokecore/">
+    <span class="fashion-related-cta__image">
+      <img src="/images/culture/jennie-manchester-united-teamgeist/look-editorial.jpg" alt="맨체스터 유나이티드 팀가이스트 저지와 진주 목걸이를 착용한 제니" width="1200" height="1200" loading="lazy" decoding="async" />
+    </span>
+    <span class="fashion-related-cta__body">
+      <span class="fashion-related-cta__eyebrow">MORE LOOKS · MANCHESTER UNITED</span>
+      <span class="fashion-related-cta__title" id="more-teamgeist-look">제니의 맨유<br />팀가이스트 착장</span>
+      <span class="fashion-related-cta__copy">검정 프리매치 저지를 짧게 자르고 진주와 크리스털, 가죽을 더한 Pink Venom 무대 룩.</span>
+      <span class="fashion-related-cta__action">맨유 유니폼·착장 더 보기 <span aria-hidden="true">→</span></span>
+    </span>
+  </a>
+</aside>
+
 <div class="source-notes">
   <h2>출처</h2>
   <ol>
@@ -273,6 +287,21 @@ fashionProfile:
   .wardrobe-guide article p { margin: 0; color: #536174; font-size: .8rem; line-height: 1.7; }
   .wardrobe-guide article b { margin-top: auto; padding-top: 1rem; color: #0a5ac8; font-size: .72rem; }
 
+  .fashion-related-cta { margin: 3.6rem 0 3.4rem; overflow: hidden; border: 1px solid #2b3038; border-radius: 24px; background: #080a0d; box-shadow: 0 24px 48px -38px rgba(0,0,0,.95); }
+  .fashion-related-cta a { display: grid; grid-template-columns: minmax(260px,.86fr) minmax(0,1.14fr); min-height: 370px; color: inherit; text-decoration: none; }
+  .fashion-related-cta__image { position: relative; display: block; height: 370px; overflow: hidden; }
+  .fashion-related-cta__image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg,transparent 64%,rgba(8,10,13,.68) 100%); pointer-events: none; }
+  .fashion-related-cta__image img { display: block; width: 100%; height: 100%; margin: 0; border: 0; border-radius: 0; object-fit: cover; object-position: center; transition: transform .45s ease; }
+  .fashion-related-cta__body { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 42px 42px 40px; }
+  .fashion-related-cta__eyebrow { color: #ff5a64; font-size: 10px; line-height: 1.4; font-weight: 780; letter-spacing: .15em; }
+  .fashion-related-cta__title { display: block; margin-top: 15px; color: #fff; font-size: 32px; line-height: 1.16; font-weight: 790; letter-spacing: -.045em; }
+  .fashion-related-cta__copy { max-width: 410px; margin-top: 20px; color: #cfd5df; font-size: 13.5px; line-height: 1.82; }
+  .fashion-related-cta__action { display: inline-flex; align-items: center; gap: 14px; margin-top: 30px; padding: 12px 16px; border: 1px solid rgba(255,90,100,.72); border-radius: 999px; color: #fff; font-size: 16px; line-height: 1.4; font-weight: 760; letter-spacing: -.01em; }
+  .fashion-related-cta__action span { color: #ff5a64; font-size: 22px; transition: translate .25s ease; }
+  .fashion-related-cta a:hover .fashion-related-cta__image img { transform: scale(1.035); }
+  .fashion-related-cta a:hover .fashion-related-cta__action span { translate: 4px 0; }
+  .fashion-related-cta a:focus-visible { outline: 3px solid #ff5a64; outline-offset: -3px; }
+
   .culture-photo-caption { margin: 0 0 1.75rem; color: #7b8797; font-size: .88rem; line-height: 1.6; }
   .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .68rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
   @media (max-width: 720px) {
@@ -305,8 +334,16 @@ fashionProfile:
     .wardrobe-guide { margin: 2.7rem 0; padding: 1.2rem; border-radius: 17px; }
     .wardrobe-guide__grid { grid-template-columns: 1fr; }
     .wardrobe-guide article { min-height: 0; }
+    .fashion-related-cta { margin: 2.9rem 0 2.6rem; border-radius: 17px; }
+    .fashion-related-cta a { grid-template-columns: 1fr; min-height: 0; }
+    .fashion-related-cta__image { height: auto; min-height: 0; aspect-ratio: 4 / 3; }
+    .fashion-related-cta__image::after { background: linear-gradient(0deg,rgba(8,10,13,.55) 0%,transparent 34%); }
+    .fashion-related-cta__body { padding: 28px 23px 30px; }
+    .fashion-related-cta__title { font-size: 27px; }
+    .fashion-related-cta__copy { margin-top: 16px; font-size: 13px; }
+    .fashion-related-cta__action { margin-top: 24px; font-size: 15px; }
   }
   @media (prefers-reduced-motion: reduce) {
-    .look-index__item, .look-index__item::before, .look-feature__image img { transition: none; }
+    .look-index__item, .look-index__item::before, .look-feature__image img, .fashion-related-cta__image img, .fashion-related-cta__action span { transition: none; }
   }
 </style>

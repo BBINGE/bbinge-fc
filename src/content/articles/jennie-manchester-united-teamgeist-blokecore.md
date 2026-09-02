@@ -138,9 +138,9 @@ fashionProfile:
     </span>
     <span class="fashion-related-cta__body">
       <span class="fashion-related-cta__eyebrow">MORE LOOKS · MANCHESTER UNITED</span>
-      <span class="fashion-related-cta__title" id="more-united-looks">맨유 유니폼,<br />다른 코디도 보러가기</span>
+      <span class="fashion-related-cta__title" id="more-united-looks">오하영의 맨유<br />유니폼 코디 3가지</span>
       <span class="fashion-related-cta__copy">흰 레트로 셔츠를 스팽글 스커트, 청바지, 셸 파카로 바꿔 입은 오하영의 세 가지 스타일.</span>
-      <span class="fashion-related-cta__action">오하영의 룩 더보기 <span aria-hidden="true">→</span></span>
+      <span class="fashion-related-cta__action">맨유 유니폼·착장 더 보기 <span aria-hidden="true">→</span></span>
     </span>
   </a>
 </aside>
@@ -177,15 +177,15 @@ fashionProfile:
   .fashion-style-notes p { max-width:230px; margin:17px 0 0; color:#d7dce4; font-size:13.5px; line-height:1.85; }
   .fashion-related-cta { margin:58px 0 54px; overflow:hidden; border:1px solid #222a35; border-radius:var(--bbfc-radius-lg); background:#080a0d; box-shadow:0 24px 48px -38px rgba(0,0,0,.95); }
   .fashion-related-cta a { display:grid; grid-template-columns:minmax(260px,.86fr) minmax(0,1.14fr); min-height:370px; color:inherit; text-decoration:none; }
-  .fashion-related-cta__image { position:relative; display:block; min-height:100%; overflow:hidden; }
+  .fashion-related-cta__image { position:relative; display:block; height:370px; overflow:hidden; }
   .fashion-related-cta__image::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,transparent 64%,rgba(8,10,13,.68) 100%); pointer-events:none; }
   .fashion-related-cta__image img { display:block; width:100%; height:100%; margin:0; border:0; border-radius:0; object-fit:cover; object-position:center 37%; transition:transform .45s ease; }
   .fashion-related-cta__body { display:flex; flex-direction:column; justify-content:center; align-items:flex-start; padding:42px 42px 40px; }
   .fashion-related-cta__eyebrow { color:#8cbcff; font-size:10px; line-height:1.4; font-weight:780; letter-spacing:.15em; }
   .fashion-related-cta__title { display:block; margin-top:15px; color:#fff; font-size:32px; line-height:1.16; font-weight:790; letter-spacing:-.045em; }
   .fashion-related-cta__copy { max-width:410px; margin-top:20px; color:#cfd5df; font-size:13.5px; line-height:1.82; }
-  .fashion-related-cta__action { display:inline-flex; align-items:center; gap:10px; margin-top:30px; padding-bottom:7px; border-bottom:1px solid rgba(140,188,255,.68); color:#fff; font-size:12px; line-height:1.4; font-weight:760; letter-spacing:.04em; }
-  .fashion-related-cta__action span { color:#8cbcff; font-size:17px; transition:translate .25s ease; }
+  .fashion-related-cta__action { display:inline-flex; align-items:center; gap:14px; margin-top:30px; padding:12px 16px; border:1px solid rgba(140,188,255,.68); border-radius:999px; color:#fff; font-size:16px; line-height:1.4; font-weight:760; letter-spacing:-.01em; }
+  .fashion-related-cta__action span { color:#8cbcff; font-size:22px; transition:translate .25s ease; }
   .fashion-related-cta a:hover .fashion-related-cta__image img { transform:scale(1.025); }
   .fashion-related-cta a:hover .fashion-related-cta__action span { translate:4px 0; }
   .fashion-related-cta a:focus-visible { outline:3px solid var(--bbfc-blue); outline-offset:-3px; }
@@ -202,7 +202,7 @@ fashionProfile:
     .fashion-style-notes strong, .fashion-style-notes p { max-width:260px; }
     .fashion-related-cta { margin:46px 0 42px; }
     .fashion-related-cta a { grid-template-columns:1fr; min-height:0; }
-    .fashion-related-cta__image { aspect-ratio:4/3; min-height:0; }
+    .fashion-related-cta__image { height:auto; aspect-ratio:4/3; min-height:0; }
     .fashion-related-cta__image::after { background:linear-gradient(0deg,rgba(8,10,13,.55) 0%,transparent 34%); }
     .fashion-related-cta__image img { object-position:center 34%; }
     .fashion-related-cta__body { padding:28px 23px 30px; }
