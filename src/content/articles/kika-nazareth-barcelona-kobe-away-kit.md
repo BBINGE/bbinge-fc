@@ -6,8 +6,8 @@ tags: ['키카 나자레스', 'FC 바르셀로나 여성팀', '바르셀로나 �
 pubDate: 2026-09-02T20:52:00+09:00
 coverImage: '/images/culture/kika-nazareth-barcelona-kobe/cover.webp'
 cardImage: '/images/culture/kika-nazareth-barcelona-kobe/card.webp'
-coverImageAlt: 'FC 바르셀로나 2026/27 보라색 어웨이 유니폼을 입고 걷는 아이샤 카마라, 키카 나자레스, 클라우디아 피나'
-coverImageCaption: '검정에서 보라색으로 내려가는 유니폼과 금색 마킹. 키카 나자레스가 아이샤 카마라, 클라우디아 피나 사이에서 걷는다. Photo: Nike.'
+coverImageAlt: 'FC 바르셀로나 유니폼을 입고 바르사 공을 이마에 올린 키카 나자레스의 옆모습'
+coverImageCaption: '공을 이마에 올린 옆모습, 길게 떨어지는 머리와 몸을 따라 붙는 바르사 셔츠가 키카 나자레스를 먼저 보게 한다. Photo: German Parga / FC Barcelona · cropped.'
 coverImageWidth: 1920
 coverImageHeight: 1080
 draft: false
@@ -49,9 +49,9 @@ fashionProfile:
   <span>이 글에는 애드픽 제휴 링크가 포함되어 있습니다. 링크를 통해 구매가 발생하면 삥이FC가 일정 수수료를 받을 수 있으며, 구매 가격에는 영향을 주지 않습니다.</span>
 </aside>
 
-키카 나자레스<span class="foreign-note" lang="pt">(Kika Nazareth; 포르투갈 축구 선수, 2002년생)</span>가 FC 바르셀로나의 2026/27 어웨이 유니폼을 입고 걷는다. 검정에 가까운 상의가 허리 아래에서 선명한 보라색으로 바뀌고, 가슴의 코비 로고와 스폰서 마킹은 금색으로 빛난다. 흔한 보라색 축구 셔츠보다 밤의 조명이 몸을 따라 내려오는 것에 가깝다.
+키카 나자레스<span class="foreign-note" lang="pt">(Kika Nazareth; 포르투갈 축구 선수, 2002년생)</span>가 바르사 공을 이마에 올린다. 옆으로 젖힌 얼굴과 길게 떨어지는 머리 아래에서 블라우그라나 셔츠가 몸의 선을 따라 붙는다. 유니폼을 든 입단 사진보다, 바르셀로나의 옷을 이미 자기 방식으로 입고 있는 한 장면에 가깝다.
 
-이 캠페인에서 키카는 가운데에 있다. 아이샤 카마라와 클라우디아 피나 사이로 걸어오다가, 단독 사진에서는 공을 발밑에 둔 채 수비를 밀어낸다. 유니폼을 정면으로 세워 보여주는 대신 선수의 팔과 허벅지, 방향 전환 속에서 검정과 보라색의 경계를 보게 한다. 그래서 이 옷은 기념품보다 먼저 ‘입고 움직이고 싶은 것’으로 들어온다.
+이 표지의 홈 셔츠는 2024년 키카가 바르셀로나에 입단하며 입은 옷이다. 이번에 살펴볼 2026/27 어웨이는 검정에 가까운 상의가 허리 아래에서 선명한 보라색으로 바뀌고, 가슴의 코비 로고와 스폰서 마킹이 금색으로 빛난다. 신상품의 색부터 설명하기 전에 키카가 바르사 유니폼을 자기 표정과 자세로 바꾸는 장면을 먼저 보는 이유다.
 
 <section class="kn-code" aria-label="바르셀로나 코비 어웨이 유니폼의 세 가지 핵심">
   <article><span>01 · COLOR</span><h3>Field Purple</h3><p>검정에 가까운 어깨에서 보라색 쇼츠까지 한 덩어리로 이어진다.</p></article>
@@ -59,15 +59,15 @@ fashionProfile:
   <article><span>03 · METAL</span><h3>Gold & Iridescent</h3><p>금색 마킹과 각도에 따라 달라지는 문장이 보라색을 날카롭게 끊는다.</p></article>
 </section>
 
-## 키카 나자레스가 입으니 보라색이 더 빠르게 보여요
+## 바르사 유니폼을 입은 키카를 먼저 보고 싶어요
 
-키카의 단독 컷에서 가장 먼저 보이는 것은 셔츠보다 벌어진 팔과 낮아진 중심이다. 짧은 소매 아래로 팔을 크게 열고, 한쪽 무릎을 접어 공 앞으로 들어간다. 검정 상의는 상체를 작게 묶고 보라색 쇼츠는 허벅지의 방향을 더 크게 보이게 한다. 정지 사진인데도 다음 동작이 이미 시작된 것처럼 보이는 이유다.
+공 위에 낮게 앉은 키카는 셔츠를 정면으로 세워 보여주지 않는다. 한쪽 무릎을 벌리고 몸을 앞으로 기울인 자세에서 짧은 소매, 몸에 붙는 상의와 쇼츠의 길이가 한꺼번에 읽힌다. 얼굴에는 경기 중 긴장 대신 웃음이 남아 있어, 바르사 유니폼이 선수 장비보다 먼저 여름에 입고 싶은 한 벌로 들어온다.
 
-유니폼의 금색은 넓게 쓰이지 않는다. 가슴의 Spotify 원형, 소매의 Bimbo 마킹, 양말의 코비 심볼처럼 작은 위치에서 반복된다. 여기에 형광에 가까운 붉은 축구화가 들어오면서 보라색은 낭만적인 색보다 경쟁적인 색으로 바뀐다.
+이전 홈 셔츠의 빨강과 파랑이 키카의 밝은 표정을 앞으로 당겼다면, 새 어웨이 셔츠는 같은 몸의 윤곽을 검정과 보라색으로 더 길고 날카롭게 만든다. 금색은 가슴의 Spotify 원형, 소매의 Bimbo 마킹, 양말의 코비 심볼처럼 작은 위치에서 반복되고, 형광에 가까운 붉은 축구화가 보라색을 경쟁적인 색으로 바꾼다.
 
 <figure class="kn-kika kn-reveal">
-  <img src="/images/culture/kika-nazareth-barcelona-kobe/kika-action.webp" alt="FC 바르셀로나 보라색 어웨이 유니폼을 입고 공을 지키는 키카 나자레스" width="1440" height="2137" loading="eager" decoding="async" />
-  <figcaption>상체는 검정으로 묶고 하체는 보라색으로 넓힌다. 키카의 낮은 중심이 그라데이션의 방향을 그대로 움직임으로 바꾼다.<small class="kn-credit">Photo: Nike</small></figcaption>
+  <img src="/images/culture/kika-nazareth-barcelona-kobe/kika-action.webp" alt="FC 바르셀로나 홈 유니폼을 입고 공 위에 낮게 앉아 웃는 키카 나자레스" width="1440" height="1800" loading="eager" decoding="async" />
+  <figcaption>공 위에 손을 얹고 낮게 앉은 자세에서도 얼굴과 유니폼, 쇼츠의 실루엣이 한 장면 안에 남는다.<small class="kn-credit">Photo: German Parga / FC Barcelona</small></figcaption>
 </figure>
 
 ## 코비의 이름이 농구화에서 축구 유니폼으로 왔어요
@@ -76,9 +76,9 @@ fashionProfile:
 
 보라색과 금색을 썼다고 LA 레이커스 유니폼을 그대로 옮긴 것은 아니다. 바르셀로나의 문장, 세로로 내려가는 축구 셔츠의 그라데이션, 짧은 쇼츠를 한 세트로 묶었다. 코비의 색을 빌리되 축구선수의 몸에서 완성되는 방식이다.
 
-<figure class="kn-wide kn-reveal">
-  <img src="/images/culture/kika-nazareth-barcelona-kobe/campaign-wide.webp" alt="FC 바르셀로나 코비 어웨이 유니폼을 입고 코너 라인 위를 달리는 아이샤 카마라" width="1920" height="1186" loading="lazy" decoding="async" />
-  <figcaption>멀리서 보면 검정 셔츠와 보라색 쇼츠가 먼저 갈리고, 가까이 갈수록 몸판의 맘바 조직과 금색 마킹이 보인다.<small class="kn-credit">Photo: Nike</small></figcaption>
+<figure class="kn-kika kn-reveal">
+  <img src="/images/culture/kika-nazareth-barcelona-kobe/campaign-wide.webp" alt="FC 바르셀로나 홈 유니폼을 입고 고개를 들어 웃는 키카 나자레스" width="1440" height="1800" loading="lazy" decoding="async" />
+  <figcaption>고개를 들고 웃는 얼굴 아래 바르사 문장이 정면으로 남는다. 키카가 유니폼보다 먼저 보이고, 그다음에 셔츠를 갖고 싶어진다.<small class="kn-credit">Photo: German Parga / FC Barcelona</small></figcaption>
 </figure>
 
 ## 바르셀로나 2026/27 어웨이 유니폼을 산다면 두 갈래예요
@@ -117,12 +117,13 @@ fashionProfile:
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
-    <li><a href="https://about.nike.com/en/newsroom/releases/nike-kobe-fc-barcelona-kit-is-built-for-a-club-that-plays-without-fear">Nike, “Nike’s New Kobe x FC Barcelona Kit Is Built for a Club That Plays Without Fear”</a>, 2026년 7월 24일. 공식 캠페인 사진, 색상·맘바 텍스처·문장·Aero-FIT와 컬렉션 구성 확인.</li>
+    <li><a href="https://about.nike.com/en/newsroom/releases/nike-kobe-fc-barcelona-kit-is-built-for-a-club-that-plays-without-fear">Nike, “Nike’s New Kobe x FC Barcelona Kit Is Built for a Club That Plays Without Fear”</a>, 2026년 7월 24일. 색상·맘바 텍스처·문장·Aero-FIT와 컬렉션 구성 확인.</li>
     <li><a href="https://www.fcbarcelona.es/es/noticias/4542918/la-segunda-equipacion-del-fc-barcelona-202627-reivindica-la-ambicion-de-superar-constantemente-los-propios-limites/amp">FC Barcelona, 2026/27 두 번째 유니폼 공식 발표</a>, 2026년 7월 24일. 키카 나자레스를 포함한 캠페인 출연 선수와 디자인 설명 확인.</li>
     <li><a href="https://www.fcbarcelona.com/en/football/womens-football/players/4051341/nazareth">FC Barcelona, Kika Nazareth 선수 프로필</a>. 생년월일, 리스본 출생, 포지션, 소속과 주요 우승 확인.</li>
     <li><a href="https://www.nike.com/t/fc-barcelona-2026-27-match-home-mens-nike-aero-fit-soccer-authentic-jersey-gnZBHrfQ/II2752-505">Nike, FC Barcelona 2026/27 Match Away Men’s Kobe Aero-FIT Authentic Jersey</a>. 제품 코드 II2752-505, 남성용 어센틱 사양과 공식 제품 사진 확인.</li>
     <li><a href="https://www.nike.com/si/t/fc-barcelona-womens-kobe-football-t-shirt-hUEPSbny/IQ5047-010">Nike, FC Barcelona Women’s Kobe Football T-Shirt</a>. 제품 코드 IQ5047-010, 여성용 루즈 핏·면 소재와 공식 제품 사진 확인.</li>
     <li><a href="https://elpais.com/deportes/futbol/2025-09-27/kika-nazareth-me-gusta-que-me-quieran-por-quien-soy-no-por-ser-jugadora-del-barca.html">EL PAÍS, Kika Nazareth 인터뷰</a>, 2025년 9월 27일. Gianluca Battista가 촬영한 스튜디오 포트레이트를 인물 카드에 사용.</li>
+    <li><a href="https://www.fcbarcelona.com/en/photos/4051302/kika-nazareths-first-day-in-blaugrana">FC Barcelona, “Kika Nazareth's first day in blaugrana”</a>, 2024년 7월 4일. German Parga가 촬영한 공식 입단 화보를 표지·목록·본문에 사용.</li>
   </ol>
 </div>
 
@@ -136,8 +137,8 @@ fashionProfile:
   .kn-code article>span { color:#d6b15f; font-size:11px; font-weight:700; letter-spacing:.12em; }
   .article-body .kn-code h3 { margin:10px 0 9px; color:#fff; font-size:20px; font-weight:650; line-height:1.3; }
   .kn-code p { margin:0; color:rgba(255,255,255,.72); font-size:13px; line-height:1.7; }
-  .article-body .kn-kika { position:relative; left:50%; width:min(760px,calc(100vw - 32px)); margin:44px 0 64px; transform:translateX(-50%); }
-  .article-body .kn-wide { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:44px 0 64px; transform:translateX(-50%); }
+  .fashion-article .article-body .kn-kika { width:min(760px,100%); margin:44px auto 64px; }
+  .fashion-article .article-body .kn-wide { width:min(1040px,100%); margin:44px auto 64px; }
   .kn-kika img, .kn-wide img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .kn-shop-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; width:min(1040px,calc(100vw - 32px)); margin:44px 0 18px; transform:translateX(-50%); }
   .kn-shop-card { display:grid; min-width:0; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); color:var(--bbfc-ink); text-decoration:none; cursor:pointer; grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr); transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease; }
@@ -158,6 +159,8 @@ fashionProfile:
   .kn-price-note { margin:0 0 60px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.65; text-align:center; }
   @media (prefers-reduced-motion:no-preference) { .kn-reveal { animation:kn-reveal .72s ease both; } }
   @keyframes kn-reveal { from { opacity:.55; transform:translateX(-50%) translateY(8px); } to { opacity:1; transform:translateX(-50%) translateY(0); } }
+  .kn-kika.kn-reveal, .kn-wide.kn-reveal { animation-name:kn-figure-reveal; }
+  @keyframes kn-figure-reveal { from { opacity:.55; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
   .kn-shop-card.kn-reveal { animation-name:kn-card-reveal; }
   @keyframes kn-card-reveal { from { opacity:.55; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
   @media (max-width:820px) { .kn-shop-card { grid-template-columns:1fr; } .kn-shop-card img { min-height:0; aspect-ratio:1; } }
