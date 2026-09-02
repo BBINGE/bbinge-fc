@@ -21,6 +21,7 @@ interface Props {
   robots?: string;
   adsEligible?: boolean;
   analyticsEligible?: boolean;
+  bodyClass?: string;
   breadcrumbs?: Breadcrumb[];
   article?: {
     pubDate: Date;
@@ -49,6 +50,7 @@ const {
   robots = 'index,follow,max-image-preview:large',
   adsEligible = true,
   analyticsEligible = true,
+  bodyClass,
   breadcrumbs = [{ label: '홈', href: '/' }],
   article,
   extraSchema,
@@ -261,7 +263,7 @@ const authorSchema = {
       </script>
     )}
   </head>
-  <body>
+  <body class={bodyClass}>
     <Header />
     <main>
       <slot />
