@@ -41,6 +41,11 @@ fashionProfile:
     href: 'https://www.instagram.com/kwoneunbi.official/'
 ---
 
+<aside class="ke-affiliate-disclosure" aria-label="광고 및 제휴 링크 안내">
+  <strong>광고·제휴 링크 안내</strong>
+  <span>이 글에는 애드픽 제휴 링크가 포함되어 있습니다. 링크를 통해 구매가 발생하면 삥이FC가 일정 수수료를 받을 수 있으며, 구매 가격에는 영향을 주지 않습니다.</span>
+</aside>
+
 권은비<span class="foreign-note" lang="en">(KWON EUN BI; 대한민국 가수, 1995년생)</span>가 2026 월드컵을 위해 고른 옷은 복잡하지 않다. 빨강, 흰색, 데님 세 가지다. 과달라하라의 경기장에서는 빨간 코카콜라 유니폼과 짧은 데님 스커트를 입었고, 브랜드 행사에서는 허리가 드러나는 흰색 크롭 저지로 바꿨다. 출국하는 날에는 같은 흰색과 빨강을 몸에 붙는 티셔츠, 아주 넓은 데님, 빨간 Miu Miu 백으로 다시 조립했다.
 
 세 착장 모두 축구를 모르는 사람에게도 바로 예쁘다. 얼굴 가까이에는 선명한 빨강을 두고, 하의는 익숙한 데님으로 받쳤다. 유니폼을 일상복으로 입기 어려워 보이게 만드는 긴 소매, 무거운 마킹, 여러 겹의 액세서리는 없다. 대신 짧은 상의와 맨다리, 흰 양말이 여름의 비율을 만들고 투명 백과 축구공 참이 월드컵의 장면을 붙잡는다.
@@ -70,13 +75,19 @@ fashionProfile:
 같은 컬렉션의 데님 쇼츠는 권은비의 미니스커트와 정확히 같은 제품은 아니다. 대신 흰 삼선과 빨간 트레포일이 들어간 연청 쇼츠라서, 스커트보다 움직이기 쉬운 버전으로 같은 색 조합을 만들 수 있다. 사진을 그대로 복제하려면 크롭 저지에 짧고 반듯한 데님 미니를, 더 스포티하게 입으려면 공식 데님 쇼츠를 고르면 된다.
 
 <div class="ke-shop-grid" aria-label="권은비 월드컵 룩과 함께 살펴볼 아디다스 코카콜라 제품">
-  <a class="ke-shop-card ke-enter" href="https://www.adidas.co.kr/adidas-x-coca-cola-%ED%81%AC%EB%A1%AD-%EC%A0%80%EC%A7%80/KY7571.html" target="_blank" rel="noopener noreferrer">
-    <img src="/images/culture/kwon-eunbi-world-cup/product-crop-jersey.webp" alt="흰색과 빨간색의 아디다스 코카콜라 크롭 저지 공식 착용 사진" width="1000" height="1000" loading="lazy" decoding="async" />
-    <span><small>EXACT TOP · ADIDAS OFFICIAL</small><b>ADIDAS X COCA-COLA<br />크롭 저지</b><em>₩69,000 · 제품 보기 →</em></span>
+  <a class="ke-shop-card ke-enter" href="https://bitl.bz/njHNZd" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KY7571">
+    <span class="ke-shop-card__visual">
+      <img src="/images/culture/kwon-eunbi-world-cup/product-crop-jersey.webp" alt="흰색과 빨간색의 아디다스 코카콜라 크롭 저지 공식 착용 사진" width="1000" height="1000" loading="lazy" decoding="async" />
+      <span class="ke-shop-card__badge">권은비 착용 제품</span>
+    </span>
+    <span class="ke-shop-card__copy"><small>EXACT TOP · ADIDAS OFFICIAL</small><strong>ADIDAS X COCA-COLA<br />크롭 저지</strong><span class="ke-shop-card__price">₩69,000</span><span class="ke-shop-card__cta">제품 자세히 보기 <b aria-hidden="true">↗</b></span></span>
   </a>
-  <a class="ke-shop-card ke-enter" href="https://www.adidas.co.kr/adidas-x-coca-cola-%EB%8D%B0%EB%8B%98-%EC%87%BC%EC%B8%A0/KY7564.html" target="_blank" rel="noopener noreferrer">
-    <img src="/images/culture/kwon-eunbi-world-cup/product-denim-shorts.webp" alt="흰 삼선과 빨간 로고가 있는 아디다스 코카콜라 연청 데님 쇼츠" width="1000" height="1000" loading="lazy" decoding="async" />
-    <span><small>DENIM ALTERNATIVE · ADIDAS OFFICIAL</small><b>ADIDAS X COCA-COLA<br />데님 쇼츠</b><em>₩79,000 · 제품 보기 →</em></span>
+  <a class="ke-shop-card ke-enter" href="https://bitl.bz/6a8XQu" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KY7564">
+    <span class="ke-shop-card__visual">
+      <img src="/images/culture/kwon-eunbi-world-cup/product-denim-shorts.webp" alt="흰 삼선과 빨간 로고가 있는 아디다스 코카콜라 연청 데님 쇼츠" width="1000" height="1000" loading="lazy" decoding="async" />
+      <span class="ke-shop-card__badge">같은 컬렉션</span>
+    </span>
+    <span class="ke-shop-card__copy"><small>DENIM ALTERNATIVE · ADIDAS OFFICIAL</small><strong>ADIDAS X COCA-COLA<br />데님 쇼츠</strong><span class="ke-shop-card__price">₩79,000</span><span class="ke-shop-card__cta">제품 자세히 보기 <b aria-hidden="true">↗</b></span></span>
   </a>
 </div>
 
@@ -140,6 +151,8 @@ fashionProfile:
 </div>
 
 <style>
+  .ke-affiliate-disclosure { display:grid; gap:4px; margin:0 0 26px; padding:14px 16px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-md); background:var(--bbfc-fill); color:var(--bbfc-gray-1); font-size:12px; line-height:1.65; }
+  .ke-affiliate-disclosure strong { color:var(--bbfc-blue); font-weight:500; }
   .ke-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .ke-look-strip { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 60px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .ke-look-strip article { position:relative; z-index:1; min-width:0; padding:27px 23px 29px; }
@@ -151,13 +164,20 @@ fashionProfile:
   .article-body .ke-stadium, .article-body .ke-crop-look, .article-body .ke-airport { position:static; width:min(760px,calc(100vw - 32px)); margin:42px auto 60px; transform:none; }
   .ke-stadium img, .ke-crop-look img, .ke-airport img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .ke-shop-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 64px; transform:translateX(-50%); }
-  .ke-shop-card { display:grid; min-width:0; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); color:var(--bbfc-ink); grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr); transition:transform .35s ease,box-shadow .35s ease; }
-  .ke-shop-card:hover { transform:translateY(-5px); box-shadow:0 18px 38px color-mix(in srgb,var(--bbfc-ink) 12%,transparent); }
-  .ke-shop-card img { display:block; width:100%; height:100%; min-height:280px; margin:0; object-fit:cover; }
-  .ke-shop-card>span { display:flex; min-width:0; padding:24px 21px; flex-direction:column; justify-content:center; }
+  .ke-shop-card { display:grid; min-width:0; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); color:var(--bbfc-ink); text-decoration:none; cursor:pointer; grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr); transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease; }
+  .ke-shop-card:hover { border-color:var(--bbfc-blue); transform:translateY(-5px); box-shadow:0 18px 38px color-mix(in srgb,var(--bbfc-ink) 12%,transparent); }
+  .ke-shop-card:focus-visible { outline:2px solid var(--bbfc-blue); outline-offset:4px; }
+  .ke-shop-card__visual { position:relative; min-width:0; overflow:hidden; }
+  .ke-shop-card img { display:block; width:100%; height:100%; min-height:280px; margin:0; object-fit:cover; transition:transform .5s ease,filter .5s ease; }
+  .ke-shop-card:hover img { transform:scale(1.035); filter:saturate(1.05); }
+  .ke-shop-card__badge { position:absolute; top:12px; left:12px; padding:6px 9px; border:1px solid color-mix(in srgb,var(--bbfc-bg) 68%,transparent); border-radius:999px; background:color-mix(in srgb,var(--bbfc-ink) 76%,transparent); color:var(--bbfc-bg); font-size:11px; font-weight:500; line-height:1.2; backdrop-filter:blur(8px); }
+  .ke-shop-card__copy { display:flex; min-width:0; padding:24px 21px 20px; flex-direction:column; justify-content:center; }
   .ke-shop-card small { color:var(--bbfc-blue); font-size:10px; font-weight:500; letter-spacing:.08em; line-height:1.5; }
-  .ke-shop-card b { margin-top:12px; font-size:18px; font-weight:500; line-height:1.45; }
-  .ke-shop-card em { margin-top:18px; color:var(--bbfc-gray-1); font-size:12px; font-style:normal; }
+  .ke-shop-card strong { margin-top:12px; font-size:18px; font-weight:500; line-height:1.45; }
+  .ke-shop-card__price { margin-top:13px; color:var(--bbfc-gray-1); font-size:12px; }
+  .ke-shop-card__cta { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:18px; padding:11px 12px 11px 14px; border-radius:var(--bbfc-radius-md); background:var(--bbfc-ink); color:var(--bbfc-bg); font-size:13px; font-weight:500; line-height:1.2; }
+  .ke-shop-card__cta b { display:grid; width:27px; height:27px; place-items:center; border-radius:50%; background:var(--bbfc-bg); color:var(--bbfc-blue); font-size:14px; font-weight:500; transition:transform .35s ease; }
+  .ke-shop-card:hover .ke-shop-card__cta b { transform:translate(2px,-2px); }
   .ke-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr); width:min(1040px,calc(100vw - 32px)); margin:42px 0 64px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .ke-video__copy { padding:27px 25px 29px; }
   .ke-video__copy>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
@@ -193,13 +213,13 @@ fashionProfile:
     .ke-look-strip, .ke-stadium, .ke-crop-look, .ke-airport, .ke-shop-grid, .ke-video { margin-top:36px; margin-bottom:46px; }
     .ke-shop-card { grid-template-columns:1fr; }
     .ke-shop-card img { aspect-ratio:1; }
-    .ke-shop-card>span { padding:20px 18px 22px; }
+    .ke-shop-card__copy { padding:20px 18px 18px; }
     .ke-video__copy { padding:21px 18px 23px; }
   }
   @media (prefers-reduced-motion:reduce) {
     .ke-look-strip__light { display:none; animation:none; }
-    .ke-shop-card, .ke-video__media>[data-inline-video-poster] img { transition:none; }
-    .ke-shop-card:hover, .ke-video__media>[data-inline-video-poster]:hover img { transform:none; box-shadow:none; filter:none; }
+    .ke-shop-card, .ke-shop-card img, .ke-shop-card__cta b, .ke-video__media>[data-inline-video-poster] img { transition:none; }
+    .ke-shop-card:hover, .ke-shop-card:hover img, .ke-shop-card:hover .ke-shop-card__cta b, .ke-video__media>[data-inline-video-poster]:hover img { transform:none; box-shadow:none; filter:none; }
     .ke-enter { animation:none; }
   }
 </style>

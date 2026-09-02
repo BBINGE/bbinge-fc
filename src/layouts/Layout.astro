@@ -201,6 +201,18 @@ const authorSchema = {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-3931E0CPPK');
+          document.addEventListener('click', function(event) {
+            const target = event.target;
+            if (!(target instanceof Element)) return;
+            const link = target.closest('[data-affiliate-link]');
+            if (!(link instanceof HTMLAnchorElement)) return;
+            gtag('event', 'affiliate_click', {
+              affiliate_network: link.dataset.affiliateNetwork || '',
+              merchant: link.dataset.affiliateMerchant || '',
+              item_id: link.dataset.affiliateProduct || '',
+              link_url: link.href
+            });
+          });
         </script>
       </>
     )}
