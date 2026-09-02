@@ -67,6 +67,7 @@ const integrationRequirements = new Map([
     'PROSE-FLOW',
     'FOREIGN-NOTE-SELECTIVE',
     'NO-PROCESS-META',
+    'HISTORY-PREVIEW-PROMISE',
     'WRITING-GATE-1',
   ]],
   ['AGENTS.md', ['EDITORIAL_WRITING_RULES.md', 'npm run test:writing-rules', 'npm run validate:writing']],
@@ -74,6 +75,9 @@ const integrationRequirements = new Map([
   ['HANDOFF.md', ['EDITORIAL_WRITING_RULES.md', 'validate-editorial-writing.mjs']],
   ['package.json', ['validate:writing', 'test:writing-rules', 'validate-editorial-writing.mjs']],
   ['.github/workflows/quality-gate.yml', ['npm run test:writing-rules', 'npm run validate:writing']],
+  ['src/content.config.ts', ['previewTitle', 'previewDescription']],
+  ['public/admin/config.yml', ['name: previewTitle', 'name: previewDescription']],
+  ['src/components/HistoryCategoryPage.astro', ['previewTitleFor', 'previewDescriptionFor']],
 ]);
 
 function escapeRegExp(value) {
@@ -108,6 +112,63 @@ function sentenceParts(text) {
 
 function letterCount(text) {
   return (text.match(/[가-힣A-Za-z0-9]/g) ?? []).length;
+}
+
+function frontmatterScalar(source, key) {
+  const frontmatter = source.match(/^---\s*\n([\s\S]*?)\n---(?:\s|$)/)?.[1] ?? '';
+  const match = frontmatter.match(new RegExp(`^${escapeRegExp(key)}:\\s*(.*?)\\s*$`, 'm'));
+  if (!match) return undefined;
+  const value = match[1].trim();
+  if ((value.startsWith("'") && value.endsWith("'")) || (value.startsWith('"') && value.endsWith('"'))) {
+    return value.slice(1, -1).trim();
+  }
+  return value;
+}
+
+function normalizedPreviewText(value) {
+  return value.replace(/[\s'"“”‘’·:,.!?()\-]/g, '').toLowerCase();
+}
+
+function historyPreviewIssues(source, relative) {
+  const category = frontmatterScalar(source, 'category');
+  const isDraft = frontmatterScalar(source, 'draft') === 'true';
+  if (category !== 'history' || isDraft) return [];
+
+  const issues = [];
+  const title = frontmatterScalar(source, 'title') ?? '';
+  const description = frontmatterScalar(source, 'description') ?? '';
+  const previewTitle = frontmatterScalar(source, 'previewTitle') ?? '';
+  const previewDescription = frontmatterScalar(source, 'previewDescription') ?? '';
+  const lineFor = (key) => {
+    const index = source.search(new RegExp(`^${escapeRegExp(key)}:`, 'm'));
+    return index >= 0 ? lineAt(source, index) : 1;
+  };
+
+  if (!previewTitle) {
+    issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: '축세 발행 글에는 목록 전용 previewTitle이 필요합니다.', line: 1, relative });
+  } else {
+    const length = letterCount(previewTitle);
+    if (length < 12 || length > 42) {
+      issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: `previewTitle은 12~42자 안에서 한 가지 읽을 이유를 보여야 합니다. 현재 ${length}자입니다.`, line: lineFor('previewTitle'), relative });
+    }
+    if (normalizedPreviewText(previewTitle) === normalizedPreviewText(title)) {
+      issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: 'previewTitle에 상세 제목을 그대로 복사하지 말고 클릭 후 얻을 답을 앞세우십시오.', line: lineFor('previewTitle'), relative });
+    }
+  }
+
+  if (!previewDescription) {
+    issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: '축세 발행 글에는 목록 전용 previewDescription이 필요합니다.', line: 1, relative });
+  } else {
+    const length = letterCount(previewDescription);
+    if (length < 35 || length > 110) {
+      issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: `previewDescription은 35~110자 안에서 제목의 약속을 구체화해야 합니다. 현재 ${length}자입니다.`, line: lineFor('previewDescription'), relative });
+    }
+    if (normalizedPreviewText(previewDescription) === normalizedPreviewText(description)) {
+      issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: 'previewDescription에 검색 설명을 그대로 복사하지 말고 카드에서 읽을 이유를 구체화하십시오.', line: lineFor('previewDescription'), relative });
+    }
+  }
+
+  return issues;
 }
 
 function isShortSentence(sentence, maximum = 30) {
@@ -238,6 +299,7 @@ function validateSource(source, relative = 'fixture.md') {
   }
 
   issues.push(...staccatoIssues(body, relative));
+  issues.push(...historyPreviewIssues(source, relative));
   return issues;
 }
 
@@ -259,6 +321,8 @@ function runSelfTest() {
     ['비표준 인명', '세베시 구스타브와 리뉘스 미헬스가 남긴 전술을 비교했다.', 'CANONICAL-TERMINOLOGY'],
     ['대중 용어 원어 풀이', '추가시간<span class="foreign-note" lang="en">(additional time)</span>은 주심이 정한다.', 'FOREIGN-NOTE-SELECTIVE'],
     ['짧은 문단 연타', '경기가 다시 시작됐다.\n\n관중은 시계를 바라봤다.\n\n벤치는 항의를 이어갔다.\n\n주심은 손목을 가리켰다.\n\n휘슬은 아직 울리지 않았다.', 'PROSE-FLOW'],
+    ['축세 미리보기 누락', '---\ntitle: 축구 역사의 오래된 질문을 다시 읽는다\ndescription: 검색을 위한 충분히 긴 설명입니다.\ncategory: history\ndraft: false\n---\n\n본문입니다.', 'HISTORY-PREVIEW-PROMISE'],
+    ['축세 상세 제목 복사', '---\ntitle: 축구 역사는 왜 영국 중심으로 쓰였나\ndescription: 검색을 위한 설명은 상세 페이지와 검색 결과에 사용됩니다.\npreviewTitle: 축구 역사는 왜 영국 중심으로 쓰였나\npreviewDescription: 영국과 남미가 서로 다른 사회에서 축구를 발전시킨 과정을 구체적인 사건과 함께 읽습니다.\ncategory: history\ndraft: false\n---\n\n본문입니다.', 'HISTORY-PREVIEW-PROMISE'],
   ];
 
   for (const [label, source, expectedCode] of fixtures) {
@@ -321,4 +385,4 @@ if (failures.length > 0) {
 }
 
 console.log('삥이FC 글쓰기 규칙 검수 통과');
-console.log('자동 차단: 제작 과정 노출 · 비표준 대회명·인명 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타');
+console.log('자동 차단: 제작 과정 노출 · 비표준 대회명·인명 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타 · 축세 미리보기 위반');

@@ -8,6 +8,8 @@ const { entries, description } = Astro.props;
 const [lead, ...archive] = entries;
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const previewTitleFor = (entry: CollectionEntry<'articles'>) => entry.data.previewTitle ?? entry.data.title;
+const previewDescriptionFor = (entry: CollectionEntry<'articles'>) => entry.data.previewDescription ?? entry.data.description;
 const dateFor = (entry: CollectionEntry<'articles'>) => new Intl.DateTimeFormat('ko-KR', {
   year: 'numeric',
   month: '2-digit',
@@ -61,8 +63,8 @@ const subjectsFor = (entry: CollectionEntry<'articles'>) => (entry.data.tags ?? 
         </a>
         <div class="lead-copy">
           <p class="record-meta"><span>{dateFor(lead)}</span><b>{subjectsFor(lead)[0] ?? '축구 세계사'}</b></p>
-          <h2 id="lead-record-title"><a href={hrefFor(lead)}>{lead.data.title}</a></h2>
-          <p class="lead-description">{lead.data.description}</p>
+          <h2 id="lead-record-title"><a href={hrefFor(lead)}>{previewTitleFor(lead)}</a></h2>
+          <p class="lead-description">{previewDescriptionFor(lead)}</p>
           {subjectsFor(lead).length > 0 && (
             <dl>
               <dt>CONTEXT TRACE</dt>
@@ -91,8 +93,8 @@ const subjectsFor = (entry: CollectionEntry<'articles'>) => (entry.data.tags ?? 
             </a>
             <div class="record-copy">
               <p class="record-meta"><span>{dateFor(entry)}</span><b>{subjectsFor(entry)[0] ?? '축구 세계사'}</b></p>
-              <h3><a href={hrefFor(entry)}>{entry.data.title}</a></h3>
-              <p>{entry.data.description}</p>
+              <h3><a href={hrefFor(entry)}>{previewTitleFor(entry)}</a></h3>
+              <p>{previewDescriptionFor(entry)}</p>
               <div class="record-footer">
                 <small>{subjectsFor(entry).slice(1).join(' · ') || 'BBINGE FC HISTORY ARCHIVE'}</small>
                 <a href={hrefFor(entry)} aria-label={`${entry.data.title} 읽기`}>기록 열기 <i aria-hidden="true">↗</i></a>

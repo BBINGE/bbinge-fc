@@ -12,6 +12,10 @@ const articles = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
+      // 카테고리 목록에서 클릭 후 얻을 내용을 직관적으로 보여 주는 편집 문구.
+      // 상세 페이지 H1·검색·공유 메타에는 사용하지 않는다. 축세 발행 글은 글쓰기 게이트가 입력을 강제한다.
+      previewTitle: z.string().optional(),
+      previewDescription: z.string().optional(),
       category: z.enum(categorySlugs),
       tags: z.array(z.string()).default([]),
       // 최신순 동률을 피하려면 수동 발행도 날짜만 쓰지 말고 ISO 8601 시각까지 기록한다.
