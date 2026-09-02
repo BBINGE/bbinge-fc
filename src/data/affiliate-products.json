@@ -24,6 +24,30 @@
       "productCode": "KY7564",
       "status": "active",
       "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "ssg-nike-ii2752-505",
+      "label": "나이키 FC 바르셀로나 2026/27 어웨이 어센틱 저지",
+      "network": "adpick",
+      "merchant": "SSG.COM",
+      "affiliateUrl": "https://bitl.bz/JQOEG8",
+      "merchantUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000864966982",
+      "merchantHost": "www.ssg.com",
+      "productCode": "1000864966982",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시품절", "판매 종료", "판매중지", "구매 불가", "재입고 알림"]
+    },
+    {
+      "id": "ssg-nike-iq5047-010",
+      "label": "나이키 FC 바르셀로나 여성용 코비 풋볼 티셔츠",
+      "network": "adpick",
+      "merchant": "SSG.COM",
+      "affiliateUrl": "https://bitl.bz/QPrYlT",
+      "merchantUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000872172607",
+      "merchantHost": "www.ssg.com",
+      "productCode": "1000872172607",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시품절", "판매 종료", "판매중지", "구매 불가", "재입고 알림"]
     }
   ]
 }
