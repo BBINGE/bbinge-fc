@@ -44,6 +44,7 @@ collections:
       - { label: 제목, name: title, widget: string }
       - { label: 설명 (검색결과에 노출), name: description, widget: text }
       - { label: '목록 미리보기 제목 (축세 발행 필수)', name: previewTitle, widget: string, required: false, hint: '상세 제목을 복사하지 말고, 대상을 앞에 두어 클릭하면 어떤 답을 얻는지 12~42자 안에서 보여주세요. 검색·상세 제목은 바뀌지 않습니다.' }
+      - { label: '목록에서 원제목 사용 (운영자 승인 예외)', name: previewUseOriginalTitle, widget: boolean, default: false, hint: '원제목 자체의 훅이 충분하다고 운영자가 직접 승인한 글만 켜세요. 일반적인 미리보기 제목 생략용이 아닙니다.' }
       - { label: '목록 미리보기 설명 (축세 발행 필수)', name: previewDescription, widget: text, required: false, hint: '원고가 실제로 답하는 원인·변화·비교·발견을 35~110자로 적으세요. 검색 설명은 바뀌지 않습니다.' }
       - label: 카테고리
         name: category

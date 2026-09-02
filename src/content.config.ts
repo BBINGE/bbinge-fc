@@ -16,6 +16,8 @@ const articles = defineCollection({
       // 상세 페이지 H1·검색·공유 메타에는 사용하지 않는다. 축세 발행 글은 글쓰기 게이트가 입력을 강제한다.
       previewTitle: z.string().optional(),
       previewDescription: z.string().optional(),
+      // 원제목 자체가 충분히 강하다고 운영자가 승인한 경우에만 목록에서도 title을 그대로 사용한다.
+      previewUseOriginalTitle: z.boolean().default(false),
       category: z.enum(categorySlugs),
       tags: z.array(z.string()).default([]),
       // 최신순 동률을 피하려면 수동 발행도 날짜만 쓰지 말고 ISO 8601 시각까지 기록한다.

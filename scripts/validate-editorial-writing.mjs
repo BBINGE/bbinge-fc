@@ -75,8 +75,8 @@ const integrationRequirements = new Map([
   ['HANDOFF.md', ['EDITORIAL_WRITING_RULES.md', 'validate-editorial-writing.mjs']],
   ['package.json', ['validate:writing', 'test:writing-rules', 'validate-editorial-writing.mjs']],
   ['.github/workflows/quality-gate.yml', ['npm run test:writing-rules', 'npm run validate:writing']],
-  ['src/content.config.ts', ['previewTitle', 'previewDescription']],
-  ['public/admin/config.yml', ['name: previewTitle', 'name: previewDescription']],
+  ['src/content.config.ts', ['previewTitle', 'previewDescription', 'previewUseOriginalTitle']],
+  ['public/admin/config.yml', ['name: previewTitle', 'name: previewDescription', 'name: previewUseOriginalTitle']],
   ['src/components/HistoryCategoryPage.astro', ['previewTitleFor', 'previewDescriptionFor']],
 ]);
 
@@ -139,19 +139,21 @@ function historyPreviewIssues(source, relative) {
   const description = frontmatterScalar(source, 'description') ?? '';
   const previewTitle = frontmatterScalar(source, 'previewTitle') ?? '';
   const previewDescription = frontmatterScalar(source, 'previewDescription') ?? '';
+  const previewUseOriginalTitle = frontmatterScalar(source, 'previewUseOriginalTitle') === 'true';
   const lineFor = (key) => {
     const index = source.search(new RegExp(`^${escapeRegExp(key)}:`, 'm'));
     return index >= 0 ? lineAt(source, index) : 1;
   };
 
-  if (!previewTitle) {
+  if (!previewTitle && !previewUseOriginalTitle) {
     issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: '축세 발행 글에는 목록 전용 previewTitle이 필요합니다.', line: 1, relative });
   } else {
-    const length = letterCount(previewTitle);
+    const renderedPreviewTitle = previewUseOriginalTitle ? title : previewTitle;
+    const length = letterCount(renderedPreviewTitle);
     if (length < 12 || length > 42) {
       issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: `previewTitle은 12~42자 안에서 한 가지 읽을 이유를 보여야 합니다. 현재 ${length}자입니다.`, line: lineFor('previewTitle'), relative });
     }
-    if (normalizedPreviewText(previewTitle) === normalizedPreviewText(title)) {
+    if (!previewUseOriginalTitle && normalizedPreviewText(previewTitle) === normalizedPreviewText(title)) {
       issues.push({ code: 'HISTORY-PREVIEW-PROMISE', message: 'previewTitle에 상세 제목을 그대로 복사하지 말고 클릭 후 얻을 답을 앞세우십시오.', line: lineFor('previewTitle'), relative });
     }
   }
@@ -335,6 +337,7 @@ function runSelfTest() {
   const allowed = [
     '## 이것만 보시면 됩니다\n\n공식 타임라인에는 표시 뒤에 발생한 교체와 득점이 함께 남아 있다.',
     '## 빨강과 검정 사이, 어떤 장면을 먼저 입고 싶을까요?\n\n솔직히, 이건 못 참지 ㅋㅋ. 다만 캠페인의 핵심은 재킷과 셔츠가 겹치는 방식에 있다.',
+    '---\ntitle: 축구사 이래 역대 최고의 팀 10\ndescription: 검색 결과에 사용하는 상세한 설명입니다.\npreviewUseOriginalTitle: true\npreviewDescription: 시대적 지배력과 상대 난이도를 기준으로 가장 완벽했던 열 번의 단일 시즌을 비교합니다.\ncategory: history\ndraft: false\n---\n\n본문입니다.',
   ];
   for (const source of allowed) {
     const issues = validateSource(source);
