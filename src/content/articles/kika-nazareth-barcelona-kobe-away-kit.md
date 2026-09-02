@@ -116,8 +116,8 @@ fashionProfile:
 
 <a class="barca-next barca-next--olivia" href="/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/" aria-label="올리비아 로드리고의 FC 바르셀로나 엘클라시코 협업 유니폼 글 더 보기">
   <span class="barca-next__wash" aria-hidden="true"></span>
-  <span class="barca-next__copy"><small>MORE · BARCELONA STYLE</small><strong>보라색 다음에는<br />노란 나비가 남아요</strong><span>올리비아 로드리고의 이름과 숫자, 2003/04 칼라가 만난 엘클라시코 협업 유니폼을 이어서 봅니다.</span></span>
-  <span class="barca-next__cta">올리비아 로드리고의 바르사 유니폼 보기 <b aria-hidden="true">→</b></span>
+  <span class="barca-next__content"><span class="barca-next__copy"><small>MORE · BARCELONA STYLE</small><strong>올리비아 로드리고의<br />바르사 유니폼</strong><span>노란 OR 나비와 RODRIGO 27, 2003/04 칼라를 더한 엘클라시코 협업 착장을 이어서 봅니다.</span></span><span class="barca-next__cta">바르사 유니폼·착장 더 보기 <b aria-hidden="true">→</b></span></span>
+  <span class="barca-next__thumb"><img src="/images/culture/olivia-rodrigo-barcelona/cover.webp" alt="핑크 스튜디오에서 바르셀로나 유니폼을 입은 올리비아 로드리고" width="1600" height="900" loading="lazy" decoding="async" /><span>OLIVIA RODRIGO</span></span>
 </a>
 
 <div class="source-notes">
@@ -163,20 +163,24 @@ fashionProfile:
   .kn-shop-card__cta b { font-size:17px; transition:transform .3s ease; }
   .kn-shop-card:hover .kn-shop-card__cta b { transform:translate(3px,-3px); }
   .kn-price-note { margin:0 0 60px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.65; text-align:center; }
-  .barca-next { position:relative; display:grid; width:min(1040px,100%); min-height:260px; margin:62px auto 70px; padding:34px 38px; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:var(--bbfc-radius-lg); background:linear-gradient(125deg,#111b4c 0%,#2730a0 35%,#76163f 72%,#f1b930 145%); color:#fff; text-decoration:none; isolation:isolate; box-shadow:0 22px 52px rgba(21,29,84,.2); align-content:space-between; transition:transform .36s ease,box-shadow .36s ease; }
-  .barca-next::before { content:'BARÇA'; position:absolute; z-index:-2; right:-14px; bottom:-42px; color:rgba(255,255,255,.09); font-size:clamp(88px,15vw,178px); font-weight:800; letter-spacing:-.08em; line-height:1; white-space:nowrap; }
+  .barca-next { position:relative; display:grid; grid-template-columns:minmax(0,1.12fr) minmax(310px,.88fr); gap:30px; width:min(1040px,100%); min-height:300px; margin:62px auto 70px; padding:26px; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:var(--bbfc-radius-lg); background:linear-gradient(125deg,#111b4c 0%,#2730a0 38%,#76163f 78%,#f1b930 155%); color:#fff; text-decoration:none; isolation:isolate; box-shadow:0 22px 52px rgba(21,29,84,.2); align-items:center; transition:transform .36s ease,box-shadow .36s ease; }
   .barca-next::after { content:''; position:absolute; z-index:-1; inset:-50% auto -50% -25%; width:26%; background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent); transform:skewX(-18deg); }
   .barca-next__wash { position:absolute; z-index:-3; inset:0; background:radial-gradient(circle at 78% 22%,rgba(244,192,47,.38),transparent 22%),linear-gradient(100deg,transparent 52%,rgba(111,39,179,.42)); transition:transform .6s ease; }
-  .barca-next__copy { display:block; max-width:610px; }
+  .barca-next__content { display:flex; min-width:0; padding:8px 0 8px 12px; flex-direction:column; align-items:flex-start; }
+  .barca-next__copy { display:block; max-width:570px; }
   .barca-next__copy small { color:#ffd952; font-size:11px; font-weight:700; letter-spacing:.14em; }
-  .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,4.2vw,48px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
+  .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,3.5vw,43px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
   .barca-next__copy>span { display:block; max-width:560px; margin-top:17px; color:rgba(255,255,255,.78); font-size:13px; line-height:1.68; }
-  .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:20px; width:fit-content; min-width:330px; margin-top:27px; padding:12px 16px 12px 18px; border:1px solid rgba(255,255,255,.46); border-radius:999px; background:rgba(8,13,44,.38); color:#fff; font-size:12px; font-weight:700; backdrop-filter:blur(8px); }
-  .barca-next__cta b { color:#ffd952; font-size:20px; transition:transform .3s ease; }
+  .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:24px; width:fit-content; min-width:350px; margin-top:27px; padding:14px 17px 14px 20px; border:1px solid rgba(255,255,255,.55); border-radius:999px; background:rgba(8,13,44,.45); color:#fff; font-size:16px; font-weight:750; letter-spacing:-.015em; backdrop-filter:blur(8px); }
+  .barca-next__cta b { color:#ffd952; font-size:24px; line-height:1; transition:transform .3s ease; }
+  .barca-next__thumb { position:relative; display:block; height:248px; overflow:hidden; border:1px solid rgba(255,255,255,.38); border-radius:calc(var(--bbfc-radius-lg) - 4px); background:#171c54; box-shadow:0 16px 34px rgba(5,8,30,.3); }
+  .barca-next__thumb img { display:block; width:100%; height:100%; margin:0; object-fit:cover; transition:transform .55s ease,filter .55s ease; }
+  .barca-next__thumb>span { position:absolute; right:12px; bottom:12px; padding:6px 10px; border:1px solid rgba(255,255,255,.45); border-radius:999px; background:rgba(8,13,44,.7); color:#fff; font-size:10px; font-weight:700; letter-spacing:.1em; backdrop-filter:blur(8px); }
   .barca-next:hover { color:#fff; transform:translateY(-6px); box-shadow:0 28px 64px rgba(21,29,84,.3); }
   .barca-next:hover::after { animation:barca-next-sheen .85s ease; }
   .barca-next:hover .barca-next__wash { transform:scale(1.08); }
   .barca-next:hover .barca-next__cta b { transform:translateX(5px); }
+  .barca-next:hover .barca-next__thumb img { transform:scale(1.045); filter:saturate(1.08); }
   .barca-next:focus-visible { outline:3px solid #ffd952; outline-offset:4px; }
   @keyframes barca-next-sheen { from { left:-25%; } to { left:125%; } }
   @media (prefers-reduced-motion:no-preference) { .kn-reveal { animation:kn-reveal .72s ease both; } }
@@ -185,9 +189,13 @@ fashionProfile:
   @keyframes kn-figure-reveal { from { opacity:.55; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
   .kn-shop-card.kn-reveal { animation-name:kn-card-reveal; }
   @keyframes kn-card-reveal { from { opacity:.55; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+  @media (max-width:820px) and (min-width:721px) { .barca-next { grid-template-columns:minmax(0,1fr) 245px; gap:18px; } .barca-next__content { padding-left:0; } .barca-next__cta { width:100%; min-width:0; font-size:14px; } .barca-next__thumb { height:220px; } }
   @media (max-width:820px) { .kn-shop-card { grid-template-columns:1fr; } .kn-shop-card img { min-height:0; aspect-ratio:1; } }
   @media (max-width:720px) {
     .kn-code, .kn-shop-grid { grid-template-columns:1fr; }
+    .barca-next { grid-template-columns:1fr; gap:22px; }
+    .barca-next__cta { width:100%; min-width:0; }
+    .barca-next__thumb { order:-1; height:auto; aspect-ratio:16/9; }
     .kn-code article + article { border-top:1px solid rgba(255,255,255,.14); border-left:0; }
     .kn-code article { padding:22px 21px 24px; }
     .kn-shop-grid { width:min(560px,calc(100vw - 32px)); gap:24px; }
@@ -202,14 +210,16 @@ fashionProfile:
     .kn-shop-card { grid-template-columns:1fr; }
     .kn-shop-card img { aspect-ratio:1; }
     .kn-shop-card__copy { padding:20px 18px 18px; }
-    .barca-next { min-height:310px; margin:52px auto 58px; padding:27px 23px; }
-    .barca-next__copy strong { font-size:32px; }
-    .barca-next__cta { width:100%; min-width:0; font-size:11px; }
+    .barca-next { grid-template-columns:1fr; gap:0; min-height:0; margin:52px auto 58px; padding:0; }
+    .barca-next__content { padding:24px 22px 25px; }
+    .barca-next__copy strong { font-size:31px; }
+    .barca-next__cta { width:100%; min-width:0; padding:13px 15px 13px 17px; font-size:15px; }
+    .barca-next__thumb { order:-1; height:auto; aspect-ratio:16/9; border-width:0 0 1px; border-radius:0; box-shadow:none; }
   }
   @media (prefers-reduced-motion:reduce) {
-    .kn-shop-card, .kn-shop-card img, .kn-shop-card__cta b, .barca-next, .barca-next__wash, .barca-next__cta b { transition:none; }
+    .kn-shop-card, .kn-shop-card img, .kn-shop-card__cta b, .barca-next, .barca-next__wash, .barca-next__cta b, .barca-next__thumb img { transition:none; }
     .kn-shop-card:hover, .kn-shop-card:hover img, .kn-shop-card:hover .kn-shop-card__cta b { transform:none; box-shadow:none; filter:none; }
-    .barca-next:hover, .barca-next:hover .barca-next__wash, .barca-next:hover .barca-next__cta b { transform:none; }
+    .barca-next:hover, .barca-next:hover .barca-next__wash, .barca-next:hover .barca-next__cta b, .barca-next:hover .barca-next__thumb img { transform:none; }
     .barca-next:hover::after { animation:none; }
     .kn-reveal { animation:none; }
   }

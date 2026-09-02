@@ -177,8 +177,8 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
 
 <a class="barca-next barca-next--kika" href="/culture/kika-nazareth-barcelona-kobe-away-kit/" aria-label="키카 나자레스의 FC 바르셀로나 코비 어웨이 유니폼 글 더 보기">
   <span class="barca-next__wash" aria-hidden="true"></span>
-  <span class="barca-next__copy"><small>MORE · BARCELONA STYLE</small><strong>노란 나비 다음에는<br />검정과 보라색이에요</strong><span>키카 나자레스가 입은 2026/27 코비 어웨이 유니폼의 그라데이션과 맘바 디테일을 이어서 봅니다.</span></span>
-  <span class="barca-next__cta">키카 나자레스의 코비 어웨이 보기 <b aria-hidden="true">→</b></span>
+  <span class="barca-next__content"><span class="barca-next__copy"><small>MORE · BARCELONA STYLE</small><strong>키카 나자레스의<br />바르사 어웨이 착장</strong><span>검정에서 보라색으로 번지는 2026/27 코비 어웨이 유니폼과 일상용 티셔츠를 이어서 봅니다.</span></span><span class="barca-next__cta">바르사 유니폼·착장 더 보기 <b aria-hidden="true">→</b></span></span>
+  <span class="barca-next__thumb"><img src="/images/culture/kika-nazareth-barcelona-kobe/cover.webp" alt="바르셀로나 유니폼을 입고 공을 이마에 올린 키카 나자레스" width="1920" height="1080" loading="lazy" decoding="async" /><span>KIKA NAZARETH</span></span>
 </a>
 
 <div class="source-notes">
@@ -239,27 +239,35 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
   .or-video__media>[data-inline-video-poster] b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--bbfc-bg); color:var(--bbfc-blue); font-size:12px; }
   .or-video__media iframe { display:block; width:100%; height:100%; border:0; background:var(--bbfc-ink); }
   .or-video__media .inline-video__close { position:absolute; z-index:2; top:10px; right:10px; display:grid; width:38px; height:38px; padding:0; place-items:center; border:1px solid color-mix(in srgb,var(--bbfc-bg) 56%,transparent); border-radius:50%; cursor:pointer; background:color-mix(in srgb,var(--bbfc-ink) 82%,transparent); color:var(--bbfc-bg); font-size:24px; line-height:1; }
-  .barca-next { position:relative; display:grid; width:min(1040px,100%); min-height:260px; margin:62px auto 70px; padding:34px 38px; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:var(--bbfc-radius-lg); background:linear-gradient(125deg,#111b4c 0%,#2730a0 35%,#76163f 72%,#f1b930 145%); color:#fff; text-decoration:none; isolation:isolate; box-shadow:0 22px 52px rgba(21,29,84,.2); align-content:space-between; transition:transform .36s ease,box-shadow .36s ease; }
-  .barca-next::before { content:'BARÇA'; position:absolute; z-index:-2; right:-14px; bottom:-42px; color:rgba(255,255,255,.09); font-size:clamp(88px,15vw,178px); font-weight:800; letter-spacing:-.08em; line-height:1; white-space:nowrap; }
+  .barca-next { position:relative; display:grid; grid-template-columns:minmax(0,1.12fr) minmax(310px,.88fr); gap:30px; width:min(1040px,100%); min-height:300px; margin:62px auto 70px; padding:26px; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:var(--bbfc-radius-lg); background:linear-gradient(125deg,#111b4c 0%,#2730a0 38%,#76163f 78%,#f1b930 155%); color:#fff; text-decoration:none; isolation:isolate; box-shadow:0 22px 52px rgba(21,29,84,.2); align-items:center; transition:transform .36s ease,box-shadow .36s ease; }
   .barca-next::after { content:''; position:absolute; z-index:-1; inset:-50% auto -50% -25%; width:26%; background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent); transform:skewX(-18deg); }
   .barca-next__wash { position:absolute; z-index:-3; inset:0; background:radial-gradient(circle at 78% 22%,rgba(244,192,47,.38),transparent 22%),linear-gradient(100deg,transparent 52%,rgba(111,39,179,.42)); transition:transform .6s ease; }
-  .barca-next__copy { display:block; max-width:610px; }
+  .barca-next__content { display:flex; min-width:0; padding:8px 0 8px 12px; flex-direction:column; align-items:flex-start; }
+  .barca-next__copy { display:block; max-width:570px; }
   .barca-next__copy small { color:#ffd952; font-size:11px; font-weight:700; letter-spacing:.14em; }
-  .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,4.2vw,48px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
+  .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,3.5vw,43px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
   .barca-next__copy>span { display:block; max-width:560px; margin-top:17px; color:rgba(255,255,255,.78); font-size:13px; line-height:1.68; }
-  .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:20px; width:fit-content; min-width:330px; margin-top:27px; padding:12px 16px 12px 18px; border:1px solid rgba(255,255,255,.46); border-radius:999px; background:rgba(8,13,44,.38); color:#fff; font-size:12px; font-weight:700; backdrop-filter:blur(8px); }
-  .barca-next__cta b { color:#ffd952; font-size:20px; transition:transform .3s ease; }
+  .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:24px; width:fit-content; min-width:350px; margin-top:27px; padding:14px 17px 14px 20px; border:1px solid rgba(255,255,255,.55); border-radius:999px; background:rgba(8,13,44,.45); color:#fff; font-size:16px; font-weight:750; letter-spacing:-.015em; backdrop-filter:blur(8px); }
+  .barca-next__cta b { color:#ffd952; font-size:24px; line-height:1; transition:transform .3s ease; }
+  .barca-next__thumb { position:relative; display:block; height:248px; overflow:hidden; border:1px solid rgba(255,255,255,.38); border-radius:calc(var(--bbfc-radius-lg) - 4px); background:#171c54; box-shadow:0 16px 34px rgba(5,8,30,.3); }
+  .barca-next__thumb img { display:block; width:100%; height:100%; margin:0; object-fit:cover; transition:transform .55s ease,filter .55s ease; }
+  .barca-next__thumb>span { position:absolute; right:12px; bottom:12px; padding:6px 10px; border:1px solid rgba(255,255,255,.45); border-radius:999px; background:rgba(8,13,44,.7); color:#fff; font-size:10px; font-weight:700; letter-spacing:.1em; backdrop-filter:blur(8px); }
   .barca-next:hover { color:#fff; transform:translateY(-6px); box-shadow:0 28px 64px rgba(21,29,84,.3); }
   .barca-next:hover::after { animation:barca-next-sheen .85s ease; }
   .barca-next:hover .barca-next__wash { transform:scale(1.08); }
   .barca-next:hover .barca-next__cta b { transform:translateX(5px); }
+  .barca-next:hover .barca-next__thumb img { transform:scale(1.045); filter:saturate(1.08); }
   .barca-next:focus-visible { outline:3px solid #ffd952; outline-offset:4px; }
   @keyframes barca-next-sheen { from { left:-25%; } to { left:125%; } }
   @keyframes or-scan { from { transform:translateX(-115%); } to { transform:translateX(485%); } }
   @keyframes or-enter { from { opacity:.48; } to { opacity:1; } }
   @media (prefers-reduced-motion:no-preference) { .or-enter { animation:or-enter .7s ease both; } }
+  @media (max-width:820px) and (min-width:721px) { .barca-next { grid-template-columns:minmax(0,1fr) 245px; gap:18px; } .barca-next__content { padding-left:0; } .barca-next__cta { width:100%; min-width:0; font-size:14px; } .barca-next__thumb { height:220px; } }
   @media (max-width:720px) {
     .or-signal { grid-template-columns:1fr; }
+    .barca-next { grid-template-columns:1fr; gap:22px; }
+    .barca-next__cta { width:100%; min-width:0; }
+    .barca-next__thumb { order:-1; height:auto; aspect-ratio:16/9; }
     .or-signal article { padding:22px 21px 24px; }
     .or-signal article + article { border-top:1px solid var(--bbfc-ink-2); border-left:0; }
     .or-detail-grid, .or-product-grid, .or-video-pair { grid-template-columns:1fr; }
@@ -276,17 +284,19 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
     .or-product-credit { margin-bottom:46px; }
     .or-detail-grid figcaption, .or-wide-figure figcaption, .or-stage-figure figcaption { font-size:11px; line-height:1.58; }
     .or-video__copy { padding:20px 18px 22px; }
-    .barca-next { min-height:310px; margin:52px auto 58px; padding:27px 23px; }
-    .barca-next__copy strong { font-size:32px; }
-    .barca-next__cta { width:100%; min-width:0; font-size:11px; }
+    .barca-next { grid-template-columns:1fr; gap:0; min-height:0; margin:52px auto 58px; padding:0; }
+    .barca-next__content { padding:24px 22px 25px; }
+    .barca-next__copy strong { font-size:31px; }
+    .barca-next__cta { width:100%; min-width:0; padding:13px 15px 13px 17px; font-size:15px; }
+    .barca-next__thumb { order:-1; height:auto; aspect-ratio:16/9; border-width:0 0 1px; border-radius:0; box-shadow:none; }
   }
   @media (prefers-reduced-motion:reduce) {
     .or-signal__scan { display:none; animation:none; }
     .or-product-card, .or-video__media>[data-inline-video-poster] img { transition:none; }
     .or-product-card:hover { transform:none; box-shadow:none; }
     .or-enter { animation:none; }
-    .barca-next, .barca-next__wash, .barca-next__cta b { transition:none; }
-    .barca-next:hover, .barca-next:hover .barca-next__wash, .barca-next:hover .barca-next__cta b { transform:none; }
+    .barca-next, .barca-next__wash, .barca-next__cta b, .barca-next__thumb img { transition:none; }
+    .barca-next:hover, .barca-next:hover .barca-next__wash, .barca-next:hover .barca-next__cta b, .barca-next:hover .barca-next__thumb img { transform:none; }
     .barca-next:hover::after { animation:none; }
   }
 </style>
