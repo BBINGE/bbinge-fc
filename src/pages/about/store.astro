@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { site } from '../../config/site';
+
+const description = '서울 강남을 배경으로 설계한 삥이FC의 가상 백화점, PB 온라인 본점의 1층부터 9층까지 층별 안내.';
+const floors = [
+  { floor: '09', name: '본사', en: 'HEADQUARTERS', copy: '삥이와 PB의 이야기가 시작되는 곳', href: '/about/' },
+  { floor: '08', name: '축구 테마파크', en: 'FOOTBALL THEME PARK', copy: '게임과 전술, 규칙과 스쿼드가 만나는 층', href: '/play/' },
+  { floor: '07', name: '도서관', en: 'LIBRARY · ARCHIVE', copy: '시대와 대회를 따라 축구를 다시 읽는 기록실', href: '/archive/' },
+  { floor: '06', name: '축행', en: 'FOOTBALL TRAVEL', copy: '경기장을 지나 도시까지 걷는 세계여행', href: '/pilgrimage/' },
+  { floor: '05', name: '유니폼관', en: 'FOOTBALL KIT GALLERY', copy: '한 시즌의 유니폼과 그 셔츠가 품은 이야기', href: '/culture/' },
+  { floor: '04', name: '오뭐입 · 블록코어', en: 'OOTD · BLOCKCORE', copy: '유니폼이 일상의 옷으로 건너오는 순간', href: '/culture/' },
+  { floor: '03', name: '오뭐입 · 블록코어', en: 'OOTD · BLOCKCORE', copy: '스타일과 축구 문화가 나란히 걷는 플로어', href: '/culture/' },
+  { floor: '02', name: '명품관', en: 'LUXURY BOUTIQUE HALL', copy: '축구 화보에서 발견한 오브제와 브랜드', href: '/culture/' },
+  { floor: '01', name: '메인 표지', en: 'GRAND MAIN LOBBY', copy: '오늘의 삥이FC를 가장 먼저 만나는 로비', href: '/' },
+] as const;
+
+const storeSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'PB 온라인 본점 층별 안내',
+  url: `${site.url}/about/store/`,
+  description,
+};
+---
+
+<Layout
+  title="층별 안내 | PB 온라인 본점"
+  description={description}
+  ogImage="/images/about/pb-online-main-seoul.webp"
+  ogImageAlt="서울 강남을 배경으로 설계한 9층 규모의 PB 온라인 본점"
+  ogImageWidth={1428}
+  ogImageHeight={1072}
+  adsEligible={false}
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: '저자 @삥이', href: '/about/' },
+    { label: '층별 안내', href: '/about/store/' },
+  ]}
+  extraSchema={storeSchema}
+>
+  <article class="store" data-store>
+    <div class="scroll-meter" aria-hidden="true"><i></i></div>
+
+    <header class="store-hero">
+      <div class="hero-copy">
+        <p class="store-kicker"><span>PB</span> ONLINE FLAGSHIP · SEOUL</p>
+        <h1>층별 안내<br /><em>PB 온라인 본점</em></h1>
+        <p class="hero-lead">축구를 읽고, 입고, 걷고, 노는 아홉 개의 층.<br />삥이FC의 모든 공간을 한 건물에 담았습니다.</p>
+        <a class="explore-cta" href="#directory">
+          <span>건물 둘러보기</span>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m0 0 5-5m-5 5-5-5" /></svg>
+        </a>
+      </div>
+
+      <div class="building-wrap" data-building>
+        <div class="building-light" aria-hidden="true"></div>
+        <figure class="building-card">
+          <img
+            src="/images/about/pb-online-main-seoul.webp"
+            width="1428"
+            height="1072"
+            alt="테헤란로 풍경 속 1층부터 9층까지 표시된 PB 온라인 본점 콘셉트 건축물"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <figcaption><span>CONCEPT ARCHITECTURE · 2026</span><b>SEOUL, GANGNAM</b></figcaption>
+        </figure>
+      </div>
+
+      <p class="concept-note">서울 강남을 배경으로 설계한 PB 온라인 본점의 콘셉트 아키텍처입니다. 실제 오프라인 매장이 아닙니다.</p>
+    </header>
+
+    <section class="directory" id="directory" aria-labelledby="directory-title">
+      <header class="directory-head">
+        <p>PB DEPARTMENT DIRECTORY</p>
+        <h2 id="directory-title">오늘은<br />몇 층으로 갈까요?</h2>
+        <span>층을 선택하면 해당 공간으로 이동합니다.</span>
+      </header>
+
+      <div class="floor-list">
+        {floors.map((item, index) => (
+          <a class="floor" href={item.href} data-floor data-floor-number={item.floor} style={`--delay:${index * 35}ms`}>
+            <span class="floor-number">{item.floor}<small>F</small></span>
+            <span class="floor-name"><b>{item.name}</b><small>{item.en}</small></span>
+            <span class="floor-copy">{item.copy}</span>
+            <span class="floor-arrow" aria-hidden="true">↗</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <footer class="store-footer">
+      <p><span>PB</span> | BBingeFC</p>
+      <strong>축구의 역사를 놀고, 읽고, 걷는 곳.</strong>
+      <a href="/about/logo/">PB 로고 이야기 <span aria-hidden="true">↗</span></a>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  .store{--gold:#d9b65b;--gold-soft:#f0d998;--sky:#82c7ff;--night:#07090d;--panel:#0d1118;--white:#f7f8fa;position:relative;overflow:hidden;background:var(--night);color:var(--white);isolation:isolate}
+  .store::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 82% 5%,rgba(130,199,255,.09),transparent 24%),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:auto,72px 72px,72px 72px;mask-image:linear-gradient(to bottom,#000 0,transparent 74%)}
+  .scroll-meter{position:fixed;right:14px;top:90px;bottom:28px;z-index:20;width:1px;background:rgba(255,255,255,.12);pointer-events:none}.scroll-meter i{display:block;width:1px;height:var(--scroll-progress,0%);background:linear-gradient(var(--sky),var(--gold));box-shadow:0 0 12px rgba(130,199,255,.65)}
+  .store-hero{position:relative;display:grid;grid-template-columns:minmax(260px,.68fr) minmax(0,1.32fr);align-items:center;gap:clamp(32px,5vw,88px);min-height:calc(100svh - 64px);max-width:1440px;margin:0 auto;padding:clamp(60px,8vw,120px) clamp(20px,4.5vw,72px) 46px}
+  .hero-copy{position:relative;z-index:2}.store-kicker{display:flex;align-items:center;gap:9px;color:var(--sky);font-size:10px;font-weight:600;letter-spacing:.19em}.store-kicker span{display:grid;place-items:center;width:31px;height:31px;border:1px solid rgba(217,182,91,.62);border-radius:50%;color:var(--gold-soft);font-size:11px;letter-spacing:0}
+  .hero-copy h1{margin-top:26px;font-size:clamp(42px,4.65vw,72px);font-weight:500;line-height:.98;letter-spacing:-.065em}.hero-copy h1 em{display:block;margin-top:13px;color:var(--gold-soft);font-style:normal}.hero-lead{margin-top:31px;color:rgba(247,248,250,.72);font-size:clamp(15px,1.35vw,18px);line-height:1.85;word-break:keep-all}
+  .explore-cta{display:inline-flex;align-items:center;gap:17px;margin-top:40px;padding:13px 18px 13px 20px;border:1px solid rgba(217,182,91,.5);border-radius:999px;color:var(--gold-soft);font-size:13px;transition:background .25s ease,color .25s ease,transform .25s ease,box-shadow .25s ease}.explore-cta svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4}.explore-cta:hover,.explore-cta:focus-visible{background:var(--gold);color:#080a0e;outline:none;transform:translateY(-3px);box-shadow:0 14px 35px rgba(217,182,91,.18)}
+  .building-wrap{position:relative;perspective:1400px;--rx:0deg;--ry:0deg;--mx:50%;--my:50%}.building-light{position:absolute;inset:-15%;z-index:2;background:radial-gradient(circle at var(--mx) var(--my),rgba(255,231,163,.2),transparent 23%);mix-blend-mode:screen;pointer-events:none}.building-card{position:relative;overflow:hidden;border:1px solid rgba(217,182,91,.35);border-radius:3px;background:#111;box-shadow:0 40px 90px rgba(0,0,0,.52),0 0 0 1px rgba(255,255,255,.035) inset;transform:rotateX(var(--rx)) rotateY(var(--ry));transform-style:preserve-3d;transition:transform .18s ease-out}.building-card::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 28%,rgba(255,255,255,.12) 42%,transparent 55%);transform:translateX(-130%);transition:transform .8s cubic-bezier(.2,.7,.2,1);pointer-events:none}.building-wrap:hover .building-card::after{transform:translateX(130%)}.building-card img{display:block;width:100%;height:auto}.building-card figcaption{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;gap:20px;padding:42px 18px 14px;background:linear-gradient(transparent,rgba(3,5,8,.86));font-size:8px;letter-spacing:.14em}.building-card figcaption span{color:rgba(255,255,255,.68)}.building-card figcaption b{color:var(--gold-soft);font-weight:500}
+  .concept-note{grid-column:1/-1;justify-self:end;max-width:630px;margin-top:8px;color:rgba(255,255,255,.38);font-size:10px;line-height:1.65;text-align:right}
+  .directory{display:grid;grid-template-columns:minmax(230px,.42fr) minmax(0,1fr);gap:clamp(45px,8vw,130px);max-width:1240px;margin:0 auto;padding:140px clamp(20px,4.5vw,72px) 170px}.directory-head{position:sticky;top:112px;align-self:start}.directory-head>p{color:var(--sky);font-size:9px;font-weight:600;letter-spacing:.2em}.directory-head h2{margin-top:25px;color:var(--white);font-size:clamp(36px,4.2vw,58px);font-weight:500;line-height:1.12;letter-spacing:-.055em}.directory-head>span{display:block;max-width:250px;margin-top:27px;color:rgba(255,255,255,.43);font-size:12px;line-height:1.7}
+  .floor-list{border-top:1px solid rgba(217,182,91,.35)}.floor{display:grid;grid-template-columns:86px minmax(170px,.75fr) minmax(210px,1fr) 34px;align-items:center;gap:22px;min-height:112px;border-bottom:1px solid rgba(255,255,255,.11);color:var(--white);opacity:.62;transform:translateY(24px);transition:opacity .65s ease var(--delay),transform .65s ease var(--delay),background .25s ease,padding .25s ease}.floor.is-visible{opacity:1;transform:none}.floor-number{color:var(--gold-soft);font-size:35px;font-weight:400;letter-spacing:-.04em}.floor-number small{margin-left:3px;font-size:10px;color:var(--gold);letter-spacing:0}.floor-name b,.floor-name small{display:block}.floor-name b{font-size:17px;font-weight:500}.floor-name small{margin-top:5px;color:var(--sky);font-size:8px;font-weight:500;letter-spacing:.12em}.floor-copy{color:rgba(255,255,255,.54);font-size:12px;line-height:1.55;word-break:keep-all}.floor-arrow{display:grid;place-items:center;width:30px;height:30px;border:1px solid rgba(255,255,255,.2);border-radius:50%;color:var(--gold-soft);font-size:13px;transition:background .2s ease,color .2s ease,transform .2s ease}.floor:hover,.floor:focus-visible{padding-left:14px;padding-right:12px;background:linear-gradient(90deg,rgba(217,182,91,.1),rgba(130,199,255,.045));outline:none}.floor:hover .floor-arrow,.floor:focus-visible .floor-arrow{background:var(--gold);color:#07090d;transform:rotate(45deg)}
+  .store-footer{display:grid;grid-template-columns:1fr auto;align-items:end;gap:16px 40px;max-width:1240px;margin:0 auto;padding:70px clamp(20px,4.5vw,72px) 90px;border-top:1px solid rgba(255,255,255,.11)}.store-footer>p{font-size:15px;letter-spacing:.04em}.store-footer>p span{color:var(--gold-soft)}.store-footer>strong{grid-column:1;font-size:clamp(24px,3.5vw,44px);font-weight:500;letter-spacing:-.045em}.store-footer>a{grid-row:1/3;grid-column:2;align-self:end;color:var(--sky);font-size:12px}.store-footer>a:hover{color:var(--white)}
+  @media(max-width:820px){.scroll-meter{display:none}.store-hero{grid-template-columns:1fr;min-height:0;padding-top:70px}.hero-copy h1{font-size:clamp(42px,12vw,62px)}.hero-lead br{display:none}.building-wrap{margin-top:15px}.concept-note{text-align:left}.directory{grid-template-columns:1fr;padding-top:90px;padding-bottom:110px}.directory-head{position:static}.directory-head h2 br{display:none}.floor{grid-template-columns:58px minmax(0,1fr) 30px;gap:14px;min-height:94px}.floor-number{font-size:28px}.floor-name b{font-size:15px}.floor-copy{grid-column:2/4;margin-top:-20px;padding:0 36px 15px 0;font-size:11px}.floor-arrow{grid-row:1;grid-column:3}.store-footer{grid-template-columns:1fr}.store-footer>a{grid-row:auto;grid-column:auto;margin-top:18px}.store-footer>strong{grid-column:auto}}
+  @media(max-width:480px){.store-hero{padding-left:16px;padding-right:16px}.building-card figcaption{padding:28px 10px 9px;font-size:6.5px}.directory{padding-left:16px;padding-right:16px}.floor{grid-template-columns:51px minmax(0,1fr) 28px}.floor-name small{letter-spacing:.07em}.floor-copy{padding-right:16px}.store-footer{padding-left:16px;padding-right:16px}}
+  @media(hover:none){.building-light{display:none}.building-card{transform:none!important}.floor{opacity:1;transform:none}}
+  @media(prefers-reduced-motion:reduce){.building-card,.building-card::after,.explore-cta,.floor,.floor-arrow{transition:none!important}.building-card{transform:none!important}.building-light{display:none}.floor{opacity:1;transform:none}}
+</style>
+
+<script>
+  const store = document.querySelector<HTMLElement>('[data-store]');
+  const building = document.querySelector<HTMLElement>('[data-building]');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const updateScroll = () => {
+    if (!store) return;
+    const start = store.offsetTop;
+    const distance = Math.max(store.offsetHeight - window.innerHeight, 1);
+    const progress = Math.min(100, Math.max(0, ((window.scrollY - start) / distance) * 100));
+    store.style.setProperty('--scroll-progress', `${progress}%`);
+  };
+
+  updateScroll();
+  window.addEventListener('scroll', updateScroll, { passive: true });
+
+  if (building && !reducedMotion && window.matchMedia('(hover:hover)').matches) {
+    building.addEventListener('pointermove', (event) => {
+      const box = building.getBoundingClientRect();
+      const x = (event.clientX - box.left) / box.width;
+      const y = (event.clientY - box.top) / box.height;
+      building.style.setProperty('--mx', `${x * 100}%`);
+      building.style.setProperty('--my', `${y * 100}%`);
+      building.style.setProperty('--ry', `${(x - .5) * 5}deg`);
+      building.style.setProperty('--rx', `${(.5 - y) * 4}deg`);
+    });
+    building.addEventListener('pointerleave', () => {
+      building.style.setProperty('--rx', '0deg');
+      building.style.setProperty('--ry', '0deg');
+    });
+  }
+
+  const floors = document.querySelectorAll<HTMLElement>('[data-floor]');
+  if ('IntersectionObserver' in window && !reducedMotion) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .24 });
+    floors.forEach((floor) => observer.observe(floor));
+  } else {
+    floors.forEach((floor) => floor.classList.add('is-visible'));
+  }
+</script>
