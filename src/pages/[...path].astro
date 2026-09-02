@@ -23,6 +23,7 @@ import FootballMadeEasyCategoryPage from '../components/FootballMadeEasyCategory
 import SquadsCategoryPage from '../components/SquadsCategoryPage.astro';
 import HighlightsCategoryPage from '../components/HighlightsCategoryPage.astro';
 import TacticsCategoryPage from '../components/TacticsCategoryPage.astro';
+import HistoryCategoryPage from '../components/HistoryCategoryPage.astro';
 import FashionProfileCard from '../components/FashionProfileCard.astro';
 import { archiveBranches } from '../data/archive';
 
@@ -141,7 +142,9 @@ if (props.kind === 'category') {
       })),
     ]}
   >
-    {categoryView.categorySlug === 'culture' ? (
+    {categoryView.categorySlug === 'history' ? (
+      <HistoryCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
+    ) : categoryView.categorySlug === 'culture' ? (
       <FashionCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />
     ) : categoryView.categorySlug === 'pilgrimage' ? (
       <PilgrimageCategoryPage entries={categoryView.articles} description={categoryView.meta.description} />

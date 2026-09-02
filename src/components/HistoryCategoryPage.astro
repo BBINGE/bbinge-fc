@@ -1,0 +1,116 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getArticlePath } from '../config/categories';
+
+interface Props { entries: CollectionEntry<'articles'>[]; description?: string; }
+
+const { entries, description } = Astro.props;
+const [lead, ...archive] = entries;
+const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
+const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const dateFor = (entry: CollectionEntry<'articles'>) => new Intl.DateTimeFormat('ko-KR', {
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+}).format(entry.data.pubDate);
+const recordNumber = (entry: CollectionEntry<'articles'>) => {
+  const date = entry.data.pubDate;
+  const part = (value: number) => String(value).padStart(2, '0');
+  return `BF-HIS-${part(date.getFullYear() % 100)}${part(date.getMonth() + 1)}${part(date.getDate())}${part(date.getHours())}${part(date.getMinutes())}`;
+};
+const subjectsFor = (entry: CollectionEntry<'articles'>) => (entry.data.tags ?? []).slice(0, 3);
+---
+
+<main class="history-index">
+  <header class="masthead">
+    <div class="masthead__title">
+      <p>BBINGE FC · FOOTBALL HISTORY FIELD ARCHIVE</p>
+      <h1>축세</h1>
+      <span>축구로 보는 세계사</span>
+    </div>
+    <div class="masthead__manifesto">
+      <i aria-hidden="true"></i>
+      <strong>경기는 끝났지만,<br />그날의 세계는 아직 남아 있습니다.</strong>
+      <small>{String(entries.length).padStart(2, '0')} FIELD RECORDS</small>
+    </div>
+  </header>
+
+  {description && (
+    <section class="field-note" aria-label="축세 편집 방향">
+      <div class="field-note__label"><span>FIELD NOTE</span><b>00</b></div>
+      <p>{description}</p>
+      <strong>공보다 먼저 보이는 것들을 읽습니다.</strong>
+    </section>
+  )}
+
+  {lead ? (
+    <section class="lead-record" aria-labelledby="lead-record-title">
+      <header class="section-rule">
+        <div><span>LATEST EXCAVATION</span><h2>가장 최근에 열어 본 기록</h2></div>
+        <p>{recordNumber(lead)}</p>
+      </header>
+
+      <article class="lead-record__body">
+        <a class="lead-visual" href={hrefFor(lead)}>
+          {imageFor(lead) && <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} />}
+          <span class="measure measure--top" aria-hidden="true"></span>
+          <span class="measure measure--left" aria-hidden="true"></span>
+          <b>{recordNumber(lead)}</b>
+        </a>
+        <div class="lead-copy">
+          <p class="record-meta"><span>{dateFor(lead)}</span><b>{subjectsFor(lead)[0] ?? '축구 세계사'}</b></p>
+          <h2 id="lead-record-title"><a href={hrefFor(lead)}>{lead.data.title}</a></h2>
+          <p class="lead-description">{lead.data.description}</p>
+          {subjectsFor(lead).length > 0 && (
+            <dl>
+              <dt>CONTEXT TRACE</dt>
+              <dd>{subjectsFor(lead).join(' · ')}</dd>
+            </dl>
+          )}
+          <a class="read-link" href={hrefFor(lead)}><span>자료를 따라 읽기</span><i aria-hidden="true">→</i></a>
+        </div>
+      </article>
+    </section>
+  ) : <p class="empty">첫 번째 기록을 준비하고 있습니다.</p>}
+
+  {archive.length > 0 && (
+    <section class="archive" aria-labelledby="archive-title">
+      <header class="section-rule section-rule--archive">
+        <div><span>FIELD RECORDS</span><h2 id="archive-title">발굴 기록</h2></div>
+        <p>{String(archive.length).padStart(2, '0')} RECORDS</p>
+      </header>
+
+      <div class="record-grid">
+        {archive.map((entry) => (
+          <article class="record-card">
+            <a class="record-visual" href={hrefFor(entry)}>
+              {imageFor(entry) && <img src={imageFor(entry)} alt={entry.data.coverImageAlt ?? ''} loading="lazy" />}
+              <span>{recordNumber(entry)}</span>
+            </a>
+            <div class="record-copy">
+              <p class="record-meta"><span>{dateFor(entry)}</span><b>{subjectsFor(entry)[0] ?? '축구 세계사'}</b></p>
+              <h3><a href={hrefFor(entry)}>{entry.data.title}</a></h3>
+              <p>{entry.data.description}</p>
+              <div class="record-footer">
+                <small>{subjectsFor(entry).slice(1).join(' · ') || 'BBINGE FC HISTORY ARCHIVE'}</small>
+                <a href={hrefFor(entry)} aria-label={`${entry.data.title} 읽기`}>기록 열기 <i aria-hidden="true">↗</i></a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+</main>
+
+<style>
+  .history-index{--history-paper:#f4f2eb;--history-paper-deep:#e8e4d9;--history-ink:#17201f;--history-graphite:#59615d;--history-blue:#215f8a;--history-oxide:#8d603d;max-width:1180px;margin:0 auto;padding:34px 20px 86px;color:var(--history-ink)}
+  .masthead{display:grid;grid-template-columns:minmax(0,1fr) minmax(310px,.58fr);align-items:end;gap:54px;padding:0 0 25px;border-bottom:3px solid var(--history-ink)}.masthead__title>p,.section-rule span{color:var(--history-blue);font-size:11px;font-weight:800;letter-spacing:.16em}.masthead h1{margin-top:9px;font-size:clamp(60px,8.4vw,100px);line-height:.82;font-weight:850;letter-spacing:-.08em}.masthead__title>span{display:block;margin-top:18px;font-size:17px;font-weight:720;letter-spacing:-.03em}.masthead__manifesto{position:relative;padding:24px 22px 3px 34px;border-left:1px solid var(--history-ink)}.masthead__manifesto:before{content:"";position:absolute;top:0;right:0;left:0;height:13px;background:repeating-linear-gradient(90deg,var(--history-ink) 0 1px,transparent 1px 10px);opacity:.55}.masthead__manifesto i{display:block;width:38px;height:38px;margin-bottom:17px;border:1px solid var(--history-ink);border-radius:50%;background:radial-gradient(circle,var(--history-blue) 0 2px,transparent 3px),linear-gradient(var(--history-ink),var(--history-ink)) 50% 0/1px 100% no-repeat,linear-gradient(90deg,var(--history-ink),var(--history-ink)) 0 50%/100% 1px no-repeat}.masthead__manifesto strong{display:block;font-size:20px;line-height:1.42;font-weight:760;letter-spacing:-.038em}.masthead__manifesto small{display:block;margin-top:18px;color:var(--history-graphite);font-size:11px;font-weight:760;letter-spacing:.12em}
+  .field-note{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(230px,.42fr);align-items:start;gap:28px;padding:27px 25px 29px;background-color:var(--history-paper);background-image:repeating-linear-gradient(0deg,transparent 0 23px,rgba(31,43,40,.045) 23px 24px);border-bottom:1px solid var(--history-ink)}.field-note__label{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:8px;border-bottom:1px solid var(--history-ink)}.field-note__label span{font-size:10px;font-weight:800;letter-spacing:.12em}.field-note__label b{color:var(--history-oxide);font-size:16px}.field-note>p{color:#4f5753;font-size:13px;line-height:1.86;text-wrap:pretty}.field-note>strong{align-self:end;padding-left:21px;border-left:2px solid var(--history-oxide);font-size:18px;line-height:1.45;font-weight:760;letter-spacing:-.035em}
+  .lead-record{margin-top:62px}.section-rule{display:flex;align-items:end;justify-content:space-between;gap:30px;padding-bottom:12px;border-bottom:1px solid var(--history-ink)}.section-rule h2{margin-top:5px;font-size:26px;font-weight:790;letter-spacing:-.04em}.section-rule>p{font-size:11px;font-weight:800;letter-spacing:.13em}.lead-record__body{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr);margin-top:20px;background:var(--history-ink)}.lead-visual{position:relative;display:block;min-height:560px;overflow:hidden;background:#d8d5cc}.lead-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 62%,rgba(13,20,19,.62));pointer-events:none}.lead-visual img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.22,1,.36,1)}.lead-visual>b{position:absolute;z-index:2;right:18px;bottom:16px;color:#fff;font-size:11px;letter-spacing:.13em;text-shadow:0 1px 8px #000}.measure{position:absolute;z-index:2;display:block;opacity:.7}.measure--top{top:15px;right:18px;left:18px;height:11px;border-top:1px solid #fff;background:repeating-linear-gradient(90deg,#fff 0 1px,transparent 1px 20px)}.measure--left{top:18px;bottom:18px;left:15px;width:11px;border-left:1px solid #fff;background:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 20px)}.lead-copy{display:flex;position:relative;isolation:isolate;flex-direction:column;padding:36px 34px 32px;color:#fff}.lead-copy:before{content:"";position:absolute;z-index:-1;inset:0;background:repeating-linear-gradient(0deg,transparent 0 47px,rgba(255,255,255,.045) 47px 48px)}.record-meta{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0}.record-meta span,.record-meta b{font-size:11px;font-weight:760;letter-spacing:.08em}.lead-copy .record-meta span{color:#b7c4bd}.lead-copy .record-meta b{color:#8fc7e8}.lead-copy h2{margin-top:26px;font-size:clamp(31px,3.45vw,46px);line-height:1.14;font-weight:810;letter-spacing:-.055em;text-wrap:balance}.lead-description{margin-top:21px;color:rgba(244,246,242,.75);font-size:14px;line-height:1.82}.lead-copy dl{margin:27px 0 0;padding:15px 0;border-block:1px solid rgba(255,255,255,.18)}.lead-copy dl>*{margin:0}.lead-copy dt{color:#8fc7e8;font-size:10px;font-weight:800;letter-spacing:.13em}.lead-copy dd{margin-top:7px;color:rgba(255,255,255,.84);font-size:12px;line-height:1.55;font-weight:650}.read-link{display:flex;align-items:center;justify-content:space-between;margin-top:auto;min-height:57px;padding:14px 16px;border:1px solid rgba(255,255,255,.48);color:#fff;font-size:16px;font-weight:790}.read-link i{font-size:21px;font-style:normal;transition:transform .25s ease}.read-link:hover i{transform:translateX(4px)}
+  .archive{margin-top:72px}.section-rule--archive h2{font-size:29px}.record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 22px;margin-top:25px}.record-card{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);min-width:0;border-bottom:1px solid var(--history-ink);background:var(--history-paper)}.record-visual{position:relative;display:block;min-height:340px;overflow:hidden;background:var(--history-paper-deep)}.record-visual:after{content:"";position:absolute;inset:0;border:8px solid rgba(244,242,235,.18);pointer-events:none}.record-visual img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s cubic-bezier(.22,1,.36,1)}.record-visual>span{position:absolute;z-index:1;top:14px;left:14px;padding:6px 8px;background:rgba(21,29,28,.85);color:#fff;font-size:9px;font-weight:800;letter-spacing:.11em}.record-copy{display:flex;flex-direction:column;min-width:0;padding:21px 20px 18px;background-image:repeating-linear-gradient(0deg,transparent 0 31px,rgba(31,43,40,.045) 31px 32px)}.record-copy .record-meta span{color:var(--history-graphite)}.record-copy .record-meta b{overflow:hidden;max-width:54%;color:var(--history-blue);text-overflow:ellipsis;white-space:nowrap}.record-copy h3{margin-top:17px;font-size:21px;line-height:1.31;font-weight:790;letter-spacing:-.04em;text-wrap:balance}.record-copy>p:not(.record-meta){display:-webkit-box;overflow:hidden;margin-top:13px;color:#5b625e;font-size:12.5px;line-height:1.7;-webkit-box-orient:vertical;-webkit-line-clamp:4}.record-footer{display:grid;gap:13px;margin-top:auto;padding-top:19px;border-top:1px solid rgba(31,43,40,.2)}.record-footer small{overflow:hidden;color:#777d78;font-size:9.5px;font-weight:700;letter-spacing:.06em;text-overflow:ellipsis;white-space:nowrap}.record-footer>a{display:flex;align-items:center;justify-content:space-between;color:#183e58;font-size:13px;font-weight:800}.record-footer i{font-style:normal}.lead-visual:hover img,.record-card:hover .record-visual img{transform:scale(1.025)}.history-index a:focus-visible{outline:3px solid #2d7cab;outline-offset:4px}.empty{padding:80px 0;text-align:center;font-size:14px}
+  @media(max-width:1000px){.lead-record__body{grid-template-columns:1fr}.lead-visual{min-height:0;aspect-ratio:16/10}.lead-copy{min-height:470px}.record-card{grid-template-columns:1fr}.record-visual{min-height:0;aspect-ratio:4/3}}
+  @media(max-width:760px){.masthead{grid-template-columns:1fr;gap:28px}.masthead__manifesto{display:grid;grid-template-columns:50px 1fr;align-items:center;padding:18px 0 0;border-top:1px solid var(--history-ink);border-left:0}.masthead__manifesto:before{display:none}.masthead__manifesto i{grid-row:1 / span 2;margin:0}.masthead__manifesto small{margin-top:7px}.field-note{grid-template-columns:90px 1fr}.field-note>strong{grid-column:2}.record-grid{grid-template-columns:1fr}.record-card{grid-template-columns:minmax(250px,.85fr) minmax(0,1.15fr)}.record-visual{aspect-ratio:auto}}
+  @media(max-width:560px){.history-index{padding:25px 16px 64px}.masthead h1{font-size:68px}.masthead__title>span{font-size:15px}.masthead__manifesto strong{font-size:17px}.field-note{grid-template-columns:1fr;gap:17px;padding:22px 18px 24px}.field-note__label{max-width:105px}.field-note>strong{grid-column:auto;font-size:17px}.lead-record{margin-top:49px}.section-rule{align-items:flex-start}.section-rule h2{font-size:23px}.section-rule>p{padding-top:2px;white-space:nowrap}.lead-visual{aspect-ratio:4/3}.lead-copy{min-height:460px;padding:28px 21px 24px}.lead-copy h2{font-size:30px}.lead-description{font-size:13px}.archive{margin-top:58px}.section-rule--archive h2{font-size:26px}.record-grid{gap:44px}.record-card{grid-template-columns:1fr}.record-visual{aspect-ratio:4/3}.record-copy{min-height:320px;padding:21px 18px 18px}.record-copy h3{font-size:22px}.record-copy>p:not(.record-meta){-webkit-line-clamp:3}}
+  @media(prefers-reduced-motion:reduce){.lead-visual img,.record-visual img,.read-link i{transition:none}}
+</style>
