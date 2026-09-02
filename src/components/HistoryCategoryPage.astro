@@ -16,7 +16,7 @@ const dateFor = (entry: CollectionEntry<'articles'>) => new Intl.DateTimeFormat(
 const recordNumber = (entry: CollectionEntry<'articles'>) => {
   const date = entry.data.pubDate;
   const part = (value: number) => String(value).padStart(2, '0');
-  return `BF-HIS-${part(date.getFullYear() % 100)}${part(date.getMonth() + 1)}${part(date.getDate())}${part(date.getHours())}${part(date.getMinutes())}`;
+  return `BF-HIS-${part(date.getUTCFullYear() % 100)}${part(date.getUTCMonth() + 1)}${part(date.getUTCDate())}${part(date.getUTCHours())}${part(date.getUTCMinutes())}`;
 };
 const subjectsFor = (entry: CollectionEntry<'articles'>) => (entry.data.tags ?? []).slice(0, 3);
 ---
