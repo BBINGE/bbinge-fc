@@ -114,6 +114,12 @@ fashionProfile:
 
 키카 나자레스가 이 유니폼을 사고 싶게 만드는 지점도 거기에 있다. 보라색을 예쁘게 보여주는 데서 멈추지 않고, 낮게 버티고 방향을 바꾸는 선수의 몸으로 색을 빠르게 만든다. 코비의 맘바 이미지는 로고에만 있지 않다. 키카가 공을 지키는 한 장면 안에서 비로소 축구의 태도로 바뀐다.
 
+<a class="barca-next barca-next--olivia" href="/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/" aria-label="올리비아 로드리고의 FC 바르셀로나 엘클라시코 협업 유니폼 글 더 보기">
+  <span class="barca-next__wash" aria-hidden="true"></span>
+  <span class="barca-next__copy"><small>MORE · BARCELONA STYLE</small><strong>보라색 다음에는<br />노란 나비가 남아요</strong><span>올리비아 로드리고의 이름과 숫자, 2003/04 칼라가 만난 엘클라시코 협업 유니폼을 이어서 봅니다.</span></span>
+  <span class="barca-next__cta">올리비아 로드리고의 바르사 유니폼 보기 <b aria-hidden="true">→</b></span>
+</a>
+
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
@@ -157,6 +163,22 @@ fashionProfile:
   .kn-shop-card__cta b { font-size:17px; transition:transform .3s ease; }
   .kn-shop-card:hover .kn-shop-card__cta b { transform:translate(3px,-3px); }
   .kn-price-note { margin:0 0 60px; color:var(--bbfc-gray-2); font-size:11px; line-height:1.65; text-align:center; }
+  .barca-next { position:relative; display:grid; width:min(1040px,100%); min-height:260px; margin:62px auto 70px; padding:34px 38px; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:var(--bbfc-radius-lg); background:linear-gradient(125deg,#111b4c 0%,#2730a0 35%,#76163f 72%,#f1b930 145%); color:#fff; text-decoration:none; isolation:isolate; box-shadow:0 22px 52px rgba(21,29,84,.2); align-content:space-between; transition:transform .36s ease,box-shadow .36s ease; }
+  .barca-next::before { content:'BARÇA'; position:absolute; z-index:-2; right:-14px; bottom:-42px; color:rgba(255,255,255,.09); font-size:clamp(88px,15vw,178px); font-weight:800; letter-spacing:-.08em; line-height:1; white-space:nowrap; }
+  .barca-next::after { content:''; position:absolute; z-index:-1; inset:-50% auto -50% -25%; width:26%; background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent); transform:skewX(-18deg); }
+  .barca-next__wash { position:absolute; z-index:-3; inset:0; background:radial-gradient(circle at 78% 22%,rgba(244,192,47,.38),transparent 22%),linear-gradient(100deg,transparent 52%,rgba(111,39,179,.42)); transition:transform .6s ease; }
+  .barca-next__copy { display:block; max-width:610px; }
+  .barca-next__copy small { color:#ffd952; font-size:11px; font-weight:700; letter-spacing:.14em; }
+  .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,4.2vw,48px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
+  .barca-next__copy>span { display:block; max-width:560px; margin-top:17px; color:rgba(255,255,255,.78); font-size:13px; line-height:1.68; }
+  .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:20px; width:fit-content; min-width:330px; margin-top:27px; padding:12px 16px 12px 18px; border:1px solid rgba(255,255,255,.46); border-radius:999px; background:rgba(8,13,44,.38); color:#fff; font-size:12px; font-weight:700; backdrop-filter:blur(8px); }
+  .barca-next__cta b { color:#ffd952; font-size:20px; transition:transform .3s ease; }
+  .barca-next:hover { color:#fff; transform:translateY(-6px); box-shadow:0 28px 64px rgba(21,29,84,.3); }
+  .barca-next:hover::after { animation:barca-next-sheen .85s ease; }
+  .barca-next:hover .barca-next__wash { transform:scale(1.08); }
+  .barca-next:hover .barca-next__cta b { transform:translateX(5px); }
+  .barca-next:focus-visible { outline:3px solid #ffd952; outline-offset:4px; }
+  @keyframes barca-next-sheen { from { left:-25%; } to { left:125%; } }
   @media (prefers-reduced-motion:no-preference) { .kn-reveal { animation:kn-reveal .72s ease both; } }
   @keyframes kn-reveal { from { opacity:.55; transform:translateX(-50%) translateY(8px); } to { opacity:1; transform:translateX(-50%) translateY(0); } }
   .kn-kika.kn-reveal, .kn-wide.kn-reveal { animation-name:kn-figure-reveal; }
@@ -180,10 +202,15 @@ fashionProfile:
     .kn-shop-card { grid-template-columns:1fr; }
     .kn-shop-card img { aspect-ratio:1; }
     .kn-shop-card__copy { padding:20px 18px 18px; }
+    .barca-next { min-height:310px; margin:52px auto 58px; padding:27px 23px; }
+    .barca-next__copy strong { font-size:32px; }
+    .barca-next__cta { width:100%; min-width:0; font-size:11px; }
   }
   @media (prefers-reduced-motion:reduce) {
-    .kn-shop-card, .kn-shop-card img, .kn-shop-card__cta b { transition:none; }
+    .kn-shop-card, .kn-shop-card img, .kn-shop-card__cta b, .barca-next, .barca-next__wash, .barca-next__cta b { transition:none; }
     .kn-shop-card:hover, .kn-shop-card:hover img, .kn-shop-card:hover .kn-shop-card__cta b { transform:none; box-shadow:none; filter:none; }
+    .barca-next:hover, .barca-next:hover .barca-next__wash, .barca-next:hover .barca-next__cta b { transform:none; }
+    .barca-next:hover::after { animation:none; }
     .kn-reveal { animation:none; }
   }
 </style>

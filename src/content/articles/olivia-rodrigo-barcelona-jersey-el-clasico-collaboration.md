@@ -175,6 +175,12 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
 
 그래서 이 협업에서 가장 사고 싶은 것은 로고 하나가 아니다. 내가 좋아하는 노래의 사람과 내가 좋아하는 팀이 같은 도시의 며칠을 공유했다는 이야기다. 셔츠와 머플러는 그 며칠을 몸에 걸치는 방법이고, 노란 나비는 그 기억을 가장 빨리 불러오는 표식이다.
 
+<a class="barca-next barca-next--kika" href="/culture/kika-nazareth-barcelona-kobe-away-kit/" aria-label="키카 나자레스의 FC 바르셀로나 코비 어웨이 유니폼 글 더 보기">
+  <span class="barca-next__wash" aria-hidden="true"></span>
+  <span class="barca-next__copy"><small>MORE · BARCELONA STYLE</small><strong>노란 나비 다음에는<br />검정과 보라색이에요</strong><span>키카 나자레스가 입은 2026/27 코비 어웨이 유니폼의 그라데이션과 맘바 디테일을 이어서 봅니다.</span></span>
+  <span class="barca-next__cta">키카 나자레스의 코비 어웨이 보기 <b aria-hidden="true">→</b></span>
+</a>
+
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
@@ -233,6 +239,22 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
   .or-video__media>[data-inline-video-poster] b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--bbfc-bg); color:var(--bbfc-blue); font-size:12px; }
   .or-video__media iframe { display:block; width:100%; height:100%; border:0; background:var(--bbfc-ink); }
   .or-video__media .inline-video__close { position:absolute; z-index:2; top:10px; right:10px; display:grid; width:38px; height:38px; padding:0; place-items:center; border:1px solid color-mix(in srgb,var(--bbfc-bg) 56%,transparent); border-radius:50%; cursor:pointer; background:color-mix(in srgb,var(--bbfc-ink) 82%,transparent); color:var(--bbfc-bg); font-size:24px; line-height:1; }
+  .barca-next { position:relative; display:grid; width:min(1040px,100%); min-height:260px; margin:62px auto 70px; padding:34px 38px; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:var(--bbfc-radius-lg); background:linear-gradient(125deg,#111b4c 0%,#2730a0 35%,#76163f 72%,#f1b930 145%); color:#fff; text-decoration:none; isolation:isolate; box-shadow:0 22px 52px rgba(21,29,84,.2); align-content:space-between; transition:transform .36s ease,box-shadow .36s ease; }
+  .barca-next::before { content:'BARÇA'; position:absolute; z-index:-2; right:-14px; bottom:-42px; color:rgba(255,255,255,.09); font-size:clamp(88px,15vw,178px); font-weight:800; letter-spacing:-.08em; line-height:1; white-space:nowrap; }
+  .barca-next::after { content:''; position:absolute; z-index:-1; inset:-50% auto -50% -25%; width:26%; background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent); transform:skewX(-18deg); }
+  .barca-next__wash { position:absolute; z-index:-3; inset:0; background:radial-gradient(circle at 78% 22%,rgba(244,192,47,.38),transparent 22%),linear-gradient(100deg,transparent 52%,rgba(111,39,179,.42)); transition:transform .6s ease; }
+  .barca-next__copy { display:block; max-width:610px; }
+  .barca-next__copy small { color:#ffd952; font-size:11px; font-weight:700; letter-spacing:.14em; }
+  .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,4.2vw,48px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
+  .barca-next__copy>span { display:block; max-width:560px; margin-top:17px; color:rgba(255,255,255,.78); font-size:13px; line-height:1.68; }
+  .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:20px; width:fit-content; min-width:330px; margin-top:27px; padding:12px 16px 12px 18px; border:1px solid rgba(255,255,255,.46); border-radius:999px; background:rgba(8,13,44,.38); color:#fff; font-size:12px; font-weight:700; backdrop-filter:blur(8px); }
+  .barca-next__cta b { color:#ffd952; font-size:20px; transition:transform .3s ease; }
+  .barca-next:hover { color:#fff; transform:translateY(-6px); box-shadow:0 28px 64px rgba(21,29,84,.3); }
+  .barca-next:hover::after { animation:barca-next-sheen .85s ease; }
+  .barca-next:hover .barca-next__wash { transform:scale(1.08); }
+  .barca-next:hover .barca-next__cta b { transform:translateX(5px); }
+  .barca-next:focus-visible { outline:3px solid #ffd952; outline-offset:4px; }
+  @keyframes barca-next-sheen { from { left:-25%; } to { left:125%; } }
   @keyframes or-scan { from { transform:translateX(-115%); } to { transform:translateX(485%); } }
   @keyframes or-enter { from { opacity:.48; } to { opacity:1; } }
   @media (prefers-reduced-motion:no-preference) { .or-enter { animation:or-enter .7s ease both; } }
@@ -254,11 +276,17 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
     .or-product-credit { margin-bottom:46px; }
     .or-detail-grid figcaption, .or-wide-figure figcaption, .or-stage-figure figcaption { font-size:11px; line-height:1.58; }
     .or-video__copy { padding:20px 18px 22px; }
+    .barca-next { min-height:310px; margin:52px auto 58px; padding:27px 23px; }
+    .barca-next__copy strong { font-size:32px; }
+    .barca-next__cta { width:100%; min-width:0; font-size:11px; }
   }
   @media (prefers-reduced-motion:reduce) {
     .or-signal__scan { display:none; animation:none; }
     .or-product-card, .or-video__media>[data-inline-video-poster] img { transition:none; }
     .or-product-card:hover { transform:none; box-shadow:none; }
     .or-enter { animation:none; }
+    .barca-next, .barca-next__wash, .barca-next__cta b { transition:none; }
+    .barca-next:hover, .barca-next:hover .barca-next__wash, .barca-next:hover .barca-next__cta b { transform:none; }
+    .barca-next:hover::after { animation:none; }
   }
 </style>
