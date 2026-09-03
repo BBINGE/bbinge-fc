@@ -11,8 +11,10 @@ interface Props {
 
 const { entries, section } = Astro.props;
 const hall = cultureSections[section];
-const [lead, ...rest] = entries;
+const lead = entries.find((entry) => entry.id === hall.leadArticleId) ?? entries[0];
+const rest = entries.filter((entry) => entry.id !== lead?.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const leadImageStyle = `object-position:${hall.leadImageFocus.x}% ${hall.leadImageFocus.y}%;transform-origin:${hall.leadImageFocus.x}% ${hall.leadImageFocus.y}%;scale:${hall.leadImageFocus.scale}`;
 ---
 
 <main class:list={['culture-hall', `culture-hall--${section}`]}>
@@ -35,7 +37,7 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   {lead ? (
     <section class="culture-hall__lead" aria-label={`${hall.label} 대표 콘텐츠`}>
       <a class="culture-hall__lead-image" href={getArticlePath(lead.data.category, lead.id)}>
-        {imageFor(lead) && <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} style={imageFocusStyle(imageFor(lead))} />}
+        {imageFor(lead) && <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} style={leadImageStyle} />}
         <span>NOW SHOWING</span>
       </a>
       <div>

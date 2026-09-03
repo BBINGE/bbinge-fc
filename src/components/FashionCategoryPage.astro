@@ -2,7 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { getArticlePath } from '../config/categories';
 import { imageFocusStyle } from '../utils/imageFocus';
-import { cultureSections, getCultureSectionPath, type CultureSection } from '../config/culture';
+import { cultureCoverArticleId, cultureSections, getCultureSectionPath, type CultureSection } from '../config/culture';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -10,14 +10,16 @@ interface Props {
 }
 
 const { entries, description } = Astro.props;
-const [lead, ...rest] = entries;
-const edit = rest;
+const lead = entries.find((entry) => entry.id === cultureCoverArticleId) ?? entries[0];
+const edit = entries.filter((entry) => entry.id !== lead?.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
 const halls = (Object.keys(cultureSections) as CultureSection[]).map((key) => ({
   key,
   ...cultureSections[key],
   entries: entries.filter((entry) => entry.data.cultureSection === key),
 }));
+const hallLeadStyle = (hall: (typeof halls)[number]) =>
+  `object-position:${hall.leadImageFocus.x}% ${hall.leadImageFocus.y}%;transform-origin:${hall.leadImageFocus.x}% ${hall.leadImageFocus.y}%;scale:${hall.leadImageFocus.scale}`;
 const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSection ? cultureSections[entry.data.cultureSection] : null;
 ---
 
@@ -36,11 +38,11 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     <div class="fashion-section-title"><p>DEPARTMENT DIRECTORY</p><h2 id="fashion-halls-title">축디의 세 편집관</h2><span>02–03F</span></div>
     <div class="fashion-halls__grid">
       {halls.map((hall) => {
-        const hallLead = hall.entries[0];
+        const hallLead = hall.entries.find((entry) => entry.id === hall.leadArticleId) ?? hall.entries[0];
         return (
           <a class:list={['fashion-hall', `fashion-hall--${hall.key}`]} href={getCultureSectionPath(hall.key)}>
             <div class="fashion-hall__media">
-              {hallLead && imageFor(hallLead) && <img src={imageFor(hallLead)} alt="" loading="lazy" style={imageFocusStyle(imageFor(hallLead))} />}
+              {hallLead && imageFor(hallLead) && <img src={imageFor(hallLead)} alt="" loading="lazy" style={hallLeadStyle(hall)} />}
               <span>{String(hall.entries.length).padStart(2,'0')} STORIES</span>
             </div>
             <div class="fashion-hall__copy">
