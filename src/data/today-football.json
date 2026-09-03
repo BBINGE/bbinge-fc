@@ -1,7 +1,36 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-02T15:59:42.136Z",
-  "matches": [],
+  "updatedAt": "2026-09-03T00:57:04.990Z",
+  "matches": [
+    {
+      "id": "2489485",
+      "league": "리그 1",
+      "home": "툴루즈",
+      "away": "릴",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/17eqox1688449282.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2giize1534005340.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "03:45",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "2506226",
+      "league": "라리가",
+      "home": "레알 소시에다드",
+      "away": "셀타 비고",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vptvpr1473502986.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-09-04"
+    }
+  ],
   "standings": [
     {
       "leagueId": "4328",
@@ -809,7 +838,7 @@
   ],
   "status": {
     "matches": {
-      "state": "empty",
+      "state": "ok",
       "source": "TheSportsDB",
       "error": null
     },
