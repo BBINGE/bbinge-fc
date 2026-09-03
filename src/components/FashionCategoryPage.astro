@@ -204,4 +204,52 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
   @media (prefers-reduced-motion:reduce) {
     .fashion-cover__cta::before, .fashion-cover__cta i, .fashion-cover__cta i::before, .fashion-cover__cta i>span { animation:none; transition:none; }
   }
+  @media (max-width:1179px) {
+    .fashion-index { padding-top:26px; }
+    .fashion-index__note { display:-webkit-box; overflow:hidden; margin-bottom:22px; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+    .fashion-halls { margin-bottom:38px; }
+    .fashion-cover__copy { padding:28px 26px; }
+    .fashion-cover__copy>span { display:-webkit-box; overflow:hidden; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+    .fashion-edit { margin-top:40px; }
+  }
+  @media (max-width:900px) {
+    .fashion-halls__grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; }
+    .fashion-hall { display:block; }
+    .fashion-hall__media { aspect-ratio:4/3; min-height:0; }
+    .fashion-hall__copy { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:11px 10px; }
+    .fashion-hall__copy>span:first-child,.fashion-hall__copy p,.fashion-hall__copy div>small,.fashion-hall__cta>span { display:none; }
+    .fashion-hall__copy h3 { margin:0; font-size:17px; }
+    .fashion-hall__cta { display:grid!important; grid-column:auto; width:32px; min-width:32px; height:32px; min-height:0; margin:0; padding:0; place-items:center; border-radius:50%; }
+    .fashion-hall__cta i { width:24px; height:24px; font-size:14px; }
+    .fashion-cover { grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr); }
+    .fashion-cover__image { aspect-ratio:auto; min-height:100%; }
+    .fashion-cover__copy h2 { font-size:clamp(24px,3.7vw,31px); }
+    .fashion-cover__cta { margin-top:20px; }
+  }
+  @media (max-width:599px) {
+    .fashion-index { padding:18px 12px 48px; }
+    .fashion-index__masthead { padding-bottom:14px; }
+    .fashion-index__masthead h1 { font-size:50px; }
+    .fashion-index__note { margin:13px 0 17px; font-size:12px; line-height:1.62; }
+    .fashion-section-title { padding-bottom:9px; }
+    .fashion-section-title p { font-size:8px; }
+    .fashion-section-title h2 { font-size:18px; }
+    .fashion-halls { margin-bottom:28px; }
+    .fashion-halls__grid { margin-top:11px; gap:6px; }
+    .fashion-hall__media { aspect-ratio:1/1; }
+    .fashion-hall__media>span { right:7px; bottom:6px; font-size:7px; }
+    .fashion-hall__copy { padding:8px 6px; }
+    .fashion-hall__copy h3 { font-size:14px; }
+    .fashion-hall__cta { width:27px; min-width:27px; height:27px; }
+    .fashion-hall__cta i { width:21px; height:21px; font-size:12px; }
+    .fashion-cover { grid-template-columns:1fr; }
+    .fashion-cover__image { min-height:0; aspect-ratio:16/10; }
+    .fashion-cover__copy { padding:20px 17px; }
+    .fashion-cover__copy h2 { margin-top:9px; font-size:24px; line-height:1.2; }
+    .fashion-cover__copy>span { margin-top:10px; font-size:12px; line-height:1.58; }
+    .fashion-cover__cta { min-height:48px; margin-top:16px; font-size:14px; }
+    .fashion-edit { margin-top:30px; }
+    .fashion-edit__grid { margin-top:13px; gap:18px 8px; }
+    .fashion-edit__story h3 { display:-webkit-box; overflow:hidden; font-size:13px; line-height:1.35; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+  }
 </style>

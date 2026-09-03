@@ -388,4 +388,43 @@ const leadFile = lead ? fileFor(lead) : undefined;
   @media (prefers-reduced-motion:reduce) {
     .easy-lead__live i,.easy-lead__image img,.easy-lead__cta i,.easy-search,.easy-library__thumb img { animation:none; transition:none; }
   }
+  @media (max-width:1179px) {
+    .easy-index { padding-top:26px; }
+    .easy-intro { display:-webkit-box; overflow:hidden; margin-bottom:22px; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+    .easy-library { margin-top:42px; }
+  }
+  @media (max-width:900px) {
+    .easy-lead { grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr); min-height:0; }
+    .easy-lead__image { min-height:100%; aspect-ratio:auto; }
+    .easy-lead__desk { padding:25px 24px; }
+    .easy-lead__eyebrow { margin-top:17px; }
+    .easy-lead h2 { font-size:29px; }
+    .easy-lead__answer { display:-webkit-box; overflow:hidden; margin-top:12px; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+    .easy-lead dl { margin-top:14px; }
+    .easy-lead dl div { padding:7px 0; }
+    .easy-lead__cta { margin-top:16px; }
+    .easy-library__head { grid-template-columns:minmax(0,1fr) minmax(240px,310px); }
+  }
+  @media (max-width:599px) {
+    .easy-index { padding:18px 12px 48px; }
+    .easy-masthead { padding-bottom:14px; }
+    .easy-masthead h1 { font-size:50px; }
+    .easy-intro { margin:13px 0 17px; font-size:11.5px; line-height:1.55; }
+    .easy-lead { grid-template-columns:1fr; }
+    .easy-lead__image { min-height:0; aspect-ratio:16/10; }
+    .easy-lead__desk { padding:18px 17px; }
+    .easy-lead__eyebrow { margin-top:13px; }
+    .easy-lead h2 { margin-top:8px; font-size:24px; }
+    .easy-lead__answer { font-size:12px; line-height:1.55; }
+    .easy-lead dl { display:none; }
+    .easy-lead__cta { min-height:43px; margin-top:14px; font-size:13px; }
+    .easy-library { margin-top:30px; }
+    .easy-library__head { grid-template-columns:1fr; gap:11px; padding-bottom:16px; }
+    .easy-library__head h2 { font-size:20px; }
+    .easy-search { width:100%; height:42px; margin:0; }
+    .easy-library__tier { margin-top:12px; }
+    .easy-library__item>a { grid-template-columns:96px minmax(0,1fr); gap:11px; padding:11px 0; }
+    .easy-library__copy>strong { font-size:14px; line-height:1.35; }
+    .easy-library__copy>span { -webkit-line-clamp:2; }
+  }
 </style>
