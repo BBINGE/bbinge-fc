@@ -1,0 +1,248 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import StoreFloorIcon from '../../components/StoreFloorIcon.astro';
+import { site } from '../../config/site';
+
+const description = '서울 강남을 배경으로 설계한 삥이FC의 가상 백화점, PB 온라인 본점의 1층부터 옥상까지 층별 안내.';
+const floors = [
+  { floor: '10', name: '옥상', en: 'ROOFTOP · NEXT OPENING', copy: '다음 공간을 상상하며 잠시 숨을 고르는 옥상', icon: 'rooftop', zones: [{ label: '입점 대기중' }] },
+  { floor: '09', name: '영화관', en: 'MATCH HIGHLIGHTS CINEMA', copy: '한 경기를 다시 살리는 장면과 시간의 상영관', icon: 'cinema', zones: [{ label: '하이라이트', href: '/highlights/' }], href: '/highlights/' },
+  { floor: '08', name: '명예의 전당', en: 'HALL OF FAME', copy: '시대와 구단을 대표하는 열한 명의 전시실', icon: 'honor', zones: [{ label: '베스트 11', href: '/squads/custom-best-xi/' }], href: '/squads/custom-best-xi/' },
+  { floor: '07', name: '전술 · 축떡관', en: 'TACTICS · FOOTBALL MADE EASY', copy: '경기의 구조와 규칙, 판정의 쟁점을 읽는 층', icon: 'tactics', zones: [{ label: '전술관', href: '/tactics/' }, { label: '축떡관', href: '/football-made-easy/' }], href: '/tactics/' },
+  { floor: '06', name: '도서실 · 세계사관', en: 'LIBRARY · WORLD HISTORY', copy: '기록을 꺼내 읽고 축구와 세계사의 관계를 잇는 층', icon: 'library', zones: [{ label: '아카이브', href: '/archive/' }, { label: '세계사관', href: '/history/' }], href: '/archive/' },
+  { floor: '05', name: '오락실', en: 'PB FOOTBALL ARCADE', copy: '축겜과 나만의 GOAT 뽑기가 시작되는 플레이 층', icon: 'arcade', zones: [{ label: '축겜', href: '/play/' }, { label: '나만의 GOAT', href: '/play/' }], href: '/play/' },
+  { floor: '04', name: '축행', en: 'FOOTBALL TRAVEL DESK', copy: '경기장과 도시를 잇는 여행 동선과 출발 전 준비', icon: 'travel', zones: [{ label: '여행사', href: '/pilgrimage/' }, { label: '보험사' }], href: '/pilgrimage/' },
+  { floor: '03', name: '블록코어 · 유니폼관', en: 'BLOCKCORE · FOOTBALL KIT HALL', copy: '일상의 축구 패션과 시즌 유니폼이 나란히 놓인 두 개의 관', icon: 'fashion', zones: [{ label: '오뭐입?', href: '/culture/' }, { label: '유니폼관', href: '/culture/' }], href: '/culture/' },
+  { floor: '02', name: '명품관', en: 'LUXURY BOUTIQUE HALL', copy: '축구 화보에서 발견한 명품과 오브제의 부티크', icon: 'luxury', zones: [{ label: '럭셔리 축디', href: '/culture/' }], href: '/culture/' },
+  { floor: '01', name: '메인', en: 'GRAND MAIN LOBBY', copy: '오늘의 삥이FC와 모든 층이 시작되는 로비', icon: 'lobby', zones: [{ label: '안내 데스크', href: '/' }], href: '/' },
+] as const;
+
+const storeSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'PB 온라인 본점 층별 안내',
+  url: `${site.url}/about/store/`,
+  description,
+};
+---
+
+<Layout
+  title="층별 안내 | PB 온라인 본점"
+  description={description}
+  ogImage="/images/about/pb-online-main-seoul.webp"
+  ogImageAlt="서울 강남을 배경으로 설계한 PB 온라인 본점 콘셉트 건축물"
+  ogImageWidth={1428}
+  ogImageHeight={1072}
+  adsEligible={false}
+  bodyClass="pb-store-page"
+  breadcrumbs={[
+    { label: '홈', href: '/' },
+    { label: '저자 @삥이', href: '/about/' },
+    { label: '층별 안내', href: '/about/store/' },
+  ]}
+  extraSchema={storeSchema}
+>
+  <article class="store" data-store>
+    <div class="scroll-meter" aria-hidden="true"><i></i></div>
+
+    <header class="store-hero">
+      <div class="hero-copy">
+        <p class="store-kicker"><span>PB</span> ONLINE FLAGSHIP · SEOUL</p>
+        <h1>층별 안내<br /><em>PB 온라인 본점</em></h1>
+        <p class="hero-lead">축구를 입고, 걷고, 읽고, 보고, 노는 열 개의 층.<br />서로 다른 삥이FC의 세계를 한 건물에 담았습니다.</p>
+        <a class="explore-cta" href="#directory">
+          <span>엘리베이터 타기</span>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m0 0 5-5m-5 5-5-5" /></svg>
+        </a>
+      </div>
+
+      <div class="building-wrap" data-building>
+        <div class="building-light" aria-hidden="true"></div>
+        <figure class="building-card">
+          <img
+            src="/images/about/pb-online-main-seoul.webp"
+            width="1428"
+            height="1072"
+            alt="테헤란로 풍경 속 PB 온라인 본점 콘셉트 건축물"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <nav class="hero-elevator" aria-label="PB 온라인 본점 빠른 층 선택">
+            <span class="elevator-brand"><b>PB</b><small>FLOOR</small></span>
+            {floors.map((item) => (
+              <a href={`#floor-${item.floor}`} aria-label={`${item.floor}층 ${item.name} 안내로 이동`}>
+                <span>{item.floor}</span><i aria-hidden="true"></i><small>{item.name}</small>
+              </a>
+            ))}
+          </nav>
+          <figcaption><span>CONCEPT ARCHITECTURE · 2026</span><b>SEOUL, GANGNAM</b></figcaption>
+        </figure>
+      </div>
+
+      <p class="concept-note">서울 강남을 배경으로 설계한 PB 온라인 본점의 콘셉트 아키텍처입니다. 실제 오프라인 매장이 아닙니다.</p>
+    </header>
+
+    <section class="directory" id="directory" aria-labelledby="directory-title">
+      <header class="directory-head">
+        <p>PB DEPARTMENT DIRECTORY</p>
+        <h2 id="directory-title"><span>오늘은</span><span>몇 층으로 갈까요?</span></h2>
+        <span>층을 고르면 각 공간의 안내와 현재 입점 상태를 확인할 수 있습니다.</span>
+        <div class="active-floor" data-active-floor aria-hidden="true">
+          <span><b>10</b><small>F</small></span>
+          <em data-active-name>옥상</em>
+        </div>
+      </header>
+
+      <div class="floor-list">
+        {floors.map((item, index) => (
+          <div
+            id={`floor-${item.floor}`}
+            class:list={['floor', !item.href && 'floor--waiting']}
+            data-floor
+            data-floor-number={item.floor}
+            data-floor-name={item.name}
+            style={`--delay:${index * 35}ms`}
+          >
+            <span class="floor-number">{item.floor}<small>F</small></span>
+            <StoreFloorIcon name={item.icon} />
+            <span class="floor-name">
+              {item.href ? (
+                <a class="floor-title" href={item.href}><b>{item.name}</b><small>{item.en}</small></a>
+              ) : (
+                <span class="floor-title"><b>{item.name}</b><small>{item.en}</small></span>
+              )}
+              <span class="floor-zones">
+                {item.zones.map((zone) => zone.href ? <a href={zone.href}>{zone.label}</a> : <i>{zone.label}</i>)}
+              </span>
+            </span>
+            <span class="floor-copy">{item.copy}</span>
+            {item.href ? (
+              <a class="floor-arrow" href={item.href} aria-label={`${item.floor}층 ${item.name} 안내로 이동`}>↗</a>
+            ) : (
+              <span class="waiting-light" aria-label="입점 대기중"><i></i>WAITING</span>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <footer class="store-footer">
+      <p><span>PB</span> | BBingeFC</p>
+      <strong>축구의 역사를 놀고, 읽고, 걷는 곳.</strong>
+      <a class="logo-story-cta" href="/about/logo/">
+        <span><small>PB BRAND IDENTITY</small><b>PB 로고 이야기</b><em>P와 B, 하나의 저자명</em></span>
+        <i aria-hidden="true">↗</i>
+      </a>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  :global(html){scroll-behavior:smooth}
+  :global(body.pb-store-page){background:#07090d}
+  :global(body.pb-store-page>footer){margin-top:0;border-color:rgba(255,255,255,.11);background:#07090d;color:#f7f8fa}
+  :global(body.pb-store-page>footer>div){border-top:1px solid rgba(217,182,91,.18)}
+  :global(body.pb-store-page>footer a){color:rgba(247,248,250,.7)}
+  :global(body.pb-store-page>footer a:hover){color:#f0d998}
+  :global(body.pb-store-page>footer p){color:rgba(247,248,250,.47)}
+  :global(body.pb-store-page>footer .footer-label){color:#82c7ff}
+  :global(body.pb-store-page>footer div[class*="border-t"]){border-color:rgba(255,255,255,.11)}
+  .store{--gold:#d9b65b;--gold-soft:#f0d998;--sky:#82c7ff;--night:#07090d;--white:#f7f8fa;--hero-scroll:0;position:relative;overflow:hidden;background:var(--night);color:var(--white);isolation:isolate}
+  .store::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 82% 5%,rgba(130,199,255,.09),transparent 24%),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:auto,72px 72px,72px 72px;mask-image:linear-gradient(to bottom,#000 0,transparent 74%)}
+  .scroll-meter{position:fixed;right:14px;top:90px;bottom:28px;z-index:20;width:1px;background:rgba(255,255,255,.12);pointer-events:none}.scroll-meter i{display:block;width:1px;height:var(--scroll-progress,0%);background:linear-gradient(var(--sky),var(--gold));box-shadow:0 0 12px rgba(130,199,255,.65)}
+  .store-hero{position:relative;display:grid;grid-template-columns:minmax(260px,.68fr) minmax(0,1.32fr);align-items:center;gap:clamp(32px,5vw,88px);min-height:calc(100svh - 64px);max-width:1440px;margin:0 auto;padding:clamp(60px,8vw,120px) clamp(20px,4.5vw,72px) 46px}
+  .hero-copy{position:relative;z-index:2;opacity:calc(1 - var(--hero-scroll)*.56);transform:translate3d(0,calc(var(--hero-scroll)*-42px),0);will-change:transform,opacity}.store-kicker{display:flex;align-items:center;gap:9px;color:var(--sky);font-size:10px;font-weight:600;letter-spacing:.19em}.store-kicker span{display:grid;place-items:center;width:31px;height:31px;border:1px solid rgba(217,182,91,.62);border-radius:50%;color:var(--gold-soft);font-size:11px;letter-spacing:0}
+  .hero-copy h1{margin-top:26px;font-size:clamp(42px,4.65vw,72px);font-weight:500;line-height:.98;letter-spacing:-.065em}.hero-copy h1 em{display:block;margin-top:13px;color:var(--gold-soft);font-style:normal}.hero-lead{margin-top:31px;color:rgba(247,248,250,.72);font-size:clamp(15px,1.35vw,18px);line-height:1.85;word-break:keep-all}
+  .explore-cta{display:inline-flex;align-items:center;gap:17px;margin-top:40px;padding:13px 18px 13px 20px;border:1px solid rgba(217,182,91,.5);border-radius:999px;color:var(--gold-soft);font-size:13px;transition:background .25s ease,color .25s ease,transform .25s ease,box-shadow .25s ease}.explore-cta svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4}.explore-cta:hover,.explore-cta:focus-visible{background:var(--gold);color:#080a0e;outline:none;transform:translateY(-3px);box-shadow:0 14px 35px rgba(217,182,91,.18)}
+  .building-wrap{position:relative;perspective:1400px;--rx:0deg;--ry:0deg;--mx:50%;--my:50%;transform:translate3d(0,calc(var(--hero-scroll)*34px),0) scale(calc(1 - var(--hero-scroll)*.035));transform-origin:center 35%;will-change:transform}.building-light{position:absolute;inset:-15%;z-index:2;background:radial-gradient(circle at var(--mx) var(--my),rgba(255,231,163,.2),transparent 23%);mix-blend-mode:screen;pointer-events:none}.building-card{position:relative;overflow:hidden;border:1px solid rgba(217,182,91,.35);border-radius:3px;background:#111;box-shadow:0 40px 90px rgba(0,0,0,.52),0 0 0 1px rgba(255,255,255,.035) inset;transform:rotateX(var(--rx)) rotateY(var(--ry));transform-style:preserve-3d;transition:transform .18s ease-out}.building-card::after{content:"";position:absolute;inset:0;z-index:4;background:linear-gradient(115deg,transparent 28%,rgba(255,255,255,.12) 42%,transparent 55%);transform:translateX(-130%);transition:transform .8s cubic-bezier(.2,.7,.2,1);pointer-events:none}.building-wrap:hover .building-card::after{transform:translateX(130%)}.building-card>img{display:block;width:100%;height:auto;filter:saturate(.82) brightness(.82)}.building-card figcaption{position:absolute;z-index:5;left:0;right:0;bottom:0;display:flex;justify-content:space-between;gap:20px;padding:42px 18px 14px;background:linear-gradient(transparent,rgba(3,5,8,.9));font-size:8px;letter-spacing:.14em}.building-card figcaption span{color:rgba(255,255,255,.68)}.building-card figcaption b{color:var(--gold-soft);font-weight:500}
+  .hero-elevator{position:absolute;z-index:3;top:6%;right:3%;bottom:10%;display:grid;grid-template-rows:auto repeat(10,1fr);width:38%;min-width:176px;padding:12px 14px 14px;border:1px solid rgba(217,182,91,.52);background:rgba(5,8,13,.88);box-shadow:0 20px 42px rgba(0,0,0,.35);backdrop-filter:blur(7px)}.elevator-brand{display:flex;align-items:baseline;justify-content:space-between;padding:0 2px 8px;border-bottom:1px solid rgba(217,182,91,.34)}.elevator-brand b{color:var(--gold-soft);font:500 17px Georgia,serif}.elevator-brand small{color:var(--sky);font-size:6px;letter-spacing:.2em}.hero-elevator>a{display:grid;grid-template-columns:23px 1fr minmax(0,92px);align-items:center;gap:7px;border-bottom:1px solid rgba(255,255,255,.09);color:rgba(255,255,255,.72);transition:color .2s ease,background .2s ease,padding .2s ease}.hero-elevator>a:hover,.hero-elevator>a:focus-visible{padding-left:6px;background:rgba(217,182,91,.1);color:var(--gold-soft);outline:none}.hero-elevator>a>span{font-size:10px}.hero-elevator>a>i{height:1px;background:rgba(217,182,91,.22)}.hero-elevator>a>small{overflow:hidden;font-size:7px;letter-spacing:.04em;text-align:right;text-overflow:ellipsis;white-space:nowrap}
+  .concept-note{grid-column:1/-1;justify-self:end;max-width:630px;margin-top:8px;color:rgba(255,255,255,.38);font-size:10px;line-height:1.65;text-align:right}
+  .directory{display:grid;grid-template-columns:340px minmax(0,1fr);gap:clamp(45px,6vw,90px);max-width:1280px;margin:0 auto;padding:140px clamp(20px,4.5vw,72px) 170px}.directory-head{position:sticky;top:112px;align-self:start}.directory-head>p{color:var(--sky);font-size:9px;font-weight:600;letter-spacing:.2em}.directory-head h2{margin-top:25px;color:var(--white);font-size:clamp(36px,3.7vw,52px);font-weight:500;line-height:1.12;letter-spacing:-.055em}.directory-head h2 span{display:block;white-space:nowrap}.directory-head>span{display:block;max-width:290px;margin-top:27px;color:rgba(255,255,255,.43);font-size:12px;line-height:1.7}
+  .active-floor{margin-top:50px;color:rgba(217,182,91,.12);transition:color .35s ease,transform .5s cubic-bezier(.2,.75,.2,1)}.active-floor>span{display:flex;align-items:flex-start;line-height:.75}.active-floor.is-changing{color:rgba(217,182,91,.3);transform:translateX(8px)}.active-floor b{font-size:clamp(78px,10vw,132px);font-weight:400;letter-spacing:-.09em}.active-floor small{margin:5px 0 0 8px;color:var(--sky);font-size:12px;letter-spacing:.12em}.active-floor em{display:block;margin-top:13px;color:rgba(255,255,255,.45);font-size:12px;font-style:normal;letter-spacing:.12em}
+  .floor-list{border-top:1px solid rgba(217,182,91,.35)}.floor{--pointer-x:50%;position:relative;display:grid;grid-template-columns:76px 62px minmax(170px,.85fr) minmax(180px,1fr) 56px;align-items:center;gap:18px;min-height:128px;border-bottom:1px solid rgba(255,255,255,.11);color:var(--white);opacity:.62;transform:translateY(24px);transition:opacity .65s ease var(--delay),transform .65s ease var(--delay),background .25s ease,padding .25s ease}.floor::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at var(--pointer-x) 50%,rgba(130,199,255,.11),transparent 30%);opacity:0;transition:opacity .25s ease}.floor::before{content:"";position:absolute;left:-1px;top:50%;width:2px;height:0;background:linear-gradient(var(--sky),var(--gold));box-shadow:0 0 18px rgba(130,199,255,.5);transform:translateY(-50%);transition:height .35s ease}.floor.is-visible{opacity:1;transform:none}.floor.is-active{background:linear-gradient(90deg,rgba(217,182,91,.08),transparent);opacity:1}.floor.is-active::before{height:58%}.floor:hover,.floor:focus-within{padding-left:12px;padding-right:10px;background:linear-gradient(90deg,rgba(217,182,91,.1),rgba(130,199,255,.045));outline:none}.floor:hover::after,.floor:focus-within::after{opacity:1}.floor--waiting{cursor:default}.floor-number{color:var(--gold-soft);font-size:35px;font-weight:400;letter-spacing:-.04em;white-space:nowrap}.floor-number small{margin-left:3px;font-size:10px;color:var(--gold);letter-spacing:0}.floor-title{display:block;color:var(--white)}.floor-title:focus-visible{outline:1px solid var(--sky);outline-offset:4px}.floor-title b,.floor-title small{display:block}.floor-title b{font-size:17px;font-weight:500}.floor-title small{margin-top:5px;color:var(--sky);font-size:8px;font-weight:500;letter-spacing:.11em}.floor-zones{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px}.floor-zones a,.floor-zones i{padding:4px 7px;border:1px solid rgba(255,255,255,.13);border-radius:999px;color:rgba(255,255,255,.52);font-size:8px;font-style:normal;letter-spacing:.03em}.floor-zones a{transition:border-color .2s ease,color .2s ease,background .2s ease}.floor-zones a:hover,.floor-zones a:focus-visible{border-color:rgba(240,217,152,.68);background:rgba(217,182,91,.1);color:var(--gold-soft);outline:none}.floor-copy{color:rgba(255,255,255,.54);font-size:12px;line-height:1.62;word-break:keep-all}.floor-arrow{display:grid;place-items:center;width:34px;height:34px;border:1px solid rgba(255,255,255,.2);border-radius:50%;color:var(--gold-soft);font-size:13px;transition:background .2s ease,color .2s ease,transform .2s ease}.floor-arrow:focus-visible{outline:1px solid var(--sky);outline-offset:3px}.floor:hover .floor-arrow,.floor:focus-within .floor-arrow{background:var(--gold);color:#07090d;transform:rotate(45deg)}.waiting-light{display:flex;flex-direction:column;align-items:center;gap:7px;color:rgba(255,255,255,.34);font-size:6px;letter-spacing:.13em}.waiting-light>i{width:8px;height:8px;border-radius:50%;background:rgba(217,182,91,.46);box-shadow:0 0 11px rgba(217,182,91,.35);animation:waiting-pulse 2.1s ease-in-out infinite}
+  .store-footer{display:grid;grid-template-columns:minmax(0,1fr) minmax(310px,.62fr);align-items:end;gap:28px 64px;max-width:1240px;margin:0 auto;padding:78px clamp(20px,4.5vw,72px) 100px;border-top:1px solid rgba(255,255,255,.11)}.store-footer>p{font-size:15px;letter-spacing:.04em}.store-footer>p span{color:var(--gold-soft)}.store-footer>strong{grid-column:1;font-size:clamp(24px,3.5vw,44px);font-weight:500;letter-spacing:-.045em}.store-footer>a{grid-row:1/3;grid-column:2;align-self:end}
+  .logo-story-cta{position:relative;display:grid!important;grid-template-columns:1fr 54px;align-items:center;gap:22px;min-height:142px;padding:26px 25px 26px 29px;overflow:hidden;border:1px solid rgba(217,182,91,.38);background:linear-gradient(125deg,rgba(217,182,91,.09),rgba(130,199,255,.035));color:var(--white)!important;transition:border-color .3s ease,transform .3s ease,box-shadow .3s ease}.logo-story-cta::before{content:"";position:absolute;inset:-1px;background:linear-gradient(105deg,transparent 30%,rgba(240,217,152,.16) 48%,transparent 65%);transform:translateX(-120%);animation:logo-shine 4.2s ease-in-out infinite}.logo-story-cta>span{position:relative;z-index:1}.logo-story-cta small,.logo-story-cta b,.logo-story-cta em{display:block}.logo-story-cta small{color:var(--sky);font-size:8px;font-weight:600;letter-spacing:.18em}.logo-story-cta b{margin-top:12px;color:var(--white);font-size:clamp(21px,2.2vw,30px);font-weight:500;letter-spacing:-.045em}.logo-story-cta em{margin-top:7px;color:rgba(255,255,255,.47);font-size:11px;font-style:normal}.logo-story-cta>i{position:relative;z-index:1;display:grid;place-items:center;width:54px;height:54px;border:1px solid rgba(217,182,91,.6);border-radius:50%;background:rgba(217,182,91,.06);color:var(--gold-soft);font-size:21px;font-style:normal;animation:logo-arrow 2.4s ease-in-out infinite;transition:background .25s ease,color .25s ease,transform .25s ease}.logo-story-cta:hover,.logo-story-cta:focus-visible{border-color:var(--gold-soft);outline:none;transform:translateY(-5px);box-shadow:0 24px 50px rgba(0,0,0,.32),0 0 28px rgba(217,182,91,.1)}.logo-story-cta:hover>i,.logo-story-cta:focus-visible>i{background:var(--gold);color:var(--night);animation:none;transform:rotate(45deg)}
+  @keyframes logo-shine{0%,52%{transform:translateX(-120%)}78%,100%{transform:translateX(120%)}}
+  @keyframes logo-arrow{0%,100%{transform:translate(0,0)}50%{transform:translate(4px,-4px)}}
+  @keyframes waiting-pulse{0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+  @media(max-width:1080px) and (min-width:821px){.directory{grid-template-columns:1fr}.directory-head{position:static}.directory-head h2{font-size:48px}.active-floor{display:none}.floor{grid-template-columns:72px 58px minmax(160px,.8fr) minmax(170px,1fr) 40px}}
+  @media(max-width:820px){.scroll-meter{display:none}.store-hero{grid-template-columns:1fr;min-height:0;padding-top:70px}.hero-copy{opacity:1;transform:none}.hero-copy h1{font-size:clamp(42px,12vw,62px)}.hero-lead br{display:none}.building-wrap{margin-top:15px;transform:none}.concept-note{text-align:left}.directory{grid-template-columns:1fr;padding-top:90px;padding-bottom:110px}.directory-head{position:static}.directory-head h2{font-size:clamp(34px,10vw,46px)}.directory-head h2 span{white-space:normal}.active-floor{display:none}.floor{grid-template-columns:62px 54px minmax(0,1fr) 34px;gap:12px;min-height:118px;padding:13px 0}.floor-number{font-size:27px}.floor-copy{grid-column:3/5;margin-top:-9px;padding:0 32px 7px 0;font-size:11px}.floor-arrow,.waiting-light{grid-row:1;grid-column:4}.floor-name b{font-size:15px}.store-footer{grid-template-columns:minmax(0,1fr)}.store-footer>.logo-story-cta{grid-row:auto;grid-column:1;margin-top:25px}.store-footer>strong{grid-column:1}}
+  @media(max-width:620px){.store-hero{padding-left:16px;padding-right:16px}.building-card figcaption{padding:28px 10px 9px;font-size:6.5px}.hero-elevator{top:5%;right:2%;bottom:11%;width:41%;min-width:0;padding:6px 7px 8px}.elevator-brand{padding-bottom:4px}.elevator-brand b{font-size:11px}.elevator-brand small{font-size:4px}.hero-elevator>a{grid-template-columns:16px 1fr;gap:4px}.hero-elevator>a>span{font-size:7px}.hero-elevator>a>small{display:none}.directory{padding-left:16px;padding-right:16px}.floor{grid-template-columns:48px 45px minmax(0,1fr) 28px;gap:9px}.floor-number{font-size:22px}.floor-title small{font-size:6.5px;letter-spacing:.06em}.floor-zones{gap:4px;margin-top:8px}.floor-zones a,.floor-zones i{padding:3px 5px;font-size:7px}.floor-copy{grid-column:2/5;margin:0;padding:0 20px 6px 54px}.floor-arrow{width:28px;height:28px}.store-footer{padding-left:16px;padding-right:16px}.waiting-light{font-size:0}.waiting-light>i{width:7px;height:7px}}
+  @media(hover:none){.building-light{display:none}.building-card{transform:none!important}.floor{opacity:1;transform:none}}
+  @media(prefers-reduced-motion:reduce){:global(html){scroll-behavior:auto}.hero-copy,.building-wrap,.building-card,.building-card::after,.explore-cta,.floor,.floor-arrow,.active-floor,.logo-story-cta,.logo-story-cta::before,.logo-story-cta>i,.waiting-light>i{animation:none!important;transition:none!important;transform:none!important}.hero-copy{opacity:1}.building-light{display:none}.floor{opacity:1;transform:none}}
+</style>
+
+<script>
+  const store = document.querySelector<HTMLElement>('[data-store]');
+  const building = document.querySelector<HTMLElement>('[data-building]');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const updateScroll = () => {
+    if (!store) return;
+    const start = store.offsetTop;
+    const distance = Math.max(store.offsetHeight - window.innerHeight, 1);
+    const progress = Math.min(100, Math.max(0, ((window.scrollY - start) / distance) * 100));
+    store.style.setProperty('--scroll-progress', `${progress}%`);
+    const heroProgress = reducedMotion ? 0 : Math.min(1, Math.max(0, (window.scrollY - start) / Math.max(window.innerHeight * .72, 1)));
+    store.style.setProperty('--hero-scroll', heroProgress.toFixed(3));
+  };
+
+  updateScroll();
+  window.addEventListener('scroll', updateScroll, { passive: true });
+
+  if (building && !reducedMotion && window.matchMedia('(hover:hover)').matches) {
+    building.addEventListener('pointermove', (event) => {
+      const box = building.getBoundingClientRect();
+      const x = (event.clientX - box.left) / box.width;
+      const y = (event.clientY - box.top) / box.height;
+      building.style.setProperty('--mx', `${x * 100}%`);
+      building.style.setProperty('--my', `${y * 100}%`);
+      building.style.setProperty('--ry', `${(x - .5) * 5}deg`);
+      building.style.setProperty('--rx', `${(.5 - y) * 4}deg`);
+    });
+    building.addEventListener('pointerleave', () => {
+      building.style.setProperty('--rx', '0deg');
+      building.style.setProperty('--ry', '0deg');
+    });
+  }
+
+  const floors = document.querySelectorAll<HTMLElement>('[data-floor]');
+  const activeFloor = document.querySelector<HTMLElement>('[data-active-floor]');
+  floors.forEach((floor) => {
+    floor.addEventListener('pointermove', (event) => {
+      const box = floor.getBoundingClientRect();
+      floor.style.setProperty('--pointer-x', `${event.clientX - box.left}px`);
+    });
+  });
+
+  if ('IntersectionObserver' in window && !reducedMotion) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .2 });
+    floors.forEach((floor) => observer.observe(floor));
+
+    const floorObserver = new IntersectionObserver((entries) => {
+      const current = entries.find((entry) => entry.isIntersecting);
+      if (!current) return;
+      floors.forEach((floor) => floor.classList.toggle('is-active', floor === current.target));
+      const target = current.target as HTMLElement;
+      const floorNumber = target.dataset.floorNumber;
+      const floorName = target.dataset.floorName;
+      if (activeFloor && floorNumber) {
+        activeFloor.querySelector('b')!.textContent = floorNumber;
+        const name = activeFloor.querySelector<HTMLElement>('[data-active-name]');
+        if (name && floorName) name.textContent = floorName;
+        activeFloor.classList.remove('is-changing');
+        requestAnimationFrame(() => activeFloor.classList.add('is-changing'));
+      }
+    }, { rootMargin: '-33% 0px -54% 0px', threshold: 0 });
+    floors.forEach((floor) => floorObserver.observe(floor));
+  } else {
+    floors.forEach((floor) => floor.classList.add('is-visible'));
+  }
+</script>
