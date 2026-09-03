@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import StoreWayfinding from '../components/StoreWayfinding.astro';
 import { site } from '../config/site';
 
 interface Breadcrumb {
@@ -265,9 +266,15 @@ const authorSchema = {
   </head>
   <body class={bodyClass}>
     <Header />
+    {Astro.url.pathname !== '/' && Astro.url.pathname !== '/about/store/' && (
+      <StoreWayfinding pathname={Astro.url.pathname} breadcrumbHrefs={breadcrumbs.map((crumb) => crumb.href)} />
+    )}
     <main>
       <slot />
     </main>
+    {article && (
+      <StoreWayfinding pathname={Astro.url.pathname} breadcrumbHrefs={breadcrumbs.map((crumb) => crumb.href)} variant="elevator" />
+    )}
     <Footer />
     {analyticsEligible && (
       <>
