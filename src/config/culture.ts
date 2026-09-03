@@ -17,7 +17,7 @@ export const cultureSections = {
     eyebrow: 'WHAT ARE WE WEARING?',
     description: '유니폼이 일상의 옷으로 건너오는 순간과 지금 따라 입고 싶은 조합을 모은 편집관.',
     leadArticleId: 'kwon-eunbi-world-cup-red-jersey-denim-skirt',
-    leadImageFocus: { x: 43, y: 42, scale: 1.08 },
+    leadImageFocus: { x: 42, y: 35, scale: 1.65 },
   },
   kit: {
     slug: 'kits',
@@ -27,7 +27,7 @@ export const cultureSections = {
     eyebrow: 'THE KIT ROOM',
     description: '시즌과 구단, 마킹과 디자인, 정품 선택까지 셔츠 자체가 주인공이 되는 유니폼관.',
     leadArticleId: 'olivia-rodrigo-barcelona-jersey-el-clasico-collaboration',
-    leadImageFocus: { x: 48, y: 35, scale: 1.06 },
+    leadImageFocus: { x: 45, y: 20, scale: 1.55 },
   },
 } as const;
 
