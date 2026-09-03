@@ -52,6 +52,45 @@
       "productCode": "1000872172607",
       "status": "active",
       "soldOutMarkers": ["품절", "일시품절", "판매 종료", "판매중지", "구매 불가", "재입고 알림"]
+    },
+    {
+      "id": "adidas-real-madrid-jz7206",
+      "label": "레알 마드리드 2026/27 홈 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/MCYEzk",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A0%88%EC%95%8C-%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C-26-27-%ED%99%88-%EC%A0%80%EC%A7%80/JZ7206.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "JZ7206",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-real-madrid-jz7218",
+      "label": "레알 마드리드 2026/27 홈 어센틱 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/IIRPkN",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A0%88%EC%95%8C-%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C-26-27-%ED%99%88-%EC%96%B4%EC%84%BC%ED%8B%B1-%EC%A0%80%EC%A7%80/JZ7218.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "JZ7218",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-real-madrid-kc3952",
+      "label": "레알 마드리드 2026/27 긴소매 홈 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/dn8J2M",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A0%88%EC%95%8C-%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C-26-27-%EB%A1%B1-%EC%8A%AC%EB%A6%AC%EB%B8%8C-%ED%99%88-%EC%A0%80%EC%A7%80/KC3952.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KC3952",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
     }
   ]
 }
