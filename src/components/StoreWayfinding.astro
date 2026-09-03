@@ -12,7 +12,7 @@ const location = getStoreLocation(pathname, breadcrumbHrefs);
 ---
 
 {location && variant === 'position' && (
-  <nav class="store-position" aria-label="PB 온라인 본점 현재 위치와 층별 안내">
+  <nav class:list={['store-position', location.floor === '02' && location.name === '명품관' && 'store-position--boutique']} aria-label="PB 온라인 본점 현재 위치와 층별 안내">
     <div class="store-position__inner">
       <a class="store-position__current" href={location.href} aria-label={`현재 ${location.floor}층 ${location.name}. 해당 관으로 이동`}>
         <span class="store-position__floor"><b>{location.floor}</b><small>F</small></span>
@@ -46,23 +46,29 @@ const location = getStoreLocation(pathname, breadcrumbHrefs);
 
 <style>
   .store-position{border-bottom:1px solid var(--bbfc-border);background:linear-gradient(90deg,#111925,#182435 58%,#111925);color:#fff}
-  .store-position__inner{display:flex;align-items:center;gap:18px;max-width:1280px;min-height:47px;margin:0 auto;padding:0 20px}
+  .store-position__inner{display:flex;align-items:center;gap:18px;max-width:1280px;min-height:52px;margin:0 auto;padding:0 20px}
   .store-position__current,.store-position__map{display:flex;align-items:center;color:inherit;text-decoration:none}
   .store-position__current{gap:11px;min-width:0}
   .store-position__floor{display:flex;align-items:flex-start;gap:3px;color:#8fc2ff;line-height:1}
-  .store-position__floor b{font-size:18px;font-weight:750;letter-spacing:-.04em}
-  .store-position__floor small{margin-top:2px;font-size:8px;font-weight:800;letter-spacing:.08em}
+  .store-position__floor b{font-size:20px;font-weight:750;letter-spacing:-.04em}
+  .store-position__floor small{margin-top:2px;font-size:9px;font-weight:800;letter-spacing:.08em}
   .store-position__copy{display:flex;align-items:baseline;gap:9px;min-width:0}
-  .store-position__copy small,.store-position__map small{color:#8fc2ff;font-size:8px;font-weight:750;letter-spacing:.15em;white-space:nowrap}
-  .store-position__copy strong{overflow:hidden;font-size:12px;font-weight:650;text-overflow:ellipsis;white-space:nowrap}
+  .store-position__copy small,.store-position__map small{color:#8fc2ff;font-size:9.5px;font-weight:750;letter-spacing:.15em;white-space:nowrap}
+  .store-position__copy strong{overflow:hidden;font-size:13.5px;font-weight:650;text-overflow:ellipsis;white-space:nowrap}
   .store-position__line{height:15px;flex:1;border-bottom:1px solid rgba(143,194,255,.25)}
   .store-position__map{gap:14px;flex:0 0 auto}
   .store-position__map>span{display:flex;align-items:baseline;gap:9px}
-  .store-position__map strong{font-size:11px;font-weight:650}
-  .store-position__map i{display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:var(--bbfc-blue);font-size:12px;font-style:normal;transition:transform .18s ease}
+  .store-position__map strong{font-size:13px;font-weight:650}
+  .store-position__map i{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:var(--bbfc-blue);font-size:13px;font-style:normal;transition:transform .18s ease}
   .store-position__current:hover strong,.store-position__current:focus-visible strong,.store-position__map:hover strong,.store-position__map:focus-visible strong{color:#a9d0ff}
   .store-position__map:hover i{transform:translateX(2px)}
   .store-position__current:focus-visible,.store-position__map:focus-visible{border-radius:4px;outline:2px solid #8fc2ff;outline-offset:3px}
+  .store-position--boutique{background:linear-gradient(90deg,#11100d,#21180b 55%,#12100c)}
+  .store-position--boutique .store-position__floor,.store-position--boutique .store-position__copy small,.store-position--boutique .store-position__map small{color:#f4d68b}
+  .store-position--boutique .store-position__line{border-color:rgba(244,214,139,.3)}
+  .store-position--boutique .store-position__map i{background:linear-gradient(135deg,#8a5e17,#e2b94f);color:#171006;box-shadow:0 0 18px rgba(226,185,79,.18)}
+  .store-position--boutique .store-position__current:hover strong,.store-position--boutique .store-position__current:focus-visible strong,.store-position--boutique .store-position__map:hover strong,.store-position--boutique .store-position__map:focus-visible strong{color:#f4d68b}
+  .store-position--boutique .store-position__current:focus-visible,.store-position--boutique .store-position__map:focus-visible{outline-color:#f4d68b}
 
   .store-elevator{margin-top:70px;padding:0 20px 72px;background:linear-gradient(180deg,transparent 0,#f4f7fb 35%,#eef3f9 100%)}
   .store-elevator__panel{display:grid;grid-template-columns:minmax(250px,.78fr) minmax(0,1.22fr);gap:34px;max-width:1080px;margin:0 auto;padding:28px;border:1px solid #cdd8e6;border-top:3px solid var(--bbfc-ink);border-radius:0 0 14px 14px;background:#fff;box-shadow:0 20px 48px -38px rgba(15,31,52,.55)}
@@ -85,18 +91,18 @@ const location = getStoreLocation(pathname, breadcrumbHrefs);
   .store-elevator__destinations .store-elevator__map strong{color:#fff}
 
   @media(max-width:700px){
-    .store-position__inner{gap:10px;min-height:44px;padding:0 14px}
+    .store-position__inner{gap:10px;min-height:48px;padding:0 14px}
     .store-position__current{gap:8px}
-    .store-position__floor b{font-size:16px}
+    .store-position__floor b{font-size:17px}
     .store-position__copy{display:block}
-    .store-position__copy small{display:block;font-size:6.5px}
-    .store-position__copy strong{display:block;margin-top:2px;max-width:112px;font-size:10.5px}
+    .store-position__copy small{display:block;font-size:7.5px}
+    .store-position__copy strong{display:block;margin-top:2px;max-width:112px;font-size:11.5px}
     .store-position__line{display:none}
     .store-position__map{justify-content:flex-end;gap:9px;margin-left:auto}
     .store-position__map>span{display:block;text-align:right}
-    .store-position__map small{display:block;font-size:6.5px}
-    .store-position__map strong{display:block;margin-top:2px;font-size:10px}
-    .store-position__map i{width:21px;height:21px;font-size:11px}
+    .store-position__map small{display:block;font-size:7.5px}
+    .store-position__map strong{display:block;margin-top:2px;font-size:11.5px}
+    .store-position__map i{width:24px;height:24px;font-size:12px}
     .store-elevator{margin-top:52px;padding:0 14px 54px}
     .store-elevator__panel{grid-template-columns:1fr;gap:20px;padding:22px 16px 17px}
     .store-elevator__current{gap:13px}
