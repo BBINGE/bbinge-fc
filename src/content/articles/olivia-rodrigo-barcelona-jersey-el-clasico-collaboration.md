@@ -2,6 +2,7 @@
 title: '올리비아 로드리고 바르셀로나 유니폼: 엘클라시코 협업 디자인'
 description: '올리비아 로드리고의 OR 나비 로고가 들어간 FC 바르셀로나 엘클라시코 유니폼을 RODRIGO 27 마킹, 2003/04 레트로 셔츠, 공식 영상과 함께 살펴본다.'
 category: 'culture'
+cultureSection: 'kit'
 tags: ['올리비아 로드리고', '바르셀로나 유니폼', '엘클라시코', 'FC 바르셀로나', 'Spotify', '축구 패션', '블록코어', '축구 유니폼']
 pubDate: 2026-08-31T15:10:00+09:00
 coverImage: '/images/culture/olivia-rodrigo-barcelona/cover.webp'

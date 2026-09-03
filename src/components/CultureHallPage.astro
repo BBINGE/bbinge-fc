@@ -1,0 +1,74 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getArticlePath } from '../config/categories';
+import { cultureSections, getCultureSectionPath, type CultureSection } from '../config/culture';
+import { imageFocusStyle } from '../utils/imageFocus';
+
+interface Props {
+  entries: CollectionEntry<'articles'>[];
+  section: CultureSection;
+}
+
+const { entries, section } = Astro.props;
+const hall = cultureSections[section];
+const [lead, ...rest] = entries;
+const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+---
+
+<main class:list={['culture-hall', `culture-hall--${section}`]}>
+  <nav class="culture-hall__nav" aria-label="축디 편집관">
+    <a href="/culture/">축디 전체</a>
+    {(Object.keys(cultureSections) as CultureSection[]).map((key) => (
+      <a href={getCultureSectionPath(key)} aria-current={key === section ? 'page' : undefined}>
+        <small>{cultureSections[key].floor}F</small>{cultureSections[key].label}
+      </a>
+    ))}
+  </nav>
+
+  <header class="culture-hall__head">
+    <p>{hall.eyebrow}</p>
+    <div><span>{hall.floor}<small>F</small></span><h1>{hall.label}</h1></div>
+    <strong>{hall.en}</strong>
+    <p>{hall.description}</p>
+  </header>
+
+  {lead ? (
+    <section class="culture-hall__lead" aria-label={`${hall.label} 대표 콘텐츠`}>
+      <a class="culture-hall__lead-image" href={getArticlePath(lead.data.category, lead.id)}>
+        {imageFor(lead) && <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} style={imageFocusStyle(imageFor(lead))} />}
+        <span>NOW SHOWING</span>
+      </a>
+      <div>
+        <p>{hall.floor}F · {hall.label}</p>
+        <h2><a href={getArticlePath(lead.data.category, lead.id)}>{lead.data.title}</a></h2>
+        <span>{lead.data.description}</span>
+        <a class="culture-hall__read" href={getArticlePath(lead.data.category, lead.id)}>콘텐츠 입장하기 <i aria-hidden="true">↗</i></a>
+      </div>
+    </section>
+  ) : <p class="culture-hall__empty">이 관의 첫 번째 편집물을 준비하고 있습니다.</p>}
+
+  {rest.length > 0 && (
+    <section class="culture-hall__stories" aria-labelledby="hall-stories-title">
+      <header><p>THE COLLECTION</p><h2 id="hall-stories-title">{hall.label}의 편집물</h2><span>{String(entries.length).padStart(2, '0')} STORIES</span></header>
+      <div>
+        {rest.map((entry, index) => (
+          <a href={getArticlePath(entry.data.category, entry.id)}>
+            <figure>
+              {imageFor(entry) && <img src={imageFor(entry)} alt="" loading="lazy" style={imageFocusStyle(imageFor(entry))} />}
+              <span>{String(index + 1).padStart(2, '0')}</span>
+            </figure>
+            <p>{hall.floor}F · {hall.label}</p>
+            <h3>{entry.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</main>
+
+<style>
+  .culture-hall{--hall-accent:#246bfd;--hall-soft:#edf4ff;max-width:1180px;margin:0 auto;padding:28px 20px 76px}.culture-hall--boutique{--hall-accent:#aa7a20;--hall-soft:#f7f1e5}.culture-hall--kit{--hall-accent:#194c9d;--hall-soft:#eaf2ff}.culture-hall__nav{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:36px}.culture-hall__nav a{display:flex;align-items:center;gap:7px;padding:9px 13px;border:1px solid var(--bbfc-border);border-radius:999px;color:var(--bbfc-gray-1);font-size:12px;transition:.2s ease}.culture-hall__nav a small{color:var(--hall-accent);font-size:9px;font-weight:800;letter-spacing:.08em}.culture-hall__nav a:hover,.culture-hall__nav a:focus-visible,.culture-hall__nav a[aria-current=page]{border-color:var(--hall-accent);background:var(--hall-accent);color:#fff;outline:none}.culture-hall__nav a[aria-current=page] small{color:#fff}.culture-hall__head{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.55fr);align-items:end;gap:8px 50px;padding:0 0 28px;border-bottom:3px solid var(--bbfc-ink)}.culture-hall__head>p:first-child{grid-column:1/-1;color:var(--hall-accent);font-size:9px;font-weight:800;letter-spacing:.18em}.culture-hall__head>div{display:flex;align-items:end;gap:20px}.culture-hall__head>div>span{color:var(--hall-accent);font-size:clamp(52px,7vw,88px);font-weight:350;line-height:.75;letter-spacing:-.07em}.culture-hall__head>div>span small{margin-left:5px;font-size:13px;font-weight:800;letter-spacing:0}.culture-hall__head h1{font-size:clamp(38px,5vw,66px);font-weight:800;line-height:.9;letter-spacing:-.065em}.culture-hall__head strong{justify-self:end;font-size:12px;letter-spacing:.08em}.culture-hall__head>p:last-child{grid-column:1/-1;max-width:720px;margin-top:17px;color:var(--bbfc-gray-1);font-size:14px;line-height:1.75}.culture-hall__lead{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.7fr);margin-top:34px;border:1px solid var(--bbfc-border)}.culture-hall__lead-image{position:relative;display:block;aspect-ratio:1/1;overflow:hidden;background:var(--bbfc-fill)}.culture-hall__lead-image img{width:100%;height:100%;object-fit:cover;transition:transform .45s ease}.culture-hall__lead-image:hover img{transform:scale(1.015)}.culture-hall__lead-image>span{position:absolute;top:17px;left:17px;padding:7px 9px;background:var(--hall-accent);color:#fff;font-size:8px;font-weight:800;letter-spacing:.14em}.culture-hall__lead>div{display:flex;flex-direction:column;justify-content:center;padding:40px 34px;background:var(--hall-soft)}.culture-hall__lead>div>p,.culture-hall__stories a>p{color:var(--hall-accent);font-size:9px;font-weight:800;letter-spacing:.13em}.culture-hall__lead h2{margin-top:13px;font-size:clamp(28px,3.3vw,45px);font-weight:760;line-height:1.14;letter-spacing:-.045em;text-wrap:balance}.culture-hall__lead>div>span{margin-top:17px;color:var(--bbfc-gray-1);font-size:13px;line-height:1.72}.culture-hall__read{display:flex;align-items:center;justify-content:space-between;margin-top:29px;padding:14px 15px;border:1px solid var(--hall-accent);background:var(--hall-accent);color:#fff;font-size:13px;font-weight:750}.culture-hall__read i{font-size:17px;font-style:normal;transition:transform .2s ease}.culture-hall__read:hover i{transform:rotate(45deg)}.culture-hall__stories{margin-top:54px}.culture-hall__stories>header{display:flex;align-items:baseline;gap:12px;padding-bottom:13px;border-bottom:1px solid var(--bbfc-ink)}.culture-hall__stories>header p{color:var(--hall-accent);font-size:9px;font-weight:800;letter-spacing:.15em}.culture-hall__stories>header h2{font-size:22px}.culture-hall__stories>header span{margin-left:auto;color:var(--bbfc-gray-2);font-size:9px;letter-spacing:.12em}.culture-hall__stories>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:27px 18px;margin-top:20px}.culture-hall__stories figure{position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--bbfc-fill)}.culture-hall__stories img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}.culture-hall__stories a:hover img{transform:scale(1.02)}.culture-hall__stories figure span{position:absolute;right:9px;bottom:8px;color:#fff;font-size:11px;font-weight:800;text-shadow:0 1px 8px #000}.culture-hall__stories a>p{margin-top:11px}.culture-hall__stories h3{margin-top:5px;font-size:16px;line-height:1.4;font-weight:650;letter-spacing:-.02em}.culture-hall__empty{padding:80px 0;color:var(--bbfc-gray-2);text-align:center}
+  @media(max-width:820px){.culture-hall__head{grid-template-columns:1fr}.culture-hall__head strong{justify-self:start}.culture-hall__lead{grid-template-columns:1fr}.culture-hall__stories>div{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:560px){.culture-hall{padding:22px 16px 58px}.culture-hall__nav{margin-bottom:29px}.culture-hall__nav a{padding:8px 10px;font-size:11px}.culture-hall__head>div{gap:13px}.culture-hall__head>div>span{font-size:52px}.culture-hall__head h1{font-size:40px}.culture-hall__lead>div{padding:25px 20px}.culture-hall__lead h2{font-size:29px}.culture-hall__stories>div{gap:24px 10px}.culture-hall__stories h3{font-size:13.5px}}
+  @media(prefers-reduced-motion:reduce){.culture-hall *{transition:none!important}}
+</style>

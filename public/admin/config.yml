@@ -54,6 +54,15 @@ collections:
         value_field: 'categories.*.slug'
         search_fields: ['categories.*.label', 'categories.*.slug']
         display_fields: ['categories.*.label']
+      - label: 축디 편집관
+        name: cultureSection
+        widget: select
+        required: false
+        hint: '카테고리가 축디일 때만 선택합니다. 글 주소는 바뀌지 않습니다.'
+        options:
+          - { label: '2F 명품관', value: boutique }
+          - { label: '3F 오뭐입?', value: outfit }
+          - { label: '3F 유니폼관', value: kit }
       - { label: 태그, name: tags, widget: list, default: [] }
       - { label: 발행일, name: pubDate, widget: datetime }
       - { label: 수정일, name: updatedDate, widget: datetime, required: false }

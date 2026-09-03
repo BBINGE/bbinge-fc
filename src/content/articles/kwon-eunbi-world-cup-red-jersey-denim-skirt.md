@@ -2,6 +2,7 @@
 title: '권은비 월드컵 축구 패션: 빨간 유니폼과 데님 미니스커트'
 description: '권은비가 2026 월드컵에서 입은 빨간 코카콜라 유니폼, 아디다스 크롭 저지와 데님 미니스커트, 공항의 흰 크롭 티와 와이드 데님을 사진과 영상으로 살펴본다.'
 category: 'culture'
+cultureSection: 'outfit'
 tags: ['권은비', '권은비 월드컵', '코카콜라 유니폼', '아디다스 코카콜라', '크롭 저지', '데님 미니스커트', '공항 패션', '축구 패션']
 pubDate: 2026-08-31T20:25:00+09:00
 coverImage: '/images/culture/kwon-eunbi-world-cup/cover.webp'

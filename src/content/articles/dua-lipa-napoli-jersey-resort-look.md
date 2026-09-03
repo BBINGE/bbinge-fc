@@ -2,6 +2,7 @@
 title: '두아 리파의 나폴리 유니폼, 축구 셔츠가 휴양지의 옷이 된 순간'
 description: '두아 리파가 입은 SSC 나폴리 2023-24 홈 유니폼을 통해 스쿠데토 셔츠의 디자인과 하늘색·흰색·금색으로 완성한 이탈리아 휴양지 스타일을 읽는다.'
 category: 'culture'
+cultureSection: 'outfit'
 tags: ['두아 리파', 'SSC 나폴리', '나폴리 유니폼', '축구 패션', '블록코어룩', '휴양지 패션']
 pubDate: 2026-08-25T22:13:23+09:00
 coverImage: '/images/culture/dua-lipa-napoli-shirt-cover.webp'

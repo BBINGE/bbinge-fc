@@ -4,6 +4,7 @@ import { validateCatalog } from './affiliate-products-lib.mjs';
 const product = {
   id: 'shop-item-1',
   label: '테스트 상품',
+  department: 'outfit',
   network: 'adpick',
   merchant: 'Example Shop',
   affiliateUrl: 'https://example.com/link',

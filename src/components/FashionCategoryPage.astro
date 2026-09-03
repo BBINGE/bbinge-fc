@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { getArticlePath } from '../config/categories';
 import { imageFocusStyle } from '../utils/imageFocus';
+import { cultureSections, getCultureSectionPath, type CultureSection } from '../config/culture';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -12,6 +13,12 @@ const { entries, description } = Astro.props;
 const [lead, ...rest] = entries;
 const edit = rest;
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const halls = (Object.keys(cultureSections) as CultureSection[]).map((key) => ({
+  key,
+  ...cultureSections[key],
+  entries: entries.filter((entry) => entry.data.cultureSection === key),
+}));
+const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSection ? cultureSections[entry.data.cultureSection] : null;
 ---
 
 <div class="fashion-index">
@@ -25,11 +32,33 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
 
   {description && <p class="fashion-index__note">{description}</p>}
 
+  <section class="fashion-halls" aria-labelledby="fashion-halls-title">
+    <div class="fashion-section-title"><p>DEPARTMENT DIRECTORY</p><h2 id="fashion-halls-title">축디의 세 편집관</h2><span>02–03F</span></div>
+    <div class="fashion-halls__grid">
+      {halls.map((hall) => {
+        const hallLead = hall.entries[0];
+        return (
+          <a class:list={['fashion-hall', `fashion-hall--${hall.key}`]} href={getCultureSectionPath(hall.key)}>
+            <div class="fashion-hall__media">
+              {hallLead && imageFor(hallLead) && <img src={imageFor(hallLead)} alt="" loading="lazy" style={imageFocusStyle(imageFor(hallLead))} />}
+              <span>{String(hall.entries.length).padStart(2,'0')} STORIES</span>
+            </div>
+            <div class="fashion-hall__copy">
+              <span>{hall.floor}<small>F</small></span>
+              <div><p>{hall.en}</p><h3>{hall.label}</h3><small>{hall.description}</small></div>
+              <i aria-hidden="true">↗</i>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
   {lead ? (
     <section class="fashion-cover" aria-labelledby="fashion-cover-title">
       <a class="fashion-cover__image" href={getArticlePath(lead.data.category, lead.id)}>
         {imageFor(lead) && <img src={imageFor(lead)} alt={lead.data.coverImageAlt ?? ''} style={imageFocusStyle(imageFor(lead))} />}
-        <span>LATEST ISSUE</span>
+        <span>{hallFor(lead) ? `${hallFor(lead)!.floor}F · ${hallFor(lead)!.label}` : 'LATEST ISSUE'}</span>
       </a>
       <div class="fashion-cover__copy">
         <p>THE COVER STORY · {lead.data.pubDate.toLocaleDateString('ko-KR')}</p>
@@ -53,7 +82,7 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
               {imageFor(entry) && <img src={imageFor(entry)} alt="" loading="lazy" style={imageFocusStyle(imageFor(entry))} />}
               <span>{String(index + 1).padStart(2,'0')}</span>
             </div>
-            <p>STYLE FILE</p>
+            <p>{hallFor(entry) ? `${hallFor(entry)!.floor}F · ${hallFor(entry)!.label}` : 'STYLE FILE'}</p>
             <h3>{entry.data.title}</h3>
           </a>
         ))}
@@ -72,6 +101,25 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   .fashion-index__manifesto strong { font-size:16px; line-height:1.05; letter-spacing:.02em; }
   .fashion-index__manifesto span { margin-top:8px; color:var(--bbfc-gray-2); font-size:11px; }
   .fashion-index__note { width:100%; max-width:none; margin:19px 0 30px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; text-wrap:pretty; }
+  .fashion-halls { margin:0 0 58px; }
+  .fashion-halls__grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:18px; }
+  .fashion-hall { --hall-accent:#246bfd; display:block; border:1px solid var(--bbfc-border); background:#fff; transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease; }
+  .fashion-hall--boutique { --hall-accent:#aa7a20; }
+  .fashion-hall--kit { --hall-accent:#194c9d; }
+  .fashion-hall:hover,.fashion-hall:focus-visible { border-color:var(--hall-accent); outline:none; transform:translateY(-4px); box-shadow:0 18px 34px -28px rgba(20,28,40,.8); }
+  .fashion-hall__media { position:relative; aspect-ratio:1.38/1; overflow:hidden; background:var(--bbfc-fill); }
+  .fashion-hall__media::after { content:""; position:absolute; inset:0; background:linear-gradient(transparent 50%,rgba(0,0,0,.5)); }
+  .fashion-hall__media img { width:100%;height:100%;object-fit:cover;transition:transform .45s ease; }
+  .fashion-hall:hover .fashion-hall__media img { transform:scale(1.025); }
+  .fashion-hall__media>span { position:absolute;z-index:1;right:10px;bottom:9px;color:#fff;font-size:8px;font-weight:750;letter-spacing:.12em; }
+  .fashion-hall__copy { display:grid;grid-template-columns:auto minmax(0,1fr) 28px;align-items:center;gap:13px;padding:17px 15px; }
+  .fashion-hall__copy>span { color:var(--hall-accent);font-size:32px;font-weight:420;letter-spacing:-.06em; }
+  .fashion-hall__copy>span small { margin-left:3px;font-size:9px;font-weight:800;letter-spacing:0; }
+  .fashion-hall__copy p { color:var(--hall-accent);font-size:7px;font-weight:800;letter-spacing:.1em; }
+  .fashion-hall__copy h3 { margin-top:3px;font-size:18px;font-weight:750;letter-spacing:-.03em; }
+  .fashion-hall__copy div>small { display:block;margin-top:7px;color:var(--bbfc-gray-2);font-size:10px;line-height:1.45; }
+  .fashion-hall__copy>i { display:grid;width:28px;height:28px;place-items:center;border:1px solid var(--hall-accent);border-radius:50%;color:var(--hall-accent);font-size:13px;font-style:normal;transition:.25s ease; }
+  .fashion-hall:hover .fashion-hall__copy>i { background:var(--hall-accent);color:#fff;transform:rotate(45deg); }
   .fashion-cover { display:grid; grid-template-columns:minmax(0,1fr) minmax(290px,.58fr); border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
   .fashion-cover__image { position:relative; display:block; aspect-ratio:1/1; overflow:hidden; background:var(--bbfc-fill); }
   .fashion-cover__image img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
@@ -108,6 +156,9 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
   .fashion-edit__story h3 { margin-top:5px; font-size:16px; line-height:1.4; font-weight:650; letter-spacing:-.02em; }
   .fashion-index__empty { padding:70px 0; text-align:center; color:var(--bbfc-gray-2); }
   @media (max-width:820px) {
+    .fashion-halls__grid { grid-template-columns:1fr; }
+    .fashion-hall { display:grid;grid-template-columns:minmax(180px,.62fr) 1fr; }
+    .fashion-hall__media { aspect-ratio:1.4/1; }
     .fashion-cover { grid-template-columns:1fr; }
     .fashion-cover__image { aspect-ratio:1/1; }
     .fashion-cover__copy { padding:30px 26px; }
@@ -120,6 +171,13 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
     .fashion-index__manifesto span { display:none; }
     .fashion-index__manifesto strong { font-size:11px; }
     .fashion-index__note { margin-bottom:24px; font-size:12.5px; }
+    .fashion-halls { margin-bottom:45px; }
+    .fashion-hall { grid-template-columns:118px minmax(0,1fr); }
+    .fashion-hall__media { aspect-ratio:auto;min-height:142px; }
+    .fashion-hall__copy { grid-template-columns:auto minmax(0,1fr) 26px;gap:9px;padding:13px 10px; }
+    .fashion-hall__copy>span { font-size:26px; }
+    .fashion-hall__copy h3 { font-size:16px; }
+    .fashion-hall__copy div>small { font-size:9px;line-height:1.35; }
     .fashion-cover__image { aspect-ratio:1/1; }
     .fashion-cover__copy { padding:25px 20px 24px; }
     .fashion-cover__copy h2 { font-size:29px; }

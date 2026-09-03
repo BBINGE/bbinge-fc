@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import CultureHallPage from '../../../components/CultureHallPage.astro';
+import { cultureSections } from '../../../config/culture';
+
+const section = 'kit';
+const hall = cultureSections[section];
+const entries = (await getCollection('articles', ({ data }) => !data.draft && data.category === 'culture' && data.cultureSection === section)).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<Layout title={`${hall.label} | 축디`} description={hall.description} adsEligible={false} breadcrumbs={[{label:'홈',href:'/'},{label:'축디',href:'/culture/'},{label:hall.label,href:'/culture/kits/'}]}>
+  <CultureHallPage {entries} {section} />
+</Layout>

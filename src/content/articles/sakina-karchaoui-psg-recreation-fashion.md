@@ -2,6 +2,7 @@
 title: '사키나 카르샤위 패션: 고딕 아머로 바뀐 PSG 유니폼'
 description: '사키나 카르샤위가 입은 PSG × Nike Re-Creation 컬렉션을 통해 오래된 유니폼과 스포츠웨어가 패딩, 고딕 레터링, 타이거 자수로 다시 조립되는 과정을 읽는다.'
 category: 'culture'
+cultureSection: 'boutique'
 tags: ['사키나 카르샤위', 'Sakina Karchaoui', 'PSG 페미닌', 'Nike Re-Creation', 'Courtney McWilliams', '여자축구 패션', '업사이클링 패션']
 pubDate: 2026-08-26T18:11:05+09:00
 coverImage: '/images/culture/sakina-karchaoui-psg-recreation/sakina-karchaoui-psg-cover.webp'

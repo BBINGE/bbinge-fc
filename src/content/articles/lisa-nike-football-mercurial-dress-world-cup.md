@@ -2,6 +2,7 @@
 title: '리사 나이키 축구 패션: 2026 월드컵 캠페인과 머큐리얼 드레스'
 description: '블랙핑크 리사가 Nike Football의 2026 캠페인에서 입은 머큐리얼 베이퍼 17 축구화 드레스를 갑피, 끈, 밑창과 스커트 디테일, 공식 영상으로 살펴본다.'
 category: 'culture'
+cultureSection: 'boutique'
 tags: ['리사', '블랙핑크 리사', '나이키 축구', '머큐리얼 베이퍼 17', '축구화 드레스', '2026 월드컵', '축구 패션', '블록코어']
 pubDate: 2026-08-31T19:10:00+09:00
 coverImage: '/images/culture/lisa-nike-football/cover.webp'

@@ -78,12 +78,14 @@ export function validateCatalog(catalog, usage) {
   const warnings = [];
   const ids = new Set();
   const activeStatuses = new Set(['active', 'paused', 'retired']);
+  const departments = new Set(['luxury', 'outfit', 'uniform']);
 
   for (const product of catalog.products) {
     const prefix = product?.id ? `[${product.id}]` : '[ID 없음]';
     if (!/^[a-z0-9][a-z0-9-]*$/.test(product?.id ?? '')) errors.push(`${prefix} id는 소문자 kebab-case여야 합니다.`);
     if (ids.has(product?.id)) errors.push(`${prefix} id가 중복됐습니다.`);
     ids.add(product?.id);
+    if (!departments.has(product?.department)) errors.push(`${prefix} department는 luxury, outfit, uniform 중 하나여야 합니다.`);
     for (const field of ['label', 'network', 'merchant', 'affiliateUrl', 'merchantUrl', 'merchantHost', 'productCode', 'status']) {
       if (typeof product?.[field] !== 'string' || !product[field].trim()) errors.push(`${prefix} ${field} 값이 필요합니다.`);
     }

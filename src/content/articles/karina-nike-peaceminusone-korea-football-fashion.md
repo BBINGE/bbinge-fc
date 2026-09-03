@@ -2,6 +2,7 @@
 title: '카리나 축구 유니폼 패션: 나이키 × 피스마이너스원 대한민국 컬렉션'
 description: '에스파 카리나가 입은 나이키 × 피스마이너스원 × KFA 대한민국 축구 컬렉션을 통해 빨간 톱과 검정 재킷, 데이지, 호랑이 문양, 크라이오샷 CTR360의 연결을 읽는다.'
 category: 'culture'
+cultureSection: 'boutique'
 tags: ['카리나', '에스파', '나이키 피스마이너스원', '대한민국 축구 유니폼', 'KFA', 'One Pulse', '축구 패션', '블록코어']
 pubDate: 2026-08-31T11:18:00+09:00
 coverImage: '/images/culture/karina-one-pulse/cover.jpg'

@@ -2,6 +2,7 @@
 title: 'FC 바르셀로나 2026/27 보라색 어웨이 유니폼: 키카 나자레스와 나이키 코비'
 description: '키카 나자레스가 입은 FC 바르셀로나 2026/27 나이키 코비 어웨이 유니폼의 보라색 그라데이션, 맘바 텍스처와 일상에서 입기 좋은 여성용 티셔츠까지 살펴본다.'
 category: 'culture'
+cultureSection: 'kit'
 tags: ['키카 나자레스', 'FC 바르셀로나 여성팀', '바르셀로나 유니폼', '2026 27 바르셀로나 어웨이', '보라색 유니폼', '나이키 코비', '여자 축구선수 패션', '블록코어']
 pubDate: 2026-09-02T20:52:00+09:00
 coverImage: '/images/culture/kika-nazareth-barcelona-kobe/cover.webp'

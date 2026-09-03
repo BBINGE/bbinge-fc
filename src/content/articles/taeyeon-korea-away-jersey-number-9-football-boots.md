@@ -2,6 +2,7 @@
 title: '태연 대한민국 축구 유니폼: 보라색 어웨이 9번과 축구화'
 description: '태연이 입은 2026 대한민국 축구대표팀 보라색 어웨이 유니폼을 무궁화 패턴, TAEYEON 9 마킹, 검정 쇼츠와 파랑·분홍 축구화, 공식 풋살 영상으로 살펴본다.'
 category: 'culture'
+cultureSection: 'kit'
 tags: ['태연', '대한민국 축구 유니폼', '국가대표 유니폼', '2026 대한민국 어웨이', '보라색 유니폼', '축구화', '축구 패션', '블록코어']
 pubDate: 2026-08-31T17:20:00+09:00
 coverImage: '/images/culture/taeyeon-korea-away-jersey/cover.webp'

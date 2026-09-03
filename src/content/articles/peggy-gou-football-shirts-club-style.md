@@ -2,6 +2,7 @@
 title: '페기 구의 축구 셔츠 스타일: 저지에 버킨과 샤넬을 붙이는 감각'
 description: '페기 구가 마틴 로즈 풋볼 셔츠, 유벤투스 마킹 저지와 Kappa 톱을 버킨·샤넬·테일러드 팬츠에 섞는 방식에서 클럽 문화의 패션 문법을 읽는다.'
 category: 'culture'
+cultureSection: 'boutique'
 tags: ['페기 구', 'Peggy Gou', '마틴 로즈', '유벤투스', 'Kappa', '축구 셔츠', '클럽 패션', '블록코어']
 pubDate: 2026-08-26T12:45:12+09:00
 coverImage: '/images/culture/peggy-gou-football-shirt-style/cover.webp'

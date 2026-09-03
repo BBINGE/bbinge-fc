@@ -2,6 +2,7 @@
 title: '알레시아 루소 패션: 축구선수의 체격을 숨기지 않는 테일러링'
 description: '알레시아 루소의 Wonderland 2023 화보를 통해 재킷과 타이, 데님과 드레스가 축구선수의 몸을 감추지 않고 패션의 실루엣으로 바꾸는 방식을 읽는다.'
 category: 'culture'
+cultureSection: 'boutique'
 tags: ['알레시아 루소', '아스널 여자축구', '잉글랜드 여자축구', '축구선수 패션', '테일러링', 'Wonderland']
 pubDate: 2026-08-26T15:23:18+09:00
 coverImage: '/images/culture/alessia-russo-tailoring-cover.webp'

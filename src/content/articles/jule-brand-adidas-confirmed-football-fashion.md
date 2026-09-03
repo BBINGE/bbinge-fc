@@ -2,6 +2,7 @@
 title: '율레 브란트 패션: 트랙수트에 레이스와 니트를 겹치는 법'
 description: '율레 브란트와 adidas CONFIRMED가 리옹에서 완성한 세 가지 룩을 통해 삼선 트랙수트, 축구 니트, 레이스를 한 벌로 연결하는 방식을 읽는다.'
 category: 'culture'
+cultureSection: 'outfit'
 tags: ['율레 브란트', 'Jule Brand', 'adidas CONFIRMED', '아디다스 오리지널스', '여자축구 패션', '트랙수트', 'OL 리오네스']
 pubDate: 2026-08-26T16:39:39+09:00
 coverImage: '/images/culture/jule-brand-adidas-confirmed/jule-brand-adidas-confirmed-cover.webp'

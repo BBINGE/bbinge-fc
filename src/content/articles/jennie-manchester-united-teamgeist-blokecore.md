@@ -2,6 +2,7 @@
 title: '제니 맨유 유니폼 패션: 팀가이스트를 블록코어로 입는 법'
 description: 'BLACKPINK 제니가 Pink Venom에서 입은 맨체스터 유나이티드 팀가이스트 프리매치 저지를 통해 검정·빨강·진주로 완성한 블록코어 스타일을 읽는다.'
 category: 'culture'
+cultureSection: 'boutique'
 tags: ['제니', 'BLACKPINK', '맨체스터 유나이티드', '팀가이스트', 'Teamgeist', '블록코어', '축구 패션', 'Pink Venom']
 pubDate: 2026-08-26T02:41:00+09:00
 updatedDate: 2026-08-26T11:00:00+09:00
