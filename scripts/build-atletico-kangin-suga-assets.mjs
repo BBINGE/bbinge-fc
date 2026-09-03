@@ -15,6 +15,7 @@ const sources = {
   nike: 'https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/54ba756f-bd72-476a-b3c1-2d71e6eb4ae3/ATM+M+NK+DF+JSY+SS+STAD+HM.png',
   stadiumProduct: 'https://shop.atleticodemadrid.com/on/demandware.static/-/Sites-atm-master-catalog/default/dw24332f3d/New%20Folder/II1893-101.jpg',
   matchProduct: 'https://shop.atleticodemadrid.com/on/demandware.static/-/Sites-atm-master-catalog/default/dw59595213/II2740-101.jpg',
+  metropolitano: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Estadio_Metropolitano_(Madrid)_(32023160248).jpg',
 };
 
 async function fetchBuffer(url) {
@@ -91,3 +92,8 @@ await sharp(buffers.matchProduct)
   .resize(1000, 1000, { fit: 'contain', background: '#f2f2f2' })
   .webp({ quality: 89 })
   .toFile(path.join(outDir, 'product-match.webp'));
+
+await sharp(buffers.metropolitano)
+  .resize(1800, 1100, { fit: 'cover', position: 'centre' })
+  .webp({ quality: 90 })
+  .toFile(path.join(outDir, 'metropolitano-background.webp'));

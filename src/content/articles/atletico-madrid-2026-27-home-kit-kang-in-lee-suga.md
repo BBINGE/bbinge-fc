@@ -54,7 +54,7 @@ fashionProfile:
   <div><b>NEPTUNO</b><strong>삼지창의 반복</strong><span>빨간 줄무늬 안에 숨겨 놓은 마드리드의 표식</span></div>
 </div>
 
-## BTS 슈가가 먼저 입은 2026/27 홈 셔츠
+## BTS 슈가가 먼저 입은 홈 셔츠부터 볼까요?
 
 아틀레티코의 공식 발표는 6월 29일이었지만, 셔츠는 이틀 전 BTS의 마드리드 공연에서 먼저 포착됐다. 슈가는 6월 27일 열린 두 번째 공연에서 아직 출시되지 않은 홈 유니폼을 입었다. 구단도 공식 소셜 계정으로 그의 착장을 즉시 받아 올렸다. 축구 클럽의 신제품이 선수나 캠페인 모델보다 팝 스타의 스타디움 무대에서 먼저 공개된 셈이다.
 
@@ -66,7 +66,7 @@ fashionProfile:
   <p>몸에 맞는 축구 셔츠 위에 액세서리를 집중하고 넓은 팬츠를 연결했다. 유니폼을 일상복으로 옮길 때 가장 따라 하기 쉬운 방식이기도 하다.</p>
 </aside>
 
-## 킥오프 전에 태어난 셔츠의 철학
+## ‘킥오프 전에 태어난 셔츠’는 무슨 뜻일까요?
 
 <figure class="ak-wide">
   <img src="/images/culture/atletico-kangin-suga-home-kit/shirt-detail.webp" alt="네이비 V넥과 삼지창 무늬가 보이는 아틀레티코 마드리드 2026/27 홈 유니폼 상반신" width="1500" height="1000" loading="lazy" decoding="async" />
@@ -85,7 +85,7 @@ fashionProfile:
   <article><span>MOVEMENT</span><h3>네이비로 몸의 경계를 잡는다</h3><p>V넥과 소매, 쇼츠와 양말의 네이비가 줄무늬를 경기복의 한 실루엣으로 묶는다.</p></article>
 </section>
 
-## 이강인의 이름이 셔츠를 한국의 현재형으로 바꿨다
+## 이강인의 이름이 셔츠를 한국의 현재형으로 바꿨어요
 
 <div class="ak-kangin-grid">
   <figure>
@@ -113,7 +113,7 @@ fashionProfile:
 
 8월 19일 말라가와의 라리가 개막전, 이강인은 후반에 교체로 들어간 뒤 오른쪽에서 중앙으로 파고들어 왼발 슈팅으로 선제골을 넣었다. 입단 사진에서는 줄무늬가 인물의 정면을 반듯하게 세웠다면, 득점 장면에서는 세로선이 달리는 몸을 따라 휘어진다. 삼지창에 붙인 ‘힘과 승리’라는 설명도 이때 비로소 제품 문구가 아니라 선수의 장면으로 읽힌다.
 
-## 무대 밖에서는 이렇게 입을 수 있다
+## 경기장 밖에서는 이렇게 입어볼까요?
 
 <div class="ak-look-grid">
   <figure>
@@ -126,9 +126,10 @@ fashionProfile:
     <p>이 셔츠는 줄무늬와 가슴의 스폰서만으로 이미 정보량이 많다. 검정 긴소매와 모자처럼 바깥 색을 네이비·검정 계열로 잠그면 셔츠가 주인공으로 남는다.</p>
     <p>슈가처럼 베이지 팬츠를 붙이면 경기장보다 공연과 거리 쪽으로 기울고, 짙은 데님이나 검정 팬츠를 고르면 가장 단순한 블록코어가 된다. 핵심은 액세서리를 여러 곳에 흩뜨리지 않고 목선이나 모자 한곳에 집중하는 것이다.</p>
   </div>
+  <span class="ak-look-grid__credit">Wanda Metropolitano, 2018 · Photo: Nicolas Vigier / CC0</span>
 </div>
 
-## 성인용 홈 셔츠는 어디서 확인할까
+## 성인용 홈 셔츠는 여기서 확인할 수 있어요
 
 나이키 코리아 검색 결과에는 현재 성인용 2026/27 홈 셔츠가 보이지 않는다. 해외 공식 판매처에서 확인되는 성인용은 두 가지다. 스타디움 셔츠 `II1893-101`은 레플리카 디테일과 땀을 배출하는 Dri-FIT을 사용한다. 매치 셔츠 `II2740-101`은 선수가 입는 디자인 사양과 통기성을 강화한 Aero-FIT을 사용한다.
 
@@ -178,6 +179,7 @@ fashionProfile:
     <li><a href="https://cadenaser.com/nacional/2026/06/28/nadie-lo-esperaba-bts-presenta-la-nueva-camiseta-del-atletico-de-madrid-antes-que-el-propio-club-cadena-ser/">Cadena SER, “BTS presenta la nueva camiseta del Atlético de Madrid”</a>, 2026년 6월 28일. 슈가의 공식 발표 전 유니폼 착장 확인.</li>
     <li><a href="https://www.vogue.co.kr/2023/08/18/%EC%B6%95%EA%B5%AC-%EC%84%A0%EC%88%98-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%8A%A4%ED%83%80-%EC%9D%B4%EA%B0%95%EC%9D%B8/">Vogue Korea, “축구 선수 그리고 스포츠 ‘스타’, 이강인”</a>, 2023년 8월 18일. 이강인의 첫 패션 화보와 프로필 카드 이미지.</li>
     <li><a href="https://www.starnewskorea.com/en/sports/2026/08/06/2026080605594789044">STARNEWS, Kang-in Lee Atlético portrait</a>, 2026년 8월 6일. 알레띠 유니폼 인물 사진 출처.</li>
+    <li><a href="https://commons.wikimedia.org/wiki/File:Estadio_Metropolitano_(Madrid)_(32023160248).jpg">Nicolas Vigier, “Estadio Metropolitano (Madrid)”</a>, 2018년 11월 15일, CC0. 착장 카드 배경 사진.</li>
   </ol>
 </section>
 
@@ -207,11 +209,17 @@ fashionProfile:
   .ak-kangin-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 62px; transform:translateX(-50%); }
   .ak-kangin-grid figure { min-width:0; margin:0; }
   .ak-kangin-grid img { aspect-ratio:4/5; object-fit:cover; object-position:center top; }
-  .ak-look-grid { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr); gap:clamp(1.6rem,4vw,3.8rem); align-items:center; width:min(1040px,calc(100vw - 32px)); margin:42px 0 66px; padding:clamp(1rem,3vw,2.3rem); border-radius:var(--bbfc-radius-lg); background:linear-gradient(135deg,#08142a,#193963); color:#fff; transform:translateX(-50%); box-shadow:0 22px 52px rgba(9,27,55,.18); }
+  .ak-look-grid { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr); gap:clamp(1.6rem,4vw,3.8rem); align-items:center; width:min(1040px,calc(100vw - 32px)); margin:42px 0 66px; padding:clamp(1rem,3vw,2.3rem); overflow:hidden; border:1px solid rgba(255,255,255,.28); border-top:6px solid #c8102e; border-radius:var(--bbfc-radius-lg); background:#0a1a36; color:#fff; transform:translateX(-50%); isolation:isolate; box-shadow:inset 0 3px 0 #f6f0e7,0 22px 52px rgba(9,27,55,.24); }
+  .ak-look-grid::before { position:absolute; z-index:-2; inset:0; background:url('/images/culture/atletico-kangin-suga-home-kit/metropolitano-background.webp') center 48%/cover no-repeat; content:""; opacity:.58; transform:scale(1.025); transition:transform .8s ease; }
+  .ak-look-grid::after { position:absolute; z-index:-1; inset:0; background:linear-gradient(108deg,rgba(5,17,38,.82) 0%,rgba(9,30,59,.76) 53%,rgba(126,12,31,.72) 100%); content:""; }
+  .ak-look-grid:hover::before { transform:scale(1.065); }
   .ak-look-grid figure { margin:0; }
-  .ak-look-grid figcaption { color:#abb7ca; }
+  .ak-look-grid figure img { border:2px solid rgba(255,247,232,.9); box-shadow:0 18px 38px rgba(2,10,24,.34); }
+  .ak-look-grid figcaption { color:rgba(255,255,255,.76); }
+  .ak-look-grid .ak-kicker { color:#ff7281; }
   .article-body .ak-look-grid h3 { margin:.8rem 0 1.2rem; color:#fff; font-size:clamp(1.45rem,2.6vw,2.2rem); line-height:1.25; letter-spacing:-.035em; }
-  .ak-look-grid p { color:#d8dfea; }
+  .ak-look-grid p { color:rgba(255,255,255,.88); text-shadow:0 1px 12px rgba(2,8,20,.44); }
+  .ak-look-grid__credit { position:absolute; right:14px; bottom:10px; color:rgba(255,255,255,.48); font-size:9px; font-weight:650; letter-spacing:.025em; }
   .ak-shop-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; width:min(1040px,calc(100vw - 32px)); margin:44px 0 18px; transform:translateX(-50%); }
   .ak-shop-card { display:grid; min-width:0; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); color:var(--bbfc-ink); text-decoration:none; cursor:pointer; grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr); transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease; }
   .ak-shop-card:hover { border-color:#c7192d; color:var(--bbfc-ink); transform:translateY(-6px); box-shadow:0 22px 46px rgba(104,16,30,.2); }
@@ -256,7 +264,9 @@ fashionProfile:
     .ak-manifesto article { padding:22px 21px 24px; }
     .ak-manifesto article+article { border-top:1px solid rgba(255,255,255,.16); border-left:0; }
     .ak-kangin-grid { gap:28px; }
-    .ak-look-grid { padding:1rem; }
+    .ak-look-grid { padding:1rem 1rem 2.25rem; }
+    .ak-look-grid::before { background-position:42% center; opacity:.48; }
+    .ak-look-grid::after { background:linear-gradient(180deg,rgba(5,17,38,.68) 0%,rgba(9,30,59,.84) 68%,rgba(126,12,31,.76) 100%); }
     .ak-shop-grid { gap:20px; }
     .ak-shop-card { width:min(470px,100%); margin-inline:auto; grid-template-columns:1fr; }
     .ak-shop-card img { min-height:0; aspect-ratio:1/1; }
@@ -275,8 +285,8 @@ fashionProfile:
     .ak-next__thumb { order:-1; border-width:0 0 1px; border-radius:0; box-shadow:none; }
   }
   @media (prefers-reduced-motion:reduce) {
-    .ak-shop-card,.ak-shop-card img,.ak-shop-card__cta b,.ak-next,.ak-next__wash,.ak-next__cta b,.ak-next__thumb img { transition:none; }
-    .ak-shop-card:hover,.ak-shop-card:hover img,.ak-shop-card:hover .ak-shop-card__cta b,.ak-next:hover,.ak-next:hover .ak-next__wash,.ak-next:hover .ak-next__cta b,.ak-next:hover .ak-next__thumb img { transform:none; }
+    .ak-look-grid::before,.ak-shop-card,.ak-shop-card img,.ak-shop-card__cta b,.ak-next,.ak-next__wash,.ak-next__cta b,.ak-next__thumb img { transition:none; }
+    .ak-look-grid:hover::before,.ak-shop-card:hover,.ak-shop-card:hover img,.ak-shop-card:hover .ak-shop-card__cta b,.ak-next:hover,.ak-next:hover .ak-next__wash,.ak-next:hover .ak-next__cta b,.ak-next:hover .ak-next__thumb img { transform:none; }
     .ak-next:hover::after { animation:none; }
   }
 </style>
