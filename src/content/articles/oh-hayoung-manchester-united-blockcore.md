@@ -17,6 +17,8 @@ fashionProfile:
   eyebrow: 'PROFILE · K-POP ARTIST'
   name: '오하영'
   romanName: 'OH HAYOUNG'
+  realName: '오하영'
+  hanjaName: '吳夏榮'
   portrait: '/images/culture/oh-hayoung-manchester-united-blockcore/profile-2026.webp'
   portraitAlt: '축구공 모양의 가방을 들고 필드 위에 선 오하영의 마이쉘 협업 화보'
   portraitCredit: 'MY SHELL · FIELD TO EVERYDAY, 2026 · Photo courtesy of MY SHELL'

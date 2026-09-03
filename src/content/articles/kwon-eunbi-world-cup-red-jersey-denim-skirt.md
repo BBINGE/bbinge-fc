@@ -17,6 +17,8 @@ fashionProfile:
   eyebrow: 'PROFILE · SOLO ARTIST'
   name: '권은비'
   romanName: 'KWON EUN BI'
+  realName: '권은비'
+  hanjaName: '權恩妃'
   portrait: '/images/culture/kwon-eunbi-world-cup/profile.webp'
   portraitAlt: '2025 워터밤 포토월 앞에서 빨간 체크 크롭 셔츠와 데님 쇼츠를 입은 권은비'
   portraitCredit: 'Photo: Kwon Eun-bi Instagram via Sports Kyunghyang · cropped'

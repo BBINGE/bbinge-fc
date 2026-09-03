@@ -17,6 +17,7 @@ fashionProfile:
   eyebrow: 'PROFILE · DJ & PRODUCER'
   name: '페기 구'
   romanName: 'Peggy Gou'
+  realName: '김민지'
   portrait: '/images/culture/peggy-gou-football-shirt-style/profile-vogue-hk.webp'
   portraitAlt: '흰 터틀넥을 입고 카메라를 바라보는 페기 구의 흑백 포트레이트'
   portraitCredit: 'Vogue Hong Kong · Photo © Maik Schuster, 2021'

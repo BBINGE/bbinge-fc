@@ -8,6 +8,7 @@ await mkdir(outDir, { recursive: true });
 const sources = {
   suga: 'https://pbs.twimg.com/media/HL3GtuaXEAA9b3O.jpg?name=orig',
   kangin: 'https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1600,fit=cover,q=high,sharpen=2/21/2026/08/2026080605594789044_1.jpg',
+  kanginVogue: 'https://img.vogue.co.kr/vogue/2023/08/style_64dd8bc9a76b6-1120x1400.jpg',
   kanginPoint: 'https://www.telemadrid.es/2026/08/04/noticias/internacional/_2913318761_56422342_1300x731.jpg',
   kanginGoal: 'https://www.telemadrid.es/2026/08/19/deportes/_2917818274_56546431_1300x731.jpg',
   kanginPresentation: 'https://pimg.mk.co.kr/news/cms/202608/18/news-p.v1.20260818.a7b49d71d8374e9faa328108f366c0c3_R.jpg',
@@ -49,6 +50,11 @@ await sharp(buffers.kangin)
   .resize({ width: 1200 })
   .webp({ quality: 89 })
   .toFile(path.join(outDir, 'kangin-portrait.webp'));
+
+await sharp(buffers.kanginVogue)
+  .resize(1120, 1400, { fit: 'cover', position: 'center' })
+  .webp({ quality: 90 })
+  .toFile(path.join(outDir, 'kangin-profile-vogue.webp'));
 
 await sharp(buffers.kanginPoint)
   .resize({ width: 1500, withoutEnlargement: true })

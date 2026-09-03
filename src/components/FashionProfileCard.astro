@@ -14,6 +14,8 @@ interface Profile {
   eyebrow: string;
   name: string;
   romanName?: string;
+  realName?: string;
+  hanjaName?: string;
   portrait: string;
   portraitAlt: string;
   portraitCredit?: string;
@@ -65,6 +67,13 @@ const birthLabel = (() => {
     <p class="fashion-profile__eyebrow">{profile.eyebrow}</p>
     <h2 id={titleId}>{profile.name}</h2>
     {profile.romanName && <p class="fashion-profile__roman" lang="en">{profile.romanName}</p>}
+    {(profile.realName || profile.hanjaName) && (
+      <p class="fashion-profile__identity">
+        {profile.realName && <><span>실명</span> {profile.realName}</>}
+        {profile.realName && profile.hanjaName && <i aria-hidden="true">·</i>}
+        {profile.hanjaName && <><span>한자</span> <b lang="zh-Hant">{profile.hanjaName}</b></>}
+      </p>
+    )}
     <dl>
       {birthLabel && <div><dt>출생</dt><dd>{birthLabel}</dd></div>}
       {profile.nationalities && profile.nationalities.length > 0 && (
@@ -99,13 +108,17 @@ const birthLabel = (() => {
 </section>
 
 <style>
-  .fashion-profile { display:grid; grid-template-columns:minmax(250px,.84fr) minmax(0,1.16fr); margin:18px 0 76px; overflow:hidden; border:1px solid var(--bbfc-border); border-top:4px solid var(--bbfc-blue); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); box-shadow:0 20px 50px -40px rgba(15,34,58,.75); }
+  .fashion-profile { display:grid; grid-template-columns:minmax(280px,.95fr) minmax(0,1.05fr); margin:18px 0 76px; overflow:hidden; border:1px solid var(--bbfc-border); border-top:4px solid var(--bbfc-blue); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); box-shadow:0 20px 50px -40px rgba(15,34,58,.75); }
   .fashion-profile__portrait { min-height:100%; background:var(--bbfc-ink); }
   .fashion-profile__portrait img { display:block; width:100%; height:100%; margin:0; border-radius:0; object-fit:cover; }
   .fashion-profile__body { align-self:center; padding:30px 32px 27px; }
   .fashion-profile__eyebrow { margin:0; color:var(--bbfc-blue); font-size:10px; line-height:1.4; font-weight:760; letter-spacing:.16em; }
   .fashion-profile h2 { margin:11px 0 0; padding:0; border:0; color:var(--bbfc-ink); font-size:32px; line-height:1.1; font-weight:780; letter-spacing:-.045em; }
   .fashion-profile__roman { margin:5px 0 23px; color:var(--bbfc-gray-2); font-size:13px; line-height:1.4; font-weight:620; letter-spacing:.04em; }
+  .fashion-profile__identity { display:flex; flex-wrap:wrap; align-items:center; gap:5px 8px; margin:-12px 0 22px; color:var(--bbfc-ink-2); font-size:12px; line-height:1.5; }
+  .fashion-profile__identity span { color:var(--bbfc-gray-2); font-size:10px; font-weight:720; letter-spacing:.08em; }
+  .fashion-profile__identity i { color:var(--bbfc-border-strong); font-style:normal; }
+  .fashion-profile__identity b { font-family:serif; font-size:13px; font-weight:650; letter-spacing:.05em; }
   .fashion-profile dl { margin:0; border-top:1px solid var(--bbfc-border); }
   .fashion-profile dl div { display:grid; grid-template-columns:78px minmax(0,1fr); gap:13px; padding:9px 0; border-bottom:1px solid var(--bbfc-border); }
   .fashion-profile dt { color:var(--bbfc-gray-2); font-size:11px; line-height:1.55; font-weight:650; }

@@ -18,9 +18,11 @@ fashionProfile:
   eyebrow: 'PROFILE · FOOTBALLER'
   name: '이강인'
   romanName: 'Kang In Lee'
-  portrait: '/images/culture/atletico-kangin-suga-home-kit/kangin-portrait.webp'
-  portraitAlt: '아틀레티코 마드리드 2026/27 홈 유니폼을 입고 손가락 하트를 만드는 이강인'
-  portraitCredit: 'Image via STARNEWS · cropped'
+  realName: '이강인'
+  hanjaName: '李康仁'
+  portrait: '/images/culture/atletico-kangin-suga-home-kit/kangin-profile-vogue.webp'
+  portraitAlt: '프라다 네이비 재킷과 검정 팬츠를 입고 파란 카펫에 기대 누운 이강인의 보그 코리아 화보'
+  portraitCredit: 'Vogue Korea · Photo: 장덕화 · Fashion: Prada, 2023'
   birthDate: '2001-02-19'
   birthPlace: '대한민국 인천광역시'
   nationalities:
@@ -86,6 +88,10 @@ fashionProfile:
 ## 이강인의 이름이 셔츠를 한국의 현재형으로 바꿨다
 
 <div class="ak-kangin-grid">
+  <figure>
+    <img src="/images/culture/atletico-kangin-suga-home-kit/kangin-portrait.webp" alt="아틀레티코 마드리드 2026/27 홈 유니폼을 입고 손가락 하트를 만드는 이강인" width="1200" height="1600" loading="lazy" decoding="async" />
+    <figcaption>알레띠의 빨강과 흰색을 정면으로 보여준 공식 인물 사진.<small class="ak-credit">Image via STARNEWS · Atlético de Madrid</small></figcaption>
+  </figure>
   <figure>
     <img src="/images/culture/atletico-kangin-suga-home-kit/kangin-point.webp" alt="아틀레티코 마드리드 2026/27 홈 유니폼을 입고 카메라를 가리키는 이강인" width="1300" height="731" loading="lazy" decoding="async" />
     <figcaption>새 홈 셔츠를 입고 카메라를 가리키는 이강인.<small class="ak-credit">Image via Telemadrid · Atlético de Madrid</small></figcaption>
@@ -170,7 +176,8 @@ fashionProfile:
     <li><a href="https://www.mk.co.kr/en/sports/12130172">MK, Kang In Lee Atlético presentation</a>, 2026년 8월. KANG IN 7 유니폼을 든 입단식 사진 확인.</li>
     <li><a href="https://www.atleticodemadrid.com/noticias/bts-presentara-world-tour-arirang-en-el-riyadh-air-metropolitano">Atlético de Madrid, BTS World Tour ‘ARIRANG’ at Riyadh Air Metropolitano</a>. 2026년 6월 26·27일 공연 일정 확인.</li>
     <li><a href="https://cadenaser.com/nacional/2026/06/28/nadie-lo-esperaba-bts-presenta-la-nueva-camiseta-del-atletico-de-madrid-antes-que-el-propio-club-cadena-ser/">Cadena SER, “BTS presenta la nueva camiseta del Atlético de Madrid”</a>, 2026년 6월 28일. 슈가의 공식 발표 전 유니폼 착장 확인.</li>
-    <li><a href="https://www.starnewskorea.com/en/sports/2026/08/06/2026080605594789044">STARNEWS, Kang-in Lee Atlético portrait</a>, 2026년 8월 6일. 이강인 인물 사진 출처.</li>
+    <li><a href="https://www.vogue.co.kr/2023/08/18/%EC%B6%95%EA%B5%AC-%EC%84%A0%EC%88%98-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%8A%A4%ED%83%80-%EC%9D%B4%EA%B0%95%EC%9D%B8/">Vogue Korea, “축구 선수 그리고 스포츠 ‘스타’, 이강인”</a>, 2023년 8월 18일. 이강인의 첫 패션 화보와 프로필 카드 이미지.</li>
+    <li><a href="https://www.starnewskorea.com/en/sports/2026/08/06/2026080605594789044">STARNEWS, Kang-in Lee Atlético portrait</a>, 2026년 8월 6일. 알레띠 유니폼 인물 사진 출처.</li>
   </ol>
 </section>
 
@@ -197,7 +204,7 @@ fashionProfile:
   .ak-manifesto article>span { color:#f2be65; font-size:11px; font-weight:750; letter-spacing:.14em; }
   .article-body .ak-manifesto h3 { margin:11px 0 9px; color:#fff; font-size:19px; font-weight:680; line-height:1.35; }
   .ak-manifesto p { margin:0; color:rgba(255,255,255,.74); font-size:13px; line-height:1.7; }
-  .ak-kangin-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 62px; transform:translateX(-50%); }
+  .ak-kangin-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 62px; transform:translateX(-50%); }
   .ak-kangin-grid figure { min-width:0; margin:0; }
   .ak-kangin-grid img { aspect-ratio:4/5; object-fit:cover; object-position:center top; }
   .ak-look-grid { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr); gap:clamp(1.6rem,4vw,3.8rem); align-items:center; width:min(1040px,calc(100vw - 32px)); margin:42px 0 66px; padding:clamp(1rem,3vw,2.3rem); border-radius:var(--bbfc-radius-lg); background:linear-gradient(135deg,#08142a,#193963); color:#fff; transform:translateX(-50%); box-shadow:0 22px 52px rgba(9,27,55,.18); }

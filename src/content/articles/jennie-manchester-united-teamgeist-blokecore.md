@@ -18,6 +18,7 @@ fashionProfile:
   eyebrow: 'PROFILE · K-POP ARTIST'
   name: '제니'
   romanName: 'JENNIE'
+  realName: '김제니'
   portrait: '/images/culture/jennie-manchester-united-teamgeist/jennie-weverse-portrait.webp'
   portraitAlt: '데님 코르셋과 빨간 리본 헤어를 연출한 제니의 Pink Venom 의상 화보'
   portraitCredit: 'Image via JENNIE Weverse, 2022 · Pink Venom outfit photo'

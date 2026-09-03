@@ -17,6 +17,8 @@ fashionProfile:
   eyebrow: 'PROFILE · SINGER'
   name: '태연'
   romanName: 'TAEYEON'
+  realName: '김태연'
+  hanjaName: '金泰耎'
   portrait: '/images/culture/taeyeon-korea-away-jersey/profile.webp'
   portraitAlt: '회색 배경에서 흰색 톱을 입은 태연의 파노라마 프로모션 인물 사진'
   portraitCredit: 'Photo: SM Entertainment'

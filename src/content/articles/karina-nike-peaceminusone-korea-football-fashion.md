@@ -17,6 +17,8 @@ fashionProfile:
   eyebrow: 'PROFILE · K-POP ARTIST'
   name: '카리나'
   romanName: 'KARINA'
+  realName: '유지민'
+  hanjaName: '劉知珉'
   portrait: '/images/culture/karina-one-pulse/karina-profile-aespa.webp'
   portraitAlt: '헬멧을 두 손으로 잡고 의자에 앉은 카리나의 aespa 공식 프로필 사진'
   portraitCredit: 'aespa JAPAN OFFICIAL WEBSITE · PROFILE'

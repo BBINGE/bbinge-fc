@@ -62,6 +62,8 @@ const articles = defineCollection({
         eyebrow: z.string(),
         name: z.string(),
         romanName: z.string().optional(),
+        realName: z.string().optional(),
+        hanjaName: z.string().optional(),
         portrait: z.string(),
         portraitAlt: z.string(),
         portraitCredit: z.string().optional(),
