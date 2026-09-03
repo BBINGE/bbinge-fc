@@ -29,7 +29,7 @@ const UPDATED_DATE = '2026-09-03';
       <ul>
         <li><strong>이메일 문의:</strong> 발신 이메일 주소, 이름 또는 소속, 문의 내용과 첨부자료를 문의 확인과 답변, 후속 업무를 위해 처리합니다. 문의 처리가 끝나고 추가 보관 필요가 없어지면 지체 없이 삭제하며, 분쟁 대응이나 법령상 보존이 필요한 경우에는 해당 기간 동안만 보관합니다.</li>
         <li><strong>사이트 접속 정보:</strong> IP 주소, 브라우저·기기 정보, 접속 시각과 요청 기록 등의 기술 정보가 사이트 제공, 보안과 장애 대응을 위해 Cloudflare에서 처리됩니다. 서비스 제공과 보안상 필요한 기간 또는 관계 법령과 서비스 운영 정책에서 정한 기간 동안 보관될 수 있습니다.</li>
-        <li><strong>방문 및 제휴 통계:</strong> 방문 페이지, 유입 경로, 이용 시간, 브라우저·기기 정보, 쿠키 기반 식별 정보와 제휴 링크 클릭 정보가 이용 현황 분석, 콘텐츠 개선과 제휴 성과 측정을 위해 Google Analytics와 네이버 애널리틱스에서 처리됩니다. 각 서비스의 데이터 보관 설정과 운영 정책에 따른 기간 동안 보관됩니다.</li>
+        <li><strong>방문 및 제휴 통계:</strong> 방문 페이지, 유입 경로, 이용 시간, 브라우저·기기 정보, 쿠키 기반 식별 정보와 제휴 링크 클릭 정보가 이용 현황 분석, 콘텐츠 개선과 제휴 성과 측정을 위해 Google Analytics와 NAVER Analytics에서 처리됩니다. 각 서비스의 데이터 보관 설정과 운영 정책에 따른 기간 동안 보관됩니다.</li>
         <li><strong>축겜 완주 기록:</strong> 무작위 익명 세션 ID, 대진 seed, 선수별 선택 기록, 우승·준우승·4강 결과와 완주 시각을 GOAT 랭킹 집계와 동일 대진 중복 제출 제한을 위해 처리합니다. 회원 계정이나 실명과 연결하지 않으며, 해당 랭킹 서비스를 운영하는 동안 보관하고 서비스 종료 후 지체 없이 삭제합니다.</li>
         <li><strong>축겜 한마디:</strong> 이용자가 직접 입력한 닉네임과 한마디, 해당 완주 결과와 우승 선수, 작성 시각, 무작위 익명 세션 ID를 완주자 의견 표시, 작성 확인과 부정 이용 방지를 위해 처리합니다. 게시 기간 동안 보관하며, 이용자의 삭제 요청을 확인했거나 운영 기준에 따른 삭제 사유가 발생하면 지체 없이 삭제합니다.</li>
       </ul>
@@ -37,7 +37,7 @@ const UPDATED_DATE = '2026-09-03';
 
     <section>
       <h2>2. 자동 저장 정보</h2>
-      <p>삥이FC는 방문 통계와 콘텐츠 개선을 위해 Google Analytics와 네이버 애널리틱스의 쿠키 등 자동 수집 기술을 사용합니다. 제휴 링크를 누르면 제휴망·판매처·상품 식별자와 연결 주소가 방문 통계 이벤트로 기록될 수 있습니다. 이용자는 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있으며, Google 광고 설정에서 맞춤 광고와 관련된 선택을 변경할 수 있습니다.</p>
+      <p>삥이FC는 방문 통계와 콘텐츠 개선을 위해 Google Analytics와 NAVER Analytics의 쿠키 등 자동 수집 기술을 사용합니다. 제휴 링크를 누르면 제휴망·판매처·상품 식별자와 연결 주소가 방문 통계 이벤트로 기록될 수 있습니다. 이용자는 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있으며, Google 광고 설정에서 맞춤 광고와 관련된 선택을 변경할 수 있습니다.</p>
       <p class="mt-3">아카이브 인기 기록 순위에는 방문한 아카이브 글의 공개 경로와 누적 조회 횟수만 저장하며, 같은 탭에서 반복한 조회는 브라우저의 세션 저장소를 이용해 중복 집계를 줄입니다. 이 집계에는 이름·IP 주소·기기 식별자를 별도로 저장하지 않습니다. GOAT 토너먼트의 진행 상태와 무작위 익명 세션 ID는 이용 중인 브라우저에 저장됩니다. 토너먼트를 완주하면 31개의 선택 결과와 익명 세션 ID가 랭킹 집계를 위해 삥이FC의 Cloudflare 데이터베이스로 전송됩니다.</p>
     </section>
 
@@ -54,7 +54,7 @@ const UPDATED_DATE = '2026-09-03';
       <ul>
         <li><strong>Cloudflare, Inc.:</strong> 사이트 전송, 보안, 접속 기록 처리와 GOAT 데이터베이스 운영</li>
         <li><strong>Google LLC:</strong> Google Analytics 방문·제휴 통계와 Google AdSense 광고 제공 및 성과 측정</li>
-        <li><strong>네이버 주식회사:</strong> 네이버 애널리틱스 방문 통계와 이메일 문의 송수신</li>
+        <li><strong>네이버 주식회사:</strong> NAVER Analytics 방문 통계와 이메일 문의 송수신</li>
       </ul>
       <p class="mt-3">각 사업자는 위 업무 수행에 필요한 범위에서만 정보를 처리하며, 위탁 업무가 끝나거나 처리 목적이 달성되면 관계 법령과 각 서비스 계약·정책에 따라 정보를 삭제하거나 익명화합니다. 세부 처리 기준은 <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare 개인정보처리방침</a>, <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>, <a href="https://policies.google.com/technologies/partner-sites?hl=ko" target="_blank" rel="noopener noreferrer">Google 파트너 사이트 정보 처리 안내</a>, <a href="https://policy.naver.com/policy/privacy.html" target="_blank" rel="noopener noreferrer">NAVER 개인정보처리방침</a>에서 확인할 수 있습니다.</p>
     </section>
