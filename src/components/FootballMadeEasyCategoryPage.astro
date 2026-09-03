@@ -404,6 +404,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
     .easy-lead dl div { padding:7px 0; }
     .easy-lead__cta { margin-top:16px; }
     .easy-library__head { grid-template-columns:minmax(0,1fr) minmax(240px,310px); }
+    .easy-library__thumb { aspect-ratio:1/1; }
   }
   @media (max-width:599px) {
     .easy-index { padding:18px 12px 48px; }
@@ -423,6 +424,9 @@ const leadFile = lead ? fileFor(lead) : undefined;
     .easy-library__head h2 { font-size:20px; }
     .easy-search { width:100%; height:42px; margin:0; }
     .easy-library__tier { margin-top:12px; }
+    .easy-library__list { display:grid; gap:8px; border-bottom:0; }
+    .easy-library__item { border:1px solid var(--bbfc-border); }
+    .easy-library__item:first-child { border-top:1px solid var(--bbfc-border); }
     .easy-library__item>a { grid-template-columns:96px minmax(0,1fr); gap:11px; padding:11px 0; }
     .easy-library__copy>strong { font-size:14px; line-height:1.35; }
     .easy-library__copy>span { -webkit-line-clamp:2; }

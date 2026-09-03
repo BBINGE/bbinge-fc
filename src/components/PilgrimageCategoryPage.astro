@@ -254,10 +254,11 @@ const nextMeta = next ? metaFor(next) : undefined;
     .journey-path,.journey-cover__route { display:none; }
     .journey-cover__cta { margin-top:16px; padding-top:13px; }
     .journey-next__card { grid-template-columns:220px minmax(0,1fr); }
-    .journey-next__image { height:100%; aspect-ratio:auto; }
+    .journey-next__image { width:220px; height:auto; aspect-ratio:1/1; align-self:start; }
     .journey-next__copy { padding:24px; }
     .journey-next__copy>span { display:-webkit-box; overflow:hidden; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
     .journey-archive__grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px 12px; }
+    .journey-archive a>span { aspect-ratio:1/1; }
   }
   @media (max-width:599px) {
     .journey-index { padding:18px 12px 48px; }
@@ -275,7 +276,7 @@ const nextMeta = next ? metaFor(next) : undefined;
     .journey-section-title { padding-bottom:9px; }
     .journey-section-title h2 { font-size:19px; }
     .journey-next__card { grid-template-columns:112px minmax(0,1fr); margin-top:12px; }
-    .journey-next__image { height:100%; aspect-ratio:auto; }
+    .journey-next__image { width:112px; height:auto; aspect-ratio:1/1; }
     .journey-next__copy { padding:13px; }
     .journey-next__copy>strong { margin-top:7px; font-size:17px; line-height:1.3; }
     .journey-next__copy>span,.journey-next__copy>em { display:none; }
