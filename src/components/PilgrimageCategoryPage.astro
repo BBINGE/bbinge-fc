@@ -21,6 +21,7 @@ const lead = entries.find((entry) => entry.data.featured) ?? entries[0];
 const [next, ...archive] = entries.filter((entry) => entry.id !== lead?.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
+const displayCityFor = (city: string) => city.trim().split(/\s+/).at(-1) ?? city;
 
 const routeProfiles: Record<string, TravelMeta> = {
   'stadio-olimpico-rome-travel-7': {
@@ -108,7 +109,7 @@ const nextMeta = next ? metaFor(next) : undefined;
       <a class="journey-next__card" href={hrefFor(next)}>
         <span class="journey-next__image">
           {imageFor(next) && <img src={imageFor(next)} alt="" loading="lazy" style={imageFocusStyle(imageFor(next))} />}
-          <b>{nextMeta.city}</b>
+          <b>{displayCityFor(nextMeta.city)}</b>
         </span>
         <span class="journey-next__copy">
           <small>{nextMeta.country} · {nextMeta.stadium}</small>
@@ -277,12 +278,13 @@ const nextMeta = next ? metaFor(next) : undefined;
     .journey-section-title h2 { font-size:19px; }
     .journey-next__card { grid-template-columns:112px minmax(0,1fr); margin-top:12px; }
     .journey-next__image { width:112px; height:auto; aspect-ratio:1/1; }
+    .journey-next__image>b { left:10px; bottom:9px; font-size:20px; letter-spacing:-.07em; white-space:nowrap; }
     .journey-next__copy { padding:13px; }
-    .journey-next__copy>strong { margin-top:7px; font-size:17px; line-height:1.3; }
+    .journey-next__copy>strong { margin-top:7px; font-size:17px; line-height:1.3; word-break:keep-all; overflow-wrap:break-word; text-wrap:pretty; }
     .journey-next__copy>span,.journey-next__copy>em { display:none; }
     .journey-next__copy>i { margin-top:auto; font-size:11px; }
     .journey-archive__grid { grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:12px; gap:16px 8px; }
     .journey-archive small { margin-top:7px; font-size:8px; }
-    .journey-archive strong { display:-webkit-box; overflow:hidden; font-size:13px; line-height:1.35; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+    .journey-archive strong { display:-webkit-box; overflow:hidden; font-size:13px; line-height:1.35; word-break:keep-all; overflow-wrap:break-word; text-wrap:pretty; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
   }
 </style>
