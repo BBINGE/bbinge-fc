@@ -3,7 +3,7 @@ import InfoPage from '../../components/InfoPage.astro';
 import Layout from '../../layouts/Layout.astro';
 import { site } from '../../config/site';
 
-const UPDATED_DATE = '2026-08-31';
+const UPDATED_DATE = '2026-09-03';
 ---
 
 <Layout
@@ -27,62 +27,73 @@ const UPDATED_DATE = '2026-08-31';
     <section>
       <h2>1. 개인정보의 처리 목적·항목·보유기간</h2>
       <ul>
-        <li><strong>이메일 문의:</strong> 발신 이메일 주소, 이름 또는 소속, 문의 내용과 첨부자료를 문의 확인과 답변, 후속 업무를 위해 처리합니다. 관련 업무가 끝난 뒤 지체 없이 삭제하되, 분쟁 대응이나 법령상 보존이 필요한 경우에는 해당 기간 동안 보관할 수 있습니다.</li>
-        <li><strong>사이트 접속 정보:</strong> IP 주소, 브라우저·기기 정보, 접속 시각과 요청 기록 등의 기술 정보가 사이트 제공, 보안과 장애 대응을 위해 호스팅 서비스에서 자동으로 처리될 수 있습니다. 보유기간은 해당 서비스의 운영 정책에 따릅니다.</li>
-        <li><strong>방문 통계:</strong> 방문 페이지, 유입 경로, 이용 시간, 브라우저·기기 정보와 쿠키 기반 식별 정보가 사이트 이용 현황 분석과 콘텐츠 개선을 위해 Google Analytics와 네이버 애널리틱스에서 처리될 수 있습니다. 보유기간은 각 분석 서비스의 데이터 보관 설정과 운영 정책에 따릅니다.</li>
-        <li><strong>축겜 완주 기록:</strong> 무작위 익명 세션 ID, 대진 seed, 선수별 선택 기록, 우승·준우승·4강 결과와 완주 시각을 GOAT 랭킹 집계와 동일 대진 중복 제출 제한을 위해 처리합니다. 회원 계정이나 실명과 연결하지 않으며, 서비스 운영 기간 동안 보관할 수 있습니다.</li>
-        <li><strong>축겜 한마디:</strong> 이용자가 직접 입력한 닉네임과 한마디, 해당 완주 결과와 우승 선수, 작성 시각을 완주자 의견 표시와 부정 이용 방지를 위해 처리합니다. 삭제 요청 또는 운영상 삭제 사유가 발생할 때까지 보관할 수 있습니다.</li>
+        <li><strong>이메일 문의:</strong> 발신 이메일 주소, 이름 또는 소속, 문의 내용과 첨부자료를 문의 확인과 답변, 후속 업무를 위해 처리합니다. 문의 처리가 끝나고 추가 보관 필요가 없어지면 지체 없이 삭제하며, 분쟁 대응이나 법령상 보존이 필요한 경우에는 해당 기간 동안만 보관합니다.</li>
+        <li><strong>사이트 접속 정보:</strong> IP 주소, 브라우저·기기 정보, 접속 시각과 요청 기록 등의 기술 정보가 사이트 제공, 보안과 장애 대응을 위해 Cloudflare에서 처리됩니다. 서비스 제공과 보안상 필요한 기간 또는 관계 법령과 서비스 운영 정책에서 정한 기간 동안 보관될 수 있습니다.</li>
+        <li><strong>방문 및 제휴 통계:</strong> 방문 페이지, 유입 경로, 이용 시간, 브라우저·기기 정보, 쿠키 기반 식별 정보와 제휴 링크 클릭 정보가 이용 현황 분석, 콘텐츠 개선과 제휴 성과 측정을 위해 Google Analytics와 네이버 애널리틱스에서 처리됩니다. 각 서비스의 데이터 보관 설정과 운영 정책에 따른 기간 동안 보관됩니다.</li>
+        <li><strong>축겜 완주 기록:</strong> 무작위 익명 세션 ID, 대진 seed, 선수별 선택 기록, 우승·준우승·4강 결과와 완주 시각을 GOAT 랭킹 집계와 동일 대진 중복 제출 제한을 위해 처리합니다. 회원 계정이나 실명과 연결하지 않으며, 해당 랭킹 서비스를 운영하는 동안 보관하고 서비스 종료 후 지체 없이 삭제합니다.</li>
+        <li><strong>축겜 한마디:</strong> 이용자가 직접 입력한 닉네임과 한마디, 해당 완주 결과와 우승 선수, 작성 시각, 무작위 익명 세션 ID를 완주자 의견 표시, 작성 확인과 부정 이용 방지를 위해 처리합니다. 게시 기간 동안 보관하며, 이용자의 삭제 요청을 확인했거나 운영 기준에 따른 삭제 사유가 발생하면 지체 없이 삭제합니다.</li>
       </ul>
     </section>
 
     <section>
       <h2>2. 자동 저장 정보</h2>
-      <p>삥이FC는 방문 통계 측정을 위해 Google Analytics와 네이버 애널리틱스의 쿠키 등 자동 수집 기술을 사용할 수 있습니다. 이용자는 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있습니다. 아카이브 인기 기록 순위에는 방문한 아카이브 글의 공개 경로와 누적 조회 횟수만 저장하며, 같은 탭에서 반복한 조회는 브라우저의 세션 저장소를 이용해 중복 집계를 줄입니다. 이 집계에는 이름·IP 주소·기기 식별자를 별도로 저장하지 않습니다. GOAT 토너먼트의 진행 상태와 무작위 익명 세션 ID는 이용 중인 브라우저에 저장됩니다. 토너먼트를 완주하면 31개의 선택 결과와 익명 세션 ID가 랭킹 집계를 위해 삥이FC의 Cloudflare 데이터베이스로 전송됩니다.</p>
+      <p>삥이FC는 방문 통계와 콘텐츠 개선을 위해 Google Analytics와 네이버 애널리틱스의 쿠키 등 자동 수집 기술을 사용합니다. 제휴 링크를 누르면 제휴망·판매처·상품 식별자와 연결 주소가 방문 통계 이벤트로 기록될 수 있습니다. 이용자는 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있으며, Google 광고 설정에서 맞춤 광고와 관련된 선택을 변경할 수 있습니다.</p>
+      <p class="mt-3">아카이브 인기 기록 순위에는 방문한 아카이브 글의 공개 경로와 누적 조회 횟수만 저장하며, 같은 탭에서 반복한 조회는 브라우저의 세션 저장소를 이용해 중복 집계를 줄입니다. 이 집계에는 이름·IP 주소·기기 식별자를 별도로 저장하지 않습니다. GOAT 토너먼트의 진행 상태와 무작위 익명 세션 ID는 이용 중인 브라우저에 저장됩니다. 토너먼트를 완주하면 31개의 선택 결과와 익명 세션 ID가 랭킹 집계를 위해 삥이FC의 Cloudflare 데이터베이스로 전송됩니다.</p>
     </section>
 
     <section>
       <h2>3. Google 광고와 쿠키</h2>
-      <p>삥이FC는 사이트 운영을 지원하기 위해 Google AdSense 광고를 게재할 수 있습니다. Google을 포함한 제3자 광고 사업자는 쿠키를 사용하여 이용자의 삥이FC 또는 다른 웹사이트 방문 기록을 바탕으로 광고를 제공할 수 있습니다. Google의 광고 쿠키 사용으로 Google과 그 파트너는 이용자의 방문 기록에 기반한 맞춤 광고를 제공할 수 있습니다.</p>
+      <p>삥이FC는 Google AdSense를 광고 플랫폼으로 사용합니다. 광고의 노출 여부와 형식은 페이지, 이용 환경 및 Google의 광고 제공 조건에 따라 달라질 수 있습니다. Google을 포함한 제3자 광고 사업자는 쿠키를 사용해 이용자의 삥이FC 또는 다른 웹사이트 방문 기록을 바탕으로 맞춤 광고나 비맞춤 광고를 제공하고, 광고 노출과 성과를 측정하며 부정 이용을 방지할 수 있습니다.</p>
       <p>이용자는 <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">Google 광고 설정</a>에서 맞춤 광고를 해제할 수 있습니다. 제3자 광고 사업자의 맞춤 광고용 쿠키 사용은 <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">YourAdChoices</a>에서 일부 해제할 수 있으며, 브라우저 설정을 통해 쿠키를 차단하거나 삭제할 수도 있습니다.</p>
       <p>삥이FC는 유럽경제지역(EEA), 영국 또는 스위스 이용자에게 광고를 제공할 때 관련 법령과 Google의 정책에 따라 Google이 인증한 동의 관리 플랫폼(CMP)을 통해 쿠키 사용과 개인정보 처리에 관한 선택권을 제공합니다.</p>
     </section>
 
     <section>
-      <h2>4. 개인정보의 제3자 제공 및 처리위탁</h2>
-      <p>삥이FC는 이용자의 개인정보를 별도의 제3자에게 판매하지 않습니다. 다만 사이트 제공, 방문 통계와 이메일 문의 처리를 위해 외부 서비스를 이용하며, 각 서비스 사업자는 서비스 제공에 필요한 범위에서 정보를 처리할 수 있습니다.</p>
+      <h2>4. 개인정보의 제3자 제공과 처리위탁</h2>
+      <p>삥이FC는 이용자의 개인정보를 판매하지 않으며, 이용자의 동의가 있거나 법령에 근거가 있는 경우를 제외하고 처리 목적을 벗어나 제3자에게 제공하지 않습니다. 사이트 운영에 필요한 업무는 다음 외부 서비스에서 처리합니다.</p>
       <ul>
-        <li><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare 개인정보처리방침</a></li>
-        <li><a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a></li>
-        <li><a href="https://policies.google.com/technologies/partner-sites?hl=ko" target="_blank" rel="noopener noreferrer">Google이 파트너 사이트의 정보를 사용하는 방법</a></li>
-        <li><a href="https://policy.naver.com/policy/privacy.html" target="_blank" rel="noopener noreferrer">NAVER 개인정보처리방침</a></li>
+        <li><strong>Cloudflare, Inc.:</strong> 사이트 전송, 보안, 접속 기록 처리와 GOAT 데이터베이스 운영</li>
+        <li><strong>Google LLC:</strong> Google Analytics 방문·제휴 통계와 Google AdSense 광고 제공 및 성과 측정</li>
+        <li><strong>네이버 주식회사:</strong> 네이버 애널리틱스 방문 통계와 이메일 문의 송수신</li>
       </ul>
+      <p class="mt-3">각 사업자는 위 업무 수행에 필요한 범위에서만 정보를 처리하며, 위탁 업무가 끝나거나 처리 목적이 달성되면 관계 법령과 각 서비스 계약·정책에 따라 정보를 삭제하거나 익명화합니다. 세부 처리 기준은 <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare 개인정보처리방침</a>, <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>, <a href="https://policies.google.com/technologies/partner-sites?hl=ko" target="_blank" rel="noopener noreferrer">Google 파트너 사이트 정보 처리 안내</a>, <a href="https://policy.naver.com/policy/privacy.html" target="_blank" rel="noopener noreferrer">NAVER 개인정보처리방침</a>에서 확인할 수 있습니다.</p>
     </section>
 
     <section>
-      <h2>5. 개인정보의 파기</h2>
+      <h2>5. 개인정보의 국외 이전</h2>
+      <p>Cloudflare와 Google 서비스를 이용하는 과정에서 사이트 접속 정보, 쿠키·기기 정보, 방문·제휴 통계, 광고 이용 정보와 GOAT 기록이 암호화된 네트워크를 통해 국외로 전송되어 처리될 수 있습니다.</p>
+      <ul>
+        <li><strong>Cloudflare, Inc.:</strong> 미국과 Cloudflare의 글로벌 네트워크 운영 국가에서 사이트 전송·보안과 데이터베이스 제공을 위해 처리하며, 서비스 제공과 보안상 필요한 기간 또는 계약·정책에서 정한 기간 동안 보관합니다.</li>
+        <li><strong>Google LLC:</strong> 미국 등 Google의 서비스 제공 국가에서 방문 통계, 광고 제공·측정과 부정 이용 방지를 위해 처리하며, 계정 설정과 Google의 보관 정책에 따른 기간 동안 보관합니다.</li>
+      </ul>
+      <p class="mt-3">국외 이전은 이용자가 사이트에 접속하거나 해당 기능을 사용할 때 네트워크를 통해 이루어집니다. 이용자는 쿠키 차단, 맞춤 광고 해제 또는 해당 기능을 사용하지 않는 방법으로 선택할 수 있습니다. 다만 사이트 전송과 보안에 필수적인 Cloudflare 처리를 거부하면 사이트 이용이 제한될 수 있습니다.</p>
+    </section>
+
+    <section>
+      <h2>6. 개인정보의 파기</h2>
       <p>처리 목적이 달성되거나 보유할 필요가 없어진 개인정보는 지체 없이 파기합니다. 전자적 파일은 복구하기 어려운 방법으로 삭제하며, 법령에 따라 일정 기간 보존해야 하는 경우에는 다른 정보와 분리하여 보관한 뒤 해당 기간이 끝나면 파기합니다.</p>
     </section>
 
     <section>
-      <h2>6. 이용자의 권리와 행사 방법</h2>
-      <p>이용자는 자신의 개인정보에 대해 열람, 정정, 삭제 또는 처리정지를 요청할 수 있습니다. 요청은 아래 이메일로 접수하며, 필요한 경우 요청자의 본인 여부를 확인할 수 있습니다. 법령에서 정한 사유가 있는 경우에는 요청이 제한될 수 있으며 그 사유를 안내합니다.</p>
+      <h2>7. 이용자의 권리와 행사 방법</h2>
+      <p>이용자는 자신의 개인정보에 대해 열람, 정정, 삭제 또는 처리정지를 요청할 수 있습니다. 축겜 한마디 삭제를 포함한 요청은 아래 이메일로 접수하며, 해당 게시물이나 처리 기록을 확인하는 데 필요한 범위에서 본인 여부를 확인할 수 있습니다. 법령에서 정한 사유로 요청이 제한되는 경우에는 그 사유를 안내합니다.</p>
     </section>
 
     <section>
-      <h2>7. 개인정보의 안전성 확보조치</h2>
+      <h2>8. 개인정보의 안전성 확보조치</h2>
       <p>삥이FC는 개인정보에 대한 접근을 필요한 범위로 제한하고, 안전한 통신과 계정 보호 등 개인정보의 분실·유출·훼손을 방지하기 위한 조치를 적용합니다.</p>
     </section>
 
     <section>
-      <h2>8. 개인정보 관련 문의</h2>
+      <h2>9. 개인정보 보호책임자와 문의</h2>
       <ul>
-        <li>운영자: {site.authorName}({site.author})</li>
+        <li>개인정보 보호책임자: {site.authorName}({site.author})</li>
         <li>이메일: <a href={`mailto:${site.email}`}>{site.email}</a></li>
       </ul>
     </section>
 
     <section>
-      <h2>9. 개인정보처리방침의 변경</h2>
+      <h2>10. 개인정보처리방침의 변경</h2>
       <p>본 방침의 내용이 변경되면 시행 전에 이 페이지를 통해 안내합니다.</p>
       <ul><li>공고·시행일: {UPDATED_DATE}</li></ul>
     </section>
