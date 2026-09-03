@@ -44,7 +44,7 @@ fashionProfile:
       value: 'Nike Atlético de Madrid 2026/27 Home'
 ---
 
-<p class="ak-lede">아틀레티코 마드리드의 새 홈 셔츠는 공식 발표보다 먼저 공연장에서 모습을 드러냈다. 2026년 6월 27일, BTS 슈가<span class="foreign-note" lang="en">(SUGA; BTS 멤버, 1993년생)</span>는 마드리드의 리야드 에어 메트로폴리타노 무대에 빨강과 흰색 줄무늬 셔츠를 입고 올랐다. 한 달 뒤 이강인은 이 셔츠의 등 뒤에 7번을 달았다.</p>
+<p>아틀레티코 마드리드의 새 홈 셔츠는 공식 발표보다 먼저 공연장에서 모습을 드러냈다. 2026년 6월 27일, BTS 슈가<span class="foreign-note" lang="en">(SUGA; BTS 멤버, 1993년생)</span>는 마드리드의 리야드 에어 메트로폴리타노 무대에 빨강과 흰색 줄무늬 셔츠를 입고 올랐다. 한 달 뒤 이강인은 이 셔츠의 등 뒤에 7번을 달았다.</p>
 
 <p>같은 유니폼이 한쪽에서는 스타디움 콘서트의 의상이 되고, 다른 쪽에서는 한국 선수의 새 출발을 알리는 경기복이 됐다. 이번 시즌 알레띠 홈 셔츠를 볼 이유는 단지 신제품이기 때문이 아니다. 지금 한국에서 이 셔츠를 가장 빨리 알아보게 만드는 두 장면이 이미 완성됐기 때문이다.</p>
 
@@ -73,7 +73,7 @@ fashionProfile:
   <figcaption>붉은 줄무늬 안에 반복된 삼지창과 네이비 V넥. Image: Nike official</figcaption>
 </figure>
 
-구단이 이번 홈 셔츠에 붙인 문장은 **“BORN BEFORE THE KICK OFF”**다. 첫 휘슬이 울리기 전부터 존재하고, 몸에 닿는 세부에서 먼저 감각되는 셔츠라는 뜻이다. 세대가 바뀌어도 홈 셔츠를 알아보게 만든 빨강과 흰색의 수직 줄무늬는 그대로 두고, 그 안쪽에만 새 의미를 새겼다. 슈가가 공식 출시 이틀 전에 같은 경기장의 무대에서 먼저 입었다는 사실은 이 문장을 우연히 실제 장면으로 만들어 버렸다.
+구단이 이번 홈 셔츠에 붙인 문장은 <strong>“BORN BEFORE THE KICK OFF”</strong>다. 첫 휘슬이 울리기 전부터 존재하고, 몸에 닿는 세부에서 먼저 감각되는 셔츠라는 뜻이다. 세대가 바뀌어도 홈 셔츠를 알아보게 만든 빨강과 흰색의 수직 줄무늬는 그대로 두고, 그 안쪽에만 새 의미를 새겼다. 슈가가 공식 출시 이틀 전에 같은 경기장의 무대에서 먼저 입었다는 사실은 이 문장을 우연히 실제 장면으로 만들어 버렸다.
 
 빨간 줄 안에 반복되는 삼지창은 마드리드의 넵투노 광장<span class="foreign-note" lang="es">(Plaza de Neptuno; 아틀레티코의 우승 축하 장소)</span>을 가리킨다. 구단은 넵투노를 우승 축하의 수호자로 설명하고, 나이키는 삼지창에 힘과 승리의 의미를 부여한다. 멀리서는 여러 세대가 공유해 온 로히블랑코<span class="foreign-note" lang="es">(rojiblanco; 빨강과 흰색)</span>의 줄무늬가 먼저 보이고, 가까이 다가가면 도시의 의례가 드러난다. 전통을 새 도형으로 교체하지 않고 전통의 표면 안에 기억을 겹친 설계다.
 
@@ -184,7 +184,6 @@ fashionProfile:
 </section>
 
 <style>
-  .ak-lede { font-size:clamp(1.14rem,1.5vw,1.34rem); line-height:1.88; font-weight:680; letter-spacing:-.025em; }
   .ak-index,.ak-manifesto { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); overflow:hidden; color:#fff; transform:translateX(-50%); }
   .ak-index { gap:1px; margin:42px 0 62px; padding:1px; border-radius:var(--bbfc-radius-lg); background:#24334c; box-shadow:0 22px 52px rgba(13,29,58,.16); }
   .ak-index>div { min-height:180px; padding:28px 24px 30px; background:linear-gradient(145deg,#09172f,#152f55); }
