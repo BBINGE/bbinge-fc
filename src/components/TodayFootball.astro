@@ -29,6 +29,15 @@ const match = matches[0] ?? null;
 const matchState = (isCurrent ? todayData.status?.matches?.state : 'stale') as DataState;
 const standingsState = (isCurrent ? todayData.status?.standings?.state : 'stale') as DataState;
 const matchCountLabel = matches.length ? `${matches.length} GAMES` : 'TODAY';
+const providerLinks = new Map([
+  ['TheSportsDB', 'https://www.thesportsdb.com/'],
+  ['ESPN', 'https://www.espn.com/soccer/'],
+  ['football-data.org', 'https://www.football-data.org/'],
+]);
+const activeProviders = [...new Set([
+  ...String(todayData.sources?.matches || '').split('+'),
+  ...String(todayData.sources?.standings || '').split('+'),
+].map((provider) => provider.trim()).filter((provider) => providerLinks.has(provider)))];
 
 const FINISHED_STATUSES = new Set(['FT', 'AET', 'PEN', 'FINISHED', 'MATCH FINISHED']);
 const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
@@ -134,7 +143,14 @@ function matchView(item: Match) {
             </section>
           ))}
         </div>
-        <p class="standings-note">공개 순위 데이터 기준 · 리그별 전체 순위{standingsState === 'fallback' ? ' · 직전 갱신값' : ''}</p>
+        <p class="standings-note">
+          데이터 제공
+          {activeProviders.map((provider, index) => (
+            <><span aria-hidden="true">{index ? ' · ' : ' '}</span><a href={providerLinks.get(provider)} target="_blank" rel="noopener noreferrer">{provider}</a></>
+          ))}
+          <span aria-hidden="true"> · </span>삥이FC 한국시간·한글명 편집
+          {standingsState === 'fallback' || matchState === 'fallback' ? <><span aria-hidden="true"> · </span>직전 갱신값 포함</> : null}
+        </p>
       </section>
     ) : (
       <div class="standings-empty">
@@ -269,7 +285,9 @@ function matchView(item: Match) {
   .standings-more span { font-size:13px; transition:transform .2s ease; }
   .standings-more:hover { transform:translateY(-1px); border-color:rgba(134,183,255,.66); background:rgba(134,183,255,.16); color:#fff; }
   .standings-more.is-clicked span { transform:scale(1.3); }
-  .standings-note { margin-top:8px; color:rgba(255,255,255,.56); font-size:11px; line-height:1.4; }
+  .standings-note { margin-top:9px; color:rgba(255,255,255,.68); font-size:12px; line-height:1.55; }
+  .standings-note a { color:rgba(255,255,255,.9); text-decoration:underline; text-decoration-color:rgba(134,183,255,.62); text-underline-offset:3px; }
+  .standings-note a:hover { color:#fff; text-decoration-color:#fff; }
   .today-card--tonight::after { content:""; position:absolute; z-index:2; inset:auto 0 0; height:58%; background:linear-gradient(0deg,rgba(4,12,27,.74),rgba(4,12,27,0)); pointer-events:none; }
 
   @media (min-width: 701px) and (max-width: 1599px) {

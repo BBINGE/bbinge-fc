@@ -282,7 +282,14 @@ async function fetchFootballDataMatches(date) {
     .map(({ score, ...event }) => event);
 }
 
-async function fetchStandings(season, previousStandings = []) {
+function sourceProviders(source) {
+  return String(source || '')
+    .split('+')
+    .map((provider) => provider.trim())
+    .filter((provider) => provider && provider !== 'none' && provider !== 'previous-data');
+}
+
+async function fetchStandings(season, previousStandings = [], previousSource = 'none') {
   const requests = STANDINGS_LEAGUES.map((league) => async () => {
     try {
       const url = new URL(`https://site.web.api.espn.com/apis/v2/sports/soccer/${league.espn}/standings`);
@@ -325,29 +332,29 @@ async function fetchStandings(season, previousStandings = []) {
   const results = await settleInBatches(requests, 1, 650);
   const tables = [];
   let usedPrevious = false;
-  let usedTheSportsDb = false;
+  const providers = new Set();
   for (let index = 0; index < STANDINGS_LEAGUES.length; index += 1) {
     const league = STANDINGS_LEAGUES[index];
     const result = results[index];
     if (result.status === 'fulfilled' && result.value.rows.length) {
       const { provider, ...table } = result.value;
       tables.push(table);
-      usedTheSportsDb ||= provider === 'TheSportsDB';
+      providers.add(provider);
       continue;
     }
     const previous = previousStandings.find((table) => table.leagueId === league.id && table.season === season && table.rows?.length);
     if (previous) {
       tables.push(previous);
       usedPrevious = true;
+      sourceProviders(previousSource).forEach((provider) => providers.add(provider));
     }
   }
   const errors = results.filter((result) => result.status === 'rejected').map((result) => result.reason.message);
   if (!tables.length && errors.length === results.length) throw new Error('TheSportsDB 유럽 주요리그 순위 요청 실패');
   return {
     standings: tables,
-    source: usedPrevious
-      ? 'ESPN + previous-data'
-      : usedTheSportsDb ? 'ESPN + TheSportsDB' : 'ESPN',
+    source: [...providers].join(' + ') || 'previous-data',
+    usedPrevious,
     error: errors.length ? `${errors.length}개 리그 순위 갱신 실패` : null,
   };
 }
@@ -366,7 +373,9 @@ const season = currentSeason(parts);
 const previous = await previousData();
 const [matchesResult] = await Promise.allSettled([fetchMatches(date, previous.matches || [])]);
 await wait(650);
-const [standingsResult] = await Promise.allSettled([fetchStandings(season, previous.standings || [])]);
+const [standingsResult] = await Promise.allSettled([
+  fetchStandings(season, previous.standings || [], previous.sources?.standings),
+]);
 
 let selectedMatches = [];
 let matchesState = 'unavailable';
@@ -389,7 +398,7 @@ if (matchesResult.status === 'fulfilled') {
   if (!selectedMatches.length && previous.date === date && previous.matches?.length) {
     selectedMatches = previous.matches;
     matchesState = 'fallback';
-    matchesSource = 'previous-data';
+    matchesSource = previous.sources?.matches || previous.status?.matches?.source || 'previous-data';
   }
 }
 
@@ -400,14 +409,14 @@ let standingsError = null;
 if (standingsResult.status === 'fulfilled') {
   selectedStandings = standingsResult.value.standings;
   standingsState = selectedStandings.length
-    ? (standingsResult.value.source.includes('previous-data') ? 'fallback' : 'ok')
+    ? (standingsResult.value.usedPrevious ? 'fallback' : 'ok')
     : 'empty';
   standingsSource = standingsResult.value.source;
   standingsError = standingsResult.value.error;
 } else if (previous.standings?.length) {
   selectedStandings = previous.standings;
   standingsState = 'fallback';
-  standingsSource = 'previous-data';
+  standingsSource = previous.sources?.standings || previous.status?.standings?.source || 'previous-data';
   standingsError = standingsResult.reason.message;
 }
 
