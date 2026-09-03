@@ -6,6 +6,8 @@ interface Props {
   width?: number;
   height?: number;
   variant?: 'article' | 'archive';
+  webpSrcset?: string;
+  sizes?: string;
 }
 
 const {
@@ -15,24 +17,31 @@ const {
   width,
   height,
   variant = 'article',
+  webpSrcset,
+  sizes,
 } = Astro.props;
 ---
 
 <figure class:list={['content-cover', `content-cover--${variant}`]}>
-  <img
-    src={src}
-    alt={alt}
-    width={width}
-    height={height}
-    loading="eager"
-    decoding="async"
-    fetchpriority="high"
-  />
+  <picture>
+    {webpSrcset && <source type="image/webp" srcset={webpSrcset} sizes={sizes} />}
+    <img
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      sizes={sizes}
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+    />
+  </picture>
   {caption && <figcaption>{caption}</figcaption>}
 </figure>
 
 <style>
   .content-cover { margin: 12px 0 48px; }
+  .content-cover picture { display:block; }
   .content-cover img {
     display: block;
     width: 100%;

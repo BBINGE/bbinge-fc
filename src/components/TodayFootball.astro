@@ -38,6 +38,7 @@ const activeProviders = [...new Set([
   ...String(todayData.sources?.matches || '').split('+'),
   ...String(todayData.sources?.standings || '').split('+'),
 ].map((provider) => provider.trim()).filter((provider) => providerLinks.has(provider)))];
+const transparentBadge = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
 
 const FINISHED_STATUSES = new Set(['FT', 'AET', 'PEN', 'FINISHED', 'MATCH FINISHED']);
 const LIVE_STATUSES = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'IN_PLAY', 'PAUSED']);
@@ -87,9 +88,9 @@ function matchView(item: Match) {
               </div>
               <div class="match-row__teams">
                 <strong>{item.home}</strong>
-                {item.homeBadge ? <img src={item.homeBadge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
+                {item.homeBadge ? <img src={transparentBadge} data-team-badge data-src={item.homeBadge} alt="" width="24" height="24" decoding="async" fetchpriority="low" /> : <i aria-hidden="true">⚽</i>}
                 <b class="match-score">{view.hasScore ? `${item.homeScore}:${item.awayScore}` : 'VS'}</b>
-                {item.awayBadge ? <img src={item.awayBadge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
+                {item.awayBadge ? <img src={transparentBadge} data-team-badge data-src={item.awayBadge} alt="" width="24" height="24" decoding="async" fetchpriority="low" /> : <i aria-hidden="true">⚽</i>}
                 <strong>{item.away}</strong>
               </div>
             </article>
@@ -127,7 +128,7 @@ function matchView(item: Match) {
                 {table.rows.map((row, rowIndex) => (
                   <li class:list={['standings-row', rowIndex >= 10 && 'standings-row--extra']}>
                     <b>{row.rank}</b>
-                    {row.badge ? <img src={row.badge} alt="" loading="lazy" /> : <i aria-hidden="true">⚽</i>}
+                    {row.badge ? <img src={transparentBadge} data-team-badge data-src={row.badge} alt="" width="20" height="20" decoding="async" fetchpriority="low" /> : <i aria-hidden="true">⚽</i>}
                     <strong>{row.team}</strong>
                     <span>{row.played}</span>
                     <span>{row.goalDifference > 0 ? `+${row.goalDifference}` : row.goalDifference}</span>
@@ -159,6 +160,29 @@ function matchView(item: Match) {
     )}
   </article>
 </aside>
+
+<script>
+  const loadTeamBadge = (image: HTMLImageElement) => {
+    const source = image.dataset.src;
+    if (!source) return;
+    image.src = source;
+    image.removeAttribute('data-src');
+  };
+
+  const teamBadges = document.querySelectorAll<HTMLImageElement>('img[data-team-badge]');
+  if (!('IntersectionObserver' in window)) {
+    teamBadges.forEach(loadTeamBadge);
+  } else {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting || !(entry.target instanceof HTMLImageElement)) return;
+        loadTeamBadge(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: '320px 0px', threshold: 0 });
+    teamBadges.forEach((image) => observer.observe(image));
+  }
+</script>
 
 <script>
   document.querySelectorAll<HTMLElement>('.today-card--tonight').forEach((card) => {

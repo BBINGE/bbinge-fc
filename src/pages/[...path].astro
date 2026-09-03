@@ -28,6 +28,13 @@ import FashionProfileCard from '../components/FashionProfileCard.astro';
 import { archiveBranches } from '../data/archive';
 import { cultureSections, getCultureSectionPath } from '../config/culture';
 
+const responsiveCoverImages: Record<string, { webpSrcset: string; sizes: string }> = {
+  '/images/culture/real-madrid-2627-home/campaign-trio.jpg': {
+    webpSrcset: '/images/culture/real-madrid-2627-home/campaign-trio-768.webp 768w, /images/culture/real-madrid-2627-home/campaign-trio-1200.webp 1200w, /images/culture/real-madrid-2627-home/campaign-trio-1600.webp 1600w',
+    sizes: '(max-width: 767px) calc(100vw - 32px), (max-width: 1120px) calc(100vw - 48px), 1032px',
+  },
+};
+
 type CategoryProps = { kind: 'category'; categorySlug: string };
 type ArticleProps = { kind: 'article'; entry: CollectionEntry<'articles'> };
 
@@ -250,6 +257,8 @@ if (props.kind === 'category') {
             caption={articleView.entry.data.coverImageCaption}
             width={articleView.entry.data.coverImageWidth}
             height={articleView.entry.data.coverImageHeight}
+            webpSrcset={responsiveCoverImages[articleView.entry.data.coverImage]?.webpSrcset}
+            sizes={responsiveCoverImages[articleView.entry.data.coverImage]?.sizes}
           />
         )}
         <div class="article-body text-[17px] md:text-[18px] leading-[1.9] text-[var(--bbfc-ink)]">
@@ -302,6 +311,60 @@ if (props.kind === 'category') {
           }
         }, { rootMargin: '180px 0px', threshold: 0.15 });
         clips.forEach((clip) => observer.observe(clip));
+      })();
+    </script>
+
+    <script is:inline>
+      (() => {
+        const videos = Array.from(document.querySelectorAll('video[data-deferred-autoplay]'));
+        if (!videos.length) return;
+
+        const activate = (video) => {
+          if (!(video instanceof HTMLVideoElement) || video.dataset.mediaReady === 'true') return;
+          const poster = video.dataset.poster;
+          if (poster) video.poster = poster;
+          video.querySelectorAll('source[data-src]').forEach((source) => {
+            if (!(source instanceof HTMLSourceElement)) return;
+            source.src = source.dataset.src ?? '';
+            source.removeAttribute('data-src');
+          });
+          video.dataset.mediaReady = 'true';
+          video.load();
+        };
+
+        if (!('IntersectionObserver' in window)) {
+          videos.forEach((video) => {
+            activate(video);
+            if (video instanceof HTMLVideoElement) video.play().catch(() => {});
+          });
+          return;
+        }
+
+        const loadObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            activate(entry.target);
+            observer.unobserve(entry.target);
+          });
+        }, { rootMargin: '1200px 0px', threshold: 0 });
+
+        const playbackObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            const video = entry.target;
+            if (!(video instanceof HTMLVideoElement)) return;
+            if (entry.isIntersecting) {
+              activate(video);
+              video.play().catch(() => {});
+            } else {
+              video.pause();
+            }
+          });
+        }, { threshold: 0.15 });
+
+        videos.forEach((video) => {
+          loadObserver.observe(video);
+          playbackObserver.observe(video);
+        });
       })();
     </script>
   </Layout>

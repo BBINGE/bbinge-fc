@@ -29,7 +29,7 @@ featured: false
 ## 벨링엄을 가운데 세운 이유부터 볼까요?
 
 <figure class="rm-wide rm-wide--portrait">
-  <img src="/images/culture/real-madrid-2627-home/campaign-trio.jpg" alt="레알 마드리드 2026/27 홈 긴소매 유니폼을 입고 중앙에 선 주드 벨링엄과 양옆의 킬리안 음바페, 비니시우스 주니오르" width="2000" height="2667" loading="lazy" decoding="async" />
+  <img src="/images/culture/real-madrid-2627-home/campaign-trio-768.webp" srcset="/images/culture/real-madrid-2627-home/campaign-trio-768.webp 768w, /images/culture/real-madrid-2627-home/campaign-trio-1200.webp 1200w, /images/culture/real-madrid-2627-home/campaign-trio-1600.webp 1600w" sizes="(max-width: 767px) calc(100vw - 32px), 760px" alt="레알 마드리드 2026/27 홈 긴소매 유니폼을 입고 중앙에 선 주드 벨링엄과 양옆의 킬리안 음바페, 비니시우스 주니오르" width="2000" height="2667" loading="lazy" decoding="async" />
   <figcaption>벨링엄의 정면성과 음바페·비니시우스의 서로 다른 표정이 한 장에서 스타 라인을 완성한다.<small class="rm-credit">Campaign image: adidas, via House of Heat</small></figcaption>
 </figure>
 
@@ -99,8 +99,8 @@ featured: false
 ## 경기장 밖에서는 긴소매가 의외로 예뻐요
 
 <div class="rm-style-video">
-  <video autoplay muted loop playsinline preload="metadata" poster="/images/culture/real-madrid-2627-home/product-long-sleeve-poster.png" aria-label="레알 마드리드 2026/27 긴소매 홈 저지를 입은 모델의 회전 영상">
-    <source src="/images/culture/real-madrid-2627-home/product-long-sleeve.webm" type="video/webm" />
+  <video muted loop playsinline preload="none" data-deferred-autoplay data-poster="/images/culture/real-madrid-2627-home/product-long-sleeve-poster.webp" aria-label="레알 마드리드 2026/27 긴소매 홈 저지를 입은 모델의 회전 영상">
+    <source data-src="/images/culture/real-madrid-2627-home/product-long-sleeve.webm" type="video/webm" />
   </video>
   <div>
     <span class="rm-kicker">WEAR IT OUT</span>
@@ -117,21 +117,21 @@ featured: false
 <div class="rm-shop-grid" aria-label="레알 마드리드 2026/27 홈 유니폼 세 가지 선택">
   <a class="rm-shop-card rm-shop-card--main" href="/go/adidas-real-madrid-jz7206" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="JZ7206">
     <span class="rm-shop-card__media">
-      <video autoplay muted loop playsinline preload="metadata" poster="/images/culture/real-madrid-2627-home/product-standard-poster.png" aria-label="레알 마드리드 2026/27 일반 홈 저지를 입은 모델 영상"><source src="/images/culture/real-madrid-2627-home/product-standard.webm" type="video/webm" /></video>
+      <video muted loop playsinline preload="none" data-deferred-autoplay data-poster="/images/culture/real-madrid-2627-home/product-standard-poster.webp" aria-label="레알 마드리드 2026/27 일반 홈 저지를 입은 모델 영상"><source data-src="/images/culture/real-madrid-2627-home/product-standard.webm" type="video/webm" /></video>
       <span class="rm-shop-card__badge">가장 먼저 볼 선택</span>
     </span>
     <span class="rm-shop-card__copy"><small>MAIN · JZ7206</small><strong>레알 마드리드 2026/27<br />홈 저지</strong><span>일상 착용과 경기 관람 사이의 균형. 처음 한 장을 고른다면 이쪽이 가장 무난하다.</span><b class="rm-shop-card__price">129,000원</b><span class="rm-shop-card__cta">아디다스 코리아에서 보기 <i aria-hidden="true">↗</i></span></span>
   </a>
   <a class="rm-shop-card rm-shop-card--premium" href="/go/adidas-real-madrid-jz7218" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="JZ7218">
     <span class="rm-shop-card__media">
-      <video autoplay muted loop playsinline preload="metadata" poster="/images/culture/real-madrid-2627-home/product-authentic-poster.png" aria-label="레알 마드리드 2026/27 홈 어센틱 저지의 소재와 인증 디테일 영상"><source src="/images/culture/real-madrid-2627-home/product-authentic.webm" type="video/webm" /></video>
+      <video muted loop playsinline preload="none" data-deferred-autoplay data-poster="/images/culture/real-madrid-2627-home/product-authentic-poster.webp" aria-label="레알 마드리드 2026/27 홈 어센틱 저지의 소재와 인증 디테일 영상"><source data-src="/images/culture/real-madrid-2627-home/product-authentic.webm" type="video/webm" /></video>
       <span class="rm-shop-card__badge">선수 사양에 가까운 선택</span>
     </span>
     <span class="rm-shop-card__copy"><small>AUTHENTIC · JZ7218</small><strong>레알 마드리드 2026/27<br />홈 어센틱 저지</strong><span>소재의 가벼움과 경기복에 가까운 디테일이 우선일 때 고르는 프리미엄 버전.</span><b class="rm-shop-card__price">199,000원</b><span class="rm-shop-card__cta">어센틱 디테일 확인하기 <i aria-hidden="true">↗</i></span></span>
   </a>
   <a class="rm-shop-card rm-shop-card--style" href="/go/adidas-real-madrid-kc3952" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="KC3952">
     <span class="rm-shop-card__media">
-      <video autoplay muted loop playsinline preload="metadata" poster="/images/culture/real-madrid-2627-home/product-long-sleeve-poster.png" aria-label="레알 마드리드 2026/27 긴소매 홈 저지를 입은 모델 영상"><source src="/images/culture/real-madrid-2627-home/product-long-sleeve.webm" type="video/webm" /></video>
+      <video muted loop playsinline preload="none" data-deferred-autoplay data-poster="/images/culture/real-madrid-2627-home/product-long-sleeve-poster.webp" aria-label="레알 마드리드 2026/27 긴소매 홈 저지를 입은 모델 영상"><source data-src="/images/culture/real-madrid-2627-home/product-long-sleeve.webm" type="video/webm" /></video>
       <span class="rm-shop-card__badge">스타일링이 우선이라면</span>
     </span>
     <span class="rm-shop-card__copy"><small>LONG SLEEVE · KC3952</small><strong>레알 마드리드 2026/27<br />긴소매 홈 저지</strong><span>핑크색 삼선을 길게 살리고 데님과 단독으로 입기 좋은 패션 중심의 선택.</span><b class="rm-shop-card__price">139,000원</b><span class="rm-shop-card__cta">긴소매 착장 보러 가기 <i aria-hidden="true">↗</i></span></span>
