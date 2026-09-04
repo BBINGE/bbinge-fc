@@ -9,41 +9,86 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
 
 <section class="privacy-choice" data-privacy-panel hidden aria-labelledby="privacy-choice-title">
   <div class="privacy-choice__inner">
-    <div>
+    <div class="privacy-choice__intro">
       <p class="privacy-choice__eyebrow">PRIVACY CHOICE</p>
       <h2 id="privacy-choice-title">선택 정보 처리를 직접 정할 수 있습니다</h2>
       <p data-privacy-message>
-        필수 보안·전송 기능 외에 방문 분석과 광고 관련 스크립트는 동의한 경우에만 불러옵니다.
-        자세한 항목과 국외 이전 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.
+        필수 보안·전송 기능 외의 항목은 각각 선택할 수 있습니다. 동의하지 않아도 모든 기사를 볼 수 있으며,
+        자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.
       </p>
     </div>
-    <div class="privacy-choice__actions">
-      <button type="button" class="privacy-choice__button privacy-choice__button--primary" data-privacy-allow>선택 정보 처리 동의</button>
-      <button type="button" class="privacy-choice__button" data-privacy-deny>필수 기능만 사용</button>
-      <button type="button" class="privacy-choice__close" data-privacy-close hidden>닫기</button>
-    </div>
+    <form data-privacy-form>
+      <fieldset class="privacy-choice__options" data-privacy-options>
+        <legend class="sr-only">선택 정보 처리 항목</legend>
+        <label class="privacy-choice__option">
+          <input type="checkbox" data-consent-analytics />
+          <span>
+            <strong>방문 분석 수집·이용 동의 <em>선택</em></strong>
+            <small>방문 페이지·유입 경로·이용 시간·기기 정보와 쿠키 식별자를 콘텐츠 및 제휴 성과 분석에 사용합니다. NAVER 데이터는 1년, Google은 이벤트 2개월·사용자 14개월 동안 보관합니다. 거부해도 기사 이용에는 영향이 없습니다.</small>
+          </span>
+        </label>
+        <label class="privacy-choice__option">
+          <input type="checkbox" data-consent-google-transfer />
+          <span>
+            <strong>Google 국외 이전 동의 <em>선택</em></strong>
+            <small>선택 후 페이지 방문·광고 이용 시 식별자·IP·기기·방문·광고 기록을 Google LLC(<a href="https://support.google.com/policies/contact/general_privacy_form" target="_blank" rel="noopener noreferrer">개인정보 문의</a>)가 운영하는 <a href="https://www.google.com/about/datacenters/locations/" target="_blank" rel="noopener noreferrer">미국 등 국가</a>로 전송합니다. 분석·광고 제공과 측정에 사용되며, 분석 데이터는 2개월·14개월, 광고 데이터는 Google 보관정책에 따른 기간 동안 보관합니다. 거부하면 Google 분석·광고만 작동하지 않습니다.</small>
+          </span>
+        </label>
+        <label class="privacy-choice__option">
+          <input type="checkbox" data-consent-ads />
+          <span>
+            <strong>Google 광고 쿠키 동의 <em>선택</em></strong>
+            <small>본 사이트 또는 다른 사이트의 이전 방문 기록을 바탕으로 맞춤·비맞춤 광고를 제공하고 노출·성과를 측정합니다. 위 국외 이전에도 동의한 경우에만 광고 스크립트가 작동합니다.</small>
+          </span>
+        </label>
+      </fieldset>
+      <div class="privacy-choice__actions" data-privacy-actions>
+        <button type="submit" class="privacy-choice__button privacy-choice__button--primary" data-privacy-save>선택 저장</button>
+        <button type="button" class="privacy-choice__button" data-privacy-deny>필수 기능만 사용</button>
+        <button type="button" class="privacy-choice__close" data-privacy-close hidden>닫기</button>
+      </div>
+    </form>
   </div>
 </section>
 
 <script is:inline define:vars={{ analyticsEligible, adsEligible }}>
   (() => {
-    const STORAGE_KEY = 'bbfc_optional_data_choice_v1';
+    const STORAGE_KEY = 'bbfc_optional_data_choice_v2';
     const panel = document.querySelector('[data-privacy-panel]');
     const message = panel?.querySelector('[data-privacy-message]');
-    const allowButton = panel?.querySelector('[data-privacy-allow]');
+    const form = panel?.querySelector('[data-privacy-form]');
+    const options = panel?.querySelector('[data-privacy-options]');
+    const actions = panel?.querySelector('[data-privacy-actions]');
+    const analyticsConsent = panel?.querySelector('[data-consent-analytics]');
+    const googleTransferConsent = panel?.querySelector('[data-consent-google-transfer]');
+    const adsConsent = panel?.querySelector('[data-consent-ads]');
     const denyButton = panel?.querySelector('[data-privacy-deny]');
     const closeButton = panel?.querySelector('[data-privacy-close]');
-    if (!(panel instanceof HTMLElement) || !(message instanceof HTMLElement)) return;
+    if (!(panel instanceof HTMLElement) || !(message instanceof HTMLElement) || !(form instanceof HTMLFormElement)) return;
 
     let optionalScriptsAllowed = false;
     let regionResolved = false;
-    let activated = false;
+    let googleAnalyticsActivated = false;
+    let naverAnalyticsActivated = false;
+    let adsActivated = false;
+
+    const emptyChoice = () => ({ decided: false, analytics: false, googleTransfer: false, ads: false });
 
     const readChoice = () => {
-      try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (!stored) return emptyChoice();
+        const parsed = JSON.parse(stored);
+        return {
+          decided: parsed?.decided === true,
+          analytics: parsed?.analytics === true,
+          googleTransfer: parsed?.googleTransfer === true,
+          ads: parsed?.ads === true,
+        };
+      } catch { return emptyChoice(); }
     };
-    const saveChoice = (value) => {
-      try { localStorage.setItem(STORAGE_KEY, value); } catch {}
+    const saveChoice = (choice) => {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(choice)); } catch {}
     };
     const loadScript = (src, attributes = {}) => new Promise((resolve, reject) => {
       if (document.querySelector(`script[src="${src}"]`)) return resolve();
@@ -56,8 +101,9 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
       document.head.appendChild(script);
     });
 
-    const activateAnalytics = () => {
-      if (!analyticsEligible) return;
+    const activateGoogleAnalytics = () => {
+      if (!analyticsEligible || googleAnalyticsActivated) return;
+      googleAnalyticsActivated = true;
       window.dataLayer = window.dataLayer || [];
       window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
       window.gtag('js', new Date());
@@ -80,6 +126,11 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
         });
       }
 
+    };
+
+    const activateNaverAnalytics = () => {
+      if (!analyticsEligible || naverAnalyticsActivated) return;
+      naverAnalyticsActivated = true;
       loadScript('https://wcs.pstatic.net/wcslog.js').then(() => {
         window.wcs_add = window.wcs_add || {};
         window.wcs_add.wa = '25cc1f313cc6800';
@@ -88,7 +139,8 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
     };
 
     const activateAds = () => {
-      if (!adsEligible) return;
+      if (!adsEligible || adsActivated) return;
+      adsActivated = true;
       loadScript(
         'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649211764099932',
         { crossorigin: 'anonymous' },
@@ -96,39 +148,75 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
     };
 
     const activateOptionalScripts = () => {
-      if (activated || !optionalScriptsAllowed || readChoice() !== 'allow') return;
-      activated = true;
-      activateAnalytics();
-      activateAds();
+      if (!optionalScriptsAllowed) return;
+      const choice = readChoice();
+      if (!choice.decided) return;
+      if (choice.analytics) activateNaverAnalytics();
+      if (choice.analytics && choice.googleTransfer) activateGoogleAnalytics();
+      if (choice.ads && choice.googleTransfer) activateAds();
+    };
+
+    const syncInputs = (choice) => {
+      if (analyticsConsent instanceof HTMLInputElement) analyticsConsent.checked = choice.analytics;
+      if (googleTransferConsent instanceof HTMLInputElement) googleTransferConsent.checked = choice.googleTransfer;
+      if (adsConsent instanceof HTMLInputElement) adsConsent.checked = choice.ads;
     };
 
     const setPanelState = (forceOpen = false) => {
       const choice = readChoice();
+      syncInputs(choice);
       if (!optionalScriptsAllowed) {
         message.innerHTML = '현재 접속 지역에서는 선택 분석·광고 스크립트를 불러오지 않습니다. 필수 보안·전송 기능만 작동합니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.';
-        if (allowButton instanceof HTMLElement) allowButton.hidden = true;
+        if (options instanceof HTMLElement) options.hidden = true;
+        if (actions instanceof HTMLElement) actions.hidden = false;
         if (denyButton instanceof HTMLElement) denyButton.hidden = true;
+        const saveButton = panel.querySelector('[data-privacy-save]');
+        if (saveButton instanceof HTMLElement) saveButton.hidden = true;
         if (closeButton instanceof HTMLElement) closeButton.hidden = false;
       } else {
-        message.innerHTML = choice === 'allow'
-          ? '현재 방문 분석과 광고 관련 선택 정보 처리에 동의한 상태입니다. 선택을 철회하면 다음 페이지부터 해당 스크립트를 불러오지 않습니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.'
-          : choice === 'deny'
-            ? '현재 필수 보안·전송 기능만 사용합니다. 원하면 방문 분석과 광고 관련 선택 정보 처리에 다시 동의할 수 있습니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.'
-            : '필수 보안·전송 기능 외에 방문 분석과 광고 관련 스크립트는 동의한 경우에만 불러옵니다. 자세한 항목과 국외 이전 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.';
-        if (allowButton instanceof HTMLElement) allowButton.hidden = false;
+        message.innerHTML = choice.decided
+          ? '저장된 선택을 항목별로 바꿀 수 있습니다. 동의를 철회하면 페이지를 다시 불러와 해당 스크립트를 즉시 차단합니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.'
+          : '필수 보안·전송 기능 외의 항목은 각각 선택할 수 있습니다. 동의하지 않아도 모든 기사를 볼 수 있으며, 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.';
+        if (options instanceof HTMLElement) options.hidden = false;
+        if (actions instanceof HTMLElement) actions.hidden = false;
+        const saveButton = panel.querySelector('[data-privacy-save]');
+        if (saveButton instanceof HTMLElement) saveButton.hidden = false;
         if (denyButton instanceof HTMLElement) denyButton.hidden = false;
-        if (closeButton instanceof HTMLElement) closeButton.hidden = !choice;
+        if (closeButton instanceof HTMLElement) closeButton.hidden = !choice.decided;
       }
-      panel.hidden = !forceOpen && Boolean(choice || !optionalScriptsAllowed);
+      panel.hidden = !forceOpen && Boolean(choice.decided || !optionalScriptsAllowed);
     };
 
-    allowButton?.addEventListener('click', () => {
-      saveChoice('allow');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const previousChoice = readChoice();
+      const nextChoice = {
+        decided: true,
+        analytics: analyticsConsent instanceof HTMLInputElement && analyticsConsent.checked,
+        googleTransfer: googleTransferConsent instanceof HTMLInputElement && googleTransferConsent.checked,
+        ads: adsConsent instanceof HTMLInputElement && adsConsent.checked,
+      };
+      const requiresReload = previousChoice.decided && (
+        (previousChoice.analytics && !nextChoice.analytics)
+        || (previousChoice.googleTransfer && !nextChoice.googleTransfer)
+        || (previousChoice.ads && !nextChoice.ads)
+      );
+      saveChoice(nextChoice);
+      if (requiresReload) {
+        window.location.reload();
+        return;
+      }
       panel.hidden = true;
       activateOptionalScripts();
     });
     denyButton?.addEventListener('click', () => {
-      saveChoice('deny');
+      const previousChoice = readChoice();
+      saveChoice({ decided: true, analytics: false, googleTransfer: false, ads: false });
+      if (previousChoice.analytics || previousChoice.googleTransfer || previousChoice.ads) {
+        window.location.reload();
+        return;
+      }
+      syncInputs(readChoice());
       panel.hidden = true;
     });
     closeButton?.addEventListener('click', () => { panel.hidden = true; });
@@ -167,7 +255,9 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
     left: 1rem;
     z-index: 80;
     margin: 0 auto;
-    max-width: 920px;
+    max-width: 1080px;
+    max-height: calc(100dvh - 2rem);
+    overflow-y: auto;
     border: 1px solid color-mix(in srgb, var(--bbfc-blue) 38%, var(--bbfc-border));
     border-radius: 16px;
     background: rgba(255, 255, 255, .98);
@@ -179,12 +269,18 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
   .privacy-choice h2 { margin-top: .3rem; color: var(--bbfc-ink); font-size: 18px; font-weight: 700; line-height: 1.4; }
   .privacy-choice p:not(.privacy-choice__eyebrow) { margin-top: .45rem; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.65; }
   .privacy-choice a { color: var(--bbfc-blue-strong); text-decoration: underline; text-underline-offset: 3px; }
+  .privacy-choice__options { display: grid; gap: .65rem; margin: 0; padding: 0; border: 0; }
+  .privacy-choice__option { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: .65rem; padding: .75rem; border: 1px solid var(--bbfc-border); border-radius: 12px; background: var(--bbfc-fill-2); cursor: pointer; }
+  .privacy-choice__option input { width: 20px; height: 20px; margin: .1rem 0 0; accent-color: var(--bbfc-blue-strong); }
+  .privacy-choice__option strong { display: block; color: var(--bbfc-ink); font-size: 14px; line-height: 1.45; }
+  .privacy-choice__option em { color: var(--bbfc-blue-strong); font-size: 13px; font-style: normal; }
+  .privacy-choice__option small { display: block; margin-top: .25rem; color: var(--bbfc-gray-1); font-size: 13px; line-height: 1.55; }
   .privacy-choice__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
   .privacy-choice__button,
   .privacy-choice__close {
     min-height: 42px;
     padding: .65rem .9rem;
-    border: 1px solid var(--bbfc-border-strong);
+    border: 1px solid var(--bbfc-gray-3);
     border-radius: 10px;
     background: #fff;
     color: var(--bbfc-ink-2);
@@ -195,8 +291,9 @@ const { analyticsEligible = true, adsEligible = true } = Astro.props;
   }
   .privacy-choice__button--primary { border-color: var(--bbfc-blue-strong); background: var(--bbfc-blue-strong); color: #fff; }
   .privacy-choice__close { margin-left: auto; }
-  @media (min-width: 768px) {
-    .privacy-choice__inner { grid-template-columns: minmax(0, 1fr) auto; align-items: center; padding: 1.25rem 1.35rem; }
-    .privacy-choice__actions { max-width: 360px; justify-content: flex-end; }
+  @media (min-width: 900px) {
+    .privacy-choice__inner { padding: 1.25rem 1.35rem; }
+    .privacy-choice__options { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .privacy-choice__actions { justify-content: flex-end; }
   }
 </style>

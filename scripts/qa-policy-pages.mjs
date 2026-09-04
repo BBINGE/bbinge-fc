@@ -17,7 +17,10 @@ const browser = await chromium.launch({ headless: true });
 
 for (const viewport of viewports) {
   const context = await browser.newContext({ viewport });
-  await context.addInitScript(() => localStorage.removeItem('bbfc_optional_data_choice_v1'));
+  await context.addInitScript(() => {
+    localStorage.removeItem('bbfc_optional_data_choice_v1');
+    localStorage.removeItem('bbfc_optional_data_choice_v2');
+  });
   await context.route('**/api/privacy/region', (route) => route.fulfill({
     status: 200,
     contentType: 'application/json',
@@ -51,7 +54,10 @@ for (const viewport of viewports) {
 }
 
 const denyContext = await browser.newContext({ viewport: viewports[0] });
-await denyContext.addInitScript(() => localStorage.removeItem('bbfc_optional_data_choice_v1'));
+await denyContext.addInitScript(() => {
+  localStorage.removeItem('bbfc_optional_data_choice_v1');
+  localStorage.removeItem('bbfc_optional_data_choice_v2');
+});
 await denyContext.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","optionalScriptsAllowed":true}' }));
 const optionalRequests = [];
 const denyPage = await denyContext.newPage();
@@ -60,15 +66,50 @@ denyPage.on('request', (request) => {
 });
 await denyPage.goto(`${baseURL}/`, { waitUntil: 'domcontentloaded' });
 await denyPage.waitForSelector('[data-privacy-panel]:not([hidden])');
-await denyPage.click('[data-privacy-deny]');
+await denyPage.click('[data-privacy-deny]', { force: true });
 await denyPage.waitForTimeout(150);
-const savedChoice = await denyPage.evaluate(() => localStorage.getItem('bbfc_optional_data_choice_v1'));
-if (savedChoice !== 'deny') failures.push('필수 기능만 사용 선택이 저장되지 않음');
+const savedChoice = await denyPage.evaluate(() => JSON.parse(localStorage.getItem('bbfc_optional_data_choice_v2') || '{}'));
+if (!savedChoice.decided || savedChoice.analytics || savedChoice.googleTransfer || savedChoice.ads) failures.push('필수 기능만 사용 선택이 항목별로 저장되지 않음');
 if (optionalRequests.length) failures.push('동의 전 선택 스크립트 요청이 발생함');
 await denyContext.close();
 
+const verifySeparatedChoice = async (name, choices, expectedProviders) => {
+  const context = await browser.newContext({ viewport: viewports[0] });
+  await context.addInitScript(() => localStorage.removeItem('bbfc_optional_data_choice_v2'));
+  await context.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","optionalScriptsAllowed":true}' }));
+  const requests = [];
+  for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndication.com/**', '**wcs.pstatic.net/**']) {
+    await context.route(pattern, (route) => {
+      requests.push(route.request().url());
+      return route.fulfill({ status: 200, contentType: 'application/javascript', body: '' });
+    });
+  }
+  const page = await context.newPage();
+  await page.goto(`${baseURL}/`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('[data-privacy-panel]:not([hidden])');
+  if (choices.analytics) await page.check('[data-consent-analytics]', { force: true });
+  if (choices.googleTransfer) await page.check('[data-consent-google-transfer]', { force: true });
+  if (choices.ads) await page.check('[data-consent-ads]', { force: true });
+  await page.click('[data-privacy-save]', { force: true });
+  await page.waitForTimeout(150);
+  const providerTokens = ['googletagmanager.com', 'googlesyndication.com', 'wcs.pstatic.net'];
+  for (const provider of providerTokens) {
+    const requested = requests.some((url) => url.includes(provider));
+    if (requested !== expectedProviders.includes(provider)) failures.push(`${name}: ${provider} 분리 동의 조건 불일치`);
+  }
+  await context.close();
+};
+
+await verifySeparatedChoice('방문 분석만 동의', { analytics: true }, ['wcs.pstatic.net']);
+await verifySeparatedChoice('방문 분석·국외 이전 동의', { analytics: true, googleTransfer: true }, ['googletagmanager.com', 'wcs.pstatic.net']);
+await verifySeparatedChoice('광고 쿠키만 동의', { ads: true }, []);
+await verifySeparatedChoice('국외 이전·광고 쿠키 동의', { googleTransfer: true, ads: true }, ['googlesyndication.com']);
+
 const allowContext = await browser.newContext({ viewport: viewports[0] });
-await allowContext.addInitScript(() => localStorage.removeItem('bbfc_optional_data_choice_v1'));
+await allowContext.addInitScript(() => {
+  localStorage.removeItem('bbfc_optional_data_choice_v1');
+  localStorage.removeItem('bbfc_optional_data_choice_v2');
+});
 await allowContext.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","optionalScriptsAllowed":true}' }));
 const allowedRequests = [];
 for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndication.com/**', '**wcs.pstatic.net/**']) {
@@ -80,10 +121,13 @@ for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndica
 const allowPage = await allowContext.newPage();
 await allowPage.goto(`${baseURL}/`, { waitUntil: 'domcontentloaded' });
 await allowPage.waitForSelector('[data-privacy-panel]:not([hidden])');
-await allowPage.click('[data-privacy-allow]');
+await allowPage.check('[data-consent-analytics]', { force: true });
+await allowPage.check('[data-consent-google-transfer]', { force: true });
+await allowPage.check('[data-consent-ads]', { force: true });
+await allowPage.click('[data-privacy-save]', { force: true });
 await allowPage.waitForTimeout(250);
-const acceptedChoice = await allowPage.evaluate(() => localStorage.getItem('bbfc_optional_data_choice_v1'));
-if (acceptedChoice !== 'allow') failures.push('선택 정보 처리 동의가 저장되지 않음');
+const acceptedChoice = await allowPage.evaluate(() => JSON.parse(localStorage.getItem('bbfc_optional_data_choice_v2') || '{}'));
+if (!acceptedChoice.decided || !acceptedChoice.analytics || !acceptedChoice.googleTransfer || !acceptedChoice.ads) failures.push('세 선택 동의가 각각 저장되지 않음');
 for (const provider of ['googletagmanager.com', 'googlesyndication.com', 'wcs.pstatic.net']) {
   if (!allowedRequests.some((url) => url.includes(provider))) failures.push(`동의 후 ${provider} 스크립트 요청이 없음`);
 }
@@ -96,5 +140,5 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`정책 화면 검수 통과: ${paths.length}페이지 × ${viewports.length}화면, 390·768·1440px, 동의 전 0건·동의 후 3개 제공자 로드`);
+console.log(`정책 화면 검수 통과: ${paths.length}페이지 × ${viewports.length}화면, 390·768·1440px, 4개 분리 동의 조합·동의 전 0건·전체 동의 후 3개 제공자 로드`);
 console.log(`검수 이미지: ${outputDirectory}`);
