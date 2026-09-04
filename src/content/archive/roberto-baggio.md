@@ -199,7 +199,6 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223490814382" rel="noopener noreferrer">삥이 네이버 블로그: 판타지스타 로베르토 바조</a>: 박성호가 작성한 기존 평가·기록·수상 목록과 세 영상의 출발점.</li>
   <li><a href="https://www.figc.it/it/full-html?path=%2Fmuseo-del-calcio%2Fhall-of-fame%2Fle-stelle%2Froberto-baggio" rel="noopener noreferrer">FIGC Museo del Calcio: Roberto Baggio</a>: 출생, 7개 클럽 643경기, 세리에 A 205골, 대표팀과 주요 우승·개인상.</li>
   <li><a href="https://figc.it/it/nazionali/nazionali-in-cifre/dettaglio-convocato/?calciatoreId=43346&amp;squadraid=12" rel="noopener noreferrer">FIGC: Roberto Baggio 대표팀 기록</a>: A매치 56경기 27골.</li>
   <li><a href="https://figc.it/it/nazionali/palmares-storia/mondiali/1994/" rel="noopener noreferrer">FIGC: 1994 FIFA 월드컵</a>: 토너먼트 5골과 결승 승부차기 순서.</li>
