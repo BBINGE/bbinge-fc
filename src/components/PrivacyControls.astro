@@ -1,0 +1,202 @@
+---
+interface Props {
+  analyticsEligible?: boolean;
+  adsEligible?: boolean;
+}
+
+const { analyticsEligible = true, adsEligible = true } = Astro.props;
+---
+
+<section class="privacy-choice" data-privacy-panel hidden aria-labelledby="privacy-choice-title">
+  <div class="privacy-choice__inner">
+    <div>
+      <p class="privacy-choice__eyebrow">PRIVACY CHOICE</p>
+      <h2 id="privacy-choice-title">선택 정보 처리를 직접 정할 수 있습니다</h2>
+      <p data-privacy-message>
+        필수 보안·전송 기능 외에 방문 분석과 광고 관련 스크립트는 동의한 경우에만 불러옵니다.
+        자세한 항목과 국외 이전 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.
+      </p>
+    </div>
+    <div class="privacy-choice__actions">
+      <button type="button" class="privacy-choice__button privacy-choice__button--primary" data-privacy-allow>선택 정보 처리 동의</button>
+      <button type="button" class="privacy-choice__button" data-privacy-deny>필수 기능만 사용</button>
+      <button type="button" class="privacy-choice__close" data-privacy-close hidden>닫기</button>
+    </div>
+  </div>
+</section>
+
+<script is:inline define:vars={{ analyticsEligible, adsEligible }}>
+  (() => {
+    const STORAGE_KEY = 'bbfc_optional_data_choice_v1';
+    const panel = document.querySelector('[data-privacy-panel]');
+    const message = panel?.querySelector('[data-privacy-message]');
+    const allowButton = panel?.querySelector('[data-privacy-allow]');
+    const denyButton = panel?.querySelector('[data-privacy-deny]');
+    const closeButton = panel?.querySelector('[data-privacy-close]');
+    if (!(panel instanceof HTMLElement) || !(message instanceof HTMLElement)) return;
+
+    let optionalScriptsAllowed = false;
+    let regionResolved = false;
+    let activated = false;
+
+    const readChoice = () => {
+      try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+    };
+    const saveChoice = (value) => {
+      try { localStorage.setItem(STORAGE_KEY, value); } catch {}
+    };
+    const loadScript = (src, attributes = {}) => new Promise((resolve, reject) => {
+      if (document.querySelector(`script[src="${src}"]`)) return resolve();
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      Object.entries(attributes).forEach(([name, value]) => script.setAttribute(name, value));
+      script.addEventListener('load', resolve, { once: true });
+      script.addEventListener('error', reject, { once: true });
+      document.head.appendChild(script);
+    });
+
+    const activateAnalytics = () => {
+      if (!analyticsEligible) return;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-3931E0CPPK');
+      loadScript('https://www.googletagmanager.com/gtag/js?id=G-3931E0CPPK').catch(() => {});
+
+      if (!window.__bbfcAffiliateTrackingBound) {
+        window.__bbfcAffiliateTrackingBound = true;
+        document.addEventListener('click', (event) => {
+          const target = event.target;
+          if (!(target instanceof Element)) return;
+          const link = target.closest('[data-affiliate-link]');
+          if (!(link instanceof HTMLAnchorElement) || typeof window.gtag !== 'function') return;
+          window.gtag('event', 'affiliate_click', {
+            affiliate_network: link.dataset.affiliateNetwork || '',
+            merchant: link.dataset.affiliateMerchant || '',
+            item_id: link.dataset.affiliateProduct || '',
+            link_url: link.href,
+          });
+        });
+      }
+
+      loadScript('https://wcs.pstatic.net/wcslog.js').then(() => {
+        window.wcs_add = window.wcs_add || {};
+        window.wcs_add.wa = '25cc1f313cc6800';
+        if (window.wcs) window.wcs_do();
+      }).catch(() => {});
+    };
+
+    const activateAds = () => {
+      if (!adsEligible) return;
+      loadScript(
+        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649211764099932',
+        { crossorigin: 'anonymous' },
+      ).catch(() => {});
+    };
+
+    const activateOptionalScripts = () => {
+      if (activated || !optionalScriptsAllowed || readChoice() !== 'allow') return;
+      activated = true;
+      activateAnalytics();
+      activateAds();
+    };
+
+    const setPanelState = (forceOpen = false) => {
+      const choice = readChoice();
+      if (!optionalScriptsAllowed) {
+        message.innerHTML = '현재 접속 지역에서는 선택 분석·광고 스크립트를 불러오지 않습니다. 필수 보안·전송 기능만 작동합니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.';
+        if (allowButton instanceof HTMLElement) allowButton.hidden = true;
+        if (denyButton instanceof HTMLElement) denyButton.hidden = true;
+        if (closeButton instanceof HTMLElement) closeButton.hidden = false;
+      } else {
+        message.innerHTML = choice === 'allow'
+          ? '현재 방문 분석과 광고 관련 선택 정보 처리에 동의한 상태입니다. 선택을 철회하면 다음 페이지부터 해당 스크립트를 불러오지 않습니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.'
+          : choice === 'deny'
+            ? '현재 필수 보안·전송 기능만 사용합니다. 원하면 방문 분석과 광고 관련 선택 정보 처리에 다시 동의할 수 있습니다. 자세한 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.'
+            : '필수 보안·전송 기능 외에 방문 분석과 광고 관련 스크립트는 동의한 경우에만 불러옵니다. 자세한 항목과 국외 이전 내용은 <a href="/privacy/">개인정보처리방침</a>에서 확인할 수 있습니다.';
+        if (allowButton instanceof HTMLElement) allowButton.hidden = false;
+        if (denyButton instanceof HTMLElement) denyButton.hidden = false;
+        if (closeButton instanceof HTMLElement) closeButton.hidden = !choice;
+      }
+      panel.hidden = !forceOpen && Boolean(choice || !optionalScriptsAllowed);
+    };
+
+    allowButton?.addEventListener('click', () => {
+      saveChoice('allow');
+      panel.hidden = true;
+      activateOptionalScripts();
+    });
+    denyButton?.addEventListener('click', () => {
+      saveChoice('deny');
+      panel.hidden = true;
+    });
+    closeButton?.addEventListener('click', () => { panel.hidden = true; });
+    document.addEventListener('click', (event) => {
+      const target = event.target;
+      if (!(target instanceof Element) || !target.closest('[data-privacy-settings]')) return;
+      event.preventDefault();
+      setPanelState(true);
+    });
+
+    fetch('/api/privacy/region', { credentials: 'same-origin', cache: 'no-store' })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('region lookup failed')))
+      .then((region) => {
+        optionalScriptsAllowed = region?.optionalScriptsAllowed === true;
+        regionResolved = true;
+        setPanelState();
+        activateOptionalScripts();
+      })
+      .catch(() => {
+        regionResolved = true;
+        optionalScriptsAllowed = false;
+        setPanelState();
+      });
+
+    window.addEventListener('pageshow', () => {
+      if (regionResolved) setPanelState();
+    });
+  })();
+</script>
+
+<style>
+  .privacy-choice {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 80;
+    margin: 0 auto;
+    max-width: 920px;
+    border: 1px solid color-mix(in srgb, var(--bbfc-blue) 38%, var(--bbfc-border));
+    border-radius: 16px;
+    background: rgba(255, 255, 255, .98);
+    box-shadow: 0 18px 48px rgba(15, 23, 42, .2);
+  }
+  .privacy-choice[hidden] { display: none; }
+  .privacy-choice__inner { display: grid; gap: 1rem; padding: 1.1rem; }
+  .privacy-choice__eyebrow { color: var(--bbfc-blue-strong); font-size: 12px; font-weight: 700; letter-spacing: .12em; }
+  .privacy-choice h2 { margin-top: .3rem; color: var(--bbfc-ink); font-size: 18px; font-weight: 700; line-height: 1.4; }
+  .privacy-choice p:not(.privacy-choice__eyebrow) { margin-top: .45rem; color: var(--bbfc-gray-1); font-size: 14px; line-height: 1.65; }
+  .privacy-choice a { color: var(--bbfc-blue-strong); text-decoration: underline; text-underline-offset: 3px; }
+  .privacy-choice__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
+  .privacy-choice__button,
+  .privacy-choice__close {
+    min-height: 42px;
+    padding: .65rem .9rem;
+    border: 1px solid var(--bbfc-border-strong);
+    border-radius: 10px;
+    background: #fff;
+    color: var(--bbfc-ink-2);
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+  .privacy-choice__button--primary { border-color: var(--bbfc-blue-strong); background: var(--bbfc-blue-strong); color: #fff; }
+  .privacy-choice__close { margin-left: auto; }
+  @media (min-width: 768px) {
+    .privacy-choice__inner { grid-template-columns: minmax(0, 1fr) auto; align-items: center; padding: 1.25rem 1.35rem; }
+    .privacy-choice__actions { max-width: 360px; justify-content: flex-end; }
+  }
+</style>

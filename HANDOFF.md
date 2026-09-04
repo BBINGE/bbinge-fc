@@ -12,7 +12,8 @@
 
 ## 현재 운영 상태
 
-- 기준 브랜치는 `main`, 공개 주소는 `https://bbingefc.com`과 `https://bbinge-fc.pages.dev`다. 문서에 적힌 과거 SHA를 현재값으로 믿지 말고 `git fetch origin`, `git status --short --branch`, `git log -10 --oneline`, 공개 `/deploy.json`으로 실제 상태를 확인한다.
+- 기준 브랜치는 `main`, canonical 공개 주소는 `https://bbingefc.com`이다. `https://bbinge-fc.pages.dev`의 일반 문서 주소는 canonical 호스트로 301 이동하며, 배포 검증용 `/deploy.json`과 API·정적 파일은 원래 호스트에서 유지한다. 문서에 적힌 과거 SHA를 현재값으로 믿지 말고 `git fetch origin`, `git status --short --branch`, `git log -10 --oneline`, 공개 `/deploy.json`으로 실제 상태를 확인한다.
+- Google Analytics·NAVER Analytics·Google 광고 스크립트는 방문자가 `선택 정보 처리 동의`를 한 경우에만 불러온다. EEA·영국·스위스와 국가 확인 실패 접속은 Google 인증 CMP 적용 전까지 선택 스크립트를 불러오지 않으며, 푸터의 `개인정보 선택 설정`에서 언제든 동의·철회를 바꿀 수 있다. 삥이FC GA4 실제 보관 설정은 이벤트 2개월·사용자 14개월(새 활동 시 재설정)이다.
 - 클릭 가능한 문구는 전 화면에서 12px 미만으로 내려가지 않게 하고, 검색·층별 안내·카드 CTA는 13px을 우선한다. 메인은 빌드 후 `scripts/optimize-home-images.mjs`가 현재 편성된 이미지에 320·640·960px WebP `srcset`을 자동 생성하므로, 새 글 발행 때 메인 파일을 수동 수정하지 않는다.
 - `/about/store/`의 `층별 안내 · PB 온라인 본점`은 공개 상태다. 1층 메인, 2층 명품관, 3층 오뭐입?·유니폼관, 4층 축행, 5층 오락실, 6층 도서실·세계사관, 7층 전술·축떡관, 8층 명예의 전당, 9층 영화관, 10층 옥상으로 구성된다. 2·3층의 각 관은 축디 전용 목록으로 직접 연결되고, 10층은 별도 빈 페이지 없이 안내판 안에서만 입점 대기중으로 표시한다.
 - 메인 로비에는 `01F FLOOR MAP / 전체 층별 안내` CTA를 노출한다. 검색·다이렉트 유입으로 들어온 카테고리와 글 상단에는 현재 층·관과 전체 안내 링크를 함께 표시하고, 글 하단에는 같은 층 또는 인접 층 두 곳과 전체 안내로 이동하는 엘리베이터를 둔다. 층·관·링크의 단일 데이터는 `src/config/store.ts`이며 `/about/store/`와 공용 길 안내가 함께 사용한다.

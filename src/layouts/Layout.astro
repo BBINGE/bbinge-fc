@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import StoreWayfinding from '../components/StoreWayfinding.astro';
+import PrivacyControls from '../components/PrivacyControls.astro';
 import { site } from '../config/site';
 
 interface Breadcrumb {
@@ -24,6 +25,7 @@ interface Props {
   analyticsEligible?: boolean;
   bodyClass?: string;
   breadcrumbs?: Breadcrumb[];
+  pageUpdatedDate?: Date;
   article?: {
     pubDate: Date;
     updatedDate?: Date;
@@ -53,6 +55,7 @@ const {
   analyticsEligible = true,
   bodyClass,
   breadcrumbs = [{ label: '홈', href: '/' }],
+  pageUpdatedDate,
   article,
   extraSchema,
 } = Astro.props;
@@ -127,6 +130,23 @@ const articleSchema = article
     }
   : null;
 
+const webPageSchema = !article
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': canonicalURL,
+      url: canonicalURL,
+      name: title,
+      description,
+      inLanguage: site.locale,
+      isPartOf: { '@id': `${site.url}/#website` },
+      breadcrumb: breadcrumbSchema,
+      author: { '@id': `${site.url}/#author` },
+      publisher: { '@id': `${site.url}/#organization` },
+      ...(pageUpdatedDate ? { dateModified: pageUpdatedDate.toISOString() } : {}),
+    }
+  : null;
+
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -190,6 +210,7 @@ const authorSchema = {
     <meta name="copyright" content={`© ${article?.pubDate.getFullYear() ?? new Date().getFullYear()} ${site.authorName}(${site.author}) · ${site.name}`} />
     <meta name="robots" content={robots} />
     <meta name="naver-site-verification" content="d6fb2830beb60655dc0db5fb92eae1fe8b1cf6be" />
+    {adsEligible && <meta name="google-adsense-account" content="ca-pub-7649211764099932" />}
     <meta name="theme-color" content="#ffffff" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
 
@@ -212,41 +233,6 @@ const authorSchema = {
     <meta name="twitter:image" content={ogImageURL} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
 
-    {analyticsEligible && (
-      <>
-        <!-- Google tag (gtag.js) -->
-        <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3931E0CPPK"></script>
-        <script is:inline>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-3931E0CPPK');
-          document.addEventListener('click', function(event) {
-            const target = event.target;
-            if (!(target instanceof Element)) return;
-            const link = target.closest('[data-affiliate-link]');
-            if (!(link instanceof HTMLAnchorElement)) return;
-            gtag('event', 'affiliate_click', {
-              affiliate_network: link.dataset.affiliateNetwork || '',
-              merchant: link.dataset.affiliateMerchant || '',
-              item_id: link.dataset.affiliateProduct || '',
-              link_url: link.href
-            });
-          });
-        </script>
-      </>
-    )}
-    {adsEligible && (
-      <>
-        {/* AdSense 사이트 소유권 확인 및 심사용 스니펫. 실제 광고는 권리 확인된 본문 화면의 AdSlot에서만 활성화한다. */}
-        <script
-          is:inline
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649211764099932"
-          crossorigin="anonymous"
-        ></script>
-      </>
-    )}
     <!-- Kakao SDK: 카카오 디벨로퍼스 JavaScript 키 발급 후 이 자리에 <script src="https://t1.kakaocdn.net/kakao_js_sdk/.../kakao.min.js"> 삽입 + Kakao.init(키).
          키 등록 전까지 ShareButtons.astro의 카카오 공유 버튼은 링크 복사로 자동 대체된다. -->
 
@@ -254,6 +240,9 @@ const authorSchema = {
     <script is:inline type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(authorSchema)} />
+    {webPageSchema && (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    )}
     {articleSchema && (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}
@@ -294,18 +283,6 @@ const authorSchema = {
       <StoreWayfinding pathname={Astro.url.pathname} breadcrumbHrefs={breadcrumbs.map((crumb) => crumb.href)} variant="elevator" />
     )}
     <Footer />
-    {analyticsEligible && (
-      <>
-        <!-- NAVER Analytics -->
-        <script is:inline type="text/javascript" src="https://wcs.pstatic.net/wcslog.js"></script>
-        <script is:inline type="text/javascript">
-          if (!window.wcs_add) window.wcs_add = {};
-          window.wcs_add["wa"] = "25cc1f313cc6800";
-          if (window.wcs) {
-            window.wcs_do();
-          }
-        </script>
-      </>
-    )}
+    <PrivacyControls analyticsEligible={analyticsEligible} adsEligible={adsEligible} />
   </body>
 </html>

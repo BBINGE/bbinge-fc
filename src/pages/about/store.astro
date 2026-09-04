@@ -87,7 +87,7 @@ const storeSchema = {
         {floors.map((item, index) => (
           <div
             id={`floor-${item.floor}`}
-            class:list={['floor', !item.href && 'floor--waiting', 'split' in item && item.split && 'floor--split']}
+            class:list={['floor', !('href' in item) && 'floor--waiting', 'split' in item && item.split && 'floor--split']}
             data-floor
             data-floor-number={item.floor}
             data-floor-name={item.name}
@@ -96,27 +96,27 @@ const storeSchema = {
             <span class="floor-number">{item.floor}<small>F</small></span>
             <StoreFloorIcon name={item.icon} />
             <span class="floor-name">
-              {item.href && !('split' in item && item.split) ? (
+              {'href' in item && item.href && !('split' in item && item.split) ? (
                 <a class="floor-title" href={item.href}><b>{item.name}</b><small>{item.en}</small></a>
               ) : (
                 <span class="floor-title"><b>{item.name}</b><small>{item.en}</small></span>
               )}
               {!('split' in item && item.split) && (
                 <span class="floor-zones">
-                  {item.zones.map((zone) => zone.href ? <a href={zone.href}>{zone.label}</a> : <i>{zone.label}</i>)}
+                  {item.zones.map((zone) => 'href' in zone && zone.href ? <a href={zone.href}>{zone.label}</a> : <i>{zone.label}</i>)}
                 </span>
               )}
             </span>
             <span class="floor-copy">{item.copy}</span>
             {'split' in item && item.split ? (
               <span class="floor-actions" role="group" aria-label={`${item.floor}층 입점 공간`}>
-                {item.zones.map((zone) => zone.href && (
+                {item.zones.map((zone) => 'href' in zone && zone.href && (
                   <a class="floor-action" href={zone.href} aria-label={`${item.floor}층 ${zone.label}로 이동`}>
                     <span>{zone.label}</span><i aria-hidden="true">↗</i>
                   </a>
                 ))}
               </span>
-            ) : item.href ? (
+            ) : 'href' in item && item.href ? (
               <a class="floor-arrow" href={item.href} aria-label={`${item.floor}층 ${item.name} 안내로 이동`}><span>입장</span><i aria-hidden="true">↗</i></a>
             ) : (
               <span class="waiting-light" aria-label="입점 대기중"><i></i>WAITING</span>
