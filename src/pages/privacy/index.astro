@@ -32,44 +32,27 @@ const UPDATED_AT = new Date('2026-09-04T00:00:00+09:00');
 
     <section id="processing">
       <h2>1. 개인정보의 처리 목적·항목·보유기간</h2>
-      <div class="privacy-table-wrap">
-        <table class="privacy-data-table">
-          <thead>
-            <tr><th scope="col">구분·목적</th><th scope="col">처리 항목</th><th scope="col">처리 근거</th><th scope="col">보유기간</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td data-label="구분·목적"><strong>이메일 문의</strong><br />문의 확인·답변·후속 업무</td>
-              <td data-label="처리 항목">발신 이메일 주소, 이용자가 적은 이름·소속, 문의 내용과 첨부자료</td>
-              <td data-label="처리 근거">이용자 요청에 따른 조치(개인정보 보호법 제15조 제1항 제4호). 이용자가 자발적으로 제공한 추가 정보는 동의(제1호)</td>
-              <td data-label="보유기간">문의 종료 뒤 지체 없이 삭제. 분쟁 대응이나 법령상 의무가 있으면 해당 기간만 별도 보관</td>
-            </tr>
-            <tr>
-              <td data-label="구분·목적"><strong>사이트 접속·보안</strong><br />사이트 전송, 공격 차단, 장애 대응</td>
-              <td data-label="처리 항목">IP 주소, 브라우저·기기 정보, 접속 시각, 요청 URL, 보안 이벤트</td>
-              <td data-label="처리 근거">서비스 제공 요청의 이행 및 안전한 운영을 위한 정당한 이익(제15조 제1항 제4호·제6호)</td>
-              <td data-label="보유기간">Cloudflare의 계약·보안 정책과 관계 법령에서 정한 기간</td>
-            </tr>
-            <tr>
-              <td data-label="구분·목적"><strong>방문·제휴 통계</strong><br />콘텐츠 개선과 제휴 성과 측정</td>
-              <td data-label="처리 항목">방문 페이지, 유입 경로, 이용 시간, 브라우저·기기 정보, 쿠키 식별자, 제휴 링크 클릭</td>
-              <td data-label="처리 근거">방문 분석 수집·이용 동의(제15조 제1항 제1호). 동의하지 않으면 관련 스크립트를 불러오지 않음</td>
-              <td data-label="보유기간">Google Analytics 이벤트 2개월·사용자 14개월(새 활동 시 재설정), NAVER Analytics 1년</td>
-            </tr>
-            <tr>
-              <td data-label="구분·목적"><strong>축겜 완주 기록</strong><br />GOAT 랭킹과 동일 대진 중복 제출 제한</td>
-              <td data-label="처리 항목">무작위 익명 세션 ID, 대진 seed, 31개 선택 결과, 우승·준우승·4강 결과, 완주 시각</td>
-              <td data-label="처리 근거">이용자가 요청한 토너먼트·랭킹 기능 제공(제15조 제1항 제4호)</td>
-              <td data-label="보유기간">랭킹 서비스 운영기간. 종료 후 지체 없이 삭제</td>
-            </tr>
-            <tr>
-              <td data-label="구분·목적"><strong>축겜 한마디</strong><br />의견 표시, 작성 확인, 부정 이용 방지</td>
-              <td data-label="처리 항목">닉네임과 한마디, 완주 결과와 우승 선수, 작성 시각, 무작위 익명 세션 ID</td>
-              <td data-label="처리 근거">이용자의 게시 요청에 따른 기능 제공(제15조 제1항 제4호)</td>
-              <td data-label="보유기간">게시기간. 삭제 요청 확인 또는 운영 기준상 삭제 사유 발생 시 지체 없이 삭제</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="privacy-processing-list">
+        <div class="privacy-processing-item">
+          <h3>이메일 문의</h3>
+          <p>이메일 문의를 보내면 발신 이메일 주소와 이용자가 적은 이름·소속, 문의 내용, 첨부자료를 문의 확인·답변과 후속 업무에 사용합니다. 이용자의 요청에 따른 조치(개인정보 보호법 제15조 제1항 제4호)를 근거로 하며, 이용자가 자발적으로 제공한 추가 정보는 동의(제1호)에 따라 처리합니다. 문의가 끝나고 추가 보관 필요가 없어지면 지체 없이 삭제하고, 분쟁 대응이나 법령상 의무가 있으면 해당 기간만 별도 보관합니다.</p>
+        </div>
+        <div class="privacy-processing-item">
+          <h3>사이트 접속·보안</h3>
+          <p>사이트에 접속하면 IP 주소, 브라우저·기기 정보, 접속 시각, 요청 URL과 보안 이벤트가 사이트 전송, 공격 차단과 장애 대응을 위해 처리될 수 있습니다. 서비스 제공 요청의 이행 및 안전한 운영을 위한 정당한 이익(제15조 제1항 제4호·제6호)을 근거로 하며, Cloudflare의 계약·보안 정책과 관계 법령에서 정한 기간 동안 보관됩니다.</p>
+        </div>
+        <div class="privacy-processing-item">
+          <h3>방문·제휴 통계</h3>
+          <p>방문 페이지, 유입 경로, 이용 시간, 브라우저·기기 정보, 쿠키 식별자와 제휴 링크 클릭 정보를 콘텐츠 개선과 제휴 성과 측정에 사용합니다. 방문 분석 수집·이용 동의(제15조 제1항 제1호)를 근거로 하며, 동의하지 않으면 관련 스크립트를 불러오지 않습니다. 보관기간은 Google Analytics 이벤트 2개월·사용자 14개월(새 활동 시 재설정), NAVER Analytics 1년입니다.</p>
+        </div>
+        <div class="privacy-processing-item">
+          <h3>축겜 완주 기록</h3>
+          <p>GOAT 랭킹 집계와 동일 대진 중복 제출 제한을 위해 무작위 익명 세션 ID, 대진 seed, 31개 선택 결과, 우승·준우승·4강 결과와 완주 시각을 처리합니다. 이용자가 요청한 토너먼트·랭킹 기능 제공(제15조 제1항 제4호)을 근거로 하며, 랭킹 서비스 운영기간 동안 보관하고 종료 후 지체 없이 삭제합니다.</p>
+        </div>
+        <div class="privacy-processing-item">
+          <h3>축겜 한마디</h3>
+          <p>의견 표시, 작성 확인과 부정 이용 방지를 위해 닉네임과 한마디, 완주 결과와 우승 선수, 작성 시각, 무작위 익명 세션 ID를 처리합니다. 이용자의 게시 요청에 따른 기능 제공(제15조 제1항 제4호)을 근거로 하며, 게시기간 동안 보관합니다. 삭제 요청이 확인되거나 운영 기준상 삭제 사유가 생기면 지체 없이 삭제합니다.</p>
+        </div>
       </div>
     </section>
 
@@ -201,6 +184,12 @@ const UPDATED_AT = new Date('2026-09-04T00:00:00+09:00');
     font-weight: 650;
     text-decoration: none;
   }
+  .privacy-processing-list { display: grid; }
+  .privacy-processing-item { padding: 1rem 0; border-top: 1px solid var(--bbfc-border); }
+  .privacy-processing-item:first-child { padding-top: .25rem; border-top: 0; }
+  .privacy-processing-item:last-child { padding-bottom: 0; }
+  .privacy-processing-item h3 { margin: 0 0 .35rem; color: var(--bbfc-ink); font-size: 16px; line-height: 1.5; }
+  .privacy-processing-item p { margin: 0; }
   .privacy-table-wrap { overflow-x: auto; border: 1px solid var(--bbfc-border); border-radius: 12px; }
   .privacy-data-table { width: 100%; border-collapse: collapse; }
   .privacy-data-table th,
