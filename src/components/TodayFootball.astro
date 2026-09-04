@@ -76,7 +76,7 @@ function matchView(item: Match) {
     {match ? (
       <section class="fixtures-section" aria-label="최근 경기 결과와 예정 경기">
         <div class="fixtures-heading"><strong>경기 결과·일정</strong><span>한국시간</span></div>
-        <div class="match-list" aria-label="오늘 밤 유럽 주요 축구 경기">
+        <div class="match-list" id="today-match-list" aria-label="오늘 밤 유럽 주요 축구 경기">
           {matches.map((item) => {
             const view = matchView(item);
             const scoreLabel = view.hasScore ? `${item.homeScore} 대 ${item.awayScore}` : '대';
@@ -97,6 +97,11 @@ function matchView(item: Match) {
             );
           })}
         </div>
+        {matches.length > 4 && (
+          <button class="fixtures-more" type="button" aria-expanded="false" aria-controls="today-match-list">
+            나머지 {matches.length - 4}경기 보기 <span aria-hidden="true">⌄</span>
+          </button>
+        )}
       </section>
     ) : (
       <div class:list={['fixtures-empty', (matchState === 'unavailable' || matchState === 'stale') && 'fixtures-empty--delayed']}>
@@ -126,7 +131,7 @@ function matchView(item: Match) {
               <div class="standings-columns" aria-hidden="true"><span>순위 · 팀</span><span>경기</span><span>득실</span><span>승점</span></div>
               <ol class="standings-list" id={`standings-${table.leagueId}`}>
                 {table.rows.map((row, rowIndex) => (
-                  <li class:list={['standings-row', rowIndex >= 10 && 'standings-row--extra']}>
+                  <li class:list={['standings-row', rowIndex >= 5 && 'standings-row--mobile-extra', rowIndex >= 10 && 'standings-row--extra']}>
                     <b>{row.rank}</b>
                     {row.badge ? <img src={transparentBadge} data-team-badge data-src={row.badge} alt="" width="20" height="20" decoding="async" fetchpriority="low" /> : <i aria-hidden="true">⚽</i>}
                     <strong>{row.team}</strong>
@@ -186,6 +191,17 @@ function matchView(item: Match) {
 
 <script>
   document.querySelectorAll<HTMLElement>('.today-card--tonight').forEach((card) => {
+    const fixturesMore = card.querySelector<HTMLButtonElement>('.fixtures-more');
+    const matchList = card.querySelector<HTMLElement>('.match-list');
+    fixturesMore?.addEventListener('click', () => {
+      if (!matchList) return;
+      const expanded = !matchList.classList.contains('is-expanded');
+      matchList.classList.toggle('is-expanded', expanded);
+      fixturesMore.setAttribute('aria-expanded', String(expanded));
+      fixturesMore.innerHTML = expanded
+        ? '경기 접기 <span aria-hidden="true">⌃</span>'
+        : `나머지 ${Math.max(matchList.children.length - 4, 0)}경기 보기 <span aria-hidden="true">⌄</span>`;
+    });
     const carousel = card.querySelector<HTMLElement>('.standings-carousel');
     const previous = card.querySelector<HTMLButtonElement>('.standings-prev');
     const next = card.querySelector<HTMLButtonElement>('.standings-next');
@@ -193,12 +209,15 @@ function matchView(item: Match) {
     const slides = [...carousel.querySelectorAll<HTMLElement>('.standings-slide')];
     let activeIndex = 0;
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const compactStandings = matchMedia('(max-width: 700px)');
     const setExpanded = (slide: HTMLElement, expanded: boolean) => {
       const button = slide.querySelector<HTMLButtonElement>('.standings-more');
       slide.classList.toggle('is-expanded', expanded);
       if (!button) return;
       button.setAttribute('aria-expanded', String(expanded));
-      button.innerHTML = expanded ? '10위까지만 보기 <span aria-hidden="true">⌃</span>' : '11위부터 더보기 <span aria-hidden="true">⌄</span>';
+      button.innerHTML = expanded
+        ? `${compactStandings.matches ? '5위' : '10위'}까지만 보기 <span aria-hidden="true">⌃</span>`
+        : `${compactStandings.matches ? '6위' : '11위'}부터 더보기 <span aria-hidden="true">⌄</span>`;
     };
     const activate = (index: number) => {
       activeIndex = index;
@@ -228,6 +247,7 @@ function matchView(item: Match) {
       scrollFrame = requestAnimationFrame(() => activate(Math.round(carousel.scrollLeft / Math.max(carousel.clientWidth, 1))));
     }, { passive: true });
     card.querySelectorAll<HTMLButtonElement>('.standings-more').forEach((button) => {
+      if (compactStandings.matches) button.innerHTML = '6위부터 더보기 <span aria-hidden="true">⌄</span>';
       button.addEventListener('click', () => {
         const slide = button.closest<HTMLElement>('.standings-slide');
         if (!slide) return;
@@ -255,6 +275,7 @@ function matchView(item: Match) {
   .fixtures-empty--delayed strong { color:#86b7ff; }
   .standings-empty { border-bottom:0; }
   .match-list { position:relative; z-index:3; margin:8px 0 0; overflow:visible; }
+  .fixtures-more { display:none; }
   .match-row { padding:10px 8px 11px 0; border-bottom:1px solid rgba(255,255,255,.12); }
   .match-row:first-child { padding-top:2px; }
   .match-row__meta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:7px; color:rgba(255,255,255,.58); font-size:11px; font-weight:750; letter-spacing:.05em; }
@@ -333,8 +354,37 @@ function matchView(item: Match) {
     .today-football { display:block; margin-bottom:28px; }
     .today-card { width:100%; min-height:224px; padding:18px 19px 17px; border:1px solid var(--bbfc-border); }
     .today-card--tonight { min-height:390px; }
-    .today-card--combined { min-height:560px; }
-    .standings-slide li { min-height:36px; }
+    .today-card--combined { min-height:0; }
+    .match-list:not(.is-expanded) .match-row:nth-child(n+5) { display:none; }
+    .standings-slide:not(.is-expanded) .standings-row--mobile-extra { display:none!important; }
+    .fixtures-more { position:relative; z-index:3; display:flex; width:100%; min-height:34px; align-items:center; justify-content:center; gap:6px; margin-top:8px; border:1px solid rgba(134,183,255,.28); border-radius:6px; background:rgba(134,183,255,.08); color:#b9d5ff; cursor:pointer; font-size:11px; font-weight:800; }
+    .standings-slide li { min-height:30px; }
+  }
+  /* Match information must remain legible without zooming. */
+  .today-card__top { font-size:14px; }
+  .fixtures-heading,.fixtures-empty span,.match-row__meta,.standings-toolbar span,.standings-slide__title span,.standings-columns,.standings-note { font-size:13px; }
+  .fixtures-heading strong,.fixtures-empty strong,.standings-empty strong,.match-row__meta time,.standings-toolbar strong,.standings-slide li,.standings-slide li b,.standings-slide li strong,.standings-slide li em { font-size:14px; }
+  .match-row__teams strong,.match-row__teams .match-score { font-size:14px; }
+  .match-row__teams b,.match-row--scheduled .match-score { font-size:13px; }
+  .standings-slide__title strong { font-size:15px; }
+  .standings-more { min-height:44px; font-size:15px; }
+  .fixtures-more { min-height:44px; font-size:15px; }
+
+  @media (min-width: 1600px) {
+    .today-football { position:static; width:auto; margin:0 0 38px; pointer-events:auto; }
+    .today-card { position:relative; top:auto; width:100%; min-height:0; padding:22px 24px 20px; border-top:1px solid var(--bbfc-border); }
+    .today-card--tonight { top:auto; left:auto; }
+    .today-card--combined { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:30px; }
+    .today-card--combined .today-card__top { grid-column:1 / -1; }
+    .today-card--combined .standings-section { margin-top:13px; padding-top:0; padding-left:30px; border-top:0; border-left:1px solid rgba(255,255,255,.18); }
+    .standings-toolbar span { display:block; }
+  }
+
+  @media (max-width: 700px) {
+    .today-card { padding:18px 16px 17px; }
+    .fixtures-more,.standings-more { min-height:46px; font-size:16px; }
+    .match-row__teams { grid-template-columns:minmax(0,1fr) 26px 34px 26px minmax(0,1fr); }
+    .match-row__teams img,.match-row__teams i { width:26px; height:26px; }
   }
   @media (prefers-reduced-motion: reduce) { .standings-carousel { scroll-behavior:auto; } .standings-slide,.standings-row--extra,.standings-controls button,.standings-more { animation:none; transition:none; } }
 </style>

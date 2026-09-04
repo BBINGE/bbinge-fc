@@ -1,24 +1,37 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { categories, getArticlePath } from '../config/categories';
+import { categories, getAncestorChain, getArticlePath } from '../config/categories';
 import { site } from '../config/site';
 import { isNewlyPublished } from '../utils/freshness';
 import TodayFootball from '../components/TodayFootball.astro';
 import { imageFocusStyle } from '../utils/imageFocus';
 
-const articles = (await getCollection('articles', ({ data }) => !data.draft)).map((entry) => ({
-  id: entry.id,
-  href: getArticlePath(entry.data.category, entry.id),
-  title: entry.data.title,
-  description: entry.data.description,
-  label: categories[entry.data.category]?.label ?? entry.data.category,
-  coverImage: entry.data.coverImage,
-  cardImage: entry.data.cardImage ?? entry.data.coverImage,
-  coverImageAlt: entry.data.coverImageAlt ?? entry.data.title,
-  pubDate: entry.data.pubDate,
-  kind: 'article' as const,
-}));
+const deskForCategory = (category: string) => {
+  const root = getAncestorChain(category)[0];
+  const deskKey = root?.slug ?? category;
+  return {
+    deskKey,
+    deskLabel: categories[deskKey]?.label ?? categories[category]?.label ?? category,
+  };
+};
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft)).map((entry) => {
+  const desk = deskForCategory(entry.data.category);
+  return {
+    id: entry.id,
+    href: getArticlePath(entry.data.category, entry.id),
+    title: entry.data.title,
+    description: entry.data.description,
+    label: categories[entry.data.category]?.label ?? entry.data.category,
+    ...desk,
+    coverImage: entry.data.coverImage,
+    cardImage: entry.data.cardImage ?? entry.data.coverImage,
+    coverImageAlt: entry.data.coverImageAlt ?? entry.data.title,
+    pubDate: entry.data.pubDate,
+    kind: 'article' as const,
+  };
+});
 
 const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft)).map((entry) => ({
   id: entry.id,
@@ -26,6 +39,8 @@ const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft
   title: entry.data.title,
   description: entry.data.description,
   label: '삥이 아카이브',
+  deskKey: 'archive',
+  deskLabel: '삥이 아카이브',
   coverImage: entry.data.coverImage,
   cardImage: entry.data.coverImage,
   coverImageAlt: entry.data.coverImageAlt,
@@ -37,24 +52,32 @@ const editorialFeed = [...articles, ...archiveEntries].sort(
   (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf() || b.id.localeCompare(a.id)
 );
 
-const FEATURED_ARTICLE_ID = 'hungary-golden-team-total-football-elo-rating';
-const CURATED_SECONDARY_IDS = [
-  'rotterdam-de-kuip-football-travel',
-  'malu-borges-vasco-brazil-football-fashion',
-  '1950-fifa-world-cup-final-uruguay-brazil',
-  'grande-inter-best-xi',
-];
-const lead = editorialFeed.find((item) => item.kind === 'article' && item.id === FEATURED_ARTICLE_ID) ?? editorialFeed[0];
-const pinnedSecondary = CURATED_SECONDARY_IDS.flatMap((id) => {
-  const item = editorialFeed.find((entry) => entry.kind === 'article' && entry.id === id);
-  return item ? [item] : [];
-});
-const secondaryFallback = editorialFeed.filter(
-  (item) => item.href !== lead?.href && !pinnedSecondary.some((pinned) => pinned.href === item.href)
-);
-const secondary = [...pinnedSecondary, ...secondaryFallback].slice(0, 4);
-const curatedHrefs = new Set([lead?.href, ...secondary.map((item) => item.href)]);
-const rollingFeed = editorialFeed.filter((item) => !curatedHrefs.has(item.href));
+const lead = editorialFeed[0];
+const deskStories = [] as typeof editorialFeed;
+const representedDesks = new Set(lead ? [lead.deskKey] : []);
+
+for (const item of editorialFeed) {
+  if (item.href === lead?.href || representedDesks.has(item.deskKey)) continue;
+  deskStories.push(item);
+  representedDesks.add(item.deskKey);
+  if (deskStories.length === 7) break;
+}
+
+if (deskStories.length < 7) {
+  const deskCounts = new Map<string, number>();
+  if (lead) deskCounts.set(lead.deskKey, 1);
+  for (const item of deskStories) deskCounts.set(item.deskKey, (deskCounts.get(item.deskKey) ?? 0) + 1);
+  for (const item of editorialFeed) {
+    if (item.href === lead?.href || deskStories.some((story) => story.href === item.href)) continue;
+    if ((deskCounts.get(item.deskKey) ?? 0) >= 2) continue;
+    deskStories.push(item);
+    deskCounts.set(item.deskKey, (deskCounts.get(item.deskKey) ?? 0) + 1);
+    if (deskStories.length === 7) break;
+  }
+}
+
+const featuredHrefs = new Set([lead?.href, ...deskStories.map((item) => item.href)]);
+const rollingFeed = editorialFeed.filter((item) => !featuredHrefs.has(item.href));
 const latest = rollingFeed.slice(0, 8);
 const moreStories = rollingFeed.slice(8, 14);
 ---
@@ -71,86 +94,67 @@ const moreStories = rollingFeed.slice(8, 14);
       <p class="edition-note">역사 · 공간 · 유니폼 · 서사</p>
     </header>
 
-    <nav class="identity-hub" aria-label="삥이FC와 저자 소개">
-      <div class="identity-hub__intro">
-        <span class="identity-hub__portraits" aria-hidden="true">
-          <img class="identity-hub__profile" src="/images/profile-bbinge-192.webp" alt="" width="52" height="52" decoding="async" />
-          <img class="identity-hub__mark" src="/images/brand/pb-mark-2026-color-240.webp" alt="" width="44" height="30" decoding="async" />
-        </span>
-        <div>
-          <p>WHO WRITES BBINGE FC?</p>
-          <strong>축구를 알기 위해 다른 것들을 읽기 시작한 사람.</strong>
-        </div>
-      </div>
-      <div class="identity-hub__links">
-        <a href="/about/">
-          <img src="/images/profile-bbinge-192.webp" alt="" width="38" height="38" decoding="async" />
-          <span>AUTHOR</span><strong>About 삥이</strong><i aria-hidden="true">→</i>
-        </a>
-        <a href="/about/logo/">
-          <img src="/images/brand/pb-mark-2026-color-240.webp" alt="" width="38" height="38" decoding="async" />
-          <span>IDENTITY</span><strong>로고 이야기</strong><i aria-hidden="true">→</i>
-        </a>
-        <a class="identity-hub__map" href="/about/store/">
-          <span class="identity-hub__floor" aria-hidden="true"><b>01</b><small>F</small></span>
-          <span>FLOOR MAP</span><strong>전체 층별 안내</strong><i aria-hidden="true">→</i>
-        </a>
-      </div>
-    </nav>
-
     {lead ? (
-      <section class="cover-grid" aria-label="주요 기사">
-        <a href={lead.href} class="lead-story group">
-          <div class="lead-image media-frame">
-            {lead.coverImage ? (
-              <picture>
-                <source
-                  type="image/webp"
-                  srcset="/images/tactics/hungary-golden-team/puskas-480.webp 480w, /images/tactics/hungary-golden-team/puskas-768.webp 768w, /images/tactics/hungary-golden-team/puskas-966.webp 966w"
-                  sizes="(max-width: 900px) calc(100vw - 32px), 720px"
-                />
-                <img src={lead.coverImage} alt={lead.coverImageAlt} width="966" height="966" sizes="(max-width: 900px) calc(100vw - 32px), 720px" loading="eager" decoding="async" fetchpriority="high" style={imageFocusStyle(lead.coverImage)} />
-              </picture>
-            ) : (
-              <span>이미지 준비 중</span>
-            )}
-            <span class="story-label story-label-on-image">EDITOR'S SIGNATURE</span>
-          </div>
-          <div class="lead-copy">
-            <div class="story-meta">
-              <span>{lead.label}</span>
-              <time datetime={lead.pubDate.toISOString()}>{lead.pubDate.toLocaleDateString('ko-KR')}</time>
-              {isNewlyPublished(lead.pubDate) && <span class="new-mark">NEW</span>}
+      <>
+        <section class="lobby-hero" aria-label="삥이FC 메인 로비와 최신 기사">
+          <div class="lobby-panel">
+            <div class="lobby-copy">
+              <p class="lobby-kicker"><span>01F</span> PB ONLINE MAIN</p>
+              <h2>축구 문화가 모이는 로비</h2>
+              <p>경기 결과보다 오래 남는 축구의 역사·공간·유니폼·서사를 기록하는 독립 매거진입니다.</p>
             </div>
-            <h2>{lead.title}</h2>
-            <p>{lead.description}</p>
-            <span class="read-more">이야기 읽기 <span aria-hidden="true">→</span></span>
           </div>
-        </a>
 
-        <div class="secondary-stack">
-          {secondary.map((item, index) => (
-            <a href={item.href} class="secondary-story group">
-              <div class="secondary-image media-frame">
-                {item.cardImage ? (
-                  <img src={item.cardImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.cardImage)} />
-                ) : (
-                  <span>이미지 준비 중</span>
-                )}
-                <span class="story-number">0{index + 2}</span>
+          <a href={lead.href} class="lead-story group">
+            <div class="lead-image media-frame">
+              {lead.coverImage ? (
+                <img src={lead.coverImage} alt={lead.coverImageAlt} width="1200" height="675" sizes="(max-width: 700px) calc(100vw - 32px), (max-width: 1100px) 55vw, 680px" loading="eager" decoding="async" fetchpriority="high" style={imageFocusStyle(lead.coverImage)} />
+              ) : (
+                <span>이미지 준비 중</span>
+              )}
+              <span class="lead-badge">NEWEST ARRIVAL</span>
+            </div>
+            <div class="lead-copy">
+              <div class="story-meta">
+                <span>{lead.label}</span>
+                <time datetime={lead.pubDate.toISOString()}>{lead.pubDate.toLocaleDateString('ko-KR')}</time>
+                {isNewlyPublished(lead.pubDate) && <span class="new-mark">NEW</span>}
               </div>
-              <div class="secondary-copy">
-                <div class="story-meta">
-                  <span>{item.label}</span>
-                  {isNewlyPublished(item.pubDate) && <span class="new-mark">NEW</span>}
+              <h2>{lead.title}</h2>
+              <p>{lead.description}</p>
+              <span class="read-more">최신 기록 읽기 <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <nav class="lobby-actions" aria-label="삥이FC와 저자 소개">
+            <a href="/about/"><img src="/images/profile-bbinge-192.webp" alt="" width="42" height="42" decoding="async" /><span><small>AUTHOR</small><strong>저자 @삥이</strong></span></a>
+            <a href="/about/logo/"><img src="/images/brand/pb-mark-2026-color-240.webp" alt="" width="42" height="42" decoding="async" /><span><small>IDENTITY</small><strong>로고 이야기</strong></span></a>
+            <a class="lobby-actions__map" href="/about/store/"><span class="floor-disc" aria-hidden="true">01F</span><span><small>FLOOR MAP</small><strong>전체 층별 안내</strong></span></a>
+            <a class="lobby-actions__goat" href="/play/"><span class="goat-disc" aria-hidden="true">32</span><span><small>PB ARCADE</small><strong>나만의 GOAT</strong></span></a>
+          </nav>
+        </section>
+
+        <section class="desk-edition" aria-labelledby="desk-edition-heading">
+          <div class="section-heading section-heading--compact">
+            <div><p>FROM EVERY FLOOR</p><h2 id="desk-edition-heading">각 층에서 도착한 최신 기록</h2></div>
+            <a href="/about/store/">전체 층별 안내 <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="desk-grid">
+            {deskStories.map((item, index) => (
+              <a href={item.href} class="desk-story group">
+                <div class="desk-thumb media-frame">
+                  {item.cardImage ? <img src={item.cardImage} alt="" width="300" height="200" loading="lazy" decoding="async" style={imageFocusStyle(item.cardImage)} /> : <span>NO IMAGE</span>}
+                  <span class="desk-number">{String(index + 2).padStart(2, '0')}</span>
                 </div>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
+                <div class="desk-copy">
+                  <div class="story-meta"><span>{item.deskLabel}</span>{isNewlyPublished(item.pubDate) && <span class="new-mark">NEW</span>}</div>
+                  <h3>{item.title}</h3>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      </>
     ) : (
       <p class="empty-state">첫 번째 이야기를 준비하고 있습니다.</p>
     )}
@@ -405,5 +409,271 @@ const moreStories = rollingFeed.slice(8, 14);
   @media (prefers-reduced-motion: reduce) {
     .media-frame img { transition:none; }
     .group:hover .media-frame img { transform:none; }
+  }
+
+  /* 2026 main lobby: a static identity panel paired with the newest record. */
+  .lobby-hero { display:grid; grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr); grid-template-rows:minmax(0,1fr); height:500px; margin-top:18px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-bg); }
+  .lobby-panel { display:flex; min-width:0; min-height:0; flex-direction:column; padding:20px; background:var(--bbfc-ink); color:#fff; }
+  .lobby-kicker { display:flex; align-items:center; gap:9px; color:rgba(255,255,255,.58); font-size:9px; line-height:1; font-weight:750; letter-spacing:.16em; }
+  .lobby-kicker span { display:inline-grid; place-items:center; min-width:39px; height:25px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:10px; letter-spacing:.08em; }
+  .lobby-copy h2 { margin-top:13px; font-size:clamp(27px,2.3vw,35px); line-height:1.15; font-weight:690; letter-spacing:-.05em; }
+  .lobby-copy>p:last-child { max-width:430px; margin-top:9px; color:rgba(255,255,255,.66); font-size:12px; line-height:1.55; }
+  .floor-preview { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 18px; margin-top:14px; border-top:1px solid rgba(255,255,255,.18); }
+  .floor-preview>a,.floor-preview>span { display:grid; grid-template-columns:31px minmax(0,1fr); align-items:center; gap:6px; min-width:0; padding:6px 0; border-bottom:1px solid rgba(255,255,255,.12); }
+  .floor-preview b { color:#86b7ff; font-size:9px; line-height:1; font-weight:780; letter-spacing:.08em; }
+  .floor-preview span span,.floor-preview a span { overflow:hidden; color:rgba(255,255,255,.82); font-size:10px; line-height:1.3; text-overflow:ellipsis; white-space:nowrap; }
+  .floor-preview a:hover span { color:#fff; }
+  .lobby-actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; margin-top:auto; padding-top:12px; }
+  .lobby-actions a { display:flex; min-width:0; align-items:center; gap:8px; min-height:42px; padding:5px 8px; border:1px solid rgba(255,255,255,.18); border-radius:9px; background:rgba(255,255,255,.06); transition:border-color .18s,background .18s,transform .18s; }
+  .lobby-actions a:hover { border-color:#86b7ff; background:rgba(134,183,255,.13); transform:translateY(-1px); }
+  .lobby-actions img,.floor-disc,.goat-disc { display:grid; place-items:center; width:34px; height:34px; flex:0 0 34px; border-radius:50%; background:#fff; color:var(--bbfc-blue); object-fit:cover; }
+  .lobby-actions img:nth-child(1) { padding:2px; }
+  .floor-disc,.goat-disc { font-size:11px; font-weight:800; }
+  .floor-disc small { margin-left:1px; font-size:6px; }
+  .goat-disc { background:var(--bbfc-blue); color:#fff; }
+  .lobby-actions a>span:last-child { min-width:0; }
+  .lobby-actions small { display:block; color:#86b7ff; font-size:7px; line-height:1.2; font-weight:780; letter-spacing:.12em; }
+  .lobby-actions strong { display:block; margin-top:3px; overflow:hidden; color:#fff; font-size:10px; line-height:1.25; font-weight:650; text-overflow:ellipsis; white-space:nowrap; }
+  .lobby-actions__map { border-color:rgba(134,183,255,.48)!important; background:rgba(134,183,255,.12)!important; }
+
+  .lobby-hero .lead-story { display:flex; min-width:0; min-height:0; flex-direction:column; background:var(--bbfc-bg); }
+  .lobby-hero .lead-image { flex:0 0 285px; height:285px; min-height:0; aspect-ratio:auto; }
+  .lead-badge { position:absolute; top:14px; left:14px; padding:7px 9px; background:var(--bbfc-blue); color:#fff; font-size:8px; line-height:1; font-weight:780; letter-spacing:.13em; }
+  .lobby-hero .lead-copy { padding:16px 20px 18px; }
+  .lobby-hero .lead-copy h2 { max-width:none; margin-top:9px; font-size:clamp(24px,2.2vw,34px); line-height:1.2; font-weight:690; letter-spacing:-.045em; }
+  .lobby-hero .lead-copy>p { max-width:none; margin-top:9px; font-size:12px; line-height:1.6; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .lobby-hero .read-more { margin-top:13px; }
+
+  .desk-edition { margin:26px 0 36px; }
+  .section-heading--compact { padding-bottom:10px; }
+  .section-heading--compact h2 { font-size:20px; }
+  .desk-grid { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:10px; padding-top:12px; }
+  .desk-story { min-width:0; padding:0 0 10px; border-bottom:1px solid var(--bbfc-line); }
+  .desk-thumb { aspect-ratio:4/3; border-radius:3px; }
+  .desk-number { position:absolute; top:6px; left:6px; padding:4px 5px; background:rgba(25,31,40,.78); color:#fff; font-size:7px; line-height:1; font-weight:750; }
+  .desk-copy { padding-top:9px; }
+  .desk-copy h3 { margin-top:5px; font-size:12px; line-height:1.38; font-weight:650; letter-spacing:-.025em; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+
+  @media (min-width: 901px) and (max-width: 1199px) {
+    .lobby-hero { grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr); height:430px; }
+    .lobby-panel { padding:21px; }
+    .lobby-copy h2 { font-size:27px; }
+    .floor-preview { gap:0 12px; margin-top:16px; }
+    .lobby-actions { padding-top:14px; }
+    .lobby-hero .lead-image { flex-basis:240px; height:240px; }
+    .lobby-hero .lead-copy { padding:14px 18px 16px; }
+    .lobby-hero .lead-copy h2 { font-size:25px; }
+    .lobby-hero .lead-copy>p { -webkit-line-clamp:1; }
+    .lobby-hero .read-more { margin-top:10px; }
+    .desk-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px 12px; }
+    .desk-story { display:grid; grid-template-columns:88px minmax(0,1fr); gap:10px; }
+    .desk-copy { padding-top:2px; }
+  }
+
+  @media (min-width: 701px) and (max-width: 900px) {
+    .lobby-hero { grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); height:440px; }
+    .lobby-panel { padding:18px; }
+    .lobby-copy h2 { margin-top:14px; font-size:24px; }
+    .lobby-copy>p:last-child { font-size:11px; }
+    .floor-preview { gap:0 10px; margin-top:14px; }
+    .floor-preview>a,.floor-preview>span { grid-template-columns:27px minmax(0,1fr); padding:7px 0; }
+    .lobby-actions { gap:6px; padding-top:13px; }
+    .lobby-actions a { min-height:45px; padding:6px; }
+    .lobby-actions img,.floor-disc,.goat-disc { width:30px; height:30px; flex-basis:30px; }
+    .lobby-hero .lead-image { flex-basis:245px; height:245px; min-height:0; }
+    .lobby-hero .lead-copy { padding:17px 18px 19px; }
+    .lobby-hero .lead-copy h2 { font-size:25px; }
+    .desk-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 20px; }
+    .desk-story { display:grid; grid-template-columns:94px minmax(0,1fr); gap:11px; padding:12px 0; }
+    .desk-copy { padding-top:2px; }
+  }
+
+  @media (max-width: 700px) {
+    .home-magazine { padding-top:14px; }
+    .edition-head { min-height:54px; padding-bottom:12px; }
+    .edition-kicker { font-size:8px; }
+    .edition-title { margin-top:5px; font-size:14px; }
+    .lobby-hero { display:block; height:auto; margin-top:12px; overflow:visible; border:0; border-radius:0; }
+    .lobby-panel { padding:13px 13px 12px; border-radius:10px; }
+    .lobby-kicker { font-size:8px; }
+    .lobby-kicker span { min-width:35px; height:22px; font-size:9px; }
+    .lobby-copy h2 { margin-top:10px; font-size:19px; line-height:1.18; }
+    .lobby-copy h2 br { display:none; }
+    .lobby-copy>p:last-child,.floor-preview { display:none; }
+    .lobby-actions { grid-template-columns:repeat(4,minmax(0,1fr)); gap:5px; padding-top:11px; }
+    .lobby-actions a { min-height:60px; flex-direction:column; justify-content:center; gap:3px; padding:5px 3px; text-align:center; }
+    .lobby-actions img,.floor-disc,.goat-disc { width:28px; height:28px; flex-basis:28px; }
+    .lobby-actions a>span:last-child>small { display:none; }
+    .lobby-actions strong { margin-top:0; font-size:8px; white-space:normal; }
+    .lobby-hero .lead-story { position:relative; min-height:220px; margin-top:11px; overflow:hidden; border-radius:9px; background:var(--bbfc-ink); }
+    .lobby-hero .lead-image { flex:0 0 220px; height:220px; min-height:220px; aspect-ratio:16/10; }
+    .lobby-hero .lead-image::after { content:""; position:absolute; inset:24% 0 0; background:linear-gradient(180deg,transparent,rgba(4,10,20,.92)); }
+    .lead-badge { top:10px; left:10px; padding:6px 7px; font-size:7px; }
+    .lobby-hero .lead-copy { position:absolute; z-index:2; right:0; bottom:0; left:0; padding:44px 13px 13px; color:#fff; }
+    .lobby-hero .story-meta { color:rgba(255,255,255,.66); }
+    .lobby-hero .story-meta>span:first-child { color:#9fc5ff; }
+    .lobby-hero .new-mark { background:rgba(255,255,255,.14); color:#fff!important; }
+    .lobby-hero .lead-copy h2 { margin-top:6px; color:#fff; font-size:20px; line-height:1.22; letter-spacing:-.04em; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .lobby-hero .lead-copy>p,.lobby-hero .read-more { display:none; }
+    .desk-edition { margin:20px 0 26px; }
+    .section-heading--compact { align-items:center; padding-bottom:8px; }
+    .section-heading--compact h2 { margin-top:3px; font-size:17px; }
+    .section-heading--compact>a { font-size:9px; }
+    .desk-grid { grid-template-columns:1fr; gap:0; padding-top:2px; }
+    .desk-story { display:grid; grid-template-columns:76px minmax(0,1fr); align-items:center; gap:11px; min-height:78px; padding:9px 0; }
+    .desk-thumb { aspect-ratio:4/3; }
+    .desk-copy { padding-top:0; }
+    .desk-copy h3 { margin-top:4px; font-size:13px; line-height:1.35; }
+    .desk-number { top:4px; left:4px; }
+  }
+
+  /* Readable editorial lobby: identity, newest story, then utility routes. */
+  .edition-kicker,.section-heading p { font-size:13px; }
+  .edition-note { font-size:13px; }
+  .story-meta { font-size:13px; }
+  .new-mark { font-size:12px; }
+  .read-more { font-size:15px; }
+  .section-heading>a { font-size:15px; }
+  .story-label-on-image { font-size:13px; }
+  .story-number { font-size:12px; }
+  .latest-index { font-size:14px; }
+  .latest-copy h3 { font-size:17px; }
+  .latest-copy>p { font-size:14px; }
+  .latest-row>time { font-size:13px; }
+  .play-feature__copy p { font-size:13px; }
+  .play-feature__copy h2 { font-size:17px; }
+  .play-feature__copy>span { min-height:44px; padding:11px 16px; font-size:15px; }
+  .play-feature__copy b { font-size:13px; }
+  .empty-state,.empty-latest { font-size:15px; }
+  .more-card h3 { font-size:18px; }
+  .more-card>p { font-size:14px; }
+
+  .lobby-hero { display:grid; grid-template-columns:1fr; grid-template-rows:auto auto auto; height:auto; margin-top:18px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:#fff; }
+  .lobby-panel { display:block; min-width:0; min-height:0; padding:20px 24px; background:var(--bbfc-ink); color:#fff; }
+  .lobby-copy { display:grid; grid-template-columns:minmax(220px,.68fr) minmax(0,1.32fr); align-items:center; column-gap:30px; row-gap:8px; }
+  .lobby-kicker { grid-column:1; display:flex; align-items:center; gap:10px; color:rgba(255,255,255,.72); font-size:13px; line-height:1.2; font-weight:750; letter-spacing:.12em; }
+  .lobby-kicker span { display:inline-grid; place-items:center; min-width:48px; height:32px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:13px; letter-spacing:.05em; }
+  .lobby-copy h2 { grid-column:1; margin-top:10px; font-size:clamp(25px,2.15vw,32px); line-height:1.15; font-weight:690; letter-spacing:-.045em; }
+  .lobby-copy>p:last-child { grid-column:2; grid-row:1 / 3; max-width:650px; margin:0; padding-left:30px; border-left:1px solid rgba(255,255,255,.2); color:rgba(255,255,255,.76); font-size:15px; line-height:1.7; }
+
+  .lobby-hero .lead-story { display:grid; grid-template-columns:minmax(0,1.42fr) minmax(360px,1fr); min-width:0; min-height:350px; background:#fff; }
+  .lobby-hero .lead-image { width:100%; height:100%; min-height:350px; aspect-ratio:auto; }
+  .lobby-hero .lead-image img { object-position:center center; }
+  .lead-badge { top:18px; left:18px; display:inline-flex!important; min-height:0!important; align-items:center; padding:9px 11px; color:#fff!important; font-size:13px!important; line-height:1; }
+  .lobby-hero .lead-copy { display:flex; flex-direction:column; justify-content:center; padding:34px 32px; border-left:1px solid var(--bbfc-border); }
+  .lobby-hero .lead-copy h2 { max-width:none; margin-top:12px; font-size:clamp(27px,2.55vw,38px); line-height:1.18; font-weight:700; letter-spacing:-.05em; }
+  .lobby-hero .lead-copy>p { max-width:none; margin-top:14px; font-size:15px; line-height:1.72; -webkit-line-clamp:3; }
+  .lobby-hero .read-more { margin-top:20px; }
+
+  .lobby-actions { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; margin:0; padding:0; border-top:1px solid var(--bbfc-border); background:#f7f8fa; }
+  .lobby-actions a { display:flex; min-width:0; min-height:76px; align-items:center; gap:12px; padding:14px 18px; border:0; border-right:1px solid var(--bbfc-border); border-radius:0; background:transparent; transition:background .18s,color .18s; }
+  .lobby-actions a:last-child { border-right:0; }
+  .lobby-actions a:hover { border-color:var(--bbfc-border); background:#eef4ff; transform:none; }
+  .lobby-actions img,.floor-disc,.goat-disc { display:grid; place-items:center; width:42px; height:42px; flex:0 0 42px; border-radius:50%; background:#fff; color:var(--bbfc-blue); object-fit:cover; }
+  .floor-disc,.goat-disc { font-size:14px; font-weight:850; }
+  .goat-disc { background:var(--bbfc-blue); color:#fff; }
+  .lobby-actions a>span:last-child { min-width:0; }
+  .lobby-actions small { display:block; color:var(--bbfc-blue); font-size:13px; line-height:1.2; font-weight:800; letter-spacing:.08em; }
+  .lobby-actions strong { display:block; margin-top:5px; overflow:hidden; color:var(--bbfc-ink); font-size:16px; line-height:1.25; font-weight:700; text-overflow:ellipsis; white-space:nowrap; }
+  .lobby-actions__map { border-color:var(--bbfc-border)!important; background:#edf4ff!important; }
+
+  .desk-edition { margin:34px 0 42px; }
+  .section-heading--compact h2 { font-size:24px; }
+  .desk-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:24px 16px; padding-top:16px; }
+  .desk-story { padding-bottom:14px; }
+  .desk-thumb { aspect-ratio:16/10; border-radius:5px; }
+  .desk-number { top:8px; left:8px; padding:6px 7px; font-size:13px!important; }
+  .desk-copy { padding-top:11px; }
+  .desk-copy h3 { margin-top:7px; font-size:17px; line-height:1.4; }
+
+  @media (min-width: 901px) and (max-width: 1199px) {
+    .lobby-hero { height:auto; }
+    .lobby-panel { padding:18px 22px; }
+    .lobby-copy h2 { font-size:27px; }
+    .lobby-hero .lead-story { grid-template-columns:minmax(0,1.2fr) minmax(340px,1fr); min-height:350px; }
+    .lobby-hero .lead-image { height:100%; min-height:350px; }
+    .lobby-hero .lead-copy { padding:28px 25px; }
+    .lobby-hero .lead-copy h2 { font-size:29px; }
+    .lobby-hero .lead-copy>p { font-size:15px; -webkit-line-clamp:3; }
+    .lobby-actions a { min-height:74px; padding:12px 13px; }
+    .lobby-actions strong { font-size:15px; }
+    .desk-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:22px 14px; }
+    .desk-story { display:block; }
+    .desk-copy { padding-top:10px; }
+  }
+
+  @media (min-width: 701px) and (max-width: 900px) {
+    .lobby-hero { height:auto; }
+    .lobby-panel { padding:18px 20px; }
+    .lobby-copy { grid-template-columns:1fr 1fr; gap:22px; }
+    .lobby-copy h2 { margin-top:9px; font-size:25px; }
+    .lobby-copy>p:last-child { display:block; padding-left:22px; font-size:15px; }
+    .lobby-hero .lead-story { position:relative; display:block; min-height:0; overflow:hidden; }
+    .lobby-hero .lead-image { height:auto; min-height:0; aspect-ratio:16/9; }
+    .lobby-hero .lead-image::after { content:""; position:absolute; inset:30% 0 0; background:linear-gradient(180deg,transparent,rgba(3,10,20,.92)); }
+    .lobby-hero .lead-copy { position:absolute; z-index:2; right:0; bottom:0; left:0; display:block; padding:80px 22px 22px; border:0; color:#fff; }
+    .lobby-hero .story-meta { color:rgba(255,255,255,.78); }
+    .lobby-hero .story-meta>span:first-child { color:#a9cbff; }
+    .lobby-hero .lead-copy h2 { max-width:620px; color:#fff; font-size:27px; }
+    .lobby-hero .lead-copy>p { display:none; }
+    .lobby-hero .read-more { margin-top:14px; color:#fff; border-color:#fff; }
+    .lobby-actions { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .lobby-actions a:nth-child(2) { border-right:0; }
+    .lobby-actions a:nth-child(-n+2) { border-bottom:1px solid var(--bbfc-border); }
+    .lobby-actions a { min-height:72px; padding:12px 18px; }
+    .lobby-actions img,.floor-disc,.goat-disc { width:40px; height:40px; flex-basis:40px; }
+    .desk-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 20px; }
+    .desk-story { display:grid; grid-template-columns:128px minmax(0,1fr); gap:13px; padding:14px 0; }
+    .desk-copy { padding-top:0; }
+  }
+
+  @media (max-width: 700px) {
+    .edition-kicker { font-size:13px; line-height:1.4; }
+    .edition-title { margin-top:6px; font-size:17px; }
+    .lobby-hero { display:grid; height:auto; margin-top:12px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:10px; }
+    .lobby-panel { padding:16px; border-radius:0; }
+    .lobby-copy { display:block; }
+    .lobby-kicker { font-size:13px; }
+    .lobby-kicker span { min-width:44px; height:30px; font-size:13px; }
+    .lobby-copy h2 { margin-top:11px; font-size:23px; line-height:1.2; }
+    .lobby-copy>p:last-child { display:block; margin-top:9px; padding:0; border:0; font-size:15px; line-height:1.6; }
+    .lobby-hero .lead-story { position:relative; display:block; min-height:0; margin-top:0; overflow:hidden; border-radius:0; background:var(--bbfc-ink); }
+    .lobby-hero .lead-image { height:auto; min-height:0; aspect-ratio:16/10; }
+    .lobby-hero .lead-image::after { display:block; content:""; position:absolute; inset:18% 0 0; background:linear-gradient(180deg,transparent,rgba(3,10,20,.96)); }
+    .lead-badge { top:12px; left:12px; padding:8px 9px; font-size:13px; }
+    .lobby-hero .lead-copy { position:absolute; z-index:2; right:0; bottom:0; left:0; display:block; padding:64px 14px 14px; border:0; color:#fff; }
+    .lobby-hero .story-meta { color:rgba(255,255,255,.78); }
+    .lobby-hero .story-meta>span:first-child { color:#a9cbff; }
+    .lobby-hero .new-mark { background:rgba(255,255,255,.16); color:#fff!important; }
+    .lobby-hero .lead-copy h2 { margin-top:7px; color:#fff; font-size:22px; line-height:1.25; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .lobby-hero .lead-copy>p { display:none; }
+    .lobby-hero .read-more { display:inline-block; margin-top:11px; color:#fff; border-color:#fff; font-size:16px; }
+    .lobby-actions { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .lobby-actions a { min-height:76px; flex-direction:row; justify-content:flex-start; gap:10px; padding:12px; text-align:left; }
+    .lobby-actions a:nth-child(2) { border-right:0; }
+    .lobby-actions a:nth-child(-n+2) { border-bottom:1px solid var(--bbfc-border); }
+    .lobby-actions img,.floor-disc,.goat-disc { width:40px; height:40px; flex-basis:40px; }
+    .lobby-actions a>span:last-child>small { display:block; }
+    .lobby-actions small { font-size:12px; }
+    .lobby-actions strong { margin-top:3px; font-size:15px; white-space:nowrap; }
+    .desk-edition { margin:26px 0 32px; }
+    .section-heading--compact h2 { margin-top:4px; font-size:21px; }
+    .section-heading--compact>a { font-size:15px; }
+    .desk-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px 12px; padding-top:10px; }
+    .desk-story { display:block; min-height:0; padding:0 0 12px; }
+    .desk-thumb { aspect-ratio:4/3; }
+    .desk-copy { padding-top:8px; }
+    .desk-copy h3 { margin-top:6px; font-size:15px; line-height:1.4; }
+    .desk-number { top:6px; left:6px; padding:5px 6px; font-size:13px!important; }
+    .lead-badge { left:50%; transform:translateX(-50%); font-size:13px!important; }
+    .lobby-actions small { font-size:13px; }
+    .latest-copy h3 { font-size:16px; }
+    .latest-copy>p { font-size:14px; }
+    .latest-row>time { font-size:13px; }
+    .more-card h3 { font-size:16px; }
+    .more-card>p { font-size:14px; }
+    .play-feature__copy p { font-size:13px; }
+    .play-feature__copy h2 { font-size:17px; }
+    .play-feature__copy>span { min-height:46px; font-size:16px; }
   }
 </style>
