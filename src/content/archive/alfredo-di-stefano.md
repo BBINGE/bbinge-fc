@@ -72,7 +72,7 @@ draft: false
     <strong>스페인 왕국<small lang="es">Reino de España</small></strong>
     <img src="/images/archive/legends/spain/spain-national-team-crest.svg" alt="스페인 왕립 축구 연맹 문장" width="960" height="1625" />
   </div>
-  <dl><dt>본명</dt><dd>알프레도 디스테파노 라울헤</dd></dl><dl><dt>등록명</dt><dd>알프레도 디스테파노</dd></dl>
+  <dl><dt>본명</dt><dd lang="es-AR">Alfredo Di Stéfano Laulhé</dd></dl><dl><dt>등록명</dt><dd>알프레도 디스테파노</dd></dl>
   <dl><dt>출생</dt><dd>1926년 7월 4일</dd></dl><dl><dt>사망</dt><dd>2014년 7월 7일</dd></dl>
   <dl><dt>출생지</dt><dd>아르헨티나 부에노스아이레스</dd></dl><dl><dt>신장</dt><dd>178cm</dd></dl>
   <dl><dt>포지션</dt><dd>중앙 공격수 · 공격형 미드필더</dd></dl><dl><dt>주요 등번호</dt><dd>9번</dd></dl>

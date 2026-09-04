@@ -67,7 +67,7 @@ draft: false
     <strong>브라질 연방 공화국<small>República Federativa do Brasil</small></strong>
     <img src="/images/archive/legends/kaka/club-brazil.webp" alt="브라질 축구 국가대표팀 문장" width="580" height="581" />
   </div>
-  <dl><dt>본명</dt><dd>히카르두 이제크송 두스 산투스 레이치</dd></dl><dl><dt>등록명</dt><dd>카카</dd></dl>
+  <dl><dt>본명</dt><dd lang="pt-BR">Ricardo Izecson dos Santos Leite</dd></dl><dl><dt>등록명</dt><dd>카카</dd></dl>
   <dl><dt>출생</dt><dd>1982년 4월 22일</dd></dl><dl><dt>출생지</dt><dd>브라질 가마</dd></dl>
   <dl><dt>신장</dt><dd>186cm</dd></dl><dl><dt>포지션</dt><dd>공격형 미드필더</dd></dl>
   <dl><dt>주요 등번호</dt><dd>22번 · 10번</dd></dl><dl><dt>별명</dt><dd>밀란의 천사</dd></dl>

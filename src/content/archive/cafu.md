@@ -66,8 +66,8 @@ draft: false
     <strong>브라질 연방 공화국<small>República Federativa do Brasil</small></strong>
     <img src="/images/archive/legends/cafu/club-brazil.webp" alt="2002년 브라질 축구 국가대표팀 문장" width="580" height="581" />
   </div>
-  <dl><dt>본명</dt><dd>마르쿠스 에반젤리스타 지 모라이스</dd></dl><dl><dt>등록명</dt><dd>카푸</dd></dl>
-  <dl><dt>출생</dt><dd>1970년 6월 7일</dd></dl><dl><dt>출생지</dt><dd>브라질 상파울루</dd></dl>
+  <dl><dt>본명</dt><dd lang="pt-BR">Marcos Evangelista de Morais</dd></dl><dl><dt>등록명</dt><dd>카푸</dd></dl>
+  <dl><dt>출생</dt><dd>1970년 6월 7일</dd></dl><dl><dt>출생지</dt><dd>브라질 이타콰케세투바</dd></dl>
   <dl><dt>신장</dt><dd>176cm</dd></dl><dl><dt>포지션</dt><dd>오른쪽 풀백 · 윙백</dd></dl>
   <dl><dt>주요 등번호</dt><dd>2번</dd></dl><dl><dt>별명</dt><dd>고속 기관차</dd></dl>
 </div>
@@ -215,6 +215,8 @@ draft: false
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA: Behind the World Cup record, Cafu</a>: 세 차례 월드컵 결승, 1994년 교체 투입, 2002년 시상대 이야기.</li>
   <li><a href="https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828" rel="noopener noreferrer">FIFA: Scolari's Seleção of 02 in numbers</a>: 에메르송의 부상과 2002년 대표팀 기록.</li>
   <li><a href="https://inside.fifa.com/en/campaigns/football-unites-the-world/news/cafu-football-can-transform-peoples-lives" rel="noopener noreferrer">FIFA: Cafu, Football can transform people's lives</a>: A매치 142경기와 월드컵 20경기.</li>
+  <li><a href="https://www.cbf.com.br/selecao-brasileira/noticias/noticias-selecao-masculina/a/cafu-faz-55-anos-capitao-do-penta-simbolo-da-selecao-e-eterno-camisa-2-do-brasil" rel="noopener noreferrer">CBF: Cafu faz 55 anos</a>: 본명 Marcos Evangelista de Morais와 등록명 Cafu.</li>
+  <li><a href="https://www.fifa.com/id/tournaments/mens/worldcup/articles/kapten-tertua-juara-piala-dunia" rel="noopener noreferrer">FIFA: 월드컵 우승 최고령 주장</a>: 출생지 이타콰케세투바와 생년월일.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png" rel="noopener noreferrer">Wikimedia Commons: Copa Libertadores trophy</a>: 코파 리베르타도레스 트로피 장식 이미지, Mathiaseditorxd, CC BY-SA 4.0.</li>
   <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/2002korea-japan/news/behind-the-world-cup-record-cafu-2878937" rel="noopener noreferrer">FIFA 공식 카푸 기록</a>: 브라질 대표팀 시절 본문 사진.</li>
   <li><a href="https://www.transfermarkt.com/cafu/rueckennummern/spieler/5937" rel="noopener noreferrer">Transfermarkt: Cafu squad number history</a>: 클럽·브라질 대표팀 시즌별 등번호 기록.</li>

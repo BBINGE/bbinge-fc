@@ -64,7 +64,7 @@ draft: false
 
 <div class="record-facts record-facts-italy">
   <div class="profile-country-head"><img src="/images/archive/legends/facchetti/italy-flag.svg" alt="이탈리아 국기" width="3" height="2" /><strong>이탈리아 공화국<small lang="it">Repubblica Italiana</small></strong><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" alt="이탈리아 축구 연맹 문장" width="512" height="512" /></div>
-  <dl><dt>본명</dt><dd>자친토 파케티</dd></dl><dl><dt>등록명</dt><dd>파케티</dd></dl>
+  <dl><dt>본명</dt><dd lang="it">Giacinto Facchetti</dd></dl><dl><dt>등록명</dt><dd>자친토 파케티</dd></dl>
   <dl><dt>출생</dt><dd>1942년 7월 18일</dd></dl><dl><dt>사망</dt><dd>2006년 9월 4일</dd></dl>
   <dl><dt>출생지</dt><dd>이탈리아 트레빌리오</dd></dl><dl><dt>신장</dt><dd>188cm</dd></dl>
   <dl><dt>포지션</dt><dd>레프트백 · 센터백</dd></dl><dl><dt>주요 등번호</dt><dd>3번 · 인테르 영구 결번</dd></dl>
@@ -151,6 +151,7 @@ draft: false
   <li><a href="https://www.inter.it/en/club/hall-of-fame/giacinto-facchetti" rel="noopener noreferrer">Inter Hall of Fame: Giacinto Facchetti</a>: 인테르 공식 634경기 75골, 선수 전환과 명예의 전당 기록.</li>
   <li><a href="https://www.inter.it/en/news/giacinto-facchetti-2026-birth-anniversary" rel="noopener noreferrer">Inter: Giacinto Facchetti, the legend of a gentleman</a>: 18시즌과 주요 우승 기록.</li>
   <li><a href="https://www.figc.it/it/full-html?path=%2Fmuseo-del-calcio%2Fhall-of-fame%2Friconoscimenti-alla-memoria%2Fgiacinto-facchetti" rel="noopener noreferrer">FIGC Museo del Calcio: Giacinto Facchetti</a>: 이탈리아 대표팀 94경기 3골과 명예의 전당 기록.</li>
+  <li><a href="https://www.treccani.it/enciclopedia/giacinto-facchetti_%28Enciclopedia-dello-Sport%29/" rel="noopener noreferrer">Treccani: Giacinto Facchetti</a>: 188cm 신장과 레프트백·리베로 포지션.</li>
   <li><a href="https://www.rsssf.org/miscellaneous/europa-poy.html" rel="noopener noreferrer">RSSSF: European Footballer of the Year</a>: 발롱도르 연도별 투표 순위.</li>
   <li><a href="/archive/legends/spain/luis-suarez-miramontes/">삥이FC: 루이스 수아레스 미라몬테스</a>: 그란데 인테르의 후방 설계자와 파케티의 부분 전술.</li>
   <li><a href="/squads/custom-best-xi/grande-inter-best-xi/">삥이FC: 그란데 인테르 베스트 11</a>: 파케티가 뛰었던 세대의 전술 구조와 선정 명단.</li>
