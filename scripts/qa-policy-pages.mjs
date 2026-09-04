@@ -33,20 +33,43 @@ for (const viewport of viewports) {
     await page.waitForSelector('[data-privacy-panel]:not([hidden])');
     const metrics = await page.evaluate(() => {
       const panel = document.querySelector('[data-privacy-panel]');
-      const buttons = [...document.querySelectorAll('[data-privacy-panel] button:not([hidden]), [data-privacy-settings]')];
+      const buttons = [...document.querySelectorAll('[data-privacy-panel] button, .privacy-settings-button')]
+        .filter((button) => button.getBoundingClientRect().height > 0);
       return {
         h1Count: document.querySelectorAll('h1').length,
         overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
         panelOverflow: panel ? panel.scrollWidth - panel.clientWidth : -1,
         minimumButtonFont: Math.min(...buttons.map((button) => Number.parseFloat(getComputedStyle(button).fontSize))),
+        minimumButtonHeight: Math.min(...buttons.map((button) => button.getBoundingClientRect().height)),
+        panelHeight: panel?.getBoundingClientRect().height ?? 0,
+        detailsHidden: document.querySelector('[data-privacy-details]')?.hidden,
       };
     });
     if (metrics.h1Count !== 1) failures.push(`${viewport.name} ${pathname}: H1 ${metrics.h1Count}개`);
     if (metrics.overflow !== 0) failures.push(`${viewport.name} ${pathname}: 가로 넘침 ${metrics.overflow}px`);
     if (metrics.panelOverflow > 0) failures.push(`${viewport.name} ${pathname}: 개인정보 패널 넘침 ${metrics.panelOverflow}px`);
-    if (metrics.minimumButtonFont < 13) failures.push(`${viewport.name} ${pathname}: 버튼 최소 글자 ${metrics.minimumButtonFont}px`);
+    if (metrics.minimumButtonFont < 14) failures.push(`${viewport.name} ${pathname}: 버튼 최소 글자 ${metrics.minimumButtonFont}px`);
+    if (metrics.minimumButtonHeight < 44) failures.push(`${viewport.name} ${pathname}: 버튼 최소 높이 ${metrics.minimumButtonHeight}px`);
+    const summaryHeightLimit = viewport.name === 'mobile' ? 280 : 220;
+    if (metrics.panelHeight > summaryHeightLimit) failures.push(`${viewport.name} ${pathname}: 첫 동의 배너 높이 ${metrics.panelHeight}px`);
+    if (!metrics.detailsHidden) failures.push(`${viewport.name} ${pathname}: 첫 화면에서 상세 동의가 펼쳐짐`);
     if (pathname === '/privacy/' && viewport.name !== 'tablet') {
-      await page.screenshot({ path: path.join(outputDirectory, `privacy-${viewport.name}.png`), fullPage: false });
+      await page.screenshot({ path: path.join(outputDirectory, `privacy-summary-${viewport.name}.png`), fullPage: false });
+      await page.click('[data-privacy-customize]', { force: true });
+      const detailMetrics = await page.evaluate(() => {
+        const panel = document.querySelector('[data-privacy-panel]');
+        const detail = document.querySelector('[data-privacy-details]');
+        return {
+          hidden: detail?.hidden,
+          overflow: panel ? panel.scrollWidth - panel.clientWidth : -1,
+          panelHeight: panel?.getBoundingClientRect().height ?? 0,
+          viewportHeight: window.innerHeight,
+        };
+      });
+      if (detailMetrics.hidden) failures.push(`${viewport.name}: 선택 설정이 열리지 않음`);
+      if (detailMetrics.overflow > 0) failures.push(`${viewport.name}: 상세 동의 가로 넘침 ${detailMetrics.overflow}px`);
+      if (viewport.name === 'mobile' && detailMetrics.panelHeight > detailMetrics.viewportHeight * .6) failures.push(`${viewport.name}: 상세 동의 높이 ${detailMetrics.panelHeight}px / 화면 ${detailMetrics.viewportHeight}px`);
+      await page.screenshot({ path: path.join(outputDirectory, `privacy-details-${viewport.name}.png`), fullPage: false });
     }
     await page.close();
   }
@@ -87,6 +110,7 @@ const verifySeparatedChoice = async (name, choices, expectedProviders) => {
   const page = await context.newPage();
   await page.goto(`${baseURL}/`, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('[data-privacy-panel]:not([hidden])');
+  await page.click('[data-privacy-customize]', { force: true });
   if (choices.analytics) await page.check('[data-consent-analytics]', { force: true });
   if (choices.googleTransfer) await page.check('[data-consent-google-transfer]', { force: true });
   if (choices.ads) await page.check('[data-consent-ads]', { force: true });
@@ -121,10 +145,7 @@ for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndica
 const allowPage = await allowContext.newPage();
 await allowPage.goto(`${baseURL}/`, { waitUntil: 'domcontentloaded' });
 await allowPage.waitForSelector('[data-privacy-panel]:not([hidden])');
-await allowPage.check('[data-consent-analytics]', { force: true });
-await allowPage.check('[data-consent-google-transfer]', { force: true });
-await allowPage.check('[data-consent-ads]', { force: true });
-await allowPage.click('[data-privacy-save]', { force: true });
+await allowPage.click('[data-privacy-allow]', { force: true });
 await allowPage.waitForTimeout(250);
 const acceptedChoice = await allowPage.evaluate(() => JSON.parse(localStorage.getItem('bbfc_optional_data_choice_v2') || '{}'));
 if (!acceptedChoice.decided || !acceptedChoice.analytics || !acceptedChoice.googleTransfer || !acceptedChoice.ads) failures.push('세 선택 동의가 각각 저장되지 않음');

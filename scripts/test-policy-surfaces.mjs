@@ -16,17 +16,16 @@ const controls = source('src/components/PrivacyControls.astro');
 
 for (const signal of [
   '개인정보 보호법 제28조의8',
-  '이전 근거:',
-  '이전 국가:',
-  '이전 항목:',
-  '시기·방법:',
-  '보유기간:',
-  '거부와 영향:',
+  '이전 근거</th>',
+  '이전 국가</th>',
+  '이전 항목</th>',
+  '시기·방법</th>',
+  '보유기간</th>',
+  '거부와 영향</th>',
   '개인정보분쟁조정위원회',
   '개인정보침해신고센터',
-  '이벤트 데이터 보관기간은 2개월',
-  '사용자 데이터 보관기간은 14개월',
-  'NAVER Analytics의 분석 데이터는 1년 동안 보존됩니다',
+  'Google Analytics 이벤트 2개월·사용자 14개월',
+  'NAVER Analytics 1년',
   '본 사이트 또는 다른 사이트 이전 방문 기록을 기반으로',
   '방문 분석 수집·이용, Google 국외 이전, Google 광고 쿠키를 각각',
 ]) {
@@ -43,7 +42,7 @@ if (!editorial.includes('사실·기록·인용을 검증하는 데 실제 사�
 for (const signal of ['pageUpdatedDate?: Date', "'@type': 'WebPage'", 'dateModified: pageUpdatedDate.toISOString()']) {
   if (!layout.includes(signal)) fail(`정책 페이지 WebPage 구조화 데이터 누락: ${signal}`);
 }
-for (const signal of ['bbfc_optional_data_choice_v2', "fetch('/api/privacy/region'", 'data-consent-analytics', 'data-consent-google-transfer', 'data-consent-ads', 'data-privacy-save', 'data-privacy-deny']) {
+for (const signal of ['bbfc_optional_data_choice_v2', "fetch('/api/privacy/region'", 'data-consent-analytics', 'data-consent-google-transfer', 'data-consent-ads', 'data-privacy-allow', 'data-privacy-customize', 'data-privacy-save', 'data-privacy-deny']) {
   if (!controls.includes(signal)) fail(`선택 정보 처리 제어 누락: ${signal}`);
 }
 
