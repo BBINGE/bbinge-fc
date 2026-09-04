@@ -42,7 +42,7 @@ if (!editorial.includes('사실·기록·인용을 검증하는 데 실제 사�
 for (const signal of ['pageUpdatedDate?: Date', "'@type': 'WebPage'", 'dateModified: pageUpdatedDate.toISOString()']) {
   if (!layout.includes(signal)) fail(`정책 페이지 WebPage 구조화 데이터 누락: ${signal}`);
 }
-for (const signal of ['bbfc_optional_data_choice_v2', "fetch('/api/privacy/region'", 'data-consent-analytics', 'data-consent-google-transfer', 'data-consent-ads', 'data-privacy-allow', 'data-privacy-customize', 'data-privacy-save', 'data-privacy-deny', "consentSurface === 'google-cmp'", 'showRevocationMessage', "params.get('privacy-settings')", "fctype') === 'gdpr'"]) {
+for (const signal of ['bbfc_optional_data_choice_v2', "fetch('/api/privacy/region'", 'data-consent-analytics', 'data-consent-google-transfer', 'data-consent-ads', 'data-privacy-allow', 'data-privacy-customize', 'data-privacy-save', 'data-privacy-deny', "consentSurface === 'google-cmp'", 'showRevocationMessage', "params.get('privacy-settings')"]) {
   if (!controls.includes(signal)) fail(`선택 정보 처리 제어 누락: ${signal}`);
 }
 
@@ -69,12 +69,15 @@ const requestFromCountry = (country) => {
   return request;
 };
 const restricted = await getPrivacyRegion({ request: requestFromCountry('DE') });
+const restrictedWithCmp = await getPrivacyRegion({ request: requestFromCountry('DE'), env: { GOOGLE_CMP_ACTIVE: 'true' } });
 const unrestricted = await getPrivacyRegion({ request: requestFromCountry('KR') });
 const unknown = await getPrivacyRegion({ request: new Request('https://bbingefc.com/') });
 const restrictedRegion = await restricted.json();
+const restrictedCmpRegion = await restrictedWithCmp.json();
 const unrestrictedRegion = await unrestricted.json();
 const unknownRegion = await unknown.json();
-if (restrictedRegion.optionalScriptsAllowed !== false || restrictedRegion.consentSurface !== 'google-cmp') fail('EEA 접속이 Google CMP 경로로 분기되지 않음');
+if (restrictedRegion.optionalScriptsAllowed !== false || restrictedRegion.consentSurface !== 'disabled') fail('CMP 활성 확인 전 EEA 접속이 fail-closed가 아님');
+if (restrictedCmpRegion.optionalScriptsAllowed !== false || restrictedCmpRegion.consentSurface !== 'google-cmp') fail('CMP 활성 확인 뒤 EEA 접속이 Google CMP 경로로 분기되지 않음');
 if (unrestrictedRegion.optionalScriptsAllowed !== true || unrestrictedRegion.consentSurface !== 'site') fail('한국 접속에서 사이트 선택 동의 기능이 차단됨');
 if (unknownRegion.optionalScriptsAllowed !== false || unknownRegion.consentSurface !== 'disabled') fail('접속 국가 미확인 시 fail-closed가 아님');
 

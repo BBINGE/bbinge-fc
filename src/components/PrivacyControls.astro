@@ -281,15 +281,10 @@ const googleCmpEligible = adsEligible && Astro.url.pathname !== '/privacy/';
       setPanelState(true, true);
     });
 
-    const params = new URLSearchParams(window.location.search);
-    const forceGoogleCmp = googleCmpEligible
-      && params.get('fc') === 'alwaysshow'
-      && params.get('fctype') === 'gdpr';
-
     fetch('/api/privacy/region', { credentials: 'same-origin', cache: 'no-store' })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('region lookup failed')))
       .then((region) => {
-        consentSurface = forceGoogleCmp ? 'google-cmp' : region?.consentSurface || 'disabled';
+        consentSurface = region?.consentSurface || 'disabled';
         optionalScriptsAllowed = consentSurface === 'site';
         regionResolved = true;
         setPanelState();
@@ -298,10 +293,9 @@ const googleCmpEligible = adsEligible && Astro.url.pathname !== '/privacy/';
       })
       .catch(() => {
         regionResolved = true;
-        consentSurface = forceGoogleCmp ? 'google-cmp' : 'disabled';
+        consentSurface = 'disabled';
         optionalScriptsAllowed = false;
         setPanelState();
-        if (consentSurface === 'google-cmp') activateGoogleCmp();
       });
 
     window.addEventListener('pageshow', () => {

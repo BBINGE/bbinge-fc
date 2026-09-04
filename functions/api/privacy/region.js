@@ -4,16 +4,22 @@ const RESTRICTED_AD_REGIONS = new Set([
   'GB', 'CH',
 ]);
 
-export async function onRequestGet({ request }) {
+export async function onRequestGet({ request, env }) {
   const country = typeof request.cf?.country === 'string' ? request.cf.country.toUpperCase() : '';
   const countryResolved = /^[A-Z]{2}$/.test(country);
   const regulatedRegion = countryResolved && RESTRICTED_AD_REGIONS.has(country);
-  const consentSurface = !countryResolved ? 'disabled' : regulatedRegion ? 'google-cmp' : 'site';
+  const googleCmpActive = env?.GOOGLE_CMP_ACTIVE === 'true';
+  const consentSurface = !countryResolved
+    ? 'disabled'
+    : regulatedRegion
+      ? googleCmpActive ? 'google-cmp' : 'disabled'
+      : 'site';
   const optionalScriptsAllowed = consentSurface === 'site';
 
   return new Response(JSON.stringify({
     country: countryResolved ? country : null,
     regulatedRegion,
+    googleCmpActive,
     consentSurface,
     optionalScriptsAllowed,
   }), {
