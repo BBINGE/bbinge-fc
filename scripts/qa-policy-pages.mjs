@@ -7,6 +7,7 @@ const baseURL = process.argv[2] ?? 'http://127.0.0.1:4321';
 const viewports = [
   { name: 'mobile', width: 390, height: 844 },
   { name: 'tablet', width: 768, height: 1024 },
+  { name: 'laptop', width: 1366, height: 768 },
   { name: 'desktop', width: 1440, height: 1000 },
 ];
 const paths = ['/privacy/', '/terms/', '/editorial-policy/'];
@@ -161,5 +162,5 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`정책 화면 검수 통과: ${paths.length}페이지 × ${viewports.length}화면, 390·768·1440px, 4개 분리 동의 조합·동의 전 0건·전체 동의 후 3개 제공자 로드`);
+console.log(`정책 화면 검수 통과: ${paths.length}페이지 × ${viewports.length}화면, 390·768·1366·1440px, 4개 분리 동의 조합·동의 전 0건·전체 동의 후 3개 제공자 로드`);
 console.log(`검수 이미지: ${outputDirectory}`);
