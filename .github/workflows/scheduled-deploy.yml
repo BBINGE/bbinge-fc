@@ -70,14 +70,14 @@ jobs:
         if: steps.deploy.outputs.needed == 'true'
         run: |
           expected_sha="$(git rev-parse HEAD)"
-          for attempt in $(seq 1 20); do
+          for attempt in $(seq 1 40); do
             deployed_sha="$(curl -fsS --max-time 20 "https://bbinge-fc.pages.dev/deploy.json?attempt=${attempt}" | node -e "let input=''; process.stdin.on('data',c=>input+=c); process.stdin.on('end',()=>{try{process.stdout.write(JSON.parse(input).commit||'')}catch{}})")"
             if [ "$deployed_sha" = "$expected_sha" ]; then
               echo "Production deployment confirmed: $deployed_sha"
               exit 0
             fi
-            echo "Waiting for production deployment ($attempt/20): ${deployed_sha:-not available}"
+            echo "Waiting for production deployment ($attempt/40): ${deployed_sha:-not available}"
             sleep 15
           done
-          echo "Production did not reach commit $expected_sha within 5 minutes."
+          echo "Production did not reach commit $expected_sha within 10 minutes."
           exit 1
