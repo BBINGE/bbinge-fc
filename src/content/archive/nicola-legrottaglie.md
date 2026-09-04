@@ -133,18 +133,18 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic legro-career-grid">
-  <div><img src="/images/archive/legends/legrottaglie/bari-logo.webp" alt="AS 바리 문장" /><strong>AS 바리</strong><span>1994-1998</span><small>리그 출전 0경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/pistoiese-logo.webp" alt="AC 피스토이에세 문장" /><strong>AC 피스토이에세 · 임대</strong><span>1996-1997</span><small>리그 31경기 · 3골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/prato-logo.webp" alt="AC 프라토 문장" /><strong>AC 프라토 · 임대</strong><span>1997-1998</span><small>리그 26경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/chievo-logo.webp" alt="AC 키에보베로나 문장" /><strong>AC 키에보베로나</strong><span>1998-2003</span><small>리그 66경기 · 6골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/reggiana-logo.svg" alt="AC 레자나 1919 문장" /><strong>AC 레자나 1919 · 임대</strong><span>2000</span><small>리그 4경기 · 1골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/modena-logo.webp" alt="모데나 FC 문장" /><strong>모데나 FC · 임대</strong><span>2000-2001</span><small>리그 32경기 · 1골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/juventus-logo.svg" alt="유벤투스 FC 문장" /><strong>유벤투스 FC</strong><span>2003-2011</span><small>리그 114경기 · 8골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/bologna-logo.webp" alt="볼로냐 FC 1909 문장" /><strong>볼로냐 FC 1909 · 임대</strong><span>2005</span><small>리그 9경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/siena-logo.svg" alt="AC 시에나 문장" /><strong>AC 시에나 · 임대</strong><span>2005-2006</span><small>리그 28경기</small></div>
-  <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2011</span><small>리그 1경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/catania-logo.webp" alt="칼초 카타니아 문장" /><strong>칼초 카타니아</strong><span>2011-2014</span><small>리그 75경기 · 8골</small></div>
-  <div><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" alt="이탈리아 축구 연맹 문장" /><strong>이탈리아 대표팀</strong><span>2002-2009</span><small>16경기 · 1골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/bari-logo.webp" alt="AS 바리 문장" width="58" height="58" /><strong>AS 바리</strong><span>1994-1998</span><small>리그 출전 0경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/pistoiese-logo.webp" alt="AC 피스토이에세 문장" width="58" height="58" /><strong>AC 피스토이에세 · 임대</strong><span>1996-1997</span><small>리그 31경기 · 3골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/prato-logo.webp" alt="AC 프라토 문장" width="58" height="58" /><strong>AC 프라토 · 임대</strong><span>1997-1998</span><small>리그 26경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/chievo-logo.webp" alt="AC 키에보베로나 문장" width="58" height="58" /><strong>AC 키에보베로나</strong><span>1998-2003</span><small>리그 66경기 · 6골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/reggiana-logo.svg" alt="AC 레자나 1919 문장" width="58" height="58" /><strong>AC 레자나 1919 · 임대</strong><span>2000</span><small>리그 4경기 · 1골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/modena-logo.webp" alt="모데나 FC 문장" width="58" height="58" /><strong>모데나 FC · 임대</strong><span>2000-2001</span><small>리그 32경기 · 1골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/juventus-logo.svg" alt="유벤투스 FC 문장" width="58" height="58" /><strong>유벤투스 FC</strong><span>2003-2011</span><small>리그 114경기 · 8골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/bologna-logo.webp" alt="볼로냐 FC 1909 문장" width="58" height="58" /><strong>볼로냐 FC 1909 · 임대</strong><span>2005</span><small>리그 9경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/siena-logo.svg" alt="AC 시에나 문장" width="58" height="58" /><strong>AC 시에나 · 임대</strong><span>2005-2006</span><small>리그 28경기</small></div>
+  <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" width="58" height="58" /><strong>AC 밀란</strong><span>2011</span><small>리그 1경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/catania-logo.webp" alt="칼초 카타니아 문장" width="58" height="58" /><strong>칼초 카타니아</strong><span>2011-2014</span><small>리그 75경기 · 8골</small></div>
+  <div><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" alt="이탈리아 축구 연맹 문장" width="58" height="58" /><strong>이탈리아 대표팀</strong><span>2002-2009</span><small>16경기 · 1골</small></div>
 </div>
 
 <p class="record-note">카드는 유소년 경력을 제외한 모든 성인 소속 클럽과 이탈리아 대표팀을 빠짐없이 담았다. 클럽 기록은 같은 기준으로 비교하기 위해 정규 리그만 집계했으며 플레이오프·코파 이탈리아·유럽 대항전·수페르코파는 제외했다. 클럽 리그 통산은 386경기 27골이다. 유벤투스의 모든 공식 대회 합계는 154경기 10골이며, 리그 114경기에는 2006-07 세리에 B 10경기가 포함된다.</p>
