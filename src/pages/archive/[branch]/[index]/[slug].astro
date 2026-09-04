@@ -584,3 +584,23 @@ const relatedAssets = entry.data.relatedGroup
     });
   })();
 </script>
+
+<script is:inline>
+  (() => {
+    const videos = document.querySelectorAll('video[data-archive-autoplay]');
+    if (!videos.length) return;
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion || !('IntersectionObserver' in window)) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const video = entry.target;
+        if (entry.isIntersecting) video.play().catch(() => {});
+        else video.pause();
+      });
+    }, { threshold: 0.45 });
+
+    videos.forEach((video) => observer.observe(video));
+  })();
+</script>
