@@ -65,7 +65,7 @@ draft: false
 본명은 **니콜라 레그로탈리에**<span class="foreign-note" lang="it">(Nicola Legrottaglie; 이탈리아의 축구선수·센터백, 1976-)</span>다. 풀리아주 바리 광역시에 속한 조이아델콜레에서 태어났고 바리 유소년팀을 거쳤다. 신장은 당대 《가제타 델로 스포르트》 선수 카드와 UEFA 선수 자료가 기록한 185cm를 적용했다. 후대 데이터베이스에는 189cm 또는 190cm로도 적히지만, 선수로 뛰던 시기의 이탈리아 리그 자료를 우선했다.
 
 <div class="legro-career-arc" aria-label="니콜라 레그로탈리에의 커리어 전환점">
-  <div><time>1996-2001</time><strong>세리에 C에서 만든 기반</strong><p>피스토이에세·프라토·레지아나를 거쳐 모데나의 세리에 C1 우승에 참가했다.</p></div>
+  <div><time>1996-2001</time><strong>세리에 C에서 만든 기반</strong><p>피스토이에세·프라토·AC 레자나 1919를 거쳐 모데나의 세리에 C1 우승에 참가했다.</p></div>
   <div><time>2001-2003</time><strong>치에보에서 아주리까지</strong><p>첫 세리에 A 시즌은 13경기, 다음 시즌은 30경기 4골. 두 번째 해에 국가대표가 됐다.</p></div>
   <div><time>2003-2006</time><strong>유벤투스 실패와 두 번의 임대</strong><p>첫 시즌 뒤 파비오 카펠로의 구상에서 밀려 볼로냐와 시에나로 향했다.</p></div>
   <div><time>2006-2011</time><strong>세리에 B에서 다시 주전으로</strong><p>잔류와 승격을 거쳐 키엘리니의 파트너가 됐고 UEFA 챔피언스 리그로 돌아왔다.</p></div>
@@ -74,7 +74,7 @@ draft: false
 
 ## 모데나의 승격 수비수, 치에보의 뒤늦은 주전
 
-레그로탈리에의 프로 경력은 바리 1군이 아니라 임대지에서 시작됐다. 피스토이에세와 프라토에서 세리에 C1을 경험했고, 치에보 이적 뒤에도 자리를 잡지 못해 레지아나와 모데나로 다시 떠났다. 전환점은 2000-01 시즌 모데나였다. 지안니 데 비아시<span class="foreign-note" lang="it">(Gianni De Biasi; 이탈리아의 축구 감독, 1956-)</span>의 팀에서 리그 32경기를 뛰며 세리에 C1 A조 우승과 승격을 함께했다. 모데나 구단이 공개한 당시 주전 명단에도 그의 이름이 들어 있다.
+레그로탈리에의 프로 경력은 바리 1군이 아니라 임대지에서 시작됐다. 피스토이에세와 프라토에서 세리에 C1을 경험했고, 치에보 이적 뒤에도 자리를 잡지 못해 AC 레자나 1919와 모데나로 다시 떠났다. 전환점은 2000-01 시즌 모데나였다. 지안니 데 비아시<span class="foreign-note" lang="it">(Gianni De Biasi; 이탈리아의 축구 감독, 1956-)</span>의 팀에서 리그 32경기를 뛰며 세리에 C1 A조 우승과 승격을 함께했다. 모데나 구단이 공개한 당시 주전 명단에도 그의 이름이 들어 있다.
 
 치에보가 처음 세리에 A에 올라 2001-02 시즌 5위를 차지했을 때 레그로탈리에는 리그 13경기 2골을 기록했다. ‘미라콜로 치에보’의 처음부터 절대적인 수비 리더였다고 부르기에는 출전 수가 적다. 그의 개인적 폭발은 한 시즌 뒤였다. 2002-03 시즌 30경기 4골, 2002년 11월 튀르키예전 A매치 데뷔, 2003년 4월 스위스전 헤더 득점이 이어졌다. 치에보의 작은 선수단에서 주전이 된 지 1년 만에 이탈리아 정상급 센터백 후보가 됐다.
 
@@ -133,30 +133,21 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic legro-career-grid">
+  <div><img src="/images/archive/legends/legrottaglie/bari-logo.webp" alt="AS 바리 문장" /><strong>AS 바리</strong><span>1994-1998</span><small>리그 출전 0경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/pistoiese-logo.webp" alt="AC 피스토이에세 문장" /><strong>AC 피스토이에세 · 임대</strong><span>1996-1997</span><small>리그 31경기 · 3골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/prato-logo.webp" alt="AC 프라토 문장" /><strong>AC 프라토 · 임대</strong><span>1997-1998</span><small>리그 26경기</small></div>
   <div><img src="/images/archive/legends/legrottaglie/chievo-logo.webp" alt="AC 키에보베로나 문장" /><strong>AC 키에보베로나</strong><span>1998-2003</span><small>리그 66경기 · 6골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/reggiana-logo.svg" alt="AC 레자나 1919 문장" /><strong>AC 레자나 1919 · 임대</strong><span>2000</span><small>리그 4경기 · 1골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/modena-logo.webp" alt="모데나 FC 문장" /><strong>모데나 FC · 임대</strong><span>2000-2001</span><small>리그 32경기 · 1골</small></div>
   <div><img src="/images/archive/legends/legrottaglie/juventus-logo.svg" alt="유벤투스 FC 문장" /><strong>유벤투스 FC</strong><span>2003-2011</span><small>리그 114경기 · 8골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/bologna-logo.webp" alt="볼로냐 FC 1909 문장" /><strong>볼로냐 FC 1909 · 임대</strong><span>2005</span><small>리그 9경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/siena-logo.svg" alt="AC 시에나 문장" /><strong>AC 시에나 · 임대</strong><span>2005-2006</span><small>리그 28경기</small></div>
   <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2011</span><small>리그 1경기</small></div>
   <div><img src="/images/archive/legends/legrottaglie/catania-logo.webp" alt="칼초 카타니아 문장" /><strong>칼초 카타니아</strong><span>2011-2014</span><small>리그 75경기 · 8골</small></div>
   <div><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" alt="이탈리아 축구 연맹 문장" /><strong>이탈리아 대표팀</strong><span>2002-2009</span><small>16경기 · 1골</small></div>
 </div>
 
-<div class="number-history-table legro-stats-table"><table><thead><tr><th>소속팀</th><th>기간</th><th>리그 경기</th><th>리그 골</th></tr></thead><tbody>
-<tr><td>SSC 바리</td><td>1994-1998</td><td>0</td><td>0</td></tr>
-<tr><td>AC 피스토이에세 · 임대</td><td>1996-1997</td><td>31</td><td>3</td></tr>
-<tr><td>AC 프라토 · 임대</td><td>1997-1998</td><td>26</td><td>0</td></tr>
-<tr><td>AC 키에보베로나</td><td>1998-2003</td><td>66</td><td>6</td></tr>
-<tr><td>AC 레지아나 · 임대</td><td>2000</td><td>4</td><td>1</td></tr>
-<tr><td>모데나 FC · 임대</td><td>2000-2001</td><td>32</td><td>1</td></tr>
-<tr><td>유벤투스 FC</td><td>2003-2011</td><td>114</td><td>8</td></tr>
-<tr><td>볼로냐 FC 1909 · 임대</td><td>2005</td><td>9</td><td>0</td></tr>
-<tr><td>AC 시에나 · 임대</td><td>2005-2006</td><td>28</td><td>0</td></tr>
-<tr><td>AC 밀란</td><td>2011</td><td>1</td><td>0</td></tr>
-<tr><td>칼초 카타니아</td><td>2011-2014</td><td>75</td><td>8</td></tr>
-<tr class="is-total"><td>클럽 리그 합계</td><td>1996-2014</td><td>386</td><td>27</td></tr>
-<tr class="is-national"><td>이탈리아 대표팀</td><td>2002-2009</td><td>16</td><td>1</td></tr>
-</tbody></table></div>
-
-<p class="record-note">표는 모든 클럽을 같은 기준으로 비교하기 위해 정규 리그 경기만 집계했다. 플레이오프·코파 이탈리아·유럽 대항전·수페르코파는 제외했다. 유벤투스의 모든 공식 대회 합계는 154경기 10골이며, 리그 114경기에는 2006-07 세리에 B 10경기가 포함된다.</p>
+<p class="record-note">카드는 유소년 경력을 제외한 모든 성인 소속 클럽과 이탈리아 대표팀을 빠짐없이 담았다. 클럽 기록은 같은 기준으로 비교하기 위해 정규 리그만 집계했으며 플레이오프·코파 이탈리아·유럽 대항전·수페르코파는 제외했다. 클럽 리그 통산은 386경기 27골이다. 유벤투스의 모든 공식 대회 합계는 154경기 10골이며, 리그 114경기에는 2006-07 세리에 B 10경기가 포함된다.</p>
 
 ## 역대 등번호
 
@@ -206,7 +197,6 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223655657066" rel="noopener noreferrer">삥이 네이버 블로그: 니콜라 레그로탈리에</a>: 박성호가 작성한 기존 원고·제작 썸네일·영상 구성의 출발점. 본문과 기록은 독립 자료로 다시 검증했다.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/025a-0eaade283d31-f44b3ffceaa7-1000--legrottaglie-relishing-juve-move/" rel="noopener noreferrer">UEFA: Legrottaglie relishing Juve move</a>: 2003년 이적료 700만 유로, 치에보 2002-03 리그 30경기 4골, 아주리 데뷔와 득점.</li>
   <li><a href="https://www.juventus.com/images/image/private/fl_attachment/dev/xpnbg0zrrfrmlfzjdeib.pdf" rel="noopener noreferrer">Juventus: Annual Financial Report 2006/07</a>: 선수등록권 장부가액 742만 4천 유로와 계약 기간.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/025a-0eaa1bceaebd-e618734164fa-1000--legrottaglie-leaves-juve/" rel="noopener noreferrer">UEFA: Legrottaglie leaves Juve</a>: 2004-05 시즌 리그 출전 없이 볼로냐로 임대된 경위.</li>
@@ -230,8 +220,15 @@ draft: false
   <li><a href="https://en.wikipedia.org/wiki/AC_ChievoVerona" rel="noopener noreferrer">Wikipedia: AC ChievoVerona</a>: 선수 경력 카드의 치에보 문장.</li>
   <li><a href="https://en.wikipedia.org/wiki/Juventus_FC" rel="noopener noreferrer">Wikipedia: Juventus FC</a>: 선수 경력 카드의 유벤투스 문장.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Logo_CATANIA_FC.svg" rel="noopener noreferrer">Wikimedia Commons: Logo CATANIA FC</a>: 선수 경력 카드의 카타니아 문장.</li>
+  <li><a href="https://fr.wikipedia.org/wiki/Fichier:Logo_SSC_Bari_-_2018.svg" rel="noopener noreferrer">Wikimedia: Logo SSC Bari 2018</a>: 선수 경력 카드의 바리 문장.</li>
+  <li><a href="https://en.wikipedia.org/wiki/FC_Pistoiese_SSD" rel="noopener noreferrer">Wikipedia: FC Pistoiese SSD</a>: 선수 경력 카드의 피스토이에세 문장.</li>
+  <li><a href="https://de.wikipedia.org/wiki/Datei:AC_Prato_Logo.svg" rel="noopener noreferrer">Wikimedia: AC Prato Logo</a>: 선수 경력 카드의 프라토 문장.</li>
+  <li><a href="https://en.wikipedia.org/wiki/AC_Reggiana_1919" rel="noopener noreferrer">Wikipedia: AC Reggiana 1919</a>: 선수 경력 카드의 AC 레자나 1919 문장.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Modena_FC_2018" rel="noopener noreferrer">Wikipedia: Modena FC 2018</a>: 선수 경력 카드의 모데나 문장.</li>
+  <li><a href="https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC:%EB%B3%BC%EB%A1%9C%EB%83%90_FC_1909_%EB%A1%9C%EA%B3%A0.svg" rel="noopener noreferrer">위키미디어: 볼로냐 FC 1909 로고</a>: 선수 경력 카드의 볼로냐 문장.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Siena_FC_SSD" rel="noopener noreferrer">Wikipedia: Siena FC SSD</a>: 선수 경력 카드의 시에나 문장.</li>
 </ul>
 
 <style>
-.legro-career-arc{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;margin:42px 0 56px;padding:1px;background:#b9cce4;border-radius:18px;overflow:hidden}.legro-career-arc>div{min-width:0;padding:20px 16px 22px;background:#f6f9fd}.legro-career-arc time{display:block;color:#0c63c8;font-size:.82rem;font-weight:800;letter-spacing:.04em}.legro-career-arc strong{display:block;margin-top:9px;font-size:1rem;line-height:1.45}.legro-career-arc p{margin-top:9px!important;color:#4d6076;font-size:.86rem;line-height:1.65}.legro-career-grid img{object-fit:contain!important;border-radius:0;background:#fff}.legro-title-ledger{margin:38px 0 56px;border:1px solid #b7cce7;border-radius:18px;overflow:hidden;background:#f8fbff}.legro-title-ledger header{padding:24px 26px;background:linear-gradient(135deg,#0a4c9c,#0b70cf);color:#fff}.legro-title-ledger header span{font-size:.82rem;font-weight:800;letter-spacing:.1em}.legro-title-ledger header h3{margin:8px 0 0!important;font-size:1.35rem;color:#fff}.legro-title-ledger header p{margin-top:8px!important;color:#dcecff;font-size:.92rem;line-height:1.65}.legro-title-row{display:grid;grid-template-columns:90px repeat(3,minmax(0,1fr));border-top:1px solid #d8e4f2}.legro-title-row>*{min-width:0;margin:0!important;padding:18px 16px;border-left:1px solid #d8e4f2;font-size:.9rem;line-height:1.65}.legro-title-row>*:first-child{border-left:0}.legro-title-row.is-head{background:#e9f2fd}.legro-title-row.is-head b{padding-top:12px;padding-bottom:12px;color:#315474;font-size:.82rem}.legro-title-ledger footer{padding:22px 26px;border-top:2px solid #1168c7;background:#eaf4ff}.legro-title-ledger footer strong{font-size:1rem;color:#0b58ad}.legro-title-ledger footer p{margin-top:7px!important;font-size:.94rem;line-height:1.72}.legro-stats-table .is-total{background:#eef5fd;font-weight:750}.legro-stats-table .is-national{background:#f4f8f6;font-weight:700}@media(max-width:760px){.legro-career-arc{grid-template-columns:1fr}.legro-career-arc>div{padding:18px}.legro-title-ledger header,.legro-title-ledger footer{padding:20px}.legro-title-row,.legro-title-row.is-head{grid-template-columns:1fr}.legro-title-row.is-head{display:none}.legro-title-row>*{padding:13px 18px;border-left:0;border-top:1px solid #d8e4f2;font-size:.9rem}.legro-title-row>*:first-child{border-top:0;background:#edf5ff;color:#0b58ad;font-size:1rem}.legro-title-row p:nth-child(2)::before,.legro-title-row p:nth-child(3)::before,.legro-title-row p:nth-child(4)::before{display:block;margin-bottom:4px;color:#52708f;font-size:.8rem;font-weight:800}.legro-title-row p:nth-child(2)::before{content:"현장 결과"}.legro-title-row p:nth-child(3)::before{content:"사후 공식 기록"}.legro-title-row p:nth-child(4)::before{content:"레그로탈리에"}}
+.legro-career-arc{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;margin:42px 0 56px;padding:1px;background:#b9cce4;border-radius:18px;overflow:hidden}.legro-career-arc>div{min-width:0;padding:20px 16px 22px;background:#f6f9fd}.legro-career-arc time{display:block;color:#0c63c8;font-size:.82rem;font-weight:800;letter-spacing:.04em}.legro-career-arc strong{display:block;margin-top:9px;font-size:1rem;line-height:1.45}.legro-career-arc p{margin-top:9px!important;color:#4d6076;font-size:.86rem;line-height:1.65}.legro-career-grid img{object-fit:contain!important;border-radius:0;background:#fff}.legro-title-ledger{margin:38px 0 56px;border:1px solid #b7cce7;border-radius:18px;overflow:hidden;background:#f8fbff}.legro-title-ledger header{padding:24px 26px;background:linear-gradient(135deg,#0a4c9c,#0b70cf);color:#fff}.legro-title-ledger header span{font-size:.82rem;font-weight:800;letter-spacing:.1em}.legro-title-ledger header h3{margin:8px 0 0!important;font-size:1.35rem;color:#fff}.legro-title-ledger header p{margin-top:8px!important;color:#dcecff;font-size:.92rem;line-height:1.65}.legro-title-row{display:grid;grid-template-columns:90px repeat(3,minmax(0,1fr));border-top:1px solid #d8e4f2}.legro-title-row>*{min-width:0;margin:0!important;padding:18px 16px;border-left:1px solid #d8e4f2;font-size:.9rem;line-height:1.65}.legro-title-row>*:first-child{border-left:0}.legro-title-row.is-head{background:#e9f2fd}.legro-title-row.is-head b{padding-top:12px;padding-bottom:12px;color:#315474;font-size:.82rem}.legro-title-ledger footer{padding:22px 26px;border-top:2px solid #1168c7;background:#eaf4ff}.legro-title-ledger footer strong{font-size:1rem;color:#0b58ad}.legro-title-ledger footer p{margin-top:7px!important;font-size:.94rem;line-height:1.72}@media(max-width:760px){.legro-career-arc{grid-template-columns:1fr}.legro-career-arc>div{padding:18px}.legro-title-ledger header,.legro-title-ledger footer{padding:20px}.legro-title-row,.legro-title-row.is-head{grid-template-columns:1fr}.legro-title-row.is-head{display:none}.legro-title-row>*{padding:13px 18px;border-left:0;border-top:1px solid #d8e4f2;font-size:.9rem}.legro-title-row>*:first-child{border-top:0;background:#edf5ff;color:#0b58ad;font-size:1rem}.legro-title-row p:nth-child(2)::before,.legro-title-row p:nth-child(3)::before,.legro-title-row p:nth-child(4)::before{display:block;margin-bottom:4px;color:#52708f;font-size:.8rem;font-weight:800}.legro-title-row p:nth-child(2)::before{content:"현장 결과"}.legro-title-row p:nth-child(3)::before{content:"사후 공식 기록"}.legro-title-row p:nth-child(4)::before{content:"레그로탈리에"}}
 </style>
