@@ -180,7 +180,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
   .header-search { flex:0 0 218px; height:38px; display:flex; align-items:center; gap:9px; padding:0 13px; border:1px solid var(--bbfc-border); border-radius:999px; background:#fff; color:var(--bbfc-gray-2); box-shadow:0 9px 24px -18px rgba(22,31,43,.7); animation:search-float 5.6s ease-in-out infinite; transition:border-color 160ms ease,box-shadow 160ms ease; will-change:transform; }
   .header-search:focus-within { border-color:var(--bbfc-blue); box-shadow:0 10px 26px -15px rgba(41,112,240,.48); }
   .header-search svg { flex:0 0 auto; }
-  .header-search input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:11.5px; }
+  .header-search input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--bbfc-ink); font-size:13px; }
   .header-search input::placeholder { color:var(--bbfc-gray-2); opacity:1; }
   @keyframes search-float {
     0%,100% { transform:translate3d(0,0,0); box-shadow:0 9px 24px -18px rgba(22,31,43,.7); }
@@ -189,11 +189,11 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
   }
   @media (max-width: 1180px) {
     .header-search { flex-basis:184px; }
-    .header-search input { font-size:10.5px; }
+    .header-search input { font-size:13px; }
   }
   @media (max-width: 767px) {
     .header-search { flex-basis:min(46vw,170px); height:36px; padding:0 11px; }
-    .header-search input { font-size:10.5px; }
+    .header-search input { font-size:13px; }
   }
   @media (prefers-reduced-motion: reduce) { .header-search { animation:none; } }
 </style>

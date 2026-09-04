@@ -26,7 +26,10 @@ if (!builtMode) {
     'description: site.homeDescription',
     "author: { '@id': `${site.url}/#author` }",
     "creator: { '@id': `${site.url}/#author` }",
-    "publisher: { '@id': `${site.url}/#author` }",
+    "publisher: { '@id': `${site.url}/#organization` }",
+    "'@type': 'Organization'",
+    "founder: { '@id': `${site.url}/#author` }",
+    "affiliation: { '@id': `${site.url}/#organization` }",
     'alternateName: site.authorAlternateNames',
     'description: site.authorDescription',
   ];
@@ -43,9 +46,11 @@ if (!builtMode) {
     const schemas = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
       .map((match) => JSON.parse(match[1]));
     const website = schemas.find((schema) => schema['@type'] === 'WebSite');
+    const organization = schemas.find((schema) => schema['@type'] === 'Organization' && schema['@id'] === 'https://bbingefc.com/#organization');
     const author = schemas.find((schema) => schema['@type'] === 'Person' && schema['@id'] === 'https://bbingefc.com/#author');
 
     if (!website) fail('빌드 결과에서 WebSite JSON-LD 누락');
+    if (!organization) fail('빌드 결과에서 매거진 Organization JSON-LD 누락');
     if (!author) fail('빌드 결과에서 저자 Person JSON-LD 누락');
 
     if (website) {
@@ -53,14 +58,23 @@ if (!builtMode) {
       for (const value of ['BBINGE FC', 'BBinge FC', '삥이FC(풋볼N컬처)_official', 'bbingefc.com']) {
         if (!alternateNames.includes(value)) fail(`빌드된 WebSite 대체 이름에서 ${value} 누락`);
       }
-      for (const relation of ['author', 'creator', 'publisher']) {
+      for (const relation of ['author', 'creator']) {
         if (website[relation]?.['@id'] !== 'https://bbingefc.com/#author') {
           fail(`빌드된 WebSite.${relation}가 저자 Person을 참조하지 않음`);
         }
       }
+      if (website.publisher?.['@id'] !== 'https://bbingefc.com/#organization') {
+        fail('빌드된 WebSite.publisher가 매거진 Organization을 참조하지 않음');
+      }
+    }
+
+    if (organization) {
+      if (organization.founder?.['@id'] !== 'https://bbingefc.com/#author') fail('매거진 Organization과 저자 Person 연결 누락');
+      if (!organization.logo?.url) fail('매거진 Organization 로고 누락');
     }
 
     if (author) {
+      if (author.affiliation?.['@id'] !== 'https://bbingefc.com/#organization') fail('저자 Person과 매거진 Organization 소속 연결 누락');
       if (!author.alternateName?.includes('삥이') || !author.alternateName?.includes('BBinge')) {
         fail('빌드된 Person에서 삥이·BBinge 연결 누락');
       }

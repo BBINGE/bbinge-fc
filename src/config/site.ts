@@ -4,6 +4,7 @@ export const site = {
   fullName: '삥이FC(풋볼N컬처)_official',
   alternateNames: ['BBINGE FC', 'BBinge FC', '삥이FC(풋볼N컬처)_official', 'bbingefc.com'],
   tagline: '축구의 역사를 놀고, 읽고, 걷는 곳',
+  organizationDescription: '축구의 역사·전술·세계사·여행·패션을 각기 다른 편집 방식으로 기록하는 박성호(삥이)의 독립 축구 문화 매거진입니다.',
   homeDescription: '축구의 역사·전술·규칙·여행·유니폼을 박성호(삥이)의 관점으로 읽고 기록하는 독립 축구 문화 매거진입니다.',
   url: 'https://bbingefc.com',
   locale: 'ko-KR',
@@ -35,5 +36,8 @@ export const site = {
     'https://in.naver.com/soccerbybbing2',
     'https://brunch.co.kr/@c50aa0b5d6d4431',
     'https://substack.com/@bbinge',
+  ],
+  organizationProfiles: [
+    'https://www.instagram.com/bbinge_official/',
   ],
 };

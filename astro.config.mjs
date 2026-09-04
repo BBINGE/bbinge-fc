@@ -66,7 +66,8 @@ for (const file of markdownFiles(join(contentRoot, 'articles'))) {
     populatedArticleCategories.add(populatedSlug);
     populatedSlug = categoryParents.get(populatedSlug);
   }
-  if (category && modified) contentLastModified.set(`/${category}/${slug}/`, new Date(modified));
+  const categoryPath = category ? categoryPaths.get(category) : undefined;
+  if (categoryPath && modified) contentLastModified.set(`${categoryPath}${slug}/`, new Date(modified));
 }
 
 // https://astro.build/config

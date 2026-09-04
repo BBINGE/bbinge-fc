@@ -26,6 +26,23 @@ const branchRecords = (await getCollection('archive', ({ data }) =>
   !data.draft && data.branch === branch.id
 )).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
 const records = index ? branchRecords.filter((record) => record.data.index === index.slug) : branchRecords;
+const branchGuide = !index && records.length === 0 ? {
+  leagues: {
+    eyebrow: '리그별 기록 설계',
+    title: '시즌과 구단을 같은 기준으로 읽는 곳',
+    copy: '각국 리그의 탄생과 개편, 시즌별 우승 경쟁, 구단과 스쿼드의 변화를 당시의 정식 명칭과 대회 체계를 기준으로 축적합니다. 단순 순위표가 아니라 한 시즌의 전술·인물·산업적 맥락을 함께 남길 색인입니다.',
+  },
+  'european-club': {
+    eyebrow: '클럽 대항전 기록 설계',
+    title: '이름이 바뀌어도 대회의 시대는 섞지 않는 곳',
+    copy: '유러피언컵과 UEFA 챔피언스 리그를 하나의 이름으로 뭉뚱그리지 않고, 컵위너스컵·UEFA컵·유로파 리그처럼 제도와 자격이 달라진 경계를 정식 명칭에 맞춰 구분합니다. 결승전과 우승팀만이 아니라 그 대회가 당대 클럽 축구를 어떻게 바꾸었는지를 기록할 예정입니다.',
+  },
+  awards: {
+    eyebrow: '수상 기록 설계',
+    title: '상의 이름보다 선정 기준과 시대를 남기는 곳',
+    copy: '발롱도르부터 대회별 최우수 선수·득점왕·시즌 베스트 11까지, 수상자의 이름만 나열하지 않고 당시의 투표권·선정 방식·대회 명칭을 함께 확인합니다. 서로 다른 시대의 상을 같은 척도로 오인하지 않도록 근거와 맥락을 같이 보존하는 색인입니다.',
+  },
+}[branch.id] : undefined;
 const availableIndexes = branch.indexes.filter((item) =>
   branchRecords.some((record) => record.data.index === item.slug)
 );
@@ -106,7 +123,17 @@ const collectionSchema = {
             </a>
           ))}
         </div>
-      ) : <div class="empty-state">
+      ) : branchGuide ? <div class="branch-guide">
+        <p>{branchGuide.eyebrow}</p>
+        <strong>{branchGuide.title}</strong>
+        <span>{branchGuide.copy}</span>
+        <div class="planned-indexes" aria-label={`${branch.title} 예정 색인`}>
+          {branch.indexes.map((item, position) => (
+            <article><b>{String(position + 1).padStart(2, '0')}</b><h3>{item.label}</h3><small>첫 기록 준비 중</small></article>
+          ))}
+        </div>
+        <a href="/archive/">삥이 아카이브 전체 보기 <i aria-hidden="true">→</i></a>
+      </div> : <div class="empty-state">
         <p>FIRST RECORD</p>
         <strong>첫 기록이 이곳에서 시작됩니다.</strong>
         <span>발행되는 글은 정사각형 썸네일과 함께 이 색인에 순서대로 쌓입니다.</span>
@@ -117,7 +144,7 @@ const collectionSchema = {
 
 <style>
   .collection-page { max-width: 1040px; min-height: 72vh; margin: 0 auto; padding: 38px 20px 70px; }
-  .collection-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 11px; color: var(--bbfc-gray-2); }
+  .collection-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12px; color: var(--bbfc-gray-2); }
   .collection-breadcrumb a:hover { color: var(--bbfc-blue); }
   .collection-breadcrumb strong { color: var(--bbfc-ink-2); font-weight: 550; }
   .collection-hero { margin-top: 34px; padding: 58px 0 54px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
@@ -125,7 +152,7 @@ const collectionSchema = {
   .collection-hero h1 { margin-top: 12px; font-size: clamp(40px, 6vw, 72px); line-height: 1; font-weight: 700; letter-spacing: -.06em; }
   .collection-hero > span { display: block; max-width: 550px; margin-top: 22px; font-size: 14px; line-height: 1.75; color: var(--bbfc-gray-1); }
   .index-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 26px 0; border-bottom: 1px solid var(--bbfc-border); }
-  .index-nav a { padding: 8px 12px; border: 1px solid var(--bbfc-border); border-radius: 99px; font-size: 11.5px; color: var(--bbfc-ink-2); transition: border-color 160ms ease, color 160ms ease, background 160ms ease; }
+  .index-nav a { padding: 8px 12px; border: 1px solid var(--bbfc-border); border-radius: 99px; font-size: 13px; color: var(--bbfc-ink-2); transition: border-color 160ms ease, color 160ms ease, background 160ms ease; }
   .index-nav a:hover, .index-nav a.is-active { border-color: var(--bbfc-blue); background: var(--bbfc-blue-weak); color: var(--bbfc-blue-strong); }
   .category-new { margin-left: 6px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
   .collection-content { padding-top: 70px; }
@@ -136,6 +163,18 @@ const collectionSchema = {
   .empty-state p { font-size: 9px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
   .empty-state strong { margin-top: 12px; font-size: 20px; font-weight: 620; letter-spacing: -.03em; }
   .empty-state span { max-width: 380px; margin-top: 10px; font-size: 12px; line-height: 1.65; color: var(--bbfc-gray-2); }
+  .branch-guide { padding: 46px 0 16px; border-bottom: 1px solid var(--bbfc-border); }
+  .branch-guide > p { color: var(--bbfc-blue); font-size: 12px; font-weight: 700; letter-spacing: .12em; }
+  .branch-guide > strong { display: block; max-width: 720px; margin-top: 12px; font-size: clamp(24px, 3.6vw, 38px); line-height: 1.25; letter-spacing: -.04em; }
+  .branch-guide > span { display: block; max-width: 760px; margin-top: 20px; color: var(--bbfc-gray-1); font-size: 15px; line-height: 1.85; word-break: keep-all; }
+  .planned-indexes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 34px; border-top: 1px solid var(--bbfc-ink); border-left: 1px solid var(--bbfc-border); }
+  .planned-indexes article { min-height: 104px; padding: 20px; border-right: 1px solid var(--bbfc-border); border-bottom: 1px solid var(--bbfc-border); }
+  .planned-indexes b { color: var(--bbfc-blue); font-size: 12px; }
+  .planned-indexes h3 { margin-top: 13px; font-size: 17px; line-height: 1.35; }
+  .planned-indexes small { display: block; margin-top: 7px; color: var(--bbfc-gray-2); font-size: 12px; }
+  .branch-guide > a { display: inline-flex; align-items: center; gap: 10px; margin-top: 28px; padding: 11px 15px; border: 1px solid var(--bbfc-ink); border-radius: 999px; font-size: 13px; font-weight: 700; }
+  .branch-guide > a:hover { border-color: var(--bbfc-blue); color: var(--bbfc-blue); }
+  .branch-guide > a i { font-style: normal; }
   .record-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 22px; padding-top: 28px; }
   .record-card { display: block; min-width: 0; }
   .record-cover { position: relative; }
@@ -155,6 +194,9 @@ const collectionSchema = {
     .index-nav a { flex: none; }
     .collection-content { padding-top: 54px; }
     .empty-state { min-height: 280px; }
+    .branch-guide { padding-top: 36px; }
+    .branch-guide > span { font-size: 14px; }
+    .planned-indexes { grid-template-columns: 1fr; }
     .record-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
     .record-card h2 { font-size: 14px; }
     .record-card > div:last-child span { display: none; }
