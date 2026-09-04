@@ -72,7 +72,7 @@ draft: false
     <strong>스페인 왕국<small lang="es">Reino de España</small></strong>
     <img src="/images/archive/legends/spain/spain-national-team-crest.svg" alt="스페인 왕립 축구 연맹 문장" width="960" height="1625" />
   </div>
-  <dl><dt>본명</dt><dd>루이스 수아레스 미라몬테스</dd></dl><dl><dt>등록명</dt><dd>루이스 수아레스</dd></dl>
+  <dl><dt>본명</dt><dd lang="es">Luis Suárez Miramontes</dd></dl><dl><dt>등록명</dt><dd>루이스 수아레스</dd></dl>
   <dl><dt>출생</dt><dd>1935년 5월 2일</dd></dl><dl><dt>사망</dt><dd>2023년 7월 9일</dd></dl>
   <dl><dt>출생지</dt><dd>스페인 갈리시아 라코루냐</dd></dl><dl><dt>신장</dt><dd>175cm</dd></dl>
   <dl><dt>포지션</dt><dd>중앙 미드필더 · 공격형 미드필더</dd></dl><dl><dt>주요 등번호</dt><dd>10번</dd></dl>

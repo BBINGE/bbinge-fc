@@ -82,7 +82,7 @@ const relatedAssets = entry.data.relatedGroup
   <article class="archive-article">
     <nav class="article-path"><a href="/archive/">삥이 아카이브</a><span>/</span><a href={`/archive/${branch.id}/${archiveIndex.slug}/`}>{archiveIndex.label}</a></nav>
     <header class="article-header">
-      <p>{isLegend ? `${archiveIndex.label} · LEGEND` : `${entry.data.year} · ${archiveIndex.label}`}</p>
+      <p>{entry.data.eyebrow ?? (isLegend ? `${archiveIndex.label} · LEGEND` : `${entry.data.year} · ${archiveIndex.label}`)}</p>
       <h1>{entry.data.title}</h1>
       <span>{entry.data.description}</span>
       <ArticleByline pubDate={entry.data.pubDate} updatedDate={entry.data.updatedDate} />
@@ -198,7 +198,7 @@ const relatedAssets = entry.data.relatedGroup
 
 <style>
   .archive-article { max-width: 760px; margin: 0 auto; padding: 38px 20px 80px; }
-  .article-path { display: flex; gap: 8px; font-size: 11px; color: var(--bbfc-gray-2); }
+  .article-path { display: flex; gap: 8px; font-size: 12px; color: var(--bbfc-gray-2); }
   .article-path a:hover { color: var(--bbfc-blue); }
   .article-header { margin-top: 30px; padding: 54px 0 46px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
   .article-header > p { font-size: 10px; font-weight: 650; letter-spacing: .14em; color: var(--bbfc-blue); }

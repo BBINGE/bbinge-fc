@@ -95,6 +95,7 @@ const archive = defineCollection({
     year: z.number(),
     subject: z.string(),
     originalTitle: z.string().optional(),
+    eyebrow: z.string().optional(),
     keywords: z.array(z.string()).default([]),
     // 인물 아카이브를 국가·구단·리그·포지션 단위로 다시 묶기 위한 편집 태그.
     tags: z.array(z.string()).default([]),
