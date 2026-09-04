@@ -25,7 +25,7 @@ for (const viewport of viewports) {
   await context.route('**/api/privacy/region', (route) => route.fulfill({
     status: 200,
     contentType: 'application/json',
-    body: JSON.stringify({ country: 'KR', optionalScriptsAllowed: true }),
+    body: JSON.stringify({ country: 'KR', regulatedRegion: false, consentSurface: 'site', optionalScriptsAllowed: true }),
   }));
 
   for (const pathname of paths) {
@@ -82,7 +82,7 @@ await denyContext.addInitScript(() => {
   localStorage.removeItem('bbfc_optional_data_choice_v1');
   localStorage.removeItem('bbfc_optional_data_choice_v2');
 });
-await denyContext.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","optionalScriptsAllowed":true}' }));
+await denyContext.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","regulatedRegion":false,"consentSurface":"site","optionalScriptsAllowed":true}' }));
 const optionalRequests = [];
 const denyPage = await denyContext.newPage();
 denyPage.on('request', (request) => {
@@ -100,7 +100,7 @@ await denyContext.close();
 const verifySeparatedChoice = async (name, choices, expectedProviders) => {
   const context = await browser.newContext({ viewport: viewports[0] });
   await context.addInitScript(() => localStorage.removeItem('bbfc_optional_data_choice_v2'));
-  await context.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","optionalScriptsAllowed":true}' }));
+  await context.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","regulatedRegion":false,"consentSurface":"site","optionalScriptsAllowed":true}' }));
   const requests = [];
   for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndication.com/**', '**wcs.pstatic.net/**']) {
     await context.route(pattern, (route) => {
@@ -135,7 +135,7 @@ await allowContext.addInitScript(() => {
   localStorage.removeItem('bbfc_optional_data_choice_v1');
   localStorage.removeItem('bbfc_optional_data_choice_v2');
 });
-await allowContext.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","optionalScriptsAllowed":true}' }));
+await allowContext.route('**/api/privacy/region', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"country":"KR","regulatedRegion":false,"consentSurface":"site","optionalScriptsAllowed":true}' }));
 const allowedRequests = [];
 for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndication.com/**', '**wcs.pstatic.net/**']) {
   await allowContext.route(pattern, (route) => {
@@ -155,6 +155,34 @@ for (const provider of ['googletagmanager.com', 'googlesyndication.com', 'wcs.ps
 }
 await allowContext.close();
 
+for (const viewport of viewports) {
+  const context = await browser.newContext({ viewport });
+  await context.route('**/api/privacy/region', (route) => route.fulfill({
+    status: 200,
+    contentType: 'application/json',
+    body: '{"country":"DE","regulatedRegion":true,"consentSurface":"google-cmp","optionalScriptsAllowed":false}',
+  }));
+  const requests = [];
+  for (const pattern of ['**www.googletagmanager.com/**', '**pagead2.googlesyndication.com/**', '**wcs.pstatic.net/**']) {
+    await context.route(pattern, (route) => {
+      requests.push(route.request().url());
+      return route.fulfill({ status: 200, contentType: 'application/javascript', body: '' });
+    });
+  }
+  const page = await context.newPage();
+  await page.goto(`${baseURL}/`, { waitUntil: 'domcontentloaded' });
+  await page.waitForTimeout(200);
+  const metrics = await page.evaluate(() => ({
+    overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+    sitePanelVisible: !document.querySelector('[data-privacy-panel]')?.hidden,
+  }));
+  if (metrics.overflow !== 0) failures.push(`${viewport.name} EEA CMP 경로: 가로 넘침 ${metrics.overflow}px`);
+  if (metrics.sitePanelVisible) failures.push(`${viewport.name} EEA CMP 경로: 자체 선택 패널이 함께 노출됨`);
+  if (!requests.some((url) => url.includes('googlesyndication.com'))) failures.push(`${viewport.name} EEA CMP 경로: Google CMP 호스트 요청이 없음`);
+  if (requests.some((url) => url.includes('googletagmanager.com') || url.includes('wcs.pstatic.net'))) failures.push(`${viewport.name} EEA CMP 경로: 분석 스크립트가 요청됨`);
+  await context.close();
+}
+
 await browser.close();
 
 if (failures.length) {
@@ -162,5 +190,5 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`정책 화면 검수 통과: ${paths.length}페이지 × ${viewports.length}화면, 390·768·1366·1440px, 4개 분리 동의 조합·동의 전 0건·전체 동의 후 3개 제공자 로드`);
+console.log(`정책 화면 검수 통과: ${paths.length}페이지 × ${viewports.length}화면, 390·768·1366·1440px, 4개 분리 동의 조합·EEA Google CMP 분기·동의 전 0건·전체 동의 후 3개 제공자 로드`);
 console.log(`검수 이미지: ${outputDirectory}`);
