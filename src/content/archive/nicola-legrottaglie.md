@@ -133,21 +133,21 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic legro-career-grid">
-  <div><img src="/images/archive/legends/legrottaglie/bari-logo.webp" alt="AS 바리 문장" width="58" height="58" /><strong>AS 바리</strong><span>1994-1998</span><small>리그 출전 0경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/pistoiese-logo.webp" alt="AC 피스토이에세 문장" width="58" height="58" /><strong>AC 피스토이에세 · 임대</strong><span>1996-1997</span><small>리그 31경기 · 3골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/prato-logo.webp" alt="AC 프라토 문장" width="58" height="58" /><strong>AC 프라토 · 임대</strong><span>1997-1998</span><small>리그 26경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/chievo-logo.webp" alt="AC 키에보베로나 문장" width="58" height="58" /><strong>AC 키에보베로나</strong><span>1998-2003</span><small>리그 66경기 · 6골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/reggiana-logo.svg" alt="AC 레자나 1919 문장" width="58" height="58" /><strong>AC 레자나 1919 · 임대</strong><span>2000</span><small>리그 4경기 · 1골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/modena-logo.webp" alt="모데나 FC 문장" width="58" height="58" /><strong>모데나 FC · 임대</strong><span>2000-2001</span><small>리그 32경기 · 1골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/juventus-logo.svg" alt="유벤투스 FC 문장" width="58" height="58" /><strong>유벤투스 FC</strong><span>2003-2011</span><small>리그 114경기 · 8골</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/bologna-logo.webp" alt="볼로냐 FC 1909 문장" width="58" height="58" /><strong>볼로냐 FC 1909 · 임대</strong><span>2005</span><small>리그 9경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/siena-logo.svg" alt="AC 시에나 문장" width="58" height="58" /><strong>AC 시에나 · 임대</strong><span>2005-2006</span><small>리그 28경기</small></div>
-  <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" width="58" height="58" /><strong>AC 밀란</strong><span>2011</span><small>리그 1경기</small></div>
-  <div><img src="/images/archive/legends/legrottaglie/catania-logo.webp" alt="칼초 카타니아 문장" width="58" height="58" /><strong>칼초 카타니아</strong><span>2011-2014</span><small>리그 75경기 · 8골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/bari-logo.webp" alt="AS 바리 문장" width="58" height="58" /><strong>AS 바리</strong><span>1994-1998</span><small>공식전 0경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/pistoiese-logo.webp" alt="AC 피스토이에세 문장" width="58" height="58" /><strong>AC 피스토이에세 · 임대</strong><span>1996-1997</span><small>공식전 33경기 · 3골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/prato-logo.webp" alt="AC 프라토 문장" width="58" height="58" /><strong>AC 프라토 · 임대</strong><span>1997-1998</span><small>공식전 30경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/chievo-logo.webp" alt="AC 키에보베로나 문장" width="58" height="58" /><strong>AC 키에보베로나</strong><span>1998-2003</span><small>공식전 74경기 · 6골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/reggiana-logo.svg" alt="AC 레자나 1919 문장" width="58" height="58" /><strong>AC 레자나 1919 · 임대</strong><span>2000</span><small>공식전 4경기 · 1골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/modena-logo.webp" alt="모데나 FC 문장" width="58" height="58" /><strong>모데나 FC · 임대</strong><span>2000-2001</span><small>확인 공식전 32경기 · 1골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/juventus-logo.svg" alt="유벤투스 FC 문장" width="58" height="58" /><strong>유벤투스 FC</strong><span>2003-2011</span><small>공식전 154경기 · 10골</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/bologna-logo.webp" alt="볼로냐 FC 1909 문장" width="58" height="58" /><strong>볼로냐 FC 1909 · 임대</strong><span>2005</span><small>공식전 11경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/siena-logo.svg" alt="AC 시에나 문장" width="58" height="58" /><strong>AC 시에나 · 임대</strong><span>2005-2006</span><small>공식전 30경기</small></div>
+  <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" width="58" height="58" /><strong>AC 밀란</strong><span>2011</span><small>공식전 1경기</small></div>
+  <div><img src="/images/archive/legends/legrottaglie/catania-logo.webp" alt="칼초 카타니아 문장" width="58" height="58" /><strong>칼초 카타니아</strong><span>2011-2014</span><small>공식전 79경기 · 8골</small></div>
   <div><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" alt="이탈리아 축구 연맹 문장" width="58" height="58" /><strong>이탈리아 대표팀</strong><span>2002-2009</span><small>16경기 · 1골</small></div>
 </div>
 
-<p class="record-note">카드는 유소년 경력을 제외한 모든 성인 소속 클럽과 이탈리아 대표팀을 빠짐없이 담았다. 클럽 기록은 같은 기준으로 비교하기 위해 정규 리그만 집계했으며 플레이오프·코파 이탈리아·유럽 대항전·수페르코파는 제외했다. 클럽 리그 통산은 386경기 27골이다. 유벤투스의 모든 공식 대회 합계는 154경기 10골이며, 리그 114경기에는 2006-07 세리에 B 10경기가 포함된다.</p>
+<p class="record-note">카드는 유소년 경력을 제외한 모든 성인 소속 클럽과 이탈리아 대표팀을 빠짐없이 담았다. 클럽은 정규 리그뿐 아니라 승격 플레이오프, 코파 이탈리아와 코파 이탈리아 세리에 C, 유럽 대항전, 수페르코파를 포함한 공식전을 집계했다. 시즌·대회별 내역이 공개된 집계가 범위를 가장 구체적으로 밝히므로 공식전 통산 448경기 29골을 대표값으로 적용했다. (자료 편차: 트랜스퍼마르크트는 447경기 29골로 한 경기 적고, 카타니아도 시즌별 합계는 79경기지만 일부 회고 자료에는 80경기로 적혀 전체 기록에 1경기 차이가 있다.) 모데나의 2000-01 시즌은 구단이 코파 이탈리아 세리에 C와 수페르코파를 치렀으나 선수별 출전 자료가 완전하지 않아, 카드에는 확인 가능한 32경기 1골을 적었다.</p>
 
 ## 역대 등번호
 
@@ -211,6 +211,9 @@ draft: false
   <li><a href="https://figc.it/FigcLegacyAssets/Assets/contentresources_2/ContenutoGenerico/952/C_2_ContenutoGenerico_21702_StrilloComunicatoUfficiale_lstAllegati_Allegato_0_upfAllegato.pdf" rel="noopener noreferrer">FIGC: Calciopoli decision</a>: 2004-05 스쿠데토 박탈과 2005-06 우승 불인정의 판결 기록.</li>
   <li><a href="https://www.gazzetta.it/speciali/statistiche/2008_nw/giocatori/1309.shtml" rel="noopener noreferrer">La Gazzetta dello Sport: Nicola Legrottaglie 2007/08</a>: 185cm·73kg, 출생지, 시즌별 리그 출전 기록.</li>
   <li><a href="https://www.carrierecalciatori.it/it/giocatori/13476-Nicola%20Legrottaglie" rel="noopener noreferrer">Carriere Calciatori: Nicola Legrottaglie</a>: 이탈리아 리그 시즌별 출전과 득점 교차검증.</li>
+  <li><a href="https://it.wikipedia.org/wiki/Nicola_Legrottaglie#Presenze_e_reti_nei_club" rel="noopener noreferrer">이탈리아어 위키피디아: Nicola Legrottaglie 시즌·대회별 기록표</a>: 리그, 플레이오프, 국내 컵, 유럽 대항전과 수페르코파를 분리한 공식전 448경기 29골 집계.</li>
+  <li><a href="https://www.transfermarkt.com/nicola-legrottaglie/leistungsdatendetails/spieler/5925" rel="noopener noreferrer">Transfermarkt: Nicola Legrottaglie 상세 기록</a>: 대회별 공식전 447경기 29골과 자료 간 한 경기 편차 교차검증.</li>
+  <li><a href="https://sport.sky.it/calcio/catania-calcio-migliori-giocatori-allenatori" rel="noopener noreferrer">Sky Sport: Catania의 주요 선수 기록</a>: 카타니아 공식전 79경기 집계 교차검증.</li>
   <li><a href="https://www.corriere.it/Primo_Piano/Sport/2004/12_Dicembre/06/bidone.shtml" rel="noopener noreferrer">Corriere della Sera: Il Bidone d'Oro a Legrottaglie</a>: 2004년 투표 방식, 7,334표의 전체 표본과 최종 순위.</li>
   <li><a href="https://modenacalcio.com/storia/" rel="noopener noreferrer">Modena FC: Storia</a>: 2000-01 세리에 C1 A조 우승과 당시 주전 명단.</li>
   <li><a href="https://www.lega-pro.com/altre-competizioni/supercoppa/albo-doro/" rel="noopener noreferrer">Lega Pro: Supercoppa Serie C albo d'oro</a>: 모데나의 2000-01 수페르코파 우승.</li>
