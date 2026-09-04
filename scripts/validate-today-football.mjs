@@ -31,9 +31,12 @@ for (const table of data.standings ?? []) {
   if (!table.leagueId || !table.league || !table.season) errors.push('standings league metadata missing');
   if (!table.rows?.length || table.rows.length > 24) errors.push(`invalid standings row count: ${table.leagueId}`);
   for (const row of table.rows ?? []) {
-    if (!Number.isInteger(row.rank) || !row.team || !Number.isInteger(row.played) || !Number.isInteger(row.points)) {
+    const numericFields = ['rank', 'played', 'wins', 'draws', 'losses', 'goalsFor', 'goalsAgainst', 'goalDifference', 'points'];
+    if (!row.team || numericFields.some((field) => !Number.isInteger(row[field]))) {
       errors.push(`invalid standings row: ${table.leagueId}`);
     }
+    if (row.played !== row.wins + row.draws + row.losses) errors.push(`standings W-D-L mismatch: ${table.leagueId} ${row.team}`);
+    if (row.goalDifference !== row.goalsFor - row.goalsAgainst) errors.push(`standings goal difference mismatch: ${table.leagueId} ${row.team}`);
   }
 }
 if (errors.length) {

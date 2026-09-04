@@ -306,6 +306,11 @@ async function fetchStandings(season, previousStandings = [], previousSource = '
           team: teamLabel(entry?.team?.displayName || entry?.team?.name),
           badge: entry?.team?.logos?.[0]?.href || '',
           played: stats.get('gamesPlayed') || 0,
+          wins: stats.get('wins') || 0,
+          draws: stats.get('ties') || 0,
+          losses: stats.get('losses') || 0,
+          goalsFor: stats.get('pointsFor') || 0,
+          goalsAgainst: stats.get('pointsAgainst') || 0,
           goalDifference: stats.get('pointDifferential') || 0,
           points: stats.get('points') || 0,
         };
@@ -323,6 +328,11 @@ async function fetchStandings(season, previousStandings = [], previousSource = '
         team: teamLabel(row.strTeam),
         badge: row.strBadge || '',
         played: Number(row.intPlayed) || 0,
+        wins: Number(row.intWin) || 0,
+        draws: Number(row.intDraw) || 0,
+        losses: Number(row.intLoss) || 0,
+        goalsFor: Number(row.intGoalsFor) || 0,
+        goalsAgainst: Number(row.intGoalsAgainst) || 0,
         goalDifference: Number(row.intGoalDifference) || 0,
         points: Number(row.intPoints) || 0,
       })).filter((row) => row.team);
