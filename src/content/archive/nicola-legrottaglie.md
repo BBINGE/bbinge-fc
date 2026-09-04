@@ -206,7 +206,7 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223655657066" rel="noopener noreferrer">삥이 네이버 블로그: 니콜라 레그로탈리에</a>: 박성호가 작성한 기존 원고와 영상 구성의 출발점. 본문과 기록은 독립 자료로 다시 검증했다.</li>
+  <li><a href="https://blog.naver.com/sho3603/223655657066" rel="noopener noreferrer">삥이 네이버 블로그: 니콜라 레그로탈리에</a>: 박성호가 작성한 기존 원고·제작 썸네일·영상 구성의 출발점. 본문과 기록은 독립 자료로 다시 검증했다.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/025a-0eaade283d31-f44b3ffceaa7-1000--legrottaglie-relishing-juve-move/" rel="noopener noreferrer">UEFA: Legrottaglie relishing Juve move</a>: 2003년 이적료 700만 유로, 치에보 2002-03 리그 30경기 4골, 아주리 데뷔와 득점.</li>
   <li><a href="https://www.juventus.com/images/image/private/fl_attachment/dev/xpnbg0zrrfrmlfzjdeib.pdf" rel="noopener noreferrer">Juventus: Annual Financial Report 2006/07</a>: 선수등록권 장부가액 742만 4천 유로와 계약 기간.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/025a-0eaa1bceaebd-e618734164fa-1000--legrottaglie-leaves-juve/" rel="noopener noreferrer">UEFA: Legrottaglie leaves Juve</a>: 2004-05 시즌 리그 출전 없이 볼로냐로 임대된 경위.</li>
