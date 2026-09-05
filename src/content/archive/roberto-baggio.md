@@ -104,12 +104,12 @@ draft: false
 
 여기서 바조를 호나우두처럼 긴 거리를 폭발적으로 뚫는 공격수로 상상하면 조금 어긋난다. 바조는 짧은 보폭으로 공을 몸 가까이에 두고, 어깨와 골반이 가리키는 방향을 다음 터치와 어긋나게 만드는 쪽이었다. 수비수는 공만 보자니 몸에 속고, 몸을 따라가자니 공이 반대로 빠졌다. 특히 중앙에서 왼쪽으로 비껴 받은 뒤 오른발로 안쪽을 향할 때는 직접 감아 찰 슈팅과 동료에게 넣을 패스를 함께 경계해야 했다. 발재간의 가짓수보다 마지막까지 선택을 숨기는 것이 무서운 선수였다.
 
-<figure class="legend-video">
-  <video muted loop playsinline preload="metadata" data-archive-autoplay aria-label="인테르 유니폼을 입고 몸을 낮춰 방향을 바꾸는 로베르토 바조"><source src="/videos/archive/legends/baggio/02-inter-movement.mp4" type="video/mp4" /></video>
-  <figcaption>몸이 먼저 기울고, 공의 방향은 그다음에 드러난다. 바조를 따라가려는 수비수는 이 짧은 틈에도 먼저 답을 골라야 했다.</figcaption>
-</figure>
-
 그런데 마지막에 가면 이야기가 더 기막혀진다. 2000년 5월 23일, 인테르는 파르마와 다음 시즌 챔피언스리그 진출권을 놓고 단판 승부를 치렀다. 시즌 내내 주변으로 밀렸던 바조가 두 골을 넣어 3-1 승리를 만들었다. 35분에 앞서가는 골을 넣었고, 69분 동점을 허용하자 73분에 다시 리드를 가져왔다. 추억 삼아 넣은 골도, 이미 끝난 경기의 덤도 아니었다. 팀이 미래 계획에서는 제외한 선수가 그 미래로 들어가는 문을 열었다. 그 경기 뒤 계약은 끝났고 바조는 떠났다.
+
+<figure class="legend-video">
+  <video muted loop playsinline preload="metadata" data-archive-autoplay aria-label="인테르 유니폼을 입고 팔을 휘두르며 환호하는 로베르토 바조"><source src="/videos/archive/legends/baggio/02-inter-movement.mp4" type="video/mp4" /></video>
+  <figcaption>인테르의 바조가 팔을 휘두르며 환호한다.</figcaption>
+</figure>
 
 ## 브레시아, 바조를 위한 층을 나누다
 
@@ -203,22 +203,39 @@ draft: false
 ## 대표 우승 경력
 
 <div class="career-honours">
-  <section><strong>세리에 A<small lang="it">Serie A</small></strong><p><b>우승:</b> 1994-95 · 유벤투스, 1995-96 · AC 밀란</p></section>
-  <section><strong>코파 이탈리아<small lang="it">Coppa Italia</small></strong><p><b>우승:</b> 1994-95 · 유벤투스</p></section>
-  <section><strong>UEFA컵<small lang="fr">Coupe UEFA</small></strong><p><b>우승:</b> 1992-93 · 유벤투스</p><p><b>준우승:</b> 1989-90 · ACF 피오렌티나</p></section>
+  <section><strong>세리에 A<small lang="it">Serie A</small></strong><p><b>우승:</b> 1994-95 · 유벤투스, 1995-96 · AC 밀란</p><p><b>준우승:</b> 1991-92 · 1993-94 · 유벤투스</p></section>
+  <section><strong>코파 이탈리아<small lang="it">Coppa Italia</small></strong><p><b>우승:</b> 1994-95 · 유벤투스</p><p><b>준우승:</b> 1991-92 · 유벤투스, 1999-00 · 인테르</p></section>
+  <section><strong>수페르코파 이탈리아나<small lang="it">Supercoppa Italiana</small></strong><p><b>준우승:</b> 1996 · AC 밀란</p></section>
+  <section><strong>UEFA컵<small lang="fr">Coupe UEFA</small></strong><p><b>우승:</b> 1992-93 · 유벤투스</p><p><b>준우승:</b> 1989-90 · ACF 피오렌티나, 1994-95 · 유벤투스</p></section>
+  <section><strong>UEFA 인터토토컵<small lang="en">UEFA Intertoto Cup</small></strong><p><b>결승 진출:</b> 2001 · 브레시아</p><p>3개 결승 중 파리 생제르맹과의 결승에서 원정 다득점으로 패배</p></section>
   <section><strong>FIFA 월드컵<small lang="fr">Coupe du Monde de la FIFA</small></strong><p><b>준우승:</b> 1994</p><p><b>3위:</b> 1990</p></section>
 </div>
 
 ## 로베르토 바조의 개인 커리어 수상 경력
 
+<div class="career-state-honours" aria-label="국가 수훈"><span>국가 수훈</span><p><strong>이탈리아 공화국 공로훈장 · 기사장</strong><small>Cavaliere · 5등급 · 1991년</small></p></div>
+
 <ul class="career-awards">
   <li><strong>발롱도르</strong><span>1990년 8위 · 1993년 수상 · 1994년 2위 · 1995년 23위 · 1998년 후보 · 2001년 25위</span></li>
   <li><strong>발롱도르 시상식 유럽 올스타팀</strong><span>1994년</span></li>
-  <li><strong>FIFA 올해의 선수</strong><span>1993년 수상 · 1994년 2위</span></li>
+  <li><strong>FIFA 올해의 선수</strong><span>1993년 수상 · 1994년 3위</span></li>
+  <li><strong>옹즈도르</strong><small>옹즈 몽디알 선정 유럽 올해의 선수</small><span>1993년 1위 · 1994년 3위 · 1995년 2위</span></li>
+  <li><strong>옹즈 드 옹즈</strong><small>옹즈 몽디알 선정 유럽 베스트 11</small><span>1993년 · 1994년 · 1995년</span></li>
+  <li><strong>월드 사커 올해의 선수</strong><small>영국 축구 전문지 선정</small><span>1993년</span></li>
+  <li><strong>브라보상</strong><small>게린 스포르티보 선정 유럽 무대 최우수 유망주</small><span>1990년</span></li>
+  <li><strong>게린도로</strong><small>게린 스포르티보 선정 세리에 A 최우수 선수</small><span>2000-01 시즌</span></li>
   <li><strong>FIFA 월드컵 실버볼</strong><span>1994년</span></li>
   <li><strong>FIFA 월드컵 올스타팀</strong><span>1994년</span></li>
   <li><strong>유러피언 컵위너스컵 득점왕</strong><span>1990-91 시즌 · 9골</span></li>
   <li><strong>세리에 A 도움 1위</strong><span>2003-04 시즌 · 11도움</span></li>
+  <li><strong>AC 밀란 명예의 전당 헌액</strong></li>
+  <li><strong>이탈리아 축구 명예의 전당 헌액</strong><span>2011년</span></li>
+  <li><strong>이탈리아 스포츠 명예의 거리 헌액</strong><span>2015년</span></li>
+  <li><strong>가에타노 스키레아상</strong><small>모범적인 선수 경력과 페어플레이를 기리는 상</small><span>2001년</span></li>
+  <li><strong>FIFA 월드컵 역대 드림팀</strong><small>FIFA 공식 사이트 팬 투표</small><span>2002년</span></li>
+  <li><strong>FIFA 100</strong><small>FIFA 창립 100주년을 기념해 펠레가 선정한 125인의 축구선수</small><span>2004년</span></li>
+  <li><strong>IFFHS 48인의 축구 전설</strong><small>국제축구역사통계연맹 선정</small><span>2016년</span></li>
+  <li><strong>골든풋</strong><span>2003년</span></li>
   <li><strong>라 가제타 델로 스포르트 독자 투표</strong><small>이탈리아 역대 최고 선수</small><span>2015년 · 1위</span></li>
 </ul>
 
@@ -252,7 +269,21 @@ draft: false
   <li><a href="https://www.uefa.com/news-media/news/0182-0f8e8a73e054-aa7baaac3b6e-1000--baggio-operation-raises-doubts/" rel="noopener noreferrer">UEFA: Baggio operation raises doubts</a>: 2002년 왼쪽 무릎 십자인대 재건 수술.</li>
   <li><a href="https://app.francefootball.fr/ballon-d-or/palmares/" rel="noopener noreferrer">France Football: Ballon d'Or palmarès</a>: 1993년 발롱도르 수상.</li>
   <li><a href="https://www.rsssf.org/miscellaneous/europa-poy.html" rel="noopener noreferrer">RSSSF: European Footballer of the Year</a>: 발롱도르 연도별 투표 순위.</li>
-  <li><a href="https://www.rsssf.org/miscellaneous/fifa-awards.html" rel="noopener noreferrer">RSSSF: FIFA Awards</a>: 1993년 FIFA 올해의 선수 수상과 1994년 2위.</li>
+  <li><a href="https://www.rsssf.org/miscellaneous/fifa-awards.html" rel="noopener noreferrer">RSSSF: FIFA Awards</a>: 1993년 FIFA 올해의 선수 수상과 1994년 3위.</li>
+  <li><a href="https://www.quirinale.it/onorificenze/insigniti/211713" rel="noopener noreferrer">이탈리아 대통령실: Roberto Baggio 수훈 기록</a>: 1991년 9월 30일 공화국 공로훈장 기사장.</li>
+  <li><a href="https://www.rsssf.org/miscellaneous/onze-awards.html" rel="noopener noreferrer">RSSSF: Onze Mondial Awards</a>: 옹즈도르 순위와 1993·1994·1995년 베스트 11.</li>
+  <li><a href="https://www.worldsoccer.com/world-soccer-latest/world-soccer-awards-previous-winners-332945" rel="noopener noreferrer">World Soccer: Awards previous winners</a>: 1993년 올해의 선수.</li>
+  <li><a href="https://www.rsssf.org/miscellaneous/bravo-awards.html" rel="noopener noreferrer">RSSSF: Bravo Award</a>: 1990년 브라보상.</li>
+  <li><a href="https://www.rsssf.org/miscellaneous/italpoy.html" rel="noopener noreferrer">RSSSF: Italy, Player of the Year</a>: 2000-01 게린도로.</li>
+  <li><a href="https://www.comune.cinisello-balsamo.mi.it/IMG/pdf/scirea_1-24_-_opuscolo_definitivo.pdf" rel="noopener noreferrer">치니셀로발사모시: 가에타노 스키레아상 역대 수상자</a>: 2001년 로베르토 바조.</li>
+  <li><a href="https://www.figc.it/en/full-html?path=%2Fmuseum%2Fhall-of-fame%2Feditions%2F2011" rel="noopener noreferrer">FIGC: Hall of Fame 2011</a>: 이탈리아 축구 명예의 전당.</li>
+  <li><a href="https://www.coni.it/it/archivio-foto/coni/2015/walk-of-fame.html" rel="noopener noreferrer">CONI: Walk of Fame 2015</a>: 이탈리아 스포츠 명예의 거리.</li>
+  <li><a href="https://www.irishexaminer.com/sport/soccer/arid-30056268.html" rel="noopener noreferrer">Irish Examiner: FIFA announces Dream Team XI</a>: 2002년 월드컵 역대 드림팀 팬 투표.</li>
+  <li><a href="https://iffhs.com/hi/news/iffhs-announce-the-48-football-legend-players-148" rel="noopener noreferrer">IFFHS: 48 Football Legend Players</a>: 2016년 48인의 축구 전설.</li>
+  <li><a href="https://goldenfoot.com/awards/" rel="noopener noreferrer">Golden Foot: Awards</a>: 2003년 초대 수상자.</li>
+  <li><a href="https://www.uefa.com/uefaeuropaleague/history/video/finals/0234-0e67ce2dfadc-2917a57fc2ec-1000--1995-final-highlights-parma-2-1-juventus/" rel="noopener noreferrer">UEFA: 1995 UEFA컵 결승</a>: 유벤투스의 파르마전 준우승.</li>
+  <li><a href="https://www.inter.it/it/match_center/2936" rel="noopener noreferrer">Inter: 2000 코파 이탈리아 결승 2차전</a>: 라치오전과 바조의 출전.</li>
+  <li><a href="https://www.uefa.com/news/025f-0fff05b2024a-044c3df32453-1000--atalanta-v-paris-facts/" rel="noopener noreferrer">UEFA: Atalanta v Paris facts</a>: 2001년 인터토토컵 파리 생제르맹·브레시아 결승.</li>
   <li><a href="https://fbref.com/en/comps/11/2003-2004/stats/2003-2004-Serie-A-Stats" rel="noopener noreferrer">FBref: 2003-04 Serie A</a>: 바조의 리그 11도움과 도움 1위.</li>
   <li><a href="https://www.gazzetta.it/Calcio/17-08-2015/baggio-sorpassa-rivera-classifica-miglior-italiano-sempre-120975118712.shtml" rel="noopener noreferrer">La Gazzetta dello Sport: Baggio sorpassa Rivera</a>: 2015년 독자 투표에서 이탈리아 역대 최고 선수 1위.</li>
   <li><a href="https://en.wikipedia.org/wiki/Roberto_Baggio#Career_statistics" rel="noopener noreferrer">Wikipedia: Roberto Baggio career statistics</a>: 클럽별 모든 공식 대회 643경기 291골의 시즌 단위 교차검증.</li>

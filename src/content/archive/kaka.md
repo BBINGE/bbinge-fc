@@ -198,6 +198,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 
 ## 카카의 개인 커리어 수상 경력
 
+<div class="career-state-honours" aria-label="국가 수훈"><span>국가 수훈</span><p><strong>브라질 국가공로훈장 · 공로메달</strong><small>Medalha da Ordem Nacional do Mérito · 2002년</small></p></div>
+
 <ul class="career-awards">
   <li><strong>마라카낭 명예의 전당 헌액</strong><span>2008년</span></li>
   <li><strong>AC 밀란 명예의 전당 헌액</strong><span>2010년</span></li>
@@ -244,6 +246,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 ## 참고 자료
 
 <div class="source-notes"><ul>
+  <li><a href="https://memoria.ebc.com.br/agenciabrasil/noticia/2002-07-01/fhc-entregara-medalha-da-ordem-nacional-do-merito-16-jogadores-da-selecao" rel="noopener noreferrer">Agência Brasil: 월드컵 우승 선수단 국가공로메달 수여</a>: 2002년 대통령실의 수훈 발표.</li>
+  <li><a href="https://www.folhadelondrina.com.br/esporte/selecao-11-horas-de-jogo-70-de-festa-403784.html" rel="noopener noreferrer">Folha de Londrina / Agência Estado: Seleção, 11 horas de jogo, 70 de festa</a>: 2002년 7월 2일 선수단의 국가공로메달 수훈과 카카의 귀국 행사 참석.</li>
   <li><a href="https://www.acmilan.com/en/club/legends/players/kaka" rel="noopener noreferrer">AC Milan: Ricardo Kaká stats and matches</a>: 밀란 공식 307경기 104골과 주요 우승 경력.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/history/seasons/2006/" rel="noopener noreferrer">UEFA Champions League 2006/07</a>: 카카의 대회 10골과 밀란의 우승 기록.</li>
   <li><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/ricardo-izecson-dos-santos-leite-kaka" rel="noopener noreferrer">Real Madrid legend: Kaká</a>: 레알 마드리드 공식전 기록과 우승 경력.</li>

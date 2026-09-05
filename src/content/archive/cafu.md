@@ -179,6 +179,8 @@ draft: false
 
 ## 카푸의 개인 커리어 수상 경력
 
+<div class="career-state-honours" aria-label="국가 수훈"><span>국가 수훈</span><p><strong>브라질 히우브랑쿠 훈장 · 장교장</strong><small>Oficial · 4등급 · 2006년</small></p></div>
+
 <ul class="career-awards">
   <li><strong>브라질 축구 국가대표팀 역대 최다 출전자</strong><small>A매치 142경기</small><span>2024년 기준</span></li>
   <li><strong>AC 밀란 명예의 전당 헌액</strong></li>
@@ -209,6 +211,7 @@ draft: false
 ## 참고 자료
 
 <div class="source-notes"><ul>
+  <li><a href="https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&amp;data=19%2F04%2F2006&amp;jornal=1&amp;pagina=5" rel="noopener noreferrer">브라질 연방 관보: 2006년 4월 19일 제1부 5면</a>: 카푸의 히우브랑쿠 훈장 장교장 수훈.</li>
   <li><a href="https://www.asroma.com/en/club/history/hall-of-fame/15235/cafu" rel="noopener noreferrer">AS Roma Hall of Fame: Cafu</a>: 로마 공식 출전 기록, 2001년 우승, 트리플 솜브레로와 플레이 스타일.</li>
   <li><a href="https://www.asroma.com/en/news/44188/happy-birthday-cafu" rel="noopener noreferrer">AS Roma: Happy birthday Cafu</a>: AS 로마 시절 본문 사진.</li>
   <li><a href="https://www.acmilan.com/en/club/hall-of-fame/players/evangelista-de-moraes" rel="noopener noreferrer">AC Milan Hall of Fame: Cafu</a>: 밀란 공식 출전 기록과 우승 경력.</li>

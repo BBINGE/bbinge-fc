@@ -181,6 +181,8 @@ draft: false
 
 ## 알프레도 디스테파노의 개인 커리어 수상 경력
 
+<div class="career-state-honours" aria-label="국가 수훈"><span>국가 수훈</span><p><strong>스페인 왕립 스포츠 공로장 · 대십자장</strong><small>Gran Cruz · 2000년</small></p></div>
+
 <ul class="career-awards">
   <li><strong>발롱도르</strong><span>1956년 2위 · 1957년 1위 · 1959년 1위 · 1960년 4위 · 1961년 6위</span></li>
   <li><strong>슈퍼 발롱도르</strong><small>역대 발롱도르 수상자 대상 · 유일한 수상자</small><span>1989년</span></li>
@@ -212,6 +214,7 @@ draft: false
 ## 참고 자료
 
 <div class="source-notes"><ul>
+  <li><a href="https://www.boe.es/boe/dias/2000/02/05/pdfs/A05549-05549.pdf" rel="noopener noreferrer">스페인 관보: 왕령 174/2000</a>: 2000년 2월 4일 디스테파노의 왕립 스포츠 공로장 대십자장 수훈.</li>
   <li><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/alfredo-di-stefano-laulhe" rel="noopener noreferrer">Real Madrid: Alfredo Di Stéfano</a>: 레알 마드리드 공식전 396경기 308골, 18개 우승, 구단사적 평가.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/0253-0d7f6bc6cb5e-1b6953b045b4-1000--di-stefano-on-his-five-european-cup-wins/" rel="noopener noreferrer">UEFA: Di Stéfano on his five European Cup wins</a>: 다섯 연속 결승 득점과 각 결승에 대한 당사자의 회고.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/0253-0d7b1dc17e3e-c896eaba1732-1000--1959-60-dazzling-madrid-crush-frankfurt/" rel="noopener noreferrer">UEFA: 1959/60 final</a>: 아인트라흐트 프랑크푸르트와의 7-3 결승 기록.</li>

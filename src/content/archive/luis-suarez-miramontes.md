@@ -164,8 +164,9 @@ draft: false
 
 ## 루이스 수아레스의 개인 커리어 수상 경력
 
+<div class="career-state-honours" aria-label="국가 수훈"><span>국가 수훈</span><p><strong>스페인 왕립 스포츠 공로장 · 금메달</strong><small>Medalla de Oro · 2001년</small></p></div>
+
 <ul class="career-awards">
-  <li><strong>스페인 왕립 스포츠 공로장 금메달</strong><span>2001년 · 스페인 정부가 수여하는 스포츠 공로 훈장</span></li>
   <li><strong>발롱도르</strong><span>1958년 14위 · 1959년 4위 · 1960년 1위 · 1961년 2위 · 1962년 15위 · 1963년 8위 · 1964년 2위 · 1965년 3위</span></li>
   <li><strong>발롱도르 드림팀</strong><span>2020년 · 미드필더 후보 19위</span></li>
   <li><strong>IFFHS 선정 스페인 역대 베스트 11</strong><small>국제축구역사통계연맹 선정</small><span>2022년 · 1군</span></li>
@@ -183,6 +184,7 @@ draft: false
 ## 참고 자료
 
 <div class="source-notes"><ul>
+  <li><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-22974" rel="noopener noreferrer">스페인 관보: 2001년 11월 20일 왕립 스포츠 공로장 수훈 명단</a>: 루이스 수아레스 미라몬테스의 금메달.</li>
   <li><a href="https://players.fcbarcelona.com/es/jugador/856-suarez-luis-suarez-miramontes" rel="noopener noreferrer">FC Barcelona Players: Luis Suárez Miramontes</a>: 바르셀로나 공식전 176경기 80골, 비공식전 포함 기록과 포지션.</li>
   <li><a href="https://www.fcbarcelona.com/en/news/3578968/luis-suarez-miramontes-passes-away" rel="noopener noreferrer">FC Barcelona: Luis Suárez Miramontes passes away</a>: 바르셀로나 우승 경력, 발롱도르, 이적과 스페인 대표팀 기록.</li>
   <li><a href="https://www.inter.it/en/news/inter-memory-luis-suarez" rel="noopener noreferrer">Inter: In memory of Luis Suárez</a>: 에레라와의 관계, 건축가라는 별명, 장거리 패스와 그란데 인테르에서의 역할.</li>

@@ -123,6 +123,8 @@ draft: false
 
 ## 자친토 파케티의 개인 커리어 수상 경력
 
+<div class="career-state-honours" aria-label="국가 수훈"><span>국가 수훈</span><p><strong>이탈리아 공화국 공로훈장 · 사령관장</strong><small>Commendatore · 3등급 · 1994년</small></p></div>
+
 <ul class="career-awards">
   <li><strong>발롱도르</strong><span>1964년 19위 · 1965년 2위 · 1967년 20위 · 1968년 5위 · 1970년 18위 · 1971년 13위 · 1973년 12위 · 1975년 27위</span></li>
   <li><strong>발롱도르 드림팀</strong><span>2020년 · 레프트백 후보 4위</span></li>
@@ -147,6 +149,7 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
+  <li><a href="https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=096A7438&amp;atto.dataPubblicazioneGazzetta=1996-02-21&amp;atto.tipoProvvedimento=COMUNICATO" rel="noopener noreferrer">이탈리아 관보: 공화국 공로훈장 수훈 명단</a>: 1994년 12월 27일 자친토 파케티의 Commendatore 수훈.</li>
   <li><a href="https://blog.naver.com/sho3603/223505967929" rel="noopener noreferrer">삥이 네이버 블로그: 역대 레프트백 계보 서열 2위 자친토 파케티</a>: 박성호가 작성한 기존 원고와 선수 평가의 출발점.</li>
   <li><a href="https://www.inter.it/en/club/hall-of-fame/giacinto-facchetti" rel="noopener noreferrer">Inter Hall of Fame: Giacinto Facchetti</a>: 인테르 공식 634경기 75골, 선수 전환과 명예의 전당 기록.</li>
   <li><a href="https://www.inter.it/en/news/giacinto-facchetti-2026-birth-anniversary" rel="noopener noreferrer">Inter: Giacinto Facchetti, the legend of a gentleman</a>: 18시즌과 주요 우승 기록.</li>

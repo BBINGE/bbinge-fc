@@ -12,6 +12,7 @@
 
 ## 현재 운영 상태
 
+- 선수 아카이브의 국가 수훈은 개인 커리어 최상단 `career-state-honours` 금색 글씨로 분리한다. 현재 바조·파케티·디스테파노·수아레스·카푸·카카에 확인된 수훈을 반영하며 레그로탈리에는 빈 항목을 만들지 않는다. FIFA 공로훈장·클럽 및 협회 명예의 전당은 일반 수상 목록에 남긴다. 바조는 일반 개인 수상 21개로 보강했고 1994 FIFA 올해의 선수 3위·스키레아상 2001년을 적용했다. 인테르 움짤은 드리블이 아닌 환호 장면으로 캡션과 접근성 설명을 교정했다.
 - 기준 브랜치는 `main`, canonical 공개 주소는 `https://bbingefc.com`이다. `https://bbinge-fc.pages.dev`의 일반 문서 주소는 canonical 호스트로 301 이동하며, 배포 검증용 `/deploy.json`과 API·정적 파일은 원래 호스트에서 유지한다. 문서에 적힌 과거 SHA를 현재값으로 믿지 말고 `git fetch origin`, `git status --short --branch`, `git log -10 --oneline`, 공개 `/deploy.json`으로 실제 상태를 확인한다.
 - 개인정보 선택 설정은 EEA·영국·스위스 밖에서 첫 화면에 `모두 동의`, `필수 기능만 사용`, `선택 설정`만 보이는 2단계 배너다. 상세 설정에서 `방문 분석 수집·이용`, `Google 국외 이전`, `Google 광고 쿠키`를 각각 저장한다. NAVER Analytics는 첫 항목, Google Analytics는 첫째·둘째 항목, Google AdSense는 둘째·셋째 항목에 모두 동의해야 불러오며 철회 시 페이지를 다시 불러와 즉시 차단한다. EEA·영국·스위스에서는 Google 인증 CMP가 실제로 표시되는 것을 확인한 뒤 Cloudflare Pages 환경변수 `GOOGLE_CMP_ACTIVE=true`로 광고 선택 경로를 연다. 활성 확인 전과 국가 확인 실패 접속은 자체 배너·GA4·NAVER Analytics·AdSense를 모두 차단한다. GA4 실제 보관 설정은 이벤트 2개월·사용자 14개월(새 활동 시 재설정), NAVER Analytics 분석 데이터 보관기간은 1년이다.
 - 클릭 가능한 문구는 전 화면에서 12px 미만으로 내려가지 않게 하고, 검색·층별 안내·카드 CTA는 13px을 우선한다. 메인은 빌드 후 `scripts/optimize-home-images.mjs`가 현재 편성된 이미지에 320·640·960px WebP `srcset`을 자동 생성하므로, 새 글 발행 때 메인 파일을 수동 수정하지 않는다.
