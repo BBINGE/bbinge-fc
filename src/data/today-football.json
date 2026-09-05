@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-04T22:07:15.814Z",
+  "updatedAt": "2026-09-05T12:18:03.340Z",
   "matches": [
     {
       "id": "2489481",
@@ -107,9 +107,9 @@
       "away": "본머스",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/lhwuiz1621593302.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/y08nak1534071116.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "1H",
       "progress": "",
       "time": "20:30",
       "date": "2026-09-05"
