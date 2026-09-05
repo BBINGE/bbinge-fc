@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-05T17:23:41.859Z",
+  "updatedAt": "2026-09-05T18:47:39.387Z",
   "matches": [
     {
       "id": "2489488",
@@ -11,7 +11,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "00:15",
       "date": "2026-09-06"
@@ -23,9 +23,9 @@
       "away": "나폴리",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "HT",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
       "progress": "",
       "time": "01:00",
       "date": "2026-09-06"
@@ -37,9 +37,9 @@
       "away": "Racing de Santander",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/nzhu941655595465.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/97kkiq1536575158.png",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 2,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "01:30",
       "date": "2026-09-06"
@@ -51,9 +51,9 @@
       "away": "Go Ahead Eagles",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/yuhha71625167104.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3hq2cy1685597026.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "2H",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-06"
@@ -65,9 +65,9 @@
       "away": "PSV 에인트호번",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zg9tii1755495289.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "1H",
       "progress": "",
       "time": "03:00",
       "date": "2026-09-06"
@@ -143,20 +143,6 @@
       "date": "2026-09-06"
     },
     {
-      "id": "2489106",
-      "league": "에레디비시",
-      "home": "Heerenveen",
-      "away": "AZ 알크마르",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/surtsx1473534841.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/wtqwvv1473534757.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "progress": "",
-      "time": "21:30",
-      "date": "2026-09-06"
-    },
-    {
       "id": "2494023",
       "league": "프리미어 리그",
       "home": "에버턴",
@@ -168,6 +154,20 @@
       "status": "NS",
       "progress": "",
       "time": "22:00",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "2508349",
+      "league": "푸스발-분데스리가",
+      "home": "함부르크",
+      "away": "마인츠",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/tvtppt1473453296.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/fhm9v51552134916.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "22:30",
       "date": "2026-09-06"
     }
   ],
@@ -192,6 +192,19 @@
         },
         {
           "rank": 2,
+          "team": "헐 시티",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3,
+          "points": 7
+        },
+        {
+          "rank": 3,
           "team": "아스널",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "played": 2,
@@ -201,19 +214,6 @@
           "goalsFor": 4,
           "goalsAgainst": 0,
           "goalDifference": 4,
-          "points": 6
-        },
-        {
-          "rank": 3,
-          "team": "헐 시티",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-          "played": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 0,
-          "goalDifference": 3,
           "points": 6
         },
         {
@@ -387,6 +387,19 @@
         },
         {
           "rank": 17,
+          "team": "애스턴 빌라",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 5,
+          "goalDifference": -5,
+          "points": 1
+        },
+        {
+          "rank": 18,
           "team": "토트넘 홋스퍼",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
           "played": 3,
@@ -399,7 +412,7 @@
           "points": 1
         },
         {
-          "rank": 18,
+          "rank": 19,
           "team": "풀럼",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
           "played": 3,
@@ -409,19 +422,6 @@
           "goalsFor": 4,
           "goalsAgainst": 7,
           "goalDifference": -3,
-          "points": 0
-        },
-        {
-          "rank": 19,
-          "team": "애스턴 빌라",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "played": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "goalsFor": 0,
-          "goalsAgainst": 5,
-          "goalDifference": -5,
           "points": 0
         },
         {
@@ -578,17 +578,30 @@
           "rank": 11,
           "team": "라싱 산탄데르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-          "played": 3,
+          "played": 4,
           "wins": 1,
           "draws": 1,
-          "losses": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
+          "losses": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 8,
+          "goalDifference": -1,
           "points": 4
         },
         {
           "rank": 12,
+          "team": "라요 바예카노",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+          "played": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 10,
+          "goalDifference": -3,
+          "points": 4
+        },
+        {
+          "rank": 13,
           "team": "레알 소시에다드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "played": 4,
@@ -601,7 +614,7 @@
           "points": 4
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "played": 3,
@@ -614,7 +627,7 @@
           "points": 3
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "헤타페",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "played": 3,
@@ -627,7 +640,7 @@
           "points": 3
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "비야레알",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "played": 3,
@@ -640,7 +653,7 @@
           "points": 2
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "셀타 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 4,
@@ -653,7 +666,7 @@
           "points": 2
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "발렌시아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
           "played": 3,
@@ -663,19 +676,6 @@
           "goalsFor": 1,
           "goalsAgainst": 4,
           "goalDifference": -3,
-          "points": 1
-        },
-        {
-          "rank": 18,
-          "team": "라요 바예카노",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "played": 3,
-          "wins": 0,
-          "draws": 1,
-          "losses": 2,
-          "goalsFor": 4,
-          "goalsAgainst": 8,
-          "goalDifference": -4,
           "points": 1
         },
         {
@@ -713,6 +713,19 @@
       "rows": [
         {
           "rank": 1,
+          "team": "인테르나치오날레",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
+          "points": 9
+        },
+        {
+          "rank": 2,
           "team": "코모",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "played": 3,
@@ -725,7 +738,7 @@
           "points": 7
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "AS 로마",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
           "played": 2,
@@ -735,19 +748,6 @@
           "goalsFor": 8,
           "goalsAgainst": 0,
           "goalDifference": 8,
-          "points": 6
-        },
-        {
-          "rank": 3,
-          "team": "인테르나치오날레",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-          "played": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 1,
-          "goalDifference": 4,
           "points": 6
         },
         {
@@ -830,19 +830,6 @@
         },
         {
           "rank": 10,
-          "team": "나폴리",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-          "played": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 2,
-          "goalDifference": 1,
-          "points": 3
-        },
-        {
-          "rank": 11,
           "team": "사수올로",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
           "played": 2,
@@ -855,7 +842,7 @@
           "points": 3
         },
         {
-          "rank": 12,
+          "rank": 11,
           "team": "칼리아리",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
           "played": 2,
@@ -868,7 +855,7 @@
           "points": 3
         },
         {
-          "rank": 13,
+          "rank": 12,
           "team": "레체",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
           "played": 2,
@@ -878,6 +865,19 @@
           "goalsFor": 2,
           "goalsAgainst": 4,
           "goalDifference": -2,
+          "points": 3
+        },
+        {
+          "rank": 13,
+          "team": "나폴리",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 5,
+          "goalsAgainst": 5,
+          "goalDifference": 0,
           "points": 3
         },
         {
@@ -1021,14 +1021,14 @@
           "rank": 4,
           "team": "바이에른 뮌헨",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 5,
           "goalsAgainst": 1,
           "goalDifference": 4,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 5,
@@ -1149,6 +1149,19 @@
         },
         {
           "rank": 14,
+          "team": "샬케 04",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 3,
+          "goalDifference": -3,
+          "points": 1
+        },
+        {
+          "rank": 15,
           "team": "우니온 베를린",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
           "played": 2,
@@ -1161,7 +1174,7 @@
           "points": 1
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "호펜하임",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
           "played": 2,
@@ -1174,7 +1187,7 @@
           "points": 0
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "함부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
           "played": 1,
@@ -1184,19 +1197,6 @@
           "goalsFor": 0,
           "goalsAgainst": 2,
           "goalDifference": -2,
-          "points": 0
-        },
-        {
-          "rank": 17,
-          "team": "샬케 04",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
-          "played": 1,
-          "wins": 0,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 3,
-          "goalDifference": -3,
           "points": 0
         },
         {
