@@ -17,6 +17,8 @@ fashionProfile:
   eyebrow: 'PROFILE · aespa'
   name: '윈터'
   romanName: 'WINTER'
+  realName: '김민정'
+  hanjaName: '金旼炡'
   portrait: '/images/culture/winter-world-cup-style/profile-esquire-2026.webp'
   portraitAlt: '체크 패턴 폴로 랄프 로렌 드레스를 입은 윈터의 에스콰이어 화보 클로즈업'
   portraitCredit: 'Photo: Yoon Ji-yong · Esquire Korea, April 2026'
@@ -26,12 +28,12 @@ fashionProfile:
       flag: '/images/flags/kr.svg'
       flagAlt: '대한민국 국기'
   facts:
-    - label: '본명'
-      value: '김민정'
-    - label: '직업'
-      value: '가수'
+    - label: '활동명'
+      value: '윈터 (WINTER)'
     - label: '그룹'
       value: 'aespa'
+    - label: '직업'
+      value: '가수'
     - label: '월드컵'
       value: '2026 코카콜라 원정 응원단'
     - label: '오늘의 옷'
@@ -47,6 +49,11 @@ fashionProfile:
 인천공항에서 윈터는 전혀 다른 방식으로 길이를 입었다. 푸른 세로줄의 리넨 원피스 안으로 와이드 데님을 통과시키고, 손에는 작은 흰색 폴로 플레이 백을 들었다. 하나는 허벅지와 부츠 사이의 빈 공간을, 다른 하나는 갈라진 원피스 사이로 보이는 청바지를 이용한다. 두 룩 모두 옷을 많이 겹쳤는데도 윈터가 먼저 보이는 이유가 여기에 있다.
 
 그러니까 이번 옷장을 월드컵 기념 저지 한 장만 보고 지나치기에는 힌트가 많다. 큰 유니폼이 몸에서 얼마나 떨어져야 예쁜지, 긴 원피스와 데님을 함께 입을 때 어디를 열어야 답답하지 않은지, 작은 가방이 긴 옷의 무게를 어떻게 덜어내는지까지 이어진다. 경기장과 공항 사이에는 생각보다 훨씬 실용적인 답이 숨어 있다.
+
+<figure class="wt-opening-pictorial wt-enter">
+  <img src="/images/culture/winter-world-cup-style/card.webp" alt="빨간 배경 앞 의자에 앉아 회색 뉴발란스 톱과 검은 스커트를 입은 금발의 윈터" width="900" height="900" loading="eager" decoding="async" />
+  <figcaption>선풍기 바람에 머리카락과 소매가 한 방향으로 흩어집니다. 회색 톱과 검은 스커트 사이, 빨간 배경이 윈터의 밝은 금발과 움직임을 더 선명하게 남깁니다.<small class="wt-credit">Photo: Hong Jang-hyun · ELLE D Edition, July 2026</small></figcaption>
+</figure>
 
 <section class="wt-look-index" aria-label="윈터의 월드컵 패션을 이루는 세 가지 장면">
   <article><span>STADIUM · RED</span><h3>빨간 저지</h3><p>검은 칼라와 소매 끝이 선명한 빨강의 가장자리를 잡아줍니다.</p></article>
@@ -191,6 +198,8 @@ fashionProfile:
   .fashion-article .fashion-profile__portrait { min-height:100%; }
   .fashion-article .fashion-profile__body { padding:27px 30px 25px; }
   .wt-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .fashion-article .article-body .wt-opening-pictorial { width:min(760px,calc(100vw - 32px)); margin:32px auto 48px; }
+  .wt-opening-pictorial img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .wt-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(960px,calc(100vw - 32px)); margin:34px 0 48px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .wt-look-index article { min-width:0; padding:27px 23px 29px; }
   .wt-look-index article + article { border-left:1px solid var(--bbfc-ink-2); }
@@ -244,9 +253,9 @@ fashionProfile:
     .wt-look-index { grid-template-columns:1fr; margin-top:36px; margin-bottom:48px; }
     .wt-look-index article { padding:22px 21px 24px; }
     .wt-look-index article + article { border-top:1px solid var(--bbfc-ink-2); border-left:0; }
-    .wt-photo-pair, .wt-boots-note, .wt-airport, .wt-bag-story, .wt-video { margin-top:30px; margin-bottom:42px; }
+    .wt-opening-pictorial, .wt-photo-pair, .wt-boots-note, .wt-airport, .wt-bag-story, .wt-video { margin-top:30px; margin-bottom:42px; }
     .wt-boots-note { margin-top:-2px; }
-    .wt-figure figcaption, .wt-boots-note figcaption, .wt-airport figcaption, .wt-bag-story__image figcaption { font-size:11px; line-height:1.58; }
+    .wt-opening-pictorial figcaption, .wt-figure figcaption, .wt-boots-note figcaption, .wt-airport figcaption, .wt-bag-story__image figcaption { font-size:11px; line-height:1.58; }
     .wt-boots-note>div, .wt-bag-story__copy, .wt-video__copy { padding:24px 20px 27px; }
     .article-body .wt-boots-note h3, .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { font-size:20px; }
   }
