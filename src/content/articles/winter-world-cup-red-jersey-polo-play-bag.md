@@ -56,9 +56,10 @@ fashionProfile:
 </figure>
 
 <section class="wt-look-index" aria-label="윈터의 월드컵 패션을 이루는 세 가지 장면">
-  <article><span>STADIUM · RED</span><h3>빨간 저지</h3><p>검은 칼라와 소매 끝이 선명한 빨강의 가장자리를 잡아줍니다.</p></article>
-  <article><span>LINE · BLACK</span><h3>롱부츠</h3><p>짧게 숨긴 쇼츠 아래로 검은 세로선을 길게 이어갑니다.</p></article>
-  <article><span>AIRPORT · WHITE</span><h3>미니 백</h3><p>리넨과 데님이 만든 긴 면적 사이에 가벼운 쉼표를 놓습니다.</p></article>
+  <header class="wt-look-index__header"><span>WINTER'S 3 MODES</span><strong>세 장면, 한 사람의 온도</strong><small>선명한 빨강 · 단단한 검정 · 맑은 흰색</small></header>
+  <article class="wt-mode wt-mode--red"><span>01 · RED SIGNAL</span><h3>빨간 저지</h3><p>검은 칼라와 소매 끝이 선명한 빨강의 가장자리를 잡아줍니다.</p><small>크게 입고, 짧게 남기기</small></article>
+  <article class="wt-mode wt-mode--black"><span>02 · BLACK LINE</span><h3>롱부츠</h3><p>짧게 숨긴 쇼츠 아래로 검은 세로선을 길게 이어갑니다.</p><small>무릎까지 단단하게</small></article>
+  <article class="wt-mode wt-mode--ice"><span>03 · PAPER WHITE</span><h3>미니 백</h3><p>리넨과 데님이 만든 긴 면적 사이에 가벼운 쉼표를 놓습니다.</p><small>긴 옷 옆에 작은 봉투 하나</small></article>
 </section>
 
 ## 축구 유니폼에 롱부츠라니, 자꾸 눈이 갑니다 ⚽️
@@ -83,9 +84,11 @@ fashionProfile:
     <img src="/images/culture/winter-world-cup-style/long-boots-ootd.webp" alt="분홍색 플라워 원피스와 검은 무릎 높이 레이스업 롱부츠를 함께 입은 윈터" width="596" height="800" loading="lazy" decoding="async" />
     <figcaption>무릎까지 올라오는 샤프트와 발등의 레이스업 구조가 온전히 보이는 다른 날의 OOTD입니다.<small class="wt-credit">Photo: @imwinter</small></figcaption>
   </figure>
-  <div>
-    <span>LONG BOOTS · OOTD</span>
+  <div class="wt-boots-note__copy">
+    <div class="wt-module-kicker"><b>02</b><span>LONG BOOTS · OOTD</span></div>
     <h3>부츠의 길이는 이쪽에서 더 또렷하게 보입니다</h3>
+    <strong class="wt-pullquote">부츠는 무릎까지,<br />쇼츠는 저지 안으로.</strong>
+    <div class="wt-detail-tags" aria-label="롱부츠의 디자인 단서"><span>KNEE-HIGH</span><span>LACE-UP</span><span>BLACK</span></div>
     <p>경기장 셀피에서는 저지 아래로 일부만 잡혔던 검은 부츠입니다. 다른 날 윈터는 가벼운 플라워 원피스에도 같은 무릎 높이의 레이스업 실루엣을 골랐습니다. 옷의 분위기는 달라도, 긴 샤프트가 하체에 단단한 세로선을 세우는 방식은 같습니다.</p>
   </div>
 </section>
@@ -121,12 +124,14 @@ fashionProfile:
     <figcaption>작은 흰색 백은 세로줄 리넨과 푸른 데님 사이에서 밝은 여백처럼 보입니다.<small class="wt-credit">Photo: The Chosunilbo JNS/Getty Images via ELLE Taiwan</small></figcaption>
   </figure>
   <div class="wt-bag-story__copy">
-    <span>POLO RALPH LAUREN</span>
-    <h3>공항 룩의 두 가지 제품 단서</h3>
+    <div class="wt-module-kicker"><b>03</b><span>POLO RALPH LAUREN</span></div>
+    <h3>작은 흰색 하나가 긴 옷 두 벌을 가볍게 만듭니다</h3>
+    <div class="wt-product-spec" aria-label="폴로 플레이 미니 백의 특징"><span><small>COLOR</small><b>PAPER</b></span><span><small>SHAPE</small><b>ENVELOPE</b></span><span><small>SIZE</small><b>MINI</b></span></div>
     <p><b>Polo Play Leather Mini Envelope Bag</b><br />페블 가죽 · 스냅 플랩 · 짧은 더블 핸들</p>
-    <a href="https://www.ralphlauren.com/women-accessories-handbags/polo-play-leather-mini-envelope-bag/100084752.html?dwvar100084752_colorname=Paper" target="_blank" rel="noopener noreferrer">랄프 로렌 공식 가방 정보</a>
+    <a class="wt-shop-cta" href="https://www.ralphlauren.co.kr/%ED%8F%B4%EB%A1%9C-%ED%94%8C%EB%A0%88%EC%9D%B4-%EB%A0%88%EB%8D%94-%EB%AF%B8%EB%8B%88-%EC%97%94%EB%B2%8C%EB%A1%AD-%EB%B0%B1-100084752.html" target="_blank" rel="noopener noreferrer"><span><small>RALPH LAUREN KOREA</small><b>공식몰에서 구매·재입고 확인</b></span><i aria-hidden="true">→</i></a>
+    <small class="wt-shop-note">랄프 로렌 코리아 공식몰로 연결되며 제휴 링크가 아닙니다. 색상과 재고는 공식몰에서 확인해주세요.</small>
     <p><b>Striped Paneled Linen Dress</b><br />보트 네크라인 · 앞 단추 · 패널형 플레어 실루엣</p>
-    <a href="https://www.ralphlauren.com/women-clothing-dresses/striped-paneled-linen-dress/100087737.html?dwvar100087737_colorname=Blue" target="_blank" rel="noopener noreferrer">랄프 로렌 공식 원피스 정보</a>
+    <a class="wt-text-link" href="https://www.ralphlauren.com/women-clothing-dresses/striped-paneled-linen-dress/100087737.html?dwvar100087737_colorname=Blue" target="_blank" rel="noopener noreferrer">랄프 로렌 공식 원피스 정보</a>
   </div>
 </section>
 
@@ -138,10 +143,11 @@ fashionProfile:
 
 <section class="wt-video" aria-label="윈터와 카리나의 월드컵 응원 출국 공항 패션 영상">
   <div class="wt-video__copy">
-    <span>iMBC · 4K AIRPORT VIDEO</span>
+    <div class="wt-module-kicker"><b>04</b><span>iMBC · 4K AIRPORT VIDEO</span></div>
     <h3>윈터의 스트라이프 원피스가 걷는 순간</h3>
+    <div class="wt-motion-notes" aria-label="영상에서 볼 움직임"><span>LINEN OPENS</span><span>DENIM STAYS</span><span>MINI BAG MOVES</span></div>
     <p>열린 리넨 패널, 와이드 데님의 폭, 흰색 미니 백의 실제 크기를 함께 볼 수 있습니다.</p>
-    <a href="https://www.youtube.com/watch?v=1y75Cnhgqtc" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기</a>
+    <a class="wt-text-link" href="https://www.youtube.com/watch?v=1y75Cnhgqtc" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기</a>
   </div>
   <div class="wt-video__media" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/1y75Cnhgqtc?autoplay=1&amp;rel=0">
     <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 윈터와 카리나의 월드컵 응원 출국 공항 패션 영상 재생">
@@ -183,7 +189,7 @@ fashionProfile:
     <li><a href="https://enews.imbc.com/News/RetrieveNewsInfo/507771">iMBC, 에스파 카리나·윈터 인천공항 출국</a>, 2026년 6월 10일. 공항 사진과 4K 영상에서 확인한 원피스·데님·가방의 길이와 움직임.</li>
     <li><a href="https://www.fifa.com/en/articles/korea-republic-czechia-highlights-match-report">FIFA, 대한민국 2-1 체코 경기 보고서</a>, 2026년 6월 11일. 경기 장소와 결과.</li>
     <li><a href="https://www.coca-cola.com/kr/ko/about-us/history/2026-fifa-worldcup-special-package">한국 코카콜라, 2026 FIFA 월드컵 스페셜 패키지와 원정 응원단</a>. 약 70명 규모 원정 응원 프로그램의 공식 안내.</li>
-    <li><a href="https://www.ralphlauren.com/women-accessories-handbags/polo-play-leather-mini-envelope-bag/100084752.html?dwvar100084752_colorname=Paper">Ralph Lauren, Polo Play Leather Mini Envelope Bag</a>. 소재, 여밈, 손잡이와 치수의 공식 제품 정보.</li>
+    <li><a href="https://www.ralphlauren.co.kr/%ED%8F%B4%EB%A1%9C-%ED%94%8C%EB%A0%88%EC%9D%B4-%EB%A0%88%EB%8D%94-%EB%AF%B8%EB%8B%88-%EC%97%94%EB%B2%8C%EB%A1%AD-%EB%B0%B1-100084752.html">Ralph Lauren Korea, 폴로 플레이 레더 미니 엔벌롭 백</a>. 소재, 여밈, 손잡이와 치수 및 국내 공식몰 재고 확인.</li>
     <li><a href="https://www.ralphlauren.com/women-clothing-dresses/striped-paneled-linen-dress/100087737.html?dwvar100087737_colorname=Blue">Ralph Lauren, Striped Paneled Linen Dress</a>. 리넨 소재, 보트 네크라인, 앞 단추와 패널 구조의 공식 제품 정보.</li>
     <li><a href="https://www.elle.co.kr/article/1905654">ELLE D Edition, “윈터의 여름은 승리처럼”</a>, 2026년 7월 6일. 홍장현 촬영 화보와 스포츠웨어의 에너지·자신감에 관한 윈터 인터뷰.</li>
     <li><a href="https://www.esquirekorea.co.kr/article/1898990">Esquire Korea, 윈터와 폴로 랄프 로렌 화보</a>, 2026년 4월. 윤지용 촬영 프로필 화보.</li>
@@ -193,6 +199,7 @@ fashionProfile:
 </div>
 
 <style>
+  .fashion-article { --wt-red:#c81935; --wt-red-deep:#8f1027; --wt-ice:#eaf7fb; --wt-blue:#2f7df5; --wt-night:#131d2a; --wt-pink:#fff1f5; }
   .fashion-article .article-heading h1 { max-width:1000px; font-size:clamp(36px,4.4vw,56px); word-break:keep-all; overflow-wrap:normal; }
   .fashion-article .fashion-profile { grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr); margin-bottom:54px; }
   .fashion-article .fashion-profile__portrait { min-height:100%; }
@@ -200,39 +207,71 @@ fashionProfile:
   .wt-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .fashion-article .article-body .wt-opening-pictorial { width:min(760px,calc(100vw - 32px)); margin:32px auto 48px; }
   .wt-opening-pictorial img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
-  .wt-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(960px,calc(100vw - 32px)); margin:34px 0 48px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
-  .wt-look-index article { min-width:0; padding:27px 23px 29px; }
-  .wt-look-index article + article { border-left:1px solid var(--bbfc-ink-2); }
-  .wt-look-index article>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.11em; }
-  .article-body .wt-look-index h3 { margin:11px 0 9px; color:var(--bbfc-bg); font-size:19px; font-weight:500; line-height:1.35; }
-  .wt-look-index p { margin:0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.72; }
+  .wt-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(960px,calc(100vw - 32px)); margin:34px 0 48px; overflow:hidden; border:1px solid #d7e0e9; border-radius:var(--bbfc-radius-lg); background:#fff; box-shadow:0 24px 60px -46px rgba(19,29,42,.68); transform:translateX(-50%); }
+  .wt-look-index__header { position:relative; grid-column:1/-1; display:grid; grid-template-columns:1fr auto; gap:4px 28px; padding:24px 26px 22px; overflow:hidden; background:linear-gradient(112deg,var(--wt-night) 0 73%,#24374c 73% 100%); color:#fff; }
+  .wt-look-index__header::after { position:absolute; top:-34px; right:44px; width:92px; height:92px; border:18px solid rgba(200,25,53,.9); border-radius:50%; content:''; }
+  .wt-look-index__header span { grid-column:1; color:#8fd7ff; font-size:10px; font-weight:700; letter-spacing:.17em; }
+  .wt-look-index__header strong { grid-column:1; font-size:22px; font-weight:600; letter-spacing:-.035em; line-height:1.35; }
+  .wt-look-index__header small { z-index:1; grid-column:2; grid-row:1/3; align-self:center; color:#d8e4ee; font-size:11px; letter-spacing:.04em; }
+  .wt-look-index article { min-width:0; padding:27px 23px 25px; }
+  .wt-look-index article + article { border-left:1px solid rgba(255,255,255,.2); }
+  .wt-look-index article>span { display:block; color:inherit; font-size:10px; font-weight:700; letter-spacing:.12em; opacity:.78; }
+  .article-body .wt-look-index h3 { margin:11px 0 9px; color:inherit; font-size:20px; font-weight:600; line-height:1.35; }
+  .wt-look-index p { margin:0; color:inherit; font-size:13px; line-height:1.72; opacity:.8; }
+  .wt-look-index article>small { display:block; margin-top:19px; padding-top:12px; border-top:1px solid currentColor; color:inherit; font-size:10px; font-weight:650; letter-spacing:.04em; opacity:.72; }
+  .wt-mode--red { background:linear-gradient(145deg,var(--wt-red),var(--wt-red-deep)); color:#fff; }
+  .wt-mode--black { background:linear-gradient(145deg,#1b2635,#0c131d); color:#fff; }
+  .wt-mode--ice { background:repeating-linear-gradient(90deg,#f8fdff 0,#f8fdff 22px,#d9eff9 23px,#d9eff9 24px); color:#19324a; }
   .wt-photo-pair { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; width:min(960px,calc(100vw - 32px)); margin:30px 0 42px; transform:translateX(-50%); }
   .fashion-article .article-body .wt-figure { min-width:0; margin:0; }
   .wt-figure img, .wt-airport img, .wt-bag-story__image img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .wt-figure img { aspect-ratio:3/4; object-fit:cover; }
-  .wt-boots-note { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr); width:min(760px,calc(100vw - 32px)); margin:-4px 0 48px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
+  .wt-boots-note { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr); width:min(760px,calc(100vw - 32px)); margin:-4px 0 48px; overflow:hidden; border:1px solid #eccbd4; border-top:4px solid var(--wt-red); border-radius:var(--bbfc-radius-lg); background:var(--wt-pink); box-shadow:0 22px 55px -45px rgba(143,16,39,.72); transform:translateX(-50%); }
   .article-body .wt-boots-note figure { min-width:0; margin:0; }
   .wt-boots-note figure img { display:block; width:100%; height:auto; margin:0; border:0; border-radius:0; }
   .wt-boots-note figcaption { padding:10px 14px 13px; }
-  .wt-boots-note>div { align-self:center; padding:28px 30px 31px; }
-  .wt-boots-note>div>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
-  .article-body .wt-boots-note h3 { margin:10px 0 15px; color:var(--bbfc-ink); font-size:21px; font-weight:500; line-height:1.42; }
-  .wt-boots-note>div p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.78; }
+  .wt-boots-note__copy { align-self:stretch; padding:27px 30px 31px; background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(255,241,245,.94)); }
+  .wt-module-kicker { display:flex; align-items:center; gap:10px; color:var(--wt-red); }
+  .wt-module-kicker b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--wt-red); color:#fff; font-size:10px; font-weight:750; }
+  .wt-module-kicker span { font-size:10px; font-weight:700; letter-spacing:.12em; }
+  .article-body .wt-boots-note h3 { margin:14px 0 16px; color:var(--bbfc-ink); font-size:21px; font-weight:600; line-height:1.42; }
+  .wt-pullquote { display:block; margin:0 0 15px; color:var(--wt-red-deep); font-size:18px; font-weight:650; letter-spacing:-.025em; line-height:1.45; }
+  .wt-detail-tags, .wt-motion-notes { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 17px; }
+  .wt-detail-tags span { padding:5px 8px; border:1px solid #d9a9b6; border-radius:999px; background:#fff; color:var(--wt-red-deep); font-size:9px; font-weight:700; letter-spacing:.08em; }
+  .wt-boots-note__copy>p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.78; }
   .fashion-article .article-body .wt-airport { position:static; width:min(760px,calc(100vw - 32px)); margin:30px auto 48px; transform:none; }
-  .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.95fr) minmax(320px,1.05fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 48px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
+  .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.95fr) minmax(320px,1.05fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 48px; overflow:hidden; border:1px solid #bed9ed; border-top:4px solid var(--wt-blue); border-radius:var(--bbfc-radius-lg); background:repeating-linear-gradient(90deg,#f8fdff 0,#f8fdff 24px,#dceefa 25px,#dceefa 26px); box-shadow:0 24px 60px -46px rgba(47,125,245,.7); transform:translateX(-50%); }
   .fashion-article .article-body .wt-bag-story__image { display:flex; min-width:0; margin:0; flex-direction:column; }
   .wt-bag-story__image img { aspect-ratio:1/1; height:auto; border:0; border-radius:0; object-fit:cover; }
   .wt-bag-story__image figcaption { padding:10px 14px 13px; }
-  .wt-bag-story__copy { display:flex; align-self:stretch; padding:30px 32px 32px; flex-direction:column; justify-content:center; }
-  .wt-bag-story__copy>span, .wt-video__copy>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
-  .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { margin:10px 0 20px; color:var(--bbfc-ink); font-size:22px; font-weight:500; line-height:1.4; }
-  .wt-bag-story__copy p { margin:20px 0 0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
+  .wt-bag-story__copy { display:flex; align-self:stretch; padding:28px 32px 30px; flex-direction:column; justify-content:center; background:rgba(255,255,255,.9); backdrop-filter:blur(8px); }
+  .wt-bag-story__copy .wt-module-kicker { color:var(--wt-blue); }
+  .wt-bag-story__copy .wt-module-kicker b { background:var(--wt-blue); }
+  .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { margin:14px 0 18px; color:var(--bbfc-ink); font-size:22px; font-weight:600; line-height:1.4; }
+  .wt-product-spec { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin:0 0 18px; }
+  .wt-product-spec>span { min-width:0; padding:10px 8px 9px; border:1px solid #c9ddeb; border-radius:9px; background:var(--wt-ice); }
+  .wt-product-spec small { display:block; color:#5e778d; font-size:8px; font-weight:700; letter-spacing:.12em; }
+  .wt-bag-story__copy .wt-product-spec b { display:block; margin-top:3px; overflow:hidden; color:#1d4d72; font-size:10px; font-weight:700; letter-spacing:.03em; text-overflow:ellipsis; white-space:nowrap; }
+  .wt-bag-story__copy p { margin:18px 0 0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
   .wt-bag-story__copy p:first-of-type { margin-top:0; }
   .wt-bag-story__copy b { color:var(--bbfc-ink); font-weight:600; }
-  .wt-bag-story__copy a, .wt-video__copy a { display:inline-flex; margin-top:10px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }
-  .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 38px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
+  .wt-shop-cta { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:12px; padding:13px 15px; border:0; border-radius:10px; background:var(--wt-night); color:#fff; text-decoration:none; transition:background .2s ease,transform .2s ease; }
+  .wt-shop-cta span { min-width:0; }
+  .wt-shop-cta small { display:block; color:#8fd7ff; font-size:8px; font-weight:700; letter-spacing:.12em; }
+  .wt-shop-cta span b { display:block; margin-top:3px; color:#fff; font-size:12px; font-weight:600; line-height:1.45; }
+  .wt-shop-cta i { display:grid; width:30px; height:30px; flex:0 0 auto; place-items:center; border-radius:50%; background:var(--wt-red); color:#fff; font-size:15px; font-style:normal; }
+  .wt-shop-cta:hover { background:#20364b; transform:translateY(-1px); }
+  .wt-shop-cta:focus-visible { outline:3px solid color-mix(in srgb,var(--wt-blue) 55%,transparent); outline-offset:3px; }
+  .wt-shop-note { margin-top:8px; color:#768797; font-size:9px; line-height:1.55; }
+  .wt-text-link { display:inline-flex; align-self:flex-start; margin-top:10px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }
+  .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 38px; overflow:hidden; border:1px solid #26384c; border-top:4px solid var(--wt-red); border-radius:var(--bbfc-radius-lg); background:var(--wt-night); box-shadow:0 24px 60px -44px rgba(19,29,42,.9); transform:translateX(-50%); }
   .wt-video__copy { align-self:center; padding:32px 28px 34px; }
-  .wt-video__copy p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.72; }
+  .wt-video__copy .wt-module-kicker { color:#8fd7ff; }
+  .wt-video__copy .wt-module-kicker b { background:var(--wt-red); }
+  .article-body .wt-video__copy h3 { color:#fff; }
+  .wt-motion-notes span { padding:5px 7px; border:1px solid #40556c; border-radius:999px; color:#bcd0e0; font-size:8px; font-weight:700; letter-spacing:.07em; }
+  .wt-video__copy p { margin:0; color:#b9c6d1; font-size:13px; line-height:1.72; }
+  .wt-video__copy .wt-text-link { color:#8fd7ff; }
   .wt-video__media { position:relative; aspect-ratio:16/9; overflow:hidden; background:var(--bbfc-ink); }
   .wt-video__media>[data-inline-video-poster], .wt-video__media .inline-video__player { position:absolute; inset:0; width:100%; height:100%; }
   .wt-video__media>[data-inline-video-poster] { margin:0; padding:0; overflow:hidden; border:0; cursor:pointer; background:var(--bbfc-ink); color:var(--bbfc-bg); }
@@ -251,6 +290,10 @@ fashionProfile:
     .fashion-article .fashion-profile { grid-template-columns:1fr; margin-bottom:46px; }
     .fashion-article .fashion-profile__body { padding:24px 20px 22px; }
     .wt-look-index { grid-template-columns:1fr; margin-top:36px; margin-bottom:48px; }
+    .wt-look-index__header { grid-template-columns:1fr; padding:22px 21px 21px; }
+    .wt-look-index__header strong { font-size:20px; }
+    .wt-look-index__header small { grid-column:1; grid-row:auto; margin-top:5px; }
+    .wt-look-index__header::after { right:-28px; }
     .wt-look-index article { padding:22px 21px 24px; }
     .wt-look-index article + article { border-top:1px solid var(--bbfc-ink-2); border-left:0; }
     .wt-opening-pictorial, .wt-photo-pair, .wt-boots-note, .wt-airport, .wt-bag-story, .wt-video { margin-top:30px; margin-bottom:42px; }
