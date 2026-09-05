@@ -17,7 +17,7 @@ fashionProfile:
   eyebrow: 'PROFILE · aespa'
   name: '윈터'
   romanName: 'WINTER'
-  portrait: '/images/culture/winter-world-cup-style/profile.webp'
+  portrait: '/images/culture/winter-world-cup-style/profile-esquire-2026.webp'
   portraitAlt: '체크 패턴 폴로 랄프 로렌 드레스를 입은 윈터의 에스콰이어 화보 클로즈업'
   portraitCredit: 'Photo: Yoon Ji-yong · Esquire Korea, April 2026'
   birthDate: '2001-01-01'
