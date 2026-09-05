@@ -22,9 +22,14 @@ draft: false
 ---
 
 <div class="legend-identity legend-identity-netherlands">
-  <section class="identity-country"><div><img src="/images/archive/legends/vanenburg/netherlands-flag.png" alt="네덜란드 국기" width="150" height="100" /><span>네덜란드 | Legend</span></div></section>
-  <section class="identity-team"><img src="/images/archive/legends/vanenburg/knvb-crest.png" alt="네덜란드 왕립 축구 협회 사자 문장" width="150" height="195" /><strong>헤랄트 파넨뷔르흐</strong></section>
-  <section class="identity-nickname"><small>Vaantje(바람개비) | Geraldinho(헤랄지뉴)</small></section>
+  <section class="identity-country">
+    <img src="/images/archive/legends/vanenburg/netherlands-flag.png" alt="네덜란드 국기" width="150" height="100" />
+    <div><span>NEDERLAND</span><strong>네덜란드 왕국</strong><small lang="nl">Koninkrijk der Nederlanden</small></div>
+  </section>
+  <section class="identity-team">
+    <img src="/images/archive/legends/vanenburg/knvb-crest.png" alt="네덜란드 왕립 축구 협회 사자 문장" width="150" height="195" />
+    <div><span>NEDERLANDS ELFTAL</span><strong>네덜란드 축구 국가대표팀</strong><small lang="nl">Nederlands voetbalelftal | Oranje(오라녜)</small></div>
+  </section>
 </div>
 
 <div class="record-abstract"><span>편집자 평가</span><p>1988년 네덜란드 축구를 떠올리면 밀란의 오렌지 삼총사가 먼저 나온다. 그 옆으로 시선을 조금만 옮기면, 같은 해 PSV의 트레블과 대표팀의 유럽 제패를 모두 선발로 통과한 헤랄트 파넨뷔르흐가 있다. 발앞에서 공을 잘게 굴리다가 수비수의 무게중심이 쏠리는 순간 빠져나가던 선수. ‘헤랄지뉴’라는 별명이 붙을 만한 개인기를 갖췄으면서도, 아약스와 PSV에서 합쳐 여덟 번의 리그 우승을 쌓았다. 필자가 이 바람개비를 따로 꺼내 놓고 싶은 이유도 그 화려함과 긴 전성기가 한 몸에 있었다는 데 있다.</p></div>
@@ -59,7 +64,7 @@ draft: false
 ## 헤랄트 파넨뷔르흐 프로필
 
 <div class="record-facts record-facts-netherlands">
-  <div class="profile-country-head"><img src="/images/archive/legends/vanenburg/netherlands-flag.png" alt="네덜란드 국기" width="150" height="100" /><strong>네덜란드<small lang="nl">Koninkrijk der Nederlanden</small></strong><img src="/images/archive/legends/vanenburg/knvb-crest.png" alt="네덜란드 왕립 축구 협회 문장" width="150" height="195" /></div>
+  <div class="profile-country-head"><img src="/images/archive/legends/vanenburg/netherlands-flag.png" alt="네덜란드 국기" width="150" height="100" /><strong>네덜란드 왕국<small lang="nl">Koninkrijk der Nederlanden</small></strong><img src="/images/archive/legends/vanenburg/knvb-crest.png" alt="네덜란드 왕립 축구 협회 문장" width="150" height="195" /></div>
   <dl><dt>본명</dt><dd lang="nl">Gerald Mervin Vanenburg</dd></dl><dl><dt>등록명</dt><dd>헤랄트 파넨뷔르흐</dd></dl>
   <dl><dt>출생</dt><dd>1964년 3월 5일</dd></dl><dl><dt>출생지</dt><dd>네덜란드 위트레흐트</dd></dl>
   <dl><dt>신장</dt><dd>172cm</dd></dl><dl><dt>대표 국적</dt><dd>네덜란드</dd></dl>
@@ -67,11 +72,15 @@ draft: false
   <dl><dt>별명</dt><dd>바람개비 · 헤랄지뉴</dd></dl><dl><dt>대표팀</dt><dd>1982-1992년 · 42경기 1골</dd></dl>
 </div>
 
+<figure class="legend-section-photo legend-section-portrait"><img src="/images/archive/legends/vanenburg/portrait-1981.webp" alt="1981년 아약스의 붉고 흰 유니폼을 입은 열일곱 살 헤랄트 파넨뷔르흐의 얼굴" width="1600" height="2133" loading="lazy" decoding="async" /><figcaption>1981년 7월 13일, 아약스 1군에 막 올라온 열일곱 살 파넨뷔르흐. 사진: Nationaal Archief/Anefo(CC0).</figcaption></figure>
+
 본명은 헤랄트 머르빈 파넨뷔르흐<span class="foreign-note" lang="nl">(Gerald Mervin Vanenburg)</span>. 위트레흐트에서 태어난 수리남계 네덜란드인이다. 훗날 아약스와 유벤투스에서 활약한 엣하르 다비츠<span class="foreign-note" lang="nl">(Edgar Davids; 네덜란드 중앙 미드필더)</span> 역시 수리남계라는 공통점이 있다. 다만 파넨뷔르흐의 축구를 따라가다 보면, 수비수 앞에서 잠깐 멈췄다가 몸을 돌리는 특유의 리듬이 먼저 눈에 들어온다. ‘바람개비’<span class="foreign-note" lang="nl">(Vaantje)</span>와 헤랄지뉴라는 두 별명이 그 움직임에 제법 잘 어울린다.
 
 ## 아약스의 소년, 키프트와 판 바스턴 곁에서
 
 파넨뷔르흐가 아약스 1군 리그 경기에 처음 나선 날은 1981년 4월 5일이다. 열일곱 번째 생일이 지나고 한 달 만에 FC 덴하흐를 상대로 데뷔했다. 아약스 유소년에서 올라온 작은 공격수에게는 공을 다루는 재주와 상대에게 달려들 배짱이 있었고, 곧 오른쪽 공격의 한자리를 차지했다. 1981-82 시즌 리그 13골, 이듬해 17골을 넣었으니, 나이를 감안하지 않아도 꽤 매서운 출발이었다.
+
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/vanenburg/ajax-goal-1982.webp" alt="1982년 페예노르트전에서 아약스의 헤랄트 파넨뷔르흐가 왼발로 슈팅하는 장면" width="1600" height="1047" loading="lazy" decoding="async" /><figcaption>1982년 11월 28일 더 카위프. 파넨뷔르흐가 페예노르트전의 1-0을 만든다. 사진: Nationaal Archief/Anefo(CC0).</figcaption></figure>
 
 당시 아약스에는 빔 키프트가 있었고, 마르코 판 바스턴<span class="foreign-note" lang="nl">(Marco van Basten; 훗날 발롱도르를 세 번 받은 네덜란드 공격수)</span>도 성장하고 있었다. 중앙 공격수가 수비를 붙들고 있으면 파넨뷔르흐에게는 옆에서 공을 몰고 들어갈 틈이 생겼다. 반대로 그가 바깥에서 수비수를 끌어내면 문전의 동료가 움직일 공간이 넓어졌다. 원톱의 골을 돕는 측면 공격수가 직접 두 자릿수 득점까지 해 주는 조합이니, 수비 입장에서는 한쪽에만 인원을 몰아주기 난처했을 법하다.
 
@@ -80,6 +89,8 @@ draft: false
 그럼에도 아약스에서의 시간이 계속 이어지지는 않았다. 1986년 여름 그는 국내 경쟁 상대인 PSV 에인트호번으로 옮겼다. 훗날 밀란에서 다시 모일 오렌지 삼총사의 경로와도 여기서 갈라진다. 파넨뷔르흐는 네덜란드에 남아, 다른 동료들과 유럽 정상에 오르는 쪽으로 전성기를 이어 갔다.
 
 ## PSV에서 다시 만난 두 동료
+
+<figure class="legend-section-photo legend-section-portrait"><img src="/images/archive/legends/vanenburg/psv-portrait-1987.webp" alt="1987년 PSV 에인트호번 유니폼을 입은 헤랄트 파넨뷔르흐의 흑백 인물 사진" width="1200" height="1809" loading="lazy" decoding="async" /><figcaption>1987년 8월 3일의 파넨뷔르흐. PSV에서 맞은 두 번째 시즌이 그의 경력에서 가장 긴 1년으로 이어졌다. 사진: Bart Molendijk·Nationaal Archief/Anefo(CC0).</figcaption></figure>
 
 PSV 이적 첫 시즌에도 리그 우승은 따라왔다. 하지만 이후의 트레블을 이해하려면 1987년의 선수 구성을 조금 더 들여다볼 필요가 있다. 이탈리아에서 돌아온 키프트와, 바이에른 뮌헨·AS 모나코를 거친 레르뷔가 PSV에 합류했다. 두 사람 모두 1983년 아약스를 떠났던 동료다. 파넨뷔르흐로서는 넉 해 전까지 함께 뛰던 공격수와 미드필더를 한꺼번에 다시 만난 것이다.
 
@@ -93,6 +104,8 @@ PSV 이적 첫 시즌에도 리그 우승은 따라왔다. 하지만 이후의 �
 
 PSV는 그 시즌 네덜란드 리그와 KNVB 베이커<span class="foreign-note" lang="nl">(KNVB Beker; 네덜란드 축구 협회 컵대회)</span>를 우승했다. 컵 결승에서는 로다 JC를 연장 끝에 3-2로 꺾었다. 리그에서는 골이 쏟아졌지만, 유러피언컵의 마지막 길은 훨씬 팽팽했다. 8강부터 결승까지 다섯 경기가 전부 무승부였다는 기록부터가 그렇다.
 
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/vanenburg/psv-final-1988.webp" alt="1988년 유러피언컵 결승에서 흰색 PSV 유니폼을 입은 헤랄트 파넨뷔르흐가 벤피카 선수를 마주한 장면" width="1599" height="840" loading="lazy" decoding="async" /><figcaption>1988년 5월 25일 슈투트가르트. 파넨뷔르흐는 벤피카와의 결승 120분을 뛰고 PSV의 네 번째 승부차기까지 넣었다. 사진: Pro Shots.</figcaption></figure>
+
 보르도와의 8강, 레알 마드리드와의 준결승은 각각 원정 1-1·홈 0-0으로 통과했다. 지금은 사라진 원정골 규정이 두 번 모두 PSV의 손을 들어 줬다. 파넨뷔르흐의 개인기만 묶어 보면 이런 팀의 색깔이 조금 의외일 수도 있다. 실제 유럽 무대에서는 앞선에서 한 번 공을 지켜 주는 일, 무리하게 잃지 않고 동료에게 연결하는 일의 무게가 커졌다. 한 번의 실점으로 탈락할 수 있는 경기에서 그 역시 90분의 상당 부분을 이런 싸움에 썼다.
 
 슈투트가르트에서 열린 벤피카와의 결승도 연장까지 0-0이었다. 승부차기에서 파넨뷔르흐는 PSV의 네 번째 키커로 나서 성공했다. 양 팀이 다섯 명씩 모두 넣은 뒤, 여섯 번째 순서에서 한스 판 브뢰켈런<span class="foreign-note" lang="nl">(Hans van Breukelen; PSV와 네덜란드 대표팀의 골키퍼)</span>이 벤피카의 킥을 막았다. 리그·국내 컵·유러피언컵을 같은 시즌에 차지한 트레블이 그렇게 완성됐다.
@@ -102,6 +115,8 @@ PSV는 그 시즌 네덜란드 리그와 KNVB 베이커<span class="foreign-note
 ## 오렌지 삼총사 옆, 유로 1988의 7번
 
 클럽의 축제가 끝나자 대표팀의 여름이 시작됐다. 리뉘스 미헐스<span class="foreign-note" lang="nl">(Rinus Michels; UEFA 유로 1988 우승 당시 네덜란드 감독)</span>가 이끈 네덜란드에서 파넨뷔르흐는 7번을 달았다. 판 바스턴과 뤼트 휠릿<span class="foreign-note" lang="nl">(Ruud Gullit; 당시 AC 밀란에서 뛰던 네덜란드 공격수·미드필더)</span>이 앞에 있었고, 그 뒤의 오른쪽 미드필더 자리를 파넨뷔르흐가 맡았다. 레이카르트는 대표팀에서 중앙 수비를 맡았다. 같은 재능 있는 선수들도 이 대회에서는 각자의 위치가 제법 또렷했다.
+
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/vanenburg/euro-1988-lineup.webp" alt="유로 1988 잉글랜드전을 앞두고 네덜란드 대표팀 선발 선수들이 나란히 선 모습" width="1600" height="1062" loading="lazy" decoding="async" /><figcaption>1988년 6월 15일 잉글랜드전 킥오프 전. 휠릿 바로 옆 7번이 파넨뷔르흐다. 그는 우승까지 다섯 경기 모두 선발로 나왔다. 사진: Rob Bogaerts·Nationaal Archief/Anefo(CC0).</figcaption></figure>
 
 네덜란드는 소련과의 첫 경기에서 0-1로 패했다. 이어 잉글랜드를 3-1, 아일랜드를 1-0으로 꺾고 준결승에 올랐으며, 개최국 서독에는 2-1 역전승을 거뒀다. 결승에서 다시 만난 소련을 2-0으로 이기기까지 파넨뷔르흐는 다섯 경기 모두 선발로 나왔다. 판 바스턴의 골과 휠릿의 존재감이 워낙 컸지만, 우승팀의 오른쪽은 대회 내내 그의 자리였다.
 
@@ -114,6 +129,8 @@ PSV에서 함께 우승한 판 브뢰켈런, 쿠만, 베리 판 아를러<span c
 1988년과 1989년에는 네덜란드 골든 슈<span class="foreign-note" lang="nl">(Gouden Schoen; 《더 텔레흐라프》와 《풋발 인터나시오날》의 평가를 바탕으로 선정한 시즌 최우수 선수상)</span>를 연속 수상했다. 이름 때문에 득점왕에게 주는 상으로 혼동하기 쉽지만, 이 경우는 시즌 활약에 대한 평가상이다. 당시에는 별도의 ‘올해의 축구선수’ 상도 존재해 1988년 쿠만, 1989년 호마리우가 그 상을 받았다. 파넨뷔르흐가 받은 두 개의 골든 슈는 그들과 나란히 자신의 활약을 인정받은 결과다.
 
 PSV에서는 1993년까지 뛰며 다섯 번의 리그 우승을 거뒀다. 한때는 은퇴 뒤 필립스나 PSV에서 일하는 길까지 약속받았지만, 팀의 중심이 된 뒤의 생활은 우승 횟수만큼 순탄하지 않았던 모양이다. PSV 서포터 협회의 회고에 따르면 그는 훗날 AS 로마의 제안을 받아들이지 않은 것을 아쉬워했고, 자신과 호마리우를 중심으로 팀을 만들겠다던 구단의 선수 보강에도 불만을 가졌다. 결국 계약을 정리한 뒤 1993년 여름 네덜란드를 떠났다.
+
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/vanenburg/jubilo-1994.webp" alt="주빌로 이와타의 하늘색 10번 유니폼을 입고 달리는 헤랄트 파넨뷔르흐" width="1200" height="900" loading="lazy" decoding="async" /><figcaption>주빌로 이와타의 10번 파넨뷔르흐. 일본에서는 공격수의 발재간을 지닌 선수가 최종 수비선까지 내려가 팀의 시간을 벌었다. 사진: web Sportiva.</figcaption></figure>
 
 스물아홉 살의 행선지는 주빌로 이와타<span class="foreign-note" lang="ja">(ジュビロ磐田; 야마하 발동기 축구부를 전신으로 하는 일본 구단)</span>였다. 합류 당시에는 아직 J리그 승격 전이었고, 이듬해부터 일본 최상위 리그에서 뛰었다. 유럽 정상에 섰던 선수의 경력이 일본 프로축구 출범기의 한 구단과 겹치는 대목이다.
 
@@ -178,12 +195,15 @@ PSV에서는 1993년까지 뛰며 다섯 번의 리그 우승을 거뒀다. 한�
   <li><strong>네덜란드 골든 슈</strong><span>1987-88 · 1988-89 시즌</span><small>네덜란드 언론 평가에 따른 시즌 최우수 선수상</small></li>
   <li><strong>에레디비시 도움왕</strong><span>1987-88 시즌 · 17도움 (트랜스퍼마크트 집계)</span></li>
   <li><strong>FIFA 세계청소년선수권 베스트 11</strong><span>1983년 · 현재의 FIFA U-20 월드컵</span></li>
+  <li><strong>KNVB 소니 실내축구대회 최우수 선수</strong><span>1984년</span><small>아약스 소속으로 출전한 암스테르담 대회</small></li>
+  <li><strong>AFC 아약스 클럽 판 100</strong><span>1983년 9월 24일 · 아약스 공식전 209경기</span><small>만 19세 203일에 공식전 100경기 도달</small></li>
 </ul>
 
 ## 참고 자료
 
 <ul class="source-notes">
   <li><a href="https://www.ajax.nl/artikelen/gerald-vanenburg-terug-bij-ajax" rel="noopener noreferrer">AFC 아약스: Gerald Vanenburg terug bij Ajax</a>: 1군 209경기 72골, 기술 지도자로 복귀한 뒤의 첫 터치·압박 관련 발언.</li>
+  <li><a href="https://www.afc-ajax.info/nl/overzicht/club-van-100-wedstrijden" rel="noopener noreferrer">AFC-Ajax.info: Club van 100</a>: 공식전 209경기와 클럽 판 100 명단.</li>
   <li><a href="https://www.bdfutbol.com/en/j/j92307.html" rel="noopener noreferrer">BDFutbol: Gerald Mervin Vanenburg</a>: 네덜란드·프랑스·독일 리그의 시즌별 출전과 득점.</li>
   <li><a href="https://www.psvweb.nl/speler.php?id=77" rel="noopener noreferrer">PSVWeb: Gerald Vanenburg</a>: PSV 공식전 259경기 66골과 대회별 내역.</li>
   <li><a href="https://www.psvweb.nl/seizoen_19871988.php" rel="noopener noreferrer">PSVWeb: 1987-88 시즌</a>: 트레블 시즌의 전 대회 출전·득점과 선수 구성.</li>
@@ -201,5 +221,9 @@ PSV에서는 1993년까지 뛰며 다섯 번의 리그 우승을 거뒀다. 한�
   <li><a href="https://www.vi.nl/nieuws/mark-van-bommel-is-speler-van-het-jaar" rel="noopener noreferrer">풋발 인터나시오날: 골든 슈 역대 PSV 수상자</a>: 파넨뷔르흐의 1988·1989년 수상과 상의 선정 주체.</li>
   <li><a href="https://www.midfielddynamo.com/players/awards/holland_poy.htm" rel="noopener noreferrer">Midfield Dynamo: 네덜란드 올해의 선수와 골든 슈</a>: 당시 별도로 운영된 두 상의 수상자.</li>
   <li><a href="https://en.wikipedia.org/wiki/1983_FIFA_World_Youth_Championship#Awards" rel="noopener noreferrer">1983 FIFA 세계청소년선수권 수상 명단</a>: FIFA 기술 보고서 31쪽을 인용한 대회 베스트 11.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:KNVB_Sony_Indoor_Soccer_Toernooi_Ajax_tegen_AZ67_in_Sporthal_Zuid_in_Amsterdam_b,_Bestanddeelnr_933-1902.jpg" rel="noopener noreferrer">네덜란드 국립문서보관소·Anefo 사진 기록</a>: 1984년 KNVB 소니 실내축구대회 최우수 선수 선정.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/Category:Gerald_Vanenburg" rel="noopener noreferrer">Wikimedia Commons: Gerald Vanenburg</a>: 1981년 인물 사진, 아약스 득점 장면, PSV 인물 사진과 유로 1988 선발 사진. Nationaal Archief/Anefo, CC0.</li>
+  <li><a href="https://www.psvfans.nl/gerald-vanenburg-eigenlijk-moet-je-dan-al-stoppen-met-voetballen/" rel="noopener noreferrer">PSVFans: 1988년 유러피언컵 결승 회고</a>: 결승 120분과 승부차기, Pro Shots 경기 사진.</li>
+  <li><a href="https://sportiva.shueisha.co.jp/clm/football/jleague_other/2025/09/05/10_1/" rel="noopener noreferrer">web Sportiva: 주빌로 황금기의 토대를 만든 파넨뷔르흐</a>: 일본 시절 포지션 변화와 주빌로 이와타 경기 사진.</li>
   <li>구단 문장: <a href="https://en.wikipedia.org/wiki/AFC_Ajax" rel="noopener noreferrer">AFC 아약스</a>, <a href="https://en.wikipedia.org/wiki/PSV_Eindhoven" rel="noopener noreferrer">PSV 에인트호번</a>, <a href="https://en.wikipedia.org/wiki/J%C3%BAbilo_Iwata" rel="noopener noreferrer">주빌로 이와타</a>, <a href="https://en.wikipedia.org/wiki/FC_Utrecht" rel="noopener noreferrer">FC 위트레흐트</a>, <a href="https://en.wikipedia.org/wiki/AS_Cannes" rel="noopener noreferrer">AS 칸</a>, <a href="https://en.wikipedia.org/wiki/TSV_1860_Munich" rel="noopener noreferrer">TSV 1860 뮌헨</a>의 위키미디어 수록 문장.</li>
 </ul>
