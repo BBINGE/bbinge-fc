@@ -558,6 +558,40 @@ const relatedAssets = entry.data.relatedGroup
     .sequence-link { padding: 6px 4px; }
     .sequence-link strong { font-size: 14px; }
   }
+  /* Netherlands: retain the three-band composition of the original player table. */
+  .archive-body :global(.legend-identity-netherlands + .record-abstract > span) { font-size: 11px; }
+  .archive-body :global(.legend-identity-netherlands) { display: block; padding: 0; border-radius: 0; overflow: hidden; background: #f76d1b; color: #fff; }
+  .archive-body :global(.legend-identity-netherlands .identity-country) { min-height: 222px; background: linear-gradient(90deg, #b01c28 0 71%, #fff 71% 85%, #244787 85% 100%); border-bottom: 1px solid #fff; }
+  .archive-body :global(.legend-identity-netherlands .identity-country > div) { width: 71%; min-height: 222px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 25px; }
+  .archive-body :global(.legend-identity-netherlands .identity-country img) { width: 150px; height: 100px; object-fit: contain; border-radius: 16px; box-shadow: none; }
+  .archive-body :global(.legend-identity-netherlands span) { font-size: 14px; letter-spacing: 0; color: #fff; }
+  .archive-body :global(.legend-identity-netherlands .identity-team) { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 30px; min-height: 334px; padding: 35px 18px; }
+  .archive-body :global(.legend-identity-netherlands .identity-team img) { width: 147px; height: 193px; object-fit: contain; border-radius: 0; box-shadow: none; }
+  .archive-body :global(.legend-identity-netherlands .identity-team strong) { margin: 0; color: #fff; font-size: 25px; }
+  .archive-body :global(.legend-identity-netherlands .identity-nickname) { display: flex; align-items: center; justify-content: center; min-height: 100px; padding: 20px 12px; border-top: 1px solid #fff; text-align: center; }
+  .archive-body :global(.legend-identity-netherlands .identity-nickname small) { margin: 0; color: #19120c; font-size: 14px; }
+  .archive-body :global(.record-facts-netherlands) { overflow: hidden; border: 1px solid #dc5a12; border-radius: 16px; background: #fff; }
+  .archive-body :global(.record-facts-netherlands .profile-country-head) { background: #f76d1b; grid-template-columns: 100px minmax(0, 1fr) 70px; }
+  .archive-body :global(.record-facts-netherlands .profile-country-head strong), .archive-body :global(.record-facts-netherlands .profile-country-head small) { color: #261608; text-shadow: none; }
+  .archive-body :global(.record-facts-netherlands .profile-country-head > img:first-child) { width: 100px; height: 67px; object-fit: contain; }
+  .archive-body :global(.record-facts-netherlands .profile-country-head > img:last-child) { width: 65px; height: 85px; }
+  .archive-body :global(.record-facts-netherlands dl) { border-color: #f3d4bf; background: #fffaf6; }
+  .archive-body :global(.record-facts-netherlands dt) { color: #944018; font-weight: 800; }
+  @media (max-width: 600px) {
+    .archive-body :global(.legend-identity-netherlands .identity-country), .archive-body :global(.legend-identity-netherlands .identity-country > div) { min-height: 160px; }
+    .archive-body :global(.legend-identity-netherlands .identity-country > div) { gap: 20px; }
+    .archive-body :global(.legend-identity-netherlands .identity-country img) { width: 105px; height: 70px; border-radius: 12px; }
+    .archive-body :global(.legend-identity-netherlands span) { font-size: 12px; }
+    .archive-body :global(.legend-identity-netherlands .identity-team) { min-height: 260px; gap: 24px; padding: 26px 14px; }
+    .archive-body :global(.legend-identity-netherlands .identity-team img) { width: 106px; height: 139px; }
+    .archive-body :global(.legend-identity-netherlands .identity-team strong) { font-size: 23px; }
+    .archive-body :global(.legend-identity-netherlands .identity-nickname) { min-height: 76px; }
+    .archive-body :global(.legend-identity-netherlands .identity-nickname small) { font-size: 12px; }
+    .archive-body :global(.record-facts-netherlands .profile-country-head) { grid-template-columns: 68px minmax(0, 1fr) 42px; gap: 12px; padding: 18px 14px; }
+    .archive-body :global(.record-facts-netherlands .profile-country-head > img:first-child) { width: 68px; height: 46px; }
+    .archive-body :global(.record-facts-netherlands .profile-country-head > img:last-child) { width: 42px; height: 55px; }
+    .archive-body :global(.record-facts-netherlands .profile-country-head small) { overflow-wrap: anywhere; }
+  }
 </style>
 
 <script is:inline>
