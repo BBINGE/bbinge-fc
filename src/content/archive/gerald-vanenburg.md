@@ -28,7 +28,7 @@ draft: false
   </section>
   <section class="identity-team">
     <img src="/images/archive/legends/vanenburg/knvb-crest.png" alt="네덜란드 왕립 축구 협회 사자 문장" width="150" height="195" />
-    <div><span>NEDERLANDS ELFTAL</span><strong>네덜란드 축구 국가대표팀</strong><small lang="nl">Nederlands voetbalelftal | Oranje(오라녜)</small></div>
+    <div><span>NEDERLANDS ELFTAL</span><strong>네덜란드 축구 국가대표팀</strong><small lang="nl">Nederlands voetbalelftal | Oranje(오라녀)</small></div>
   </section>
 </div>
 
