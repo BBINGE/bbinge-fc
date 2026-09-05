@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-05T20:56:22.397Z",
+  "updatedAt": "2026-09-05T22:41:17.710Z",
   "matches": [
     {
       "id": "2489488",
@@ -79,9 +79,9 @@
       "away": "아탈란타",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-09-06"
@@ -95,7 +95,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/wjhziv1700145026.png",
       "homeScore": 1,
       "awayScore": 1,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-09-06"
@@ -107,9 +107,9 @@
       "away": "브레스트",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/aikowk1546475003.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/z69be41598797026.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 2,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "03:45",
       "date": "2026-09-06"
@@ -121,9 +121,9 @@
       "away": "데포르티보 라코루냐",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/62bvwv1783013156.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "2H",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-06"
@@ -485,6 +485,19 @@
         },
         {
           "rank": 4,
+          "team": "데포르티보 라코루냐",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+          "played": 4,
+          "wins": 2,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 5,
+          "goalDifference": 3,
+          "points": 8
+        },
+        {
+          "rank": 5,
           "team": "데포르티보 알라베스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
           "played": 3,
@@ -497,7 +510,7 @@
           "points": 7
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "오사수나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
           "played": 3,
@@ -510,7 +523,7 @@
           "points": 7
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "아틀레티코 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 4,
@@ -523,7 +536,7 @@
           "points": 7
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "아틀레틱 클루브",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
           "played": 4,
@@ -536,7 +549,7 @@
           "points": 6
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "세비야",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 3,
@@ -547,19 +560,6 @@
           "goalsAgainst": 5,
           "goalDifference": 1,
           "points": 6
-        },
-        {
-          "rank": 9,
-          "team": "데포르티보 라코루냐",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 3,
-          "goalDifference": 2,
-          "points": 5
         },
         {
           "rank": 10,
@@ -643,13 +643,13 @@
           "rank": 16,
           "team": "비야레알",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-          "played": 3,
+          "played": 4,
           "wins": 0,
           "draws": 2,
-          "losses": 1,
-          "goalsFor": 4,
-          "goalsAgainst": 5,
-          "goalDifference": -1,
+          "losses": 2,
+          "goalsFor": 6,
+          "goalsAgainst": 8,
+          "goalDifference": -2,
           "points": 2
         },
         {
