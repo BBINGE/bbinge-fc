@@ -1,0 +1,6 @@
+stadium	https://img.marieclairekorea.com//2025/08/mck_68abd23edc126-822x1024.jpg
+closeup	https://img.marieclairekorea.com//2025/08/mck_68abd2736d565-822x1024.jpg
+press	https://image.starnewskorea.com/21/2025/08/2025080110061260977_2.jpg
+profile	https://www.sonymusic.co.jp/img/common/artist_image/77702000/77702730/profile/JANGWONYOUNG%201%28%ED%94%84%EB%A1%9C%ED%95%84%29.jpg
+video	https://i.ytimg.com/vi/WzBxIbyCpdI/maxresdefault.jpg
+product	https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1200,h_1200/global/784326/01/mod01/fnd/KOR/fmt/png/MCFC-Home-Jersey-Replica
