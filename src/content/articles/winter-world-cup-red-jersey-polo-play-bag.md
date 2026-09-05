@@ -18,8 +18,8 @@ fashionProfile:
   name: '윈터'
   romanName: 'WINTER'
   portrait: '/images/culture/winter-world-cup-style/profile.webp'
-  portraitAlt: '빨간 배경 앞에서 미소 짓는 윈터의 ELLE D 화보'
-  portraitCredit: 'Photo: Hong Jang-hyun · ELLE D Edition, July 2026'
+  portraitAlt: '체크 패턴 폴로 랄프 로렌 드레스를 입은 윈터의 에스콰이어 화보 클로즈업'
+  portraitCredit: 'Photo: Yoon Ji-yong · Esquire Korea, April 2026'
   birthDate: '2001-01-01'
   nationalities:
     - name: '대한민국'
@@ -70,6 +70,18 @@ fashionProfile:
     <figcaption>금발, 빨간 저지와 관중석, 초록 피치가 한 화면에서 월드컵의 색을 완성합니다.<small class="wt-credit">Photo: @imwinter</small></figcaption>
   </figure>
 </div>
+
+<section class="wt-boots-note wt-enter" aria-label="윈터의 레이스업 롱부츠 OOTD">
+  <figure>
+    <img src="/images/culture/winter-world-cup-style/long-boots-ootd.webp" alt="분홍색 플라워 원피스와 검은 무릎 높이 레이스업 롱부츠를 함께 입은 윈터" width="596" height="800" loading="lazy" decoding="async" />
+    <figcaption>무릎까지 올라오는 샤프트와 발등의 레이스업 구조가 온전히 보이는 다른 날의 OOTD입니다.<small class="wt-credit">Photo: @imwinter</small></figcaption>
+  </figure>
+  <div>
+    <span>LONG BOOTS · OOTD</span>
+    <h3>부츠의 길이는 이쪽에서 더 또렷하게 보입니다</h3>
+    <p>경기장 셀피에서는 저지 아래로 일부만 잡혔던 검은 부츠입니다. 다른 날 윈터는 가벼운 플라워 원피스에도 같은 무릎 높이의 레이스업 실루엣을 골랐습니다. 옷의 분위기는 달라도, 긴 샤프트가 하체에 단단한 세로선을 세우는 방식은 같습니다.</p>
+  </div>
+</section>
 
 ## 큰 저지가 부해 보일까 걱정되시죠?
 
@@ -167,36 +179,49 @@ fashionProfile:
     <li><a href="https://www.ralphlauren.com/women-accessories-handbags/polo-play-leather-mini-envelope-bag/100084752.html?dwvar100084752_colorname=Paper">Ralph Lauren, Polo Play Leather Mini Envelope Bag</a>. 소재, 여밈, 손잡이와 치수의 공식 제품 정보.</li>
     <li><a href="https://www.ralphlauren.com/women-clothing-dresses/striped-paneled-linen-dress/100087737.html?dwvar100087737_colorname=Blue">Ralph Lauren, Striped Paneled Linen Dress</a>. 리넨 소재, 보트 네크라인, 앞 단추와 패널 구조의 공식 제품 정보.</li>
     <li><a href="https://www.elle.co.kr/article/1905654">ELLE D Edition, “윈터의 여름은 승리처럼”</a>, 2026년 7월 6일. 홍장현 촬영 화보와 스포츠웨어의 에너지·자신감에 관한 윈터 인터뷰.</li>
+    <li><a href="https://www.esquirekorea.co.kr/article/1898990">Esquire Korea, 윈터와 폴로 랄프 로렌 화보</a>, 2026년 4월. 윤지용 촬영 프로필 화보.</li>
+    <li><a href="https://v.daum.net/v/WyYvqzLxXY">텐아시아, 윈터의 플라워 원피스와 레이스업 롱부츠 OOTD</a>, 2026년 7월 10일. 롱부츠의 전체 길이와 구조를 확인한 사진.</li>
     <li><a href="https://aespa-official.jp/">aespa Japan Official Website</a>. 윈터의 공식 프로필과 생년월일.</li>
   </ol>
 </div>
 
 <style>
   .fashion-article .article-heading h1 { max-width:1000px; font-size:clamp(36px,4.4vw,56px); word-break:keep-all; overflow-wrap:normal; }
+  .fashion-article .fashion-profile { grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr); margin-bottom:54px; }
+  .fashion-article .fashion-profile__portrait { min-height:100%; }
+  .fashion-article .fashion-profile__body { padding:27px 30px 25px; }
   .wt-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
-  .wt-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 62px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
+  .wt-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(960px,calc(100vw - 32px)); margin:34px 0 48px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .wt-look-index article { min-width:0; padding:27px 23px 29px; }
   .wt-look-index article + article { border-left:1px solid var(--bbfc-ink-2); }
   .wt-look-index article>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.11em; }
   .article-body .wt-look-index h3 { margin:11px 0 9px; color:var(--bbfc-bg); font-size:19px; font-weight:500; line-height:1.35; }
   .wt-look-index p { margin:0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.72; }
-  .wt-photo-pair { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 62px; transform:translateX(-50%); }
-  .wt-figure { min-width:0; margin:0; }
+  .wt-photo-pair { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; width:min(960px,calc(100vw - 32px)); margin:30px 0 42px; transform:translateX(-50%); }
+  .fashion-article .article-body .wt-figure { min-width:0; margin:0; }
   .wt-figure img, .wt-airport img, .wt-bag-story__image img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .wt-figure img { aspect-ratio:3/4; object-fit:cover; }
-  .wt-airport { position:relative; left:50%; width:min(800px,calc(100vw - 32px)); margin:42px 0 62px; transform:translateX(-50%); }
-  .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr); width:min(1040px,calc(100vw - 32px)); margin:42px 0 62px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
-  .wt-bag-story__image { min-width:0; margin:0; }
-  .wt-bag-story__image img { height:100%; border:0; border-radius:0; object-fit:cover; }
+  .wt-boots-note { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr); width:min(760px,calc(100vw - 32px)); margin:-4px 0 48px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
+  .article-body .wt-boots-note figure { min-width:0; margin:0; }
+  .wt-boots-note figure img { display:block; width:100%; height:auto; margin:0; border:0; border-radius:0; }
+  .wt-boots-note figcaption { padding:10px 14px 13px; }
+  .wt-boots-note>div { align-self:center; padding:28px 30px 31px; }
+  .wt-boots-note>div>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
+  .article-body .wt-boots-note h3 { margin:10px 0 15px; color:var(--bbfc-ink); font-size:21px; font-weight:500; line-height:1.42; }
+  .wt-boots-note>div p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.78; }
+  .fashion-article .article-body .wt-airport { position:static; width:min(760px,calc(100vw - 32px)); margin:30px auto 48px; transform:none; }
+  .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.95fr) minmax(320px,1.05fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 48px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
+  .fashion-article .article-body .wt-bag-story__image { display:flex; min-width:0; margin:0; flex-direction:column; }
+  .wt-bag-story__image img { aspect-ratio:1/1; height:auto; border:0; border-radius:0; object-fit:cover; }
   .wt-bag-story__image figcaption { padding:10px 14px 13px; }
-  .wt-bag-story__copy { align-self:center; padding:34px 32px 36px; }
+  .wt-bag-story__copy { display:flex; align-self:stretch; padding:30px 32px 32px; flex-direction:column; justify-content:center; }
   .wt-bag-story__copy>span, .wt-video__copy>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
   .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { margin:10px 0 20px; color:var(--bbfc-ink); font-size:22px; font-weight:500; line-height:1.4; }
   .wt-bag-story__copy p { margin:20px 0 0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
   .wt-bag-story__copy p:first-of-type { margin-top:0; }
   .wt-bag-story__copy b { color:var(--bbfc-ink); font-weight:600; }
   .wt-bag-story__copy a, .wt-video__copy a { display:inline-flex; margin-top:10px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }
-  .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(1040px,calc(100vw - 32px)); margin:42px 0 38px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
+  .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 38px; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); transform:translateX(-50%); }
   .wt-video__copy { align-self:center; padding:32px 28px 34px; }
   .wt-video__copy p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.72; }
   .wt-video__media { position:relative; aspect-ratio:16/9; overflow:hidden; background:var(--bbfc-ink); }
@@ -212,15 +237,18 @@ fashionProfile:
   @keyframes wt-enter { from { opacity:.48; translate:0 12px; } to { opacity:1; translate:0 0; } }
   @media (prefers-reduced-motion:no-preference) { .wt-enter { animation:wt-enter .72s cubic-bezier(.22,1,.36,1) both; } }
   @media (max-width:820px) { .wt-video { grid-template-columns:1fr; } .wt-video__copy { order:2; } }
-  @media (max-width:720px) { .wt-photo-pair, .wt-bag-story { grid-template-columns:1fr; } .wt-photo-pair { gap:26px; } .wt-bag-story__image img { height:auto; } }
+  @media (max-width:720px) { .wt-photo-pair, .wt-boots-note, .wt-bag-story { grid-template-columns:1fr; } .wt-photo-pair { gap:26px; } .wt-bag-story__image img { height:auto; } }
   @media (max-width:560px) {
+    .fashion-article .fashion-profile { grid-template-columns:1fr; margin-bottom:46px; }
+    .fashion-article .fashion-profile__body { padding:24px 20px 22px; }
     .wt-look-index { grid-template-columns:1fr; margin-top:36px; margin-bottom:48px; }
     .wt-look-index article { padding:22px 21px 24px; }
     .wt-look-index article + article { border-top:1px solid var(--bbfc-ink-2); border-left:0; }
-    .wt-photo-pair, .wt-airport, .wt-bag-story, .wt-video { margin-top:36px; margin-bottom:48px; }
-    .wt-figure figcaption, .wt-airport figcaption, .wt-bag-story__image figcaption { font-size:11px; line-height:1.58; }
-    .wt-bag-story__copy, .wt-video__copy { padding:24px 20px 27px; }
-    .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { font-size:20px; }
+    .wt-photo-pair, .wt-boots-note, .wt-airport, .wt-bag-story, .wt-video { margin-top:30px; margin-bottom:42px; }
+    .wt-boots-note { margin-top:-2px; }
+    .wt-figure figcaption, .wt-boots-note figcaption, .wt-airport figcaption, .wt-bag-story__image figcaption { font-size:11px; line-height:1.58; }
+    .wt-boots-note>div, .wt-bag-story__copy, .wt-video__copy { padding:24px 20px 27px; }
+    .article-body .wt-boots-note h3, .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { font-size:20px; }
   }
   @media (prefers-reduced-motion:reduce) { .wt-video__media>[data-inline-video-poster] img { transition:none; } .wt-enter { animation:none; } }
 </style>
