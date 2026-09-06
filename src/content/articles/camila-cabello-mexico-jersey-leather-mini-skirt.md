@@ -107,12 +107,6 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
 
 따라 입을 때 꼭 높은 굽일 필요는 없다. 앞코가 열린 얇은 스트랩 플랫이나 작은 키튼힐만으로도 비슷한 효과를 낼 수 있다. 핵심은 ‘여성스러운 신발을 신는다’가 아니라, 큼직한 저지 반대편에서 신발의 부피를 얼마나 덜어낼지에 있다. 축구복의 스포티함을 지우지 않은 채 전신의 속도만 바꾸는 선택이다.
 
-<aside class="cc-shoe-note">
-  <span>THE WEIGHT SHIFTS UP</span>
-  <strong>저지가 크다면,<br />신발은 선으로 남겨보세요.</strong>
-  <p>초록의 면적은 그대로 두고 발등의 검은 스트랩만 보이게 하면, 룩의 중심이 위로 올라갑니다.</p>
-</aside>
-
 ## 레오퍼드 백이 여기서 튀지 않는 이유도 궁금해져요
 
 어깨에 건 가방은 빈티지 돌체앤가바나의 레오퍼드 프린트 숄더백으로 소개됐다. 초록 대표팀 저지, 빨강과 흰색의 테두리, 검은 가죽 치마에 다시 갈색 동물 무늬를 더한다니 색표만 보면 숨이 차다. 실제 사진에서는 가방이 놀랄 만큼 자연스럽다. 크기가 작고, 짙은 갈색 가죽 트리밍이 치마와 머리색 사이를 이어주기 때문이다.
@@ -243,11 +237,6 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .cc-hem-study__copy p { margin:0; color:#cbd2ce; font-size:14px; line-height:1.8; }
   .cc-hem-study__copy>div { display:flex; flex-wrap:wrap; gap:7px; margin-top:22px; }
   .cc-hem-study__copy>div b { padding:7px 9px; border:1px solid rgba(255,255,255,.18); border-radius:999px; color:#e8c990; font-size:9px; letter-spacing:.1em; }
-  .cc-shoe-note { position:relative; left:50%; width:min(820px,calc(100vw - 32px)); margin:34px 0 52px; padding:34px 40px 35px 132px; border-top:1px solid var(--cc-ink); border-bottom:1px solid var(--cc-ink); background:linear-gradient(90deg,transparent 0 102px,var(--cc-cream) 102px); transform:translateX(-50%); }
-  .cc-shoe-note::before { position:absolute; top:50%; left:30px; width:52px; height:3px; background:var(--cc-ink); box-shadow:18px -16px 0 -1px var(--cc-ink),31px -27px 0 -1px var(--cc-ink); content:''; transform:rotate(-17deg); }
-  .cc-shoe-note>span { color:var(--cc-green); font-size:9px; font-weight:800; letter-spacing:.16em; }
-  .cc-shoe-note strong { display:block; margin:8px 0 10px; color:var(--cc-ink); font-size:25px; line-height:1.35; }
-  .cc-shoe-note p { margin:0; color:#666; font-size:13px; line-height:1.7; }
   .cc-pattern-clash { position:relative; left:50%; display:grid; grid-template-columns:1fr 1fr; width:min(900px,calc(100vw - 32px)); margin:36px 0 54px; overflow:hidden; border-radius:var(--bbfc-radius-lg); transform:translateX(-50%); }
   .cc-pattern-clash__green,.cc-pattern-clash__leopard { min-height:250px; padding:34px; color:#fff; }
   .cc-pattern-clash__green { background:repeating-radial-gradient(circle at 70% 50%,rgba(0,30,20,.38) 0 3px,transparent 4px 22px),var(--cc-green); }
@@ -320,8 +309,6 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
     .cc-hem-study,.cc-video,.cc-shop { grid-template-columns:1fr; }
     .cc-hem-study__visual { min-height:250px; }
     .cc-hem-study__copy,.cc-video__copy,.cc-shop__copy { padding:28px 24px 30px; }
-    .cc-shoe-note { padding:28px 23px; background:var(--cc-cream); }
-    .cc-shoe-note::before { display:none; }
     .cc-pattern-clash__green,.cc-pattern-clash__leopard { min-height:200px; padding:23px; }
     .cc-pattern-clash strong { margin-top:56px; font-size:21px; }
     .cc-pattern-clash__note { grid-template-columns:1fr; gap:8px; padding:23px; }
@@ -336,7 +323,6 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
     .cc-photo-pair { grid-template-columns:1fr; }
     .cc-photo-pair img { height:auto; max-height:none; object-fit:contain; }
     .cc-photo-pair figure:first-child img,.cc-photo-pair figure:last-child img { object-position:center; }
-    .cc-shoe-note strong { font-size:22px; }
     .cc-pattern-clash__green,.cc-pattern-clash__leopard { min-height:170px; padding:20px; }
     .cc-pattern-clash strong { margin-top:42px; font-size:18px; }
     .cc-video__media { min-height:230px; }
