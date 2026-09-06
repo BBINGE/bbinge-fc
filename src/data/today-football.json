@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-06T18:51:12.824Z",
+  "updatedAt": "2026-09-06T21:02:46.655Z",
   "matches": [
     {
       "id": "2489481",
@@ -754,27 +754,27 @@
           "rank": 4,
           "team": "AC 밀란",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-          "played": 2,
+          "played": 3,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
           "goalDifference": 3,
-          "points": 6
+          "points": 7
         },
         {
           "rank": 5,
           "team": "유벤투스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-          "played": 2,
+          "played": 3,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
           "goalDifference": 3,
-          "points": 6
+          "points": 7
         },
         {
           "rank": 6,
@@ -1234,6 +1234,19 @@
         },
         {
           "rank": 2,
+          "team": "파리 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "rank": 3,
           "team": "올랭피크 리옹",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
           "played": 3,
@@ -1246,7 +1259,7 @@
           "points": 7
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "릴",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
           "played": 3,
@@ -1259,7 +1272,7 @@
           "points": 7
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "스타드 렌",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
           "played": 3,
@@ -1272,7 +1285,7 @@
           "points": 7
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "스트라스부르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
           "played": 3,
@@ -1285,7 +1298,7 @@
           "points": 6
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "브레스트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
           "played": 3,
@@ -1296,19 +1309,6 @@
           "goalsAgainst": 5,
           "goalDifference": 1,
           "points": 5
-        },
-        {
-          "rank": 7,
-          "team": "파리 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 0,
-          "goalDifference": 3,
-          "points": 4
         },
         {
           "rank": 8,
@@ -1340,13 +1340,13 @@
           "rank": 10,
           "team": "올랭피크 드 마르세유",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-          "played": 2,
+          "played": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "goalsFor": 4,
-          "goalsAgainst": 2,
-          "goalDifference": 2,
+          "losses": 2,
+          "goalsFor": 6,
+          "goalsAgainst": 5,
+          "goalDifference": 1,
           "points": 3
         },
         {
