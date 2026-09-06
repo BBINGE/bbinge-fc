@@ -58,10 +58,11 @@ await sharp({
   .webp({ quality: 90, effort: 5 })
   .toFile(path.join(outputDir, 'cover.webp'));
 
-await saveWebp('card.webp', image.stadium, {
-  resize: { width: 900, height: 900, fit: 'cover', position: 'attention' },
-  quality: 90,
-});
+await sharp(image.stadium)
+  .extract({ left: 61, top: 235, width: 700, height: 700 })
+  .resize({ width: 900, height: 900 })
+  .webp({ quality: 90, effort: 5 })
+  .toFile(path.join(outputDir, 'card.webp'));
 
 await writeFile(
   path.join(outputDir, 'sources.txt'),
