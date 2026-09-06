@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T01:42:53.244Z",
+  "updatedAt": "2026-09-06T13:56:07.325Z",
   "matches": [
     {
       "id": "2489488",
@@ -53,7 +53,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3hq2cy1685597026.png",
       "homeScore": 1,
       "awayScore": 3,
-      "status": "INT",
+      "status": "ABD",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-06"
@@ -135,9 +135,9 @@
       "away": "Twente",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/f36qnp1666107447.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/rsrxrt1473534783.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
       "progress": "",
       "time": "19:15",
       "date": "2026-09-06"
@@ -149,9 +149,9 @@
       "away": "맨체스터 유나이티드",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/eqayrf1523184794.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "22:00",
       "date": "2026-09-06"
@@ -163,9 +163,9 @@
       "away": "마인츠",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/tvtppt1473453296.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/fhm9v51552134916.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "22:30",
       "date": "2026-09-06"
