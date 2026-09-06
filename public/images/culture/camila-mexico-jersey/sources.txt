@@ -1,6 +1,6 @@
 street01	https://cdn.mos.cms.futurecdn.net/rZnU57iphYe4LVBvHCx2Pj.jpg
 street02	https://cdn.mos.cms.futurecdn.net/k4LCnSeJDnPVXegFhkLas9.jpg
 street03	https://media.vogue.mx/photos/6a4536f481de6b441af3a3f0/master/w_1600,c_limit/camila-cabello-con%20camiseta-de-la-seleccion-mexicana.jpg
-profile	https://www.universal-music.co.jp/camila-cabello/wp-content/uploads/sites/4061/2024/03/12.jpg
+profile	https://npr-brightspot.s3.amazonaws.com/a0/e8/db86d6644b55a5de0e895b88a893/camila-cabello.jpg
 video	https://i.ytimg.com/vi/59MldmTRnKk/maxresdefault.jpg
 product	https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/fa62522ed3474701bef3bc74aa78b9d0_9366/Mexico_26_Home_Authentic_Jersey_Green_KA3994_41_detail.jpg

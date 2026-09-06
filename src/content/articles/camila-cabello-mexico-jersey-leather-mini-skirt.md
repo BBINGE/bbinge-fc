@@ -19,8 +19,8 @@ fashionProfile:
   romanName: 'CAMILA CABELLO'
   realName: 'Karla Camila Cabello Estrabao'
   portrait: '/images/culture/camila-mexico-jersey/profile.webp'
-  portraitAlt: '검은 스포츠 톱과 은색 카고 팬츠를 입고 코트에 앉은 카밀라 카베요의 공식 프로필'
-  portraitCredit: 'Universal Music Official Press Photo'
+  portraitAlt: '검은 터틀넥을 입고 밝은 배경 앞에서 카메라를 바라보는 카밀라 카베요의 고화질 인물 사진'
+  portraitCredit: 'City of Miami Courtesy via WLRN'
   birthDate: '1997-03-03'
   nationalities:
     - name: '미국'
@@ -193,6 +193,7 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
     <li><a href="https://www.youtube.com/watch?v=59MldmTRnKk">UEFA, “Camila Cabello's full UEFA Champions League final Opening Ceremony performance”</a>, 2022년 5월 28일. 결승 오프닝 세리머니의 공식 전체 영상.</li>
     <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums">FIFA, FIFA World Cup 2026 match schedule and results</a>. 2026년 6월 30일 멕시코-에콰도르 32강전 일정과 2-0 결과 확인.</li>
     <li><a href="https://www.universal-music.co.jp/camila-cabello/biography/">Universal Music Japan, Camila Cabello Biography</a>. 카밀라 카베요 공식 프로필과 프레스 사진.</li>
+    <li><a href="https://www.wlrn.org/news-in-brief/2026-01-08/camila-cabello-to-receive-key-to-the-city-at-miamis-2026-three-kings-parade">WLRN, “Camila Cabello to receive Key to the City”</a>, 2026년 1월 8일. 마이애미시 제공 고화질 인물 사진.</li>
     <li><a href="https://www.camilacabello.com/">Camila Cabello Official Website</a>. 공식 아티스트 채널 확인.</li>
     <li><a href="https://www.adidas.com/us/mexico-26-home-jersey/JL8537.html">adidas, Mexico 26 Home Jersey · JL8537</a>. 카밀라 착장으로 보도된 레플리카 홈 저지의 공식 제품 페이지.</li>
     <li><a href="https://www.adidas.com/us/mexico-26-home-authentic-jersey/KA3994.html">adidas, Mexico 26 Home Authentic Jersey · KA3994</a>. 본문 제품 사진에 사용한 여성용 어센틱 홈 저지의 공식 제품 페이지.</li>
@@ -291,12 +292,15 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .cc-product-spec b { margin-top:4px; color:var(--cc-green-dark); font-size:11px; }
   .cc-shop__copy>p { margin:0 0 17px; color:#545c57; font-size:13px; line-height:1.7; }
   .cc-shop__copy>p b { color:#141714; }
-  .cc-shop-cta { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-top:9px; padding:13px 15px; border:1px solid var(--cc-green); border-radius:9px; background:var(--cc-green); color:#fff !important; text-decoration:none !important; }
-  .cc-shop-cta--outline { background:#fff; color:var(--cc-green-dark) !important; }
+  .cc-shop-cta { display:flex; min-height:76px; justify-content:space-between; align-items:center; gap:18px; margin-top:12px; padding:16px 17px 16px 19px; border:2px solid var(--cc-green); border-radius:14px; background:linear-gradient(112deg,#08764f,#059166); box-shadow:0 13px 28px -18px rgba(6,60,43,.9); color:#fff !important; text-decoration:none !important; transition:transform .18s ease,box-shadow .18s ease,background .18s ease; }
+  .cc-shop-cta--outline { border-color:#5f8f7c; background:#fff; box-shadow:none; color:var(--cc-green-dark) !important; }
+  .cc-shop-cta span { min-width:0; }
   .cc-shop-cta span small,.cc-shop-cta span b { display:block; }
-  .cc-shop-cta span small { margin-bottom:2px; font-size:8px; letter-spacing:.1em; opacity:.75; }
-  .cc-shop-cta span b { font-size:11px; }
-  .cc-shop-cta i { font-style:normal; font-size:19px; }
+  .cc-shop-cta span small { margin-bottom:5px; font-size:9px; font-weight:850; letter-spacing:.115em; opacity:.84; }
+  .cc-shop-cta span b { font-size:15px; font-weight:800; line-height:1.35; letter-spacing:-.02em; }
+  .cc-shop-cta i { display:grid; width:40px; height:40px; flex:0 0 auto; place-items:center; border-radius:50%; background:#fff; color:var(--cc-green-dark); font-size:23px; font-style:normal; box-shadow:0 7px 18px -10px rgba(0,0,0,.8); }
+  .cc-shop-cta--outline i { background:var(--cc-green-dark); color:#fff; }
+  .cc-shop-cta:hover { transform:translateY(-2px); box-shadow:0 18px 34px -19px rgba(6,60,43,.95); }
   .cc-shop-note { display:block; margin-top:13px; color:#7a817d; font-size:10px; line-height:1.6; }
   .cc-enter { animation:cc-rise .7s both; animation-timeline:view(); animation-range:entry 8% cover 30%; }
   @keyframes cc-rise { from { opacity:.3; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }

@@ -240,12 +240,12 @@ fashionProfile:
   .wy-product-spec b { display:block; margin-top:3px; overflow:hidden; color:#174e6b; font-size:10px; font-weight:750; text-overflow:ellipsis; white-space:nowrap; }
   .wy-shop__copy p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
   .wy-shop__copy p b { color:var(--wy-navy); font-weight:650; }
-  .wy-shop-cta { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:14px; padding:13px 15px; border-radius:10px; background:var(--wy-navy); color:#fff; text-decoration:none; transition:background .2s ease,transform .2s ease; }
+  .wy-shop-cta { display:flex; min-height:76px; align-items:center; justify-content:space-between; gap:18px; margin-top:16px; padding:16px 17px 16px 19px; border:2px solid var(--wy-navy); border-radius:14px; background:linear-gradient(112deg,var(--wy-navy),#223466); box-shadow:0 14px 30px -18px rgba(8,20,55,.9); color:#fff; text-decoration:none; transition:background .2s ease,transform .2s ease,box-shadow .2s ease; }
   .wy-shop-cta span { min-width:0; }
-  .wy-shop-cta small { display:block; color:#8fe0ff; font-size:8px; font-weight:750; letter-spacing:.12em; }
-  .wy-shop-cta span b { display:block; margin-top:3px; color:#fff; font-size:12px; font-weight:620; line-height:1.45; }
-  .wy-shop-cta i { display:grid; width:30px; height:30px; flex:0 0 auto; place-items:center; border-radius:50%; background:var(--wy-sky); color:var(--wy-navy); font-size:15px; font-style:normal; }
-  .wy-shop-cta:hover { background:#25335d; transform:translateY(-1px); }
+  .wy-shop-cta small { display:block; color:#8fe0ff; font-size:9px; font-weight:850; letter-spacing:.12em; }
+  .wy-shop-cta span b { display:block; margin-top:5px; color:#fff; font-size:15px; font-weight:800; line-height:1.35; letter-spacing:-.02em; }
+  .wy-shop-cta i { display:grid; width:40px; height:40px; flex:0 0 auto; place-items:center; border-radius:50%; background:var(--wy-sky); color:var(--wy-navy); font-size:22px; font-style:normal; box-shadow:0 7px 18px -10px rgba(0,0,0,.8); }
+  .wy-shop-cta:hover { background:#25335d; transform:translateY(-2px); box-shadow:0 19px 34px -20px rgba(8,20,55,.95); }
   .wy-shop-note { margin-top:9px; color:#70828d; font-size:9px; line-height:1.58; }
   @keyframes wy-enter { from { opacity:.5; translate:0 12px; } to { opacity:1; translate:0 0; } }
   @media (prefers-reduced-motion:no-preference) { .wy-enter { animation:wy-enter .72s cubic-bezier(.22,1,.36,1) both; } }
