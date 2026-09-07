@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-07T17:31:12.845Z",
+  "updatedAt": "2026-09-07T18:59:40.536Z",
   "matches": [
     {
       "id": "2482158",
@@ -11,7 +11,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
       "homeScore": 1,
       "awayScore": 0,
-      "status": "1H",
+      "status": "2H",
       "progress": "",
       "time": "01:30",
       "date": "2026-09-08"
@@ -23,9 +23,9 @@
       "away": "셀타 비고",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/eyh2891655594452.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "status": "1H",
+      "status": "HT",
       "progress": "",
       "time": "02:00",
       "date": "2026-09-08"
@@ -719,6 +719,19 @@
         },
         {
           "rank": 9,
+          "team": "칼리아리",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "points": 6
+        },
+        {
+          "rank": 10,
           "team": "우디네세",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
           "played": 2,
@@ -731,7 +744,7 @@
           "points": 4
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": "사수올로",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
           "played": 3,
@@ -744,33 +757,7 @@
           "points": 4
         },
         {
-          "rank": 11,
-          "team": "칼리아리",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-          "played": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 3
-        },
-        {
           "rank": 12,
-          "team": "레체",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-          "played": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
-          "goalDifference": -2,
-          "points": 3
-        },
-        {
-          "rank": 13,
           "team": "나폴리",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
           "played": 3,
@@ -783,7 +770,7 @@
           "points": 3
         },
         {
-          "rank": 14,
+          "rank": 13,
           "team": "토리노",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "played": 3,
@@ -793,6 +780,19 @@
           "goalsFor": 4,
           "goalsAgainst": 5,
           "goalDifference": -1,
+          "points": 3
+        },
+        {
+          "rank": 14,
+          "team": "레체",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
           "points": 3
         },
         {
