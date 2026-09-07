@@ -1,6 +1,6 @@
 document.querySelectorAll<HTMLElement>('[data-journey-ugc-video]').forEach((container) => {
   const videoId = container.dataset.youtubeId;
-  const poster = container.querySelector<HTMLButtonElement>('.journey-ugc-video__poster');
+  const poster = container.querySelector<HTMLButtonElement>('.journey-ugc-video__poster, .journey-video-callout__trigger');
   const player = container.querySelector<HTMLElement>('.journey-ugc-video__player');
   const frame = container.querySelector<HTMLIFrameElement>('iframe');
   const close = player?.querySelector<HTMLButtonElement>('button');

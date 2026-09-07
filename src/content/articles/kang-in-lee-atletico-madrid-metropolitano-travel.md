@@ -96,7 +96,7 @@ faq:
 
 경기장 내부는 담배와 전자담배, 베이핑이 금지된다. 흡연을 위해 외부 플랫폼으로 나갈 수 있는 시간은 전반 30분부터 후반 70분까지이며, 들어왔던 같은 게이트의 노란색 개찰구에 티켓을 찍고 나가야 재입장이 가능하다. 이 절차를 놓치면 다시 들어오지 못할 수 있다.
 
-<div class="journey-video-callout"><span>THE SOUND YOU CAME FOR</span><strong>화면 밖에서 먼저 들리는 “Aúpa Atleti”를 놓치지 마세요</strong><p>선수 소개 때 이강인의 이름이 전광판에 뜨고, Fondo Sur의 낮은 노래가 지붕 아래에서 커지는 시간은 킥오프 뒤에 다시 볼 수 없다. 몸풀기부터 앉아 있어야 좌석이 단순한 관람 위치가 아니라 여행의 장면이 된다.</p></div>
+<section class="journey-video-callout" data-journey-ugc-video data-youtube-id="eHPJvPDuOfQ"><button class="journey-video-callout__trigger" type="button" aria-label="Aúpa Atleti 관중석 현장 영상 재생"><span>THE SOUND YOU CAME FOR</span><strong>화면 밖에서 먼저 들리는 “Aúpa Atleti”를 놓치지 마세요</strong><p>선수 소개 때 이강인의 이름이 전광판에 뜨고, Fondo Sur의 낮은 노래가 지붕 아래에서 커지는 시간은 킥오프 뒤에 다시 볼 수 없다. 몸풀기부터 앉아 있어야 좌석이 단순한 관람 위치가 아니라 여행의 장면이 된다.</p></button><div class="journey-ugc-video__player" hidden><button type="button" aria-label="관중석 현장 영상 닫기">×</button><iframe title="아틀레티코 마드리드 메트로폴리타노 관중석 현장 영상" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></section>
 
 <h2 id="after-match">경기 뒤에는 가장 가까운 역이 가장 빠르지 않을 수 있어요</h2>
 

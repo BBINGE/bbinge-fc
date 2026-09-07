@@ -675,8 +675,12 @@ if (props.kind === 'category') {
   .journey-article .article-body>:global(.journey-audio i) { position:relative; z-index:1; display:inline-flex; align-items:center; gap:8px; margin-top:23px; padding:9px 13px 10px; border:1px solid rgba(255,255,255,.33); color:#fff; font-size:15px; line-height:1; font-style:normal; font-weight:720; }
   .journey-article .article-body>:global(.journey-audio:hover),
   .journey-article .article-body>:global(.journey-audio:focus-visible) { outline:3px solid rgba(216,24,45,.35); outline-offset:4px; box-shadow:0 17px 34px rgba(31,10,14,.22); transform:translateY(-3px); }
-  .journey-article .article-body>:global(.journey-video-callout) { position:relative; margin:45px 0 0; padding:26px 92px 27px 27px; overflow:hidden; border-left:5px solid #d8182d; background:#101722; color:#fff; }
-  .journey-article .article-body>:global(.journey-video-callout::after) { content:'▶'; position:absolute; right:27px; top:50%; display:grid; width:52px; height:52px; place-items:center; border-radius:50%; background:#d8182d; color:#fff; font-size:19px; transform:translateY(-50%); box-shadow:0 0 0 8px rgba(216,24,45,.13); animation:journey-video-pulse 2.4s ease-in-out infinite; }
+  .journey-article .article-body>:global(.journey-video-callout) { position:relative; margin:45px 0 0; overflow:hidden; border-left:5px solid #d8182d; background:#101722; color:#fff; }
+  .journey-article .article-body :global(.journey-video-callout__trigger) { position:relative; display:block; width:100%; padding:26px 92px 27px 27px; border:0; background:transparent; color:inherit; text-align:left; cursor:pointer; }
+  .journey-article .article-body :global(.journey-video-callout__trigger::after) { content:'▶'; position:absolute; right:27px; top:50%; display:grid; width:52px; height:52px; place-items:center; border-radius:50%; background:#d8182d; color:#fff; font-size:19px; transform:translateY(-50%); box-shadow:0 0 0 8px rgba(216,24,45,.13); animation:journey-video-pulse 2.4s ease-in-out infinite; }
+  .journey-article .article-body :global(.journey-video-callout__trigger:hover),
+  .journey-article .article-body :global(.journey-video-callout__trigger:focus-visible) { background:#151f2d; }
+  .journey-article .article-body :global(.journey-video-callout__trigger:focus-visible) { outline:4px solid #72a6ff; outline-offset:-4px; }
   .journey-article .article-body :global(.journey-video-callout span) { color:#ff8794; font-size:12px; line-height:1.35; font-weight:800; letter-spacing:.13em; }
   .journey-article .article-body :global(.journey-video-callout strong) { display:block; margin-top:6px; color:#fff; font-size:29px; line-height:1.2; letter-spacing:-.035em; }
   .journey-article .article-body :global(.journey-video-callout p) { max-width:620px; margin:11px 0 0; color:rgba(255,255,255,.75); font-size:15px; line-height:1.67; }
@@ -701,7 +705,7 @@ if (props.kind === 'category') {
     .journey-article .article-body>:global(.journey-links i b),
     .journey-article .article-body :global(.journey-map__pin),
     .journey-article .article-body>:global(.journey-audio),
-    .journey-article .article-body>:global(.journey-video-callout::after),
+    .journey-article .article-body :global(.journey-video-callout__trigger::after),
     .journey-article .article-body :global(.rome-desire img) { animation:none; transition:none; }
   }
   @media (max-width:680px) {
@@ -812,8 +816,8 @@ if (props.kind === 'category') {
     .journey-article .article-body :global(.journey-social-shot img) { min-height:0; aspect-ratio:1.5; }
     .journey-article .article-body :global(.journey-social-shot>div) { padding:27px 22px 29px; }
     .journey-article .article-body :global(.journey-social-shot strong) { font-size:25px; }
-    .journey-article .article-body>:global(.journey-video-callout) { padding:23px 74px 24px 21px; }
-    .journey-article .article-body>:global(.journey-video-callout::after) { right:18px; width:43px; height:43px; font-size:16px; }
+    .journey-article .article-body :global(.journey-video-callout__trigger) { padding:23px 74px 24px 21px; }
+    .journey-article .article-body :global(.journey-video-callout__trigger::after) { right:18px; width:43px; height:43px; font-size:16px; }
     .journey-article .article-body :global(.journey-video-callout strong) { font-size:26px; }
     .journey-article .article-body>:global(.journey-fact-strip) { grid-template-columns:repeat(2,minmax(0,1fr)); }
     .journey-article .article-body>:global(.journey-finale img) { min-height:340px; }
