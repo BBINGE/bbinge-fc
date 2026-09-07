@@ -137,12 +137,11 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
     <p>흰 드레스와 강한 원색, 오악사카 카니발에서 영감을 받은 안무가 거대한 경기장 위에서 어떻게 펼쳐지는지 볼 수 있습니다.</p>
     <a href="https://www.youtube.com/watch?v=59MldmTRnKk" target="_blank" rel="noopener noreferrer">YouTube에서 UEFA 공식 영상 보기</a>
   </div>
-  <div class="cc-video__media" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/59MldmTRnKk?autoplay=1&amp;rel=0">
-    <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 카밀라 카베요의 UEFA 챔피언스 리그 결승 오프닝 공연 재생">
+  <div class="cc-video__media">
+    <a href="https://www.youtube.com/watch?v=59MldmTRnKk" target="_blank" rel="noopener noreferrer" data-inline-video-poster aria-label="YouTube에서 카밀라 카베요의 UEFA 챔피언스 리그 결승 오프닝 공연 보기">
       <img src="/images/culture/camila-mexico-jersey/video-poster.webp" alt="흰 러플 드레스를 입은 카밀라 카베요와 붉고 주황인 의상의 무용수들이 잔디 위에 선 UEFA 공식 영상 포스터" width="1280" height="720" loading="lazy" decoding="async" />
-      <span><b aria-hidden="true">▶</b> 공식 공연 재생</span>
-    </button>
-    <div class="inline-video__player" hidden><iframe title="카밀라 카베요의 2022 UEFA 챔피언스 리그 결승 오프닝 공연" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="UEFA 공식 공연 닫기">×</button></div>
+      <span><b aria-hidden="true">▶</b> YouTube에서 공식 공연 보기</span>
+    </a>
   </div>
 </section>
 
@@ -259,7 +258,7 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .cc-video__copy>a { color:#fff; font-size:12px; font-weight:700; text-decoration:underline; text-underline-offset:5px; }
   .cc-video__media { position:relative; min-height:420px; background:#0b0d0c; }
   .cc-video__media>[data-inline-video-poster],.cc-video__media .inline-video__player,.cc-video__media iframe { position:absolute; inset:0; width:100%; height:100%; }
-  .cc-video__media>[data-inline-video-poster] { padding:0; overflow:hidden; border:0; background:#0b0d0c; cursor:pointer; }
+  .cc-video__media>[data-inline-video-poster] { padding:0; overflow:hidden; border:0; background:#0b0d0c; cursor:pointer; text-decoration:none; }
   .cc-video__media img { width:100%; height:100%; margin:0; object-fit:cover; opacity:.82; }
   .cc-video__media>[data-inline-video-poster]>span { position:absolute; left:22px; bottom:22px; display:flex; align-items:center; gap:9px; padding:10px 14px; border-radius:999px; background:#fff; color:#111; font-size:11px; font-weight:800; }
   .cc-video__media>[data-inline-video-poster]>span b { display:grid; place-items:center; width:24px; height:24px; border-radius:50%; background:var(--cc-red); color:#fff; font-size:9px; }
