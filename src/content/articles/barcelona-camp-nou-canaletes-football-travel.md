@@ -1,182 +1,129 @@
 ---
-title: '바르셀로나 축구 여행: FC 바르셀로나와 캄프 누, 카날레테스까지 걷는 법'
-description: 'FC 바르셀로나의 창립 장소와 인두스트리아·레스 코르츠·캄프 누를 지나 카날레테스의 밤까지, 도시와 구단이 함께 커진 길을 2박 3일 동선으로 걷는다.'
+title: '바르셀로나 축구 여행 2박 3일: 캄프 누 직관, 숙소, 맛집, 해변 코스'
+description: 'FC 바르셀로나 직관을 중심으로 캄프 누, 실제 숙소 3곳, 대표 맛집, 카날레테스의 밤과 바르셀로네타 해변을 연결한 2박 3일 여행 코스.'
 category: 'pilgrimage'
-tags: ['바르셀로나 축구 여행', 'FC 바르셀로나', '캄프 누', '바르셀로나 직관', '카날레테스', '스페인 축구 여행', '바르셀로나 경기장 투어']
+tags: ['바르셀로나 축구 여행', 'FC 바르셀로나', '캄프 누', '바르셀로나 직관', '바르셀로나 숙소', '바르셀로나 맛집', '바르셀로네타 해변', '스페인 축구 여행']
 pubDate: 2026-09-07T21:30:00+09:00
-updatedDate: 2026-09-07T23:42:00+09:00
-coverImage: '/images/pilgrimage/barcelona-football-city/cover.webp'
-cardImage: '/images/pilgrimage/barcelona-football-city/card.webp'
-coverImageAlt: '새 단장을 이어가는 스포티파이 캄프 누의 관중석을 향해 손을 든 FC 바르셀로나 선수의 뒷모습'
-coverImageCaption: '도시 안에서 계속 서쪽으로 커진 구단은 다시 캄프 누의 관중 앞에 섰다. 사진: FC Barcelona, 2026.'
+updatedDate: 2026-09-08T00:55:00+09:00
+coverImage: '/images/pilgrimage/barcelona-football-city/cover-city-sea.webp'
+cardImage: '/images/pilgrimage/barcelona-football-city/card-city-sea.webp'
+coverImageAlt: '푸른 지중해와 모래사장, 야자수 산책로와 바르셀로나 도심이 한눈에 보이는 바르셀로네타 해안'
+coverImageCaption: '경기장이 여행의 이유라면 바다는 함께 가고 싶은 마음을 완성한다. 바르셀로네타 해안과 바르셀로나 도심. 사진: Lazar Krstić, Pexels.'
 coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
 featured: false
 faq:
-  - question: '2026년에도 FC 바르셀로나 홈경기를 캄프 누에서 볼 수 있나요?'
-    answer: 'FC 바르셀로나의 2026-27시즌 공식 일정에는 스포티파이 캄프 누 홈경기가 편성돼 있다. 다만 경기장 개보수 공사는 계속되므로 경기별 좌석·출입구·관람 가능 구역은 예매 화면과 구단 당일 공지를 다시 확인해야 한다.'
-  - question: '캄프 누 투어는 경기장 공사 중에도 운영하나요?'
-    answer: '현재 구단은 바르사 이머시브 투어와 박물관, 공사 전망대를 운영한다. 일반 투어와 경기일 상품의 동선이 다르고 공사 상황에 따라 접근 경로가 바뀔 수 있으므로 날짜를 정한 뒤 공식 예약 페이지에서 포함 항목을 확인한다.'
   - question: '바르셀로나 축구 여행은 숙소를 어디에 잡는 것이 좋은가요?'
-    answer: '카날레테스와 도심의 밤이 우선이면 Plaça Catalunya 인근의 Hotel Pulitzer Barcelona, L3·L5 환승과 휴식의 균형을 원하면 Diagonal 인근의 Seventy Barcelona, 캄프 누 도보 접근이 우선이면 Grand Hyatt Barcelona가 맞다. 경기 시간과 여행의 중심을 정한 뒤 공식 사이트에서 실제 객실과 조건을 다시 확인한다.'
-  - question: 'FC 바르셀로나 역사 장소를 하루에 모두 걸을 수 있나요?'
-    answer: '창립 장소와 인두스트리아 옛 구장 터는 첫날, 레스 코르츠와 캄프 누는 경기일에 나누는 편이 좋다. 장소 사이의 이동보다 박물관 입장과 경기장 보안 검색에 시간이 걸리므로 핵심 동선은 이틀로 분리한다.'
+    answer: '카날레테스와 람블라의 밤을 걸어서 끝내려면 Plaça Catalunya 인근의 Hotel Pulitzer Barcelona, 도심과 캄프 누 이동의 균형은 Diagonal 인근의 Seventy Barcelona, 경기장 도보 접근을 우선하면 Grand Hyatt Barcelona가 맞다. 실제 경기 시간과 객실 조건은 예약 전 공식 사이트에서 확인한다.'
+  - question: '2026년에도 FC 바르셀로나 홈경기를 캄프 누에서 볼 수 있나요?'
+    answer: 'FC 바르셀로나의 2026-27시즌 공식 일정에는 스포티파이 캄프 누 홈경기가 편성돼 있다. 경기장 개보수 공사가 이어지고 있으므로 좌석, 출입구, 관람 가능 구역은 경기별 예매 화면과 구단 공지를 다시 확인해야 한다.'
+  - question: '캄프 누 직관 전후에 갈 만한 바르셀로나 맛집은 어디인가요?'
+    answer: '경기장 서쪽 일정에는 Sarrià의 Bar Tomás, 도심 저녁에는 Bar Cañete, 다음 날 바다까지 볼 계획이라면 Bogatell 해변의 Xiringuito Escribà가 서로 다른 역할을 한다. 영업일과 예약 가능 시간은 각 공식 채널에서 확인한다.'
+  - question: 'FC 바르셀로나 역사 장소도 함께 볼 수 있나요?'
+    answer: '창립지 Gimnàs Solé와 인두스트리아 옛 구장 터는 첫날 도심 산책에, 레스 코르츠 옛터는 경기일 이동에 넣을 수 있다. 세 장소를 각각 긴 목적지로 잡기보다 도시와 식사 사이의 짧은 역사 장면으로 묶는 편이 좋다.'
 ---
 
-바르셀로나에서 FC 바르셀로나 경기를 보려면 캄프 누<span class="foreign-note" lang="ca">(Camp Nou; 카탈루냐어로 ‘새 경기장’)</span>부터 검색하게 된다. 경기장 투어를 예약하고, 홈경기 표를 구하고, 지하철역을 찾으면 여행의 큰일은 끝난 것처럼 보인다. 그러나 이 구단을 도시 안에서 이해하려면 방향 하나를 더 봐야 한다. **FC 바르셀로나는 관중이 늘어날 때마다 더 큰 땅을 찾아 도시의 서쪽으로 이동했다.**
+바르셀로나 직관 여행의 첫 화면이 경기장 벽이어야 할 이유는 없다. 비행기에서 내려 짐을 풀고 마주하는 것은 야자수와 에이샴플라의 격자, 테라스의 잔 부딪치는 소리, 저녁까지 남아 있는 지중해의 빛이다. 그 도시의 하루를 먼저 좋아해야 캄프 누의 밤도 여행의 절정이 된다.
 
-1899년 구단을 만든 도심의 체육관에서 출발해 1909년 인두스트리아 거리의 첫 소유 구장으로, 1922년 레스 코르츠로, 1957년 캄프 누로 갔다. 경기장은 커졌고 그 주변은 구단의 생활권이 됐다. 반대로 우승의 감정은 경기장 안에 머물지 않았다. 팬들은 도심의 카날레테스 분수로 모여 결과를 확인하고 함께 축하했다. 이 여행은 그 두 흐름을 잇는다. 첫날에는 구단이 도시 밖으로 커져 간 흔적을 따라가고, 경기일 밤에는 도시 중심으로 되돌아온다.
+둘 중 한 사람만 축구를 좋아해도 괜찮다. 한 사람은 FC 바르셀로나의 관중석을 기다리고, 다른 사람은 바다와 타파스와 루프톱을 기다리면 된다. **경기 전에는 같은 도시를 걷고, 경기 뒤에는 같은 밤으로 돌아오며, 다음 날에는 함께 바다를 본다.** 이 글은 그 세 장면을 실제 2박 3일 안에 놓는다.
 
-<div class="journey-deck" data-city="BARCELONA">
-  <p>BBINGE FC · A CLUB MOVING WEST</p>
-  <strong>경기장은 서쪽으로 커지고<br />환호는 도심으로 돌아왔다</strong>
-  <span>Gimnàs Solé의 창립 · Indústria의 ‘culers’ · Les Corts의 동네 · Camp Nou의 관중 · Canaletes의 밤</span>
-</div>
+<div class="journey-deck" data-city="BARCELONA"><p>BBINGE FC · A MATCH INSIDE A HOLIDAY</p><strong>밤에는 캄프 누<br />다음 날엔 지중해</strong><span>STAY · EAT · MATCH · NIGHT · SEA — 둘이 함께 고르는 바르셀로나 2박 3일</span></div>
 
-<nav class="journey-map journey-map--barcelona" aria-label="FC 바르셀로나 네 개의 홈과 카날레테스 2박 3일 실제 지도">
-  <header><div><span>REAL CITY MAP</span><strong>서쪽으로 간 네 개의 홈, 도심으로 돌아오는 밤</strong></div><small>파랑: 구단의 이동 · 노랑: 경기 뒤 귀환</small></header>
-  <div class="journey-map__canvas">
-    <img class="journey-map__base" src="/images/pilgrimage/barcelona-football-city/barcelona-route-map.webp" alt="히므나스 솔레와 인두스트리아 옛터에서 레스 코르츠, 스포티파이 캄프 누, 카날레테스까지 실제 도로를 표시한 바르셀로나 지도" width="1280" height="800" loading="lazy" />
-    <svg class="journey-map__terrain" viewBox="0 0 1000 625" preserveAspectRatio="none" aria-hidden="true"><path class="journey-map__route journey-map__route--barcelona-history" d="M880 370C790 312 674 237 572 225S430 290 364 309S252 374 201 406" /><path class="journey-map__route journey-map__route--barcelona-return" d="M201 406C374 420 565 410 704 366S826 325 882 324" /></svg>
-    <a class="journey-map__pin" href="#sole" style="--x:88%;--y:59.2%;--delay:-.4s"><span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 48h38M18 44V22h28v22M24 22V14h16v8M25 31h14M25 38h14" /></svg><b>1</b></span><span class="journey-map__label"><small>1899 · 창립</small><strong>Gimnàs Solé</strong></span></a>
-    <a class="journey-map__pin" href="#industria" style="--x:57.2%;--y:36.1%;--delay:-1.4s"><span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 48h44M15 44V24l17-11 17 11v20M23 44V29h18v15M28 29v15m8-15v15" /></svg><b>2</b></span><span class="journey-map__label"><small>1909 · 첫 소유 구장</small><strong>Indústria</strong></span></a>
-    <a class="journey-map__pin journey-map__pin--camera" href="#les-corts" style="--x:36.4%;--y:49.5%;--delay:-2.3s"><span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 48h44M15 42V19h34v23M21 42V27h22v15M28 27v15m8-15v15" /></svg><b>3</b></span><span class="journey-map__label"><small>1922 · 확장</small><strong>Les Corts</strong></span></a>
-    <a class="journey-map__pin journey-map__pin--match" href="#museum" style="--x:20.1%;--y:65%;--delay:-.9s"><span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="22" rx="23" ry="10"/><path d="M9 22v21c0 6 10 10 23 10s23-4 23-10V22M16 32c10 4 22 4 32 0" /></svg><b>4</b></span><span class="journey-map__label"><small>1957 · 현재의 집</small><strong>Camp Nou</strong></span></a>
-    <a class="journey-map__pin journey-map__pin--food" href="#canaletes" style="--x:88.2%;--y:51.8%;--delay:-1.8s"><span class="journey-map__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M15 50h34M21 50V29h22v21M18 29h28l-4-9H22zM28 20v-7h8v7M27 36h10m-10 7h10" /></svg><b>5</b></span><span class="journey-map__label"><small>경기 뒤 · 귀환</small><strong>Canaletes</strong></span></a>
+<section class="journey-live-map" data-journey-live-map aria-label="바르셀로나 축구 여행 인터랙티브 지도">
+  <header class="journey-live-map__head"><div><span>BARCELONA LIVE MAP</span><strong>경기장, 숙소, 맛집과 바다를 한 화면에서 고르세요</strong></div><p>PC에서는 오른쪽의 ＋·－로 확대하고 지도를 드래그하세요. 핀을 누르면 장소 설명과 Google Maps가 열립니다.</p></header>
+  <div class="journey-live-map__tools">
+    <div class="journey-live-map__filters" aria-label="장소 종류"><button type="button" data-map-filter="all" aria-pressed="true">전체</button><button type="button" data-map-filter="match" aria-pressed="false">⚽ 경기장</button><button type="button" data-map-filter="stay" aria-pressed="false">🛏 숙소</button><button type="button" data-map-filter="eat" aria-pressed="false">🍴 맛집</button><button type="button" data-map-filter="night" aria-pressed="false">✦ 밤</button><button type="button" data-map-filter="sea" aria-pressed="false">≈ 바다</button><button type="button" data-map-filter="history" aria-pressed="false">⌛ 역사</button></div>
+    <div class="journey-live-map__utility"><button type="button" data-map-reset>전체 위치</button><button type="button" data-map-wheel aria-pressed="false">마우스 휠 확대 켜기</button></div>
   </div>
-  <ol class="journey-map__mobile-legend"><li><b>1</b><span>Gimnàs Solé</span></li><li><b>2</b><span>Indústria</span></li><li><b>3</b><span>Les Corts</span></li><li><b>4</b><span>Camp Nou</span></li><li><b>5</b><span>Canaletes</span></li></ol>
-  <p>지도는 장소를 한 줄로 압축하지 않았다. 도심의 창립지에서 서쪽 캄프 누까지는 구단이 커진 실제 방향이고, 경기 뒤 카날레테스로 돌아오는 구간은 도보가 아니라 지하철을 섞어야 하는 별도의 귀환이다. 아이콘을 누르면 해당 장소로 이동한다. 지도: OpenStreetMap contributors.</p>
-</nav>
+  <div class="journey-live-map__canvas" data-map-canvas style="background-image:url('/images/pilgrimage/barcelona-football-city/barcelona-route-map.webp')" role="application" aria-label="확대와 이동이 가능한 바르셀로나 지도"></div>
+  <p class="journey-live-map__caption">기본 화면은 여행 결정에 필요한 장소를 우선한다. 구단의 창립지와 옛 경기장은 ‘역사’ 필터에서 따로 볼 수 있다. 지도 데이터: OpenStreetMap contributors.</p>
+  <script type="application/json" data-map-config>{"center":[41.3881,2.1629],"zoom":13,"minZoom":11,"maxZoom":18,"places":[{"id":"camp-nou","name":"스포티파이 캄프 누","category":"match","categoryLabel":"경기장","lat":41.3808806,"lng":2.1228182,"summary":"홈경기와 Barça Immersive Tour의 중심. 티켓의 출입구를 당일 다시 확인한다.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Spotify%20Camp%20Nou%20Barcelona","articleHref":"#matchday"},{"id":"pulitzer","name":"Hotel Pulitzer Barcelona","category":"stay","categoryLabel":"숙소","lat":41.3859768,"lng":2.1683628,"summary":"카날레테스와 람블라의 밤을 걸어서 끝내기 좋은 도심 거점.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Hotel%20Pulitzer%20Barcelona","articleHref":"#stay"},{"id":"seventy","name":"Seventy Barcelona","category":"stay","categoryLabel":"숙소","lat":41.3979911,"lng":2.1614588,"summary":"L3·L5를 함께 쓰며 도심, 경기장, 휴식의 균형을 잡는 선택.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Seventy%20Barcelona","articleHref":"#stay"},{"id":"grand-hyatt","name":"Grand Hyatt Barcelona","category":"stay","categoryLabel":"숙소","lat":41.3860909,"lng":2.1231601,"summary":"늦은 킥오프 뒤 이동을 줄이는 캄프 누 도보권 숙소.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Grand%20Hyatt%20Barcelona","articleHref":"#stay"},{"id":"bar-tomas","name":"Bar Tomás de Sarrià","category":"eat","categoryLabel":"대표 맛집","lat":41.3975532,"lng":2.1230797,"summary":"경기장으로 가기 전 Sarrià에서 브라바스를 나눠 먹는 오래된 선택.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Bar%20Tomas%20de%20Sarria%20Barcelona","articleHref":"#matchday"},{"id":"mercat-les-corts","name":"Mercat de les Corts","category":"eat","categoryLabel":"시장·점심","lat":41.3839826,"lng":2.1297804,"summary":"늦은 킥오프 날 경기장 권역에서 가볍게 점심을 해결하는 시장.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Mercat%20de%20les%20Corts%20Barcelona","articleHref":"#matchday"},{"id":"bar-canete","name":"Bar Cañete","category":"eat","categoryLabel":"도심 저녁","lat":41.3791405,"lng":2.173138,"summary":"라발의 밝고 분주한 카운터에서 타파스를 고르는 첫날 저녁.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Bar%20Canete%20Barcelona","articleHref":"#day-one"},{"id":"escriba","name":"Xiringuito Escribà","category":"eat","categoryLabel":"바다 앞 식사","lat":41.3935502,"lng":2.205339,"summary":"Bogatell 해변을 보며 쌀 요리와 해산물로 여행을 마무리하는 곳.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Xiringuito%20Escriba%20Barcelona","articleHref":"#day-three"},{"id":"canaletes","name":"카날레테스 분수","category":"night","categoryLabel":"경기 뒤 밤","lat":41.3851607,"lng":2.1701756,"summary":"승리의 감정이 경기장에서 람블라의 군중으로 번지는 장소.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Font%20de%20Canaletes%20Barcelona","articleHref":"#after-match"},{"id":"barceloneta","name":"바르셀로네타 해변","category":"sea","categoryLabel":"바다","lat":41.3793285,"lng":2.192971,"summary":"다음 날 늦은 아침, 축구 여행을 지중해 휴가로 바꾸는 산책.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Barceloneta%20Beach%20Barcelona","articleHref":"#day-three"},{"id":"sole","name":"Gimnàs Solé 창립지","category":"history","categoryLabel":"구단 역사","lat":41.3827813,"lng":2.1700323,"summary":"1899년 구단이 시작된 도심의 작은 창립 지점.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Carrer%20de%20Montjuic%20del%20Carme%205%20Barcelona","articleHref":"#archive"},{"id":"industria","name":"인두스트리아 옛 구장 터","category":"history","categoryLabel":"구단 역사","lat":41.3903051,"lng":2.1486283,"summary":"담장 위 관중의 모습에서 ‘culers’라는 이름이 태어난 첫 소유 구장 터.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Carrer%20de%20Paris%20123%20Barcelona","articleHref":"#archive"},{"id":"les-corts","name":"레스 코르츠 옛 구장 터","category":"history","categoryLabel":"구단 역사","lat":41.3840219,"lng":2.1306028,"summary":"캄프 누 이전, 커진 회원과 관중을 품었던 경기장의 흔적.","mapsUrl":"https://www.google.com/maps/search/?api=1&query=Travessera%20de%20les%20Corts%20260%20Barcelona","articleHref":"#archive"}]}</script>
+</section>
 
-<div class="journey-route-card"><p>2 NIGHTS · FOUR HOMES · ONE RETURN</p><div>
-  <section style="--journey-image:url('/images/pilgrimage/barcelona-football-city/industria-culers.webp')"><span>DAY 1 · CITY ORIGINS</span><strong>구단이 자기 집을 갖기까지</strong><small>Gimnàs Solé · Indústria · Eixample</small></section>
-  <section style="--journey-image:url('/images/pilgrimage/barcelona-football-city/les-corts-pine.webp')"><span>DAY 2 · WESTWARD</span><strong>레스 코르츠에서 커진 바르사</strong><small>옛 구장 터 · 동네 시장 · 박물관</small></section>
-  <section style="--journey-image:url('/images/pilgrimage/barcelona-football-city/cover.webp')"><span>MATCHDAY · BACK TO THE CITY</span><strong>캄프 누에서 카날레테스까지</strong><small>홈경기 · 관중의 노래 · 람블라의 밤</small></section>
-</div></div>
+<div class="journey-map-picks" aria-label="바르셀로나 여행 핵심 장소"><a href="#matchday"><span>경기장</span><strong>Spotify Camp Nou</strong><small>경기 90분 전 도착</small></a><a href="#stay"><span>숙소</span><strong>Seventy Barcelona</strong><small>도심과 경기장의 균형</small></a><a href="#matchday"><span>대표 맛집</span><strong>Bar Tomás</strong><small>경기 전 브라바스</small></a><a href="#day-three"><span>바다 앞 점심</span><strong>Xiringuito Escribà</strong><small>Bogatell의 쌀 요리</small></a></div>
 
-<div class="journey-social-shot"><figure><img src="/images/pilgrimage/barcelona-football-city/rooftop-night.webp" alt="바르셀로나 도심 호텔의 나무와 음악 장비가 놓인 루프톱에서 대화하고 춤추는 여행객들" width="1600" height="1000" loading="lazy" /></figure><div><span>AFTER THE FINAL WHISTLE</span><strong>경기가 끝나도 둘의 밤은 끝나지 않아요</strong><p>축구를 보러 왔다는 이유로 박물관과 경기장만 오가면 동행인은 도시를 빌려준 사람이 된다. 첫날 저녁의 루프톱과 식당, 경기 뒤 카날레테스로 이어지는 군중까지 일정에 넣어야 둘이 같은 여행을 갖는다.</p><small>Hotel Pulitzer Barcelona 루프톱의 실제 저녁. 사진: Hotel Pulitzer Barcelona.</small></div></div>
+<h2 id="stay">먼저, 경기 뒤 어느 밤으로 돌아갈지 정하세요</h2>
 
-숙소는 경기장과의 거리 하나로 정하지 않는다. 카날레테스까지 걸어갈 도심의 밤, Diagonal역의 L3·L5 환승, 캄프 누 도보 접근 가운데 무엇을 우선할지 먼저 고른다. 그러면 첫날의 창립 장소와 인두스트리아 옛 구장 터, 둘째 날의 레스 코르츠와 캄프 누, 경기 뒤 람블라가 무리 없이 나뉜다. 축구 일정 사이에는 그라시아 거리와 산 안토니, 구도심의 식당을 넣을 수 있다. 경기장 하나를 보기 위해 도시를 포기하는 일정이 아니라, 구단이 커진 방향을 따라 도시의 크기를 함께 쓰는 일정이다.
-
-<h2 id="sole">1. FC 바르셀로나가 태어난 도심의 체육관부터 찾아가보세요</h2>
-
-**시작점** · Carrer de Montjuïc del Carme, 5<br />
-**함께 걷기** · Plaça Catalunya → Carrer de Montjuïc del Carme → La Rambla
-
-1899년 11월 29일, 한스 감퍼<span class="foreign-note" lang="de">(Hans Gamper; 이후 카탈루냐어 이름 Joan Gamper로 불린 구단 창립자, 1877-1930)</span>와 열한 명의 동료가 히므나스 솔레<span class="foreign-note" lang="ca">(Gimnàs Solé; 당시 체육관)</span>에 모여 풋볼 클럽 바르셀로나를 만들었다. 지금 그 주소에 창립 당시의 체육관이 온전히 남아 있는 것은 아니다. 현장의 기념 표식과 주변 골목이 12명이 모이던 방의 크기를 짐작하게 한다.
-
-여기서 출발하면 FC 바르셀로나가 처음부터 거대한 경기장과 세계적인 상품을 가진 구단이 아니었다는 사실이 보인다. 창단 뒤 약 10년 동안 여러 경기장을 옮겨 다녔고, 관중과 회원을 수용할 자기 땅이 필요해졌다. 도시 중심의 작은 방에서 시작한 모임이 어떻게 서쪽의 더 넓은 부지를 계속 요구했는지가 이후 동선의 질문이 된다.
-
-<div class="journey-note"><span>첫날의 속도</span><p>창립 장소는 대형 전시관이 아니라 짧게 확인하는 역사 지점이다. 이곳만 목적지로 삼기보다 Plaça Catalunya와 La Rambla 산책 사이에 넣고, 오후의 중심은 인두스트리아 옛 구장 터에 둔다.</p></div>
-
-<h2 id="industria">2. 인두스트리아의 담장 위에서 ‘쿨레르’가 태어났어요</h2>
-
-**주소** · Carrer de París, 123<br />
-**이동** · 창립 장소에서 에이샴플라를 가로질러 서쪽으로
-
-FC 바르셀로나는 1909년 인두스트리아 거리 경기장<span class="foreign-note" lang="ca">(Camp del Carrer Indústria; 구단이 처음 소유한 축구장)</span>을 열었다. 약 6천 명을 받을 수 있었고, 스페인 축구장 가운데 처음으로 2층 관중석을 갖춘 곳으로 구단은 기록한다. 이전의 임시 구장을 전전하던 팀이 땅과 관중석을 가진 클럽으로 바뀐 순간이었다.
-
-경기장 담장 밖을 지나던 사람들에게는 관중의 등이 먼저 보였다. 담장 위에 걸터앉은 팬들의 엉덩이가 줄지어 보이면서 ‘엉덩이’를 뜻하는 카탈루냐어에서 쿨레르<span class="foreign-note" lang="ca">(culers; FC 바르셀로나 팬을 부르는 이름)</span>라는 별명이 생겼다. 오늘날 전 세계 팬을 묶는 이름이 거창한 선언문보다 작은 경기장의 시야에서 나왔다는 점이 재미있다.
-
-<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/industria-culers.webp" alt="인두스트리아 거리 경기장 담장 위에 걸터앉아 경기를 보는 초기 FC 바르셀로나 관중의 뒷모습" width="1600" height="1000" loading="lazy" /><figcaption>길에서는 담장 위 관중의 등이 먼저 보였다. ‘culers’라는 팬 이름이 만들어진 장면을 보여주는 인두스트리아 거리 경기장 기록 사진. 사진: FC Barcelona Archive.</figcaption></figure>
-
-현재 주소 앞에서 옛 관중석의 형태를 그대로 찾기는 어렵다. 대신 격자형 도로와 주거 건물 사이의 폭을 보면, 이 작은 부지가 왜 곧 부족해졌는지 알 수 있다. 첫날 저녁은 여기서 끝내도 좋다. 에이샴플라 안에 숙소를 잡았다면 동행인과 식당을 고르며 걸어갈 수 있고, 다음 날에는 구단이 다시 서쪽으로 옮긴 이유를 이어서 보게 된다.
-
-<h2 id="les-corts">3. 레스 코르츠의 소나무 한 그루가 사라진 경기장을 기억해요</h2>
-
-**옛 구장 흔적** · Travessera de les Corts, 260<br />
-**다음 장소** · Mercat de les Corts, Travessera de les Corts, 215
-
-회원과 관중이 빠르게 늘자 인두스트리아 경기장도 작아졌다. 구단은 1922년 레스 코르츠 경기장<span class="foreign-note" lang="ca">(Camp de Les Corts)</span>으로 옮겼다. 처음 수용 규모는 약 2만2천 명이었고, 여러 차례 확장하면서 바르사의 첫 황금기와 전후의 성장을 함께 담았다. FC 바르셀로나가 구단의 지위를 넘어 카탈루냐 사회의 공적 상징으로 커진 시기와 겹친다.
-
-1966년 철거된 경기장의 관중석은 남아 있지 않다. 공식 도시 역사 동선은 경기장 입구 곁에 있던 소나무의 후계목을 옛터의 기억으로 소개한다. 거대한 시설 대신 나무 한 그루를 찾아야 한다는 점이 이 장소의 핵심이다. 캄프 누를 보기 전에 이곳에 서면, 새 경기장이 단순한 신축 프로젝트가 아니라 기존 홈이 감당하지 못한 회원과 관중을 옮긴 결과였다는 인과가 생긴다.
-
-<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/les-corts-pine.webp" alt="레스 코르츠 옛 경기장 입구와 소나무 주변에 모인 FC 바르셀로나 관중의 역사 사진" width="1600" height="1000" loading="lazy" /><figcaption>옛 레스 코르츠의 입구와 소나무. 경기장은 철거됐지만 같은 장소의 후계목이 구단의 두 번째 큰 집을 기억한다. 사진: FC Barcelona Archive.</figcaption></figure>
-
-<h2 id="market">4. 경기 전 점심은 레스 코르츠 시장에서 고르세요</h2>
-
-레스 코르츠 옛터에서 같은 길을 따라 조금 걸으면 메르카트 데 레스 코르츠<span class="foreign-note" lang="ca">(Mercat de les Corts; 레스 코르츠 구역 시장)</span>가 나온다. 1961년 문을 연 뒤 리모델링된 동네 시장으로, 경기장 주변의 관광 상권과는 속도가 다르다. 식재료 매대와 간단한 식사를 함께 볼 수 있어 축구에 관심이 덜한 동행인에게도 둘째 날의 분명한 목적지가 된다.
-
-여기서 점심을 먹는 이유는 ‘현지인처럼’ 보이기 위해서가 아니다. 옛 레스 코르츠에서 현재 캄프 누까지의 이동이 같은 구역 안에서 이어지기 때문이다. 시장을 가운데 두면 사라진 경기장과 공사 중인 경기장 사이가 관광버스의 점프가 아니라 동네의 보도와 상점으로 연결된다.
-
-<div class="journey-note"><span>시장과 경기 시간</span><p>시장 점포의 영업일과 주방 시간은 각각 다르다. 야간 경기를 보는 날에도 늦은 저녁 식사만 기대하지 말고 점심 방문을 기준으로 잡는다. 홈경기 교통 통제가 시작되기 전에 박물관과 입장 게이트 쪽으로 이동할 여유도 남는다.</p></div>
-
-<h2 id="museum">5. 공사 중인 캄프 누는 박물관에서 먼저 읽어보세요</h2>
-
-1957년 문을 연 캄프 누는 레스 코르츠가 더는 담을 수 없던 관중을 위해 지어졌다. 이후 증축과 대회를 거치며 바르셀로나의 가장 거대한 축구 무대가 됐고, 지금은 에스파이 바르사<span class="foreign-note" lang="ca">(Espai Barça; 경기장과 주변 시설을 함께 개편하는 프로젝트)</span> 공사를 이어가고 있다.
-
-2026-27시즌 공식 일정에는 스포티파이 캄프 누<span class="foreign-note" lang="en">(Spotify Camp Nou; 현재의 명명권 명칭)</span> 홈경기가 편성돼 있다. 다만 ‘돌아왔다’는 말이 공사의 완성을 뜻하지는 않는다. 구단은 현재 바르사 이머시브 투어<span class="foreign-note" lang="en">(Barça Immersive Tour; 공사 기간 운영하는 박물관 중심 관람 상품)</span>와 공사 전망대를 운영하고, 날짜에 따라 일반 투어와 경기일 상품을 나눈다. 관람 가능한 공간과 출입구가 바뀔 수 있으므로 예약할 때 포함 구역을 다시 봐야 한다.
-
-<div class="journey-image-pair">
-  <figure><img src="/images/pilgrimage/barcelona-football-city/barca-immersive-museum.webp" alt="푸른색과 붉은색 조명 아래 FC 바르셀로나 박물관 전시를 둘러보는 관람객들" width="1600" height="1000" loading="lazy" /><figcaption>공사 기간에도 구단의 역사와 현재를 연결하는 Barça Immersive Tour. 사진: FC Barcelona.</figcaption></figure>
-  <figure><img src="/images/pilgrimage/barcelona-football-city/camp-nou-locker-room.webp" alt="천장의 FC 바르셀로나 문장과 붉은 벤치가 보이는 새 스포티파이 캄프 누 라커룸" width="1600" height="1000" loading="lazy" /><figcaption>2026년 공개된 새 라커룸. 완성된 내부와 계속되는 경기장 공사가 동시에 존재한다. 사진: FC Barcelona.</figcaption></figure>
-</div>
-
-도보 접근은 구단이 안내하는 9번 출입구의 Avinguda de Joan XXIII 쪽과 15번 출입구의 Avinguda d'Arístides Maillol 쪽을 기준으로 삼는다. 공사 중에는 주차보다 지하철과 도보가 안정적이다. 티켓에 적힌 게이트와 구단의 경기일 공지가 일반 여행 정보보다 우선한다.
-
-<h2 id="matchday">6. 캄프 누에선 경기장보다 관중의 첫 소리를 기다려보세요</h2>
-
-경기 시작 90분 전에는 경기장 권역에 도착하는 편이 좋다. 보안 검색과 공사 구간 우회, 좌석 확인에 시간이 걸린다. 일찍 들어가면 새 좌석이나 거대한 스크린보다 관중이 차오르는 속도를 먼저 볼 수 있다. 흩어져 있던 목소리가 선수 소개와 구단가 칸 델 바르사<span class="foreign-note" lang="ca">(Cant del Barça; FC 바르셀로나 공식 구단가)</span>에서 한 덩어리로 바뀌는 순간이 경기장 여행의 절정이다.
-
-<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/camp-nou-fans.webp" alt="스포티파이 캄프 누 관중석을 가득 채운 팬들이 커다란 바르사 색 깃발을 흔드는 모습" width="1600" height="1000" loading="lazy" /><figcaption>선수보다 먼저 경기일의 밀도를 만드는 것은 관중이다. 2026년 3월 스포티파이 캄프 누 홈경기의 바르사 팬들. 사진: FC Barcelona.</figcaption></figure>
-
-<div class="journey-video-callout"><span>소리를 켜고</span><strong>빈 경기장은 이 장면을 대신하지 못해요</strong><p>2026년 스포티파이 캄프 누의 관중과 선수 사이에 오간 인사를 FC 바르셀로나 공식 영상으로 본다. 포스터를 누르면 YouTube에서 바로 재생된다.</p></div>
-
-<figure class="journey-finale"><a href="https://www.youtube.com/watch?v=A4Rd6QRGQsc" target="_blank" rel="noopener noreferrer" aria-label="2026년 스포티파이 캄프 누의 FC 바르셀로나 공식 영상을 YouTube에서 보기"><img src="/images/pilgrimage/barcelona-football-city/cover.webp" alt="스포티파이 캄프 누의 관중석을 향해 오른손을 든 FC 바르셀로나 선수" width="1600" height="900" loading="lazy" /></a><figcaption>포스터를 누르면 2026년 5월 스포티파이 캄프 누의 관중을 담은 FC 바르셀로나 공식 영상이 열린다. 임베드 차단에 영향을 받지 않는 외부 재생 방식이다. 영상: FC Barcelona.</figcaption></figure>
-
-경기 뒤에는 한꺼번에 지하철 입구로 몰리지 말고, 주변 인파가 한 차례 빠진 다음 이동한다. 카날레테스까지 전 구간을 걸을 필요는 없다. 캄프 누에서 도심까지는 대중교통을 이용하고, Plaça Catalunya에서 내려 람블라 북단의 분수로 들어가는 마지막 구간만 걸으면 도시로 되돌아오는 감각이 충분히 살아난다.
-
-<h2 id="canaletes">7. 승리한 밤에는 카날레테스에서 여행을 끝내세요</h2>
-
-**위치** · Font de Canaletes, La Rambla 북단<br />
-**역할** · 경기 결과가 도시의 공동 감정으로 바뀌는 장소
-
-카날레테스가 바르사 팬의 축하 장소가 된 배경에는 1930년대의 작은 정보망이 있다. 스포츠 신문사의 람블라 사무실이 경기 결과를 칠판에 적어 내걸었고, 라디오와 즉시 중계가 흔하지 않던 시절 사람들이 그 앞에 모였다. 결과를 기다리던 군중은 시간이 지나 우승과 큰 승리를 함께 축하하는 군중으로 바뀌었다.
-
-<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/canaletes-night-2026.webp" alt="2026년 FC 바르셀로나의 리그 우승을 축하하며 카날레테스와 람블라 북단에 모인 팬들" width="1600" height="900" loading="lazy" /><figcaption>2026년 5월, 카날레테스와 람블라 북단으로 향하는 바르사 팬들. 경기장의 승리가 다시 도시 중심의 집단 기억이 되는 장면이다. 사진: Aniol, Wikimedia Commons, CC0.</figcaption></figure>
-
-이곳을 첫날의 관광 명소로만 보면 작은 분수 하나로 끝난다. 캄프 누의 관중석을 거친 밤에 오면 의미가 달라진다. 구단은 더 많은 사람을 담기 위해 경기장을 계속 서쪽으로 옮겼지만, 팬들이 결과를 서로 확인하고 기뻐하는 장소는 도심으로 되돌아왔다. **캄프 누가 FC 바르셀로나의 집이라면 카날레테스는 그 집의 감정이 바르셀로나 전체에 공개되는 문 앞이다.**
-
-<div class="journey-fact-strip" style="--journey-image:url('/images/pilgrimage/barcelona-football-city/canaletes-night-2026.webp')"><div><span>1899</span><small>Gimnàs Solé에서 창립</small></div><div><span>1909</span><small>Indústria 첫 소유 구장</small></div><div><span>1922</span><small>Les Corts 개장</small></div><div><span>1957</span><small>Camp Nou 개장</small></div></div>
-
-## 숙소는 ‘가까운 곳’보다 어떤 밤을 보낼지로 고르세요
-
-경기 시작 전에는 세 숙소 모두 장점이 있다. 차이는 종료 휘슬 뒤에 생긴다. 캄프 누에서 바로 쉬고 싶은지, Diagonal에서 도시와 경기장을 반씩 쓰고 싶은지, 카날레테스에서 람블라의 밤을 끝까지 보고 걸어 들어가고 싶은지가 선택 기준이다. 아래 세 곳은 가격 순위가 아니라 **서로 다른 2박 3일을 만드는 거점**이다.
+숙소는 경기장과의 거리보다 종료 휘슬 뒤의 장면으로 고른다. 바로 씻고 쉬고 싶은지, 카날레테스와 람블라를 끝까지 걷고 싶은지, 경기 없는 시간까지 둘이 함께 즐길 공간이 필요한지가 선택을 가른다.
 
 <div class="journey-stays">
-  <article class="journey-stay"><figure><img src="/images/pilgrimage/barcelona-football-city/hotel-pulitzer.webp" alt="호텔 풀리처 바르셀로나의 초록 식물 사이 루프톱 바에서 음료를 마시는 투숙객" width="1200" height="675" loading="lazy" /><figcaption>도심의 밤을 숙소까지 이어가는 루프톱. 사진: Hotel Pulitzer Barcelona.</figcaption></figure><div><span>CITY NIGHT</span><strong>Hotel Pulitzer Barcelona</strong><p>Plaça Catalunya와 카날레테스를 걸어서 오갈 수 있다. 경기 뒤 람블라의 군중을 보고도 지하철을 다시 타지 않아도 된다는 것이 가장 큰 장점이다.</p><dl><div><dt>좋은 점</dt><dd>창립 장소·카날레테스·구도심 저녁이 한 생활권에 묶인다.</dd></div><div><dt>감수할 점</dt><dd>캄프 누까지는 L3 등 대중교통 이동 시간을 넉넉히 잡아야 한다.</dd></div></dl><a class="journey-stay__link" href="https://www.hotelpulitzer.es/?idioma=en" target="_blank" rel="noopener noreferrer">공식 객실과 일정 확인 <b aria-hidden="true">→</b></a></div></article>
-  <article class="journey-stay journey-stay--pick"><figure><img src="/images/pilgrimage/barcelona-football-city/hotel-seventy.webp" alt="세븐티 바르셀로나 루프톱의 줄무늬 소파에 앉아 도심 전망을 보는 두 사람" width="1200" height="675" loading="lazy" /><figcaption>경기 없는 시간까지 둘이 쉬는 장면이 분명한 루프톱. 사진: Seventy Barcelona.</figcaption></figure><div><span>BALANCED PICK</span><strong>Seventy Barcelona</strong><p>Diagonal역의 L3·L5를 함께 쓸 수 있어 도심과 캄프 누 사이가 가장 균형 잡힌다. 루프톱과 스파는 축구에 관심이 덜한 동행인의 하루에도 목적을 만든다.</p><dl><div><dt>좋은 점</dt><dd>Passeig de Gràcia·Gràcia의 식당과 경기장 이동을 함께 잡기 쉽다.</dd></div><div><dt>감수할 점</dt><dd>역사 동선의 한가운데는 아니며 야외 수영장·바 운영은 계절에 따라 달라진다.</dd></div></dl><a class="journey-stay__link" href="https://www.seventybarcelona.com/en/" target="_blank" rel="noopener noreferrer">공식 객실과 일정 확인 <b aria-hidden="true">→</b></a></div></article>
-  <article class="journey-stay"><figure><img src="/images/pilgrimage/barcelona-football-city/hotel-grand-hyatt.webp" alt="도시 전망 창과 녹색 헤드보드가 있는 그랜드 하얏트 바르셀로나 객실" width="1200" height="675" loading="lazy" /><figcaption>홈경기 전후의 이동을 줄이는 Pedralbes 객실. 사진: Grand Hyatt Barcelona.</figcaption></figure><div><span>STADIUM FIRST</span><strong>Grand Hyatt Barcelona</strong><p>캄프 누와 같은 서쪽 권역에 있어 홈경기 전후 이동을 줄이는 선택이다. 늦은 킥오프나 공사 중 출입 동선이 걱정될 때 장점이 커진다.</p><dl><div><dt>좋은 점</dt><dd>경기장 도보 접근과 Diagonal 서쪽의 조용한 휴식을 우선할 수 있다.</dd></div><div><dt>감수할 점</dt><dd>카날레테스와 구도심의 밤을 즐긴 뒤에는 숙소까지 다시 이동해야 한다.</dd></div></dl><a class="journey-stay__link" href="https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona" target="_blank" rel="noopener noreferrer">공식 객실과 일정 확인 <b aria-hidden="true">→</b></a></div></article>
+  <article class="journey-stay"><figure><img src="/images/pilgrimage/barcelona-football-city/hotel-pulitzer.webp" alt="호텔 풀리처 바르셀로나의 초록 식물 사이 루프톱 바에서 음료를 마시는 투숙객" width="1200" height="675" loading="lazy" /><figcaption>카날레테스의 밤을 숙소까지 이어가는 루프톱. 사진: Hotel Pulitzer Barcelona.</figcaption></figure><div><span>CITY NIGHT</span><strong>Hotel Pulitzer Barcelona</strong><p>Plaça Catalunya와 카날레테스를 걸어서 오간다. 경기 뒤 람블라의 군중을 보고도 다시 지하철에 타지 않는 것이 가장 큰 장점이다.</p><dl><div><dt>어울리는 밤</dt><dd>구도심 저녁과 경기 뒤 도심을 끝까지 즐기고 싶을 때</dd></div><div><dt>감수할 점</dt><dd>캄프 누까지는 L3 이동 시간을 넉넉히 잡아야 한다.</dd></div></dl><a class="journey-stay__link" href="https://www.hotelpulitzer.es/?idioma=en" target="_blank" rel="noopener noreferrer">공식 객실 확인 <b aria-hidden="true">→</b></a></div></article>
+  <article class="journey-stay journey-stay--pick"><figure><img src="/images/pilgrimage/barcelona-football-city/hotel-seventy.webp" alt="세븐티 바르셀로나 루프톱의 줄무늬 소파에 앉아 도심 전망을 보는 두 사람" width="1200" height="675" loading="lazy" /><figcaption>경기 없는 시간까지 둘이 쉬는 장면이 분명한 루프톱. 사진: Seventy Barcelona.</figcaption></figure><div><span>BALANCED PICK</span><strong>Seventy Barcelona</strong><p>Diagonal역의 L3·L5를 함께 쓴다. 도심과 캄프 누 사이에서 이동을 나누고, 루프톱과 스파로 축구 밖의 시간을 만든다.</p><dl><div><dt>어울리는 여행</dt><dd>한 사람은 축구, 한 사람은 도시와 휴식을 더 기대할 때</dd></div><div><dt>감수할 점</dt><dd>역사 동선의 한가운데는 아니며 야외 시설은 계절을 탄다.</dd></div></dl><a class="journey-stay__link" href="https://www.seventybarcelona.com/en/" target="_blank" rel="noopener noreferrer">공식 객실 확인 <b aria-hidden="true">→</b></a></div></article>
+  <article class="journey-stay"><figure><img src="/images/pilgrimage/barcelona-football-city/hotel-grand-hyatt.webp" alt="도시 전망 창과 녹색 헤드보드가 있는 그랜드 하얏트 바르셀로나 객실" width="1200" height="675" loading="lazy" /><figcaption>늦은 킥오프 뒤 이동을 줄이는 캄프 누 도보권 객실. 사진: Grand Hyatt Barcelona.</figcaption></figure><div><span>STADIUM FIRST</span><strong>Grand Hyatt Barcelona</strong><p>캄프 누와 같은 서쪽 권역이다. 늦은 경기 뒤 복잡한 환승보다 짧은 귀가와 조용한 휴식을 우선한다.</p><dl><div><dt>어울리는 밤</dt><dd>홈경기와 경기장 투어가 여행의 압도적인 중심일 때</dd></div><div><dt>감수할 점</dt><dd>카날레테스와 구도심을 즐긴 뒤 다시 서쪽으로 돌아와야 한다.</dd></div></dl><a class="journey-stay__link" href="https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona" target="_blank" rel="noopener noreferrer">공식 객실 확인 <b aria-hidden="true">→</b></a></div></article>
 </div>
 
-## 이틀을 걷고 나면 캄프 누가 도시의 결과로 보여요
+<div class="journey-route-card"><p>2 NIGHTS · ONE MATCH · A CITY BY THE SEA</p><div><section style="--journey-image:url('/images/pilgrimage/barcelona-football-city/traveler-street.webp')"><span>DAY 1 · CHECK IN</span><strong>도시의 빛과 첫 타파스</strong><small>Plaça Catalunya · Raval · Rooftop</small></section><section style="--journey-image:url('/images/pilgrimage/barcelona-football-city/camp-nou-fans.webp')"><span>DAY 2 · MATCHDAY</span><strong>브라바스에서 캄프 누까지</strong><small>Sarrià · Les Corts · Camp Nou</small></section><section style="--journey-image:url('/images/pilgrimage/barcelona-football-city/cover-city-sea.webp')"><span>DAY 3 · SLOW MORNING</span><strong>지중해 앞에서 늦은 점심</strong><small>Barceloneta · Bogatell · Xiringuito</small></section></div></div>
 
-첫날의 작은 체육관과 인두스트리아 담장, 둘째 날의 레스 코르츠 소나무와 시장, 경기일의 박물관과 관중석은 서로 떨어진 명소가 아니다. 회원이 늘고 팀의 사회적 의미가 커질 때마다 더 큰 집이 필요했다는 하나의 흐름이다. 그 역사를 먼저 걸으면 캄프 누의 규모는 유명 구단의 과시가 아니라 도시 안에서 실제로 축적된 사람의 수로 읽힌다.
+<section class="journey-ugc-video" data-journey-ugc-video data-youtube-id="kRkimE_OP_Q"><button class="journey-ugc-video__poster" type="button" aria-label="72시간 바르셀로나 여행 브이로그 재생"><img src="/images/pilgrimage/barcelona-football-city/ugc-72-hours-poster.webp" alt="맥주와 루프톱, 친구, 야자수와 밤 공연을 담은 바르셀로나 여행 브이로그 포스터" width="1280" height="720" loading="lazy" /><span><b>▶</b><small>TRAVELER'S CAMERA</small><strong>관광 사진보다 먼저, 실제 72시간의 속도를 보세요</strong></span></button><div class="journey-ugc-video__player" hidden><button type="button" aria-label="브이로그 닫기">×</button><iframe title="72 HOURS IN BARCELONA 여행 브이로그" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><p>친구들이 직접 찍은 바르셀로나의 식사, 루프톱과 밤. 영상: Selina Ozay, YouTube.</p></section>
 
-동행인을 설득할 이유도 여기에 있다. 축구 팬은 구단의 네 집을 따라가고, 함께 온 사람은 에이샴플라의 거리와 레스 코르츠의 시장, 람블라의 밤을 같은 동선에서 누린다. 경기만 보고 숙소로 돌아가는 여행보다 둘이 공유할 장면이 많다. 마지막에 카날레테스에 서면 서로 다른 관심으로 출발한 하루도 같은 도시의 밤으로 끝난다.
+<h2 id="day-one">DAY 1 — 체크인보다 먼저 바르셀로나의 빛을 만나세요</h2>
 
-<div class="journey-links">
-  <a href="/culture/fc-barcelona-2026-27-home-kit-yamal-de-jong/" style="--journey-image:url('/images/culture/barcelona-2627-home/card.webp')"><span>STYLE</span><strong>2026-27 FC 바르셀로나 홈 유니폼과 도시의 색</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
-  <a href="/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/" style="--journey-image:url('/images/culture/olivia-rodrigo-barcelona/card.webp')"><span>CULTURE</span><strong>올리비아 로드리고와 바르셀로나 저지가 만난 장면</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
-  <a href="/pilgrimage/bilbao-san-mames-football-travel/" style="--journey-image:url('/images/pilgrimage/bilbao-san-mames/card.webp')"><span>PILGRIMAGE</span><strong>산업도시와 경기장을 함께 걷는 빌바오 축행</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
-</div>
+오후에 도착했다면 첫날부터 명소를 많이 넣지 않는다. Plaça Catalunya에서 짐을 내려놓고 바다 쪽으로 천천히 내려가면, 넓은 대로가 라발의 좁은 골목으로 바뀌고 야자수 너머로 항구의 빛이 들어온다. 이 변화가 바르셀로나에 왔다는 첫 감각이다.
+
+<div class="journey-social-shot"><figure><img src="/images/pilgrimage/barcelona-football-city/traveler-street.webp" alt="바르셀로나 항구와 야자수가 보이는 다리 위에서 도시를 바라보는 배낭 여행자" width="1600" height="1067" loading="lazy" /></figure><div><span>THE FIRST HOUR</span><strong>첫날에는 도시를 정복하지 말고 도시에 섞이세요</strong><p>지도에 저장한 곳을 모두 찍는 대신 항구까지 한 번 걷고, 저녁 테이블 하나를 고른다. 함께 온 사람이 축구 이야기를 듣기 전에 바르셀로나를 자기 여행으로 받아들이는 시간이다.</p><small>바르셀로나 항구 앞을 걷는 여행자. 사진: Alina Rossoshanska, Pexels.</small></div></div>
+
+저녁은 라발의 Bar Cañete처럼 사람과 접시가 빠르게 오가는 곳이 좋다. 한 번에 주문을 끝내기보다 토마토를 문지른 빵과 크로켓, 그날의 해산물을 차례로 나누면 첫날의 속도가 생긴다. 일요일 휴무와 예약 가능 시간은 공식 채널에서 다시 확인한다. 식사 뒤에는 숙소로 곧장 숨지 말고 루프톱이나 람블라의 늦은 산책을 하나만 남긴다.
+
+<div class="journey-image-pair"><figure><img src="/images/pilgrimage/barcelona-football-city/tapas-table.webp" alt="바르셀로나 식당의 나무 테이블에 놓인 브라바스와 오징어 튀김, 와인" width="1200" height="1800" loading="lazy" /><figcaption>완벽한 메뉴보다 둘이 여러 접시를 고르는 시간이 먼저다. 사진: Ana Lourenco, Pexels.</figcaption></figure><figure><img src="/images/pilgrimage/barcelona-football-city/sagrada-rooftop.webp" alt="사그라다 파밀리아가 가까이 보이는 바르셀로나 루프톱에서 도시를 바라보는 여행자" width="1200" height="1594" loading="lazy" /><figcaption>경기가 없는 시간에도 이 도시에 온 이유가 남는 루프톱. 사진: Юлия Артамонова, Pexels.</figcaption></figure></div>
+
+<aside class="journey-archive-note" id="archive"><span>ARCHIVE NOTE · 첫날 45분만</span><h3>라발 골목에서 만나는 구단의 첫 장면</h3><p>1899년 창립지 Gimnàs Solé와 1909년 인두스트리아 옛 구장 터를 첫날의 큰 목적지로 세우면 여행이 곧바로 수업이 된다. 창립지는 Plaça Catalunya와 라발 사이에서 표식을 확인하고, 인두스트리아에서는 담장 위 관중의 모습에서 ‘culers’라는 이름이 태어났다는 장면만 가져온다. 두 장소를 합쳐 45분 정도의 역사 산책으로 묶으면 충분하다.</p><div><figure><img src="/images/pilgrimage/barcelona-football-city/industria-culers.webp" alt="인두스트리아 거리 경기장 담장 위에 걸터앉은 초기 FC 바르셀로나 관중" width="1600" height="1000" loading="lazy" /><figcaption>인두스트리아의 담장 위 관중. 사진: FC Barcelona Archive.</figcaption></figure><figure><img src="/images/pilgrimage/barcelona-football-city/les-corts-pine.webp" alt="레스 코르츠 옛 경기장 입구와 소나무 주변의 관중" width="1600" height="1000" loading="lazy" /><figcaption>레스 코르츠는 다음 날 경기장으로 가는 길에서 짧게 본다. 사진: FC Barcelona Archive.</figcaption></figure></div></aside>
+
+<h2 id="matchday">MATCHDAY — 브라바스를 먹고 캄프 누의 군중으로 들어가세요</h2>
+
+야간 경기라면 오전부터 경기장으로 달려갈 필요가 없다. 늦은 아침을 보내고 Sarrià의 Bar Tomás에서 브라바스를 나눠 먹거나, 레스 코르츠 시장에서 가볍게 점심을 고른다. Bar Tomás는 소스와 감자의 취향을 두고 의견이 갈릴 수 있지만, 오래된 바의 분주함까지 포함해 경기 전 장면이 된다. 시장은 이동을 줄이고 싶은 날의 실용적인 대안이다.
+
+<div class="journey-day-plan"><article><span>13:00 · EAT</span><strong>Bar Tomás 또는 레스 코르츠 시장</strong><p>브라바스 한 접시로 분위기를 만들거나 경기장 권역에서 이동을 아낀다.</p></article><article><span>16:00 · SEE</span><strong>박물관과 공사 중인 캄프 누</strong><p>투어 포함 구역과 출입구는 예약 화면에서 당일 다시 본다.</p></article><article><span>KICK-OFF − 90M · MATCH</span><strong>관중이 차오르는 시간부터 입장</strong><p>선수보다 먼저 유니폼, 노래와 좌석의 밀도가 변하는 순간을 본다.</p></article></div>
+
+<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/cover.webp" alt="스포티파이 캄프 누 관중석을 향해 손을 든 FC 바르셀로나 선수 로드리의 뒷모습" width="1600" height="900" loading="lazy" /><figcaption>로드리의 시선 너머로 관중석이 차오른다. 홈경기의 절정은 선수가 바라본 이 장면에서 시작된다. 사진: FC Barcelona, 2026.</figcaption></figure>
+
+2026-27시즌 공식 일정에는 스포티파이 캄프 누 홈경기가 편성돼 있지만, 개보수 공사는 계속된다. 티켓에 적힌 게이트와 구단의 경기일 공지가 오래된 여행 후기보다 우선한다. 경기 시작 90분 전을 기준으로 권역에 도착하면 보안 검색과 공사 구간 우회 뒤에도 관중이 차오르는 시간을 놓치지 않는다.
+
+<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/camp-nou-fans.webp" alt="스포티파이 캄프 누 관중석을 가득 채운 팬들이 커다란 바르사 색 깃발을 흔드는 모습" width="1600" height="1000" loading="lazy" /><figcaption>경기장은 건물이 아니라 사람의 밀도가 완성한다. 2026년 스포티파이 캄프 누 홈경기. 사진: FC Barcelona.</figcaption></figure>
+
+<div class="journey-video-callout"><span>STADIUM SOUND</span><strong>빈 경기장 투어와 홈경기는 다른 여행이에요</strong><p>선수 소개 뒤 흩어진 목소리가 Cant del Barça에서 한 덩어리로 바뀌는 순간까지 있어야 직관의 기억이 완성된다.</p></div>
+
+<figure class="journey-finale"><a href="https://www.youtube.com/watch?v=A4Rd6QRGQsc" target="_blank" rel="noopener noreferrer" aria-label="2026년 스포티파이 캄프 누 FC 바르셀로나 공식 영상을 YouTube에서 보기"><img src="/images/pilgrimage/barcelona-football-city/cover.webp" alt="스포티파이 캄프 누의 관중석을 향해 오른손을 든 FC 바르셀로나 선수" width="1600" height="900" loading="lazy" /></a><figcaption>포스터를 누르면 2026년 스포티파이 캄프 누의 관중을 담은 공식 영상이 열린다. 영상: FC Barcelona.</figcaption></figure>
+
+<h2 id="after-match">AFTER MATCH — 승리한 밤은 카날레테스까지 이어가세요</h2>
+
+경기 뒤 캄프 누에서 카날레테스까지 전부 걸을 필요는 없다. 인파가 한 차례 빠질 때까지 경기장 주변에 머문 뒤 지하철로 Plaça Catalunya까지 돌아오고, 마지막 구간만 걷는다. 밤의 목적은 분수 자체가 아니라 같은 결과를 들고 도심으로 돌아오는 사람들이다.
+
+<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/canaletes-night-2026.webp" alt="FC 바르셀로나의 우승을 축하하며 카날레테스와 람블라 북단에 모인 팬들" width="1600" height="900" loading="lazy" /><figcaption>경기장의 승리가 도시 전체의 밤으로 번지는 카날레테스. 사진: Aniol, Wikimedia Commons, CC0.</figcaption></figure>
+
+이 장면을 오래 보고 싶다면 Pulitzer처럼 걸어서 돌아갈 숙소가 편하다. 바로 쉬고 싶다면 Grand Hyatt가 맞고, 경기 다음 날까지 도시 중심을 이어가려면 Seventy가 균형을 만든다. 승리하지 못한 날에도 카날레테스와 람블라를 걷는 이유는 남는다. 경기 하나의 결과가 여행 전체의 기분을 독점하지 않게 하는 밤이기 때문이다.
+
+<div class="journey-social-shot"><figure><img src="/images/pilgrimage/barcelona-football-city/rooftop-night.webp" alt="바르셀로나 도심 호텔의 루프톱에서 대화하고 춤추는 여행객들" width="1600" height="1000" loading="lazy" /></figure><div><span>ONE MORE DRINK</span><strong>휘슬이 울린 뒤에도 둘의 여행은 계속돼요</strong><p>경기장만 다녀오면 한 사람의 취미에 다른 사람이 동행한 하루가 된다. 마지막 잔과 밤거리까지 공유하면 둘이 같은 바르셀로나를 갖는다.</p><small>Hotel Pulitzer Barcelona 루프톱의 실제 저녁. 사진: Hotel Pulitzer Barcelona.</small></div></div>
+
+<h2 id="day-three">DAY 3 — 바다 앞 점심이 축구 여행을 휴가로 바꿔요</h2>
+
+다음 날 오전에는 알람을 늦춘다. 바르셀로네타에서 Bogatell 방향으로 해안을 걷고, Xiringuito Escribà의 테라스에서 쌀 요리와 해산물을 고른다. 경기 결과를 다시 분석하는 사람과 파도 소리를 듣는 사람이 같은 테이블에 앉을 수 있다는 것이 이 코스의 장점이다.
+
+<div class="journey-image-pair"><figure><img src="/images/pilgrimage/barcelona-football-city/barcelona-beach-people.webp" alt="야자수와 푸른 바다 앞 바르셀로네타 모래사장에서 햇빛을 즐기는 사람들" width="1200" height="1600" loading="lazy" /><figcaption>관중석 다음 날의 바르셀로네타. 도시 안에서 휴가의 속도로 돌아간다. 사진: Ivan Dražić, Pexels.</figcaption></figure><figure><img src="/images/pilgrimage/barcelona-football-city/barceloneta-promenade.webp" alt="바르셀로네타 해변과 야자수 산책로를 걷고 쉬는 여행객들" width="1200" height="1800" loading="lazy" /><figcaption>바다를 곁에 두고 걷는 산책로가 2박 3일의 마지막 이동이다. 사진: Daniel Guti, Pexels.</figcaption></figure></div>
+
+Xiringuito Escribà는 Bogatell 해변 앞에서 쌀 요리를 내는 곳이다. 풍경값까지 포함한 선택이라 저렴한 한 끼를 찾는 여행과는 맞지 않을 수 있다. 대신 캄프 누만 보고 떠날 뻔한 여행에 바다와 긴 점심을 남긴다. 예약 시간, 당일 메뉴와 야외석 운영은 공식 사이트에서 확인한다.
+
+<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/cover-city-sea.webp" alt="바르셀로네타의 긴 모래사장과 푸른 지중해, 바르셀로나 도심의 항공 풍경" width="1600" height="900" loading="lazy" /><figcaption>경기를 보러 온 도시에서 다음 여행까지 상상하게 만드는 풍경. 사진: Lazar Krstić, Pexels.</figcaption></figure>
+
+## 이 여행에서 기억하는 것은 경기장 하나가 아니에요
+
+첫날에는 타파스와 루프톱을, 둘째 날에는 브라바스와 캄프 누의 관중을, 마지막 날에는 바다 앞의 긴 점심을 남긴다. 구단의 역사는 그 사이를 연결하는 근거이지 여행 전체를 멈춰 세우는 수업이 아니다.
+
+축구를 좋아하는 사람은 캄프 누를 충분히 갖고, 함께 온 사람은 도시와 밤과 바다를 포기하지 않는다. 그래서 바르셀로나 직관은 한 사람만 만족하는 원정이 아니라 둘이 다시 꺼내 볼 휴가가 된다.
+
+<div class="journey-links"><a href="/culture/fc-barcelona-2026-27-home-kit-yamal-de-jong/" style="--journey-image:url('/images/culture/barcelona-2627-home/card.webp')"><span>STYLE</span><strong>2026-27 FC 바르셀로나 홈 유니폼과 도시의 색</strong><i>읽기 <b aria-hidden="true">→</b></i></a><a href="/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/" style="--journey-image:url('/images/culture/olivia-rodrigo-barcelona/card.webp')"><span>CULTURE</span><strong>올리비아 로드리고와 바르셀로나 저지가 만난 장면</strong><i>읽기 <b aria-hidden="true">→</b></i></a><a href="/pilgrimage/bilbao-san-mames-football-travel/" style="--journey-image:url('/images/pilgrimage/bilbao-san-mames/card.webp')"><span>PILGRIMAGE</span><strong>산업도시와 경기장을 함께 걷는 빌바오 축행</strong><i>읽기 <b aria-hidden="true">→</b></i></a></div>
 
 <div class="source-notes">
   <h2>정보와 이미지 출처</h2>
   <ol>
-    <li><a href="https://www.fcbarcelona.com/en/el-museu-a-la-ciutat">FC Barcelona, El Museu a la ciutat</a>. 창립 장소, 인두스트리아의 ‘culers’, 레스 코르츠 소나무와 카날레테스 등 도시 안의 구단 역사 지점과 주소.</li>
-    <li><a href="https://www.fcbarcelona.com/en/club/news/2408474/l">FC Barcelona, The development of Barça's stadiums</a> 및 <a href="https://www.fcbarcelona.com/en/club/stadium/history">Camp Nou history</a>. 인두스트리아·레스 코르츠·캄프 누의 개장과 확장 배경.</li>
-    <li><a href="https://www.fcbarcelona.com/en/futbol/primer-equipo/calendario">FC Barcelona, 2026-27 first-team schedule</a>. 스포티파이 캄프 누 홈경기 편성. 일정과 경기장은 변경될 수 있으므로 예매 전 공식 페이지에서 다시 확인한다.</li>
-    <li><a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience">FC Barcelona, Camp Nou Experience</a>, <a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience/practical-information/getting-to-the-camp-nou">Getting to Camp Nou</a>, <a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience/plan-your-visit">Plan your visit</a>. 공사 기간 투어 상품, 박물관, 전망대, 도보 출입구와 방문 전 확인 사항.</li>
-    <li><a href="https://www.fcbarcelona.com/en/football/first-team/news/4562719/spotify-camp-nou-comes-alive-for-the-presentation-of-the-202627-bara-squad">FC Barcelona, Spotify Camp Nou comes alive for the presentation of the 2026/27 Barça squad</a> 및 <a href="https://www.fcbarcelona.com/en/club/photos/4557548/pictures-of-the-latest-spotify-camp-nou-installations">Pictures of the latest Spotify Camp Nou installations</a>. 2026년 관중이 들어온 경기장과 새 라커룸 사진. 표지·카드와 박물관 사진도 FC Barcelona 공식 채널의 경기장 및 Barça Immersive Tour 이미지를 WebP로 저장했다.</li>
-    <li><a href="https://www.fcbarcelona.com/en/football/first-team/photos/4474330/photos-from-the-win-against-rayo-vallecano-at-spotify-camp-nou">FC Barcelona, Photos from the win against Rayo Vallecano at Spotify Camp Nou</a>. 2026년 3월 홈경기의 관중과 깃발 사진.</li>
-    <li><a href="https://www.fcbarcelona.com/en/club/identity/anthem">FC Barcelona, Anthem</a>. Cant del Barça의 공식 명칭과 경기장 안에서의 역할.</li>
-    <li><a href="https://bid.barcelonaturisme.com/wv3/es/page/2151/fuente-de-canaletes.html">Barcelona Turisme, Fuente de Canaletes</a>. 1930년대 신문사 결과 게시와 팬 축하 장소의 기원.</li>
-    <li><a href="https://www.barcelonaturisme.com/wv3/ca/page/1129/mercat-de-les-corts.html">Barcelona Turisme, Mercat de les Corts</a> 및 <a href="https://ajuntament.barcelona.cat/lescorts/ca/coneixeu-el-districte/comerc-les-corts">Barcelona City Council, Comerç a les Corts</a>. 시장 주소, 개장과 지역 상업 정보.</li>
-    <li><a href="https://commons.wikimedia.org/wiki/File:Celebraci%C3%B3_del_Bar%C3%A7a_campi%C3%B3_de_Lliga_20260510_200537279_09.jpg">Aniol, Celebració del Barça campió de Lliga 2026</a>. 카날레테스와 람블라 북단의 우승 축하 사진, CC0.</li>
-    <li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. 히므나스 솔레·인두스트리아·레스 코르츠·캄프 누·카날레테스의 실제 위치를 보존한 지도 배경, ODbL.</li>
-    <li><a href="https://www.hotelpulitzer.es/?idioma=en">Hotel Pulitzer Barcelona</a>, <a href="https://www.seventybarcelona.com/en/">Seventy Barcelona</a>, <a href="https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona">Grand Hyatt Barcelona</a>. 숙소 위치·시설·공식 사진. 야외 시설과 운영 조건은 계절과 예약일에 따라 달라질 수 있다.</li>
-    <li><a href="https://www.youtube.com/watch?v=A4Rd6QRGQsc">FC Barcelona, Lewandowski says goodbye at Spotify Camp Nou</a>. 2026년 5월 스포티파이 캄프 누의 관중과 선수 인사를 담은 공식 영상. 사이트 안의 자동 재생이나 임베드 대신 원문 영상으로 직접 연결했다.</li>
+    <li><a href="https://www.fcbarcelona.com/en/el-museu-a-la-ciutat">FC Barcelona, El Museu a la ciutat</a> 및 <a href="https://www.fcbarcelona.com/en/club/stadium/history">Camp Nou history</a>. 창립 장소, 인두스트리아의 ‘culers’, 레스 코르츠와 캄프 누의 역사.</li>
+    <li><a href="https://www.fcbarcelona.com/en/futbol/primer-equipo/calendario">FC Barcelona, 2026-27 first-team schedule</a>, <a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience">Camp Nou Experience</a> 및 <a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience/practical-information/getting-to-the-camp-nou">Getting to Camp Nou</a>. 홈경기 편성, 투어와 출입 안내.</li>
+    <li><a href="https://www.fcbarcelona.com/en/football/first-team/photos/4474330/photos-from-the-win-against-rayo-vallecano-at-spotify-camp-nou">FC Barcelona, Rayo Vallecano 홈경기 사진</a> 및 <a href="https://www.youtube.com/watch?v=A4Rd6QRGQsc">2026 Spotify Camp Nou 공식 영상</a>. 관중과 경기일 장면.</li>
+    <li><a href="https://www.eltomasdesarria.com/">El Tomás de Sarrià</a>, <a href="https://barcanete.com/ca/contacte/">Bar Cañete</a>, <a href="https://restaurantsescriba.com/xiringuitoescriba/en/">Xiringuito Escribà</a>, <a href="https://ajuntament.barcelona.cat/noubarris/es/guia-del-distrito/agenda/lista-actividades/mercat-de-les-corts_92086009457">Barcelona City Council, Mercat de les Corts</a>. 위치, 메뉴 성격, 예약과 운영 정보.</li>
+    <li><a href="https://www.hotelpulitzer.es/?idioma=en">Hotel Pulitzer Barcelona</a>, <a href="https://www.seventybarcelona.com/en/location">Seventy Barcelona</a>, <a href="https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona">Grand Hyatt Barcelona</a>. 숙소 위치와 시설, 공식 사진.</li>
+    <li><a href="https://www.youtube.com/watch?v=kRkimE_OP_Q">Selina Ozay, 72 HOURS IN BARCELONA</a>. 여행자가 직접 기록한 식사, 루프톱과 밤의 장면.</li>
+    <li><a href="https://www.pexels.com/photo/aerial-photography-of-a-beautiful-beach-near-the-city-10801110/">Lazar Krstić</a>, <a href="https://www.pexels.com/photo/traveler-admiring-barcelona-street-scene-31869361/">Alina Rossoshanska</a>, <a href="https://www.pexels.com/photo/food-wine-tapas-barcelona-21327987/">Ana Lourenco</a>, <a href="https://www.pexels.com/photo/people-sunbathing-on-the-beach-in-barcelona-spain-17356921/">Ivan Dražić</a>, <a href="https://www.pexels.com/photo/tourists-in-barcelona-23413519/">Daniel Guti</a>, <a href="https://www.pexels.com/photo/woman-on-rooftop-overlooks-sagrada-familia-29632553/">Юлия Артамонова</a>, Pexels. 바다, 거리, 음식과 루프톱의 현재 여행 장면.</li>
+    <li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. 확대·축소 가능한 마스터 지도의 위치와 기본 지도, ODbL.</li>
+    <li><a href="https://bid.barcelonaturisme.com/wv3/es/page/2151/fuente-de-canaletes.html">Barcelona Turisme, Fuente de Canaletes</a> 및 <a href="https://commons.wikimedia.org/wiki/File:Celebraci%C3%B3_del_Bar%C3%A7a_campi%C3%B3_de_Lliga_20260510_200537279_09.jpg">Aniol, Celebració del Barça campió de Lliga 2026</a>. 카날레테스의 역할과 2026년 축하 사진, CC0.</li>
   </ol>
 </div>
