@@ -36,15 +36,15 @@ async function webp(input, output, width, height, fit = 'cover', position = 'att
 await fs.mkdir(outputDir, { recursive: true });
 
 const nana = path.join(sourceDir, 'ferragamo-official-nana.jpg');
-const profile = path.join(sourceDir, 'nana-official-laka-portrait.jpg');
 const downloaded = {};
 for (const [name, url] of Object.entries(productSources)) {
   downloaded[name] = await download(url, `ferragamo-cara-${name}.jpg`);
 }
 
 await webp(nana, 'nana-full.webp', 1200, 1600, 'cover', 'centre');
-await sharp(profile)
-  .resize(960, 1200, { fit: 'cover', position: 'attention' })
+await sharp(nana)
+  .extract({ left: 580, top: 220, width: 1000, height: 1250 })
+  .resize(960, 1200)
   .webp({ quality: 88, effort: 6 })
   .toFile(path.join(outputDir, 'profile.webp'));
 
