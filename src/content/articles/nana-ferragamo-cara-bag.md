@@ -18,9 +18,10 @@ fashionProfile:
   name: '나나'
   romanName: 'NANA'
   realName: '임진아'
+  hanjaName: '林珍兒'
   portrait: '/images/culture/nana-ferragamo-cara/profile.webp'
-  portraitAlt: '검은 드레스와 짧은 머리로 포토월에 선 나나의 상반신'
-  portraitCredit: 'Photo: SUBLIME official Instagram · KISF 2026'
+  portraitAlt: '짧은 검은 머리에 버건디 립을 바르며 정면을 바라보는 나나의 얼굴 클로즈업'
+  portraitCredit: 'Photo: NANA official Instagram · Laka 2026'
   birthDate: '1991-09-14'
   nationalities:
     - name: '대한민국'
@@ -135,7 +136,8 @@ fashionProfile:
   <h2>사진과 확인 자료</h2>
   <ol>
     <li><a href="https://www.instagram.com/p/Db0TmArkaSw/">Ferragamo 공식 Instagram, Nana at the Fall Winter 2026 presentation in Seoul</a>, 2026년 8월 7일. 나나의 아이보리 룩과 네이비 카라 백, 표지·본문 사진.</li>
-    <li><a href="https://www.instagram.com/p/DZ1nDQRgafV/">SUBLIME 공식 Instagram, KISF Global OTT Awards 2026</a>, 2026년 6월 21일. 인물 카드 사진과 수상 정보.</li>
+    <li><a href="https://www.instagram.com/p/DcxIewDE-wH/?img_index=3">NANA 공식 Instagram, THE POINT IS LAKA</a>, 2026년 9월 1일. 인물 카드 사진.</li>
+    <li><a href="https://www.instagram.com/p/DZ1nDQRgafV/">SUBLIME 공식 Instagram, KISF Global OTT Awards 2026</a>, 2026년 6월 21일. 수상 정보.</li>
     <li><a href="https://prtimes.jp/main/html/rd/p/000000063.000090078.html">Ferragamo Japan, 「新作バッグ『カーラ』が登場」</a>, 2026년 8월 31일. 카라 백의 구조·소재·부품·제작 시간과 공식 제품 사진.</li>
     <li><a href="https://www.ferragamo.com/shop/us/en/sf/gallery-fw26-show">Ferragamo, Fall Winter 2026 Show</a> 및 <a href="https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/salvatore-ferragamo">Vogue Runway, Ferragamo Fall 2026 Ready-to-Wear</a>. 컬렉션과 해양 복식의 플래킷 레이싱 확인.</li>
     <li><a href="https://ssilife.com.ph/blog/rihanna-and-anya-taylor-joy-wear-ferragamo">SSI Life, Rihanna and Anya Taylor-Joy Wear Ferragamo</a> 및 <a href="https://www.harpersbazaar.com/celebrity/latest/a73191377/rihanna-suede-knee-high-boots-2026-fifa-world-cup-final-outfit/">Harper's Bazaar, Rihanna at the 2026 FIFA World Cup Final</a>. 리한나의 월드컵 결승 착장과 검은 페이턴트 일 스킨 카라 백 교차 확인.</li>

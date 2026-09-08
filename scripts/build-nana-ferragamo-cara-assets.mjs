@@ -36,7 +36,7 @@ async function webp(input, output, width, height, fit = 'cover', position = 'att
 await fs.mkdir(outputDir, { recursive: true });
 
 const nana = path.join(sourceDir, 'ferragamo-official-nana.jpg');
-const profile = path.join(sourceDir, 'sublime-official-nana.jpg');
+const profile = path.join(sourceDir, 'nana-official-laka-portrait.jpg');
 const downloaded = {};
 for (const [name, url] of Object.entries(productSources)) {
   downloaded[name] = await download(url, `ferragamo-cara-${name}.jpg`);
@@ -44,8 +44,7 @@ for (const [name, url] of Object.entries(productSources)) {
 
 await webp(nana, 'nana-full.webp', 1200, 1600, 'cover', 'centre');
 await sharp(profile)
-  .extract({ left: 245, top: 35, width: 760, height: 760 })
-  .resize(800, 800)
+  .resize(960, 1200, { fit: 'cover', position: 'attention' })
   .webp({ quality: 88, effort: 6 })
   .toFile(path.join(outputDir, 'profile.webp'));
 
