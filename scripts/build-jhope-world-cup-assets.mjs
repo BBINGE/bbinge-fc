@@ -12,7 +12,7 @@ const sources = {
   profile: 'https://phinf.wevpstatic.net/MjAyNjAzMjBfNjQg/MDAxNzczOTc4OTk1Nzc0.DvrKVxi7ZImzILUypYpLWtTPwLbzfOyGaftHr1IYuVQg.XrJvuQt7x-hVoj_CukW9Tq0twmsykNAmp9bACk94dQEg.JPEG/6b061914-aa48-4a7e-8f83-9226c54d42d7.jpeg?type=w670',
   protocolProduct: 'https://protocol-index.com/web/product/small/202604/b305fad5fd02c69c320737a543760cd1.png',
   jlsProduct: 'https://online.john-lawrence-sullivan.com/cdn/shop/files/IMG_0814.jpg?v=1766202289&width=2272',
-  videoPoster: 'https://i.ytimg.com/vi/qUzSrkIuP0U/maxresdefault.jpg',
+  videoPoster: 'https://i.ytimg.com/vi/_bhYr1BpByY/maxresdefault.jpg',
 };
 
 async function fetchBuffer(url) {

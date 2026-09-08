@@ -112,19 +112,19 @@ fashionProfile:
 
 정지 사진에서는 데님의 폭과 워싱이 먼저 보이지만, 춤이 시작되면 저지와 바지가 서로 다른 속도로 움직인다. 얇은 저지는 몸을 따라 빠르게 흔들리고, 넓은 데님은 한 박자 늦게 따라오며 밑단이 신발을 덮었다가 다시 열린다. 그래서 이 글에는 영상을 넣을 이유가 있다. 브랜드 확인을 반복하기 위해서가 아니라, 사진에서 고정된 `넓음–좁음–넓음`의 비율이 동작 안에서 어떻게 변하는지 보기 위해서다.
 
-<section class="jh-video" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/qUzSrkIuP0U?autoplay=1&amp;rel=0" aria-label="BTS 2026 FIFA 월드컵 결승 하프타임 쇼 공식 영상">
+<section class="jh-video" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/_bhYr1BpByY?autoplay=1&amp;rel=0" aria-label="BTS 2026 FIFA 월드컵 결승 하프타임 쇼 공식 스케치 영상">
   <div class="jh-video__copy">
-    <small>FIFA · OFFICIAL VIDEO</small>
-    <strong>Best of the Closing Ceremony<br />and Halftime Show</strong>
-    <p>제이홉의 와이드 데님이 걸음과 안무에서 얼마나 크게 움직이는지 공식 영상으로 확인해 보세요.</p>
-    <a href="https://www.youtube.com/watch?v=qUzSrkIuP0U" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기 <b aria-hidden="true">↗</b></a>
+    <small>BANGTANTV · OFFICIAL VIDEO</small>
+    <strong>BTS FIFA World Cup 2026<br />Final Halftime Show Sketch</strong>
+    <p>제이홉의 와이드 데님이 리허설과 무대에서 얼마나 크게 움직이는지 BTS 공식 스케치로 확인해 보세요.</p>
+    <a href="https://www.youtube.com/watch?v=_bhYr1BpByY" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기 <b aria-hidden="true">↗</b></a>
   </div>
   <div class="jh-video__media">
-    <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 FIFA 월드컵 결승 하프타임 쇼 공식 영상 재생">
-      <img src="/images/culture/jhope-world-cup-look/video-poster.webp" alt="2026 FIFA 월드컵 결승 하프타임 쇼 공식 영상 속 BTS" width="1280" height="720" loading="lazy" decoding="async" />
+    <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 BTS 월드컵 결승 하프타임 쇼 공식 스케치 영상 재생">
+      <img src="/images/culture/jhope-world-cup-look/video-poster.webp" alt="BANGTANTV 월드컵 결승 하프타임 쇼 공식 스케치 속 BTS" width="1280" height="720" loading="lazy" decoding="async" />
       <span><b aria-hidden="true">▶</b> 이 자리에서 재생</span>
     </button>
-    <div class="inline-video__player" hidden><iframe title="BTS 2026 FIFA 월드컵 결승 하프타임 쇼 공식 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="FIFA 공식 영상 닫기">×</button></div>
+    <div class="inline-video__player" hidden><iframe title="BTS 2026 FIFA 월드컵 결승 하프타임 쇼 공식 스케치 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="BANGTANTV 공식 영상 닫기">×</button></div>
   </div>
 </section>
 
@@ -164,7 +164,7 @@ fashionProfile:
   <h2>사진과 확인 자료</h2>
   <ol>
     <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/best-of-closing-ceremony-halftime-show">FIFA, Best of the closing ceremony and Halftime Show</a>. 2026년 7월 19일 결승과 대회 최초의 하프타임 쇼, BTS의 ‘Dynamite’ 공연 및 공식 사진.</li>
-    <li><a href="https://www.youtube.com/watch?v=qUzSrkIuP0U">FIFA 공식 YouTube, Best of the Closing Ceremony and Halftime Show</a>. 본문 재생 영상.</li>
+    <li><a href="https://www.youtube.com/watch?v=_bhYr1BpByY">BANGTANTV 공식 YouTube, BTS FIFA World Cup 2026 Final Halftime Show Sketch</a>. 본문 재생 영상과 리허설·무대 움직임 확인.</li>
     <li><a href="https://www.vogue.co.kr/2026/07/21/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EC%9D%B4-%EC%9B%94%EB%93%9C%EC%BB%B5-%ED%95%98%ED%94%84%ED%83%80%EC%9E%84-%EC%87%BC%EC%97%90%EC%84%9C-%EC%9E%85%EC%9D%80-%EC%98%B7-%EC%A0%84%EB%B6%80/">Vogue Korea, 「방탄소년단이 월드컵 하프타임 쇼에서 입은 옷, 전부 찾아봤습니다」</a>, 2026년 7월 21일. 프로토콜 인덱스 커스텀 저지, 존 로렌스 설리반 워시드 데님, 벨트 두 개와 HARDSTYLE 확인. 본문 사진 공개 출처.</li>
     <li><a href="https://www.vogue.co.jp/article/2026-07-31-bts-fifa-style">Vogue Japan, BTS가 월드컵 2026 결승에서 입은 브랜드</a>, 2026년 7월 31일. 존 로렌스 설리반 데님과 제이홉 전신 사진.</li>
     <li><a href="https://hypebeast.kr/2026/7/fit-check-2026-fifa-world-cup-finals-performers">Hypebeast Korea, 「핏 체크: 2026 FIFA 월드컵 결승전 퍼포머들의 스타일」</a>. Protocol Index 상의, John Lawrence Sullivan 팬츠, REIMAGINE 슈즈 확인.</li>
