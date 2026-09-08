@@ -42,11 +42,14 @@ for (const [name, url] of Object.entries(productSources)) {
 }
 
 await webp(nana, 'nana-full.webp', 1200, 1600, 'cover', 'centre');
-await sharp(nana)
-  .extract({ left: 580, top: 220, width: 1000, height: 1250 })
-  .resize(960, 1200)
-  .webp({ quality: 88, effort: 6 })
-  .toFile(path.join(outputDir, 'profile-ferragamo.webp'));
+await webp(
+  path.join(sourceDir, 'netflix-scandal-nana-letter.jpg'),
+  'profile-scandal.webp',
+  960,
+  1200,
+  'cover',
+  'centre',
+);
 
 await webp(downloaded.front, 'cara-front.webp', 1000, 1000, 'cover', 'centre');
 await webp(downloaded.open, 'cara-open.webp', 1000, 1000, 'cover', 'centre');

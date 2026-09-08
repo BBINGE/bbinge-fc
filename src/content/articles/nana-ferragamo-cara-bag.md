@@ -19,9 +19,9 @@ fashionProfile:
   romanName: 'NANA'
   realName: '임진아'
   hanjaName: '林珍兒'
-  portrait: '/images/culture/nana-ferragamo-cara/profile-ferragamo.webp'
-  portraitAlt: '아이보리 레이스업 블라우스를 입고 정면을 바라보는 나나의 상반신'
-  portraitCredit: 'Photo: Ferragamo official Instagram · Seoul 2026'
+  portrait: '/images/culture/nana-ferragamo-cara/profile-scandal.webp'
+  portraitAlt: '넷플릭스 시리즈 스캔들에서 한복을 입고 서신을 내려다보는 희연 역의 나나'
+  portraitCredit: 'Photo: Netflix · 스캔들 (2026)'
   birthDate: '1991-09-14'
   nationalities:
     - name: '대한민국'
@@ -136,6 +136,7 @@ fashionProfile:
   <h2>사진과 확인 자료</h2>
   <ol>
     <li><a href="https://www.instagram.com/p/Db0TmArkaSw/">Ferragamo 공식 Instagram, Nana at the Fall Winter 2026 presentation in Seoul</a>, 2026년 8월 7일. 나나의 아이보리 룩과 네이비 카라 백, 표지·본문 사진.</li>
+    <li><a href="https://www.soompi.com/article/1866063wpp/son-ye-jin-ji-chang-wook-and-nana-get-entangled-in-a-dangerous-wager-in-new-drama-the-scandal">Soompi, 「Son Ye Jin, Ji Chang Wook, And Nana Get Entangled In A Dangerous Wager In New Drama “The Scandal”」</a>, 2026년 8월 27일. Netflix 제공 나나 ‘희연’ 캐릭터 스틸과 인물 카드 사진.</li>
     <li><a href="https://www.instagram.com/p/DZ1nDQRgafV/">SUBLIME 공식 Instagram, KISF Global OTT Awards 2026</a>, 2026년 6월 21일. 수상 정보.</li>
     <li><a href="https://prtimes.jp/main/html/rd/p/000000063.000090078.html">Ferragamo Japan, 「新作バッグ『カーラ』が登場」</a>, 2026년 8월 31일. 카라 백의 구조·소재·부품·제작 시간과 공식 제품 사진.</li>
     <li><a href="https://www.ferragamo.com/shop/us/en/sf/gallery-fw26-show">Ferragamo, Fall Winter 2026 Show</a> 및 <a href="https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/salvatore-ferragamo">Vogue Runway, Ferragamo Fall 2026 Ready-to-Wear</a>. 컬렉션과 해양 복식의 플래킷 레이싱 확인.</li>
