@@ -61,12 +61,12 @@ fashionProfile:
 이 룩의 힘은 붉은색을 많이 쓴 데서 나오지 않는다. 상의와 바지가 같은 색을 공유하면서도 표면과 폭은 정반대다. 저지는 빛을 매끈하게 반사하고 몸에서 가볍게 떨어진다. 데님은 검정 워싱이 세로로 길게 번져 있고, 다리보다 훨씬 넓은 통이 신발 위에 무겁게 쌓인다. 같은 빨강이 위에서는 스포츠웨어로, 아래에서는 낡고 거친 스트리트웨어로 갈라진다.
 
 <figure class="jh-stage jh-enter">
-  <img src="/images/culture/jhope-world-cup-look/full-look.webp" alt="붉은 무대 위에서 프로토콜 인덱스 저지와 존 로렌스 설리반 와이드 데님을 입고 걷는 제이홉 전신" width="1600" height="1067" loading="lazy" decoding="async" />
+  <img src="/images/culture/jhope-world-cup-look/look-bts-official.webp" alt="공연 직전 카트에 앉아 프로토콜 인덱스 저지와 존 로렌스 설리반 워시드 데님을 드러낸 제이홉" width="1600" height="1067" loading="lazy" decoding="async" />
   <figcaption>
-    <small>THE WHOLE LOOK</small>
+    <small>BEFORE THE STAGE</small>
     <strong>위는 짧고 가볍게,<br />아래는 길고 무겁게</strong>
-    <span>붉은 저지가 허리에서 끝나는 순간부터 워시드 데님의 넓은 통이 시작된다. 두 옷의 색은 같지만 무게중심은 정확히 반대로 움직인다.</span>
-    <em>Photo: Sebastian Frej/Getty Images via Vogue Japan</em>
+    <span>카트에 앉은 자세에서도 붉은 저지는 허리에서 멈추고, 검정 워싱이 번진 데님은 그 아래에서 큰 면적으로 펼쳐진다.</span>
+    <em>Photo: BTS official Instagram</em>
   </figcaption>
 </figure>
 
@@ -80,12 +80,12 @@ fashionProfile:
 
 <div class="jh-detail-grid" aria-label="제이홉 저지와 벨트, 데님 디테일">
   <figure>
-    <img src="/images/culture/jhope-world-cup-look/jersey-belts.webp" alt="프로토콜 인덱스 저지의 패치와 제이홉 허리에 겹친 두 개의 벨트" width="650" height="800" loading="lazy" decoding="async" />
-    <figcaption>패치가 모인 붉은 저지 아래 벨트 두 줄이 허리의 검정 경계선을 만든다.<small>Photo: Sebastian Frej/Getty Images via Vogue Japan</small></figcaption>
+    <img src="/images/culture/jhope-world-cup-look/jersey-belts-bts-official.webp" alt="프로토콜 인덱스 저지의 패치와 제이홉 허리를 가르는 검정 벨트" width="650" height="800" loading="lazy" decoding="async" />
+    <figcaption>패치가 모인 붉은 저지는 허리의 검정 벨트에서 끝나며 데님의 시작점을 드러낸다.<small>Photo: BTS official Instagram</small></figcaption>
   </figure>
   <figure>
-    <img src="/images/culture/jhope-world-cup-look/denim-shoes.webp" alt="검정 워싱이 세로로 번진 붉은 존 로렌스 설리반 와이드 데님과 검정 슈즈" width="830" height="700" loading="lazy" decoding="async" />
-    <figcaption>검정 워싱은 위에서 아래로 흐르고, 넓은 밑단은 검정 슈즈 위에 접혀 쌓인다.<small>Photo: Sebastian Frej/Getty Images via Vogue Japan</small></figcaption>
+    <img src="/images/culture/jhope-world-cup-look/washed-denim-bts-official.webp" alt="검정 워싱이 세로로 번진 붉은 존 로렌스 설리반 와이드 데님" width="650" height="800" loading="lazy" decoding="async" />
+    <figcaption>검정 워싱은 붉은 데님의 넓은 면을 따라 세로로 번지며 바지의 부피를 더 크게 보이게 한다.<small>Photo: BTS official Instagram</small></figcaption>
   </figure>
 </div>
 
@@ -162,7 +162,7 @@ fashionProfile:
     <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/best-of-closing-ceremony-halftime-show">FIFA, Best of the closing ceremony and Halftime Show</a>. 2026년 7월 19일 결승과 대회 최초의 하프타임 쇼, BTS의 ‘Dynamite’ 공연 및 공식 사진.</li>
     <li><a href="https://www.youtube.com/watch?v=_bhYr1BpByY">BANGTANTV 공식 YouTube, BTS FIFA World Cup 2026 Final Halftime Show Sketch</a>. 본문 재생 영상과 리허설·무대 움직임 확인.</li>
     <li><a href="https://www.vogue.co.kr/2026/07/21/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EC%9D%B4-%EC%9B%94%EB%93%9C%EC%BB%B5-%ED%95%98%ED%94%84%ED%83%80%EC%9E%84-%EC%87%BC%EC%97%90%EC%84%9C-%EC%9E%85%EC%9D%80-%EC%98%B7-%EC%A0%84%EB%B6%80/">Vogue Korea, 「방탄소년단이 월드컵 하프타임 쇼에서 입은 옷, 전부 찾아봤습니다」</a>, 2026년 7월 21일. 프로토콜 인덱스 커스텀 저지, 존 로렌스 설리반 워시드 데님, 벨트 두 개와 HARDSTYLE 확인.</li>
-    <li><a href="https://www.vogue.co.jp/article/2026-07-31-bts-fifa-style">Vogue Japan, BTS가 월드컵 2026 결승에서 입은 브랜드</a>, 2026년 7월 31일. 존 로렌스 설리반 데님과 제이홉 전신 사진.</li>
+    <li><a href="https://www.vogue.co.jp/article/2026-07-31-bts-fifa-style">Vogue Japan, BTS가 월드컵 2026 결승에서 입은 브랜드</a>, 2026년 7월 31일. 존 로렌스 설리반 데님과 멤버별 착장 교차 확인.</li>
     <li><a href="https://hypebeast.kr/2026/7/fit-check-2026-fifa-world-cup-finals-performers">Hypebeast Korea, 「핏 체크: 2026 FIFA 월드컵 결승전 퍼포머들의 스타일」</a>. Protocol Index 상의, John Lawrence Sullivan 팬츠, REIMAGINE 슈즈 확인.</li>
     <li><a href="https://nomannersmagazine.com/bts-fashion-at-the-2026-fifa-world-cup-final-halftime-show-was-all-sorts-of-goals-see-photos/">No Manners Magazine, BTS Fashion at the 2026 FIFA World Cup Final Halftime Show</a>. 제이홉 팬츠의 와이드 레그 실루엣과 저지·장갑·스카프 구성 확인.</li>
     <li><a href="https://protocol-index.com/about.html">Protocol Index 공식 About</a> 및 <a href="https://protocol-index.com/product/fake-shoulder-referee-football-jersey-black/73/category/46/display/1/">Fake Shoulder Referee Football Jersey 공식 제품</a>. 스튜디오의 설립자·방법론과 제품 정보·사진.</li>
@@ -185,7 +185,7 @@ fashionProfile:
   .jh-stage figcaption strong{margin-top:16px;color:#fff;font-size:clamp(28px,4.4vw,48px);line-height:1.08;letter-spacing:-.045em}
   .jh-stage figcaption span{max-width:390px;margin-top:19px;color:rgba(255,255,255,.78);font-size:13px;line-height:1.75}
   .jh-stage figcaption em{margin-top:18px;color:rgba(255,255,255,.5);font-size:9px;font-style:normal;line-height:1.45}
-  .jh-detail-grid{position:relative;left:50%;display:grid;grid-template-columns:.9fr 1.1fr;gap:14px;width:min(1040px,calc(100vw - 32px));margin:42px 0 62px;transform:translateX(-50%)}
+  .jh-detail-grid{position:relative;left:50%;display:grid;grid-template-columns:1fr 1fr;gap:14px;width:min(1040px,calc(100vw - 32px));margin:42px 0 62px;transform:translateX(-50%)}
   .jh-detail-grid figure{margin:0;overflow:hidden;border:1px solid var(--bbfc-border);border-radius:18px;background:var(--bbfc-fill-2)}
   .jh-detail-grid img{display:block;width:100%;height:520px;margin:0;object-fit:cover}
   .jh-detail-grid figcaption{padding:15px 16px 17px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65}
