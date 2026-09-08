@@ -18,6 +18,10 @@ fashionProfile:
   name: '안나'
   romanName: 'ANNA'
   realName: '다나카 안나'
+  nativeName:
+    label: '일본어'
+    value: '田中杏奈（たなか あんな）'
+    lang: 'ja'
   portrait: '/images/culture/anna-inter-2015-16-crop-jersey/profile.webp'
   portraitAlt: '흰색 집업 톱을 입고 카메라를 바라보는 미야오 안나의 프로필 사진'
   portraitCredit: 'Photo: Mnet Smart+ · THEBLACKLABEL'

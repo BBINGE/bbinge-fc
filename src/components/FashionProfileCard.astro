@@ -16,6 +16,11 @@ interface Profile {
   romanName?: string;
   realName?: string;
   hanjaName?: string;
+  nativeName?: {
+    label: string;
+    value: string;
+    lang: string;
+  };
   portrait: string;
   portraitAlt: string;
   portraitCredit?: string;
@@ -67,11 +72,13 @@ const birthLabel = (() => {
     <p class="fashion-profile__eyebrow">{profile.eyebrow}</p>
     <h2 id={titleId}>{profile.name}</h2>
     {profile.romanName && <p class="fashion-profile__roman" lang="en">{profile.romanName}</p>}
-    {(profile.realName || profile.hanjaName) && (
+    {(profile.realName || profile.hanjaName || profile.nativeName) && (
       <p class="fashion-profile__identity">
         {profile.realName && <><span>실명</span> {profile.realName}</>}
-        {profile.realName && profile.hanjaName && <i aria-hidden="true">·</i>}
+        {profile.realName && (profile.hanjaName || profile.nativeName) && <i aria-hidden="true">·</i>}
         {profile.hanjaName && <><span>한자</span> <b lang="zh-Hant">{profile.hanjaName}</b></>}
+        {profile.hanjaName && profile.nativeName && <i aria-hidden="true">·</i>}
+        {profile.nativeName && <><span>{profile.nativeName.label}</span> <b lang={profile.nativeName.lang}>{profile.nativeName.value}</b></>}
       </p>
     )}
     <dl>

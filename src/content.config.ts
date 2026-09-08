@@ -64,6 +64,11 @@ const articles = defineCollection({
         romanName: z.string().optional(),
         realName: z.string().optional(),
         hanjaName: z.string().optional(),
+        nativeName: z.object({
+          label: z.string(),
+          value: z.string(),
+          lang: z.string(),
+        }).optional(),
         portrait: z.string(),
         portraitAlt: z.string(),
         portraitCredit: z.string().optional(),
