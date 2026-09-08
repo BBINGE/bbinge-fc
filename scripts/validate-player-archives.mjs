@@ -58,6 +58,7 @@ const awardCountBaselines = new Map([
   ['luis-suarez-miramontes.md', 6], // 국가 수훈 1개는 별도 최상단 블록으로 이동 (운영자 승인).
   ['roberto-baggio.md', 21], // 2026-09-05 운영자 제공 목록 보강, 국가 수훈은 별도.
   ['giacinto-facchetti.md', 12],
+  ['mazinho.md', 4], // 2026-09-09 운영자 승인: 1994 파울리스타 베스트 11 추가.
 ]);
 const selfExplanatoryAward = /(?:^발롱도르$|득점왕$|도움왕$|명예의 전당 헌액$|명예 회장$)/;
 const overExplainedAwardPhrases = [
