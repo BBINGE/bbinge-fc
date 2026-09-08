@@ -6,7 +6,7 @@ index: brazil
 year: 1966
 subject: "마지뉴"
 originalTitle: "Iomar do Nascimento · Mazinho"
-keywords: ["마지뉴", "Mazinho", "Iomar do Nascimento", "마지뉴 프로필", "마지뉴 스탯", "마지뉴 등번호", "1994 월드컵 마지뉴", "브라질 축구 국가대표팀", "티아고 알칸타라 아버지", "하파에우 알칸타라 아버지", "마징요"]
+keywords: ["마지뉴", "Mazinho", "Iomar do Nascimento", "마지뉴 프로필", "마지뉴 스탯", "마지뉴 등번호", "1994 월드컵 마지뉴", "브라질 축구 국가대표팀", "티아고 알칸타라 아버지", "하파에우 아우칸타라 아버지", "마징요"]
 tags: ["브라질", "1994 FIFA 월드컵", "바스쿠 다 가마", "SE 파우메이라스", "RC 셀타 데 비고", "수비형 미드필더"]
 pubDate: 2026-09-08T22:51:33+09:00
 coverImage: "/images/archive/legends/mazinho/mazinho-cover.png"
@@ -57,7 +57,7 @@ draft: false
 
 4. 브라질 A매치 35경기 무득점, 셀타 구단 통산 138경기 10골. 이 수치는 마지뉴의 영향력을 공격 포인트 밖에서 찾아야 한다고 말한다. 당대의 평가는 훨씬 선명했다. 왼쪽 풀백으로 1987년부터 1989년까지 플라카르 볼라 지 프라타를 세 번 연속 받았고, 1989년 남아메리카 올해의 축구선수 투표에서는 베베투에 이어 2위에 올랐다.
 
-5. 티아고 알칸타라와 하파에우 알칸타라로 이어지는 가족의 축구 계보는 마지뉴를 만나는 흥미로운 입구다. 그 안쪽에는 바스쿠의 1989년 전국리그 우승, 파우메이라스의 1993년 세 대회 우승, 월드컵 결승 선발, 1990년대 후반 셀타의 전성기가 차례로 놓여 있다. 두 아들의 이름까지 더해져 한 세대의 대표적인 멀티플레이어가 세 나라의 축구사를 잇는다.
+5. 티아고 알칸타라와 하파에우 아우칸타라로 이어지는 가족의 축구 계보는 마지뉴를 만나는 흥미로운 입구다. 그 안쪽에는 바스쿠의 1989년 전국리그 우승, 파우메이라스의 1993년 세 대회 우승, 월드컵 결승 선발, 1990년대 후반 셀타의 전성기가 차례로 놓여 있다. 두 아들의 이름까지 더해져 한 세대의 대표적인 멀티플레이어가 세 나라의 축구사를 잇는다.
 
 ## 마지뉴 프로필
 
@@ -71,7 +71,7 @@ draft: false
   <dl><dt>출생</dt><dd>1966년 4월 8일</dd></dl><dl><dt>출생지</dt><dd>브라질 파라이바주 산타 히타</dd></dl>
   <dl><dt>신장</dt><dd>176cm</dd></dl><dl><dt>대표 국적</dt><dd>브라질</dd></dl>
   <dl><dt>포지션</dt><dd>수비형·중앙 미드필더<br />왼쪽·오른쪽 풀백</dd></dl><dl><dt>주요 등번호</dt><dd>2번 · 6번 · 17번</dd></dl>
-  <dl><dt>대표팀</dt><dd>1989-1994년 · 35경기 0골</dd></dl><dl><dt>가족</dt><dd>티아고 · 하파에우 알칸타라의 아버지</dd></dl>
+  <dl><dt>대표팀</dt><dd>1989-1994년 · 35경기 0골</dd></dl><dl><dt>가족</dt><dd>티아고 알칸타라 · 하파에우 아우칸타라의 아버지</dd></dl>
 </div>
 
 본명은 **이오마르 두 나시멘투**<span class="foreign-note" lang="pt-BR">(Iomar do Nascimento; 브라질의 미드필더·풀백, 1966-)</span>다. `마지뉴`는 브라질 포르투갈어의 애칭형 등록명이자 원어 발음에 가까운 한글 표기다. 국내 자료에서 쓰는 `마징요`도 같은 인물을 가리킨다.
@@ -116,7 +116,16 @@ SE 파우메이라스에서 그의 위치가 다시 바뀌었다. 처음에는 �
 
 ## 티아고와 하파에우, 세 나라로 이어진 가족의 축구
 
-마지뉴와 전 배구선수 발레리아 알칸타라<span class="foreign-note" lang="pt-BR">(Valéria Alcântara; 브라질의 전 배구선수)</span>의 두 아들도 프로축구선수가 됐다. 장남 티아고 알칸타라<span class="foreign-note" lang="es">(Thiago Alcântara do Nascimento; 스페인 국가대표로 뛴 미드필더, 1991-)</span>는 마지뉴가 레체에서 뛰던 시기에 이탈리아에서 태어났고, 차남 하파에우 알칸타라<span class="foreign-note" lang="pt-BR">(Rafael Alcântara do Nascimento; 브라질 국가대표로 뛴 미드필더, 1993-)</span>는 마지뉴가 파우메이라스에 있던 시기 브라질에서 태어났다. 가족이 스페인에 정착한 뒤 두 사람 모두 FC 바르셀로나 유소년 체계를 거쳤다.
+마지뉴와 전 배구선수 발레리아 알칸타라<span class="foreign-note" lang="pt-BR">(Valéria Alcântara; 브라질의 전 배구선수)</span>의 두 아들도 프로축구선수가 됐다. 장남 티아고 알칸타라<span class="foreign-note" lang="es">(Thiago Alcântara do Nascimento; 스페인 국가대표로 뛴 미드필더, 1991-)</span>는 마지뉴가 레체에서 뛰던 시기에 이탈리아에서 태어났고, 차남 하파에우 아우칸타라<span class="foreign-note" lang="pt-BR">(Rafael Alcântara do Nascimento; 브라질 국가대표로 뛴 미드필더, 1993-)</span>는 마지뉴가 파우메이라스에 있던 시기 브라질에서 태어났다. 가족이 스페인에 정착한 뒤 두 사람 모두 FC 바르셀로나 유소년 체계를 거쳤다.
+
+<figure class="legend-family-triptych" aria-label="마지뉴와 두 아들의 선수 경력">
+  <div class="legend-family-panels">
+    <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/mazinho-brazil-1994-lineage.webp" alt="1994 FIFA 월드컵 결승에서 이탈리아 수비 사이로 공을 지키는 브라질 17번 마지뉴" width="600" height="800" loading="lazy" decoding="async" /><span><strong>마지뉴</strong><small>브라질 · 1994</small></span></div>
+    <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/thiago-bayern-2019-lineage.webp" alt="2019년 바이에른 뮌헨 유니폼을 입은 티아고 알칸타라" width="600" height="800" loading="lazy" decoding="async" /><span><strong>티아고 알칸타라</strong><small>바이에른 뮌헨 · 2019</small></span></div>
+    <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/rafinha-psg-2021-lineage.webp" alt="2021-22 시즌 파리 생제르맹 유니폼으로 경기에 나선 하파에우 아우칸타라" width="600" height="800" loading="lazy" decoding="async" /><span><strong>하파에우 아우칸타라</strong><small>파리 생제르맹 · 2021-22</small></span></div>
+  </div>
+  <figcaption>왼쪽부터 1994년 브라질의 마지뉴, 바이에른 뮌헨의 티아고, 파리 생제르맹의 하파에우. 아버지에서 두 아들로 이어진 축구가 서로 다른 시대와 리그에서 펼쳐졌다.</figcaption>
+</figure>
 
 한 가족 안에서 브라질·이탈리아·스페인의 축구 경로가 갈라졌다. 티아고는 스페인 대표팀을, 하파에우는 브라질 대표팀을 택했다. 세 선수의 축구에는 공을 받기 전에 다음 공간을 살피고, 포지션의 이름보다 팀의 연결을 앞세우는 감각이 반복된다. 서로 다른 대표팀과 세대를 가로지르는 이 공통점이 알칸타라 가족의 축구를 더욱 흥미롭게 만든다.
 
@@ -189,7 +198,6 @@ SE 파우메이라스에서 그의 위치가 다시 바뀌었다. 처음에는 �
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223494781835" rel="noopener noreferrer">삥이 네이버 블로그: 1994 월드컵 숨은 영웅 마지뉴 Mazinho</a>: 프로필·우승·개인 수상 목록과 서사의 최초 공개본.</li>
   <li><a href="https://www.palmeiras.com.br/craques/mazinho/" rel="noopener noreferrer">SE 파우메이라스: Mazinho</a>: 본명·출생·포지션, 127경기, 주요 우승, 포지션 변화와 보카 주니어스전 회고.</li>
   <li><a href="https://www.palmeiras.com.br/paulista-1993/elenco-paulista-93/" rel="noopener noreferrer">SE 파우메이라스: 1993 파울리스타 우승 선수단</a>: 1993-94년 파우메이라스 공식 우승 범위 대조.</li>
   <li><a href="https://www.cob.org.br/time-brasil/medalhistas-olimpicos/iomar-do-nascimento" rel="noopener noreferrer">브라질 올림픽위원회: Iomar do Nascimento</a>: 풀백에서 미드필더로 이어진 경력과 1988 서울 올림픽 은메달.</li>
@@ -208,5 +216,8 @@ SE 파우메이라스에서 그의 위치가 다시 바뀌었다. 처음에는 �
   <li><a href="https://rsssfbrasil.com/miscellaneous/bprata.htm" rel="noopener noreferrer">RSSSF Brasil: Bola de Prata winners</a>: 1987·1988·1989년 왼쪽 풀백 수상 명단.</li>
   <li><a href="https://www1.folha.uol.com.br/fsp/1994/5/18/esporte/38.html" rel="noopener noreferrer">Folha de S.Paulo: Palmeiras é maioria na eleição</a>: 1994년 캄페오나투 파울리스타 베스트 11과 마지뉴의 19표.</li>
   <li><a href="https://www.transfermarkt.com/mazinho/rueckennummern/spieler/102588" rel="noopener noreferrer">Transfermarkt: Mazinho squad number history</a>: 클럽·대표팀의 시즌별 등번호 기록.</li>
+  <li><a href="https://redgol.cl/internacional/Padre-de-Thiago-Alcantara-se-sincera-Hice-todo-lo-que-pude-para-que-mi-hijo-jugara-para-Brasil-20200824-0057.html" rel="noopener noreferrer">RedGol: Mazinho, Brasil 1994</a>: 1994 FIFA 월드컵 결승의 마지뉴 사진.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:Thiago_Alc%C3%A2ntara_2019.jpg" rel="noopener noreferrer">Wikimedia Commons: Thiago Alcântara 2019</a>: Steffen Prößdorf 촬영, <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer">CC BY-SA 4.0</a>.</li>
+  <li><a href="https://www.lequipe.fr/Football/Actualites/Rafinha-ancien-du-psg-et-du-fc-barcelone-annonce-sa-retraite-a-32-ans/1628989" rel="noopener noreferrer">L'Équipe: Rafinha avec le PSG en 2021-2022</a>: 파리 생제르맹 시절 경기 사진, P. Lahalle/L'Équipe.</li>
   <li>구단 문장: <a href="https://toppng.com/vector/vasco-da-gama-vector-logo-free/463234" rel="noopener noreferrer">바스쿠 다 가마</a>, <a href="https://toppng.com/show_download/459269/us-lecce-1908-vector-logo" rel="noopener noreferrer">US 레체</a>, <a href="https://commons.wikimedia.org/wiki/File:ACF_Fiorentina_-_logo_%281967-1980%29.svg" rel="noopener noreferrer">ACF 피오렌티나</a>, <a href="https://commons.wikimedia.org/wiki/File:Palmeiras_logo.svg" rel="noopener noreferrer">SE 파우메이라스</a>, <a href="https://logodetimes.com/valencia-club-de-futbol/" rel="noopener noreferrer">발렌시아 CF</a>, <a href="https://commons.wikimedia.org/wiki/File:Escudo_RC_Celta_de_Vigo.svg" rel="noopener noreferrer">RC 셀타 데 비고</a>, <a href="https://www.pngaaa.com/detail/2380340" rel="noopener noreferrer">엘체 CF</a>, <a href="https://commons.wikimedia.org/wiki/File:Esporte_Clube_Vit%C3%B3ria_%282024%29.svg" rel="noopener noreferrer">EC 비토리아</a>.</li>
 </ul>
