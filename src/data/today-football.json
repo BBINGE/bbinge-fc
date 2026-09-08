@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-08T21:34:27.315Z",
+  "updatedAt": "2026-09-08T23:50:21.145Z",
   "matches": [
     {
       "id": "2489085",
@@ -24,8 +24,8 @@
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/tqo8ge1716960353.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
       "homeScore": 3,
-      "awayScore": 1,
-      "status": "2H",
+      "awayScore": 2,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-09"
@@ -38,8 +38,8 @@
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xu47rb1628855600.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
       "homeScore": 0,
-      "awayScore": 1,
-      "status": "2H",
+      "awayScore": 2,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-09"
@@ -53,7 +53,7 @@
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
       "homeScore": 2,
       "awayScore": 3,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-09"
@@ -84,6 +84,34 @@
       "status": "NS",
       "progress": "",
       "time": "01:45",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "2594541",
+      "league": "UEFA 챔피언스 리그",
+      "home": "리버풀",
+      "away": "아틀레티코 마드리드",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "2594562",
+      "league": "UEFA 챔피언스 리그",
+      "home": "파리 생제르맹",
+      "away": "Slovan Bratislava",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "04:00",
       "date": "2026-09-10"
     }
   ],
