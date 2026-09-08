@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T10:36:52.529Z",
+  "updatedAt": "2026-09-08T14:53:35.851Z",
   "matches": [
     {
       "id": "2482158",
@@ -65,9 +65,9 @@
       "away": "Go Ahead Eagles",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/yuhha71625167104.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/3hq2cy1685597026.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "FT",
       "progress": "",
       "time": "21:00",
       "date": "2026-09-08"
