@@ -7,8 +7,8 @@ tags: ['제이홉 패션', '제이홉 착장', '존 로렌스 설리반', '프�
 pubDate: 2026-09-08T11:41:41+09:00
 coverImage: '/images/culture/jhope-world-cup-look/cover.webp'
 cardImage: '/images/culture/jhope-world-cup-look/card.webp'
-coverImageAlt: '붉은 프로토콜 인덱스 풋볼 저지와 존 로렌스 설리반 워시드 와이드 데님을 입고 걷는 제이홉'
-coverImageCaption: '제이홉은 붉은 커스텀 저지 아래 같은 색의 와이드 데님을 두고, 두 겹의 벨트와 검정 액세서리로 경계선을 만들었다. Photo: Sebastian Frej/Getty Images via Vogue Japan.'
+coverImageAlt: '붉은 프로토콜 인덱스 풋볼 저지와 존 로렌스 설리반 워시드 와이드 데님을 입고 카트에서 팔을 뻗는 제이홉'
+coverImageCaption: '제이홉은 붉은 커스텀 저지 아래 같은 색의 와이드 데님을 두고, 두 겹의 벨트와 검정 액세서리로 경계선을 만들었다. Photo: BTS official Instagram.'
 coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
@@ -104,8 +104,8 @@ fashionProfile:
 벨트를 겹칠 때 중요한 것은 버클을 화려하게 늘리는 일이 아니다. 두 벨트가 완전히 포개지지 않도록 높이를 조금 어긋나게 두고, 상의 밑단을 그 위에서 끝내야 한다. 그래야 벨트가 액세서리 두 개가 아니라 몸의 비율을 나누는 선으로 보인다. 제이홉의 착장이 워싱 데님이나 저지 하나만 검색해서는 완성되지 않는 이유다.
 
 <figure class="jh-team">
-  <img src="/images/culture/jhope-world-cup-look/team.webp" alt="붉은 무대 위에서 빨강 검정 흰색 의상을 입고 춤추는 BTS 일곱 멤버" width="1165" height="1400" loading="lazy" decoding="async" />
-  <figcaption><span>BTS · ONE TEAM</span><strong>일곱 벌을 묶은 것은<br />같은 디자인이 아니라 세 가지 색이었습니다</strong><p>각자의 브랜드와 실루엣은 달랐지만 빨강·검정·흰색이 반복되며 한 팀처럼 보였다. 제이홉은 그 팔레트 안에서 저지보다 와이드 데님의 면적을 가장 크게 키웠다.</p><small>Photo: Getty Images via Vogue Korea</small></figcaption>
+  <img src="/images/culture/jhope-world-cup-look/team.webp" alt="빨강 검정 흰색 의상을 입고 검은 배경 앞에 선 BTS 일곱 멤버" width="1600" height="1067" loading="lazy" decoding="async" />
+  <figcaption><span>BTS · ONE TEAM</span><strong>일곱 벌을 묶은 것은<br />같은 디자인이 아니라 세 가지 색이었습니다</strong><p>각자의 브랜드와 실루엣은 달랐지만 빨강·검정·흰색이 반복되며 한 팀처럼 보였다. 제이홉은 그 팔레트 안에서 저지보다 와이드 데님의 면적을 가장 크게 키웠다.</p><small>Photo: BTS official Instagram</small></figcaption>
 </figure>
 
 ## 무대가 움직일 때 이 옷의 비율이 완성됩니다
@@ -127,11 +127,6 @@ fashionProfile:
     <div class="inline-video__player" hidden><iframe title="BTS 2026 FIFA 월드컵 결승 하프타임 쇼 공식 스케치 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="BANGTANTV 공식 영상 닫기">×</button></div>
   </div>
 </section>
-
-<figure class="jh-movement">
-  <img src="/images/culture/jhope-world-cup-look/movement.webp" alt="푸른 그래픽 무대 위에서 붉은 저지와 와이드 데님을 입고 이동하는 제이홉과 BTS 멤버들" width="1400" height="933" loading="lazy" decoding="async" />
-  <figcaption>제이홉의 바지는 걸을 때마다 넓은 밑단이 벌어지고 검정 워싱이 세로선을 더 길게 만든다.<small>Photo: Getty Images via Vogue Korea</small></figcaption>
-</figure>
 
 ## 같은 옷을 찾기보다 세 가지 규칙을 가져오세요
 
@@ -163,9 +158,10 @@ fashionProfile:
 <div class="source-notes">
   <h2>사진과 확인 자료</h2>
   <ol>
+    <li><a href="https://www.instagram.com/p/DbIS114GFWH/">BTS 공식 Instagram, BTS FIFA World Cup 2026 Final Halftime Show</a>, 2026년 7월 23일. 표지의 제이홉 착장 사진과 BTS 단체 사진.</li>
     <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/best-of-closing-ceremony-halftime-show">FIFA, Best of the closing ceremony and Halftime Show</a>. 2026년 7월 19일 결승과 대회 최초의 하프타임 쇼, BTS의 ‘Dynamite’ 공연 및 공식 사진.</li>
     <li><a href="https://www.youtube.com/watch?v=_bhYr1BpByY">BANGTANTV 공식 YouTube, BTS FIFA World Cup 2026 Final Halftime Show Sketch</a>. 본문 재생 영상과 리허설·무대 움직임 확인.</li>
-    <li><a href="https://www.vogue.co.kr/2026/07/21/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EC%9D%B4-%EC%9B%94%EB%93%9C%EC%BB%B5-%ED%95%98%ED%94%84%ED%83%80%EC%9E%84-%EC%87%BC%EC%97%90%EC%84%9C-%EC%9E%85%EC%9D%80-%EC%98%B7-%EC%A0%84%EB%B6%80/">Vogue Korea, 「방탄소년단이 월드컵 하프타임 쇼에서 입은 옷, 전부 찾아봤습니다」</a>, 2026년 7월 21일. 프로토콜 인덱스 커스텀 저지, 존 로렌스 설리반 워시드 데님, 벨트 두 개와 HARDSTYLE 확인. 본문 사진 공개 출처.</li>
+    <li><a href="https://www.vogue.co.kr/2026/07/21/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EC%9D%B4-%EC%9B%94%EB%93%9C%EC%BB%B5-%ED%95%98%ED%94%84%ED%83%80%EC%9E%84-%EC%87%BC%EC%97%90%EC%84%9C-%EC%9E%85%EC%9D%80-%EC%98%B7-%EC%A0%84%EB%B6%80/">Vogue Korea, 「방탄소년단이 월드컵 하프타임 쇼에서 입은 옷, 전부 찾아봤습니다」</a>, 2026년 7월 21일. 프로토콜 인덱스 커스텀 저지, 존 로렌스 설리반 워시드 데님, 벨트 두 개와 HARDSTYLE 확인.</li>
     <li><a href="https://www.vogue.co.jp/article/2026-07-31-bts-fifa-style">Vogue Japan, BTS가 월드컵 2026 결승에서 입은 브랜드</a>, 2026년 7월 31일. 존 로렌스 설리반 데님과 제이홉 전신 사진.</li>
     <li><a href="https://hypebeast.kr/2026/7/fit-check-2026-fifa-world-cup-finals-performers">Hypebeast Korea, 「핏 체크: 2026 FIFA 월드컵 결승전 퍼포머들의 스타일」</a>. Protocol Index 상의, John Lawrence Sullivan 팬츠, REIMAGINE 슈즈 확인.</li>
     <li><a href="https://nomannersmagazine.com/bts-fashion-at-the-2026-fifa-world-cup-final-halftime-show-was-all-sorts-of-goals-see-photos/">No Manners Magazine, BTS Fashion at the 2026 FIFA World Cup Final Halftime Show</a>. 제이홉 팬츠의 와이드 레그 실루엣과 저지·장갑·스카프 구성 확인.</li>
@@ -192,10 +188,10 @@ fashionProfile:
   .jh-detail-grid{position:relative;left:50%;display:grid;grid-template-columns:.9fr 1.1fr;gap:14px;width:min(1040px,calc(100vw - 32px));margin:42px 0 62px;transform:translateX(-50%)}
   .jh-detail-grid figure{margin:0;overflow:hidden;border:1px solid var(--bbfc-border);border-radius:18px;background:var(--bbfc-fill-2)}
   .jh-detail-grid img{display:block;width:100%;height:520px;margin:0;object-fit:cover}
-  .jh-detail-grid figcaption,.jh-movement figcaption{padding:15px 16px 17px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65}
-  .jh-detail-grid figcaption small,.jh-movement figcaption small{display:block;margin-top:5px;color:var(--bbfc-gray-2);font-size:9px}
-  .jh-team{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);width:min(1040px,calc(100vw - 32px));margin:44px 0 64px;overflow:hidden;border-radius:20px;background:#13090a;color:#fff;transform:translateX(-50%)}
-  .jh-team img{display:block;width:100%;height:620px;margin:0;object-fit:cover;object-position:center 35%}
+  .jh-detail-grid figcaption{padding:15px 16px 17px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65}
+  .jh-detail-grid figcaption small{display:block;margin-top:5px;color:var(--bbfc-gray-2);font-size:9px}
+  .jh-team{position:relative;left:50%;display:grid;grid-template-columns:1fr;width:min(1040px,calc(100vw - 32px));margin:44px 0 64px;overflow:hidden;border-radius:20px;background:#13090a;color:#fff;transform:translateX(-50%)}
+  .jh-team img{display:block;width:100%;height:auto;margin:0;object-fit:cover}
   .jh-team figcaption{display:flex;padding:38px 34px;flex-direction:column;justify-content:center;background:radial-gradient(circle at 100% 0,rgba(208,28,34,.45),transparent 42%),#13090a}
   .jh-team figcaption>span{color:#ff6b62;font-size:10px;font-weight:850;letter-spacing:.14em}
   .jh-team figcaption>strong{margin-top:15px;color:#fff;font-size:clamp(25px,3.4vw,38px);line-height:1.15;letter-spacing:-.045em}
@@ -216,8 +212,6 @@ fashionProfile:
   .jh-video__media>[data-inline-video-poster] b{display:grid;width:28px;height:28px;place-items:center;border-radius:50%;background:#fff;color:#9f121a;font-size:12px}
   .jh-video__media iframe{display:block;width:100%;height:100%;border:0;background:#080304}
   .jh-video__media .inline-video__close{position:absolute;z-index:2;top:10px;right:10px;display:grid;width:38px;height:38px;padding:0;place-items:center;border:1px solid rgba(255,255,255,.5);border-radius:50%;cursor:pointer;background:rgba(10,3,4,.84);color:#fff;font-size:24px;line-height:1}
-  .jh-movement{position:relative;left:50%;width:min(1040px,calc(100vw - 32px));margin:14px 0 64px;overflow:hidden;border:1px solid var(--bbfc-border);border-radius:18px;background:var(--bbfc-fill-2);transform:translateX(-50%)}
-  .jh-movement img{display:block;width:100%;height:auto;margin:0}
   .jh-recipe{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:38px 0 60px}
   .jh-recipe article{padding:24px 21px 25px;border-top:3px solid #b51a22;background:var(--bbfc-fill-2)}
   .jh-recipe article>span{color:#b51a22;font-size:11px;font-weight:850;letter-spacing:.1em}
@@ -241,8 +235,8 @@ fashionProfile:
   .jh-shop-note{color:var(--bbfc-gray-2)!important;font-size:10px!important;text-align:center}
   @keyframes jh-enter{from{opacity:.55;translate:0 14px}to{opacity:1;translate:0 0}}
   @media(prefers-reduced-motion:no-preference){.jh-enter{animation:jh-enter .72s cubic-bezier(.22,1,.36,1) both}}
-  @media(max-width:820px){.jh-outfit-map{grid-template-columns:repeat(2,minmax(0,1fr))}.jh-outfit-map article:nth-child(3){border-top:1px solid rgba(255,255,255,.14);border-left:0}.jh-outfit-map article:nth-child(4){border-top:1px solid rgba(255,255,255,.14)}.jh-team{grid-template-columns:1fr}.jh-team img{height:auto}.jh-shop article{grid-template-columns:1fr}.jh-shop figure img{height:310px;min-height:0}}
+  @media(max-width:820px){.jh-outfit-map{grid-template-columns:repeat(2,minmax(0,1fr))}.jh-outfit-map article:nth-child(3){border-top:1px solid rgba(255,255,255,.14);border-left:0}.jh-outfit-map article:nth-child(4){border-top:1px solid rgba(255,255,255,.14)}.jh-shop article{grid-template-columns:1fr}.jh-shop figure img{height:310px;min-height:0}}
   @media(max-width:680px){.jh-stage figcaption{position:relative;width:auto;padding:26px 22px 29px;background:linear-gradient(135deg,#6e080e,#1b090a)}.jh-detail-grid,.jh-video,.jh-shop>div{grid-template-columns:1fr}.jh-detail-grid{gap:24px}.jh-detail-grid img{height:auto;max-height:none}.jh-video__media{order:-1}.jh-recipe{grid-template-columns:1fr}.jh-shop article{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}.jh-shop figure img{height:100%;min-height:360px}}
-  @media(max-width:500px){.jh-outfit-map{grid-template-columns:1fr}.jh-outfit-map article+article,.jh-outfit-map article:nth-child(3){border-top:1px solid rgba(255,255,255,.14);border-left:0}.jh-outfit-map,.jh-stage,.jh-detail-grid,.jh-team,.jh-video,.jh-movement,.jh-shop{margin-top:36px;margin-bottom:48px}.jh-team figcaption{padding:27px 22px 30px}.jh-video__copy{padding:25px 21px 27px}.jh-shop article{grid-template-columns:1fr}.jh-shop figure img{height:290px;min-height:0}.jh-shop article>section{padding:23px 20px 24px}}
+  @media(max-width:500px){.jh-outfit-map{grid-template-columns:1fr}.jh-outfit-map article+article,.jh-outfit-map article:nth-child(3){border-top:1px solid rgba(255,255,255,.14);border-left:0}.jh-outfit-map,.jh-stage,.jh-detail-grid,.jh-team,.jh-video,.jh-shop{margin-top:36px;margin-bottom:48px}.jh-team figcaption{padding:27px 22px 30px}.jh-video__copy{padding:25px 21px 27px}.jh-shop article{grid-template-columns:1fr}.jh-shop figure img{height:290px;min-height:0}.jh-shop article>section{padding:23px 20px 24px}}
   @media(prefers-reduced-motion:reduce){.jh-stage,.jh-video__media>[data-inline-video-poster] img,.jh-shop figure img{animation:none;transition:none}.jh-video__media>[data-inline-video-poster]:hover img,.jh-shop article:hover figure img{transform:none;filter:none}}
 </style>
