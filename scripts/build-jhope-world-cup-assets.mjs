@@ -35,13 +35,13 @@ for (const [key, buffer] of Object.entries(buffers)) {
   console.log(`${key}: ${meta.width}x${meta.height}`);
 }
 
-await sharp(buffers.officialJhope).resize(1600, 900, { fit: 'cover', position: 'center' }).webp({ quality: 89 }).toFile(path.join(outDir, 'cover.webp'));
-await sharp(buffers.officialJhope).resize(1000, 1000, { fit: 'cover', position: 'center' }).webp({ quality: 88 }).toFile(path.join(outDir, 'card.webp'));
+await sharp(buffers.officialJhope).resize(1600, 900, { fit: 'cover', position: 'center' }).webp({ quality: 89 }).toFile(path.join(outDir, 'cover-bts-official.webp'));
+await sharp(buffers.officialJhope).resize(1000, 1000, { fit: 'cover', position: 'center' }).webp({ quality: 88 }).toFile(path.join(outDir, 'card-bts-official.webp'));
 await sharp(buffers.profile).resize(800, 800, { fit: 'cover', position: 'attention' }).webp({ quality: 88 }).toFile(path.join(outDir, 'profile.webp'));
 await sharp(buffers.fullLook).resize(1600, 1067, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 89 }).toFile(path.join(outDir, 'full-look.webp'));
 await sharp(buffers.fullLook).extract({ left: 785, top: 50, width: 650, height: 800 }).webp({ quality: 89 }).toFile(path.join(outDir, 'jersey-belts.webp'));
 await sharp(buffers.fullLook).extract({ left: 690, top: 335, width: 830, height: 700 }).webp({ quality: 89 }).toFile(path.join(outDir, 'denim-shoes.webp'));
-await sharp(buffers.officialTeam).resize(1600, 1067, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 89 }).toFile(path.join(outDir, 'team.webp'));
+await sharp(buffers.officialTeam).resize(1600, 1067, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 89 }).toFile(path.join(outDir, 'team-bts-official.webp'));
 await sharp(buffers.protocolProduct).resize(1000, 1000, { fit: 'contain', background: '#f7f7f5' }).webp({ quality: 88 }).toFile(path.join(outDir, 'protocol-referee-jersey.webp'));
 await sharp(buffers.jlsProduct).resize(1000, 1000, { fit: 'cover', position: 'center' }).webp({ quality: 88 }).toFile(path.join(outDir, 'jls-washed-wide-denim.webp'));
 await sharp(buffers.videoPoster).resize(1280, 720, { fit: 'cover', position: 'center' }).webp({ quality: 87 }).toFile(path.join(outDir, 'video-poster.webp'));

@@ -5,8 +5,8 @@ category: 'culture'
 cultureSection: 'outfit'
 tags: ['제이홉 패션', '제이홉 착장', '존 로렌스 설리반', '프로토콜 인덱스', '워시드 데님', '벨트 레이어드', 'BTS']
 pubDate: 2026-09-08T11:41:41+09:00
-coverImage: '/images/culture/jhope-world-cup-look/cover.webp'
-cardImage: '/images/culture/jhope-world-cup-look/card.webp'
+coverImage: '/images/culture/jhope-world-cup-look/cover-bts-official.webp'
+cardImage: '/images/culture/jhope-world-cup-look/card-bts-official.webp'
 coverImageAlt: '붉은 프로토콜 인덱스 풋볼 저지와 존 로렌스 설리반 워시드 와이드 데님을 입고 카트에서 팔을 뻗는 제이홉'
 coverImageCaption: '제이홉은 붉은 커스텀 저지 아래 같은 색의 와이드 데님을 두고, 두 겹의 벨트와 검정 액세서리로 경계선을 만들었다. Photo: BTS official Instagram.'
 coverImageWidth: 1600
@@ -104,7 +104,7 @@ fashionProfile:
 벨트를 겹칠 때 중요한 것은 버클을 화려하게 늘리는 일이 아니다. 두 벨트가 완전히 포개지지 않도록 높이를 조금 어긋나게 두고, 상의 밑단을 그 위에서 끝내야 한다. 그래야 벨트가 액세서리 두 개가 아니라 몸의 비율을 나누는 선으로 보인다. 제이홉의 착장이 워싱 데님이나 저지 하나만 검색해서는 완성되지 않는 이유다.
 
 <figure class="jh-team">
-  <img src="/images/culture/jhope-world-cup-look/team.webp" alt="빨강 검정 흰색 의상을 입고 검은 배경 앞에 선 BTS 일곱 멤버" width="1600" height="1067" loading="lazy" decoding="async" />
+  <img src="/images/culture/jhope-world-cup-look/team-bts-official.webp" alt="빨강 검정 흰색 의상을 입고 검은 배경 앞에 선 BTS 일곱 멤버" width="1600" height="1067" loading="lazy" decoding="async" />
   <figcaption><span>BTS · ONE TEAM</span><strong>일곱 벌을 묶은 것은<br />같은 디자인이 아니라 세 가지 색이었습니다</strong><p>각자의 브랜드와 실루엣은 달랐지만 빨강·검정·흰색이 반복되며 한 팀처럼 보였다. 제이홉은 그 팔레트 안에서 저지보다 와이드 데님의 면적을 가장 크게 키웠다.</p><small>Photo: BTS official Instagram</small></figcaption>
 </figure>
 
