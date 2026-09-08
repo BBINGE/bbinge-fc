@@ -47,7 +47,7 @@ fashionProfile:
 
 제이홉<span class="foreign-note" lang="en">(j-hope; 대한민국 래퍼·댄서, 1994년생)</span>이 2026년 7월 19일 FIFA 월드컵 결승 하프타임 쇼에 등장했을 때, 상의만 보면 전형적인 붉은 풋볼 저지처럼 보였다. 하지만 시선을 아래로 내리면 옷의 중심이 달라진다. 검정이 길게 번진 붉은 와이드 데님, 허리에 겹친 벨트 두 개, 손목과 손을 끊어 주는 검정 밴드와 장갑이 저지를 무대 의상으로 바꿨다.
 
-확인된 브랜드도 분명하다. 상의는 서울의 디자인 스튜디오 **프로토콜 인덱스<span class="foreign-note" lang="en">(Protocol Index)</span>**가 제작한 커스텀 풋볼 저지, 바지는 **존 로렌스 설리반<span class="foreign-note" lang="en">(John Lawrence Sullivan)</span>**의 워시드 와이드 데님이다. 신발은 REIMAGINE, 전체 스타일링은 페리 로젠스윅과 닉 로열의 듀오 HARDSTYLE이 맡았다. 이 글에서는 월드컵이라는 큰 사건보다, 그 한 벌을 다시 입고 싶게 만드는 비율과 브랜드를 먼저 본다.
+확인된 브랜드도 분명하다. 상의는 서울의 디자인 스튜디오 <strong>프로토콜 인덱스<span class="foreign-note" lang="en">(Protocol Index)</span></strong>가 제작한 커스텀 풋볼 저지, 바지는 <strong>존 로렌스 설리반<span class="foreign-note" lang="en">(John Lawrence Sullivan)</span></strong>의 워시드 와이드 데님이다. 신발은 REIMAGINE, 전체 스타일링은 페리 로젠스윅과 닉 로열의 듀오 HARDSTYLE이 맡았다. 이 글에서는 월드컵이라는 큰 사건보다, 그 한 벌을 다시 입고 싶게 만드는 비율과 브랜드를 먼저 본다.
 
 <section class="jh-outfit-map" aria-label="제이홉 월드컵 착장 구성">
   <article><span>01 · TOP</span><strong>Protocol Index</strong><p>붉은 커스텀 풋볼 저지</p></article>
