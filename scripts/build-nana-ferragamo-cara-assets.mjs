@@ -46,7 +46,7 @@ await sharp(nana)
   .extract({ left: 580, top: 220, width: 1000, height: 1250 })
   .resize(960, 1200)
   .webp({ quality: 88, effort: 6 })
-  .toFile(path.join(outputDir, 'profile.webp'));
+  .toFile(path.join(outputDir, 'profile-ferragamo.webp'));
 
 await webp(downloaded.front, 'cara-front.webp', 1000, 1000, 'cover', 'centre');
 await webp(downloaded.open, 'cara-open.webp', 1000, 1000, 'cover', 'centre');

@@ -19,7 +19,7 @@ fashionProfile:
   romanName: 'NANA'
   realName: '임진아'
   hanjaName: '林珍兒'
-  portrait: '/images/culture/nana-ferragamo-cara/profile.webp'
+  portrait: '/images/culture/nana-ferragamo-cara/profile-ferragamo.webp'
   portraitAlt: '아이보리 레이스업 블라우스를 입고 정면을 바라보는 나나의 상반신'
   portraitCredit: 'Photo: Ferragamo official Instagram · Seoul 2026'
   birthDate: '1991-09-14'
