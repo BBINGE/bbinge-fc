@@ -60,7 +60,7 @@
 .cup-record .cup-side { display: flex; min-width: 0; flex-direction: column; align-items: center; gap: 6px; }
 .cup-record .cup-crest-slot { display: grid; place-items: center; flex: none; width: 88px; height: 88px; margin-bottom: 6px; border-radius: 14px; background: #fff; box-shadow: 0 3px 12px rgba(3,10,40,.16); }
 .cup-record .archive-body .cup-club-crest { display: block; width: 68px; height: 68px; object-fit: contain; margin: 0; border: 0; border-radius: 0; background: none; }
-.cup-record .cup-flag-slot { display: inline-grid; place-items: center; width: 32px; height: 24px; flex: none; border-radius: 4px; background: #fff; }
+.cup-record .cup-flag-slot { display: inline-grid; place-items: center; width: 24px; height: 16px; flex: none; background: transparent; }
 .cup-record .archive-body img.cup-flag { display: inline-block; width: 28px; height: 20px; object-fit: contain; vertical-align: middle; margin: 0 4px 0 0; border: 0; border-radius: 0; background: none; }
 .cup-record .cup-side strong { font-size: 20px; line-height: 1.4; text-wrap: balance; color: var(--cup-paper); }
 .cup-record .cup-original { color: #c7dcff; font-size: 11px; letter-spacing: .045em; line-height: 1.5; overflow-wrap: anywhere; }

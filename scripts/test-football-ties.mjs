@@ -12,7 +12,7 @@ for (let i = 0; i < 12; i++) {
   assert.equal((html.match(/class="cup-flag-slot"/g) ?? []).length, 2);
   assert(!html.includes('cup-flag-emblem'));
 }
-assert.equal(resolveClub('rapid','1955-56').crest, undefined);
+assert(resolveClub('rapid','1955-56').crest.src.endsWith('rapid-supplied.jfif'));
 assert(resolveClub('milan','1955-56').crest.src.endsWith('milan-1946.svg'));
 assert.throws(() => resolveClub('milan','1988-89'), /Unreviewed historical flag/);
 assert.throws(() => resolveClub('unknown','1955-56'), /Unknown historical club/);

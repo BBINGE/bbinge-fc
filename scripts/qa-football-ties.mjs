@@ -29,11 +29,12 @@ try {
    slots:document.querySelectorAll('.cup-crest-slot').length,
    emptySlots:document.querySelectorAll('.cup-crest-slot:empty').length,
    countryFlags:document.querySelectorAll('.cup-country img.cup-flag').length,
-   whiteSlots:[...document.querySelectorAll('.cup-crest-slot,.cup-flag-slot')].every(el=>getComputedStyle(el).backgroundColor==='rgb(255, 255, 255)'),
+   whiteSlots:[...document.querySelectorAll('.cup-crest-slot')].every(el=>getComputedStyle(el).backgroundColor==='rgb(255, 255, 255)'),
+   bareFlags:[...document.querySelectorAll('.cup-flag-slot')].every(el=>getComputedStyle(el).backgroundColor==='rgba(0, 0, 0, 0)' && el.clientWidth===24 && el.clientHeight===16),
    uniformSlots:new Set([...document.querySelectorAll('.cup-crest-slot')].map(el=>`${el.clientWidth}x${el.clientHeight}`)).size===1
   }));
-  assert.equal(data.overflow,false);assert.equal(data.flags,24);assert.equal(data.crests,8);assert.equal(data.sprite,false);assert.equal(data.clipped,0);assert(data.images);assert.equal(data.headingCount,12);
-  assert.equal(data.slots,24);assert.equal(data.emptySlots,16);assert.equal(data.countryFlags,24);assert(data.whiteSlots);assert(data.uniformSlots);
+  assert.equal(data.overflow,false);assert.equal(data.flags,24);assert.equal(data.crests,24);assert.equal(data.sprite,false);assert.equal(data.clipped,0);assert(data.images);assert.equal(data.headingCount,12);
+  assert.equal(data.slots,24);assert.equal(data.emptySlots,0);assert.equal(data.countryFlags,24);assert(data.whiteSlots);assert(data.bareFlags);assert(data.uniformSlots);
   for (const number of [1,2,8,10,12]) {
    const card=page.locator(`.cup-tie[data-tie$=":match-${number}"]`);
    await card.screenshot({path:`${out}/card-${width}-${number}.png`});

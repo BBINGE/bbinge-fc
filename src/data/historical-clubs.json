@@ -38,8 +38,18 @@
         "src": "/images/flags/yu-1946.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/partizan-supplied.jpg",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "FK PARTIZAN_1950-55.jpg",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "voros-lobogo": {
     "name": "뵈뢰시 로보고",
@@ -53,8 +63,18 @@
         "src": "/images/flags/hu.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/voros-lobogo-supplied.png",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "VÖRÖS LOBOGÓ.png",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "anderlecht": {
     "name": "RSC 안데를레흐트",
@@ -94,8 +114,18 @@
         "src": "/images/flags/ch.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/servette-supplied.jpg",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "SERVETTE FC.jpg",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "real-madrid": {
     "name": "레알 마드리드",
@@ -135,8 +165,18 @@
         "src": "/images/flags/de.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/rot-weiss-essen-supplied.webp",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "ROT-WEISS ESSEN.webp",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "hibernian": {
     "name": "히버니언 FC",
@@ -150,8 +190,18 @@
         "src": "/images/flags/gb-sct.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/hibernian-supplied.jfif",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "HIBERNIAN FC.jfif",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "djurgarden": {
     "name": "유고덴 IF",
@@ -165,8 +215,18 @@
         "src": "/images/flags/se.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/djurgarden-supplied.png",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "djurgardens_if_60-70.png",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "gwardia": {
     "name": "그바르디아 바르샤바",
@@ -180,8 +240,18 @@
         "src": "/images/flags/pl.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/gwardia-supplied.jpg",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "GWARDIA WARSZAWA.jpg",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "aarhus": {
     "name": "오르후스 GF",
@@ -195,8 +265,18 @@
         "src": "/images/flags/dk.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/aarhus-supplied.svg",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "오르후스.svg",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "reims": {
     "name": "스타드 드 랭스",
@@ -237,8 +317,18 @@
         "src": "/images/flags/at.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/rapid-supplied.jfif",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "SK RAPID WIEN.jfif",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "psv": {
     "name": "PSV 에인트호번",
@@ -252,8 +342,18 @@
         "src": "/images/flags/nl.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/psv-supplied.png",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "PSV EINDHOVEN.png",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   },
   "milan": {
     "name": "AC 밀란",
@@ -293,7 +393,17 @@
         "src": "/images/flags/saar-1947.svg"
       }
     ],
-    "crests": [],
-    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/saarbrucken-supplied.jfif",
+        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "sourceFile": "1. FC SAARBRÜCKEN.jfif",
+        "selection": "operator-supplied"
+      }
+    ],
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
   }
 }
