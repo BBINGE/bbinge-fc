@@ -22,7 +22,8 @@
 1. `BBINGE_FC_BRIEF.md` — 프로젝트의 단일 설계 기준 (브랜드·구조·성능 원칙)
 2. `CLAUDE.md` — 장기 운영 규칙
 3. `EDITORIAL_WRITING_RULES.md` — 전 카테고리 문체·소제목·원어 병기·공개 본문 규칙
-4. `HANDOFF.md`의 `CURRENT-BRIEF:START`부터 `CURRENT-BRIEF:END`까지 — 현재 구현 상태·최근 발행·다음 작업
+4. `CONTENT_EDITORIAL_INTENT.md` — 카테고리별 독자 목적·편집 의도·확정 설계와 반복하지 않을 실수
+5. `HANDOFF.md`의 `CURRENT-BRIEF:START`부터 `CURRENT-BRIEF:END`까지 — 현재 구현 상태·최근 발행·다음 작업
 
 `HANDOFF.md`의 나머지는 보존용 작업 연대기다. 새 세션마다 1,800줄 전체를 읽지 않는다. 실제 작업과 관련된 파일명·카테고리·기능·과거 결정이 필요할 때 `rg`로 해당 항목만 찾아 읽는다.
 
