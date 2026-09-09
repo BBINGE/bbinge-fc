@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-09T17:34:12.577Z",
+  "updatedAt": "2026-09-09T20:26:39.238Z",
   "matches": [
     {
       "id": "2594578",
@@ -9,9 +9,9 @@
       "away": "Viking",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "1H",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "FT",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-10"
@@ -23,9 +23,9 @@
       "away": "Telstar",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rsrxrt1473534783.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xg1ss31579463659.png",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "status": "HT",
+      "status": "FT",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-10"
@@ -37,9 +37,9 @@
       "away": "아틀레티코 마드리드",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "HT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-10"
@@ -51,9 +51,9 @@
       "away": "Slovan Bratislava",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "HT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-10"
