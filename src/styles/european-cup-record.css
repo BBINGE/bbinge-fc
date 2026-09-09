@@ -1,4 +1,11 @@
 .cup-record .archive-body figure.cup-design { width: 100%; }
+.cup-record .cup-participant-scroll { overflow-x: auto; }
+.cup-record .archive-body .cup-participant-scroll table { display: table; min-width: 680px; white-space: normal; }
+.cup-record .archive-body .cup-participant-scroll th:nth-child(1) { width: 20%; }
+.cup-record .archive-body .cup-participant-scroll th:nth-child(2) { width: 28%; }
+.cup-record .archive-body .cup-participant-scroll th:nth-child(3) { width: 12%; }
+.cup-record .archive-body .cup-participant-scroll td { vertical-align: middle; }
+.cup-record .archive-body .cup-participant-scroll td:nth-child(3) { white-space: nowrap; }
 .cup-record .archive-body .cup-entrants { margin: 0 0 48px; }
 .cup-record .archive-body .cup-entrants h3 { margin-top: 0; }
 .cup-record .archive-body .cup-entrants table { display: table; table-layout: fixed; width: 100%; margin: 20px 0 0; white-space: normal; }
