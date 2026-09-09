@@ -16,10 +16,9 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
 const halls = (Object.keys(cultureSections) as CultureSection[]).map((key) => ({
   key,
   ...cultureSections[key],
-  entries: entries.filter((entry) => entry.data.cultureSection === key),
+  entries: entries.filter((entry) => !entry.data.draft && entry.data.cultureSection === key)
+    .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime() || a.id.localeCompare(b.id)),
 }));
-const hallLeadStyle = (hall: (typeof halls)[number]) =>
-  `object-position:${hall.leadImageFocus.x}% ${hall.leadImageFocus.y}%;transform-origin:${hall.leadImageFocus.x}% ${hall.leadImageFocus.y}%;scale:${hall.leadImageFocus.scale}`;
 const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSection ? cultureSections[entry.data.cultureSection] : null;
 ---
 
@@ -38,22 +37,22 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     <div class="fashion-section-title"><p>DEPARTMENT DIRECTORY</p><h2 id="fashion-halls-title">축디의 세 편집관</h2><span>02–03F</span></div>
     <div class="fashion-halls__grid">
       {halls.map((hall) => {
-        const hallLead = hall.entries.find((entry) => entry.id === hall.leadArticleId) ?? hall.entries[0];
+        const hallLead = hall.entries[0];
         return (
-          <a class:list={['fashion-hall', `fashion-hall--${hall.key}`]} href={getCultureSectionPath(hall.key)}>
-            <div class="fashion-hall__media">
-              {hallLead && imageFor(hallLead) && <img src={imageFor(hallLead)} alt="" loading="lazy" style={hallLeadStyle(hall)} />}
+          <div class:list={['fashion-hall', `fashion-hall--${hall.key}`]}>
+            <a class="fashion-hall__media" href={hallLead ? getArticlePath(hallLead.data.category, hallLead.id) : getCultureSectionPath(hall.key)} aria-label={hallLead ? hallLead.data.title : `${hall.label} 전체 보기`}>
+              {hallLead && imageFor(hallLead) && <img src={imageFor(hallLead)} alt="" loading="lazy" style={imageFocusStyle(imageFor(hallLead)) ?? 'object-position:50% 0%'} />}
               <span>{String(hall.entries.length).padStart(2,'0')} STORIES</span>
-            </div>
+            </a>
             <div class="fashion-hall__copy">
               <span>{hall.floor}<small>F</small></span>
               <div><p>{hall.en}</p><h3>{hall.label}</h3><small>{hall.description}</small></div>
-              <span class="fashion-hall__cta">
+              <a class="fashion-hall__cta" href={getCultureSectionPath(hall.key)} aria-label={hall.ctaLabel}>
                 <span><small>ENTER {hall.floor}F</small><strong>{hall.ctaLabel}</strong></span>
                 <i aria-hidden="true">↗</i>
-              </span>
+              </a>
             </div>
-          </a>
+          </div>
         );
       })}
     </div>
@@ -112,7 +111,8 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
   .fashion-hall--boutique { --hall-accent:#f4d68b; --hall-gradient:linear-gradient(140deg,#14100a 0%,#5f4318 58%,#b17d20 100%); --hall-cta:linear-gradient(110deg,#edc75e 0%,#fff0b9 100%); --hall-cta-ink:#3a2705; }
   .fashion-hall--kit { --hall-accent:#a5d1ff; --hall-gradient:linear-gradient(140deg,#06111e 0%,#12365d 58%,#1763a5 100%); --hall-cta:linear-gradient(110deg,#b9ddff 0%,#f5fbff 100%); --hall-cta-ink:#082c4d; }
   .fashion-hall:hover,.fashion-hall:focus-visible { border-color:var(--hall-accent); outline:none; transform:translateY(-6px); box-shadow:0 24px 48px -25px rgba(8,20,42,.82); }
-  .fashion-hall__media { position:relative; aspect-ratio:1.38/1; overflow:hidden; background:var(--bbfc-fill); }
+  .fashion-hall__media { display:block; position:relative; aspect-ratio:1.38/1; overflow:hidden; background:var(--bbfc-fill); }
+  .fashion-hall a:focus-visible { outline:3px solid var(--hall-accent); outline-offset:-3px; }
   .fashion-hall__media::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(4,8,15,.03) 34%,rgba(4,8,15,.72) 100%); }
   .fashion-hall__media img { width:100%;height:100%;object-fit:cover;transition:transform .45s ease; }
   .fashion-hall:hover .fashion-hall__media img { transform:scale(1.025); }
