@@ -8,6 +8,9 @@ for (let i = 0; i < 12; i++) {
   assert(!html.includes('background-position'));
   assert.equal((html.match(/class="cup-side"/g) ?? []).length, 2);
   assert.equal((html.match(/class="cup-flag"/g) ?? []).length, 2);
+  assert.equal((html.match(/class="cup-crest-slot"/g) ?? []).length, 2);
+  assert.equal((html.match(/class="cup-flag-slot"/g) ?? []).length, 2);
+  assert(!html.includes('cup-flag-emblem'));
 }
 assert.equal(resolveClub('rapid','1955-56').crest, undefined);
 assert(resolveClub('milan','1955-56').crest.src.endsWith('milan-1946.svg'));

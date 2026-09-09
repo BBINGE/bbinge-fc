@@ -11,7 +11,8 @@ try {
  const page=await browser.newPage();
  for (const width of [380,768,1440]) {
   await page.setViewportSize({width,height:1000});
-  await page.goto(`${base}/archive/european-club/european-cup/1955-56-european-cup/`,{waitUntil:'networkidle'});
+  await page.goto(`${base}/archive/european-club/european-cup/1955-56-european-cup/`,{waitUntil:'domcontentloaded'});
+  await page.evaluate(()=>document.fonts.ready);
   assert.equal(await page.locator('.cup-tie').count(),12);
   for (const card of await page.locator('.cup-tie').all()) {
    await card.scrollIntoViewIfNeeded();
@@ -24,9 +25,15 @@ try {
    sprite:!!document.querySelector('[style*="background-position"]'),
    clipped:[...document.querySelectorAll('.cup-side,.cup-leg-results dd')].filter(el=>el.scrollWidth>el.clientWidth+1).length,
    images:[...document.querySelectorAll('.cup-tie img')].every(img=>img.naturalWidth>0),
-   headingCount:document.querySelectorAll('h3.cup-match').length
+   headingCount:document.querySelectorAll('h3.cup-match').length,
+   slots:document.querySelectorAll('.cup-crest-slot').length,
+   emptySlots:document.querySelectorAll('.cup-crest-slot:empty').length,
+   countryFlags:document.querySelectorAll('.cup-country img.cup-flag').length,
+   whiteSlots:[...document.querySelectorAll('.cup-crest-slot,.cup-flag-slot')].every(el=>getComputedStyle(el).backgroundColor==='rgb(255, 255, 255)'),
+   uniformSlots:new Set([...document.querySelectorAll('.cup-crest-slot')].map(el=>`${el.clientWidth}x${el.clientHeight}`)).size===1
   }));
   assert.equal(data.overflow,false);assert.equal(data.flags,24);assert.equal(data.crests,8);assert.equal(data.sprite,false);assert.equal(data.clipped,0);assert(data.images);assert.equal(data.headingCount,12);
+  assert.equal(data.slots,24);assert.equal(data.emptySlots,16);assert.equal(data.countryFlags,24);assert(data.whiteSlots);assert(data.uniformSlots);
   for (const number of [1,2,8,10,12]) {
    const card=page.locator(`.cup-tie[data-tie$=":match-${number}"]`);
    await card.screenshot({path:`${out}/card-${width}-${number}.png`});
