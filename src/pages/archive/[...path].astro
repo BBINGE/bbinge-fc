@@ -1,5 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ArchivePortal from '../../components/ArchivePortal.astro';
+import { archiveHallFor, archiveHalls } from '../../config/archiveHalls';
+import '../../styles/archive-halls.css';
 import BrazilIdentity from '../../components/BrazilIdentity.astro';
 import SpainIdentity from '../../components/SpainIdentity.astro';
 import { archiveBranches, type ArchiveBranch, type ArchiveIndex } from '../../data/archive';
@@ -18,7 +21,8 @@ export function getStaticPaths() {
 const { branch, index } = Astro.props as Props;
 const isBrazilLegendIndex = branch.id === 'legends' && index?.slug === 'brazil';
 const isSpainLegendIndex = branch.id === 'legends' && index?.slug === 'spain';
-const pageTitle = index?.label ?? branch.title;
+const portalHall = !index && ['legends','awards'].includes(branch.id) ? (branch.id==='legends'?'people':'awards') : undefined;
+const pageTitle = index?.label ?? (portalHall==='people'?'인물관':portalHall==='awards'?'시상관':branch.title);
 const pageDescription = index
   ? `${branch.title} 가운데 ${index.label}에 관한 기록을 축적하는 색인입니다.`
   : branch.description;
@@ -26,6 +30,7 @@ const branchRecords = (await getCollection('archive', ({ data }) =>
   !data.draft && data.branch === branch.id
 )).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || b.id.localeCompare(a.id));
 const records = index ? branchRecords.filter((record) => record.data.index === index.slug) : branchRecords;
+if (index && branch.id !== 'legends') records.sort((a,b)=>a.data.year-b.data.year || a.id.localeCompare(b.id));
 const branchGuide = !index && records.length === 0 ? {
   leagues: {
     eyebrow: '리그별 기록 설계',
@@ -82,11 +87,14 @@ const collectionSchema = {
     ...(index ? [{ label: index.label, href: `/archive/${branch.id}/${index.slug}/` }] : []),
   ]}
 >
-  <div class="collection-page">
+  {portalHall ? <ArchivePortal records={records} hall={portalHall} /> : <div class:list={['collection-page', `archive-tone--${archiveHallFor(branch.id,index?.slug)}`]}>
     <nav class="collection-breadcrumb" aria-label="아카이브 경로">
       <a href="/archive/">삥이 아카이브</a><span>/</span>
+      {branch.id !== 'legends' && branch.id !== 'awards' && <><a href="/archive/competitions/">대회관</a><span>/</span></>}
       {index ? <><a href={`/archive/${branch.id}/`}>{branch.title}</a><span>/</span><strong>{index.label}</strong></> : <strong>{branch.title}</strong>}
     </nav>
+
+    <nav class="archive-hall-tabs" aria-label="아카이브 편집관">{archiveHalls.map(h=><a href={h.href}>{h.title}</a>)}</nav>
 
     {isBrazilLegendIndex ? (
       <BrazilIdentity headingLevel={1} />
@@ -139,7 +147,7 @@ const collectionSchema = {
         <span>발행되는 글은 정사각형 썸네일과 함께 이 색인에 순서대로 쌓입니다.</span>
       </div>}
     </section>
-  </div>
+  </div>}
 </Layout>
 
 <style>
@@ -147,10 +155,10 @@ const collectionSchema = {
   .collection-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12px; color: var(--bbfc-gray-2); }
   .collection-breadcrumb a:hover { color: var(--bbfc-blue); }
   .collection-breadcrumb strong { color: var(--bbfc-ink-2); font-weight: 550; }
-  .collection-hero { margin-top: 34px; padding: 58px 0 54px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); }
-  .collection-hero > p { font-size: 10px; font-weight: 650; letter-spacing: .16em; color: var(--bbfc-blue); }
+  .collection-hero { margin-top: 34px; padding: 36px 28px; background:var(--archive-wash); color:var(--bbfc-bg); }
+  .collection-hero > p { font-size: 11px; font-weight: 650; letter-spacing: .16em; color: inherit; }
   .collection-hero h1 { margin-top: 12px; font-size: clamp(40px, 6vw, 72px); line-height: 1; font-weight: 700; letter-spacing: -.06em; }
-  .collection-hero > span { display: block; max-width: 550px; margin-top: 22px; font-size: 14px; line-height: 1.75; color: var(--bbfc-gray-1); }
+  .collection-hero > span { display: block; max-width: 550px; margin-top: 22px; font-size: 14px; line-height: 1.75; color: inherit; }
   .index-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 26px 0; border-bottom: 1px solid var(--bbfc-border); }
   .index-nav a { padding: 8px 12px; border: 1px solid var(--bbfc-border); border-radius: 99px; font-size: 13px; color: var(--bbfc-ink-2); transition: border-color 160ms ease, color 160ms ease, background 160ms ease; }
   .index-nav a:hover, .index-nav a.is-active { border-color: var(--bbfc-blue); background: var(--bbfc-blue-weak); color: var(--bbfc-blue-strong); }
@@ -187,7 +195,7 @@ const collectionSchema = {
   .record-card span { display: block; margin-top: 8px; font-size: 11px; line-height: 1.55; color: var(--bbfc-gray-2); }
   @media (max-width: 767px) {
     .collection-page { padding: 24px 16px 52px; }
-    .collection-hero { margin-top: 24px; padding: 44px 0 42px; }
+    .collection-hero { margin-top: 24px; padding: 28px 20px; }
     .collection-hero h1 { font-size: 42px; }
     .index-nav { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 22px 16px; scrollbar-width: none; }
     .index-nav::-webkit-scrollbar { display: none; }

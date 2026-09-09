@@ -21,7 +21,7 @@ export const storeFloors = [
   { floor: '09', name: '영화관', en: 'MATCH HIGHLIGHTS CINEMA', copy: '한 경기를 다시 살리는 장면과 시간의 상영관', icon: 'cinema', zones: [{ label: '하이라이트', href: '/highlights/' }], href: '/highlights/' },
   { floor: '08', name: '명예의 전당', en: 'HALL OF FAME', copy: '시대와 구단을 대표하는 열한 명의 전시실', icon: 'honor', zones: [{ label: '베스트 11', href: '/squads/' }], href: '/squads/' },
   { floor: '07', name: '전술 · 축떡관', en: 'TACTICS · FOOTBALL MADE EASY', copy: '경기의 구조와 규칙, 판정의 쟁점을 읽는 층', icon: 'tactics', zones: [{ label: '전술관', href: '/tactics/' }, { label: '축떡관', href: '/football-made-easy/' }], href: '/tactics/', split: true },
-  { floor: '06', name: '도서실 · 세계사관', en: 'LIBRARY · WORLD HISTORY', copy: '기록을 꺼내 읽고 축구와 세계사의 관계를 잇는 층', icon: 'library', zones: [{ label: '아카이브', href: '/archive/' }, { label: '세계사관', href: '/history/' }], href: '/archive/', split: true },
+  { floor: '06', name: '도서실 · 세계사관', en: 'LIBRARY · WORLD HISTORY', copy: '인물·대회·시상의 기록을 꺼내 읽고 축구와 세계사를 잇는 층', icon: 'library', zones: [{ label: '인물관', href: '/archive/legends/' }, { label: '대회관', href: '/archive/competitions/' }, { label: '시상관', href: '/archive/awards/' }, { label: '세계사관', href: '/history/' }], href: '/archive/', split: true },
   { floor: '05', name: '오락실', en: 'PB FOOTBALL ARCADE', copy: '축겜과 나만의 GOAT 뽑기가 시작되는 플레이 층', icon: 'arcade', zones: [{ label: '축겜', href: '/play/' }, { label: '나만의 GOAT', href: '/play/' }], href: '/play/' },
   { floor: '04', name: '축행', en: 'FOOTBALL TRAVEL DESK', copy: '경기장과 도시를 잇는 여행 동선과 출발 전 준비', icon: 'travel', zones: [{ label: '여행사', href: '/pilgrimage/' }, { label: '보험사' }], href: '/pilgrimage/' },
   { floor: '03', name: '오뭐입? · 유니폼관', en: 'OOTD · FOOTBALL KIT HALL', copy: '따라 입고 싶은 축구 패션과 시즌 유니폼이 나란히 놓인 두 개의 관', icon: 'fashion', zones: [{ label: '오뭐입?', href: '/culture/outfits/' }, { label: '유니폼관', href: '/culture/kits/' }], href: '/culture/outfits/', split: true },
@@ -53,6 +53,12 @@ const locations: readonly (StoreLocation & { matches: readonly string[] })[] = [
 ];
 
 export function getStoreLocation(pathname: string, breadcrumbHrefs: readonly string[] = []): StoreLocation | null {
+  if (pathname.startsWith('/archive/')) {
+    const hall = pathname.startsWith('/archive/legends/') ? {name:'인물관',href:'/archive/legends/'}
+      : pathname.startsWith('/archive/awards/') ? {name:'시상관',href:'/archive/awards/'}
+      : pathname !== '/archive/' ? {name:'대회관',href:'/archive/competitions/'} : null;
+    if (hall) return {floor:'06',name:`도서실 · ${hall.name}`,en:'LIBRARY · ARCHIVE',href:hall.href,nearby:[{floor:'06',label:'도서실 전체',href:'/archive/'},{floor:'06',label:'세계사관',href:'/history/'}]};
+  }
   const hallFromBreadcrumb = locations.find((location) =>
     location.matches.some((match) => breadcrumbHrefs.includes(match))
   );

@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { archiveHalls, archiveHallFor, type ArchiveHallId } from '../config/archiveHalls';
+import { archiveBranches } from '../data/archive';
+import '../styles/archive-halls.css';
+interface Props { records: CollectionEntry<'archive'>[]; hall?: ArchiveHallId }
+const { records: supplied, hall } = Astro.props;
+const records = supplied.filter(r => !r.data.draft && (!hall || archiveHallFor(r.data.branch, r.data.index) === hall))
+  .sort((a,b) => b.data.pubDate.valueOf()-a.data.pubDate.valueOf() || a.id.localeCompare(b.id));
+const selected = archiveHalls.find(h => h.id === hall);
+const href = (r: typeof records[number]) => `/archive/${r.data.branch}/${r.data.index}/${r.id}/`;
+const groups = archiveBranches.flatMap(branch => branch.indexes.map(index => ({branch,index,records:records.filter(r=>r.data.branch===branch.id && r.data.index===index.slug)}))).filter(g=>g.records.length);
+---
+<main class="archive-portal">
+  <header class:list={['archive-masthead', selected && `archive-tone--${selected.id}`]}>
+    <p>06F · {selected?.en ?? 'BBINGE FC LIBRARY'}</p>
+    <h1>{selected?.title ?? '삥이 아카이브'}</h1>
+    <div><span>{selected?.description ?? '축구의 인물·대회·수상 기록을 당대의 이름과 자료로 연결합니다.'}</span><b>{records.length} RECORDS</b></div>
+  </header>
+  {selected ? <nav class="archive-hall-tabs" aria-label="아카이브 편집관"><a href="/archive/">전체 아카이브</a>{archiveHalls.map(h=><a href={h.href} aria-current={h.id===hall?'page':undefined}>{h.title}</a>)}</nav> : <section class="archive-entrances" aria-label="아카이브 세 편집관">
+    {archiveHalls.map(h=>{
+      const entries=records.filter(r=>archiveHallFor(r.data.branch,r.data.index)===h.id);
+      const latest=entries[0];
+      return <article class:list={['archive-entrance',`archive-tone--${h.id}`]}>
+        <a class="archive-entrance__head" href={h.href}><span>{h.en}</span><h2>{h.title}<i aria-hidden="true">↗</i></h2><p>{h.description}</p><b>{String(entries.length).padStart(2,'0')} RECORDS</b></a>
+        {latest ? <a class="archive-entrance__latest" href={href(latest)}><img src={latest.data.coverImage} alt="" width="160" height="160" /><div><small>최근 입고</small><strong>{latest.data.subject}</strong><span>{latest.data.pubDate.toLocaleDateString('ko-KR')}</span></div><i aria-hidden="true">→</i></a> : <div class="archive-entrance__empty">첫 시상 기록을 준비하고 있습니다.</div>}
+      </article>;
+    })}
+  </section>}
+  {!selected && <details class="archive-editor-note"><summary>삥이FC 기록총서</summary><p>1916년의 운동장에는 소리가 남아 있지 않습니다. 누군가가 공을 찼고, 누군가가 환호했으며, 어떤 선수는 그날 한 나라의 영웅이 되었으나 지금 우리에게 남은 것은 몇 줄의 기록과 빛바랜 사진뿐입니다. 삥이 아카이브는 그 조각들을 다시 한 장면으로 이어봅니다. 선수의 이름과 등번호, 대회의 명칭과 당시의 포지션을 그 시대의 언어로 되돌려놓습니다. 이미 끝난 경기를 바꿀 수는 없겠으나, 그 경기를 바라보는 우리의 자리는 조금 더 가까이 옮겨놓을 수 있을지도 모르니까요.</p></details>}
+  {selected && groups.length>0 && <section class="archive-shelves" aria-label={hall==='people'?'국가·지역별 인물':hall==='awards'?'상별 기록':'대회별 기록'}>
+    {archiveBranches.map(branch=>{
+      const shelves=groups.filter(g=>g.branch.id===branch.id);
+      return shelves.length>0 && <div><h2>{hall==='people'?'국가·지역':hall==='awards'?'상별 기록':branch.title.replace('삥이 IN ','')}</h2><nav>{shelves.map(g=><a href={`/archive/${g.branch.id}/${g.index.slug}/`}>{g.index.label}<b>{g.records.length}</b></a>)}</nav></div>;
+    })}
+  </section>}
+  <section class="archive-arrivals" aria-labelledby="archive-arrivals-title"><div class="archive-list-heading"><h2 id="archive-arrivals-title">{selected?'최근 발행 기록':'최근 입고 자료'}</h2><span>{records.length}편</span></div>
+    {records.length ? <div class="archive-records">{records.map(r=><a class="archive-record" href={href(r)}><img src={r.data.coverImage} alt="" width="640" height="640" loading="lazy" /><p>{archiveHalls.find(h=>h.id===archiveHallFor(r.data.branch,r.data.index))?.title} · {r.data.branch==='legends' ? archiveBranches.find(b=>b.id==='legends')?.indexes.find(i=>i.slug===r.data.index)?.label : r.data.year}</p><h3>{r.data.title}</h3><span>{r.data.description}</span></a>)}</div> : <div class="archive-no-records"><p>아직 발행된 독립 시상 기록이 없습니다.</p><a href="/archive/competitions/">대회 MVP·베스트 11 기록은 대회관에서 보기 →</a></div>}
+  </section>
+</main>

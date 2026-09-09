@@ -56,9 +56,9 @@ export const archiveBranches: ArchiveBranch[] = [
   {
     id: 'awards',
     number: '05',
-    title: '삥이 IN 시상식',
+    title: '삥이 IN 시상',
     originalTitle: 'AWARDS & HONOURS',
-    description: '개인상과 대회별 수상 기록을 수상 당시의 맥락과 함께 보존하는 연감.',
+    description: '발롱도르·유러피언 골든슈처럼 독립된 상의 수상자와 투표, 선정 기준의 변화를 보존하는 연감.',
     indexes: [
       ['ballon-dor', '발롱도르'], ['copa-america-best-player', '코파 아메리카 최우수 선수'], ['top-scorers', '대회별 득점왕'], ['team-of-the-season', '시즌 베스트 11'],
     ].map(([slug, label]) => ({ slug, label })),

@@ -1,6 +1,7 @@
 ---
 import { countByNode, getAncestorChain, getTopLevel } from '../config/categories';
 import CategorySidebar from './CategorySidebar.astro';
+import { archiveHalls } from '../config/archiveHalls';
 import { getCollection } from 'astro:content';
 import { isRecentlyChanged } from '../utils/freshness';
 
@@ -45,7 +46,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
         aria-label="카테고리 메뉴 열기"
         aria-expanded="false"
         aria-controls="bbfc-drawer"
-        class="md:hidden text-[var(--bbfc-gray-1)]"
+        class="lg:hidden text-[var(--bbfc-gray-1)]"
       >
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" />
@@ -58,7 +59,12 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
       </a>
 
       <nav class="hidden lg:flex items-center gap-[14px]" aria-label="주요 메뉴">
-        {primaryNav.map(({ href, label, active, isNew }) => href === '/about/' ? (
+        {primaryNav.map(({ href, label, active, isNew }) => href === '/archive/' ? (
+          <div class="about-nav">
+            <a href={href} class:list={['about-nav-trigger archive-nav-trigger',active && 'is-active']} aria-haspopup="true">{label}{isNew && <span class="nav-new">NEW</span>}<svg viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" /></svg></a>
+            <div class="about-nav-menu archive-nav-menu">{archiveHalls.map(h=><a href={h.href}><span>{h.en}</span><strong>{h.label}</strong><small>{h.description}</small></a>)}</div>
+          </div>
+        ) : href === '/about/' ? (
           <div class="about-nav">
             <a
               href={href}
@@ -105,7 +111,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
 
 <div
   id="bbfc-overlay"
-  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-200 md:hidden z-40"
+  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-200 lg:hidden z-40"
   hidden
 >
 </div>
@@ -113,7 +119,7 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
 <div
   id="bbfc-drawer"
   data-nosnippet
-  class="fixed top-0 left-0 bottom-0 w-[230px] bg-[var(--bbfc-bg)] -translate-x-full transition-transform duration-200 md:hidden overflow-y-auto p-4 z-50"
+  class="fixed top-0 left-0 bottom-0 w-[230px] bg-[var(--bbfc-bg)] -translate-x-full transition-transform duration-200 lg:hidden overflow-y-auto p-4 z-50"
   hidden
 >
   <div class="flex items-center justify-between mb-4">
@@ -125,7 +131,9 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
     </button>
   </div>
   <ul class="space-y-1 mb-4 pb-4 border-b border-[var(--bbfc-line)]">
-    {primaryNav.map(({ href, label, active, isNew }) => href === '/about/' ? (
+    {primaryNav.map(({ href, label, active, isNew }) => href === '/archive/' ? (
+      <li class="mobile-about"><details open={active}><summary class="text-[13.5px] py-2">{label}</summary><div><a href="/archive/">전체 아카이브</a>{archiveHalls.map(h=><a href={h.href}>{h.label}</a>)}</div></details></li>
+    ) : href === '/about/' ? (
       <li class="mobile-about">
         <details open={active}>
           <summary class:list={['text-[13.5px] py-2', active ? 'text-[var(--bbfc-blue)] font-medium' : 'text-[var(--bbfc-ink-2)]']}>{label}</summary>
@@ -155,6 +163,9 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
 </div>
 
 <style>
+  .archive-nav-trigger { font-size:14.5px;white-space:nowrap;font-weight:500; }
+  .archive-nav-trigger.is-active { color:var(--bbfc-blue);font-weight:650; }
+  .archive-nav-menu small { font-size:12px;line-height:1.5; }
   .nav-new { margin-left: 4px; color: var(--bbfc-blue); font-size: 8px; font-weight: 750; letter-spacing: .06em; vertical-align: top; }
   .site-wordmark { display:flex; align-items:center; gap:7px; white-space:nowrap; }
   .site-wordmark__mark { display:grid; flex:0 0 34px; place-items:center; width:34px; height:34px; overflow:visible; }

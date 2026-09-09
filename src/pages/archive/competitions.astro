@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ArchivePortal from '../../components/ArchivePortal.astro';
+import { getCollection } from 'astro:content';
+import { archiveHallFor } from '../../config/archiveHalls';
+const records = await getCollection('archive', ({data}) => !data.draft && archiveHallFor(data.branch,data.index)==='competitions');
+---
+<Layout title="대회관: 축구 대회·시즌·MVP·베스트 11 아카이브" description="국가대표 대회와 클럽 대항전, 각국 리그의 역사와 시즌별 기록을 모은 삥이FC 대회관." adsEligible={false} robots={records.length?'index,follow,max-image-preview:large':'noindex,follow'} breadcrumbs={[{label:'홈',href:'/'},{label:'삥이 아카이브',href:'/archive/'},{label:'대회관',href:'/archive/competitions/'}]}>
+  <ArchivePortal records={records} hall="competitions" />
+</Layout>
