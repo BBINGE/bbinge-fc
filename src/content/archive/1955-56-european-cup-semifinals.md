@@ -17,6 +17,16 @@ relatedGroup: 'european-cup-1955-56'
 draft: false
 ---
 
+<section class="cup-entrants" aria-labelledby="semifinal-entrants">
+<h3 id="semifinal-entrants">4강 진출팀</h3>
+<table aria-labelledby="semifinal-entrants"><thead><tr><th scope="col">구단</th><th scope="col">국가</th><th scope="col">4강 진출</th></tr></thead><tbody>
+<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/reims-1931.svg" alt="" width="32" height="32" loading="lazy" />스타드 드 랭스</span></td><td><span class="cup-entrant-country">프랑스<img src="/images/flags/fr.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
+<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/hibernian-supplied.jfif" alt="" width="32" height="32" loading="lazy" />히버니언 FC</span></td><td><span class="cup-entrant-country">스코틀랜드<img src="/images/flags/gb-sct.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
+<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="" width="32" height="32" loading="lazy" />레알 마드리드</span></td><td><span class="cup-entrant-country">스페인<img src="/images/flags/es-franco-civil.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
+<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/milan-1946.svg" alt="" width="32" height="32" loading="lazy" />AC 밀란</span></td><td><span class="cup-entrant-country">이탈리아<img src="/images/flags/it.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
+</tbody></table>
+</section>
+
 1956년 4월 18일, 스타드 드 랭스는 에든버러에서 첫 유러피언컵 결승 진출을 확정했다. 레알 마드리드와 AC 밀란의 4강 1차전은 그다음 날이었다. 한쪽 대진은 두 경기를 다 마쳤고, 다른 쪽 대진은 아직 킥오프도 하지 않았다. 지금처럼 같은 주간에 나란히 펼쳐지는 준결승을 떠올리면 놓치기 쉬운, 첫 대회의 시간표다. <a class="cite" href="#source-1">[1]</a> <a class="cite" href="#source-6">[6]</a>
 
 열여섯 구단에서 네 구단으로 좁혀진 대진표에는 서로 다른 길이 남아 있었다. 랭스는 8강에서 뵈뢰시 로보고와 합계 열네 골을 주고받았다. 히버니언은 유르고덴을 두 번 이겼다. 레알은 파르티잔 원정에서 홈의 네 골 차 우세를 거의 잃을 뻔했고, 밀란은 라피트 빈을 상대로 2차전에만 일곱 골을 넣었다. 그 과정을 통과한 팀들이 이번에는 결승의 두 자리를 나눠 가져야 했다. [창설 배경·참가팀·16강과 8강](/archive/european-club/european-cup/1955-56-european-cup/)에서 이어지는 이야기다.

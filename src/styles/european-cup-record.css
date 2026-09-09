@@ -1,4 +1,21 @@
 .cup-record .archive-body figure.cup-design { width: 100%; }
+.cup-record .archive-body .cup-entrants { margin: 0 0 48px; }
+.cup-record .archive-body .cup-entrants h3 { margin-top: 0; }
+.cup-record .archive-body .cup-entrants table { display: table; table-layout: fixed; width: 100%; margin: 20px 0 0; white-space: normal; }
+.cup-record .archive-body .cup-entrants th:first-child { width: 49%; }
+.cup-record .archive-body .cup-entrants th:nth-child(2) { width: 29%; }
+.cup-record .archive-body .cup-entrants th:last-child { width: 22%; }
+.cup-record .archive-body .cup-entrants td { vertical-align: middle; }
+.cup-record .cup-entrant-club, .cup-record .cup-entrant-country { display: flex; align-items: center; gap: 8px; }
+.cup-record .archive-body .cup-entrant-club img { flex: none; width: 32px; height: 32px; margin: 0; object-fit: contain; border: 0; border-radius: 0; background: white; }
+.cup-record .archive-body .cup-entrant-country img { flex: none; width: 20px; height: 14px; margin: 0; object-fit: contain; border: 0; border-radius: 0; }
+@media (max-width: 600px) {
+  .cup-record .archive-body .cup-entrants table { font-size: 13px; }
+  .cup-record .archive-body .cup-entrants th, .cup-record .archive-body .cup-entrants td { padding: 16px 6px; }
+  .cup-record .cup-entrant-club, .cup-record .cup-entrant-country { gap: 5px; }
+  .cup-record .archive-body .cup-entrant-club img { width: 28px; height: 28px; }
+  .cup-record .archive-body .cup-entrant-country img { width: 18px; height: 12px; }
+}
 .cup-record .content-cover.content-cover--archive { width: 100%; max-width: none; }
 .cup-record .content-cover.content-cover--archive img { aspect-ratio: auto; }
 .cup-record .cup-record-table { margin: 24px 0 36px; border: 1px solid var(--bbfc-blue); border-radius: var(--bbfc-radius-lg); overflow: hidden; }

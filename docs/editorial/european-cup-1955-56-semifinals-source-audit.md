@@ -18,3 +18,7 @@
 - 대진 12개 기존 합계와 새 4강 2개 합계·결승 진출 라벨 시험 통과.
 - Edge/Playwright 380·768·1440px: 원본 비율 표지, 이미지 로딩, 출처 앵커, 카드 텍스트, 문서 가로 넘침, 기록표 키보드 펼침 및 JS 없는 정적 페이지 통과. 도판 원본 4개 SHA256이 제공 파일과 일치.
 - 재현: PLAYWRIGHT_CHANNEL=msedge 환경에서 node scripts/qa-european-cup-semifinals.mjs. 설치된 Chromium이 있으면 환경변수 생략 가능.
+
+## 4강 진출팀 표 추가
+- 표지 아래에 순위 없는 구단·국가·4강 진출 표. 초대 대회라 네 팀 모두 첫 진출이며 해당 시즌까지 누적 기준이다.
+- 기존 승인 시즌 자산 재사용. 히버니언 엉겅퀴/HFC 문장은 https://www.worldsoccerpins.com/historical-crests-hibernian-fc 에서 구단 인쇄물용 과거 문장으로 확인했으나 시작 연도 미확정. 현대 SVG로 대체하지 않고 제공 JFIF 보존. 랭스는 기존 래스터 포함 SVG, 레알·밀란은 벡터 SVG. 국기 모두 기존 로컬 SVG.
