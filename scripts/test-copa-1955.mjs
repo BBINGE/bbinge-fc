@@ -30,6 +30,13 @@ try {
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
     assert.deepEqual(await page.locator('main img').evaluateAll(xs => xs.filter(x => !x.complete || !x.naturalWidth).map(x => x.src)), []);
     assert.ok(await page.locator('main img.flag').count() >= 20);
+    const notes = await page.locator('main .foreign-note').evaluateAll(xs => xs.map(x => ({text:x.textContent,lang:x.getAttribute('lang'),size:parseFloat(getComputedStyle(x).fontSize),parentSize:parseFloat(getComputedStyle(x.parentElement).fontSize),vertical:getComputedStyle(x).verticalAlign})));
+    for (const name of ['Daniel Enrique Hormazábal Silva', 'Manuel Jesús Muñoz Muñoz', 'Jorge Robledo Oliver', 'René Orlando Meléndez Brito', 'Jaime Caupolicán Ramírez Banda', 'Guillermo Antonio Stábile', 'Rodolfo Joaquín Micheli', 'Óscar Gómez Sánchez']) {
+      assert.equal(notes.filter(n => n.text.includes(name)).length, 1, `first mention: ${name}`);
+    }
+    assert.ok(notes.every(n => n.lang && n.size < n.parentSize && n.vertical !== 'super'));
+    assert.ok(notes.some(n => n.text.includes('Estadio;')));
+    assert.ok(notes.some(n => n.text.includes('volante;')));
     assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://bbingefc.com' + route);
     assert.equal(await page.locator('h1').textContent(), '1955 코파 아메리카 최우수 선수: 엔리케 오르마사발');
     await page.evaluate(() => scrollTo(0, 0));

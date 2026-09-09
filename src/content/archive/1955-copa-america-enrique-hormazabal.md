@@ -8,6 +8,7 @@ subject: '엔리케 오르마사발'
 originalTitle: 'Campeonato Sudamericano de Football 1955'
 keywords: ['1955 코파 아메리카', 'Enrique Hormazábal', '엔리케 오르마사발', '칠레 첫 준우승', '로돌포 미첼리', '1955 남미축구선수권대회']
 pubDate: 2026-09-09T19:25:00+09:00
+updatedDate: 2026-09-09T19:39:00+09:00
 coverImage: '/images/archive/1955-copa-america/cover.png'
 coverImageAlt: '칠레 대표팀 유니폼을 입은 엔리케 오르마사발과 1955 코파 아메리카 MVP 표지'
 coverImageCaption: '엔리케 오르마사발. 오른쪽 위는 1955년 10월 발행된 칠레 100페소 항공우표로, 대회 기념우표는 아니다. 표지 디자인: 삥이FC.'
@@ -53,17 +54,17 @@ draft: false
 
 ### 콜로콜로의 전설이 되기 전, 산티아고 모닝의 오르마사발
 
-오르마사발의 이름에는 콜로콜로의 이미지가 짙게 남아 있지만, 이 대회 선수 명부에 적힌 소속은 산티아고 모닝이었다. 스물네 살의 그는 이미 성인 대표팀에서 다섯 해를 보냈다. 칠레 대표팀에 처음 나선 것은 1950년 2월이었고, 1953년 남미축구선수권대회를 거쳐 이번에는 안방의 공격을 이끌었다. 후대에 기억되는 마지막 소속팀을 1955년 명찰에 그대로 붙이면, 한 선수가 성장해 온 길의 중간이 지워진다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+오르마사발의 이름에는 콜로콜로<span class="foreign-note" lang="es-CL">(Colo-Colo; 칠레 산티아고의 축구 구단)</span>의 이미지가 짙게 남아 있지만, 이 대회 선수 명부에 적힌 소속은 산티아고 모닝<span class="foreign-note" lang="es-CL">(Santiago Morning; 칠레 산티아고의 축구 구단)</span>이었다. 스물네 살의 그는 이미 성인 대표팀에서 다섯 해를 보냈다. 칠레 대표팀에 처음 나선 것은 1950년 2월이었고, 1953년 남미축구선수권대회를 거쳐 이번에는 안방의 공격을 이끌었다. 후대에 기억되는 마지막 소속팀을 1955년 명찰에 그대로 붙이면, 한 선수가 성장해 온 길의 중간이 지워진다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-당시 칠레의 공격진은 한 명에게만 골을 맡기지 않았다. 오르마사발의 6골에 마누엘 무뇨스가 4골, 호르헤 로블레도와 레네 멜렌데스가 각각 3골을 보탰다. 명단에서는 오르마사발이 다섯 공격수의 오른쪽에 놓였고, 칠레 대표팀의 후대 프로필은 그를 미드필더로 소개한다. 그 간격을 이해하려면 오늘날의 포지션 이름 하나보다, 당대 공격선 안에서 동료들과 연결되던 위치를 먼저 봐야 한다. 득점원 여럿이 함께 움직이는 공격에서 그는 가장 자주 골까지 도달한 선수였다.
+당시 칠레의 공격진은 한 명에게만 골을 맡기지 않았다. 오르마사발의 6골에 마누엘 무뇨스<span class="foreign-note" lang="es-CL">(Manuel Jesús Muñoz Muñoz; 칠레 공격수, 1928-2022)</span>가 4골, 호르헤 로블레도<span class="foreign-note" lang="es-CL">(Jorge Robledo Oliver; 칠레 공격수, 1926-1989)</span>와 레네 멜렌데스<span class="foreign-note" lang="es-CL">(René Orlando Meléndez Brito; 칠레 공격수, 1928-2002)</span>가 각각 3골을 보탰다. 경기 명단은 수비수 둘, 하프백<span class="foreign-note" lang="en">(half-back; 2-3-5 대형에서 수비선과 공격선 사이에 놓인 중간선 선수)</span> 셋, 공격수 다섯을 구분하는 2-3-5식으로 배열돼 있으며 오르마사발은 공격선의 오른쪽에 놓였다. 반면 칠레 대표팀의 후대 프로필은 그를 볼란테<span class="foreign-note" lang="es">(volante; 스페인어권에서 미드필더를 가리키는 말)</span>로 소개한다. 당대 명단의 위치와 후대의 포지션 분류 사이에는 이처럼 간격이 있다. 득점원 여럿이 함께 움직이는 공격에서 그는 가장 자주 골까지 도달한 선수였다.
 
-<figure><img src="/images/archive/1955-copa-america/chile-attack.jpg" alt="1955년 칠레 공격진 오르마사발, 멜렌데스, 로블레도, 무뇨스, 라미레스의 단체사진" width="538" height="385" loading="lazy" /><figcaption>왼쪽부터 오르마사발, 멜렌데스, 로블레도, 무뇨스, 라미레스. 《에스타디오》 제619호, 1955년 3월 26일.</figcaption></figure>
+<figure><img src="/images/archive/1955-copa-america/chile-attack.jpg" alt="1955년 칠레 공격진 오르마사발, 멜렌데스, 로블레도, 무뇨스, 라미레스의 단체사진" width="538" height="385" loading="lazy" /><figcaption>왼쪽부터 오르마사발, 멜렌데스, 로블레도, 무뇨스, 라미레스. 《에스타디오》<span class="foreign-note" lang="es-CL">(Estadio; 칠레 스포츠 주간지, 1941-1982)</span> 제619호, 1955년 3월 26일.</figcaption></figure>
 
 ### 일곱 골로 문을 연 산티아고
 
-브라질·볼리비아·콜롬비아가 빠진 여섯 나라의 대회였다. 그럼에도 개최국이 넘어야 할 상대는 분명했다. <a href="/archive/national-team/copa-america/1953-copa-america-heriberto-herrera/">직전 대회 챔피언 파라과이</a>가 왔고, 아르헨티나도 남미 무대로 돌아왔다. 칠레는 에콰도르와의 개막전에서 7-1로 이기며 그 경쟁에 뛰어들었다. 오르마사발이 선제골을 포함해 세 골을 넣었다.
+브라질·볼리비아·콜롬비아가 빠진 여섯 나라의 대회였다. 그럼에도 개최국이 넘어야 할 상대는 분명했다. <a href="/archive/national-team/copa-america/1953-copa-america-heriberto-herrera/">직전 대회 챔피언 파라과이</a>가 왔고, 아르헨티나도 남미 무대로 돌아왔다. 모든 경기는 산티아고<span class="foreign-note" lang="es-CL">(Santiago; 칠레의 수도)</span>의 에스타디오 나시오날<span class="foreign-note" lang="es-CL">(Estadio Nacional; 칠레 국립경기장의 당시 명칭)</span>에서 열렸다. 칠레는 에콰도르와의 개막전에서 7-1로 이기며 그 경쟁에 뛰어들었다. 오르마사발이 선제골을 포함해 세 골을 넣었다.
 
-그러나 다음 상대 페루는 그렇게 무너지지 않았다. 3월 6일 칠레가 4-1까지 달아났는데도 페루는 세 골을 따라붙었다. 오스카르 고메스 산체스<span class="foreign-note" lang="es-PE">(Óscar Gómez Sánchez; 페루 축구선수, 1934-2008)</span>의 동점골로 4-4가 된 직후, 교체 투입된 하이메 라미레스가 다시 칠레의 다섯 번째 골을 넣었다. 5-4. 승점은 칠레가 가져갔지만, 세 골 차조차 안심할 수 없었던 이 경기는 개최국의 공격력과 불안정함을 함께 드러냈다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+그러나 다음 상대 페루는 그렇게 무너지지 않았다. 3월 6일 칠레가 4-1까지 달아났는데도 페루는 세 골을 따라붙었다. 오스카르 고메스 산체스<span class="foreign-note" lang="es-PE">(Óscar Gómez Sánchez; 페루 축구선수, 1934-2008)</span>의 동점골로 4-4가 된 직후, 교체 투입된 하이메 라미레스<span class="foreign-note" lang="es-CL">(Jaime Caupolicán Ramírez Banda; 칠레 공격수, 1931-2003)</span>가 다시 칠레의 다섯 번째 골을 넣었다. 5-4. 승점은 칠레가 가져갔지만, 세 골 차조차 안심할 수 없었던 이 경기는 개최국의 공격력과 불안정함을 함께 드러냈다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 이어진 우루과이전에서도 칠레는 끌려갔다. 1-2에서 오르마사발이 동점골을 넣어 무패를 지켰고, 파라과이에는 5-0으로 승리했다. 개막전의 세 골로 기록을 크게 만든 뒤 사라진 선수가 아니었다. 페루·우루과이·파라과이를 상대로도 한 골씩 보태며 네 경기 연속 득점했다. 칠레가 우승을 다툴 수 있었던 시간과 그의 득점 행진이 겹친다.
 
@@ -71,7 +72,7 @@ draft: false
 
 ### 마지막 경기에서 갈라진 열 번째 우승과 첫 준우승
 
-아르헨티나의 로돌포 미첼리<span class="foreign-note" lang="es-AR">(Rodolfo Joaquín Micheli; 아르헨티나 축구선수, 1930-2022)</span>도 개막부터 폭발했다. 파라과이전에서 혼자 네 골을 넣었고, 에콰도르와 우루과이를 상대로 득점을 이어갔다. 기예르모 스타빌레 감독의 팀은 우루과이를 6-1로 꺾고 칠레와 나란히 승점 7에 도달했다. 단일 리그의 마지막 맞대결이 사실상 우승을 가르는 경기가 됐다. 토너먼트 결승전으로 편성된 경기는 아니었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+아르헨티나의 로돌포 미첼리<span class="foreign-note" lang="es-AR">(Rodolfo Joaquín Micheli; 아르헨티나 축구선수, 1930-2022)</span>도 개막부터 폭발했다. 파라과이전에서 혼자 네 골을 넣었고, 에콰도르와 우루과이를 상대로 득점을 이어갔다. 기예르모 스타빌레<span class="foreign-note" lang="es-AR">(Guillermo Antonio Stábile; 아르헨티나 축구선수·감독, 1905-1966)</span>의 팀은 우루과이를 6-1로 꺾고 칠레와 나란히 승점 7에 도달했다. 단일 리그의 마지막 맞대결이 사실상 우승을 가르는 경기가 됐다. 토너먼트 결승전으로 편성된 경기는 아니었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 3월 30일, 전반을 득점 없이 마친 두 팀의 균형은 후반 미첼리의 골로 깨졌다. 칠레는 끝내 동점을 만들지 못했다. 열아홉 골을 쌓아 온 공격진이 대회에서 유일하게 득점하지 못한 날, 아르헨티나는 통산 열 번째 남미 정상에 올랐다. 미첼리는 우승을 결정한 골까지 합쳐 8골로 득점왕이 됐고, 오르마사발은 페루의 고메스 산체스와 함께 6골로 그 뒤에 섰다.
 
@@ -79,10 +80,12 @@ draft: false
 
 ### 우승컵 없이 남은 대회의 얼굴
 
-칠레 대표팀의 공식 회고는 오르마사발을 이 대회의 최우수 선수로 소개한다. RSSSF의 역대 대표 선수 목록도 같은 이름을 남겼다. 우승과 득점왕을 모두 가져간 미첼리 옆에, 개최국의 첫 준우승을 이끈 오르마사발의 자리가 남아 있는 셈이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+칠레 대표팀의 공식 회고는 오르마사발을 이 대회의 최우수 선수로 소개한다. 축구통계재단<span class="foreign-note" lang="en">(Rec.Sport.Soccer Statistics Foundation, RSSSF; 국제 축구 기록을 정리하는 통계 단체)</span>의 역대 대표 선수 목록도 같은 이름을 남겼다. 우승과 득점왕을 모두 가져간 미첼리 옆에, 개최국의 첫 준우승을 이끈 오르마사발의 자리가 남아 있는 셈이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 오르마사발의 대표팀 이력에는 월드컵 본선이 없다. 그 대신 남미축구선수권대회가 그의 가장 선명한 무대가 됐다. 이듬해 우루과이에서 칠레는 다시 준우승했고, 그는 4골로 득점왕에 올랐다. 특히 브라질을 처음 꺾은 경기에서 두 골을 넣었다. 1955년의 여섯 골은 일회성의 폭발에 그치지 않고 다음 대회로 이어졌다. 월드컵 출전 횟수만으로 축구사의 인물을 정렬하면, 칠레가 처음 정상에 가까워지던 두 해의 중심이 통째로 시야 밖으로 밀려난다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 ## 출처와 기록 기준
+
+<p class="record-note">인물·용어 참고: 칠레 대표팀의 <a href="https://laroja.cl/new/manuel-munoz-uno-de-los-goleadores-de-la-roja-en-los-50">무뇨스</a>·<a href="https://laroja.cl/new/rene-melendez-una-decada-vistiendo-la-camiseta-de-la-roja">멜렌데스</a> 인물 기록, <a href="https://www.historiadecolocolo.com/jugadores/jorge-robledo.html">콜로콜로 역사 아카이브의 로블레도 기록</a>, <a href="https://www.latercera.com/el-deportivo/noticia/tres-chilenos-triunfadores-en-espana/15794/">《라 테르세라》의 라미레스 회고</a>, <a href="https://www.bdfutbol.com/es/j/j77816.html">BDFutbol의 스타빌레 인물 기록</a>. 매체 연혁은 <a href="https://www.memoriachilena.gob.cl/602/w3-article-126233.html">칠레 국립도서관의 《Estadio (1941-1982)》</a>, 볼란테의 의미는 <a href="https://dle.rae.es/volante">스페인 왕립학술원·스페인어학술원연합 사전</a>, 하프백의 역사적 위치는 <a href="https://www.figc.it/media/72037/bruzzo_il-sistema-variabile-di-gioco.pdf">이탈리아축구협회 기술 자료 《Il sistema variabile di gioco》</a>를 참고한다.</p>
 
 <div class="source-notes"><ol><li id="source-1"><a href="https://www.rsssf.org/tables/55safull.html">«Southamerican Championship 1955»</a>, Martín Tabeira, RSSSF. 경기별 명단·득점과 최종 순위, 당시 소속팀.</li><li id="source-2"><a href="https://laroja.cl/new/enrique-hormazabal-el-talentoso-volante-de-la-roja-en-los-60">«Enrique Hormazábal: El talentoso volante de La Roja en los 60’»</a>, 칠레 대표팀 공식 사이트. 대표팀 경력, 1955년 평가와 1956년 득점왕.</li><li id="source-3"><a href="https://www.afa.com.ar/Football/posts/argentina-de-america-1955-capitulo-10">«Una nueva estrella en Chile»</a>, 아르헨티나축구협회. 통산 열 번째 우승과 미첼리의 8골.</li><li id="source-4"><a href="https://www.rsssf.org/tabless/sachampfulltrivia.html#best-players">«Copa América Best Players»</a>, RSSSF. 역대 대회 대표 선수 목록.</li><li id="source-5"><a href="https://commons.wikimedia.org/wiki/Category:Campeonato_Sudamericano_1955">《에스타디오》 1955년 대회 사진 모음</a>, Wikimedia Commons. 제618호 오르마사발 표지, 제619호 칠레 공격진, 제623호 아르헨티나 대표팀. 각 도판의 발행일을 캡션에 표기했다.</li><li id="source-6"><a href="https://www.stampsoftheworld.co.uk/wiki/Chile_1955_Airmail_-_Aircrafts">«Chile 1955 Airmail - Aircrafts»</a>, Stamps of the World. 표지의 코멧 여객기 100페소 우표는 1955년 10월 3일 발행된 항공우표다.</li></ol><p class="record-note">대표 선수는 칠레 대표팀의 후대 회고와 RSSSF 명단에 근거한다. AFA 회고의 우루과이전 6-0 표기는 경기별 득점 및 최종 순위와 맞지 않아 6-1을 적용했다. 순위는 승리 2점제이며 3월 30일 맞대결도 리그 성적에 포함한다. 우표는 개최국의 같은 해 발행물로, 대회 개최 시점에 유통된 기념우표를 뜻하지 않는다.</p></div>
