@@ -130,7 +130,7 @@ draft: false
 
 ## 1978년, 하펠과 다시 만났지만 월드컵에는 가지 않았다
 
-1976년 판하네험은 AZ '67<span class="foreign-note" lang="nl">(Alkmaar Zaanstreek '67; 현재의 AZ)</span>로 옮겼다. 대표팀에서는 유로 1976 준결승에 출전했으나 연장전에서 퇴장당했고, 네덜란드는 체코슬로바키아에 1-3으로 졌다. 팀이 이후 3위를 차지한 것과 별개로, 그의 대회는 씁쓸하게 끝났다.
+1976년 판하네험은 AZ '67<span class="foreign-note" lang="nl">(Alkmaar Zaanstreek '67; 현재의 AZ 알크마르)</span>로 옮겼다. 대표팀에서는 유로 1976 준결승에 출전했으나 연장전에서 퇴장당했고, 네덜란드는 체코슬로바키아에 1-3으로 졌다. 팀이 이후 3위를 차지한 것과 별개로, 그의 대회는 씁쓸하게 끝났다.
 
 <figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/van-hanegem/happel-1978.webp" alt="대표팀 훈련장에서 하펠, 네이스컨스와 이야기를 나누는 판하네험" width="1600" height="1069" loading="lazy" decoding="async" /><figcaption>1978년 5월 12일 제이스트. 왼쪽부터 하펠, 네이스컨스, 판하네험. 준비 과정에는 함께했지만 판하네험은 아르헨티나 월드컵에 참가하지 않았다. 사진: Hans Peters / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
