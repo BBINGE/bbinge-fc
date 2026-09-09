@@ -54,7 +54,8 @@ const locations: readonly (StoreLocation & { matches: readonly string[] })[] = [
 
 export function getStoreLocation(pathname: string, breadcrumbHrefs: readonly string[] = []): StoreLocation | null {
   if (pathname.startsWith('/archive/')) {
-    const hall = pathname.startsWith('/archive/legends/') ? {name:'인물관',href:'/archive/legends/'}
+    const hall = pathname.startsWith('/archive/reading-paths/') ? {name:'독서 경로',href:'/archive/reading-paths/'}
+      : pathname.startsWith('/archive/legends/') ? {name:'인물관',href:'/archive/legends/'}
       : pathname.startsWith('/archive/awards/') ? {name:'시상관',href:'/archive/awards/'}
       : pathname !== '/archive/' ? {name:'대회관',href:'/archive/competitions/'} : null;
     if (hall) return {floor:'06',name:`도서실 · ${hall.name}`,en:'LIBRARY · ARCHIVE',href:hall.href,nearby:[{floor:'06',label:'도서실 전체',href:'/archive/'},{floor:'06',label:'세계사관',href:'/history/'}]};

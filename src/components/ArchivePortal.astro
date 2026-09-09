@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import { archiveHalls, archiveHallFor, type ArchiveHallId } from '../config/archiveHalls';
 import { archiveBranches } from '../data/archive';
 import '../styles/archive-halls.css';
+import ArchiveDiscovery from './ArchiveDiscovery.astro';
 interface Props { records: CollectionEntry<'archive'>[]; hall?: ArchiveHallId }
 const { records: supplied, hall } = Astro.props;
 const records = supplied.filter(r => !r.data.draft && (!hall || archiveHallFor(r.data.branch, r.data.index) === hall))
@@ -34,7 +35,7 @@ const groups = archiveBranches.flatMap(branch => branch.indexes.map(index => ({b
       return shelves.length>0 && <div><h2>{hall==='people'?'국가·지역':hall==='awards'?'상별 기록':branch.title.replace('삥이 IN ','')}</h2><nav>{shelves.map(g=><a href={`/archive/${g.branch.id}/${g.index.slug}/`}>{g.index.label}<b>{g.records.length}</b></a>)}</nav></div>;
     })}
   </section>}
-  <section class="archive-arrivals" aria-labelledby="archive-arrivals-title"><div class="archive-list-heading"><h2 id="archive-arrivals-title">{selected?'최근 발행 기록':'최근 입고 자료'}</h2><span>{records.length}편</span></div>
+  {!selected ? <ArchiveDiscovery records={records} /> : <section class="archive-arrivals" aria-labelledby="archive-arrivals-title"><div class="archive-list-heading"><h2 id="archive-arrivals-title">최근 발행 기록</h2><span>{records.length}편</span></div>
     {records.length ? <div class="archive-records">{records.map(r=><a class="archive-record" href={href(r)}><img src={r.data.coverImage} alt="" width="640" height="640" loading="lazy" /><p>{archiveHalls.find(h=>h.id===archiveHallFor(r.data.branch,r.data.index))?.title} · {r.data.branch==='legends' ? archiveBranches.find(b=>b.id==='legends')?.indexes.find(i=>i.slug===r.data.index)?.label : r.data.year}</p><h3>{r.data.title}</h3><span>{r.data.description}</span></a>)}</div> : <div class="archive-no-records"><p>아직 발행된 독립 시상 기록이 없습니다.</p><a href="/archive/competitions/">대회 MVP·베스트 11 기록은 대회관에서 보기 →</a></div>}
-  </section>
+  </section>}
 </main>

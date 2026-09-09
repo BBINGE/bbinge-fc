@@ -1,0 +1,64 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { archiveHalls, archiveHallFor } from '../config/archiveHalls';
+import { resolveReadingPaths, featuredReadingPathId } from '../data/archive-reading-paths';
+import ArchiveReadingPath from './ArchiveReadingPath.astro';
+import '../styles/archive-discovery.css';
+interface Props { records: CollectionEntry<'archive'>[] }
+const {records}=Astro.props;
+const latest=records.slice(0,4);
+const lead=latest[0];
+const path=resolveReadingPaths(records).find(p=>p.id===featuredReadingPathId);
+const href=(r:typeof records[number])=>`/archive/${r.data.branch}/${r.data.index}/${r.id}/`;
+const title=(r:typeof records[number])=>r.data.branch==='legends'?r.data.subject:r.data.title;
+// 검색용 원제목은 변경하지 않고, 기존 뒷제목을 목록의 읽을 이유로 분리한다.
+const hook=(r:typeof records[number])=>r.data.branch==='legends'&&r.data.title.includes(': ')?r.data.title.split(': ').slice(1).join(': '):'';
+---
+<div class="archive-discovery">
+  {lead&&<section class="archive-new" data-archive-reveal aria-labelledby="archive-new-title">
+    <div class="archive-list-heading"><div><p class="discovery-eyebrow">JUST ADDED</p><h2 id="archive-new-title">최신 입고</h2></div><span>최근 {latest.length}편</span></div>
+    <div class="archive-new__layout">
+      <a class="archive-new__lead" href={href(lead)}><img src={lead.data.coverImage} alt="" width="640" height="640" loading="lazy" /><div><p class="discovery-eyebrow">LATEST RECORD · {lead.data.pubDate.toLocaleDateString('ko-KR')}</p><h3>{title(lead)}</h3>{hook(lead)&&<strong>{hook(lead)}</strong>}<p>{lead.data.description}</p><span>기록 펼치기 ↗</span></div></a>
+      <ol class="archive-new__next">{latest.slice(1).map((r,i)=><li><a href={href(r)}><img src={r.data.coverImage} alt="" width="160" height="160" loading="lazy" /><div><small>0{i+2} · {r.data.pubDate.toLocaleDateString('ko-KR')}</small><h3>{title(r)}</h3><p>{hook(r)||r.data.description}</p></div><span aria-hidden="true">↗</span></a></li>)}</ol>
+    </div>
+  </section>}
+  {path&&<div class="archive-curated"><p class="discovery-eyebrow">함께 읽는 기록</p><ArchiveReadingPath path={path}/></div>}
+  <section class="archive-library" aria-labelledby="archive-library-title">
+    <div class="archive-list-heading" data-archive-reveal><div><p class="discovery-eyebrow">THE COMPLETE LIBRARY</p><h2 id="archive-library-title">전체 서가</h2></div><span data-library-count aria-live="polite">{records.length}편</span></div>
+    <nav class="archive-library__filters" aria-label="전체 서가 분류">
+      <a href="/archive/#archive-library-title" data-library-filter="all" aria-current="true">전체 <span>{records.length}</span></a>
+      {archiveHalls.map(h=><a href={h.href} data-library-filter={h.id}>{h.label}<span>{records.filter(r=>archiveHallFor(r.data.branch,r.data.index)===h.id).length}</span></a>)}
+    </nav>
+    <div class="archive-records">{records.map((r,i)=><a class="archive-record discovery-record" data-archive-reveal data-library-hall={archiveHallFor(r.data.branch,r.data.index)} style={`--reveal-delay:${i%4*45}ms`} href={href(r)}><div class="discovery-record__cover"><img src={r.data.coverImage} alt="" width="640" height="640" loading="lazy" /><span aria-hidden="true">↗</span></div><p>{archiveHalls.find(h=>h.id===archiveHallFor(r.data.branch,r.data.index))?.title} · {r.data.branch==='legends'?r.data.originalTitle:r.data.year}</p><h3>{title(r)}</h3>{hook(r)&&<strong>{hook(r)}</strong>}</a>)}</div>
+    <p class="archive-library__empty" hidden>아직 발행된 시상 기록이 없습니다. <a href="/archive/awards/">시상관 안내 →</a></p>
+  </section>
+</div>
+<script>
+  const root=document.querySelector<HTMLElement>('.archive-discovery');
+  if(root){
+    const library=root.querySelector<HTMLElement>('.archive-library')!;
+    const cards=[...library.querySelectorAll<HTMLElement>('[data-library-hall]')];
+    const filters=[...library.querySelectorAll<HTMLAnchorElement>('[data-library-filter]')];
+    filters.forEach(link=>link.addEventListener('click',event=>{
+      if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+      event.preventDefault();
+      const filter=link.dataset.libraryFilter;
+      filters.forEach(a=>a.setAttribute('aria-current',String(a===link)));
+      let count=0;
+      cards.forEach(card=>{card.hidden=filter!=='all'&&card.dataset.libraryHall!==filter;if(!card.hidden)count++;});
+      library.querySelector('[data-library-count]')!.textContent=`${count}편`;
+      library.querySelector<HTMLElement>('.archive-library__empty')!.hidden=count>0;
+    }));
+    const reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+    if(!reduce.matches&&'IntersectionObserver' in window){
+      const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(!entry.isIntersecting)return;
+        observer.unobserve(entry.target);
+        if(reduce.matches)return;
+        const delay=parseFloat(getComputedStyle(entry.target).getPropertyValue('--reveal-delay'))||0;
+        entry.target.animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'translateY(0)'}],{duration:420,delay,easing:'cubic-bezier(.2,.65,.3,1)'});
+      }),{threshold:.08});
+      root.querySelectorAll('[data-archive-reveal]').forEach(el=>observer.observe(el));
+    }
+  }
+</script>
