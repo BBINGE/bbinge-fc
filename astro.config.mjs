@@ -91,7 +91,6 @@ export default defineConfig({
         const segments = pathname.split('/').filter(Boolean);
         if (segments[0] !== 'archive') return true;
         if (pathname === '/archive/competitions/') return ['leagues','european-club','national-team'].some(branch => populatedArchiveBranches.has(branch));
-        if (pathname === '/archive/reading-paths/') return populatedArchiveBranches.size > 0;
         if (segments.length === 2) return populatedArchiveBranches.has(segments[1]);
         if (segments.length === 3) return populatedArchiveIndexes.has(`${segments[1]}/${segments[2]}`);
         return true;

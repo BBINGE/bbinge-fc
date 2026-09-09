@@ -1,5 +1,5 @@
 import { chromium } from 'playwright';
-import { readFile, access } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { resolve, extname } from 'node:path';
 import assert from 'node:assert/strict';
@@ -16,7 +16,7 @@ try {
   await page.goto(base+'/archive/',{waitUntil:'networkidle'});
   assert.equal(await page.locator('.archive-new__lead').count(),1);
   assert.equal(await page.locator('.archive-new__next li').count(),3);
-  assert.equal(await page.locator('.reading-path li').count(),4);
+  assert.equal(await page.locator('.reading-path').count(),0);
   const total=await page.locator('[data-library-hall]').count();
   for(const filter of ['people','competitions','awards','all']){
    await page.locator(`[data-library-filter="${filter}"]`).click();
@@ -32,14 +32,11 @@ try {
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   if(process.env.ARCHIVE_QA_SCREENSHOTS){
    await page.locator('.archive-new').scrollIntoViewIfNeeded();await page.waitForTimeout(650);await page.locator('.archive-new').screenshot({path:`.discovery-new-${width}.png`});
-   await page.locator('.reading-path').scrollIntoViewIfNeeded();await page.waitForTimeout(650);await page.locator('.reading-path').screenshot({path:`.discovery-path-${width}.png`});
   }
-  console.log(`PASS ${width}: latest, path, all filters, sticky, overflow`);
+  console.log(`PASS ${width}: latest, no reading path, all filters, sticky, overflow`);
  }
- await page.goto(base+'/archive/reading-paths/',{waitUntil:'networkidle'});
- for(const link of await page.locator('.reading-path a').evaluateAll(as=>as.map(a=>a.getAttribute('href'))))await access(resolve(root,'.'+link+'index.html'));
- const sitemap=await readFile(resolve(root,'sitemap-0.xml'),'utf8');assert.ok(sitemap.includes('/archive/reading-paths/'));
- const reduced=await browser.newPage({reducedMotion:'reduce'});await reduced.goto(base+'/archive/');await reduced.locator('.reading-path').scrollIntoViewIfNeeded();assert.equal(await reduced.locator('.archive-discovery').evaluate(e=>e.getAnimations({subtree:true}).length),0);await reduced.close();
+ const sitemap=await readFile(resolve(root,'sitemap-0.xml'),'utf8');assert.ok(!sitemap.includes('/archive/reading-paths/'));
+ const reduced=await browser.newPage({reducedMotion:'reduce'});await reduced.goto(base+'/archive/');await reduced.locator('.archive-library').scrollIntoViewIfNeeded();assert.equal(await reduced.locator('.archive-discovery').evaluate(e=>e.getAnimations({subtree:true}).length),0);await reduced.close();
  const nojs=await browser.newPage({javaScriptEnabled:false});await nojs.goto(base+'/archive/');assert.ok(await nojs.locator('[data-library-hall]:visible').count()>0);assert.equal(await nojs.locator('[data-library-filter="people"]').getAttribute('href'),'/archive/legends/');await nojs.close();
- assert.deepEqual(errors,[]);console.log('PASS reading links, sitemap, reduced motion, no-JS fallback, runtime errors');
+ assert.deepEqual(errors,[]);console.log('PASS removed path, sitemap, reduced motion, no-JS fallback, runtime errors');
 } finally {await browser.close();server.close();}
