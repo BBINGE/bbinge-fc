@@ -1,5 +1,5 @@
 ---
-title: "빔 키프트(Wim Kieft) 프로필·스탯·역대 등번호: 열아홉 살 골든슈와 PSV 트레블"
+title: "빔 키프트(Wim Kieft) 프로필·스탯·역대 등번호: 역대 최연소 유러피언 골든슈와 PSV 트레블 공격수"
 description: "빔 키프트의 헤더와 플레이 스타일, 열아홉 살 유러피언 골든슈부터 히딩크의 PSV 트레블과 유로 1988 아일랜드전 결승골까지. 아약스·피사·토리노·보르도의 스탯, 역대 등번호, 우승과 개인 수상을 정리한다."
 branch: legends
 index: netherlands
@@ -175,6 +175,7 @@ PSV에서 보낸 첫 세 시즌에는 국내 컵을 매년 들었다. 1989-90 �
 ## 참고 자료
 
 <ul class="source-notes">
+  <li><a href="https://www.youtube.com/@PSV" rel="noopener noreferrer">PSV 에인트호번 공식 유튜브: PSV TV</a>: 빔 키프트의 PSV 시절 경기 영상과 하이라이트.</li>
   <li><a href="https://www.ajax.nl/artikelen/top-10-goals-wim-kieft-2025/" rel="noopener noreferrer">AFC 아약스: Top 10 Goals — Wim Kieft</a>: 공식전 117경기 78골과 아약스 시절 우승.</li>
   <li><a href="https://www.transfermarkt.nl/twintigste-titel-ajax-eredivisiejaar-1981-82-nu-compleet-in-te-zien-op-transfermarkt/view/news/420018" rel="noopener noreferrer">트랜스퍼마크트: 아약스의 1981-82 시즌 기록 복원</a>: 19세 키프트의 32골, 골든슈와 당시 선수 구성.</li>
   <li><a href="https://www.bdfutbol.com/en/j/j77626.html" rel="noopener noreferrer">BDFutbol: Wim Kieft</a>: 시즌별 리그 출전과 득점.</li>
