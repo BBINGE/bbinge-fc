@@ -5,6 +5,7 @@ import ContentCover from '../../../../components/ContentCover.astro';
 import RelatedAssets from '../../../../components/RelatedAssets.astro';
 import ArticleByline from '../../../../components/ArticleByline.astro';
 import ArticleProvenance from '../../../../components/ArticleProvenance.astro';
+import '../../../../styles/european-cup-record.css';
 import { categories, getArticlePath } from '../../../../config/categories';
 import { site } from '../../../../config/site';
 import { archiveBranches } from '../../../../data/archive';
@@ -79,7 +80,7 @@ const relatedAssets = entry.data.relatedGroup
     { label: entry.data.title, href: `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/` },
   ]}
 >
-  <article class="archive-article">
+  <article class:list={['archive-article', { 'cup-record': entry.id === '1955-56-european-cup' }]}>
     <nav class="article-path"><a href="/archive/">삥이 아카이브</a><span>/</span><a href={`/archive/${branch.id}/${archiveIndex.slug}/`}>{archiveIndex.label}</a></nav>
     <header class="article-header">
       <p>{entry.data.eyebrow ?? (isLegend ? `${archiveIndex.label} · LEGEND` : `${entry.data.year} · ${archiveIndex.label}`)}</p>
