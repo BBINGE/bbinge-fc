@@ -213,25 +213,16 @@ draft: false
 <ul class="career-awards">
   <li><strong>발롱도르</strong><span>1970년 공동 14위</span></li>
   <li><strong>네덜란드 올해의 축구선수</strong><span>1971년 · NOS 트로피</span></li>
+  <li><strong>네덜란드 세기의 베스트 11</strong><small>요한 크라위프 선정</small><span>1999년</span></li>
+  <li><strong>세기의 페예노르트인</strong><small>서포터 사이트 팬 투표</small><span>1999년</span></li>
 </ul>
 
-## 판하네험 플레이 영상
-
-<div class="archive-music" data-youtube-id="lu1Ye2bewTM" role="region" aria-label="에레디비시 공식 판하네험 선수 영상">
-  <button type="button" class="music-toggle" aria-label="판하네험 공식 영상 재생">▶</button>
-  <span><small style="font-size:11px">EREDIVISIE ARCHIEF</small><strong>더 크롬머의 왼발</strong><em>에레디비시 공식 선수 회고 영상</em></span>
-  <button type="button" class="music-cta music-toggle" aria-label="판하네험 공식 영상 재생">재생하기</button>
-  <div class="archive-music-player" hidden><iframe loading="lazy" title="에레디비시 공식: Willem van Hanegem 80 jaar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-  <p class="archive-music-credit"><a href="https://eredivisie.nl/videos/willem-van-hanegem-80-jaar-spelers-portait-van-de-kromme/" target="_blank" rel="noopener noreferrer">에레디비시 공식 아카이브에서 보기</a></p>
-</div>
-
-## 네덜란드 레전드 더 보기
-
-1988년의 네덜란드로 건너가면 [헤랄트 파넨뷔르흐의 오른발과 PSV 트레블](/archive/legends/netherlands/gerald-vanenburg/), [빔 키프트의 골든슈와 아일랜드전 헤더](/archive/legends/netherlands/wim-kieft/)가 기다린다. 판하네험과 크라위프가 열었던 전성기 이후, 다음 세대가 유럽 정상에 도착하는 서로 다른 경로다.
 
 ## 참고 자료
 
 <ul class="source-notes">
+  <li><a href="https://krant.telegraaf.nl/krant/archief/ditjaar/hetjaar1999/teksten/jaar99.november.oranjevandeeeuw.html" rel="noopener noreferrer">《더 텔레흐라프》: 1999년 네덜란드 세기의 팀</a>: 크라위프가 선정한 베스트 11의 왼쪽 하프.</li>
+  <li><a href="https://www.vi.nl/nieuws/van-hanegem-feyenoorder-van-de-eeuw" rel="noopener noreferrer">Voetbal International, 1999년 12월 17일: 세기의 페예노르트인</a>: 서포터 사이트 팬 투표 1위.</li>
   <li><a href="https://keukenkampioendivisie.nl/nieuws/willem-van-hanegem-waar-de-loopbaan-van-de-kromme-begon" rel="noopener noreferrer">에이르스터 디비시: 판하네험의 벨록스 시절</a>: 리그 데뷔, 여러 포지션 경험과 109경기 39골.</li>
   <li><a href="https://www.champions-journal.com/1000/feyenoord-forever-first" rel="noopener noreferrer">Champions Journal: Forever First</a>: 판하네험 인터뷰, 하펠과의 훈련·밀란전 역할 분담, 크라위프의 평가와 1970년 팀 구성.</li>
   <li><a href="https://www.feyenoord.com/en/our-club/organisation/history" rel="noopener noreferrer">페예노르트: 구단 역사</a>: 네덜란드 최초 유러피언컵 우승과 1970년 인터콘티넨털컵.</li>
@@ -253,5 +244,4 @@ draft: false
   <li><a href="https://www.delpher.nl/nl/kranten/view?coll=ddd&amp;identifier=ddd:010957554:mpeg21:a0214" rel="noopener noreferrer">《헷 프레이어 폴크》, 1971년 6월 7일: 판하네험의 NOS 트로피</a>: 당시 수상 보도. 네덜란드 왕립도서관 Delpher 소장.</li>
   <li><a href="https://www.heemsteder.nl/koninklijke-onderscheiding-voor-oud-topvoetballer-en-overvener-willem-van-hanegemkoninklijke-onderscheiding-voor-oud-topvoetballer-en-overvener-willem-van-hanegem/" rel="noopener noreferrer">De Heemsteder: 판하네험의 왕실 훈장 수훈</a>: 2024년 2월 26일 오라녀나사우 훈장 오피서 수여와 시장의 수여 연설.</li>
   <li><a href="https://commons.wikimedia.org/wiki/Category:Willem_van_Hanegem" rel="noopener noreferrer">네덜란드 국가기록원 Anefo 사진 컬렉션 · Wikimedia Commons</a>: 본문의 1964~1983년 기록사진 9점. Hugo van Gelderen, Eric Koch, Bert Verhoeff, Hans Peters, Rob Bogaerts 및 촬영자 미상의 Anefo 사진 · CC0.</li>
-  <li><a href="https://eredivisie.nl/videos/willem-van-hanegem-80-jaar-spelers-portait-van-de-kromme/" rel="noopener noreferrer">에레디비시 공식: 판하네험 선수 회고 영상</a>: 플레이 장면과 선수 소개.</li>
 </ul>
