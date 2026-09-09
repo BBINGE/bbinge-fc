@@ -1,0 +1,198 @@
+{
+  "season": "1955-56",
+  "competition": "유러피언컵",
+  "ties": {
+    "match-1": {
+      "left": "sporting",
+      "right": "partizan",
+      "legs": [
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "stage": "16강",
+      "deck": "리스본에서 첫 골, 베오그라드에서 네 골"
+    },
+    "match-2": {
+      "left": "voros-lobogo",
+      "right": "anderlecht",
+      "legs": [
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "stage": "16강",
+      "deck": "뵈뢰시 로보고의 열 골과 안데를레흐트의 첫 유럽 원정"
+    },
+    "match-3": {
+      "left": "servette",
+      "right": "real-madrid",
+      "legs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "stage": "16강",
+      "deck": "세르베트가 맞은 레알 마드리드의 첫걸음"
+    },
+    "match-4": {
+      "left": "rot-weiss-essen",
+      "right": "hibernian",
+      "legs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "stage": "16강",
+      "deck": "에센에서 드러난 히버니언의 무게"
+    },
+    "match-5": {
+      "left": "djurgarden",
+      "right": "gwardia",
+      "legs": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "stage": "16강",
+      "deck": "바르샤바에서 갈린 유고덴과 그바르디아"
+    },
+    "match-6": {
+      "left": "aarhus",
+      "right": "reims",
+      "legs": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "stage": "16강",
+      "deck": "덴마크의 더블 우승팀을 넘은 랭스"
+    },
+    "match-7": {
+      "left": "rapid",
+      "right": "psv",
+      "legs": [
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "stage": "16강",
+      "deck": "빈의 여섯 골에 막힌 PSV"
+    },
+    "match-8": {
+      "left": "milan",
+      "right": "saarbrucken",
+      "legs": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "stage": "16강",
+      "deck": "산 시로에서 밀란을 뒤집은 자르브뤼켄"
+    },
+    "match-9": {
+      "left": "djurgarden",
+      "right": "hibernian",
+      "legs": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "stage": "8강",
+      "deck": "스웨덴 팀의 홈경기가 열린 글래스고"
+    },
+    "match-10": {
+      "left": "reims",
+      "right": "voros-lobogo",
+      "legs": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "stage": "8강",
+      "deck": "랭스와 뵈뢰시 로보고, 두 경기 열네 골"
+    },
+    "match-11": {
+      "left": "real-madrid",
+      "right": "partizan",
+      "legs": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "stage": "8강",
+      "deck": "네 골을 들고도 떨었던 레알의 베오그라드 원정"
+    },
+    "match-12": {
+      "left": "rapid",
+      "right": "milan",
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "stage": "8강",
+      "deck": "밀란의 일곱 골이 완성한 마지막 4강 자리"
+    }
+  }
+}

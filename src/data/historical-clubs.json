@@ -1,0 +1,299 @@
+{
+  "sporting": {
+    "name": "스포르팅 CP",
+    "original": "SPORTING CP",
+    "country": "포르투갈",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/pt.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/sporting-1945.svg",
+        "period": "1945-2001",
+        "sources": [
+          "https://www.sporting.pt/en/club/history/the-badge",
+          "https://www.footylogos.com/logos/sporting-cp"
+        ]
+      }
+    ],
+    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+  },
+  "partizan": {
+    "name": "FK 파르티잔",
+    "original": "FK PARTIZAN",
+    "country": "유고슬라비아",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/yu-1946.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "voros-lobogo": {
+    "name": "뵈뢰시 로보고",
+    "original": "VÖRÖS LOBOGÓ",
+    "country": "헝가리",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/hu.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "anderlecht": {
+    "name": "RSC 안데를레흐트",
+    "original": "RSC ANDERLECHT",
+    "country": "벨기에",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/be.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/anderlecht-1933.svg",
+        "period": "1933-1959",
+        "sources": [
+          "https://en.wikipedia.org/wiki/RSC_Anderlecht"
+        ]
+      }
+    ],
+    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+  },
+  "servette": {
+    "name": "세르베트 FC",
+    "original": "SERVETTE FC",
+    "country": "스위스",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/ch.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "real-madrid": {
+    "name": "레알 마드리드",
+    "original": "REAL MADRID",
+    "country": "스페인",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/es-franco-civil.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/real-madrid-1941.svg",
+        "period": "1941-1997",
+        "sources": [
+          "https://www.footylogos.com/logos/real-madrid"
+        ]
+      }
+    ],
+    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+  },
+  "rot-weiss-essen": {
+    "name": "로트바이스 에센",
+    "original": "ROT-WEISS ESSEN",
+    "country": "서독",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/de.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "hibernian": {
+    "name": "히버니언 FC",
+    "original": "HIBERNIAN FC",
+    "country": "스코틀랜드",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/gb-sct.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "djurgarden": {
+    "name": "유고덴 IF",
+    "original": "DJURGÅRDENS IF",
+    "country": "스웨덴",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/se.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "gwardia": {
+    "name": "그바르디아 바르샤바",
+    "original": "GWARDIA WARSZAWA",
+    "country": "폴란드",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/pl.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "aarhus": {
+    "name": "오르후스 GF",
+    "original": "AARHUS GF",
+    "country": "덴마크",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/dk.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "reims": {
+    "name": "스타드 드 랭스",
+    "original": "STADE DE REIMS",
+    "country": "프랑스",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/fr.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/reims-1931.svg",
+        "period": "1931-1991",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Escudo_stade_de_reims_1931.svg",
+          "https://1000logos.net/stade-de-reims-logo/"
+        ]
+      }
+    ],
+    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+  },
+  "rapid": {
+    "name": "SK 라피트 빈",
+    "original": "SK RAPID WIEN",
+    "country": "오스트리아",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/at.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "psv": {
+    "name": "PSV 에인트호번",
+    "original": "PSV EINDHOVEN",
+    "country": "네덜란드",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/nl.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  },
+  "milan": {
+    "name": "AC 밀란",
+    "original": "AC MILAN",
+    "country": "이탈리아",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/it.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/archive/teams/clubs/milan-1946.svg",
+        "period": "1946년 이후의 역사 도안; 종료 연도 자료 차이 있음",
+        "sources": [
+          "https://www.footylogos.com/logos/ac-milan"
+        ]
+      }
+    ],
+    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+  },
+  "saarbrucken": {
+    "name": "1. FC 자르브뤼켄",
+    "original": "1. FC SAARBRÜCKEN",
+    "country": "자틀란트",
+    "flags": [
+      {
+        "seasons": [
+          "1955-56"
+        ],
+        "src": "/images/flags/saar-1947.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1955-56 당시 도안과 독립 파일 대조 미완료. 국기·팀명만 표시."
+  }
+}

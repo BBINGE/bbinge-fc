@@ -91,22 +91,22 @@ draft: false
 
 | 대표 지역 | 참가 구단 | 참가팀을 이해할 국내 성적·배경 |
 |---|---|---|
-| <span class="cup-icon cup-flag" role="img" aria-label="오스트리아 국기" style="background-position:-28.000px -542.000px"></span> 오스트리아 | SK 라피트 빈 | 1954-55 시즌 리그 3위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="벨기에 국기" style="background-position:-365.333px -365.333px"></span> 벨기에 | RSC 안데를레흐트 | 1954-55 시즌 리그 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="덴마크 국기" style="background-position:-28.000px -506.667px"></span> 덴마크 | 오르후스 GF | 1955년 리그·컵 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="프랑스 국기" style="background-position:-365.333px -506.667px"></span> 프랑스 | 스타드 드 랭스 | 1954-55 시즌 리그 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="헝가리 국기" style="background-position:-28.000px -365.333px"></span> 헝가리 | 뵈뢰시 로보고 | 1955년 리그 최종 2위·미트로파컵 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="이탈리아 국기" style="background-position:-28.000px -578.667px"></span> 이탈리아 | AC 밀란 | 1954-55 시즌 세리에 A 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="네덜란드 국기" style="background-position:-365.333px -542.000px"></span> 네덜란드 | PSV 에인트호번 | 1954-55 시즌 전국 우승 결정전 3위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="폴란드 국기" style="background-position:-365.333px -469.333px"></span> 폴란드 | 그바르디아 바르샤바 | 1954년 폴란드컵 우승·1955년 리그 최종 4위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="포르투갈 국기" style="background-position:-28.000px -332.000px"></span> 포르투갈 | 스포르팅 CP | 1954-55 시즌 리그 3위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="자틀란트 국기" style="background-position:-365.333px -578.667px"></span> 자틀란트 | 1. FC 자르브뤼켄 | 1954-55 시즌 오버리가 쥐트베스트 3위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스코틀랜드 국기" style="background-position:-365.333px -432.667px"></span> 스코틀랜드 | 히버니언 FC | 1954-55 시즌 리그 5위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스페인 국기" style="background-position:-365.333px -397.333px"></span> 스페인 | 레알 마드리드 CF | 1954-55 시즌 라리가 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스웨덴 국기" style="background-position:-28.000px -469.333px"></span> 스웨덴 | 유고덴 IF | 1954-55 시즌 알스벤스칸 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스위스 국기" style="background-position:-28.000px -397.333px"></span> 스위스 | 세르베트 FC | 1954-55 시즌 리그 6위 |
-| <span class="cup-icon cup-flag" role="img" aria-label="서독 국기" style="background-position:-28.000px -432.667px"></span> 서독 | 로트바이스 에센 | 1955년 서독 전국 선수권 우승 |
-| <span class="cup-icon cup-flag" role="img" aria-label="유고슬라비아 국기" style="background-position:-365.333px -332.000px"></span> 유고슬라비아 | FK 파르티잔 | 1954-55 시즌 리그 5위 |
+| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> 오스트리아 | SK 라피트 빈 | 1954-55 시즌 리그 3위 |
+| <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> 벨기에 | RSC 안데를레흐트 | 1954-55 시즌 리그 우승 |
+| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 덴마크 | 오르후스 GF | 1955년 리그·컵 우승 |
+| <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 프랑스 | 스타드 드 랭스 | 1954-55 시즌 리그 우승 |
+| <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 헝가리 | 뵈뢰시 로보고 | 1955년 리그 최종 2위·미트로파컵 우승 |
+| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> 이탈리아 | AC 밀란 | 1954-55 시즌 세리에 A 우승 |
+| <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> 네덜란드 | PSV 에인트호번 | 1954-55 시즌 전국 우승 결정전 3위 |
+| <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> 폴란드 | 그바르디아 바르샤바 | 1954년 폴란드컵 우승·1955년 리그 최종 4위 |
+| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> 포르투갈 | 스포르팅 CP | 1954-55 시즌 리그 3위 |
+| <img class="cup-flag" src="/images/flags/saar-1947.svg" width="28" height="20" alt="자틀란트 국기" loading="lazy" /> 자틀란트 | 1. FC 자르브뤼켄 | 1954-55 시즌 오버리가 쥐트베스트 3위 |
+| <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 스코틀랜드 | 히버니언 FC | 1954-55 시즌 리그 5위 |
+| <img class="cup-flag" src="/images/flags/es-franco-civil.svg" width="28" height="20" alt="스페인 국기" loading="lazy" /> 스페인 | 레알 마드리드 CF | 1954-55 시즌 라리가 우승 |
+| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 스웨덴 | 유고덴 IF | 1954-55 시즌 알스벤스칸 우승 |
+| <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 스위스 | 세르베트 FC | 1954-55 시즌 리그 6위 |
+| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 서독 | 로트바이스 에센 | 1955년 서독 전국 선수권 우승 |
+| <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> 유고슬라비아 | FK 파르티잔 | 1954-55 시즌 리그 5위 |
 
 </details>
 
@@ -126,78 +126,62 @@ draft: false
 
 | 대진 | 1차전 | 2차전 | 합계 | 진출 |
 |---|---:|---:|---:|---|
-| <span class="cup-icon cup-flag" role="img" aria-label="포르투갈 국기" style="background-position:-28.000px -332.000px"></span> 스포르팅 vs <span class="cup-icon cup-flag" role="img" aria-label="유고슬라비아 국기" style="background-position:-365.333px -332.000px"></span> 파르티잔 | 3-3 | 2-5 | 5-8 | 파르티잔 |
-| <span class="cup-icon cup-flag" role="img" aria-label="헝가리 국기" style="background-position:-28.000px -365.333px"></span> 뵈뢰시 로보고 vs <span class="cup-icon cup-flag" role="img" aria-label="벨기에 국기" style="background-position:-365.333px -365.333px"></span> 안데를레흐트 | 6-3 | 4-1 | 10-4 | 뵈뢰시 로보고 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스위스 국기" style="background-position:-28.000px -397.333px"></span> 세르베트 vs <span class="cup-icon cup-flag" role="img" aria-label="스페인 국기" style="background-position:-365.333px -397.333px"></span> 레알 마드리드 | 0-2 | 0-5 | 0-7 | 레알 마드리드 |
-| <span class="cup-icon cup-flag" role="img" aria-label="서독 국기" style="background-position:-28.000px -432.667px"></span> 에센 vs <span class="cup-icon cup-flag" role="img" aria-label="스코틀랜드 국기" style="background-position:-365.333px -432.667px"></span> 히버니언 | 0-4 | 1-1 | 1-5 | 히버니언 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스웨덴 국기" style="background-position:-28.000px -469.333px"></span> 유고덴 vs <span class="cup-icon cup-flag" role="img" aria-label="폴란드 국기" style="background-position:-365.333px -469.333px"></span> 그바르디아 | 0-0 | 4-1 | 4-1 | 유고덴 |
-| <span class="cup-icon cup-flag" role="img" aria-label="덴마크 국기" style="background-position:-28.000px -506.667px"></span> 오르후스 vs <span class="cup-icon cup-flag" role="img" aria-label="프랑스 국기" style="background-position:-365.333px -506.667px"></span> 랭스 | 0-2 | 2-2 | 2-4 | 랭스 |
-| <span class="cup-icon cup-flag" role="img" aria-label="오스트리아 국기" style="background-position:-28.000px -542.000px"></span> 라피트 vs <span class="cup-icon cup-flag" role="img" aria-label="네덜란드 국기" style="background-position:-365.333px -542.000px"></span> PSV | 6-1 | 0-1 | 6-2 | 라피트 |
-| <span class="cup-icon cup-flag" role="img" aria-label="이탈리아 국기" style="background-position:-28.000px -578.667px"></span> 밀란 vs <span class="cup-icon cup-flag" role="img" aria-label="자틀란트 국기" style="background-position:-365.333px -578.667px"></span> 자르브뤼켄 | 3-4 | 4-1 | 7-5 | 밀란 |
+| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> 스포르팅 vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> 파르티잔 | 3-3 | 2-5 | 5-8 | 파르티잔 |
+| <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 vs <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> 안데를레흐트 | 6-3 | 4-1 | 10-4 | 뵈뢰시 로보고 |
+| <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 세르베트 vs <img class="cup-flag" src="/images/flags/es-franco-civil.svg" width="28" height="20" alt="스페인 국기" loading="lazy" /> 레알 마드리드 | 0-2 | 0-5 | 0-7 | 레알 마드리드 |
+| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 에센 vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 | 0-4 | 1-1 | 1-5 | 히버니언 |
+| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 vs <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> 그바르디아 | 0-0 | 4-1 | 4-1 | 유고덴 |
+| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 오르후스 vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 랭스 | 0-2 | 2-2 | 2-4 | 랭스 |
+| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> 라피트 vs <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> PSV | 6-1 | 0-1 | 6-2 | 라피트 |
+| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> 밀란 vs <img class="cup-flag" src="/images/flags/saar-1947.svg" width="28" height="20" alt="자틀란트 국기" loading="lazy" /> 자르브뤼켄 | 3-4 | 4-1 | 7-5 | 밀란 |
 
 <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 </details>
 
-<h3 class="cup-match" id="match-1"><span class="cup-team"><span>스포르팅 CP</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="스포르팅 CP 로고" style="background-position:-192.000px -356.364px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="포르투갈 국기" style="background-position:-28.000px -332.000px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>FK 파르티잔</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="FK 파르티잔 로고" style="background-position:-232.727px -356.364px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="유고슬라비아 국기" style="background-position:-365.333px -332.000px"></span></span></span></h3>
-
-<p class="cup-match-deck">리스본에서 첫 골, 베오그라드에서 네 골</p>
+<div data-football-tie="1955-56-european-cup:match-1"></div>
 
 1955년 9월 4일, 리스본의 이스타디우 나시오날<span class="foreign-note" lang="pt">(Estádio Nacional)</span>에서 스포르팅 CP<span class="foreign-note" lang="pt">(Sporting Clube de Portugal)</span>와 FK 파르티잔<span class="foreign-note" lang="sr-Latn">(Fudbalski klub Partizan)</span>이 만났다. 첫 골은 주앙 마르틴스<span class="foreign-note" lang="pt">(João Baptista Martins; 포르투갈 축구선수, 1927-1993)</span>의 몫이었다. 전반 14분의 득점이 유러피언컵의 득점 장부를 열었다. 스포르팅은 직전 시즌 3위였지만, 그 이전 네 시즌 연속 리그를 우승한 팀이었다. 첫 대회의 비우승 참가팀이라는 분류만으로는 설명이 끝나지 않는 전력이다. <a class="cite" href="#source-12" aria-label="출처 12">[12]</a>, <a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
 
 리스본에서는 3-3으로 끝났다. 균형을 무너뜨린 선수는 밀로시 밀루티노비치<span class="foreign-note" lang="sr-Latn">(Miloš Milutinović; 유고슬라비아 축구선수, 1933-2003)</span>였다. 2차전에서 혼자 네 골을 넣으며 파르티잔의 5-2 승리를 이끌었다. 1차전의 두 골까지 합하면 이 대진에서만 여섯 골이다. 스포르팅은 대회 첫 득점자를 남겼고, 파르티잔은 첫해 득점 경쟁을 이끌 공격수를 앞세워 8강에 갔다. <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
-<h3 class="cup-match" id="match-2"><span class="cup-team"><span>뵈뢰시 로보고</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="뵈뢰시 로보고 로고" style="background-position:-192.000px -392.727px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="헝가리 국기" style="background-position:-28.000px -365.333px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>RSC 안데를레흐트</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="RSC 안데를레흐트 로고" style="background-position:-232.727px -392.727px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="벨기에 국기" style="background-position:-365.333px -365.333px"></span></span></span></h3>
-
-<p class="cup-match-deck">뵈뢰시 로보고의 열 골과 안데를레흐트의 첫 유럽 원정</p>
+<div data-football-tie="1955-56-european-cup:match-2"></div>
 
 뵈뢰시 로보고<span class="foreign-note" lang="hu">(Vörös Lobogó; 현재 MTK 부다페스트의 당시 명칭)</span>는 헝가리 축구의 공격력을 클럽 무대에 가져왔다. RSC 안데를레흐트<span class="foreign-note" lang="fr">(Royal Sporting Club Anderlecht)</span>가 기억하는 첫 유럽 원정의 장소는 부다페스트 네프슈터디온<span class="foreign-note" lang="hu">(Népstadion)</span>이다. 약 4만 명 앞에서 벨기에 팀이 먼저 골을 넣었지만, 승부는 홈팀의 6-3 승리로 끝났다. 선제골이 상대의 공격을 잠재우지는 못했다. <a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
 
 그날 펄로타시 페테르<span class="foreign-note" lang="hu">(Palotás Péter; 헝가리 축구선수, 1929-1967)</span>는 대회 최초의 해트트릭을 기록했다. 그의 곁에는 히데그쿠티 난도르<span class="foreign-note" lang="hu">(Hidegkuti Nándor; 헝가리 축구선수, 1922-2002)</span>도 있었다. 대표팀의 명성으로 알려진 선수들이 같은 구단의 공격진에서 움직였다. 뵈뢰시 로보고는 브뤼셀에서도 4-1로 이겨 합계 열 골을 채웠다. 헝가리 대표팀을 상대할 때 유럽이 느끼던 곤란함을, 안데를레흐트는 두 번의 클럽 경기로 겪었다. <a class="cite" href="#source-15" aria-label="출처 15">[15]</a>, <a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
 
-<h3 class="cup-match" id="match-3"><span class="cup-team"><span>세르베트 FC</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="세르베트 FC 로고" style="background-position:-192.000px -427.636px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스위스 국기" style="background-position:-28.000px -397.333px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>레알 마드리드</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="레알 마드리드 로고" style="background-position:-232.727px -427.636px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스페인 국기" style="background-position:-365.333px -397.333px"></span></span></span></h3>
-
-<p class="cup-match-deck">세르베트가 맞은 레알 마드리드의 첫걸음</p>
+<div data-football-tie="1955-56-european-cup:match-3"></div>
 
 레알 마드리드는 9월 8일 스위스의 세르베트 FC<span class="foreign-note" lang="fr">(Servette FC)</span>를 상대로 첫 유러피언컵 경기를 치렀다. 결과는 2-0이었지만 두 골 모두 후반 늦게 나왔다. 훗날 다섯 시즌 연속 우승을 시작하는 팀의 첫 경기도, 시작하자마자 상대를 쓸어 버리는 장면은 아니었다. 스위스 원정에서 기다려야 했던 레알은 마드리드의 2차전에서 5-0을 만들었다. 디스테파노도 그 경기에서 두 골을 넣었다. <a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
 
 두 경기 합계 7-0. 유럽 대회를 적극적으로 밀어붙인 구단이 경기장에서도 진출권을 가져갔다. 다만 이 여유가 다음 원정까지 보장되지는 않았다. 8강에서 레알을 기다린 팀은 리스본의 첫 경기부터 여덟 골을 쌓아 올라온 파르티잔이었다.
 
-<h3 class="cup-match" id="match-4"><span class="cup-team"><span>로트바이스 에센</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="로트바이스 에센 로고" style="background-position:-192.000px -466.182px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="서독 국기" style="background-position:-28.000px -432.667px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>히버니언 FC</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="히버니언 FC 로고" style="background-position:-232.727px -466.182px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스코틀랜드 국기" style="background-position:-365.333px -432.667px"></span></span></span></h3>
-
-<p class="cup-match-deck">에센에서 드러난 히버니언의 무게</p>
+<div data-football-tie="1955-56-european-cup:match-4"></div>
 
 로트바이스 에센<span class="foreign-note" lang="de">(Rot-Weiss Essen)</span>은 서독의 전국 챔피언이었다. 히버니언 FC<span class="foreign-note" lang="en">(Hibernian Football Club)</span>는 직전 스코틀랜드 리그 5위였다. 순위만 읽으면 에센 쪽이 더 그럴듯한 유럽 대표처럼 보인다. 그러나 첫 경기 결과는 에센의 홈에서 0-4였다. 에디 턴불<span class="foreign-note" lang="en">(Edward Hunter Turnbull; 스코틀랜드 축구선수·감독, 1923-2011)</span>이 두 골을 넣었다. <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 턴불은 히버니언의 ‘페이머스 파이브’<span class="foreign-note" lang="en">(Famous Five; 구단의 전성기를 이끈 다섯 공격수를 가리키는 별칭)</span> 가운데 한 명이었다. 스코틀랜드 축구박물관은 그를 1940년대 후반과 1950년대 초 구단 성공의 동력으로 소개한다. 유럽 대진표에 적힌 5위라는 숫자 뒤에는 그 이전부터 축적된 공격진의 명성이 있었다. 에든버러의 1-1로 합계 5-1이 완성됐을 때, 첫 대회에서 영국 축구를 대표하던 히버니언은 이미 자신의 자격을 경기로 보여 준 뒤였다. <a class="cite" href="#source-17" aria-label="출처 17">[17]</a>, <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
-<h3 class="cup-match" id="match-5"><span class="cup-team"><span>유고덴 IF</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="유고덴 IF 로고" style="background-position:-192.000px -506.182px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스웨덴 국기" style="background-position:-28.000px -469.333px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>그바르디아 바르샤바</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="그바르디아 바르샤바 로고" style="background-position:-232.727px -506.182px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="폴란드 국기" style="background-position:-365.333px -469.333px"></span></span></span></h3>
-
-<p class="cup-match-deck">바르샤바에서 갈린 유고덴과 그바르디아</p>
+<div data-football-tie="1955-56-european-cup:match-5"></div>
 
 첼시 대신 유고덴과 만난 그바르디아 바르샤바<span class="foreign-note" lang="pl">(Gwardia Warszawa)</span>는 폴란드 클럽 축구의 첫 유러피언컵 무대를 열었다. 스톡홀름의 1차전은 0-0이었다. 대체 참가팀이 첫 원정을 무실점으로 버텼으니, 바르샤바의 홈경기에는 충분히 기대를 걸 만했다. 그러나 2차전은 유고덴의 4-1 승리로 끝났다. 첫 경기에서 유지한 균형은 두 번째 경기에서 급격하게 기울었다. <a class="cite" href="#source-18" aria-label="출처 18">[18]</a>
 
 유고덴은 이 대회가 처음인 것과 외국에서 경기를 치르는 일이 처음인 것을 구분해 보여 주는 팀이었다. 그해 남아프리카 원정 프로그램부터가 이를 말해 준다. 여름에는 더반의 관중에게 소개되던 스웨덴 챔피언이 가을에는 폴란드 원정에서 8강 진출을 확정했다. 새로운 유럽 대회는 이미 세계를 오가던 구단들의 이동 경로 위에도 자리를 잡았다. <a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
-<h3 class="cup-match" id="match-6"><span class="cup-team"><span>오르후스 GF</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="오르후스 GF 로고" style="background-position:-192.000px -546.909px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="덴마크 국기" style="background-position:-28.000px -506.667px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>스타드 드 랭스</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="스타드 드 랭스 로고" style="background-position:-232.727px -546.909px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="프랑스 국기" style="background-position:-365.333px -506.667px"></span></span></span></h3>
-
-<p class="cup-match-deck">덴마크의 더블 우승팀을 넘은 랭스</p>
+<div data-football-tie="1955-56-european-cup:match-6"></div>
 
 오르후스 GF<span class="foreign-note" lang="da">(Aarhus Gymnastikforening; AGF)</span>에 1955년은 첫 리그 우승과 컵 우승을 함께 차지한 해였다. 국내의 기념비적인 시즌 뒤에 유럽 무대가 이어졌다. 그 상대가 스타드 드 랭스<span class="foreign-note" lang="fr">(Stade de Reims)</span>였다. 프랑스 챔피언은 덴마크 원정에서 2-0으로 이겼고, 홈에서는 2-2로 비겨 합계 4-2로 진출했다. AGF가 자기 나라에서 새로 써 내려간 역사와 유럽의 경쟁력 사이에는 또 하나의 시험이 놓여 있었다. <a class="cite" href="#source-19" aria-label="출처 19">[19]</a>, <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 랭스에는 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopa; 프랑스 축구선수, 1931-2017)</span>가 있었다. UEFA의 회고가 조명하는 이 팀은 공격의 기술과 조직을 함께 갖춘 프랑스 축구의 대표 주자다. 첫 관문에서는 원정의 두 골이 진출의 바탕이 됐다. 다음 관문에서는 헝가리 팀을 상대로 네 골씩 두 번 넣어야 했다. 랭스의 공격이 얼마나 많은 득점을 감당할 수 있는지는 8강에서 한층 선명해진다. <a class="cite" href="#source-20" aria-label="출처 20">[20]</a>
 
-<h3 class="cup-match" id="match-7"><span class="cup-team"><span>SK 라피트 빈</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="SK 라피트 빈 로고" style="background-position:-192.000px -585.455px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="오스트리아 국기" style="background-position:-28.000px -542.000px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>PSV 에인트호번</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="PSV 에인트호번 로고" style="background-position:-232.727px -585.455px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="네덜란드 국기" style="background-position:-365.333px -542.000px"></span></span></span></h3>
-
-<p class="cup-match-deck">빈의 여섯 골에 막힌 PSV</p>
+<div data-football-tie="1955-56-european-cup:match-7"></div>
 
 SK 라피트 빈<span class="foreign-note" lang="de">(Sportklub Rapid Wien)</span>과 PSV 에인트호번<span class="foreign-note" lang="nl">(Philips Sport Vereniging)</span>의 대진은 1차전에서 크게 기울었다. 빈에서 라피트가 6-1로 이겼다. PSV는 홈 2차전을 1-0으로 가져갔지만, 다섯 골 차를 뒤집기에는 부족했다. 훗날 유럽 정상에 오르는 네덜란드 구단의 첫 도전은 합계 2-6에서 멈췄다. <a class="cite" href="#source-21" aria-label="출처 21">[21]</a>
 
 이때 PSV의 국내 성적을 ‘에레디비시 3위’라고 적으면 시대가 어긋난다. 에레디비시<span class="foreign-note" lang="nl">(Eredivisie)</span>의 출범은 1956년이었다. PSV가 첫 유러피언컵에 나설 무렵 네덜란드 축구는 전국 단일 최상위리그가 자리 잡기 전의 체제를 거치고 있었다. 오늘날 익숙한 구단 이름이 보인다고 그 뒤의 리그 구조까지 같았던 것은 아니다. <a class="cite" href="#source-22" aria-label="출처 22">[22]</a>
 
-<h3 class="cup-match" id="match-8"><span class="cup-team"><span>AC 밀란</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="AC 밀란 로고" style="background-position:-192.000px -625.455px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="이탈리아 국기" style="background-position:-28.000px -578.667px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>1. FC 자르브뤼켄</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="1. FC 자르브뤼켄 로고" style="background-position:-232.727px -625.455px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="자틀란트 국기" style="background-position:-365.333px -578.667px"></span></span></span></h3>
-
-<p class="cup-match-deck">산 시로에서 밀란을 뒤집은 자르브뤼켄</p>
+<div data-football-tie="1955-56-european-cup:match-8"></div>
 
 AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하게 남았다. 자르브뤼켄이 산 시로<span class="foreign-note" lang="it">(San Siro)</span>에서 4-3으로 이겼기 때문이다. 밀란은 한때 3-1로 앞섰으나 세 골을 더 내줬다. 세리에 A 챔피언의 공격진이 만든 리드를 자틀란트의 구단이 원정에서 지워 버렸다. 낯선 이름을 대진표의 약체 자리로 보내기에는 너무 강렬한 반례였다. <a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
@@ -213,18 +197,16 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 
 | 대진 | 1차전 | 2차전 | 합계 | 진출 |
 |---|---:|---:|---:|---|
-| <span class="cup-icon cup-flag" role="img" aria-label="스웨덴 국기" style="background-position:-28.000px -469.333px"></span> 유고덴 vs <span class="cup-icon cup-flag" role="img" aria-label="스코틀랜드 국기" style="background-position:-365.333px -432.667px"></span> 히버니언 | 1-3 | 0-1 | 1-4 | 히버니언 |
-| <span class="cup-icon cup-flag" role="img" aria-label="프랑스 국기" style="background-position:-365.333px -506.667px"></span> 랭스 vs <span class="cup-icon cup-flag" role="img" aria-label="헝가리 국기" style="background-position:-28.000px -365.333px"></span> 뵈뢰시 로보고 | 4-2 | 4-4 | 8-6 | 랭스 |
-| <span class="cup-icon cup-flag" role="img" aria-label="스페인 국기" style="background-position:-365.333px -397.333px"></span> 레알 마드리드 vs <span class="cup-icon cup-flag" role="img" aria-label="유고슬라비아 국기" style="background-position:-365.333px -332.000px"></span> 파르티잔 | 4-0 | 0-3 | 4-3 | 레알 마드리드 |
-| <span class="cup-icon cup-flag" role="img" aria-label="오스트리아 국기" style="background-position:-28.000px -542.000px"></span> 라피트 vs <span class="cup-icon cup-flag" role="img" aria-label="이탈리아 국기" style="background-position:-28.000px -578.667px"></span> 밀란 | 1-1 | 2-7 | 3-8 | 밀란 |
+| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 | 1-3 | 0-1 | 1-4 | 히버니언 |
+| <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 랭스 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 | 4-2 | 4-4 | 8-6 | 랭스 |
+| <img class="cup-flag" src="/images/flags/es-franco-civil.svg" width="28" height="20" alt="스페인 국기" loading="lazy" /> 레알 마드리드 vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> 파르티잔 | 4-0 | 0-3 | 4-3 | 레알 마드리드 |
+| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> 라피트 vs <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> 밀란 | 1-1 | 2-7 | 3-8 | 밀란 |
 
 <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 </details>
 
-<h3 class="cup-match" id="match-9"><span class="cup-team"><span>유고덴 IF</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="유고덴 IF 로고" style="background-position:-192.000px -506.182px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스웨덴 국기" style="background-position:-28.000px -469.333px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>히버니언 FC</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="히버니언 FC 로고" style="background-position:-232.727px -466.182px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스코틀랜드 국기" style="background-position:-365.333px -432.667px"></span></span></span></h3>
-
-<p class="cup-match-deck">스웨덴 팀의 홈경기가 열린 글래스고</p>
+<div data-football-tie="1955-56-european-cup:match-9"></div>
 
 유고덴과 히버니언의 8강 1차전은 11월 23일 글래스고의 퍼힐<span class="foreign-note" lang="en">(Firhill)</span>에서 열렸다. 스웨덴의 겨울 탓에 유고덴이 스코틀랜드에서 홈경기를 치른 것이다. 유럽 대회라는 새 일정은 계절이 다른 나라들의 경기장 사정까지 조정해야 했다. <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
@@ -236,25 +218,19 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 
 <figure><a href="/images/archive/1955-56-european-cup/hibernian-programme.webp" target="_blank" rel="noopener" aria-label="히버니언 1955년 11월 28일 프로그램의 퍼힐 경기 관전평 크게 보기"><img src="/images/archive/1955-56-european-cup/hibernian-programme.webp" width="1128" height="1500" alt="히버니언 1955년 11월 28일 프로그램의 퍼힐 경기 관전평" loading="lazy" /></a><figcaption>히버니언-유고덴 2차전 공식 프로그램의 1차전 관전평. 1955년 11월 28일 발행, PDF 3쪽. 소장: Djurgården 역사 아카이브.</figcaption></figure>
 
-<h3 class="cup-match" id="match-10"><span class="cup-team"><span>스타드 드 랭스</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="스타드 드 랭스 로고" style="background-position:-232.727px -546.909px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="프랑스 국기" style="background-position:-365.333px -506.667px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>뵈뢰시 로보고</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="뵈뢰시 로보고 로고" style="background-position:-192.000px -392.727px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="헝가리 국기" style="background-position:-28.000px -365.333px"></span></span></span></h3>
-
-<p class="cup-match-deck">랭스와 뵈뢰시 로보고, 두 경기 열네 골</p>
+<div data-football-tie="1955-56-european-cup:match-10"></div>
 
 랭스와 뵈뢰시 로보고는 1차전에서 여섯 골, 2차전에서 여덟 골을 주고받았다. 랭스가 홈에서 4-2로 이겼으므로 헝가리 팀은 부다페스트에서 두 골 차를 메워야 했다. 그런데 2차전 후반 초반의 점수는 랭스의 4-1 리드였다. 남은 시간 동안 뵈뢰시 로보고가 세 골을 따라붙어 경기를 4-4로 만들었지만, 합계 점수까지 되돌리지는 못했다. <a class="cite" href="#source-24" aria-label="출처 24">[24]</a>
 
 합계 8-6에는 서로 다른 이야기가 들어 있다. 랭스는 원정에서도 득점을 늘리며 진출 가능성을 굳혔고, 뵈뢰시 로보고는 크게 뒤진 경기에서 공격을 멈추지 않았다. 다만 여덟 골의 대접전을 마지막 순간까지 진출팀을 알 수 없었던 승부로 묘사하면 실제 흐름과 멀어진다. 랭스가 일찍 벌려 놓은 격차와 헝가리 팀의 뒤늦은 추격을 함께 봐야 한다. 16강에서 열 골을 넣었던 팀은 8강에서도 여섯 골을 넣고 탈락했다.
 
-<h3 class="cup-match" id="match-11"><span class="cup-team"><span>레알 마드리드</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="레알 마드리드 로고" style="background-position:-232.727px -427.636px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="스페인 국기" style="background-position:-365.333px -397.333px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>FK 파르티잔</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="FK 파르티잔 로고" style="background-position:-232.727px -356.364px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="유고슬라비아 국기" style="background-position:-365.333px -332.000px"></span></span></span></h3>
-
-<p class="cup-match-deck">네 골을 들고도 떨었던 레알의 베오그라드 원정</p>
+<div data-football-tie="1955-56-european-cup:match-11"></div>
 
 레알 마드리드는 1955년 12월 25일 파르티잔을 홈에서 4-0으로 꺾었다. 스코어만 놓으면 다음 원정의 부담을 상당히 덜어 낸 결과였다. 그러나 1956년 1월 29일 베오그라드에서는 전혀 다른 경기가 펼쳐졌다. 눈 덮인 경기장에서 파르티잔이 3-0으로 이겼고, 레알은 합계 4-3으로 간신히 다음 라운드에 남았다. 구단의 공식 역사에도 이 원정은 베오그라드의 눈 위에서 벌어진 싸움으로 남아 있다. <a class="cite" href="#source-25" aria-label="출처 25">[25]</a>
 
 파르티잔은 리스본에서 시작한 공격을 마드리드의 우승 후보에게까지 밀어붙였다. 첫 경기에서 허용한 네 골이 끝내 컸지만, 레알의 첫 유럽 여정이 어떤 아슬아슬함을 통과했는지도 이 경기에서 드러난다. 한 골의 합계 차이로 이어진 길 위에 훗날의 왕조가 놓였다. 우승의 출발점을 돌아볼 때 결승의 환희만큼 이 눈밭의 0-3도 기억할 만하다.
 
-<h3 class="cup-match" id="match-12"><span class="cup-team"><span>SK 라피트 빈</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="SK 라피트 빈 로고" style="background-position:-192.000px -585.455px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="오스트리아 국기" style="background-position:-28.000px -542.000px"></span></span></span><span class="cup-versus">vs</span><span class="cup-team"><span>AC 밀란</span><span class="cup-team-icons"><span class="cup-icon cup-crest" role="img" aria-label="AC 밀란 로고" style="background-position:-192.000px -625.455px"></span><span aria-hidden="true">|</span><span class="cup-icon cup-flag" role="img" aria-label="이탈리아 국기" style="background-position:-28.000px -578.667px"></span></span></span></h3>
-
-<p class="cup-match-deck">밀란의 일곱 골이 완성한 마지막 4강 자리</p>
+<div data-football-tie="1955-56-european-cup:match-12"></div>
 
 라피트와 밀란은 빈에서 1-1로 비겼다. PSV를 첫 경기부터 다섯 골 차로 밀어냈던 라피트도, 16강에서 한 차례 크게 흔들렸던 밀란도 아직 진출을 장담할 수 없었다. 균형은 1956년 2월 12일 산 시로에서 무너졌다. 밀란이 7-2로 이겼다. 두 경기 합계 8-3이었다. <a class="cite" href="#source-26" aria-label="출처 26">[26]</a>
 
@@ -300,3 +276,6 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 <li id="source-27"><a href="https://commons.wikimedia.org/wiki/File:Vasco_da_Gama_en_el_Sudamericano_de_Campeones,_Estadio,_1948-04-03_(255).jpg" target="_blank" rel="noopener noreferrer">《에스타디오》 제255호 바스쿠 사진: 사진가 미상, 칠레 공유문화유산 표기</a></li>
 <li id="source-28"><a href="https://www.wolves.co.uk/news/features/20241213-honved-54-the-night-european-football-was-born-at-molineux/" target="_blank" rel="noopener noreferrer">Wolves: 1954년 혼베드전 공식 회고와 역사 사진</a></li>
 </ol></div>
+
+
+<p class="cup-asset-credit">로고 자료: <a href="https://www.footylogos.com/">FootyLogos</a> · <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · <a href="https://www.sporting.pt/en/club/history/the-badge">스포르팅 구단 로고 연혁</a></p>
