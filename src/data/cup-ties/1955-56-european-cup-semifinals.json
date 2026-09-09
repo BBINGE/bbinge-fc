@@ -1,0 +1,14 @@
+{
+  "season": "1955-56",
+  "competition": "유러피언컵",
+  "ties": {
+    "match-1": {
+      "left": "reims", "right": "hibernian", "legs": [[2,0],[1,0]], "stage": "4강",
+      "deck": "파리에서 두 골, 에든버러에서 한 골. 랭스는 두 경기 모두 실점 없이 결승에 올랐다."
+    },
+    "match-2": {
+      "left": "real-madrid", "right": "milan", "legs": [[4,2],[1,2]], "stage": "4강",
+      "deck": "마드리드의 두 골 차 우세를 밀라노에서 한 골 차 합계 승리로 지켜 냈다."
+    }
+  }
+}

@@ -23,4 +23,13 @@ assert.equal(expandFootballTies('<h3>그대로 보존</h3>'),'<h3>그대로 보�
 const source=readFileSync(new URL('../src/content/archive/1955-56-european-cup.md',import.meta.url),'utf8');
 assert.equal((source.match(/data-football-tie=/g)??[]).length,12);
 assert(!source.includes('background-position'));
+for (const [id, total, winner] of [['match-1','3<i>:</i>0','스타드 드 랭스'], ['match-2','5<i>:</i>4','레알 마드리드']]) {
+  const html = renderTie('1955-56-european-cup-semifinals', id);
+  assert(html.includes(`<strong>${total}</strong>`));
+  assert(html.includes('<dt>결승 진출</dt>'));
+  assert(html.includes(winner));
+  assert(html.includes('<dt>4강 1차전</dt>'));
+  assert(html.includes('<dt>4강 2차전</dt>'));
+  assert(!html.includes('<dt>4강 진출</dt>'));
+}
 console.log('대진 카드 검수 통과: 12개 합계·시즌 자산·미확인 국기 전용·원고 분리');
