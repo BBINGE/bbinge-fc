@@ -28,6 +28,19 @@ draft: false
 
 <div class="record-abstract"><span>편집자 평가</span><p>네덜란드 축구계에는 ‘꽃보다 빛나는’ 윙어들이 많았다. 그중에서도 필자가 가장 높은 자리에 올려놓고 싶은 선수는 로프 렌센브링크다. 측면에서 수비수를 휘감아 지나가고, 골키퍼 앞에서는 놀라울 만큼 침착해지던 왼발. 안데를레흐트를 유럽 정상에 올린 결승마다 그 발이 등장했다. 월드컵 결승의 골대 하나로 기억하기에는, 이 공격수가 이미 끝내 놓은 승부가 너무 많다.</p></div>
 
+<div class="legend-reel" data-legend-reel style="--reel-count: 5">
+  <div class="legend-reel-head"><span>로프 렌센브링크 플레이</span><strong>뱀 같은 드리블과 골문 앞의 침착함</strong><small data-reel-count>1 / 5</small></div>
+  <video muted playsinline preload="metadata" aria-label="로프 렌센브링크 플레이 영상 다섯 편 연속 재생"></video>
+  <div class="legend-reel-foot"><p data-reel-caption>측면에서 수비수가 발을 뻗는 순간 공을 빼낸다. 몸을 틀어 태클을 피하고 골문 쪽으로 돌파를 이어 간다.</p><div class="legend-reel-progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+  <ol hidden data-reel-playlist>
+    <li data-src="/videos/archive/legends/rensenbrink/1.mp4">측면에서 수비수가 발을 뻗는 순간 공을 빼낸다. 몸을 틀어 태클을 피하고 골문 쪽으로 돌파를 이어 간다.</li>
+    <li data-src="/videos/archive/legends/rensenbrink/2.mp4">문전으로 들어와 골키퍼와 수비수의 움직임을 보고 마무리한다. 급하게 달려온 공격의 끝에 침착한 한 번의 선택이 남는다.</li>
+    <li data-src="/videos/archive/legends/rensenbrink/3.mp4">빠르게 골문으로 달려가면서도 마지막 터치의 여유를 잃지 않는다. 속도와 침착함이 한 장면 안에서 이어진다.</li>
+    <li data-src="/videos/archive/legends/rensenbrink/4.mp4">수비수 사이에서 공을 지킨 뒤 문전의 동료에게 연결한다. 자신의 돌파가 다른 선수의 마무리로 이어지는 장면이다.</li>
+    <li data-src="/videos/archive/legends/rensenbrink/5.mp4">공을 받아 몸을 돌리는 짧은 순간에 수비수의 태클을 벗긴다. 첫 터치와 방향 전환을 붙여 상대의 중심을 무너뜨린다.</li>
+  </ol>
+</div>
+
 ## 삥이FC 로프 렌센브링크 평가
 
 1. 피트 카이저<span class="foreign-note" lang="nl">(Piet Keizer; 1960~70년대 아약스의 왼쪽 윙어)</span>, 요니 레프<span class="foreign-note" lang="nl">(Johnny Rep; 1974·1978 월드컵의 네덜란드 공격수)</span>, 마르크 오버르마르스<span class="foreign-note" lang="nl">(Marc Overmars; 아약스·아스널·바르셀로나에서 뛴 윙어)</span>, 아르연 로번<span class="foreign-note" lang="nl">(Arjen Robben; 바이에른 뮌헨과 네덜란드 대표팀의 왼발 윙어)</span>. 어느 시대를 들춰도 거대한 이름이 나온다. 그 경쟁에서 렌센브링크를 단연 첫손에 꼽는 것이 필자의 판단이다. 드리블러의 탈출 능력과 골 게터의 마무리, 동료를 살리는 마지막 패스가 한 몸에 들어 있었다.
@@ -218,21 +231,6 @@ AFC DWS<span class="foreign-note" lang="nl">(Amsterdamsche Football Club Door Wi
   <li><strong>벨기에 리그 역대 최고의 외국인 선수</strong><small>《Sport/Voetbalmagazine》 선정</small><span>2007년</span></li>
   <li><strong>벨기에 프로 리그 명예의 전당 헌액</strong><span>2025년</span></li>
 </ul>
-
-## 로프 렌센브링크 플레이 영상
-
-<div class="legend-reel" data-legend-reel style="--reel-count: 5">
-  <div class="legend-reel-head"><span>로프 렌센브링크 플레이</span><strong>뱀 같은 드리블과 골문 앞의 침착함</strong><small data-reel-count>1 / 5</small></div>
-  <video muted playsinline preload="metadata" aria-label="로프 렌센브링크 플레이 영상 다섯 편 연속 재생"></video>
-  <div class="legend-reel-foot"><p data-reel-caption>측면에서 수비수가 발을 뻗는 순간 공을 빼낸다. 몸을 틀어 태클을 피하고 골문 쪽으로 돌파를 이어 간다.</p><div class="legend-reel-progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
-  <ol hidden data-reel-playlist>
-    <li data-src="/videos/archive/legends/rensenbrink/1.mp4">측면에서 수비수가 발을 뻗는 순간 공을 빼낸다. 몸을 틀어 태클을 피하고 골문 쪽으로 돌파를 이어 간다.</li>
-    <li data-src="/videos/archive/legends/rensenbrink/2.mp4">문전으로 들어와 골키퍼와 수비수의 움직임을 보고 마무리한다. 급하게 달려온 공격의 끝에 침착한 한 번의 선택이 남는다.</li>
-    <li data-src="/videos/archive/legends/rensenbrink/3.mp4">빠르게 골문으로 달려가면서도 마지막 터치의 여유를 잃지 않는다. 속도와 침착함이 한 장면 안에서 이어진다.</li>
-    <li data-src="/videos/archive/legends/rensenbrink/4.mp4">수비수 사이에서 공을 지킨 뒤 문전의 동료에게 연결한다. 자신의 돌파가 다른 선수의 마무리로 이어지는 장면이다.</li>
-    <li data-src="/videos/archive/legends/rensenbrink/5.mp4">공을 받아 몸을 돌리는 짧은 순간에 수비수의 태클을 벗긴다. 첫 터치와 방향 전환을 붙여 상대의 중심을 무너뜨린다.</li>
-  </ol>
-</div>
 
 ## 참고 자료
 
