@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-09T20:26:39.238Z",
+  "updatedAt": "2026-09-09T22:56:19.351Z",
   "matches": [
     {
       "id": "2594578",
@@ -37,9 +37,9 @@
       "away": "아틀레티코 마드리드",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "status": "HT",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-10"
@@ -51,12 +51,26 @@
       "away": "Slovan Bratislava",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
-      "homeScore": 3,
-      "awayScore": 0,
-      "status": "HT",
+      "homeScore": 6,
+      "awayScore": 1,
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-10"
+    },
+    {
+      "id": "2594585",
+      "league": "UEFA 챔피언스 리그",
+      "home": "PSV 에인트호번",
+      "away": "샤흐타르 도네츠크",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "01:45",
+      "date": "2026-09-11"
     }
   ],
   "standings": [
