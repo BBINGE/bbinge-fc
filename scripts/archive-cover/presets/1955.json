@@ -1,0 +1,16 @@
+{
+  "year": "1955",
+  "photo": "public/images/archive/1955-copa-america/hormazabal-portrait.jpeg",
+  "stamp": "public/images/archive/1955-copa-america/chile-1955-airmail-100p.jpg",
+  "top": "#751C2C",
+  "bottom": "#C54C55",
+  "focusX": 0.5,
+  "focusY": 0,
+  "zoom": 1,
+  "mvpX": 24,
+  "mvpY": 520,
+  "mvpWidth": 362,
+  "mvpHeight": 154,
+  "cropIntent": "지정된 사진과 승인 타이포 보존. 머리 전체와 칠레 문장 보존.",
+  "stampContext": "1955-10-03 칠레 항공우표 100페소, Comet Airliner. 대회 기념우표 아님."
+}
