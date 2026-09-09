@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-09T16:05:53.541Z",
+  "updatedAt": "2026-09-09T17:34:12.577Z",
   "matches": [
     {
       "id": "2594578",
@@ -9,9 +9,9 @@
       "away": "Viking",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-10"
@@ -23,9 +23,9 @@
       "away": "Telstar",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rsrxrt1473534783.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xg1ss31579463659.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-10"
