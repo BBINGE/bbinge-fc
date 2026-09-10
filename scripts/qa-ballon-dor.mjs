@@ -24,6 +24,27 @@ try {
     assert.equal(await page.locator('.award-masthead strong').innerText(), '1956 BALLON D’OR');
     assert.match(await page.locator('.award-masthead-copy p').innerText(), /발롱도르;.*황금 공/);
     assert.equal(await page.locator('.content-cover').count(), 0);
+    const season = page.locator('.award-season-results');
+    assert.equal(await season.locator('h2').innerText(), '1955-56 시즌 우승팀');
+    assert.deepEqual(await season.locator('dd').allTextContents(), ['레알 마드리드 CF', '스타드 드 랭스', 'AC 밀란 · 히버니언 FC']);
+    assert(await season.evaluate(el => !!(el.compareDocumentPosition(document.querySelector('#award-rules')) & Node.DOCUMENT_POSITION_FOLLOWING)));
+    assert(!/(^|\s)(나는|내가)\s/m.test(await page.locator('.archive-body').innerText()));
+    const achievements = page.locator('.award-achievements');
+    assert.equal(await achievements.count(), 3);
+    for (const [index, card] of (await achievements.all()).entries()) {
+      assert.deepEqual(await card.locator('h3').allTextContents(), ['팀 성적', '개인 수상·기록', '개인 스탯']);
+      assert((await card.locator('li').count()) >= 9);
+      assert.equal(await card.locator('.award-stat-list li').count(), 5);
+      assert(!(await card.locator('li').allTextContents()).some(text => /다\.|기록은|합산하지/.test(text)), 'record panels are lists, not explanatory prose');
+      assert(await card.locator('h3').evaluateAll(headings => headings.every(el => parseFloat(getComputedStyle(el).marginTop) === 0)), 'no inherited heading whitespace');
+      assert(await card.evaluate(el => [...el.querySelectorAll('li')].every(li => li.scrollWidth <= li.clientWidth + 1)), 'all achievement rows fit');
+      await card.screenshot({path:join(out, 'records-' + index + '-' + width + '.png')});
+    }
+    assert.match(await achievements.nth(0).innerText(), /36경기 3골/);
+    assert.match(await achievements.nth(1).innerText(), /37경기 29골/);
+    assert.match(await achievements.nth(2).innerText(), /42경기 9골/);
+    assert.deepEqual(await page.locator('.award-nationality').nth(11).locator('span').allTextContents(), ['브라질', '이탈리아(수상 기록상 분류)']);
+    await season.screenshot({path:join(out, 'season-results-' + width + '.png')});
     assert.deepEqual(await page.locator('.identity-stack').evaluateAll(stacks => stacks.map(s => s.children.length)), [4, 3, 4]);
     assert.deepEqual(await page.locator('.identity-stack').first().locator('.identity-row').evaluateAll(rows => rows.map(r => r.dataset.identityId)), ['uk', 'england', 'england-team', 'blackpool']);
     assert.equal(await page.locator('.historical-identity em').count(), 0);

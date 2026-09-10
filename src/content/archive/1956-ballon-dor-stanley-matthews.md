@@ -29,11 +29,16 @@ draft: false
 
 <nav class="award-jump" aria-label="1956년 발롱도르 본문 바로가기"><a href="#award-rules">당시 선정 기준</a><a href="#matthews">수상자</a><a href="#di-stefano">2위</a><a href="#kopa">3위</a><a href="#ranking">전체 랭킹</a></nav>
 
+<section class="award-season-results" aria-labelledby="season-results">
+<h2 id="season-results">1955-56 시즌 우승팀</h2>
+<div class="award-competition"><h3>유러피언컵 <a class="cite" href="#source-19">[19]</a></h3><dl><div><dt>우승</dt><dd>레알 마드리드 CF</dd></div><div><dt>준우승</dt><dd>스타드 드 랭스</dd></div><div><dt>4강</dt><dd>AC 밀란 · 히버니언 FC</dd></div></dl></div>
+</section>
+
 첫 유러피언컵이 끝났다. 레알 마드리드는 파리에서 두 골을 먼저 내주고도 경기를 뒤집었고, 유럽의 강팀들이 같은 대회에서 겨룬다는 구상은 이제 우승컵을 가진 현실이 됐다. 그렇다면 그해 유럽 최고의 선수도 자연스럽게 그 우승팀에서 나왔을까. 초대 발롱도르의 결과는 우리가 익숙하게 연결하는 두 문장 사이에 작은 틈을 남겼다.
 
 1위는 스탠리 매슈스<span class="foreign-note" lang="en">(Stanley Matthews; 잉글랜드 축구선수, 1915-2000)</span>였다. 블랙풀 FC의 마흔한 살 오른쪽 윙어. 유러피언컵 우승팀의 중심도, 자국 리그 우승팀의 간판도 아닌 선수가 47점으로 첫 수상자가 됐다. 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나 출신 스페인 축구선수, 1926-2014)</span>는 44점, 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopaszewski, dit Kopa; 프랑스 축구선수, 1931-2017)</span>는 33점이었다. <a class="cite" href="#source-1">[1]</a>
 
-이 순서를 보고 곧바로 공로상이라는 말을 꺼낼 수도 있다. 반대로 초대 수상자라는 권위에 기대어 의문 자체를 무례한 일로 만들 수도 있을 것이다. 나는 양쪽 모두 조금 성급하다고 생각한다. 매슈스의 1956년을 지우고 그의 나이만 보면 실제 경기력이 사라지고, 새 상이 만들어지던 사정을 지우면 왜 그 이름이 첫 번째 자리에 놓일 수 있었는지 설명할 길이 좁아진다. 선수의 한 해와 상의 첫해를 함께 볼 필요가 있다.
+이 순서를 보고 곧바로 공로상이라는 말을 꺼낼 수도 있다. 반대로 초대 수상자라는 권위에 기대어 의문 자체를 무례한 일로 만들 수도 있을 것이다. 필자는 양쪽 모두 조금 성급하다고 생각한다. 매슈스의 1956년을 지우고 그의 나이만 보면 실제 경기력이 사라지고, 새 상이 만들어지던 사정을 지우면 왜 그 이름이 첫 번째 자리에 놓일 수 있었는지 설명할 길이 좁아진다. 선수의 한 해와 상의 첫해를 함께 볼 필요가 있다.
 
 <h2 id="award-rules">1956년, 누가 누구를 평가했나</h2>
 
@@ -73,9 +78,10 @@ draft: false
 
 <div data-award-record="1956-ballon-dor:identity-matthews"></div>
 
-<div class="award-achievements">
-<section><h3>팀 성적</h3><ul><li>블랙풀 FC · 1955-56 풋볼리그 퍼스트 디비전 준우승, FA컵 3라운드 탈락.</li><li>잉글랜드 · 1955-56 브리티시 홈 챔피언십 공동 우승. 네 대표팀이 모두 승점 3점으로 우승을 나눴다.</li></ul></section>
-<section><h3>개인 기록 · 기간별 구분</h3><ul><li>1955-56 리그 · 36경기 3골.</li><li>1956년 국가대표팀 · 5경기 1골. 브라질·북아일랜드·웨일스·유고슬라비아·덴마크전 출전.</li><li>1956년 발롱도르 · 47점, 1위표 6장, 총 12명의 선택.</li></ul></section>
+<div class="award-achievements award-achievements-matthews">
+<section><h3>팀 성적</h3><ul><li>1955-56 풋볼리그 퍼스트 디비전 <strong>준우승 (2위)</strong></li><li>1955-56 FA컵 <strong>64강 (3라운드)</strong></li><li>1955-56 브리티시 홈 챔피언십 <strong>공동 우승</strong></li></ul></section>
+<section><h3>개인 수상·기록</h3><ul><li>1956년 발롱도르 <strong>수상</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li><span>1955-56 클럽 리그</span><strong>36경기 3골</strong></li><li class="award-stat-total"><span>1956년 국가대표팀 합계</span><strong>5경기 1골</strong></li><li><span>1956년 A매치 친선경기</span><strong>2경기 0골</strong></li><li><span>1956년 홈 챔피언십 출전</span><strong>2경기 1골</strong></li><li><span>1956년 월드컵 예선</span><strong>1경기 0골</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · WINNER</small><span>득표 점수</span></div><strong>47점</strong><small>1위표 6장<br />선정 기자 12명</small></div>
@@ -88,9 +94,9 @@ draft: false
 
 물론 이것만으로 디스테파노보다 반드시 우위였다고 증명되는 것은 아니다. 유러피언컵 우승팀의 중심에 섰던 선수를 선택할 근거도 충분했다. 다만 매슈스를 설명하면서 ‘41세였으니 공로상’이라고 끝내면, 나이를 경기력의 증거처럼 쓰게 된다. 오래 뛰었다는 사실과 이제 잘하지 못했다는 판단은 다른 문장이다.
 
-여기서 내가 흥미롭게 보는 것은 새로운 상과 첫 수상자 사이의 관계다. 상은 선수에게 권위를 준다. 그런데 아직 아무도 받아 본 적 없는 상이라면 어떨까. 그때는 수상자의 명성이 상에 권위를 돌려줄 수도 있다. 오래 축구를 본 이들이 이름만으로 기량과 지속성을 떠올릴 수 있는 선수가 첫 페이지에 놓이면, 그 명단은 출발부터 자기 기준을 설명할 언어를 얻는다.
+여기서 필자가 흥미롭게 보는 것은 새로운 상과 첫 수상자 사이의 관계다. 상은 선수에게 권위를 준다. 그런데 아직 아무도 받아 본 적 없는 상이라면 어떨까. 그때는 수상자의 명성이 상에 권위를 돌려줄 수도 있다. 오래 축구를 본 이들이 이름만으로 기량과 지속성을 떠올릴 수 있는 선수가 첫 페이지에 놓이면, 그 명단은 출발부터 자기 기준을 설명할 언어를 얻는다.
 
-사업 하나를 처음 열 때에도 실행 성과만큼이나 왜 이 일을 하는지, 누구의 이름을 걸고 시작하는지가 중요할 때가 있다. 그렇다고 명분이 실제 성과를 대신해도 된다는 이야기는 아니다. 매슈스가 흥미로운 것은 1956년에도 정상급 무대에서 뛰고 있었다는 사실 위에, 오랫동안 축적된 신뢰가 함께 놓였기 때문이다. 나는 그의 초대 수상을 이 두 층위에서 읽는다. 이것은 수상 결과에 대한 해석이지, 열여섯 기자가 모두 그런 의도로 표를 던졌다는 증언은 아니다.
+사업 하나를 처음 열 때에도 실행 성과만큼이나 왜 이 일을 하는지, 누구의 이름을 걸고 시작하는지가 중요할 때가 있다. 그렇다고 명분이 실제 성과를 대신해도 된다는 이야기는 아니다. 매슈스가 흥미로운 것은 1956년에도 정상급 무대에서 뛰고 있었다는 사실 위에, 오랫동안 축적된 신뢰가 함께 놓였기 때문이다. 필자는 그의 초대 수상을 이 두 층위에서 읽는다. 이것은 수상 결과에 대한 해석이지, 열여섯 기자가 모두 그런 의도로 표를 던졌다는 증언은 아니다.
 
 당시 명칭에도 시간을 되돌려 줄 필요가 있다. 오늘날 익숙한 ‘스탠리 매슈스 경’의 기사 작위는 1965년, CBE 수훈은 1957년의 일이다. 1956년의 선수 카드에 훗날의 명예를 미리 달아 놓으면, 우리는 수상 순간의 매슈스보다 이미 전설이 완성된 매슈스를 먼저 보게 된다. 첫 발롱도르를 받던 그는 아직 그 뒤의 아홉 해를 더 뛰어야 할 현역 선수였다. <a class="cite" href="#source-6">[6]</a>
 
@@ -101,9 +107,10 @@ draft: false
 
 <div data-award-record="1956-ballon-dor:identity-di-stefano"></div>
 
-<div class="award-achievements">
-<section><h3>팀 성적</h3><ul><li>1955-56 유러피언컵 우승.</li><li>1955-56 라리가 3위 · 1956 코파 델 헤네랄리시모 4강.</li><li>1956 스몰 클럽 월드컵 우승. 베네수엘라에서 열린 국제 초청대회.</li></ul></section>
-<section><h3>개인 기록 · 기간별 구분</h3><ul><li>1955-56 클럽 공식전 · 37경기 29골. 리그 30경기 24골, 유러피언컵 7경기 5골.</li><li>1955-56 트로페오 피치치 · 라리가 24골, 통산 두 번째 수상.</li><li>1956년 국가대표팀 · 출전 없음. 스페인 대표팀 첫 경기는 1957년 1월 30일.</li><li>1956년 발롱도르 · 44점, 1위표 5장, 총 11명의 선택.</li></ul></section>
+<div class="award-achievements award-achievements-di-stefano">
+<section><h3>팀 성적</h3><ul><li>1955-56 라리가 <strong>3위</strong></li><li>1956 코파 델 헤네랄리시모 <strong>4강</strong></li><li>1955-56 유러피언컵 <strong>우승</strong></li><li>1956 스몰 클럽 월드컵 <strong>우승</strong></li></ul></section>
+<section><h3>개인 수상·기록</h3><ul><li>1955-56 트로페오 피치치 <strong>라리가 득점왕 (24골)</strong></li><li>1955-56 유러피언컵 <strong>공동 득점 4위 (5골)</strong> <a class="cite" href="#source-19">[19]</a></li><li>1956년 발롱도르 <strong>2위</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 클럽 공식전 합계</span><strong>37경기 29골</strong></li><li><span>1955-56 라리가</span><strong>30경기 24골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 5골</strong></li><li><span>1956 스몰 클럽 월드컵</span><strong>6경기 4골</strong> <a class="cite" href="#source-20">[20]</a></li><li><span>1956년 국가대표팀</span><strong>0경기</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · SECOND</small><span>득표 점수</span></div><strong>44점</strong><small>1위표 5장<br />선정 기자 11명</small></div>
@@ -129,10 +136,10 @@ draft: false
 
 <div data-award-record="1956-ballon-dor:identity-kopa"></div>
 
-<div class="award-achievements">
-<section><h3>팀 성적 · 스타드 드 랭스</h3><ul><li>1955-56 유러피언컵 준우승.</li><li>1955-56 디비지옹 1 10위 · 쿠프 드 프랑스 8강.</li></ul></section>
-<section><h3>소속 변화 · 레알 마드리드 CF</h3><ul><li>1956년 여름 이적. 같은 해 하반기부터 레알 마드리드에서 출전.</li><li>1956-57 시즌 우승 기록은 이듬해에 확정된다. 1956년의 성적으로 앞당겨 합산하지 않는다.</li></ul></section>
-<section><h3>개인 기록 · 기간별 구분</h3><ul><li>1955-56 랭스 공식전 · 42경기 9골. 리그 30경기 5골, 쿠프 드 프랑스 5경기 4골, 유러피언컵 7경기 0골.</li><li>1956년 국가대표팀 · 1경기 0골. 2월 15일 이탈리아전 선발 출전.</li><li>1956년 발롱도르 · 33점, 1위표 1장, 총 12명의 선택.</li></ul></section>
+<div class="award-achievements award-achievements-kopa">
+<section><h3>팀 성적</h3><ul><li>1955-56 디비지옹 1 <strong>10위</strong></li><li>1955-56 쿠프 드 프랑스 <strong>8강</strong></li><li>1955-56 유러피언컵 <strong>준우승</strong></li></ul></section>
+<section><h3>개인 수상·기록</h3><ul><li>1956년 발롱도르 <strong>3위</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 랭스 공식전 합계</span><strong>42경기 9골</strong></li><li><span>1955-56 디비지옹 1</span><strong>30경기 5골</strong></li><li><span>1955-56 쿠프 드 프랑스</span><strong>5경기 4골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 0골</strong></li><li><span>1956년 국가대표팀</span><strong>1경기 0골</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · THIRD</small><span>득표 점수</span></div><strong>33점</strong><small>1위표 1장<br />선정 기자 12명</small></div>
@@ -157,7 +164,7 @@ draft: false
 
 <div class="award-table-shell"><div data-award-record="1956-ballon-dor:ranking"></div></div>
 
-<p class="award-note">* 줄리뉴는 브라질 선수로 표기했다. RSSSF의 1956년 수상 기록에는 이탈리아로 분류되어 있으나, 이 분류만으로 이탈리아 국적 취득까지 확인되는 것은 아니다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-18">[18]</a></p>
+<p class="award-note">줄리뉴의 ‘이탈리아’는 수상 기록상의 분류이며, 시민권 취득을 뜻하는 표기는 아니다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-18">[18]</a></p>
 
 <div class="award-table-shell"><details><summary><span>기자들이 매긴 1~5위별 투표 내역 보기</span><span class="award-toggle-action"><span class="award-toggle-closed">펼쳐보기</span><span class="award-toggle-open">접기</span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></span></summary><div data-award-record="1956-ballon-dor:ballots"></div></details></div>
 
@@ -167,9 +174,9 @@ draft: false
 
 그래서 초대 발롱도르의 흥미는 ‘논란이 있었느냐’라는 말만으로 소진되지 않는다. 어느 상이든 첫해에는 아직 자기 역사가 없다. 첫 수상자를 정하는 행위가 앞으로 무엇을 존중할 것인지 보여주는 첫 사례가 된다. 매슈스의 지속성과 기술, 디스테파노의 유럽 우승과 전방위적인 영향력, 코파의 창조성이 한 표 안에서 비교됐다. 지금 우리가 당연하게 받아들이는 유럽 축구의 개인 서열도 처음에는 그런 선택들이 모여 만들어졌다.
 
-나는 매슈스가 상의 권위를 빌리기만 한 첫 수상자는 아니었다고 생각한다. 새로운 상을 받아들일 이유를 그의 경력이 함께 제공했다. 다만 그 설명이 설득력을 가지려면 1956년에도 그가 어떤 경기장에서 무엇을 하고 있었는지가 빠져서는 안 된다. 존경은 경기력을 대신하는 면죄부가 아니고, 경기력은 오랜 존경과 언제나 따로 존재하는 것도 아니다.
+필자는 매슈스가 상의 권위를 빌리기만 한 첫 수상자는 아니었다고 생각한다. 새로운 상을 받아들일 이유를 그의 경력이 함께 제공했다. 허나 그 관계를 인정하는 일과, 그의 수상을 오랜 경력에 대한 예우로만 설명하는 일은 구분해야 한다. 후자의 설명이 성립하려면 1956년의 경기력이 경쟁자들보다 부족했는데도 다른 이유로 선택됐다는 근거가 더 필요하다.
 
-47점, 44점, 33점. 숫자는 짧고 순서는 분명하다. 그러나 그 순서에 도달한 이유는 점수판보다 길다. 발롱도르의 첫 페이지를 다시 펼칠 때 남겨 두고 싶은 것은 바로 그 길이다.
+득점이 적었다는 사실과 오른쪽 윙어로서의 기여가 작았다는 판단은 같은 말이 아니다. 디스테파노의 득점과 유럽 우승을 더 높이 평가할 수는 있다. 다만 그 선택을 설명하는 일과 매슈스에게 줄 표가 없었다고 단정하는 일 사이에도 거리가 있다. 무엇을 비교했는지 밝히지 않은 채 나이와 명성만으로 수상의 이유를 완성하면, 우리가 설명한 것은 당시 기자들의 판단보다 그 판단에 대한 후대의 인상에 가까워진다.
 
 <figure class="award-cover"><a href="/images/archive/awards/1956-ballon-dor/cover.png" target="_blank" rel="noopener"><img src="/images/archive/awards/1956-ballon-dor/cover.png" width="966" height="966" alt="매슈스와 1956년 발롱도르 상위 순위를 정리한 삥이FC 썸네일" loading="lazy" /></a></figure>
 
@@ -195,5 +202,7 @@ draft: false
 <li id="source-16">《모젤 스포르》, <a href="https://www.mosellesport.fr/articles-fc-metz/top-les-50-plus-grands-joueurs-du-fc-metz-de-20-a-10.html" target="_blank" rel="noopener noreferrer">FC 메스 역대 선수 회고</a>; 프랑스축구협회, <a href="https://www.fff.fr/equipe-nationale/joueur/8706-cisowski-thadee/fiche.html" target="_blank" rel="noopener noreferrer">타데 시소브스키 공식 기록</a>. 폴란드에서 프랑스로의 귀화와 1951년 대표팀 데뷔.</li>
 <li id="source-17">Europeana, <a href="https://www.europeana.eu/en/stories/miguel-montuori-fiorentina-footballer" target="_blank" rel="noopener noreferrer">미겔 몬투오리</a>; UEFA, <a href="https://www.uefa.com/news-media/news/018b-0f84441b6c20-34ba089a180f-1000--former-milan-great-schiaffino-dies/" target="_blank" rel="noopener noreferrer">후안 스키아피노 회고</a>; <a href="https://www.magliarossonera.it/protagonisti/Gioc-Schiaffino.html" target="_blank" rel="noopener noreferrer">Maglia Rossonera 스키아피노 경기 기록</a>. 아르헨티나·우루과이와 이탈리아의 국적 이력, 각각 1956년·1954년 이탈리아 대표팀 데뷔.</li>
 <li id="source-18">SE 파우메이라스, <a href="https://www.palmeiras.com.br/craques/julinho-Botelho/" target="_blank" rel="noopener noreferrer">줄리뉴 보텔류 공식 인물 기록</a>. 브라질 선수 경력과 1954년 월드컵 출전.</li>
+<li id="source-19">UEFA, <a href="https://www.uefa.com/uefachampionsleague/history/seasons/1955/" target="_blank" rel="noopener noreferrer">1955-56 유러피언컵 시즌 기록</a>; RSSSF, <a href="https://www.rsssf.org/ec/ec195556.html" target="_blank" rel="noopener noreferrer">1955-56 유럽 클럽 대회 경기·득점 기록</a>. 결승·4강 진출팀과 득점 순위.</li>
+<li id="source-20">RSSSF, <a href="https://www.rsssf.org/tablesp/peq-copamundo56.html" target="_blank" rel="noopener noreferrer">1956 스몰 클럽 월드컵 경기별 기록</a>. 디스테파노의 6경기 출전과 4득점.</li>
 </ol>
 </div>

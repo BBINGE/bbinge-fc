@@ -21,7 +21,7 @@
     {"rank":9,"name":"타데 시소브스키","original":"Thadée Cisowski","country":"프랑스","nationalities":["폴란드","프랑스"],"clubs":["라싱 클뢰브 드 프랑스"],"points":4,"votes":[0,0,1,0,1]},
     {"rank":9,"name":"이반 콜레프","original":"Ivan Kolev","country":"불가리아","clubs":["CDNA 소피아"],"points":4,"votes":[0,1,0,0,0]},
     {"rank":9,"name":"빌리 라이트","original":"Billy Wright","country":"영국(잉글랜드)","clubs":["울버햄프턴 원더러스 FC"],"points":4,"votes":[0,0,1,0,1]},
-    {"rank":12,"name":"줄리뉴","original":"Júlio Botelho","country":"브라질*","awardCountry":"이탈리아","clubs":["AC 피오렌티나"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":12,"name":"줄리뉴","original":"Júlio Botelho","country":"브라질","nationalities":["브라질","이탈리아(수상 기록상 분류)"],"awardCountry":"이탈리아","clubs":["AC 피오렌티나"],"points":3,"votes":[0,0,1,0,0]},
     {"rank":13,"name":"스테판 보즈코프","original":"Stefan Bozhkov","country":"불가리아","clubs":["CDNA 소피아"],"points":2,"votes":[0,0,0,1,0]},
     {"rank":13,"name":"던컨 에드워즈","original":"Duncan Edwards","country":"영국(잉글랜드)","clubs":["맨체스터 유나이티드 FC"],"points":2,"votes":[0,0,0,1,0]},
     {"rank":13,"name":"게르하르트 하나피","original":"Gerhard Hanappi","country":"오스트리아","clubs":["SK 라피트 빈"],"points":2,"votes":[0,0,0,1,0]},

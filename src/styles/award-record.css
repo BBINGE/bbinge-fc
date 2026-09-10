@@ -59,12 +59,32 @@
 .award-record .award-score-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 26px; border-radius: 12px; background: #10110d; color: #e3d49b; margin: 26px 0; }
 .award-record .award-score-strip strong { font-size: 38px; line-height: 1; }
 .award-record .award-score-strip small { display: block; font-size: 12px; color: #c5bea1; }
-.award-record .award-achievements { display: grid; gap: 0; border: 1px solid #dbd4be; border-radius: 14px; overflow: hidden; background: #fbfaf5; margin: 26px 0; }
-.award-record .award-achievements section { padding: 22px 24px; border-bottom: 1px solid #dbd4be; }
-.award-record .award-achievements section:last-child { border-bottom: 0; }
-.award-record .award-achievements h3 { margin: 0 0 12px; color: #5e5127; font-size: 17px; }
-.award-record .award-achievements ul { list-style: disc; padding-left: 19px; margin: 0; font-size: 15px; line-height: 1.85; }
-.award-record .award-achievements li + li { margin-top: 7px; }
+.award-record .archive-body .award-season-results { margin: 32px 0 40px; border-block: 1px solid #d8cc9a; padding: 24px 0; }
+.award-record .archive-body .award-season-results h2 { margin: 0 0 20px; padding: 0; border: 0; font-size: 23px; }
+.award-record .archive-body .award-competition { border-left: 3px solid #b19947; padding-left: 20px; }
+.award-record .archive-body .award-competition + .award-competition { margin-top: 24px; }
+.award-record .archive-body .award-competition h3 { margin: 0 0 12px; font-size: 17px; }
+.award-record .archive-body .award-competition dl { margin: 0; font-size: 14px; }
+.award-record .archive-body .award-competition dl > div { display: grid; grid-template-columns: 50px minmax(0,1fr); gap: 12px; margin-top: 7px; }
+.award-record .archive-body .award-competition dt { color: #71633c; }
+.award-record .archive-body .award-competition dd { margin: 0; word-break: keep-all; }
+.award-record .archive-body .award-achievements { --record-accent: #ffed88; --record-rule: #ffffff38; display: grid; gap: 0; border: 0; border-radius: 14px; overflow: hidden; color: #fff; margin: 26px 0; }
+.award-record .archive-body .award-achievements-matthews { background: #bd0825; }
+.award-record .archive-body .award-achievements-di-stefano { --record-accent: #712607; --record-rule: #65470b38; background: #f6c800; color: #30260b; }
+.award-record .archive-body .award-achievements-kopa { background: #092988; }
+.award-record .archive-body .award-achievements section { padding: 24px; margin: 0; border-bottom: 1px solid var(--record-rule); }
+.award-record .archive-body .award-achievements section:last-child { border-bottom: 0; }
+.award-record .archive-body .award-achievements h3 { margin: 0 0 12px; padding: 0; color: inherit; font-size: 21px; line-height: 1.4; }
+.award-record .archive-body .award-achievements ul { list-style: disc; padding-left: 19px; margin: 0; font-size: 14px; line-height: 1.8; }
+.award-record .archive-body .award-achievements li { margin: 0; padding: 0; color: inherit; word-break: keep-all; overflow-wrap: anywhere; }
+.award-record .archive-body .award-achievements li + li { margin-top: 7px; }
+.award-record .archive-body .award-achievements strong { color: var(--record-accent); font-weight: 750; }
+.award-record .archive-body .award-achievements .cite { color: inherit; }
+.award-record .archive-body .award-stat-list { list-style: none; padding-left: 0; }
+.award-record .archive-body .award-stat-list li { display: flex; flex-wrap: wrap; column-gap: 14px; align-items: baseline; }
+.award-record .archive-body .award-stat-list li > span { flex: 1 1 220px; }
+.award-record .archive-body .award-stat-list strong { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.award-record .archive-body .award-stat-total { padding-bottom: 9px; border-bottom: 1px solid var(--record-rule); }
 .award-record .award-table-shell { overflow: hidden; border: 1px solid #d7cfb7; border-radius: 14px; margin: 28px 0; }
 .award-record .award-table-wrap { width: 100%; min-width: 0; }
 .award-record .archive-body .award-ranking { display: table; margin: 0; width: 100%; min-width: 0; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: 14px; }
