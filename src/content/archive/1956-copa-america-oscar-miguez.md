@@ -30,8 +30,8 @@ draft: false
 | --- | --- | --- | --- | --- |
 | 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 아홉 번째 우승</span> | 9 | 4승 1무 | 9득점 3실점 |
 | 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 아홉 번째 준우승</span> | 6 | 3승 2패 | 5득점 3실점 |
-| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 6 | 3승 2패 | 11득점 8실점 |
-| 4 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 6 | 2승 2무 1패 | 4득점 5실점 |
+| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 네 번째 3위</span> | 6 | 3승 2패 | 11득점 8실점 |
+| 4 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 6 | 2승 2무 1패 | 4득점 5실점 |
 | 5 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 2 | 2무 3패 | 3득점 8실점 |
 | 6 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1 | 1무 4패 | 6득점 11실점 |
 
@@ -88,7 +88,5 @@ draft: false
 미게스의 선택은 우승팀 최다 득점자라는 한 줄만으로 설명되지 않는다. 그는 우루과이가 우승의 주도권을 잡은 첫 세 경기에서 모두 득점했고, 마지막 두 경기에서는 골 없이도 중앙 공격수로 남았다. 1950년 마라카낭의 다섯 골짜리 공격수가 1956년에는 안방 무패 우승의 앞부분을 열었다. 최다 득점과 대회의 얼굴이 반드시 같은 사람일 필요는 없다는 것을, 이 대회의 두 이름이 나란히 보여준다.
 
 ## 출처와 기록 기준
-
-<p class="record-note">인물·용어 참고: 원어 성명과 생몰년은 <a href="https://commons.wikimedia.org/wiki/Category:%C3%93scar_M%C3%ADguez">Wikimedia Commons의 미게스 분류</a> 및 각 인물 기록과 대조했다. 표지 인물 사진은 운영자가 지정한 Alchetron 재게시본이며 촬영자·촬영 시점은 확인되지 않았다. 본문 사진은 AUF·AHIFU 회고에 실린 도판으로, 원문에 없는 선수명·득점 장면은 추정하지 않았다.</p>
 
 <div class="source-notes"><ol><li id="source-1"><a href="https://www.rsssf.org/tables/56safull.html">«Southamerican Championship 1956»</a>, Martín Tabeira, RSSSF. 경기별 명단·득점, 최종 순위와 득점 집계.</li><li id="source-2"><a href="https://www.auf.org.uy/uruguay-campe-oacute-n-de-am-eacute-rica-1956/">«Uruguay campeón de América 1956»</a>, 우루과이축구협회. 우루과이의 경기별 득점, 마지막 경기, 우승 기록과 선수 명단.</li><li id="source-3"><a href="https://sudamericanos20.auf.org.uy/copa-america-1956/">«Copa América 1956»</a>, 우루과이축구협회·AHIFU. 특별대회 개최 배경, 센테나리오 증축과 우루과이 공격진 회고.</li><li id="source-4"><a href="https://www.auf.org.uy/oscar-miguez/">«Oscar Míguez»</a>, 우루과이축구협회. 미게스의 대표팀 39경기 27골과 대회·우승 이력.</li><li id="source-5"><a href="https://www.elpais.com.uy/ovacion/la-historia-llora">«La historia llora»</a>, 《엘 파이스》. 미게스의 플레이 성향과 커리어를 다룬 부고.</li><li id="source-6"><a href="https://www.rsssf.org/tabless/sachampfulltrivia.html#best-players">«Copa América Best Players»</a>, RSSSF. 역대 대회 대표 선수 목록.</li></ol><p class="record-note">대표 선수는 RSSSF의 후대 정리에 근거하며 동시대 공식 MVP 시상으로 단정하지 않는다. 순위는 승리 2점제다. 아르헨티나와 칠레, 브라질은 모두 승점 6이지만 RSSSF의 최종 순위를 따랐다. AUF 장문 회고는 페루전 득점자를 미게스·보르헤스로 적지만, RSSSF 경기 기록과 AUF의 별도 우승 회고가 일치하는 에스칼라다·미게스를 적용했다. 2월 15일 우루과이-아르헨티나전은 우승 결정전이지만 결승 토너먼트의 결승전은 아니다.</p></div>

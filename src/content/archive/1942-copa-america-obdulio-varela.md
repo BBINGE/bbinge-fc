@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 여덟 번째 우승</span> | 6승 | 21득점 2실점 |
 | 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 여덟 번째 준우승</span> | 5승 1패 | 21득점 6실점 |
-| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 3승 1무 2패 | 15득점 7실점 |
-| 4 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 2승 2무 2패 | 11득점 10실점 |
+| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 네 번째 3위</span> | 3승 1무 2패 | 15득점 7실점 |
+| 4 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 네 번째 4위</span> | 2승 2무 2패 | 11득점 10실점 |
 | 5 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1승 2무 3패 | 5득점 10실점 |
 | 6 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 1승 1무 4패 | 4득점 15실점 |
 | 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 6패 | 4득점 31실점 |

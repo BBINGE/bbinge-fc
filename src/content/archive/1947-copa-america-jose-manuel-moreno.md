@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">대회 유일의 3연패</span> | 6승 1무 | 28득점 4실점 |
 | 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 5승 1무 1패 | 16득점 11실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 5승 2패 | 21득점 8실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 4승 1무 2패 | 14득점 13실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 5승 2패 | 21득점 8실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 여덟 번째 4위</span> | 4승 1무 2패 | 14득점 13실점 |
 | 5 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 2승 2무 3패 | 12득점 9실점 |
 | 6 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 3무 4패 | 3득점 17실점 |
 | 7 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 2무 5패 | 6득점 21실점 |

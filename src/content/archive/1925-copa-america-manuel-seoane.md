@@ -33,7 +33,7 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 두 번째 우승</span> | 3승 1무 | 11득점 4실점 |
 | 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1무 1패 | 11득점 9실점 |
-| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 세 번째 3위</span> | 4패 | 4득점 13실점 |
+| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 4패 | 4득점 13실점 |
 
 <p class="record-note">참가국이 세 나라뿐이어서 각 팀이 같은 상대와 두 번씩 맞붙었다. 불참한 우루과이와 칠레는 최종 순위에 포함하지 않는다.</p>
 

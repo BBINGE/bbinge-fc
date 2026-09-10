@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">우승 결정전 7-0 승</span> | 6승 1패 | 39득점 7실점 |
 | 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 6승 1패 | 21득점 6실점 |
-| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 5승 2패 | 20득점 13실점 |
-| 4 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 4승 3패 | 13득점 24실점 |
+| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> <span class="placement-count">통산 세 번째 3위</span> | 5승 2패 | 20득점 13실점 |
+| 4 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 4승 3패 | 13득점 24실점 |
 | 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 2승 1무 4패 | 10득점 14실점 |
 | 6 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2승 1무 4패 | 14득점 20실점 |
 | 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 1승 6패 | 7득점 21실점 |

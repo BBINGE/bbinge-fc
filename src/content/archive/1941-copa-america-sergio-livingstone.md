@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 여섯 번째 우승</span> | 4승 | 10득점 2실점 |
 | 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 3승 1패 | 10득점 1실점 |
-| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 2승 2패 | 6득점 3실점 |
-| 4 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1승 3패 | 5득점 5실점 |
+| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 두 번째 3위</span> | 2승 2패 | 6득점 3실점 |
+| 4 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 1승 3패 | 5득점 5실점 |
 | 5 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 4패 | 1득점 21실점 |
 
 ## 개인 기록

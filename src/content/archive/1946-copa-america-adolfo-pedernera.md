@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 여덟 번째 우승</span> | 5승 | 17득점 3실점 |
 | 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 3승 1무 1패 | 13득점 7실점 |
-| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 2승 1무 2패 | 8득점 8실점 |
-| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2승 3패 | 11득점 9실점 |
+| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 2승 1무 2패 | 8득점 8실점 |
+| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 2승 3패 | 11득점 9실점 |
 | 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 2승 3패 | 8득점 11실점 |
 | 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 5패 | 4득점 23실점 |
 

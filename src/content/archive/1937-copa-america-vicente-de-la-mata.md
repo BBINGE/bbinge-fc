@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 다섯 번째 우승</span> | 리그 4승 1패·결정전 승 | 리그 12득점 5실점 |
 | 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 세 번째 준우승</span> | 리그 4승 1패·결정전 패 | 리그 17득점 9실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2승 3패 | 11득점 14실점 |
-| 4 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 2승 3패 | 8득점 16실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 3위</span> | 2승 3패 | 11득점 14실점 |
+| 4 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 세 번째 4위</span> | 2승 3패 | 8득점 16실점 |
 | 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 1승 1무 3패 | 12득점 13실점 |
 | 6 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1승 1무 3패 | 7득점 10실점 |
 

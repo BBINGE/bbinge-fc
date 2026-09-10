@@ -29,8 +29,8 @@ draft: false
 | --- | --- | --- | --- |
 | 1 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> <span class="placement-count">통산 첫 번째 우승</span> | 4승 | 13득점 4실점 |
 | 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 3승 1패 | 13득점 5실점 |
-| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 2승 2패 | 9득점 8실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 1승 3패 | 8득점 12실점 |
+| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 네 번째 3위</span> | 2승 2패 | 9득점 8실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 일곱 번째 4위</span> | 1승 3패 | 8득점 12실점 |
 | 5 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 4패 | 4득점 18실점 |
 
 ## 개인 기록
