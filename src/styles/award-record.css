@@ -130,6 +130,7 @@
 .award-record .archive-body .award-cover { width: 100%; margin-top: 44px; }
 .award-record :is(a,summary,[tabindex]):focus-visible { outline: 3px solid #b6982f; outline-offset: 4px; }
 @media (max-width: 600px) {
+  .award-record .archive-body .award-stat-list li > span { flex-basis: 100%; }
   .award-record .award-table-shell details > summary { padding: 18px 16px; gap: 14px; font-size: 14px; line-height: 1.6; }
   .award-record .award-toggle-action { min-width: 104px; padding: 10px; gap: 5px; font-size: 13px; }
   .award-record .archive-body .award-reading { grid-template-columns: 112px minmax(0,1fr); gap: 16px; padding: 16px; }

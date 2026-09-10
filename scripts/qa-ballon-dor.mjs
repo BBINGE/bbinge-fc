@@ -38,6 +38,7 @@ try {
       assert(!(await card.locator('li').allTextContents()).some(text => /다\.|기록은|합산하지/.test(text)), 'record panels are lists, not explanatory prose');
       assert(await card.locator('h3').evaluateAll(headings => headings.every(el => parseFloat(getComputedStyle(el).marginTop) === 0)), 'no inherited heading whitespace');
       assert(await card.evaluate(el => [...el.querySelectorAll('li')].every(li => li.scrollWidth <= li.clientWidth + 1)), 'all achievement rows fit');
+      if (width <= 600) assert(await card.locator('.award-stat-list li').evaluateAll(rows => rows.every(row => row.querySelector('strong').getBoundingClientRect().top >= row.querySelector('span').getBoundingClientRect().bottom - 1)), 'mobile stat values consistently follow their labels');
       await card.screenshot({path:join(out, 'records-' + index + '-' + width + '.png')});
     }
     assert.match(await achievements.nth(0).innerText(), /36경기 3골/);
