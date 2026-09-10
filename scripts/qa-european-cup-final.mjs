@@ -30,7 +30,10 @@ try {
     assert.equal(await page.locator('h1').innerText(), '1955-56 유러피언컵 결승전 H/L: 레알 마드리드 CF vs 스타드 드 랭스');
     assert.equal(await page.locator('.european-cup-title-card strong').innerText(), 'LA PRIMERA');
     assert.equal(await page.locator('.european-cup-title-card strong').getAttribute('lang'), 'es');
-    assert.equal(await page.locator('.european-cup-title-card small').innerText(), '라 프리메라 · 첫 번째');
+    assert.equal(await page.locator('.european-cup-title-card small').innerText(), '라 프리메라 — 스페인어로 ‘첫 번째’라는 뜻. 첫 유러피언컵 결승을 여는 이름.');
+    const meaning = page.locator('.article-body > p').filter({ hasText: '레알 마드리드의 첫 유러피언컵 우승을 가리키는 표현이다.' });
+    assert.equal(await meaning.count(), 1);
+    assert(await meaning.evaluate(el => !!(document.querySelector('.european-cup-full-time').compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)));
     const teams = page.locator('.european-cup-match-board .match-board-teams > div');
     assert.equal(await teams.count(), 2);
     for (const team of await teams.all()) {

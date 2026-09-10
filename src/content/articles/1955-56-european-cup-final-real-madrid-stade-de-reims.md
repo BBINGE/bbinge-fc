@@ -23,7 +23,7 @@ relatedGroup: 'european-cup-1955-56'
 <div class="european-cup-title-card" aria-label="1955-56 유러피언컵 결승전 부제">
   <span>COUPE DES CLUBS CHAMPIONS EUROPÉENS · FINAL</span>
   <strong lang="es">LA PRIMERA</strong>
-  <small>라 프리메라 · 첫 번째</small>
+  <small>라 프리메라 — 스페인어로 ‘첫 번째’라는 뜻. 첫 유러피언컵 결승을 여는 이름.</small>
 </div>
 
 <div class="match-board european-cup-match-board" aria-label="1955-56 유러피언컵 결승전 대진">
@@ -159,7 +159,7 @@ relatedGroup: 'european-cup-1955-56'
   <p>그러나 1956년의 무뇨스가 들어 올린 것은 아직 왕조의 상징물이 아니었다. 새 대회의 초대 우승컵이었다. 결승에서 두 골을 먼저 내주고, 한 번 더 뒤처지고, 79분에야 처음 앞선 팀이 간신히 얻은 물건이었다.</p>
 </section>
 
-‘라 프리메라’<span class="foreign-note" lang="es">(La Primera; 첫 번째)</span>라는 말은 뒤에 네 개가 더 왔기 때문에 붙는 순번처럼 들린다. 실제 경기 안에서 첫 번째는 그렇게 단정한 숫자가 아니었다. 정보가 부족한 낯선 대회, 양쪽에서 수비를 찢은 프랑스 챔피언, 두 골 차와 세 번째 실점, 수비수의 문전 가담과 79분의 첫 리드가 한꺼번에 얽힌 결과였다.
+‘라 프리메라’<span class="foreign-note" lang="es">(La Primera)</span>는 스페인어로 ‘첫 번째’를 뜻하며, 레알 마드리드의 첫 유러피언컵 우승을 가리키는 표현이다. 실제 경기 안에서 첫 번째는 그렇게 단정한 숫자가 아니었다. 정보가 부족한 낯선 대회, 양쪽에서 수비를 찢은 프랑스 챔피언, 두 골 차와 세 번째 실점, 수비수의 문전 가담과 79분의 첫 리드가 한꺼번에 얽힌 결과였다.
 
 스타드 드 랭스는 레알의 역사를 위해 준비된 조연이 아니었다. 두 번 앞섰고 세 명의 선수가 골을 넣었으며, 전반의 두 골 차를 잃은 뒤에도 다시 리드를 잡았다. 그래서 레알의 첫 우승도 예정된 왕조의 즉위식이 아니라, 두 차례 동점을 만든 뒤 79분에 비로소 경기를 뒤집어 얻은 승리로 읽어야 한다.
 
