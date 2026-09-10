@@ -28,6 +28,26 @@ try {
     assert.equal((await page.goto(base + route, { waitUntil: 'domcontentloaded' })).status(), 200);
     await page.evaluate(() => document.fonts.ready);
     assert.equal(await page.locator('h1').innerText(), '1955-56 유러피언컵 결승전 H/L: 레알 마드리드 CF vs 스타드 드 랭스');
+    assert.equal(await page.locator('.european-cup-title-card strong').innerText(), 'LA PRIMERA');
+    assert.equal(await page.locator('.european-cup-title-card strong').getAttribute('lang'), 'es');
+    assert.equal(await page.locator('.european-cup-title-card small').innerText(), '라 프리메라 · 첫 번째');
+    const teams = page.locator('.european-cup-match-board .match-board-teams > div');
+    assert.equal(await teams.count(), 2);
+    for (const team of await teams.all()) {
+      const crest = team.locator('.match-board-crest');
+      assert.match(await crest.getAttribute('src'), /\.svg$/);
+      await crest.evaluate(el => el.decode());
+      assert(await team.evaluate(el => {
+        const crest = el.querySelector('.match-board-crest').getBoundingClientRect();
+        const name = el.querySelector('strong').getBoundingClientRect();
+        const country = el.querySelector('.match-board-country').getBoundingClientRect();
+        return crest.bottom <= name.top && name.bottom <= country.top;
+      }));
+      assert.equal(await crest.evaluate(el => getComputedStyle(el).objectFit), 'contain');
+      await team.locator('.match-board-country img').evaluate(el => el.decode());
+    }
+    await page.locator('.european-cup-title-card').screenshot({ path: join(out, `title-${width}.png`) });
+    await page.locator('.european-cup-match-board').screenshot({ path: join(out, `board-${width}.png`) });
     const clips = page.locator('video.highlight-clip');
     assert.equal(await clips.count(), 12);
     assert.equal(await page.locator('video[data-autoplay-on-view]').count(), 12);

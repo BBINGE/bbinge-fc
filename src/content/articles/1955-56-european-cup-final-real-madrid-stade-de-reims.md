@@ -22,16 +22,16 @@ relatedGroup: 'european-cup-1955-56'
 
 <div class="european-cup-title-card" aria-label="1955-56 유러피언컵 결승전 부제">
   <span>COUPE DES CLUBS CHAMPIONS EUROPÉENS · FINAL</span>
-  <strong>라 프리메라</strong>
-  <small lang="es">LA PRIMERA</small>
+  <strong lang="es">LA PRIMERA</strong>
+  <small>라 프리메라 · 첫 번째</small>
 </div>
 
 <div class="match-board european-cup-match-board" aria-label="1955-56 유러피언컵 결승전 대진">
   <p>1955-56 EUROPEAN CUP · FINAL</p>
   <div class="match-board-teams">
-    <div><img src="/images/flags/es-1945.png" alt="1945년부터 사용된 스페인 국기" /><strong>레알 마드리드 CF</strong><small>REAL MADRID CF</small></div>
+    <div><img class="match-board-crest" src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="레알 마드리드 CF 문장" width="80" height="88" /><strong>레알 마드리드 CF</strong><small>REAL MADRID CF</small><span class="match-board-country"><img src="/images/flags/es-1945.png" alt="1945년부터 사용된 스페인 국기" width="28" height="18" /><span>스페인</span></span></div>
     <span><b class="match-board-vs">V</b><em>90 MINUTES<br />UNPLAYED</em><b class="match-board-vs">S</b></span>
-    <div><img src="/images/flags/fr.svg" alt="프랑스 국기" /><strong>스타드 드 랭스</strong><small>STADE DE REIMS</small></div>
+    <div><img class="match-board-crest" src="/images/archive/teams/clubs/reims-1931.svg" alt="스타드 드 랭스 문장" width="80" height="88" /><strong>스타드 드 랭스</strong><small>STADE DE REIMS</small><span class="match-board-country"><img src="/images/flags/fr.svg" alt="프랑스 국기" width="28" height="18" /><span>프랑스</span></span></div>
   </div>
   <dl><div><dt>날짜</dt><dd>1956년 6월 13일</dd></div><div><dt>장소</dt><dd>파르크 데 프랭스</dd></div><div><dt>관중</dt><dd>38,239명</dd></div><div><dt>주심</dt><dd>아서 엘리스</dd></div></dl>
 </div>
