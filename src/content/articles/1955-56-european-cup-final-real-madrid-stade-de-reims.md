@@ -23,7 +23,7 @@ relatedGroup: 'european-cup-1955-56'
 <div class="european-cup-title-card" aria-label="1955-56 유러피언컵 결승전 부제">
   <span>COUPE DES CLUBS CHAMPIONS EUROPÉENS · FINAL</span>
   <strong lang="es">LA PRIMERA</strong>
-  <small>라 프리메라 — 스페인어로 ‘첫 번째’라는 뜻. 첫 유러피언컵 결승을 여는 이름.</small>
+  <small>라 프리메라; 스페인어로 ‘첫 번째’라는 뜻. 첫 유러피언컵 결승을 여는 이름.</small>
 </div>
 
 <div class="match-board european-cup-match-board" aria-label="1955-56 유러피언컵 결승전 대진">
