@@ -31,6 +31,7 @@
 
 - `EDITORIAL_RISK_GATE.md` + `EDITORIAL_ASSET_POLICY.md`: 새 콘텐츠의 사진·영상·썸네일을 고르거나 수정할 때, 또는 저작권·AdSense·출처·저가치·사이트 위험을 묻거나 감사할 때
 - `PLAYER_ARCHIVE_RULES.md`: 선수 인물 아카이브를 조사·작성·수정·발행할 때
+- `ARCHIVE_SERIES_RULES.md`: 발롱도르·시상관 및 유러피언컵·결승전 H/L을 조사·작성·수정·발행하거나 집·회사에서 이어받을 때
 
 이미 같은 세션에서 읽은 문서는 파일이 변경되지 않았다면 다시 읽지 않는다.
 
