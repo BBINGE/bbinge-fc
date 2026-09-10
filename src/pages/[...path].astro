@@ -1355,6 +1355,21 @@ if (props.kind === 'category') {
         const src = video.getAttribute('data-video-src');
         if (!triggers.length || !poster || !player || !frame || !close || !src) return;
 
+        if (video.getAttribute('data-inline-video-resize') === 'instagram') {
+          window.addEventListener('message', (event) => {
+            if (event.origin !== 'https://www.instagram.com' || event.source !== frame.contentWindow || !video.classList.contains('is-playing')) return;
+            let message;
+            try {
+              message = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+            } catch {
+              return;
+            }
+            const height = message?.details?.height;
+            if (message?.type !== 'MEASURE' || typeof height !== 'number' || !Number.isFinite(height) || height < 200 || height > 4000) return;
+            video.style.setProperty('--inline-video-height', Math.ceil(height) + 'px');
+          });
+        }
+
         let opener = triggers[0];
         const setPlayingLabel = (isPlaying) => {
           if (label) label.textContent = isPlaying ? '영상 닫기' : '이 자리에서 공식 영상 재생';
@@ -1370,6 +1385,7 @@ if (props.kind === 'category') {
         };
         const closePlayer = () => {
           frame.removeAttribute('src');
+          video.style.removeProperty('--inline-video-height');
           player.hidden = true;
           poster.hidden = false;
           video.classList.remove('is-playing');

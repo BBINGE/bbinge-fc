@@ -91,7 +91,7 @@ fashionProfile:
   <figure><img src="/images/culture/nana-ferragamo-cara/cara-craft.webp" alt="페라가모 카라 백을 이루는 가죽 패널과 부품의 제작 이미지" width="1000" height="1000" loading="lazy" decoding="async" /><figcaption><b>03</b><span>25개 가죽 패널과 100개 이상의 부품</span></figcaption></figure>
 </section>
 
-<section class="nc-video" data-inline-video data-video-src="https://www.instagram.com/reel/DcbcPe-oJfl/embed/captioned/" aria-label="페라가모 공식 카라 백 제작 영상">
+<section class="nc-video" data-inline-video data-inline-video-resize="instagram" data-video-src="https://www.instagram.com/reel/DcbcPe-oJfl/embed/captioned/" aria-label="페라가모 공식 카라 백 제작 영상">
   <div class="nc-video__copy">
     <small>FERRAGAMO · OFFICIAL REEL</small>
     <h3>가방이 조립되는 순서를<br />이 자리에서 보실 수 있습니다</h3>
@@ -173,10 +173,11 @@ fashionProfile:
   .nc-product figcaption b{display:grid;flex:0 0 28px;height:28px;border-radius:50%;place-items:center;background:#071733;color:#d9bd76;font-size:10px}
   .nc-video{position:relative;left:50%;display:grid;grid-template-columns:minmax(290px,.75fr) minmax(0,1.25fr);width:min(1040px,calc(100vw - 32px));margin:46px 0 68px;overflow:hidden;border:1px solid #20365a;border-radius:19px;background:#06162f;color:#fff;transform:translateX(-50%)}
   .nc-video__copy{display:flex;padding:32px 29px 34px;flex-direction:column;justify-content:center}
-  .nc-video__copy h3{margin:14px 0 0;color:#fff;font-size:24px;line-height:1.3;letter-spacing:-.04em}
+  .article-body .nc-video__copy h3{margin:14px 0 0;padding:0;border:0;color:#fff;font-size:24px;line-height:1.3;letter-spacing:-.04em;word-break:keep-all;text-wrap:balance}
   .nc-video__copy p{margin:16px 0 0!important;color:rgba(255,255,255,.67);font-size:13px;line-height:1.72}
   .article-body .nc-video__copy>a{align-self:flex-start;margin-top:18px;padding-bottom:3px;border-bottom:1px solid rgba(255,255,255,.5);color:#fff;font-size:12px;text-decoration:none}
   .nc-video__media{position:relative;min-width:0;aspect-ratio:16/9;background:#050b17}
+  .nc-video.is-playing .nc-video__media{aspect-ratio:auto;height:var(--inline-video-height,760px)}
   .nc-video__media>[data-inline-video-poster],.nc-video__media .inline-video__player{position:absolute;inset:0;width:100%;height:100%}
   .nc-video__media>[data-inline-video-poster]{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;overflow:hidden;border:0;cursor:pointer;background:#050b17;color:#fff}
   .nc-video__media>[data-inline-video-poster] img{display:block;width:100%;height:100%;margin:0;object-fit:cover;transition:transform .45s ease,filter .45s ease}
@@ -194,7 +195,7 @@ fashionProfile:
   .nc-shop{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,1fr) minmax(330px,1fr);width:min(1040px,calc(100vw - 32px));margin:48px 0 18px;overflow:hidden;border:1px solid #223a60;border-radius:21px;background:#071733;box-shadow:0 25px 58px rgba(4,19,48,.2);transform:translateX(-50%)}
   .nc-shop__visual{background:#f6f4ef}.nc-shop__visual img{display:block;width:100%;height:100%;min-height:520px;margin:0;object-fit:cover}
   .nc-shop__copy{display:flex;padding:clamp(31px,5vw,56px);flex-direction:column;justify-content:center;color:#fff}
-  .nc-shop__copy h2{margin:15px 0 0;color:#fff;font-size:clamp(28px,4vw,42px);line-height:1.13;letter-spacing:-.05em}
+  .article-body .nc-shop__copy h2{margin:15px 0 0;padding:0;border:0;color:#fff;font-size:clamp(28px,4vw,42px);line-height:1.13;letter-spacing:-.05em;word-break:keep-all;text-wrap:balance}
   .nc-shop__copy>p{margin:19px 0 0!important;color:rgba(255,255,255,.67);font-size:13px;line-height:1.78}
   .article-body .nc-shop__copy>a{display:flex;margin-top:25px;padding:16px 18px;align-items:center;justify-content:space-between;border-radius:13px;background:#f5efe3;color:#071733;text-decoration:none}
   .nc-shop__copy>a span{display:flex;flex-direction:column}.nc-shop__copy>a b{font-size:14px}.nc-shop__copy>a small{margin-top:3px;font-size:11px;opacity:.68}.nc-shop__copy>a i{font-size:21px;font-style:normal}
@@ -208,5 +209,5 @@ fashionProfile:
     .nc-timeline{grid-template-columns:1fr}.nc-timeline>i{height:46px;transform:rotate(90deg)}
     .nc-shop{grid-template-columns:1fr}.nc-shop__visual img{min-height:0;aspect-ratio:1}.nc-shop__copy{padding:30px 24px 34px}
   }
-  @media(max-width:430px){.nc-palette{grid-template-columns:1fr}.nc-palette__shoe{grid-column:auto}.nc-palette>div{min-height:112px}.nc-product{grid-template-columns:1fr}.nc-product figure:last-child{grid-column:auto}.nc-product figure:last-child img{aspect-ratio:1}.nc-video__copy h3{font-size:21px}}
+  @media(max-width:430px){.nc-palette{grid-template-columns:1fr}.nc-palette__shoe{grid-column:auto}.nc-palette>div{min-height:112px}.nc-product{grid-template-columns:1fr}.nc-product figure:last-child{grid-column:auto}.nc-product figure:last-child img{aspect-ratio:1}.article-body .nc-video__copy h3{font-size:21px}}
 </style>
