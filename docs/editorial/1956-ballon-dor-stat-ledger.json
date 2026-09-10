@@ -1,0 +1,2102 @@
+{
+  "checkedAt": "2026-09-10T18:22:22.526Z",
+  "source": "Transfermarkt public match-performance records",
+  "dateConvention": "Europe/Berlin calendar date; raw UTC retained",
+  "players": [
+    {
+      "id": 212779,
+      "name": "스탠리 매슈스",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/212779",
+      "games": [
+        {
+          "id": "3913150",
+          "utc": "1955-08-20T13:00:00+00:00",
+          "date": "1955-08-20",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3913152",
+          "utc": "1955-08-22T13:00:00+00:00",
+          "date": "1955-08-22",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3913168",
+          "utc": "1955-08-27T13:00:00+00:00",
+          "date": "1955-08-27",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3940448",
+          "utc": "1955-09-03T13:00:00+00:00",
+          "date": "1955-09-03",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3959970",
+          "utc": "1955-09-05T13:00:00+00:00",
+          "date": "1955-09-05",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3960006",
+          "utc": "1955-09-10T15:00:00+00:00",
+          "date": "1955-09-10",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3960052",
+          "utc": "1955-09-17T13:00:00+00:00",
+          "date": "1955-09-17",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4044958",
+          "utc": "1955-09-24T13:00:00+00:00",
+          "date": "1955-09-24",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4044993",
+          "utc": "1955-10-15T13:00:00+00:00",
+          "date": "1955-10-15",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1181794",
+          "utc": "1955-10-21T23:00:00+00:00",
+          "date": "1955-10-22",
+          "season": 1955,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045013",
+          "utc": "1955-10-29T13:00:00+00:00",
+          "date": "1955-10-29",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "4045023",
+          "utc": "1955-11-05T13:00:00+00:00",
+          "date": "1955-11-05",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045039",
+          "utc": "1955-11-12T13:00:00+00:00",
+          "date": "1955-11-12",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045043",
+          "utc": "1955-11-19T13:00:00+00:00",
+          "date": "1955-11-19",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045059",
+          "utc": "1955-11-26T13:00:00+00:00",
+          "date": "1955-11-26",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045067",
+          "utc": "1955-12-03T13:00:00+00:00",
+          "date": "1955-12-03",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045097",
+          "utc": "1955-12-10T14:15:00+00:00",
+          "date": "1955-12-10",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045109",
+          "utc": "1955-12-17T13:00:00+00:00",
+          "date": "1955-12-17",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045125",
+          "utc": "1955-12-24T13:00:00+00:00",
+          "date": "1955-12-24",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045152",
+          "utc": "1955-12-26T13:00:00+00:00",
+          "date": "1955-12-26",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045161",
+          "utc": "1955-12-27T13:00:00+00:00",
+          "date": "1955-12-27",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4224750",
+          "utc": "1956-01-11T13:00:00+00:00",
+          "date": "1956-01-11",
+          "season": 1955,
+          "competition": "FAC",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045181",
+          "utc": "1956-01-14T13:00:00+00:00",
+          "date": "1956-01-14",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 2
+        },
+        {
+          "id": "4045193",
+          "utc": "1956-01-21T13:00:00+00:00",
+          "date": "1956-01-21",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045203",
+          "utc": "1956-02-04T13:00:00+00:00",
+          "date": "1956-02-04",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045213",
+          "utc": "1956-02-11T13:00:00+00:00",
+          "date": "1956-02-11",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045223",
+          "utc": "1956-02-18T13:00:00+00:00",
+          "date": "1956-02-18",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045236",
+          "utc": "1956-02-25T13:00:00+00:00",
+          "date": "1956-02-25",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045244",
+          "utc": "1956-03-03T13:00:00+00:00",
+          "date": "1956-03-03",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045260",
+          "utc": "1956-03-10T13:00:00+00:00",
+          "date": "1956-03-10",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045268",
+          "utc": "1956-03-17T13:00:00+00:00",
+          "date": "1956-03-17",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045283",
+          "utc": "1956-03-24T13:00:00+00:00",
+          "date": "1956-03-24",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045290",
+          "utc": "1956-03-30T13:00:00+00:00",
+          "date": "1956-03-30",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045303",
+          "utc": "1956-03-31T13:00:00+00:00",
+          "date": "1956-03-31",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045312",
+          "utc": "1956-04-02T13:00:00+00:00",
+          "date": "1956-04-02",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045325",
+          "utc": "1956-04-07T15:00:00+00:00",
+          "date": "1956-04-07",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045338",
+          "utc": "1956-04-14T13:00:00+00:00",
+          "date": "1956-04-14",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4045350",
+          "utc": "1956-04-21T13:00:00+00:00",
+          "date": "1956-04-21",
+          "season": 1955,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1181798",
+          "utc": "1956-05-09T14:00:00+00:00",
+          "date": "1956-05-09",
+          "season": 1955,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "4051091",
+          "utc": "1956-08-18T15:00:00+00:00",
+          "date": "1956-08-18",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4051101",
+          "utc": "1956-08-22T18:45:00+00:00",
+          "date": "1956-08-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4051114",
+          "utc": "1956-08-25T15:00:00+00:00",
+          "date": "1956-08-25",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4051117",
+          "utc": "1956-08-27T18:30:00+00:00",
+          "date": "1956-08-27",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4051135",
+          "utc": "1956-09-01T15:00:00+00:00",
+          "date": "1956-09-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "4054292",
+          "utc": "1956-09-03T13:00:00+00:00",
+          "date": "1956-09-03",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 1
+        },
+        {
+          "id": "4054310",
+          "utc": "1956-09-08T15:00:00+00:00",
+          "date": "1956-09-08",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4054323",
+          "utc": "1956-09-15T15:00:00+00:00",
+          "date": "1956-09-15",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4054336",
+          "utc": "1956-09-22T13:00:00+00:00",
+          "date": "1956-09-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4111668",
+          "utc": "1956-09-29T15:00:00+00:00",
+          "date": "1956-09-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1181801",
+          "utc": "1956-10-05T23:00:00+00:00",
+          "date": "1956-10-06",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4111530",
+          "utc": "1956-10-13T15:00:00+00:00",
+          "date": "1956-10-13",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4111706",
+          "utc": "1956-10-20T15:00:00+00:00",
+          "date": "1956-10-20",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4111731",
+          "utc": "1956-10-27T15:00:00+00:00",
+          "date": "1956-10-27",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "4111752",
+          "utc": "1956-11-10T14:30:00+00:00",
+          "date": "1956-11-10",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1181802",
+          "utc": "1956-11-13T23:00:00+00:00",
+          "date": "1956-11-14",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "1181803",
+          "utc": "1956-11-27T23:00:00+00:00",
+          "date": "1956-11-28",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4111796",
+          "utc": "1956-12-01T14:15:00+00:00",
+          "date": "1956-12-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2381312",
+          "utc": "1956-12-04T23:00:00+00:00",
+          "date": "1956-12-05",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 2
+        },
+        {
+          "id": "4115659",
+          "utc": "1956-12-08T14:15:00+00:00",
+          "date": "1956-12-08",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4120808",
+          "utc": "1956-12-29T14:15:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "1181",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        }
+      ]
+    },
+    {
+      "id": 135778,
+      "name": "알프레도 디스테파노",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/135778",
+      "games": [
+        {
+          "id": "1019810",
+          "utc": "1955-09-08T15:45:00+00:00",
+          "date": "1955-09-08",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416120",
+          "utc": "1955-09-10T23:00:00+00:00",
+          "date": "1955-09-11",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416124",
+          "utc": "1955-09-17T23:00:00+00:00",
+          "date": "1955-09-18",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416135",
+          "utc": "1955-09-24T23:00:00+00:00",
+          "date": "1955-09-25",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416144",
+          "utc": "1955-10-01T23:00:00+00:00",
+          "date": "1955-10-02",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416151",
+          "utc": "1955-10-08T23:00:00+00:00",
+          "date": "1955-10-09",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019817",
+          "utc": "1955-10-12T15:30:00+00:00",
+          "date": "1955-10-12",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416157",
+          "utc": "1955-10-15T23:00:00+00:00",
+          "date": "1955-10-16",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416167",
+          "utc": "1955-10-22T23:00:00+00:00",
+          "date": "1955-10-23",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416170",
+          "utc": "1955-10-29T23:00:00+00:00",
+          "date": "1955-10-30",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2416183",
+          "utc": "1955-11-05T23:00:00+00:00",
+          "date": "1955-11-06",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416191",
+          "utc": "1955-11-12T23:00:00+00:00",
+          "date": "1955-11-13",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416198",
+          "utc": "1955-11-19T23:00:00+00:00",
+          "date": "1955-11-20",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416208",
+          "utc": "1955-12-03T23:00:00+00:00",
+          "date": "1955-12-04",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416215",
+          "utc": "1955-12-17T23:00:00+00:00",
+          "date": "1955-12-18",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019826",
+          "utc": "1955-12-25T14:45:00+00:00",
+          "date": "1955-12-25",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416223",
+          "utc": "1955-12-31T23:00:00+00:00",
+          "date": "1956-01-01",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416228",
+          "utc": "1956-01-07T23:00:00+00:00",
+          "date": "1956-01-08",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2416236",
+          "utc": "1956-01-14T23:00:00+00:00",
+          "date": "1956-01-15",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2416244",
+          "utc": "1956-01-21T23:00:00+00:00",
+          "date": "1956-01-22",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019830",
+          "utc": "1956-01-29T14:00:00+00:00",
+          "date": "1956-01-29",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416261",
+          "utc": "1956-02-04T23:00:00+00:00",
+          "date": "1956-02-05",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2416256",
+          "utc": "1956-02-08T23:00:00+00:00",
+          "date": "1956-02-09",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 4,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416268",
+          "utc": "1956-02-11T23:00:00+00:00",
+          "date": "1956-02-12",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416278",
+          "utc": "1956-02-18T23:00:00+00:00",
+          "date": "1956-02-19",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416281",
+          "utc": "1956-02-25T23:00:00+00:00",
+          "date": "1956-02-26",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 2
+        },
+        {
+          "id": "2416295",
+          "utc": "1956-03-03T23:00:00+00:00",
+          "date": "1956-03-04",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416300",
+          "utc": "1956-03-10T23:00:00+00:00",
+          "date": "1956-03-11",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416311",
+          "utc": "1956-03-17T23:00:00+00:00",
+          "date": "1956-03-18",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416314",
+          "utc": "1956-03-24T23:00:00+00:00",
+          "date": "1956-03-25",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416327",
+          "utc": "1956-03-31T23:00:00+00:00",
+          "date": "1956-04-01",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416333",
+          "utc": "1956-04-07T23:00:00+00:00",
+          "date": "1956-04-08",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416339",
+          "utc": "1956-04-14T23:00:00+00:00",
+          "date": "1956-04-15",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3,
+          "recordedAssists": 1
+        },
+        {
+          "id": "1019833",
+          "utc": "1956-04-19T15:30:00+00:00",
+          "date": "1956-04-19",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2416346",
+          "utc": "1956-04-21T23:00:00+00:00",
+          "date": "1956-04-22",
+          "season": 1955,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019835",
+          "utc": "1956-05-01T14:00:00+00:00",
+          "date": "1956-05-01",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019836",
+          "utc": "1956-06-13T19:30:00+00:00",
+          "date": "1956-06-13",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415879",
+          "utc": "1956-09-08T23:00:00+00:00",
+          "date": "1956-09-09",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415886",
+          "utc": "1956-09-15T23:00:00+00:00",
+          "date": "1956-09-16",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415889",
+          "utc": "1956-09-22T23:00:00+00:00",
+          "date": "1956-09-23",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415901",
+          "utc": "1956-09-29T23:00:00+00:00",
+          "date": "1956-09-30",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415912",
+          "utc": "1956-10-06T23:00:00+00:00",
+          "date": "1956-10-07",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415918",
+          "utc": "1956-10-13T23:00:00+00:00",
+          "date": "1956-10-14",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415923",
+          "utc": "1956-10-20T23:00:00+00:00",
+          "date": "1956-10-21",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415933",
+          "utc": "1956-10-27T23:00:00+00:00",
+          "date": "1956-10-28",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019854",
+          "utc": "1956-11-01T15:00:00+00:00",
+          "date": "1956-11-01",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415942",
+          "utc": "1956-11-03T23:00:00+00:00",
+          "date": "1956-11-04",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415951",
+          "utc": "1956-11-10T23:00:00+00:00",
+          "date": "1956-11-11",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019859",
+          "utc": "1956-11-14T17:00:00+00:00",
+          "date": "1956-11-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415960",
+          "utc": "1956-11-17T23:00:00+00:00",
+          "date": "1956-11-18",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415967",
+          "utc": "1956-11-24T23:00:00+00:00",
+          "date": "1956-11-25",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415976",
+          "utc": "1956-12-01T23:00:00+00:00",
+          "date": "1956-12-02",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019867",
+          "utc": "1956-12-13T14:30:00+00:00",
+          "date": "1956-12-13",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415984",
+          "utc": "1956-12-15T23:00:00+00:00",
+          "date": "1956-12-16",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415987",
+          "utc": "1956-12-22T23:00:00+00:00",
+          "date": "1956-12-23",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415993",
+          "utc": "1956-12-28T23:00:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        }
+      ]
+    },
+    {
+      "id": 170730,
+      "name": "레몽 코파",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/170730",
+      "games": [
+        {
+          "id": "3983600",
+          "utc": "1955-08-21T13:00:00+00:00",
+          "date": "1955-08-21",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983618",
+          "utc": "1955-09-04T13:00:00+00:00",
+          "date": "1955-09-04",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983642",
+          "utc": "1955-09-18T13:00:00+00:00",
+          "date": "1955-09-18",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019813",
+          "utc": "1955-09-21T19:00:00+00:00",
+          "date": "1955-09-21",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983650",
+          "utc": "1955-09-25T13:00:00+00:00",
+          "date": "1955-09-25",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983659",
+          "utc": "1955-10-02T13:00:00+00:00",
+          "date": "1955-10-02",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983666",
+          "utc": "1955-10-13T13:00:00+00:00",
+          "date": "1955-10-13",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983678",
+          "utc": "1955-10-16T13:00:00+00:00",
+          "date": "1955-10-16",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3136460",
+          "utc": "1955-10-22T23:00:00+00:00",
+          "date": "1955-10-23",
+          "season": 1955,
+          "competition": "FS",
+          "club": "3377",
+          "national": true,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019821",
+          "utc": "1955-10-26T19:00:00+00:00",
+          "date": "1955-10-26",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983686",
+          "utc": "1955-10-30T13:00:00+00:00",
+          "date": "1955-10-30",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983690",
+          "utc": "1955-11-01T13:00:00+00:00",
+          "date": "1955-11-01",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983702",
+          "utc": "1955-11-06T13:00:00+00:00",
+          "date": "1955-11-06",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3136461",
+          "utc": "1955-11-10T23:00:00+00:00",
+          "date": "1955-11-11",
+          "season": 1955,
+          "competition": "FS",
+          "club": "3377",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983710",
+          "utc": "1955-11-13T13:00:00+00:00",
+          "date": "1955-11-13",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983718",
+          "utc": "1955-11-20T13:00:00+00:00",
+          "date": "1955-11-20",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983726",
+          "utc": "1955-11-27T13:00:00+00:00",
+          "date": "1955-11-27",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983734",
+          "utc": "1955-12-04T13:00:00+00:00",
+          "date": "1955-12-04",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983744",
+          "utc": "1955-12-11T13:00:00+00:00",
+          "date": "1955-12-11",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019825",
+          "utc": "1955-12-14T19:00:00+00:00",
+          "date": "1955-12-14",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983753",
+          "utc": "1955-12-18T13:00:00+00:00",
+          "date": "1955-12-18",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3066408",
+          "utc": "1955-12-24T23:00:00+00:00",
+          "date": "1955-12-25",
+          "season": 1955,
+          "competition": "FS",
+          "club": "3377",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019829",
+          "utc": "1955-12-28T12:30:00+00:00",
+          "date": "1955-12-28",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983762",
+          "utc": "1956-01-01T13:00:00+00:00",
+          "date": "1956-01-01",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4228198",
+          "utc": "1956-01-08T13:00:00+00:00",
+          "date": "1956-01-08",
+          "season": 1955,
+          "competition": "FRC",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983771",
+          "utc": "1956-01-15T13:00:00+00:00",
+          "date": "1956-01-15",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983780",
+          "utc": "1956-01-22T13:00:00+00:00",
+          "date": "1956-01-22",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983790",
+          "utc": "1956-01-29T13:00:00+00:00",
+          "date": "1956-01-29",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4092260",
+          "utc": "1956-02-05T13:00:00+00:00",
+          "date": "1956-02-05",
+          "season": 1955,
+          "competition": "FRC",
+          "club": "1421",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983798",
+          "utc": "1956-02-12T13:00:00+00:00",
+          "date": "1956-02-12",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2371840",
+          "utc": "1956-02-14T23:00:00+00:00",
+          "date": "1956-02-15",
+          "season": 1955,
+          "competition": "FS",
+          "club": "3377",
+          "national": true,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4228216",
+          "utc": "1956-03-04T13:00:00+00:00",
+          "date": "1956-03-04",
+          "season": 1955,
+          "competition": "FRC",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983809",
+          "utc": "1956-03-11T13:00:00+00:00",
+          "date": "1956-03-11",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4228218",
+          "utc": "1956-03-15T13:00:00+00:00",
+          "date": "1956-03-15",
+          "season": 1955,
+          "competition": "FRC",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983818",
+          "utc": "1956-03-18T13:00:00+00:00",
+          "date": "1956-03-18",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983829",
+          "utc": "1956-04-02T13:00:00+00:00",
+          "date": "1956-04-02",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019832",
+          "utc": "1956-04-04T19:00:00+00:00",
+          "date": "1956-04-04",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "4092212",
+          "utc": "1956-04-08T13:00:00+00:00",
+          "date": "1956-04-08",
+          "season": 1955,
+          "competition": "FRC",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983838",
+          "utc": "1956-04-15T13:00:00+00:00",
+          "date": "1956-04-15",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019834",
+          "utc": "1956-04-18T19:30:00+00:00",
+          "date": "1956-04-18",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983846",
+          "utc": "1956-04-22T13:00:00+00:00",
+          "date": "1956-04-22",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983851",
+          "utc": "1956-04-29T13:00:00+00:00",
+          "date": "1956-04-29",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983872",
+          "utc": "1956-05-10T13:00:00+00:00",
+          "date": "1956-05-10",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983881",
+          "utc": "1956-05-13T13:00:00+00:00",
+          "date": "1956-05-13",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "3983893",
+          "utc": "1956-05-20T13:00:00+00:00",
+          "date": "1956-05-20",
+          "season": 1955,
+          "competition": "FR1",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019836",
+          "utc": "1956-06-13T19:30:00+00:00",
+          "date": "1956-06-13",
+          "season": 1955,
+          "competition": "EPL",
+          "club": "1421",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 2
+        },
+        {
+          "id": "2415923",
+          "utc": "1956-10-20T23:00:00+00:00",
+          "date": "1956-10-21",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415933",
+          "utc": "1956-10-27T23:00:00+00:00",
+          "date": "1956-10-28",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "1019854",
+          "utc": "1956-11-01T15:00:00+00:00",
+          "date": "1956-11-01",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 2
+        },
+        {
+          "id": "2415942",
+          "utc": "1956-11-03T23:00:00+00:00",
+          "date": "1956-11-04",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415951",
+          "utc": "1956-11-10T23:00:00+00:00",
+          "date": "1956-11-11",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "1019859",
+          "utc": "1956-11-14T17:00:00+00:00",
+          "date": "1956-11-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415960",
+          "utc": "1956-11-17T23:00:00+00:00",
+          "date": "1956-11-18",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415967",
+          "utc": "1956-11-24T23:00:00+00:00",
+          "date": "1956-11-25",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415976",
+          "utc": "1956-12-01T23:00:00+00:00",
+          "date": "1956-12-02",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 2
+        },
+        {
+          "id": "1019867",
+          "utc": "1956-12-13T14:30:00+00:00",
+          "date": "1956-12-13",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415984",
+          "utc": "1956-12-15T23:00:00+00:00",
+          "date": "1956-12-16",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 1
+        },
+        {
+          "id": "2415987",
+          "utc": "1956-12-22T23:00:00+00:00",
+          "date": "1956-12-23",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        },
+        {
+          "id": "2415993",
+          "utc": "1956-12-28T23:00:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0,
+          "recordedAssists": 0
+        }
+      ]
+    }
+  ],
+  "method": "Only participationState=played. Calendar year uses the source calendar date (Europe/Berlin); raw UTC is retained to audit midnight boundaries. Club totals exclude invitations and club friendlies. National totals use senior internationals; British Home Championship is classified as FS by Transfermarkt but retained as the same appearances, not additional matches.",
+  "assistLimit": "recordedAssists is a database field, not an exhaustive historical season total. Matthews 1955-56 currently has three recorded assists; the user's older one-assist figure is not treated as a complete count. No assist total is published.",
+  "crossChecks": {
+    "matthews": {
+      "league1956": {
+        "games": 33,
+        "goals": 4
+      },
+      "goals": [
+        [
+          "1956-01-14",
+          "Aston Villa",
+          1
+        ],
+        [
+          "1956-03-03",
+          "West Bromwich Albion",
+          1
+        ],
+        [
+          "1956-08-27",
+          "Everton",
+          1
+        ],
+        [
+          "1956-09-03",
+          "Tottenham Hotspur",
+          1
+        ]
+      ],
+      "sources": [
+        "https://www.historical-lineups.com/wp-content/uploads/2024/09/Weeks-01-42-12.pdf",
+        "https://www.historical-lineups.com/wp-content/uploads/2024/09/Weeks-01-42-13.pdf"
+      ],
+      "note": "31 records carry the correct 1956 year in the PDFs. Two further appearances, 31 March and 2 April, are incorrectly printed 1955 on p19 of the 1955-56 volume; season, weekdays, opponents and match records identify 1956. Both have zero Matthews goals. FA Cup 11 January adds one appearance, zero goals."
+    },
+    "kopaReims": [
+      {
+        "date": "1956-01-01",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-nimes-olympique-8",
+        "goals": 1
+      },
+      {
+        "date": "1956-01-08",
+        "source": "https://archivesreimsfootball.fr/matchs/union-sportive-de-saint-malo-d4-stade-de-reims",
+        "goals": 1
+      },
+      {
+        "date": "1956-01-15",
+        "source": "https://archivesreimsfootball.fr/matchs/football-club-des-girondins-de-bordeaux-stade-de-reims-13",
+        "goals": 0
+      },
+      {
+        "date": "1956-01-22",
+        "source": "https://archivesreimsfootball.fr/matchs/football-club-sochaux-montbeliard-stade-de-reims-10",
+        "goals": 0
+      },
+      {
+        "date": "1956-01-29",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-toulouse-football-club-10",
+        "goals": 0
+      },
+      {
+        "date": "1956-02-05",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-toulouse-football-club-d1",
+        "goals": 2
+      },
+      {
+        "date": "1956-02-12",
+        "source": "https://archivesreimsfootball.fr/matchs/racing-club-de-lens-stade-de-reims-13",
+        "goals": 0
+      },
+      {
+        "date": "1956-03-04",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-association-sportive-de-beziers-d2-2",
+        "goals": 0
+      },
+      {
+        "date": "1956-03-11",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-lille-olympique-sporting-club-12",
+        "goals": 0
+      },
+      {
+        "date": "1956-03-15",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-association-sportive-de-beziers-d2-3",
+        "goals": 0
+      },
+      {
+        "date": "1956-03-18",
+        "source": "https://archivesreimsfootball.fr/matchs/association-sportive-de-monaco-football-club-stade-de-reims-3",
+        "goals": 0
+      },
+      {
+        "date": "1956-04-02",
+        "source": "https://archivesreimsfootball.fr/matchs/olympique-de-marseille-stade-de-reims-11",
+        "goals": 0
+      },
+      {
+        "date": "1956-04-04",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-hibernian-football-club-gbr",
+        "goals": 0
+      },
+      {
+        "date": "1956-04-08",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-association-sportive-de-troyes-sainte-savine-d1",
+        "goals": 1
+      },
+      {
+        "date": "1956-04-15",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-association-sportive-de-saint-etienne-16",
+        "goals": 0
+      },
+      {
+        "date": "1956-04-18",
+        "source": "https://archivesreimsfootball.fr/matchs/hibernian-football-club-gbr-stade-de-reims",
+        "goals": 0
+      },
+      {
+        "date": "1956-04-22",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-racing-club-de-strasbourg-10",
+        "goals": 1
+      },
+      {
+        "date": "1956-04-29",
+        "source": "https://archivesreimsfootball.fr/matchs/olympique-gymnaste-club-nice-cote-dazur-stade-de-reims-13",
+        "goals": 0
+      },
+      {
+        "date": "1956-05-10",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-union-athletique-sedan-torcy",
+        "goals": 0
+      },
+      {
+        "date": "1956-05-13",
+        "source": "https://archivesreimsfootball.fr/matchs/racing-club-de-paris-stade-de-reims-14",
+        "goals": 0
+      },
+      {
+        "date": "1956-05-20",
+        "source": "https://archivesreimsfootball.fr/matchs/stade-de-reims-football-club-de-nancy-17",
+        "goals": 0
+      },
+      {
+        "date": "1956-06-13",
+        "source": "https://archivesreimsfootball.fr/matchs/real-madrid-club-de-futbol-esp-stade-de-reims",
+        "goals": 0
+      }
+    ]
+  }
+}

@@ -9,6 +9,24 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:4323';
 const route = '/archive/awards/ballon-dor/1956-ballon-dor-stanley-matthews/';
 const out = mkdtempSync(join(tmpdir(), 'bbinge-ballon-qa-'));
 const data = readAwardEdition('1956-ballon-dor');
+const statLedger = JSON.parse(readFileSync('docs/editorial/1956-ballon-dor-stat-ledger.json', 'utf8'));
+const sumGames = games => [games.length, games.reduce((n, game) => n + game.goals, 0)];
+const statExpectations = [
+  {id:212779, season:[37,3], club:[34,4], national:[5,1], total:[39,5], values:['37경기 3골','36경기 3골','1경기 0골','34경기 4골','5경기 1골','39경기 5골']},
+  {id:135778, season:[37,29], club:[40,39], national:[0,0], total:[40,39], values:['37경기 29골','30경기 24골','7경기 5골','40경기 39골','0경기','40경기 39골','6경기 4골']},
+  {id:170730, season:[42,9], club:[35,10], national:[1,0], total:[36,10], values:['42경기 9골','30경기 5골','5경기 4골','7경기 0골','22경기 6골','13경기 4골','35경기 10골','1경기 0골','36경기 10골']},
+];
+for (const expected of statExpectations) {
+  const games = statLedger.players.find(player => player.id === expected.id).games;
+  assert.equal(new Set(games.map(game => game.id)).size, games.length, 'no duplicated appearance');
+  assert(games.every(game => Number.isInteger(game.goals) && game.goals >= 0));
+  const annual = games.filter(game => game.date.startsWith('1956'));
+  assert.deepEqual(sumGames(games.filter(game => game.season === 1955 && !game.national)), expected.season);
+  assert.deepEqual(sumGames(annual.filter(game => !game.national)), expected.club);
+  assert.deepEqual(sumGames(annual.filter(game => game.national)), expected.national);
+  assert.deepEqual(sumGames(annual), expected.total);
+}
+assert.deepEqual(sumGames(statLedger.crossChecks.kopaReims), [22,6]);
 assert.equal(data.ranking.length, 24);
 assert.equal(data.ranking.reduce((sum, row) => sum + row.points, 0), 240);
 assert.throws(() => resolveHistoricalIdentity('blackpool', 2023));
@@ -24,6 +42,7 @@ try {
     assert.equal(await page.locator('.award-masthead strong').innerText(), '1956 BALLON D’OR');
     assert.match(await page.locator('.award-masthead-copy p').innerText(), /발롱도르;.*황금 공/);
     assert.equal(await page.locator('.content-cover').count(), 0);
+    assert.equal(await page.locator('.award-podium a').nth(2).locator('span').innerText(), '스타드 드 랭스\n레알 마드리드 CF');
     const season = page.locator('.award-season-results');
     assert.equal(await season.locator('h2').innerText(), '1955-56 시즌 우승팀');
     assert.deepEqual(await season.locator('dd').allTextContents(), ['레알 마드리드 CF', '스타드 드 랭스', 'AC 밀란 · 히버니언 FC']);
@@ -34,7 +53,7 @@ try {
     for (const [index, card] of (await achievements.all()).entries()) {
       assert.deepEqual(await card.locator('h3').allTextContents(), ['팀 성적', '개인 수상·기록', '개인 스탯']);
       assert((await card.locator('li').count()) >= 9);
-      assert.equal(await card.locator('.award-stat-list li').count(), 5);
+      assert.deepEqual(await card.locator('.award-stat-list strong').allTextContents(), statExpectations[index].values);
       assert(!(await card.locator('li').allTextContents()).some(text => /다\.|기록은|합산하지/.test(text)), 'record panels are lists, not explanatory prose');
       assert(await card.locator('h3').evaluateAll(headings => headings.every(el => parseFloat(getComputedStyle(el).marginTop) === 0)), 'no inherited heading whitespace');
       assert(await card.evaluate(el => [...el.querySelectorAll('li')].every(li => li.scrollWidth <= li.clientWidth + 1)), 'all achievement rows fit');
@@ -127,7 +146,7 @@ try {
       brokenImages: [...document.querySelectorAll('.archive-body img')].filter(img => !img.naturalWidth).length,
     }));
     assert.deepEqual(checks, { overflow: false, brokenAnchors: 0, brokenImages: 0 });
-    for (const [name, selector] of [['masthead','.award-masthead'],['matthews','.historical-identity'],['ranking','.award-table-shell'],['sources','.source-notes']]) {
+    for (const [name, selector] of [['masthead','.award-masthead'],['podium','.award-podium'],['matthews','.historical-identity'],['ranking','.award-table-shell'],['sources','.source-notes']]) {
       await page.locator(selector).first().screenshot({ path: join(out, name + '-' + width + '.png') });
     }
     await page.locator('.historical-identity').nth(1).screenshot({path:join(out, 'di-' + width + '.png')});

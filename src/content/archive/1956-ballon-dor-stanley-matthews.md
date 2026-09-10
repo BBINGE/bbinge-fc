@@ -66,10 +66,12 @@ draft: false
 <div class="award-podium" aria-label="1956년 발롱도르 상위 3명">
 <a href="#matthews"><small>WINNER · 1위</small><strong>스탠리<br />매슈스</strong><b>47</b><span>블랙풀 FC</span></a>
 <a href="#di-stefano"><small>RUNNER-UP · 2위</small><strong>알프레도<br />디스테파노</strong><b>44</b><span>레알 마드리드 CF</span></a>
-<a href="#kopa"><small>THIRD · 3위</small><strong>레몽<br />코파</strong><b>33</b><span>랭스 · 레알 마드리드</span></a>
+<a href="#kopa"><small>THIRD · 3위</small><strong>레몽<br />코파</strong><b>33</b><span>스타드 드 랭스<br />레알 마드리드 CF</span></a>
 </div>
 
 <p class="award-note">숫자는 득표 점수다. 47표나 47%를 뜻하지 않는다. 기자 16명 전원이 한 선수를 1위로 선택했을 때의 만점은 80점이다.</p>
+
+<p class="award-note">아래 연간 스탯은 1956년 1월 1일부터 12월 31일까지의 기록이다. 클럽 공식전과 국가대표 A매치를 합산하며, 클럽 친선경기·국제 초청대회는 합계에서 제외한다. 시즌 기록은 별도로 병기한다. <a class="cite" href="#source-21">[21]</a></p>
 
 <h2 id="matthews" class="award-person-heading">1위 · 스탠리 매슈스</h2>
 <p class="award-person-sub">Stanley Matthews · 41세 · 오른쪽 윙어</p>
@@ -81,7 +83,7 @@ draft: false
 <div class="award-achievements award-achievements-matthews">
 <section><h3>팀 성적</h3><ul><li>1955-56 풋볼리그 퍼스트 디비전 <strong>준우승 (2위)</strong></li><li>1955-56 FA컵 <strong>64강 (3라운드)</strong></li><li>1955-56 브리티시 홈 챔피언십 <strong>공동 우승</strong></li></ul></section>
 <section><h3>개인 수상·기록</h3><ul><li>1956년 발롱도르 <strong>수상</strong></li></ul></section>
-<section><h3>개인 스탯</h3><ul class="award-stat-list"><li><span>1955-56 클럽 리그</span><strong>36경기 3골</strong></li><li class="award-stat-total"><span>1956년 국가대표팀 합계</span><strong>5경기 1골</strong></li><li><span>1956년 A매치 친선경기</span><strong>2경기 0골</strong></li><li><span>1956년 홈 챔피언십 출전</span><strong>2경기 1골</strong></li><li><span>1956년 월드컵 예선</span><strong>1경기 0골</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 클럽 공식전 합계</span><strong>37경기 3골</strong></li><li><span>1955-56 풋볼리그 퍼스트 디비전</span><strong>36경기 3골</strong></li><li><span>1955-56 FA컵</span><strong>1경기 0골</strong></li><li><span>1956년 클럽 공식전</span><strong>34경기 4골</strong></li><li><span>1956년 국가대표팀</span><strong>5경기 1골</strong></li><li class="award-stat-total"><span>1956년 클럽＋국가대표팀 합계</span><strong>39경기 5골</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · WINNER</small><span>득표 점수</span></div><strong>47점</strong><small>1위표 6장<br />선정 기자 12명</small></div>
@@ -110,7 +112,7 @@ draft: false
 <div class="award-achievements award-achievements-di-stefano">
 <section><h3>팀 성적</h3><ul><li>1955-56 라리가 <strong>3위</strong></li><li>1956 코파 델 헤네랄리시모 <strong>4강</strong></li><li>1955-56 유러피언컵 <strong>우승</strong></li><li>1956 스몰 클럽 월드컵 <strong>우승</strong></li></ul></section>
 <section><h3>개인 수상·기록</h3><ul><li>1955-56 트로페오 피치치 <strong>라리가 득점왕 (24골)</strong></li><li>1955-56 유러피언컵 <strong>공동 득점 4위 (5골)</strong> <a class="cite" href="#source-19">[19]</a></li><li>1956년 발롱도르 <strong>2위</strong></li></ul></section>
-<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 클럽 공식전 합계</span><strong>37경기 29골</strong></li><li><span>1955-56 라리가</span><strong>30경기 24골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 5골</strong></li><li><span>1956 스몰 클럽 월드컵</span><strong>6경기 4골</strong> <a class="cite" href="#source-20">[20]</a></li><li><span>1956년 국가대표팀</span><strong>0경기</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 클럽 공식전 합계</span><strong>37경기 29골</strong></li><li><span>1955-56 라리가</span><strong>30경기 24골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 5골</strong></li><li><span>1956년 클럽 공식전</span><strong>40경기 39골</strong></li><li><span>1956년 국가대표팀</span><strong>0경기</strong></li><li class="award-stat-total"><span>1956년 클럽＋국가대표팀 합계</span><strong>40경기 39골</strong></li><li><span>1956 스몰 클럽 월드컵 (국제 초청)</span><strong>6경기 4골</strong> <a class="cite" href="#source-20">[20]</a></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · SECOND</small><span>득표 점수</span></div><strong>44점</strong><small>1위표 5장<br />선정 기자 11명</small></div>
@@ -139,7 +141,7 @@ draft: false
 <div class="award-achievements award-achievements-kopa">
 <section><h3>팀 성적</h3><ul><li>1955-56 디비지옹 1 <strong>10위</strong></li><li>1955-56 쿠프 드 프랑스 <strong>8강</strong></li><li>1955-56 유러피언컵 <strong>준우승</strong></li></ul></section>
 <section><h3>개인 수상·기록</h3><ul><li>1956년 발롱도르 <strong>3위</strong></li></ul></section>
-<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 랭스 공식전 합계</span><strong>42경기 9골</strong></li><li><span>1955-56 디비지옹 1</span><strong>30경기 5골</strong></li><li><span>1955-56 쿠프 드 프랑스</span><strong>5경기 4골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 0골</strong></li><li><span>1956년 국가대표팀</span><strong>1경기 0골</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 스타드 드 랭스 공식전 합계</span><strong>42경기 9골</strong></li><li><span>1955-56 디비지옹 1</span><strong>30경기 5골</strong></li><li><span>1955-56 쿠프 드 프랑스</span><strong>5경기 4골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 0골</strong></li><li><span>1956년 스타드 드 랭스</span><strong>22경기 6골</strong></li><li><span>1956년 레알 마드리드 CF</span><strong>13경기 4골</strong></li><li><span>1956년 클럽 공식전 합계</span><strong>35경기 10골</strong></li><li><span>1956년 국가대표팀</span><strong>1경기 0골</strong></li><li class="award-stat-total"><span>1956년 클럽＋국가대표팀 합계</span><strong>36경기 10골</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · THIRD</small><span>득표 점수</span></div><strong>33점</strong><small>1위표 1장<br />선정 기자 12명</small></div>
@@ -204,5 +206,6 @@ draft: false
 <li id="source-18">SE 파우메이라스, <a href="https://www.palmeiras.com.br/craques/julinho-Botelho/" target="_blank" rel="noopener noreferrer">줄리뉴 보텔류 공식 인물 기록</a>. 브라질 선수 경력과 1954년 월드컵 출전.</li>
 <li id="source-19">UEFA, <a href="https://www.uefa.com/uefachampionsleague/history/seasons/1955/" target="_blank" rel="noopener noreferrer">1955-56 유러피언컵 시즌 기록</a>; RSSSF, <a href="https://www.rsssf.org/ec/ec195556.html" target="_blank" rel="noopener noreferrer">1955-56 유럽 클럽 대회 경기·득점 기록</a>. 결승·4강 진출팀과 득점 순위.</li>
 <li id="source-20">RSSSF, <a href="https://www.rsssf.org/tablesp/peq-copamundo56.html" target="_blank" rel="noopener noreferrer">1956 스몰 클럽 월드컵 경기별 기록</a>. 디스테파노의 6경기 출전과 4득점.</li>
+<li id="source-21">Transfermarkt, <a href="https://www.transfermarkt.com/sir-stanley-matthews/leistungsdatendetails/spieler/212779/saison/1955" target="_blank" rel="noopener noreferrer">매슈스 경기별 기록</a>, <a href="https://www.transfermarkt.com/alfredo-di-stefano/leistungsdatendetails/spieler/135778/saison/1956" target="_blank" rel="noopener noreferrer">디스테파노 경기별 기록</a>, <a href="https://www.transfermarkt.com/raymond-kopa/leistungsdatendetails/spieler/170730/saison/1956" target="_blank" rel="noopener noreferrer">코파 경기별 기록</a>; Historical Lineups, <a href="https://www.historical-lineups.com/wp-content/uploads/2024/09/Weeks-01-42-12.pdf" target="_blank" rel="noopener noreferrer">잉글랜드 1955-56 리그 경기 명단·득점자</a>, <a href="https://www.historical-lineups.com/wp-content/uploads/2024/09/Weeks-01-42-13.pdf" target="_blank" rel="noopener noreferrer">1956-57 리그 경기 명단·득점자</a>; Archives Reims Football, <a href="https://archivesreimsfootball.fr/personnalites/kopa-raymond" target="_blank" rel="noopener noreferrer">코파의 스타드 드 랭스 경기 기록</a>. 연간 수치는 경기 날짜별 재집계. 클럽 친선경기와 국제 초청대회는 별도이며, 도움은 완전한 집계가 확인되지 않아 총계로 제시하지 않는다.</li>
 </ol>
 </div>
