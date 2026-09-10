@@ -5,6 +5,7 @@ category: 'european-cup'
 tags: ['1955-56 유러피언컵', '레알 마드리드 CF', '스타드 드 랭스', '유러피언컵 결승전', '알프레도 디스테파노', '엑토르 리알', '축구 하이라이트']
 pubDate: 2026-09-10T21:30:00+09:00
 coverImage: '/images/highlights/1955-56-european-cup-final-cover.jpg'
+cardImage: '/images/highlights/1955-56-european-cup-final-kopa-di-stefano.jpg'
 coverImageAlt: '1955-56 유러피언컵 결승전을 앞두고 잔디 위에 놓인 유러피언컵 트로피'
 coverImageCaption: '1956년 6월 13일, 파리에서 유럽 챔피언 클럽 대회의 첫 결승전이 열렸다.'
 coverImageWidth: 960
