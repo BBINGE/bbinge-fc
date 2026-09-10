@@ -81,9 +81,9 @@ relatedGroup: 'european-cup-1955-56'
 <div class="european-cup-transition european-cup-half-time" aria-label="전반 종료, 레알 마드리드 CF 2대2 스타드 드 랭스">
   <div class="transition-kicker"><span>PARIS · 13 JUNE 1956</span><b>THE FIRST EUROPEAN CUP FINAL</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/es-1945.png" alt="1945년부터 사용된 스페인 국기" /><strong>레알 마드리드 CF</strong><small>REAL MADRID CF</small></div>
+    <div class="transition-team"><img class="match-board-crest" src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="레알 마드리드 CF 문장" width="80" height="88" /><strong>레알 마드리드 CF</strong><small>REAL MADRID CF</small><span class="match-board-country"><img src="/images/flags/es-1945.png" alt="1945년부터 사용된 스페인 국기" width="28" height="18" /><span>스페인</span></span></div>
     <div class="transition-numbers"><span>2</span><em>HALF<br />TIME</em><span>2</span></div>
-    <div class="transition-team"><img src="/images/flags/fr.svg" alt="프랑스 국기" /><strong>스타드 드 랭스</strong><small>STADE DE REIMS</small></div>
+    <div class="transition-team"><img class="match-board-crest" src="/images/archive/teams/clubs/reims-1931.svg" alt="스타드 드 랭스 문장" width="80" height="88" /><strong>스타드 드 랭스</strong><small>STADE DE REIMS</small><span class="match-board-country"><img src="/images/flags/fr.svg" alt="프랑스 국기" width="28" height="18" /><span>프랑스</span></span></div>
   </div>
   <p>REIMS LED 2-0 · MADRID ANSWERED BEFORE THE BREAK</p>
 </div>

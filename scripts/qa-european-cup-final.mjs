@@ -34,8 +34,8 @@ try {
     const meaning = page.locator('.article-body > p').filter({ hasText: '레알 마드리드의 첫 유러피언컵 우승을 가리키는 표현이다.' });
     assert.equal(await meaning.count(), 1);
     assert(await meaning.evaluate(el => !!(document.querySelector('.european-cup-full-time').compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)));
-    const teams = page.locator('.european-cup-match-board .match-board-teams > div');
-    assert.equal(await teams.count(), 2);
+    const teams = page.locator('.european-cup-match-board .match-board-teams > div, .european-cup-half-time .transition-team');
+    assert.equal(await teams.count(), 4);
     for (const team of await teams.all()) {
       const crest = team.locator('.match-board-crest');
       assert.match(await crest.getAttribute('src'), /\.svg$/);
@@ -51,6 +51,8 @@ try {
     }
     await page.locator('.european-cup-title-card').screenshot({ path: join(out, `title-${width}.png`) });
     await page.locator('.european-cup-match-board').screenshot({ path: join(out, `board-${width}.png`) });
+    assert.deepEqual(await page.locator('.european-cup-half-time .transition-numbers > span').allTextContents(), ['2', '2']);
+    await page.locator('.european-cup-half-time').screenshot({ path: join(out, `halftime-${width}.png`) });
     const clips = page.locator('video.highlight-clip');
     assert.equal(await clips.count(), 12);
     assert.equal(await page.locator('video[data-autoplay-on-view]').count(), 12);
