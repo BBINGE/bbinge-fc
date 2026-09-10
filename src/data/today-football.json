@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-10T20:40:19.428Z",
+  "updatedAt": "2026-09-10T21:24:40.473Z",
   "matches": [
     {
       "id": "2594585",
@@ -23,9 +23,9 @@
       "away": "사바 FK",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-11"
@@ -37,9 +37,9 @@
       "away": "Bodø/Glimt",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uqpwwx1449165943.png",
-      "homeScore": 0,
+      "homeScore": 5,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-11"
