@@ -57,7 +57,7 @@ relatedGroup: 'european-cup-1955-56'
 ## 전반 10분: 골키퍼가 나온 뒤에도 끝나지 않은 공격
 
 <section class="highlight-scene european-cup-scene">
-  <header><span>10' · STADE DE REIMS 2-0</span><h3>장 탕플랭, 네 분 만에 두 골 차</h3></header>
+  <header><span>10' · STADE DE REIMS 2-0</span><h3>장 탕플랭, 4분 만에 두 골 차</h3></header>
   <div class="highlight-clip-grid two-clips">
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="장 탕플랭의 1956 유러피언컵 결승전 두 번째 골"><source src="/media/highlights/1955-56-european-cup-final/03-templin-10.mp4" type="video/mp4" /></video><figcaption>알론소가 전진해 몸을 던졌지만 공은 멈추지 않았고, 탕플랭이 남은 공을 골문 안으로 보냈다.</figcaption></figure>
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="스타드 드 랭스의 두 번째 골에 환호하는 파르크 데 프랭스 관중"><source src="/media/highlights/1955-56-european-cup-final/04-reims-crowd.mp4" type="video/mp4" /></video><figcaption>10분 만에 2-0. 파리의 관중석이 프랑스 챔피언의 두 번째 골에 반응한다.</figcaption></figure>
@@ -71,10 +71,10 @@ relatedGroup: 'european-cup-1955-56'
 <section class="highlight-scene european-cup-scene">
   <header><span>14' · 1-2 / 30' · 2-2</span><h3>디스테파노가 줄이고, 리알이 원점으로 돌리다</h3></header>
   <div class="highlight-clip-grid two-clips">
-    <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="알프레도 디스테파노의 1956 유러피언컵 결승전 만회골"><source src="/media/highlights/1955-56-european-cup-final/05-di-stefano-14.mp4" type="video/mp4" /></video><figcaption>디스테파노가 골키퍼보다 먼저 낮게 마무리해 두 골 차를 네 분 만에 줄였다.</figcaption></figure>
+    <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="알프레도 디스테파노의 1956 유러피언컵 결승전 만회골"><source src="/media/highlights/1955-56-european-cup-final/05-di-stefano-14.mp4" type="video/mp4" /></video><figcaption>디스테파노가 골키퍼보다 먼저 낮게 마무리해 두 골 차를 4분 만에 줄였다.</figcaption></figure>
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="엑토르 리알의 1956 유러피언컵 결승전 동점골"><source src="/media/highlights/1955-56-european-cup-final/06-rial-30.mp4" type="video/mp4" /></video><figcaption>문전으로 이어진 공격을 리알이 마무리하면서 결승은 30분 만에 다시 시작점으로 돌아왔다.</figcaption></figure>
   </div>
-  <p>두 번째 실점에서 네 분이 지난 14분, 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나 출신 센터 포워드, 1926-2014)</span>가 왼쪽 안쪽에서 공을 이어받아 낮게 마무리했다. 영상에서 두드러지는 것은 슈팅의 크기보다 공을 처리하는 간격이다. 공을 받은 뒤 자세를 오래 고쳐 잡지 않고 골키퍼가 몸을 낮추는 사이 슈팅을 끝냈다. 랭스가 두 골 차를 누린 시간은 네 분이었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
+  <p>두 번째 실점에서 4분이 지난 14분, 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나 출신 센터 포워드, 1926-2014)</span>가 왼쪽 안쪽에서 공을 이어받아 낮게 마무리했다. 영상에서 두드러지는 것은 슈팅의 크기보다 공을 처리하는 간격이다. 공을 받은 뒤 자세를 오래 고쳐 잡지 않고 골키퍼가 몸을 낮추는 사이 슈팅을 끝냈다. 랭스가 두 골 차를 누린 시간은 4분이었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
   <p>30분에는 엑토르 리알<span class="foreign-note" lang="es">(José Héctor Rial Laguía; 아르헨티나·스페인 공격수, 1928-1991)</span>이 동점을 만들었다. 디스테파노의 만회골에서 16분, 랭스의 두 번째 골에서 20분 만이었다. 이 두 골만으로 레알이 랭스의 측면 공격에 해법을 찾았다고 말할 수는 없다. 다만 랭스 역시 자기 골문 앞에서 레알의 마무리를 막지 못하고 있었다. 전반에는 레알의 슈팅이 크로스바를 때리는 장면도 나왔고, 두 팀은 2-2로 하프타임을 맞았다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a></p>
 </section>
 
