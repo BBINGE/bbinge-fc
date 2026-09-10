@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 import assert from 'node:assert/strict';
-import { mkdtempSync } from 'node:fs';
+import { mkdtempSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { readAwardEdition, resolveHistoricalIdentity } from './render-award-records.mjs';
@@ -38,7 +38,30 @@ try {
       }), 'flag stays inside its own rounded frame and row');
     }
     assert.equal(await page.locator('.award-ranking:not(.award-ballots) tbody tr').count(), 24);
-    await page.locator('.award-table-shell summary').click();
+    const toggle = page.locator('.award-table-shell summary');
+    const details = page.locator('.award-table-shell details');
+    assert(await toggle.locator('.award-toggle-closed').isVisible());
+    assert.equal(await toggle.locator('svg').evaluate(el => getComputedStyle(el).animationName), 'award-toggle-nudge');
+    await toggle.focus();
+    await page.keyboard.press('Enter');
+    assert(await details.evaluate(el => el.open));
+    assert(await toggle.locator('.award-toggle-open').isVisible());
+    await page.keyboard.press('Space');
+    assert(!(await details.evaluate(el => el.open)));
+    await page.emulateMedia({reducedMotion:'reduce'});
+    assert.equal(await toggle.locator('svg').evaluate(el => getComputedStyle(el).animationName), 'none');
+    await page.emulateMedia({reducedMotion:'no-preference'});
+    await toggle.screenshot({path:join(out, 'toggle-' + width + '.png')});
+    await toggle.click();
+    const banner = page.locator('.award-reading');
+    const expectedThumbnail = readFileSync('src/content/articles/1955-56-european-cup-final-real-madrid-stade-de-reims.md','utf8').match(/^cardImage: '([^']+)'/m)[1];
+    assert.equal(await banner.locator('img').getAttribute('src'), expectedThumbnail);
+    assert.equal(await banner.locator('.award-reading-action').innerText(), '경기 복원 보기');
+    assert.match(await banner.evaluate(el => getComputedStyle(el).backgroundImage), /linear-gradient/);
+    await banner.locator('img').scrollIntoViewIfNeeded();
+    await banner.locator('img').evaluate(el => el.decode());
+    assert(await banner.evaluate(el => [...el.querySelectorAll('*')].every(child => child.scrollWidth <= child.clientWidth + 1)), 'banner content fits');
+    await banner.screenshot({path:join(out, 'reading-cta-' + width + '.png')});
     assert.equal(await page.locator('.award-ballots tbody tr').count(), 24);
     for (const table of await page.locator('.award-ranking').all()) {
       const detailed = await table.evaluate(el => el.classList.contains('award-ballots'));
@@ -95,5 +118,9 @@ try {
     assert(await page.locator('a[href="' + route + '"]').count() > 0);
     assert(!String(await page.locator('meta[name="robots"]').getAttribute('content')).includes('noindex'));
   }
+  await page.goto(base + route);
+  await page.locator('.award-reading').click();
+  await page.waitForURL('**/highlights/european-cup/1955-56-european-cup-final-real-madrid-stade-de-reims/');
+  assert.match(await page.locator('h1').innerText(), /1955-56 유러피언컵 결승전 H\/L/);
   console.log('BALLON D’OR QA: PASS');
 } finally { await browser.close(); }

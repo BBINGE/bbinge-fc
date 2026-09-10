@@ -120,7 +120,7 @@ draft: false
 
 매슈스와의 차이는 3점이었다. 기자 한 명이 준 1위표와 4위표의 점수 차이만큼이다. 하지만 이것을 기자 세 명 차이라고 말할 수는 없다. 매슈스를 다섯 명 안에 넣은 기자는 12명, 디스테파노를 넣은 기자는 11명이었으며 각자의 순위 배점이 합쳐져 47과 44가 됐다. 승패처럼 선명하게 적힌 최종 순위 아래에, 실제로는 꽤 가까운 판단들이 모여 있었다.
 
-<a class="award-reading" href="/highlights/european-cup/1955-56-european-cup-final-real-madrid-stade-de-reims/"><strong>1955-56 유러피언컵 결승전 H/L</strong><span>레알 마드리드 CF vs 스타드 드 랭스. 두 후보가 맞선 경기를 장면 순서대로 읽기.</span></a>
+<a class="award-reading" href="/highlights/european-cup/1955-56-european-cup-final-real-madrid-stade-de-reims/"><img class="award-reading-image" src="/images/highlights/1955-56-european-cup-final-kopa-di-stefano.jpg" width="966" height="966" alt="코파와 디스테파노가 악수하는 1955-56 유러피언컵 결승전 썸네일" loading="lazy" decoding="async" /><span class="award-reading-copy"><small>EUROPEAN CUP · FINAL</small><strong>1955-56 유러피언컵 결승전 H/L</strong><span class="award-reading-description">레알 마드리드 CF vs 스타드 드 랭스. 두 후보가 맞선 경기를 장면 순서대로 읽기.</span><span class="award-reading-action">경기 복원 보기 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" /></svg></span></span></a>
 
 <h2 id="kopa" class="award-person-heading">3위 · 레몽 코파</h2>
 <p class="award-person-sub">Raymond Kopa · 25세 · 인사이드 포워드</p>
@@ -159,7 +159,7 @@ draft: false
 
 <p class="award-note">* 줄리뉴는 브라질 선수로 표기했다. RSSSF의 1956년 수상 기록에는 이탈리아로 분류되어 있으나, 이 분류만으로 이탈리아 국적 취득까지 확인되는 것은 아니다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-18">[18]</a></p>
 
-<div class="award-table-shell"><details><summary>기자들이 매긴 1~5위별 투표 내역 보기</summary><div data-award-record="1956-ballon-dor:ballots"></div></details></div>
+<div class="award-table-shell"><details><summary><span>기자들이 매긴 1~5위별 투표 내역 보기</span><span class="award-toggle-action"><span class="award-toggle-closed">펼쳐보기</span><span class="award-toggle-open">접기</span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></span></summary><div data-award-record="1956-ballon-dor:ballots"></div></details></div>
 
 ## 첫 수상자의 이름이 남긴 기준
 

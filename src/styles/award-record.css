@@ -83,14 +83,39 @@
 .award-record .award-ranking thead th:first-child, .award-record .award-ballots thead th { text-align: center; }
 .award-record .award-ballots thead th:nth-child(2) { text-align: left; }
 .award-record .award-ranking thead th:last-child { text-align: right; }
-.award-record .award-table-shell details > summary { cursor: pointer; background: #f4f0e2; color: #5b4e20; font-size: 15px; font-weight: 650; padding: 20px; }
+.award-record .award-table-shell details > summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; list-style: none; cursor: pointer; background: linear-gradient(115deg,#191911,#36301b); color: #fff4ce; font-size: 15px; font-weight: 650; padding: 20px 24px; transition: background-color .2s,box-shadow .2s; }
+.award-record .award-table-shell summary::-webkit-details-marker { display: none; }
+.award-record .award-table-shell summary > span:first-child { text-wrap: balance; }
+.award-record .award-table-shell summary::marker { content: ''; }
+.award-record .award-toggle-action { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; gap: 10px; min-width: 126px; min-height: 44px; padding: 10px 14px; border: 1px solid #fae1a0; border-radius: 8px; background: linear-gradient(120deg,#ffe9ac,#d5b65c); color: #30250c; font-size: 14px; box-shadow: 0 3px 12px #0003; }
+.award-record .award-toggle-open { display: none; }
+.award-record details:not([open]) .award-toggle-action svg { animation: award-toggle-nudge 2.8s ease-in-out infinite; }
+.award-record details[open] .award-toggle-closed { display: none; }
+.award-record details[open] .award-toggle-open { display: inline; }
+.award-record details[open] .award-toggle-action svg { transform: rotate(180deg); }
+.award-record .award-table-shell summary:is(:hover,:focus-visible) { box-shadow: inset 0 0 0 2px #dfc777; }
+.award-record summary:is(:hover,:focus-visible) .award-toggle-action svg { animation-play-state: paused; }
+@keyframes award-toggle-nudge { 0%,60%,100% { transform: translateY(0); } 72%,88% { transform: translateY(4px); } 80% { transform: translateY(0); } }
 .award-record .award-note { font-size: 13px; line-height: 1.8; color: #726a50; }
-.award-record .award-reading { display: block; padding: 24px; border: 1px solid #cabf95; border-radius: 14px; text-decoration: none; margin: 30px 0; background: #f9f6eb; color: #31291a; }
-.award-record .award-reading strong { display: block; font-size: 19px; }
-.award-record .award-reading span { display: block; font-size: 14px; margin-top: 7px; }
+.award-record .archive-body .award-reading { display: grid; grid-template-columns: 200px minmax(0,1fr); align-items: center; gap: 26px; padding: 22px; overflow: hidden; border: 1px solid #657ef2; border-radius: 16px; text-decoration: none; margin: 30px 0; background: radial-gradient(ellipse at 0 0,#05b5da55,transparent 65%),linear-gradient(128deg,#06103f 3%,#102ca2 48%,#39128c 100%); color: #fff; box-shadow: 0 14px 30px #101a5c20; transition: transform .2s,box-shadow .2s,border-color .2s; }
+.award-record .archive-body .award-reading-image { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; margin: 0; border-radius: 10px; }
+.award-record .award-reading-copy { display: block; min-width: 0; }
+.award-record .award-reading-copy > small { display: block; color: #83e8ff; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+.award-record .award-reading strong { display: block; margin-top: 10px; color: #fff; font-size: 22px; line-height: 1.45; word-break: keep-all; }
+.award-record .award-reading-description { display: block; font-size: 14px; line-height: 1.75; margin-top: 10px; color: #dce8ff; word-break: keep-all; }
+.award-record .award-reading-action { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 44px; padding: 10px 16px; margin-top: 18px; border: 1px solid #9ce8ff; border-radius: 7px; background: linear-gradient(105deg,#72e8ff,#b5c6ff); color: #071d54; font-size: 14px; font-weight: 800; }
+.award-record .award-reading-action svg { flex: 0 0 auto; transition: transform .2s; }
+.award-record .archive-body .award-reading:is(:hover,:focus-visible) { border-color: #9ce8ff; box-shadow: 0 18px 34px #101a5c38; transform: translateY(-2px); }
+.award-record .award-reading:is(:hover,:focus-visible) .award-reading-action svg { transform: translateX(4px); }
 .award-record .archive-body .award-cover { width: 100%; margin-top: 44px; }
 .award-record :is(a,summary,[tabindex]):focus-visible { outline: 3px solid #b6982f; outline-offset: 4px; }
 @media (max-width: 600px) {
+  .award-record .award-table-shell details > summary { padding: 18px 16px; gap: 14px; font-size: 14px; line-height: 1.6; }
+  .award-record .award-toggle-action { min-width: 104px; padding: 10px; gap: 5px; font-size: 13px; }
+  .award-record .archive-body .award-reading { grid-template-columns: 112px minmax(0,1fr); gap: 16px; padding: 16px; }
+  .award-record .award-reading strong { font-size: 17px; margin-top: 8px; }
+  .award-record .award-reading-description { font-size: 13px; }
+  .award-record .award-reading-action { gap: 10px; font-size: 13px; padding: 10px 12px; margin-top: 14px; }
   .award-record .archive-body .award-ranking, .award-record .award-ranking tbody { display: block; }
   .award-record .award-ranking colgroup { display: none; }
   .award-record .award-ranking thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -130,4 +155,9 @@
   .archive-body .historical-identity .identity-blackpool .identity-art img { width: 60px; }
   .award-record .award-achievements section { padding: 20px; }
   .award-record .award-score-strip { padding: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .award-record details:not([open]) .award-toggle-action svg { animation: none; }
+  .award-record .archive-body .award-reading, .award-record .award-reading-action svg, .award-record .award-table-shell details > summary { transition: none; }
+  .award-record .archive-body .award-reading:is(:hover,:focus-visible), .award-record .award-reading:is(:hover,:focus-visible) .award-reading-action svg { transform: none; }
 }
