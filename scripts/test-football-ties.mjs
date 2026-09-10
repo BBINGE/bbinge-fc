@@ -24,8 +24,7 @@ const participantTable = renderEuropeanCupMilestone('1955-56', 'competition');
 assert.equal((participantTable.match(/class="cup-entrant-club"/g) ?? []).length, 16);
 assert.equal((participantTable.match(/통산 첫 유러피언컵 출전/g) ?? []).length, 16);
 assert(participantTable.includes('1955년 리그 최종 2위·미트로파컵 우승'));
-assert(participantTable.includes('레알 마드리드'));
-assert(!participantTable.includes('레알 마드리드 CF'));
+assert(participantTable.includes('레알 마드리드 CF'));
 const roundOf16Table = renderEuropeanCupMilestone('1955-56', 'round-of-16');
 assert.equal((roundOf16Table.match(/class="cup-entrant-club"/g) ?? []).length, 16);
 assert.equal((roundOf16Table.match(/통산 첫 16강 진출/g) ?? []).length, 16);
@@ -48,7 +47,7 @@ assert(source.includes('/images/flags/es-1945.png'));
 assert(!source.includes('/images/flags/es-franco-civil.svg'));
 const semifinalSource=readFileSync(new URL('../src/content/archive/1955-56-european-cup-semifinals.md',import.meta.url),'utf8');
 assert.equal((semifinalSource.match(/data-european-cup-milestone=/g)??[]).length,1);
-for (const name of ['스타드 드 랭스','히버니언 FC','레알 마드리드','AC 밀란']) assert(semifinalSource.includes(name));
+for (const name of ['스타드 드 랭스','히버니언 FC','레알 마드리드 CF','AC 밀란']) assert(semifinalSource.includes(name));
 assert(!semifinalSource.includes('| 랭스 |'));
 assert(!semifinalSource.includes('| 히버니언 |'));
 assert(!/[|/]\s*레알:/.test(semifinalSource));
@@ -60,7 +59,7 @@ for (const [stage,key] of [['16강','round-of-16'],['8강','quarter-finals']]) {
   const tieOrder=Object.values(cupTies.ties).filter(tie=>tie.stage===stage).flatMap(tie=>[tie.left,tie.right]);
   assert.deepEqual(firstSeason.stages[key],tieOrder);
 }
-for (const [id, total, winner] of [['match-1','3<i>:</i>0','스타드 드 랭스'], ['match-2','5<i>:</i>4','레알 마드리드']]) {
+for (const [id, total, winner] of [['match-1','3<i>:</i>0','스타드 드 랭스'], ['match-2','5<i>:</i>4','레알 마드리드 CF']]) {
   const html = renderTie('1955-56-european-cup-semifinals', id);
   assert(html.includes(`<strong>${total}</strong>`));
   assert(html.includes('<dt>결승 진출</dt>'));
