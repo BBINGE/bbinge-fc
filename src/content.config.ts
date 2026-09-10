@@ -30,6 +30,7 @@ const articles = defineCollection({
       coverImage: z.string().optional(),
       // 목록 카드 전용 정사각 이미지. 없으면 coverImage를 1:1로 크롭해 사용한다.
       cardImage: z.string().optional(),
+      cardImageAlt: z.string().optional(),
       coverImageAlt: z.string().optional(),
       coverImageCaption: z.string().optional(),
       coverImageWidth: z.number().int().positive().optional(),

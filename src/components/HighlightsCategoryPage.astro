@@ -24,6 +24,9 @@ interface MatchProfile {
 const { entries, description } = Astro.props;
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
+const imageAltFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage
+  ? (entry.data.cardImageAlt ?? '')
+  : (entry.data.coverImageAlt ?? '');
 const introLead = description?.split(' H/L은')[0] ?? description;
 
 const profiles: Record<string, MatchProfile> = {
@@ -93,7 +96,7 @@ const profiles: Record<string, MatchProfile> = {
     awayScore: '1',
     date: '1934.06.10',
     venue: '스타디오 나치오날레 PNF',
-    scenes: '07 SCENES',
+    scenes: '05 SCENES',
     turningPoint: '푸치에게 선제골을 내준 개최국이 오르시의 동점골과 스키아비오의 연장 결승골로 돌아왔다.',
     timeline: [
       { time: "71'", label: '0-1' },
@@ -172,7 +175,7 @@ const signatureProfile = signature ? (profiles[signature.id] ?? fallbackProfile)
 
       <article class="signature-card">
         <a class="signature-cover" href={hrefFor(signature)} aria-label={`${signature.data.title} 장면 순서대로 보기`}>
-          {imageFor(signature) && <img src={imageFor(signature)} alt={signature.data.coverImageAlt ?? ''} />}
+          {imageFor(signature) && <img src={imageFor(signature)} alt={imageAltFor(signature)} />}
           <span class="archive-stamp">ARCHIVE {signatureProfile.year}</span>
         </a>
 
@@ -219,7 +222,7 @@ const signatureProfile = signature ? (profiles[signature.id] ?? fallbackProfile)
           return (
             <article class:list={['match-card', { 'is-european-cup': entry.data.category === 'european-cup' }]}>
               <a class="match-cover" href={hrefFor(entry)} aria-label={`${entry.data.title} 장면 순서대로 보기`}>
-                {imageFor(entry) && <img src={imageFor(entry)} alt={entry.data.coverImageAlt ?? ''} loading="lazy" />}
+                {imageFor(entry) && <img src={imageFor(entry)} alt={imageAltFor(entry)} loading="lazy" />}
                 <span>{String(index + 2).padStart(2, '0')}</span>
               </a>
               <div class="match-copy">
