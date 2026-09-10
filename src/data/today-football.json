@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-10T15:05:59.110Z",
+  "updatedAt": "2026-09-10T17:15:05.801Z",
   "matches": [
     {
       "id": "2594585",
@@ -9,9 +9,9 @@
       "away": "샤흐타르 도네츠크",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "01:45",
       "date": "2026-09-11"
