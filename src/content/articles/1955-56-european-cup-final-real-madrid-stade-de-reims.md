@@ -108,10 +108,10 @@ relatedGroup: 'european-cup-1955-56'
 <section class="highlight-scene european-cup-scene">
   <header><span>67' · 3-3</span><h3>수비수의 전진이 두 번째 동점을 만들다</h3></header>
   <div class="highlight-clip-grid two-clips">
-    <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="세 번째 실점 뒤 다시 공격하는 레알 마드리드"><source src="/media/highlights/1955-56-european-cup-final/08-real-response.mp4" type="video/mp4" /></video><figcaption>레알은 페널티 지역 가장자리에서 공을 지키고 다시 안쪽으로 들어갈 길을 찾았다.</figcaption></figure>
+    <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="세 번째 실점 뒤 다시 공격하는 레알 마드리드"><source src="/media/highlights/1955-56-european-cup-final/08-real-response.mp4" type="video/mp4" /></video><figcaption>중앙선 부근에서 상대를 등지고 공을 지키는 레알 선수.</figcaption></figure>
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="마르키토스의 1956 유러피언컵 결승전 동점골"><source src="/media/highlights/1955-56-european-cup-final/09-marquitos-67.mp4" type="video/mp4" /></video><figcaption>여러 선수가 엉킨 문전에서 마르키토스가 공격에 가담해 3-3을 만들었다.</figcaption></figure>
   </div>
-  <p>랭스의 세 번째 득점 뒤 이어지는 첫 영상에서 레알의 공격수는 페널티 지역 가장자리에서 등을 대고 공을 지킨 뒤 몸을 돌린다. 곧장 슈팅할 길이 없다고 공격을 끝내지는 않았다. 두 번째 영상은 67분의 동점골이다. 마르키토스<span class="foreign-note" lang="es">(Marcos Alonso Imaz; 스페인 수비수, 1933-2012)</span>가 문전까지 올라왔고, 여러 선수가 엉킨 자리에서 골을 넣었다. 공이 어느 발에 어떻게 닿았는지는 짧은 화면에서 선명하지 않지만, 수비수가 공격이 끝나는 위치까지 따라 들어온 것은 보인다. 디스테파노와 리알만 막으면 되는 공격이었다면, 그 자리에 마르키토스가 있을 이유도 없었을 것이다.</p>
+  <p>랭스의 세 번째 득점 뒤 이어지는 첫 영상에서 레알 선수는 중앙선 부근에서 상대를 등지고 공을 지킨 뒤 몸을 돌린다. 두 번째 영상은 67분의 동점골이다. 마르키토스<span class="foreign-note" lang="es">(Marcos Alonso Imaz; 스페인 수비수, 1933-2012)</span>가 문전까지 올라왔고, 여러 선수가 엉킨 자리에서 골을 넣었다. 공이 어느 발에 어떻게 닿았는지는 짧은 화면에서 선명하지 않지만, 수비수가 공격이 끝나는 위치까지 따라 들어온 것은 보인다. 디스테파노와 리알만 막으면 되는 공격이었다면, 그 자리에 마르키토스가 있을 이유도 없었을 것이다.</p>
   <p>3-3. 레알은 세 번 앞선 팀이 아니라, 두 번 뒤처지고 두 번 따라붙은 팀이었다. 그리고 결승의 첫 78분 동안 한 번도 리드하지 못했다.</p>
 </section>
 
