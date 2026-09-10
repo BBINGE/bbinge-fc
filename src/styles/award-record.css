@@ -31,30 +31,29 @@
 .award-record .award-portrait img { display: block; height: auto; object-fit: contain; }
 .award-record .archive-body .award-portrait figcaption { font-size: 12px; }
 .historical-identity { margin: 30px 0; }
-.historical-identity .identity-stack { border-radius: 15px; overflow: hidden; border: 1px solid #e0ddd3; }
-.historical-identity .identity-row { display: grid; grid-template-columns: 100px minmax(0,1fr); align-items: center; gap: 24px; padding: 22px 28px; min-height: 128px; color: #fff; border-bottom: 1px solid #ffffff40; }
-.historical-identity .identity-row:last-child { border-bottom: 0; }
+.historical-identity .identity-stack { border-radius: var(--bbfc-radius-lg); overflow: hidden; }
+.historical-identity .identity-row { display: grid; grid-template-columns: 100px minmax(0,1fr); align-items: center; gap: 22px; padding: 20px 30px; min-height: 122px; color: #fff; }
 .historical-identity .identity-art { display: block; position: relative; width: 100px; height: 86px; overflow: hidden; }
 .archive-body .historical-identity .identity-art img { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); display: block; width: 100%; height: 100%; max-width: none; object-fit: contain; border-radius: 0; margin: 0; }
 .archive-body .historical-identity .identity-art-wide img { width: 178px; height: 100px; }
-.historical-identity .identity-label { display: block; font-size: 10px; letter-spacing: .12em; font-weight: 750; }
-.historical-identity strong { display: block; margin-top: 5px; font-size: 21px; line-height: 1.4; color: inherit; }
-.historical-identity small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.55; overflow-wrap: anywhere; }
-.historical-identity em { display: block; font-style: normal; font-size: 12px; line-height: 1.6; margin-top: 7px; opacity: .9; }
-.historical-identity .identity-uk { background: linear-gradient(90deg,#062765 0 13%,#fff 13% 15%,#c70f32 15% 85%,#fff 85% 87%,#062765 87%); padding-left: 36px; text-shadow: 0 1px 2px #4d061d; }
-.historical-identity .identity-england { background: linear-gradient(90deg,#c8102e 0 4%,#fff 4% 96%,#c8102e 96%); color: #991c2f; }
+.historical-identity [data-identity-kind$="country"] .identity-art { height: 67px; border: 1px solid rgba(255,255,255,.9); border-radius: 9px; background: #fff; }
+.historical-identity .identity-label { display: block; font-size: 11px; letter-spacing: .14em; font-weight: 800; }
+.historical-identity strong { display: block; margin-top: 6px; font-size: 22px; line-height: 1.4; color: inherit; }
+.historical-identity small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
+.historical-identity .identity-uk { background: #062765; }
+.historical-identity .identity-uk .identity-art { background: #062765; }
+.historical-identity .identity-england { background: #fff; color: #991c2f; }
+.historical-identity .identity-england .identity-art { border-color: #d8d8d8; }
 .historical-identity .identity-england-team { background: #0c2454; }
 .historical-identity .identity-england-team .identity-art { width: 48px; height: 60px; justify-self: center; }
 .archive-body .historical-identity .identity-england-team .identity-art img { width: 48px; height: 70px; top: 0; transform: translateX(-50%); }
 .historical-identity .identity-blackpool { background: #ef741c; color: #291609; }
 .historical-identity .identity-blackpool .identity-art { width: 72px; height: 79px; justify-self: center; }
 .archive-body .historical-identity .identity-blackpool .identity-art img { width: 72px; height: auto; top: 0; transform: translateX(-50%); }
-.historical-identity .identity-spain { background: linear-gradient(90deg,#a81724 0 86%,#f4c400 86%); }
-.historical-identity .identity-spain-team { background: #ecc144; color: #661b1a; }
-.historical-identity .identity-france { background: linear-gradient(90deg,#142d6a 0 82%,#fff 82% 91%,#d21a32 91%); }
+.historical-identity .identity-france { background: #142d6a; }
 .historical-identity .identity-france-team { background: #183c88; }
-.historical-identity .identity-real-madrid { background: linear-gradient(90deg,#fafafa 0 91%,#4b277b 91%); color: #302849; }
-.historical-identity .identity-reims { background: linear-gradient(90deg,#bd1730 0 91%,#fff 91%); }
+.historical-identity .identity-real-madrid { background: #f5f3f8; color: #302849; }
+.historical-identity .identity-reims { background: #bd1730; }
 .award-record .award-score-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 26px; border-radius: 12px; background: #10110d; color: #e3d49b; margin: 26px 0; }
 .award-record .award-score-strip strong { font-size: 38px; line-height: 1; }
 .award-record .award-score-strip small { display: block; font-size: 12px; color: #c5bea1; }
@@ -96,11 +95,12 @@
   .award-record .award-podium a { padding: 16px 10px; }
   .award-record .award-podium strong { font-size: 15px; min-height: 42px; }
   .award-record .award-podium b { font-size: 30px; }
-  .historical-identity .identity-row { grid-template-columns: 70px minmax(0,1fr); gap: 16px; padding: 20px; min-height: 120px; }
-  .historical-identity .identity-art { width: 70px; height: 74px; }
+  .historical-identity .identity-row { grid-template-columns: 62px minmax(0,1fr); gap: 14px; padding: 14px 16px; min-height: 102px; }
+  .historical-identity .identity-art { width: 62px; height: 74px; }
+  .historical-identity [data-identity-kind$="country"] .identity-art { height: 41px; border-radius: 7px; }
   .archive-body .historical-identity .identity-art-wide img { width: 130px; height: 74px; }
-  .historical-identity strong { font-size: 18px; }
-  .historical-identity .identity-uk { background: linear-gradient(90deg,#062765 0 4%,#fff 4% 5%,#c70f32 5% 95%,#fff 95% 96%,#062765 96%); }
+  .historical-identity strong { margin-top: 4px; font-size: 19px; }
+  .historical-identity small { margin-top: 3px; font-size: 11px; }
   .historical-identity .identity-blackpool .identity-art { width: 60px; height: 66px; }
   .archive-body .historical-identity .identity-blackpool .identity-art img { width: 60px; }
   .award-record .award-achievements section { padding: 20px; }

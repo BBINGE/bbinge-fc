@@ -26,6 +26,17 @@ try {
     assert.equal(await page.locator('.content-cover').count(), 0);
     assert.deepEqual(await page.locator('.identity-stack').evaluateAll(stacks => stacks.map(s => s.children.length)), [4, 3, 4]);
     assert.deepEqual(await page.locator('.identity-stack').first().locator('.identity-row').evaluateAll(rows => rows.map(r => r.dataset.identityId)), ['uk', 'england', 'england-team', 'blackpool']);
+    assert.equal(await page.locator('.historical-identity em').count(), 0);
+    for (const stack of await page.locator('.identity-stack').all()) {
+      const lefts = await stack.locator('.identity-row > div').evaluateAll(rows => rows.map(row => row.getBoundingClientRect().left));
+      assert(lefts.every(left => Math.abs(left - lefts[0]) < 1), 'identity text start lines match');
+    }
+    for (const flag of await page.locator('[data-identity-kind$="country"] .identity-art').all()) {
+      assert(await flag.evaluate(el => {
+        const box = el.getBoundingClientRect(), row = el.closest('.identity-row').getBoundingClientRect();
+        return box.top > row.top && box.bottom < row.bottom && parseFloat(getComputedStyle(el).borderRadius) >= 7;
+      }), 'flag stays inside its own rounded frame and row');
+    }
     assert.equal(await page.locator('.award-ranking:not(.award-ballots) tbody tr').count(), 24);
     await page.locator('.award-table-shell summary').click();
     assert.equal(await page.locator('.award-ballots tbody tr').count(), 24);

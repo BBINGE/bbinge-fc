@@ -17,7 +17,7 @@ export function resolveHistoricalIdentity(id, year) {
 export function renderHistoricalIdentity(rows, year, label) {
   return `<div class="historical-identity" aria-label="${escape(label)} 국가·대표팀·클럽"><div class="identity-stack">${rows.map(row => {
     const item = resolveHistoricalIdentity(row.id, year);
-    return `<section class="identity-row identity-${item.theme}" data-identity-kind="${item.kind}" data-identity-id="${row.id}"><span class="identity-art${item.wide ? ' identity-art-wide' : ''}"><img src="${item.src}" width="100" height="86" alt="${escape(item.name)} ${item.kind.includes('country') ? '국기' : '당시 문장'}" loading="lazy" decoding="async" /></span><div><span class="identity-label">${escape(item.label)}</span><strong>${escape(item.name)}</strong><small>${escape(item.original)}</small>${row.note ? `<em>${escape(row.note)}</em>` : ''}</div></section>`;
+    return `<section class="identity-row identity-${item.theme}" data-identity-kind="${item.kind}" data-identity-id="${row.id}"><span class="identity-art${item.wide ? ' identity-art-wide' : ''}"><img src="${item.src}" width="100" height="86" alt="${escape(item.name)} ${item.kind.includes('country') ? '국기' : '당시 문장'}" loading="lazy" decoding="async" /></span><div><span class="identity-label">${escape(item.label)}</span><strong>${escape(item.name)}</strong><small>${escape(item.original)}</small></div></section>`;
   }).join('')}</div></div>`;
 }
 
