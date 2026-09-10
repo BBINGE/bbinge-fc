@@ -16,6 +16,7 @@ const profiles: Record<string, ArticleProfile> = {
   'valeriy-lobanovskyi-dynamo-kyiv-system-football': { eyebrow: '시스템 축구', period: '1964—2002', hook: '로바노우스키는 재능을 지워 버린 것이 아니라, 재능이 반복해서 작동할 체계를 만들었다.' },
   'grande-torino-wm-system-tactics': { eyebrow: 'WM과 시스테마', period: '1939—1949', hook: '마촐라와 로이크의 중원 사각형은 고정된 숫자가 아니라 전진과 복귀의 질서였다.' },
   'pep-guardiola-manchester-city-wm-tactics': { eyebrow: 'WM과 3-2-4-1', period: '1925—2023', hook: '닮은 것은 포메이션의 외곽선이 아니라 다섯 개 공격선과 중원 사각형의 역할이다.' },
+  'ernst-happel-three-champions-league-finals-tactics': { eyebrow: '세 번의 유러피언컵 결승', period: '1969—1983', hook: '같은 포메이션을 들고 간 것이 아니라 압박·공간 방어·선수 판단의 원리를 세 리그에 다시 심었다.' },
   'hungary-golden-team-total-football-elo-rating': { eyebrow: '다뉴브의 계보', period: '1920s—1954', hook: '매직 마자르의 유동성은 한 번의 발명이 아니라 여러 시대를 건너온 사상의 집적이었다.' },
 };
 const profileFor = (entry: CollectionEntry<'articles'>): ArticleProfile => profiles[entry.id] ?? { eyebrow: (entry.data.tags ?? [])[0] ?? '전술과 아이디어', period: entry.data.pubDate.getFullYear().toString(), hook: entry.data.description };
