@@ -107,12 +107,16 @@ draft: false
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>4강 네 경기 기록</strong><span>날짜·홈과 원정·득점자 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
+<div class="cup-match-scroll" tabindex="0" role="region" aria-label="1955-56 유러피언컵 4강 네 경기 기록 표">
+
 | 구분 | 날짜 | 홈 | 결과 | 원정 | 득점 |
 | --- | --- | --- | --- | --- | --- |
 | 4강 1차전 | 1956.04.04 | 랭스 | 2-0 | 히버니언 | 르블롱 67분, 블리아르 89분 |
 | 4강 1차전 | 1956.04.19 | 레알 마드리드 | 4-2 | AC 밀란 | 레알: 리알 6분, 호세이토 25분, 올센 40분, 디스테파노 62분 / 밀란: 노르달 9분, 스키아피노 30분 |
 | 4강 2차전 | 1956.04.18 | 히버니언 | 0-1 | 랭스 | 글로바츠키 57분 |
 | 4강 2차전 | 1956.05.01 | AC 밀란 | 2-1 | 레알 마드리드 | 밀란: 달몬테 69·86분(모두 PK) / 레알: 호세이토 65분 |
+
+</div>
 
 <p class="record-note">레알·밀란 1차전의 리알 골은 5분 또는 6분, 디스테파노 골은 62분 또는 63분으로 전하는 자료가 있다. 이 표는 RSSSF의 6분·62분을 따른다. 관중 수 역시 자료 간 집계 차이가 있어 도판의 수치를 별도 확정값으로 반복하지 않는다.</p>
 
@@ -124,7 +128,7 @@ draft: false
 
 ## 참고 자료
 
-<ol class="source-links">
+<div class="source-notes"><ol>
 <li id="source-1"><a href="https://www.uefa.com/uefachampionsleague/history/h2h/64165/52821/" target="_blank" rel="noopener noreferrer">UEFA: 랭스·히버니언의 1955-56 맞대결 기록</a></li>
 <li id="source-2"><a href="https://www.lemonde.fr/archives/article/1956/04/06/en-demi-finale-de-la-coupe-d-europe-magnifique-succes-de-reims-sur-les-ecossais-d-hibernian_3113811_1819218.html" target="_blank" rel="noopener noreferrer">Le Monde, 1956.04.06: 랭스·히버니언 1차전 현장 보도</a></li>
 <li id="source-3"><a href="https://www.fff.fr/equipe-nationale/joueur/8296-bliard-rene/fiche.html" target="_blank" rel="noopener noreferrer">프랑스축구협회: 르네 블리아르 선수 기록</a></li>
@@ -140,4 +144,4 @@ draft: false
 <li id="source-13"><a href="https://www.stade-de-reims.com/entrez-dans-la-legende/" target="_blank" rel="noopener noreferrer">스타드 드 랭스: 구단의 역사와 1955년 라틴컵 결승</a></li>
 <li id="source-14"><a href="https://www.stade-de-reims.com/il-y-a-70-ans-reims-etait-si-pres-du-toit-de-leurope/" target="_blank" rel="noopener noreferrer">스타드 드 랭스: 1956년 유러피언컵 결승 70주년 회고</a></li>
 <li id="source-15"><a href="https://www.magliarossonera.it/195556_ufficiali.html" target="_blank" rel="noopener noreferrer">Maglia Rossonera: 밀란의 1955-56 경기 기록과 자료 간 득점 시각 비교</a></li>
-</ol>
+</ol></div>
