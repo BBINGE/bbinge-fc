@@ -1,0 +1,38 @@
+{
+  "year":1956,
+  "evaluation":{"basis":"calendar-year","label":"1956년 연간 평가","announcement":"1956-12-18","publication":"France Football no. 561","cutoff":null,"note":"Calendar-year award, not 1955-56 season award. Exact voting deadline not established; do not claim matches after voting influenced results."},
+  "voters":16,
+  "weights":[5,4,3,2,1],
+  "source":"https://www.rsssf.org/miscellaneous/europa-poy56.html",
+  "profiles":{
+    "matthews":{"name":"스탠리 매슈스","rows":[{"id":"uk"},{"id":"england"},{"id":"england-team","note":"1956년 A매치 5경기 1골"},{"id":"blackpool","note":"1956년 소속 구단"}]},
+    "di-stefano":{"name":"알프레도 디스테파노","rows":[{"id":"spain","note":"아르헨티나 출생 · 1956년 스페인 국적 취득"},{"id":"spain-team","note":"1956년 출전 없음 · 대표팀 데뷔 1957.01.30"},{"id":"real-madrid","note":"1956년 소속 구단"}]},
+    "kopa":{"name":"레몽 코파","rows":[{"id":"france"},{"id":"france-team","note":"1956년 A매치 1경기 0골"},{"id":"reims","note":"1956년 상반기 · 유러피언컵 준우승"},{"id":"real-madrid","note":"1956년 하반기 · 여름 이적"}]}
+  },
+  "ranking":[
+    {"rank":1,"name":"스탠리 매슈스","original":"Stanley Matthews","country":"잉글랜드","clubs":["블랙풀 FC"],"points":47,"votes":[6,2,2,1,1]},
+    {"rank":2,"name":"알프레도 디스테파노","original":"Alfredo Di Stéfano","country":"스페인","clubs":["레알 마드리드 CF"],"points":44,"votes":[5,3,2,0,1]},
+    {"rank":3,"name":"레몽 코파","original":"Raymond Kopa","country":"프랑스","clubs":["스타드 드 랭스","레알 마드리드 CF"],"points":33,"votes":[1,2,3,5,1]},
+    {"rank":4,"name":"푸슈카시 페렌츠","original":"Puskás Ferenc","country":"헝가리","clubs":["부다페스트 혼베드 SE"],"points":32,"votes":[3,3,1,1,0]},
+    {"rank":5,"name":"레프 야신","original":"Lev Yashin","country":"소련","clubs":["FC 디나모 모스크바"],"points":19,"votes":[0,2,2,1,3]},
+    {"rank":6,"name":"보지크 요제프","original":"Bozsik József","country":"헝가리","clubs":["부다페스트 혼베드 SE"],"points":15,"votes":[0,3,1,0,0]},
+    {"rank":7,"name":"에른스트 오크비르크","original":"Ernst Ocwirk","country":"오스트리아","clubs":["FK 아우스트리아 빈","UC 삼프도리아"],"points":9,"votes":[0,0,2,0,3]},
+    {"rank":8,"name":"코치시 샨도르","original":"Kocsis Sándor","country":"헝가리","clubs":["부다페스트 혼베드 SE"],"points":6,"votes":[1,0,0,0,1]},
+    {"rank":9,"name":"타데 시소브스키","original":"Thadée Cisowski","country":"프랑스","clubs":["라싱 클뢰브 드 프랑스"],"points":4,"votes":[0,0,1,0,1]},
+    {"rank":9,"name":"이반 콜레프","original":"Ivan Kolev","country":"불가리아","clubs":["CDNA 소피아"],"points":4,"votes":[0,1,0,0,0]},
+    {"rank":9,"name":"빌리 라이트","original":"Billy Wright","country":"잉글랜드","clubs":["울버햄프턴 원더러스 FC"],"points":4,"votes":[0,0,1,0,1]},
+    {"rank":12,"name":"줄리뉴","original":"Júlio Botelho","country":"이탈리아*","clubs":["AC 피오렌티나"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":13,"name":"스테판 보즈코프","original":"Stefan Bozhkov","country":"불가리아","clubs":["CDNA 소피아"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"던컨 에드워즈","original":"Duncan Edwards","country":"잉글랜드","clubs":["맨체스터 유나이티드 FC"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"게르하르트 하나피","original":"Gerhard Hanappi","country":"오스트리아","clubs":["SK 라피트 빈"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"로베르 종케","original":"Robert Jonquet","country":"프랑스","clubs":["스타드 드 랭스"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"미겔 몬투오리","original":"Miguel Montuori","country":"이탈리아","clubs":["AC 피오렌티나"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"페피요","original":"José García Castro","country":"스페인","clubs":["세비야 CF"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"후안 알베르토 스키아피노","original":"Juan Alberto Schiaffino","country":"이탈리아","clubs":["AC 밀란"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":13,"name":"에두아르트 스트렐초프","original":"Eduard Streltsov","country":"소련","clubs":["FC 토르페도 모스크바"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":21,"name":"마르셀리노 캄파날","original":"Marcelino Campanal","country":"스페인","clubs":["세비야 CF"],"points":1,"votes":[0,0,0,0,1]},
+    {"rank":21,"name":"브르제티슬라프 돌레이시","original":"Břetislav Dolejší","country":"체코슬로바키아","clubs":["두클라 프라하"],"points":1,"votes":[0,0,0,0,1]},
+    {"rank":21,"name":"로제 피앙토니","original":"Roger Piantoni","country":"프랑스","clubs":["FC 낭시"],"points":1,"votes":[0,0,0,0,1]},
+    {"rank":21,"name":"케이스 레이퍼르스","original":"Kees Rijvers","country":"네덜란드","clubs":["AS 생테티엔"],"points":1,"votes":[0,0,0,0,1]}
+  ]
+}

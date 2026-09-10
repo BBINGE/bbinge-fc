@@ -113,6 +113,7 @@ const archive = defineCollection({
     coverImageCaption: z.string().optional(),
     coverImageWidth: z.number().int().positive(),
     coverImageHeight: z.number().int().positive(),
+    hideCoverImage: z.boolean().default(false),
     draft: z.boolean().default(false),
     relatedGroup: z.string().optional(),
     priorPublication: z.object({

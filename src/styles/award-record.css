@@ -1,0 +1,108 @@
+/* Awards use their own editorial palette; shared archive typography remains intact. */
+.award-record { --award-gold: #c8b84e; --award-ink: #11120e; }
+.award-record .archive-body { padding-top: 34px; }
+.award-record .award-masthead { overflow: hidden; border: 1px solid #514d31; border-radius: 18px; background: #080906; color: #f1e9bd; text-align: center; }
+.award-record .award-logo-field { display: grid; place-items: center; min-height: 292px; padding: 36px; background: radial-gradient(ellipse at 50% 100%,#242014,transparent 65%); }
+.award-record .award-logo-field img { width: 120px; height: 184px; object-fit: contain; }
+.award-record .award-masthead-copy { padding: 28px 24px 30px; border-top: 1px solid #575039; }
+.award-record .award-masthead-copy > span { display: block; font-size: 11px; letter-spacing: .17em; color: #d4c16c; }
+.award-record .award-masthead-copy > strong { display: block; margin: 9px 0 14px; font-size: clamp(30px,6vw,48px); line-height: 1.15; letter-spacing: -.03em; color: #efe2a6; }
+.award-record .award-masthead-copy > p { margin: 0; font-size: 15px; line-height: 1.8; color: #e4ddc4; }
+.award-record .award-masthead-copy > small { display: block; margin-top: 12px; font-size: 12px; color: #b2ad99; }
+.award-record .award-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 42px; }
+.award-record .award-jump a { display: block; border: 1px solid #d7cfb7; border-radius: 999px; padding: 8px 14px; color: #51471f; font-size: 13px; text-decoration: none; }
+.award-record .award-jump a:hover { background: #f6f1df; }
+.award-record .award-edition-facts { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid #dcd5bd; border-radius: 14px; overflow: hidden; margin: 28px 0; background: #faf8f0; }
+.award-record .award-edition-facts > div { padding: 20px; border-bottom: 1px solid #ded8c6; }
+.award-record .award-edition-facts > div:nth-child(odd) { border-right: 1px solid #ded8c6; }
+.award-record .award-edition-facts > div:nth-last-child(-n+2) { border-bottom: 0; }
+.award-record .award-edition-facts dt { color: #766d4c; font-size: 12px; }
+.award-record .award-edition-facts dd { margin: 7px 0 0; font-size: 16px; font-weight: 700; line-height: 1.6; }
+.award-record .award-edition-facts dd small { display: block; color: #696451; font-size: 12px; font-weight: 400; margin-top: 4px; }
+.award-record .award-podium { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; margin: 30px 0; }
+.award-record .award-podium a { display: grid; align-content: start; gap: 8px; border: 1px solid #d3c697; background: #17160f; color: #f6f0d8; padding: 20px 14px; border-radius: 12px; text-decoration: none; }
+.award-record .award-podium small { color: #d0bd77; font-size: 11px; }
+.award-record .award-podium strong { font-size: 18px; line-height: 1.4; }
+.award-record .award-podium b { font-size: 36px; line-height: 1.2; color: #eed994; }
+.award-record .award-podium span { font-size: 12px; color: #c5bfaa; }
+.award-record .archive-body .award-person-heading { border-color: #a4944f; margin-bottom: 10px; }
+.award-record .award-person-sub { color: #77705c; font-size: 14px; margin-top: 0; }
+.award-record .archive-body .award-portrait { width: 100%; max-width: 620px; margin: 28px auto 36px; }
+.award-record .award-portrait img { display: block; height: auto; object-fit: contain; }
+.award-record .archive-body .award-portrait figcaption { font-size: 12px; }
+.historical-identity { margin: 30px 0; }
+.historical-identity .identity-stack { border-radius: 15px; overflow: hidden; border: 1px solid #e0ddd3; }
+.historical-identity .identity-row { display: grid; grid-template-columns: 100px minmax(0,1fr); align-items: center; gap: 24px; padding: 22px 28px; min-height: 128px; color: #fff; border-bottom: 1px solid #ffffff40; }
+.historical-identity .identity-row:last-child { border-bottom: 0; }
+.historical-identity .identity-art { display: block; position: relative; width: 100px; height: 86px; overflow: hidden; }
+.archive-body .historical-identity .identity-art img { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); display: block; width: 100%; height: 100%; max-width: none; object-fit: contain; border-radius: 0; margin: 0; }
+.archive-body .historical-identity .identity-art-wide img { width: 178px; height: 100px; }
+.historical-identity .identity-label { display: block; font-size: 10px; letter-spacing: .12em; font-weight: 750; }
+.historical-identity strong { display: block; margin-top: 5px; font-size: 21px; line-height: 1.4; color: inherit; }
+.historical-identity small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.55; overflow-wrap: anywhere; }
+.historical-identity em { display: block; font-style: normal; font-size: 12px; line-height: 1.6; margin-top: 7px; opacity: .9; }
+.historical-identity .identity-uk { background: linear-gradient(90deg,#062765 0 13%,#fff 13% 15%,#c70f32 15% 85%,#fff 85% 87%,#062765 87%); padding-left: 36px; text-shadow: 0 1px 2px #4d061d; }
+.historical-identity .identity-england { background: linear-gradient(90deg,#c8102e 0 4%,#fff 4% 96%,#c8102e 96%); color: #991c2f; }
+.historical-identity .identity-england-team { background: #0c2454; }
+.historical-identity .identity-england-team .identity-art { width: 48px; height: 60px; justify-self: center; }
+.archive-body .historical-identity .identity-england-team .identity-art img { width: 48px; height: 70px; top: 0; transform: translateX(-50%); }
+.historical-identity .identity-blackpool { background: #ef741c; color: #291609; }
+.historical-identity .identity-blackpool .identity-art { width: 72px; height: 79px; justify-self: center; }
+.archive-body .historical-identity .identity-blackpool .identity-art img { width: 72px; height: auto; top: 0; transform: translateX(-50%); }
+.historical-identity .identity-spain { background: linear-gradient(90deg,#a81724 0 86%,#f4c400 86%); }
+.historical-identity .identity-spain-team { background: #ecc144; color: #661b1a; }
+.historical-identity .identity-france { background: linear-gradient(90deg,#142d6a 0 82%,#fff 82% 91%,#d21a32 91%); }
+.historical-identity .identity-france-team { background: #183c88; }
+.historical-identity .identity-real-madrid { background: linear-gradient(90deg,#fafafa 0 91%,#4b277b 91%); color: #302849; }
+.historical-identity .identity-reims { background: linear-gradient(90deg,#bd1730 0 91%,#fff 91%); }
+.award-record .award-score-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 26px; border-radius: 12px; background: #10110d; color: #e3d49b; margin: 26px 0; }
+.award-record .award-score-strip strong { font-size: 38px; line-height: 1; }
+.award-record .award-score-strip small { display: block; font-size: 12px; color: #c5bea1; }
+.award-record .award-achievements { display: grid; gap: 0; border: 1px solid #dbd4be; border-radius: 14px; overflow: hidden; background: #fbfaf5; margin: 26px 0; }
+.award-record .award-achievements section { padding: 22px 24px; border-bottom: 1px solid #dbd4be; }
+.award-record .award-achievements section:last-child { border-bottom: 0; }
+.award-record .award-achievements h3 { margin: 0 0 12px; color: #5e5127; font-size: 17px; }
+.award-record .award-achievements ul { list-style: disc; padding-left: 19px; margin: 0; font-size: 15px; line-height: 1.85; }
+.award-record .award-achievements li + li { margin-top: 7px; }
+.award-record .award-table-shell { overflow: hidden; border: 1px solid #d7cfb7; border-radius: 14px; margin: 28px 0; }
+.award-record .award-table-scroll { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-color: #b5a464 #f5f2e8; }
+.award-record .archive-body .award-ranking { margin: 0; width: 100%; min-width: 650px; border-collapse: separate; border-spacing: 0; font-size: 14px; }
+.award-record .award-ranking thead th { background: #191911; color: #e8d89c; font-size: 12px; letter-spacing: 0; padding: 16px 14px; white-space: nowrap; }
+.award-record .award-ranking tbody td, .award-record .award-ranking tbody th { padding: 17px 14px; vertical-align: middle; border-bottom: 1px solid #e5e0d2; font-size: 14px; letter-spacing: 0; color: #26251c; }
+.award-record .award-ranking tbody th { font-weight: 650; min-width: 152px; }
+.award-record .award-ranking tbody tr:nth-child(even) { background: #faf9f4; }
+.award-record .award-ranking tbody tr[data-award-rank="1"] { background: #f6edcb; }
+.award-record .award-ranking tbody tr:last-child > * { border-bottom: 0; }
+.award-record .award-ranking small { display: block; font-size: 11px; font-weight: 400; color: #756d56; margin-top: 4px; }
+.award-record .award-ranking td span { display: block; white-space: nowrap; }
+.award-record .award-ranking td:first-child { white-space: nowrap; font-size: 12px; }
+.award-record .award-ranking td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-size: 19px; }
+.award-record .archive-body .award-ballots { min-width: 740px; }
+.award-record .award-ballots td { font-variant-numeric: tabular-nums; text-align: center; }
+.award-record .award-table-shell details > summary { cursor: pointer; background: #f4f0e2; color: #5b4e20; font-size: 15px; font-weight: 650; padding: 20px; }
+.award-record .award-note { font-size: 13px; line-height: 1.8; color: #726a50; }
+.award-record .award-reading { display: block; padding: 24px; border: 1px solid #cabf95; border-radius: 14px; text-decoration: none; margin: 30px 0; background: #f9f6eb; color: #31291a; }
+.award-record .award-reading strong { display: block; font-size: 19px; }
+.award-record .award-reading span { display: block; font-size: 14px; margin-top: 7px; }
+.award-record .archive-body .award-cover { width: 100%; margin-top: 44px; }
+.award-record :is(a,summary,[tabindex]):focus-visible { outline: 3px solid #b6982f; outline-offset: 4px; }
+@media (max-width: 600px) {
+  .award-record .award-logo-field { min-height: 232px; padding: 28px; }
+  .award-record .award-logo-field img { width: 96px; height: 148px; }
+  .award-record .award-masthead-copy { padding: 24px 18px; }
+  .award-record .award-edition-facts > div { padding: 16px 14px; }
+  .award-record .award-edition-facts dd { font-size: 14px; }
+  .award-record .award-podium { gap: 6px; }
+  .award-record .award-podium a { padding: 16px 10px; }
+  .award-record .award-podium strong { font-size: 15px; min-height: 42px; }
+  .award-record .award-podium b { font-size: 30px; }
+  .historical-identity .identity-row { grid-template-columns: 70px minmax(0,1fr); gap: 16px; padding: 20px; min-height: 120px; }
+  .historical-identity .identity-art { width: 70px; height: 74px; }
+  .archive-body .historical-identity .identity-art-wide img { width: 130px; height: 74px; }
+  .historical-identity strong { font-size: 18px; }
+  .historical-identity .identity-uk { background: linear-gradient(90deg,#062765 0 4%,#fff 4% 5%,#c70f32 5% 95%,#fff 95% 96%,#062765 96%); }
+  .historical-identity .identity-blackpool .identity-art { width: 60px; height: 66px; }
+  .archive-body .historical-identity .identity-blackpool .identity-art img { width: 60px; }
+  .award-record .award-achievements section { padding: 20px; }
+  .award-record .award-score-strip { padding: 20px; }
+}

@@ -6,7 +6,9 @@ import RelatedAssets from '../../../../components/RelatedAssets.astro';
 import ArticleByline from '../../../../components/ArticleByline.astro';
 import ArticleProvenance from '../../../../components/ArticleProvenance.astro';
 import '../../../../styles/european-cup-record.css';
+import '../../../../styles/award-record.css';
 import { expandFootballTies } from '../../../../../scripts/render-football-ties.mjs';
+import { expandAwardRecords } from '../../../../../scripts/render-award-records.mjs';
 import { categories, getArticlePath } from '../../../../config/categories';
 import { site } from '../../../../config/site';
 import { archiveBranches } from '../../../../data/archive';
@@ -30,6 +32,8 @@ const viewPath = `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`;
 const { Content } = await render(entry);
 const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|european-cup-milestone)=/.test(entry.rendered.html);
 const footballHtml = hasFootballRecords ? expandFootballTies(entry.rendered!.html) : '';
+const hasAwardRecords = entry.rendered?.html?.includes('data-award-record=') ?? false;
+const awardHtml = hasAwardRecords ? expandAwardRecords(entry.rendered!.html) : '';
 const indexRecords = (await getCollection('archive', ({ data }) =>
   !data.draft && data.branch === entry.data.branch && data.index === entry.data.index
 )).sort((a, b) => a.data.year - b.data.year || a.id.localeCompare(b.id));
@@ -83,7 +87,7 @@ const relatedAssets = entry.data.relatedGroup
     { label: entry.data.title, href: `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/` },
   ]}
 >
-  <article class:list={['archive-article', { 'cup-record': hasFootballRecords }]}>
+  <article class:list={['archive-article', { 'cup-record': hasFootballRecords, 'award-record': hasAwardRecords }]}>
     <nav class="article-path"><a href="/archive/">삥이 아카이브</a><span>/</span><a href={`/archive/${branch.id}/${archiveIndex.slug}/`}>{archiveIndex.label}</a></nav>
     <header class="article-header">
       <p>{entry.data.eyebrow ?? (isLegend ? `${archiveIndex.label} · LEGEND` : `${entry.data.year} · ${archiveIndex.label}`)}</p>
@@ -91,20 +95,20 @@ const relatedAssets = entry.data.relatedGroup
       <span>{entry.data.description}</span>
       <ArticleByline pubDate={entry.data.pubDate} updatedDate={entry.data.updatedDate} />
     </header>
-    <ContentCover
+    {!entry.data.hideCoverImage && <ContentCover
       src={entry.data.coverImage}
       alt={entry.data.coverImageAlt}
       caption={entry.data.coverImageCaption}
       width={entry.data.coverImageWidth}
       height={entry.data.coverImageHeight}
       variant="archive"
-    />
+    />}
     {entry.data.tags.length > 0 && (
       <nav class="archive-tags" aria-label="이 글의 인물 분류">
         {entry.data.tags.map((tag) => <span>#{tag}</span>)}
       </nav>
     )}
-    <div class="archive-body">{hasFootballRecords ? <Fragment set:html={footballHtml} /> : <Content />}</div>
+    <div class="archive-body">{hasAwardRecords ? <Fragment set:html={awardHtml} /> : hasFootballRecords ? <Fragment set:html={footballHtml} /> : <Content />}</div>
     <ArticleProvenance priorPublication={entry.data.priorPublication} />
     <div class="archive-share">
       <ShareButtons
