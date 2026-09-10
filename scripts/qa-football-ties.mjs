@@ -49,12 +49,25 @@ try {
   }
   const details=page.locator('.cup-record-table');
   assert.equal(await details.count(),5);
-  for (const [index,label] of [[0,'participants'],[1,'round-of-16'],[3,'quarter-finals']]) {
+  for (const [index,label] of [[0,'participants'],[1,'round-of-16'],[2,'round-of-16-results'],[3,'quarter-finals'],[4,'quarter-finals-results']]) {
    const table=details.nth(index);
    assert.equal(await table.evaluate(el=>el.open),false);
    await table.locator('summary').focus();await page.keyboard.press('Enter');assert(await table.evaluate(el=>el.open));
    await table.screenshot({path:`${out}/${label}-${width}.png`});
+   const radii=await table.evaluate(el=>{
+    const outer=getComputedStyle(el);
+    const summary=getComputedStyle(el.querySelector(':scope > summary'));
+    const last=getComputedStyle(el.lastElementChild);
+    return {outer:parseFloat(outer.borderTopLeftRadius),summaryTop:parseFloat(summary.borderTopLeftRadius),summaryBottom:parseFloat(summary.borderBottomLeftRadius),lastBottom:parseFloat(last.borderBottomLeftRadius)};
+   });
+   assert(radii.outer>0);assert(radii.summaryTop>0);assert.equal(radii.summaryBottom,0);assert(radii.lastBottom>0);
   }
+  const resultTables=page.locator('.cup-record-table').filter({has:page.getByText(/개 대진/)});
+  assert.equal(await resultTables.count(),2);
+  for (const name of ['스포르팅 CP','FK 파르티잔','RSC 안데를레흐트','세르베트 FC','로트바이스 에센','히버니언 FC','유고덴 IF','그바르디아 바르샤바','오르후스 GF','스타드 드 랭스','SK 라피트 빈','PSV 에인트호번','AC 밀란','1. FC 자르브뤼켄']) assert(await resultTables.getByText(name,{exact:false}).count()>0);
+  const historicalSpainFlag=page.locator('img[src="/images/flags/es-1945.png"]');
+  assert(await historicalSpainFlag.count()>0);
+  assert(await historicalSpainFlag.evaluateAll(images=>images.every(img=>img.naturalWidth===120&&img.naturalHeight===80)));
   console.log(JSON.stringify({width,...data}));
  }
  const plain=await browser.newPage({javaScriptEnabled:false,viewport:{width:380,height:900}});

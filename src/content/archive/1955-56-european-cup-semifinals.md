@@ -106,10 +106,10 @@ draft: false
 
 | 구분 | 날짜 | 홈 | 결과 | 원정 | 득점 |
 | --- | --- | --- | --- | --- | --- |
-| 4강 1차전 | 1956.04.04 | 랭스 | 2-0 | 히버니언 | 르블롱 67분, 블리아르 89분 |
-| 4강 1차전 | 1956.04.19 | 레알 마드리드 | 4-2 | AC 밀란 | 레알: 리알 6분, 호세이토 25분, 올센 40분, 디스테파노 62분 / 밀란: 노르달 9분, 스키아피노 30분 |
-| 4강 2차전 | 1956.04.18 | 히버니언 | 0-1 | 랭스 | 글로바츠키 57분 |
-| 4강 2차전 | 1956.05.01 | AC 밀란 | 2-1 | 레알 마드리드 | 밀란: 달몬테 69·86분(모두 PK) / 레알: 호세이토 65분 |
+| 4강 1차전 | 1956.04.04 | 스타드 드 랭스 | 2-0 | 히버니언 FC | 르블롱 67분, 블리아르 89분 |
+| 4강 1차전 | 1956.04.19 | 레알 마드리드 | 4-2 | AC 밀란 | 레알 마드리드: 리알 6분, 호세이토 25분, 올센 40분, 디스테파노 62분 / AC 밀란: 노르달 9분, 스키아피노 30분 |
+| 4강 2차전 | 1956.04.18 | 히버니언 FC | 0-1 | 스타드 드 랭스 | 글로바츠키 57분 |
+| 4강 2차전 | 1956.05.01 | AC 밀란 | 2-1 | 레알 마드리드 | AC 밀란: 달몬테 69·86분(모두 PK) / 레알 마드리드: 호세이토 65분 |
 
 </div>
 
@@ -139,4 +139,5 @@ draft: false
 <li id="source-13"><a href="https://www.stade-de-reims.com/entrez-dans-la-legende/" target="_blank" rel="noopener noreferrer">스타드 드 랭스: 구단의 역사와 1955년 라틴컵 결승</a></li>
 <li id="source-14"><a href="https://www.stade-de-reims.com/il-y-a-70-ans-reims-etait-si-pres-du-toit-de-leurope/" target="_blank" rel="noopener noreferrer">스타드 드 랭스: 1956년 유러피언컵 결승 70주년 회고</a></li>
 <li id="source-15"><a href="https://www.magliarossonera.it/195556_ufficiali.html" target="_blank" rel="noopener noreferrer">Maglia Rossonera: 밀란의 1955-56 경기 기록과 자료 간 득점 시각 비교</a></li>
+<li id="source-16"><a href="https://www.lamoncloa.gob.es/lang/en/espana/statesymbols/paginas/index.aspx" target="_blank" rel="noopener noreferrer">스페인 정부: 1945년 10월 11일 국기 규정</a> · <a href="https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1945%E2%80%931977).svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons: 1945-1977년 스페인 국기, SanchoPanzaXXI, CC BY-SA 4.0</a></li>
 </ol></div>

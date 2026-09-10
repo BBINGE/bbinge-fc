@@ -113,16 +113,20 @@ draft: false
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>16강 8개 대진</strong><span>1·2차전과 합계 스코어 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
+<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1955-56 유러피언컵 16강 8개 대진 결과 표">
+
 | 대진 | 1차전 | 2차전 | 합계 | 진출 |
 |---|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> 스포르팅 vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> 파르티잔 | 3-3 | 2-5 | 5-8 | 파르티잔 |
-| <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 vs <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> 안데를레흐트 | 6-3 | 4-1 | 10-4 | 뵈뢰시 로보고 |
-| <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 세르베트 vs <img class="cup-flag" src="/images/flags/es-franco-civil.svg" width="28" height="20" alt="스페인 국기" loading="lazy" /> 레알 마드리드 | 0-2 | 0-5 | 0-7 | 레알 마드리드 |
-| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 에센 vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 | 0-4 | 1-1 | 1-5 | 히버니언 |
-| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 vs <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> 그바르디아 | 0-0 | 4-1 | 4-1 | 유고덴 |
-| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 오르후스 vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 랭스 | 0-2 | 2-2 | 2-4 | 랭스 |
-| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> 라피트 vs <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> PSV | 6-1 | 0-1 | 6-2 | 라피트 |
-| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> 밀란 vs <img class="cup-flag" src="/images/flags/saar-1947.svg" width="28" height="20" alt="자틀란트 국기" loading="lazy" /> 자르브뤼켄 | 3-4 | 4-1 | 7-5 | 밀란 |
+| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> 스포르팅 CP vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 파르티잔 | 3-3 | 2-5 | 5-8 | FK 파르티잔 |
+| <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 vs <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> RSC 안데를레흐트 | 6-3 | 4-1 | 10-4 | 뵈뢰시 로보고 |
+| <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 세르베트 FC vs <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 | 0-2 | 0-5 | 0-7 | 레알 마드리드 |
+| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 로트바이스 에센 vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 FC | 0-4 | 1-1 | 1-5 | 히버니언 FC |
+| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 IF vs <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> 그바르디아 바르샤바 | 0-0 | 4-1 | 4-1 | 유고덴 IF |
+| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 오르후스 GF vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 스타드 드 랭스 | 0-2 | 2-2 | 2-4 | 스타드 드 랭스 |
+| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> SK 라피트 빈 vs <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> PSV 에인트호번 | 6-1 | 0-1 | 6-2 | SK 라피트 빈 |
+| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 밀란 vs <img class="cup-flag" src="/images/flags/saar-1947.svg" width="28" height="20" alt="자틀란트 국기" loading="lazy" /> 1. FC 자르브뤼켄 | 3-4 | 4-1 | 7-5 | AC 밀란 |
+
+</div>
 
 <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
@@ -190,12 +194,16 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>8강 4개 대진</strong><span>결과와 4강 진출팀 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
+<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1955-56 유러피언컵 8강 4개 대진 결과 표">
+
 | 대진 | 1차전 | 2차전 | 합계 | 진출 |
 |---|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 | 1-3 | 0-1 | 1-4 | 히버니언 |
-| <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 랭스 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 | 4-2 | 4-4 | 8-6 | 랭스 |
-| <img class="cup-flag" src="/images/flags/es-franco-civil.svg" width="28" height="20" alt="스페인 국기" loading="lazy" /> 레알 마드리드 vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> 파르티잔 | 4-0 | 0-3 | 4-3 | 레알 마드리드 |
-| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> 라피트 vs <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> 밀란 | 1-1 | 2-7 | 3-8 | 밀란 |
+| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 IF vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 FC | 1-3 | 0-1 | 1-4 | 히버니언 FC |
+| <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 스타드 드 랭스 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 | 4-2 | 4-4 | 8-6 | 스타드 드 랭스 |
+| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 파르티잔 | 4-0 | 0-3 | 4-3 | 레알 마드리드 |
+| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> SK 라피트 빈 vs <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 밀란 | 1-1 | 2-7 | 3-8 | AC 밀란 |
+
+</div>
 
 <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
@@ -270,6 +278,7 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 <li id="source-26"><a href="https://www.acmilan.com/it/club/palmares/uefa-champions-league" target="_blank" rel="noopener noreferrer">AC 밀란의 유러피언컵 기록</a></li>
 <li id="source-27"><a href="https://commons.wikimedia.org/wiki/File:Vasco_da_Gama_en_el_Sudamericano_de_Campeones,_Estadio,_1948-04-03_(255).jpg" target="_blank" rel="noopener noreferrer">《에스타디오》 제255호 바스쿠 사진: 사진가 미상, 칠레 공유문화유산 표기</a></li>
 <li id="source-28"><a href="https://www.wolves.co.uk/news/features/20241213-honved-54-the-night-european-football-was-born-at-molineux/" target="_blank" rel="noopener noreferrer">Wolves: 1954년 혼베드전 공식 회고와 역사 사진</a></li>
+<li id="source-29"><a href="https://www.lamoncloa.gob.es/lang/en/espana/statesymbols/paginas/index.aspx" target="_blank" rel="noopener noreferrer">스페인 정부: 1945년 10월 11일 국기 규정</a> · <a href="https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1945%E2%80%931977).svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons: 1945-1977년 스페인 국기, SanchoPanzaXXI, CC BY-SA 4.0</a></li>
 </ol></div>
 
 

@@ -14,6 +14,7 @@ for (let i = 0; i < 12; i++) {
 }
 assert(resolveClub('rapid','1955-56').crest.src.endsWith('rapid-supplied.jfif'));
 assert(resolveClub('milan','1955-56').crest.src.endsWith('milan-1946.svg'));
+assert.equal(resolveClub('real-madrid','1955-56').flag.src, '/images/flags/es-1945.png');
 assert.throws(() => resolveClub('milan','1988-89'), /Unreviewed historical flag/);
 assert.throws(() => resolveClub('unknown','1955-56'), /Unknown historical club/);
 assert.throws(() => renderTie('../escape','match-1'), /Invalid/);
@@ -23,6 +24,8 @@ const participantTable = renderEuropeanCupMilestone('1955-56', 'competition');
 assert.equal((participantTable.match(/class="cup-entrant-club"/g) ?? []).length, 16);
 assert.equal((participantTable.match(/통산 첫 유러피언컵 출전/g) ?? []).length, 16);
 assert(participantTable.includes('1955년 리그 최종 2위·미트로파컵 우승'));
+assert(participantTable.includes('레알 마드리드'));
+assert(!participantTable.includes('레알 마드리드 CF'));
 const roundOf16Table = renderEuropeanCupMilestone('1955-56', 'round-of-16');
 assert.equal((roundOf16Table.match(/class="cup-entrant-club"/g) ?? []).length, 16);
 assert.equal((roundOf16Table.match(/통산 첫 16강 진출/g) ?? []).length, 16);
@@ -38,9 +41,18 @@ assert.equal(expandFootballTies('<h3>그대로 보존</h3>'),'<h3>그대로 보�
 const source=readFileSync(new URL('../src/content/archive/1955-56-european-cup.md',import.meta.url),'utf8');
 assert.equal((source.match(/data-football-tie=/g)??[]).length,12);
 assert.equal((source.match(/data-european-cup-milestone=/g)??[]).length,3);
+assert.equal((source.match(/class="cup-result-scroll"/g)??[]).length,2);
 assert(!source.includes('background-position'));
+for (const name of ['스포르팅 CP','FK 파르티잔','RSC 안데를레흐트','세르베트 FC','로트바이스 에센','히버니언 FC','유고덴 IF','그바르디아 바르샤바','오르후스 GF','스타드 드 랭스','SK 라피트 빈','PSV 에인트호번','AC 밀란','1. FC 자르브뤼켄']) assert(source.includes(name));
+assert(source.includes('/images/flags/es-1945.png'));
+assert(!source.includes('/images/flags/es-franco-civil.svg'));
 const semifinalSource=readFileSync(new URL('../src/content/archive/1955-56-european-cup-semifinals.md',import.meta.url),'utf8');
 assert.equal((semifinalSource.match(/data-european-cup-milestone=/g)??[]).length,1);
+for (const name of ['스타드 드 랭스','히버니언 FC','레알 마드리드','AC 밀란']) assert(semifinalSource.includes(name));
+assert(!semifinalSource.includes('| 랭스 |'));
+assert(!semifinalSource.includes('| 히버니언 |'));
+assert(!/[|/]\s*레알:/.test(semifinalSource));
+assert(!/[|/]\s*밀란:/.test(semifinalSource));
 const cupHistory=JSON.parse(readFileSync(new URL('../src/data/european-cup-seasons.json',import.meta.url),'utf8'));
 const cupTies=JSON.parse(readFileSync(new URL('../src/data/cup-ties/1955-56-european-cup.json',import.meta.url),'utf8'));
 const firstSeason=cupHistory.seasons[0];

@@ -136,7 +136,14 @@
         "seasons": [
           "1955-56"
         ],
-        "src": "/images/flags/es-franco-civil.svg"
+        "src": "/images/flags/es-1945.png",
+        "period": "1945-1977",
+        "sources": [
+          "https://www.lamoncloa.gob.es/lang/en/espana/statesymbols/paginas/index.aspx",
+          "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1945%E2%80%931977).svg"
+        ],
+        "license": "CC BY-SA 4.0",
+        "attribution": "SanchoPanzaXXI, Wikimedia Commons"
       }
     ],
     "crests": [
@@ -151,7 +158,7 @@
         ]
       }
     ],
-    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+    "review": "1955-56 당시 1945년 규정의 성 요한의 독수리 문장 국기 적용. 다른 시즌은 별도 대조 후 seasons에 추가."
   },
   "rot-weiss-essen": {
     "name": "로트바이스 에센",

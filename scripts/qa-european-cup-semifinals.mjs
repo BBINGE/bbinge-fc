@@ -39,6 +39,17 @@ try {
     await page.keyboard.press('Enter');
     assert(await details.evaluate(el => el.open));
     await details.screenshot({ path: `${out}/table-${width}.png` });
+    for (const name of ['스타드 드 랭스', '히버니언 FC', '레알 마드리드', 'AC 밀란']) assert(await details.getByText(name, { exact: true }).count() > 0);
+    const radii = await details.evaluate(el => {
+      const outer = getComputedStyle(el);
+      const summary = getComputedStyle(el.querySelector(':scope > summary'));
+      const last = getComputedStyle(el.lastElementChild);
+      return { outer: parseFloat(outer.borderTopLeftRadius), summaryTop: parseFloat(summary.borderTopLeftRadius), summaryBottom: parseFloat(summary.borderBottomLeftRadius), lastBottom: parseFloat(last.borderBottomLeftRadius) };
+    });
+    assert(radii.outer > 0);
+    assert(radii.summaryTop > 0);
+    assert.equal(radii.summaryBottom, 0);
+    assert(radii.lastBottom > 0);
     const checks = await page.evaluate(() => ({
       overflow: document.documentElement.scrollWidth > innerWidth,
       clipped: [...document.querySelectorAll('.cup-side,.cup-leg-results dt,.cup-leg-results dd')].filter(el => el.scrollWidth > el.clientWidth + 1).length,
