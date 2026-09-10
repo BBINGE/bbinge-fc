@@ -94,8 +94,6 @@ relatedGroup: 'european-cup-1955-56'
 
 그러니 이 경기는 흔히 말하는 ‘코파 더비’보다 조금 이상한 시간에 놓여 있었다. 코파는 미래의 동료들을 상대로 랭스의 첫 유럽 우승을 만들어야 했고, 레알은 곧 자기 선수가 될 공격수를 막아야 했다. 오늘날의 이적 발표식처럼 미래의 유니폼이 현재의 충성을 대신해주지는 않았다. 코파가 훗날 랭스의 축구를 ‘샴페인 풋볼’이라고 부른 까닭도 이 팀이 거쳐 가는 발판이어서가 아니라, 자신이 뛰어본 가장 아름다운 공격 축구 가운데 하나였기 때문이다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 
-<figure class="european-cup-photo"><img src="/images/highlights/1955-56-european-cup-final-kopa-di-stefano.jpg" alt="스타드 드 랭스의 레몽 코파와 레알 마드리드의 알프레도 디스테파노가 악수하는 편집 이미지" loading="lazy" width="966" height="966" /><figcaption>레몽 코파와 알프레도 디스테파노. 코파는 이 결승 뒤 레알 마드리드로 옮겨 1957·1958·1959년 세 차례 유러피언컵 우승을 경험했다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a></figcaption></figure>
-
 ## 후반 62분: 이달고가 다시 랭스를 앞세우다
 
 <section class="highlight-scene european-cup-scene">
@@ -167,6 +165,8 @@ relatedGroup: 'european-cup-1955-56'
 
 역사는 결과를 안 뒤에는 곧잘 직선이 된다. 1956년의 영상은 그 직선을 다시 구부린다. 레알 마드리드의 유러피언컵 5연패는 첫날부터 보이던 미래가 아니었다. 첫날에는 그저, 79분에 처음 앞선 결승전이 있었다.
 
+<figure class="european-cup-photo"><img src="/images/highlights/1955-56-european-cup-final-kopa-di-stefano.jpg" alt="스타드 드 랭스의 레몽 코파와 레알 마드리드의 알프레도 디스테파노가 악수하는 편집 이미지" loading="lazy" width="966" height="966" /><figcaption>레몽 코파와 알프레도 디스테파노. 코파는 이 결승 뒤 레알 마드리드로 옮겨 1957·1958·1959년 세 차례 유러피언컵 우승을 경험했다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a></figcaption></figure>
+
 <div class="source-notes">
   <h2>영상과 참고 자료</h2>
   <ol>
@@ -180,7 +180,5 @@ relatedGroup: 'european-cup-1955-56'
     <li id="source-8"><a href="https://www.uefa.com/news-media/news/01ee-0e76fea7895f-3c3039e41339-1000--goals-not-coal-for-kopa/">“Goals, not coal, for Kopa”</a>, UEFA. 코파가 회고한 랭스의 공격 축구와 레알 이적.</li>
     <li id="source-9"><a href="https://www.uefa.com/uefachampionsleague/news/0237-0e966287a93d-1e5b23df67db-1000--european-football-mourns-madrid-great-kopa/">“European football mourns Madrid great Kopa”</a>, UEFA. 코파의 1957·1958·1959년 유러피언컵 우승.</li>
     <li><a href="https://www.uefa.com/MultimediaFiles/Download/EuroExperience/uefaorg/Publications/01/53/55/84/1535584_DOWNLOAD.pdf">“UEFA Champions League Statistics Handbook 2011/12”</a>, UEFA. 공식 선발 명단·주심·관중 38,239명 대조.</li>
-    <li>경기 영상: 1956년 6월 13일 결승전 기록 영상 발췌, 12편. 득점 시각은 UEFA 경기 기록을 따른다. 득점 외 장면의 배열은 아래 네이버 공개본을 따르며 정확한 촬영 시각은 확인되지 않는다.</li>
-    <li><a href="https://blog.naver.com/sho3603/223467845654">“1955-56 유러피언컵 결승전”</a>, 삥이N스포츠_Official. 이 글의 이전 공개본과 기록 영상.</li>
   </ol>
 </div>
