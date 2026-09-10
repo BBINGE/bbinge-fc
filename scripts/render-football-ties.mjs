@@ -13,7 +13,10 @@ const stageMeta = {
   competition: { label: '대회 출전', noun: '출전' },
   'round-of-16': { label: '16강 진출', noun: '16강 진출' },
   'quarter-finals': { label: '8강 진출', noun: '8강 진출' },
-  'semi-finals': { label: '4강 진출', noun: '4강 진출' }
+  'semi-finals': { label: '4강 진출', noun: '4강 진출' },
+  final: { label: '결승 진출', noun: '결승 진출' },
+  champions: { label: '대회 우승', noun: '유러피언컵 우승' },
+  'runners-up': { label: '대회 준우승', noun: '유러피언컵 준우승' }
 };
 
 function ordinal(count) {
@@ -100,7 +103,7 @@ export function renderEuropeanCupMilestone(season, stage) {
 
 // Build-time expansion only: no client script, remote fetch or runtime dependency.
 export function expandFootballTies(html) {
-  const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|round-of-16|quarter-finals|semi-finals)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
+  const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|round-of-16|quarter-finals|semi-finals|final|champions|runners-up)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
   const expanded = milestones.replace(/<div data-football-tie="([a-z0-9-]+):(match-\d+)"><\/div>/g, (_, collection, id) => renderTie(collection, id));
   if (expanded.includes('data-football-tie=') || expanded.includes('data-european-cup-milestone=')) throw new Error('Malformed football archive placeholder');
   return expanded;

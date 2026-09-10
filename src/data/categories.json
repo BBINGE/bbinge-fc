@@ -50,6 +50,7 @@
       "parentSlug": null
     },
     { "slug": "fifa-world-cup", "label": "FIFA 월드컵", "fullLabel": "FIFA 월드컵 하이라이트", "parentSlug": "highlights" },
+    { "slug": "european-cup", "label": "유러피언컵", "fullLabel": "유러피언컵 하이라이트", "parentSlug": "highlights" },
     {
       "slug": "squads",
       "label": "축쿼드",

@@ -34,7 +34,12 @@ assert.equal((quarterFinalTable.match(/통산 첫 8강 진출/g) ?? []).length, 
 const semifinalTable = renderEuropeanCupMilestone('1955-56', 'semi-finals');
 assert.equal((semifinalTable.match(/class="cup-entrant-club"/g) ?? []).length, 4);
 assert.equal((semifinalTable.match(/통산 첫 4강 진출/g) ?? []).length, 4);
-assert.throws(() => renderEuropeanCupMilestone('1955-56', 'final'), /Invalid/);
+const finalTable = renderEuropeanCupMilestone('1955-56', 'final');
+assert.equal((finalTable.match(/class="cup-entrant-club"/g) ?? []).length, 2);
+assert.equal((finalTable.match(/통산 첫 결승 진출/g) ?? []).length, 2);
+assert(renderEuropeanCupMilestone('1955-56', 'champions').includes('통산 첫 유러피언컵 우승'));
+assert(renderEuropeanCupMilestone('1955-56', 'runners-up').includes('통산 첫 유러피언컵 준우승'));
+assert(expandFootballTies('<div data-european-cup-milestone="1955-56:champions"></div>').includes('레알 마드리드 CF'));
 assert(expandFootballTies('<div data-european-cup-milestone="1955-56:quarter-finals"></div>').includes('통산 첫 8강 진출'));
 assert.equal(expandFootballTies('<h3>그대로 보존</h3>'),'<h3>그대로 보존</h3>');
 const source=readFileSync(new URL('../src/content/archive/1955-56-european-cup.md',import.meta.url),'utf8');

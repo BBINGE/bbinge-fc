@@ -38,7 +38,10 @@
           "real-madrid", "partizan",
           "rapid", "milan"
         ],
-        "semi-finals": ["reims", "hibernian", "real-madrid", "milan"]
+        "semi-finals": ["reims", "hibernian", "real-madrid", "milan"],
+        "final": ["real-madrid", "reims"],
+        "champions": ["real-madrid"],
+        "runners-up": ["reims"]
       }
     }
   ]

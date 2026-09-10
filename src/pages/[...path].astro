@@ -27,6 +27,8 @@ import HistoryCategoryPage from '../components/HistoryCategoryPage.astro';
 import FashionProfileCard from '../components/FashionProfileCard.astro';
 import { archiveBranches } from '../data/archive';
 import { cultureSections, getCultureSectionPath } from '../config/culture';
+import '../styles/european-cup-record.css';
+import { expandFootballTies } from '../../scripts/render-football-ties.mjs';
 
 const responsiveCoverImages: Record<string, { webpSrcset: string; sizes: string }> = {
   '/images/culture/real-madrid-2627-home/campaign-trio.jpg': {
@@ -75,6 +77,8 @@ let articleView:
       related: CollectionEntry<'articles'>[];
       relatedAssets: Array<{ href: string; title: string; description: string; label: string; coverImage?: string }>;
       faqSchema: object | null;
+      hasFootballRecords: boolean;
+      footballHtml: string;
     }
   | null = null;
 
@@ -98,6 +102,8 @@ if (props.kind === 'category') {
   const { category, faq } = entry.data;
   const meta = categories[category];
   const { Content } = await render(entry);
+  const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|european-cup-milestone)=/.test(entry.rendered.html);
+  const footballHtml = hasFootballRecords ? expandFootballTies(entry.rendered!.html) : '';
   const related = (
     await getCollection(
       'articles',
@@ -133,7 +139,7 @@ if (props.kind === 'category') {
           })),
         }
       : null;
-  articleView = { entry, meta, Content, related, relatedAssets, faqSchema };
+  articleView = { entry, meta, Content, related, relatedAssets, faqSchema, hasFootballRecords, footballHtml };
 }
 ---
 
@@ -235,7 +241,7 @@ if (props.kind === 'category') {
     {articleView.faqSchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(articleView.faqSchema)} />}
 
     <div class:list={["mx-auto px-4 md:px-6 py-8 md:py-12", articleView.entry.data.category === 'culture' ? 'max-w-[1080px] fashion-article-shell' : articleView.entry.data.category === 'pilgrimage' ? 'max-w-[1080px] journey-article-shell' : 'max-w-[920px]']}>
-      <article class:list={[{ 'fashion-article': articleView.entry.data.category === 'culture', 'journey-article': articleView.entry.data.category === 'pilgrimage' }]}>
+      <article class:list={[{ 'fashion-article': articleView.entry.data.category === 'culture', 'journey-article': articleView.entry.data.category === 'pilgrimage', 'cup-record': articleView.hasFootballRecords }]}>
         <header class="article-heading">
           {articleView.entry.data.category === 'culture' && articleView.entry.data.cultureSection ? (
             <a class="fashion-article__hall" href={getCultureSectionPath(articleView.entry.data.cultureSection)}>{cultureSections[articleView.entry.data.cultureSection].floor}F · {cultureSections[articleView.entry.data.cultureSection].label}</a>
@@ -263,7 +269,7 @@ if (props.kind === 'category') {
         )}
         <div class="article-body text-[17px] md:text-[18px] leading-[1.9] text-[var(--bbfc-ink)]">
           {articleView.entry.data.fashionProfile && <FashionProfileCard profile={articleView.entry.data.fashionProfile} />}
-          <articleView.Content />
+          {articleView.hasFootballRecords ? <Fragment set:html={articleView.footballHtml} /> : <articleView.Content />}
         </div>
         {['grande-torino-wm-system-tactics', 'grande-torino-card-news', 'why-grande-torino-did-not-remain', 'turin-juventus-walk-of-fame-travel-10'].includes(articleView.entry.id) && (
           <TorinoReadingRoute currentId={articleView.entry.id} />
@@ -983,6 +989,16 @@ if (props.kind === 'category') {
   .article-body :global(.match-board dl div) { padding: 12px 10px; background: rgba(8,26,52,.72); text-align: center; }
   .article-body :global(.match-board dt) { color: rgba(255,255,255,.62); font-size: 12px; }
   .article-body :global(.match-board dd) { margin-top: 4px; font-size: 12px; font-weight: 620; }
+  .article-body :global(.european-cup-title-card) { position: relative; isolation: isolate; overflow: hidden; margin: 10px 0 26px; padding: 34px 38px 38px; border: 1px solid rgba(80,158,255,.4); border-radius: 18px; background: linear-gradient(128deg,#06103f 3%,#102ca2 48%,#39128c 76%,#071340 100%); color: #fff; box-shadow: 0 20px 48px rgba(6,18,73,.18); }
+  .article-body :global(.european-cup-title-card::before) { content: ""; position: absolute; z-index: -1; inset: 0; background: radial-gradient(circle at 9% 18%,rgba(25,214,255,.35),transparent 35%),radial-gradient(circle at 91% 82%,rgba(218,39,255,.24),transparent 38%); }
+  .article-body :global(.european-cup-title-card::after) { content: ""; position: absolute; z-index: -1; right: -40px; bottom: -90px; width: 340px; height: 340px; border: 1px solid rgba(255,255,255,.12); border-radius: 50%; box-shadow: 0 0 0 36px rgba(255,255,255,.035),0 0 0 78px rgba(255,255,255,.025); }
+  .article-body :global(.european-cup-title-card span) { display: block; color: #78dcff; font-size: 11px; line-height: 1.4; font-weight: 800; letter-spacing: .14em; }
+  .article-body :global(.european-cup-title-card strong) { display: block; margin-top: 17px; font-size: clamp(42px,7vw,72px); line-height: .98; font-weight: 800; letter-spacing: -.06em; }
+  .article-body :global(.european-cup-title-card small) { display: block; margin-top: 10px; color: rgba(255,255,255,.58); font-size: 12px; line-height: 1.4; font-weight: 720; letter-spacing: .22em; }
+  .article-body :global(.european-cup-match-board) { background: radial-gradient(circle at 8% 15%,rgba(25,214,255,.28),transparent 35%),radial-gradient(circle at 92% 85%,rgba(218,39,255,.2),transparent 38%),linear-gradient(132deg,#06103f,#102ca2 55%,#31127f); box-shadow: 0 18px 42px rgba(6,18,73,.16); }
+  .article-body :global(.european-cup-match-board > p) { color: #78dcff; }
+  .article-body :global(.european-cup-match-board .match-board-vs) { color: #fff; font-family: var(--font-sans); font-size: 30px; font-weight: 780; }
+  .article-body :global(.european-cup-match-board dl div) { background: rgba(3,10,50,.56); }
   .article-body :global(.record-banner) { margin: 30px 0 54px; padding: 27px 30px 29px; border-top: 3px solid var(--bbfc-blue); background: linear-gradient(135deg, #111927, #1b2a40); color: #fff; font-family: var(--font-sans); text-align: center; }
   .article-body :global(.record-banner > span) { display: block; color: rgba(255,255,255,.64); font-size: 12px; line-height: 1.4; font-weight: 720; letter-spacing: .14em; }
   .article-body :global(.record-banner > strong) { display: block; margin-top: 10px; font-family: var(--font-sans); font-size: clamp(30px, 5vw, 48px); line-height: 1.08; font-weight: 780; letter-spacing: -.045em; }
@@ -1035,6 +1051,36 @@ if (props.kind === 'category') {
   .article-body :global(.world-cup-transition) { position: relative; overflow: hidden; margin: 82px 0; border-radius: 20px; color: #fff; isolation: isolate; box-shadow: 0 20px 48px rgba(6, 13, 22, .17); }
   .article-body :global(.world-cup-transition::before) { content: ''; position: absolute; inset: 0; z-index: -2; background: radial-gradient(circle at 12% 18%, rgba(104, 176, 226, .18), transparent 30%), radial-gradient(circle at 90% 84%, rgba(204, 166, 91, .15), transparent 32%), linear-gradient(145deg, #152b43 0%, #08111d 62%, #05090e 100%); }
   .article-body :global(.world-cup-transition::after) { content: ''; position: absolute; inset: 0; z-index: -1; opacity: .2; background-image: repeating-linear-gradient(0deg, transparent 0 3px, rgba(255,255,255,.04) 3px 4px), radial-gradient(ellipse at center, transparent 35%, #000 120%); pointer-events: none; }
+  .article-body :global(.european-cup-transition) { position: relative; isolation: isolate; overflow: hidden; margin: 82px 0; border: 1px solid rgba(121,203,255,.32); border-radius: 20px; color: #fff; background: #061249; box-shadow: 0 22px 52px rgba(6,18,73,.2); }
+  .article-body :global(.european-cup-transition::before) { content: ""; position: absolute; z-index: -2; inset: 0; background: radial-gradient(circle at 10% 16%,rgba(25,214,255,.32),transparent 35%),radial-gradient(circle at 92% 84%,rgba(218,39,255,.22),transparent 40%),linear-gradient(128deg,#06103f 3%,#102ca2 48%,#39128c 76%,#071340 100%); }
+  .article-body :global(.european-cup-transition::after) { content: ""; position: absolute; z-index: -1; inset: 0; opacity: .2; background-image: radial-gradient(circle at center,rgba(255,255,255,.5) 0 1px,transparent 1.5px); background-size: 42px 42px; mask-image: linear-gradient(120deg,#000,transparent 72%); }
+  .article-body :global(.european-cup-half-time) { padding: 27px 34px 23px; }
+  .article-body :global(.european-cup-half-time > p) { margin: 0; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.16); color: rgba(255,255,255,.5); font-size: 12px; line-height: 1.4; letter-spacing: .16em; text-align: center; }
+  .article-body :global(.european-cup-transition .transition-kicker span),
+  .article-body :global(.european-cup-transition .transition-numbers em) { color: #78dcff; }
+  .article-body :global(.european-cup-photo) { overflow: hidden; border: 1px solid rgba(83,144,255,.28); border-radius: 18px; background: #061249; box-shadow: 0 18px 42px rgba(6,18,73,.14); }
+  .article-body :global(.european-cup-photo img) { display: block; width: 100%; border-radius: 0; }
+  .article-body :global(.european-cup-photo figcaption) { margin: 0; padding: 13px 16px 15px; color: #d9e8ff; background: linear-gradient(110deg,#061249,#102c8c); text-align: left; }
+  .article-body :global(.european-cup-scene header span) { color: #245ce7; }
+  .article-body :global(.european-cup-scene .highlight-clip) { aspect-ratio: 16 / 10; background: #061249; object-fit: contain; box-shadow: 0 13px 32px rgba(6,18,73,.13); }
+  .article-body :global(.european-cup-trophy-scene) { padding: 30px; border: 1px solid rgba(83,144,255,.28); border-radius: 20px; background: linear-gradient(145deg,rgba(11,49,151,.08),rgba(61,17,151,.04)); }
+  .article-body :global(.european-cup-full-time) { min-height: 500px; padding: 31px 34px 28px; display: flex; flex-direction: column; justify-content: space-between; background: #061249; }
+  .article-body :global(.european-cup-full-time::before) { background-image: linear-gradient(90deg,rgba(3,10,45,.97) 0%,rgba(5,20,83,.86) 43%,rgba(14,52,163,.18) 78%,rgba(35,12,100,.58) 100%),url('/images/highlights/1955-56-european-cup-final-cover.jpg'); background-position: center; background-size: cover; filter: contrast(1.08) saturate(.65); }
+  .article-body :global(.european-cup-full-time .poster-copy small) { color: #78dcff; }
+  .article-body :global(.european-cup-full-time .poster-copy strong) { color: #fff; }
+  .article-body :global(.european-cup-full-time .poster-winner) { border-top-color: rgba(120,220,255,.28); }
+  .cup-record .article-body :global(.cup-stage-scroll) { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; }
+  .cup-record .article-body :global(.cup-stage-scroll table) { display: table; table-layout: fixed; width: 100%; min-width: 520px; margin: 18px 0 34px; background: #fff; white-space: normal; }
+  .cup-record .article-body :global(.cup-stage-scroll th:first-child) { width: 48%; }
+  .cup-record .article-body :global(.cup-stage-scroll th:nth-child(2)) { width: 27%; }
+  .cup-record .article-body :global(.cup-stage-scroll th:last-child) { width: 25%; }
+  .cup-record .article-body :global(.cup-stage-scroll th) { padding: 13px 12px; background: linear-gradient(110deg,#eef5ff,#f4f1ff); color: #40516a; font-size: 12px; font-weight: 750; }
+  .cup-record .article-body :global(.cup-stage-scroll td) { padding: 14px 12px; vertical-align: middle; font-size: 14px; }
+  .cup-record .article-body :global(.cup-stage-scroll td:last-child) { white-space: nowrap; color: #1749c6; font-weight: 760; }
+  .cup-record .article-body :global(.cup-entrant-club),
+  .cup-record .article-body :global(.cup-entrant-country) { display: flex; align-items: center; gap: 8px; }
+  .cup-record .article-body :global(.cup-entrant-club img) { flex: none; width: 32px; height: 32px; margin: 0; border: 0; border-radius: 0; background: #fff; object-fit: contain; }
+  .cup-record .article-body :global(.cup-entrant-country img) { flex: none; width: 20px; height: 14px; margin: 0; border: 0; border-radius: 0; object-fit: contain; }
   .article-body :global(.transition-kicker) { display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 12px; line-height: 1.4; font-weight: 750; letter-spacing: .13em; }
   .article-body :global(.transition-kicker span) { color: #9ed5f5; }
   .article-body :global(.transition-kicker b) { color: rgba(255,255,255,.56); font-size: inherit; }
@@ -1149,6 +1195,9 @@ if (props.kind === 'category') {
     .article-body :global(.match-board-teams b) { font-size: 36px; }
     .article-body :global(.match-board-teams em) { max-width: 72px; padding: 4px 5px; font-size: 11px; line-height: 1.2; white-space: normal; text-align: center; }
     .article-body :global(.match-board dl) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .article-body :global(.european-cup-title-card) { padding: 28px 22px 31px; border-radius: 16px; }
+    .article-body :global(.european-cup-title-card strong) { font-size: 45px; }
+    .article-body :global(.european-cup-match-board .match-board-vs) { font-size: 22px; }
     .article-body :global(.record-banner) { margin: 24px 0 46px; padding: 23px 15px 25px; }
     .article-body :global(.record-banner > strong) { font-size: 31px; }
     .article-body :global(.record-grid) { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 46px; }
@@ -1185,6 +1234,9 @@ if (props.kind === 'category') {
     .article-body :global(.scene-chapter .highlight-clip-grid) { margin-top: 23px; }
     .article-body :global(.scene-chapter .scene-afterword) { margin-top: 25px; padding: 18px 17px; }
     .article-body :global(.world-cup-transition) { margin: 62px 0; border-radius: 16px; }
+    .article-body :global(.european-cup-transition) { margin: 62px 0; border-radius: 16px; }
+    .article-body :global(.european-cup-half-time) { padding: 23px 16px 19px; }
+    .article-body :global(.european-cup-trophy-scene) { padding: 20px 14px; }
     .article-body :global(.half-time-card) { padding: 22px 15px 19px; }
     .article-body :global(.transition-kicker) { gap: 12px; font-size: 12px; }
     .article-body :global(.transition-score) { gap: 10px; margin: 28px auto 22px; }
