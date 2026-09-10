@@ -151,11 +151,13 @@ draft: false
 
 <h2 id="ranking">1956년 발롱도르 전체 랭킹</h2>
 
-24명이 점수를 받았다. 공동 9위가 세 명이므로 그다음은 12위, 공동 13위가 여덟 명이므로 그다음은 21위다. 아래 국적은 수상 기록의 분류를 따르며, 한 해에 소속이 바뀐 코파와 오크비르크는 두 구단을 함께 적었다. 당시 CDNA 소피아를 현대의 CSKA 명칭으로 바꾸거나, FC 낭시 소속이던 피앙토니를 훗날의 랭스로 옮겨 적지 않는다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-13">[13]</a>
+24명이 점수를 받았다. 공동 9위가 세 명이므로 그다음은 12위, 공동 13위가 여덟 명이므로 그다음은 21위다. 한 해에 소속이 바뀐 코파와 오크비르크는 두 구단을 함께 적었다. 당시 CDNA 소피아를 현대의 CSKA 명칭으로 바꾸거나, FC 낭시 소속이던 피앙토니를 훗날의 랭스로 옮겨 적지 않는다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-13">[13]</a>
+
+국적이 달라진 선수는 원국적을 먼저, 이후 취득한 국적을 다음 줄에 적었다. 디스테파노는 아르헨티나·스페인, 코파와 시소브스키는 폴란드·프랑스, 몬투오리는 아르헨티나·이탈리아, 스키아피노는 우루과이·이탈리아다. 1956년까지의 국적 이력을 보여주는 표기이며, 두 국적의 동시 보유를 뜻하지는 않는다. <a class="cite" href="#source-11">[11]</a><a class="cite" href="#source-15">[15]</a><a class="cite" href="#source-16">[16]</a><a class="cite" href="#source-17">[17]</a>
 
 <div class="award-table-shell"><div data-award-record="1956-ballon-dor:ranking"></div></div>
 
-<p class="award-note">* 줄리뉴는 수상 기록에서 이탈리아로 분류되어 있다. 브라질 대표팀에서 뛴 경력과는 구별되는 표기다. 이 분류만으로 이탈리아 대표팀 경력이나 귀화의 구체적 경위를 단정하지 않는다. 표는 점수를 받은 24명의 순위이며, ‘공동 순위’는 동점자를 별도 기준으로 임의 분리하지 않은 결과다.</p>
+<p class="award-note">* 줄리뉴는 브라질 선수로 표기했다. RSSSF의 1956년 수상 기록에는 이탈리아로 분류되어 있으나, 이 분류만으로 이탈리아 국적 취득까지 확인되는 것은 아니다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-18">[18]</a></p>
 
 <div class="award-table-shell"><details><summary>기자들이 매긴 1~5위별 투표 내역 보기</summary><div data-award-record="1956-ballon-dor:ballots"></div></details></div>
 
@@ -189,5 +191,9 @@ draft: false
 <li id="source-12">《레키프》, <a href="https://www.lequipe.fr/fiche/raymond-kopa/232462" target="_blank" rel="noopener noreferrer">레몽 코파 시즌별 기록</a>; <a href="https://archivesreimsfootball.fr/personnalites/kopa-raymond" target="_blank" rel="noopener noreferrer">Archives Reims Football 코파 기록</a>; <a href="https://www.footballstats.fr/Reims-saison-1956.html" target="_blank" rel="noopener noreferrer">랭스 1955-56 시즌 결과</a>. 대회별 출전·득점과 팀 성적.</li>
 <li id="source-13">프랑스축구협회, <a href="https://www.fff.fr/equipe-nationale/joueur/8794-piantoni-roger/fiche.html" target="_blank" rel="noopener noreferrer">로제 피앙토니의 클럽 경력</a>; FK 아우스트리아 빈, <a href="https://fk-austria.at/klub/geschichte/nationalsozialismus" target="_blank" rel="noopener noreferrer">구단 역사</a>. 피앙토니의 1956년 낭시 소속과 오크비르크의 1956년 여름 삼프도리아 이적. CIHEFE, <a href="https://www.cuadernosdefutbol.com/2020/10/indice-de-equipos-participantes-en-categoria-nacional-1928-2021-i/" target="_blank" rel="noopener noreferrer">스페인 구단 명칭 변천</a>의 당시 세비야 CF 표기.</li>
 <li id="source-14">Historical Football Kits, <a href="https://www.historicalkits.co.uk/Blackpool/Blackpool.htm" target="_blank" rel="noopener noreferrer">블랙풀</a>, <a href="https://www.historicalkits.co.uk/international/england/england-1946-1960.html" target="_blank" rel="noopener noreferrer">잉글랜드 1946~1960</a>; 1000logos, <a href="https://1000logos.net/france-national-football-team-logo/" target="_blank" rel="noopener noreferrer">프랑스 대표팀 문장 변천</a>, <a href="https://1000logos.net/spain-national-football-team-logo/" target="_blank" rel="noopener noreferrer">스페인 대표팀 문장 변천</a>. 각 시대 문장의 형태와 사용 시기.</li>
+<li id="source-15">프랑스 관세행정사협회, <a href="https://histoire-de-la-douane.org/dans-les-archives-du-service-tabacs-de-la-douane-a-reims-un-buraliste-celebre-raymond-kopa/" target="_blank" rel="noopener noreferrer">레몽 코파의 관세청 문서 기록</a>. 폴란드인 부모와 프랑스 국적 취득을 다룬 국적증명서 해설.</li>
+<li id="source-16">《모젤 스포르》, <a href="https://www.mosellesport.fr/articles-fc-metz/top-les-50-plus-grands-joueurs-du-fc-metz-de-20-a-10.html" target="_blank" rel="noopener noreferrer">FC 메스 역대 선수 회고</a>; 프랑스축구협회, <a href="https://www.fff.fr/equipe-nationale/joueur/8706-cisowski-thadee/fiche.html" target="_blank" rel="noopener noreferrer">타데 시소브스키 공식 기록</a>. 폴란드에서 프랑스로의 귀화와 1951년 대표팀 데뷔.</li>
+<li id="source-17">Europeana, <a href="https://www.europeana.eu/en/stories/miguel-montuori-fiorentina-footballer" target="_blank" rel="noopener noreferrer">미겔 몬투오리</a>; UEFA, <a href="https://www.uefa.com/news-media/news/018b-0f84441b6c20-34ba089a180f-1000--former-milan-great-schiaffino-dies/" target="_blank" rel="noopener noreferrer">후안 스키아피노 회고</a>; <a href="https://www.magliarossonera.it/protagonisti/Gioc-Schiaffino.html" target="_blank" rel="noopener noreferrer">Maglia Rossonera 스키아피노 경기 기록</a>. 아르헨티나·우루과이와 이탈리아의 국적 이력, 각각 1956년·1954년 이탈리아 대표팀 데뷔.</li>
+<li id="source-18">SE 파우메이라스, <a href="https://www.palmeiras.com.br/craques/julinho-Botelho/" target="_blank" rel="noopener noreferrer">줄리뉴 보텔류 공식 인물 기록</a>. 브라질 선수 경력과 1954년 월드컵 출전.</li>
 </ol>
 </div>

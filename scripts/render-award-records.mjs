@@ -25,6 +25,7 @@ export function readAwardEdition(id) {
   if (!/^\d{4}-[a-z-]+$/.test(id)) throw new Error('Invalid award edition');
   const data = read(`src/data/awards/${id}.json`);
   for (const [index, row] of data.ranking.entries()) {
+    if (row.nationalities && (!Array.isArray(row.nationalities) || !row.nationalities.length || row.nationalities.some(n => typeof n !== 'string' || !n.trim()))) throw new Error('Invalid nationality history');
     if (row.votes.length !== data.weights.length || row.votes.some(n => !Number.isInteger(n) || n < 0)) throw new Error('Invalid ballot counts');
     if (row.points !== row.votes.reduce((sum, n, i) => sum + n * data.weights[i], 0)) throw new Error(`Incorrect points: ${row.name}`);
     const expected = index && row.points === data.ranking[index - 1].points ? data.ranking[index - 1].rank : index + 1;
@@ -37,8 +38,19 @@ export function readAwardEdition(id) {
 }
 
 function ranking(data, detailed) {
-  const heading = detailed ? '<th scope="col">1위표</th><th scope="col">2위표</th><th scope="col">3위표</th><th scope="col">4위표</th><th scope="col">5위표</th><th scope="col">선정 기자</th>' : '<th scope="col">국적 표기</th><th scope="col">1956년 소속 구단</th>';
-  return `<div class="award-table-scroll" tabindex="0" role="region" aria-label="1956년 발롱도르 ${detailed ? '순위별 투표 내역' : '전체 랭킹'}"><table class="award-ranking${detailed ? ' award-ballots' : ''}"><thead><tr><th scope="col">순위</th><th scope="col">선수</th>${heading}<th scope="col">점수</th></tr></thead><tbody>${data.ranking.map(row => `<tr data-award-rank="${row.rank}"><td>${row.rank >= 9 && row.rank !== 12 ? '공동 ' : ''}${row.rank}</td><th scope="row">${escape(row.name)}<small>${escape(row.original)}</small></th>${detailed ? row.votes.map(n => `<td>${n}</td>`).join('') + `<td>${row.votes.reduce((a,b) => a+b,0)}명</td>` : `<td>${escape(row.country)}</td><td>${row.clubs.map(club => `<span>${escape(club)}</span>`).join('')}</td>`}<td><strong>${row.points}</strong></td></tr>`).join('')}</tbody></table></div>`;
+  const heading = detailed ? '<th scope="col">1위표</th><th scope="col">2위표</th><th scope="col">3위표</th><th scope="col">4위표</th><th scope="col">5위표</th><th scope="col">선정 기자</th>' : '<th scope="col">국적</th><th scope="col">1956년 소속 구단</th>';
+  const columns = detailed ? [8,27,8,8,8,8,8,15,10] : [8,29,20,33,10];
+  // Explicit table roles preserve header relationships when narrow-screen rows use CSS grid.
+  return `<div class="award-table-wrap" role="region" aria-label="${data.year}년 발롱도르 ${detailed ? '순위별 투표 내역' : '전체 랭킹'}"><table role="table" class="award-ranking${detailed ? ' award-ballots' : ''}"><colgroup>${columns.map(width => `<col style="width:${width}%">`).join('')}</colgroup><thead role="rowgroup"><tr role="row"><th scope="col">순위</th><th scope="col">선수</th>${heading}<th scope="col">점수</th></tr></thead><tbody role="rowgroup">${data.ranking.map((row, index) => {
+    const tied = data.ranking.filter(item => item.points === row.points).length > 1;
+    const nationality = (row.nationalities ?? [row.country]).map(n => `<span>${escape(n)}</span>`).join('');
+    return `<tr role="row" data-award-rank="${row.rank}">
+      <td role="cell" class="award-place">${tied ? '<span>공동</span>' : ''}${row.rank}</td>
+      <th role="rowheader" scope="row" class="award-player">${escape(row.name)}<small>${escape(row.original)}</small></th>
+      ${detailed ? row.votes.map((n, i) => `<td role="cell" class="award-vote" data-label="${i + 1}위표">${n}</td>`).join('') + `<td role="cell" class="award-voters" data-label="선정 기자">${row.votes.reduce((a,b) => a+b,0)}명</td>` : `<td role="cell" class="award-nationality" data-label="국적">${nationality}</td><td role="cell" class="award-clubs" data-label="${data.year}년 소속 구단">${row.clubs.map(club => `<span>${escape(club)}</span>`).join('')}</td>`}
+      <td role="cell" class="award-points" data-label="점수"><strong>${row.points}</strong></td>
+    </tr>`;
+  }).join('')}</tbody></table></div>`;
 }
 
 export function expandAwardRecords(html) {

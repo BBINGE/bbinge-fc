@@ -66,20 +66,23 @@
 .award-record .award-achievements ul { list-style: disc; padding-left: 19px; margin: 0; font-size: 15px; line-height: 1.85; }
 .award-record .award-achievements li + li { margin-top: 7px; }
 .award-record .award-table-shell { overflow: hidden; border: 1px solid #d7cfb7; border-radius: 14px; margin: 28px 0; }
-.award-record .award-table-scroll { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-color: #b5a464 #f5f2e8; }
-.award-record .archive-body .award-ranking { margin: 0; width: 100%; min-width: 650px; border-collapse: separate; border-spacing: 0; font-size: 14px; }
-.award-record .award-ranking thead th { background: #191911; color: #e8d89c; font-size: 12px; letter-spacing: 0; padding: 16px 14px; white-space: nowrap; }
-.award-record .award-ranking tbody td, .award-record .award-ranking tbody th { padding: 17px 14px; vertical-align: middle; border-bottom: 1px solid #e5e0d2; font-size: 14px; letter-spacing: 0; color: #26251c; }
-.award-record .award-ranking tbody th { font-weight: 650; min-width: 152px; }
+.award-record .award-table-wrap { width: 100%; min-width: 0; }
+.award-record .archive-body .award-ranking { display: table; margin: 0; width: 100%; min-width: 0; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: 14px; }
+.award-record .award-ranking thead th { background: #191911; color: #e8d89c; font-size: 12px; letter-spacing: 0; padding: 16px 8px; white-space: normal; text-align: left; }
+.award-record .award-ranking tbody td, .award-record .award-ranking tbody th { padding: 17px 8px; vertical-align: middle; border-bottom: 1px solid #e5e0d2; font-size: 14px; letter-spacing: 0; color: #26251c; overflow-wrap: anywhere; word-break: keep-all; line-height: 1.65; }
+.award-record .award-ranking tbody th { font-weight: 650; min-width: 0; text-align: left; }
 .award-record .award-ranking tbody tr:nth-child(even) { background: #faf9f4; }
 .award-record .award-ranking tbody tr[data-award-rank="1"] { background: #f6edcb; }
 .award-record .award-ranking tbody tr:last-child > * { border-bottom: 0; }
 .award-record .award-ranking small { display: block; font-size: 11px; font-weight: 400; color: #756d56; margin-top: 4px; }
-.award-record .award-ranking td span { display: block; white-space: nowrap; }
-.award-record .award-ranking td:first-child { white-space: nowrap; font-size: 12px; }
+.award-record .award-ranking td span { display: block; white-space: normal; }
+.award-record .award-ranking .award-nationality span + span, .award-record .award-ranking .award-clubs span + span { margin-top: 3px; }
+.award-record .award-ranking td:first-child { font-size: 12px; text-align: center; }
 .award-record .award-ranking td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-size: 19px; }
-.award-record .archive-body .award-ballots { min-width: 740px; }
 .award-record .award-ballots td { font-variant-numeric: tabular-nums; text-align: center; }
+.award-record .award-ranking thead th:first-child, .award-record .award-ballots thead th { text-align: center; }
+.award-record .award-ballots thead th:nth-child(2) { text-align: left; }
+.award-record .award-ranking thead th:last-child { text-align: right; }
 .award-record .award-table-shell details > summary { cursor: pointer; background: #f4f0e2; color: #5b4e20; font-size: 15px; font-weight: 650; padding: 20px; }
 .award-record .award-note { font-size: 13px; line-height: 1.8; color: #726a50; }
 .award-record .award-reading { display: block; padding: 24px; border: 1px solid #cabf95; border-radius: 14px; text-decoration: none; margin: 30px 0; background: #f9f6eb; color: #31291a; }
@@ -88,6 +91,23 @@
 .award-record .archive-body .award-cover { width: 100%; margin-top: 44px; }
 .award-record :is(a,summary,[tabindex]):focus-visible { outline: 3px solid #b6982f; outline-offset: 4px; }
 @media (max-width: 600px) {
+  .award-record .archive-body .award-ranking, .award-record .award-ranking tbody { display: block; }
+  .award-record .award-ranking colgroup { display: none; }
+  .award-record .award-ranking thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .award-record .award-ranking tbody tr { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 12px 0; padding: 18px 16px; border-bottom: 1px solid #d7cfb7; }
+  .award-record .award-ranking tbody tr:last-child { border-bottom: 0; }
+  .award-record .award-ranking tbody tr > * { display: block; min-width: 0; padding: 0; border: 0; font-size: 14px; }
+  .award-record .award-ranking tbody .award-place { grid-column: 1; grid-row: 1; align-self: start; text-align: left; color: #776535; font-size: 13px; }
+  .award-record .award-ranking .award-place span { display: inline; margin-right: 3px; }
+  .award-record .award-ranking .award-player { grid-column: 2 / 5; grid-row: 1; }
+  .award-record .award-ranking .award-points { grid-column: 5; grid-row: 1; text-align: right; font-size: 23px; line-height: 1.2; }
+  .award-record .award-ranking .award-points::after { content: '점'; display: block; margin-top: 5px; font-size: 11px; font-weight: 400; color: #756d56; }
+  .award-record .award-ranking .award-nationality { grid-column: 1 / 3; padding-right: 12px; }
+  .award-record .award-ranking .award-clubs { grid-column: 3 / 6; }
+  .award-record .award-ranking :is(.award-nationality,.award-clubs,.award-vote)::before { content: attr(data-label); display: block; font-size: 11px; color: #756d56; margin-bottom: 4px; }
+  .award-record .award-ballots tbody .award-vote { grid-row: 2; text-align: center; padding: 10px 0; background: rgba(133,115,52,.07); font-size: 17px; }
+  .award-record .award-ballots .award-voters { grid-column: 1 / -1; text-align: right; font-size: 12px; color: #756d56; }
+  .award-record .award-ballots .award-voters::before { content: attr(data-label); margin-right: 8px; }
   .award-record .award-logo-field { min-height: 232px; padding: 28px; }
   .award-record .award-logo-field img { width: 96px; height: 148px; }
   .award-record .award-masthead-copy { padding: 24px 18px; }

@@ -40,6 +40,28 @@ try {
     assert.equal(await page.locator('.award-ranking:not(.award-ballots) tbody tr').count(), 24);
     await page.locator('.award-table-shell summary').click();
     assert.equal(await page.locator('.award-ballots tbody tr').count(), 24);
+    for (const table of await page.locator('.award-ranking').all()) {
+      const detailed = await table.evaluate(el => el.classList.contains('award-ballots'));
+      for (const [index, row] of (await table.locator('tbody tr').all()).entries()) {
+        const record = data.ranking[index];
+        assert.equal(await row.locator('.award-player').innerText(), record.name + '\n' + record.original);
+        assert.equal(await row.locator('.award-points strong').innerText(), String(record.points));
+        if (detailed) {
+          assert.deepEqual(await row.locator('.award-vote').allTextContents(), record.votes.map(String));
+          assert.equal(await row.locator('.award-voters').innerText(), record.votes.reduce((a,b) => a+b, 0) + '명');
+        } else {
+          assert.deepEqual(await row.locator('.award-nationality span').allTextContents(), record.nationalities ?? [record.country]);
+          assert.deepEqual(await row.locator('.award-clubs span').allTextContents(), record.clubs);
+        }
+      }
+      assert(await table.evaluate(el => {
+        const wrap = el.closest('.award-table-wrap'), shell = el.closest('.award-table-shell').getBoundingClientRect();
+        return wrap.scrollWidth <= wrap.clientWidth + 1 && [...el.querySelectorAll('tbody tr > *')].every(cell => {
+          const box = cell.getBoundingClientRect();
+          return box.left >= shell.left - 1 && box.right <= shell.right + 1 && cell.scrollWidth <= cell.clientWidth + 1 && box.width > 0 && box.height > 0;
+        });
+      }), 'every table cell fits without clipping or horizontal scrolling');
+    }
     for (const img of await page.locator('.archive-body img').all()) {
       await img.scrollIntoViewIfNeeded();
       await img.evaluate(el => el.decode());
@@ -65,6 +87,7 @@ try {
     }
     await page.locator('.historical-identity').nth(1).screenshot({path:join(out, 'di-' + width + '.png')});
     await page.locator('.historical-identity').nth(2).screenshot({path:join(out, 'kopa-' + width + '.png')});
+    await page.locator('.award-ballots').screenshot({path:join(out, 'ballots-' + width + '.png')});
     console.log(JSON.stringify({width, ...checks}));
   }
   for (const path of ['/archive/awards/', '/archive/awards/ballon-dor/']) {
