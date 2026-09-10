@@ -1,11 +1,20 @@
 .cup-record .archive-body figure.cup-design { width: 100%; }
 .cup-record .cup-participant-scroll { overflow-x: auto; }
 .cup-record .archive-body .cup-participant-scroll table { display: table; min-width: 680px; white-space: normal; }
-.cup-record .archive-body .cup-participant-scroll th:nth-child(1) { width: 20%; }
-.cup-record .archive-body .cup-participant-scroll th:nth-child(2) { width: 28%; }
-.cup-record .archive-body .cup-participant-scroll th:nth-child(3) { width: 12%; }
+.cup-record .archive-body .cup-participant-scroll th:nth-child(1) { width: 18%; }
+.cup-record .archive-body .cup-participant-scroll th:nth-child(2) { width: 25%; }
+.cup-record .archive-body .cup-participant-scroll th:nth-child(3) { width: 21%; }
 .cup-record .archive-body .cup-participant-scroll td { vertical-align: middle; }
 .cup-record .archive-body .cup-participant-scroll td:nth-child(3) { white-space: nowrap; }
+.cup-record .cup-participant-country { display: flex; align-items: center; gap: 4px; }
+.cup-record .archive-body .cup-participant-country img { flex: none; width: 28px; height: 20px; margin: 0; object-fit: contain; border: 0; border-radius: 0; background: none; }
+.cup-record .cup-stage-scroll { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; }
+.cup-record .archive-body .cup-stage-scroll table { display: table; table-layout: fixed; width: 100%; min-width: 460px; margin: 0; white-space: normal; }
+.cup-record .archive-body .cup-stage-scroll th:first-child { width: 48%; }
+.cup-record .archive-body .cup-stage-scroll th:nth-child(2) { width: 29%; }
+.cup-record .archive-body .cup-stage-scroll th:last-child { width: 23%; }
+.cup-record .archive-body .cup-stage-scroll td { vertical-align: middle; }
+.cup-record .archive-body .cup-stage-scroll td:last-child { white-space: nowrap; font-weight: 700; color: var(--bbfc-blue-strong); }
 .cup-record .archive-body .cup-entrants { margin: 0 0 48px; }
 .cup-record .archive-body .cup-entrants h3 { margin-top: 0; }
 .cup-record .archive-body .cup-entrants table { display: table; table-layout: fixed; width: 100%; margin: 20px 0 0; white-space: normal; }
@@ -17,6 +26,11 @@
 .cup-record .archive-body .cup-entrant-club img { flex: none; width: 32px; height: 32px; margin: 0; object-fit: contain; border: 0; border-radius: 0; background: white; }
 .cup-record .archive-body .cup-entrant-country img { flex: none; width: 20px; height: 14px; margin: 0; object-fit: contain; border: 0; border-radius: 0; }
 @media (max-width: 600px) {
+  .cup-record .archive-body .cup-stage-scroll table { min-width: 0; font-size: 13px; }
+  .cup-record .archive-body .cup-stage-scroll th, .cup-record .archive-body .cup-stage-scroll td { padding: 15px 6px; }
+  .cup-record .archive-body .cup-stage-scroll th:first-child { width: 46%; }
+  .cup-record .archive-body .cup-stage-scroll th:nth-child(2) { width: 28%; }
+  .cup-record .archive-body .cup-stage-scroll th:last-child { width: 26%; }
   .cup-record .archive-body .cup-entrants table { font-size: 13px; }
   .cup-record .archive-body .cup-entrants th, .cup-record .archive-body .cup-entrants td { padding: 16px 6px; }
   .cup-record .cup-entrant-club, .cup-record .cup-entrant-country { gap: 5px; }

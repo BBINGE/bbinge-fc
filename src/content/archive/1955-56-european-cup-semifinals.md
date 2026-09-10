@@ -19,12 +19,7 @@ draft: false
 
 <section class="cup-entrants" aria-labelledby="semifinal-entrants">
 <h3 id="semifinal-entrants">4강 진출팀</h3>
-<table aria-labelledby="semifinal-entrants"><thead><tr><th scope="col">구단</th><th scope="col">국가</th><th scope="col">4강 진출</th></tr></thead><tbody>
-<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/reims-1931.svg" alt="" width="32" height="32" loading="lazy" />스타드 드 랭스</span></td><td><span class="cup-entrant-country">프랑스<img src="/images/flags/fr.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
-<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/hibernian-supplied.jfif" alt="" width="32" height="32" loading="lazy" />히버니언 FC</span></td><td><span class="cup-entrant-country">스코틀랜드<img src="/images/flags/gb-sct.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
-<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="" width="32" height="32" loading="lazy" />레알 마드리드</span></td><td><span class="cup-entrant-country">스페인<img src="/images/flags/es-franco-civil.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
-<tr><td><span class="cup-entrant-club"><img src="/images/archive/teams/clubs/milan-1946.svg" alt="" width="32" height="32" loading="lazy" />AC 밀란</span></td><td><span class="cup-entrant-country">이탈리아<img src="/images/flags/it.svg" alt="" width="20" height="14" loading="lazy" /></span></td><td>첫 진출</td></tr>
-</tbody></table>
+<div data-european-cup-milestone="1955-56:semi-finals"></div>
 </section>
 
 1956년 4월 18일, 스타드 드 랭스는 에든버러에서 첫 유러피언컵 결승 진출을 확정했다. 레알 마드리드와 AC 밀란의 4강 1차전은 그다음 날이었다. 한쪽 대진은 두 경기를 다 마쳤고, 다른 쪽 대진은 아직 킥오프도 하지 않았다. 지금처럼 같은 주간에 나란히 펼쳐지는 준결승을 떠올리면 놓치기 쉬운, 첫 대회의 시간표다. <a class="cite" href="#source-1">[1]</a> <a class="cite" href="#source-6">[6]</a>

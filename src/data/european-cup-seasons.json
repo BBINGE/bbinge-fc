@@ -1,0 +1,45 @@
+{
+  "seasons": [
+    {
+      "season": "1955-56",
+      "competition": "유러피언컵",
+      "entrants": [
+        { "club": "rapid", "background": "1954-55 시즌 리그 3위" },
+        { "club": "anderlecht", "background": "1954-55 시즌 리그 우승" },
+        { "club": "aarhus", "background": "1955년 리그·컵 우승" },
+        { "club": "reims", "background": "1954-55 시즌 리그 우승" },
+        { "club": "voros-lobogo", "background": "1955년 리그 최종 2위·미트로파컵 우승" },
+        { "club": "milan", "background": "1954-55 시즌 세리에 A 우승" },
+        { "club": "psv", "background": "1954-55 시즌 전국 우승 결정전 3위" },
+        { "club": "gwardia", "background": "1954년 폴란드컵 우승·1955년 리그 최종 4위" },
+        { "club": "sporting", "background": "1954-55 시즌 리그 3위" },
+        { "club": "saarbrucken", "background": "1954-55 시즌 오버리가 쥐트베스트 3위" },
+        { "club": "hibernian", "background": "1954-55 시즌 리그 5위" },
+        { "club": "real-madrid", "displayName": "레알 마드리드 CF", "background": "1954-55 시즌 라리가 우승" },
+        { "club": "djurgarden", "background": "1954-55 시즌 알스벤스칸 우승" },
+        { "club": "servette", "background": "1954-55 시즌 리그 6위" },
+        { "club": "rot-weiss-essen", "background": "1955년 서독 전국 선수권 우승" },
+        { "club": "partizan", "background": "1954-55 시즌 리그 5위" }
+      ],
+      "stages": {
+        "round-of-16": [
+          "sporting", "partizan",
+          "voros-lobogo", "anderlecht",
+          "servette", "real-madrid",
+          "rot-weiss-essen", "hibernian",
+          "djurgarden", "gwardia",
+          "aarhus", "reims",
+          "rapid", "psv",
+          "milan", "saarbrucken"
+        ],
+        "quarter-finals": [
+          "djurgarden", "hibernian",
+          "reims", "voros-lobogo",
+          "real-madrid", "partizan",
+          "rapid", "milan"
+        ],
+        "semi-finals": ["reims", "hibernian", "real-madrid", "milan"]
+      }
+    }
+  ]
+}

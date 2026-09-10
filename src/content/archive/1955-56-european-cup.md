@@ -89,29 +89,7 @@ draft: false
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>참가 16개 구단</strong><span>구단과 출전 횟수·국내 성적 비교하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
-<div class="cup-participant-scroll" tabindex="0" role="region" aria-label="참가 16개 구단과 대회 출전 횟수, 국내 성적 표">
-
-| 대표 지역 | 참가 구단 | 대회 출전 | 참가팀을 이해할 국내 성적·배경 |
-|---|---|---|---|
-| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> 오스트리아 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/rapid-supplied.jfif" alt="" width="32" height="32" loading="lazy" />SK 라피트 빈</span> | 첫 출전 | 1954-55 시즌 리그 3위 |
-| <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> 벨기에 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/anderlecht-1933.svg" alt="" width="32" height="32" loading="lazy" />RSC 안데를레흐트</span> | 첫 출전 | 1954-55 시즌 리그 우승 |
-| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 덴마크 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/aarhus-supplied.svg" alt="" width="32" height="32" loading="lazy" />오르후스 GF</span> | 첫 출전 | 1955년 리그·컵 우승 |
-| <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 프랑스 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/reims-1931.svg" alt="" width="32" height="32" loading="lazy" />스타드 드 랭스</span> | 첫 출전 | 1954-55 시즌 리그 우승 |
-| <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 헝가리 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/voros-lobogo-supplied.png" alt="" width="32" height="32" loading="lazy" />뵈뢰시 로보고</span> | 첫 출전 | 1955년 리그 최종 2위·미트로파컵 우승 |
-| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> 이탈리아 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/milan-1946.svg" alt="" width="32" height="32" loading="lazy" />AC 밀란</span> | 첫 출전 | 1954-55 시즌 세리에 A 우승 |
-| <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> 네덜란드 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/psv-supplied.png" alt="" width="32" height="32" loading="lazy" />PSV 에인트호번</span> | 첫 출전 | 1954-55 시즌 전국 우승 결정전 3위 |
-| <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> 폴란드 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/gwardia-supplied.jpg" alt="" width="32" height="32" loading="lazy" />그바르디아 바르샤바</span> | 첫 출전 | 1954년 폴란드컵 우승·1955년 리그 최종 4위 |
-| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> 포르투갈 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/sporting-1945.svg" alt="" width="32" height="32" loading="lazy" />스포르팅 CP</span> | 첫 출전 | 1954-55 시즌 리그 3위 |
-| <img class="cup-flag" src="/images/flags/saar-1947.svg" width="28" height="20" alt="자틀란트 국기" loading="lazy" /> 자틀란트 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/saarbrucken-supplied.jfif" alt="" width="32" height="32" loading="lazy" />1. FC 자르브뤼켄</span> | 첫 출전 | 1954-55 시즌 오버리가 쥐트베스트 3위 |
-| <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 스코틀랜드 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/hibernian-supplied.jfif" alt="" width="32" height="32" loading="lazy" />히버니언 FC</span> | 첫 출전 | 1954-55 시즌 리그 5위 |
-| <img class="cup-flag" src="/images/flags/es-franco-civil.svg" width="28" height="20" alt="스페인 국기" loading="lazy" /> 스페인 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="" width="32" height="32" loading="lazy" />레알 마드리드 CF</span> | 첫 출전 | 1954-55 시즌 라리가 우승 |
-| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 스웨덴 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/djurgarden-supplied.png" alt="" width="32" height="32" loading="lazy" />유고덴 IF</span> | 첫 출전 | 1954-55 시즌 알스벤스칸 우승 |
-| <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 스위스 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/servette-supplied.jpg" alt="" width="32" height="32" loading="lazy" />세르베트 FC</span> | 첫 출전 | 1954-55 시즌 리그 6위 |
-| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 서독 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/rot-weiss-essen-supplied.webp" alt="" width="32" height="32" loading="lazy" />로트바이스 에센</span> | 첫 출전 | 1955년 서독 전국 선수권 우승 |
-| <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> 유고슬라비아 | <span class="cup-entrant-club"><img src="/images/archive/teams/clubs/partizan-supplied.jpg" alt="" width="32" height="32" loading="lazy" />FK 파르티잔</span> | 첫 출전 | 1954-55 시즌 리그 5위 |
-
-
-</div>
+<div data-european-cup-milestone="1955-56:competition"></div>
 
 </details>
 
@@ -120,6 +98,12 @@ draft: false
 이 명단에서 자틀란트<span class="foreign-note" lang="de">(Saarland)</span>는 따로 살펴볼 만하다. 당시 자틀란트는 아직 서독에 편입되기 전이었고, 자르브뤼켄의 축구사는 프랑스와 독일 사이를 오갔다. 구단은 프랑스 리그에서 경기한 시기를 거쳐 독일 축구로 돌아왔으며, 1952년에는 독일 선수권 준우승과 브라질 원정도 경험했다. 1. FC 자르브뤼켄<span class="foreign-note" lang="de">(1. FC Saarbrücken)</span>을 이름 낯선 지역 3위 팀으로만 읽으면, 국경과 대륙을 넘나든 이 이력이 통째로 빠진다. <a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
 ## 16강
+
+<details class="cup-record-table"><summary><span class="cup-table-copy"><strong>16강 진출 16개 구단</strong><span>구단별 누적 16강 진출 횟수 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
+
+<div data-european-cup-milestone="1955-56:round-of-16"></div>
+
+</details>
 
 아래 점수는 두 경기 모두 왼쪽 구단을 기준으로 읽는다. 2차전 개최지가 바뀌어도 표의 구단 순서는 바꾸지 않았다.
 
@@ -193,6 +177,12 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 밀란은 2차전에서 4-1로 이겨 합계 7-5로 살아남았다. 첫 경기의 충격을 실제 탈락으로 이어지게 두지는 않았다. 다만 이 대진은 두 가지를 함께 남겼다. 자르브뤼켄에는 이탈리아 챔피언을 그 안방에서 꺾은 기억, 밀란에는 화려한 선수단으로도 한 번의 수비 붕괴를 피할 수 없다는 경험이었다. <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 ## 8강
+
+<details class="cup-record-table"><summary><span class="cup-table-copy"><strong>8강 진출 8개 구단</strong><span>구단별 누적 8강 진출 횟수 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
+
+<div data-european-cup-milestone="1955-56:quarter-finals"></div>
+
+</details>
 
 
 

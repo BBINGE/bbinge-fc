@@ -15,6 +15,9 @@ try {
     assert.equal(response.status(), 200);
     await page.evaluate(() => document.fonts.ready);
     assert.equal(await page.locator('.cup-tie').count(), 2);
+    assert.equal(await page.locator('.cup-stage-scroll tbody tr').count(), 4);
+    assert.equal(await page.getByText('통산 첫 4강 진출', { exact: true }).count(), 4);
+    await page.locator('.cup-entrants').screenshot({ path: `${out}/entrants-${width}.png` });
     assert.equal(await page.locator('.cup-leg-results dt').filter({ hasText: '결승 진출' }).count(), 2);
     assert.equal(await page.locator('.archive-body h2').filter({ hasText: /^4강 [12]차전$/ }).count(), 2);
     for (const img of await page.locator('.content-cover img,.archive-body img').all()) {
@@ -48,6 +51,7 @@ try {
   const plain = await browser.newPage({ javaScriptEnabled: false, viewport: { width: 380, height: 900 } });
   await plain.goto(base + route);
   assert.equal(await plain.locator('.cup-tie').count(), 2);
+  assert.equal(await plain.getByText('통산 첫 4강 진출', { exact: true }).count(), 4);
   await plain.locator('.cup-record-table summary').click();
   assert(await plain.locator('.cup-record-table').evaluate(el => el.open));
   console.log(`PASS including no-JS. Screenshots: ${out}`);

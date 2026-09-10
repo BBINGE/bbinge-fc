@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { expandFootballTies, renderTie, resolveClub } from './render-football-ties.mjs';
+import { expandFootballTies, renderEuropeanCupMilestone, renderTie, resolveClub } from './render-football-ties.mjs';
 const expected = [[5,8],[10,4],[0,7],[1,5],[4,1],[2,4],[6,2],[7,5],[1,4],[8,6],[4,3],[3,8]];
 for (let i = 0; i < 12; i++) {
   const html = renderTie('1955-56-european-cup', `match-${i+1}`);
@@ -19,10 +19,35 @@ assert.throws(() => resolveClub('unknown','1955-56'), /Unknown historical club/)
 assert.throws(() => renderTie('../escape','match-1'), /Invalid/);
 assert.throws(() => renderTie('1955-56-european-cup','match-99'), /Unknown tie/);
 assert(expandFootballTies('<div data-football-tie="1955-56-european-cup:match-1"></div>').includes('class="cup-tie"'));
+const participantTable = renderEuropeanCupMilestone('1955-56', 'competition');
+assert.equal((participantTable.match(/class="cup-entrant-club"/g) ?? []).length, 16);
+assert.equal((participantTable.match(/통산 첫 유러피언컵 출전/g) ?? []).length, 16);
+assert(participantTable.includes('1955년 리그 최종 2위·미트로파컵 우승'));
+const roundOf16Table = renderEuropeanCupMilestone('1955-56', 'round-of-16');
+assert.equal((roundOf16Table.match(/class="cup-entrant-club"/g) ?? []).length, 16);
+assert.equal((roundOf16Table.match(/통산 첫 16강 진출/g) ?? []).length, 16);
+const quarterFinalTable = renderEuropeanCupMilestone('1955-56', 'quarter-finals');
+assert.equal((quarterFinalTable.match(/class="cup-entrant-club"/g) ?? []).length, 8);
+assert.equal((quarterFinalTable.match(/통산 첫 8강 진출/g) ?? []).length, 8);
+const semifinalTable = renderEuropeanCupMilestone('1955-56', 'semi-finals');
+assert.equal((semifinalTable.match(/class="cup-entrant-club"/g) ?? []).length, 4);
+assert.equal((semifinalTable.match(/통산 첫 4강 진출/g) ?? []).length, 4);
+assert.throws(() => renderEuropeanCupMilestone('1955-56', 'final'), /Invalid/);
+assert(expandFootballTies('<div data-european-cup-milestone="1955-56:quarter-finals"></div>').includes('통산 첫 8강 진출'));
 assert.equal(expandFootballTies('<h3>그대로 보존</h3>'),'<h3>그대로 보존</h3>');
 const source=readFileSync(new URL('../src/content/archive/1955-56-european-cup.md',import.meta.url),'utf8');
 assert.equal((source.match(/data-football-tie=/g)??[]).length,12);
+assert.equal((source.match(/data-european-cup-milestone=/g)??[]).length,3);
 assert(!source.includes('background-position'));
+const semifinalSource=readFileSync(new URL('../src/content/archive/1955-56-european-cup-semifinals.md',import.meta.url),'utf8');
+assert.equal((semifinalSource.match(/data-european-cup-milestone=/g)??[]).length,1);
+const cupHistory=JSON.parse(readFileSync(new URL('../src/data/european-cup-seasons.json',import.meta.url),'utf8'));
+const cupTies=JSON.parse(readFileSync(new URL('../src/data/cup-ties/1955-56-european-cup.json',import.meta.url),'utf8'));
+const firstSeason=cupHistory.seasons[0];
+for (const [stage,key] of [['16강','round-of-16'],['8강','quarter-finals']]) {
+  const tieOrder=Object.values(cupTies.ties).filter(tie=>tie.stage===stage).flatMap(tie=>[tie.left,tie.right]);
+  assert.deepEqual(firstSeason.stages[key],tieOrder);
+}
 for (const [id, total, winner] of [['match-1','3<i>:</i>0','스타드 드 랭스'], ['match-2','5<i>:</i>4','레알 마드리드']]) {
   const html = renderTie('1955-56-european-cup-semifinals', id);
   assert(html.includes(`<strong>${total}</strong>`));
@@ -32,4 +57,4 @@ for (const [id, total, winner] of [['match-1','3<i>:</i>0','스타드 드 랭스
   assert(html.includes('<dt>4강 2차전</dt>'));
   assert(!html.includes('<dt>4강 진출</dt>'));
 }
-console.log('대진 카드 검수 통과: 12개 합계·시즌 자산·미확인 국기 전용·원고 분리');
+console.log('대진·누적 기록 검수 통과: 12개 합계·대회/16강/8강/4강 횟수·시즌 자산·원고 분리');

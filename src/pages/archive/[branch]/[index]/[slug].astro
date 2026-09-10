@@ -28,8 +28,8 @@ const archiveIndex = branch.indexes.find((item) => item.slug === entry.data.inde
 const isLegend = entry.data.branch === 'legends';
 const viewPath = `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`;
 const { Content } = await render(entry);
-const hasFootballTies = entry.rendered?.html?.includes('data-football-tie=') ?? false;
-const footballHtml = hasFootballTies ? expandFootballTies(entry.rendered!.html) : '';
+const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|european-cup-milestone)=/.test(entry.rendered.html);
+const footballHtml = hasFootballRecords ? expandFootballTies(entry.rendered!.html) : '';
 const indexRecords = (await getCollection('archive', ({ data }) =>
   !data.draft && data.branch === entry.data.branch && data.index === entry.data.index
 )).sort((a, b) => a.data.year - b.data.year || a.id.localeCompare(b.id));
@@ -83,7 +83,7 @@ const relatedAssets = entry.data.relatedGroup
     { label: entry.data.title, href: `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/` },
   ]}
 >
-  <article class:list={['archive-article', { 'cup-record': hasFootballTies }]}>
+  <article class:list={['archive-article', { 'cup-record': hasFootballRecords }]}>
     <nav class="article-path"><a href="/archive/">삥이 아카이브</a><span>/</span><a href={`/archive/${branch.id}/${archiveIndex.slug}/`}>{archiveIndex.label}</a></nav>
     <header class="article-header">
       <p>{entry.data.eyebrow ?? (isLegend ? `${archiveIndex.label} · LEGEND` : `${entry.data.year} · ${archiveIndex.label}`)}</p>
@@ -104,7 +104,7 @@ const relatedAssets = entry.data.relatedGroup
         {entry.data.tags.map((tag) => <span>#{tag}</span>)}
       </nav>
     )}
-    <div class="archive-body">{hasFootballTies ? <Fragment set:html={footballHtml} /> : <Content />}</div>
+    <div class="archive-body">{hasFootballRecords ? <Fragment set:html={footballHtml} /> : <Content />}</div>
     <ArticleProvenance priorPublication={entry.data.priorPublication} />
     <div class="archive-share">
       <ShareButtons

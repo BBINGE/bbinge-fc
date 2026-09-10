@@ -14,6 +14,14 @@ try {
   await page.goto(`${base}/archive/european-club/european-cup/1955-56-european-cup/`,{waitUntil:'domcontentloaded'});
   await page.evaluate(()=>document.fonts.ready);
   assert.equal(await page.locator('.cup-tie').count(),12);
+  assert.equal(await page.locator('.cup-participant-scroll tbody tr').count(),16);
+  assert.equal(await page.getByText('통산 첫 유러피언컵 출전',{exact:true}).count(),16);
+  const stageTables=page.locator('.cup-stage-scroll');
+  assert.equal(await stageTables.count(),2);
+  assert.equal(await stageTables.nth(0).locator('tbody tr').count(),16);
+  assert.equal(await stageTables.nth(1).locator('tbody tr').count(),8);
+  assert.equal(await page.getByText('통산 첫 16강 진출',{exact:true}).count(),16);
+  assert.equal(await page.getByText('통산 첫 8강 진출',{exact:true}).count(),8);
   for (const card of await page.locator('.cup-tie').all()) {
    await card.scrollIntoViewIfNeeded();
    await card.locator('img').evaluateAll(async images=>{await Promise.all(images.map(img=>img.decode()));});
@@ -39,13 +47,20 @@ try {
    const card=page.locator(`.cup-tie[data-tie$=":match-${number}"]`);
    await card.screenshot({path:`${out}/card-${width}-${number}.png`});
   }
-  const table=page.locator('.cup-record-table').first();
-  await table.locator('summary').focus();await page.keyboard.press('Enter');assert(await table.evaluate(el=>el.open));
-  await table.screenshot({path:`${out}/table-${width}.png`});
+  const details=page.locator('.cup-record-table');
+  assert.equal(await details.count(),5);
+  for (const [index,label] of [[0,'participants'],[1,'round-of-16'],[3,'quarter-finals']]) {
+   const table=details.nth(index);
+   assert.equal(await table.evaluate(el=>el.open),false);
+   await table.locator('summary').focus();await page.keyboard.press('Enter');assert(await table.evaluate(el=>el.open));
+   await table.screenshot({path:`${out}/${label}-${width}.png`});
+  }
   console.log(JSON.stringify({width,...data}));
  }
  const plain=await browser.newPage({javaScriptEnabled:false,viewport:{width:380,height:900}});
  await plain.goto(`${base}/archive/european-club/european-cup/1955-56-european-cup/`);
  assert.equal(await plain.locator('.cup-tie').count(),12);
- console.log('No-JS static cards: PASS');
+ assert.equal(await plain.locator('.cup-stage-scroll').count(),2);
+ assert.equal(await plain.getByText('통산 첫 유러피언컵 출전',{exact:true}).count(),16);
+ console.log('No-JS static cards and milestone tables: PASS');
 } finally {await browser.close();}
