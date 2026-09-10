@@ -106,7 +106,7 @@ const moreStories = rollingFeed.slice(8, 14);
           </div>
 
           <a href={lead.href} class="lead-story group">
-            <div class="lead-image media-frame">
+            <div class:list={['lead-image', 'media-frame', { 'lead-image--cover-fill': lead.id === 'ernst-happel-three-champions-league-finals-tactics' }]}>
               {lead.coverImage ? (
                 <img src={lead.coverImage} alt={lead.coverImageAlt} width="1200" height="675" sizes="(max-width: 700px) calc(100vw - 32px), (max-width: 1100px) 55vw, 680px" loading="eager" decoding="async" fetchpriority="high" style={imageFocusStyle(lead.coverImage, { zoom: false })} />
               ) : (
@@ -679,6 +679,7 @@ const moreStories = rollingFeed.slice(8, 14);
   .home-magazine :is(.desk-thumb,.latest-thumb,.more-image),
   .home-magazine .lobby-hero .lead-image { aspect-ratio:1; height:auto; min-height:0; align-self:start; }
   .home-magazine .media-frame img { object-fit:contain; }
+  .home-magazine .lobby-hero .lead-image--cover-fill img { object-fit:cover; object-position:80% 50%; }
   .home-magazine .group:hover .media-frame img { transform:none; }
   .home-magazine .desk-number { display:inline-flex; align-items:center; min-height:0; height:auto; }
   @media (max-width:900px) {

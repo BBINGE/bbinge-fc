@@ -22,8 +22,9 @@ try {
       await frame.locator('img').evaluate(img => img.decode());
       assert(await frame.evaluate(el => {
         const rect = el.getBoundingClientRect(), img = el.querySelector('img'), style = getComputedStyle(img);
-        return Math.abs(rect.width - rect.height) < 1 && style.objectFit === 'contain' && ['none','1'].includes(style.scale) && img.naturalWidth > 0;
-      }), 'square frame, full editorial image, no inherited face zoom');
+        const expectedFit = el.classList.contains('lead-image--cover-fill') ? 'cover' : 'contain';
+        return Math.abs(rect.width - rect.height) < 1 && style.objectFit === expectedFit && ['none','1'].includes(style.scale) && img.naturalWidth > 0;
+      }), 'square frame, intended editorial crop, no inherited face zoom');
     }
     for (const label of await page.locator('.desk-number').all()) {
       assert((await label.boundingBox()).height < 36, 'number must not become a full-height strip');
@@ -32,7 +33,7 @@ try {
     if (width <= 900) assert(await page.locator('.lead-copy').evaluate(el => el.getBoundingClientRect().top >= document.querySelector('.lead-image').getBoundingClientRect().bottom));
     await page.locator('.desk-edition').screenshot({path:join(out, 'latest-' + width + '.png')});
     await page.locator('.lead-story').screenshot({path:join(out, 'lead-' + width + '.png')});
-    console.log(JSON.stringify({width, thumbnails:await frames.count(), square:true, fullImage:true, overflow:false}));
+    console.log(JSON.stringify({width, thumbnails:await frames.count(), square:true, cropContract:true, overflow:false}));
   }
   console.log('HOME THUMBNAILS: PASS');
 } finally { await browser.close(); }
