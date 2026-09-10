@@ -44,6 +44,15 @@ try {
       await img.scrollIntoViewIfNeeded();
       await img.evaluate(el => el.decode());
     }
+    for (const flag of await page.locator('[data-identity-kind$="country"] .identity-art').all()) {
+      assert(await flag.evaluate(el => {
+        const image = el.querySelector('img'), box = image.getBoundingClientRect();
+        return Math.abs(box.width / box.height - image.naturalWidth / image.naturalHeight) < .02;
+      }), 'flag frame follows source proportions without letterboxing');
+    }
+    assert.match(await page.locator('.identity-uk').evaluate(el => getComputedStyle(el).backgroundImage), /gb\.svg/);
+    assert.match(await page.locator('.identity-england').evaluate(el => getComputedStyle(el).backgroundImage), /gb-eng\.svg/);
+    assert.match(await page.locator('.identity-real-madrid').first().evaluate(el => getComputedStyle(el).backgroundImage), /125deg/);
     assert(await page.locator('.award-cover').evaluate(el => !!(document.querySelector('#ranking').compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)));
     const checks = await page.evaluate(() => ({
       overflow: document.documentElement.scrollWidth > innerWidth,

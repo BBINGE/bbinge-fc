@@ -36,14 +36,16 @@
 .historical-identity .identity-art { display: block; position: relative; width: 100px; height: 86px; overflow: hidden; }
 .archive-body .historical-identity .identity-art img { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); display: block; width: 100%; height: 100%; max-width: none; object-fit: contain; border-radius: 0; margin: 0; }
 .archive-body .historical-identity .identity-art-wide img { width: 178px; height: 100px; }
-.historical-identity [data-identity-kind$="country"] .identity-art { height: 67px; border: 1px solid rgba(255,255,255,.9); border-radius: 9px; background: #fff; }
+.historical-identity [data-identity-kind$="country"] .identity-art { box-sizing: content-box; width: calc(100% - 2px); height: auto; aspect-ratio: var(--flag-ratio, 4 / 3); border: 1px solid rgba(255,255,255,.9); border-radius: 9px; background: #fff; }
 .historical-identity .identity-label { display: block; font-size: 11px; letter-spacing: .14em; font-weight: 800; }
 .historical-identity strong { display: block; margin-top: 6px; font-size: 22px; line-height: 1.4; color: inherit; }
 .historical-identity small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
-.historical-identity .identity-uk { background: #062765; }
+.historical-identity .identity-uk { background-color: #062765; background-image: linear-gradient(90deg,#062765 0 68%,transparent 86%),url('/images/flags/gb.svg'); background-position: center,right center; background-size: 100% 100%,auto 100%; background-repeat: no-repeat; }
 .historical-identity .identity-uk .identity-art { background: #062765; }
-.historical-identity .identity-england { background: #fff; color: #991c2f; }
+.historical-identity .identity-england { --flag-ratio: 5 / 3; background-color: #fff; background-image: linear-gradient(90deg,#fff 0 68%,transparent 86%),url('/images/flags/gb-eng.svg'); background-position: center,right center; background-size: 100% 100%,auto 100%; background-repeat: no-repeat; color: #991c2f; }
+.historical-identity :is(.identity-uk,.identity-england) > div { padding-right: 27%; }
 .historical-identity .identity-england .identity-art { border-color: #d8d8d8; }
+.historical-identity .identity-spain { --flag-ratio: 3 / 2; }
 .historical-identity .identity-england-team { background: #0c2454; }
 .historical-identity .identity-england-team .identity-art { width: 48px; height: 60px; justify-self: center; }
 .archive-body .historical-identity .identity-england-team .identity-art img { width: 48px; height: 70px; top: 0; transform: translateX(-50%); }
@@ -52,8 +54,8 @@
 .archive-body .historical-identity .identity-blackpool .identity-art img { width: 72px; height: auto; top: 0; transform: translateX(-50%); }
 .historical-identity .identity-france { background: #142d6a; }
 .historical-identity .identity-france-team { background: #183c88; }
-.historical-identity .identity-real-madrid { background: #f5f3f8; color: #302849; }
-.historical-identity .identity-reims { background: #bd1730; }
+.historical-identity .identity-real-madrid { background: linear-gradient(125deg,#fff 0 78%,#542788 78% 85%,#fff 85%); color: #302849; }
+.historical-identity .identity-reims { background: linear-gradient(90deg,#faf9f6 0 4%,#bd1730 4% 96%,#faf9f6 96%); }
 .award-record .award-score-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 26px; border-radius: 12px; background: #10110d; color: #e3d49b; margin: 26px 0; }
 .award-record .award-score-strip strong { font-size: 38px; line-height: 1; }
 .award-record .award-score-strip small { display: block; font-size: 12px; color: #c5bea1; }
@@ -97,7 +99,10 @@
   .award-record .award-podium b { font-size: 30px; }
   .historical-identity .identity-row { grid-template-columns: 62px minmax(0,1fr); gap: 14px; padding: 14px 16px; min-height: 102px; }
   .historical-identity .identity-art { width: 62px; height: 74px; }
-  .historical-identity [data-identity-kind$="country"] .identity-art { height: 41px; border-radius: 7px; }
+  .historical-identity [data-identity-kind$="country"] .identity-art { height: auto; border-radius: 7px; }
+  .historical-identity :is(.identity-uk,.identity-england) > div { padding-right: 26%; }
+  .historical-identity .identity-uk { background-image: linear-gradient(90deg,#062765 0 79%,transparent 92%),url('/images/flags/gb.svg'); }
+  .historical-identity .identity-england { background-image: linear-gradient(90deg,#fff 0 79%,transparent 92%),url('/images/flags/gb-eng.svg'); }
   .archive-body .historical-identity .identity-art-wide img { width: 130px; height: 74px; }
   .historical-identity strong { margin-top: 4px; font-size: 19px; }
   .historical-identity small { margin-top: 3px; font-size: 11px; }
