@@ -21,6 +21,9 @@ const processMetaPatterns = [
   '저작권을 검토',
   '원고를 바탕으로',
   '개정판에서 수정',
+  '삥이FC가 편집한',
+  '구매 구간',
+  '우선해 연결했',
 ];
 
 const commonForeignNoteTerms = [

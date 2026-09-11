@@ -11,7 +11,7 @@ updatedDate: 2026-09-04T16:30:00+09:00
 coverImage: '/images/culture/barcelona-2627-home/cover.webp'
 cardImage: '/images/culture/barcelona-2627-home/card.webp'
 coverImageAlt: 'FC 바르셀로나 2026/27 홈 유니폼을 입은 라민 야말과 프렝키 더용'
-coverImageCaption: '붉은 화면의 라민 야말과 푸른 화면의 프렝키 더용. FC Barcelona 공식 캠페인 원본 두 장을 바탕으로 삥이FC가 편집한 표지다.'
+coverImageCaption: '붉은 화면의 라민 야말과 푸른 화면의 프렝키 더용. FC Barcelona 공식 캠페인 원본 두 장으로 만든 표지.'
 coverImageWidth: 1672
 coverImageHeight: 941
 draft: false
@@ -136,7 +136,7 @@ FC 바르셀로나의 2026/27 홈 유니폼은 줄무늬를 새로 발명하지 
 
 ## 스타디움과 매치, 지금 고를 수 있는 두 장
 
-<div class="fb-sales-note" role="note">현재 연결한 구매 링크는 나이키 코리아 공식 상품 페이지이며 제휴 링크가 아닙니다. 상품의 공식성과 국내 구매 가능성을 우선해 연결했습니다.</div>
+<div class="fb-sales-note" role="note">아래 구매 링크는 나이키 코리아 공식 상품 페이지이며 제휴 링크가 아닙니다.</div>
 
 <div class="fb-shop" aria-label="FC 바르셀로나 2026/27 홈 유니폼 공식 구매 선택">
   <a href="https://www.nike.com/kr/t/fc-%EB%B0%94%EB%A5%B4%EC%85%80%EB%A1%9C%EB%82%98-2026-27-%EC%8A%A4%ED%83%80%EB%94%94%EC%9B%80-%ED%99%88-%EB%82%A8%EC%84%B1-%EB%82%98%EC%9D%B4%ED%82%A4-%EB%93%9C%EB%9D%BC%EC%9D%B4-%ED%95%8F-%EC%B6%95%EA%B5%AC-%EB%A0%88%ED%94%8C%EB%A6%AC%EC%B9%B4-%EC%A0%80%EC%A7%80-XjlgM8BI" target="_blank" rel="noopener noreferrer">

@@ -9,7 +9,7 @@ updatedDate: 2026-09-11T19:45:00+09:00
 coverImage: '/images/culture/arsenal-2627-home/cover.webp'
 cardImage: '/images/culture/arsenal-2627-home/card.webp'
 coverImageAlt: '아스널 2026/27 홈 유니폼을 입은 마르틴 외데고르, 데클런 라이스, 부카요 사카'
-coverImageCaption: '왼쪽부터 마르틴 외데고르, 데클런 라이스, 부카요 사카. 아스널 공식 캠페인 사진 세 장을 나란히 붙여 삥이FC가 편집한 표지다. Photos: Arsenal FC · adidas'
+coverImageCaption: '왼쪽부터 마르틴 외데고르, 데클런 라이스, 부카요 사카. 아스널 공식 캠페인 사진 세 장을 나란히 붙인 표지. Photos: Arsenal FC · adidas'
 coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
@@ -51,7 +51,7 @@ featured: false
   <small class="ar-credit">Photos: Arsenal FC</small>
 </div>
 
-세 사람을 찍은 방식은 서로 다르다. 외데고르는 전신으로 서서 셔츠가 바지와 만나는 비율까지 보여주고, 라이스는 얼굴과 칼라를 화면 가득 채워 셔츠의 목선을 가장 가까이에서 드러낸다. 사카는 사진의 빛을 받는 방식이 달라서, 표정보다 붉은 몸판과 흰 소매의 대비가 먼저 들어온다. 같은 셔츠를 한 번은 옷의 비율로, 한 번은 얼굴 옆의 색으로, 한 번은 실루엣으로 보게 만든 배치다.
+세 사람을 찍은 방식은 서로 다르다. 외데고르는 전신으로 서서 셔츠가 바지와 만나는 비율까지 보여주고, 라이스는 얼굴과 칼라를 화면 가득 채워 셔츠의 목선을 가장 가까이에서 드러낸다. 사카는 사진의 빛을 받는 방식이 달라서, 표정보다 붉은 몸판과 흰 소매의 대비가 먼저 들어온다. 같은 셔츠가 외데고르에게서는 옷의 비율로, 라이스에게서는 얼굴 옆의 색으로, 사카에게서는 실루엣으로 읽힌다.
 
 <aside class="ar-note">
   <span>CAST NOTE</span>
@@ -100,7 +100,7 @@ featured: false
   <div class="ar-badge__stat" aria-label="2003/04시즌 이후 22년 만의 우승"><span>LAST TITLE 2003/04</span><strong>22</strong><small>YEARS · CHAMPIONS 2025/26</small></div>
   <div class="ar-badge__copy">
     <p>프리미어 리그는 2015/16시즌부터 우승팀이 타이틀을 방어하는 다음 시즌 동안 소매에 금색 리그 패치를 달게 해 왔다. 2025/26시즌 정상에 오른 아스널이 이번 시즌 그 금색을 단다. 아스널 공식 스토어는 새 홈 셔츠를 살 때 금색 프리미어 리그 로고를 온라인과 매장에서 추가할 수 있다고 안내한다.</p>
-    <p>아디다스 코리아 상품 페이지에는 2026년 9월 11일 확인 기준으로 패치 선택 항목이 보이지 않는다. 경기에서 보는 금색 패치까지 붙인 셔츠를 원한다면 아래 제휴 링크의 기본 셔츠와 아스널 공식 스토어의 패치 옵션을 나눠서 비교해야 한다.</p>
+    <p>아디다스 코리아에서는 금색 패치를 따로 고를 수 없다. 경기에서 보는 금색 패치까지 붙인 셔츠를 원한다면 아래 기본 셔츠와 아스널 공식 스토어의 패치 옵션을 나눠서 비교하면 된다.</p>
   </div>
 </div>
 

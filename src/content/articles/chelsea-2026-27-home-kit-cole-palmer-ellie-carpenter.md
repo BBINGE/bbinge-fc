@@ -9,7 +9,7 @@ updatedDate: 2026-09-11T20:35:00+09:00
 coverImage: '/images/culture/chelsea-2627-home/cover.webp'
 cardImage: '/images/culture/chelsea-2627-home/card.webp'
 coverImageAlt: '첼시 2026/27 홈 유니폼을 입은 콜 파머와 엘리 카펜터'
-coverImageCaption: '왼쪽은 콜 파머, 오른쪽은 엘리 카펜터. 첼시 공식 캠페인 사진 두 장을 나란히 붙여 삥이FC가 편집한 표지다. Photos: Chelsea FC'
+coverImageCaption: '왼쪽은 콜 파머, 오른쪽은 엘리 카펜터. 첼시 공식 캠페인 사진 두 장을 나란히 붙인 표지. Photos: Chelsea FC'
 coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
@@ -141,7 +141,7 @@ featured: false
 
 같은 홈 셔츠라도 무엇을 원하느냐에 따라 고를 곳이 달라진다. 나이키 코리아는 드라이 핏을 쓴 스타디움 레플리카와 에어로 핏을 쓴 매치 어센틱을 판매하고, 선수 이름과 번호 마킹은 첼시 공식 스토어의 맞춤 제작에서 고를 수 있다.
 
-<div class="ch-sales-note" role="note">아래 링크는 나이키 코리아와 첼시 공식 스토어의 상품 페이지이며 제휴 링크가 아닙니다. 국내에서 확인되는 공식 판매처를 우선해 연결했습니다.</div>
+<div class="ch-sales-note" role="note">아래 링크는 나이키 코리아와 첼시 공식 스토어의 상품 페이지이며 제휴 링크가 아닙니다.</div>
 
 <div class="ch-shop-grid" aria-label="첼시 2026/27 홈 유니폼 공식 구매 선택">
   <a class="ch-shop-card ch-shop-card--main" href="https://www.nike.com/kr/t/%EC%B2%BC%EC%8B%9C-fc-2026-27-%EC%8A%A4%ED%83%80%EB%94%94%EC%9B%80-%ED%99%88-%EB%82%A8%EC%84%B1-%EB%82%98%EC%9D%B4%ED%82%A4-%EB%93%9C%EB%9D%BC%EC%9D%B4-%ED%95%8F-%EC%B6%95%EA%B5%AC-%EB%A0%88%ED%94%8C%EB%A6%AC%EC%B9%B4-%EC%A0%80%EC%A7%80-G6YIYvtZ/II1904-453" target="_blank" rel="noopener noreferrer">

@@ -9,7 +9,7 @@ updatedDate: 2026-09-11T22:10:00+09:00
 coverImage: '/images/culture/manutd-2627-home/cover.webp'
 cardImage: '/images/culture/manutd-2627-home/card.webp'
 coverImageAlt: '맨체스터 유나이티드 2026/27 긴소매 홈 유니폼을 입은 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누'
-coverImageCaption: '왼쪽부터 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누. 2026년 9월 10일 사바전 공식 사진 세 장을 나란히 붙여 삥이FC가 편집한 표지다. Photos: Manchester United'
+coverImageCaption: '왼쪽부터 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누. 2026년 9월 10일 사바전 공식 사진 세 장을 나란히 붙인 표지. Photos: Manchester United'
 coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
@@ -49,9 +49,9 @@ featured: false
   <small class="mu-credit">Photos: Manchester United</small>
 </div>
 
-구단과 아디다스의 홈 캠페인 스튜디오에는 해리 매과이어, 아마드, 음뵈모, 레니 요로, 파트리크 도르구<span class="foreign-note" lang="da">(Patrick Dorgu; 덴마크 축구 선수, 2004년생)</span>와 여자팀 선수들이 섰다. 브루노와 리산드로, 마이누의 사진은 9월 10일 밤 올드 트래퍼드에서 찍혔다. 조명탑 불빛 아래에서 몸판의 빨강은 스튜디오 컷보다 짙게 가라앉고, 팔을 따라 내려가는 흰 줄과 칼라의 가는 테두리가 한층 또렷해진다.
+9월 10일 밤 올드 트래퍼드의 조명탑 불빛 아래에서 몸판의 빨강은 짙게 가라앉고, 팔을 따라 내려가는 흰 줄과 칼라의 가는 테두리가 한층 또렷해진다.
 
-브루노는 2025/26시즌을 프리미어 리그 올해의 선수와 FWA 올해의 선수로 마쳤다. 새 셔츠의 첫 경기에서 20번째 도움을 올린 뒤 마지막 경기인 브라이턴전에서 코너킥으로 도르구의 헤더 선제골을 도와 21도움을 채웠고, 티에리 앙리<span class="foreign-note" lang="fr">(Thierry Henry; 프랑스 축구 선수, 1977년생)</span>와 케빈 더브라위너<span class="foreign-note" lang="nl">(Kevin De Bruyne; 벨기에 축구 선수, 1991년생)</span>가 함께 갖고 있던 기록을 넘어섰다. 사바전 두 번째 골은 유리 틸레만스<span class="foreign-note" lang="nl">(Youri Tielemans; 벨기에 축구 선수, 1997년생)</span>와 호흡을 맞춘 끝에 직접 넣었다.
+브루노는 2025/26시즌을 프리미어 리그 올해의 선수와 FWA 올해의 선수로 마쳤다. 새 셔츠의 첫 경기에서 20번째 도움을 올린 뒤 마지막 경기인 브라이턴전에서 코너킥으로 파트리크 도르구<span class="foreign-note" lang="da">(Patrick Dorgu; 덴마크 축구 선수, 2004년생)</span>의 헤더 선제골을 도와 21도움을 채웠고, 티에리 앙리<span class="foreign-note" lang="fr">(Thierry Henry; 프랑스 축구 선수, 1977년생)</span>와 케빈 더브라위너<span class="foreign-note" lang="nl">(Kevin De Bruyne; 벨기에 축구 선수, 1991년생)</span>가 함께 갖고 있던 기록을 넘어섰다. 사바전 두 번째 골은 유리 틸레만스<span class="foreign-note" lang="nl">(Youri Tielemans; 벨기에 축구 선수, 1997년생)</span>와 호흡을 맞춘 끝에 직접 넣었다.
 
 리산드로의 골은 그가 올드 트래퍼드에서 넣은 첫 골이었다. 이전 세 골은 모두 아스널, 리버풀, 풀럼 원정에서 나왔다. 조슈아 지르크제이<span class="foreign-note" lang="nl">(Joshua Zirkzee; 네덜란드 축구 선수, 2001년생)</span>의 뒤꿈치 패스를 가까운 거리에서 차 넣은 그는 경기 뒤 MUTV 인터뷰에서 “이 아름다운 경기장에서, 위층에서 여자친구가 지켜보는 가운데 골을 넣었다. 더 바랄 게 없다”고 말했다.
 
@@ -60,7 +60,7 @@ featured: false
 <aside class="mu-note">
   <span>LONG SLEEVE NOTE</span>
   <strong>복귀전의 밤에는 세 사람 모두 긴소매였어요</strong>
-  <p>사진 속 브루노, 리산드로, 마이누는 소매가 손목까지 내려오는 긴소매 홈 셔츠를 입었다. 흰 줄 세 개가 팔 전체를 따라 내려가다가 줄무늬 커프스에서 닫힌다. 아래 구매 구간의 긴소매 홈 저지가 같은 디자인이라, 9월 밤 경기장 사진의 실루엣을 그대로 옮겨 입을 수 있다.</p>
+  <p>사진 속 브루노, 리산드로, 마이누는 소매가 손목까지 내려오는 긴소매 홈 셔츠를 입었다. 흰 줄 세 개가 팔 전체를 따라 내려가다가 줄무늬 커프스에서 닫힌다. 아래에서 고를 수 있는 롱 슬리브 홈 저지가 같은 디자인이라, 9월 밤 경기장 사진의 실루엣을 그대로 옮겨 입을 수 있다.</p>
 </aside>
 
 ## 50년 전 웸블리의 폴로 칼라를 다시 달았어요
@@ -156,7 +156,7 @@ featured: false
   </a>
 </div>
 
-블랙핑크 제니는 2022년 ‘Pink Venom’에서 맨유의 팀가이스트 프리매치 저지를 입었고, 에이핑크 오하영은 베컴 시대의 레트로 셔츠를 스팽글 스커트와 데님에 붙였다. 두 사람의 셔츠는 이번 시즌보다 앞선 모델이다. 맨유의 빨강과 검정을 일상복으로 옮기는 방법은 새 홈 셔츠에도 그대로 통한다.
+블랙핑크 제니는 2022년 ‘Pink Venom’에서 맨유의 팀가이스트 프리매치 저지를 입었고, 에이핑크 오하영은 베컴 시대의 레트로 셔츠를 스팽글 스커트와 데님에 붙였다. 두 사람이 맨유의 빨강과 검정을 일상복으로 옮긴 방법은 새 홈 셔츠에도 그대로 통한다.
 
 ## 일반·어센틱·긴소매, 그리고 우리 집 강아지 셔츠
 
