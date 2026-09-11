@@ -130,6 +130,58 @@
       "productCode": "KB9950",
       "status": "active",
       "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-manutd-ka6871",
+      "label": "맨체스터 유나이티드 2026/27 홈 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/PajZOV",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A7%A8%EC%B2%B4%EC%8A%A4%ED%84%B0-%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-26-27-%ED%99%88-%EC%A0%80%EC%A7%80/KA6871.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KA6871",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-manutd-ka6868",
+      "label": "맨체스터 유나이티드 2026/27 어센틱 홈 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/uvFDqF",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A7%A8%EC%B2%B4%EC%8A%A4%ED%84%B0-%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-26-27-%EC%96%B4%EC%84%BC%ED%8B%B1-%ED%99%88-%EC%A0%80%EC%A7%80/KA6868.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KA6868",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-manutd-kc4773",
+      "label": "맨체스터 유나이티드 2026/27 롱 슬리브 홈 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/pTEJKc",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A7%A8%EC%B2%B4%EC%8A%A4%ED%84%B0-%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-26-27-%EB%A1%B1-%EC%8A%AC%EB%A6%AC%EB%B8%8C-%ED%99%88-%EC%A0%80%EC%A7%80/KC4773.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KC4773",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-manutd-kx3899",
+      "label": "맨체스터 유나이티드 펫 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/Zv5sDw",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A7%A8%EC%B2%B4%EC%8A%A4%ED%84%B0-%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-%ED%8E%AB-%EC%A0%80%EC%A7%80/KX3899.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KX3899",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
     }
   ]
 }
