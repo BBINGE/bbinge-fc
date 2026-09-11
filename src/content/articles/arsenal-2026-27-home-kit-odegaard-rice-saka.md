@@ -158,7 +158,7 @@ featured: false
 
 같은 홈 셔츠라도 입는 자리에 따라 고를 옷이 달라진다. 아디다스 코리아는 팬 버전을 “일상까지 편안하고 자유로운 스타일링”으로, 선수 버전을 “정상급 선수들이 실전에서 착용하는” 엘리트 레벨의 퍼포먼스 저지로 나눈다. 두 버전의 가격 차이는 70,000원이고, 긴소매는 팬 버전보다 10,000원 높다.
 
-<p class="ar-affiliate-disclosure">이 구간에는 애드픽을 통한 아디다스 코리아 제휴 링크가 포함되어 있습니다. 링크를 통해 구매가 이루어지면 삥이FC가 수수료를 받을 수 있으며 구매자에게 추가 비용은 없습니다.</p>
+<div class="ar-affiliate-disclosure" role="note">이 구간에는 애드픽을 통한 아디다스 코리아 제휴 링크가 포함되어 있습니다. 링크를 통해 구매가 이루어지면 삥이FC가 수수료를 받을 수 있으며 구매자에게 추가 비용은 없습니다.</div>
 
 <div class="ar-shop-grid" aria-label="아스널 2026/27 홈 유니폼 세 가지 선택">
   <a class="ar-shop-card ar-shop-card--main" href="/go/adidas-arsenal-jz3168" target="_blank" rel="sponsored noopener noreferrer" data-affiliate-link data-affiliate-network="adpick" data-affiliate-merchant="Adidas Korea" data-affiliate-product="JZ3168">
@@ -186,7 +186,7 @@ featured: false
   </a>
 </div>
 
-<p class="ar-commercial-note">가격과 판매 상태는 2026년 9월 11일 아디다스 코리아 확인 기준이며 이후 달라질 수 있습니다. 상품 영상과 모델 이미지는 아디다스 코리아 상품 페이지의 공식 자료입니다.</p>
+<div class="ar-commercial-note">가격과 판매 상태는 2026년 9월 11일 아디다스 코리아 확인 기준이며 이후 달라질 수 있습니다. 상품 영상과 모델 이미지는 아디다스 코리아 상품 페이지의 공식 자료입니다.</div>
 
 <a class="ar-patch-link" href="https://www.arsenal.com/news/get-your-gold-premier-league-badge-now-a3Qja1n47DHd" target="_blank" rel="noopener noreferrer"><span><small>GOLD PATCH OPTION</small><strong>금색 챔피언 패치 추가 방법은 아스널 공식 안내에서</strong></span><i aria-hidden="true">→</i></a>
 
@@ -265,7 +265,7 @@ featured: false
   .ar-allure>.ar-credit{color:rgba(255,255,255,.55)}
   .ar-offpitch{position:relative;left:50%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;width:min(1040px,calc(100vw - 32px));margin:42px 0 58px;transform:translateX(-50%)}
   .ar-offpitch img{display:block;width:100%;aspect-ratio:4/5;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover}
-  .ar-affiliate-disclosure{position:relative;left:50%;width:min(1040px,calc(100vw - 32px));margin:34px 0 18px;padding:15px 18px;border:1px solid #ead7d9;border-radius:var(--bbfc-radius-md);background:#fbf5f5;color:#54464a;font-size:12px;line-height:1.65;transform:translateX(-50%)}
+  .ar-affiliate-disclosure{position:relative;left:50%;width:min(1120px,calc(100vw - 32px));margin:34px 0 18px;padding:15px 18px;border:1px solid #ead7d9;border-radius:var(--bbfc-radius-md);background:#fbf5f5;color:#54464a;font-size:12px;line-height:1.65;transform:translateX(-50%)}
   .ar-shop-grid{position:relative;left:50%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;width:min(1120px,calc(100vw - 32px));margin:18px 0;transform:translateX(-50%)}
   .ar-shop-card{position:relative;display:flex;min-width:0;overflow:hidden;border:1px solid #e3cfd2;border-radius:var(--bbfc-radius-lg);background:#fff;color:var(--bbfc-ink);text-decoration:none;flex-direction:column;cursor:pointer;transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease}
   .ar-shop-card:hover{border-color:#c8102e;color:var(--bbfc-ink);transform:translateY(-8px);box-shadow:0 26px 50px rgba(120,8,22,.22)}
@@ -293,7 +293,7 @@ featured: false
   .ar-shop-card--premium .ar-shop-card__cta{background:linear-gradient(102deg,#1b1812,#3a3020)}
   .ar-shop-card--premium:hover .ar-shop-card__cta{background:linear-gradient(102deg,#8c6a22,#e3bd62);color:#1e1405;box-shadow:0 16px 34px rgba(176,138,46,.42)}.ar-shop-card--premium:hover .ar-shop-card__cta i{color:#1e1405}
   @keyframes ar-shine{0%,60%{left:-40%}100%{left:130%}}
-  .ar-commercial-note{margin:0 0 18px;color:var(--bbfc-gray-2);font-size:11px;line-height:1.65;text-align:center}
+  .ar-commercial-note{position:relative;left:50%;width:min(1120px,calc(100vw - 32px));margin:0 0 18px;transform:translateX(-50%);color:var(--bbfc-gray-2);font-size:11px;line-height:1.65;text-align:center}
   .ar-patch-link{display:flex;align-items:center;justify-content:space-between;gap:18px;width:min(640px,100%);margin:0 auto 60px;padding:15px 20px;border:1px solid #d9c188;border-radius:999px;background:linear-gradient(100deg,#fffaf0,#fff);color:#2a2112;text-decoration:none;transition:border-color .3s ease,transform .3s ease}
   .ar-patch-link small{display:block;color:#8c6a22;font-size:11px;font-weight:850;letter-spacing:.12em}
   .ar-patch-link strong{display:block;margin-top:3px;font-size:14px}
