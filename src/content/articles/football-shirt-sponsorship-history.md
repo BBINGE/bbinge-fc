@@ -7,7 +7,8 @@ category: 'history'
 tags: ['축구 유니폼 스폰서', '유니폼 광고 역사', '셔츠 스폰서', '축구 유니폼 역사', '레플리카 유니폼', '축구 산업']
 pubDate: 2026-08-27T15:40:00+09:00
 coverImage: '/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp'
-cardImage: '/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-video-thumb.webp'
+cardImage: '/images/history/football-shirt-sponsorship-history/barcelona-travis-scott-card.webp'
+cardImageAlt: '캑터스 잭 로고가 들어간 FC 바르셀로나 유니폼을 입고 한 손을 머리에 올린 트래비스 스콧'
 coverImageAlt: '캑터스 잭 로고가 들어간 FC 바르셀로나 유니폼을 입은 트래비스 스콧과 모델'
 coverImageCaption: '셀럽이 스폰서 셔츠를 입는 단계를 넘어, 그의 시각 정체성이 셔츠의 가장 비싼 광고면을 차지했다. 트래비스 스콧과 FC 바르셀로나의 Cactus Jack 협업. Video still: FC Barcelona official YouTube, 2025.'
 coverImageWidth: 1280
