@@ -47,23 +47,10 @@ featured: false
 
 두 사진은 같은 조명과 같은 표정을 요구한다. 어두운 배경에 얼굴의 윗부분만 빛을 받게 두고, 웃음 대신 노려보는 눈빛으로 캠페인 문구 ‘Can’t Tame Us’를 옮겼다. 파머의 사진에서는 칼라 아래 단추와 가슴의 금색 장식이 먼저 들어오고, 카펜터의 사진에서는 백금발이 셔츠의 밝은 파랑을 한층 차갑게 만든다. 같은 셔츠인데 파머에게서는 무게가, 카펜터에게서는 선명한 색의 대비가 남는다.
 
-<aside class="ch-note ch-note--badges">
-  <div class="ch-note__copy">
-    <span>BADGE NOTE</span>
-    <strong>금색 원형 배지는 남자팀 셔츠에만 붙어 있어요</strong>
-    <p>캠페인 사진을 나란히 놓으면 파머·에스테방·리스 제임스·주앙 페드루·콜윌의 셔츠 가슴에는 ‘WORLD CHAMPIONS FIFA’ 금색 배지가 있고, 카펜터·로런 제임스·앨리사 톰프슨의 셔츠에는 없다. 같은 홈 셔츠라도 어느 팀의 사진인지에 따라 가슴의 금색이 달라진다.</p>
-  </div>
-  <div class="ch-note__marks">
-    <figure>
-      <span class="ch-note__mark ch-note__mark--crest"><img src="/images/culture/chelsea-2627-home/chelsea-crest-2026-27.webp" alt="첼시 FC 공식 구단 문장" width="480" height="480" loading="lazy" decoding="async" /></span>
-      <figcaption><b>CHELSEA FC</b>구단 공식 문장. 셔츠 가슴에는 이 안의 사자만 금색으로 들어간다.</figcaption>
-    </figure>
-    <figure>
-      <span class="ch-note__mark ch-note__mark--fifa"><img src="/images/culture/chelsea-2627-home/fifa-world-champions-badge.webp" alt="금색 바탕에 WORLD CHAMPIONS와 FIFA가 새겨진 FIFA 월드 챔피언스 배지" width="1200" height="675" loading="lazy" decoding="async" /></span>
-      <figcaption><b>FIFA WORLD CHAMPIONS</b>클럽 월드컵 우승팀이 다음 대회까지 다는 배지.</figcaption>
-    </figure>
-    <small class="ch-credit">Crest: Chelsea FC · Badge image: FIFA</small>
-  </div>
+<aside class="ch-note">
+  <span>BADGE NOTE</span>
+  <strong>금색 원형 배지는 남자팀 셔츠에만 붙어 있어요<span class="ch-note__icons"><img src="/images/culture/chelsea-2627-home/chelsea-crest-icon.png" alt="첼시 FC 문장" title="첼시 FC" width="128" height="128" loading="lazy" decoding="async" /><img src="/images/culture/chelsea-2627-home/fifa-world-champions-icon.png" alt="FIFA 월드 챔피언스 배지" title="FIFA WORLD CHAMPIONS" width="128" height="128" loading="lazy" decoding="async" /></span></strong>
+  <p>캠페인 사진을 나란히 놓으면 파머·에스테방·리스 제임스·주앙 페드루·콜윌의 셔츠 가슴에는 ‘WORLD CHAMPIONS FIFA’ 금색 배지가 있고, 카펜터·로런 제임스·앨리사 톰프슨의 셔츠에는 없다. 같은 홈 셔츠라도 어느 팀의 사진인지에 따라 가슴의 금색이 달라진다.</p>
 </aside>
 
 이 배지는 2025년 여름의 결승에서 왔다. 첼시는 7월 13일 뉴저지 메트라이프 스타디움에서 열린 FIFA 클럽 월드컵 결승에서 파리 생제르맹을 3-0으로 이겼고, 파머는 22분과 30분에 왼발로 두 골을 넣은 뒤 43분 주앙 페드루<span class="foreign-note" lang="pt-BR">(João Pedro; 브라질 축구 선수, 2001년생)</span>의 칩슛 골까지 도왔다. 첼시는 다음 대회의 일정이 확정되지 않은 상태에서 2026/27시즌에도 이 우승 배지를 달 수 있도록 프리미어 리그에 요청했다.
@@ -229,17 +216,8 @@ featured: false
   .ch-note>span{color:#1532a8;font-size:11px;font-weight:850;letter-spacing:.15em}
   .ch-note strong{display:block;margin:7px 0 9px;font-size:19px}
   .ch-note p{margin:0;color:#343a4d}
-  .ch-note--badges{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(250px,.75fr);gap:clamp(1.2rem,3vw,2.4rem);align-items:center}
-  .ch-note__marks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-  .ch-note__marks figure{min-width:0;margin:0}
-  .ch-note__mark{display:grid;place-items:center;aspect-ratio:1/1;overflow:hidden;border:1px solid #dfe4f2;border-radius:var(--bbfc-radius-md);background:#fff}
-  .ch-note__mark img{display:block;width:100%;height:100%;margin:0;object-fit:cover}
-  .ch-note__mark--crest{padding:16px}
-  .ch-note__mark--crest img{object-fit:contain}
-  .ch-note__mark--fifa img{transform:scale(1.35)}
-  .article-body .ch-note__marks figcaption{margin-top:8px;color:#4b5368;font-size:11px;line-height:1.5;text-align:left}
-  .ch-note__marks figcaption b{display:block;margin-bottom:2px;color:#1532a8;font-size:11px;letter-spacing:.06em}
-  .ch-note__marks>.ch-credit{grid-column:1/-1;text-align:right}
+  .ch-note__icons{display:inline-flex;gap:5px;margin-left:8px;vertical-align:-7px;white-space:nowrap}
+  .article-body .ch-note__icons img{display:block;width:28px;height:28px;margin:0;border-radius:50%;filter:drop-shadow(0 1px 2px rgba(20,32,80,.18))}
   .ch-design{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(1.5rem,4vw,3.8rem);align-items:center;width:min(1040px,calc(100vw - 32px));margin:42px 0 58px;transform:translateX(-50%)}
   .ch-design figure{margin:0}
   .ch-design img{display:block;width:100%;aspect-ratio:1/1;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover}
@@ -310,7 +288,7 @@ featured: false
   .ch-next:focus-visible{outline:3px solid #f0c75a;outline-offset:4px}
   @media(max-width:1000px){.ch-squad{grid-template-columns:repeat(2,minmax(0,1fr))}.ch-allure{grid-template-columns:repeat(2,minmax(0,1fr))}.ch-allure__lead{grid-column:1/-1}.ch-allure img{height:auto;min-height:0;aspect-ratio:4/5}.article-body .ch-allure figcaption{position:static;padding:12px 13px 14px;background:#060b1f}}
   @media(max-width:900px){.ch-shop-grid{grid-template-columns:1fr}.ch-shop-card{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}.ch-shop-card__media{aspect-ratio:auto;min-height:340px}.ch-spotted{grid-template-columns:repeat(2,minmax(0,1fr))}}
-  @media(max-width:720px){.ch-note--badges{grid-template-columns:1fr}.ch-index,.ch-manifesto,.ch-design,.ch-next{grid-template-columns:1fr}.ch-index>div,.ch-manifesto article{min-height:0;padding:22px 21px 24px}.ch-manifesto article+article{border-top:1px solid rgba(255,255,255,.17);border-left:0}.ch-shop-card{display:flex}.ch-shop-card__media{aspect-ratio:4/5;min-height:0}.ch-next{gap:22px}.ch-next__cta{width:100%;min-width:0}.ch-next__thumb{order:-1;height:auto;aspect-ratio:16/9}}
+  @media(max-width:720px){.ch-index,.ch-manifesto,.ch-design,.ch-next{grid-template-columns:1fr}.ch-index>div,.ch-manifesto article{min-height:0;padding:22px 21px 24px}.ch-manifesto article+article{border-top:1px solid rgba(255,255,255,.17);border-left:0}.ch-shop-card{display:flex}.ch-shop-card__media{aspect-ratio:4/5;min-height:0}.ch-next{gap:22px}.ch-next__cta{width:100%;min-width:0}.ch-next__thumb{order:-1;height:auto;aspect-ratio:16/9}}
   @media(max-width:600px){.ch-duo,.ch-allure,.ch-spotted{grid-template-columns:1fr}}
   @media(max-width:520px){.ch-index,.ch-duo,.ch-design,.ch-manifesto,.ch-spotted,.ch-squad,.ch-allure{margin-top:36px;margin-bottom:48px}.ch-hero{margin-bottom:48px}.ch-duo,.ch-squad{gap:10px}.ch-allure{gap:10px;padding:10px}.article-body .ch-allure figcaption{padding:12px 13px 14px}.ch-shop-grid{gap:20px}.ch-next{gap:0;min-height:0;margin:52px auto 58px;padding:0}.ch-next__content{padding:24px 22px 25px}.ch-next__copy strong{font-size:30px}.ch-next__cta{padding:13px 15px 13px 17px;font-size:15px}.ch-next__thumb{border-width:0 0 1px;border-radius:0}}
   @media(prefers-reduced-motion:reduce){.ch-shop-card,.ch-shop-card__media img,.ch-shop-card__media video,.ch-shop-card__cta,.ch-shop-card__cta i,.ch-allure img,.ch-next,.ch-next__cta b,.ch-next__thumb img{transition:none}.ch-shop-card__cta::after{animation:none}.ch-shop-card:hover,.ch-shop-card:hover .ch-shop-card__media img,.ch-shop-card:hover .ch-shop-card__media video,.ch-allure figure:hover img,.ch-next:hover,.ch-next:hover .ch-next__thumb img{transform:none}}
