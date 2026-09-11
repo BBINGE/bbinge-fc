@@ -6,6 +6,25 @@ import { site } from '../config/site';
 import { isNewlyPublished } from '../utils/freshness';
 import TodayFootball from '../components/TodayFootball.astro';
 import { imageFocusStyle } from '../utils/imageFocus';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import sharp from 'sharp';
+
+// 메인 1:1 칸 규칙: 정사각형 편집물은 잘리지 않게 contain, 가로·세로로 긴 사진은 초점값 기준 cover로 채운다.
+const squareTolerance = 0.15;
+const imageShapeCache = new Map<string, boolean>();
+const needsFill = async (src?: string) => {
+  if (!src || !src.startsWith('/')) return false;
+  if (imageShapeCache.has(src)) return imageShapeCache.get(src)!;
+  const file = join(process.cwd(), 'public', src.split(/[?#]/, 1)[0]);
+  let fill = false;
+  if (existsSync(file)) {
+    const { width, height } = await sharp(file).metadata();
+    if (width && height) fill = Math.abs(width / height - 1) > squareTolerance;
+  }
+  imageShapeCache.set(src, fill);
+  return fill;
+};
 
 const deskForCategory = (category: string) => {
   const root = getAncestorChain(category)[0];
@@ -80,6 +99,13 @@ const featuredHrefs = new Set([lead?.href, ...deskStories.map((item) => item.hre
 const rollingFeed = editorialFeed.filter((item) => !featuredHrefs.has(item.href));
 const latest = rollingFeed.slice(0, 8);
 const moreStories = rollingFeed.slice(8, 14);
+
+// 메인의 모든 칸은 정사각 카드 이미지(cardImage)를 먼저 쓰고, 없을 때만 대표 이미지로 내려간다.
+const homeFill = new Map<string, boolean>();
+for (const item of [lead, ...deskStories, ...latest, ...moreStories]) {
+  if (item?.cardImage) homeFill.set(item.cardImage, await needsFill(item.cardImage));
+}
+const fillClass = (src?: string) => (src && homeFill.get(src) ? 'media-frame--fill' : undefined);
 ---
 
 <Layout title={site.name} description={site.homeDescription} breadcrumbs={[{ label: '홈', href: '/' }]}>
@@ -106,9 +132,9 @@ const moreStories = rollingFeed.slice(8, 14);
           </div>
 
           <a href={lead.href} class="lead-story group">
-            <div class:list={['lead-image', 'media-frame', { 'lead-image--cover-fill': lead.id === 'ernst-happel-three-champions-league-finals-tactics' }]}>
-              {lead.coverImage ? (
-                <img src={lead.coverImage} alt={lead.coverImageAlt} width="1200" height="675" sizes="(max-width: 700px) calc(100vw - 32px), (max-width: 1100px) 55vw, 680px" loading="eager" decoding="async" fetchpriority="high" style={imageFocusStyle(lead.coverImage, { zoom: false })} />
+            <div class:list={['lead-image', 'media-frame', fillClass(lead.cardImage)]}>
+              {lead.cardImage ? (
+                <img src={lead.cardImage} alt={lead.coverImageAlt} width="1200" height="675" sizes="(max-width: 700px) calc(100vw - 32px), (max-width: 1100px) 55vw, 680px" loading="eager" decoding="async" fetchpriority="high" style={imageFocusStyle(lead.cardImage, { zoom: false })} />
               ) : (
                 <span>이미지 준비 중</span>
               )}
@@ -141,7 +167,7 @@ const moreStories = rollingFeed.slice(8, 14);
           <div class="desk-grid">
             {deskStories.map((item, index) => (
               <a href={item.href} class="desk-story group">
-                <div class="desk-thumb media-frame">
+                <div class:list={['desk-thumb', 'media-frame', fillClass(item.cardImage)]}>
                   {item.cardImage ? <img src={item.cardImage} alt="" width="300" height="300" loading="lazy" decoding="async" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
                   <span class="desk-number">{String(index + 2).padStart(2, '0')}</span>
                 </div>
@@ -174,8 +200,8 @@ const moreStories = rollingFeed.slice(8, 14);
           {latest.length > 0 ? latest.map((item, index) => (
             <a href={item.href} class="latest-row">
               <span class="latest-index">{String(index + 1).padStart(2, '0')}</span>
-              <div class="latest-thumb media-frame">
-                {item.coverImage ? <img src={item.coverImage} alt="" loading="lazy" style={imageFocusStyle(item.coverImage, { zoom: false })} /> : <span>NO IMAGE</span>}
+              <div class:list={['latest-thumb', 'media-frame', fillClass(item.cardImage)]}>
+                {item.cardImage ? <img src={item.cardImage} alt="" loading="lazy" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
               </div>
               <div class="latest-copy">
                 <div class="story-meta"><span>{item.label}</span></div>
@@ -220,8 +246,8 @@ const moreStories = rollingFeed.slice(8, 14);
         <div class="more-grid">
           {moreStories.map((item) => (
             <a href={item.href} class="more-card group">
-              <div class="more-image media-frame">
-                {item.coverImage ? <img src={item.coverImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.coverImage, { zoom: false })} /> : <span>NO IMAGE</span>}
+              <div class:list={['more-image', 'media-frame', fillClass(item.cardImage)]}>
+                {item.cardImage ? <img src={item.cardImage} alt={item.coverImageAlt} loading="lazy" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
               </div>
               <div class="story-meta"><span>{item.label}</span><time datetime={item.pubDate.toISOString()}>{item.pubDate.toLocaleDateString('ko-KR')}</time></div>
               <h3>{item.title}</h3>
@@ -679,7 +705,7 @@ const moreStories = rollingFeed.slice(8, 14);
   .home-magazine :is(.desk-thumb,.latest-thumb,.more-image),
   .home-magazine .lobby-hero .lead-image { aspect-ratio:1; height:auto; min-height:0; align-self:start; }
   .home-magazine .media-frame img { object-fit:contain; }
-  .home-magazine .lobby-hero .lead-image--cover-fill img { object-fit:cover; object-position:80% 50%; }
+  .home-magazine .media-frame--fill img { object-fit:cover; }
   .home-magazine .group:hover .media-frame img { transform:none; }
   .home-magazine .desk-number { display:inline-flex; align-items:center; min-height:0; height:auto; }
   @media (max-width:900px) {

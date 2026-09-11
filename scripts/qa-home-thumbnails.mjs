@@ -22,9 +22,11 @@ try {
       await frame.locator('img').evaluate(img => img.decode());
       assert(await frame.evaluate(el => {
         const rect = el.getBoundingClientRect(), img = el.querySelector('img'), style = getComputedStyle(img);
-        const expectedFit = el.classList.contains('lead-image--cover-fill') ? 'cover' : 'contain';
-        return Math.abs(rect.width - rect.height) < 1 && style.objectFit === expectedFit && ['none','1'].includes(style.scale) && img.naturalWidth > 0;
-      }), 'square frame, intended editorial crop, no inherited face zoom');
+        // 합의 규칙: 정사각형(비율 차 15% 이내) 편집물은 contain, 그 밖의 사진은 media-frame--fill + cover
+        const nonSquare = Math.abs(img.naturalWidth / img.naturalHeight - 1) > 0.15;
+        const expectedFit = nonSquare ? 'cover' : 'contain';
+        return Math.abs(rect.width - rect.height) < 1 && el.classList.contains('media-frame--fill') === nonSquare && style.objectFit === expectedFit && ['none','1'].includes(style.scale) && img.naturalWidth > 0;
+      }), 'square frame, square editorial art kept whole, other photos filled, no inherited face zoom');
     }
     for (const label of await page.locator('.desk-number').all()) {
       assert((await label.boundingBox()).height < 36, 'number must not become a full-height strip');
