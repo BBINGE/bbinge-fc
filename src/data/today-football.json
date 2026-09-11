@@ -1,49 +1,7 @@
 {
-  "date": "2026-09-11",
-  "updatedAt": "2026-09-10T23:43:52.048Z",
+  "date": "2026-09-12",
+  "updatedAt": "2026-09-11T15:06:58.072Z",
   "matches": [
-    {
-      "id": "2594585",
-      "league": "UEFA 챔피언스 리그",
-      "home": "PSV 에인트호번",
-      "away": "샤흐타르 도네츠크",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "FT",
-      "progress": "",
-      "time": "01:45",
-      "date": "2026-09-11"
-    },
-    {
-      "id": "2594538",
-      "league": "UEFA 챔피언스 리그",
-      "home": "맨체스터 유나이티드",
-      "away": "사바 FK",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
-      "homeScore": 4,
-      "awayScore": 0,
-      "status": "FT",
-      "progress": "",
-      "time": "04:00",
-      "date": "2026-09-11"
-    },
-    {
-      "id": "2594568",
-      "league": "UEFA 챔피언스 리그",
-      "home": "바이에른 뮌헨",
-      "away": "Bodø/Glimt",
-      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
-      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/uqpwwx1449165943.png",
-      "homeScore": 5,
-      "awayScore": 0,
-      "status": "FT",
-      "progress": "",
-      "time": "04:00",
-      "date": "2026-09-11"
-    },
     {
       "id": "2489110",
       "league": "에레디비시",
