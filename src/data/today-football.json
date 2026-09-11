@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-11T17:31:18.988Z",
+  "updatedAt": "2026-09-11T19:08:25.628Z",
   "matches": [
     {
       "id": "2489110",
@@ -9,9 +9,9 @@
       "away": "Willem II",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/wtqwvv1473534757.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ushlnc1666107465.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "HT",
       "progress": "",
       "time": "03:00",
       "date": "2026-09-12"
@@ -23,9 +23,9 @@
       "away": "샬케 04",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/q0o5001599679795.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hnci291621593978.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "1H",
       "progress": "",
       "time": "03:30",
       "date": "2026-09-12"
@@ -51,9 +51,9 @@
       "away": "피오렌티나",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "03:45",
       "date": "2026-09-12"
@@ -126,6 +126,48 @@
       "status": "NS",
       "progress": "",
       "time": "22:30",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "2494032",
+      "league": "프리미어 리그",
+      "home": "리버풀",
+      "away": "풀럼",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/xwwvyt1448811086.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "23:00",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "2494031",
+      "league": "프리미어 리그",
+      "home": "본머스",
+      "away": "브렌트퍼드",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/y08nak1534071116.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/grv1aw1546453779.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "23:00",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "2506217",
+      "league": "라리가",
+      "home": "오사수나",
+      "away": "에스파뇰",
+      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/rvspvt1473502960.png",
+      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/867nzz1681703222.png",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "progress": "",
+      "time": "23:15",
       "date": "2026-09-12"
     }
   ],
