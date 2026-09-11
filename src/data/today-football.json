@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-11T19:08:25.628Z",
+  "updatedAt": "2026-09-11T20:28:34.459Z",
   "matches": [
     {
       "id": "2489110",
@@ -10,8 +10,8 @@
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/wtqwvv1473534757.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ushlnc1666107465.png",
       "homeScore": 1,
-      "awayScore": 0,
-      "status": "HT",
+      "awayScore": 1,
+      "status": "FT",
       "progress": "",
       "time": "03:00",
       "date": "2026-09-12"
@@ -24,8 +24,8 @@
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/q0o5001599679795.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hnci291621593978.png",
       "homeScore": 0,
-      "awayScore": 1,
-      "status": "1H",
+      "awayScore": 2,
+      "status": "2H",
       "progress": "",
       "time": "03:30",
       "date": "2026-09-12"
@@ -37,9 +37,9 @@
       "away": "올랭피크 드 마르세유",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/ypturx1473504818.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/c6bazh1779212287.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
       "progress": "",
       "time": "03:45",
       "date": "2026-09-12"
@@ -51,9 +51,9 @@
       "away": "피오렌티나",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "1H",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "HT",
       "progress": "",
       "time": "03:45",
       "date": "2026-09-12"
@@ -65,9 +65,9 @@
       "away": "발렌시아",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/vpsqqx1473502977.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
       "progress": "",
       "time": "04:00",
       "date": "2026-09-12"
