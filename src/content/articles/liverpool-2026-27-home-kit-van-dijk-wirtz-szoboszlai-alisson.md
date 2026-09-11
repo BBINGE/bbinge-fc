@@ -214,7 +214,7 @@ featured: false
 
 <a class="lv-next" href="/culture/manchester-united-2026-27-home-kit-bruno-lisandro-mainoo/" aria-label="맨유 2026/27 홈 유니폼 글 더 보기">
   <span class="lv-next__content"><span class="lv-next__copy"><small>NEXT KIT STORY · 03F 유니폼관</small><strong>안필드의 빨강 다음은<br />맨유의 빨강</strong><span>브루노·리산드로·마이누가 복귀전에서 입은 2026/27 홈 셔츠로 이어서 봅니다.</span></span><span class="lv-next__cta">맨유 홈 유니폼 보러 가기 <b aria-hidden="true">→</b></span></span>
-  <span class="lv-next__thumb"><img src="/images/culture/manutd-2627-home/card.webp" alt="맨체스터 유나이티드 2026/27 홈 유니폼을 입은 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누" width="900" height="900" loading="lazy" decoding="async" /><span>MANCHESTER UNITED 26/27</span></span>
+  <span class="lv-next__thumb"><img src="/images/culture/manutd-2627-home/cover.webp" alt="맨체스터 유나이티드 2026/27 홈 유니폼을 입은 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누" width="1600" height="900" loading="lazy" decoding="async" /><span>MANCHESTER UNITED 26/27</span></span>
 </a>
 
 <section class="source-notes">
@@ -279,11 +279,11 @@ featured: false
   .lv-record__copy p+p{margin-top:1rem;color:rgba(255,255,255,.76)}
   .lv-night{position:relative;left:50%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;width:min(860px,calc(100vw - 32px));margin:36px 0 58px;transform:translateX(-50%)}
   .lv-night img{display:block;width:100%;aspect-ratio:4/5;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover}
-  .lv-allure{position:relative;left:50%;display:grid;grid-template-columns:1.25fr repeat(3,minmax(0,1fr));gap:14px;width:min(1120px,calc(100vw - 32px));margin:42px 0 56px;padding:14px;border-radius:var(--bbfc-radius-lg);background:linear-gradient(135deg,#0c0c0f,#3a0a12 60%,#0c0c0f);transform:translateX(-50%)}
+  .lv-allure{position:relative;left:50%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;width:min(1120px,calc(100vw - 32px));margin:42px 0 56px;padding:14px;border-radius:var(--bbfc-radius-lg);background:linear-gradient(135deg,#0c0c0f,#3a0a12 60%,#0c0c0f);transform:translateX(-50%)}
   .lv-allure figure{position:relative;min-width:0;margin:0;overflow:hidden;border-radius:calc(var(--bbfc-radius-lg) - 4px);background:#000}
-  .lv-allure img{display:block;width:100%;height:100%;min-height:380px;margin:0;object-fit:cover;object-position:center top;transition:transform .6s ease}
+  .lv-allure img{display:block;width:100%;aspect-ratio:4/5;height:auto;margin:0;object-fit:cover;object-position:center 12%;transition:transform .6s ease}
   .lv-allure figure:hover img{transform:scale(1.04)}
-  .article-body .lv-allure figcaption{position:absolute;right:0;bottom:0;left:0;padding:60px 16px 16px;background:linear-gradient(transparent,rgba(8,2,4,.92));color:#fff;font-size:12px;line-height:1.55;text-align:left}
+  .article-body .lv-allure figcaption{position:static;padding:13px 13px 15px;background:#150709;color:#fff;font-size:12px;line-height:1.55;text-align:left}
   .lv-allure figcaption b{color:#6fe3cf;font-size:11px;letter-spacing:.1em}
   .lv-allure figcaption span{margin-top:5px;color:rgba(255,255,255,.86)}
   .lv-allure>.lv-credit{color:rgba(255,255,255,.55)}
@@ -347,13 +347,13 @@ featured: false
   .lv-next__cta{display:flex;align-items:center;justify-content:space-between;gap:24px;width:fit-content;min-width:340px;margin-top:26px;padding:14px 17px 14px 20px;border:1px solid rgba(255,255,255,.6);border-radius:999px;background:rgba(8,6,20,.45);color:#fff;font-size:16px;font-weight:800;backdrop-filter:blur(8px)}
   .lv-next__cta b{color:#6fe3cf;font-size:24px;line-height:1;transition:transform .3s ease}
   .lv-next__thumb{position:relative;display:block;height:248px;overflow:hidden;border:1px solid rgba(255,255,255,.4);border-radius:calc(var(--bbfc-radius-lg) - 4px);background:#101c37}
-  .lv-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 22%;transition:transform .55s ease}
+  .lv-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 30%;transition:transform .55s ease}
   .lv-next__thumb>span{position:absolute;right:12px;bottom:12px;padding:6px 10px;border:1px solid rgba(255,255,255,.45);border-radius:999px;background:rgba(8,13,44,.72);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;backdrop-filter:blur(8px)}
   .lv-next:hover{color:#fff;transform:translateY(-6px);box-shadow:0 28px 64px rgba(40,10,30,.34)}
   .lv-next:hover .lv-next__cta b{transform:translateX(5px)}
   .lv-next:hover .lv-next__thumb img{transform:scale(1.045)}
   .lv-next:focus-visible{outline:3px solid #6fe3cf;outline-offset:4px}
-  @media(max-width:1000px){.lv-cast{grid-template-columns:repeat(2,minmax(0,1fr))}.lv-allure{grid-template-columns:repeat(2,minmax(0,1fr))}.lv-allure img{height:auto;min-height:0;aspect-ratio:4/5}.article-body .lv-allure figcaption{position:static;padding:12px 13px 14px;background:#150709}}@media(max-width:600px){.lv-allure{grid-template-columns:1fr}}
+  @media(max-width:1000px){.lv-cast{grid-template-columns:repeat(2,minmax(0,1fr))}.lv-allure{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.lv-allure{grid-template-columns:1fr}}
   @media(max-width:900px){.lv-pet--bag{grid-template-columns:1fr}.lv-pet--bag .lv-pet__media{min-height:0;aspect-ratio:2/1}.lv-shop-grid{grid-template-columns:1fr}.lv-shop-card{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}.lv-shop-card__media{aspect-ratio:auto;min-height:320px}.lv-pet{grid-template-columns:1fr}.lv-pet__media{min-height:0;aspect-ratio:13/10}}
   @media(max-width:720px){.lv-index,.lv-manifesto,.lv-design,.lv-record,.lv-neck,.lv-next{grid-template-columns:1fr}.lv-index>div,.lv-manifesto article{min-height:0;padding:22px 21px 24px}.lv-manifesto article+article{border-top:1px solid rgba(255,255,255,.17);border-left:0}.lv-cast{grid-template-columns:repeat(2,minmax(0,1fr))}.lv-record__stat{padding:22px 20px}.lv-shop-card{display:flex}.lv-shop-card__media{aspect-ratio:1/1;min-height:0}.lv-pet__copy{padding:24px 21px 21px}.lv-next{gap:22px}.lv-next__cta{width:100%;min-width:0}.lv-next__thumb{order:-1;height:auto;aspect-ratio:16/9}}
   @media(max-width:520px){.lv-index,.lv-cast,.lv-design,.lv-manifesto,.lv-record,.lv-allure,.lv-night{margin-top:36px;margin-bottom:48px}.lv-hero{margin-bottom:48px}.lv-neck{margin-bottom:52px}.lv-cast,.lv-night{gap:10px}.lv-allure{gap:10px;padding:10px}.article-body .lv-allure figcaption{padding:12px 13px 14px;font-size:12px}.lv-shop-grid{gap:20px}.lv-pet__media{gap:4px;padding:4px}.lv-next{gap:0;min-height:0;margin:52px auto 58px;padding:0}.lv-next__content{padding:24px 22px 25px}.lv-next__copy strong{font-size:30px}.lv-next__cta{padding:13px 15px 13px 17px;font-size:15px}.lv-next__thumb{border-width:0 0 1px;border-radius:0}}

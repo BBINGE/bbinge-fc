@@ -205,7 +205,7 @@ featured: false
 
 <a class="mc-next" href="/culture/manchester-united-2026-27-home-kit-bruno-lisandro-mainoo/" aria-label="맨유 2026/27 홈 유니폼 글 더 보기">
   <span class="mc-next__content"><span class="mc-next__copy"><small>NEXT KIT STORY · 03F 유니폼관</small><strong>더비의 반대편은<br />맨유의 빨강</strong><span>일요일 올드 트래퍼드에서 마주칠 브루노·리산드로·마이누의 2026/27 홈 셔츠로 이어서 봅니다.</span></span><span class="mc-next__cta">맨유 홈 유니폼 보러 가기 <b aria-hidden="true">→</b></span></span>
-  <span class="mc-next__thumb"><img src="/images/culture/manutd-2627-home/card.webp" alt="맨체스터 유나이티드 2026/27 홈 유니폼을 입은 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누" width="900" height="900" loading="lazy" decoding="async" /><span>MANCHESTER UNITED 26/27</span></span>
+  <span class="mc-next__thumb"><img src="/images/culture/manutd-2627-home/cover.webp" alt="맨체스터 유나이티드 2026/27 홈 유니폼을 입은 브루노 페르난데스, 리산드로 마르티네스, 코비 마이누" width="1600" height="900" loading="lazy" decoding="async" /><span>MANCHESTER UNITED 26/27</span></span>
 </a>
 
 <section class="source-notes">
@@ -343,7 +343,7 @@ featured: false
   .mc-next__cta{display:flex;align-items:center;justify-content:space-between;gap:24px;width:fit-content;min-width:340px;margin-top:26px;padding:14px 17px 14px 20px;border:1px solid rgba(255,255,255,.6);border-radius:999px;background:rgba(8,6,20,.45);color:#fff;font-size:16px;font-weight:800;backdrop-filter:blur(8px)}
   .mc-next__cta b{color:#bfe6ff;font-size:24px;line-height:1;transition:transform .3s ease}
   .mc-next__thumb{position:relative;display:block;height:248px;overflow:hidden;border:1px solid rgba(255,255,255,.4);border-radius:calc(var(--bbfc-radius-lg) - 4px);background:#101c37}
-  .mc-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 22%;transition:transform .55s ease}
+  .mc-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 30%;transition:transform .55s ease}
   .mc-next__thumb>span{position:absolute;right:12px;bottom:12px;padding:6px 10px;border:1px solid rgba(255,255,255,.45);border-radius:999px;background:rgba(8,13,44,.72);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;backdrop-filter:blur(8px)}
   .mc-next:hover{color:#fff;transform:translateY(-6px);box-shadow:0 28px 64px rgba(5,20,45,.34)}
   .mc-next:hover .mc-next__cta b{transform:translateX(5px)}

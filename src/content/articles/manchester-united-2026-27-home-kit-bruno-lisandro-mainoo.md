@@ -204,9 +204,9 @@ featured: false
 
 처음 한 장이라면 일반형, 브루노와 같은 원단을 원하면 어센틱, 더비가 열리는 가을 밤까지 오래 입고 싶다면 긴소매가 맞다. 아디다스는 이번 시즌 레알 마드리드와 리버풀 등의 펫 저지를 함께 내놓았는데, 맨유 펫 저지는 49,000원이라 사람 셔츠 한 장 옆에 같은 빨강으로 맞춰 담기 좋다.
 
-<a class="mu-next" href="/culture/chelsea-2026-27-home-kit-cole-palmer-ellie-carpenter/" aria-label="첼시 2026/27 홈 유니폼 글 더 보기">
-  <span class="mu-next__content"><span class="mu-next__copy"><small>NEXT KIT STORY · 03F 유니폼관</small><strong>맨유의 빨강 다음은<br />첼시의 금색 사자</strong><span>콜 파머와 엘리 카펜터가 나눠 입은 2026/27 홈 셔츠로 이어서 봅니다.</span></span><span class="mu-next__cta">첼시 홈 유니폼 보러 가기 <b aria-hidden="true">→</b></span></span>
-  <span class="mu-next__thumb"><img src="/images/culture/chelsea-2627-home/card.webp" alt="첼시 2026/27 홈 유니폼을 입은 콜 파머와 엘리 카펜터" width="900" height="900" loading="lazy" decoding="async" /><span>CHELSEA FC 26/27</span></span>
+<a class="mu-next" href="/culture/manchester-city-2026-27-home-kit-haaland-foden-cherki-dias/" aria-label="맨시티 2026/27 홈 유니폼 글 더 보기">
+  <span class="mu-next__content"><span class="mu-next__copy"><small>NEXT KIT STORY · 03F 유니폼관</small><strong>더비의 반대편은<br />맨시티의 하늘색</strong><span>일요일 올드 트래퍼드에서 마주칠 홀란·포든·셰르키·디아스의 2026/27 홈 셔츠로 이어서 봅니다.</span></span><span class="mu-next__cta">맨시티 홈 유니폼 보러 가기 <b aria-hidden="true">→</b></span></span>
+  <span class="mu-next__thumb"><img src="/images/culture/mancity-2627-home/cover.webp" alt="맨체스터 시티 2026/27 홈 유니폼을 입은 엘링 홀란, 필 포든, 라얀 셰르키, 후벵 디아스" width="1600" height="900" loading="lazy" decoding="async" /><span>MANCHESTER CITY 26/27</span></span>
 </a>
 
 <section class="source-notes">
@@ -345,7 +345,7 @@ featured: false
   .mu-next__cta{display:flex;align-items:center;justify-content:space-between;gap:24px;width:fit-content;min-width:340px;margin-top:26px;padding:14px 17px 14px 20px;border:1px solid rgba(255,255,255,.6);border-radius:999px;background:rgba(8,6,20,.45);color:#fff;font-size:16px;font-weight:800;backdrop-filter:blur(8px)}
   .mu-next__cta b{color:#f5c542;font-size:24px;line-height:1;transition:transform .3s ease}
   .mu-next__thumb{position:relative;display:block;height:248px;overflow:hidden;border:1px solid rgba(255,255,255,.4);border-radius:calc(var(--bbfc-radius-lg) - 4px);background:#101c37}
-  .mu-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 22%;transition:transform .55s ease}
+  .mu-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 30%;transition:transform .55s ease}
   .mu-next__thumb>span{position:absolute;right:12px;bottom:12px;padding:6px 10px;border:1px solid rgba(255,255,255,.45);border-radius:999px;background:rgba(8,13,44,.72);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;backdrop-filter:blur(8px)}
   .mu-next:hover{color:#fff;transform:translateY(-6px);box-shadow:0 28px 64px rgba(40,10,30,.34)}
   .mu-next:hover .mu-next__cta b{transform:translateX(5px)}
