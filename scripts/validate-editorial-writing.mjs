@@ -58,6 +58,10 @@ const canonicalTermRules = [
   [/어러니처퍼트/g, '아라니처파트'],
 ];
 
+const canonicalBodyTermRules = [
+  [/리우데자네이루/g, '히우지자네이루'],
+];
+
 const connectiveOpening = /^(?:그러나|하지만|다만|그래서|따라서|그럼에도|반면|한편|실제로|이후|이때|동시에|결국|즉|또한|그러면서|그런데|마침|그제야|반대로|그 사이|이 과정|때문에)/;
 
 const integrationRequirements = new Map([
@@ -271,6 +275,18 @@ function validateSource(source, relative = 'fixture.md') {
     }
   }
 
+  for (const [rule, replacement] of canonicalBodyTermRules) {
+    const pattern = new RegExp(rule.source, rule.flags);
+    for (const match of body.matchAll(pattern)) {
+      issues.push({
+        code: 'CANONICAL-TERMINOLOGY',
+        message: `본문의 비표준 표기 '${match[0]}'를 '${replacement}'로 교정하십시오. 검색 별칭은 keywords에만 둡니다.`,
+        line: lineAt(body, match.index),
+        relative,
+      });
+    }
+  }
+
   const headings = [];
   for (const match of body.matchAll(/^#{2,4}\s+(.+)$/gm)) {
     headings.push({ text: visibleText(match[1]), index: match.index });
@@ -324,6 +340,7 @@ function runSelfTest() {
     ['제작 과정', '자료를 찾아보니 이 기록이 나왔다.', 'NO-PROCESS-META'],
     ['비표준 대회명', '프리미어리그와 챔피언스 리그를 우승했다.', 'CANONICAL-TERMINOLOGY'],
     ['비표준 인명', '세베시 구스타브와 리뉘스 미헬스가 남긴 전술을 비교했다.', 'CANONICAL-TERMINOLOGY'],
+    ['본문 검색 별칭', '리우데자네이루 챔피언이 남미 정상에 올랐다.', 'CANONICAL-TERMINOLOGY'],
     ['대중 용어 원어 풀이', '추가시간<span class="foreign-note" lang="en">(additional time)</span>은 주심이 정한다.', 'FOREIGN-NOTE-SELECTIVE'],
     ['짧은 문단 연타', '경기가 다시 시작됐다.\n\n관중은 시계를 바라봤다.\n\n벤치는 항의를 이어갔다.\n\n주심은 손목을 가리켰다.\n\n휘슬은 아직 울리지 않았다.', 'PROSE-FLOW'],
     ['축세 미리보기 누락', '---\ntitle: 축구 역사의 오래된 질문을 다시 읽는다\ndescription: 검색을 위한 충분히 긴 설명입니다.\ncategory: history\ndraft: false\n---\n\n본문입니다.', 'HISTORY-PREVIEW-PROMISE'],

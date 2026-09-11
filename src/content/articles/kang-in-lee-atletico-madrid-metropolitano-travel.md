@@ -29,7 +29,7 @@ faq:
 
 이 여행은 마드리드 전체를 사흘 안에 정복하는 코스가 아니다. **이강인 7번을 가장 잘 볼 좌석, 늦은 킥오프 뒤 돌아갈 숙소, 지하철 표를 사는 순간부터 경기 뒤 인파를 빠져나오는 길까지** 한 경기의 앞뒤를 깊게 설계한다. 축구를 좋아하지 않는 동행인에게도 낮의 마드리드와 저녁 식탁이 남도록 만든다.
 
-<div class="journey-deck" data-city="MADRID"><p>BBINGE FC · ONE MATCH, ONE CITY NIGHT</p><strong>이강인 7번을 보러<br />마드리드의 붉은 밤으로</strong><span>SEAT · STAY · METRO · MATCHDAY — 메트로폴리타노 직관을 실제 여행으로 만드는 선택</span></div>
+<div class="journey-deck" data-city="MADRID"><p>BBINGE FC · ONE MATCH, ONE CITY NIGHT</p><strong>이강인 7번을 보러<br />마드리드의 붉은 밤으로</strong><span>SEAT · STAY · METRO · MATCHDAY: 메트로폴리타노 직관을 실제 여행으로 만드는 선택</span></div>
 
 <section class="journey-live-map" data-journey-live-map aria-label="이강인 아틀레티코 마드리드 직관 여행 인터랙티브 지도">
   <header class="journey-live-map__head"><div><span>MADRID MATCHDAY MAP</span><strong>경기장, 7호선, 숙소와 경기 전후 장소를 직접 눌러보세요</strong></div><p>PC에서는 오른쪽의 ＋·－로 확대하고 지도를 드래그하세요. 핀을 누르면 장소 설명과 Google Maps가 열립니다.</p></header>
