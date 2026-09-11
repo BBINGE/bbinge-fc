@@ -182,6 +182,71 @@
       "productCode": "KX3899",
       "status": "active",
       "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-liverpool-ka6852",
+      "label": "리버풀 FC 2026/27 홈 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/tCFm51",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A6%AC%EB%B2%84%ED%92%80-fc-26-27-%ED%99%88-%EC%A0%80%EC%A7%80/KA6852.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KA6852",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-liverpool-kb8268",
+      "label": "리버풀 FC 2026/27 홈 저지 롱 슬리브",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/LabqUL",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A6%AC%EB%B2%84%ED%92%80-fc-26-27-%ED%99%88-%EC%A0%80%EC%A7%80-%EB%A1%B1-%EC%8A%AC%EB%A6%AC%EB%B8%8C/KB8268.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KB8268",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-liverpool-ka6854",
+      "label": "리버풀 FC 2026/27 홈 쇼츠",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/DTHYat",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A6%AC%EB%B2%84%ED%92%80-fc-26-27-%ED%99%88-%EC%87%BC%EC%B8%A0/KA6854.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KA6854",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-liverpool-kx3897",
+      "label": "리버풀 FC 펫 저지",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/Sc6wni",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A6%AC%EB%B2%84%ED%92%80-fc-%ED%8E%AB-%EC%A0%80%EC%A7%80/KX3897.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KX3897",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
+    },
+    {
+      "id": "adidas-liverpool-kr0354",
+      "label": "리버풀 FC 오리 풋볼 백",
+      "department": "uniform",
+      "network": "adpick",
+      "merchant": "Adidas Korea",
+      "affiliateUrl": "https://bitl.bz/KtCGTq",
+      "merchantUrl": "https://www.adidas.co.kr/%EB%A6%AC%EB%B2%84%ED%92%80-fc-%EC%98%A4%EB%A6%AC-%ED%92%8B%EB%B3%BC-%EB%B0%B1/KR0354.html",
+      "merchantHost": "www.adidas.co.kr",
+      "productCode": "KR0354",
+      "status": "active",
+      "soldOutMarkers": ["품절", "일시 품절", "판매 종료", "구매 불가"]
     }
   ]
 }
