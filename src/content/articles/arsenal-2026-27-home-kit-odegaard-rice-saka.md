@@ -192,9 +192,9 @@ featured: false
 
 처음 한 장이라면 일반형, 외데고르와 같은 원단을 원하면 어센틱, 가을까지 셔츠 한 장으로 입고 싶다면 긴소매가 맞다. 경기에서 보는 금색 패치까지 원한다면 마지막으로 아스널 공식 스토어의 패치 옵션만 확인하면 된다.
 
-<a class="ar-next" href="/culture/fc-barcelona-2026-27-home-kit-yamal-de-jong/" aria-label="FC 바르셀로나 2026/27 홈 유니폼 글 더 보기">
-  <span class="ar-next__content"><span class="ar-next__copy"><small>NEXT KIT STORY · 03F 유니폼관</small><strong>북런던의 빨강 다음은<br />바르사의 새 블라우그라나</strong><span>라민 야말과 프렝키 더용이 나눠 입은 2026/27 홈 셔츠로 이어서 봅니다.</span></span><span class="ar-next__cta">바르사 홈 유니폼 보러 가기 <b aria-hidden="true">→</b></span></span>
-  <span class="ar-next__thumb"><img src="/images/culture/barcelona-2627-home/card.webp" alt="FC 바르셀로나 2026/27 홈 유니폼을 입은 선수" width="900" height="900" loading="lazy" decoding="async" /><span>FC BARCELONA 26/27</span></span>
+<a class="ar-next" href="/culture/tottenham-2026-27-home-kit-bergvall-van-de-ven-maddison-tonali/" aria-label="토트넘 2026/27 홈 유니폼 글 더 보기">
+  <span class="ar-next__content"><span class="ar-next__copy"><small>NEXT KIT STORY · 03F 유니폼관</small><strong>북런던의 반대편은<br />토트넘의 흰색</strong><span>베리발·판더벤·매디슨·토날리가 입은 2026/27 홈 셔츠, 1980년대 험멜의 사선으로 이어서 봅니다.</span></span><span class="ar-next__cta">토트넘 홈 유니폼 보러 가기 <b aria-hidden="true">→</b></span></span>
+  <span class="ar-next__thumb"><img src="/images/culture/tottenham-2627-home/cover.webp" alt="토트넘 홋스퍼 2026/27 홈 유니폼을 입은 루카스 베리발, 미키 판더벤, 제임스 매디슨, 산드로 토날리" width="1600" height="900" loading="lazy" decoding="async" /><span>TOTTENHAM 26/27</span></span>
 </a>
 
 <section class="source-notes">
