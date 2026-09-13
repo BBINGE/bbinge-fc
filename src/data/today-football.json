@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-13T20:52:08.852Z",
+  "updatedAt": "2026-09-13T21:15:01.198Z",
   "matches": [
     {
       "id": "2489110",
@@ -485,6 +485,19 @@
         },
         {
           "rank": 4,
+          "team": "아틀레티코 마드리드",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "played": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 6,
+          "goalDifference": 4,
+          "points": 10
+        },
+        {
+          "rank": 5,
           "team": "세비야",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 5,
@@ -497,7 +510,7 @@
           "points": 10
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "데포르티보 라코루냐",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
           "played": 5,
@@ -510,7 +523,7 @@
           "points": 9
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "레알 베티스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 4,
@@ -523,7 +536,7 @@
           "points": 9
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "played": 5,
@@ -533,19 +546,6 @@
           "goalsFor": 8,
           "goalsAgainst": 5,
           "goalDifference": 3,
-          "points": 7
-        },
-        {
-          "rank": 8,
-          "team": "아틀레티코 마드리드",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "played": 4,
-          "wins": 2,
-          "draws": 1,
-          "losses": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 6,
-          "goalDifference": 1,
           "points": 7
         },
         {
@@ -576,19 +576,6 @@
         },
         {
           "rank": 11,
-          "team": "레알 소시에다드",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "played": 5,
-          "wins": 2,
-          "draws": 1,
-          "losses": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 8,
-          "goalDifference": -2,
-          "points": 7
-        },
-        {
-          "rank": 12,
           "team": "오사수나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
           "played": 5,
@@ -598,6 +585,19 @@
           "goalsFor": 5,
           "goalsAgainst": 8,
           "goalDifference": -3,
+          "points": 7
+        },
+        {
+          "rank": 12,
+          "team": "레알 소시에다드",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+          "played": 6,
+          "wins": 2,
+          "draws": 1,
+          "losses": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 11,
+          "goalDifference": -5,
           "points": 7
         },
         {
