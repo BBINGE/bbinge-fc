@@ -1,6 +1,6 @@
 ---
 title: "데니스 베르흐캄프(Dennis Bergkamp) 프로필·스탯·역대 등번호: 그 시절 대장 공격수, 논 플라잉 더치맨"
-description: "아약스의 3년 연속 득점왕, 인테르에서 붙은 '이번 주의 베르흐캄프', 비행기를 끊고 아스널에서 완성한 10번. 데니스 베르흐캄프의 클럽·국대 스탯과 등번호, 우승과 개인 수상 22개 항목을 당대 인터뷰와 기록으로 정리한다."
+description: "아약스의 3년 연속 득점왕, 인테르에서 붙은 '이번 주의 베르흐캄프', 비행기를 끊고 아스널에서 완성한 10번. 데니스 베르흐캄프의 클럽·국대 스탯과 등번호, 우승과 개인 수상 23개 항목을 당대 인터뷰와 기록으로 정리한다."
 branch: legends
 index: netherlands
 year: 1969
@@ -182,11 +182,15 @@ draft: false
 
 <figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/statue-emirates.webp" alt="에미레이츠 스타디움 앞에서 공을 발등으로 받아 올리는 자세의 데니스 베르흐캄프 청동상" width="1600" height="1413" loading="lazy" decoding="async" /><figcaption>에미레이츠 스타디움 앞의 베르흐캄프 동상. 2003년 2월 9일 뉴캐슬전에서 공을 공중에서 받아 세우던 순간을 본떴다. 사진: Jim Osley · Wikimedia Commons (CC BY-SA 2.0).</figcaption></figure>
 
-2014년 2월 22일 에미레이츠 스타디움 앞에 베르흐캄프의 동상이 섰다. 허버트 채프먼, 토니 애덤스, 앙리에 이은 네 번째 동상이다. 같은 뉴캐슬을 상대한 2002년 원정 골과 헷갈리기 쉽지만, 아스널 구단의 설명에 따르면 동상의 자세는 2003년 2월 9일 뉴캐슬전에서 공을 공중에서 받아 세우던 순간이다. 골이 아니라 터치를 청동으로 남긴 선택이 오히려 이 선수답다. 2017년 12월 14일에는 네덜란드 축구 협회가 자이스트 본부 조각 정원에 두 번째 동상을 세웠다.
+2014년 2월 22일 에미레이츠 스타디움 앞에 베르흐캄프의 동상이 섰다. 허버트 채프먼, 토니 애덤스, 앙리에 이은 네 번째 동상이다. 같은 뉴캐슬을 상대한 2002년 원정 골과 헷갈리기 쉽지만, 아스널 구단의 설명에 따르면 동상의 자세는 2003년 2월 9일 뉴캐슬전에서 공을 공중에서 받아 세우던 순간이다. 골이 아니라 터치를 청동으로 남긴 선택이 오히려 이 선수답다.
+
+두 번째 동상은 고향에 섰다. 창립 125주년을 맞은 네덜란드 왕립 축구 협회(KNVB)가 지난 25년 최고의 대표 선수를 뽑는 투표를 열었고, 프랑크 더부르, 로날트 쿠만, 필립 코퀴, 조바니 판브롱크호르스트를 제치고 베르흐캄프가 선정됐다. 2017년 12월 14일 자이스트 KNVB 캠퍼스의 오라녀 명예 전시관에 조각가 리아 크롤<span class="foreign-note" lang="nl">(Lia Krol; 네덜란드 조각가)</span>이 만든 동상이 공개됐다. 이번에는 1998년 아르헨티나전, 프랑크 더부르의 긴 패스를 받아 세우던 순간이다. 런던은 뉴캐슬전의 트래핑을, 자이스트는 마르세유의 트래핑을 골랐다. 두 나라가 모두 그의 첫 터치를 기억하기로 한 셈이다. 제막식에서 베르흐캄프는 무엇을 기대해야 할지 몰랐다며 한마디를 보탰다. 자세도 그렇고, 머리도 그럭저럭 잘 나왔다고.
 
 은퇴 뒤 그는 코치의 길을 택했다. 2011년 프랑크 더부르 감독의 아약스에 코치로 합류해 페터르 보스 시절까지 유소년 육성과 공격 지도를 맡았고, 2017년 12월 팀을 떠났다. 2013년 자서전 발표 자리에서 그는 스트라이커가 더는 기회를 놓치지 않게 가르칠 만큼 좋은 지도자가 되고 싶다며, 자신은 앞에 나서기를 원하지 않기에 감독이 될 필요도 없다고 말했다.
 
 2017년 아약스 인터뷰에서는 아이스맨이라는 별명에 대해 한마디를 보탰다. 오해라고, 사람들에게 늘 차갑게 보였겠지만 그건 순전히 겉모습이었다고. 처음엔 작은 담이던 것이 이제는 요새가 됐고, 그 안에 들어온 사람만이 자신의 건조한 유머를 안다고 했다. 한 번의 터치로 수비를 지우던 공격수는 사람 사이에서도 필요한 만큼만 문을 열었다.
+
+2025년 1월 19일, 잉글랜드 축구기자협회(FWA)는 잉글랜드 축구에 남긴 공헌을 기려 그에게 공로상을 줬다. 런던 시상식장에는 벵거와 앙리, 이언 라이트, 그의 아스널 시절 부회장이던 데이비드 딘이 모였다. 베르흐캄프는 처음에는 이 상이 이렇게 큰 줄 몰랐는데 역대 수상자 명단을 찾아보고 정말 특별한 일이라는 걸 알았다고 했다. 그리고 잉글랜드에서 11년을 뛰었고, 돌아보면 그 모든 게 그저 미소를 짓게 한다고 덧붙였다. 차갑다는 오해를 평생 들은 사람의 마지막 인사치고는 꽤 따뜻한 문장이다.
 
 ## 역대 클럽·국대 기록
 
@@ -261,6 +265,7 @@ draft: false
   <li><strong>프리미어 리그 공동 도움왕</strong><span>1998-99 시즌 · 13도움</span></li>
   <li><strong>BBC 올해의 골</strong><small>《Match of the Day》 시즌 최고의 골</small><span>1997-98 시즌 · 2001-02 시즌</span></li>
   <li><strong>IFFHS 세계 최고의 득점자</strong><small>국제축구역사통계연맹 선정</small><span>1992년</span></li>
+  <li><strong>FWA 공로상</strong><small>잉글랜드 축구기자협회가 잉글랜드 축구 공헌에 수여</small><span>2025년</span></li>
 </ul>
 
 ## 참고 자료
@@ -283,6 +288,8 @@ draft: false
   <li><a href="https://www.planetfootball.com/nostalgia/remembering-when-dennis-bergkamp-scored-one-of-the-best-hat-tricks-of-all-time-for-arsenal" rel="noopener noreferrer">Planet Football: 레스터전 해트트릭 회고</a>: 리오크의 영입, 초반 여섯 경기 무득점과 사우샘프턴전, 오닐의 평가.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/01ad-0e6d05fbc03e-9d3008c48151-1000--wenger-wooed-by-bergkamp-class" rel="noopener noreferrer">UEFA: 벵거가 반한 베르흐캄프의 클래스</a> · <a href="https://www.uefa.com/news-media/news/01b7-0f84d57f9e1e-fd3e8b25e54b-1000--bergkamp-s-fond-farewell" rel="noopener noreferrer">베르흐캄프의 작별</a>: 2005년 툰전 결승골과 은퇴 경기에 대한 벵거의 발언.</li>
   <li><a href="https://www.arsenal.com/news/news-archive/gallery-dennis-bergkamp-v-wba-2006" rel="noopener noreferrer">Arsenal.com: 2006년 4월 15일 마지막 골</a> · <a href="https://www.arsenal.com/arsenal-history/arsenal-s-heritage/arsenal-statues" rel="noopener noreferrer">아스널 동상</a>: 데니스 베르흐캄프 데이와 동상이 본뜬 2003년 뉴캐슬전 장면.</li>
+  <li><a href="https://www.voetbalprimeur.nl/nieuws/782642/knvb-eert-bergkamp-met-beeld-het-hoofd-is-enigszins-gelukt-.html" rel="noopener noreferrer">Voetbalprimeur: KNVB, 베르흐캄프 동상 제막</a> · <a href="https://nos.nl/l/2008898" rel="noopener noreferrer">NOS: 오라녀 명예 전시관의 동상</a>: 지난 25년 최고의 대표 선수 선정, 리아 크롤의 1998년 트래핑 동상과 제막식 발언.</li>
+  <li><a href="https://footballwriters.co.uk/uncategorized/dennis-bergkamp-blown-away-by-fwa-tribute-award/" rel="noopener noreferrer">Football Writers' Association: FWA 공로상 수상</a>: 2025년 1월 19일 시상식과 수상 소감.</li>
   <li><a href="https://www.irishtimes.com/sport/bergkamp-out-of-fa-cup-final-1.153538" rel="noopener noreferrer">The Irish Times: 베르흐캄프, FA컵 결승 결장</a>: 1998년 결승 전 햄스트링 부상.</li>
   <li><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d7b304421ec-0ee876f51d67-1000--schmeichel-helps-denmark-down-netherlands-in-euro-1992-s/" rel="noopener noreferrer">UEFA: 유로 1992 준결승 덴마크전</a>: 베르흐캄프의 동점골과 승부차기 순서.</li>
   <li><a href="http://www.planetworldcup.com/CUPS/1998/sf_hol_v_bra.html" rel="noopener noreferrer">Planet World Cup: 1998 준결승 브라질전</a> · <a href="https://www.planetworldcup.com/CUPS/1998/wc98statistics.html" rel="noopener noreferrer">1998 대회 통계</a>: 승부차기 키커, 3골 3도움과 공동 도움 1위.</li>
