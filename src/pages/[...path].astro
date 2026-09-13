@@ -104,7 +104,7 @@ if (props.kind === 'category') {
   const { category, faq } = entry.data;
   const meta = categories[category];
   const { Content } = await render(entry);
-  const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|european-cup-milestone)=/.test(entry.rendered.html);
+  const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|football-results|european-cup-milestone)=/.test(entry.rendered.html);
   const footballHtml = hasFootballRecords ? expandFootballTies(entry.rendered!.html) : '';
   const related = (
     await getCollection(

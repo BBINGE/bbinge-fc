@@ -113,20 +113,7 @@ draft: false
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>16강 8개 대진</strong><span>1·2차전과 합계 스코어 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
-<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1955-56 유러피언컵 16강 8개 대진 결과 표">
-
-| 대진 | 1차전 | 2차전 | 합계 | 진출 |
-|---|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> 스포르팅 CP vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 파르티잔 | 3-3 | 2-5 | 5-8 | FK 파르티잔 |
-| <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 vs <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> RSC 안데를레흐트 | 6-3 | 4-1 | 10-4 | 뵈뢰시 로보고 |
-| <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 세르베트 FC vs <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 CF | 0-2 | 0-5 | 0-7 | 레알 마드리드 CF |
-| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 로트바이스 에센 vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 FC | 0-4 | 1-1 | 1-5 | 히버니언 FC |
-| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 IF vs <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> 그바르디아 바르샤바 | 0-0 | 4-1 | 4-1 | 유고덴 IF |
-| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 오르후스 GF vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 스타드 드 랭스 | 0-2 | 2-2 | 2-4 | 스타드 드 랭스 |
-| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> SK 라피트 빈 vs <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> PSV 에인트호번 | 6-1 | 0-1 | 6-2 | SK 라피트 빈 |
-| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 밀란 vs <img class="cup-flag" src="/images/flags/saar-1947.svg" width="28" height="20" alt="자틀란트 국기" loading="lazy" /> 1. FC 자르브뤼켄 | 3-4 | 4-1 | 7-5 | AC 밀란 |
-
-</div>
+<div data-football-results="1955-56-european-cup:16강"></div>
 
 <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
@@ -194,16 +181,7 @@ AC 밀란의 첫 유러피언컵 홈경기는 상대팀 역사에 더 선명하�
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>8강 4개 대진</strong><span>결과와 4강 진출팀 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
-<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1955-56 유러피언컵 8강 4개 대진 결과 표">
-
-| 대진 | 1차전 | 2차전 | 합계 | 진출 |
-|---|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> 유고덴 IF vs <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 히버니언 FC | 1-3 | 0-1 | 1-4 | 히버니언 FC |
-| <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> 스타드 드 랭스 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 뵈뢰시 로보고 | 4-2 | 4-4 | 8-6 | 스타드 드 랭스 |
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 CF vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 파르티잔 | 4-0 | 0-3 | 4-3 | 레알 마드리드 CF |
-| <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> SK 라피트 빈 vs <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 밀란 | 1-1 | 2-7 | 3-8 | AC 밀란 |
-
-</div>
+<div data-football-results="1955-56-european-cup:8강"></div>
 
 <a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 

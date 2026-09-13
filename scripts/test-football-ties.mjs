@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { expandFootballTies, renderEuropeanCupMilestone, renderTie, resolveClub } from './render-football-ties.mjs';
+import { expandFootballTies, renderEuropeanCupMilestone, renderResultTable, renderTie, resolveClub } from './render-football-ties.mjs';
 const expected = [[5,8],[10,4],[0,7],[1,5],[4,1],[2,4],[6,2],[7,5],[1,4],[8,6],[4,3],[3,8]];
 for (let i = 0; i < 12; i++) {
   const html = renderTie('1955-56-european-cup', `match-${i+1}`);
@@ -45,10 +45,16 @@ assert.equal(expandFootballTies('<h3>그대로 보존</h3>'),'<h3>그대로 보�
 const source=readFileSync(new URL('../src/content/archive/1955-56-european-cup.md',import.meta.url),'utf8');
 assert.equal((source.match(/data-football-tie=/g)??[]).length,12);
 assert.equal((source.match(/data-european-cup-milestone=/g)??[]).length,3);
-assert.equal((source.match(/class="cup-result-scroll"/g)??[]).length,2);
+assert.equal((source.match(/data-football-results="1955-56-european-cup:/g)??[]).length,2);
+assert(!source.includes('class="cup-result-scroll"'), '결과표는 원고에 손으로 쓰지 않고 대진 데이터에서 만든다');
+const results5556=['16강','8강'].map(stage=>renderResultTable('1955-56-european-cup',stage)).join('');
+assert.equal((results5556.match(/<tr><td class="cup-result-match">/g)??[]).length,12);
+assert.equal((results5556.match(/class="cup-result-crest"><img/g)??[]).length,36, '대진 24칸 + 진출 12칸 로고');
+assert.equal((results5556.match(/class="cup-result-flag"/g)??[]).length,24, '국기는 대진 칸에만');
+assert(!results5556.includes('재경기'));
 assert(!source.includes('background-position'));
-for (const name of ['스포르팅 CP','FK 파르티잔','RSC 안데를레흐트','세르베트 FC','로트바이스 에센','히버니언 FC','유고덴 IF','그바르디아 바르샤바','오르후스 GF','스타드 드 랭스','SK 라피트 빈','PSV 에인트호번','AC 밀란','1. FC 자르브뤼켄']) assert(source.includes(name));
-assert(source.includes('/images/flags/es-1945.png'));
+for (const name of ['스포르팅 CP','FK 파르티잔','RSC 안데를레흐트','세르베트 FC','로트바이스 에센','히버니언 FC','유고덴 IF','그바르디아 바르샤바','오르후스 GF','스타드 드 랭스','SK 라피트 빈','PSV 에인트호번','AC 밀란','1. FC 자르브뤼켄']) assert(results5556.includes(name), name);
+assert(results5556.includes('/images/flags/es-1945.png'));
 assert(!source.includes('/images/flags/es-franco-civil.svg'));
 const semifinalSource=readFileSync(new URL('../src/content/archive/1955-56-european-cup-semifinals.md',import.meta.url),'utf8');
 assert.equal((semifinalSource.match(/data-european-cup-milestone=/g)??[]).length,1);
@@ -93,13 +99,12 @@ for (const [id, replay] of [['match-1','7 : 0'],['match-9','1 : 3'],['match-11',
 assert.equal(Object.values(ties5657.ties).filter(tie => tie.playoff).length, 3);
 assert(!renderTie('1956-57-european-cup','match-2').includes('재경기'));
 assert(resolveClub('rapid','1956-57').crest.src.endsWith('rapid-supplied.jfif'), '라피트 제공 문장은 1919/1935-1968 도안 대조 뒤 1956-57 확장');
-assert(!resolveClub('aarhus','1956-57').crest, '오르후스 제공 문장은 1956-57 근거가 없어 확장하지 않는다');
-for (const id of ['grasshopper','norrkoping','spora']) assert(!resolveClub(id,'1956-57').crest, id + ' 1956-57 문장 미확정');
+for (const id of ['grasshopper','norrkoping','spora','aarhus']) assert(resolveClub(id,'1956-57').crest, id + ' 1956-57 대체 문장');
 assert.equal(resolveClub('athletic-club','1956-57').name, '아틀레틱 클루브');
 assert(resolveClub('athletic-club','1956-57').crest.src.endsWith('athletic-club-1941.webp'));
 assert(resolveClub('cwks-warszawa','1956-57').crest.src.endsWith('cwks-warszawa-1950.webp'));
 const crestSlots5657 = Array.from({length:18},(_,i)=>renderTie('1956-57-european-cup',`match-${i+1}`)).join('');
-assert.equal((crestSlots5657.match(/class="cup-club-crest"/g) ?? []).length, 31, '1956-57 대진 카드 로고 31칸');
+assert.equal((crestSlots5657.match(/class="cup-club-crest"/g) ?? []).length, 36, '1956-57 대진 카드 로고 36칸');
 assert(resolveClub('real-madrid','1956-57').crest.src.endsWith('real-madrid-1941.svg'));
 assert.equal(resolveClub('cdna-sofia','1956-57').flag.src, '/images/flags/bg-1948.svg');
 assert.throws(() => resolveClub('cdna-sofia','1955-56'), /Unreviewed historical flag/);
@@ -125,5 +130,10 @@ const source5657=readFileSync(new URL('../src/content/archive/1956-57-european-c
 assert.equal((source5657.match(/data-football-tie="1956-57-european-cup:/g)??[]).length,18);
 assert(!source5657.includes('| 로다 JC'), '결과표는 당시 구단명 라피트 JC를 쓴다');
 assert(!source5657.includes('| ACF 피오렌티나'), '결과표는 당시 구단명 AC 피오렌티나를 쓴다');
-assert(source5657.includes('/images/flags/bg-1948.svg') && source5657.includes('/images/flags/ro-1952.svg'));
+assert.equal((source5657.match(/data-football-results="1956-57-european-cup:/g)??[]).length,3);
+const results5657=['예선','16강','8강'].map(stage=>renderResultTable('1956-57-european-cup',stage));
+assert(results5657[0].includes('has-replay') && results5657[1].includes('has-replay') && !results5657[2].includes('has-replay'), '재경기 열은 재경기가 있는 단계에만');
+assert.equal((results5657.join('').match(/class="cup-result-crest"><img/g)??[]).length,54, '대진 36칸 + 진출 18칸 로고');
+assert(results5657.join('').includes('/images/flags/bg-1948.svg') && results5657.join('').includes('/images/flags/ro-1952.svg'));
+assert(results5657[0].includes('data-label="재경기">7-0'));
 console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리');

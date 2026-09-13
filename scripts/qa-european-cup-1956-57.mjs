@@ -53,7 +53,7 @@ try {
     assert(data.figures.every(Boolean) && data.figures.length === 6, `figures at ${width}: ${data.figures}`);
     assert.equal(data.flags, 36);
     assert.equal(data.slots, 36);
-    assert.equal(data.crests, 31);
+    assert.equal(data.crests, 36);
     assert(data.uniformSlots);
     assert.equal(data.replayOverlap, false);
     assert.equal(data.headings, 18);

@@ -67,18 +67,7 @@ draft: false
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>예선 6개 대진</strong><span>1·2차전과 재경기, 합계 스코어 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
-<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1956-57 유러피언컵 예선 6개 대진 결과 표">
-
-| 대진 | 1차전 | 2차전 | 재경기 | 합계 | 진출 |
-|---|---:|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 보루시아 도르트문트 vs <img class="cup-flag" src="/images/flags/lu.svg" width="28" height="20" alt="룩셈부르크 국기" loading="lazy" /> CA 스포라 룩셈부르크 | 4-3 | 1-2 | 7-0 | 5-5 | 보루시아 도르트문트 |
-| <img class="cup-flag" src="/images/flags/ro-1952.svg" width="28" height="20" alt="루마니아 1952-1965년 국기" loading="lazy" /> FC 디나모 부쿠레슈티 vs <img class="cup-flag" src="/images/flags/tr.svg" width="28" height="20" alt="튀르키예 국기" loading="lazy" /> 갈라타사라이 SK | 3-1 | 1-2 |  | 4-3 | FC 디나모 부쿠레슈티 |
-| <img class="cup-flag" src="/images/flags/cs-first-republic.svg" width="28" height="20" alt="체코슬로바키아 국기" loading="lazy" /> 슬로반 ÚNV 브라티슬라바 vs <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> CWKS 바르샤바 | 4-0 | 0-2 |  | 4-2 | 슬로반 ÚNV 브라티슬라바 |
-| <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> RSC 안데를레흐트 vs <img class="cup-flag" src="/images/flags/gb-eng.svg" width="28" height="20" alt="잉글랜드 국기" loading="lazy" /> 맨체스터 유나이티드 FC | 0-2 | 0-10 |  | 0-12 | 맨체스터 유나이티드 FC |
-| <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 오르후스 GF vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> OGC 니스 | 1-1 | 1-5 |  | 2-6 | OGC 니스 |
-| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> FC 포르투 vs <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레틱 클루브 | 1-2 | 2-3 |  | 3-5 | 아틀레틱 클루브 |
-
-</div>
+<div data-football-results="1956-57-european-cup:예선"></div>
 
 <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>, <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -124,20 +113,7 @@ FC 포르투<span class="foreign-note" lang="pt">(Futebol Clube do Porto)</span>
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>16강 8개 대진</strong><span>1·2차전과 재경기, 합계 스코어 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
-<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1956-57 유러피언컵 16강 8개 대진 결과 표">
-
-| 대진 | 1차전 | 2차전 | 재경기 | 합계 | 진출 |
-|---|---:|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/gb-eng.svg" width="28" height="20" alt="잉글랜드 국기" loading="lazy" /> 맨체스터 유나이티드 FC vs <img class="cup-flag" src="/images/flags/de.svg" width="28" height="20" alt="서독 국기" loading="lazy" /> 보루시아 도르트문트 | 3-2 | 0-0 |  | 3-2 | 맨체스터 유나이티드 FC |
-| <img class="cup-flag" src="/images/flags/bg-1948.svg" width="28" height="20" alt="불가리아 1948-1967년 국기" loading="lazy" /> CDNA 소피아 vs <img class="cup-flag" src="/images/flags/ro-1952.svg" width="28" height="20" alt="루마니아 1952-1965년 국기" loading="lazy" /> FC 디나모 부쿠레슈티 | 8-1 | 2-3 |  | 10-4 | CDNA 소피아 |
-| <img class="cup-flag" src="/images/flags/gb-sct.svg" width="28" height="20" alt="스코틀랜드 국기" loading="lazy" /> 레인저스 FC vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> OGC 니스 | 2-1 | 1-2 | 1-3 | 3-3 | OGC 니스 |
-| <img class="cup-flag" src="/images/flags/cs-first-republic.svg" width="28" height="20" alt="체코슬로바키아 국기" loading="lazy" /> 슬로반 ÚNV 브라티슬라바 vs <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 그라스호퍼 클럽 취리히 | 1-0 | 0-2 |  | 1-2 | 그라스호퍼 클럽 취리히 |
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 CF vs <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> SK 라피트 빈 | 4-2 | 1-3 | 2-0 | 5-5 | 레알 마드리드 CF |
-| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 피오렌티나 vs <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> IFK 노르셰핑 | 1-1 | 1-0 |  | 2-1 | AC 피오렌티나 |
-| <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> 라피트 JC vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 츠르베나 즈베즈다 | 3-4 | 0-2 |  | 3-6 | FK 츠르베나 즈베즈다 |
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레틱 클루브 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 부더페슈트 혼베드 SE | 3-2 | 3-3 |  | 6-5 | 아틀레틱 클루브 |
-
-</div>
+<div data-football-results="1956-57-european-cup:16강"></div>
 
 <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>, <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -195,16 +171,7 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>8강 4개 대진</strong><span>결과와 4강 진출팀 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
-<div class="cup-result-scroll" tabindex="0" role="region" aria-label="1956-57 유러피언컵 8강 4개 대진 결과 표">
-
-| 대진 | 1차전 | 2차전 | 합계 | 진출 |
-|---|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레틱 클루브 vs <img class="cup-flag" src="/images/flags/gb-eng.svg" width="28" height="20" alt="잉글랜드 국기" loading="lazy" /> 맨체스터 유나이티드 FC | 5-3 | 0-3 | 5-6 | 맨체스터 유나이티드 FC |
-| <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 피오렌티나 vs <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 그라스호퍼 클럽 취리히 | 3-1 | 2-2 | 5-3 | AC 피오렌티나 |
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 CF vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> OGC 니스 | 3-0 | 3-2 | 6-2 | 레알 마드리드 CF |
-| <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 츠르베나 즈베즈다 vs <img class="cup-flag" src="/images/flags/bg-1948.svg" width="28" height="20" alt="불가리아 1948-1967년 국기" loading="lazy" /> CDNA 소피아 | 3-1 | 1-2 | 4-3 | FK 츠르베나 즈베즈다 |
-
-</div>
+<div data-football-results="1956-57-european-cup:8강"></div>
 
 <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>, <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -268,4 +235,4 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 </ol></div>
 
 
-<p class="cup-asset-credit">로고 자료: <a href="https://www.footylogos.com/">FootyLogos</a> · <a href="https://logos.fandom.com/">Logopedia</a> · <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Rangers_F.C.">영어 위키백과(레인저스)</a> · <a href="https://ro.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti">루마니아어 위키백과(디나모 부쿠레슈티)</a> · 국기: Wikimedia Commons</p>
+<p class="cup-asset-credit">로고 자료: <a href="https://www.footylogos.com/">FootyLogos</a> · <a href="https://logos.fandom.com/">Logopedia</a> · <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Rangers_F.C.">영어 위키백과(레인저스)</a> · <a href="https://ro.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti">루마니아어 위키백과(디나모 부쿠레슈티)</a> · <a href="https://commons.wikimedia.org/wiki/File:CA_Spora_Luxembourg_Crest.png">CA 스포라 문장: Redingffc, CC BY-SA 4.0</a> · 국기: Wikimedia Commons</p>

@@ -79,16 +79,26 @@
 .cup-record .cup-record-table table { margin: 0; }
 .cup-record .cup-record-table td .cup-flag { margin-right: 4px; }
 .cup-record .cup-result-scroll { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; }
-.cup-record .archive-body .cup-result-scroll table { display: table; width: 100%; table-layout: fixed; white-space: normal; }
-.cup-record .archive-body .cup-result-scroll th:first-child { width: 52%; }
-.cup-record .archive-body .cup-result-scroll th:nth-child(2),
-.cup-record .archive-body .cup-result-scroll th:nth-child(3),
-.cup-record .archive-body .cup-result-scroll th:nth-child(4) { width: 10%; }
-.cup-record .archive-body .cup-result-scroll th:last-child { width: 18%; }
-.cup-record .archive-body .cup-result-scroll td { vertical-align: middle; }
-.cup-record .archive-body .cup-result-scroll td:first-child { line-height: 1.8; }
-.cup-record .archive-body .cup-result-scroll td:nth-child(n+2):nth-child(-n+4) { text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.cup-record .archive-body .cup-result-scroll td:last-child { font-weight: 700; }
+/* 접이식 결과표(대진 JSON 생성): 두 팀을 로고·팀명·국기 한 줄씩 쌓고 점수 열은 고정 폭으로 맞춘다. */
+.cup-record .archive-body .cup-result-scroll table { display: table; width: 100%; min-width: 600px; table-layout: fixed; margin: 0; white-space: normal; }
+.cup-record .archive-body .cup-result-table th:first-child { width: 40%; }
+.cup-record .archive-body .cup-result-table th:nth-child(n+2):nth-last-child(n+2) { width: 10%; text-align: center; }
+.cup-record .archive-body .cup-result-table th:last-child { width: 30%; }
+.cup-record .archive-body .cup-result-table.has-replay { min-width: 660px; }
+.cup-record .archive-body .cup-result-table.has-replay th:first-child { width: 36%; }
+.cup-record .archive-body .cup-result-table.has-replay th:nth-child(n+2):nth-last-child(n+2) { width: 9%; }
+.cup-record .archive-body .cup-result-table.has-replay th:last-child { width: 28%; }
+.cup-record .archive-body .cup-result-table td { vertical-align: middle; padding-top: 14px; padding-bottom: 14px; }
+.cup-record .cup-result-match .cup-result-team + .cup-result-team { margin-top: 8px; }
+.cup-record .cup-result-team { display: flex; align-items: center; gap: 8px; min-width: 0; line-height: 1.35; }
+.cup-record .cup-result-crest { display: grid; place-items: center; flex: none; width: 30px; height: 30px; border-radius: 7px; background: #fff; box-shadow: inset 0 0 0 1px var(--bbfc-border); }
+.cup-record .archive-body .cup-result-crest img { display: block; width: 24px; height: 24px; margin: 0; object-fit: contain; border: 0; border-radius: 0; background: none; }
+.cup-record .cup-result-name { min-width: 0; word-break: keep-all; overflow-wrap: break-word; }
+.cup-record .archive-body img.cup-result-flag { flex: none; width: 20px; height: 14px; margin: 0; object-fit: contain; border: 0; border-radius: 0; background: none; }
+.cup-record .archive-body .cup-result-score { text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 15px; }
+.cup-record .archive-body .cup-result-total { font-weight: 800; color: var(--bbfc-blue-strong); }
+.cup-record .cup-result-empty { color: var(--bbfc-gray-2, #9aa3b2); }
+.cup-record .archive-body .cup-result-winner { font-weight: 700; }
 .cup-record .cup-match-scroll { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; }
 .cup-record .archive-body .cup-match-scroll table { display: table; width: 100%; min-width: 700px; table-layout: auto; font-size: 14px; line-height: 1.6; }
 .cup-record .archive-body .cup-match-scroll th { padding: 13px 11px; background: var(--bbfc-fill-2); font-size: 12px; font-weight: 750; letter-spacing: .03em; color: var(--bbfc-gray-1); }
@@ -111,15 +121,15 @@
   .cup-record .archive-body .cup-result-scroll table { display: block; min-width: 0; font-size: 13px; }
   .cup-record .archive-body .cup-result-scroll thead { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .cup-record .archive-body .cup-result-scroll tbody { display: grid; gap: 10px; }
-  .cup-record .archive-body .cup-result-scroll tr { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border: 1px solid var(--bbfc-border); border-radius: 10px; background: var(--bbfc-bg); }
+  .cup-record .archive-body .cup-result-scroll tr { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); border: 1px solid var(--bbfc-border); border-radius: 10px; background: var(--bbfc-bg); }
+  .cup-record .archive-body .cup-result-table.has-replay { min-width: 0; }
+  .cup-record .archive-body .cup-result-table.has-replay tr { grid-template-columns: repeat(4,minmax(0,1fr)); }
   .cup-record .archive-body .cup-result-scroll td { display: block; padding: 10px 5px; border: 0; text-align: center; white-space: normal; }
-  .cup-record .archive-body .cup-result-scroll td:first-child { grid-column: 1 / -1; padding: 13px 10px; border-bottom: 1px solid var(--bbfc-border); text-align: left; font-weight: 700; }
-  .cup-record .archive-body .cup-result-scroll td:nth-child(n+2)::before { display: block; margin-bottom: 4px; color: var(--bbfc-gray-2); font-size: 10px; font-weight: 700; line-height: 1.3; }
-  .cup-record .archive-body .cup-result-scroll td:nth-child(2)::before { content: "1차전"; }
-  .cup-record .archive-body .cup-result-scroll td:nth-child(3)::before { content: "2차전"; }
-  .cup-record .archive-body .cup-result-scroll td:nth-child(4)::before { content: "합계"; }
-  .cup-record .archive-body .cup-result-scroll td:nth-child(5)::before { content: "진출"; }
-  .cup-record .archive-body .cup-result-scroll td:last-child { overflow-wrap: anywhere; }
+  .cup-record .archive-body .cup-result-scroll td.cup-result-match { grid-column: 1 / -1; padding: 13px 12px; border-bottom: 1px solid var(--bbfc-border); text-align: left; font-weight: 700; }
+  .cup-record .archive-body .cup-result-scroll td[data-label]::before { content: attr(data-label); display: block; margin-bottom: 4px; color: var(--bbfc-gray-2); font-size: 11px; font-weight: 700; line-height: 1.3; }
+  .cup-record .archive-body .cup-result-scroll td.cup-result-winner { grid-column: 1 / -1; padding: 11px 12px 13px; border-top: 1px solid var(--bbfc-border); text-align: left; }
+  .cup-record .archive-body .cup-result-scroll td.cup-result-winner::before { margin-bottom: 7px; }
+  .cup-record .archive-body .cup-result-score { font-size: 15px; }
   .cup-record .cup-match-scroll { overflow: visible; padding: 12px; background: var(--bbfc-fill-2); }
   .cup-record .archive-body .cup-match-scroll table { display: block; min-width: 0; font-size: 13px; }
   .cup-record .archive-body .cup-match-scroll thead { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

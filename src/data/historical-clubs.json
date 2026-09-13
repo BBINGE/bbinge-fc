@@ -280,15 +280,16 @@
     "crests": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/archive/teams/clubs/aarhus-supplied.svg",
-        "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
+        "period": "운영자 지정 도안; 1956-57 당시 사용 근거 미확보",
         "sourceFile": "오르후스.svg",
         "selection": "operator-supplied"
       }
     ],
-    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
+    "review": "2026-09-09 운영자 제공. 2026-09-14 운영자 지시(과거 근거 없으면 현재·기존 문장 사용)로 1956-57 확장."
   },
   "reims": {
     "name": "스타드 드 랭스",
@@ -463,8 +464,20 @@
         "src": "/images/flags/lu.svg"
       }
     ],
-    "crests": [],
-    "review": "1956-57 국기만 대조. 시대 문장 근거 미확보로 로고 칸 비움."
+    "crests": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/archive/teams/clubs/spora-crest.png",
+        "period": "2019년 재작도한 구단 문장(구단은 2005년 합병 소멸)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:CA_Spora_Luxembourg_Crest.png"
+        ],
+        "selection": "current-fallback"
+      }
+    ],
+    "review": "운영자 지시(2026-09-14): 과거 문장이 없으면 확인되는 최종 문장을 쓴다. Commons CC BY-SA 4.0, Redingffc. 표시용 512px로 축소."
   },
   "dinamo-bucuresti": {
     "name": "FC 디나모 부쿠레슈티",
@@ -720,8 +733,20 @@
         "src": "/images/flags/ch.svg"
       }
     ],
-    "crests": [],
-    "review": "1956-57 국기만 대조. Logopedia가 1886-1956·1956-1971 두 도안의 경계를 1956년으로만 적어 1956-57 도안을 확정하지 못함. 로고 칸 비움."
+    "crests": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/archive/teams/clubs/grasshopper-1956.webp",
+        "period": "1956-1971(Logopedia)",
+        "sources": [
+          "https://logos.fandom.com/wiki/Grasshopper_Club_Z%C3%BCrich"
+        ],
+        "selection": "best-available"
+      }
+    ],
+    "review": "운영자 지시(2026-09-14)로 가장 고증률 높은 도안 선택. 1956년 교체 월이 미확인이라 1956-57 경기(1956년 10월-1957년 2월) 대부분을 포함하는 1956-1971 도안을 택함."
   },
   "norrkoping": {
     "name": "IFK 노르셰핑",
@@ -735,8 +760,20 @@
         "src": "/images/flags/se.svg"
       }
     ],
-    "crests": [],
-    "review": "1956-57 국기만 대조. 시대 문장 근거 미확보로 로고 칸 비움."
+    "crests": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/archive/teams/clubs/norrkoping-current.svg",
+        "period": "현행 문장(시대 도안 미확보)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:IFK_Norrkoping_logo.svg"
+        ],
+        "selection": "current-fallback"
+      }
+    ],
+    "review": "운영자 지시(2026-09-14): 과거 문장이 없으면 현재 문장을 쓴다. 1956-57 당시 도안 근거는 미확보."
   },
   "rapid-jc": {
     "name": "라피트 JC",
