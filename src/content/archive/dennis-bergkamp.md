@@ -67,6 +67,8 @@ draft: false
 
 베르흐캄프의 이름은 스코틀랜드 공격수 데니스 로<span class="foreign-note" lang="en">(Denis Law; 맨체스터 유나이티드의 스코틀랜드 공격수, 1940-2025)</span>에게서 왔다. 전기 기술자이자 하부리그에서 공을 차던 아버지가 로의 팬이었다. 원래 철자는 N이 하나인 `Denis`였지만, 네덜란드에서는 그렇게 쓰면 발음이 달라진다는 이유로 N을 하나 더 붙였다. 로가 세상을 떠난 2025년 1월, 베르흐캄프는 아버지가 정말 좋은 이름이라 생각했다고 회상하며 로의 기술과 캐릭터를 떠올렸다.
 
+<figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/bergkamp/law-manutd-1963.webp" alt="1963년 로테르담에서 경기를 앞두고 줄지어 선 맨체스터 유나이티드 선수단 흑백 사진" width="1600" height="1055" loading="lazy" decoding="async" /><figcaption>1963년 9월 25일 로테르담, 빌럼 II와의 유러피언 컵위너스컵 경기를 앞둔 맨체스터 유나이티드. 데니스 로도 이 선수단에 있었다. 베르흐캄프가 태어나기 6년 전의 네덜란드 원정이다. 사진: Hugo van Gelderen / Anefo · 네덜란드 국가기록원.</figcaption></figure>
+
 암스테르담에서 자란 소년은 열한 살에 아약스 유소년팀에 들어갔다. 크라위프가 1군 감독으로 돌아와 유소년 출신을 과감하게 끌어올리던 시기와, 베르흐캄프가 성인 무대를 두드릴 나이가 마침 맞물렸다.
 
 ## 크라위프가 열일곱 살을 1군에 올리다
@@ -75,13 +77,22 @@ draft: false
 
 데뷔 시즌의 막내에게 정해진 자리는 없었다. 트랜스퍼마크트의 시즌별 기록을 보면 1986-87 시즌 그의 등번호만 14번, 15번, 7번이다. 오른쪽 측면에 서기도 하고 교체 명단 번호를 달기도 했다. 그래도 크라위프는 유러피언 컵위너스컵<span class="foreign-note" lang="en">(European Cup Winners' Cup; 각국 컵대회 우승팀이 참가하던 유럽 대항전)</span>에서 그를 계속 썼다. 1987년 5월 13일 아테네 결승에서 아약스가 로코모티브 라이프치히<span class="foreign-note" lang="de">(1. FC Lokomotive Leipzig; 동독 라이프치히의 구단)</span>를 1-0으로 꺾을 때 베르흐캄프도 교체로 그라운드에 있었다. 프로 첫 시즌에 유럽 트로피를 든 셈이다.
 
-<figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/bergkamp/ajax-1989.webp" alt="아약스 유니폼을 입은 스무 살의 데니스 베르흐캄프 흑백 초상" width="1200" height="1808" loading="lazy" decoding="async" /><figcaption>1989년 7월 3일 아약스 미디어 데이의 베르흐캄프. 이듬해 에레디비시 우승과 첫 득점왕 시즌이 기다리고 있었다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
+<figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/bergkamp/ajax-athens-1987.webp" alt="CUPFIGHTER AJAX 머플러를 들고 비행기 안에서 환호하는 아약스 서포터스" width="1600" height="1062" loading="lazy" decoding="async" /><figcaption>1987년 5월 12일, 아테네 결승을 보러 가는 비행기 안의 아약스 서포터스. 훗날 비행기를 끊게 되는 공격수는 이 결승에서 첫 유럽 트로피를 들었다. 사진: Bart Molendijk / Anefo · 네덜란드 국가기록원.</figcaption></figure>
+
+이듬해에도 아약스는 컵위너스컵 결승에 올랐다. 그러나 1988년 5월 11일 스트라스부르에서 벨기에의 KV 메헬렌<span class="foreign-note" lang="nl">(KV Mechelen; 벨기에 메헬렌의 구단)</span>에 0-1로 져 2연패를 놓쳤다. 베르흐캄프는 그 시즌 대회 6경기에서 1골을 넣으며 유럽 무대의 경험을 쌓았다.
+
+<figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/ajax-schiphol-1988.webp" alt="1988년 스히폴 공항에서 비행기를 뒤로하고 걸어 나오는 아약스 선수단과 대니 블린트" width="1200" height="1809" loading="lazy" decoding="async" /><figcaption>1988년 5월 12일 스히폴 공항, 스트라스부르 결승에서 준우승하고 돌아온 아약스의 대니 블린트(앞). 4년 뒤 UEFA컵 트로피를 들고 베르흐캄프를 찾아가는 주장이다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
+
 
 ## 판 할의 아약스, 3년 연속 득점왕
+
+<figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/ajax-1989.webp" alt="아약스 유니폼을 입은 스무 살의 데니스 베르흐캄프 흑백 초상" width="1200" height="1808" loading="lazy" decoding="async" /><figcaption>1989년 7월 3일 아약스 미디어 데이의 베르흐캄프. 이듬해 에레디비시 우승과 첫 득점왕 시즌이 기다리고 있었다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
 베르흐캄프가 붙박이 공격수가 된 것은 1990년대 초다. 1989-90 시즌 에레디비시<span class="foreign-note" lang="nl">(Eredivisie; 네덜란드 최상위 리그)</span> 우승을 경험했고, 1990-91 시즌 25골로 PSV의 호마리우와 함께 공동 득점왕에 올랐다. 1991-92 시즌 24골, 1992-93 시즌 26골로 3년 연속 득점왕. 같은 기간 네덜란드 올해의 축구선수상도 두 번 받았다. 아약스가 1970년대 초 유러피언컵 3연패 이후 다시 유럽의 주인공으로 돌아오기까지, 그 사이를 이어 준 "아약스 제2의 전성시대"의 대장 공격수가 바로 그였다.
 
 루이 판 할<span class="foreign-note" lang="nl">(Louis van Gaal; 1991년부터 아약스를 이끈 네덜란드 감독, 1951-)</span>이 부임한 1991-92 시즌에는 UEFA컵<span class="foreign-note" lang="en">(UEFA Cup; 현재 UEFA 유로파 리그의 전신)</span> 11경기에서 6골을 넣었다. 그런데 정작 토리노와의 결승 2차전, 암스테르담 홈 경기에는 없었다. 경기를 앞두고 병이 났기 때문이다. 아약스는 원정 1차전 2-2, 홈 2차전 0-0으로 원정 다득점 우승을 차지했다. 판 할은 훗날 ESPN 다큐멘터리에서 이렇게 돌아봤다. 운이 좋았다고, 우리가 딱히 더 나은 팀도 아니었다고, 원정에서 2-2를 만들었으니 홈에서 이길 수도 있었는데 베르흐캄프가 없었다고.
+
+<figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/bergkamp/vangaal-ajax-1988.webp" alt="1988년 기자회견장에 나란히 앉은 아약스 감독 스피츠 콘과 코치 루이 판 할" width="1600" height="1068" loading="lazy" decoding="async" /><figcaption>1988년 9월 22일, 아약스의 새 감독 스피츠 콘(왼쪽)과 코치 루이 판 할. 3년 뒤 감독이 된 판 할은 베르흐캄프를 공격의 중심에 세운다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
 우승 뒤 판 할은 주장 대니 블린트<span class="foreign-note" lang="nl">(Danny Blind; 아약스의 주장·수비수, 1961-)</span>와 함께 트로피를 들고 앓아누운 베르흐캄프를 찾아갔다. 판 할의 설명은 짧았다. 그는 아팠고, 그럴 자격이 있었으며, 우리에게 아주 중요한 선수였다고. 가장 중요한 선수였다고 해도 틀리지 않았을 것이라고. 마지막 경기를 밟지 못한 공격수에게 감독이 직접 우승을 배달한 장면이다. 1992년 발롱도르 3위, 1993년 2위가 이 무렵 그의 위치를 말해 준다.
 
@@ -96,6 +107,8 @@ draft: false
 ## 빔 용크와 함께 고른 인테르
 
 1993년 2월 15일, 인테르 회장 에르네스토 펠레그리니<span class="foreign-note" lang="it">(Ernesto Pellegrini; 1984-1995년 인테르 회장)</span>는 아약스의 네덜란드인 두 명, 베르흐캄프와 빔 용크<span class="foreign-note" lang="nl">(Wim Jonk; 아약스·인테르의 미드필더, 1966-)</span>를 영입했다고 발표했다. 당시 베르흐캄프에게는 유벤투스도 관심을 보였지만, 그는 아약스에서 함께 뛴 용크를 같이 받아 준 인테르를 골랐다. 입단 당시 그는 인테르 역사상 최고의 외국인 선수로 기억되고 싶다고 말했다.
+
+<figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/jonk-ajax-1989.webp" alt="아약스 유니폼을 입은 젊은 빔 용크의 흑백 초상" width="1200" height="1788" loading="lazy" decoding="async" /><figcaption>1989년 7월 3일 아약스 미디어 데이의 빔 용크. 베르흐캄프와 같은 날 같은 자리에서 찍혔다. 4년 뒤 두 사람은 함께 밀라노로 떠난다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
 1993년 7월 1일, "꿈의 무대 이탈리아"에 도착한 베르흐캄프는 네라주리<span class="foreign-note" lang="it">(Nerazzurri; 검정과 파랑, 인테르의 별칭)</span> 유니폼을 입었다. 로타어 마테우스, 안드레아스 브레메, 위르겐 클린스만의 "게르만 삼총사"가 떠난 공격을 다시 세울 스타로 기대받았다. 네덜란드 매체 VICE의 회고에 따르면 인테르 수뇌부는 두 네덜란드인에게 공격 축구를 약속했다. 그러나 오스발도 바뇰리<span class="foreign-note" lang="it">(Osvaldo Bagnoli; 1992-1994년 인테르 감독, 1935-)</span> 감독은 수비적인 5-3-2로 돌아갔고, 바뇰리 본인도 두 선수 영입을 자신이 요구한 적은 없다고 말했다.
 
@@ -140,17 +153,22 @@ draft: false
 
 이때 개혁을 꿈꾸던 아스널이 러브콜을 보냈다. 1995년 6월, 브루스 리오크<span class="foreign-note" lang="en">(Bruce Rioch; 1995-96 시즌 아스널 감독, 1947-)</span> 감독은 750만 파운드라는 구단 역대 최고 이적료로 베르흐캄프를 데려왔다. 조지 그레이엄 시절의 단단하지만 투박한 팀에 기술을 입히려는 영입이었다.
 
+<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/highbury-facade.webp" alt="ARSENAL STADIUM 글자가 새겨진 하이버리 동쪽 스탠드의 흰 아르데코 외벽" width="1600" height="1168" loading="lazy" decoding="async" /><figcaption>하이버리 동쪽 스탠드의 외벽. 1995년부터 2006년까지 베르흐캄프의 홈이었다. 사진(2005년): Qwghlm · Wikimedia Commons (CC BY-SA 3.0).</figcaption></figure>
+
 출발은 느렸다. 개막 후 리그 여섯 경기 동안 골이 없었고, 구단 역대 최고 이적료를 쓴 공격수를 향한 시선도 점점 싸늘해졌다. 1995년 9월 23일 하이버리에서 사우샘프턴을 상대로 마침내 두 골을 넣었다. 그 뒤로는 의심이 사라졌다. 첫 시즌 공식전 41경기 16골. 인테르에서 망가졌다던 공격수가 잉글랜드에서는 적응에 한 달이면 충분했다.
 
 ## 벵거가 온 뒤, 필버트 스트리트의 해트트릭
 
 1996년 9월 벵거가 부임하면서 베르흐캄프는 제 자리를 찾았다. 벵거는 그를 최전방 아래, 공격과 중원 사이에 두고 공격의 출발점으로 썼다. 이언 라이트, 뒤이어 니콜라 아넬카와 티에리 앙리가 그 앞에서 뛰었고, 누구와 서든 호흡이 척척 맞았다.
 
+<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/wenger.webp" alt="아스널 트레이닝복 차림으로 기자회견장에 앉은 아르센 벵거" width="700" height="525" loading="lazy" decoding="async" /><figcaption>아스널 감독 시절의 아르센 벵거. 베르흐캄프를 최전방 아래의 연결 고리로 쓴 사람이다. 사진: Paul Blank · Wikimedia Commons (CC BY 2.5).</figcaption></figure>
+
 1997년 8월 23일 레스터 시티 원정에서 그는 해트트릭을 기록했다. 경기는 3-3으로 끝났지만, 레스터 감독 마틴 오닐은 자신이 본 최고의 해트트릭이라고 했다. 세 번째 골은 데이비드 플랫의 긴 패스를 발끝으로 받아 올려 수비수 맷 엘리엇을 넘기고 골키퍼 케이시 켈러를 지나 꽂은 장면이었다. 베르흐캄프는 이 골을 아스널에서 넣은 가장 좋아하는 골로 꼽으며, 머릿속에 그린 대로 2초 전에 계획한 그대로 되었다고 말했다.
+
+<figure class="legend-section-photo legend-section-scan" style="max-width:420px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/filbert-street.webp" alt="관중으로 가득 찬 레스터 시티의 옛 홈구장 필버트 스트리트의 이층 스탠드" width="420" height="310" loading="lazy" decoding="async" /><figcaption>레스터 시티의 옛 홈구장 필버트 스트리트. 2002년 철거된 이곳에서 1997년 8월의 해트트릭이 나왔다. 사진: Samlcfc · Wikimedia Commons (CC BY-SA 3.0).</figcaption></figure>
 
 그 시즌 아스널은 리그와 FA컵 더블을 차지했다. 베르흐캄프는 잉글랜드 프로축구선수협회(PFA)와 축구기자협회(FWA)의 올해의 선수상을 동시에 받았다. 다만 4월 말 더비 카운티전에서 햄스트링을 다쳐 1998년 5월 16일 FA컵 결승에는 나서지 못했다. 1992년 UEFA컵 결승 2차전에 이어, 자신이 이끈 팀의 결승을 또 한 번 밖에서 지켜봐야 했다.
 
-<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/arsenal-2003.webp" alt="아스널 빨간 유니폼 차림으로 경기장 계단 앞을 걷는 데니스 베르흐캄프" width="1280" height="960" loading="lazy" decoding="async" /><figcaption>2003년 8월 27일 아스널 시절의 베르흐캄프. 이 시즌 아스널은 리그 38경기를 한 번도 지지 않는다. 사진: Alexander Ottesen · Wikimedia Commons (CC BY-SA 2.5).</figcaption></figure>
 
 ## 1998년 7월 4일 마르세유, 세 번의 터치
 
@@ -159,6 +177,8 @@ draft: false
 1-1로 맞선 90분, 두 팀 모두 한 명씩 퇴장당해 10명이 뛰던 순간이었다. 주장 프랑크 더부르<span class="foreign-note" lang="nl">(Frank de Boer; 아약스·바르셀로나의 네덜란드 수비수, 1970-)</span>가 자기 진영에서 긴 패스를 띄웠다. 베르흐캄프는 오른발로 공을 잡아 세웠고, 두 번째 터치로 로베르토 아얄라<span class="foreign-note" lang="es-AR">(Roberto Ayala; 아르헨티나의 수비수, 1973-)</span>를 안쪽으로 따돌렸다. 세 번째 터치는 오른발 바깥쪽으로 골키퍼 카를로스 로아<span class="foreign-note" lang="es-AR">(Carlos Roa; 아르헨티나의 골키퍼, 1969-)</span>를 넘기는 슈팅이었다. 2-1. 대표팀 36호 골로 네덜란드 단독 최다 득점 기록도 함께 세웠다.
 
 본인의 기억은 이렇다. 먼저 프랑크 더부르와 눈이 맞았고, 그가 공을 줄 것을 알았다. 수비수에게서 몇 걸음 떨어지도록 달리고, 어깨 너머로 오는 공을 향해 뛰어올라 공을 죽였다. 그리고 첫 두 번의 터치 뒤의 그 순간, 인생 전체가 그 순간을 위해 이어져 온 것 같았다고 했다. 네덜란드 라디오의 잭 판헬더르<span class="foreign-note" lang="nl">(Jack van Gelder; 네덜란드 스포츠 중계 캐스터, 1950-)</span>는 이름만 네 번 연달아 외쳤다. "데니스 베르흐캄프! 데니스 베르흐캄프! 데니스 베르흐캄프! 데니스 베르흐캄프!" 네덜란드 사람들에게 이 골은 영상보다 이 목소리로 먼저 기억된다.
+
+<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/van-gelder.webp" alt="경기장 관중석에서 미소 짓는 네덜란드 스포츠 캐스터 잭 판헬더르" width="700" height="525" loading="lazy" decoding="async" /><figcaption>네덜란드 스포츠 캐스터 잭 판헬더르. 1998년 7월 4일 그가 네 번 외친 이름이 이 골의 사운드트랙이 됐다. 사진: Paul Blank · Wikimedia Commons (CC BY 2.5).</figcaption></figure>
 
 7월 7일 브라질과의 준결승은 또 승부차기였다. 베르흐캄프는 두 번째 키커로 나서 성공했지만, 필립 코퀴와 로날트 더부르의 슈팅이 막히며 네덜란드는 2-4로 탈락했다. 유로 1992에 이어 두 번째로, 자기 킥을 넣고도 결승 문턱에서 멈췄다. 이 대회 3골 3도움으로 공동 도움 1위, 대회 올스타 팀에 선정됐다.
 
@@ -170,13 +190,19 @@ draft: false
 
 아스널은 이 시즌에도 리그와 FA컵 더블을 차지했다. 그리고 2003-04 시즌, 리그 38경기를 한 번도 지지 않은 무패 우승 멤버에 서른네 살의 베르흐캄프가 있었다.
 
+<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/arsenal-2003.webp" alt="아스널 빨간 유니폼 차림으로 경기장 계단 앞을 걷는 데니스 베르흐캄프" width="1280" height="960" loading="lazy" decoding="async" /><figcaption>2003년 8월 27일 아스널 시절의 베르흐캄프. 이 시즌 아스널은 리그 38경기를 한 번도 지지 않는다. 사진: Alexander Ottesen · Wikimedia Commons (CC BY-SA 2.5).</figcaption></figure>
+
 ## 오렌지색 하이버리, 마지막 골과 첫 경기
 
 2005년 9월 14일 UEFA 챔피언스 리그 FC 툰<span class="foreign-note" lang="de-CH">(FC Thun; 스위스 툰의 구단)</span>전에서 서른여섯의 베르흐캄프는 추가시간에 결승골을 넣었다. 로빈 판페르시가 퇴장당해 10명으로 버틴 경기였다. 벵거는 투지와 결단력, 그리고 클래스로 가득한 경기였다고 평했다.
 
-2006년 4월 15일은 서포터스가 정한 `데니스 베르흐캄프 데이`였다. 하이버리의 관중은 네덜란드를 상징하는 오렌지색 옷을 입고 모였다. 교체로 들어간 베르흐캄프는 89분 웨스트 브로미치 앨비언을 상대로 골을 넣었다. 3-1. 아스널 유니폼을 입고 넣은 마지막 골이었다. 그해 5월 파리에서 열린 UEFA 챔피언스 리그 결승에서 아스널은 바르셀로나에 1-2로 졌다. 공식전 423경기 120골, 11시즌의 끝이었다.
+2006년 4월 15일은 서포터스가 정한 `데니스 베르흐캄프 데이`였다. 하이버리의 관중은 네덜란드를 상징하는 오렌지색 옷을 입고 모였다. 교체로 들어간 베르흐캄프는 89분 웨스트 브로미치 앨비언을 상대로 골을 넣었다. 3-1. 아스널 유니폼을 입고 넣은 마지막 골이었다.
+
+<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/highbury-1913-2006.webp" alt="하이버리 잔디에 HIGHBURY 1913-2006 글자를 새긴 모습" width="640" height="480" loading="lazy" decoding="async" /><figcaption>2005년 8월 14일, 하이버리 마지막 시즌 개막일의 잔디. 경기장이 문을 닫는 해가 미리 새겨졌다. 사진: Julian Shulman · geograph (CC BY-SA 2.0).</figcaption></figure> 그해 5월 파리에서 열린 UEFA 챔피언스 리그 결승에서 아스널은 바르셀로나에 1-2로 졌다. 공식전 423경기 120골, 11시즌의 끝이었다.
 
 그리고 2006년 7월 22일, 아스널의 새 경기장 에미레이츠 스타디움이 문을 열었다. 개장 경기는 베르흐캄프의 은퇴 경기였고, 상대는 그가 자란 아약스였다. 벵거는 새 역사의 첫 장을 진정한 아스널 레전드를 기리며 여는 것이 걸맞다고 했다. 한 선수의 마지막 경기로 한 경기장의 첫 경기를 연 셈이다.
+
+<figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/emirates-2006.webp" alt="런던 주택가 지붕 너머로 보이는 완공 직전의 에미레이츠 스타디움" width="1600" height="1200" loading="lazy" decoding="async" /><figcaption>2006년 7월 10일, 주택가 너머로 보이는 새 경기장. 12일 뒤 베르흐캄프의 은퇴 경기가 이곳의 첫 경기가 된다. 사진: Alastair Rae · Wikimedia Commons (CC BY-SA 2.0).</figcaption></figure>
 
 ## 청동으로 선 10번, 그리고 아약스로 돌아간 코치
 
@@ -185,6 +211,8 @@ draft: false
 2014년 2월 22일 에미레이츠 스타디움 앞에 베르흐캄프의 동상이 섰다. 허버트 채프먼, 토니 애덤스, 앙리에 이은 네 번째 동상이다. 같은 뉴캐슬을 상대한 2002년 원정 골과 헷갈리기 쉽지만, 아스널 구단의 설명에 따르면 동상의 자세는 2003년 2월 9일 뉴캐슬전에서 공을 공중에서 받아 세우던 순간이다. 골이 아니라 터치를 청동으로 남긴 선택이 오히려 이 선수답다.
 
 두 번째 동상은 고향에 섰다. 창립 125주년을 맞은 네덜란드 왕립 축구 협회(KNVB)가 지난 25년 최고의 대표 선수를 뽑는 투표를 열었고, 프랑크 더부르, 로날트 쿠만, 필립 코퀴, 조바니 판브롱크호르스트를 제치고 베르흐캄프가 선정됐다. 2017년 12월 14일 자이스트 KNVB 캠퍼스의 오라녀 명예 전시관에 조각가 리아 크롤<span class="foreign-note" lang="nl">(Lia Krol; 네덜란드 조각가)</span>이 만든 동상이 공개됐다. 이번에는 1998년 아르헨티나전, 프랑크 더부르의 긴 패스를 받아 세우던 순간이다. 런던은 뉴캐슬전의 트래핑을, 자이스트는 마르세유의 트래핑을 골랐다. 두 나라가 모두 그의 첫 터치를 기억하기로 한 셈이다. 제막식에서 베르흐캄프는 무엇을 기대해야 할지 몰랐다며 한마디를 보탰다. 자세도 그렇고, 머리도 그럭저럭 잘 나왔다고.
+
+<figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/statue-zeist.webp" alt="자이스트 조각 정원에서 공을 발등으로 받아 세우는 자세의 데니스 베르흐캄프 청동상" width="1200" height="2003" loading="lazy" decoding="async" /><figcaption>자이스트 KNVB 캠퍼스의 베르흐캄프 동상. 리아 크롤이 1998년 아르헨티나전의 트래핑을 본떴다. 사진: Agaath · Wikimedia Commons (CC BY-SA 4.0).</figcaption></figure>
 
 은퇴 뒤 그는 코치의 길을 택했다. 2011년 프랑크 더부르 감독의 아약스에 코치로 합류해 페터르 보스 시절까지 유소년 육성과 공격 지도를 맡았고, 2017년 12월 팀을 떠났다. 2013년 자서전 발표 자리에서 그는 스트라이커가 더는 기회를 놓치지 않게 가르칠 만큼 좋은 지도자가 되고 싶다며, 자신은 앞에 나서기를 원하지 않기에 감독이 될 필요도 없다고 말했다.
 
@@ -300,7 +328,7 @@ draft: false
   <li><a href="https://en.wikipedia.org/wiki/Dennis_Bergkamp" rel="noopener noreferrer">Wikipedia: Dennis Bergkamp</a>: 시즌별 공식전 출전·득점 표와 수상 목록 교차 확인.</li>
   <li><a href="https://x.com/MiguelDelaney/status/1881098775613341806" rel="noopener noreferrer">Miguel Delaney(X): 데니스 로 별세 뒤 베르흐캄프 발언 인용</a>: 아버지가 붙인 이름과 N 두 개의 사연.</li>
   <li><a href="https://www.transfermarkt.com/dennis-bergkamp/rueckennummern/spieler/3187" rel="noopener noreferrer">트랜스퍼마크트: 등번호 이력</a>: 클럽과 대표팀의 시즌별 번호.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/Category:Dennis_Bergkamp" rel="noopener noreferrer">Wikimedia Commons: 데니스 베르흐캄프 사진</a>: 1989년 Anefo 초상(네덜란드 국가기록원), 인테르 UEFA컵 우승, 유로 96, 아스널 시절과 에미레이츠 동상 사진.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/Category:Dennis_Bergkamp" rel="noopener noreferrer">Wikimedia Commons: 데니스 베르흐캄프 사진</a>: 네덜란드 국가기록원 Anefo 사진(1963 맨유 로테르담 원정, 1987 아테네행 서포터스, 1988 스히폴 귀국, 1988 판 할, 1989 베르흐캄프·용크 초상), 인테르 UEFA컵 우승, 유로 96, 하이버리·필버트 스트리트·에미레이츠 스타디움, 벵거·판헬더르, 아스널 시절과 에미레이츠·자이스트 동상 사진.</li>
 </ul>
 
 <style>
