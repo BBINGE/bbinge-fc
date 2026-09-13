@@ -32,7 +32,7 @@ const archiveIndex = branch.indexes.find((item) => item.slug === entry.data.inde
 const isLegend = entry.data.branch === 'legends';
 const viewPath = `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`;
 const { Content } = await render(entry);
-const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|football-results|european-cup-milestone)=/.test(entry.rendered.html);
+const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|football-results|european-cup-milestone|european-cup-scorers)=/.test(entry.rendered.html);
 const footballHtml = hasFootballRecords ? expandFootballTies(entry.rendered!.html) : '';
 const hasAwardRecords = entry.rendered?.html?.includes('data-award-record=') ?? false;
 const awardHtml = hasAwardRecords ? expandAwardRecords(entry.rendered!.html) : '';

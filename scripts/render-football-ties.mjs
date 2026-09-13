@@ -7,6 +7,7 @@ const root = pathToFileURL(resolve(process.cwd()) + '/');
 const readJson = path => JSON.parse(readFileSync(new URL(path, root), 'utf8'));
 const clubs = readJson('src/data/historical-clubs.json');
 const europeanCupHistory = readJson('src/data/european-cup-seasons.json');
+const europeanCupScorers = readJson('src/data/european-cup-scorers.json');
 const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[char]));
 
 const stageMeta = {
@@ -135,11 +136,43 @@ export function renderEuropeanCupMilestone(season, stage) {
   return `<div class="cup-stage-scroll" tabindex="0" role="region" aria-label="${escape(season)} ${escape(record.competition)} ${escape(meta.label)} 구단별 누적 횟수 표"><table><thead><tr><th scope="col">구단</th><th scope="col">대표 지역</th><th scope="col">${escape(meta.label)}</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
+// 득점 순위표: 골 수 내림차순, 공동 순위는 앞선 선수 수 + 1. 클럽 문장은 해당 시즌 자산을 쓴다.
+export function renderTopScorers(season) {
+  if (!/^\d{4}-\d{2}$/.test(season)) throw new Error('Invalid top scorers key');
+  const record = europeanCupScorers.seasons.find(item => item.season === season);
+  if (!record) throw new Error('Unknown top scorers season: ' + season);
+  const list = record.scorers;
+  list.forEach((p, i) => {
+    if (!Number.isInteger(p.goals) || !Number.isInteger(p.apps) || p.goals < record.cutoff || p.apps < 1) throw new Error('Invalid scorer record: ' + p.name);
+    if (i > 0 && list[i - 1].goals < p.goals) throw new Error('Scorers must be sorted by goals: ' + p.name);
+    const expected = 1 + list.filter(q => q.goals > p.goals).length;
+    if (p.rank !== expected) throw new Error('Wrong rank for ' + p.name + ': ' + p.rank + ' (expected ' + expected + ')');
+    if (!p.flag.startsWith('/images/flags/') || !existsSync(new URL('public' + p.flag, root))) throw new Error('Missing scorer flag: ' + p.name);
+  });
+  if (list.reduce((sum, p) => sum + p.goals, 0) > record.goals) throw new Error('Scorer goals exceed season total: ' + season);
+  const image = (src, cls, width, height) => '<img class="' + cls + '" src="' + escape(src) + '" alt="" width="' + width + '" height="' + height + '" loading="lazy" decoding="async" />';
+  const rows = list.map(p => {
+    const club = resolveClub(p.club, season);
+    const tied = list.filter(q => q.rank === p.rank).length > 1;
+    const crest = club.crest ? image(club.crest.src, '', 28, 28) : '';
+    return '<tr' + (p.rank === 1 ? ' class="is-top"' : '') + '>'
+      + '<td class="cup-scorer-rank" data-label="순위">' + (tied ? '공동 ' : '') + p.rank + '위</td>'
+      + '<td class="cup-scorer-player"><strong>' + escape(p.name) + '</strong><span lang="' + escape(p.lang) + '">' + escape(p.original) + '</span></td>'
+      + '<td class="cup-scorer-club" data-label="클럽"><span class="cup-result-team"><span class="cup-result-crest">' + crest + '</span><span class="cup-result-name">' + escape(club.name) + '</span></span></td>'
+      + '<td class="cup-scorer-origin" data-label="출신"><span>' + image(p.flag, 'cup-result-flag', 20, 14) + escape(p.origin) + '</span></td>'
+      + '<td class="cup-scorer-num" data-label="출전">' + p.apps + '경기</td>'
+      + '<td class="cup-scorer-num cup-scorer-goals" data-label="득점">' + p.goals + '골</td></tr>';
+  }).join('');
+  const label = season + ' ' + record.competition + ' 득점 순위 표, ' + record.cutoff + '골 이상';
+  return '<div class="cup-scorer-scroll" tabindex="0" role="region" aria-label="' + escape(label) + '"><table class="cup-scorer-table"><thead><tr><th scope="col">순위</th><th scope="col">선수</th><th scope="col">클럽</th><th scope="col">출신</th><th scope="col">출전</th><th scope="col">득점</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+}
+
 // Build-time expansion only: no client script, remote fetch or runtime dependency.
 export function expandFootballTies(html) {
   const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|preliminary-round|round-of-16|quarter-finals|semi-finals|final|champions|runners-up)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
-  const results = milestones.replace(/<div data-football-results="([a-z0-9-]+):(예선|16강|8강|4강)"><\/div>/g, (_, collection, stage) => renderResultTable(collection, stage));
+  const scorers = milestones.replace(/<div data-european-cup-scorers="(\d{4}-\d{2})"><\/div>/g, (_, season) => renderTopScorers(season));
+  const results = scorers.replace(/<div data-football-results="([a-z0-9-]+):(예선|16강|8강|4강)"><\/div>/g, (_, collection, stage) => renderResultTable(collection, stage));
   const expanded = results.replace(/<div data-football-tie="([a-z0-9-]+):(match-\d+)"><\/div>/g, (_, collection, id) => renderTie(collection, id));
-  if (expanded.includes('data-football-tie=') || expanded.includes('data-european-cup-milestone=') || expanded.includes('data-football-results=')) throw new Error('Malformed football archive placeholder');
+  if (expanded.includes('data-football-tie=') || expanded.includes('data-european-cup-milestone=') || expanded.includes('data-football-results=') || expanded.includes('data-european-cup-scorers=')) throw new Error('Malformed football archive placeholder');
   return expanded;
 }

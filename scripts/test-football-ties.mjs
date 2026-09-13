@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { expandFootballTies, renderEuropeanCupMilestone, renderResultTable, renderTie, resolveClub } from './render-football-ties.mjs';
+import { expandFootballTies, renderEuropeanCupMilestone, renderResultTable, renderTie, renderTopScorers, resolveClub } from './render-football-ties.mjs';
 const expected = [[5,8],[10,4],[0,7],[1,5],[4,1],[2,4],[6,2],[7,5],[1,4],[8,6],[4,3],[3,8]];
 for (let i = 0; i < 12; i++) {
   const html = renderTie('1955-56-european-cup', `match-${i+1}`);
@@ -136,4 +136,18 @@ assert(results5657[0].includes('has-replay') && results5657[1].includes('has-rep
 assert.equal((results5657.join('').match(/class="cup-result-crest"><img/g)??[]).length,54, '대진 36칸 + 진출 18칸 로고');
 assert(results5657.join('').includes('/images/flags/bg-1948.svg') && results5657.join('').includes('/images/flags/ro-1952.svg'));
 assert(results5657[0].includes('data-label="재경기">7-0'));
-console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리');
+// 1955-56 득점 순위: RSSSF·UEFA 일치 9명, 공동 순위 규칙, 시즌 문장.
+const scorers5556 = renderTopScorers('1955-56');
+assert.equal((scorers5556.match(/<tr[ >]/g) ?? []).length, 10, '머리글 1행 + 선수 9행');
+for (const [rank, name, goals] of [['1위','밀로시 밀루티노비치',8],['공동 2위','레옹 글로바츠키',6],['공동 2위','펄로타시 페테르',6],['공동 4위','르네 블리아르',5],['공동 4위','알프레도 디스테파노',5],['공동 4위','엑토르 리알',5],['공동 7위','런토시 미하이',4],['공동 7위','군나르 노르달',4],['공동 7위','미셸 르블롱',4]]) {
+  assert(new RegExp(rank + '</td><td class="cup-scorer-player"><strong>' + name + '</strong>').test(scorers5556), name + ' 순위');
+  assert(scorers5556.includes(name + '</strong>') && scorers5556.includes('data-label="득점">' + goals + '골'), name + ' 골');
+}
+assert.equal((scorers5556.match(/class="is-top"/g) ?? []).length, 1);
+assert.equal((scorers5556.match(/cup-result-crest"><img/g) ?? []).length, 9, '득점자 9명 클럽 문장');
+assert(expandFootballTies('<div data-european-cup-scorers="1955-56"></div>').includes('cup-scorer-table'));
+assert.throws(() => renderTopScorers('1999-00'), /Unknown top scorers season/);
+const scorerSource = readFileSync(new URL('../src/content/archive/1955-56-european-cup-top-scorers.md', import.meta.url), 'utf8');
+assert.equal((scorerSource.match(/data-european-cup-scorers="1955-56"/g) ?? []).length, 1);
+assert(!scorerSource.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
+console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명');

@@ -99,6 +99,41 @@
 .cup-record .archive-body .cup-result-total { font-weight: 800; color: var(--bbfc-blue-strong); }
 .cup-record .cup-result-empty { color: var(--bbfc-gray-2, #9aa3b2); }
 .cup-record .archive-body .cup-result-winner { font-weight: 700; }
+/* 득점 순위표: 순위·선수·클럽·출신·출전·득점. 1위 행만 강조한다. */
+.cup-record .cup-scorer-scroll { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; margin: 28px 0 12px; }
+.cup-record .archive-body .cup-scorer-table { display: table; width: 100%; min-width: 640px; table-layout: fixed; margin: 0; white-space: normal; }
+.cup-record .archive-body .cup-scorer-table th:nth-child(1) { width: 11%; }
+.cup-record .archive-body .cup-scorer-table th:nth-child(2) { width: 25%; }
+.cup-record .archive-body .cup-scorer-table th:nth-child(3) { width: 25%; }
+.cup-record .archive-body .cup-scorer-table th:nth-child(4) { width: 19%; }
+.cup-record .archive-body .cup-scorer-table th:nth-child(5),
+.cup-record .archive-body .cup-scorer-table th:nth-child(6) { width: 10%; text-align: center; }
+.cup-record .archive-body .cup-scorer-origin span { white-space: nowrap; }
+.cup-record .archive-body .cup-scorer-table td { vertical-align: middle; padding-top: 14px; padding-bottom: 14px; }
+.cup-record .archive-body .cup-scorer-rank { white-space: nowrap; font-weight: 700; color: var(--bbfc-gray-1); }
+.cup-record .archive-body .cup-scorer-player strong { display: block; word-break: keep-all; }
+.cup-record .archive-body .cup-scorer-player span { display: block; margin-top: 2px; font-size: 12px; color: var(--bbfc-gray-1); }
+.cup-record .archive-body .cup-scorer-origin span { display: inline-flex; align-items: center; gap: 6px; }
+.cup-record .archive-body .cup-scorer-num { text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.cup-record .archive-body .cup-scorer-goals { font-size: 16px; font-weight: 800; color: var(--bbfc-blue-strong); }
+.cup-record .archive-body .cup-scorer-table tr.is-top td { background: var(--bbfc-blue-weak); }
+.cup-record .archive-body .cup-scorer-table tr.is-top .cup-scorer-rank { color: var(--bbfc-blue-strong); }
+@media (max-width: 600px) {
+  .cup-record .cup-scorer-scroll { overflow: visible; }
+  .cup-record .archive-body .cup-scorer-table { display: block; min-width: 0; font-size: 13px; }
+  .cup-record .archive-body .cup-scorer-table thead { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .cup-record .archive-body .cup-scorer-table tbody { display: grid; gap: 10px; }
+  .cup-record .archive-body .cup-scorer-table tr { display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 8px 10px; padding: 13px 14px; border: 1px solid var(--bbfc-border); border-radius: 10px; background: var(--bbfc-bg); }
+  .cup-record .archive-body .cup-scorer-table tr.is-top { border-color: var(--bbfc-blue); background: var(--bbfc-blue-weak); }
+  .cup-record .archive-body .cup-scorer-table tr.is-top td { background: none; }
+  .cup-record .archive-body .cup-scorer-table td { display: block; padding: 0; border: 0; }
+  .cup-record .archive-body .cup-scorer-rank { grid-column: 1; grid-row: 1; }
+  .cup-record .archive-body .cup-scorer-player { grid-column: 2; grid-row: 1; }
+  .cup-record .archive-body .cup-scorer-goals { grid-column: 3; grid-row: 1; font-size: 17px; }
+  .cup-record .archive-body .cup-scorer-club { grid-column: 1 / 3; grid-row: 2; }
+  .cup-record .archive-body .cup-scorer-origin { grid-column: 1 / 3; grid-row: 3; color: var(--bbfc-gray-1); }
+  .cup-record .archive-body .cup-scorer-num:not(.cup-scorer-goals) { grid-column: 3; grid-row: 2; font-size: 12px; color: var(--bbfc-gray-1); }
+}
 .cup-record .cup-match-scroll { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; }
 .cup-record .archive-body .cup-match-scroll table { display: table; width: 100%; min-width: 700px; table-layout: auto; font-size: 14px; line-height: 1.6; }
 .cup-record .archive-body .cup-match-scroll th { padding: 13px 11px; background: var(--bbfc-fill-2); font-size: 12px; font-weight: 750; letter-spacing: .03em; color: var(--bbfc-gray-1); }

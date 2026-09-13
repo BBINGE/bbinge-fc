@@ -45,6 +45,7 @@
 - **예선·재경기(1956-57부터):** 공식 예선은 시즌 데이터 `preliminary-round`, 대진 카드 `stage: "예선"`으로 기록하고 이전 시즌에 소급하지 않는다. 원정 다득점 규정이 없던 시기의 합계 동률은 대진 JSON에 `"playoff": [왼쪽, 오른쪽]`을 적어 카드에 `재경기` 칸을 연다. 동률인데 재경기가 없거나, 동률이 아닌데 재경기가 있으면 빌드가 멈춘다. 결과표 마크다운에도 `재경기` 열을 둔다.
 - **구단 표기(운영자 확정, 2026-09-14):** 운영자 도판이 현재 통용명을 쓴 구단은 카드·표·본문도 그 이름을 쓰고, 당시 공식 명칭은 본문 첫 등장의 원어 괄호에서 풀어 준다. 첫 적용은 `아틀레틱 클루브`(1941-1972년 Atlético de Bilbao)다. 캡션에서 명칭을 교정하는 대신 괄호 설명으로 처리한다.
 - **시대 문장 찾기:** Commons(기간 표기 파일)·FootyLogos 역사 로고·Logopedia 연도별 연혁·해당국 위키백과 본문과 갤러리를 교차한다. 기간 경계가 시즌 중간에 걸리면 그 시즌 경기를 더 많이 포함하는 도안을 고른다(1956-57 그라스호퍼는 1956-1971 도안). 시대 문장이 없으면 현재 또는 확인되는 최종 문장을 `selection: current-fallback`으로 넣고 비워 두지 않는다(운영자 확정, 2026-09-14).
+- **득점 순위표:** 시즌 최다 득점 순위는 `src/data/european-cup-scorers.json`에 기록하고 원고에는 `<div data-european-cup-scorers="{시즌}"></div>`만 둔다. 빌드가 골 수 정렬, 공동 순위(앞선 선수 수 + 1), 국기 파일, 시즌 총득점 초과를 검사한다. UEFA와 RSSSF가 다른 선수는 표에 넣지 않고 본문에 차이를 밝힌다(1955-56 쾨르너 사례).
 - **접이식 결과표:** 원고에는 `<div data-football-results="{대진 파일}:{단계}"></div>`만 두고 `renderResultTable`이 대진 데이터로 표를 만든다. 대진 칸은 두 팀을 로고·팀명·국기 한 줄씩 쌓고, 재경기가 있는 단계만 재경기 열을 연다. 모바일은 셀별 `data-label` 카드형이다. 손으로 쓴 마크다운 표는 열 수가 바뀌면 폭 규칙이 깨져 합계와 진출팀이 겹친다(1956-57 발행 직후 회귀).
 - 누적 순번은 `통산 첫`, `통산 두 번째`, `통산 세 번째` 형식이다. 두 번째 시즌부터 숫자가 올라가므로 새 시즌을 넣으면 `test-football-ties.mjs`에 해당 시즌의 두 번째 이상 횟수를 함께 검산한다.
 - UEFA 경기 데이터의 경기장명은 현대 명칭일 수 있다. 본문에는 당시 경기장명을 쓰고, 한 자료에만 있는 이례적인 개최지는 교차 확인 전까지 쓰지 않는다. 사례는 `docs/editorial/european-cup-1956-57-source-audit.md`.
@@ -80,6 +81,7 @@
 - 유러피언컵: [시즌 데이터](src/data/european-cup-seasons.json), [역사 구단](src/data/historical-clubs.json), [자산 절차](docs/editorial/historical-club-assets.md)
 - 결승 H/L: [승인 원고](src/content/articles/1955-56-european-cup-final-real-madrid-stade-de-reims.md), [사료 메모](docs/editorial/1955-56-european-cup-final-source-audit.md), [검수](scripts/qa-european-cup-final.mjs)
 - 대진 검수: [4강](scripts/qa-european-cup-semifinals.mjs), [1956-57 본선 화면](scripts/qa-european-cup-1956-57.mjs)
+- 1955-56 득점 순위: [승인 원고](src/content/archive/1955-56-european-cup-top-scorers.md), [득점 데이터](src/data/european-cup-scorers.json), [사료 메모](docs/editorial/1955-56-european-cup-top-scorers-source-audit.md)
 - 1956-57 본선: [승인 원고](src/content/archive/1956-57-european-cup.md), [대진 데이터](src/data/cup-ties/1956-57-european-cup.json), [사료 메모](docs/editorial/european-cup-1956-57-source-audit.md)
 
 여기에 적힌 1956 사례는 검수 기준점이지 이후 연도의 사실값이 아니다. 새 합의는 이 전문 기준에 반영하고, 특정 판본의 사실 충돌은 사료 메모, 최신 발행 상태는 HANDOFF에 둔다.

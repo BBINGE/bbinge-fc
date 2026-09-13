@@ -1,0 +1,22 @@
+{
+  "seasons": [
+    {
+      "season": "1955-56",
+      "competition": "유러피언컵",
+      "matches": 29,
+      "goals": 127,
+      "cutoff": 4,
+      "scorers": [
+        { "rank": 1, "name": "밀로시 밀루티노비치", "original": "Miloš Milutinović", "lang": "sr-Latn", "club": "partizan", "origin": "유고슬라비아", "flag": "/images/flags/yu-1946.svg", "apps": 4, "goals": 8 },
+        { "rank": 2, "name": "레옹 글로바츠키", "original": "Léon Glovacki", "lang": "fr", "club": "reims", "origin": "프랑스", "flag": "/images/flags/fr.svg", "apps": 7, "goals": 6 },
+        { "rank": 2, "name": "펄로타시 페테르", "original": "Palotás Péter", "lang": "hu", "club": "voros-lobogo", "origin": "헝가리", "flag": "/images/flags/hu.svg", "apps": 4, "goals": 6 },
+        { "rank": 4, "name": "르네 블리아르", "original": "René Bliard", "lang": "fr", "club": "reims", "origin": "프랑스", "flag": "/images/flags/fr.svg", "apps": 7, "goals": 5 },
+        { "rank": 4, "name": "알프레도 디스테파노", "original": "Alfredo Di Stéfano", "lang": "es", "club": "real-madrid", "origin": "아르헨티나", "flag": "/images/flags/ar.svg", "apps": 7, "goals": 5 },
+        { "rank": 4, "name": "엑토르 리알", "original": "José Héctor Rial Laguía", "lang": "es", "club": "real-madrid", "origin": "아르헨티나", "flag": "/images/flags/ar.svg", "apps": 7, "goals": 5 },
+        { "rank": 7, "name": "런토시 미하이", "original": "Lantos Mihály", "lang": "hu", "club": "voros-lobogo", "origin": "헝가리", "flag": "/images/flags/hu.svg", "apps": 4, "goals": 4 },
+        { "rank": 7, "name": "군나르 노르달", "original": "Gunnar Nordahl", "lang": "sv", "club": "milan", "origin": "스웨덴", "flag": "/images/flags/se.svg", "apps": 5, "goals": 4 },
+        { "rank": 7, "name": "미셸 르블롱", "original": "Michel Leblond", "lang": "fr", "club": "reims", "origin": "프랑스", "flag": "/images/flags/fr.svg", "apps": 6, "goals": 4 }
+      ]
+    }
+  ]
+}
