@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-13T17:16:28.286Z",
+  "updatedAt": "2026-09-13T17:51:47.196Z",
   "matches": [
     {
       "id": "2489110",
@@ -194,14 +194,14 @@
           "rank": 2,
           "team": "맨체스터 시티",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-          "played": 3,
-          "wins": 3,
+          "played": 4,
+          "wins": 4,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 7,
+          "goalsFor": 8,
           "goalsAgainst": 2,
-          "goalDifference": 5,
-          "points": 9
+          "goalDifference": 6,
+          "points": 12
         },
         {
           "rank": 3,
@@ -337,13 +337,13 @@
           "rank": 13,
           "team": "맨체스터 유나이티드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-          "played": 3,
+          "played": 4,
           "wins": 1,
           "draws": 1,
-          "losses": 1,
+          "losses": 2,
           "goalsFor": 7,
-          "goalsAgainst": 6,
-          "goalDifference": 1,
+          "goalsAgainst": 7,
+          "goalDifference": 0,
           "points": 4
         },
         {
@@ -1019,6 +1019,19 @@
         },
         {
           "rank": 4,
+          "team": "바이에른 뮌헨",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 2,
+          "goalDifference": 5,
+          "points": 7
+        },
+        {
+          "rank": 5,
           "team": "RB 라이프치히",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
           "played": 3,
@@ -1031,30 +1044,17 @@
           "points": 6
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "엘버스베르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
-          "played": 2,
+          "played": 3,
           "wins": 2,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 5,
-          "goalDifference": 2,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
+          "goalDifference": 1,
           "points": 6
-        },
-        {
-          "rank": 6,
-          "team": "바이에른 뮌헨",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 1,
-          "goalDifference": 4,
-          "points": 4
         },
         {
           "rank": 7,
