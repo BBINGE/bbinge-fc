@@ -33,6 +33,27 @@ const imageAltFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage
 const introLead = description?.split(' H/L은')[0] ?? description;
 
 const profiles: Record<string, MatchProfile> = {
+  '1956-57-european-cup-final-real-madrid-fiorentina': {
+    year: '1957',
+    kicker: 'LA SEGUNDA AT THE BERNABÉU',
+    kickerSub: '69분까지 버틴 비올라, 안방에서 지킨 두 번째 왕관',
+    stage: 'EUROPEAN CUP · FINAL',
+    home: '레알 마드리드 CF',
+    away: 'AC 피오렌티나',
+    homeScore: '2',
+    awayScore: '0',
+    date: '1957.05.30',
+    venue: '에스타디오 산티아고 베르나베우',
+    scenes: '15 SCENES',
+    turningPoint: '69분까지 0-0으로 버티던 피오렌티나가 논란의 페널티킥에 무너졌고, 6분 뒤 헨토가 사르티를 넘겨 레알의 2연패를 확정했다.',
+    timeline: [
+      { time: "0'", label: '킥오프' },
+      { time: "45'", label: '전반 0-0' },
+      { time: "69'", label: '레알 1-0' },
+      { time: "75'", label: '레알 2-0' },
+      { time: "90'", label: '레알 우승' },
+    ],
+  },
   '1955-56-european-cup-final-real-madrid-stade-de-reims': {
     year: '1956',
     kicker: 'THE FIRST EUROPEAN CROWN',

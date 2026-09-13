@@ -164,4 +164,14 @@ const semiSource5657 = readFileSync(new URL('../src/content/archive/1956-57-euro
 assert.equal((semiSource5657.match(/data-football-tie="1956-57-european-cup-semifinals:/g) ?? []).length, 2);
 assert.equal((semiSource5657.match(/data-european-cup-milestone="1956-57:semi-finals"/g) ?? []).length, 1);
 assert(!semiSource5657.includes('ACF 피오렌티나 |') && !semiSource5657.includes('스타디온 파르티자나,'), '표·헤더는 당시 명칭');
-console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개');
+// 1956-57 결승 H/L: 레알 두 번째 결승·우승, 피오렌티나 첫 결승·준우승, 원고 자리표시.
+const final5657 = renderEuropeanCupMilestone('1956-57', 'final');
+assert.equal((final5657.match(/class="cup-entrant-club"/g) ?? []).length, 2);
+assert.equal((final5657.match(/통산 두 번째 결승 진출/g) ?? []).length, 1);
+assert.equal((final5657.match(/통산 첫 결승 진출/g) ?? []).length, 1);
+assert(renderEuropeanCupMilestone('1956-57', 'runners-up').includes('통산 첫 유러피언컵 준우승'));
+assert(renderEuropeanCupMilestone('1956-57', 'runners-up').includes('AC 피오렌티나'));
+const finalSource5657 = readFileSync(new URL('../src/content/articles/1956-57-european-cup-final-real-madrid-fiorentina.md', import.meta.url), 'utf8');
+for (const stage of ['final', 'champions', 'runners-up']) assert.equal((finalSource5657.match(new RegExp('data-european-cup-milestone="1956-57:' + stage + '"', 'g')) ?? []).length, 1, stage);
+assert(!finalSource5657.includes('ACF 피오렌티나'), '결승 원고는 당시 구단명 AC 피오렌티나를 쓴다');
+console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표');

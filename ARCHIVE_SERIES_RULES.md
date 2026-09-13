@@ -85,5 +85,6 @@
 - 1955-56 득점 순위: [승인 원고](src/content/archive/1955-56-european-cup-top-scorers.md), [득점 데이터](src/data/european-cup-scorers.json), [사료 메모](docs/editorial/1955-56-european-cup-top-scorers-source-audit.md)
 - 1956-57 4강: [승인 원고](src/content/archive/1956-57-european-cup-semifinals.md), [사료 메모](docs/editorial/european-cup-1956-57-semifinals-source-audit.md)
 - 1956-57 본선: [승인 원고](src/content/archive/1956-57-european-cup.md), [대진 데이터](src/data/cup-ties/1956-57-european-cup.json), [사료 메모](docs/editorial/european-cup-1956-57-source-audit.md)
+- 1956-57 결승 H/L: [승인 원고](src/content/articles/1956-57-european-cup-final-real-madrid-fiorentina.md), [사료 메모](docs/editorial/1956-57-european-cup-final-source-audit.md), [검수](scripts/qa-european-cup-final-1956-57.mjs)
 
 여기에 적힌 1956 사례는 검수 기준점이지 이후 연도의 사실값이 아니다. 새 합의는 이 전문 기준에 반영하고, 특정 판본의 사실 충돌은 사료 메모, 최신 발행 상태는 HANDOFF에 둔다.
