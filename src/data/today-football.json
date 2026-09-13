@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T13:43:49.121Z",
+  "updatedAt": "2026-09-13T14:25:37.620Z",
   "matches": [
     {
       "id": "2489491",
@@ -615,6 +615,19 @@
         },
         {
           "rank": 14,
+          "team": "셀타 비고",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+          "played": 6,
+          "wins": 0,
+          "draws": 4,
+          "losses": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3,
+          "points": 4
+        },
+        {
+          "rank": 15,
           "team": "헤타페",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "played": 4,
@@ -627,7 +640,7 @@
           "points": 4
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "라요 바예카노",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
           "played": 5,
@@ -640,20 +653,20 @@
           "points": 4
         },
         {
-          "rank": 16,
-          "team": "셀타 비고",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+          "rank": 17,
+          "team": "말라가",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
           "played": 5,
           "wins": 0,
           "draws": 3,
           "losses": 2,
           "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
+          "goalsAgainst": 8,
+          "goalDifference": -6,
           "points": 3
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "비야레알",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "played": 4,
@@ -663,19 +676,6 @@
           "goalsFor": 6,
           "goalsAgainst": 8,
           "goalDifference": -2,
-          "points": 2
-        },
-        {
-          "rank": 18,
-          "team": "말라가",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-          "played": 4,
-          "wins": 0,
-          "draws": 2,
-          "losses": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6,
           "points": 2
         },
         {
