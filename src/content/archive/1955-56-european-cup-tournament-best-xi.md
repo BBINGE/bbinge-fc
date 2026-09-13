@@ -8,11 +8,11 @@ subject: '1955-56 시즌 유러피언컵 베스트 11'
 originalTitle: '1955-56 European Champion Clubs’ Cup: Tournament Best XI'
 keywords: ['1955-56 유러피언컵 베스트 11', '유러피언컵 베스트 11', '첫 유러피언컵', '레몽 코파', '알프레도 디스테파노', '밀로시 밀루티노비치', '런토시 미하이', '미셸 르블롱', '스타드 드 랭스', '레알 마드리드']
 pubDate: 2026-09-14T01:30:00+09:00
-coverImage: '/images/highlights/1955-56-european-cup-final-kopa-di-stefano.jpg'
-coverImageAlt: '스타드 드 랭스의 레몽 코파와 레알 마드리드 CF의 알프레도 디스테파노가 악수하는 편집 이미지'
-coverImageCaption: '첫 유러피언컵 결승에서 만난 레몽 코파와 알프레도 디스테파노. 디자인: 삥이FC.'
-coverImageWidth: 966
-coverImageHeight: 966
+coverImage: '/images/archive/1955-56-european-cup-tournament-best-xi/cover.webp'
+coverImageAlt: '유러피언컵 트로피 배경의 1955-56 시즌 유러피언컵 Best XI 문구와 악수하는 레몽 코파·알프레도 디스테파노'
+coverImageCaption: '1955-56 시즌 유러피언컵 베스트 11. 레몽 코파와 알프레도 디스테파노. 디자인: 삥이FC.'
+coverImageWidth: 1080
+coverImageHeight: 1080
 relatedGroup: 'european-cup-1955-56'
 draft: false
 ---
