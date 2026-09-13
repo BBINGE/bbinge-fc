@@ -43,13 +43,13 @@ draft: false
 
 ## 삥이FC 로프 렌센브링크 평가
 
-1. 피트 카이저<span class="foreign-note" lang="nl">(Piet Keizer; 1960~70년대 아약스의 왼쪽 윙어)</span>, 요니 레프<span class="foreign-note" lang="nl">(Johnny Rep; 1974·1978 월드컵의 네덜란드 공격수)</span>, 마르크 오버르마르스<span class="foreign-note" lang="nl">(Marc Overmars; 아약스·아스널·바르셀로나에서 뛴 윙어)</span>, 아르연 로번<span class="foreign-note" lang="nl">(Arjen Robben; 바이에른 뮌헨과 네덜란드 대표팀의 왼발 윙어)</span>. 어느 시대를 들춰도 거대한 이름이 나온다. 그 경쟁에서 렌센브링크를 단연 첫손에 꼽는 것이 필자의 판단이다. 드리블러의 탈출 능력과 골 게터의 마무리, 동료를 살리는 마지막 패스가 한 몸에 들어 있었다.
+1. 피트 카이저<span class="foreign-note" lang="nl">(Piet Keizer; 1960~70년대 아약스의 왼쪽 윙어)</span>, 요니 레프<span class="foreign-note" lang="nl">(Johnny Rep; 1974·1978 월드컵의 네덜란드 공격수)</span>, 마르크 오버르마르스<span class="foreign-note" lang="nl">(Marc Overmars; 아약스·아스널·바르셀로나에서 뛴 윙어)</span>, 아르연 로번<span class="foreign-note" lang="nl">(Arjen Robben; 바이언과 네덜란드 대표팀의 왼발 윙어)</span>. 어느 시대를 들춰도 거대한 이름이 나온다. 그 경쟁에서 렌센브링크를 단연 첫손에 꼽는 것이 필자의 판단이다. 드리블러의 탈출 능력과 골 게터의 마무리, 동료를 살리는 마지막 패스가 한 몸에 들어 있었다.
 
 2. 빠른 주력과 날렵함만으로 설명하면 그의 드리블에서 가장 재미있는 부분을 놓친다. 상대가 발을 내밀 때까지 공을 가까이 두고, 그 발을 지나서야 다음 보폭을 늘렸다. 몸이 먼저 앞으로 나가는 듯하다가 공은 옆으로 빠지고, 수비수가 따라 돌아서는 동안 그는 이미 골문을 바라본다. ‘뱀 인간’이라는 별명이 과장처럼 들리지 않는 움직임이다.
 
 3. 침착함은 속도와 상반되는 또 하나의 무기였다. 빠르게 달려 들어온 선수가 골키퍼 앞에서도 같은 속도로 슈팅을 서두르는 법은 없다. 렌센브링크는 마지막 순간에 한 박자를 남겨 두고 상대의 자세를 읽었다. 강하게 때릴 수 있으면서도 밀어 넣을 때를 아는 공격수, 수비수를 벗긴 뒤 골키퍼까지 한 번 더 상대할 여유가 있는 선수였다.
 
-4. 1978년 월드컵 결승을 떠올리며 ‘막판 결정력이 아쉬웠다’고 평하기 쉽다. 하지만 1976년과 1978년 컵위너스컵 결승에서 각각 두 골을 넣은 선수를 두고 큰 경기에 약했다고 말하기는 어렵다. 바이에른 뮌헨과 리버풀을 상대한 슈퍼컵에서도 골을 남겼다. 조국에 우승을 안기지 못한 비운과, 클럽의 유럽 제패를 완성한 해결사의 이력은 함께 놓고 보아야 한다.
+4. 1978년 월드컵 결승을 떠올리며 ‘막판 결정력이 아쉬웠다’고 평하기 쉽다. 하지만 1976년과 1978년 컵위너스컵 결승에서 각각 두 골을 넣은 선수를 두고 큰 경기에 약했다고 말하기는 어렵다. 바이언과 리버풀을 상대한 슈퍼컵에서도 골을 남겼다. 조국에 우승을 안기지 못한 비운과, 클럽의 유럽 제패를 완성한 해결사의 이력은 함께 놓고 보아야 한다.
 
 5. 요한 크라위프<span class="foreign-note" lang="nl">(Johan Cruijff; 아약스와 네덜란드 대표팀을 이끈 공격수)</span>, 빌럼 판하네험<span class="foreign-note" lang="nl">(Willem van Hanegem; 페예노르트와 네덜란드 대표팀의 중원 지휘자)</span>의 계보에 명함을 내밀 만한 선수라는 평가도 그 연장선에 있다. 네덜란드의 황금기를 암스테르담과 로테르담만으로 그리면 브뤼셀에서 보낸 그의 전성기가 빠진다. 렌센브링크를 따라가다 보면, 벨기에 무대가 당대 유럽 축구에서 차지했던 자리까지 다시 보인다.
 
@@ -99,9 +99,9 @@ AFC DWS<span class="foreign-note" lang="nl">(Amsterdamsche Football Club Door Wi
 
 최종 점수는 4-2였다. 프랑수아 판데르엘스트<span class="foreign-note" lang="nl">(François Van der Elst; 안데를레흐트의 벨기에 공격수)</span>도 두 골을 넣었다. 왼쪽에서 상대를 흔드는 렌센브링크와 그 옆에서 골문을 파고드는 공격수가 함께 결승을 끝냈다. 렌센브링크의 그 시즌 대회 성적은 9경기 8골, 득점왕이었다. 유연한 드리블을 보고 감탄하다가 기록표를 펴면, 그 화려함이 얼마나 자주 실제 득점으로 이어졌는지도 보인다.
 
-같은 해 슈퍼컵 상대는 유러피언컵 3연패의 바이에른 뮌헨이었다. 뮌헨 원정에서 1-2로 졌지만 홈에서는 4-1로 뒤집었고, 렌센브링크가 두 골을 보탰다. 벨기에의 컵 챔피언이 유럽 챔피언을 합계 5-3으로 이겼다. 벨기에 리그에서 뛴다는 이유로 그의 기량에 먼저 상한선을 그어 버리기 어려운 결과다.
+같은 해 슈퍼컵 상대는 유러피언컵 3연패의 바이언이었다. 뮌헨 원정에서 1-2로 졌지만 홈에서는 4-1로 뒤집었고, 렌센브링크가 두 골을 보탰다. 벨기에의 컵 챔피언이 유럽 챔피언을 합계 5-3으로 이겼다. 벨기에 리그에서 뛴다는 이유로 그의 기량에 먼저 상한선을 그어 버리기 어려운 결과다.
 
-그해 발롱도르에서는 프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Beckenbauer; 바이에른 뮌헨과 서독의 리베로)</span>에 이어 2위에 올랐고, 프랑스 축구지 《옹즈》의 첫 옹즈도르를 받았다. 유럽의 독자와 투표자들이 그를 당대 최고의 선수들과 같은 줄에 놓고 보던 해였다.
+그해 발롱도르에서는 프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Beckenbauer; 바이언과 서독의 리베로)</span>에 이어 2위에 올랐고, 프랑스 축구지 《옹즈》의 첫 옹즈도르를 받았다. 유럽의 독자와 투표자들이 그를 당대 최고의 선수들과 같은 줄에 놓고 보던 해였다.
 
 ## 후탈스의 유럽 원정, 함부르크를 지나 리버풀까지
 
@@ -240,7 +240,7 @@ AFC DWS<span class="foreign-note" lang="nl">(Amsterdamsche Football Club Door Wi
   <li><a href="https://sporza.be/nl/2019/06/18/obit-robbie-rensenbrink/" rel="noopener noreferrer">Sporza: 벨기에가 기억하는 렌센브링크</a>: 후탈스의 평가, 유럽 대회 활약과 2007년 외국인 선수 선정.</li>
   <li><a href="https://www.knvb.com/news/dutch-football/international-football/1014/rob-rensenbrink-passes-away-aged-72" rel="noopener noreferrer">KNVB: Rob Rensenbrink passes away aged 72</a>: A매치 경력과 1974년 결승의 부상·교체.</li>
   <li><a href="https://www.uefa.com/news-media/news/0259-0f8e748babcd-05a91aa1f1be-1000--netherlands-mourns-two-time-world-cup-finalist-rensenbrink/" rel="noopener noreferrer">UEFA: 두 차례 월드컵 결승에 오른 렌센브링크</a>: 유럽 결승 득점과 크롤·레프의 회고.</li>
-  <li><a href="https://www.uefa.com/uefasupercup/history/1976/" rel="noopener noreferrer">UEFA: 1976 슈퍼컵</a> · <a href="https://www.uefa.com/uefasupercup/history/1978/" rel="noopener noreferrer">1978 슈퍼컵</a>: 바이에른·리버풀과의 양 경기 결과와 득점자.</li>
+  <li><a href="https://www.uefa.com/uefasupercup/history/1976/" rel="noopener noreferrer">UEFA: 1976 슈퍼컵</a> · <a href="https://www.uefa.com/uefasupercup/history/1978/" rel="noopener noreferrer">1978 슈퍼컵</a>: 바이언·리버풀과의 양 경기 결과와 득점자.</li>
   <li><a href="https://www.rsssf.org/players/rensenbrink-in-ec.html" rel="noopener noreferrer">RSSSF: 렌센브링크의 유럽 대항전 기록</a>: 우이페슈트전 해트트릭, 컵위너스컵 결승과 통산 25골.</li>
   <li><a href="https://www.rsca.be/nl/news/robbie-rensenbrink-opgenomen-de-hall-fame-van-de-pro-league" rel="noopener noreferrer">RSC 안데를레흐트: 2025 프로 리그 명예의 전당 헌액</a>: 통산 349경기 199골과 헌액 행사.</li>
   <li><a href="https://www.national-football-teams.com/player/17100/Rob_Rensenbrink.html" rel="noopener noreferrer">National Football Teams: Rob Rensenbrink</a>: 시즌별 리그 출전·득점과 국가대표 기록.</li>

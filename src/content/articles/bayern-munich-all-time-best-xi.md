@@ -41,9 +41,9 @@ featured: true
 
 뮌헨은 왕국의 수도였고 예술과 학문의 도시였으며, 나치 운동이 세를 불린 장소이기도 했다. 제2차 세계대전의 공습은 거리와 주택, 오래된 건축을 무너뜨렸다. 폐허를 치우고 서독의 경제 중심지로 성장한 도시에서는 과거를 기억하는 일과 새로운 번영을 과시하는 일이 오랫동안 한 풍경 안에 겹쳤다. 그 복잡한 자의식이 축구장에서 가장 크고 선명한 형태를 얻었다.
 
-Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein*은 독일 법에 따라 등록된 협회라는 뜻이다. 1900년 2월 27일 프란츠 욘<span class="foreign-note" lang="de">(Franz John; 바이에른 창립을 주도한 독일 사진가·축구 행정가, 1872-1952)</span>과 열 명의 동료가 뮌헨의 한 식당에서 만든 작은 구단은 한 세기 뒤 독일 축구의 최대 권력이 되었다.
+Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein*은 독일 법에 따라 등록된 협회라는 뜻이다. 1900년 2월 27일 프란츠 욘<span class="foreign-note" lang="de">(Franz John; 바이언 창립을 주도한 독일 사진가·축구 행정가, 1872-1952)</span>과 열 명의 동료가 뮌헨의 한 식당에서 만든 작은 구단은 한 세기 뒤 독일 축구의 최대 권력이 되었다.
 
-그 길은 처음부터 곧지 않았다. 1932년 첫 독일 챔피언십을 차지한 팀에는 유대인 회장 쿠르트 란다우어<span class="foreign-note" lang="de">(Kurt Landauer; 바이에른 회장을 네 차례 지낸 유대계 독일 축구 행정가, 1884-1961)</span>와 유대인 감독 리하르트 콘<span class="foreign-note" lang="de">(Richard Kohn; ‘돔비’로 불린 오스트리아 축구감독, 1888-1963)</span>이 있었다. 나치 집권 뒤 란다우어는 수용소를 거쳐 스위스로 망명했고, 구단은 ‘유대인의 클럽’이라는 낙인 아래 밀려났다. 전쟁이 끝난 뒤 돌아온 그가 다시 회장직을 맡았다는 사실은 바이언의 역사에 승패표로는 적을 수 없는 깊이를 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+그 길은 처음부터 곧지 않았다. 1932년 첫 독일 챔피언십을 차지한 팀에는 유대인 회장 쿠르트 란다우어<span class="foreign-note" lang="de">(Kurt Landauer; 바이언 회장을 네 차례 지낸 유대계 독일 축구 행정가, 1884-1961)</span>와 유대인 감독 리하르트 콘<span class="foreign-note" lang="de">(Richard Kohn; ‘돔비’로 불린 오스트리아 축구감독, 1888-1963)</span>이 있었다. 나치 집권 뒤 란다우어는 수용소를 거쳐 스위스로 망명했고, 구단은 ‘유대인의 클럽’이라는 낙인 아래 밀려났다. 전쟁이 끝난 뒤 돌아온 그가 다시 회장직을 맡았다는 사실은 바이언의 역사에 승패표로는 적을 수 없는 깊이를 남긴다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 1963년 푸스발-분데스리가<span class="foreign-note" lang="de">(Fußball-Bundesliga; ‘연방 축구 리그’를 뜻하는 독일 최상위 리그)</span>가 출범했을 때 뮌헨에 주어진 한 자리는 지역 라이벌 TSV 1860 뮌헨에게 돌아갔다. 바이언은 두 시즌을 더 기다려야 했다. 마침내 승격한 젊은 팀에는 프란츠 베켄바워, 제프 마이어, 게르트 뮐러가 있었다. 독일 축구의 변두리에 남겨졌던 구단이 유럽의 지도를 다시 그리는 데에는 십 년도 걸리지 않았다.
 
@@ -84,8 +84,8 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Anton Beckenbauer; 독일 축구선수·감독·행정가, 1945-2024)</span>의 바이언 입단기는 뮌헨 축구사의 갈림길로 전해진다. 열세 살의 소년은 원래 TSV 1860 뮌헨을 생각했으나 유소년 경기에서 상대 선수에게 뺨을 맞은 뒤 바이언으로 향했다. 1958년의 작은 충돌이 독일 최대 구단의 운명을 바꾸었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 <div class="beckenbauer-litany" aria-label="프란츠 베켄바워를 설명하는 역사적 평가와 기록">
-  <p>바이에른 뮌헨의 첫 번째 전성기를 이끈 자.</p>
-  <p>바이에른 뮌헨 역사상 가장 위대한 축구선수이자 감독이며 회장.</p>
+  <p>바이언의 첫 번째 전성기를 이끈 자.</p>
+  <p>바이언 역사상 가장 위대한 축구선수이자 감독이며 회장.</p>
   <p>독일 축구 역사상 가장 위대한 선수이자 감독.</p>
   <p>독일 연방 역사를 빛낸 ‘위대한 독일인 100’.</p>
   <p>발롱도르 최종 지명 12회, 포디움 5회, 수상 2회.</p>

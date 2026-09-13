@@ -1,8 +1,8 @@
 ---
 title: "축구사 이래 역대 최고의 팀 10"
-description: "1962 산투스부터 2020 바이에른까지, 승률만으로는 설명할 수 없는 유럽과 남미의 가장 완벽했던 열 번의 단일 시즌을 시대적 지배력과 상대 난이도로 비교한다."
+description: "1962 산투스부터 2020 바이언까지, 승률만으로는 설명할 수 없는 유럽과 남미의 가장 완벽했던 열 번의 단일 시즌을 시대적 지배력과 상대 난이도로 비교한다."
 previewUseOriginalTitle: true
-previewDescription: "1962 산투스부터 2020 바이에른까지, 가장 완벽했던 단일 시즌을 시대적 지배력과 상대 난이도로 비교한다."
+previewDescription: "1962 산투스부터 2020 바이언까지, 가장 완벽했던 단일 시즌을 시대적 지배력과 상대 난이도로 비교한다."
 category: history
 tags:
   - "역대 최고의 축구팀"
@@ -19,7 +19,7 @@ tags:
   - "리버 플레이트"
 pubDate: 2026-08-17T17:33:10+09:00
 coverImage: "/images/history/greatest-teams-top-10/cover.webp"
-coverImageAlt: "산투스, 아약스, 셀틱, 바이에른, 상파울루, 보카 주니어스, 리버 플레이트, 바르셀로나의 우승 사진을 모은 역대 최고의 팀 10 표지"
+coverImageAlt: "산투스, 아약스, 셀틱, 바이언, 상파울루, 보카 주니어스, 리버 플레이트, 바르셀로나의 우승 사진을 모은 역대 최고의 팀 10 표지"
 coverImageCaption: "유럽과 남미의 서로 다른 시대를 지배한 열 팀. 순위는 승률만이 아니라 트로피 완성도·상대 난이도·세계 검증·역사적 의미를 함께 평가했다."
 coverImageWidth: 1200
 coverImageHeight: 675
@@ -265,7 +265,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 ### UEFA 챔피언스 리그에서 비기는 법조차 잊었다
 
 <figure>
-  <img src="/images/history/greatest-teams-top-10/06-bayern-2019-20.webp" alt="2019-20시즌 UEFA 챔피언스 리그 전승 우승과 트레블을 달성한 바이에른 뮌헨 선수단" width="1600" height="1066" loading="lazy" />
+  <img src="/images/history/greatest-teams-top-10/06-bayern-2019-20.webp" alt="2019-20시즌 UEFA 챔피언스 리그 전승 우승과 트레블을 달성한 바이언 선수단" width="1600" height="1066" loading="lazy" />
   <figcaption>2019-20 FC 바이에른 뮌헨.</figcaption>
 </figure>
 
@@ -298,18 +298,18 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 2019년 11월 한지 플리크가 지휘봉을 잡았을 때 직함은 정식 후계자보다 임시 소방수에 가까웠다. 니코 코바치<span class="foreign-note" lang="hr">(Niko Kovač, 크로아티아 축구선수·감독, 1971-)</span>가 떠난 뒤 잠시 벤치를 맡길 사람이 필요했는데, 그 ‘잠시’가 유럽대항전에서 한 번도 비기지 않는 팀을 만들었다. 코로나19로 대회가 중단되고 8강부터 리스본 단판 토너먼트로 바뀐 특수한 시즌이었지만, 형식이 바뀌었다고 11경기를 모두 이겨야 한다는 규칙이 생긴 것은 아니었다.
 
-<aside class="record-banner" aria-label="2019-20 바이에른 뮌헨 UEFA 챔피언스 리그 기록">
+<aside class="record-banner" aria-label="2019-20 바이언 UEFA 챔피언스 리그 기록">
   <span>UEFA CHAMPIONS LEAGUE · 2019-20</span>
   <strong>11 MATCHES · 11 WINS</strong>
   <p>조별리그부터 결승까지 무승부도, 패배도 없었다.</p>
 </aside>
 
-첼시와의 16강 두 경기를 모두 이긴 바이에른은 리스본에서 바르셀로나를 만났다.
+첼시와의 16강 두 경기를 모두 이긴 바이언은 리스본에서 바르셀로나를 만났다.
 
-<aside class="club-scoreboard" aria-label="2020년 UEFA 챔피언스 리그 8강 바이에른 뮌헨 대 바르셀로나 경기 결과">
+<aside class="club-scoreboard" aria-label="2020년 UEFA 챔피언스 리그 8강 바이언 대 바르셀로나 경기 결과">
   <p>UEFA CHAMPIONS LEAGUE · QUARTER-FINAL · LISBON</p>
   <div class="club-scoreboard__teams">
-    <div><img class="club-crest" src="/images/clubs/bayern-2017.svg" alt="" width="64" height="64" loading="lazy" /><strong>바이에른 뮌헨</strong></div>
+    <div><img class="club-crest" src="/images/clubs/bayern-2017.svg" alt="" width="64" height="64" loading="lazy" /><strong>바이언</strong></div>
     <span><b>8</b><em>FULL TIME</em><b>2</b></span>
     <div><img class="club-crest" src="/images/clubs/barcelona.svg" alt="" width="64" height="64" loading="lazy" /><strong>바르셀로나</strong></div>
   </div>
@@ -318,7 +318,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 경기 시작 31분 만에 스코어가 4-1이 됐다. 2020년의 바르셀로나가 2009년의 팀은 아니었어도 메시, 수아레스, 부스케츠, 피케가 선발로 서 있었다. UEFA 챔피언스 리그 토너먼트에서 그 이름들을 상대로 여덟 골을 넣은 순간, 이 경기는 승리라기보다 한 시대의 강제 종료처럼 보였다.
 
-결승에서는 파리 생제르맹의 네이마르<span class="foreign-note" lang="pt-BR">(Neymar da Silva Santos Júnior, 브라질 축구선수·공격수, 1992-)</span>와 음바페<span class="foreign-note" lang="fr">(Kylian Mbappé Lottin, 프랑스 축구선수·공격수, 1998-)</span>를 노이어가 막았고, 파리에서 태어나 PSG 유소년팀에서 자란 킹슬리 코망이 친정팀의 골문에 결승골을 넣었다. 8-2 같은 폭발과 1-0 같은 인내를 모두 통과한 뒤에도 바이에른의 유럽 성적표에는 승리 말고 다른 단어가 없었다.
+결승에서는 파리 생제르맹의 네이마르<span class="foreign-note" lang="pt-BR">(Neymar da Silva Santos Júnior, 브라질 축구선수·공격수, 1992-)</span>와 음바페<span class="foreign-note" lang="fr">(Kylian Mbappé Lottin, 프랑스 축구선수·공격수, 1998-)</span>를 노이어가 막았고, 파리에서 태어나 PSG 유소년팀에서 자란 킹슬리 코망이 친정팀의 골문에 결승골을 넣었다. 8-2 같은 폭발과 1-0 같은 인내를 모두 통과한 뒤에도 바이언의 유럽 성적표에는 승리 말고 다른 단어가 없었다.
 
 ---
 
@@ -326,7 +326,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 ### 세 번의 준우승을 당한 뒤, 거의 모든 기록을 부수고 돌아왔다
 
 <figure>
-  <img src="/images/history/greatest-teams-top-10/05-bayern-2012-13.webp" alt="2012-13시즌 독일 클럽 최초의 대륙 트레블을 달성한 바이에른 뮌헨 선수단" width="1462" height="822" loading="lazy" />
+  <img src="/images/history/greatest-teams-top-10/05-bayern-2012-13.webp" alt="2012-13시즌 독일 클럽 최초의 대륙 트레블을 달성한 바이언 선수단" width="1462" height="822" loading="lazy" />
   <figcaption>2012-13 FC 바이에른 뮌헨.</figcaption>
 </figure>
 
@@ -340,7 +340,7 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 ### 분데스리가
 
-<div class="record-grid" aria-label="2012-13 바이에른 뮌헨 분데스리가 기록">
+<div class="record-grid" aria-label="2012-13 바이언 분데스리가 기록">
   <div><strong>29승 4무 1패</strong><span>리그 성적</span></div>
   <div><strong>승점 91</strong><span>당시 최고 기록</span></div>
   <div><strong>98-18</strong><span>득점-실점</span></div>
@@ -362,23 +362,23 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 | 프랑크 리베리 | 프랑스 <img class="flag" src="/images/flags/fr.svg" alt="프랑스 국기" /> | LW |
 | 아리언 로번 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | RW |
 
-이 시즌의 출발점은 2012년 8월이 아니라, 홈구장 알리안츠 아레나에서 첼시와 UEFA 챔피언스 리그 결승을 치른 **2012년 5월 19일**이다. 바이에른은 선제골을 넣고도 동점을 허용했고, 연장전에서는 로번의 페널티킥이 막힌 끝에 승부차기로 패했다. 분데스리가에서는 도르트문트에 왕좌를 내줬고 DFB-포칼 결승에서도 같은 상대에게 2-5로 졌다. 한 시즌에 리그, 국내컵, 유럽대항전에서 모두 준우승한 실패가 다음 시즌의 기준점이 됐다.
+이 시즌의 출발점은 2012년 8월이 아니라, 홈구장 알리안츠 아레나에서 첼시와 UEFA 챔피언스 리그 결승을 치른 **2012년 5월 19일**이다. 바이언은 선제골을 넣고도 동점을 허용했고, 연장전에서는 로번의 페널티킥이 막힌 끝에 승부차기로 패했다. 분데스리가에서는 도르트문트에 왕좌를 내줬고 DFB-포칼 결승에서도 같은 상대에게 2-5로 졌다. 한 시즌에 리그, 국내컵, 유럽대항전에서 모두 준우승한 실패가 다음 시즌의 기준점이 됐다.
 
-그리고 국내에서 바이에른의 왕좌를 빼앗은 팀은 위르겐 클로프<span class="foreign-note" lang="de">(Jürgen Norbert Klopp, 독일 축구선수·감독, 1967-)</span>의 보루시아 도르트문트<span class="foreign-note" lang="de">(Borussia Dortmund)</span>였다. 도르트문트는 분데스리가를 2연패했고, 2012 DFB-포칼 결승에서는 바이에른을 5-2로 이겼다.
+그리고 국내에서 바이언의 왕좌를 빼앗은 팀은 위르겐 클로프<span class="foreign-note" lang="de">(Jürgen Norbert Klopp, 독일 축구선수·감독, 1967-)</span>의 보루시아 도르트문트<span class="foreign-note" lang="de">(Borussia Dortmund)</span>였다. 도르트문트는 분데스리가를 2연패했고, 2012 DFB-포칼 결승에서는 바이언을 5-2로 이겼다.
 
-그 다음 시즌 바이에른은 리그에서 한 번만 졌고, UEFA 챔피언스 리그 준결승에서는 2012-13 라리가를 승점 100으로 우승한 바르셀로나를 만났다. 상대를 이미 황금기가 끝난 팀으로 축소해서는 이 준결승의 충격을 설명할 수 없다.
+그 다음 시즌 바이언은 리그에서 한 번만 졌고, UEFA 챔피언스 리그 준결승에서는 2012-13 라리가를 승점 100으로 우승한 바르셀로나를 만났다. 상대를 이미 황금기가 끝난 팀으로 축소해서는 이 준결승의 충격을 설명할 수 없다.
 
-<aside class="club-scoreboard" aria-label="2013년 UEFA 챔피언스 리그 준결승 바이에른 뮌헨 대 바르셀로나 합계 결과">
+<aside class="club-scoreboard" aria-label="2013년 UEFA 챔피언스 리그 준결승 바이언 대 바르셀로나 합계 결과">
   <p>UEFA CHAMPIONS LEAGUE · SEMI-FINAL · AGGREGATE</p>
   <div class="club-scoreboard__teams">
-    <div><img class="club-crest" src="/images/clubs/bayern-2002.svg" alt="" width="64" height="64" loading="lazy" /><strong>바이에른 뮌헨</strong></div>
+    <div><img class="club-crest" src="/images/clubs/bayern-2002.svg" alt="" width="64" height="64" loading="lazy" /><strong>바이언</strong></div>
     <span><b>7</b><em>AGG.</em><b>0</b></span>
     <div><img class="club-crest" src="/images/clubs/barcelona.svg" alt="" width="64" height="64" loading="lazy" /><strong>바르셀로나</strong></div>
   </div>
   <small>뮌헨 4-0 · 바르셀로나 0-3</small>
 </aside>
 
-웸블리 결승에서는 전년도 국내 왕좌를 빼앗았던 도르트문트를 다시 만났고, 89분 로번의 결승골로 2-1 승리를 거뒀다. UEFA가 이 경기를 2010년과 2012년의 결승 패배를 끝낸 순간으로 기록하는 이유다. 이어 DFB-포칼까지 들어 올리면서 바이에른은 독일 클럽 최초의 대륙 트레블을 완성했다.
+웸블리 결승에서는 전년도 국내 왕좌를 빼앗았던 도르트문트를 다시 만났고, 89분 로번의 결승골로 2-1 승리를 거뒀다. UEFA가 이 경기를 2010년과 2012년의 결승 패배를 끝낸 순간으로 기록하는 이유다. 이어 DFB-포칼까지 들어 올리면서 바이언은 독일 클럽 최초의 대륙 트레블을 완성했다.
 
 이 팀은 성적도 무섭지만, **바로 전 시즌에 어디에서 어떻게 실패했는지를 알고 볼 때 훨씬 재미있는 팀**이다.
 
@@ -621,7 +621,7 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 
 1998-99 맨체스터 유나이티드, 2009-10 인테르, 2014-15 바르셀로나, 2022-23 맨체스터 시티는 물론 1961 페냐롤과 1979 클루브 올림피아<span class="foreign-note" lang="es">(Club Olimpia)</span>도 충분히 후보가 될 수 있다. 다만 이 목록은 트레블 달성팀을 연대순으로 정리한 명예의 전당이 아니라, 한 시즌의 지배력이 통상적인 우승의 범위를 어디까지 넘어섰는지를 비교한 순위다.
 
-그래서 1971-72 아약스의 공식전 1패, 1966-67 셀틱의 참가 대회 전관왕, 1994-95 아약스의 리그·UEFA 챔피언스 리그 동시 무패, 2012-13 바이에른의 54경기 3패를 우선했다. 여기에 97경기의 과밀 일정을 견디며 국제대회 네 개를 차지한 1993 상파울루와 남미 정상에 오른 뒤 유럽 2연패 챔피언을 홈과 원정에서 모두 꺾은 1962 산투스처럼, 서로 다른 대회 구조 안에서 극단적인 우위를 남긴 시즌을 선택했다.
+그래서 1971-72 아약스의 공식전 1패, 1966-67 셀틱의 참가 대회 전관왕, 1994-95 아약스의 리그·UEFA 챔피언스 리그 동시 무패, 2012-13 바이언의 54경기 3패를 우선했다. 여기에 97경기의 과밀 일정을 견디며 국제대회 네 개를 차지한 1993 상파울루와 남미 정상에 오른 뒤 유럽 2연패 챔피언을 홈과 원정에서 모두 꺾은 1962 산투스처럼, 서로 다른 대회 구조 안에서 극단적인 우위를 남긴 시즌을 선택했다.
 
 ---
 
@@ -633,14 +633,14 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 | **2** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> 1971-72 아약스 | **42승 5무 1패** | 토털 풋볼의 경쟁력까지 완전히 증명 |
 | **3** | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> 1966-67 셀틱 | **5개 대회 전부 우승** | 영국 최초 유러피언컵·유럽 최초 대륙 트레블 |
 | **4** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> 1994-95 아약스 | 리그·UCL **무패** | 디펜딩 챔피언 밀란에 시즌 3전 3승 |
-| **5** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> 2012-13 바이에른 | **54경기 3패** | 직전 시즌 3개 준우승 뒤 독일 최초 트레블 |
-| **6** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> 2019-20 바이에른 | UCL **11전 11승** | UEFA 챔피언스 리그 전승 우승 |
+| **5** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> 2012-13 바이언 | **54경기 3패** | 직전 시즌 3개 준우승 뒤 독일 최초 트레블 |
+| **6** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> 2019-20 바이언 | UCL **11전 11승** | UEFA 챔피언스 리그 전승 우승 |
 | **7** | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 1993 상파울루 | **97경기·국제 4관왕** | 극단적 일정 속 밀란까지 격파 |
 | **8** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> 2000 보카 | 세계 정상전 레알 2-1 | 유럽 집중이 시작된 시대의 남미 세계 챔피언 |
 | **9** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> 1986 리버 | 국내·남미·세계 제패 | 구단 첫 리베르타도레스와 첫 세계 정상 |
 | **10** | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> 2008-09 바르셀로나 | **158득점·트레블** | 과르디올라 시대의 시작 |
 
-이 열 팀은 같은 방식으로 완벽하지 않았다. 아약스는 거의 지지 않으면서 축구의 공간 사용법을 바꿨고, 셀틱은 참가한 대회를 하나도 남겨두지 않았으며, 1995년의 아약스는 유럽 챔피언을 한 시즌에 세 번 꺾었다. 상파울루는 달력이 무너질 만큼 많은 경기를 치르고도 국제대회 결승에서 계속 살아남았고, 두 바이에른은 각각 복수와 전승이라는 전혀 다른 얼굴로 트레블에 도달했다.
+이 열 팀은 같은 방식으로 완벽하지 않았다. 아약스는 거의 지지 않으면서 축구의 공간 사용법을 바꿨고, 셀틱은 참가한 대회를 하나도 남겨두지 않았으며, 1995년의 아약스는 유럽 챔피언을 한 시즌에 세 번 꺾었다. 상파울루는 달력이 무너질 만큼 많은 경기를 치르고도 국제대회 결승에서 계속 살아남았고, 두 바이언은 각각 복수와 전승이라는 전혀 다른 얼굴로 트레블에 도달했다.
 
 완벽한 시즌은 약점이 없던 계절이 아니라, 그 시대가 내놓을 수 있는 모든 종류의 시험을 받고도 설명이 남는 계절에 가깝다. 그 기준에서 1962 산투스보다 긴 답을 가진 팀은 없었다. 월드컵 챔피언들이 갈라져 있던 브라질, 아직 페냐롤만 우승해 본 남미, 레알 마드리드의 왕조를 끝낸 벤피카의 유럽까지 모두 통과했다. 그래서 열 번의 계절을 다 돌아본 뒤에도 마지막 장면은 리스본의 전광판이다. 벤피카 2, 산투스 5.
 

@@ -92,7 +92,7 @@ draft: false
 
 <figure class="legend-section-photo legend-section-portrait"><img src="/images/archive/legends/vanenburg/psv-portrait-1987.webp" alt="1987년 PSV 에인트호번 유니폼을 입은 헤랄트 파넨뷔르흐의 흑백 인물 사진" width="1200" height="1809" loading="lazy" decoding="async" /><figcaption>1987년 8월 3일의 파넨뷔르흐. PSV에서 맞은 두 번째 시즌이 그의 경력에서 가장 긴 1년으로 이어졌다. 사진: Bart Molendijk·Nationaal Archief/Anefo(CC0).</figcaption></figure>
 
-PSV 이적 첫 시즌에도 리그 우승은 따라왔다. 하지만 이후의 트레블을 이해하려면 1987년의 선수 구성을 조금 더 들여다볼 필요가 있다. 이탈리아에서 돌아온 키프트와, 바이에른 뮌헨·AS 모나코를 거친 레르뷔가 PSV에 합류했다. 두 사람 모두 1983년 아약스를 떠났던 동료다. 파넨뷔르흐로서는 넉 해 전까지 함께 뛰던 공격수와 미드필더를 한꺼번에 다시 만난 것이다.
+PSV 이적 첫 시즌에도 리그 우승은 따라왔다. 하지만 이후의 트레블을 이해하려면 1987년의 선수 구성을 조금 더 들여다볼 필요가 있다. 이탈리아에서 돌아온 키프트와, 바이언·AS 모나코를 거친 레르뷔가 PSV에 합류했다. 두 사람 모두 1983년 아약스를 떠났던 동료다. 파넨뷔르흐로서는 넉 해 전까지 함께 뛰던 공격수와 미드필더를 한꺼번에 다시 만난 것이다.
 
 여기에 히딩크가 지휘봉을 잡았다. 로날트 쿠만<span class="foreign-note" lang="nl">(Ronald Koeman; 후방 전개와 득점을 겸한 네덜란드 수비수)</span>은 뒤에서 긴 패스를 보내고 직접 공격에도 가담했으며, 레르뷔는 그 앞의 중원을 오갔다. 키프트는 문전에서 마무리를 맡았다. 파넨뷔르흐가 혼자 먼 거리를 운반해야만 공격이 시작되는 구성이 아니었으므로, 상대 진영에서 공을 받았을 때 다음 동작을 고를 여유도 커졌다.
 

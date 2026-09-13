@@ -139,7 +139,7 @@ featured: false
   <small class="mu-credit">Malard and Janssen photos: adidas, via House of Heat · Park and Schüller photos: Manchester United</small>
 </div>
 
-맨유 여자팀 선수들의 사진은 셔츠를 경기복보다 옷장 속 옷에 가깝게 다룬다. 멜빈 말라르<span class="foreign-note" lang="fr">(Melvine Malard; 프랑스 축구 선수, 2000년생)</span>는 선글라스와 패치 데님 재킷으로 셔츠를 스트리트 룩 쪽으로 끌고 갔고, 도미니크 얀센<span class="foreign-note" lang="nl">(Dominique Janssen; 네덜란드 축구 선수, 1995년생)</span>은 넓은 검정 바지와 흰 스니커즈만 붙여 몸판의 빨강을 크게 남겼다. 제스 박<span class="foreign-note" lang="en">(Jess Park; 잉글랜드 축구 선수, 2001년생)</span>은 머리를 뒤로 단단히 묶어 목선과 칼라에 시선을 모았고, 1월 바이에른 뮌헨에서 온 레아 쉴러<span class="foreign-note" lang="de">(Lea Schüller; 독일 축구 선수, 1997년생)</span>는 셔츠 한 장에 검정 바지로 촬영장 한가운데 의자에 몸을 기댔다.
+맨유 여자팀 선수들의 사진은 셔츠를 경기복보다 옷장 속 옷에 가깝게 다룬다. 멜빈 말라르<span class="foreign-note" lang="fr">(Melvine Malard; 프랑스 축구 선수, 2000년생)</span>는 선글라스와 패치 데님 재킷으로 셔츠를 스트리트 룩 쪽으로 끌고 갔고, 도미니크 얀센<span class="foreign-note" lang="nl">(Dominique Janssen; 네덜란드 축구 선수, 1995년생)</span>은 넓은 검정 바지와 흰 스니커즈만 붙여 몸판의 빨강을 크게 남겼다. 제스 박<span class="foreign-note" lang="en">(Jess Park; 잉글랜드 축구 선수, 2001년생)</span>은 머리를 뒤로 단단히 묶어 목선과 칼라에 시선을 모았고, 1월 바이언에서 온 레아 쉴러<span class="foreign-note" lang="de">(Lea Schüller; 독일 축구 선수, 1997년생)</span>는 셔츠 한 장에 검정 바지로 촬영장 한가운데 의자에 몸을 기댔다.
 
 따라 입는 순서도 사진 안에 있다. 폴로 칼라가 목선을 이미 잡아 주니 하의는 얀센처럼 넓게, 신발은 가볍게 두면 된다. 날이 선선해지면 말라르처럼 데님 재킷을 셔츠 위에 크게 걸치고 셔츠 밑단은 바지 밖으로 내려 둔다. 1970년대 칼라와 요즘의 넉넉한 실루엣이 그렇게 한 벌 안에서 섞인다.
 

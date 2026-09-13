@@ -121,10 +121,10 @@ SE 파우메이라스에서 그의 위치가 다시 바뀌었다. 처음에는 �
 <figure class="legend-family-triptych" aria-label="마지뉴와 두 아들의 선수 경력">
   <div class="legend-family-panels">
     <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/mazinho-brazil-1994-lineage.webp" alt="1994 FIFA 월드컵 결승에서 이탈리아 수비 사이로 공을 지키는 브라질 17번 마지뉴" width="600" height="800" loading="lazy" decoding="async" /><span><strong>마지뉴</strong><small>브라질 · 1994</small></span></div>
-    <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/thiago-bayern-2019-lineage.webp" alt="2019년 바이에른 뮌헨 유니폼을 입은 티아고 알칸타라" width="600" height="800" loading="lazy" decoding="async" /><span><strong>티아고 알칸타라</strong><small>바이에른 뮌헨 · 2019</small></span></div>
+    <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/thiago-bayern-2019-lineage.webp" alt="2019년 바이언 유니폼을 입은 티아고 알칸타라" width="600" height="800" loading="lazy" decoding="async" /><span><strong>티아고 알칸타라</strong><small>FC 바이에른 뮌헨 · 2019</small></span></div>
     <div class="legend-family-panel"><img src="/images/archive/legends/mazinho/rafinha-psg-2021-lineage.webp" alt="2021-22 시즌 파리 생제르맹 유니폼으로 경기에 나선 하파에우 아우칸타라" width="600" height="800" loading="lazy" decoding="async" /><span><strong>하파에우 아우칸타라</strong><small>파리 생제르맹 · 2021-22</small></span></div>
   </div>
-  <figcaption>왼쪽부터 1994년 브라질의 마지뉴, 바이에른 뮌헨의 티아고, 파리 생제르맹의 하파에우. 아버지에서 두 아들로 이어진 축구가 서로 다른 시대와 리그에서 펼쳐졌다.</figcaption>
+  <figcaption>왼쪽부터 1994년 브라질의 마지뉴, 바이언의 티아고, 파리 생제르맹의 하파에우. 아버지에서 두 아들로 이어진 축구가 서로 다른 시대와 리그에서 펼쳐졌다.</figcaption>
 </figure>
 
 한 가족 안에서 브라질·이탈리아·스페인의 축구 경로가 갈라졌다. 티아고는 스페인 대표팀을, 하파에우는 브라질 대표팀을 택했다. 세 선수의 축구에는 공을 받기 전에 다음 공간을 살피고, 포지션의 이름보다 팀의 연결을 앞세우는 감각이 반복된다. 서로 다른 대표팀과 세대를 가로지르는 이 공통점이 알칸타라 가족의 축구를 더욱 흥미롭게 만든다.

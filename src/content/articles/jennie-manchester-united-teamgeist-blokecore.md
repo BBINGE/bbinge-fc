@@ -60,7 +60,7 @@ fashionProfile:
 
 팀가이스트<span class="foreign-note" lang="de">(Teamgeist; 독일어로 ‘팀 정신’)</span>는 2006 FIFA 월드컵 공인구의 이름이면서, 당시 아디다스가 국가대표팀과 여러 구단의 셔츠에 펼친 디자인 체계이기도 하다. 어깨에서 가슴과 옆구리로 이어지는 둥근 패널, 공의 그래픽과 연결되는 곡선은 직선적인 삼선과 다른 속도를 만든다. 제니가 입은 셔츠에서 빨간 선이 어깨를 감싸고 흰 패널이 허리를 향해 흐르는 이유도 이 계보에 있다.
 
-아디다스는 2021년 이 틀을 아약스, 아스널, 셀틱, 바이에른 뮌헨, 보카 주니어스, 플라멩구, 유벤투스, 맨체스터 유나이티드, 레알 마드리드의 아홉 구단으로 복각했다. 협업 상대는 일본의 축구 문화지 《<span lang="en">SHUKYU Magazine</span>》이었다. 옛 경기복을 성능의 역사만으로 소환하지 않고, 축구와 패션이 만나는 문화적 이미지로 다시 편집한 것이다.
+아디다스는 2021년 이 틀을 아약스, 아스널, 셀틱, 바이언, 보카 주니어스, 플라멩구, 유벤투스, 맨체스터 유나이티드, 레알 마드리드의 아홉 구단으로 복각했다. 협업 상대는 일본의 축구 문화지 《<span lang="en">SHUKYU Magazine</span>》이었다. 옛 경기복을 성능의 역사만으로 소환하지 않고, 축구와 패션이 만나는 문화적 이미지로 다시 편집한 것이다.
 
 <figure class="fashion-wide-figure">
   <img src="/images/culture/jennie-manchester-united-teamgeist/teamgeist-group-adidas.jpg" alt="2021년 아디다스 팀가이스트 컬렉션을 입은 아홉 구단의 모델들" width="1920" height="1080" loading="lazy" decoding="async" />

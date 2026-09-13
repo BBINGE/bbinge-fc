@@ -101,7 +101,7 @@ draft: false
 
 ## 1975와 1986, 체계가 유럽을 이긴 두 번
 
-1975년 디나모 키이우는 유러피언 컵위너스컵 결승에서 페렌츠바로시를 3-0으로 꺾었다. 대회 전체에서 단 한 번만 졌고, 소련 클럽 최초로 유럽대항전 우승컵을 들었다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 이어 UEFA 슈퍼컵에서는 유러피언컵 2연패 직후의 바이에른 뮌헨을 만났다. 당연한 우승 후보는 바이에른이었다.
+1975년 디나모 키이우는 유러피언 컵위너스컵 결승에서 페렌츠바로시를 3-0으로 꺾었다. 대회 전체에서 단 한 번만 졌고, 소련 클럽 최초로 유럽대항전 우승컵을 들었다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 이어 UEFA 슈퍼컵에서는 유러피언컵 2연패 직후의 바이언을 만났다. 당연한 우승 후보는 바이언이었다.
 
 그러나 올레흐 블로힌<span class="foreign-note" lang="uk">(Олег Володимирович Блохін; 우크라이나 축구 선수·공격수, 1952-)</span>은 뮌헨 원정에서 중원부터 달려 나가 결승골을 넣었고, 키이우에서는 10만 명이 넘는 관중 앞에서 두 골을 더했다. 두 경기 합계 3-0, 세 골이 모두 블로힌의 것이었다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a> 가장 집단적인 체계가 가장 선명한 개인의 서사를 만들었다. 블로힌은 그해 발롱도르를 받았다.
 
@@ -130,7 +130,7 @@ draft: false
 
 중동에서의 시간을 거쳐 1997년 디나모 키이우로 돌아온 로바노우스키는 자신의 오래된 체계를 박물관에 두지 않았다. 1997-98 UEFA 챔피언스 리그에서 바르셀로나를 홈 3-0, 원정 4-0으로 꺾었고, 다음 시즌에는 준결승까지 올랐다. 안드리 셰우첸코<span class="foreign-note" lang="uk">(Андрій Миколайович Шевченко; 우크라이나 축구 선수·공격수, 1976-)</span>와 세르히 레브로우<span class="foreign-note" lang="uk">(Сергій Станіславович Ребров; 우크라이나 축구 선수·감독, 1974-)</span>가 유럽의 수비를 갈라 놓았다.<a class="cite" href="#source-1" aria-label="출처 1 다시 보기 2">[1]</a>
 
-1999년 바이에른과의 준결승 1차전은 그 복귀가 단순한 향수였는지를 시험한 경기였다. 디나모는 셰우첸코의 두 골과 비탈리 코소우스키의 골로 3-1까지 앞섰다. 코소우스키의 칩이 골대를 넘은 뒤 바이에른이 두 골을 되찾아 3-3이 됐고, 디나모는 원정 2차전에서 0-1로 패했다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 결승에는 닿지 못했지만, 24년 전의 원리를 새 세대의 속도와 압박으로 갱신해 유럽 최강을 탈락 직전까지 몰았다는 사실은 남았다.
+1999년 바이언과의 준결승 1차전은 그 복귀가 단순한 향수였는지를 시험한 경기였다. 디나모는 셰우첸코의 두 골과 비탈리 코소우스키의 골로 3-1까지 앞섰다. 코소우스키의 칩이 골대를 넘은 뒤 바이언이 두 골을 되찾아 3-3이 됐고, 디나모는 원정 2차전에서 0-1로 패했다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 결승에는 닿지 못했지만, 24년 전의 원리를 새 세대의 속도와 압박으로 갱신해 유럽 최강을 탈락 직전까지 몰았다는 사실은 남았다.
 
 <div class="vl-return">
   <svg class="vl-return__starball" viewBox="0 0 240 240" aria-hidden="true">
@@ -177,7 +177,7 @@ draft: false
   <li id="source-6"><a href="https://fcdynamo.com/news/dinamovtsy_o_velikolepnoy_pobede_v_finale_kubka_kubkov_1986_nad_atletiko">「Dynamo players on the magnificent 1986 Cup Winners’ Cup final victory」</a>, FC Dynamo Kyiv. 아틀레티코 마드리드와의 1986년 결승 및 본문 공식 사진.</li>
   <li id="source-7"><a href="https://www.uefa.com/news/0221-0e90b643b36f-cbd92b4f0b2f-1000--lobanovskiy-s-football-philosophy/">「Lobanovskiy’s football philosophy」</a>, UEFA. 2001년 인터뷰에 나타난 특수 테스트, 컴퓨터 활용과 변화하는 축구에 대한 관점.</li>
   <li id="source-8"><a href="https://fcdynamo.com/history/peremoga-u-chempionati-srsr-1974">「Перемога у чемпіонаті СРСР-1974」</a>, FC Dynamo Kyiv. 1969년 드니프로 부임, 소비에트 톱리그 승격과 1972·1973년의 상위권 경쟁.</li>
-  <li id="source-9"><a href="https://www.uefa.com/uefasupercup/news/0250-0c50f0c29374-e902f54c306d-1000--1975-bayern-bow-to-blokhin/">「1975 Super Cup: Bayern bow to Blokhin」</a>, UEFA. 바이에른과의 두 경기, 블로힌의 세 골과 키이우의 10만 관중.</li>
+  <li id="source-9"><a href="https://www.uefa.com/uefasupercup/news/0250-0c50f0c29374-e902f54c306d-1000--1975-bayern-bow-to-blokhin/">「1975 Super Cup: Bayern bow to Blokhin」</a>, UEFA. 바이언과의 두 경기, 블로힌의 세 골과 키이우의 10만 관중.</li>
   <li id="source-10"><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d7b302aed07-1f1adf84c559-1000--ussr-s-rats-rattles-netherlands-in-euro-1988-group-2-opener/">「USSR’s Rats rattles Netherlands in EURO 1988 Group 2 opener」</a>, UEFA. 로바노우스키의 중원 밀집 전략과 소련의 1-0 승리.</li>
   <li id="source-11"><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d7b2f78ca99-40f24ef873fd-1000--van-basten-volley-crowns-netherlands-euro-1988-final-win-ag/">「Van Basten volley crowns Netherlands’ EURO 1988 final win against USSR」</a>, UEFA. 결승 결과와 디나모 키이우 선수 8명이 포함된 소련 선발 명단.</li>
   <li id="source-12"><a href="https://www.uefa.com/uefachampionsleague/news/01ff-0e6a23490ef6-16cb6c9d9f5b-1000--1998-99-fc-dynamo-kyiv-3-3-fc-bayern-munchen-report/">「1998/99 FC Dynamo Kyiv 3-3 FC Bayern München: Report」</a>, UEFA. 준결승 1차전의 득점 전개와 3-3 무승부.</li>
