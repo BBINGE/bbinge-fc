@@ -150,4 +150,18 @@ assert.throws(() => renderTopScorers('1999-00'), /Unknown top scorers season/);
 const scorerSource = readFileSync(new URL('../src/content/archive/1955-56-european-cup-top-scorers.md', import.meta.url), 'utf8');
 assert.equal((scorerSource.match(/data-european-cup-scorers="1955-56"/g) ?? []).length, 1);
 assert(!scorerSource.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
-console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명');
+// 1956-57 4강: 합계·결승 진출, 레알 두 번째 4강, 원고 자리표시.
+for (const [id, total, winner] of [['match-1','0<i>:</i>1','AC 피오렌티나'], ['match-2','5<i>:</i>3','레알 마드리드 CF']]) {
+  const html = renderTie('1956-57-european-cup-semifinals', id);
+  assert(html.includes('<strong>' + total + '</strong>'), id + ' 합계');
+  assert(html.includes('<dt>결승 진출</dt><dd>' + winner + '</dd>'), id + ' 결승 진출');
+  assert(!html.includes('재경기'));
+}
+const semis5657 = renderEuropeanCupMilestone('1956-57', 'semi-finals');
+assert.equal((semis5657.match(/통산 첫 4강 진출/g) ?? []).length, 3);
+assert.equal((semis5657.match(/통산 두 번째 4강 진출/g) ?? []).length, 1);
+const semiSource5657 = readFileSync(new URL('../src/content/archive/1956-57-european-cup-semifinals.md', import.meta.url), 'utf8');
+assert.equal((semiSource5657.match(/data-football-tie="1956-57-european-cup-semifinals:/g) ?? []).length, 2);
+assert.equal((semiSource5657.match(/data-european-cup-milestone="1956-57:semi-finals"/g) ?? []).length, 1);
+assert(!semiSource5657.includes('ACF 피오렌티나 |') && !semiSource5657.includes('스타디온 파르티자나,'), '표·헤더는 당시 명칭');
+console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개');

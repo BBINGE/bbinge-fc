@@ -85,6 +85,29 @@ const europeanCup1955Stories: ReadingRouteStory[] = [
   },
 ];
 
+const europeanCup1956Stories: ReadingRouteStory[] = [
+  {
+    id: '1956-57-european-cup',
+    href: '/archive/european-club/european-cup/1956-57-european-cup/',
+    index: '01',
+    label: '대회관 · 참가팀과 본선',
+    title: '스물두 구단은 어떻게 4강까지 좁혀졌나',
+    description: '맨유의 첫 도전과 브뤼셀로 옮겨 간 혼베드의 홈경기, 예선부터 8강까지 읽기',
+    image: '/images/archive/1956-57-european-cup/cover.png',
+    theme: 'european-cup',
+  },
+  {
+    id: '1956-57-european-cup-semifinals',
+    href: '/archive/european-club/european-cup/1956-57-european-cup-semifinals/',
+    index: '02',
+    label: '대회관 · 4강',
+    title: '결승행 두 자리는 누가 가져갔나',
+    description: '베오그라드 88분의 한 골과 조명을 단 올드 트래퍼드의 2-2, 4강 네 경기 읽기',
+    image: '/images/archive/1956-57-european-cup-semifinals/cover.webp',
+    theme: 'european-cup',
+  },
+];
+
 const byId = (id: string) => europeanCup1955Stories.find((story) => story.id === id)!;
 
 export function getReadingRoute(currentId: string): ReadingRoute | undefined {
@@ -104,6 +127,15 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
       title: '첫 유러피언컵을<br />여섯 개의 기록으로 읽기',
       lead: '대회가 어떻게 시작됐는지, 누가 결승에 올랐는지, 파리의 4-3이 어떻게 뒤집혔는지, 누가 가장 많은 골을 넣었는지, 그해 가장 빛난 선수가 누구였는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1955Stories.filter((story) => story.id !== currentId),
+    };
+  }
+  if (europeanCup1956Stories.some((story) => story.id === currentId)) {
+    return {
+      theme: 'european-cup',
+      kicker: 'EUROPEAN CUP 1956-57 READING ROUTE · 01—02',
+      title: '두 번째 유러피언컵을<br />이어서 읽기',
+      lead: '스물두 구단이 나선 예선부터 8강까지, 그리고 결승행 두 자리를 가른 4강 네 경기로 이어서 읽으면 된다.',
+      stories: europeanCup1956Stories.filter((story) => story.id !== currentId),
     };
   }
   return undefined;

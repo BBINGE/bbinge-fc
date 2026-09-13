@@ -1,0 +1,14 @@
+{
+  "season": "1956-57",
+  "competition": "유러피언컵",
+  "ties": {
+    "match-1": {
+      "left": "crvena-zvezda", "right": "fiorentina", "legs": [[0,1],[0,0]], "stage": "4강",
+      "deck": "베오그라드 88분 프리니의 한 골을 피렌체의 0-0으로 지켜 냈다."
+    },
+    "match-2": {
+      "left": "real-madrid", "right": "manchester-united", "legs": [[3,1],[2,2]], "stage": "4강",
+      "deck": "베르나베우의 3-1을 들고 간 레알이 올드 트래퍼드에서 2-2로 버텼다."
+    }
+  }
+}
