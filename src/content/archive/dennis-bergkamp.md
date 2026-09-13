@@ -163,7 +163,7 @@ draft: false
 
 <figure class="legend-section-photo"><img src="/images/archive/legends/bergkamp/wenger.webp" alt="아스널 트레이닝복 차림으로 기자회견장에 앉은 아르센 벵거" width="700" height="525" loading="lazy" decoding="async" /><figcaption>아스널 감독 시절의 아르센 벵거. 베르흐캄프를 최전방 아래의 연결 고리로 쓴 사람이다. 사진: Paul Blank · Wikimedia Commons (CC BY 2.5).</figcaption></figure>
 
-1997년 8월 23일 레스터 시티 원정에서 그는 해트트릭을 기록했다. 경기는 3-3으로 끝났지만, 레스터 감독 마틴 오닐은 자신이 본 최고의 해트트릭이라고 했다. 세 번째 골은 데이비드 플랫의 긴 패스를 발끝으로 받아 올려 수비수 맷 엘리엇을 넘기고 골키퍼 케이시 켈러를 지나 꽂은 장면이었다. 베르흐캄프는 이 골을 아스널에서 넣은 가장 좋아하는 골로 꼽으며, 머릿속에 그린 대로 2초 전에 계획한 그대로 되었다고 말했다.
+1997년 8월 27일 수요일 밤, 레스터 시티 원정에서 그는 해트트릭을 기록했다. 경기는 3-3으로 끝났지만, 레스터 감독 마틴 오닐은 자신이 본 최고의 해트트릭이라고 했다. 세 번째 골은 데이비드 플랫의 긴 패스를 발끝으로 받아 올려 수비수 맷 엘리엇을 넘기고 골키퍼 케이시 켈러를 지나 꽂은 장면이었다. 베르흐캄프는 이 골을 아스널에서 넣은 가장 좋아하는 골로 꼽으며, 머릿속에 그린 대로 2초 전에 계획한 그대로 되었다고 말했다. BBC 《매치 오브 더 데이》<span class="foreign-note" lang="en">(Match of the Day; BBC의 잉글랜드 축구 하이라이트 프로그램)</span>는 그달의 골 1위부터 3위를 이 경기의 세 골로 채웠다. 한 선수가 한 경기에서 이달의 골 순위를 통째로 가져간 것은 프로그램 역사상 처음이었다.
 
 <figure class="legend-section-photo legend-section-scan" style="max-width:420px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/filbert-street.webp" alt="관중으로 가득 찬 레스터 시티의 옛 홈구장 필버트 스트리트의 이층 스탠드" width="420" height="310" loading="lazy" decoding="async" /><figcaption>레스터 시티의 옛 홈구장 필버트 스트리트. 2002년 철거된 이곳에서 1997년 8월의 해트트릭이 나왔다. 사진: Samlcfc · Wikimedia Commons (CC BY-SA 3.0).</figcaption></figure>
 
@@ -251,7 +251,7 @@ draft: false
   <tr><td>네덜란드</td><td>UEFA 유로 2000</td><td><strong>10</strong></td></tr>
 </tbody></table></div>
 
-<p class="record-note">트랜스퍼마크트의 시즌별 이력과 대회 등록 번호 기준. 아약스는 1986-87 시즌 14·15·7번, 1987-88 시즌 16·7번, 1988-89 시즌 15·7·6번, 1990-91 시즌 9·8번, 1991-92 시즌 10·7번을 거쳐 1992-93 시즌 10번을 달았다. 1989-90 시즌 번호는 확인된 이력이 없다. 클럽의 복수 번호는 확인된 착용 이력이며 전 경기에 고정됐다는 뜻은 아니다.</p>
+<p class="record-note">트랜스퍼마크트의 시즌별 이력 기준이며, 대표팀 번호는 각 대회 공식 선수단 명단과 대조했다. 아약스는 1986-87 시즌 14·15·7번, 1987-88 시즌 16·7번, 1988-89 시즌 15·7·6번, 1990-91 시즌 9·8번, 1991-92 시즌 10·7번을 거쳐 1992-93 시즌 10번을 달았다. 1989-90 시즌 번호는 확인된 이력이 없다. 클럽의 복수 번호는 확인된 착용 이력이며 전 경기에 고정됐다는 뜻은 아니다.</p>
 
 ## 대표 우승·준우승 경력
 
@@ -291,8 +291,8 @@ draft: false
   <li><strong>UEFA컵 공동 득점왕</strong><span>1993-94 시즌 · 8골</span></li>
   <li><strong>에레디비시 득점왕</strong><span>1990-91 시즌 25골(공동) · 1991-92 시즌 24골 · 1992-93 시즌 26골</span></li>
   <li><strong>프리미어 리그 공동 도움왕</strong><span>1998-99 시즌 · 13도움</span></li>
-  <li><strong>BBC 올해의 골</strong><small>《Match of the Day》 시즌 최고의 골</small><span>1997-98 시즌 · 2001-02 시즌</span></li>
-  <li><strong>IFFHS 세계 최고의 득점자</strong><small>국제축구역사통계연맹 선정</small><span>1992년</span></li>
+  <li><strong>BBC 시즌 최고의 골</strong><small>《Match of the Day》 선정</small><span>1997-98 시즌 · 2001-02 시즌</span></li>
+  <li><strong>IFFHS 세계 최고의 국제경기 득점자</strong><small>국제축구역사통계연맹 · A매치와 대륙 대항전 득점 기준</small><span>1992년 · 12골</span></li>
   <li><strong>FWA 공로상</strong><small>잉글랜드 축구기자협회가 잉글랜드 축구 공헌에 수여</small><span>2025년</span></li>
 </ul>
 
@@ -312,8 +312,10 @@ draft: false
   <li><a href="https://www.espn.com/soccer/story/_/id/37372558/dennis-bergkamp-1998-netherlands-argentina" rel="noopener noreferrer">ESPN: 월드컵 최고의 골, 베르흐캄프 1998</a>: 프랑크 더부르와의 눈맞춤부터 슈팅까지 본인 설명(FourFourTwo 인터뷰 인용).</li>
   <li><a href="https://www.meemetoranje.nl/nederlands-elftal/historie/momenten/bergkamps-legendarische-wk-doelpunt-tegen-argentinie/" rel="noopener noreferrer">Mee met Oranje: 아르헨티나전의 전설적인 골</a>: 7월 4일 스타드 벨로드롬, 판헬더르 중계 원문.</li>
   <li><a href="https://www.skysports.com/football/news/11095/11998769/how-dennis-bergkamp-scored-his-arsenal-wondergoal-at-newcastle" rel="noopener noreferrer">Sky Sports: 베르흐캄프는 뉴캐슬 원정 골을 어떻게 넣었나</a>: 피레스의 패스, 10야드 전의 결정, 벵거의 반응.</li>
+  <li><a href="https://www.arsenal.com/news/all-the-dennis-bergkamp-stats-you-need-ajmEk8A8Z6BJ" rel="noopener noreferrer">Arsenal.com: 베르흐캄프 기록 총정리</a>: 공식전 423경기 120골, 1995년 8월 20일 데뷔, 리그 3회·FA컵 4회·채리티 실드 3회 우승과 시즌 최고의 골 2회.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Dutch_Footballer_of_the_Year" rel="noopener noreferrer">Wikipedia: 네덜란드 올해의 축구선수</a> · <a href="https://en.wikipedia.org/wiki/IFFHS_World%27s_Top_Goal_Scorer" rel="noopener noreferrer">IFFHS 국제경기 득점자</a>: 1991·1992년 올해의 선수와 1990년 재능상, 1992년 국제경기 12골.</li>
   <li><a href="https://www.arsenal.com/history/ggg4-bergkamp-v-leicester-city-1997" rel="noopener noreferrer">Arsenal.com: 1997 레스터전 해트트릭</a>: 세 번째 골의 전개와 가장 좋아하는 골 발언.</li>
-  <li><a href="https://www.planetfootball.com/nostalgia/remembering-when-dennis-bergkamp-scored-one-of-the-best-hat-tricks-of-all-time-for-arsenal" rel="noopener noreferrer">Planet Football: 레스터전 해트트릭 회고</a>: 리오크의 영입, 초반 여섯 경기 무득점과 사우샘프턴전, 오닐의 평가.</li>
+  <li><a href="https://www.planetfootball.com/nostalgia/remembering-when-dennis-bergkamp-scored-one-of-the-best-hat-tricks-of-all-time-for-arsenal" rel="noopener noreferrer">Planet Football: 레스터전 해트트릭 회고</a>: 리오크의 영입, 초반 여섯 경기 무득점과 사우샘프턴전, 1997년 8월 27일 경기와 이달의 골 1~3위, 오닐의 평가.</li>
   <li><a href="https://www.uefa.com/uefachampionsleague/news/01ad-0e6d05fbc03e-9d3008c48151-1000--wenger-wooed-by-bergkamp-class" rel="noopener noreferrer">UEFA: 벵거가 반한 베르흐캄프의 클래스</a> · <a href="https://www.uefa.com/news-media/news/01b7-0f84d57f9e1e-fd3e8b25e54b-1000--bergkamp-s-fond-farewell" rel="noopener noreferrer">베르흐캄프의 작별</a>: 2005년 툰전 결승골과 은퇴 경기에 대한 벵거의 발언.</li>
   <li><a href="https://www.arsenal.com/news/news-archive/gallery-dennis-bergkamp-v-wba-2006" rel="noopener noreferrer">Arsenal.com: 2006년 4월 15일 마지막 골</a> · <a href="https://www.arsenal.com/arsenal-history/arsenal-s-heritage/arsenal-statues" rel="noopener noreferrer">아스널 동상</a>: 데니스 베르흐캄프 데이와 동상이 본뜬 2003년 뉴캐슬전 장면.</li>
   <li><a href="https://www.voetbalprimeur.nl/nieuws/782642/knvb-eert-bergkamp-met-beeld-het-hoofd-is-enigszins-gelukt-.html" rel="noopener noreferrer">Voetbalprimeur: KNVB, 베르흐캄프 동상 제막</a> · <a href="https://nos.nl/l/2008898" rel="noopener noreferrer">NOS: 오라녀 명예 전시관의 동상</a>: 지난 25년 최고의 대표 선수 선정, 리아 크롤의 1998년 트래핑 동상과 제막식 발언.</li>
