@@ -605,21 +605,17 @@ const relatedAssets = entry.data.relatedGroup && !hasReadingRoute
   .archive-body :global(.record-facts-netherlands dl) { border-color: rgba(33,70,139,.2); background: linear-gradient(90deg, rgba(174,28,40,.055), rgba(33,70,139,.055)); }
   .archive-body :global(.record-facts-netherlands dt) { color: #21468b; font-weight: 800; }
   /* Germany: same two-row grammar, black-red-gold tricolour and a dark DFB row. */
-  .archive-body :global(.legend-identity-germany) { display: grid; grid-template-columns: 1fr; grid-template-rows: minmax(112px, auto) auto; align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; color: #fff; }
+  /* Germany (운영자 확정 2026-09-14): 네덜란드·이탈리아·스페인·브라질과 같은 두 줄. 국가 줄은 흑·적·금, 대표팀 줄은 흰색 2/3 + DFB 엠블럼 바깥 고리 회색(#666) 1/3. */
+  .archive-body :global(.legend-identity-germany) { display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, minmax(112px, 1fr)); align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; color: #fff; }
   .archive-body :global(.legend-identity-germany section) { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; min-width: 0; padding: 20px 30px; }
   .archive-body :global(.legend-identity-germany .identity-country) { background: linear-gradient(90deg, #111 0 68%, #dd0000 68% 84%, #ffce00 84% 100%); color: #fff; }
-  .archive-body :global(.legend-identity-germany .identity-team) { grid-template-columns: 1fr; justify-items: center; gap: 14px; padding: 26px 0 0; border: 1px solid #dcdcd8; border-top: 0; border-radius: 0 0 16px 16px; overflow: hidden; background: #fff; color: #111; text-align: center; }
-  .archive-body :global(.legend-identity-germany .identity-team div) { display: grid; justify-items: center; gap: 12px; width: 100%; }
-  .archive-body :global(.legend-identity-germany .identity-team strong) { margin: 0; font-size: 24px; font-weight: 850; letter-spacing: -.01em; }
-  .archive-body :global(.legend-identity-germany .identity-team strong span) { display: inline; font-size: inherit; font-weight: inherit; letter-spacing: inherit; }
-  .archive-body :global(.legend-identity-germany .identity-team strong .de-black) { color: #111; }
-  .archive-body :global(.legend-identity-germany .identity-team strong .de-red) { color: #dd0000; }
-  .archive-body :global(.legend-identity-germany .identity-team strong .de-gold) { color: #f0b400; }
-  .archive-body :global(.legend-identity-germany .identity-team strong .de-grey) { color: #555; }
-  .archive-body :global(.legend-identity-germany .identity-team small) { display: block; width: 100%; margin: 0; padding: 12px 16px; background: #000; color: #fff; font-size: 16px; font-weight: 800; letter-spacing: .01em; }
+  .archive-body :global(.legend-identity-germany .identity-team) { background: linear-gradient(90deg, #fff 0 66.667%, #666 66.667% 100%); color: #111; padding-right: calc(33.333% + 24px); box-shadow: inset 1px 0 0 #dcdcd8, inset 0 -1px 0 #dcdcd8; }
+  .archive-body :global(.legend-identity-germany .identity-team div) { min-width: 0; word-break: keep-all; }
+  .archive-body :global(.legend-identity-germany .identity-team span) { color: #666; }
+  .archive-body :global(.legend-identity-germany .identity-team small) { color: #333; }
   .archive-body :global(.legend-identity-germany img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
   .archive-body :global(.legend-identity-germany .identity-country img) { height: 60px; border: 1px solid rgba(255,255,255,.9); border-radius: 9px; object-fit: cover; }
-  .archive-body :global(.legend-identity-germany .identity-team img) { width: 118px; height: 139px; justify-self: center; }
+  .archive-body :global(.legend-identity-germany .identity-team img) { width: 70px; height: 83px; justify-self: center; }
   .archive-body :global(.legend-identity-germany span) { color: inherit; font-size: 11px; }
   .archive-body :global(.legend-identity-germany strong) { margin-top: 6px; color: inherit; font-size: 22px; }
   .archive-body :global(.legend-identity-germany small) { color: inherit; font-size: 12px; line-height: 1.45; }
@@ -635,10 +631,10 @@ const relatedAssets = entry.data.relatedGroup && !hasReadingRoute
     .archive-body :global(.legend-identity-germany section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
     .archive-body :global(.legend-identity-germany img) { width: 62px; height: 46px; }
     .archive-body :global(.legend-identity-germany .identity-country img) { height: 38px; }
-    .archive-body :global(.legend-identity-germany .identity-team) { grid-template-columns: 1fr; gap: 12px; padding: 20px 0 0; }
-    .archive-body :global(.legend-identity-germany .identity-team img) { width: 88px; height: 104px; }
-    .archive-body :global(.legend-identity-germany .identity-team strong) { font-size: 20px; }
-    .archive-body :global(.legend-identity-germany .identity-team small) { padding: 10px 12px; font-size: 13px; }
+    .archive-body :global(.legend-identity-germany .identity-team) { grid-template-columns: 44px minmax(0, 1fr); gap: 12px; padding-right: calc(33.333% + 8px); }
+    .archive-body :global(.legend-identity-germany .identity-team strong) { font-size: 17px; line-height: 1.3; }
+    .archive-body :global(.legend-identity-germany .identity-team small) { overflow-wrap: anywhere; hyphens: auto; }
+    .archive-body :global(.legend-identity-germany .identity-team img) { width: 44px; height: 52px; }
     .archive-body :global(.legend-identity-germany strong) { margin-top: 4px; font-size: 19px; }
     .archive-body :global(.legend-identity-germany small) { margin-top: 3px; font-size: 11px; }
     .archive-body :global(.record-facts-germany .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #111 0 69%, #dd0000 69% 82%, #ffce00 82% 100%); }

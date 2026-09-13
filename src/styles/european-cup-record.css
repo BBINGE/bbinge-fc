@@ -139,16 +139,26 @@
   .cup-record .archive-body .cup-scorer-num:not(.cup-scorer-goals) { grid-column: 3; grid-row: 2; font-size: 12px; color: var(--bbfc-gray-1); }
 }
 .cup-record .cup-match-scroll { overflow-x: auto; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; }
-.cup-record .archive-body .cup-match-scroll table { display: table; width: 100%; min-width: 700px; table-layout: auto; font-size: 14px; line-height: 1.6; }
+.cup-record .archive-body .cup-match-scroll table { display: table; width: 100%; min-width: 0; table-layout: fixed; font-size: 14px; line-height: 1.6; }
+.cup-record .archive-body .cup-match-scroll th:nth-child(1) { width: 11%; }
+.cup-record .archive-body .cup-match-scroll th:nth-child(2) { width: 13%; }
+.cup-record .archive-body .cup-match-scroll th:nth-child(3),
+.cup-record .archive-body .cup-match-scroll th:nth-child(5) { width: 18%; }
+.cup-record .archive-body .cup-match-scroll th:nth-child(4) { width: 8%; }
+.cup-record .archive-body .cup-match-scroll th:nth-child(6) { width: 32%; }
 .cup-record .archive-body .cup-match-scroll th { padding: 13px 11px; background: var(--bbfc-fill-2); font-size: 12px; font-weight: 750; letter-spacing: .03em; color: var(--bbfc-gray-1); }
 .cup-record .archive-body .cup-match-scroll td { padding: 15px 11px; vertical-align: middle; }
 .cup-record .archive-body .cup-match-scroll th:nth-child(-n+5),
-.cup-record .archive-body .cup-match-scroll td:nth-child(-n+5) { white-space: nowrap; }
+.cup-record .archive-body .cup-match-scroll td:nth-child(-n+2),
+.cup-record .archive-body .cup-match-scroll td:nth-child(4) { white-space: nowrap; }
+.cup-record .archive-body .cup-match-scroll td:nth-child(3),
+.cup-record .archive-body .cup-match-scroll td:nth-child(5) { word-break: keep-all; }
 .cup-record .archive-body .cup-match-scroll th:nth-child(4),
 .cup-record .archive-body .cup-match-scroll td:nth-child(4) { text-align: center; }
 .cup-record .archive-body .cup-match-scroll td:first-child { font-weight: 700; color: var(--bbfc-blue-strong); }
 .cup-record .archive-body .cup-match-scroll td:nth-child(4) { font-weight: 800; font-variant-numeric: tabular-nums; color: var(--bbfc-ink); }
-.cup-record .archive-body .cup-match-scroll td:last-child { min-width: 270px; color: var(--bbfc-gray-1); }
+.cup-record .archive-body .cup-match-scroll td:last-child { color: var(--bbfc-gray-1); word-break: keep-all; }
+.cup-record .archive-body .cup-match-scroll td:last-child b { display: block; font-weight: 700; color: var(--bbfc-ink-2); }
 .cup-record .archive-body .cup-match-scroll tbody tr:nth-child(3) td { border-top: 2px solid color-mix(in srgb, var(--bbfc-blue) 58%, var(--bbfc-border)); }
 .cup-record .cup-record-table > .record-note { margin: 0; padding: 15px 20px 17px; border-top: 1px solid var(--bbfc-border); background: var(--bbfc-fill-2); color: var(--bbfc-gray-1); font-size: 12.5px; line-height: 1.7; }
 @media (max-width: 600px) {
