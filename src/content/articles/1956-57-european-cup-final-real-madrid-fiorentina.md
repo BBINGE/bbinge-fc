@@ -117,16 +117,16 @@ relatedGroup: 'european-cup-1956-57'
   <p>화면이 관중석으로 넘어가면 흰 천이 파도처럼 흔들린다. 전반 내내 첫 골을 기다렸던 12만 관중이 한꺼번에 반응한 순간이다. 파리에서 레알은 79분에야 처음 앞섰다. 1년 뒤 안방에서는 그보다 10분 먼저 리드를 잡았고, 남은 20분 동안 그 리드를 지켜야 할 쪽이 됐다.</p>
 </section>
 
-## 후반: 피오렌티나의 반격과 거친 몸싸움
+## 후반: 피오렌티나의 반격과 넘어진 레몽 코파
 
 <section class="highlight-scene european-cup-scene">
   <header><span>SECOND HALF · FIORENTINA PUSH</span><h3>한 골을 따라가야 하는 비올라</h3></header>
   <div class="highlight-clip-grid two-clips">
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="피오렌티나의 공격이 레알 골문 앞까지 이어지고 골키퍼가 몸을 던져 공을 잡는 장면"><source src="/media/highlights/1956-57-european-cup-final/11-fiorentina-chance.mp4" type="video/mp4" /></video><figcaption>문전에서 이어진 피오렌티나의 공격. 레알 골키퍼 알론소가 몸을 던져 공을 잡는다.</figcaption></figure>
-    <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="피오렌티나 6번 아르만도 세가토와 부딪혀 넘어지는 레알 선수"><source src="/media/highlights/1956-57-european-cup-final/12-segato-challenge.mp4" type="video/mp4" /></video><figcaption>터치라인 근처에서 공을 다투던 레알 선수가 피오렌티나 6번 세가토와 부딪혀 그라운드에 나뒹군다.</figcaption></figure>
+    <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="피오렌티나 6번 아르만도 세가토와 부딪혀 넘어지는 레알 7번 레몽 코파"><source src="/media/highlights/1956-57-european-cup-final/12-segato-challenge.mp4" type="video/mp4" /></video><figcaption>터치라인 근처에서 공을 다투던 레알 7번 코파가 피오렌티나 6번 세가토와 부딪혀 그라운드에 나뒹군다.</figcaption></figure>
   </div>
   <p>뒤진 피오렌티나도 물러서지 않았다. 첫 영상에서 피오렌티나의 공격은 레알 골문 앞까지 이어지지만, 어두운 유니폼의 알론소가 낮게 몸을 던져 공을 품에 안는다. 파리 결승에서 두 골을 먼저 내줬던 골키퍼는 이날 끝까지 실점하지 않았다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
-  <p>두 번째 영상은 몸싸움이다. 피오렌티나 6번 아르만도 세가토<span class="foreign-note" lang="it">(Armando Segato; 이탈리아 미드필더, 1930-1973)</span>와 부딪힌 레알 선수가 크게 넘어진다. 넘어진 선수의 등번호가 화면에 드러나지 않아 이름까지 확정하기는 어렵지만, 피오렌티나가 몸싸움을 피하지 않고 레알의 공격을 끊었다는 것은 분명하다. 그 견제를 가장 낯선 자리에서 받은 사람은 코파였다. 코파에게 이날은 자신의 두 번째 유러피언컵 결승이자 레알 유니폼을 입고 치른 첫 결승이었고, 1년 전 레알을 상대로 뛰었던 공격수는 이제 이탈리아 챔피언의 수비를 레알 쪽에서 상대하고 있었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-10" aria-label="출처 10">[10]</a></p>
+  <p>두 번째 영상은 몸싸움이다. 피오렌티나 6번 아르만도 세가토<span class="foreign-note" lang="it">(Armando Segato; 이탈리아 미드필더, 1930-1973)</span>와 부딪힌 레알 선수가 크게 넘어진다. 등에 7번을 단 그 선수는 오른쪽 측면의 코파다. 피오렌티나는 몸싸움을 피하지 않고 레알의 새 공격수를 거칠게 막아섰다. 코파에게 이날은 자신의 두 번째 유러피언컵 결승이자 레알 유니폼을 입고 치른 첫 결승이었고, 1년 전 레알을 상대로 뛰었던 공격수는 이제 이탈리아 챔피언의 수비를 레알 쪽에서 상대하고 있었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-10" aria-label="출처 10">[10]</a></p>
 </section>
 
 ## 후반 75분: 헨토가 사르티를 넘기다
