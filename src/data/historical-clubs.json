@@ -83,7 +83,8 @@
     "flags": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/flags/be.svg"
       }
@@ -91,7 +92,8 @@
     "crests": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/archive/teams/clubs/anderlecht-1933.svg",
         "period": "1933-1959",
@@ -100,7 +102,7 @@
         ]
       }
     ],
-    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+    "review": "1955-56·1956-57 표시 승인 범위(1933-1959 도안). 다른 시즌은 별도 대조 후 seasons에 추가."
   },
   "servette": {
     "name": "세르베트 FC",
@@ -134,7 +136,8 @@
     "flags": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/flags/es-1945.png",
         "period": "1945-1977",
@@ -149,7 +152,8 @@
     "crests": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/archive/teams/clubs/real-madrid-1941.svg",
         "period": "1941-1997",
@@ -158,7 +162,7 @@
         ]
       }
     ],
-    "review": "1955-56 당시 1945년 규정의 성 요한의 독수리 문장 국기 적용. 다른 시즌은 별도 대조 후 seasons에 추가."
+    "review": "1955-56 당시 1945년 규정의 성 요한의 독수리 문장 국기 적용. 다른 시즌은 별도 대조 후 seasons에 추가. 1956-57은 1941-1997 도안 기간 안이라 추가."
   },
   "rot-weiss-essen": {
     "name": "로트바이스 에센",
@@ -267,7 +271,8 @@
     "flags": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/flags/dk.svg"
       }
@@ -319,7 +324,8 @@
     "flags": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1956-57"
         ],
         "src": "/images/flags/at.svg"
       }
@@ -412,5 +418,275 @@
       }
     ],
     "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
+  },
+  "borussia-dortmund": {
+    "name": "보루시아 도르트문트",
+    "original": "BORUSSIA DORTMUND",
+    "country": "서독",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/de.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "spora": {
+    "name": "CA 스포라 룩셈부르크",
+    "original": "CA SPORA LUXEMBOURG",
+    "country": "룩셈부르크",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/lu.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "dinamo-bucuresti": {
+    "name": "FC 디나모 부쿠레슈티",
+    "original": "FC DINAMO BUCUREȘTI",
+    "country": "루마니아",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/ro-1952.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "galatasaray": {
+    "name": "갈라타사라이 SK",
+    "original": "GALATASARAY SK",
+    "country": "튀르키예",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/tr.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "slovan-bratislava": {
+    "name": "슬로반 ÚNV 브라티슬라바",
+    "original": "SLOVAN ÚNV BRATISLAVA",
+    "country": "체코슬로바키아",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/cs-first-republic.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "cwks-warszawa": {
+    "name": "CWKS 바르샤바",
+    "original": "CWKS WARSZAWA",
+    "country": "폴란드",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/pl.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "manchester-united": {
+    "name": "맨체스터 유나이티드 FC",
+    "original": "MANCHESTER UNITED FC",
+    "country": "잉글랜드",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/gb-eng.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "nice": {
+    "name": "OGC 니스",
+    "original": "OGC NICE",
+    "country": "프랑스",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/fr.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "porto": {
+    "name": "FC 포르투",
+    "original": "FC PORTO",
+    "country": "포르투갈",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/pt.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "atletico-bilbao": {
+    "name": "아틀레티코 데 빌바오",
+    "original": "ATLÉTICO DE BILBAO",
+    "country": "스페인",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/es-1945.png"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "cdna-sofia": {
+    "name": "CDNA 소피아",
+    "original": "CDNA SOFIA",
+    "country": "불가리아",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/bg-1948.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "rangers": {
+    "name": "레인저스 FC",
+    "original": "RANGERS FC",
+    "country": "스코틀랜드",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/gb-sct.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "grasshopper": {
+    "name": "그라스호퍼 클럽 취리히",
+    "original": "GRASSHOPPER CLUB ZÜRICH",
+    "country": "스위스",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/ch.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "norrkoping": {
+    "name": "IFK 노르셰핑",
+    "original": "IFK NORRKÖPING",
+    "country": "스웨덴",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/se.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "rapid-jc": {
+    "name": "라피트 JC",
+    "original": "RAPID JC",
+    "country": "네덜란드",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/nl.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "crvena-zvezda": {
+    "name": "FK 츠르베나 즈베즈다",
+    "original": "FK CRVENA ZVEZDA",
+    "country": "유고슬라비아",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/yu-1946.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "honved": {
+    "name": "부더페슈트 혼베드 SE",
+    "original": "BUDAPESTI HONVÉD SE",
+    "country": "헝가리",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/hu.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
+  },
+  "fiorentina": {
+    "name": "AC 피오렌티나",
+    "original": "AC FIORENTINA",
+    "country": "이탈리아",
+    "flags": [
+      {
+        "seasons": [
+          "1956-57"
+        ],
+        "src": "/images/flags/it.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1956-57 국기만 대조. 당시 문장 독립 자산 미확보라 로고 칸은 비워 둔다."
   }
 }

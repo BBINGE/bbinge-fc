@@ -43,6 +43,64 @@
         "champions": ["real-madrid"],
         "runners-up": ["reims"]
       }
+    },
+    {
+      "season": "1956-57",
+      "competition": "유러피언컵",
+      "entrants": [
+        { "club": "rapid", "background": "1955-56 시즌 리그 우승" },
+        { "club": "anderlecht", "background": "1955-56 시즌 리그 우승" },
+        { "club": "cdna-sofia", "background": "1955년 리그 우승" },
+        { "club": "slovan-bratislava", "background": "1955년 리그 우승" },
+        { "club": "aarhus", "background": "1955-56 시즌 리그 우승" },
+        { "club": "manchester-united", "background": "1955-56 시즌 리그 우승" },
+        { "club": "nice", "background": "1955-56 시즌 리그 우승" },
+        { "club": "honved", "background": "1955년 리그 우승 · 1956년 리그는 혁명으로 중단" },
+        { "club": "fiorentina", "background": "1955-56 시즌 세리에 A 우승" },
+        { "club": "spora", "background": "1955-56 시즌 리그 우승" },
+        { "club": "rapid-jc", "background": "1955-56 시즌 전국 우승 결정전 우승" },
+        { "club": "cwks-warszawa", "background": "1955년 리그 우승" },
+        { "club": "porto", "background": "1955-56 시즌 리그 우승" },
+        { "club": "dinamo-bucuresti", "background": "1955년 리그 우승" },
+        { "club": "rangers", "background": "1955-56 시즌 리그 우승" },
+        { "club": "atletico-bilbao", "background": "1955-56 시즌 라리가 우승" },
+        { "club": "real-madrid", "background": "1955-56 시즌 유러피언컵 우승" },
+        { "club": "norrkoping", "background": "1955-56 시즌 알스벤스칸 우승" },
+        { "club": "grasshopper", "background": "1955-56 시즌 리그 우승" },
+        { "club": "galatasaray", "background": "1955-56 시즌 이스탄불 프로 리그 우승 · 전국 리그 창설 전" },
+        { "club": "borussia-dortmund", "background": "1956년 서독 전국 선수권 우승" },
+        { "club": "crvena-zvezda", "background": "1955-56 시즌 리그 우승" }
+      ],
+      "stages": {
+        "preliminary-round": [
+          "borussia-dortmund", "spora",
+          "dinamo-bucuresti", "galatasaray",
+          "slovan-bratislava", "cwks-warszawa",
+          "anderlecht", "manchester-united",
+          "aarhus", "nice",
+          "porto", "atletico-bilbao"
+        ],
+        "round-of-16": [
+          "manchester-united", "borussia-dortmund",
+          "cdna-sofia", "dinamo-bucuresti",
+          "rangers", "nice",
+          "slovan-bratislava", "grasshopper",
+          "real-madrid", "rapid",
+          "fiorentina", "norrkoping",
+          "rapid-jc", "crvena-zvezda",
+          "atletico-bilbao", "honved"
+        ],
+        "quarter-finals": [
+          "atletico-bilbao", "manchester-united",
+          "fiorentina", "grasshopper",
+          "real-madrid", "nice",
+          "crvena-zvezda", "cdna-sofia"
+        ],
+        "semi-finals": ["crvena-zvezda", "fiorentina", "real-madrid", "manchester-united"],
+        "final": ["real-madrid", "fiorentina"],
+        "champions": ["real-madrid"],
+        "runners-up": ["fiorentina"]
+      }
     }
   ]
 }

@@ -1,0 +1,78 @@
+{
+  "season": "1956-57",
+  "competition": "유러피언컵",
+  "ties": {
+    "match-1": {
+      "left": "borussia-dortmund", "right": "spora", "legs": [[4,3],[1,2]], "playoff": [7,0], "stage": "예선",
+      "deck": "두 경기 합계 5-5. 원정 다득점 규정이 없던 시절이라 도르트문트에서 세 번째 경기를 치렀다."
+    },
+    "match-2": {
+      "left": "dinamo-bucuresti", "right": "galatasaray", "legs": [[3,1],[1,2]], "stage": "예선",
+      "deck": "튀르키예 구단의 첫 유러피언컵 경기는 부쿠레슈티에서 열렸다."
+    },
+    "match-3": {
+      "left": "slovan-bratislava", "right": "cwks-warszawa", "legs": [[4,0],[0,2]], "stage": "예선",
+      "deck": "브라티슬라바에서 넣은 네 골이 바르샤바의 반격을 버텼다."
+    },
+    "match-4": {
+      "left": "anderlecht", "right": "manchester-united", "legs": [[0,2],[0,10]], "stage": "예선",
+      "deck": "잉글랜드 구단의 첫 유러피언컵 원정, 그리고 메인 로드의 열 골."
+    },
+    "match-5": {
+      "left": "aarhus", "right": "nice", "legs": [[1,1],[1,5]], "stage": "예선",
+      "deck": "두 시즌 연속 출전한 오르후스를 니스가 두 번째 경기에서 넘었다."
+    },
+    "match-6": {
+      "left": "porto", "right": "atletico-bilbao", "legs": [[1,2],[2,3]], "stage": "예선",
+      "deck": "두 경기 모두 한 골 차. 빌바오의 2차전에서는 아르테체가 세 골을 넣었다."
+    },
+    "match-7": {
+      "left": "manchester-united", "right": "borussia-dortmund", "legs": [[3,2],[0,0]], "stage": "16강",
+      "deck": "메인 로드에서 얻은 한 골 차를 도르트문트 원정의 무실점으로 지켰다."
+    },
+    "match-8": {
+      "left": "cdna-sofia", "right": "dinamo-bucuresti", "legs": [[8,1],[2,3]], "stage": "16강",
+      "deck": "소피아의 여덟 골로 첫 경기에서 사실상 승부가 갈렸다."
+    },
+    "match-9": {
+      "left": "rangers", "right": "nice", "legs": [[2,1],[1,2]], "playoff": [1,3], "stage": "16강",
+      "deck": "글래스고와 니스에서 한 번씩 이긴 두 팀은 파리에서 다시 만났다."
+    },
+    "match-10": {
+      "left": "slovan-bratislava", "right": "grasshopper", "legs": [[1,0],[0,2]], "stage": "16강",
+      "deck": "홈에서 한 골을 앞선 슬로반을 그라스호퍼가 2차전 두 골로 뒤집었다."
+    },
+    "match-11": {
+      "left": "real-madrid", "right": "rapid", "legs": [[4,2],[1,3]], "playoff": [2,0], "stage": "16강",
+      "deck": "빈에서 에른스트 하펠이 세 골을 넣었고, 승부는 마드리드의 재경기로 넘어갔다."
+    },
+    "match-12": {
+      "left": "fiorentina", "right": "norrkoping", "legs": [[1,1],[1,0]], "stage": "16강",
+      "deck": "피렌체의 1-1 뒤, 2차전 비르질리의 한 골이 진출을 정했다."
+    },
+    "match-13": {
+      "left": "rapid-jc", "right": "crvena-zvezda", "legs": [[3,4],[0,2]], "stage": "16강",
+      "deck": "네덜란드 챔피언의 안방에서 먼저 네 골을 넣은 츠르베나 즈베즈다."
+    },
+    "match-14": {
+      "left": "atletico-bilbao", "right": "honved", "legs": [[3,2],[3,3]], "stage": "16강",
+      "deck": "빌바오에서 시작해 브뤼셀에서 끝났다. 혼베드는 부다페스트로 돌아가지 않았다."
+    },
+    "match-15": {
+      "left": "atletico-bilbao", "right": "manchester-united", "legs": [[5,3],[0,3]], "stage": "8강",
+      "deck": "눈 내린 산 마메스의 5-3을 메인 로드의 3-0이 뒤집었다."
+    },
+    "match-16": {
+      "left": "fiorentina", "right": "grasshopper", "legs": [[3,1],[2,2]], "stage": "8강",
+      "deck": "피렌체에서 벌린 두 골 차를 취리히의 2-2로 지켰다."
+    },
+    "match-17": {
+      "left": "real-madrid", "right": "nice", "legs": [[3,0],[3,2]], "stage": "8강",
+      "deck": "마드리드의 3-0에 니스 원정 3-2를 더한 디펜딩 챔피언."
+    },
+    "match-18": {
+      "left": "crvena-zvezda", "right": "cdna-sofia", "legs": [[3,1],[1,2]], "stage": "8강",
+      "deck": "베오그라드에서 만든 두 골 차가 소피아의 1-2 패배를 견뎠다."
+    }
+  }
+}

@@ -178,6 +178,9 @@
 .cup-record .cup-leg-results > div + div { border-left: 1px solid rgba(196,218,255,.22); }
 .cup-record .cup-leg-results dt { font-size: 11px; color: #c7dcff; }
 .cup-record .cup-leg-results dd { margin: 4px 0 0; font-size: 14px; line-height: 1.4; font-weight: 750; color: var(--cup-paper); }
+/* 합계 동률 뒤 재경기를 치른 대진: 1차전·2차전·재경기·진출 네 칸. */
+.cup-record .cup-leg-results--replay { grid-template-columns: 1fr 1fr 1fr 1.5fr; }
+.cup-record .cup-leg-results .cup-replay dt { color: var(--cup-cyan); font-weight: 750; }
 .cup-record .archive-body .cup-tie .cup-match-deck { margin: 14px 0 0; font-size: 13px; line-height: 1.65; color: #e1ecff; text-align: center; }
 .cup-record .archive-body .cup-asset-credit { font-size: 12px; color: var(--bbfc-gray-1); }
 @media (max-width: 600px) {
@@ -190,4 +193,6 @@
   .cup-record .cup-crest-slot { width: 76px; height: 76px; border-radius: 12px; }
   .cup-record .cup-original { font-size: 11px; letter-spacing: 0; }
   .cup-record .cup-leg-results dd { font-size: 13px; }
+  .cup-record .cup-leg-results--replay { grid-template-columns: repeat(3, 1fr); }
+  .cup-record .cup-leg-results--replay > .cup-advance { grid-column: 1 / -1; border-left: 0; border-top: 1px solid rgba(196,218,255,.22); }
 }

@@ -11,6 +11,8 @@ const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&':'&amp;'
 
 const stageMeta = {
   competition: { label: '대회 출전', noun: '출전' },
+  // 1956-57 시즌부터 존재한 공식 예선. 이전 시즌에는 소급하지 않는다.
+  'preliminary-round': { label: '예선 출전', noun: '예선 출전' },
   'round-of-16': { label: '16강 진출', noun: '16강 진출' },
   'quarter-finals': { label: '8강 진출', noun: '8강 진출' },
   'semi-finals': { label: '4강 진출', noun: '4강 진출' },
@@ -20,8 +22,9 @@ const stageMeta = {
 };
 
 function ordinal(count) {
-  const native = ['첫', '두', '세', '네', '다섯', '여섯', '일곱', '여덟', '아홉', '열'];
-  return native[count - 1] ?? `${count}번째`;
+  if (count === 1) return '첫';
+  const native = ['', '두', '세', '네', '다섯', '여섯', '일곱', '여덟', '아홉', '열'];
+  return native[count - 1] ? `${native[count - 1]} 번째` : `${count}번째`;
 }
 
 function validateHistory() {
@@ -64,14 +67,21 @@ export function renderTie(collection, id) {
   const left = resolveClub(tie.left, data.season);
   const right = resolveClub(tie.right, data.season);
   const total = [0, 1].map(side => tie.legs.reduce((sum, leg) => sum + leg[side], 0));
-  if (total[0] === total[1]) throw new Error(`Level aggregate needs explicit tie-break support: ${id}`);
-  const winner = total[0] > total[1] ? left : right;
+  const level = total[0] === total[1];
+  // 원정 다득점 규정이 없던 시절, 합계 동률은 재경기로 가렸다. 재경기는 동률 대진에만 둔다.
+  const playoff = tie.playoff;
+  if (level && !playoff) throw new Error(`Level aggregate needs a recorded replay: ${id}`);
+  if (!level && playoff) throw new Error(`Replay recorded for a decided aggregate: ${id}`);
+  if (playoff && (playoff.length !== 2 || playoff.some(score => !Number.isInteger(score) || score < 0) || playoff[0] === playoff[1])) throw new Error(`Invalid replay result: ${id}`);
+  const winner = (playoff ? playoff[0] > playoff[1] : total[0] > total[1]) ? left : right;
   const image = (asset, cls, alt, width, height) => `<img class="${cls}" src="${escape(asset.src)}" alt="${escape(alt)}" width="${width}" height="${height}" loading="lazy" decoding="async" />`;
   const team = club => `<div class="cup-side"><div class="cup-crest-slot"${club.crest ? '' : ' aria-hidden="true"'}>${club.crest ? image(club.crest, 'cup-club-crest', `${club.name} 로고`, 68, 68) : ''}</div><strong>${escape(club.name)}</strong><span class="cup-original">${escape(club.original)}</span><span class="cup-country"><span class="cup-flag-slot">${image(club.flag, 'cup-flag', `${club.country} 국기`, 24, 16)}</span>${escape(club.country)}</span></div>`;
-  const nextStage = { '16강': '8강', '8강': '4강', '4강': '결승' }[tie.stage];
+  const nextStage = { '예선': '16강', '16강': '8강', '8강': '4강', '4강': '결승' }[tie.stage];
   if (!nextStage) throw new Error(`Unsupported knockout stage: ${tie.stage}`);
-  const facts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' ? '4강 ' : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
-  return `<section class="cup-tie" aria-labelledby="${id}" data-tie="${collection}:${id}"><p class="cup-tie-stage">${escape(data.season)} 유러피언컵 · ${escape(tie.stage)}</p><h3 class="cup-match" id="${id}">${escape(left.name)} vs ${escape(right.name)}</h3><div class="cup-scoreboard">${team(left)}<div class="cup-aggregate"><span>합계</span><strong>${total[0]}<i>:</i>${total[1]}</strong><small>두 경기 결과</small></div>${team(right)}</div><dl class="cup-leg-results">${facts}<div><dt>${nextStage} 진출</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(tie.deck)}</p></section>`;
+  const legFacts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' ? '4강 ' : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
+  const facts = playoff ? `${legFacts}<div class="cup-replay"><dt>재경기</dt><dd>${playoff[0]} : ${playoff[1]}</dd></div>` : legFacts;
+  const aggregateNote = playoff ? '재경기로 결정' : '두 경기 결과';
+  return `<section class="cup-tie" aria-labelledby="${id}" data-tie="${collection}:${id}"><p class="cup-tie-stage">${escape(data.season)} 유러피언컵 · ${escape(tie.stage)}</p><h3 class="cup-match" id="${id}">${escape(left.name)} vs ${escape(right.name)}</h3><div class="cup-scoreboard">${team(left)}<div class="cup-aggregate"><span>합계</span><strong>${total[0]}<i>:</i>${total[1]}</strong><small>${aggregateNote}</small></div>${team(right)}</div><dl class="cup-leg-results${playoff ? ' cup-leg-results--replay' : ''}">${facts}<div class="cup-advance"><dt>${nextStage} 진출</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(tie.deck)}</p></section>`;
 }
 
 export function renderEuropeanCupMilestone(season, stage) {
@@ -103,7 +113,7 @@ export function renderEuropeanCupMilestone(season, stage) {
 
 // Build-time expansion only: no client script, remote fetch or runtime dependency.
 export function expandFootballTies(html) {
-  const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|round-of-16|quarter-finals|semi-finals|final|champions|runners-up)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
+  const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|preliminary-round|round-of-16|quarter-finals|semi-finals|final|champions|runners-up)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
   const expanded = milestones.replace(/<div data-football-tie="([a-z0-9-]+):(match-\d+)"><\/div>/g, (_, collection, id) => renderTie(collection, id));
   if (expanded.includes('data-football-tie=') || expanded.includes('data-european-cup-milestone=')) throw new Error('Malformed football archive placeholder');
   return expanded;
