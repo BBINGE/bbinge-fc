@@ -23,7 +23,7 @@
       "deck": "두 시즌 연속 출전한 오르후스를 니스가 두 번째 경기에서 넘었다."
     },
     "match-6": {
-      "left": "porto", "right": "atletico-bilbao", "legs": [[1,2],[2,3]], "stage": "예선",
+      "left": "porto", "right": "athletic-club", "legs": [[1,2],[2,3]], "stage": "예선",
       "deck": "두 경기 모두 한 골 차. 빌바오의 2차전에서는 아르테체가 세 골을 넣었다."
     },
     "match-7": {
@@ -55,11 +55,11 @@
       "deck": "네덜란드 챔피언의 안방에서 먼저 네 골을 넣은 츠르베나 즈베즈다."
     },
     "match-14": {
-      "left": "atletico-bilbao", "right": "honved", "legs": [[3,2],[3,3]], "stage": "16강",
+      "left": "athletic-club", "right": "honved", "legs": [[3,2],[3,3]], "stage": "16강",
       "deck": "빌바오에서 시작해 브뤼셀에서 끝났다. 혼베드는 부다페스트로 돌아가지 않았다."
     },
     "match-15": {
-      "left": "atletico-bilbao", "right": "manchester-united", "legs": [[5,3],[0,3]], "stage": "8강",
+      "left": "athletic-club", "right": "manchester-united", "legs": [[5,3],[0,3]], "stage": "8강",
       "deck": "눈 내린 산 마메스의 5-3을 메인 로드의 3-0이 뒤집었다."
     },
     "match-16": {

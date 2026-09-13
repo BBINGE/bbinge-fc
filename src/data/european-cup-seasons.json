@@ -63,7 +63,7 @@
         { "club": "porto", "background": "1955-56 시즌 리그 우승" },
         { "club": "dinamo-bucuresti", "background": "1955년 리그 우승" },
         { "club": "rangers", "background": "1955-56 시즌 리그 우승" },
-        { "club": "atletico-bilbao", "background": "1955-56 시즌 라리가 우승" },
+        { "club": "athletic-club", "background": "1955-56 시즌 라리가 우승" },
         { "club": "real-madrid", "background": "1955-56 시즌 유러피언컵 우승" },
         { "club": "norrkoping", "background": "1955-56 시즌 알스벤스칸 우승" },
         { "club": "grasshopper", "background": "1955-56 시즌 리그 우승" },
@@ -78,7 +78,7 @@
           "slovan-bratislava", "cwks-warszawa",
           "anderlecht", "manchester-united",
           "aarhus", "nice",
-          "porto", "atletico-bilbao"
+          "porto", "athletic-club"
         ],
         "round-of-16": [
           "manchester-united", "borussia-dortmund",
@@ -88,10 +88,10 @@
           "real-madrid", "rapid",
           "fiorentina", "norrkoping",
           "rapid-jc", "crvena-zvezda",
-          "atletico-bilbao", "honved"
+          "athletic-club", "honved"
         ],
         "quarter-finals": [
-          "atletico-bilbao", "manchester-united",
+          "athletic-club", "manchester-united",
           "fiorentina", "grasshopper",
           "real-madrid", "nice",
           "crvena-zvezda", "cdna-sofia"

@@ -53,11 +53,12 @@ try {
     assert(data.figures.every(Boolean) && data.figures.length === 6, `figures at ${width}: ${data.figures}`);
     assert.equal(data.flags, 36);
     assert.equal(data.slots, 36);
+    assert.equal(data.crests, 31);
     assert(data.uniformSlots);
     assert.equal(data.replayOverlap, false);
     assert.equal(data.headings, 18);
     assert.equal(data.smallText, 0);
-    for (const number of [1, 9, 11, 14, 15]) {
+    for (const number of [1, 2, 3, 4, 6, 8, 9, 10, 13, 14, 15]) {
       await page.locator(`.cup-tie[data-tie$=":match-${number}"]`).screenshot({ path: `${out}/card-${width}-${number}.png` });
     }
     const details = page.locator('.cup-record-table');

@@ -75,7 +75,7 @@ for (const [id, total, winner] of [['match-1','3<i>:</i>0','스타드 드 랭스
 }
 // 1956-57: 예선 신설, 재경기 세 번, 두 번째 시즌 누적 횟수.
 const expected5657 = [[5,5],[4,3],[4,2],[0,12],[2,6],[3,5],[3,2],[10,4],[3,3],[1,2],[5,5],[2,1],[3,6],[6,5],[5,6],[5,3],[6,2],[4,3]];
-const winners5657 = ['보루시아 도르트문트','FC 디나모 부쿠레슈티','슬로반 ÚNV 브라티슬라바','맨체스터 유나이티드 FC','OGC 니스','아틀레티코 데 빌바오','맨체스터 유나이티드 FC','CDNA 소피아','OGC 니스','그라스호퍼 클럽 취리히','레알 마드리드 CF','AC 피오렌티나','FK 츠르베나 즈베즈다','아틀레티코 데 빌바오','맨체스터 유나이티드 FC','AC 피오렌티나','레알 마드리드 CF','FK 츠르베나 즈베즈다'];
+const winners5657 = ['보루시아 도르트문트','FC 디나모 부쿠레슈티','슬로반 ÚNV 브라티슬라바','맨체스터 유나이티드 FC','OGC 니스','아틀레틱 클루브','맨체스터 유나이티드 FC','CDNA 소피아','OGC 니스','그라스호퍼 클럽 취리히','레알 마드리드 CF','AC 피오렌티나','FK 츠르베나 즈베즈다','아틀레틱 클루브','맨체스터 유나이티드 FC','AC 피오렌티나','레알 마드리드 CF','FK 츠르베나 즈베즈다'];
 const ties5657=JSON.parse(readFileSync(new URL('../src/data/cup-ties/1956-57-european-cup.json',import.meta.url),'utf8'));
 for (let i = 0; i < 18; i++) {
   const html = renderTie('1956-57-european-cup', `match-${i+1}`);
@@ -92,7 +92,14 @@ for (const [id, replay] of [['match-1','7 : 0'],['match-9','1 : 3'],['match-11',
 }
 assert.equal(Object.values(ties5657.ties).filter(tie => tie.playoff).length, 3);
 assert(!renderTie('1956-57-european-cup','match-2').includes('재경기'));
-assert(!resolveClub('rapid','1956-57').crest, '운영자 제공 라피트 문장은 1956-57로 자동 확장하지 않는다');
+assert(resolveClub('rapid','1956-57').crest.src.endsWith('rapid-supplied.jfif'), '라피트 제공 문장은 1919/1935-1968 도안 대조 뒤 1956-57 확장');
+assert(!resolveClub('aarhus','1956-57').crest, '오르후스 제공 문장은 1956-57 근거가 없어 확장하지 않는다');
+for (const id of ['grasshopper','norrkoping','spora']) assert(!resolveClub(id,'1956-57').crest, id + ' 1956-57 문장 미확정');
+assert.equal(resolveClub('athletic-club','1956-57').name, '아틀레틱 클루브');
+assert(resolveClub('athletic-club','1956-57').crest.src.endsWith('athletic-club-1941.webp'));
+assert(resolveClub('cwks-warszawa','1956-57').crest.src.endsWith('cwks-warszawa-1950.webp'));
+const crestSlots5657 = Array.from({length:18},(_,i)=>renderTie('1956-57-european-cup',`match-${i+1}`)).join('');
+assert.equal((crestSlots5657.match(/class="cup-club-crest"/g) ?? []).length, 31, '1956-57 대진 카드 로고 31칸');
 assert(resolveClub('real-madrid','1956-57').crest.src.endsWith('real-madrid-1941.svg'));
 assert.equal(resolveClub('cdna-sofia','1956-57').flag.src, '/images/flags/bg-1948.svg');
 assert.throws(() => resolveClub('cdna-sofia','1955-56'), /Unreviewed historical flag/);

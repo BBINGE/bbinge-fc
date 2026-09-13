@@ -6,7 +6,7 @@ index: 'european-cup'
 year: 1956
 subject: '1956-57 시즌 유러피언컵'
 originalTitle: '1956-57 European Champion Clubs’ Cup'
-keywords: ['1956-57 유러피언컵', '유러피언컵 예선', '맨체스터 유나이티드', '버스비의 아이들', '부더페슈트 혼베드', '에른스트 하펠', '레알 마드리드', '아틀레틱 빌바오', 'AC 피오렌티나', '츠르베나 즈베즈다', '레드 스타 베오그라드']
+keywords: ['1956-57 유러피언컵', '유러피언컵 예선', '맨체스터 유나이티드', '버스비의 아이들', '부더페슈트 혼베드', '에른스트 하펠', '레알 마드리드', '아틀레틱 클루브', '아틀레틱 빌바오', '아틀레티코 데 빌바오', 'AC 피오렌티나', '츠르베나 즈베즈다', '레드 스타 베오그라드']
 pubDate: 2026-09-14T04:40:00+09:00
 coverImage: '/images/archive/1956-57-european-cup/cover.png'
 coverImageAlt: '1956-57 시즌 유러피언컵의 원어 명칭과 대회 주관 협회 UEFA를 담은 삥이FC 디자인'
@@ -47,7 +47,7 @@ draft: false
 
 ## 참가팀 스물둘, 서로 다른 출발 자격
 
-<figure class="cup-design"><a href="/images/archive/1956-57-european-cup/participants.png" target="_blank" rel="noopener" aria-label="1956-57 유러피언컵 참가 구단과 참가 자격 크게 보기"><img src="/images/archive/1956-57-european-cup/participants.png" width="966" height="1766" alt="1956-57 유러피언컵 참가 22개 구단의 국가와 참가 자격" loading="lazy" /></a><figcaption>참가 구단 기록. 이미지의 로다 JC 케르크라더는 당시 구단명 라피트 JC, ACF 피오렌티나는 당시 구단명 AC 피오렌티나, 아틀레틱 클루브는 1941-1972년 명칭 아틀레티코 데 빌바오로 읽는다. 혼베드의 자격은 1955년 리그 우승이며 1956년 헝가리 리그는 혁명으로 끝나지 못해 우승팀이 없다. CDNA와 CWKS도 초청 당시 확정된 1955년 리그 우승 자격이고, 오르후스의 리그는 당시 덴마크 1부 리그다.</figcaption></figure>
+<figure class="cup-design"><a href="/images/archive/1956-57-european-cup/participants.png" target="_blank" rel="noopener" aria-label="1956-57 유러피언컵 참가 구단과 참가 자격 크게 보기"><img src="/images/archive/1956-57-european-cup/participants.png" width="966" height="1766" alt="1956-57 유러피언컵 참가 22개 구단의 국가와 참가 자격" loading="lazy" /></a><figcaption>참가 구단 기록. 이미지의 로다 JC 케르크라더는 당시 구단명 라피트 JC, ACF 피오렌티나는 당시 구단명 AC 피오렌티나. 혼베드의 자격은 1955년 리그 우승이며 1956년 헝가리 리그는 혁명으로 끝나지 못해 우승팀이 없다. CDNA와 CWKS도 초청 당시 확정된 1955년 리그 우승 자격이고, 오르후스의 리그는 당시 덴마크 1부 리그다.</figcaption></figure>
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>참가 22개 구단</strong><span>구단과 출전 횟수·참가 자격 비교하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
@@ -59,11 +59,11 @@ draft: false
 
 나라마다 시즌을 세는 방식도 달랐다. 서유럽의 여러 리그가 가을에 시작해 봄에 끝나는 동안 헝가리, 폴란드, 불가리아, 체코슬로바키아, 루마니아는 한 해 단위로 리그를 치렀다. 이 나라들의 참가 자격은 대회가 열리던 1956년이 아니라 초청 무렵 이미 끝나 있던 1955년 성적으로 읽어야 한다. 헝가리의 1956년 리그는 10월 혁명으로 일정을 마치지 못해 끝내 우승팀을 가리지 않았다. 부더페슈트 혼베드 SE<span class="foreign-note" lang="hu">(Budapesti Honvéd Sportegyesület)</span>는 1955년 챔피언 자격으로 이 대회에 나섰다. <a class="cite" href="#source-8" aria-label="출처 8">[8]</a>, <a class="cite" href="#source-24" aria-label="출처 24">[24]</a>
 
-구단 이름에도 시대가 묻어 있다. CDNA 소피아<span class="foreign-note" lang="bg">(ЦДНА; Централен дом на народната армия, 인민군 중앙회관 구단, 현 PFC CSKA 소피아)</span>와 CWKS 바르샤바<span class="foreign-note" lang="pl">(Centralny Wojskowy Klub Sportowy; 중앙 군 스포츠 클럽, 현 레기아 바르샤바)</span>는 군과 연결된 이름을 달았고, 혼베드도 헝가리 국방군 구단이었다. 슬로반 ÚNV 브라티슬라바<span class="foreign-note" lang="sk">(Slovan ÚNV Bratislava; 현 ŠK 슬로반 브라티슬라바)</span>는 1950년대 중반의 국가 기관 명칭을 이름에 붙이고 있었다. 네덜란드 챔피언 라피트 JC<span class="foreign-note" lang="nl">(Rapid JC; 1962년 합병으로 로다 JC의 전신이 된 구단)</span>, 스페인 챔피언 아틀레티코 데 빌바오<span class="foreign-note" lang="es">(Atlético de Bilbao; 1941년 프랑코 정권의 외국어 명칭 금지로 바뀐 이름, 1972년 Athletic Club으로 복귀)</span>, 이탈리아 챔피언 AC 피오렌티나<span class="foreign-note" lang="it">(Associazione Calcio Fiorentina)</span>도 오늘날 익숙한 이름과 다르다. <a class="cite" href="#source-10" aria-label="출처 10">[10]</a>, <a class="cite" href="#source-11" aria-label="출처 11">[11]</a>, <a class="cite" href="#source-12" aria-label="출처 12">[12]</a>, <a class="cite" href="#source-19" aria-label="출처 19">[19]</a>
+구단 이름에도 시대가 묻어 있다. CDNA 소피아<span class="foreign-note" lang="bg">(ЦДНА; Централен дом на народната армия, 인민군 중앙회관 구단, 현 PFC CSKA 소피아)</span>와 CWKS 바르샤바<span class="foreign-note" lang="pl">(Centralny Wojskowy Klub Sportowy; 중앙 군 스포츠 클럽, 현 레기아 바르샤바)</span>는 군과 연결된 이름을 달았고, 혼베드도 헝가리 국방군 구단이었다. 슬로반 ÚNV 브라티슬라바<span class="foreign-note" lang="sk">(Slovan ÚNV Bratislava; 현 ŠK 슬로반 브라티슬라바)</span>는 1950년대 중반의 국가 기관 명칭을 이름에 붙이고 있었다. 네덜란드 챔피언 라피트 JC<span class="foreign-note" lang="nl">(Rapid JC; 1962년 합병으로 로다 JC의 전신이 된 구단)</span>와 이탈리아 챔피언 AC 피오렌티나<span class="foreign-note" lang="it">(Associazione Calcio Fiorentina)</span>도 오늘날 익숙한 이름과 다르다. 스페인 챔피언 아틀레틱 클루브<span class="foreign-note" lang="es">(Athletic Club; 1941년 프랑코 정권이 외국어 구단명을 금지하면서 Atlético de Bilbao, 곧 아틀레티코 데 빌바오라는 이름을 썼고 1972년 원래 이름을 되찾았다)</span> 역시 이 대회에는 스페인어 이름으로 나섰다. <a class="cite" href="#source-10" aria-label="출처 10">[10]</a>, <a class="cite" href="#source-11" aria-label="출처 11">[11]</a>, <a class="cite" href="#source-12" aria-label="출처 12">[12]</a>, <a class="cite" href="#source-19" aria-label="출처 19">[19]</a>
 
 ## 예선
 
-<figure class="cup-design"><a href="/images/archive/1956-57-european-cup/preliminary-round.png" target="_blank" rel="noopener" aria-label="1956-57 유러피언컵 예선 대진과 결과 크게 보기"><img src="/images/archive/1956-57-european-cup/preliminary-round.png" width="966" height="864" alt="1956-57 유러피언컵 예선 6개 대진과 결과" loading="lazy" /></a><figcaption>예선 대진과 결과. 점수는 왼쪽 구단 기준이며, 도르트문트와 스포라는 재경기로 진출팀을 가렸다. 이미지의 아틀레틱 클루브는 당시 아틀레티코 데 빌바오다.</figcaption></figure>
+<figure class="cup-design"><a href="/images/archive/1956-57-european-cup/preliminary-round.png" target="_blank" rel="noopener" aria-label="1956-57 유러피언컵 예선 대진과 결과 크게 보기"><img src="/images/archive/1956-57-european-cup/preliminary-round.png" width="966" height="864" alt="1956-57 유러피언컵 예선 6개 대진과 결과" loading="lazy" /></a><figcaption>예선 대진과 결과. 점수는 왼쪽 구단 기준이며, 도르트문트와 스포라는 재경기로 진출팀을 가렸다.</figcaption></figure>
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>예선 6개 대진</strong><span>1·2차전과 재경기, 합계 스코어 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
@@ -76,7 +76,7 @@ draft: false
 | <img class="cup-flag" src="/images/flags/cs-first-republic.svg" width="28" height="20" alt="체코슬로바키아 국기" loading="lazy" /> 슬로반 ÚNV 브라티슬라바 vs <img class="cup-flag" src="/images/flags/pl.svg" width="28" height="20" alt="폴란드 국기" loading="lazy" /> CWKS 바르샤바 | 4-0 | 0-2 |  | 4-2 | 슬로반 ÚNV 브라티슬라바 |
 | <img class="cup-flag" src="/images/flags/be.svg" width="28" height="20" alt="벨기에 국기" loading="lazy" /> RSC 안데를레흐트 vs <img class="cup-flag" src="/images/flags/gb-eng.svg" width="28" height="20" alt="잉글랜드 국기" loading="lazy" /> 맨체스터 유나이티드 FC | 0-2 | 0-10 |  | 0-12 | 맨체스터 유나이티드 FC |
 | <img class="cup-flag" src="/images/flags/dk.svg" width="28" height="20" alt="덴마크 국기" loading="lazy" /> 오르후스 GF vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> OGC 니스 | 1-1 | 1-5 |  | 2-6 | OGC 니스 |
-| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> FC 포르투 vs <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레티코 데 빌바오 | 1-2 | 2-3 |  | 3-5 | 아틀레티코 데 빌바오 |
+| <img class="cup-flag" src="/images/flags/pt.svg" width="28" height="20" alt="포르투갈 국기" loading="lazy" /> FC 포르투 vs <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레틱 클루브 | 1-2 | 2-3 |  | 3-5 | 아틀레틱 클루브 |
 
 </div>
 
@@ -110,7 +110,7 @@ draft: false
 
 <div data-football-tie="1956-57-european-cup:match-6"></div>
 
-FC 포르투<span class="foreign-note" lang="pt">(Futebol Clube do Porto)</span>와 아틀레티코 데 빌바오의 이베리아 대결은 두 경기 모두 한 골 차였다. 포르투 원정에서 2-1로 이긴 빌바오는 9월 26일 산 마메스<span class="foreign-note" lang="es">(San Mamés)</span>에서 20분 만에 두 골을 내줬다. 경기를 되돌린 선수는 호세 루이스 아르테체<span class="foreign-note" lang="es">(José Luis Artetxe Muguire; 스페인 공격수, 1930-2016)</span>였다. 페널티킥을 포함해 혼자 세 골을 넣어 3-2 역전승을 만들었고, 포르투는 후반에 두 명이 퇴장당했다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>, <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+FC 포르투<span class="foreign-note" lang="pt">(Futebol Clube do Porto)</span>와 아틀레틱 클루브의 이베리아 대결은 두 경기 모두 한 골 차였다. 포르투 원정에서 2-1로 이긴 빌바오는 9월 26일 산 마메스<span class="foreign-note" lang="es">(San Mamés)</span>에서 20분 만에 두 골을 내줬다. 경기를 되돌린 선수는 호세 루이스 아르테체<span class="foreign-note" lang="es">(José Luis Artetxe Muguire; 스페인 공격수, 1930-2016)</span>였다. 페널티킥을 포함해 혼자 세 골을 넣어 3-2 역전승을 만들었고, 포르투는 후반에 두 명이 퇴장당했다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>, <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 ## 16강
 
@@ -135,7 +135,7 @@ FC 포르투<span class="foreign-note" lang="pt">(Futebol Clube do Porto)</span>
 | <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 CF vs <img class="cup-flag" src="/images/flags/at.svg" width="28" height="20" alt="오스트리아 국기" loading="lazy" /> SK 라피트 빈 | 4-2 | 1-3 | 2-0 | 5-5 | 레알 마드리드 CF |
 | <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 피오렌티나 vs <img class="cup-flag" src="/images/flags/se.svg" width="28" height="20" alt="스웨덴 국기" loading="lazy" /> IFK 노르셰핑 | 1-1 | 1-0 |  | 2-1 | AC 피오렌티나 |
 | <img class="cup-flag" src="/images/flags/nl.svg" width="28" height="20" alt="네덜란드 국기" loading="lazy" /> 라피트 JC vs <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 츠르베나 즈베즈다 | 3-4 | 0-2 |  | 3-6 | FK 츠르베나 즈베즈다 |
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레티코 데 빌바오 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 부더페슈트 혼베드 SE | 3-2 | 3-3 |  | 6-5 | 아틀레티코 데 빌바오 |
+| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레틱 클루브 vs <img class="cup-flag" src="/images/flags/hu.svg" width="28" height="20" alt="헝가리 국기" loading="lazy" /> 부더페슈트 혼베드 SE | 3-2 | 3-3 |  | 6-5 | 아틀레틱 클루브 |
 
 </div>
 
@@ -177,7 +177,7 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 
 <div data-football-tie="1956-57-european-cup:match-14"></div>
 
-아틀레티코 데 빌바오와 혼베드의 1차전은 11월 22일 빌바오에서 열렸다. 대진이 정해진 뒤 헝가리의 사정은 완전히 달라져 있었다. 10월 부다페스트의 반정부 시위가 혁명으로 번졌고, 소련군이 투입돼 진압했다. 대회를 위해 해외에 머물던 혼베드 선수들은 고국으로 돌아가지 않기로 했다. 그렇게 치른 산 마메스의 1차전은 빌바오의 3-2 승리였다. <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>, <a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
+아틀레틱 클루브와 혼베드의 1차전은 11월 22일 빌바오에서 열렸다. 대진이 정해진 뒤 헝가리의 사정은 완전히 달라져 있었다. 10월 부다페스트의 반정부 시위가 혁명으로 번졌고, 소련군이 투입돼 진압했다. 대회를 위해 해외에 머물던 혼베드 선수들은 고국으로 돌아가지 않기로 했다. 그렇게 치른 산 마메스의 1차전은 빌바오의 3-2 승리였다. <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>, <a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
 
 2차전은 12월 20일 브뤼셀의 헤이젤 스타디움<span class="foreign-note" lang="fr">(Stade du Heysel)</span>에서 열렸다. 혼베드는 경기 초반 골키퍼가 다쳤고, 선수 교체가 허용되지 않던 때라 공격수 치보르 졸탄<span class="foreign-note" lang="hu">(Czibor Zoltán; 헝가리 왼쪽 윙어, 1929-1997)</span>이 골문을 지켰다. 그 상태로도 코치시 샨도르<span class="foreign-note" lang="hu">(Kocsis Sándor Péter; 헝가리 공격수, 1929-1979)</span>와 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리 공격수, 1927-2006)</span>가 골을 넣어 3-3을 만들었지만, 합계는 6-5로 빌바오의 진출이었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>, <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>, <a class="cite" href="#source-17" aria-label="출처 17">[17]</a>
 
@@ -191,7 +191,7 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 
 </details>
 
-<figure class="cup-design"><a href="/images/archive/1956-57-european-cup/quarter-finals.png" target="_blank" rel="noopener" aria-label="1956-57 유러피언컵 8강 대진과 결과 크게 보기"><img src="/images/archive/1956-57-european-cup/quarter-finals.png" width="966" height="753" alt="1956-57 유러피언컵 8강 4개 대진과 결과" loading="lazy" /></a><figcaption>8강 대진과 결과. 맨체스터 유나이티드·피오렌티나·레알 마드리드·츠르베나 즈베즈다가 4강에 진출했다. 이미지의 아틀레틱 클루브는 당시 아틀레티코 데 빌바오, ACF 피오렌티나는 AC 피오렌티나다.</figcaption></figure>
+<figure class="cup-design"><a href="/images/archive/1956-57-european-cup/quarter-finals.png" target="_blank" rel="noopener" aria-label="1956-57 유러피언컵 8강 대진과 결과 크게 보기"><img src="/images/archive/1956-57-european-cup/quarter-finals.png" width="966" height="753" alt="1956-57 유러피언컵 8강 4개 대진과 결과" loading="lazy" /></a><figcaption>8강 대진과 결과. 맨체스터 유나이티드·피오렌티나·레알 마드리드·츠르베나 즈베즈다가 4강에 진출했다. 이미지의 ACF 피오렌티나는 당시 AC 피오렌티나다.</figcaption></figure>
 
 <details class="cup-record-table"><summary><span class="cup-table-copy"><strong>8강 4개 대진</strong><span>결과와 4강 진출팀 확인하기</span></span><span class="cup-table-action"><span class="when-closed">펼쳐 보기</span><span class="when-open">접기</span><span class="cup-toggle" aria-hidden="true">+</span></span></summary>
 
@@ -199,7 +199,7 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 
 | 대진 | 1차전 | 2차전 | 합계 | 진출 |
 |---|---:|---:|---:|---|
-| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레티코 데 빌바오 vs <img class="cup-flag" src="/images/flags/gb-eng.svg" width="28" height="20" alt="잉글랜드 국기" loading="lazy" /> 맨체스터 유나이티드 FC | 5-3 | 0-3 | 5-6 | 맨체스터 유나이티드 FC |
+| <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 아틀레틱 클루브 vs <img class="cup-flag" src="/images/flags/gb-eng.svg" width="28" height="20" alt="잉글랜드 국기" loading="lazy" /> 맨체스터 유나이티드 FC | 5-3 | 0-3 | 5-6 | 맨체스터 유나이티드 FC |
 | <img class="cup-flag" src="/images/flags/it.svg" width="28" height="20" alt="이탈리아 국기" loading="lazy" /> AC 피오렌티나 vs <img class="cup-flag" src="/images/flags/ch.svg" width="28" height="20" alt="스위스 국기" loading="lazy" /> 그라스호퍼 클럽 취리히 | 3-1 | 2-2 | 5-3 | AC 피오렌티나 |
 | <img class="cup-flag" src="/images/flags/es-1945.png" width="28" height="20" alt="스페인 1945-1977년 국기" loading="lazy" /> 레알 마드리드 CF vs <img class="cup-flag" src="/images/flags/fr.svg" width="28" height="20" alt="프랑스 국기" loading="lazy" /> OGC 니스 | 3-0 | 3-2 | 6-2 | 레알 마드리드 CF |
 | <img class="cup-flag" src="/images/flags/yu-1946.svg" width="28" height="20" alt="유고슬라비아 국기" loading="lazy" /> FK 츠르베나 즈베즈다 vs <img class="cup-flag" src="/images/flags/bg-1948.svg" width="28" height="20" alt="불가리아 1948-1967년 국기" loading="lazy" /> CDNA 소피아 | 3-1 | 1-2 | 4-3 | FK 츠르베나 즈베즈다 |
@@ -268,4 +268,4 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 </ol></div>
 
 
-<p class="cup-asset-credit">로고 자료: <a href="https://www.footylogos.com/">FootyLogos</a> · <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · 국기: Wikimedia Commons</p>
+<p class="cup-asset-credit">로고 자료: <a href="https://www.footylogos.com/">FootyLogos</a> · <a href="https://logos.fandom.com/">Logopedia</a> · <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Rangers_F.C.">영어 위키백과(레인저스)</a> · <a href="https://ro.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti">루마니아어 위키백과(디나모 부쿠레슈티)</a> · 국기: Wikimedia Commons</p>
