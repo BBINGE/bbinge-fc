@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T14:25:37.620Z",
+  "updatedAt": "2026-09-13T14:34:49.244Z",
   "matches": [
     {
       "id": "2489491",
@@ -163,9 +163,9 @@
       "away": "함부르크",
       "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
       "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/tvtppt1473453296.png",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "status": "1H",
+      "status": "HT",
       "progress": "",
       "time": "22:30",
       "date": "2026-09-13"
