@@ -19,6 +19,9 @@ interface MatchProfile {
   scenes: string;
   turningPoint: string;
   timeline: Array<{ time: string; label: string }>;
+  // 목록 상단 대표 경기 영역의 영문 헤드라인과 한 줄 카피. 새 H/L 발행 때마다 함께 쓴다.
+  kicker: string;
+  kickerSub: string;
 }
 
 const { entries, description } = Astro.props;
@@ -32,6 +35,8 @@ const introLead = description?.split(' H/L은')[0] ?? description;
 const profiles: Record<string, MatchProfile> = {
   '1955-56-european-cup-final-real-madrid-stade-de-reims': {
     year: '1956',
+    kicker: 'THE FIRST EUROPEAN CROWN',
+    kickerSub: '0-2에서 시작된 첫 유럽 챔피언',
     stage: 'EUROPEAN CUP · FINAL',
     home: '레알 마드리드 CF',
     away: '스타드 드 랭스',
@@ -51,6 +56,8 @@ const profiles: Record<string, MatchProfile> = {
   },
   '1954-fifa-world-cup-final-west-germany-hungary': {
     year: '1954',
+    kicker: 'THE MIRACLE OF BERN',
+    kickerSub: '32경기 무패가 멈춘 90분',
     stage: 'FIFA WORLD CUP · FINAL',
     home: '서독',
     away: '헝가리',
@@ -70,6 +77,8 @@ const profiles: Record<string, MatchProfile> = {
   },
   '1950-fifa-world-cup-final-uruguay-brazil': {
     year: '1950',
+    kicker: 'THE MATCH THAT STOPPED A STADIUM',
+    kickerSub: '결과표 한 줄이 만들어진 시간',
     stage: 'FIFA WORLD CUP · FINAL ROUND',
     home: '우루과이',
     away: '브라질',
@@ -89,6 +98,8 @@ const profiles: Record<string, MatchProfile> = {
   },
   '1938-fifa-world-cup-final-italy-hungary': {
     year: '1938',
+    kicker: 'BACK-TO-BACK IN PARIS',
+    kickerSub: '우승을 지켜 낸 이탈리아의 두 번째 결승',
     stage: 'FIFA WORLD CUP · FINAL',
     home: '이탈리아',
     away: '헝가리',
@@ -108,6 +119,8 @@ const profiles: Record<string, MatchProfile> = {
   },
   '1934-fifa-world-cup-final-italy-czechoslovakia': {
     year: '1934',
+    kicker: 'EXTRA TIME IN ROME',
+    kickerSub: '연장전이 완성한 개최국 이탈리아의 첫 우승',
     stage: 'FIFA WORLD CUP · FINAL',
     home: '이탈리아',
     away: '체코슬로바키아',
@@ -127,6 +140,8 @@ const profiles: Record<string, MatchProfile> = {
   },
   '1930-fifa-world-cup-final-uruguay-argentina': {
     year: '1930',
+    kicker: 'THE FIRST WORLD CHAMPION',
+    kickerSub: '초대 월드컵의 마지막 90분',
     stage: 'FIFA WORLD CUP · FINAL',
     home: '우루과이',
     away: '아르헨티나',
@@ -148,6 +163,8 @@ const profiles: Record<string, MatchProfile> = {
 
 const fallbackProfile: MatchProfile = {
   year: 'ARCHIVE',
+  kicker: 'LATEST MATCH FILE',
+  kickerSub: '가장 최근에 복원한 경기',
   stage: 'MATCH RECORD',
   home: '기록',
   away: '경기',
@@ -160,7 +177,8 @@ const fallbackProfile: MatchProfile = {
   timeline: [],
 };
 
-const signature = entries.find((entry) => entry.id === '1950-fifa-world-cup-final-uruguay-brazil') ?? entries[0];
+// 운영자 확정(2026-09-14): 대표 경기는 고정하지 않고 가장 최근에 발행한 H/L이 자동으로 올라온다.
+const signature = [...entries].sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
 const archive = entries.filter((entry) => entry.id !== signature?.id);
 const signatureProfile = signature ? (profiles[signature.id] ?? fallbackProfile) : undefined;
 ---
@@ -188,8 +206,8 @@ const signatureProfile = signature ? (profiles[signature.id] ?? fallbackProfile)
   {signature && signatureProfile ? (
     <section class="signature" aria-labelledby="highlight-signature-title">
       <div class="section-heading">
-        <p>THE MATCH THAT STOPPED A STADIUM</p>
-        <span>결과표 한 줄이 만들어진 시간</span>
+        <p>{signatureProfile.kicker}</p>
+        <span>{signatureProfile.kickerSub}</span>
       </div>
 
       <article class="signature-card">
