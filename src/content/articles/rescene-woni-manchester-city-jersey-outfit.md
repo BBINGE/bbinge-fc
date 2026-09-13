@@ -19,7 +19,7 @@ fashionProfile:
   name: '원이'
   romanName: 'WONI'
   realName: '정원이'
-  hanjaName: '鄭沅乁'
+  hanjaName: '鄭沅이'
   portrait: '/images/culture/rescene-woni-mancity/profile.webp'
   portraitAlt: '분홍 가디건에 크림색 러플 칼라를 맞춰 입고 정면을 바라보는 리센느 원이'
   portraitCredit: 'Photo: WACKY WILLY 26FW 캠페인, via 패션비즈'
