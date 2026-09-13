@@ -61,7 +61,7 @@ const awardCountBaselines = new Map([
   ['giacinto-facchetti.md', 12],
   ['mazinho.md', 4], // 2026-09-09 운영자 승인: 1994 파울리스타 베스트 11 추가.
   ['dennis-bergkamp.md', 23], // 2026-09-13 운영자 네이버 원고 22개 항목 유지(표기·순위 교정) + 운영자 승인 FWA 공로상 2025 추가.
-  ['lothar-matthaus.md', 38], // 2026-09-13 운영자 네이버 원고 40개 중 은월계수장은 국가 수훈 블록으로 분리, 확인 불가한 IFFHS 유럽 역대 드림팀 2021 제외.
+  ['lothar-matthaus.md', 46], // 2026-09-13 운영자 네이버 원고 40개 중 은월계수장은 국가 수훈 블록으로 분리, 확인 불가한 IFFHS 유럽 역대 드림팀 2021 제외(38) + 운영자 승인 추가 8개(UEPS 1990, IFFHS 20세기 투표, World Soccer 100인, 명예 주장, 오펠상, DFL 공로상, 스포츠기자상, 바이에른주 홍보대사).
 ]);
 const selfExplanatoryAward = /(?:^발롱도르$|득점왕$|도움왕$|명예의 전당 헌액$|명예 회장$)/;
 const overExplainedAwardPhrases = [
