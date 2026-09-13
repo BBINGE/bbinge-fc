@@ -7,7 +7,7 @@ tags: ['리센느', '리센느 원이', '원이', '맨시티 유니폼 코디', 
 pubDate: 2026-09-12T21:30:00+09:00
 updatedDate: 2026-09-12T21:30:00+09:00
 coverImage: '/images/culture/rescene-woni-mancity/cover.webp'
-cardImage: '/images/culture/rescene-woni-mancity/card.webp'
+cardImage: '/images/culture/rescene-woni-mancity/card-face.webp'
 coverImageAlt: '맨체스터 시티 홈 유니폼을 입은 리센느 다섯 명과 맨체스터 시티 선수 네 명이 나란히 선 모습'
 coverImageCaption: '리센느와 맨체스터 시티 선수들이 공을 들고 나란히 섰다. 가운데 다섯 명이 입은 하늘색 셔츠가 이 글의 출발점이다. Photo: 쿠팡플레이, via 뉴스1'
 coverImageWidth: 1600
