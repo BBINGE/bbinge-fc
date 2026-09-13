@@ -3,6 +3,8 @@ import Layout from '../../../../layouts/Layout.astro';
 import ShareButtons from '../../../../components/ShareButtons.astro';
 import ContentCover from '../../../../components/ContentCover.astro';
 import RelatedAssets from '../../../../components/RelatedAssets.astro';
+import SeasonReadingRoute from '../../../../components/SeasonReadingRoute.astro';
+import { getReadingRoute } from '../../../../data/reading-routes';
 import ArticleByline from '../../../../components/ArticleByline.astro';
 import ArticleProvenance from '../../../../components/ArticleProvenance.astro';
 import '../../../../styles/european-cup-record.css';
@@ -51,7 +53,8 @@ const chronologyStart = Math.min(
 const relatedRecords = indexRecords
   .slice(chronologyStart, chronologyStart + chronologyWindowSize)
   .filter((record) => record.id !== entry.id);
-const relatedAssets = entry.data.relatedGroup
+const hasReadingRoute = Boolean(getReadingRoute(entry.id));
+const relatedAssets = entry.data.relatedGroup && !hasReadingRoute
   ? (await getCollection('articles', ({ data }) => !data.draft && data.relatedGroup === entry.data.relatedGroup))
       .map((record) => ({
         href: getArticlePath(record.data.category, record.id),
@@ -109,6 +112,7 @@ const relatedAssets = entry.data.relatedGroup
       </nav>
     )}
     <div class="archive-body">{hasAwardRecords ? <Fragment set:html={awardHtml} /> : hasFootballRecords ? <Fragment set:html={footballHtml} /> : <Content />}</div>
+    {hasReadingRoute && <SeasonReadingRoute currentId={entry.id} />}
     <ArticleProvenance priorPublication={entry.data.priorPublication} />
     <div class="archive-share">
       <ShareButtons
