@@ -599,6 +599,35 @@ const relatedAssets = entry.data.relatedGroup
   .archive-body :global(.record-facts-netherlands .profile-country-head strong), .archive-body :global(.record-facts-netherlands .profile-country-head small) { color: #fff; text-shadow: 0 1px 3px rgba(56,0,7,.42); }
   .archive-body :global(.record-facts-netherlands dl) { border-color: rgba(33,70,139,.2); background: linear-gradient(90deg, rgba(174,28,40,.055), rgba(33,70,139,.055)); }
   .archive-body :global(.record-facts-netherlands dt) { color: #21468b; font-weight: 800; }
+  /* Germany: same two-row grammar, black-red-gold tricolour and a dark DFB row. */
+  .archive-body :global(.legend-identity-germany) { display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, minmax(112px, 1fr)); align-items: stretch; gap: 0; min-height: 0; padding: 0; overflow: hidden; background: none; color: #fff; }
+  .archive-body :global(.legend-identity-germany section) { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; min-width: 0; padding: 20px 30px; }
+  .archive-body :global(.legend-identity-germany .identity-country) { background: linear-gradient(90deg, #111 0 68%, #dd0000 68% 84%, #ffce00 84% 100%); color: #fff; }
+  .archive-body :global(.legend-identity-germany .identity-team) { background: linear-gradient(90deg, #f4f4f2 0 72%, #e6e6e2 72% 100%); color: #111; }
+  .archive-body :global(.legend-identity-germany img) { width: 100px; height: 72px; border-radius: 0; object-fit: contain; box-shadow: none; }
+  .archive-body :global(.legend-identity-germany .identity-country img) { height: 60px; border: 1px solid rgba(255,255,255,.9); border-radius: 9px; object-fit: cover; }
+  .archive-body :global(.legend-identity-germany .identity-team img) { width: 76px; height: 76px; justify-self: center; }
+  .archive-body :global(.legend-identity-germany span) { color: inherit; font-size: 11px; }
+  .archive-body :global(.legend-identity-germany strong) { margin-top: 6px; color: inherit; font-size: 22px; }
+  .archive-body :global(.legend-identity-germany small) { color: inherit; font-size: 12px; line-height: 1.45; }
+  .archive-body :global(.record-facts-germany) { overflow: hidden; border: 1px solid #111; border-radius: 16px; background: #fff; }
+  .archive-body :global(.record-facts-germany .profile-country-head) { grid-template-columns: 112px minmax(0, 1fr) 90px; background: linear-gradient(128deg, #111 0 58%, #dd0000 58% 76%, #ffce00 76% 100%); }
+  .archive-body :global(.record-facts-germany .profile-country-head > img:first-child) { border: 2px solid rgba(255,255,255,.92); box-shadow: 0 4px 14px rgba(0,0,0,.25); }
+  .archive-body :global(.record-facts-germany .profile-country-head > img:last-child) { width: 70px; height: 70px; padding: 6px; border-radius: 50%; background: #fff; filter: drop-shadow(0 4px 9px rgba(0,0,0,.25)); }
+  .archive-body :global(.record-facts-germany .profile-country-head strong), .archive-body :global(.record-facts-germany .profile-country-head small) { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.45); }
+  .archive-body :global(.record-facts-germany dl) { border-color: rgba(17,17,17,.14); background: linear-gradient(90deg, rgba(17,17,17,.035), rgba(255,206,0,.08)); }
+  .archive-body :global(.record-facts-germany dt) { color: #b00000; font-weight: 800; }
+  @media (max-width: 600px) {
+    .archive-body :global(.legend-identity-germany) { grid-template-columns: 1fr; gap: 0; padding: 0; }
+    .archive-body :global(.legend-identity-germany section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
+    .archive-body :global(.legend-identity-germany img) { width: 62px; height: 46px; }
+    .archive-body :global(.legend-identity-germany .identity-country img) { height: 38px; }
+    .archive-body :global(.legend-identity-germany .identity-team img) { width: 48px; height: 48px; }
+    .archive-body :global(.legend-identity-germany strong) { margin-top: 4px; font-size: 19px; }
+    .archive-body :global(.legend-identity-germany small) { margin-top: 3px; font-size: 11px; }
+    .archive-body :global(.record-facts-germany .profile-country-head) { grid-template-columns: 72px minmax(0, 1fr) 50px; background: linear-gradient(128deg, #111 0 69%, #dd0000 69% 82%, #ffce00 82% 100%); }
+    .archive-body :global(.record-facts-germany .profile-country-head > img:last-child) { width: 44px; height: 44px; padding: 4px; }
+  }
   @media (max-width: 600px) {
     .archive-body :global(.legend-identity-netherlands) { grid-template-columns: 1fr; gap: 0; padding: 0; }
     .archive-body :global(.legend-identity-netherlands section) { grid-template-columns: 62px minmax(0, 1fr); gap: 14px; min-height: 92px; padding: 14px 16px; }
