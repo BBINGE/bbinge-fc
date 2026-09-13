@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-13T15:35:38.828Z",
+  "updatedAt": "2026-09-13T16:23:27.887Z",
   "matches": [
     {
       "id": "2489110",
@@ -448,14 +448,14 @@
           "rank": 1,
           "team": "바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-          "played": 4,
-          "wins": 4,
+          "played": 5,
+          "wins": 5,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 17,
-          "goalsAgainst": 2,
-          "goalDifference": 15,
-          "points": 12
+          "goalsFor": 21,
+          "goalsAgainst": 4,
+          "goalDifference": 17,
+          "points": 15
         },
         {
           "rank": 2,
@@ -604,13 +604,13 @@
           "rank": 13,
           "team": "레반테",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-          "played": 4,
+          "played": 5,
           "wins": 1,
           "draws": 2,
-          "losses": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
+          "losses": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 9,
+          "goalDifference": -2,
           "points": 5
         },
         {
