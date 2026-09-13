@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-13T17:57:55.579Z",
+  "updatedAt": "2026-09-13T18:39:42.461Z",
   "matches": [
     {
       "id": "2489110",
@@ -498,6 +498,19 @@
         },
         {
           "rank": 5,
+          "team": "데포르티보 라코루냐",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+          "played": 5,
+          "wins": 2,
+          "draws": 3,
+          "losses": 0,
+          "goalsFor": 9,
+          "goalsAgainst": 6,
+          "goalDifference": 3,
+          "points": 9
+        },
+        {
+          "rank": 6,
           "team": "레알 베티스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 4,
@@ -508,19 +521,6 @@
           "goalsAgainst": 5,
           "goalDifference": 0,
           "points": 9
-        },
-        {
-          "rank": 6,
-          "team": "데포르티보 라코루냐",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "played": 4,
-          "wins": 2,
-          "draws": 2,
-          "losses": 0,
-          "goalsFor": 8,
-          "goalsAgainst": 5,
-          "goalDifference": 3,
-          "points": 8
         },
         {
           "rank": 7,
@@ -615,6 +615,19 @@
         },
         {
           "rank": 14,
+          "team": "헤타페",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+          "played": 5,
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3,
+          "points": 5
+        },
+        {
+          "rank": 15,
           "team": "셀타 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 6,
@@ -623,19 +636,6 @@
           "losses": 2,
           "goalsFor": 3,
           "goalsAgainst": 6,
-          "goalDifference": -3,
-          "points": 4
-        },
-        {
-          "rank": 15,
-          "team": "헤타페",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-          "played": 4,
-          "wins": 1,
-          "draws": 1,
-          "losses": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
           "goalDifference": -3,
           "points": 4
         },
