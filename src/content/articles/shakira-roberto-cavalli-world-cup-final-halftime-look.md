@@ -18,10 +18,11 @@ fashionProfile:
   name: '샤키라'
   romanName: 'SHAKIRA'
   realName: 'Shakira Isabel Mebarak Ripoll'
-  portrait: '/images/culture/shakira-cavalli-world-cup/profile.webp'
-  portraitAlt: '크리스털이 박힌 분홍과 주황 보디수트를 입고 머리 위로 하트를 그리는 샤키라'
-  portraitCredit: 'Photo: Courtesy of Roberto Cavalli'
+  portrait: '/images/culture/shakira-cavalli-world-cup/profile-billboard.webp'
+  portraitAlt: '긴 웨이브 머리를 늘어뜨리고 분홍 레오퍼드 드레스 차림으로 금빛 소파에 기대 카메라를 바라보는 샤키라'
+  portraitCredit: 'Photo: Ruven Afanador for Billboard (2023)'
   birthDate: '1977-02-02'
+  birthPlace: '콜롬비아 바랑키야'
   nationalities:
     - name: '콜롬비아'
       flag: '/images/flags/co.svg'
@@ -29,8 +30,6 @@ fashionProfile:
   facts:
     - label: '활동명'
       value: 'Shakira'
-    - label: '출생'
-      value: '콜롬비아 바랑키야'
     - label: '직업'
       value: '가수·송라이터'
     - label: '월드컵'
@@ -141,6 +140,7 @@ fashionProfile:
     <li><a href="https://www.marieclairekorea.com/fashion/2026/07/swalovski-madonna-shakira/">마리끌레르 코리아, 「스와로브스키의 빛으로 완성한 마돈나와 샤키라의 월드컵 하프타임 쇼」</a>, 2026년 7월. 분홍·오렌지·시트린 크리스털 배치 확인.</li>
     <li><a href="https://robertocavalliblog.com/shakira-in-roberto-cavalli/">Roberto Cavalli Blog, 「Shakira in Roberto Cavalli」</a>, 2010년 7월 12일. 2010년 7월 11일 요하네스버그 폐막식 'Waka Waka' 의상의 튤 상의·실크 프린지 스커트·데님 벨트·가죽 팔찌 확인.</li>
     <li><a href="https://www.youtube.com/watch?v=dGR4XE5Fpho">Shakira 공식 YouTube, 「Shakira - FIFA World Cup 2026 Final Halftime Show (Behind the Scenes)」</a>. 본문 영상과 포스터.</li>
+    <li><a href="https://www.billboard.com/photos/shakira-photos-billboard-cover-shoot-1235416598/">Billboard, 「Shakira: Photos From the Billboard Cover Shoot」</a>, 2023년. 루벤 아파나도르 촬영 커버 화보, 인물 카드 사진.</li>
     <li><a href="https://www.instagram.com/shakira/">Shakira 공식 Instagram</a>. 공식 채널 확인.</li>
   </ol>
 </div>
