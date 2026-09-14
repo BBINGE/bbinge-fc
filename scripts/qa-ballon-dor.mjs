@@ -12,7 +12,7 @@ const data = readAwardEdition('1956-ballon-dor');
 const statLedger = JSON.parse(readFileSync('docs/editorial/1956-ballon-dor-stat-ledger.json', 'utf8'));
 const sumGames = games => [games.length, games.reduce((n, game) => n + game.goals, 0)];
 const statExpectations = [
-  {id:212779, season:[37,3], club:[34,4], national:[5,1], total:[39,5], values:['37경기 3골','36경기 3골','1경기 0골','34경기 4골','5경기 1골','39경기 5골']},
+  {id:212779, season:[37,3], club:[34,4], national:[5,1], total:[39,5], values:['37경기 3골','36경기 3골','1경기 0골','3도움','34경기 4골','5경기 1골','39경기 5골']},
   {id:135778, season:[37,29], club:[40,39], national:[0,0], total:[40,39], values:['37경기 29골','30경기 24골','7경기 5골','40경기 39골','0경기','40경기 39골','6경기 4골']},
   {id:170730, season:[42,9], club:[35,10], national:[1,0], total:[36,10], values:['42경기 9골','30경기 5골','5경기 4골','7경기 0골','22경기 6골','13경기 4골','35경기 10골','1경기 0골','36경기 10골']},
 ];
@@ -27,6 +27,7 @@ for (const expected of statExpectations) {
   assert.deepEqual(sumGames(annual), expected.total);
 }
 assert.deepEqual(sumGames(statLedger.crossChecks.kopaReims), [22,6]);
+assert.equal(statLedger.players.find(player => player.id === 212779).games.filter(game => game.season === 1955 && !game.national && game.competition === 'EFD1').reduce((n, game) => n + game.recordedAssists, 0), 3, 'Matthews 1955-56 league assists as registered');
 assert.equal(data.ranking.length, 24);
 assert.equal(data.ranking.reduce((sum, row) => sum + row.points, 0), 240);
 assert.throws(() => resolveHistoricalIdentity('blackpool', 2023));
