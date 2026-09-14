@@ -148,6 +148,12 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
   },
 ];
 
+// 홈 시즌 서가: 최신 시즌을 앞에 두고, 각 시즌의 읽기 동선을 한 줄 선반으로 보여 준다.
+export const seasonShelves = [
+  { id: 'european-cup-1956-57', kicker: 'EUROPEAN CUP 1956-57', title: '두 번째 유러피언컵을 여섯 개의 기록으로 읽기', stories: europeanCup1956Stories },
+  { id: 'european-cup-1955-56', kicker: 'EUROPEAN CUP 1955-56', title: '첫 유러피언컵을 여섯 개의 기록으로 읽기', stories: europeanCup1955Stories },
+] as const;
+
 const byId = (id: string) => europeanCup1955Stories.find((story) => story.id === id)!;
 const byId1956 = (id: string) => europeanCup1956Stories.find((story) => story.id === id)!;
 
