@@ -1,0 +1,309 @@
+---
+// 「오늘 밤 해축」 현황판. 운영자 승인 예외(2026-09-14): 경기 결과·순위 전용 편의 페이지로 두되
+// 검색 색인(noindex)·사이트맵·광고·층 배치에서 모두 제외한다. 데이터는 scripts/fetch-haechuk.mjs가 갱신한다.
+import Layout from '../../layouts/Layout.astro';
+import haechuk from '../../data/haechuk.json';
+
+type Row = { rank: number; team: string; badge: string; played: number; wins: number; draws: number; losses: number; goalsFor: number; goalsAgainst: number; goalDifference: number; points: number; zone: string; zoneLabel: string };
+type Match = { id: string; date: string; time: string; state: string; detail: string; home: string; away: string; homeBadge: string; awayBadge: string; homeScore: number | null; awayScore: number | null };
+type Leader = { id: string; ko: string; original: string; age: number | null; position: string; team: string; value: number; appearances: number };
+type Comp = { id: string; label: string; kind: string; season: string; standings: Row[]; matches: Match[]; goals: Leader[]; assists: Leader[] };
+
+const TABS: Record<string, { slug: string; short: string }> = {
+  'eng.1': { slug: 'premier-league', short: '프리미어 리그' },
+  'esp.1': { slug: 'laliga', short: '라리가' },
+  'ita.1': { slug: 'serie-a', short: '세리에 A' },
+  'ger.1': { slug: 'bundesliga', short: '분데스리가' },
+  'fra.1': { slug: 'ligue-1', short: '리그 1' },
+  'uefa.champions': { slug: 'champions-league', short: '챔피언스 리그' },
+  'uefa.europa': { slug: 'europa-league', short: '유로파 리그' },
+  'uefa.europa.conf': { slug: 'conference-league', short: '컨퍼런스 리그' },
+};
+const DAY_LABELS = [['yesterday', '어제'], ['today', '오늘'], ['tomorrow', '내일']] as const;
+const VISIBLE = 10;
+
+const competitions = (haechuk.competitions as Comp[]).filter((comp) => TABS[comp.id]);
+const days = haechuk.days as Record<string, string>;
+const updatedAt = new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(haechuk.updatedAt));
+const dayText = (iso: string) => `${Number(iso.slice(5, 7))}.${Number(iso.slice(8, 10))}`;
+const tiedRanks = (rows: Leader[]) => rows.map((row, index) => rows.findIndex((other) => other.value === row.value) + 1 || index + 1);
+const matchStatus = (match: Match) => match.state === 'post' ? '종료' : match.state === 'in' ? (match.detail || 'LIVE') : match.time;
+const defaultDay = (comp: Comp) => comp.matches.some((m) => m.date === days.today) ? 'today' : comp.matches.some((m) => m.date === days.tomorrow) ? 'tomorrow' : comp.matches.some((m) => m.date === days.yesterday) ? 'yesterday' : 'today';
+const zonesOf = (rows: Row[]) => [...new Map(rows.filter((r) => r.zoneLabel && r.zone !== 'out').map((r) => [r.zone, r.zoneLabel])).entries()];
+const seasonText = (season: string) => (season.match(/\d{4}-\d{2}/)?.[0] ?? '').replace('-', '-');
+---
+
+<Layout
+  title="오늘 밤 해축: 5대 리그·UEFA 대회 순위와 경기, 득점·도움 순위"
+  description="프리미어 리그, 라리가, 세리에 A, 분데스리가, 리그 1과 UEFA 챔피언스·유로파·컨퍼런스 리그의 순위표, 어제·오늘·내일 경기, 득점·도움 순위를 한국시간으로 모았습니다."
+  robots="noindex,follow"
+  adsEligible={false}
+>
+  <div class="haechuk">
+    <header class="hc-head">
+      <p class="hc-eyebrow">BBINGE FC · 한국시간 · {updatedAt} 갱신</p>
+      <h1>오늘 밤 해축, 승자와 득점왕</h1>
+      <p class="hc-sub">5대 리그·챔스 순위와 어제·오늘·내일 경기</p>
+      <nav class="hc-tabs" aria-label="대회 선택">
+        {competitions.map((comp, index) => (
+          <button type="button" class:list={['hc-tab', comp.kind === 'uefa' && 'hc-tab--uefa', index === 0 && 'is-active']} data-tab={TABS[comp.id].slug} aria-selected={index === 0 ? 'true' : 'false'}>{TABS[comp.id].short}</button>
+        ))}
+      </nav>
+    </header>
+
+    {competitions.map((comp, index) => {
+      const slug = TABS[comp.id].slug;
+      const initialDay = defaultDay(comp);
+      const zones = zonesOf(comp.standings);
+      return (
+        <section class="hc-panel" id={slug} data-panel={slug} hidden={index !== 0} aria-label={`${comp.label} 현황`}>
+          <div class="hc-panel__title">
+            <h2>{comp.label}</h2>
+            {comp.season && <span>{seasonText(comp.season)} 시즌</span>}
+          </div>
+
+          <div class="hc-grid">
+            <div class="hc-col">
+            <section class="hc-card hc-matches" aria-label={`${comp.label} 경기`} data-days>
+              <div class="hc-card__head">
+                <h3>경기</h3>
+                <div class="hc-days" role="group" aria-label="날짜 선택">
+                  {DAY_LABELS.map(([key, label]) => (
+                    <button type="button" class:list={['hc-day', key === initialDay && 'is-active']} data-day={key} aria-pressed={key === initialDay ? 'true' : 'false'}>{label} <small>{dayText(days[key])}</small></button>
+                  ))}
+                </div>
+              </div>
+              {DAY_LABELS.map(([key]) => {
+                const list = comp.matches.filter((m) => m.date === days[key]);
+                return (
+                  <div class="hc-daylist" data-daylist={key} hidden={key !== initialDay}>
+                    {list.length ? list.map((match) => (
+                      <article class:list={['hc-match', `hc-match--${match.state}`]}>
+                        <time>{matchStatus(match)}</time>
+                        <strong class="hc-match__home">{match.home}</strong>
+                        {match.homeBadge ? <img src={match.homeBadge} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i></i>}
+                        <b>{match.homeScore === null ? 'VS' : `${match.homeScore} : ${match.awayScore}`}</b>
+                        {match.awayBadge ? <img src={match.awayBadge} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i></i>}
+                        <strong class="hc-match__away">{match.away}</strong>
+                      </article>
+                    )) : <p class="hc-empty">이날 {TABS[comp.id].short} 경기가 없습니다.</p>}
+                  </div>
+                );
+              })}
+            </section>
+            {([['goals', '득점 순위', '골']] as const).map(([key, title, unit]) => {
+              const rows = comp[key];
+              const ranks = tiedRanks(rows);
+              return (
+                <section class:list={['hc-card', 'hc-leaders', `hc-leaders--${key}`]} aria-label={`${comp.label} ${title}`} data-more-wrap>
+                  <div class="hc-card__head"><h3>{title}</h3><span>{unit}</span></div>
+                  {rows.length ? (
+                    <>
+                      <ol>
+                        {rows.map((row, i) => (
+                          <li class:list={[i >= VISIBLE && 'is-extra']}>
+                            <b>{ranks[i]}</b>
+                            <div>
+                              <strong>{row.ko || row.original}</strong>
+                              <small>{[row.original, row.age ? `${row.age}세` : '', row.position, row.team].filter(Boolean).join(' · ')}</small>
+                            </div>
+                            <em>{row.value}</em>
+                          </li>
+                        ))}
+                      </ol>
+                      {rows.length > VISIBLE && <button type="button" class="hc-more" data-more aria-expanded="false">{VISIBLE + 1}위부터 더보기 <span aria-hidden="true">⌄</span></button>}
+                    </>
+                  ) : <p class="hc-empty">아직 집계된 기록이 없습니다.</p>}
+                </section>
+              );
+            })}
+            </div>
+            <div class="hc-col">
+            <section class="hc-card hc-table" aria-label={`${comp.label} 순위표`} data-more-wrap>
+              <div class="hc-card__head"><h3>순위표</h3><span>{comp.standings.length}팀</span></div>
+              {comp.standings.length ? (
+                <>
+                  <div class="hc-scroll">
+                    <table>
+                      <thead><tr><th scope="col">순위</th><th scope="col" class="t">팀</th><th scope="col">경기</th><th scope="col">승</th><th scope="col">무</th><th scope="col">패</th><th scope="col">득점</th><th scope="col">실점</th><th scope="col">득실</th><th scope="col">승점</th></tr></thead>
+                      <tbody>
+                        {comp.standings.map((row, i) => (
+                          <tr class:list={[i >= VISIBLE && 'is-extra', row.zone && `z-${row.zone}`]}>
+                            <td class="r">{row.rank}</td>
+                            <th scope="row" class="t">{row.badge && <img src={row.badge} alt="" width="20" height="20" loading="lazy" decoding="async" />}<span>{row.team}</span></th>
+                            <td>{row.played}</td><td>{row.wins}</td><td>{row.draws}</td><td>{row.losses}</td><td>{row.goalsFor}</td><td>{row.goalsAgainst}</td>
+                            <td>{row.goalDifference > 0 ? `+${row.goalDifference}` : row.goalDifference}</td>
+                            <td class="p">{row.points}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  {comp.standings.length > VISIBLE && <button type="button" class="hc-more" data-more aria-expanded="false">{VISIBLE + 1}위부터 더보기 <span aria-hidden="true">⌄</span></button>}
+                  {zones.length > 0 && <ul class="hc-legend">{zones.map(([zone, label]) => <li class={`z-${zone}`}>{label}</li>)}</ul>}
+                </>
+              ) : <p class="hc-empty">순위표가 아직 없습니다.</p>}
+            </section>
+            {([['assists', '도움 순위', '도움']] as const).map(([key, title, unit]) => {
+              const rows = comp[key];
+              const ranks = tiedRanks(rows);
+              return (
+                <section class:list={['hc-card', 'hc-leaders', `hc-leaders--${key}`]} aria-label={`${comp.label} ${title}`} data-more-wrap>
+                  <div class="hc-card__head"><h3>{title}</h3><span>{unit}</span></div>
+                  {rows.length ? (
+                    <>
+                      <ol>
+                        {rows.map((row, i) => (
+                          <li class:list={[i >= VISIBLE && 'is-extra']}>
+                            <b>{ranks[i]}</b>
+                            <div>
+                              <strong>{row.ko || row.original}</strong>
+                              <small>{[row.original, row.age ? `${row.age}세` : '', row.position, row.team].filter(Boolean).join(' · ')}</small>
+                            </div>
+                            <em>{row.value}</em>
+                          </li>
+                        ))}
+                      </ol>
+                      {rows.length > VISIBLE && <button type="button" class="hc-more" data-more aria-expanded="false">{VISIBLE + 1}위부터 더보기 <span aria-hidden="true">⌄</span></button>}
+                    </>
+                  ) : <p class="hc-empty">아직 집계된 기록이 없습니다.</p>}
+                </section>
+              );
+            })}
+            </div>
+          </div>
+        </section>
+      );
+    })}
+
+    <footer class="hc-foot">
+      <p>월드컵·유로·아시안컵은 대회 기간에 이 현황판에 열립니다. <a href="/archive/national-team/fifa-world-cup/">지난 대회 기록 보기</a></p>
+      <p>데이터 제공 ESPN · 삥이FC 한국시간·한글명 편집 · 선수 나이는 오늘 기준</p>
+    </footer>
+  </div>
+</Layout>
+
+<script>
+  const root = document.querySelector('.haechuk');
+  if (root) {
+    const tabs = [...root.querySelectorAll<HTMLButtonElement>('.hc-tab')];
+    const panels = [...root.querySelectorAll<HTMLElement>('[data-panel]')];
+    const show = (slug: string, focus = false) => {
+      if (!panels.some((panel) => panel.dataset.panel === slug)) return;
+      tabs.forEach((tab) => { const on = tab.dataset.tab === slug; tab.classList.toggle('is-active', on); tab.setAttribute('aria-selected', String(on)); if (on && focus) tab.scrollIntoView({ block: 'nearest', inline: 'center' }); });
+      panels.forEach((panel) => { panel.hidden = panel.dataset.panel !== slug; });
+    };
+    tabs.forEach((tab) => tab.addEventListener('click', () => { show(tab.dataset.tab || ''); history.replaceState(null, '', `#${tab.dataset.tab}`); }));
+    const initial = decodeURIComponent(location.hash.slice(1));
+    if (initial) show(initial, true);
+    root.querySelectorAll<HTMLElement>('[data-days]').forEach((box) => {
+      const buttons = [...box.querySelectorAll<HTMLButtonElement>('[data-day]')];
+      const lists = [...box.querySelectorAll<HTMLElement>('[data-daylist]')];
+      buttons.forEach((button) => button.addEventListener('click', () => {
+        buttons.forEach((b) => { const on = b === button; b.classList.toggle('is-active', on); b.setAttribute('aria-pressed', String(on)); });
+        lists.forEach((list) => { list.hidden = list.dataset.daylist !== button.dataset.day; });
+      }));
+    });
+    root.querySelectorAll<HTMLButtonElement>('[data-more]').forEach((button) => button.addEventListener('click', () => {
+      const wrap = button.closest<HTMLElement>('[data-more-wrap]');
+      const open = !wrap?.classList.contains('is-open');
+      wrap?.classList.toggle('is-open', open);
+      button.setAttribute('aria-expanded', String(open));
+      button.firstChild!.textContent = open ? '접기 ' : '11위부터 더보기 ';
+    }));
+  }
+</script>
+
+<style>
+  .haechuk { max-width:1180px; margin:0 auto; padding:24px 16px 56px; font-family:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+  .hc-head { position:relative; overflow:hidden; padding:28px 28px 20px; border-radius:18px; background:radial-gradient(120% 140% at 100% 0%,#16335e 0%,#0d1f3c 45%,#0a1628 80%); color:#fff; }
+  .hc-eyebrow { margin:0; color:#5aa8ff; font-size:12px; font-weight:800; letter-spacing:.12em; }
+  .hc-head h1 { margin:10px 0 0; font-size:34px; line-height:1.15; font-weight:900; letter-spacing:-.035em; word-break:keep-all; }
+  .hc-sub { margin:8px 0 0; color:rgba(255,255,255,.76); font-size:14px; }
+  .hc-tabs { display:flex; gap:8px; margin:20px -28px 0; padding:0 28px 4px; overflow-x:auto; scrollbar-width:none; }
+  .hc-tabs::-webkit-scrollbar { display:none; }
+  .hc-tab { flex:0 0 auto; min-height:38px; padding:0 16px; border:1px solid rgba(255,255,255,.24); border-radius:999px; background:rgba(255,255,255,.04); color:#fff; cursor:pointer; font:inherit; font-size:14px; font-weight:700; white-space:nowrap; }
+  .hc-tab--uefa { border-color:rgba(90,168,255,.5); }
+  .hc-tab:hover { border-color:#86b7ff; }
+  .hc-tab.is-active { border-color:#2f6fe4; background:#2f6fe4; }
+  .hc-tab:focus-visible,.hc-day:focus-visible,.hc-more:focus-visible { outline:2px solid #86b7ff; outline-offset:3px; }
+  .hc-panel { margin-top:22px; }
+  .hc-panel__title { display:flex; align-items:baseline; gap:12px; margin:0 2px 12px; }
+  .hc-panel__title h2 { margin:0; color:var(--bbfc-ink); font-size:22px; font-weight:850; letter-spacing:-.02em; }
+  .hc-panel__title span { color:var(--bbfc-gray-2); font-size:13px; font-weight:700; }
+  .hc-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.35fr); gap:14px; align-items:start; }
+  .hc-col { display:flex; min-width:0; flex-direction:column; gap:14px; }
+  .hc-card { min-width:0; padding:18px 18px 16px; border-radius:16px; background:#0b1722; color:#fff; }
+  .hc-card__head { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
+  .hc-card__head h3 { margin:0; font-size:16px; font-weight:800; }
+  .hc-card__head > span { color:rgba(255,255,255,.55); font-size:12px; }
+  .hc-days { display:flex; gap:4px; }
+  .hc-day { min-height:32px; padding:0 10px; border:1px solid rgba(255,255,255,.2); border-radius:999px; background:transparent; color:#fff; cursor:pointer; font:inherit; font-size:13px; font-weight:700; }
+  .hc-day small { color:rgba(255,255,255,.55); font-size:11px; font-weight:600; }
+  .hc-day.is-active { border-color:#2f6fe4; background:#2f6fe4; }
+  .hc-day.is-active small { color:rgba(255,255,255,.8); }
+  .hc-match { display:grid; grid-template-columns:52px minmax(0,1fr) 22px 54px 22px minmax(0,1fr); align-items:center; gap:6px; padding:10px 0; border-top:1px solid rgba(255,255,255,.1); font-size:14px; }
+  .hc-match time { color:#86b7ff; font-size:12px; font-weight:700; }
+  .hc-match--post time { color:rgba(255,255,255,.55); }
+  .hc-match--in time { color:#ffe36e; }
+  .hc-match strong { min-width:0; overflow:hidden; font-weight:700; text-overflow:ellipsis; white-space:nowrap; }
+  .hc-match__home { text-align:right; }
+  .hc-match img,.hc-match i { width:22px; height:22px; object-fit:contain; }
+  .hc-match b { text-align:center; font-variant-numeric:tabular-nums; font-weight:850; }
+  .hc-match--pre b { color:rgba(255,255,255,.45); font-size:12px; }
+  .hc-empty { margin:6px 0 2px; color:rgba(255,255,255,.6); font-size:13px; }
+  .hc-scroll { overflow-x:auto; }
+  .hc-table table { width:100%; min-width:520px; margin:0; border-collapse:collapse; background:transparent; font-size:13px; font-variant-numeric:tabular-nums; }
+  .hc-table th,.hc-table td { padding:8px 4px; border:0; border-top:1px solid rgba(255,255,255,.1); color:rgba(255,255,255,.78); text-align:center; font-weight:500; }
+  .hc-table thead th { border-top:0; color:rgba(255,255,255,.5); font-size:11px; }
+  .hc-table .t { text-align:left; }
+  .hc-table tbody th { color:#fff; font-weight:700; white-space:nowrap; }
+  .hc-table tbody th img { display:inline-block; width:20px; height:20px; margin-right:8px; object-fit:contain; vertical-align:-5px; }
+  .hc-table .r { position:relative; width:34px; color:#86b7ff; font-weight:800; }
+  .hc-table .p { color:#fff; font-weight:850; }
+  .hc-table tr[class*='z-'] .r::before { content:''; position:absolute; left:0; top:6px; bottom:6px; width:3px; border-radius:2px; background:var(--zone,transparent); }
+  .hc-table tr.z-out .r::before { display:none; }
+  .hc-table tr.is-extra,.hc-leaders li.is-extra { display:none; }
+  [data-more-wrap].is-open .hc-table tr.is-extra,.hc-table[data-more-wrap].is-open tr.is-extra { display:table-row; }
+  .hc-leaders[data-more-wrap].is-open li.is-extra { display:grid; }
+  .hc-more { width:100%; min-height:36px; margin-top:10px; border:1px solid rgba(134,183,255,.3); border-radius:8px; background:rgba(134,183,255,.08); color:#b9d5ff; cursor:pointer; font:inherit; font-size:13px; font-weight:800; }
+  .hc-more:hover { border-color:rgba(134,183,255,.66); color:#fff; }
+  .hc-legend { display:flex; flex-wrap:wrap; gap:6px 14px; margin:12px 0 0; padding:0; list-style:none; }
+  .hc-legend li { display:flex; align-items:center; gap:6px; color:rgba(255,255,255,.72); font-size:12px; }
+  .hc-legend li::before { content:''; width:10px; height:10px; border-radius:3px; background:var(--zone,transparent); }
+  .z-ucl,.z-r16 { --zone:#2f6fe4; }
+  .z-ucl-q,.z-playoff { --zone:#5a8ff0; }
+  .z-uel,.z-playoff-u { --zone:#73cbff; }
+  .z-uecl { --zone:#b9d5ff; }
+  .z-relegation-po { --zone:#ffb3ad; }
+  .z-relegation { --zone:#ff6b6b; }
+  .z-other { --zone:rgba(255,255,255,.3); }
+  .hc-leaders ol { margin:0; padding:0; list-style:none; }
+  .hc-leaders li { display:grid; grid-template-columns:26px minmax(0,1fr) 34px; align-items:center; gap:8px; padding:9px 0; border-top:1px solid rgba(255,255,255,.1); }
+  .hc-leaders li b { color:#86b7ff; font-size:13px; font-weight:800; }
+  .hc-leaders li strong { display:block; overflow:hidden; font-size:14px; font-weight:750; text-overflow:ellipsis; white-space:nowrap; }
+  .hc-leaders li small { display:block; margin-top:2px; overflow:hidden; color:rgba(255,255,255,.55); font-size:12px; text-overflow:ellipsis; white-space:nowrap; }
+  .hc-leaders li em { color:#fff; font-size:17px; font-style:normal; font-weight:850; text-align:right; font-variant-numeric:tabular-nums; }
+  .hc-foot { margin-top:22px; color:var(--bbfc-gray-2); font-size:13px; line-height:1.7; }
+  .hc-foot p { margin:0; }
+  .hc-foot a { color:var(--bbfc-blue); text-decoration:underline; text-underline-offset:3px; }
+  @media (max-width: 860px) {
+    .hc-grid { display:flex; flex-direction:column; }
+    .hc-col { display:contents; }
+    .hc-matches { order:1; } .hc-table { order:2; } .hc-leaders--goals { order:3; } .hc-leaders--assists { order:4; }
+  }
+  @media (max-width: 480px) {
+    .haechuk { padding:14px 12px 44px; }
+    .hc-head { padding:22px 18px 16px; }
+    .hc-head h1 { font-size:26px; }
+    .hc-tabs { margin:16px -18px 0; padding:0 18px 4px; }
+    .hc-card { padding:15px 13px 13px; }
+    .hc-card__head { flex-wrap:wrap; }
+    .hc-match { grid-template-columns:44px minmax(0,1fr) 20px 46px 20px minmax(0,1fr); gap:4px; font-size:13px; }
+    .hc-match img,.hc-match i { width:20px; height:20px; }
+    .hc-table table { min-width:0; }
+    .hc-table th:nth-child(7),.hc-table td:nth-child(7),.hc-table th:nth-child(8),.hc-table td:nth-child(8) { display:none; }
+    .hc-table th,.hc-table td { padding:8px 3px; }
+    .hc-table tbody th { max-width:118px; overflow:hidden; text-overflow:ellipsis; }
+  }
+</style>

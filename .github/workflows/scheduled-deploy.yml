@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - 'src/data/today-football.json'
+      - 'src/data/haechuk.json'
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch: {}
@@ -26,24 +26,20 @@ jobs:
         with:
           node-version: 22
 
-      - name: Refresh and validate today's football data
-        env:
-          FOOTBALL_DATA_API_TOKEN: ${{ secrets.FOOTBALL_DATA_API_TOKEN }}
-        run: |
-          node scripts/fetch-today-football.mjs
-          node scripts/validate-today-football.mjs
+      - name: Refresh haechuk standings and matches
+        run: node scripts/fetch-haechuk.mjs
 
       - name: Save refreshed data
         id: refresh
         run: |
-          if git diff --quiet -- src/data/today-football.json; then
+          if git diff --quiet -- src/data/haechuk.json; then
             echo "Today's data is unchanged."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add src/data/today-football.json
-            git commit -m "데이터: 오늘의 축구 자동 갱신"
+            git add src/data/haechuk.json
+            git commit -m "데이터: 오늘 밤 해축 자동 갱신"
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

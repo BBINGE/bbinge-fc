@@ -1,0 +1,73 @@
+---
+// 홈의 「오늘 밤 해축」 현황판 연결 배너. 순위표·경기 데이터는 /haechuk/ 페이지에만 두고, 홈 HTML에는 오늘 경기 수 한 줄만 싣는다.
+import haechuk from '../data/haechuk.json';
+
+const todayMatches = haechuk.summary?.todayMatches ?? 0;
+const logos = [
+  { src: '/images/haechuk/logo-premier-league.webp', alt: '프리미어 리그', color: '#6a2fa0', w: 379, h: 160, cls: 'pl' },
+  { src: '/images/haechuk/logo-champions-league.webp', alt: 'UEFA 챔피언스 리그', color: '#2b59ff', w: 253, h: 240, cls: 'ucl' },
+  { src: '/images/haechuk/logo-laliga.webp', alt: '라리가', color: '#ff4b44', w: 155, h: 160, cls: 'laliga' },
+  { src: '/images/haechuk/logo-serie-a.webp', alt: '세리에 A', color: '#1e8bff', w: 116, h: 180, cls: 'seriea' },
+  { src: '/images/haechuk/logo-bundesliga.webp', alt: '푸스발-분데스리가', color: '#d20515', w: 212, h: 160, cls: 'bundesliga' },
+  { src: '/images/haechuk/logo-ligue-1.webp', alt: '리그 1', color: '#c8e62c', w: 142, h: 180, cls: 'ligue1' },
+];
+---
+
+<a class="hc-banner" href="/haechuk/" aria-label="오늘 밤 해축, 승자와 득점왕: 5대 리그와 UEFA 대회 순위, 경기, 득점 순위 보기">
+  <img class="hc-banner__players" src="/images/haechuk/son-lee.webp" alt="" width="757" height="760" loading="lazy" decoding="async" />
+  <div class="hc-banner__copy">
+    <p class="hc-banner__eye">BBINGE FC PRESENTS</p>
+    <p class="hc-banner__title">오늘 밤 해축,<br />승자와 득점왕</p>
+    <p class="hc-banner__sub">5대 리그·챔스 순위와 어제·오늘·내일 경기</p>
+    <div class="hc-banner__cta">
+      <span class="hc-banner__btn">결과·순위 보기 <span aria-hidden="true">▶</span></span>
+      {todayMatches > 0 && <span class="hc-banner__meta">오늘 밤 <b>{todayMatches}</b>경기</span>}
+    </div>
+  </div>
+  <ul class="hc-banner__logos" aria-hidden="true">
+    {logos.map((logo) => (
+      <li class={`hc-banner__logo hc-banner__logo--${logo.cls}`} style={`--c:${logo.color}`}><img src={logo.src} alt="" width={logo.w} height={logo.h} loading="lazy" decoding="async" /></li>
+    ))}
+  </ul>
+</a>
+
+<style>
+  .hc-banner { position:relative; isolation:isolate; display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; min-height:240px; margin:34px 0 40px; overflow:hidden; border-radius:18px; background:#0a1628; color:#fff; text-decoration:none; font-family:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+  .hc-banner::before { content:''; position:absolute; z-index:-2; inset:0; background:radial-gradient(120% 140% at 100% 50%,#16335e 0%,#0d1f3c 45%,#0a1628 75%); }
+  .hc-banner__players { position:absolute; z-index:-1; left:36%; top:-10px; width:auto; max-width:none; height:370px; opacity:.62; filter:saturate(.85); pointer-events:none; }
+  .hc-banner__copy { position:relative; padding:30px 0 28px 40px; }
+  .hc-banner__eye { margin:0; color:#5aa8ff; font-size:12px; font-weight:800; letter-spacing:.16em; }
+  .hc-banner__title { margin:10px 0 0; font-size:40px; line-height:1.08; font-weight:900; letter-spacing:-.04em; text-shadow:0 2px 14px rgba(10,22,40,.7); }
+  .hc-banner__sub { margin:12px 0 0; color:rgba(255,255,255,.8); font-size:14px; font-weight:500; }
+  .hc-banner__cta { display:flex; flex-wrap:wrap; align-items:center; gap:14px; margin-top:18px; }
+  .hc-banner__btn { display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:0 20px; border-radius:999px; background:#2f6fe4; font-size:15px; font-weight:800; transition:transform .2s ease,background .2s ease; }
+  .hc-banner__meta { color:rgba(255,255,255,.7); font-size:13px; font-weight:600; }
+  .hc-banner__meta b { color:#fff; }
+  .hc-banner:hover .hc-banner__btn { transform:translateY(-2px); background:#3d7cf0; }
+  .hc-banner:focus-visible { outline:3px solid #86b7ff; outline-offset:3px; }
+  .hc-banner__logos { display:grid; grid-template-columns:repeat(3,92px); grid-auto-rows:92px; gap:6px 10px; margin:0; padding:0 30px 0 0; list-style:none; }
+  .hc-banner__logo { position:relative; display:grid; place-items:center; }
+  .hc-banner__logo::before { content:''; position:absolute; inset:-18%; border-radius:50%; background:radial-gradient(closest-side,var(--c),transparent 72%); opacity:.42; }
+  .hc-banner__logo img { position:relative; width:auto; max-width:84px; height:auto; max-height:60px; object-fit:contain; filter:drop-shadow(0 6px 14px rgba(0,0,0,.35)); }
+  .hc-banner__logo--ucl img { max-width:92px; max-height:86px; }
+  .hc-banner__logo--seriea img,.hc-banner__logo--ligue1 img { max-height:70px; }
+  @media (max-width: 1080px) {
+    .hc-banner__players { left:30%; height:330px; }
+    .hc-banner__logos { grid-template-columns:repeat(3,72px); grid-auto-rows:78px; padding-right:20px; }
+    .hc-banner__logo img { max-width:66px; max-height:48px; }
+    .hc-banner__logo--ucl img { max-width:74px; max-height:70px; }
+  }
+  @media (max-width: 720px) {
+    .hc-banner { display:flex; flex-direction:column; align-items:stretch; min-height:0; }
+    .hc-banner__logos { order:-1; grid-template-columns:repeat(3,minmax(0,1fr)); grid-auto-rows:110px; padding:16px 16px 0; }
+    .hc-banner__logo--laliga { order:3; } .hc-banner__logo--pl { order:1; } .hc-banner__logo--ucl { order:2; }
+    .hc-banner__logo--seriea,.hc-banner__logo--bundesliga,.hc-banner__logo--ligue1 { display:none; }
+    .hc-banner__logo img { max-width:92px; max-height:56px; }
+    .hc-banner__logo--ucl img { max-width:90px; max-height:84px; }
+    .hc-banner__players { left:auto; right:-40px; top:auto; bottom:-70px; height:330px; opacity:.72; -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 35%); mask-image:linear-gradient(90deg,transparent 0%,#000 35%); }
+    .hc-banner__copy { padding:4px 22px 24px; }
+    .hc-banner__title { font-size:30px; }
+    .hc-banner__sub { font-size:13px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .hc-banner__btn { transition:none; } }
+</style>

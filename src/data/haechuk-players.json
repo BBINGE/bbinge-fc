@@ -1,0 +1,1690 @@
+{
+  "20975": {
+    "ko": "훌리오 엔시소",
+    "original": "Julio Enciso",
+    "name": "Julio Enciso",
+    "dob": "2004-01-23",
+    "position": "Midfielder",
+    "nationality": "Paraguay"
+  },
+  "38721": {
+    "ko": "라민 카마라",
+    "original": "Lamine Camara",
+    "name": "Lamine Camara",
+    "dob": "2004-01-01",
+    "position": "Midfielder",
+    "nationality": "Senegal"
+  },
+  "88965": {
+    "ko": "올리비에 지루",
+    "original": "Olivier Giroud",
+    "name": "Olivier Giroud",
+    "dob": "1986-09-30",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "102368": {
+    "ko": "에바니우송",
+    "original": "Evanilson",
+    "name": "Evanilson",
+    "dob": "1999-10-06",
+    "position": "Forward",
+    "nationality": "Brazil"
+  },
+  "122260": {
+    "ko": "피에르에메리크 오바메양",
+    "original": "Pierre-Emerick Aubameyang",
+    "name": "Pierre-Emerick Aubameyang",
+    "dob": "1989-06-18",
+    "position": "Forward",
+    "nationality": "Gabon"
+  },
+  "124091": {
+    "ko": "브루노 페르난데스",
+    "original": "Bruno Fernandes",
+    "name": "Bruno Fernandes",
+    "dob": "1994-09-08",
+    "position": "Midfielder",
+    "nationality": "Portugal"
+  },
+  "132659": {
+    "ko": "파스칼 그로스",
+    "original": "Pascal Gross",
+    "name": "Pascal Gross",
+    "dob": "1991-06-15",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "142200": {
+    "ko": "해리 케인",
+    "original": "Harry Kane",
+    "name": "Harry Kane",
+    "dob": "1993-07-28",
+    "position": "Forward",
+    "nationality": "England"
+  },
+  "145078": {
+    "ko": "마르크 바르트라",
+    "original": "Marc Bartra",
+    "name": "Marc Bartra",
+    "dob": "1991-01-15",
+    "position": "Defender",
+    "nationality": "Spain"
+  },
+  "146804": {
+    "ko": "미하엘 그레고리치",
+    "original": "Michael Gregoritsch",
+    "name": "Michael Gregoritsch",
+    "dob": "1994-04-18",
+    "position": "Forward",
+    "nationality": "Austria"
+  },
+  "155532": {
+    "ko": "에릭 다이어",
+    "original": "Eric Dier",
+    "name": "Eric Dier",
+    "dob": "1994-01-15",
+    "position": "Defender",
+    "nationality": "England"
+  },
+  "155904": {
+    "ko": "조반니 디로렌초",
+    "original": "Giovanni Di Lorenzo",
+    "name": "Giovanni Di Lorenzo",
+    "dob": "1993-08-04",
+    "position": "Defender",
+    "nationality": "Italy"
+  },
+  "156898": {
+    "ko": "플로리앙 토뱅",
+    "original": "Florian Thauvin",
+    "name": "Florian Thauvin",
+    "dob": "1993-01-26",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "159047": {
+    "ko": "마르키뉴스",
+    "original": "Marquinhos",
+    "name": "Marquinhos",
+    "dob": "1994-05-14",
+    "position": "Defender",
+    "nationality": "Brazil"
+  },
+  "159543": {
+    "ko": "피에르에밀 호이비에르",
+    "original": "Pierre-Emile Højbjerg",
+    "name": "Pierre-Emile Højbjerg",
+    "dob": "1995-08-05",
+    "position": "Midfielder",
+    "nationality": "Denmark"
+  },
+  "164839": {
+    "ko": "파울로 디발라",
+    "original": "Paulo Dybala",
+    "name": "Paulo Dybala",
+    "dob": "1993-11-15",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "170209": {
+    "ko": "마티아스 긴터",
+    "original": "Matthias Ginter",
+    "name": "Matthias Ginter",
+    "dob": "1994-01-19",
+    "position": "Defender",
+    "nationality": "Germany"
+  },
+  "170257": {
+    "ko": "니클라스 퓔크루크",
+    "original": "Niclas Füllkrug",
+    "name": "Niclas Füllkrug",
+    "dob": "1993-02-09",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "170785": {
+    "ko": "하칸 찰하노을루",
+    "original": "Hakan Çalhanoglu",
+    "name": "Hakan Çalhanoglu",
+    "dob": "1994-02-08",
+    "position": "Midfielder",
+    "nationality": "Türkiye"
+  },
+  "173266": {
+    "ko": "아드리앵 토마송",
+    "original": "Adrien Thomasson",
+    "name": "Adrien Thomasson",
+    "dob": "1993-12-10",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "176203": {
+    "ko": "아드리앵 라비오",
+    "original": "Adrien Rabiot",
+    "name": "Adrien Rabiot",
+    "dob": "1995-04-03",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "176399": {
+    "ko": "주앙 칸셀루",
+    "original": "João Cancelo",
+    "name": "João Cancelo",
+    "dob": "1994-05-27",
+    "position": "Defender",
+    "nationality": "Portugal"
+  },
+  "179187": {
+    "ko": "나빌 벤탈렙",
+    "original": "Nabil Bentaleb",
+    "name": "Nabil Bentaleb",
+    "dob": "1994-11-24",
+    "position": "Midfielder",
+    "nationality": "Algeria"
+  },
+  "186172": {
+    "ko": "헨리크 뢰르비크 비오르달",
+    "original": "Henrik Rorvik Bjordal",
+    "name": "Henrik Rorvik Bjordal",
+    "dob": "1997-02-04",
+    "position": "Midfielder",
+    "nationality": "Norway"
+  },
+  "186381": {
+    "ko": "세루 기라시",
+    "original": "Serhou Guirassy",
+    "name": "Serhou Guirassy",
+    "dob": "1996-03-12",
+    "position": "Forward",
+    "nationality": "Guinea"
+  },
+  "190161": {
+    "ko": "요주아 키미히",
+    "original": "Joshua Kimmich",
+    "name": "Joshua Kimmich",
+    "dob": "1995-02-08",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "191209": {
+    "ko": "블라디미르 초우팔",
+    "original": "Vladimír Coufal",
+    "name": "Vladimír Coufal",
+    "dob": "1992-08-22",
+    "position": "Defender",
+    "nationality": "Czechia"
+  },
+  "192015": {
+    "ko": "뤼도비크 아조르크",
+    "original": "Ludovic Ajorque",
+    "name": "Ludovic Ajorque",
+    "dob": "1994-02-25",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "193919": {
+    "ko": "하산 카마라",
+    "original": "Hassane Kamara",
+    "name": "Hassane Kamara",
+    "dob": "1994-03-05",
+    "position": "Defender",
+    "nationality": "Ivory Coast"
+  },
+  "195027": {
+    "ko": "셰랄도 베커",
+    "original": "Sheraldo Becker",
+    "name": "Sheraldo Becker",
+    "dob": "1995-02-09",
+    "position": "Forward",
+    "nationality": "Suriname"
+  },
+  "195501": {
+    "ko": "알렉산드르 골로빈",
+    "original": "Aleksandr Golovin",
+    "name": "Aleksandr Golovin",
+    "dob": "1996-05-30",
+    "position": "Midfielder",
+    "nationality": "Russia"
+  },
+  "196029": {
+    "ko": "프랑크 오노라",
+    "original": "Franck Honorat",
+    "name": "Franck Honorat",
+    "dob": "1996-08-11",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "196234": {
+    "ko": "브랑코 판덴봄",
+    "original": "Branco van den Boomen",
+    "name": "Branco van den Boomen",
+    "dob": "1995-07-21",
+    "position": "Midfielder",
+    "nationality": "Netherlands"
+  },
+  "198832": {
+    "ko": "마리아노 디아스",
+    "original": "Mariano Díaz",
+    "name": "Mariano Díaz",
+    "dob": "1993-08-01",
+    "position": "Forward",
+    "nationality": "Dominican Republic"
+  },
+  "203669": {
+    "ko": "마르틴 외데고르",
+    "original": "Martin Ødegaard",
+    "name": "Martin Ødegaard",
+    "dob": "1998-12-17",
+    "position": "Midfielder",
+    "nationality": "Norway"
+  },
+  "203711": {
+    "ko": "우나이 로페스",
+    "original": "Unai López",
+    "name": "Unai López",
+    "dob": "1995-10-30",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "204669": {
+    "ko": "마티아 차카니",
+    "original": "Mattia Zaccagni",
+    "name": "Mattia Zaccagni",
+    "dob": "1995-06-16",
+    "position": "Midfielder",
+    "nationality": "Italy"
+  },
+  "205576": {
+    "ko": "아미르 라흐마니",
+    "original": "Amir Rrahmani",
+    "name": "Amir Rrahmani",
+    "dob": "1994-02-24",
+    "position": "Defender",
+    "nationality": "Kosovo"
+  },
+  "207236": {
+    "ko": "루카스 보예",
+    "original": "Lucas Boyé",
+    "name": "Lucas Boyé",
+    "dob": "1996-02-28",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "207288": {
+    "ko": "안테 부디미르",
+    "original": "Ante Budimir",
+    "name": "Ante Budimir",
+    "dob": "1991-07-22",
+    "position": "Forward",
+    "nationality": "Croatia"
+  },
+  "210397": {
+    "ko": "니콜라 페페",
+    "original": "Nicolas Pépé",
+    "name": "Nicolas Pépé",
+    "dob": "1995-05-29",
+    "position": "Forward",
+    "nationality": "Ivory Coast"
+  },
+  "212330": {
+    "ko": "파트리크 시크",
+    "original": "Patrik Schick",
+    "name": "Patrik Schick",
+    "dob": "1996-01-24",
+    "position": "Forward",
+    "nationality": "Czechia"
+  },
+  "213725": {
+    "ko": "체 애덤스",
+    "original": "Ché Adams",
+    "name": "Ché Adams",
+    "dob": "1996-07-13",
+    "position": "Forward",
+    "nationality": "Scotland"
+  },
+  "214203": {
+    "ko": "막시밀리안 에게슈타인",
+    "original": "Maximilian Eggestein",
+    "name": "Maximilian Eggestein",
+    "dob": "1996-12-08",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "214412": {
+    "ko": "이냐키 윌리엄스",
+    "original": "Iñaki Williams",
+    "name": "Iñaki Williams",
+    "dob": "1994-06-15",
+    "position": "Forward",
+    "nationality": "Ghana"
+  },
+  "214596": {
+    "ko": "파비안 루이스",
+    "original": "Fabián Ruiz",
+    "name": "Fabián Ruiz",
+    "dob": "1996-04-03",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "219362": {
+    "ko": "가마다 다이치",
+    "original": "Daichi Kamada",
+    "name": "Daichi Kamada",
+    "dob": "1996-08-05",
+    "position": "Midfielder",
+    "nationality": "Japan"
+  },
+  "219713": {
+    "ko": "라우타로 마르티네스",
+    "original": "Lautaro Martínez",
+    "name": "Lautaro Martínez",
+    "dob": "1997-08-22",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "222567": {
+    "ko": "요시프 유라노비치",
+    "original": "Josip Juranovic",
+    "name": "Josip Juranovic",
+    "dob": "1995-08-16",
+    "position": "Defender",
+    "nationality": "Croatia"
+  },
+  "223947": {
+    "ko": "라사나 쿨리발리",
+    "original": "Lassana Coulibaly",
+    "name": "Lassana Coulibaly",
+    "dob": "1996-04-10",
+    "position": "Midfielder",
+    "nationality": "Mali"
+  },
+  "225564": {
+    "ko": "비탈리 야넬트",
+    "original": "Vitaly Janelt",
+    "name": "Vitaly Janelt",
+    "dob": "1998-05-10",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "227714": {
+    "ko": "파블로 포르날스",
+    "original": "Pablo Fornals",
+    "name": "Pablo Fornals",
+    "dob": "1996-02-22",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "227765": {
+    "ko": "다니 올모",
+    "original": "Dani Olmo",
+    "name": "Dani Olmo",
+    "dob": "1998-05-07",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "228298": {
+    "ko": "새뮤얼 추쿠에제",
+    "original": "Samuel Chukwueze",
+    "name": "Samuel Chukwueze",
+    "dob": "1999-05-22",
+    "position": "Forward",
+    "nationality": "Nigeria"
+  },
+  "229018": {
+    "ko": "미켈 오야르사발",
+    "original": "Mikel Oyarzabal",
+    "name": "Mikel Oyarzabal",
+    "dob": "1997-04-21",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "229744": {
+    "ko": "우스만 뎀벨레",
+    "original": "Ousmane Dembélé",
+    "name": "Ousmane Dembélé",
+    "dob": "1997-05-15",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "231050": {
+    "ko": "하피냐",
+    "original": "Raphinha",
+    "name": "Raphinha",
+    "dob": "1996-12-14",
+    "position": "Forward",
+    "nationality": "Brazil"
+  },
+  "231182": {
+    "ko": "카이 하베르츠",
+    "original": "Kai Havertz",
+    "name": "Kai Havertz",
+    "dob": "1999-06-11",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "231388": {
+    "ko": "킬리안 음바페",
+    "original": "Kylian Mbappé",
+    "name": "Kylian Mbappé",
+    "dob": "1998-12-20",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "234376": {
+    "ko": "필리프 티츠",
+    "original": "Phillip Tietz",
+    "name": "Phillip Tietz",
+    "dob": "1997-07-09",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "235662": {
+    "ko": "알렉산데르 이사크",
+    "original": "Alexander Isak",
+    "name": "Alexander Isak",
+    "dob": "1999-09-21",
+    "position": "Forward",
+    "nationality": "Sweden"
+  },
+  "236038": {
+    "ko": "자코모 칼로",
+    "original": "Giacomo Calo",
+    "name": "Giacomo Calo",
+    "dob": "1997-02-05",
+    "position": "Midfielder",
+    "nationality": "Italy"
+  },
+  "238262": {
+    "ko": "데클런 라이스",
+    "original": "Declan Rice",
+    "name": "Declan Rice",
+    "dob": "1999-01-14",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "238917": {
+    "ko": "아민 하리트",
+    "original": "Amine Harit",
+    "name": "Amine Harit",
+    "dob": "1997-06-18",
+    "position": "Midfielder",
+    "nationality": "Morocco"
+  },
+  "243364": {
+    "ko": "마커스 태버니어",
+    "original": "Marcus Tavernier",
+    "name": "Marcus Tavernier",
+    "dob": "1999-03-22",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "243396": {
+    "ko": "모건 깁스화이트",
+    "original": "Morgan Gibbs-White",
+    "name": "Morgan Gibbs-White",
+    "dob": "2000-01-27",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "245918": {
+    "ko": "아르만도 오비스포",
+    "original": "Armando Obispo",
+    "name": "Armando Obispo",
+    "dob": "1999-03-05",
+    "position": "Defender",
+    "nationality": "Curaçao"
+  },
+  "248440": {
+    "ko": "사무엘레 비린델리",
+    "original": "Samuele Birindelli",
+    "name": "Samuele Birindelli",
+    "dob": "1999-07-19",
+    "position": "Defender",
+    "nationality": "Italy"
+  },
+  "249524": {
+    "ko": "코디 학포",
+    "original": "Cody Gakpo",
+    "name": "Cody Gakpo",
+    "dob": "1999-05-07",
+    "position": "Forward",
+    "nationality": "Netherlands"
+  },
+  "249851": {
+    "ko": "리건 슬레이터",
+    "original": "Regan Slater",
+    "name": "Regan Slater",
+    "dob": "1999-09-11",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "250787": {
+    "ko": "필 포든",
+    "original": "Phil Foden",
+    "name": "Phil Foden",
+    "dob": "2000-05-28",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "250850": {
+    "ko": "다비데 프라테시",
+    "original": "Davide Frattesi",
+    "name": "Davide Frattesi",
+    "dob": "1999-09-22",
+    "position": "Midfielder",
+    "nationality": "Italy"
+  },
+  "251100": {
+    "ko": "파우 토레스",
+    "original": "Pau Torres",
+    "name": "Pau Torres",
+    "dob": "1997-01-16",
+    "position": "Defender",
+    "nationality": "Spain"
+  },
+  "252107": {
+    "ko": "비니시우스 주니오르",
+    "original": "Vinícius Júnior",
+    "name": "Vinícius Júnior",
+    "dob": "2000-07-12",
+    "position": "Forward",
+    "nationality": "Brazil"
+  },
+  "252971": {
+    "ko": "랑달 콜로 무아니",
+    "original": "Randal Kolo Muani",
+    "name": "Randal Kolo Muani",
+    "dob": "1998-12-05",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "253989": {
+    "ko": "엘링 홀란",
+    "original": "Erling Haaland",
+    "name": "Erling Haaland",
+    "dob": "2000-07-21",
+    "position": "Forward",
+    "nationality": "Norway"
+  },
+  "257206": {
+    "ko": "도미니크 소보슬러이",
+    "original": "Dominik Szoboszlai",
+    "name": "Dominik Szoboszlai",
+    "dob": "2000-10-25",
+    "position": "Midfielder",
+    "nationality": "Hungary"
+  },
+  "257786": {
+    "ko": "다비드 한츠코",
+    "original": "Dávid Hancko",
+    "name": "Dávid Hancko",
+    "dob": "1997-12-13",
+    "position": "Defender",
+    "nationality": "Slovakia"
+  },
+  "258963": {
+    "ko": "리들레 바쿠",
+    "original": "Ridle Baku",
+    "name": "Ridle Baku",
+    "dob": "1998-04-08",
+    "position": "Defender",
+    "nationality": "Germany"
+  },
+  "259481": {
+    "ko": "도니얼 말런",
+    "original": "Donyell Malen",
+    "name": "Donyell Malen",
+    "dob": "1999-01-19",
+    "position": "Forward",
+    "nationality": "Netherlands"
+  },
+  "259743": {
+    "ko": "아민 구이리",
+    "original": "Amine Gouiri",
+    "name": "Amine Gouiri",
+    "dob": "2000-02-16",
+    "position": "Forward",
+    "nationality": "Algeria"
+  },
+  "259871": {
+    "ko": "히카르두 망가스",
+    "original": "Ricardo Mangas",
+    "name": "Ricardo Mangas",
+    "dob": "1998-03-19",
+    "position": "Defender",
+    "nationality": "Portugal"
+  },
+  "259902": {
+    "ko": "마테우스 쿠냐",
+    "original": "Matheus Cunha",
+    "name": "Matheus Cunha",
+    "dob": "1999-05-27",
+    "position": "Forward",
+    "nationality": "Brazil"
+  },
+  "259916": {
+    "ko": "호세 안토니오 모렌테",
+    "original": "José Antonio Morente",
+    "name": "José Antonio Morente",
+    "dob": "1996-12-04",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "260004": {
+    "ko": "이반 일리치",
+    "original": "Ivan Ilic",
+    "name": "Ivan Ilic",
+    "dob": "2001-03-17",
+    "position": "Midfielder",
+    "nationality": "Serbia"
+  },
+  "262071": {
+    "ko": "아나스타시오스 두비카스",
+    "original": "Anastasios Douvikas",
+    "name": "Anastasios Douvikas",
+    "dob": "1999-08-02",
+    "position": "Forward",
+    "nationality": "Greece"
+  },
+  "263705": {
+    "ko": "잔루카 부시오",
+    "original": "Gianluca Busio",
+    "name": "Gianluca Busio",
+    "dob": "2002-05-28",
+    "position": "Midfielder",
+    "nationality": "USA"
+  },
+  "265653": {
+    "ko": "모건 로저스",
+    "original": "Morgan Rogers",
+    "name": "Morgan Rogers",
+    "dob": "2002-07-26",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "265869": {
+    "ko": "페란 토레스",
+    "original": "Ferran Torres",
+    "name": "Ferran Torres",
+    "dob": "2000-02-29",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "266291": {
+    "ko": "세르지뇨 데스트",
+    "original": "Sergiño Dest",
+    "name": "Sergiño Dest",
+    "dob": "2000-11-03",
+    "position": "Defender",
+    "nationality": "USA"
+  },
+  "266839": {
+    "ko": "요샤 바그노만",
+    "original": "Josha Vagnoman",
+    "name": "Josha Vagnoman",
+    "dob": "2000-12-11",
+    "position": "Defender",
+    "nationality": "Germany"
+  },
+  "267591": {
+    "ko": "로제르 브루게",
+    "original": "Roger Brugué",
+    "name": "Roger Brugué",
+    "dob": "1996-11-04",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "268720": {
+    "ko": "루이 마푸타",
+    "original": "Louis Mafouta",
+    "name": "Louis Mafouta",
+    "dob": "1994-07-02",
+    "position": "Forward",
+    "nationality": "Central African Republic"
+  },
+  "268782": {
+    "ko": "앤서니 고든",
+    "original": "Anthony Gordon",
+    "name": "Anthony Gordon",
+    "dob": "2001-02-24",
+    "position": "Forward",
+    "nationality": "England"
+  },
+  "269136": {
+    "ko": "에르메딘 데미로비치",
+    "original": "Ermedin Demirovic",
+    "name": "Ermedin Demirovic",
+    "dob": "1998-03-25",
+    "position": "Forward",
+    "nationality": "Bosnia and Herzegovina"
+  },
+  "270821": {
+    "ko": "로날드 아라우호",
+    "original": "Ronald Araújo",
+    "name": "Ronald Araújo",
+    "dob": "1999-03-07",
+    "position": "Defender",
+    "nationality": "Uruguay"
+  },
+  "271137": {
+    "ko": "라신 시나요코",
+    "original": "Lassine Sinayoko",
+    "name": "Lassine Sinayoko",
+    "dob": "1999-12-08",
+    "position": "Forward",
+    "nationality": "Mali"
+  },
+  "271170": {
+    "ko": "브라이언 음뵈모",
+    "original": "Bryan Mbeumo",
+    "name": "Bryan Mbeumo",
+    "dob": "1999-08-07",
+    "position": "Forward",
+    "nationality": "Cameroon"
+  },
+  "271244": {
+    "ko": "크리스티안 카세레스 주니오르",
+    "original": "Cristian Cásseres Jr.",
+    "name": "Cristian Cásseres Jr.",
+    "dob": "2000-01-20",
+    "position": "Midfielder",
+    "nationality": "Venezuela"
+  },
+  "272719": {
+    "ko": "아르망 로리엔테",
+    "original": "Armand Laurienté",
+    "name": "Armand Laurienté",
+    "dob": "1998-12-04",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "272745": {
+    "ko": "미셸 아도포",
+    "original": "Michel Adopo",
+    "name": "Michel Adopo",
+    "dob": "2000-07-19",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "273292": {
+    "ko": "앙투안 세메뇨",
+    "original": "Antoine Semenyo",
+    "name": "Antoine Semenyo",
+    "dob": "2000-01-07",
+    "position": "Forward",
+    "nationality": "Ghana"
+  },
+  "273300": {
+    "ko": "데니스 운다프",
+    "original": "Deniz Undav",
+    "name": "Deniz Undav",
+    "dob": "1996-07-19",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "274887": {
+    "ko": "요나탄 부르카르트",
+    "original": "Jonathan Burkardt",
+    "name": "Jonathan Burkardt",
+    "dob": "2000-07-11",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "274913": {
+    "ko": "카림 아데예미",
+    "original": "Karim Adeyemi",
+    "name": "Karim Adeyemi",
+    "dob": "2002-01-18",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "276221": {
+    "ko": "메이슨 그린우드",
+    "original": "Mason Greenwood",
+    "name": "Mason Greenwood",
+    "dob": "2001-10-01",
+    "position": "Forward",
+    "nationality": "England"
+  },
+  "276652": {
+    "ko": "세르히오 카메요",
+    "original": "Sergio Camello",
+    "name": "Sergio Camello",
+    "dob": "2001-02-10",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "276996": {
+    "ko": "로베르트 나바로",
+    "original": "Robert Navarro",
+    "name": "Robert Navarro",
+    "dob": "2002-04-12",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "277206": {
+    "ko": "훌리안 알바레스",
+    "original": "Julián Álvarez",
+    "name": "Julián Álvarez",
+    "dob": "2000-01-31",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "279790": {
+    "ko": "트로이 패럿",
+    "original": "Troy Parrott",
+    "name": "Troy Parrott",
+    "dob": "2002-02-04",
+    "position": "Forward",
+    "nationality": "Republic of Ireland"
+  },
+  "280555": {
+    "ko": "부카요 사카",
+    "original": "Bukayo Saka",
+    "name": "Bukayo Saka",
+    "dob": "2001-09-05",
+    "position": "Forward",
+    "nationality": "England"
+  },
+  "281122": {
+    "ko": "펠릭스 은메차",
+    "original": "Felix Nmecha",
+    "name": "Felix Nmecha",
+    "dob": "2000-10-10",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "283086": {
+    "ko": "리프 데이비스",
+    "original": "Leif Davis",
+    "name": "Leif Davis",
+    "dob": "1999-12-31",
+    "position": "Defender",
+    "nationality": "England"
+  },
+  "284699": {
+    "ko": "이니고 비센테",
+    "original": "Iñigo Vicente",
+    "name": "Iñigo Vicente",
+    "dob": "1998-01-06",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "284960": {
+    "ko": "주앙 페드루",
+    "original": "João Pedro",
+    "name": "João Pedro",
+    "dob": "2001-09-26",
+    "position": "Forward",
+    "nationality": "Brazil"
+  },
+  "285450": {
+    "ko": "엔소 페르난데스",
+    "original": "Enzo Fernández",
+    "name": "Enzo Fernández",
+    "dob": "2001-01-17",
+    "position": "Midfielder",
+    "nationality": "Argentina"
+  },
+  "286831": {
+    "ko": "마이클 올리세",
+    "original": "Michael Olise",
+    "name": "Michael Olise",
+    "dob": "2001-12-12",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "290044": {
+    "ko": "미겔 구티에레스",
+    "original": "Miguel Gutiérrez",
+    "name": "Miguel Gutiérrez",
+    "dob": "2001-07-27",
+    "position": "Defender",
+    "nationality": "Spain"
+  },
+  "290232": {
+    "ko": "안겔로 슈틸러",
+    "original": "Angelo Stiller",
+    "name": "Angelo Stiller",
+    "dob": "2001-04-04",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "290545": {
+    "ko": "다니엘 말디니",
+    "original": "Daniel Maldini",
+    "name": "Daniel Maldini",
+    "dob": "2001-10-11",
+    "position": "Forward",
+    "nationality": "Italy"
+  },
+  "291281": {
+    "ko": "주드 벨링엄",
+    "original": "Jude Bellingham",
+    "name": "Jude Bellingham",
+    "dob": "2003-06-29",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "292169": {
+    "ko": "아담 홀로제크",
+    "original": "Adam Hlozek",
+    "name": "Adam Hlozek",
+    "dob": "2002-07-25",
+    "position": "Forward",
+    "nationality": "Czechia"
+  },
+  "293347": {
+    "ko": "캐머런 아처",
+    "original": "Cameron Archer",
+    "name": "Cameron Archer",
+    "dob": "2001-12-09",
+    "position": "Forward",
+    "nationality": "England"
+  },
+  "296395": {
+    "ko": "콜 파머",
+    "original": "Cole Palmer",
+    "name": "Cole Palmer",
+    "dob": "2002-05-06",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "296969": {
+    "ko": "제니 카타무",
+    "original": "Geny Catamo",
+    "name": "Geny Catamo",
+    "dob": "2001-01-26",
+    "position": "Midfielder",
+    "nationality": "Mozambique"
+  },
+  "297373": {
+    "ko": "알렉스 바에나",
+    "original": "Álex Baena",
+    "name": "Álex Baena",
+    "dob": "2001-07-20",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "298008": {
+    "ko": "라얀 셰르키",
+    "original": "Rayan Cherki",
+    "name": "Rayan Cherki",
+    "dob": "2003-08-17",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "298329": {
+    "ko": "리카르도 칼라피오리",
+    "original": "Riccardo Calafiori",
+    "name": "Riccardo Calafiori",
+    "dob": "2002-05-19",
+    "position": "Defender",
+    "nationality": "Italy"
+  },
+  "300002": {
+    "ko": "게오르게스 미카우타제",
+    "original": "Georges Mikautadze",
+    "name": "Georges Mikautadze",
+    "dob": "2000-10-31",
+    "position": "Forward",
+    "nationality": "Georgia"
+  },
+  "300853": {
+    "ko": "타이릭 미첼",
+    "original": "Tyrick Mitchell",
+    "name": "Tyrick Mitchell",
+    "dob": "1999-09-01",
+    "position": "Defender",
+    "nationality": "England"
+  },
+  "301327": {
+    "ko": "막심 더카위퍼르",
+    "original": "Maxim De Cuyper",
+    "name": "Maxim De Cuyper",
+    "dob": "2000-12-22",
+    "position": "Defender",
+    "nationality": "Belgium"
+  },
+  "301524": {
+    "ko": "주앙 고메스",
+    "original": "João Gomes",
+    "name": "João Gomes",
+    "dob": "2001-02-12",
+    "position": "Midfielder",
+    "nationality": "Brazil"
+  },
+  "301684": {
+    "ko": "페르난도 니뇨",
+    "original": "Fernando Niño",
+    "name": "Fernando Niño",
+    "dob": "2000-10-24",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "303031": {
+    "ko": "스즈키 유이토",
+    "original": "Yuito Suzuki",
+    "name": "Yuito Suzuki",
+    "dob": "2001-10-25",
+    "position": "Midfielder",
+    "nationality": "Japan"
+  },
+  "303787": {
+    "ko": "세바스티안 나나시",
+    "original": "Sebastian Nanasi",
+    "name": "Sebastian Nanasi",
+    "dob": "2002-05-16",
+    "position": "Midfielder",
+    "nationality": "Sweden"
+  },
+  "304572": {
+    "ko": "이스마엘 사이바리",
+    "original": "Ismael Saibari",
+    "name": "Ismael Saibari",
+    "dob": "2001-01-28",
+    "position": "Midfielder",
+    "nationality": "Morocco"
+  },
+  "305545": {
+    "ko": "파벨 슐츠",
+    "original": "Pavel Sulc",
+    "name": "Pavel Sulc",
+    "dob": "2000-12-29",
+    "position": "Midfielder",
+    "nationality": "Czechia"
+  },
+  "305853": {
+    "ko": "마르코 그륄",
+    "original": "Marco Grüll",
+    "name": "Marco Grüll",
+    "dob": "1998-07-06",
+    "position": "Forward",
+    "nationality": "Austria"
+  },
+  "306263": {
+    "ko": "루카 수치치",
+    "original": "Luka Sucic",
+    "name": "Luka Sucic",
+    "dob": "2002-09-08",
+    "position": "Midfielder",
+    "nationality": "Croatia"
+  },
+  "308908": {
+    "ko": "파비안 리더",
+    "original": "Fabian Rieder",
+    "name": "Fabian Rieder",
+    "dob": "2002-02-16",
+    "position": "Midfielder",
+    "nationality": "Switzerland"
+  },
+  "309273": {
+    "ko": "라스무스 호일룬",
+    "original": "Rasmus Højlund",
+    "name": "Rasmus Højlund",
+    "dob": "2003-02-04",
+    "position": "Forward",
+    "nationality": "Denmark"
+  },
+  "310216": {
+    "ko": "라두 드라구신",
+    "original": "Radu Dragusin",
+    "name": "Radu Dragusin",
+    "dob": "2002-02-03",
+    "position": "Defender",
+    "nationality": "Romania"
+  },
+  "310419": {
+    "ko": "술레이만 카마라",
+    "original": "Suleiman Camara",
+    "name": "Suleiman Camara",
+    "dob": "2001-12-07",
+    "position": "Forward",
+    "nationality": "Gambia"
+  },
+  "310452": {
+    "ko": "아르다 귈레르",
+    "original": "Arda Güler",
+    "name": "Arda Güler",
+    "dob": "2005-02-25",
+    "position": "Midfielder",
+    "nationality": "Türkiye"
+  },
+  "310883": {
+    "ko": "이고르 마타노비치",
+    "original": "Igor Matanovic",
+    "name": "Igor Matanovic",
+    "dob": "2003-03-31",
+    "position": "Forward",
+    "nationality": "Croatia"
+  },
+  "310958": {
+    "ko": "케빈 샤데",
+    "original": "Kevin Schade",
+    "name": "Kevin Schade",
+    "dob": "2001-11-27",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "311475": {
+    "ko": "마르틴 바투리나",
+    "original": "Martin Baturina",
+    "name": "Martin Baturina",
+    "dob": "2003-02-16",
+    "position": "Midfielder",
+    "nationality": "Croatia"
+  },
+  "312757": {
+    "ko": "마테오 펠레그리노",
+    "original": "Mateo Pellegrino",
+    "name": "Mateo Pellegrino",
+    "dob": "2001-10-22",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "316559": {
+    "ko": "나지뉴",
+    "original": "Názinho",
+    "name": "Názinho",
+    "dob": "2003-07-20",
+    "position": "Defender",
+    "nationality": "Portugal"
+  },
+  "318098": {
+    "ko": "산티아고 모우리뇨",
+    "original": "Santiago Mouriño",
+    "name": "Santiago Mouriño",
+    "dob": "2002-02-13",
+    "position": "Defender",
+    "nationality": "Uruguay"
+  },
+  "318773": {
+    "ko": "로베르토 페르난데스",
+    "original": "Roberto Fernández",
+    "name": "Roberto Fernández",
+    "dob": "2002-07-03",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "319167": {
+    "ko": "앤디 디우프",
+    "original": "Andy Diouf",
+    "name": "Andy Diouf",
+    "dob": "2003-05-17",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "319265": {
+    "ko": "안토니오 라이몬도",
+    "original": "Antonio Raimondo",
+    "name": "Antonio Raimondo",
+    "dob": "2004-03-18",
+    "position": "Forward",
+    "nationality": "Italy"
+  },
+  "319368": {
+    "ko": "안토니오 누사",
+    "original": "Antonio Nusa",
+    "name": "Antonio Nusa",
+    "dob": "2005-04-17",
+    "position": "Midfielder",
+    "nationality": "Norway"
+  },
+  "320417": {
+    "ko": "모하메드 벨루미",
+    "original": "Mohamed Belloumi",
+    "name": "Mohamed Belloumi",
+    "dob": "2002-06-01",
+    "position": "Forward",
+    "nationality": "Algeria"
+  },
+  "320982": {
+    "ko": "아치 브라운",
+    "original": "Archie Brown",
+    "name": "Archie Brown",
+    "dob": "2002-05-28",
+    "position": "Defender",
+    "nationality": "England"
+  },
+  "322169": {
+    "ko": "다니옐 슈투름",
+    "original": "Danijel Sturm",
+    "name": "Danijel Sturm",
+    "dob": "1999-01-04",
+    "position": "Forward",
+    "nationality": "Slovenia"
+  },
+  "322654": {
+    "ko": "에메르송",
+    "original": "Emersonn",
+    "name": "Emersonn",
+    "dob": "2004-07-16",
+    "position": "Forward",
+    "nationality": "Brazil"
+  },
+  "323838": {
+    "ko": "줄리아노 시메오네",
+    "original": "Giuliano Simeone",
+    "name": "Giuliano Simeone",
+    "dob": "2002-12-18",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "323850": {
+    "ko": "에스테방 르폴",
+    "original": "Esteban Lepaul",
+    "name": "Esteban Lepaul",
+    "dob": "2000-04-18",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "324811": {
+    "ko": "우고 곤살레스",
+    "original": "Hugo Gonzalez",
+    "name": "Hugo Gonzalez",
+    "dob": "2003-02-07",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "329690": {
+    "ko": "마그네스 아클리우슈",
+    "original": "Maghnes Akliouche",
+    "name": "Maghnes Akliouche",
+    "dob": "2002-02-25",
+    "position": "Midfielder",
+    "nationality": "France"
+  },
+  "330239": {
+    "ko": "후고 볼린",
+    "original": "Hugo Bolin",
+    "name": "Hugo Bolin",
+    "dob": "2003-07-24",
+    "position": "Midfielder",
+    "nationality": "Sweden"
+  },
+  "330412": {
+    "ko": "카모리 둠비아",
+    "original": "Kamory Doumbia",
+    "name": "Kamory Doumbia",
+    "dob": "2003-02-18",
+    "position": "Midfielder",
+    "nationality": "Mali"
+  },
+  "335201": {
+    "ko": "니콜로 트레솔디",
+    "original": "Nicolo Tresoldi",
+    "name": "Nicolo Tresoldi",
+    "dob": "2004-08-20",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "336355": {
+    "ko": "밤바세 콩테",
+    "original": "Bambasé Conté",
+    "name": "Bambasé Conté",
+    "dob": "2003-07-07",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "337079": {
+    "ko": "야니크 엥겔하르트",
+    "original": "Yannick Engelhardt",
+    "name": "Yannick Engelhardt",
+    "dob": "2001-02-07",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "337970": {
+    "ko": "니코 파스",
+    "original": "Nico Paz",
+    "name": "Nico Paz",
+    "dob": "2004-09-08",
+    "position": "Midfielder",
+    "nationality": "Argentina"
+  },
+  "338854": {
+    "ko": "아담 다김",
+    "original": "Adam Daghim",
+    "name": "Adam Daghim",
+    "dob": "2005-09-28",
+    "position": "Forward",
+    "nationality": "Denmark"
+  },
+  "338894": {
+    "ko": "무릴루",
+    "original": "Murillo",
+    "name": "Murillo",
+    "dob": "2002-07-04",
+    "position": "Defender",
+    "nationality": "Brazil"
+  },
+  "340900": {
+    "ko": "알레샨드루",
+    "original": "Alexsandro",
+    "name": "Alexsandro",
+    "dob": "1999-08-09",
+    "position": "Defender",
+    "nationality": "Brazil"
+  },
+  "341826": {
+    "ko": "루카스 핀 핑커르트",
+    "original": "Lukas Finn Pinckert",
+    "name": "Lukas Finn Pinckert",
+    "dob": "2000-01-22",
+    "position": "Defender",
+    "nationality": "Germany"
+  },
+  "344844": {
+    "ko": "다닐루 베이가",
+    "original": "Danilo Veiga",
+    "name": "Danilo Veiga",
+    "dob": "2002-09-25",
+    "position": "Defender",
+    "nationality": "Portugal"
+  },
+  "344917": {
+    "ko": "바실리예 아지치",
+    "original": "Vasilije Adzic",
+    "name": "Vasilije Adzic",
+    "dob": "2006-05-12",
+    "position": "Midfielder",
+    "nationality": "Montenegro"
+  },
+  "346844": {
+    "ko": "티아구 산투스",
+    "original": "Tiago Santos",
+    "name": "Tiago Santos",
+    "dob": "2002-07-23",
+    "position": "Defender",
+    "nationality": "Portugal"
+  },
+  "346916": {
+    "ko": "앙투안 에노",
+    "original": "Antoine Hainaut",
+    "name": "Antoine Hainaut",
+    "dob": "2002-02-18",
+    "position": "Defender",
+    "nationality": "France"
+  },
+  "350501": {
+    "ko": "새뮤얼 아모아메야우",
+    "original": "Samuel Amo-Ameyaw",
+    "name": "Samuel Amo-Ameyaw",
+    "dob": "2006-07-18",
+    "position": "Forward",
+    "nationality": "England"
+  },
+  "353951": {
+    "ko": "요럴 하토",
+    "original": "Jorrel Hato",
+    "name": "Jorrel Hato",
+    "dob": "2006-03-07",
+    "position": "Defender",
+    "nationality": "Netherlands"
+  },
+  "354334": {
+    "ko": "페르민 로페스",
+    "original": "Fermín López",
+    "name": "Fermín López",
+    "dob": "2003-05-11",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "355369": {
+    "ko": "잔 우준",
+    "original": "Can Uzun",
+    "name": "Can Uzun",
+    "dob": "2005-11-11",
+    "position": "Midfielder",
+    "nationality": "Türkiye"
+  },
+  "358496": {
+    "ko": "모리스 크라텐마허",
+    "original": "Maurice Krattenmacher",
+    "name": "Maurice Krattenmacher",
+    "dob": "2005-08-11",
+    "position": "Midfielder",
+    "nationality": "Germany"
+  },
+  "359097": {
+    "ko": "말리크 얄쿠예",
+    "original": "Malick Yalcouyé",
+    "name": "Malick Yalcouyé",
+    "dob": "2005-11-18",
+    "position": "Midfielder",
+    "nationality": "Mali"
+  },
+  "359754": {
+    "ko": "알파조 치세",
+    "original": "Alphadjo Cissè",
+    "name": "Alphadjo Cissè",
+    "dob": "2006-10-22",
+    "position": "Midfielder",
+    "nationality": "Italy"
+  },
+  "359793": {
+    "ko": "유네스 에브누탈리브",
+    "original": "Younes Ebnoutalib",
+    "name": "Younes Ebnoutalib",
+    "dob": "2003-09-13",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "360714": {
+    "ko": "기오르기 크베르나제",
+    "original": "Giorgi Kvernadze",
+    "name": "Giorgi Kvernadze",
+    "dob": "2003-02-07",
+    "position": "Forward",
+    "nationality": "Georgia"
+  },
+  "361212": {
+    "ko": "이브라힘 마자",
+    "original": "Ibrahim Maza",
+    "name": "Ibrahim Maza",
+    "dob": "2005-11-24",
+    "position": "Midfielder",
+    "nationality": "Algeria"
+  },
+  "362150": {
+    "ko": "라민 야말",
+    "original": "Lamine Yamal",
+    "name": "Lamine Yamal",
+    "dob": "2007-07-13",
+    "position": "Forward",
+    "nationality": "Spain"
+  },
+  "364180": {
+    "ko": "프라뇨 이바노비치",
+    "original": "Franjo Ivanovic",
+    "name": "Franjo Ivanovic",
+    "dob": "2003-10-01",
+    "position": "Forward",
+    "nationality": "Croatia"
+  },
+  "364742": {
+    "ko": "아산 디아오",
+    "original": "Assane Diao",
+    "name": "Assane Diao",
+    "dob": "2005-09-07",
+    "position": "Forward",
+    "nationality": "Senegal"
+  },
+  "364754": {
+    "ko": "파노스 카체리스",
+    "original": "Panos Katseris",
+    "name": "Panos Katseris",
+    "dob": "2001-07-05",
+    "position": "Defender",
+    "nationality": "Greece"
+  },
+  "365789": {
+    "ko": "파리스 브루너",
+    "original": "Paris Brunner",
+    "name": "Paris Brunner",
+    "dob": "2006-02-15",
+    "position": "Forward",
+    "nationality": "Germany"
+  },
+  "366911": {
+    "ko": "티디앙 고미스",
+    "original": "Tidiam Gomis",
+    "name": "Tidiam Gomis",
+    "dob": "2006-08-08",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "367558": {
+    "ko": "조르디 마켕고",
+    "original": "Jordy Makengo",
+    "name": "Jordy Makengo",
+    "dob": "2001-08-03",
+    "position": "Defender",
+    "nationality": "France"
+  },
+  "367946": {
+    "ko": "하비 에르난데스",
+    "original": "Javi Hernandez",
+    "name": "Javi Hernandez",
+    "dob": "2004-01-30",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "370758": {
+    "ko": "자카리 아테카메",
+    "original": "Zachary Athekame",
+    "name": "Zachary Athekame",
+    "dob": "2004-12-13",
+    "position": "Defender",
+    "nationality": "Switzerland"
+  },
+  "372026": {
+    "ko": "핀 옐치",
+    "original": "Finn Jeltsch",
+    "name": "Finn Jeltsch",
+    "dob": "2006-07-17",
+    "position": "Defender",
+    "nationality": "Germany"
+  },
+  "374621": {
+    "ko": "앙헬 페레스",
+    "original": "Ángel Pérez",
+    "name": "Ángel Pérez",
+    "dob": "2002-08-29",
+    "position": "Defender",
+    "nationality": "Spain"
+  },
+  "376423": {
+    "ko": "마르크 베르날",
+    "original": "Marc Bernal",
+    "name": "Marc Bernal",
+    "dob": "2007-05-26",
+    "position": "Midfielder",
+    "nationality": "Spain"
+  },
+  "376473": {
+    "ko": "프랑코 마스탄투오노",
+    "original": "Franco Mastantuono",
+    "name": "Franco Mastantuono",
+    "dob": "2007-08-14",
+    "position": "Forward",
+    "nationality": "Argentina"
+  },
+  "378458": {
+    "ko": "해리슨 암스트롱",
+    "original": "Harrison Armstrong",
+    "name": "Harrison Armstrong",
+    "dob": "2007-01-19",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "379012": {
+    "ko": "제심 야신",
+    "original": "Gessime Yassine",
+    "name": "Gessime Yassine",
+    "dob": "2005-11-22",
+    "position": "Forward",
+    "nationality": "Morocco"
+  },
+  "379865": {
+    "ko": "티아구 가브리엘",
+    "original": "Tiago Gabriel",
+    "name": "Tiago Gabriel",
+    "dob": "2004-12-26",
+    "position": "Defender",
+    "nationality": "Portugal"
+  },
+  "384482": {
+    "ko": "구스타부 바렐라",
+    "original": "Gustavo Varela",
+    "name": "Gustavo Varela",
+    "dob": "2005-01-30",
+    "position": "Forward",
+    "nationality": "Portugal"
+  },
+  "390389": {
+    "ko": "야시르 자비리",
+    "original": "Yassir Zabiri",
+    "name": "Yassir Zabiri",
+    "dob": "2005-02-23",
+    "position": "Forward",
+    "nationality": "Morocco"
+  },
+  "398004": {
+    "ko": "다비드 모크와",
+    "original": "David Mokwa",
+    "name": "David Mokwa",
+    "dob": "2004-05-03",
+    "position": "Forward",
+    "nationality": "France"
+  },
+  "399214": {
+    "ko": "헤네스 베렌스",
+    "original": "Hennes Behrens",
+    "name": "Hennes Behrens",
+    "dob": "2005-01-19",
+    "position": "Defender",
+    "nationality": "Germany"
+  },
+  "403582": {
+    "ko": "샤비 에스파르트",
+    "original": "Xavi Espart",
+    "name": "Xavi Espart",
+    "dob": "2007-05-21",
+    "position": "Defender",
+    "nationality": "Spain"
+  },
+  "408780": {
+    "ko": "아니스 우제나지",
+    "original": "Anis Ouzenadji",
+    "name": "Anis Ouzenadji",
+    "dob": "2006-11-04",
+    "position": "Defender",
+    "nationality": "France"
+  },
+  "409541": {
+    "ko": "조시 킹",
+    "original": "Josh King",
+    "name": "Josh King",
+    "dob": "2007-01-03",
+    "position": "Midfielder",
+    "nationality": "England"
+  },
+  "412232": {
+    "ko": "우스만 카마라",
+    "original": "Ousmane Camara",
+    "name": "Ousmane Camara",
+    "dob": "2003-03-06",
+    "position": "Defender",
+    "nationality": "Mali"
+  },
+  "418536": {
+    "ko": "아딜 부라바",
+    "original": "Adil Bourabaa",
+    "name": "Adil Bourabaa",
+    "dob": "2004-11-30",
+    "position": "Midfielder",
+    "nationality": "France"
+  }
+}

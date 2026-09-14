@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 import { categories, getAncestorChain, getArticlePath } from '../config/categories';
 import { site } from '../config/site';
 import { isNewlyPublished } from '../utils/freshness';
-import TodayFootball from '../components/TodayFootball.astro';
+import HaechukBanner from '../components/HaechukBanner.astro';
 import { imageFocusStyle } from '../utils/imageFocus';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
@@ -184,7 +184,7 @@ const fillClass = (src?: string) => (src && homeFill.get(src) ? 'media-frame--fi
       <p class="empty-state">첫 번째 이야기를 준비하고 있습니다.</p>
     )}
 
-    <TodayFootball />
+    <HaechukBanner />
 
     <section class="below-fold" aria-labelledby="latest-heading">
       <div class="section-heading">
