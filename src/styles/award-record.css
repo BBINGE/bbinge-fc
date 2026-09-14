@@ -93,6 +93,16 @@
 .award-record .archive-body .award-stat-list li > span { flex: 1 1 220px; }
 .award-record .archive-body .award-stat-list strong { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .award-record .archive-body .award-stat-total { padding-bottom: 9px; border-bottom: 1px solid var(--record-rule); }
+/* 개인 스탯은 시즌 · 연간(발롱도르 평가 기간) · 초청대회 세 묶음으로 나누고, 합계 아래 내역은 들여 써서 셈이 한눈에 맞게 한다. */
+.award-record .archive-body .award-stat-group { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 12px; margin: 22px 0 10px; padding: 6px 10px; border-radius: 6px; background: rgba(0,0,0,.16); font-size: 12px; line-height: 1.5; color: inherit; }
+.award-record .archive-body .award-stat-group:first-of-type { margin-top: 0; }
+.award-record .archive-body .award-stat-group b { font-size: 14px; font-weight: 800; letter-spacing: .02em; color: var(--record-accent); }
+.award-record .archive-body .award-stat-group small { font-size: 11px; opacity: .85; }
+.award-record .archive-body .award-achievements-di-stefano .award-stat-group { background: rgba(80,50,0,.12); }
+.award-record .archive-body .award-stat-list li.award-stat-sub { margin-top: 4px; padding-left: 18px; font-size: 13px; opacity: .86; }
+.award-record .archive-body .award-stat-list li.award-stat-sub > span::before { content: '└ '; opacity: .7; }
+.award-record .archive-body .award-stat-list li.award-stat-sub + li:not(.award-stat-sub) { margin-top: 10px; }
+.award-record .archive-body .award-stat-list li.award-stat-extra { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--record-rule); font-size: 13px; opacity: .86; }
 .award-record .award-table-shell { overflow: hidden; border: 1px solid #d7cfb7; border-radius: 14px; margin: 28px 0; }
 .award-record .award-table-wrap { width: 100%; min-width: 0; }
 .award-record .archive-body .award-ranking { display: table; margin: 0; width: 100%; min-width: 0; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: 14px; }

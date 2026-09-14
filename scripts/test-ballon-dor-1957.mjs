@@ -15,7 +15,7 @@ const expectations = [
   { id: 170730, season: [30, 8], club: [34, 10], national: [0, 0], total: [34, 10] },
   { id: 289544, season: [48, 6], club: [50, 8], national: [7, 2], total: [57, 10] },
 ];
-const panels = [...source.matchAll(/<ul class="award-stat-list">([\s\S]*?)<\/ul>/g)].map(m => m[1]);
+const panels = [...source.matchAll(/<section><h3>개인 스탯<\/h3>([\s\S]*?)<\/section>/g)].map(m => m[1]);
 assert.equal(panels.length, 4, '포디움 네 명의 스탯 패널');
 for (const [index, expected] of expectations.entries()) {
   const games = ledger.players.find(player => player.id === expected.id).games;
@@ -33,6 +33,10 @@ for (const [index, expected] of expectations.entries()) {
   assert(panel.includes(`1957년 클럽 공식전</span><strong>${label(actual.club)}`), 'annual club ' + expected.id);
   assert(panel.includes(`1957년 국가대표팀</span><strong>${label(actual.national)}`), 'national ' + expected.id);
   assert(panel.includes(`1957년 클럽＋국가대표팀 합계</span><strong>${label(actual.total)}`), 'annual total ' + expected.id);
+  // 연간 클럽 기록은 상반기(1956-57 시즌)와 하반기(1957-58 시즌)로 나눠 보여 주고, 두 줄의 합이 연간 합계와 같아야 한다.
+  const spring = annual.filter(game => !game.national && game.season === 1956), autumn = annual.filter(game => !game.national && game.season === 1957);
+  assert(panel.includes(`상반기 · 1956-57 시즌</span><strong>${label(sum(spring))}`) && panel.includes(`하반기 · 1957-58 시즌</span><strong>${label(sum(autumn))}`), 'half-year split ' + expected.id);
+  assert.deepEqual([spring.length + autumn.length, sum(spring)[1] + sum(autumn)[1]], actual.club, 'split adds up ' + expected.id);
 }
 
 assert.equal(data.ranking.length, 23);
