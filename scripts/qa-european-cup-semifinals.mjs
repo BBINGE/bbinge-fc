@@ -39,7 +39,7 @@ try {
     await page.keyboard.press('Enter');
     assert(await details.evaluate(el => el.open));
     await details.screenshot({ path: `${out}/table-${width}.png` });
-    for (const name of ['스타드 드 랭스', '히버니언 FC', '레알 마드리드', 'AC 밀란']) assert(await details.getByText(name, { exact: true }).count() > 0);
+    for (const name of ['스타드 드 랭스', '히버니언 FC', '레알 마드리드 CF', 'AC 밀란']) assert(await details.getByText(name, { exact: true }).count() > 0);
     const radii = await details.evaluate(el => {
       const outer = getComputedStyle(el);
       const summary = getComputedStyle(el.querySelector(':scope > summary'));

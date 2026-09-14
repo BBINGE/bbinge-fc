@@ -6,6 +6,12 @@
       "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
       "runtimeArgs": ["./node_modules/astro/bin/astro.mjs", "dev", "--port", "4321"],
       "port": 4321
+    },
+    {
+      "name": "bbinge-fc-preview",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "runtimeArgs": ["./node_modules/astro/bin/astro.mjs", "preview", "--port", "4323"],
+      "port": 4323
     }
   ]
 }

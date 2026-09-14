@@ -116,7 +116,7 @@ draft: false
 
 필자는 빌리 라이트를 바비 무어, 존 테리, 리오 퍼디낸드와 함께 잉글랜드 대표팀 역사상 가장 위대한 수비수로 꼽는다. 역대 잉글랜드 베스트 11을 고른다면 바비 무어의 파트너로 거의 매번 거론될 이름이다. 제2차 세계대전 직후 대표팀에 들어온 그는 1948년 10월 9일 아일랜드전에서 처음 주장 완장을 찼고, 모두 90경기에서 잉글랜드의 주장을 맡았다. 1957년의 A매치 7경기도 전부 주장으로 뛰었다. 잉글랜드 축구가 1950년 월드컵과 1953년 헝가리전의 충격을 지나 다시 자리를 찾던 시기가 그의 경력과 겹친다. <a class="cite" href="#source-8">[8]</a>
 
-지금의 울버햄프턴 원더러스를 떠올리면 이 순위가 낯설 수 있다. 1950년대의 울브스는 사정이 달랐다. 1953-54 시즌에 리그를 우승했고, 몰리뉴에 조명을 세운 뒤 유럽의 강팀을 불러 친선경기를 치렀다. 1954년 12월 13일에는 부다페스트 혼베드를 3-2로 이겼고, 영국 언론이 울브스를 ‘세계 챔피언’이라고 부르자 《레키프》의 가브리엘 아노<span class="foreign-note" lang="fr">(Gabriel Hanot; 프랑스 축구선수 출신 기자, 1889-1968)</span>가 유럽 클럽 대항전으로 증명하자고 받아쳤다. 울브스 역대 레전드를 꼽을 때 1950~60년대 선수가 많이 거론되는 이유가 여기에 있고, 그 팀의 주장이 라이트였다. <a class="cite" href="#source-9">[9]</a>
+지금의 울버햄프턴 원더러스를 떠올리면 이 순위가 낯설 수 있다. 1950년대의 울브스는 사정이 달랐다. 1953-54 시즌에 리그를 우승했고, 몰리뉴에 조명을 세운 뒤 세계의 강팀을 불러 친선경기를 치렀다. 1954년 3월 아르헨티나의 라싱 클루브를 3-1, 11월 스파르타크 모스크바를 4-0으로 꺾었고, 12월 13일에는 부다페스트 혼베드를 3-2로 이겼다. 오호라, 이 팀 왜 이렇게 강하지 싶은 성적이다. 혼베드전 뒤 영국 언론이 울브스를 ‘세계 챔피언’이라고 부르자 영국 언론이 울브스를 ‘세계 챔피언’이라고 부르자 《레키프》의 가브리엘 아노<span class="foreign-note" lang="fr">(Gabriel Hanot; 프랑스 축구선수 출신 기자, 1889-1968)</span>가 유럽 클럽 대항전으로 증명하자고 받아쳤다. 조명 아래의 행진은 그 뒤로도 이어져 1955년 디나모 모스크바를 2-1, 1957년 10월 17일에는 두 번째 유러피언컵을 막 들어 올린 레알 마드리드를 3-2로 이겼다. 다만 레알전에는 라이트가 부상으로 빠졌다. 울브스 역대 레전드를 꼽을 때 1950~60년대 선수가 많이 거론되는 이유가 여기에 있고, 그 팀의 주장이 라이트였다. <a class="cite" href="#source-9">[9]</a><a class="cite" href="#source-23">[23]</a>
 
 1957년 달력 안에서 라이트는 리그 40경기와 FA컵 2경기에 나섰다. 울브스는 1956-57 시즌 리그 6위에 머물렀고, FA컵에서는 1월 26일 몰리뉴에서 3부 리그 본머스 앤드 보스컴 애슬레틱<span class="foreign-note" lang="en">(Bournemouth & Boscombe Athletic)</span>에 0-1로 졌다. 대표팀에서는 브리티시 홈 챔피언십 우승과 1958년 월드컵 본선 진출을 이끌었다. <a class="cite" href="#source-10">[10]</a><a class="cite" href="#source-11">[11]</a><a class="cite" href="#source-16">[16]</a>
 
@@ -164,7 +164,7 @@ draft: false
 
 1957년 달력에서 에드워즈는 클럽 공식전 50경기에 나섰다. 리그 36경기 7골, FA컵 6경기 1골, 유러피언컵 7경기, 10월 22일 애스턴 빌라를 4-0으로 이긴 FA 채리티 실드까지 더한 숫자다. 대표팀에서는 4월 6일 스코틀랜드전과 11월 6일 북아일랜드전에서 골을 넣었다. 스물한 살 선수가 한 해에 57경기를 치렀다. <a class="cite" href="#source-12">[12]</a><a class="cite" href="#source-17">[17]</a>
 
-1956년 2점으로 공동 13위였던 에드워즈는 1957년 16점을 받았다. 코파와 점수는 같았지만 표의 모양은 달랐다. 에드워즈를 적은 기자는 6명으로 코파보다 한 명 적었고, 대신 2위표 1장과 3위표 3장이 있었다. 코파는 더 많은 기자에게 고르게 표를 받았고, 에드워즈는 더 적은 기자에게 더 높은 순위를 받아 같은 16점에 닿았다. 에드워즈는 이듬해 2월 21일 뮌헨 사고의 부상으로 세상을 떠났다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-15">[15]</a>
+1956년 2점으로 공동 13위였던 에드워즈는 1957년 16점을 받았다. 두 선수가 3위를 함께 나눈 이 결과는 발롱도르 역사에서도 드문 장면이다. 《프랑스 풋볼》이 단독으로 시상한 1956년부터 2009년까지 쉰네 번의 투표에서 3위에 두 선수가 오른 해는 1957년이 유일하고, 포디움에 공동 순위가 걸린 해도 1972년(2위 두 명)과 1991년(2위 세 명)을 더해 세 번뿐이다. 코파와 점수는 같았지만 표의 모양은 달랐다. 에드워즈를 적은 기자는 6명으로 코파보다 한 명 적었고, 대신 2위표 1장과 3위표 3장이 있었다. 코파는 더 많은 기자에게 고르게 표를 받았고, 에드워즈는 더 적은 기자에게 더 높은 순위를 받아 같은 16점에 닿았다. 에드워즈는 이듬해 2월 21일 뮌헨 사고의 부상으로 세상을 떠났다. <a class="cite" href="#source-1">[1]</a><a class="cite" href="#source-15">[15]</a>
 
 <h2 id="ranking">1957년 발롱도르 전체 랭킹</h2>
 
@@ -214,5 +214,6 @@ draft: false
 <li id="source-20">울브스 문장: Felipe Fidelis Tobias, <a href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Wolverhampton.svg" target="_blank" rel="noopener noreferrer">“Coat of arms of Wolverhampton”</a>, Wikimedia Commons, CC BY-SA 4.0. 울브스가 1921·1939·1960년 FA컵 결승에서 착용한 울버햄프턴 문장. 착용 연혁은 <a href="https://www.historicalkits.co.uk/Wolverhampton_Wanderers/Wolverhampton_Wanderers.htm" target="_blank" rel="noopener noreferrer">Historical Football Kits</a>.</li>
 <li id="source-21">RSSSF, <a href="https://www.rsssf.org/tablest/tiparis.html" target="_blank" rel="noopener noreferrer">“Tournoi International de Paris”</a>. 1957년 6월 11-14일 대회의 레알 마드리드 경기 명단과 득점(준결승 로트바이스 에센 5-0, 결승 바스쿠 다가마 3-4).</li>
 <li id="source-22">위키백과, <a href="https://en.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano" target="_blank" rel="noopener noreferrer">“Alfredo Di Stéfano”</a>. 개인 수상 목록의 스페인 올해의 선수(운동선수) 1957·1959·1960·1964년.</li>
+<li id="source-23">울버햄프턴 원더러스 FC, <a href="https://www.wolves.co.uk/news/features/20201112-old-gold-wolves-european-cup-anniversary/" target="_blank" rel="noopener noreferrer">“Old Gold: Wolves’ European Cup anniversary”</a>. 1953-1958년 몰리뉴 조명 친선경기 결과(라싱 클루브·스파르타크 모스크바·혼베드·디나모 모스크바·레알 마드리드)와 레알전 라이트 결장. RSSSF, <a href="https://www.rsssf.org/miscellaneous/europa-poy.html" target="_blank" rel="noopener noreferrer">연도별 발롱도르 투표 기록</a>. 1956-2009년 공동 순위 대조.</li>
 </ol>
 </div>
