@@ -133,7 +133,7 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
     label: '대회관 · 베스트 11',
     title: '그해 가장 잘한 열한 명은 누구였나',
     description: '44경기의 라인업과 등번호로 다시 고른 두 번째 대회의 베스트 11',
-    image: '/images/highlights/1956-57-european-cup-final-thumbnail.jpg',
+    image: '/images/archive/1956-57-european-cup-tournament-best-xi/cover.webp',
     theme: 'european-cup',
   },
   {

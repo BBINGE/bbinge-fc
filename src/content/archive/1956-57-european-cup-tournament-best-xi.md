@@ -8,11 +8,11 @@ subject: '1956-57 시즌 유러피언컵 베스트 11'
 originalTitle: '1956-57 European Champion Clubs’ Cup: Tournament Best XI'
 keywords: ['1956-57 유러피언컵 베스트 11', '유러피언컵 베스트 11', '알프레도 디스테파노', '레몽 코파', '프란시스코 헨토', '데니스 바이올렛', '토미 테일러', '던컨 에드워즈', '로저 번', '블라디미르 베아라', '버스비의 아이들']
 pubDate: 2026-09-14T12:10:00+09:00
-coverImage: '/images/highlights/1956-57-european-cup-final-thumbnail.jpg'
-coverImageAlt: '베르나베우에서 헤더 경합을 벌이는 레알 마드리드 CF와 AC 피오렌티나 선수들, 왼쪽에 두 구단 문장과 2-0 스코어를 넣은 편집 이미지'
-coverImageCaption: '두 번째 유러피언컵 결승에서 만난 레알 마드리드 CF와 AC 피오렌티나. 디자인: 삥이FC.'
-coverImageWidth: 966
-coverImageHeight: 966
+coverImage: '/images/archive/1956-57-european-cup-tournament-best-xi/cover.webp'
+coverImageAlt: '유러피언컵 트로피 배경의 1956-57 시즌 유러피언컵 Best XI 문구와 트로피를 머리 위로 들어 올린 레알 마드리드 CF 선수들'
+coverImageCaption: '1956-57 시즌 유러피언컵 베스트 11. 디자인: 삥이FC.'
+coverImageWidth: 1080
+coverImageHeight: 1080
 relatedGroup: 'european-cup-1956-57'
 draft: false
 ---
