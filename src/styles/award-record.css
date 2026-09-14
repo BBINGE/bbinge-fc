@@ -40,15 +40,17 @@
 .historical-identity .identity-label { display: block; font-size: 11px; letter-spacing: .14em; font-weight: 800; }
 .historical-identity strong { display: block; margin-top: 6px; font-size: 22px; line-height: 1.4; color: inherit; }
 .historical-identity small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
-.historical-identity .identity-uk { background-color: #062765; background-image: linear-gradient(90deg,#062765 0 68%,transparent 86%),url('/images/flags/gb.svg'); background-position: center,right center; background-size: 100% 100%,auto 100%; background-repeat: no-repeat; }
+.historical-identity .identity-uk { --flag-bg: url('/images/flags/gb.svg'); --flag-bg-ratio: 4 / 3; background-color: #062765; }
 .historical-identity .identity-uk .identity-art { background: #062765; }
-.historical-identity .identity-england { --flag-ratio: 5 / 3; background-color: #fff; background-image: linear-gradient(90deg,#fff 0 68%,transparent 86%),url('/images/flags/gb-eng.svg'); background-position: center,right center; background-size: 100% 100%,auto 100%; background-repeat: no-repeat; color: #991c2f; }
+.historical-identity .identity-england { --flag-ratio: 5 / 3; --flag-bg: url('/images/flags/gb-eng.svg'); --flag-bg-ratio: 5 / 3; background-color: #fff; color: #991c2f; }
+/* 오른쪽 국기는 왼쪽으로 갈수록 투명해져 행 배경색에 스며든다. 국기 도안은 비율 그대로 두고 마스크만 건다. */
+.historical-identity :is(.identity-uk,.identity-england) { position: relative; isolation: isolate; overflow: hidden; }
+.historical-identity :is(.identity-uk,.identity-england)::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; z-index: -1; aspect-ratio: var(--flag-bg-ratio); background: var(--flag-bg) center / cover no-repeat; -webkit-mask-image: linear-gradient(90deg,transparent 0%,rgba(0,0,0,.18) 28%,rgba(0,0,0,.55) 58%,rgba(0,0,0,.88) 84%,#000 100%); mask-image: linear-gradient(90deg,transparent 0%,rgba(0,0,0,.18) 28%,rgba(0,0,0,.55) 58%,rgba(0,0,0,.88) 84%,#000 100%); pointer-events: none; }
 .historical-identity :is(.identity-uk,.identity-england) > div { padding-right: 27%; }
 .historical-identity .identity-england .identity-art { border-color: #d8d8d8; }
 .historical-identity .identity-spain { --flag-ratio: 3 / 2; }
 .historical-identity .identity-england-team { background: #0c2454; }
-.historical-identity .identity-england-team .identity-art { width: 48px; height: 60px; justify-self: center; }
-.archive-body .historical-identity .identity-england-team .identity-art img { width: 48px; height: 70px; top: 0; transform: translateX(-50%); }
+.historical-identity .identity-england-team .identity-art { width: 64px; height: 76px; justify-self: center; }
 .historical-identity .identity-blackpool { background: #ef741c; color: #291609; }
 .historical-identity .identity-blackpool .identity-art { width: 72px; height: 79px; justify-self: center; }
 .archive-body .historical-identity .identity-blackpool .identity-art img { width: 72px; height: auto; top: 0; transform: translateX(-50%); }
@@ -57,8 +59,7 @@
 .historical-identity .identity-real-madrid { background: linear-gradient(125deg,#fff 0 78%,#542788 78% 85%,#fff 85%); color: #302849; }
 .historical-identity .identity-reims { background: linear-gradient(90deg,#faf9f6 0 4%,#bd1730 4% 96%,#faf9f6 96%); }
 .historical-identity .identity-wolves { background: #fdb913; color: #231f20; }
-.historical-identity .identity-wolves .identity-art { width: 64px; height: 84px; justify-self: center; }
-.archive-body .historical-identity .identity-wolves .identity-art img { width: 64px; height: auto; top: 0; transform: translateX(-50%); }
+.historical-identity .identity-wolves .identity-art { width: 76px; height: 94px; justify-self: center; }
 .historical-identity .identity-manchester-united { background: #c8102e; }
 .award-record .award-podium.award-podium-four { grid-template-columns: repeat(4,minmax(0,1fr)); }
 .award-record .award-score-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 26px; border-radius: 12px; background: #10110d; color: #e3d49b; margin: 26px 0; }
@@ -174,14 +175,12 @@
   .historical-identity .identity-art { width: 62px; height: 74px; }
   .historical-identity [data-identity-kind$="country"] .identity-art { height: auto; border-radius: 7px; }
   .historical-identity :is(.identity-uk,.identity-england) > div { padding-right: 26%; }
-  .historical-identity .identity-uk { background-image: linear-gradient(90deg,#062765 0 79%,transparent 92%),url('/images/flags/gb.svg'); }
-  .historical-identity .identity-england { background-image: linear-gradient(90deg,#fff 0 79%,transparent 92%),url('/images/flags/gb-eng.svg'); }
   .archive-body .historical-identity .identity-art-wide img { width: 130px; height: 74px; }
   .historical-identity strong { margin-top: 4px; font-size: 19px; }
   .historical-identity small { margin-top: 3px; font-size: 11px; }
   .award-record .award-podium.award-podium-four { grid-template-columns: repeat(2,minmax(0,1fr)); }
-  .historical-identity .identity-wolves .identity-art { width: 52px; height: 68px; }
-  .archive-body .historical-identity .identity-wolves .identity-art img { width: 52px; }
+  .historical-identity .identity-wolves .identity-art { width: 58px; height: 72px; }
+  .historical-identity .identity-england-team .identity-art { width: 50px; height: 60px; }
   .historical-identity .identity-blackpool .identity-art { width: 60px; height: 66px; }
   .archive-body .historical-identity .identity-blackpool .identity-art img { width: 60px; }
   .award-record .award-achievements section { padding: 20px; }

@@ -44,6 +44,7 @@ assert.equal((source.match(/data-award-record="1957-ballon-dor:identity-[a-z-]+"
 const html = expandAwardRecords(source);
 assert.equal((html.match(/class="identity-row/g) ?? []).length, 14, '3 + 4 + 3 + 4 identity rows');
 assert(html.includes('<th scope="col">1957년 소속 구단</th>'));
-assert.equal(resolveHistoricalIdentity('wolves', 1957).src, '/images/archive/identity/wolves-1960.gif');
+assert.equal(resolveHistoricalIdentity('wolves', 1957).src, '/images/archive/identity/wolverhampton-arms.svg');
+assert(!readFileSync('public/images/archive/identity/england-three-lions.svg', 'utf8').includes('fill:#e6e6e6'), '1966년 이후의 별은 1950년대 대표팀 문장에 넣지 않는다');
 assert.throws(() => resolveHistoricalIdentity('wolves', 1956));
 console.log('1957 BALLON D’OR DATA: PASS');

@@ -136,8 +136,9 @@ try {
         return Math.abs(box.width / box.height - image.naturalWidth / image.naturalHeight) < .02;
       }), 'flag frame follows source proportions without letterboxing');
     }
-    assert.match(await page.locator('.identity-uk').evaluate(el => getComputedStyle(el).backgroundImage), /gb\.svg/);
-    assert.match(await page.locator('.identity-england').evaluate(el => getComputedStyle(el).backgroundImage), /gb-eng\.svg/);
+    assert.match(await page.locator('.identity-uk').evaluate(el => getComputedStyle(el, '::after').backgroundImage), /gb\.svg/);
+    assert.match(await page.locator('.identity-england').evaluate(el => getComputedStyle(el, '::after').backgroundImage), /gb-eng\.svg/);
+    assert.match(await page.locator('.identity-england').evaluate(el => getComputedStyle(el, '::after').maskImage || getComputedStyle(el, '::after').webkitMaskImage), /linear-gradient/, 'flag fades into the row colour');
     assert.match(await page.locator('.identity-real-madrid').first().evaluate(el => getComputedStyle(el).backgroundImage), /125deg/);
     assert(await page.locator('.award-cover').evaluate(el => !!(document.querySelector('#ranking').compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)));
     const checks = await page.evaluate(() => ({
