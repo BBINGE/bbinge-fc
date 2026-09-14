@@ -159,7 +159,6 @@ const leaderMeta = (row: Leader) => [row.nationality, row.age ? `${row.age}세` 
     })}
 
     <footer class="hc-foot">
-      <p>월드컵·유로·아시안컵은 대회 기간에 이 현황판에 열립니다. <a href="/archive/national-team/fifa-world-cup/">지난 대회 기록 보기</a></p>
       <p>데이터 제공 ESPN · 삥이FC 한국시간·한글명 편집 · 선수 나이는 오늘 기준</p>
     </footer>
   </div>
@@ -296,7 +295,6 @@ const leaderMeta = (row: Leader) => [row.nationality, row.age ? `${row.age}세` 
 
   .hc-foot { margin-top:22px; color:var(--bbfc-gray-2); font-size:13px; line-height:1.7; }
   .hc-foot p { margin:0; }
-  .hc-foot a { color:var(--bbfc-blue); text-decoration:underline; text-underline-offset:3px; }
   @media (max-width: 860px) {
     .hc-side { grid-template-columns:minmax(0,1fr); }
   }
