@@ -34,5 +34,5 @@ UEFA `match.uefa.com/v5/matches?competitionId=1&seasonYear=1956&limit=100&offset
 - 마그니니·줄리뉴: Commons `AC Fiorentina Serie A 1955-56.jpg`(퍼블릭 도메인, 뒷줄 왼쪽 두 번째)·`Julinho, Estadio, 1954-06-26 (580).jpg`(퍼블릭 도메인).
 - 테일러·바이올렛: Commons `Tommy Taylor 1957 (cropped).jpg`·`Dennis Viollet 1957.jpg`(Eskil Malmberg, 퍼블릭 도메인). 번: 저장소의 같은 1957 맨유 단체 사진(`1956-57-european-cup/manchester-united-1957.webp`) 앞줄 왼쪽 네 번째에서 크롭.
 - 디스테파노·코파·에드워즈: 1957 발롱도르 편 운영자 제공 사진에서 얼굴 중심 크롭.
-- 마르키토스·헨토: 첫 발행은 마르키토스를 레알 문장 카드로, 헨토를 1971년 Anefo 초상으로 대체했으나 운영자 지적으로 `real-madrid-death-squad-best-xi/marquitos.png`·`paco-gento.png`(운영자 제작 선수 카드)의 선수 시절 사진에서 얼굴만 잘라 교체했다(카드의 문장·국기·이름 글자는 크롭 영역 밖). 다음 레알 선수는 먼저 이 축쿼드 자산을 찾는다.
+- 마르키토스·헨토: 첫 발행은 마르키토스를 레알 문장 카드로, 헨토를 1971년 Anefo 초상으로 대체했으나 운영자 지적으로 `real-madrid-death-squad-best-xi/marquitos.png`·`paco-gento.png`(운영자 제작 선수 카드)의 선수 시절 사진에서 얼굴만 잘라 교체했다(카드의 문장·국기·이름 글자는 크롭 영역 밖). 다음 레알 선수는 먼저 이 축쿼드 자산을 찾는다. 헨토는 그 크롭이 너무 바짝 잘려 원형 칸에서 이마·턱이 잘린다는 운영자 지적으로, 운영자가 준 베르나베우 선수 시절 사진(바탕화면 `37433.jpg`, 270×270)을 머리 위·어깨가 들어가게 3:4로 잘라 다시 교체했다. 카드(142×184, 위 20%)와 원형(62px, 위 22%) 두 칸을 미리 그려 보고 올렸다.
 - A/B 외부 위험 신호 없음. C등급, NO ACTION.
