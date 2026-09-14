@@ -85,6 +85,7 @@
 - 결승 H/L: [승인 원고](src/content/articles/1955-56-european-cup-final-real-madrid-stade-de-reims.md), [사료 메모](docs/editorial/1955-56-european-cup-final-source-audit.md), [검수](scripts/qa-european-cup-final.mjs)
 - 대진 검수: [4강](scripts/qa-european-cup-semifinals.mjs), [1956-57 본선 화면](scripts/qa-european-cup-1956-57.mjs)
 - 1955-56 득점 순위: [승인 원고](src/content/archive/1955-56-european-cup-top-scorers.md), [득점 데이터](src/data/european-cup-scorers.json), [사료 메모](docs/editorial/1955-56-european-cup-top-scorers-source-audit.md)
+- 1956-57 베스트 11: [승인 원고](src/content/archive/1956-57-european-cup-tournament-best-xi.md), [사료 메모](docs/editorial/1956-57-european-cup-best-xi-source-audit.md). 운영자 확정으로 역할어는 등번호 복원을 기본으로 하되, 필자가 경기 방식에 따라 자리를 옮긴 선수(1956-57 디스테파노 RH)는 전술판 배치 설명·선수 카드·기록 기준 세 곳에 등번호와 필자 배치를 함께 밝힌다.
 - 1956-57 득점 순위: [승인 원고](src/content/archive/1956-57-european-cup-top-scorers.md), [사료 메모](docs/editorial/1956-57-european-cup-top-scorers-source-audit.md)
 - 1956-57 4강: [승인 원고](src/content/archive/1956-57-european-cup-semifinals.md), [사료 메모](docs/editorial/european-cup-1956-57-semifinals-source-audit.md)
 - 1956-57 본선: [승인 원고](src/content/archive/1956-57-european-cup.md), [대진 데이터](src/data/cup-ties/1956-57-european-cup.json), [사료 메모](docs/editorial/european-cup-1956-57-source-audit.md)
