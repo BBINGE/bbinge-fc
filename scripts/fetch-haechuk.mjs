@@ -6,6 +6,7 @@ import { dirname, resolve } from 'node:path';
 const outputPath = resolve('src/data/haechuk.json');
 const playersPath = resolve('src/data/haechuk-players.json');
 const teamLabelsPath = resolve('src/data/football-team-labels.json');
+const teamFullPath = resolve('src/data/haechuk-teams.json');
 const updatePlayers = process.argv.includes('--update-players');
 
 const KST_OFFSET = 9 * 60 * 60 * 1000;
@@ -43,6 +44,25 @@ const ZONE_LABELS = new Map([
 
 const POSITION_LABELS = { Forward: '공격수', Midfielder: '미드필더', Defender: '수비수', Goalkeeper: '골키퍼' };
 
+const NATIONALITY_LABELS = {
+  Albania: '알바니아', Algeria: '알제리', Argentina: '아르헨티나', Armenia: '아르메니아', Australia: '오스트레일리아', Austria: '오스트리아',
+  Belgium: '벨기에', 'Bosnia and Herzegovina': '보스니아 헤르체고비나', Brazil: '브라질', Bulgaria: '불가리아', 'Burkina Faso': '부르키나파소',
+  Cameroon: '카메룬', Canada: '캐나다', 'Cape Verde': '카보베르데', 'Central African Republic': '중앙아프리카 공화국', Chile: '칠레', China: '중국',
+  Colombia: '콜롬비아', 'DR Congo': '콩고 민주 공화국', 'Congo DR': '콩고 민주 공화국', Croatia: '크로아티아', 'Curaçao': '퀴라소', Cyprus: '키프로스',
+  Czechia: '체코', 'Czech Republic': '체코', Denmark: '덴마크', 'Dominican Republic': '도미니카 공화국', Ecuador: '에콰도르', Egypt: '이집트',
+  England: '잉글랜드', Estonia: '에스토니아', Finland: '핀란드', France: '프랑스', Gabon: '가봉', Gambia: '감비아', Georgia: '조지아',
+  Germany: '독일', Ghana: '가나', Greece: '그리스', Guinea: '기니', 'Guinea-Bissau': '기니비사우', Hungary: '헝가리', Iceland: '아이슬란드',
+  Iran: '이란', Iraq: '이라크', Israel: '이스라엘', Italy: '이탈리아', 'Ivory Coast': '코트디부아르', "Côte d'Ivoire": '코트디부아르',
+  Jamaica: '자메이카', Japan: '일본', Kazakhstan: '카자흐스탄', Kosovo: '코소보', Latvia: '라트비아', Lithuania: '리투아니아', Luxembourg: '룩셈부르크',
+  Mali: '말리', Mexico: '멕시코', Montenegro: '몬테네그로', Morocco: '모로코', Mozambique: '모잠비크', Netherlands: '네덜란드',
+  'New Zealand': '뉴질랜드', Nigeria: '나이지리아', 'North Macedonia': '북마케도니아', 'Northern Ireland': '북아일랜드', Norway: '노르웨이',
+  Paraguay: '파라과이', Peru: '페루', Poland: '폴란드', Portugal: '포르투갈', 'Republic of Ireland': '아일랜드', Romania: '루마니아', Russia: '러시아',
+  Scotland: '스코틀랜드', Senegal: '세네갈', Serbia: '세르비아', Slovakia: '슬로바키아', Slovenia: '슬로베니아', 'South Africa': '남아프리카 공화국',
+  'South Korea': '대한민국', 'Korea Republic': '대한민국', Spain: '스페인', Suriname: '수리남', Sweden: '스웨덴', Switzerland: '스위스',
+  Tunisia: '튀니지', 'Türkiye': '튀르키예', Turkey: '튀르키예', Ukraine: '우크라이나', Uruguay: '우루과이', USA: '미국', 'United States': '미국',
+  Uzbekistan: '우즈베키스탄', Venezuela: '베네수엘라', Wales: '웨일스', Zambia: '잠비아', Zimbabwe: '짐바브웨',
+};
+
 const wait = (ms) => new Promise((done) => setTimeout(done, ms));
 
 async function fetchJson(url, label) {
@@ -72,8 +92,16 @@ async function readJson(path, fallback) {
   }
 }
 
+// 팀명은 풀네임(예: FC 바이에른 뮌헨, 아스널 FC)을 먼저 쓰고, 풀네임표에 없는 팀은 약칭 대응표, 그다음 원어로 표시한다.
+const TEAM_FULL = await readJson(teamFullPath, {});
 const TEAM_LABELS = await readJson(teamLabelsPath, {});
-const teamLabel = (name) => (name ? TEAM_LABELS[name] || TEAM_LABELS[name.replace(/\s+FC$/i, '')] || name : '');
+const missingTeams = new Set();
+const teamLabel = (name) => {
+  if (!name) return '';
+  if (TEAM_FULL[name]) return TEAM_FULL[name];
+  missingTeams.add(name);
+  return TEAM_LABELS[name] || TEAM_LABELS[name.replace(/\s+FC$/i, '')] || name;
+};
 
 function koreaDate(date) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
@@ -219,6 +247,7 @@ for (const comp of COMPETITIONS) {
     row.dob = known?.dob || '';
     row.age = known?.dob ? ageFrom(known.dob.split('-').reverse().map((part, i) => (i < 2 ? String(Number(part)) : part)).join('/')) : null;
     row.position = POSITION_LABELS[known?.position] || known?.position || '';
+    row.nationality = NATIONALITY_LABELS[known?.nationality] || known?.nationality || '';
     delete row.name;
   }
   competitions.push(entry);
@@ -242,4 +271,5 @@ if (updatePlayers) {
 }
 const missingKo = new Set(competitions.flatMap((comp) => [...comp.goals, ...comp.assists]).filter((row) => !row.ko).map((row) => `${row.id} ${row.original}`));
 console.log(`해축 데이터: 대회 ${competitions.length}개, 오늘 경기 ${summary.todayMatches}, 오류 ${errors.length}, 한글명 없는 선수 ${missingKo.size}`);
+if (missingTeams.size) console.warn(`풀네임 없는 팀: ${[...missingTeams].join(', ')}`);
 if (errors.length) console.warn(errors.join('\n'));

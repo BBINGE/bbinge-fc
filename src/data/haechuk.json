@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:27:40.452Z",
+  "updatedAt": "2026-09-14T13:52:28.456Z",
   "days": {
     "yesterday": "2026-09-13",
     "today": "2026-09-14",
@@ -18,7 +18,7 @@
       "standings": [
         {
           "rank": 1,
-          "team": "아스널",
+          "team": "아스널 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "played": 4,
           "wins": 4,
@@ -33,7 +33,7 @@
         },
         {
           "rank": 2,
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
           "played": 4,
           "wins": 4,
@@ -48,7 +48,7 @@
         },
         {
           "rank": 3,
-          "team": "헐 시티",
+          "team": "헐 시티 AFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
           "played": 4,
           "wins": 2,
@@ -63,7 +63,7 @@
         },
         {
           "rank": 4,
-          "team": "브라이턴",
+          "team": "브라이턴 앤드 호브 앨비언 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
           "played": 4,
           "wins": 2,
@@ -78,7 +78,7 @@
         },
         {
           "rank": 5,
-          "team": "첼시",
+          "team": "첼시 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
           "played": 4,
           "wins": 2,
@@ -93,7 +93,7 @@
         },
         {
           "rank": 6,
-          "team": "브렌트퍼드",
+          "team": "브렌트퍼드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
           "played": 4,
           "wins": 1,
@@ -108,7 +108,7 @@
         },
         {
           "rank": 7,
-          "team": "리버풀",
+          "team": "리버풀 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
           "played": 4,
           "wins": 1,
@@ -123,7 +123,7 @@
         },
         {
           "rank": 8,
-          "team": "에버턴",
+          "team": "에버턴 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
           "played": 4,
           "wins": 1,
@@ -138,7 +138,7 @@
         },
         {
           "rank": 9,
-          "team": "입스위치 타운",
+          "team": "입스위치 타운 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
           "played": 4,
           "wins": 2,
@@ -153,7 +153,7 @@
         },
         {
           "rank": 10,
-          "team": "뉴캐슬 유나이티드",
+          "team": "뉴캐슬 유나이티드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
           "played": 3,
           "wins": 1,
@@ -168,7 +168,7 @@
         },
         {
           "rank": 11,
-          "team": "리즈 유나이티드",
+          "team": "리즈 유나이티드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
           "played": 3,
           "wins": 1,
@@ -183,7 +183,7 @@
         },
         {
           "rank": 12,
-          "team": "노팅엄 포리스트",
+          "team": "노팅엄 포리스트 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
           "played": 4,
           "wins": 1,
@@ -198,7 +198,7 @@
         },
         {
           "rank": 13,
-          "team": "맨체스터 유나이티드",
+          "team": "맨체스터 유나이티드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
           "played": 4,
           "wins": 1,
@@ -213,7 +213,7 @@
         },
         {
           "rank": 14,
-          "team": "선덜랜드",
+          "team": "선덜랜드 AFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
           "played": 4,
           "wins": 1,
@@ -228,7 +228,7 @@
         },
         {
           "rank": 15,
-          "team": "본머스",
+          "team": "AFC 본머스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
           "played": 4,
           "wins": 0,
@@ -243,7 +243,7 @@
         },
         {
           "rank": 16,
-          "team": "크리스털 팰리스",
+          "team": "크리스털 팰리스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
           "played": 4,
           "wins": 1,
@@ -258,7 +258,7 @@
         },
         {
           "rank": 17,
-          "team": "토트넘 홋스퍼",
+          "team": "토트넘 홋스퍼 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
           "played": 4,
           "wins": 0,
@@ -273,7 +273,7 @@
         },
         {
           "rank": 18,
-          "team": "풀럼",
+          "team": "풀럼 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
           "played": 4,
           "wins": 0,
@@ -288,7 +288,7 @@
         },
         {
           "rank": 19,
-          "team": "애스턴 빌라",
+          "team": "애스턴 빌라 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
           "played": 4,
           "wins": 0,
@@ -303,7 +303,7 @@
         },
         {
           "rank": 20,
-          "team": "코번트리 시티",
+          "team": "코번트리 시티 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
           "played": 4,
           "wins": 0,
@@ -325,8 +325,8 @@
           "kickoff": "2026-09-12T16:30:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "토트넘 홋스퍼",
-          "away": "에버턴",
+          "home": "토트넘 홋스퍼 FC",
+          "away": "에버턴 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
           "homeScore": 0,
@@ -339,8 +339,8 @@
           "kickoff": "2026-09-12T19:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "선덜랜드",
-          "away": "아스널",
+          "home": "선덜랜드 AFC",
+          "away": "아스널 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "homeScore": 0,
@@ -353,8 +353,8 @@
           "kickoff": "2026-09-13T13:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "코번트리 시티",
-          "away": "브라이턴",
+          "home": "코번트리 시티 FC",
+          "away": "브라이턴 앤드 호브 앨비언 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
           "homeScore": 0,
@@ -367,8 +367,8 @@
           "kickoff": "2026-09-13T15:30:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "맨체스터 유나이티드",
-          "away": "맨체스터 시티",
+          "home": "맨체스터 유나이티드 FC",
+          "away": "맨체스터 시티 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
           "homeScore": 0,
@@ -381,8 +381,8 @@
           "kickoff": "2026-09-14T19:00:00.000Z",
           "state": "pre",
           "detail": "Scheduled",
-          "home": "리즈 유나이티드",
-          "away": "뉴캐슬 유나이티드",
+          "home": "리즈 유나이티드 FC",
+          "away": "뉴캐슬 유나이티드 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
           "homeScore": null,
@@ -392,445 +392,485 @@
       "goals": [
         {
           "id": "253989",
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "value": 4,
           "appearances": 4,
           "ko": "엘링 홀란",
           "original": "Erling Haaland",
           "dob": "2000-07-21",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "노르웨이"
         },
         {
           "id": "284960",
-          "team": "첼시",
+          "team": "첼시 FC",
           "value": 3,
           "appearances": 4,
           "ko": "주앙 페드루",
           "original": "João Pedro",
           "dob": "2001-09-26",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "124091",
-          "team": "맨체스터 유나이티드",
+          "team": "맨체스터 유나이티드 FC",
           "value": 3,
           "appearances": 4,
           "ko": "브루노 페르난데스",
           "original": "Bruno Fernandes",
           "dob": "1994-09-08",
           "age": 32,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "포르투갈"
         },
         {
           "id": "310958",
-          "team": "브렌트퍼드",
+          "team": "브렌트퍼드 FC",
           "value": 3,
           "appearances": 4,
           "ko": "케빈 샤데",
           "original": "Kevin Schade",
           "dob": "2001-11-27",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "243364",
-          "team": "본머스",
+          "team": "AFC 본머스",
           "value": 3,
           "appearances": 4,
           "ko": "마커스 태버니어",
           "original": "Marcus Tavernier",
           "dob": "1999-03-22",
           "age": 27,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "265653",
-          "team": "첼시",
+          "team": "첼시 FC",
           "value": 3,
           "appearances": 4,
           "ko": "모건 로저스",
           "original": "Morgan Rogers",
           "dob": "2002-07-26",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "280555",
-          "team": "아스널",
+          "team": "아스널 FC",
           "value": 3,
           "appearances": 4,
           "ko": "부카요 사카",
           "original": "Bukayo Saka",
           "dob": "2001-09-05",
           "age": 25,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "235662",
-          "team": "리버풀",
+          "team": "리버풀 FC",
           "value": 3,
           "appearances": 4,
           "ko": "알렉산데르 이사크",
           "original": "Alexander Isak",
           "dob": "1999-09-21",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스웨덴"
         },
         {
           "id": "283086",
-          "team": "입스위치 타운",
+          "team": "입스위치 타운 FC",
           "value": 2,
           "appearances": 4,
           "ko": "리프 데이비스",
           "original": "Leif Davis",
           "dob": "1999-12-31",
           "age": 26,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "271170",
-          "team": "맨체스터 유나이티드",
+          "team": "맨체스터 유나이티드 FC",
           "value": 2,
           "appearances": 4,
           "ko": "브라이언 음뵈모",
           "original": "Bryan Mbeumo",
           "dob": "1999-08-07",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "카메룬"
         },
         {
           "id": "225564",
-          "team": "브렌트퍼드",
+          "team": "브렌트퍼드 FC",
           "value": 2,
           "appearances": 4,
           "ko": "비탈리 야넬트",
           "original": "Vitaly Janelt",
           "dob": "1998-05-10",
           "age": 28,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "132659",
-          "team": "브라이턴",
+          "team": "브라이턴 앤드 호브 앨비언 FC",
           "value": 2,
           "appearances": 4,
           "ko": "파스칼 그로스",
           "original": "Pascal Gross",
           "dob": "1991-06-15",
           "age": 35,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "296395",
-          "team": "첼시",
+          "team": "첼시 FC",
           "value": 2,
           "appearances": 4,
           "ko": "콜 파머",
           "original": "Cole Palmer",
           "dob": "2002-05-06",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "231182",
-          "team": "아스널",
+          "team": "아스널 FC",
           "value": 2,
           "appearances": 4,
           "ko": "카이 하베르츠",
           "original": "Kai Havertz",
           "dob": "1999-06-11",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "409541",
-          "team": "풀럼",
+          "team": "풀럼 FC",
           "value": 2,
           "appearances": 4,
           "ko": "조시 킹",
           "original": "Josh King",
           "dob": "2007-01-03",
           "age": 19,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "300853",
-          "team": "크리스털 팰리스",
+          "team": "크리스털 팰리스 FC",
           "value": 2,
           "appearances": 4,
           "ko": "타이릭 미첼",
           "original": "Tyrick Mitchell",
           "dob": "1999-09-01",
           "age": 27,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "320417",
-          "team": "헐 시티",
+          "team": "헐 시티 AFC",
           "value": 2,
           "appearances": 4,
           "ko": "모하메드 벨루미",
           "original": "Mohamed Belloumi",
           "dob": "2002-06-01",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "알제리"
         },
         {
           "id": "203669",
-          "team": "아스널",
+          "team": "아스널 FC",
           "value": 2,
           "appearances": 4,
           "ko": "마르틴 외데고르",
           "original": "Martin Ødegaard",
           "dob": "1998-12-17",
           "age": 27,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "노르웨이"
         },
         {
           "id": "322654",
-          "team": "입스위치 타운",
+          "team": "입스위치 타운 FC",
           "value": 2,
           "appearances": 4,
           "ko": "에메르송",
           "original": "Emersonn",
           "dob": "2004-07-16",
           "age": 22,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "359097",
-          "team": "브라이턴",
+          "team": "브라이턴 앤드 호브 앨비언 FC",
           "value": 2,
           "appearances": 4,
           "ko": "말리크 얄쿠예",
           "original": "Malick Yalcouyé",
           "dob": "2005-11-18",
           "age": 20,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "말리"
         }
       ],
       "assists": [
         {
           "id": "284960",
-          "team": "첼시",
+          "team": "첼시 FC",
           "value": 3,
           "appearances": 4,
           "ko": "주앙 페드루",
           "original": "João Pedro",
           "dob": "2001-09-26",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "219362",
-          "team": "크리스털 팰리스",
+          "team": "크리스털 팰리스 FC",
           "value": 3,
           "appearances": 4,
           "ko": "가마다 다이치",
           "original": "Daichi Kamada",
           "dob": "1996-08-05",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "일본"
         },
         {
           "id": "102368",
-          "team": "본머스",
+          "team": "AFC 본머스",
           "value": 3,
           "appearances": 4,
           "ko": "에바니우송",
           "original": "Evanilson",
           "dob": "1999-10-06",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "249524",
-          "team": "리버풀",
+          "team": "리버풀 FC",
           "value": 3,
           "appearances": 4,
           "ko": "코디 학포",
           "original": "Cody Gakpo",
           "dob": "1999-05-07",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "네덜란드"
         },
         {
           "id": "273292",
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "value": 2,
           "appearances": 4,
           "ko": "앙투안 세메뇨",
           "original": "Antoine Semenyo",
           "dob": "2000-01-07",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "가나"
         },
         {
           "id": "243396",
-          "team": "노팅엄 포리스트",
+          "team": "노팅엄 포리스트 FC",
           "value": 2,
           "appearances": 4,
           "ko": "모건 깁스화이트",
           "original": "Morgan Gibbs-White",
           "dob": "2000-01-27",
           "age": 26,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "132659",
-          "team": "브라이턴",
+          "team": "브라이턴 앤드 호브 앨비언 FC",
           "value": 2,
           "appearances": 4,
           "ko": "파스칼 그로스",
           "original": "Pascal Gross",
           "dob": "1991-06-15",
           "age": 35,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "296395",
-          "team": "첼시",
+          "team": "첼시 FC",
           "value": 2,
           "appearances": 4,
           "ko": "콜 파머",
           "original": "Cole Palmer",
           "dob": "2002-05-06",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "20975",
-          "team": "입스위치 타운",
+          "team": "입스위치 타운 FC",
           "value": 2,
           "appearances": 4,
           "ko": "훌리오 엔시소",
           "original": "Julio Enciso",
           "dob": "2004-01-23",
           "age": 22,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "파라과이"
         },
         {
           "id": "301327",
-          "team": "브라이턴",
+          "team": "브라이턴 앤드 호브 앨비언 FC",
           "value": 2,
           "appearances": 4,
           "ko": "막심 더카위퍼르",
           "original": "Maxim De Cuyper",
           "dob": "2000-12-22",
           "age": 25,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "벨기에"
         },
         {
           "id": "298329",
-          "team": "아스널",
+          "team": "아스널 FC",
           "value": 2,
           "appearances": 4,
           "ko": "리카르도 칼라피오리",
           "original": "Riccardo Calafiori",
           "dob": "2002-05-19",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "이탈리아"
         },
         {
           "id": "238262",
-          "team": "아스널",
+          "team": "아스널 FC",
           "value": 2,
           "appearances": 4,
           "ko": "데클런 라이스",
           "original": "Declan Rice",
           "dob": "1999-01-14",
           "age": 27,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "353951",
-          "team": "첼시",
+          "team": "첼시 FC",
           "value": 2,
           "appearances": 4,
           "ko": "요럴 하토",
           "original": "Jorrel Hato",
           "dob": "2006-03-07",
           "age": 20,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "네덜란드"
         },
         {
           "id": "298008",
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "value": 2,
           "appearances": 4,
           "ko": "라얀 셰르키",
           "original": "Rayan Cherki",
           "dob": "2003-08-17",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "250787",
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "value": 2,
           "appearances": 4,
           "ko": "필 포든",
           "original": "Phil Foden",
           "dob": "2000-05-28",
           "age": 26,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "283086",
-          "team": "입스위치 타운",
+          "team": "입스위치 타운 FC",
           "value": 1,
           "appearances": 4,
           "ko": "리프 데이비스",
           "original": "Leif Davis",
           "dob": "1999-12-31",
           "age": 26,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "249851",
-          "team": "헐 시티",
+          "team": "헐 시티 AFC",
           "value": 1,
           "appearances": 4,
           "ko": "리건 슬레이터",
           "original": "Regan Slater",
           "dob": "1999-09-11",
           "age": 27,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "124091",
-          "team": "맨체스터 유나이티드",
+          "team": "맨체스터 유나이티드 FC",
           "value": 1,
           "appearances": 4,
           "ko": "브루노 페르난데스",
           "original": "Bruno Fernandes",
           "dob": "1994-09-08",
           "age": 32,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "포르투갈"
         },
         {
           "id": "338894",
-          "team": "노팅엄 포리스트",
+          "team": "노팅엄 포리스트 FC",
           "value": 1,
           "appearances": 4,
           "ko": "무릴루",
           "original": "Murillo",
           "dob": "2002-07-04",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "브라질"
         },
         {
           "id": "378458",
-          "team": "에버턴",
+          "team": "에버턴 FC",
           "value": 1,
           "appearances": 4,
           "ko": "해리슨 암스트롱",
           "original": "Harrison Armstrong",
           "dob": "2007-01-19",
           "age": 19,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         }
       ]
     },
@@ -842,7 +882,7 @@
       "standings": [
         {
           "rank": 1,
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "played": 5,
           "wins": 5,
@@ -857,7 +897,7 @@
         },
         {
           "rank": 2,
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "played": 5,
           "wins": 4,
@@ -887,7 +927,7 @@
         },
         {
           "rank": 4,
-          "team": "아틀레티코 마드리드",
+          "team": "클루브 아틀레티코 데 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 5,
           "wins": 3,
@@ -902,7 +942,7 @@
         },
         {
           "rank": 5,
-          "team": "세비야",
+          "team": "세비야 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 5,
           "wins": 3,
@@ -917,7 +957,7 @@
         },
         {
           "rank": 6,
-          "team": "데포르티보 라코루냐",
+          "team": "RC 데포르티보 라코루냐",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
           "played": 5,
           "wins": 2,
@@ -932,7 +972,7 @@
         },
         {
           "rank": 7,
-          "team": "레알 베티스",
+          "team": "레알 베티스 발롬피에",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 4,
           "wins": 3,
@@ -947,7 +987,7 @@
         },
         {
           "rank": 8,
-          "team": "에스파뇰",
+          "team": "RCD 에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "played": 5,
           "wins": 2,
@@ -977,7 +1017,7 @@
         },
         {
           "rank": 10,
-          "team": "라싱 산탄데르",
+          "team": "레알 라싱 클루브 데 산탄데르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
           "played": 5,
           "wins": 2,
@@ -992,7 +1032,7 @@
         },
         {
           "rank": 11,
-          "team": "오사수나",
+          "team": "CA 오사수나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
           "played": 5,
           "wins": 2,
@@ -1007,7 +1047,7 @@
         },
         {
           "rank": 12,
-          "team": "레알 소시에다드",
+          "team": "레알 소시에다드 데 풋볼",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "played": 6,
           "wins": 2,
@@ -1022,7 +1062,7 @@
         },
         {
           "rank": 13,
-          "team": "레반테",
+          "team": "레반테 UD",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
           "played": 5,
           "wins": 1,
@@ -1037,7 +1077,7 @@
         },
         {
           "rank": 14,
-          "team": "헤타페",
+          "team": "헤타페 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "played": 5,
           "wins": 1,
@@ -1052,7 +1092,7 @@
         },
         {
           "rank": 15,
-          "team": "셀타 비고",
+          "team": "RC 셀타 데 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 6,
           "wins": 0,
@@ -1067,7 +1107,7 @@
         },
         {
           "rank": 16,
-          "team": "라요 바예카노",
+          "team": "라요 바예카노 데 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
           "played": 5,
           "wins": 1,
@@ -1082,7 +1122,7 @@
         },
         {
           "rank": 17,
-          "team": "말라가",
+          "team": "말라가 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
           "played": 5,
           "wins": 0,
@@ -1097,7 +1137,7 @@
         },
         {
           "rank": 18,
-          "team": "비야레알",
+          "team": "비야레알 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "played": 4,
           "wins": 0,
@@ -1112,7 +1152,7 @@
         },
         {
           "rank": 19,
-          "team": "엘체",
+          "team": "엘체 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
           "played": 5,
           "wins": 0,
@@ -1127,7 +1167,7 @@
         },
         {
           "rank": 20,
-          "team": "발렌시아",
+          "team": "발렌시아 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
           "played": 5,
           "wins": 0,
@@ -1150,7 +1190,7 @@
           "state": "post",
           "detail": "FT",
           "home": "아틀레틱 클루브",
-          "away": "엘체",
+          "away": "엘체 CF",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
           "homeScore": 1,
@@ -1163,8 +1203,8 @@
           "kickoff": "2026-09-12T19:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "레알 마드리드",
-          "away": "라요 바예카노",
+          "home": "레알 마드리드 CF",
+          "away": "라요 바예카노 데 마드리드",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
           "homeScore": 4,
@@ -1177,8 +1217,8 @@
           "kickoff": "2026-09-13T12:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "셀타 비고",
-          "away": "말라가",
+          "home": "RC 셀타 데 비고",
+          "away": "말라가 CF",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
           "homeScore": 1,
@@ -1191,8 +1231,8 @@
           "kickoff": "2026-09-13T14:15:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "레반테",
-          "away": "바르셀로나",
+          "home": "레반테 UD",
+          "away": "FC 바르셀로나",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "homeScore": 2,
@@ -1205,8 +1245,8 @@
           "kickoff": "2026-09-13T16:30:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "헤타페",
-          "away": "데포르티보 라코루냐",
+          "home": "헤타페 CF",
+          "away": "RC 데포르티보 라코루냐",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
           "homeScore": 1,
@@ -1219,8 +1259,8 @@
           "kickoff": "2026-09-13T19:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "레알 소시에다드",
-          "away": "아틀레티코 마드리드",
+          "home": "레알 소시에다드 데 풋볼",
+          "away": "클루브 아틀레티코 데 마드리드",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "homeScore": 0,
@@ -1233,8 +1273,8 @@
           "kickoff": "2026-09-14T19:00:00.000Z",
           "state": "pre",
           "detail": "Scheduled",
-          "home": "비야레알",
-          "away": "레알 베티스",
+          "home": "비야레알 CF",
+          "away": "레알 베티스 발롬피에",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "homeScore": null,
@@ -1244,102 +1284,111 @@
       "goals": [
         {
           "id": "231388",
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "value": 6,
           "appearances": 5,
           "ko": "킬리안 음바페",
           "original": "Kylian Mbappé",
           "dob": "1998-12-20",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "231050",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 6,
           "appearances": 5,
           "ko": "하피냐",
           "original": "Raphinha",
           "dob": "1996-12-14",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "362150",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 6,
           "appearances": 5,
           "ko": "라민 야말",
           "original": "Lamine Yamal",
           "dob": "2007-07-13",
           "age": 19,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "276652",
-          "team": "라요 바예카노",
+          "team": "라요 바예카노 데 마드리드",
           "value": 6,
           "appearances": 5,
           "ko": "세르히오 카메요",
           "original": "Sergio Camello",
           "dob": "2001-02-10",
           "age": 25,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "122260",
-          "team": "데포르티보 라코루냐",
+          "team": "RC 데포르티보 라코루냐",
           "value": 5,
           "appearances": 5,
           "ko": "피에르에메리크 오바메양",
           "original": "Pierre-Emerick Aubameyang",
           "dob": "1989-06-18",
           "age": 37,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "가봉"
         },
         {
           "id": "318773",
-          "team": "에스파뇰",
+          "team": "RCD 에스파뇰",
           "value": 5,
           "appearances": 5,
           "ko": "로베르토 페르난데스",
           "original": "Roberto Fernández",
           "dob": "2002-07-03",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "390389",
-          "team": "라싱 산탄데르",
+          "team": "레알 라싱 클루브 데 산탄데르",
           "value": 5,
           "appearances": 5,
           "ko": "야시르 자비리",
           "original": "Yassir Zabiri",
           "dob": "2005-02-23",
           "age": 21,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "모로코"
         },
         {
           "id": "207288",
-          "team": "오사수나",
+          "team": "CA 오사수나",
           "value": 4,
           "appearances": 5,
           "ko": "안테 부디미르",
           "original": "Ante Budimir",
           "dob": "1991-07-22",
           "age": 35,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "크로아티아"
         },
         {
           "id": "354334",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 4,
           "appearances": 5,
           "ko": "페르민 로페스",
           "original": "Fermín López",
           "dob": "2003-05-11",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "207236",
@@ -1350,29 +1399,32 @@
           "original": "Lucas Boyé",
           "dob": "1996-02-28",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "291281",
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "value": 3,
           "appearances": 5,
           "ko": "주드 벨링엄",
           "original": "Jude Bellingham",
           "dob": "2003-06-29",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "297373",
-          "team": "아틀레티코 마드리드",
+          "team": "클루브 아틀레티코 데 마드리드",
           "value": 3,
           "appearances": 5,
           "ko": "알렉스 바에나",
           "original": "Álex Baena",
           "dob": "2001-07-20",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "198832",
@@ -1383,73 +1435,80 @@
           "original": "Mariano Díaz",
           "dob": "1993-08-01",
           "age": 33,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "도미니카 공화국"
         },
         {
           "id": "267591",
-          "team": "레반테",
+          "team": "레반테 UD",
           "value": 3,
           "appearances": 4,
           "ko": "로제르 브루게",
           "original": "Roger Brugué",
           "dob": "1996-11-04",
           "age": 29,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "306263",
-          "team": "레알 소시에다드",
+          "team": "레알 소시에다드 데 풋볼",
           "value": 2,
           "appearances": 6,
           "ko": "루카 수치치",
           "original": "Luka Sucic",
           "dob": "2002-09-08",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "크로아티아"
         },
         {
           "id": "301684",
-          "team": "엘체",
+          "team": "엘체 CF",
           "value": 2,
           "appearances": 5,
           "ko": "페르난도 니뇨",
           "original": "Fernando Niño",
           "dob": "2000-10-24",
           "age": 25,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "323838",
-          "team": "아틀레티코 마드리드",
+          "team": "클루브 아틀레티코 데 마드리드",
           "value": 2,
           "appearances": 5,
           "ko": "줄리아노 시메오네",
           "original": "Giuliano Simeone",
           "dob": "2002-12-18",
           "age": 23,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "274913",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 5,
           "ko": "카림 아데예미",
           "original": "Karim Adeyemi",
           "dob": "2002-01-18",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "210397",
-          "team": "비야레알",
+          "team": "비야레알 CF",
           "value": 2,
           "appearances": 4,
           "ko": "니콜라 페페",
           "original": "Nicolas Pépé",
           "dob": "1995-05-29",
           "age": 31,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "코트디부아르"
         },
         {
           "id": "276996",
@@ -1460,64 +1519,70 @@
           "original": "Robert Navarro",
           "dob": "2002-04-12",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         }
       ],
       "assists": [
         {
           "id": "268782",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 4,
           "appearances": 5,
           "ko": "앤서니 고든",
           "original": "Anthony Gordon",
           "dob": "2001-02-24",
           "age": 25,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "252107",
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "value": 3,
           "appearances": 5,
           "ko": "비니시우스 주니오르",
           "original": "Vinícius Júnior",
           "dob": "2000-07-12",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "231050",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 3,
           "appearances": 5,
           "ko": "하피냐",
           "original": "Raphinha",
           "dob": "1996-12-14",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "203711",
-          "team": "라요 바예카노",
+          "team": "라요 바예카노 데 마드리드",
           "value": 3,
           "appearances": 5,
           "ko": "우나이 로페스",
           "original": "Unai López",
           "dob": "1995-10-30",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "367946",
-          "team": "에스파뇰",
+          "team": "RCD 에스파뇰",
           "value": 3,
           "appearances": 5,
           "ko": "하비 에르난데스",
           "original": "Javi Hernandez",
           "dob": "2004-01-30",
           "age": 22,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "374621",
@@ -1528,7 +1593,8 @@
           "original": "Ángel Pérez",
           "dob": "2002-08-29",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스페인"
         },
         {
           "id": "198832",
@@ -1539,84 +1605,92 @@
           "original": "Mariano Díaz",
           "dob": "1993-08-01",
           "age": 33,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "도미니카 공화국"
         },
         {
           "id": "229018",
-          "team": "레알 소시에다드",
+          "team": "레알 소시에다드 데 풋볼",
           "value": 2,
           "appearances": 6,
           "ko": "미켈 오야르사발",
           "original": "Mikel Oyarzabal",
           "dob": "1997-04-21",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "257786",
-          "team": "아틀레티코 마드리드",
+          "team": "클루브 아틀레티코 데 마드리드",
           "value": 2,
           "appearances": 5,
           "ko": "다비드 한츠코",
           "original": "Dávid Hancko",
           "dob": "1997-12-13",
           "age": 28,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "슬로바키아"
         },
         {
           "id": "122260",
-          "team": "데포르티보 라코루냐",
+          "team": "RC 데포르티보 라코루냐",
           "value": 2,
           "appearances": 5,
           "ko": "피에르에메리크 오바메양",
           "original": "Pierre-Emerick Aubameyang",
           "dob": "1989-06-18",
           "age": 37,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "가봉"
         },
         {
           "id": "403582",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 5,
           "ko": "샤비 에스파르트",
           "original": "Xavi Espart",
           "dob": "2007-05-21",
           "age": 19,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스페인"
         },
         {
           "id": "291281",
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "value": 2,
           "appearances": 5,
           "ko": "주드 벨링엄",
           "original": "Jude Bellingham",
           "dob": "2003-06-29",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "284699",
-          "team": "라싱 산탄데르",
+          "team": "레알 라싱 클루브 데 산탄데르",
           "value": 2,
           "appearances": 5,
           "ko": "이니고 비센테",
           "original": "Iñigo Vicente",
           "dob": "1998-01-06",
           "age": 28,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "354334",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 5,
           "ko": "페르민 로페스",
           "original": "Fermín López",
           "dob": "2003-05-11",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "214412",
@@ -1627,62 +1701,68 @@
           "original": "Iñaki Williams",
           "dob": "1994-06-15",
           "age": 32,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "가나"
         },
         {
           "id": "259916",
-          "team": "엘체",
+          "team": "엘체 CF",
           "value": 2,
           "appearances": 5,
           "ko": "호세 안토니오 모렌테",
           "original": "José Antonio Morente",
           "dob": "1996-12-04",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "376423",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 5,
           "ko": "마르크 베르날",
           "original": "Marc Bernal",
           "dob": "2007-05-26",
           "age": 19,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "310452",
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "value": 2,
           "appearances": 5,
           "ko": "아르다 귈레르",
           "original": "Arda Güler",
           "dob": "2005-02-25",
           "age": 21,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "튀르키예"
         },
         {
           "id": "227765",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 5,
           "ko": "다니 올모",
           "original": "Dani Olmo",
           "dob": "1998-05-07",
           "age": 28,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "324811",
-          "team": "셀타 비고",
+          "team": "RC 셀타 데 비고",
           "value": 2,
           "appearances": 3,
           "ko": "우고 곤살레스",
           "original": "Hugo Gonzalez",
           "dob": "2003-02-07",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         }
       ]
     },
@@ -1694,7 +1774,7 @@
       "standings": [
         {
           "rank": 1,
-          "team": "라치오",
+          "team": "SS 라치오",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
           "played": 4,
           "wins": 3,
@@ -1724,7 +1804,7 @@
         },
         {
           "rank": 3,
-          "team": "인테르나치오날레",
+          "team": "FC 인테르나치오날레 밀라노",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "played": 3,
           "wins": 3,
@@ -1739,7 +1819,7 @@
         },
         {
           "rank": 4,
-          "team": "칼리아리",
+          "team": "칼리아리 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
           "played": 4,
           "wins": 3,
@@ -1769,7 +1849,7 @@
         },
         {
           "rank": 6,
-          "team": "코모",
+          "team": "코모 1907",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "played": 3,
           "wins": 2,
@@ -1784,7 +1864,7 @@
         },
         {
           "rank": 7,
-          "team": "프로시노네",
+          "team": "프로시노네 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
           "played": 4,
           "wins": 2,
@@ -1799,7 +1879,7 @@
         },
         {
           "rank": 8,
-          "team": "유벤투스",
+          "team": "유벤투스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "played": 4,
           "wins": 2,
@@ -1814,7 +1894,7 @@
         },
         {
           "rank": 9,
-          "team": "사수올로",
+          "team": "US 사수올로 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
           "played": 4,
           "wins": 2,
@@ -1829,7 +1909,7 @@
         },
         {
           "rank": 10,
-          "team": "나폴리",
+          "team": "SSC 나폴리",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
           "played": 4,
           "wins": 2,
@@ -1844,7 +1924,7 @@
         },
         {
           "rank": 11,
-          "team": "아탈란타",
+          "team": "아탈란타 BC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
           "played": 4,
           "wins": 2,
@@ -1859,7 +1939,7 @@
         },
         {
           "rank": 12,
-          "team": "레체",
+          "team": "US 레체",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
           "played": 4,
           "wins": 2,
@@ -1874,7 +1954,7 @@
         },
         {
           "rank": 13,
-          "team": "우디네세",
+          "team": "우디네세 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
           "played": 3,
           "wins": 1,
@@ -1889,7 +1969,7 @@
         },
         {
           "rank": 14,
-          "team": "토리노",
+          "team": "토리노 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "played": 3,
           "wins": 1,
@@ -1904,7 +1984,7 @@
         },
         {
           "rank": 15,
-          "team": "피오렌티나",
+          "team": "ACF 피오렌티나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
           "played": 4,
           "wins": 1,
@@ -1919,7 +1999,7 @@
         },
         {
           "rank": 16,
-          "team": "파르마",
+          "team": "파르마 칼초 1913",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
           "played": 3,
           "wins": 0,
@@ -1934,7 +2014,7 @@
         },
         {
           "rank": 17,
-          "team": "볼로냐",
+          "team": "볼로냐 FC 1909",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
           "played": 4,
           "wins": 0,
@@ -1949,7 +2029,7 @@
         },
         {
           "rank": 18,
-          "team": "몬차",
+          "team": "AC 몬차",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
           "played": 4,
           "wins": 0,
@@ -1964,7 +2044,7 @@
         },
         {
           "rank": 19,
-          "team": "제노아",
+          "team": "제노아 CFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
           "played": 4,
           "wins": 0,
@@ -1979,7 +2059,7 @@
         },
         {
           "rank": 20,
-          "team": "베네치아",
+          "team": "베네치아 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
           "played": 4,
           "wins": 0,
@@ -2001,7 +2081,7 @@
           "kickoff": "2026-09-12T16:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "라치오",
+          "home": "SS 라치오",
           "away": "AC 밀란",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
@@ -2015,8 +2095,8 @@
           "kickoff": "2026-09-12T18:45:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "아탈란타",
-          "away": "칼리아리",
+          "home": "아탈란타 BC",
+          "away": "칼리아리 칼초",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
           "homeScore": 1,
@@ -2029,8 +2109,8 @@
           "kickoff": "2026-09-13T13:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "레체",
-          "away": "몬차",
+          "home": "US 레체",
+          "away": "AC 몬차",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
           "homeScore": 3,
@@ -2043,8 +2123,8 @@
           "kickoff": "2026-09-13T16:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "나폴리",
-          "away": "볼로냐",
+          "home": "SSC 나폴리",
+          "away": "볼로냐 FC 1909",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
           "homeScore": 1,
@@ -2057,8 +2137,8 @@
           "kickoff": "2026-09-13T18:45:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "사수올로",
-          "away": "유벤투스",
+          "home": "US 사수올로 칼초",
+          "away": "유벤투스 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "homeScore": 3,
@@ -2071,8 +2151,8 @@
           "kickoff": "2026-09-14T16:30:00.000Z",
           "state": "pre",
           "detail": "Scheduled",
-          "home": "코모",
-          "away": "파르마",
+          "home": "코모 1907",
+          "away": "파르마 칼초 1913",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
           "homeScore": null,
@@ -2085,7 +2165,7 @@
           "kickoff": "2026-09-14T16:30:00.000Z",
           "state": "pre",
           "detail": "Scheduled",
-          "home": "토리노",
+          "home": "토리노 FC",
           "away": "AS 로마",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
@@ -2099,8 +2179,8 @@
           "kickoff": "2026-09-14T18:45:00.000Z",
           "state": "pre",
           "detail": "Scheduled",
-          "home": "인테르나치오날레",
-          "away": "우디네세",
+          "home": "FC 인테르나치오날레 밀라노",
+          "away": "우디네세 칼초",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
           "homeScore": null,
@@ -2117,106 +2197,116 @@
           "original": "Donyell Malen",
           "dob": "1999-01-19",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "네덜란드"
         },
         {
           "id": "319265",
-          "team": "프로시노네",
+          "team": "프로시노네 칼초",
           "value": 4,
           "appearances": 4,
           "ko": "안토니오 라이몬도",
           "original": "Antonio Raimondo",
           "dob": "2004-03-18",
           "age": 22,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "이탈리아"
         },
         {
           "id": "250850",
-          "team": "라치오",
+          "team": "SS 라치오",
           "value": 3,
           "appearances": 4,
           "ko": "다비데 프라테시",
           "original": "Davide Frattesi",
           "dob": "1999-09-22",
           "age": 26,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "이탈리아"
         },
         {
           "id": "376473",
-          "team": "피오렌티나",
+          "team": "ACF 피오렌티나",
           "value": 3,
           "appearances": 4,
           "ko": "프랑코 마스탄투오노",
           "original": "Franco Mastantuono",
           "dob": "2007-08-14",
           "age": 19,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "223947",
-          "team": "레체",
+          "team": "US 레체",
           "value": 2,
           "appearances": 4,
           "ko": "라사나 쿨리발리",
           "original": "Lassana Coulibaly",
           "dob": "1996-04-10",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "말리"
         },
         {
           "id": "360714",
-          "team": "프로시노네",
+          "team": "프로시노네 칼초",
           "value": 2,
           "appearances": 4,
           "ko": "기오르기 크베르나제",
           "original": "Giorgi Kvernadze",
           "dob": "2003-02-07",
           "age": 23,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "조지아"
         },
         {
           "id": "290545",
-          "team": "칼리아리",
+          "team": "칼리아리 칼초",
           "value": 2,
           "appearances": 4,
           "ko": "다니엘 말디니",
           "original": "Daniel Maldini",
           "dob": "2001-10-11",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "이탈리아"
         },
         {
           "id": "309273",
-          "team": "나폴리",
+          "team": "SSC 나폴리",
           "value": 2,
           "appearances": 4,
           "ko": "라스무스 호일룬",
           "original": "Rasmus Højlund",
           "dob": "2003-02-04",
           "age": 23,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "덴마크"
         },
         {
           "id": "312757",
-          "team": "피오렌티나",
+          "team": "ACF 피오렌티나",
           "value": 2,
           "appearances": 4,
           "ko": "마테오 펠레그리노",
           "original": "Mateo Pellegrino",
           "dob": "2001-10-22",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "379865",
-          "team": "레체",
+          "team": "US 레체",
           "value": 2,
           "appearances": 4,
           "ko": "티아구 가브리엘",
           "original": "Tiago Gabriel",
           "dob": "2004-12-26",
           "age": 21,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "포르투갈"
         },
         {
           "id": "359754",
@@ -2227,106 +2317,116 @@
           "original": "Alphadjo Cissè",
           "dob": "2006-10-22",
           "age": 19,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "이탈리아"
         },
         {
           "id": "344917",
-          "team": "사수올로",
+          "team": "US 사수올로 칼초",
           "value": 2,
           "appearances": 4,
           "ko": "바실리예 아지치",
           "original": "Vasilije Adzic",
           "dob": "2006-05-12",
           "age": 20,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "몬테네그로"
         },
         {
           "id": "193919",
-          "team": "우디네세",
+          "team": "우디네세 칼초",
           "value": 2,
           "appearances": 3,
           "ko": "하산 카마라",
           "original": "Hassane Kamara",
           "dob": "1994-03-05",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "코트디부아르"
         },
         {
           "id": "384482",
-          "team": "몬차",
+          "team": "AC 몬차",
           "value": 2,
           "appearances": 3,
           "ko": "구스타부 바렐라",
           "original": "Gustavo Varela",
           "dob": "2005-01-30",
           "age": 21,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "포르투갈"
         },
         {
           "id": "262071",
-          "team": "코모",
+          "team": "코모 1907",
           "value": 2,
           "appearances": 3,
           "ko": "아나스타시오스 두비카스",
           "original": "Anastasios Douvikas",
           "dob": "1999-08-02",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "그리스"
         },
         {
           "id": "219713",
-          "team": "인테르나치오날레",
+          "team": "FC 인테르나치오날레 밀라노",
           "value": 2,
           "appearances": 3,
           "ko": "라우타로 마르티네스",
           "original": "Lautaro Martínez",
           "dob": "1997-08-22",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "364742",
-          "team": "코모",
+          "team": "코모 1907",
           "value": 2,
           "appearances": 3,
           "ko": "아산 디아오",
           "original": "Assane Diao",
           "dob": "2005-09-07",
           "age": 21,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "세네갈"
         },
         {
           "id": "213725",
-          "team": "토리노",
+          "team": "토리노 FC",
           "value": 2,
           "appearances": 3,
           "ko": "체 애덤스",
           "original": "Ché Adams",
           "dob": "1996-07-13",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스코틀랜드"
         },
         {
           "id": "311475",
-          "team": "코모",
+          "team": "코모 1907",
           "value": 2,
           "appearances": 3,
           "ko": "마르틴 바투리나",
           "original": "Martin Baturina",
           "dob": "2003-02-16",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "크로아티아"
         },
         {
           "id": "170785",
-          "team": "인테르나치오날레",
+          "team": "FC 인테르나치오날레 밀라노",
           "value": 2,
           "appearances": 3,
           "ko": "하칸 찰하노을루",
           "original": "Hakan Çalhanoglu",
           "dob": "1994-02-08",
           "age": 32,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "튀르키예"
         }
       ],
       "assists": [
@@ -2339,51 +2439,56 @@
           "original": "Paulo Dybala",
           "dob": "1993-11-15",
           "age": 32,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "272745",
-          "team": "칼리아리",
+          "team": "칼리아리 칼초",
           "value": 2,
           "appearances": 4,
           "ko": "미셸 아도포",
           "original": "Michel Adopo",
           "dob": "2000-07-19",
           "age": 26,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "204669",
-          "team": "라치오",
+          "team": "SS 라치오",
           "value": 2,
           "appearances": 4,
           "ko": "마티아 차카니",
           "original": "Mattia Zaccagni",
           "dob": "1995-06-16",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "이탈리아"
         },
         {
           "id": "259871",
-          "team": "몬차",
+          "team": "AC 몬차",
           "value": 2,
           "appearances": 4,
           "ko": "히카르두 망가스",
           "original": "Ricardo Mangas",
           "dob": "1998-03-19",
           "age": 28,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "포르투갈"
         },
         {
           "id": "263705",
-          "team": "베네치아",
+          "team": "베네치아 FC",
           "value": 2,
           "appearances": 4,
           "ko": "잔루카 부시오",
           "original": "Gianluca Busio",
           "dob": "2002-05-28",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "미국"
         },
         {
           "id": "228298",
@@ -2394,7 +2499,8 @@
           "original": "Samuel Chukwueze",
           "dob": "1999-05-22",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "나이지리아"
         },
         {
           "id": "176203",
@@ -2405,150 +2511,164 @@
           "original": "Adrien Rabiot",
           "dob": "1995-04-03",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "260004",
-          "team": "레체",
+          "team": "US 레체",
           "value": 2,
           "appearances": 3,
           "ko": "이반 일리치",
           "original": "Ivan Ilic",
           "dob": "2001-03-17",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "세르비아"
         },
         {
           "id": "319167",
-          "team": "인테르나치오날레",
+          "team": "FC 인테르나치오날레 밀라노",
           "value": 2,
           "appearances": 2,
           "ko": "앤디 디우프",
           "original": "Andy Diouf",
           "dob": "2003-05-17",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "344844",
-          "team": "레체",
+          "team": "US 레체",
           "value": 1,
           "appearances": 4,
           "ko": "다닐루 베이가",
           "original": "Danilo Veiga",
           "dob": "2002-09-25",
           "age": 23,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "포르투갈"
         },
         {
           "id": "310216",
-          "team": "피오렌티나",
+          "team": "ACF 피오렌티나",
           "value": 1,
           "appearances": 4,
           "ko": "라두 드라구신",
           "original": "Radu Dragusin",
           "dob": "2002-02-03",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "루마니아"
         },
         {
           "id": "272719",
-          "team": "사수올로",
+          "team": "US 사수올로 칼초",
           "value": 1,
           "appearances": 4,
           "ko": "아르망 로리엔테",
           "original": "Armand Laurienté",
           "dob": "1998-12-04",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "252971",
-          "team": "유벤투스",
+          "team": "유벤투스 FC",
           "value": 1,
           "appearances": 4,
           "ko": "랑달 콜로 무아니",
           "original": "Randal Kolo Muani",
           "dob": "1998-12-05",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "223947",
-          "team": "레체",
+          "team": "US 레체",
           "value": 1,
           "appearances": 4,
           "ko": "라사나 쿨리발리",
           "original": "Lassana Coulibaly",
           "dob": "1996-04-10",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "말리"
         },
         {
           "id": "205576",
-          "team": "나폴리",
+          "team": "SSC 나폴리",
           "value": 1,
           "appearances": 4,
           "ko": "아미르 라흐마니",
           "original": "Amir Rrahmani",
           "dob": "1994-02-24",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "코소보"
         },
         {
           "id": "155904",
-          "team": "나폴리",
+          "team": "SSC 나폴리",
           "value": 1,
           "appearances": 4,
           "ko": "조반니 디로렌초",
           "original": "Giovanni Di Lorenzo",
           "dob": "1993-08-04",
           "age": 33,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "이탈리아"
         },
         {
           "id": "360714",
-          "team": "프로시노네",
+          "team": "프로시노네 칼초",
           "value": 1,
           "appearances": 4,
           "ko": "기오르기 크베르나제",
           "original": "Giorgi Kvernadze",
           "dob": "2003-02-07",
           "age": 23,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "조지아"
         },
         {
           "id": "346916",
-          "team": "베네치아",
+          "team": "베네치아 FC",
           "value": 1,
           "appearances": 4,
           "ko": "앙투안 에노",
           "original": "Antoine Hainaut",
           "dob": "2002-02-18",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "프랑스"
         },
         {
           "id": "248440",
-          "team": "몬차",
+          "team": "AC 몬차",
           "value": 1,
           "appearances": 4,
           "ko": "사무엘레 비린델리",
           "original": "Samuele Birindelli",
           "dob": "1999-07-19",
           "age": 27,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "이탈리아"
         },
         {
           "id": "236038",
-          "team": "프로시노네",
+          "team": "프로시노네 칼초",
           "value": 1,
           "appearances": 4,
           "ko": "자코모 칼로",
           "original": "Giacomo Calo",
           "dob": "1997-02-05",
           "age": 29,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "이탈리아"
         }
       ]
     },
@@ -2560,7 +2680,7 @@
       "standings": [
         {
           "rank": 1,
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
           "played": 3,
           "wins": 3,
@@ -2590,7 +2710,7 @@
         },
         {
           "rank": 3,
-          "team": "아우크스부르크",
+          "team": "FC 아우크스부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
           "played": 3,
           "wins": 2,
@@ -2605,7 +2725,7 @@
         },
         {
           "rank": 4,
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
           "played": 3,
           "wins": 2,
@@ -2635,7 +2755,7 @@
         },
         {
           "rank": 6,
-          "team": "엘버스베르크",
+          "team": "SV 07 엘버스베르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
           "played": 3,
           "wins": 2,
@@ -2650,7 +2770,7 @@
         },
         {
           "rank": 7,
-          "team": "바이어 레버쿠젠",
+          "team": "바이어 04 레버쿠젠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
           "played": 3,
           "wins": 1,
@@ -2665,7 +2785,7 @@
         },
         {
           "rank": 8,
-          "team": "마인츠",
+          "team": "1. FSV 마인츠 05",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
           "played": 3,
           "wins": 1,
@@ -2695,7 +2815,7 @@
         },
         {
           "rank": 10,
-          "team": "베르더 브레멘",
+          "team": "SV 베르더 브레멘",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
           "played": 3,
           "wins": 1,
@@ -2710,7 +2830,7 @@
         },
         {
           "rank": 11,
-          "team": "샬케 04",
+          "team": "FC 샬케 04",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
           "played": 3,
           "wins": 1,
@@ -2725,7 +2845,7 @@
         },
         {
           "rank": 12,
-          "team": "쾰른",
+          "team": "1. FC 쾰른",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
           "played": 3,
           "wins": 1,
@@ -2740,7 +2860,7 @@
         },
         {
           "rank": 13,
-          "team": "호펜하임",
+          "team": "TSG 1899 호펜하임",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
           "played": 3,
           "wins": 1,
@@ -2755,7 +2875,7 @@
         },
         {
           "rank": 14,
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
           "played": 3,
           "wins": 1,
@@ -2770,7 +2890,7 @@
         },
         {
           "rank": 15,
-          "team": "파더보른",
+          "team": "SC 파더보른 07",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
           "played": 3,
           "wins": 0,
@@ -2785,7 +2905,7 @@
         },
         {
           "rank": 16,
-          "team": "우니온 베를린",
+          "team": "1. FC 우니온 베를린",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
           "played": 3,
           "wins": 0,
@@ -2815,7 +2935,7 @@
         },
         {
           "rank": 18,
-          "team": "함부르크",
+          "team": "함부르크 SV",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
           "played": 3,
           "wins": 0,
@@ -2837,8 +2957,8 @@
           "kickoff": "2026-09-12T16:30:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "쾰른",
-          "away": "베르더 브레멘",
+          "home": "1. FC 쾰른",
+          "away": "SV 베르더 브레멘",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
           "homeScore": 1,
@@ -2852,7 +2972,7 @@
           "state": "post",
           "detail": "FT",
           "home": "RB 라이프치히",
-          "away": "함부르크",
+          "away": "함부르크 SV",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
           "homeScore": 5,
@@ -2865,8 +2985,8 @@
           "kickoff": "2026-09-13T15:30:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "엘버스베르크",
-          "away": "바이에른 뮌헨",
+          "home": "SV 07 엘버스베르크",
+          "away": "FC 바이에른 뮌헨",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
           "homeScore": 1,
@@ -2876,47 +2996,51 @@
       "goals": [
         {
           "id": "234376",
-          "team": "마인츠",
+          "team": "1. FSV 마인츠 05",
           "value": 3,
           "appearances": 3,
           "ko": "필리프 티츠",
           "original": "Phillip Tietz",
           "dob": "1997-07-09",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "310883",
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "value": 3,
           "appearances": 3,
           "ko": "이고르 마타노비치",
           "original": "Igor Matanovic",
           "dob": "2003-03-31",
           "age": 23,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "크로아티아"
         },
         {
           "id": "303031",
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "value": 3,
           "appearances": 3,
           "ko": "스즈키 유이토",
           "original": "Yuito Suzuki",
           "dob": "2001-10-25",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "일본"
         },
         {
           "id": "146804",
-          "team": "아우크스부르크",
+          "team": "FC 아우크스부르크",
           "value": 3,
           "appearances": 3,
           "ko": "미하엘 그레고리치",
           "original": "Michael Gregoritsch",
           "dob": "1994-04-18",
           "age": 32,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "오스트리아"
         },
         {
           "id": "359793",
@@ -2927,40 +3051,44 @@
           "original": "Younes Ebnoutalib",
           "dob": "2003-09-13",
           "age": 23,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "212330",
-          "team": "바이어 레버쿠젠",
+          "team": "바이어 04 레버쿠젠",
           "value": 3,
           "appearances": 3,
           "ko": "파트리크 시크",
           "original": "Patrik Schick",
           "dob": "1996-01-24",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "체코"
         },
         {
           "id": "358496",
-          "team": "엘버스베르크",
+          "team": "SV 07 엘버스베르크",
           "value": 3,
           "appearances": 3,
           "ko": "모리스 크라텐마허",
           "original": "Maurice Krattenmacher",
           "dob": "2005-08-11",
           "age": 21,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "214203",
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "value": 2,
           "appearances": 3,
           "ko": "막시밀리안 에게슈타인",
           "original": "Maximilian Eggestein",
           "dob": "1996-12-08",
           "age": 29,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "186381",
@@ -2971,29 +3099,32 @@
           "original": "Serhou Guirassy",
           "dob": "1996-03-12",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "기니"
         },
         {
           "id": "337079",
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "value": 2,
           "appearances": 3,
           "ko": "야니크 엥겔하르트",
           "original": "Yannick Engelhardt",
           "dob": "2001-02-07",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "266839",
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "value": 2,
           "appearances": 3,
           "ko": "요샤 바그노만",
           "original": "Josha Vagnoman",
           "dob": "2000-12-11",
           "age": 25,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "독일"
         },
         {
           "id": "319368",
@@ -3004,18 +3135,20 @@
           "original": "Antonio Nusa",
           "dob": "2005-04-17",
           "age": 21,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "노르웨이"
         },
         {
           "id": "398004",
-          "team": "엘버스베르크",
+          "team": "SV 07 엘버스베르크",
           "value": 2,
           "appearances": 3,
           "ko": "다비드 모크와",
           "original": "David Mokwa",
           "dob": "2004-05-03",
           "age": 22,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "355369",
@@ -3026,7 +3159,8 @@
           "original": "Can Uzun",
           "dob": "2005-11-11",
           "age": 20,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "튀르키예"
         },
         {
           "id": "274887",
@@ -3037,7 +3171,8 @@
           "original": "Jonathan Burkardt",
           "dob": "2000-07-11",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "330239",
@@ -3048,29 +3183,32 @@
           "original": "Hugo Bolin",
           "dob": "2003-07-24",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스웨덴"
         },
         {
           "id": "170257",
-          "team": "베르더 브레멘",
+          "team": "SV 베르더 브레멘",
           "value": 2,
           "appearances": 3,
           "ko": "니클라스 퓔크루크",
           "original": "Niclas Füllkrug",
           "dob": "1993-02-09",
           "age": 33,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "292169",
-          "team": "호펜하임",
+          "team": "TSG 1899 호펜하임",
           "value": 2,
           "appearances": 3,
           "ko": "아담 홀로제크",
           "original": "Adam Hlozek",
           "dob": "2002-07-25",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "체코"
         },
         {
           "id": "258963",
@@ -3081,7 +3219,8 @@
           "original": "Ridle Baku",
           "dob": "1998-04-08",
           "age": 28,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "독일"
         },
         {
           "id": "281122",
@@ -3092,31 +3231,34 @@
           "original": "Felix Nmecha",
           "dob": "2000-10-10",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         }
       ],
       "assists": [
         {
           "id": "170209",
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "value": 3,
           "appearances": 3,
           "ko": "마티아스 긴터",
           "original": "Matthias Ginter",
           "dob": "1994-01-19",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "독일"
         },
         {
           "id": "338854",
-          "team": "호펜하임",
+          "team": "TSG 1899 호펜하임",
           "value": 2,
           "appearances": 3,
           "ko": "아담 다김",
           "original": "Adam Daghim",
           "dob": "2005-09-28",
           "age": 20,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "덴마크"
         },
         {
           "id": "186381",
@@ -3127,51 +3269,56 @@
           "original": "Serhou Guirassy",
           "dob": "1996-03-12",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "기니"
         },
         {
           "id": "305853",
-          "team": "베르더 브레멘",
+          "team": "SV 베르더 브레멘",
           "value": 2,
           "appearances": 3,
           "ko": "마르코 그륄",
           "original": "Marco Grüll",
           "dob": "1998-07-06",
           "age": 28,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "오스트리아"
         },
         {
           "id": "308908",
-          "team": "아우크스부르크",
+          "team": "FC 아우크스부르크",
           "value": 2,
           "appearances": 3,
           "ko": "파비안 리더",
           "original": "Fabian Rieder",
           "dob": "2002-02-16",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스위스"
         },
         {
           "id": "290044",
-          "team": "바이어 레버쿠젠",
+          "team": "바이어 04 레버쿠젠",
           "value": 2,
           "appearances": 3,
           "ko": "미겔 구티에레스",
           "original": "Miguel Gutiérrez",
           "dob": "2001-07-27",
           "age": 25,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스페인"
         },
         {
           "id": "222567",
-          "team": "우니온 베를린",
+          "team": "1. FC 우니온 베를린",
           "value": 2,
           "appearances": 3,
           "ko": "요시프 유라노비치",
           "original": "Josip Juranovic",
           "dob": "1995-08-16",
           "age": 31,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "크로아티아"
         },
         {
           "id": "319368",
@@ -3182,40 +3329,44 @@
           "original": "Antonio Nusa",
           "dob": "2005-04-17",
           "age": 21,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "노르웨이"
         },
         {
           "id": "191209",
-          "team": "호펜하임",
+          "team": "TSG 1899 호펜하임",
           "value": 2,
           "appearances": 3,
           "ko": "블라디미르 초우팔",
           "original": "Vladimír Coufal",
           "dob": "1992-08-22",
           "age": 34,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "체코"
         },
         {
           "id": "195027",
-          "team": "마인츠",
+          "team": "1. FSV 마인츠 05",
           "value": 2,
           "appearances": 3,
           "ko": "셰랄도 베커",
           "original": "Sheraldo Becker",
           "dob": "1995-02-09",
           "age": 31,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "수리남"
         },
         {
           "id": "190161",
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "value": 2,
           "appearances": 3,
           "ko": "요주아 키미히",
           "original": "Joshua Kimmich",
           "dob": "1995-02-08",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "366911",
@@ -3226,18 +3377,20 @@
           "original": "Tidiam Gomis",
           "dob": "2006-08-08",
           "age": 20,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "336355",
-          "team": "호펜하임",
+          "team": "TSG 1899 호펜하임",
           "value": 2,
           "appearances": 3,
           "ko": "밤바세 콩테",
           "original": "Bambasé Conté",
           "dob": "2003-07-07",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "196029",
@@ -3248,73 +3401,80 @@
           "original": "Franck Honorat",
           "dob": "1996-08-11",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "304572",
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "value": 2,
           "appearances": 3,
           "ko": "이스마엘 사이바리",
           "original": "Ismael Saibari",
           "dob": "2001-01-28",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "모로코"
         },
         {
           "id": "399214",
-          "team": "아우크스부르크",
+          "team": "FC 아우크스부르크",
           "value": 1,
           "appearances": 3,
           "ko": "헤네스 베렌스",
           "original": "Hennes Behrens",
           "dob": "2005-01-19",
           "age": 21,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "독일"
         },
         {
           "id": "372026",
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "value": 1,
           "appearances": 3,
           "ko": "핀 옐치",
           "original": "Finn Jeltsch",
           "dob": "2006-07-17",
           "age": 20,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "독일"
         },
         {
           "id": "367558",
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "value": 1,
           "appearances": 3,
           "ko": "조르디 마켕고",
           "original": "Jordy Makengo",
           "dob": "2001-08-03",
           "age": 25,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "프랑스"
         },
         {
           "id": "361212",
-          "team": "바이어 레버쿠젠",
+          "team": "바이어 04 레버쿠젠",
           "value": 1,
           "appearances": 3,
           "ko": "이브라힘 마자",
           "original": "Ibrahim Maza",
           "dob": "2005-11-24",
           "age": 20,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "알제리"
         },
         {
           "id": "341826",
-          "team": "엘버스베르크",
+          "team": "SV 07 엘버스베르크",
           "value": 1,
           "appearances": 3,
           "ko": "루카스 핀 핑커르트",
           "original": "Lukas Finn Pinckert",
           "dob": "2000-01-22",
           "age": 26,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "독일"
         }
       ]
     },
@@ -3326,7 +3486,7 @@
       "standings": [
         {
           "rank": 1,
-          "team": "릴",
+          "team": "LOSC 릴",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
           "played": 4,
           "wins": 3,
@@ -3341,7 +3501,7 @@
         },
         {
           "rank": 2,
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
           "played": 4,
           "wins": 3,
@@ -3356,7 +3516,7 @@
         },
         {
           "rank": 3,
-          "team": "스타드 렌",
+          "team": "스타드 렌 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
           "played": 4,
           "wins": 3,
@@ -3401,7 +3561,7 @@
         },
         {
           "rank": 6,
-          "team": "스트라스부르",
+          "team": "RC 스트라스부르 알자스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
           "played": 4,
           "wins": 2,
@@ -3416,7 +3576,7 @@
         },
         {
           "rank": 7,
-          "team": "브레스트",
+          "team": "스타드 브레스트 29",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
           "played": 4,
           "wins": 1,
@@ -3431,7 +3591,7 @@
         },
         {
           "rank": 8,
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
           "played": 4,
           "wins": 1,
@@ -3446,7 +3606,7 @@
         },
         {
           "rank": 9,
-          "team": "로리앙",
+          "team": "FC 로리앙",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
           "played": 4,
           "wins": 1,
@@ -3461,7 +3621,7 @@
         },
         {
           "rank": 10,
-          "team": "랑스",
+          "team": "RC 랑스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
           "played": 4,
           "wins": 1,
@@ -3476,7 +3636,7 @@
         },
         {
           "rank": 11,
-          "team": "앙제",
+          "team": "앙제 SCO",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
           "played": 4,
           "wins": 1,
@@ -3491,7 +3651,7 @@
         },
         {
           "rank": 12,
-          "team": "트루아",
+          "team": "ES 트루아 AC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
           "played": 4,
           "wins": 1,
@@ -3521,7 +3681,7 @@
         },
         {
           "rank": 14,
-          "team": "르망",
+          "team": "르망 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
           "played": 4,
           "wins": 0,
@@ -3536,7 +3696,7 @@
         },
         {
           "rank": 15,
-          "team": "오세르",
+          "team": "AJ 오세르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
           "played": 4,
           "wins": 1,
@@ -3551,7 +3711,7 @@
         },
         {
           "rank": 16,
-          "team": "르아브르",
+          "team": "르아브르 AC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
           "played": 4,
           "wins": 0,
@@ -3566,7 +3726,7 @@
         },
         {
           "rank": 17,
-          "team": "툴루즈",
+          "team": "툴루즈 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
           "played": 4,
           "wins": 0,
@@ -3581,7 +3741,7 @@
         },
         {
           "rank": 18,
-          "team": "니스",
+          "team": "OGC 니스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
           "played": 4,
           "wins": 0,
@@ -3603,8 +3763,8 @@
           "kickoff": "2026-09-12T15:15:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "스트라스부르",
-          "away": "AS 모나코",
+          "home": "RC 스트라스부르 알자스",
+          "away": "AS 모나코 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
           "homeScore": 1,
@@ -3617,8 +3777,8 @@
           "kickoff": "2026-09-12T18:45:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "오세르",
-          "away": "니스",
+          "home": "AJ 오세르",
+          "away": "OGC 니스",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
           "homeScore": 1,
@@ -3631,8 +3791,8 @@
           "kickoff": "2026-09-12T18:45:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "르아브르",
-          "away": "앙제",
+          "home": "르아브르 AC",
+          "away": "앙제 SCO",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
           "homeScore": 0,
@@ -3645,8 +3805,8 @@
           "kickoff": "2026-09-12T18:45:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "로리앙",
-          "away": "툴루즈",
+          "home": "FC 로리앙",
+          "away": "툴루즈 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
           "homeScore": 2,
@@ -3673,8 +3833,8 @@
           "kickoff": "2026-09-13T13:00:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "릴",
-          "away": "트루아",
+          "home": "LOSC 릴",
+          "away": "ES 트루아 AC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
           "homeScore": 2,
@@ -3687,8 +3847,8 @@
           "kickoff": "2026-09-13T15:15:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "르망",
-          "away": "랑스",
+          "home": "르망 FC",
+          "away": "RC 랑스",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
           "homeScore": 2,
@@ -3701,8 +3861,8 @@
           "kickoff": "2026-09-13T18:45:00.000Z",
           "state": "post",
           "detail": "FT",
-          "home": "브레스트",
-          "away": "파리 생제르맹",
+          "home": "스타드 브레스트 29",
+          "away": "파리 생제르맹 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
           "homeScore": 0,
@@ -3719,7 +3879,8 @@
           "original": "Amine Gouiri",
           "dob": "2000-02-16",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "알제리"
         },
         {
           "id": "271137",
@@ -3730,150 +3891,164 @@
           "original": "Lassine Sinayoko",
           "dob": "1999-12-08",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "말리"
         },
         {
           "id": "330412",
-          "team": "브레스트",
+          "team": "스타드 브레스트 29",
           "value": 4,
           "appearances": 4,
           "ko": "카모리 둠비아",
           "original": "Kamory Doumbia",
           "dob": "2003-02-18",
           "age": 23,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "말리"
         },
         {
           "id": "156898",
-          "team": "랑스",
+          "team": "RC 랑스",
           "value": 3,
           "appearances": 4,
           "ko": "플로리앙 토뱅",
           "original": "Florian Thauvin",
           "dob": "1993-01-26",
           "age": 33,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "323850",
-          "team": "스타드 렌",
+          "team": "스타드 렌 FC",
           "value": 3,
           "appearances": 4,
           "ko": "에스테방 르폴",
           "original": "Esteban Lepaul",
           "dob": "2000-04-18",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "268720",
-          "team": "르망",
+          "team": "르망 FC",
           "value": 3,
           "appearances": 4,
           "ko": "루이 마푸타",
           "original": "Louis Mafouta",
           "dob": "1994-07-02",
           "age": 32,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "중앙아프리카 공화국"
         },
         {
           "id": "365789",
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "value": 3,
           "appearances": 4,
           "ko": "파리스 브루너",
           "original": "Paris Brunner",
           "dob": "2006-02-15",
           "age": 20,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "265869",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 3,
           "appearances": 4,
           "ko": "페란 토레스",
           "original": "Ferran Torres",
           "dob": "2000-02-29",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "346844",
-          "team": "릴",
+          "team": "LOSC 릴",
           "value": 2,
           "appearances": 4,
           "ko": "티아구 산투스",
           "original": "Tiago Santos",
           "dob": "2002-07-23",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "포르투갈"
         },
         {
           "id": "159047",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 2,
           "appearances": 4,
           "ko": "마르키뉴스",
           "original": "Marquinhos",
           "dob": "1994-05-14",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "브라질"
         },
         {
           "id": "379012",
-          "team": "스트라스부르",
+          "team": "RC 스트라스부르 알자스",
           "value": 2,
           "appearances": 4,
           "ko": "제심 야신",
           "original": "Gessime Yassine",
           "dob": "2005-11-22",
           "age": 20,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "모로코"
         },
         {
           "id": "418536",
-          "team": "르망",
+          "team": "르망 FC",
           "value": 2,
           "appearances": 4,
           "ko": "아딜 부라바",
           "original": "Adil Bourabaa",
           "dob": "2004-11-30",
           "age": 21,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "350501",
-          "team": "스트라스부르",
+          "team": "RC 스트라스부르 알자스",
           "value": 2,
           "appearances": 4,
           "ko": "새뮤얼 아모아메야우",
           "original": "Samuel Amo-Ameyaw",
           "dob": "2006-07-18",
           "age": 20,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "364180",
-          "team": "랑스",
+          "team": "RC 랑스",
           "value": 2,
           "appearances": 3,
           "ko": "프라뇨 이바노비치",
           "original": "Franjo Ivanovic",
           "dob": "2003-10-01",
           "age": 22,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "크로아티아"
         },
         {
           "id": "293347",
-          "team": "오세르",
+          "team": "AJ 오세르",
           "value": 2,
           "appearances": 2,
           "ko": "캐머런 아처",
           "original": "Cameron Archer",
           "dob": "2001-12-09",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "370758",
@@ -3884,29 +4059,32 @@
           "original": "Zachary Athekame",
           "dob": "2004-12-13",
           "age": 21,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스위스"
         },
         {
           "id": "196234",
-          "team": "앙제",
+          "team": "앙제 SCO",
           "value": 1,
           "appearances": 4,
           "ko": "브랑코 판덴봄",
           "original": "Branco van den Boomen",
           "dob": "1995-07-21",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "네덜란드"
         },
         {
           "id": "192015",
-          "team": "브레스트",
+          "team": "스타드 브레스트 29",
           "value": 1,
           "appearances": 4,
           "ko": "뤼도비크 아조르크",
           "original": "Ludovic Ajorque",
           "dob": "1994-02-25",
           "age": 32,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "159543",
@@ -3917,108 +4095,118 @@
           "original": "Pierre-Emile Højbjerg",
           "dob": "1995-08-05",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "덴마크"
         },
         {
           "id": "155532",
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "value": 1,
           "appearances": 4,
           "ko": "에릭 다이어",
           "original": "Eric Dier",
           "dob": "1994-01-15",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "잉글랜드"
         }
       ],
       "assists": [
         {
           "id": "271244",
-          "team": "툴루즈",
+          "team": "툴루즈 FC",
           "value": 3,
           "appearances": 4,
           "ko": "크리스티안 카세레스 주니오르",
           "original": "Cristian Cásseres Jr.",
           "dob": "2000-01-20",
           "age": 26,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "베네수엘라"
         },
         {
           "id": "364754",
-          "team": "로리앙",
+          "team": "FC 로리앙",
           "value": 3,
           "appearances": 4,
           "ko": "파노스 카체리스",
           "original": "Panos Katseris",
           "dob": "2001-07-05",
           "age": 25,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "그리스"
         },
         {
           "id": "195501",
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "value": 2,
           "appearances": 4,
           "ko": "알렉산드르 골로빈",
           "original": "Aleksandr Golovin",
           "dob": "1996-05-30",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "러시아"
         },
         {
           "id": "418536",
-          "team": "르망",
+          "team": "르망 FC",
           "value": 2,
           "appearances": 4,
           "ko": "아딜 부라바",
           "original": "Adil Bourabaa",
           "dob": "2004-11-30",
           "age": 21,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "303787",
-          "team": "스트라스부르",
+          "team": "RC 스트라스부르 알자스",
           "value": 2,
           "appearances": 4,
           "ko": "세바스티안 나나시",
           "original": "Sebastian Nanasi",
           "dob": "2002-05-16",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스웨덴"
         },
         {
           "id": "173266",
-          "team": "스타드 렌",
+          "team": "스타드 렌 FC",
           "value": 2,
           "appearances": 4,
           "ko": "아드리앵 토마송",
           "original": "Adrien Thomasson",
           "dob": "1993-12-10",
           "age": 32,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "214596",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 2,
           "appearances": 4,
           "ko": "파비안 루이스",
           "original": "Fabián Ruiz",
           "dob": "1996-04-03",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "88965",
-          "team": "릴",
+          "team": "LOSC 릴",
           "value": 2,
           "appearances": 4,
           "ko": "올리비에 지루",
           "original": "Olivier Giroud",
           "dob": "1986-09-30",
           "age": 39,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "305545",
@@ -4029,29 +4217,32 @@
           "original": "Pavel Sulc",
           "dob": "2000-12-29",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "체코"
         },
         {
           "id": "412232",
-          "team": "앙제",
+          "team": "앙제 SCO",
           "value": 1,
           "appearances": 4,
           "ko": "우스만 카마라",
           "original": "Ousmane Camara",
           "dob": "2003-03-06",
           "age": 23,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "말리"
         },
         {
           "id": "408780",
-          "team": "트루아",
+          "team": "ES 트루아 AC",
           "value": 1,
           "appearances": 4,
           "ko": "아니스 우제나지",
           "original": "Anis Ouzenadji",
           "dob": "2006-11-04",
           "age": 19,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "프랑스"
         },
         {
           "id": "370758",
@@ -4062,51 +4253,56 @@
           "original": "Zachary Athekame",
           "dob": "2004-12-13",
           "age": 21,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스위스"
         },
         {
           "id": "196234",
-          "team": "앙제",
+          "team": "앙제 SCO",
           "value": 1,
           "appearances": 4,
           "ko": "브랑코 판덴봄",
           "original": "Branco van den Boomen",
           "dob": "1995-07-21",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "네덜란드"
         },
         {
           "id": "156898",
-          "team": "랑스",
+          "team": "RC 랑스",
           "value": 1,
           "appearances": 4,
           "ko": "플로리앙 토뱅",
           "original": "Florian Thauvin",
           "dob": "1993-01-26",
           "age": 33,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "155532",
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "value": 1,
           "appearances": 4,
           "ko": "에릭 다이어",
           "original": "Eric Dier",
           "dob": "1994-01-15",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "38721",
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "value": 1,
           "appearances": 4,
           "ko": "라민 카마라",
           "original": "Lamine Camara",
           "dob": "2004-01-01",
           "age": 22,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "세네갈"
         },
         {
           "id": "238917",
@@ -4117,40 +4313,44 @@
           "original": "Amine Harit",
           "dob": "1997-06-18",
           "age": 29,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "모로코"
         },
         {
           "id": "316559",
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "value": 1,
           "appearances": 4,
           "ko": "나지뉴",
           "original": "Názinho",
           "dob": "2003-07-20",
           "age": 23,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "포르투갈"
         },
         {
           "id": "379012",
-          "team": "스트라스부르",
+          "team": "RC 스트라스부르 알자스",
           "value": 1,
           "appearances": 4,
           "ko": "제심 야신",
           "original": "Gessime Yassine",
           "dob": "2005-11-22",
           "age": 20,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "모로코"
         },
         {
           "id": "179187",
-          "team": "릴",
+          "team": "LOSC 릴",
           "value": 1,
           "appearances": 4,
           "ko": "나빌 벤탈렙",
           "original": "Nabil Bentaleb",
           "dob": "1994-11-24",
           "age": 31,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "알제리"
         }
       ]
     },
@@ -4162,7 +4362,7 @@
       "standings": [
         {
           "rank": 1,
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
           "played": 1,
           "wins": 1,
@@ -4177,7 +4377,7 @@
         },
         {
           "rank": 2,
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
           "played": 1,
           "wins": 1,
@@ -4192,7 +4392,7 @@
         },
         {
           "rank": 3,
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "played": 1,
           "wins": 1,
@@ -4207,7 +4407,7 @@
         },
         {
           "rank": 4,
-          "team": "맨체스터 유나이티드",
+          "team": "맨체스터 유나이티드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
           "played": 1,
           "wins": 1,
@@ -4222,7 +4422,7 @@
         },
         {
           "rank": 5,
-          "team": "코모",
+          "team": "코모 1907",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "played": 1,
           "wins": 1,
@@ -4252,7 +4452,7 @@
         },
         {
           "rank": 7,
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
           "played": 1,
           "wins": 1,
@@ -4267,7 +4467,7 @@
         },
         {
           "rank": 8,
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
           "played": 1,
           "wins": 1,
@@ -4282,7 +4482,7 @@
         },
         {
           "rank": 9,
-          "team": "애스턴 빌라",
+          "team": "애스턴 빌라 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
           "played": 1,
           "wins": 1,
@@ -4297,7 +4497,7 @@
         },
         {
           "rank": 10,
-          "team": "랑스",
+          "team": "RC 랑스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
           "played": 1,
           "wins": 1,
@@ -4312,7 +4512,7 @@
         },
         {
           "rank": 11,
-          "team": "레알 베티스",
+          "team": "레알 베티스 발롬피에",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "played": 1,
           "wins": 1,
@@ -4342,7 +4542,7 @@
         },
         {
           "rank": 13,
-          "team": "리버풀",
+          "team": "리버풀 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
           "played": 1,
           "wins": 1,
@@ -4357,7 +4557,7 @@
         },
         {
           "rank": 14,
-          "team": "레알 마드리드",
+          "team": "레알 마드리드 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "played": 1,
           "wins": 1,
@@ -4372,7 +4572,7 @@
         },
         {
           "rank": 15,
-          "team": "아스널",
+          "team": "아스널 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "played": 1,
           "wins": 1,
@@ -4387,7 +4587,7 @@
         },
         {
           "rank": 16,
-          "team": "AEK 아테네",
+          "team": "AEK 아테네 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
           "played": 1,
           "wins": 1,
@@ -4417,7 +4617,7 @@
         },
         {
           "rank": 18,
-          "team": "샤흐타르 도네츠크",
+          "team": "FC 샤흐타르 도네츠크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
           "played": 1,
           "wins": 0,
@@ -4432,7 +4632,7 @@
         },
         {
           "rank": 19,
-          "team": "페네르바흐체",
+          "team": "페네르바흐체 SK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
           "played": 1,
           "wins": 0,
@@ -4462,7 +4662,7 @@
         },
         {
           "rank": 21,
-          "team": "비야레알",
+          "team": "비야레알 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "played": 1,
           "wins": 0,
@@ -4477,7 +4677,7 @@
         },
         {
           "rank": 22,
-          "team": "클뤼프 브뤼허",
+          "team": "클뤼프 브뤼허 KV",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
           "played": 1,
           "wins": 0,
@@ -4492,7 +4692,7 @@
         },
         {
           "rank": 23,
-          "team": "릴",
+          "team": "LOSC 릴",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
           "played": 1,
           "wins": 0,
@@ -4507,7 +4707,7 @@
         },
         {
           "rank": 24,
-          "team": "슬라비아 프라하",
+          "team": "SK 슬라비아 프라하",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
           "played": 1,
           "wins": 0,
@@ -4522,7 +4722,7 @@
         },
         {
           "rank": 25,
-          "team": "아틀레티코 마드리드",
+          "team": "클루브 아틀레티코 데 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 1,
           "wins": 0,
@@ -4537,7 +4737,7 @@
         },
         {
           "rank": 26,
-          "team": "인테르나치오날레",
+          "team": "FC 인테르나치오날레 밀라노",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "played": 1,
           "wins": 0,
@@ -4552,7 +4752,7 @@
         },
         {
           "rank": 27,
-          "team": "LASK 린츠",
+          "team": "LASK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
           "played": 1,
           "wins": 0,
@@ -4567,7 +4767,7 @@
         },
         {
           "rank": 28,
-          "team": "나폴리",
+          "team": "SSC 나폴리",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
           "played": 1,
           "wins": 0,
@@ -4582,7 +4782,7 @@
         },
         {
           "rank": 29,
-          "team": "갈라타사라이",
+          "team": "갈라타사라이 SK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
           "played": 1,
           "wins": 0,
@@ -4597,7 +4797,7 @@
         },
         {
           "rank": 30,
-          "team": "비킹 FK",
+          "team": "바이킹 FK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
           "played": 1,
           "wins": 0,
@@ -4612,7 +4812,7 @@
         },
         {
           "rank": 31,
-          "team": "포르투",
+          "team": "FC 포르투",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
           "played": 1,
           "wins": 0,
@@ -4642,7 +4842,7 @@
         },
         {
           "rank": 33,
-          "team": "페예노르트",
+          "team": "페예노르트 로테르담",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
           "played": 1,
           "wins": 0,
@@ -4672,7 +4872,7 @@
         },
         {
           "rank": 35,
-          "team": "슬로반 브라티슬라바",
+          "team": "ŠK 슬로반 브라티슬라바",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
           "played": 1,
           "wins": 0,
@@ -4687,7 +4887,7 @@
         },
         {
           "rank": 36,
-          "team": "보되/글림트",
+          "team": "FK 보되/글림트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
           "played": 1,
           "wins": 0,
@@ -4705,58 +4905,63 @@
       "goals": [
         {
           "id": "265869",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 3,
           "appearances": 1,
           "ko": "페란 토레스",
           "original": "Ferran Torres",
           "dob": "2000-02-29",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "269136",
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "value": 3,
           "appearances": 1,
           "ko": "에르메딘 데미로비치",
           "original": "Ermedin Demirovic",
           "dob": "1998-03-25",
           "age": 28,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "보스니아 헤르체고비나"
         },
         {
           "id": "322169",
-          "team": "슬라비아 프라하",
+          "team": "SK 슬라비아 프라하",
           "value": 2,
           "appearances": 1,
           "ko": "다니옐 슈투름",
           "original": "Danijel Sturm",
           "dob": "1999-01-04",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "슬로베니아"
         },
         {
           "id": "286831",
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "value": 2,
           "appearances": 1,
           "ko": "마이클 올리세",
           "original": "Michael Olise",
           "dob": "2001-12-12",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "253989",
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "value": 2,
           "appearances": 1,
           "ko": "엘링 홀란",
           "original": "Erling Haaland",
           "dob": "2000-07-21",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "노르웨이"
         },
         {
           "id": "186381",
@@ -4767,106 +4972,116 @@
           "original": "Serhou Guirassy",
           "dob": "1996-03-12",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "기니"
         },
         {
           "id": "145078",
-          "team": "레알 베티스",
+          "team": "레알 베티스 발롬피에",
           "value": 2,
           "appearances": 1,
           "ko": "마르크 바르트라",
           "original": "Marc Bartra",
           "dob": "1991-01-15",
           "age": 35,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스페인"
         },
         {
           "id": "231050",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 1,
           "ko": "하피냐",
           "original": "Raphinha",
           "dob": "1996-12-14",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "229744",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 2,
           "appearances": 1,
           "ko": "우스만 뎀벨레",
           "original": "Ousmane Dembélé",
           "dob": "1997-05-15",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "362150",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 1,
           "appearances": 1,
           "ko": "라민 야말",
           "original": "Lamine Yamal",
           "dob": "2007-07-13",
           "age": 19,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "340900",
-          "team": "릴",
+          "team": "LOSC 릴",
           "value": 1,
           "appearances": 1,
           "ko": "알레샨드루",
           "original": "Alexsandro",
           "dob": "1999-08-09",
           "age": 27,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "브라질"
         },
         {
           "id": "335201",
-          "team": "클뤼프 브뤼허",
+          "team": "클뤼프 브뤼허 KV",
           "value": 1,
           "appearances": 1,
           "ko": "니콜로 트레솔디",
           "original": "Nicolo Tresoldi",
           "dob": "2004-08-20",
           "age": 22,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "320982",
-          "team": "페네르바흐체",
+          "team": "페네르바흐체 SK",
           "value": 1,
           "appearances": 1,
           "ko": "아치 브라운",
           "original": "Archie Brown",
           "dob": "2002-05-28",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "318098",
-          "team": "비야레알",
+          "team": "비야레알 CF",
           "value": 1,
           "appearances": 1,
           "ko": "산티아고 모우리뇨",
           "original": "Santiago Mouriño",
           "dob": "2002-02-13",
           "age": 24,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "우루과이"
         },
         {
           "id": "310419",
-          "team": "슬로반 브라티슬라바",
+          "team": "ŠK 슬로반 브라티슬라바",
           "value": 1,
           "appearances": 1,
           "ko": "술레이만 카마라",
           "original": "Suleiman Camara",
           "dob": "2001-12-07",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "감비아"
         },
         {
           "id": "296969",
@@ -4877,18 +5092,20 @@
           "original": "Geny Catamo",
           "dob": "2001-01-26",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "모잠비크"
         },
         {
           "id": "279790",
-          "team": "레알 베티스",
+          "team": "레알 베티스 발롬피에",
           "value": 1,
           "appearances": 1,
           "ko": "트로이 패럿",
           "original": "Troy Parrott",
           "dob": "2002-02-04",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아일랜드"
         },
         {
           "id": "266291",
@@ -4899,185 +5116,202 @@
           "original": "Sergiño Dest",
           "dob": "2000-11-03",
           "age": 25,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "미국"
         },
         {
           "id": "259902",
-          "team": "맨체스터 유나이티드",
+          "team": "맨체스터 유나이티드 FC",
           "value": 1,
           "appearances": 1,
           "ko": "마테우스 쿠냐",
           "original": "Matheus Cunha",
           "dob": "1999-05-27",
           "age": 27,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "브라질"
         },
         {
           "id": "257206",
-          "team": "리버풀",
+          "team": "리버풀 FC",
           "value": 1,
           "appearances": 1,
           "ko": "도미니크 소보슬러이",
           "original": "Dominik Szoboszlai",
           "dob": "2000-10-25",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "헝가리"
         }
       ],
       "assists": [
         {
           "id": "362150",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 2,
           "appearances": 1,
           "ko": "라민 야말",
           "original": "Lamine Yamal",
           "dob": "2007-07-13",
           "age": 19,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "337970",
-          "team": "코모",
+          "team": "코모 1907",
           "value": 2,
           "appearances": 1,
           "ko": "니코 파스",
           "original": "Nico Paz",
           "dob": "2004-09-08",
           "age": 22,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "아르헨티나"
         },
         {
           "id": "273300",
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "value": 2,
           "appearances": 1,
           "ko": "데니스 운다프",
           "original": "Deniz Undav",
           "dob": "1996-07-19",
           "age": 30,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "독일"
         },
         {
           "id": "251100",
-          "team": "애스턴 빌라",
+          "team": "애스턴 빌라 FC",
           "value": 2,
           "appearances": 1,
           "ko": "파우 토레스",
           "original": "Pau Torres",
           "dob": "1997-01-16",
           "age": 29,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "스페인"
         },
         {
           "id": "229744",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 2,
           "appearances": 1,
           "ko": "우스만 뎀벨레",
           "original": "Ousmane Dembélé",
           "dob": "1997-05-15",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "프랑스"
         },
         {
           "id": "329690",
-          "team": "파리 생제르맹",
+          "team": "파리 생제르맹 FC",
           "value": 1,
           "appearances": 1,
           "ko": "마그네스 아클리우슈",
           "original": "Maghnes Akliouche",
           "dob": "2002-02-25",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "301524",
-          "team": "애스턴 빌라",
+          "team": "애스턴 빌라 FC",
           "value": 1,
           "appearances": 1,
           "ko": "주앙 고메스",
           "original": "João Gomes",
           "dob": "2001-02-12",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "브라질"
         },
         {
           "id": "300002",
-          "team": "비야레알",
+          "team": "비야레알 CF",
           "value": 1,
           "appearances": 1,
           "ko": "게오르게스 미카우타제",
           "original": "Georges Mikautadze",
           "dob": "2000-10-31",
           "age": 25,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "조지아"
         },
         {
           "id": "290232",
-          "team": "슈투트가르트",
+          "team": "VfB 슈투트가르트",
           "value": 1,
           "appearances": 1,
           "ko": "안겔로 슈틸러",
           "original": "Angelo Stiller",
           "dob": "2001-04-04",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "독일"
         },
         {
           "id": "286831",
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "value": 1,
           "appearances": 1,
           "ko": "마이클 올리세",
           "original": "Michael Olise",
           "dob": "2001-12-12",
           "age": 24,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "프랑스"
         },
         {
           "id": "285450",
-          "team": "맨체스터 시티",
+          "team": "맨체스터 시티 FC",
           "value": 1,
           "appearances": 1,
           "ko": "엔소 페르난데스",
           "original": "Enzo Fernández",
           "dob": "2001-01-17",
           "age": 25,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "아르헨티나"
         },
         {
           "id": "277206",
-          "team": "아틀레티코 마드리드",
+          "team": "클루브 아틀레티코 데 마드리드",
           "value": 1,
           "appearances": 1,
           "ko": "훌리안 알바레스",
           "original": "Julián Álvarez",
           "dob": "2000-01-31",
           "age": 26,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "276221",
-          "team": "페네르바흐체",
+          "team": "페네르바흐체 SK",
           "value": 1,
           "appearances": 1,
           "ko": "메이슨 그린우드",
           "original": "Mason Greenwood",
           "dob": "2001-10-01",
           "age": 24,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "잉글랜드"
         },
         {
           "id": "270821",
-          "team": "리버풀",
+          "team": "리버풀 FC",
           "value": 1,
           "appearances": 1,
           "ko": "로날드 아라우호",
           "original": "Ronald Araújo",
           "dob": "1999-03-07",
           "age": 27,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "우루과이"
         },
         {
           "id": "245918",
@@ -5088,62 +5322,68 @@
           "original": "Armando Obispo",
           "dob": "1999-03-05",
           "age": 27,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "퀴라소"
         },
         {
           "id": "227714",
-          "team": "레알 베티스",
+          "team": "레알 베티스 발롬피에",
           "value": 1,
           "appearances": 1,
           "ko": "파블로 포르날스",
           "original": "Pablo Fornals",
           "dob": "1996-02-22",
           "age": 30,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "219713",
-          "team": "인테르나치오날레",
+          "team": "FC 인테르나치오날레 밀라노",
           "value": 1,
           "appearances": 1,
           "ko": "라우타로 마르티네스",
           "original": "Lautaro Martínez",
           "dob": "1997-08-22",
           "age": 29,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "186172",
-          "team": "비킹 FK",
+          "team": "바이킹 FK",
           "value": 1,
           "appearances": 1,
           "ko": "헨리크 뢰르비크 비오르달",
           "original": "Henrik Rorvik Bjordal",
           "dob": "1997-02-04",
           "age": 29,
-          "position": "미드필더"
+          "position": "미드필더",
+          "nationality": "노르웨이"
         },
         {
           "id": "176399",
-          "team": "바르셀로나",
+          "team": "FC 바르셀로나",
           "value": 1,
           "appearances": 1,
           "ko": "주앙 칸셀루",
           "original": "João Cancelo",
           "dob": "1994-05-27",
           "age": 32,
-          "position": "수비수"
+          "position": "수비수",
+          "nationality": "포르투갈"
         },
         {
           "id": "142200",
-          "team": "바이에른 뮌헨",
+          "team": "FC 바이에른 뮌헨",
           "value": 1,
           "appearances": 1,
           "ko": "해리 케인",
           "original": "Harry Kane",
           "dob": "1993-07-28",
           "age": 33,
-          "position": "공격수"
+          "position": "공격수",
+          "nationality": "잉글랜드"
         }
       ]
     },
@@ -5185,7 +5425,7 @@
         },
         {
           "rank": 3,
-          "team": "안데를레흐트",
+          "team": "RSC 안데를레흐트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
           "played": 0,
           "wins": 0,
@@ -5200,7 +5440,7 @@
         },
         {
           "rank": 4,
-          "team": "아라라트아르메니아",
+          "team": "FC 아라라트아르메니아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
           "played": 0,
           "wins": 0,
@@ -5215,7 +5455,7 @@
         },
         {
           "rank": 5,
-          "team": "바이어 레버쿠젠",
+          "team": "바이어 04 레버쿠젠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
           "played": 0,
           "wins": 0,
@@ -5230,7 +5470,7 @@
         },
         {
           "rank": 6,
-          "team": "벤피카",
+          "team": "SL 벤피카",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
           "played": 0,
           "wins": 0,
@@ -5245,7 +5485,7 @@
         },
         {
           "rank": 7,
-          "team": "베식타시",
+          "team": "베식타시 JK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
           "played": 0,
           "wins": 0,
@@ -5260,7 +5500,7 @@
         },
         {
           "rank": 8,
-          "team": "본머스",
+          "team": "AFC 본머스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
           "played": 0,
           "wins": 0,
@@ -5290,7 +5530,7 @@
         },
         {
           "rank": 10,
-          "team": "셀타 비고",
+          "team": "RC 셀타 데 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 0,
           "wins": 0,
@@ -5305,7 +5545,7 @@
         },
         {
           "rank": 11,
-          "team": "셀틱",
+          "team": "셀틱 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
           "played": 0,
           "wins": 0,
@@ -5320,7 +5560,7 @@
         },
         {
           "rank": 12,
-          "team": "크리스털 팰리스",
+          "team": "크리스털 팰리스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
           "played": 0,
           "wins": 0,
@@ -5335,7 +5575,7 @@
         },
         {
           "rank": 13,
-          "team": "디나모 자그레브",
+          "team": "GNK 디나모 자그레브",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
           "played": 0,
           "wins": 0,
@@ -5350,7 +5590,7 @@
         },
         {
           "rank": 14,
-          "team": "페렌츠바로시",
+          "team": "페렌츠바로시 TC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
           "played": 0,
           "wins": 0,
@@ -5365,7 +5605,7 @@
         },
         {
           "rank": 15,
-          "team": "하포엘 베에르셰바",
+          "team": "하포엘 베에르셰바 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
           "played": 0,
           "wins": 0,
@@ -5380,7 +5620,7 @@
         },
         {
           "rank": 16,
-          "team": "호펜하임",
+          "team": "TSG 1899 호펜하임",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
           "played": 0,
           "wins": 0,
@@ -5410,7 +5650,7 @@
         },
         {
           "rank": 18,
-          "team": "유벤투스",
+          "team": "유벤투스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "played": 0,
           "wins": 0,
@@ -5440,7 +5680,7 @@
         },
         {
           "rank": 20,
-          "team": "레프스키 소피아",
+          "team": "PFC 레프스키 소피아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
           "played": 0,
           "wins": 0,
@@ -5455,7 +5695,7 @@
         },
         {
           "rank": 21,
-          "team": "릴레스트룀",
+          "team": "릴레스트룀 SK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
           "played": 0,
           "wins": 0,
@@ -5530,7 +5770,7 @@
         },
         {
           "rank": 26,
-          "team": "올림피아코스",
+          "team": "올림피아코스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
           "played": 0,
           "wins": 0,
@@ -5545,7 +5785,7 @@
         },
         {
           "rank": 27,
-          "team": "오모니아 니코시아",
+          "team": "AC 오모니아 니코시아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
           "played": 0,
           "wins": 0,
@@ -5560,7 +5800,7 @@
         },
         {
           "rank": 28,
-          "team": "레알 소시에다드",
+          "team": "레알 소시에다드 데 풋볼",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "played": 0,
           "wins": 0,
@@ -5575,7 +5815,7 @@
         },
         {
           "rank": 29,
-          "team": "스타드 렌",
+          "team": "스타드 렌 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
           "played": 0,
           "wins": 0,
@@ -5590,7 +5830,7 @@
         },
         {
           "rank": 30,
-          "team": "레드불 잘츠부르크",
+          "team": "FC 레드불 잘츠부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
           "played": 0,
           "wins": 0,
@@ -5605,7 +5845,7 @@
         },
         {
           "rank": 31,
-          "team": "스파르타 프라하",
+          "team": "AC 스파르타 프라하",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
           "played": 0,
           "wins": 0,
@@ -5620,7 +5860,7 @@
         },
         {
           "rank": 32,
-          "team": "슈투름 그라츠",
+          "team": "SK 슈투름 그라츠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
           "played": 0,
           "wins": 0,
@@ -5635,7 +5875,7 @@
         },
         {
           "rank": 33,
-          "team": "선덜랜드",
+          "team": "선덜랜드 AFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
           "played": 0,
           "wins": 0,
@@ -5650,7 +5890,7 @@
         },
         {
           "rank": 34,
-          "team": "토렌세",
+          "team": "SCU 토렌스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
           "played": 0,
           "wins": 0,
@@ -5665,7 +5905,7 @@
         },
         {
           "rank": 35,
-          "team": "위니옹 생질루아즈",
+          "team": "로얄 위니옹 생질루아즈",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
           "played": 0,
           "wins": 0,
@@ -5680,7 +5920,7 @@
         },
         {
           "rank": 36,
-          "team": "빅토리아 플젠",
+          "team": "FC 빅토리아 플젠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
           "played": 0,
           "wins": 0,
@@ -5721,7 +5961,7 @@
         },
         {
           "rank": 2,
-          "team": "아약스",
+          "team": "AFC 아약스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
           "played": 0,
           "wins": 0,
@@ -5736,7 +5976,7 @@
         },
         {
           "rank": 3,
-          "team": "아탈란타",
+          "team": "아탈란타 BC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
           "played": 0,
           "wins": 0,
@@ -5751,7 +5991,7 @@
         },
         {
           "rank": 4,
-          "team": "보라츠 바냐루카",
+          "team": "FK 보라츠 바냐루카",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
           "played": 0,
           "wins": 0,
@@ -5766,7 +6006,7 @@
         },
         {
           "rank": 5,
-          "team": "브란",
+          "team": "SK 브란",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
           "played": 0,
           "wins": 0,
@@ -5781,7 +6021,7 @@
         },
         {
           "rank": 6,
-          "team": "브라이턴",
+          "team": "브라이턴 앤드 호브 앨비언 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
           "played": 0,
           "wins": 0,
@@ -5796,7 +6036,7 @@
         },
         {
           "rank": 7,
-          "team": "CSKA 소피아",
+          "team": "PFC CSKA 소피아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
           "played": 0,
           "wins": 0,
@@ -5811,7 +6051,7 @@
         },
         {
           "rank": 8,
-          "team": "에그나티아",
+          "team": "KF 에그나티아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
           "played": 0,
           "wins": 0,
@@ -5841,7 +6081,7 @@
         },
         {
           "rank": 10,
-          "team": "프라이부르크",
+          "team": "SC 프라이부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
           "played": 0,
           "wins": 0,
@@ -5871,7 +6111,7 @@
         },
         {
           "rank": 12,
-          "team": "헤타페",
+          "team": "헤타페 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "played": 0,
           "wins": 0,
@@ -5886,7 +6126,7 @@
         },
         {
           "rank": 13,
-          "team": "하이두크 스플리트",
+          "team": "HNK 하이두크 스플리트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
           "played": 0,
           "wins": 0,
@@ -5901,7 +6141,7 @@
         },
         {
           "rank": 14,
-          "team": "하츠",
+          "team": "하트 오브 미들로디언 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
           "played": 0,
           "wins": 0,
@@ -5916,7 +6156,7 @@
         },
         {
           "rank": 15,
-          "team": "이베리아 1999",
+          "team": "FC 이베리아 1999",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
           "played": 0,
           "wins": 0,
@@ -5946,7 +6186,7 @@
         },
         {
           "rank": 17,
-          "team": "야블로네츠",
+          "team": "FK 야블로네츠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
           "played": 0,
           "wins": 0,
@@ -5961,7 +6201,7 @@
         },
         {
           "rank": 18,
-          "team": "카이라트 알마티",
+          "team": "FC 카이라트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
           "played": 0,
           "wins": 0,
@@ -5976,7 +6216,7 @@
         },
         {
           "rank": 19,
-          "team": "카우노 잘기리스",
+          "team": "FK 카우노 잘기리스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
           "played": 0,
           "wins": 0,
@@ -5991,7 +6231,7 @@
         },
         {
           "rank": 20,
-          "team": "KuPS 쿠오피오",
+          "team": "쿠오피온 팔로세우라",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
           "played": 0,
           "wins": 0,
@@ -6006,7 +6246,7 @@
         },
         {
           "rank": 21,
-          "team": "링컨 레드 임프스",
+          "team": "링컨 레드 임프스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
           "played": 0,
           "wins": 0,
@@ -6051,7 +6291,7 @@
         },
         {
           "rank": 24,
-          "team": "미엘뷔 AIF",
+          "team": "멜비 AIF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
           "played": 0,
           "wins": 0,
@@ -6066,7 +6306,7 @@
         },
         {
           "rank": 25,
-          "team": "AS 모나코",
+          "team": "AS 모나코 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
           "played": 0,
           "wins": 0,
@@ -6096,7 +6336,7 @@
         },
         {
           "rank": 27,
-          "team": "파포스",
+          "team": "파포스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
           "played": 0,
           "wins": 0,
@@ -6111,7 +6351,7 @@
         },
         {
           "rank": 28,
-          "team": "파나티나이코스",
+          "team": "파나티나이코스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
           "played": 0,
           "wins": 0,
@@ -6126,7 +6366,7 @@
         },
         {
           "rank": 29,
-          "team": "츠르베나 즈베즈다",
+          "team": "FK 츠르베나 즈베즈다",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
           "played": 0,
           "wins": 0,
@@ -6156,7 +6396,7 @@
         },
         {
           "rank": 31,
-          "team": "신트트라위던",
+          "team": "신트트라위던 VV",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
           "played": 0,
           "wins": 0,
@@ -6171,7 +6411,7 @@
         },
         {
           "rank": 32,
-          "team": "브라가",
+          "team": "SC 브라가",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
           "played": 0,
           "wins": 0,
@@ -6231,7 +6471,7 @@
         },
         {
           "rank": 36,
-          "team": "CSU 크라이오바",
+          "team": "CS 우니베르시타테아 크라이오바",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
           "played": 0,
           "wins": 0,
