@@ -232,6 +232,7 @@ FIGC가 피를로의 논문과 같은 날 공개한 또 한 편은 빈첸초 이
     <div class="bar xp"><span>기대승점</span><i style="--w:83.7%"><b>79.5</b></i></div>
     <p>기대승점 리그 1위, 실제 승점이 1.5점 적었다</p>
   </div>
+  <p class="pt-mirror__scale">막대 길이는 두 시즌 모두 0점에서 95점까지 같은 눈금으로 그렸다.</p>
 </section>
 
 <section class="pt-table" aria-label="2020-21 세리에 A 상위 다섯 팀의 실제 승점과 기대값">
@@ -496,7 +497,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-mirror .bar i{position:relative;display:block;width:var(--w);height:26px;border-radius:0 7px 7px 0;background:#1f8fe0}
   main .article-body .pt-mirror .bar.xp i{background:repeating-linear-gradient(135deg,#d8f36a 0 7px,#b9d64f 7px 14px)}
   main .article-body .pt-mirror .bar b{position:absolute;right:8px;top:50%;font-size:13px;font-weight:850;color:#081421;transform:translateY(-50%)}
-  main .article-body .pt-mirror__season>p{margin:14px 0 0;font-size:13px;color:rgba(255,255,255,.78)}
+  main .article-body .pt-mirror .pt-mirror__scale{grid-column:1/-1;margin:0;padding:12px 25px 16px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;color:rgba(255,255,255,.6)}main .article-body .pt-mirror__season>p{margin:14px 0 0;font-size:13px;color:rgba(255,255,255,.78)}
   main .article-body .pt-table__scroll,main .article-body .pt-classmates__scroll{overflow-x:auto}
   main .article-body .pt-table table,main .article-body .pt-classmates table{display:table;width:100%;min-width:620px;margin:0;border-collapse:collapse;background:transparent;font-size:13px}
   main .article-body .pt-table th,main .article-body .pt-table td,main .article-body .pt-classmates th,main .article-body .pt-classmates td{padding:12px 14px;border:0;border-top:1px solid rgba(255,255,255,.08);text-align:left;line-height:1.55;color:rgba(255,255,255,.85)}
@@ -519,9 +520,8 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-paths ol{margin:0;padding:0;list-style:none}main .article-body .pt-paths li{padding:9px 0;border-top:1px solid rgba(255,255,255,.08);font-size:13px;line-height:1.5;color:rgba(255,255,255,.85)}
   main .article-body .pt-paths time{display:block;font-size:11px;font-weight:800;color:#73cbff}
   main .article-body .pt-weight p{margin:0;font-size:13px;line-height:1.72;color:rgba(255,255,255,.8)}
-  @supports(animation-timeline:view()){main .article-body .pt-thesis,main .article-body .pt-scope,main .article-body .pt-map,main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-pitch,main .article-body .pt-numbers,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-caution,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight{animation:pt-rise both linear;animation-timeline:view();animation-range:entry 8% cover 26%}main .article-body .pt-mirror .bar i{animation:pt-grow both linear;animation-timeline:view();animation-range:entry 20% cover 40%}}
+  @supports(animation-timeline:view()){main .article-body .pt-thesis,main .article-body .pt-scope,main .article-body .pt-map,main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-pitch,main .article-body .pt-numbers,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-caution,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight{animation:pt-rise both linear;animation-timeline:view();animation-range:entry 8% cover 26%}}
   @keyframes pt-rise{from{opacity:.35;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-  @keyframes pt-grow{from{width:0}to{width:var(--w)}}
   @media(max-width:760px){
     main .article-body .pt-scope dl{grid-template-columns:1fr}
     main .article-body .pt-map ol{grid-template-columns:1fr 1fr}main .article-body .pt-map li:last-child{grid-column:1/-1}
@@ -556,5 +556,5 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
     main .article-body .pt-numbers>div{padding:19px 11px 21px}main .article-body .pt-numbers b{font-size:24px}
     main .article-body .pt-caution{padding:23px 19px 24px}
   }
-  @media(prefers-reduced-motion:reduce){main .article-body .pt-thesis,main .article-body .pt-scope,main .article-body .pt-map,main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-pitch,main .article-body .pt-numbers,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-caution,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight,main .article-body .pt-mirror .bar i{animation:none!important}}
+  @media(prefers-reduced-motion:reduce){main .article-body .pt-thesis,main .article-body .pt-scope,main .article-body .pt-map,main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-pitch,main .article-body .pt-numbers,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-caution,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight}
 </style>
