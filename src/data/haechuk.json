@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:43:52.616Z",
+  "updatedAt": "2026-09-14T21:30:13.161Z",
   "days": {
     "yesterday": "2026-09-14",
     "today": "2026-09-15",
@@ -48,6 +48,21 @@
         },
         {
           "rank": 3,
+          "team": "리즈 유나이티드 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+          "played": 4,
+          "wins": 2,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 8,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 4,
           "team": "헐 시티 AFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
           "played": 4,
@@ -62,7 +77,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "브라이턴 앤드 호브 앨비언 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
           "played": 4,
@@ -73,11 +88,11 @@
           "goalsAgainst": 5,
           "goalDifference": 8,
           "points": 7,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
+          "zone": "uel",
+          "zoneLabel": "UEFA 유로파 리그"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "첼시 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
           "played": 4,
@@ -88,11 +103,11 @@
           "goalsAgainst": 9,
           "goalDifference": 1,
           "points": 7,
-          "zone": "uel",
-          "zoneLabel": "UEFA 유로파 리그"
+          "zone": "",
+          "zoneLabel": ""
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "브렌트퍼드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
           "played": 4,
@@ -107,7 +122,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "리버풀 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
           "played": 4,
@@ -122,7 +137,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "에버턴 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
           "played": 4,
@@ -137,7 +152,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "입스위치 타운 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
           "played": 4,
@@ -152,37 +167,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 10,
-          "team": "뉴캐슬 유나이티드 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 4,
-          "goalDifference": 2,
-          "points": 5,
-          "zone": "",
-          "zoneLabel": ""
-        },
-        {
           "rank": 11,
-          "team": "리즈 유나이티드 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 2,
-          "goalDifference": 1,
-          "points": 5,
-          "zone": "",
-          "zoneLabel": ""
-        },
-        {
-          "rank": 12,
           "team": "노팅엄 포리스트 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
           "played": 4,
@@ -192,6 +177,21 @@
           "goalsFor": 4,
           "goalsAgainst": 4,
           "goalDifference": 0,
+          "points": 5,
+          "zone": "",
+          "zoneLabel": ""
+        },
+        {
+          "rank": 12,
+          "team": "뉴캐슬 유나이티드 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+          "played": 4,
+          "wins": 1,
+          "draws": 2,
+          "losses": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 8,
+          "goalDifference": -1,
           "points": 5,
           "zone": "",
           "zoneLabel": ""
@@ -337,14 +337,14 @@
           "date": "2026-09-15",
           "time": "04:00",
           "kickoff": "2026-09-14T19:00:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "post",
+          "detail": "FT",
           "home": "리즈 유나이티드 FC",
           "away": "뉴캐슬 유나이티드 FC",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 4,
+          "awayScore": 1
         }
       ],
       "goals": [
@@ -870,6 +870,21 @@
         },
         {
           "rank": 3,
+          "team": "레알 베티스 발롬피에",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+          "played": 5,
+          "wins": 4,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "goalDifference": 1,
+          "points": 12,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 4,
           "team": "데포르티보 알라베스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
           "played": 5,
@@ -884,7 +899,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "클루브 아틀레티코 데 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 5,
@@ -899,7 +914,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "세비야 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 5,
@@ -910,11 +925,11 @@
           "goalsAgainst": 6,
           "goalDifference": 2,
           "points": 10,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
+          "zone": "uel",
+          "zoneLabel": "UEFA 유로파 리그"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "RC 데포르티보 라코루냐",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
           "played": 5,
@@ -924,21 +939,6 @@
           "goalsFor": 9,
           "goalsAgainst": 6,
           "goalDifference": 3,
-          "points": 9,
-          "zone": "uel",
-          "zoneLabel": "UEFA 유로파 리그"
-        },
-        {
-          "rank": 7,
-          "team": "레알 베티스 발롬피에",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-          "played": 4,
-          "wins": 3,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
           "points": 9,
           "zone": "uecl",
           "zoneLabel": "UEFA 컨퍼런스 리그 예선"
@@ -1097,13 +1097,13 @@
           "rank": 18,
           "team": "비야레알 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-          "played": 4,
+          "played": 5,
           "wins": 0,
           "draws": 2,
-          "losses": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 8,
-          "goalDifference": -2,
+          "losses": 3,
+          "goalsFor": 7,
+          "goalsAgainst": 10,
+          "goalDifference": -3,
           "points": 2,
           "zone": "relegation",
           "zoneLabel": "강등"
@@ -1173,14 +1173,14 @@
           "date": "2026-09-15",
           "time": "04:00",
           "kickoff": "2026-09-14T19:00:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "post",
+          "detail": "FT",
           "home": "비야레알 CF",
           "away": "레알 베티스 발롬피에",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 2
         },
         {
           "id": "401882868",
@@ -1718,6 +1718,51 @@
       "standings": [
         {
           "rank": 1,
+          "team": "AS 로마",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+          "played": 4,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 12,
+          "goalsAgainst": 1,
+          "goalDifference": 11,
+          "points": 12,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 2,
+          "team": "FC 인테르나치오날레 밀라노",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+          "played": 4,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 13,
+          "goalsAgainst": 6,
+          "goalDifference": 7,
+          "points": 12,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 3,
+          "team": "코모 1907",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+          "played": 4,
+          "wins": 3,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 9,
+          "goalsAgainst": 4,
+          "goalDifference": 5,
+          "points": 10,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 4,
           "team": "SS 라치오",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
           "played": 4,
@@ -1732,37 +1777,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 2,
-          "team": "AS 로마",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-          "played": 3,
-          "wins": 3,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 10,
-          "goalsAgainst": 1,
-          "goalDifference": 9,
-          "points": 9,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
-        },
-        {
-          "rank": 3,
-          "team": "FC 인테르나치오날레 밀라노",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-          "played": 3,
-          "wins": 3,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 8,
-          "goalsAgainst": 3,
-          "goalDifference": 5,
-          "points": 9,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
-        },
-        {
-          "rank": 4,
+          "rank": 5,
           "team": "칼리아리 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
           "played": 4,
@@ -1773,11 +1788,11 @@
           "goalsAgainst": 2,
           "goalDifference": 2,
           "points": 9,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
+          "zone": "uel",
+          "zoneLabel": "UEFA 유로파 리그"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "AC 밀란",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
           "played": 4,
@@ -1788,21 +1803,6 @@
           "goalsAgainst": 4,
           "goalDifference": 3,
           "points": 8,
-          "zone": "uel",
-          "zoneLabel": "UEFA 유로파 리그"
-        },
-        {
-          "rank": 6,
-          "team": "코모 1907",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-          "played": 3,
-          "wins": 2,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 3,
-          "goalDifference": 4,
-          "points": 7,
           "zone": "uel",
           "zoneLabel": "UEFA 유로파 리그"
         },
@@ -1900,13 +1900,13 @@
           "rank": 13,
           "team": "우디네세 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-          "played": 3,
+          "played": 4,
           "wins": 1,
           "draws": 1,
-          "losses": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "goalDifference": 0,
+          "losses": 2,
+          "goalsFor": 8,
+          "goalsAgainst": 10,
+          "goalDifference": -2,
           "points": 4,
           "zone": "",
           "zoneLabel": ""
@@ -1915,13 +1915,13 @@
           "rank": 14,
           "team": "토리노 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-          "played": 3,
+          "played": 4,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
+          "losses": 3,
           "goalsFor": 4,
-          "goalsAgainst": 5,
-          "goalDifference": -1,
+          "goalsAgainst": 7,
+          "goalDifference": -3,
           "points": 3,
           "zone": "",
           "zoneLabel": ""
@@ -1943,21 +1943,6 @@
         },
         {
           "rank": 16,
-          "team": "파르마 칼초 1913",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-          "played": 3,
-          "wins": 0,
-          "draws": 1,
-          "losses": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "goalDifference": -3,
-          "points": 1,
-          "zone": "",
-          "zoneLabel": ""
-        },
-        {
-          "rank": 17,
           "team": "볼로냐 FC 1909",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
           "played": 4,
@@ -1967,6 +1952,21 @@
           "goalsFor": 2,
           "goalsAgainst": 5,
           "goalDifference": -3,
+          "points": 1,
+          "zone": "",
+          "zoneLabel": ""
+        },
+        {
+          "rank": 17,
+          "team": "파르마 칼초 1913",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+          "played": 4,
+          "wins": 0,
+          "draws": 1,
+          "losses": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 6,
+          "goalDifference": -4,
           "points": 1,
           "zone": "",
           "zoneLabel": ""
@@ -2051,42 +2051,42 @@
           "date": "2026-09-15",
           "time": "01:30",
           "kickoff": "2026-09-14T16:30:00.000Z",
-          "state": "in",
-          "detail": "50'",
+          "state": "post",
+          "detail": "FT",
           "home": "코모 1907",
           "away": "파르마 칼초 1913",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-          "homeScore": 1,
-          "awayScore": 0
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "id": "401874950",
           "date": "2026-09-15",
           "time": "01:30",
           "kickoff": "2026-09-14T16:30:00.000Z",
-          "state": "in",
-          "detail": "49'",
+          "state": "post",
+          "detail": "FT",
           "home": "토리노 FC",
           "away": "AS 로마",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
           "homeScore": 0,
-          "awayScore": 1
+          "awayScore": 2
         },
         {
           "id": "401874966",
           "date": "2026-09-15",
           "time": "03:45",
           "kickoff": "2026-09-14T18:45:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "in",
+          "detail": "34'",
           "home": "FC 인테르나치오날레 밀라노",
           "away": "우디네세 칼초",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 2
         }
       ],
       "goals": [
