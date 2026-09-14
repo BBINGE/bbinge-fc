@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T15:03:14.887Z",
+  "updatedAt": "2026-09-14T17:43:52.616Z",
   "days": {
     "yesterday": "2026-09-14",
     "today": "2026-09-15",
@@ -2051,28 +2051,28 @@
           "date": "2026-09-15",
           "time": "01:30",
           "kickoff": "2026-09-14T16:30:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "in",
+          "detail": "50'",
           "home": "코모 1907",
           "away": "파르마 칼초 1913",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 0
         },
         {
           "id": "401874950",
           "date": "2026-09-15",
           "time": "01:30",
           "kickoff": "2026-09-14T16:30:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "in",
+          "detail": "49'",
           "home": "토리노 FC",
           "away": "AS 로마",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 1
         },
         {
           "id": "401874966",
