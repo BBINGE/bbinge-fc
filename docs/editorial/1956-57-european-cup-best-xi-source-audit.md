@@ -30,9 +30,9 @@ UEFA `match.uefa.com/v5/matches?competitionId=1&seasonYear=1956&limit=100&offset
 
 ## 사진
 
-- 베아라: Commons `Vladimir Beara 1953.jpg`(Anefo, CC0). 헨토: `V.l.n.r. Amancio, Miguel Muñoz (trainer), Gento, Bestanddeelnr 924-4486 (Gento cropped).jpg`(Anefo, CC0, 1971). 1956-57 당시 사진이 아니라 식별용 초상.
+- 베아라: Commons `Vladimir Beara 1953.jpg`(Anefo, CC0).
 - 마그니니·줄리뉴: Commons `AC Fiorentina Serie A 1955-56.jpg`(퍼블릭 도메인, 뒷줄 왼쪽 두 번째)·`Julinho, Estadio, 1954-06-26 (580).jpg`(퍼블릭 도메인).
 - 테일러·바이올렛: Commons `Tommy Taylor 1957 (cropped).jpg`·`Dennis Viollet 1957.jpg`(Eskil Malmberg, 퍼블릭 도메인). 번: 저장소의 같은 1957 맨유 단체 사진(`1956-57-european-cup/manchester-united-1957.webp`) 앞줄 왼쪽 네 번째에서 크롭.
 - 디스테파노·코파·에드워즈: 1957 발롱도르 편 운영자 제공 사진에서 얼굴 중심 크롭.
-- 마르키토스: Commons·위키에 인물 사진이 없고 Getty·Alamy만 확인돼, 레알 1941-1997 문장으로 대체 카드(`marquitos-crest.webp`). 운영자 사진이 오면 교체.
+- 마르키토스·헨토: 첫 발행은 마르키토스를 레알 문장 카드로, 헨토를 1971년 Anefo 초상으로 대체했으나 운영자 지적으로 `real-madrid-death-squad-best-xi/marquitos.png`·`paco-gento.png`(운영자 제작 선수 카드)의 선수 시절 사진에서 얼굴만 잘라 교체했다(카드의 문장·국기·이름 글자는 크롭 영역 밖). 다음 레알 선수는 먼저 이 축쿼드 자산을 찾는다.
 - A/B 외부 위험 신호 없음. C등급, NO ACTION.
