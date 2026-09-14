@@ -70,7 +70,7 @@ draft: false
 
 <p class="award-note">숫자는 득표 점수다. 72표나 72%를 뜻하지 않는다. 기자 16명 전원이 한 선수를 1위로 선택했을 때의 만점은 80점이다.</p>
 
-<p class="award-note">아래 연간 스탯은 1957년 1월 1일부터 12월 31일까지의 기록이다. 클럽 공식전은 국내 리그·국내 컵·유러피언컵·FA 채리티 실드이며, 국가대표 A매치와 합산한다. 스페인·포르투갈·이탈리아·프랑스 챔피언이 겨룬 코파 라티나는 합계와 따로 적었다. 시즌 기록은 별도로 병기한다. <a class="cite" href="#source-12">[12]</a></p>
+<p class="award-note">아래 연간 스탯은 1957년 1월 1일부터 12월 31일까지의 기록이다. 클럽 공식전은 국내 리그·국내 컵·유러피언컵·FA 채리티 실드이며, 국가대표 A매치와 합산한다. 스페인·포르투갈·이탈리아·프랑스 챔피언이 겨룬 코파 라티나와 라싱 클뢰브 드 파리가 창단 25주년에 연 초청대회 투르누아 드 파리<span class="foreign-note" lang="fr">(Tournoi de Paris)</span>는 합계와 따로 적었다. 시즌 기록은 별도로 병기한다. <a class="cite" href="#source-12">[12]</a></p>
 
 <h2 id="di-stefano" class="award-person-heading">1위 · 알프레도 디스테파노</h2>
 <p class="award-person-sub">Alfredo Di Stéfano Laulhé · 31세 · 센터포워드</p>
@@ -80,9 +80,9 @@ draft: false
 <div data-award-record="1957-ballon-dor:identity-di-stefano"></div>
 
 <div class="award-achievements award-achievements-di-stefano">
-<section><h3>팀 성적</h3><ul><li>1956-57 라리가 <strong>우승</strong></li><li>1957 코파 델 헤네랄리시모 <strong>8강</strong></li><li>1956-57 유러피언컵 <strong>우승 (2연패)</strong></li><li>1957 코파 라티나 <strong>우승</strong></li><li>1958 FIFA 월드컵 유럽 예선 9조 <strong>2위 (본선 진출 실패)</strong></li></ul></section>
-<section><h3>개인 수상·기록</h3><ul><li>1956-57 트로페오 피치치 <strong>라리가 득점왕 (31골)</strong></li><li>1956-57 레알 마드리드 CF <strong>팀 내 최다 득점자 (공식전 41골)</strong></li><li>1956-57 유러피언컵 <strong>득점 3위 (7골)</strong> <a class="cite" href="#source-5">[5]</a></li><li>1957 코파 라티나 <strong>득점 2위 (2골)</strong> <a class="cite" href="#source-7">[7]</a></li><li>1957년 발롱도르 <strong>수상</strong></li></ul></section>
-<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1956-57 클럽 공식전 합계</span><strong>41경기 41골</strong></li><li><span>1956-57 라리가</span><strong>30경기 31골</strong></li><li><span>1956-57 유러피언컵</span><strong>8경기 7골</strong></li><li><span>1957 코파 델 헤네랄리시모</span><strong>3경기 3골</strong></li><li><span>1957년 클럽 공식전</span><strong>39경기 32골</strong></li><li><span>1957년 국가대표팀</span><strong>7경기 7골</strong></li><li class="award-stat-total"><span>1957년 클럽＋국가대표팀 합계</span><strong>46경기 39골</strong></li><li><span>1957 코파 라티나 (합계 별도)</span><strong>2경기 2골</strong> <a class="cite" href="#source-7">[7]</a></li></ul></section>
+<section><h3>팀 성적</h3><ul><li>1956-57 라리가 <strong>우승</strong></li><li>1957 코파 델 헤네랄리시모 <strong>8강</strong></li><li>1956-57 유러피언컵 <strong>우승 (2연패)</strong></li><li>1957 코파 라티나 <strong>우승</strong></li><li>1957 투르누아 드 파리 <strong>준우승</strong> <a class="cite" href="#source-21">[21]</a></li><li>1958 FIFA 월드컵 유럽 예선 9조 <strong>2위 (본선 진출 실패)</strong></li></ul></section>
+<section><h3>개인 수상·기록</h3><ul><li>1956-57 트로페오 피치치 <strong>라리가 득점왕 (31골)</strong></li><li>1956-57 레알 마드리드 CF <strong>팀 내 최다 득점자 (공식전 41골)</strong></li><li>1956-57 유러피언컵 <strong>득점 3위 (7골)</strong> <a class="cite" href="#source-5">[5]</a></li><li>1957 코파 라티나 <strong>득점 2위 (2골)</strong> <a class="cite" href="#source-7">[7]</a></li><li>1957년 스페인 올해의 운동선수 <strong>수상</strong> <a class="cite" href="#source-22">[22]</a></li><li>1957년 발롱도르 <strong>수상</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1956-57 클럽 공식전 합계</span><strong>41경기 41골</strong></li><li><span>1956-57 라리가</span><strong>30경기 31골</strong></li><li><span>1956-57 유러피언컵</span><strong>8경기 7골</strong></li><li><span>1957 코파 델 헤네랄리시모</span><strong>3경기 3골</strong></li><li><span>1957년 클럽 공식전</span><strong>39경기 32골</strong></li><li><span>1957년 국가대표팀</span><strong>7경기 7골</strong></li><li class="award-stat-total"><span>1957년 클럽＋국가대표팀 합계</span><strong>46경기 39골</strong></li><li><span>1957 코파 라티나 (합계 별도)</span><strong>2경기 2골</strong> <a class="cite" href="#source-7">[7]</a></li><li><span>1957 투르누아 드 파리 (합계 별도)</span><strong>2경기 1골</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · WINNER</small><span>득표 점수</span></div><strong>72점</strong><small>1위표 12장<br />선정 기자 15명</small></div>
@@ -130,9 +130,9 @@ draft: false
 <div data-award-record="1957-ballon-dor:identity-kopa"></div>
 
 <div class="award-achievements award-achievements-kopa">
-<section><h3>팀 성적</h3><ul><li>1956-57 라리가 <strong>우승</strong></li><li>1956-57 유러피언컵 <strong>우승 (2연패)</strong></li><li>1957 코파 라티나 <strong>우승</strong></li></ul></section>
+<section><h3>팀 성적</h3><ul><li>1956-57 라리가 <strong>우승</strong></li><li>1956-57 유러피언컵 <strong>우승 (2연패)</strong></li><li>1957 코파 라티나 <strong>우승</strong></li><li>1957 투르누아 드 파리 <strong>준우승</strong> <a class="cite" href="#source-21">[21]</a></li></ul></section>
 <section><h3>개인 수상·기록</h3><ul><li>1956년 발롱도르 <strong>3위</strong></li><li>1957년 발롱도르 <strong>공동 3위</strong></li></ul></section>
-<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1956-57 클럽 공식전 합계</span><strong>30경기 8골</strong></li><li><span>1956-57 라리가</span><strong>22경기 6골</strong></li><li><span>1956-57 유러피언컵</span><strong>8경기 2골</strong></li><li><span>1957년 클럽 공식전</span><strong>34경기 10골</strong></li><li><span>1957년 국가대표팀</span><strong>0경기</strong></li><li class="award-stat-total"><span>1957년 클럽＋국가대표팀 합계</span><strong>34경기 10골</strong></li><li><span>1957 코파 라티나 (합계 별도)</span><strong>2경기 0골</strong></li></ul></section>
+<section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1956-57 클럽 공식전 합계</span><strong>30경기 8골</strong></li><li><span>1956-57 라리가</span><strong>22경기 6골</strong></li><li><span>1956-57 유러피언컵</span><strong>8경기 2골</strong></li><li><span>1957년 클럽 공식전</span><strong>34경기 10골</strong></li><li><span>1957년 국가대표팀</span><strong>0경기</strong></li><li class="award-stat-total"><span>1957년 클럽＋국가대표팀 합계</span><strong>34경기 10골</strong></li><li><span>1957 코파 라티나 (합계 별도)</span><strong>2경기 0골</strong></li><li><span>1957 투르누아 드 파리 (합계 별도)</span><strong>2경기 2골</strong></li></ul></section>
 </div>
 
 <div class="award-score-strip"><div><small>BALLON D’OR · THIRD</small><span>득표 점수</span></div><strong>16점</strong><small>1위표 없음<br />선정 기자 7명</small></div>
@@ -212,5 +212,7 @@ draft: false
 <li id="source-18">위키백과, <a href="https://en.wikipedia.org/wiki/1957_Ballon_d%27Or" target="_blank" rel="noopener noreferrer">“1957 Ballon d’Or”</a>, <a href="https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Kubala" target="_blank" rel="noopener noreferrer">쿠벌러 라슬로</a>, <a href="https://en.wikipedia.org/wiki/Igor_Netto" target="_blank" rel="noopener noreferrer">이고리 네토</a>; 헝가리어 위키백과, <a href="https://hu.wikipedia.org/wiki/FC_Tatab%C3%A1nya" target="_blank" rel="noopener noreferrer">FC 터터바녀</a>. 1957년 소속 구단, 국적 이력, 당시 구단명.</li>
 <li id="source-19">위키백과, <a href="https://en.wikipedia.org/wiki/Raymond_Kopa" target="_blank" rel="noopener noreferrer">“Raymond Kopa”</a>. 연도별 프랑스 대표팀 출전 기록(1957년 0경기).</li>
 <li id="source-20">울브스 문장: Felipe Fidelis Tobias, <a href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Wolverhampton.svg" target="_blank" rel="noopener noreferrer">“Coat of arms of Wolverhampton”</a>, Wikimedia Commons, CC BY-SA 4.0. 울브스가 1921·1939·1960년 FA컵 결승에서 착용한 울버햄프턴 문장. 착용 연혁은 <a href="https://www.historicalkits.co.uk/Wolverhampton_Wanderers/Wolverhampton_Wanderers.htm" target="_blank" rel="noopener noreferrer">Historical Football Kits</a>.</li>
+<li id="source-21">RSSSF, <a href="https://www.rsssf.org/tablest/tiparis.html" target="_blank" rel="noopener noreferrer">“Tournoi International de Paris”</a>. 1957년 6월 11-14일 대회의 레알 마드리드 경기 명단과 득점(준결승 로트바이스 에센 5-0, 결승 바스쿠 다가마 3-4).</li>
+<li id="source-22">위키백과, <a href="https://en.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano" target="_blank" rel="noopener noreferrer">“Alfredo Di Stéfano”</a>. 개인 수상 목록의 스페인 올해의 선수(운동선수) 1957·1959·1960·1964년.</li>
 </ol>
 </div>
