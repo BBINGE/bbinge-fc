@@ -4,12 +4,12 @@ description: '안드레아 피를로가 코베르차노 UEFA 프로 과정에 �
 category: 'tactics'
 tags: ['안드레아 피를로', '피를로 논문', '피를로 감독', '코베르차노', 'UEFA 프로 라이선스', '레지스타', '유벤투스', '티아구 모타', '빈첸초 이탈리아노', '축구 전술']
 pubDate: 2026-09-14T18:40:00+09:00
-coverImage: '/images/tactics/pirlo-coverciano-thesis/cover.webp'
-cardImage: '/images/tactics/pirlo-coverciano-thesis/card.webp'
-coverImageAlt: '이탈리아 대표팀 파란 유니폼 21번을 입은 안드레아 피를로가 공을 앞에 두고 고개를 든 채 경기장을 살피는 장면'
-coverImageCaption: '2015년 6월 16일 제네바 포르투갈-이탈리아 친선경기의 안드레아 피를로. 사진: Clément Bucco-Lechat, CC BY-SA 3.0.'
-coverImageWidth: 1200
-coverImageHeight: 1200
+coverImage: '/images/tactics/pirlo-coverciano-thesis/pirlo-cover.webp'
+cardImage: '/images/tactics/pirlo-coverciano-thesis/pirlo-card.webp'
+coverImageAlt: '유벤투스 감독 시절 정장 차림으로 위를 올려다보는 안드레아 피를로의 흑백 사진 위에 코베르차노 논문, 그리고.. 피를로라는 문구를 배치한 표지'
+coverImageCaption: '선수 피를로에게는 나의 축구였고, 감독 피를로에게는 조건이 채워져야만 가능한 하고 싶은 축구였다.'
+coverImageWidth: 1600
+coverImageHeight: 1600
 featured: false
 draft: false
 ---
@@ -408,7 +408,6 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   <li id="source-25"><a href="https://www.juventus.com/it/news/articoli/thiago-motta-non-e-piu-l-allenatore-della-juventus-la-prima-squadra-maschile-affidata-a-igor-tudor">「Thiago Motta non è più l'allenatore della Juventus」</a>, Juventus FC, 2025.03.23; <a href="https://en.wikipedia.org/wiki/Thiago_Motta">Thiago Motta 감독 경력 기록</a>. 제노아·스페치아·볼로냐·유벤투스 기록.</li>
   <li id="source-26"><a href="https://en.wikipedia.org/wiki/Vincenzo_Italiano">Vincenzo Italiano 감독 경력 기록</a>; <a href="https://www.ilrestodelcarlino.it/bologna/sport/bfc/ex-allenatore-italiano-besiktas-5524887f">「Bologna, l'ex allenatore Italiano firma col Besiktas」</a>, <i>il Resto del Carlino</i>, 2026.06. 트라파니에서 베식타시까지의 경로.</li>
   <li id="source-27"><a href="https://sport.sky.it/calcio/nazionale/2026/07/29/andrea-pirlo-dubai-fc-italia-comunicato">「Andrea Pirlo, il Dubai Fc conferma la fiducia dopo il caso Italia」</a>, <i>Sky Sport</i>, 2026.07.29. United FC 승격과 대표팀 선임 무산 뒤의 잔류 확인.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_1.jpg">「20150616 - Portugal - Italie - Genève - Andrea Pirlo 1.jpg」</a>, Clément Bucco-Lechat, 2015, CC BY-SA 3.0. 표지 사진은 정사각으로 편집했다.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Andrea_Pirlo_vs_Real_Madrid.jpg">「Andrea Pirlo vs Real Madrid.jpg」</a>, Jan S0L0, 2010, CC BY-SA 2.0.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Ji-Sung_Park_vs_Fulham.jpg">「Ji-Sung Park vs Fulham.jpg」</a>, Magnus D, 2010, CC BY 2.0. 크기를 조정했다.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Palermo_FC_-_UC_Sampdoria,_17_May_2024_02.jpg">「Palermo FC - UC Sampdoria, 17 May 2024 02.jpg」</a>, SonoGrazy, 2024, CC BY-SA 4.0. 크기를 조정했다.</li>
