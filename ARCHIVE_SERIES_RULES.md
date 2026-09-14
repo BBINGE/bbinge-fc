@@ -80,6 +80,7 @@
 - 발롱도르 승인 원고: [1956년 발롱도르](src/content/archive/1956-ballon-dor-stanley-matthews.md)
 - 시상 데이터·공유 정체성: [1956 데이터](src/data/awards/1956-ballon-dor.json), [시대별 정체성](src/data/historical-identities.json), [렌더러](scripts/render-award-records.mjs)
 - 발롱도르 사료와 스탯: [조사 메모](docs/editorial/1956-ballon-dor-source-audit.md), [경기별 원장](docs/editorial/1956-ballon-dor-stat-ledger.json), [검수](scripts/qa-ballon-dor.mjs)
+- 1957 발롱도르: [승인 원고](src/content/archive/1957-ballon-dor-alfredo-di-stefano.md), [데이터](src/data/awards/1957-ballon-dor.json), [조사 메모](docs/editorial/1957-ballon-dor-source-audit.md), [경기별 원장](docs/editorial/1957-ballon-dor-stat-ledger.json), [검산](scripts/test-ballon-dor-1957.mjs). 발표 원자료의 순위표 수가 기자 수와 다르면(1957년 5위표 17장, 241점) 데이터에 `ballotColumns`와 근거 `ballotNote`를 적고 점수를 맞추려 임의로 지우지 않는다. 포디움이 네 명이면 `award-podium-four`를 쓴다.
 - 유러피언컵: [시즌 데이터](src/data/european-cup-seasons.json), [역사 구단](src/data/historical-clubs.json), [자산 절차](docs/editorial/historical-club-assets.md)
 - 결승 H/L: [승인 원고](src/content/articles/1955-56-european-cup-final-real-madrid-stade-de-reims.md), [사료 메모](docs/editorial/1955-56-european-cup-final-source-audit.md), [검수](scripts/qa-european-cup-final.mjs)
 - 대진 검수: [4강](scripts/qa-european-cup-semifinals.mjs), [1956-57 본선 화면](scripts/qa-european-cup-1956-57.mjs)

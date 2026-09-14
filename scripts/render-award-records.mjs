@@ -31,14 +31,18 @@ export function readAwardEdition(id) {
     const expected = index && row.points === data.ranking[index - 1].points ? data.ranking[index - 1].rank : index + 1;
     if (row.rank !== expected || (index && row.points > data.ranking[index - 1].points)) throw new Error(`Incorrect rank: ${row.name}`);
   }
+  // 발표 원자료에 순위표 수가 기자 수와 다른 칸이 있으면(1957년 5위표 17장) 칸별 값과 근거 메모를 함께 적어야 한다.
+  const columnTotals = data.ballotColumns ?? data.weights.map(() => data.voters);
+  if (!Array.isArray(columnTotals) || columnTotals.length !== data.weights.length || columnTotals.some(n => !Number.isInteger(n) || n < data.voters)) throw new Error('Invalid ballot column totals');
+  if (data.ballotColumns && !String(data.ballotNote ?? '').trim()) throw new Error('Ballot column exception needs a source note');
   for (const index of data.weights.keys()) {
-    if (data.ranking.reduce((sum, row) => sum + row.votes[index], 0) !== data.voters) throw new Error('Incomplete ballot column');
+    if (data.ranking.reduce((sum, row) => sum + row.votes[index], 0) !== columnTotals[index]) throw new Error('Incomplete ballot column');
   }
   return data;
 }
 
 function ranking(data, detailed) {
-  const heading = detailed ? '<th scope="col">1위표</th><th scope="col">2위표</th><th scope="col">3위표</th><th scope="col">4위표</th><th scope="col">5위표</th><th scope="col">선정 기자</th>' : '<th scope="col">국적</th><th scope="col">1956년 소속 구단</th>';
+  const heading = detailed ? '<th scope="col">1위표</th><th scope="col">2위표</th><th scope="col">3위표</th><th scope="col">4위표</th><th scope="col">5위표</th><th scope="col">선정 기자</th>' : `<th scope="col">국적</th><th scope="col">${data.year}년 소속 구단</th>`;
   const columns = detailed ? [8,27,8,8,8,8,8,15,10] : [8,29,20,33,10];
   // Explicit table roles preserve header relationships when narrow-screen rows use CSS grid.
   return `<div class="award-table-wrap" role="region" aria-label="${data.year}년 발롱도르 ${detailed ? '순위별 투표 내역' : '전체 랭킹'}"><table role="table" class="award-ranking${detailed ? ' award-ballots' : ''}"><colgroup>${columns.map(width => `<col style="width:${width}%">`).join('')}</colgroup><thead role="rowgroup"><tr role="row"><th scope="col">순위</th><th scope="col">선수</th>${heading}<th scope="col">점수</th></tr></thead><tbody role="rowgroup">${data.ranking.map((row, index) => {

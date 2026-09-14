@@ -1,0 +1,2714 @@
+{
+  "checkedAt": "2026-09-14T02:03:11.608Z",
+  "source": "Transfermarkt public match-performance records, cross-checked",
+  "dateConvention": "Europe/Berlin calendar date; raw UTC retained",
+  "players": [
+    {
+      "id": 135778,
+      "name": "알프레도 디스테파노",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/135778",
+      "games": [
+        {
+          "id": "2415879",
+          "utc": "1956-09-08T23:00:00+00:00",
+          "date": "1956-09-09",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3
+        },
+        {
+          "id": "2415886",
+          "utc": "1956-09-15T23:00:00+00:00",
+          "date": "1956-09-16",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415889",
+          "utc": "1956-09-22T23:00:00+00:00",
+          "date": "1956-09-23",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415901",
+          "utc": "1956-09-29T23:00:00+00:00",
+          "date": "1956-09-30",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415912",
+          "utc": "1956-10-06T23:00:00+00:00",
+          "date": "1956-10-07",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2415918",
+          "utc": "1956-10-13T23:00:00+00:00",
+          "date": "1956-10-14",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415923",
+          "utc": "1956-10-20T23:00:00+00:00",
+          "date": "1956-10-21",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2415933",
+          "utc": "1956-10-27T23:00:00+00:00",
+          "date": "1956-10-28",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "1019854",
+          "utc": "1956-11-01T15:00:00+00:00",
+          "date": "1956-11-01",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2415942",
+          "utc": "1956-11-03T23:00:00+00:00",
+          "date": "1956-11-04",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415951",
+          "utc": "1956-11-10T23:00:00+00:00",
+          "date": "1956-11-11",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019859",
+          "utc": "1956-11-14T17:00:00+00:00",
+          "date": "1956-11-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415960",
+          "utc": "1956-11-17T23:00:00+00:00",
+          "date": "1956-11-18",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415967",
+          "utc": "1956-11-24T23:00:00+00:00",
+          "date": "1956-11-25",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2415976",
+          "utc": "1956-12-01T23:00:00+00:00",
+          "date": "1956-12-02",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019867",
+          "utc": "1956-12-13T14:30:00+00:00",
+          "date": "1956-12-13",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415984",
+          "utc": "1956-12-15T23:00:00+00:00",
+          "date": "1956-12-16",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3
+        },
+        {
+          "id": "2415987",
+          "utc": "1956-12-22T23:00:00+00:00",
+          "date": "1956-12-23",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415993",
+          "utc": "1956-12-28T23:00:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416004",
+          "utc": "1957-01-05T23:00:00+00:00",
+          "date": "1957-01-06",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2416015",
+          "utc": "1957-01-12T23:00:00+00:00",
+          "date": "1957-01-13",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416020",
+          "utc": "1957-01-19T23:00:00+00:00",
+          "date": "1957-01-20",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416031",
+          "utc": "1957-01-26T23:00:00+00:00",
+          "date": "1957-01-27",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "1152052",
+          "utc": "1957-01-30T15:00:00+00:00",
+          "date": "1957-01-30",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3375",
+          "national": true,
+          "goals": 3
+        },
+        {
+          "id": "2416040",
+          "utc": "1957-02-02T23:00:00+00:00",
+          "date": "1957-02-03",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416047",
+          "utc": "1957-02-09T23:00:00+00:00",
+          "date": "1957-02-10",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "1019870",
+          "utc": "1957-02-14T15:15:00+00:00",
+          "date": "1957-02-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416056",
+          "utc": "1957-02-16T23:00:00+00:00",
+          "date": "1957-02-17",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416063",
+          "utc": "1957-02-23T23:00:00+00:00",
+          "date": "1957-02-24",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416071",
+          "utc": "1957-03-02T23:00:00+00:00",
+          "date": "1957-03-03",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2381347",
+          "utc": "1957-03-10T15:30:00+00:00",
+          "date": "1957-03-10",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3375",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "1019875",
+          "utc": "1957-03-14T14:00:00+00:00",
+          "date": "1957-03-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2416079",
+          "utc": "1957-03-16T23:00:00+00:00",
+          "date": "1957-03-17",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416086",
+          "utc": "1957-03-23T23:00:00+00:00",
+          "date": "1957-03-24",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "3069369",
+          "utc": "1957-03-30T23:00:00+00:00",
+          "date": "1957-03-31",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3375",
+          "national": true,
+          "goals": 2
+        },
+        {
+          "id": "2416095",
+          "utc": "1957-04-06T23:00:00+00:00",
+          "date": "1957-04-07",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 4
+        },
+        {
+          "id": "1019877",
+          "utc": "1957-04-11T15:30:00+00:00",
+          "date": "1957-04-11",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2416098",
+          "utc": "1957-04-13T23:00:00+00:00",
+          "date": "1957-04-14",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416110",
+          "utc": "1957-04-20T23:00:00+00:00",
+          "date": "1957-04-21",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3
+        },
+        {
+          "id": "1019879",
+          "utc": "1957-04-25T19:15:00+00:00",
+          "date": "1957-04-25",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4554497",
+          "utc": "1957-05-01T13:00:00+00:00",
+          "date": "1957-05-01",
+          "season": 1956,
+          "competition": "CDR",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2381348",
+          "utc": "1957-05-07T23:00:00+00:00",
+          "date": "1957-05-08",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3375",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3842343",
+          "utc": "1957-05-12T13:00:00+00:00",
+          "date": "1957-05-12",
+          "season": 1956,
+          "competition": "CDR",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "3842342",
+          "utc": "1957-05-19T13:00:00+00:00",
+          "date": "1957-05-19",
+          "season": 1956,
+          "competition": "CDR",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2381350",
+          "utc": "1957-05-25T23:00:00+00:00",
+          "date": "1957-05-26",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3375",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "1019880",
+          "utc": "1957-05-30T16:30:00+00:00",
+          "date": "1957-05-30",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415637",
+          "utc": "1957-09-14T23:00:00+00:00",
+          "date": "1957-09-15",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415644",
+          "utc": "1957-09-21T23:00:00+00:00",
+          "date": "1957-09-22",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415653",
+          "utc": "1957-09-28T23:00:00+00:00",
+          "date": "1957-09-29",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 3
+        },
+        {
+          "id": "2415661",
+          "utc": "1957-10-05T23:00:00+00:00",
+          "date": "1957-10-06",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415670",
+          "utc": "1957-10-12T23:00:00+00:00",
+          "date": "1957-10-13",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415677",
+          "utc": "1957-10-19T23:00:00+00:00",
+          "date": "1957-10-20",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415685",
+          "utc": "1957-10-26T23:00:00+00:00",
+          "date": "1957-10-27",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1020090",
+          "utc": "1957-10-31T14:30:00+00:00",
+          "date": "1957-10-31",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2415689",
+          "utc": "1957-11-02T23:00:00+00:00",
+          "date": "1957-11-03",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "3634554",
+          "utc": "1957-11-06T15:00:00+00:00",
+          "date": "1957-11-06",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3375",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "2415703",
+          "utc": "1957-11-09T23:00:00+00:00",
+          "date": "1957-11-10",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415711",
+          "utc": "1957-11-16T23:00:00+00:00",
+          "date": "1957-11-17",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2381352",
+          "utc": "1957-11-24T13:30:00+00:00",
+          "date": "1957-11-24",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3375",
+          "national": true,
+          "goals": 2
+        },
+        {
+          "id": "1020100",
+          "utc": "1957-11-28T19:15:00+00:00",
+          "date": "1957-11-28",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415719",
+          "utc": "1957-11-30T23:00:00+00:00",
+          "date": "1957-12-01",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415721",
+          "utc": "1957-12-07T23:00:00+00:00",
+          "date": "1957-12-08",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415735",
+          "utc": "1957-12-14T23:00:00+00:00",
+          "date": "1957-12-15",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415737",
+          "utc": "1957-12-21T23:00:00+00:00",
+          "date": "1957-12-22",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415746",
+          "utc": "1957-12-28T23:00:00+00:00",
+          "date": "1957-12-29",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "id": 215272,
+      "name": "빌리 라이트",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/215272",
+      "games": [
+        {
+          "id": "4051093",
+          "utc": "1956-08-18T15:00:00+00:00",
+          "date": "1956-08-18",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051100",
+          "utc": "1956-08-22T18:30:00+00:00",
+          "date": "1956-08-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051114",
+          "utc": "1956-08-25T15:00:00+00:00",
+          "date": "1956-08-25",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051119",
+          "utc": "1956-08-29T13:00:00+00:00",
+          "date": "1956-08-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051128",
+          "utc": "1956-09-01T15:00:00+00:00",
+          "date": "1956-09-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054302",
+          "utc": "1956-09-08T15:00:00+00:00",
+          "date": "1956-09-08",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054314",
+          "utc": "1956-09-12T18:00:00+00:00",
+          "date": "1956-09-12",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054331",
+          "utc": "1956-09-15T15:00:00+00:00",
+          "date": "1956-09-15",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054341",
+          "utc": "1956-09-22T15:00:00+00:00",
+          "date": "1956-09-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054346",
+          "utc": "1956-09-29T15:00:00+00:00",
+          "date": "1956-09-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111557",
+          "utc": "1956-10-13T15:00:00+00:00",
+          "date": "1956-10-13",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111699",
+          "utc": "1956-10-20T15:00:00+00:00",
+          "date": "1956-10-20",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111732",
+          "utc": "1956-10-27T15:00:00+00:00",
+          "date": "1956-10-27",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111739",
+          "utc": "1956-11-03T14:30:00+00:00",
+          "date": "1956-11-03",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111756",
+          "utc": "1956-11-10T14:30:00+00:00",
+          "date": "1956-11-10",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111771",
+          "utc": "1956-11-17T14:30:00+00:00",
+          "date": "1956-11-17",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111791",
+          "utc": "1956-11-24T14:30:00+00:00",
+          "date": "1956-11-24",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054355",
+          "utc": "1956-12-01T14:30:00+00:00",
+          "date": "1956-12-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4115662",
+          "utc": "1956-12-08T14:15:00+00:00",
+          "date": "1956-12-08",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4115670",
+          "utc": "1956-12-15T14:15:00+00:00",
+          "date": "1956-12-15",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4116937",
+          "utc": "1956-12-22T14:15:00+00:00",
+          "date": "1956-12-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4116959",
+          "utc": "1956-12-25T11:00:00+00:00",
+          "date": "1956-12-25",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120812",
+          "utc": "1956-12-29T14:15:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111594",
+          "utc": "1957-01-01T14:15:00+00:00",
+          "date": "1957-01-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4121216",
+          "utc": "1957-01-05T14:15:00+00:00",
+          "date": "1957-01-05",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120822",
+          "utc": "1957-01-12T14:15:00+00:00",
+          "date": "1957-01-12",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120843",
+          "utc": "1957-01-19T14:45:00+00:00",
+          "date": "1957-01-19",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4121103",
+          "utc": "1957-01-26T15:00:00+00:00",
+          "date": "1957-01-26",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "543",
+          "national": false,
+          "goals": 0,
+          "note": "Transfermarkt match 4121103 has no Wolves line-up; Wright started per Wolves Complete History team sheet (Williams, Stuart, Harris, Slater, Wright, Flowers, Hooper, Booth, Bonson, Broadbent, Mullen)."
+        },
+        {
+          "id": "4126339",
+          "utc": "1957-02-02T15:00:00+00:00",
+          "date": "1957-02-02",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4126352",
+          "utc": "1957-02-09T15:00:00+00:00",
+          "date": "1957-02-09",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4116974",
+          "utc": "1957-02-16T13:00:00+00:00",
+          "date": "1957-02-16",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4128585",
+          "utc": "1957-02-23T15:00:00+00:00",
+          "date": "1957-02-23",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4128643",
+          "utc": "1957-03-02T15:00:00+00:00",
+          "date": "1957-03-02",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4130668",
+          "utc": "1957-03-09T15:00:00+00:00",
+          "date": "1957-03-09",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4133447",
+          "utc": "1957-03-16T15:00:00+00:00",
+          "date": "1957-03-16",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4133535",
+          "utc": "1957-03-23T15:00:00+00:00",
+          "date": "1957-03-23",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4134620",
+          "utc": "1957-03-30T15:00:00+00:00",
+          "date": "1957-03-30",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181804",
+          "utc": "1957-04-06T14:00:00+00:00",
+          "date": "1957-04-06",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "4054375",
+          "utc": "1957-04-13T15:00:00+00:00",
+          "date": "1957-04-13",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4127187",
+          "utc": "1957-04-15T13:00:00+00:00",
+          "date": "1957-04-15",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4125917",
+          "utc": "1957-04-20T15:00:00+00:00",
+          "date": "1957-04-20",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4134570",
+          "utc": "1957-04-22T15:00:00+00:00",
+          "date": "1957-04-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4126480",
+          "utc": "1957-04-23T13:00:00+00:00",
+          "date": "1957-04-23",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2381313",
+          "utc": "1957-05-08T15:00:00+00:00",
+          "date": "1957-05-08",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "2381314",
+          "utc": "1957-05-14T23:00:00+00:00",
+          "date": "1957-05-15",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "2381315",
+          "utc": "1957-05-19T15:30:00+00:00",
+          "date": "1957-05-19",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3482110",
+          "utc": "1957-08-24T15:00:00+00:00",
+          "date": "1957-08-24",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3483826",
+          "utc": "1957-08-28T19:30:00+00:00",
+          "date": "1957-08-28",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3485429",
+          "utc": "1957-08-31T15:00:00+00:00",
+          "date": "1957-08-31",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3485563",
+          "utc": "1957-09-04T19:30:00+00:00",
+          "date": "1957-09-04",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3487862",
+          "utc": "1957-09-07T15:00:00+00:00",
+          "date": "1957-09-07",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3490605",
+          "utc": "1957-09-14T15:00:00+00:00",
+          "date": "1957-09-14",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3491253",
+          "utc": "1957-09-16T19:30:00+00:00",
+          "date": "1957-09-16",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3497410",
+          "utc": "1957-09-21T15:00:00+00:00",
+          "date": "1957-09-21",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3489085",
+          "utc": "1957-09-23T19:30:00+00:00",
+          "date": "1957-09-23",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3498196",
+          "utc": "1957-09-28T15:00:00+00:00",
+          "date": "1957-09-28",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696223",
+          "utc": "1957-10-02T13:00:00+00:00",
+          "date": "1957-10-02",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3508333",
+          "utc": "1957-10-05T15:00:00+00:00",
+          "date": "1957-10-05",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3520063",
+          "utc": "1957-10-12T15:00:00+00:00",
+          "date": "1957-10-12",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181805",
+          "utc": "1957-10-18T23:00:00+00:00",
+          "date": "1957-10-19",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3523728",
+          "utc": "1957-10-26T15:00:00+00:00",
+          "date": "1957-10-26",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3552347",
+          "utc": "1957-11-02T15:00:00+00:00",
+          "date": "1957-11-02",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181806",
+          "utc": "1957-11-05T23:00:00+00:00",
+          "date": "1957-11-06",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3557426",
+          "utc": "1957-11-09T15:00:00+00:00",
+          "date": "1957-11-09",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696163",
+          "utc": "1957-11-16T13:00:00+00:00",
+          "date": "1957-11-16",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696172",
+          "utc": "1957-11-23T13:00:00+00:00",
+          "date": "1957-11-23",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181807",
+          "utc": "1957-11-26T23:00:00+00:00",
+          "date": "1957-11-27",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3696180",
+          "utc": "1957-11-30T13:00:00+00:00",
+          "date": "1957-11-30",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696195",
+          "utc": "1957-12-07T13:00:00+00:00",
+          "date": "1957-12-07",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696207",
+          "utc": "1957-12-14T13:00:00+00:00",
+          "date": "1957-12-14",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696215",
+          "utc": "1957-12-21T15:00:00+00:00",
+          "date": "1957-12-21",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696243",
+          "utc": "1957-12-26T13:00:00+00:00",
+          "date": "1957-12-26",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "543",
+          "national": false,
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "id": 289544,
+      "name": "던컨 에드워즈",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/289544",
+      "games": [
+        {
+          "id": "4051087",
+          "utc": "1956-08-18T15:00:00+00:00",
+          "date": "1956-08-18",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051094",
+          "utc": "1956-08-20T18:30:00+00:00",
+          "date": "1956-08-20",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051115",
+          "utc": "1956-08-25T15:00:00+00:00",
+          "date": "1956-08-25",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051123",
+          "utc": "1956-08-29T18:30:00+00:00",
+          "date": "1956-08-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4051131",
+          "utc": "1956-09-01T15:00:00+00:00",
+          "date": "1956-09-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054298",
+          "utc": "1956-09-05T18:00:00+00:00",
+          "date": "1956-09-05",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054306",
+          "utc": "1956-09-08T15:00:00+00:00",
+          "date": "1956-09-08",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054322",
+          "utc": "1956-09-15T15:00:00+00:00",
+          "date": "1956-09-15",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111649",
+          "utc": "1956-09-22T15:00:00+00:00",
+          "date": "1956-09-22",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019845",
+          "utc": "1956-09-26T19:30:00+00:00",
+          "date": "1956-09-26",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111667",
+          "utc": "1956-09-29T15:00:00+00:00",
+          "date": "1956-09-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111556",
+          "utc": "1956-10-13T15:00:00+00:00",
+          "date": "1956-10-13",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019850",
+          "utc": "1956-10-17T19:30:00+00:00",
+          "date": "1956-10-17",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111700",
+          "utc": "1956-10-20T15:00:00+00:00",
+          "date": "1956-10-20",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4304481",
+          "utc": "1956-10-24T13:00:00+00:00",
+          "date": "1956-10-24",
+          "season": 1956,
+          "competition": "GBCS",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111731",
+          "utc": "1956-10-27T15:00:00+00:00",
+          "date": "1956-10-27",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111739",
+          "utc": "1956-11-03T14:30:00+00:00",
+          "date": "1956-11-03",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111754",
+          "utc": "1956-11-10T14:30:00+00:00",
+          "date": "1956-11-10",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019861",
+          "utc": "1956-11-21T17:00:00+00:00",
+          "date": "1956-11-21",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111783",
+          "utc": "1956-11-24T14:30:00+00:00",
+          "date": "1956-11-24",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4111795",
+          "utc": "1956-12-01T14:30:00+00:00",
+          "date": "1956-12-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "4115667",
+          "utc": "1956-12-08T14:15:00+00:00",
+          "date": "1956-12-08",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4115669",
+          "utc": "1956-12-15T14:15:00+00:00",
+          "date": "1956-12-15",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4116966",
+          "utc": "1956-12-26T14:15:00+00:00",
+          "date": "1956-12-26",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120810",
+          "utc": "1956-12-29T14:15:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "4111632",
+          "utc": "1957-01-01T14:15:00+00:00",
+          "date": "1957-01-01",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4123124",
+          "utc": "1957-01-05T14:15:00+00:00",
+          "date": "1957-01-05",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4054363",
+          "utc": "1957-01-12T14:15:00+00:00",
+          "date": "1957-01-12",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019868",
+          "utc": "1957-01-16T14:45:00+00:00",
+          "date": "1957-01-16",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120840",
+          "utc": "1957-01-19T14:45:00+00:00",
+          "date": "1957-01-19",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4121107",
+          "utc": "1957-01-26T14:45:00+00:00",
+          "date": "1957-01-26",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4126338",
+          "utc": "1957-02-02T15:00:00+00:00",
+          "date": "1957-02-02",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "1019872",
+          "utc": "1957-02-06T19:30:00+00:00",
+          "date": "1957-02-06",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4126354",
+          "utc": "1957-02-09T15:00:00+00:00",
+          "date": "1957-02-09",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "4121156",
+          "utc": "1957-02-16T15:00:00+00:00",
+          "date": "1957-02-16",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "4128584",
+          "utc": "1957-02-23T15:00:00+00:00",
+          "date": "1957-02-23",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4121179",
+          "utc": "1957-03-02T15:00:00+00:00",
+          "date": "1957-03-02",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4130663",
+          "utc": "1957-03-09T15:00:00+00:00",
+          "date": "1957-03-09",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4133447",
+          "utc": "1957-03-16T15:00:00+00:00",
+          "date": "1957-03-16",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120837",
+          "utc": "1957-03-23T15:00:00+00:00",
+          "date": "1957-03-23",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4133539",
+          "utc": "1957-03-25T15:15:00+00:00",
+          "date": "1957-03-25",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4134626",
+          "utc": "1957-03-30T15:00:00+00:00",
+          "date": "1957-03-30",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181804",
+          "utc": "1957-04-06T14:00:00+00:00",
+          "date": "1957-04-06",
+          "season": 1956,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 1
+        },
+        {
+          "id": "1019877",
+          "utc": "1957-04-11T15:30:00+00:00",
+          "date": "1957-04-11",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4128192",
+          "utc": "1957-04-13T15:00:00+00:00",
+          "date": "1957-04-13",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4126471",
+          "utc": "1957-04-19T15:00:00+00:00",
+          "date": "1957-04-19",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4125913",
+          "utc": "1957-04-20T15:00:00+00:00",
+          "date": "1957-04-20",
+          "season": 1956,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "1019879",
+          "utc": "1957-04-25T19:15:00+00:00",
+          "date": "1957-04-25",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "4120828",
+          "utc": "1957-05-04T15:00:00+00:00",
+          "date": "1957-05-04",
+          "season": 1956,
+          "competition": "FAC",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2381313",
+          "utc": "1957-05-08T15:00:00+00:00",
+          "date": "1957-05-08",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "2381314",
+          "utc": "1957-05-14T23:00:00+00:00",
+          "date": "1957-05-15",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "2381315",
+          "utc": "1957-05-19T15:30:00+00:00",
+          "date": "1957-05-19",
+          "season": 1956,
+          "competition": "WMQ6",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3482109",
+          "utc": "1957-08-24T15:00:00+00:00",
+          "date": "1957-08-24",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3483823",
+          "utc": "1957-08-28T19:30:00+00:00",
+          "date": "1957-08-28",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3485433",
+          "utc": "1957-08-31T15:00:00+00:00",
+          "date": "1957-08-31",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "3485562",
+          "utc": "1957-09-04T19:30:00+00:00",
+          "date": "1957-09-04",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3487861",
+          "utc": "1957-09-07T15:00:00+00:00",
+          "date": "1957-09-07",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3489075",
+          "utc": "1957-09-09T19:30:00+00:00",
+          "date": "1957-09-09",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3490613",
+          "utc": "1957-09-14T15:00:00+00:00",
+          "date": "1957-09-14",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3491261",
+          "utc": "1957-09-18T19:30:00+00:00",
+          "date": "1957-09-18",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "3497404",
+          "utc": "1957-09-21T15:00:00+00:00",
+          "date": "1957-09-21",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1020078",
+          "utc": "1957-09-25T18:15:00+00:00",
+          "date": "1957-09-25",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3498196",
+          "utc": "1957-09-28T15:00:00+00:00",
+          "date": "1957-09-28",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3520060",
+          "utc": "1957-10-12T15:00:00+00:00",
+          "date": "1957-10-12",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181805",
+          "utc": "1957-10-18T23:00:00+00:00",
+          "date": "1957-10-19",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "4304458",
+          "utc": "1957-10-22T13:00:00+00:00",
+          "date": "1957-10-22",
+          "season": 1957,
+          "competition": "GBCS",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3523731",
+          "utc": "1957-10-26T15:00:00+00:00",
+          "date": "1957-10-26",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3552348",
+          "utc": "1957-11-02T15:00:00+00:00",
+          "date": "1957-11-02",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1181806",
+          "utc": "1957-11-05T23:00:00+00:00",
+          "date": "1957-11-06",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 1
+        },
+        {
+          "id": "3557425",
+          "utc": "1957-11-09T15:00:00+00:00",
+          "date": "1957-11-09",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696158",
+          "utc": "1957-11-16T13:00:00+00:00",
+          "date": "1957-11-16",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2369479",
+          "utc": "1957-11-20T19:30:00+00:00",
+          "date": "1957-11-20",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696167",
+          "utc": "1957-11-23T15:00:00+00:00",
+          "date": "1957-11-23",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "1181807",
+          "utc": "1957-11-26T23:00:00+00:00",
+          "date": "1957-11-27",
+          "season": 1957,
+          "competition": "FS",
+          "club": "3299",
+          "national": true,
+          "goals": 0
+        },
+        {
+          "id": "3696184",
+          "utc": "1957-11-30T14:30:00+00:00",
+          "date": "1957-11-30",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2369481",
+          "utc": "1957-12-04T13:00:00+00:00",
+          "date": "1957-12-04",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696196",
+          "utc": "1957-12-07T15:00:00+00:00",
+          "date": "1957-12-07",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696199",
+          "utc": "1957-12-14T13:00:00+00:00",
+          "date": "1957-12-14",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696211",
+          "utc": "1957-12-21T14:15:00+00:00",
+          "date": "1957-12-21",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696226",
+          "utc": "1957-12-25T11:00:00+00:00",
+          "date": "1957-12-25",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "3696240",
+          "utc": "1957-12-26T15:00:00+00:00",
+          "date": "1957-12-26",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "3696251",
+          "utc": "1957-12-28T13:00:00+00:00",
+          "date": "1957-12-28",
+          "season": 1957,
+          "competition": "EFD1",
+          "club": "985",
+          "national": false,
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "id": 170730,
+      "name": "레몽 코파",
+      "source": "https://www.transfermarkt.com/ceapi/performance-game/170730",
+      "games": [
+        {
+          "id": "2415923",
+          "utc": "1956-10-20T23:00:00+00:00",
+          "date": "1956-10-21",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 2
+        },
+        {
+          "id": "2415933",
+          "utc": "1956-10-27T23:00:00+00:00",
+          "date": "1956-10-28",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019854",
+          "utc": "1956-11-01T15:00:00+00:00",
+          "date": "1956-11-01",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415942",
+          "utc": "1956-11-03T23:00:00+00:00",
+          "date": "1956-11-04",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415951",
+          "utc": "1956-11-10T23:00:00+00:00",
+          "date": "1956-11-11",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019859",
+          "utc": "1956-11-14T17:00:00+00:00",
+          "date": "1956-11-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415960",
+          "utc": "1956-11-17T23:00:00+00:00",
+          "date": "1956-11-18",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415967",
+          "utc": "1956-11-24T23:00:00+00:00",
+          "date": "1956-11-25",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415976",
+          "utc": "1956-12-01T23:00:00+00:00",
+          "date": "1956-12-02",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019867",
+          "utc": "1956-12-13T14:30:00+00:00",
+          "date": "1956-12-13",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415984",
+          "utc": "1956-12-15T23:00:00+00:00",
+          "date": "1956-12-16",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415987",
+          "utc": "1956-12-22T23:00:00+00:00",
+          "date": "1956-12-23",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415993",
+          "utc": "1956-12-28T23:00:00+00:00",
+          "date": "1956-12-29",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416015",
+          "utc": "1957-01-12T23:00:00+00:00",
+          "date": "1957-01-13",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416020",
+          "utc": "1957-01-19T23:00:00+00:00",
+          "date": "1957-01-20",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2416031",
+          "utc": "1957-01-26T23:00:00+00:00",
+          "date": "1957-01-27",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2416040",
+          "utc": "1957-02-02T23:00:00+00:00",
+          "date": "1957-02-03",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416047",
+          "utc": "1957-02-09T23:00:00+00:00",
+          "date": "1957-02-10",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019870",
+          "utc": "1957-02-14T15:15:00+00:00",
+          "date": "1957-02-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416056",
+          "utc": "1957-02-16T23:00:00+00:00",
+          "date": "1957-02-17",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416063",
+          "utc": "1957-02-23T23:00:00+00:00",
+          "date": "1957-02-24",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2416071",
+          "utc": "1957-03-02T23:00:00+00:00",
+          "date": "1957-03-03",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019875",
+          "utc": "1957-03-14T14:00:00+00:00",
+          "date": "1957-03-14",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416079",
+          "utc": "1957-03-16T23:00:00+00:00",
+          "date": "1957-03-17",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416086",
+          "utc": "1957-03-23T23:00:00+00:00",
+          "date": "1957-03-24",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416095",
+          "utc": "1957-04-06T23:00:00+00:00",
+          "date": "1957-04-07",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019877",
+          "utc": "1957-04-11T15:30:00+00:00",
+          "date": "1957-04-11",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2416098",
+          "utc": "1957-04-13T23:00:00+00:00",
+          "date": "1957-04-14",
+          "season": 1956,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1019879",
+          "utc": "1957-04-25T19:15:00+00:00",
+          "date": "1957-04-25",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "1019880",
+          "utc": "1957-05-30T16:30:00+00:00",
+          "date": "1957-05-30",
+          "season": 1956,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415637",
+          "utc": "1957-09-14T23:00:00+00:00",
+          "date": "1957-09-15",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415644",
+          "utc": "1957-09-21T23:00:00+00:00",
+          "date": "1957-09-22",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415653",
+          "utc": "1957-09-28T23:00:00+00:00",
+          "date": "1957-09-29",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415661",
+          "utc": "1957-10-05T23:00:00+00:00",
+          "date": "1957-10-06",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415670",
+          "utc": "1957-10-12T23:00:00+00:00",
+          "date": "1957-10-13",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415677",
+          "utc": "1957-10-19T23:00:00+00:00",
+          "date": "1957-10-20",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415685",
+          "utc": "1957-10-26T23:00:00+00:00",
+          "date": "1957-10-27",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "1020090",
+          "utc": "1957-10-31T14:30:00+00:00",
+          "date": "1957-10-31",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415689",
+          "utc": "1957-11-02T23:00:00+00:00",
+          "date": "1957-11-03",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415703",
+          "utc": "1957-11-09T23:00:00+00:00",
+          "date": "1957-11-10",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415711",
+          "utc": "1957-11-16T23:00:00+00:00",
+          "date": "1957-11-17",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "1020100",
+          "utc": "1957-11-28T19:15:00+00:00",
+          "date": "1957-11-28",
+          "season": 1957,
+          "competition": "EPL",
+          "club": "418",
+          "national": false,
+          "goals": 1
+        },
+        {
+          "id": "2415719",
+          "utc": "1957-11-30T23:00:00+00:00",
+          "date": "1957-12-01",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415721",
+          "utc": "1957-12-07T23:00:00+00:00",
+          "date": "1957-12-08",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415735",
+          "utc": "1957-12-14T23:00:00+00:00",
+          "date": "1957-12-15",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415737",
+          "utc": "1957-12-21T23:00:00+00:00",
+          "date": "1957-12-22",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        },
+        {
+          "id": "2415746",
+          "utc": "1957-12-28T23:00:00+00:00",
+          "date": "1957-12-29",
+          "season": 1957,
+          "competition": "ES1",
+          "club": "418",
+          "national": false,
+          "goals": 0
+        }
+      ]
+    }
+  ],
+  "method": "Club official matches = domestic league, domestic cup, European Cup, FA Charity Shield. Copa Latina kept separate from annual totals. National = A internationals.",
+  "crossChecks": {
+    "bdfutbol": "Di Stéfano (j7349) and Kopa (j9575) 1957 matches identical to Transfermarkt in dates, competitions and goals; BDFutbol also lists Copa Latina 1957.",
+    "uefa": "European Cup 1957 line-ups (match.uefa.com lineups) confirm Di Stéfano 7/6, Kopa 7/2, Edwards 7/0 in calendar 1957.",
+    "historicalLineups": "English League 1956-57 and 1957-58 line-up PDFs: Wright and Edwards league dates/goals match; season summaries Wright 40/0, Edwards 34/5 (1956-57).",
+    "copaLatina1957": {
+      "source": "https://en.wikipedia.org/wiki/1957_Latin_Cup",
+      "diStefano": [
+        2,
+        2
+      ],
+      "kopa": [
+        2,
+        0
+      ],
+      "topScorer": "Gento 3"
+    }
+  }
+}

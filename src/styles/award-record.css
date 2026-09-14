@@ -56,6 +56,11 @@
 .historical-identity .identity-france-team { background: #183c88; }
 .historical-identity .identity-real-madrid { background: linear-gradient(125deg,#fff 0 78%,#542788 78% 85%,#fff 85%); color: #302849; }
 .historical-identity .identity-reims { background: linear-gradient(90deg,#faf9f6 0 4%,#bd1730 4% 96%,#faf9f6 96%); }
+.historical-identity .identity-wolves { background: #fdb913; color: #231f20; }
+.historical-identity .identity-wolves .identity-art { width: 64px; height: 84px; justify-self: center; }
+.archive-body .historical-identity .identity-wolves .identity-art img { width: 64px; height: auto; top: 0; transform: translateX(-50%); }
+.historical-identity .identity-manchester-united { background: #c8102e; }
+.award-record .award-podium.award-podium-four { grid-template-columns: repeat(4,minmax(0,1fr)); }
 .award-record .award-score-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 26px; border-radius: 12px; background: #10110d; color: #e3d49b; margin: 26px 0; }
 .award-record .award-score-strip strong { font-size: 38px; line-height: 1; }
 .award-record .award-score-strip small { display: block; font-size: 12px; color: #c5bea1; }
@@ -72,6 +77,8 @@
 .award-record .archive-body .award-achievements-matthews { background: #bd0825; }
 .award-record .archive-body .award-achievements-di-stefano { --record-accent: #712607; --record-rule: #65470b38; background: #f6c800; color: #30260b; }
 .award-record .archive-body .award-achievements-kopa { background: #092988; }
+.award-record .archive-body .award-achievements-wright { --record-accent: #fdb913; background: #231f20; }
+.award-record .archive-body .award-achievements-edwards { background: #c8102e; }
 .award-record .archive-body .award-achievements section { padding: 24px; margin: 0; border-bottom: 1px solid var(--record-rule); }
 .award-record .archive-body .award-achievements section:last-child { border-bottom: 0; }
 .award-record .archive-body .award-achievements h3 { margin: 0 0 12px; padding: 0; color: inherit; font-size: 21px; line-height: 1.4; }
@@ -172,6 +179,9 @@
   .archive-body .historical-identity .identity-art-wide img { width: 130px; height: 74px; }
   .historical-identity strong { margin-top: 4px; font-size: 19px; }
   .historical-identity small { margin-top: 3px; font-size: 11px; }
+  .award-record .award-podium.award-podium-four { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .historical-identity .identity-wolves .identity-art { width: 52px; height: 68px; }
+  .archive-body .historical-identity .identity-wolves .identity-art img { width: 52px; }
   .historical-identity .identity-blackpool .identity-art { width: 60px; height: 66px; }
   .archive-body .historical-identity .identity-blackpool .identity-art img { width: 60px; }
   .award-record .award-achievements section { padding: 20px; }

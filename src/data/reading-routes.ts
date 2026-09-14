@@ -126,9 +126,20 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
     image: '/images/archive/1956-57-european-cup-top-scorers/top-scorers.png',
     theme: 'european-cup',
   },
+  {
+    id: '1957-ballon-dor-alfredo-di-stefano',
+    href: '/archive/awards/ballon-dor/1957-ballon-dor-alfredo-di-stefano/',
+    index: '05',
+    label: '시상관 · 발롱도르',
+    title: '두 번째 발롱도르는 왜 디스테파노였나',
+    description: '72점의 디스테파노와 라이트·코파·에드워즈, 1957년 투표의 포디움과 랭킹',
+    image: '/images/archive/awards/1957-ballon-dor/cover.jpg',
+    theme: 'ballon-dor',
+  },
 ];
 
 const byId = (id: string) => europeanCup1955Stories.find((story) => story.id === id)!;
+const byId1956 = (id: string) => europeanCup1956Stories.find((story) => story.id === id)!;
 
 export function getReadingRoute(currentId: string): ReadingRoute | undefined {
   if (currentId === '1956-ballon-dor-stanley-matthews') {
@@ -149,12 +160,21 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
       stories: europeanCup1955Stories.filter((story) => story.id !== currentId),
     };
   }
-  if (europeanCup1956Stories.some((story) => story.id === currentId)) {
+  if (currentId === '1957-ballon-dor-alfredo-di-stefano') {
+    return {
+      theme: 'ballon-dor',
+      kicker: "BALLON D’OR 1957 × EUROPEAN CUP 1956-57",
+      title: '두 번째 발롱도르와<br />같은 시즌의 유럽 무대',
+      lead: '72점을 받은 디스테파노의 한 해에는 두 번째 유러피언컵이 있었다. 베르나베우의 결승 장면과 그 대회의 득점 순위로 이어서 읽으면 된다.',
+      stories: [byId1956('1956-57-european-cup-final-real-madrid-fiorentina'), byId1956('1956-57-european-cup-top-scorers')],
+    };
+  }
+  if (europeanCup1956Stories.some((story) => story.id === currentId && story.theme === 'european-cup')) {
     return {
       theme: 'european-cup',
-      kicker: 'EUROPEAN CUP 1956-57 READING ROUTE · 01—04',
-      title: '두 번째 유러피언컵을<br />네 개의 기록으로 읽기',
-      lead: '스물두 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 베르나베우의 결승 장면, 그리고 누가 가장 많은 골을 넣었는지에 따라 다음 기록을 고르면 된다.',
+      kicker: 'EUROPEAN CUP 1956-57 READING ROUTE · 01—05',
+      title: '두 번째 유러피언컵을<br />다섯 개의 기록으로 읽기',
+      lead: '스물두 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 베르나베우의 결승 장면, 누가 가장 많은 골을 넣었는지, 그해 가장 빛난 선수가 누구였는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1956Stories.filter((story) => story.id !== currentId),
     };
   }
