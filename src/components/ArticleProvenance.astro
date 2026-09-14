@@ -1,23 +1,9 @@
 ---
-interface Props {
-  priorPublication?: {
-    platform: 'NAVER';
-    url: string;
-    relation: 'revised-edition';
-  };
-}
-
-const { priorPublication } = Astro.props;
+// 네이버 최초 공개본과의 관계는 글마다 안내 박스로 밝히지 않는다(운영자 결정, 2026-09-15).
+// 원고의 priorPublication 값은 Layout.astro의 isBasedOn 구조화 데이터로만 출력하고, 저자 이력은 About이 맡는다.
 ---
 
 <aside class="article-provenance" aria-label="원저자 및 인용 안내">
-  {priorPublication && (
-    <div class="article-provenance__edition">
-      <span>PREVIOUS EDITION · NAVER</span>
-      <p>이 글은 박성호(삥이)가 네이버에 먼저 공개한 원고·선정·편집을 저본으로 삼아, 삥이FC에서 자료와 표기, 출처와 편집 구성을 다시 정리한 개정판입니다.</p>
-      <a href={priorPublication.url} target="_blank" rel="noopener noreferrer">네이버 최초 공개본 보기 <b aria-hidden="true">↗</b></a>
-    </div>
-  )}
   <strong>© 박성호(삥이) · 삥이FC</strong>
   <p>이 글의 조사·선정·서술과 편집 구성은 박성호(삥이)의 저작물입니다. 인용하거나 공유할 때에는 저자명과 이 원문 URL을 함께 밝혀주세요.</p>
 </aside>
@@ -36,35 +22,6 @@ const { priorPublication } = Astro.props;
     color: var(--bbfc-ink);
     font-size: 13px;
     line-height: 1.5;
-  }
-
-  .article-provenance__edition {
-    margin: -2px 0 16px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid var(--bbfc-border);
-  }
-
-  .article-provenance__edition span {
-    display: block;
-    color: var(--bbfc-blue);
-    font-size: 10px;
-    font-weight: 750;
-    letter-spacing: .1em;
-  }
-
-  .article-provenance__edition p {
-    margin-top: 7px;
-    color: var(--bbfc-ink-2);
-    font-size: 12px;
-    line-height: 1.75;
-  }
-
-  .article-provenance__edition a {
-    display: inline-block;
-    margin-top: 8px;
-    color: var(--bbfc-blue);
-    font-size: 13px;
-    font-weight: 700;
   }
 
   .article-provenance p {

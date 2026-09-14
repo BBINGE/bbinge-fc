@@ -113,7 +113,7 @@ const relatedAssets = entry.data.relatedGroup && !hasReadingRoute
     )}
     <div class="archive-body">{hasAwardRecords ? <Fragment set:html={awardHtml} /> : hasFootballRecords ? <Fragment set:html={footballHtml} /> : <Content />}</div>
     {hasReadingRoute && <SeasonReadingRoute currentId={entry.id} />}
-    <ArticleProvenance priorPublication={entry.data.priorPublication} />
+    <ArticleProvenance />
     <div class="archive-share">
       <ShareButtons
         url={new URL(`/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`, site.url).toString()}
