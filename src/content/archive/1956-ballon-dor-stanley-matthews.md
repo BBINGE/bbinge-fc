@@ -111,7 +111,7 @@ draft: false
 
 <div class="award-achievements award-achievements-di-stefano">
 <section><h3>팀 성적</h3><ul><li>1955-56 라리가 <strong>3위</strong></li><li>1956 코파 델 헤네랄리시모 <strong>4강</strong></li><li>1955-56 유러피언컵 <strong>우승</strong></li><li>1956 스몰 클럽 월드컵 <strong>우승</strong></li></ul></section>
-<section><h3>개인 수상·기록</h3><ul><li>1955-56 트로페오 피치치 <strong>라리가 득점왕 (24골)</strong></li><li>1955-56 레알 마드리드 CF <strong>팀 내 최다 득점자 (공식전 29골)</strong> <a class="cite" href="#source-9">[9]</a></li><li>1955-56 유러피언컵 <strong>공동 득점 4위 (5골)</strong> <a class="cite" href="#source-19">[19]</a></li><li>1956년 발롱도르 <strong>2위</strong></li></ul></section>
+<section><h3>개인 수상·기록</h3><ul><li>1955-56 트로페오 피치치 <strong>라리가 득점왕 (24골)</strong></li><li>1955-56 레알 마드리드 CF <strong>팀 내 최다 득점자 (공식전 29골)</strong> <a class="cite" href="#source-9">[9]</a></li><li>1955-56 유러피언컵 <strong>공동 득점 4위 (5골)</strong> <a class="cite" href="#source-19">[19]</a></li><li>1956 스몰 클럽 월드컵 <strong>팀 내 득점 2위 (4골)</strong> <a class="cite" href="#source-20">[20]</a></li><li>1956년 발롱도르 <strong>2위</strong></li></ul></section>
 <section><h3>개인 스탯</h3><ul class="award-stat-list"><li class="award-stat-total"><span>1955-56 클럽 공식전 합계</span><strong>37경기 29골</strong></li><li><span>1955-56 라리가</span><strong>30경기 24골</strong></li><li><span>1955-56 유러피언컵</span><strong>7경기 5골</strong></li><li><span>1956년 클럽 공식전</span><strong>40경기 39골</strong></li><li><span>1956년 국가대표팀</span><strong>0경기</strong></li><li class="award-stat-total"><span>1956년 클럽＋국가대표팀 합계</span><strong>40경기 39골</strong></li><li><span>1956 스몰 클럽 월드컵 (국제 초청)</span><strong>6경기 4골</strong> <a class="cite" href="#source-20">[20]</a></li></ul></section>
 </div>
 
