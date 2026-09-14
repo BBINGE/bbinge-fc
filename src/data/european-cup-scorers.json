@@ -17,6 +17,23 @@
         { "rank": 7, "name": "군나르 노르달", "original": "Gunnar Nordahl", "lang": "sv", "club": "milan", "origin": "스웨덴", "flag": "/images/flags/se.svg", "apps": 5, "goals": 4 },
         { "rank": 7, "name": "미셸 르블롱", "original": "Michel Leblond", "lang": "fr", "club": "reims", "origin": "프랑스", "flag": "/images/flags/fr.svg", "apps": 6, "goals": 4 }
       ]
+    },
+    {
+      "season": "1956-57",
+      "competition": "유러피언컵",
+      "matches": 44,
+      "goals": 170,
+      "cutoff": 4,
+      "scorers": [
+        { "rank": 1, "name": "데니스 바이올렛", "original": "Dennis Viollet", "lang": "en", "club": "manchester-united", "origin": "잉글랜드", "flag": "/images/flags/gb-eng.svg", "apps": 6, "goals": 9 },
+        { "rank": 2, "name": "토미 테일러", "original": "Tommy Taylor", "lang": "en", "club": "manchester-united", "origin": "잉글랜드", "flag": "/images/flags/gb-eng.svg", "apps": 8, "goals": 8 },
+        { "rank": 3, "name": "알프레도 디스테파노", "original": "Alfredo Di Stéfano", "lang": "es", "club": "real-madrid", "origin": "아르헨티나", "flag": "/images/flags/ar.svg", "apps": 8, "goals": 7 },
+        { "rank": 4, "name": "알프레트 프라이슬러", "original": "Alfred Preißler", "lang": "de", "club": "borussia-dortmund", "origin": "서독", "flag": "/images/flags/de.svg", "apps": 5, "goals": 6 },
+        { "rank": 5, "name": "호세 루이스 아르테체", "original": "José Luis Artetxe", "lang": "es", "club": "athletic-club", "origin": "스페인", "flag": "/images/flags/es-1945.png", "apps": 5, "goals": 5 },
+        { "rank": 5, "name": "자크 푸아", "original": "Jacques Foix", "lang": "fr", "club": "nice", "origin": "프랑스", "flag": "/images/flags/fr.svg", "apps": 7, "goals": 5 },
+        { "rank": 5, "name": "보라 코스티치", "original": "Borivoje Kostić", "lang": "sr-Latn", "club": "crvena-zvezda", "origin": "유고슬라비아", "flag": "/images/flags/yu-1946.svg", "apps": 6, "goals": 5 },
+        { "rank": 8, "name": "자크 페브르", "original": "Jacques Faivre", "lang": "fr", "club": "nice", "origin": "프랑스", "flag": "/images/flags/fr.svg", "apps": 7, "goals": 4 }
+      ]
     }
   ]
 }

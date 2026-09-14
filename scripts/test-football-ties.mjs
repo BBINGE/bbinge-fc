@@ -150,6 +150,20 @@ assert.throws(() => renderTopScorers('1999-00'), /Unknown top scorers season/);
 const scorerSource = readFileSync(new URL('../src/content/archive/1955-56-european-cup-top-scorers.md', import.meta.url), 'utf8');
 assert.equal((scorerSource.match(/data-european-cup-scorers="1955-56"/g) ?? []).length, 1);
 assert(!scorerSource.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
+// 1956-57 득점 순위: RSSSF·UEFA 일치 8명(콜레프 3·4골 차이로 제외), 시대 국기·문장.
+const scorers5657 = renderTopScorers('1956-57');
+assert.equal((scorers5657.match(/<tr[ >]/g) ?? []).length, 9, '머리글 1행 + 선수 8행');
+for (const [rank, name, goals, apps] of [['1위','데니스 바이올렛',9,6],['2위','토미 테일러',8,8],['3위','알프레도 디스테파노',7,8],['4위','알프레트 프라이슬러',6,5],['공동 5위','호세 루이스 아르테체',5,5],['공동 5위','자크 푸아',5,7],['공동 5위','보라 코스티치',5,6],['8위','자크 페브르',4,7]]) {
+  const row = scorers5657.split('<tr').find(part => part.includes('<strong>' + name + '</strong>'));
+  assert(row && row.includes('data-label="순위">' + rank + '</td>'), name + ' 순위');
+  assert(row.includes('data-label="득점">' + goals + '골') && row.includes('data-label="출전">' + apps + '경기'), name + ' 골·출전');
+}
+assert(!scorers5657.includes('이반 콜레프'), '자료가 갈리는 콜레프는 표에서 제외');
+assert.equal((scorers5657.match(/cup-result-crest"><img/g) ?? []).length, 8, '득점자 8명 클럽 문장');
+assert(scorers5657.includes('/images/flags/es-1945.png'), '아르테체 1945-1977 스페인 국기');
+const scorerSource5657 = readFileSync(new URL('../src/content/archive/1956-57-european-cup-top-scorers.md', import.meta.url), 'utf8');
+assert.equal((scorerSource5657.match(/data-european-cup-scorers="1956-57"/g) ?? []).length, 1);
+assert(!scorerSource5657.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
 // 1956-57 4강: 합계·결승 진출, 레알 두 번째 4강, 원고 자리표시.
 for (const [id, total, winner] of [['match-1','0<i>:</i>1','AC 피오렌티나'], ['match-2','5<i>:</i>3','레알 마드리드 CF']]) {
   const html = renderTie('1956-57-european-cup-semifinals', id);

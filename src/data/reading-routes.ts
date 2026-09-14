@@ -116,6 +116,16 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
     image: '/images/highlights/1956-57-european-cup-final-thumbnail.jpg',
     theme: 'european-cup',
   },
+  {
+    id: '1956-57-european-cup-top-scorers',
+    href: '/archive/european-club/european-cup/1956-57-european-cup-top-scorers/',
+    index: '04',
+    label: '대회관 · 득점 순위',
+    title: '가장 많은 골을 넣은 선수는 누구였나',
+    description: '4강에서 멈춘 맨유의 바이올렛 9골과 테일러 8골부터 디스테파노의 7골까지, 경기별 득점 기록',
+    image: '/images/archive/1956-57-european-cup-top-scorers/top-scorers.png',
+    theme: 'european-cup',
+  },
 ];
 
 const byId = (id: string) => europeanCup1955Stories.find((story) => story.id === id)!;
@@ -142,9 +152,9 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
   if (europeanCup1956Stories.some((story) => story.id === currentId)) {
     return {
       theme: 'european-cup',
-      kicker: 'EUROPEAN CUP 1956-57 READING ROUTE · 01—03',
-      title: '두 번째 유러피언컵을<br />세 개의 기록으로 읽기',
-      lead: '스물두 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 그리고 베르나베우의 결승 장면으로 이어서 읽으면 된다.',
+      kicker: 'EUROPEAN CUP 1956-57 READING ROUTE · 01—04',
+      title: '두 번째 유러피언컵을<br />네 개의 기록으로 읽기',
+      lead: '스물두 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 베르나베우의 결승 장면, 그리고 누가 가장 많은 골을 넣었는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1956Stories.filter((story) => story.id !== currentId),
     };
   }
