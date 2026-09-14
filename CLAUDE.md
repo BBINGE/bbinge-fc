@@ -8,7 +8,7 @@ Claude와 다른 AI 도구의 새 세션 읽기 순서는 `AGENTS.md` §1을 따
 - 공간 은유: 사이트 전체는 서울 강남을 배경으로 한 가상 백화점 `PB 온라인 본점`이다. 1F 메인 · 2F 명품관 · 3F 오뭐입?·유니폼관 · 4F 축행 · 5F 오락실(축겜) · 6F 도서실(인물관·대회관·시상관)·세계사관(축세) · 7F 전술관(축술)·축떡관 · 8F 명예의 전당(축쿼드, 그 자체가 베스트 11 전시실) · 9F 영화관(H/L) · 10F 옥상(입점 대기중). PB는 로고의 P(박성호, 기획자)와 B(BBinge, 크리에이터)다. 층·관·링크의 단일 데이터는 `src/config/store.ts`이며 문서의 층수 표기와 어긋나면 이 파일을 따른다.
 - 운영자: 삥이(박성호). 기획·카피·콘텐츠 전부 운영자가 결정하며, 운영자는 개발자가 아니다.
 - 저장소: `https://github.com/BBINGE/bbinge-fc` (구 주소 `bbinge-fc-`는 저장소 이름 변경 후 자동 리다이렉트됨)
-- 배포: `https://bbinge-fc.pages.dev` (Cloudflare Pages, `main` 자동 배포 + 2시간 주기 예약 배포)
+- 배포: `https://bbinge-fc.pages.dev` (Cloudflare Pages, `main` 자동 배포 + `scheduled-deploy.yml` 매시 해축 데이터 확인: 데이터가 바뀌면 배포하고, 바뀌지 않아도 6시간마다 기준 배포)
 - 공개 도메인: canonical은 `https://bbingefc.com`이다. `bbinge-fc.pages.dev`의 일반 문서 주소는 canonical로 301 이동하며, 배포 확인용 `/deploy.json`은 pages.dev에서 확인한다(HANDOFF 현재 운영 상태 기준).
 - 기술: Astro 정적 빌드 + Tailwind CSS + 마크다운 콘텐츠 컬렉션. 프레임워크·유료 서비스를 임의로 도입하지 않는다.
 

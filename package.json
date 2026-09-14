@@ -15,7 +15,6 @@
     "validate:identity": "node scripts/validate-site-identity.mjs",
     "test:policy-surfaces": "node scripts/test-policy-surfaces.mjs",
     "test:player-rules": "node scripts/validate-player-archives.mjs --self-test",
-    "validate:today": "node scripts/validate-today-football.mjs",
     "validate:affiliates": "node scripts/validate-affiliate-products.mjs",
     "test:affiliate-rules": "node scripts/test-affiliate-products.mjs",
     "build:affiliate-redirects": "node scripts/build-affiliate-redirects.mjs",
