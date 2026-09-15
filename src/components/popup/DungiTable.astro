@@ -1,12 +1,36 @@
 ---
 // 「그 외 더보기」 접이식 표: 카드로 올리지 않은 대승을 날짜순으로 모은다.
+// 접힌 상태에서도 안에 든 가장 큰 점수 세 경기와 상대 문장을 미리 보여 줘 펼쳐 볼 이유를 만든다(운영자 지시, 2026-09-16).
 import type { Match } from '../../data/popup/bayern-dungi';
 
-interface Props { rows: Match[]; label: string }
-const { rows, label } = Astro.props;
+interface Props { rows: Match[]; label: string; tone?: 'ucl' | 'germany' }
+const { rows, label, tone = 'germany' } = Astro.props;
+const top = [...rows].sort((a, b) => b.margin - a.margin || b.score[0] - a.score[0] || a.date.localeCompare(b.date)).slice(0, 3);
+const clubs = [...new Set(rows.map((m) => m.opponent))];
+const crests = [...new Map(rows.filter((m) => m.opponentCrest).map((m) => [m.opponentCrest!, m.opponent])).entries()].slice(0, 6);
+const maxGoals = Math.max(...rows.map((m) => m.score[0]));
 ---
-<details class="dg-more">
-  <summary><span>그 외 더보기</span><b>{rows.length}경기</b><i aria-hidden="true">+</i></summary>
+<details class:list={['dg-more', `dg-more--${tone}`]}>
+  <summary>
+    <span class="dg-more__lead">
+      <small>그 외 더보기</small>
+      <strong><b>{rows.length}</b>경기 더 두들겼다</strong>
+    </span>
+    <span class="dg-more__preview" aria-label={`가장 큰 점수: ${top.map((m) => `${m.opponent}전 ${m.score[0]}-${m.score[1]}`).join(', ')}`}>
+      {top.map((m) => (
+        <span class="dg-more__chip">
+          {m.opponentCrest && <img src={m.opponentCrest} alt="" width="20" height="20" loading="lazy" decoding="async" />}
+          <b>{m.score[0]}-{m.score[1]}</b>
+        </span>
+      ))}
+    </span>
+    <span class="dg-more__stack" aria-hidden="true" title={`상대 ${clubs.length}팀`}>
+      {crests.map(([src]) => <img src={src} alt="" width="26" height="26" loading="lazy" decoding="async" />)}
+      {clubs.length > crests.length && <em>+{clubs.length - crests.length}팀</em>}
+    </span>
+    <span class="dg-more__toggle" aria-hidden="true"><i class="is-closed">펼치기</i><i class="is-open">접기</i><b>+</b></span>
+  </summary>
+  <p class="dg-more__note">한 경기 최다 {maxGoals}골. 6골 차 이상은 붉게 표시했다.</p>
   <div class="dg-more__scroll" tabindex="0" role="region" aria-label={`${label} 그 외 대승 ${rows.length}경기 표`}>
     <table>
       <thead><tr><th scope="col">날짜</th><th scope="col">대회 · 라운드</th><th scope="col">상대</th><th scope="col">장소</th><th scope="col">스코어</th></tr></thead>
