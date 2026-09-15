@@ -263,7 +263,7 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
     return {
       theme: 'hungary',
       kicker: 'HUNGARY READING ROUTE · 01—06',
-      title: '그런데 헝가리 황금의 팀을<br />여섯 개의 시선으로 읽기',
+      title: '헝가리 황금의 팀을<br />여섯 개의 시선으로 읽기',
       lead: '어떻게 이겼는지, 첫 상대 한국은 어땠는지, 1954년의 기록과 베른의 결승 장면, 1956년에 왜 흩어졌는지, 직접 부다페스트에 가고 싶은지에 따라 다음 글을 고르면 된다.',
       stories: hungaryStories.filter((story) => story.id !== currentId),
     };
