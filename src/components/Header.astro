@@ -22,6 +22,8 @@ const archiveIsFresh = archiveRecords.some((record) => isRecentlyChanged(record.
 const sortedNav = [
   { href: '/about/', label: '저자 @삥이', active: currentPath.startsWith('/about/'), isNew: false },
   { href: '/archive/', label: '삥이 아카이브', active: currentPath.startsWith('/archive/'), isNew: archiveIsFresh },
+  // 1층 팝업관(운영자 지시, 2026-09-16): 상단 메뉴에 카테고리처럼 둔다. 새 팝업 개관일 기준으로 NEW 표시.
+  { href: '/popup/', label: '팝업관', active: currentPath.startsWith('/popup/'), isNew: isRecentlyChanged(new Date('2026-09-16T02:40:00+09:00')) },
   ...topCategories.map(({ slug, label }) => ({
     href: `/${slug}/`,
     label,
@@ -197,6 +199,13 @@ const primaryNav = [{ href: '/', label: 'MAIN', active: currentPath === '/', isN
     0%,100% { transform:translate3d(0,0,0); box-shadow:0 9px 24px -18px rgba(22,31,43,.7); }
     28% { transform:translate3d(1px,-4px,0); box-shadow:0 15px 28px -18px rgba(41,112,240,.28); }
     62% { transform:translate3d(-1px,-2px,0); }
+  }
+  /* 팝업관 메뉴 추가(2026-09-16) 뒤 1024-1279px에서 메뉴가 검색창 밑으로 밀리지 않게 간격·글자·검색창 폭을 줄인다. */
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    nav[aria-label="주요 메뉴"] { gap:9px !important; }
+    nav[aria-label="주요 메뉴"] a { font-size:13.5px !important; }
+    .header-search { flex-basis:132px !important; }
+    .header-search input::placeholder { color:transparent; }
   }
   @media (max-width: 1180px) {
     .header-search { flex-basis:184px; }

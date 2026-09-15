@@ -26,7 +26,7 @@ export const storeFloors = [
   { floor: '04', name: '축행', en: 'FOOTBALL TRAVEL DESK', copy: '경기장과 도시를 잇는 여행 동선과 출발 전 준비', icon: 'travel', zones: [{ label: '여행사', href: '/pilgrimage/' }, { label: '보험사' }], href: '/pilgrimage/' },
   { floor: '03', name: '오뭐입? · 유니폼관', en: 'OOTD · FOOTBALL KIT HALL', copy: '따라 입고 싶은 축구 패션과 시즌 유니폼이 나란히 놓인 두 개의 관', icon: 'fashion', zones: [{ label: '오뭐입?', href: '/culture/outfits/' }, { label: '유니폼관', href: '/culture/kits/' }], href: '/culture/outfits/', split: true },
   { floor: '02', name: '명품관', en: 'LUXURY BOUTIQUE HALL', copy: '인물과 희소한 착장이 축구를 오브제로 바꾸는 부티크', icon: 'luxury', zones: [{ label: '명품관 입장', href: '/culture/boutique/' }], href: '/culture/boutique/' },
-  { floor: '01', name: '메인', en: 'GRAND MAIN LOBBY', copy: '오늘의 삥이FC와 모든 층이 시작되는 로비', icon: 'lobby', zones: [{ label: '안내 데스크', href: '/' }, { label: '팝업관', href: '/popup/' }], href: '/' },
+  { floor: '01', name: '메인', en: 'GRAND MAIN LOBBY', copy: '오늘의 삥이FC와 모든 층이 시작되는 로비', icon: 'lobby', zones: [{ label: '안내 데스크', href: '/' }, { label: '팝업관', href: '/popup/' }], href: '/', split: true },
 ] as const satisfies readonly StoreFloor[];
 
 export interface StoreLocation {
