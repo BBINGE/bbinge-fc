@@ -167,10 +167,6 @@ MTK의 홈은 그의 이름을 딴 경기장이다. 관중석과 터치라인이
 <div class="journey-links">
   <a href="/tactics/hungary-golden-team-total-football-elo-rating/" style="--journey-image:url('/images/tactics/hungary-golden-team/puskas.png')"><span>TACTICS</span><strong>헝가리 황금의 팀은 어떻게 세계를 앞서갔나</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
   <a href="/history/1954-korea-world-cup-journey/" style="--journey-image:url('/images/history/1954-korea-world-cup/cover.png')"><span>HISTORY</span><strong>1954년, 한국이 처음 만난 월드컵</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
-  <a href="/history/hungary-1956-revolution-golden-team-dissolution/" style="--journey-image:url('/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp')"><span>HISTORY</span><strong>1956년 헝가리 혁명, 황금의 팀이 흩어진 가을</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
-  <a href="/highlights/fifa-world-cup/1954-fifa-world-cup-final-west-germany-hungary/" style="--journey-image:url('/images/highlights/1954-world-cup-final-cover.webp')"><span>H/L</span><strong>1954 월드컵 결승, 베른의 기적</strong><i>보기 <b aria-hidden="true">→</b></i></a>
-  <a href="/highlights/fifa-world-cup/1938-fifa-world-cup-final-italy-hungary/" style="--journey-image:url('/images/highlights/1938-world-cup-final-cover.png')"><span>H/L</span><strong>1938 월드컵 결승, 이탈리아 4-2 헝가리</strong><i>보기 <b aria-hidden="true">→</b></i></a>
-
   <a href="/archive/national-team/fifa-world-cup/1954-fifa-world-cup-best-xi/" style="--journey-image:url('/images/archive/1954-fifa-world-cup-best-xi/cover.png')"><span>ARCHIVE</span><strong>1954 FIFA 월드컵 베스트 11</strong><i>읽기 <b aria-hidden="true">→</b></i></a>
 </div>
 

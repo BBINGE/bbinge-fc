@@ -29,6 +29,7 @@ const route = getReadingRoute(Astro.props.currentId);
   .season-route{position:relative;overflow:hidden;margin:64px 0 18px;padding:36px 34px 34px;border:1px solid var(--route-line);background:var(--route-bg);color:#fff;box-shadow:0 28px 70px -52px var(--route-shadow)}
   .season-route--european-cup{--route-line:rgba(80,158,255,.42);--route-accent:#78dcff;--route-shadow:rgba(6,18,73,.95);--route-bg:radial-gradient(circle at 9% 12%,rgba(25,214,255,.26),transparent 34%),radial-gradient(circle at 94% 88%,rgba(218,39,255,.22),transparent 40%),linear-gradient(128deg,#06103f 3%,#102ca2 50%,#39128c 78%,#071340 100%)}
   .season-route--ballon-dor{--route-line:rgba(217,178,95,.4);--route-accent:#e2bd6a;--route-shadow:rgba(20,14,4,.95);--route-bg:radial-gradient(circle at 91% -8%,rgba(226,189,106,.22),transparent 32%),linear-gradient(145deg,#0b0a08,#1d1810 62%,#090807)}
+  .season-route--hungary{--route-line:rgba(226,189,106,.36);--route-accent:#e2bd6a;--route-shadow:rgba(4,22,15,.95);--route-bg:radial-gradient(circle at 92% -6%,rgba(226,189,106,.2),transparent 34%),radial-gradient(circle at 6% 104%,rgba(206,41,57,.16),transparent 38%),linear-gradient(140deg,#06140f 0%,#0f2e22 56%,#07130e 100%)}
   .season-route::after{position:absolute;right:-48px;top:16px;width:210px;height:210px;border:1px solid rgba(255,255,255,.1);border-radius:50%;box-shadow:0 0 0 36px rgba(255,255,255,.025);content:'';pointer-events:none}
   .season-route>header{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(240px,.85fr);gap:30px;align-items:end;padding-bottom:27px;border-bottom:1px solid rgba(255,255,255,.18)}
   .season-route>header span{color:var(--route-accent);font-size:12px;font-weight:820;letter-spacing:.15em}
@@ -44,7 +45,7 @@ const route = getReadingRoute(Astro.props.currentId);
   .season-route__card.is-ballon-dor small{color:#e2bd6a}
   .season-route--european-cup .season-route__card.is-ballon-dor{border-color:rgba(226,189,106,.45);background:linear-gradient(150deg,rgba(20,16,8,.72),rgba(46,36,16,.55))}
   .season-route--european-cup .season-route__card.is-ballon-dor figure span{border-color:#e2bd6a;background:rgba(20,15,6,.8);color:#e2bd6a}
-  .season-route__card strong{display:block;margin-top:9px;color:#fff;font-size:19px;line-height:1.34;letter-spacing:-.035em;text-wrap:balance}
+  .season-route__card strong{display:block;word-break:keep-all;margin-top:9px;color:#fff;font-size:19px;line-height:1.34;letter-spacing:-.035em;text-wrap:balance}
   .season-route__card p{margin:9px 0 0;color:rgba(255,255,255,.68);font-size:12px;line-height:1.6;text-wrap:pretty}
   .season-route__card b{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:18px;color:#fff;font-size:16px}
   .season-route__card b i{font-size:24px;font-style:normal;animation:season-route-arrow 1.8s ease-in-out infinite}

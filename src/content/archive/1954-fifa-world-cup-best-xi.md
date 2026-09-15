@@ -119,11 +119,6 @@ relatedGroup: 'fifa-world-cup-1954'
 
 FIFA의 회고 기준으로 이 팀은 1950년부터 결승 전까지 31경기 연속 무패였다. 1952년 헬싱키 올림픽에서 금메달을 땄고, 1953년 웸블리에서 잉글랜드를 6-3으로 꺾었다. 이듬해 부다페스트에서 다시 만난 잉글랜드에는 7-1로 이겼다. 스위스에 도착했을 때 헝가리는 우승 후보 가운데 하나가 아니라, 다른 팀이 해답을 찾아야 하는 문제 그 자체였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-<a class="record-cta" href="/tactics/hungary-golden-team-total-football-elo-rating/">
-  <img src="/images/tactics/hungary-golden-team/puskas.png" alt="" loading="lazy" />
-  <div><small>축술 · 헝가리 황금의 팀</small><strong>Elo 레이팅 역대 1위, 헝가리 황금의 팀과 토털 풋볼</strong><p>웸블리에서 센터포워드를 지운 팀은 어떻게 싸웠나 →</p></div>
-</a>
-
 이 무패 기록은 자료의 집계 방식까지 살펴야 한다. MTK의 구단사는 1952년 모스크바 선발팀과 치른 1-2 패배가 훗날 헝가리축구연맹에 의해 공식 대표 경기로 재분류됐다고 설명한다. 당시 국제 기록과 후대의 국내 행정 기록이 달라지면서 ‘4년 무패’와 공식 연속 경기 수가 자료마다 어긋난다. 따라서 31경기는 FIFA가 대회사를 설명할 때 쓰는 연속 무패 기준이며, 헝가리의 모든 후대 행정 기록을 합친 절대값은 아니다.<a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
 
 그 강함은 단순히 유명 선수가 많아서가 아니었다. 당시 대부분의 팀은 상대 9번과 센터 하프의 일대일을 수비의 기준으로 삼았다. 히데그쿠티가 중원까지 내려오자 그 기준이 깨졌다. 센터 하프가 따라 나오면 중앙이 비었고, 남으면 히데그쿠티가 보지크와 수적 우위를 만들었다. 푸슈카시가 왼쪽 안쪽에서 공을 잡고 치보르가 바깥을 달리며, 반대쪽 코치시가 골문으로 파고드는 순간 수비수가 지켜야 할 사람과 공간이 동시에 바뀌었다. 후대의 가짜 9번<span class="foreign-note" lang="en">(false nine)</span>과 닮았다는 설명은 결과를 이해하기에는 편하지만, 이 팀의 원형은 한 선수의 위치보다 다섯 공격수와 두 하프<span class="foreign-note" lang="en">(halves)</span>가 함께 간격을 바꾼 집단 이동에 있었다.
@@ -139,11 +134,6 @@ FIFA의 회고 기준으로 이 팀은 1950년부터 결승 전까지 31경기 �
 결승에서는 골이 없었다. 헝가리는 6분 푸슈카시, 9분 치보르의 골로 2-0을 만들었다. 그러나 막스 모를로크<span class="foreign-note" lang="de">(Max Morlock; 서독 축구 국가대표팀 센터 포워드, 1925-1994)</span>가 곧 한 골을 돌려놓았고, 18분 란이 동점을 만들었다. 84분 란이 왼발로 다시 골망을 흔들었다. 종료 직전 푸슈카시의 슛이 들어갔지만 오프사이드가 선언됐다. 조별리그의 8-3은 결승의 점수를 한 점도 대신해 주지 못했다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 결승의 푸슈카시는 조별리그 서독전에서 베르너 리브리히<span class="foreign-note" lang="de">(Werner Liebrich; 서독 축구 국가대표팀 센터 하프, 1927-1995)</span>에게 발목을 다친 뒤 브라질전과 우루과이전을 쉬었다. 결승 선발 출전이 가능할 만큼 회복했지만 평소의 움직임은 아니었다. 여기에 비까지 내렸다. 서독 장비를 맡은 아디 다슬러<span class="foreign-note" lang="de">(Adolf “Adi” Dassler; 독일 제화업자·아디다스 창립자, 1900-1978)</span>의 교체형 스터드<span class="foreign-note" lang="en">(screw-in studs; 잔디 상태에 따라 길이를 바꿀 수 있는 나사식 축구화 스터드)</span>가 젖은 잔디에 대응하는 데 도움을 준 것은 사실이다. 그러나 한 장비가 우승을 만들었다는 식으로 설명하면 모를로크의 압박과 란의 두 골, 토니 투레크<span class="foreign-note" lang="de">(Anton “Toni” Turek; 서독 축구 국가대표팀 골키퍼, 1919-1984)</span>의 선방을 지우게 된다. 베른의 기적<span class="foreign-note" lang="de">(Wunder von Bern; 1954년 서독의 월드컵 첫 우승을 가리키는 명칭)</span>은 신발 한 켤레의 기적이 아니라, 0-2 뒤에도 무너지지 않은 팀이 여섯 분 만에 경기를 원점으로 돌리고 마지막 순간을 가져간 경기였다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
-
-<a class="record-cta" href="/highlights/fifa-world-cup/1954-fifa-world-cup-final-west-germany-hungary/">
-  <img src="/images/highlights/1954-world-cup-final-cover.webp" alt="" loading="lazy" />
-  <div><small>H/L · 1954 FIFA 월드컵 결승</small><strong>서독 3-2 헝가리, 베른의 기적</strong><p>32경기 무패가 멈춘 90분을 영상으로 →</p></div>
-</a>
 
 ## 휴전 11개월 뒤, 대한민국의 첫 월드컵
 
@@ -172,11 +162,6 @@ FIFA의 회고 기준으로 이 팀은 1950년부터 결승 전까지 31경기 �
 ## 베른 이후 흩어진 황금 팀
 
 헝가리는 결승 패배 뒤에도 1956년까지 강팀으로 남았다. 그러나 그해 10월 헝가리 혁명<span class="foreign-note" lang="hu">(1956-os forradalom; 1956년 헝가리에서 일어난 반소련 봉기)</span>과 소련군의 진압이 축구팀의 운명까지 바꿨다. 해외 원정 중이던 혼베드 선수들은 귀국을 미뤘고, 푸슈카시·코치시·치보르는 서유럽에 남았다. 푸슈카시는 레알 마드리드, 코치시와 치보르는 FC 바르셀로나로 향했다. 대표팀의 전술은 사라지지 않았지만, 같은 도시와 같은 훈련장에서 매일 맞춰지던 황금 팀은 다시 모이지 못했다.
-
-<a class="record-cta" href="/history/hungary-1956-revolution-golden-team-dissolution/">
-  <img src="/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp" alt="" loading="lazy" />
-  <div><small>축세 · 1956년 헝가리 혁명</small><strong>1956년 헝가리 혁명, 세계 1위 팀은 왜 흩어졌나</strong><p>소련 간부회 기록과 너지의 마지막 방송으로 다시 읽은 그 가을 →</p></div>
-</a>
 
 서독에서 1954년 7월 4일은 다른 의미를 얻었다. 제2차 세계대전 패전 뒤 국제사회로 복귀하던 국가가 처음 공유한 대규모 환희였다. 프리츠 발터의 팀이 정치와 사회의 모든 문제를 해결한 것은 아니지만, ‘베른의 기적’은 전후 서독이 자신을 다시 말하기 시작한 대중적 장면이 됐다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 

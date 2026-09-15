@@ -168,16 +168,6 @@ relatedGroup: 'fifa-world-cup-1954'
 
 헝가리는 이 결승 뒤에도 2년 동안 지지 않았다. 독일축구연맹의 집계로는 1950년부터 1956년까지 50경기에서 딱 한 번 졌는데, 그 한 번이 1954년 7월 4일 베른이었다. 1956년 헝가리 혁명 이후 푸슈카시와 코치시, 치보르가 서유럽으로 떠나면서 황금 팀은 다시 모이지 못했다. 이 팀이 대회 첫 경기에서 9-0으로 이긴 상대가 휴전 11개월 만에 첫 월드컵에 나선 대한민국이었다는 이야기는 [1954 FIFA 월드컵 베스트 11](/archive/national-team/fifa-world-cup/1954-fifa-world-cup-best-xi/)과 [대한민국의 1954 월드컵 도전기](/history/1954-korea-world-cup-journey/)에서 이어진다. <a class="cite" href="#source-3">[3]</a>
 
-<a class="record-cta" href="/history/hungary-1956-revolution-golden-team-dissolution/">
-  <img src="/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp" alt="" loading="lazy" />
-  <div><small>축세 · 1956년 헝가리 혁명</small><strong>1956년 헝가리 혁명, 세계 1위 팀은 왜 흩어졌나</strong><p>소련 간부회 기록과 너지의 마지막 방송으로 다시 읽은 그 가을 →</p></div>
-</a>
-
-<a class="record-cta" href="/tactics/hungary-golden-team-total-football-elo-rating/">
-  <img src="/images/tactics/hungary-golden-team/puskas.png" alt="" loading="lazy" />
-  <div><small>축술 · 헝가리 황금의 팀</small><strong>Elo 레이팅 역대 1위, 헝가리 황금의 팀과 토털 풋볼</strong><p>웸블리에서 센터포워드를 지운 팀은 어떻게 싸웠나 →</p></div>
-</a>
-
 <div class="source-notes">
   <h2>영상과 기록 출처</h2>
   <ol>
