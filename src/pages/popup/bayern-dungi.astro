@@ -12,7 +12,7 @@ const description = `2010-11시즌부터 2025-26시즌까지 바이에른 뮌헨
 const cupCount = counts.pokal + counts.clubWorldCup + counts.supercup;
 const uclCardMatches = uclCardTies.reduce((s, t) => s + t.legs.filter((l) => l.big).length, 0) + featured.legs.filter((l) => l.big).length;
 ---
-<Layout title={title} description={description} breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }, { label: '바이언 둔기론', href: '/popup/bayern-dungi/' }]}>
+<Layout title={title} description={description} ogImage="/images/popup/bayern-dungi/og.webp" ogImageAlt="바이언 둔기론 팝업 썸네일: 188경기와 골 타임라인" ogImageWidth={1200} ogImageHeight={630} breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }, { label: '바이언 둔기론', href: '/popup/bayern-dungi/' }]}>
   <div class="dg-page">
     <header class="dg-hero">
       <p class="dg-hero__eyebrow"><span>01F</span> POP-UP STORE · 2010-11 → 2025-26</p>
