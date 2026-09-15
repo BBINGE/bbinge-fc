@@ -1,0 +1,26 @@
+---
+// 「그 외 더보기」 접이식 표: 카드로 올리지 않은 대승을 날짜순으로 모은다.
+import type { Match } from '../../data/popup/bayern-dungi';
+
+interface Props { rows: Match[]; label: string }
+const { rows, label } = Astro.props;
+---
+<details class="dg-more">
+  <summary><span>그 외 더보기</span><b>{rows.length}경기</b><i aria-hidden="true">+</i></summary>
+  <div class="dg-more__scroll" tabindex="0" role="region" aria-label={`${label} 그 외 대승 ${rows.length}경기 표`}>
+    <table>
+      <thead><tr><th scope="col">날짜</th><th scope="col">대회 · 라운드</th><th scope="col">상대</th><th scope="col">장소</th><th scope="col">스코어</th></tr></thead>
+      <tbody>
+        {rows.map((m) => (
+          <tr class:list={{ 'is-huge': m.margin >= 6 }}>
+            <td data-label="날짜"><time datetime={m.date}>{m.dateLabel}</time></td>
+            <td data-label="대회">{m.season} {m.competitionLabel} · {m.round}</td>
+            <td data-label="상대"><span class="dg-more__team">{m.opponentCrest ? <img src={m.opponentCrest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{m.opponent}</span></td>
+            <td data-label="장소">{m.venue}</td>
+            <td data-label="스코어" class="dg-more__score">{m.score[0]}-{m.score[1]}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</details>

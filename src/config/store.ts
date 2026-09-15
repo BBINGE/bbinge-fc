@@ -26,7 +26,7 @@ export const storeFloors = [
   { floor: '04', name: '축행', en: 'FOOTBALL TRAVEL DESK', copy: '경기장과 도시를 잇는 여행 동선과 출발 전 준비', icon: 'travel', zones: [{ label: '여행사', href: '/pilgrimage/' }, { label: '보험사' }], href: '/pilgrimage/' },
   { floor: '03', name: '오뭐입? · 유니폼관', en: 'OOTD · FOOTBALL KIT HALL', copy: '따라 입고 싶은 축구 패션과 시즌 유니폼이 나란히 놓인 두 개의 관', icon: 'fashion', zones: [{ label: '오뭐입?', href: '/culture/outfits/' }, { label: '유니폼관', href: '/culture/kits/' }], href: '/culture/outfits/', split: true },
   { floor: '02', name: '명품관', en: 'LUXURY BOUTIQUE HALL', copy: '인물과 희소한 착장이 축구를 오브제로 바꾸는 부티크', icon: 'luxury', zones: [{ label: '명품관 입장', href: '/culture/boutique/' }], href: '/culture/boutique/' },
-  { floor: '01', name: '메인', en: 'GRAND MAIN LOBBY', copy: '오늘의 삥이FC와 모든 층이 시작되는 로비', icon: 'lobby', zones: [{ label: '안내 데스크', href: '/' }], href: '/' },
+  { floor: '01', name: '메인', en: 'GRAND MAIN LOBBY', copy: '오늘의 삥이FC와 모든 층이 시작되는 로비', icon: 'lobby', zones: [{ label: '안내 데스크', href: '/' }, { label: '팝업관', href: '/popup/' }], href: '/' },
 ] as const satisfies readonly StoreFloor[];
 
 export interface StoreLocation {
@@ -38,6 +38,8 @@ export interface StoreLocation {
 }
 
 const locations: readonly (StoreLocation & { matches: readonly string[] })[] = [
+  // 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리 밖의 기간 한정 기획전.
+  { floor: '01', name: '팝업관', en: 'POP-UP STORE', href: '/popup/', matches: ['/popup/'], nearby: [{ floor: '01', label: '메인 로비', href: '/' }, { floor: '05', label: '오락실', href: '/play/' }] },
   { floor: '02', name: '명품관', en: 'LUXURY BOUTIQUE HALL', href: '/culture/boutique/', matches: ['/culture/boutique/'], nearby: [{ floor: '03', label: '오뭐입?', href: '/culture/outfits/' }, { floor: '03', label: '유니폼관', href: '/culture/kits/' }] },
   { floor: '03', name: '오뭐입?', en: 'OOTD · BLOCKCORE', href: '/culture/outfits/', matches: ['/culture/outfits/'], nearby: [{ floor: '02', label: '명품관', href: '/culture/boutique/' }, { floor: '03', label: '유니폼관', href: '/culture/kits/' }] },
   { floor: '03', name: '유니폼관', en: 'FOOTBALL KIT GALLERY', href: '/culture/kits/', matches: ['/culture/kits/'], nearby: [{ floor: '03', label: '오뭐입?', href: '/culture/outfits/' }, { floor: '04', label: '축행', href: '/pilgrimage/' }] },

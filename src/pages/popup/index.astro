@@ -1,0 +1,54 @@
+---
+// 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리를 새로 만들지 않고 기간 한정 기획전을 여는 자리.
+import Layout from '../../layouts/Layout.astro';
+import { total, BAYERN } from '../../data/popup/bayern-dungi';
+
+const popups = [
+  { href: '/popup/bayern-dungi/', kicker: 'NOW OPEN · 2026.9', title: `바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 ${total}경기 ㄷㄷ)`, deck: '2010-11시즌 이후 분데스리가·UEFA 챔피언스 리그·컵 대회 대승을 스코어와 골 타임라인으로.', crest: BAYERN.crest },
+];
+---
+<Layout title="팝업관 - 기간 한정 기획전" description="삥이FC 1층 팝업관. 층별 서가와 따로 여는 기간 한정 축구 기획전을 모았다." breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }]}>
+  <div class="popup-hall">
+    <header class="popup-hall__head">
+      <p><span>01F</span> POP-UP STORE</p>
+      <h1>팝업관</h1>
+      <span>층별 서가와 따로 여는 기간 한정 기획전</span>
+    </header>
+    <ul class="popup-hall__list">
+      {popups.map((p) => (
+        <li><a href={p.href}>
+          <span class="popup-hall__crest"><img src={p.crest} alt="" width="72" height="72" decoding="async" /></span>
+          <span class="popup-hall__copy"><small>{p.kicker}</small><strong>{p.title}</strong><em>{p.deck}</em></span>
+          <i aria-hidden="true">→</i>
+        </a></li>
+      ))}
+    </ul>
+  </div>
+</Layout>
+
+<style>
+  .popup-hall { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+  .popup-hall__head { padding: 28px 30px 24px; border-radius: 18px; background: var(--bbfc-ink); color: #fff; }
+  .popup-hall__head p { display: flex; align-items: center; gap: 10px; margin: 0; color: rgba(255,255,255,.72); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+  .popup-hall__head p span { display: inline-grid; place-items: center; min-width: 44px; height: 26px; border-radius: 999px; background: var(--bbfc-blue); color: #fff; }
+  .popup-hall__head h1 { margin: 10px 0 0; font-size: 36px; font-weight: 850; letter-spacing: -.04em; }
+  .popup-hall__head > span { display: block; margin-top: 6px; color: rgba(255,255,255,.72); font-size: 15px; }
+  .popup-hall__list { margin: 20px 0 0; padding: 0; list-style: none; }
+  .popup-hall__list a { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; align-items: center; gap: 20px; padding: 18px 22px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; color: var(--bbfc-ink); transition: border-color .16s ease, transform .16s ease; }
+  .popup-hall__list a:hover { border-color: #d20515; transform: translateY(-2px); }
+  .popup-hall__crest { display: grid; place-items: center; width: 96px; height: 96px; border-radius: 16px; background: radial-gradient(circle at 30% 20%, #a8061a, #1a0306); }
+  .popup-hall__crest img { width: 64px; height: 64px; object-fit: contain; }
+  .popup-hall__copy small { display: block; color: #b8081a; font-size: 12px; font-weight: 800; letter-spacing: .1em; }
+  .popup-hall__copy strong { display: block; margin-top: 6px; font-size: 20px; line-height: 1.35; font-weight: 800; letter-spacing: -.03em; word-break: keep-all; }
+  .popup-hall__copy em { display: block; margin-top: 6px; color: var(--bbfc-gray-1); font-size: 14px; font-style: normal; line-height: 1.6; word-break: keep-all; }
+  .popup-hall__list i { font-style: normal; font-size: 24px; color: #b8081a; }
+  @media (max-width: 600px) {
+    .popup-hall { padding: 14px 12px 48px; }
+    .popup-hall__head { padding: 22px 18px 18px; }
+    .popup-hall__list a { grid-template-columns: 64px minmax(0, 1fr); gap: 14px; padding: 14px; }
+    .popup-hall__crest { width: 64px; height: 64px; border-radius: 12px; }
+    .popup-hall__crest img { width: 44px; height: 44px; }
+    .popup-hall__copy strong { font-size: 16px; }
+    .popup-hall__list i { display: none; }
+  }
+</style>

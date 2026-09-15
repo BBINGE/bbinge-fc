@@ -1,0 +1,43 @@
+---
+// 골 타임라인: 바이언 골은 묵직한 타격 표시, 5분 안에 세 골 이상 몰리면 한 덩어리로 묶어 「꽈광」, 따로 떨어진 골은 「꽝」. 상대 골은 선 아래 빈 점.
+import type { Goal } from '../../data/popup/bayern-dungi';
+
+interface Props { goals: Goal[]; label: string }
+const { goals, label } = Astro.props;
+const position = (g: Goal) => Math.min(100, ((Math.min(g.minute, 90) + Math.min(g.injury, 6) * 0.6) / 94) * 100);
+const time = (g: Goal) => g.minute + g.injury / 10;
+const hits = goals.filter((g) => g.bayern);
+const clusters: Goal[][] = [];
+for (const g of hits) {
+  const last = clusters.at(-1);
+  if (last && time(g) - time(last.at(-1)!) <= 5) last.push(g); else clusters.push([g]);
+}
+const labels = clusters.map((c) => ({ text: c.length >= 3 ? '꽈광' : '꽝', x: (position(c[0]) + position(c.at(-1)!)) / 2, big: c.length >= 3 }));
+const byPlayer = (list: Goal[]) => {
+  const map = new Map<string, string[]>();
+  for (const g of list) {
+    const name = g.ownGoal ? `${g.player}(자책골)` : g.player;
+    map.set(name, [...(map.get(name) ?? []), `${g.clock}${g.penalty ? '(PK)' : ''}`]);
+  }
+  return [...map.entries()].map(([name, clocks]) => `${name} ${clocks.join(' ')}`);
+};
+const mine = byPlayer(hits);
+const theirs = byPlayer(goals.filter((g) => !g.bayern));
+---
+<div class="dg-timeline" role="img" aria-label={`${label} 골 타임라인: 바이언 ${hits.map((g) => g.clock).join(', ') || '득점 없음'}${theirs.length ? `, 상대 ${goals.filter((g) => !g.bayern).map((g) => g.clock).join(', ')}` : ''}`}>
+  <div class="dg-timeline__labels" aria-hidden="true">
+    {labels.map((l) => <span class:list={['dg-bang', { 'is-big': l.big }]} style={`--x:${l.x}%`}>{l.text}</span>)}
+  </div>
+  <div class="dg-timeline__track" aria-hidden="true">
+    <span class="dg-half" style="--x:47.9%"></span>
+    {hits.map((g) => <i class="dg-hit" style={`--x:${position(g)}%`}></i>)}
+    {goals.filter((g) => !g.bayern).map((g) => <i class="dg-conceded" style={`--x:${position(g)}%`}></i>)}
+  </div>
+  <div class="dg-timeline__ticks" aria-hidden="true"><span>0'</span><span>45'</span><span>90'</span></div>
+</div>
+{(mine.length > 0 || theirs.length > 0) && (
+  <p class="dg-scorers">
+    <span class="dg-scorers__mine">{mine.join(' · ')}</span>
+    {theirs.length > 0 && <span class="dg-scorers__theirs">상대 {theirs.join(' · ')}</span>}
+  </p>
+)}

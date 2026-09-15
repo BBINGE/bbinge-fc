@@ -1,0 +1,69 @@
+---
+// 1층 팝업관(운영자 결정, 2026-09-16) 첫 팝업: 바이에른 뮌헨 2010-11시즌 이후 대승 모음.
+// 둔기론 밈은 제목으로만 쓰고 본문에서 풀어 설명하지 않는다(운영자 지시). 이번 편은 승리만 싣는다.
+import Layout from '../../layouts/Layout.astro';
+import DungiCard from '../../components/popup/DungiCard.astro';
+import DungiTable from '../../components/popup/DungiTable.astro';
+import { featured, uclCardTies, uclTable, bundesligaCards, bundesligaTable, cupCards, cupTable, counts, total } from '../../data/popup/bayern-dungi';
+import '../../styles/popup-dungi.css';
+
+const title = `바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 ${total}경기 ㄷㄷ)`;
+const description = `2010-11시즌부터 2025-26시즌까지 바이에른 뮌헨이 크게 이긴 ${total}경기. 분데스리가 ${counts.bundesliga}, UEFA 챔피언스 리그 ${counts.ucl}, DFB-포칼 ${counts.pokal}, FIFA 클럽 월드컵 ${counts.clubWorldCup}, DFL-슈퍼컵 ${counts.supercup}경기의 스코어와 골 타임라인.`;
+const cupCount = counts.pokal + counts.clubWorldCup + counts.supercup;
+const uclCardMatches = uclCardTies.reduce((s, t) => s + t.legs.filter((l) => l.big).length, 0) + featured.legs.filter((l) => l.big).length;
+---
+<Layout title={title} description={description} breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }, { label: '바이언 둔기론', href: '/popup/bayern-dungi/' }]}>
+  <div class="dg-page">
+    <header class="dg-hero">
+      <p class="dg-hero__eyebrow"><span>01F</span> POP-UP STORE · 2010-11 → 2025-26</p>
+      <h1>{title}</h1>
+      <p class="dg-hero__lead">2010-11시즌부터 2025-26시즌까지 바이에른 뮌헨이 크게 이긴 경기만 모았다. 독일 구단을 상대로는 4골 차, 다른 나라 리그 구단을 상대로는 3골 차 이상 이긴 경기다.</p>
+      <ul class="dg-hero__counts" aria-label="대회별 경기 수">
+        <li><b>{counts.bundesliga}</b><span>분데스리가</span></li>
+        <li><b>{counts.ucl}</b><span>UEFA 챔피언스 리그</span></li>
+        <li><b>{counts.pokal}</b><span>DFB-포칼</span></li>
+        <li><b>{counts.clubWorldCup}</b><span>FIFA 클럽 월드컵</span></li>
+        <li><b>{counts.supercup}</b><span>DFL-슈퍼컵</span></li>
+      </ul>
+    </header>
+
+    <section class="dg-section" aria-labelledby="dg-featured">
+      <div class="dg-section__head"><p>NO. 1</p><h2 id="dg-featured">2012-13 UEFA 챔피언스 리그 4강, FC 바르셀로나 합계 7-0</h2></div>
+      <DungiCard featured kicker="대표 카드" stage={featured.title} opponent={featured.opponent} crest={featured.opponentCrest} score={featured.aggregate} legs={featured.legs} twoLeg />
+    </section>
+
+    <section class="dg-section" aria-labelledby="dg-ucl">
+      <div class="dg-section__head"><p>UEFA CHAMPIONS LEAGUE · {counts.ucl}경기</p><h2 id="dg-ucl">UEFA 챔피언스 리그</h2><span>잉글랜드·스페인·이탈리아·프랑스 구단과 유러피언컵 우승 경험 구단전 {uclCardMatches}경기는 카드로, 같은 대진의 다른 경기까지 합산했다.</span></div>
+      <div class="dg-grid">
+        {uclCardTies.map((t) => <DungiCard stage={t.title} opponent={t.opponent} crest={t.opponentCrest} score={t.legs.length > 1 ? t.aggregate : t.legs[0].score} legs={t.legs} twoLeg={t.legs.length > 1} />)}
+      </div>
+      <DungiTable rows={uclTable} label="UEFA 챔피언스 리그" />
+    </section>
+
+    <section class="dg-section" aria-labelledby="dg-bundesliga">
+      <div class="dg-section__head"><p>BUNDESLIGA · {counts.bundesliga}경기</p><h2 id="dg-bundesliga">분데스리가</h2><span>VfL 볼프스부르크·바이어 04 레버쿠젠·보루시아 도르트문트·RB 라이프치히전 {bundesligaCards.length}경기는 카드로.</span></div>
+      <div class="dg-grid">
+        {bundesligaCards.map((m) => <DungiCard stage={`${m.season} 분데스리가 · ${m.round}`} opponent={m.opponent} crest={m.opponentCrest} score={m.score} legs={[m]} />)}
+      </div>
+      <DungiTable rows={bundesligaTable} label="분데스리가" />
+    </section>
+
+    <section class="dg-section" aria-labelledby="dg-cups">
+      <div class="dg-section__head"><p>CUPS · {cupCount}경기</p><h2 id="dg-cups">DFB-포칼 · FIFA 클럽 월드컵 · DFL-슈퍼컵</h2><span>두 자릿수 골과 분데스리가 구단전 {cupCards.length}경기는 카드로.</span></div>
+      <div class="dg-grid">
+        {cupCards.map((m) => <DungiCard stage={`${m.season} ${m.competitionLabel} · ${m.round}`} opponent={m.opponent} crest={m.opponentCrest} score={m.score} legs={[m]} />)}
+      </div>
+      <DungiTable rows={cupTable} label="컵 대회" />
+    </section>
+
+    <section class="dg-sources" aria-labelledby="dg-sources">
+      <h2 id="dg-sources">기록 출처</h2>
+      <ol>
+        <li>분데스리가 경기 결과: <a href="https://www.openligadb.de/">OpenLigaDB</a> 2010-11~2025-26시즌 1부 리그 기록.</li>
+        <li>UEFA 챔피언스 리그 경기 결과: UEFA.com 경기 기록(<a href="https://www.uefa.com/uefachampionsleague/history/">UEFA Champions League history</a>).</li>
+        <li>DFB-포칼·FIFA 클럽 월드컵·DFL-슈퍼컵 경기 결과: Wikipedia 시즌별 대회 문서의 경기 기록.</li>
+        <li>득점 시간·득점자·구단 문장: <a href="https://www.espn.com/soccer/">ESPN</a> 경기 기록. 2011년 4월 17일 레버쿠젠전은 같은 7분 골이 두 번 기록돼 한 줄을 뺐다.</li>
+      </ol>
+    </section>
+  </div>
+</Layout>
