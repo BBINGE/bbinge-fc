@@ -84,21 +84,25 @@ const take = <T extends { href: string }>(items: T[]) => {
 // ② 최근 입고: 발행일 순 같은 크기 10칸
 const arrivals = take(feed.slice(0, 10));
 
-// ③ 층별 진열창: 02F~09F, 층마다 ②에 나오지 않은 최신 2편과 소장 편수
-const floors = storeFloors
-  .filter((floor) => Number(floor.floor) >= 2 && Number(floor.floor) <= 9)
-  .sort((a, b) => a.floor.localeCompare(b.floor))
-  .map((floor) => {
-    const onFloor = feed.filter((item) => item.floor === floor.floor);
-    return {
-      ...floor,
-      href: floor.href ?? floor.zones[0]?.href ?? '/about/store/',
-      zones: [...new Map(floor.zones.filter((zone) => zone.href).map((zone) => [zone.href, zone])).values()],
-      total: onFloor.length,
-      latest: onFloor[0]?.pubDate,
-      picks: take(onFloor.filter((item) => !used.has(item.href)).slice(0, 2)),
-    };
-  });
+// ③ 층별 진열창: 층마다 ②에 나오지 않은 최신 2편과 소장 편수. 6층은 도서실과 세계사관을 나누고, 5층 오락실은 오른쪽 GOAT 포스터가 맡는다.
+// tone은 각 층 목록 페이지의 승인된 색(명품관 블랙골드, 오뭐입? 블루, 아카이브 세 관, 축세 종이·잉크, 축술 네이비·축떡 잔디, 축쿼드 챔피언스 리그, H/L 나이트·골드)을 머리띠에만 옮긴다.
+type FeedItem = (typeof feed)[number];
+const storeFloor = (floor: string) => storeFloors.find((item) => item.floor === floor)!;
+const uniqueZones = (zones: readonly { label: string; href?: string }[]) => [...new Map(zones.filter((zone) => zone.href).map((zone) => [zone.href, zone])).values()];
+const floorPlan = [
+  { floor: '02', name: storeFloor('02').name, href: storeFloor('02').href, zones: [], tone: 'boutique', match: (item: FeedItem) => item.floor === '02' },
+  { floor: '03', name: storeFloor('03').name, href: storeFloor('03').href, zones: uniqueZones(storeFloor('03').zones), tone: 'outfit', match: (item: FeedItem) => item.floor === '03' },
+  { floor: '04', name: storeFloor('04').name, href: storeFloor('04').href, zones: [], tone: 'travel', match: (item: FeedItem) => item.floor === '04' },
+  { floor: '06', name: '도서실', href: '/archive/', zones: uniqueZones(storeFloor('06').zones.filter((zone) => zone.label !== '세계사관')), tone: 'library', match: (item: FeedItem) => item.floor === '06' && item.hall !== '세계사관' },
+  { floor: '06', name: '세계사관', href: '/history/', zones: [], tone: 'history', match: (item: FeedItem) => item.hall === '세계사관' },
+  { floor: '07', name: storeFloor('07').name, href: storeFloor('07').href, zones: uniqueZones(storeFloor('07').zones), tone: 'tactics', match: (item: FeedItem) => item.floor === '07' },
+  { floor: '08', name: storeFloor('08').name, href: storeFloor('08').href, zones: [], tone: 'squads', match: (item: FeedItem) => item.floor === '08' },
+  { floor: '09', name: storeFloor('09').name, href: storeFloor('09').href, zones: [], tone: 'cinema', match: (item: FeedItem) => item.floor === '09' },
+];
+const floors = floorPlan.map(({ match, ...floor }) => {
+  const onFloor = feed.filter(match);
+  return { ...floor, href: floor.href ?? '/about/store/', total: onFloor.length, picks: take(onFloor.filter((item) => !used.has(item.href)).slice(0, 2)) };
+});
 
 // ④ 시즌 서가: 연재 한 시즌을 여섯 기록의 선반으로
 const shelves = seasonShelves.map((shelf) => {
@@ -186,42 +190,61 @@ const shortDate = (date: Date) => {
         <div><p>FLOOR DIRECTORY</p><h2 id="floors-heading">층별 진열창</h2></div>
         <a href="/about/store/">전체 층별 안내 <span aria-hidden="true">→</span></a>
       </div>
-      <div class="floor-grid">
-        {floors.map((floor) => (
-          <article class="floor-card">
-            <header class="floor-card__head">
-              <a href={floor.href} class="floor-card__name"><span class="floor-pill">{floor.floor}F</span><strong>{floor.name}</strong></a>
-              {floor.total > 0 && <span class="floor-card__count">{floor.total}편</span>}
-            </header>
-            {floor.zones.length > 1 && (
-              <ul class="floor-card__zones">
-                {floor.zones.map((zone) => <li><a href={zone.href}>{zone.label}</a></li>)}
-              </ul>
-            )}
-            {floor.floor === '05' ? (
-              <a href="/play/" class="floor-card__play">
-                <span class="goat-disc" aria-hidden="true">32</span>
-                <span><strong>전설 32명. 왕은 한 명.</strong><small>32강 바로 시작 <b aria-hidden="true">▶</b></small></span>
-              </a>
-            ) : floor.picks.length > 0 ? (
-              <ul class="floor-card__picks">
-                {floor.picks.map((item) => (
-                  <li>
-                    <a href={item.href} class="floor-pick group">
-                      <div class:list={['floor-thumb', 'media-frame', fillClass(item.cardImage)]}>
-                        {item.cardImage ? <img src={item.cardImage} alt="" width="72" height="72" loading="lazy" decoding="async" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
-                      </div>
-                      <span class="floor-pick__copy"><small>{item.hall} · {shortDate(item.pubDate)}</small><strong>{item.title}</strong></span>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p class="floor-card__more">최근 입고에 이 층의 새 기록이 올라 있습니다.</p>
-            )}
-            <a href={floor.href} class="floor-card__enter">{floor.name} 둘러보기 <span aria-hidden="true">→</span></a>
-          </article>
-        ))}
+      <div class="floor-wrap">
+        <div class="floor-grid">
+          {floors.map((floor) => (
+            <article class:list={['floor-card', 'floor-card--' + floor.tone]}>
+              <header class="floor-card__head">
+                <a href={floor.href} class="floor-card__name"><span class="floor-pill">{floor.floor}F</span><strong>{floor.name}</strong></a>
+                {floor.total > 0 && <span class="floor-card__count">{floor.total}편</span>}
+              </header>
+              <div class="floor-card__body">
+                {floor.zones.length > 1 && (
+                  <ul class="floor-card__zones">
+                    {floor.zones.map((zone) => <li><a href={zone.href}>{zone.label}</a></li>)}
+                  </ul>
+                )}
+                {floor.picks.length > 0 ? (
+                  <ul class="floor-card__picks">
+                    {floor.picks.map((item) => (
+                      <li>
+                        <a href={item.href} class="floor-pick group">
+                          <div class:list={['floor-thumb', 'media-frame', fillClass(item.cardImage)]}>
+                            {item.cardImage ? <img src={item.cardImage} alt="" width="72" height="72" loading="lazy" decoding="async" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
+                          </div>
+                          <span class="floor-pick__copy"><small>{item.hall} · {shortDate(item.pubDate)}</small><strong>{item.title}</strong></span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p class="floor-card__more">최근 입고에 이 층의 새 기록이 올라 있습니다.</p>
+                )}
+                <a href={floor.href} class="floor-card__enter">{floor.name} 둘러보기 <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <a href="/play/" class="play-feature" aria-label="GOAT 32강 토너먼트 시작하기">
+          <div class="play-feature__copy">
+            <p>05F PB FOOTBALL ARCADE</p>
+            <strong>GOAT<br />SHOWDOWN</strong>
+            <h2>전설 32명.<br />왕은 한 명.</h2>
+            <span>32강 바로 시작 <b aria-hidden="true">▶</b></span>
+          </div>
+          <div class="play-feature__roster" aria-hidden="true">
+            <img src="/images/goat/players/di-stefano.webp" alt="" class="goat-face goat-face--1" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/puskas.webp" alt="" class="goat-face goat-face--2" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/pele.webp" alt="" class="goat-face goat-face--3" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/beckenbauer.webp" alt="" class="goat-face goat-face--4" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/cruyff.webp" alt="" class="goat-face goat-face--5" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/maradona.webp" alt="" class="goat-face goat-face--6" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/cristiano.webp" alt="" class="goat-hero goat-hero--ronaldo" loading="lazy" decoding="async" />
+            <img src="/images/goat/players/messi.webp" alt="" class="goat-hero goat-hero--messi" loading="lazy" decoding="async" />
+          </div>
+          <span class="play-feature__eight" aria-hidden="true">32</span>
+        </a>
       </div>
     </section>
 
@@ -326,31 +349,63 @@ const shortDate = (date: Date) => {
   .arrival-card:hover h3 { color:var(--bbfc-blue); }
 
   /* ③ 층별 진열창 */
-  .floor-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; padding-top:16px; }
-  .floor-card { display:flex; min-width:0; flex-direction:column; padding:14px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:#fff; }
-  .floor-card__head { display:flex; align-items:center; justify-content:space-between; gap:8px; }
-  .floor-card__name { display:flex; min-width:0; align-items:center; gap:8px; }
-  .floor-card__name strong { overflow:hidden; font-size:16px; line-height:1.3; font-weight:700; letter-spacing:-.03em; text-overflow:ellipsis; white-space:nowrap; }
-  .floor-card__name:hover strong { color:var(--bbfc-blue); }
-  .floor-pill { display:inline-grid; place-items:center; min-width:40px; height:26px; border-radius:999px; background:var(--bbfc-ink); color:#fff; font-size:13px; font-weight:800; letter-spacing:.02em; }
-  .floor-card__count { flex:0 0 auto; color:var(--bbfc-gray-2); font-size:13px; }
-  .floor-card__zones { display:flex; flex-wrap:wrap; gap:5px; margin-top:10px; }
+  .floor-wrap { display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:12px; padding-top:16px; }
+  .floor-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .floor-card { --band:var(--bbfc-ink); --band-ink:#fff; --band-accent:#86b7ff; display:flex; min-width:0; flex-direction:column; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:#fff; }
+  .floor-card--boutique { --band:linear-gradient(140deg,#14100a 0%,#5f4318 58%,#b17d20 100%); --band-accent:#f4d68b; }
+  .floor-card--outfit { --band:linear-gradient(140deg,#061733 0%,#124ca7 57%,#2776ef 100%); --band-accent:#9bc5ff; }
+  .floor-card--travel { --band:var(--bbfc-ink); --band-accent:#c9d1db; }
+  .floor-card--library { --band:radial-gradient(ellipse at 95% 0%,var(--bbfc-archive-violet),transparent 62%),linear-gradient(115deg,var(--bbfc-archive-night) 0%,var(--bbfc-archive-indigo) 48%,var(--bbfc-archive-blue-deep) 78%,var(--bbfc-archive-bronze) 100%); --band-accent:var(--bbfc-archive-sky); }
+  .floor-card--history { --band:#f4f2eb; --band-ink:#17201f; --band-accent:#215f8a; }
+  .floor-card--tactics { --band:radial-gradient(circle at 18% 10%,rgba(45,115,166,.45),transparent 42%),linear-gradient(120deg,#071522 0%,#0d2436 52%,#16351e 100%); --band-accent:#c8e56f; }
+  .floor-card--squads { --band:radial-gradient(circle at 8% 18%,rgba(25,214,255,.78),transparent 34%),radial-gradient(circle at 92% 82%,rgba(218,39,255,.68),transparent 38%),linear-gradient(128deg,#06103f 3%,#102ca2 48%,#39128c 76%,#071340 100%); --band-accent:#78dcff; }
+  .floor-card--cinema { --band:radial-gradient(circle at 82% 18%,rgba(214,170,53,.34),transparent 38%),linear-gradient(120deg,#101318 0%,#1a1f26 100%); --band-accent:#f3d77d; }
+  .floor-card__head { display:flex; align-items:center; justify-content:space-between; gap:8px; min-height:56px; padding:10px 14px; background:var(--band); color:var(--band-ink); }
+  .floor-card--history .floor-card__head { border-bottom:1px solid #e8e4d9; }
+  .floor-card__name { display:flex; min-width:0; align-items:center; gap:9px; color:var(--band-ink); }
+  .floor-card__name strong { overflow:hidden; font-size:17px; line-height:1.3; font-weight:700; letter-spacing:-.03em; text-overflow:ellipsis; white-space:nowrap; }
+  .floor-pill { display:inline-grid; place-items:center; min-width:42px; height:26px; padding:0 8px; border:1px solid var(--band-accent); border-radius:999px; color:var(--band-accent); font-size:13px; font-weight:800; letter-spacing:.02em; }
+  .floor-card__count { flex:0 0 auto; color:var(--band-ink); opacity:.78; font-size:13px; }
+  .floor-card__body { display:flex; flex:1; flex-direction:column; padding:12px 14px 14px; }
+  .floor-card__zones { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:10px; }
   .floor-card__zones a { display:inline-block; padding:3px 9px; border-radius:999px; background:var(--bbfc-fill); color:var(--bbfc-ink-2); font-size:13px; line-height:1.4; }
   .floor-card__zones a:hover { background:var(--bbfc-blue-weak); color:var(--bbfc-blue); }
-  .floor-card__picks { display:grid; gap:10px; margin-top:12px; }
+  .floor-card__picks { display:grid; gap:10px; }
   .floor-pick { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:10px; }
   .floor-thumb { border-radius:5px; }
   .floor-pick__copy small { display:block; color:var(--bbfc-gray-2); font-size:13px; line-height:1.3; }
   .floor-pick__copy strong { display:-webkit-box; margin-top:2px; font-size:14px; line-height:1.38; font-weight:620; letter-spacing:-.02em; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .floor-pick:hover strong { color:var(--bbfc-blue); }
-  .floor-card__play { display:flex; align-items:center; gap:10px; margin-top:12px; padding:12px; border-radius:10px; background:var(--bbfc-blue-weak); }
-  .floor-card__play .goat-disc { width:44px; height:44px; flex:0 0 44px; font-size:15px; }
-  .floor-card__play strong { display:block; font-size:15px; line-height:1.35; font-weight:700; letter-spacing:-.03em; }
-  .floor-card__play small { display:block; margin-top:3px; color:var(--bbfc-blue); font-size:14px; font-weight:750; }
-  .floor-card__play b { font-size:12px; }
-  .floor-card__more { margin-top:12px; color:var(--bbfc-gray-1); font-size:14px; line-height:1.5; }
+  .floor-card__more { color:var(--bbfc-gray-1); font-size:14px; line-height:1.5; }
   .floor-card__enter { margin-top:auto; padding-top:12px; color:var(--bbfc-gray-1); font-size:14px; font-weight:600; }
   .floor-card__enter:hover { color:var(--bbfc-blue); }
+
+  /* 05F GOAT 포스터(2026-09-15 복원): 층별 진열창 오른쪽 세로 기둥 */
+  .play-feature { position:relative; display:block; min-height:640px; overflow:hidden; border-radius:12px; background:radial-gradient(circle at 72% 22%,#24599a 0,#0d294e 34%,#07182e 72%); color:#fff; isolation:isolate; box-shadow:0 18px 45px -24px rgba(5,20,42,.8); }
+  .play-feature::before { content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(180deg,rgba(5,15,29,.05) 25%,rgba(5,15,29,.92) 82%); }
+  .play-feature::after { content:''; position:absolute; inset:0; z-index:5; border:1px solid rgba(255,255,255,.16); border-radius:inherit; pointer-events:none; }
+  .play-feature__copy { position:absolute; z-index:6; left:21px; right:19px; bottom:22px; }
+  .play-feature__copy p { color:#78acff; font-size:13px; font-weight:850; letter-spacing:.12em; }
+  .play-feature__copy>strong { display:block; margin-top:5px; color:#fff; font-size:30px; line-height:.86; font-weight:950; font-style:italic; letter-spacing:-.065em; text-shadow:0 3px 18px rgba(0,0,0,.45); }
+  .play-feature__copy h2 { margin-top:12px; color:rgba(255,255,255,.94); font-size:17px; line-height:1.35; font-weight:720; letter-spacing:-.035em; }
+  .play-feature__copy>span { display:inline-flex; align-items:center; gap:8px; min-height:44px; margin-top:14px; padding:11px 16px; border:1px solid rgba(255,255,255,.4); border-radius:999px; background:#2469d7; font-size:15px; font-weight:850; box-shadow:0 8px 24px rgba(3,16,34,.38); }
+  .play-feature__copy b { font-size:13px; }
+  .play-feature__roster { position:absolute; inset:0; z-index:2; }
+  .play-feature__roster img { position:absolute; display:block; object-fit:cover; object-position:center top; filter:saturate(.78) contrast(1.08); transition:transform .35s ease,filter .35s ease; }
+  .play-feature:hover .play-feature__roster img { filter:saturate(1) contrast(1.08); }
+  .goat-face { z-index:4; width:82px; height:98px; border:2px solid rgba(255,255,255,.34); border-radius:10px; box-shadow:0 8px 18px rgba(0,0,0,.3); }
+  .goat-face--1 { left:14px; top:14px; transform:rotate(-4deg); }
+  .goat-face--2 { left:50%; top:8px; transform:translateX(-50%) rotate(2deg); }
+  .goat-face--3 { right:14px; top:14px; transform:rotate(4deg); }
+  .goat-face--4 { left:14px; top:96px; transform:rotate(3deg); }
+  .goat-face--5 { left:50%; top:102px; transform:translateX(-50%) rotate(-2deg); }
+  .goat-face--6 { right:14px; top:96px; transform:rotate(-3deg); }
+  .goat-hero { bottom:17%; width:66%; height:50%; object-position:center top; -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 16%,#000 72%,transparent 100%); mask-image:linear-gradient(to bottom,transparent 0,#000 16%,#000 72%,transparent 100%); }
+  .goat-hero--ronaldo { left:-15%; z-index:2; }
+  .goat-hero--messi { right:-15%; z-index:1; transform:scale(1.03); }
+  .play-feature:hover .goat-hero--ronaldo { transform:translateX(4px) scale(1.02); }
+  .play-feature:hover .goat-hero--messi { transform:translateX(-4px) scale(1.05); }
+  .play-feature__eight { position:absolute; z-index:0; top:190px; left:50%; color:rgba(88,152,255,.13); font-family:Georgia,serif; font-size:190px; line-height:1; letter-spacing:-.12em; transform:translateX(-53%); }
 
   /* ④ 시즌 서가 */
   .shelf { margin-top:16px; padding:16px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); }
@@ -374,11 +429,21 @@ const shortDate = (date: Date) => {
 
   .home-magazine :global(.hc-banner) { margin:34px 0 0; }
 
+  @media (prefers-reduced-motion: reduce) { .play-feature__roster img { transition:none; } }
   @media (max-width: 1099px) {
     .lobby-bar { grid-template-columns:1fr; gap:14px; }
     .arrival-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
     .arrival-card:nth-child(n+9) { display:none; }
-    .floor-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .floor-wrap { grid-template-columns:1fr; }
+    .play-feature { order:-1; min-height:0; aspect-ratio:16/8.5; }
+    .play-feature__copy { right:18px; bottom:18px; }
+    .play-feature__copy>strong { font-size:34px; }
+    .goat-hero { bottom:-5%; width:54%; height:72%; }
+    .goat-hero--ronaldo { left:-2%; }.goat-hero--messi { right:-2%; }
+    .goat-face { top:0; width:16.667%; height:34%; border:0; border-radius:0; box-shadow:none; transform:none; }
+    .goat-face--1 { left:0; }.goat-face--2 { left:16.667%; transform:none; }.goat-face--3 { left:33.334%; right:auto; }
+    .goat-face--4 { left:50%; right:auto; top:0; }.goat-face--5 { left:66.667%; right:auto; top:0; transform:none; }.goat-face--6 { left:83.334%; right:auto; top:0; }
+    .play-feature__eight { top:-25px; left:73%; }
     .shelf__row { grid-template-columns:repeat(3,minmax(0,1fr)); }
     .stack-list { grid-template-columns:repeat(2,minmax(0,1fr)); }
   }
@@ -413,7 +478,20 @@ const shortDate = (date: Date) => {
     .arrival-card:nth-child(n+9) { display:none; }
     .arrival-card h3 { font-size:14.5px; }
     .floor-grid { grid-template-columns:1fr; gap:10px; }
-    .floor-card { padding:12px; }
+    .floor-card__head { min-height:50px; padding:9px 12px; }
+    .floor-card__body { padding:10px 12px 12px; }
+    .play-feature { aspect-ratio:5/4; border-radius:10px; }
+    .play-feature__copy { left:18px; right:18px; bottom:18px; }
+    .play-feature__copy>strong { font-size:28px; }
+    .play-feature__copy h2 { display:none; }
+    .goat-face { width:33.333%; height:29%; }
+    .goat-face--1 { left:0; top:0; }.goat-face--2 { left:33.333%; top:0; }.goat-face--3 { left:66.666%; top:0; }
+    .goat-face--4 { left:0; top:29%; }.goat-face--5 { left:33.333%; top:29%; }.goat-face--6 { left:66.666%; top:29%; }
+    .goat-hero { bottom:-3%; width:58%; height:58%; -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 100%); mask-image:linear-gradient(to bottom,#000 82%,transparent 100%); }
+    .goat-hero--ronaldo { left:-5%; z-index:3; }
+    .goat-hero--messi { right:-5%; z-index:2; }
+    .play-feature::before { z-index:4; background:linear-gradient(180deg,rgba(5,15,29,0) 40%,rgba(5,15,29,.12) 55%,rgba(5,15,29,.96) 100%),linear-gradient(90deg,rgba(5,17,33,.82) 0,rgba(5,17,33,.15) 48%,rgba(5,17,33,.08) 100%); }
+    .play-feature__eight { z-index:1; opacity:.05; }
     .shelf { padding:12px; }
     .shelf__head h3 { font-size:16px; }
     .shelf__row>li { flex-basis:44%; }

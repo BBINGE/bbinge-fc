@@ -19,7 +19,13 @@ try {
     assert.equal(await page.locator('.lead-image,.lobby-hero').count(), 0, 'no single hero cover on the home');
     const arrivals = await page.locator('.arrival-card').evaluateAll(cards => cards.filter(card => card.offsetParent !== null).length);
     assert.equal(arrivals, visibleArrivals[width], `visible arrivals at ${width}`);
-    assert.equal(await page.locator('.floor-card').count(), 8, 'floors 02F-09F');
+    assert.equal(await page.locator('.floor-card').count(), 8, 'floors 02F-09F with 06F library and world history split');
+    assert(await page.locator('.play-feature').isVisible(), '05F GOAT poster beside the floor directory');
+    if (width >= 1100) {
+      const [grid, poster] = await Promise.all([page.locator('.floor-grid').boundingBox(), page.locator('.play-feature').boundingBox()]);
+      assert(poster.x > grid.x + grid.width && Math.abs(poster.y - grid.y) < 2, 'poster stands on the right of the floor cards');
+    }
+    assert(await page.locator('.floor-card__head').evaluateAll(heads => new Set(heads.map(h => getComputedStyle(h).backgroundImage + getComputedStyle(h).backgroundColor)).size) >= 7, 'each floor keeps its own persona band');
     assert.equal(await page.locator('.shelf').count() >= 1, true, 'season shelf');
     assert.equal(await page.locator('.stack-row').count(), 12, 'stack list');
     const frames = page.locator('.arrival-thumb,.floor-thumb,.shelf-thumb,.stack-thumb');
