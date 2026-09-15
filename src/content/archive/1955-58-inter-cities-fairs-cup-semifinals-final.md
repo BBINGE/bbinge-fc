@@ -8,9 +8,9 @@ subject: '1955-58 인터시티스 페어스컵 4강과 결승'
 originalTitle: 'Inter-Cities Fairs Cup 1955-58: Semi-finals and Final'
 keywords: ['1955-58 페어스컵 결승', '인터시티스 페어스컵 결승', '페어스컵 4강', 'CF 바르셀로나 첫 유럽 우승', '런던 XI', '버밍엄 시티 바르셀로나 재경기', '지미 그리브스', '루이스 수아레스', '엘레니오 에레라', '쿠발라 라슬로', '에바리스투', '조 미어스']
 pubDate: 2026-09-15T16:20:00+09:00
-coverImage: '/images/archive/1955-58-inter-cities-fairs-cup-semifinals-final/cover.webp'
-coverImageAlt: '짙은 녹색 바탕에 인터시티스 페어스컵 대회명과 참가팀의 도시·구단 문장을 담은 표지'
-coverImageCaption: '1955-58 인터시티스 페어스컵의 4강과 결승.'
+coverImage: '/images/archive/1955-58-inter-cities-fairs-cup-semifinals-final/cover-final-london-barcelona.webp'
+coverImageAlt: '흑백 경기 사진 위에 런던 XI의 시티 오브 런던 문장과 바르셀로나 문장을 세로로 얹은 결승 표지'
+coverImageCaption: '1955-58 인터시티스 페어스컵 결승, 런던 XI와 바르셀로나.'
 coverImageWidth: 1080
 coverImageHeight: 1080
 relatedGroup: 'inter-cities-fairs-cup-1955-58'
