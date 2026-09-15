@@ -30,7 +30,7 @@ featured: false
 
 ## 저승사자 군단이 남긴 숫자
 
-<div class="custom-xi-honours" aria-label="1953년부터 1964년까지 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>5</strong><span>유러피언컵 연속 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="라리가 트로피" loading="lazy"><strong>8</strong><span>라리가 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="코파 라티나 트로피" loading="lazy"><strong>2</strong><span>코파 라티나 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인터컨티넨탈컵 트로피" loading="lazy"><strong>1</strong><span>인터컨티넨탈컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>3</strong><span>발롱도르 수상</span></div></div>
+<div class="custom-xi-honours" aria-label="1953년부터 1964년까지 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>5</strong><span>유러피언컵 연속 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="라리가 트로피" loading="lazy"><strong>8</strong><span>라리가 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="코파 라티나 트로피" loading="lazy"><strong>2</strong><span>코파 라티나 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인터콘티넨털컵 트로피" loading="lazy"><strong>1</strong><span>인터콘티넨털컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>3</strong><span>발롱도르 수상</span></div></div>
 
 ‘저승사자 군단’은 특정 감독 한 사람의 고정 전술보다, 베르나베우가 모은 서로 다른 축구 언어가 한 세대 안에서 결합한 팀에 가까웠다. 디스테파노는 전방과 중원을 오갔고, 엑토르 리알은 안쪽에서 경기를 읽었으며, 파코 헨토는 왼쪽 터치라인을 길게 썼다. 뒤에서는 호세 마리아 사라가와 후안 산티스테반이 공격수들이 떠난 공간을 메웠다.
 
@@ -78,7 +78,7 @@ featured: false
 
 당시 레알의 경기는 공격수들의 자유로운 이동 때문에 공을 잃는 순간 수비가 넓은 공간에 노출되기 쉬웠다. 산타마리아는 중앙에서 그 위험을 받아내며 레스메스와 마르키토스의 성향 차이를 하나의 수비선으로 묶었다. 우루과이와 스페인 두 대표팀에서 모두 뛴 경험, 남미식 대인 수비와 유럽 무대의 전술적 요구를 함께 익힌 경력도 이 역할에 어울렸다.
 
-첫 두 번의 유러피언컵 우승에는 없었지만 합류 첫 시즌부터 AC 밀란을 꺾은 세 번째 우승의 중앙을 맡았다. 이후 네 번째와 다섯 번째 우승, 첫 인터컨티넨탈컵을 거쳐 1966년 예예 마드리드의 여섯 번째 유럽 제패까지 연결했다. 공식전 337경기에서 단 2골을 남긴 수비수였지만, 그의 가치는 득점보다 수비진에 명확한 기준점을 세운 데 있었다. 이 명단에서 가장 먼저 적어 넣을 중앙 수비수다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
+첫 두 번의 유러피언컵 우승에는 없었지만 합류 첫 시즌부터 AC 밀란을 꺾은 세 번째 우승의 중앙을 맡았다. 이후 네 번째와 다섯 번째 우승, 첫 인터콘티넨털컵을 거쳐 1966년 예예 마드리드의 여섯 번째 유럽 제패까지 연결했다. 공식전 337경기에서 단 2골을 남긴 수비수였지만, 그의 가치는 득점보다 수비진에 명확한 기준점을 세운 데 있었다. 이 명단에서 가장 먼저 적어 넣을 중앙 수비수다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 ### 4. 마르키토스｜라이트백
 
