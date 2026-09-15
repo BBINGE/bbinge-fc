@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:57:24.626Z",
+  "updatedAt": "2026-09-15T20:00:17.539Z",
   "days": {
     "yesterday": "2026-09-15",
     "today": "2026-09-16",
@@ -873,13 +873,13 @@
           "rank": 4,
           "team": "데포르티보 알라베스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-          "played": 5,
+          "played": 6,
           "wins": 3,
           "draws": 1,
-          "losses": 1,
+          "losses": 2,
           "goalsFor": 11,
-          "goalsAgainst": 5,
-          "goalDifference": 6,
+          "goalsAgainst": 6,
+          "goalDifference": 5,
           "points": 10,
           "zone": "ucl",
           "zoneLabel": "UEFA 챔피언스 리그"
@@ -933,13 +933,13 @@
           "rank": 8,
           "team": "RCD 에스파뇰",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-          "played": 5,
+          "played": 6,
           "wins": 2,
           "draws": 1,
-          "losses": 2,
-          "goalsFor": 8,
-          "goalsAgainst": 5,
-          "goalDifference": 3,
+          "losses": 3,
+          "goalsFor": 9,
+          "goalsAgainst": 7,
+          "goalDifference": 2,
           "points": 7,
           "zone": "",
           "zoneLabel": ""
@@ -991,6 +991,21 @@
         },
         {
           "rank": 12,
+          "team": "라요 바예카노 데 마드리드",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+          "played": 6,
+          "wins": 2,
+          "draws": 1,
+          "losses": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 15,
+          "goalDifference": -5,
+          "points": 7,
+          "zone": "",
+          "zoneLabel": ""
+        },
+        {
+          "rank": 13,
           "team": "레알 소시에다드 데 풋볼",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "played": 6,
@@ -1005,7 +1020,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "레반테 UD",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
           "played": 5,
@@ -1020,7 +1035,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "헤타페 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
           "played": 5,
@@ -1035,7 +1050,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "RC 셀타 데 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 6,
@@ -1050,22 +1065,22 @@
           "zoneLabel": ""
         },
         {
-          "rank": 16,
-          "team": "라요 바예카노 데 마드리드",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "played": 5,
+          "rank": 17,
+          "team": "발렌시아 CF",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+          "played": 6,
           "wins": 1,
           "draws": 1,
-          "losses": 3,
-          "goalsFor": 8,
-          "goalsAgainst": 14,
-          "goalDifference": -6,
+          "losses": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8,
           "points": 4,
           "zone": "",
           "zoneLabel": ""
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "말라가 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
           "played": 5,
@@ -1076,11 +1091,11 @@
           "goalsAgainst": 8,
           "goalDifference": -6,
           "points": 3,
-          "zone": "",
-          "zoneLabel": ""
+          "zone": "relegation",
+          "zoneLabel": "강등"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "team": "비야레알 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
           "played": 5,
@@ -1095,7 +1110,7 @@
           "zoneLabel": "강등"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "team": "엘체 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
           "played": 5,
@@ -1106,21 +1121,6 @@
           "goalsAgainst": 13,
           "goalDifference": -7,
           "points": 2,
-          "zone": "relegation",
-          "zoneLabel": "강등"
-        },
-        {
-          "rank": 20,
-          "team": "발렌시아 CF",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-          "played": 5,
-          "wins": 0,
-          "draws": 1,
-          "losses": 4,
-          "goalsFor": 1,
-          "goalsAgainst": 10,
-          "goalDifference": -9,
-          "points": 1,
           "zone": "relegation",
           "zoneLabel": "강등"
         }
@@ -1146,13 +1146,13 @@
           "time": "02:00",
           "kickoff": "2026-09-15T17:00:00.000Z",
           "state": "in",
-          "detail": "52'",
+          "detail": "90'",
           "home": "라요 바예카노 데 마드리드",
           "away": "RCD 에스파뇰",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "homeScore": 2,
-          "awayScore": 0
+          "awayScore": 1
         },
         {
           "id": "401882876",
@@ -1160,7 +1160,7 @@
           "time": "03:00",
           "kickoff": "2026-09-15T18:00:00.000Z",
           "state": "in",
-          "detail": "10'",
+          "detail": "45'+3'",
           "home": "데포르티보 알라베스",
           "away": "발렌시아 CF",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
