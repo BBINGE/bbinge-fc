@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-15T08:26:57.295Z",
+  "updatedAt": "2026-09-15T16:04:05.359Z",
   "days": {
-    "yesterday": "2026-09-14",
-    "today": "2026-09-15",
-    "tomorrow": "2026-09-16"
+    "yesterday": "2026-09-15",
+    "today": "2026-09-16",
+    "tomorrow": "2026-09-17"
   },
   "summary": {
-    "today": "2026-09-15",
-    "todayMatches": 5
+    "today": "2026-09-16",
+    "todayMatches": 3
   },
   "competitions": [
     {
@@ -318,20 +318,6 @@
         }
       ],
       "matches": [
-        {
-          "id": "401879278",
-          "date": "2026-09-14",
-          "time": "00:30",
-          "kickoff": "2026-09-13T15:30:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "맨체스터 유나이티드 FC",
-          "away": "맨체스터 시티 FC",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-          "homeScore": 0,
-          "awayScore": 1
-        },
         {
           "id": "401879280",
           "date": "2026-09-15",
@@ -1141,34 +1127,6 @@
       ],
       "matches": [
         {
-          "id": "401882884",
-          "date": "2026-09-14",
-          "time": "01:30",
-          "kickoff": "2026-09-13T16:30:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "헤타페 CF",
-          "away": "RC 데포르티보 라코루냐",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "id": "401882879",
-          "date": "2026-09-14",
-          "time": "04:00",
-          "kickoff": "2026-09-13T19:00:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "레알 소시에다드 데 풋볼",
-          "away": "클루브 아틀레티코 데 마드리드",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "homeScore": 0,
-          "awayScore": 3
-        },
-        {
           "id": "401882877",
           "date": "2026-09-15",
           "time": "04:00",
@@ -1221,6 +1179,62 @@
           "away": "레알 마드리드 CF",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401882875",
+          "date": "2026-09-17",
+          "time": "02:00",
+          "kickoff": "2026-09-16T17:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "클루브 아틀레티코 데 마드리드",
+          "away": "CA 오사수나",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401882873",
+          "date": "2026-09-17",
+          "time": "02:00",
+          "kickoff": "2026-09-16T17:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "RC 데포르티보 라코루냐",
+          "away": "세비야 FC",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401882871",
+          "date": "2026-09-17",
+          "time": "04:30",
+          "kickoff": "2026-09-16T19:30:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "FC 바르셀로나",
+          "away": "레알 라싱 클루브 데 산탄데르",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401882870",
+          "date": "2026-09-17",
+          "time": "04:30",
+          "kickoff": "2026-09-16T19:30:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "레반테 UD",
+          "away": "아틀레틱 클루브",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
           "homeScore": null,
           "awayScore": null
         }
@@ -2018,34 +2032,6 @@
         }
       ],
       "matches": [
-        {
-          "id": "401874792",
-          "date": "2026-09-14",
-          "time": "01:00",
-          "kickoff": "2026-09-13T16:00:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "SSC 나폴리",
-          "away": "볼로냐 FC 1909",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "id": "401874750",
-          "date": "2026-09-14",
-          "time": "03:45",
-          "kickoff": "2026-09-13T18:45:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "US 사수올로 칼초",
-          "away": "유벤투스 FC",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-          "homeScore": 3,
-          "awayScore": 2
-        },
         {
           "id": "401874933",
           "date": "2026-09-15",
@@ -2851,22 +2837,7 @@
           "zoneLabel": "강등"
         }
       ],
-      "matches": [
-        {
-          "id": "401884791",
-          "date": "2026-09-14",
-          "time": "00:30",
-          "kickoff": "2026-09-13T15:30:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "SV 07 엘버스베르크",
-          "away": "FC 바이에른 뮌헨",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-          "homeScore": 1,
-          "awayScore": 2
-        }
-      ],
+      "matches": [],
       "goals": [
         {
           "id": "234376",
@@ -3629,36 +3600,7 @@
           "zoneLabel": "강등"
         }
       ],
-      "matches": [
-        {
-          "id": "401876463",
-          "date": "2026-09-14",
-          "time": "00:15",
-          "kickoff": "2026-09-13T15:15:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "르망 FC",
-          "away": "RC 랑스",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-          "homeScore": 2,
-          "awayScore": 2
-        },
-        {
-          "id": "401876465",
-          "date": "2026-09-14",
-          "time": "03:45",
-          "kickoff": "2026-09-13T18:45:00.000Z",
-          "state": "post",
-          "detail": "FT",
-          "home": "스타드 브레스트 29",
-          "away": "파리 생제르맹 FC",
-          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-          "homeScore": 0,
-          "awayScore": 1
-        }
-      ],
+      "matches": [],
       "goals": [
         {
           "id": "259743",
@@ -5724,7 +5666,134 @@
           "zoneLabel": "탈락"
         }
       ],
-      "matches": [],
+      "matches": [
+        {
+          "id": "401915594",
+          "date": "2026-09-17",
+          "time": "01:45",
+          "kickoff": "2026-09-16T16:45:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "FC 아라라트아르메니아",
+          "away": "AC 스파르타 프라하",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915611",
+          "date": "2026-09-17",
+          "time": "01:45",
+          "kickoff": "2026-09-16T16:45:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "AC 오모니아 니코시아",
+          "away": "RC 셀타 데 비고",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915586",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "AC 밀란",
+          "away": "SL 벤피카",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915590",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "RSC 안데를레흐트",
+          "away": "올랭피크 리옹",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915587",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "바이어 04 레버쿠젠",
+          "away": "NK 첼레",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915589",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "하포엘 베에르셰바 FC",
+          "away": "GNK 디나모 자그레브",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915588",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "올림피아코스 FC",
+          "away": "야기엘로니아 비아위스토크",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915593",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "SK 슈투름 그라츠",
+          "away": "스타드 렌 FC",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "id": "401915592",
+          "date": "2026-09-17",
+          "time": "04:00",
+          "kickoff": "2026-09-16T19:00:00.000Z",
+          "state": "pre",
+          "detail": "Scheduled",
+          "home": "선덜랜드 AFC",
+          "away": "AZ 알크마르",
+          "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+          "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ],
       "goals": [],
       "assists": []
     },
