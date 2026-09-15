@@ -130,7 +130,7 @@ faq:
 
 <div class="journey-social-shot"><figure><img src="/images/pilgrimage/milan-san-siro-couple/shopping-day.webp" alt="밝은 아케이드에서 쇼핑백을 들고 웃는 선글라스 차림의 여행자" width="1600" height="1067" loading="lazy" /></figure><div><span>DAY 1 · CITY FIRST</span><strong>첫날 쇼핑을 먼저 해 두면 경기 날이 편해져요</strong><p>도착한 날 바로 경기장 투어로 가는 대신 갈레리아와 몬테나폴레오네를 먼저 걷는다. 경기 날 저녁 90분은 그다음이다.</p><small>쇼핑백을 든 여행자. 사진: Andrea Piacquadio, Pexels.</small></div></div>
 
-<aside class="journey-archive-note" id="archive-note"><span>ARCHIVE NOTE · 산 시로 이전의 밀라노 축구</span><h3>인테르의 첫 유럽 대항전은 셈피오네 공원의 아레나 치비카에서 열렸어요</h3><p>1956년 5월 16일, 인테르는 인터시티스 페어스컵 조별리그에서 버밍엄 시티를 맞으며 유럽 대항전 첫 경기를 치렀다. 무대는 산 시로가 아니라 스포르체스코 성 뒤편 셈피오네 공원의 아레나 치비카였고, 조명 아래 밤 10시에 시작한 경기는 0-0으로 끝났다. Via Dante의 Milan Store에서 성 쪽으로 계속 걸으면 닿는다. 경기 이야기는 <a href="/archive/european-club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup/">1955-58 인터시티스 페어스컵 본선 편</a>에 있다.</p></aside>
+<aside class="journey-archive-note" id="archive-note"><span>ARCHIVE NOTE · 산 시로 이전의 밀라노 축구</span><h3>인테르의 첫 유럽 대항전은 셈피오네 공원의 아레나 치비카에서 열렸어요</h3><p>1956년 5월 16일, 인테르는 인터시티스 페어스컵 조별리그에서 버밍엄 시티를 맞으며 유럽 대항전 첫 경기를 치렀다. 무대는 산 시로가 아니라 스포르체스코 성 뒤편 셈피오네 공원의 아레나 치비카였고, 조명 아래 밤 10시에 시작한 경기는 0-0으로 끝났다.</p><p>Via Dante의 Milan Store에서 스포르체스코 성 쪽으로 계속 걸으면 10분대에 닿는다. 경기 이야기는 <a href="/archive/european-club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup/">1955-58 인터시티스 페어스컵 본선 편</a>에 있다.</p></aside>
 
 <h2 id="aperitivo">밀라노 아페리티보, 캄파리노부터 나빌리까지 5곳</h2>
 
