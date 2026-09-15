@@ -77,12 +77,14 @@ export function renderTie(collection, id) {
   const winner = (playoff ? playoff[0] > playoff[1] : total[0] > total[1]) ? left : right;
   const image = (asset, cls, alt, width, height) => `<img class="${cls}" src="${escape(asset.src)}" alt="${escape(alt)}" width="${width}" height="${height}" loading="lazy" decoding="async" />`;
   const team = club => `<div class="cup-side"><div class="cup-crest-slot"${club.crest ? '' : ' aria-hidden="true"'}>${club.crest ? image(club.crest, 'cup-club-crest', `${club.name} 로고`, 68, 68) : ''}</div><strong>${escape(club.name)}</strong><span class="cup-original">${escape(club.original)}</span><span class="cup-country"><span class="cup-flag-slot">${image(club.flag, 'cup-flag', `${club.country} 국기`, 24, 16)}</span>${escape(club.country)}</span></div>`;
-  const nextStage = { '예선': '16강', '16강': '8강', '8강': '4강', '4강': '결승' }[tie.stage];
-  if (!nextStage) throw new Error(`Unsupported knockout stage: ${tie.stage}`);
-  const legFacts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' ? '4강 ' : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
+  // 결승도 두 경기로 치른 대회(1955-58 페어스컵)는 진출 칸 대신 우승 칸을 둔다.
+  const advanceLabel = { '예선': '16강 진출', '16강': '8강 진출', '8강': '4강 진출', '4강': '결승 진출', '결승': '우승' }[tie.stage];
+  if (!advanceLabel) throw new Error(`Unsupported knockout stage: ${tie.stage}`);
+  const competition = data.competition || '유러피언컵';
+  const legFacts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
   const facts = playoff ? `${legFacts}<div class="cup-replay"><dt>재경기</dt><dd>${playoff[0]} : ${playoff[1]}</dd></div>` : legFacts;
   const aggregateNote = playoff ? '재경기로 결정' : '두 경기 결과';
-  return `<section class="cup-tie" aria-labelledby="${id}" data-tie="${collection}:${id}"><p class="cup-tie-stage">${escape(data.season)} 유러피언컵 · ${escape(tie.stage)}</p><h3 class="cup-match" id="${id}">${escape(left.name)} vs ${escape(right.name)}</h3><div class="cup-scoreboard">${team(left)}<div class="cup-aggregate"><span>합계</span><strong>${total[0]}<i>:</i>${total[1]}</strong><small>${aggregateNote}</small></div>${team(right)}</div><dl class="cup-leg-results${playoff ? ' cup-leg-results--replay' : ''}">${facts}<div class="cup-advance"><dt>${nextStage} 진출</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(tie.deck)}</p></section>`;
+  return `<section class="cup-tie" aria-labelledby="${id}" data-tie="${collection}:${id}"><p class="cup-tie-stage">${escape(data.season)} ${escape(competition)} · ${escape(tie.stage)}</p><h3 class="cup-match" id="${id}">${escape(left.name)} vs ${escape(right.name)}</h3><div class="cup-scoreboard">${team(left)}<div class="cup-aggregate"><span>합계</span><strong>${total[0]}<i>:</i>${total[1]}</strong><small>${aggregateNote}</small></div>${team(right)}</div><dl class="cup-leg-results${playoff ? ' cup-leg-results--replay' : ''}">${facts}<div class="cup-advance"><dt>${advanceLabel}</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(tie.deck)}</p></section>`;
 }
 
 // 접이식 결과표: 대진 JSON에서 만들어 카드와 같은 로고·국기·팀명을 쓴다. 재경기 대진이 있는 단계만 재경기 열을 연다.

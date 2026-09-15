@@ -188,4 +188,12 @@ assert(renderEuropeanCupMilestone('1956-57', 'runners-up').includes('AC 피오�
 const finalSource5657 = readFileSync(new URL('../src/content/articles/1956-57-european-cup-final-real-madrid-fiorentina.md', import.meta.url), 'utf8');
 for (const stage of ['final', 'champions', 'runners-up']) assert.equal((finalSource5657.match(new RegExp('data-european-cup-milestone="1956-57:' + stage + '"', 'g')) ?? []).length, 1, stage);
 assert(!finalSource5657.includes('ACF 피오렌티나'), '결승 원고는 당시 구단명 AC 피오렌티나를 쓴다');
+// 1955-58 페어스컵 4강권: 대회명은 데이터에서, 버밍엄-바르셀로나 재경기, 두 경기 결승의 우승 칸.
+const fairs = id => renderTie('1955-58-inter-cities-fairs-cup-semifinals-final', id);
+assert(fairs('match-1').includes('1955-58 인터시티스 페어스컵 · 4강') && fairs('match-1').includes('<dt>결승 진출</dt><dd>런던 XI</dd>'));
+assert(fairs('match-2').includes('<dt>재경기</dt><dd>1 : 2</dd>') && fairs('match-2').includes('<dt>결승 진출</dt><dd>CF 바르셀로나</dd>'));
+assert(fairs('match-3').includes('<dt>결승 1차전</dt><dd>2 : 2</dd>') && fairs('match-3').includes('<strong>2<i>:</i>8</strong>') && fairs('match-3').includes('<dt>우승</dt><dd>CF 바르셀로나</dd>'));
+assert(!fairs('match-3').includes('유러피언컵'));
+const fairsSource = readFileSync(new URL('../src/content/archive/1955-58-inter-cities-fairs-cup-semifinals-final.md', import.meta.url), 'utf8');
+assert.equal((fairsSource.match(/data-football-tie="1955-58-inter-cities-fairs-cup-semifinals-final:match-\d"/g) ?? []).length, 3);
 console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표');

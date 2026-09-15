@@ -1,0 +1,19 @@
+{
+  "season": "1955-58",
+  "competition": "인터시티스 페어스컵",
+  "source": "RSSSF, Fairs' Cup 1955-58 (Antonio Zea, Marcel Haisma, 2009). 결승도 두 경기 합계로 가렸다.",
+  "ties": {
+    "match-1": {
+      "left": "lausanne-sports", "right": "london-xi", "legs": [[2,1],[0,2]], "stage": "4강",
+      "deck": "퐁테즈에서 1-2로 진 런던 XI가 열일곱 살 그리브스의 선제골로 합계를 뒤집었다."
+    },
+    "match-2": {
+      "left": "birmingham-city", "right": "cf-barcelona", "legs": [[4,3],[0,1]], "stage": "4강", "playoff": [1,2],
+      "deck": "합계 4-4. 바젤 장크트 야코프의 재경기에서 쿠발라가 83분 결승골을 넣었다."
+    },
+    "match-3": {
+      "left": "london-xi", "right": "cf-barcelona", "legs": [[2,2],[0,6]], "stage": "결승",
+      "deck": "스탬퍼드 브리지 2-2, 캄 노우 6-0. 바르셀로나가 합계 8-2로 첫 페어스컵을 들었다."
+    }
+  }
+}
