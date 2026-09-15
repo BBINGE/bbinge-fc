@@ -155,6 +155,11 @@ relatedGroup: 'hungary-golden-team'
 
 셋째 명제의 증거는 이렇다. 같은 도시의 노동자, 같은 수영장의 선수, 같은 원정길의 축구선수가 서로 다른 선택을 했다. 나이와 계급, 가족의 위치, 이미 겪은 감시, 받아 줄 곳이 있는지가 저마다 달랐다. 선택을 가른 것은 각자가 짊어진 조건이었다.
 
+<a class="record-cta" href="/tactics/hungary-golden-team-total-football-elo-rating/">
+  <img src="/images/tactics/hungary-golden-team/puskas.png" alt="" loading="lazy" />
+  <div><small>축술 · 헝가리 황금의 팀</small><strong>Elo 레이팅 역대 1위, 헝가리 황금의 팀과 토털 풋볼</strong><p>웸블리에서 센터포워드를 지운 팀은 어떻게 싸웠나 →</p></div>
+</a>
+
 ## 넷째, 기록마저 반응에 따라 다시 쓰였다
 
 <p class="scene-stamp">1957년 · 부다페스트, 필름 편집실과 인쇄소</p>
@@ -205,6 +210,11 @@ relatedGroup: 'hungary-golden-team'
   <p>같은 저녁 6시인데 세상은 이렇게 줏대없습니다.</p>
   <p>이렇듯 헝가리 혁명도 교과서에서는 "그런 일이 있었대요"로 끝납니다. 파고 들어가 보면, 그날 거기 있던 건 오늘의 여러분과 저랑 다를 바 없는 대학생1, 정치인1, 노동자1, 전차 운전사1, 빵집 주인1, 간호사1, 초등학교 선생님1, 극장 가수1, 우체부1, 사진사1, 누군가의 아내1, 난민 아이1, 수구 선수1, 그리고 축구선수1이었습니다. 그 사람들에게는 그냥 '오늘'이었죠. 이 문헌고찰은 그 가을의 오늘들을 돋보기로 조금 크게 보여드린 것입니다.</p>
 </div>
+
+<a class="record-cta" href="/pilgrimage/budapest-honeymoon-football-travel-10/">
+  <img src="/images/pilgrimage/budapest-honeymoon-football-10/card.webp" alt="" loading="lazy" />
+  <div><small>축행 · 오늘의 부다페스트</small><strong>부다페스트 여행, 축빠라면 가야 할 10선</strong><p>푸슈카시 박물관부터 혼베드 홈경기까지 그 도시의 오늘 →</p></div>
+</a>
 
 <section class="source-notes">
 <h2>검토 문헌과 사료</h2>
