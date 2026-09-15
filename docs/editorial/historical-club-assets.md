@@ -1,5 +1,26 @@
 # 시즌별 구단 식별 자산
 
+## 2026-09-15 1955-58 인터시티스 페어스컵 연결
+
+- 새 팀 12곳(구단 4·도시 선발팀 8)을 `historical-clubs.json`에 시즌 `1955-58`로 추가했다. 도시 선발팀은 운영자 확정으로 도시 문장을 쓰고 `kind: city-select`, `selection: city-arms`로 표시한다.
+
+| 팀 | 파일 | 기간·근거 |
+|---|---|---|
+| CF 바르셀로나 | clubs/barcelona-1949.webp | Logopedia 1949-1960 C. de F. B. 문장 |
+| FC 인테르나치오날레 밀라노 | clubs/internazionale-1945.svg | Logopedia 1945-1960 |
+| 버밍엄 시티 FC | clubs/birmingham-city-1936.webp | Logopedia 1936-1970, 구단이 버밍엄 시 문장을 사용 |
+| 로잔 스포르 | clubs/lausanne-sports-1920.webp | Logopedia 1920-1980 LS 문장 |
+| 런던 XI | cities/city-of-london.svg | Commons 시티 오브 런던 방패 |
+| KBU 코펜하겐 XI | cities/koebenhavn.svg | Commons 코펜하겐 문장 |
+| 빈 XI | cities/wien.svg | Commons. 독일어 위키: 1925년 이후 공식 문장은 붉은 방패·흰 십자, 독수리형은 시 기관 전용 |
+| 자그레브 XI | cities/zagreb-1947.webp | Commons 1947년 도안(원본 SVG 1.5MB를 320px WebP로 변환) |
+| 라이프치히 XI | cities/leipzig.svg | Commons 라이프치히 문장. 국기는 1959년 이전 동독의 문장 없는 흑적금 |
+| 쾰른 XI | cities/koeln.svg | Commons 쾰른 문장 |
+| 프랑크푸르트 XI | cities/frankfurt-am-main.webp | Commons 클레멘스 슈타들러 도안(원본 SVG를 WebP로 변환) |
+| 바젤 XI | cities/basel.svg | Commons 바젤슈타트 문장 |
+
+- 출처 성격: 개별 권리 신호 없음, C등급.
+
 ## 2026-09-14 1956-57 시즌 연결
 
 - 새 구단 18곳을 `historical-clubs.json`에 추가했다. 운영자 요청으로 같은 날 시대 문장을 찾아 대진 카드 36칸 가운데 31칸을 채웠다. 도판 크롭은 쓰지 않았고 모든 문장은 독립 파일이다. 파일은 원본 무변형이며, Logopedia 파일은 서버가 WebP로 내려 주는 원본을 `.webp`로 저장했다.

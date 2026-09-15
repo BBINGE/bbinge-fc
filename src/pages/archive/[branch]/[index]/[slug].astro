@@ -32,7 +32,7 @@ const archiveIndex = branch.indexes.find((item) => item.slug === entry.data.inde
 const isLegend = entry.data.branch === 'legends';
 const viewPath = `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/`;
 const { Content } = await render(entry);
-const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|football-results|european-cup-milestone|european-cup-scorers)=/.test(entry.rendered.html);
+const hasFootballRecords = entry.rendered?.html != null && /data-(?:football-tie|football-results|football-group|football-group-entrants|european-cup-milestone|european-cup-scorers)=/.test(entry.rendered.html);
 const footballHtml = hasFootballRecords ? expandFootballTies(entry.rendered!.html) : '';
 const hasAwardRecords = entry.rendered?.html?.includes('data-award-record=') ?? false;
 const awardHtml = hasAwardRecords ? expandAwardRecords(entry.rendered!.html) : '';
@@ -90,7 +90,7 @@ const relatedAssets = entry.data.relatedGroup && !hasReadingRoute
     { label: entry.data.title, href: `/archive/${branch.id}/${archiveIndex.slug}/${entry.id}/` },
   ]}
 >
-  <article class:list={['archive-article', { 'cup-record': hasFootballRecords, 'award-record': hasAwardRecords }]}>
+  <article class:list={['archive-article', { 'cup-record': hasFootballRecords, 'cup-record--fairs': hasFootballRecords && entry.data.index === 'inter-cities-fairs-cup', 'award-record': hasAwardRecords }]}>
     <nav class="article-path"><a href="/archive/">삥이 아카이브</a><span>/</span><a href={`/archive/${branch.id}/${archiveIndex.slug}/`}>{archiveIndex.label}</a></nav>
     <header class="article-header">
       <p>{entry.data.eyebrow ?? (isLegend ? `${archiveIndex.label} · LEGEND` : `${entry.data.year} · ${archiveIndex.label}`)}</p>

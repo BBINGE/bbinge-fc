@@ -256,3 +256,67 @@
   .cup-record .cup-leg-results--replay { grid-template-columns: repeat(3, 1fr); }
   .cup-record .cup-leg-results--replay > .cup-advance { grid-column: 1 / -1; border-left: 0; border-top: 1px solid rgba(196,218,255,.22); }
 }
+
+/* 인터시티스 페어스컵(운영자 확정, 2026-09-15): 엠블럼의 짙은 녹색·은색. 유러피언컵 카드 구조를 그대로 쓰고 색만 바꾼다. */
+.cup-record.cup-record--fairs .cup-tie, .cup-record.cup-record--fairs .cup-group { --cup-night: #03170c; --cup-cyan: #b9e3c3; --cup-paper: #f4f7f5; border-color: rgba(183,220,194,.3); }
+.cup-record.cup-record--fairs .cup-tie::before, .cup-record.cup-record--fairs .cup-group::before {
+  background: radial-gradient(ellipse at 50% 26%,rgba(63,154,94,.35),transparent 46%),
+    linear-gradient(135deg,#021209 0%,#0a3a1f 45%,#115230 60%,#062612 82%,#021008 100%);
+}
+.cup-record.cup-record--fairs .cup-original, .cup-record.cup-record--fairs .cup-country, .cup-record.cup-record--fairs .cup-aggregate small, .cup-record.cup-record--fairs .cup-leg-results dt { color: #c5d9cb; }
+.cup-record.cup-record--fairs .cup-aggregate > span { border-color: rgba(213,236,220,.42); }
+.cup-record.cup-record--fairs .cup-leg-results { background: rgba(1,16,8,.4); border-color: rgba(213,236,220,.18); }
+.cup-record.cup-record--fairs .cup-leg-results > div + div, .cup-record.cup-record--fairs .cup-leg-results--replay > .cup-advance { border-color: rgba(213,236,220,.22); }
+.cup-record.cup-record--fairs .archive-body .cup-tie .cup-match-deck, .cup-record.cup-record--fairs .archive-body .cup-group .cup-match-deck { color: #e4efe7; }
+.cup-record.cup-record--fairs .cup-record-table > summary:hover { box-shadow: inset 0 0 0 2px #1f6a3d; }
+
+/* 조별리그 카드: 순위표 + 경기 결과 + 4강 진출 */
+.cup-record .cup-group {
+  --cup-night: #061249; --cup-cyan: #78dcff; --cup-paper: #fff;
+  position: relative; isolation: isolate; overflow: hidden;
+  margin: 40px 0 30px; padding: 24px 24px 20px;
+  border: 1px solid rgba(126,180,255,.3); border-radius: 12px;
+  background: var(--cup-night); color: var(--cup-paper);
+}
+.cup-record .cup-group::before { content: ""; position: absolute; z-index: -1; inset: 0; pointer-events: none; }
+.cup-record .archive-body .cup-group .cup-tie-stage { margin-bottom: 6px; }
+.cup-record .archive-body h3.cup-group-title { margin: 0 0 16px; padding: 0; border: 0; text-align: center; color: var(--cup-paper); font-size: 26px; line-height: 1.2; font-weight: 800; letter-spacing: -.02em; }
+.cup-record .archive-body h3.cup-group-title::before, .cup-record .archive-body h3.cup-group-title::after { display: none; }
+.cup-record .cup-group-scroll { overflow-x: auto; }
+.cup-record .archive-body .cup-group-table { display: table; width: 100%; min-width: 0; margin: 0; table-layout: fixed; border-collapse: collapse; background: rgba(255,255,255,.96); color: var(--bbfc-ink); border-radius: 8px; overflow: hidden; white-space: normal; font-size: 14px; }
+.cup-record .archive-body .cup-group-table th { white-space: nowrap; padding: 10px 6px; background: #eef4f0; color: #3c4a42; font-size: 12px; font-weight: 700; text-align: center; border: 0; }
+.cup-record .archive-body .cup-group-table th:nth-child(1) { width: 44px; }
+.cup-record .archive-body .cup-group-table th:nth-child(2) { width: auto; text-align: left; }
+.cup-record .archive-body .cup-group-table th:nth-child(n+3) { width: 48px; }
+.cup-record .archive-body .cup-group-table th:nth-child(7) { width: 60px; }
+.cup-record .archive-body .cup-group-table td { padding: 11px 6px; border: 0; border-top: 1px solid #e5ece7; text-align: center; vertical-align: middle; font-variant-numeric: tabular-nums; }
+.cup-record .archive-body .cup-group-table td.cup-group-team { text-align: left; }
+.cup-record .archive-body .cup-group-table tr.is-winner td { background: #eaf5ed; font-weight: 700; }
+.cup-record .archive-body .cup-group-table td.cup-group-points { font-weight: 800; }
+.cup-record .archive-body .cup-group-table tr.is-withdrawn td { color: #8b95a1; }
+.cup-record .archive-body .cup-group-table tr.is-withdrawn .cup-result-crest img { opacity: .55; }
+.cup-record .archive-body .cup-group-table td.cup-group-note { text-align: left; font-size: 13px; }
+.cup-record .cup-group-matches { display: grid; gap: 6px; margin: 14px 0 0; padding: 0; list-style: none; }
+.cup-record .archive-body .cup-group-matches li { display: grid; grid-template-columns: 92px minmax(0,1fr) 64px minmax(0,1fr); align-items: center; gap: 8px; margin: 0; padding: 9px 12px; border-radius: 8px; background: rgba(1,16,8,.38); color: var(--cup-paper); font-size: 14px; line-height: 1.4; }
+.cup-record .archive-body .cup-group-matches li::before { display: none; }
+.cup-record .cup-group-matches time { color: #c5d9cb; font-size: 13px; font-variant-numeric: tabular-nums; }
+.cup-record .cup-group-matches strong { text-align: center; font-size: 16px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.cup-record .cup-group-home .cup-result-team { justify-content: flex-end; text-align: right; }
+.cup-record .cup-group-matches .cup-result-crest { background: #fff; border-radius: 6px; }
+.cup-record .cup-group-summary { grid-template-columns: 1fr; margin-top: 14px; }
+@media (max-width: 600px) {
+  .cup-record .cup-group { padding: 20px 10px 14px; }
+  .cup-record .archive-body h3.cup-group-title { font-size: 22px; }
+  .cup-record .archive-body .cup-group-table { font-size: 13px; }
+  .cup-record .archive-body .cup-group-table th, .cup-record .archive-body .cup-group-table td { padding: 9px 3px; }
+  .cup-record .archive-body .cup-group-table th:nth-child(1) { width: 34px; }
+  .cup-record .archive-body .cup-group-table th { font-size: 11px; }
+  .cup-record .archive-body .cup-group-table th:nth-child(n+3) { width: 25px; }
+  .cup-record .archive-body .cup-group-table th:nth-child(7) { width: 40px; }
+  .cup-record .archive-body .cup-group-table .cup-result-team { gap: 5px; }
+  .cup-record .archive-body .cup-group-table .cup-result-crest { width: 24px; height: 24px; }
+  .cup-record .archive-body .cup-group-table .cup-result-crest img { width: 20px; height: 20px; }
+  .cup-record .archive-body .cup-group-table .cup-result-flag { display: none; }
+  .cup-record .archive-body .cup-group-matches li { grid-template-columns: 1fr 52px 1fr; row-gap: 4px; padding: 8px; font-size: 13px; }
+  .cup-record .cup-group-matches time { grid-column: 1 / -1; text-align: center; }
+}

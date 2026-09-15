@@ -167,8 +167,77 @@ export function renderTopScorers(season) {
   return '<div class="cup-scorer-scroll" tabindex="0" role="region" aria-label="' + escape(label) + '"><table class="cup-scorer-table"><thead><tr><th scope="col">순위</th><th scope="col">선수</th><th scope="col">클럽</th><th scope="col">출신</th><th scope="col">출전</th><th scope="col">득점</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
 }
 
+// 조별리그(1955-58 인터시티스 페어스컵): 경기 결과에서 순위를 계산하고, 기록한 조 1위와 다르면 빌드를 멈춘다.
+function loadGroups(collection) {
+  if (!/^[a-z0-9-]+$/.test(collection)) throw new Error('Invalid football group key');
+  return readJson(`src/data/cup-groups/${collection}.json`);
+}
+
+export function computeGroupTable(data, key) {
+  const group = data.groups[key];
+  if (!group) throw new Error(`Unknown group: ${key}`);
+  const win = data.pointsForWin;
+  const rows = new Map(group.teams.map(id => [id, { id, played: 0, won: 0, drawn: 0, lost: 0, for: 0, against: 0, points: 0 }]));
+  for (const match of group.matches) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date) || match.home === match.away || !rows.has(match.home) || !rows.has(match.away)) throw new Error(`Invalid group match: ${key} ${match.date}`);
+    if (match.score.length !== 2 || match.score.some(goal => !Number.isInteger(goal) || goal < 0)) throw new Error(`Invalid group score: ${key} ${match.date}`);
+    const [h, a] = match.score;
+    for (const [id, gf, ga] of [[match.home, h, a], [match.away, a, h]]) {
+      const row = rows.get(id);
+      row.played += 1; row.for += gf; row.against += ga;
+      if (gf > ga) { row.won += 1; row.points += win; } else if (gf === ga) { row.drawn += 1; row.points += 1; } else row.lost += 1;
+    }
+  }
+  const table = [...rows.values()].sort((x, y) => y.points - x.points || (y.for - y.against) - (x.for - x.against) || y.for - x.for);
+  if (table.length > 1 && table[0].points === table[1].points && table[0].for - table[0].against === table[1].for - table[1].against && table[0].for === table[1].for) throw new Error(`Unresolved group tie: ${key}`);
+  if (table[0].id !== group.winner) throw new Error(`Recorded group winner does not match results: ${key}`);
+  return table;
+}
+
+export function renderGroup(collection, key) {
+  const data = loadGroups(collection);
+  const group = data.groups[key];
+  const table = computeGroupTable(data, key);
+  const image = (asset, cls, width, height) => `<img class="${cls}" src="${escape(asset.src)}" alt="" width="${width}" height="${height}" loading="lazy" decoding="async" />`;
+  const team = (club, compact = false) => `<span class="cup-result-team"><span class="cup-result-crest">${club.crest ? image(club.crest, '', 28, 28) : ''}</span><span class="cup-result-name">${escape(club.name)}</span>${compact ? '' : image(club.flag, 'cup-result-flag', 20, 14)}</span>`;
+  const rows = table.map((row, index) => {
+    const club = resolveClub(row.id, data.season);
+    return `<tr${index === 0 ? ' class="is-winner"' : ''}><td class="cup-group-rank">${index + 1}</td><td class="cup-group-team">${team(club)}</td><td data-label="경기">${row.played}</td><td data-label="승">${row.won}</td><td data-label="무">${row.drawn}</td><td data-label="패">${row.lost}</td><td data-label="득실">${row.for}:${row.against}</td><td class="cup-group-points" data-label="승점">${row.points}</td></tr>`;
+  }).join('');
+  const withdrawn = group.withdrawn.map(id => {
+    const club = resolveClub(id, data.season);
+    return `<tr class="is-withdrawn"><td class="cup-group-rank">-</td><td class="cup-group-team">${team(club)}</td><td colspan="6" class="cup-group-note">기권</td></tr>`;
+  }).join('');
+  const date = value => { const [y, m, d] = value.split('-'); return `${y}.${m}.${d}`; };
+  const matches = [...group.matches].sort((x, y) => x.date.localeCompare(y.date)).map(match => {
+    const home = resolveClub(match.home, data.season);
+    const away = resolveClub(match.away, data.season);
+    return `<li><time datetime="${match.date}">${date(match.date)}</time><span class="cup-group-home">${team(home, true)}</span><strong>${match.score[0]} : ${match.score[1]}</strong><span class="cup-group-away">${team(away, true)}</span></li>`;
+  }).join('');
+  const winner = resolveClub(group.winner, data.season);
+  return `<section class="cup-group" aria-labelledby="group-${key.toLowerCase()}" data-group="${collection}:${key}"><p class="cup-tie-stage">${escape(data.season)} ${escape(data.competition)} · 조별리그</p><h3 class="cup-group-title" id="group-${key.toLowerCase()}">${escape(key)}조</h3><div class="cup-group-scroll" tabindex="0" role="region" aria-label="${escape(key)}조 순위표"><table class="cup-group-table"><thead><tr><th scope="col">순위</th><th scope="col">팀</th><th scope="col">경기</th><th scope="col">승</th><th scope="col">무</th><th scope="col">패</th><th scope="col">득실</th><th scope="col">승점</th></tr></thead><tbody>${rows}${withdrawn}</tbody></table></div><ol class="cup-group-matches" aria-label="${escape(key)}조 경기 결과">${matches}</ol><dl class="cup-leg-results cup-group-summary"><div class="cup-advance"><dt>4강 진출</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(group.deck)}</p></section>`;
+}
+
+// 참가팀 표: 도시 선발팀과 구단을 구분하고 조·결과를 붙인다. 누적 횟수는 페어스컵만 따로 센다(첫 대회라 모두 첫 출전).
+export function renderGroupEntrants(collection) {
+  const data = loadGroups(collection);
+  const image = (asset, width, height) => `<img src="${escape(asset.src)}" alt="" width="${width}" height="${height}" loading="lazy" decoding="async" />`;
+  const rows = Object.entries(data.groups).flatMap(([key, group]) => {
+    computeGroupTable(data, key);
+    return [...group.teams, ...group.withdrawn].map(id => {
+      const club = resolveClub(id, data.season);
+      const result = group.withdrawn.includes(id) ? '기권' : id === group.winner ? '조 1위 · 4강 진출' : '조별리그 탈락';
+      return `<tr><td><span class="cup-participant-country">${image(club.flag, 28, 20)}${escape(club.country)}</span></td><td><span class="cup-entrant-club">${club.crest ? image(club.crest, 32, 32) : ''}${escape(club.name)}</span></td><td>${club.kind === 'city-select' ? '도시 선발팀' : '구단'}</td><td>${escape(key)}조</td><td>${result}</td></tr>`;
+    });
+  }).join('');
+  return `<div class="cup-participant-scroll" tabindex="0" role="region" aria-label="${escape(data.season)} ${escape(data.competition)} 참가팀과 조 편성 표"><table><thead><tr><th scope="col">국가</th><th scope="col">참가팀</th><th scope="col">구분</th><th scope="col">조</th><th scope="col">결과</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
 // Build-time expansion only: no client script, remote fetch or runtime dependency.
 export function expandFootballTies(html) {
+  const grouped = html.replace(/<div data-football-group="([a-z0-9-]+):([A-H])"><\/div>/g, (_, collection, key) => renderGroup(collection, key)).replace(/<div data-football-group-entrants="([a-z0-9-]+)"><\/div>/g, (_, collection) => renderGroupEntrants(collection));
+  if (grouped.includes('data-football-group=') || grouped.includes('data-football-group-entrants=')) throw new Error('Malformed football group placeholder');
+  html = grouped;
   const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|preliminary-round|round-of-16|quarter-finals|semi-finals|final|champions|runners-up)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
   const scorers = milestones.replace(/<div data-european-cup-scorers="(\d{4}-\d{2})"><\/div>/g, (_, season) => renderTopScorers(season));
   const results = scorers.replace(/<div data-football-results="([a-z0-9-]+):(예선|16강|8강|4강)"><\/div>/g, (_, collection, stage) => renderResultTable(collection, stage));

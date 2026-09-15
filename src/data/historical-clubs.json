@@ -909,5 +909,333 @@
       }
     ],
     "review": "1956-57 국기·문장 대조. ATLETICO 표기 문장. 1941-1972년 공식 명칭 시기."
+  },
+  "cf-barcelona": {
+    "name": "CF 바르셀로나",
+    "original": "CLUB DE FÚTBOL BARCELONA",
+    "country": "스페인",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/es-1945.png"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/clubs/barcelona-1949.webp",
+        "period": "1949-1960(Logopedia, C. de F. B. 표기)",
+        "sources": [
+          "https://logos.fandom.com/wiki/FC_Barcelona"
+        ]
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵. 대회 명부의 바르셀로나 XI는 사실상 CF 바르셀로나 선수단이라 운영자 확정(2026-09-15)으로 구단으로 처리. 1941-1973 공식명은 Club de Fútbol Barcelona."
+  },
+  "birmingham-city": {
+    "name": "버밍엄 시티 FC",
+    "original": "BIRMINGHAM CITY F.C.",
+    "country": "잉글랜드",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/gb-eng.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/clubs/birmingham-city-1936.webp",
+        "period": "1936-1970(Logopedia, 버밍엄 시 문장 사용)",
+        "sources": [
+          "https://logos.fandom.com/wiki/Birmingham_City_F.C."
+        ]
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵."
+  },
+  "internazionale": {
+    "name": "FC 인테르나치오날레 밀라노",
+    "original": "FOOTBALL CLUB INTERNAZIONALE MILANO",
+    "country": "이탈리아",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/it.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/clubs/internazionale-1945.svg",
+        "period": "1945-1960(Logopedia)",
+        "sources": [
+          "https://logos.fandom.com/wiki/Inter_Milan"
+        ]
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵."
+  },
+  "lausanne-sports": {
+    "name": "로잔 스포르",
+    "original": "LAUSANNE-SPORTS",
+    "country": "스위스",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/ch.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/clubs/lausanne-sports-1920.webp",
+        "period": "1920-1980(Logopedia)",
+        "sources": [
+          "https://logos.fandom.com/wiki/FC_Lausanne-Sport"
+        ]
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵. 당시 명칭 Lausanne-Sports, 현 FC 로잔 스포르."
+  },
+  "london-xi": {
+    "name": "런던 XI",
+    "original": "LONDON XI",
+    "country": "잉글랜드",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/gb-eng.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/city-of-london.svg",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Lesser_Coat_of_Arms_of_The_City_of_London.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용. 런던 지역 풋볼리그 11개 구단 선수로 구성."
+  },
+  "kbu-koebenhavn-xi": {
+    "name": "KBU 코펜하겐 XI",
+    "original": "KBU KØBENHAVN XI",
+    "country": "덴마크",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/dk.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/koebenhavn.svg",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Copenhagen.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용. 코펜하겐 축구연맹(KBU) 선발."
+  },
+  "wien-xi": {
+    "name": "빈 XI",
+    "original": "WIEN XI",
+    "country": "오스트리아",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/at.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/wien.svg",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Wien_Wappen.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용. 1925년 이후 공식 문장인 붉은 방패·흰 십자(독수리형은 시 기관 전용). 대회 기권."
+  },
+  "zagreb-xi": {
+    "name": "자그레브 XI",
+    "original": "ZAGREB XI",
+    "country": "유고슬라비아",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/yu-1946.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/zagreb-1947.webp",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Zagreb_(1947.).svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용. 1947년 도안."
+  },
+  "leipzig-xi": {
+    "name": "라이프치히 XI",
+    "original": "LEIPZIG XI",
+    "country": "동독",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/de.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/leipzig.svg",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Leipzig.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용. 동독 국기는 1959년까지 문장 없는 흑적금."
+  },
+  "koeln-xi": {
+    "name": "쾰른 XI",
+    "original": "KÖLN XI",
+    "country": "서독",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/de.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/koeln.svg",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Wappen_Koeln.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용. 대회 기권."
+  },
+  "frankfurt-xi": {
+    "name": "프랑크푸르트 XI",
+    "original": "FRANKFURT XI",
+    "country": "서독",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/de.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/frankfurt-am-main.webp",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Wappen_Frankfurt_am_Main_nach_Klemens_Stadler.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용."
+  },
+  "basel-xi": {
+    "name": "바젤 XI",
+    "original": "BASEL XI",
+    "country": "스위스",
+    "kind": "city-select",
+    "flags": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/flags/ch.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1955-58"
+        ],
+        "src": "/images/archive/teams/cities/basel.svg",
+        "period": "도시 문장",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Wappen_Basel-Stadt_matt.svg"
+        ],
+        "selection": "city-arms"
+      }
+    ],
+    "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용."
   }
 }
