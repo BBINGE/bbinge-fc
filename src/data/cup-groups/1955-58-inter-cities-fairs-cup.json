@@ -2,7 +2,7 @@
   "competition": "인터시티스 페어스컵",
   "season": "1955-58",
   "pointsForWin": 2,
-  "source": "RSSSF, Fairs' Cup 1955-58 (Antonio Zea, Marcel Haisma, 2009). 순위는 승점(승 2·무 1) → 득실차 → 다득점으로 계산한다.",
+  "source": "RSSSF, Fairs' Cup 1955-58 (Antonio Zea, Marcel Haisma, 2009). 인테르-버밍엄 시티 첫 경기는 버밍엄 시티 구단 기록(Blues in Europe)에 따라 1956-05-16(RSSSF 05-15). 순위는 승점(승 2·무 1) → 득실차 → 다득점으로 계산한다.",
   "groups": {
     "A": {
       "teams": ["cf-barcelona", "kbu-koebenhavn-xi"],
@@ -12,14 +12,14 @@
         { "date": "1955-12-25", "home": "cf-barcelona", "away": "kbu-koebenhavn-xi", "score": [6, 2] },
         { "date": "1956-04-26", "home": "kbu-koebenhavn-xi", "away": "cf-barcelona", "score": [1, 1] }
       ],
-      "deck": "빈 XI가 빠진 두 팀 조. 크리스마스의 6-2가 사실상 승부를 끝냈다."
+      "deck": "빈 XI가 빠진 두 팀 조. 레스 코르츠의 크리스마스 6-2가 사실상 승부를 끝냈다."
     },
     "B": {
       "teams": ["birmingham-city", "internazionale", "zagreb-xi"],
       "withdrawn": [],
       "winner": "birmingham-city",
       "matches": [
-        { "date": "1956-05-15", "home": "internazionale", "away": "birmingham-city", "score": [0, 0] },
+        { "date": "1956-05-16", "home": "internazionale", "away": "birmingham-city", "score": [0, 0] },
         { "date": "1956-05-22", "home": "zagreb-xi", "away": "birmingham-city", "score": [0, 1] },
         { "date": "1956-06-06", "home": "zagreb-xi", "away": "internazionale", "score": [0, 1] },
         { "date": "1956-12-03", "home": "birmingham-city", "away": "zagreb-xi", "score": [3, 0] },
