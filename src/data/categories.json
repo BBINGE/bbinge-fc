@@ -49,8 +49,8 @@
       "description": "흑백 화면 속 공 하나가 잔상처럼 골문으로 향합니다. 관중은 이미 일어났고, 골키퍼는 몸을 던졌으며, 우리는 수십 년 뒤의 화면 앞에서 결과를 알면서도 다시 숨을 멈춥니다. H/L은 오래된 경기의 결정적 장면을 짧은 영상과 해설로 이어봅니다. 누가 득점했는지만 남기지 않고, 공이 어디에서 시작해 누구의 발을 거쳐 경기의 방향을 바꾸었는지 바라봅니다. 결과표에는 한 줄로 남은 경기일지라도, 그 한 줄이 만들어지는 데에는 언제나 몇 번의 움직임이 있었으니까요.",
       "parentSlug": null
     },
-    { "slug": "fifa-world-cup", "label": "FIFA 월드컵", "fullLabel": "FIFA 월드컵 하이라이트", "parentSlug": "highlights" },
-    { "slug": "european-cup", "label": "유러피언컵", "fullLabel": "유러피언컵 하이라이트", "parentSlug": "highlights" },
+    { "slug": "fifa-world-cup", "label": "FIFA 월드컵", "pageTitle": "FIFA 월드컵 결승 H/L", "fullLabel": "FIFA 월드컵 하이라이트", "parentSlug": "highlights" },
+    { "slug": "european-cup", "label": "유러피언컵", "pageTitle": "유러피언컵 결승 H/L", "fullLabel": "유러피언컵 하이라이트", "parentSlug": "highlights" },
     {
       "slug": "squads",
       "label": "축쿼드",

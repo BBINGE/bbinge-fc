@@ -31,3 +31,6 @@ affiliate-monitor-report.json
 
 # 임시 브리프/초안 아카이브 (커밋 대상 아님)
 files.zip
+
+# Codex 작업용 worktree 복사본 (커밋 대상 아님)
+.codex-worktrees/
