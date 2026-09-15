@@ -85,28 +85,22 @@ draft: false
 
 ## 2010년 산시로와 올드 트래퍼드의 180분
 
-공이 한 사람에게 모이는 팀은 그 한 사람이 봉쇄되는 순간 흐름 전체가 멎는다. 피를로의 선수 시절에서 이 약점이 가장 적나라하게 드러난 무대는 2009-10 UEFA 챔피언스 리그 16강, 맨체스터 유나이티드와의 두 경기였다. UEFA 공식 기록에 따르면 박지성<span class="foreign-note">(대한민국 축구선수, 1981-)</span>과 피를로는 두 경기 모두 선발로 나서 교체 없이 끝까지 그라운드를 지켰다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+공이 한 사람에게 모이는 팀은 그 한 사람이 봉쇄되는 순간 흐름 전체가 멎는다. 피를로의 선수 시절에서 이 약점이 가장 적나라하게 드러난 무대는 2009-10 UEFA 챔피언스 리그 16강, 맨체스터 유나이티드와의 두 경기였다. 당시 박지성<span class="foreign-note">(대한민국 축구선수, 1981-)</span>과 피를로는 두 경기 모두 선발로 나서 풀 타임으로 경기를 소화했다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
 <section class="pt-legs" aria-label="2010년 UEFA 챔피언스 리그 16강 밀란-맨체스터 유나이티드 두 경기 기록">
-  <header><span>MATCH RECORD · UEFA</span><strong>박지성과 피를로가 함께 뛴 두 경기</strong></header>
+  <header><span>MATCH RECORD</span><strong>박지성과 피를로가 함께 뛴 두 경기</strong></header>
   <div class="pt-legs__row pt-legs__head"><b>경기</b><b>결과</b><b>박지성</b><b>피를로</b></div>
-  <div class="pt-legs__row"><b>2010.02.16 · 산시로<small>AC 밀란-맨체스터 유나이티드</small></b><p class="score">2-3</p><p>선발 · 교체 없음</p><p>선발 · 교체 없음</p></div>
-  <div class="pt-legs__row"><b>2010.03.10 · 올드 트래퍼드<small>맨체스터 유나이티드-AC 밀란</small></b><p class="score">4-0</p><p>선발 · 교체 없음 · 1골</p><p>선발 · 교체 없음</p></div>
-  <p class="pt-legs__note">합계 7-2로 맨체스터 유나이티드 진출. 교체 기록은 UEFA 경기 이벤트 자료 기준.</p>
+  <div class="pt-legs__row"><b>2010.02.16 · 산시로<small>AC 밀란-맨체스터 유나이티드</small></b><p class="score">2-3</p><p>선발 · 풀 타임</p><p>선발 · 풀 타임</p></div>
+  <div class="pt-legs__row"><b>2010.03.10 · 올드 트래퍼드<small>맨체스터 유나이티드-AC 밀란</small></b><p class="score">4-0</p><p>선발 · 풀 타임 · 1골</p><p>선발 · 풀 타임</p></div>
+  <p class="pt-legs__note">합계 7-2로 맨체스터 유나이티드 진출.</p>
 </section>
 
 <figure class="pt-photo">
-  <img src="/images/tactics/pirlo-coverciano-thesis/park-ji-sung-2010.webp" alt="맨체스터 유나이티드 빨간 유니폼의 박지성이 흰 유니폼의 풀럼 선수들 사이로 공을 향해 달리는 장면" width="1600" height="1021" loading="lazy" decoding="async">
-  <figcaption>2010년 8월 22일 풀럼-맨체스터 유나이티드전의 박지성. 밀란과의 16강 반년 뒤 같은 시기의 모습이다. 사진: Magnus D, CC BY 2.0.</figcaption>
+  <img src="/images/tactics/pirlo-coverciano-thesis/park-ji-sung-pirlo-2010-san-siro.webp" alt="흰 원정 유니폼의 박지성과 빨강·검정 줄무늬 유니폼의 피를로가 나란히 달리는 장면" width="1600" height="900" loading="lazy" decoding="async">
+  <figcaption>2010년 2월 16일 산시로, UEFA 챔피언스 리그 16강 1차전의 박지성과 피를로. 사진: Getty Images.</figcaption>
 </figure>
 
 피를로는 2013년 자서전 『Penso quindi gioco』<span class="foreign-note" lang="it">(생각한다, 그러므로 뛴다; 알레산드로 알치아토와 함께 쓴 회고록)</span>에서 박지성을 역사상 첫 “핵추진” 한국인이라 부르며, 공이 아닌 자신을 막도록 프로그램된 선수로 묘사했다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a> 같은 해 알렉스 퍼거슨<span class="foreign-note" lang="en">(Alex Ferguson; 스코틀랜드 축구 감독, 1941-)</span> 역시 자서전에서 박지성을 붙인 뒤 피를로의 패스 성공률을 75%에서 25%로 끌어내렸다고 적었다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
-
-<aside class="pt-caution">
-  <span>READING THE EVIDENCE</span>
-  <strong>퍼거슨의 25%를 어떻게 읽을까</strong>
-  <div><p><b>말한 것</b>대인마크가 피를로의 공 배급을 크게 줄였다는 감독 본인의 기억이다. 피를로의 자서전도 같은 경험을 고통스럽게 회고한다.</p><p><b>말하지 않은 것</b>두 경기를 끝까지 뛴 레지스타의 실제 패스 성공률이 25%였다는 측정값이다. 수치의 정의와 출처가 없으므로 이 글에서는 경험의 강도를 보여 주는 진술로만 쓴다.</p></div>
-</aside>
 
 두 회고가 방증하는 바는 분명하다. 한 사람에게 집중된 경기 조율은 한 사람의 수비수로도 얼마든지 끊어 낼 수 있다. 피를로가 이 경험을 논문까지 가져갔는지는 짐작의 영역에 머물 법하지만, 뜻밖에도 논문 안에는 저자 자신의 문장으로 그 연결 고리가 적혀 있다.
 
@@ -410,7 +404,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   <li id="source-26"><a href="https://en.wikipedia.org/wiki/Vincenzo_Italiano">Vincenzo Italiano 감독 경력 기록</a>; <a href="https://www.ilrestodelcarlino.it/bologna/sport/bfc/ex-allenatore-italiano-besiktas-5524887f">「Bologna, l'ex allenatore Italiano firma col Besiktas」</a>, <i>il Resto del Carlino</i>, 2026.06. 트라파니에서 베식타시까지의 경로.</li>
   <li id="source-27"><a href="https://sport.sky.it/calcio/nazionale/2026/07/29/andrea-pirlo-dubai-fc-italia-comunicato">「Andrea Pirlo, il Dubai Fc conferma la fiducia dopo il caso Italia」</a>, <i>Sky Sport</i>, 2026.07.29. United FC 승격과 대표팀 선임 무산 뒤의 잔류 확인.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Andrea_Pirlo_vs_Real_Madrid.jpg">「Andrea Pirlo vs Real Madrid.jpg」</a>, Jan S0L0, 2010, CC BY-SA 2.0.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:Ji-Sung_Park_vs_Fulham.jpg">「Ji-Sung Park vs Fulham.jpg」</a>, Magnus D, 2010, CC BY 2.0. 크기를 조정했다.</li>
+  <li>2010년 2월 16일 AC 밀란-맨체스터 유나이티드 경기 사진, Getty Images. 게재처: <a href="https://www.goal.com/en/news/pirlo-was-the-best-in-the-world---former-man-utd-star-park-pays-homage-to-retiring-great/jznti9i8szcx1smct9s9rtdjx">Goal</a>.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Palermo_FC_-_UC_Sampdoria,_17_May_2024_02.jpg">「Palermo FC - UC Sampdoria, 17 May 2024 02.jpg」</a>, SonoGrazy, 2024, CC BY-SA 4.0. 크기를 조정했다.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Thiago_Motta_Bologna_2024.jpg">「Thiago Motta Bologna 2024.jpg」</a>, Pietro Luca Cassarino, 2024, CC BY-SA 4.0.</li>
 </ol>
