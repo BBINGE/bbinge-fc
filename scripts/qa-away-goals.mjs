@@ -10,19 +10,19 @@ for (const width of [380, 1440]) {
   const r = await page.evaluate(async () => {
     for (const img of document.querySelectorAll('article img')) { img.loading = 'eager'; img.scrollIntoView(); await new Promise((ok) => setTimeout(ok, 80)); }
     await new Promise((ok) => setTimeout(ok, 800));
-    const over = [...document.querySelectorAll('.ag-board,.ag-bars,.ag-et,.ag-cf,.ag-split,.ag-home')].filter((el) => el.scrollWidth > el.clientWidth + 1).map((el) => el.className);
+    const over = [...document.querySelectorAll('.ag-board,.ag-bars,.ag-et,.ag-cf,.ag-split,.ag-home,.ag-cases,.ag-legs,.ag-clubs,.ag-scope,.ag-timeline')].filter((el) => el.scrollWidth > el.clientWidth + 1).map((el) => el.className);
     return {
       overflow: document.documentElement.scrollWidth - innerWidth,
       broken: [...document.querySelectorAll('article img')].filter((i) => !i.naturalWidth).map((i) => i.src),
       missingCites: [...document.querySelectorAll('a.cite')].map((a) => a.getAttribute('href')).filter((h) => !document.querySelector(h)),
-      panels: ['.ag-board', '.ag-bars', '.ag-split', '.ag-et', '.ag-home', '.ag-cf'].map((s) => !!document.querySelector(s)),
+      panels: ['.ag-board', '.ag-bars', '.ag-split', '.ag-et', '.ag-home', '.ag-cf', '.ag-timeline', '.ag-cases', '.ag-legs', '.ag-clubs', '.ag-scope'].map((s) => !!document.querySelector(s)),
       over,
       h1: document.querySelector('h1')?.textContent.trim(),
     };
   });
   console.log(width, JSON.stringify(r));
   if (r.overflow > 0 || r.broken.length || r.missingCites.length || r.panels.includes(false) || r.over.length) fails.push(`${width} ${JSON.stringify(r)}`);
-  for (const sel of ['.ag-board', '.ag-bars', '.ag-et', '.ag-home', '.ag-cf']) { const el = await page.$(sel); await el.scrollIntoViewIfNeeded(); await el.screenshot({ path: `${process.env.TEMP}/ag-${width}-${sel.slice(4)}.png` }); }
+  for (const sel of ['.ag-legs', '.ag-cases', '.ag-clubs', '.ag-scope', '.ag-timeline']) { const el = await page.$(sel); await el.scrollIntoViewIfNeeded(); await el.screenshot({ path: `${process.env.TEMP}/ag-${width}-${sel.slice(4)}.png` }); }
   await page.close();
 }
 await browser.close();

@@ -29,6 +29,8 @@ faq:
     answer: "UEFA 공식 경기 기록 기준으로 1965-66시즌부터 2020-21시즌까지 유러피언컵·UEFA 챔피언스 리그, 유러피언 컵위너스컵, UEFA컵·UEFA 유로파 리그의 두 경기 합계 대결 8,415건 가운데 698건(8.3%)이 원정골로 갈렸습니다. 합계 동점이 된 946건 가운데서는 네 건 중 세 건꼴입니다."
   - question: "원정 다득점 규정은 어느 팀에게 유리했나요?"
     answer: "원정골로 갈린 698건은 1차전을 홈에서 치른 팀 349건, 2차전을 홈에서 치른 팀 349건으로 정확히 반씩 나뉩니다. 연구에서는 2차전을 홈에서 치르는 팀이 원래 조금 더 자주 올라가고, 원정골 규정이 1차전 홈팀 쪽으로 그 차이를 일부 되돌린다는 결과가 나왔습니다."
+  - question: "1차전을 홈에서 1-1로 비기면 불리했나요?"
+    answer: "원정골 규정이 있던 1965-66시즌부터 2020-21시즌까지 1차전 홈 1-1 뒤 그 팀의 최종 통과율은 28.0%로, 0-0 뒤의 35.8%보다 낮았습니다. 폐지 뒤 다섯 시즌에는 1-1 뒤 통과율이 45.5%로 올라 0-0 뒤의 40.0%보다 높아졌습니다."
   - question: "연장전 원정골은 왜 불공평하다고 했나요?"
     answer: "2차전 연장전에서 원정팀이 골을 넣으면 홈팀은 두 골을 넣어야 했기 때문입니다. 연장전 원정골로 갈린 35건은 모두 원정팀이 올라갔습니다. 다만 연장전까지 간 542건 전체에서는 2차전 홈팀이 58.7%를 통과했고, 연장전 득점도 홈팀 314골 대 원정팀 177골로 홈팀이 더 많았습니다."
 draft: false
@@ -37,7 +39,7 @@ featured: false
 
 <div class="column-thesis">
   <span>짧은 답</span>
-  <p>규정이 한쪽을 편들었다는 흔적은 숫자로 잘 드러나지 않는다. 56시즌 동안 원정골로 갈린 <strong>698건</strong>은 1차전 홈팀과 2차전 홈팀이 <strong>349 대 349</strong>로 나눠 가졌다. 불공평이 분명했던 곳은 연장전 원정골로 갈린 <strong>35건</strong>이었고, UEFA가 폐지 발표에서 앞세운 숫자도 반세기 동안 줄어든 홈 이점이었다.</p>
+  <p>규정이 한쪽을 편들었다는 흔적은 숫자로 잘 드러나지 않는다. 56시즌 동안 원정골로 갈린 <strong>698건</strong>은 1차전 홈팀과 2차전 홈팀이 <strong>349 대 349</strong>로 나눠 가졌다. 불공평이 분명했던 곳은 연장전 원정골로 갈린 <strong>35건</strong>이었다. 규정이 더 크게 흔든 것은 1차전 스코어의 값으로, 홈에서 1-1로 비긴 팀의 최종 통과율은 <strong>28.0%</strong>에 그쳐 0-0으로 비긴 팀보다 낮았다. UEFA가 폐지 발표에서 앞세운 숫자는 반세기 동안 줄어든 홈 이점이었다.</p>
 </div>
 
 2019년 5월 8일 암스테르담. UEFA 챔피언스 리그 준결승 2차전 전반이 끝났을 때 아약스는 합계 3-0으로 앞서 있었다. 토트넘은 후반에만 세 골을 넣었고 마지막 골은 후반 추가시간에 나왔다. 두 경기 합계는 3-3이었지만 결승에 오른 팀은 토트넘이었다. 1차전 런던에서 1-0으로 이긴 아약스는 원정골이 한 골, 2차전 암스테르담에서 3-2로 이긴 토트넘은 원정골이 세 골이었기 때문이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
@@ -61,6 +63,18 @@ featured: false
 
 원정골 규정은 이 문제를 경기장 안에서 끝내려는 장치였다. 처음 적용된 대회는 1965-66시즌 유러피언 컵위너스컵이다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a> UEFA 공식 기록에 남은 첫 사례가 헝가리의 부더페슈트 혼베드<span class="foreign-note" lang="hu">(Budapesti Honvéd)</span>와 체코슬로바키아의 두클라 프라하<span class="foreign-note" lang="cs">(Dukla Praha)</span>가 만난 1라운드다. 혼베드는 1965년 11월 3일 프라하에서 3-2로 이기고 11월 10일 홈에서 1-2로 졌다. 합계 4-4에서 혼베드의 원정골이 세 골, 두클라의 원정골이 두 골이었으므로 혼베드가 올라갔다. 유러피언컵에서는 1967-68시즌 1라운드부터 원정골이 승부를 갈랐다. 북아일랜드의 글렌토란<span class="foreign-note" lang="en">(Glentoran FC)</span>은 벤피카와 벨파스트에서 1-1, 리스본에서 0-0으로 비겼고 원정골 한 골을 가진 벤피카가 다음 라운드로 갔다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
+원정골 수까지 같을 때 쓰던 동전은 1970-71시즌 승부차기로 바뀌었다. UEFA 공식 기록에서 가장 이른 승부차기는 1970년 9월 30일 컵위너스컵 1라운드 2차전이다. 애버딘<span class="foreign-note" lang="en">(Aberdeen FC)</span>과 혼베드가 각자 홈에서 3-1로 이겨 합계와 원정골이 모두 같았고, 혼베드가 승부차기에서 5-4로 올라갔다. 원정골로 갈린 첫 대결과 승부차기로 갈린 첫 대결에 모두 같은 헝가리 구단이 서 있었던 셈이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+
+<ol class="ag-timeline" aria-label="원정 다득점 규정 연표">
+  <li><time>1964-65</time><p><strong>유러피언컵 동전 던지기 세 번</strong>리버풀과 1. FC 쾰른은 세 경기를 비기고 동전으로 갈렸다.</p></li>
+  <li><time>1965-66</time><p><strong>컵위너스컵에서 원정골 첫 적용</strong>혼베드가 두클라 프라하를 원정 3골로 넘었다.</p></li>
+  <li><time>1967-68</time><p><strong>유러피언컵 적용</strong>벤피카가 글렌토란과 1-1, 0-0으로 비기고 올라갔다.</p></li>
+  <li><time>1970-71</time><p><strong>동전 대신 승부차기</strong>혼베드가 애버딘을 5-4로 이겼다.</p></li>
+  <li><time>1976-77</time><p><strong>원정골로 끝난 첫 UEFA컵 결승</strong>유벤투스가 아틀레틱 클루브를 1-0, 1-2로 넘었다.</p></li>
+  <li><time>2020-21</time><p><strong>마지막 적용 시즌</strong>포르투가 유벤투스를 연장전 원정골로 넘었다.</p></li>
+  <li><time>2021-22</time><p><strong>UEFA 전 클럽 대회에서 폐지</strong>합계가 같으면 연장전과 승부차기로 간다.</p></li>
+</ol>
+
 ## 56년 동안 원정골로 갈린 대결은 몇 건이었나요?
 
 규정이 적용된 8,415건 가운데 두 경기 합계가 같았던 대결은 946건이다. 그중 698건이 원정골로 갈렸고 237건은 승부차기, 나머지 11건은 규정 초기의 재경기 등으로 끝났다. 합계 동점이 나오면 네 건 중 세 건꼴로 원정골이 결론을 냈다는 뜻이다. 전체 대결에서 원정골로 갈린 비율은 시기에 따라 크게 흔들리지 않았다. 5년 단위로는 2005-09년의 10.4%가 가장 높았고, 한 시즌 기준 최다는 2015-16시즌의 25건이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
@@ -83,6 +97,45 @@ featured: false
   <footer>시즌 시작 연도 기준. 2020-21시즌은 예선 단판 경기가 많아 2015-19와 합쳤다.</footer>
 </section>
 
+원정골로 갈린 대결은 대부분 한 골 차의 좁은 싸움이었다. 가장 흔한 조합은 1차전 홈에서 1-0으로 이기고 원정에서 1-2로 진 경우로 92건이었고, 1차전 1-1 뒤 2차전 0-0이 84건, 1차전 0-0 뒤 2차전 1-1이 76건으로 뒤를 이었다. 대회가 깊어질수록 원정골의 몫도 커졌다. 예선 라운드에서는 4.9-8.6%였던 비율이 16강에서 12.3%, 준결승에서 10.9%까지 올라갔다. 비슷한 전력의 팀만 남을수록 두 경기 합계가 같아지는 일도 잦아졌다는 뜻이다. UEFA컵 결승이 두 경기로 치러진 1971-72시즌부터 1996-97시즌까지 26번의 결승 가운데 세 번은 우승컵의 주인까지 원정골이 정했다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+
+<div class="ag-cases" role="table" aria-label="원정골로 갈린 주요 대결">
+  <div role="row" class="ag-cases__head"><span role="columnheader">시즌 · 라운드</span><span role="columnheader">1차전 · 2차전</span><span role="columnheader">통과</span></div>
+  <div role="row"><b role="cell">1976-77 UEFA컵 결승</b><span role="cell">유벤투스 1-0 아틀레틱 클루브 · 아틀레틱 클루브 2-1 유벤투스</span><em role="cell">유벤투스</em></div>
+  <div role="row"><b role="cell">1979-80 UEFA컵 결승</b><span role="cell">묀헨글라트바흐 3-2 프랑크푸르트 · 프랑크푸르트 1-0 묀헨글라트바흐</span><em role="cell">프랑크푸르트</em></div>
+  <div role="row"><b role="cell">1980-81 유러피언컵 준결승</b><span role="cell">리버풀 0-0 바이언 · 바이언 1-1 리버풀</span><em role="cell">리버풀</em></div>
+  <div role="row"><b role="cell">1991-92 UEFA컵 결승</b><span role="cell">토리노 2-2 아약스 · 아약스 0-0 토리노</span><em role="cell">아약스</em></div>
+  <div role="row"><b role="cell">2002-03 UEFA 챔피언스 리그 준결승</b><span role="cell">AC 밀란 0-0 인테르 · 인테르 1-1 AC 밀란 (두 경기 모두 산 시로)</span><em role="cell">AC 밀란</em></div>
+  <div role="row"><b role="cell">2003-04 UEFA 챔피언스 리그 8강</b><span role="cell">레알 마드리드 4-2 모나코 · 모나코 3-1 레알 마드리드</span><em role="cell">모나코</em></div>
+  <div role="row"><b role="cell">2008-09 UEFA 챔피언스 리그 준결승</b><span role="cell">바르셀로나 0-0 첼시 · 첼시 1-1 바르셀로나</span><em role="cell">바르셀로나</em></div>
+  <div role="row"><b role="cell">2017-18 UEFA 챔피언스 리그 8강</b><span role="cell">바르셀로나 4-1 AS 로마 · AS 로마 3-0 바르셀로나</span><em role="cell">AS 로마</em></div>
+  <div role="row"><b role="cell">2018-19 UEFA 챔피언스 리그 8강</b><span role="cell">토트넘 1-0 맨체스터 시티 · 맨체스터 시티 4-3 토트넘</span><em role="cell">토트넘</em></div>
+  <div role="row"><b role="cell">2020-21 UEFA 챔피언스 리그 8강</b><span role="cell">바이언 2-3 파리 생제르맹 · 파리 생제르맹 0-1 바이언</span><em role="cell">파리 생제르맹</em></div>
+</div>
+
+같은 경기장을 쓰는 두 팀도 원정골에서 자유롭지 않았다. 2002-03시즌 UEFA 챔피언스 리그 준결승의 AC 밀란과 인테르는 두 경기를 모두 산 시로에서 치렀지만, 서류상 원정이던 2차전에서 한 골을 넣은 밀란이 결승에 갔다. 같은 잔디, 같은 관중석에서 나온 골의 무게가 대진표의 홈·원정 칸에 따라 달라진 것이다.
+
+## 1차전을 홈에서 1-1로 비기면 정말 불리했나요?
+
+원정골 규정이 있던 시절에는 홈에서 내준 원정골이 뼈아프다는 말이 흔했고, 1차전을 홈에서 치른 팀의 최종 통과율을 1차전 스코어별로 나눠 보면 그 말이 과장이 아니었음이 드러난다. 규정이 있던 시기에 1차전을 홈에서 0-0으로 비긴 팀은 약 36%가 다음 라운드로 올라갔는데, 한 골씩 주고받으며 1-1로 비긴 팀은 약 28%, 두 골씩 주고받으며 2-2로 비긴 팀은 약 22%만 살아남았다. 같은 무승부라도 골을 주고받을수록 1차전 홈팀이 불리했던 것이다. 이긴 경기에서도 마찬가지로 홈에서 1-0으로 이긴 팀의 통과율은 약 61%였지만, 이기는 동안 한 골을 내준 2-1 승리 팀의 통과율은 약 51%로 떨어져 동전 던지기에 가까워졌다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+
+<div class="ag-legs" role="table" aria-label="1차전 스코어별 1차전 홈팀의 최종 통과율, 원정골 규정 시기와 폐지 뒤 비교">
+  <div role="row" class="ag-legs__head"><span role="columnheader">1차전 홈</span><span role="columnheader">규정 시기 1965-2020</span><span role="columnheader">폐지 뒤 2021-25</span></div>
+  <div role="row"><b role="cell">3-0</b><span role="cell" style="--p:94.8"><i></i>94.8% <small>(485)</small></span><span role="cell" style="--p:97.0"><i></i>97.0% <small>(33)</small></span></div>
+  <div role="row"><b role="cell">2-0</b><span role="cell" style="--p:84.2"><i></i>84.2% <small>(726)</small></span><span role="cell" style="--p:81.6"><i></i>81.6% <small>(38)</small></span></div>
+  <div role="row"><b role="cell">3-1</b><span role="cell" style="--p:77.6"><i></i>77.6% <small>(339)</small></span><span role="cell" style="--p:94.1"><i></i>94.1% <small>(17)</small></span></div>
+  <div role="row"><b role="cell">1-0</b><span role="cell" style="--p:60.6"><i></i>60.6% <small>(1,035)</small></span><span role="cell" style="--p:58.8"><i></i>58.8% <small>(68)</small></span></div>
+  <div role="row" class="is-key"><b role="cell">2-1</b><span role="cell" style="--p:51.4"><i></i>51.4% <small>(621)</small></span><span role="cell" style="--p:62.8"><i></i>62.8% <small>(43)</small></span></div>
+  <div role="row"><b role="cell">0-0</b><span role="cell" style="--p:35.8"><i></i>35.8% <small>(765)</small></span><span role="cell" style="--p:40.0"><i></i>40.0% <small>(40)</small></span></div>
+  <div role="row" class="is-key"><b role="cell">1-1</b><span role="cell" style="--p:28.0"><i></i>28.0% <small>(855)</small></span><span role="cell" style="--p:45.5"><i></i>45.5% <small>(66)</small></span></div>
+  <div role="row" class="is-key"><b role="cell">2-2</b><span role="cell" style="--p:22.1"><i></i>22.1% <small>(289)</small></span><span role="cell" style="--p:39.1"><i></i>39.1% <small>(23)</small></span></div>
+  <div role="row"><b role="cell">0-1</b><span role="cell" style="--p:11.9"><i></i>11.9% <small>(632)</small></span><span role="cell" style="--p:15.4"><i></i>15.4% <small>(39)</small></span></div>
+  <div role="row"><b role="cell">1-2</b><span role="cell" style="--p:6.8"><i></i>6.8% <small>(383)</small></span><span role="cell" style="--p:12.1"><i></i>12.1% <small>(33)</small></span></div>
+  <div role="row"><b role="cell">0-2</b><span role="cell" style="--p:2.9"><i></i>2.9% <small>(374)</small></span><span role="cell" style="--p:0.0"><i></i>0.0% <small>(29)</small></span></div>
+</div>
+
+규정이 사라진 뒤에는 순서가 바뀐다. 2021-22시즌부터 다섯 시즌 동안 1차전을 홈에서 1-1로 비긴 팀의 통과율은 약 46%로 올라가 0-0으로 비긴 팀의 40%를 앞질렀고, 홈에서 2-1로 이긴 팀의 통과율도 약 63%까지 올라가 1-0으로 이긴 팀의 약 59%를 넘어섰다. 원정골에 따로 무게가 붙지 않으니 골을 주고받은 경기가 더는 불리하지 않은 것이다. 표본은 스코어별 23-68건으로 작아서 폐지 뒤 수치의 소수점까지 믿을 수는 없지만, 1-1과 2-2 뒤 통과율이 나란히 17%포인트 넘게 뛰어오른 방향은 규칙이 바뀐 만큼의 변화와 맞아떨어진다. 무승부 뒤 1차전 홈팀의 통과율이 50%에 못 미치는 것은 대진 추첨에서 대개 시드가 낮은 팀이 1차전을 홈에서 치르기 때문이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-5" aria-label="출처 5">[5]</a> UEFA가 1차전 홈팀이 실점을 두려워한다고 한 설명도 이 표에서만큼은 근거가 있다. 한 골을 내주는 순간 통과율 61%짜리 승리가 51%짜리 승리로 바뀌었으니, 두려워할 만했다.
+
 ## 원정골 규정은 1차전 홈팀과 2차전 홈팀 중 누구 편이었나요?
 
 원정골로 갈린 698건을 누가 가져갔는지 나누면 1차전을 홈에서 치른 팀이 349건, 2차전을 홈에서 치른 팀이 349건이다. 규정이 결론을 낸 대결만 놓고 보면 어느 쪽 순서도 더 이득을 보지 않았다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
@@ -95,6 +148,20 @@ featured: false
 이 반반을 두고 규정이 공정했다고 곧바로 말하기는 어렵다. 두 경기 합계 대결에는 원래 순서의 효과가 있기 때문이다. 같은 기록에서 2차전을 홈에서 치른 팀이 올라간 비율은 1955-56시즌부터 2019-20시즌까지 5년 단위로 52.5-57.6% 사이였다. 2007년 『저널 오브 스포츠 사이언스』에 실린 연구도 1956년부터 2006년까지 유럽 대항전 6,182건에서 2차전 홈팀의 통과 확률을 54.98%로 계산했다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
 그 우위가 순서 자체에서 나오는지는 연구마다 결론이 갈린다. 1994-95시즌 이후 UEFA 챔피언스 리그 토너먼트를 분석한 2011년 연구는 조별리그 성적과 팀 전력을 넣으면 차이가 모두 설명된다고 봤다. 조 1위가 2차전을 홈에서 치르도록 대진을 짜니 강팀이 2차전 홈에 몰린다는 것이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 반면 2009-10시즌부터 2014-15시즌까지 UEFA 챔피언스 리그와 UEFA 유로파 리그를 전력 차이로 보정한 2018년 연구는 전력이 비슷한 두 팀에서도 2차전 홈팀의 통과 확률이 53.9%로 약간 높다고 추정했다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> UEFA와 남미축구연맹 대회 30년치를 비교한 2023년 연구는 원정골 규정이 오히려 1차전 홈팀의 통과 가능성을 높였고, 그만큼 2차전 홈팀의 이점을 일부 상쇄했다고 결론지었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a> 이 결과들을 겹쳐 보면 원정골 규정은 2차전 홈팀 쪽으로 기운 저울에 1차전 홈팀 쪽 추를 하나 더 얹은 규칙에 가깝다.
+
+강팀과 약팀 사이에서는 어땠을까. 독일 통일 뒤인 1991-92시즌부터 2020-21시즌까지 잉글랜드·스페인·이탈리아·독일·프랑스 5대 리그 구단과 그 밖의 리그 구단이 맞붙은 대결을 따로 세면, 1,396건 전체에서 5대 리그 구단은 77.4%를 통과했다. 같은 조합이 원정골로 갈린 104건에서는 51건, 49.0%였다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a> 원정골까지 가는 대결은 이미 180분 동안 리그의 이름값이 지워진 대결이었고, 거기서 원정골은 강팀의 편도 약팀의 편도 들지 않았다.
+
+<section class="ag-clubs" aria-labelledby="ag-clubs-title">
+  <header><span>CLUBS · AWAY GOALS RECORD</span><h3 id="ag-clubs-title">원정골과 가장 자주 얽힌 구단</h3></header>
+  <ol>
+    <li><b>츠르베나 즈베즈다</b><span>16번 · 9번 통과, 7번 탈락</span></li>
+    <li><b>인테르</b><span>15번 · 7번 통과, 8번 탈락</span></li>
+    <li><b>바이언</b><span>14번 · 9번 통과, 5번 탈락</span></li>
+    <li><b>슬라비아 프라하</b><span>13번 · 7번 통과, 6번 탈락</span></li>
+    <li><b>레프스키 소피아</b><span>13번 · 8번 통과, 5번 탈락</span></li>
+  </ol>
+  <footer>1965-66시즌부터 2020-21시즌까지 세 대회 합산. 원정골로 가장 많이 떨어진 구단은 인테르(8번)이고, 9번 통과는 츠르베나 즈베즈다·바이언과 함께 SK 라피트 빈(9승 2패), 바르셀로나(9승 3패)도 기록했다. AC 밀란은 7승 1패였다.</footer>
+</section>
 
 ## 연장전 원정골은 정말 불공평했나요?
 
@@ -164,6 +231,21 @@ UEFA가 발표문에 적은 핵심 숫자는 홈 이점의 감소였다. 1970년
   <figcaption>2015년 2월 17일 파르크 데 프랭스. 첼시는 이날 1-1 무승부로 원정골 한 골을 안고 런던으로 돌아갔다. Photo: @cfcunofficial (Chelsea Debs), Wikimedia Commons, CC BY-SA 2.0.</figcaption>
 </figure>
 
+## 이 기록으로 어디까지 말할 수 있나요?
+
+두 경기 합계 대결 기록은 결과를 정확히 세어 주지만, 결과가 왜 그렇게 나왔는지까지 증명하지는 않는다. 이 글의 숫자가 각각 무엇을 보여주고 무엇을 보여주지 못하는지 나눠 두면 다음과 같다.
+
+<div class="ag-scope" role="table" aria-label="이 집계가 보여주는 것과 보여주지 못하는 것">
+  <div role="row" class="ag-scope__head"><span role="columnheader">숫자</span><span role="columnheader">보여주는 것</span><span role="columnheader">보여주지 못하는 것</span></div>
+  <div role="row"><b role="cell">349 : 349</b><span role="cell">원정골이 결론을 낸 대결에서 1·2차전 순서의 몫이 같았다</span><span role="cell">원정골 규정이 없었다면 그 대결들이 연장전·승부차기에서 어떻게 끝났을지</span></div>
+  <div role="row"><b role="cell">35 / 35</b><span role="cell">연장전 원정골은 구조적으로 원정팀에게만 작동했다</span><span role="cell">홈팀이 연장전 원정골을 막으려 수비적으로 뛰었는지</span></div>
+  <div role="row"><b role="cell">1-1 뒤 28.0% → 45.5%</b><span role="cell">원정골 규정이 1차전 스코어의 값을 바꿨다</span><span role="cell">팀들이 1차전 전술을 실제로 바꿨는지. 보정 분석은 득점 증가를 확인하지 못했다<a class="cite" href="#source-8" aria-label="출처 8">[8]</a></span></div>
+  <div role="row"><b role="cell">63.1% → 45.8%</b><span role="cell">UEFA가 말한 홈 이점 감소가 같은 기록에서 재현된다</span><span role="cell">감소의 원인이 이동 여건인지, 전술·중계·심판 판정인지</span></div>
+  <div role="row"><b role="cell">옛 규정이면 달라졌을 30건</b><span role="cell">폐지가 실제 대결의 주인을 바꿀 수 있는 규모</span><span role="cell">규정이 있었다면 두 팀이 같은 경기를 했을지</span></div>
+</div>
+
+집계에서 빠진 영역도 있다. 1955년부터 1971년까지 열린 인터시티스 페어스컵은 UEFA 공식 기록에 들어 있지 않고, 원정골을 먼저 없앤 남미축구연맹과 아시아축구연맹 대회, 각국 컵 대회도 이 글의 숫자에는 들어가지 않았다.
+
 ## 그래서 원정 다득점 규정은 불공평했나요?
 
 56년치 기록으로 보면 원정골 규정이 결론을 낸 698건은 1차전 홈팀과 2차전 홈팀에게 똑같이 나뉘었고, 연구들도 규정이 2차전 홈팀 쪽으로 기운 대결 구조를 조금 되돌렸다는 쪽에 가깝다. 불공평이 분명하게 보이는 곳은 연장전 원정골로 결과가 바뀐 35건이었다. 그 35건은 모두 원정팀에게 돌아갔지만, 연장전 전체에서는 여전히 홈팀이 더 많이 넣고 더 많이 올라갔다.
@@ -186,11 +268,11 @@ UEFA가 발표문에 적은 핵심 숫자는 홈 이점의 감소였다. 1970년
 </section>
 
 <style>
-.ag-board,.ag-bars,.ag-et,.ag-cf{--chalk:#f5f0d9;--lime:#dce86d;position:relative;margin:42px 0 60px;overflow:hidden;border:2px solid rgba(245,240,217,.9);border-radius:18px;background-color:#173b19;background-image:linear-gradient(90deg,rgba(6,31,9,.4),rgba(57,104,46,.08) 50%,rgba(6,31,9,.4)),url('/images/football-made-easy/pitch-notes/grass-texture.webp');background-size:auto,330px 330px;color:var(--chalk);box-shadow:0 22px 48px rgba(12,40,14,.2)}
-.ag-board>header,.ag-bars>header,.ag-et>header,.ag-cf>header{padding:26px 28px 18px;border-bottom:1px solid rgba(245,240,217,.28)}
-.ag-board header span,.ag-bars header span,.ag-et header span,.ag-cf header span{display:block;color:var(--lime);font-size:12px;font-weight:800;letter-spacing:.14em}
-.ag-board h2,.ag-bars h3,.ag-et h3,.ag-cf h3{margin:9px 0 0!important;color:#fff!important;font-size:24px!important;line-height:1.35!important;letter-spacing:-.03em;word-break:keep-all}
-.ag-board footer,.ag-bars footer,.ag-et footer{padding:14px 28px 18px;border-top:1px solid rgba(245,240,217,.22);color:rgba(245,240,217,.72);font-size:13px;line-height:1.7}
+.ag-board,.ag-bars,.ag-et,.ag-cf,.ag-clubs{--chalk:#f5f0d9;--lime:#dce86d;position:relative;margin:42px 0 60px;overflow:hidden;border:2px solid rgba(245,240,217,.9);border-radius:18px;background-color:#173b19;background-image:linear-gradient(90deg,rgba(6,31,9,.4),rgba(57,104,46,.08) 50%,rgba(6,31,9,.4)),url('/images/football-made-easy/pitch-notes/grass-texture.webp');background-size:auto,330px 330px;color:var(--chalk);box-shadow:0 22px 48px rgba(12,40,14,.2)}
+.ag-board>header,.ag-bars>header,.ag-et>header,.ag-cf>header,.ag-clubs>header{padding:26px 28px 18px;border-bottom:1px solid rgba(245,240,217,.28)}
+.ag-board header span,.ag-bars header span,.ag-et header span,.ag-cf header span,.ag-clubs header span{display:block;color:var(--lime);font-size:12px;font-weight:800;letter-spacing:.14em}
+.ag-board h2,.ag-bars h3,.ag-et h3,.ag-cf h3,.ag-clubs h3{margin:9px 0 0!important;color:#fff!important;font-size:24px!important;line-height:1.35!important;letter-spacing:-.03em;word-break:keep-all}
+.ag-board footer,.ag-bars footer,.ag-et footer,.ag-clubs footer{padding:14px 28px 18px;border-top:1px solid rgba(245,240,217,.22);color:rgba(245,240,217,.72);font-size:13px;line-height:1.7}
 .ag-board__grid,.ag-et__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
 .ag-board__grid p,.ag-et__grid p{margin:0!important;padding:22px 20px;border-right:1px solid rgba(245,240,217,.2)}
 .ag-board__grid p:last-child,.ag-et__grid p:last-child{border-right:0}
@@ -227,9 +309,40 @@ UEFA가 발표문에 적은 핵심 숫자는 홈 이점의 감소였다. 1970년
 .ag-cf strong{display:block;margin-top:7px;color:#fff;font-size:18px;line-height:1.45;word-break:keep-all}
 .ag-cf p{margin:8px 0 0!important;color:rgba(245,240,217,.84);font-size:14px!important;line-height:1.7!important}
 .ag-cf b{display:inline-block;margin-top:12px;padding:5px 11px;border-radius:999px;background:var(--lime);color:#173b19;font-size:13px}
+.ag-timeline{margin:34px 0 58px!important;padding:0!important;list-style:none!important;border-left:3px solid #173b19}
+.ag-timeline li{position:relative;display:grid;grid-template-columns:86px minmax(0,1fr);gap:14px;margin:0!important;padding:12px 0 12px 20px}
+.ag-timeline li:before{position:absolute;left:-8px;top:18px;width:13px;height:13px;border:3px solid #173b19;border-radius:50%;background:#dce86d;content:''}
+.ag-timeline time{color:#173b19;font-size:14px;font-weight:850;font-variant-numeric:tabular-nums}
+.ag-timeline p{margin:0!important;color:#475569;font-size:14px!important;line-height:1.65!important}
+.ag-timeline strong{display:block;color:#172033;font-size:16px}
+.ag-cases,.ag-legs,.ag-scope{margin:30px 0 56px;overflow:hidden;border:1px solid #d9e1eb;border-radius:16px;background:#fff;font-variant-numeric:tabular-nums}
+.ag-cases>div,.ag-scope>div{display:grid;grid-template-columns:190px minmax(0,1fr) 120px;gap:14px;align-items:center;padding:12px 20px;border-top:1px solid #eef2f6;font-size:14px;line-height:1.55}
+.ag-scope>div{grid-template-columns:150px minmax(0,1fr) minmax(0,1fr);align-items:start}
+.ag-cases>div:first-child,.ag-legs>div:first-child,.ag-scope>div:first-child{border-top:0}
+.ag-cases__head,.ag-legs__head,.ag-scope__head{background:#173b19;color:#f5f0d9;font-size:12px!important;font-weight:700}
+.ag-cases b,.ag-scope b{color:#172033;font-size:13px;word-break:keep-all}
+.ag-cases span,.ag-scope span{color:#334155;word-break:keep-all}
+.ag-cases em{font-style:normal;font-weight:800;color:#173b19;text-align:right;word-break:keep-all}
+.ag-scope>div:not(:first-child) span:last-child{color:#64748b}
+.ag-cases__head span,.ag-scope__head span{color:#f5f0d9!important}
+.ag-legs>div{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:center;padding:8px 20px;border-top:1px solid #eef2f6}
+.ag-legs b{color:#172033;font-size:15px}
+.ag-legs span{position:relative;display:block;padding:4px 10px;overflow:hidden;border-radius:6px;background:#f1f5ee;color:#172033;font-size:13px;font-weight:750;z-index:0}
+.ag-legs span i{position:absolute;inset:0 auto 0 0;width:calc(var(--p)*1%);background:#dfe8b4;z-index:-1}
+.ag-legs span small{color:#64748b;font-weight:500}
+.ag-legs__head span{background:none;color:#f5f0d9;padding:0}
+.ag-legs .is-key{background:#fbfdf0}
+.ag-legs .is-key b{color:#173b19}
+.ag-legs .is-key span i{background:#dce86d}
+.ag-clubs ol{margin:0!important;padding:10px 28px 14px!important;list-style:none!important;counter-reset:agc}
+.ag-clubs li{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:12px;align-items:center;margin:0!important;padding:10px 0;border-bottom:1px solid rgba(245,240,217,.18);counter-increment:agc}
+.ag-clubs li:before{content:counter(agc);color:#dce86d;font-weight:850;font-size:15px}
+.ag-clubs li:last-child{border-bottom:0}
+.ag-clubs b{color:#fff;font-size:16px}
+.ag-clubs li span{color:rgba(245,240,217,.84);font-size:13px;text-align:right}
 .ag-photo{margin:44px 0 56px}
 .ag-photo img{display:block;width:100%;height:auto;border-radius:14px}
 .ag-photo figcaption{margin-top:12px;color:#64748b;font-size:13px;line-height:1.65}
-@media(max-width:760px){.ag-board__grid,.ag-et__grid{grid-template-columns:1fr 1fr}.ag-board__grid p:nth-child(2),.ag-et__grid p:nth-child(2){border-right:0}.ag-board__grid p:nth-child(-n+2),.ag-et__grid p:nth-child(-n+2){border-bottom:1px solid rgba(245,240,217,.2)}.ag-board__grid strong,.ag-et__grid strong{font-size:30px}.ag-home>div{grid-template-columns:62px minmax(0,1fr);gap:8px 12px;padding:10px 14px}.ag-home em{grid-column:2;text-align:left;font-size:12px;color:#64748b}.ag-home__head span:last-child{display:none}}
+@media(max-width:760px){.ag-cases>div{grid-template-columns:1fr auto;gap:4px 12px;padding:12px 14px}.ag-cases b{grid-column:1/-1;color:#64748b;font-size:12px}.ag-cases__head{display:none!important}.ag-scope>div{grid-template-columns:1fr;gap:4px;padding:12px 14px}.ag-scope__head{display:none!important}.ag-scope b{font-size:15px;color:#173b19}.ag-legs>div{grid-template-columns:44px minmax(0,1fr) minmax(0,1fr);gap:8px;padding:7px 12px}.ag-legs span{padding:4px 7px;font-size:12px}.ag-legs span small{display:none}.ag-legs__head span{font-size:11px}.ag-clubs li{grid-template-columns:24px minmax(0,1fr);}.ag-clubs li span{grid-column:2;text-align:left}.ag-timeline li{grid-template-columns:1fr;gap:2px}.ag-board__grid,.ag-et__grid{grid-template-columns:1fr 1fr}.ag-board__grid p:nth-child(2),.ag-et__grid p:nth-child(2){border-right:0}.ag-board__grid p:nth-child(-n+2),.ag-et__grid p:nth-child(-n+2){border-bottom:1px solid rgba(245,240,217,.2)}.ag-board__grid strong,.ag-et__grid strong{font-size:30px}.ag-home>div{grid-template-columns:62px minmax(0,1fr);gap:8px 12px;padding:10px 14px}.ag-home em{grid-column:2;text-align:left;font-size:12px;color:#64748b}.ag-home__head span:last-child{display:none}}
 @media(max-width:480px){.ag-board>header,.ag-bars>header,.ag-et>header,.ag-cf>header{padding:22px 18px 16px}.ag-board h2,.ag-bars h3,.ag-et h3,.ag-cf h3{font-size:20px!important}.ag-board footer,.ag-bars footer,.ag-et footer{padding:12px 18px 16px}.ag-board__grid p,.ag-et__grid p{padding:18px 14px}.ag-board__grid strong,.ag-et__grid strong{font-size:25px}.ag-bars ol{padding:12px 16px 14px!important}.ag-bars li{grid-template-columns:62px minmax(0,1fr) 46px;gap:8px}.ag-bars li b{font-size:13px}.ag-bars li small{display:none}.ag-split strong{font-size:40px}.ag-split div{padding:18px 16px}.ag-cf article{padding:18px 18px 20px}.ag-cf strong{font-size:16px}}
 </style>
