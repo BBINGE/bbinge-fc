@@ -1,0 +1,23 @@
+/* 팝업관 「유럽 대항전 역전극 모음.Zip」: 둔기론 카드·표 스타일(popup-dungi.css)에 열세 구간 음영과 최대 열세 줄만 더한다. */
+.cb-shade { position: absolute; left: var(--s); width: calc(var(--e) - var(--s)); top: 2px; height: 18px; border-radius: 3px; background: rgba(0,0,0,.34); }
+.cb-shade--2 { background: rgba(0,0,0,.48); }
+.cb-shade--3 { background: repeating-linear-gradient(135deg, rgba(0,0,0,.62) 0 6px, rgba(0,0,0,.5) 6px 12px); }
+.cb-ticks { position: relative; display: block; height: 14px; }
+.cb-ticks span { position: absolute; left: var(--x); transform: translateX(-50%); }
+.cb-ticks span:first-child { transform: none; }
+.cb-ticks span:last-child:not(:first-child) { transform: translateX(-100%); }
+.cb-worst { margin: 14px auto 0; width: fit-content; padding: 4px 12px; border-radius: 999px; background: rgba(0,0,0,.28); border: 1px dashed var(--dg-line); color: var(--dg-accent); font-size: 12px; font-weight: 750; text-align: center; }
+.dg-card.is-featured .cb-legs--two { grid-template-columns: 1fr 1fr; }
+.cb-hero { background: radial-gradient(120% 140% at 100% 0%, #16335e 0%, #0d1f3c 42%, #0a1628 100%); }
+.cb-hero .dg-hero__eyebrow span { background: var(--bbfc-blue); }
+.cb-page .dg-section__head p { color: var(--bbfc-blue); }
+.cb-page .dg-more__score { color: #1b64da; }
+.cb-page .dg-more tr.is-huge { background: #eef4ff; }
+.cb-featured-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 900px) { .cb-featured-pair { grid-template-columns: 1fr; } .dg-card.is-featured .cb-legs--two { grid-template-columns: 1fr; } }
+.cb-ticks span, .cb-ticks span:nth-child(2) { position: absolute; left: var(--x); transform: translateX(-50%); }
+.cb-ticks span:first-child { transform: none; }
+.cb-ticks span:last-child:not(:nth-child(2)):not(:first-child) { transform: translateX(-100%); }
+.cb-card.is-featured .dg-legs:not(.cb-legs--two) { grid-template-columns: 1fr; }
+.cb-timeline .dg-timeline__labels.has-raised { height: 34px; }
+.cb-timeline .dg-bang.is-raised { bottom: 16px; }

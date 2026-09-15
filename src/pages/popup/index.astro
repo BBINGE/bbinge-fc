@@ -2,8 +2,10 @@
 // 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리를 새로 만들지 않고 기간 한정 기획전을 여는 자리.
 import Layout from '../../layouts/Layout.astro';
 import { total } from '../../data/popup/bayern-dungi';
+import { total as comebackTotal } from '../../data/popup/comebacks';
 
 const popups = [
+  { href: '/popup/european-comebacks/', kicker: 'NOW OPEN · 2026.9', title: `이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 ${comebackTotal}경기 ㄷㄷ)`, deck: 'UEFA 공식 기록 전체 시즌에서 1차전 3골 차, 한 경기 3골 차를 뒤집은 역전극을 골 타임라인으로.', image: '/images/popup/comebacks/card.webp' },
   { href: '/popup/bayern-dungi/', kicker: 'NOW OPEN · 2026.9', title: `바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 ${total}경기 ㄷㄷ)`, deck: '2010-11시즌 이후 분데스리가·UEFA 챔피언스 리그·컵 대회 대승을 스코어와 골 타임라인으로.', image: '/images/popup/bayern-dungi/card.webp' },
 ];
 ---
@@ -33,7 +35,7 @@ const popups = [
   .popup-hall__head p span { display: inline-grid; place-items: center; min-width: 44px; height: 26px; border-radius: 999px; background: var(--bbfc-blue); color: #fff; }
   .popup-hall__head h1 { margin: 10px 0 0; font-size: 36px; font-weight: 850; letter-spacing: -.04em; }
   .popup-hall__head > span { display: block; margin-top: 6px; color: rgba(255,255,255,.72); font-size: 15px; }
-  .popup-hall__list { margin: 20px 0 0; padding: 0; list-style: none; }
+  .popup-hall__list { display: grid; gap: 12px; margin: 20px 0 0; padding: 0; list-style: none; }
   .popup-hall__list a { display: grid; grid-template-columns: 168px minmax(0, 1fr) auto; align-items: center; gap: 30px; padding: 20px 28px 20px 20px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; color: var(--bbfc-ink); transition: border-color .16s ease, transform .16s ease; }
   .popup-hall__list a:hover { border-color: #d20515; transform: translateY(-2px); }
   .popup-hall__crest { display: grid; place-items: center; width: 168px; height: 168px; border-radius: 16px; background: radial-gradient(circle at 30% 20%, #a8061a, #1a0306); }

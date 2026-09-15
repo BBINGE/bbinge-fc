@@ -1,0 +1,62 @@
+---
+// 역전극 골 타임라인: 역전한 팀이 지고 있던 구간을 어둡게 칠하고(합계 대결 2차전은 1차전 열세부터 시작),
+// 역전한 팀의 골은 흰 막대, 상대 골은 빈 점. 동점을 만든 골에 「동점」, 앞서기 시작한 골에 「역전」을 단다.
+import type { ComebackGoal } from '../../data/popup/comebacks';
+
+interface Props { goals: ComebackGoal[]; carry: number; label: string }
+const { goals, carry, label } = Astro.props;
+const extra = goals.some((g) => g.minute > 90 && g.phase?.startsWith('EXTRA'));
+const span = extra ? 124 : 94;
+const pos = (g: ComebackGoal) => {
+  const base = Math.min(g.minute, extra ? 120 : 90);
+  return Math.min(100, ((base + Math.min(g.injury, 6) * 0.6) / span) * 100);
+};
+let diff = carry;
+let lowest = carry;
+let from = 0;
+const shades: { start: number; end: number; depth: number }[] = [];
+const labels: { x: number; text: string }[] = [];
+for (const g of goals) {
+  const before = diff;
+  const x = pos(g);
+  if (before < 0) shades.push({ start: from, end: x, depth: Math.min(3, -before) });
+  diff += g.comeback ? 1 : -1;
+  lowest = Math.min(lowest, diff);
+  from = x;
+  // 지고 있던 적이 있는 팀만 동점·역전 표시를 받는다.
+  if (g.comeback && before < 0 && diff === 0) labels.push({ x, text: '동점' });
+  if (g.comeback && before <= 0 && diff > 0 && lowest < 0) labels.push({ x, text: '역전' });
+}
+if (diff < 0) shades.push({ start: from, end: 100, depth: Math.min(3, -diff) });
+const byPlayer = (list: ComebackGoal[]) => {
+  const map = new Map<string, string[]>();
+  for (const g of list) {
+    const name = g.ownGoal ? `${g.player}(자책골)` : g.player;
+    map.set(name, [...(map.get(name) ?? []), `${g.clock}${g.penalty ? '(PK)' : ''}`]);
+  }
+  return [...map.entries()].map(([name, clocks]) => `${name} ${clocks.join(' ')}`);
+};
+const mine = byPlayer(goals.filter((g) => g.comeback));
+const theirs = byPlayer(goals.filter((g) => !g.comeback));
+---
+<div class="dg-timeline cb-timeline" role="img" aria-label={`${label} 골 타임라인: 역전 팀 ${goals.filter((g) => g.comeback).map((g) => g.clock).join(', ') || '득점 없음'}, 상대 ${goals.filter((g) => !g.comeback).map((g) => g.clock).join(', ') || '득점 없음'}`}>
+  <div class:list={['dg-timeline__labels', { 'has-raised': labels.some((l, i) => i > 0 && l.x - labels[i - 1].x < 9) }]} aria-hidden="true">
+    {labels.map((l, i) => <span class:list={['dg-bang', { 'is-big': l.text === '역전', 'is-raised': i > 0 && l.x - labels[i - 1].x < 9 }]} style={`--x:${l.x}%`}>{l.text}</span>)}
+  </div>
+  <div class="dg-timeline__track" aria-hidden="true">
+    {shades.map((s) => <span class={`cb-shade cb-shade--${s.depth}`} style={`--s:${s.start}%;--e:${s.end}%`}></span>)}
+    <span class="dg-half" style={`--x:${(45 / span) * 100}%`}></span>
+    {extra && <span class="dg-half" style={`--x:${(90 / span) * 100}%`}></span>}
+    {goals.filter((g) => g.comeback).map((g) => <i class="dg-hit" style={`--x:${pos(g)}%`}></i>)}
+    {goals.filter((g) => !g.comeback).map((g) => <i class="dg-conceded" style={`--x:${pos(g)}%`}></i>)}
+  </div>
+  <div class="dg-timeline__ticks cb-ticks" aria-hidden="true">
+    <span style="--x:0%">0'</span><span style={`--x:${(45 / span) * 100}%`}>45'</span><span style={`--x:${(90 / span) * 100}%`}>90'</span>{extra && <span style="--x:100%">120'</span>}
+  </div>
+</div>
+{(mine.length > 0 || theirs.length > 0) && (
+  <p class="dg-scorers">
+    {mine.length > 0 && <span class="dg-scorers__mine">{mine.join(' · ')}</span>}
+    {theirs.length > 0 && <span class="dg-scorers__theirs">상대 {theirs.join(' · ')}</span>}
+  </p>
+)}

@@ -1,0 +1,63 @@
+---
+// 1층 팝업관 두 번째 팝업(운영자 확정, 2026-09-16): 유럽 대항전 역전극 모음.
+// 범위: UEFA 공식 기록 전체 시즌, 유러피언컵·UEFA 챔피언스 리그 + UEFA컵·UEFA 유로파 리그 + 유러피언 컵위너스컵.
+// 합계 대역전 = 1차전 3골 차 이상 패배 뒤 통과, 단판 대역전 = 한 경기에서 3골 차 이상 뒤지다 승리.
+import Layout from '../../layouts/Layout.astro';
+import ComebackCard from '../../components/popup/ComebackCard.astro';
+import ComebackTable from '../../components/popup/ComebackTable.astro';
+import { featuredIstanbul, featuredAnfield, aggregateCards, aggregateTable, singleCards, counts, total } from '../../data/popup/comebacks';
+import '../../styles/popup-dungi.css';
+import '../../styles/popup-comebacks.css';
+
+const title = `이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 ${total}경기 ㄷㄷ)`;
+const description = `UEFA 공식 기록 전체 시즌에서 1차전을 3골 차 이상으로 지고도 뒤집은 합계 대역전 ${counts.aggregate}건과 한 경기에서 3골 차 이상 뒤지다 이긴 단판 대역전 ${counts.single}경기. 이스탄불의 기적, 안필드의 기적, 캄 노우 6-1까지 골 타임라인으로.`;
+---
+<Layout title={title} description={description} ogImage="/images/popup/comebacks/og.webp" ogImageAlt="유럽 대항전 역전극 모음 팝업 썸네일" ogImageWidth={1200} ogImageHeight={630} breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }, { label: '유럽 대항전 역전극', href: '/popup/european-comebacks/' }]}>
+  <div class="dg-page cb-page">
+    <header class="dg-hero cb-hero">
+      <p class="dg-hero__eyebrow"><span>01F</span> POP-UP STORE · 1955 → 2026</p>
+      <h1>{title}</h1>
+      <p class="dg-hero__lead">UEFA 공식 기록에 남은 유러피언컵·UEFA 챔피언스 리그, UEFA컵·UEFA 유로파 리그, 유러피언 컵위너스컵 전 시즌에서 1차전을 3골 차 이상으로 지고도 대결을 통과했거나, 한 경기에서 3골 차 이상 뒤지다 이긴 경기만 모았다.</p>
+      <ul class="dg-hero__counts" aria-label="역전 종류와 대회별 경기 수">
+        <li><b>{counts.aggregate}</b><span>합계 대역전</span></li>
+        <li><b>{counts.single}</b><span>단판 대역전</span></li>
+        <li><b>{counts.ucl}</b><span>유러피언컵·UEFA 챔피언스 리그</span></li>
+        <li><b>{counts.uel}</b><span>UEFA컵·UEFA 유로파 리그</span></li>
+        <li><b>{counts.cwc}</b><span>유러피언 컵위너스컵</span></li>
+      </ul>
+    </header>
+
+    <section class="dg-section" aria-labelledby="cb-featured">
+      <div class="dg-section__head"><p>NO. 1 · NO. 2</p><h2 id="cb-featured">이스탄불의 기적과 안필드의 기적</h2><span>어둡게 칠한 구간이 지고 있던 시간이다. 안필드 카드는 1차전 0-3 열세를 안고 2차전을 시작한다.</span></div>
+      <div class="cb-featured-pair">
+        <ComebackCard entry={featuredIstanbul} featured kicker="이스탄불의 기적" />
+        <ComebackCard entry={featuredAnfield} featured kicker="안필드의 기적" />
+      </div>
+    </section>
+
+    <section class="dg-section" aria-labelledby="cb-aggregate">
+      <div class="dg-section__head"><p>AGGREGATE · {counts.aggregate}건</p><h2 id="cb-aggregate">1차전 3골 차를 뒤집은 합계 대역전</h2><span>유러피언컵·챔스 본선, UEFA컵·유로파·컵위너스컵 8강 이상, 그리고 4골 차 이상을 뒤집은 대결은 카드로.</span></div>
+      <div class="dg-grid">
+        {aggregateCards.map((entry) => <ComebackCard entry={entry} />)}
+      </div>
+      <ComebackTable rows={aggregateTable} scope="합계 대역전" />
+    </section>
+
+    <section class="dg-section" aria-labelledby="cb-single">
+      <div class="dg-section__head"><p>SINGLE MATCH · {counts.single}경기</p><h2 id="cb-single">한 경기에서 3골 차를 뒤집은 단판 대역전</h2><span>90분(또는 연장) 안에 3골 차로 뒤지다 이긴 경기. 이스탄불은 3-3 뒤 승부차기로 이겼다.</span></div>
+      <div class="dg-grid">
+        {singleCards.map((entry) => <ComebackCard entry={entry} />)}
+      </div>
+    </section>
+
+    <section class="dg-sources" aria-labelledby="cb-sources">
+      <h2 id="cb-sources">기록 출처와 집계 기준</h2>
+      <ol>
+        <li>경기 결과·득점 시간·득점자·구단 문장: UEFA.com 경기 기록(<a href="https://www.uefa.com/uefachampionsleague/history/">UEFA Champions League history</a>, <a href="https://www.uefa.com/uefaeuropaleague/history/">UEFA Europa League history</a>). 2026년 9월 기준.</li>
+        <li>UEFA 공식 기록에 포함되지 않은 인터시티스 페어스컵, UEFA 컨퍼런스 리그는 넣지 않았다.</li>
+        <li>몰수 판정으로 1차전 열세나 역전이 만들어진 대결 4건(1997-98 파리 생제르맹-스테아우아, 2001-02 엘프스보리-트란스, 2009-10 디나모 부쿠레슈티-리베레츠, 2014-15 셀틱-레기아 바르샤바)과, 재경기로 갈렸지만 UEFA 기록에 재경기가 남아 있지 않은 대결 2건(1958-59 KB-샬케 04, 1964-65 구르니크 자브제-두클라 프라하)은 뺐다.</li>
+        <li>합계가 같았던 대결의 통과 방식(재경기·원정 다득점·승부차기)은 당시 규정을 따른 UEFA 기록대로 적었다.</li>
+      </ol>
+    </section>
+  </div>
+</Layout>

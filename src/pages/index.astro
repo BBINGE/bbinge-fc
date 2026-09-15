@@ -75,6 +75,16 @@ const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft
 
 // 1층 팝업관(운영자 지시, 2026-09-16): 팝업은 로비 줄이 아니라 최근 입고 칸에 일반 글과 같은 카드로 들인다.
 const popupEntries = [{
+  id: 'popup-european-comebacks',
+  href: '/popup/european-comebacks/',
+  title: '이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 58경기 ㄷㄷ)',
+  description: 'UEFA 공식 기록 전체 시즌의 합계·단판 대역전 58경기를 골 타임라인으로.',
+  floor: '01',
+  hall: '팝업관',
+  cardImage: '/images/popup/comebacks/card.webp',
+  coverImageAlt: '유럽 대항전 역전극 모음 팝업 카드',
+  pubDate: new Date('2026-09-16T04:10:00+09:00'),
+}, {
   id: 'popup-bayern-dungi',
   href: '/popup/bayern-dungi/',
   title: '바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 188경기 ㄷㄷ)',

@@ -1,0 +1,48 @@
+---
+// 역전극 「그 외 더보기」: 카드로 올리지 않은 합계 대역전을 날짜순으로 모은다. 접힌 줄은 둔기론과 같은 문법(점수 대신 가장 큰 열세 미리보기).
+import type { ComebackEntry } from '../../data/popup/comebacks';
+
+interface Props { rows: ComebackEntry[]; scope: string }
+const { rows, scope } = Astro.props;
+const top = [...rows].sort((a, b) => b.deficit - a.deficit || a.date.localeCompare(b.date)).slice(0, 3);
+const clubs = [...new Set(rows.map((r) => r.comeback.name))];
+const crests = [...new Map(rows.filter((r) => r.comeback.crest).map((r) => [r.comeback.crest!, r.comeback.name])).entries()].slice(0, 6);
+---
+<details class="dg-more dg-more--ucl">
+  <summary>
+    <span class="dg-more__lead">
+      <small>그 외 더보기</small>
+      <strong>이런 기록이 {scope}서만 <span class="dg-more__nowrap"><b>{rows.length}</b>경기 더 있음 ㄷㄷ</span></strong>
+    </span>
+    <span class="dg-more__preview" aria-label={`가장 큰 열세: ${top.map((r) => `${r.comeback.name} 1차전 ${r.legs[0].score.join('-')}`).join(', ')}`}>
+      {top.map((r) => (
+        <span class="dg-more__chip">
+          {r.comeback.crest && <img src={r.comeback.crest} alt="" width="20" height="20" loading="lazy" decoding="async" />}
+          <b>{r.legs[0].score.join('-')} → {r.score.join('-')}</b>
+        </span>
+      ))}
+    </span>
+    <span class="dg-more__stack" aria-hidden="true" title={`뒤집은 팀 ${clubs.length}팀`}>
+      {crests.map(([src]) => <img src={src} alt="" width="26" height="26" loading="lazy" decoding="async" />)}
+      {clubs.length > crests.length && <em>+{clubs.length - crests.length}팀</em>}
+    </span>
+    <span class="dg-more__toggle" aria-hidden="true"><i class="is-closed">펼치기</i><i class="is-open">접기</i><b>+</b></span>
+  </summary>
+  <p class="dg-more__note">1차전을 3골 차 이상으로 지고도 대결을 통과한 기록. 4골 차 이상은 푸르게 표시했다.</p>
+  <div class="dg-more__scroll" tabindex="0" role="region" aria-label={`${scope} 그 외 합계 대역전 ${rows.length}건 표`}>
+    <table>
+      <thead><tr><th scope="col">대결 마무리</th><th scope="col">대회 · 라운드</th><th scope="col">뒤집은 팀</th><th scope="col">상대</th><th scope="col">1차전 → 합계</th></tr></thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr class:list={{ 'is-huge': r.deficit >= 4 }}>
+            <td data-label="날짜"><time datetime={r.date}>{r.dateLabel}</time></td>
+            <td data-label="대회">{r.season} {r.competitionLabel} · {r.round}</td>
+            <td data-label="상대"><span class="dg-more__team">{r.comeback.crest ? <img src={r.comeback.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{r.comeback.name}</span></td>
+            <td data-label="장소"><span class="dg-more__team">{r.opponent.crest ? <img src={r.opponent.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{r.opponent.name}</span></td>
+            <td data-label="스코어" class="dg-more__score">{r.legs[0].score.join('-')} → {r.score.join('-')}{r.note === '승부차기' || r.note.startsWith('승부차기') ? ' (PK)' : r.note === '원정 다득점' ? ' (원정골)' : ''}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</details>
