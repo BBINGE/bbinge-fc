@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T21:30:13.161Z",
+  "updatedAt": "2026-09-15T00:17:57.645Z",
   "days": {
     "yesterday": "2026-09-14",
     "today": "2026-09-15",
@@ -2079,14 +2079,14 @@
           "date": "2026-09-15",
           "time": "03:45",
           "kickoff": "2026-09-14T18:45:00.000Z",
-          "state": "in",
-          "detail": "34'",
+          "state": "post",
+          "detail": "FT",
           "home": "FC 인테르나치오날레 밀라노",
           "away": "우디네세 칼초",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-          "homeScore": 1,
-          "awayScore": 2
+          "homeScore": 5,
+          "awayScore": 3
         }
       ],
       "goals": [
