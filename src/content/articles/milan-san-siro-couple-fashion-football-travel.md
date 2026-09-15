@@ -1,8 +1,8 @@
 ---
-title: '축구 안 좋아하는 연인과 밀라노 여행: 산 시로 직관 하루, 패션 거리 이틀'
-description: '축구를 보는 사람은 산 시로의 90분을, 축구를 보지 않는 사람은 갈레리아와 몬테나폴레오네, 나빌리의 저녁을 얻는 밀라노 2박 3일. 숙소 3곳, 2026-27 시즌 바뀐 입장 동선, 실명 티켓과 경기 전 파니노까지 둘이 함께 고르는 순서로 정리했다.'
+title: '밀라노 축구 여행 2박 3일: 산 시로 직관, 숙소, 쇼핑, 나빌리 코스'
+description: '밀라노 축구 여행 2박 3일 코스. 산 시로 직관 티켓과 2026-27 시즌 바뀐 입구, 산 시로·도심 숙소 3곳, 갈레리아와 몬테나폴레오네 쇼핑, 나빌리 아페리티보까지 축구를 보지 않는 동행인도 함께 즐기는 순서로 정리했다.'
 category: 'pilgrimage'
-tags: ['밀라노 여행', '밀라노 커플 여행', '산 시로 직관', '밀라노 축구 여행', '인테르 직관', 'AC 밀란 직관', '밀라노 패션위크', '몬테나폴레오네', '나빌리 아페리티보', '산 시로 숙소']
+tags: ['밀라노 축구 여행', '밀라노 여행', '밀라노 2박 3일', '산 시로 직관', '밀라노 축구 여행', '인테르 직관', 'AC 밀란 직관', '밀라노 패션위크', '몬테나폴레오네', '나빌리 아페리티보', '산 시로 숙소']
 pubDate: 2026-09-15T18:55:00+09:00
 coverImage: '/images/pilgrimage/milan-san-siro-couple/cover-stadium.webp'
 cardImage: '/images/pilgrimage/milan-san-siro-couple/card-towers.webp'
@@ -14,7 +14,7 @@ coverImageHeight: 900
 draft: false
 featured: false
 faq:
-  - question: '축구를 안 좋아하는 연인과 밀라노에서 산 시로 경기를 보려면 일정을 어떻게 짜나요?'
+  - question: '밀라노 축구 여행 2박 3일 일정은 어떻게 짜나요?'
     answer: '2박 3일이면 경기는 둘째 날 저녁 하나만 넣는다. 첫날은 갈레리아 비토리오 에마누엘레 2세와 몬테나폴레오네의 패션 거리, 셋째 날은 나빌리의 아페리티보로 축구를 보지 않는 사람의 시간을 먼저 확보한다. 경기일 낮에도 폰다치오네 프라다의 바 루체처럼 둘 다 좋아할 장소를 둔다.'
   - question: '산 시로 근처 숙소와 밀라노 도심 숙소 중 어디가 좋은가요?'
     answer: '늦은 경기 뒤 바로 쉬는 것이 우선이면 로토역 앞 Meliá Milano, 경기장 직통 M5와 저녁 시간의 균형이면 모누멘탈레역 근처 Hotel VIU Milan, 동행인의 쇼핑과 산책이 여행의 중심이면 비아 델라 스피가와 몬테나폴레오네를 걸어서 쓰는 Senato Hotel Milano가 맞다.'
@@ -26,7 +26,7 @@ faq:
     answer: '2026년 9월 밀라노 패션위크 여성복 컬렉션은 9월 22일부터 28일까지다. 쇼 대부분은 초대제지만 비아 산탄드레아 6번지 팔라초 모란도의 CNMI 패션 허브는 대중에게 열린 전시와 프로그램을 운영한다. 거리 분위기는 가장 뜨겁지만 숙소 가격과 예약 경쟁도 함께 오르므로 일찍 취소 가능한 객실을 잡는다.'
 ---
 
-밀라노행을 먼저 말한 사람은 대개 축구를 보는 쪽이다. 산 시로의 붉은 지붕 트러스와 나선형 램프 탑, 인테르와 AC 밀란이 한 경기장을 나눠 쓰는 도시. 그 말을 들은 연인이 떠올리는 밀라노는 전혀 다르다. 유리 지붕 아래의 갈레리아, 쇼윈도가 이어지는 몬테나폴레오네, 운하 옆에서 잔을 드는 저녁이다.
+밀라노행을 먼저 말한 사람은 대개 축구를 보는 쪽이다. 산 시로의 붉은 지붕 트러스와 나선형 램프 탑, FC 인테르나치오날레 밀라노(인테르)와 AC 밀란이 한 경기장을 나눠 쓰는 도시. 그 말을 들은 연인이 떠올리는 밀라노는 전혀 다르다. 유리 지붕 아래의 갈레리아, 쇼윈도가 이어지는 몬테나폴레오네, 운하 옆에서 잔을 드는 저녁이다.
 
 이 여행은 둘 중 한 사람을 설득하는 코스가 아니다. **축구를 보는 사람은 90분과 그 앞뒤의 경기장 공기를, 축구를 보지 않는 사람은 밀라노가 가장 잘하는 이틀을** 가져가도록 짜는 2박 3일이다. 경기는 하루 저녁 하나로 묶고, 나머지 시간은 패션 거리와 식탁, 운하의 저녁에 넉넉히 둔다.
 
@@ -108,7 +108,7 @@ faq:
 
 <section class="journey-video-callout" data-journey-ugc-video data-youtube-id="O-0ITAaEkFE"><button class="journey-video-callout__trigger" type="button" aria-label="산 시로 경기일 관중석 영상 재생"><span>THE TOWERS YOU CAME FOR</span><strong>나선형 램프를 올라가는 순간을 놓치지 마세요</strong><p>산 시로의 원통형 탑은 관중이 걸어서 위층으로 올라가는 램프다. 킥오프 한 시간 전쯤 탑을 돌아 올라가면 한 층씩 도시가 낮아지고 조명이 가까워진다. 이 계단 아닌 계단이 곧 사라질 경기장의 가장 밀라노다운 장면이다.</p></button><div class="journey-ugc-video__player" hidden><button type="button" aria-label="경기일 영상 닫기">×</button><iframe title="산 시로 경기일 관중석 영상" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></section>
 
-<figure class="journey-wide"><img src="/images/pilgrimage/milan-san-siro-couple/sansiro-towers.webp" alt="붉은 지붕 트러스와 줄무늬 나선형 램프 탑이 선명한 산 시로 외관" width="1600" height="900" loading="lazy" /><figcaption>1990년 월드컵을 앞두고 증축하며 세운 나선형 탑과 붉은 지붕 트러스. 사진: Arne Müseler, Wikimedia Commons, 퍼블릭 도메인.</figcaption></figure>
+<figure class="journey-wide"><img src="/images/pilgrimage/milan-san-siro-couple/sansiro-towers.webp" alt="붉은 지붕 트러스와 줄무늬 나선형 램프 탑이 선명한 산 시로 외관" width="1600" height="900" loading="lazy" /><figcaption>1990 FIFA 월드컵을 앞두고 증축하며 세운 나선형 탑과 붉은 지붕 트러스. 사진: Arne Müseler, Wikimedia Commons, 퍼블릭 도메인.</figcaption></figure>
 
 <h2 id="after-match">종료 휘슬 뒤에는 가장 가까운 역을 한 번 의심하세요</h2>
 
