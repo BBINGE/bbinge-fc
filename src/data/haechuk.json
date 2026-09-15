@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T16:04:05.359Z",
+  "updatedAt": "2026-09-15T17:40:04.921Z",
   "days": {
     "yesterday": "2026-09-15",
     "today": "2026-09-16",
@@ -1145,14 +1145,14 @@
           "date": "2026-09-16",
           "time": "02:00",
           "kickoff": "2026-09-15T17:00:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "in",
+          "detail": "27'",
           "home": "라요 바예카노 데 마드리드",
           "away": "RCD 에스파뇰",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 0
         },
         {
           "id": "401882876",
