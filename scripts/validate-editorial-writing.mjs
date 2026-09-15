@@ -59,6 +59,7 @@ const canonicalTermRules = [
   [/페렌츠 푸슈카시/g, '푸슈카시 페렌츠'],
   [/매직 머저르/g, '매직 마자르'],
   [/어러니처퍼트/g, '아라니처파트'],
+  [/캄프 ?누|캄노우/g, '캄 노우'],
 ];
 
 const canonicalBodyTermRules = [
