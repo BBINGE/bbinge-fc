@@ -269,21 +269,24 @@
 .cup-record.cup-record--fairs .cup-leg-results > div + div, .cup-record.cup-record--fairs .cup-leg-results--replay > .cup-advance { border-color: rgba(213,236,220,.22); }
 .cup-record.cup-record--fairs .archive-body .cup-tie .cup-match-deck, .cup-record.cup-record--fairs .archive-body .cup-group .cup-match-deck { color: #e4efe7; }
 .cup-record.cup-record--fairs .cup-record-table > summary:hover { box-shadow: inset 0 0 0 2px #1f6a3d; }
-/* 페어스컵 대진 카드 득점자 줄(운영자 지시, 2026-09-15): 왼쪽 팀 득점은 왼쪽, 오른쪽 팀 득점은 오른쪽, 가운데 차전 이름. */
-.cup-record.cup-record--fairs .cup-tie-goals { margin: 10px 0 0; border: 1px solid rgba(213,236,220,.18); background: rgba(1,16,8,.28); }
-.cup-record.cup-record--fairs .cup-goal-row { display: grid; grid-template-columns: minmax(0,1fr) 92px minmax(0,1fr); align-items: center; gap: 10px; padding: 9px 12px; }
-.cup-record.cup-record--fairs .cup-goal-row + .cup-goal-row { border-top: 1px solid rgba(213,236,220,.14); }
-.cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-row p { margin: 0; font-size: 13px; line-height: 1.55; color: var(--cup-paper); }
-.cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-leg { font-size: 11px; font-weight: 750; color: var(--cup-cyan); text-align: center; }
-.cup-record.cup-record--fairs .cup-goal-side--left { text-align: right; }
-.cup-record.cup-record--fairs .cup-goal-side--right { text-align: left; }
-.cup-record.cup-record--fairs .cup-goal-team { display: none; }
-.cup-record.cup-record--fairs .cup-goal { white-space: nowrap; }
+/* 대진 카드 득점자 줄(운영자 지시, 2026-09-15: 페어스컵 4강·결승, 유러피언컵 4강): 왼쪽 팀 득점은 왼쪽, 오른쪽 팀 득점은 오른쪽, 가운데 차전 이름. */
+.cup-record .cup-tie-goals { margin: 10px 0 0; border: 1px solid rgba(196,218,255,.18); background: rgba(3,10,40,.26); }
+.cup-record .cup-goal-row { display: grid; grid-template-columns: minmax(0,1fr) 92px minmax(0,1fr); align-items: center; gap: 10px; padding: 9px 12px; }
+.cup-record .cup-goal-row + .cup-goal-row { border-top: 1px solid rgba(196,218,255,.14); }
+.cup-record .archive-body .cup-tie .cup-goal-row p { margin: 0; font-size: 13px; line-height: 1.55; color: var(--cup-paper); }
+.cup-record .archive-body .cup-tie .cup-goal-leg { font-size: 11px; font-weight: 750; color: var(--cup-cyan); text-align: center; }
+.cup-record .cup-goal-side--left { text-align: right; }
+.cup-record .cup-goal-side--right { text-align: left; }
+.cup-record .cup-goal-team { display: none; }
+.cup-record .cup-goal { white-space: nowrap; }
+.cup-record .cup-goal-none { color: #a9b9d8; }
+.cup-record.cup-record--fairs .cup-tie-goals { border-color: rgba(213,236,220,.18); background: rgba(1,16,8,.28); }
+.cup-record.cup-record--fairs .cup-goal-row + .cup-goal-row { border-color: rgba(213,236,220,.14); }
 .cup-record.cup-record--fairs .cup-goal-none { color: #9fb8a8; }
 @media (max-width: 600px) {
-  .cup-record.cup-record--fairs .cup-goal-row { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 4px 10px; padding: 9px 10px; }
-  .cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-leg { grid-column: 1 / -1; grid-row: 1; }
-  .cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-row p { font-size: 12px; }
+  .cup-record .cup-goal-row { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 4px 10px; padding: 9px 10px; }
+  .cup-record .archive-body .cup-tie .cup-goal-leg { grid-column: 1 / -1; grid-row: 1; }
+  .cup-record .archive-body .cup-tie .cup-goal-row p { font-size: 12px; }
 }
 
 /* 조별리그 카드: 순위표 + 경기 결과 + 4강 진출 */
@@ -320,6 +323,10 @@
 .cup-record .cup-group-home .cup-result-team { justify-content: flex-end; text-align: right; }
 .cup-record .cup-group-matches .cup-result-crest { background: #fff; border-radius: 6px; }
 .cup-record .cup-group-summary { grid-template-columns: 1fr; margin-top: 14px; }
+/* 조별 경기 득점자(운영자 결정, 2026-09-15): 홈 득점은 홈 팀 아래 오른쪽 정렬, 원정 득점은 원정 팀 아래. */
+.cup-record .archive-body .cup-group-matches .cup-group-goals { grid-row: 2; font-size: 12px; line-height: 1.5; color: #c5d9cb; }
+.cup-record .archive-body .cup-group-matches .cup-group-goals--home { grid-column: 2; text-align: right; }
+.cup-record .archive-body .cup-group-matches .cup-group-goals--away { grid-column: 4; text-align: left; }
 @media (max-width: 600px) {
   .cup-record .cup-group { padding: 20px 10px 14px; }
   .cup-record .archive-body h3.cup-group-title { font-size: 22px; }
@@ -335,4 +342,7 @@
   .cup-record .archive-body .cup-group-table .cup-result-flag { display: none; }
   .cup-record .archive-body .cup-group-matches li { grid-template-columns: 1fr 52px 1fr; row-gap: 4px; padding: 8px; font-size: 13px; }
   .cup-record .cup-group-matches time { grid-column: 1 / -1; text-align: center; }
+  .cup-record .archive-body .cup-group-matches .cup-group-goals { grid-row: 3; font-size: 11px; }
+  .cup-record .archive-body .cup-group-matches .cup-group-goals--home { grid-column: 1; }
+  .cup-record .archive-body .cup-group-matches .cup-group-goals--away { grid-column: 3; }
 }

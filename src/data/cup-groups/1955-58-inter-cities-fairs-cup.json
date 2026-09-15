@@ -2,53 +2,334 @@
   "competition": "인터시티스 페어스컵",
   "season": "1955-58",
   "pointsForWin": 2,
-  "source": "RSSSF, Fairs' Cup 1955-58 (Antonio Zea, Marcel Haisma, 2009). 인테르-버밍엄 시티 첫 경기는 버밍엄 시티 구단 기록(Blues in Europe)에 따라 1956-05-16(RSSSF 05-15). 순위는 승점(승 2·무 1) → 득실차 → 다득점으로 계산한다.",
+  "source": "RSSSF, Fairs' Cup 1955-58 (Antonio Zea, Marcel Haisma, 2009). 인테르-버밍엄 시티 첫 경기는 버밍엄 시티 구단 기록(Blues in Europe)에 따라 1956-05-16(RSSSF 05-15). 순위는 승점(승 2·무 1) → 득실차 → 다득점으로 계산한다. 득점자(goals)는 [홈, 원정] 순서이며 RSSSF 기록을 따른다. D조 바젤 XI-런던 XI 81분 골은 해리 후퍼로 적는 자료도 있다.",
   "groups": {
     "A": {
-      "teams": ["cf-barcelona", "kbu-koebenhavn-xi"],
-      "withdrawn": ["wien-xi"],
+      "teams": [
+        "cf-barcelona",
+        "kbu-koebenhavn-xi"
+      ],
+      "withdrawn": [
+        "wien-xi"
+      ],
       "winner": "cf-barcelona",
       "matches": [
-        { "date": "1955-12-25", "home": "cf-barcelona", "away": "kbu-koebenhavn-xi", "score": [6, 2] },
-        { "date": "1956-04-26", "home": "kbu-koebenhavn-xi", "away": "cf-barcelona", "score": [1, 1] }
+        {
+          "date": "1955-12-25",
+          "home": "cf-barcelona",
+          "away": "kbu-koebenhavn-xi",
+          "score": [
+            6,
+            2
+          ],
+          "goals": [
+            [
+              "아레타 8분 10분",
+              "테하다 40분 80분",
+              "비야베르데 40분",
+              "쿠발라 59분"
+            ],
+            [
+              "룬베르 65분 페널티킥 75분"
+            ]
+          ]
+        },
+        {
+          "date": "1956-04-26",
+          "home": "kbu-koebenhavn-xi",
+          "away": "cf-barcelona",
+          "score": [
+            1,
+            1
+          ],
+          "goals": [
+            [
+              "룬베르 61분 페널티킥"
+            ],
+            [
+              "비야베르데 85분"
+            ]
+          ]
+        }
       ],
       "deck": "빈 XI가 빠진 두 팀 조. 레스 코르츠의 크리스마스 6-2가 사실상 승부를 끝냈다."
     },
     "B": {
-      "teams": ["birmingham-city", "internazionale", "zagreb-xi"],
+      "teams": [
+        "birmingham-city",
+        "internazionale",
+        "zagreb-xi"
+      ],
       "withdrawn": [],
       "winner": "birmingham-city",
       "matches": [
-        { "date": "1956-05-16", "home": "internazionale", "away": "birmingham-city", "score": [0, 0] },
-        { "date": "1956-05-22", "home": "zagreb-xi", "away": "birmingham-city", "score": [0, 1] },
-        { "date": "1956-06-06", "home": "zagreb-xi", "away": "internazionale", "score": [0, 1] },
-        { "date": "1956-12-03", "home": "birmingham-city", "away": "zagreb-xi", "score": [3, 0] },
-        { "date": "1957-03-19", "home": "internazionale", "away": "zagreb-xi", "score": [4, 0] },
-        { "date": "1957-04-17", "home": "birmingham-city", "away": "internazionale", "score": [2, 1] }
+        {
+          "date": "1956-05-16",
+          "home": "internazionale",
+          "away": "birmingham-city",
+          "score": [
+            0,
+            0
+          ],
+          "goals": [
+            [],
+            []
+          ]
+        },
+        {
+          "date": "1956-05-22",
+          "home": "zagreb-xi",
+          "away": "birmingham-city",
+          "score": [
+            0,
+            1
+          ],
+          "goals": [
+            [],
+            [
+              "브라운 8분"
+            ]
+          ]
+        },
+        {
+          "date": "1956-06-06",
+          "home": "zagreb-xi",
+          "away": "internazionale",
+          "score": [
+            0,
+            1
+          ],
+          "goals": [
+            [],
+            [
+              "캄파뇰리 74분"
+            ]
+          ]
+        },
+        {
+          "date": "1956-12-03",
+          "home": "birmingham-city",
+          "away": "zagreb-xi",
+          "score": [
+            3,
+            0
+          ],
+          "goals": [
+            [
+              "오릿 3분",
+              "브라운 60분",
+              "머피 67분"
+            ],
+            []
+          ]
+        },
+        {
+          "date": "1957-03-19",
+          "home": "internazionale",
+          "away": "zagreb-xi",
+          "score": [
+            4,
+            0
+          ],
+          "goals": [
+            [
+              "스코글룬드 8분 89분",
+              "로렌치 43분 50분"
+            ],
+            []
+          ]
+        },
+        {
+          "date": "1957-04-17",
+          "home": "birmingham-city",
+          "away": "internazionale",
+          "score": [
+            2,
+            1
+          ],
+          "goals": [
+            [
+              "거번 44분 53분"
+            ],
+            [
+              "로렌치 88분"
+            ]
+          ]
+        }
       ],
       "deck": "네 경기에서 한 골만 내준 버밍엄 시티가 인테르를 승점 2 차로 앞섰다."
     },
     "C": {
-      "teams": ["lausanne-sports", "leipzig-xi"],
-      "withdrawn": ["koeln-xi"],
+      "teams": [
+        "lausanne-sports",
+        "leipzig-xi"
+      ],
+      "withdrawn": [
+        "koeln-xi"
+      ],
       "winner": "lausanne-sports",
       "matches": [
-        { "date": "1956-03-06", "home": "leipzig-xi", "away": "lausanne-sports", "score": [6, 3] },
-        { "date": "1956-10-21", "home": "lausanne-sports", "away": "leipzig-xi", "score": [7, 3] }
+        {
+          "date": "1956-03-06",
+          "home": "leipzig-xi",
+          "away": "lausanne-sports",
+          "score": [
+            6,
+            3
+          ],
+          "goals": [
+            [
+              "발터 5분",
+              "콘차크 9분 82분",
+              "크라우제 23분 36분",
+              "페트케 69분 페널티킥"
+            ],
+            [
+              "마야르 11분",
+              "레이 31분",
+              "에슈만 43분"
+            ]
+          ]
+        },
+        {
+          "date": "1956-10-21",
+          "home": "lausanne-sports",
+          "away": "leipzig-xi",
+          "score": [
+            7,
+            3
+          ],
+          "goals": [
+            [
+              "테데스키 28분",
+              "에슈만 37분 43분 55분",
+              "모저 38분",
+              "스테파노 60분 62분"
+            ],
+            [
+              "발터 13분",
+              "콘차크 58분",
+              "프뢸리히 70분"
+            ]
+          ]
+        }
       ],
       "deck": "승점이 같은 두 팀을 두 경기 합계 10-9, 한 골이 갈랐다."
     },
     "D": {
-      "teams": ["london-xi", "frankfurt-xi", "basel-xi"],
+      "teams": [
+        "london-xi",
+        "frankfurt-xi",
+        "basel-xi"
+      ],
       "withdrawn": [],
       "winner": "london-xi",
       "matches": [
-        { "date": "1955-06-04", "home": "basel-xi", "away": "london-xi", "score": [0, 5] },
-        { "date": "1955-10-26", "home": "london-xi", "away": "frankfurt-xi", "score": [3, 2] },
-        { "date": "1956-05-04", "home": "london-xi", "away": "basel-xi", "score": [1, 0] },
-        { "date": "1956-06-20", "home": "frankfurt-xi", "away": "basel-xi", "score": [5, 1] },
-        { "date": "1957-03-27", "home": "frankfurt-xi", "away": "london-xi", "score": [1, 0] },
-        { "date": "1957-06-12", "home": "basel-xi", "away": "frankfurt-xi", "score": [6, 2] }
+        {
+          "date": "1955-06-04",
+          "home": "basel-xi",
+          "away": "london-xi",
+          "score": [
+            0,
+            5
+          ],
+          "goals": [
+            [],
+            [
+              "피르마니 35분 81분",
+              "홀턴 37분 43분 74분"
+            ]
+          ]
+        },
+        {
+          "date": "1955-10-26",
+          "home": "london-xi",
+          "away": "frankfurt-xi",
+          "score": [
+            3,
+            2
+          ],
+          "goals": [
+            [
+              "제자드 46분 86분",
+              "롭슨 60분"
+            ],
+            [
+              "파프 25분 페널티킥",
+              "카우프홀트 30분"
+            ]
+          ]
+        },
+        {
+          "date": "1956-05-04",
+          "home": "london-xi",
+          "away": "basel-xi",
+          "score": [
+            1,
+            0
+          ],
+          "goals": [
+            [
+              "롭 87분"
+            ],
+            []
+          ]
+        },
+        {
+          "date": "1956-06-20",
+          "home": "frankfurt-xi",
+          "away": "basel-xi",
+          "score": [
+            5,
+            1
+          ],
+          "goals": [
+            [
+              "부헤나우 19분 80분",
+              "파프 31분 73분",
+              "헤르만 52분"
+            ],
+            [
+              "후기 35분 페널티킥"
+            ]
+          ]
+        },
+        {
+          "date": "1957-03-27",
+          "home": "frankfurt-xi",
+          "away": "london-xi",
+          "score": [
+            1,
+            0
+          ],
+          "goals": [
+            [
+              "프라이젠되르퍼 72분"
+            ],
+            []
+          ]
+        },
+        {
+          "date": "1957-06-12",
+          "home": "basel-xi",
+          "away": "frankfurt-xi",
+          "score": [
+            6,
+            2
+          ],
+          "goals": [
+            [
+              "알레만 3분 47분 66분",
+              "잔만 33분",
+              "후기 64분",
+              "부르거 88분"
+            ],
+            [
+              "크라우스 32분",
+              "마이어 65분"
+            ]
+          ]
+        }
       ],
       "deck": "대회 첫 경기와 조별리그 마지막 경기가 모두 이 조에서 열렸다. 런던 XI가 승점 6으로 1위."
     }

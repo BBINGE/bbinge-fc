@@ -84,7 +84,7 @@ export function renderTie(collection, id) {
   const legFacts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
   const facts = playoff ? `${legFacts}<div class="cup-replay"><dt>재경기</dt><dd>${playoff[0]} : ${playoff[1]}</dd></div>` : legFacts;
   const aggregateNote = playoff ? '재경기로 결정' : '두 경기 결과';
-  // 득점자 줄(페어스컵 대진만 사용): 차전마다 [왼쪽, 오른쪽] 득점 목록. 'N분' 개수가 스코어와 맞지 않으면 빌드를 멈춘다.
+  // 득점자 줄(페어스컵 4강·결승, 유러피언컵 4강 대진): 차전마다 [왼쪽, 오른쪽] 득점 목록. 'N분' 개수가 스코어와 맞지 않으면 빌드를 멈춘다.
   const goalRows = tie.goals ? [...tie.goals.map((goals, i) => [`${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전`, goals, tie.legs[i]]), ...(playoff ? [['재경기', tie.playoffGoals, playoff]] : [])] : [];
   for (const [label, goals, score] of goalRows) {
     if (!Array.isArray(goals) || goals.length !== 2) throw new Error(`Missing scorers: ${id} ${label}`);
@@ -204,6 +204,15 @@ export function computeGroupTable(data, key) {
   return table;
 }
 
+// 조별 경기 득점자 줄: [홈, 원정] 득점 목록. 'N분' 개수가 스코어와 맞지 않으면 빌드를 멈춘다.
+function goalLineHtml(goals, score, label) {
+  if (!Array.isArray(goals) || goals.length !== 2) throw new Error(`Missing scorers: ${label}`);
+  goals.forEach((list, side) => { const count = list.join(' ').match(/\d+분/g)?.length ?? 0; if (count !== score[side]) throw new Error(`Scorer count mismatch: ${label}`); });
+  if (score[0] + score[1] === 0) return '';
+  const side = (list, cls) => `<span class="cup-group-goals ${cls}">${list.map(goal => `<span class="cup-goal">${escape(goal)}</span>`).join(', ')}</span>`;
+  return side(goals[0], 'cup-group-goals--home') + side(goals[1], 'cup-group-goals--away');
+}
+
 export function renderGroup(collection, key) {
   const data = loadGroups(collection);
   const group = data.groups[key];
@@ -222,7 +231,7 @@ export function renderGroup(collection, key) {
   const matches = [...group.matches].sort((x, y) => x.date.localeCompare(y.date)).map(match => {
     const home = resolveClub(match.home, data.season);
     const away = resolveClub(match.away, data.season);
-    return `<li><time datetime="${match.date}">${date(match.date)}</time><span class="cup-group-home">${team(home, true)}</span><strong>${match.score[0]} : ${match.score[1]}</strong><span class="cup-group-away">${team(away, true)}</span></li>`;
+    return `<li><time datetime="${match.date}">${date(match.date)}</time><span class="cup-group-home">${team(home, true)}</span><strong>${match.score[0]} : ${match.score[1]}</strong><span class="cup-group-away">${team(away, true)}</span>${match.goals ? goalLineHtml(match.goals, match.score, `${key}조 ${match.date}`) : ''}</li>`;
   }).join('');
   const winner = resolveClub(group.winner, data.season);
   return `<section class="cup-group" aria-labelledby="group-${key.toLowerCase()}" data-group="${collection}:${key}"><p class="cup-tie-stage">${escape(data.season)} ${escape(data.competition)} · 조별리그</p><h3 class="cup-group-title" id="group-${key.toLowerCase()}">${escape(key)}조</h3><div class="cup-group-scroll" tabindex="0" role="region" aria-label="${escape(key)}조 순위표"><table class="cup-group-table"><thead><tr><th scope="col">순위</th><th scope="col">팀</th><th scope="col">경기</th><th scope="col">승</th><th scope="col">무</th><th scope="col">패</th><th scope="col">득실</th><th scope="col">승점</th></tr></thead><tbody>${rows}${withdrawn}</tbody></table></div><ol class="cup-group-matches" aria-label="${escape(key)}조 경기 결과">${matches}</ol><dl class="cup-leg-results cup-group-summary"><div class="cup-advance"><dt>4강 진출</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(group.deck)}</p></section>`;
