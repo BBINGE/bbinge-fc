@@ -194,6 +194,9 @@ assert(fairs('match-1').includes('1955-58 인터시티스 페어스컵 · 4강')
 assert(fairs('match-2').includes('<dt>재경기</dt><dd>1 : 2</dd>') && fairs('match-2').includes('<dt>결승 진출</dt><dd>CF 바르셀로나</dd>'));
 assert(fairs('match-3').includes('<dt>결승 1차전</dt><dd>2 : 2</dd>') && fairs('match-3').includes('<strong>2<i>:</i>8</strong>') && fairs('match-3').includes('<dt>우승</dt><dd>CF 바르셀로나</dd>'));
 assert(!fairs('match-3').includes('유러피언컵'));
+assert.equal((fairs('match-2').match(/class="cup-goal-row"/g) ?? []).length, 3, '재경기 포함 득점자 줄 3개');
+assert(fairs('match-3').includes('<span class="cup-goal">수아레스 6분 8분</span>') && fairs('match-3').includes('득점 없음'));
+assert(!renderTie('1956-57-european-cup-semifinals', 'match-1').includes('cup-tie-goals'), '유러피언컵 카드에는 득점자 줄을 넣지 않는다');
 const fairsSource = readFileSync(new URL('../src/content/archive/1955-58-inter-cities-fairs-cup-semifinals-final.md', import.meta.url), 'utf8');
 assert.equal((fairsSource.match(/data-football-tie="1955-58-inter-cities-fairs-cup-semifinals-final:match-\d"/g) ?? []).length, 3);
 console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표');

@@ -84,7 +84,15 @@ export function renderTie(collection, id) {
   const legFacts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
   const facts = playoff ? `${legFacts}<div class="cup-replay"><dt>재경기</dt><dd>${playoff[0]} : ${playoff[1]}</dd></div>` : legFacts;
   const aggregateNote = playoff ? '재경기로 결정' : '두 경기 결과';
-  return `<section class="cup-tie" aria-labelledby="${id}" data-tie="${collection}:${id}"><p class="cup-tie-stage">${escape(data.season)} ${escape(competition)} · ${escape(tie.stage)}</p><h3 class="cup-match" id="${id}">${escape(left.name)} vs ${escape(right.name)}</h3><div class="cup-scoreboard">${team(left)}<div class="cup-aggregate"><span>합계</span><strong>${total[0]}<i>:</i>${total[1]}</strong><small>${aggregateNote}</small></div>${team(right)}</div><dl class="cup-leg-results${playoff ? ' cup-leg-results--replay' : ''}">${facts}<div class="cup-advance"><dt>${advanceLabel}</dt><dd>${escape(winner.name)}</dd></div></dl><p class="cup-match-deck">${escape(tie.deck)}</p></section>`;
+  // 득점자 줄(페어스컵 대진만 사용): 차전마다 [왼쪽, 오른쪽] 득점 목록. 'N분' 개수가 스코어와 맞지 않으면 빌드를 멈춘다.
+  const goalRows = tie.goals ? [...tie.goals.map((goals, i) => [`${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전`, goals, tie.legs[i]]), ...(playoff ? [['재경기', tie.playoffGoals, playoff]] : [])] : [];
+  for (const [label, goals, score] of goalRows) {
+    if (!Array.isArray(goals) || goals.length !== 2) throw new Error(`Missing scorers: ${id} ${label}`);
+    goals.forEach((list, side) => { const count = list.join(' ').match(/\d+분/g)?.length ?? 0; if (count !== score[side]) throw new Error(`Scorer count mismatch: ${id} ${label}`); });
+  }
+  const goalList = list => list.length ? list.map(goal => `<span class="cup-goal">${escape(goal)}</span>`).join(', ') : '<span class="cup-goal-none">득점 없음</span>';
+  const goalsHtml = goalRows.length ? `<div class="cup-tie-goals" aria-label="차전별 득점자">${goalRows.map(([label, goals]) => `<div class="cup-goal-row"><p class="cup-goal-side cup-goal-side--left"><span class="cup-goal-team">${escape(left.name)}</span>${goalList(goals[0])}</p><p class="cup-goal-leg">${escape(label)}</p><p class="cup-goal-side cup-goal-side--right"><span class="cup-goal-team">${escape(right.name)}</span>${goalList(goals[1])}</p></div>`).join('')}</div>` : '';
+  return `<section class="cup-tie" aria-labelledby="${id}" data-tie="${collection}:${id}"><p class="cup-tie-stage">${escape(data.season)} ${escape(competition)} · ${escape(tie.stage)}</p><h3 class="cup-match" id="${id}">${escape(left.name)} vs ${escape(right.name)}</h3><div class="cup-scoreboard">${team(left)}<div class="cup-aggregate"><span>합계</span><strong>${total[0]}<i>:</i>${total[1]}</strong><small>${aggregateNote}</small></div>${team(right)}</div><dl class="cup-leg-results${playoff ? ' cup-leg-results--replay' : ''}">${facts}<div class="cup-advance"><dt>${advanceLabel}</dt><dd>${escape(winner.name)}</dd></div></dl>${goalsHtml}<p class="cup-match-deck">${escape(tie.deck)}</p></section>`;
 }
 
 // 접이식 결과표: 대진 JSON에서 만들어 카드와 같은 로고·국기·팀명을 쓴다. 재경기 대진이 있는 단계만 재경기 열을 연다.

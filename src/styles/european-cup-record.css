@@ -269,6 +269,22 @@
 .cup-record.cup-record--fairs .cup-leg-results > div + div, .cup-record.cup-record--fairs .cup-leg-results--replay > .cup-advance { border-color: rgba(213,236,220,.22); }
 .cup-record.cup-record--fairs .archive-body .cup-tie .cup-match-deck, .cup-record.cup-record--fairs .archive-body .cup-group .cup-match-deck { color: #e4efe7; }
 .cup-record.cup-record--fairs .cup-record-table > summary:hover { box-shadow: inset 0 0 0 2px #1f6a3d; }
+/* 페어스컵 대진 카드 득점자 줄(운영자 지시, 2026-09-15): 왼쪽 팀 득점은 왼쪽, 오른쪽 팀 득점은 오른쪽, 가운데 차전 이름. */
+.cup-record.cup-record--fairs .cup-tie-goals { margin: 10px 0 0; border: 1px solid rgba(213,236,220,.18); background: rgba(1,16,8,.28); }
+.cup-record.cup-record--fairs .cup-goal-row { display: grid; grid-template-columns: minmax(0,1fr) 92px minmax(0,1fr); align-items: center; gap: 10px; padding: 9px 12px; }
+.cup-record.cup-record--fairs .cup-goal-row + .cup-goal-row { border-top: 1px solid rgba(213,236,220,.14); }
+.cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-row p { margin: 0; font-size: 13px; line-height: 1.55; color: var(--cup-paper); }
+.cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-leg { font-size: 11px; font-weight: 750; color: var(--cup-cyan); text-align: center; }
+.cup-record.cup-record--fairs .cup-goal-side--left { text-align: right; }
+.cup-record.cup-record--fairs .cup-goal-side--right { text-align: left; }
+.cup-record.cup-record--fairs .cup-goal-team { display: none; }
+.cup-record.cup-record--fairs .cup-goal { white-space: nowrap; }
+.cup-record.cup-record--fairs .cup-goal-none { color: #9fb8a8; }
+@media (max-width: 600px) {
+  .cup-record.cup-record--fairs .cup-goal-row { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 4px 10px; padding: 9px 10px; }
+  .cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-leg { grid-column: 1 / -1; grid-row: 1; }
+  .cup-record.cup-record--fairs .archive-body .cup-tie .cup-goal-row p { font-size: 12px; }
+}
 
 /* 조별리그 카드: 순위표 + 경기 결과 + 4강 진출 */
 .cup-record .cup-group {
