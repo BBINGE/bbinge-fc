@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T17:52:58.028Z",
+  "updatedAt": "2026-09-15T18:11:41.120Z",
   "days": {
     "yesterday": "2026-09-15",
     "today": "2026-09-16",
@@ -1159,14 +1159,14 @@
           "date": "2026-09-16",
           "time": "03:00",
           "kickoff": "2026-09-15T18:00:00.000Z",
-          "state": "pre",
-          "detail": "Scheduled",
+          "state": "in",
+          "detail": "2'",
           "home": "데포르티보 알라베스",
           "away": "발렌시아 CF",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 0
         },
         {
           "id": "401882872",
