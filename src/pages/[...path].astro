@@ -413,7 +413,20 @@ if (props.kind === 'category') {
   .journey-article .article-body>:global(h3),
   .journey-article .article-body>:global(blockquote),
   .journey-article .article-body>:global(.journey-note),
-  .journey-article .article-body>:global(.source-notes) { max-width:760px; margin-left:auto; margin-right:auto; }
+  .journey-article .article-body>:global(.source-notes),
+  .journey-article .article-body>:global(ul),
+  .journey-article .article-body>:global(.journey-spots) { max-width:760px; margin-left:auto; margin-right:auto; }
+  .journey-article .article-body>:global(ul) { padding-left:1.25em; list-style:disc; }
+  .journey-article .article-body>:global(ul li) { margin:8px 0; padding-left:2px; }
+  .journey-article .article-body>:global(ul li::marker) { color:#246bfd; }
+  /* 장소 목록(식당·쇼핑·바): 번호, 이름 링크, 주소·거리, 설명을 한 카드로 묶는다. */
+  .journey-article .article-body>:global(.journey-spots) { display:grid; gap:10px; margin-top:28px; margin-bottom:44px; padding:0; list-style:none; counter-reset:spot; }
+  .journey-article .article-body :global(.journey-spots>li) { position:relative; margin:0; padding:20px 22px 21px 64px; border:1px solid #d9e3f2; background:#f7faff; counter-increment:spot; }
+  .journey-article .article-body :global(.journey-spots>li::before) { content:counter(spot); position:absolute; top:20px; left:20px; display:grid; place-items:center; width:30px; height:30px; border-radius:50%; background:#246bfd; color:#fff; font-size:14px; font-weight:800; }
+  .journey-article .article-body :global(.journey-spots strong) { display:block; color:#172233; font-size:18px; line-height:1.35; letter-spacing:-.02em; }
+  .journey-article .article-body :global(.journey-spots strong a) { color:inherit; text-decoration:underline; text-decoration-color:#9dbcf7; text-underline-offset:4px; }
+  .journey-article .article-body :global(.journey-spots small) { display:block; margin-top:5px; color:#536071; font-size:13px; line-height:1.55; }
+  .journey-article .article-body :global(.journey-spots p) { margin:10px 0 0; color:#2b3645; font-size:15px; line-height:1.72; }
   .journey-article .article-body>:global(h2) { margin-top:92px; padding:21px 0 0; border-top:2px solid var(--bbfc-ink); border-left:0; font-size:clamp(27px,3.3vw,36px); line-height:1.28; letter-spacing:-.04em; }
   .journey-article .article-body>:global(p:first-of-type)::first-letter { float:left; margin:10px 9px 0 0; color:var(--bbfc-blue); font-size:66px; line-height:.68; font-weight:780; }
   .journey-article .article-body>:global(figure) { overflow:hidden; border-radius:0; }
@@ -810,6 +823,9 @@ if (props.kind === 'category') {
     .journey-article .article-body :global(.journey-ugc-video__poster strong) { font-size:23px; }
     .journey-article .article-body>:global(.journey-day-plan) { grid-template-columns:1fr; gap:8px; }
     .journey-article .article-body :global(.journey-day-plan article) { padding:20px 18px 21px; }
+    .journey-article .article-body :global(.journey-spots>li) { padding:18px 16px 19px 54px; }
+    .journey-article .article-body :global(.journey-spots>li::before) { top:18px; left:14px; width:28px; height:28px; font-size:13px; }
+    .journey-article .article-body :global(.journey-spots strong) { font-size:17px; }
     .journey-article .article-body>:global(.journey-archive-note) { margin:58px -6px 74px; padding:24px 18px 19px; }
     .journey-article .article-body :global(.journey-archive-note h3) { font-size:23px; }
     .journey-article .article-body :global(.journey-archive-note>div) { grid-template-columns:1fr; }
