@@ -53,6 +53,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft)).ma
     id: entry.id,
     href: getArticlePath(entry.data.category, entry.id),
     title: entry.data.title,
+    description: entry.data.description,
     ...locate(root, entry.data.cultureSection),
     cardImage: entry.data.cardImage ?? entry.data.coverImage,
     coverImageAlt: entry.data.coverImageAlt ?? entry.data.title,
@@ -64,6 +65,7 @@ const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft
   id: entry.id,
   href: `/archive/${entry.data.branch}/${entry.data.index}/${entry.id}/`,
   title: entry.data.title,
+  description: entry.data.description,
   floor: '06',
   hall: entry.data.branch === 'legends' ? '인물관' : entry.data.branch === 'awards' ? '시상관' : '대회관',
   cardImage: entry.data.coverImage,
@@ -84,7 +86,7 @@ const take = <T extends { href: string }>(items: T[]) => {
 // ② 최근 입고: 발행일 순 같은 크기 10칸
 const arrivals = take(feed.slice(0, 10));
 
-// ③ 층별 진열창: 층마다 ②에 나오지 않은 최신 2편과 소장 편수. 6층은 도서실과 세계사관을 나누고, 5층 오락실은 오른쪽 GOAT 포스터가 맡는다.
+// ③ 층별 진열창: 층마다 ②에 나오지 않은 최신 2편과 소장 편수. 6층은 도서실과 세계사관을 나누고, 5층 오락실은 소장 기록 옆 GOAT 포스터가 맡는다.
 // tone은 각 층 목록 페이지의 승인된 색(명품관 블랙골드, 오뭐입? 블루, 아카이브 세 관, 축세 종이·잉크, 축술 네이비·축떡 잔디, 축쿼드 챔피언스 리그, H/L 나이트·골드)을 머리띠에만 옮긴다.
 type FeedItem = (typeof feed)[number];
 const storeFloor = (floor: string) => storeFloors.find((item) => item.floor === floor)!;
@@ -110,8 +112,8 @@ const shelves = seasonShelves.map((shelf) => {
   return shelf;
 });
 
-// ⑥ 소장 기록 더 보기: 위에서 쓰지 않은 글 12편
-const stacks = take(feed.filter((item) => !used.has(item.href)).slice(0, 12));
+// ⑥ 소장 기록 더 보기: 위에서 쓰지 않은 글 8편을 옛 최근 기록 줄 형식으로, 오른쪽에 GOAT 포스터(원래 5:11 비율)
+const stacks = take(feed.filter((item) => !used.has(item.href)).slice(0, 8));
 
 const homeFill = new Map<string, boolean>();
 const images = [
@@ -190,8 +192,7 @@ const shortDate = (date: Date) => {
         <div><p>FLOOR DIRECTORY</p><h2 id="floors-heading">층별 진열창</h2></div>
         <a href="/about/store/">전체 층별 안내 <span aria-hidden="true">→</span></a>
       </div>
-      <div class="floor-wrap">
-        <div class="floor-grid">
+      <div class="floor-grid">
           {floors.map((floor) => (
             <article class:list={['floor-card', 'floor-card--' + floor.tone]}>
               <header class="floor-card__head">
@@ -224,27 +225,6 @@ const shortDate = (date: Date) => {
               </div>
             </article>
           ))}
-        </div>
-
-        <a href="/play/" class="play-feature" aria-label="GOAT 32강 토너먼트 시작하기">
-          <div class="play-feature__copy">
-            <p>05F PB FOOTBALL ARCADE</p>
-            <strong>GOAT<br />SHOWDOWN</strong>
-            <h2>전설 32명.<br />왕은 한 명.</h2>
-            <span>32강 바로 시작 <b aria-hidden="true">▶</b></span>
-          </div>
-          <div class="play-feature__roster" aria-hidden="true">
-            <img src="/images/goat/players/di-stefano.webp" alt="" class="goat-face goat-face--1" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/puskas.webp" alt="" class="goat-face goat-face--2" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/pele.webp" alt="" class="goat-face goat-face--3" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/beckenbauer.webp" alt="" class="goat-face goat-face--4" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/cruyff.webp" alt="" class="goat-face goat-face--5" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/maradona.webp" alt="" class="goat-face goat-face--6" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/cristiano.webp" alt="" class="goat-hero goat-hero--ronaldo" loading="lazy" decoding="async" />
-            <img src="/images/goat/players/messi.webp" alt="" class="goat-hero goat-hero--messi" loading="lazy" decoding="async" />
-          </div>
-          <span class="play-feature__eight" aria-hidden="true">32</span>
-        </a>
       </div>
     </section>
 
@@ -284,18 +264,44 @@ const shortDate = (date: Date) => {
           <div><p>FROM THE STACKS</p><h2 id="stacks-heading">소장 기록 더 보기</h2></div>
           <a href="/archive/">전체 아카이브 <span aria-hidden="true">→</span></a>
         </div>
-        <ul class="stack-list">
-          {stacks.map((item) => (
-            <li>
-              <a href={item.href} class="stack-row group">
-                <div class:list={['stack-thumb', 'media-frame', fillClass(item.cardImage)]}>
-                  {item.cardImage ? <img src={item.cardImage} alt="" width="80" height="80" loading="lazy" decoding="async" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
+        <div class="latest-layout">
+          <div class="latest-list">
+            {stacks.map((item, index) => (
+              <a href={item.href} class="latest-row">
+                <span class="latest-index">{String(index + 1).padStart(2, '0')}</span>
+                <div class:list={['latest-thumb', 'media-frame', fillClass(item.cardImage)]}>
+                  {item.cardImage ? <img src={item.cardImage} alt="" width="112" height="112" loading="lazy" decoding="async" style={imageFocusStyle(item.cardImage, { zoom: false })} /> : <span>NO IMAGE</span>}
                 </div>
-                <span class="stack-row__copy"><small>{item.floor}F {item.hall} · {shortDate(item.pubDate)}</small><strong>{item.title}</strong></span>
+                <div class="latest-copy">
+                  <div class="story-meta"><span class="floor-tag">{item.floor}F {item.hall}</span></div>
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                </div>
+                <time datetime={item.pubDate.toISOString()}>{shortDate(item.pubDate)}</time>
               </a>
-            </li>
-          ))}
-        </ul>
+            ))}
+          </div>
+
+          <a href="/play/" class="play-feature" aria-label="GOAT 32강 토너먼트 시작하기">
+            <div class="play-feature__copy">
+              <p>BBINGE FC PRESENTS</p>
+              <strong>GOAT<br />SHOWDOWN</strong>
+              <h2>전설 32명.<br />왕은 한 명.</h2>
+              <span>32강 바로 시작 <b aria-hidden="true">▶</b></span>
+            </div>
+            <div class="play-feature__roster" aria-hidden="true">
+              <img src="/images/goat/players/di-stefano.webp" alt="" class="goat-face goat-face--1" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/puskas.webp" alt="" class="goat-face goat-face--2" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/pele.webp" alt="" class="goat-face goat-face--3" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/beckenbauer.webp" alt="" class="goat-face goat-face--4" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/cruyff.webp" alt="" class="goat-face goat-face--5" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/maradona.webp" alt="" class="goat-face goat-face--6" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/cristiano.webp" alt="" class="goat-hero goat-hero--ronaldo" loading="lazy" decoding="async" />
+              <img src="/images/goat/players/messi.webp" alt="" class="goat-hero goat-hero--messi" loading="lazy" decoding="async" />
+            </div>
+            <span class="play-feature__eight" aria-hidden="true">32</span>
+          </a>
+        </div>
       </section>
     )}
   </main>
@@ -349,8 +355,7 @@ const shortDate = (date: Date) => {
   .arrival-card:hover h3 { color:var(--bbfc-blue); }
 
   /* ③ 층별 진열창 */
-  .floor-wrap { display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:12px; padding-top:16px; }
-  .floor-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .floor-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; padding-top:16px; }
   .floor-card { --band:var(--bbfc-ink); --band-ink:#fff; --band-accent:#86b7ff; display:flex; min-width:0; flex-direction:column; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:#fff; }
   .floor-card--boutique { --band:linear-gradient(140deg,#14100a 0%,#5f4318 58%,#b17d20 100%); --band-accent:#f4d68b; }
   .floor-card--outfit { --band:linear-gradient(140deg,#061733 0%,#124ca7 57%,#2776ef 100%); --band-accent:#9bc5ff; }
@@ -380,32 +385,6 @@ const shortDate = (date: Date) => {
   .floor-card__enter { margin-top:auto; padding-top:12px; color:var(--bbfc-gray-1); font-size:14px; font-weight:600; }
   .floor-card__enter:hover { color:var(--bbfc-blue); }
 
-  /* 05F GOAT 포스터(2026-09-15 복원): 층별 진열창 오른쪽 세로 기둥 */
-  .play-feature { position:relative; display:block; min-height:640px; overflow:hidden; border-radius:12px; background:radial-gradient(circle at 72% 22%,#24599a 0,#0d294e 34%,#07182e 72%); color:#fff; isolation:isolate; box-shadow:0 18px 45px -24px rgba(5,20,42,.8); }
-  .play-feature::before { content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(180deg,rgba(5,15,29,.05) 25%,rgba(5,15,29,.92) 82%); }
-  .play-feature::after { content:''; position:absolute; inset:0; z-index:5; border:1px solid rgba(255,255,255,.16); border-radius:inherit; pointer-events:none; }
-  .play-feature__copy { position:absolute; z-index:6; left:21px; right:19px; bottom:22px; }
-  .play-feature__copy p { color:#78acff; font-size:13px; font-weight:850; letter-spacing:.12em; }
-  .play-feature__copy>strong { display:block; margin-top:5px; color:#fff; font-size:30px; line-height:.86; font-weight:950; font-style:italic; letter-spacing:-.065em; text-shadow:0 3px 18px rgba(0,0,0,.45); }
-  .play-feature__copy h2 { margin-top:12px; color:rgba(255,255,255,.94); font-size:17px; line-height:1.35; font-weight:720; letter-spacing:-.035em; }
-  .play-feature__copy>span { display:inline-flex; align-items:center; gap:8px; min-height:44px; margin-top:14px; padding:11px 16px; border:1px solid rgba(255,255,255,.4); border-radius:999px; background:#2469d7; font-size:15px; font-weight:850; box-shadow:0 8px 24px rgba(3,16,34,.38); }
-  .play-feature__copy b { font-size:13px; }
-  .play-feature__roster { position:absolute; inset:0; z-index:2; }
-  .play-feature__roster img { position:absolute; display:block; object-fit:cover; object-position:center top; filter:saturate(.78) contrast(1.08); transition:transform .35s ease,filter .35s ease; }
-  .play-feature:hover .play-feature__roster img { filter:saturate(1) contrast(1.08); }
-  .goat-face { z-index:4; width:82px; height:98px; border:2px solid rgba(255,255,255,.34); border-radius:10px; box-shadow:0 8px 18px rgba(0,0,0,.3); }
-  .goat-face--1 { left:14px; top:14px; transform:rotate(-4deg); }
-  .goat-face--2 { left:50%; top:8px; transform:translateX(-50%) rotate(2deg); }
-  .goat-face--3 { right:14px; top:14px; transform:rotate(4deg); }
-  .goat-face--4 { left:14px; top:96px; transform:rotate(3deg); }
-  .goat-face--5 { left:50%; top:102px; transform:translateX(-50%) rotate(-2deg); }
-  .goat-face--6 { right:14px; top:96px; transform:rotate(-3deg); }
-  .goat-hero { bottom:17%; width:66%; height:50%; object-position:center top; -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 16%,#000 72%,transparent 100%); mask-image:linear-gradient(to bottom,transparent 0,#000 16%,#000 72%,transparent 100%); }
-  .goat-hero--ronaldo { left:-15%; z-index:2; }
-  .goat-hero--messi { right:-15%; z-index:1; transform:scale(1.03); }
-  .play-feature:hover .goat-hero--ronaldo { transform:translateX(4px) scale(1.02); }
-  .play-feature:hover .goat-hero--messi { transform:translateX(-4px) scale(1.05); }
-  .play-feature__eight { position:absolute; z-index:0; top:190px; left:50%; color:rgba(88,152,255,.13); font-family:Georgia,serif; font-size:190px; line-height:1; letter-spacing:-.12em; transform:translateX(-53%); }
 
   /* ④ 시즌 서가 */
   .shelf { margin-top:16px; padding:16px; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); }
@@ -420,32 +399,102 @@ const shortDate = (date: Date) => {
   .shelf-item:hover strong { color:var(--bbfc-blue); }
 
   /* ⑥ 소장 기록 */
-  .stack-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 22px; padding-top:6px; }
-  .stack-row { display:grid; grid-template-columns:60px minmax(0,1fr); align-items:center; gap:12px; padding:10px 0; border-bottom:1px solid var(--bbfc-line); }
-  .stack-thumb { border-radius:5px; }
-  .stack-row__copy small { display:block; color:var(--bbfc-gray-2); font-size:13px; line-height:1.3; }
-  .stack-row__copy strong { display:-webkit-box; margin-top:2px; font-size:14px; line-height:1.38; font-weight:620; letter-spacing:-.02em; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
-  .stack-row:hover strong { color:var(--bbfc-blue); }
 
-  .home-magazine :global(.hc-banner) { margin:34px 0 0; }
-
-  @media (prefers-reduced-motion: reduce) { .play-feature__roster img { transition:none; } }
-  @media (max-width: 1099px) {
-    .lobby-bar { grid-template-columns:1fr; gap:14px; }
-    .arrival-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
-    .arrival-card:nth-child(n+9) { display:none; }
-    .floor-wrap { grid-template-columns:1fr; }
-    .play-feature { order:-1; min-height:0; aspect-ratio:16/8.5; }
-    .play-feature__copy { right:18px; bottom:18px; }
+  /* ⑥ 소장 기록 + 05F GOAT 포스터: 2026-09-14까지 홈 최근 기록 옆에 있던 원래 디자인 그대로 */
+  .latest-layout { display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:34px; padding-top:4px; }
+  .latest-row { display:grid; grid-template-columns:28px 112px minmax(0,1fr) auto; align-items:center; gap:15px; padding:16px 0; border-bottom:1px solid var(--bbfc-line); }
+  .latest-index { color:var(--bbfc-gray-3); font-family:Georgia,serif; font-size:13px; }
+  .latest-thumb { aspect-ratio:4/3; border-radius:2px; }
+  .latest-copy h3 { margin-top:5px; font-size:15px; line-height:1.4; font-weight:650; letter-spacing:-.025em; }
+  .latest-copy>p { margin-top:5px; color:var(--bbfc-gray-1); font-size:11.5px; line-height:1.55; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .latest-row>time { align-self:start; padding-top:4px; color:var(--bbfc-gray-3); font-size:10px; white-space:nowrap; }
+  .play-feature { position:relative; align-self:start; min-height:0; aspect-ratio:5/11; margin-top:16px; overflow:hidden; border-radius:12px; background:radial-gradient(circle at 72% 22%,#24599a 0,#0d294e 34%,#07182e 72%); color:#fff; isolation:isolate; box-shadow:0 18px 45px -24px rgba(5,20,42,.8); }
+  .play-feature::before { content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(180deg,rgba(5,15,29,.05) 25%,rgba(5,15,29,.92) 82%); }
+  .play-feature::after { content:''; position:absolute; inset:0; z-index:5; border:1px solid rgba(255,255,255,.16); border-radius:inherit; pointer-events:none; }
+  .play-feature__copy { position:absolute; z-index:6; left:21px; right:19px; bottom:22px; }
+  .play-feature__copy p { color:#78acff; font-size:8px; font-weight:850; letter-spacing:.18em; }
+  .play-feature__copy>strong { display:block; margin-top:5px; color:#fff; font-size:30px; line-height:.86; font-weight:950; font-style:italic; letter-spacing:-.065em; text-shadow:0 3px 18px rgba(0,0,0,.45); }
+  .play-feature__copy h2 { margin-top:12px; color:rgba(255,255,255,.94); font-size:15px; line-height:1.35; font-weight:720; letter-spacing:-.035em; }
+  .play-feature__copy>span { position:absolute; right:0; bottom:0; display:inline-flex; align-items:center; gap:8px; margin-top:0; padding:10px 14px; border:1px solid rgba(255,255,255,.4); border-radius:999px; background:#2469d7; font-size:10px; font-weight:850; box-shadow:0 8px 24px rgba(3,16,34,.38); backdrop-filter:blur(7px); }
+  .play-feature__copy b { font-size:7px; }
+  .play-feature__roster { position:absolute; inset:0; z-index:2; }
+  .play-feature__roster img { position:absolute; display:block; object-fit:cover; object-position:center top; filter:saturate(.78) contrast(1.08); transition:transform .35s ease,filter .35s ease; }
+  .play-feature:hover .play-feature__roster img { filter:saturate(1) contrast(1.08); }
+  .goat-face { z-index:4; width:82px; height:98px; border:2px solid rgba(255,255,255,.34); border-radius:10px; box-shadow:0 8px 18px rgba(0,0,0,.3); }
+  .goat-face--1 { left:14px; top:14px; transform:rotate(-4deg); }
+  .goat-face--2 { left:50%; top:8px; transform:translateX(-50%) rotate(2deg); }
+  .goat-face--3 { right:14px; top:14px; transform:rotate(4deg); }
+  .goat-face--4 { left:14px; top:96px; transform:rotate(3deg); }
+  .goat-face--5 { left:50%; top:102px; transform:translateX(-50%) rotate(-2deg); }
+  .goat-face--6 { right:14px; top:96px; transform:rotate(-3deg); }
+  .goat-hero { bottom:118px; width:64%; height:348px; object-position:center top; -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%); mask-image:linear-gradient(to bottom,#000 70%,transparent 100%); }
+  .goat-hero--ronaldo { left:-15%; z-index:2; }
+  .goat-hero--messi { right:-15%; z-index:1; transform:scale(1.03); }
+  .play-feature:hover .goat-hero--ronaldo { transform:translateX(4px) scale(1.02); }
+  .play-feature:hover .goat-hero--messi { transform:translateX(-4px) scale(1.05); }
+  .play-feature__eight { position:absolute; z-index:0; top:165px; left:50%; color:rgba(88,152,255,.13); font-family:Georgia,serif; font-size:190px; line-height:1; letter-spacing:-.12em; transform:translateX(-53%); }
+  .latest-index { font-size:14px; }
+  .latest-copy h3 { font-size:17px; }
+  .latest-copy>p { font-size:14px; }
+  .latest-row>time { font-size:13px; }
+  .play-feature__copy p { font-size:13px; }
+  .play-feature__copy h2 { font-size:17px; }
+  .play-feature__copy>span { min-height:44px; padding:11px 16px; font-size:15px; }
+  .play-feature__copy b { font-size:13px; }
+  .empty-state,.empty-latest { font-size:15px; }
+  .latest-thumb { aspect-ratio:1; height:auto; min-height:0; align-self:start; }
+  @media (max-width: 900px) {
+    .latest-layout { grid-template-columns:1fr; }
+    .play-feature { width:100%; aspect-ratio:16/8.5; margin-top:0; }
+    .play-feature__copy { top:auto; right:18px; bottom:18px; width:auto; transform:none; }
     .play-feature__copy>strong { font-size:34px; }
+    .play-feature__copy h2 { font-size:14px; }
+    .play-feature__roster { left:0; }
     .goat-hero { bottom:-5%; width:54%; height:72%; }
     .goat-hero--ronaldo { left:-2%; }.goat-hero--messi { right:-2%; }
     .goat-face { top:0; width:16.667%; height:34%; border:0; border-radius:0; box-shadow:none; transform:none; }
-    .goat-face--1 { left:0; }.goat-face--2 { left:16.667%; transform:none; }.goat-face--3 { left:33.334%; right:auto; }
+    .goat-face--1 { left:0; top:0; }.goat-face--2 { left:16.667%; top:0; transform:none; }.goat-face--3 { left:33.334%; right:auto; top:0; }
     .goat-face--4 { left:50%; right:auto; top:0; }.goat-face--5 { left:66.667%; right:auto; top:0; transform:none; }.goat-face--6 { left:83.334%; right:auto; top:0; }
     .play-feature__eight { top:-25px; left:73%; }
+  }
+  @media (max-width: 600px) {
+    .latest-row { grid-template-columns:22px 82px minmax(0,1fr); gap:10px; }
+    .latest-copy>p,.latest-row>time { display:none; }
+    .latest-copy h3 { font-size:13.5px; }
+    .play-feature { aspect-ratio:5/4; border-radius:10px; }
+    .play-feature__copy { left:18px; right:18px; bottom:18px; width:auto; }
+    .play-feature__copy p { font-size:7px; }
+    .play-feature__copy>strong { font-size:28px; }
+    .play-feature__copy h2 { display:none; }
+    .play-feature__copy>span { right:0; padding:10px 13px; font-size:10px; }
+    .play-feature__roster { left:0; }
+    .goat-face { width:33.333%; height:29%; border:0; border-radius:0; box-shadow:none; transform:none; }
+    .goat-face--1 { left:0; top:0; }.goat-face--2 { left:33.333%; top:0; transform:none; }.goat-face--3 { left:66.666%; right:auto; top:0; }
+    .goat-face--4 { left:0; right:auto; top:29%; }.goat-face--5 { left:33.333%; right:auto; top:29%; transform:none; }.goat-face--6 { left:66.666%; right:auto; top:29%; }
+    .goat-hero { bottom:-3%; width:58%; height:58%; -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 100%); mask-image:linear-gradient(to bottom,#000 82%,transparent 100%); }
+    .goat-hero--ronaldo { left:-5%; z-index:3; }
+    .goat-hero--messi { right:-5%; z-index:2; }
+    .play-feature::before { z-index:4; background:linear-gradient(180deg,rgba(5,15,29,0) 40%,rgba(5,15,29,.12) 55%,rgba(5,15,29,.96) 100%),linear-gradient(90deg,rgba(5,17,33,.82) 0,rgba(5,17,33,.15) 48%,rgba(5,17,33,.08) 100%); }
+    .play-feature__eight { z-index:1; opacity:.05; }
+  }
+  @media (max-width: 700px) {
+    .latest-copy h3 { font-size:16px; }
+    .latest-copy>p { font-size:14px; }
+    .latest-row>time { font-size:13px; }
+    .play-feature__copy p { font-size:13px; }
+    .play-feature__copy h2 { font-size:17px; }
+    .play-feature__copy>span { min-height:46px; font-size:16px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .play-feature__roster img { transition:none; } }
+
+  .home-magazine :global(.hc-banner) { margin:34px 0 0; }
+
+  @media (max-width: 1099px) {
+    .floor-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .lobby-bar { grid-template-columns:1fr; gap:14px; }
+    .arrival-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    .arrival-card:nth-child(n+9) { display:none; }
     .shelf__row { grid-template-columns:repeat(3,minmax(0,1fr)); }
-    .stack-list { grid-template-columns:repeat(2,minmax(0,1fr)); }
   }
   @media (max-width: 760px) {
     .lobby-bar__copy { grid-template-columns:1fr; }
@@ -457,7 +506,6 @@ const shortDate = (date: Date) => {
     .arrival-card:nth-child(n+10) { display:none; }
     .shelf__row { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:6px; }
     .shelf__row>li { flex:0 0 38%; scroll-snap-align:start; }
-    .stack-list { grid-template-columns:1fr; }
   }
   @media (max-width: 600px) {
     .home-magazine { padding-top:16px; }
@@ -480,18 +528,6 @@ const shortDate = (date: Date) => {
     .floor-grid { grid-template-columns:1fr; gap:10px; }
     .floor-card__head { min-height:50px; padding:9px 12px; }
     .floor-card__body { padding:10px 12px 12px; }
-    .play-feature { aspect-ratio:5/4; border-radius:10px; }
-    .play-feature__copy { left:18px; right:18px; bottom:18px; }
-    .play-feature__copy>strong { font-size:28px; }
-    .play-feature__copy h2 { display:none; }
-    .goat-face { width:33.333%; height:29%; }
-    .goat-face--1 { left:0; top:0; }.goat-face--2 { left:33.333%; top:0; }.goat-face--3 { left:66.666%; top:0; }
-    .goat-face--4 { left:0; top:29%; }.goat-face--5 { left:33.333%; top:29%; }.goat-face--6 { left:66.666%; top:29%; }
-    .goat-hero { bottom:-3%; width:58%; height:58%; -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 100%); mask-image:linear-gradient(to bottom,#000 82%,transparent 100%); }
-    .goat-hero--ronaldo { left:-5%; z-index:3; }
-    .goat-hero--messi { right:-5%; z-index:2; }
-    .play-feature::before { z-index:4; background:linear-gradient(180deg,rgba(5,15,29,0) 40%,rgba(5,15,29,.12) 55%,rgba(5,15,29,.96) 100%),linear-gradient(90deg,rgba(5,17,33,.82) 0,rgba(5,17,33,.15) 48%,rgba(5,17,33,.08) 100%); }
-    .play-feature__eight { z-index:1; opacity:.05; }
     .shelf { padding:12px; }
     .shelf__head h3 { font-size:16px; }
     .shelf__row>li { flex-basis:44%; }

@@ -4,7 +4,7 @@ import { mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-// 홈 층별 편성(2026-09-15): 최근 입고 · 층별 진열창 · 시즌 서가 · 소장 기록의 모든 썸네일 칸을 1:1 칸 규칙에 대조한다.
+// 홈 층별 편성(2026-09-15): 최근 입고 · 층별 진열창 · 시즌 서가 · 소장 기록(옆에 원래 비율의 GOAT 포스터)의 모든 썸네일 칸을 1:1 칸 규칙에 대조한다.
 const base = process.env.QA_BASE || 'http://127.0.0.1:4323';
 const out = process.env.QA_OUT || mkdtempSync(join(tmpdir(), 'bbinge-home-thumbs-'));
 const browser = await chromium.launch({ headless: true });
@@ -20,15 +20,16 @@ try {
     const arrivals = await page.locator('.arrival-card').evaluateAll(cards => cards.filter(card => card.offsetParent !== null).length);
     assert.equal(arrivals, visibleArrivals[width], `visible arrivals at ${width}`);
     assert.equal(await page.locator('.floor-card').count(), 8, 'floors 02F-09F with 06F library and world history split');
-    assert(await page.locator('.play-feature').isVisible(), '05F GOAT poster beside the floor directory');
-    if (width >= 1100) {
-      const [grid, poster] = await Promise.all([page.locator('.floor-grid').boundingBox(), page.locator('.play-feature').boundingBox()]);
-      assert(poster.x > grid.x + grid.width && Math.abs(poster.y - grid.y) < 2, 'poster stands on the right of the floor cards');
+    assert(await page.locator('.play-feature').isVisible(), '05F GOAT poster');
+    if (width > 900) {
+      const [list, poster] = await Promise.all([page.locator('.latest-list').boundingBox(), page.locator('.play-feature').boundingBox()]);
+      assert(poster.x > list.x + list.width, 'poster stands on the right of the stack list');
+      assert(Math.abs(poster.width / poster.height - 5 / 11) < 0.01, 'poster keeps its original 5:11 proportion');
     }
     assert(await page.locator('.floor-card__head').evaluateAll(heads => new Set(heads.map(h => getComputedStyle(h).backgroundImage + getComputedStyle(h).backgroundColor)).size) >= 7, 'each floor keeps its own persona band');
     assert.equal(await page.locator('.shelf').count() >= 1, true, 'season shelf');
-    assert.equal(await page.locator('.stack-row').count(), 12, 'stack list');
-    const frames = page.locator('.arrival-thumb,.floor-thumb,.shelf-thumb,.stack-thumb');
+    assert.equal(await page.locator('.latest-row').count(), 8, 'stack list in the original latest-row format');
+    const frames = page.locator('.arrival-thumb,.floor-thumb,.shelf-thumb,.latest-thumb');
     let checked = 0;
     for (const frame of await frames.all()) {
       if (!(await frame.isVisible())) continue;
