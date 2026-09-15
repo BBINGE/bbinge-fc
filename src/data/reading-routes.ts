@@ -56,23 +56,23 @@ const europeanCup1955Stories: ReadingRouteStory[] = [
     theme: 'european-cup',
   },
   {
-    id: '1955-56-european-cup-tournament-best-xi',
-    href: '/archive/european-club/european-cup/1955-56-european-cup-tournament-best-xi/',
-    index: '04',
-    label: '대회관 · 베스트 11',
-    title: '그해 가장 잘한 열한 명은 누구였나',
-    description: '29경기의 라인업과 등번호로 다시 고른 첫 대회의 베스트 11',
-    image: '/images/archive/1955-56-european-cup-tournament-best-xi/cover.webp',
-    theme: 'european-cup',
-  },
-  {
     id: '1955-56-european-cup-top-scorers',
     href: '/archive/european-club/european-cup/1955-56-european-cup-top-scorers/',
-    index: '05',
+    index: '04',
     label: '대회관 · 득점 순위',
     title: '가장 많은 골을 넣은 선수는 누구였나',
     description: '8강에서 멈춘 밀루티노비치의 8골부터 결승 두 팀의 5골 트리오까지, 경기별 득점 기록',
     image: '/images/archive/1955-56-european-cup-top-scorers/top-scorers.png',
+    theme: 'european-cup',
+  },
+  {
+    id: '1955-56-european-cup-tournament-best-xi',
+    href: '/archive/european-club/european-cup/1955-56-european-cup-tournament-best-xi/',
+    index: '05',
+    label: '대회관 · 베스트 11',
+    title: '그해 가장 잘한 열한 명은 누구였나',
+    description: '29경기의 라인업과 등번호로 다시 고른 첫 대회의 베스트 11',
+    image: '/images/archive/1955-56-european-cup-tournament-best-xi/cover.webp',
     theme: 'european-cup',
   },
   {
@@ -237,7 +237,7 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
       theme: 'european-cup',
       kicker: 'EUROPEAN CUP 1955-56 READING ROUTE · 01—06',
       title: '첫 유러피언컵을<br />여섯 개의 기록으로 읽기',
-      lead: '대회가 어떻게 시작됐는지, 누가 결승에 올랐는지, 파리의 4-3이 어떻게 뒤집혔는지, 누가 가장 많은 골을 넣었는지, 그해 가장 빛난 선수가 누구였는지에 따라 다음 기록을 고르면 된다.',
+      lead: '대회가 어떻게 시작됐는지, 누가 결승에 올랐는지, 파리의 4-3이 어떻게 뒤집혔는지, 누가 가장 많은 골을 넣었는지, 그해 가장 잘한 열한 명과 가장 빛난 선수가 누구였는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1955Stories.filter((story) => story.id !== currentId),
     };
   }

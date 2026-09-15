@@ -17,7 +17,7 @@ const popups = [
     <ul class="popup-hall__list">
       {popups.map((p) => (
         <li><a href={p.href}>
-          <span class="popup-hall__crest"><img src={p.image} alt="" width="96" height="96" decoding="async" /></span>
+          <span class="popup-hall__crest"><img src={p.image} alt="" width="168" height="168" decoding="async" /></span>
           <span class="popup-hall__copy"><small>{p.kicker}</small><strong>{p.title}</strong><em>{p.deck}</em></span>
           <i aria-hidden="true">→</i>
         </a></li>
@@ -34,20 +34,20 @@ const popups = [
   .popup-hall__head h1 { margin: 10px 0 0; font-size: 36px; font-weight: 850; letter-spacing: -.04em; }
   .popup-hall__head > span { display: block; margin-top: 6px; color: rgba(255,255,255,.72); font-size: 15px; }
   .popup-hall__list { margin: 20px 0 0; padding: 0; list-style: none; }
-  .popup-hall__list a { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; align-items: center; gap: 20px; padding: 18px 22px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; color: var(--bbfc-ink); transition: border-color .16s ease, transform .16s ease; }
+  .popup-hall__list a { display: grid; grid-template-columns: 168px minmax(0, 1fr) auto; align-items: center; gap: 30px; padding: 20px 28px 20px 20px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; color: var(--bbfc-ink); transition: border-color .16s ease, transform .16s ease; }
   .popup-hall__list a:hover { border-color: #d20515; transform: translateY(-2px); }
-  .popup-hall__crest { display: grid; place-items: center; width: 96px; height: 96px; border-radius: 16px; background: radial-gradient(circle at 30% 20%, #a8061a, #1a0306); }
+  .popup-hall__crest { display: grid; place-items: center; width: 168px; height: 168px; border-radius: 16px; background: radial-gradient(circle at 30% 20%, #a8061a, #1a0306); }
   .popup-hall__crest { overflow: hidden; }
   .popup-hall__crest img { width: 100%; height: 100%; object-fit: cover; }
   .popup-hall__copy small { display: block; color: #b8081a; font-size: 12px; font-weight: 800; letter-spacing: .1em; }
-  .popup-hall__copy strong { display: block; margin-top: 6px; font-size: 20px; line-height: 1.35; font-weight: 800; letter-spacing: -.03em; word-break: keep-all; }
-  .popup-hall__copy em { display: block; margin-top: 6px; color: var(--bbfc-gray-1); font-size: 14px; font-style: normal; line-height: 1.6; word-break: keep-all; }
+  .popup-hall__copy strong { display: block; margin-top: 8px; font-size: 24px; line-height: 1.35; font-weight: 800; letter-spacing: -.03em; word-break: keep-all; }
+  .popup-hall__copy em { display: block; margin-top: 8px; color: var(--bbfc-gray-1); font-size: 15px; font-style: normal; line-height: 1.6; word-break: keep-all; }
   .popup-hall__list i { font-style: normal; font-size: 24px; color: #b8081a; }
   @media (max-width: 600px) {
     .popup-hall { padding: 14px 12px 48px; }
     .popup-hall__head { padding: 22px 18px 18px; }
-    .popup-hall__list a { grid-template-columns: 64px minmax(0, 1fr); gap: 14px; padding: 14px; }
-    .popup-hall__crest { width: 64px; height: 64px; border-radius: 12px; }
+    .popup-hall__list a { grid-template-columns: 96px minmax(0, 1fr); gap: 14px; padding: 12px; }
+    .popup-hall__crest { width: 96px; height: 96px; border-radius: 12px; }
     
     .popup-hall__copy strong { font-size: 16px; }
     .popup-hall__list i { display: none; }
