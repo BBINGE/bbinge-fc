@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T20:00:17.539Z",
+  "updatedAt": "2026-09-15T22:51:36.422Z",
   "days": {
     "yesterday": "2026-09-15",
     "today": "2026-09-16",
@@ -843,14 +843,14 @@
           "rank": 2,
           "team": "레알 마드리드 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-          "played": 5,
-          "wins": 4,
+          "played": 6,
+          "wins": 5,
           "draws": 0,
           "losses": 1,
-          "goalsFor": 14,
-          "goalsAgainst": 4,
-          "goalDifference": 10,
-          "points": 12,
+          "goalsFor": 17,
+          "goalsAgainst": 6,
+          "goalDifference": 11,
+          "points": 15,
           "zone": "ucl",
           "zoneLabel": "UEFA 챔피언스 리그"
         },
@@ -1113,13 +1113,13 @@
           "rank": 20,
           "team": "엘체 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 2,
-          "losses": 3,
-          "goalsFor": 6,
-          "goalsAgainst": 13,
-          "goalDifference": -7,
+          "losses": 4,
+          "goalsFor": 8,
+          "goalsAgainst": 16,
+          "goalDifference": -8,
           "points": 2,
           "zone": "relegation",
           "zoneLabel": "강등"
@@ -6349,5 +6349,11 @@
       "assists": []
     }
   ],
-  "errors": []
+  "errors": [
+    "scoreboard eng.1: 400 Bad Request",
+    "scoreboard esp.1: 400 Bad Request",
+    "scoreboard ita.1: 400 Bad Request",
+    "scoreboard ger.1: 400 Bad Request",
+    "scoreboard uefa.champions: 400 Bad Request"
+  ]
 }
