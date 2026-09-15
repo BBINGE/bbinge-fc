@@ -37,7 +37,7 @@ const uclCardMatches = uclCardTies.reduce((s, t) => s + t.legs.filter((l) => l.b
       <div class="dg-grid">
         {uclCardTies.map((t) => <DungiCard stage={t.title} opponent={t.opponent} crest={t.opponentCrest} score={t.legs.length > 1 ? t.aggregate : t.legs[0].score} legs={t.legs} twoLeg={t.legs.length > 1} />)}
       </div>
-      <DungiTable rows={uclTable} label="UEFA 챔피언스 리그" tone="ucl" />
+      <DungiTable rows={uclTable} label="UEFA 챔피언스 리그" scope="챔스" tone="ucl" />
     </section>
 
     <section class="dg-section" aria-labelledby="dg-bundesliga">
@@ -45,7 +45,7 @@ const uclCardMatches = uclCardTies.reduce((s, t) => s + t.legs.filter((l) => l.b
       <div class="dg-grid">
         {bundesligaCards.map((m) => <DungiCard stage={`${m.season} 분데스리가 · ${m.round}`} opponent={m.opponent} crest={m.opponentCrest} score={m.score} legs={[m]} />)}
       </div>
-      <DungiTable rows={bundesligaTable} label="분데스리가" />
+      <DungiTable rows={bundesligaTable} label="분데스리가" scope="분데스" />
     </section>
 
     <section class="dg-section" aria-labelledby="dg-cups">
@@ -53,7 +53,7 @@ const uclCardMatches = uclCardTies.reduce((s, t) => s + t.legs.filter((l) => l.b
       <div class="dg-grid">
         {cupCards.map((m) => <DungiCard stage={`${m.season} ${m.competitionLabel} · ${m.round}`} opponent={m.opponent} crest={m.opponentCrest} score={m.score} legs={[m]} />)}
       </div>
-      <DungiTable rows={cupTable} label="컵 대회" />
+      <DungiTable rows={cupTable} label="컵 대회" scope="컵 대회" />
     </section>
 
     <section class="dg-sources" aria-labelledby="dg-sources">

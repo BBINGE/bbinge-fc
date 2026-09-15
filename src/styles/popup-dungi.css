@@ -82,7 +82,8 @@
 .dg-more > summary:focus-visible { outline: 3px solid var(--more-accent); outline-offset: -3px; }
 .dg-more__lead small { display: block; color: var(--more-accent); font-size: 11px; font-weight: 800; letter-spacing: .12em; }
 .dg-more__lead strong { display: block; margin-top: 2px; font-size: 18px; font-weight: 800; letter-spacing: -.03em; white-space: nowrap; }
-.dg-more__lead strong b { margin-right: 2px; font-size: 26px; font-variant-numeric: tabular-nums; }
+.dg-more__lead strong b { margin: 0 1px; font-size: 24px; color: var(--more-accent); font-variant-numeric: tabular-nums; }
+.dg-more__nowrap { white-space: nowrap; }
 .dg-more__preview { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
 .dg-more__chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 5px; border-radius: 999px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.22); }
 .dg-more__chip img { width: 20px; height: 20px; padding: 2px; border-radius: 50%; background: #fff; object-fit: contain; }
@@ -135,7 +136,8 @@
   .dg-score strong, .dg-card.is-featured .dg-score strong { font-size: 32px; gap: 5px; }
   .dg-more > summary { grid-template-columns: minmax(0, 1fr) auto; gap: 10px 12px; padding: 14px 14px 14px 16px; }
   .dg-more__lead strong { font-size: 16px; }
-  .dg-more__lead strong b { font-size: 22px; }
+  .dg-more__lead strong { white-space: normal; word-break: keep-all; }
+  .dg-more__lead strong b { font-size: 20px; }
   .dg-more__preview { grid-column: 1 / -1; grid-row: 2; }
   .dg-more__stack { display: none; }
   .dg-more__toggle { grid-column: 2; grid-row: 1; padding: 6px 6px 6px 12px; }

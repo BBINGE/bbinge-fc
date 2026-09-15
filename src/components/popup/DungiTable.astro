@@ -3,8 +3,8 @@
 // 접힌 상태에서도 안에 든 가장 큰 점수 세 경기와 상대 문장을 미리 보여 줘 펼쳐 볼 이유를 만든다(운영자 지시, 2026-09-16).
 import type { Match } from '../../data/popup/bayern-dungi';
 
-interface Props { rows: Match[]; label: string; tone?: 'ucl' | 'germany' }
-const { rows, label, tone = 'germany' } = Astro.props;
+interface Props { rows: Match[]; label: string; scope: string; tone?: 'ucl' | 'germany' }
+const { rows, label, scope, tone = 'germany' } = Astro.props;
 const top = [...rows].sort((a, b) => b.margin - a.margin || b.score[0] - a.score[0] || a.date.localeCompare(b.date)).slice(0, 3);
 const clubs = [...new Set(rows.map((m) => m.opponent))];
 const crests = [...new Map(rows.filter((m) => m.opponentCrest).map((m) => [m.opponentCrest!, m.opponent])).entries()].slice(0, 6);
@@ -14,7 +14,7 @@ const maxGoals = Math.max(...rows.map((m) => m.score[0]));
   <summary>
     <span class="dg-more__lead">
       <small>그 외 더보기</small>
-      <strong><b>{rows.length}</b>경기 더 두들겼다</strong>
+      <strong>이런 기록이 {scope}서만 <span class="dg-more__nowrap"><b>{rows.length}</b>경기 더 있음 ㄷㄷ</span></strong>
     </span>
     <span class="dg-more__preview" aria-label={`가장 큰 점수: ${top.map((m) => `${m.opponent}전 ${m.score[0]}-${m.score[1]}`).join(', ')}`}>
       {top.map((m) => (
