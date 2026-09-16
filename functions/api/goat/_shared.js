@@ -1,4 +1,4 @@
-import playersFile from '../../../src/data/goat-players.json' with { type: 'json' };
+import playersFile from '../../../src/data/goat-players.json';
 
 export const PLAYER_IDS = new Set(playersFile.players.map((player) => player.id));
 export const ROUND_COUNTS = new Map([[32, 16], [16, 8], [8, 4], [4, 2], [2, 1]]);
