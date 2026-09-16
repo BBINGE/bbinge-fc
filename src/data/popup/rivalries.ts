@@ -84,7 +84,8 @@ function build(src: SrcRivalry): Rivalry {
   const competitions = (['ucl', 'uel', 'cwc'] as Comp[])
     .filter((c) => src.competitions[c])
     .map((c) => ({ key: c, label: c === 'ucl' ? '유러피언컵·챔스' : c === 'uel' ? 'UEFA컵·유로파' : '컵위너스컵', count: src.competitions[c]! }));
-  const span = Number(src.last.slice(0, 4)) - Number(src.first.slice(0, 4)) + 1;
+  // 첫 맞대결에서 마지막 맞대결까지 지난 햇수. 1976년에 처음 만나 2026년에 마지막이면 50년이다.
+  const span = Math.max(1, Number(src.last.slice(0, 4)) - Number(src.first.slice(0, 4)));
   const drawNote = src.record.draw === 0 ? '무승부 없이' : src.record.draw >= src.matches / 2 ? '절반 넘게 비기며' : '';
   const goalNote = src.goals.a === src.goals.b ? '골까지 같다' : `골은 ${Math.abs(src.goals.a - src.goals.b)}골 차다`;
   return {
