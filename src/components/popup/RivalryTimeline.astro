@@ -1,0 +1,34 @@
+---
+// 연대 막대(운영자 확정, 2026-09-16): 1955년부터 2026년까지 가로축에 맞대결을 하나씩 찍고,
+// 위 칸은 왼쪽 팀이 이긴 경기, 아래 칸은 오른쪽 팀이 이긴 경기, 가운데 줄은 무승부다.
+// 둔기론의 흰 막대, 역전극의 열세 구간 빗금에 이어지는 세 번째 시각 문법이다.
+import type { Rivalry } from '../../data/popup/rivalries';
+import { yearRange } from '../../data/popup/rivalries';
+
+interface Props { rivalry: Rivalry }
+const { rivalry } = Astro.props;
+const { meetings, a, b } = rivalry;
+const ticks = [1960, 1980, 2000, 2020].filter((y) => y > yearRange.min && y < yearRange.max);
+const pos = (year: number) => ((year - yearRange.min) / (yearRange.max - yearRange.min)) * 100;
+const label = `${a.short} 대 ${b.short} 연대 막대: ${meetings.length}경기 가운데 ${a.short} ${rivalry.record.aWin}승, 무승부 ${rivalry.record.draw}, ${b.short} ${rivalry.record.bWin}승. ${rivalry.first.slice(0, 4)}년부터 ${rivalry.last.slice(0, 4)}년까지.`;
+---
+<div class="rv-era" role="img" aria-label={label}>
+  <span class="rv-era__side rv-era__side--top" aria-hidden="true">{a.short}</span>
+  <div class="rv-era__track" aria-hidden="true">
+    {ticks.map((y) => <i class="rv-era__tick" style={`--x:${pos(y)}%`}></i>)}
+    <span class="rv-era__axis"></span>
+    {meetings.map((m) => (
+      <i
+        class:list={['rv-era__hit', `is-${m.result}`, { 'is-final': m.round === '결승' }]}
+        style={`--x:${m.position}%`}
+        title={`${m.dateLabel} ${m.competitionLabel} ${m.round} ${m.score[0]}-${m.score[1]}`}
+      ></i>
+    ))}
+  </div>
+  <span class="rv-era__side rv-era__side--bottom" aria-hidden="true">{b.short}</span>
+  <div class="rv-era__years" aria-hidden="true">
+    <span style="--x:0%">{yearRange.min}</span>
+    {ticks.map((y) => <span style={`--x:${pos(y)}%`}>{y}</span>)}
+    <span style="--x:100%">{yearRange.max}</span>
+  </div>
+</div>

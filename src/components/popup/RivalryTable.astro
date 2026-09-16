@@ -1,0 +1,48 @@
+---
+// 6~7경기 박빙 대진 표: 둔기론·역전극의 「그 외 더보기」와 같은 문법을 쓴다.
+import type { Rivalry } from '../../data/popup/rivalries';
+
+interface Props { rows: Rivalry[] }
+const { rows } = Astro.props;
+// 접힌 줄 미리보기는 가장 팽팽한 세 대진(득실 차가 작고 경기 수가 많은 순)으로 고른다.
+const top = [...rows].sort((x, y) => Math.abs(x.goals[0] - x.goals[1]) - Math.abs(y.goals[0] - y.goals[1]) || y.matches - x.matches).slice(0, 3);
+const crests = [...new Map(rows.flatMap((r) => [r.a, r.b]).filter((s) => s.crest).map((s) => [s.crest!, s.name])).entries()].slice(0, 6);
+const clubCount = new Set(rows.flatMap((r) => [r.a.key, r.b.key])).size;
+---
+<details class="dg-more dg-more--ucl rv-more">
+  <summary>
+    <span class="dg-more__lead">
+      <small>그 외 더보기</small>
+      <strong>여섯 번 넘게 만나 반반인 대진이 <span class="dg-more__nowrap"><b>{rows.length}</b>개 더 있음 ㄷㄷ</span></strong>
+    </span>
+    <span class="dg-more__preview" aria-label={`가장 팽팽한 대진: ${top.map((r) => `${r.a.short} ${r.b.short}`).join(', ')}`}>
+      {top.map((r) => (
+        <span class="dg-more__chip">
+          <b>{r.a.short} {r.record.aWin}-{r.record.draw}-{r.record.bWin} {r.b.short}</b>
+        </span>
+      ))}
+    </span>
+    <span class="dg-more__stack" aria-hidden="true" title={`구단 ${clubCount}팀`}>
+      {crests.map(([src]) => <img src={src} alt="" width="26" height="26" loading="lazy" decoding="async" />)}
+      {clubCount > crests.length && <em>+{clubCount - crests.length}팀</em>}
+    </span>
+    <span class="dg-more__toggle" aria-hidden="true"><i class="is-closed">펼치기</i><i class="is-open">접기</i><b>+</b></span>
+  </summary>
+  <p class="dg-more__note">여섯 번이나 일곱 번 만난 대진. 카드로 올린 대진과 같은 기준을 통과했지만 표본이 더 작다.</p>
+  <div class="dg-more__scroll" tabindex="0" role="region" aria-label={`6~7경기 박빙 대진 ${rows.length}개 표`}>
+    <table>
+      <thead><tr><th scope="col">팀</th><th scope="col">상대</th><th scope="col">상대전적</th><th scope="col">득점</th><th scope="col">맞대결</th></tr></thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td data-label="날짜"><span class="dg-more__team">{r.a.crest ? <img src={r.a.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{r.a.short}</span></td>
+            <td data-label="대회"><span class="dg-more__team">{r.b.crest ? <img src={r.b.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{r.b.short}</span></td>
+            <td data-label="상대"><b>{r.record.aWin}승 {r.record.draw}무 {r.record.bWin}패</b></td>
+            <td data-label="장소">{r.goals[0]}:{r.goals[1]}</td>
+            <td data-label="스코어" class="dg-more__score">{r.matches}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</details>

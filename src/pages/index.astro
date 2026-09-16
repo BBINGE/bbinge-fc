@@ -75,6 +75,16 @@ const archiveEntries = (await getCollection('archive', ({ data }) => !data.draft
 
 // 1층 팝업관(운영자 지시, 2026-09-16): 팝업은 로비 줄이 아니라 최근 입고 칸에 일반 글과 같은 카드로 들인다.
 const popupEntries = [{
+  id: 'popup-big-club-rivalries',
+  href: '/popup/big-club-rivalries/',
+  title: '유럽 해외축구 빅클럽간 맞대결 역대전적 모음(박빙인 것만, 2026년 버전)',
+  description: '유럽 대항전에서 여섯 번 넘게 만나고도 반반인 99대진을 연대 막대로.',
+  floor: '01',
+  hall: '팝업관',
+  cardImage: '/images/popup/rivalries/card.webp',
+  coverImageAlt: '유럽 빅클럽 박빙 상대전적 팝업 카드',
+  pubDate: new Date('2026-09-16T19:10:00+09:00'),
+}, {
   id: 'popup-european-comebacks',
   href: '/popup/european-comebacks/',
   title: '이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 58경기 ㄷㄷ)',
