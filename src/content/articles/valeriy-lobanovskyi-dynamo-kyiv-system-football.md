@@ -122,7 +122,7 @@ draft: false
   </div>
 </section>
 
-국가대표팀에서도 그 구조는 이어졌다. 디나모 키이우 선수들을 중심에 둔 소련은 UEFA 유로 1988 첫 경기에서 리누스 미헐스<span class="foreign-note" lang="nl">(Marinus Jacobus Hendricus Michels; 네덜란드 축구 선수·감독, 1928-2005)</span>의 네덜란드를 만났다. 로바노우스키는 중원을 조밀하게 만들어 네덜란드가 익숙하지 않은 긴 공을 쓰게 했고 1-0으로 이겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
+국가대표팀에서도 그 구조는 이어졌다. 디나모 키이우 선수들을 중심에 둔 소련은 UEFA 유로 1988 첫 경기에서 리뉘스 미헐스<span class="foreign-note" lang="nl">(Marinus Jacobus Hendricus Michels; 네덜란드 축구 선수·감독, 1928-2005)</span>의 네덜란드를 만났다. 로바노우스키는 중원을 조밀하게 만들어 네덜란드가 익숙하지 않은 긴 공을 쓰게 했고 1-0으로 이겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
 결승에서는 뤼트 휠릿과 마르코 판바스턴의 네덜란드에 0-2로 졌다. 그러나 결승 선발 열한 명 가운데 여덟 명이 디나모 키이우 소속이었다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 클럽에서 매일 연마한 공통 언어가 대표팀의 짧은 준비 기간을 대신했다. 로바노우스키의 축구가 한 훈련장 밖에서도 작동할 수 있음을 보여준 대회였다.
 
