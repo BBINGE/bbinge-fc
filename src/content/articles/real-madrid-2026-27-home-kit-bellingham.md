@@ -23,7 +23,7 @@ featured: false
 <div class="rm-index" aria-label="레알 마드리드 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACE</b><strong>JUDE 05</strong><span>음바페와 비니시우스 사이에서 캠페인의 중심을 잡는 벨링엄</span></div>
   <div><b>THE CROWN</b><strong>다이아몬드와 진주</strong><span>구단 문장의 왕관 보석을 흰색 표면 안에 새긴 그래픽</span></div>
-  <div><b>THE RETURN</b><strong>MOURINHO 2.0</strong><span>조제 모리뉴의 귀환과 함께 다시 시작된 흰색의 시즌</span></div>
+  <div><b>THE RETURN</b><strong>MOURINHO 2.0</strong><span>주제 모리뉴의 귀환과 함께 다시 시작된 흰색의 시즌</span></div>
 </div>
 
 ## 벨링엄을 가운데 세운 이유부터 볼까요?
@@ -90,11 +90,11 @@ featured: false
 
 아테네아의 넓은 팬츠와 삼바 조합은 가장 바로 따라 입기 좋고, 벨라의 상반신 컷은 셔츠 자체를 가장 깨끗하게 보여준다. 하위선은 길고 가는 실루엣, 발베르데는 긴소매 레이어링의 가능성을 맡았다. 같은 흰색 셔츠가 인물에 따라 경기복·티셔츠·레이어드 톱으로 이동한다.
 
-## 무리뉴가 돌아온 시즌이라 흰색도 조금 더 날카로워 보여요
+## 모리뉴가 돌아온 시즌이라 흰색도 조금 더 날카로워 보여요
 
-레알 마드리드는 2026년 6월 조제 모리뉴<span class="foreign-note" lang="pt">(José Mourinho; 포르투갈 축구 감독, 1963-)</span>를 2029년 6월까지 1군 감독으로 선임했다. 2013년 이후 두 번째 레알 마드리드 시기다. 캠페인 사진에 무리뉴가 등장하지는 않지만, 이 셔츠는 그의 복귀와 함께 새 시즌의 첫인상이 됐다.
+레알 마드리드는 2026년 6월 주제 모리뉴<span class="foreign-note" lang="pt">(José Mourinho; 포르투갈 축구 감독, 1963-)</span>를 2029년 6월까지 1군 감독으로 선임했다. 2013년 이후 두 번째 레알 마드리드 시기다. 캠페인 사진에 모리뉴가 등장하지는 않지만, 이 셔츠는 그의 복귀와 함께 새 시즌의 첫인상이 됐다.
 
-무리뉴가 복귀 인터뷰에서 반복한 단어는 일, 책임, 야망이었다. 화려한 장식을 밖으로 드러내지 않고 흰색 안쪽에 보석의 무늬를 숨긴 이번 디자인도 이상하리만큼 그 어휘와 잘 맞는다. 벨링엄을 중심에 세운 캠페인이 ‘스타가 많은 팀’보다 ‘누가 화면을 통제하는가’를 먼저 보여주는 것처럼, 셔츠 역시 장식보다 질서를 택한다.
+모리뉴가 복귀 인터뷰에서 반복한 단어는 일, 책임, 야망이었다. 화려한 장식을 밖으로 드러내지 않고 흰색 안쪽에 보석의 무늬를 숨긴 이번 디자인도 이상하리만큼 그 어휘와 잘 맞는다. 벨링엄을 중심에 세운 캠페인이 ‘스타가 많은 팀’보다 ‘누가 화면을 통제하는가’를 먼저 보여주는 것처럼, 셔츠 역시 장식보다 질서를 택한다.
 
 ## 경기장 밖에서는 긴소매가 의외로 예뻐요
 
@@ -158,8 +158,8 @@ featured: false
     <li><a href="https://www.realmadrid.com/en-US/news/club/sponsors/el-real-madrid-y-adidas-prorrogan-la-alianza-mas-exitosa-del-futbol-mundial-10-06-2026">Real Madrid C.F., “Real Madrid and adidas extend the most successful partnership in world football”</a>, 2026년 6월 10일. 2034년까지의 파트너십 연장과 벨링엄을 포함한 협업 역사 확인.</li>
     <li><a href="https://news.adidas.com/football/adidas-unveils-the-icon-takeover-collection-featuring-a-jude-bellingham-predator---trinity-rodman-f5/s/5406d71a-7931-4620-8080-af1412371b76">adidas, “Icon Takeover Collection”</a>, 2026년 2월 3일. 벨링엄의 시그니처 프레데터와 패션·문화 인물로서의 캠페인 설명 확인.</li>
     <li><a href="https://news.adidas.com/world-cup-2026/adidas-originals-celebrates-football-culture-with-new-collection-and-campaign-ahead-of-fifa-world-cu/s/f4d82c5e-5823-4857-916f-e67c1c6dfece">adidas Originals, “Football is the Muse”</a>, 2026년 4월 2일. 벨링엄과 축구·스트리트 문화 캠페인의 관계 확인.</li>
-    <li><a href="https://www.realmadrid.com/en-US/news/club/latest-news/comunicado-oficial-mourinho-11-06-2026">Real Madrid C.F., “Official Announcement: José Mourinho”</a>, 2026년 6월 11일. 무리뉴의 2029년까지 감독 선임 확인.</li>
-    <li><a href="https://www.realmadrid.com/en-US/news/football/first-team/latest-news/mourinho-estoy-para-ayudar-a-todos-a-ser-mejores-10-07-2026">Real Madrid C.F., “Working for Real Madrid is an honor and a responsibility”</a>, 2026년 7월 10일. 새 시즌에 관한 무리뉴의 일·책임·야망 발언 확인.</li>
+    <li><a href="https://www.realmadrid.com/en-US/news/club/latest-news/comunicado-oficial-mourinho-11-06-2026">Real Madrid C.F., “Official Announcement: José Mourinho”</a>, 2026년 6월 11일. 모리뉴의 2029년까지 감독 선임 확인.</li>
+    <li><a href="https://www.realmadrid.com/en-US/news/football/first-team/latest-news/mourinho-estoy-para-ayudar-a-todos-a-ser-mejores-10-07-2026">Real Madrid C.F., “Working for Real Madrid is an honor and a responsibility”</a>, 2026년 7월 10일. 새 시즌에 관한 모리뉴의 일·책임·야망 발언 확인.</li>
     <li><a href="https://houseofheat.co/adidas/real-madrid-adidas-2026-27-kits-release-dates">House of Heat, Real Madrid adidas 2026/27 kits</a>. 아디다스 공식 캠페인에서 벨링엄·음바페·비니시우스·아테네아·벨라·하위선·발베르데의 인물 이미지 확인.</li>
   </ol>
 </section>

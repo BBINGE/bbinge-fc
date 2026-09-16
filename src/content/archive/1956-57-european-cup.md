@@ -29,7 +29,7 @@ draft: false
 
 첫 결승에서 레알과 맞섰던 스타드 드 랭스<span class="foreign-note" lang="fr">(Stade de Reims)</span>는 이번 명단에 없었다. 두 번째 대회는 디펜딩 챔피언을 뺀 자리를 각국 리그 챔피언에게 돌렸고, 1955-56 시즌 프랑스 챔피언은 OGC 니스<span class="foreign-note" lang="fr">(Olympique Gymnaste Club de Nice)</span>였다. 알베르 바토<span class="foreign-note" lang="fr">(Albert Batteux; 프랑스 감독, 1919-2003)</span> 감독의 랭스는 유럽 준우승이라는 이력만으로는 두 번째 대회에 나설 수 없었다. <a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
-랭스의 공격을 이끌던 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopaszewski; 프랑스 공격수, 1931-2017)</span>도 이미 레알 마드리드로 떠난 뒤였다. 결승을 앞두고 이적이 예정돼 있던 그는 새 시즌 마드리드에서 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento López; 스페인 왼쪽 윙어, 1933-2022)</span>, 엑토르 리알<span class="foreign-note" lang="es">(José Héctor Rial Laguía; 아르헨티나 출신 공격수, 1928-1991)</span>, 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나 출신 공격수, 1926-2014)</span>와 한 공격진에 섰다. 이른바 은하계 공격단, 1950년대의 갈락티코스가 모양을 갖춘 시즌이다. 파리의 결승에서 서로 막아야 했던 선수들이 몇 달 뒤 같은 유니폼을 입고 유럽 두 번째 우승에 도전하게 됐다. <a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+랭스의 공격을 이끌던 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopaszewski; 프랑스 공격수, 1931-2017)</span>도 이미 레알 마드리드로 떠난 뒤였다. 결승을 앞두고 이적이 예정돼 있던 그는 새 시즌 마드리드에서 파코 헨토<span class="foreign-note" lang="es">(Francisco Gento López; 스페인 왼쪽 윙어, 1933-2022)</span>, 엑토르 리알<span class="foreign-note" lang="es">(José Héctor Rial Laguía; 아르헨티나 출신 공격수, 1928-1991)</span>, 알프레도 디스테파노<span class="foreign-note" lang="es">(Alfredo Di Stéfano Laulhé; 아르헨티나 출신 공격수, 1926-2014)</span>와 한 공격진에 섰다. 이른바 은하계 공격단, 1950년대의 갈락티코스가 모양을 갖춘 시즌이다. 파리의 결승에서 서로 막아야 했던 선수들이 몇 달 뒤 같은 유니폼을 입고 유럽 두 번째 우승에 도전하게 됐다. <a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
 ## 풋볼리그의 반대를 넘은 맨체스터 유나이티드
 

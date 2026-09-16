@@ -78,7 +78,7 @@ relatedGroup: 'fifa-world-cup-1950'
 
 <div class="best-xi" aria-label="1950 FIFA 월드컵 베스트 11 WM 배치">
   <div class="best-xi-line forwards-three">
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 알베르토 스키아피노" loading="lazy" /><span>IL</span><strong>스키아피노</strong><small>우루과이 · 4경기 3골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 스키아피노" loading="lazy" /><span>IL</span><strong>스키아피노</strong><small>우루과이 · 4경기 3골</small></div>
     <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" alt="아데미르" loading="lazy" /><span>CF</span><strong>아데미르</strong><small>브라질 · 6경기 9골</small></div>
     <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="알시데스 기지아" loading="lazy" /><span>OR</span><strong>알시데스 기지아</strong><small>우루과이 · 4경기 4골</small></div>
   </div>
@@ -113,7 +113,7 @@ relatedGroup: 'fifa-world-cup-1950'
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jair-rosa-pinto.jpg" alt="자이르 다 호자 핀투" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>자이르 다 호자 핀투</strong><small lang="pt-BR">Jair da Rosa Pinto</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 5경기 2골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="알시데스 기지아" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>알시데스 기지아</strong><small lang="es-UY">Alcides Edgardo Ghiggia</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 4골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" alt="아데미르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>아데미르</strong><small lang="pt-BR">Ademir Marques de Menezes</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 6경기 9골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 알베르토 스키아피노" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>후안 알베르토 스키아피노</strong><small lang="es-UY">Juan Alberto Schiaffino</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 3골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 스키아피노" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>후안 스키아피노</strong><small lang="es-UY">Juan Alberto Schiaffino</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 3골</p></div></article>
 </div>
 
 ### 네 경기만 치른 우승팀의 골문
@@ -139,7 +139,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 
 지지뉴<span class="foreign-note" lang="pt-BR">(Thomaz Soares da Silva; 브라질 인사이드 포워드, 1921-2002)</span>는 부상에서 회복 중이라 브라질의 첫 두 경기에 나오지 않았다. 유고슬라비아와의 조별리그 마지막 경기에서 돌아왔고, 아데미르의 골을 만들어준 뒤 직접 한 골을 넣어 팀을 최종 리그로 올렸다. 인사이드 라이트 지지뉴, 인사이드 레프트 자이르, 센터 포워드 아데미르로 이어지는 삼각형이 처음으로 완성된 경기였다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
-반대편의 후안 알베르토 스키아피노<span class="foreign-note" lang="es-UY">(Juan Alberto Schiaffino; 우루과이 인사이드 포워드, 1925-2002)</span>는 스물네 살이었다. 볼리비아전에서 네 골을 넣었고, 마지막 경기에서는 우루과이의 동점골을 기록한다. 두 사람 모두 윙어가 아니라 안쪽에서 경기를 읽는 자리의 선수였다는 점이 이 대회 공격의 성격을 보여준다. 폭을 만드는 일은 바깥의 몫이었고, 결정을 만드는 일은 안쪽의 몫이었다.
+반대편의 후안 스키아피노<span class="foreign-note" lang="es-UY">(Juan Alberto Schiaffino; 우루과이 인사이드 포워드, 1925-2002)</span>는 스물네 살이었다. 볼리비아전에서 네 골을 넣었고, 마지막 경기에서는 우루과이의 동점골을 기록한다. 두 사람 모두 윙어가 아니라 안쪽에서 경기를 읽는 자리의 선수였다는 점이 이 대회 공격의 성격을 보여준다. 폭을 만드는 일은 바깥의 몫이었고, 결정을 만드는 일은 안쪽의 몫이었다.
 
 ### 아홉 골의 9번
 

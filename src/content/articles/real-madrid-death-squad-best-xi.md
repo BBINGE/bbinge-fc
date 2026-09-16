@@ -84,7 +84,7 @@ featured: false
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/marquitos.png" alt="마르키토스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RB · RIGHT BACK</span><h4>마르키토스</h4><small lang="es">Marcos Alonso Imaz</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1954-1962</dd></div><div><dt>공식 기록</dt><dd>228경기 3골</dd></div></dl></div></article>
 
-마르코스 알론소 이마스<span class="foreign-note" lang="es">(Marcos Alonso Imaz; 스페인 수비수, 1933-2012)</span>는 오른쪽 풀백과 중앙 수비를 오간 과감한 수비수였다. 유소년 시절 지역 선발팀으로 레알 마드리드를 상대했을 때부터 구단의 눈에 들었고, 1954년 1군에 올라온 뒤에는 강한 몸싸움과 망설임 없는 전진으로 자리를 잡았다. 정교하게 위험을 피하는 레스메스와 달리 위험한 장면 안으로 직접 뛰어들어 해결하는 쪽에 가까웠다.
+마르키토스<span class="foreign-note" lang="es">(Marcos Alonso Imaz; 스페인 수비수, 1933-2012)</span>는 오른쪽 풀백과 중앙 수비를 오간 과감한 수비수였다. 유소년 시절 지역 선발팀으로 레알 마드리드를 상대했을 때부터 구단의 눈에 들었고, 1954년 1군에 올라온 뒤에는 강한 몸싸움과 망설임 없는 전진으로 자리를 잡았다. 정교하게 위험을 피하는 레스메스와 달리 위험한 장면 안으로 직접 뛰어들어 해결하는 쪽에 가까웠다.
 
 그 성격이 가장 선명하게 드러난 경기가 1956년 초대 유러피언컵 결승이다. 레알 마드리드가 스타드 드 랭스에 2-3으로 뒤지던 순간, 수비수인 마르키토스가 공격에 가담해 동점골을 넣었다. 리알의 결승골이 나오기 전에 패배의 방향을 되돌린 득점이었다. 수비수가 자기 구역만 지키는 데 머물지 않고 팀이 필요로 하는 순간 전장 전체에 관여한 장면이기도 하다.
 

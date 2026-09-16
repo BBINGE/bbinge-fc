@@ -55,7 +55,7 @@ relatedGroup: 'fifa-world-cup-1950'
 
 <section class="highlight-scene scene-chapter">
   <header><span>66′ · 1-1</span><h2>스키아피노가 침묵을 시작했다</h2></header>
-  <p>선제골 이후에도 물러서지 않은 우루과이는 후반 21분 경기를 원점으로 돌렸다. 기지아가 오른쪽에서 낮게 내준 공을 후안 알베르토 스키아피노가 강하게 마무리했다. 브라질은 여전히 이 점수로 우승할 수 있었지만, 마라카낭의 공기는 환호에서 불안으로 바뀌었다.</p>
+  <p>선제골 이후에도 물러서지 않은 우루과이는 후반 21분 경기를 원점으로 돌렸다. 기지아가 오른쪽에서 낮게 내준 공을 후안 스키아피노가 강하게 마무리했다. 브라질은 여전히 이 점수로 우승할 수 있었지만, 마라카낭의 공기는 환호에서 불안으로 바뀌었다.</p>
   <div class="highlight-clip-grid two-clips">
     <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-05.mp4" type="video/mp4" /></video><figcaption>현장 중계자의 다급한 모습. 곧이어 우루과이의 동점골 장면으로 연결된다.</figcaption></figure>
     <figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view><source src="/media/highlights/1950-world-cup-final/clip-06.mp4" type="video/mp4" /></video><figcaption>기지아가 오른쪽에서 보낸 공을 스키아피노가 마무리한다. 우루과이의 1-1 동점골.</figcaption></figure>

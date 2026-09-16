@@ -16,7 +16,7 @@ featured: false
 
 <aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 002</span><p>엘레니오 에레라가 지휘봉을 잡은 1960년부터 1972년 유러피언컵 결승까지를 하나의 전성기로 묶고, 그란데 인테르를 가장 선명하게 설명하는 열한 명을 선정했습니다.</p></aside>
 
-주세페 메아차<span class="foreign-note" lang="it">(Giuseppe Meazza; 이탈리아 축구선수·공격수, 1910-1979)</span>가 현역에서 물러난 뒤 FC 인테르나치오날레 밀라노<span class="foreign-note" lang="it">(Football Club Internazionale Milano; ‘밀라노의 국제적인 축구단’을 뜻하는 구단 공식명)</span>가 다시 유럽 축구의 중심에 선 시기가 있었다. 안젤로 모라티<span class="foreign-note" lang="it">(Angelo Moratti; 이탈리아 기업가·인테르 회장, 1909-1981)</span> 회장이 판을 키우고, ‘마법사’ 엘레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera; 아르헨티나 태생 축구감독, 1910-1997)</span>가 전술과 심리를 함께 다뤘다. 그 아래에서 산드로 마촐라·루이스 수아레스 미라몬테스·자친토 파케티 같은 거물들이 검정과 파랑의 줄무늬 안에서 하나로 움직였다. 이름만 늘어놓아도 호화롭지만, 이 팀의 진짜 매력은 그 재능들이 서로의 빈칸을 정확히 메웠다는 데 있다.
+주세페 메아차<span class="foreign-note" lang="it">(Giuseppe Meazza; 이탈리아 축구선수·공격수, 1910-1979)</span>가 현역에서 물러난 뒤 FC 인테르나치오날레 밀라노<span class="foreign-note" lang="it">(Football Club Internazionale Milano; ‘밀라노의 국제적인 축구단’을 뜻하는 구단 공식명)</span>가 다시 유럽 축구의 중심에 선 시기가 있었다. 안젤로 모라티<span class="foreign-note" lang="it">(Angelo Moratti; 이탈리아 기업가·인테르 회장, 1909-1981)</span> 회장이 판을 키우고, ‘마법사’ 엘레니오 에레라<span class="foreign-note" lang="es">(Helenio Herrera; 아르헨티나 태생 축구감독, 1910-1997)</span>가 전술과 심리를 함께 다뤘다. 그 아래에서 산드로 마촐라·루이스 수아레스·자친토 파케티 같은 거물들이 검정과 파랑의 줄무늬 안에서 하나로 움직였다. 이름만 늘어놓아도 호화롭지만, 이 팀의 진짜 매력은 그 재능들이 서로의 빈칸을 정확히 메웠다는 데 있다.
 
 이 팀을 가리키는 이름이 **라 그란데 인테르**<span class="foreign-note" lang="it">(La Grande Inter; 위대한 인테르)</span>다. 1940년대 이탈리아를 지배한 라 그란데 토리노<span class="foreign-note" lang="it">(La Grande Torino; ‘위대한 토리노’를 뜻하는 1940년대 토리노 FC 왕조의 별칭)</span>가 먼저 떠오르는 표현이기도 하다. 두 왕조 사이에는 묘한 혈연도 있다. 라 그란데 토리노의 주장이었던 발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola; 이탈리아 축구선수·공격수, 1919-1949)</span>의 아들 산드로 마촐라가, 이번에는 인테르 황금기의 공격을 이끌었다.
 
@@ -118,11 +118,11 @@ featured: false
 
 1964년 빈에서 타그닌의 임무는 디스테파노를 따라다니며 레알 마드리드 공격의 첫 문장을 지우는 일이었다. 카메라는 두 골을 넣은 마촐라를 오래 비췄지만, 마촐라가 공격에 집중할 수 있었던 건 누군가가 상대의 가장 위대한 두뇌를 귀찮게 만들었기 때문이다. 이듬해 결승에서는 젊은 베딘이 에우제비우를 맡으며 같은 임무를 이어받았다. 짧은 재임 기간보다 왕조의 첫 유럽 제패에서 감당한 무게를 높게 평가한 선택이다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-### 7. 루이스 수아레스 미라몬테스｜레지스타
+### 7. 루이스 수아레스｜레지스타
 
-<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/luis-suarez.webp" alt="루이스 수아레스 미라몬테스 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CM · REGISTA</span><h4>루이스 수아레스</h4><small lang="es">Luis Suárez Miramontes</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>인테르 소속</dt><dd>1961-1970</dd></div><div><dt>선정 근거</dt><dd>후방의 경기 설계자</dd></div></dl></div></article>
+<article class="custom-xi-player"><img src="/images/squads/grande-inter-best-xi/luis-suarez.webp" alt="루이스 수아레스 선수 디자인 카드" loading="lazy" width="773" height="773" /><div><span>CM · REGISTA</span><h4>루이스 수아레스</h4><small lang="es">Luis Suárez Miramontes</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>인테르 소속</dt><dd>1961-1970</dd></div><div><dt>선정 근거</dt><dd>후방의 경기 설계자</dd></div></dl></div></article>
 
-‘건축가’ 루이스 수아레스 미라몬테스<span class="foreign-note" lang="es">(Luis Suárez Miramontes; 스페인 축구선수·중앙 미드필더, 1935-2023)</span>는 에레라가 바르셀로나에서부터 데려온 제자였다. 공격적인 인사이드 포워드로 이름을 날렸지만 인테르에서는 더 낮은 곳으로 내려왔다. 퇴보가 아니라 시야를 넓히기 위한 이동이었다. 짧은 패스로 상대를 한쪽에 모은 뒤, 고개를 들고 반대편 자이르나 전진하는 파케티에게 긴 공을 보냈다.
+‘건축가’ 루이스 수아레스<span class="foreign-note" lang="es">(Luis Suárez Miramontes; 스페인 축구선수·중앙 미드필더, 1935-2023)</span>는 에레라가 바르셀로나에서부터 데려온 제자였다. 공격적인 인사이드 포워드로 이름을 날렸지만 인테르에서는 더 낮은 곳으로 내려왔다. 퇴보가 아니라 시야를 넓히기 위한 이동이었다. 짧은 패스로 상대를 한쪽에 모은 뒤, 고개를 들고 반대편 자이르나 전진하는 파케티에게 긴 공을 보냈다.
 
 그란데 인테르의 역습은 흔히 속도로 기억되지만, 속도에도 주소가 필요하다. 누가 달릴지를 정하고 그 발앞으로 공을 보내는 사람이 수아레스였다. 1960년 발롱도르를 받은 그는 스페인 출생 선수 최초의 수상자였고, 2024년 로드리가 수상하기 전까지 오랫동안 유일한 사례로 남았다. 차비·이니에스타·로드리보다 앞선 시대에, 그는 미드필더가 경기의 설계자가 될 수 있다는 걸 유럽 정상에서 보여줬다.
 
@@ -164,7 +164,7 @@ featured: false
 
 ## 고르고 보니, 1964년 빈의 열한 명이었다
 
-1964년 빈에서 인테르를 기다린 상대는 유러피언컵 초대 5연패의 주인공 레알 마드리드였다. 1961년 이후 우승컵은 SL 벤피카와 AC 밀란으로 넘어갔지만, 레알의 선발에는 여전히 알프레도 디스테파노와 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인 축구선수·왼쪽 윙어, 1933-2022)</span>, 푸슈카시 페렌츠가 서 있었다. 유러피언컵이라는 대회의 역사를 만든 이름들이었다.
+1964년 빈에서 인테르를 기다린 상대는 유러피언컵 초대 5연패의 주인공 레알 마드리드였다. 1961년 이후 우승컵은 SL 벤피카와 AC 밀란으로 넘어갔지만, 레알의 선발에는 여전히 알프레도 디스테파노와 파코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인 축구선수·왼쪽 윙어, 1933-2022)</span>, 푸슈카시 페렌츠가 서 있었다. 유러피언컵이라는 대회의 역사를 만든 이름들이었다.
 
 레알은 통산 여섯 번째 우승을 노렸고, 인테르는 구단 역사상 처음 오른 결승에서 첫 유럽 정상을 바라봤다. 한쪽에는 이미 대회의 기준이 된 왕조가, 다른 한쪽에는 이제 자기 시대를 시작하려는 팀이 섰다. 이 열한 명이 왜 그란데 인테르의 얼굴인지 설명하려면 바로 그 온도 차이에서 출발해야 한다.
 

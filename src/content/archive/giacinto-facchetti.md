@@ -54,7 +54,7 @@ draft: false
 
 2. 엘레니오 에레라<span class="foreign-note" lang="es-AR">(Helenio Herrera Gavilán; 아르헨티나 태생의 축구 감독, 1910-1997)</span>의 카테나치오는 수비 인원을 뒤에 세워 둔 전술만이 아니었다. 아르만도 피키<span class="foreign-note" lang="it">(Armando Picchi; 이탈리아 수비수, 1935-1971)</span>가 최후방을 정리하고 타르치시오 부르니치<span class="foreign-note" lang="it">(Tarcisio Burgnich; 이탈리아 수비수, 1939-2021)</span>가 상대 공격수를 묶는 동안, 파케티의 전진은 내려앉은 수비를 단숨에 공격으로 바꿨다.
 
-3. 루이스 수아레스 미라몬테스<span class="foreign-note" lang="es">(Luis Suárez Miramontes; 스페인 미드필더, 1935-2023)</span>가 왼쪽 앞으로 패스할 때 파케티는 공을 기다리지 않고 공간으로 출발했다. 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola; 이탈리아 공격형 미드필더, 1942-)</span>가 중앙으로 들어가면 파케티가 폭을 넓혔다. 그란데 인테르의 공격은 이 세 선수의 판단이 이어질 때 가장 빠르고 넓었다.
+3. 루이스 수아레스<span class="foreign-note" lang="es">(Luis Suárez Miramontes; 스페인 미드필더, 1935-2023)</span>가 왼쪽 앞으로 패스할 때 파케티는 공을 기다리지 않고 공간으로 출발했다. 산드로 마촐라<span class="foreign-note" lang="it">(Sandro Mazzola; 이탈리아 공격형 미드필더, 1942-)</span>가 중앙으로 들어가면 파케티가 폭을 넓혔다. 그란데 인테르의 공격은 이 세 선수의 판단이 이어질 때 가장 빠르고 넓었다.
 
 4. 이탈리아 대표팀에서는 주장으로 UEFA 유로 1968 우승과 1970 FIFA 월드컵 준우승을 이끌었다. 1965년 발롱도르 2위는 그의 전술적 새로움이 동시대에도 최고 수준의 개인 가치로 인정받았음을 보여준다.
 
@@ -156,6 +156,6 @@ draft: false
   <li><a href="https://www.figc.it/it/full-html?path=%2Fmuseo-del-calcio%2Fhall-of-fame%2Friconoscimenti-alla-memoria%2Fgiacinto-facchetti" rel="noopener noreferrer">FIGC Museo del Calcio: Giacinto Facchetti</a>: 이탈리아 대표팀 94경기 3골과 명예의 전당 기록.</li>
   <li><a href="https://www.treccani.it/enciclopedia/giacinto-facchetti_%28Enciclopedia-dello-Sport%29/" rel="noopener noreferrer">Treccani: Giacinto Facchetti</a>: 188cm 신장과 레프트백·리베로 포지션.</li>
   <li><a href="https://www.rsssf.org/miscellaneous/europa-poy.html" rel="noopener noreferrer">RSSSF: European Footballer of the Year</a>: 발롱도르 연도별 투표 순위.</li>
-  <li><a href="/archive/legends/spain/luis-suarez-miramontes/">삥이FC: 루이스 수아레스 미라몬테스</a>: 그란데 인테르의 후방 설계자와 파케티의 부분 전술.</li>
+  <li><a href="/archive/legends/spain/luis-suarez-miramontes/">삥이FC: 루이스 수아레스</a>: 그란데 인테르의 후방 설계자와 파케티의 부분 전술.</li>
   <li><a href="/squads/custom-best-xi/grande-inter-best-xi/">삥이FC: 그란데 인테르 베스트 11</a>: 파케티가 뛰었던 세대의 전술 구조와 선정 명단.</li>
 </ul>

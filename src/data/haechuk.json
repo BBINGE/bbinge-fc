@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T01:06:57.628Z",
+  "updatedAt": "2026-09-16T08:28:14.270Z",
   "days": {
     "yesterday": "2026-09-15",
     "today": "2026-09-16",
@@ -1243,7 +1243,7 @@
         {
           "id": "231388",
           "team": "레알 마드리드 CF",
-          "value": 6,
+          "value": 7,
           "appearances": 5,
           "ko": "킬리안 음바페",
           "original": "Kylian Mbappé",
@@ -1251,6 +1251,30 @@
           "age": 27,
           "position": "공격수",
           "nationality": "프랑스"
+        },
+        {
+          "id": "318773",
+          "team": "RCD 에스파뇰",
+          "value": 6,
+          "appearances": 5,
+          "ko": "로베르토 페르난데스",
+          "original": "Roberto Fernández",
+          "dob": "2002-07-03",
+          "age": 24,
+          "position": "공격수",
+          "nationality": "스페인"
+        },
+        {
+          "id": "276652",
+          "team": "라요 바예카노 데 마드리드",
+          "value": 6,
+          "appearances": 6,
+          "ko": "세르히오 카메요",
+          "original": "Sergio Camello",
+          "dob": "2001-02-10",
+          "age": 25,
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "231050",
@@ -1277,18 +1301,6 @@
           "nationality": "스페인"
         },
         {
-          "id": "276652",
-          "team": "라요 바예카노 데 마드리드",
-          "value": 6,
-          "appearances": 5,
-          "ko": "세르히오 카메요",
-          "original": "Sergio Camello",
-          "dob": "2001-02-10",
-          "age": 25,
-          "position": "공격수",
-          "nationality": "스페인"
-        },
-        {
           "id": "122260",
           "team": "RC 데포르티보 라코루냐",
           "value": 5,
@@ -1301,18 +1313,6 @@
           "nationality": "가봉"
         },
         {
-          "id": "318773",
-          "team": "RCD 에스파뇰",
-          "value": 5,
-          "appearances": 5,
-          "ko": "로베르토 페르난데스",
-          "original": "Roberto Fernández",
-          "dob": "2002-07-03",
-          "age": 24,
-          "position": "공격수",
-          "nationality": "스페인"
-        },
-        {
           "id": "390389",
           "team": "레알 라싱 클루브 데 산탄데르",
           "value": 5,
@@ -1323,6 +1323,18 @@
           "age": 21,
           "position": "공격수",
           "nationality": "모로코"
+        },
+        {
+          "id": "207236",
+          "team": "데포르티보 알라베스",
+          "value": 4,
+          "appearances": 4,
+          "ko": "루카스 보예",
+          "original": "Lucas Boyé",
+          "dob": "1996-02-28",
+          "age": 30,
+          "position": "공격수",
+          "nationality": "아르헨티나"
         },
         {
           "id": "207288",
@@ -1349,18 +1361,6 @@
           "nationality": "스페인"
         },
         {
-          "id": "207236",
-          "team": "데포르티보 알라베스",
-          "value": 4,
-          "appearances": 4,
-          "ko": "루카스 보예",
-          "original": "Lucas Boyé",
-          "dob": "1996-02-28",
-          "age": 30,
-          "position": "공격수",
-          "nationality": "아르헨티나"
-        },
-        {
           "id": "291281",
           "team": "레알 마드리드 CF",
           "value": 3,
@@ -1373,15 +1373,15 @@
           "nationality": "잉글랜드"
         },
         {
-          "id": "297373",
-          "team": "클루브 아틀레티코 데 마드리드",
+          "id": "301684",
+          "team": "엘체 CF",
           "value": 3,
           "appearances": 5,
-          "ko": "알렉스 바에나",
-          "original": "Álex Baena",
-          "dob": "2001-07-20",
+          "ko": "페르난도 니뇨",
+          "original": "Fernando Niño",
+          "dob": "2000-10-24",
           "age": 25,
-          "position": "미드필더",
+          "position": "공격수",
           "nationality": "스페인"
         },
         {
@@ -1395,6 +1395,18 @@
           "age": 33,
           "position": "공격수",
           "nationality": "도미니카 공화국"
+        },
+        {
+          "id": "297373",
+          "team": "클루브 아틀레티코 데 마드리드",
+          "value": 3,
+          "appearances": 5,
+          "ko": "알렉스 바에나",
+          "original": "Álex Baena",
+          "dob": "2001-07-20",
+          "age": 25,
+          "position": "미드필더",
+          "nationality": "스페인"
         },
         {
           "id": "267591",
@@ -1421,6 +1433,18 @@
           "nationality": "크로아티아"
         },
         {
+          "id": "125200",
+          "team": "라요 바예카노 데 마드리드",
+          "value": 2,
+          "appearances": 5,
+          "ko": "",
+          "original": "Álvaro García",
+          "dob": "1992-10-27",
+          "age": 33,
+          "position": "미드필더",
+          "nationality": "스페인"
+        },
+        {
           "id": "210397",
           "team": "비야레알 CF",
           "value": 2,
@@ -1431,18 +1455,6 @@
           "age": 31,
           "position": "공격수",
           "nationality": "코트디부아르"
-        },
-        {
-          "id": "301684",
-          "team": "엘체 CF",
-          "value": 2,
-          "appearances": 5,
-          "ko": "페르난도 니뇨",
-          "original": "Fernando Niño",
-          "dob": "2000-10-24",
-          "age": 25,
-          "position": "공격수",
-          "nationality": "스페인"
         },
         {
           "id": "323838",
@@ -1467,21 +1479,21 @@
           "age": 26,
           "position": "미드필더",
           "nationality": "스페인"
-        },
-        {
-          "id": "156172",
-          "team": "비야레알 CF",
-          "value": 2,
-          "appearances": 5,
-          "ko": "",
-          "original": "Gerard Moreno",
-          "dob": "1992-04-07",
-          "age": 34,
-          "position": "공격수",
-          "nationality": "스페인"
         }
       ],
       "assists": [
+        {
+          "id": "367946",
+          "team": "RCD 에스파뇰",
+          "value": 4,
+          "appearances": 5,
+          "ko": "하비 에르난데스",
+          "original": "Javi Hernandez",
+          "dob": "2004-01-30",
+          "age": 22,
+          "position": "미드필더",
+          "nationality": "스페인"
+        },
         {
           "id": "268782",
           "team": "FC 바르셀로나",
@@ -1507,16 +1519,16 @@
           "nationality": "브라질"
         },
         {
-          "id": "231050",
-          "team": "FC 바르셀로나",
+          "id": "374621",
+          "team": "데포르티보 알라베스",
           "value": 3,
           "appearances": 5,
-          "ko": "하피냐",
-          "original": "Raphinha",
-          "dob": "1996-12-14",
-          "age": 29,
-          "position": "공격수",
-          "nationality": "브라질"
+          "ko": "앙헬 페레스",
+          "original": "Ángel Pérez",
+          "dob": "2002-08-29",
+          "age": 24,
+          "position": "수비수",
+          "nationality": "스페인"
         },
         {
           "id": "203711",
@@ -1528,30 +1540,6 @@
           "dob": "1995-10-30",
           "age": 30,
           "position": "미드필더",
-          "nationality": "스페인"
-        },
-        {
-          "id": "367946",
-          "team": "RCD 에스파뇰",
-          "value": 3,
-          "appearances": 5,
-          "ko": "하비 에르난데스",
-          "original": "Javi Hernandez",
-          "dob": "2004-01-30",
-          "age": 22,
-          "position": "미드필더",
-          "nationality": "스페인"
-        },
-        {
-          "id": "374621",
-          "team": "데포르티보 알라베스",
-          "value": 3,
-          "appearances": 5,
-          "ko": "앙헬 페레스",
-          "original": "Ángel Pérez",
-          "dob": "2002-08-29",
-          "age": 24,
-          "position": "수비수",
           "nationality": "스페인"
         },
         {
@@ -1567,6 +1555,54 @@
           "nationality": "도미니카 공화국"
         },
         {
+          "id": "231050",
+          "team": "FC 바르셀로나",
+          "value": 3,
+          "appearances": 5,
+          "ko": "하피냐",
+          "original": "Raphinha",
+          "dob": "1996-12-14",
+          "age": 29,
+          "position": "공격수",
+          "nationality": "브라질"
+        },
+        {
+          "id": "231388",
+          "team": "레알 마드리드 CF",
+          "value": 2,
+          "appearances": 5,
+          "ko": "킬리안 음바페",
+          "original": "Kylian Mbappé",
+          "dob": "1998-12-20",
+          "age": 27,
+          "position": "공격수",
+          "nationality": "프랑스"
+        },
+        {
+          "id": "291281",
+          "team": "레알 마드리드 CF",
+          "value": 2,
+          "appearances": 5,
+          "ko": "주드 벨링엄",
+          "original": "Jude Bellingham",
+          "dob": "2003-06-29",
+          "age": 23,
+          "position": "미드필더",
+          "nationality": "잉글랜드"
+        },
+        {
+          "id": "125200",
+          "team": "라요 바예카노 데 마드리드",
+          "value": 2,
+          "appearances": 5,
+          "ko": "",
+          "original": "Álvaro García",
+          "dob": "1992-10-27",
+          "age": 33,
+          "position": "미드필더",
+          "nationality": "스페인"
+        },
+        {
           "id": "229018",
           "team": "레알 소시에다드 데 풋볼",
           "value": 2,
@@ -1577,6 +1613,42 @@
           "age": 29,
           "position": "공격수",
           "nationality": "스페인"
+        },
+        {
+          "id": "259916",
+          "team": "엘체 CF",
+          "value": 2,
+          "appearances": 5,
+          "ko": "호세 안토니오 모렌테",
+          "original": "José Antonio Morente",
+          "dob": "1996-12-04",
+          "age": 29,
+          "position": "공격수",
+          "nationality": "스페인"
+        },
+        {
+          "id": "310452",
+          "team": "레알 마드리드 CF",
+          "value": 2,
+          "appearances": 5,
+          "ko": "아르다 귈레르",
+          "original": "Arda Güler",
+          "dob": "2005-02-25",
+          "age": 21,
+          "position": "미드필더",
+          "nationality": "튀르키예"
+        },
+        {
+          "id": "320648",
+          "team": "엘체 CF",
+          "value": 2,
+          "appearances": 6,
+          "ko": "",
+          "original": "Lucas Cepeda",
+          "dob": "2002-10-31",
+          "age": 23,
+          "position": "공격수",
+          "nationality": "칠레"
         },
         {
           "id": "257786",
@@ -1615,18 +1687,6 @@
           "nationality": "스페인"
         },
         {
-          "id": "291281",
-          "team": "레알 마드리드 CF",
-          "value": 2,
-          "appearances": 5,
-          "ko": "주드 벨링엄",
-          "original": "Jude Bellingham",
-          "dob": "2003-06-29",
-          "age": 23,
-          "position": "미드필더",
-          "nationality": "잉글랜드"
-        },
-        {
           "id": "284699",
           "team": "레알 라싱 클루브 데 산탄데르",
           "value": 2,
@@ -1661,66 +1721,6 @@
           "age": 32,
           "position": "공격수",
           "nationality": "가나"
-        },
-        {
-          "id": "259916",
-          "team": "엘체 CF",
-          "value": 2,
-          "appearances": 5,
-          "ko": "호세 안토니오 모렌테",
-          "original": "José Antonio Morente",
-          "dob": "1996-12-04",
-          "age": 29,
-          "position": "공격수",
-          "nationality": "스페인"
-        },
-        {
-          "id": "376423",
-          "team": "FC 바르셀로나",
-          "value": 2,
-          "appearances": 5,
-          "ko": "마르크 베르날",
-          "original": "Marc Bernal",
-          "dob": "2007-05-26",
-          "age": 19,
-          "position": "미드필더",
-          "nationality": "스페인"
-        },
-        {
-          "id": "310452",
-          "team": "레알 마드리드 CF",
-          "value": 2,
-          "appearances": 5,
-          "ko": "아르다 귈레르",
-          "original": "Arda Güler",
-          "dob": "2005-02-25",
-          "age": 21,
-          "position": "미드필더",
-          "nationality": "튀르키예"
-        },
-        {
-          "id": "227765",
-          "team": "FC 바르셀로나",
-          "value": 2,
-          "appearances": 5,
-          "ko": "다니 올모",
-          "original": "Dani Olmo",
-          "dob": "1998-05-07",
-          "age": 28,
-          "position": "미드필더",
-          "nationality": "스페인"
-        },
-        {
-          "id": "324811",
-          "team": "RC 셀타 데 비고",
-          "value": 2,
-          "appearances": 3,
-          "ko": "우고 곤살레스",
-          "original": "Hugo Gonzalez",
-          "dob": "2003-02-07",
-          "age": 23,
-          "position": "미드필더",
-          "nationality": "스페인"
         }
       ]
     },

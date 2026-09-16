@@ -6,7 +6,7 @@ index: 'european-cup'
 year: 1956
 subject: '1956-57 시즌 유러피언컵 베스트 11'
 originalTitle: '1956-57 European Champion Clubs’ Cup: Tournament Best XI'
-keywords: ['1956-57 유러피언컵 베스트 11', '유러피언컵 베스트 11', '알프레도 디스테파노', '레몽 코파', '프란시스코 헨토', '데니스 바이올렛', '토미 테일러', '던컨 에드워즈', '로저 번', '블라디미르 베아라', '버스비의 아이들']
+keywords: ['1956-57 유러피언컵 베스트 11', '유러피언컵 베스트 11', '알프레도 디스테파노', '레몽 코파', '파코 헨토', '데니스 바이올렛', '토미 테일러', '던컨 에드워즈', '로저 번', '블라디미르 베아라', '버스비의 아이들']
 pubDate: 2026-09-14T12:10:00+09:00
 coverImage: '/images/archive/1956-57-european-cup-tournament-best-xi/cover.webp'
 coverImageAlt: '유러피언컵 트로피 배경의 1956-57 시즌 유러피언컵 Best XI 문구와 트로피를 머리 위로 들어 올린 레알 마드리드 CF 선수들'
@@ -39,7 +39,7 @@ draft: false
 
 <div class="best-xi" aria-label="1956-57 유러피언컵 회고 베스트 11 배치">
   <div class="best-xi-line forwards">
-    <div><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/francisco-gento.webp" alt="프란시스코 헨토" loading="lazy" /><span>OL</span><strong>프란시스코 헨토</strong><small>레알 · 8경기 1골</small></div>
+    <div><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/francisco-gento.webp" alt="파코 헨토" loading="lazy" /><span>OL</span><strong>파코 헨토</strong><small>레알 · 8경기 1골</small></div>
     <div><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/dennis-viollet.webp" alt="데니스 바이올렛" loading="lazy" /><span>IL</span><strong>데니스 바이올렛</strong><small>맨유 · 6경기 9골</small></div>
     <div><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/tommy-taylor.webp" alt="토미 테일러" loading="lazy" /><span>CF</span><strong>토미 테일러</strong><small>맨유 · 8경기 8골</small></div>
     <div><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/raymond-kopa.webp" alt="레몽 코파" loading="lazy" /><span>IR</span><strong>레몽 코파</strong><small>레알 · 8경기 2골</small></div>
@@ -68,7 +68,7 @@ draft: false
   <article class="best-xi-player"><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/raymond-kopa.webp" alt="레몽 코파" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>레몽 코파</strong><small lang="fr">Raymond Kopaszewski</small><p>레알 마드리드 CF <img class="club-crest" src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="레알 마드리드 CF 문장" /> · 8경기 2골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/tommy-taylor.webp" alt="토미 테일러" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>토미 테일러</strong><small lang="en">Thomas Taylor</small><p>맨체스터 유나이티드 FC <img class="club-crest" src="/images/archive/teams/clubs/manchester-united-1902.png" alt="맨체스터 유나이티드 FC 문장" /> · 8경기 8골</p></div></article>
   <article class="best-xi-player"><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/dennis-viollet.webp" alt="데니스 바이올렛" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>데니스 바이올렛</strong><small lang="en">Dennis Sydney Viollet</small><p>맨체스터 유나이티드 FC <img class="club-crest" src="/images/archive/teams/clubs/manchester-united-1902.png" alt="맨체스터 유나이티드 FC 문장" /> · 6경기 9골 · 득점왕</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/francisco-gento.webp" alt="프란시스코 헨토" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>프란시스코 헨토</strong><small lang="es">Francisco Gento López</small><p>레알 마드리드 CF <img class="club-crest" src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="레알 마드리드 CF 문장" /> · 8경기 1골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1956-57-european-cup-tournament-best-xi/roster/francisco-gento.webp" alt="파코 헨토" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>파코 헨토</strong><small lang="es">Francisco Gento López</small><p>레알 마드리드 CF <img class="club-crest" src="/images/archive/teams/clubs/real-madrid-1941.svg" alt="레알 마드리드 CF 문장" /> · 8경기 1골</p></div></article>
 </div>
 
 ### 골문과 최후방
@@ -101,7 +101,7 @@ draft: false
 
 인사이드 레프트는 득점왕 데니스 바이올렛<span class="foreign-note" lang="en">(Dennis Sydney Viollet; 잉글랜드 공격수, 1933-1999)</span>이다. 맨유의 10번을 달고 여섯 경기에서 아홉 골을 넣었다. 잉글랜드 구단의 첫 유러피언컵 골이 브뤼셀에서 나온 그의 골이었고, 메인 로드의 10-0 경기에서는 혼자 네 골을 넣었다. 도르트문트와의 16강 1차전 두 골, 빌바오와의 8강 두 경기 한 골씩까지 더하면 8강까지 다섯 경기에서 아홉 골이다. 두 경기를 빠지고도 1위를 끝까지 지켰으니 경기당 득점으로는 이 대회 누구도 따라오지 못했다. 그는 뮌헨 사고에서 살아남았다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-마지막 자리, 왼쪽 끝은 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento López; 스페인 왼쪽 윙어, 1933-2022)</span>다. 레알의 여덟 경기에 모두 11번으로 나섰다. 골은 한 골뿐인데, 그 한 골이 결승의 두 번째 골이었다. 디스테파노의 페널티킥으로 앞선 뒤, 수비 사이를 빠져나와 사르티 앞까지 혼자 도착했고 발밑으로 몸을 던진 골키퍼 위로 공을 띄워 넘겼다. 레알은 그 골로 2연패를 사실상 확정했다. ‘칸타브리아 바다의 폭풍’이라는 별명대로 속도로 측면을 찢던 선수였고, 레알의 공격이 왼쪽으로 쏠렸다는 코파의 회고도 결국 헨토 이야기다. 그는 이후 레알에서 유러피언컵을 여섯 번 들게 되는데, 마르키토스와 같은 라싱 산탄데르 출신이라는 점도 흥미롭다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-8" aria-label="출처 8">[8]</a><a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+마지막 자리, 왼쪽 끝은 파코 헨토<span class="foreign-note" lang="es">(Francisco Gento López; 스페인 왼쪽 윙어, 1933-2022)</span>다. 레알의 여덟 경기에 모두 11번으로 나섰다. 골은 한 골뿐인데, 그 한 골이 결승의 두 번째 골이었다. 디스테파노의 페널티킥으로 앞선 뒤, 수비 사이를 빠져나와 사르티 앞까지 혼자 도착했고 발밑으로 몸을 던진 골키퍼 위로 공을 띄워 넘겼다. 레알은 그 골로 2연패를 사실상 확정했다. ‘칸타브리아 바다의 폭풍’이라는 별명대로 속도로 측면을 찢던 선수였고, 레알의 공격이 왼쪽으로 쏠렸다는 코파의 회고도 결국 헨토 이야기다. 그는 이후 레알에서 유러피언컵을 여섯 번 들게 되는데, 마르키토스와 같은 라싱 산탄데르 출신이라는 점도 흥미롭다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-8" aria-label="출처 8">[8]</a><a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
 ## 명단 밖에 남은 이름들
 

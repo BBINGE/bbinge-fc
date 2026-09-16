@@ -157,7 +157,7 @@ draft: false
 ## 영상으로 묻는 뉴 매니저 바운스
 
 <section class="mc-video">
-  <div class="mc-video__copy"><span>WATCH · A CLOSER LOOK</span><h3>새 감독 효과는 실재하는가</h3><p>Football Made Simple은 무리뉴, 램퍼드, 스탐의 사례와 경기 수치를 통해 이른바 뉴 매니저 바운스를 설명한다. 논문의 장기 관찰과 나란히 보면, 짧은 결과 상승과 감독이 실제로 바꾼 과정을 구분해서 볼 수 있다.</p><a href="https://www.youtube.com/watch?v=HQjWeYhIne0" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기</a></div>
+  <div class="mc-video__copy"><span>WATCH · A CLOSER LOOK</span><h3>새 감독 효과는 실재하는가</h3><p>Football Made Simple은 모리뉴, 램퍼드, 스탐의 사례와 경기 수치를 통해 이른바 뉴 매니저 바운스를 설명한다. 논문의 장기 관찰과 나란히 보면, 짧은 결과 상승과 감독이 실제로 바꾼 과정을 구분해서 볼 수 있다.</p><a href="https://www.youtube.com/watch?v=HQjWeYhIne0" target="_blank" rel="noopener noreferrer">YouTube에서 원문 보기</a></div>
   <div class="mc-video__media" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/HQjWeYhIne0?autoplay=1&amp;rel=0">
     <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="이 자리에서 뉴 매니저 바운스 분석 영상 재생"><img src="/images/tactics/football-manager-change/new-manager-bounce-video.webp" alt="새 감독이 차이를 만드는가라는 문구와 축구 감독들이 배치된 Football Made Simple 영상 표지" width="1280" height="720" loading="lazy" decoding="async" /><span><b aria-hidden="true">▶</b> 분석 영상 재생</span></button>
     <div class="inline-video__player" hidden><iframe title="Football Made Simple 뉴 매니저 바운스 분석 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><button class="inline-video__close" type="button" data-inline-video-close aria-label="분석 영상 닫기">×</button></div>

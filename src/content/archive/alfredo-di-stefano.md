@@ -56,7 +56,7 @@ draft: false
 
 1. 디스테파노는 등번호 9번을 달았지만 페널티 지역에서 패스를 기다리는 선수는 아니었다. 중앙 수비수 앞까지 내려와 첫 패스를 받고, 하프라인을 넘어 동료에게 공을 건넨 뒤, 다시 문전으로 들어가 공격을 끝냈다. 오늘날의 용어 하나로 묶기 어려운 중앙 공격수, 공격형 미드필더, 박스 투 박스 미드필더의 역할이 한 선수 안에서 이어졌다.
 
-2. 레알 마드리드의 유러피언컵 5연패는 스타들의 명단만으로 설명되지 않는다. 프란시스코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인의 왼쪽 바깥 공격수, 1933-2022)</span>가 폭을 만들고 엑토르 리알<span class="foreign-note" lang="es-AR">(Héctor Rial; 아르헨티나 출신의 공격수, 1928-1991)</span>과 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopa; 프랑스의 공격형 미드필더, 1931-2017)</span>가 안으로 움직일 때, 디스테파노는 이들을 연결하면서 득점 위치까지 도착했다. 1958년부터는 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리의 왼발 공격수, 1927-2006)</span>와 득점 책임도 나눴다.
+2. 레알 마드리드의 유러피언컵 5연패는 스타들의 명단만으로 설명되지 않는다. 파코 헨토<span class="foreign-note" lang="es">(Francisco Gento; 스페인의 왼쪽 바깥 공격수, 1933-2022)</span>가 폭을 만들고 엑토르 리알<span class="foreign-note" lang="es-AR">(Héctor Rial; 아르헨티나 출신의 공격수, 1928-1991)</span>과 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopa; 프랑스의 공격형 미드필더, 1931-2017)</span>가 안으로 움직일 때, 디스테파노는 이들을 연결하면서 득점 위치까지 도착했다. 1958년부터는 푸슈카시 페렌츠<span class="foreign-note" lang="hu">(Puskás Ferenc; 헝가리의 왼발 공격수, 1927-2006)</span>와 득점 책임도 나눴다.
 
 3. 그는 유러피언컵 초대 대회부터 1960년까지 다섯 차례 연속 결승에서 모두 골을 넣었다. 결승 한 경기의 영웅이 다섯 번 등장한 것이 아니다. 상대와 동료가 달라져도 후방 지원, 전개, 침투, 득점을 반복한 선수가 같은 자리에서 왕조의 구조를 유지했다.
 
