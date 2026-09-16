@@ -1,9 +1,13 @@
 ---
 // 골 타임라인: 바이언 골은 묵직한 타격 표시, 5분 안에 세 골 이상 몰리면 한 덩어리로 묶어 「꽈광」, 따로 떨어진 골은 「꽝」. 상대 골은 선 아래 빈 점.
 import type { Goal } from '../../data/popup/bayern-dungi';
+import { BAYERN } from '../../data/popup/bayern-dungi';
+import nicknames from '../../data/popup/club-nicknames.json';
 
-interface Props { goals: Goal[]; label: string }
-const { goals, label } = Astro.props;
+interface Props { goals: Goal[]; label: string; opponentTeam: string }
+const { goals, label, opponentTeam } = Astro.props;
+// 득점자 줄의 팀 이름은 카드 위 풀네임 대신 팬 통용 약칭을 쓴다(운영자 확정, 2026-09-16).
+const shortName = (name: string) => (nicknames as Record<string, string>)[name] ?? name;
 const position = (g: Goal) => Math.min(100, ((Math.min(g.minute, 90) + Math.min(g.injury, 6) * 0.6) / 94) * 100);
 const time = (g: Goal) => g.minute + g.injury / 10;
 const hits = goals.filter((g) => g.bayern);
@@ -24,7 +28,7 @@ const byPlayer = (list: Goal[]) => {
 const mine = byPlayer(hits);
 const theirs = byPlayer(goals.filter((g) => !g.bayern));
 ---
-<div class="dg-timeline" role="img" aria-label={`${label} 골 타임라인: 바이언 ${hits.map((g) => g.clock).join(', ') || '득점 없음'}${theirs.length ? `, 상대 ${goals.filter((g) => !g.bayern).map((g) => g.clock).join(', ')}` : ''}`}>
+<div class="dg-timeline" role="img" aria-label={`${label} 골 타임라인: ${shortName(BAYERN.name)} ${hits.map((g) => g.clock).join(', ') || '득점 없음'}${theirs.length ? `, ${shortName(opponentTeam)} ${goals.filter((g) => !g.bayern).map((g) => g.clock).join(', ')}` : ''}`}>
   <div class="dg-timeline__labels" aria-hidden="true">
     {labels.map((l) => <span class:list={['dg-bang', { 'is-big': l.big }]} style={`--x:${l.x}%`}>{l.text}</span>)}
   </div>
@@ -37,7 +41,7 @@ const theirs = byPlayer(goals.filter((g) => !g.bayern));
 </div>
 {(mine.length > 0 || theirs.length > 0) && (
   <p class="dg-scorers">
-    <span class="dg-scorers__mine">{mine.join(' · ')}</span>
-    {theirs.length > 0 && <span class="dg-scorers__theirs">상대 {theirs.join(' · ')}</span>}
+    <span class="dg-scorers__mine"><b>{shortName(BAYERN.name)}</b>{mine.join(' · ')}</span>
+    {theirs.length > 0 && <span class="dg-scorers__theirs"><b>{shortName(opponentTeam)}</b>{theirs.join(' · ')}</span>}
   </p>
 )}

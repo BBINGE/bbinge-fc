@@ -60,6 +60,8 @@ const canonicalTermRules = [
   [/매직 머저르/g, '매직 마자르'],
   [/어러니처퍼트/g, '아라니처파트'],
   [/캄프 ?누|캄노우/g, '캄 노우'],
+  [/사비 알론소/g, '샤비 알론소'],
+  [/사비 에르난데스/g, '차비 에르난데스'],
 ];
 
 const canonicalBodyTermRules = [

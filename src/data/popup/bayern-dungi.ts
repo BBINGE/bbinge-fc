@@ -21,7 +21,6 @@ export interface Tie { key: string; competition: Competition; title: string; sea
 
 const teamNames = names.teams as Record<string, string>;
 const playerNames = names.players as Record<string, string>;
-const playerShort = names.playerShort as Record<string, string>;
 const crestMap = crests as Record<string, string>;
 const removals = names.overrides.goalRemovals;
 
@@ -37,11 +36,11 @@ const CUP_CARD = new Set(['Bremer SV', 'Auckland City', 'Guangzhou Evergrande', 
 const seasonLabel = (s: number) => `${s}-${String((s + 1) % 100).padStart(2, '0')}`;
 const dateLabel = (iso: string) => `${iso.slice(0, 4)}.${Number(iso.slice(5, 7))}.${Number(iso.slice(8, 10))}`;
 const team = (source: string) => { const ko = teamNames[source]; if (!ko) throw new Error(`둔기론 구단 한글명 없음: ${source}`); return ko; };
-const shortPlayer = (source: string | null) => {
+const playerName = (source: string | null) => {
   if (!source) return '';
   const ko = playerNames[source];
   if (!ko) throw new Error(`둔기론 선수 한글명 없음: ${source}`);
-  return playerShort[ko] ?? ko.split(' ').at(-1)!;
+  return ko;
 };
 
 function roundLabel(m: SourceMatch) {
@@ -54,7 +53,7 @@ function roundLabel(m: SourceMatch) {
 function build(m: SourceMatch, withPlayers: boolean): Match {
   const goals = m.goals
     .filter((g) => !removals.some((r) => r.date === m.date && r.clock === g.clock && r.player === g.player))
-    .map((g) => ({ clock: g.clock, minute: g.minute, injury: g.injury, bayern: g.bayern, penalty: g.penalty, ownGoal: g.ownGoal, player: withPlayers ? shortPlayer(g.player) : '' }));
+    .map((g) => ({ clock: g.clock, minute: g.minute, injury: g.injury, bayern: g.bayern, penalty: g.penalty, ownGoal: g.ownGoal, player: withPlayers ? playerName(g.player) : '' }));
   const bayernGoals = goals.filter((g) => g.bayern).length;
   if (bayernGoals !== m.score[0] || goals.length - bayernGoals !== m.score[1]) throw new Error(`둔기론 득점 수 불일치: ${m.date} ${m.opponentSource}`);
   return {

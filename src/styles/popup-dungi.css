@@ -71,7 +71,10 @@
 .dg-timeline__ticks { display: flex; justify-content: space-between; margin-top: 2px; color: var(--dg-soft); font-size: 10px; opacity: .7; }
 .dg-timeline__ticks span:nth-child(2) { position: relative; left: -2.1%; }
 .dg-scorers { margin: 6px 0 0; font-size: 12px; line-height: 1.6; color: #fff; word-break: keep-all; }
-.dg-scorers__theirs { display: block; color: var(--dg-soft); opacity: .8; }
+.dg-scorers__mine, .dg-scorers__theirs { display: block; }
+.dg-scorers__theirs { color: var(--dg-soft); opacity: .8; }
+.dg-scorers b { font-weight: 700; opacity: .72; }
+.dg-scorers b::after { content: ':'; margin: 0 5px 0 1px; opacity: .6; }
 
 /* 그 외 더보기: 접힌 상태가 카드처럼 보이도록 대회 색 띠와 점수 미리보기를 둔다. */
 .dg-more { margin-top: 16px; border-radius: 12px; background: #fff; overflow: hidden; border: 1px solid var(--bbfc-border, #e5e8eb); }

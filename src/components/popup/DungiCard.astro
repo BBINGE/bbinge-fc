@@ -42,7 +42,7 @@ const sideName = (name: string) => name;
     {legs.map((m, i) => (
       <section class="dg-leg" aria-label={`${legName(m, i)} ${m.dateLabel} ${m.score[0]}-${m.score[1]}`}>
         <header><span>{legName(m, i)}</span><time datetime={m.date}>{m.dateLabel}</time><b>{m.score[0]}-{m.score[1]}</b></header>
-        <DungiTimeline goals={m.goals} label={`${m.dateLabel} ${opponent}전`} />
+        <DungiTimeline goals={m.goals} label={`${m.dateLabel} ${opponent}전`} opponentTeam={opponent} />
       </section>
     ))}
   </div>

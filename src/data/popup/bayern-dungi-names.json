@@ -143,9 +143,9 @@
   "Olivier Giroud": "올리비에 지루",
   "Patrik Schick": "파트리크 시크",
   "Philippe Coutinho": "필리피 코치뉴",
-  "Pierre-Emerick Aubameyang": "피에르에메릭 오바메양",
+  "Pierre-Emerick Aubameyang": "피에르에메리크 오바메양",
   "Raphaël Guerreiro": "하파엘 게헤이루",
-  "Renato Sanches": "헤나투 산체스",
+  "Renato Sanches": "헤나투 산셰스",
   "Ricardo Quaresma": "히카르두 콰레스마",
   "Robert Lewandowski": "로베르트 레반도프스키",
   "Ryan Sessegnon": "라이언 세세뇽",
@@ -163,28 +163,20 @@
   "Thiago Alcantara": "티아구 알칸타라",
   "Thomas Müller": "토마스 뮐러",
   "Toni Kroos": "토니 크로스",
-  "Xabi Alonso": "사비 알론소",
+  "Xabi Alonso": "샤비 알론소",
   "Xherdan Shaqiri": "제르단 샤키리",
   "Diego": "디에구",
   "Lars Bender": "라르스 벤더",
   "Leon Bailey": "리언 베일리"
  },
- "playerShort": {
-  "손흥민": "손흥민",
-  "우사미 다카시": "우사미",
-  "사비 알론소": "사비 알론소",
-  "에리크 막심 추포모팅": "추포모팅",
-  "피에르에메릭 오바메양": "오바메양",
-  "디에구": "디에구"
- },
  "overrides": {
-  "goalRemovals": [
-   {
-    "date": "2011-04-17",
-    "clock": "7'",
-    "player": "Bastian Schweinsteiger",
-    "reason": "ESPN이 같은 7분 골을 슈바인슈타이거 득점과 롤페스 자책골로 두 번 기록. 최종 5-1과 맞추려고 중복 한 줄을 뺀다."
-   }
-  ]
+   "goalRemovals": [
+     {
+       "date": "2011-04-17",
+       "clock": "7'",
+       "player": "Bastian Schweinsteiger",
+       "reason": "ESPN이 같은 7분 골을 슈바인슈타이거 득점과 롤페스 자책골로 두 번 기록. 최종 5-1과 맞추려고 중복 한 줄을 뺀다."
+     }
+   ]
  }
 }

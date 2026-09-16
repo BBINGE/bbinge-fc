@@ -32,7 +32,7 @@ const scoreLabel = entry.kind === 'aggregate' ? '합계' : '최종';
     {entry.legs.map((leg) => (
       <section class="dg-leg" aria-label={`${leg.name} ${leg.dateLabel} ${leg.score[0]}-${leg.score[1]}`}>
         <header><span>{leg.name}</span><time datetime={leg.date}>{leg.dateLabel}</time><b>{leg.score[0]}-{leg.score[1]}{leg.penalty ? ` (PK ${leg.penalty[0]}-${leg.penalty[1]})` : ''}</b></header>
-        <ComebackTimeline goals={leg.goals} carry={leg.carry} label={`${leg.dateLabel} ${entry.comeback.name} 대 ${entry.opponent.name}`} />
+        <ComebackTimeline goals={leg.goals} carry={leg.carry} label={`${leg.dateLabel} ${entry.comeback.name} 대 ${entry.opponent.name}`} comebackTeam={entry.comeback.name} opponentTeam={entry.opponent.name} />
       </section>
     ))}
   </div>

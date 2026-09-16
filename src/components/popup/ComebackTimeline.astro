@@ -2,9 +2,12 @@
 // 역전극 골 타임라인: 역전한 팀이 지고 있던 구간을 어둡게 칠하고(합계 대결 2차전은 1차전 열세부터 시작),
 // 역전한 팀의 골은 흰 막대, 상대 골은 빈 점. 동점을 만든 골에 「동점」, 앞서기 시작한 골에 「역전」을 단다.
 import type { ComebackGoal } from '../../data/popup/comebacks';
+import nicknames from '../../data/popup/club-nicknames.json';
 
-interface Props { goals: ComebackGoal[]; carry: number; label: string }
-const { goals, carry, label } = Astro.props;
+interface Props { goals: ComebackGoal[]; carry: number; label: string; comebackTeam: string; opponentTeam: string }
+const { goals, carry, label, comebackTeam, opponentTeam } = Astro.props;
+// 득점자 줄의 팀 이름은 카드 위 풀네임 대신 팬 통용 약칭을 쓴다(운영자 확정, 2026-09-16).
+const shortName = (name: string) => (nicknames as Record<string, string>)[name] ?? name;
 const extra = goals.some((g) => g.minute > 90 && g.phase?.startsWith('EXTRA'));
 const span = extra ? 124 : 94;
 const pos = (g: ComebackGoal) => {
@@ -39,7 +42,7 @@ const byPlayer = (list: ComebackGoal[]) => {
 const mine = byPlayer(goals.filter((g) => g.comeback));
 const theirs = byPlayer(goals.filter((g) => !g.comeback));
 ---
-<div class="dg-timeline cb-timeline" role="img" aria-label={`${label} 골 타임라인: 역전 팀 ${goals.filter((g) => g.comeback).map((g) => g.clock).join(', ') || '득점 없음'}, 상대 ${goals.filter((g) => !g.comeback).map((g) => g.clock).join(', ') || '득점 없음'}`}>
+<div class="dg-timeline cb-timeline" role="img" aria-label={`${label} 골 타임라인: ${shortName(comebackTeam)} ${goals.filter((g) => g.comeback).map((g) => g.clock).join(', ') || '득점 없음'}, ${shortName(opponentTeam)} ${goals.filter((g) => !g.comeback).map((g) => g.clock).join(', ') || '득점 없음'}`}>
   <div class:list={['dg-timeline__labels', { 'has-raised': labels.some((l, i) => i > 0 && l.x - labels[i - 1].x < 9) }]} aria-hidden="true">
     {labels.map((l, i) => <span class:list={['dg-bang', { 'is-big': l.text === '역전', 'is-raised': i > 0 && l.x - labels[i - 1].x < 9 }]} style={`--x:${l.x}%`}>{l.text}</span>)}
   </div>
@@ -56,7 +59,7 @@ const theirs = byPlayer(goals.filter((g) => !g.comeback));
 </div>
 {(mine.length > 0 || theirs.length > 0) && (
   <p class="dg-scorers">
-    {mine.length > 0 && <span class="dg-scorers__mine">{mine.join(' · ')}</span>}
-    {theirs.length > 0 && <span class="dg-scorers__theirs">상대 {theirs.join(' · ')}</span>}
+    {mine.length > 0 && <span class="dg-scorers__mine"><b>{shortName(comebackTeam)}</b>{mine.join(' · ')}</span>}
+    {theirs.length > 0 && <span class="dg-scorers__theirs"><b>{shortName(opponentTeam)}</b>{theirs.join(' · ')}</span>}
   </p>
 )}
