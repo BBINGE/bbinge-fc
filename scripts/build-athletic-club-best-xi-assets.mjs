@@ -3,6 +3,8 @@
 // 운영자가 준 원고 묶음(당시원고.zip)의 PNG·JPG를 WebP로 옮긴다.
 // 원본 파일 이름이 포지션(센터백·센터포워드2)으로 되어 있어 원고 번호와 직접 대응하지 않으므로
 // 각 카드를 열어 이름을 확인한 뒤 매핑을 여기에 고정한다(2026-09-17 확인).
+// 구단 문장과 리그 로고는 이 스크립트가 만들지 않는다. 공식 SVG를 public/images/clubs/athletic-club.svg와
+// public/images/leagues/laliga-logo.svg에 따로 두고 쓴다(운영자 지시, 2026-09-17).
 //   사용법: node scripts/build-athletic-club-best-xi-assets.mjs <원본 폴더>
 import sharp from 'sharp';
 import fs from 'node:fs';
