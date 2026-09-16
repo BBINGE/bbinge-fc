@@ -2,13 +2,13 @@
 // 역전극 「그 외 더보기」: 카드로 올리지 않은 합계 대역전을 날짜순으로 모은다. 접힌 줄은 둔기론과 같은 문법(점수 대신 가장 큰 열세 미리보기).
 import type { ComebackEntry } from '../../data/popup/comebacks';
 
-interface Props { rows: ComebackEntry[]; scope: string }
-const { rows, scope } = Astro.props;
+interface Props { rows: ComebackEntry[]; scope: string; competition: 'ucl' | 'uel' | 'cwc' }
+const { rows, scope, competition } = Astro.props;
 const top = [...rows].sort((a, b) => b.deficit - a.deficit || a.date.localeCompare(b.date)).slice(0, 3);
 const clubs = [...new Set(rows.map((r) => r.comeback.name))];
 const crests = [...new Map(rows.filter((r) => r.comeback.crest).map((r) => [r.comeback.crest!, r.comeback.name])).entries()].slice(0, 6);
 ---
-<details class="dg-more dg-more--ucl">
+<details class={`dg-more dg-more--${competition}`}>
   <summary>
     <span class="dg-more__lead">
       <small>그 외 더보기</small>

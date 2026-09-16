@@ -19,6 +19,10 @@
 .dg-card--cwc { --dg-night: #032523; --dg-accent: #63e0cd; --dg-soft: #bfeae3; --dg-line: rgba(150,226,214,.22); border-color: rgba(90,206,188,.32); }
 .dg-card--cwc::before { background: radial-gradient(circle at 12% 16%, rgba(70,226,200,.26), transparent 38%), radial-gradient(circle at 92% 86%, rgba(255,255,255,.08), transparent 34%), linear-gradient(134deg, #021a19 0%, #084f49 46%, #0b7a6e 72%, #032523 100%); }
 
+/* 「그 외 더보기」 띠도 카드와 같은 대회 색을 쓴다(운영자 지시, 2026-09-16). */
+.dg-more--uel > summary { --more-bg: linear-gradient(120deg, #0a0400 0%, #b34500 55%, #ff6b00 100%); --more-accent: #ffb877; }
+.dg-more--cwc > summary { --more-bg: linear-gradient(120deg, #021a19 0%, #0b7a6e 55%, #16a89a 100%); --more-accent: #8ff0e0; }
+
 .cb-featured-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 @media (max-width: 900px) { .cb-featured-pair { grid-template-columns: 1fr; } .dg-card.is-featured .cb-legs--two { grid-template-columns: 1fr; } }
 .cb-ticks span, .cb-ticks span:nth-child(2) { position: absolute; left: var(--x); transform: translateX(-50%); }

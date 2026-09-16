@@ -110,6 +110,11 @@ export const featuredAnfield = aggregate.find((e) => e.date === '2019-05-07')!;
 if (!featuredIstanbul || !featuredAnfield) throw new Error('역전극 대표 카드(이스탄불·안필드)를 찾지 못했습니다.');
 export const aggregateCards = aggregate.filter((e) => e.card && e !== featuredAnfield).sort(byDate);
 export const aggregateTable = aggregate.filter((e) => !e.card).sort(byDate);
+// 「그 외 더보기」는 대회별로 나눠 각 표가 자기 대회 색 띠를 갖는다(운영자 지시, 2026-09-16).
+const TABLE_SCOPE: Record<Comp, string> = { ucl: '챔스', uel: '유로파', cwc: '컵위너스컵' };
+export const aggregateTables = (['ucl', 'uel', 'cwc'] as Comp[])
+  .map((competition) => ({ competition, scope: TABLE_SCOPE[competition], rows: aggregateTable.filter((e) => e.competition === competition) }))
+  .filter((group) => group.rows.length > 0);
 export const singleCards = single.filter((e) => e !== featuredIstanbul).sort(byDate);
 export const counts = {
   aggregate: aggregate.length,

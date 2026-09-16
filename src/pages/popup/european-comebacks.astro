@@ -5,7 +5,7 @@
 import Layout from '../../layouts/Layout.astro';
 import ComebackCard from '../../components/popup/ComebackCard.astro';
 import ComebackTable from '../../components/popup/ComebackTable.astro';
-import { featuredIstanbul, featuredAnfield, aggregateCards, aggregateTable, singleCards, counts, total } from '../../data/popup/comebacks';
+import { featuredIstanbul, featuredAnfield, aggregateCards, aggregateTables, singleCards, counts, total } from '../../data/popup/comebacks';
 import '../../styles/popup-dungi.css';
 import '../../styles/popup-comebacks.css';
 
@@ -40,7 +40,7 @@ const description = `UEFA 공식 기록 전체 시즌에서 1차전을 3골 차 
       <div class="dg-grid">
         {aggregateCards.map((entry) => <ComebackCard entry={entry} />)}
       </div>
-      <ComebackTable rows={aggregateTable} scope="합계 대역전" />
+      {aggregateTables.map((group) => <ComebackTable rows={group.rows} scope={group.scope} competition={group.competition} />)}
     </section>
 
     <section class="dg-section" aria-labelledby="cb-single">
