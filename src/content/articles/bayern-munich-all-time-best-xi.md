@@ -330,10 +330,10 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 10. <span id="source-10"></span>[FC 바이에른: 토마스 뮐러의 최종 구단 기록](https://fcbayern.com/en/news/2025/05/thomas-muller-s-greatest-records-at-bayern)
 11. <span id="source-11"></span>[FC 바이에른: 로베르트 레반도프스키의 바이언 375경기 344골](https://fcbayern.com/de/news/2023/02/die-bundesliga-torschuetzenkoenige-des-fc-bayern)
 12. <span id="source-12"></span>[FC 바이에른 명예의 전당: 게르트 뮐러](https://fcbayern.com/en/club/hall-of-fame/gerd-muller)
-13. [썸네일 바탕 사진: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
-14. [UEFA: EURO 1972 대회 베스트 XI와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
-15. [UEFA: EURO 1976 대회 베스트 XI와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
-16. [푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
+13. <span id="source-13"></span>[썸네일 바탕 사진: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
+14. <span id="source-14"></span>[UEFA: EURO 1972 대회 베스트 XI와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
+15. <span id="source-15"></span>[UEFA: EURO 1976 대회 베스트 XI와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
+16. <span id="source-16"></span>[푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 
 ### 이 글이 만들어진 방식
 
