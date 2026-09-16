@@ -39,9 +39,13 @@ featured: false
 
 던컨 에드워즈는 열닷새를 더 버텼다. 스물한 살이었고, 이미 잉글랜드 대표로 열여덟 경기를 뛴 뒤였다. 맷 버스비 자신도 두 차례 종부성사를 받을 만큼 위중했다. 감독이 병상에서 일어나 벤치로 돌아온 것은 그해 8월이었다.
 
+더 놀라운 건 그 시즌의 나머지다. 주전 절반이 사라진 팀이 유소년과 급히 데려온 선수들로 경기를 이어갔고, 그대로 FA컵 결승까지 올라갔다. 웸블리에서 볼턴 원더러스에 0-2로 졌지만, 참사 석 달 뒤에 그 무대에 서 있었다는 사실 자체가 기록이다. 이 구단이 무너진 뒤에 어떻게 반응하는지를 그해 봄에 이미 보여준 셈이다.
+
 왜 하필 유럽이었는가를 짚어야 이 사고의 의미가 완성된다. 유러피언컵이 시작된 1955-56시즌, 잉글랜드 챔피언 첼시는 풋볼 리그의 반대에 부딪혀 참가를 포기했다. 국내 일정이 우선이고 유럽 원정은 불필요하다는 것이 리그의 입장이었다. 이듬해 챔피언이 된 맨체스터 유나이티드는 그 반대를 밀어내고 잉글랜드 구단 최초로 유러피언컵에 나갔다. 1956-57시즌 4강에서 레알 마드리드에 막혔고, 이듬해 다시 8강을 통과한 직후가 뮌헨이었다. 유럽으로 가겠다는 결정이 그 비행의 출발점이었고, 그래서 버스비에게 유러피언컵은 트로피 하나가 아니라 갚아야 할 약속이 됐다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 열 해 뒤의 명단에는 그 밤을 직접 통과한 사람이 셋 남아 있었다. 감독 버스비, 스물의 나이로 기체에서 살아 나온 바비 찰턴, 그리고 부상자와 사망자를 기체 밖으로 끌어낸 빌 폴크스다. 셰이 브레넌은 참사 당시 열아홉의 유소년팀 선수였고, 사고 열사흘 뒤 급조된 팀의 FA컵 5라운드 경기에서 데뷔해 두 골을 넣었다.
+
+그사이 잉글랜드 축구 자체도 다른 세계가 되어 있었다. 1961년에 최고 임금 상한제가 폐지됐다. 그전까지 잉글랜드 선수의 주급에는 법으로 정해진 천장이 있었고, 스타든 후보든 받을 수 있는 최대치가 같았다. 이 상한이 사라지면서 선수는 처음으로 몸값이라는 것을 갖게 됐고, 몇 해 뒤 조지 베스트가 축구 선수이면서 동시에 잡지 표지 모델이 되는 풍경도 가능해졌다. 뮌헨 이전의 맨유가 ‘버스비의 아이들’이었다면, 뮌헨 이후의 맨유는 그 아이들의 생존자와 새로운 스타 산업이 한 라커룸에 섞인 팀이었다.
 
 1967-68시즌의 유럽 원정은 몰타의 히베르니안스에서 시작해 사라예보, 구르니크 자브제를 지나 4강에서 레알 마드리드와 만났다. 올드 트래퍼드 1차전은 베스트의 36분 골로 1-0. 베르나베우 2차전은 전반에만 세 골을 내주며 합계 1-3까지 끌려갔다. 후반, 이그나시오 소코의 자책골로 한 골을 줄이고 73분 새들러가 따라붙은 뒤, 80분에 빌 폴크스가 동점골을 넣었다. 뮌헨의 잔해에서 사람을 끌어냈던 수비수가 열 해 뒤 베르나베우에서 결승행을 확정지었다. 그 시즌 유럽에서의 패배는 구르니크 원정 한 경기뿐이었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -55,7 +59,7 @@ featured: false
   <p class="custom-xi-music-credit"><a href="https://www.youtube.com/watch?v=ly0QEDEYvc0" target="_blank" rel="noopener noreferrer">YouTube에서 원본 보기</a></p>
 </div>
 
-## 삥이가 고른 베스트 11
+## 필자가 고른 베스트 11
 
 <figure class="custom-xi-formation"><img src="/images/squads/manchester-united-busby-best-xi/formation.webp" alt="알렉스 스테프니, 토니 던, 데이비드 새들러, 빌 폴크스, 셰이 브레넌, 노비 스타일스, 바비 찰턴, 팻 크레란드, 존 애스턴, 브라이언 키드, 조지 베스트로 구성한 맨체스터 유나이티드 베스트 11 전술판" loading="lazy" width="966" height="966" /><figcaption>1967-68 시즌 맨체스터 유나이티드 베스트 11. 전술판 디자인: 삥이.</figcaption></figure>
 
@@ -63,7 +67,7 @@ featured: false
 
 ### 1. 알렉스 스테프니｜골키퍼
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/alex-stepney.webp" alt="알렉스 스테프니 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>GK · GOALKEEPER</span><strong>알렉스 스테프니</strong><em>Alexander Cyril Stepney · 잉글랜드</em><b>54경기 66실점 16클린시트</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/alex-stepney.webp" alt="알렉스 스테프니 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>GK · GOALKEEPER</span><h4>알렉스 스테프니</h4><small lang="en">Alexander Cyril Stepney</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>54경기 66실점 16클린시트</dd></div><div><dt>선정 근거</dt><dd>결승에서 에우제비우를 막은 골키퍼</dd></div></dl></div></article>
 
 맨체스터 유나이티드 첫 번째 빅 이어 획득에 지대한 공을 세웠던 골키퍼이며, 1960~70년대 잉글랜드 무대를 호령하던 골키퍼가 바로 알렉스 스테프니<span class="foreign-note" lang="en">(Alexander Cyril Stepney; 잉글랜드 골키퍼, 1942-)</span>였다. 더불어 잉글랜드 축구 국가대표팀 유니폼을 입고 같은 해였던 UEFA 유로 1968에서도 조국의 동메달을 이끌기도 했었다. 주전은 당연히 고든 뱅크스<span class="foreign-note" lang="en">(Gordon Banks; 잉글랜드 골키퍼, 1937-2019)</span>였다.
 
@@ -73,7 +77,7 @@ featured: false
 
 ### 2. 데이비드 새들러｜좌 센터백
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/david-sadler.webp" alt="데이비드 새들러 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CB · CENTRE BACK</span><strong>데이비드 새들러</strong><em>David Sadler · 잉글랜드</em><b>56경기 6골 2도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/david-sadler.webp" alt="데이비드 새들러 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CB · CENTRE BACK</span><h4>데이비드 새들러</h4><small lang="en">David Sadler</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>56경기 6골 2도움</dd></div><div><dt>선정 근거</dt><dd>수비와 중원을 오간 시즌 최다 출전</dd></div></dl></div></article>
 
 1967-68 시즌의 핵심 센터백 중 한 명이었던 데이비드 새들러<span class="foreign-note" lang="en">(David Sadler; 잉글랜드 수비수·미드필더, 1946-)</span>. 그 시절 노비 스타일스가 뚫리면 후방에는 새들러-폴크스 라인이 멀쩡히 가동되고 있었고, 이를 뚫으면 알렉스 스테프니라는 골키퍼가 버티고 있었다.
 
@@ -85,7 +89,7 @@ featured: false
 
 ### 3. 빌 폴크스｜우 센터백
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/bill-foulkes.webp" alt="빌 폴크스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CB · CENTRE BACK</span><strong>빌 폴크스</strong><em>William Anthony Foulkes · 잉글랜드</em><b>33경기 2골</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/bill-foulkes.webp" alt="빌 폴크스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CB · CENTRE BACK</span><h4>빌 폴크스</h4><small lang="en">William Anthony Foulkes</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>33경기 2골</dd></div><div><dt>선정 근거</dt><dd>뮌헨 생존자, 4강 2차전 동점골</dd></div></dl></div></article>
 
 상술한 데이비드 새들러의 센터백 파트너가 바로 빌 폴크스<span class="foreign-note" lang="en">(William Anthony Foulkes; 잉글랜드 수비수, 1932-2013)</span>였다. 1967-68 시즌은 36세로 은퇴를 앞둔 시즌이었기에 시즌 내내 33경기밖에 출전하지 못했지만 오늘날의 치아구 시우바나 조르조 키엘리니, 단치 등과 같은 명 수비수들처럼 구력은 오히려 상승하여 노익장을 과시했던 선수이기도 했었다.
 
@@ -95,7 +99,7 @@ featured: false
 
 ### 4. 토니 던｜레프트백
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/tony-dunne.webp" alt="토니 던 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>LB · LEFT BACK</span><strong>토니 던</strong><em>Anthony Peter Dunne · 아일랜드</em><b>51경기 1골 1도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/tony-dunne.webp" alt="토니 던 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>LB · LEFT BACK</span><h4>토니 던</h4><small lang="en">Anthony Peter Dunne</small><dl><div><dt>국적</dt><dd>아일랜드</dd></div><div><dt>시즌 기록</dt><dd>51경기 1골 1도움</dd></div><div><dt>선정 근거</dt><dd>유러피언컵 전 경기 선발</dd></div></dl></div></article>
 
 1967-68 시즌 맨체스터 유나이티드 챔스 우승 당시 레프트백 포지션을 소화할 수 있었던 선수가 3명 있었는데 그 주인공이 바로 토니 던<span class="foreign-note" lang="en">(Anthony Peter Dunne; 아일랜드 수비수, 1941-2020)</span>과 프랜시스 번스 그리고 유스 출신이었던 셰이 브레넌이었다. 특히 레프트백으로 토니 던 51경기 1골 1도움의 스탯 누적, 프랜시스 번스 46경기 2골의 스탯을 누적하며 주전급 활약을 선보였었는데 더욱 흥미로운 점은 프랜시스 번스의 경우 1967-68 시즌 46경기에 출전하던 당시의 나이가 시즌 개막 기준 ‘겨우 18세’에 불과했다는 것이었다.
 
@@ -105,7 +109,7 @@ featured: false
 
 ### 5. 셰이 브레넌｜라이트백
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/shay-brennan.webp" alt="셰이 브레넌 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RB · RIGHT BACK</span><strong>셰이 브레넌</strong><em>Seamus Anthony “Shay” Brennan · 아일랜드</em><b>18경기 1골</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/shay-brennan.webp" alt="셰이 브레넌 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RB · RIGHT BACK</span><h4>셰이 브레넌</h4><small lang="en">Seamus Anthony Brennan</small><dl><div><dt>국적</dt><dd>아일랜드</dd></div><div><dt>시즌 기록</dt><dd>18경기 1골</dd></div><div><dt>선정 근거</dt><dd>참사 직후 데뷔한 유스 출신 풀백</dd></div></dl></div></article>
 
 셰이 브레넌이라는 이름으로 더욱 유명한 세이머스 앙토니 ‘셰이’ 브레넌<span class="foreign-note" lang="en">(Seamus Anthony Brennan; 아일랜드 수비수, 1937-2000)</span>. 맨체스터 유나이티드 유스 출신이었으며, 1958 뮌헨 비행기 참사를 10대의 나이에 경험하며, 맨유가 이 참사를 극복하기 위해 적극 기용했던 유소년팀 풀백이기도 했었다.
 
@@ -113,9 +117,11 @@ featured: false
 
 그의 데뷔전 자체가 이 구단의 사정을 말해준다. 참사 열사흘 뒤인 1958년 2월 19일, 선수 명단을 겨우 채운 팀이 FA컵 5라운드에서 셰필드 웬즈데이를 만났고 열아홉 살 유소년팀 풀백이 왼쪽 윙어로 선발 출전해 두 골을 넣었다. 그날 경기 프로그램의 맨유 선수 명단 칸은 이름 없이 비어 있었다. 열 해 뒤 웸블리에서 그는 오른쪽 풀백으로 선발 출전한다. 시즌 18경기의 출전 기록만 보면 그를 이 자리에 세우는 것이 이상해 보이지만, 유럽의 마지막 세 경기에서 버스비가 택한 오른쪽은 늘 브레넌이었다.
 
+여담으로 브레넌은 맨체스터에서 태어났지만 부모의 고향을 따라 아일랜드 대표로 뛰었다. 같은 포백에 선 토니 던도 아일랜드 사람이었으니, 잉글랜드 구단의 첫 유럽 우승을 만든 포백의 양쪽 끝이 모두 아일랜드였던 셈이다. 스코틀랜드 출신 감독이 지휘하고 북아일랜드 출신 윙어가 결승골을 넣은 팀이라는 점까지 더하면, 이 우승을 ‘잉글랜드의 우승’으로만 부르기도 어딘가 부족해진다.
+
 ### 6. 노비 스타일스｜수비형 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/nobby-stiles.webp" alt="노비 스타일스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>DM · DEFENSIVE MIDFIELDER</span><strong>노비 스타일스</strong><em>Norbert Peter Stiles, MBE · 잉글랜드</em><b>29경기 2도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/nobby-stiles.webp" alt="노비 스타일스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>DM · DEFENSIVE MIDFIELDER</span><h4>노비 스타일스</h4><small lang="en">Norbert Peter Stiles</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>29경기 2도움</dd></div><div><dt>선정 근거</dt><dd>에우제비우 전담 대인 방어</dd></div></dl></div></article>
 
 맨유 역대 최고의 수비형 미드필더 중 한 명이라고 볼 수 있는 노비 스타일스<span class="foreign-note" lang="en">(Norbert Peter Stiles, MBE; 잉글랜드 미드필더, 1942-2020)</span>. 거머리 같은 수비력과 왕성한 활동량은 21세기에 이 팀을 응원하는 모든 팬들이 그리워하는 유형 중 한 명이기도 하는데 그도 그럴 것이 노비 스타일스는 당시 맨유나 잉글랜드 축구 국가대표팀에서 꼭 필요한 존재이기도 했었다.
 
@@ -127,7 +133,7 @@ featured: false
 
 ### 7. 팻 크레란드｜공격형·중앙 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/pat-crerand.webp" alt="팻 크레란드 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><strong>팻 크레란드</strong><em>Patrick Timothy Crerand · 스코틀랜드</em><b>55경기 1골 5도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/pat-crerand.webp" alt="팻 크레란드 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><h4>팻 크레란드</h4><small lang="en">Patrick Timothy Crerand</small><dl><div><dt>국적</dt><dd>스코틀랜드</dd></div><div><dt>시즌 기록</dt><dd>55경기 1골 5도움</dd></div><div><dt>선정 근거</dt><dd>스타일스와 찰턴을 잇는 윤활유</dd></div></dl></div></article>
 
 ‘영국 축구계는 스코틀랜드 출신 감독·선수를 빼면 절반의 가치가 퇴보할’ 수준이라고 찬사를 보낼 수 있을 정도로 스코틀랜드에는 1966-67 셀틱 트레블 멤버들을 더불어 잉글랜드 무대에서 뛰던 스코틀랜드 역사를 꽃피운 명 선수들이 많았는데 그중 한 명이 바로 팻 크레란드<span class="foreign-note" lang="en">(Patrick Timothy Crerand; 스코틀랜드 미드필더, 1939-)</span>였다. 여담으로 영국 역대 최고의 감독이라 평가되는 조크 스타인, 빌 샹클리, 맷 버스비 경, 알렉스 퍼거슨 경, 케니 달글리시 경 모두 스코틀랜드 출신.
 
@@ -139,7 +145,7 @@ featured: false
 
 ### 8. 바비 찰턴 경｜공격형·중앙 미드필더
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/bobby-charlton.webp" alt="바비 찰턴 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><strong>바비 찰턴 경</strong><em>Sir Robert Charlton, CBE · 잉글랜드</em><b>55경기 20골 5도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/bobby-charlton.webp" alt="바비 찰턴 경 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><h4>바비 찰턴 경</h4><small lang="en">Sir Robert Charlton</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>55경기 20골 5도움</dd></div><div><dt>선정 근거</dt><dd>결승 2골, 뮌헨 생존자이자 주장</dd></div></dl></div></article>
 
 맨체스터 유나이티드는 물론 잉글랜드 축구 역사상 All Time Best라고 평가하는데 부족함이 일절 없으며, 스탠리 매슈스 경, 톰 피니 경, 지미 그리브스, 데이비드 베컴, 스티븐 제라드, 바비 무어, 존 테리, 고든 뱅크스 등과 함께 잉글랜드 축구를 대표하는 스타플레이어 바비 찰턴 경<span class="foreign-note" lang="en">(Sir Robert Charlton, CBE; 잉글랜드 미드필더, 1937-2023)</span>.
 
@@ -153,13 +159,15 @@ featured: false
 
 경기 뒤 그는 탈진해 만찬에 내려오지 못했다. 버스비가 홀에서 노래를 부르는 동안 주장은 방에 누워 있었다. 승리의 장면을 기록할 때 흔히 지워지는 쪽이지만, 그 두 골과 그 탈진이 같은 사람의 것이라는 점을 적어두는 편이 정확하다.
 
+덧붙이면 그 잔디는 그에게 두 번째였다. 1966년 7월 30일, 같은 웸블리에서 찰턴은 월드컵을 들었다. 노비 스타일스도 그 자리에 함께 있었다. 두 해 사이에 같은 경기장에서 세계 챔피언과 유럽 챔피언이 된 선수가 한 팀에 둘이나 있었던 셈인데, 이런 조합은 이후 잉글랜드 축구에서도 흔치 않다.
+
 #### 그의 축구가 남긴 문법
 
 찰턴의 플레이는 위치로 설명하기 어렵다. 인사이드 포워드로 시작해 중원으로 내려왔고, 공을 잡으면 방향을 바꾸는 데 한 번의 터치만 썼다. 왼발과 오른발의 차이가 거의 없어 수비수가 한쪽으로 몰 수 없었고, 25미터 밖에서의 슈팅이 항상 선택지에 있었기 때문에 상대는 물러설 수도 달려들 수도 없었다. 스타일스와 크레란드가 뒤를 채운 이유가 여기에 있다. 그가 자유롭게 움직일수록 팀이 얻는 것이 많았다.
 
 ### 9. 존 애스턴｜레프트 윙포워드
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/john-aston.webp" alt="존 애스턴 주니어 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>LW · LEFT WING FORWARD</span><strong>존 애스턴</strong><em>John Aston Jr. · 잉글랜드</em><b>46경기 11골 1도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/john-aston.webp" alt="존 애스턴 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>LW · LEFT WING FORWARD</span><h4>존 애스턴</h4><small lang="en">John Aston Jr.</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>46경기 11골 1도움</dd></div><div><dt>선정 근거</dt><dd>결승 MOTM, 당시 19세</dd></div></dl></div></article>
 
 아버지 존 애스턴<span class="foreign-note" lang="en">(John Aston Sr.; 잉글랜드 수비수, 1921-2003)</span>이 1946년부터 1954년까지 맨유에서 활약했고, 그 뒤를 이어 1965년부터 1972년까지 맨유를 위해 활약한 존 애스턴 주니어<span class="foreign-note" lang="en">(John Aston Jr.; 잉글랜드 윙어, 1947-)</span>. 데니스 로가 아닌 존 애스턴을 맷 버스비 시대 챔스 우승 맨체스터 유나이티드 베스트 11으로 선정해 본다.
 
@@ -171,7 +179,7 @@ featured: false
 
 ### 10. 조지 베스트｜라이트 윙포워드
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/george-best.webp" alt="조지 베스트 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RW · RIGHT WING FORWARD</span><strong>조지 베스트</strong><em>George Best · 북아일랜드</em><b>55경기 32골 7도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/george-best.webp" alt="조지 베스트 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RW · RIGHT WING FORWARD</span><h4>조지 베스트</h4><small lang="en">George Best</small><dl><div><dt>국적</dt><dd>북아일랜드</dd></div><div><dt>시즌 기록</dt><dd>55경기 32골 7도움</dd></div><div><dt>선정 근거</dt><dd>시즌 32골과 연장 역전골, 1968 발롱도르</dd></div></dl></div></article>
 
 크리스티아누 호날두, 데이비드 베컴과 함께 맨체스터 유나이티드 최고의 슈퍼스타라는 칭호가 어울리는 선수이며, 당대 언론의 주목을 받던 스타 조지 베스트<span class="foreign-note" lang="en">(George Best; 북아일랜드 윙어, 1946-2005)</span>. 드리블 스타일 역시 화려함의 극치였으며, 성격과 센스마저도 여느 슈퍼스타처럼 언론의 주목을 받기에 좋은 타입이기도 했었다. 심지어 외모 역시 빼어났으니 영국 최고의 인기 선수이기도 했었다.
 
@@ -187,9 +195,11 @@ featured: false
 
 스물두 살이었다. 그해 그는 리그 28골을 포함해 공식전 32골로 구단 최다 득점자가 됐고 발롱도르를 받았다. 그 뒤의 경력이 짧았다는 사실 때문에 이 시즌이 ‘전성기의 한 조각’으로 축소되곤 하지만, 1967-68시즌의 베스트는 유럽에서 가장 결정적인 선수였다.
 
+당시 영국 언론이 그에게 붙인 별명이 ‘다섯 번째 비틀’이었다. 1966년 벤피카 원정에서 5-1 승리를 이끈 뒤 솜브레로를 쓰고 공항에 나타난 사진 한 장이 그 별명의 출발점이었다고 전해진다. 축구 선수가 경기장 밖에서 소비되는 방식이 이때부터 달라졌고, 그 변화의 첫 번째 사례가 하필 이 팀에 있었다.
+
 ### 11. 브라이언 키드｜센터 포워드
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/brian-kidd.webp" alt="브라이언 키드 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CF · CENTRE FORWARD</span><strong>브라이언 키드</strong><em>Brian Kidd · 잉글랜드</em><b>51경기 17골 5도움</b></div></article>
+<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/brian-kidd.webp" alt="브라이언 키드 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CF · CENTRE FORWARD</span><h4>브라이언 키드</h4><small lang="en">Brian Kidd</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>51경기 17골 5도움</dd></div><div><dt>선정 근거</dt><dd>열아홉 번째 생일에 넣은 결승 세 번째 골</dd></div></dl></div></article>
 
 데니스 로, 조지 베스트와 함께 1960년대 맨체스터 유나이티드 베스트 11 공격수였으며, 1967-68 시즌에는 51경기에 출전해 17골을 터뜨리며 센터 포워드 다운 모습을 선보인 바 있었던 브라이언 키드<span class="foreign-note" lang="en">(Brian Kidd; 잉글랜드 공격수, 1949-)</span>. 더불어 벤피카를 상대로 세 번째 골을 넣었으며, 벤피카 골키퍼였던 주제 엔리케와의 ‘핑퐁 호흡 골’이 재밌던 순간이기도 했었다. 현실은 골키퍼와 공격수의 숨 막히는 접전이었지만.
 
@@ -199,38 +209,24 @@ featured: false
 
 ## 베스트 11에 들지 못한 후보
 
-<article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/cover.webp" alt="유러피언컵을 든 맷 버스비와 선수들" loading="lazy" width="773" height="773" /><div><span>CANDIDATES</span><strong>비선정 후보</strong><em>1967-68 시즌</em><b>프랜시스 번스 · 존 피츠패트릭 · 데니스 로</b></div></article>
+<aside class="custom-xi-decision"><span>SELECTION ROOM</span><strong>데니스 로가 아니라 존 애스턴</strong><p>이름값만 보면 1964년 발롱도르 수상자가 앞선다. 그런데 이 편은 한 시즌을 기준으로 삼았고, 데니스 로는 무릎 부상으로 시즌 후반을 통째로 놓쳤다. 5월 29일 웸블리에도 그는 없었다. 반대로 애스턴은 그 90분의 최우수 선수였다. 이름값이 아니라 그 시즌에 그 자리에 서 있었는가를 먼저 본 결과다.</p></aside>
 
-베스트 11에 들어가지 못한 후보 선수들입니다.
+베스트 11에 들어가지 못한 후보 선수들입니다. 프랜시스 번스<span class="foreign-note" lang="en">(Francis Burns; 스코틀랜드 수비수, 1948-)</span>는 시즌 개막 기준 18세로 46경기 2골을 쌓은 레프트백이었고, 존 피츠패트릭<span class="foreign-note" lang="en">(John Fitzpatrick; 스코틀랜드 수비수·미드필더, 1946-2021)</span>은 21세로 같은 자리와 중원을 함께 봤다. 그리고 센터 포워드 데니스 로<span class="foreign-note" lang="en">(Denis Law; 스코틀랜드 공격수, 1940-2025)</span>, 당시 28세.
 
-- 프랜시스 번스<span class="foreign-note" lang="en">(Francis Burns; 스코틀랜드 수비수, 1948-)</span> · 레프트백 · 시즌 개막 기준 18세
-- 존 피츠패트릭<span class="foreign-note" lang="en">(John Fitzpatrick; 스코틀랜드 수비수·미드필더, 1946-2021)</span> · 레프트백 · 21세
-- 데니스 로<span class="foreign-note" lang="en">(Denis Law; 스코틀랜드 공격수, 1940-2025)</span> · 센터 포워드 · 28세
+로의 부재는 이 팀의 성격을 오히려 선명하게 만든다. 맨유의 1960년대를 이야기할 때 흔히 ‘삼위일체’라 부르는 베스트·로·찰턴 가운데 한 축이 빠진 채로 유럽 정상에 올랐기 때문이다. 그 자리를 열아홉 살 키드가 메웠고, 왼쪽은 역시 열아홉 살 애스턴이 맡았다. 그는 웸블리의 밤을 병원 침대에서 라디오로 들었다. 구단 역사상 가장 큰 승리의 순간에 가장 큰 스타 중 한 명이 경기장 밖에 있었다는 사실은, 이 열한 명이 왜 이렇게 묶였는지를 그대로 설명한다.
 
-세 이름 가운데 설명이 필요한 쪽은 데니스 로다. 1964년 발롱도르 수상자이자 이 시대 맨체스터 유나이티드의 상징 중 한 명이 명단에 없는 이유는 단순하다. 무릎 부상으로 시즌 후반을 통째로 놓쳤고, 5월 29일 웸블리에도 없었다. 그날 그는 병원 침대에서 라디오로 결승을 들었다. 한 시즌을 기준으로 삼는 명단에서는 이름값이 아니라 그 시즌에 그 자리에 서 있었는가가 먼저다.
+## 결론｜한 시즌을 열한 명으로 고정한다는 것
 
-## 고르고 보니, 1968년 웸블리의 열한 명이었다
-
-명단을 다 채운 뒤 1968년 5월 29일 웸블리의 선발 기록과 맞춰봤다.
+이 편은 처음부터 1967-68 한 시즌만 본다. 그란데 인테르처럼 열두 해를, 레알 마드리드처럼 열한 해를 압축한 명단이 아니다. 시대를 고르면 누구를 넣을지 고민하게 되지만, 한 시즌을 고르면 그 시즌이 이미 답을 갖고 있다. 그래서 이 명단의 열한 자리는 1968년 5월 29일 웸블리의 선발 기록과 그대로 겹친다.
 
 > 알렉스 스테프니 · 셰이 브레넌 · 빌 폴크스 · 노비 스타일스 · 토니 던 · 팻 크레란드 · 바비 찰턴(주장) · 조지 베스트 · 브라이언 키드 · 데이비드 새들러 · 존 애스턴<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-열한 자리가 그대로 겹친다. 시즌 전체의 출전 기록과 역할을 기준으로 골랐는데 결과가 구단 역사상 가장 중요한 90분의 선발 명단이 됐다. 버스비가 그 경기에 세운 열한 명이 곧 그 시즌의 답이었다는 뜻이기도 하다.
+우연이 아니라 당연한 결과다. 버스비가 구단 역사상 가장 중요한 90분에 세운 열한 명이 곧 그 시즌의 답이었고, 필자가 시즌 기록과 역할을 따져 고른 결과도 같은 자리에 도착했다. 다만 그 명단을 읽는 방법은 결승 선발표만 봐서는 나오지 않는다. 서른여섯의 폴크스와 열아홉의 애스턴이 왜 같은 줄에 서 있는지, 18경기만 뛴 브레넌이 왜 오른쪽인지, 한 시즌을 통째로 따라가야 보인다.
 
-경기는 4-1로 끝났지만 정규 시간은 1-1이었다. 찰턴이 53분에 앞서 나갔고 하이메 그라사가 80분에 따라붙었다. 연장에서 베스트, 키드, 찰턴이 차례로 넣었다. 관중 92,225명, 주심은 이탈리아의 콘체토 로 벨로였다. 잉글랜드 구단이 유러피언컵을 든 첫 번째 밤이었고, 첼시가 리그의 반대로 유럽행을 포기한 1955년으로부터 열세 해 뒤였다.
+경기는 4-1로 끝났지만 정규 시간은 1-1이었다. 찰턴이 53분에 앞서 나갔고 하이메 그라사<span class="foreign-note" lang="pt-PT">(Jaime Graça; 포르투갈 미드필더, 1942-2012)</span>가 80분에 따라붙었다. 연장에서 베스트, 키드, 찰턴이 차례로 넣었다. 관중 92,225명, 주심은 이탈리아의 콘체토 로 벨로<span class="foreign-note" lang="it">(Concetto Lo Bello; 이탈리아 심판, 1924-1991)</span>였다. 잉글랜드 구단이 유러피언컵을 든 첫 번째 밤이었고, 첼시가 리그의 반대로 유럽행을 포기한 1955년으로부터 열세 해 뒤였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 버스비는 이 우승 이듬해 감독직에서 물러났다. 참사에서 살아남은 감독이 잃어버린 팀의 목적지에 도착한 뒤 자리를 내려놓은 셈이다. 그래서 1967-68시즌의 베스트 11은 한 시즌의 최고 선수 열한 명이기 이전에, 열 해 동안 끊겼다가 다시 이어진 한 구단의 시간표다.
 
-## 출처와 기록 기준
+이것이 필자가 고른 세 번째 커스텀 베스트 11이다.
 
-- 선수별 시즌 스탯(경기·골·도움·실점·클린시트)은 운영자가 정리한 1967-68시즌 공식전 집계를 따른다.
-- 대회 기록과 경기 상세는 아래 자료로 대조했다.
-
-<div class="source-list">
-
-1. <span id="source-1"></span>[RSSSF: 1967-68 유러피언컵 경기 상세(결승 득점·선발·관중·주심)](https://www.rsssf.org/ec/ec196768det.html)
-2. <span id="source-2"></span>[맨체스터 유나이티드 공식: 유러피언컵·UEFA 챔피언스 리그 트로피룸](https://www.manutd.com/en/club/history/trophy-room/european-cup-champions-league)
-3. <span id="source-3"></span>[RSSSF: 1967-68 유러피언컵 대진과 결과](https://www.rsssf.org/ec/ec196768.html)
-4. <span id="source-4"></span>[RSSSF: 연도별 발롱도르 투표 기록](https://www.rsssf.org/miscellaneous/europa-poy.html)
-
-</div>
+<div class="source-notes"><h2>출처와 집계 기준</h2><ol><li id="source-1"><a href="https://www.rsssf.org/ec/ec196768det.html" target="_blank" rel="noopener noreferrer">RSSSF, “European Champions’ Cup 1967-68 – Details”</a>. 1968년 5월 29일 결승의 득점 시각, 양 팀 선발 명단, 관중 92,225명과 주심 기록, 맨체스터 유나이티드의 대회 전 경기 결과를 대조했다.</li><li id="source-2"><a href="https://www.rsssf.org/ec/ec196768.html" target="_blank" rel="noopener noreferrer">RSSSF, “European Champions’ Cup 1967-68”</a>. 1라운드부터 결승까지의 대진과 합계 결과를 확인했다.</li><li id="source-3"><a href="https://www.manutd.com/en/club/history/trophy-room/european-cup-champions-league" target="_blank" rel="noopener noreferrer">Manchester United, “European Cup / Champions League”</a>. 구단 공식 트로피룸의 1968년 우승 기록.</li><li id="source-4"><a href="https://www.rsssf.org/miscellaneous/europa-poy.html" target="_blank" rel="noopener noreferrer">RSSSF, “European Footballer of the Year (‘Ballon d’Or’)”</a>. 1968년 조지 베스트 수상과 바비 찰턴 2위, 1966년 찰턴 수상 기록.</li><li id="source-5">선수별 1967-68시즌 공식전 기록(경기·골·도움·실점·클린시트)은 삥이FC가 정리한 당시 집계를 따른다.</li></ol></div>
