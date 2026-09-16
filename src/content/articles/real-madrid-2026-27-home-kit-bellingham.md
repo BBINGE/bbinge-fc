@@ -16,7 +16,7 @@ draft: false
 featured: false
 ---
 
-<p>레알 마드리드의 2026/27 홈 유니폼은 흰색을 크게 바꾸지 않고도 새 시즌의 얼굴을 선명하게 세웠다. 캠페인의 정중앙에는 주드 벨링엄<span class="foreign-note" lang="en">(Jude Bellingham; 잉글랜드 축구 선수, 2003년생)</span>, 양옆에는 킬리안 음바페<span class="foreign-note" lang="fr">(Kylian Mbappé; 프랑스 축구 선수, 1998년생)</span>와 비니시우스 주니오르<span class="foreign-note" lang="pt">(Vinícius Júnior; 브라질 축구 선수, 2000년생)</span>가 섰다.</p>
+<p>레알 마드리드의 2026/27 홈 유니폼은 흰색을 크게 바꾸지 않고도 새 시즌의 얼굴을 선명하게 세웠다. 캠페인의 정중앙에는 주드 벨링엄<span class="foreign-note" lang="en">(Jude Bellingham; 잉글랜드 축구 선수, 2003-)</span>, 양옆에는 킬리안 음바페<span class="foreign-note" lang="fr">(Kylian Mbappé; 프랑스 축구 선수, 1998-)</span>와 비니시우스 주니오르<span class="foreign-note" lang="pt">(Vinícius Júnior; 브라질 축구 선수, 2000-)</span>가 섰다.</p>
 
 <p>이번 셔츠의 매력은 ‘또 흰색’이라는 익숙함보다 그 흰색을 누가, 어떤 표정과 실루엣으로 현재형으로 바꾸느냐에 있다. 핑크색 삼선과 짙은 초록색 칼라, 왕관의 보석에서 가져온 미세한 패턴은 가까이에서 발견되고, 멀리서는 인물과 흰색이 먼저 보인다. 벨링엄을 메인 모델로 읽어야 하는 이유도 바로 여기에 있다.</p>
 
@@ -69,19 +69,19 @@ featured: false
 <div class="rm-cast-grid">
   <figure>
     <img src="/images/culture/real-madrid-2627-home/athenea.jpg" alt="레알 마드리드 2026/27 홈 유니폼과 검정 와이드 팬츠를 입고 앉아 있는 아테네아 델 카스티요" width="2000" height="2667" loading="lazy" decoding="async" />
-    <figcaption>아테네아 델 카스티요<span class="foreign-note" lang="es">(Athenea del Castillo; 스페인 축구 선수, 2000년생)</span>는 와이드 팬츠와 삼바로 셔츠를 경기장 밖으로 옮겼다.</figcaption>
+    <figcaption>아테네아 델 카스티요<span class="foreign-note" lang="es">(Athenea del Castillo; 스페인 축구 선수, 2000-)</span>는 와이드 팬츠와 삼바로 셔츠를 경기장 밖으로 옮겼다.</figcaption>
   </figure>
   <figure>
     <img src="/images/culture/real-madrid-2627-home/bella-andersson.jpg" alt="레알 마드리드 2026/27 홈 유니폼을 입은 벨라 안데르손의 상반신 캠페인 사진" width="2000" height="2667" loading="lazy" decoding="async" />
-    <figcaption>벨라 안데르손<span class="foreign-note" lang="sv">(Bella Andersson; 스웨덴 축구 선수, 2006년생)</span>의 클로즈업에서는 칼라와 소매의 딥 그린이 가장 또렷하게 보인다.</figcaption>
+    <figcaption>벨라 안데르손<span class="foreign-note" lang="sv">(Bella Andersson; 스웨덴 축구 선수, 2006-)</span>의 클로즈업에서는 칼라와 소매의 딥 그린이 가장 또렷하게 보인다.</figcaption>
   </figure>
   <figure>
     <img src="/images/culture/real-madrid-2627-home/huijsen.jpg" alt="레알 마드리드 2026/27 홈 유니폼을 입고 옆을 바라보는 딘 하위선" width="2000" height="2667" loading="lazy" decoding="async" />
-    <figcaption>딘 하위선<span class="foreign-note" lang="es">(Dean Huijsen; 스페인 축구 선수, 2005년생)</span>은 상반신을 크게 잡아 유니폼의 흰색 면을 보여준다.</figcaption>
+    <figcaption>딘 하위선<span class="foreign-note" lang="es">(Dean Huijsen; 스페인 축구 선수, 2005-)</span>은 상반신을 크게 잡아 유니폼의 흰색 면을 보여준다.</figcaption>
   </figure>
   <figure>
     <img src="/images/culture/real-madrid-2627-home/valverde.jpg" alt="레알 마드리드 2026/27 홈 유니폼을 입은 페데리코 발베르데의 상반신 캠페인 사진" width="2000" height="2667" loading="lazy" decoding="async" />
-    <figcaption>페데리코 발베르데<span class="foreign-note" lang="es">(Federico Valverde; 우루과이 축구 선수, 1998년생)</span>는 긴소매를 안에 겹쳐 핑크색 삼선을 길게 연결했다.</figcaption>
+    <figcaption>페데리코 발베르데<span class="foreign-note" lang="es">(Federico Valverde; 우루과이 축구 선수, 1998-)</span>는 긴소매를 안에 겹쳐 핑크색 삼선을 길게 연결했다.</figcaption>
   </figure>
   <small class="rm-cast-credit">All campaign images: adidas, via House of Heat</small>
 </div>
@@ -92,7 +92,7 @@ featured: false
 
 ## 무리뉴가 돌아온 시즌이라 흰색도 조금 더 날카로워 보여요
 
-레알 마드리드는 2026년 6월 주제 무리뉴<span class="foreign-note" lang="pt">(José Mourinho; 포르투갈 축구 감독, 1963년생)</span>를 2029년 6월까지 1군 감독으로 선임했다. 2013년 이후 두 번째 레알 마드리드 시기다. 캠페인 사진에 무리뉴가 등장하지는 않지만, 이 셔츠는 그의 복귀와 함께 새 시즌의 첫인상이 됐다.
+레알 마드리드는 2026년 6월 주제 무리뉴<span class="foreign-note" lang="pt">(José Mourinho; 포르투갈 축구 감독, 1963-)</span>를 2029년 6월까지 1군 감독으로 선임했다. 2013년 이후 두 번째 레알 마드리드 시기다. 캠페인 사진에 무리뉴가 등장하지는 않지만, 이 셔츠는 그의 복귀와 함께 새 시즌의 첫인상이 됐다.
 
 무리뉴가 복귀 인터뷰에서 반복한 단어는 일, 책임, 야망이었다. 화려한 장식을 밖으로 드러내지 않고 흰색 안쪽에 보석의 무늬를 숨긴 이번 디자인도 이상하리만큼 그 어휘와 잘 맞는다. 벨링엄을 중심에 세운 캠페인이 ‘스타가 많은 팀’보다 ‘누가 화면을 통제하는가’를 먼저 보여주는 것처럼, 셔츠 역시 장식보다 질서를 택한다.
 

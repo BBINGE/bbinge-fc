@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>파리 올림픽에서 세계를 놀라게 한 우루과이는 귀국 뒤 곧바로 남미의 왕좌도 지켰다. 2승 1무, 8득점 1실점. 페드로 페트로네<span class="foreign-note" lang="es-UY">(Pedro Petrone; 우루과이 공격수, 1905~1964)</span>는 네 골로 2년 연속 득점왕이 됐고, 우루과이는 통산 다섯 번째 우승을 채웠다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>파리 올림픽에서 세계를 놀라게 한 우루과이는 귀국 뒤 곧바로 남미의 왕좌도 지켰다. 2승 1무, 8득점 1실점. 페드로 페트로네<span class="foreign-note" lang="es-UY">(Pedro Petrone; 우루과이 공격수, 1905-1964)</span>는 네 골로 2년 연속 득점왕이 됐고, 우루과이는 통산 다섯 번째 우승을 채웠다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제8회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1924</strong></div>
 

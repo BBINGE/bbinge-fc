@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>리그가 끝났을 때 브라질·파라과이·우루과이는 모두 승점 5였다. 우루과이는 심판 판정에 항의해 우승 결정전에서 물러났고, 남은 두 나라가 다시 만났다. 브라질은 파라과이를 3-0으로 꺾어 두 번째 정상에 올랐다. 중심에는 미드필더 아구스치뉴 포르치스<span class="foreign-note" lang="pt-BR">(Agostinho Fortes Filho; 브라질 선수, 1901~1966)</span>가 있었다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>리그가 끝났을 때 브라질·파라과이·우루과이는 모두 승점 5였다. 우루과이는 심판 판정에 항의해 우승 결정전에서 물러났고, 남은 두 나라가 다시 만났다. 브라질은 파라과이를 3-0으로 꺾어 두 번째 정상에 올랐다. 중심에는 미드필더 아구스치뉴 포르치스<span class="foreign-note" lang="pt-BR">(Agostinho Fortes Filho; 브라질 선수, 1901-1966)</span>가 있었다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제6회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1922</strong></div>
 

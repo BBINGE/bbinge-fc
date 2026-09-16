@@ -49,7 +49,7 @@ fashionProfile:
     href: 'https://www.instagram.com/dualipa/'
 ---
 
-두아 리파<span class="foreign-note" lang="en">(Dua Lipa; 영국·알바니아·코소보 싱어송라이터, 1995년생)</span>가 2026년 6월 29일 인스타그램에 올린 사진에는 짙은 바다와 노란 파라솔, 그리고 하늘색 축구 셔츠가 함께 담겼다. 사진을 찍은 곳은 이탈리아 토스카나<span class="foreign-note" lang="it">(Toscana)</span>주의 포르토 에르콜레<span class="foreign-note" lang="it">(Porto Ercole; 토스카나 남부 해안 마을)</span>. 나폴리에서 북쪽으로 멀리 떨어진 호텔 일 펠리카노<span class="foreign-note" lang="it">(Hotel Il Pellicano)</span>의 테라스에서 그는 **SSC 나폴리<span class="foreign-note" lang="it">(SSC Napoli)</span>의 2023-24 시즌 홈 유니폼**을 입었다.
+두아 리파<span class="foreign-note" lang="en">(Dua Lipa; 영국·알바니아·코소보 싱어송라이터, 1995-)</span>가 2026년 6월 29일 인스타그램에 올린 사진에는 짙은 바다와 노란 파라솔, 그리고 하늘색 축구 셔츠가 함께 담겼다. 사진을 찍은 곳은 이탈리아 토스카나<span class="foreign-note" lang="it">(Toscana)</span>주의 포르토 에르콜레<span class="foreign-note" lang="it">(Porto Ercole; 토스카나 남부 해안 마을)</span>. 나폴리에서 북쪽으로 멀리 떨어진 호텔 일 펠리카노<span class="foreign-note" lang="it">(Hotel Il Pellicano)</span>의 테라스에서 그는 **SSC 나폴리<span class="foreign-note" lang="it">(SSC Napoli)</span>의 2023-24 시즌 홈 유니폼**을 입었다.
 
 나폴리에서 멀리 떨어진 해안에서 나폴리 셔츠가 수영복과 주얼리를 만났다는 점이 사진을 재미있게 만든다. 경기장에서 출발한 옷이 어느새 휴양지의 가벼운 티셔츠가 됐고, 그 사이를 이어준 것은 셔츠와 바다가 나눠 가진 하늘색이었다.
 

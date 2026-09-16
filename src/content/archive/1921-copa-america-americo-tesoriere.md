@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 다섯 번째 대회에서 마침내 첫 우승을 차지했다. 세 경기에서 다섯 골을 넣고 한 골도 허용하지 않았다. 득점왕 훌리오 리보나티의 세 골 앞에는 골키퍼 아메리코 테소리에레<span class="foreign-note" lang="es-AR">(Américo Tesoriere; 아르헨티나 골키퍼, 1899~1977)</span>의 완벽한 무실점이 있었다. 칠레가 빠진 자리에는 파라과이가 처음 들어왔다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 다섯 번째 대회에서 마침내 첫 우승을 차지했다. 세 경기에서 다섯 골을 넣고 한 골도 허용하지 않았다. 득점왕 훌리오 리보나티의 세 골 앞에는 골키퍼 아메리코 테소리에레<span class="foreign-note" lang="es-AR">(Américo Tesoriere; 아르헨티나 골키퍼, 1899-1977)</span>의 완벽한 무실점이 있었다. 칠레가 빠진 자리에는 파라과이가 처음 들어왔다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제5회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1921</strong></div>
 

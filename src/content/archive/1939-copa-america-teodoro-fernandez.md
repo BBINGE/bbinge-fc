@@ -15,7 +15,7 @@ coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>페루는 에콰도르·칠레·파라과이·우루과이를 모두 꺾고 사상 첫 남미 정상에 올랐다. 네 경기 13득점 4실점. 테오도로 ‘롤로’ 페르난데스<span class="foreign-note" lang="es-PE">(Teodoro Fernández Meyzán; 페루 공격수, 1913~1996)</span>는 7골로 득점왕이자 우승 공격의 중심이 됐다. 1927·1935에 이어 세 번째로 리마에서 열린 대회가 마침내 개최국의 우승으로 끝났다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>페루는 에콰도르·칠레·파라과이·우루과이를 모두 꺾고 사상 첫 남미 정상에 올랐다. 네 경기 13득점 4실점. 테오도로 ‘롤로’ 페르난데스<span class="foreign-note" lang="es-PE">(Teodoro Fernández Meyzán; 페루 공격수, 1913-1996)</span>는 7골로 득점왕이자 우승 공격의 중심이 됐다. 1927·1935에 이어 세 번째로 리마에서 열린 대회가 마침내 개최국의 우승으로 끝났다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제15회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1939</strong></div>
 

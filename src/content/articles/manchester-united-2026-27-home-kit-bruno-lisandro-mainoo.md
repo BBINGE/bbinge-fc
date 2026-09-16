@@ -16,9 +16,9 @@ draft: false
 featured: false
 ---
 
-<p>맨체스터 유나이티드의 2026/27 홈 유니폼은 2026년 5월 14일에 나왔다. 사흘 뒤 올드 트래퍼드에서 노팅엄 포리스트를 3-2로 이긴 경기가 이 셔츠의 첫 실전이었고, 맨유는 그날 리그 3위를 확정해 UEFA 챔피언스 리그 출전권을 되찾았다. 76분 브라이언 음뵈모<span class="foreign-note" lang="fr">(Bryan Mbeumo; 카메룬 축구 선수, 1999년생)</span>의 결승골을 도운 브루노 페르난데스<span class="foreign-note" lang="pt">(Bruno Fernandes; 포르투갈 축구 선수, 1994년생)</span>는 그 도움으로 프리미어 리그 한 시즌 최다 도움 기록과 나란히 섰다.</p>
+<p>맨체스터 유나이티드의 2026/27 홈 유니폼은 2026년 5월 14일에 나왔다. 사흘 뒤 올드 트래퍼드에서 노팅엄 포리스트를 3-2로 이긴 경기가 이 셔츠의 첫 실전이었고, 맨유는 그날 리그 3위를 확정해 UEFA 챔피언스 리그 출전권을 되찾았다. 76분 브라이언 음뵈모<span class="foreign-note" lang="fr">(Bryan Mbeumo; 카메룬 축구 선수, 1999-)</span>의 결승골을 도운 브루노 페르난데스<span class="foreign-note" lang="pt">(Bruno Fernandes; 포르투갈 축구 선수, 1994-)</span>는 그 도움으로 프리미어 리그 한 시즌 최다 도움 기록과 나란히 섰다.</p>
 
-<p>넉 달 뒤인 9월 10일 밤, 같은 빨간 셔츠가 3시즌 만의 UEFA 챔피언스 리그 무대에 섰다. 맨유는 아제르바이잔 챔피언 사바를 4-0으로 이겼고, 주장 완장을 찬 브루노와 리산드로 마르티네스<span class="foreign-note" lang="es-AR">(Lisandro Martínez; 아르헨티나 축구 선수, 1998년생)</span>가 골을 넣었다. 코비 마이누<span class="foreign-note" lang="en">(Kobbie Mainoo; 잉글랜드 축구 선수, 2005년생)</span>까지 세 사람 모두 손목까지 내려오는 긴소매 홈 셔츠를 입었고, 사흘 뒤 같은 경기장에서는 199번째 맨체스터 더비가 열린다.</p>
+<p>넉 달 뒤인 9월 10일 밤, 같은 빨간 셔츠가 3시즌 만의 UEFA 챔피언스 리그 무대에 섰다. 맨유는 아제르바이잔 챔피언 사바를 4-0으로 이겼고, 주장 완장을 찬 브루노와 리산드로 마르티네스<span class="foreign-note" lang="es-AR">(Lisandro Martínez; 아르헨티나 축구 선수, 1998-)</span>가 골을 넣었다. 코비 마이누<span class="foreign-note" lang="en">(Kobbie Mainoo; 잉글랜드 축구 선수, 2005-)</span>까지 세 사람 모두 손목까지 내려오는 긴소매 홈 셔츠를 입었고, 사흘 뒤 같은 경기장에서는 199번째 맨체스터 더비가 열린다.</p>
 
 <div class="mu-index" aria-label="맨유 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACES</b><strong>BRUNO · LICHA · MAINOO</strong><span>8번과 6번, 37번이 긴소매로 나선 복귀전의 밤</span></div>
@@ -51,9 +51,9 @@ featured: false
 
 9월 10일 밤 올드 트래퍼드의 조명탑 불빛 아래에서 몸판의 빨강은 짙게 가라앉고, 팔을 따라 내려가는 흰 줄과 칼라의 가는 테두리가 한층 또렷해진다.
 
-브루노는 2025/26시즌을 프리미어 리그 올해의 선수와 FWA 올해의 선수로 마쳤다. 새 셔츠의 첫 경기에서 20번째 도움을 올린 뒤 마지막 경기인 브라이턴전에서 코너킥으로 파트리크 도르구<span class="foreign-note" lang="da">(Patrick Dorgu; 덴마크 축구 선수, 2004년생)</span>의 헤더 선제골을 도와 21도움을 채웠고, 티에리 앙리<span class="foreign-note" lang="fr">(Thierry Henry; 프랑스 축구 선수, 1977년생)</span>와 케빈 더브라위너<span class="foreign-note" lang="nl">(Kevin De Bruyne; 벨기에 축구 선수, 1991년생)</span>가 함께 갖고 있던 기록을 넘어섰다. 사바전 두 번째 골은 유리 틸레만스<span class="foreign-note" lang="nl">(Youri Tielemans; 벨기에 축구 선수, 1997년생)</span>와 호흡을 맞춘 끝에 직접 넣었다.
+브루노는 2025/26시즌을 프리미어 리그 올해의 선수와 FWA 올해의 선수로 마쳤다. 새 셔츠의 첫 경기에서 20번째 도움을 올린 뒤 마지막 경기인 브라이턴전에서 코너킥으로 파트리크 도르구<span class="foreign-note" lang="da">(Patrick Dorgu; 덴마크 축구 선수, 2004-)</span>의 헤더 선제골을 도와 21도움을 채웠고, 티에리 앙리<span class="foreign-note" lang="fr">(Thierry Henry; 프랑스 축구 선수, 1977-)</span>와 케빈 더브라위너<span class="foreign-note" lang="nl">(Kevin De Bruyne; 벨기에 축구 선수, 1991-)</span>가 함께 갖고 있던 기록을 넘어섰다. 사바전 두 번째 골은 유리 틸레만스<span class="foreign-note" lang="nl">(Youri Tielemans; 벨기에 축구 선수, 1997-)</span>와 호흡을 맞춘 끝에 직접 넣었다.
 
-리산드로의 골은 그가 올드 트래퍼드에서 넣은 첫 골이었다. 이전 세 골은 모두 아스널, 리버풀, 풀럼 원정에서 나왔다. 조슈아 지르크제이<span class="foreign-note" lang="nl">(Joshua Zirkzee; 네덜란드 축구 선수, 2001년생)</span>의 뒤꿈치 패스를 가까운 거리에서 차 넣은 그는 경기 뒤 MUTV 인터뷰에서 “이 아름다운 경기장에서, 위층에서 여자친구가 지켜보는 가운데 골을 넣었다. 더 바랄 게 없다”고 말했다.
+리산드로의 골은 그가 올드 트래퍼드에서 넣은 첫 골이었다. 이전 세 골은 모두 아스널, 리버풀, 풀럼 원정에서 나왔다. 조슈아 지르크제이<span class="foreign-note" lang="nl">(Joshua Zirkzee; 네덜란드 축구 선수, 2001-)</span>의 뒤꿈치 패스를 가까운 거리에서 차 넣은 그는 경기 뒤 MUTV 인터뷰에서 “이 아름다운 경기장에서, 위층에서 여자친구가 지켜보는 가운데 골을 넣었다. 더 바랄 게 없다”고 말했다.
 
 마이누는 맨유 아카데미에서 올라온 37번이다. 2024년 5월 25일 웸블리에서 열린 FA컵 결승에서 맨체스터 시티를 상대로 결승골을 넣은 선수가 그다. 이번 홈 셔츠가 기념하는 1977년의 FA컵 우승도, 일요일에 올드 트래퍼드로 오는 시티도 그의 이력과 곧장 이어진다.
 
@@ -75,7 +75,7 @@ featured: false
   <div>
     <span class="mu-kicker">FA CUP 1977</span>
     <h3>칼라와 소매 끝에만 줄무늬를 모았다</h3>
-    <p>구단은 이번 홈 셔츠가 1970년대에서 영감을 받았고, 폴로 칼라와 줄무늬 소매 끝단이 1977년 FA컵 우승 당시의 셔츠를 가리킨다고 설명한다. 그 결승은 1977년 5월 21일 웸블리에서 열렸다. 토미 도허티<span class="foreign-note" lang="en">(Tommy Docherty; 스코틀랜드 축구 감독, 1928~2020)</span>의 맨유는 리버풀을 2-1로 이겼는데, 세 골이 모두 후반 초반 5분 사이에 나왔다. 스튜어트 피어슨의 선제골 뒤 지미 케이스가 곧바로 따라붙었고, 동료의 슛이 지미 그린호프의 가슴에 맞고 굴절되며 결승골이 됐다.</p>
+    <p>구단은 이번 홈 셔츠가 1970년대에서 영감을 받았고, 폴로 칼라와 줄무늬 소매 끝단이 1977년 FA컵 우승 당시의 셔츠를 가리킨다고 설명한다. 그 결승은 1977년 5월 21일 웸블리에서 열렸다. 토미 도허티<span class="foreign-note" lang="en">(Tommy Docherty; 스코틀랜드 축구 감독, 1928-2020)</span>의 맨유는 리버풀을 2-1로 이겼는데, 세 골이 모두 후반 초반 5분 사이에 나왔다. 스튜어트 피어슨의 선제골 뒤 지미 케이스가 곧바로 따라붙었고, 동료의 슛이 지미 그린호프의 가슴에 맞고 굴절되며 결승골이 됐다.</p>
     <p>리버풀은 그 시즌 리그 우승을 차지했고 나흘 뒤 로마에서 첫 유러피언컵을 들었다. 웸블리에서 맨유에 진 90분이 리버풀의 세 대회 석권을 막은 셈이다. 새 셔츠는 그 결승의 셔츠처럼 빨간 몸판을 비워 두고, 목과 소매 끝의 가는 줄무늬에 빨강·하양·검정을 모았다.</p>
   </div>
 </div>
@@ -97,7 +97,7 @@ featured: false
   <div class="mu-record__stat" aria-label="2025/26시즌 프리미어 리그 한 시즌 최다 21도움"><span>PREMIER LEAGUE RECORD</span><strong>21</strong><small>ASSISTS · BRUNO FERNANDES 2025/26</small></div>
   <div class="mu-record__copy">
     <p>5월 17일 포리스트전은 새 홈 셔츠의 첫 경기이자 카세미루의 올드 트래퍼드 고별전이었다. 루크 쇼가 5분에 선제골을 넣었고, 동점을 허용한 뒤 마테우스 쿠냐와 음뵈모가 연달아 골을 넣었다. 음뵈모의 골을 도운 브루노는 한 시즌 20도움으로 앙리와 더브라위너의 기록과 나란히 섰고, 맨유는 3-2 승리로 리그 3위를 확정했다.</p>
-    <p>그 3위가 9월 10일의 UEFA 챔피언스 리그 복귀전으로 이어졌다. 27분 도르구의 크로스를 쿠냐가 마무리했고, 42분 브루노와 45분 베냐민 셰슈코<span class="foreign-note" lang="sl">(Benjamin Šeško; 슬로베니아 축구 선수, 2003년생)</span>의 골로 전반에만 3-0이 됐다. 후반의 유일한 골은 리산드로의 몫이었다.</p>
+    <p>그 3위가 9월 10일의 UEFA 챔피언스 리그 복귀전으로 이어졌다. 27분 도르구의 크로스를 쿠냐가 마무리했고, 42분 브루노와 45분 베냐민 셰슈코<span class="foreign-note" lang="sl">(Benjamin Šeško; 슬로베니아 축구 선수, 2003-)</span>의 골로 전반에만 3-0이 됐다. 후반의 유일한 골은 리산드로의 몫이었다.</p>
   </div>
 </div>
 
@@ -139,7 +139,7 @@ featured: false
   <small class="mu-credit">Malard and Janssen photos: adidas, via House of Heat · Park and Schüller photos: Manchester United</small>
 </div>
 
-맨유 여자팀 선수들의 사진은 셔츠를 경기복보다 옷장 속 옷에 가깝게 다룬다. 멜빈 말라르<span class="foreign-note" lang="fr">(Melvine Malard; 프랑스 축구 선수, 2000년생)</span>는 선글라스와 패치 데님 재킷으로 셔츠를 스트리트 룩 쪽으로 끌고 갔고, 도미니크 얀센<span class="foreign-note" lang="nl">(Dominique Janssen; 네덜란드 축구 선수, 1995년생)</span>은 넓은 검정 바지와 흰 스니커즈만 붙여 몸판의 빨강을 크게 남겼다. 제스 박<span class="foreign-note" lang="en">(Jess Park; 잉글랜드 축구 선수, 2001년생)</span>은 머리를 뒤로 단단히 묶어 목선과 칼라에 시선을 모았고, 1월 바이언에서 온 레아 쉴러<span class="foreign-note" lang="de">(Lea Schüller; 독일 축구 선수, 1997년생)</span>는 셔츠 한 장에 검정 바지로 촬영장 한가운데 의자에 몸을 기댔다.
+맨유 여자팀 선수들의 사진은 셔츠를 경기복보다 옷장 속 옷에 가깝게 다룬다. 멜빈 말라르<span class="foreign-note" lang="fr">(Melvine Malard; 프랑스 축구 선수, 2000-)</span>는 선글라스와 패치 데님 재킷으로 셔츠를 스트리트 룩 쪽으로 끌고 갔고, 도미니크 얀센<span class="foreign-note" lang="nl">(Dominique Janssen; 네덜란드 축구 선수, 1995-)</span>은 넓은 검정 바지와 흰 스니커즈만 붙여 몸판의 빨강을 크게 남겼다. 제스 박<span class="foreign-note" lang="en">(Jess Park; 잉글랜드 축구 선수, 2001-)</span>은 머리를 뒤로 단단히 묶어 목선과 칼라에 시선을 모았고, 1월 바이언에서 온 레아 쉴러<span class="foreign-note" lang="de">(Lea Schüller; 독일 축구 선수, 1997-)</span>는 셔츠 한 장에 검정 바지로 촬영장 한가운데 의자에 몸을 기댔다.
 
 따라 입는 순서도 사진 안에 있다. 폴로 칼라가 목선을 이미 잡아 주니 하의는 얀센처럼 넓게, 신발은 가볍게 두면 된다. 날이 선선해지면 말라르처럼 데님 재킷을 셔츠 위에 크게 걸치고 셔츠 밑단은 바지 밖으로 내려 둔다. 1970년대 칼라와 요즘의 넉넉한 실루엣이 그렇게 한 벌 안에서 섞인다.
 

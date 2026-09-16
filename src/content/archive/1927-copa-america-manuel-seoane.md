@@ -15,7 +15,7 @@ coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>남미선수권이 처음으로 페루에 도착했다. 아르헨티나는 볼리비아·우루과이·페루를 모두 꺾고 세 번째 우승이자 첫 원정 우승을 완성했다. 마누엘 세오아네<span class="foreign-note" lang="es-AR">(Manuel Seoane; 아르헨티나 공격수, 1902~1975)</span>는 1925년에 이어 다시 대회 대표 선수로 평가받았다. 세오아네가 연결한 공격선과 우루과이를 3-2로 꺾은 세대교체의 힘이 리마의 우승을 만들었다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>남미선수권이 처음으로 페루에 도착했다. 아르헨티나는 볼리비아·우루과이·페루를 모두 꺾고 세 번째 우승이자 첫 원정 우승을 완성했다. 마누엘 세오아네<span class="foreign-note" lang="es-AR">(Manuel Seoane; 아르헨티나 공격수, 1902-1975)</span>는 1925년에 이어 다시 대회 대표 선수로 평가받았다. 세오아네가 연결한 공격선과 우루과이를 3-2로 꺾은 세대교체의 힘이 리마의 우승을 만들었다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제11회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1927</strong></div>
 

@@ -42,7 +42,7 @@ fashionProfile:
     href: 'https://www.instagram.com/shakira/'
 ---
 
-샤키라<span class="foreign-note" lang="es">(Shakira; 콜롬비아 가수·송라이터, 1977년생)</span>가 월드컵 결승 그라운드 한가운데로 걸어 들어갔다. 2026년 7월 19일 미국 뉴저지 메트라이프 스타디움, 스페인과 아르헨티나의 결승 하프타임이었다. 대회 역사상 처음 열린 결승 하프타임 쇼에는 마돈나, 저스틴 비버, BTS가 함께 섰고, 샤키라는 버나 보이<span class="foreign-note" lang="en">(Burna Boy; 나이지리아 가수)</span>와 함께 `Dai Dai`를 불렀다.
+샤키라<span class="foreign-note" lang="es">(Shakira; 콜롬비아 가수·송라이터, 1977-)</span>가 월드컵 결승 그라운드 한가운데로 걸어 들어갔다. 2026년 7월 19일 미국 뉴저지 메트라이프 스타디움, 스페인과 아르헨티나의 결승 하프타임이었다. 대회 역사상 처음 열린 결승 하프타임 쇼에는 마돈나, 저스틴 비버, BTS가 함께 섰고, 샤키라는 버나 보이<span class="foreign-note" lang="en">(Burna Boy; 나이지리아 가수)</span>와 함께 `Dai Dai`를 불렀다.
 
 노란 옷을 입은 댄서들 사이에서 샤키라의 옷만 색이 달랐다. 몸통은 분홍과 주황, 금빛으로 반짝였고, 허리 아래로는 길이가 제각각인 천 조각이 발목까지 흔들렸다. 로베르토 카발리<span class="foreign-note" lang="it">(Roberto Cavalli)</span>의 크리에이티브 디렉터 파우스토 푸글리시<span class="foreign-note" lang="it">(Fausto Puglisi)</span>가 이 무대 하나를 위해 만든 맞춤 의상이다.
 

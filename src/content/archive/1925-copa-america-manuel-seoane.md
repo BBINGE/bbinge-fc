@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>우루과이와 칠레가 빠지면서 아르헨티나·브라질·파라과이만 남았다. 세 나라는 서로 두 번씩 맞붙었고, 아르헨티나는 3승 1무로 두 번째 남미 정상에 올랐다. 마누엘 세오아네<span class="foreign-note" lang="es-AR">(Manuel Seoane; 아르헨티나 공격수, 1902~1975)</span>는 네 경기 모두 득점하며 6골을 기록했다. 참가국이 적었다는 한계와 대회 최고의 공격수가 남긴 밀도는 동시에 기록해야 한다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>우루과이와 칠레가 빠지면서 아르헨티나·브라질·파라과이만 남았다. 세 나라는 서로 두 번씩 맞붙었고, 아르헨티나는 3승 1무로 두 번째 남미 정상에 올랐다. 마누엘 세오아네<span class="foreign-note" lang="es-AR">(Manuel Seoane; 아르헨티나 공격수, 1902-1975)</span>는 네 경기 모두 득점하며 6골을 기록했다. 참가국이 적었다는 한계와 대회 최고의 공격수가 남긴 밀도는 동시에 기록해야 한다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제9회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1925</strong></div>
 

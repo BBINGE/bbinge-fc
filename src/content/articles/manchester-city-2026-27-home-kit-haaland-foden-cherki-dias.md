@@ -16,9 +16,9 @@ draft: false
 featured: false
 ---
 
-<p>맨체스터 시티의 2026/27 홈 유니폼은 2026년 5월 20일에 나왔다. 나흘 뒤인 5월 24일 에티하드 스타디움에서 애스턴 빌라와 치른 시즌 마지막 경기가 이 셔츠의 첫 실전이었고, 그날은 펩 과르디올라<span class="foreign-note" lang="ca">(Josep Guardiola Sala; 스페인 축구 감독, 1971년생)</span>가 10년 동안 맨시티를 이끈 마지막 날이었다. 베르나르두 실바<span class="foreign-note" lang="pt">(Bernardo Silva; 포르투갈 축구 선수, 1994년생)</span>와 존 스톤스<span class="foreign-note" lang="en">(John Stones; 잉글랜드 축구 선수, 1994년생)</span>도 같은 경기에서 작별했다.</p>
+<p>맨체스터 시티의 2026/27 홈 유니폼은 2026년 5월 20일에 나왔다. 나흘 뒤인 5월 24일 에티하드 스타디움에서 애스턴 빌라와 치른 시즌 마지막 경기가 이 셔츠의 첫 실전이었고, 그날은 펩 과르디올라<span class="foreign-note" lang="ca">(Josep Guardiola Sala; 스페인 축구 감독, 1971-)</span>가 10년 동안 맨시티를 이끈 마지막 날이었다. 베르나르두 실바<span class="foreign-note" lang="pt">(Bernardo Silva; 포르투갈 축구 선수, 1994-)</span>와 존 스톤스<span class="foreign-note" lang="en">(John Stones; 잉글랜드 축구 선수, 1994-)</span>도 같은 경기에서 작별했다.</p>
 
-<p>여름이 지나고 같은 하늘색 셔츠를 이어받은 얼굴은 엘링 홀란<span class="foreign-note" lang="no">(Erling Haaland; 노르웨이 축구 선수, 2000년생)</span>, 필 포든<span class="foreign-note" lang="en">(Phil Foden; 잉글랜드 축구 선수, 2000년생)</span>, 라얀 셰르키<span class="foreign-note" lang="fr">(Rayan Cherki; 프랑스 축구 선수, 2003년생)</span>, 그리고 새 주장 후벵 디아스<span class="foreign-note" lang="pt">(Rúben Dias; 포르투갈 축구 선수, 1997년생)</span>다. 엔초 마레스카<span class="foreign-note" lang="it">(Enzo Maresca; 이탈리아 축구 감독, 1980년생)</span> 감독의 맨시티는 개막 3연승으로 리그 선두에 올랐고, 9월 13일 일요일 올드 트래퍼드에서 199번째 맨체스터 더비를 치른다.</p>
+<p>여름이 지나고 같은 하늘색 셔츠를 이어받은 얼굴은 엘링 홀란<span class="foreign-note" lang="no">(Erling Haaland; 노르웨이 축구 선수, 2000-)</span>, 필 포든<span class="foreign-note" lang="en">(Phil Foden; 잉글랜드 축구 선수, 2000-)</span>, 라얀 셰르키<span class="foreign-note" lang="fr">(Rayan Cherki; 프랑스 축구 선수, 2003-)</span>, 그리고 새 주장 후벵 디아스<span class="foreign-note" lang="pt">(Rúben Dias; 포르투갈 축구 선수, 1997-)</span>다. 엔초 마레스카<span class="foreign-note" lang="it">(Enzo Maresca; 이탈리아 축구 감독, 1980-)</span> 감독의 맨시티는 개막 3연승으로 리그 선두에 올랐고, 9월 13일 일요일 올드 트래퍼드에서 199번째 맨체스터 더비를 치른다.</p>
 
 <div class="mc-index" aria-label="맨시티 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACES</b><strong>HAALAND · FODEN · CHERKI · DIAS</strong><span>9번과 47번, 10번과 3번이 나눠 맡은 마레스카 체제의 첫 시즌</span></div>
@@ -55,7 +55,7 @@ featured: false
 
 홀란은 9번을 그대로 달고 마레스카가 꾸린 네 명의 주장단에 이름을 올렸다. 9월 5일 에티하드에서 열린 코번트리 시티전에서는 이 셔츠를 입고 헤더 선제골을 넣었고, 사흘 뒤 UEFA 챔피언스 리그 포르투 원정에서도 두 골을 보탰다. 10번 셰르키는 코번트리전 골 직후 가장 먼저 홀란에게 달려가 주먹을 맞댔다. 포든은 데뷔 때부터 달아 온 47번으로 새 감독 아래 다시 시즌을 시작한다.
 
-디아스는 떠난 베르나르두에게서 주장 완장을 넘겨받았다. 시즌 전 로드리<span class="foreign-note" lang="es">(Rodri; 스페인 축구 선수, 1996년생)</span>가 바르셀로나로 떠나면서, 과르디올라 시대의 수비를 지킨 디아스가 이제 팀의 얼굴을 맡는다.
+디아스는 떠난 베르나르두에게서 주장 완장을 넘겨받았다. 시즌 전 로드리<span class="foreign-note" lang="es">(Rodri; 스페인 축구 선수, 1996-)</span>가 바르셀로나로 떠나면서, 과르디올라 시대의 수비를 지킨 디아스가 이제 팀의 얼굴을 맡는다.
 
 <div class="mc-night">
   <figure>
@@ -112,7 +112,7 @@ featured: false
 <div class="mc-record">
   <div class="mc-record__stat" aria-label="2016년부터 2026년까지 과르디올라가 이끈 593경기"><span>PEP GUARDIOLA · 2016-2026</span><strong>593</strong><small>GAMES · 20 TROPHIES</small></div>
   <div class="mc-record__copy">
-    <p>5월 24일 빌라전은 과르디올라가 맨시티를 이끈 593번째이자 마지막 경기였다. 10년 동안 20개의 트로피를 든 감독의 고별전에서 앙투안 세메뇨<span class="foreign-note" lang="en">(Antoine Semenyo; 가나 축구 선수, 2000년생)</span>가 먼저 골을 넣었지만, 올리 왓킨스<span class="foreign-note" lang="en">(Ollie Watkins; 잉글랜드 축구 선수, 1995년생)</span>에게 두 골을 내줘 1-2로 졌다.</p>
+    <p>5월 24일 빌라전은 과르디올라가 맨시티를 이끈 593번째이자 마지막 경기였다. 10년 동안 20개의 트로피를 든 감독의 고별전에서 앙투안 세메뇨<span class="foreign-note" lang="en">(Antoine Semenyo; 가나 축구 선수, 2000-)</span>가 먼저 골을 넣었지만, 올리 왓킨스<span class="foreign-note" lang="en">(Ollie Watkins; 잉글랜드 축구 선수, 1995-)</span>에게 두 골을 내줘 1-2로 졌다.</p>
     <p>경기가 끝난 뒤 과르디올라는 눈물이 고인 채 마지막으로 관중 앞에서 인사했고, 관중석은 “10년 더 과르디올라”를 몇 번이고 불렀다. 불꽃이 터진 뒤 이어진 경기장 한 바퀴를 6만 명이 자리를 지키며 지켜봤다.</p>
   </div>
 </div>
@@ -153,7 +153,7 @@ featured: false
   <small class="mc-credit">Office photo: PUMA, via House of Heat · Portraits and match photo: Manchester City</small>
 </div>
 
-맨시티 여자팀은 2025/26시즌 10년 만에 WSL 정상에 섰다. 주장 앨릭스 그린우드<span class="foreign-note" lang="en">(Alex Greenwood; 잉글랜드 축구 선수, 1993년생)</span>는 이 선수들과 우승을 이끈 일이 선수 생활에서 가장 자랑스러운 순간 가운데 하나라고 말했고, 하세가와 유이<span class="foreign-note" lang="ja">(長谷川唯 Yui Hasegawa; 일본 축구 선수, 1997년생)</span>는 넓은 수비 범위와 경기를 읽는 눈으로 우승 시즌의 중원을 지켰다. 두 사람은 이번 하늘색 셔츠를 입고 버밍엄을 3-1로 꺾으며 타이틀 방어를 시작했다.
+맨시티 여자팀은 2025/26시즌 10년 만에 WSL 정상에 섰다. 주장 앨릭스 그린우드<span class="foreign-note" lang="en">(Alex Greenwood; 잉글랜드 축구 선수, 1993-)</span>는 이 선수들과 우승을 이끈 일이 선수 생활에서 가장 자랑스러운 순간 가운데 하나라고 말했고, 하세가와 유이<span class="foreign-note" lang="ja">(長谷川唯 Yui Hasegawa; 일본 축구 선수, 1997-)</span>는 넓은 수비 범위와 경기를 읽는 눈으로 우승 시즌의 중원을 지켰다. 두 사람은 이번 하늘색 셔츠를 입고 버밍엄을 3-1로 꺾으며 타이틀 방어를 시작했다.
 
 그린우드의 캠페인 사진은 셔츠를 가장 편하게 입는 방법을 보여 준다. 발을 책상에 올린 자세에서 셔츠 밑단의 흰색이 흰 양말과 이어지고, 금발을 묶어 드러낸 목선이 흰 칼라와 겹친다. 따라 입을 때는 밑단이 거의 흰색이라 하의를 흰색이나 연한 회색으로 이어 붙이면 그라데이션이 길게 흐르고, 진한 데님으로 끊으면 하늘색과 흰색의 경계가 한층 또렷해진다.
 

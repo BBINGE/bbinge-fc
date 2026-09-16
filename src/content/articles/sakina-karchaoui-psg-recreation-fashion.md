@@ -45,7 +45,7 @@ fashionProfile:
     href: 'https://www.instagram.com/sakinakarchaoui/'
 ---
 
-2026년 3월 파르크 데 프랭스<span class="foreign-note" lang="fr">(Parc des Princes; 파리 생제르맹의 홈구장)</span>에서 사키나 카르샤위<span class="foreign-note" lang="fr">(Sakina Karchaoui; 프랑스 축구 선수, 1996년생)</span>는 갑옷처럼 둥글게 부푼 검정 패딩을 입고 카메라 앞에 섰다. 팬츠 앞에는 뾰족한 획으로 그린 `PSG`가 허벅지를 가로지른다. 경기장 좌석의 파란색만 남긴 배경 덕분에 검정 옷의 부피와 흰 글자가 더욱 또렷하게 솟는다.
+2026년 3월 파르크 데 프랭스<span class="foreign-note" lang="fr">(Parc des Princes; 파리 생제르맹의 홈구장)</span>에서 사키나 카르샤위<span class="foreign-note" lang="fr">(Sakina Karchaoui; 프랑스 축구 선수, 1996-)</span>는 갑옷처럼 둥글게 부푼 검정 패딩을 입고 카메라 앞에 섰다. 팬츠 앞에는 뾰족한 획으로 그린 `PSG`가 허벅지를 가로지른다. 경기장 좌석의 파란색만 남긴 배경 덕분에 검정 옷의 부피와 흰 글자가 더욱 또렷하게 솟는다.
 
 이 낯선 옷은 새 원단만으로 만든 컬렉션이 아니다. 코트니 맥윌리엄스<span class="foreign-note" lang="en">(Courtney McWilliams; 영국 패션 디자이너)</span>가 이끈 Nike Re-Creation<span class="foreign-note" lang="en">(나이키의 재고 의류 재구성 프로젝트)</span>이 Nike와 PSG의 오래된 의류를 해체한 뒤 다시 이어 붙였다. 남아 있던 문장과 스우시, 유니폼의 색은 자수와 패딩 구조 안으로 옮겨졌고, 검정과 부푼 형태, 고딕 레터링이 하나의 새로운 인상을 만들었다.
 

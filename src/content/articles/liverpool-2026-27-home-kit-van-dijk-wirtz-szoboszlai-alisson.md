@@ -18,7 +18,7 @@ featured: false
 
 <p>리버풀의 2026/27 홈 유니폼은 2026년 5월 19일에 나왔다. 셔츠의 뿌리는 1989/90시즌 리그 우승 때 입은 아디다스 셔츠다. 그 시즌 리버풀은 18번째 리그 우승으로 당시 잉글랜드 최다 기록을 세웠고, 기하학 무늬를 온몸에 두른 셔츠는 그 팀의 얼굴이 됐다.</p>
 
-<p>닷새 뒤인 5월 24일, 새 셔츠는 안필드에서 첫 경기를 치렀다. 브렌트퍼드와 1-1로 비긴 그 경기는 무함마드 살라흐<span class="foreign-note" lang="en">(Mohamed Salah; 이집트 축구 선수, 1992년생)</span>와 앤디 로버트슨<span class="foreign-note" lang="en">(Andy Robertson; 스코틀랜드 축구 선수, 1994년생)</span>의 안필드 고별전이었다. 여름 동안 감독이 바뀌고 두 사람이 떠난 자리에서, 이번 시즌의 셔츠는 주장 버질 판데이크<span class="foreign-note" lang="nl">(Virgil van Dijk; 네덜란드 축구 선수, 1991년생)</span>, 플로리안 비르츠<span class="foreign-note" lang="de">(Florian Wirtz; 독일 축구 선수, 2003년생)</span>, 도미니크 소보슬러이<span class="foreign-note" lang="hu">(Dominik Szoboszlai; 헝가리 축구 선수, 2000년생)</span>, 알리송<span class="foreign-note" lang="pt-BR">(Alisson Becker; 브라질 골키퍼, 1992년생)</span>이 이어서 입는다.</p>
+<p>닷새 뒤인 5월 24일, 새 셔츠는 안필드에서 첫 경기를 치렀다. 브렌트퍼드와 1-1로 비긴 그 경기는 무함마드 살라흐<span class="foreign-note" lang="en">(Mohamed Salah; 이집트 축구 선수, 1992-)</span>와 앤디 로버트슨<span class="foreign-note" lang="en">(Andy Robertson; 스코틀랜드 축구 선수, 1994-)</span>의 안필드 고별전이었다. 여름 동안 감독이 바뀌고 두 사람이 떠난 자리에서, 이번 시즌의 셔츠는 주장 버질 판데이크<span class="foreign-note" lang="nl">(Virgil van Dijk; 네덜란드 축구 선수, 1991-)</span>, 플로리안 비르츠<span class="foreign-note" lang="de">(Florian Wirtz; 독일 축구 선수, 2003-)</span>, 도미니크 소보슬러이<span class="foreign-note" lang="hu">(Dominik Szoboszlai; 헝가리 축구 선수, 2000-)</span>, 알리송<span class="foreign-note" lang="pt-BR">(Alisson Becker; 브라질 골키퍼, 1992-)</span>이 이어서 입는다.</p>
 
 <div class="lv-index" aria-label="리버풀 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACES</b><strong>VAN DIJK · WIRTZ · SZOBOSZLAI · ALISSON</strong><span>4번과 7번, 8번과 1번이 나눠 맡은 새 시즌의 얼굴</span></div>
@@ -62,7 +62,7 @@ featured: false
   <figcaption><b>JULY 17, ANFIELD</b><span>재계약 날 빈 안필드 관중석 난간에 팔을 걸친 소보슬러이. 문신한 팔 위로 흰 소매 테두리가 선다.</span><small class="lv-credit">Photo: Liverpool FC</small></figcaption>
 </figure>
 
-소보슬러이는 7월 17일 리버풀과 장기 계약을 새로 맺었고, 그날 새 홈 셔츠를 입고 빈 안필드를 걸었다. 이번 시즌은 그의 리버풀 네 번째 시즌이자 안도니 이라올라<span class="foreign-note" lang="es">(Andoni Iraola; 스페인 축구 감독, 1982년생)</span> 감독과 맞는 첫 시즌이다. 머리를 길게 기른 채 관중석 난간에 두 팔을 걸친 사진에서, 셔츠는 경기복보다 반팔 니트 티셔츠처럼 느슨하게 떨어진다.
+소보슬러이는 7월 17일 리버풀과 장기 계약을 새로 맺었고, 그날 새 홈 셔츠를 입고 빈 안필드를 걸었다. 이번 시즌은 그의 리버풀 네 번째 시즌이자 안도니 이라올라<span class="foreign-note" lang="es">(Andoni Iraola; 스페인 축구 감독, 1982-)</span> 감독과 맞는 첫 시즌이다. 머리를 길게 기른 채 관중석 난간에 두 팔을 걸친 사진에서, 셔츠는 경기복보다 반팔 니트 티셔츠처럼 느슨하게 떨어진다.
 
 <aside class="lv-note">
   <span>LONG SLEEVE NOTE</span>
@@ -112,7 +112,7 @@ featured: false
 <div class="lv-record">
   <div class="lv-record__stat" aria-label="2017년부터 2026년까지 9시즌"><span>ANFIELD FAREWELL</span><strong>9</strong><small>SEASONS · SALAH &amp; ROBERTSON 2017-2026</small></div>
   <div class="lv-record__copy">
-    <p>5월 24일 브렌트퍼드전에서 살라흐와 로버트슨은 나란히 선발로 나섰다. 살라흐의 전반 프리킥은 수비벽을 돌아 골대를 때렸고, 58분에는 그의 도움을 받은 커티스 존스<span class="foreign-note" lang="en">(Curtis Jones; 잉글랜드 축구 선수, 2001년생)</span>가 선제골을 넣었다. 64분 케빈 샤데에게 동점골을 내준 경기는 1-1로 끝났지만, 리버풀은 리그 5위로 UEFA 챔피언스 리그 출전권을 지켰다.</p>
+    <p>5월 24일 브렌트퍼드전에서 살라흐와 로버트슨은 나란히 선발로 나섰다. 살라흐의 전반 프리킥은 수비벽을 돌아 골대를 때렸고, 58분에는 그의 도움을 받은 커티스 존스<span class="foreign-note" lang="en">(Curtis Jones; 잉글랜드 축구 선수, 2001-)</span>가 선제골을 넣었다. 64분 케빈 샤데에게 동점골을 내준 경기는 1-1로 끝났지만, 리버풀은 리그 5위로 UEFA 챔피언스 리그 출전권을 지켰다.</p>
     <p>교체돼 나가는 살라흐 앞에 동료들이 즉석으로 두 줄을 섰고, 그는 무릎을 꿇고 안필드 잔디에 입을 맞춘 뒤 벤치로 걸어갔다. 2017년 여름 함께 리버풀에 온 두 사람의 9시즌이 새 셔츠의 첫날에 끝났다.</p>
   </div>
 </div>
@@ -153,7 +153,7 @@ featured: false
   <small class="lv-credit">Crop model photo: adidas, via House of Heat · Women's team photos: Liverpool FC</small>
 </div>
 
-아디다스의 여성용 크롭 홈 셔츠는 같은 무늬를 허리선 위에서 끊는다. 빨간 면적이 상체로 모이면서 드러난 허리가 옷차림의 중심이 되고, 검정 트랙 팬츠를 골반에 걸치면 경기복보다 스트리트 룩에 가까워진다. 구단 화보의 여자팀 선수들은 머리를 모두 뒤로 단단히 넘겨 얼굴과 칼라를 한 화면에 모았고, 리버풀 수비수 그레이스 피스크<span class="foreign-note" lang="en">(Grace Fisk; 잉글랜드 축구 선수, 1998년생)</span>는 백금발과 주근깨로 짙은 빨강과 가장 강한 대비를 만든다.
+아디다스의 여성용 크롭 홈 셔츠는 같은 무늬를 허리선 위에서 끊는다. 빨간 면적이 상체로 모이면서 드러난 허리가 옷차림의 중심이 되고, 검정 트랙 팬츠를 골반에 걸치면 경기복보다 스트리트 룩에 가까워진다. 구단 화보의 여자팀 선수들은 머리를 모두 뒤로 단단히 넘겨 얼굴과 칼라를 한 화면에 모았고, 리버풀 수비수 그레이스 피스크<span class="foreign-note" lang="en">(Grace Fisk; 잉글랜드 축구 선수, 1998-)</span>는 백금발과 주근깨로 짙은 빨강과 가장 강한 대비를 만든다.
 
 기본 기장의 홈 저지로 따라 입는다면 밑단을 앞쪽만 살짝 넣어 허리선을 올리고, 하의는 검정 와이드 팬츠나 트랙 팬츠로 낮게 두면 된다. 무늬가 이미 화려하니 액세서리는 피스크처럼 작은 금 귀걸이 하나면 충분하다.
 

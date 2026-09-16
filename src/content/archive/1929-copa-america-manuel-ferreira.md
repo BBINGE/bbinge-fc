@@ -15,7 +15,7 @@ coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 페루·파라과이·우루과이를 모두 꺾고 네 번째 남미 정상에 올랐다. 9득점 1실점의 3전 전승. 주장 마누엘 페레이라<span class="foreign-note" lang="es-AR">(Manuel Ferreira; 아르헨티나 공격수·주장, 1905~1983)</span>는 파라과이전 두 골과 우루과이전 선제골을 기록하며 공격을 지휘했다. 1928년 암스테르담 올림픽 결승 패배를 1년 뒤 부에노스아이레스에서 되갚은 우승이었다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 페루·파라과이·우루과이를 모두 꺾고 네 번째 남미 정상에 올랐다. 9득점 1실점의 3전 전승. 주장 마누엘 페레이라<span class="foreign-note" lang="es-AR">(Manuel Ferreira; 아르헨티나 공격수·주장, 1905-1983)</span>는 파라과이전 두 골과 우루과이전 선제골을 기록하며 공격을 지휘했다. 1928년 암스테르담 올림픽 결승 패배를 1년 뒤 부에노스아이레스에서 되갚은 우승이었다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제12회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1929</strong></div>
 

@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>우루과이는 세 경기를 모두 이기고 6득점 1실점으로 네 번째 남미 정상에 올랐다. 중심에는 스무 살의 주장 호세 나사시<span class="foreign-note" lang="es-UY">(José Nasazzi; 우루과이 수비수, 1901~1968)</span>가 있었다. 이 우승은 트로피 하나로 끝나지 않았다. 남미 대표 자격으로 1924 파리 올림픽에 나갈 문까지 열었다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>우루과이는 세 경기를 모두 이기고 6득점 1실점으로 네 번째 남미 정상에 올랐다. 중심에는 스무 살의 주장 호세 나사시<span class="foreign-note" lang="es-UY">(José Nasazzi; 우루과이 수비수, 1901-1968)</span>가 있었다. 이 우승은 트로피 하나로 끝나지 않았다. 남미 대표 자격으로 1924 파리 올림픽에 나갈 문까지 열었다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제7회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1923</strong></div>
 

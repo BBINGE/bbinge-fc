@@ -43,7 +43,7 @@ fashionProfile:
     href: 'https://www.instagram.com/tolami_benson/'
 ---
 
-톨라미 벤슨<span class="foreign-note" lang="en">(Tolami Benson; 영국 미디어 전략가·패션 크리에이터, 2000년생)</span>의 경기일 옷에는 잉글랜드 문장과 아스널의 색, 그리고 숫자 `87`이 반복해서 등장한다. 이 숫자는 부카요 아요잉카 테미다요 사카<span class="foreign-note" lang="en">(Bukayo Ayoyinka Temidayo Saka; 잉글랜드 축구 선수, 2001년생)</span>가 아스널 1군에서 처음 달았던 등번호다. 벤슨은 이 표식들을 경기장에서 판매하는 모습 그대로 입기보다, 셔츠를 코르셋으로 바꾸고 등번호를 가죽 재킷의 그래픽으로 옮긴다.
+톨라미 벤슨<span class="foreign-note" lang="en">(Tolami Benson; 영국 미디어 전략가·패션 크리에이터, 2000-)</span>의 경기일 옷에는 잉글랜드 문장과 아스널의 색, 그리고 숫자 `87`이 반복해서 등장한다. 이 숫자는 부카요 아요잉카 테미다요 사카<span class="foreign-note" lang="en">(Bukayo Ayoyinka Temidayo Saka; 잉글랜드 축구 선수, 2001-)</span>가 아스널 1군에서 처음 달았던 등번호다. 벤슨은 이 표식들을 경기장에서 판매하는 모습 그대로 입기보다, 셔츠를 코르셋으로 바꾸고 등번호를 가죽 재킷의 그래픽으로 옮긴다.
 
 어느 팀과 선수를 응원하는지는 한눈에 보이지만, 완성된 옷은 매장에서 본 상품과 전혀 다르다. 공식 셔츠와 재킷이 벤슨의 몸을 거치며 한 번씩 잘리고 조여지고 다시 연결되기 때문이다.
 

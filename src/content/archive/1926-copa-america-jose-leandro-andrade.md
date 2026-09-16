@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>우루과이는 네 경기를 모두 이기며 17득점 2실점으로 여섯 번째 남미 정상에 올랐다. 중원의 호세 레안드로 안드라데<span class="foreign-note" lang="es-UY">(José Leandro Andrade; 우루과이 하프백, 1901~1957)</span>는 파리 올림픽에서 얻은 세계적 명성을 대륙 무대에서도 이어갔다. 개최국 칠레의 다비드 아레야노는 7골로 득점왕이 됐다. 우승국의 중심과 개최국의 골잡이가 서로 다른 방식으로 1926년을 나눠 가졌다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>우루과이는 네 경기를 모두 이기며 17득점 2실점으로 여섯 번째 남미 정상에 올랐다. 중원의 호세 레안드로 안드라데<span class="foreign-note" lang="es-UY">(José Leandro Andrade; 우루과이 하프백, 1901-1957)</span>는 파리 올림픽에서 얻은 세계적 명성을 대륙 무대에서도 이어갔다. 개최국 칠레의 다비드 아레야노는 7골로 득점왕이 됐다. 우승국의 중심과 개최국의 골잡이가 서로 다른 방식으로 1926년을 나눠 가졌다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제10회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1926</strong></div>
 
@@ -63,7 +63,7 @@ draft: false
 
 ### 개최국의 일곱 골, 다비드 아레야노
 
-득점왕은 우승팀이 아니라 칠레에서 나왔다. 다비드 아레야노<span class="foreign-note" lang="es-CL">(David Alfonso Arellano Moraga; 칠레 공격수, 1902~1927)</span>는 볼리비아전 네 골, 파라과이전 두 골, 아르헨티나전 한 골로 7골을 넣었다. 우루과이전에는 득점하지 못했지만 나머지 세 상대에게 모두 골을 넣었다. 칠레가 기록한 14골의 절반이었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+득점왕은 우승팀이 아니라 칠레에서 나왔다. 다비드 아레야노<span class="foreign-note" lang="es-CL">(David Alfonso Arellano Moraga; 칠레 공격수, 1902-1927)</span>는 볼리비아전 네 골, 파라과이전 두 골, 아르헨티나전 한 골로 7골을 넣었다. 우루과이전에는 득점하지 못했지만 나머지 세 상대에게 모두 골을 넣었다. 칠레가 기록한 14골의 절반이었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 그는 단순한 대표팀 공격수가 아니었다. 기존 구단의 운영 방식에 반발한 젊은 선수들과 1925년 콜로콜로를 창립했고, 선수이자 지도자로 팀의 축구를 설계했다. 오늘날 콜로콜로의 홈구장 이름이 에스타디오 모누멘탈 다비드 아레야노인 이유다. 1926년 득점왕은 한 시즌의 개인상이 아니라 칠레 최대 구단의 기원과 연결된 기록이다.
 

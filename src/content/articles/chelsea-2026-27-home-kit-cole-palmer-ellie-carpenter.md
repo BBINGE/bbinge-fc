@@ -16,9 +16,9 @@ draft: false
 featured: false
 ---
 
-<p>첼시의 2026/27 홈 유니폼은 2026년 6월 2일 공식 판매를 시작했다. 셔츠를 먼저 본 사람들은 구단 발표보다 몇 주 앞서 있었다. 골퍼 저스틴 로즈<span class="foreign-note" lang="en">(Justin Rose; 잉글랜드 골프 선수, 1980년생)</span>가 PGA 챔피언십에서 가장 먼저 입었고, 마돈나<span class="foreign-note" lang="en">(Madonna; 미국 가수, 1958년생)</span>는 이 셔츠를 입고 어깨를 튕기는 춤 영상을 올렸다.</p>
+<p>첼시의 2026/27 홈 유니폼은 2026년 6월 2일 공식 판매를 시작했다. 셔츠를 먼저 본 사람들은 구단 발표보다 몇 주 앞서 있었다. 골퍼 저스틴 로즈<span class="foreign-note" lang="en">(Justin Rose; 잉글랜드 골프 선수, 1980-)</span>가 PGA 챔피언십에서 가장 먼저 입었고, 마돈나<span class="foreign-note" lang="en">(Madonna; 미국 가수, 1958-)</span>는 이 셔츠를 입고 어깨를 튕기는 춤 영상을 올렸다.</p>
 
-<p>구단이 공개한 캠페인에서 셔츠의 얼굴을 맡은 사람은 콜 파머<span class="foreign-note" lang="en">(Cole Palmer; 잉글랜드 축구 선수, 2002년생)</span>와 엘리 카펜터<span class="foreign-note" lang="en">(Ellie Carpenter; 오스트레일리아 축구 선수, 2000년생)</span>다. 사자 발톱 자국이 긁힌 벽과 안개 낀 계단 앞에서, 두 사람은 밝은 파랑 셔츠에 금색 사자를 달고 카메라를 정면으로 노려본다.</p>
+<p>구단이 공개한 캠페인에서 셔츠의 얼굴을 맡은 사람은 콜 파머<span class="foreign-note" lang="en">(Cole Palmer; 잉글랜드 축구 선수, 2002-)</span>와 엘리 카펜터<span class="foreign-note" lang="en">(Ellie Carpenter; 오스트레일리아 축구 선수, 2000-)</span>다. 사자 발톱 자국이 긁힌 벽과 안개 낀 계단 앞에서, 두 사람은 밝은 파랑 셔츠에 금색 사자를 달고 카메라를 정면으로 노려본다.</p>
 
 <div class="ch-index" aria-label="첼시 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACES</b><strong>PALMER · CARPENTER</strong><span>남자팀 10번과 여자팀 수비수가 나눠 맡은 캠페인의 첫인상</span></div>
@@ -53,7 +53,7 @@ featured: false
   <p>캠페인 사진을 나란히 놓으면 파머·에스테방·리스 제임스·주앙 페드루·콜윌의 셔츠 가슴에는 ‘WORLD CHAMPIONS FIFA’ 금색 배지가 있고, 카펜터·로런 제임스·앨리사 톰프슨의 셔츠에는 없다. 같은 홈 셔츠라도 어느 팀의 사진인지에 따라 가슴의 금색이 달라진다.</p>
 </aside>
 
-이 배지는 2025년 여름의 결승에서 왔다. 첼시는 7월 13일 뉴저지 메트라이프 스타디움에서 열린 FIFA 클럽 월드컵 결승에서 파리 생제르맹을 3-0으로 이겼고, 파머는 22분과 30분에 왼발로 두 골을 넣은 뒤 43분 주앙 페드루<span class="foreign-note" lang="pt-BR">(João Pedro; 브라질 축구 선수, 2001년생)</span>의 칩슛 골까지 도왔다. 첼시는 다음 대회의 일정이 확정되지 않은 상태에서 2026/27시즌에도 이 우승 배지를 달 수 있도록 프리미어 리그에 요청했다.
+이 배지는 2025년 여름의 결승에서 왔다. 첼시는 7월 13일 뉴저지 메트라이프 스타디움에서 열린 FIFA 클럽 월드컵 결승에서 파리 생제르맹을 3-0으로 이겼고, 파머는 22분과 30분에 왼발로 두 골을 넣은 뒤 43분 주앙 페드루<span class="foreign-note" lang="pt-BR">(João Pedro; 브라질 축구 선수, 2001-)</span>의 칩슛 골까지 도왔다. 첼시는 다음 대회의 일정이 확정되지 않은 상태에서 2026/27시즌에도 이 우승 배지를 달 수 있도록 프리미어 리그에 요청했다.
 
 ## 금색 사자와 버튼 칼라, 75번째 시즌의 첼시예요
 
@@ -113,7 +113,7 @@ featured: false
   <small class="ch-credit">Photos: Chelsea FC</small>
 </div>
 
-에스테방<span class="foreign-note" lang="pt-BR">(Estêvão Willian; 브라질 축구 선수, 2007년생)</span>, 리스 제임스<span class="foreign-note" lang="en">(Reece James; 잉글랜드 축구 선수, 1999년생)</span>, 주앙 페드루, 리바이 콜윌<span class="foreign-note" lang="en">(Levi Colwill; 잉글랜드 축구 선수, 2003년생)</span>의 사진은 모두 같은 어둠 속에서 찍었지만 거리감이 다르다. 리스 제임스는 계단 앞 전신으로 셔츠와 반바지의 한 벌을 보여주고, 에스테방과 콜윌은 카메라에 얼굴을 가까이 붙여 칼라와 배지를 크게 잡았다. 주앙 페드루는 검은 퍼를 어깨에 걸쳐 경기복을 가장 패션 화보에 가깝게 끌고 갔다. 클럽 월드컵 결승에서 파머의 패스를 받아 골을 넣은 선수가 이번 캠페인에서도 파머와 같은 금색 배지를 달고 섰다.
+에스테방<span class="foreign-note" lang="pt-BR">(Estêvão Willian; 브라질 축구 선수, 2007-)</span>, 리스 제임스<span class="foreign-note" lang="en">(Reece James; 잉글랜드 축구 선수, 1999-)</span>, 주앙 페드루, 리바이 콜윌<span class="foreign-note" lang="en">(Levi Colwill; 잉글랜드 축구 선수, 2003-)</span>의 사진은 모두 같은 어둠 속에서 찍었지만 거리감이 다르다. 리스 제임스는 계단 앞 전신으로 셔츠와 반바지의 한 벌을 보여주고, 에스테방과 콜윌은 카메라에 얼굴을 가까이 붙여 칼라와 배지를 크게 잡았다. 주앙 페드루는 검은 퍼를 어깨에 걸쳐 경기복을 가장 패션 화보에 가깝게 끌고 갔다. 클럽 월드컵 결승에서 파머의 패스를 받아 골을 넣은 선수가 이번 캠페인에서도 파머와 같은 금색 배지를 달고 섰다.
 
 ## 로런 제임스·앨리사 톰프슨·나오미 기르마는 더 과감한 파랑이에요
 
@@ -133,7 +133,7 @@ featured: false
   <small class="ch-credit">Photos: Chelsea FC · House of Heat</small>
 </div>
 
-로런 제임스<span class="foreign-note" lang="en">(Lauren James; 잉글랜드 축구 선수, 2001년생)</span>, 앨리사 톰프슨<span class="foreign-note" lang="en">(Alyssa Thompson; 미국 축구 선수, 2004년생)</span>, 나오미 기르마<span class="foreign-note" lang="en">(Naomi Girma; 미국 축구 선수, 2000년생)</span>의 사진은 표정과 몸짓으로 셔츠를 밀어붙인다. 로런 제임스는 입술에 댄 손가락 하나로 시선을 붙잡고, 톰프슨은 사자처럼 이를 드러내며, 기르마는 커다란 퍼 코트로 몸 전체의 실루엣을 바꿨다.
+로런 제임스<span class="foreign-note" lang="en">(Lauren James; 잉글랜드 축구 선수, 2001-)</span>, 앨리사 톰프슨<span class="foreign-note" lang="en">(Alyssa Thompson; 미국 축구 선수, 2004-)</span>, 나오미 기르마<span class="foreign-note" lang="en">(Naomi Girma; 미국 축구 선수, 2000-)</span>의 사진은 표정과 몸짓으로 셔츠를 밀어붙인다. 로런 제임스는 입술에 댄 손가락 하나로 시선을 붙잡고, 톰프슨은 사자처럼 이를 드러내며, 기르마는 커다란 퍼 코트로 몸 전체의 실루엣을 바꿨다.
 
 경기장 밖으로 가져가기 가장 쉬운 조합은 기르마의 사진 안에 있다. 파란 셔츠와 반바지 위에 긴 검정 아우터를 걸치고 흰 무릎 양말로 다리의 선을 끊으면, 칼라 달린 셔츠가 겨울 외출복의 안쪽으로 들어간다. 로런 제임스처럼 셔츠만 입고 액세서리를 줄이면 금색 사자와 칼라가 가장 또렷하게 남는다.
 

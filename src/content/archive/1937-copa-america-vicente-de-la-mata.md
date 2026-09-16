@@ -15,7 +15,7 @@ coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>당시 최다인 여섯 나라가 참가했고, 아르헨티나와 브라질은 단일 리그를 같은 승점으로 마쳤다. 별도 우승 결정전은 90분 동안 0-0. 연장에 교체로 들어간 17세 비센테 데라마타<span class="foreign-note" lang="es-AR">(Vicente de la Mata; 아르헨티나 공격수, 1918~1980)</span>가 3분 사이 두 골을 넣어 아르헨티나의 다섯 번째 우승을 결정했다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>당시 최다인 여섯 나라가 참가했고, 아르헨티나와 브라질은 단일 리그를 같은 승점으로 마쳤다. 별도 우승 결정전은 90분 동안 0-0. 연장에 교체로 들어간 17세 비센테 데라마타<span class="foreign-note" lang="es-AR">(Vicente de la Mata; 아르헨티나 공격수, 1918-1980)</span>가 3분 사이 두 골을 넣어 아르헨티나의 다섯 번째 우승을 결정했다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제14회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1937</strong></div>
 

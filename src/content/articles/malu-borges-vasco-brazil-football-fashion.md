@@ -43,7 +43,7 @@ fashionProfile:
     href: 'https://www.instagram.com/maluborgesm/'
 ---
 
-말루 보르지스<span class="foreign-note" lang="pt-BR">(Malu Borges; 브라질 패션 크리에이터·모델, 1997년생)</span>가 바스쿠 다 가마<span class="foreign-note" lang="pt-BR">(Club de Regatas Vasco da Gama)</span> 셔츠를 입은 사진에서는 커다란 진주 목걸이와 바닥까지 내려오는 빨간 스커트가 먼저 눈에 들어온다. 어떤 날에는 흰색 고데 스커트<span class="foreign-note" lang="fr">(jupe godet; 밑단으로 갈수록 넓게 퍼지는 스커트)</span>를 고르고, 또 어떤 날에는 작은 핸드백과 힐을 붙인다. 경기복의 기능은 남아 있지만 우리가 익숙하게 보던 축구 셔츠의 분위기는 완전히 달라진다.
+말루 보르지스<span class="foreign-note" lang="pt-BR">(Malu Borges; 브라질 패션 크리에이터·모델, 1997-)</span>가 바스쿠 다 가마<span class="foreign-note" lang="pt-BR">(Club de Regatas Vasco da Gama)</span> 셔츠를 입은 사진에서는 커다란 진주 목걸이와 바닥까지 내려오는 빨간 스커트가 먼저 눈에 들어온다. 어떤 날에는 흰색 고데 스커트<span class="foreign-note" lang="fr">(jupe godet; 밑단으로 갈수록 넓게 퍼지는 스커트)</span>를 고르고, 또 어떤 날에는 작은 핸드백과 힐을 붙인다. 경기복의 기능은 남아 있지만 우리가 익숙하게 보던 축구 셔츠의 분위기는 완전히 달라진다.
 
 구단 문장과 스폰서, Kappa 로고는 그대로 보인다. 그리고 그 맞은편에는 셔츠만큼 강한 진주와 색, 부피가 자리한다. 축구의 그래픽도 패션의 과장도 한발 물러서지 않아서, 두 세계가 만나는 장면이 더욱 선명해진다.
 

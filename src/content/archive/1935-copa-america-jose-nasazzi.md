@@ -15,7 +15,7 @@ coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>1929년 이후 6년 만에 남미선수권이 돌아왔다. 리마 창건 400주년을 맞아 열린 특별 대회에서 우루과이는 페루·칠레·아르헨티나를 모두 꺾고 일곱 번째 우승을 차지했다. 주장 호세 나사시<span class="foreign-note" lang="es-UY">(José Nasazzi Yarza; 우루과이 수비수·주장, 1901~1968)</span>는 올림픽 2연패와 첫 월드컵 우승을 이룬 세대의 마지막 대륙 정상을 지휘했다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>1929년 이후 6년 만에 남미선수권이 돌아왔다. 리마 창건 400주년을 맞아 열린 특별 대회에서 우루과이는 페루·칠레·아르헨티나를 모두 꺾고 일곱 번째 우승을 차지했다. 주장 호세 나사시<span class="foreign-note" lang="es-UY">(José Nasazzi Yarza; 우루과이 수비수·주장, 1901-1968)</span>는 올림픽 2연패와 첫 월드컵 우승을 이룬 세대의 마지막 대륙 정상을 지휘했다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제13회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1935</strong></div>
 

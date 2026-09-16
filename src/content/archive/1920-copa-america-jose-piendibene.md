@@ -19,7 +19,7 @@ priorPublication:
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>브라질이 첫 우승의 여운을 품고 칠레에 왔지만, 우루과이는 맞대결에서 6-0을 새겼다. 단일 리그 2승 1무, 9득점 2실점. ‘마에스트로’ 호세 피엔디베네<span class="foreign-note" lang="es-UY">(José Piendibene; 우루과이 공격수, 1890~1969)</span>가 경기를 지휘했고, 앙헬 로마노와 호세 페레스는 나란히 3골을 넣었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1919년의 패배는 한 해 뒤 6골짜리 대답으로 돌아왔다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>브라질이 첫 우승의 여운을 품고 칠레에 왔지만, 우루과이는 맞대결에서 6-0을 새겼다. 단일 리그 2승 1무, 9득점 2실점. ‘마에스트로’ 호세 피엔디베네<span class="foreign-note" lang="es-UY">(José Piendibene; 우루과이 공격수, 1890-1969)</span>가 경기를 지휘했고, 앙헬 로마노와 호세 페레스는 나란히 3골을 넣었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1919년의 패배는 한 해 뒤 6골짜리 대답으로 돌아왔다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제4회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Fútbol 1920</strong></div>
 

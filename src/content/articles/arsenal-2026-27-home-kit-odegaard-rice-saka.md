@@ -18,7 +18,7 @@ featured: false
 
 <p>아스널의 2026/27 홈 유니폼은 2026년 5월 15일에 공개됐다. 나흘 뒤인 5월 19일, 맨체스터 시티가 본머스와 1-1로 비기면서 아스널은 한 경기를 남기고 22년 만의 프리미어 리그 우승을 확정했다. 새 셔츠가 매장에 걸린 첫 주에 구단은 2003/04시즌 무패 우승 이후 처음으로 잉글랜드 정상에 돌아왔다.</p>
 
-<p>그래서 올해의 빨강에는 볼 것이 한꺼번에 붙었다. 마르틴 외데고르<span class="foreign-note" lang="no">(Martin Ødegaard; 노르웨이 축구 선수, 1998년생)</span>, 데클런 라이스<span class="foreign-note" lang="en">(Declan Rice; 잉글랜드 축구 선수, 1999년생)</span>, 부카요 사카<span class="foreign-note" lang="en">(Bukayo Saka; 잉글랜드 축구 선수, 2001년생)</span>가 캠페인의 얼굴을 맡았고, 칼라와 원단에는 에미레이츠 스타디움<span class="foreign-note" lang="en">(Emirates Stadium; 2006년 문을 연 아스널의 홈 경기장)</span> 20주년이 들어갔으며, 새 시즌 소매에는 챔피언만 다는 금색 프리미어 리그 패치가 붙는다.</p>
+<p>그래서 올해의 빨강에는 볼 것이 한꺼번에 붙었다. 마르틴 외데고르<span class="foreign-note" lang="no">(Martin Ødegaard; 노르웨이 축구 선수, 1998-)</span>, 데클런 라이스<span class="foreign-note" lang="en">(Declan Rice; 잉글랜드 축구 선수, 1999-)</span>, 부카요 사카<span class="foreign-note" lang="en">(Bukayo Saka; 잉글랜드 축구 선수, 2001-)</span>가 캠페인의 얼굴을 맡았고, 칼라와 원단에는 에미레이츠 스타디움<span class="foreign-note" lang="en">(Emirates Stadium; 2006년 문을 연 아스널의 홈 경기장)</span> 20주년이 들어갔으며, 새 시즌 소매에는 챔피언만 다는 금색 프리미어 리그 패치가 붙는다.</p>
 
 <div class="ar-index" aria-label="아스널 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACES</b><strong>ØDEGAARD · RICE · SAKA</strong><span>8번과 41번, 7번이 나눠 맡은 캠페인의 첫인상</span></div>
@@ -104,7 +104,7 @@ featured: false
   </div>
 </div>
 
-같은 5월에 끝내 닫지 못한 결승도 있었다. 5월 30일 부더페슈트의 푸슈카시 아레나<span class="foreign-note" lang="hu">(Puskás Aréna; 헝가리 국가대표팀의 홈 경기장)</span>에서 열린 UEFA 챔피언스 리그 결승에서 아스널은 카이 하베르츠<span class="foreign-note" lang="de">(Kai Havertz; 독일 축구 선수, 1999년생)</span>의 6분 선제골로 앞섰지만, 65분 우스만 뎀벨레<span class="foreign-note" lang="fr">(Ousmane Dembélé; 프랑스 축구 선수, 1997년생)</span>에게 페널티킥 동점골을 내줬다. 연장까지 1-1로 끝난 경기는 승부차기 3-4 파리 생제르맹의 우승으로 정리됐다. 리그 챔피언의 금색 패치를 단 새 셔츠가 유럽 결승의 아쉬움을 안고 다음 시즌을 시작하는 셈이다.
+같은 5월에 끝내 닫지 못한 결승도 있었다. 5월 30일 부더페슈트의 푸슈카시 아레나<span class="foreign-note" lang="hu">(Puskás Aréna; 헝가리 국가대표팀의 홈 경기장)</span>에서 열린 UEFA 챔피언스 리그 결승에서 아스널은 카이 하베르츠<span class="foreign-note" lang="de">(Kai Havertz; 독일 축구 선수, 1999-)</span>의 6분 선제골로 앞섰지만, 65분 우스만 뎀벨레<span class="foreign-note" lang="fr">(Ousmane Dembélé; 프랑스 축구 선수, 1997-)</span>에게 페널티킥 동점골을 내줬다. 연장까지 1-1로 끝난 경기는 승부차기 3-4 파리 생제르맹의 우승으로 정리됐다. 리그 챔피언의 금색 패치를 단 새 셔츠가 유럽 결승의 아쉬움을 안고 다음 시즌을 시작하는 셈이다.
 
 ## 켈리·윌리엄슨·루소는 같은 빨강을 더 짧고 과감하게 입었어요
 
@@ -128,7 +128,7 @@ featured: false
   <small class="ar-credit">Williamson and Kelly photos: Arsenal FC · Russo photo: adidas, via House of Heat · Product model: adidas</small>
 </div>
 
-리아 윌리엄슨<span class="foreign-note" lang="en">(Leah Williamson; 잉글랜드 축구 선수, 1997년생)</span>, 클로이 켈리<span class="foreign-note" lang="en">(Chloe Kelly; 잉글랜드 축구 선수, 1998년생)</span>, 알레시아 루소<span class="foreign-note" lang="en">(Alessia Russo; 잉글랜드 축구 선수, 1999년생)</span>의 사진은 남자 선수 컷보다 몸의 선을 훨씬 적극적으로 쓴다. 윌리엄슨의 크롭 셔츠는 허리 위에서 끊기며 빨간 면적을 상체에 모으고, 켈리는 두 팔을 들어 올려 셔츠를 몸에 붙인 채 목폴라와 체인으로 목선을 장식했다. 루소는 셔츠 위에 은색 재킷을 걸쳐 경기복을 밤 외출복 쪽으로 옮겼다.
+리아 윌리엄슨<span class="foreign-note" lang="en">(Leah Williamson; 잉글랜드 축구 선수, 1997-)</span>, 클로이 켈리<span class="foreign-note" lang="en">(Chloe Kelly; 잉글랜드 축구 선수, 1998-)</span>, 알레시아 루소<span class="foreign-note" lang="en">(Alessia Russo; 잉글랜드 축구 선수, 1999-)</span>의 사진은 남자 선수 컷보다 몸의 선을 훨씬 적극적으로 쓴다. 윌리엄슨의 크롭 셔츠는 허리 위에서 끊기며 빨간 면적을 상체에 모으고, 켈리는 두 팔을 들어 올려 셔츠를 몸에 붙인 채 목폴라와 체인으로 목선을 장식했다. 루소는 셔츠 위에 은색 재킷을 걸쳐 경기복을 밤 외출복 쪽으로 옮겼다.
 
 따라 입을 공식도 사진 안에 이미 있다. 크롭 셔츠에는 허리선이 높은 와이드 팬츠나 트랙 팬츠를 붙여 드러난 허리를 한 뼘만 남기고, 기본 기장의 셔츠라면 루소처럼 짧은 플리츠 스커트와 긴 양말로 다리 쪽에 비율을 넘긴다. 켈리의 목폴라와 체인은 반소매 셔츠를 가을까지 끌고 가는 가장 쉬운 방법이다. 여성용 크롭 홈 셔츠 KB5586은 <a href="https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/Home/Arsenal-adidas-Womens-26-27-Crop-Home-Shirt/p/WKB5586" target="_blank" rel="noopener noreferrer">아스널 공식 스토어</a>에서 판매한다. 루소가 셔츠 밖에서 입는 테일러링은 <a href="/culture/alessia-russo-footballer-tailoring-fashion/">명품관의 알레시아 루소 편</a>에서 이어진다.
 
@@ -152,7 +152,7 @@ featured: false
 
 구단은 이번 홈 캠페인 영상에서 선수 여섯 명을 북런던부터 뉴욕까지 각지의 서포터 여섯 명과 짝지어 실제 대화를 나누게 했다. 외데고르는 이 영상과 함께 “이 셔츠를 입는다는 건 우리 자신보다 훨씬 큰 무언가를 대표한다는 뜻입니다. 전 세계 서포터가 느끼는 자부심과 소속감을 우리가 함께 짊어집니다”라고 말했다. 스튜디오 밖에서 찍은 소파와 계단 사진은 그 말을 옷의 장면으로 옮긴다. 선수가 경기장에서 입는 셔츠를 거실과 동네 계단에서도 그대로 입는다.
 
-라커룸 사진에는 사카의 7번과 에베레치 에제<span class="foreign-note" lang="en">(Eberechi Eze; 잉글랜드 축구 선수, 1998년생)</span>의 10번이 벽에 걸려 있다. 마킹을 고민한다면 캠페인 사진에 실제로 등장한 이름은 외데고르 8번, 라이스 41번, 사카 7번, 에제 10번이다.
+라커룸 사진에는 사카의 7번과 에베레치 에제<span class="foreign-note" lang="en">(Eberechi Eze; 잉글랜드 축구 선수, 1998-)</span>의 10번이 벽에 걸려 있다. 마킹을 고민한다면 캠페인 사진에 실제로 등장한 이름은 외데고르 8번, 라이스 41번, 사카 7번, 에제 10번이다.
 
 ## 일반·어센틱·긴소매, 어떤 빨강을 고를까요?
 

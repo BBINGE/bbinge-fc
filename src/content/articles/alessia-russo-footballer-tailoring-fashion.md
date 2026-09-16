@@ -45,7 +45,7 @@ fashionProfile:
     href: 'https://www.instagram.com/alessiarusso99/'
 ---
 
-축구선수의 화보라고 하면 공이나 유니폼부터 떠올리기 쉽다. 그런데 영국 패션지 《Wonderland》가 2023년 겨울호에서 알레시아 미아 테레사 루소 MBE<span class="foreign-note" lang="en">(Alessia Mia Teresa Russo MBE; 잉글랜드 축구 선수, 1999년생)</span>를 찍은 사진에는 공도 골대도 없다. 아스널<span class="foreign-note" lang="en">(Arsenal Women Football Club)</span>이나 잉글랜드 대표팀 문장도 보이지 않는다. 대신 흰 재킷과 검정 타이, 비대칭 스커트와 부츠가 그가 어떤 몸을 쓰는 사람인지 차례로 보여준다.
+축구선수의 화보라고 하면 공이나 유니폼부터 떠올리기 쉽다. 그런데 영국 패션지 《Wonderland》가 2023년 겨울호에서 알레시아 미아 테레사 루소 MBE<span class="foreign-note" lang="en">(Alessia Mia Teresa Russo MBE; 잉글랜드 축구 선수, 1999-)</span>를 찍은 사진에는 공도 골대도 없다. 아스널<span class="foreign-note" lang="en">(Arsenal Women Football Club)</span>이나 잉글랜드 대표팀 문장도 보이지 않는다. 대신 흰 재킷과 검정 타이, 비대칭 스커트와 부츠가 그가 어떤 몸을 쓰는 사람인지 차례로 보여준다.
 
 사진을 넘겨보면 넓은 어깨와 단단한 허벅지, 바닥을 안정적으로 딛는 발이 옷보다 먼저 들어온다. 루소의 몸을 익숙한 패션 모델의 체형처럼 보이게 고치는 대신, 옷의 선과 길이를 바꿀 때마다 같은 사람이 전혀 다른 분위기를 얻는다.
 

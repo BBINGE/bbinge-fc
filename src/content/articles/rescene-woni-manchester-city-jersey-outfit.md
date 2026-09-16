@@ -101,7 +101,7 @@ fashionProfile:
   </div>
 </div>
 
-하프타임 무대에서 시작된 인연은 예능 한 편으로 이어졌다. 8월 14일 오후 4시 쿠팡플레이가 공개한 '리센느의 맨시티 어택!'에는 후벵 디아스<span class="foreign-note" lang="pt">(Rúben Dias; 포르투갈 축구 선수, 1997년생)</span>, 잔루이지 돈나룸마<span class="foreign-note" lang="it">(Gianluigi Donnarumma; 이탈리아 축구 선수)</span>, 라얀 아이트누리<span class="foreign-note" lang="fr">(Rayan Aït-Nouri; 알제리 축구 선수)</span>, 니코 곤잘레스<span class="foreign-note" lang="es">(Nico González; 스페인 축구 선수)</span>가 나온다. 선수들이 리프팅과 킥을 가르치고 5 대 4 경기를 치른 뒤, 리센느는 선수들을 위해 가사를 바꾼 'LOVE ATTACK' 무대를 선보였다. 엘링 홀란<span class="foreign-note" lang="no">(Erling Haaland; 노르웨이 축구 선수, 2000년생)</span>은 이 만남을 담은 게시물에 짧은 축하를 남겼다.
+하프타임 무대에서 시작된 인연은 예능 한 편으로 이어졌다. 8월 14일 오후 4시 쿠팡플레이가 공개한 '리센느의 맨시티 어택!'에는 후벵 디아스<span class="foreign-note" lang="pt">(Rúben Dias; 포르투갈 축구 선수, 1997-)</span>, 잔루이지 돈나룸마<span class="foreign-note" lang="it">(Gianluigi Donnarumma; 이탈리아 축구 선수)</span>, 라얀 아이트누리<span class="foreign-note" lang="fr">(Rayan Aït-Nouri; 알제리 축구 선수)</span>, 니코 곤잘레스<span class="foreign-note" lang="es">(Nico González; 스페인 축구 선수)</span>가 나온다. 선수들이 리프팅과 킥을 가르치고 5 대 4 경기를 치른 뒤, 리센느는 선수들을 위해 가사를 바꾼 'LOVE ATTACK' 무대를 선보였다. 엘링 홀란<span class="foreign-note" lang="no">(Erling Haaland; 노르웨이 축구 선수, 2000-)</span>은 이 만남을 담은 게시물에 짧은 축하를 남겼다.
 
 <div class="rw-video rw-video--sub" data-inline-video data-video-src="https://www.youtube-nocookie.com/embed/-7yOXKJnzcU?autoplay=1&amp;rel=0" aria-label="쿠팡플레이 시리즈를 찾아온 리센느 원이 영상">
   <button type="button" data-inline-video-trigger data-inline-video-poster aria-label="쿠팡플레이 시리즈를 찾아온 리센느 원이 영상 재생">

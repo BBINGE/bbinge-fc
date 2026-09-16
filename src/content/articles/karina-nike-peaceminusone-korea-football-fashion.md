@@ -44,7 +44,7 @@ fashionProfile:
     href: 'https://www.instagram.com/katarinabluu/'
 ---
 
-카리나<span class="foreign-note" lang="en">(KARINA; 대한민국 가수·aespa 멤버, 2000년생)</span>의 사진을 보자마자 나는 검정 재킷의 가슴부터 확대했다. 흰색 Nike 스우시, 피스마이너스원<span class="foreign-note" lang="en">(PEACEMINUSONE; 지드래곤이 전개하는 패션 브랜드)</span> 로고, 대한민국 축구대표팀의 호랑이 문장이 세로로 붙어 있었다. 안에는 선명한 빨간 톱이 놓였고, 은색 체인이 목선을 짧게 감쌌다.
+카리나<span class="foreign-note" lang="en">(KARINA; 대한민국 가수·aespa 멤버, 2000-)</span>의 사진을 보자마자 나는 검정 재킷의 가슴부터 확대했다. 흰색 Nike 스우시, 피스마이너스원<span class="foreign-note" lang="en">(PEACEMINUSONE; 지드래곤이 전개하는 패션 브랜드)</span> 로고, 대한민국 축구대표팀의 호랑이 문장이 세로로 붙어 있었다. 안에는 선명한 빨간 톱이 놓였고, 은색 체인이 목선을 짧게 감쌌다.
 
 옷의 색은 대표팀을 떠올리게 할 만큼 분명하지만 사진은 흔한 응원 화보와 거리가 있다. 초점 앞을 가로지르는 흰 꽃잎이 얼굴과 로고를 번갈아 가리고, 두 번째 사진에서는 데이지와 카리나의 얼굴을 위아래로 잘라 한 장의 포스터처럼 붙였다. 축구 컬렉션이 아이돌 화보를 만났을 때 어떤 표정이 나오는지 이 두 장만으로도 꽤 선명하다.
 

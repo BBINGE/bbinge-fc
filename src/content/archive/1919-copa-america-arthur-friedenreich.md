@@ -21,7 +21,7 @@ draft: false
 
 <aside class="record-abstract" aria-label="기록 요약">
   <span>RECORD ABSTRACT</span>
-  <p>1918년에 열려야 했던 세 번째 남미축구선수권대회는 스페인 독감으로 한 해를 건너뛰었다. 1919년 히우지자네이루<span class="foreign-note" lang="pt-BR">(Rio de Janeiro; 브라질의 도시)</span>에서 다시 열린 대회에서 브라질은 우루과이와 승점·득실까지 같아 별도의 우승 결정전을 치렀고, 150분째 이어진 경기에서 아르투르 프리덴라이히<span class="foreign-note" lang="pt-BR">(Arthur Friedenreich; 브라질 공격수, 1892~1969)</span>가 유일한 골을 넣었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 네쿠와 함께 4골로 공동 득점왕에 오른 그는 브라질의 첫 남미 정상과 ‘첫 번째 축구 스타’의 탄생을 한 장면으로 묶었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
+  <p>1918년에 열려야 했던 세 번째 남미축구선수권대회는 스페인 독감으로 한 해를 건너뛰었다. 1919년 히우지자네이루<span class="foreign-note" lang="pt-BR">(Rio de Janeiro; 브라질의 도시)</span>에서 다시 열린 대회에서 브라질은 우루과이와 승점·득실까지 같아 별도의 우승 결정전을 치렀고, 150분째 이어진 경기에서 아르투르 프리덴라이히<span class="foreign-note" lang="pt-BR">(Arthur Friedenreich; 브라질 공격수, 1892-1969)</span>가 유일한 골을 넣었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 네쿠와 함께 4골로 공동 득점왕에 오른 그는 브라질의 첫 남미 정상과 ‘첫 번째 축구 스타’의 탄생을 한 장면으로 묶었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
 </aside>
 
 <div class="record-lead">

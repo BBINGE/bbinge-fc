@@ -20,7 +20,7 @@ featured: false
 
 FC 바르셀로나의 2026/27 홈 유니폼은 줄무늬를 새로 발명하지 않는다. 대신 짙은 남색과 밝은 파랑, 가닛이 한 줄 안에서도 조금씩 움직이게 만든다. 새 스포티파이 캄 노우<span class="foreign-note" lang="ca">(Spotify Camp Nou; FC 바르셀로나의 홈 경기장)</span> 외벽 패널의 깊이와 리듬을 셔츠 표면으로 옮긴 것이다.
 
-이 옷의 표지는 라민 야말<span class="foreign-note" lang="es">(Lamine Yamal; 스페인 축구 선수, 2007년생)</span>과 프렝키 더용<span class="foreign-note" lang="nl">(Frenkie de Jong; 네덜란드 축구 선수, 1997년생)</span>이 함께 맡아야 한다. 야말이 새 시대의 속도라면 더용은 블라우그라나를 가장 길고 차분한 선으로 보여주는 인물이다. 같은 셔츠인데 야말에게서는 에너지가, 더용에게서는 형태가 먼저 보인다.
+이 옷의 표지는 라민 야말<span class="foreign-note" lang="es">(Lamine Yamal; 스페인 축구 선수, 2007-)</span>과 프렝키 더용<span class="foreign-note" lang="nl">(Frenkie de Jong; 네덜란드 축구 선수, 1997-)</span>이 함께 맡아야 한다. 야말이 새 시대의 속도라면 더용은 블라우그라나를 가장 길고 차분한 선으로 보여주는 인물이다. 같은 셔츠인데 야말에게서는 에너지가, 더용에게서는 형태가 먼저 보인다.
 
 <div class="fb-index" aria-label="FC 바르셀로나 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>COVER</b><strong>YAMAL × DE JONG</strong><span>폭발하는 현재와 정돈된 실루엣을 한 화면에 세운 투톱</span></div>
@@ -102,7 +102,7 @@ FC 바르셀로나의 2026/27 홈 유니폼은 줄무늬를 새로 발명하지 
   <small>Pedri and Gavi campaign images: FC Barcelona, via Diario AS · Cubarsí portrait: FC Barcelona</small>
 </div>
 
-페드리<span class="foreign-note" lang="es">(Pedri; 스페인 축구 선수, 2002년생)</span>, 가비<span class="foreign-note" lang="es">(Gavi; 스페인 축구 선수, 2004년생)</span>, 파우 쿠바르시<span class="foreign-note" lang="ca">(Pau Cubarsí; 스페인 축구 선수, 2007년생)</span>는 ‘젊은 선수’라는 한 묶음보다 각기 다른 착장 모델로 보는 편이 재미있다. 페드리는 옷의 낙차, 가비는 상체의 밀도, 쿠바르시는 문장과 줄무늬가 정면에서 만드는 상징성을 맡는다.
+페드리<span class="foreign-note" lang="es">(Pedri; 스페인 축구 선수, 2002-)</span>, 가비<span class="foreign-note" lang="es">(Gavi; 스페인 축구 선수, 2004-)</span>, 파우 쿠바르시<span class="foreign-note" lang="ca">(Pau Cubarsí; 스페인 축구 선수, 2007-)</span>는 ‘젊은 선수’라는 한 묶음보다 각기 다른 착장 모델로 보는 편이 재미있다. 페드리는 옷의 낙차, 가비는 상체의 밀도, 쿠바르시는 문장과 줄무늬가 정면에서 만드는 상징성을 맡는다.
 
 ## 고든·로드리·칸셀루가 들어오자 셔츠의 계절도 달라졌어요
 
@@ -112,7 +112,7 @@ FC 바르셀로나의 2026/27 홈 유니폼은 줄무늬를 새로 발명하지 
   <article><img src="/images/culture/barcelona-2627-home/cancelo.webp" alt="FC 바르셀로나 2026/27 홈 유니폼을 입은 주앙 칸셀루" width="1200" height="1415" loading="lazy" decoding="async" /><span><small>02 · RETURN</small><strong>주앙 칸셀루</strong><em>팔의 문신과 금색 디테일이 홈 셔츠를 조금 더 장식적으로 보이게 한다.</em></span></article>
 </div>
 
-앤서니 고든<span class="foreign-note" lang="en">(Anthony Gordon; 잉글랜드 축구 선수, 2001년생)</span>, 로드리<span class="foreign-note" lang="es">(Rodri; 스페인 축구 선수, 1996년생)</span>, 주앙 칸셀루<span class="foreign-note" lang="pt">(João Cancelo; 포르투갈 축구 선수, 1994년생)</span>는 최초 공개 캠페인에 있던 얼굴들이 아니다. 시즌 스쿼드에 합류한 뒤 공식 선수 이미지에서 새 홈 셔츠를 입었다. 그래서 이 세 장은 론칭 화보의 연장이 아니라, 옷이 실제 새 시즌의 얼굴을 받아들이는 두 번째 장면이다.
+앤서니 고든<span class="foreign-note" lang="en">(Anthony Gordon; 잉글랜드 축구 선수, 2001-)</span>, 로드리<span class="foreign-note" lang="es">(Rodri; 스페인 축구 선수, 1996-)</span>, 주앙 칸셀루<span class="foreign-note" lang="pt">(João Cancelo; 포르투갈 축구 선수, 1994-)</span>는 최초 공개 캠페인에 있던 얼굴들이 아니다. 시즌 스쿼드에 합류한 뒤 공식 선수 이미지에서 새 홈 셔츠를 입었다. 그래서 이 세 장은 론칭 화보의 연장이 아니라, 옷이 실제 새 시즌의 얼굴을 받아들이는 두 번째 장면이다.
 
 고든의 17번은 속도, 로드리의 16번은 중심, 돌아온 칸셀루의 2번은 장식성을 더한다. 영입 명단을 나열하는 대신 같은 정면 사진에서 몸과 얼굴이 셔츠를 어떻게 바꾸는지 비교하면 새 시즌의 인상이 더 빨리 잡힌다.
 

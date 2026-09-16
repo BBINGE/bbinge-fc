@@ -179,7 +179,7 @@ FK 츠르베나 즈베즈다<span class="foreign-note" lang="sr-Latn">(Fudbalski
 
 <div data-football-tie="1956-57-european-cup:match-15"></div>
 
-1957년 1월 16일 빌바오에는 눈이 내렸다. 산 마메스의 그라운드가 하얗게 덮인 가운데 빌바오는 이그나시오 우리베<span class="foreign-note" lang="es">(Ignacio Uribe Etxebarria; 스페인 공격수, 1933년생)</span>의 두 골을 포함해 전반을 3-0으로 마쳤다. 맨유는 후반 초반 테일러와 바이올렛의 골로 따라붙었지만, 빌바오가 아르만도 메로디오<span class="foreign-note" lang="es">(Armando Merodio Pesquera; 스페인 공격수, 1935-2018)</span>와 아르테체의 골로 다시 달아났다. 경기 막판 휠런이 한 골을 더 넣어 점수는 5-3이 됐다. <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+1957년 1월 16일 빌바오에는 눈이 내렸다. 산 마메스의 그라운드가 하얗게 덮인 가운데 빌바오는 이그나시오 우리베<span class="foreign-note" lang="es">(Ignacio Uribe Etxebarria; 스페인 공격수, 1933-)</span>의 두 골을 포함해 전반을 3-0으로 마쳤다. 맨유는 후반 초반 테일러와 바이올렛의 골로 따라붙었지만, 빌바오가 아르만도 메로디오<span class="foreign-note" lang="es">(Armando Merodio Pesquera; 스페인 공격수, 1935-2018)</span>와 아르테체의 골로 다시 달아났다. 경기 막판 휠런이 한 골을 더 넣어 점수는 5-3이 됐다. <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 <figure><a href="/images/archive/1956-57-european-cup/san-mames-snow-1957.webp" target="_blank" rel="noopener" aria-label="1957년 1월 눈 내리는 산 마메스 경기장 흑백 사진 크게 보기"><img src="/images/archive/1956-57-european-cup/san-mames-snow-1957.webp" width="923" height="600" alt="눈이 쏟아지는 산 마메스에서 심판진과 두 팀 선수들이 경기장으로 들어서고 관중이 우산을 펼친 흑백 사진" loading="lazy" /></a><figcaption>1957년 1월 16일 산 마메스. 눈이 쏟아지는 가운데 심판진과 두 팀 선수들이 그라운드로 들어서고, 스탠드의 관중은 우산을 펼쳤다. 촬영자 미상. Wikimedia Commons 소장본.</figcaption></figure>
 

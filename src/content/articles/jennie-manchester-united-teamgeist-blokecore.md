@@ -47,7 +47,7 @@ fashionProfile:
     href: 'https://www.instagram.com/jennierubyjane/'
 ---
 
-2022년 8월 19일 공개된 BLACKPINK의 〈<span lang="en">Pink Venom</span>〉에서 제니<span class="foreign-note" lang="en">(Jennie Kim; 대한민국 가수, 1996년생)</span>는 검정 축구 셔츠를 짧게 잘라 입었다. 등에는 `JENNIE`와 태어난 해를 가리키는 숫자 `96`을 새겼고, 목에는 진주와 크리스털 장식을 여러 겹 쌓았다. 맨체스터 유나이티드를 잘 몰라도 눈길이 가는 건, 익숙한 경기복이 화려한 무대 의상으로 바뀌는 과정이 한눈에 보이기 때문이다.
+2022년 8월 19일 공개된 BLACKPINK의 〈<span lang="en">Pink Venom</span>〉에서 제니<span class="foreign-note" lang="en">(Jennie Kim; 대한민국 가수, 1996-)</span>는 검정 축구 셔츠를 짧게 잘라 입었다. 등에는 `JENNIE`와 태어난 해를 가리키는 숫자 `96`을 새겼고, 목에는 진주와 크리스털 장식을 여러 겹 쌓았다. 맨체스터 유나이티드를 잘 몰라도 눈길이 가는 건, 익숙한 경기복이 화려한 무대 의상으로 바뀌는 과정이 한눈에 보이기 때문이다.
 
 이 옷의 정식 명칭은 **아디다스 맨체스터 유나이티드 2021-22 팀가이스트 프리매치 저지**다. 선수들이 공식 경기에서 입는 홈 유니폼이 아니라, 몸풀이나 이동 때 입는 프리매치 저지<span class="foreign-note" lang="en">(pre-match jersey; 경기 전 몸풀이나 이동 때 입는 상의)</span>였다. 그 중간 지대의 옷이 K-팝 뮤직비디오로 건너오면서 다시 잘리고, 이름과 숫자를 얻고, 진주 장식의 받침이 됐다.
 

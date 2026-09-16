@@ -18,7 +18,7 @@ featured: false
 
 <p>토트넘 홋스퍼의 2026/27 홈 유니폼은 2026년 6월 19일에 나왔다. 흰 바탕에 짙은 남색이 소매 끝과 겨드랑이 아래로만 들어간 단순한 셔츠지만, 빛을 비스듬히 받으면 몸판 전체에 사선이 떠오른다. 1985년부터 1987년까지 험멜이 만든 셔츠의 사선 무늬를 색이 아니라 원단의 결로 옮긴 것이다. 구단은 이 셔츠를 다시 이어 붙이는 시기에 건네는 유산에 대한 인사라고 설명한다.</p>
 
-<p>새 셔츠를 입고 시즌을 여는 얼굴은 루카스 베리발<span class="foreign-note" lang="sv">(Lucas Bergvall; 스웨덴 축구 선수, 2006년생)</span>, 새 주장 미키 판더벤<span class="foreign-note" lang="nl">(Micky van de Ven; 네덜란드 축구 선수, 2001년생)</span>, 제임스 매디슨<span class="foreign-note" lang="en">(James Maddison; 잉글랜드 축구 선수, 1996년생)</span>, 그리고 여름에 합류한 산드로 토날리<span class="foreign-note" lang="it">(Sandro Tonali; 이탈리아 축구 선수, 2000년생)</span>다. 로베르토 데제르비<span class="foreign-note" lang="it">(Roberto De Zerbi; 이탈리아 축구 감독, 1979년생)</span> 감독은 개막 전에 판더벤을 주장으로 지명했고, 오늘 밤 토트넘 홋스퍼 스타디움에서 에버턴을 맞는다.</p>
+<p>새 셔츠를 입고 시즌을 여는 얼굴은 루카스 베리발<span class="foreign-note" lang="sv">(Lucas Bergvall; 스웨덴 축구 선수, 2006-)</span>, 새 주장 미키 판더벤<span class="foreign-note" lang="nl">(Micky van de Ven; 네덜란드 축구 선수, 2001-)</span>, 제임스 매디슨<span class="foreign-note" lang="en">(James Maddison; 잉글랜드 축구 선수, 1996-)</span>, 그리고 여름에 합류한 산드로 토날리<span class="foreign-note" lang="it">(Sandro Tonali; 이탈리아 축구 선수, 2000-)</span>다. 로베르토 데제르비<span class="foreign-note" lang="it">(Roberto De Zerbi; 이탈리아 축구 감독, 1979-)</span> 감독은 개막 전에 판더벤을 주장으로 지명했고, 오늘 밤 토트넘 홋스퍼 스타디움에서 에버턴을 맞는다.</p>
 
 <div class="th-index" aria-label="토트넘 2026/27 홈 유니폼을 읽는 세 가지 키워드">
   <div><b>THE FACES</b><strong>BERGVALL · VAN DE VEN<br />MADDISON · TONALI</strong><span>15번과 37번, 10번과 16번이 나눠 맡은 데제르비 체제의 첫 시즌</span></div>
@@ -53,7 +53,7 @@ featured: false
   <small class="th-credit">Photos: Tottenham Hotspur</small>
 </div>
 
-베리발은 2006년생으로 이 네 사람 가운데 가장 어리고, 2031년까지 계약이 되어 있다. 판더벤은 여름에 크리스티안 로메로<span class="foreign-note" lang="es-AR">(Cristian Romero; 아르헨티나 축구 선수, 1998년생)</span>가 아틀레티코 마드리드로 떠난 뒤 주장 완장을 받았는데, 지난 시즌 로메로가 다쳐 빠진 마지막 여섯 경기에서 이미 완장을 차고 팀을 끌었던 사람이다. 데제르비는 판더벤·페드로 포로·벤 데이비스·매디슨·아치 그레이 다섯 명으로 주장단을 짰다. 토날리는 뉴캐슬 유나이티드에서 9,250만 파운드에 왔고, 같은 여름에 마테우스 페르난데스와 사비우, 얀 파울 판헤커가 함께 합류하면서 중원과 수비가 통째로 바뀌었다. 양민혁은 이번 시즌 벨기에의 베스테를로로 임대됐다.
+베리발은 2006년생으로 이 네 사람 가운데 가장 어리고, 2031년까지 계약이 되어 있다. 판더벤은 여름에 크리스티안 로메로<span class="foreign-note" lang="es-AR">(Cristian Romero; 아르헨티나 축구 선수, 1998-)</span>가 아틀레티코 마드리드로 떠난 뒤 주장 완장을 받았는데, 지난 시즌 로메로가 다쳐 빠진 마지막 여섯 경기에서 이미 완장을 차고 팀을 끌었던 사람이다. 데제르비는 판더벤·페드로 포로·벤 데이비스·매디슨·아치 그레이 다섯 명으로 주장단을 짰다. 토날리는 뉴캐슬 유나이티드에서 9,250만 파운드에 왔고, 같은 여름에 마테우스 페르난데스와 사비우, 얀 파울 판헤커가 함께 합류하면서 중원과 수비가 통째로 바뀌었다. 양민혁은 이번 시즌 벨기에의 베스테를로로 임대됐다.
 
 <div class="th-night">
   <figure>
@@ -77,7 +77,7 @@ featured: false
   <div>
     <span class="th-kicker">THIS IS WHERE IT STARTS</span>
     <h3>흰 셔츠 위에 무늬를 그리지 않고 짜 넣었다</h3>
-    <p>1985년부터 1987년까지 토트넘이 입은 험멜 셔츠에는 험멜의 갈매기 문양을 크게 깔아 만든 사선이 있었다. 글렌 호들<span class="foreign-note" lang="en">(Glenn Hoddle; 잉글랜드 축구 선수, 1957년생)</span>과 크리스 워들<span class="foreign-note" lang="en">(Chris Waddle; 잉글랜드 축구 선수, 1960년생)</span>, 한 시즌에 49골을 넣은 클라이브 앨런<span class="foreign-note" lang="en">(Clive Allen; 잉글랜드 축구 선수, 1961년생)</span>이 그 셔츠를 입고 1986/87시즌 리그 3위와 FA컵 결승에 올랐다.</p>
+    <p>1985년부터 1987년까지 토트넘이 입은 험멜 셔츠에는 험멜의 갈매기 문양을 크게 깔아 만든 사선이 있었다. 글렌 호들<span class="foreign-note" lang="en">(Glenn Hoddle; 잉글랜드 축구 선수, 1957-)</span>과 크리스 워들<span class="foreign-note" lang="en">(Chris Waddle; 잉글랜드 축구 선수, 1960-)</span>, 한 시즌에 49골을 넣은 클라이브 앨런<span class="foreign-note" lang="en">(Clive Allen; 잉글랜드 축구 선수, 1961-)</span>이 그 셔츠를 입고 1986/87시즌 리그 3위와 FA컵 결승에 올랐다.</p>
     <p>나이키는 그 사선을 색으로 되살리지 않았다. 흰 실과 흰 실 사이의 짜는 방향만 바꿔 몸판과 소매, 등판에 같은 각도의 결을 만들었고, 정면 사진에서는 거의 보이지 않다가 몸이 돌아가는 순간에만 떠오른다. 남색은 겨드랑이 아래 옆 패널과 소매 끝, 스우시와 문장에만 남겼다. 칼라는 각진 구조로 짰고, 긴소매에는 폴로 칼라의 결을 넣은 소맷단을 따로 만들었다.</p>
   </div>
 </div>

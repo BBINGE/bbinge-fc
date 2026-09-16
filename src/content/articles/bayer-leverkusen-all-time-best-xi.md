@@ -51,7 +51,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ruediger-vollborn.webp" alt="뤼디거 폴보른의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-뤼디거 폴보른<span class="foreign-note" lang="de">(Rüdiger Vollborn; 독일 골키퍼, 1963년생)</span>은 레버쿠젠이라는 구단이 푸스발-분데스리가에 뿌리를 내리는 과정을 한 골문에서 지켜봤다. 1982년 유소년팀에서 올라와 공식전 494경기, 그중 푸스발-분데스리가 401경기를 뛰었다. 구단의 푸스발-분데스리가 최다 출전 기록이다. 처음부터 명문이었던 팀의 수문장이 아니라, 이제 막 1부에 적응하던 공장 팀을 유럽 우승팀으로 만드는 데 스스로의 청춘을 다 쓴 골키퍼였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+뤼디거 폴보른<span class="foreign-note" lang="de">(Rüdiger Vollborn; 독일 골키퍼, 1963-)</span>은 레버쿠젠이라는 구단이 푸스발-분데스리가에 뿌리를 내리는 과정을 한 골문에서 지켜봤다. 1982년 유소년팀에서 올라와 공식전 494경기, 그중 푸스발-분데스리가 401경기를 뛰었다. 구단의 푸스발-분데스리가 최다 출전 기록이다. 처음부터 명문이었던 팀의 수문장이 아니라, 이제 막 1부에 적응하던 공장 팀을 유럽 우승팀으로 만드는 데 스스로의 청춘을 다 쓴 골키퍼였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 폴보른의 자세는 낮고 단단했다. 슈팅을 기다리며 골라인에 붙기보다 두세 걸음 앞으로 나와 각도를 지웠고, 공중볼에는 주먹을 먼저 세웠다. 현대 골키퍼와 견주면 발밑 전개의 범위는 좁지만 판단이 단순한 덕에 수비수의 다음 행동도 분명해졌다. 잡을 공과 쳐낼 공, 나갈 공과 남을 공을 빠르게 가르는 유형이다. 백패스 규정이 바뀐 1990년대에도 생존했다는 사실은 단순한 옛날식 골키퍼가 아니었음을 말한다.
 
@@ -63,7 +63,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jens-nowotny.webp" alt="옌스 노보트니의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-옌스 다니엘 노보트니<span class="foreign-note" lang="de">(Jens Daniel Nowotny; 독일 리베로·중앙 수비수, 1974년생)</span>는 1996년 카를스루에에서 왔고 곧 레버쿠젠 수비의 질서를 맡았다. 여덟 해 동안 주장이었으며 구단 역사상 가장 오래 완장을 찬 선수다. 빠르고 기술적이며 태클이 강했다는 구단의 회고는 세 박자를 모두 짚는다. 발이 느린 최종 수비수도, 몸으로만 버티는 스토퍼도 아니었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
+옌스 다니엘 노보트니<span class="foreign-note" lang="de">(Jens Daniel Nowotny; 독일 리베로·중앙 수비수, 1974-)</span>는 1996년 카를스루에에서 왔고 곧 레버쿠젠 수비의 질서를 맡았다. 여덟 해 동안 주장이었으며 구단 역사상 가장 오래 완장을 찬 선수다. 빠르고 기술적이며 태클이 강했다는 구단의 회고는 세 박자를 모두 짚는다. 발이 느린 최종 수비수도, 몸으로만 버티는 스토퍼도 아니었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
 상대 공격수가 발밑으로 받으려 하면 앞으로 붙었고, 뒷공간을 노리면 먼저 몸을 돌렸다. 최종선에서 반칙으로 시간을 버는 대신 첫 터치를 공격 방향과 반대로 밀어냈다. 공을 빼앗은 뒤에도 급히 걷어내지 않고 짧은 패스로 중원을 찾았다. 이 팀에서 노보트니를 중앙에 둔 이유다. 루시우가 튀어나가고 타가 측면까지 넓게 막을 때, 그는 두 사람의 등 뒤에서 위험의 순서를 정한다.
 
@@ -75,7 +75,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/lucio.webp" alt="루시우의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-루시우마르 페헤이라 다 시우바, 루시우<span class="foreign-note" lang="pt-BR">(Lucimar Ferreira da Silva ‘Lúcio’; 브라질 중앙 수비수, 1978년생)</span>는 수비수가 공을 어디까지 몰고 갈 수 있는지 시험하던 선수였다. 2001년 인터나시오나우에서 왔고 레버쿠젠에서 122경기 21골을 남겼다. 센터백의 득점치고도 범상치 않다. 그 많은 골은 세트피스의 머리뿐 아니라 직접 공을 운반해 공격수처럼 박스로 들어간 결과였다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
+루시우마르 페헤이라 다 시우바, 루시우<span class="foreign-note" lang="pt-BR">(Lucimar Ferreira da Silva ‘Lúcio’; 브라질 중앙 수비수, 1978-)</span>는 수비수가 공을 어디까지 몰고 갈 수 있는지 시험하던 선수였다. 2001년 인터나시오나우에서 왔고 레버쿠젠에서 122경기 21골을 남겼다. 센터백의 득점치고도 범상치 않다. 그 많은 골은 세트피스의 머리뿐 아니라 직접 공을 운반해 공격수처럼 박스로 들어간 결과였다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 
 그의 전진은 우아한 산책보다 돌진에 가까웠다. 큰 보폭으로 첫 압박을 지나면 상대 미드필더는 수비수를 막으러 나오느라 자기 자리를 비워야 했다. 그 틈에 발라크나 제 호베르투가 돌아서고, 루시우는 패스를 내준 뒤에도 멈추지 않았다. 오늘날의 전진형 센터백, 이른바 캐리어가 전술 용어가 되기 한참 전 이미 수비선에서 숫자 우위를 만들었다.
 
@@ -87,7 +87,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jonathan-tah.webp" alt="요나단 타의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-요나단 타<span class="foreign-note" lang="de">(Jonathan Tah; 독일 중앙 수비수, 1996년생)</span>는 2015년 스무 살도 되기 전에 레버쿠젠으로 왔다. 열 시즌 동안 공식전 402경기 17골 13도움. 2025년 떠날 때 그는 유망주가 아니라 구단 역사상 출전 상위권에 오른 리더였다. 400번째 경기인 프라이부르크전에서는 종료 직전 동점골까지 넣었다. 숫자와 장면이 마침맞게 겹쳤다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
+요나단 타<span class="foreign-note" lang="de">(Jonathan Tah; 독일 중앙 수비수, 1996-)</span>는 2015년 스무 살도 되기 전에 레버쿠젠으로 왔다. 열 시즌 동안 공식전 402경기 17골 13도움. 2025년 떠날 때 그는 유망주가 아니라 구단 역사상 출전 상위권에 오른 리더였다. 400번째 경기인 프라이부르크전에서는 종료 직전 동점골까지 넣었다. 숫자와 장면이 마침맞게 겹쳤다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
 타의 첫 재산은 체격이지만 진짜 강점은 그 체격을 함부로 쓰지 않는 데 있다. 어깨를 맞대기 전에 공격수의 진행 방향을 바깥으로 몰고, 속도 경쟁이 시작되면 긴 보폭으로 간격을 줄인다. 높은 수비선에서 뒤로 달리는 수비를 오래 해왔기에 넓은 공간을 두려워하지 않는다. 세 명의 수비 중 오른쪽을 맡기면 슈나이더가 올라간 뒤의 터치라인까지 처리할 수 있다.
 
@@ -99,7 +99,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/simon-rolfes.webp" alt="시몬 롤페스의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-시몬 롤페스<span class="foreign-note" lang="de">(Simon Rolfes; 독일 수비형 미드필더, 1982년생)</span>는 2005년 알레마니아 아헨에서 합류해 열 시즌 동안 공식전 377경기 49골을 기록했다. 2008년부터 주장 완장을 찼고 은퇴 뒤에는 다시 구단으로 돌아와 스포츠 경영을 맡았다. 선수로 팀의 중심을 잡았던 이가 2024년 무패 우승팀의 설계자 가운데 한 명이 되었다. 레버쿠젠의 과거와 현재가 한 사람의 이력 안에서 이어진다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
+시몬 롤페스<span class="foreign-note" lang="de">(Simon Rolfes; 독일 수비형 미드필더, 1982-)</span>는 2005년 알레마니아 아헨에서 합류해 열 시즌 동안 공식전 377경기 49골을 기록했다. 2008년부터 주장 완장을 찼고 은퇴 뒤에는 다시 구단으로 돌아와 스포츠 경영을 맡았다. 선수로 팀의 중심을 잡았던 이가 2024년 무패 우승팀의 설계자 가운데 한 명이 되었다. 레버쿠젠의 과거와 현재가 한 사람의 이력 안에서 이어진다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
 선수 롤페스는 공을 오래 끌지 않았다. 압박이 오기 전에 몸을 반쯤 열어 다음 패스의 방향을 정했고, 수비 때는 태클 장면보다 패스 길을 먼저 닫았다. 그래서 화면에서는 조용해 보이지만 동료가 한 걸음 더 전진할 수 있었다. 이 조합에서는 루시우가 올라간 자리를 메우고 발라크가 박스로 들어간 뒤 중앙을 지킨다.
 
@@ -111,7 +111,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/michael-ballack.webp" alt="미하엘 발라크의 소속 기간, 기록과 수상 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-미하엘 발라크<span class="foreign-note" lang="de">(Michael Ballack; 독일 중앙 미드필더, 1976년생)</span>는 카이저슬라우테른의 우승 멤버로 이름을 알렸지만 세계적 미드필더가 된 곳은 레버쿠젠이었다. 1999년 합류한 뒤 크리스토프 다움과 클라우스 토프묄러 아래 수비형 미드필더에서 공격의 중심으로 올라섰다. 2001-02시즌에는 UEFA 클럽 풋볼 어워드 최우수 미드필더에 선정됐다. 구단이 말하듯 레버쿠젠에서 ‘발라크’라는 선수의 완성형이 만들어졌다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
+미하엘 발라크<span class="foreign-note" lang="de">(Michael Ballack; 독일 중앙 미드필더, 1976-)</span>는 카이저슬라우테른의 우승 멤버로 이름을 알렸지만 세계적 미드필더가 된 곳은 레버쿠젠이었다. 1999년 합류한 뒤 크리스토프 다움과 클라우스 토프묄러 아래 수비형 미드필더에서 공격의 중심으로 올라섰다. 2001-02시즌에는 UEFA 클럽 풋볼 어워드 최우수 미드필더에 선정됐다. 구단이 말하듯 레버쿠젠에서 ‘발라크’라는 선수의 완성형이 만들어졌다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
 양발 패스, 제공권, 중거리 슈팅, 박스 침투. 나열하면 만능이라는 낱말로 끝나기 쉽지만 발라크의 핵심은 도착 시점이었다. 공격수가 수비수를 끌고 나간 뒤 비어 있는 골대 정면으로 늦게 들어왔고, 크로스가 반대편으로 흐를 때 이미 헤더 자세를 만들었다. 공을 갖지 않은 몇 초가 득점 장면의 절반이었다.
 
@@ -123,7 +123,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ze-roberto.webp" alt="제 호베르투의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-주제 호베르투 다 시우바 주니오르, 제 호베르투<span class="foreign-note" lang="pt-BR">(José Roberto da Silva Júnior ‘Zé Roberto’; 브라질 왼쪽 미드필더, 1974년생)</span>는 레알 마드리드에서 자리를 얻지 못한 뒤 1998년 레버쿠젠으로 왔다. 구단 공식 기록으로 149경기 18골. 숫자만 보면 화려함이 충분히 보이지 않는다. 왼쪽 측면에서 공을 받는 순간 경기의 속도와 방향이 달라졌기 때문이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+주제 호베르투 다 시우바 주니오르, 제 호베르투<span class="foreign-note" lang="pt-BR">(José Roberto da Silva Júnior ‘Zé Roberto’; 브라질 왼쪽 미드필더, 1974-)</span>는 레알 마드리드에서 자리를 얻지 못한 뒤 1998년 레버쿠젠으로 왔다. 구단 공식 기록으로 149경기 18골. 숫자만 보면 화려함이 충분히 보이지 않는다. 왼쪽 측면에서 공을 받는 순간 경기의 속도와 방향이 달라졌기 때문이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
 첫 터치로 수비수와 거리를 만들고, 상체의 방향과 반대로 공을 밀어냈다. 발재간은 상대를 놀리는 장식이 아니라 전진할 각을 여는 기술이었다. 측면에 붙어 풀백을 끌어낸 뒤 안으로 좁혀 발라크와 짧게 주고받을 수도 있었고, 직접 엔드라인까지 가 낮은 크로스를 넣을 수도 있었다. 한 선수가 윙어와 중앙 미드필더의 일을 겸했다.
 
@@ -135,7 +135,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bernd-schneider.webp" alt="베른트 슈나이더의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-베른트 슈나이더<span class="foreign-note" lang="de">(Bernd Schneider; 독일 오른쪽 미드필더, 1973년생)</span>에게는 ‘하얀 브라질리언’이라는 별명이 따랐다. 1999년 프랑크푸르트에서 온 뒤 열 시즌을 뛰었고, 마지막에는 레버쿠젠의 명예 주장으로 남았다. 오른쪽 미드필더, 중앙 미드필더, 때로는 풀백까지 맡았으나 어디서든 공을 다루는 결은 같았다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
+베른트 슈나이더<span class="foreign-note" lang="de">(Bernd Schneider; 독일 오른쪽 미드필더, 1973-)</span>에게는 ‘하얀 브라질리언’이라는 별명이 따랐다. 1999년 프랑크푸르트에서 온 뒤 열 시즌을 뛰었고, 마지막에는 레버쿠젠의 명예 주장으로 남았다. 오른쪽 미드필더, 중앙 미드필더, 때로는 풀백까지 맡았으나 어디서든 공을 다루는 결은 같았다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a>
 
 슈나이더의 크로스는 무조건 높지 않았다. 수비수의 무릎과 골키퍼의 손 사이로 휘어 들어가는 공, 먼 쪽 발라크의 이마를 겨냥한 공, 박스 바깥으로 되돌리는 공을 구분했다. 공을 안쪽에 놓으면 왼발 패스도 자연스러웠다. 속도로 풀백을 완전히 떼어놓지 못한 날에도 방향 전환과 킥의 질로 공격을 계속 만들 수 있었다.
 
@@ -147,7 +147,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/florian-wirtz.webp" alt="플로리안 비르츠의 소속 기간, 기록과 수상 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-플로리안 비르츠<span class="foreign-note" lang="de">(Florian Wirtz; 독일 공격형 미드필더, 2003년생)</span>는 2020년 쾰른 유소년팀에서 레버쿠젠으로 건너왔다. 열여섯 살의 재능은 곧 구단 최연소 푸스발-분데스리가 출전자가 되었고, 다섯 해 반 만에 세계적인 공격형 미드필더로 떠났다. 2024년 푸스발-분데스리가·DFB-포칼 더블과 DFL-슈퍼컵, 2025년 독일 올해의 축구선수. 짧다고 하기에는 너무 많은 변화를 남긴 시간이었다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-17" aria-label="출처 17">[17]</a>
+플로리안 비르츠<span class="foreign-note" lang="de">(Florian Wirtz; 독일 공격형 미드필더, 2003-)</span>는 2020년 쾰른 유소년팀에서 레버쿠젠으로 건너왔다. 열여섯 살의 재능은 곧 구단 최연소 푸스발-분데스리가 출전자가 되었고, 다섯 해 반 만에 세계적인 공격형 미드필더로 떠났다. 2024년 푸스발-분데스리가·DFB-포칼 더블과 DFL-슈퍼컵, 2025년 독일 올해의 축구선수. 짧다고 하기에는 너무 많은 변화를 남긴 시간이었다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-17" aria-label="출처 17">[17]</a>
 
 비르츠는 공을 받기 전에 수비수의 시선을 옮긴다. 중앙에 서 있다가 패스가 출발하는 순간 반대 어깨 뒤로 움직이고, 첫 터치로 다시 골문을 향한다. 그래서 드리블의 거리가 길지 않아도 두 명을 지나간 효과가 난다. 짧은 패스를 반복하다 박스 안 동료의 발 앞으로 찔러 넣는 마지막 공, 수비가 뒤로 물러서면 직접 감아 차는 슈팅이 이어진다.
 
@@ -159,7 +159,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/cha-bum-kun.webp" alt="차범근의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-차범근<span class="foreign-note">(車範根; 대한민국 센터 포워드, 1953년생)</span>은 1983년 아인트라흐트 프랑크푸르트에서 레버쿠젠으로 왔다. 이미 독일에서 UEFA컵과 DFB-포칼을 들어 올린 공격수였지만, 레버쿠젠에서는 아직 유럽의 주요 트로피가 없던 팀을 첫 우승으로 이끌었다. 구단이 그를 회고할 때 ‘가장 중요한 골’로 1988년 에스파뇰전 헤더를 먼저 꼽는 까닭이다.<a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
+차범근<span class="foreign-note">(車範根; 대한민국 센터 포워드, 1953-)</span>은 1983년 아인트라흐트 프랑크푸르트에서 레버쿠젠으로 왔다. 이미 독일에서 UEFA컵과 DFB-포칼을 들어 올린 공격수였지만, 레버쿠젠에서는 아직 유럽의 주요 트로피가 없던 팀을 첫 우승으로 이끌었다. 구단이 그를 회고할 때 ‘가장 중요한 골’로 1988년 에스파뇰전 헤더를 먼저 꼽는 까닭이다.<a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
 
 차범근의 힘은 멈춰 선 몸보다 달리는 몸에서 커졌다. 넓은 보폭으로 수비수 옆을 통과하고, 접촉을 받은 뒤에도 상체가 쉽게 무너지지 않았다. 양발 슈팅이 가능해 수비수가 한쪽으로 몰기 어려웠으며 공을 길게 차놓고 따라가는 단순한 질주만 한 것도 아니었다. 동료에게 내주고 곧장 뒷공간으로 다시 들어가는 벽 패스, 측면에서 중앙으로 파고드는 대각선 움직임이 위력의 근간이었다.
 
@@ -171,7 +171,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ulf-kirsten.webp" alt="울프 키르스텐의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-울프 키르스텐<span class="foreign-note" lang="de">(Ulf Kirsten; 독일 센터 포워드, 1965년생)</span>은 독일 통일 뒤 디나모 드레스덴에서 건너와 1990년부터 2003년까지 레버쿠젠 한 팀에서 뛰었다. 공식전 446경기 238골, 푸스발-분데스리가 득점왕 세 차례. 1993년 DFB-포칼 결승에서는 헤르타 BSC 2군을 상대로 결승골을 넣어 구단의 첫 국내 메이저 트로피를 가져왔다.<a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
+울프 키르스텐<span class="foreign-note" lang="de">(Ulf Kirsten; 독일 센터 포워드, 1965-)</span>은 독일 통일 뒤 디나모 드레스덴에서 건너와 1990년부터 2003년까지 레버쿠젠 한 팀에서 뛰었다. 공식전 446경기 238골, 푸스발-분데스리가 득점왕 세 차례. 1993년 DFB-포칼 결승에서는 헤르타 BSC 2군을 상대로 결승골을 넣어 구단의 첫 국내 메이저 트로피를 가져왔다.<a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
 
 키르스텐은 172cm의 키로 장신 센터백 사이를 살았다. 공중볼을 힘으로 이기기보다 낙하지점을 먼저 잡았고, 박스 안에서는 큰 동작 없이 발목으로 슈팅을 끝냈다. 동료의 슛이 수비수에게 맞고 방향이 바뀌는 순간, 골키퍼가 한 번 쳐내는 순간을 기다렸다. ‘어떻게 거기 있었느냐’는 질문이 반복되는 공격수였다. 답은 우연보다 준비에 가까웠다.
 
