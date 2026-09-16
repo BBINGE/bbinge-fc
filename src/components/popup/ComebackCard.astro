@@ -6,7 +6,8 @@ import type { ComebackEntry } from '../../data/popup/comebacks';
 
 interface Props { entry: ComebackEntry; featured?: boolean; kicker?: string }
 const { entry, featured = false, kicker } = Astro.props;
-const theme = entry.competition === 'ucl' ? 'ucl' : 'world';
+// 대회 색(운영자 지시, 2026-09-16): 유러피언컵·챔스는 기존 미드나이트, UEFA컵·유로파는 유로파의 검정·오렌지, 컵위너스컵은 대회 상징색인 청록.
+const theme = entry.competition === 'ucl' ? 'ucl' : entry.competition === 'uel' ? 'uel' : 'cwc';
 const scoreLabel = entry.kind === 'aggregate' ? '합계' : '최종';
 ---
 <article class:list={['dg-card', `dg-card--${theme}`, 'cb-card', { 'is-featured': featured }]}>
