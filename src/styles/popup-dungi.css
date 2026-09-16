@@ -77,12 +77,16 @@
 .dg-scorers b::after { content: ':'; margin: 0 5px 0 1px; opacity: .6; }
 
 /* 서두: 선정 규칙과 대표 경기 서술(운영자 지시, 2026-09-16). */
-.dg-brief__lead { max-width: 860px; margin: 0 0 18px; color: var(--bbfc-text-weak, #4e5968); font-size: 15px; line-height: 1.85; word-break: keep-all; }
+.dg-brief .dg-section__head { margin-bottom: 0; }
+.dg-brief__lead { max-width: 860px; margin: 24px 0 0; color: var(--bbfc-ink); font-size: 17px; line-height: 1.9; letter-spacing: -.01em; word-break: keep-all; }
+.dg-brief__lead + .dg-brief__lead { margin-top: 19px; }
+.dg-brief__lead + .dg-rules, .dg-brief__lead + .cb-featured-pair, .dg-brief__lead + .dg-card, .dg-brief__lead + .dg-grid { margin-top: 24px; }
+@media (min-width: 768px) { .dg-brief__lead { font-size: 18px; } }
 .dg-rules { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; counter-reset: dg-rule; }
 .dg-rules li { position: relative; padding: 14px 18px 14px 52px; border: 1px solid var(--bbfc-border, #e5e8eb); border-radius: 10px; background: #fff; color: var(--bbfc-text-weak, #4e5968); font-size: 14px; line-height: 1.7; word-break: keep-all; }
 .dg-rules li::before { counter-increment: dg-rule; content: counter(dg-rule, decimal-leading-zero); position: absolute; left: 18px; top: 14px; color: var(--bbfc-blue, #1b64da); font-size: 13px; font-weight: 800; font-variant-numeric: tabular-nums; }
 .dg-rules b { display: block; margin-bottom: 2px; color: var(--bbfc-text, #191f28); font-size: 14.5px; font-weight: 750; }
-@media (max-width: 640px) { .dg-brief__lead { font-size: 14px; } .dg-rules li { padding: 12px 14px 12px 44px; font-size: 13.5px; } .dg-rules li::before { left: 14px; top: 12px; } }
+@media (max-width: 640px) { .dg-brief__lead { margin-top: 20px; } .dg-rules li { padding: 12px 14px 12px 44px; font-size: 13.5px; } .dg-rules li::before { left: 14px; top: 12px; } }
 
 /* 그 외 더보기: 접힌 상태가 카드처럼 보이도록 대회 색 띠와 점수 미리보기를 둔다. */
 .dg-more { margin-top: 16px; border-radius: 12px; background: #fff; overflow: hidden; border: 1px solid var(--bbfc-border, #e5e8eb); }

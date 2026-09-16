@@ -40,7 +40,7 @@ const uclCardMatches = uclCardTies.reduce((s, t) => s + t.legs.filter((l) => l.b
         <li><b>경기 수 세는 법</b>제목의 {total}경기는 대회별 경기 수의 합이다. 분데스리가 {counts.bundesliga} + UEFA 챔피언스 리그 {counts.ucl} + DFB-포칼 {counts.pokal} + FIFA 클럽 월드컵 {counts.clubWorldCup} + DFL-슈퍼컵 {counts.supercup}.</li>
       </ol>
     </section>
-    <section class="dg-section" aria-labelledby="dg-featured">
+    <section class="dg-section dg-brief" aria-labelledby="dg-featured">
       <div class="dg-section__head"><p>NO. 1</p><h2 id="dg-featured">2012-13 UEFA 챔피언스 리그 4강, FC 바르셀로나 합계 7-0</h2></div>
       <p class="dg-brief__lead">2013년 4월 23일 알리안츠 아레나와 5월 1일 캄 노우. 바이언은 챔피언스 리그 4강 두 경기에서 바르셀로나를 4-0, 3-0으로 꺾었다. 1차전은 뮐러의 두 골과 고메스, 로번이 채웠고 2차전은 로번과 뮐러 사이에 피케의 자책골이 끼었다. 합계 7-0, 그리고 그 시즌 바이언은 분데스리가와 DFB-포칼과 챔피언스 리그를 모두 가져갔다. 아래 카드의 흰 막대가 그 일곱 골이다.</p>
       <DungiCard featured kicker="대표 카드" stage={featured.title} opponent={featured.opponent} crest={featured.opponentCrest} score={featured.aggregate} legs={featured.legs} twoLeg />
