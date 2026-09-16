@@ -1,22 +1,23 @@
 ---
-// 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리를 새로 만들지 않고 기간 한정 기획전을 여는 자리.
+// 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리를 새로 만들지 않고 특집을 여는 자리.
+// 상시 개방·이름 유지 확정(운영자, 2026-09-17): 지난 팝업도 닫지 않으므로 기간 한정 문구를 쓰지 않고, 카드 라벨은 회차·개관일로 쓴다.
 import Layout from '../../layouts/Layout.astro';
 import { total } from '../../data/popup/bayern-dungi';
 import { total as comebackTotal } from '../../data/popup/comebacks';
 import { counts as rivalryCounts } from '../../data/popup/rivalries';
 
 const popups = [
-  { href: '/popup/big-club-rivalries/', kicker: 'NOW OPEN · 2026.9', title: '유럽 해외축구 빅클럽간 맞대결 역대전적 모음(박빙인 것만, 2026년 버전)', deck: `유럽 대항전에서 여섯 번 넘게 만나고도 승패와 골이 갈리지 않은 ${rivalryCounts.total}대진을 연대 막대로.`, image: '/images/popup/rivalries/card.webp' },
-  { href: '/popup/european-comebacks/', kicker: 'NOW OPEN · 2026.9', title: `이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 ${comebackTotal}경기 ㄷㄷ)`, deck: 'UEFA 공식 기록 전체 시즌에서 1차전 3골 차, 한 경기 3골 차를 뒤집은 역전극을 골 타임라인으로.', image: '/images/popup/comebacks/card.webp' },
-  { href: '/popup/bayern-dungi/', kicker: 'NOW OPEN · 2026.9', title: `바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 ${total}경기 ㄷㄷ)`, deck: '2010-11시즌 이후 분데스리가·UEFA 챔피언스 리그·컵 대회 대승을 스코어와 골 타임라인으로.', image: '/images/popup/bayern-dungi/card.webp' },
+  { href: '/popup/big-club-rivalries/', kicker: 'POP-UP 03 · 2026.09 개관', title: '유럽 해외축구 빅클럽간 맞대결 역대전적 모음(박빙인 것만, 2026년 버전)', deck: `유럽 대항전에서 여섯 번 넘게 만나고도 승패와 골이 갈리지 않은 ${rivalryCounts.total}대진을 연대 막대로.`, image: '/images/popup/rivalries/card.webp' },
+  { href: '/popup/european-comebacks/', kicker: 'POP-UP 02 · 2026.09 개관', title: `이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 ${comebackTotal}경기 ㄷㄷ)`, deck: 'UEFA 공식 기록 전체 시즌에서 1차전 3골 차, 한 경기 3골 차를 뒤집은 역전극을 골 타임라인으로.', image: '/images/popup/comebacks/card.webp' },
+  { href: '/popup/bayern-dungi/', kicker: 'POP-UP 01 · 2026.09 개관', title: `바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 ${total}경기 ㄷㄷ)`, deck: '2010-11시즌 이후 분데스리가·UEFA 챔피언스 리그·컵 대회 대승을 스코어와 골 타임라인으로.', image: '/images/popup/bayern-dungi/card.webp' },
 ];
 ---
-<Layout title="팝업관 - 기간 한정 기획전" description="삥이FC 1층 팝업관. 층별 서가와 따로 여는 기간 한정 축구 기획전을 모았다." breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }]}>
+<Layout title="팝업관 - 층별 서가와 따로 여는 특집" description="삥이FC 1층 팝업관. 층별 서가와 따로 여는 축구 특집을 모았다. 지난 팝업도 닫지 않고 상시 열어둔다." breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }]}>
   <div class="popup-hall">
     <header class="popup-hall__head">
       <p><span>01F</span> POP-UP STORE</p>
       <h1>팝업관</h1>
-      <span>층별 서가와 따로 여는 기간 한정 기획전</span>
+      <span>층별 서가와 따로 여는 특집</span>
     </header>
     <ul class="popup-hall__list">
       {popups.map((p) => (

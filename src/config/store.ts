@@ -38,7 +38,7 @@ export interface StoreLocation {
 }
 
 const locations: readonly (StoreLocation & { matches: readonly string[] })[] = [
-  // 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리 밖의 기간 한정 기획전.
+  // 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리 밖에서 특집을 여는 자리. 상시 개방·이름 유지 확정(운영자, 2026-09-17).
   { floor: '01', name: '팝업관', en: 'POP-UP STORE', href: '/popup/', matches: ['/popup/'], nearby: [{ floor: '01', label: '메인 로비', href: '/' }, { floor: '05', label: '오락실', href: '/play/' }] },
   { floor: '02', name: '명품관', en: 'LUXURY BOUTIQUE HALL', href: '/culture/boutique/', matches: ['/culture/boutique/'], nearby: [{ floor: '03', label: '오뭐입?', href: '/culture/outfits/' }, { floor: '03', label: '유니폼관', href: '/culture/kits/' }] },
   { floor: '03', name: '오뭐입?', en: 'OOTD · BLOCKCORE', href: '/culture/outfits/', matches: ['/culture/outfits/'], nearby: [{ floor: '02', label: '명품관', href: '/culture/boutique/' }, { floor: '03', label: '유니폼관', href: '/culture/kits/' }] },
