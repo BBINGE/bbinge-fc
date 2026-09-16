@@ -27,7 +27,7 @@ featured: false
 
 ## 1967-68 시즌이 남긴 숫자
 
-<div class="custom-xi-honours" aria-label="1967-68 시즌 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>1</strong><span>유러피언컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="풋볼 리그 디비전 1 트로피" loading="lazy"><strong>2</strong><span>풋볼 리그 디비전 1 준우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="FA 채리티 실드 트로피" loading="lazy"><strong>1</strong><span>FA 채리티 실드 공동 보유</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인터콘티넨털컵 트로피" loading="lazy"><strong>2</strong><span>인터콘티넨털컵 준우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>2</strong><span>발롱도르 1·2위 동시 배출</span></div></div>
+<div class="custom-xi-honours" aria-label="1967-68 시즌 대회별 최종 순위"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>1</strong><span>유러피언컵 우승</span></div><div><strong>2</strong><span>풋볼 리그 디비전 1</span></div><div><strong>1</strong><span>FA 채리티 실드 공동 보유</span></div><div><strong>2</strong><span>인터콘티넨털컵</span></div><div><strong>1·2</strong><span>발롱도르 동시 배출</span></div></div>
 
 발롱도르는 조지 베스트가 받았고 바비 찰턴 경이 2위였다. 한 구단이 그해 유럽 최고 선수의 1위와 2위를 동시에 차지한 것이다. 리그에서는 같은 도시의 맨체스터 시티에 우승을 내주고 준우승했고, FA컵은 3라운드에서 토트넘 홋스퍼에 막혀 일찍 끝났다. 시즌 앞의 FA 채리티 실드는 그 토트넘과 3-3으로 비겨 타이틀을 나눠 가졌다. 그리고 5월 29일 웸블리에서 유러피언컵을 들었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
