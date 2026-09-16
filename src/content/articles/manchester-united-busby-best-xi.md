@@ -69,7 +69,7 @@ featured: false
 
 <article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/alex-stepney.webp" alt="알렉스 스테프니 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>GK · GOALKEEPER</span><h4>알렉스 스테프니</h4><small lang="en">Alexander Cyril Stepney</small><dl><div><dt>국적</dt><dd>잉글랜드</dd></div><div><dt>시즌 기록</dt><dd>54경기 66실점 16클린시트</dd></div><div><dt>선정 근거</dt><dd>결승에서 에우제비우를 막은 골키퍼</dd></div></dl></div></article>
 
-맨체스터 유나이티드 첫 번째 빅 이어 획득에 지대한 공을 세웠던 골키퍼이며, 1960~70년대 잉글랜드 무대를 호령하던 골키퍼가 바로 알렉스 스테프니<span class="foreign-note" lang="en">(Alexander Cyril Stepney; 잉글랜드 골키퍼, 1942-)</span>였다. 더불어 잉글랜드 축구 국가대표팀 유니폼을 입고 같은 해였던 UEFA 유로 1968에서도 조국의 동메달을 이끌기도 했었다. 주전은 당연히 고든 뱅크스<span class="foreign-note" lang="en">(Gordon Banks; 잉글랜드 골키퍼, 1937-2019)</span>였다.
+맨체스터 유나이티드 첫 번째 빅 이어 획득에 지대한 공을 세웠던 골키퍼이며, 1960~70년대 잉글랜드 무대를 호령하던 골키퍼가 바로 알렉스 스테프니<span class="foreign-note" lang="en">(Alexander Cyril Stepney; 잉글랜드 골키퍼, 1942-)</span>였다. 더불어 같은 해 UEFA 유로 1968에서는 잉글랜드 대표팀에 뽑혀 조국의 3위를 함께했다. 주전은 당연히 고든 뱅크스<span class="foreign-note" lang="en">(Gordon Banks; 잉글랜드 골키퍼, 1937-2019)</span>였고, 알프 램지 감독이 뱅크스 뒤에 둔 백업 두 명 가운데 한 명이 스테프니였다. 그의 A매치 데뷔는 1968년 5월 스웨덴과의 친선경기였는데, 그 경기가 유러피언컵 결승을 꼭 일주일 앞둔 날이었다. 그리고 그 한 경기가 그의 대표팀 경력 전부가 된다.
 
 특히 벤피카와의 결승전에서 에우제비우<span class="foreign-note" lang="pt-PT">(Eusébio da Silva Ferreira; 모잠비크 출신 포르투갈 공격수, 1942-2014)</span>, 안토니우 시몽이스<span class="foreign-note" lang="pt-PT">(António Simões; 포르투갈 윙어, 1943-)</span>, 주제 토헤스<span class="foreign-note" lang="pt-PT">(José Augusto Torres; 포르투갈 센터 포워드, 1938-2010)</span>로 이어지는 삼각편대를 상대로 뚫리지 않은 선방 쇼를 펼쳤으며, 에우제비우가 넘지 못한 몇 안 되는 골키퍼가 알렉스 스테프니이기도 하다.
 
@@ -135,13 +135,13 @@ featured: false
 
 <article class="custom-xi-player"><img src="/images/squads/manchester-united-busby-best-xi/pat-crerand.webp" alt="팻 크레란드 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><h4>팻 크레란드</h4><small lang="en">Patrick Timothy Crerand</small><dl><div><dt>국적</dt><dd>스코틀랜드</dd></div><div><dt>시즌 기록</dt><dd>55경기 1골 5도움</dd></div><div><dt>선정 근거</dt><dd>스타일스와 찰턴을 잇는 윤활유</dd></div></dl></div></article>
 
-‘영국 축구계는 스코틀랜드 출신 감독·선수를 빼면 절반의 가치가 퇴보할’ 수준이라고 찬사를 보낼 수 있을 정도로 스코틀랜드에는 1966-67 셀틱 트레블 멤버들을 더불어 잉글랜드 무대에서 뛰던 스코틀랜드 역사를 꽃피운 명 선수들이 많았는데 그중 한 명이 바로 팻 크레란드<span class="foreign-note" lang="en">(Patrick Timothy Crerand; 스코틀랜드 미드필더, 1939-)</span>였다. 여담으로 영국 역대 최고의 감독이라 평가되는 조크 스타인, 빌 샹클리, 맷 버스비 경, 알렉스 퍼거슨 경, 케니 달글리시 경 모두 스코틀랜드 출신.
+‘영국 축구계는 스코틀랜드 출신 감독·선수를 빼면 절반의 가치가 퇴보할’ 수준이라고 찬사를 보낼 수 있을 정도로 스코틀랜드에는 1966-67 셀틱의 5관왕 멤버들을 더불어 잉글랜드 무대에서 뛰던 스코틀랜드 역사를 꽃피운 명 선수들이 많았는데 그중 한 명이 바로 팻 크레란드<span class="foreign-note" lang="en">(Patrick Timothy Crerand; 스코틀랜드 미드필더, 1939-)</span>였다. 여담으로 영국 역대 최고의 감독이라 평가되는 조크 스타인, 빌 샹클리, 맷 버스비 경, 알렉스 퍼거슨 경, 케니 달글리시 경 모두 스코틀랜드 출신.
 
 팻 크레란드는 조지 베스트, 바비 찰턴 경, 데니스 로 등에게 가려져서 이름값이 낮을 뿐 당시 맨유에 있어 없어서는 안 될 선수 중 한 명이었는데 노비 스타일스, 바비 찰턴을 적절히 윤활할 수 있는 플레이 스타일을 지니고 있었으며, 어쩌면 노비 스타일스와 조금 더 유사한 면이 있던 미드필더이기도 했었다.
 
 바비 찰턴이 그라운드 이곳저곳을 휘저을 수 있던 원동력 중 하나가 스타일스와 크레란드의 존재 덕분이었는데 팻 크레란드는 이러한 스타일을 대변이라도 하듯이 “제가 태어나고 자란 곳은 달리거나 싸울 줄 알아야 했어요.”라고 인터뷰한 적도 있었으며, 특히 조지 베스트가 크레란드에 대해 평가하길 “그는 스코틀랜드 괴짜에요.”라는 표현까지 섞으며 그의 축구 스타일에 대한 경외심을 드러내기도 했던 사례도 있었다.
 
-한 가지 덧붙이면, 크레란드는 1966-67 셀틱의 유러피언컵 우승 멤버가 아니라 그 셀틱에서 1963년에 맨체스터로 건너온 선수다. 같은 시기 스코틀랜드 출신 지도자와 선수가 잉글랜드 축구의 뼈대를 이루고 있었다는 사실이 이 한 사람의 이동 경로에도 남아 있다.
+한 가지 덧붙이면, 크레란드는 1966-67 셀틱의 우승 멤버가 아니라 그 셀틱에서 1963년에 맨체스터로 건너온 선수다. 그가 떠난 뒤의 셀틱은 1966-67시즌에 스코티시 리그와 컵, 리그컵, 글래스고컵, 그리고 유러피언컵까지 다섯 대회를 모두 가져갔다. 축구 역사에서 한 시즌에 다섯 개를 쓸어 담은 사례는 이때의 셀틱뿐이다. 같은 시기 스코틀랜드 출신 지도자와 선수가 잉글랜드 축구의 뼈대를 이루고 있었다는 사실이 이 한 사람의 이동 경로에도 남아 있다.
 
 ### 8. 바비 찰턴 경｜공격형·중앙 미드필더
 

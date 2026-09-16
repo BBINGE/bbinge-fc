@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 136" role="img" aria-label="라리가 우승 트로피">
+  <title>라리가 우승 트로피</title>
+  <g fill="#d9b26a">
+    <path d="M52 8h16v12H52z"/>
+    <path d="M44 24h32c8 0 12 8 12 24 0 26-11 44-28 48-17-4-28-22-28-48 0-16 4-24 12-24Zm3 12c-2 3-3 8-3 12 0 19 6 32 16 36 10-4 16-17 16-36 0-4-1-9-3-12H47Z"/>
+    <path d="M54 100h12v14h14v10H40v-10h14v-14Z"/>
+    <rect x="32" y="126" width="56" height="6" rx="2"/>
+  </g>
+</svg>

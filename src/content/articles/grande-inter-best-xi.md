@@ -28,7 +28,7 @@ featured: false
 
 ## 그란데 인테르가 남긴 숫자
 
-<div class="custom-xi-honours" aria-label="1960년부터 1972년까지 주요 성과"><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>2</strong><span>유러피언컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="유러피언컵 트로피" loading="lazy"><strong>2</strong><span>유러피언컵 준우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="세리에 A 우승 트로피" loading="lazy"><strong>4</strong><span>세리에 A 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="인테르컨티넨탈컵 트로피" loading="lazy"><strong>2</strong><span>인테르컨티넨탈컵 우승</span></div><div><img src="/images/about-champions-league-trophy.webp" alt="발롱도르 트로피" loading="lazy"><strong>5</strong><span>발롱도르 포디움</span></div></div>
+<div class="custom-xi-honours" aria-label="1960년부터 1972년까지 주요 성과"><div><img src="/images/trophies/european-cup.svg" alt="유러피언컵 트로피" loading="lazy" width="38" height="43"><strong>2</strong><span>유러피언컵 우승</span></div><div><img src="/images/trophies/european-cup.svg" alt="유러피언컵 트로피" loading="lazy" width="38" height="43"><strong>2</strong><span>유러피언컵 준우승</span></div><div><img src="/images/trophies/serie-a.svg" alt="세리에 A 우승 트로피" loading="lazy" width="38" height="43"><strong>4</strong><span>세리에 A 우승</span></div><div><img src="/images/trophies/intercontinental-cup.svg" alt="인터콘티넨털컵 트로피" loading="lazy" width="38" height="43"><strong>2</strong><span>인터콘티넨털컵 우승</span></div><div><img src="/images/trophies/ballon-dor.svg" alt="발롱도르 트로피" loading="lazy" width="38" height="43"><strong>5</strong><span>발롱도르 포디움</span></div></div>
 
 그란데 인테르를 단순히 ‘수비만 한 팀’이라고 설명하면 절반도 보지 못한 셈이다. 아리스티데 과르네리는 당시 팀을 돌아보며 “우리에겐 다섯 명의 정상급 공격수가 있었고, 산 시로에서는 결코 수비적이지 않았다”고 말했다. 피키가 마지막 공간을 읽고, 과르네리와 부르니치가 상대를 지우는 동안 파케티는 왼쪽을 타고 전진했다. 그 앞에서는 수아레스가 경기의 설계도를 그리고, 마촐라·코르소·자이르가 서로 다른 속도로 골문을 흔들었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
@@ -100,7 +100,7 @@ featured: false
 
 자친토 파케티<span class="foreign-note" lang="it">(Giacinto Facchetti; 이탈리아 축구선수·왼쪽 풀백, 1942-2006)</span>는 레프트백이라는 자리의 지도를 바꾼 선수였다. 지금이야 풀백이 상대 페널티 지역까지 올라가는 장면이 익숙하지만, 당시에는 수비수 한 명이 자기 자리를 비운다는 것 자체가 모험이었다. 큰 키의 파케티가 긴 보폭으로 하프라인을 넘기 시작하면 그 모험은 곧 정해진 공격 패턴이 됐다. 상대는 윙어만 막아서는 왼쪽을 닫을 수 없었다.
 
-인테르에서만 17년을 뛰며 주장과 구단 회장까지 지낸 상징이기도 하다. 구단 공식 기록 기준 634경기 75골. 수비수의 득점 기록이라고 생각하면 숫자의 인상이 달라진다. 네 차례 스쿠데토와 두 차례 유러피언컵, 두 차례 인테르컨티넨탈컵을 남겼고, 훗날 정장을 입고도 같은 구단을 이끌었다. 공격하는 풀백의 계보를 말할 때 니우통 산투스<span class="foreign-note" lang="pt-BR">(Nílton dos Santos; 브라질 축구선수·왼쪽 풀백, 1925-2013)</span>와 함께 가장 먼저 불려야 할 이름이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+인테르에서만 17년을 뛰며 주장과 구단 회장까지 지낸 상징이기도 하다. 구단 공식 기록 기준 634경기 75골. 수비수의 득점 기록이라고 생각하면 숫자의 인상이 달라진다. 네 차례 스쿠데토와 두 차례 유러피언컵, 두 차례 인터콘티넨털컵을 남겼고, 훗날 정장을 입고도 같은 구단을 이끌었다. 공격하는 풀백의 계보를 말할 때 니우통 산투스<span class="foreign-note" lang="pt-BR">(Nílton dos Santos; 브라질 축구선수·왼쪽 풀백, 1925-2013)</span>와 함께 가장 먼저 불려야 할 이름이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
 ### 5. 타르치시오 부르니치｜오른쪽 풀백
 
@@ -108,7 +108,7 @@ featured: false
 
 피키가 타르치시오 부르니치<span class="foreign-note" lang="it">(Tarcisio Burgnich; 이탈리아 축구선수·오른쪽 풀백, 1939-2021)</span>에게 붙인 별명은 ‘바위’였다. 별명부터 경기 방식이 보인다. 파케티가 왼쪽에서 운동장을 넓히는 동안 부르니치는 오른쪽 문을 잠갔다. 강한 체격과 좀처럼 흐트러지지 않는 집중력으로 가장 위험한 상대를 직접 맡았고, 필요할 때는 그 단단한 몸을 그대로 전진의 힘으로 바꿨다.
 
-두 풀백은 같은 방식으로 뛰지 않았기에 더 강했다. 한쪽 문이 열리면 반대쪽은 더 단단히 닫혔고, 그 뒤에는 피키가 있었다. 이 비대칭이 그란데 인테르 수비의 묘미다. 부르니치는 인테르에서 467경기 6골을 기록하며 네 차례 스쿠데토, 두 차례 유러피언컵과 인테르컨티넨탈컵을 함께했다. 숫자는 파케티보다 조용하지만, 왕조가 모험할 수 있게 만든 쪽은 이 ‘바위’였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+두 풀백은 같은 방식으로 뛰지 않았기에 더 강했다. 한쪽 문이 열리면 반대쪽은 더 단단히 닫혔고, 그 뒤에는 피키가 있었다. 이 비대칭이 그란데 인테르 수비의 묘미다. 부르니치는 인테르에서 467경기 6골을 기록하며 네 차례 스쿠데토, 두 차례 유러피언컵과 인터콘티넨털컵을 함께했다. 숫자는 파케티보다 조용하지만, 왕조가 모험할 수 있게 만든 쪽은 이 ‘바위’였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 ### 6. 카를로 타그닌｜수비형 미드필더
 
@@ -156,7 +156,7 @@ featured: false
 
 안젤로 도멩기니·레나토 카펠리니·로베르토 보닌세냐처럼 더 오래 활약한 공격수도 있다. 그래도 마지막 자리는 아우렐리오 밀라니<span class="foreign-note" lang="it">(Aurelio Milani; 이탈리아 축구선수·센터 포워드, 1934-2014)</span>에게 줬다. 베스트 11을 누적 경기 수로만 고르면 나오기 어려운 이름이다. 하지만 밀라니는 강한 체격으로 중앙 수비수를 붙잡아 두고, 마촐라와 두 윙어가 파고들 통로를 몸으로 만들었다.
 
-1964년 결승에서는 마촐라의 선제골 뒤 두 번째 골을 넣어 레알 마드리드의 추격을 더 어렵게 만들었다. 같은 해 인테르컨티넨탈컵에서도 CA 인데펜디엔테<span class="foreign-note" lang="es">(Club Atlético Independiente; 아르헨티나 아베야네다를 연고로 하는 축구단)</span>를 상대로 득점했다. 척추 부상으로 전성기는 너무 일찍 끝났다. 그래서 그의 기록은 길지 않지만 장면은 크다. 그란데 인테르가 처음 유럽과 세계의 정상에 오르던 순간, 상대 센터백 사이에서 길을 열고 있던 중앙 공격수가 밀라니였다.
+1964년 결승에서는 마촐라의 선제골 뒤 두 번째 골을 넣어 레알 마드리드의 추격을 더 어렵게 만들었다. 같은 해 인터콘티넨털컵에서도 CA 인데펜디엔테<span class="foreign-note" lang="es">(Club Atlético Independiente; 아르헨티나 아베야네다를 연고로 하는 축구단)</span>를 상대로 득점했다. 척추 부상으로 전성기는 너무 일찍 끝났다. 그래서 그의 기록은 길지 않지만 장면은 크다. 그란데 인테르가 처음 유럽과 세계의 정상에 오르던 순간, 상대 센터백 사이에서 길을 열고 있던 중앙 공격수가 밀라니였다.
 
 ## 베스트 11 밖의 후보들
 
