@@ -1,6 +1,6 @@
 # BBinge FC — 장기 운영 규칙
 
-Claude와 다른 AI 도구의 새 세션 읽기 순서는 `AGENTS.md` §1을 따른다. `BBINGE_FC_BRIEF.md` → 이 문서 → `EDITORIAL_WRITING_RULES.md` → `CONTENT_EDITORIAL_INTENT.md` → `HANDOFF.md`의 현재 실행 브리프 순서다. HANDOFF의 전체 연대기를 매번 읽지 않는다. `EDITORIAL_RISK_GATE.md`와 `EDITORIAL_ASSET_POLICY.md`는 자산·위험 판단 작업에서, `PLAYER_ARCHIVE_RULES.md`는 선수 아카이브 작업에서, `ARCHIVE_SERIES_RULES.md`는 발롱도르·시상관·유러피언컵·결승전 H/L 작업에서 추가로 읽는다. 오랜만에 들어온 세션은 로컬 기억·과거 대화보다 이 문서들과 실제 코드를 기준으로 따라잡는다. 편집 의도는 `CONTENT_EDITORIAL_INTENT.md`, 정확한 문체·원어 규격은 `EDITORIAL_WRITING_RULES.md`, 현재 구현 상태는 HANDOFF가 담당한다. 과거 설계와 승인된 현행 구현의 차이는 최신 합의와 실제 코드를 대조하며, 옛 문서 문구를 근거로 현행 기능을 되돌리지 않는다.
+Claude와 다른 AI 도구의 새 세션 읽기 순서는 `AGENTS.md` §1을 따른다. `BBINGE_FC_BRIEF.md` → 이 문서 → `EDITORIAL_WRITING_RULES.md` → `CONTENT_EDITORIAL_INTENT.md` → `HANDOFF.md`의 현재 실행 브리프 순서다. HANDOFF의 전체 연대기를 매번 읽지 않는다. `EDITORIAL_RISK_GATE.md`와 `EDITORIAL_ASSET_POLICY.md`는 자산·위험 판단 작업에서, `PLAYER_ARCHIVE_RULES.md`는 선수 아카이브 작업에서, `ARCHIVE_SERIES_RULES.md`는 발롱도르·시상관·유러피언컵·결승전 H/L 작업에서, `SQUAD_ARCHIVE_RULES.md`는 축쿼드 작업에서 추가로 읽는다. 오랜만에 들어온 세션은 로컬 기억·과거 대화보다 이 문서들과 실제 코드를 기준으로 따라잡는다. 편집 의도는 `CONTENT_EDITORIAL_INTENT.md`, 정확한 문체·원어 규격은 `EDITORIAL_WRITING_RULES.md`, 현재 구현 상태는 HANDOFF가 담당한다. 과거 설계와 승인된 현행 구현의 차이는 최신 합의와 실제 코드를 대조하며, 옛 문서 문구를 근거로 현행 기능을 되돌리지 않는다.
 
 ## 프로젝트와 사용자
 
@@ -58,6 +58,7 @@ Claude와 다른 AI 도구의 새 세션 읽기 순서는 `AGENTS.md` §1을 따
 - 유럽대항전의 역사적 명칭은 대회 시기를 따른다. `UEFA컵`, `유러피언컵`, `유러피언 컵위너스컵`을 사용하며 `UEFA 컵`, `유러피언 컵`, `UEFA 컵위너스컵`, `컵 위너스 컵`으로 쓰지 않는다. 현재 대회는 `UEFA 챔피언스 리그`, `UEFA 유로파 리그`, `UEFA 컨퍼런스 리그`로 쓴다. Intercontinental Cup은 `인터콘티넨털컵`, Inter-Cities Fairs Cup은 `인터시티스 페어스컵`으로 쓴다(`인터컨티넨탈컵` 금지). FC 바르셀로나 홈구장 Camp Nou는 원어 고증에 따라 `캄 노우`로 쓰고 검색어라는 이유로 `캄프 누`를 쓰지 않는다(운영자 확정, 2026-09-15, `validate-editorial-writing.mjs`가 차단).
 - 국가대표 대회의 정식명은 `UEFA 유러피언 풋볼 챔피언십`(`UEFA European Football Championship`)이며, 본문 통용명은 `UEFA 유로`로 쓴다. 1960·1964년은 당시 명칭 `유러피언 네이션스컵`을 병기할 수 있다. `유럽선수권`, `UEFA 유럽선수권`, `UEFA 유러피언 챔피언십`으로 줄여 쓰지 않는다.
 - 모든 원고는 `EDITORIAL_WRITING_RULES.md`의 운영자 1인칭, 소제목, 문장 흐름, 선택적 원어 병기, 제작 과정 비노출 규칙을 적용한다. 친근한 표현 자체를 금지하지 않되 AI가 운영자의 말투를 지어내지 않는다.
+- 축쿼드는 `SQUAD_ARCHIVE_RULES.md`의 계열 구분·마크업 규격·숫자 문법·출처 앵커·발행 검수 규칙을 모두 적용한다. 새 편을 쓰기 전에 같은 계열의 최근 발행 편을 열어 마크업을 눈으로 대조한다. 규칙 문서만 읽고 쓰지 않는다.
 - 선수 인물 아카이브는 `PLAYER_ARCHIVE_RULES.md`의 제목·원어·기록·등번호·개인 수상·사진·출처·발행 검수 규칙을 모두 적용한다. 운영자가 `올려`, `발행`, `공개`라고 명시하면 검수와 실배포 확인까지 완료한다.
 - 글쓰기 검수 실패 시 원고를 수정한 뒤 `npm run test:writing-rules`, `npm run validate:writing`, `npm run build`를 다시 실행한다. 실패 회피를 위한 검사 완화나 예외 추가는 금지한다.
 - 선수 검수 실패 시 push·배포를 중단한다. 오류가 가리킨 원고·표기·UI 원인을 수정한 뒤 `npm run test:player-rules`, `npm run validate:players`, `npm run build`를 처음부터 다시 실행한다. 스크립트·기준값·빌드 명령을 실패 회피 목적으로 완화하지 않는다.

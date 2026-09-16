@@ -31,6 +31,7 @@
 
 - `EDITORIAL_RISK_GATE.md` + `EDITORIAL_ASSET_POLICY.md`: 새 콘텐츠의 사진·영상·썸네일을 고르거나 수정할 때, 또는 저작권·AdSense·출처·저가치·사이트 위험을 묻거나 감사할 때
 - `PLAYER_ARCHIVE_RULES.md`: 선수 인물 아카이브를 조사·작성·수정·발행할 때
+- `SQUAD_ARCHIVE_RULES.md`: 축쿼드(`/squads/`) 새 편을 쓰거나 기존 편을 고칠 때
 - `ARCHIVE_SERIES_RULES.md`: 발롱도르·시상관 및 유러피언컵·결승전 H/L을 조사·작성·수정·발행하거나 집·회사에서 이어받을 때
 
 이미 같은 세션에서 읽은 문서는 파일이 변경되지 않았다면 다시 읽지 않는다.
@@ -97,6 +98,7 @@ npm run validate:risk-gate
 - 새 글을 쓰거나 기존 원고·소제목·캡션을 수정할 때는 `EDITORIAL_WRITING_RULES.md`를 적용한다. A 경로는 중복 검사를 피하고 `npm run build` 한 번으로 포함된 검수를 실행하며, B·C 경로는 범위에 맞는 개별 검사와 빌드를 통과시킨다.
 - CMS(`public/admin/`, `functions/`)를 수정할 때는 Sveltia CMS 설정과 GitHub OAuth 흐름의 호환성을 함께 확인한다.
 - 선수 인물 글을 조사·수정·발행할 때는 `PLAYER_ARCHIVE_RULES.md`의 체크리스트를 생략하지 않는다.
+- 축쿼드 새 편은 `SQUAD_ARCHIVE_RULES.md`를 읽고, 그다음 같은 계열의 최근 발행 편 마크업을 실제로 열어 대조한다. 발행 전 `npm run validate:squad-structure`를 돌린다.
 - 선수 인물 글의 개인 수상·기록·등번호를 수정하기 전에는 카푸와 카카의 같은 섹션을 실제 파일에서 대조한다. `통일`을 새 해설·새 항목을 늘리라는 뜻으로 재해석하지 않는다.
 - 검수 실패는 발행 중단 신호다. 오류 문구에서 원인을 찾고 해당 원고나 코드를 수정한 뒤 같은 검사를 다시 실행한다. 검수 스크립트 삭제·완화·우회, 빌드 명령 변경, 실패한 상태의 push는 금지한다.
 
