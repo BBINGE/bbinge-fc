@@ -43,7 +43,7 @@ const draw = async (width, height, out, square) => {
       .era .ax{position:absolute;left:0;right:0;top:50%;height:2px;background:rgba(255,255,255,.16)}
       .era i{position:absolute;width:${square ? 13 : 10}px;height:${square ? 13 : 10}px;margin-left:-${square ? 6.5 : 5}px;border-radius:50%}
       .era i.a{top:${square ? 12 : 8}px;background:#fff}
-      .era i.b{bottom:${square ? 12 : 8}px;background:#78dcff}
+      .era i.b{bottom:${square ? 12 : 8}px;background:#fff}
       .era i.d{top:50%;margin-top:-${square ? 6.5 : 5}px;background:transparent;border:2px solid rgba(255,255,255,.55)}
       .cap{position:absolute;left:70px;bottom:${square ? 86 : 20}px;font-size:${square ? 26 : 21}px;font-weight:700;color:rgba(255,255,255,.62)}
     </style>`);

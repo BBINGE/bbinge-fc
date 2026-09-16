@@ -6,11 +6,11 @@ import RivalryTimeline from './RivalryTimeline.astro';
 interface Props { rivalry: Rivalry; featured?: boolean; kicker?: string }
 const { rivalry, featured = false, kicker } = Astro.props;
 const { a, b, record, goals, meetings } = rivalry;
-// 대회 색은 그 대진에서 가장 많이 만난 대회를 따른다(운영자 확정 색 체계).
-const main = [...rivalry.competitions].sort((x, y) => y.count - x.count)[0]?.key ?? 'ucl';
+// 카드 색은 대회가 아니라 이 팝업 하나의 색을 쓴다(운영자 지시, 2026-09-16).
+// 한 대진이 여러 대회에 걸쳐 있어 대회별로 칠하면 같은 기획 안에서 색이 들쭉날쭉해진다.
 const decisive = meetings.filter((m) => m.round === '결승' || m.round === '4강');
 ---
-<article class:list={['dg-card', `dg-card--${main}`, 'rv-card', { 'is-featured': featured }]}>
+<article class:list={['dg-card', 'dg-card--rivalry', 'rv-card', { 'is-featured': featured }]}>
   {kicker && <p class="dg-card__kicker">{kicker}</p>}
   <p class="dg-card__stage">{rivalry.first.slice(0, 4)}-{rivalry.last.slice(0, 4)} · {rivalry.matches}경기</p>
   <div class="dg-scoreboard">

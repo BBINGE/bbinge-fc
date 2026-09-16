@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-16T09:15:49.939Z",
+ "fetchedAt": "2026-09-16T11:12:37.928Z",
  "rule": {
   "minMatches": 6,
   "winDiff": 1,
@@ -43,7 +43,7 @@
   "Marseille|FRA": "올랭피크 드 마르세유",
   "Lyon|FRA": "올랭피크 리옹",
   "Monaco|FRA": "AS 모나코 FC",
-  "St Etienne|FRA": "AS 생테티엔",
+  "St-Étienne|FRA": "AS 생테티엔",
   "Reims|FRA": "스타드 드 랭스",
   "Benfica|POR": "SL 벤피카",
   "Porto|POR": "FC 포르투",
@@ -66,12 +66,9 @@
   "Zenit|RUS": "FC 제니트 상트페테르부르크",
   "Crvena Zvezda|SRB": "츠르베나 즈베즈다",
   "Sparta Praha|CZE": "AC 스파르타 프라하",
-  "Dinamo Zagreb|CRO": "GNK 디나모 자그레브"
+  "GNK Dinamo|CRO": "GNK 디나모 자그레브"
  },
- "missingClubs": [
-  "St Etienne|FRA",
-  "Dinamo Zagreb|CRO"
- ],
+ "missingClubs": [],
  "rivalries": [
   {
    "key": "Bayern München|GER::Real Madrid|ESP",
@@ -10203,6 +10200,153 @@
      "score": {
       "away": 0,
       "home": 3
+     },
+     "penalty": null,
+     "aggregateWinner": null,
+     "aggregateReason": null
+    }
+   ]
+  },
+  {
+   "key": "Celtic|SCO::GNK Dinamo|CRO",
+   "a": "Celtic|SCO",
+   "b": "GNK Dinamo|CRO",
+   "crests": {
+    "Celtic|SCO": "https://img.uefa.com/imgml/TP/teams/logos/700x700/50050.png",
+    "GNK Dinamo|CRO": "https://img.uefa.com/imgml/TP/teams/logos/700x700/50164.png"
+   },
+   "matches": 7,
+   "record": {
+    "aWin": 3,
+    "draw": 1,
+    "bWin": 3
+   },
+   "goals": {
+    "a": 9,
+    "b": 9
+   },
+   "first": "1963-12-04",
+   "last": "2024-12-10",
+   "competitions": {
+    "cwc": 2,
+    "ucl": 3,
+    "uel": 2
+   },
+   "legs": [
+    {
+     "id": "57821",
+     "competition": "cwc",
+     "seasonYear": 1964,
+     "date": "1963-12-04",
+     "round": "FIRST",
+     "leg": 1,
+     "home": "Celtic|SCO",
+     "away": "GNK Dinamo|CRO",
+     "score": {
+      "away": 0,
+      "home": 3
+     },
+     "penalty": null,
+     "aggregateWinner": "50050",
+     "aggregateReason": "WIN_ON_AGGREGATE"
+    },
+    {
+     "id": "57822",
+     "competition": "cwc",
+     "seasonYear": 1964,
+     "date": "1963-12-11",
+     "round": "FIRST",
+     "leg": 2,
+     "home": "GNK Dinamo|CRO",
+     "away": "Celtic|SCO",
+     "score": {
+      "away": 1,
+      "home": 2
+     },
+     "penalty": null,
+     "aggregateWinner": "50050",
+     "aggregateReason": "WIN_ON_AGGREGATE"
+    },
+    {
+     "id": "55587",
+     "competition": "ucl",
+     "seasonYear": 1998,
+     "date": "1998-08-12",
+     "round": "SECOND_QUALIFYING",
+     "leg": 1,
+     "home": "Celtic|SCO",
+     "away": "GNK Dinamo|CRO",
+     "score": {
+      "away": 0,
+      "home": 1
+     },
+     "penalty": null,
+     "aggregateWinner": "50164",
+     "aggregateReason": "WIN_ON_AGGREGATE"
+    },
+    {
+     "id": "55588",
+     "competition": "ucl",
+     "seasonYear": 1998,
+     "date": "1998-08-26",
+     "round": "SECOND_QUALIFYING",
+     "leg": 2,
+     "home": "GNK Dinamo|CRO",
+     "away": "Celtic|SCO",
+     "score": {
+      "away": 0,
+      "home": 3
+     },
+     "penalty": null,
+     "aggregateWinner": "50164",
+     "aggregateReason": "WIN_ON_AGGREGATE"
+    },
+    {
+     "id": "2014462",
+     "competition": "uel",
+     "seasonYear": 2015,
+     "date": "2014-10-02",
+     "round": "GROUP_STANDINGS",
+     "leg": null,
+     "home": "Celtic|SCO",
+     "away": "GNK Dinamo|CRO",
+     "score": {
+      "away": 0,
+      "home": 1
+     },
+     "penalty": null,
+     "aggregateWinner": null,
+     "aggregateReason": null
+    },
+    {
+     "id": "2014558",
+     "competition": "uel",
+     "seasonYear": 2015,
+     "date": "2014-12-11",
+     "round": "GROUP_STANDINGS",
+     "leg": null,
+     "home": "GNK Dinamo|CRO",
+     "away": "Celtic|SCO",
+     "score": {
+      "away": 3,
+      "home": 4
+     },
+     "penalty": null,
+     "aggregateWinner": null,
+     "aggregateReason": null
+    },
+    {
+     "id": "2042012",
+     "competition": "ucl",
+     "seasonYear": 2025,
+     "date": "2024-12-10",
+     "round": "GROUP_STANDINGS",
+     "leg": null,
+     "home": "GNK Dinamo|CRO",
+     "away": "Celtic|SCO",
+     "score": {
+      "away": 0,
+      "home": 0
      },
      "penalty": null,
      "aggregateWinner": null,

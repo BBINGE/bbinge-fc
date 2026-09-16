@@ -33,7 +33,7 @@ const BIG_CLUBS = {
   'Bayern München|GER': 'FC 바이에른 뮌헨', 'B. Dortmund|GER': '보루시아 도르트문트', 'Leipzig|GER': 'RB 라이프치히',
   'Leverkusen|GER': '바이어 04 레버쿠젠', 'Frankfurt|GER': '아인트라흐트 프랑크푸르트', 'Hamburg|GER': '함부르크 SV',
   'Paris|FRA': '파리 생제르맹 FC', 'Marseille|FRA': '올랭피크 드 마르세유', 'Lyon|FRA': '올랭피크 리옹',
-  'Monaco|FRA': 'AS 모나코 FC', 'St Etienne|FRA': 'AS 생테티엔', 'Reims|FRA': '스타드 드 랭스',
+  'Monaco|FRA': 'AS 모나코 FC', 'St-Étienne|FRA': 'AS 생테티엔', 'Reims|FRA': '스타드 드 랭스',
   'Benfica|POR': 'SL 벤피카', 'Porto|POR': 'FC 포르투', 'Sporting CP|POR': '스포르팅 CP',
   'Ajax|NED': 'AFC 아약스', 'PSV|NED': 'PSV 에인트호번', 'Feyenoord|NED': '페예노르트 로테르담',
   'Celtic|SCO': '셀틱 FC', 'Rangers|SCO': '레인저스 FC',
@@ -42,7 +42,7 @@ const BIG_CLUBS = {
   'Olympiacos|GRE': '올림피아코스 FC', 'Panathinaikos|GRE': '파나티나이코스 FC',
   'Dynamo Kyiv|UKR': 'FC 디나모 키이우', 'Shakhtar|UKR': 'FC 샤흐타르 도네츠크',
   'Spartak Moskva|RUS': 'FC 스파르타크 모스크바', 'CSKA Moskva|RUS': 'PFC CSKA 모스크바', 'Zenit|RUS': 'FC 제니트 상트페테르부르크',
-  'Crvena Zvezda|SRB': '츠르베나 즈베즈다', 'Sparta Praha|CZE': 'AC 스파르타 프라하', 'Dinamo Zagreb|CRO': 'GNK 디나모 자그레브',
+  'Crvena Zvezda|SRB': '츠르베나 즈베즈다', 'Sparta Praha|CZE': 'AC 스파르타 프라하', 'GNK Dinamo|CRO': 'GNK 디나모 자그레브',
 };
 
 const MIN_MATCHES = 6;

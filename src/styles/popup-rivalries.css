@@ -3,6 +3,10 @@
 .rv-hero .dg-hero__eyebrow span { background: var(--bbfc-blue); }
 .rv-page .dg-section__head p { color: var(--bbfc-blue); }
 
+/* 카드 색(운영자 지시, 2026-09-16): 대회별로 나누지 않고 이 팝업 하나의 색으로 통일한다. */
+.dg-card--rivalry { --dg-night: #0b1526; --dg-accent: #6fb4ff; --dg-soft: #c3d6f0; --dg-line: rgba(180,208,245,.2); border-color: rgba(110,160,235,.3); }
+.dg-card--rivalry::before { background: radial-gradient(circle at 8% 16%, rgba(70,150,255,.3), transparent 38%), radial-gradient(circle at 94% 86%, rgba(255,255,255,.07), transparent 34%), linear-gradient(132deg, #081020 0%, #12294b 46%, #1b3f6e 72%, #0b1526 100%); }
+
 /* 스코어 자리에 놓는 승·무·패 */
 .rv-score strong { gap: 2px; }
 .rv-score strong b { font-variant-numeric: tabular-nums; }
