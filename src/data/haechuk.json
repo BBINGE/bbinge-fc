@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:51:36.422Z",
+  "updatedAt": "2026-09-16T01:06:57.628Z",
   "days": {
     "yesterday": "2026-09-15",
     "today": "2026-09-16",
@@ -6354,6 +6354,9 @@
     "scoreboard esp.1: 400 Bad Request",
     "scoreboard ita.1: 400 Bad Request",
     "scoreboard ger.1: 400 Bad Request",
-    "scoreboard uefa.champions: 400 Bad Request"
+    "scoreboard fra.1: 400 Bad Request",
+    "scoreboard uefa.champions: 400 Bad Request",
+    "scoreboard uefa.europa: 400 Bad Request",
+    "scoreboard uefa.europa.conf: 400 Bad Request"
   ]
 }
