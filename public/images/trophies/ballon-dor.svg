@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 136" role="img" aria-label="발롱도르 트로피">
+  <title>발롱도르 트로피</title>
+  <circle cx="60" cy="52" r="42" fill="#d9b26a"/>
+  <g fill="#050505">
+    <path d="M60 28l14 10-5 16H51l-5-16 14-10Z"/>
+    <path d="M28 46l10-8 8 10-5 15-13-2v-15Zm64 0v15l-13 2-5-15 8-10 10 8ZM44 74l7-5h18l7 5-6 13H50l-6-13Z"/>
+  </g>
+  <path fill="#d9b26a" d="M48 96h24v14h14c3 0 5 2 5 5v11H29v-11c0-3 2-5 5-5h14V96Z"/>
+</svg>

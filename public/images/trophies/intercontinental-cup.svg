@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 136" role="img" aria-label="인터콘티넨털컵 트로피">
+  <title>인터콘티넨털컵 트로피</title>
+  <g fill="#d9b26a">
+    <path d="M44 16h32l-4 62H48l-4-62Z"/>
+    <path d="M40 16H24v28c0 12 7 21 19 25l3-11c-7-3-11-8-11-15V27h5V16Z"/>
+    <path d="M80 16h16v28c0 12-7 21-19 25l-3-11c7-3 11-8 11-15V27h-5V16Z"/>
+    <path d="M48 78h24v22h10v10H38v-10h10V78Z"/>
+    <rect x="30" y="114" width="60" height="12" rx="3"/>
+  </g>
+</svg>
