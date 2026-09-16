@@ -78,8 +78,9 @@
 
 /* 서두: 선정 규칙과 대표 경기 서술(운영자 지시, 2026-09-16). */
 .dg-brief .dg-section__head { margin-bottom: 0; }
-.dg-brief__lead { max-width: 860px; margin: 24px 0 0; color: var(--bbfc-ink); font-size: 17px; line-height: 1.9; letter-spacing: -.01em; word-break: keep-all; }
+.dg-brief__lead { margin: 24px 0 0; color: var(--bbfc-ink); font-size: 17px; line-height: 1.9; letter-spacing: -.01em; word-break: keep-all; text-wrap: pretty; }
 .dg-brief__lead + .dg-brief__lead { margin-top: 19px; }
+.dg-brief__lead .foreign-note { font-size: max(.72em, 12px); line-height: inherit; font-weight: 400; letter-spacing: 0; color: var(--bbfc-gray-2); vertical-align: baseline; }
 .dg-brief__lead + .dg-rules, .dg-brief__lead + .cb-featured-pair, .dg-brief__lead + .dg-card, .dg-brief__lead + .dg-grid { margin-top: 24px; }
 @media (min-width: 768px) { .dg-brief__lead { font-size: 18px; } }
 .dg-rules { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; counter-reset: dg-rule; }
