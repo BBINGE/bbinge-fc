@@ -1,15 +1,19 @@
 ---
 // 1층 팝업관(운영자 결정, 2026-09-16): 층·카테고리를 새로 만들지 않고 특집을 여는 자리.
 // 상시 개방·이름 유지 확정(운영자, 2026-09-17): 지난 팝업도 닫지 않으므로 기간 한정 문구를 쓰지 않고, 카드 라벨은 회차·개관일로 쓴다.
+// 포스터 월 확정(운영자, 2026-09-17): 포스터가 주인공인 1:1 그리드(데스크톱 3열·좁은 화면 2열).
+// 목록에는 짧은 표시명(name)과 한 줄 훅(deck)을 쓰고 긴 검색용 제목은 각 팝업 페이지가 갖는다.
+// 관 자체는 중립(잉크·블루)으로 두고 색은 포스터가 말한다. 첫 팝업 시절의 빨강 UI는 쓰지 않는다.
 import Layout from '../../layouts/Layout.astro';
 import { total } from '../../data/popup/bayern-dungi';
 import { total as comebackTotal } from '../../data/popup/comebacks';
 import { counts as rivalryCounts } from '../../data/popup/rivalries';
 
+// 회차는 개관 순서로 고정한다. 박빙 편은 운영자가 제목을 원안으로 확정한 편이라 `ㄷㄷ`를 붙이지 않는다.
 const popups = [
-  { href: '/popup/big-club-rivalries/', kicker: 'POP-UP 03 · 2026.09 개관', title: '유럽 해외축구 빅클럽간 맞대결 역대전적 모음(박빙인 것만, 2026년 버전)', deck: `유럽 대항전에서 여섯 번 넘게 만나고도 승패와 골이 갈리지 않은 ${rivalryCounts.total}대진을 연대 막대로.`, image: '/images/popup/rivalries/card.webp' },
-  { href: '/popup/european-comebacks/', kicker: 'POP-UP 02 · 2026.09 개관', title: `이스탄불의 기적부터 안필드까지: 유럽 대항전 역전극 모음.Zip(무려 ${comebackTotal}경기 ㄷㄷ)`, deck: 'UEFA 공식 기록 전체 시즌에서 1차전 3골 차, 한 경기 3골 차를 뒤집은 역전극을 골 타임라인으로.', image: '/images/popup/comebacks/card.webp' },
-  { href: '/popup/bayern-dungi/', kicker: 'POP-UP 01 · 2026.09 개관', title: `바이에른 뮌헨(바이언) 둔기론: 역대 대승 참사 모음(무려 ${total}경기 ㄷㄷ)`, deck: '2010-11시즌 이후 분데스리가·UEFA 챔피언스 리그·컵 대회 대승을 스코어와 골 타임라인으로.', image: '/images/popup/bayern-dungi/card.webp' },
+  { href: '/popup/big-club-rivalries/', no: 'POP-UP 03', open: '2026.09 개관', name: '빅클럽 박빙 상대전적', deck: `승패도 골도 안 갈린 ${rivalryCounts.total}대진`, image: '/images/popup/rivalries/card.webp' },
+  { href: '/popup/european-comebacks/', no: 'POP-UP 02', open: '2026.09 개관', name: '유럽 대항전 역전극', deck: `3골 차를 뒤집은 ${comebackTotal}경기 ㄷㄷ`, image: '/images/popup/comebacks/card.webp' },
+  { href: '/popup/bayern-dungi/', no: 'POP-UP 01', open: '2026.09 개관', name: '바이언 둔기론', deck: `역대 대승 참사 ${total}경기 ㄷㄷ`, image: '/images/popup/bayern-dungi/card.webp' },
 ];
 ---
 <Layout title="팝업관 - 층별 서가와 따로 여는 특집" description="삥이FC 1층 팝업관. 층별 서가와 따로 여는 축구 특집을 모았다. 지난 팝업도 닫지 않고 상시 열어둔다." breadcrumbs={[{ label: '홈', href: '/' }, { label: '팝업관', href: '/popup/' }]}>
@@ -19,12 +23,13 @@ const popups = [
       <h1>팝업관</h1>
       <span>층별 서가와 따로 여는 특집</span>
     </header>
-    <ul class="popup-hall__list">
+    <ul class="popup-wall">
       {popups.map((p) => (
         <li><a href={p.href}>
-          <span class="popup-hall__crest"><img src={p.image} alt="" width="168" height="168" decoding="async" /></span>
-          <span class="popup-hall__copy"><small>{p.kicker}</small><strong>{p.title}</strong><em>{p.deck}</em></span>
-          <i aria-hidden="true">→</i>
+          <span class="popup-wall__poster"><img src={p.image} alt="" width="540" height="540" loading="lazy" decoding="async" /></span>
+          <small><b>{p.no}</b><i>{p.open}</i></small>
+          <strong>{p.name}</strong>
+          <em>{p.deck}</em>
         </a></li>
       ))}
     </ul>
@@ -38,23 +43,34 @@ const popups = [
   .popup-hall__head p span { display: inline-grid; place-items: center; min-width: 44px; height: 26px; border-radius: 999px; background: var(--bbfc-blue); color: #fff; }
   .popup-hall__head h1 { margin: 10px 0 0; font-size: 36px; font-weight: 850; letter-spacing: -.04em; }
   .popup-hall__head > span { display: block; margin-top: 6px; color: rgba(255,255,255,.72); font-size: 15px; }
-  .popup-hall__list { display: grid; gap: 12px; margin: 20px 0 0; padding: 0; list-style: none; }
-  .popup-hall__list a { display: grid; grid-template-columns: 168px minmax(0, 1fr) auto; align-items: center; gap: 30px; padding: 20px 28px 20px 20px; border: 1px solid var(--bbfc-border); border-radius: 14px; background: #fff; color: var(--bbfc-ink); transition: border-color .16s ease, transform .16s ease; }
-  .popup-hall__list a:hover { border-color: #d20515; transform: translateY(-2px); }
-  .popup-hall__crest { display: grid; place-items: center; width: 168px; height: 168px; border-radius: 16px; background: radial-gradient(circle at 30% 20%, #a8061a, #1a0306); }
-  .popup-hall__crest { overflow: hidden; }
-  .popup-hall__crest img { width: 100%; height: 100%; object-fit: cover; }
-  .popup-hall__copy small { display: block; color: #b8081a; font-size: 12px; font-weight: 800; letter-spacing: .1em; }
-  .popup-hall__copy strong { display: block; margin-top: 8px; font-size: 24px; line-height: 1.35; font-weight: 800; letter-spacing: -.03em; word-break: keep-all; }
-  .popup-hall__copy em { display: block; margin-top: 8px; color: var(--bbfc-gray-1); font-size: 15px; font-style: normal; line-height: 1.6; word-break: keep-all; }
-  .popup-hall__list i { font-style: normal; font-size: 24px; color: #b8081a; }
+
+  .popup-wall { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 20px; margin: 24px 0 0; padding: 0; list-style: none; }
+  .popup-wall a { display: block; color: var(--bbfc-ink); }
+  .popup-wall__poster { display: block; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: 14px; background: var(--bbfc-ink); transition: border-color .16s ease, transform .16s ease; }
+  .popup-wall__poster img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; }
+  .popup-wall a:hover .popup-wall__poster,
+  .popup-wall a:focus-visible .popup-wall__poster { border-color: var(--bbfc-blue); transform: translateY(-3px); }
+  .popup-wall small { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: 11.5px; font-weight: 800; letter-spacing: .1em; }
+  .popup-wall small b { color: var(--bbfc-blue); }
+  .popup-wall small i { font-style: normal; color: var(--bbfc-gray-1); font-weight: 700; letter-spacing: .04em; }
+  .popup-wall strong { display: block; margin-top: 7px; font-size: 20px; line-height: 1.35; font-weight: 800; letter-spacing: -.03em; word-break: keep-all; }
+  .popup-wall em { display: block; margin-top: 6px; color: var(--bbfc-gray-1); font-size: 14px; font-style: normal; line-height: 1.55; word-break: keep-all; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .popup-wall__poster { transition: border-color .16s ease; }
+    .popup-wall a:hover .popup-wall__poster,
+    .popup-wall a:focus-visible .popup-wall__poster { transform: none; }
+  }
+  @media (max-width: 900px) {
+    .popup-wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 14px; }
+    .popup-wall strong { font-size: 17px; }
+  }
   @media (max-width: 600px) {
     .popup-hall { padding: 14px 12px 48px; }
     .popup-hall__head { padding: 22px 18px 18px; }
-    .popup-hall__list a { grid-template-columns: 96px minmax(0, 1fr); gap: 14px; padding: 12px; }
-    .popup-hall__crest { width: 96px; height: 96px; border-radius: 12px; }
-    
-    .popup-hall__copy strong { font-size: 16px; }
-    .popup-hall__list i { display: none; }
+    .popup-wall { gap: 18px 12px; }
+    .popup-wall small { gap: 6px; font-size: 10.5px; }
+    .popup-wall strong { margin-top: 6px; font-size: 15px; }
+    .popup-wall em { font-size: 12.5px; }
   }
 </style>
