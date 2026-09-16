@@ -35,8 +35,8 @@ const clubCount = new Set(rows.flatMap((r) => [r.a.key, r.b.key])).size;
       <tbody>
         {rows.map((r) => (
           <tr>
-            <td data-label="날짜"><span class="dg-more__team">{r.a.crest ? <img src={r.a.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{r.a.short}</span></td>
-            <td data-label="대회"><span class="dg-more__team">{r.b.crest ? <img src={r.b.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}{r.b.short}</span></td>
+            <td data-label="날짜"><span class="dg-more__team rv-more__team">{r.a.crest ? <img src={r.a.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}<b>{r.a.name}</b>{r.a.flag && <img class="rv-more__flag" src={r.a.flag} alt={`${r.a.country} 국기`} width="18" height="13" loading="lazy" decoding="async" />}</span></td>
+            <td data-label="대회"><span class="dg-more__team rv-more__team">{r.b.crest ? <img src={r.b.crest} alt="" width="22" height="22" loading="lazy" decoding="async" /> : <i aria-hidden="true"></i>}<b>{r.b.name}</b>{r.b.flag && <img class="rv-more__flag" src={r.b.flag} alt={`${r.b.country} 국기`} width="18" height="13" loading="lazy" decoding="async" />}</span></td>
             <td data-label="상대"><b>{r.record.aWin}승 {r.record.draw}무 {r.record.bWin}패</b></td>
             <td data-label="장소">{r.goals[0]}:{r.goals[1]}</td>
             <td data-label="스코어" class="dg-more__score">{r.matches}</td>

@@ -10,9 +10,10 @@ const { rivalry } = Astro.props;
 const { meetings, a, b } = rivalry;
 const ticks = [1960, 1980, 2000, 2020].filter((y) => y > yearRange.min && y < yearRange.max);
 const pos = (year: number) => ((year - yearRange.min) / (yearRange.max - yearRange.min)) * 100;
+// 색의 위계는 승패가 결정한다. 동률이면 양쪽이 같은 무게다(운영자 지시, 2026-09-16).
 const label = `${a.short} 대 ${b.short} 연대 막대: ${meetings.length}경기 가운데 ${a.short} ${rivalry.record.aWin}승, 무승부 ${rivalry.record.draw}, ${b.short} ${rivalry.record.bWin}승. ${rivalry.first.slice(0, 4)}년부터 ${rivalry.last.slice(0, 4)}년까지.`;
 ---
-<div class="rv-era" role="img" aria-label={label}>
+<div class:list={['rv-era', rivalry.lead ? `is-lead-${rivalry.lead}` : 'is-even']} role="img" aria-label={label}>
   <span class="rv-era__side rv-era__side--top" aria-hidden="true">{a.short}</span>
   <div class="rv-era__track" aria-hidden="true">
     {ticks.map((y) => <i class="rv-era__tick" style={`--x:${pos(y)}%`}></i>)}

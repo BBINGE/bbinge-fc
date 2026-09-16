@@ -106,7 +106,7 @@ draft: false
   <div><b>함부르거 SV</b><p>대인방어와 세계적 개인을 갖춘 유벤투스를 만난 결승, 후반의 압박 변화</p><p>상대의 담당자를 이동으로 끌어낸 뒤 빈 공간을 집단이 공격하고 다시 방어</p></div>
 </section>
 
-1976년 UEFA컵에서는 올랭피크 리옹·입스위치 타운·AS 로마·AC 밀란·함부르거 SV를 차례로 넘었고, 결승에서 리버풀과 1·2차전 합계 3-4로 졌다. 2년 뒤 유러피언컵에서는 아틀레티코 마드리드와 유벤투스를 꺾고 다시 리버풀을 만났다. 이미 한 번 유럽 결승을 경험한 팀이 더 높은 대회의 결승으로 돌아온 것이다.
+1976년 UEFA컵에서는 올랭피크 리오네·입스위치 타운·AS 로마·AC 밀란·함부르거 SV를 차례로 넘었고, 결승에서 리버풀과 1·2차전 합계 3-4로 졌다. 2년 뒤 유러피언컵에서는 아틀레티코 마드리드와 유벤투스를 꺾고 다시 리버풀을 만났다. 이미 한 번 유럽 결승을 경험한 팀이 더 높은 대회의 결승으로 돌아온 것이다.
 
 결승 직전에는 선수 구성이 무너졌다. 라울 랑베르<span class="foreign-note" lang="nl">(Raoul Lambert; 벨기에 축구 선수·공격수, 1944-)</span>·폴 쿠랑<span class="foreign-note" lang="nl">(Paul Courant; 벨기에 축구 선수·미드필더, 1949-)</span>·요스 폴더르스<span class="foreign-note" lang="nl">(Jos Volders; 벨기에 축구 선수·수비수, 1949-)</span>가 부상으로 선발에서 빠졌다. 하펠은 구단에서 한 경기만 뛴 헝가리 공격수 러요시 퀴<span class="foreign-note" lang="hu">(Kű Lajos; 헝가리 축구 선수·미드필더, 1948-2024)</span>를 투입했다. 비르거 옌센<span class="foreign-note" lang="da">(Birger Jensen; 덴마크 축구 선수·골키퍼, 1951-2023)</span>의 선방으로 버텼지만 케니 달글리시<span class="foreign-note" lang="en">(Sir Kenneth Mathieson Dalglish; 스코틀랜드 축구 선수·감독, 1951-)</span>에게 결승골을 내주며 0-1로 졌다.<a class="cite" href="#source-7" aria-label="출처 7 다시 보기">[7]</a>
 

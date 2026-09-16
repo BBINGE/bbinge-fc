@@ -32,7 +32,7 @@ const BIG_CLUBS = {
   'Atalanta|ITA': '아탈란타 BC', 'Parma|ITA': '파르마 칼치오 1913',
   'Bayern München|GER': 'FC 바이에른 뮌헨', 'B. Dortmund|GER': '보루시아 도르트문트', 'Leipzig|GER': 'RB 라이프치히',
   'Leverkusen|GER': '바이어 04 레버쿠젠', 'Frankfurt|GER': '아인트라흐트 프랑크푸르트', 'Hamburg|GER': '함부르크 SV',
-  'Paris|FRA': '파리 생제르맹 FC', 'Marseille|FRA': '올랭피크 드 마르세유', 'Lyon|FRA': '올랭피크 리옹',
+  'Paris|FRA': '파리 생제르맹 FC', 'Marseille|FRA': '올랭피크 드 마르세유', 'Lyon|FRA': '올랭피크 리오네',
   'Monaco|FRA': 'AS 모나코 FC', 'St-Étienne|FRA': 'AS 생테티엔', 'Reims|FRA': '스타드 드 랭스',
   'Benfica|POR': 'SL 벤피카', 'Porto|POR': 'FC 포르투', 'Sporting CP|POR': '스포르팅 CP',
   'Ajax|NED': 'AFC 아약스', 'PSV|NED': 'PSV 에인트호번', 'Feyenoord|NED': '페예노르트 로테르담',

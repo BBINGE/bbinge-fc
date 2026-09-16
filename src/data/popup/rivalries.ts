@@ -22,17 +22,23 @@ export interface RivalryMeeting {
   date: string; dateLabel: string; season: string; competition: Comp; competitionLabel: string; round: string;
   score: [number, number]; penalty: [number, number] | null; result: 'a' | 'b' | 'draw'; position: number;
 }
-export interface RivalrySide { key: string; name: string; short: string; crest: string | null; country: string }
+export interface RivalrySide { key: string; name: string; short: string; crest: string | null; country: string; flag: string | null }
 export interface Rivalry {
   key: string; slug: string; a: RivalrySide; b: RivalrySide; matches: number;
   record: { aWin: number; draw: number; bWin: number }; goals: [number, number];
   first: string; last: string; span: number; competitions: { key: Comp; label: string; count: number }[];
   meetings: RivalryMeeting[]; card: boolean; summary: string;
+  // 승패가 갈린 쪽. 동률이면 null이며, 연대 막대에서 색의 위계를 정한다.
+  lead: 'a' | 'b' | null;
 }
 
 const clubs = sources.clubs as Record<string, string>;
 const crestMap = crests as Record<string, string>;
 
+const FLAG: Record<string, string> = {
+  ENG: 'gb-eng', ESP: 'es', ITA: 'it', GER: 'de', FRA: 'fr', POR: 'pt', NED: 'nl', SCO: 'gb-sct',
+  TUR: 'tr', BEL: 'be', GRE: 'gr', UKR: 'ua', RUS: 'ru', SRB: 'rs', CZE: 'cz', CRO: 'hr',
+};
 const COUNTRY: Record<string, string> = {
   ENG: '잉글랜드', ESP: '스페인', ITA: '이탈리아', GER: '독일', FRA: '프랑스', POR: '포르투갈', NED: '네덜란드',
   SCO: '스코틀랜드', TUR: '튀르키예', BEL: '벨기에', GRE: '그리스', UKR: '우크라이나', RUS: '러시아', SRB: '세르비아', CZE: '체코',
@@ -54,7 +60,8 @@ const competitionLabel = (c: Comp, date: string) => (c === 'ucl' ? (date < '1992
 const side = (key: string): RivalrySide => {
   const name = clubs[key];
   if (!name) throw new Error(`박빙 구단 한글명 없음: ${key}`);
-  return { key, name, short: shortName(name), crest: crestMap[key] ?? null, country: COUNTRY[key.split('|')[1]] ?? key.split('|')[1] };
+  const code = key.split('|')[1];
+  return { key, name, short: shortName(name), crest: crestMap[key] ?? null, country: COUNTRY[code] ?? code, flag: FLAG[code] ? `/images/flags/${FLAG[code]}.svg` : null };
 };
 const slugOf = (a: string, b: string) => [a, b].map((k) => k.split('|')[0].toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')).join('-vs-');
 
@@ -101,6 +108,7 @@ function build(src: SrcRivalry): Rivalry {
     competitions,
     meetings,
     card: src.matches >= 8,
+    lead: src.record.aWin > src.record.bWin ? 'a' : src.record.bWin > src.record.aWin ? 'b' : null,
     summary: `${span}년 동안 ${src.matches}경기를 ${drawNote} 나눠 가졌고 ${goalNote}.`.replace('  ', ' '),
   };
 }

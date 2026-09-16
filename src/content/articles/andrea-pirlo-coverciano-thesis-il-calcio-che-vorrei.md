@@ -194,7 +194,7 @@ FIGC가 피를로의 논문과 같은 날 공개한 또 한 편은 빈첸초 이
   <header><span>CALENDAR · 2020</span><strong>1군 부임에서 개막전까지 43일</strong></header>
   <ol>
     <li><time>08.02</time><p>2019-20 세리에 A 최종 라운드</p></li>
-    <li><time>08.07</time><p>UEFA 챔피언스 리그 16강에서 올랭피크 리옹에 탈락</p></li>
+    <li><time>08.07</time><p>UEFA 챔피언스 리그 16강에서 올랭피크 리오네에 탈락</p></li>
     <li class="key"><time>08.08</time><p>사리 경질, 피를로 1군 감독 선임</p></li>
     <li class="key"><time>09.14</time><p>코베르차노에서 논문 발표와 UEFA 프로 시험</p></li>
     <li><time>09.16</time><p>FIGC가 피를로·이탈리아노 논문 공개</p></li>

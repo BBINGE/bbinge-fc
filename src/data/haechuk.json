@@ -3376,7 +3376,7 @@
         },
         {
           "rank": 4,
-          "team": "올랭피크 리옹",
+          "team": "올랭피크 리오네",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
           "played": 4,
           "wins": 2,
@@ -3784,7 +3784,7 @@
         },
         {
           "id": "370758",
-          "team": "올랭피크 리옹",
+          "team": "올랭피크 리오네",
           "value": 1,
           "appearances": 4,
           "ko": "자카리 아테카메",
@@ -3942,7 +3942,7 @@
         },
         {
           "id": "305545",
-          "team": "올랭피크 리옹",
+          "team": "올랭피크 리오네",
           "value": 2,
           "appearances": 4,
           "ko": "파벨 슐츠",
@@ -3978,7 +3978,7 @@
         },
         {
           "id": "370758",
-          "team": "올랭피크 리옹",
+          "team": "올랭피크 리오네",
           "value": 1,
           "appearances": 4,
           "ko": "자카리 아테카메",
@@ -5442,7 +5442,7 @@
         },
         {
           "rank": 22,
-          "team": "올랭피크 리옹",
+          "team": "올랭피크 리오네",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
           "played": 0,
           "wins": 0,
@@ -5717,7 +5717,7 @@
           "state": "pre",
           "detail": "Scheduled",
           "home": "RSC 안데를레흐트",
-          "away": "올랭피크 리옹",
+          "away": "올랭피크 리오네",
           "homeBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
           "awayBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
           "homeScore": null,
