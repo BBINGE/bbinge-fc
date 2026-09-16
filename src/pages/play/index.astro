@@ -6,7 +6,10 @@ import playerImageFile from '../../data/goat-player-images.json';
 import playerPhotoAuditFile from '../../data/player-photo-audit.json';
 import { categories } from '../../config/categories';
 
-const { players, drawAllocation } = playersFile;
+const { players: playerList, drawAllocation } = playersFile;
+// 같은 한글명이 둘 이상이면 아카이브 제목과 같은 방식으로 원어를 함께 보여 준다(운영자 확정, 2026-09-16).
+const duplicateNames = new Set(playerList.map((p) => p.name).filter((name, i, all) => all.indexOf(name) !== i));
+const players = playerList.map((p) => (duplicateNames.has(p.name) && p.nameOriginal ? { ...p, nameNote: p.nameOriginal } : p));
 
 // 선수 id와 슬러그가 같은 '역사' 카테고리 글이 있으면 우승 화면에서 바로 연결한다.
 const historyArticles = await getCollection('articles', ({ data }) => !data.draft && data.category === 'history');
@@ -281,7 +284,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
         </span>
         <span class="goat-card__body" style="--player-flag:${flag}">
           <span class="goat-card__country">${player.nationality} · ${POSITION_KR[player.position] ?? player.position}</span>
-          <strong class="goat-card__name">${player.name}</strong>
+          <strong class="goat-card__name">${player.name}${player.nameNote ? `<small>${player.nameNote}</small>` : ''}</strong>
           <span class="goat-card__nickname">“${punchline}”</span>
           <span class="goat-card__greatness">${player.greatness}</span>
           <span class="goat-card__clubs">${clubs}</span>
@@ -703,6 +706,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
   .goat-card__body::after { content:''; position:absolute; inset:0; background:linear-gradient(110deg,rgba(9,24,42,.94),rgba(9,24,42,.68)); }
   .goat-card__body > * { position:relative; z-index:1; }
   .goat-card__country { color:#c6d5e6; font-size:18px; font-weight:700; }
+  .goat-card__name small { display: block; margin-top: 2px; color: var(--bbfc-gray-2); font-size: 11px; font-weight: 500; letter-spacing: 0; }
   .goat-card__name { display: block; margin-top: 6px; color: #fff; font-size: clamp(27px, 3vw, 38px); line-height: 1.12; letter-spacing: -.035em; }
   .goat-card__nickname { display:block; margin-top:17px; color:#91bdff; font-size:clamp(23px,2.3vw,30px); line-height:1.22; font-weight:850; }
   .goat-card__greatness { display:block; margin-top:12px; color:rgba(255,255,255,.9); font-size:17px; line-height:1.55; font-weight:590; }
@@ -770,7 +774,7 @@ const playerFocus = Object.fromEntries(Object.entries(auditedPhotos).map(([id, e
     .goat-card__body { min-height:290px; padding:18px 13px 20px; }
     .goat-card__position { top:10px; left:10px; padding:6px 8px; font-size:11px; }
     .goat-card__country { font-size:15px; line-height:1.35; }
-    .goat-card__name { margin-top:6px; font-size:22px; line-height:1.14; }
+  .goat-card__name { margin-top:6px; font-size:22px; line-height:1.14; }
     .goat-card__nickname { min-height:48px; margin-top:14px; font-size:20px; line-height:1.25; }
     .goat-card__greatness { font-size:14px; line-height:1.5; }
     .goat-card__clubs { padding-top:16px; font-size:15px; line-height:1.4; }

@@ -8,9 +8,11 @@ const photos = Object.fromEntries(playerPhotoAuditFile.players.map((entry) => [e
   position: entry.photoPosition,
   scale: entry.photoScale,
 }]));
+// 대결 화면과 같은 규칙으로 겹치는 한글명에만 원어를 덧붙인다.
+const rankingDuplicates = new Set(playersFile.players.map((p) => p.name).filter((name, i, all) => all.indexOf(name) !== i));
 const rankingPlayers = Object.fromEntries(playersFile.players.map((player) => [player.id, {
   id: player.id,
-  name: player.name,
+  name: rankingDuplicates.has(player.name) && player.nameOriginal ? `${player.name} (${player.nameOriginal})` : player.name,
   nickname: player.nicknameKr || player.nickname || player.note,
   position: player.position,
   era: player.era,
