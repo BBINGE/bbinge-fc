@@ -6,7 +6,7 @@ import { join } from 'node:path';
 // 1956-57 유러피언컵 본선 편 화면 검수: 18개 대진 카드, 재경기 3건, 누적 표, 모바일 넘침.
 const base = process.env.QA_BASE || 'http://127.0.0.1:4321';
 const out = process.env.QA_OUTPUT || mkdtempSync(join(tmpdir(), 'bbinge-cup-5657-qa-'));
-const path = '/archive/european-club/european-cup/1956-57-european-cup/';
+const path = '/archive/club/european-cup/1956-57-european-cup/';
 console.log(`QA screenshots: ${out}`);
 const browser = await chromium.launch({ headless: true });
 try {

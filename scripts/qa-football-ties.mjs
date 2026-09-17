@@ -11,7 +11,7 @@ try {
  const page=await browser.newPage();
  for (const width of [380,768,1440]) {
   await page.setViewportSize({width,height:1000});
-  await page.goto(`${base}/archive/european-club/european-cup/1955-56-european-cup/`,{waitUntil:'domcontentloaded'});
+  await page.goto(`${base}/archive/club/european-cup/1955-56-european-cup/`,{waitUntil:'domcontentloaded'});
   await page.evaluate(()=>document.fonts.ready);
   assert.equal(await page.locator('.cup-tie').count(),12);
   assert.equal(await page.locator('.cup-participant-scroll tbody tr').count(),16);
@@ -71,7 +71,7 @@ try {
   console.log(JSON.stringify({width,...data}));
  }
  const plain=await browser.newPage({javaScriptEnabled:false,viewport:{width:380,height:900}});
- await plain.goto(`${base}/archive/european-club/european-cup/1955-56-european-cup/`);
+ await plain.goto(`${base}/archive/club/european-cup/1955-56-european-cup/`);
  assert.equal(await plain.locator('.cup-tie').count(),12);
  assert.equal(await plain.locator('.cup-stage-scroll').count(),2);
  assert.equal(await plain.getByText('통산 첫 유러피언컵 출전',{exact:true}).count(),16);

@@ -1,7 +1,7 @@
 ---
 title: '1948 남미 챔피언 오브 챔피언십: 참가 구단과 최종 순위'
 description: '유러피언컵보다 일곱 해 먼저 산티아고에서 열린 남미 클럽 대항전. 콜로콜로가 직접 조직한 일곱 구단의 리그전, 바스쿠 다 가마의 초대 우승, 그리고 이 대회가 유럽에 건넨 영감까지. 코파 리베르타도레스의 전신을 경기와 사람으로 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'copa-libertadores'
 year: 1948
 subject: '1948 남미 챔피언 오브 챔피언십'
@@ -23,7 +23,7 @@ draft: false
 
 1948년 2월 11일, 칠레 산티아고에서 남미의 일곱 구단이 모였다. 아르헨티나, 볼리비아, 브라질, 칠레, 에콰도르, 페루, 우루과이의 챔피언들이 한 도시에 모여 한 달 넘게 리그전을 치른다는 구상이었다. 대회 이름은 남미 챔피언 오브 챔피언십<span class="foreign-note" lang="es">(Campeonato Sudamericano de Campeones; 남미 각국 챔피언들의 대회)</span>이었고, 포르투갈어권에서는 캄페오나투 술아메리카누 지 캄페옹이스<span class="foreign-note" lang="pt-BR">(Campeonato Sul-Americano de Campeões)</span>로 불렸다.
 
-필자가 이 대회를 클럽 대항전 서가의 앞자리에 두는 까닭은 단순하다. 유럽이 각국 리그 챔피언을 한자리에 모으는 대회를 만든 것은 1955년 [유러피언컵](/archive/european-club/european-cup/1955-56-european-cup/)부터다. 산티아고의 이 대회는 그보다 일곱 해가 앞선다. 그리고 유럽에서 그 구상을 밀어붙인 사람들이 참고한 선례가 바로 이것이었다.
+필자가 이 대회를 클럽 대항전 서가의 앞자리에 두는 까닭은 단순하다. 유럽이 각국 리그 챔피언을 한자리에 모으는 대회를 만든 것은 1955년 [유러피언컵](/archive/club/european-cup/1955-56-european-cup/)부터다. 산티아고의 이 대회는 그보다 일곱 해가 앞선다. 그리고 유럽에서 그 구상을 밀어붙인 사람들이 참고한 선례가 바로 이것이었다.
 
 <figure><img src="/images/archive/1948-south-american-championship-of-champions/organisers.webp" alt="1948 남미 챔피언 오브 챔피언십의 주관 협회로 남미 축구 연맹과 콜로콜로를 나란히 적은 표" width="966" height="816" loading="lazy" decoding="async" /><figcaption>대회를 주관한 남미 축구 연맹과, 실제로 조직하고 치른 칠레의 콜로콜로.</figcaption></figure>
 

@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 const base = process.env.QA_BASE || 'http://127.0.0.1:4321';
 const out = mkdtempSync(join(tmpdir(), 'bbinge-semifinals-'));
-const route = '/archive/european-club/european-cup/1955-56-european-cup-semifinals/';
+const route = '/archive/club/european-cup/1955-56-european-cup-semifinals/';
 const browser = await chromium.launch({ headless: true, channel: process.env.PLAYWRIGHT_CHANNEL || undefined });
 try {
   const page = await browser.newPage();

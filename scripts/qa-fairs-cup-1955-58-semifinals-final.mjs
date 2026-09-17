@@ -7,7 +7,7 @@ import { join } from 'node:path';
 // 1955-58 인터시티스 페어스컵 4강·결승 편: 녹색 대진 카드 3개, 재경기·우승 칸, 차전별 득점자 줄, 일곱 경기 기록표, 문장·국기 로딩, 380/768/1440 가로 넘침.
 const base = process.env.QA_BASE || 'http://127.0.0.1:4323';
 const out = process.env.QA_OUT || mkdtempSync(join(tmpdir(), 'bbinge-fairs-final-'));
-const path = '/archive/european-club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup-semifinals-final/';
+const path = '/archive/club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup-semifinals-final/';
 const browser = await chromium.launch({ headless: true });
 console.log('Screenshots: ' + out);
 try {

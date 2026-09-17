@@ -1,7 +1,7 @@
 ---
 title: '1955-56 유러피언컵: 창설 배경·참가팀·16강과 8강'
 description: '1948년 남미 클럽 대회와 자크 페랑, 울브스·혼베드의 세계 최강 논쟁에서 첫 유러피언컵 8강까지. 당시 프로그램과 사진, 16개 구단의 참가 배경과 경기 기록을 함께 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'european-cup'
 year: 1955
 subject: '1955-56 시즌 유러피언컵'

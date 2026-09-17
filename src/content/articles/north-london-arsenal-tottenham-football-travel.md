@@ -114,7 +114,7 @@ faq:
 
 <figure class="journey-wide"><img src="/images/pilgrimage/north-london-arsenal-tottenham/highbury-square.webp" alt="주택가 사이에 옛 경기장 모양대로 네 동의 건물이 초록 정원을 둘러싼 하이버리 스퀘어 항공 사진" width="1600" height="1067" loading="lazy" /><figcaption>하늘에서 본 하이버리 스퀘어. 가운데 정원이 옛 피치 크기 그대로다. 사진: Arne Müseler, Wikimedia Commons, CC BY-SA 3.0 DE.</figcaption></figure>
 
-<aside class="journey-archive-note" id="archive-note"><span>ARCHIVE NOTE · 하이버리의 밤</span><h3>열일곱 살 그리브스가 유럽 대항전 골을 넣은 곳이 하이버리예요</h3><p>1957년 10월 23일, 런던 도시 선발팀 런던 XI가 하이버리에서 스위스의 로잔 스포르를 2-0으로 꺾고 첫 인터시티스 페어스컵 결승에 올랐다. 선제골은 첼시의 열일곱 살 신예 지미 그리브스의 몫이었다.</p><p>지금 아파트가 된 그 경기장 외벽 앞을 걸으면, 에미레이츠 이전 북런던 축구의 한 장면을 지나가는 셈이다. 경기 이야기는 <a href="/archive/european-club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup-semifinals-final/">1955-58 인터시티스 페어스컵 4강과 결승 편</a>에 있다.</p></aside>
+<aside class="journey-archive-note" id="archive-note"><span>ARCHIVE NOTE · 하이버리의 밤</span><h3>열일곱 살 그리브스가 유럽 대항전 골을 넣은 곳이 하이버리예요</h3><p>1957년 10월 23일, 런던 도시 선발팀 런던 XI가 하이버리에서 스위스의 로잔 스포르를 2-0으로 꺾고 첫 인터시티스 페어스컵 결승에 올랐다. 선제골은 첼시의 열일곱 살 신예 지미 그리브스의 몫이었다.</p><p>지금 아파트가 된 그 경기장 외벽 앞을 걸으면, 에미레이츠 이전 북런던 축구의 한 장면을 지나가는 셈이다. 경기 이야기는 <a href="/archive/club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup-semifinals-final/">1955-58 인터시티스 페어스컵 4강과 결승 편</a>에 있다.</p></aside>
 
 <h2 id="city">같이 간 사람이 좋아할 킹스크로스·캠든 코스 4곳</h2>
 

@@ -1,7 +1,7 @@
 ---
 title: '1955-56 유러피언컵 4강: 랭스·히버니언, 레알·밀란의 1차전과 2차전'
 description: '파리의 코파에게 쏟아진 환호부터 산 시로의 마지막 페널티킥까지. 1955-56 유러피언컵 4강 1차전·2차전의 네 경기와 랭스·레알 마드리드가 결승에 오르기까지의 이야기를 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'european-cup'
 year: 1955
 subject: '1955-56 시즌 유러피언컵 4강'
@@ -24,7 +24,7 @@ draft: false
 
 1956년 4월 18일, 스타드 드 랭스는 에든버러에서 첫 유러피언컵 결승 진출을 확정했다. 레알 마드리드와 AC 밀란의 4강 1차전은 그다음 날이었다. 한쪽 대진은 두 경기를 다 마쳤고, 다른 쪽 대진은 아직 킥오프도 하지 않았다. 지금처럼 같은 주간에 나란히 펼쳐지는 준결승을 떠올리면 놓치기 쉬운, 첫 대회의 시간표다. <a class="cite" href="#source-1">[1]</a> <a class="cite" href="#source-6">[6]</a>
 
-열여섯 구단에서 네 구단으로 좁혀진 대진표에는 서로 다른 길이 남아 있었다. 랭스는 8강에서 뵈뢰시 로보고와 합계 열네 골을 주고받았다. 히버니언은 유르고덴을 두 번 이겼다. 레알은 파르티잔 원정에서 홈의 네 골 차 우세를 거의 잃을 뻔했고, 밀란은 라피트 빈을 상대로 2차전에만 일곱 골을 넣었다. 그 과정을 통과한 팀들이 이번에는 결승의 두 자리를 나눠 가져야 했다. [창설 배경·참가팀·16강과 8강](/archive/european-club/european-cup/1955-56-european-cup/)에서 이어지는 이야기다.
+열여섯 구단에서 네 구단으로 좁혀진 대진표에는 서로 다른 길이 남아 있었다. 랭스는 8강에서 뵈뢰시 로보고와 합계 열네 골을 주고받았다. 히버니언은 유르고덴을 두 번 이겼다. 레알은 파르티잔 원정에서 홈의 네 골 차 우세를 거의 잃을 뻔했고, 밀란은 라피트 빈을 상대로 2차전에만 일곱 골을 넣었다. 그 과정을 통과한 팀들이 이번에는 결승의 두 자리를 나눠 가져야 했다. [창설 배경·참가팀·16강과 8강](/archive/club/european-cup/1955-56-european-cup/)에서 이어지는 이야기다.
 
 <figure class="cup-design"><a href="/images/archive/1955-56-european-cup-semifinals/competition-original.png" target="_blank" rel="noopener" aria-label="1955-56 유러피언컵 대회 개요 원본 크게 보기"><img src="/images/archive/1955-56-european-cup-semifinals/competition.webp" width="966" height="868" alt="1955-56 유러피언컵의 원어 명칭과 대회 주관 협회 UEFA를 정리한 도판" loading="lazy" /></a><figcaption>1955-56 시즌 유러피언컵 대회 개요. 디자인: 삥이FC.</figcaption></figure>
 

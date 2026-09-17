@@ -1,7 +1,7 @@
 ---
 title: '1956-57 유러피언컵 득점왕·득점 순위: 데니스 바이올렛 9골'
 description: '4강에서 멈춘 맨체스터 유나이티드의 바이올렛이 아홉 골로 두 번째 유러피언컵 최다 득점자가 됐다. 여덟 경기 모두 선발로 나선 테일러의 8골, 모든 라운드에서 골을 넣은 디스테파노, 16강에서 멈춘 도르트문트의 프라이슬러까지 경기별 득점 기록으로 다시 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'european-cup'
 year: 1956
 subject: '1956-57 시즌 유러피언컵 득점 순위'
@@ -37,7 +37,7 @@ draft: false
 
 16강에서는 10월 17일 메인 로드에서 보루시아 도르트문트<span class="foreign-note" lang="de">(Ballspielverein Borussia 09 e. V. Dortmund)</span>를 상대로 두 골을 넣어 3-2 승리를 만들었다. 8강에서는 눈 내린 산 마메스<span class="foreign-note" lang="es">(San Mamés)</span>에서 3-5로 진 경기와 메인 로드에서 3-0으로 뒤집은 경기에 한 골씩 넣었다. 8강까지 다섯 경기에서 아홉 골을 넣은 셈이다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-그다음부터는 골이 없었다. 베르나베우의 4강 1차전에 선발로 나섰지만 득점하지 못했고, 11월 도르트문트 원정과 4월 올드 트래퍼드의 4강 2차전에는 선발 명단에 없었다. 맨유가 치른 여덟 경기 가운데 여섯 경기만 뛰고도 끝까지 1위를 지켰다. 대회의 흐름은 [1956-57 유러피언컵 본선](/archive/european-club/european-cup/1956-57-european-cup/)과 [4강](/archive/european-club/european-cup/1956-57-european-cup-semifinals/)에 정리해 두었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+그다음부터는 골이 없었다. 베르나베우의 4강 1차전에 선발로 나섰지만 득점하지 못했고, 11월 도르트문트 원정과 4월 올드 트래퍼드의 4강 2차전에는 선발 명단에 없었다. 맨유가 치른 여덟 경기 가운데 여섯 경기만 뛰고도 끝까지 1위를 지켰다. 대회의 흐름은 [1956-57 유러피언컵 본선](/archive/club/european-cup/1956-57-european-cup/)과 [4강](/archive/club/european-cup/1956-57-european-cup-semifinals/)에 정리해 두었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 ## 여덟 경기 모두 선발로 뛴 테일러
 

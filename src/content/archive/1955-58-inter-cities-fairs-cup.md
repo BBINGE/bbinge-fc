@@ -1,7 +1,7 @@
 ---
 title: '1955-58 인터시티스 페어스컵: 참가 도시와 조별리그'
 description: '유러피언컵보다 석 달 먼저 바젤에서 시작한 또 하나의 유럽 대항전. 애스턴 빌라가 거절한 연합팀, 비행기를 타지 않고 기차로 밀라노에 간 버밍엄 주장, 웸블리의 첫 조명 경기까지. 열두 참가팀과 네 개 조의 2년을 경기와 사람으로 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'inter-cities-fairs-cup'
 year: 1955
 subject: '1955-58 인터시티스 페어스컵'
@@ -18,7 +18,7 @@ relatedGroup: 'inter-cities-fairs-cup-1955-58'
 draft: false
 ---
 
-1955년 6월 4일, 스위스 바젤의 장크트 야코프 경기장<span class="foreign-note" lang="de">(St. Jakob-Stadion)</span>에 1만 명 남짓한 관중이 모였다. 바젤 XI를 5-0으로 무너뜨린 런던 XI의 원정 경기가 인터시티스 페어스컵<span class="foreign-note" lang="en">(Inter-Cities Fairs Cup; 국제 박람회를 여는 도시들의 축구 대회)</span>의 첫 경기다. 스포르팅 CP와 파르티잔이 [첫 유러피언컵](/archive/european-club/european-cup/1955-56-european-cup/)의 막을 올린 9월 4일보다 석 달이 앞섰고, 결승은 그로부터 거의 3년 뒤인 1958년 5월에야 열렸다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
+1955년 6월 4일, 스위스 바젤의 장크트 야코프 경기장<span class="foreign-note" lang="de">(St. Jakob-Stadion)</span>에 1만 명 남짓한 관중이 모였다. 바젤 XI를 5-0으로 무너뜨린 런던 XI의 원정 경기가 인터시티스 페어스컵<span class="foreign-note" lang="en">(Inter-Cities Fairs Cup; 국제 박람회를 여는 도시들의 축구 대회)</span>의 첫 경기다. 스포르팅 CP와 파르티잔이 [첫 유러피언컵](/archive/club/european-cup/1955-56-european-cup/)의 막을 올린 9월 4일보다 석 달이 앞섰고, 결승은 그로부터 거의 3년 뒤인 1958년 5월에야 열렸다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
 필자가 이 대회를 유러피언컵과 따로 세워 읽는 까닭은 출발점이 전혀 달랐기 때문이다. 유러피언컵이 각국 리그 챔피언을 모았다면, 페어스컵은 박람회를 여는 도시를 모았다. 리그 순위는 참가 자격과 상관이 없었고 한 도시에서는 한 팀만 나올 수 있었으니, 첫 대회의 명단에 구단 이름과 도시 이름이 나란히 섞인 것도 자연스러운 결과였다. 이 어수선한 명단 뒤에는 초대장을 받고도 나서지 않은 도시, 이웃 구단과 손잡기를 거부한 구단, 비행기를 타지 않은 주장 같은 사연이 줄줄이 붙어 있다.
 
@@ -106,7 +106,7 @@ CF 바르셀로나, 버밍엄 시티, 로잔 스포르, 런던 XI. 구단 셋과
 
 2년에 걸친 조별리그를 지나 네 팀만 남기까지, 이 대회는 유럽 대항전이 어떤 모양이어야 하는지 아직 정해지지 않았던 시절의 흔적을 그대로 안고 있다. 리그 챔피언 대신 박람회 도시가, 구단 대신 도시 선발팀이 나설 수 있었고, 이웃 구단의 거절이 한 구단을 잉글랜드 최초의 유럽 대항전 구단으로 만들었으며, 한 조의 경기가 두 해에 걸쳐 흩어져도 이상하지 않았다. 필자는 바로 그 어수선함 속에서 훗날 UEFA컵으로 이어질 또 하나의 유럽 대항전이 첫걸음을 뗐다고 본다.
 
-로잔과 하이버리, 세인트 앤드루스와 바젤 재경기, 스탬퍼드 브리지와 캄 노우로 이어진 4강과 결승 일곱 경기는 [1955-58 인터시티스 페어스컵 4강과 결승 편](/archive/european-club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup-semifinals-final/)에서 이어 읽을 수 있다.
+로잔과 하이버리, 세인트 앤드루스와 바젤 재경기, 스탬퍼드 브리지와 캄 노우로 이어진 4강과 결승 일곱 경기는 [1955-58 인터시티스 페어스컵 4강과 결승 편](/archive/club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup-semifinals-final/)에서 이어 읽을 수 있다.
 
 ## 참고 자료
 

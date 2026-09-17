@@ -1,7 +1,7 @@
 ---
 title: '1956-57 유러피언컵: 참가팀·예선·16강과 8강'
 description: '맨체스터 유나이티드의 첫 유럽 도전, 브뤼셀로 옮겨 간 혼베드의 홈경기, 레알 마드리드를 재경기까지 몰아붙인 하펠의 세 골. 스물두 구단이 나선 두 번째 유러피언컵의 예선부터 8강까지를 경기 기록과 함께 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'european-cup'
 year: 1956
 subject: '1956-57 시즌 유러피언컵'
@@ -33,7 +33,7 @@ draft: false
 
 ## 풋볼리그의 반대를 넘은 맨체스터 유나이티드
 
-1955년 여름 첼시는 풋볼리그의 압박 속에 참가를 철회했다. [첫 시즌의 대진표](/archive/european-club/european-cup/1955-56-european-cup/)에 잉글랜드 챔피언이 없었던 이유다. 이듬해 잉글랜드 챔피언이 된 맨체스터 유나이티드는 다른 길을 골랐다. UEFA의 시즌 회고는 맨유가 풋볼리그의 권고를 따르지 않고 출전 명단에 이름을 올렸다고 적는다. 구단의 공식 역사에도 이 결정이 국내 대회의 수준을 떨어뜨릴 수 있다는 걱정 때문에 풋볼리그의 반발을 샀다고 남아 있다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a>, <a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+1955년 여름 첼시는 풋볼리그의 압박 속에 참가를 철회했다. [첫 시즌의 대진표](/archive/club/european-cup/1955-56-european-cup/)에 잉글랜드 챔피언이 없었던 이유다. 이듬해 잉글랜드 챔피언이 된 맨체스터 유나이티드는 다른 길을 골랐다. UEFA의 시즌 회고는 맨유가 풋볼리그의 권고를 따르지 않고 출전 명단에 이름을 올렸다고 적는다. 구단의 공식 역사에도 이 결정이 국내 대회의 수준을 떨어뜨릴 수 있다는 걱정 때문에 풋볼리그의 반발을 샀다고 남아 있다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a>, <a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 맷 버스비<span class="foreign-note" lang="en">(Sir Alexander Matthew Busby; 스코틀랜드 출신 감독, 1909-1994)</span> 감독의 팀은 ‘버스비의 아이들’<span class="foreign-note" lang="en">(Busby Babes; 버스비가 1950년대 중반 젊은 선수들로 꾸린 맨유 선수단의 별칭)</span>로 불렸다. 첫 원정은 1956년 9월 12일 브뤼셀이었다. 벨기에 챔피언 RSC 안데를레흐트<span class="foreign-note" lang="fr">(Royal Sporting Club Anderlecht)</span>를 상대로 데니스 바이올렛<span class="foreign-note" lang="en">(Dennis Sydney Viollet; 잉글랜드 공격수, 1933-1999)</span>과 토미 테일러<span class="foreign-note" lang="en">(Thomas Taylor; 잉글랜드 센터 포워드, 1932-1958)</span>가 한 골씩 넣었고, 잉글랜드 구단이 치른 첫 유러피언컵 경기는 2-0 원정 승리로 끝났다. <a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 

@@ -34,7 +34,7 @@ export const archiveBranches: ArchiveBranch[] = [
     ].map(([slug, label]) => ({ slug, label })),
   },
   {
-    id: 'european-club',
+    id: 'club',
     number: '03',
     title: '삥이 IN 클럽 대항전',
     originalTitle: 'CLUB COMPETITIONS',

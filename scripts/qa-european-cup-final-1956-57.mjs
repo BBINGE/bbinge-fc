@@ -78,7 +78,7 @@ try {
     assert.equal(checks.brokenAnchors, 0);
     assert(checks.thumbAfterPoster && checks.thumbAfterLastClip, '결과 썸네일은 원고 마지막');
     assert(checks.posterBg, '풀타임 포스터 배경');
-    for (const href of ['/archive/european-club/european-cup/1956-57-european-cup/', '/archive/european-club/european-cup/1956-57-european-cup-semifinals/']) {
+    for (const href of ['/archive/club/european-cup/1956-57-european-cup/', '/archive/club/european-cup/1956-57-european-cup-semifinals/']) {
       assert(checks.routeCards.includes(href), 'reading route ' + href);
     }
     assert(!checks.routeCards.includes(route), '읽기 동선은 현재 글을 빼고 보여 준다');
@@ -109,7 +109,7 @@ try {
   }
 
   for (const id of ['1956-57-european-cup', '1956-57-european-cup-semifinals']) {
-    await page.goto(base + `/archive/european-club/european-cup/${id}/`);
+    await page.goto(base + `/archive/club/european-cup/${id}/`);
     assert(await page.locator(`a[href="${route}"]`).count() > 0, id + ' → 결승 H/L 동선');
   }
   console.log(`PASS all checks against ${base}`);

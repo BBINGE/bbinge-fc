@@ -7,7 +7,7 @@ import { join } from 'node:path';
 // 1955-58 인터시티스 페어스컵 본선 편: 녹색 톤, 경기별 득점자, 조별 순위표 4개, 참가 12팀 표, 문장·국기 로딩, 380/768/1440 가로 넘침.
 const base = process.env.QA_BASE || 'http://127.0.0.1:4323';
 const out = process.env.QA_OUT || mkdtempSync(join(tmpdir(), 'bbinge-fairs-'));
-const path = '/archive/european-club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup/';
+const path = '/archive/club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup/';
 const browser = await chromium.launch({ headless: true });
 console.log('Screenshots: ' + out);
 try {

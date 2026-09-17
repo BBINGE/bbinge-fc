@@ -27,7 +27,7 @@ export interface ReadingRoute {
 const europeanCup1955Stories: ReadingRouteStory[] = [
   {
     id: '1955-56-european-cup',
-    href: '/archive/european-club/european-cup/1955-56-european-cup/',
+    href: '/archive/club/european-cup/1955-56-european-cup/',
     index: '01',
     label: '대회관 · 창설과 본선',
     title: '첫 유러피언컵은 어떻게 시작됐나',
@@ -37,7 +37,7 @@ const europeanCup1955Stories: ReadingRouteStory[] = [
   },
   {
     id: '1955-56-european-cup-semifinals',
-    href: '/archive/european-club/european-cup/1955-56-european-cup-semifinals/',
+    href: '/archive/club/european-cup/1955-56-european-cup-semifinals/',
     index: '02',
     label: '대회관 · 4강',
     title: '결승행 두 자리는 누가 가져갔나',
@@ -57,7 +57,7 @@ const europeanCup1955Stories: ReadingRouteStory[] = [
   },
   {
     id: '1955-56-european-cup-top-scorers',
-    href: '/archive/european-club/european-cup/1955-56-european-cup-top-scorers/',
+    href: '/archive/club/european-cup/1955-56-european-cup-top-scorers/',
     index: '04',
     label: '대회관 · 득점 순위',
     title: '가장 많은 골을 넣은 선수는 누구였나',
@@ -67,7 +67,7 @@ const europeanCup1955Stories: ReadingRouteStory[] = [
   },
   {
     id: '1955-56-european-cup-tournament-best-xi',
-    href: '/archive/european-club/european-cup/1955-56-european-cup-tournament-best-xi/',
+    href: '/archive/club/european-cup/1955-56-european-cup-tournament-best-xi/',
     index: '05',
     label: '대회관 · 베스트 11',
     title: '그해 가장 잘한 열한 명은 누구였나',
@@ -90,7 +90,7 @@ const europeanCup1955Stories: ReadingRouteStory[] = [
 const europeanCup1956Stories: ReadingRouteStory[] = [
   {
     id: '1956-57-european-cup',
-    href: '/archive/european-club/european-cup/1956-57-european-cup/',
+    href: '/archive/club/european-cup/1956-57-european-cup/',
     index: '01',
     label: '대회관 · 참가팀과 본선',
     title: '스물두 구단은 어떻게 4강까지 좁혀졌나',
@@ -100,7 +100,7 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
   },
   {
     id: '1956-57-european-cup-semifinals',
-    href: '/archive/european-club/european-cup/1956-57-european-cup-semifinals/',
+    href: '/archive/club/european-cup/1956-57-european-cup-semifinals/',
     index: '02',
     label: '대회관 · 4강',
     title: '결승행 두 자리는 누가 가져갔나',
@@ -120,7 +120,7 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
   },
   {
     id: '1956-57-european-cup-top-scorers',
-    href: '/archive/european-club/european-cup/1956-57-european-cup-top-scorers/',
+    href: '/archive/club/european-cup/1956-57-european-cup-top-scorers/',
     index: '04',
     label: '대회관 · 득점 순위',
     title: '가장 많은 골을 넣은 선수는 누구였나',
@@ -130,7 +130,7 @@ const europeanCup1956Stories: ReadingRouteStory[] = [
   },
   {
     id: '1956-57-european-cup-tournament-best-xi',
-    href: '/archive/european-club/european-cup/1956-57-european-cup-tournament-best-xi/',
+    href: '/archive/club/european-cup/1956-57-european-cup-tournament-best-xi/',
     index: '05',
     label: '대회관 · 베스트 11',
     title: '그해 가장 잘한 열한 명은 누구였나',

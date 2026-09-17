@@ -1,7 +1,7 @@
 ---
 title: '1955-56 유러피언컵 득점왕·득점 순위: 밀로시 밀루티노비치 8골'
 description: '8강에서 멈춘 파르티잔의 밀루티노비치가 여덟 골로 첫 유러피언컵 최다 득점자가 됐다. 대회 첫 해트트릭의 펄로타시, 모든 라운드에서 골을 넣은 글로바츠키, 레알과 랭스의 5골 트리오까지 경기별 득점 기록으로 다시 읽는다.'
-branch: 'european-club'
+branch: 'club'
 index: 'european-cup'
 year: 1955
 subject: '1955-56 시즌 유러피언컵 득점 순위'
@@ -35,7 +35,7 @@ draft: false
 
 밀로시 밀루티노비치<span class="foreign-note" lang="sr-Latn">(Miloš Milutinović; 유고슬라비아 공격수, 1933-2003)</span>의 여덟 골 가운데 여섯 골은 스포르팅 CP<span class="foreign-note" lang="pt">(Sporting Clube de Portugal)</span>를 상대로 나왔다. 1955년 9월 4일 리스본에서 열린 대회 개막전에서 두 골을 넣어 FK 파르티잔<span class="foreign-note" lang="sr-Latn">(Fudbalski klub Partizan)</span>의 3-3 무승부를 만들었고, 10월 12일 베오그라드의 2차전에서는 혼자 네 골을 넣어 5-2 승리를 이끌었다. 파르티잔이 치른 첫 두 경기에서 이미 여섯 골이 그의 이름으로 적힌 셈이다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a>, <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-8강 상대는 레알 마드리드였다. 마드리드 원정에서 0-4로 지고 돌아온 파르티잔은 1956년 1월 29일 눈 덮인 베오그라드에서 레알을 3-0으로 몰아붙였고, 그 가운데 두 골이 밀루티노비치의 것이었다. 한 골만 더 들어갔다면 합계가 같아지는 경기였지만 파르티잔은 3-4로 탈락했다. 결국 득점왕은 네 경기, 그것도 레알 원정의 한 경기를 빼면 모든 경기에서 골을 넣고 대회를 떠났다. 스물두 살 공격수의 이력과 형제 이야기는 [1955-56 유러피언컵 베스트 11](/archive/european-club/european-cup/1955-56-european-cup-tournament-best-xi/)에 정리해 두었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+8강 상대는 레알 마드리드였다. 마드리드 원정에서 0-4로 지고 돌아온 파르티잔은 1956년 1월 29일 눈 덮인 베오그라드에서 레알을 3-0으로 몰아붙였고, 그 가운데 두 골이 밀루티노비치의 것이었다. 한 골만 더 들어갔다면 합계가 같아지는 경기였지만 파르티잔은 3-4로 탈락했다. 결국 득점왕은 네 경기, 그것도 레알 원정의 한 경기를 빼면 모든 경기에서 골을 넣고 대회를 떠났다. 스물두 살 공격수의 이력과 형제 이야기는 [1955-56 유러피언컵 베스트 11](/archive/club/european-cup/1955-56-european-cup-tournament-best-xi/)에 정리해 두었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 ## 대회 첫 해트트릭의 펄로타시 페테르
 
@@ -49,7 +49,7 @@ draft: false
 
 펄로타시와 같은 여섯 골을 넣은 레옹 글로바츠키<span class="foreign-note" lang="fr">(Léon Glovacki; 프랑스 공격수, 1928-2009)</span>는 결승을 제외한 모든 라운드에서 골을 넣었다. 16강에서는 오르후스 GF<span class="foreign-note" lang="da">(Aarhus Gymnastikforening)</span>를 상대로 원정 두 골과 홈 한 골, 8강에서는 뵈뢰시 로보고를 상대로 두 경기에 한 골씩 넣었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-마지막 한 골이 가장 무거웠다. 1956년 4월 18일 에든버러에서 열린 히버니언 FC<span class="foreign-note" lang="en">(Hibernian Football Club)</span>와의 4강 2차전은 후반 초반까지 0-0이었고, 글로바츠키의 골이 이날 경기의 유일한 득점이 됐다. 랭스는 합계 3-0으로 첫 유러피언컵 결승에 올랐다. 파리의 결승에서는 골을 넣지 못했지만, 랭스가 결승까지 가는 길에는 매 라운드 그의 이름이 있었다. 이 경기의 흐름은 [1955-56 유러피언컵 4강](/archive/european-club/european-cup/1955-56-european-cup-semifinals/)에 자세히 적었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+마지막 한 골이 가장 무거웠다. 1956년 4월 18일 에든버러에서 열린 히버니언 FC<span class="foreign-note" lang="en">(Hibernian Football Club)</span>와의 4강 2차전은 후반 초반까지 0-0이었고, 글로바츠키의 골이 이날 경기의 유일한 득점이 됐다. 랭스는 합계 3-0으로 첫 유러피언컵 결승에 올랐다. 파리의 결승에서는 골을 넣지 못했지만, 랭스가 결승까지 가는 길에는 매 라운드 그의 이름이 있었다. 이 경기의 흐름은 [1955-56 유러피언컵 4강](/archive/club/european-cup/1955-56-european-cup-semifinals/)에 자세히 적었다. <a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 ## 다섯 골의 세 사람, 결승에서 만난 두 팀
 
