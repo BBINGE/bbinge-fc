@@ -64,8 +64,9 @@ await sharp(image.stadium)
   .webp({ quality: 90, effort: 5 })
   .toFile(path.join(outputDir, 'card.webp'));
 
+// 출처 메모는 배포되는 public/이 아니라 편집 기록 폴더에 남긴다.
 await writeFile(
-  path.join(outputDir, 'sources.txt'),
+  path.resolve('docs/editorial/wonyoung-coupang-play-asset-sources.txt'),
   Object.entries(sources).map(([key, url]) => `${key}\t${url}`).join('\n') + '\n',
   'utf8',
 );

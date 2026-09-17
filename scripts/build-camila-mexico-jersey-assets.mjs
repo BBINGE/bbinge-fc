@@ -73,8 +73,9 @@ await saveWebp('card.webp', image.street01, {
   quality: 90,
 });
 
+// 출처 메모는 배포되는 public/이 아니라 편집 기록 폴더에 남긴다.
 await writeFile(
-  path.join(outputDir, 'sources.txt'),
+  path.resolve('docs/editorial/camila-mexico-jersey-asset-sources.txt'),
   Object.entries(sources).map(([key, url]) => `${key}\t${url}`).join('\n') + '\n',
   'utf8',
 );

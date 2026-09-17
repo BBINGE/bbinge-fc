@@ -52,5 +52,9 @@ for (const [from, to] of Object.entries(map)) {
   sizes[to] = `${info.width}x${info.height}`;
   console.log(`${String(info.width)}x${String(info.height)}  ${(info.size / 1024).toFixed(0).padStart(4)}KB  ${to}`);
 }
-fs.writeFileSync(path.join(out, 'sizes.json'), `${JSON.stringify(sizes, null, 2)}\n`);
+// 크기 표는 배포되는 public/이 아니라 편집 기록 폴더에 남긴다.
+fs.writeFileSync(
+  path.resolve('docs/editorial/athletic-club-all-time-best-xi-asset-sizes.json'),
+  `${JSON.stringify(sizes, null, 2)}\n`,
+);
 console.log(`\n자산 ${Object.keys(map).length}개 변환 완료.`);
