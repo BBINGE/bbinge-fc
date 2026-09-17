@@ -25,7 +25,7 @@ relatedGroup: 'fifa-world-cup-1950'
 
 ## 열두 해 만에 다시 열린 대회
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1950년 6월 24일-7월 16일</dd></dl><dl><dt>본선 참가</dt><dd>13개국</dd></dl><dl><dt>경기 수</dt><dd>22경기 · 88골</dd></dl><dl><dt>우승</dt><dd>우루과이 <span class="placement-count">두 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>아데미르 · 9골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1950년 6월 24일-7월 16일</dd></dl><dl><dt>본선 참가</dt><dd>13개국</dd></dl><dl><dt>경기 수</dt><dd>22경기 · 88골</dd></dl><dl><dt>우승</dt><dd>우루과이 <span class="placement-count">두 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>아데미르 · 9골</dd></dl></div>
 
 1942년과 1946년 대회는 열리지 못했다. 전쟁이 끝난 뒤에도 문제는 남았다. 유럽 대부분이 아직 재건 중이었고, 각국 정부는 축구 대회보다 급한 곳에 자원을 써야 한다고 판단했다. 유럽에서는 개최 신청이 한 건도 나오지 않았다. 1946년 7월 25일 룩셈부르크 총회에서 브라질이 나섰고, 1949년이 아니라 1950년에 치른다는 조건을 붙여 곧바로 승인받았다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
@@ -51,10 +51,10 @@ relatedGroup: 'fifa-world-cup-1950'
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">두 번째 우승</span> | 3승 1무 | 15득점 5실점 |
-| 준우승 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">첫 번째 준우승</span> | 4승 1무 1패 | 22득점 6실점 |
-| 3위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> <span class="placement-count">두 번째 4위권</span> | 2승 1무 2패 | 11득점 15실점 |
-| 4위 | 스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" alt="스페인 민간기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1무 2패 | 10득점 12실점 |
+| 우승 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">두 번째 우승</span> | 3승 1무 | 15득점 5실점 |
+| 준우승 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">첫 번째 준우승</span> | 4승 1무 1패 | 22득점 6실점 |
+| 3위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" width="32" height="20" alt="스웨덴 국기" /> <span class="placement-count">두 번째 4위권</span> | 2승 1무 2패 | 11득점 15실점 |
+| 4위 | 스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" width="30" height="20" alt="스페인 민간기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1무 2패 | 10득점 12실점 |
 
 이 대회에는 준결승도 결승도 없었다. 네 조의 1위가 다시 리그전을 치러 승점이 가장 높은 팀이 우승하는 방식이었고, 월드컵 역사에서 이 형식은 1950년 한 번뿐이다. 우루과이가 승점 5, 브라질이 4였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
@@ -78,42 +78,42 @@ relatedGroup: 'fifa-world-cup-1950'
 
 <div class="best-xi" aria-label="1950 FIFA 월드컵 베스트 11 WM 배치">
   <div class="best-xi-line forwards-three">
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 스키아피노" loading="lazy" /><span>IL</span><strong>스키아피노</strong><small>우루과이 · 4경기 3골</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" alt="아데미르" loading="lazy" /><span>CF</span><strong>아데미르</strong><small>브라질 · 6경기 9골</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="알시데스 기지아" loading="lazy" /><span>OR</span><strong>알시데스 기지아</strong><small>우루과이 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" width="600" height="763" alt="후안 스키아피노" loading="lazy" /><span>IL</span><strong>스키아피노</strong><small>우루과이 · 4경기 3골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" width="600" height="864" alt="아데미르" loading="lazy" /><span>CF</span><strong>아데미르</strong><small>브라질 · 6경기 9골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" width="600" height="768" alt="알시데스 기지아" loading="lazy" /><span>OR</span><strong>알시데스 기지아</strong><small>우루과이 · 4경기 4골</small></div>
   </div>
   <div class="best-xi-line inside">
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jair-rosa-pinto.jpg" alt="자이르 다 호자 핀투" loading="lazy" /><span>IL</span><strong>자이르</strong><small>브라질 · 5경기 2골</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/zizinho.jpg" alt="지지뉴" loading="lazy" /><span>IR</span><strong>지지뉴</strong><small>브라질 · 4경기 2골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jair-rosa-pinto.jpg" width="600" height="758" alt="자이르 다 호자 핀투" loading="lazy" /><span>IL</span><strong>자이르</strong><small>브라질 · 5경기 2골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/zizinho.jpg" width="600" height="616" alt="지지뉴" loading="lazy" /><span>IR</span><strong>지지뉴</strong><small>브라질 · 4경기 2골</small></div>
   </div>
   <div class="best-xi-line halves-two">
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/obdulio-varela.jpg" alt="옵둘리오 바렐라" loading="lazy" /><span>CH</span><strong>옵둘리오 바렐라</strong><small>우루과이 · 4경기 1골</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-carlos-bauer.jpg" alt="바우에르" loading="lazy" /><span>RH</span><strong>바우에르</strong><small>브라질 · 5경기</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/obdulio-varela.jpg" width="486" height="465" alt="옵둘리오 바렐라" loading="lazy" /><span>CH</span><strong>옵둘리오 바렐라</strong><small>우루과이 · 4경기 1골</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-carlos-bauer.jpg" width="600" height="852" alt="바우에르" loading="lazy" /><span>RH</span><strong>바우에르</strong><small>브라질 · 5경기</small></div>
   </div>
   <div class="best-xi-line backs-three">
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/erik-nilsson.jpg" alt="에리크 닐손" loading="lazy" /><span>FB</span><strong>에리크 닐손</strong><small>스웨덴 · 5경기</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.jpg" alt="호세 파라" loading="lazy" /><span>CB</span><strong>호세 파라</strong><small>스페인 · 5경기</small></div>
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/victor-rodriguez-andrade.jpg" alt="빅토르 로드리게스 안드라데" loading="lazy" /><span>FB</span><strong>로드리게스 안드라데</strong><small>우루과이 · 4경기</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/erik-nilsson.jpg" width="600" height="954" alt="에리크 닐손" loading="lazy" /><span>FB</span><strong>에리크 닐손</strong><small>스웨덴 · 5경기</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.jpg" width="600" height="962" alt="호세 파라" loading="lazy" /><span>CB</span><strong>호세 파라</strong><small>스페인 · 5경기</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/victor-rodriguez-andrade.jpg" width="600" height="778" alt="빅토르 로드리게스 안드라데" loading="lazy" /><span>FB</span><strong>로드리게스 안드라데</strong><small>우루과이 · 4경기</small></div>
   </div>
   <div class="best-xi-line keeper">
-    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/roque-maspoli.jpg" alt="로케 마스폴리" loading="lazy" /><span>GK</span><strong>로케 마스폴리</strong><small>우루과이 · 4경기 3실점</small></div>
+    <div><img src="/images/archive/1950-fifa-world-cup-best-xi/players/roque-maspoli.jpg" width="355" height="400" alt="로케 마스폴리" loading="lazy" /><span>GK</span><strong>로케 마스폴리</strong><small>우루과이 · 4경기 3실점</small></div>
   </div>
 </div>
 
 이 배치는 서로 다른 대형을 쓰던 네 나라의 선수를 하나의 그림 안에 세우기 위한 회고적 구성이다. 좌우 위치는 매 경기의 실제 선발 자리를 그대로 복원한 것이 아니다. 다만 앞의 셋과 안쪽의 둘, 하프백 둘과 백 셋으로 나누는 뼈대는 1950년 경기표가 실제로 쓰던 언어에 가깝다.
 
 <div class="best-xi-roster" aria-label="1950 FIFA 월드컵 베스트 11 선수 카드">
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/roque-maspoli.jpg" alt="로케 마스폴리" loading="lazy" /><div><span>GK · 골키퍼</span><strong>로케 마스폴리</strong><small lang="es-UY">Roque Gastón Máspoli</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 3실점</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/erik-nilsson.jpg" alt="에리크 닐손" loading="lazy" /><div><span>FB · 풀백</span><strong>에리크 닐손</strong><small lang="sv">Erik Nilsson</small><p>스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.jpg" alt="호세 파라" loading="lazy" /><div><span>CB · 센터백</span><strong>호세 파라</strong><small lang="es">José Parra Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" alt="스페인 민간기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/victor-rodriguez-andrade.jpg" alt="빅토르 로드리게스 안드라데" loading="lazy" /><div><span>FB · 풀백</span><strong>빅토르 로드리게스 안드라데</strong><small lang="es-UY">Víctor Rodríguez Andrade</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/obdulio-varela.jpg" alt="옵둘리오 바렐라" loading="lazy" /><div><span>CH · 센터 하프</span><strong>옵둘리오 바렐라</strong><small lang="es-UY">Obdulio Jacinto Muiños Varela</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 1골 · 주장</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-carlos-bauer.jpg" alt="바우에르" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>바우에르</strong><small lang="pt-BR">José Carlos Bauer</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/zizinho.jpg" alt="지지뉴" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>지지뉴</strong><small lang="pt-BR">Thomaz Soares da Silva</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 4경기 2골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jair-rosa-pinto.jpg" alt="자이르 다 호자 핀투" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>자이르 다 호자 핀투</strong><small lang="pt-BR">Jair da Rosa Pinto</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 5경기 2골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" alt="알시데스 기지아" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>알시데스 기지아</strong><small lang="es-UY">Alcides Edgardo Ghiggia</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 4골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" alt="아데미르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>아데미르</strong><small lang="pt-BR">Ademir Marques de Menezes</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 6경기 9골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" alt="후안 스키아피노" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>후안 스키아피노</strong><small lang="es-UY">Juan Alberto Schiaffino</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 4경기 3골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/roque-maspoli.jpg" width="355" height="400" alt="로케 마스폴리" loading="lazy" /><div><span>GK · 골키퍼</span><strong>로케 마스폴리</strong><small lang="es-UY">Roque Gastón Máspoli</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 4경기 3실점</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/erik-nilsson.jpg" width="600" height="954" alt="에리크 닐손" loading="lazy" /><div><span>FB · 풀백</span><strong>에리크 닐손</strong><small lang="sv">Erik Nilsson</small><p>스웨덴 <img class="flag" src="/images/flags/se.svg" width="32" height="20" alt="스웨덴 국기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-parra.jpg" width="600" height="962" alt="호세 파라" loading="lazy" /><div><span>CB · 센터백</span><strong>호세 파라</strong><small lang="es">José Parra Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-franco-civil.svg" width="30" height="20" alt="스페인 민간기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/victor-rodriguez-andrade.jpg" width="600" height="778" alt="빅토르 로드리게스 안드라데" loading="lazy" /><div><span>FB · 풀백</span><strong>빅토르 로드리게스 안드라데</strong><small lang="es-UY">Víctor Rodríguez Andrade</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/obdulio-varela.jpg" width="486" height="465" alt="옵둘리오 바렐라" loading="lazy" /><div><span>CH · 센터 하프</span><strong>옵둘리오 바렐라</strong><small lang="es-UY">Obdulio Jacinto Muiños Varela</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 4경기 1골 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jose-carlos-bauer.jpg" width="600" height="852" alt="바우에르" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>바우에르</strong><small lang="pt-BR">José Carlos Bauer</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/zizinho.jpg" width="600" height="616" alt="지지뉴" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>지지뉴</strong><small lang="pt-BR">Thomaz Soares da Silva</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 4경기 2골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/jair-rosa-pinto.jpg" width="600" height="758" alt="자이르 다 호자 핀투" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>자이르 다 호자 핀투</strong><small lang="pt-BR">Jair da Rosa Pinto</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 5경기 2골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/alcides-ghiggia.jpg" width="600" height="768" alt="알시데스 기지아" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>알시데스 기지아</strong><small lang="es-UY">Alcides Edgardo Ghiggia</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 4경기 4골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/ademir.jpg" width="600" height="864" alt="아데미르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>아데미르</strong><small lang="pt-BR">Ademir Marques de Menezes</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 6경기 9골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1950-fifa-world-cup-best-xi/players/juan-alberto-schiaffino.jpg" width="600" height="763" alt="후안 스키아피노" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>후안 스키아피노</strong><small lang="es-UY">Juan Alberto Schiaffino</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 4경기 3골</p></div></article>
 </div>
 
 ### 네 경기만 치른 우승팀의 골문
@@ -131,7 +131,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 여덟 해 전 1942년 남미선수권에서 우루과이가 6전 전승으로 우승할 때, 스물네 살의 바렐라는 이미 같은 자리에 서 있었다. 그때 그는 몬테비데오 원더러스 소속이었고 대회의 대표 선수로 기록됐다. 1950년의 그는 페냐롤의 선수이자 주장이었다. 여덟 해 사이에 달라진 것은 소속팀과 완장이지 역할이 아니다.
 
 <a class="record-cta" href="/archive/national-team/copa-america/1942-copa-america-obdulio-varela/">
-  <img src="/images/archive/1942-copa-america/cover.webp" alt="" loading="lazy" />
+  <img src="/images/archive/1942-copa-america/cover.webp" width="773" height="773" alt="" loading="lazy" />
   <div><small>같은 인물의 기록</small><strong>1942 코파 아메리카 최우수 선수: 옵둘리오 바렐라</strong><p>마라카낭보다 여덟 해 먼저 중원을 장악한 스물네 살 →</p></div>
 </a>
 
@@ -148,7 +148,7 @@ WM이 자리를 잡으면서 2-3-5 시대의 중앙 하프는 두 풀백 사이�
 이 활약은 갑자기 나온 것이 아니다. 열세 달 전 1949년 남미선수권의 우승 결정전에서 그는 파라과이를 상대로 전반 27분 안에 두 골을 넣고 해트트릭으로 경기를 끝냈다. 그때 브라질이 우승 결정전을 치른 경기장은 마라카낭이 아니라 상자누아리우였다. 마라카낭은 아직 공사 중이었다.
 
 <a class="record-cta" href="/archive/national-team/copa-america/1949-copa-america-ademir/">
-  <img src="/images/archive/1949-copa-america/cover.webp" alt="" loading="lazy" />
+  <img src="/images/archive/1949-copa-america/cover.webp" width="800" height="800" alt="" loading="lazy" />
   <div><small>같은 인물의 기록</small><strong>1949 코파 아메리카 최우수 선수: 아데미르</strong><p>파라과이에 지고 사흘 만에 7-0으로 뒤집은 우승 결정전 →</p></div>
 </a>
 

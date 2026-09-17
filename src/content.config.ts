@@ -114,6 +114,10 @@ const archive = defineCollection({
     coverImageWidth: z.number().int().positive(),
     coverImageHeight: z.number().int().positive(),
     hideCoverImage: z.boolean().default(false),
+    // 답변 엔진이 물어가는 질문 구조. 원고가 실제로 답한 것만 적는다.
+    faq: z
+      .array(z.object({ question: z.string(), answer: z.string() }))
+      .optional(),
     draft: z.boolean().default(false),
     relatedGroup: z.string().optional(),
     priorPublication: z.object({

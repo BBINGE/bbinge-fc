@@ -23,32 +23,32 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1955년 2월 27일-3월 30일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그전 · 승리 2점, 무승부 1점</dd></dl><dl><dt>경기장</dt><dd>산티아고 에스타디오 나시오날</dd></dl><dl><dt>전체 기록</dt><dd>15경기 · 73골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1955년 2월 27일-3월 30일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그전 · 승리 2점, 무승부 1점</dd></dl><dl><dt>경기장</dt><dd>산티아고 에스타디오 나시오날</dd></dl><dl><dt>전체 기록</dt><dd>15경기 · 73골</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 승점 | 성적 | 득실 |
 | --- | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 열 번째 우승</span> | 9 | 4승 1무 | 18득점 6실점 |
-| 2 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">첫 준우승</span> | 7 | 3승 1무 1패 | 19득점 8실점 |
-| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> <span class="placement-count">통산 네 번째 3위</span> | 6 | 2승 2무 1패 | 13득점 11실점 |
-| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 세 번째 4위</span> | 5 | 2승 1무 2패 | 12득점 12실점 |
-| 5 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 3 | 1승 1무 3패 | 7득점 14실점 |
-| 6 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 0 | 5패 | 4득점 22실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 열 번째 우승</span> | 9 | 4승 1무 | 18득점 6실점 |
+| 2 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> <span class="placement-count">첫 준우승</span> | 7 | 3승 1무 1패 | 19득점 8실점 |
+| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> <span class="placement-count">통산 네 번째 3위</span> | 6 | 2승 2무 1패 | 13득점 11실점 |
+| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 세 번째 4위</span> | 5 | 2승 1무 2패 | 12득점 12실점 |
+| 5 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> | 3 | 1승 1무 3패 | 7득점 14실점 |
+| 6 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 0 | 5패 | 4득점 22실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>엔리케 오르마사발</strong><small>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 5경기 6골</small></div><div><span>득점왕</span><strong>로돌포 미첼리</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 8골</small></div><div><span>득점 공동 2위</span><strong>오르마사발 · 고메스 산체스</strong><small>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 각 6골</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>엔리케 오르마사발</strong><small>칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 5경기 6골</small></div><div><span>득점왕</span><strong>로돌포 미첼리</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 8골</small></div><div><span>득점 공동 2위</span><strong>오르마사발 · 고메스 산체스</strong><small>칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 각 6골</small></div></div>
 
 ### 오르마사발의 다섯 경기
 
 | 날짜 | 상대 | 칠레 기준 결과 | 득점 |
 | --- | --- | --- | --- |
-| 2월 27일 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 7-1 승 | 3골 |
-| 3월 6일 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 5-4 승 | 1골 |
-| 3월 13일 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2-2 무 | 1골 |
-| 3월 20일 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 5-0 승 | 1골 |
-| 3월 30일 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 0-1 패 | 0골 |
+| 2월 27일 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 7-1 승 | 3골 |
+| 3월 6일 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 5-4 승 | 1골 |
+| 3월 13일 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> | 2-2 무 | 1골 |
+| 3월 20일 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> | 5-0 승 | 1골 |
+| 3월 30일 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | 0-1 패 | 0골 |
 
 ## 여담
 

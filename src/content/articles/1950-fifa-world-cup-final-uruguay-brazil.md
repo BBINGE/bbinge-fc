@@ -21,9 +21,9 @@ relatedGroup: 'fifa-world-cup-1950'
 <div class="match-board" aria-label="1950 FIFA 월드컵 최종 결전 결과">
   <p>1950 FIFA WORLD CUP · FINAL ROUND</p>
   <div class="match-board-teams">
-    <div><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <div><img src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
     <span><b>2</b><em>FULL TIME</em><b>1</b></span>
-    <div><img src="/images/flags/br.svg" alt="브라질 국기" /><strong>브라질</strong><small>BRAZIL</small></div>
+    <div><img src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /><strong>브라질</strong><small>BRAZIL</small></div>
   </div>
   <dl><div><dt>날짜</dt><dd>1950년 7월 16일</dd></div><div><dt>장소</dt><dd>마라카낭</dd></div><div><dt>전반</dt><dd>0-0</dd></div><div><dt>최종</dt><dd>2-1</dd></div></dl>
 </div>
@@ -65,9 +65,9 @@ relatedGroup: 'fifa-world-cup-1950'
 <div class="world-cup-transition half-time-card" aria-label="후반 21분, 우루과이 1대1 브라질">
   <div class="transition-kicker"><span>1950 FIFA WORLD CUP</span><b>FINAL ROUND · MARACANÃ</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <div class="transition-team"><img src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
     <div class="transition-numbers"><span>1</span><em>66′</em><span>1</span></div>
-    <div class="transition-team"><img src="/images/flags/br.svg" alt="브라질 국기" /><strong>브라질</strong><small>BRAZIL</small></div>
+    <div class="transition-team"><img src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /><strong>브라질</strong><small>BRAZIL</small></div>
   </div>
   <p>A DRAW STILL CROWNS BRAZIL · 24 MINUTES LEFT</p>
 </div>
@@ -117,7 +117,7 @@ relatedGroup: 'fifa-world-cup-1950'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>16 JULY 1950</span><b>ESTÁDIO DO MARACANÃ · RIO</b></div>
   <div class="poster-copy"><small>FULL TIME · URUGUAY 2-1 BRAZIL</small><strong>최종 결전<br />우루과이의 승리</strong><p>URUGUAY · WORLD CHAMPIONS 1930 · 1950</p></div>
-  <div class="poster-winner"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
 </div>
 
 ## 경기가 끝난 뒤에도 끝나지 않은 비극

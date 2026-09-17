@@ -41,7 +41,7 @@ featured: false
 
 아래 열한 명 가운데 가라이와 오루에, 가인사와 파니소는 그 삼십 년 안에서 뛰었다. 이들의 출전 기록에 적힌 소속은 아틀레틱 클루브가 아니라 아틀레티코 데 빌바오다.
 
-<div class="athletic-era" aria-label="아틀레틱 클루브 역대 베스트 11 시대 범위"><img src="/images/clubs/athletic-club.svg" alt="" aria-hidden="true" /><span>ATHLETIC CLUB · LOS LEONES</span><strong>1898-2026</strong><p>항구의 외래 놀이 · 1911년의 조항 · 빼앗긴 이름 · 사십 년 뒤의 코파</p></div>
+<div class="athletic-era" aria-label="아틀레틱 클루브 역대 베스트 11 시대 범위"><img src="/images/clubs/athletic-club.svg" width="135" height="153" alt="" aria-hidden="true" /><span>ATHLETIC CLUB · LOS LEONES</span><strong>1898-2026</strong><p>항구의 외래 놀이 · 1911년의 조항 · 빼앗긴 이름 · 사십 년 뒤의 코파</p></div>
 
 ## 선정 전술: 한 지방의 백이십 년을 세운 4-4-2
 

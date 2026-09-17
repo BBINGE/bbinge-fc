@@ -25,20 +25,20 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1923년 10월 29일-12월 2일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>몬테비데오</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1923년 10월 29일-12월 2일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>몬테비데오</dd></dl></div>
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 우승</span> | 3승 | 6득점 1실점 |
-| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 2승 1패 | 6득점 6실점 |
-| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 1승 2패 | 4득점 6실점 |
-| 4 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 3패 | 2득점 5실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 우승</span> | 3승 | 6득점 1실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 2승 1패 | 6득점 6실점 |
+| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> | 1승 2패 | 4득점 6실점 |
+| 4 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 3패 | 2득점 5실점 |
 
 <figure><img src="/images/archive/1923-copa-america/source-2.jpg" alt="우루과이 대표팀 주장 호세 나사시의 역사적 사진" width="773" height="435" loading="lazy" /><figcaption>우루과이 축구의 첫 황금기를 대표한 주장 호세 나사시.</figcaption></figure>
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 나사시</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>공동 득점왕</span><strong>페드로 페트로네</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>공동 득점왕</span><strong>비센테 아기레</strong><small>3골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 나사시</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div><div><span>공동 득점왕</span><strong>페드로 페트로네</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div><div><span>공동 득점왕</span><strong>비센테 아기레</strong><small>3골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 

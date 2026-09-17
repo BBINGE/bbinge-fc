@@ -92,8 +92,8 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic">
-  <div><img src="/images/archive/legends/luis-suarez/club-inter.webp" alt="FC 인테르나치오날레 밀라노 문장" /><strong>FC 인테르나치오날레 밀라노</strong><span>1960-1978</span><small>634경기 · 75골</small></div>
-  <div><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" alt="이탈리아 축구 연맹 문장" /><strong>이탈리아 대표팀</strong><span>1963-1977</span><small>94경기 · 3골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-inter.webp" width="250" height="250" alt="FC 인테르나치오날레 밀라노 문장" /><strong>FC 인테르나치오날레 밀라노</strong><span>1960-1978</span><small>634경기 · 75골</small></div>
+  <div><img src="/images/archive/legends/facchetti/italy-national-team-crest.svg" width="426" height="750" alt="이탈리아 축구 연맹 문장" /><strong>이탈리아 대표팀</strong><span>1963-1977</span><small>94경기 · 3골</small></div>
 </div>
 
 <p class="record-note">클럽 수치는 인테르가 공개한 모든 공식 대회 합계다. 트레빌리에세는 인테르 입단 전 유소년·지역 무대 경력으로 구분하고 공식 프로 클럽 카드에는 포함하지 않았다.</p>

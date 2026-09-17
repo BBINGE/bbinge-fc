@@ -21,22 +21,22 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1946년 1월 12일-2월 10일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1946년 1월 12일-2월 10일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /></dd></dl><dl><dt>방식</dt><dd>6개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 여덟 번째 우승</span> | 5승 | 17득점 3실점 |
-| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 3승 1무 1패 | 13득점 7실점 |
-| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 2승 1무 2패 | 8득점 8실점 |
-| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 2승 3패 | 11득점 9실점 |
-| 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 2승 3패 | 8득점 11실점 |
-| 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 5패 | 4득점 23실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 여덟 번째 우승</span> | 5승 | 17득점 3실점 |
+| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 3승 1무 1패 | 13득점 7실점 |
+| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 2승 1무 2패 | 8득점 8실점 |
+| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 2승 3패 | 11득점 9실점 |
+| 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 2승 3패 | 8득점 11실점 |
+| 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> | 5패 | 4득점 23실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>아돌포 페데르네라</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>호세 마리아 메디나</strong><small>7골 · 우루과이</small></div><div><span>우승 성적</span><strong>5전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>아돌포 페데르네라</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>호세 마리아 메디나</strong><small>7골 · 우루과이</small></div><div><span>우승 성적</span><strong>5전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 

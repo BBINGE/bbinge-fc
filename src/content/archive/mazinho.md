@@ -132,15 +132,15 @@ SE 파우메이라스에서 그의 위치가 다시 바뀌었다. 처음에는 �
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic">
-  <div><img src="/images/archive/legends/mazinho/club-vasco.png" alt="CR 바스쿠 다 가마 문장" loading="lazy" /><strong>CR 바스쿠 다 가마</strong><span>1985-1990</span><small>232경기 · 17골<br />구단 통산 집계</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-lecce.png" alt="US 레체 문장" loading="lazy" /><strong>US 레체</strong><span>1990-1991</span><small>39경기 · 3골<br />공식전</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-fiorentina.svg" alt="ACF 피오렌티나 문장" loading="lazy" /><strong>ACF 피오렌티나</strong><span>1991-1992</span><small>24경기 · 0골<br />공식전</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-palmeiras.svg" alt="SE 파우메이라스 문장" loading="lazy" /><strong>SE 파우메이라스</strong><span>1992-1994</span><small>127경기 · 2골<br />구단 공식 집계</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-valencia.png" alt="발렌시아 CF 문장" loading="lazy" /><strong>발렌시아 CF</strong><span>1994-1996</span><small>107경기 · 1골<br />구단 공식 집계 · 10도움</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-celta.svg" alt="RC 셀타 데 비고 문장" loading="lazy" /><strong>RC 셀타 데 비고</strong><span>1996-2000</span><small>138경기 · 10골<br />구단 통산 집계</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-elche.png" alt="엘체 CF 문장" loading="lazy" /><strong>엘체 CF</strong><span>2000-2001</span><small>17경기 · 0골<br />세군다 디비시온</small></div>
-  <div><img src="/images/archive/legends/mazinho/club-vitoria.svg" alt="EC 비토리아 문장" loading="lazy" /><strong>EC 비토리아</strong><span>2001</span><small>15경기 · 0골<br />브라질 전국리그</small></div>
-  <div><img src="/images/archive/legends/brazil/brazil-national-team-crest.svg" alt="브라질 축구협회 문장" loading="lazy" /><strong>브라질 대표팀</strong><span>1989-1994</span><small>35경기 · 0골<br />성인 A매치</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-vasco.png" width="405" height="512" alt="CR 바스쿠 다 가마 문장" loading="lazy" /><strong>CR 바스쿠 다 가마</strong><span>1985-1990</span><small>232경기 · 17골<br />구단 통산 집계</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-lecce.png" width="427" height="512" alt="US 레체 문장" loading="lazy" /><strong>US 레체</strong><span>1990-1991</span><small>39경기 · 3골<br />공식전</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-fiorentina.svg" width="465" height="691" alt="ACF 피오렌티나 문장" loading="lazy" /><strong>ACF 피오렌티나</strong><span>1991-1992</span><small>24경기 · 0골<br />공식전</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-palmeiras.svg" width="300" height="300" alt="SE 파우메이라스 문장" loading="lazy" /><strong>SE 파우메이라스</strong><span>1992-1994</span><small>127경기 · 2골<br />구단 공식 집계</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-valencia.png" width="406" height="512" alt="발렌시아 CF 문장" loading="lazy" /><strong>발렌시아 CF</strong><span>1994-1996</span><small>107경기 · 1골<br />구단 공식 집계 · 10도움</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-celta.svg" width="600" height="815" alt="RC 셀타 데 비고 문장" loading="lazy" /><strong>RC 셀타 데 비고</strong><span>1996-2000</span><small>138경기 · 10골<br />구단 통산 집계</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-elche.png" width="416" height="512" alt="엘체 CF 문장" loading="lazy" /><strong>엘체 CF</strong><span>2000-2001</span><small>17경기 · 0골<br />세군다 디비시온</small></div>
+  <div><img src="/images/archive/legends/mazinho/club-vitoria.svg" width="6493" height="9199" alt="EC 비토리아 문장" loading="lazy" /><strong>EC 비토리아</strong><span>2001</span><small>15경기 · 0골<br />브라질 전국리그</small></div>
+  <div><img src="/images/archive/legends/brazil/brazil-national-team-crest.svg" width="159" height="227" alt="브라질 축구협회 문장" loading="lazy" /><strong>브라질 대표팀</strong><span>1989-1994</span><small>35경기 · 0골<br />성인 A매치</small></div>
 </div>
 
 <p class="record-note">기록 범위는 자료의 성격에 맞췄다. 바스쿠·파우메이라스·발렌시아·셀타는 구단 통산 또는 구단이 인용한 전 대회 집계, 레체·피오렌티나는 공식전 합계, 엘체와 비토리아는 리그 기록이다. 오래된 남미 구단 기록은 친선 경기 포함 여부에 따라 수치가 달라질 수 있다.</p>

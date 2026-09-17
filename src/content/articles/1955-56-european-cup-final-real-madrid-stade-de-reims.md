@@ -131,7 +131,7 @@ relatedGroup: 'european-cup-1955-56'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>FULL TIME · PARC DES PRINCES</span><b>REAL MADRID CF 4-3 STADE DE REIMS</b></div>
   <div class="poster-copy"><small>13 JUNE 1956</small><strong>라 프리메라</strong><p>THE FIRST EUROPEAN CUP · THE FIRST CHAMPION</p></div>
-  <div class="poster-winner"><img src="/images/flags/es-1945.png" alt="1945년부터 사용된 스페인 국기" /><span>CHAMPION<br /><b>REAL MADRID CF</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/es-1945.png" width="120" height="80" alt="1945년부터 사용된 스페인 국기" /><span>CHAMPION<br /><b>REAL MADRID CF</b></span></div>
 </div>
 
 ## 첫 결승에 도착한 두 팀, 첫 우승과 첫 준우승

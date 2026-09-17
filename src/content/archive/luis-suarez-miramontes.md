@@ -114,12 +114,12 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic">
-  <div><img src="/images/archive/legends/luis-suarez/club-deportivo.webp" alt="데포르티보 라코루냐 문장" /><strong>데포르티보 라코루냐</strong><span>1953-1954</span><small>17경기 · 3골</small></div>
-  <div><img src="/images/clubs/barcelona.svg" alt="FC 바르셀로나 문장" /><strong>CD 에스파냐 인두스트리알</strong><span>1954-1955</span><small>21경기 · 6골</small></div>
-  <div><img src="/images/clubs/barcelona.svg" alt="FC 바르셀로나 문장" /><strong>FC 바르셀로나</strong><span>1954-1961</span><small>176경기 · 80골</small></div>
-  <div><img src="/images/archive/legends/luis-suarez/club-inter.webp" alt="FC 인테르나치오날레 밀라노 문장" /><strong>FC 인테르나치오날레 밀라노</strong><span>1961-1970</span><small>328경기 · 54골</small></div>
-  <div><img src="/images/archive/legends/luis-suarez/club-sampdoria.webp" alt="UC 삼프도리아 문장" /><strong>UC 삼프도리아</strong><span>1970-1973</span><small>73경기 · 13골</small></div>
-  <div><img src="/images/archive/legends/spain/spain-national-team-crest.svg" alt="스페인 왕립 축구 연맹 문장" /><strong>스페인 대표팀</strong><span>1957-1972</span><small>32경기 · 14골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-deportivo.webp" width="1280" height="1566" alt="데포르티보 라코루냐 문장" /><strong>데포르티보 라코루냐</strong><span>1953-1954</span><small>17경기 · 3골</small></div>
+  <div><img src="/images/clubs/barcelona.svg" width="142" height="144" alt="FC 바르셀로나 문장" /><strong>CD 에스파냐 인두스트리알</strong><span>1954-1955</span><small>21경기 · 6골</small></div>
+  <div><img src="/images/clubs/barcelona.svg" width="142" height="144" alt="FC 바르셀로나 문장" /><strong>FC 바르셀로나</strong><span>1954-1961</span><small>176경기 · 80골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-inter.webp" width="250" height="250" alt="FC 인테르나치오날레 밀라노 문장" /><strong>FC 인테르나치오날레 밀라노</strong><span>1961-1970</span><small>328경기 · 54골</small></div>
+  <div><img src="/images/archive/legends/luis-suarez/club-sampdoria.webp" width="960" height="1221" alt="UC 삼프도리아 문장" /><strong>UC 삼프도리아</strong><span>1970-1973</span><small>73경기 · 13골</small></div>
+  <div><img src="/images/archive/legends/spain/spain-national-team-crest.svg" width="960" height="1625" alt="스페인 왕립 축구 연맹 문장" /><strong>스페인 대표팀</strong><span>1957-1972</span><small>32경기 · 14골</small></div>
 </div>
 
 <p class="record-note">클럽 수치는 공식전 집계를 우선했다. 바르셀로나 선수 데이터베이스는 공식전 176경기 80골과 비공식 경기를 합친 254경기 138골을 구분한다. 인테르 공식 회고도 게시 시점에 따라 328경기 54골·58골로 차이가 있어, 최신 구단 프로필의 328경기 54골을 카드 기준으로 삼았다.</p>

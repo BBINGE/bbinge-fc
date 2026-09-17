@@ -29,9 +29,9 @@ draft: false
 ## 대회 기록
 
 <div class="record-facts">
-  <dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl>
+  <dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></dd></dl>
   <dl><dt>대회 기간</dt><dd>1916년 7월 2일-17일</dd></dl>
-  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
+  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl>
   <dl><dt>방식</dt><dd>단일 리그전</dd></dl>
 </div>
 
@@ -39,21 +39,21 @@ draft: false
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 2승 1무 | 6득점 1실점 |
-| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 1승 2무 | 7득점 2실점 |
-| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 2무 1패 | 3득점 4실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 1득점 10실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> | 2승 1무 | 6득점 1실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | 1승 2무 | 7득점 2실점 |
+| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 2무 1패 | 3득점 4실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 3패 | 1득점 10실점 |
 
 <figure>
   <img src="/images/archive/1916-copa-america/uruguay-team.jpg" alt="1916년 남미 축구 선수권 대회에 출전한 우루과이 대표팀" width="773" height="506" loading="lazy" />
-  <figcaption>1916년 남미 축구 선수권 대회의 초대 챔피언 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> 대표팀.</figcaption>
+  <figcaption>1916년 남미 축구 선수권 대회의 초대 챔피언 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> 대표팀.</figcaption>
 </figure>
 
 ## 개인 기록
 
 <div class="honours-grid">
-  <div><span>최우수 선수</span><strong>이사벨리노 그라딘</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
-  <div><span>득점왕</span><strong>이사벨리노 그라딘</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
+  <div><span>최우수 선수</span><strong>이사벨리노 그라딘</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div>
+  <div><span>득점왕</span><strong>이사벨리노 그라딘</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div>
   <div><span>득점 2위</span><strong>4명 공동</strong><small>2골</small></div>
 </div>
 

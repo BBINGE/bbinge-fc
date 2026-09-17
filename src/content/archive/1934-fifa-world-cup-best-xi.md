@@ -21,7 +21,7 @@ relatedGroup: 'fifa-world-cup-1934'
 
 ## 유럽에서 열린 두 번째 월드컵
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1934년 5월 27일-6월 10일</dd></dl><dl><dt>참가국</dt><dd>16개국</dd></dl><dl><dt>경기 수</dt><dd>17경기 · 70골</dd></dl><dl><dt>우승</dt><dd>이탈리아 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>올드르지흐 네예들리 · 5골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1934년 5월 27일-6월 10일</dd></dl><dl><dt>참가국</dt><dd>16개국</dd></dl><dl><dt>경기 수</dt><dd>17경기 · 70골</dd></dl><dl><dt>우승</dt><dd>이탈리아 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>올드르지흐 네예들리 · 5골</dd></dl></div>
 
 <div class="honours-grid"><div><span>득점 1위</span><strong>올드르지흐 네예들리</strong><small>체코슬로바키아 · 4경기 5골</small></div><div><span>득점 공동 2위</span><strong>에드문트 코넨</strong><small>독일 · 4경기 4골</small></div><div><span>득점 공동 2위</span><strong>안젤로 스키아비오</strong><small>이탈리아 · 4경기 4골</small></div></div>
 
@@ -33,10 +33,10 @@ relatedGroup: 'fifa-world-cup-1934'
 
 | 구분 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> <span class="placement-count">첫 번째 우승</span> | 4승 1무 | 12득점 3실점 |
-| 준우승 | 체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /> <span class="placement-count">첫 번째 준우승</span> | 3승 1패 | 9득점 6실점 |
-| 3위 | 독일 <img class="flag" src="/images/flags/de-1934.svg" alt="1934년 독일 국기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1패 | 11득점 8실점 |
-| 4위 | 오스트리아 <img class="flag" src="/images/flags/at-1934.svg" alt="오스트리아 국기" /> <span class="placement-count">첫 번째 4위권</span> | 2승 2패 | 7득점 7실점 |
+| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> <span class="placement-count">첫 번째 우승</span> | 4승 1무 | 12득점 3실점 |
+| 준우승 | 체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /> <span class="placement-count">첫 번째 준우승</span> | 3승 1패 | 9득점 6실점 |
+| 3위 | 독일 <img class="flag" src="/images/flags/de-1934.svg" width="30" height="20" alt="1934년 독일 국기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1패 | 11득점 8실점 |
+| 4위 | 오스트리아 <img class="flag" src="/images/flags/at-1934.svg" width="30" height="20" alt="오스트리아 국기" /> <span class="placement-count">첫 번째 4위권</span> | 2승 2패 | 7득점 7실점 |
 
 결승에서 체코슬로바키아가 안토닌 푸치의 골로 먼저 앞섰지만, 라이문도 오르시가 후반 81분 동점골을 넣었다. 연장 95분 안젤로 스키아비오의 역전골이 터지며 이탈리아가 2-1로 첫 우승을 차지했다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -58,40 +58,40 @@ relatedGroup: 'fifa-world-cup-1934'
 
 <div class="best-xi" aria-label="1934 FIFA 월드컵 베스트 11 2-3-5 배치">
   <div class="best-xi-line forwards">
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/raimundo-orsi.png" alt="라이문도 오르시" loading="lazy" /><span>OL</span><strong>라이문도 오르시</strong><small>이탈리아 · 5경기 3골</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/oldrich-nejedly.png" alt="올드르지흐 네예들리" loading="lazy" /><span>IL</span><strong>올드르지흐 네예들리</strong><small>체코슬로바키아 · 4경기 5골</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/matthias-sindelar.png" alt="마티아스 신델라르" loading="lazy" /><span>CF</span><strong>마티아스 신델라르</strong><small>오스트리아 · 3경기 1골</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/giuseppe-meazza.png" alt="주세페 메아차" loading="lazy" /><span>IR</span><strong>주세페 메아차</strong><small>이탈리아 · 5경기 2골</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/enrique-guaita.png" alt="엔리케 과이타" loading="lazy" /><span>OR</span><strong>엔리케 과이타</strong><small>이탈리아 · 4경기 1골</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/raimundo-orsi.png" width="300" height="429" alt="라이문도 오르시" loading="lazy" /><span>OL</span><strong>라이문도 오르시</strong><small>이탈리아 · 5경기 3골</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/oldrich-nejedly.png" width="300" height="375" alt="올드르지흐 네예들리" loading="lazy" /><span>IL</span><strong>올드르지흐 네예들리</strong><small>체코슬로바키아 · 4경기 5골</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/matthias-sindelar.png" width="300" height="460" alt="마티아스 신델라르" loading="lazy" /><span>CF</span><strong>마티아스 신델라르</strong><small>오스트리아 · 3경기 1골</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/giuseppe-meazza.png" width="300" height="353" alt="주세페 메아차" loading="lazy" /><span>IR</span><strong>주세페 메아차</strong><small>이탈리아 · 5경기 2골</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/enrique-guaita.png" width="300" height="475" alt="엔리케 과이타" loading="lazy" /><span>OR</span><strong>엔리케 과이타</strong><small>이탈리아 · 4경기 1골</small></div>
   </div>
   <div class="best-xi-line halves">
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/leonardo-cilaurren.jpg" alt="레오나르도 실라우렌" loading="lazy" /><span>LH</span><strong>레오나르도 실라우렌</strong><small>스페인 · 3경기</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/luis-monti.png" alt="루이스 몬티" loading="lazy" /><span>CH</span><strong>루이스 몬티</strong><small>이탈리아 · 5경기</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/attilio-ferraris.png" alt="아틸리오 페라리스" loading="lazy" /><span>RH</span><strong>아틸리오 페라리스</strong><small>이탈리아 · 3경기</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/leonardo-cilaurren.jpg" width="300" height="488" alt="레오나르도 실라우렌" loading="lazy" /><span>LH</span><strong>레오나르도 실라우렌</strong><small>스페인 · 3경기</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/luis-monti.png" width="300" height="371" alt="루이스 몬티" loading="lazy" /><span>CH</span><strong>루이스 몬티</strong><small>이탈리아 · 5경기</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/attilio-ferraris.png" width="300" height="342" alt="아틸리오 페라리스" loading="lazy" /><span>RH</span><strong>아틸리오 페라리스</strong><small>이탈리아 · 3경기</small></div>
   </div>
   <div class="best-xi-line backs">
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/jacinto-quincoces.png" alt="하신토 킨코세스" loading="lazy" /><span>LB</span><strong>하신토 킨코세스</strong><small>스페인 · 3경기</small></div>
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/eraldo-monzeglio.png" alt="에랄도 몬첼리오" loading="lazy" /><span>RB</span><strong>에랄도 몬첼리오</strong><small>이탈리아 · 4경기</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/jacinto-quincoces.png" width="300" height="411" alt="하신토 킨코세스" loading="lazy" /><span>LB</span><strong>하신토 킨코세스</strong><small>스페인 · 3경기</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/eraldo-monzeglio.png" width="300" height="408" alt="에랄도 몬첼리오" loading="lazy" /><span>RB</span><strong>에랄도 몬첼리오</strong><small>이탈리아 · 4경기</small></div>
   </div>
   <div class="best-xi-line keeper">
-    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/ricardo-zamora.jpg" alt="리카르도 사모라" loading="lazy" /><span>GK</span><strong>리카르도 사모라</strong><small>스페인 · 2경기 2실점</small></div>
+    <div><img src="/images/archive/1934-fifa-world-cup-best-xi/players/ricardo-zamora.jpg" width="300" height="401" alt="리카르도 사모라" loading="lazy" /><span>GK</span><strong>리카르도 사모라</strong><small>스페인 · 2경기 2실점</small></div>
   </div>
 </div>
 
 2-3-5 안에 열한 명을 보여주기 위해 원문에 기록한 당대 포지션을 그대로 배열했다. 실라우렌·몬티·페라리스는 풀백 둘과 공격수 다섯 명을 잇는 하프백이며, 오늘날의 수비수와 미드필더 어느 한쪽으로만 옮기기 어려운 역할이다. 공격수 다섯 명도 현대식 스리톱이 아니라 아웃사이드와 인사이드 포워드가 센터 포워드를 둘러싼 구조다.
 
 <div class="best-xi-roster" aria-label="1934 FIFA 월드컵 베스트 11 선수 카드">
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/ricardo-zamora.jpg" alt="리카르도 사모라" loading="lazy" /><div><span>GK · 골키퍼</span><strong>리카르도 사모라</strong><small lang="es">Ricardo Zamora Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" alt="스페인 제2공화국 국기" /> · 2경기 2실점</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/jacinto-quincoces.png" alt="하신토 킨코세스" loading="lazy" /><div><span>FB · 레프트백</span><strong>하신토 킨코세스</strong><small lang="es">Jacinto Quincoces</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" alt="스페인 제2공화국 국기" /> · 3경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/eraldo-monzeglio.png" alt="에랄도 몬첼리오" loading="lazy" /><div><span>FB · 라이트백</span><strong>에랄도 몬첼리오</strong><small lang="it">Eraldo Monzeglio</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> · 4경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/leonardo-cilaurren.jpg" alt="레오나르도 실라우렌" loading="lazy" /><div><span>LH · 레프트 하프</span><strong>레오나르도 실라우렌</strong><small lang="es">Leonardo Cilaurren</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" alt="스페인 제2공화국 국기" /> · 3경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/luis-monti.png" alt="루이스 몬티" loading="lazy" /><div><span>CH · 센터 하프</span><strong>루이스 몬티</strong><small lang="it">Luis Monti</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/attilio-ferraris.png" alt="아틸리오 페라리스" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>아틸리오 페라리스</strong><small lang="it">Attilio Ferraris IV</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> · 3경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/raimundo-orsi.png" alt="라이문도 오르시" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>라이문도 오르시</strong><small lang="it">Raimundo Orsi</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> · 5경기 3골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/oldrich-nejedly.png" alt="올드르지흐 네예들리" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>올드르지흐 네예들리</strong><small lang="cs">Oldřich Nejedlý</small><p>체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /> · 4경기 5골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/matthias-sindelar.png" alt="마티아스 신델라르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>마티아스 신델라르</strong><small lang="de-AT">Matthias Sindelar</small><p>오스트리아 <img class="flag" src="/images/flags/at-1934.svg" alt="오스트리아 국기" /> · 3경기 1골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/giuseppe-meazza.png" alt="주세페 메아차" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>주세페 메아차</strong><small lang="it">Giuseppe Meazza</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> · 5경기 2골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/enrique-guaita.png" alt="엔리케 과이타" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>엔리케 과이타</strong><small lang="it">Enrique Guaita</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /> · 4경기 1골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/ricardo-zamora.jpg" width="300" height="401" alt="리카르도 사모라" loading="lazy" /><div><span>GK · 골키퍼</span><strong>리카르도 사모라</strong><small lang="es">Ricardo Zamora Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" width="30" height="20" alt="스페인 제2공화국 국기" /> · 2경기 2실점</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/jacinto-quincoces.png" width="300" height="411" alt="하신토 킨코세스" loading="lazy" /><div><span>FB · 레프트백</span><strong>하신토 킨코세스</strong><small lang="es">Jacinto Quincoces</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" width="30" height="20" alt="스페인 제2공화국 국기" /> · 3경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/eraldo-monzeglio.png" width="300" height="408" alt="에랄도 몬첼리오" loading="lazy" /><div><span>FB · 라이트백</span><strong>에랄도 몬첼리오</strong><small lang="it">Eraldo Monzeglio</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/leonardo-cilaurren.jpg" width="300" height="488" alt="레오나르도 실라우렌" loading="lazy" /><div><span>LH · 레프트 하프</span><strong>레오나르도 실라우렌</strong><small lang="es">Leonardo Cilaurren</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" width="30" height="20" alt="스페인 제2공화국 국기" /> · 3경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/luis-monti.png" width="300" height="371" alt="루이스 몬티" loading="lazy" /><div><span>CH · 센터 하프</span><strong>루이스 몬티</strong><small lang="it">Luis Monti</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/attilio-ferraris.png" width="300" height="342" alt="아틸리오 페라리스" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>아틸리오 페라리스</strong><small lang="it">Attilio Ferraris IV</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> · 3경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/raimundo-orsi.png" width="300" height="429" alt="라이문도 오르시" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>라이문도 오르시</strong><small lang="it">Raimundo Orsi</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> · 5경기 3골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/oldrich-nejedly.png" width="300" height="375" alt="올드르지흐 네예들리" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>올드르지흐 네예들리</strong><small lang="cs">Oldřich Nejedlý</small><p>체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /> · 4경기 5골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/matthias-sindelar.png" width="300" height="460" alt="마티아스 신델라르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>마티아스 신델라르</strong><small lang="de-AT">Matthias Sindelar</small><p>오스트리아 <img class="flag" src="/images/flags/at-1934.svg" width="30" height="20" alt="오스트리아 국기" /> · 3경기 1골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/giuseppe-meazza.png" width="300" height="353" alt="주세페 메아차" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>주세페 메아차</strong><small lang="it">Giuseppe Meazza</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> · 5경기 2골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/enrique-guaita.png" width="300" height="475" alt="엔리케 과이타" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>엔리케 과이타</strong><small lang="it">Enrique Guaita</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /> · 4경기 1골</p></div></article>
 </div>
 
 ### 사모라와 스페인의 방어선

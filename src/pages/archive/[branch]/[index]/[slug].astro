@@ -64,9 +64,14 @@ const relatedAssets = entry.data.relatedGroup && !hasReadingRoute
         coverImage: record.data.coverImage,
       }))
   : [];
+// 답변 엔진이 물어가는 질문 구조. 원고 frontmatter의 faq가 있을 때만 낸다.
+const faqSchema = entry.data.faq && entry.data.faq.length
+  ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: entry.data.faq.map((item) => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }
+  : null;
 ---
 
 <Layout
+  extraSchema={faqSchema ?? undefined}
   title={entry.data.title}
   description={entry.data.description}
   ogImage={entry.data.coverImage}

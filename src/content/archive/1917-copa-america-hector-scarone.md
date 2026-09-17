@@ -29,9 +29,9 @@ draft: false
 ## 대회 기록
 
 <div class="record-facts">
-  <dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
+  <dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl>
   <dl><dt>대회 기간</dt><dd>1917년 9월 30일-10월 14일</dd></dl>
-  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
+  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl>
   <dl><dt>방식</dt><dd>단일 리그전</dd></dl>
 </div>
 
@@ -39,10 +39,10 @@ draft: false
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 우승</span> | 3승 | 9득점 0실점 |
-| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1패 | 5득점 3실점 |
-| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 1승 2패 | 7득점 8실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 0득점 10실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 우승</span> | 3승 | 9득점 0실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1패 | 5득점 3실점 |
+| 3 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 1승 2패 | 7득점 8실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 3패 | 0득점 10실점 |
 
 <figure>
   <img src="/images/archive/1917-copa-america/uruguay-team.jpg" alt="초기 우루과이 축구 대표팀 선수단" width="773" height="484" loading="lazy" />
@@ -52,9 +52,9 @@ draft: false
 ## 개인 기록
 
 <div class="honours-grid">
-  <div><span>최우수 선수</span><strong>엑토르 스카로네</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
-  <div><span>득점왕</span><strong>앙헬 로마노</strong><small>4골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
-  <div><span>득점 2위</span><strong>카를로스 스카로네</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div>
+  <div><span>최우수 선수</span><strong>엑토르 스카로네</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div>
+  <div><span>득점왕</span><strong>앙헬 로마노</strong><small>4골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div>
+  <div><span>득점 2위</span><strong>카를로스 스카로네</strong><small>3골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div>
 </div>
 
 <figure class="portrait-figure">

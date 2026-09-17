@@ -44,12 +44,12 @@ draft: false
 그 전환의 한쪽에는 리뉘스 미헐스<span class="foreign-note" lang="nl">(Marinus Jacobus Hendricus Michels; 네덜란드 축구 감독, 1928-2005)</span>와 요한 크라위프<span class="foreign-note" lang="nl">(Hendrik Johannes Cruijff; 네덜란드 축구 선수·감독, 1947-2016)</span>가 대표하는 암스테르담 계보가 있었다. 다른 한쪽에는 에른스트 하펠<span class="foreign-note" lang="de">(Ernst Franz Hermann Happel; 오스트리아 축구 선수·감독, 1925-1992)</span>처럼 대륙적 전술 감각을 네덜란드 선수군 위에 씌운 외부 계보가 있었다.
 
 <figure>
-  <img src="/images/history/eredivisie-selling-league/michels-cruyff-european-cup.png" alt="유러피언컵과 함께한 리뉘스 미헐스와 요한 크라위프" />
+  <img src="/images/history/eredivisie-selling-league/michels-cruyff-european-cup.png" width="773" height="454" alt="유러피언컵과 함께한 리뉘스 미헐스와 요한 크라위프" />
   <figcaption>리뉘스 미헐스와 요한 크라위프. 토털 풋볼은 한 사람의 아이디어가 아니라 지도자, 선수, 아카데미와 클럽 문화가 함께 만든 문법이었다.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/history/eredivisie-selling-league/dutch-tactical-lineage.jpg" alt="훈련장에서 대화하는 네덜란드 축구 관계자들" />
+  <img src="/images/history/eredivisie-selling-league/dutch-tactical-lineage.jpg" width="773" height="515" alt="훈련장에서 대화하는 네덜란드 축구 관계자들" />
   <figcaption>네덜란드 축구의 전술 계보는 아약스 하나로 환원되지 않는다. 로테르담의 강도와 실용주의도 그 역사 안에 있었다.</figcaption>
 </figure>
 
@@ -93,15 +93,15 @@ draft: false
 
 <figure class="media-grid media-grid-three">
   <figure>
-    <img src="/images/history/eredivisie-selling-league/feyenoord-1970-final-stadium.jpeg" alt="1970년 유러피언컵 결승 직후 밀라노 산시로 경기장의 페예노르트 선수단과 관중" />
+    <img src="/images/history/eredivisie-selling-league/feyenoord-1970-final-stadium.jpeg" width="773" height="515" alt="1970년 유러피언컵 결승 직후 밀라노 산시로 경기장의 페예노르트 선수단과 관중" />
     <figcaption>1969-70 시즌 페예노르트는 셀틱을 꺾고 네덜란드 클럽 최초로 유러피언컵을 들어 올렸다. 이 우승은 아약스의 전성기가 열리기 전에 로테르담이 먼저 유럽 정복의 문을 열었다는 점, 그리고 네덜란드 축구의 혁신이 한 도시와 한 클럽만의 산물이 아니었다는 점에서 중요하다.</figcaption>
   </figure>
   <figure>
-    <img src="/images/history/eredivisie-selling-league/ajax-cruyff-1973-european-cup.jpg" alt="1973년 유러피언컵 우승 트로피 빅이어를 들어 올리는 아약스 주장 요한 크라위프" />
+    <img src="/images/history/eredivisie-selling-league/ajax-cruyff-1973-european-cup.jpg" width="773" height="512" alt="1973년 유러피언컵 우승 트로피 빅이어를 들어 올리는 아약스 주장 요한 크라위프" />
     <figcaption>1973년 AFC 아약스의 주장 요한 크라위프가 유러피언컵 우승 트로피 ‘빅이어’를 들어 올리고 있다. 뒤편의 아디다스 재킷 차림 인물은 당시 아약스를 이끌던 슈테판 코바치 감독이다. 아약스는 이 우승으로 유러피언컵 3연패를 완성했고, 토털 풋볼을 매력적인 실험이 아니라 유럽을 지배하는 완성된 경기 체계로 증명했다.</figcaption>
   </figure>
   <figure>
-    <img src="/images/history/eredivisie-selling-league/psv-1988.jpg" alt="1988년 유러피언컵 우승을 축하하는 PSV 선수단" />
+    <img src="/images/history/eredivisie-selling-league/psv-1988.jpg" width="773" height="435" alt="1988년 유러피언컵 우승을 축하하는 PSV 선수단" />
     <figcaption>1987-88 시즌 PSV는 에레디비시와 KNVB 베커, 유러피언컵을 모두 차지했다. 아약스식 토털 풋볼의 복제라기보다 조직적 수비와 경기 관리, 효율적인 선수 구성이 만든 또 하나의 네덜란드식 성공이었다. 이 트레블은 리그의 경쟁력이 특정 철학 하나에만 의존하지 않았음을 보여준다.</figcaption>
   </figure>
 </figure>
@@ -115,7 +115,7 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 1990년대 에레디비시의 상대적 하강을 네덜란드 경제 침체로 설명하는 경우가 있다. 그러나 공식 통계가 보여주는 방향은 반대다. 네덜란드 경제는 1990년대 후반 성장과 고용 개선을 경험했다. 국가 경제 전체가 무너졌기 때문에 축구가 무너진 것이 아니다.
 
 <figure class="document-figure">
-  <img src="/images/history/eredivisie-selling-league/oecd-netherlands-economy.png" alt="네덜란드의 주택 가격과 소득 변화를 비교한 OECD 자료" />
+  <img src="/images/history/eredivisie-selling-league/oecd-netherlands-economy.png" width="773" height="638" alt="네덜란드의 주택 가격과 소득 변화를 비교한 OECD 자료" />
   <figcaption>OECD 자료에 따르면 1990년대 네덜란드는 주택 가격 상승과 가처분소득 증가가 동시에 나타난 경제 확장 국면에 있었다. 특히 1991~2002년의 주택 가격 상승률은 OECD 상위 수준이었다. 이는 해당 시기 에레디비시의 상대적 하강을 국가 경제의 침체로 단순 환원하기 어렵다는 근거다. 경제가 멈춘 것이 아니라 축구 산업에서 가치가 만들어지고 분배되는 방식이 더 빠르게 국제화됐다.</figcaption>
 </figure>
 
@@ -136,12 +136,12 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 1995년 보스만 판결은 현대 축구의 노동시장과 이적 체계를 뒤집은 사건이었다. 유럽사법재판소<span class="foreign-note" lang="en">(Court of Justice of the European Union, CJEU; 유럽연합 최고법원)</span>는 계약이 끝난 EU 선수의 회원국 간 이동을 막는 이적료와 국적별 선수 제한이 노동자의 자유로운 이동을 침해한다고 판단했다.
 
 <figure class="portrait-figure">
-  <img src="/images/history/eredivisie-selling-league/jean-marc-bosman.jpg" alt="기자회견 중인 장마르크 보스만" />
+  <img src="/images/history/eredivisie-selling-league/jean-marc-bosman.jpg" width="773" height="510" alt="기자회견 중인 장마르크 보스만" />
   <figcaption>벨기에 축구 선수 장마르크 보스만<span lang="fr">(Jean-Marc Bosman)</span>의 소송으로 시작된 1995년 유럽사법재판소 판결은 ‘계약 만료 뒤 이적료 없는 자유로운 이동’과 ‘EU 회원국 선수에 대한 국적 제한 철폐’를 선언했다. 현대 축구의 이적 체계와 선수 권리를 다시 쓴 판결인 동시에, 임금 지불 능력이 큰 리그가 중소 리그의 완성된 선수를 더 쉽게 흡수할 수 있게 한 제도적 변곡점이었다.</figcaption>
 </figure>
 
 <figure class="document-figure">
-  <img src="/images/history/eredivisie-selling-league/cjeu-explainer.png" alt="유럽사법재판소의 역할을 설명하는 공식 자료" />
+  <img src="/images/history/eredivisie-selling-league/cjeu-explainer.png" width="773" height="617" alt="유럽사법재판소의 역할을 설명하는 공식 자료" />
   <figcaption>유럽사법재판소<span lang="en">(Court of Justice of the European Union, CJEU)</span>는 선결적 판정 권한을 통해 각국 법원이 판단하기 어려운 EU 법의 공통 기준을 제시한다. 1995년 보스만 판결 이후 재판소는 계약이 끝난 선수의 자유 이동을 가로막던 이적료와 회원국 선수 쿼터가 노동자의 자유로운 이동 원칙을 침해한다고 보았다. 재판소가 축구의 경쟁 균형을 해치려 한 것은 아니었다. 다만 단일시장 안에서 축구만 예외적인 노동 규칙을 유지할 수 없다고 판단했고, 그 법적 일관성이 결과적으로 리그 사이의 자본 격차를 더 직접적으로 선수시장에 투영시켰다.</figcaption>
 </figure>
 
@@ -150,14 +150,14 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 다만 여기서 보스만을 모든 것의 원인으로 만들면 또 다른 오류가 생긴다. 판결 이전에도 네덜란드의 스타들은 세리에 A와 라리가로 떠났다. 1993년 데니스 베르흐캄프<span class="foreign-note" lang="nl">(Dennis Nicolaas Maria Bergkamp; 네덜란드 축구 선수, 1969-)</span>와 빔 용크<span class="foreign-note" lang="nl">(Wilhelmus Maria Jonk; 네덜란드 축구 선수·지도자, 1966-)</span>는 인테르로 향했다. 마르코 판바스턴, 뤼트 휠릿과 프랑크 레이카르트는 이미 AC 밀란에서 뛰고 있었다.
 
 <figure>
-  <img src="/images/history/eredivisie-selling-league/bergkamp-jonk-inter.jpg" alt="인테르 입단식의 데니스 베르흐캄프와 빔 용크" />
+  <img src="/images/history/eredivisie-selling-league/bergkamp-jonk-inter.jpg" width="773" height="864" alt="인테르 입단식의 데니스 베르흐캄프와 빔 용크" />
   <figcaption>기회의 땅 이탈리아 세리에 A로 향한 데니스 베르흐캄프와 빔 용크. 베르흐캄프는 인테르에서 기대만큼 적응하지 못했지만 UEFA컵 우승에 기여했고, 1995년 아스널로 옮긴 뒤 이듬해 부임한 아르센 벵거 아래서 프리미어 리그를 대표하는 ‘영혼의 투톱’ 중 한 명이 됐다. 이 장면의 핵심은 성공과 실패가 아니다. 네덜란드의 최정상 선수가 이미 보스만 이전부터 더 큰 임금과 무대를 찾아 이동했다는 사실이다.</figcaption>
 </figure>
 
 보스만 이후 달라진 것은 이동 그 자체가 아니라 **이동을 둘러싼 마찰 비용과 협상력**이었다. 상위 리그는 계약 만료 선수를 훨씬 쉽게 유인했고, 중소 리그는 핵심 선수를 오래 보유하기 위해 더 이른 재계약과 더 빠른 매각 사이에서 선택해야 했다. 1995년 아약스의 유럽 제패를 이끈 파트릭 클라위버르트<span class="foreign-note" lang="nl">(Patrick Stephan Kluivert; 네덜란드 축구 선수·지도자, 1976-)</span>가 1997년 AC 밀란으로 자유 이적한 장면은 그 변화를 상징한다.
 
 <figure>
-  <img src="/images/history/eredivisie-selling-league/kluivert-milan.jpg" alt="AC 밀란 유니폼을 입은 파트릭 클라위버르트" />
+  <img src="/images/history/eredivisie-selling-league/kluivert-milan.jpg" width="773" height="435" alt="AC 밀란 유니폼을 입은 파트릭 클라위버르트" />
   <figcaption>1995년 UEFA 챔피언스 리그 결승에서 결승골을 넣었던 파트릭 클라위버르트는 불과 두 해 뒤 계약 만료와 함께 AC 밀란으로 떠났다. 아약스가 유럽 정상급 선수를 길러냈다는 사실과, 그 선수를 전성기 초입부터 장기간 보유할 수 없었다는 사실이 한 이동 안에 겹쳐 있다. 보스만 이후 에레디비시의 문제는 생산의 실패가 아니라 보유 기간의 급격한 단축이었다.</figcaption>
 </figure>
 
@@ -172,12 +172,12 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 돈의 많고 적음만으로는 이 차이를 다 설명할 수 없다. 막대한 중계권은 리그 전체를 구조적 순구매자로 만든다. 반대로 제한된 방송시장은 유소년과 스카우팅으로 만든 자산을 이적시장에서 현금화해야 하는 유인을 강화한다.
 
 <figure class="document-figure">
-  <img src="/images/history/eredivisie-selling-league/ajax-annual-report.png" alt="아약스 연차보고서 일부" />
+  <img src="/images/history/eredivisie-selling-league/ajax-annual-report.png" width="734" height="865" alt="아약스 연차보고서 일부" />
   <figcaption>아약스 연차보고서에서 유럽대항전 수입과 선수 거래 손익은 해마다 실적을 크게 움직이는 변수로 나타난다. 국내 중계권과 경기일 수입만으로 유럽 최상위 임금 구조를 유지하기 어려운 까닭에, UEFA 챔피언스 리그 진출과 선수 매각이 단순한 부수입이 아니라 전력 재투자를 떠받치는 핵심 축이 된다. 성적이 선수를 비싸게 만들고, 매각이 다음 세대의 육성비를 조달하는 순환이다.</figcaption>
 </figure>
 
 <figure class="document-figure">
-  <img src="/images/history/eredivisie-selling-league/psv-annual-report.png" alt="PSV 연차보고서 발표 자료" />
+  <img src="/images/history/eredivisie-selling-league/psv-annual-report.png" width="773" height="695" alt="PSV 연차보고서 발표 자료" />
   <figcaption>PSV의 연차 실적 역시 네덜란드 선도 클럽이 결코 정체된 조직이 아님을 보여준다. 상업 수입과 경기장 사업, 유럽대항전 수입을 키우며 몸집을 불렸지만 비교 상대인 빅리그 클럽의 방송·상업 수입은 더 빠르게 팽창했다. 에레디비시의 상대적 하강은 성장하지 못해서가 아니라, 성장 속도가 유럽 최상위 시장의 자본 증폭을 따라잡지 못해서 발생했다.</figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ PSV의 1988년 트레블은 또 다른 사실을 말해준다. 네덜란드 축�
 Transfermarkt의 시즌별 집계에서 에레디비시는 장기간 이적수지 흑자를 반복한다. 2025-26시즌도 지출 약 2억4,781만 유로, 수입 약 4억1,953만 유로, 순수지 약 1억7,172만 유로 흑자로 정리된다. 집계는 갱신될 수 있지만 방향은 오랫동안 일관됐다.
 
 <figure class="document-figure">
-  <img src="/images/history/eredivisie-selling-league/league-transfer-balance.png" alt="유럽 주요 리그의 이적수지를 비교한 Transfermarkt 화면" />
+  <img src="/images/history/eredivisie-selling-league/league-transfer-balance.png" width="691" height="551" alt="유럽 주요 리그의 이적수지를 비교한 Transfermarkt 화면" />
   <figcaption>주요 리그의 이적수지 비교는 에레디비시의 사업 모델을 압축해 보여준다. 리그는 완성된 스타를 비싸게 사서 장기간 소비하는 시장이 아니라, 상대적으로 낮은 비용으로 발굴한 선수를 경기 출전과 유럽대항전을 통해 고도화한 뒤 더 큰 시장에 판매한다. 지속적인 흑자는 건전성의 증거인 동시에, 최고 전력을 유지하려면 그 전력의 핵심을 반복해서 현금화해야 한다는 구조적 제약의 기록이다.</figcaption>
 </figure>
 
@@ -203,7 +203,7 @@ Transfermarkt의 시즌별 집계에서 에레디비시는 장기간 이적수�
 그러나 그 전문화에는 분명한 대가가 있다. UEFA 챔피언스 리그에서 경쟁할 팀을 만들 때마다 성공의 주역들이 흩어진다. 다음 세대를 다시 만드는 능력은 남지만, 한 세대가 충분히 오래 함께 머물며 유럽의 질서를 바꿀 시간은 사라진다. **훈련 보상과 이적수익은 아카데미의 손실을 메울 수 있어도 우승권 전력을 보존해주지는 않는다.**
 
 <figure class="document-figure">
-  <img src="/images/history/eredivisie-selling-league/uefa-coefficient-snapshot.png" alt="유럽 리그 계수를 비교한 화면" />
+  <img src="/images/history/eredivisie-selling-league/uefa-coefficient-snapshot.png" width="773" height="458" alt="유럽 리그 계수를 비교한 화면" />
   <figcaption>최근 UEFA 리그 계수에서 네덜란드는 다시 6~7위권 경쟁력을 회복했다. 이는 에레디비시의 교육과 전술 생산력이 소멸하지 않았다는 반증이다. 다만 한 시즌의 유럽 성과가 곧 핵심 선수의 시장가치 상승과 이적으로 이어지기 쉬워, 상승세를 동일 선수단으로 장기간 축적하기 어렵다. 경쟁력은 주기적으로 재생되지만 패권은 누적되지 않는다.</figcaption>
 </figure>
 

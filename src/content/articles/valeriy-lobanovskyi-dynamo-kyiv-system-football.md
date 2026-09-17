@@ -115,10 +115,10 @@ draft: false
 <section class="vl-record" aria-label="로바노우스키의 디나모 키이우 주요 우승 기록">
   <header><span>DINAMO KYIV · MAJOR HONOURS</span><strong>반복된 체계가 남긴 숫자</strong></header>
   <div>
-    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/soviet-top-league.svg" alt="" aria-hidden="true" /><b>8</b><span>소비에트 톱리그</span></p>
-    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/soviet-cup.svg" alt="" aria-hidden="true" /><b>6</b><span>소비에트컵</span></p>
-    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/cup-winners-cup.svg" alt="" aria-hidden="true" /><b>2</b><span>유러피언 컵위너스컵</span></p>
-    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/uefa-super-cup.svg" alt="" aria-hidden="true" /><b>1</b><span>UEFA 슈퍼컵</span></p>
+    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/soviet-top-league.svg" width="240" height="360" alt="" aria-hidden="true" /><b>8</b><span>소비에트 톱리그</span></p>
+    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/soviet-cup.svg" width="240" height="360" alt="" aria-hidden="true" /><b>6</b><span>소비에트컵</span></p>
+    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/cup-winners-cup.svg" width="316" height="472" alt="" aria-hidden="true" /><b>2</b><span>유러피언 컵위너스컵</span></p>
+    <p><img src="/images/tactics/valeriy-lobanovskyi/trophies/uefa-super-cup.svg" width="23" height="50" alt="" aria-hidden="true" /><b>1</b><span>UEFA 슈퍼컵</span></p>
   </div>
 </section>
 

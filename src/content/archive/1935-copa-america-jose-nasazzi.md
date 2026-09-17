@@ -21,20 +21,20 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1935년 1월 6-27일</dd></dl><dl><dt>참가국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>리마</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1935년 1월 6-27일</dd></dl><dl><dt>참가국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>리마</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 일곱 번째 우승</span> | 3승 | 6득점 1실점 |
-| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 일곱 번째 준우승</span> | 2승 1패 | 8득점 5실점 |
-| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1승 2패 | 2득점 5실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 2득점 7실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 일곱 번째 우승</span> | 3승 | 6득점 1실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 일곱 번째 준우승</span> | 2승 1패 | 8득점 5실점 |
+| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 1승 2패 | 2득점 5실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 3패 | 2득점 7실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 나사시</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>득점왕</span><strong>에르미니오 마산토니오</strong><small>4골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>대회 성적</span><strong>3전 전승</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 나사시</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div><div><span>득점왕</span><strong>에르미니오 마산토니오</strong><small>4골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>대회 성적</span><strong>3전 전승</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div></div>
 
 ## 여담
 

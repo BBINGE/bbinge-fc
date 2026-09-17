@@ -21,21 +21,21 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1941년 2월 2일-3월 4일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>5개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>산티아고</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1941년 2월 2일-3월 4일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>5개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>산티아고</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 여섯 번째 우승</span> | 4승 | 10득점 2실점 |
-| 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 3승 1패 | 10득점 1실점 |
-| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 두 번째 3위</span> | 2승 2패 | 6득점 3실점 |
-| 4 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 1승 3패 | 5득점 5실점 |
-| 5 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 4패 | 1득점 21실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 여섯 번째 우승</span> | 4승 | 10득점 2실점 |
+| 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 3승 1패 | 10득점 1실점 |
+| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> <span class="placement-count">통산 두 번째 3위</span> | 2승 2패 | 6득점 3실점 |
+| 4 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> <span class="placement-count">통산 두 번째 4위</span> | 1승 3패 | 5득점 5실점 |
+| 5 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 4패 | 1득점 21실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>세르히오 리빙스턴</strong><small>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></small></div><div><span>득점왕</span><strong>후안 마르베시</strong><small>5골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>우승 성적</span><strong>4전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>세르히오 리빙스턴</strong><small>칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /></small></div><div><span>득점왕</span><strong>후안 마르베시</strong><small>5골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>우승 성적</span><strong>4전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 

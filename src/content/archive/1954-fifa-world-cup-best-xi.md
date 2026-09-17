@@ -34,7 +34,7 @@ relatedGroup: 'fifa-world-cup-1954'
 
 ## 가장 많은 골이 나온 월드컵
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>스위스 <img class="flag" src="/images/flags/ch.svg" alt="스위스 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1954년 6월 16일-7월 4일</dd></dl><dl><dt>본선 참가</dt><dd>16개국</dd></dl><dl><dt>경기 수</dt><dd>26경기 · 140골</dd></dl><dl><dt>우승</dt><dd>서독 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>코치시 샨도르 · 11골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>스위스 <img class="flag" src="/images/flags/ch.svg" width="30" height="20" alt="스위스 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1954년 6월 16일-7월 4일</dd></dl><dl><dt>본선 참가</dt><dd>16개국</dd></dl><dl><dt>경기 수</dt><dd>26경기 · 140골</dd></dl><dl><dt>우승</dt><dd>서독 <span class="placement-count">첫 번째 우승</span></dd></dl><dl><dt>득점왕</dt><dd>코치시 샨도르 · 11골</dd></dl></div>
 
 1954년 대회에서는 경기당 5.38골이 나왔다. 월드컵 역사상 가장 높은 경기당 득점 기록이다. 오스트리아가 개최국 스위스를 7-5로 꺾은 8강전은 지금도 월드컵 한 경기 최다 득점 기록이고, 헝가리의 27골은 한 대회 팀 최다 득점으로 남아 있다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
@@ -50,10 +50,10 @@ relatedGroup: 'fifa-world-cup-1954'
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 서독 <img class="flag" src="/images/flags/de.svg" alt="서독 국기" /> <span class="placement-count">첫 번째 우승</span> | 5승 1패 | 25득점 14실점 |
-| 준우승 | 헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> <span class="placement-count">두 번째 준우승</span> | 4승 1패 | 27득점 10실점 |
-| 3위 | 오스트리아 <img class="flag" src="/images/flags/at.svg" alt="오스트리아 국기" /> <span class="placement-count">첫 번째 3위</span> | 4승 1패 | 17득점 12실점 |
-| 4위 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">첫 번째 4위</span> | 3승 2패 | 16득점 9실점 |
+| 우승 | 서독 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="서독 국기" /> <span class="placement-count">첫 번째 우승</span> | 5승 1패 | 25득점 14실점 |
+| 준우승 | 헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> <span class="placement-count">두 번째 준우승</span> | 4승 1패 | 27득점 10실점 |
+| 3위 | 오스트리아 <img class="flag" src="/images/flags/at.svg" width="640" height="480" alt="오스트리아 국기" /> <span class="placement-count">첫 번째 3위</span> | 4승 1패 | 17득점 12실점 |
+| 4위 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">첫 번째 4위</span> | 3승 2패 | 16득점 9실점 |
 
 <figure><img src="/images/archive/1954-fifa-world-cup-best-xi/magic-magyars.png" alt="1950년대 헝가리 축구 국가대표팀 선수단" loading="lazy" width="966" height="608" /><figcaption>전 세계 축구사에서 가장 강한 팀 가운데 하나로 평가되는 헝가리의 아라니처파트. 국내에서는 ‘매직 마자르’라는 이름으로 널리 알려졌다.</figcaption></figure>
 
@@ -67,36 +67,36 @@ relatedGroup: 'fifa-world-cup-1954'
 
 <div class="best-xi" aria-label="1954 FIFA 월드컵 당대 베스트 11 배치">
   <div class="best-xi-line forwards-three">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><span>IR</span><strong>코치시 샨도르</strong><small>헝가리 · 5경기 11골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><span>IL</span><strong>푸슈카시 페렌츠</strong><small>헝가리 · 3경기 4골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" alt="히데그쿠티 난도르" loading="lazy" /><span>CF</span><strong>히데그쿠티 난도르</strong><small>헝가리 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" width="300" height="449" alt="코치시 샨도르" loading="lazy" /><span>IR</span><strong>코치시 샨도르</strong><small>헝가리 · 5경기 11골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" width="300" height="383" alt="푸슈카시 페렌츠" loading="lazy" /><span>IL</span><strong>푸슈카시 페렌츠</strong><small>헝가리 · 3경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" width="300" height="450" alt="히데그쿠티 난도르" loading="lazy" /><span>CF</span><strong>히데그쿠티 난도르</strong><small>헝가리 · 4경기 4골</small></div>
   </div>
   <div class="best-xi-line midfield-three">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" alt="헬무트 란" loading="lazy" /><span>OR</span><strong>헬무트 란</strong><small>서독 · 4경기 4골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" alt="보지크 요제프" loading="lazy" /><span>RH</span><strong>보지크 요제프</strong><small>헝가리 · 5경기</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><span>IL</span><strong>프리츠 발터</strong><small>서독 · 6경기 3골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" width="300" height="402" alt="헬무트 란" loading="lazy" /><span>OR</span><strong>헬무트 란</strong><small>서독 · 4경기 4골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" width="300" height="449" alt="보지크 요제프" loading="lazy" /><span>RH</span><strong>보지크 요제프</strong><small>헝가리 · 5경기</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" width="300" height="320" alt="프리츠 발터" loading="lazy" /><span>IL</span><strong>프리츠 발터</strong><small>서독 · 6경기 3골</small></div>
   </div>
   <div class="best-xi-line backs-four">
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" alt="치보르 졸탄" loading="lazy" /><span>OL</span><strong>치보르 졸탄</strong><small>헝가리 · 5경기 3골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" alt="호세 산타마리아" loading="lazy" /><span>FB</span><strong>산타마리아</strong><small>우루과이 · 5경기</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" alt="에른스트 오크비르크" loading="lazy" /><span>CH</span><strong>에른스트 오크비르크</strong><small>오스트리아 · 5경기 2골</small></div>
-    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" alt="자우마 산투스" loading="lazy" /><span>FB</span><strong>자우마 산투스</strong><small>브라질 · 3경기 1골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" width="300" height="462" alt="치보르 졸탄" loading="lazy" /><span>OL</span><strong>치보르 졸탄</strong><small>헝가리 · 5경기 3골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" width="300" height="474" alt="호세 산타마리아" loading="lazy" /><span>FB</span><strong>산타마리아</strong><small>우루과이 · 5경기</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" width="300" height="435" alt="에른스트 오크비르크" loading="lazy" /><span>CH</span><strong>에른스트 오크비르크</strong><small>오스트리아 · 5경기 2골</small></div>
+    <div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" width="300" height="410" alt="자우마 산투스" loading="lazy" /><span>FB</span><strong>자우마 산투스</strong><small>브라질 · 3경기 1골</small></div>
   </div>
-  <div class="best-xi-line keeper"><div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" alt="그로시치 줄러" loading="lazy" /><span>GK</span><strong>그로시치 줄러</strong><small>헝가리 · 5경기</small></div></div>
+  <div class="best-xi-line keeper"><div><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" width="300" height="392" alt="그로시치 줄러" loading="lazy" /><span>GK</span><strong>그로시치 줄러</strong><small>헝가리 · 5경기</small></div></div>
 </div>
 
 <div class="best-xi-roster" aria-label="1954 FIFA 월드컵 베스트 11 선수 카드">
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" alt="그로시치 줄러" loading="lazy" /><div><span>GK · 골키퍼</span><strong>그로시치 줄러</strong><small lang="hu">Grosics Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" alt="치보르 졸탄" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>치보르 졸탄</strong><small lang="hu">Czibor Zoltán</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기 3골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" alt="호세 산타마리아" loading="lazy" /><div><span>FB · 풀백</span><strong>호세 산타마리아</strong><small lang="es-UY">José Emilio Santamaría Iglesias</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" alt="에른스트 오크비르크" loading="lazy" /><div><span>CH · 센터 하프</span><strong>에른스트 오크비르크</strong><small lang="de-AT">Ernst Ocwirk</small><p>오스트리아 <img class="flag" src="/images/flags/at.svg" alt="오스트리아 국기" /> · 5경기 2골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" alt="자우마 산투스" loading="lazy" /><div><span>FB · 풀백</span><strong>자우마 산투스</strong><small lang="pt-BR">Djalma Pereira Dias dos Santos</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 3경기 1골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" alt="헬무트 란" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>헬무트 란</strong><small lang="de">Helmut Rahn</small><p>서독 <img class="flag" src="/images/flags/de.svg" alt="서독 국기" /> · 4경기 4골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" alt="보지크 요제프" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>보지크 요제프</strong><small lang="hu">Bozsik József</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" alt="프리츠 발터" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>프리츠 발터</strong><small lang="de">Friedrich Walter</small><p>서독 <img class="flag" src="/images/flags/de.svg" alt="서독 국기" /> · 6경기 3골 · 주장</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" alt="코치시 샨도르" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>코치시 샨도르</strong><small lang="hu">Kocsis Sándor Péter</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 5경기 11골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" alt="푸슈카시 페렌츠" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>푸슈카시 페렌츠</strong><small lang="hu">Puskás Ferenc</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 3경기 4골 · 주장</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" alt="히데그쿠티 난도르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>히데그쿠티 난도르</strong><small lang="hu">Hidegkuti Nándor</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 4경기 4골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/gyula-grosics.png" width="300" height="392" alt="그로시치 줄러" loading="lazy" /><div><span>GK · 골키퍼</span><strong>그로시치 줄러</strong><small lang="hu">Grosics Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/zoltan-czibor.png" width="300" height="462" alt="치보르 졸탄" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>치보르 졸탄</strong><small lang="hu">Czibor Zoltán</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 5경기 3골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jose-santamaria.png" width="300" height="474" alt="호세 산타마리아" loading="lazy" /><div><span>FB · 풀백</span><strong>호세 산타마리아</strong><small lang="es-UY">José Emilio Santamaría Iglesias</small><p>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ernst-ocwirk.png" width="300" height="435" alt="에른스트 오크비르크" loading="lazy" /><div><span>CH · 센터 하프</span><strong>에른스트 오크비르크</strong><small lang="de-AT">Ernst Ocwirk</small><p>오스트리아 <img class="flag" src="/images/flags/at.svg" width="640" height="480" alt="오스트리아 국기" /> · 5경기 2골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/djalma-santos.png" width="300" height="410" alt="자우마 산투스" loading="lazy" /><div><span>FB · 풀백</span><strong>자우마 산투스</strong><small lang="pt-BR">Djalma Pereira Dias dos Santos</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 3경기 1골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/helmut-rahn.png" width="300" height="402" alt="헬무트 란" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>헬무트 란</strong><small lang="de">Helmut Rahn</small><p>서독 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="서독 국기" /> · 4경기 4골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/jozsef-bozsik.png" width="300" height="449" alt="보지크 요제프" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>보지크 요제프</strong><small lang="hu">Bozsik József</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 5경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/fritz-walter.png" width="300" height="320" alt="프리츠 발터" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>프리츠 발터</strong><small lang="de">Friedrich Walter</small><p>서독 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="서독 국기" /> · 6경기 3골 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/sandor-kocsis.png" width="300" height="449" alt="코치시 샨도르" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>코치시 샨도르</strong><small lang="hu">Kocsis Sándor Péter</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 5경기 11골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/ferenc-puskas.png" width="300" height="383" alt="푸슈카시 페렌츠" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>푸슈카시 페렌츠</strong><small lang="hu">Puskás Ferenc</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 3경기 4골 · 주장</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1954-fifa-world-cup-best-xi/roster/nandor-hidegkuti.png" width="300" height="450" alt="히데그쿠티 난도르" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>히데그쿠티 난도르</strong><small lang="hu">Hidegkuti Nándor</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 4경기 4골</p></div></article>
 </div>
 
 ### 골문에서 하프라인까지

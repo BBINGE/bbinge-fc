@@ -21,9 +21,9 @@ relatedGroup: 'fifa-world-cup-1934'
 <div class="match-board" aria-label="1934 FIFA 월드컵 결승전 결과">
   <p>1934 FIFA WORLD CUP · FINAL</p>
   <div class="match-board-teams">
-    <div><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
+    <div><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
     <span><b>2</b><em>AFTER EXTRA TIME</em><b>1</b></span>
-    <div><img src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /><strong>체코슬로바키아</strong><small>CZECHOSLOVAKIA</small></div>
+    <div><img src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /><strong>체코슬로바키아</strong><small>CZECHOSLOVAKIA</small></div>
   </div>
   <dl><div><dt>날짜</dt><dd>1934년 6월 10일</dd></div><div><dt>장소</dt><dd>스타디오 나치오날레 PNF</dd></div><div><dt>90분</dt><dd>1-1</dd></div><div><dt>연장</dt><dd>2-1</dd></div></dl>
 </div>
@@ -56,9 +56,9 @@ relatedGroup: 'fifa-world-cup-1934'
 <div class="world-cup-transition half-time-card" aria-label="전반 종료, 이탈리아 0대0 체코슬로바키아">
   <div class="transition-kicker"><span>1934 FIFA WORLD CUP</span><b>FINAL · ROMA</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
+    <div class="transition-team"><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
     <div class="transition-numbers"><span>0</span><em>HALF<br />TIME</em><span>0</span></div>
-    <div class="transition-team"><img src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /><strong>체코슬로바키아</strong><small>CZECHOSLOVAKIA</small></div>
+    <div class="transition-team"><img src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /><strong>체코슬로바키아</strong><small>CZECHOSLOVAKIA</small></div>
   </div>
   <p>45 MINUTES · THE FINAL STAYS LEVEL</p>
 </div>
@@ -82,9 +82,9 @@ relatedGroup: 'fifa-world-cup-1934'
 <div class="world-cup-transition half-time-card" aria-label="정규시간 종료, 이탈리아 1대1 체코슬로바키아">
   <div class="transition-kicker"><span>1934 FIFA WORLD CUP</span><b>FINAL · EXTRA TIME</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
+    <div class="transition-team"><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
     <div class="transition-numbers"><span>1</span><em>90<br />MINUTES</em><span>1</span></div>
-    <div class="transition-team"><img src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /><strong>체코슬로바키아</strong><small>CZECHOSLOVAKIA</small></div>
+    <div class="transition-team"><img src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /><strong>체코슬로바키아</strong><small>CZECHOSLOVAKIA</small></div>
   </div>
   <p>THE FIRST WORLD CUP FINAL TO REACH EXTRA TIME</p>
 </div>
@@ -104,7 +104,7 @@ relatedGroup: 'fifa-world-cup-1934'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>10 JUNE 1934</span><b>STADIO NAZIONALE PNF · ROMA</b></div>
   <div class="poster-copy"><small>AFTER EXTRA TIME · ITALY 2-1 CZECHOSLOVAKIA</small><strong>아주리의<br />첫 세계 정상</strong><p>ITALY · WORLD CHAMPIONS FOR THE FIRST TIME</p></div>
-  <div class="poster-winner"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><span>CAMPIONE<br /><b>ITALIA</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><span>CAMPIONE<br /><b>ITALIA</b></span></div>
 </div>
 
 1930년 초대 대회에는 참가하지 않았던 이탈리아가 자국에서 열린 첫 월드컵에서 곧바로 우승했다. 포초는 월드컵 정상에 오른 첫 유럽인 감독이 됐고, 4년 뒤 프랑스에서도 같은 자리를 지켰다. 다만 이 승리를 경기장 안의 이야기로만 미화할 수는 없다. 파시스트 정권은 월드컵을 국가 선전의 무대로 사용했고, 경기장 이름과 별도의 ‘코파 델 두체’까지 그 정치적 배경을 그대로 드러냈다.

@@ -101,7 +101,7 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 
 ## 이스탄불에서 아테네까지
 
-<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/kaka/kaka-milan-2007.webp" alt="AC 밀란 유니폼을 입고 두 팔을 들어 올린 카카" loading="lazy" /><figcaption>2005년 이스탄불의 패배를 지나 2007년 아테네에서 유럽 정상에 오른 카카.</figcaption></figure>
+<figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/kaka/kaka-milan-2007.webp" width="3000" height="1989" alt="AC 밀란 유니폼을 입고 두 팔을 들어 올린 카카" loading="lazy" /><figcaption>2005년 이스탄불의 패배를 지나 2007년 아테네에서 유럽 정상에 오른 카카.</figcaption></figure>
 
 2005년 UEFA 챔피언스 리그 결승 전반, 카카는 리버풀 수비 사이로 돌아선 뒤 크레스포에게 믿기 어려울 만큼 정확한 스루패스를 보냈다. 밀란은 3-0으로 앞섰지만 후반 여섯 분 사이 세 골을 내주고 승부차기에서 졌다. 카카 최고의 패스 가운데 하나는 축구사에서 가장 유명한 역전패의 일부가 됐다.
 
@@ -140,11 +140,11 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid">
-  <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>155경기 · 51골</small></div>
-  <div><img src="/images/archive/legends/kaka/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2009 · 2013-14</span><small>307경기 · 104골</small></div>
-  <div><img src="/images/archive/legends/kaka/club-real-madrid.svg" alt="레알 마드리드 CF 문장" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
-  <div><img src="/images/archive/legends/kaka/club-orlando-city.svg" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>78경기 · 25골</small></div>
-  <div><img src="/images/archive/legends/kaka/club-brazil.webp" alt="브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>2002-2016</span><small>92경기 · 29골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-sao-paulo.svg" width="350" height="349" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>2001-2003 · 2014</span><small>155경기 · 51골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-milan.svg" width="361" height="566" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2009 · 2013-14</span><small>307경기 · 104골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-real-madrid.svg" width="143" height="200" alt="레알 마드리드 CF 문장" /><strong>레알 마드리드</strong><span>2009-2013</span><small>120경기 · 29골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-orlando-city.svg" width="220" height="252" alt="올랜도 시티 SC 문장" /><strong>올랜도 시티</strong><span>2015-2017</span><small>78경기 · 25골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-brazil.webp" width="580" height="581" alt="브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>2002-2016</span><small>92경기 · 29골</small></div>
 </div>
 
 <p class="record-note">클럽 통산 기록은 대회·친선 경기와 도움 집계 범위에 따라 자료별 차이가 커서, 공식 구단 자료로 확인되는 밀란과 레알 마드리드의 공식전 수치를 우선했다. 브라질 대표팀의 마지막 출전은 2016년이며 2017년은 선수 은퇴 연도다.</p>
@@ -179,8 +179,8 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 ## 대표 우승 경력
 
 <div class="trophy-feature-grid">
-  <div class="trophy-card world"><img src="/images/about-world-cup-trophy.webp" alt="" /><span>BRAZIL</span><strong>FIFA 월드컵</strong><small>2002년 우승팀의 막내</small></div>
-  <div class="trophy-card champions"><img src="/images/about-champions-league-trophy.webp" alt="" /><span>AC MILAN</span><strong>UEFA 챔피언스 리그</strong><small>2005년 준우승 · 2007년 우승</small></div>
+  <div class="trophy-card world"><img src="/images/about-world-cup-trophy.webp" width="640" height="960" alt="" /><span>BRAZIL</span><strong>FIFA 월드컵</strong><small>2002년 우승팀의 막내</small></div>
+  <div class="trophy-card champions"><img src="/images/about-champions-league-trophy.webp" width="640" height="960" alt="" /><span>AC MILAN</span><strong>UEFA 챔피언스 리그</strong><small>2005년 준우승 · 2007년 우승</small></div>
   <div class="trophy-card libertadores"><span>2007</span><strong>발롱도르</strong><small>호날두와 메시를 앞선 세계 1위</small></div>
 </div>
 

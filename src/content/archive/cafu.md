@@ -111,13 +111,13 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid">
-  <div><img src="/images/archive/legends/cafu/club-sao-paulo.svg" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>1989-1995</span><small>216경기 · 33골</small></div>
-  <div><img src="/images/archive/legends/cafu/club-zaragoza.png" alt="1951년형 레알 사라고사 문장" /><strong>레알 사라고사</strong><span>1995</span><small>16경기</small></div>
-  <div><img src="/images/archive/legends/cafu/club-juventude.svg" alt="EC 주벤투지 문장" /><strong>EC 주벤투지</strong><span>1995</span><small>4경기</small></div>
-  <div><img src="/images/archive/legends/cafu/club-palmeiras.svg" alt="SE 파우메이라스 문장" /><strong>SE 파우메이라스</strong><span>1995-1997</span><small>41경기 · 2골</small></div>
-  <div><img src="/images/archive/legends/cafu/club-roma.svg" alt="AS 로마 1990년대형 문장" /><strong>AS 로마</strong><span>1997-2003</span><small>218경기 · 8골</small></div>
-  <div><img src="/images/archive/legends/cafu/club-milan.svg" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2008</span><small>166경기 · 4골</small></div>
-  <div><img src="/images/archive/legends/cafu/club-brazil.webp" alt="1994-2002년형 브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>1990-2006</span><small>142경기 · 5골</small></div>
+  <div><img src="/images/archive/legends/cafu/club-sao-paulo.svg" width="350" height="349" alt="상파울루 FC 문장" /><strong>상파울루 FC</strong><span>1989-1995</span><small>216경기 · 33골</small></div>
+  <div><img src="/images/archive/legends/cafu/club-zaragoza.png" width="600" height="600" alt="1951년형 레알 사라고사 문장" /><strong>레알 사라고사</strong><span>1995</span><small>16경기</small></div>
+  <div><img src="/images/archive/legends/cafu/club-juventude.svg" width="100" height="100" alt="EC 주벤투지 문장" /><strong>EC 주벤투지</strong><span>1995</span><small>4경기</small></div>
+  <div><img src="/images/archive/legends/cafu/club-palmeiras.svg" width="300" height="300" alt="SE 파우메이라스 문장" /><strong>SE 파우메이라스</strong><span>1995-1997</span><small>41경기 · 2골</small></div>
+  <div><img src="/images/archive/legends/cafu/club-roma.svg" width="278" height="360" alt="AS 로마 1990년대형 문장" /><strong>AS 로마</strong><span>1997-2003</span><small>218경기 · 8골</small></div>
+  <div><img src="/images/archive/legends/cafu/club-milan.svg" width="361" height="566" alt="AC 밀란 문장" /><strong>AC 밀란</strong><span>2003-2008</span><small>166경기 · 4골</small></div>
+  <div><img src="/images/archive/legends/cafu/club-brazil.webp" width="580" height="581" alt="1994-2002년형 브라질 대표팀 문장" /><strong>브라질 대표팀</strong><span>1990-2006</span><small>142경기 · 5골</small></div>
 </div>
 
 <p class="record-note">클럽별 통산 경기 수는 친선 경기 포함 여부 등 집계 범위에 따라 차이가 있다. 로마와 밀란은 각 구단 공식 명예의 전당, 대표팀은 FIFA 집계를 우선했다.</p>
@@ -154,9 +154,9 @@ draft: false
 ## 대표 우승 경력
 
 <div class="trophy-feature-grid">
-  <div class="trophy-card world"><img src="/images/about-world-cup-trophy.webp" alt="" /><span>BRAZIL</span><strong>FIFA 월드컵</strong><small>두 번의 우승 · 세 번의 결승</small></div>
-  <div class="trophy-card libertadores"><img src="/images/archive/legends/cafu/copa-libertadores-trophy.png" alt="" /><span>SÃO PAULO</span><strong>코파 리베르타도레스</strong><small>남미 2연패</small></div>
-  <div class="trophy-card champions"><img src="/images/about-champions-league-trophy.webp" alt="" /><span>AC MILAN</span><strong>UEFA 챔피언스 리그</strong><small>2005년 준우승 · 2007년 우승</small></div>
+  <div class="trophy-card world"><img src="/images/about-world-cup-trophy.webp" width="640" height="960" alt="" /><span>BRAZIL</span><strong>FIFA 월드컵</strong><small>두 번의 우승 · 세 번의 결승</small></div>
+  <div class="trophy-card libertadores"><img src="/images/archive/legends/cafu/copa-libertadores-trophy.png" width="500" height="1202" alt="" /><span>SÃO PAULO</span><strong>코파 리베르타도레스</strong><small>남미 2연패</small></div>
+  <div class="trophy-card champions"><img src="/images/about-champions-league-trophy.webp" width="640" height="960" alt="" /><span>AC MILAN</span><strong>UEFA 챔피언스 리그</strong><small>2005년 준우승 · 2007년 우승</small></div>
 </div>
 
 <div class="career-honours">

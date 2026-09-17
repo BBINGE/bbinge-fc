@@ -25,20 +25,20 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1924년 10월 12일-11월 2일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>몬테비데오</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1924년 10월 12일-11월 2일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>몬테비데오</dd></dl></div>
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 다섯 번째 우승</span> | 2승 1무 | 8득점 1실점 |
-| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 다섯 번째 준우승</span> | 1승 2무 | 2득점 0실점 |
-| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 1승 1무 1패 | 4득점 4실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 1득점 10실점 |
+| 1 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 다섯 번째 우승</span> | 2승 1무 | 8득점 1실점 |
+| 2 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 다섯 번째 준우승</span> | 1승 2무 | 2득점 0실점 |
+| 3 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> | 1승 1무 1패 | 4득점 4실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 3패 | 1득점 10실점 |
 
 <figure><img src="/images/archive/1924-copa-america/source-1.jpg" alt="1924년 우루과이 축구 관련 역사 사진" width="773" height="387" loading="lazy" /><figcaption>1924년 우루과이 축구의 한 장면을 담은 역사 사진.</figcaption></figure>
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>페드로 페트로네</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>득점왕</span><strong>페드로 페트로네</strong><small>4골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>득점 2위</span><strong>앙헬 로마노 · 일데폰소 로페스</strong><small>각 2골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>페드로 페트로네</strong><small>우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div><div><span>득점왕</span><strong>페드로 페트로네</strong><small>4골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div><div><span>득점 2위</span><strong>앙헬 로마노 · 일데폰소 로페스</strong><small>각 2골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /></small></div></div>
 
 ## 여담
 

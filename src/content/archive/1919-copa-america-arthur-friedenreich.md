@@ -33,9 +33,9 @@ draft: false
 ## 대회 기록
 
 <div class="record-facts">
-  <dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl>
+  <dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></dd></dl>
   <dl><dt>대회 기간</dt><dd>1919년 5월 11일-29일</dd></dl>
-  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl>
+  <dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl>
   <dl><dt>방식</dt><dd>단일 리그전 + 우승 결정전</dd></dl>
   <dl><dt>경기장</dt><dd>이스타지우 다스 라랑제이라스, 히우지자네이루</dd></dl>
 </div>
@@ -44,10 +44,10 @@ draft: false
 
 | 순위 | 국가 | 리그 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 첫 번째 우승</span> | 2승 1무 | 11득점 3실점 |
-| 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 첫 번째 준우승</span> | 2승 1무 | 7득점 4실점 |
-| 3 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 1승 2패 | 7득점 7실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3패 | 1득점 12실점 |
+| 1 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">통산 첫 번째 우승</span> | 2승 1무 | 11득점 3실점 |
+| 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 첫 번째 준우승</span> | 2승 1무 | 7득점 4실점 |
+| 3 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | 1승 2패 | 7득점 7실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 3패 | 1득점 12실점 |
 
 <p class="record-note">브라질과 우루과이는 리그에서 승점뿐 아니라 골득실까지 같았다. 위 순위는 5월 29일 브라질이 별도 우승 결정전에서 우루과이를 1-0으로 꺾은 결과를 반영한다.</p>
 
@@ -59,9 +59,9 @@ draft: false
 ## 개인 기록
 
 <div class="honours-grid">
-  <div><span>최우수 선수</span><strong>아르투르 프리덴라이히</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></small></div>
-  <div><span>공동 득점왕</span><strong>아르투르 프리덴라이히</strong><small>4골 · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></small></div>
-  <div><span>공동 득점왕</span><strong>네쿠</strong><small>4골 · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></small></div>
+  <div><span>최우수 선수</span><strong>아르투르 프리덴라이히</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></small></div>
+  <div><span>공동 득점왕</span><strong>아르투르 프리덴라이히</strong><small>4골 · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></small></div>
+  <div><span>공동 득점왕</span><strong>네쿠</strong><small>4골 · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></small></div>
 </div>
 
 <figure class="portrait-figure">

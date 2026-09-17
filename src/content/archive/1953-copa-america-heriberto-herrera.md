@@ -22,25 +22,25 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최 주체</dt><dd>파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></dd></dl><dl><dt>개최지</dt><dd>페루 리마 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1953년 2월 22일-4월 1일</dd></dl><dl><dt>참가국</dt><dd>파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전 · 동률 시 우승 결정전</dd></dl><dl><dt>경기장</dt><dd>에스타디오 나시오날 · 리마</dd></dl></div>
+<div class="record-facts"><dl><dt>개최 주체</dt><dd>파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /></dd></dl><dl><dt>개최지</dt><dd>페루 리마 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1953년 2월 22일-4월 1일</dd></dl><dl><dt>참가국</dt><dd>파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전 · 동률 시 우승 결정전</dd></dl><dl><dt>경기장</dt><dd>에스타디오 나시오날 · 리마</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 리그전 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">우승 결정전 3-2 승</span> | 3승 2무 1패 | 11득점 6실점 |
-| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 여섯 번째 준우승</span> | 4승 2패 | 15득점 6실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 여섯 번째 3위</span> | 3승 1무 2패 | 15득점 6실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 아홉 번째 4위</span> | 3승 1무 2패 | 10득점 10실점 |
-| 5 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 3승 1무 2패 | 4득점 6실점 |
-| 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 1승 1무 4패 | 6득점 15실점 |
-| 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 2무 4패 | 1득점 13실점 |
+| 1 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> <span class="placement-count">우승 결정전 3-2 승</span> | 3승 2무 1패 | 11득점 6실점 |
+| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">통산 여섯 번째 준우승</span> | 4승 2패 | 15득점 6실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 여섯 번째 3위</span> | 3승 1무 2패 | 15득점 6실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> <span class="placement-count">통산 아홉 번째 4위</span> | 3승 1무 2패 | 10득점 10실점 |
+| 5 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 3승 1무 2패 | 4득점 6실점 |
+| 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> | 1승 1무 4패 | 6득점 15실점 |
+| 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 2무 4패 | 1득점 13실점 |
 
 <p class="record-note">순위표는 우승 결정전 이전의 단일 리그 성적이다. 파라과이와 브라질은 승점 8로 같았고, 4월 1일 별도 결정전에서 파라과이가 3-2로 승리해 우승했다.</p>
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>에리베르토 에레라</strong><small>파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></small></div><div><span>득점 선두</span><strong>프란시스코 몰리나</strong><small>경기 기록 합계 7골 · 칠레</small></div><div><span>우승 결정전</span><strong>파라과이 3-2 브라질</strong><small>전반 3-0 · 파라과이 첫 우승</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>에리베르토 에레라</strong><small>파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /></small></div><div><span>득점 선두</span><strong>프란시스코 몰리나</strong><small>경기 기록 합계 7골 · 칠레</small></div><div><span>우승 결정전</span><strong>파라과이 3-2 브라질</strong><small>전반 3-0 · 파라과이 첫 우승</small></div></div>
 
 ## 여담
 

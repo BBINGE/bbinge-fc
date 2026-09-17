@@ -21,23 +21,23 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1945년 1월 14일-2월 28일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>산티아고</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1945년 1월 14일-2월 28일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>산티아고</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 일곱 번째 우승</span> | 5승 1무 | 22득점 5실점 |
-| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 5승 1패 | 19득점 5실점 |
-| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 세 번째 3위</span> | 4승 1무 1패 | 15득점 5실점 |
-| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 첫 번째 4위</span> | 3승 3패 | 14득점 6실점 |
-| 5 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> | 1승 1무 4패 | 7득점 25실점 |
-| 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 2무 4패 | 3득점 16실점 |
-| 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 1무 5패 | 9득점 27실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 일곱 번째 우승</span> | 5승 1무 | 22득점 5실점 |
+| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">통산 네 번째 준우승</span> | 5승 1패 | 19득점 5실점 |
+| 3 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> <span class="placement-count">통산 세 번째 3위</span> | 4승 1무 1패 | 15득점 5실점 |
+| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 첫 번째 4위</span> | 3승 3패 | 14득점 6실점 |
+| 5 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> | 1승 1무 4패 | 7득점 25실점 |
+| 6 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> | 2무 4패 | 3득점 16실점 |
+| 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 1무 5패 | 9득점 27실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>도밍구스 다 기아</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></small></div><div><span>공동 득점왕</span><strong>노르베르토 멘데스 · 엘레누 지 프레이타스</strong><small>각 6골 · 아르헨티나·브라질</small></div><div><span>우승 성적</span><strong>5승 1무</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>도밍구스 다 기아</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></small></div><div><span>공동 득점왕</span><strong>노르베르토 멘데스 · 엘레누 지 프레이타스</strong><small>각 6골 · 아르헨티나·브라질</small></div><div><span>우승 성적</span><strong>5승 1무</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 

@@ -21,20 +21,20 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1929년 11월 1-17일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1929년 11월 1-17일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>부에노스아이레스</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 네 번째 우승</span> | 3승 | 9득점 1실점 |
-| 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1패 | 9득점 4실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 1승 2패 | 4득점 6실점 |
-| 4 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 3패 | 1득점 12실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 네 번째 우승</span> | 3승 | 9득점 1실점 |
+| 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1패 | 9득점 4실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> | 1승 2패 | 4득점 6실점 |
+| 4 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 3패 | 1득점 12실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>마누엘 페레이라</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>아우렐리오 곤살레스</strong><small>5골 · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></small></div><div><span>대회 성적</span><strong>3전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>마누엘 페레이라</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>아우렐리오 곤살레스</strong><small>5골 · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /></small></div><div><span>대회 성적</span><strong>3전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 

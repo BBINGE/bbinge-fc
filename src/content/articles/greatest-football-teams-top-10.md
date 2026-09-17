@@ -61,16 +61,16 @@ draft: false
 
 | 순위 | 팀 | 시즌 | 대표 성취 |
 |---:|---|---|---|
-| **1** | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 산투스 FC | 1962 | 주·전국·남미·세계 4단계 제패 |
-| **2** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> AFC 아약스 | 1971-72 | 공식전 48경기 42승 5무 1패·트레블 |
-| **3** | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> 셀틱 FC | 1966-67 | 참가한 5개 대회 전부 우승 |
-| **4** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> AFC 아약스 | 1994-95 | 에레디비시·UEFA 챔피언스 리그 모두 무패 |
-| **5** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> FC 바이에른 뮌헨 | 2012-13 | 공식전 3패·독일 최초의 트레블 |
-| **6** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> FC 바이에른 뮌헨 | 2019-20 | UEFA 챔피언스 리그 11전 11승·트레블 |
-| **7** | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 상파울루 FC | 1993 | 연간 97경기·국제대회 4관왕 |
-| **8** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> CA 보카 주니어스 | 2000 | 리베르타도레스·아페르투라·세계 정상 |
-| **9** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> CA 리버 플레이트 | 1986 | 아르헨티나·남미·세계 챔피언 |
-| **10** | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> FC 바르셀로나 | 2008-09 | 스페인 축구 최초의 대륙 트레블 |
+| **1** | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> 산투스 FC | 1962 | 주·전국·남미·세계 4단계 제패 |
+| **2** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> AFC 아약스 | 1971-72 | 공식전 48경기 42승 5무 1패·트레블 |
+| **3** | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> 셀틱 FC | 1966-67 | 참가한 5개 대회 전부 우승 |
+| **4** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> AFC 아약스 | 1994-95 | 에레디비시·UEFA 챔피언스 리그 모두 무패 |
+| **5** | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> FC 바이에른 뮌헨 | 2012-13 | 공식전 3패·독일 최초의 트레블 |
+| **6** | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> FC 바이에른 뮌헨 | 2019-20 | UEFA 챔피언스 리그 11전 11승·트레블 |
+| **7** | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> 상파울루 FC | 1993 | 연간 97경기·국제대회 4관왕 |
+| **8** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> CA 보카 주니어스 | 2000 | 리베르타도레스·아페르투라·세계 정상 |
+| **9** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> CA 리버 플레이트 | 1986 | 아르헨티나·남미·세계 챔피언 |
+| **10** | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> FC 바르셀로나 | 2008-09 | 스페인 축구 최초의 대륙 트레블 |
 
 ---
 
@@ -98,13 +98,13 @@ draft: false
 
 | 인물 | 국적 | 포지션·직군 | 역할 |
 |---|---|---|---|
-| 펩 과르디올라 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | 감독 | 1군 첫 시즌에 전술 구조 재편 |
-| 세르히오 부스케츠 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | DM | 1군 첫 시즌부터 후방 연결 |
-| 차비 에르난데스 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | CM | 경기 속도와 패스 방향 조절 |
-| 안드레스 이니에스타 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | CM / AM | 압박 탈출·전진 연결 |
-| 리오넬 메시 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | RW / CF | 오른쪽과 중앙을 오가며 공격 중심 |
-| 사뮈엘 에토 | 카메룬 <img class="flag" src="/images/flags/cm.svg" alt="카메룬 국기" /> | CF | 득점·전방 압박 |
-| 티에리 앙리 | 프랑스 <img class="flag" src="/images/flags/fr.svg" alt="프랑스 국기" /> | LW / CF | 왼쪽 침투·득점 |
+| 펩 과르디올라 | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> | 감독 | 1군 첫 시즌에 전술 구조 재편 |
+| 세르히오 부스케츠 | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> | DM | 1군 첫 시즌부터 후방 연결 |
+| 차비 에르난데스 | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> | CM | 경기 속도와 패스 방향 조절 |
+| 안드레스 이니에스타 | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> | CM / AM | 압박 탈출·전진 연결 |
+| 리오넬 메시 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | RW / CF | 오른쪽과 중앙을 오가며 공격 중심 |
+| 사뮈엘 에토 | 카메룬 <img class="flag" src="/images/flags/cm.svg" width="640" height="480" alt="카메룬 국기" /> | CF | 득점·전방 압박 |
+| 티에리 앙리 | 프랑스 <img class="flag" src="/images/flags/fr.svg" width="640" height="480" alt="프랑스 국기" /> | LW / CF | 왼쪽 침투·득점 |
 
 ### 2008년 여름, 과르디올라는 증명된 감독이 아니었다
 
@@ -147,14 +147,14 @@ UEFA 챔피언스 리그에서는 훨씬 더 까다로운 문제가 기다리고
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 엑토르 베이라 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 감독 |
-| 네리 품피도 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | GK |
-| 오스카르 루헤리 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | CB |
-| 넬손 구티에레스 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | CB |
-| 엑토르 엔리케 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | CM |
-| 노르베르토 알론소 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | AM |
-| 후안 힐베르토 푸네스 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | CF |
-| 안토니오 알사멘디 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | FW |
+| 엑토르 베이라 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | 감독 |
+| 네리 품피도 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | GK |
+| 오스카르 루헤리 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | CB |
+| 넬손 구티에레스 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> | CB |
+| 엑토르 엔리케 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | CM |
+| 노르베르토 알론소 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | AM |
+| 후안 힐베르토 푸네스 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | CF |
+| 안토니오 알사멘디 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> | FW |
 
 1986년이라는 숫자를 보면 대부분 마라도나부터 떠올린다. 그런데 클럽 축구에서도 아르헨티나는 특별한 해를 보냈다. 리버의 품피도, 루헤리, 엔리케는 멕시코에서 아르헨티나 대표팀으로 FIFA 월드컵을 우승한 뒤 소속팀으로 돌아와 리베르타도레스까지 차지했다.
 
@@ -196,13 +196,13 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 카를로스 비안치 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | 감독 |
-| 오스카르 코르도바 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> | GK |
-| 호르헤 베르무데스 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> | CB |
-| 마우리시오 세르나 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> | DM |
-| 후안 로만 리켈메 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | AM |
-| 기예르모 바로스 셸로토 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | FW / RW |
-| 마르틴 팔레르모 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> | CF |
+| 카를로스 비안치 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | 감독 |
+| 오스카르 코르도바 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> | GK |
+| 호르헤 베르무데스 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> | CB |
+| 마우리시오 세르나 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> | DM |
+| 후안 로만 리켈메 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | AM |
+| 기예르모 바로스 셸로토 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | FW / RW |
+| 마르틴 팔레르모 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> | CF |
 
 2000년 11월 28일 도쿄. 마르틴 팔레르모가 레알 마드리드의 골문에 첫 골을 넣기까지 3분도 걸리지 않았고, 두 번째 골까지 더해졌을 때 경기 시계는 아직 6분을 가리키고 있었다. 상대 명단에는 피구, 라울, 호베르투 카를루스, 마켈렐레, 카시야스가 있었다. UEFA 챔피언스 리그 우승팀이 자기소개를 시작하기도 전에 보카가 두 골을 앞서 있었다.
 
@@ -243,13 +243,13 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 텔레 산타나 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 감독 |
-| 제치 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | GK |
-| 카푸 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | RB |
-| 레오나르두 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | LB / LM |
-| 토니뉴 세레주 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CM |
-| 하이 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | AM |
-| 뮐레르 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | FW |
+| 텔레 산타나 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 감독 |
+| 제치 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | GK |
+| 카푸 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | RB |
+| 레오나르두 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | LB / LM |
+| 토니뉴 세레주 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | CM |
+| 하이 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | AM |
+| 뮐레르 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | FW |
 
 1993년 9월 26일, 상파울루와 크루제이루는 한 경기를 치르고 기록지 두 장에 이름을 올렸다. 브라질 전국리그 경기이면서 동시에 레코파 경기였다. 국제대회 결승을 위한 빈 날짜조차 찾지 못해 한 경기에 두 대회의 의미를 겹쳐 놓았을 만큼, 텔레 산타나의 팀은 한 해에 97번 경기장으로 나갔다. 수페르코파도 이름만 보고 단판 슈퍼컵으로 오해하기 쉽지만, 역대 리베르타도레스 우승팀들을 다시 모아 치른 별도의 토너먼트였다.
 
@@ -287,14 +287,14 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 한지 플리크 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | 감독 |
-| 마누엘 노이어 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | GK |
-| 다비드 알라바 | 오스트리아 <img class="flag" src="/images/flags/at.svg" alt="오스트리아 국기" /> | CB / LB |
-| 요주아 키미히 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | DM / RB |
-| 티아고 알칸타라 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | CM |
-| 토마스 뮐러 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | AM / SS |
-| 세르주 그나브리 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | RW / LW |
-| 로베르트 레반도프스키 | 폴란드 <img class="flag" src="/images/flags/pl.svg" alt="폴란드 국기" /> | CF |
+| 한지 플리크 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | 감독 |
+| 마누엘 노이어 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | GK |
+| 다비드 알라바 | 오스트리아 <img class="flag" src="/images/flags/at.svg" width="640" height="480" alt="오스트리아 국기" /> | CB / LB |
+| 요주아 키미히 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | DM / RB |
+| 티아고 알칸타라 | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> | CM |
+| 토마스 뮐러 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | AM / SS |
+| 세르주 그나브리 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | RW / LW |
+| 로베르트 레반도프스키 | 폴란드 <img class="flag" src="/images/flags/pl.svg" width="640" height="480" alt="폴란드 국기" /> | CF |
 
 2019년 11월 한지 플리크가 지휘봉을 잡았을 때 직함은 정식 후계자보다 임시 소방수에 가까웠다. 니코 코바치<span class="foreign-note" lang="hr">(Niko Kovač, 크로아티아 축구선수·감독, 1971-)</span>가 떠난 뒤 잠시 벤치를 맡길 사람이 필요했는데, 그 ‘잠시’가 유럽대항전에서 한 번도 비기지 않는 팀을 만들었다. 코로나19로 대회가 중단되고 8강부터 리스본 단판 토너먼트로 바뀐 특수한 시즌이었지만, 형식이 바뀌었다고 11경기를 모두 이겨야 한다는 규칙이 생긴 것은 아니었다.
 
@@ -352,15 +352,15 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 유프 하인케스 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | 감독 |
-| 마누엘 노이어 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | GK |
-| 필리프 람 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | RB / LB |
-| 단치 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CB |
-| 하비 마르티네스 | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> | DM / CB |
-| 바스티안 슈바인슈타이거 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | CM |
-| 토마스 뮐러 | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> | AM / SS |
-| 프랑크 리베리 | 프랑스 <img class="flag" src="/images/flags/fr.svg" alt="프랑스 국기" /> | LW |
-| 아리언 로번 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | RW |
+| 유프 하인케스 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | 감독 |
+| 마누엘 노이어 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | GK |
+| 필리프 람 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | RB / LB |
+| 단치 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | CB |
+| 하비 마르티네스 | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> | DM / CB |
+| 바스티안 슈바인슈타이거 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | CM |
+| 토마스 뮐러 | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> | AM / SS |
+| 프랑크 리베리 | 프랑스 <img class="flag" src="/images/flags/fr.svg" width="640" height="480" alt="프랑스 국기" /> | LW |
+| 아리언 로번 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | RW |
 
 이 시즌의 출발점은 2012년 8월이 아니라, 홈구장 알리안츠 아레나에서 첼시와 UEFA 챔피언스 리그 결승을 치른 **2012년 5월 19일**이다. 바이언은 선제골을 넣고도 동점을 허용했고, 연장전에서는 로번의 페널티킥이 막힌 끝에 승부차기로 패했다. 분데스리가에서는 도르트문트에 왕좌를 내줬고 DFB-포칼 결승에서도 같은 상대에게 2-5로 졌다. 한 시즌에 리그, 국내컵, 유럽대항전에서 모두 준우승한 실패가 다음 시즌의 기준점이 됐다.
 
@@ -402,15 +402,15 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 루이 판 할 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | 감독 |
-| 에드빈 판데르사르 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | GK |
-| 다니 블린트 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CB / SW |
-| 프랑크 레이카르트 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | DM / CB |
-| 에드하르 다비츠 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
-| 클라렌서 세이도르프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
-| 야리 리트마넨 | 핀란드 <img class="flag" src="/images/flags/fi.svg" alt="핀란드 국기" /> | AM / SS |
-| 마르크 오베르마르스 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LW |
-| 파트릭 클라위버르트 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CF |
+| 루이 판 할 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | 감독 |
+| 에드빈 판데르사르 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | GK |
+| 다니 블린트 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CB / SW |
+| 프랑크 레이카르트 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | DM / CB |
+| 에드하르 다비츠 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CM |
+| 클라렌서 세이도르프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CM |
+| 야리 리트마넨 | 핀란드 <img class="flag" src="/images/flags/fi.svg" width="640" height="480" alt="핀란드 국기" /> | AM / SS |
+| 마르크 오베르마르스 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | LW |
+| 파트릭 클라위버르트 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CF |
 
 1995년 5월 24일 빈. 결승 상대 밀란은 전년도에 크라위프의 바르셀로나를 4-0으로 부순 디펜딩 챔피언이었고, 3년 연속 이 무대에 올라온 팀이었다. 그런데 아약스에는 낯설 이유가 없었다. 같은 시즌 조별리그에서 이미 밀란을 두 번 만나 두 번 모두 2-0으로 이겼다. 결승은 세 번째 시험이 아니라, 앞선 두 승리가 우연이 아니었음을 확인하는 밤에 가까웠다.
 
@@ -448,15 +448,15 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 조크 스타인 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | 감독 |
-| 로니 심프슨 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | GK |
-| 빌리 맥닐 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | CB |
-| 토미 게멀 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | LB |
-| 보비 머독 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | CM |
-| 버티 올드 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | CM |
-| 지미 존스턴 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | RW |
-| 보비 레녹스 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | FW |
-| 스티비 차머스 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> | CF |
+| 조크 스타인 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | 감독 |
+| 로니 심프슨 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | GK |
+| 빌리 맥닐 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | CB |
+| 토미 게멀 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | LB |
+| 보비 머독 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | CM |
+| 버티 올드 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | CM |
+| 지미 존스턴 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | RW |
+| 보비 레녹스 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | FW |
+| 스티비 차머스 | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> | CF |
 
 ### 1967년 5월 25일, 리스본
 
@@ -509,13 +509,13 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 슈테판 코바치 | 루마니아 <img class="flag" src="/images/flags/ro.svg" alt="루마니아 국기" /> | 감독 |
-| 뤼트 크롤 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LB / SW |
-| 바리 훌스호프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CB |
-| 요한 네이스컨스 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
-| 헤리 뮈런 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CM |
-| 요한 크라위프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | CF / AM |
-| 피트 케이저 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> | LW |
+| 슈테판 코바치 | 루마니아 <img class="flag" src="/images/flags/ro.svg" width="640" height="480" alt="루마니아 국기" /> | 감독 |
+| 뤼트 크롤 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | LB / SW |
+| 바리 훌스호프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CB |
+| 요한 네이스컨스 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CM |
+| 헤리 뮈런 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CM |
+| 요한 크라위프 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | CF / AM |
+| 피트 케이저 | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> | LW |
 
 <aside class="ajax-achievement-card" aria-label="1971-72 아약스의 핵심 성취">
   <p>AFC AJAX · 1971-72</p>
@@ -567,15 +567,15 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 
 | 인물 | 국적 | 포지션 |
 |---|---|---|
-| 룰라 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 감독 |
-| 지우마르 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | GK |
-| 마우루 하무스 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CB |
-| 지투 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CM / DM |
-| 멩가우비우 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CM |
-| 도르바우 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | RW |
-| 페페 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | LW |
-| 쿠치뉴 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | CF |
-| 펠레 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | FW / AM |
+| 룰라 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 감독 |
+| 지우마르 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | GK |
+| 마우루 하무스 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | CB |
+| 지투 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | CM / DM |
+| 멩가우비우 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | CM |
+| 도르바우 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | RW |
+| 페페 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | LW |
+| 쿠치뉴 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | CF |
+| 펠레 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | FW / AM |
 
 1962 FIFA 월드컵 우승 브라질 대표팀 22명 가운데 7명이 산투스 소속이었다. 지우마르, 마우루, 지투, 멩가우비우, 페페, 펠레, 쿠치뉴. 월드컵 챔피언의 3분의 1이 같은 클럽으로 돌아가 다시 시즌을 이어갔다.
 
@@ -629,16 +629,16 @@ FIFA의 산투스 역사에도 1962년 산투스가 **주·전국·남미·세�
 
 | 순위 | 팀 | 핵심 기록 | 역사적 의미 |
 |---:|---|---|---|
-| **1** | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 1962 산투스 | 주·전국·남미·세계 제패 | 유럽 2연패 챔피언 벤피카까지 직접 격파 |
-| **2** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> 1971-72 아약스 | **42승 5무 1패** | 토털 풋볼의 경쟁력까지 완전히 증명 |
-| **3** | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" alt="스코틀랜드 국기" /> 1966-67 셀틱 | **5개 대회 전부 우승** | 영국 최초 유러피언컵·유럽 최초 대륙 트레블 |
-| **4** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" alt="네덜란드 국기" /> 1994-95 아약스 | 리그·UCL **무패** | 디펜딩 챔피언 밀란에 시즌 3전 3승 |
-| **5** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> 2012-13 바이언 | **54경기 3패** | 직전 시즌 3개 준우승 뒤 독일 최초 트레블 |
-| **6** | 독일 <img class="flag" src="/images/flags/de.svg" alt="독일 국기" /> 2019-20 바이언 | UCL **11전 11승** | UEFA 챔피언스 리그 전승 우승 |
-| **7** | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 1993 상파울루 | **97경기·국제 4관왕** | 극단적 일정 속 밀란까지 격파 |
-| **8** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> 2000 보카 | 세계 정상전 레알 2-1 | 유럽 집중이 시작된 시대의 남미 세계 챔피언 |
-| **9** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> 1986 리버 | 국내·남미·세계 제패 | 구단 첫 리베르타도레스와 첫 세계 정상 |
-| **10** | 스페인 <img class="flag" src="/images/flags/es.svg" alt="스페인 국기" /> 2008-09 바르셀로나 | **158득점·트레블** | 과르디올라 시대의 시작 |
+| **1** | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> 1962 산투스 | 주·전국·남미·세계 제패 | 유럽 2연패 챔피언 벤피카까지 직접 격파 |
+| **2** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> 1971-72 아약스 | **42승 5무 1패** | 토털 풋볼의 경쟁력까지 완전히 증명 |
+| **3** | 스코틀랜드 <img class="flag" src="/images/flags/gb-sct.svg" width="640" height="480" alt="스코틀랜드 국기" /> 1966-67 셀틱 | **5개 대회 전부 우승** | 영국 최초 유러피언컵·유럽 최초 대륙 트레블 |
+| **4** | 네덜란드 <img class="flag" src="/images/flags/nl.svg" width="640" height="480" alt="네덜란드 국기" /> 1994-95 아약스 | 리그·UCL **무패** | 디펜딩 챔피언 밀란에 시즌 3전 3승 |
+| **5** | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> 2012-13 바이언 | **54경기 3패** | 직전 시즌 3개 준우승 뒤 독일 최초 트레블 |
+| **6** | 독일 <img class="flag" src="/images/flags/de.svg" width="640" height="480" alt="독일 국기" /> 2019-20 바이언 | UCL **11전 11승** | UEFA 챔피언스 리그 전승 우승 |
+| **7** | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> 1993 상파울루 | **97경기·국제 4관왕** | 극단적 일정 속 밀란까지 격파 |
+| **8** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> 2000 보카 | 세계 정상전 레알 2-1 | 유럽 집중이 시작된 시대의 남미 세계 챔피언 |
+| **9** | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> 1986 리버 | 국내·남미·세계 제패 | 구단 첫 리베르타도레스와 첫 세계 정상 |
+| **10** | 스페인 <img class="flag" src="/images/flags/es.svg" width="640" height="480" alt="스페인 국기" /> 2008-09 바르셀로나 | **158득점·트레블** | 과르디올라 시대의 시작 |
 
 이 열 팀은 같은 방식으로 완벽하지 않았다. 아약스는 거의 지지 않으면서 축구의 공간 사용법을 바꿨고, 셀틱은 참가한 대회를 하나도 남겨두지 않았으며, 1995년의 아약스는 유럽 챔피언을 한 시즌에 세 번 꺾었다. 상파울루는 달력이 무너질 만큼 많은 경기를 치르고도 국제대회 결승에서 계속 살아남았고, 두 바이언은 각각 복수와 전승이라는 전혀 다른 얼굴로 트레블에 도달했다.
 

@@ -33,10 +33,10 @@ relatedGroup: 'fifa-world-cup-1938'
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> <span class="placement-count">두 번째 우승</span> | 4승 | 11득점 5실점 |
-| 준우승 | 헝가리 왕국 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> <span class="placement-count">첫 번째 준우승</span> | 3승 1패 | 15득점 5실점 |
-| 3위 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1무 1패 | 14득점 11실점 |
-| 4위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" alt="스웨덴 국기" /> <span class="placement-count">첫 번째 4위권</span> | 1승 2패 | 11득점 9실점 |
+| 우승 | 이탈리아 왕국 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> <span class="placement-count">두 번째 우승</span> | 4승 | 11득점 5실점 |
+| 준우승 | 헝가리 왕국 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> <span class="placement-count">첫 번째 준우승</span> | 3승 1패 | 15득점 5실점 |
+| 3위 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">첫 번째 4위권</span> | 3승 1무 1패 | 14득점 11실점 |
+| 4위 | 스웨덴 <img class="flag" src="/images/flags/se.svg" width="32" height="20" alt="스웨덴 국기" /> <span class="placement-count">첫 번째 4위권</span> | 1승 2패 | 11득점 9실점 |
 
 이탈리아의 경로는 가벼운 적이 한 번도 없었다. 노르웨이전은 연장까지 갔고, 8강에서는 개최국 프랑스를 3-1로 꺾었다. 준결승 상대는 레오니다스를 앞세운 브라질, 결승 상대는 세 경기에서 13골을 몰아친 헝가리였다. 그 네 경기를 모두 이겨 1934년에 이어 다시 정상에 섰다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
@@ -58,40 +58,40 @@ relatedGroup: 'fifa-world-cup-1938'
 
 <div class="best-xi" aria-label="1938 FIFA 월드컵 베스트 11 2-3-5 배치">
   <div class="best-xi-line forwards">
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyorgy-sarosi.jpg" alt="샤로시 죄르지" loading="lazy" /><span>OL</span><strong>샤로시 죄르지</strong><small>헝가리 · 4경기 5골</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gino-colaussi.jpg" alt="지노 콜라우시" loading="lazy" /><span>IL</span><strong>지노 콜라우시</strong><small>이탈리아 · 3경기 4골</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png" alt="레오니다스 다시우바" loading="lazy" /><span>CF</span><strong>레오니다스 다시우바</strong><small>브라질 · 4경기 7골</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/silvio-piola.jpg" alt="실비오 피올라" loading="lazy" /><span>IR</span><strong>실비오 피올라</strong><small>이탈리아 · 4경기 5골</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" alt="젱겔레르 줄러" loading="lazy" /><span>OR</span><strong>젱겔레르 줄러</strong><small>헝가리 · 4경기 5골</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyorgy-sarosi.jpg" width="300" height="402" alt="샤로시 죄르지" loading="lazy" /><span>OL</span><strong>샤로시 죄르지</strong><small>헝가리 · 4경기 5골</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gino-colaussi.jpg" width="300" height="426" alt="지노 콜라우시" loading="lazy" /><span>IL</span><strong>지노 콜라우시</strong><small>이탈리아 · 3경기 4골</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png" width="300" height="388" alt="레오니다스 다시우바" loading="lazy" /><span>CF</span><strong>레오니다스 다시우바</strong><small>브라질 · 4경기 7골</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/silvio-piola.jpg" width="300" height="401" alt="실비오 피올라" loading="lazy" /><span>IR</span><strong>실비오 피올라</strong><small>이탈리아 · 4경기 5골</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" width="300" height="413" alt="젱겔레르 줄러" loading="lazy" /><span>OR</span><strong>젱겔레르 줄러</strong><small>헝가리 · 4경기 5골</small></div>
   </div>
   <div class="best-xi-line halves">
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/ugo-locatelli.jpg" alt="우고 로카텔리" loading="lazy" /><span>LH</span><strong>우고 로카텔리</strong><small>이탈리아 · 4경기</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/michele-andreolo.jpg" alt="미켈레 안드레올로" loading="lazy" /><span>CH</span><strong>미켈레 안드레올로</strong><small>이탈리아 · 4경기</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/alfredo-foni.png" alt="알프레도 포니" loading="lazy" /><span>RH</span><strong>알프레도 포니</strong><small>이탈리아 · 3경기</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/ugo-locatelli.jpg" width="300" height="450" alt="우고 로카텔리" loading="lazy" /><span>LH</span><strong>우고 로카텔리</strong><small>이탈리아 · 4경기</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/michele-andreolo.jpg" width="300" height="485" alt="미켈레 안드레올로" loading="lazy" /><span>CH</span><strong>미켈레 안드레올로</strong><small>이탈리아 · 4경기</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/alfredo-foni.png" width="300" height="375" alt="알프레도 포니" loading="lazy" /><span>RH</span><strong>알프레도 포니</strong><small>이탈리아 · 3경기</small></div>
   </div>
   <div class="best-xi-line backs">
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/pietro-rava.jpg" alt="피에트로 라바" loading="lazy" /><span>LB</span><strong>피에트로 라바</strong><small>이탈리아 · 4경기</small></div>
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/domingos-da-guia.jpg" alt="도밍구스 다 기아" loading="lazy" /><span>RB</span><strong>도밍구스 다 기아</strong><small>브라질 · 4경기</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/pietro-rava.jpg" width="300" height="431" alt="피에트로 라바" loading="lazy" /><span>LB</span><strong>피에트로 라바</strong><small>이탈리아 · 4경기</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/domingos-da-guia.jpg" width="300" height="360" alt="도밍구스 다 기아" loading="lazy" /><span>RB</span><strong>도밍구스 다 기아</strong><small>브라질 · 4경기</small></div>
   </div>
   <div class="best-xi-line keeper">
-    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/frantisek-planicka.jpg" alt="프란티셰크 플라니치카" loading="lazy" /><span>GK</span><strong>프란티셰크 플라니치카</strong><small>체코슬로바키아 · 2경기 1실점</small></div>
+    <div><img src="/images/archive/1938-fifa-world-cup-best-xi/players/frantisek-planicka.jpg" width="300" height="428" alt="프란티셰크 플라니치카" loading="lazy" /><span>GK</span><strong>프란티셰크 플라니치카</strong><small>체코슬로바키아 · 2경기 1실점</small></div>
   </div>
 </div>
 
 2-3-5의 다섯 공격수는 단순히 득점 순위대로 세운 줄이 아니다. 샤로시와 젱겔레르가 헝가리의 양쪽을 잡고, 결승에서 네 골을 합작한 콜라우시와 피올라가 레오니다스 곁에 선다. 중앙의 레오니다스는 이 대회 최다 득점자이자 브라질이 처음으로 월드컵 4강에 오른 공격의 중심이었다.
 
 <div class="best-xi-roster" aria-label="1938 FIFA 월드컵 베스트 11 선수 카드">
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/frantisek-planicka.jpg" alt="프란티셰크 플라니치카" loading="lazy" /><div><span>GK · 골키퍼</span><strong>프란티셰크 플라니치카</strong><small lang="cs">František Plánička</small><p>체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" alt="체코슬로바키아 국기" /> · 2경기 1실점</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/pietro-rava.jpg" alt="피에트로 라바" loading="lazy" /><div><span>FB · 레프트백</span><strong>피에트로 라바</strong><small lang="it">Pietro Rava</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 4경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/domingos-da-guia.jpg" alt="도밍구스 다 기아" loading="lazy" /><div><span>FB · 라이트백</span><strong>도밍구스 다 기아</strong><small lang="pt-BR">Domingos Antônio da Guia</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 4경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/ugo-locatelli.jpg" alt="우고 로카텔리" loading="lazy" /><div><span>LH · 레프트 하프</span><strong>우고 로카텔리</strong><small lang="it">Ugo Locatelli</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 4경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/michele-andreolo.jpg" alt="미켈레 안드레올로" loading="lazy" /><div><span>CH · 센터 하프</span><strong>미켈레 안드레올로</strong><small lang="it">Michele Andreolo</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 4경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/alfredo-foni.png" alt="알프레도 포니" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>알프레도 포니</strong><small lang="it">Alfredo Foni</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 3경기</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyorgy-sarosi.jpg" alt="샤로시 죄르지" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>샤로시 죄르지</strong><small lang="hu">Sárosi György</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 4경기 5골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gino-colaussi.jpg" alt="지노 콜라우시" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>지노 콜라우시</strong><small lang="it">Luigi “Gino” Colaussi</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 3경기 4골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png" alt="레오니다스 다시우바" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>레오니다스 다시우바</strong><small lang="pt-BR">Leônidas da Silva</small><p>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 4경기 7골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/silvio-piola.jpg" alt="실비오 피올라" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>실비오 피올라</strong><small lang="it">Silvio Piola</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" alt="이탈리아 왕국 민간기" /> · 4경기 5골</p></div></article>
-  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" alt="젱겔레르 줄러" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>젱겔레르 줄러</strong><small lang="hu">Zsengellér Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" alt="헝가리 국기" /> · 4경기 5골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/frantisek-planicka.jpg" width="300" height="428" alt="프란티셰크 플라니치카" loading="lazy" /><div><span>GK · 골키퍼</span><strong>프란티셰크 플라니치카</strong><small lang="cs">František Plánička</small><p>체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /> · 2경기 1실점</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/pietro-rava.jpg" width="300" height="431" alt="피에트로 라바" loading="lazy" /><div><span>FB · 레프트백</span><strong>피에트로 라바</strong><small lang="it">Pietro Rava</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/domingos-da-guia.jpg" width="300" height="360" alt="도밍구스 다 기아" loading="lazy" /><div><span>FB · 라이트백</span><strong>도밍구스 다 기아</strong><small lang="pt-BR">Domingos Antônio da Guia</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/ugo-locatelli.jpg" width="300" height="450" alt="우고 로카텔리" loading="lazy" /><div><span>LH · 레프트 하프</span><strong>우고 로카텔리</strong><small lang="it">Ugo Locatelli</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/michele-andreolo.jpg" width="300" height="485" alt="미켈레 안드레올로" loading="lazy" /><div><span>CH · 센터 하프</span><strong>미켈레 안드레올로</strong><small lang="it">Michele Andreolo</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> · 4경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/alfredo-foni.png" width="300" height="375" alt="알프레도 포니" loading="lazy" /><div><span>RH · 라이트 하프</span><strong>알프레도 포니</strong><small lang="it">Alfredo Foni</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> · 3경기</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyorgy-sarosi.jpg" width="300" height="402" alt="샤로시 죄르지" loading="lazy" /><div><span>OL · 아웃사이드 레프트</span><strong>샤로시 죄르지</strong><small lang="hu">Sárosi György</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 4경기 5골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gino-colaussi.jpg" width="300" height="426" alt="지노 콜라우시" loading="lazy" /><div><span>IL · 인사이드 레프트</span><strong>지노 콜라우시</strong><small lang="it">Luigi “Gino” Colaussi</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> · 3경기 4골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/leonidas.png" width="300" height="388" alt="레오니다스 다시우바" loading="lazy" /><div><span>CF · 센터 포워드</span><strong>레오니다스 다시우바</strong><small lang="pt-BR">Leônidas da Silva</small><p>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 4경기 7골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/silvio-piola.jpg" width="300" height="401" alt="실비오 피올라" loading="lazy" /><div><span>IR · 인사이드 라이트</span><strong>실비오 피올라</strong><small lang="it">Silvio Piola</small><p>이탈리아 <img class="flag" src="/images/flags/it-kingdom-civil.svg" width="30" height="20" alt="이탈리아 왕국 민간기" /> · 4경기 5골</p></div></article>
+  <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/gyula-zsengeller.png" width="300" height="413" alt="젱겔레르 줄러" loading="lazy" /><div><span>OR · 아웃사이드 라이트</span><strong>젱겔레르 줄러</strong><small lang="hu">Zsengellér Gyula</small><p>헝가리 <img class="flag" src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /> · 4경기 5골</p></div></article>
 </div>
 
 ### 플라니치카가 끝까지 지킨 골문

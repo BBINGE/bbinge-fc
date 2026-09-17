@@ -21,9 +21,9 @@ relatedGroup: 'fifa-world-cup-1938'
 <div class="match-board" aria-label="1938 FIFA 월드컵 결승전 결과">
   <p>1938 FIFA WORLD CUP · FINAL</p>
   <div class="match-board-teams">
-    <div><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
+    <div><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
     <span><b>4</b><em>FULL TIME</em><b>2</b></span>
-    <div><img src="/images/flags/hu.svg" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
+    <div><img src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
   </div>
   <dl><div><dt>날짜</dt><dd>1938년 6월 19일</dd></div><div><dt>장소</dt><dd>스타드 올랭피크 드 콜롱브</dd></div><div><dt>전반</dt><dd>3-1</dd></div><div><dt>최종</dt><dd>4-2</dd></div></dl>
 </div>
@@ -73,9 +73,9 @@ relatedGroup: 'fifa-world-cup-1938'
 <div class="world-cup-transition half-time-card" aria-label="전반 종료, 이탈리아 3대1 헝가리">
   <div class="transition-kicker"><span>1938 FIFA WORLD CUP</span><b>FINAL · COLOMBES</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
+    <div class="transition-team"><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><strong>이탈리아</strong><small>ITALY</small></div>
     <div class="transition-numbers"><span>3</span><em>HALF<br />TIME</em><span>1</span></div>
-    <div class="transition-team"><img src="/images/flags/hu.svg" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
+    <div class="transition-team"><img src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
   </div>
   <p>FOUR GOALS · THE FINAL IS STILL OPEN</p>
 </div>
@@ -102,7 +102,7 @@ relatedGroup: 'fifa-world-cup-1938'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>19 JUNE 1938</span><b>STADE OLYMPIQUE · COLOMBES</b></div>
   <div class="poster-copy"><small>FULL TIME · ITALY 4-2 HUNGARY</small><strong>두 대회를 잇는<br />세계 챔피언</strong><p>ITALY · BACK-TO-BACK WORLD CHAMPIONS</p></div>
-  <div class="poster-winner"><img src="/images/flags/it-kingdom.svg" alt="이탈리아 왕국 국기" /><span>CAMPIONE<br /><b>ITALIA</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/it-kingdom.svg" width="30" height="20" alt="이탈리아 왕국 국기" /><span>CAMPIONE<br /><b>ITALIA</b></span></div>
 </div>
 
 1930년 우루과이는 다음 대회에 참가하지 않았고, 1934년 이탈리아는 처음으로 우승컵을 지켜야 하는 챔피언이 됐다. 그리고 프랑스에서 실제로 그 일을 해냈다. FIFA 월드컵 역사상 최초의 2연패였다. 비토리오 포초는 지금까지도 월드컵을 두 번 우승한 유일한 감독으로 남아 있다.

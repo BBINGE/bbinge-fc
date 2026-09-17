@@ -17,9 +17,9 @@ relatedGroup: 'fifa-world-cup-1954'
 <div class="match-board" aria-label="1954 FIFA 월드컵 결승 결과">
   <p>1954 FIFA WORLD CUP · FINAL</p>
   <div class="match-board-teams">
-    <div><img src="/images/flags/de.svg" alt="서독 국기" /><strong>서독</strong><small>WEST GERMANY</small></div>
+    <div><img src="/images/flags/de.svg" width="640" height="480" alt="서독 국기" /><strong>서독</strong><small>WEST GERMANY</small></div>
     <span><b>3</b><em>FULL TIME</em><b>2</b></span>
-    <div><img src="/images/flags/hu.svg" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
+    <div><img src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
   </div>
   <dl><div><dt>날짜</dt><dd>1954년 7월 4일</dd></div><div><dt>장소</dt><dd>베른 방크도르프</dd></div><div><dt>전반</dt><dd>2-2</dd></div><div><dt>최종</dt><dd>3-2</dd></div></dl>
 </div>
@@ -94,9 +94,9 @@ relatedGroup: 'fifa-world-cup-1954'
 <div class="world-cup-transition half-time-card" aria-label="전반 종료, 서독 2대2 헝가리">
   <div class="transition-kicker"><span>1954 FIFA WORLD CUP</span><b>FINAL · WANKDORF STADIUM</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/de.svg" alt="서독 국기" /><strong>서독</strong><small>WEST GERMANY</small></div>
+    <div class="transition-team"><img src="/images/flags/de.svg" width="640" height="480" alt="서독 국기" /><strong>서독</strong><small>WEST GERMANY</small></div>
     <div class="transition-numbers"><span>2</span><em>HT</em><span>2</span></div>
-    <div class="transition-team"><img src="/images/flags/hu.svg" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
+    <div class="transition-team"><img src="/images/flags/hu.svg" width="3" height="2" alt="헝가리 국기" /><strong>헝가리</strong><small>HUNGARY</small></div>
   </div>
   <p>FROM 0-2 TO 2-2 IN TEN MINUTES</p>
 </div>
@@ -155,7 +155,7 @@ relatedGroup: 'fifa-world-cup-1954'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>4 JULY 1954</span><b>WANKDORFSTADION · BERN</b></div>
   <div class="poster-copy"><small>FULL TIME · WEST GERMANY 3-2 HUNGARY</small><strong>베른의 기적<br />서독의 첫 우승</strong><p>DAS WUNDER VON BERN · WELTMEISTER 1954</p></div>
-  <div class="poster-winner"><img src="/images/flags/de.svg" alt="서독 국기" /><span>WELTMEISTER<br /><b>DEUTSCHLAND</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/de.svg" width="640" height="480" alt="서독 국기" /><span>WELTMEISTER<br /><b>DEUTSCHLAND</b></span></div>
 </div>
 
 ## 기적의 뒷면에 남은 것들

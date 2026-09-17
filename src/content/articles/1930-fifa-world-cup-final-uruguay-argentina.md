@@ -17,9 +17,9 @@ relatedGroup: 'fifa-world-cup-1930'
 <div class="match-board" aria-label="1930 FIFA 월드컵 결승전 결과">
   <p>1930 FIFA WORLD CUP · FINAL</p>
   <div class="match-board-teams">
-    <div><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <div><img src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
     <span><b>4</b><em>FULL TIME</em><b>2</b></span>
-    <div><img src="/images/flags/ar.svg" alt="아르헨티나 국기" /><strong>아르헨티나</strong><small>ARGENTINA</small></div>
+    <div><img src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /><strong>아르헨티나</strong><small>ARGENTINA</small></div>
   </div>
   <dl><div><dt>날짜</dt><dd>1930년 7월 30일</dd></div><div><dt>장소</dt><dd>에스타디오 센테나리오</dd></div><div><dt>전반</dt><dd>1-2</dd></div><div><dt>최종</dt><dd>4-2</dd></div></dl>
 </div>
@@ -71,9 +71,9 @@ relatedGroup: 'fifa-world-cup-1930'
 <div class="world-cup-transition half-time-card" aria-label="전반 종료, 우루과이 1대2 아르헨티나">
   <div class="transition-kicker"><span>1930 FIFA WORLD CUP</span><b>FINAL · MONTEVIDEO</b></div>
   <div class="transition-score">
-    <div class="transition-team"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
+    <div class="transition-team"><img src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /><strong>우루과이</strong><small>URUGUAY</small></div>
     <div class="transition-numbers"><span>1</span><em>HALF<br />TIME</em><span>2</span></div>
-    <div class="transition-team"><img src="/images/flags/ar.svg" alt="아르헨티나 국기" /><strong>아르헨티나</strong><small>ARGENTINA</small></div>
+    <div class="transition-team"><img src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /><strong>아르헨티나</strong><small>ARGENTINA</small></div>
   </div>
   <p>45 MINUTES · THE FINAL TURNS</p>
 </div>
@@ -110,7 +110,7 @@ relatedGroup: 'fifa-world-cup-1930'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>30 JULY 1930</span><b>ESTADIO CENTENARIO</b></div>
   <div class="poster-copy"><small>FULL TIME · URUGUAY 4-2 ARGENTINA</small><strong>첫 번째<br />세계 챔피언</strong><p>URUGUAY · THE FIRST WORLD CHAMPIONS</p></div>
-  <div class="poster-winner"><img src="/images/flags/uy.svg" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /><span>CAMPEÓN<br /><b>URUGUAY</b></span></div>
 </div>
 
 <section class="highlight-scene">

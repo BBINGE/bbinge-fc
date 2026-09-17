@@ -21,20 +21,20 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1927년 10월 30일-11월 27일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>리마</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1927년 10월 30일-11월 27일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>4개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>리마</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 세 번째 우승</span> | 3승 | 15득점 4실점 |
-| 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1패 | 15득점 3실점 |
-| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1승 2패 | 4득점 11실점 |
-| 4 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 3패 | 3득점 19실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 세 번째 우승</span> | 3승 | 15득점 4실점 |
+| 2 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 준우승</span> | 2승 1패 | 15득점 3실점 |
+| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 1승 2패 | 4득점 11실점 |
+| 4 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> | 3패 | 3득점 19실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>마누엘 세오아네</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>로베르토 피게로아</strong><small>4골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></small></div><div><span>대회 성적</span><strong>3전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>마누엘 세오아네</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>로베르토 피게로아</strong><small>4골 · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></small></div><div><span>대회 성적</span><strong>3전 전승</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 

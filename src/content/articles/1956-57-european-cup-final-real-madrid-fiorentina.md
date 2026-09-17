@@ -145,7 +145,7 @@ relatedGroup: 'european-cup-1956-57'
   <div class="poster-shade"></div>
   <div class="transition-kicker"><span>FULL TIME · ESTADIO SANTIAGO BERNABÉU</span><b>REAL MADRID CF 2-0 AC FIORENTINA</b></div>
   <div class="poster-copy"><small>30 MAY 1957</small><strong>라 세군다</strong><p>THE SECOND EUROPEAN CUP · CHAMPIONS AGAIN AT HOME</p></div>
-  <div class="poster-winner"><img src="/images/flags/es-1945.png" alt="1945년부터 사용된 스페인 국기" /><span>CHAMPION<br /><b>REAL MADRID CF</b></span></div>
+  <div class="poster-winner"><img src="/images/flags/es-1945.png" width="120" height="80" alt="1945년부터 사용된 스페인 국기" /><span>CHAMPION<br /><b>REAL MADRID CF</b></span></div>
 </div>
 
 ## 두 번째 결승의 레알, 첫 결승의 피오렌티나

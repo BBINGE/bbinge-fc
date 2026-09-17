@@ -22,33 +22,33 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1957년 3월 7일-4월 6일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전 · 승리 2점, 무승부 1점</dd></dl><dl><dt>경기장</dt><dd>리마 에스타디오 나시오날</dd></dl><dl><dt>전체 기록</dt><dd>21경기 · 101골</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1957년 3월 7일-4월 6일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /></dd></dl><dl><dt>방식</dt><dd>7개국 단일 리그전 · 승리 2점, 무승부 1점</dd></dl><dl><dt>경기장</dt><dd>리마 에스타디오 나시오날</dd></dl><dl><dt>전체 기록</dt><dd>21경기 · 101골</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 승점 | 성적 | 득실 |
 | --- | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 열한 번째 우승</span> | 10 | 5승 1패 | 25득점 6실점 |
-| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 일곱 번째 준우승</span> | 8 | 4승 2패 | 23득점 9실점 |
-| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 8 | 4승 2패 | 12득점 9실점 |
-| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 4위</span> | 8 | 4승 2패 | 15득점 12실점 |
-| 5 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> | 4 | 2승 4패 | 10득점 25실점 |
-| 6 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 3 | 1승 1무 4패 | 9득점 17실점 |
-| 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 1 | 1무 5패 | 7득점 23실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 열한 번째 우승</span> | 10 | 5승 1패 | 25득점 6실점 |
+| 2 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">통산 일곱 번째 준우승</span> | 8 | 4승 2패 | 23득점 9실점 |
+| 3 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 8 | 4승 2패 | 12득점 9실점 |
+| 4 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 네 번째 4위</span> | 8 | 4승 2패 | 15득점 12실점 |
+| 5 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> | 4 | 2승 4패 | 10득점 25실점 |
+| 6 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 3 | 1승 1무 4패 | 9득점 17실점 |
+| 7 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 1 | 1무 5패 | 7득점 23실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>오마르 시보리</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 5경기 3골</small></div><div><span>공동 득점왕</span><strong>마스키오 · 암브로이스</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 각 9골</small></div><div><span>득점 3위</span><strong>안토니오 안젤릴로</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 8골</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>오마르 시보리</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 5경기 3골</small></div><div><span>공동 득점왕</span><strong>마스키오 · 암브로이스</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 각 9골</small></div><div><span>득점 3위</span><strong>안토니오 안젤릴로</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 8골</small></div></div>
 
 ### 시보리의 다섯 경기
 
 | 날짜 | 상대 | 아르헨티나 기준 결과 | 득점 |
 | --- | --- | --- | --- |
-| 3월 17일 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 3-0 승 | 1골 (14분) |
-| 3월 20일 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> | 4-0 승 | 0골 |
-| 3월 28일 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 6-2 승 | 1골 (7분) |
-| 4월 3일 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> | 3-0 승 | 0골 |
-| 4월 6일 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 1-2 패 | 1골 (50분) |
+| 3월 17일 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 3-0 승 | 1골 (14분) |
+| 3월 20일 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> | 4-0 승 | 0골 |
+| 3월 28일 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 6-2 승 | 1골 (7분) |
+| 4월 3일 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> | 3-0 승 | 0골 |
+| 4월 6일 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 1-2 패 | 1골 (50분) |
 
 ## 여담
 

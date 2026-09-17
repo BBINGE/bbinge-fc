@@ -75,7 +75,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2012년 홈에서 놓친 UEFA 챔피언스 리그 결승은 그의 첫 바이언 시즌을 상처로 닫았다. 이듬해 웸블리에서 트레블을 완성했고, 2014년 브라질 월드컵에서는 알제리전의 광대한 배후를 홀로 청소하며 ‘스위퍼 키퍼’라는 말을 세계의 일상어로 만들었다. 2020년 리스본 결승에서는 파리 생제르맹의 마지막 슈팅들을 막아 두 번째 트레블의 문을 닫았다. 2017년부터 주장 완장을 찬 그는 2026년 5월 계약을 2027년까지 연장했다. 공식전 597경기, 두 차례 트레블과 13회의 분데스리가 우승이 그때까지 쌓였다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-2.webp" alt="독일 대표팀 유니폼의 마누엘 노이어 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-3.webp" alt="마누엘 노이어의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-2.webp" width="773" height="773" alt="독일 대표팀 유니폼의 마누엘 노이어 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-3.webp" width="773" height="773" alt="마누엘 노이어의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 2. 프란츠 베켄바워｜리베로
 
@@ -114,7 +114,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 그가 그라운드를 떠난 뒤에도 모든 리베로와 빌드업형 수비수는 의식하든 그렇지 않든 그가 남긴 잔디 자국 위에서 출발한다. 베켄바워는 공을 막는 사람이 아니었다. 공이 다시 시작되는 장소였고, 바이언이 세계를 향해 자신을 설명하기 시작한 문장이었다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-2.webp" alt="프란츠 베켄바워의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-3.webp" alt="프란츠 베켄바워의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-2.webp" width="773" height="773" alt="프란츠 베켄바워의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-3.webp" width="773" height="773" alt="프란츠 베켄바워의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 3. 파울 브라이트너｜왼쪽 풀백
 
@@ -126,7 +126,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 1974년 월드컵 결승의 페널티킥, 1982년 결승의 득점으로 그는 서로 다른 두 월드컵 결승에서 골을 넣은 드문 선수에도 들었다. 이 명단에서는 전성기 후반의 중앙 지휘 능력을 품은 왼쪽 풀백으로 세운다. 측면을 달리는 동시에 마테우스 옆으로 들어와 빌드업을 돕는 역할이다. 자유와 질서 사이에서 늘 논쟁을 일으킨 사람이기에 가능한 배치이기도 하다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-2.webp" alt="파울 브라이트너의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-3.webp" alt="파울 브라이트너의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-2.webp" width="773" height="773" alt="파울 브라이트너의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-3.webp" width="773" height="773" alt="파울 브라이트너의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 4. 필리프 람｜오른쪽 풀백
 
@@ -138,7 +138,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2012년 ‘피날레 다호암’<span class="foreign-note" lang="de">(Finale dahoam; 바이에른 방언으로 ‘안방 결승’을 뜻하는 2012년 뮌헨 UEFA 챔피언스 리그 결승의 별칭)</span>에서 무너진 주장은 이듬해 웸블리에서 빅이어를 가장 먼저 들어 올렸다. 2014년에는 독일 대표팀 주장으로 월드컵을 품었다. 바이언 공식전 517경기와 21개의 우승, 퇴장 없이 마친 경력은 ‘미스터 신뢰’라는 별칭에 숫자를 붙인다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-2.webp" alt="필리프 람의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-3.webp" alt="필리프 람의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-2.webp" width="773" height="773" alt="필리프 람의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-3.webp" width="773" height="773" alt="필리프 람의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 5. 로타어 마테우스｜중앙 미드필더
 
@@ -150,7 +150,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 바이언에서 일곱 차례 분데스리가와 1996년 UEFA컵을 우승했고, 1990년 서독의 월드컵 우승 주장으로 발롱도르를 받았다. 공식 명예의 전당은 그를 *Der Leitwolf*, 무리를 이끄는 우두머리 늑대라 부른다. 2000년 3월 올림피아슈타디온의 마지막 홈경기에서 관중이 일제히 일어섰던 장면에는 그의 거친 리더십과 열두 시즌의 시간이 함께 담겼다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-5.webp" alt="로타어 마테우스의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-6.webp" alt="로타어 마테우스의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-5.webp" width="773" height="773" alt="로타어 마테우스의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-6.webp" width="773" height="773" alt="로타어 마테우스의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 6. 바스티안 슈바인슈타이거｜중앙 미드필더
 
@@ -162,7 +162,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2014년 월드컵 결승의 연장전, 아르헨티나 선수들과 부딪칠 때마다 얼굴과 몸에 상처가 늘었다. 그는 다시 일어나 중앙을 지켰고, 독일은 마리오 괴체의 골 뒤 네 번째 별을 달았다. 바이언 1군 공식전 500경기, 68골, 여덟 차례 분데스리가와 2013년 트레블. 팬들이 붙인 *Fußballgott*는 직역하면 ‘축구의 신’이다. 초월적인 재능보다 오래 견딘 충성에 바친 이름이었다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-2.webp" alt="바스티안 슈바인슈타이거의 독일 대표팀 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-3.webp" alt="바스티안 슈바인슈타이거의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-2.webp" width="773" height="773" alt="바스티안 슈바인슈타이거의 독일 대표팀 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-3.webp" width="773" height="773" alt="바스티안 슈바인슈타이거의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 7. 프랑크 리베리｜왼쪽 윙어
 
@@ -174,7 +174,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2013년 UEFA 올해의 선수, 트레블, 그해 발롱도르 3위. 열두 시즌 동안 공식전 425경기 124골과 23개의 우승을 남겼다. 분데스리가 273경기 92도움은 세부 기록 집계 이후 비독일인 최다 기록으로 소개된다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a> 얼굴의 흉터보다 먼저 드리블의 궤적이 떠오르게 된 시간이었다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-2.webp" alt="프랑크 리베리의 프랑스 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-3.webp" alt="프랑크 리베리의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-2.webp" width="773" height="773" alt="프랑크 리베리의 프랑스 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-3.webp" width="773" height="773" alt="프랑크 리베리의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 8. 카를하인츠 루메니게｜오른쪽 공격수
 
@@ -186,7 +186,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 바이언 분데스리가 310경기 162골, 세 차례 득점왕, 두 차례 유러피언컵과 1976년 인터콘티넨털컵. 1984년 인테르로 떠난 뒤 1991년 구단 경영진으로 돌아왔고, 2002년부터 2021년까지 FC 바이에른 뮌헨 AG의 이사회를 이끌었다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a> 선수로 왕조의 끝을 지킨 공격수는 행정가가 되어 알리안츠 아레나와 세계화의 시대를 열었다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-2.webp" alt="카를하인츠 루메니게의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-3.webp" alt="카를하인츠 루메니게의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-2.webp" width="773" height="773" alt="카를하인츠 루메니게의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-3.webp" width="773" height="773" alt="카를하인츠 루메니게의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 9. 토마스 뮐러｜공간 해석가
 
@@ -198,7 +198,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2008년 데뷔 뒤 2025년까지 공식전 756경기로 구단 최다 출전 기록을 세웠다. 250골과 223도움, 13회의 분데스리가, 2013년과 2020년 두 차례 트레블이 한 구단에서 이어졌다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a> 게르트 뮐러의 성을 물려받았으나 같은 방식으로 골을 넣지 않았고, 베켄바워의 우아함도 리베리의 폭발력도 닮지 않았다. 바이에른 시골에서 올라온 소년은 끝내 누구와도 닮지 않은 채 바이언에서 가장 많은 경기를 뛴 사람이 되었다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-2.webp" alt="토마스 뮐러의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-3.webp" alt="토마스 뮐러의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-2.webp" width="773" height="773" alt="토마스 뮐러의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-3.webp" width="773" height="773" alt="토마스 뮐러의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 10. 로베르트 레반도프스키｜센터 포워드
 
@@ -210,7 +210,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 2019-20시즌에는 분데스리가 34골, DFB-포칼 6골, UEFA 챔피언스 리그 15골로 세 대회 득점왕과 트레블을 함께 차지했다. 다음 시즌 리그 41골을 넣어 게르트 뮐러의 40골 기록을 49년 만에 넘어섰다. 바이언 공식전 375경기 344골, 여덟 시즌 동안 평균에 가까운 표현을 거부하는 득점 속도였다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 마지막 41번째 골 뒤 ‘4ever Gerd’ 셔츠를 뮐러의 아내 우시에게 건넨 장면은 기록의 경신과 계승을 같은 화면에 남겼다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-5.webp" alt="로베르트 레반도프스키의 폴란드 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-6.webp" alt="로베르트 레반도프스키의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-5.webp" width="773" height="773" alt="로베르트 레반도프스키의 폴란드 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-6.webp" width="773" height="773" alt="로베르트 레반도프스키의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 11. 게르트 뮐러｜센터 포워드
 
@@ -230,7 +230,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 알코올 의존으로 삶이 무너졌던 시기에는 옛 동료와 구단이 손을 내밀었다. 회복한 뒤 유소년팀 코치로 돌아와 다음 세대의 공격수들을 도왔다. 득점이 그의 언어였다면 바이언은 그 언어가 사라지지 않도록 지켜준 집이었다. 그가 바이언에 남긴 것은 트로피보다 무겁고 독일에 남긴 것은 승리보다 깊다. ‘두 번째 신’이라는 오래된 표현에는 566골뿐 아니라 무너진 사람을 다시 가족 안으로 데려온 구단의 기억까지 함께 들어 있다.
 
-<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-2.webp" alt="게르트 뮐러의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-3.webp" alt="게르트 뮐러의 바이언 업적 편집물" loading="lazy"></div>
+<div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-2.webp" width="773" height="773" alt="게르트 뮐러의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-3.webp" width="773" height="773" alt="게르트 뮐러의 바이언 업적 편집물" loading="lazy"></div>
 
 ## 마침내, 한 경기장에 선 열한 명
 

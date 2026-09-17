@@ -25,15 +25,15 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1922년 9월 17일-10월 22일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>5개국 단일 리그전 + 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>히우지자네이루</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1922년 9월 17일-10월 22일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /></dd></dl><dl><dt>방식</dt><dd>5개국 단일 리그전 + 우승 결정전</dd></dl><dl><dt>개최 도시</dt><dd>히우지자네이루</dd></dl></div>
 
 | 순위 | 국가 | 리그 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> <span class="placement-count">통산 두 번째 우승</span> | 1승 3무 | 4득점 2실점 |
-| 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> <span class="placement-count">통산 첫 번째 준우승</span> | 2승 1무 1패 | 5득점 3실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 3위</span> | 2승 1무 1패 | 3득점 1실점 |
-| 4 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">통산 첫 번째 4위</span> | 2승 2패 | 6득점 3실점 |
-| 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> | 1무 3패 | 1득점 10실점 |
+| 1 | 브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> <span class="placement-count">통산 두 번째 우승</span> | 1승 3무 | 4득점 2실점 |
+| 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> <span class="placement-count">통산 첫 번째 준우승</span> | 2승 1무 1패 | 5득점 3실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 두 번째 3위</span> | 2승 1무 1패 | 3득점 1실점 |
+| 4 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">통산 첫 번째 4위</span> | 2승 2패 | 6득점 3실점 |
+| 5 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> | 1무 3패 | 1득점 10실점 |
 
 <p class="record-note">표는 정규 리그 전적이다. 우승 결정전에서 브라질이 파라과이를 3-0으로 꺾었다.</p>
 
@@ -41,7 +41,7 @@ draft: false
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>아구스치뉴 포르치스</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /></small></div><div><span>득점왕</span><strong>후안 프란시아</strong><small>4골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>결정전</span><strong>브라질 <img class="flag" src="/images/flags/br.svg" alt="브라질 국기" /> 3-0 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /></strong><small>1922년 10월 22일</small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>아구스치뉴 포르치스</strong><small>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /></small></div><div><span>득점왕</span><strong>후안 프란시아</strong><small>4골 · 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>결정전</span><strong>브라질 <img class="flag" src="/images/flags/br.svg" width="30" height="20" alt="브라질 국기" /> 3-0 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /></strong><small>1922년 10월 22일</small></div></div>
 
 ## 여담
 

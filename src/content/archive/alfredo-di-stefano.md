@@ -120,14 +120,14 @@ draft: false
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid club-career-grid-classic">
-  <div><img src="/images/archive/legends/di-stefano/club-river-plate.webp" alt="리버 플레이트 문장" /><strong>리버 플레이트</strong><span>1945 · 1947-1949</span><small>76경기 · 55골</small></div>
-  <div><img src="/images/archive/legends/di-stefano/club-huracan.webp" alt="우라칸 문장" /><strong>우라칸</strong><span>1946</span><small>27경기 · 10골</small></div>
-  <div><img src="/images/archive/legends/di-stefano/club-millonarios.webp" alt="미요나리오스 문장" /><strong>미요나리오스</strong><span>1949-1953</span><small>111경기 · 100골</small></div>
-  <div><img src="/images/archive/legends/kaka/club-real-madrid.svg" alt="레알 마드리드 문장" /><strong>레알 마드리드</strong><span>1953-1964</span><small>396경기 · 308골</small></div>
-  <div><img src="/images/archive/legends/di-stefano/club-espanyol.webp" alt="에스파뇰 문장" /><strong>에스파뇰</strong><span>1964-1966</span><small>60경기 · 14골</small></div>
-  <div><img src="/images/archive/legends/di-stefano/team-argentina.svg" alt="아르헨티나 축구 협회 문장" /><strong>아르헨티나 대표팀</strong><span>1947</span><small>6경기 · 6골</small></div>
-  <div><img src="/images/archive/legends/di-stefano/team-colombia.svg" alt="콜롬비아 축구 연맹 문장" /><strong>콜롬비아 선발팀</strong><span>1949-1952</span><small>4경기 · 0골</small></div>
-  <div><img src="/images/archive/legends/spain/spain-national-team-crest.svg" alt="스페인 왕립 축구 연맹 문장" /><strong>스페인 대표팀</strong><span>1957-1961</span><small>31경기 · 23골</small></div>
+  <div><img src="/images/archive/legends/di-stefano/club-river-plate.webp" width="1280" height="1587" alt="리버 플레이트 문장" /><strong>리버 플레이트</strong><span>1945 · 1947-1949</span><small>76경기 · 55골</small></div>
+  <div><img src="/images/archive/legends/di-stefano/club-huracan.webp" width="1280" height="2078" alt="우라칸 문장" /><strong>우라칸</strong><span>1946</span><small>27경기 · 10골</small></div>
+  <div><img src="/images/archive/legends/di-stefano/club-millonarios.webp" width="3840" height="3840" alt="미요나리오스 문장" /><strong>미요나리오스</strong><span>1949-1953</span><small>111경기 · 100골</small></div>
+  <div><img src="/images/archive/legends/kaka/club-real-madrid.svg" width="143" height="200" alt="레알 마드리드 문장" /><strong>레알 마드리드</strong><span>1953-1964</span><small>396경기 · 308골</small></div>
+  <div><img src="/images/archive/legends/di-stefano/club-espanyol.webp" width="1920" height="2795" alt="에스파뇰 문장" /><strong>에스파뇰</strong><span>1964-1966</span><small>60경기 · 14골</small></div>
+  <div><img src="/images/archive/legends/di-stefano/team-argentina.svg" width="116" height="184" alt="아르헨티나 축구 협회 문장" /><strong>아르헨티나 대표팀</strong><span>1947</span><small>6경기 · 6골</small></div>
+  <div><img src="/images/archive/legends/di-stefano/team-colombia.svg" width="261" height="264" alt="콜롬비아 축구 연맹 문장" /><strong>콜롬비아 선발팀</strong><span>1949-1952</span><small>4경기 · 0골</small></div>
+  <div><img src="/images/archive/legends/spain/spain-national-team-crest.svg" width="960" height="1625" alt="스페인 왕립 축구 연맹 문장" /><strong>스페인 대표팀</strong><span>1957-1961</span><small>31경기 · 23골</small></div>
 </div>
 
 <p class="record-note">클럽 수치는 각 구단의 공식전 통산 기록을 우선했다. 레알 마드리드의 396경기 308골은 구단 공식전 기준이며, 친선 경기까지 포함한 자료에서는 510경기 418골로 집계된다. 콜롬비아의 4경기는 엘도라도 시대에 치른 비공인 대표 경기라 FIFA 공식 A매치에 포함되지 않는다.</p>

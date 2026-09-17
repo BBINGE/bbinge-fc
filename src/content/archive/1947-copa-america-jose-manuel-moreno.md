@@ -21,24 +21,24 @@ draft: false
 
 ## 대회 기록
 
-<div class="record-facts"><dl><dt>개최국</dt><dd>에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1947년 11월 30일-12월 31일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /></dd></dl><dl><dt>방식</dt><dd>8개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>과야킬 · 에스타디오 조지 캡웰</dd></dl></div>
+<div class="record-facts"><dl><dt>개최국</dt><dd>에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /></dd></dl><dl><dt>대회 기간</dt><dd>1947년 11월 30일-12월 31일</dd></dl><dl><dt>참가국</dt><dd>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> · 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> · 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> · 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> · 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> · 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> · 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> · 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /></dd></dl><dl><dt>방식</dt><dd>8개국 단일 리그전</dd></dl><dl><dt>개최 도시</dt><dd>과야킬 · 에스타디오 조지 캡웰</dd></dl></div>
 
 ### 최종 순위
 
 | 순위 | 국가 | 전적 | 득실 |
 | --- | --- | --- | --- |
-| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /> <span class="placement-count">대회 유일의 3연패</span> | 6승 1무 | 28득점 4실점 |
-| 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" alt="파라과이 국기" /> | 5승 1무 1패 | 16득점 11실점 |
-| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" alt="우루과이 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 5승 2패 | 21득점 8실점 |
-| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" alt="칠레 국기" /> <span class="placement-count">통산 여덟 번째 4위</span> | 4승 1무 2패 | 14득점 13실점 |
-| 5 | 페루 <img class="flag" src="/images/flags/pe.svg" alt="페루 국기" /> | 2승 2무 3패 | 12득점 9실점 |
-| 6 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" alt="에콰도르 국기" /> | 3무 4패 | 3득점 17실점 |
-| 7 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" alt="볼리비아 국기" /> | 2무 5패 | 6득점 21실점 |
-| 8 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" alt="콜롬비아 국기" /> | 2무 5패 | 2득점 19실점 |
+| 1 | 아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /> <span class="placement-count">대회 유일의 3연패</span> | 6승 1무 | 28득점 4실점 |
+| 2 | 파라과이 <img class="flag" src="/images/flags/py.svg" width="36" height="24" alt="파라과이 국기" /> | 5승 1무 1패 | 16득점 11실점 |
+| 3 | 우루과이 <img class="flag" src="/images/flags/uy.svg" width="30" height="20" alt="우루과이 국기" /> <span class="placement-count">통산 다섯 번째 3위</span> | 5승 2패 | 21득점 8실점 |
+| 4 | 칠레 <img class="flag" src="/images/flags/cl.svg" width="30" height="20" alt="칠레 국기" /> <span class="placement-count">통산 여덟 번째 4위</span> | 4승 1무 2패 | 14득점 13실점 |
+| 5 | 페루 <img class="flag" src="/images/flags/pe.svg" width="30" height="20" alt="페루 국기" /> | 2승 2무 3패 | 12득점 9실점 |
+| 6 | 에콰도르 <img class="flag" src="/images/flags/ec.svg" width="30" height="20" alt="에콰도르 국기" /> | 3무 4패 | 3득점 17실점 |
+| 7 | 볼리비아 <img class="flag" src="/images/flags/bo.svg" width="30" height="20" alt="볼리비아 국기" /> | 2무 5패 | 6득점 21실점 |
+| 8 | 콜롬비아 <img class="flag" src="/images/flags/co.svg" width="640" height="480" alt="콜롬비아 국기" /> | 2무 5패 | 2득점 19실점 |
 
 ## 개인 기록
 
-<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 마누엘 모레노</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>니콜라스 팔레로</strong><small>8골 · 우루과이</small></div><div><span>우승 성적</span><strong>6승 1무</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" alt="아르헨티나 국기" /></small></div></div>
+<div class="honours-grid"><div><span>대회 대표 선수</span><strong>호세 마누엘 모레노</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div><div><span>득점왕</span><strong>니콜라스 팔레로</strong><small>8골 · 우루과이</small></div><div><span>우승 성적</span><strong>6승 1무</strong><small>아르헨티나 <img class="flag" src="/images/flags/ar.svg" width="30" height="20" alt="아르헨티나 국기" /></small></div></div>
 
 ## 여담
 
