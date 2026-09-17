@@ -293,7 +293,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
   .easy-intro { width:100%; max-width:none; margin:19px 0 31px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; text-wrap:pretty; }
 
   .easy-lead { display:grid; grid-template-columns:minmax(0,1.08fr) minmax(350px,.92fr); min-height:540px; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
-  .easy-lead__image { position:relative; display:block; min-height:100%; overflow:hidden; background:var(--bbfc-fill); }
+  .easy-lead__image { position:relative; display:block; aspect-ratio:1/1; align-self:start; overflow:hidden; background:var(--bbfc-fill); }
   .easy-lead__image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(25,31,40,.03) 46%,rgba(25,31,40,.55)); pointer-events:none; }
   .easy-lead__image img { width:100%; height:100%; object-fit:cover; transition:transform .55s cubic-bezier(.22,1,.36,1); }
   .easy-lead__image:hover img { transform:scale(1.018); }
@@ -356,7 +356,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
   @keyframes easy-search-float { 0%,100% { transform:translateY(3px); } 50% { transform:translateY(-7px); } }
   @media (max-width:960px) {
     .easy-lead { grid-template-columns:1fr; min-height:0; }
-    .easy-lead__image { aspect-ratio:16/10; min-height:0; }
+    .easy-lead__image { aspect-ratio:1/1; min-height:0; }
     .easy-lead__desk { padding:34px 30px; }
     .easy-library__head { grid-template-columns:minmax(0,1fr) minmax(250px,330px); gap:22px; }
   }
@@ -366,7 +366,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
     .easy-masthead__manifesto strong { font-size:11px; }
     .easy-masthead__manifesto span { display:none; }
     .easy-intro { margin-bottom:24px; font-size:12.5px; }
-    .easy-lead__image { aspect-ratio:4/3; }
+    .easy-lead__image { aspect-ratio:1/1; }
     .easy-lead__desk { padding:27px 20px 25px; }
     .easy-lead h2 { font-size:29px; }
     .easy-lead__answer { font-size:12px; }
@@ -395,7 +395,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
   }
   @media (max-width:900px) {
     .easy-lead { grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr); min-height:0; }
-    .easy-lead__image { min-height:100%; aspect-ratio:auto; }
+    .easy-lead__image { min-height:0; aspect-ratio:1/1; }
     .easy-lead__desk { padding:25px 24px; }
     .easy-lead__eyebrow { margin-top:17px; }
     .easy-lead h2 { font-size:29px; }
@@ -412,7 +412,7 @@ const leadFile = lead ? fileFor(lead) : undefined;
     .easy-masthead h1 { font-size:50px; }
     .easy-intro { margin:13px 0 17px; font-size:11.5px; line-height:1.55; }
     .easy-lead { grid-template-columns:1fr; }
-    .easy-lead__image { min-height:0; aspect-ratio:16/10; }
+    .easy-lead__image { min-height:0; aspect-ratio:1/1; }
     .easy-lead__desk { padding:18px 17px; }
     .easy-lead__eyebrow { margin-top:13px; }
     .easy-lead h2 { margin-top:8px; font-size:24px; }

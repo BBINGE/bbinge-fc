@@ -151,7 +151,7 @@ const nextMeta = next ? metaFor(next) : undefined;
   .journey-masthead__manifesto span { margin-top:8px; color:var(--bbfc-gray-2); font-size:11px; }
   .journey-intro { width:100%; max-width:none; margin:19px 0 31px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; text-wrap:pretty; }
   .journey-cover { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(340px,.85fr); min-height:590px; border-top:1px solid var(--bbfc-border); border-bottom:1px solid var(--bbfc-border); }
-  .journey-cover__image { position:relative; display:block; min-height:100%; overflow:hidden; background:var(--bbfc-fill); }
+  .journey-cover__image { position:relative; display:block; aspect-ratio:1/1; align-self:start; overflow:hidden; background:var(--bbfc-fill); }
   .journey-cover__image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(8,12,18,.04) 45%,rgba(8,12,18,.62) 100%); pointer-events:none; }
   .journey-cover__image img { width:100%; height:100%; object-fit:cover; transition:transform .6s cubic-bezier(.22,1,.36,1); }
   .journey-cover__image:hover img { transform:scale(1.018); }
@@ -211,7 +211,7 @@ const nextMeta = next ? metaFor(next) : undefined;
   @keyframes journey-route { 0%,13% { left:0; } 76%,100% { left:calc(100% - 5px); } }
   @media (max-width:860px) {
     .journey-cover { grid-template-columns:1fr; min-height:0; }
-    .journey-cover__image { aspect-ratio:4/3; min-height:0; }
+    .journey-cover__image { aspect-ratio:1/1; min-height:0; }
     .journey-cover__copy { padding:32px 28px; }
     .journey-next__card { grid-template-columns:1fr; }
     .journey-next__image { aspect-ratio:16/10; }
@@ -246,7 +246,7 @@ const nextMeta = next ? metaFor(next) : undefined;
   }
   @media (max-width:900px) {
     .journey-cover { grid-template-columns:minmax(270px,.86fr) minmax(0,1.14fr); min-height:0; }
-    .journey-cover__image { min-height:100%; aspect-ratio:auto; }
+    .journey-cover__image { min-height:0; aspect-ratio:1/1; }
     .journey-cover__copy { padding:25px 24px; }
     .journey-cover h2 { margin-top:12px; font-size:29px; }
     .journey-cover__copy>p:not(.journey-cover__route) { display:-webkit-box; overflow:hidden; margin-top:13px; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
@@ -267,7 +267,7 @@ const nextMeta = next ? metaFor(next) : undefined;
     .journey-masthead h1 { font-size:50px; }
     .journey-intro { margin:13px 0 17px; font-size:11.5px; line-height:1.55; }
     .journey-cover { grid-template-columns:1fr; }
-    .journey-cover__image { min-height:0; aspect-ratio:16/10; }
+    .journey-cover__image { min-height:0; aspect-ratio:1/1; }
     .journey-cover__place b { font-size:38px; }
     .journey-cover__copy { padding:18px 17px; }
     .journey-cover h2 { margin-top:9px; font-size:24px; }

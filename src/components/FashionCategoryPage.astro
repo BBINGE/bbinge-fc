@@ -222,7 +222,7 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     .fashion-hall__cta { display:grid!important; grid-column:auto; width:32px; min-width:32px; height:32px; min-height:0; margin:0; padding:0; place-items:center; border-radius:50%; }
     .fashion-hall__cta i { width:24px; height:24px; font-size:14px; }
     .fashion-cover { grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr); }
-    .fashion-cover__image { aspect-ratio:auto; min-height:100%; }
+    .fashion-cover__image { aspect-ratio:1/1; min-height:0; }
     .fashion-cover__copy h2 { font-size:clamp(24px,3.7vw,31px); }
     .fashion-cover__cta { margin-top:20px; }
   }
@@ -243,7 +243,7 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     .fashion-hall__cta { width:27px; min-width:27px; height:27px; }
     .fashion-hall__cta i { width:21px; height:21px; font-size:12px; }
     .fashion-cover { grid-template-columns:1fr; }
-    .fashion-cover__image { min-height:0; aspect-ratio:16/10; }
+    .fashion-cover__image { min-height:0; aspect-ratio:1/1; }
     .fashion-cover__copy { padding:20px 17px; }
     .fashion-cover__copy h2 { margin-top:9px; font-size:24px; line-height:1.2; }
     .fashion-cover__copy>span { margin-top:10px; font-size:12px; line-height:1.58; }
