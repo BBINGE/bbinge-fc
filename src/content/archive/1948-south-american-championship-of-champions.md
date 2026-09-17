@@ -14,6 +14,10 @@ coverImageCaption: '1948년 3월 14일, 바스쿠 다 가마와 리버 플레이
 coverImageWidth: 966
 coverImageHeight: 966
 relatedGroup: '1948-south-american-championship-of-champions'
+priorPublication:
+  platform: 'NAVER'
+  url: 'https://blog.naver.com/sho3603/223773981796'
+  relation: 'revised-edition'
 draft: false
 ---
 
@@ -35,15 +39,21 @@ draft: false
 
 첫 남미 챔피언 결정전에 나선 팀은 모두 일곱이다. 자격은 나라마다 조금씩 달랐다. 리그가 자리 잡은 나라는 전년도 리그 우승팀이 왔고, 아직 전국 리그가 없던 나라는 최대 도시의 챔피언이 왔다.
 
-| 나라 | 구단 | 참가 자격 |
-| --- | --- | --- |
-| 아르헨티나 | 클루브 아틀레티코 리버 플레이트 | 1947 리가 프로페시오날 데 푸트볼 우승 |
-| 볼리비아 | 클루브 데포르티보 리토랄 | 1947 라파스 우승 |
-| 브라질 | CR 바스쿠 다 가마 | 1947 캄페오나투 카리오카 우승 |
-| 칠레 | 콜로콜로 | 1947 프리메라 디비시온 데 푸트볼 데 칠레 우승 |
-| 에콰도르 | CS 에멜렉 | 1946 과야킬 지방 챔피언십 우승 |
-| 페루 | 데포르티보 무니시팔 | 1947 페루 리그 2위 |
-| 우루과이 | 클루브 나시오날 데 푸트볼 | 1947 캄페오나투 우루과요 데 프리메라 디비시온 프로페시오날 우승 |
+
+  <table>
+    <thead><tr><th>나라</th><th>구단</th><th>참가 자격</th></tr></thead>
+    <tbody>
+      <tr><td data-label="나라"><img src="/images/flags/ar.svg" alt="" width="900" height="600" loading="lazy" /> 아르헨티나</td><td data-label="구단"><img src="/images/archive/1948-south-american-championship-of-champions/club-river-plate.webp" alt="클루브 아틀레티코 리버 플레이트 문장" width="240" height="240" loading="lazy" /> 클루브 아틀레티코 리버 플레이트</td><td data-label="참가 자격">1947 리가 프로페시오날 데 푸트볼 우승</td></tr>
+      <tr><td data-label="나라"><img src="/images/flags/bo.svg" alt="" width="900" height="600" loading="lazy" /> 볼리비아</td><td data-label="구단">클루브 데포르티보 리토랄</td><td data-label="참가 자격">1947 라파스 우승</td></tr>
+      <tr><td data-label="나라"><img src="/images/flags/br.svg" alt="" width="640" height="448" loading="lazy" /> 브라질</td><td data-label="구단">CR 바스쿠 다 가마</td><td data-label="참가 자격">1947 캄페오나투 카리오카 우승</td></tr>
+      <tr><td data-label="나라"><img src="/images/flags/cl.svg" alt="" width="900" height="600" loading="lazy" /> 칠레</td><td data-label="구단"><img src="/images/archive/1948-south-american-championship-of-champions/club-colo-colo.svg" alt="1947년 콜로콜로 문장" width="185" height="204" loading="lazy" /> 콜로콜로</td><td data-label="참가 자격">1947 프리메라 디비시온 데 푸트볼 데 칠레 우승</td></tr>
+      <tr><td data-label="나라"><img src="/images/flags/ec.svg" alt="" width="900" height="600" loading="lazy" /> 에콰도르</td><td data-label="구단"><img src="/images/archive/1948-south-american-championship-of-champions/club-emelec.svg" alt="CS 에멜렉 문장" width="301" height="339" loading="lazy" /> CS 에멜렉</td><td data-label="참가 자격">1946 과야킬 지방 챔피언십 우승</td></tr>
+      <tr><td data-label="나라"><img src="/images/flags/pe.svg" alt="" width="900" height="600" loading="lazy" /> 페루</td><td data-label="구단">데포르티보 무니시팔</td><td data-label="참가 자격">1947 페루 리그 2위</td></tr>
+      <tr><td data-label="나라"><img src="/images/flags/uy.svg" alt="" width="900" height="600" loading="lazy" /> 우루과이</td><td data-label="구단"><img src="/images/archive/1948-south-american-championship-of-champions/club-nacional.svg" alt="클루브 나시오날 데 푸트볼 문장" width="600" height="600" loading="lazy" /> 클루브 나시오날 데 푸트볼</td><td data-label="참가 자격">1947 캄페오나투 우루과요 데 프리메라 디비시온 프로페시오날 우승</td></tr>
+    </tbody>
+  </table>
+
+<p class="record-note">구단 문장은 대회 당시에 가까운 도안을 우선했다. 콜로콜로는 1947년판이다. 데포르티보 무니시팔과 클루브 데포르티보 리토랄은 자유 이용이 가능한 문장 파일을 찾지 못해 이름만 적었다.</p>
 
 브라질 대표로 온 바스쿠 다 가마가 전국 리그 우승팀이 아니라 카리오카, 곧 히우지자네이루주 선수권 우승팀이라는 점이 눈에 띈다. 당시 브라질에는 전국 리그가 없었고 주 선수권이 최상위 대회였다. 그런데 브라질 축구협회가 출전권을 하필 히우지자네이루주 챔피언에게 준 데에는 이유가 있다. 1946년 브라질 주 대표 선수권에서 우승한 주가 히우지자네이루였기 때문이다. 주끼리 겨뤄 이긴 주의 챔피언을 대륙 대회에 내보낸 셈이다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
@@ -65,6 +75,8 @@ draft: false
 | 6 | 클루브 데포르티보 리토랄 | 1승 0무 5패 | 2 | 9득점 18실점 (-9) |
 | 7 | CS 에멜렉 | 0승 1무 5패 | 1 | 4득점 18실점 (-14) |
 
+<figure><img src="/images/archive/1948-south-american-championship-of-champions/nacional-1948.webp" alt="1948년 2월 28일 산티아고에서 구단 페넌트를 들고 단체 사진을 찍은 클루브 나시오날 데 푸트볼 선수단" width="659" height="441" loading="lazy" decoding="async" /><figcaption>1948년 2월 28일 산티아고의 나시오날 선수단. 3위로 대회를 마쳤고, 리버 플레이트를 3-0으로 꺾은 팀이다. 《에스타디오》<span class="foreign-note" lang="es-CL">(Estadio; 칠레 스포츠 주간지)</span> 제250호. 사진가 미상. Wikimedia Commons 소장본.</figcaption></figure>
+
 바스쿠 다 가마가 여섯 경기 4승 2무 무패로 승점 10점을 쌓아 초대 우승 구단이 됐다. 디스테파노를 앞세운 라 마키나<span class="foreign-note" lang="es">(La Máquina; 1940년대 리버 플레이트 공격진을 부르던 별칭, 기계)</span> 세대의 리버 플레이트는 4승 1무 1패 승점 9점으로 초대 준우승에 머물렀다.
 
 승점 1점 차였고, 두 팀의 맞대결은 3월 14일에 열려 0-0으로 끝났다. 이 글의 표지가 그 경기다. 리버가 이겼다면 순위가 뒤집혔을 경기였으니 사실상의 결승이었던 셈이다.
@@ -74,6 +86,8 @@ draft: false
 바스쿠의 득점은 여러 이름으로 흩어졌다. 리토랄전에서 렐레가 두 골, 나시오날전에서는 아데미르<span class="foreign-note" lang="pt-BR">(Ademir Marques de Menezes; 브라질의 공격수, 1950년 월드컵 득점왕, 1922-1996)</span>와 마네카와 다닐루와 프리아사가 한 골씩, 무니시팔전에서는 프리아사가 두 골을 넣었다. 뒷날 [1949년 코파 아메리카 최우수 선수](/archive/national-team/copa-america/1949-copa-america-ademir/)가 되는 아데미르가 이 명단에 들어 있다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 주최국 콜로콜로는 승점 6점으로 무니시팔과 같았으나 득실에서 밀려 5위에 놓였다. 개최지의 이점을 살리지 못한 셈인데, 바스쿠를 상대로는 1-1로 비긴 유일한 팀이었다.
+
+<figure><img src="/images/archive/1955-56-european-cup/vasco-1948.webp" alt="1948년 남미 챔피언 클럽 대회 우승팀 바스쿠 다 가마 선수단" width="1327" height="945" loading="lazy" decoding="async" /><figcaption>초대 우승 구단 바스쿠 다 가마. 《에스타디오》 제255호, 1948년 4월 3일. 사진가 미상. Wikimedia Commons 소장본. 발행일은 촬영일과 구분한다.</figcaption></figure>
 
 ## 유럽이 따라 한 쪽은 남미였다
 
@@ -98,5 +112,4 @@ draft: false
 <li id="source-2"><a href="https://www.rsssf.org/sacups/copa48.html" target="_blank" rel="noopener noreferrer">RSSSF, South American Club Championship 1948: 참가 자격, 경기별 결과와 득점자, 최종 순위표, 브라질 출전권 배정 경위</a></li>
 <li id="source-3"><a href="https://en.wikipedia.org/wiki/Copa_Libertadores" target="_blank" rel="noopener noreferrer">Copa Libertadores: 1948년 대회를 전신으로 보는 서술과 1960년 창설 경위</a></li>
 <li id="source-4"><a href="https://en.wikipedia.org/wiki/CR_Vasco_da_Gama" target="_blank" rel="noopener noreferrer">CR Vasco da Gama: 1948년 우승과 1996년 남미 축구 연맹의 인정, 1997년 수페르코파 리베르타도레스 출전</a></li>
-<li id="source-5"><a href="https://blog.naver.com/sho3603/223773981796" target="_blank" rel="noopener noreferrer">삥이 네이버 블로그: 1948 시즌 남미 챔피언 오브 챔피언십, 바스쿠 다 가마</a></li>
 </ol></div>
