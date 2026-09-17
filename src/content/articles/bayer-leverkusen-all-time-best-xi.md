@@ -4,12 +4,12 @@ description: "2026년 기준으로 다시 고른 바이어 04 레버쿠젠 역�
 category: "custom-best-xi"
 tags: ["바이어 04 레버쿠젠", "레버쿠젠", "차범근", "손흥민", "플로리안 비르츠", "푸스발-분데스리가", "역대 베스트 11"]
 pubDate: 2026-08-21T18:59:19+09:00
-coverImage: "/images/squads/bayer-leverkusen-all-time-best-xi/bayer-leverkusen-best-xi-cover.webp"
+coverImage: "/images/squads/bayer-leverkusen-all-time-best-xi/card-bbinge-2025.webp"
 cardImage: "/images/squads/bayer-leverkusen-all-time-best-xi/card-bbinge-2025.webp"
-coverImageAlt: "차범근의 1979년 초상과 바이어 04 레버쿠젠 문장, 역대 베스트 11 제목을 검정과 적색으로 구성한 표지"
-coverImageCaption: "차범근의 얼굴로 문을 열고 레버쿠젠 120년의 열한 명을 만난다. 차범근 사진: Nationaal Archief/Anefo, CC BY-SA 3.0 NL. 바이아레나 사진: Partonez, CC BY-SA 4.0. 구도·색채·타이포그래피: 박성호(삥이)·삥이FC. 생성형 AI 미사용."
-coverImageWidth: 1200
-coverImageHeight: 675
+coverImageAlt: "레버쿠젠 붉은 유니폼을 입은 선수가 등번호 10번 찰하노을루의 등에 업혀 환호하는 사진 위에 레버쿠젠 역대 베스트 11 제목을 얹은 카드"
+coverImageCaption: "레버쿠젠 역대 베스트 11. Neverkusen에서 Invincibles까지."
+coverImageWidth: 966
+coverImageHeight: 966
 hideCoverImage: true
 draft: false
 featured: true
