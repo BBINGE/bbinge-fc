@@ -1,6 +1,6 @@
 # BBinge FC — 장기 운영 규칙
 
-Claude와 다른 AI 도구의 새 세션 읽기 순서는 `AGENTS.md` §1을 따른다. `BBINGE_FC_BRIEF.md` → 이 문서 → `EDITORIAL_WRITING_RULES.md` → `CONTENT_EDITORIAL_INTENT.md` → `HANDOFF.md`의 현재 실행 브리프 순서다. HANDOFF의 전체 연대기를 매번 읽지 않는다. `EDITORIAL_RISK_GATE.md`와 `EDITORIAL_ASSET_POLICY.md`는 자산·위험 판단 작업에서, `PLAYER_ARCHIVE_RULES.md`는 선수 아카이브 작업에서, `ARCHIVE_SERIES_RULES.md`는 발롱도르·시상관·유러피언컵·결승전 H/L 작업에서, `SQUAD_ARCHIVE_RULES.md`는 축쿼드 작업에서 추가로 읽는다. 오랜만에 들어온 세션은 로컬 기억·과거 대화보다 이 문서들과 실제 코드를 기준으로 따라잡는다. 편집 의도는 `CONTENT_EDITORIAL_INTENT.md`, 정확한 문체·원어 규격은 `EDITORIAL_WRITING_RULES.md`, 현재 구현 상태는 HANDOFF가 담당한다. 과거 설계와 승인된 현행 구현의 차이는 최신 합의와 실제 코드를 대조하며, 옛 문서 문구를 근거로 현행 기능을 되돌리지 않는다.
+Claude와 다른 AI 도구의 새 세션 읽기 순서는 `AGENTS.md` §1을 따른다. `BBINGE_FC_BRIEF.md` → 이 문서 → `EDITORIAL_WRITING_RULES.md` → `CONTENT_EDITORIAL_INTENT.md` → `HANDOFF.md`의 현재 실행 브리프 순서다. HANDOFF의 전체 연대기를 매번 읽지 않는다. `CATEGORY_GUARDRAILS.md`는 관별로 실제 사고가 났던 지점과 그 확인 방법을 모아 둔 점검표이며 어느 관의 작업이든 시작 전에 해당 절을 읽는다. `EDITORIAL_RISK_GATE.md`와 `EDITORIAL_ASSET_POLICY.md`는 자산·위험 판단 작업에서, `PLAYER_ARCHIVE_RULES.md`는 선수 아카이브 작업에서, `ARCHIVE_SERIES_RULES.md`는 발롱도르·시상관·유러피언컵·결승전 H/L 작업에서, `SQUAD_ARCHIVE_RULES.md`는 축쿼드 작업에서 추가로 읽는다. 오랜만에 들어온 세션은 로컬 기억·과거 대화보다 이 문서들과 실제 코드를 기준으로 따라잡는다. 편집 의도는 `CONTENT_EDITORIAL_INTENT.md`, 정확한 문체·원어 규격은 `EDITORIAL_WRITING_RULES.md`, 현재 구현 상태는 HANDOFF가 담당한다. 과거 설계와 승인된 현행 구현의 차이는 최신 합의와 실제 코드를 대조하며, 옛 문서 문구를 근거로 현행 기능을 되돌리지 않는다.
 
 ## 프로젝트와 사용자
 
