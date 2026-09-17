@@ -148,12 +148,16 @@ export function renderEuropeanCupMilestone(season, stage) {
 
 // 득점 순위표: 골 수 내림차순, 공동 순위는 앞선 선수 수 + 1. 클럽 문장은 해당 시즌 자산을 쓴다.
 export function renderTopScorers(season) {
-  if (!/^\d{4}-\d{2}$/.test(season)) throw new Error('Invalid top scorers key');
+  if (!/^\d{4}(-\d{2})?$/.test(season)) throw new Error('Invalid top scorers key');
   const record = europeanCupScorers.seasons.find(item => item.season === season);
   if (!record) throw new Error('Unknown top scorers season: ' + season);
   const list = record.scorers;
+  // 출전 기록이 남지 않은 대회는 출전 칸을 만들지 않는다. 일부만 아는 경우는 표를 내지 않고 데이터를 채운 뒤 낸다.
+  const hasApps = list.every(p => p.apps !== undefined);
+  if (!hasApps && list.some(p => p.apps !== undefined)) throw new Error('Partial appearance data: ' + season);
   list.forEach((p, i) => {
-    if (!Number.isInteger(p.goals) || !Number.isInteger(p.apps) || p.goals < record.cutoff || p.apps < 1) throw new Error('Invalid scorer record: ' + p.name);
+    if (!Number.isInteger(p.goals) || p.goals < record.cutoff) throw new Error('Invalid scorer record: ' + p.name);
+    if (hasApps && (!Number.isInteger(p.apps) || p.apps < 1)) throw new Error('Invalid scorer appearances: ' + p.name);
     if (i > 0 && list[i - 1].goals < p.goals) throw new Error('Scorers must be sorted by goals: ' + p.name);
     const expected = 1 + list.filter(q => q.goals > p.goals).length;
     if (p.rank !== expected) throw new Error('Wrong rank for ' + p.name + ': ' + p.rank + ' (expected ' + expected + ')');
@@ -170,11 +174,11 @@ export function renderTopScorers(season) {
       + '<td class="cup-scorer-player"><strong>' + escape(p.name) + '</strong><span lang="' + escape(p.lang) + '">' + escape(p.original) + '</span></td>'
       + '<td class="cup-scorer-club" data-label="클럽"><span class="cup-result-team"><span class="cup-result-crest">' + crest + '</span><span class="cup-result-name">' + escape(club.name) + '</span></span></td>'
       + '<td class="cup-scorer-origin" data-label="출신"><span>' + image(p.flag, 'cup-result-flag', 20, 14) + escape(p.origin) + '</span></td>'
-      + '<td class="cup-scorer-num" data-label="출전">' + p.apps + '경기</td>'
+      + (hasApps ? '<td class="cup-scorer-num" data-label="출전">' + p.apps + '경기</td>' : '')
       + '<td class="cup-scorer-num cup-scorer-goals" data-label="득점">' + p.goals + '골</td></tr>';
   }).join('');
   const label = season + ' ' + record.competition + ' 득점 순위 표, ' + record.cutoff + '골 이상';
-  return '<div class="cup-scorer-scroll" tabindex="0" role="region" aria-label="' + escape(label) + '"><table class="cup-scorer-table"><thead><tr><th scope="col">순위</th><th scope="col">선수</th><th scope="col">클럽</th><th scope="col">출신</th><th scope="col">출전</th><th scope="col">득점</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+  return '<div class="cup-scorer-scroll" tabindex="0" role="region" aria-label="' + escape(label) + '"><table class="cup-scorer-table"><thead><tr><th scope="col">순위</th><th scope="col">선수</th><th scope="col">클럽</th><th scope="col">출신</th>' + (hasApps ? '<th scope="col">출전</th>' : '') + '<th scope="col">득점</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
 }
 
 // 조별리그(1955-58 인터시티스 페어스컵): 경기 결과에서 순위를 계산하고, 기록한 조 1위와 다르면 빌드를 멈춘다.
@@ -258,7 +262,7 @@ export function expandFootballTies(html) {
   if (grouped.includes('data-football-group=') || grouped.includes('data-football-group-entrants=')) throw new Error('Malformed football group placeholder');
   html = grouped;
   const milestones = html.replace(/<div data-european-cup-milestone="(\d{4}-\d{2}):(competition|preliminary-round|round-of-16|quarter-finals|semi-finals|final|champions|runners-up)"><\/div>/g, (_, season, stage) => renderEuropeanCupMilestone(season, stage));
-  const scorers = milestones.replace(/<div data-european-cup-scorers="(\d{4}-\d{2})"><\/div>/g, (_, season) => renderTopScorers(season));
+  const scorers = milestones.replace(/<div data-european-cup-scorers="(\d{4}(?:-\d{2})?)"><\/div>/g, (_, season) => renderTopScorers(season));
   const results = scorers.replace(/<div data-football-results="([a-z0-9-]+):(예선|16강|8강|4강)"><\/div>/g, (_, collection, stage) => renderResultTable(collection, stage));
   const expanded = results.replace(/<div data-football-tie="([a-z0-9-]+):(match-\d+)"><\/div>/g, (_, collection, id) => renderTie(collection, id));
   if (expanded.includes('data-football-tie=') || expanded.includes('data-european-cup-milestone=') || expanded.includes('data-football-results=') || expanded.includes('data-european-cup-scorers=')) throw new Error('Malformed football archive placeholder');

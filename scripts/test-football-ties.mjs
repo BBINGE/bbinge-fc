@@ -164,6 +164,24 @@ assert(scorers5657.includes('/images/flags/es-1945.png'), '아르테체 1945-197
 const scorerSource5657 = readFileSync(new URL('../src/content/archive/1956-57-european-cup-top-scorers.md', import.meta.url), 'utf8');
 assert.equal((scorerSource5657.match(/data-european-cup-scorers="1956-57"/g) ?? []).length, 1);
 assert(!scorerSource5657.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
+// 1948 남미 챔피언 오브 챔피언십 득점 순위: 출전 기록이 없는 대회라 출전 칸을 만들지 않는다.
+const scorers1948 = renderTopScorers('1948');
+assert.equal((scorers1948.match(/<tr[ >]/g) ?? []).length, 10, '머리글 1행 + 선수 9행');
+assert(!scorers1948.includes('출전'), '출전 기록이 없으면 출전 칸을 두지 않는다');
+for (const [rank, name, goals, origin] of [['1위','로베르토 카파렐리',7,'아르헨티나'],['2위','아틸리오 가르시아',5,'아르헨티나'],['공동 3위','알프레도 디스테파노',4,'아르헨티나'],['공동 3위','펠릭스 로우스타우',4,'아르헨티나'],['공동 3위','발테르 고메스',4,'우루과이'],['공동 3위','프리아사',4,'브라질'],['공동 3위','막시모 모스케라',4,'페루'],['공동 3위','페드로 로페스',4,'칠레'],['9위','렐레',3,'브라질']]) {
+  const row = scorers1948.split('<tr').find(part => part.includes('<strong>' + name + '</strong>'));
+  assert(row && row.includes('data-label="순위">' + rank + '</td>'), name + ' 순위');
+  assert(row.includes('data-label="득점">' + goals + '골') && row.includes(origin), name + ' 골·출신');
+}
+// 경기별 득점자를 팀별로 더한 값이 최종 순위표의 득점 칸과 맞는 쪽을 따랐다. 자료가 갈리는 지점이라 숫자를 고정한다.
+const record1948 = JSON.parse(readFileSync(new URL('../src/data/european-cup-scorers.json', import.meta.url), 'utf8')).seasons.find(item => item.season === '1948');
+assert.equal(record1948.scorers.reduce((sum, p) => sum + p.goals, 0), 39, '표에 실은 아홉 명의 합계');
+assert.equal(record1948.goals, 76, '대회 전체 득점');
+assert.equal(record1948.matches, 21, '대회 경기 수');
+assert(record1948.scorers.every(p => p.apps === undefined), '출전 기록은 비워 둔다');
+const scorerSource1948 = readFileSync(new URL('../src/content/archive/1948-south-american-championship-of-champions-top-scorers.md', import.meta.url), 'utf8');
+assert.equal((scorerSource1948.match(/data-european-cup-scorers="1948"/g) ?? []).length, 1);
+assert(!scorerSource1948.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
 // 1956-57 4강: 합계·결승 진출, 레알 두 번째 4강, 원고 자리표시.
 for (const [id, total, winner] of [['match-1','0<i>:</i>1','AC 피오렌티나'], ['match-2','5<i>:</i>3','레알 마드리드 CF']]) {
   const html = renderTie('1956-57-european-cup-semifinals', id);

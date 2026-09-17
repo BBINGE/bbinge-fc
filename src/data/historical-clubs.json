@@ -1237,5 +1237,128 @@
       }
     ],
     "review": "1955-58 인터시티스 페어스컵 도시 선발팀. 운영자 확정(2026-09-15)으로 도시 문장 사용."
+  },
+  "vasco-da-gama": {
+    "name": "CR 바스쿠 다 가마",
+    "original": "CLUB DE REGATAS VASCO DA GAMA",
+    "country": "브라질",
+    "flags": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/flags/br.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
+  },
+  "river-plate": {
+    "name": "클루브 아틀레티코 리버 플레이트",
+    "original": "CLUB ATLETICO RIVER PLATE",
+    "country": "아르헨티나",
+    "flags": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/flags/ar.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/archive/1948-south-american-championship-of-champions/club-river-plate.webp",
+        "period": "당대에 가까운 도안",
+        "sources": [
+          "https://commons.wikimedia.org/"
+        ]
+      }
+    ],
+    "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
+  },
+  "nacional-uru": {
+    "name": "클루브 나시오날 데 푸트볼",
+    "original": "CLUB NACIONAL DE FOOTBALL",
+    "country": "우루과이",
+    "flags": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/flags/uy.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/archive/1948-south-american-championship-of-champions/club-nacional.svg",
+        "period": "당대에 가까운 도안",
+        "sources": [
+          "https://commons.wikimedia.org/"
+        ]
+      }
+    ],
+    "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
+  },
+  "deportivo-municipal": {
+    "name": "데포르티보 무니시팔",
+    "original": "DEPORTIVO MUNICIPAL",
+    "country": "페루",
+    "flags": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/flags/pe.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
+  },
+  "colo-colo": {
+    "name": "콜로콜로",
+    "original": "COLO-COLO",
+    "country": "칠레",
+    "flags": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/flags/cl.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/archive/1948-south-american-championship-of-champions/club-colo-colo.svg",
+        "period": "1947",
+        "sources": [
+          "https://commons.wikimedia.org/"
+        ]
+      }
+    ],
+    "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
+  },
+  "litoral": {
+    "name": "클루브 데포르티보 리토랄",
+    "original": "CLUB DEPORTIVO LITORAL",
+    "country": "볼리비아",
+    "flags": [
+      {
+        "seasons": [
+          "1948"
+        ],
+        "src": "/images/flags/bo.svg"
+      }
+    ],
+    "crests": [],
+    "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
   }
 }
