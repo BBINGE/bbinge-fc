@@ -152,7 +152,6 @@ featured: false
 6. <span id="source-6"></span>[FIFA, “Quirky stories from FIFA World Cup finals”](https://www.fifa.com/en/articles/quirky-stories-finals).
 7. <span id="source-7"></span>[Asociación del Fútbol Argentino, “Historia”](https://www.afa.com.ar/11612/pages/historia).
 8. <span id="source-8"></span>[Museu do Futebol, Centro de Referência do Futebol Brasileiro: Charles Miller와 SPAC 자료](https://museudofutebol.org.br/crfb/personalidades/480271/).
-9. 원문: [삥이의 네이버 블로그, 「영국 중심 축구 역사 서술의 한계, 서술 권력의 문제」](https://blog.naver.com/sho3603/224252432468).
 
 </div>
 

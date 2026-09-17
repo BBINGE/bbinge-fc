@@ -299,7 +299,6 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223691689993" rel="noopener noreferrer">삥이 네이버 블로그: 데니스 베르흐캄프, 그 시절 대장 공격수</a>: 원 게재 글의 평가·프로필·우승과 수상 목록.</li>
   <li><a href="https://www.ajaxshowtime.com/bijzaken-en-geruchten/van-gaal-kijkt-terug-op-uefa-cup-winst-in-1992-we-hadden-geluk-in-die-wedstrijd" rel="noopener noreferrer">Ajax Showtime: 판 할의 1992 UEFA컵 회고</a>: ESPN 다큐멘터리 《De eerste van Louis》 속 결승 결장과 트로피 방문 발언.</li>
   <li><a href="https://www.goal.com/it/notizie/il-paradosso-di-bergkamp-allinter-capocannoniere-in-coppa-uefa-e-/14nvufuheu0jk1dmdway5abrso" rel="noopener noreferrer">Goal Italia: 인테르의 역설, UEFA컵 득점왕 베르흐캄프</a>: 1993년 2월 15일 영입 발표, 입단 발언, 라 데니세 별명, 경기당 기회 발언, UEFA컵 여정과 이적.</li>
   <li><a href="https://www.vice.com/nl/article/hoe-het-droomkoppel-bergkampjonk-mislukte-bij-internazionale/" rel="noopener noreferrer">VICE Nederland: 베르흐캄프·용크 조합은 왜 인테르에서 실패했나</a>: 유벤투스 거절, 바뇰리의 5-3-2, 소사의 불평, 《라 레푸블리카》 조롱란.</li>

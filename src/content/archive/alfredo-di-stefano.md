@@ -237,5 +237,4 @@ draft: false
   <li><a href="https://commons.wikimedia.org/wiki/File:Emblema_oficial_del_Club_Atl%C3%A9tico_Hurac%C3%A1n.svg" rel="noopener noreferrer">Wikimedia Commons: Club Atlético Huracán emblem</a>: 역대 클럽·국대 기록의 우라칸 문장.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Escudo_de_Millonarios_F%C3%BAtbol_Club.svg" rel="noopener noreferrer">Wikimedia Commons: Millonarios Fútbol Club crest</a>: 역대 클럽·국대 기록의 미요나리오스 문장.</li>
   <li><a href="https://de.wikipedia.org/wiki/Datei:RCD_Espanyol_De_Barcelona.svg" rel="noopener noreferrer">Wikipedia: RCD Espanyol de Barcelona crest</a>: 역대 클럽·국대 기록의 에스파뇰 문장.</li>
-  <li><a href="https://blog.naver.com/sho3603/223500533311" rel="noopener noreferrer">삥이 네이버 포스팅: 알프레도 디스테파노</a>: 이 글의 기존 평가, 기록 목록과 영상 구성.</li>
 </ul></div>

@@ -78,4 +78,4 @@ draft: false
 
 ## 출처와 기록 기준
 
-<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-2"><a href="https://blog.naver.com/sho3603/223507380400">«1920 코파 아메리카 득점왕 MVP “호세 피엔디베네”»</a>, 삥이의 축구 기록.</li><li id="source-3"><a href="https://www.auf.org.uy/copa-america-1920/">«Copa América 1920»</a>, AUF·AHIFU.</li></ol><p class="record-note">‘대회 대표 선수’는 당시 공식 MVP 시상식이 있었다는 뜻이 아니다. CONMEBOL은 피엔디베네를 대회의 인물로, AUF·AHIFU는 안토니오 우르디나란을 최고의 선수로 평가한다. 득점왕은 로마노와 페레스의 공동 3골이다.</p></div>
+<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-3"><a href="https://www.auf.org.uy/copa-america-1920/">«Copa América 1920»</a>, AUF·AHIFU.</li></ol><p class="record-note">‘대회 대표 선수’는 당시 공식 MVP 시상식이 있었다는 뜻이 아니다. CONMEBOL은 피엔디베네를 대회의 인물로, AUF·AHIFU는 안토니오 우르디나란을 최고의 선수로 평가한다. 득점왕은 로마노와 페레스의 공동 3골이다.</p></div>

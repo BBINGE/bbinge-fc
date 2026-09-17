@@ -343,7 +343,6 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223500361627" rel="noopener noreferrer">삥이 네이버 블로그: 경이로운 자 호나우두 나자리우</a>: 원 게재 글의 평가·프로필·스탯·우승과 개인 수상 목록.</li>
   <li><a href="https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)" rel="noopener noreferrer">Wikipedia: Ronaldo (Brazilian footballer)</a>: 유소년기와 크루제이루 데뷔일, PSV·바르셀로나·인테르·레알 마드리드 시기의 경기 기록과 이적료, 1999년 레체전과 2000년 복귀전 부상 경위, 동료·감독 증언의 출처 문단.</li>
   <li><a href="https://en.wikipedia.org/wiki/1997_Intercontinental_Cup" rel="noopener noreferrer">Wikipedia: 1997 Intercontinental Cup</a>: 1997년 12월 2일 도쿄 결승이 보루시아 도르트문트 2-0 크루제이루였다는 확인. 운영자 원고의 1997년 인터콘티넨털컵 우승 기록을 2002년으로 고친 근거.</li>
   <li><a href="https://en.wikipedia.org/wiki/1996_Johan_Cruyff_Shield" rel="noopener noreferrer">Wikipedia: 1996 Johan Cruyff Shield</a>: 1996년 8월 18일 아약스 0-3 PSV 경기 기록. 그가 이미 바르셀로나 소속이던 시점이라 우승 경력에서 뺀 근거.</li>

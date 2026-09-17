@@ -122,5 +122,4 @@ relatedGroup: 'fifa-world-cup-1938'
 <li id="source-1"><a href="https://www.rsssf.org/tables/38full.html">“World Cup 1938 finals”</a>, RSSSF. 경기 결과·라인업·출전·득점 기록.</li>
 <li id="source-2"><a href="https://inside.fifa.com/tournaments/mens/worldcup/1938france/news/dominant-azzurri-retain-their-crown-2866627">“Dominant Azzurri retain their crown”</a>, FIFA. 이탈리아의 대회 경로와 최초 2연패.</li>
 <li id="source-3"><a href="https://fbref.com/en/awards/wc_all_star/FIFA-World-Cup-All-Star-Team">“FIFA World Cup All-Star Team”</a>, FBref. 후대에 정리된 1938 올스타 명단.</li>
-<li><a href="https://blog.naver.com/sho3603/223499396026">“1938 FIFA 프랑스 월드컵 당대 베스트 11”</a>, 삥이N스포츠_Official. 최초 구성과 표지·선수 사진.</li>
 </ol><p class="record-note">1938년에는 오늘날과 같은 공식 FIFA 베스트 11 시상이 없었다. 따라서 명단의 성격과 실제 대회 기록을 분리해 적었으며, 네이버 원문의 젱겔레르 줄러 6골 표기는 대회 본선 득점 기록에 맞춰 5골로 바로잡았다.</p></div>

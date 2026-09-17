@@ -97,7 +97,7 @@ draft: false
 
 ## 토론토에서 단 22야드, 그리고 은퇴
 
-2011년 6월 29일, 그는 메이저 리그 사커의 토론토 FC와 지명 선수 계약을 맺었다. 7월 20일 FC 댈러스와의 홈 경기에서 데뷔했고 팀은 0-1로 졌다. 7월 29일 CONCACAF UEFA 챔피언스 리그 레알 에스텔리전에서는 주장 완장을 달았고, 이후 정식 주장이 됐다.
+2011년 6월 29일, 그는 메이저 리그 사커의 토론토 FC와 지명 선수 계약을 맺었다. 7월 20일 FC 댈러스와의 홈 경기에서 데뷔했고 팀은 0-1로 졌다. 7월 29일 CONCACAF 챔피언스 리그 레알 에스텔리전에서는 주장 완장을 달았고, 이후 정식 주장이 됐다.
 
 MLS에서의 첫 골은 2012년 6월 27일 몬트리올 임팩트 원정에서 나왔다. 52분, 22야드 프리킥이었다. 3-0 승리였고, 그해 캐나다 챔피언십도 들었다.
 
@@ -220,7 +220,6 @@ MLS에서의 첫 골은 2012년 6월 27일 몬트리올 임팩트 원정에서 �
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223726534806" rel="noopener noreferrer">삥이 네이버 블로그: 2000년대 전차 군단의 만능 미드필더 토르스텐 프링스</a>: 원 게재 글의 평가·프로필·대회별 스탯·우승과 수상 목록.</li>
   <li><a href="https://en.wikipedia.org/wiki/Torsten_Frings" rel="noopener noreferrer">Wikipedia: Torsten Frings</a>: 본명 Torsten Klaus Frings, 출생지 뷔르젤렌, 신장 1.82m, 유소년기와 아헨·브레멘·도르트문트·바이언·토론토 시기의 경기 기록, 2002년 미국전 골라인 핸드볼, 2006년 개막전 득점과 8강 난투극 징계 경위, 2013년 2월 은퇴.</li>
   <li><a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004" rel="noopener noreferrer">Wikipedia: UEFA Euro 2004</a>: 조별리그 다음이 8강이어서 16강 라운드가 없었다는 대회 방식과, 독일의 조별리그 탈락 성적(체코 1-2, 네덜란드 1-1, 라트비아 0-0).</li>
   <li><a href="https://de.wikipedia.org/wiki/Rangliste_des_deutschen_Fu%C3%9Fballs" rel="noopener noreferrer">Wikipedia(독일어): 키커 랑리스테</a>: 반기별 등급 체계와 월드클래스·인터내셔널 클래스·주목 대상·시야권 네 단계의 정의.</li>

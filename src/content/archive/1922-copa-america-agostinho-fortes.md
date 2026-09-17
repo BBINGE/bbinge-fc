@@ -73,4 +73,4 @@ draft: false
 
 ## 출처와 기록 기준
 
-<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li><li id="source-2"><a href="https://blog.naver.com/sho3603/223507421359">«1922 코파 아메리카 득점왕 MVP “아구스티뉴 포르치스 필류”»</a>, 삥이의 축구 기록.</li></ol><p class="record-note">포르치스의 ‘최우수 선수’는 후대의 회고적 선정이다. 포르투갈어 발음을 반영해 Agostinho Fortes를 ‘아구스치뉴 포르치스’로 적고, Filho는 동명이인 구분이 필요할 때만 ‘필류’로 덧붙인다.</p></div>
+<div class="source-notes"><ol><li id="source-1"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li></ol><p class="record-note">포르치스의 ‘최우수 선수’는 후대의 회고적 선정이다. 포르투갈어 발음을 반영해 Agostinho Fortes를 ‘아구스치뉴 포르치스’로 적고, Filho는 동명이인 구분이 필요할 때만 ‘필류’로 덧붙인다.</p></div>

@@ -193,5 +193,4 @@ draft: false
   <li><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d7d0bdc396b-570ad6e6ff87-1000--euro-1964-team-of-the-tournament/" rel="noopener noreferrer">UEFA: EURO 1964 Team of the Tournament</a>: 결승 최우수 선수 평가, 대회 베스트 11과 대표팀 32경기 14골.</li>
   <li><a href="https://www.uefa.com/uefaeuro/history/news/0253-0d81002b8cf1-1cc8563243f0-1000--snap-shot-spain-celebrate-1964-euro-triumph/" rel="noopener noreferrer">UEFA: Spain celebrate 1964 EURO triumph</a>: UEFA 유로 1964 결승과 스페인 대표팀 우승 기록.</li>
   <li><a href="https://app.francefootball.fr/ballon-d-or/palmares/" rel="noopener noreferrer">France Football: Ballon d'Or palmarès</a>: 1960년 발롱도르 수상.</li>
-  <li><a href="https://blog.naver.com/sho3603/223494912950" rel="noopener noreferrer">삥이 네이버 포스팅: 루이스 수아레스</a>: 기존 평가, 기록 목록, 사진과 영상 구성.</li>
 </ul></div>

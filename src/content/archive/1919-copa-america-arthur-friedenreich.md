@@ -116,7 +116,6 @@ draft: false
 <li id="source-2"><a href="https://cdn.conmebol.com/wp-content/uploads/documents/copaamericaweb-es.pdf">«Historia de la CONMEBOL Copa América»</a>, CONMEBOL.</li>
 <li id="source-3"><a href="https://copaamerica.com/es/novedades/la-copa-america-se-juega-con-el-corazon">«La CONMEBOL Copa América se juega con el corazón»</a>, CONMEBOL Copa América.</li>
 <li id="source-4"><a href="https://museudofutebol.org.br/arthur-o-tigre-friedenreich/">«Arthur “O Tigre” Friedenreich, o primeiro craque brasileiro»</a>, Museu do Futebol.</li>
-<li id="source-5"><a href="https://blog.naver.com/sho3603/223506151521">«1919 코파 아메리카 득점왕 MVP “아르투르 프리덴라이히”»</a>, 삥이의 축구 기록.</li>
 </ol>
 
 <p class="record-note">‘최우수 선수’ 표기는 대회 당시 별도의 공식 MVP 시상식이 있었다는 뜻이 아니다. CONMEBOL의 후대 대회사가 프리덴라이히를 1919년의 득점왕이자 핵심 인물로 소개한 기준에 따라 이 기록의 표제 인물로 삼았다. 득점왕은 공식 기록에 따라 프리덴라이히와 네쿠의 공동 4골로 바로잡았다.</p>

@@ -144,6 +144,5 @@ relatedGroup: 'fifa-world-cup-1950'
     <li id="source-7"><a href="https://placar.com.br/placar/a-historia-da-camisa-branca-da-selecao-brasileira/">Placar, 브라질 대표팀 흰색 유니폼의 역사</a></li>
     <li id="source-8"><a href="https://www.bbc.com/sport/football/46286450">BBC Sport, Aldyr Garcia Schlee and Brazil's yellow shirt</a></li>
     <li id="source-9"><a href="https://inside.fifa.com/es/tournaments/mens/worldcup/1950brazil/news/la-caotica-coronacion-de-uruguay-en-maracana-2783356">FIFA, La caótica coronación de Uruguay en el Maracaná</a>. 쥘 리메의 트로피 전달과 스키아피노의 경기 후 회고.</li>
-    <li><a href="https://blog.naver.com/sho3603/223536298022">원문: 1950 FIFA 월드컵 결승전 - 마라카낭의 비극</a> · 본문의 18개 영상은 원문 GIF 배열을 같은 순서로 변환한 FIFA 기록 영상이다.</li>
   </ol>
 </div>

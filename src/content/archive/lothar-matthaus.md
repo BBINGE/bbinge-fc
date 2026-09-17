@@ -309,7 +309,6 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://blog.naver.com/sho3603/223695115155" rel="noopener noreferrer">삥이 네이버 블로그: 미드필더 계보 All Time 1위 로타어 마테우스</a>: 원 게재 글의 평가·프로필·우승과 수상 목록.</li>
   <li><a href="https://www.dfb.de/news/wm-held-und-rekordnationalspieler-lothar-matthaeus-wird-65" rel="noopener noreferrer">DFB: 월드컵 영웅이자 최다 출전 선수 마테우스 65세</a>: 150경기 23골, 주장 75경기, 포크츠 태클과 그라스호프 일화, 1990년 개막전 회고, 2009년 발언.</li>
   <li><a href="https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us" rel="noopener noreferrer">Wikipedia(독일어): Lothar Matthäus</a>: 《11 Freunde》 233호·《슈피겔》 1984년 기사를 인용한 입단 과정, 유로 1980 일화, 하잉케스와의 관계, 1984 포칼 결승, 이적료, 1992 부상과 복귀, 리베로 전향, 비밀 일기, 1998 복귀, 은퇴 뒤 출전과 국내 수상 목록.</li>
   <li><a href="https://www.spiegel.de/sport/bittere-pille-a-e22105f8-0002-0001-0000-000013509903?context=issue" rel="noopener noreferrer">Der Spiegel: 쓴 약(1984년 5월 27일)</a>: 이적 발표 뒤 하잉케스와 마테우스의 관계.</li>

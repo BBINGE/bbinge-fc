@@ -47,7 +47,8 @@ const canonicalTermRules = [
   [/UEFA 챔피언스리그/g, 'UEFA 챔피언스 리그'],
   [/UEFA 유로파리그/g, 'UEFA 유로파 리그'],
   [/UEFA 컨퍼런스리그/g, 'UEFA 컨퍼런스 리그'],
-  [/(?<!UEFA )(?<!AFC )(?<!여자 )챔피언스 리그/g, 'UEFA 챔피언스 리그'],
+  // 다른 대륙 연맹의 챔피언스 리그는 그 자체가 정식 명칭이므로 UEFA를 붙이지 않는다.
+  [/(?<!UEFA )(?<!AFC )(?<!CONCACAF )(?<!CAF )(?<!OFC )(?<!여자 )챔피언스 리그/g, 'UEFA 챔피언스 리그'],
   [/(?<!UEFA )유로파 리그/g, 'UEFA 유로파 리그'],
   [/(?<!UEFA )컨퍼런스 리그/g, 'UEFA 컨퍼런스 리그'],
   [/세베시 구스타브/g, '셰베시 구스타브'],
@@ -290,6 +291,17 @@ function validateSource(source, relative = 'fixture.md') {
         relative,
       });
     }
+  }
+
+  // 네이버 원문 주소는 frontmatter의 priorPublication에만 둔다(HANDOFF 2026-09-09·2026-09-11 확정).
+  // 공개 본문과 참고 자료에 링크로 넣지 않는다. 검색엔진이 원문을 대표 주소로 잡지 않게 하려는 결정이다.
+  for (const match of body.matchAll(/<a[^>]+href="https:\/\/blog\.naver\.com[^"]*"|\]\(https:\/\/blog\.naver\.com[^)]*\)/g)) {
+    issues.push({
+      code: 'NAVER-LINK-FRONTMATTER-ONLY',
+      message: '네이버 원문 링크는 공개 본문·참고 자료에 넣지 않습니다. frontmatter의 priorPublication에만 둡니다.',
+      line: lineAt(body, match.index),
+      relative,
+    });
   }
 
   for (const [rule, replacement] of canonicalBodyTermRules) {

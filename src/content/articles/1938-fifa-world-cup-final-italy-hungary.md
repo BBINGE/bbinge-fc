@@ -119,6 +119,5 @@ relatedGroup: 'fifa-world-cup-1938'
     <li><a href="https://inside.fifa.com/en/tournaments/mens/worldcup/1938france/news/double-joy-for-pozzo-s-italy">“Double joy for Pozzo's Italy”</a>, FIFA. 결승의 득점 전개와 이탈리아의 2연패.</li>
     <li><a href="https://www.figc.it/it/full-html?path=%2Fnazionali%2Fpalmares-storia%2Fmondiali%2F1938-il-secondo-titolo-mondiale">“1938 Il secondo titolo mondiale”</a>, 이탈리아축구협회 FIGC. 프랑스 대회와 두 번째 우승 기록.</li>
     <li><a href="https://www.rsssf.org/tables/38full.html">“World Cup 1938 finals”</a>, RSSSF. 출전 명단·득점 시간·대회 진행 대조.</li>
-    <li><a href="https://blog.naver.com/sho3603/223525729483">“1938 FIFA 월드컵 결승전: 이탈리아 v 헝가리”</a>, 삥이N스포츠_Official.</li>
   </ol>
 </div>
