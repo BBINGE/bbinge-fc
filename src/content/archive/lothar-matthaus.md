@@ -159,11 +159,11 @@ draft: false
 
 <figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/matthaus/germany-1999.webp" alt="독일 대표팀 흰 훈련복을 입고 옆을 바라보는 로타어 마테우스" width="742" height="910" loading="lazy" decoding="async" /><figcaption>1999년 무렵 본 인근 독일 대표팀 훈련장의 마테우스. 서른여덟에도 대표팀 리베로였다. 사진: Florian K. · Wikimedia Commons (CC BY-SA 3.0).</figcaption></figure>
 
-## 캄프 노우의 80분, 서른여덟의 올해의 선수
+## 캄 노우의 80분, 서른여덟의 올해의 선수
 
 월드컵이 끝나자 새 대표팀 감독이 된 리베크가 그를 설득해 대표팀에 붙잡았다. 18년 전 "말이 더 많다"고 꼬집던 바로 그 코치다. 바이언에서도 새 감독 오트마어 히츠펠트<span class="foreign-note" lang="de">(Ottmar Hitzfeld; 도르트문트와 바이언에서 UEFA 챔피언스 리그를 우승한 독일 감독, 1949-)</span>가 베테랑을 중심에 뒀다.
 
-1999년 5월 26일 바르셀로나 캄프 노우의 UEFA 챔피언스 리그 결승. 바이언은 1-0으로 앞섰고, 마테우스는 80분 토르스텐 핑크<span class="foreign-note" lang="de">(Thorsten Fink; 바이언의 미드필더, 1967-)</span>와 교체돼 나왔다. 그러나 맨체스터 유나이티드는 추가시간에만 두 골을 넣었다. 독일에서는 승리를 확신한 마테우스가 스스로 교체를 원했다는 이야기가 두고두고 회자됐다. 1987년 빈에 이어 두 번째 유럽 정상 문턱이었다.
+1999년 5월 26일 바르셀로나 캄 노우의 UEFA 챔피언스 리그 결승. 바이언은 1-0으로 앞섰고, 마테우스는 80분 토르스텐 핑크<span class="foreign-note" lang="de">(Thorsten Fink; 바이언의 미드필더, 1967-)</span>와 교체돼 나왔다. 그러나 맨체스터 유나이티드는 추가시간에만 두 골을 넣었다. 독일에서는 승리를 확신한 마테우스가 스스로 교체를 원했다는 이야기가 두고두고 회자됐다. 1987년 빈에 이어 두 번째 유럽 정상 문턱이었다.
 
 한 달 뒤 DFB-포칼 결승에서도 운은 따르지 않았다. 베르더 브레멘과의 승부차기에서 그는 처음 다섯 명 안에 들지 않았다가, 동점이 이어지자 여섯 번째 키커를 자청했다. 골키퍼 프랑크 로스트<span class="foreign-note" lang="de">(Frank Rost; 베르더 브레멘의 골키퍼, 1973-)</span>가 막았다. 1984년에 이어 포칼 결승 승부차기를 두 번 놓친 유일한 선수라는 기록이 남았다. 2005년 미하엘 발라크<span class="foreign-note" lang="de">(Michael Ballack; 독일의 미드필더, 1976-)</span>가 넘어서기 전까지 대표팀 최다 페널티킥 득점자(8골)였던 선수의 아이러니다.
 
@@ -318,7 +318,7 @@ draft: false
   <li><a href="https://www.sport1.de/news/fussball/bundesliga/2021/03/fc-bayern-lothar-matthaeus-jetzt-doch-greenkeeper" rel="noopener noreferrer">SPORT1: 마테우스, 결국 그린키퍼가 되다</a>: 2002년 회네스 발언, 2021년 《51》 촬영과 회네스의 후회.</li>
   <li><a href="https://www.fifa.com/en/articles/quirky-funny-stories-from-fifa-world-cup-finals-varela-tostao-brown-brehme" rel="noopener noreferrer">FIFA: 월드컵 결승의 기묘한 이야기들</a>: 1990년 결승 축구화 밑창과 브레메 키커 지정에 대한 마테우스 발언.</li>
   <li><a href="https://www.foxnews.com/sports/diego-maradonas-1986-world-cup-final-jersey-returned-argentina-embassy-germanys-lothar-matthaus" rel="noopener noreferrer">Fox News: 마라도나 1986 결승 유니폼 반환</a>: 하프타임 유니폼 교환과 2022년 8월 25일 마드리드 대사관 반환.</li>
-  <li><a href="https://www.uefa.com/uefachampionsleague/news/025e-0f8bbd7e5380-eb00803acfbb-1000--classics-bayern-1-2-united-1999/" rel="noopener noreferrer">UEFA: 1999 결승 클래식</a> · <a href="https://en.wikipedia.org/wiki/1991_UEFA_Cup_final" rel="noopener noreferrer">1991 UEFA컵 결승 기록</a>: 캄프 노우 결승 80분 교체, 산시로 1차전 55분 페널티킥 득점.</li>
+  <li><a href="https://www.uefa.com/uefachampionsleague/news/025e-0f8bbd7e5380-eb00803acfbb-1000--classics-bayern-1-2-united-1999/" rel="noopener noreferrer">UEFA: 1999 결승 클래식</a> · <a href="https://en.wikipedia.org/wiki/1991_UEFA_Cup_final" rel="noopener noreferrer">1991 UEFA컵 결승 기록</a>: 캄 노우 결승 80분 교체, 산시로 1차전 55분 페널티킥 득점.</li>
   <li><a href="https://en.wikipedia.org/wiki/1987_DFB-Supercup" rel="noopener noreferrer">1987 DFB-슈퍼컵</a> · <a href="https://en.wikipedia.org/wiki/1994_DFB-Supercup" rel="noopener noreferrer">1994 DFB-슈퍼컵</a> · <a href="https://de.wikipedia.org/wiki/DFB-Ligapokal_1999" rel="noopener noreferrer">DFB-리가포칼 1999</a>: 출전 명단과 등번호, 1999-2000 시즌 리가포칼 출전 확인.</li>
   <li><a href="https://it.wikipedia.org/wiki/Football_Club_Internazionale_Milano_1989-1990" rel="noopener noreferrer">Wikipedia(이탈리아어): 인테르 1989-90 시즌</a> · <a href="https://it.wikipedia.org/wiki/Football_Club_Internazionale_Milano_1988-1989" rel="noopener noreferrer">1988-89 시즌</a>: 코파 이탈리아 3경기 출전, 58점 우승과 나폴리전 결승골.</li>
   <li><a href="https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us" rel="noopener noreferrer">Wikipedia(영어): Lothar Matthäus</a> · <a href="https://www.fussballdaten.de/person/lothar-matthaeus/leistungsdaten/saisons/" rel="noopener noreferrer">fussballdaten.de 시즌별 기록</a>: 시즌별 공식전 출전·득점 표 교차 확인, 분데스리가 464경기 121골.</li>
