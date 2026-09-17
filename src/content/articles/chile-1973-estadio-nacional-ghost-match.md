@@ -1,15 +1,15 @@
 ---
-title: "1973년 에스타디오 나시오날 문헌고찰: 상대 없이 치른 경기와 파트너 없이 추는 춤"
-previewTitle: "아무도 없는 골대에 공을 넣기까지 19초"
+title: "아무도 없는 골대에 공을 넣고 월드컵에 갔다: 1973년 에스타디오 나시오날 문헌고찰"
+previewTitle: "수용소가 된 축구장에서 월드컵 예선이 열렸다"
 previewDescription: "칠레 국가경기장의 수용 시설은 경기 며칠 전에 닫힌 게 아니라 사막으로 옮겨졌다. 축구 일정이 수용소 일정을 밀어낸 두 달을 사료와 증언으로 따라간다."
 description: "상대 없는 킥오프에서 시작해 거꾸로 파고든다. 칠레 국가경기장은 1973년 9월 12일부터 수용소였고 월드컵 예선은 11월 21일이었다. FIFA 확인단이 다녀간 날 수감자들은 관중석 아래 통로에 숨겨졌고, 경기 며칠 전 사람들은 아타카마 사막의 폐광으로 옮겨졌다. 축구 일정이 수용소 일정을 규정한 두 달을 사료와 증언으로 읽는다."
 category: "history"
 pubDate: 2026-09-18T11:00:00+09:00
-coverImage: "/images/history/chile-1973-estadio-nacional/stadium-today.webp"
-coverImageAlt: "아베니다 그레시아에서 바라본 칠레 산티아고의 에스타디오 나시오날 외관"
-coverImageCaption: "산티아고 뉴뇨아의 에스타디오 나시오날. 1973년 9월 12일부터 이곳은 수용소였고, 같은 해 11월 21일 같은 자리에서 월드컵 예선 경기가 열렸다. 사진: 칠레 정부, CC BY 2.0."
-coverImageWidth: 1100
-coverImageHeight: 747
+coverImage: "/images/history/chile-1973-estadio-nacional/cover-escotilla.webp"
+coverImageAlt: "에스타디오 나시오날의 8번 출입 통로. 창살문이 잠겨 있고 안쪽 어두운 복도 끝에 현수막이 걸려 있다"
+coverImageCaption: "에스타디오 나시오날의 에스코티야 8. 1973년 10월 FIFA 확인단이 왔을 때 수감자들이 숨겨진 곳이 이런 관중석 아래 통로였고, 지금은 그 구역이 보존돼 있다. 통로 끝 현수막은 기억 없는 민중에게는 미래도 없다는 문구로 읽힌다. 사진: Memoriadelpueblo, CC BY-SA 4.0, Wikimedia Commons 소장본."
+coverImageWidth: 1080
+coverImageHeight: 1080
 tags: ["칠레", "1973", "에스타디오 나시오날", "FIFA", "문헌고찰"]
 keywords: ["1973 칠레 쿠데타 에스타디오 나시오날", "칠레 소련 1974 월드컵 예선", "유령 경기", "프란시스코 발데스", "카를로스 카셀리", "엘리아스 피게로아", "차카부코 수용소", "에스코티야 8", "쿠에카 솔라"]
 faq:
@@ -268,7 +268,7 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 
 2003년이라는 연도가 말해 주는 것이 있다. 쿠데타로부터 서른 해가 지난 뒤였고, 레티그 보고서가 나온 지 열두 해, 발레치 보고서가 나오기 한 해 전이다. 국가가 무엇을 셀지 정하는 일과 어디를 남길지 정하는 일이 같은 시기에 나란히 진행됐다는 뜻이다. 기억은 저절로 남지 않고 누가 언제 무엇을 지정하느냐에 따라 형태를 갖춘다.
 
-<figure class="history-wide"><img src="/images/history/chile-1973-estadio-nacional/escotilla-8.webp" alt="에스타디오 나시오날 안에 보존된 에스코티야 8 구역의 나무 좌석" width="1100" height="733" loading="lazy" decoding="async" /><figcaption>보존된 에스코티야 8. 관중석 한 구역만 당시 상태로 남겨 두었다. 사진: Memoriadelpueblo, CC BY-SA 4.0, Wikimedia Commons 소장본.</figcaption></figure>
+<figure class="history-wide"><img src="/images/history/chile-1973-estadio-nacional/stadium-today.webp" alt="아베니다 그레시아에서 바라본 오늘의 에스타디오 나시오날 외관" width="1100" height="747" loading="lazy" decoding="async" /><figcaption>오늘의 에스타디오 나시오날. 국가기념물로 지정된 채 지금도 경기가 열린다. 이 건물 안에 보존 구역이 함께 있다. 사진: 칠레 정부, CC BY 2.0.</figcaption></figure>
 
 이 보존 방식에서 한 가지를 짚고 싶다. 몬테알레그레의 증언에서 수감자들이 숨겨진 곳이 바로 관중석 아래의 통로, 곧 에스코티야였다. 기념의 대상이 된 공간과 은폐의 도구였던 공간이 같은 곳이라는 뜻이다. 칠레는 그 자리를 다른 데로 옮기지도 않고 기념관을 따로 짓지도 않고, 경기가 계속되는 건물 안에 그대로 열어 두기로 했다. 관중이 경기를 보러 들어가는 같은 문으로 그곳을 지나간다.
 
