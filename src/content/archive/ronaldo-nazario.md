@@ -61,18 +61,20 @@ draft: false
 
 ## 호나우두 나자리우 프로필
 
-<dl class="record-facts">
-  <div class="profile-country-head"><img src="/images/archive/legends/brazil/brazil-flag.svg" alt="브라질 국기" width="1000" height="700" /><div><strong>브라질</strong><small lang="pt-BR">Brasil</small></div></div>
-  <div><dt>본명</dt><dd lang="pt-BR">Ronaldo Luís Nazário de Lima</dd></div>
-  <div><dt>등록명</dt><dd>호나우두<span lang="pt-BR">(Ronaldo)</span></dd></div>
-  <div><dt>별명</dt><dd lang="pt-BR">O Fenômeno<span>경이로운 자</span></dd></div>
-  <div><dt>출생</dt><dd>1976년 9월 18일 · 브라질 이타과이</dd></div>
-  <div><dt>포지션</dt><dd>센터 포워드</dd></div>
-  <div><dt>주요 등번호</dt><dd>9 · 10 · 11 · 99</dd></div>
-  <div><dt>대표팀</dt><dd>브라질 98경기 62골<span>1994-2011</span></dd></div>
-</dl>
+<div class="record-facts record-facts-brazil">
+  <div class="profile-country-head">
+    <img src="/images/flags/br.svg" alt="" width="640" height="448" />
+    <strong>브라질 연방 공화국<small lang="pt-BR">República Federativa do Brasil</small></strong>
+    <img src="/images/archive/legends/brazil/brazil-national-team-crest.svg" alt="브라질 축구협회 문장" width="212" height="302" />
+  </div>
+  <dl><dt>본명</dt><dd lang="pt-BR">Ronaldo Luís Nazário de Lima</dd></dl><dl><dt>등록명</dt><dd>호나우두</dd></dl>
+  <dl><dt>출생</dt><dd>1976년 9월 18일</dd></dl><dl><dt>출생지</dt><dd>브라질 히우지자네이루주 이타과이</dd></dl>
+  <dl><dt>신장</dt><dd>183cm</dd></dl><dl><dt>포지션</dt><dd>센터 포워드</dd></dl>
+  <dl><dt>주요 등번호</dt><dd>9번 · 10번 · 11번 · 99번</dd></dl><dl><dt>별명</dt><dd>경이로운 자<span class="foreign-note" lang="pt-BR">(O Fenômeno; 이탈리아에서는 Il Fenomeno)</span></dd></dl>
+  <dl><dt>대표팀</dt><dd>1994-2011년 · 98경기 62골</dd></dl><dl><dt>대표 국적</dt><dd>브라질</dd></dl>
+</div>
 
-### 버스비가 없어 플라멩구에서 돌아선 아이
+## 버스비가 없어 플라멩구에서 돌아선 아이
 
 호나우두는 히우지자네이루<span class="foreign-note" lang="pt-BR">(Rio de Janeiro; 브라질 남동부의 주이자 그 주도)</span> 외곽 이타과이에서 태어나 벤투 히베이루의 길거리에서 공을 찼다. 그의 첫 종목은 풋살이었다. 열두 살에 들어간 소시아우 하무스에서 첫 시즌에만 166골을 넣었고, 한 경기에서 팀이 넣은 12골 중 11골을 혼자 넣은 적도 있다. 훗날 그는 풋살이 언제나 자신의 첫사랑이라고 말했다. 좁은 코트에서 공을 한 번 더 건드리지 않고 처리하는 습관, 몸을 낮춘 채 방향을 바꾸는 감각이 여기서 만들어졌다.
 
@@ -80,7 +82,7 @@ draft: false
 
 당시 그의 대리인들은 보타포구와 상파울루 FC의 제안을 거절한 상태였다. 크루제이루가 제시한 금액은 5만 유로 상당이었고, 그는 유스 팀 데뷔전에서 4골을 넣었다. 열세 살 때부터 그를 관리해 온 대리인 헤이나우두 피타는 처음부터 다른 선수들과 다른 무엇이 될 수 있다고 봤다고 말했다.
 
-### 크루제이루에서 2년, 47경기 44골
+## 1993년 11월 7일 바이아전, 열일곱 살이 넣은 5골
 
 1993년 5월 25일 칼덴시전, 캄페오나투 미네이루 무대에서 프로 데뷔전을 치렀다. 크루제이루에 도착한 지 석 달 만이었고 나이는 열여섯이었다. 그해 여름 포르투갈 순회 경기에서 벨레넨스스를 상대로 첫 프로 골을 넣으며 새 감독 카를루스 알베르투 시우바의 눈에 들어 주전이 됐다. 같은 순회에서 포르투를 상대한 경기가 인상적이어서 포르투가 50만 달러를 제시했지만, 구단 회장 세자르 마시가 거절했다.
 
@@ -88,7 +90,7 @@ draft: false
 
 크루제이루에서의 2년은 47경기 44골로 끝났다. 그사이 구단은 창단 첫 코파 두 브라질을 들었고 이듬해 주 선수권도 가져갔다.
 
-### PSV에서 배운 유럽, 그리고 첫 무릎
+## 피테서전 10분과 레버쿠젠전 해트트릭, 그리고 첫 무릎
 
 1994년 월드컵이 끝나고 그는 네덜란드로 갔다. PSV를 권한 사람은 대표팀 선배 호마리우였다. 1988년부터 1993년까지 그 팀에서 뛴 선배의 조언이었다.
 
@@ -100,7 +102,7 @@ draft: false
 
 두 번째 시즌에 무릎이 처음 그를 붙잡았다. 시즌 대부분을 결장하고도 21경기 19골을 넣었으니 경기당 기록은 오히려 올라갔고, UEFA컵 핀란드 뮈파전에서는 혼자 4골을 넣었다. 그러나 이때부터 무릎은 그의 커리어에 상주하는 변수가 됐다. PSV에서의 2년은 58경기 54골, 그리고 1995-96 KNVB 베이커 우승으로 남았다. 그는 짧게 호흡을 맞춘 뤼크 닐리스<span class="foreign-note" lang="nl">(Luc Nilis; 벨기에의 공격수, 1967-)</span>를 지금도 자신이 함께 뛴 최고의 공격 파트너 중 하나로 꼽는다.
 
-### 바르셀로나 한 시즌, 49경기 47골
+## 1996년 10월 11일 콤포스텔라, 롭슨이 머리를 감싼 골
 
 <figure class="legend-section-photo"><img src="/images/archive/legends/ronaldo/barcelona-1996.webp" alt="FC 바르셀로나 유니폼을 입고 공을 몰고 나가는 호나우두" width="466" height="371" loading="lazy" decoding="async" /><figcaption>1996-97 시즌 FC 바르셀로나의 호나우두. 한 시즌 49경기 47골을 넣고 팀을 떠났다.</figcaption></figure>
 
@@ -116,7 +118,7 @@ draft: false
 
 시즌 중반 구단은 2006년까지 계약을 연장하고 연봉을 두 배로 올리는 데 원칙적으로 합의했다. 스무 살 선수에게 클럽이 10년을 걸겠다고 한 셈이다. 그 합의가 어떻게 끝났는지는 다음 절의 이야기다.
 
-### 인테르로, 그리고 세계 기록을 두 번 깬 선수
+## 하루 만에 뒤집힌 재계약, 두 번째 세계 기록
 
 재계약은 하루 만에 무너졌다. 구단 회장 주제프 류이스 누녜스<span class="foreign-note" lang="ca">(Josep Lluís Núñez i Clemente; FC 바르셀로나 회장, 1931-2018)</span>는 그가 평생 우리 선수라고 공언했다가, 이튿날 다시 마주 앉은 자리에서 다 끝났다고 인정했다. 훗날 호나우두는 시즌이 끝나기 한 달 전에 연장에 합의했는데 일주일 뒤 구단 변호사와 회장이 그 계약은 말이 안 된다고 했다고 회고했다.
 
@@ -130,11 +132,11 @@ draft: false
 
 이 시즌의 상징은 1998년 UEFA컵 결승 라치오전 골이다. 수비 사이를 뚫고 골키퍼 루카 마르케자니와 1대1로 마주한 뒤, 공을 건드리지도 않은 채 오른쪽으로 갈 듯 페인트를 넣고 왼쪽으로 몸을 틀어 골키퍼를 주저앉히고, 다시 오른쪽으로 밀어 넣었다. 동료 유리 조르카에프<span class="foreign-note" lang="fr">(Youri Raffi Djorkaeff; 프랑스의 공격형 미드필더, 1968-)</span>는 그가 그 시즌 다른 선수들보다 한 단계 위에 있음을 증명했다고 말했다. 인테르 동료들은 그가 골을 넣으면 무릎을 꿇고 구두를 닦는 시늉으로 축하했다.
 
-<figure class="legend-section-photo"><img src="/images/archive/legends/ronaldo/inter-baggio-1998.webp" alt="1998년 8월 인테르 유니폼을 함께 입은 로베르토 바조와 호나우두" width="1600" height="900" loading="lazy" decoding="async" /><figcaption>1998년 8월, 인테르 유니폼을 함께 입은 바조와 호나우두.</figcaption></figure>
+<figure class="legend-section-photo"><img src="/images/archive/legends/ronaldo/inter-baggio-1998.webp" alt="1998년 8월 인테르 유니폼을 함께 입은 로베르토 바조와 호나우두" width="1600" height="900" loading="lazy" decoding="async" /><figcaption>1998년 8월, 인테르 유니폼을 함께 입은 바조와 호나우두. 사진: Inter / DFP.</figcaption></figure>
 
 이 무렵 인테르의 공격진에는 판타지스타 로베르토 바조<span class="foreign-note" lang="it">(Roberto Baggio; 이탈리아의 공격형 미드필더, 1993년 발롱도르 수상자, 1967-)</span>와 크리스티안 비에리<span class="foreign-note" lang="it">(Christian Vieri; 이탈리아의 공격수, 1973-)</span>가 함께 있었다. 호나우두와 바조의 조합은 게르만 삼총사 시절만큼은 아니라는 평을 들었지만, 바조의 센스와 호나우두의 속도가 맞물린 몇 경기에서는 상대 수비 전체가 계산을 포기하는 장면이 나왔다. 위 영상의 세 번째 편이 그 조합이다.
 
-### 1999년 11월 21일, 그리고 2000년 4월 12일
+## 레체의 무릎, 6분 만에 끝난 복귀전
 
 1999-2000 시즌의 인테르는 호나우두와 바조와 비에리를 한 팀에 둔 채 출발했다. 그 구상은 11월 21일 레체 원정에서 끝났다. 공을 잡으러 가던 그의 무릎이 꺾였고, 그는 절뚝이며 걸어 나갔다. 검진 결과는 무릎 힘줄 파열, 수술이 필요했다.
 
@@ -144,7 +146,7 @@ draft: false
 
 인테르에서의 5년은 99경기 59골로 정리된다. 부상 이전 두 시즌이 그 대부분이다. 2018년 인테르가 명예의 전당을 만들면서 초대 헌액자 네 명 중 하나로 그를 넣은 이유도 그 두 시즌에 있다. 파올로 말디니가 그를 두고 인테르에서의 첫 두 해는 하나의 현상이었다고 말한 것도, 조르카에프가 훈련 중에 동료들이 사실상 하던 것을 멈추고 그를 구경했다고 말한 것도 같은 시기의 증언이다.
 
-### 레알 마드리드, 갈락티코스의 9번
+## 올드 트래퍼드의 기립박수, 갈락티코스의 11번
 
 <figure class="legend-section-photo"><img src="/images/archive/legends/ronaldo/real-madrid-2002.webp" alt="레알 마드리드 흰 유니폼을 입고 슛을 시도하는 호나우두" width="466" height="264" loading="lazy" decoding="async" /><figcaption>레알 마드리드의 호나우두. 첫 시즌 리그 23골로 2002-03 라리가 우승을 이끌었다.</figcaption></figure>
 
@@ -160,7 +162,7 @@ draft: false
 
 함께 뛴 동료들의 평가는 한결같다. 지단은 자신이 함께 뛰거나 상대한 선수 중 최고가 호나우두라고 말하며, 공을 다루는 편안함이 남달라 매일 훈련에서 새로운 것을 봤다고 했다. 2004년에 합류한 마이클 오언<span class="foreign-note" lang="en">(Michael James Owen; 잉글랜드의 공격수, 2001년 발롱도르 수상자, 1979-)</span>은 전성기의 그와 뛰어 보지 못한 것을 아쉬워하며, 훈련에서 본 것만으로도 충분히 짐작이 갔다고 말했다. 여섯 달을 함께한 뤼트 판니스텔로이<span class="foreign-note" lang="nl">(Rutgerus Johannes Martinus van Nistelrooy; 네덜란드의 공격수, 1976-)</span>는 자신이 함께 뛴 가장 타고난 재능이라고 했다. 스페인 일간지 《마르카》는 그를 레알 마드리드 역사상 최고의 외국인 베스트 11에 넣었다.
 
-### 밀란과 코린치앙스, 마지막 장
+## 밀란의 99번, 코린치앙스에서 접은 무릎
 
 <figure class="legend-section-photo"><img src="/images/archive/legends/ronaldo/milan-2007.webp" alt="AC 밀란 붉은 검정 줄무늬 유니폼을 입은 호나우두" width="466" height="262" loading="lazy" decoding="async" /><figcaption>AC 밀란 시절의 호나우두. 20경기 9골을 남기고 무릎 부상으로 시즌을 접었다.</figcaption></figure>
 
@@ -170,21 +172,21 @@ draft: false
 
 호나우두의 백미는 대표팀이다. 브라질에는 아르투르 프리덴라이시<span class="foreign-note" lang="pt-BR">(Arthur Friedenreich; 브라질 초기의 공격수, 1892-1969)</span>에서 시작해 레오니다스 다시우바, 지지뉴, 펠레, 가린샤, 지쿠, 호마리우로 이어지는 계보가 있다. 그는 그 줄의 다음 자리에 섰고, 조국에 다섯 개의 메이저 대회 트로피를 안겼다.
 
-### 1994년, 등번호 20번의 열일곱 살
+## 1994년, 등번호 20번의 열일곱 살
 
 1994년 월드컵 우승 스쿼드의 막내가 그였다. 당시 나이 열일곱, 소속은 크루제이루, A매치 출전은 3경기, 등번호는 20번이었다. 대회에서 한 경기도 뛰지 않았다. 우승 메달을 목에 걸었지만 그의 월드컵은 아직 시작도 하지 않은 상태였다.
 
-### 1997년 코파 아메리카, 호마리우와의 8골
+## 1997년 코파 아메리카, 호마리우와의 8골
 
 많은 이들이 호마리우와 호나우두가 오래 함께 뛰었으면 어땠을까 궁금해한다. 실제로 그 조합이 작동한 대회가 1997년 코파 아메리카다. 둘이 합쳐 8골을 만들며 브라질의 우승을 이끌었고, 대회 최우수 선수는 호나우두였다. 같은 해 그는 FIFA 컨페더레이션스컵도 들었다. 1999년 코파 아메리카에서는 득점왕이었다.
 
-### 1998년, 결승 당일에 벌어진 일
+## 결승 킥오프 몇 시간 전에 일어난 일
 
 1998년 월드컵에서 그는 브라질을 결승까지 끌고 갔고 대회 최우수 선수에게 주는 골든볼을 받았다. 그리고 결승 킥오프 몇 시간 전, 그는 경련성 발작을 일으켰다. 명단에서 빠졌다가 다시 들어갔고, 경기에 나섰지만 정상이 아니었다. 브라질은 프랑스에 0-3으로 졌다.
 
 이 사건은 지금도 단일한 설명이 없다. 당시 보도와 이후 증언이 서로 다르고, 구체적 원인에 대해서는 확정된 결론이 없다. 확정된 사실은 그가 발작을 일으켰다는 것, 그럼에도 결승에 출전했다는 것, 그리고 그 대회의 최우수 선수가 그였다는 것 세 가지다.
 
-### 2002년, 돌아온 득점왕
+## 2002년 6월 30일 요코하마, 두 골
 
 <figure class="legend-video">
   <video muted loop playsinline preload="metadata" data-archive-autoplay aria-label="2002년 월드컵 결승 독일전에서 공을 잡고 돌아서는 호나우두"><source src="/videos/archive/legends/ronaldo/6.mp4" type="video/mp4" /></video>
@@ -200,7 +202,7 @@ draft: false
 
 그해 그는 FIFA 올해의 선수를 세 번째로 받았고 발롱도르를 두 번째로 가져갔다. 이듬해 열린 라우레우스 시상식에서는 올해의 복귀상을 받았다. 무릎이 두 번 무너진 선수가 월드컵 득점왕으로 돌아온 것에 대한 상이었다.
 
-### 2006년, 월드컵 통산 15골
+## 게르트 뮐러의 14골을 넘어선 2006년
 
 2006년 월드컵에서 그는 자신의 월드컵 통산 15번째 골을 넣었다. 이 숫자의 의미는 앞뒤를 봐야 드러난다. 그전까지의 기록은 게르트 뮐러가 1974년 결승에서 세운 14골이었고, 30년 넘게 아무도 건드리지 못하던 숫자였다. 호나우두는 1998년부터 2006년까지 세 번의 대회에 걸쳐 그 기록을 넘겼다. 그리고 그의 15골은 2014년 미로슬라프 클로제가 16번째 골을 넣을 때까지 대회 최다로 남았다.
 
@@ -275,49 +277,59 @@ draft: false
 ## 호나우두 나자리우의 개인 커리어 수상 경력
 
 <ul class="career-awards">
-  <li><strong>발롱도르</strong><span>1997, 2002 수상 · 1996, 1998 2위 · 1995 26위 · 1999 23위 · 2003 11위 · 2004 최종 후보</span></li>
+  <li><strong>발롱도르</strong><span>1997년 · 2002년 1위 · 1996년 · 1998년 2위 · 2003년 11위 · 1999년 23위 · 1995년 26위 · 2004년 최종 후보</span></li>
   <li><strong>발롱도르 드림팀</strong><small>프랑스 풋볼이 뽑은 역대 베스트 11</small><span>중앙 공격수 부문 12위</span></li>
   <li><strong>유러피언 골든슈</strong><span>1996-97</span></li>
   <li><strong>라리가 득점왕</strong><span>피치치 트로피 · 1996-97 34골 · 2003-04 25골</span></li>
   <li><strong>에레디비시 득점왕</strong><span>1994-95 30골</span></li>
   <li><strong>세리에 A 올해의 선수</strong><span>1997-98</span></li>
-  <li><strong>FIFA 올해의 선수</strong><span>1996, 1997, 2002</span></li>
-  <li><strong>FIFA 100</strong><small>펠레가 2004년에 선정한 생존 최고 선수 명단</small><span>2004</span></li>
-  <li><strong>FIFA 월드컵 골든볼</strong><span>1998</span></li>
-  <li><strong>FIFA 월드컵 실버볼</strong><span>2002</span></li>
-  <li><strong>FIFA 월드컵 골든슈</strong><span>2002</span></li>
-  <li><strong>FIFA 월드컵 브론즈슈</strong><span>2006</span></li>
-  <li><strong>FIFA 월드컵 도움왕</strong><span>1998</span></li>
-  <li><strong>FIFA 월드컵 베스트 11</strong><span>1998, 2002</span></li>
-  <li><strong>FIFA 월드컵 결승전 최우수 선수</strong><span>2002</span></li>
-  <li><strong>라우레우스 올해의 복귀상</strong><small>부상에서 돌아온 선수에게 주는 상</small><span>2003</span></li>
-  <li><strong>코파 아메리카 최우수 선수</strong><span>1997</span></li>
-  <li><strong>코파 아메리카 득점왕</strong><span>1999</span></li>
+  <li><strong>FIFA 올해의 선수</strong><span>1996년 · 1997년 · 2002년</span></li>
+  <li><strong>FIFA 100</strong><small>펠레가 2004년에 선정한 생존 최고 선수 명단</small><span>2004년</span></li>
+  <li><strong>FIFA 월드컵 골든볼</strong><span>1998년</span></li>
+  <li><strong>FIFA 월드컵 실버볼</strong><span>2002년</span></li>
+  <li><strong>FIFA 월드컵 골든슈</strong><span>2002년</span></li>
+  <li><strong>FIFA 월드컵 브론즈슈</strong><span>2006년</span></li>
+  <li><strong>FIFA 월드컵 도움왕</strong><span>1998년</span></li>
+  <li><strong>FIFA 월드컵 베스트 11</strong><span>1998년 · 2002년</span></li>
+  <li><strong>FIFA 월드컵 결승전 최우수 선수</strong><span>2002년</span></li>
+  <li><strong>라우레우스 올해의 복귀상</strong><small>부상에서 돌아온 선수에게 주는 상</small><span>2003년</span></li>
+  <li><strong>코파 아메리카 최우수 선수</strong><span>1997년</span></li>
+  <li><strong>코파 아메리카 득점왕</strong><span>1999년</span></li>
   <li><strong>UEFA 올해의 클럽 축구선수</strong><span>1997-98</span></li>
   <li><strong>UEFA 올해의 공격수</strong><span>1997-98</span></li>
-  <li><strong>UEFA 선정 유럽 베스트 11</strong><span>2002</span></li>
-  <li><strong>월드사커 올해의 선수</strong><span>1996, 1997, 2002</span></li>
+  <li><strong>UEFA 선정 유럽 베스트 11</strong><span>2002년</span></li>
+  <li><strong>월드사커 올해의 선수</strong><span>1996년 · 1997년 · 2002년</span></li>
   <li><strong>IFFHS 올타임 세계 베스트 11</strong><small>국제 축구 역사 통계 연맹이 뽑은 역대 명단</small><span>B팀</span></li>
   <li><strong>IFFHS 올타임 남아메리카 베스트 11</strong><span>선정</span></li>
   <li><strong>IFFHS 올타임 브라질 베스트 11</strong><span>선정</span></li>
-  <li><strong>FC 인테르나치오날레 밀라노 명예의 전당 헌액</strong><span>2018</span></li>
+  <li><strong>FC 인테르나치오날레 밀라노 명예의 전당 헌액</strong><span>2018년</span></li>
   <li><strong>레알 마드리드 CF 명예의 전당 헌액</strong><span>선정</span></li>
   <li><strong>브라질 축구 명예의 전당 헌액</strong><span>선정</span></li>
   <li><strong>이탈리아 축구 명예의 전당 헌액</strong><span>선정</span></li>
 </ul>
 
+## 오늘날 호나우두는 어떻게 평가받는가
+
+2020년 프랑스 풋볼<span class="foreign-note" lang="fr">(France Football; 프랑스 축구 전문지)</span>이 뽑은 발롱도르 드림팀에서 호나우두는 중앙 공격수 부문 12위에 올랐다. 순위 자체보다 눈여겨볼 것은 그와 함께 거론되는 이름의 성격이다. 게르트 뮐러가 골문 앞 반경 몇 미터의 절대적 효율을, 판바스턴이 기술과 마무리의 우아함을, 호마리우가 좁은 공간의 결정력을 대표한다면, 호나우두는 하프라인부터 골문까지의 구간 전체를 혼자 처리한 유형이다. 센터 포워드라는 직업의 범위를 넓힌 쪽에 가깝다.
+
+그를 둘러싼 논쟁은 늘 같은 자리로 돌아온다. 1996년부터 1999년까지의 3년이 너무 짧았다는 것이다. 스물세 살에 200골을 넘긴 선수가 무릎 때문에 3년을 잃었고, 돌아온 뒤에는 다른 종류의 선수가 됐다. 그래서 그의 평가에는 언제나 가정이 붙는다. 다치지 않았다면 어디까지 갔겠느냐는 가정이다.
+
+허나 그 가정에 기대지 않아도 남는 것이 있다. 무릎이 두 번 무너진 뒤에 돌아와 월드컵에서 8골을 넣고 결승에서 2골을 넣었다. 서른 넘어 레알 마드리드에서 100골을 채웠다. 잃어버린 3년을 빼고 세어도 그는 네덜란드와 스페인과 이탈리아에서 각각 리그 득점왕을 했고, 세계 이적료 기록을 두 번 갈아치웠으며, 최연소 기록을 두 개 남겼다.
+
+축구 역사상 최고의 센터 포워드를 한 명만 골라야 한다면, 삥이FC의 답은 **호나우두**다.
+
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2002japankorea" rel="nofollow noopener" target="_blank">FIFA 월드컵 2002 공식 기록</a>: 2002년 대회 8골 득점왕, 결승 2골, 골든슈와 실버볼 수상 근거.</li>
-  <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/1998france" rel="nofollow noopener" target="_blank">FIFA 월드컵 1998 공식 기록</a>: 골든볼 수상과 결승 출전, 브라질의 준우승 기록.</li>
-  <li><a href="https://www.uefa.com/uefaeuropaleague/history/seasons/1998/" rel="nofollow noopener" target="_blank">UEFA 1997-98 UEFA컵 시즌 기록</a>: 인테르의 우승과 라치오전 결승 기록.</li>
-  <li><a href="https://www.rsssf.org/players/ronaldo.html" rel="nofollow noopener" target="_blank">RSSSF 호나우두 경기·득점 집계</a>: 클럽별 공식전 경기와 골, 대표팀 98경기 62골의 대조 자료.</li>
-  <li><a href="https://www.transfermarkt.com/ronaldo/leistungsdatendetails/spieler/3140" rel="nofollow noopener" target="_blank">트랜스퍼마크트 시즌별 기록</a>: 시즌별 등번호와 소속 기간, 이적료 기록.</li>
-  <li><a href="https://www.inter.it/en/hall-of-fame" rel="nofollow noopener" target="_blank">FC 인테르나치오날레 밀라노 명예의 전당</a>: 2018년 초대 헌액자 명단.</li>
-  <li><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends" rel="nofollow noopener" target="_blank">레알 마드리드 CF 구단 기록</a>: 레알 마드리드 통산 100골 이상 외국인 선수 기록.</li>
-  <li><a href="https://www.theguardian.com/football/2016/feb/12/joy-of-six-ronaldo-brazil" rel="nofollow noopener" target="_blank">《가디언》 호나우두 특집</a>: 롭 스미스와 닉 밀러의 평가, 무릎 부상 전후의 기량 변화에 대한 동시대 서술.</li>
-  <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2006germany" rel="nofollow noopener" target="_blank">FIFA 월드컵 2006 공식 기록</a>: 월드컵 통산 15번째 골과 브론즈슈 수상, 게르트 뮐러의 14골 기록 경신 근거.</li>
-  <li><a href="https://www.laureus.com/awards/" rel="nofollow noopener" target="_blank">라우레우스 월드 스포츠 어워즈</a>: 2003년 시상식 올해의 복귀상 수상 기록.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:Official_Logo_of_Sport_Club_Corinthians_Paulista_crest_2026.png" rel="nofollow noopener" target="_blank">SC 코린치앙스 문장</a>: 기록 카드에 쓴 문장 이미지. 위키미디어 공용, CC BY-SA 4.0.</li>
+  <li><a href="https://blog.naver.com/sho3603/223500361627" rel="noopener noreferrer">삥이 네이버 블로그: 경이로운 자 호나우두 나자리우</a>: 원 게재 글의 평가·프로필·스탯·우승과 개인 수상 목록.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)" rel="noopener noreferrer">Wikipedia: Ronaldo (Brazilian footballer)</a>: 유소년기와 크루제이루 데뷔일, PSV·바르셀로나·인테르·레알 마드리드 시기의 경기 기록과 이적료, 1999년 레체전과 2000년 복귀전 부상 경위, 동료·감독 증언의 출처 문단.</li>
+  <li><a href="https://en.wikipedia.org/wiki/1997_Intercontinental_Cup" rel="noopener noreferrer">Wikipedia: 1997 Intercontinental Cup</a>: 1997년 12월 2일 도쿄 결승이 보루시아 도르트문트 2-0 크루제이루였다는 확인. 운영자 원고의 1997년 인터콘티넨털컵 우승 기록을 2002년으로 고친 근거.</li>
+  <li><a href="https://en.wikipedia.org/wiki/1996_Johan_Cruyff_Shield" rel="noopener noreferrer">Wikipedia: 1996 Johan Cruyff Shield</a>: 1996년 8월 18일 아약스 0-3 PSV 경기 기록. 그가 이미 바르셀로나 소속이던 시점이라 우승 경력에서 뺀 근거.</li>
+  <li><a href="https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_final" rel="noopener noreferrer">Wikipedia: 2002 FIFA World Cup final</a>: 2002년 6월 30일 요코하마 국제경기장, 브라질 2-0 독일, 관중 6만 9,029명, 주심 콜리나, 최우수 선수 호나우두.</li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_top_goalscorers" rel="noopener noreferrer">Wikipedia: List of FIFA World Cup top goalscorers</a>: 게르트 뮐러의 14골을 호나우두가 15골로 넘어섰고 2014년 클로제가 16골로 다시 넘었다는 기록 계보.</li>
+  <li><a href="https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_squads" rel="noopener noreferrer">Wikipedia: 1994 FIFA World Cup squads</a>: 1994년 브라질 명단의 호나우두 등번호 20번, 당시 17세, 소속 크루제이루, A매치 3경기.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Laureus_World_Sports_Award_for_Comeback_of_the_Year" rel="noopener noreferrer">Wikipedia: Laureus World Sports Award for Comeback of the Year</a>: 2003년 시상식 수상자 기록.</li>
+  <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2002japankorea" rel="noopener noreferrer">FIFA: 2002 FIFA World Cup Korea/Japan</a>: 대회 공식 페이지의 득점 기록과 수상 대조.</li>
+  <li><a href="https://www.transfermarkt.com/ronaldo/leistungsdatendetails/spieler/3140" rel="noopener noreferrer">Transfermarkt: 호나우두 시즌별 기록</a>: 등번호 표의 시즌별 배번과 소속 기간 기준 자료.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/File:Official_Logo_of_Sport_Club_Corinthians_Paulista_crest_2026.png" rel="noopener noreferrer">Wikimedia Commons: SC 코린치앙스 문장</a>: 기록 카드에 쓴 문장 이미지. CC BY-SA 4.0.</li>
 </ul>

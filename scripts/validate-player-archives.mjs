@@ -113,10 +113,59 @@ function validateCareerAwards(source, relative) {
 }
 
 // 마크업은 규칙 문서가 아니라 발행본에만 있었다. 그 뼈대를 발행 전에 대조한다.
+// 2026-09-17 호나우두편에서 클래스 이름만 맞고 요소·구조가 어긋나 프로필 표가 통째로 깨졌다.
+// 클래스 존재만 보던 검사를 실제 계약 수준으로 올린다.
 function validatePlayerStructure(body, relative) {
   const issues = [];
   for (const [marker, label] of requiredPlayerMarkup) {
     if (!body.includes(marker)) issues.push(`${relative}: 필수 ${label} 마크업 누락.`);
+  }
+
+  // 프로필 표: <div class="record-facts record-facts-{국가}"> 안에 <dl><dt><dd> 행이 들어간다.
+  if (/<dl[^>]*class="[^"]*record-facts/.test(body)) {
+    issues.push(`${relative}: 프로필 표는 <dl>이 아니라 <div class="record-facts">입니다. 행 하나하나가 <dl><dt><dd>입니다.`);
+  }
+  const profile = body.match(/<div class="record-facts[^"]*"[\s\S]*?\n<\/div>/)?.[0] ?? '';
+  if (profile) {
+    if (!/class="record-facts record-facts-[a-z]+"/.test(profile)) {
+      issues.push(`${relative}: 프로필 표에 국가 수식 클래스가 없습니다(예: record-facts record-facts-brazil). 국가별 테두리·배경이 적용되지 않습니다.`);
+    }
+    const head = profile.match(/<div class="profile-country-head">[\s\S]*?<\/div>/)?.[0] ?? '';
+    if (!head) {
+      issues.push(`${relative}: 프로필 표에 profile-country-head가 없습니다.`);
+    } else {
+      if ((head.match(/<img /g) ?? []).length !== 2) {
+        issues.push(`${relative}: profile-country-head는 국기와 대표팀 문장 두 장을 양끝에 둡니다. 현재 ${(head.match(/<img /g) ?? []).length}장입니다.`);
+      }
+      if (!/<strong>[^<]+<small/.test(head)) {
+        issues.push(`${relative}: profile-country-head의 국가명은 <strong>국가명<small>원어</small></strong> 형태여야 합니다.`);
+      }
+    }
+    if (!/<dl><dt>/.test(profile)) {
+      issues.push(`${relative}: 프로필 표의 행이 <dl><dt>…</dt><dd>…</dd></dl> 형태가 아닙니다.`);
+    }
+    for (const dd of profile.match(/<dd[^>]*>[\s\S]*?<\/dd>/g) ?? []) {
+      if (/<span(?![^>]*class="foreign-note")/.test(dd)) {
+        issues.push(`${relative}: 프로필 표의 <dd>에 일반 <span>이 있습니다. 값이 붙어 나옵니다. 칸을 나누거나 foreign-note를 쓰십시오.`);
+      }
+    }
+  }
+
+  // 서사 절은 ##이고 ###는 등번호 표의 클럽·대표팀에만 쓴다.
+  for (const heading of body.match(/^### .+$/gm) ?? []) {
+    if (!/^### (클럽|.*국가대표팀)$/.test(heading)) {
+      issues.push(`${relative}: 서사 절 '${heading.slice(4)}'이 ###입니다. 서사 절은 ##이고 ###는 등번호 표의 클럽·대표팀에만 씁니다.`);
+    }
+  }
+
+  // 출처 링크 속성은 발행본 관행을 따른다.
+  const sources = body.match(/<ul class="source-notes">[\s\S]*?<\/ul>/)?.[0] ?? '';
+  for (const anchor of sources.match(/<a [^>]*>/g) ?? []) {
+    if (!/href="https?:/.test(anchor)) continue; // 사이트 안쪽 링크는 rel이 필요 없다
+    if (!/rel="noopener noreferrer"/.test(anchor)) {
+      issues.push(`${relative}: 외부 출처 링크의 rel이 noopener noreferrer가 아닙니다.`);
+      break;
+    }
   }
   for (const [pattern, minimum, label, hint] of requiredBlockCounts) {
     const found = (body.match(pattern) ?? []).length;
@@ -239,6 +288,32 @@ if (process.argv.includes('--self-test')) {
     '<figure class="legend-section-photo"><img src="/a.webp" alt="" /></figure>',
   ].join('');
   const structure = validatePlayerStructure(brokenStructure, 'fixture.md');
+  // 호나우두편에서 실제로 화면을 깨뜨린 형태를 그대로 심는다.
+  const brokenProfile = [
+    '<dl class="record-facts">기존에 통과하던 잘못된 요소</dl>',
+    '<div class="record-facts">',
+    '  <div class="profile-country-head"><img src="/a.svg" alt="" /><div><strong>브라질</strong></div></div>',
+    '  <dl><dt>별명</dt><dd>O Fenômeno<span>경이로운 자</span></dd></dl>',
+    '</div>',
+    '### 서사 절 제목',
+    '<ul class="source-notes"><li><a href="https://example.com" rel="nofollow noopener">자료</a>: 설명.</li></ul>',
+  ].join('\n');
+  const profileIssues = validatePlayerStructure(brokenProfile, 'fixture.md');
+  const profileMustCatch = [
+    ['<dl>이 아니라', '프로필 표 요소 오류'],
+    ['국가 수식 클래스가 없습니다', '국가 수식 클래스 누락'],
+    ['두 장을 양끝에', '국기·문장 이미지 누락'],
+    ['일반 <span>이 있습니다', 'dd 안 span'],
+    ['서사 절', '서사 절 ### 오용'],
+    ["noopener noreferrer가 아닙니다", "출처 rel 오류"],
+  ];
+  for (const [needle, label] of profileMustCatch) {
+    if (!profileIssues.some((issue) => issue.includes(needle))) {
+      console.error(`선수 규칙 자체 시험 실패: ${label}을 차단하지 못했습니다.`);
+      process.exit(1);
+    }
+  }
+
   const mustCatch = [
     ['팀 우승 목록', '팀 우승 목록 누락'],
     ["등번호 표 1개", "등번호 표 분리 누락"],
