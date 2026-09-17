@@ -94,6 +94,8 @@ draft: false
 
 1994년 월드컵이 끝나고 그는 네덜란드로 갔다. PSV를 권한 사람은 대표팀 선배 호마리우였다. 1988년부터 1993년까지 그 팀에서 뛴 선배의 조언이었다.
 
+<figure class="legend-section-photo"><img src="/images/archive/legends/ronaldo/psv-1995.webp" alt="필립스 로고가 붙은 PSV 에인트호번 붉은 유니폼을 입고 오른발로 공을 차는 호나우두" width="800" height="450" loading="lazy" decoding="async" /><figcaption>PSV 에인트호번의 호나우두. 열여덟 살에 에레디비시 득점왕이 된 시즌의 몸이다.</figcaption></figure>
+
 1994년 8월 28일 피테서전, 데뷔 10분 만에 골이 나왔다. 홈 데뷔전이던 호 아헤드 이글스전에서는 2골이었다. 첫 시즌 리그에서만 30골을 넣어 1995년 에레디비시 득점왕이 됐다. 그 30골에는 2골씩 넣은 경기가 일곱 번, 위트레흐트전 해트트릭이 들어 있다.
 
 1994-95 UEFA컵 바이어 레버쿠젠전에서도 해트트릭이 나왔다. 상대 공격수이자 1990년 월드컵 우승 멤버인 루디 푈러<span class="foreign-note" lang="de">(Rudolf Völler; 서독의 공격수, 1960-)</span>는 경기 후 기자회견에서 열여덟 살짜리가 이렇게 뛰는 것을 평생 본 적이 없다고 말했다. 훗날 그를 바르셀로나에서 만난 루이스 엔리케<span class="foreign-note" lang="es">(Luis Enrique Martínez García; 스페인의 미드필더이자 감독, 1970-)</span>는 이 시기를 이렇게 회고했다. 텔레비전으로 PSV의 그를 보고 감탄했는데 실제로 만나 보니 자신이 본 가장 압도적인 선수였고, 지금은 리오넬 메시가 여섯 명을 제치는 장면에 익숙하지만 그때는 아무도 그런 걸 본 적이 없었다는 것이다.
