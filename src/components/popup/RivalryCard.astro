@@ -18,7 +18,7 @@ const decisive = meetings.filter((m) => m.round === '결승' || m.round === '4�
       <span class:list={['dg-crest', { 'is-empty': !a.crest }]}>{a.crest ? <img src={a.crest} alt={`${a.name} 문장`} width="64" height="64" loading="lazy" decoding="async" /> : <em aria-hidden="true">{a.name.slice(0, 1)}</em>}</span>
       <strong>{a.name}</strong>
     </div>
-    <div class="dg-score rv-score">
+    <div class:list={['dg-score', 'rv-score', rivalry.lead ? `is-lead-${rivalry.lead}` : 'is-even']}>
       <span>상대전적</span>
       <strong><b>{record.aWin}</b><i>·</i><b class="rv-draw">{record.draw}</b><i>·</i><b>{record.bWin}</b></strong>
       <small>승 · 무 · 패</small>

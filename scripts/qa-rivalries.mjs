@@ -23,6 +23,15 @@ for (const width of [380, 1440]) {
       const shades = new Set(hits.map((h) => `${getComputedStyle(h).backgroundColor}|${getComputedStyle(h).opacity}`));
       return top !== aw + dr || bottom !== bw + dr || hits.length !== aw + dr + bw + dr || shades.size > 1;
     }).map((c) => c.querySelector('.dg-card__stage').textContent);
+    // 승·무·패 숫자 색은 위치가 아니라 결과가 정한다(운영자 지시, 2026-09-17).
+    // 이긴 쪽이 흰색, 동률이면 두 숫자가 똑같이 흰색이어야 한다.
+    const badScore = cards.filter((c) => {
+      const bs = [...c.querySelectorAll('.rv-score strong b')];
+      const [aw, , bw] = bs.map((b) => Number(b.textContent));
+      const white = (el) => { const s = getComputedStyle(el); return s.color === 'rgb(255, 255, 255)' && s.opacity === '1'; };
+      const [wa, wb] = [white(bs[0]), white(bs[2])];
+      return aw === bw ? !(wa && wb) : aw > bw ? !(wa && !wb) : !(!wa && wb);
+    }).map((c) => c.querySelector('.dg-card__stage').textContent);
     // 승패 차와 득실 차가 규칙을 지키는지 화면에서 다시 검산한다.
     const badRule = cards.filter((c) => {
       const [aw, dr, bw] = [...c.querySelectorAll('.dg-score strong b')].map((b) => Number(b.textContent));
@@ -37,13 +46,14 @@ for (const width of [380, 1440]) {
       tableRows: document.querySelectorAll('.rv-more tbody tr').length,
       eraHits: document.querySelectorAll('.rv-era__hit').length,
       badEra,
+      badScore,
       badRule,
       h1: document.querySelector('h1').textContent,
       cardOverflow: cards.filter((c) => c.scrollWidth > c.clientWidth + 1).length,
     };
   });
   console.log(width, JSON.stringify(r));
-  if (r.overflow > 0 || r.broken.length || r.badEra.length || r.badRule.length || r.cardOverflow) fails.push(`${width} ${JSON.stringify(r)}`);
+  if (r.overflow > 0 || r.broken.length || r.badEra.length || r.badScore.length || r.badRule.length || r.cardOverflow) fails.push(`${width} ${JSON.stringify(r)}`);
   await page.close();
 }
 await browser.close();

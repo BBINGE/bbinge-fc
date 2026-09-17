@@ -12,6 +12,17 @@
 .rv-score strong b { font-variant-numeric: tabular-nums; }
 .rv-score strong i { font-size: 16px; opacity: .45; }
 .rv-score .rv-draw { color: var(--dg-soft); opacity: .8; }
+/* 승·무·패 숫자의 색은 위치가 아니라 결과가 정한다(운영자 지시, 2026-09-17).
+   둔기론에서 물려받은 규칙은 첫 숫자를 늘 희게, 마지막 숫자를 늘 흐리게 했다.
+   바이언 득점이 항상 앞에 오는 둔기론에서는 맞지만, 박빙에서는 6승 2무 6패 같은
+   동률에서도 앞 팀만 밝아져 독자가 누가 앞선 것으로 오해한다.
+   이긴 쪽이 흰색이고, 동률이면 두 숫자가 똑같이 흰색이다. */
+.rv-score.is-even strong b:first-child,
+.rv-score.is-even strong b:last-child,
+.rv-score.is-lead-a strong b:first-child,
+.rv-score.is-lead-b strong b:last-child { color: #fff; opacity: 1; }
+.rv-score.is-lead-a strong b:last-child,
+.rv-score.is-lead-b strong b:first-child { color: var(--dg-soft); opacity: .85; }
 
 /* 사실 줄 */
 .rv-facts { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 0; padding: 0; list-style: none; }
