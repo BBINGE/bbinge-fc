@@ -325,6 +325,7 @@ UEFA 플라크는 축구의 영광이면서 동시에 축구를 기록하는 권
   .plaque-inscription { margin: 42px 0; padding: 30px 32px; border: 1px solid var(--bbfc-border) !important; border-top: 3px solid var(--bbfc-ink) !important; background: var(--bbfc-fill-2); text-align: center; }
   .plaque-inscription p:first-child { margin: 0; font-family: Georgia, serif; font-size: 20px; line-height: 1.75; color: var(--bbfc-ink); }
   .plaque-inscription p:last-child { margin: 20px 0 0; padding-top: 20px; border-top: 1px solid var(--bbfc-border); font-size: 14px; line-height: 1.8; color: var(--bbfc-gray-1); }
+  .plaque-figure { max-width: 656px; }
   .plaque-figure img { width: min(100%, 620px) !important; margin-inline: auto; }
   .trophy-figure img { width: min(100%, 560px) !important; max-height: 700px; object-fit: contain; margin-inline: auto; background: var(--bbfc-fill-2); }
   .heysel-figure img { filter: grayscale(1); }
