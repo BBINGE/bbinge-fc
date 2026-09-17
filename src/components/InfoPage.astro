@@ -15,7 +15,7 @@ const { eyebrow, title, description, updated } = Astro.props;
     <h1 class="mt-4 text-[28px] md:text-[38px] font-medium tracking-[-0.035em] leading-[1.3] text-[var(--bbfc-ink)]">
       {title}
     </h1>
-    <p class="mt-4 max-w-[620px] text-[15px] md:text-[17px] leading-[1.75] text-[var(--bbfc-gray-1)]">
+    <p class="mt-4 text-[15px] md:text-[17px] leading-[1.75] text-[var(--bbfc-gray-1)]">
       {description}
     </p>
     {updated && <p class="mt-5 text-[12px] text-[var(--bbfc-gray-2)]">최종 업데이트 {updated}</p>}
