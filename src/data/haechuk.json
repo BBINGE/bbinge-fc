@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-17T08:30:20.368Z",
+  "updatedAt": "2026-09-17T15:31:19.836Z",
   "days": {
-    "yesterday": "2026-09-16",
-    "today": "2026-09-17",
-    "tomorrow": "2026-09-18"
+    "yesterday": "2026-09-17",
+    "today": "2026-09-18",
+    "tomorrow": "2026-09-19"
   },
   "summary": {
-    "today": "2026-09-17",
-    "todayMatches": 13
+    "today": "2026-09-18",
+    "todayMatches": 0
   },
   "competitions": [
     {
