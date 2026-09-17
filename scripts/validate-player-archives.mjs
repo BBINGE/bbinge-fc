@@ -46,11 +46,23 @@ const shortenedClubNames = new Map([
 ]);
 const requiredPlayerMarkup = [
   ['class="legend-identity', '국가·대표팀 표'],
+  ['class="record-abstract', '요약 블록'],
   ['class="record-facts', '프로필 정보표'],
   ['class="club-career-grid', '클럽·국대 기록 카드'],
   ['class="number-history-table', '등번호 표'],
+  ['class="career-honours', '팀 우승 목록'],
   ['class="career-awards', '개인 수상 목록'],
   ['class="source-notes', '출처 설명 목록'],
+];
+// 발행본 14편이 예외 없이 지키는 뼈대다. 규칙 문서만 읽고 쓴 글이 여기서 어긋나면 발행을 멈춘다.
+const requiredBlockCounts = [
+  [/class="number-history-table/g, 2, '등번호 표', '클럽과 대표팀을 각각 한 표로 분리한다'],
+  [/class="record-note/g, 2, '자료 한계 각주', '기록 카드와 등번호 표 아래에 각각 둔다'],
+];
+const reelParts = [
+  ['class="legend-reel-head', '머리'],
+  ['class="legend-reel-foot', '꼬리'],
+  ['class="legend-reel-progress', '진행바'],
 ];
 const awardCountBaselines = new Map([
   ['cafu.md', 16],
@@ -94,6 +106,37 @@ function validateCareerAwards(source, relative) {
       if (explanation.includes(phrase)) {
         issues.push(`${relative}: '${award}' 해설에 과잉 설명 표현 '${phrase}'이 있습니다.`);
       }
+    }
+  }
+  return issues;
+}
+
+// 마크업은 규칙 문서가 아니라 발행본에만 있었다. 그 뼈대를 발행 전에 대조한다.
+function validatePlayerStructure(body, relative) {
+  const issues = [];
+  for (const [marker, label] of requiredPlayerMarkup) {
+    if (!body.includes(marker)) issues.push(`${relative}: 필수 ${label} 마크업 누락.`);
+  }
+  for (const [pattern, minimum, label, hint] of requiredBlockCounts) {
+    const found = (body.match(pattern) ?? []).length;
+    if (found < minimum) {
+      issues.push(`${relative}: ${label} ${found}개. 최소 ${minimum}개가 필요합니다(${hint}).`);
+    }
+  }
+  if (body.includes('class="legend-reel"')) {
+    for (const [marker, part] of reelParts) {
+      if (!body.includes(marker)) issues.push(`${relative}: 영상 릴에 ${part}가 없습니다. 머리·꼬리·진행바를 한 세트로 넣으십시오.`);
+    }
+  }
+  for (const figure of body.match(/<figure class="legend-section-photo"[\s\S]*?<\/figure>/g) ?? []) {
+    for (const img of figure.match(/<img [^>]*>/g) ?? []) {
+      if (!/width="\d+"/.test(img) || !/height="\d+"/.test(img)) {
+        const src = img.match(/src="([^"]+)"/)?.[1] ?? '(src 없음)';
+        issues.push(`${relative}: 본문 사진 ${src}에 고유 크기가 없습니다. width·height를 넣어 레이아웃 이동을 막으십시오.`);
+      }
+    }
+    if (!figure.includes('<figcaption>')) {
+      issues.push(`${relative}: 본문 사진에 캡션이 없습니다.`);
     }
   }
   return issues;
@@ -167,9 +210,7 @@ for (const file of await markdownFiles(archiveRoot)) {
       failures.push(`${relative}: 역대 등번호 표의 '${shortened}' 대신 공식 구단명 '${full}' 사용.`);
     }
   }
-  for (const [marker, label] of requiredPlayerMarkup) {
-    if (!body.includes(marker)) failures.push(`${relative}: 필수 ${label} 마크업 누락.`);
-  }
+  failures.push(...validatePlayerStructure(body, relative));
   failures.push(...validateCareerAwards(source, relative));
   if (/\b디 스테파노\b/.test(body) || /\b디 스테파노\b/.test(title)) {
     failures.push(`${relative}: '디 스테파노' 대신 '디스테파노' 사용.`);
@@ -185,6 +226,31 @@ if (process.argv.includes('--self-test')) {
     || !wrongCount.some((issue) => issue.includes('확정 32개'))) {
     console.error('선수 규칙 자체 시험 실패: 과잉 수상 해설을 차단하지 못했습니다.');
     process.exit(1);
+  }
+
+  // 팀 우승 목록이 빠지고 등번호 표가 하나뿐이며 사진에 크기와 캡션이 없는 원고
+  const brokenStructure = [
+    '<div class="legend-identity"></div><p class="record-abstract"></p>',
+    '<dl class="record-facts"></dl><div class="club-career-grid"></div>',
+    '<table class="number-history-table"></table><p class="record-note"></p>',
+    '<ul class="career-awards"></ul><ul class="source-notes"></ul>',
+    '<div class="legend-reel"><div class="legend-reel-head"></div></div>',
+    '<figure class="legend-section-photo"><img src="/a.webp" alt="" /></figure>',
+  ].join('');
+  const structure = validatePlayerStructure(brokenStructure, 'fixture.md');
+  const mustCatch = [
+    ['팀 우승 목록', '팀 우승 목록 누락'],
+    ["등번호 표 1개", "등번호 표 분리 누락"],
+    ["자료 한계 각주 1개", "자료 한계 각주 누락"],
+    ['꼬리가 없습니다', '영상 릴 세트 누락'],
+    ['고유 크기가 없습니다', '본문 사진 크기 누락'],
+    ['캡션이 없습니다', '본문 사진 캡션 누락'],
+  ];
+  for (const [needle, label] of mustCatch) {
+    if (!structure.some((issue) => issue.includes(needle))) {
+      console.error(`선수 규칙 자체 시험 실패: ${label}을 차단하지 못했습니다.`);
+      process.exit(1);
+    }
   }
   console.log('선수 규칙 자체 시험 통과');
   process.exit(0);
