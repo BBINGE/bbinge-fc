@@ -290,7 +290,7 @@ draft: false
   <li><strong>키커 올해의 리베로</strong><span>1994년 · 1998년 · 1999년</span></li>
   <li><strong>키커 올해의 미드필더</strong><span>1983년</span></li>
   <li><strong>키커 올해의 아이돌</strong><small>《키커》 독자가 뽑는 올해의 우상</small><span>1990년 · 1991년 · 1993년 · 1994년</span></li>
-  <li><strong>키커 랑리스테</strong><small>《키커》가 반기마다 매기는 독일 선수 등급</small><span>월드클래스 5회 · 인터내셔널 클래스 20회 · 주목 대상 9회</span></li>
+  <li><strong>키커 랑리스테</strong><small>《키커》가 반기마다 매기는 독일 선수 등급</small><span>월드클래스(WK) 5회 · 인터내셔널 클래스(IK) 20회 · 주목 대상(K) 9회</span></li>
   <li><strong>독일 대표팀 명예 주장</strong><small>DFB 추대</small><span>2001년</span></li>
   <li><strong>게오르크 폰 오펠상</strong><small>오펠이 사회적 헌신과 투혼의 스포츠인에게 준 상, ‘특별한 투사’ 부문</small><span>1998년</span></li>
   <li><strong>DFL 공로상</strong><small>독일 축구 리그(DFL) 수여</small><span>2019년</span></li>

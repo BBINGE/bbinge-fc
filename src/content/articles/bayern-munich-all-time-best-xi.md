@@ -89,8 +89,8 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   <p>독일 축구 역사상 가장 위대한 선수이자 감독.</p>
   <p>독일 연방 역사를 빛낸 ‘위대한 독일인 100’.</p>
   <p>발롱도르 최종 지명 12회, 포디움 5회, 수상 2회.</p>
-  <p>출전한 모든 FIFA 월드컵과 UEFA 유로에서 베스트 XI 선정.</p>
-  <p><i lang="de">kicker Rangliste</i> WK 27회, IK 7회, K 3회, B 3회.</p>
+  <p>출전한 모든 FIFA 월드컵과 UEFA 유로에서 베스트 11 선정.</p>
+  <p><i lang="de">kicker Rangliste</i> 월드클래스(WK) 27회, 인터내셔널 클래스(IK) 7회, 주목 대상(K) 3회, 시야권(B) 3회.</p>
   <p>세계 축구사가 낳은 가장 위대한 수비수이자 가장 위대한 리더.</p>
   <p>요한 크라위프와의 세기적 결전, 1974년 월드컵 결승에서 승리를 이끈 주장.</p>
   <strong>그 어떤 수식어로도 형용하기 힘든, 축구 역사상 가장 위대한 선수 여덟 명 가운데 한 명.</strong>
@@ -108,7 +108,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ### 선수·감독·회장으로 이어진 한 사람의 왕조
 
-바이언의 분데스리가 승격, 1967년 유러피언 컵위너스컵, 1974년부터 이어진 유러피언컵 3연패가 모두 그의 시간 안에 놓인다. 서독 대표팀에서는 1972년 UEFA 유로과 1974년 월드컵을 들어 올렸고, 발롱도르를 두 차례 받았다. 참가한 두 차례 UEFA 유로에서 모두 대회 베스트 XI에 들었으며, UEFA 역시 그를 ‘역대 가장 위대한 선수 가운데 한 명’으로 호명한다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
+바이언의 분데스리가 승격, 1967년 유러피언 컵위너스컵, 1974년부터 이어진 유러피언컵 3연패가 모두 그의 시간 안에 놓인다. 서독 대표팀에서는 1972년 UEFA 유로과 1974년 월드컵을 들어 올렸고, 발롱도르를 두 차례 받았다. 참가한 두 차례 UEFA 유로에서 모두 대회 베스트 11에 들었으며, UEFA 역시 그를 ‘역대 가장 위대한 선수 가운데 한 명’으로 호명한다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
 
 감독으로는 1986년 월드컵 준우승 뒤 1990년 우승을 이루었고, 바이언의 지휘봉을 잡아 1994년 분데스리가와 1996년 UEFA컵을 더했다. 회장으로 돌아온 뒤에는 선수 시절 자신이 세계 정상에 올려놓았던 구단의 다음 세기를 설계했다. 선수·감독·행정가의 경력이 한 문장에 들어가는 순간, *Der Kaiser*는 별명이라기보다 그가 실제로 수행했던 직책의 총칭에 가까워진다.
 
@@ -331,8 +331,8 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 11. <span id="source-11"></span>[FC 바이에른: 로베르트 레반도프스키의 바이언 375경기 344골](https://fcbayern.com/de/news/2023/02/die-bundesliga-torschuetzenkoenige-des-fc-bayern)
 12. <span id="source-12"></span>[FC 바이에른 명예의 전당: 게르트 뮐러](https://fcbayern.com/en/club/hall-of-fame/gerd-muller)
 13. <span id="source-13"></span>[썸네일 바탕 사진: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
-14. <span id="source-14"></span>[UEFA: EURO 1972 대회 베스트 XI와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
-15. <span id="source-15"></span>[UEFA: EURO 1976 대회 베스트 XI와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
+14. <span id="source-14"></span>[UEFA: EURO 1972 대회 베스트 11와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
+15. <span id="source-15"></span>[UEFA: EURO 1976 대회 베스트 11와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
 16. <span id="source-16"></span>[푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 
 ### 이 글이 만들어진 방식
