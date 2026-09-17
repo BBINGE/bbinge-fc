@@ -55,12 +55,13 @@ const {
     text-align: center;
     color: var(--bbfc-gray-2);
   }
+  /* 표지는 본문 폭을 그대로 쓴다. 정사각으로 가두고 560px로 줄이면
+     운영자 편집물의 글자가 작아지고 본문보다 좁아 보인다. */
   .content-cover--archive {
-    width: min(100%, 560px);
+    width: 100%;
     margin: 44px auto 10px;
   }
   .content-cover--archive img {
-    aspect-ratio: 1;
     object-fit: contain;
     background: var(--bbfc-fill-2);
   }

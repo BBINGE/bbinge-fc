@@ -1,4 +1,4 @@
-.cup-record .archive-body figure.cup-design { width: 100%; }
+
 .cup-record .cup-participant-scroll { overflow-x: auto; }
 .cup-record .archive-body .cup-participant-scroll table { display: table; min-width: 680px; white-space: normal; }
 .cup-record .archive-body .cup-participant-scroll th:nth-child(1) { width: 18%; }
@@ -41,8 +41,8 @@
   .cup-record .cup-entrant-club, .cup-record .cup-entrant-country { min-width: 0; word-break: keep-all; }
   .cup-record .cup-entrant-country { flex-wrap: wrap; row-gap: 4px; }
 }
-.cup-record .content-cover.content-cover--archive { width: 100%; max-width: none; }
-.cup-record .content-cover.content-cover--archive img { aspect-ratio: auto; }
+
+
 .cup-record .cup-record-table {
   --cup-record-inner-radius: calc(var(--bbfc-radius-lg) - 1px);
   margin: 24px 0 36px;
