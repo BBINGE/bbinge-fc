@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T15:31:19.836Z",
+  "updatedAt": "2026-09-17T19:33:58.388Z",
   "days": {
     "yesterday": "2026-09-17",
     "today": "2026-09-18",
@@ -856,6 +856,21 @@
         },
         {
           "rank": 3,
+          "team": "레알 베티스 발롬피에",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+          "played": 6,
+          "wins": 5,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "goalDifference": 2,
+          "points": 15,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 4,
           "team": "클루브 아틀레티코 데 마드리드",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "played": 6,
@@ -870,7 +885,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "세비야 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
           "played": 6,
@@ -881,21 +896,6 @@
           "goalsAgainst": 6,
           "goalDifference": 3,
           "points": 13,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
-        },
-        {
-          "rank": 5,
-          "team": "레알 베티스 발롬피에",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-          "played": 5,
-          "wins": 4,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 6,
-          "goalDifference": 1,
-          "points": 12,
           "zone": "ucl",
           "zoneLabel": "UEFA 챔피언스 리그"
         },
@@ -1038,13 +1038,13 @@
           "rank": 15,
           "team": "헤타페 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 2,
-          "losses": 2,
+          "losses": 3,
           "goalsFor": 3,
-          "goalsAgainst": 6,
-          "goalDifference": -3,
+          "goalsAgainst": 7,
+          "goalDifference": -4,
           "points": 5,
           "zone": "",
           "zoneLabel": ""
@@ -5172,6 +5172,21 @@
         },
         {
           "rank": 4,
+          "team": "OFI 크레타",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "goalDifference": 2,
+          "points": 3,
+          "zone": "r16",
+          "zoneLabel": "16강 직행"
+        },
+        {
+          "rank": 5,
           "team": "올랭피크 리오네",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
           "played": 1,
@@ -5186,7 +5201,7 @@
           "zoneLabel": "16강 직행"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "올림피아코스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
           "played": 1,
@@ -5201,7 +5216,22 @@
           "zoneLabel": "16강 직행"
         },
         {
-          "rank": 6,
+          "rank": 7,
+          "team": "FC 레드불 잘츠부르크",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 3,
+          "zone": "r16",
+          "zoneLabel": "16강 직행"
+        },
+        {
+          "rank": 8,
           "team": "AC 오모니아 니코시아",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
           "played": 1,
@@ -5216,7 +5246,7 @@
           "zoneLabel": "16강 직행"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "team": "선덜랜드 AFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
           "played": 1,
@@ -5227,11 +5257,11 @@
           "goalsAgainst": 0,
           "goalDifference": 1,
           "points": 3,
-          "zone": "r16",
-          "zoneLabel": "16강 직행"
+          "zone": "playoff",
+          "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "team": "GNK 디나모 자그레브",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
           "played": 1,
@@ -5242,11 +5272,11 @@
           "goalsAgainst": 0,
           "goalDifference": 0,
           "points": 1,
-          "zone": "r16",
-          "zoneLabel": "16강 직행"
+          "zone": "playoff",
+          "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 9,
+          "rank": 11,
           "team": "하포엘 베에르셰바 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
           "played": 1,
@@ -5261,7 +5291,7 @@
           "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "team": "스타드 렌 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
           "played": 1,
@@ -5276,7 +5306,7 @@
           "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "team": "SK 슈투름 그라츠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
           "played": 1,
@@ -5291,7 +5321,7 @@
           "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "team": "베식타시 JK",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
           "played": 0,
@@ -5306,7 +5336,7 @@
           "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 13,
+          "rank": 15,
           "team": "AFC 본머스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
           "played": 0,
@@ -5321,7 +5351,7 @@
           "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "team": "셀틱 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
           "played": 0,
@@ -5336,39 +5366,9 @@
           "zoneLabel": "녹아웃 플레이오프(시드)"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "team": "크리스털 팰리스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "zone": "playoff",
-          "zoneLabel": "녹아웃 플레이오프(시드)"
-        },
-        {
-          "rank": 16,
-          "team": "페렌츠바로시 TC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "zone": "playoff",
-          "zoneLabel": "녹아웃 플레이오프(시드)"
-        },
-        {
-          "rank": 17,
-          "team": "TSG 1899 호펜하임",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -5382,6 +5382,21 @@
         },
         {
           "rank": 18,
+          "team": "페렌츠바로시 TC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0,
+          "zone": "playoff-u",
+          "zoneLabel": "녹아웃 플레이오프"
+        },
+        {
+          "rank": 19,
           "team": "유벤투스 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "played": 0,
@@ -5396,24 +5411,9 @@
           "zoneLabel": "녹아웃 플레이오프"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "team": "레흐 포즈난",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "zone": "playoff-u",
-          "zoneLabel": "녹아웃 플레이오프"
-        },
-        {
-          "rank": 20,
-          "team": "PFC 레프스키 소피아",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -5472,8 +5472,8 @@
         },
         {
           "rank": 24,
-          "team": "OFI 크레타",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+          "team": "레알 소시에다드 데 풋볼",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -5487,36 +5487,6 @@
         },
         {
           "rank": 25,
-          "team": "레알 소시에다드 데 풋볼",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "zone": "out",
-          "zoneLabel": "탈락"
-        },
-        {
-          "rank": 26,
-          "team": "FC 레드불 잘츠부르크",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "zone": "out",
-          "zoneLabel": "탈락"
-        },
-        {
-          "rank": 27,
           "team": "SCU 토렌스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
           "played": 0,
@@ -5531,7 +5501,7 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 28,
+          "rank": 26,
           "team": "로얄 위니옹 생질루아즈",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
           "played": 0,
@@ -5546,7 +5516,7 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 29,
+          "rank": 27,
           "team": "FC 빅토리아 플젠",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
           "played": 0,
@@ -5561,7 +5531,7 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 30,
+          "rank": 28,
           "team": "야기엘로니아 비아위스토크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
           "played": 1,
@@ -5576,7 +5546,7 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 31,
+          "rank": 29,
           "team": "RSC 안데를레흐트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
           "played": 1,
@@ -5591,7 +5561,7 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 32,
+          "rank": 30,
           "team": "AZ 알크마르",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
           "played": 1,
@@ -5606,7 +5576,7 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 33,
+          "rank": 31,
           "team": "RC 셀타 데 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 1,
@@ -5621,7 +5591,22 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 34,
+          "rank": 32,
+          "team": "PFC 레프스키 소피아",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 0,
+          "zone": "out",
+          "zoneLabel": "탈락"
+        },
+        {
+          "rank": 33,
           "team": "AC 밀란",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
           "played": 1,
@@ -5636,9 +5621,24 @@
           "zoneLabel": "탈락"
         },
         {
-          "rank": 35,
+          "rank": 34,
           "team": "NK 첼레",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0,
+          "zone": "out",
+          "zoneLabel": "탈락"
+        },
+        {
+          "rank": 35,
+          "team": "TSG 1899 호펜하임",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
           "played": 1,
           "wins": 0,
           "draws": 0,
