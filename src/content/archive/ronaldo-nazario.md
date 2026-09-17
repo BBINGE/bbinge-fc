@@ -298,7 +298,7 @@ draft: false
 
 <ul class="career-awards">
   <li><strong>발롱도르</strong><span>1997년 · 2002년 1위 · 1996년 · 1998년 2위 · 2003년 11위 · 1999년 23위 · 1995년 26위 · 2004년 최종 후보</span></li>
-  <li><strong>발롱도르 드림팀</strong><small>프랑스 풋볼이 뽑은 역대 베스트 11</small><span>중앙 공격수 부문 12위</span></li>
+  <li><strong>발롱도르 드림팀</strong><small>프랑스 풋볼이 뽑은 역대 베스트 11</small><span>2020년 1군 선정</span></li>
   <li><strong>유러피언 골든슈</strong><span>1996-97</span></li>
   <li><strong>라리가 득점왕</strong><span>피치치 트로피 · 1996-97 34골 · 2003-04 25골</span></li>
   <li><strong>에레디비시 득점왕</strong><span>1994-95 30골</span></li>
@@ -330,7 +330,9 @@ draft: false
 
 ## 오늘날 호나우두는 어떻게 평가받는가
 
-2020년 프랑스 풋볼<span class="foreign-note" lang="fr">(France Football; 프랑스 축구 전문지)</span>이 뽑은 발롱도르 드림팀에서 호나우두는 중앙 공격수 부문 12위에 올랐다. 순위 자체보다 눈여겨볼 것은 그와 함께 거론되는 이름의 성격이다. 게르트 뮐러가 골문 앞 반경 몇 미터의 절대적 효율을, 판바스턴이 기술과 마무리의 우아함을, 호마리우가 좁은 공간의 결정력을 대표한다면, 호나우두는 하프라인부터 골문까지의 구간 전체를 혼자 처리한 유형이다. 센터 포워드라는 직업의 범위를 넓힌 쪽에 가깝다.
+2020년 12월 14일, 프랑스 풋볼<span class="foreign-note" lang="fr">(France Football; 프랑스 축구 전문지)</span>은 팬 투표와 전 세계 특파원 140명의 선정을 거쳐 축구사 역대 베스트 11인 발롱도르 드림팀을 발표했다. 3-4-3으로 세운 그 1군의 공격진 세 자리는 리오넬 메시, 호나우두, 크리스티아누 호날두였다. 브라질의 9번이 두 명의 현대 GOAT 사이에 섰다.
+
+그 명단에서 눈여겨볼 것은 순위보다 그와 함께 거론되는 이름의 성격이다. 게르트 뮐러가 골문 앞 반경 몇 미터의 절대적 효율을, 판바스턴이 기술과 마무리의 우아함을, 호마리우가 좁은 공간의 결정력을 대표한다면, 호나우두는 하프라인부터 골문까지의 구간 전체를 혼자 처리한 유형이다. 센터 포워드라는 직업의 범위를 넓힌 쪽에 가깝다.
 
 그를 둘러싼 논쟁은 늘 같은 자리로 돌아온다. 1996년부터 1999년까지의 3년이 너무 짧았다는 것이다. 스물세 살에 200골을 넘긴 선수가 무릎 때문에 3년을 잃었고, 돌아온 뒤에는 다른 종류의 선수가 됐다. 그래서 그의 평가에는 언제나 가정이 붙는다. 다치지 않았다면 어디까지 갔겠느냐는 가정이다.
 
@@ -349,6 +351,7 @@ draft: false
   <li><a href="https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_top_goalscorers" rel="noopener noreferrer">Wikipedia: List of FIFA World Cup top goalscorers</a>: 게르트 뮐러의 14골을 호나우두가 15골로 넘어섰고 2014년 클로제가 16골로 다시 넘었다는 기록 계보.</li>
   <li><a href="https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_squads" rel="noopener noreferrer">Wikipedia: 1994 FIFA World Cup squads</a>: 1994년 브라질 명단의 호나우두 등번호 20번, 당시 17세, 소속 크루제이루, A매치 3경기.</li>
   <li><a href="https://en.wikipedia.org/wiki/Laureus_World_Sports_Award_for_Comeback_of_the_Year" rel="noopener noreferrer">Wikipedia: Laureus World Sports Award for Comeback of the Year</a>: 2003년 시상식 수상자 기록.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Ballon_d%27Or_Dream_Team" rel="noopener noreferrer">Wikipedia: Ballon d'Or Dream Team</a>: 2020년 12월 14일 발표된 1군 명단과 3-4-3 구성. 공격진 메시·호나우두·크리스티아누 호날두 확인.</li>
   <li><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2002japankorea" rel="noopener noreferrer">FIFA: 2002 FIFA World Cup Korea/Japan</a>: 대회 공식 페이지의 득점 기록과 수상 대조.</li>
   <li><a href="https://www.transfermarkt.com/ronaldo/leistungsdatendetails/spieler/3140" rel="noopener noreferrer">Transfermarkt: 호나우두 시즌별 기록</a>: 등번호 표의 시즌별 배번과 소속 기간 기준 자료.</li>
   <li><a href="https://commons.wikimedia.org/wiki/File:Official_Logo_of_Sport_Club_Corinthians_Paulista_crest_2026.png" rel="noopener noreferrer">Wikimedia Commons: SC 코린치앙스 문장</a>: 기록 카드에 쓴 문장 이미지. CC BY-SA 4.0.</li>
