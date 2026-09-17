@@ -16,7 +16,7 @@ const hook=(r:typeof records[number])=>r.data.branch==='legends'&&r.data.title.i
     <div class="archive-list-heading"><div><p class="discovery-eyebrow">JUST ADDED</p><h2 id="archive-new-title">최신 입고</h2></div><span>최근 {latest.length}편</span></div>
     <div class="archive-new__layout">
       <a class="archive-new__lead" href={href(lead)}><img src={lead.data.coverImage} alt="" width="640" height="640" loading="lazy" /><div><p class="discovery-eyebrow">LATEST RECORD · {lead.data.pubDate.toLocaleDateString('ko-KR')}</p><h3>{title(lead)}</h3>{hook(lead)&&<strong>{hook(lead)}</strong>}<p>{lead.data.description}</p><span>기록 펼치기 ↗</span></div></a>
-      <ol class="archive-new__next">{latest.slice(1).map((r,i)=><li><a href={href(r)}><img src={r.data.coverImage} alt="" width="160" height="160" loading="lazy" /><div><small>0{i+2} · {r.data.pubDate.toLocaleDateString('ko-KR')}</small><h3>{title(r)}</h3><p>{hook(r)||r.data.description}</p></div><span aria-hidden="true">↗</span></a></li>)}</ol>
+      <ol class="archive-new__next">{latest.slice(1).map((r,i)=><li><a href={href(r)}><img src={r.data.coverImage} alt="" width="160" height="160" loading="lazy" /><div><small>0{i+2} · {r.data.pubDate.toLocaleDateString('ko-KR')}</small><h3>{title(r)}</h3><p>{r.data.description}</p></div><span aria-hidden="true">↗</span></a></li>)}</ol>
     </div>
   </section>}
   <section class="archive-library" aria-labelledby="archive-library-title">
