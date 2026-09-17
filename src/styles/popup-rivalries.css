@@ -26,15 +26,12 @@
 .rv-era__axis { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--dg-line); }
 .rv-era__tick { position: absolute; left: var(--x); top: 6px; bottom: 6px; width: 1px; background: rgba(255,255,255,.08); }
 .rv-era__hit { position: absolute; left: var(--x); width: 7px; height: 7px; margin-left: -3.5px; border-radius: 50%; }
-/* 박빙이 주제이므로 두 팀의 승리는 같은 무게로 찍는다. 어느 팀인지는 위아래 위치가 말한다(운영자 지적, 2026-09-16). */
-/* 색의 위계(운영자 지시, 2026-09-16): 동률이면 양쪽 다 흰 점, 승패가 갈리면 더 많이 이긴 쪽만 흰 점이다. */
+/* 읽는 법(운영자 재지시, 2026-09-17): 흰 점은 그 경기에서 지지 않았다는 뜻이다.
+   이긴 팀 줄에 흰 점, 무승부는 양쪽 줄에 같은 흰 점. 두 팀의 점은 완전히 같은 무게다.
+   상대전적에서 앞선다는 이유로 한쪽을 밝게 하면 어느 경기를 누가 이겼는지 구분할 수 없다. */
 .rv-era__hit.is-a { top: 8px; background: #fff; }
 .rv-era__hit.is-b { bottom: 8px; background: #fff; }
-.rv-era.is-lead-a .rv-era__hit.is-b, .rv-era.is-lead-b .rv-era__hit.is-a { background: var(--dg-soft); opacity: .5; }
-.rv-era.is-lead-a .rv-era__side--bottom, .rv-era.is-lead-b .rv-era__side--top { opacity: .55; }
-.rv-era__hit.is-draw { top: 50%; margin-top: -3.5px; background: transparent; border: 1.5px solid var(--dg-soft); opacity: .75; }
 .rv-era__hit.is-final { width: 11px; height: 11px; margin-left: -5.5px; box-shadow: 0 0 0 2px rgba(255,255,255,.25); }
-.rv-era__hit.is-draw.is-final { margin-top: -5.5px; }
 .rv-era__years { position: relative; height: 13px; color: var(--dg-soft); font-size: 10px; opacity: .65; }
 .rv-era__years span { position: absolute; left: var(--x); transform: translateX(-50%); }
 .rv-era__years span:first-child { transform: none; }

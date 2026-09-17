@@ -1,6 +1,9 @@
 ---
-// 연대 막대(운영자 확정, 2026-09-16): 1955년부터 2026년까지 가로축에 맞대결을 하나씩 찍고,
-// 위 칸은 왼쪽 팀이 이긴 경기, 아래 칸은 오른쪽 팀이 이긴 경기, 가운데 줄은 무승부다.
+// 연대 막대(운영자 확정, 2026-09-16): 1955년부터 2026년까지 가로축에 맞대결을 하나씩 찍는다.
+// 읽는 법(운영자 재지시, 2026-09-17): 흰 점은 그 경기에서 지지 않았다는 뜻이다.
+// 이긴 팀 줄에 흰 점을 찍고, 무승부는 양쪽 줄에 같은 흰 점을 하나씩 찍는다.
+// 그래서 같은 가로 위치에 점이 둘이면 무승부, 하나면 그 줄의 팀이 이긴 경기다.
+// 상대전적에서 앞선다는 이유로 한쪽 점을 더 밝게 하지 않는다. 그러면 승패를 구분할 수 없다.
 // 둔기론의 흰 막대, 역전극의 열세 구간 빗금에 이어지는 세 번째 시각 문법이다.
 import type { Rivalry } from '../../data/popup/rivalries';
 import { yearRange } from '../../data/popup/rivalries';
@@ -10,17 +13,18 @@ const { rivalry } = Astro.props;
 const { meetings, a, b } = rivalry;
 const ticks = [1960, 1980, 2000, 2020].filter((y) => y > yearRange.min && y < yearRange.max);
 const pos = (year: number) => ((year - yearRange.min) / (yearRange.max - yearRange.min)) * 100;
-// 색의 위계는 승패가 결정한다. 동률이면 양쪽이 같은 무게다(운영자 지시, 2026-09-16).
+// 무승부는 두 줄 모두에 점을 남긴다. 승리는 이긴 줄에만 남긴다.
+const dots = meetings.flatMap((m) => (m.result === 'draw' ? ['a', 'b'] : [m.result]).map((side) => ({ m, side })));
 const label = `${a.short} 대 ${b.short} 연대 막대: ${meetings.length}경기 가운데 ${a.short} ${rivalry.record.aWin}승, 무승부 ${rivalry.record.draw}, ${b.short} ${rivalry.record.bWin}승. ${rivalry.first.slice(0, 4)}년부터 ${rivalry.last.slice(0, 4)}년까지.`;
 ---
-<div class:list={['rv-era', rivalry.lead ? `is-lead-${rivalry.lead}` : 'is-even']} role="img" aria-label={label}>
+<div class="rv-era" role="img" aria-label={label}>
   <span class="rv-era__side rv-era__side--top" aria-hidden="true">{a.short}</span>
   <div class="rv-era__track" aria-hidden="true">
     {ticks.map((y) => <i class="rv-era__tick" style={`--x:${pos(y)}%`}></i>)}
     <span class="rv-era__axis"></span>
-    {meetings.map((m) => (
+    {dots.map(({ m, side }) => (
       <i
-        class:list={['rv-era__hit', `is-${m.result}`, { 'is-final': m.round === '결승' }]}
+        class:list={['rv-era__hit', `is-${side}`, { 'is-final': m.round === '결승', 'is-draw': m.result === 'draw' }]}
         style={`--x:${m.position}%`}
         title={`${m.dateLabel} ${m.competitionLabel} ${m.round} ${m.score[0]}-${m.score[1]}`}
       ></i>
