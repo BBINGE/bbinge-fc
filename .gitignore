@@ -32,5 +32,12 @@ affiliate-monitor-report.json
 # 임시 브리프/초안 아카이브 (커밋 대상 아님)
 files.zip
 
-# Codex 작업용 worktree 복사본 (커밋 대상 아님)
+# Codex 작업용 worktree·검토 자료 복사본 (커밋 대상 아님)
 .codex-worktrees/
+.codex-task-worktrees/
+.codex-review/
+
+# 이 저장소는 npm 기준이다. 다른 도구가 흘린 pnpm 파일은 추적하지 않는다
+.pnpm-store/
+pnpm-lock.yaml
+pnpm-workspace.yaml
