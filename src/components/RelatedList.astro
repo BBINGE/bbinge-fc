@@ -2,6 +2,7 @@
 import { categories } from '../config/categories';
 import type { CollectionEntry } from 'astro:content';
 import { getArticlePath } from '../config/categories';
+import { imageFocusStyle } from '../utils/imageFocus';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -20,6 +21,7 @@ const { entries } = Astro.props;
           width={entry.data.coverImageWidth ?? 640}
           height={entry.data.coverImageHeight ?? 360}
           loading="lazy"
+          style={imageFocusStyle(entry.data.coverImage, { zoom: false })}
         />
       ) : (
         <div class="related-card-fallback" aria-hidden="true">{categories[entry.data.category].label}</div>
@@ -37,7 +39,8 @@ const { entries } = Astro.props;
   .related-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 16px; }
   .related-card { min-width: 0; overflow: hidden; border: 1px solid var(--bbfc-border); border-radius: var(--bbfc-radius); background: var(--bbfc-white); transition: border-color .18s ease, transform .18s ease; }
   .related-card:hover { transform: translateY(-3px); border-color: var(--bbfc-blue); }
-  .related-card > img, .related-card-fallback { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--bbfc-fill); }
+  /* 사이트 표지는 대부분 1:1이다(운영자 블로그 카드 자산). 16:9로 자르면 카드 제목이 날아간다. */
+  .related-card > img, .related-card-fallback { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: var(--bbfc-fill); }
   .related-card-fallback { display: grid; place-items: center; font-size: 12px; font-weight: 650; color: var(--bbfc-gray-2); }
   .related-card > div:last-child { display: grid; align-content: start; min-height: 126px; padding: 13px 14px 14px; }
   .related-card p { font-size: 10px; color: var(--bbfc-blue); }
@@ -47,7 +50,7 @@ const { entries } = Astro.props;
   @media (max-width: 767px) {
     .related-card-grid { grid-template-columns: 1fr; gap: 10px; }
     .related-card { display: grid; grid-template-columns: 116px minmax(0, 1fr); }
-    .related-card > img, .related-card-fallback { height: 100%; min-height: 112px; aspect-ratio: auto; }
+    .related-card > img, .related-card-fallback { height: auto; min-height: 0; aspect-ratio: 1; align-self: start; }
     .related-card > div:last-child { min-height: 112px; padding: 12px 13px; }
   }
 </style>
