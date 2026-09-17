@@ -152,6 +152,20 @@ function validatePlayerStructure(body, relative) {
     }
   }
 
+  // 기록 카드는 58px 문장 칸 + 이름 + 기록의 3열이다. 문장이 없으면 이름이 그 칸으로 밀려
+  // '알레마니 아 아헨'처럼 단어 중간에서 잘린다(운영자 지적, 2026-09-17 프링스편).
+  const grid = body.match(/<div class="club-career-grid">[\s\S]*?\n<\/div>/)?.[0] ?? '';
+  if (grid) {
+    const cells = grid.match(/<div>[\s\S]*?<\/div>/g) ?? [];
+    const noCrest = cells.filter((cell) => !/<img /.test(cell));
+    if (noCrest.length) {
+      const names = noCrest.map((c) => c.match(/<strong>([^<]*)<\/strong>/)?.[1] ?? '(이름 없음)').join(', ');
+      issues.push(`${relative}: 기록 카드 ${noCrest.length}칸에 문장 이미지가 없습니다(${names}). 이름이 문장 칸으로 밀려 잘립니다.`);
+    }
+    // 문장의 width·height는 검사하지 않는다. CSS가 58px로 고정해 레이아웃 이동이 없고,
+    // 발행본 일부에 크기 지정이 없다는 현황을 PLAYER_ARCHIVE_RULES §2-1에 이미 남겼다.
+  }
+
   // 서사 절은 ##이고 ###는 등번호 표의 클럽·대표팀에만 쓴다.
   for (const heading of body.match(/^### .+$/gm) ?? []) {
     if (!/^### (클럽|.*국가대표팀)$/.test(heading)) {
@@ -292,6 +306,9 @@ if (process.argv.includes('--self-test')) {
   // 호나우두편에서 실제로 화면을 깨뜨린 형태를 그대로 심는다.
   const brokenProfile = [
     '<dl class="record-facts">기존에 통과하던 잘못된 요소</dl>',
+    '<div class="club-career-grid">',
+    '  <div><strong>알레마니아 아헨</strong><span>1994-1997</span><small>57경기</small></div>',
+    '</div>',
     '<div class="record-facts">',
     '  <div class="profile-country-head"><img src="/a.svg" alt="" /><div><strong>브라질</strong></div></div>',
     '  <dl><dt>별명</dt><dd>O Fenômeno<span>경이로운 자</span></dd></dl>',
@@ -301,6 +318,7 @@ if (process.argv.includes('--self-test')) {
   ].join('\n');
   const profileIssues = validatePlayerStructure(brokenProfile, 'fixture.md');
   const profileMustCatch = [
+    ['문장 이미지가 없습니다', '기록 카드 문장 누락'],
     ['<dl>이 아니라', '프로필 표 요소 오류'],
     ['국가 수식 클래스가 없습니다', '국가 수식 클래스 누락'],
     ['두 장을 양끝에', '국기·문장 이미지 누락'],

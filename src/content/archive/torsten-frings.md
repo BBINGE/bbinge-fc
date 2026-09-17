@@ -128,12 +128,12 @@ MLS에서의 첫 골은 2012년 6월 27일 몬트리올 임팩트 원정에서 �
 ## 역대 클럽·국대 기록
 
 <div class="club-career-grid">
-  <div><strong>알레마니아 아헨</strong><span>1994-1997</span><small>57경기 · 13골</small></div>
-  <div><strong>SV 베르더 브레멘</strong><span>1997-2002 · 2005-2011</span><small>439경기 · 51골</small></div>
-  <div><strong>보루시아 도르트문트</strong><span>2002-2004</span><small>63경기 · 12골</small></div>
-  <div><strong>FC 바이에른 뮌헨</strong><span>2004-2005</span><small>45경기 · 5골</small></div>
-  <div><strong>토론토 FC</strong><span>2011-2012</span><small>44경기 · 2골</small></div>
-  <div><strong>독일 대표팀</strong><span>2001-2009</span><small>79경기 · 10골</small></div>
+  <div><img src="/images/archive/legends/frings/club-aachen.svg" alt="알레마니아 아헨 문장" width="140" height="166" loading="lazy" /><strong>알레마니아 아헨</strong><span>1994-1997</span><small>57경기 · 13골</small></div>
+  <div><img src="/images/archive/legends/frings/club-bremen.svg" alt="SV 베르더 브레멘 문장" width="100" height="150" loading="lazy" /><strong>SV 베르더 브레멘</strong><span>1997-2002 · 2005-2011</span><small>439경기 · 51골</small></div>
+  <div><img src="/images/archive/legends/frings/club-dortmund.webp" alt="보루시아 도르트문트 문장" width="160" height="160" loading="lazy" /><strong>보루시아 도르트문트</strong><span>2002-2004</span><small>63경기 · 12골</small></div>
+  <div><img src="/images/archive/legends/frings/club-bayern.webp" alt="FC 바이에른 뮌헨 문장" width="320" height="320" loading="lazy" /><strong>FC 바이에른 뮌헨</strong><span>2004-2005</span><small>45경기 · 5골</small></div>
+  <div><img src="/images/archive/legends/frings/club-toronto.svg" alt="토론토 FC 문장" width="424" height="448" loading="lazy" /><strong>토론토 FC</strong><span>2011-2012</span><small>44경기 · 2골</small></div>
+  <div><img src="/images/archive/legends/germany/dfb-logo.svg" alt="독일 축구 협회 DFB 엠블럼" width="708" height="835" loading="lazy" /><strong>독일 대표팀</strong><span>2001-2009</span><small>79경기 · 10골</small></div>
 </div>
 
 <p class="record-note">클럽 기록은 리그와 컵, 대륙 대회를 합한 공식전 기준이다. 브레멘은 1997-2002년과 2005-2011년 두 시기를 합한 수치이며, 첫 시기의 분데스리가 출전만 따로 세면 160경기가 넘는다. 대표팀 79경기 10골에 더해 도움 14개가 함께 기록돼 있다. 은퇴 발표는 토론토에서 고관절 수술을 받은 뒤인 2013년 2월이다.</p>
