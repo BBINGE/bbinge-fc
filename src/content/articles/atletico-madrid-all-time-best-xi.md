@@ -192,12 +192,14 @@ featured: false
 눈에 띄는 카리스마를 앞세우지 않지만 그가 없으면 전술이 숨을 쉬지 못하고 동료들이 맥을 잃고 공이 목적지를 잃는다. 이기기 위한 스트라이커가 아니라 경기를 완성하기 위해 존재하는 크리에이터형 처진 공격수다. 연결자와 침투자, 플레이메이커와 마무리를 한 몸에 넣고 세트피스와 페널티킥까지 맡는다.
 
 <figure class="atleti-clip-grid" aria-label="앙투안 그리에즈만의 경기 장면">
-  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="아틀레티코 마드리드 시절의 앙투안 그리에즈만"><source src="/media/squads/atletico-madrid-best-xi/griezmann-clip-1.mp4" type="video/mp4" /></video>
-  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="프랑스 대표팀의 앙투안 그리에즈만"><source src="/media/squads/atletico-madrid-best-xi/griezmann-clip-2.mp4" type="video/mp4" /></video>
-  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="앙투안 그리에즈만의 경기 장면"><source src="/media/squads/atletico-madrid-best-xi/griezmann-clip-3.mp4" type="video/mp4" /></video>
-  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="앙투안 그리에즈만의 경기 장면"><source src="/media/squads/atletico-madrid-best-xi/griezmann-clip-4.mp4" type="video/mp4" /></video>
+  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="아틀레티코 마드리드 유니폼을 입고 웃는 앙투안 그리에즈만"><source src="/media/squads/atletico-madrid-best-xi/griezmann-smile.mp4" type="video/mp4" /></video>
+  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="파란 유니폼을 입고 득점을 자축하는 앙투안 그리에즈만"><source src="/media/squads/atletico-madrid-best-xi/griezmann-celebration-blue.mp4" type="video/mp4" /></video>
+  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="야닉 카라스코, 코케와 함께 득점을 자축하는 앙투안 그리에즈만"><source src="/media/squads/atletico-madrid-best-xi/griezmann-carrasco-koke.mp4" type="video/mp4" /></video>
+  <video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="경기장 전경에서 잡은 아틀레티코 마드리드의 공격 장면"><source src="/media/squads/atletico-madrid-best-xi/griezmann-match-wide.mp4" type="video/mp4" /></video>
   <figcaption>앙투안 그리에즈만.</figcaption>
 </figure>
+
+<blockquote class="atleti-quote"><p>내 심장은 여전히 마드리드의 붉은 줄무늬 안에 있다.</p><cite>앙투안 그리에즈만</cite></blockquote>
 
 대표팀에서 그는 이미 다 이뤘다. UEFA 유로 2016에서 득점왕과 대회 최우수 선수를 동시에 가져갔고, 2018 FIFA 월드컵에서는 네 골을 넣어 실버부트와 브론즈볼을 받았으며 결승전 최우수 선수로 뽑혔다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 2018년에는 레지옹 도뇌르 슈발리에를 받았다. 발롱도르 포디움에는 2016년과 2018년 두 번 올랐다.
 
