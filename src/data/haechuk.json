@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T08:17:33.393Z",
+  "updatedAt": "2026-09-18T08:23:53.110Z",
   "days": {
     "yesterday": "2026-09-17",
     "today": "2026-09-18",
@@ -1385,6 +1385,18 @@
           "nationality": "잉글랜드"
         },
         {
+          "id": "255889",
+          "team": "비야레알 CF",
+          "value": 3,
+          "appearances": 6,
+          "ko": "",
+          "original": "Pape Gueye",
+          "dob": "1999-01-24",
+          "age": 27,
+          "position": "미드필더",
+          "nationality": "세네갈"
+        },
+        {
           "id": "301684",
           "team": "엘체 CF",
           "value": 3,
@@ -1467,18 +1479,6 @@
           "age": 23,
           "position": "공격수",
           "nationality": "아르헨티나"
-        },
-        {
-          "id": "274197",
-          "team": "클루브 아틀레티코 데 마드리드",
-          "value": 2,
-          "appearances": 6,
-          "ko": "",
-          "original": "Lee Kang-In",
-          "dob": "2001-02-19",
-          "age": 25,
-          "position": "미드필더",
-          "nationality": "대한민국"
         }
       ],
       "assists": [
@@ -1711,16 +1711,16 @@
           "nationality": "스페인"
         },
         {
-          "id": "274913",
-          "team": "FC 바르셀로나",
+          "id": "192133",
+          "team": "비야레알 CF",
           "value": 2,
           "appearances": 6,
-          "ko": "카림 아데예미",
-          "original": "Karim Adeyemi",
-          "dob": "2002-01-18",
-          "age": 24,
+          "ko": "",
+          "original": "Ayoze Pérez",
+          "dob": "1993-07-29",
+          "age": 33,
           "position": "공격수",
-          "nationality": "독일"
+          "nationality": "스페인"
         }
       ]
     },
@@ -5820,6 +5820,30 @@
           "nationality": "폴란드"
         },
         {
+          "id": "347520",
+          "team": "SCU 토렌스",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Alejandro Alfaro",
+          "dob": "2002-06-15",
+          "age": 24,
+          "position": "미드필더",
+          "nationality": "스페인"
+        },
+        {
+          "id": "297370",
+          "team": "크리스털 팰리스 FC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Yéremy Pino",
+          "dob": "2002-10-20",
+          "age": 23,
+          "position": "미드필더",
+          "nationality": "스페인"
+        },
+        {
           "id": "288340",
           "team": "선덜랜드 AFC",
           "value": 1,
@@ -5830,6 +5854,30 @@
           "age": 26,
           "position": "미드필더",
           "nationality": "프랑스"
+        },
+        {
+          "id": "271873",
+          "team": "유벤투스 FC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Zeki Çelik",
+          "dob": "1997-02-17",
+          "age": 29,
+          "position": "수비수",
+          "nationality": "튀르키예"
+        },
+        {
+          "id": "265993",
+          "team": "레알 소시에다드 데 풋볼",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Sergio Gómez",
+          "dob": "2000-09-04",
+          "age": 26,
+          "position": "공격수",
+          "nationality": "스페인"
         },
         {
           "id": "265953",
@@ -5844,8 +5892,20 @@
           "nationality": "일본"
         },
         {
+          "id": "253991",
+          "team": "페렌츠바로시 TC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Kristoffer Zachariassen",
+          "dob": "1994-01-27",
+          "age": 32,
+          "position": "미드필더",
+          "nationality": "노르웨이"
+        },
+        {
           "id": "250920",
-          "team": "FC 아라라트아르메니아",
+          "team": "ARARAT-ARMENIA",
           "value": 1,
           "appearances": 1,
           "ko": "",
@@ -5880,6 +5940,18 @@
           "nationality": "벨기에"
         },
         {
+          "id": "216420",
+          "team": "베식타시 JK",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Amir Murillo",
+          "dob": "1996-02-11",
+          "age": 30,
+          "position": "수비수",
+          "nationality": "Panama"
+        },
+        {
           "id": "188962",
           "team": "AC 오모니아 니코시아",
           "value": 1,
@@ -5890,6 +5962,18 @@
           "age": 32,
           "position": "수비수",
           "nationality": "슬로베니아"
+        },
+        {
+          "id": "184869",
+          "team": "FC 레드불 잘츠부르크",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Haris Tabakovic",
+          "dob": "1994-06-20",
+          "age": 32,
+          "position": "공격수",
+          "nationality": "보스니아 헤르체고비나"
         },
         {
           "id": "369978",
@@ -5904,140 +5988,104 @@
           "nationality": "세르비아"
         },
         {
-          "id": "304933",
-          "team": "SL 벤피카",
+          "id": "298349",
+          "team": "유벤투스 FC",
           "value": 1,
           "appearances": 1,
           "ko": "",
-          "original": "Jakub Kaminski",
-          "dob": "2002-06-05",
+          "original": "Nick Woltemade",
+          "dob": "2002-02-14",
           "age": 24,
           "position": "공격수",
-          "nationality": "폴란드"
+          "nationality": "독일"
         },
         {
-          "id": "365562",
-          "team": "올랭피크 리오네",
+          "id": "245916",
+          "team": "AFC 본머스",
           "value": 1,
           "appearances": 1,
           "ko": "",
-          "original": "Noah Nartey",
-          "dob": "2005-10-05",
+          "original": "Justin Kluivert",
+          "dob": "1999-05-05",
+          "age": 27,
+          "position": "공격수",
+          "nationality": "네덜란드"
+        },
+        {
+          "id": "384290",
+          "team": "베식타시 JK",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Ilhan Fakili",
+          "dob": "2006-01-20",
           "age": 20,
-          "position": "미드필더",
-          "nationality": "덴마크"
-        },
-        {
-          "id": "297141",
-          "team": "AC 스파르타 프라하",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "John Mercado",
-          "dob": "2002-06-03",
-          "age": 24,
           "position": "공격수",
-          "nationality": "에콰도르"
+          "nationality": "프랑스"
         },
         {
-          "id": "376110",
-          "team": "올림피아코스 FC",
+          "id": "384005",
+          "team": "올랭피크 드 마르세유",
           "value": 1,
           "appearances": 1,
           "ko": "",
-          "original": "Armando González",
-          "dob": "2003-04-20",
-          "age": 23,
+          "original": "Keyliane Abdallah",
+          "dob": "2006-04-05",
+          "age": 20,
           "position": "공격수",
-          "nationality": "멕시코"
-        },
-        {
-          "id": "340212",
-          "team": "AC 스파르타 프라하",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Patrik Vydra",
-          "dob": "2003-06-20",
-          "age": 23,
-          "position": "미드필더",
-          "nationality": "체코"
-        },
-        {
-          "id": "219543",
-          "team": "올림피아코스 FC",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Roman Yaremchuk",
-          "dob": "1995-11-27",
-          "age": 30,
-          "position": "공격수",
-          "nationality": "우크라이나"
-        },
-        {
-          "id": "411273",
-          "team": "SK 슈투름 그라츠",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Luca Weinhandl",
-          "dob": "2009-01-11",
-          "age": 17,
-          "position": "미드필더",
-          "nationality": "오스트리아"
-        },
-        {
-          "id": "403874",
-          "team": "SL 벤피카",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Daniel Banjaqui",
-          "dob": "2008-03-24",
-          "age": 18,
-          "position": "수비수",
-          "nationality": "포르투갈"
-        },
-        {
-          "id": "399460",
-          "team": "야기엘로니아 비아위스토크",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Norbert Wojtuszek",
-          "dob": "2001-10-05",
-          "age": 24,
-          "position": "수비수",
-          "nationality": "폴란드"
-        },
-        {
-          "id": "395942",
-          "team": "RSC 안데를레흐트",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Ali Maamar",
-          "dob": "2005-03-23",
-          "age": 21,
-          "position": "수비수",
-          "nationality": "모로코"
-        },
-        {
-          "id": "388521",
-          "team": "SK 슈투름 그라츠",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Jacob Peter Hödl",
-          "dob": "2007-01-31",
-          "age": 19,
-          "position": "미드필더",
-          "nationality": "오스트리아"
+          "nationality": "프랑스"
         }
       ],
       "assists": [
         {
+          "id": "319985",
+          "team": "베식타시 JK",
+          "value": 2,
+          "appearances": 1,
+          "ko": "",
+          "original": "Junior Olaitan",
+          "dob": "2002-05-09",
+          "age": 24,
+          "position": "미드필더",
+          "nationality": "Benin"
+        },
+        {
+          "id": "272700",
+          "team": "베식타시 JK",
+          "value": 2,
+          "appearances": 1,
+          "ko": "",
+          "original": "Orkun Kökçü",
+          "dob": "2000-12-29",
+          "age": 25,
+          "position": "미드필더",
+          "nationality": "튀르키예"
+        },
+        {
+          "id": "322421",
+          "team": "페렌츠바로시 TC",
+          "value": 2,
+          "appearances": 1,
+          "ko": "",
+          "original": "Bamidele Isa Yusuf",
+          "dob": "2001-02-22",
+          "age": 25,
+          "position": "공격수",
+          "nationality": "나이지리아"
+        },
+        {
+          "id": "396607",
+          "team": "레알 소시에다드 데 풋볼",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Luken Beitia",
+          "dob": "2004-06-30",
+          "age": 22,
+          "position": "수비수",
+          "nationality": "스페인"
+        },
+        {
           "id": "395942",
           "team": "RSC 안데를레흐트",
           "value": 1,
@@ -6048,6 +6096,42 @@
           "age": 21,
           "position": "수비수",
           "nationality": "모로코"
+        },
+        {
+          "id": "389282",
+          "team": "로얄 위니옹 생질루아즈",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Massiré Sylla",
+          "dob": "2005-01-07",
+          "age": 21,
+          "position": "수비수",
+          "nationality": "세네갈"
+        },
+        {
+          "id": "334024",
+          "team": "로얄 위니옹 생질루아즈",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Besfort Zeneli",
+          "dob": "2002-11-21",
+          "age": 23,
+          "position": "미드필더",
+          "nationality": "스웨덴"
+        },
+        {
+          "id": "333419",
+          "team": "크리스털 팰리스 FC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Adam Wharton",
+          "dob": "2004-02-06",
+          "age": 22,
+          "position": "미드필더",
+          "nationality": "잉글랜드"
         },
         {
           "id": "328393",
@@ -6062,6 +6146,102 @@
           "nationality": "Costa Rica"
         },
         {
+          "id": "314790",
+          "team": "AFC 본머스",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Alex Scott",
+          "dob": "2003-08-21",
+          "age": 23,
+          "position": "미드필더",
+          "nationality": "잉글랜드"
+        },
+        {
+          "id": "306031",
+          "team": "로얄 위니옹 생질루아즈",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Louis Patris",
+          "dob": "2001-06-07",
+          "age": 25,
+          "position": "수비수",
+          "nationality": "벨기에"
+        },
+        {
+          "id": "305684",
+          "team": "AFC 본머스",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Adrien Truffert",
+          "dob": "2001-11-20",
+          "age": 24,
+          "position": "수비수",
+          "nationality": "프랑스"
+        },
+        {
+          "id": "277525",
+          "team": "올랭피크 드 마르세유",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Himad Abdelli",
+          "dob": "1999-11-17",
+          "age": 26,
+          "position": "미드필더",
+          "nationality": "알제리"
+        },
+        {
+          "id": "259474",
+          "team": "유벤투스 FC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Kamil Grabara",
+          "dob": "1999-01-08",
+          "age": 27,
+          "position": "골키퍼",
+          "nationality": "폴란드"
+        },
+        {
+          "id": "255219",
+          "team": "릴레스트룀 SK",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Vá",
+          "dob": "1998-08-24",
+          "age": 28,
+          "position": "공격수",
+          "nationality": "Angola"
+        },
+        {
+          "id": "253991",
+          "team": "페렌츠바로시 TC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Kristoffer Zachariassen",
+          "dob": "1994-01-27",
+          "age": 32,
+          "position": "미드필더",
+          "nationality": "노르웨이"
+        },
+        {
+          "id": "227697",
+          "team": "유벤투스 FC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Jhon Lucumí",
+          "dob": "1998-06-26",
+          "age": 28,
+          "position": "수비수",
+          "nationality": "콜롬비아"
+        },
+        {
           "id": "219294",
           "team": "바이어 04 레버쿠젠",
           "value": 1,
@@ -6074,6 +6254,18 @@
           "nationality": "스페인"
         },
         {
+          "id": "214794",
+          "team": "셀틱 FC",
+          "value": 1,
+          "appearances": 1,
+          "ko": "",
+          "original": "Kieran Tierney",
+          "dob": "1997-06-05",
+          "age": 29,
+          "position": "수비수",
+          "nationality": "스코틀랜드"
+        },
+        {
           "id": "152600",
           "team": "올림피아코스 FC",
           "value": 1,
@@ -6084,198 +6276,6 @@
           "age": 34,
           "position": "미드필더",
           "nationality": "스위스"
-        },
-        {
-          "id": "291730",
-          "team": "SL 벤피카",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Souffian El Karouani",
-          "dob": "2000-10-19",
-          "age": 25,
-          "position": "수비수",
-          "nationality": "모로코"
-        },
-        {
-          "id": "304933",
-          "team": "SL 벤피카",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Jakub Kaminski",
-          "dob": "2002-06-05",
-          "age": 24,
-          "position": "공격수",
-          "nationality": "폴란드"
-        },
-        {
-          "id": "192505",
-          "team": "FC 아라라트아르메니아",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Sandro Lima",
-          "dob": "1990-10-28",
-          "age": 35,
-          "position": "공격수",
-          "nationality": "브라질"
-        },
-        {
-          "id": "307060",
-          "team": "야기엘로니아 비아위스토크",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Nik Prelec",
-          "dob": "2001-06-10",
-          "age": 25,
-          "position": "공격수",
-          "nationality": "슬로베니아"
-        },
-        {
-          "id": "306895",
-          "team": "AC 스파르타 프라하",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Adam Karabec",
-          "dob": "2003-07-02",
-          "age": 23,
-          "position": "미드필더",
-          "nationality": "체코"
-        },
-        {
-          "id": "364589",
-          "team": "올랭피크 리오네",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Mohamed Ouédraogo",
-          "dob": "2003-01-02",
-          "age": 23,
-          "position": "수비수",
-          "nationality": "부르키나파소"
-        },
-        {
-          "id": "310026",
-          "team": "AC 스파르타 프라하",
-          "value": 1,
-          "appearances": 1,
-          "ko": "",
-          "original": "Matej Jurásek",
-          "dob": "2003-08-30",
-          "age": 23,
-          "position": "미드필더",
-          "nationality": "체코"
-        },
-        {
-          "id": "411273",
-          "team": "SK 슈투름 그라츠",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Luca Weinhandl",
-          "dob": "2009-01-11",
-          "age": 17,
-          "position": "미드필더",
-          "nationality": "오스트리아"
-        },
-        {
-          "id": "403874",
-          "team": "SL 벤피카",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Daniel Banjaqui",
-          "dob": "2008-03-24",
-          "age": 18,
-          "position": "수비수",
-          "nationality": "포르투갈"
-        },
-        {
-          "id": "399460",
-          "team": "야기엘로니아 비아위스토크",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Norbert Wojtuszek",
-          "dob": "2001-10-05",
-          "age": 24,
-          "position": "수비수",
-          "nationality": "폴란드"
-        },
-        {
-          "id": "388521",
-          "team": "SK 슈투름 그라츠",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Jacob Peter Hödl",
-          "dob": "2007-01-31",
-          "age": 19,
-          "position": "미드필더",
-          "nationality": "오스트리아"
-        },
-        {
-          "id": "388284",
-          "team": "GNK 디나모 자그레브",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Sergi Domínguez",
-          "dob": "2005-04-01",
-          "age": 21,
-          "position": "수비수",
-          "nationality": "스페인"
-        },
-        {
-          "id": "385090",
-          "team": "하포엘 베에르셰바 FC",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Niv Yehoshua",
-          "dob": "2005-01-28",
-          "age": 21,
-          "position": "미드필더",
-          "nationality": "이스라엘"
-        },
-        {
-          "id": "382780",
-          "team": "야기엘로니아 비아위스토크",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Guilherme Montoia",
-          "dob": "2003-09-14",
-          "age": 23,
-          "position": "수비수",
-          "nationality": "포르투갈"
-        },
-        {
-          "id": "382244",
-          "team": "AC 스파르타 프라하",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Tobias Guddal",
-          "dob": "2002-07-25",
-          "age": 24,
-          "position": "수비수",
-          "nationality": "노르웨이"
-        },
-        {
-          "id": "379193",
-          "team": "AZ 알크마르",
-          "value": 0,
-          "appearances": 1,
-          "ko": "",
-          "original": "Mateo Chávez",
-          "dob": "2004-05-12",
-          "age": 22,
-          "position": "수비수",
-          "nationality": "멕시코"
         }
       ]
     },
