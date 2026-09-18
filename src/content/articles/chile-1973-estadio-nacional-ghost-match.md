@@ -350,9 +350,9 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 .history-argument article p,.history-argument article em{margin:0;font-size:.8rem;line-height:1.6}
 .history-argument article em{color:#8c651f;font-style:normal}
 .history-block-cite{margin:.5rem 0 0!important;text-align:right}
-.history-takeaway{display:grid;grid-template-columns:8rem 1fr;gap:1rem;align-items:start;margin:2.5rem 0 3.25rem;padding:1rem 1.15rem;border-left:3px solid #c28b2c;background:#f8f4e9}
-.history-takeaway span{padding-top:.15rem;color:#8f651f;font-size:.66rem;font-weight:800;letter-spacing:.08em}
-.article-body .history-takeaway p{margin:0;font-size:.86rem;font-weight:650;line-height:1.7}
+.history-takeaway{position:relative;display:grid;grid-template-columns:8rem 1fr;gap:1rem;align-items:start;overflow:hidden;margin:2.5rem 0 3.25rem;padding:1.35rem 1.5rem;border:0;border-radius:14px;background:linear-gradient(135deg,#1b2230 0%,#2f3a4d 46%,#12171f 100%);box-shadow:0 14px 32px rgba(0,0,0,.2);color:#fff}.history-takeaway::before{position:absolute;z-index:0;right:-30px;bottom:-40px;width:170px;height:170px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%23ffffff' stroke-width='2.4'%3E%3Ccircle cx='60' cy='60' r='52'/%3E%3Cpath d='M8 60h104'/%3E%3Cpath d='M60 8c14 14 21 32 21 52s-7 38-21 52c-14-14-21-32-21-52S46 22 60 8z'/%3E%3Cpath d='M19 30c11 8 25 12 41 12s30-4 41-12M19 90c11-8 25-12 41-12s30 4 41 12'/%3E%3C/svg%3E") no-repeat center/contain;content:'';opacity:.1;pointer-events:none}.history-takeaway>*{position:relative;z-index:1}
+.history-takeaway span{display:inline-flex;align-items:flex-start;gap:6px;padding-top:.15rem;color:#e6cfa0;font-size:.66rem;font-weight:800;letter-spacing:.08em}.history-takeaway span::before{flex:0 0 auto;width:13px;height:13px;margin-top:1px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e6cfa0' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6.5 3.5h11v17l-5.5-4-5.5 4z'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+.article-body .history-takeaway p{margin:0;color:rgba(255,255,255,.88);font-size:.86rem;font-weight:560;line-height:1.7}
 .history-timeline div>em{display:block;margin-top:.85rem;padding-top:.7rem;border-top:1px solid #ddd7c9;color:#765a26;font-size:.72rem;font-style:normal;line-height:1.55}
 @media(max-width:700px){.history-argument,.history-network,.history-regions,.history-archive{margin:2.8rem 0;padding:1.1rem}.history-argument__labels{display:none}.history-argument article{display:block;padding:1rem 0}.history-argument article p{margin:.45rem 0}.history-takeaway{grid-template-columns:1fr;gap:.45rem;margin:2.2rem 0 2.8rem}}
 /* BBinge FC brand-blue pass */
@@ -361,8 +361,8 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 .history-argument__labels,.history-regions__head{background:#0d3d82;color:#fff}
 .history-argument article,.history-regions article{border-color:#d5e3f7}
 .history-argument article em,.history-regions article em{color:#145fc3}
-.history-takeaway{border-left-color:var(--bbfc-blue);background:linear-gradient(90deg,#edf5ff,#f8fbff)}
-.history-takeaway span{color:#0c61cb}
+
+
 .history-timeline{border-color:#c9dcf8;background:#c9dcf8}
 .history-timeline div{background:#f7faff}
 .history-timeline time{color:#1268ce}
