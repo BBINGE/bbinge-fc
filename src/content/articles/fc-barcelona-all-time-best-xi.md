@@ -22,7 +22,7 @@ featured: false
   <span class="gateway-line" aria-hidden="true"></span>
   <div class="barca-league"><img src="/images/leagues/laliga-logo.svg" alt="라리가 공식 로고" width="400" height="114" /><p>라리가</p><small lang="es">Primera División</small></div>
   <span class="gateway-line" aria-hidden="true"></span>
-  <div class="barca-club"><img src="/images/clubs/fc-barcelona.svg" alt="FC 바르셀로나 문장" width="142" height="144" /><p>FC 바르셀로나</p><small lang="ca">Futbol Club Barcelona</small></div>
+  <div class="barca-club"><img src="/images/clubs/barcelona.svg" alt="FC 바르셀로나 문장" width="142" height="144" /><p>FC 바르셀로나</p><small lang="ca">Futbol Club Barcelona</small></div>
 </section>
 
 역사를 관통한 철학, 저항의 상징, 축구의 미학. 필자가 선정한 바르셀로나 역대 최고의 11인을 비롯해 후보 15인, 추가 15인까지 전설이 된 이름들을 시대와 감정의 언어로 조명한다.
@@ -43,7 +43,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
   <img src="/images/squads/fc-barcelona-all-time-best-xi/intro-3.webp" alt="FC 바르셀로나의 장면" loading="lazy" width="466" height="1009" />
 </figure>
 
-<div class="barca-era" aria-label="FC 바르셀로나 역대 베스트 11 시대 범위"><img src="/images/clubs/fc-barcelona.svg" width="142" height="144" alt="" aria-hidden="true" /><span>FUTBOL CLUB BARCELONA · MÉS QUE UN CLUB</span><strong>1899-2025</strong><p>사회적 협동 구단 · 저항의 유니폼 · 드림팀 · 티키타카</p></div>
+<div class="barca-era" aria-label="FC 바르셀로나 역대 베스트 11 시대 범위"><img src="/images/clubs/barcelona.svg" width="142" height="144" alt="" aria-hidden="true" /><span>FUTBOL CLUB BARCELONA · MÉS QUE UN CLUB</span><strong>1899-2025</strong><p>사회적 협동 구단 · 저항의 유니폼 · 드림팀 · 티키타카</p></div>
 
 ## 선정 전술: 백이십 년을 세운 4-3-3
 
@@ -65,7 +65,11 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 1986년부터 1994년까지 요한 크라위프<span class="foreign-note" lang="nl">(Hendrik Johannes Cruijff; 네덜란드 공격수·감독, 1947-2016)</span>가 선수가 아닌 감독으로서 전 세계의 GOAT가 되어 프란츠 베켄바워<span class="foreign-note" lang="de">(Franz Anton Beckenbauer; 독일 수비수·감독, 1945-2024)</span>와 여전히 라이벌리를 형성할 때 안도니 수비사레타는 "드림팀의 수문장"이었고, 라리가 우승 4회는 물론 유러피언컵 결승전까지 견인했었다. 통산 416경기 369실점, 클린시트 173회다.
 
-수비사레타는 "막아낸 슈팅"보다 "시도조차 하지 못하게 만드는 구조"로 수비를 펼치던 골키퍼였다. 그의 장점은 눈부신 반사 신경이 아니라 균형 잡힌 포지셔닝, 그리고 수비 라인과의 유기적 거리 조절이었다. 그는 캄 노우<span class="foreign-note" lang="ca">(Camp Nou)</span>의 가장 깊은 문이었으며, 드림팀의 마지막 숨으로서 기억되고 있다.
+수비사레타는 "막아낸 슈팅"보다 "시도조차 하지 못하게 만드는 구조"로 수비를 펼치던 골키퍼였다. 그의 장점은 눈부신 반사 신경이 아니라 균형 잡힌 포지셔닝, 그리고 수비 라인과의 유기적 거리 조절이었다. 숫자로 보면 더 기이하다. 그는 프리메라 디비시온에서 **622경기를 뛰었고 그 622경기가 전부 선발이었다.** 교체로 들어간 경기가 한 번도 없다는 뜻이고, 그 622경기 동안 실점은 625골이다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a> 경기당 한 골 언저리를 십팔 년 동안 유지한 골키퍼의 기록이다.
+
+그리고 그가 이 구단을 떠난 날도 경기장이었다. 1994년 아테네, 유러피언컵 결승에서 AC 밀란에 0-4로 무너진 그 경기가 그의 마지막이었고 그는 곧 발렌시아 CF로 갔다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a> 드림팀의 마지막 숨이라는 말은 은유가 아니라 날짜다.
+
+그는 캄 노우<span class="foreign-note" lang="ca">(Camp Nou)</span>의 가장 깊은 문이었다.
 
 ## 2. 센터백 - 로날트 쿠만
 
@@ -75,7 +79,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 센터백의 몸, 미드필더의 뇌, 스트라이커의 심장. FC 바르셀로나 소속 264경기 88골이며, 유럽 무대 최정상급 수비수임에도 역대 수비수 최다 골이다. 1993-94시즌 UEFA 챔피언스 리그 득점왕이기도 했다.
 
-그리고 1992년 5월 20일 웸블리. 유러피언컵 결승에서 UC 삼프도리아를 상대로 연장까지 간 0-0을 프리킥 한 방으로 끝낸 사람이 쿠만이다. 그 골이 **이 구단의 첫 유러피언컵**이었고, 그날부터 그는 웸블리의 영웅이라 불렸다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+그리고 1992년 5월 20일 웸블리. 유러피언컵 결승에서 UC 삼프도리아를 상대로 연장까지 간 0-0을 프리킥 한 방으로 끝낸 사람이 쿠만이다. 경기가 승부차기로 넘어가기 직전이었다. 그 골이 **이 구단의 첫 유러피언컵**이었고, 그날부터 그는 웸블리의 영웅이라 불렸다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 요한 크라위프 감독은 로날트 쿠만을 통해 스페인에 "토털 풋볼"의 원형을 심었으며, 바르셀로나 축구가 21세기에 이렇게 발전할 수 있었던 이유에는 주제프 과르디올라, 차비 에르난데스, 리오넬 메시의 공도 있으나 그 뿌리는 로날트 쿠만을 두고 있다.
 
@@ -127,6 +131,8 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 바르사 1군 통산 722경기 18골 46도움이라는 스탯은 팀 동료 이니에스타보다 월등한 출전 숫자인데, 이 긴 기간 동안 라리가 우승 9회, 코파 델 레이 우승 7회, UEFA 챔피언스 리그 우승 3회, FIFA 클럽 월드컵 우승 3회를 차지하며 구단의 트레블 2회를 이끄는 데 핵심이 되었던 수비형 미드필더다.
 
+그가 얼마나 빨리 올라왔는지를 보면 과르디올라가 그를 어떻게 봤는지가 보인다. 2008년에 1군에 붙어 2009년 3월 7일 캄 노우에서 아틀레틱 클루브를 상대로 프리메라 첫 골을 넣었고, 그해 5월 27일 맨체스터 유나이티드 FC와의 UEFA 챔피언스 리그 결승에 선발로 섰다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a> 팀은 2-0으로 이겼다. 1군 데뷔에서 유럽 정상까지 한 시즌이 채 걸리지 않은 것이다.
+
 부시<span class="foreign-note" lang="ca">(Busi)</span>라는 별명으로 불렸던 그는 펩을 닮되 그를 넘었고, 그 넘음은 소리 없는 혁명에 가까웠다. 패스 성공률 90% 이상, 전방 압박에 대한 내성, 수비와 공격 연결의 완급 조절. 팀 동료 차비와 이니에스타가 전방을 누빌 수 있던 이유에는 언제나 부스케츠의 존재가 있었기 때문이기도 하다.
 
 ## 7. 중앙 미드필더 - 차비 에르난데스
@@ -152,6 +158,8 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 환상술사<span class="foreign-note" lang="es">(El Ilusionista)</span>라는 별명답게 그라운드 위에서 마법 같은 드리블로 상대 수비수 사이를 비집던 이니에스타는 리오넬 메시가 없어도, 알렉시스 산체스가 없어도, 네이마르가 없어도 혼자서 모든 것을 해결할 수 있었다. 그래서 바르셀로나의 트레블이 가능했다.
 
 그는 움직임과 정지 템포를 가져갈 때의 '순간 가속'이 좋았는데 때문에 좁은 공간에서 유려하게 탈압박이 가능했고, 이는 마치 음악처럼 리듬을 바꾸는 키가 되기도 했었다.
+
+그의 이름을 한 장면으로 줄이면 2009년 5월 스탬퍼드 브리지다. 첼시 FC에 0-1로 끌려가며 탈락 직전이던 후반 추가시간 93분, 그가 박스 밖에서 때린 슈팅이 골대 구석에 꽂혔다. 그 한 골로 합계가 1-1이 되었고 원정 다득점으로 바르셀로나가 결승에 올랐다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a> 스페인 사람들이 그 골에 붙인 이름이 이니에스타소<span class="foreign-note" lang="es">(Iniestazo)</span>다. 이름 뒤에 확대사를 붙여 부르는 골이 한 선수의 경력에 몇 개나 되겠는가.
 
 모든 시도가 정확했고, 모든 움직임이 정직했던 이니에스타는 부스케츠, 차비와는 다른 결로 그라운드 위에서 독보적인 존재감을 발휘했는데 때문에 <cite>문도 데포르티보</cite><span class="foreign-note" lang="es">(Mundo Deportivo; 바르셀로나의 스포츠 일간지, 1906년 창간)</span>는 이렇게 찬사를 보내기도 했었다.
 
@@ -198,7 +206,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 팬들은 그가 공을 잡는 순간 TV 앞으로 모였고, 그의 골 세리머니에 의미를 부여했고, 그가 고개를 떨군 날 그들도 하루 종일 우울해했다. 그 어떤 마케팅도, 시스템도, 감독도 그만큼의 감정 선순환을 만든 적이 없었다.
 
-<a class="barca-clip-link" href="https://m.blog.naver.com/sho3603/clip/7131919" target="_blank" rel="noopener noreferrer"><span>삥이의 클립</span><strong>리오넬 메시의 FIFA 월드컵 1~13호골 모음집</strong><em>네이버 블로그에서 보기</em></a>
+<a class="barca-clip-link" href="https://m.blog.naver.com/sho3603/clip/7131919" target="_blank" rel="noopener noreferrer"><img src="/images/squads/fc-barcelona-all-time-best-xi/messi-clip-thumb.webp" alt="리오넬 메시의 FIFA 월드컵 골 모음 클립 미리보기" loading="lazy" width="320" height="569" /><span class="barca-clip-body"><em>삥이의 클립</em><strong>리오넬 메시의 FIFA 월드컵 1~13호골 모음집</strong><span class="barca-clip-cta">영상 보러 가기 <b aria-hidden="true">→</b></span></span></a>
 
 신을 두고, 무슨 서술을 이어가겠는가.
 
@@ -212,11 +220,17 @@ FC 바르셀로나의 서문, 민족을 넘어선 천재, 그리고 축구사 �
 
 쿠벌러 라슬로<span class="foreign-note" lang="hu">(Kubala Stecz László; 헝가리·체코슬로바키아·스페인 공격수, 1927-2002)</span>는 축구 선수로서 살아낸 3개의 국적을 가졌고, 펠레와 마라도나와 메시도 갖지 못한 시대를 초월한 영향력을 남겼으며, 1950년대의 스페인 축구를 하룻밤 사이 '현대화'한 존재였다.
 
-FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 5회, 유러피언컵 준우승 1회다. 구단 역대 최다 골 3위이며, 그가 헝가리와 체코슬로바키아와 스페인 세 대표팀에 모두 출전한 것은 FIFA 역사상 유일한 기록이다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 부모가 슬로바키아 사람이었고 자신은 헝가리에서 태어나 스페인에 귀화했으므로, 세 개의 유니폼은 그의 이력이 아니라 20세기 중부 유럽의 지도였다.
+FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 5회, 유러피언컵 준우승 1회다. 여기에 하나가 더 붙는데, 유럽 대항전의 시작을 알린 <a href="/archive/club/inter-cities-fairs-cup/1955-58-inter-cities-fairs-cup/">1955-58 인터시티스 페어스컵</a>과 1958-60 대회를 연달아 들어 올린 것이 그다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 구단 역대 최다 골 3위이며, 그가 헝가리와 체코슬로바키아와 스페인 세 대표팀에 모두 출전한 것은 FIFA 역사상 유일한 기록이다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 부모가 슬로바키아 사람이었고 자신은 헝가리에서 태어나 스페인에 귀화했으므로, 세 개의 유니폼은 그의 이력이 아니라 20세기 중부 유럽의 지도였다.
 
 <figure class="barca-player-art barca-player-art--wide"><img src="/images/squads/fc-barcelona-all-time-best-xi/camp-de-les-corts.webp" alt="캄 데 레스코르츠 경기장" loading="lazy" width="966" height="604" /><figcaption>캄 데 레스코르츠<span lang="ca">(Camp de Les Corts)</span>.</figcaption></figure>
 
 **첫째, 바르셀로나의 재건자다.** 그는 프랑코 정권 하에서 카탈루냐 문화가 짓밟히던 시절 헝가리 공산 정권을 피해온 이주민이었고, 그 자신이 저항이었다.
+
+여기서 그가 스페인까지 온 경로를 짚고 가야 한다. 1949년 1월, 소련이 헝가리를 점령하고 위성국으로 만들던 그때 쿠벌러는 **트럭 짐칸에 숨어 국경을 넘었다.**<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 갈 곳이 없어지자 이듬해 1월에는 동유럽에서 함께 도망쳐 나온 선수들을 모아 헝가리아<span class="foreign-note" lang="hu">(Hungária; 망명 선수들로 꾸린 유랑 축구단)</span>라는 팀을 직접 만들었다. 매형 페르디난드 다우치크<span class="foreign-note" lang="sk">(Ferdinand Daučík; 체코슬로바키아 축구 감독, 1910-1986)</span>가 감독이었다. 나라를 잃은 선수 열몇 명이 유럽을 돌며 친선 경기로 먹고살던 팀이다.
+
+헝가리 협회는 그를 무단 이탈자로 제소했고 FIFA는 그 손을 들어 **1년 국제 출전 금지**를 내렸다. 그래서 1950년에 바르셀로나에 온 그가 실제로 라리가를 밟은 것은 1951년이다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+
+그리고 여기에 이 이야기의 뒤틀린 대목이 있다. 그의 스페인 시민권이 놀라운 속도로 나온 이유는 **프랑코 정권이 소련 위성국에서 도망쳐 나온 난민 스타를 체제 선전에 쓰고 싶어 했기 때문이다.**<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 카탈루냐 저항의 구단에 온 저항의 상징을, 그 저항을 짓밟던 정권이 반공 간판으로 썼다. 쿠벌러의 유니폼은 그러니까 한쪽에서 보면 저항이고 다른 쪽에서 보면 선전이었다.
 
 **둘째, 캄 노우 건립의 결정적 동기다.** 1957년, 바르사는 쿠벌러 효과로 캄 데 레스코르츠를 넘어서 캄 노우 신축에 착수했는데, 한 사람의 등장이 도시의 확장과 구단의 운명을 바꾼 원인이 되었었다.
 
@@ -227,7 +241,9 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
 <figure class="barca-final-sequence">
   <img src="/images/squads/fc-barcelona-all-time-best-xi/final-header.webp" alt="FC 바르셀로나 역대 베스트 11 표제" loading="lazy" width="966" height="322" />
   <img src="/images/squads/fc-barcelona-all-time-best-xi/formation.webp" alt="4-3-3 대형으로 배치한 FC 바르셀로나 역대 베스트 11" loading="lazy" width="966" height="966" />
-  <figcaption>표제와 열한 명의 대형. 1950년대의 쿠벌러부터 2020년대의 부스케츠까지 한 장에 들어간다.</figcaption>
+  <img src="/images/squads/fc-barcelona-all-time-best-xi/second-team.webp" alt="FC 바르셀로나 역대 베스트 11 후보 15인 편집물" loading="lazy" width="900" height="1788" />
+  <img src="/images/squads/fc-barcelona-all-time-best-xi/third-team.webp" alt="FC 바르셀로나 역대 베스트 11 추가 15인 편집물" loading="lazy" width="900" height="1788" />
+  <figcaption>표제, 열한 명의 대형, 후보 15인과 추가 15인. 1950년대의 쿠벌러부터 2020년대의 부스케츠까지 마흔한 명이 한 흐름에 들어간다.</figcaption>
 </figure>
 
 이 명단은 FC 바르셀로나의 가장 위대했던 41인의 명단이다.
@@ -245,10 +261,6 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
 ## 이미지 밖에서 다시 읽는 후보 15인
 
 최종 열한 자리에 들지 못했다는 사실이 이들의 위계를 낮추지는 않는다. 시대별 전술과 열한 자리의 조화를 우선한 결과이며, 아래 명단은 편집물 안의 이름을 검색 가능한 텍스트로 다시 기록한 것이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
-
-<figure class="barca-final-sequence">
-  <img src="/images/squads/fc-barcelona-all-time-best-xi/second-team.webp" alt="FC 바르셀로나 역대 베스트 11 후보 15인 편집물" loading="lazy" width="900" height="1788" />
-</figure>
 
 <ul class="barca-candidate-list" aria-label="FC 바르셀로나 역대 베스트 11 후보 15인">
   <li><strong>안토니 라마예츠</strong><small lang="ca">Antoni Ramallets i Simón · 골키퍼</small><p>1950년대 드림팀 이전의 골문을 지킨 스페인 대표 수문장이다.</p></li>
@@ -270,10 +282,6 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
 
 ## 이미지 밖에서 다시 읽는 추가 15인
 
-<figure class="barca-final-sequence">
-  <img src="/images/squads/fc-barcelona-all-time-best-xi/third-team.webp" alt="FC 바르셀로나 역대 베스트 11 추가 15인 편집물" loading="lazy" width="900" height="1788" />
-</figure>
-
 <ul class="barca-candidate-list" aria-label="FC 바르셀로나 역대 베스트 11 추가 15인">
   <li><strong>마르크안드레 테어슈테겐</strong><small lang="de">Marc-André ter Stegen · 골키퍼</small><p>2014년 합류해 발데스 이후의 골문을 이어받았다.</p></li>
   <li><strong>미겔리</strong><small lang="es">Miguel Bernardo Bianquetti ‘Migueli’ · 센터백</small><p>1970~80년대를 통틀어 구단 최다 출전 상위권에 오른 수비수다.</p></li>
@@ -292,7 +300,7 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
   <li><strong>세르지 로베르토</strong><small lang="ca">Sergi Roberto Carnicer · 중앙 미드필더</small><p>2017년 파리 생제르맹전 6-1 역전의 마지막 골을 넣었다.</p></li>
 </ul>
 
-<div class="source-notes"><h2>기록을 확인한 곳</h2><ol><li id="source-1"><strong>구단 연혁과 라리가 우승 연도</strong> — <a href="https://es.wikipedia.org/wiki/F%C3%BAtbol_Club_Barcelona" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Fútbol Club Barcelona」</a>와 <a href="https://www.rsssf.org/tabless/spanchamp.html" target="_blank" rel="noopener noreferrer">RSSSF 「Spain - List of Champions」</a>. 1899년 창단과 사회적 협동 구단이라는 지배 구조, 라리가 우승 연도.</li><li id="source-2"><strong>로날트 쿠만</strong> — <a href="https://es.wikipedia.org/wiki/Ronald_Koeman" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Ronald Koeman」</a>. 1992년 5월 20일 웸블리 유러피언컵 결승에서 UC 삼프도리아를 상대로 넣은 프리킥 결승골이 구단 최초의 유러피언컵이며, 그때 얻은 별명이 웸블리의 영웅이다.</li><li id="source-3"><strong>차비 에르난데스의 출전 기록</strong> — <a href="https://es.wikipedia.org/wiki/Xavi_Hern%C3%A1ndez" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Xavi Hernández」</a>. 공식전 767경기 85골이며 구단 역대 출전은 리오넬 메시에 이어 두 번째다. 원고의 역대 최다 출전은 이 자료에 따라 바로잡았다.</li><li id="source-4"><strong>쿠벌러 라슬로</strong> — <a href="https://es.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Kubala" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「László Kubala」</a>. 1950년대 바르셀로나에서의 280골, 헝가리·체코슬로바키아·스페인 세 대표팀 출전 기록, 슬로바키아 출신 부모와 헝가리 태생이라는 배경. 경기 수는 이 자료의 345경기와 선수 카드의 357경기가 갈려 본문에 카드 기준을 적었다.</li><li id="source-5"><strong>후보 서른 명의 원어와 국적</strong> — 원고 묶음의 명단을 따랐고, 표기가 갈린 세 건만 각 인물 문서로 대조했다. `Miguel Ángel Nadal Homar`의 악센트, 바스크 철자 `Begiristain Mujika`, 헝가리식 성명 순서 `Czibor Zoltán`이다.</li></ol></div>
+<div class="source-notes"><h2>기록을 확인한 곳</h2><ol><li id="source-1"><strong>구단 연혁과 라리가 우승 연도</strong> — <a href="https://es.wikipedia.org/wiki/F%C3%BAtbol_Club_Barcelona" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Fútbol Club Barcelona」</a>와 <a href="https://www.rsssf.org/tabless/spanchamp.html" target="_blank" rel="noopener noreferrer">RSSSF 「Spain - List of Champions」</a>. 1899년 창단과 사회적 협동 구단이라는 지배 구조, 라리가 우승 연도.</li><li id="source-2"><strong>로날트 쿠만</strong> — <a href="https://es.wikipedia.org/wiki/Ronald_Koeman" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Ronald Koeman」</a>. 1992년 5월 20일 웸블리 유러피언컵 결승에서 UC 삼프도리아를 상대로 넣은 프리킥 결승골이 구단 최초의 유러피언컵이며, 그때 얻은 별명이 웸블리의 영웅이다.</li><li id="source-3"><strong>차비 에르난데스의 출전 기록</strong> — <a href="https://es.wikipedia.org/wiki/Xavi_Hern%C3%A1ndez" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Xavi Hernández」</a>. 공식전 767경기 85골이며 구단 역대 출전은 리오넬 메시에 이어 두 번째다. 원고의 역대 최다 출전은 이 자료에 따라 바로잡았다.</li><li id="source-4"><strong>쿠벌러 라슬로</strong> — <a href="https://es.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Kubala" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「László Kubala」</a>. 1950년대 바르셀로나에서의 280골, 헝가리·체코슬로바키아·스페인 세 대표팀 출전 기록, 슬로바키아 출신 부모와 헝가리 태생이라는 배경. 경기 수는 이 자료의 345경기와 선수 카드의 357경기가 갈려 본문에 카드 기준을 적었다.</li><li id="source-5"><strong>후보 서른 명의 원어와 국적</strong> — 원고 묶음의 명단을 따랐고, 표기가 갈린 세 건만 각 인물 문서로 대조했다. `Miguel Ángel Nadal Homar`의 악센트, 바스크 철자 `Begiristain Mujika`, 헝가리식 성명 순서 `Czibor Zoltán`이다.</li><li id="source-6"><strong>쿠벌러 라슬로의 망명과 제재</strong> — <a href="https://en.wikipedia.org/wiki/Ladislao_Kubala" target="_blank" rel="noopener noreferrer">영어 위키백과 「Ladislao Kubala」</a>. 1949년 1월 트럭 짐칸으로 헝가리를 빠져나온 경위, 1950년 1월 망명 선수들로 꾸린 헝가리아, 헝가리 협회의 제소와 FIFA의 1년 국제 출전 금지, 프랑코 정권이 난민 신분을 체제 정당화에 이용해 시민권을 신속히 내준 배경, 1951년 라리가 데뷔, 인터시티스 페어스컵 1955-58과 1958-60 우승.</li><li id="source-7"><strong>안드레스 이니에스타의 2009년 스탬퍼드 브리지 득점</strong> — <a href="https://es.wikipedia.org/wiki/Andr%C3%A9s_Iniesta" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Andrés Iniesta」</a>. 첼시 FC에 0-1로 뒤지던 93분의 동점골과 원정 다득점에 따른 결승 진출.</li><li id="source-8"><strong>안도니 수비사레타의 출전 기록</strong> — <a href="https://es.wikipedia.org/wiki/Andoni_Zubizarreta" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Andoni Zubizarreta」</a>. 프리메라 디비시온 622경기 전부 선발과 625실점, 1994년 아테네 유러피언컵 결승 이후의 이적.</li><li id="source-9"><strong>세르히오 부스케츠의 데뷔기</strong> — <a href="https://es.wikipedia.org/wiki/Sergio_Busquets" target="_blank" rel="noopener noreferrer">스페인어 위키백과 「Sergio Busquets」</a>. 2009년 3월 7일 아틀레틱 클루브전 프리메라 첫 골과 같은 해 5월 27일 맨체스터 유나이티드전 UEFA 챔피언스 리그 결승 선발 출전.</li></ol></div>
 
 <style>
   .barca-gateway { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 3rem 0 4rem; overflow: hidden; border: 1px solid rgba(0,77,152,.7); border-radius: 22px; background: #080a12; color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(0,0,0,.2); transform: translateX(-50%); }
@@ -306,13 +314,13 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
   .barca-league p { color: #e8332a; }
   .barca-league small { color: #6b7280; }
   .barca-club { background: linear-gradient(135deg, #004d98 0 50%, #a50044 50%); }
-  .barca-club img { display: block; width: min(150px, 42%); height: auto; object-fit: contain; filter: brightness(0) invert(1) drop-shadow(0 14px 22px rgba(0,0,0,.45)); }
+  .barca-club img { display: block; width: min(132px, 38%); height: auto; padding: 14px 18px; border-radius: 14px; background: rgba(255,255,255,.94); object-fit: contain; box-shadow: 0 14px 28px rgba(0,0,0,.34); }
   .gateway-line { position: relative; z-index: 2; display: block; width: 1px; height: 44px; margin: -22px auto; background: linear-gradient(#004d98, #edbb00, #a50044); }
 
-  .barca-era { display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 2.6rem 0; border: 1px solid rgba(237,187,0,.34); border-radius: 16px; padding: 1.8rem 1.4rem; background: linear-gradient(135deg, #04244a, #4a0322 58%, #06101f); color: #fff; text-align: center; }
-  .barca-era img { width: 62px; height: 62px; filter: brightness(0) invert(1); }
+  .barca-era { display: flex; flex-direction: column; align-items: center; gap: 5px; margin: 2.6rem 0; border: 1px solid rgba(237,187,0,.34); border-radius: 16px; padding: 1.15rem 1.4rem 1.25rem; background: linear-gradient(135deg, #04244a, #4a0322 58%, #06101f); color: #fff; text-align: center; }
+  .barca-era img { width: 52px; height: 53px; padding: 5px 7px; border-radius: 9px; background: rgba(255,255,255,.94); }
   .barca-era span { color: #edbb00; font-size: .78rem; font-weight: 800; letter-spacing: .16em; }
-  .barca-era strong { font-size: 2rem; font-weight: 850; letter-spacing: -.03em; }
+  .barca-era strong { margin: .1rem 0; font-size: 1.75rem; font-weight: 850; letter-spacing: -.03em; line-height: 1.1; }
   .barca-era p { margin: 0; color: rgba(255,255,255,.72); font-size: .94rem; }
 
   .barca-player-art { margin: 2.2rem 0; }
@@ -335,10 +343,14 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
   .barca-record dt { color: var(--bbfc-gray-1); font-size: .78rem; font-weight: 700; }
   .barca-record dd { margin: .35rem 0 0; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
 
-  .barca-clip-link { display: flex; flex-direction: column; margin: 2.2rem 0; border: 1px solid rgba(237,187,0,.4); border-radius: 14px; padding: 1.1rem 1.3rem; background: linear-gradient(135deg, #04244a, #4a0322); color: #fff; text-decoration: none; }
-  .barca-clip-link span { color: #edbb00; font-size: .74rem; font-weight: 800; letter-spacing: .14em; }
-  .barca-clip-link strong { margin-top: .35rem; font-size: 1.04rem; font-weight: 800; line-height: 1.5; word-break: keep-all; }
-  .barca-clip-link em { margin-top: .45rem; color: rgba(255,255,255,.7); font-size: .82rem; font-style: normal; }
+  .barca-clip-link { display: flex; align-items: stretch; gap: 0; margin: 2.4rem 0; overflow: hidden; border: 1px solid rgba(237,187,0,.5); border-radius: 16px; background: linear-gradient(135deg, #04244a, #7a0433 72%, #a50044); color: #fff; text-decoration: none; box-shadow: 0 16px 34px rgba(0,0,0,.26); transition: transform .15s ease, box-shadow .15s ease; }
+  .barca-clip-link:hover { box-shadow: 0 20px 42px rgba(0,0,0,.34); transform: translateY(-2px); }
+  .barca-clip-link > img { display: block; width: 116px; min-height: 100%; flex: 0 0 116px; background: #05070f; object-fit: cover; }
+  .barca-clip-body { display: flex; flex: 1 1 auto; min-width: 0; flex-direction: column; justify-content: center; padding: 1.1rem 1.3rem; }
+  .barca-clip-link em { color: #edbb00; font-size: .72rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
+  .barca-clip-link strong { margin-top: .4rem; font-size: 1.06rem; font-weight: 800; line-height: 1.5; word-break: keep-all; }
+  .barca-clip-cta { display: inline-flex; align-items: center; gap: .4rem; margin-top: .7rem; color: #fff; font-size: .84rem; font-weight: 700; }
+  .barca-clip-cta b { color: #edbb00; font-size: 1.05rem; }
 
   .barca-final-sequence { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 3rem 0 3.5rem; overflow: hidden; border-radius: 16px; background: #050505; transform: translateX(-50%); }
   .barca-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
