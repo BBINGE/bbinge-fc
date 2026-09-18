@@ -157,11 +157,12 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
 </section>
 
 <style>
-  .pep-thesis { position:relative; overflow:hidden; margin:0 0 38px; padding:29px 31px 30px; border-left:4px solid #4baeff; background:linear-gradient(120deg,rgba(36,107,253,.1),rgba(108,52,255,.055) 72%,rgba(255,255,255,.92)); box-shadow:inset 0 0 0 1px rgba(36,107,253,.055); }
-  .pep-thesis::after { position:absolute; top:-58px; right:-35px; width:180px; height:180px; border:1px solid rgba(36,107,253,.09); border-radius:50%; content:''; pointer-events:none; }
+  .pep-thesis{position:relative;overflow:hidden;margin:0 0 40px;padding:30px 32px 31px;border:0;border-radius:18px;background:linear-gradient(135deg,#062a45 0%,#1a6099 46%,#101f3f 100%);box-shadow:0 18px 40px rgba(0,0,0,.24);color:#fff}.pep-thesis::before{position:absolute;z-index:0;background-image:url('/images/popup/rivalries/crests/man-city-eng.webp');background-repeat:no-repeat;background-size:contain;background-position:center;right:-40px;bottom:-52px;width:220px;height:220px;opacity:.14;content:'';pointer-events:none}.pep-thesis>*{position:relative;z-index:1}@media(max-width:767px){.pep-thesis{padding:24px 21px 25px}.pep-thesis::before{width:156px;height:156px;right:-32px;bottom:-40px}}
+  .pep-thesis>span{display:inline-flex;align-items:center;gap:7px;color:#9fd4f5!important;font-size:11.5px;font-weight:850;letter-spacing:.14em}.pep-thesis>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239fd4f5' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='3' width='16' height='18' rx='2.2'/%3E%3Cpath d='M4 12h16M12 3v18'/%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  
   .pep-thesis span, .shape-lab header span, .position-note__index span, .movement-ledger span { color:var(--bbfc-blue); font-size:12px; font-weight:760; letter-spacing:.14em; }
-  .pep-thesis strong { position:relative; z-index:1; display:block; margin-top:12px; color:var(--bbfc-ink); font-size:25px; line-height:1.35; letter-spacing:-.04em; }
-  .pep-thesis p { position:relative; z-index:1; max-width:760px; margin:10px 0 0 !important; color:var(--bbfc-ink-2); font-size:15px; font-weight:560; line-height:1.8; }
+  .pep-thesis>strong{position:relative;z-index:1;display:block;max-width:760px;margin-top:11px;color:#fff;font-size:26px;letter-spacing:-.04em;line-height:1.38}
+  .pep-thesis>p{position:relative;z-index:1;max-width:800px;margin:10px 0 0!important;color:rgba(255,255,255,.84);font-size:15px;line-height:1.8;word-break:keep-all}
   .shape-lab { margin: 42px 0 48px; overflow: hidden; border: 1px solid #25374e; border-radius: 20px; background: #07101d; color: #f6f9ff; box-shadow: 0 28px 64px -48px rgba(4,18,39,.9); }
   .shape-lab > header { padding: 23px 25px 20px; border-bottom: 1px solid rgba(255,255,255,.14); background: radial-gradient(circle at 86% 0, rgba(47,128,255,.23), transparent 36%); }
   .shape-lab header span { color: #86cbff; }

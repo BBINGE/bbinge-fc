@@ -190,11 +190,12 @@ FIFA가 기록한 이 문장은 원고에 떠돌던 판본보다 짧고 정확�
 </section>
 
 <style>
-  .eh-thesis{position:relative;overflow:hidden;margin:0 0 40px;padding:30px 32px 31px;border-left:4px solid #b38a42;background:linear-gradient(122deg,#f5f1e8,#fff 68%);box-shadow:inset 0 0 0 1px rgba(91,67,28,.08)}
-  .eh-thesis:after{position:absolute;right:-45px;bottom:-72px;width:220px;height:220px;border:1px solid rgba(100,75,30,.11);border-radius:50%;content:""}
+  .eh-thesis{position:relative;overflow:hidden;margin:0 0 40px;padding:30px 32px 31px;border:0;border-radius:18px;background:linear-gradient(135deg,#12161b 0%,#3a2e1a 46%,#0d1014 100%);box-shadow:0 18px 40px rgba(0,0,0,.24);color:#fff}.eh-thesis::before{position:absolute;z-index:0;background-image:url('/images/popup/rivalries/crests/feyenoord-ned.webp'),url('/images/popup/rivalries/crests/club-brugge-bel.webp'),url('/images/popup/rivalries/crests/hamburg-ger.webp');background-repeat:no-repeat;background-size:118px,132px,120px;background-position:left center,center center,right center;right:-26px;bottom:-34px;width:400px;height:150px;opacity:.13;content:'';pointer-events:none}.eh-thesis>*{position:relative;z-index:1}@media(max-width:767px){.eh-thesis{padding:24px 21px 25px}.eh-thesis::before{width:280px;height:110px;background-size:84px,94px,86px;right:-20px;bottom:-26px}}
+  .eh-thesis>span{display:inline-flex;align-items:center;gap:7px;color:#d7b268!important;font-size:11.5px;font-weight:850;letter-spacing:.14em}.eh-thesis>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d7b268' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='3' width='16' height='18' rx='2.2'/%3E%3Cpath d='M4 12h16M12 3v18'/%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  
   .eh-thesis span,.eh-finals header span,.eh-proof header span,.eh-final-plan header span,.eh-quote>span{color:#84611f;font-size:12px;font-weight:800;letter-spacing:.14em}
-  .eh-thesis strong{position:relative;z-index:1;display:block;max-width:760px;margin-top:11px;color:#15191d;font-size:26px;line-height:1.38;letter-spacing:-.04em}
-  .eh-thesis p{position:relative;z-index:1;max-width:800px;margin:10px 0 0!important;color:#505860;font-size:15px;line-height:1.8}
+  .eh-thesis>strong{position:relative;z-index:1;display:block;max-width:760px;margin-top:11px;color:#fff;font-size:26px;letter-spacing:-.04em;line-height:1.38}
+  .eh-thesis>p{position:relative;z-index:1;max-width:800px;margin:10px 0 0!important;color:rgba(255,255,255,.84);font-size:15px;line-height:1.8;word-break:keep-all}
   .eh-finals{margin:43px 0 49px;overflow:hidden;border:1px solid #16202a;background:#09121c;color:#f7f4ed}
   .eh-finals>header,.eh-proof>header,.eh-final-plan>header{padding:23px 25px 21px;border-bottom:1px solid rgba(255,255,255,.15)}
   .eh-finals header span,.eh-final-plan header span{color:#d9b66d}
