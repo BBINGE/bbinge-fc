@@ -232,10 +232,14 @@ featured: false
   .ar-cast figcaption b{color:#b10f23;font-size:11px;letter-spacing:.08em}
   .ar-cast figcaption span{margin-top:6px}
   .ar-cast>.ar-credit,.ar-marking>.ar-credit,.ar-allure>.ar-credit,.ar-offpitch>.ar-credit{grid-column:1/-1;text-align:right}
-  .ar-note{margin:36px 0 56px;padding:24px 28px;border-left:4px solid #c9a449;border-radius:0 var(--bbfc-radius-md) var(--bbfc-radius-md) 0;background:linear-gradient(100deg,#fbf3f3,#fff8e8)}
-  .ar-note>span{color:#b10f23;font-size:11px;font-weight:850;letter-spacing:.15em}
-  .ar-note strong{display:block;margin:7px 0 9px;font-size:19px}
-  .ar-note p{margin:0;color:#3f3436}
+  .ar-note{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:46px 0 62px;padding:28px 32px 30px;overflow:hidden;border:0;border-radius:18px;background:linear-gradient(135deg,#9b0512 0%,#ef0107 46%,#122446 100%);box-shadow:0 20px 44px rgba(0,0,0,.26);color:#fff;transform:translateX(-50%)}
+.ar-note::before{position:absolute;z-index:0;right:-56px;bottom:-64px;width:260px;height:260px;background:url('/images/popup/rivalries/crests/arsenal-eng.webp') no-repeat center/contain;content:'';opacity:.14;pointer-events:none}
+.ar-note>*{position:relative;z-index:1}
+@media(max-width:860px){.ar-note{width:calc(100vw - 24px);margin:34px 0 46px;padding:22px 20px 24px}.ar-note::before{width:180px;height:180px;right:-40px;bottom:-46px}}
+  .ar-note>span{display:inline-flex;align-items:center;gap:7px;color:#f2c14e;font-size:11.5px;font-weight:850;letter-spacing:.15em}
+.ar-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f2c14e' stroke-width='1.9' stroke-linejoin='round'%3E%3Cpath d='M8.5 3 5 4.6 3 8.4l3 1.7V21h12V10.1l3-1.7-2-3.8L15.5 3a3.5 3.5 0 0 1-7 0Z'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .ar-note strong{display:block;margin:11px 0 10px;color:#fff;font-size:clamp(19px,2.2vw,23px);letter-spacing:-.02em;line-height:1.4}
+  .ar-note p{margin:0;color:rgba(255,255,255,.84);line-height:1.8;word-break:keep-all}
   .ar-marking{position:relative;left:50%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;width:min(860px,calc(100vw - 32px));margin:36px 0 66px;transform:translateX(-50%)}
   .ar-marking img{display:block;width:100%;aspect-ratio:4/5;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover;object-position:center 30%}
   .ar-design{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(1.5rem,4vw,3.8rem);align-items:center;width:min(1040px,calc(100vw - 32px));margin:42px 0 58px;transform:translateX(-50%)}
