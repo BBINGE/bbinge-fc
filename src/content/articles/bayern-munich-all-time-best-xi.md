@@ -389,12 +389,14 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .gerd-invocation strong { font-size: 1.25em; }
   .gerd-question { color: #fff; -webkit-text-fill-color: #fff; }
   .beckenbauer-litany strong, .gerd-invocation strong { color: #efcc5c; background: linear-gradient(105deg, #b7861e 0%, #f1ca59 30%, #fff4bd 48%, #d8a72f 66%, #f1ca59 100%); background-size: 220% 100%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: bayern-gold-shimmer 15s cubic-bezier(.45, 0, .18, 1) infinite; }
-  .bayern-candidate-list { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; width: min(900px, calc(100vw - 32px)); margin: 1.5rem 0 4rem; padding: 0; list-style: none; transform: translateX(-50%); }
-  .bayern-candidate-list li { margin: 0; border: 1px solid rgba(140,0,31,.24); border-left: 4px solid #c9a43a; border-radius: 0 12px 12px 0; padding: 1rem 1.1rem; background: linear-gradient(135deg, rgba(140,0,31,.13), rgba(191,0,42,.045) 68%, rgba(201,164,58,.07)); box-shadow: 0 10px 26px -24px rgba(104,0,25,.62); }
+  .bayern-candidate-list { position: relative; left: 50%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: min(900px, calc(100vw - 32px)); margin: 1.5rem 0 4rem; padding: 26px; overflow: hidden; border-radius: 18px; background: linear-gradient(135deg, #2a0009 0%, #7f0020 54%, #16040b 100%); box-shadow: 0 20px 44px rgba(0,0,0,.24); list-style: none; transform: translateX(-50%); }
+  .bayern-candidate-list::before { position: absolute; z-index: 0; top: 50%; left: 50%; width: 470px; height: 520px; background: url('/images/clubs/bayern-2017.svg') no-repeat center/contain; content: ''; opacity: .09; pointer-events: none; transform: translate(-50%, -50%); }
+  .bayern-candidate-list--others::before { width: 760px; height: 840px; opacity: .06; }
+  .bayern-candidate-list li { position: relative; z-index: 1; margin: 0; border: 1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 14px 16px; background: rgba(18,3,9,.44); backdrop-filter: blur(2px); }
   .bayern-candidate-list strong, .bayern-candidate-list small { display: block; }
-  .bayern-candidate-list strong { color: #7f0020; font-size: 1.02rem; }
-  .bayern-candidate-list small { margin-top: .18rem; color: #8b5966; font-size: .77rem; line-height: 1.5; }
-  .bayern-candidate-list p { margin: .55rem 0 0; color: #51313a; font-size: .9rem; line-height: 1.65; }
+  .bayern-candidate-list strong { color: #fff; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
+  .bayern-candidate-list small { margin-top: .18rem; color: #f6c86a; font-size: .77rem; line-height: 1.5; }
+  .bayern-candidate-list p { margin: .55rem 0 0; color: rgba(255,255,255,.74); font-size: .9rem; line-height: 1.65; word-break: keep-all; }
   @keyframes bayern-gold-shimmer {
     0%, 18% { background-position: 120% 50%; }
     72%, 100% { background-position: -120% 50%; }
@@ -414,7 +416,9 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
     .beckenbauer-litany { width: calc(100vw - 32px); padding: 1.35rem 1.15rem; }
     .beckenbauer-litany p { padding-left: 1rem; font-size: .94rem; }
     .article-body .gerd-invocation { width: calc(100vw - 32px); padding: 1.6rem 1rem; }
-    .bayern-candidate-list { grid-template-columns: minmax(0, 1fr); width: calc(100vw - 32px); gap: .7rem; }
+    .bayern-candidate-list { grid-template-columns: minmax(0, 1fr); width: calc(100vw - 24px); gap: .7rem; padding: 16px; }
+    .bayern-candidate-list::before { width: 270px; height: 300px; }
+    .bayern-candidate-list--others::before { width: 300px; height: 332px; }
   }
   @media (prefers-reduced-motion: reduce) {
     .beckenbauer-litany strong, .gerd-invocation strong { animation: none; background-position: 50% 50%; }
