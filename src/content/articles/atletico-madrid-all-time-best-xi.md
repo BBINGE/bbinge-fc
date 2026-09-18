@@ -343,16 +343,16 @@ featured: false
   .atleti-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
   .atleti-final-sequence figcaption { margin: 0; padding: 1rem 1.2rem; background: #050505; color: rgba(255,255,255,.72); font-size: .85rem; text-align: center; word-break: keep-all; }
 
-  .atleti-candidate-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 1.8rem 0 0; padding: 0; list-style: none; }
-  .atleti-candidate-list li { border: 1px solid var(--bbfc-border); border-left: 3px solid #cb202d; border-radius: 12px; padding: 14px 16px; background: #fff; }
-  .atleti-candidate-list strong { display: block; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
-  .atleti-candidate-list small { display: block; margin-top: 3px; color: #a01b26; font-size: .8rem; }
-  .atleti-candidate-list p { margin: .6rem 0 0; color: var(--bbfc-gray-1); font-size: .88rem; line-height: 1.6; word-break: keep-all; }
+  .atleti-candidate-list { position: relative; left: 50%; display: grid; width: min(900px, calc(100vw - 32px)); grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 1.8rem 0 0; padding: 22px; border-radius: 18px; background: repeating-linear-gradient(90deg, rgba(255,255,255,.045) 0 22px, transparent 22px 44px), linear-gradient(135deg, #2a0a12 0%, #6d1119 52%, #141d3c 100%); box-shadow: 0 20px 44px rgba(0,0,0,.24); list-style: none; transform: translateX(-50%); }
+  .atleti-candidate-list li { border: 1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 14px 16px; background: rgba(255,255,255,.07); }
+  .atleti-candidate-list strong { display: block; color: #fff; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
+  .atleti-candidate-list small { display: block; margin-top: 3px; color: #f6c86a; font-size: .8rem; }
+  .atleti-candidate-list p { margin: .6rem 0 0; color: rgba(255,255,255,.74); font-size: .88rem; line-height: 1.6; word-break: keep-all; }
 
   @media (max-width: 860px) {
     .atleti-gateway { width: calc(100vw - 24px); margin: 2rem 0 2.6rem; }
     .atleti-gateway > div { min-height: 168px; padding: 1.8rem 1.1rem; }
-    .atleti-candidate-list { grid-template-columns: minmax(0, 1fr); }
+    .atleti-candidate-list { width: calc(100vw - 24px); grid-template-columns: minmax(0, 1fr); padding: 16px; }
   }
   @media (max-width: 640px) {
     .atleti-invocation { width: calc(100vw - 32px); padding: 1.6rem 1rem; }
