@@ -296,16 +296,18 @@ featured: false
   .athletic-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
   .athletic-final-sequence figcaption { margin: 0; padding: 1rem 1.2rem; background: #050505; color: rgba(255,255,255,.72); font-size: .85rem; text-align: center; word-break: keep-all; }
 
-  .athletic-candidate-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 1.8rem 0 0; padding: 0; list-style: none; }
-  .athletic-candidate-list li { border: 1px solid var(--bbfc-border); border-left: 3px solid #e8332a; border-radius: 12px; padding: 14px 16px; background: #fff; }
-  .athletic-candidate-list strong { display: block; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
-  .athletic-candidate-list small { display: block; margin-top: 3px; color: #b0242c; font-size: .8rem; }
-  .athletic-candidate-list p { margin: .6rem 0 0; color: var(--bbfc-gray-1); font-size: .88rem; line-height: 1.6; word-break: keep-all; }
+  .athletic-candidate-list { position: relative; left: 50%; display: grid; width: min(900px, calc(100vw - 32px)); grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 1.8rem 0 0; padding: 26px; overflow: hidden; border-radius: 18px; background: linear-gradient(135deg, #12060a 0%, #6e0f18 54%, #1a0509 100%); box-shadow: 0 20px 44px rgba(0,0,0,.24); list-style: none; transform: translateX(-50%); }
+  .athletic-candidate-list::before { position: absolute; z-index: 0; top: 50%; left: 50%; width: 460px; height: 520px; background: url('/images/clubs/athletic-club.svg') no-repeat center/contain; content: ''; opacity: .09; pointer-events: none; transform: translate(-50%, -50%); }
+  .athletic-candidate-list li { position: relative; z-index: 1; border: 1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 14px 16px; background: rgba(14,4,7,.44); backdrop-filter: blur(2px); }
+  .athletic-candidate-list strong { display: block; color: #fff; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
+  .athletic-candidate-list small { display: block; margin-top: 3px; color: #f6c86a; font-size: .8rem; }
+  .athletic-candidate-list p { margin: .6rem 0 0; color: rgba(255,255,255,.74); font-size: .88rem; line-height: 1.6; word-break: keep-all; }
 
   @media (max-width: 860px) {
     .athletic-gateway { width: calc(100vw - 24px); margin: 2rem 0 2.6rem; }
     .athletic-gateway > div { min-height: 168px; padding: 1.8rem 1.1rem; }
-    .athletic-candidate-list { grid-template-columns: minmax(0, 1fr); }
+    .athletic-candidate-list { width: calc(100vw - 24px); grid-template-columns: minmax(0, 1fr); padding: 16px; }
+    .athletic-candidate-list::before { width: 265px; height: 300px; }
   }
   @media (max-width: 640px) {
     .athletic-invocation { width: calc(100vw - 32px); padding: 1.6rem 1rem; }
