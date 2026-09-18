@@ -230,10 +230,10 @@ featured: false
   .th-cast figcaption b{color:#2b3a7e;font-size:11px;letter-spacing:.08em}
   .th-cast figcaption span{margin-top:6px}
   .th-cast>.th-credit,.th-night>.th-credit,.th-allure>.th-credit{grid-column:1/-1;text-align:right}
-  .th-note{margin:36px 0 56px;padding:24px 28px;border-left:4px solid #2b3a7e;border-radius:0 var(--bbfc-radius-md) var(--bbfc-radius-md) 0;background:linear-gradient(100deg,#eef0fa,#f8f9fe)}
-  .th-note>span{color:#2b3a7e;font-size:11px;font-weight:850;letter-spacing:.15em}
-  .th-note strong{display:block;margin:7px 0 9px;font-size:19px}
-  .th-note p{margin:0;color:#2f3a4d}
+  .th-note{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:46px 0 62px;padding:28px 32px 30px;overflow:hidden;border:0;border-radius:18px;background:linear-gradient(135deg,#0b1436 0%,#132257 46%,#2b3a7e 100%);box-shadow:0 20px 44px rgba(0,0,0,.26);color:#fff;transform:translateX(-50%)}.th-note::before{position:absolute;z-index:0;right:-56px;bottom:-64px;width:260px;height:260px;background:url('/images/popup/rivalries/crests/tottenham-eng.webp') no-repeat center/contain;content:'';opacity:.14;pointer-events:none}.th-note>*{position:relative;z-index:1}@media(max-width:860px){.th-note{width:calc(100vw - 24px);margin:34px 0 46px;padding:22px 20px 24px}.th-note::before{width:180px;height:180px;right:-40px;bottom:-46px}}
+  .th-note>span{display:inline-flex;align-items:center;gap:7px;color:#c9d2f0;font-size:11.5px;font-weight:850;letter-spacing:.15em}.th-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c9d2f0' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.2' y='5' width='17.6' height='15.6' rx='2.2'/%3E%3Cpath d='M3.2 10.2h17.6M8 3v4M16 3v4'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .th-note strong{display:block;margin:11px 0 10px;color:#fff;font-size:clamp(19px,2.2vw,23px);letter-spacing:-.02em;line-height:1.4}
+  .th-note p{margin:0;color:rgba(255,255,255,.84);line-height:1.8;word-break:keep-all}
   .th-design{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(1.5rem,4vw,3.8rem);align-items:center;width:min(1040px,calc(100vw - 32px));margin:42px 0 58px;transform:translateX(-50%)}
   .th-design figure{margin:0}
   .th-design img{display:block;width:100%;aspect-ratio:1/1;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover}

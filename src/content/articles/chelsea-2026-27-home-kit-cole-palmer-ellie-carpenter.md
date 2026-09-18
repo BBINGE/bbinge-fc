@@ -212,12 +212,12 @@ featured: false
   .ch-duo figcaption b,.ch-squad figcaption b{color:#1532a8;font-size:11px;letter-spacing:.08em}
   .ch-duo figcaption span,.ch-squad figcaption span{margin-top:6px}
   .ch-duo>.ch-credit,.ch-squad>.ch-credit,.ch-allure>.ch-credit{grid-column:1/-1;text-align:right}
-  .ch-note{margin:36px 0 56px;padding:24px 28px;border-left:4px solid #d9ad3c;border-radius:0 var(--bbfc-radius-md) var(--bbfc-radius-md) 0;background:linear-gradient(100deg,#f2f5ff,#fff8e6)}
-  .ch-note>span{color:#1532a8;font-size:11px;font-weight:850;letter-spacing:.15em}
-  .ch-note strong{display:block;margin:7px 0 9px;font-size:19px}
-  .ch-note p{margin:0;color:#343a4d}
+  .ch-note{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:46px 0 62px;padding:28px 32px 30px;overflow:hidden;border:0;border-radius:18px;background:linear-gradient(135deg,#021f47 0%,#034694 46%,#0a1c3a 100%);box-shadow:0 20px 44px rgba(0,0,0,.26);color:#fff;transform:translateX(-50%)}.ch-note::before{position:absolute;z-index:0;right:-56px;bottom:-64px;width:260px;height:260px;background:url('/images/popup/rivalries/crests/chelsea-eng.webp') no-repeat center/contain;content:'';opacity:.14;pointer-events:none}.ch-note>*{position:relative;z-index:1}@media(max-width:860px){.ch-note{width:calc(100vw - 24px);margin:34px 0 46px;padding:22px 20px 24px}.ch-note::before{width:180px;height:180px;right:-40px;bottom:-46px}}
+  .ch-note>span{display:inline-flex;align-items:center;gap:7px;color:#d9ad3c;font-size:11.5px;font-weight:850;letter-spacing:.15em}.ch-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d9ad3c' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3 20 6v6c0 4.4-3.3 7.9-8 9-4.7-1.1-8-4.6-8-9V6l8-3Z'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .ch-note strong{display:block;margin:11px 0 10px;color:#fff;font-size:clamp(19px,2.2vw,23px);letter-spacing:-.02em;line-height:1.4}
+  .ch-note p{margin:0;color:rgba(255,255,255,.84);line-height:1.8;word-break:keep-all}
   .ch-note__icons{display:inline-flex;gap:5px;margin-left:8px;vertical-align:-7px;white-space:nowrap}
-  .article-body .ch-note__icons img{display:block;width:28px;height:28px;margin:0;border-radius:50%;filter:drop-shadow(0 1px 2px rgba(20,32,80,.18))}
+  .article-body .ch-note__icons img{display:block;box-sizing:border-box;width:28px;height:28px;margin:0;padding:2px;border-radius:50%;background:rgba(255,255,255,.95);filter:drop-shadow(0 2px 5px rgba(0,0,0,.45))}
   .ch-design{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(1.5rem,4vw,3.8rem);align-items:center;width:min(1040px,calc(100vw - 32px));margin:42px 0 58px;transform:translateX(-50%)}
   .ch-design figure{margin:0}
   .ch-design img{display:block;width:100%;aspect-ratio:1/1;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover}

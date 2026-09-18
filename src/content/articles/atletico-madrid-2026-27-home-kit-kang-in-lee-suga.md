@@ -190,10 +190,10 @@ fashionProfile:
   .ak-index b,.ak-kicker { display:block; color:#78b7ff; font-size:11px; font-weight:750; letter-spacing:.14em; }
   .ak-index strong { display:block; margin:11px 0 9px; font-size:20px; line-height:1.35; }
   .ak-index span { color:rgba(255,255,255,.72); font-size:13px; line-height:1.7; }
-  .ak-note { margin:34px 0 60px; padding:24px 28px; border-left:4px solid #d71920; border-radius:0 var(--bbfc-radius-md) var(--bbfc-radius-md) 0; background:#f3f5f8; }
-  .ak-note>span { color:#c71524; font-size:11px; font-weight:800; letter-spacing:.15em; }
-  .ak-note strong { display:block; margin:7px 0 9px; font-size:19px; }
-  .ak-note p { margin:0; color:#3f4652; }
+  .ak-note{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:46px 0 62px;padding:28px 32px 30px;overflow:hidden;border:0;border-radius:18px;background:linear-gradient(135deg,#8d0f14 0%,#d71920 46%,#122446 100%);box-shadow:0 20px 44px rgba(0,0,0,.26);color:#fff;transform:translateX(-50%)}.ak-note::before{position:absolute;z-index:0;right:-56px;bottom:-64px;width:260px;height:260px;background:url('/images/popup/rivalries/crests/atleti-esp.webp') no-repeat center/contain;content:'';opacity:.14;pointer-events:none}.ak-note>*{position:relative;z-index:1}@media(max-width:860px){.ak-note{width:calc(100vw - 24px);margin:34px 0 46px;padding:22px 20px 24px}.ak-note::before{width:180px;height:180px;right:-40px;bottom:-46px}}
+  .ak-note>span{display:inline-flex;align-items:center;gap:7px;color:#f2d17c;font-size:11.5px;font-weight:850;letter-spacing:.15em}.ak-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f2d17c' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 7.6a2.3 2.3 0 1 1 2.3-2.3'/%3E%3Cpath d='M12 7.6v2.1L3.7 16.3c-1 .8-.5 2.5.8 2.5h15c1.3 0 1.8-1.7.8-2.5L12 9.7'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .ak-note strong{display:block;margin:11px 0 10px;color:#fff;font-size:clamp(19px,2.2vw,23px);letter-spacing:-.02em;line-height:1.4}
+  .ak-note p{margin:0;color:rgba(255,255,255,.84);line-height:1.8;word-break:keep-all}
   .ak-wide { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; transform:translateX(-50%); }
   .ak-wide img,.ak-look-grid img,.ak-kangin-grid img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .ak-wide--goal img { aspect-ratio:16/9; object-fit:cover; }

@@ -252,10 +252,10 @@ featured: false
   .lv-cast figcaption b{color:#c8102e;font-size:11px;letter-spacing:.08em}
   .lv-cast figcaption span{margin-top:6px}
   .lv-cast>.lv-credit,.lv-night>.lv-credit,.lv-allure>.lv-credit{grid-column:1/-1;text-align:right}
-  .lv-note{margin:36px 0 56px;padding:24px 28px;border-left:4px solid #c8102e;border-radius:0 var(--bbfc-radius-md) var(--bbfc-radius-md) 0;background:linear-gradient(100deg,#fbf1f2,#fff9e8)}
-  .lv-note>span{color:#c8102e;font-size:11px;font-weight:850;letter-spacing:.15em}
-  .lv-note strong{display:block;margin:7px 0 9px;font-size:19px}
-  .lv-note p{margin:0;color:#3d3335}
+  .lv-note{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:46px 0 62px;padding:28px 32px 30px;overflow:hidden;border:0;border-radius:18px;background:linear-gradient(135deg,#5e0512 0%,#c8102e 46%,#2a0207 100%);box-shadow:0 20px 44px rgba(0,0,0,.26);color:#fff;transform:translateX(-50%)}.lv-note::before{position:absolute;z-index:0;right:-56px;bottom:-64px;width:260px;height:260px;background:url('/images/popup/rivalries/crests/liverpool-eng.webp') no-repeat center/contain;content:'';opacity:.14;pointer-events:none}.lv-note>*{position:relative;z-index:1}@media(max-width:860px){.lv-note{width:calc(100vw - 24px);margin:34px 0 46px;padding:22px 20px 24px}.lv-note::before{width:180px;height:180px;right:-40px;bottom:-46px}}
+  .lv-note>span{display:inline-flex;align-items:center;gap:7px;color:#f5d97a;font-size:11.5px;font-weight:850;letter-spacing:.15em}.lv-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f5d97a' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8.5 3 5 4.6 3 8.4l3 1.7V21h12V10.1l3-1.7-2-3.8L15.5 3a3.5 3.5 0 0 1-7 0Z'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .lv-note strong{display:block;margin:11px 0 10px;color:#fff;font-size:clamp(19px,2.2vw,23px);letter-spacing:-.02em;line-height:1.4}
+  .lv-note p{margin:0;color:rgba(255,255,255,.84);line-height:1.8;word-break:keep-all}
   .lv-design{position:relative;left:50%;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(1.5rem,4vw,3.8rem);align-items:center;width:min(1040px,calc(100vw - 32px));margin:42px 0 58px;transform:translateX(-50%)}
   .lv-design figure{margin:0}
   .lv-design video{display:block;width:100%;aspect-ratio:780/1024;border-radius:var(--bbfc-radius-lg);background:#3a0710;object-fit:cover}
