@@ -348,11 +348,11 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
   .barca-league p { color: #e8332a; }
   .barca-league small { color: #6b7280; }
   .barca-club { background: linear-gradient(135deg, #004d98 0 50%, #a50044 50%); }
-  .barca-club img { display: block; width: min(132px, 38%); height: auto; padding: 14px 18px; border-radius: 14px; background: rgba(255,255,255,.94); object-fit: contain; box-shadow: 0 14px 28px rgba(0,0,0,.34); }
+  .barca-club img { display: block; width: min(150px, 42%); height: auto; object-fit: contain; filter: drop-shadow(0 14px 22px rgba(0,0,0,.55)); }
   .gateway-line { position: relative; z-index: 2; display: block; width: 1px; height: 44px; margin: -22px auto; background: linear-gradient(#004d98, #edbb00, #a50044); }
 
   .barca-era { display: flex; flex-direction: column; align-items: center; gap: 5px; margin: 2.6rem 0; border: 1px solid rgba(237,187,0,.34); border-radius: 16px; padding: 1.15rem 1.4rem 1.25rem; background: linear-gradient(135deg, #04244a, #4a0322 58%, #06101f); color: #fff; text-align: center; }
-  .barca-era img { width: 52px; height: 53px; padding: 5px 7px; border-radius: 9px; background: rgba(255,255,255,.94); }
+  .barca-era img { width: 54px; height: 55px; filter: drop-shadow(0 6px 12px rgba(0,0,0,.5)); }
   .barca-era span { color: #edbb00; font-size: .78rem; font-weight: 800; letter-spacing: .16em; }
   .barca-era strong { margin: .1rem 0; font-size: 1.75rem; font-weight: 850; letter-spacing: -.03em; line-height: 1.1; }
   .barca-era p { margin: 0; color: rgba(255,255,255,.72); font-size: .94rem; }
