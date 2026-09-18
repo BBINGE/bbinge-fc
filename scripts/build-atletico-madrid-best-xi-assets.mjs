@@ -44,16 +44,16 @@ const map = {
 };
 
 // 영상은 재인코딩하지 않고 그대로 옮긴다. 이름은 확인한 장면만 내용으로 적고,
-// 첫 프레임만으로 장면을 특정할 수 없는 것은 번호를 유지한다.
+// 네이버 원문의 video 등장 순서와 같다(2026-09-18 운영자 화면으로 확인).
 const clips = {
   '1.mp4': 'suarez-title-tears.mp4',
   '2.mp4': 'campeones-metropolitano.mp4',
   '3.mp4': 'herrera-farewell.mp4',
   '4.mp4': 'gracias-luis.mp4',
-  '5.mp4': 'griezmann-clip-1.mp4',
-  '6.mp4': 'griezmann-clip-2.mp4',
-  '7.mp4': 'griezmann-clip-3.mp4',
-  '8.mp4': 'griezmann-clip-4.mp4',
+  '5.mp4': 'griezmann-smile.mp4',
+  '6.mp4': 'griezmann-celebration-blue.mp4',
+  '7.mp4': 'griezmann-carrasco-koke.mp4',
+  '8.mp4': 'griezmann-match-wide.mp4',
 };
 
 const sizes = {};
