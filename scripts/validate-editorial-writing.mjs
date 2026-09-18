@@ -295,7 +295,10 @@ function validateSource(source, relative = 'fixture.md') {
 
   // 네이버 원문 주소는 frontmatter의 priorPublication에만 둔다(HANDOFF 2026-09-09·2026-09-11 확정).
   // 공개 본문과 참고 자료에 링크로 넣지 않는다. 검색엔진이 원문을 대표 주소로 잡지 않게 하려는 결정이다.
-  for (const match of body.matchAll(/<a[^>]+href="https:\/\/blog\.naver\.com[^"]*"|\]\(https:\/\/blog\.naver\.com[^)]*\)/g)) {
+  // 예외: 운영자가 제작한 네이버 클립(/clip/)은 같은 글의 중복본이 아니라 별도 영상 자산이므로
+  // 본문에 둘 수 있다(운영자 지시, 2026-09-18). m. 서브도메인도 함께 잡아 검사에 빈틈을 남기지 않는다.
+  for (const match of body.matchAll(/<a[^>]+href="https:\/\/(?:m\.)?blog\.naver\.com[^"]*"|\]\(https:\/\/(?:m\.)?blog\.naver\.com[^)]*\)/g)) {
+    if (match[0].includes('/clip/')) continue;
     issues.push({
       code: 'NAVER-LINK-FRONTMATTER-ONLY',
       message: '네이버 원문 링크는 공개 본문·참고 자료에 넣지 않습니다. frontmatter의 priorPublication에만 둡니다.',
