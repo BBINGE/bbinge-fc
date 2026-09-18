@@ -327,7 +327,7 @@ featured: false
   .atleti-player-art img { display: block; width: 100%; height: auto; border-radius: 14px; }
   .atleti-player-art figcaption { margin-top: .7rem; color: var(--bbfc-gray-1); font-size: .85rem; text-align: center; }
 
-  .atleti-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 4px solid #f0b429; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #10060a, #4a0a14); color: #fff; font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
+  .atleti-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-radius: 16px; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #10060a, #4a0a14); color: #fff; font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
   .atleti-invocation strong { display: block; color: #f6d27a; font-size: 1.2em; }
   .atleti-invocation-sub { display: block; margin-top: .6rem; color: rgba(255,255,255,.78); font-size: .78em; }
 

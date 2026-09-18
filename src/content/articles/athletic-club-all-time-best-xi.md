@@ -279,7 +279,7 @@ featured: false
   .athletic-player-art--portrait { max-width: 250px; }
   .athletic-player-art figcaption { margin-top: .7rem; color: var(--bbfc-gray-1); font-size: .85rem; text-align: center; }
 
-  .athletic-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 4px solid #f0b429; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #12060a, #4a0a12); color: #fff; font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
+  .athletic-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-left: 0 !important; border-radius: 16px; padding: 2.1rem 2.3rem; background: linear-gradient(135deg, #12060a, #4a0a12); color: #fff; font-size: clamp(1.15rem, 2.3vw, 1.55rem); line-height: 1.8; text-align: center; transform: translateX(-50%); }
   .athletic-invocation strong { display: block; color: #f6d27a; font-size: 1.25em; }
   .athletic-question { color: rgba(255,255,255,.76); }
 
