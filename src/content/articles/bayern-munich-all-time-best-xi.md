@@ -367,7 +367,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   .bayern-gateway-club { background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.12), transparent 35%), linear-gradient(145deg, #ed0039, #b80025 58%, #850019); }
   .bayern-gateway-club img { width: 150px; height: 150px; filter: drop-shadow(0 10px 16px rgba(0,0,0,.3)); }
   .bayern-era { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); max-width: none; margin: 4rem 0; overflow: hidden; border: 1px solid rgba(222,182,62,.58); border-radius: 22px; padding: 3.4rem 1.5rem 3rem; background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 18px, transparent 18px 36px), radial-gradient(circle at 50% 0, #7d001b, transparent 48%), linear-gradient(145deg, #160008, #35000e 62%, #100006); color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(81,0,13,.2); transform: translateX(-50%); }
-  .bayern-era img { position: absolute; right: -34px; bottom: -44px; width: 190px; height: 190px; opacity: .12; filter: grayscale(1); }
+  .bayern-era img { position: absolute; right: 24px; bottom: 22px; width: 150px; height: 150px; opacity: .12; filter: grayscale(1); }
   .bayern-era span { position: relative; display: block; color: #e6c765; font-size: .7rem; font-weight: 800; letter-spacing: .22em; }
   .bayern-era strong { position: relative; display: block; margin: .6rem 0 .55rem; color: #fff; font-size: clamp(3.1rem, 9vw, 5.8rem); font-weight: 300; letter-spacing: -.075em; line-height: 1; text-shadow: 0 3px 22px rgba(0,0,0,.5); }
   .bayern-era p { position: relative; margin: 0; color: rgba(255,255,255,.76); font-size: .9rem; }
@@ -408,6 +408,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
     .bayern-gateway > div { min-height: 180px; padding: 2rem 1rem; }
     .germany-flag { height: 110px; }
     .bayern-era { width: calc(100vw - 32px); margin-top: 3rem; margin-bottom: 3rem; border-radius: 14px; padding: 2.7rem 1rem 2.5rem; }
+    .bayern-era img { right: 14px; bottom: 14px; width: 104px; height: 104px; }
     .article-body h2:has(+ .bayern-player-art) { margin-top: 7rem; margin-bottom: 1.65rem; }
     .bayern-player-art, .custom-xi-gallery { width: calc(100vw - 32px); }
     .bayern-player-art { margin-bottom: 2.8rem; }
