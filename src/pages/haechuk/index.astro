@@ -256,8 +256,9 @@ const leaderMeta = (row: Leader) => [row.nationality, row.age ? `${row.age}세` 
   .hc-table .p { color:#fff; font-size:15px; font-weight:900; }
   .hc-table tr.is-top td,.hc-table tr.is-top th { background:rgba(47,111,228,.16); }
   .hc-table tr.is-top th { font-size:15px; font-weight:900; }
-  .hc-table tr[class*='z-'] .r::before { content:''; position:absolute; left:0; top:6px; bottom:6px; width:3px; border-radius:2px; background:var(--zone,transparent); }
-  .hc-table tr.z-out .r::before { display:none; }
+  /* 진출권 구간은 막대가 아니라 칸 자체를 옅게 물들여 표시한다(운영자 지시, 2026-09-18). */
+  .hc-table tr[class*='z-'] .r { background:color-mix(in srgb, var(--zone,transparent) 30%, transparent); }
+  .hc-table tr.z-out .r { background:none; }
   .hc-table tr.is-extra,.hc-leaders li.is-extra { display:none; }
   .hc-table[data-more-wrap].is-open tr.is-extra { display:table-row; }
   .hc-leaders[data-more-wrap].is-open li.is-extra { display:grid; }

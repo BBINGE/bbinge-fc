@@ -175,7 +175,6 @@ fashionProfile:
   .fashion-style-notes section::before { content:''; position:absolute; z-index:-2; width:178px; height:178px; right:12px; top:50%; translate:0 -50%; background:url('/images/culture/jennie-manchester-united-teamgeist/manchester-united-crest.webp') center/contain no-repeat; opacity:.1; }
   .fashion-style-notes section::after { content:''; position:absolute; z-index:-1; inset:0; background:linear-gradient(112deg,rgba(8,10,13,.99) 0%,rgba(8,10,13,.91) 57%,rgba(8,10,13,.58) 100%); }
   .fashion-style-notes strong { display:block; max-width:210px; color:#fff; font-size:13px; line-height:1.55; letter-spacing:.045em; }
-  .fashion-style-notes strong::before { content:''; display:block; width:28px; height:2px; margin-bottom:17px; background:var(--bbfc-blue); }
   .fashion-style-notes p { max-width:230px; margin:17px 0 0; color:#d7dce4; font-size:13.5px; line-height:1.85; }
   .fashion-related-cta { margin:58px 0 54px; overflow:hidden; border:1px solid #222a35; border-radius:var(--bbfc-radius-lg); background:#080a0d; box-shadow:0 24px 48px -38px rgba(0,0,0,.95); }
   .fashion-related-cta a { display:grid; grid-template-columns:minmax(260px,.86fr) minmax(0,1.14fr); min-height:370px; color:inherit; text-decoration:none; }
