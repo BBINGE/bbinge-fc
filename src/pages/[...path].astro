@@ -922,12 +922,22 @@ if (props.kind === 'category') {
   .article-body :global(a) {
     color: var(--bbfc-blue);
   }
+  /* 인용은 막대 없이 여백과 글자색으로 구분한다(운영자 확정, 2026-09-18).
+     원문 다음 줄에 번역, 그 아래 출처 한 줄이 오는 네이버 블로그 형식을 따른다. */
   .article-body :global(blockquote) {
-    border-left: 3px solid var(--bbfc-blue);
-    padding-left: 14px;
-    margin: 20px 0;
-    color: var(--bbfc-ink-2);
+    margin: 34px 0;
+    padding: 0;
+    border: 0;
+    color: var(--bbfc-ink);
+    font-size: 1.05em;
+    line-height: 1.85;
+    letter-spacing: -.01em;
   }
+  .article-body :global(blockquote > p) { margin: 0 0 6px; }
+  .article-body :global(blockquote > p:last-of-type) { margin-bottom: 0; }
+  .article-body :global(blockquote > p + p) { color: var(--bbfc-gray-1); font-size: .92em; }
+  .article-body :global(blockquote cite) { display: block; margin-top: 12px; color: var(--bbfc-gray-1); font-size: .84em; font-style: normal; }
+  .article-body :global(blockquote cite::before) { margin-right: 6px; content: '\2014'; }
   .article-body :global(strong) { font-weight: 680; }
   .article-body :global(figure) { margin: 48px 0; }
   .fashion-article .article-body > :global(figure) { margin-left: auto; margin-right: auto; }

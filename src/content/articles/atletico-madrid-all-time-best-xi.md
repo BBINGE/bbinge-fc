@@ -331,7 +331,7 @@ featured: false
   .atleti-invocation strong { display: block; color: #f6d27a; font-size: 1.2em; }
   .atleti-invocation-sub { display: block; margin-top: .6rem; color: rgba(255,255,255,.78); font-size: .78em; }
 
-  .atleti-quote { margin: 2.2rem 0; border: 0; border-left: 3px solid #cb202d; padding: 1.1rem 1.4rem; background: var(--bbfc-gray-5, #f6f7f8); }
+  .atleti-quote { margin: 2.6rem 0; border: 0; padding: 0; background: none; }
   .atleti-quote p { margin: 0; font-size: 1.05rem; font-weight: 600; line-height: 1.7; word-break: keep-all; }
   .atleti-quote cite { display: block; margin-top: .6rem; color: var(--bbfc-gray-1); font-size: .85rem; font-style: normal; }
 
