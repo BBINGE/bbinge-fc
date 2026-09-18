@@ -203,7 +203,7 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
   .editorial-photo figcaption { margin-top:10px; color:var(--bbfc-gray-2); font-size:12px; line-height:1.65; }
   .city-parade img { aspect-ratio: 16/9; object-fit: cover; }
   .movement-ledger { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:38px 0 46px; }
-  .movement-ledger article { position:relative; overflow:hidden; min-height:165px; padding:20px 18px; border-top:2px solid #a7d8ff; background:linear-gradient(145deg,#09233b,#071522); color:white; }
+  .movement-ledger article { position:relative; overflow:hidden; min-height:165px; padding:20px 18px; background:linear-gradient(145deg,#09233b,#071522); color:white; }
   .movement-ledger article::after { position:absolute; right:-23px; bottom:-38px; width:100px; height:100px; border:1px solid rgba(123,200,255,.18); border-radius:50%; content:''; }
   .movement-ledger span { color:#86ccff; font-size:11px; }
   .movement-ledger strong { display:block; margin-top:10px; font-size:24px; }

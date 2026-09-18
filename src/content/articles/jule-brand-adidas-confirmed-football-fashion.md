@@ -178,7 +178,7 @@ adidas의 삼선은 이 화보에서 옷을 조립하는 선으로 움직인다.
   .brand-opening-grid img, .brand-night-grid img, .brand-full-look img, .brand-detail-focus img { display: block; width: 100%; height: auto; margin: 0; border-radius: var(--bbfc-radius-lg); }
   .brand-full-look { width: min(620px, 100%); margin: 42px auto 58px; }
   .brand-detail-focus { width: min(560px, 100%); margin: 42px auto 58px; }
-  .brand-material-map, .brand-style-notes { position: relative; left: 50%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: min(1040px, calc(100vw - 32px)); margin: 42px 0 58px; border: 1px solid #d8dee8; border-top: 3px solid var(--bbfc-blue); border-radius: var(--bbfc-radius-lg); background: #f7f9fc; transform: translateX(-50%); overflow: hidden; }
+  .brand-material-map, .brand-style-notes { position: relative; left: 50%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: min(1040px, calc(100vw - 32px)); margin: 42px 0 58px; border: 1px solid #d8dee8; border-radius: var(--bbfc-radius-lg); background: #f7f9fc; transform: translateX(-50%); overflow: hidden; }
   .brand-material-map article, .brand-style-notes article { margin: 0; padding: 27px 24px 29px; }
   .brand-material-map article + article, .brand-style-notes article + article { border-left: 1px solid #d8dee8; }
   .brand-material-map span, .brand-style-notes span { color: var(--bbfc-blue); font-size: 10px; font-weight: 800; letter-spacing: .13em; }

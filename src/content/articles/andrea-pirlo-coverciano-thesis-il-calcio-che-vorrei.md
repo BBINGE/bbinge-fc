@@ -425,7 +425,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-scope dt{font-size:12px;font-weight:800;color:#73cbff}main .article-body .pt-scope dd{margin:6px 0 0;font-size:13px;line-height:1.65;color:rgba(255,255,255,.8)}
   main .article-body .pt-map{margin:40px 0 60px;padding:27px;border:1px solid #2b3d4d;border-radius:17px;background:linear-gradient(145deg,#0b1722,#132434);color:#fff}
   main .article-body .pt-map ol{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:20px 0 0;padding:0;list-style:none}
-  main .article-body .pt-map li{padding:15px 13px;border-top:2px solid #1f8fe0;background:rgba(255,255,255,.04);border-radius:0 0 10px 10px}
+  main .article-body .pt-map li{padding:15px 13px;background:rgba(255,255,255,.04);border-radius:0 0 10px 10px}
   main .article-body .pt-map li b{font-size:13px;color:#fff}main .article-body .pt-map li p{margin:7px 0 0;font-size:12px;line-height:1.6;color:rgba(255,255,255,.72)}
   main .article-body .pt-titles,main .article-body .pt-photo,main .article-body .pt-excerpt{margin:40px 0 58px}
   main .article-body .pt-titles__pair{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;padding:18px;border:1px solid #2b3d4d;border-radius:17px;background:#0b1722}
@@ -434,7 +434,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-titles__pair img{display:block;width:100%;height:auto;border-radius:10px;background:#fff}
   main .article-body .pt-titles__pair p{margin:0;font-size:12px;line-height:1.6;color:rgba(255,255,255,.72)}
   main .article-body .pt-photo img{display:block;width:100%;height:auto;border:1px solid var(--bbfc-border);border-radius:17px}
-  main .article-body .pt-excerpt img{display:block;width:100%;height:auto;padding:12px 14px;border:1px solid #cdd8e2;border-left:4px solid #1f8fe0;border-radius:12px;background:#fff;box-sizing:border-box}
+  main .article-body .pt-excerpt img{display:block;width:100%;height:auto;padding:12px 14px;border:1px solid #cdd8e2;border-radius:12px;background:#fff;box-sizing:border-box}
   main .article-body .pt-titles figcaption,main .article-body .pt-photo figcaption,main .article-body .pt-excerpt figcaption{margin-top:10px;color:var(--bbfc-gray-2);font-size:12px;line-height:1.65;text-align:left}
   main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight{margin:41px 0 60px;overflow:hidden;border:1px solid #2b3d4d;border-radius:17px;background:#0b1722;color:#fff}
   main .article-body .pt-timeline header,main .article-body .pt-legs header,main .article-body .pt-pitch header,main .article-body .pt-ledger header,main .article-body .pt-verdicts header,main .article-body .pt-calendar header,main .article-body .pt-mirror header,main .article-body .pt-table header,main .article-body .pt-clubs header,main .article-body .pt-hypotheses header,main .article-body .pt-classmates header,main .article-body .pt-paths header,main .article-body .pt-weight header{padding:25px 27px 20px;border-bottom:1px solid rgba(255,255,255,.12)}

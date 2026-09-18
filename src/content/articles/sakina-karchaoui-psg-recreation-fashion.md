@@ -154,7 +154,7 @@ fashionProfile:
   .sakina-opening-grid figure, .sakina-object-grid figure, .sakina-instagram-grid figure { margin:0; }
   .sakina-opening-grid img, .sakina-object-grid img, .sakina-feature-look img { display:block; width:100%; height:auto; margin:0; border-radius:var(--bbfc-radius-lg); }
   .sakina-feature-look { width:min(650px,100%); margin:44px auto 58px; }
-  .sakina-material-map, .sakina-style-notes { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; border:1px solid #272d35; border-top:3px solid var(--bbfc-blue); border-radius:var(--bbfc-radius-lg); background:#11151b; transform:translateX(-50%); overflow:hidden; }
+  .sakina-material-map, .sakina-style-notes { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; border:1px solid #272d35; border-radius:var(--bbfc-radius-lg); background:#11151b; transform:translateX(-50%); overflow:hidden; }
   .sakina-material-map article, .sakina-style-notes article { margin:0; padding:27px 24px 29px; }
   .sakina-material-map article + article, .sakina-style-notes article + article { border-left:1px solid #303741; }
   .sakina-material-map span, .sakina-style-notes span { color:#6fa8ff; font-size:10px; font-weight:800; letter-spacing:.13em; }

@@ -146,7 +146,7 @@ draft: false
 </section>
 
 <style>
-  .cardnews-intro { margin: 42px 0 48px; padding: 22px 24px; border-top: 2px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
+  .cardnews-intro { margin: 42px 0 48px; padding: 22px 24px; background: var(--bbfc-fill-2); }
   .cardnews-intro span { font-size:12px; font-weight: 750; letter-spacing: .15em; color: var(--bbfc-blue); }
   .cardnews-intro p { margin-top: 9px !important; font-size: 15px; line-height: 1.65; color: var(--bbfc-ink-2); }
   .cardnews-stack { display: grid; gap: 64px; max-width: 773px; margin: 0 auto; }
@@ -158,7 +158,7 @@ draft: false
   .cardnews-stack img { width: 100% !important; height: auto !important; aspect-ratio: 1 / 1; object-fit: contain !important; border-radius: 2px !important; background: #eee; box-shadow: 0 18px 44px -34px rgba(25,31,40,.5); }
   .cardnews-stack figcaption { display: flex; align-items: baseline; gap: 12px; margin-top: 13px !important; padding: 0 2px; text-align: left !important; }
   .cardnews-stack figcaption strong { font-family: Georgia, serif; font-size: 12px; color: var(--bbfc-blue); }
-  .cardnews-note { margin: 70px 0 32px; padding: 24px 26px; border-left: 3px solid var(--bbfc-blue); background: var(--bbfc-fill-2); }
+  .cardnews-note { margin: 70px 0 32px; padding: 24px 26px; background: var(--bbfc-fill-2); }
   .cardnews-note strong { font-size: 13px; color: var(--bbfc-ink); }
   .cardnews-note p { margin-top: 9px !important; font-size: 13px; line-height: 1.75; color: var(--bbfc-gray-1); }
   .deep-read-link { display: grid; grid-template-columns: minmax(0, 1fr) 224px; align-items: center; gap: 34px; margin: 42px 0 64px; padding: 28px 30px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff 58%, rgba(36,107,253,.04)); transition: border-color .25s ease, background-color .25s ease; }

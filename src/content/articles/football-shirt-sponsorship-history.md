@@ -784,7 +784,6 @@ featured: false
   .article-body .shirt-shelf__reading p {
     margin: 0;
     padding: 0.85rem;
-    border-left: 3px solid #1765bd;
     background: #fff;
   }
 

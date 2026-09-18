@@ -213,7 +213,7 @@ fashionProfile:
   .jh-video__media iframe{display:block;width:100%;height:100%;border:0;background:#080304}
   .jh-video__media .inline-video__close{position:absolute;z-index:2;top:10px;right:10px;display:grid;width:38px;height:38px;padding:0;place-items:center;border:1px solid rgba(255,255,255,.5);border-radius:50%;cursor:pointer;background:rgba(10,3,4,.84);color:#fff;font-size:24px;line-height:1}
   .jh-recipe{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:38px 0 60px}
-  .jh-recipe article{padding:24px 21px 25px;border-top:3px solid #b51a22;background:var(--bbfc-fill-2)}
+  .jh-recipe article{padding:24px 21px 25px;background:var(--bbfc-fill-2)}
   .jh-recipe article>span{color:#b51a22;font-size:11px;font-weight:850;letter-spacing:.1em}
   .article-body .jh-recipe h3{margin:14px 0 0;color:var(--bbfc-ink);font-size:17px;line-height:1.45}
   .jh-recipe p{margin:11px 0 0!important;color:var(--bbfc-gray-1);font-size:12px;line-height:1.72}

@@ -175,7 +175,7 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
   .russo-lookbook strong, .russo-lookbook span { display: block; }
   .russo-lookbook strong { margin-bottom: 6px; color: var(--bbfc-blue); font-size: 11px; letter-spacing: .11em; }
   .russo-lookbook span { color: var(--bbfc-muted); font-size: 12px; line-height: 1.55; }
-  .russo-style-notes { position: relative; left: 50%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; width: min(1040px, calc(100vw - 32px)); margin: 40px 0 58px; border: 1px solid #d8dee8; border-top: 3px solid var(--bbfc-blue); border-radius: var(--bbfc-radius-lg); background: #f7f9fc; transform: translateX(-50%); overflow: hidden; }
+  .russo-style-notes { position: relative; left: 50%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; width: min(1040px, calc(100vw - 32px)); margin: 40px 0 58px; border: 1px solid #d8dee8; border-radius: var(--bbfc-radius-lg); background: #f7f9fc; transform: translateX(-50%); overflow: hidden; }
   .russo-style-notes article { margin: 0; padding: 28px 25px 30px; }
   .russo-style-notes article + article { border-left: 1px solid #d8dee8; }
   .russo-style-notes span { color: var(--bbfc-blue); font-size: 11px; font-weight: 800; letter-spacing: .12em; }

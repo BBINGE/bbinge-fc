@@ -228,7 +228,7 @@ featured: false
   .custom-xi-final-score b { font-size: 1rem; line-height: 1.35; }
   .custom-xi-final-score strong { color: var(--bbfc-blue-strong); font-size: 2.2rem; line-height: 1; letter-spacing: -.06em; }
   .custom-xi-final-dossier ol { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
-  .custom-xi-final-dossier li { display: grid; grid-template-columns: 2.6rem minmax(0, .8fr) minmax(0, 1.2fr); gap: .75rem; align-items: baseline; margin: 0; padding: .7rem .8rem; background: #fff; border-left: 3px solid var(--bbfc-blue); }
+  .custom-xi-final-dossier li { display: grid; grid-template-columns: 2.6rem minmax(0, .8fr) minmax(0, 1.2fr); gap: .75rem; align-items: baseline; margin: 0; padding: .7rem .8rem; background: #fff; }
   .custom-xi-final-dossier li.is-opponent { border-left-color: #c7ced8; }
   .custom-xi-final-dossier time { color: var(--bbfc-blue-strong); font-size: .83rem; font-weight: 800; }
   .custom-xi-final-dossier li b { font-size: .9rem; }

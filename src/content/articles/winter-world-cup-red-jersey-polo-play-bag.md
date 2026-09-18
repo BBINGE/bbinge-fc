@@ -226,7 +226,7 @@ fashionProfile:
   .fashion-article .article-body .wt-figure { min-width:0; margin:0; }
   .wt-figure img, .wt-airport img, .wt-bag-story__image img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .wt-figure img { aspect-ratio:3/4; object-fit:cover; }
-  .wt-boots-note { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr); width:min(760px,calc(100vw - 32px)); margin:-4px 0 48px; overflow:hidden; border:1px solid #eccbd4; border-top:4px solid var(--wt-red); border-radius:var(--bbfc-radius-lg); background:var(--wt-pink); box-shadow:0 22px 55px -45px rgba(143,16,39,.72); transform:translateX(-50%); }
+  .wt-boots-note { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr); width:min(760px,calc(100vw - 32px)); margin:-4px 0 48px; overflow:hidden; border:1px solid #eccbd4; border-radius:var(--bbfc-radius-lg); background:var(--wt-pink); box-shadow:0 22px 55px -45px rgba(143,16,39,.72); transform:translateX(-50%); }
   .article-body .wt-boots-note figure { min-width:0; margin:0; }
   .wt-boots-note figure img { display:block; width:100%; height:auto; margin:0; border:0; border-radius:0; }
   .wt-boots-note figcaption { padding:10px 14px 13px; }
@@ -240,7 +240,7 @@ fashionProfile:
   .wt-detail-tags span { padding:5px 8px; border:1px solid #d9a9b6; border-radius:999px; background:#fff; color:var(--wt-red-deep); font-size:9px; font-weight:700; letter-spacing:.08em; }
   .wt-boots-note__copy>p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.78; }
   .fashion-article .article-body .wt-airport { position:static; width:min(760px,calc(100vw - 32px)); margin:30px auto 48px; transform:none; }
-  .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.95fr) minmax(320px,1.05fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 48px; overflow:hidden; border:1px solid #bed9ed; border-top:4px solid var(--wt-blue); border-radius:var(--bbfc-radius-lg); background:repeating-linear-gradient(90deg,#f8fdff 0,#f8fdff 24px,#dceefa 25px,#dceefa 26px); box-shadow:0 24px 60px -46px rgba(47,125,245,.7); transform:translateX(-50%); }
+  .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.95fr) minmax(320px,1.05fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 48px; overflow:hidden; border:1px solid #bed9ed; border-radius:var(--bbfc-radius-lg); background:repeating-linear-gradient(90deg,#f8fdff 0,#f8fdff 24px,#dceefa 25px,#dceefa 26px); box-shadow:0 24px 60px -46px rgba(47,125,245,.7); transform:translateX(-50%); }
   .fashion-article .article-body .wt-bag-story__image { display:flex; min-width:0; margin:0; flex-direction:column; }
   .wt-bag-story__image img { aspect-ratio:1/1; height:auto; border:0; border-radius:0; object-fit:cover; }
   .wt-bag-story__image figcaption { padding:10px 14px 13px; }
@@ -264,7 +264,7 @@ fashionProfile:
   .wt-shop-cta:focus-visible { outline:3px solid color-mix(in srgb,var(--wt-blue) 55%,transparent); outline-offset:3px; }
   .wt-shop-note { margin-top:8px; color:#768797; font-size:9px; line-height:1.55; }
   .wt-text-link { display:inline-flex; align-self:flex-start; margin-top:10px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }
-  .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 38px; overflow:hidden; border:1px solid #26384c; border-top:4px solid var(--wt-red); border-radius:var(--bbfc-radius-lg); background:var(--wt-night); box-shadow:0 24px 60px -44px rgba(19,29,42,.9); transform:translateX(-50%); }
+  .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 38px; overflow:hidden; border:1px solid #26384c; border-radius:var(--bbfc-radius-lg); background:var(--wt-night); box-shadow:0 24px 60px -44px rgba(19,29,42,.9); transform:translateX(-50%); }
   .wt-video__copy { align-self:center; padding:32px 28px 34px; }
   .wt-video__copy .wt-module-kicker { color:#8fd7ff; }
   .wt-video__copy .wt-module-kicker b { background:var(--wt-red); }
