@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T15:01:41.993Z",
+  "updatedAt": "2026-09-18T22:19:02.360Z",
   "days": {
     "yesterday": "2026-09-18",
     "today": "2026-09-19",
@@ -48,6 +48,21 @@
         },
         {
           "rank": 3,
+          "team": "브렌트퍼드 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+          "played": 5,
+          "wins": 2,
+          "draws": 3,
+          "losses": 0,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "goalDifference": 6,
+          "points": 9,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 4,
           "team": "리즈 유나이티드 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
           "played": 4,
@@ -62,7 +77,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "헐 시티 AFC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
           "played": 4,
@@ -73,11 +88,11 @@
           "goalsAgainst": 2,
           "goalDifference": 3,
           "points": 8,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
+          "zone": "uel",
+          "zoneLabel": "UEFA 유로파 리그"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "브라이턴 앤드 호브 앨비언 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
           "played": 4,
@@ -88,36 +103,21 @@
           "goalsAgainst": 5,
           "goalDifference": 8,
           "points": 7,
-          "zone": "uel",
-          "zoneLabel": "UEFA 유로파 리그"
-        },
-        {
-          "rank": 6,
-          "team": "첼시 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-          "played": 4,
-          "wins": 2,
-          "draws": 1,
-          "losses": 1,
-          "goalsFor": 10,
-          "goalsAgainst": 9,
-          "goalDifference": 1,
-          "points": 7,
           "zone": "",
           "zoneLabel": ""
         },
         {
           "rank": 7,
-          "team": "브렌트퍼드 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-          "played": 4,
-          "wins": 1,
-          "draws": 3,
-          "losses": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 4,
-          "goalDifference": 3,
-          "points": 6,
+          "team": "첼시 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+          "played": 5,
+          "wins": 2,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 10,
+          "goalsAgainst": 12,
+          "goalDifference": -2,
+          "points": 7,
           "zone": "",
           "zoneLabel": ""
         },
@@ -931,21 +931,6 @@
         },
         {
           "rank": 8,
-          "team": "RCD 에스파뇰",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-          "played": 6,
-          "wins": 2,
-          "draws": 1,
-          "losses": 3,
-          "goalsFor": 9,
-          "goalsAgainst": 7,
-          "goalDifference": 2,
-          "points": 7,
-          "zone": "",
-          "zoneLabel": ""
-        },
-        {
-          "rank": 9,
           "team": "아틀레틱 클루브",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
           "played": 5,
@@ -955,6 +940,21 @@
           "goalsFor": 7,
           "goalsAgainst": 6,
           "goalDifference": 1,
+          "points": 7,
+          "zone": "",
+          "zoneLabel": ""
+        },
+        {
+          "rank": 9,
+          "team": "RCD 에스파뇰",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+          "played": 7,
+          "wins": 2,
+          "draws": 1,
+          "losses": 4,
+          "goalsFor": 10,
+          "goalsAgainst": 10,
+          "goalDifference": 0,
           "points": 7,
           "zone": "",
           "zoneLabel": ""
@@ -1066,6 +1066,21 @@
         },
         {
           "rank": 17,
+          "team": "엘체 CF",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+          "played": 7,
+          "wins": 1,
+          "draws": 2,
+          "losses": 4,
+          "goalsFor": 11,
+          "goalsAgainst": 17,
+          "goalDifference": -6,
+          "points": 5,
+          "zone": "",
+          "zoneLabel": ""
+        },
+        {
+          "rank": 18,
           "team": "RC 셀타 데 비고",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
           "played": 6,
@@ -1076,11 +1091,11 @@
           "goalsAgainst": 6,
           "goalDifference": -3,
           "points": 4,
-          "zone": "",
-          "zoneLabel": ""
+          "zone": "relegation",
+          "zoneLabel": "강등"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "team": "발렌시아 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
           "played": 6,
@@ -1095,7 +1110,7 @@
           "zoneLabel": "강등"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "team": "말라가 CF",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
           "played": 6,
@@ -1106,21 +1121,6 @@
           "goalsAgainst": 11,
           "goalDifference": -8,
           "points": 3,
-          "zone": "relegation",
-          "zoneLabel": "강등"
-        },
-        {
-          "rank": 20,
-          "team": "엘체 CF",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-          "played": 6,
-          "wins": 0,
-          "draws": 2,
-          "losses": 4,
-          "goalsFor": 8,
-          "goalsAgainst": 16,
-          "goalDifference": -8,
-          "points": 2,
           "zone": "relegation",
           "zoneLabel": "강등"
         }
@@ -1854,13 +1854,13 @@
           "rank": 9,
           "team": "US 사수올로 칼초",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-          "played": 4,
+          "played": 5,
           "wins": 2,
           "draws": 1,
-          "losses": 1,
-          "goalsFor": 8,
-          "goalsAgainst": 7,
-          "goalDifference": 1,
+          "losses": 2,
+          "goalsFor": 9,
+          "goalsAgainst": 9,
+          "goalDifference": 0,
           "points": 7,
           "zone": "",
           "zoneLabel": ""
@@ -1927,6 +1927,21 @@
         },
         {
           "rank": 14,
+          "team": "AC 몬차",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+          "played": 5,
+          "wins": 1,
+          "draws": 1,
+          "losses": 3,
+          "goalsFor": 8,
+          "goalsAgainst": 12,
+          "goalDifference": -4,
+          "points": 4,
+          "zone": "",
+          "zoneLabel": ""
+        },
+        {
+          "rank": 15,
           "team": "토리노 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
           "played": 4,
@@ -1941,7 +1956,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "ACF 피오렌티나",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
           "played": 4,
@@ -1956,7 +1971,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "볼로냐 FC 1909",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
           "played": 4,
@@ -1971,7 +1986,7 @@
           "zoneLabel": ""
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "파르마 칼초 1913",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
           "played": 4,
@@ -1981,21 +1996,6 @@
           "goalsFor": 2,
           "goalsAgainst": 6,
           "goalDifference": -4,
-          "points": 1,
-          "zone": "",
-          "zoneLabel": ""
-        },
-        {
-          "rank": 18,
-          "team": "AC 몬차",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-          "played": 4,
-          "wins": 0,
-          "draws": 1,
-          "losses": 3,
-          "goalsFor": 6,
-          "goalsAgainst": 11,
-          "goalDifference": -5,
           "points": 1,
           "zone": "relegation",
           "zoneLabel": "강등"
@@ -2568,6 +2568,21 @@
       "standings": [
         {
           "rank": 1,
+          "team": "FC 바이에른 뮌헨",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+          "played": 4,
+          "wins": 3,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 14,
+          "goalsAgainst": 2,
+          "goalDifference": 12,
+          "points": 10,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 2,
           "team": "SC 프라이부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
           "played": 3,
@@ -2582,7 +2597,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "보루시아 도르트문트",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
           "played": 3,
@@ -2597,7 +2612,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "FC 아우크스부르크",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
           "played": 3,
@@ -2607,21 +2622,6 @@
           "goalsFor": 9,
           "goalsAgainst": 3,
           "goalDifference": 6,
-          "points": 7,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
-        },
-        {
-          "rank": 4,
-          "team": "FC 바이에른 뮌헨",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-          "played": 3,
-          "wins": 2,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 2,
-          "goalDifference": 5,
           "points": 7,
           "zone": "ucl",
           "zoneLabel": "UEFA 챔피언스 리그"
@@ -2795,13 +2795,13 @@
           "rank": 16,
           "team": "1. FC 우니온 베를린",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
-          "played": 3,
+          "played": 4,
           "wins": 0,
           "draws": 1,
-          "losses": 2,
+          "losses": 3,
           "goalsFor": 4,
-          "goalsAgainst": 10,
-          "goalDifference": -6,
+          "goalsAgainst": 17,
+          "goalDifference": -13,
           "points": 1,
           "zone": "relegation-po",
           "zoneLabel": "강등 플레이오프"
@@ -3331,6 +3331,21 @@
       "standings": [
         {
           "rank": 1,
+          "team": "AS 모나코 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+          "played": 5,
+          "wins": 4,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
+          "points": 13,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 2,
           "team": "LOSC 릴",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
           "played": 4,
@@ -3340,21 +3355,6 @@
           "goalsFor": 7,
           "goalsAgainst": 2,
           "goalDifference": 5,
-          "points": 10,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
-        },
-        {
-          "rank": 2,
-          "team": "AS 모나코 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-          "played": 4,
-          "wins": 3,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 2,
-          "goalDifference": 4,
           "points": 10,
           "zone": "ucl",
           "zoneLabel": "UEFA 챔피언스 리그"
@@ -3468,13 +3468,13 @@
           "rank": 10,
           "team": "RC 랑스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-          "played": 4,
+          "played": 5,
           "wins": 1,
           "draws": 1,
-          "losses": 2,
-          "goalsFor": 8,
-          "goalsAgainst": 7,
-          "goalDifference": 1,
+          "losses": 3,
+          "goalsFor": 9,
+          "goalsAgainst": 9,
+          "goalDifference": 0,
           "points": 4,
           "zone": "",
           "zoneLabel": ""
