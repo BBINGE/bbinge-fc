@@ -173,8 +173,8 @@ draft: false
 《코리에레 델라 세라》의 인드로 몬타넬리<span class="foreign-note" lang="it">(Indro Montanelli; 이탈리아 언론인, 1909-2001)</span>는 장례 뒤 이렇게 썼다.
 
 <blockquote class="closing-quote">
-  <p lang="it">Gli eroi sono sempre immortali agli occhi di chi in essi crede. E così i ragazzi crederanno che il Torino non è morto: è soltanto «in trasferta».</p>
   <p>영웅은 그를 믿는 자들의 눈에서 언제나 불멸이다. 그러므로 아이들은 토리노가 죽지 않았다고 믿을 것이다. 그들은 단지 ‘원정 중’일 뿐이라고.</p>
+  <p lang="it">Gli eroi sono sempre immortali agli occhi di chi in essi crede. E così i ragazzi crederanno che il Torino non è morto: è soltanto «in trasferta».</p>
 </blockquote>
 
 그들은 지금도 원정 중이다. 다만 이탈리아 축구는 그들이 돌아올 자리를 오래 비워두지 않았다.
@@ -213,8 +213,8 @@ draft: false
   .stat-line strong { font-size: 35px; line-height: 1; letter-spacing: -.045em; color: var(--bbfc-blue-strong); }
   .stat-line span { margin-top: 12px; font-size: 13px; line-height: 1.45; color: var(--bbfc-ink-2); }
   .closing-quote { margin: 48px 0; padding: 30px 32px; border: 0 !important; border-bottom: 1px solid var(--bbfc-border) !important; }
-  .closing-quote p:first-child { margin: 0; font-family: Georgia, serif; font-size: 20px; line-height: 1.7; color: var(--bbfc-ink); }
-  .closing-quote p:last-child { margin-top: 18px; font-size: 15px; line-height: 1.7; color: var(--bbfc-gray-1); }
+  .closing-quote p:first-child { margin: 0; font-size: 20px; line-height: 1.7; color: var(--bbfc-ink); }
+  .closing-quote p:last-child { margin-top: 18px; font-family: Georgia, serif; font-size: 15px; line-height: 1.7; color: var(--bbfc-gray-1); }
   .visual-story-link { display: grid; grid-template-columns: minmax(0, 1fr) 224px; align-items: center; gap: 34px; margin: 48px 0 62px; padding: 28px 30px; border-top: 2px solid var(--bbfc-ink); border-bottom: 1px solid var(--bbfc-border); color: var(--bbfc-ink) !important; background: linear-gradient(105deg, #fff 58%, rgba(36,107,253,.04)); transition: border-color .25s ease, background-color .25s ease; }
   .visual-story-copy > span { display: block; color: var(--bbfc-blue); font-size:12px; font-weight: 750; letter-spacing: .15em; }
   .visual-story-link strong { display: block; margin-top: 10px; font-size: 21px; line-height: 1.4; letter-spacing: -.03em; }

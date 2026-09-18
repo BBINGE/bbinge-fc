@@ -93,7 +93,7 @@ featured: false
 
 1984-85시즌 코파 델 레이 결승전에서 MVP에 선정되었던 것은 그의 커리어 중 가장 유명한데 때문에 마드리드 시민들은 다음과 같이 연호했다고 한다.
 
-<blockquote class="atleti-quote"><p lang="es">Arteche no se va, se queda en nosotros.</p><p>아르테체는 떠나지 않아, 우리 안에 남아.</p></blockquote>
+<blockquote class="atleti-quote"><p>아르테체는 떠나지 않아, 우리 안에 남아.</p><p lang="es">Arteche no se va, se queda en nosotros.</p></blockquote>
 
 그리고 그는 2010년 10월 13일, 암으로 세상을 떠났다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
@@ -333,6 +333,7 @@ featured: false
 
   .atleti-quote { margin: 2.6rem 0; border: 0; padding: 0; background: none; }
   .atleti-quote p { margin: 0; font-size: 1.05rem; font-weight: 600; line-height: 1.7; word-break: keep-all; }
+  .atleti-quote p + p { font-size: .95rem; font-weight: 500; }
   .atleti-quote cite { display: block; margin-top: .6rem; color: var(--bbfc-gray-1); font-size: .85rem; font-style: normal; }
 
   .atleti-clip-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 2.4rem 0; }

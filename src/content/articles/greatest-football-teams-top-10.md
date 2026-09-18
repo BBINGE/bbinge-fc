@@ -472,8 +472,8 @@ FC 스테아우아 부쿠레슈티<span class="foreign-note" lang="ro">(FC Steau
   <img src="/images/history/greatest-teams-top-10/jock-stein-1971.webp" alt="1971년 암스테르담의 조크 스타인" width="720" height="900" loading="lazy" />
   <blockquote>
     <span>AFTER LISBON · 25 MAY 1967</span>
-    <p lang="en">“John, you're immortal now.”</p>
     <strong>“존, 이제 자넨 불멸이야.”</strong>
+    <p lang="en">“John, you're immortal now.”</p>
     <footer>빌 섕클리가 조크 스타인에게</footer>
   </blockquote>
   <figcaption>조크 스타인, 1971년 암스테르담. Anefo·네덜란드 국립기록원, CC0.</figcaption>
