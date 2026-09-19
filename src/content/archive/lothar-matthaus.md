@@ -69,7 +69,7 @@ draft: false
 
 <figure class="legend-section-photo legend-section-scan" style="max-width:520px;margin-inline:auto"><img src="/images/archive/legends/matthaus/gladbach-1981.webp" alt="DATSUN 로고가 박힌 묀헨글라트바흐 흰 유니폼을 입고 공을 차려는 젊은 로타어 마테우스" width="836" height="1080" loading="lazy" decoding="async" /><figcaption>1981년 DFB-포칼 SSV 딜렌부르크전의 마테우스. 스무 살의 그는 이미 묀헨글라트바흐의 주전 미드필더였다. 사진: Otto Domes · Wikimedia Commons (CC BY-SA 4.0).</figcaption></figure>
 
-1979년 9월 22일 카이저슬라우테른전에서 분데스리가에 데뷔한 그는 곧바로 유프 하잉케스<span class="foreign-note" lang="de">(Jupp Heynckes; 묀헨글라트바흐 감독, 훗날 바이언의 트레블 감독, 1945-)</span> 감독의 주전이 됐다. 하잉케스의 육성법이 흥미롭다. 그는 신인에게 펠릭스 마가트<span class="foreign-note" lang="de">(Felix Magath; 함부르크 SV의 플레이메이커, 1953-)</span>나 한지 뮐러<span class="foreign-note" lang="de">(Hansi Müller; VfB 슈투트가르트의 플레이메이커, 1957-)</span> 같은 리그 최고의 조율자를 대인 마크하게 했다. 상대의 전술적 섬세함을 몸으로 배워 스스로 플레이메이커가 되라는 뜻이었다. 첫 시즌부터 UEFA컵 결승에 올라 아인트라흐트 프랑크푸르트와 맞붙었고, 홈 1차전에서 2-2 동점골을 넣었다. 우승은 프랑크푸르트의 몫이었지만, 174cm의 신인이 유럽 결승에서 골을 넣었다는 사실은 이미 충분한 예고였다.
+1979년 9월 22일 카이저슬라우테른전에서 분데스리가에 데뷔한 그는 곧바로 유프 하인케스<span class="foreign-note" lang="de">(Jupp Heynckes; 묀헨글라트바흐 감독, 훗날 바이언의 트레블 감독, 1945-)</span> 감독의 주전이 됐다. 하인케스의 육성법이 흥미롭다. 그는 신인에게 펠릭스 마가트<span class="foreign-note" lang="de">(Felix Magath; 함부르크 SV의 플레이메이커, 1953-)</span>나 한지 뮐러<span class="foreign-note" lang="de">(Hansi Müller; VfB 슈투트가르트의 플레이메이커, 1957-)</span> 같은 리그 최고의 조율자를 대인 마크하게 했다. 상대의 전술적 섬세함을 몸으로 배워 스스로 플레이메이커가 되라는 뜻이었다. 첫 시즌부터 UEFA컵 결승에 올라 아인트라흐트 프랑크푸르트와 맞붙었고, 홈 1차전에서 2-2 동점골을 넣었다. 우승은 프랑크푸르트의 몫이었지만, 174cm의 신인이 유럽 결승에서 골을 넣었다는 사실은 이미 충분한 예고였다.
 
 <figure class="legend-section-photo"><img src="/images/archive/legends/matthaus/gladbach-dillenburg-1981.webp" alt="1981년 포칼 경기에서 딜렌부르크 선수와 공을 다투는 묀헨글라트바흐의 마테우스" width="1600" height="899" loading="lazy" decoding="async" /><figcaption>1981년 8월 29일 DFB-포칼, 딜렌부르크의 이보 페르코비치와 공을 다투는 마테우스. 묀헨글라트바흐는 7-2로 이겼다. 사진: Otto Domes · Wikimedia Commons (CC BY-SA 4.0).</figcaption></figure>
 
@@ -83,13 +83,13 @@ draft: false
 
 ## 1984년 포칼 결승, 새 구단 앞에서 넘어간 공
 
-1984년 5월 31일 프랑크푸르트 발트슈타디온. DFB-포칼 결승 상대는 바이언이었다. 문제는 마테우스가 이미 다음 시즌 바이언과 계약하고 이적을 발표한 상태였다는 점이다. 묀헨글라트바흐 팬들은 그를 "유다"라고 불렀다. 경기 전 그는 어느 쪽이든 매우 불편한 오후가 되겠지만, 나중에 하잉케스의 눈을 똑바로 볼 수 있도록 온 힘을 다하겠다고 말했다.
+1984년 5월 31일 프랑크푸르트 발트슈타디온. DFB-포칼 결승 상대는 바이언이었다. 문제는 마테우스가 이미 다음 시즌 바이언과 계약하고 이적을 발표한 상태였다는 점이다. 묀헨글라트바흐 팬들은 그를 "유다"라고 불렀다. 경기 전 그는 어느 쪽이든 매우 불편한 오후가 되겠지만, 나중에 하인케스의 눈을 똑바로 볼 수 있도록 온 힘을 다하겠다고 말했다.
 
 그 말대로 그는 선제골을 도왔다. 경기는 연장까지 1-1로 끝났고, 포칼 결승 사상 처음으로 승부차기에 들어갔다. 묀헨글라트바흐의 첫 키커로 나선 마테우스의 슈팅은 크로스바를 넘어갔다. 다섯 명씩 찬 뒤 스코어는 4-4, 결국 양 팀 여덟 명씩 찬 끝에 노르베르트 링겔스<span class="foreign-note" lang="de">(Norbert Ringels; 묀헨글라트바흐의 수비수)</span>까지 실축하며 바이언이 7-6으로 우승했다.
 
 이적 확정 선수가 새 구단을 위해 일부러 날렸다는 의심은 지금도 따라다닌다. 엄밀히 따지자면 근거는 없다. 그는 선제골을 만든 선수였고, 첫 번째 키커였으며, 승부를 가른 킥은 한참 뒤에 나왔다. 훗날 마테우스는 킥 자체보다 차고 싶지 않은데도 권유에 떠밀려 나선 것이 실수였다고 돌아봤다. 다만 이적 발표 뒤 친정 팬들 앞에서 가장 먼저 실축했다는 장면의 무게만큼은 어떤 해명으로도 지워지지 않았다.
 
-이별의 뒤끝은 결승 전부터 있었다. 그 시즌 33경기를 풀타임으로 뛴 그를, 하잉케스는 시즌 종료 여섯 경기를 남기고 발트호프 만하임전 벤치에 70분 동안 앉혀 뒀다. 1-2로 뒤진 상황에서 들어간 마테우스는 19분 사이 두 골을 넣어 3-2 역전승을 만들었다. 선수는 바이언으로 간다는 이유의 보복이라고 했고, 감독은 로타어가 조금 느슨해져 따끔한 경고가 필요했다고 받아쳤다. 기실 하잉케스는 누구보다 그를 아낀 스승이었다. 대표팀 감독들의 비판에서 그를 감쌌고, 사생활의 위기 때마다 곁을 지켰다.
+이별의 뒤끝은 결승 전부터 있었다. 그 시즌 33경기를 풀타임으로 뛴 그를, 하인케스는 시즌 종료 여섯 경기를 남기고 발트호프 만하임전 벤치에 70분 동안 앉혀 뒀다. 1-2로 뒤진 상황에서 들어간 마테우스는 19분 사이 두 골을 넣어 3-2 역전승을 만들었다. 선수는 바이언으로 간다는 이유의 보복이라고 했고, 감독은 로타어가 조금 느슨해져 따끔한 경고가 필요했다고 받아쳤다. 기실 하인케스는 누구보다 그를 아낀 스승이었다. 대표팀 감독들의 비판에서 그를 감쌌고, 사생활의 위기 때마다 곁을 지켰다.
 
 ## 바이언 1기, 3연패와 빈의 뒤꿈치
 
@@ -310,8 +310,8 @@ draft: false
 
 <ul class="source-notes">
   <li><a href="https://www.dfb.de/news/wm-held-und-rekordnationalspieler-lothar-matthaeus-wird-65" rel="noopener noreferrer">DFB: 월드컵 영웅이자 최다 출전 선수 마테우스 65세</a>: 150경기 23골, 주장 75경기, 포크츠 태클과 그라스호프 일화, 1990년 개막전 회고, 2009년 발언.</li>
-  <li><a href="https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us" rel="noopener noreferrer">Wikipedia(독일어): Lothar Matthäus</a>: 《11 Freunde》 233호·《슈피겔》 1984년 기사를 인용한 입단 과정, 유로 1980 일화, 하잉케스와의 관계, 1984 포칼 결승, 이적료, 1992 부상과 복귀, 리베로 전향, 비밀 일기, 1998 복귀, 은퇴 뒤 출전과 국내 수상 목록.</li>
-  <li><a href="https://www.spiegel.de/sport/bittere-pille-a-e22105f8-0002-0001-0000-000013509903?context=issue" rel="noopener noreferrer">Der Spiegel: 쓴 약(1984년 5월 27일)</a>: 이적 발표 뒤 하잉케스와 마테우스의 관계.</li>
+  <li><a href="https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us" rel="noopener noreferrer">Wikipedia(독일어): Lothar Matthäus</a>: 《11 Freunde》 233호·《슈피겔》 1984년 기사를 인용한 입단 과정, 유로 1980 일화, 하인케스와의 관계, 1984 포칼 결승, 이적료, 1992 부상과 복귀, 리베로 전향, 비밀 일기, 1998 복귀, 은퇴 뒤 출전과 국내 수상 목록.</li>
+  <li><a href="https://www.spiegel.de/sport/bittere-pille-a-e22105f8-0002-0001-0000-000013509903?context=issue" rel="noopener noreferrer">Der Spiegel: 쓴 약(1984년 5월 27일)</a>: 이적 발표 뒤 하인케스와 마테우스의 관계.</li>
   <li><a href="https://www.t-online.de/sport/fussball/dfb-pokal/id_54918538/lothar-matthaeus-und-der-fehlschuss-gladbachs-bitterster-pokal-moment.html" rel="noopener noreferrer">t-online: 마테우스의 실축, 묀헨글라트바흐의 가장 쓴 포칼</a> · <a href="https://en.wikipedia.org/wiki/1984_DFB-Pokal_final" rel="noopener noreferrer">1984 DFB-포칼 결승 기록</a>: 1984년 5월 31일 결승, 승부차기 순서와 7-6.</li>
   <li><a href="https://www.sport1.de/news/fussball/bundesliga/2022/09/lothar-matthaus-sein-sensationelles-comeback-fur-den-fc-bayern" rel="noopener noreferrer">SPORT1: 마테우스의 바이언 복귀</a>: 1992년 복귀전과 리베크 발언.</li>
   <li><a href="https://www.sport1.de/news/fussball/bundesliga/2021/03/fc-bayern-lothar-matthaeus-jetzt-doch-greenkeeper" rel="noopener noreferrer">SPORT1: 마테우스, 결국 그린키퍼가 되다</a>: 2002년 회네스 발언, 2021년 《51》 촬영과 회네스의 후회.</li>

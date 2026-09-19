@@ -32,7 +32,7 @@ draft: false
 <section class="eh-finals" aria-label="에른스트 하펠의 유러피언컵 결승 세 차례">
   <header><span>EUROPEAN CUP FINAL RECORD</span><strong>14년 동안 세 나라의 문법을 통과했다</strong></header>
   <div>
-    <article><b>1970</b><span>FEYENOORD · NETHERLANDS</span><strong>페예노르트 2-1 셀틱</strong><p>연장 117분 오베 신드발의 결승골. 네덜란드 구단 최초의 유러피언컵 우승.</p><i>WIN</i></article>
+    <article><b>1970</b><span>FEYENOORD · NETHERLANDS</span><strong>페예노르트 2-1 셀틱</strong><p>연장 117분 오베 킨드발의 결승골. 네덜란드 구단 최초의 유러피언컵 우승.</p><i>WIN</i></article>
     <article><b>1978</b><span>CLUB BRUGGE · BELGIUM</span><strong>리버풀 1-0 클뤼프 브뤼허</strong><p>주축 세 명이 부상으로 빠진 웸블리 결승. 벨기에 구단 사상 유일한 유러피언컵 결승 진출 기록.</p><i>RUNNER-UP</i></article>
     <article><b>1983</b><span>HAMBURGER SV · WEST GERMANY</span><strong>함부르거 SV 1-0 유벤투스</strong><p>8분 펠릭스 마가트의 결승골. 하펠은 서로 다른 두 구단으로 유럽 정상에 오른 첫 감독이 됐다.</p><i>WIN</i></article>
   </div>
@@ -69,14 +69,14 @@ draft: false
 
 ## 1970 페예노르트, 4-3-3의 세 줄은 어떻게 연결됐나
 
-하펠이 1969년 페예노르트에 부임했을 때 구단은 이미 리그와 KNVB컵 더블을 차지한 강팀이었다. 그러므로 1970년의 우승을 감독 한 명의 발명품으로 만들 필요는 없다. 하펠이 받은 재료부터 대단했다. 수비에는 리뉘스 이스라엘<span class="foreign-note" lang="nl">(Marinus David Israël; 네덜란드 축구 선수·수비수, 1942-)</span>과 테오 라세롬스<span class="foreign-note" lang="nl">(Matheus Wilhelmus Theodorus Laseroms; 네덜란드 축구 선수·수비수, 1940-1991)</span>, 중원에는 빔 얀선<span class="foreign-note" lang="nl">(Wilhelmus Marinus Anthonius Jansen; 네덜란드 축구 선수·미드필더, 1946-2022)</span>·빌럼 판하네험<span class="foreign-note" lang="nl">(Willem van Hanegem; 네덜란드 축구 선수·미드필더, 1944-)</span>·프란츠 하질<span class="foreign-note" lang="de">(Franz Hasil; 오스트리아 축구 선수·미드필더, 1944-)</span>, 전방에는 쿤 물레인<span class="foreign-note" lang="nl">(Coenraadt Moulijn; 네덜란드 축구 선수·윙어, 1937-2011)</span>과 오베 신드발<span class="foreign-note" lang="sv">(Bengt Ove Kindvall; 스웨덴 축구 선수·공격수, 1943-)</span>이 있었다.<a class="cite" href="#source-3" aria-label="출처 3 다시 보기">[3]</a>
+하펠이 1969년 페예노르트에 부임했을 때 구단은 이미 리그와 KNVB컵 더블을 차지한 강팀이었다. 그러므로 1970년의 우승을 감독 한 명의 발명품으로 만들 필요는 없다. 하펠이 받은 재료부터 대단했다. 수비에는 리뉘스 이스라엘<span class="foreign-note" lang="nl">(Marinus David Israël; 네덜란드 축구 선수·수비수, 1942-)</span>과 테오 라세롬스<span class="foreign-note" lang="nl">(Matheus Wilhelmus Theodorus Laseroms; 네덜란드 축구 선수·수비수, 1940-1991)</span>, 중원에는 빔 얀선<span class="foreign-note" lang="nl">(Wilhelmus Marinus Anthonius Jansen; 네덜란드 축구 선수·미드필더, 1946-2022)</span>·빌럼 판하네험<span class="foreign-note" lang="nl">(Willem van Hanegem; 네덜란드 축구 선수·미드필더, 1944-)</span>·프란츠 하질<span class="foreign-note" lang="de">(Franz Hasil; 오스트리아 축구 선수·미드필더, 1944-)</span>, 전방에는 쿤 물레인<span class="foreign-note" lang="nl">(Coenraadt Moulijn; 네덜란드 축구 선수·윙어, 1937-2011)</span>과 오베 킨드발<span class="foreign-note" lang="sv">(Bengt Ove Kindvall; 스웨덴 축구 선수·공격수, 1943-)</span>이 있었다.<a class="cite" href="#source-3" aria-label="출처 3 다시 보기">[3]</a>
 
 <figure class="eh-photo eh-photo--wide">
   <img src="/images/tactics/ernst-happel/happel-van-hanegem-moulijn.jpg" alt="페예노르트 훈련장의 빌럼 판하네험, 에른스트 하펠, 쿤 물레인" width="966" height="640" loading="lazy" decoding="async" />
   <figcaption>페예노르트 훈련장의 빌럼 판하네험, 에른스트 하펠, 쿤 물레인. 하펠의 4-3-3은 세 줄의 정지 화면보다 이 선수들이 서로의 빈자리를 읽는 방식으로 작동했다.</figcaption>
 </figure>
 
-명단표에서는 4-3-3이었다. 하지만 판하네험이 빌드업의 낮은 지점으로 내려오고 하질과 얀선이 공의 위치에 맞춰 높이를 바꾸면 중원의 모양은 계속 달라졌다. 신드발은 중앙 수비수 사이에만 머물지 않고 좌우 통로로 움직였고, 물레인은 폭을 넓혔다. 상대는 한 명을 따라가면 그 뒤 공간을 내주고, 자리를 지키면 페예노르트가 공을 받은 채 돌아서는 것을 허용해야 했다.
+명단표에서는 4-3-3이었다. 하지만 판하네험이 빌드업의 낮은 지점으로 내려오고 하질과 얀선이 공의 위치에 맞춰 높이를 바꾸면 중원의 모양은 계속 달라졌다. 킨드발은 중앙 수비수 사이에만 머물지 않고 좌우 통로로 움직였고, 물레인은 폭을 넓혔다. 상대는 한 명을 따라가면 그 뒤 공간을 내주고, 자리를 지키면 페예노르트가 공을 받은 채 돌아서는 것을 허용해야 했다.
 
 하펠의 압박<span class="foreign-note" lang="en">(pressing; 여러 선수가 공과 다음 패스 방향을 함께 압축하는 집단 수비)</span>도 훗날의 한 가지 모델과 완전히 같았다고 볼 수는 없다. 어느 구역에서 압박을 시작했는지, 대인 기준과 공간 기준을 어떻게 섞었는지는 경기마다 달랐다. 빅토르 마슬로프<span class="foreign-note" lang="ru">(Виктор Александрович Маслов; 러시아 축구 선수·감독, 1910-1977)</span>와 리뉘스 미헐스 등 같은 시대에 비슷한 문제를 풀던 감독도 있었다. 그래서 하펠을 ‘압박의 유일한 발명자’라고 부르는 것보다, 압박과 오프사이드 트랩을 유럽 정상급 무대에서 안정적으로 결합한 초기 감독으로 보는 편이 정확하다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
@@ -85,11 +85,11 @@ draft: false
   <figcaption>공 주변의 마름모로 압박을 통과하고, 반대편에서 수비선을 향해 전진하는 움직임을 표시한 후대 영상 도해. 4-3-3이라는 숫자보다 공 가까운 곳의 연결과 다음 공간을 함께 읽는 자료다. 화면: Boroboy116 YouTube.</figcaption>
 </figure>
 
-1970년 5월 6일 산시로 결승에서 셀틱이 먼저 득점했지만, 이스라엘이 곧 동점을 만들었다. 연장 종료가 다가오던 117분, 신드발이 길게 넘어온 공을 받아 결승골을 넣었다. 페예노르트는 2-1로 이겼고 네덜란드 구단 최초로 유러피언컵을 들었다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
+1970년 5월 6일 산시로 결승에서 셀틱이 먼저 득점했지만, 이스라엘이 곧 동점을 만들었다. 연장 종료가 다가오던 117분, 킨드발이 길게 넘어온 공을 받아 결승골을 넣었다. 페예노르트는 2-1로 이겼고 네덜란드 구단 최초로 유러피언컵을 들었다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
 <figure class="eh-photo eh-photo--wide">
-  <img src="/images/tactics/ernst-happel/kindvall-v-celtic.jpg" alt="1970 유러피언컵 결승전에서 셀틱 수비수를 마주한 페예노르트 공격수 오베 신드발" width="966" height="699" loading="lazy" decoding="async" />
-  <figcaption>1970 유러피언컵 결승에서 셀틱 수비수를 마주한 오베 신드발. 중앙의 골잡이가 측면 통로까지 움직이면서 페예노르트는 수비의 기준점을 흔들었다.</figcaption>
+  <img src="/images/tactics/ernst-happel/kindvall-v-celtic.jpg" alt="1970 유러피언컵 결승전에서 셀틱 수비수를 마주한 페예노르트 공격수 오베 킨드발" width="966" height="699" loading="lazy" decoding="async" />
+  <figcaption>1970 유러피언컵 결승에서 셀틱 수비수를 마주한 오베 킨드발. 중앙의 골잡이가 측면 통로까지 움직이면서 페예노르트는 수비의 기준점을 흔들었다.</figcaption>
 </figure>
 
 페예노르트는 1970년 네덜란드 구단 최초로 유러피언컵을 우승했고, 리뉘스 미헐스<span class="foreign-note" lang="nl">(Marinus Jacobus Hendricus Michels; 네덜란드 축구 선수·감독, 1928-2005)</span>의 아약스는 이듬해부터 대회 3연패를 이뤘다. 순서만 보면 하펠이 앞서지만, 아약스 역시 그 이전부터 강한 압박과 위치 교환을 발전시키고 있었다. 두 감독의 팀이 가까운 시기에 **공간을 집단적으로 움직이는 방법**을 각자의 방식으로 밀어 올렸고, 그 가운데 페예노르트가 먼저 유럽 정상에 도착했다. 확인되는 연대는 여기까지이며, 토털 풋볼의 사상 전체를 한 사람의 소유로 돌릴 근거는 되지 않는다.
@@ -180,7 +180,7 @@ FIFA가 기록한 이 문장은 원고에 떠돌던 판본보다 짧고 정확�
   <li id="source-3"><a href="https://www.uefa.com/news-media/news/01ac-0f84789e0181-37317668f663-1000--first-blood-for-feyenoord/">Berend Scholten, 「First blood for Feyenoord」</a>, UEFA. 1969-70 페예노르트 선수 구성, 하펠의 발언과 결승 진출 과정.</li>
   <li id="source-4"><a href="https://theblizzard.co.uk/in-bruges/featured/">「In Bruges」</a>, The Blizzard. 쥘리앵 쿨스의 회고를 바탕으로 한 두 터치 훈련, 스프린트, 4-4-2와 4-3-3 운용, 전진 풀백.</li>
   <li id="source-5"><a href="https://www.fourfourtwo.com/features/who-really-invented-pressing-game-and-why-it-works">「Who really invented the pressing game – and why it works」</a>, FourFourTwo. 마슬로프·하펠·미헐스를 둘러싼 압박 전술의 복수 계보와 페예노르트의 압박·오프사이드 트랩.</li>
-  <li id="source-6"><a href="https://inside.fifa.com/news/van-daele-winner-puts-feyenoord-the-map-510423">「Van Daele winner puts Feyenoord on the map」</a>, FIFA. 1970년 5월 6일 결승과 오베 신드발의 연장 117분 결승골.</li>
+  <li id="source-6"><a href="https://inside.fifa.com/news/van-daele-winner-puts-feyenoord-the-map-510423">「Van Daele winner puts Feyenoord on the map」</a>, FIFA. 1970년 5월 6일 결승과 오베 킨드발의 연장 117분 결승골.</li>
   <li id="source-7"><a href="https://olympia.clubbrugge.be/en/timeline/1970">「The Golden Happel Years」</a>와 <a href="https://www.clubbrugge.be/nl/news/wat-is-jouw-herinnering-aan-wembley-78">「Wat is jouw herinnering aan Wembley ’78?」</a>, Club Brugge. 1976·1978 유럽 결승, 3연속 리그 우승, 1978 결승의 부상자와 선발 변화.</li>
   <li id="source-8"><a href="https://www.fifa.com/de/tournaments/mens/worldcup/articles/rueckblick-wm-1978-finale">「Menotti gegen Happel: Finale WM 1978」</a>, FIFA; <a href="https://www.knvb.com/news/dutch-football/international-football/1014/rob-rensenbrink-passes-away-aged-72">「Rob Rensenbrink passes away aged 72」</a>, KNVB. 네덜란드의 1978 월드컵 결승 진출과 렌센브링크의 종료 직전 골대 장면.</li>
   <li id="source-9"><a href="https://www.hsv.de/unser-hsv/historie/die-geschichte-des-hsv">「Die Geschichte des HSV」</a>, Hamburger SV. 하펠 부임 뒤 분데스리가 우승, 36경기 무패와 1983 유러피언컵 우승.</li>
