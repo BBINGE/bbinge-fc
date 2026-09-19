@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:39:26.896Z",
+  "updatedAt": "2026-09-19T17:47:50.570Z",
   "days": {
     "yesterday": "2026-09-19",
     "today": "2026-09-20",
@@ -3346,6 +3346,21 @@
         },
         {
           "rank": 2,
+          "team": "파리 FC",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+          "played": 5,
+          "wins": 3,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
+          "points": 11,
+          "zone": "ucl",
+          "zoneLabel": "UEFA 챔피언스 리그"
+        },
+        {
+          "rank": 3,
           "team": "LOSC 릴",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
           "played": 4,
@@ -3360,7 +3375,7 @@
           "zoneLabel": "UEFA 챔피언스 리그"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "스타드 렌 FC",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
           "played": 4,
@@ -3371,28 +3386,13 @@
           "goalsAgainst": 5,
           "goalDifference": 3,
           "points": 10,
-          "zone": "ucl",
-          "zoneLabel": "UEFA 챔피언스 리그"
-        },
-        {
-          "rank": 4,
-          "team": "올랭피크 리오네",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-          "played": 4,
-          "wins": 2,
-          "draws": 2,
-          "losses": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 2,
-          "goalDifference": 4,
-          "points": 8,
           "zone": "ucl-q",
           "zoneLabel": "UEFA 챔피언스 리그 예선"
         },
         {
           "rank": 5,
-          "team": "파리 FC",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+          "team": "올랭피크 리오네",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
           "played": 4,
           "wins": 2,
           "draws": 2,
@@ -3408,13 +3408,13 @@
           "rank": 6,
           "team": "RC 스트라스부르 알자스",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-          "played": 4,
+          "played": 5,
           "wins": 2,
           "draws": 1,
-          "losses": 1,
-          "goalsFor": 9,
-          "goalsAgainst": 8,
-          "goalDifference": 1,
+          "losses": 2,
+          "goalsFor": 10,
+          "goalsAgainst": 10,
+          "goalDifference": 0,
           "points": 7,
           "zone": "uel",
           "zoneLabel": "UEFA 유로파 리그"
