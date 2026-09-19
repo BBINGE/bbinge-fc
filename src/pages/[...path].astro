@@ -939,6 +939,18 @@ if (props.kind === 'category') {
   .article-body :global(blockquote cite) { display: block; margin-top: 12px; color: var(--bbfc-gray-1); font-size: .84em; font-style: normal; }
   .article-body :global(blockquote cite::before) { margin-right: 6px; content: '\2014'; }
   .article-body :global(strong) { font-weight: 680; }
+  /* 이미지·영상·패널 블록과 바로 아래 글 사이의 바닥 여백이다(운영자 지시, 2026-09-19).
+     원고마다 붙인 드롭섀도가 아래로 최대 47px까지 번져 글자를 덮고 있었다.
+     여기서 정한 값은 바닥값이라 이미 더 넓게 띄운 블록은 제 값을 지킨다.
+     글 안에서만 적용하며 목록·카드 등 다른 화면의 밀도는 건드리지 않는다. */
+  .article-body > :global(:is(figure, table, ul):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
+    margin-top: clamp(56px, 5.5vw, 80px);
+  }
+  /* 전면 패널(section·div·aside)은 드롭섀도를 달고 있어 더 띄운다. 가장 긴 그림자가
+     아래로 47px 번지므로 어느 화면에서도 글자까지 40px 넘게 남도록 잡았다. */
+  .article-body > :global(:is(section, div, aside):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
+    margin-top: clamp(88px, 7.5vw, 112px);
+  }
   .article-body :global(figure) { margin: 48px 0; }
   .fashion-article .article-body > :global(figure) { margin-left: auto; margin-right: auto; }
   .article-body :global(figure > img) { display: block; width: 100%; height: auto; border-radius: var(--bbfc-radius-lg); }

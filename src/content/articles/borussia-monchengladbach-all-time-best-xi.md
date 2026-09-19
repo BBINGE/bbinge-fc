@@ -18,7 +18,9 @@ featured: true
 
 **독일 연방 공화국**<span class="foreign-note" lang="de">(Bundesrepublik Deutschland; 1949년 수립된 독일의 공식 국호)</span> 서부, 노르트라인베스트팔렌주에 묀헨글라트바흐<span class="foreign-note" lang="de">(Mönchengladbach; 라인강 서쪽의 도시)</span>가 있다. 섬유 산업으로 성장한 이 도시는 쾰른이나 뒤셀도르프처럼 거대한 중심지가 아니었다. 그곳에서 태어난 축구단도 1963년 푸스발-분데스리가 창립 회원으로 선택받지 못했다.
 
-1964년 헤네스 바이스바일러<span class="foreign-note" lang="de">(Hennes Weisweiler; 독일 축구감독, 1919-1983)</span>가 부임했을 때 1군의 평균 연령은 21.5세였다. 젊은 선수들은 공격할 때마다 앞으로 쏟아졌고, 재정과 명성이 더 큰 구단을 겁내지 않았다. 기자들은 그 거침없는 질주를 보고 *Die Fohlen*, ‘망아지들’이라 불렀다. 별명은 곧 구단의 정체성이 되었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1970년 첫 분데스리가 우승, 이듬해 리그 최초의 2연패, 1975년부터 1977년까지의 3연패. 1975년과 1979년에는 UEFA컵을 들었고 1977년 유러피언컵 결승에 닿았다. 이 팀의 황금기는 우승 횟수만으로 온전히 적히지 않는다. 바이언이 철과 기둥으로 제국을 세울 때 묀헨글라트바흐는 속도와 교환, 젊음의 무모함으로 축구의 문법을 흔들었다. 유럽이 만난 것은 승리하는 팀인 동시에 축구라는 게임의 진화를 시험하던 실험실이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a> <div class="gladbach-era"><img src="/images/clubs/borussia-monchengladbach-logo.webp" alt="" aria-hidden="true" width="500" height="800" /><span>BORUSSIA VEREIN FÜR LEIBESÜBUNGEN 1900</span><strong>1900-2026</strong><p><em lang="de">Die Fohlen</em> · 초록과 검정에 남은 청춘의 속도</p></div>
+1964년 헤네스 바이스바일러<span class="foreign-note" lang="de">(Hennes Weisweiler; 독일 축구감독, 1919-1983)</span>가 부임했을 때 1군의 평균 연령은 21.5세였다. 젊은 선수들은 공격할 때마다 앞으로 쏟아졌고, 재정과 명성이 더 큰 구단을 겁내지 않았다. 기자들은 그 거침없는 질주를 보고 *Die Fohlen*, ‘망아지들’이라 불렀다. 별명은 곧 구단의 정체성이 되었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1970년 첫 분데스리가 우승, 이듬해 리그 최초의 2연패, 1975년부터 1977년까지의 3연패. 1975년과 1979년에는 UEFA컵을 들었고 1977년 유러피언컵 결승에 닿았다. 이 팀의 황금기는 우승 횟수만으로 온전히 적히지 않는다. 바이언이 철과 기둥으로 제국을 세울 때 묀헨글라트바흐는 속도와 교환, 젊음의 무모함으로 축구의 문법을 흔들었다. 유럽이 만난 것은 승리하는 팀인 동시에 축구라는 게임의 진화를 시험하던 실험실이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+
+<div class="gladbach-era"><img src="/images/clubs/borussia-monchengladbach-logo.webp" alt="" aria-hidden="true" width="500" height="800" /><span>BORUSSIA VEREIN FÜR LEIBESÜBUNGEN 1900</span><strong>1900-2026</strong><p><em lang="de">Die Fohlen</em> · 초록과 검정에 남은 청춘의 속도</p></div>
 
 ## 열한 자리를 고른 방식
 
