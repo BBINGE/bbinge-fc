@@ -229,6 +229,14 @@ const faqSchema = entry.data.faq && entry.data.faq.length
   .archive-body :global(h2) { margin: 82px 0 25px; padding-top: 20px; border-top: 2px solid var(--bbfc-ink); font-size: 30px; line-height: 1.3; font-weight: 680; letter-spacing: -.04em; }
   .archive-body :global(h3) { margin: 58px 0 18px; font-size: 23px; line-height: 1.4; font-weight: 650; letter-spacing: -.025em; }
   .archive-body :global(p) { margin-top: 20px; }
+  /* 이미지와 바로 아래 글 사이의 바닥값이다. 글 본문과 같은 기준을 쓴다(운영자 지시, 2026-09-19).
+     규칙은 `DESIGN.md` §8에 있다. */
+  .archive-body > :global(:is(figure, table, ul):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
+    margin-top: clamp(56px, 5.5vw, 80px);
+  }
+  .archive-body > :global(:is(section, div, aside):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
+    margin-top: clamp(88px, 7.5vw, 112px);
+  }
   .archive-body :global(figure) { width: 100%; margin: 48px auto; }
   .archive-body :global(figure img) { width: 100%; height: auto; border-radius: var(--bbfc-radius-lg); }
   .archive-body :global(.portrait-figure) { max-width: 100%; }
