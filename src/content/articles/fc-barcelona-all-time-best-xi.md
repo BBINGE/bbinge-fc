@@ -55,7 +55,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 앞도 세 명이다. 왼쪽에 호나우지뉴가 서서 상대의 균형을 깨고, 오른쪽에 메시가 안으로 접혀 들어오며, 가운데에 쿠벌러가 선다. 쿠벌러가 내려와 공을 받으면 양쪽 윙이 안으로 들어오는 구조이고, 그 사이를 중원의 셋이 채운다.
 
-## 1. 골키퍼 - 안도니 수비사레타
+## 1. 안도니 수비사레타 - 골키퍼
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/andoni-zubizarreta.webp" alt="안도니 수비사레타 골키퍼 선수 카드" loading="lazy" width="966" height="966" /><figcaption>안도니 수비사레타. 디자인: 삥이.</figcaption></figure>
 
@@ -71,7 +71,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 그는 캄 노우<span class="foreign-note" lang="ca">(Camp Nou)</span>의 가장 깊은 문이었다.
 
-## 2. 센터백 - 로날트 쿠만
+## 2. 로날트 쿠만 - 센터백
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/ronald-koeman.webp" alt="로날트 쿠만 센터백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>로날트 쿠만. 디자인: 삥이.</figcaption></figure>
 
@@ -85,7 +85,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 롱패스, 프리킥, 페널티킥을 모두 전담했던 로날트 쿠만은 한 번에 수비 라인을 넘어서는 직선형 패스를 통해 공격을 조율했으며, 수비수로서의 미학이 아닌 '축구 전체의 언어를 이해한 구조자'로 이해하는 것이 옳겠다. PSV 에인트호번에서 1987-88시즌 트레블을 이끌며 발롱도르 5위까지 진입했던 그는 토털 풋볼을 후방에서 구현한 철학의 구체적 화신이었다.
 
-## 3. 센터백 - 카를레스 푸욜
+## 3. 카를레스 푸욜 - 센터백
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/carles-puyol.webp" alt="카를레스 푸욜 센터백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>카를레스 푸욜. 디자인: 삥이.</figcaption></figure>
 
@@ -101,7 +101,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 바르셀로나를 단 한 번도 떠나지 않았던 원 클럽 맨으로서 593경기에 출전했고, 주장으로서 UEFA 챔피언스 리그 3회 우승은 물론 라리가와 코파 델 레이, 그리고 FIFA 클럽 월드컵까지 제패했던 푸욜은 21세기 스페인 축구와 화합의 상징이기까지 했다. 바르셀로나라는 팀이 '가족'이 될 수 있었던 이유다.
 
-## 4. 레프트백 - 세르지 바르주안
+## 4. 세르지 바르주안 - 레프트백
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/sergi-barjuan.webp" alt="세르지 바르주안 레프트백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>세르지 바르주안. 디자인: 삥이.</figcaption></figure>
 
@@ -115,7 +115,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 트로피가 많을 때 잘하는 선수는 흔하다. 트로피가 없을 때도 같은 크로스를 올리는 선수가 드물다.
 
-## 5. 라이트백 - 다니 아우베스
+## 5. 다니 아우베스 - 라이트백
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/dani-alves.webp" alt="다니 아우베스 라이트백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>다니 아우베스. 디자인: 삥이.</figcaption></figure>
 
@@ -127,7 +127,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 리오넬 메시의 안쪽 침투와 리버스 삼각형을 완성시키는 지렛대로서 수비 시에도 포지셔닝과 전방 압박 기점으로도 가능하니, 브라질 축구사에서는 자우마 산투스<span class="foreign-note" lang="pt-BR">(Djalma Santos; 브라질 수비수, 1929-2013)</span>, 카를루스 아우베르투 토히스<span class="foreign-note" lang="pt-BR">(Carlos Alberto Torres; 브라질 수비수, 1944-2016)</span>, 카푸<span class="foreign-note" lang="pt-BR">(Marcos Evangelista de Morais ‘Cafu’; 브라질 수비수, 1970-)</span>에 이어 TOP 4 자리를 마킹하고 있기도 하다.
 
-## 6. 수비형 미드필더 - 세르히오 부스케츠
+## 6. 세르히오 부스케츠 - 수비형 미드필더
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/sergio-busquets.webp" alt="세르히오 부스케츠 수비형 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>세르히오 부스케츠. 디자인: 삥이.</figcaption></figure>
 
@@ -141,7 +141,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 부시<span class="foreign-note" lang="ca">(Busi)</span>라는 별명으로 불렸던 그는 펩을 닮되 그를 넘었고, 그 넘음은 소리 없는 혁명에 가까웠다. 패스 성공률 90% 이상, 전방 압박에 대한 내성, 수비와 공격 연결의 완급 조절. 팀 동료 차비와 이니에스타가 전방을 누빌 수 있던 이유에는 언제나 부스케츠의 존재가 있었기 때문이기도 하다.
 
-## 7. 중앙 미드필더 - 차비 에르난데스
+## 7. 차비 에르난데스 - 중앙 미드필더
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/xavi-hernandez.webp" alt="차비 에르난데스 중앙 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>차비 에르난데스. 디자인: 삥이.</figcaption></figure>
 
@@ -155,7 +155,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 리뉘스 미헐스의 공간 인식론, 요한 크라위프의 사상적 압축, 주제프 과르디올라의 축구관. 이 모든 것을 구현했다는 것 자체로 이미 넘을 수 없는 벽을 세운 차비이다.
 
-## 8. 공격형 미드필더 - 안드레스 이니에스타
+## 8. 안드레스 이니에스타 - 공격형 미드필더
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/andres-iniesta.webp" alt="안드레스 이니에스타 공격형 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>안드레스 이니에스타. 디자인: 삥이.</figcaption></figure>
 
@@ -171,7 +171,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 <blockquote class="barca-quote"><p>그가 없는 바르셀로나는 있었지만, 그가 없는 바르셀로나는 사랑받기 힘들다.</p><cite>문도 데포르티보</cite></blockquote>
 
-## 9. 레프트 윙 - 호나우지뉴
+## 9. 호나우지뉴 - 레프트 윙
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/ronaldinho.webp" alt="호나우지뉴 레프트 윙 선수 카드" loading="lazy" width="966" height="966" /><figcaption>호나우지뉴. 디자인: 삥이.</figcaption></figure>
 
@@ -195,7 +195,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 그러니까 이 명단에서 호나우지뉴의 자리는 트로피 개수로 매겨진 게 아니다. **메시가 올라설 무대를 데워 놓은 값이다.**
 
-## 10. 라이트 윙 - 리오넬 메시
+## 10. 리오넬 메시 - 라이트 윙
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/lionel-messi.webp" alt="리오넬 메시 라이트 윙 선수 카드" loading="lazy" width="966" height="966" /><figcaption>리오넬 메시. 디자인: 삥이.</figcaption></figure>
 
@@ -238,7 +238,7 @@ FC 바르셀로나라는 이름을 부를 때, 우리는 단순히 축구팀 하
 
 신을 두고, 무슨 서술을 이어가겠는가.
 
-## 11. 세컨드 스트라이커 - 쿠벌러 라슬로
+## 11. 쿠벌러 라슬로 - 세컨드 스트라이커
 
 <figure class="barca-player-art"><img src="/images/squads/fc-barcelona-all-time-best-xi/kubala-laszlo.webp" alt="쿠벌러 라슬로 세컨드 스트라이커 선수 카드" loading="lazy" width="966" height="966" /><figcaption>쿠벌러 라슬로. 디자인: 삥이.</figcaption></figure>
 

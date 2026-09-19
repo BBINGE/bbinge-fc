@@ -39,7 +39,7 @@ featured: true
 
 차범근은 오른쪽 하프스페이스와 뒷공간을 찢고, 키르스텐은 수비수 사이의 가장 짧은 길로 골문을 찾아간다. 한 명은 열린 땅에서 힘을 얻고 한 명은 혼잡한 문전에서 살아난다. 비르츠가 공을 잡는 순간 어느 쪽으로도 답이 생긴다. 이른바 천외천이 아니라, 서로 다른 재주가 맞물려야 비로소 완성되는 열한 명이렸다.
 
-## 1. 골키퍼 - 뤼디거 폴보른
+## 1. 뤼디거 폴보른 - 골키퍼
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ruediger-vollborn.webp" alt="뤼디거 폴보른의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -49,7 +49,7 @@ featured: true
 
 베른트 레노와 레네 아들러는 더 세련된 반사 신경과 빌드업을 보여줬다. 그럼에도 이 팀의 골문을 폴보른에게 주는 까닭은 기록의 양만이 아니다. 선수 은퇴 뒤 골키퍼 코치, 팬 연락 담당, 구단 역사의 증언자로 남았다. 레버쿠젠이 무엇이었는지를 몸으로 기억하는 이가 레버쿠젠의 골문을 맡는다. 그러하였다지, 오래 지킨 자에게만 보이는 각도가 있는 법이다.
 
-## 2. 리베로 - 옌스 노보트니
+## 2. 옌스 노보트니 - 리베로
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jens-nowotny.webp" alt="옌스 노보트니의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -59,7 +59,7 @@ featured: true
 
 노보트니는 우승컵으로 자신의 전성기를 장식하지 못했다. 그래서 오히려 ‘네버쿠젠’ 시대의 얼굴에 가깝다. 가장 강했던 팀을 가장 오래 지휘했으나 마지막 사진에는 자주 빠져 있던 주장. 2024년 구단이 그를 명예 주장으로 세운 것은 늦은 보상이라기보다 기억의 교정이다. 현대 축구에서도 높은 라인 뒤를 읽고 양옆의 공격적 수비수를 조율하는 중앙 수비수로 손색이 없다.
 
-## 3. 왼쪽 중앙 수비수 - 루시우
+## 3. 루시우 - 왼쪽 중앙 수비수
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/lucio.webp" alt="루시우의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -69,7 +69,7 @@ featured: true
 
 위험도 있었다. 공을 잃은 뒤 빈자리는 컸고 그의 충동을 받아줄 수비 구조가 필요했다. 그래서 노보트니를 가운데, 롤페스를 앞에 둔다. 통제가 있을 때 루시우의 모험은 낭비가 아니라 공격 루트가 된다. 역사적으로는 2002년의 야심을, 현대적으로는 후방 압박을 단숨에 깨는 운반을 담당한다.
 
-## 4. 오른쪽 중앙 수비수 - 요나단 타
+## 4. 요나단 타 - 오른쪽 중앙 수비수
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jonathan-tah.webp" alt="요나단 타의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -79,7 +79,7 @@ featured: true
 
 토마스 회르스터와 카르스텐 라멜로에게는 더 오래된 공로가 있다. 타를 택한 것은 최근성 때문만이 아니다. 루시우의 모험과 노보트니의 커버 사이에서 대인 방어, 공중볼, 넓은 공간의 회수를 동시에 맡길 수 있기 때문이다. 1988년, 2002년, 2024년의 수비를 한 줄에 세웠을 때 가장 현대적인 버팀목이다.
 
-## 5. 수비형 미드필더 - 시몬 롤페스
+## 5. 시몬 롤페스 - 수비형 미드필더
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/simon-rolfes.webp" alt="시몬 롤페스의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -89,7 +89,7 @@ featured: true
 
 에메르송과 라르스 벤더도 더 강한 압박과 활동량을 보탤 수 있다. 그러나 이 팀에는 주장들의 주장, 즉 성격이 강한 수비와 공격 사이에서 경기의 온도를 낮출 선수가 필요하다. 롤페스는 가장 큰 목소리보다 가장 먼저 생기는 빈칸으로 질서를 세운다. 그리고 그가 훗날 만든 우승팀은, 선수 시절의 그 질서가 우연이 아니었음을 증명하였다.
 
-## 6. 중앙 미드필더 - 미하엘 발라크
+## 6. 미하엘 발라크 - 중앙 미드필더
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/michael-ballack.webp" alt="미하엘 발라크의 소속 기간, 기록과 수상 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -99,7 +99,7 @@ featured: true
 
 이 팀의 발라크는 홀로 지배하는 10번이 아니다. 롤페스 옆에서 전진 시점을 고르고 비르츠가 만든 공간으로 들어가는 박스 투 박스다. 공격이 막히면 높이와 중거리로 다른 문제를 내며, 수비 때는 중원의 몸싸움을 받는다. 샤비 알론소의 유기적인 미드필드에도 그대로 번역될 능력이다. 우승컵이 그의 레버쿠젠 경력을 규정하지 못한다. 가장 높은 수준의 축구를 레버쿠젠에서 보여줬다는 사실이 먼저다.
 
-## 7. 왼쪽 미드필더 - 제 호베르투
+## 7. 제 호베르투 - 왼쪽 미드필더
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ze-roberto.webp" alt="제 호베르투의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -109,7 +109,7 @@ featured: true
 
 알레한드로 그리말도는 2024년 우승에 더 직접적인 숫자를 남겼다. 그래도 서로 다른 시대를 합친 팀에서 제 호베르투의 범용성이 한 발 앞선다. 수비 때 윙백으로 내려올 체력, 공격 때 중앙으로 들어올 기술, 역습 때 공을 오래 운반할 속도가 모두 있다. 오늘의 전술 언어로 바꿔도 설명이 줄지 않는 왼쪽이다.
 
-## 8. 오른쪽 미드필더 - 베른트 슈나이더
+## 8. 베른트 슈나이더 - 오른쪽 미드필더
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bernd-schneider.webp" alt="베른트 슈나이더의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -119,7 +119,7 @@ featured: true
 
 카림 벨라라비와 제레미 프림퐁은 더 폭발적인 직선 속도를 갖는다. 슈나이더를 고른 까닭은 이 조합에 필요한 오른쪽의 문법이 하나가 아니기 때문이다. 타가 바깥을 막으면 슈나이더는 높이 올라가고, 비르츠가 오른쪽으로 흐르면 안쪽 통로를 비운다. 좁은 공간의 패스와 긴 크로스를 같은 자세에서 보낼 수 있으니 상대는 먼저 답을 정하지 못한다.
 
-## 9. 공격형 미드필더 - 플로리안 비르츠
+## 9. 플로리안 비르츠 - 공격형 미드필더
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/florian-wirtz.webp" alt="플로리안 비르츠의 소속 기간, 기록과 수상 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -129,7 +129,7 @@ featured: true
 
 카이 하베르츠와 율드라이 바슈튀르크도 이 자리를 탐낼 만하다. 비르츠에게 돌아가는 표는 재능의 최신판이어서가 아니다. 레버쿠젠이 마침내 첫 리그 우승을 차지한 방식, 즉 중앙과 측면의 경계를 지우는 축구를 가장 선명하게 구현했기 때문이다. 이 팀에서 그는 차범근에게 달릴 시간을, 키르스텐에게 한 걸음짜리 슈팅 공간을 준다.
 
-## 10. 센터 포워드 - 차범근
+## 10. 차범근 - 센터 포워드
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/cha-bum-kun.webp" alt="차범근의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -139,7 +139,7 @@ featured: true
 
 현대의 팀에 데려오면 차범근은 고정된 9번보다 오른쪽을 함께 쓰는 전방 공격수가 된다. 슈나이더가 공을 잡을 때 바깥에서 안으로 달리고, 비르츠가 돌아서면 센터백과 풀백 사이를 먼저 친다. 강한 전방 압박과 전환 질주까지 감당할 몸도 있었다. 한국 팬에게는 썸네일의 얼굴이지만, 선정의 논리는 국적이 아니다. 레버쿠젠의 첫 유럽 우승을 가능하게 한 결정력과 공격의 폭이 표를 얻었다.
 
-## 11. 센터 포워드 - 울프 키르스텐
+## 11. 울프 키르스텐 - 센터 포워드
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ulf-kirsten.webp" alt="울프 키르스텐의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 

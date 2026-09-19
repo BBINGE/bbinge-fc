@@ -65,7 +65,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
   <p class="custom-xi-music-credit"><a href="https://www.youtube.com/watch?v=fL1yjOP8wcc" target="_blank" rel="noopener noreferrer">벤제마오른발 채널의 한글 가사 영상 원본 보기</a></p>
 </div>
 
-## 1. 마누엘 노이어｜골키퍼
+## 1. 마누엘 노이어 - 골키퍼
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-1.webp" alt="마누엘 노이어 골키퍼 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -77,7 +77,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-2.webp" width="773" height="773" alt="독일 대표팀 유니폼의 마누엘 노이어 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/manuel-neuer-3.webp" width="773" height="773" alt="마누엘 노이어의 바이언 업적 편집물" loading="lazy"></div>
 
-## 2. 프란츠 베켄바워｜리베로
+## 2. 프란츠 베켄바워 - 리베로
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-1.webp" alt="프란츠 베켄바워 리베로 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -116,7 +116,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-2.webp" width="773" height="773" alt="프란츠 베켄바워의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franz-beckenbauer-3.webp" width="773" height="773" alt="프란츠 베켄바워의 바이언 업적 편집물" loading="lazy"></div>
 
-## 3. 파울 브라이트너｜왼쪽 풀백
+## 3. 파울 브라이트너 - 왼쪽 풀백
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-1.webp" alt="파울 브라이트너 레프트백 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -128,7 +128,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-2.webp" width="773" height="773" alt="파울 브라이트너의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/paul-breitner-3.webp" width="773" height="773" alt="파울 브라이트너의 바이언 업적 편집물" loading="lazy"></div>
 
-## 4. 필리프 람｜오른쪽 풀백
+## 4. 필리프 람 - 오른쪽 풀백
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-1.webp" alt="필리프 람 라이트백 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -140,7 +140,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-2.webp" width="773" height="773" alt="필리프 람의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/philipp-lahm-3.webp" width="773" height="773" alt="필리프 람의 바이언 업적 편집물" loading="lazy"></div>
 
-## 5. 로타어 마테우스｜중앙 미드필더
+## 5. 로타어 마테우스 - 중앙 미드필더
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-4.webp" alt="로타어 마테우스 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -152,7 +152,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-5.webp" width="773" height="773" alt="로타어 마테우스의 독일 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-6.webp" width="773" height="773" alt="로타어 마테우스의 바이언 업적 편집물" loading="lazy"></div>
 
-## 6. 바스티안 슈바인슈타이거｜중앙 미드필더
+## 6. 바스티안 슈바인슈타이거 - 중앙 미드필더
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-1.webp" alt="바스티안 슈바인슈타이거 중앙 미드필더 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -164,7 +164,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-2.webp" width="773" height="773" alt="바스티안 슈바인슈타이거의 독일 대표팀 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/central-midfield-3.webp" width="773" height="773" alt="바스티안 슈바인슈타이거의 바이언 업적 편집물" loading="lazy"></div>
 
-## 7. 프랑크 리베리｜왼쪽 윙어
+## 7. 프랑크 리베리 - 왼쪽 윙어
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-1.webp" alt="프랑크 리베리 레프트윙 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -176,7 +176,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-2.webp" width="773" height="773" alt="프랑크 리베리의 프랑스 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/franck-ribery-3.webp" width="773" height="773" alt="프랑크 리베리의 바이언 업적 편집물" loading="lazy"></div>
 
-## 8. 카를하인츠 루메니게｜오른쪽 공격수
+## 8. 카를하인츠 루메니게 - 오른쪽 공격수
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-1.webp" alt="카를하인츠 루메니게 라이트윙 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -188,7 +188,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-2.webp" width="773" height="773" alt="카를하인츠 루메니게의 서독 대표팀과 발롱도르 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/karl-heinz-rummenigge-3.webp" width="773" height="773" alt="카를하인츠 루메니게의 바이언 업적 편집물" loading="lazy"></div>
 
-## 9. 토마스 뮐러｜공간 해석가
+## 9. 토마스 뮐러 - 공간 해석가
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-1.webp" alt="토마스 뮐러 세컨드 스트라이커 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -200,7 +200,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-2.webp" width="773" height="773" alt="토마스 뮐러의 독일 대표팀과 월드컵 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/thomas-muller-3.webp" width="773" height="773" alt="토마스 뮐러의 바이언 업적 편집물" loading="lazy"></div>
 
-## 10. 로베르트 레반도프스키｜센터 포워드
+## 10. 로베르트 레반도프스키 - 센터 포워드
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-4.webp" alt="로베르트 레반도프스키 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 
@@ -212,7 +212,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-gallery"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-5.webp" width="773" height="773" alt="로베르트 레반도프스키의 폴란드 대표팀과 수상 편집물" loading="lazy"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-6.webp" width="773" height="773" alt="로베르트 레반도프스키의 바이언 업적 편집물" loading="lazy"></div>
 
-## 11. 게르트 뮐러｜센터 포워드
+## 11. 게르트 뮐러 - 센터 포워드
 
 <figure class="bayern-player-art"><img src="/images/squads/bayern-munich-all-time-best-xi/centre-forward-1.webp" alt="게르트 뮐러 센터 포워드 상세 정보 디자인" loading="lazy" width="773" height="773" /></figure>
 

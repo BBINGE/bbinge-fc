@@ -18,7 +18,9 @@ featured: true
 
 **독일 연방 공화국**<span class="foreign-note" lang="de">(Bundesrepublik Deutschland; 1949년 수립된 독일의 공식 국호)</span> 서부, 노르트라인베스트팔렌주에 묀헨글라트바흐<span class="foreign-note" lang="de">(Mönchengladbach; 라인강 서쪽의 도시)</span>가 있다. 섬유 산업으로 성장한 이 도시는 쾰른이나 뒤셀도르프처럼 거대한 중심지가 아니었다. 그곳에서 태어난 축구단도 1963년 푸스발-분데스리가 창립 회원으로 선택받지 못했다.
 
-1964년 헤네스 바이스바일러<span class="foreign-note" lang="de">(Hennes Weisweiler; 독일 축구감독, 1919-1983)</span>가 부임했을 때 1군의 평균 연령은 21.5세였다. 젊은 선수들은 공격할 때마다 앞으로 쏟아졌고, 재정과 명성이 더 큰 구단을 겁내지 않았다. 기자들은 그 거침없는 질주를 보고 *Die Fohlen*, ‘망아지들’이라 불렀다. 별명은 곧 구단의 정체성이 되었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a> 1970년 첫 분데스리가 우승, 이듬해 리그 최초의 2연패, 1975년부터 1977년까지의 3연패. 1975년과 1979년에는 UEFA컵을 들었고 1977년 유러피언컵 결승에 닿았다. 이 팀의 황금기는 우승 횟수만으로 온전히 적히지 않는다. 바이언이 철과 기둥으로 제국을 세울 때 묀헨글라트바흐는 속도와 교환, 젊음의 무모함으로 축구의 문법을 흔들었다. 유럽이 만난 것은 승리하는 팀인 동시에 축구라는 게임의 진화를 시험하던 실험실이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+1964년 헤네스 바이스바일러<span class="foreign-note" lang="de">(Hennes Weisweiler; 독일 축구감독, 1919-1983)</span>가 부임했을 때 1군의 평균 연령은 21.5세였다. 젊은 선수들은 공격할 때마다 앞으로 쏟아졌고, 재정과 명성이 더 큰 구단을 겁내지 않았다. 기자들은 그 거침없는 질주를 보고 *Die Fohlen*, ‘망아지들’이라 불렀다. 별명은 곧 구단의 정체성이 되었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
+
+1970년 첫 분데스리가 우승, 이듬해 리그 최초의 2연패, 1975년부터 1977년까지의 3연패. 1975년과 1979년에는 UEFA컵을 들었고 1977년 유러피언컵 결승에 닿았다. 이 팀의 황금기는 우승 횟수만으로 온전히 적히지 않는다. 바이언이 철과 기둥으로 제국을 세울 때 묀헨글라트바흐는 속도와 교환, 젊음의 무모함으로 축구의 문법을 흔들었다. 유럽이 만난 것은 승리하는 팀인 동시에 축구라는 게임의 진화를 시험하던 실험실이었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 <div class="gladbach-era"><img src="/images/clubs/borussia-monchengladbach-logo.webp" alt="" aria-hidden="true" width="500" height="800" /><span>BORUSSIA VEREIN FÜR LEIBESÜBUNGEN 1900</span><strong>1900-2026</strong><p><em lang="de">Die Fohlen</em> · 초록과 검정에 남은 청춘의 속도</p></div>
 
@@ -28,7 +30,7 @@ featured: true
 
 <div class="custom-xi-music" data-youtube-id="PINW7HeZ54E" role="region" aria-label="삽입형 BGM 재생"> <button type="button" class="music-toggle" aria-label="재생하기">▶</button> <span><small>삥이가 이 글의 리듬으로 고른 BGM</small><strong>Måneskin · Beggin’</strong><em>구단 응원가가 아닌 편집 선곡입니다</em></span> <button type="button" class="music-cta music-toggle" aria-label="Måneskin Beggin’ 재생">재생하기</button> <div class="custom-xi-music-player" hidden><iframe loading="lazy" title="YouTube embed: Måneskin Beggin’" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div> <p class="custom-xi-music-credit"><a href="https://www.youtube.com/watch?v=PINW7HeZ54E" target="_blank" rel="noopener noreferrer">선곡 영상 원본 보기</a></p> </div>
 
-## 1. 볼프강 클레프｜골키퍼
+## 1. 볼프강 클레프 - 골키퍼
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/wolfgang-kleff.webp" alt="볼프강 클레프 골키퍼의 프로필·사진·명예를 세로로 구성한 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -38,7 +40,7 @@ featured: true
 
 바이스바일러의 수비는 골키퍼에게 편안한 저녁을 약속하지 않았다. 좌우 풀백이 전진하고 중원이 공을 잃으면 상대 공격수와 넓은 잔디를 마주해야 했다. 클레프는 페널티 지역 앞까지 나와 스루패스의 속도를 죽였고, 잡은 공을 오래 품기보다 측면으로 빠르게 보내 공격의 박자를 다시 붙였다. 1975년 UEFA컵 결승 2차전에서 트벤테를 5-1로 무너뜨린 선발 명단의 맨 뒤에도 그가 있었다. 한 팀의 공격성이 골키퍼의 성격에서 시작될 수 있음을 보여준 사례다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
-## 2. 빌프리트 하네스｜중앙 수비수
+## 2. 빌프리트 하네스 - 중앙 수비수
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/wilfried-hannes.webp" alt="빌프리트 하네스 중앙 수비수 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -48,7 +50,7 @@ featured: true
 
 하네스는 상대 9번을 따라가는 스토퍼와 남은 공간을 읽는 리베로의 문법을 모두 알았다. 188cm의 신장은 높은 공에서 우위를 주었지만 그의 진짜 가치는 헤더 이후에 드러났다. 세컨드 볼의 낙하지점을 향해 한 발 먼저 움직이고, 압박이 비면 직접 중원으로 전진했다. 1980-81시즌에는 수비수의 위치에서 분데스리가 16골을 넣었다. 세트피스와 페널티킥, 전진 능력까지 후방 자원의 범위를 넓힌 수치다. 어린 시절 한쪽 눈의 시력을 잃고도 최고 수준의 거리 판단을 완성했다는 생애는 그 침착함을 더욱 특별하게 만든다.
 
-## 3. 파트리크 안데르손｜중앙 수비수
+## 3. 파트리크 안데르손 - 중앙 수비수
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/patrik-andersson.webp" alt="파트리크 안데르손 중앙 수비수 편집물" loading="lazy" width="966" height="2549" /></figure>
 
@@ -58,7 +60,7 @@ featured: true
 
 1995년 포칼 결승에서 볼프스부르크를 상대할 때에도 그는 수비의 기준점이었다. 앞선 압박이 벗겨지면 무작정 달려들지 않고 물러서며 동료가 복귀할 시간을 벌었고, 몸을 비스듬히 세워 공격수를 불편한 방향으로 몰았다. 공을 얻은 뒤에는 짧은 패스로 압박을 끌어낸 다음 대각선 전환으로 반대편을 열었다. 훗날 바이언의 2001년 UEFA 챔피언스 리그 우승을 결정한 마지막 리그 경기에서 간접 프리킥을 성공시킨 강심장은 묀헨글라트바흐 시절부터 길러진 것이었다.
 
-## 4. 한스위르겐 클링하머｜왼쪽 풀백
+## 4. 한스위르겐 클링하머 - 왼쪽 풀백
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/hans-jurgen-klinkhammer.webp" alt="한스위르겐 클링하머 왼쪽 풀백 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -68,7 +70,7 @@ featured: true
 
 그는 전형적인 오버래핑 풀백처럼 터치라인 끝까지 매번 질주하지 않았다. 왼쪽 공격수가 안으로 접을 때 후방의 패스 길을 만들고, 반대쪽 포크츠가 올라가면 세 번째 중앙 수비수처럼 폭을 좁혔다. 1975년 UEFA컵 결승 2차전과 1977년 유러피언컵 결승의 선발 명단에 모두 이름을 올린 사실은 역할의 신뢰도를 말해준다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 결승의 조명 아래에서도 평소와 같은 간격을 유지하는 능력, 그것이 황금기 팀에서 클링하머가 얻은 자리였다.
 
-## 5. 베르티 포크츠｜오른쪽 풀백
+## 5. 베르티 포크츠 - 오른쪽 풀백
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/berti-vogts.webp" alt="베르티 포크츠 라이트백 편집물" loading="lazy" width="966" height="2737" /></figure> <div class="gladbach-deity" aria-label="베르티 포크츠의 역사적 위상"><p>묀헨글라트바흐의 첫 분데스리가 우승부터 마지막 UEFA컵 우승까지.</p><p>구단 공식전 500경기 이상을 오직 한 문장으로 연결한 주장.</p><p>1974년 월드컵 결승, 요한 크라위프의 자유를 끝까지 추적한 수비수.</p><p>선수로 월드컵을 들고 감독으로 UEFA 유로를 제패한 독일 축구의 얼굴.</p><strong>카푸, 자우마 산투스, 카를루스 아우베르투 토히스, 릴리앙 튀람과 함께 오른쪽 수비의 권능을 논할 때 가장 먼저 불려 나오는 이름.</strong></div>
 
@@ -80,7 +82,7 @@ featured: true
 
 그 무게의 클럽 쪽 이름은 묀헨글라트바흐다. 1965년부터 1979년까지 한 팀에서 뛰며 다섯 번의 분데스리가 우승과 두 번의 UEFA컵 우승을 모두 겪었다. 동료들은 그를 위해 공간을 열었고, 그는 동료들이 자유를 누린 뒤 남는 위험을 회수했다. 이 구단에서 ‘베르티’는 세 글자의 애칭이 아니라 수비가 지켜야 할 윤리였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-## 6. 헤르베르트 비머｜중앙 미드필더
+## 6. 헤르베르트 비머 - 중앙 미드필더
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/herbert-wimmer.webp" alt="헤르베르트 비머 중앙 미드필더 편집물" loading="lazy" width="966" height="2737" /></figure>
 
@@ -90,25 +92,31 @@ featured: true
 
 별명 *Iron Lung*, ‘철의 폐’는 장거리 주행만을 가리킨 찬사가 아니었다. 비머는 네처가 왼쪽 깊숙이 내려가면 그 앞의 하프스페이스를 채우고, 10번이 공을 잃는 순간에는 가장 가까운 패스 길부터 지웠다. 공격에서는 박스 바깥에 머물다가 늦게 침투해 수비의 시선을 갈랐다. UEFA 유로 1972 결승에서는 네처의 슈팅이 골키퍼에게 맞고 흐르자 두 번째 골을 넣었다. UEFA 대회 베스트 11는 그를 지칠 줄 모르는 선수로 기억한다. 366회의 분데스리가 경기를 한 구단에서 치르며 다섯 리그 우승을 함께한 지속성이 그 별명의 완성이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
-## 7. 라이너 본호프｜중앙 미드필더
+## 7. 라이너 본호프 - 중앙 미드필더
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/rainer-bonhof.webp" alt="라이너 본호프 중앙 미드필더 편집물" loading="lazy" width="966" height="2737" /></figure>
 
 라이너 본호프<span class="foreign-note" lang="de">(Rainer Bonhof; 독일 축구선수·미드필더, 1952-)</span>는 네처가 떠난 뒤에도 왕조가 계속 전진할 수 있다는 증명이었다. 강한 슈팅과 긴 패스, 넓은 활동 범위, 측면으로 흘러 크로스를 올릴 수 있는 유연함을 한 몸에 담았다. 네처가 불꽃이고 비머가 뿌리였다면 본호프는 그 둘의 유산을 다음 시대의 동력으로 바꾼 터빈이었다.
 
-1974년 월드컵 결승에서 게르트 뮐러의 결승골로 이어진 패스를 건넸고, 클럽에서는 네 차례의 분데스리가 우승과 1975년 UEFA컵을 함께했다. 발렌시아로 향한 1978년의 이적도 독일 미드필더가 국경 밖에서 전술적 권위를 인정받은 이른 사례였다. 오늘날 그는 구단의 행정가로 돌아와 과거를 전시하는 대신 미래에 연결한다. UEFA가 하인케스와 본호프를 두고 ‘그들이 없었다면 오늘의 보루시아도 없다’는 구단의 평가를 전한 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 본호프의 오른발은 중원을 통과하는 것과 중원을 생략하는 것을 모두 허락했다. 낮고 빠른 패스로 압박 사이를 찌르다가 상대가 안쪽을 잠그면 오른쪽으로 흘러 긴 크로스를 올렸다. 직접 프리킥과 중거리 슈팅은 수비 라인을 앞으로 끌어냈고, 그 틈을 시몬센과 하인케스가 사용했다. 1977년 로마의 유러피언컵 결승에서는 초반 슈팅으로 골대를 때렸다. 우승자는 리버풀이었으나 묀헨글라트바흐가 유럽의 가장 높은 경기에서도 먼저 상대를 흔들 수 있음을 보여준 장면이었다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
+1974년 월드컵 결승에서 게르트 뮐러의 결승골로 이어진 패스를 건넸고, 클럽에서는 네 차례의 분데스리가 우승과 1975년 UEFA컵을 함께했다. 발렌시아로 향한 1978년의 이적도 독일 미드필더가 국경 밖에서 전술적 권위를 인정받은 이른 사례였다. 오늘날 그는 구단의 행정가로 돌아와 과거를 전시하는 대신 미래에 연결한다. UEFA가 하인케스와 본호프를 두고 ‘그들이 없었다면 오늘의 보루시아도 없다’는 구단의 평가를 전한 이유다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
-## 8. 귄터 네처｜공격형 미드필더
+본호프의 오른발은 중원을 통과하는 것과 중원을 생략하는 것을 모두 허락했다. 낮고 빠른 패스로 압박 사이를 찌르다가 상대가 안쪽을 잠그면 오른쪽으로 흘러 긴 크로스를 올렸다. 직접 프리킥과 중거리 슈팅은 수비 라인을 앞으로 끌어냈고, 그 틈을 시몬센과 하인케스가 사용했다. 1977년 로마의 유러피언컵 결승에서는 초반 슈팅으로 골대를 때렸다. 우승자는 리버풀이었으나 묀헨글라트바흐가 유럽의 가장 높은 경기에서도 먼저 상대를 흔들 수 있음을 보여준 장면이었다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
+
+## 8. 귄터 네처 - 공격형 미드필더
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/gunter-netzer.webp" alt="귄터 네처 공격형 미드필더의 프로필·사진·명예를 세로로 구성한 편집물" loading="lazy" width="966" height="2737" /></figure> <div class="netzer-prologue"><small lang="de">KURFÜRST OVERATH · KAISER NETZER</small><strong>황제는 공을 받기 전에 이미 경기장의 다음 장면을 보았다.</strong><p>독일 축구가 낳은 첫 번째 팝스타, 묀헨글라트바흐의 창조를 인간의 모습으로 빚은 10번.</p></div>
 
-귄터 네처<span class="foreign-note" lang="de">(Günter Theodor Netzer; 독일 축구선수·플레이메이커, 1944-)</span>는 긴 금발과 페라리, 나이트클럽, 반항적인 태도까지 축구선수의 사생활이 문화면의 사건이 될 수 있음을 처음 보여준 서독의 팝스타였다. 그러나 그 이미지가 오래 살아남은 까닭은 공이 그의 발을 떠날 때마다 경기장의 질서가 실제로 바뀌었기 때문이다. 분데스리가 공식 회고도 그를 당시 묀헨글라트바흐 공격의 중심이자 독일 축구 최초의 팝스타로 부른다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 낮게 내려와 센터백에게 공을 요구하고, 몸을 반쯤 연 채 전방을 훑은 뒤 수십 미터를 한 번에 접는 패스를 보냈다. 롱패스는 거리를 과시하는 기술이 아니었다. 상대의 압박이 미처 뒤돌아보기 전에 동료를 다음 장면으로 옮기는 시간의 지배였다. 프리츠 발터와 로타어 마테우스 사이에 독일 역대 중원을 세울 때 네처가 먼저 자리 잡는 이유도 이 능력에 있다. 그의 창조성은 장식이 아니라 팀 전체가 숨 쉬는 방식이었다.
+귄터 네처<span class="foreign-note" lang="de">(Günter Theodor Netzer; 독일 축구선수·플레이메이커, 1944-)</span>는 긴 금발과 페라리, 나이트클럽, 반항적인 태도까지 축구선수의 사생활이 문화면의 사건이 될 수 있음을 처음 보여준 서독의 팝스타였다. 그러나 그 이미지가 오래 살아남은 까닭은 공이 그의 발을 떠날 때마다 경기장의 질서가 실제로 바뀌었기 때문이다. 분데스리가 공식 회고도 그를 당시 묀헨글라트바흐 공격의 중심이자 독일 축구 최초의 팝스타로 부른다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+
+낮게 내려와 센터백에게 공을 요구하고, 몸을 반쯤 연 채 전방을 훑은 뒤 수십 미터를 한 번에 접는 패스를 보냈다. 롱패스는 거리를 과시하는 기술이 아니었다. 상대의 압박이 미처 뒤돌아보기 전에 동료를 다음 장면으로 옮기는 시간의 지배였다. 프리츠 발터와 로타어 마테우스 사이에 독일 역대 중원을 세울 때 네처가 먼저 자리 잡는 이유도 이 능력에 있다. 그의 창조성은 장식이 아니라 팀 전체가 숨 쉬는 방식이었다.
 
 <figure class="netzer-rivalry"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/netzer-overath.webp" alt="서독 대표팀에서 악수하는 귄터 네처와 볼프강 오베라트" loading="lazy" width="684" height="684" /><figcaption>질서의 선제후 볼프강 오베라트와 자유의 황제 귄터 네처. 서독 중원을 둘러싼 한 시대의 논쟁.</figcaption></figure>
 
-볼프강 오베라트<span class="foreign-note" lang="de">(Wolfgang Overath; 독일 축구선수·미드필더, 1943-)</span>와의 경쟁은 잔니 리베라와 산드로 마촐라를 두고 갈라졌던 이탈리아의 논쟁만큼이나 시대를 드러낸다. 오베라트는 균형과 지속성에 강했고 네처는 한 번의 패스로 경기의 법칙을 바꾸었다. 오베라트가 부상으로 빠진 UEFA 유로 1972에서 네처가 지휘한 서독은 대회의 기준이 되었고, 1974년 월드컵에서는 다시 오베라트가 중심에 섰다. 한쪽을 낮춰야 다른 한쪽이 커지는 경쟁이 아니었다. 독일 축구가 질서와 자유 가운데 어느 얼굴로 세계를 마주할지를 묻던 양자택일이었다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 1973년 DFB-포칼 결승, 네처는 선발에서 빠졌다. 연장전이 시작되기 전 감독의 지시를 기다리는 대신 “그럼 이제 제가 뛰겠습니다”라고 말하고 스스로 교체 투입되었다. 잠시 뒤 결승골을 넣었다. 오만과 천재성이 한 장면에서 구별되지 않는 순간, 그는 묀헨글라트바흐에서의 마지막 경기를 전설로 닫고 레알 마드리드로 떠났다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+볼프강 오베라트<span class="foreign-note" lang="de">(Wolfgang Overath; 독일 축구선수·미드필더, 1943-)</span>와의 경쟁은 잔니 리베라와 산드로 마촐라를 두고 갈라졌던 이탈리아의 논쟁만큼이나 시대를 드러낸다. 오베라트는 균형과 지속성에 강했고 네처는 한 번의 패스로 경기의 법칙을 바꾸었다. 오베라트가 부상으로 빠진 UEFA 유로 1972에서 네처가 지휘한 서독은 대회의 기준이 되었고, 1974년 월드컵에서는 다시 오베라트가 중심에 섰다. 한쪽을 낮춰야 다른 한쪽이 커지는 경쟁이 아니었다. 독일 축구가 질서와 자유 가운데 어느 얼굴로 세계를 마주할지를 묻던 양자택일이었다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
-## 9. 알베르트 브륄스｜세컨드 스트라이커
+1973년 DFB-포칼 결승, 네처는 선발에서 빠졌다. 연장전이 시작되기 전 감독의 지시를 기다리는 대신 “그럼 이제 제가 뛰겠습니다”라고 말하고 스스로 교체 투입되었다. 잠시 뒤 결승골을 넣었다. 오만과 천재성이 한 장면에서 구별되지 않는 순간, 그는 묀헨글라트바흐에서의 마지막 경기를 전설로 닫고 레알 마드리드로 떠났다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+
+## 9. 알베르트 브륄스 - 세컨드 스트라이커
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/albert-brulls.webp" alt="알베르트 브륄스 세컨드 스트라이커 편집물" loading="lazy" width="966" height="2357" /></figure>
 
@@ -116,21 +124,25 @@ featured: true
 
 브륄스는 고정된 센터 포워드보다 공을 찾아 움직이는 내부 공격수에 가까웠다. 중원까지 내려와 패스를 받은 뒤 짧은 드리블로 수비수를 끌고 나왔고, 동료가 만든 틈에는 다시 문전으로 파고들었다. 1960년 포칼 우승 과정에서 보여준 득점과 조율은 지역 대회의 강호였던 팀을 전국의 시야 안으로 옮겼다. 이후 모데나와 브레시아에서 뛰며 이탈리아의 촘촘한 수비를 경험한 경력은, 훗날 묀헨글라트바흐가 유럽의 전술을 흡수하고 되돌려주는 구단이 될 것임을 먼저 예고했다.
 
-## 10. 알란 시몬센｜세컨드 스트라이커
+## 10. 알란 시몬센 - 세컨드 스트라이커
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/allan-simonsen.webp" alt="알란 시몬센 세컨드 스트라이커 편집물" loading="lazy" width="966" height="2737" /></figure>
 
 알란 시몬센<span class="foreign-note" lang="da">(Allan Rodenkam Simonsen; 덴마크 축구선수·공격수, 1952-)</span>은 작은 몸으로 묀헨글라트바흐의 역사를 세계사에 연결했다. 첫 두 시즌에는 자리를 잡지 못했지만 빠른 방향 전환과 양발의 마무리, 측면과 중앙을 오가는 움직임으로 왕조의 최전선에 올랐다. 1977년 발롱도르는 리버풀과의 유러피언컵 결승에서 패한 팀의 공격수가 유럽 최고의 개인으로 선택된 사건이었다.
 
-그는 유러피언컵, UEFA컵, 컵위너스컵 결승에서 모두 득점한 유일한 선수로 기록된다. 서로 다른 세 유럽대항전의 마지막 무대에서 골을 남겼다는 사실은 한 체격이나 한 전술에 갇히지 않았던 공격수의 범위를 보여준다. 덴마크 축구가 훗날 라우드루프 형제와 크리스티안 에릭센을 낳기 전, 세계는 시몬센을 통해 그 나라의 창조성을 먼저 배웠다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a> 공을 받을 때의 첫 방향이 시몬센의 무기였다. 터치라인 쪽으로 열어 수비수를 따라오게 만든 뒤 안쪽으로 급히 꺾었고, 좁은 보폭으로 두 번째 접촉까지 가져가 슈팅 각을 확보했다. 1975년 트벤테와의 UEFA컵 결승 2차전에서는 시작 3분 만에 골을 넣고 마지막 페널티킥까지 책임졌다. 1977년 로마에서는 리버풀 골문 오른쪽 위를 찌르는 동점골을 남겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 가장 큰 무대에서 수비가 좁힌 공간을 오히려 출발점으로 삼았으니, 발롱도르는 왕조의 명성에 얹힌 상이 아니라 그가 직접 만든 결승의 흔적이었다.
+그는 유러피언컵, UEFA컵, 컵위너스컵 결승에서 모두 득점한 유일한 선수로 기록된다. 서로 다른 세 유럽대항전의 마지막 무대에서 골을 남겼다는 사실은 한 체격이나 한 전술에 갇히지 않았던 공격수의 범위를 보여준다. 덴마크 축구가 훗날 라우드루프 형제와 크리스티안 에릭센을 낳기 전, 세계는 시몬센을 통해 그 나라의 창조성을 먼저 배웠다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
-## 11. 유프 하인케스｜센터 포워드
+공을 받을 때의 첫 방향이 시몬센의 무기였다. 터치라인 쪽으로 열어 수비수를 따라오게 만든 뒤 안쪽으로 급히 꺾었고, 좁은 보폭으로 두 번째 접촉까지 가져가 슈팅 각을 확보했다. 1975년 트벤테와의 UEFA컵 결승 2차전에서는 시작 3분 만에 골을 넣고 마지막 페널티킥까지 책임졌다. 1977년 로마에서는 리버풀 골문 오른쪽 위를 찌르는 동점골을 남겼다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a><a class="cite" href="#source-11" aria-label="출처 11">[11]</a> 가장 큰 무대에서 수비가 좁힌 공간을 오히려 출발점으로 삼았으니, 발롱도르는 왕조의 명성에 얹힌 상이 아니라 그가 직접 만든 결승의 흔적이었다.
+
+## 11. 유프 하인케스 - 센터 포워드
 
 <figure class="gladbach-player-art"><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/jupp-heynckes.webp" alt="유프 하인케스 센터 포워드 편집물" loading="lazy" width="966" height="2737" /></figure> <blockquote class="heynckes-invocation"><strong>그는 태어났고, 골을 넣었고, 묀헨글라트바흐가 되었다.</strong><span>도시가 한 사람의 이름을 빌려 자기 황금기를 기억하는 방식.</span></blockquote>
 
 유프 하인케스<span class="foreign-note" lang="de">(Josef “Jupp” Heynckes; 독일 축구선수·감독, 1945-)</span>를 현대의 기억은 2013년 바이언 트레블의 명장으로 먼저 부른다. 묀헨글라트바흐에서 그의 이름은 전술판 바깥으로 더 멀리 퍼진다. 이 도시에서 태어나 지역의 유소년 축구를 거쳐 보루시아의 최전방에 섰고, 은퇴 뒤 곧바로 같은 팀의 감독이 되었다. 선수와 감독의 경계를 넘어 도시가 가장 찬란했던 계절을 몸 안에 보관한 상징이다.
 
-분데스리가 369경기 220골. 게르트 뮐러와 로베르트 레반도프스키의 초월적 수치가 놓인 리그에서도 하인케스는 역대 네 번째 득점자로 남아 있다. 두 골 이상 넣은 경기가 51번이며, 이 부문에서 그보다 앞선 선수도 두 사람뿐이다. 1973-74시즌 30골, 1974-75시즌 27골로 연속 득점왕에 올랐다. 두 시즌째의 끝에는 트벤테와의 UEFA컵 결승 2차전 해트트릭이 기다렸다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a><a class="cite" href="#source-9" aria-label="출처 9">[9]</a> 하인케스의 골은 큰 몸으로 수비를 밀어내는 한 가지 공식에서 나오지 않았다. 수비수의 시선이 공으로 향하는 순간 등 뒤를 비집고, 동료의 첫 터치가 놓일 지점을 먼저 읽었다. 양발과 머리로 끝낼 수 있었기에 골문 앞에서 특정 방향을 강요받지 않았다. 침투의 출발은 조용했고 결과는 폭발적이었다. 망아지들의 복잡한 움직임이 마지막에 도착해야 할 좌표를 그가 알고 있었다.
+분데스리가 369경기 220골. 게르트 뮐러와 로베르트 레반도프스키의 초월적 수치가 놓인 리그에서도 하인케스는 역대 네 번째 득점자로 남아 있다. 두 골 이상 넣은 경기가 51번이며, 이 부문에서 그보다 앞선 선수도 두 사람뿐이다. 1973-74시즌 30골, 1974-75시즌 27골로 연속 득점왕에 올랐다. 두 시즌째의 끝에는 트벤테와의 UEFA컵 결승 2차전 해트트릭이 기다렸다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a><a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
+
+하인케스의 골은 큰 몸으로 수비를 밀어내는 한 가지 공식에서 나오지 않았다. 수비수의 시선이 공으로 향하는 순간 등 뒤를 비집고, 동료의 첫 터치가 놓일 지점을 먼저 읽었다. 양발과 머리로 끝낼 수 있었기에 골문 앞에서 특정 방향을 강요받지 않았다. 침투의 출발은 조용했고 결과는 폭발적이었다. 망아지들의 복잡한 움직임이 마지막에 도착해야 할 좌표를 그가 알고 있었다.
 
 선수로 네 차례 분데스리가를 제패하고 1975년 UEFA컵을 들었다. 감독으로 돌아와서는 1979년부터 1987년까지 다음 세대의 팀을 길렀다. 게르트 뮐러와 레반도프스키가 분데스리가 득점의 두 극점이라면, 하인케스는 그 사이에서 클럽·도시·선수·감독을 하나로 묶은 독자적인 천외천이다. 묀헨글라트바흐라는 지명이 한 인간의 생애와 이렇게 정확히 겹치는 경우는 축구사에도 드물다.
 

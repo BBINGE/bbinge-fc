@@ -53,7 +53,7 @@ featured: false
 
 최전방에는 피치치와 텔모 사라가 함께 선다. 둘은 1922년과 1940년으로 활동 시기가 갈리지만 득점 방식이 겹치지 않는다. 피치치는 골문 앞의 좁은 자리를 먼저 찾아 들어갔고 사라는 머리와 양발, 가슴과 어깨까지 동원해 마무리했다. 앞선 아홉이 공을 전방으로 보내기만 하면 두 사람이 서로 다른 방식으로 받을 수 있는 구성이다.
 
-## 1. 골키퍼 - 호세 앙헬 이리바르
+## 1. 호세 앙헬 이리바르 - 골키퍼
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/jose-angel-iribar.webp" alt="호세 앙헬 이리바르 골키퍼 선수 카드" loading="lazy" width="966" height="966" /><figcaption>호세 앙헬 이리바르. 디자인: 삥이.</figcaption></figure>
 
@@ -67,7 +67,7 @@ featured: false
 
 두 주장은 그날 어떤 성명도 내지 않았다. 사진 한 장이 남았고, 그 사진은 이후 바스크 자치와 이쿠리냐 합법화를 다루는 기사마다 인용됐다. 이쿠리냐는 이듬해 1월 19일에 합법화됐다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 이리바르는 은퇴 뒤 아틀레틱 클루브 2군과 1군을 거쳐 1992년 바스크 대표팀 감독을 맡았다.
 
-## 2. 센터백 - 헤수스 가라이
+## 2. 헤수스 가라이 - 센터백
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/jesus-garay.webp" alt="헤수스 가라이 센터백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>헤수스 가라이. 디자인: 삥이.</figcaption></figure>
 
@@ -77,7 +77,7 @@ featured: false
 
 그가 있던 십 년이 이 구단이 스페인과 유럽에서 동시에 강했던 마지막 시기다. 1955-56시즌 라리가 우승과 이듬해 유러피언컵 출전이 그 안에 들어 있다. 1980년대에 라리가를 두 번 더 가져가기는 하지만, 유럽 무대에서까지 상대를 눌러 본 것은 가라이의 시대가 끝이었다. 그런 팀의 중심에 있었는데도 바스크 사람들이 그를 부르던 말은 화려한 데가 없었다. 가장 믿을 수 있는 남자.
 
-## 3. 센터백 - 안도니 고이코에체아
+## 3. 안도니 고이코에체아 - 센터백
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/andoni-goikoetxea.webp" alt="안도니 고이코에체아 센터백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>안도니 고이코에체아. 디자인: 삥이.</figcaption></figure>
 
@@ -91,7 +91,7 @@ featured: false
 
 그를 어떻게 부를 것인가는 지금도 갈린다. 동료들이 기억하는 고이코에체아는 조용한 사람이었고 그에게는 수줍은 자<span class="foreign-note" lang="es">(El Tímido)</span>라는 별명도 따로 있었다. 확실한 것은 전술적인 쪽이다. 그는 상대의 가장 좋은 선수를 지우는 임무를 맡았고, 공중볼을 장악했고, 세트피스에서 득점했다. 1980년대 아틀레틱 클루브가 마드리드와 바르셀로나를 두 시즌 연속으로 눌렀을 때 그 팀의 중심에 있던 사람이다. 축구장 위에서 선과 폭력의 경계선을 걸었다는 말은 스페인 <cite>마르카</cite>의 평가다.
 
-## 4. 레프트백 - 아이토르 라라사발
+## 4. 아이토르 라라사발 - 레프트백
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/aitor-larrazabal.webp" alt="아이토르 라라사발 레프트백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>아이토르 라라사발. 디자인: 삥이.</figcaption></figure>
 
@@ -101,7 +101,7 @@ featured: false
 
 1997-98시즌 라리가 준우승이 그 답이었다. 순혈 정책을 지킨 팀이 스페인에서 두 번째로 높은 자리에 올랐다. 그 팀에는 아직 이케르 무니아인도, 페르난도 요렌테도, 아리츠 아두리스도 없었다. 라라사발이 왼쪽에 서서 어린 선수들의 방향을 잡아주고 있었다.
 
-## 5. 라이트백 - 호세 오루에
+## 5. 호세 오루에 - 라이트백
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/jose-orue.webp" alt="호세 오루에 라이트백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>호세 오루에. 디자인: 삥이.</figcaption></figure>
 
@@ -111,7 +111,7 @@ featured: false
 
 한 구단에서만 452경기를 뛰었다는 것은 1950년대 아틀레틱 클루브의 수비가 해마다 같은 오른쪽을 가지고 시즌을 시작했다는 뜻이다.
 
-## 6. 수비형 미드필더 - 호세 마리아 벨라우스테
+## 6. 호세 마리아 벨라우스테 - 수비형 미드필더
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/jose-maria-belauste.webp" alt="호세 마리아 벨라우스테 수비형 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>호세 마리아 벨라우스테. 디자인: 삥이.</figcaption></figure>
 
@@ -130,7 +130,7 @@ featured: false
 
 그는 1905년부터 1926년까지 코파 델 레이 7회와 비스카야 지역 챔피언십 8회 우승을 함께했고, 사람들은 그를 앤트워프의 사자<span class="foreign-note" lang="es">(El León de Amberes)</span>라 불렀다. 오늘날에도 바스크 유소년 체계에는 그의 이름을 붙인 교육 과정이 있다.
 
-## 7. 공격형 미드필더 - 훌렌 게레로
+## 7. 훌렌 게레로 - 공격형 미드필더
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/julen-guerrero.webp" alt="훌렌 게레로 공격형 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>훌렌 게레로. 디자인: 삥이.</figcaption></figure>
 
@@ -148,7 +148,7 @@ featured: false
 
 그리고 그는 한 번도 이적을 진지하게 고려하지 않았다. 1990년대 라리가에서 이 정도 재능이 한 구단에만 머무는 일은 흔치 않았다. 그래서 바스크 바깥 사람들까지 시계를 봤다. 엥, 빌바오 경기할 시간이잖아. TV 틀어. 실력만으로 생기는 습관이 아니다. 떠날 수 있는데 떠나지 않는 사람을 지켜보는 일이 그 자체로 하나의 서사였다.
 
-## 8. 레프트 윙 - 아구스틴 가인사
+## 8. 아구스틴 가인사 - 레프트 윙
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/agustin-gainza.webp" alt="아구스틴 가인사 레프트 윙 선수 카드" loading="lazy" width="966" height="966" /><figcaption>아구스틴 가인사. 디자인: 삥이.</figcaption></figure>
 
@@ -158,7 +158,7 @@ featured: false
 
 팀이 내려앉던 시기에 주장으로서 그가 한 일도 기록에 남아 있다. 성적이 나쁠 때 고개를 숙이는 대신 관중석을 향해 고개를 든 선수였다. 요즘 말로 남친 코스프레라고 부르면 틀린 말이 된다. 코스프레가 아니라 원형에 가까웠다. 그가 왼쪽 선을 타고 오를 때 스페인 국기보다 바스크 깃발이 먼저 휘날리는 기분이었다는 회고가 한결같은 것도 그래서다.
 
-## 9. 라이트 미드필더 - 호세 루이스 파니소
+## 9. 호세 루이스 파니소 - 라이트 미드필더
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/jose-luis-panizo.webp" alt="호세 루이스 파니소 라이트 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>호세 루이스 파니소. 디자인: 삥이.</figcaption></figure>
 
@@ -168,7 +168,7 @@ featured: false
 
 텔모 사라가 넣은 골의 앞 장면에 이 사람이 자주 있었다. 스트라이커에게 마지막 패스를 넣는 역할이 아니라, 그 마지막 패스가 나올 수 있는 상태를 미리 만들어 두는 역할이었다. 지금 식으로 말하면 경기의 템포를 쥔 선수였다. 그런 선수는 하이라이트에 잘 남지 않고, 그래서 후대의 평가에서 늘 손해를 본다. 이 자리에 그를 세우는 것은 그 손해를 한 번 갚는 일이다.
 
-## 10. 센터 포워드 - 피치치
+## 10. 피치치 - 센터 포워드
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/pichichi.webp" alt="피치치 센터 포워드 선수 카드" loading="lazy" width="966" height="966" /><figcaption>라파엘 모레노 아란사디, 피치치. 디자인: 삥이.</figcaption></figure>
 
@@ -188,7 +188,7 @@ featured: false
 
 스물아홉에 세상을 떠난 선수가 백 년 뒤까지 남은 방식은 두 가지다. 리그의 득점왕 이름으로 한 번, 경기장 입구의 흉상으로 한 번이다.
 
-## 11. 센터 포워드 - 텔모 사라
+## 11. 텔모 사라 - 센터 포워드
 
 <figure class="athletic-player-art"><img src="/images/squads/athletic-club-all-time-best-xi/telmo-zarra.webp" alt="텔모 사라 센터 포워드 선수 카드" loading="lazy" width="966" height="966" /><figcaption>텔모 사라. 디자인: 삥이.</figcaption></figure>
 

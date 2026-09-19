@@ -50,7 +50,7 @@ featured: false
 
 이 팀의 핵심은 이름값 순서가 아니다. 수비 세 명은 좌우와 중앙의 역할이 겹치지 않고, 사라가와 산티스테반은 공격진이 자유롭게 움직일 수 있는 바닥을 만든다. 디스테파노와 푸슈카시는 고정된 ‘2선’이라기보다 경기의 높이를 바꾸는 두 축이다. 헨토와 코파가 폭을 만들면 리알이 골문과 패스 사이를 잇는다.
 
-### 1. 후안 알론소｜골키퍼
+### 1. 후안 알론소 - 골키퍼
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/juanito-alonso.png" alt="후안 알론소 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>GK · GOALKEEPER</span><h4>후안 알론소</h4><small lang="es">Juan Adelarpe Alonso</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1949-1961</dd></div><div><dt>공식 기록</dt><dd>296경기</dd></div></dl></div></article>
 
@@ -60,7 +60,7 @@ featured: false
 
 폐 질환과 쇄골 골절이 겹치며 전성기가 예상보다 일찍 끝났지만, 레알 마드리드 공식전 296경기와 첫 세 번의 유럽 제패는 분명하게 남았다. 다섯 번의 결승을 모두 뛴 골키퍼는 아니어도 왕조가 가장 불안한 첫 관문을 통과할 때 골문을 맡았다는 점, 그리고 반복된 경쟁 속에서도 자리를 지켜낸 꾸준함을 높게 평가했다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-### 2. 라파엘 레스메스｜레프트백
+### 2. 라파엘 레스메스 - 레프트백
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/rafael-lesmes.png" alt="라파엘 레스메스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>LB · LEFT BACK</span><h4>라파엘 레스메스</h4><small lang="es">Rafael Lesmes Bobed</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1952-1959</dd></div><div><dt>공식 기록</dt><dd>221경기 1골</dd></div></dl></div></article>
 
@@ -70,7 +70,7 @@ featured: false
 
 그는 1956년 스타드 드 랭스, 1957년 피오렌티나, 1958년 AC 밀란을 상대한 첫 세 차례 유러피언컵 결승에 모두 선발 출전했다. 산타마리아가 오기 전의 수비와 그가 합류한 뒤의 수비를 모두 경험한 연결자이기도 하다. 공격 성향이 강한 이 커스텀 팀에서 왼쪽까지 또 한 명의 공격수를 놓기보다, 헨토의 질주를 끝까지 보증해 줄 레스메스를 택했다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-### 3. 호세 산타마리아｜센터백
+### 3. 호세 산타마리아 - 센터백
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/jose-santamaria.png" alt="호세 산타마리아 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CB · CENTRE BACK</span><h4>호세 산타마리아</h4><small lang="es">José Emilio Santamaría Iglesias</small><dl><div><dt>국적</dt><dd>우루과이·스페인</dd></div><div><dt>레알 소속</dt><dd>1957-1966</dd></div><div><dt>공식 기록</dt><dd>337경기 2골</dd></div></dl></div></article>
 
@@ -80,7 +80,7 @@ featured: false
 
 첫 두 번의 유러피언컵 우승에는 없었지만 합류 첫 시즌부터 AC 밀란을 꺾은 세 번째 우승의 중앙을 맡았다. 이후 네 번째와 다섯 번째 우승, 첫 인터콘티넨털컵을 거쳐 1966년 예예 마드리드의 여섯 번째 유럽 제패까지 연결했다. 공식전 337경기에서 단 2골을 남긴 수비수였지만, 그의 가치는 득점보다 수비진에 명확한 기준점을 세운 데 있었다. 이 명단에서 가장 먼저 적어 넣을 중앙 수비수다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a>
 
-### 4. 마르키토스｜라이트백
+### 4. 마르키토스 - 라이트백
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/marquitos.png" alt="마르키토스 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RB · RIGHT BACK</span><h4>마르키토스</h4><small lang="es">Marcos Alonso Imaz</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1954-1962</dd></div><div><dt>공식 기록</dt><dd>228경기 3골</dd></div></dl></div></article>
 
@@ -90,7 +90,7 @@ featured: false
 
 그는 다섯 번의 유러피언컵 우승을 모두 선수단에서 경험했고 공식전 228경기를 뛰었다. 레스메스가 위치와 균형을 대표한다면 마르키토스는 충돌과 결단을 대표한다. 서로 다른 성향의 두 측면 수비수 사이에 산타마리아를 배치하면, 한쪽은 헨토의 전진을 보호하고 다른 한쪽은 코파가 비운 공간으로 과감하게 움직일 수 있다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-### 5. 호세 마리아 사라가｜중앙 미드필더
+### 5. 호세 마리아 사라가 - 중앙 미드필더
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/jose-maria-zarraga.png" alt="호세 마리아 사라가 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><h4>호세 마리아 사라가</h4><small lang="es">José María Zárraga Martín</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1949-1962</dd></div><div><dt>공식 기록</dt><dd>303경기 7골</dd></div></dl></div></article>
 
@@ -100,7 +100,7 @@ featured: false
 
 그는 유러피언컵 5연패의 모든 결승에 선발로 나섰고 마지막 두 번은 주장으로 트로피를 들었다. 공식전 303경기 7골이라는 숫자보다 중요한 기록은 다섯 결승의 공통분모였다는 사실이다. 화려한 공격진의 구성은 바뀌었지만 중원의 질서와 주장 완장은 사라가가 지켰다. 이 시대를 한 팀으로 압축한다면 중앙 미드필더 한 자리는 가장 먼저 그의 몫이어야 한다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
-### 6. 후안 산티스테반｜중앙 미드필더
+### 6. 후안 산티스테반 - 중앙 미드필더
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/juan-santisteban.png" alt="후안 산티스테반 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CM · CENTRAL MIDFIELDER</span><h4>후안 산티스테반</h4><small lang="es">Juan Santisteban Troyano</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1954-1964</dd></div><div><dt>공식 기록</dt><dd>115경기 4골</dd></div></dl></div></article>
 
@@ -110,7 +110,7 @@ featured: false
 
 1957-58시즌부터 사라가와 중원을 이루며 첫 네 차례 유러피언컵 우승 선수단에 포함됐다. 절정기에 입은 근육 부상이 제대로 치료되지 않아 1960년 결승에는 뛰지 못했고, 그 여파로 통산 기록도 공식전 115경기에 머물렀다. 그럼에도 이 팀에 필요한 것은 사라가와 역할이 겹치는 또 한 명의 상징이 아니라, 그의 노동을 전진으로 바꿀 미드필더라고 판단했다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a>
 
-### 7. 알프레도 디스테파노｜프리 롤
+### 7. 알프레도 디스테파노 - 프리 롤
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/alfredo-di-stefano.png" alt="알프레도 디스테파노 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>FREE ROLE · LA SAETA RUBIA</span><h4>알프레도 디스테파노</h4><small lang="es">Alfredo Di Stéfano Laulhé</small><dl><div><dt>국적</dt><dd>아르헨티나·스페인</dd></div><div><dt>레알 소속</dt><dd>1953-1964</dd></div><div><dt>공식 기록</dt><dd>396경기 308골</dd></div></dl></div></article>
 
@@ -120,7 +120,7 @@ featured: false
 
 1956년부터 1960년까지 다섯 차례 유러피언컵 결승에서 빠짐없이 득점했고, 1960년 아인트라흐트 프랑크푸르트전에서는 해트트릭을 기록했다. 레알 마드리드 공식전 396경기 308골, 발롱도르 2회와 유일한 슈퍼 발롱도르라는 이력도 압도적이다. 숫자로 잡히지 않는 영향력은 동료의 장점까지 끌어낸 움직임에서 드러난다. 이 팀의 나머지 열 자리는 디스테파노가 가장 넓게 움직이고, 그 움직임이 동료의 공간으로 이어지도록 맞춰진다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 
-### 8. 푸슈카시 페렌츠｜인사이드 포워드
+### 8. 푸슈카시 페렌츠 - 인사이드 포워드
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/ferenc-puskas.png" alt="푸슈카시 페렌츠 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>IF · INSIDE FORWARD</span><h4>푸슈카시 페렌츠</h4><small lang="hu">Puskás Ferenc</small><dl><div><dt>국적</dt><dd>헝가리·스페인</dd></div><div><dt>레알 소속</dt><dd>1958-1967</dd></div><div><dt>공식 기록</dt><dd>262경기 242골</dd></div></dl></div></article>
 
@@ -130,7 +130,7 @@ featured: false
 
 1960년 프랑크푸르트와의 유러피언컵 결승에서 네 골, 1962년 벤피카와의 결승에서 해트트릭을 넣었다. 레알 마드리드에서는 공식전 262경기 242골을 기록했다. 이 명단은 1960년까지의 5연패가 중심이지만, 이후 결승에서도 반복된 폭발력은 그의 결정력이 특정 시즌의 우연이 아니었음을 보여준다. 디스테파노가 팀 전체의 운동 범위를 넓힌다면 푸슈카시는 그 모든 움직임을 득점으로 끝낼 선수다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a>
 
-### 9. 파코 헨토｜레프트 윙
+### 9. 파코 헨토 - 레프트 윙
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/paco-gento.png" alt="파코 헨토 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>LW · LEFT WINGER</span><h4>파코 헨토</h4><small lang="es">Francisco Gento López</small><dl><div><dt>국적</dt><dd>스페인</dd></div><div><dt>레알 소속</dt><dd>1953-1971</dd></div><div><dt>공식 기록</dt><dd>600경기 182골</dd></div></dl></div></article>
 
@@ -140,7 +140,7 @@ featured: false
 
 1957년 피오렌티나와의 결승에서는 승부를 굳히는 골을, 1958년 AC 밀란과의 결승에서는 연장 결승골을 넣었다. 5연패 뒤에도 팀에 남아 1966년 예예 마드리드의 주장으로 여섯 번째 유러피언컵을 들었다. 공식전 600경기 182골, 유러피언컵 우승 6회. 두 왕조를 선수로 직접 연결한 유일한 축이면서, 이 팀의 중앙에 모인 재능을 실제 공간으로 펼쳐 줄 왼쪽 윙어다.<a class="cite" href="#source-10" aria-label="출처 10">[10]</a>
 
-### 10. 레몽 코파｜라이트 윙
+### 10. 레몽 코파 - 라이트 윙
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/raymond-kopa.png" alt="레몽 코파 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>RW · RIGHT WINGER</span><h4>레몽 코파</h4><small lang="fr">Raymond Kopaszewski</small><dl><div><dt>국적</dt><dd>프랑스</dd></div><div><dt>레알 소속</dt><dd>1956-1959</dd></div><div><dt>공식 기록</dt><dd>103경기 30골</dd></div></dl></div></article>
 
@@ -150,7 +150,7 @@ featured: false
 
 마드리드에서 보낸 세 시즌마다 유러피언컵을 우승했고 공식전 103경기에서 30골을 기록했다. 1958년 발롱도르 수상은 디스테파노의 그늘에 머문 조연이 아니라 유럽 최고의 선수 가운데 한 명이었음을 보여준다. 푸슈카시와 함께한 시간은 한 시즌뿐이지만 이 글은 단일 시즌 선발표가 아니다. 왕조의 기술적 밀도를 가장 높였던 오른쪽 공격수로 코파를 남겼다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
-### 11. 엑토르 리알｜센터 포워드
+### 11. 엑토르 리알 - 센터 포워드
 
 <article class="custom-xi-player"><img src="/images/squads/real-madrid-death-squad-best-xi/hector-rial.png" alt="엑토르 리알 선수 디자인 카드" loading="lazy" width="774" height="774" /><div><span>CF · CENTRE FORWARD</span><h4>엑토르 리알</h4><small lang="es">José Héctor Rial Laguía</small><dl><div><dt>국적</dt><dd>아르헨티나·스페인</dd></div><div><dt>레알 소속</dt><dd>1954-1961</dd></div><div><dt>공식 기록</dt><dd>169경기 83골</dd></div></dl></div></article>
 

@@ -63,7 +63,7 @@ featured: false
 
 앞도 세 명이다. 왼쪽에 코야르가 서서 선을 타고, 가운데에 가라테가 박스 안을 지키며, 그리에즈만이 오른쪽에서 안으로 접혀 들어온다. 그리에즈만이 내려와 공을 받으면 가라테가 앞으로 밀고 들어가는 구조이고, 그 사이 코야르가 왼쪽 끝에서 수비를 벌려 준다.
 
-## 1. 골키퍼 - 얀 오블라크
+## 1. 얀 오블라크 - 골키퍼
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/jan-oblak.webp" alt="얀 오블라크 골키퍼 선수 카드" loading="lazy" width="966" height="966" /><figcaption>얀 오블라크. 디자인: 삥이.</figcaption></figure>
 
@@ -79,7 +79,7 @@ featured: false
 
 다만 그 UEFA 챔피언스 리그 결승은 승부차기까지 가서 졌고, 그가 막아 낸 킥은 하나도 없었다. 막아 낸 것으로 팀을 결승에 올려놓고 막지 못한 것으로 우승을 놓쳤으니, 이런 결말마저 참 알레띠답다.
 
-## 2. 센터백 - 후안 카를로스 아르테체
+## 2. 후안 카를로스 아르테체 - 센터백
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/juan-carlos-arteche.webp" alt="후안 카를로스 아르테체 센터백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>후안 카를로스 아르테체. 디자인: 삥이.</figcaption></figure>
 
@@ -97,7 +97,7 @@ featured: false
 
 그리고 그는 2010년 10월 13일, 암으로 세상을 떠났다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-## 3. 센터백 - 디에고 고딘
+## 3. 디에고 고딘 - 센터백
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/diego-godin.webp" alt="디에고 고딘 센터백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>디에고 고딘. 디자인: 삥이.</figcaption></figure>
 
@@ -111,7 +111,7 @@ featured: false
 
 그리고 일주일 뒤 리스본에서 한 번 더 머리를 들이댔는데, 이번에는 결말이 달랐다. UEFA 챔피언스 리그 결승에서 레알 마드리드 CF를 상대로 전반 36분에 먼저 넣고도 후반 추가시간에 동점을 허용했고, 연장에서 세 골을 더 내주며 1-4로 졌다. 그러니까 2014년 5월의 고딘은 여드레 사이에 같은 방식으로 두 번 골문을 열었고, 한 번은 리그를 가져왔으며 한 번은 아무것도 가져오지 못했다.
 
-## 4. 레프트백 - 이사시오 카예하
+## 4. 이사시오 카예하 - 레프트백
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/isacio-calleja.webp" alt="이사시오 카예하 레프트백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>이사시오 카예하. 디자인: 삥이.</figcaption></figure>
 
@@ -123,7 +123,7 @@ featured: false
 
 그 두 결승 사이에 왼쪽을 지킨 방식이 그를 설명한다. 그는 전방으로 뛰어 올라가는 대신 위치 감각에 기대 자리를 지켰고, 하프라인과 페널티 박스 사이의 간격을 재면서 뒷공간이 벌어지지 않게 했다. 공을 잡으면 길게 끌지 않고 간결한 킥으로 넘겼으며, 페널티 박스 안에서는 미칠 듯 냉정했다. 이 4가지 포인트는 당시 라리가는 물론 유럽 내에서 알레띠 수비력의 존재감을 과시하는 원인이 되었다. 그 시절 스페인 축구 시스템에서 풀백은 '다재다능'이 요구되었는데 이사시오 카예하는 그 다재다능을 기교가 아닌 습관으로 수행한 인물이었던 것이다.
 
-## 5. 라이트백 - 펠리시아노 리비야
+## 5. 펠리시아노 리비야 - 라이트백
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/feliciano-rivilla.webp" alt="펠리시아노 리비야 라이트백 선수 카드" loading="lazy" width="966" height="966" /><figcaption>펠리시아노 리비야. 디자인: 삥이.</figcaption></figure>
 
@@ -143,7 +143,7 @@ featured: false
 
 이사시오 카예하가 왼쪽의 철학이었다면, 펠리시아노 리비야는 오른쪽의 기술이었고, 때문에 두 풀백의 조합은 알레띠는 물론 스페인 축구 역사상 가장 안정적인 풀백 듀오라고 평가된다.
 
-## 6. 중앙 미드필더 - 아델라르도 로드리게스
+## 6. 아델라르도 로드리게스 - 중앙 미드필더
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/adelardo-rodriguez.webp" alt="아델라르도 로드리게스 중앙 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>아델라르도 로드리게스. 디자인: 삥이.</figcaption></figure>
 
@@ -159,7 +159,7 @@ featured: false
 
 <blockquote class="atleti-quote"><p>걔가 공을 잡을 때, 난 그냥 달리면 골이었어.</p><cite>호세 에울로히오 가라테</cite></blockquote>
 
-## 7. 중앙 미드필더 - 루이스 아라고네스
+## 7. 루이스 아라고네스 - 중앙 미드필더
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/luis-aragones.webp" alt="루이스 아라고네스 중앙 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>루이스 아라고네스. 디자인: 삥이.</figcaption></figure>
 
@@ -183,7 +183,7 @@ featured: false
 
 <blockquote class="atleti-quote"><p>아틀레티코의 모든 이들은 클럽과 스페인 축구의 중요한 역할을 한 분을 잃었다.</p><cite>디에고 시메오네 감독이 루이스 아라고네스의 죽음에 슬퍼하며</cite></blockquote>
 
-## 8. 중앙 미드필더 - 코케
+## 8. 코케 - 중앙 미드필더
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/koke.webp" alt="코케 중앙 미드필더 선수 카드" loading="lazy" width="966" height="966" /><figcaption>코케. 디자인: 삥이.</figcaption></figure>
 
@@ -197,7 +197,7 @@ featured: false
 
 기술과 운동량, 압박과 간격 조절 모두를 평균 이상으로 수행하는 하이브리드형 미드필더인 코케는 오프 더 볼 위치 조정과 공간 커버, 압박 유도 능력이 매우 탁월해 디에고 시메오네 감독 전술 체계에서 가장 핵심 역할을 수행하고 있기도 하다. 또한, 태클 시 저자세 태클을 시도하고, 곧바로 짧은 패스를 연결해 내는데 이는 알레띠 특유의 질식 수비와 재빠른 공격에 큰 도움을 주는 스타일이기도 하다.
 
-## 9. 레프트 윙 - 엔리케 코야르
+## 9. 엔리케 코야르 - 레프트 윙
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/enrique-collar.webp" alt="엔리케 코야르 레프트 윙 선수 카드" loading="lazy" width="966" height="966" /><figcaption>엔리케 코야르. 디자인: 삥이.</figcaption></figure>
 
@@ -211,7 +211,7 @@ featured: false
 
 1954-55시즌부터 1968-69시즌까지 470경기를 뛰며 열 시즌이나 주장 완장을 찼고, 1965-66시즌 라리가와 코파 델 레이 세 번, 1961-62시즌 유러피언 컵위너스컵을 들었다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 은퇴 뒤에는 발렌시아 CF에서 한 시즌을 더 뛰고 2005년부터 2011년까지 구단 재단의 회장을 지냈으며, 2025년 12월 29일 마드리드에서 눈을 감았다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
-## 10. 세컨드 스트라이커 - 앙투안 그리에즈만
+## 10. 앙투안 그리에즈만 - 세컨드 스트라이커
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/antoine-griezmann.webp" alt="앙투안 그리에즈만 세컨드 스트라이커 선수 카드" loading="lazy" width="966" height="966" /><figcaption>앙투안 그리에즈만. 디자인: 삥이.</figcaption></figure>
 
@@ -243,7 +243,7 @@ featured: false
 
 그리고 2026년 3월 24일, 구단이 그의 이적을 발표했다. 위의 말은 그렇게 과거형이 되었고, 그는 그해 여름 올랜도 시티 SC로 떠나 7월 22일 데뷔전에서도 골을 넣었다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a> 이 열한 명 가운데 유일한 현역이자, 구단을 떠난 지금도 이 구단 최다 득점자로 남아 있는 한 사람이다.
 
-## 11. 센터 포워드 - 호세 에울로히오 가라테
+## 11. 호세 에울로히오 가라테 - 센터 포워드
 
 <figure class="atleti-player-art"><img src="/images/squads/atletico-madrid-all-time-best-xi/jose-eulogio-garate.webp" alt="호세 에울로히오 가라테 센터 포워드 선수 카드" loading="lazy" width="966" height="966" /><figcaption>호세 에울로히오 가라테. 디자인: 삥이.</figcaption></figure>
 
