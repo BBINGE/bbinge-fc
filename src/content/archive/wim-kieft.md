@@ -72,7 +72,7 @@ draft: false
 
 암스테르담에서 태어난 키프트는 AFC 아약스<span class="foreign-note" lang="nl">(Amsterdamsche Football Club Ajax)</span>에서 성장했다. 1979-80 시즌 1군에 데뷔한 뒤, 1981-82 시즌에는 리그 32경기에서 32골을 넣었다. 시즌 도중 열아홉 살 생일을 맞았던 공격수가 경기당 한 골을 기록한 것이다. 아약스는 리그 정상에 올랐고 키프트에게는 유러피언 골든슈<span class="foreign-note" lang="en">(European Golden Shoe; 유럽 최상위 리그의 시즌 득점 성적을 비교해 주는 상)</span>가 돌아갔다.
 
-당시 아약스에는 세대가 겹쳐 있었다. 요한 크라위프<span class="foreign-note" lang="nl">(Johan Cruijff; 1981년 말 아약스로 복귀한 네덜란드 공격수)</span>가 돌아와 뛰었고, 키프트 곁에서는 헤랄트 파넨뷔르흐<span class="foreign-note" lang="nl">(Gerald Vanenburg; 아약스와 PSV에서 함께 뛴 네덜란드 공격수·미드필더)</span>와 프랑크 레이카르트<span class="foreign-note" lang="nl">(Frank Rijkaard; 훗날 AC 밀란에서 활약한 네덜란드 수비수·미드필더)</span>가 성장하고 있었다. 마르코 판 바스턴<span class="foreign-note" lang="nl">(Marco van Basten; 아약스와 AC 밀란의 네덜란드 중앙 공격수)</span>도 이 시기에 1군으로 올라왔다. 나중에 역사를 알고 보면 익숙한 이름들이지만, 그 한가운데서 먼저 유럽 득점왕에 오른 소년이 키프트였다.
+당시 아약스에는 세대가 겹쳐 있었다. 요한 크라위프<span class="foreign-note" lang="nl">(Johan Cruijff; 1981년 말 아약스로 복귀한 네덜란드 공격수)</span>가 돌아와 뛰었고, 키프트 곁에서는 헤랄트 파넨뷔르흐<span class="foreign-note" lang="nl">(Gerald Vanenburg; 아약스와 PSV에서 함께 뛴 네덜란드 공격수·미드필더)</span>와 프랑크 레이카르트<span class="foreign-note" lang="nl">(Frank Rijkaard; 훗날 AC 밀란에서 활약한 네덜란드 수비수·미드필더)</span>가 성장하고 있었다. 마르코 판바스턴<span class="foreign-note" lang="nl">(Marco van Basten; 아약스와 AC 밀란의 네덜란드 중앙 공격수)</span>도 이 시기에 1군으로 올라왔다. 나중에 역사를 알고 보면 익숙한 이름들이지만, 그 한가운데서 먼저 유럽 득점왕에 오른 소년이 키프트였다.
 
 이듬해에는 리그와 KNVB 베이커<span class="foreign-note" lang="nl">(KNVB Beker; 네덜란드 축구 협회 컵)</span>를 함께 차지했다. 키프트는 아약스 1군에서 공식전 117경기 78골, 리그 우승 세 번을 남기고 1983년 이탈리아로 떠났다. 열아홉 살 골든슈라는 출발점은 워낙 높았다. 이후 어느 팀에서 뛰든 그 황금 축구화가 기대의 크기를 먼저 정해 놓았을 법하다.
 
@@ -92,13 +92,13 @@ draft: false
 
 복귀 첫 시즌부터 에레디비시<span class="foreign-note" lang="nl">(Eredivisie; 네덜란드 최상위 리그)</span> 득점왕이었다. 32경기 29골, 여섯 해 전 아약스에서 받은 왕관을 이번에는 PSV 유니폼으로 되찾았다. PSV는 리그와 국내 컵을 차지했고 유러피언컵에서도 결승에 올랐다. 파넨뷔르흐 편을 먼저 읽었다면 익숙한 그 1988년이다. [오른쪽에서 공격을 풀던 파넨뷔르흐](/archive/legends/netherlands/gerald-vanenburg/)와 문전에서 마무리하던 키프트를 나란히 보면, 같은 트레블이 서로 다른 자리에서 보인다.
 
-벤피카와의 유러피언컵 결승은 120분 동안 득점 없이 흘렀다. 키프트는 선발로 끝까지 뛰었고, 승부차기에서는 PSV의 두 번째 키커로 나서 성공했다. 마지막에 골키퍼 한스 판 브뢰켈런<span class="foreign-note" lang="nl">(Hans van Breukelen; PSV와 네덜란드 대표팀의 골키퍼)</span>이 벤피카의 여섯 번째 킥을 막으면서 트레블이 완성됐다. 리그에서 상대 골문을 두드리던 공격수가 유럽 정상으로 가는 마지막 킥도 자기 몫만큼 보탰다.
+벤피카와의 유러피언컵 결승은 120분 동안 득점 없이 흘렀다. 키프트는 선발로 끝까지 뛰었고, 승부차기에서는 PSV의 두 번째 키커로 나서 성공했다. 마지막에 골키퍼 한스 판브뢰켈런<span class="foreign-note" lang="nl">(Hans van Breukelen; PSV와 네덜란드 대표팀의 골키퍼)</span>이 벤피카의 여섯 번째 킥을 막으면서 트레블이 완성됐다. 리그에서 상대 골문을 두드리던 공격수가 유럽 정상으로 가는 마지막 킥도 자기 몫만큼 보탰다.
 
 PSV에서 보낸 첫 세 시즌에는 국내 컵을 매년 들었다. 1989-90 시즌에는 리그 21골과 함께 트랜스퍼마크트 집계 13도움을 기록했다. 득점왕이었던 공격수가 동료의 득점까지 부지런히 만들어 주고 있었다. 키프트의 경력을 헤더 골 모음으로만 기억하면 이 시간이 조금 가려진다.
 
 ## 유로 1988, 아일랜드를 돌려보낸 14번
 
-네덜란드 대표팀에서는 판 바스턴과 뤼트 휠릿<span class="foreign-note" lang="nl">(Ruud Gullit; 당시 AC 밀란 소속의 네덜란드 공격수·미드필더)</span>이 공격의 중심이었다. 키프트는 UEFA 유러피언 풋볼 챔피언십<span class="foreign-note" lang="en">(UEFA European Football Championship; UEFA 유로)</span> 1988에서 14번을 달고 세 차례 교체 출전했다. 선발의 화려함과 별개로, 네덜란드가 대회에 남는 데 꼭 필요했던 골은 그의 머리에서 나왔다.
+네덜란드 대표팀에서는 판바스턴과 뤼트 휠릿<span class="foreign-note" lang="nl">(Ruud Gullit; 당시 AC 밀란 소속의 네덜란드 공격수·미드필더)</span>이 공격의 중심이었다. 키프트는 UEFA 유러피언 풋볼 챔피언십<span class="foreign-note" lang="en">(UEFA European Football Championship; UEFA 유로)</span> 1988에서 14번을 달고 세 차례 교체 출전했다. 선발의 화려함과 별개로, 네덜란드가 대회에 남는 데 꼭 필요했던 골은 그의 머리에서 나왔다.
 
 1988년 6월 18일 아일랜드와의 조별리그 마지막 경기. 네덜란드는 이겨야 준결승에 갈 수 있었으나 후반 막판까지 0-0이었다. 후반에 투입된 키프트는 82분, 쿠만의 슈팅이 튀어 오른 공에 머리를 댔다. 골문을 벗어나는 듯하던 공이 휘면서 안으로 들어갔다. 깔끔한 정석 헤더와는 거리가 있는 묘한 궤적이었지만, 그 한 골로 대회에 남은 쪽은 네덜란드였다.
 

@@ -84,19 +84,19 @@ draft: false
 <figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/ajax-schiphol-1988.webp" alt="1988년 스히폴 공항에서 비행기를 뒤로하고 걸어 나오는 아약스 선수단과 대니 블린트" width="1200" height="1809" loading="lazy" decoding="async" /><figcaption>1988년 5월 12일 스히폴 공항, 스트라스부르 결승에서 준우승하고 돌아온 아약스의 대니 블린트(앞). 4년 뒤 UEFA컵 트로피를 들고 베르흐캄프를 찾아가는 주장이다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
 
-## 판 할의 아약스, 3년 연속 득점왕
+## 판할의 아약스, 3년 연속 득점왕
 
 <figure class="legend-section-photo legend-section-scan" style="max-width:460px;margin-inline:auto"><img src="/images/archive/legends/bergkamp/ajax-1989.webp" alt="아약스 유니폼을 입은 스무 살의 데니스 베르흐캄프 흑백 초상" width="1200" height="1808" loading="lazy" decoding="async" /><figcaption>1989년 7월 3일 아약스 미디어 데이의 베르흐캄프. 이듬해 에레디비시 우승과 첫 득점왕 시즌이 기다리고 있었다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
 베르흐캄프가 붙박이 공격수가 된 것은 1990년대 초다. 1989-90 시즌 에레디비시<span class="foreign-note" lang="nl">(Eredivisie; 네덜란드 최상위 리그)</span> 우승을 경험했고, 1990-91 시즌 25골로 PSV의 호마리우와 함께 공동 득점왕에 올랐다. 1991-92 시즌 24골, 1992-93 시즌 26골로 3년 연속 득점왕. 같은 기간 네덜란드 올해의 축구선수상도 두 번 받았다. 아약스가 1970년대 초 유러피언컵 3연패 이후 다시 유럽의 주인공으로 돌아오기까지, 그 사이를 이어 준 "아약스 제2의 전성시대"의 대장 공격수가 바로 그였다.
 
-루이 판 할<span class="foreign-note" lang="nl">(Louis van Gaal; 1991년부터 아약스를 이끈 네덜란드 감독, 1951-)</span>이 부임한 1991-92 시즌에는 UEFA컵<span class="foreign-note" lang="en">(UEFA Cup; 현재 UEFA 유로파 리그의 전신)</span> 11경기에서 6골을 넣었다. 그런데 정작 토리노와의 결승 2차전, 암스테르담 홈 경기에는 없었다. 경기를 앞두고 병이 났기 때문이다. 아약스는 원정 1차전 2-2, 홈 2차전 0-0으로 원정 다득점 우승을 차지했다. 판 할은 훗날 ESPN 다큐멘터리에서 이렇게 돌아봤다. 운이 좋았다고, 우리가 딱히 더 나은 팀도 아니었다고, 원정에서 2-2를 만들었으니 홈에서 이길 수도 있었는데 베르흐캄프가 없었다고.
+루이 판할<span class="foreign-note" lang="nl">(Louis van Gaal; 1991년부터 아약스를 이끈 네덜란드 감독, 1951-)</span>이 부임한 1991-92 시즌에는 UEFA컵<span class="foreign-note" lang="en">(UEFA Cup; 현재 UEFA 유로파 리그의 전신)</span> 11경기에서 6골을 넣었다. 그런데 정작 토리노와의 결승 2차전, 암스테르담 홈 경기에는 없었다. 경기를 앞두고 병이 났기 때문이다. 아약스는 원정 1차전 2-2, 홈 2차전 0-0으로 원정 다득점 우승을 차지했다. 판할은 훗날 ESPN 다큐멘터리에서 이렇게 돌아봤다. 운이 좋았다고, 우리가 딱히 더 나은 팀도 아니었다고, 원정에서 2-2를 만들었으니 홈에서 이길 수도 있었는데 베르흐캄프가 없었다고.
 
-<figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/bergkamp/vangaal-ajax-1988.webp" alt="1988년 기자회견장에 나란히 앉은 아약스 감독 스피츠 콘과 코치 루이 판 할" width="1600" height="1068" loading="lazy" decoding="async" /><figcaption>1988년 9월 22일, 아약스의 새 감독 스피츠 콘(왼쪽)과 코치 루이 판 할. 3년 뒤 감독이 된 판 할은 베르흐캄프를 공격의 중심에 세운다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
+<figure class="legend-section-photo legend-section-scan"><img src="/images/archive/legends/bergkamp/vangaal-ajax-1988.webp" alt="1988년 기자회견장에 나란히 앉은 아약스 감독 스피츠 콘과 코치 루이 판할" width="1600" height="1068" loading="lazy" decoding="async" /><figcaption>1988년 9월 22일, 아약스의 새 감독 스피츠 콘(왼쪽)과 코치 루이 판할. 3년 뒤 감독이 된 판할은 베르흐캄프를 공격의 중심에 세운다. 사진: Rob Croes / Anefo · 네덜란드 국가기록원.</figcaption></figure>
 
-우승 뒤 판 할은 주장 대니 블린트<span class="foreign-note" lang="nl">(Danny Blind; 아약스의 주장·수비수, 1961-)</span>와 함께 트로피를 들고 앓아누운 베르흐캄프를 찾아갔다. 판 할의 설명은 짧았다. 그는 아팠고, 그럴 자격이 있었으며, 우리에게 아주 중요한 선수였다고. 가장 중요한 선수였다고 해도 틀리지 않았을 것이라고. 마지막 경기를 밟지 못한 공격수에게 감독이 직접 우승을 배달한 장면이다. 1992년 발롱도르 3위, 1993년 2위가 이 무렵 그의 위치를 말해 준다.
+우승 뒤 판할은 주장 대니 블린트<span class="foreign-note" lang="nl">(Danny Blind; 아약스의 주장·수비수, 1961-)</span>와 함께 트로피를 들고 앓아누운 베르흐캄프를 찾아갔다. 판할의 설명은 짧았다. 그는 아팠고, 그럴 자격이 있었으며, 우리에게 아주 중요한 선수였다고. 가장 중요한 선수였다고 해도 틀리지 않았을 것이라고. 마지막 경기를 밟지 못한 공격수에게 감독이 직접 우승을 배달한 장면이다. 1992년 발롱도르 3위, 1993년 2위가 이 무렵 그의 위치를 말해 준다.
 
-아쉬운 대목도 있다. 베르흐캄프는 1993년 여름 아약스를 떠났고, 판 할의 아약스는 1994-95 시즌 리그 무패 우승과 UEFA 챔피언스 리그 우승을 차지했다. 1970년대의 전설적인 유럽 제패를 잇는 세대가 완성된 바로 그 순간, 그는 이미 밀라노에 있었다.
+아쉬운 대목도 있다. 베르흐캄프는 1993년 여름 아약스를 떠났고, 판할의 아약스는 1994-95 시즌 리그 무패 우승과 UEFA 챔피언스 리그 우승을 차지했다. 1970년대의 전설적인 유럽 제패를 잇는 세대가 완성된 바로 그 순간, 그는 이미 밀라노에 있었다.
 
 ## 유로 1992, 득점왕을 하고도 승부차기에 울다
 
@@ -299,7 +299,7 @@ draft: false
 ## 참고 자료
 
 <ul class="source-notes">
-  <li><a href="https://www.ajaxshowtime.com/bijzaken-en-geruchten/van-gaal-kijkt-terug-op-uefa-cup-winst-in-1992-we-hadden-geluk-in-die-wedstrijd" rel="noopener noreferrer">Ajax Showtime: 판 할의 1992 UEFA컵 회고</a>: ESPN 다큐멘터리 《De eerste van Louis》 속 결승 결장과 트로피 방문 발언.</li>
+  <li><a href="https://www.ajaxshowtime.com/bijzaken-en-geruchten/van-gaal-kijkt-terug-op-uefa-cup-winst-in-1992-we-hadden-geluk-in-die-wedstrijd" rel="noopener noreferrer">Ajax Showtime: 판할의 1992 UEFA컵 회고</a>: ESPN 다큐멘터리 《De eerste van Louis》 속 결승 결장과 트로피 방문 발언.</li>
   <li><a href="https://www.goal.com/it/notizie/il-paradosso-di-bergkamp-allinter-capocannoniere-in-coppa-uefa-e-/14nvufuheu0jk1dmdway5abrso" rel="noopener noreferrer">Goal Italia: 인테르의 역설, UEFA컵 득점왕 베르흐캄프</a>: 1993년 2월 15일 영입 발표, 입단 발언, 라 데니세 별명, 경기당 기회 발언, UEFA컵 여정과 이적.</li>
   <li><a href="https://www.vice.com/nl/article/hoe-het-droomkoppel-bergkampjonk-mislukte-bij-internazionale/" rel="noopener noreferrer">VICE Nederland: 베르흐캄프·용크 조합은 왜 인테르에서 실패했나</a>: 유벤투스 거절, 바뇰리의 5-3-2, 소사의 불평, 《라 레푸블리카》 조롱란.</li>
   <li><a href="https://www.worldsoccer.com/world-soccer-latest/when-dennis-bergkamp-was-caught-in-a-clash-of-cultures-in-italy-360943" rel="noopener noreferrer">World Soccer: 이탈리아에서 문화 충돌에 갇힌 베르흐캄프</a>: 수비수 다섯 명 발언, 페리·베르고미 회고, 비안키 일화와 모라티에게 건 조건(자서전 인용).</li>
@@ -329,7 +329,7 @@ draft: false
   <li><a href="https://en.wikipedia.org/wiki/Dennis_Bergkamp" rel="noopener noreferrer">Wikipedia: Dennis Bergkamp</a>: 시즌별 공식전 출전·득점 표와 수상 목록 교차 확인.</li>
   <li><a href="https://x.com/MiguelDelaney/status/1881098775613341806" rel="noopener noreferrer">Miguel Delaney(X): 데니스 로 별세 뒤 베르흐캄프 발언 인용</a>: 아버지가 붙인 이름과 N 두 개의 사연.</li>
   <li><a href="https://www.transfermarkt.com/dennis-bergkamp/rueckennummern/spieler/3187" rel="noopener noreferrer">트랜스퍼마크트: 등번호 이력</a>: 클럽과 대표팀의 시즌별 번호.</li>
-  <li><a href="https://commons.wikimedia.org/wiki/Category:Dennis_Bergkamp" rel="noopener noreferrer">Wikimedia Commons: 데니스 베르흐캄프 사진</a>: 네덜란드 국가기록원 Anefo 사진(1963 맨유 로테르담 원정, 1987 아테네행 서포터스, 1988 스히폴 귀국, 1988 판 할, 1989 베르흐캄프·용크 초상), 인테르 UEFA컵 우승, 유로 96, 하이버리·필버트 스트리트·에미레이츠 스타디움, 벵거·판헬더르, 아스널 시절과 에미레이츠·자이스트 동상 사진.</li>
+  <li><a href="https://commons.wikimedia.org/wiki/Category:Dennis_Bergkamp" rel="noopener noreferrer">Wikimedia Commons: 데니스 베르흐캄프 사진</a>: 네덜란드 국가기록원 Anefo 사진(1963 맨유 로테르담 원정, 1987 아테네행 서포터스, 1988 스히폴 귀국, 1988 판할, 1989 베르흐캄프·용크 초상), 인테르 UEFA컵 우승, 유로 96, 하이버리·필버트 스트리트·에미레이츠 스타디움, 벵거·판헬더르, 아스널 시절과 에미레이츠·자이스트 동상 사진.</li>
 </ul>
 
 <style>
