@@ -7,7 +7,7 @@ pubDate: 2026-09-01T20:41:48+09:00
 coverImage: '/images/tactics/valeriy-lobanovskyi/cover.png'
 cardImage: '/images/tactics/valeriy-lobanovskyi/cover.png'
 coverImageAlt: '발레리 로바노우스키의 얼굴과 전술은 철학이었고 체계는 미학이었다라는 문장을 배치한 정사각 표지'
-coverImageCaption: '전술은 철학이었고, 체계는 미학이었다. 로바노우스키는 축구를 감각의 반대편으로 밀어낸 것이 아니라 감각이 반복해서 빛날 조건을 설계했다.'
+coverImageCaption: '전술은 철학이었고, 체계는 미학이었다. 로바노우스키는 축구를 감각의 반대편으로 밀어내는 대신 감각이 반복해서 빛날 조건을 설계했다.'
 coverImageWidth: 966
 coverImageHeight: 966
 featured: false

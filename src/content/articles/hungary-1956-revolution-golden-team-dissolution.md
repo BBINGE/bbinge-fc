@@ -7,7 +7,7 @@ pubDate: 2026-09-15T21:09:00+09:00
 coverImage: '/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp'
 cardImage: '/images/history/hungary-1956-revolution/fortepan-40165-crowd.webp'
 coverImageAlt: '1956년 헝가리 혁명 당시 부다페스트 거리에 모인 시민과 헝가리 국기'
-coverImageCaption: '1956년 부다페스트. 한 사람의 혁명이 아니라 서로 다른 이유로 거리에 나온 사람들의 시간이다. Fortepan 40165 · 기증자 Nagy Gyula · CC BY-SA 3.0.'
+coverImageCaption: '1956년 부다페스트. 서로 다른 이유로 거리에 나온 사람들의 시간이다. Fortepan 40165 · 기증자 Nagy Gyula · CC BY-SA 3.0.'
 coverImageWidth: 1400
 coverImageHeight: 896
 featured: false

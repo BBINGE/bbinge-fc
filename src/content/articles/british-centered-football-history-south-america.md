@@ -8,7 +8,7 @@ tags: ["축구 역사", "남미 축구", "찰스 밀러", "알렉산더 왓슨 �
 pubDate: 2026-08-20T17:42:31+09:00
 coverImage: "/images/history/british-centered-football-history/uruguay-1930.webp"
 coverImageAlt: "1930 FIFA 월드컵 우승을 차지한 우루과이 선수단"
-coverImageCaption: "1930년 몬테비데오. 첫 FIFA 월드컵은 영국 축구의 복제품이 아니라 남미가 이미 구축한 축구 문화의 결실이었다."
+coverImageCaption: "1930년 몬테비데오. 첫 FIFA 월드컵은 남미가 이미 구축한 축구 문화의 결실이었다."
 coverImageWidth: 773
 coverImageHeight: 461
 priorPublication:
