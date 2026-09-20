@@ -64,7 +64,7 @@ featured: false
 
 이 관점에 서면 질문이 달라진다. ‘누가 공을 가져왔는가’에서 ‘왜 하필 축구가 그토록 빠르게 현지의 삶을 장악했는가’로 이동한다. 답은 영국인의 영향력 하나가 아니라 노동과 여가의 변화, 항구도시의 성장, 이민과 인종 질서, 국가가 원한 시민의 몸, 신문이 만든 영웅을 함께 살펴야 나온다.
 
-<aside class="history-takeaway"><span>그러니까 핵심은 이겁니다</span><p>남미 사람들이 축구를 만나기 전까지 아무것도 하지 않았던 게 아닙니다. 축구는 비어 있던 자리를 차지한 것이 아니라, 이미 존재하던 놀이와 관중, 도시의 공간을 자기 쪽으로 끌어당겼습니다.</p></aside>
+<aside class="history-takeaway"><span>그러니까 핵심은 이겁니다</span><p>남미 사람들이 축구를 만나기 전까지 아무것도 하지 않았던 게 아닙니다. 축구는 이미 존재하던 놀이와 관중, 도시의 공간을 자기 쪽으로 끌어당겼습니다.</p></aside>
 
 ## 3. 항구와 철도, 이민자가 만든 도시의 경기
 
@@ -78,7 +78,7 @@ featured: false
 
 초기의 몇몇 클럽은 영어 이름과 영국식 회원 문화를 유지했다. 그러나 같은 도시에서도 클럽의 성격은 달랐다. 어떤 팀은 학교 동문회였고, 어떤 팀은 철도 회사와 연결됐으며, 다른 팀은 동네와 노동자의 소속감을 대표했다. 축구가 현지화된다는 것은 영국식 경기법을 능숙하게 복제한다는 뜻이 아니었다. **누가 함께 뛸 수 있는지, 어느 동네를 대표하는지, 승리가 누구의 자부심이 되는지를 새로 정하는 과정**이었다.
 
-그 결과 리오데라플라타 지역의 짧은 패스와 개인기, 브라질에서 인종의 경계를 밀어낸 선수들의 몸짓, 우루과이가 국가 규모를 뛰어넘어 조직한 대표팀 문화가 나타났다. ‘영국 축구의 남미식 변형’이라는 이름은 변화를 일으킨 주체를 영국 쪽에 남겨 둔다. 남미는 축구를 수입한 뒤 장식만 바꾼 것이 아니라, 참여 자격과 관람 방식, 클럽의 대표 범위와 승리의 정치적 의미를 다시 만들었다.
+그 결과 리오데라플라타 지역의 짧은 패스와 개인기, 브라질에서 인종의 경계를 밀어낸 선수들의 몸짓, 우루과이가 국가 규모를 뛰어넘어 조직한 대표팀 문화가 나타났다. ‘영국 축구의 남미식 변형’이라는 이름은 변화를 일으킨 주체를 영국 쪽에 남겨 둔다. 남미가 다시 만든 것은 장식이 아니었다. 참여 자격과 관람 방식, 클럽의 대표 범위와 승리의 정치적 의미였다.
 
 <section class="history-regions" aria-labelledby="regions-title"><header><span>REGIONAL COMPARISON</span><h3 id="regions-title">‘남미’라는 한 단어 안에서도 축구는 다르게 제도화됐다</h3></header><div role="table" aria-label="남미 네 지역의 축구 제도화 비교"><div class="history-regions__head" role="row"><b role="columnheader">지역</b><b role="columnheader">주요 이동 경로</b><b role="columnheader">제도화의 장면</b><b role="columnheader">현지화의 특징</b></div><article role="row"><strong role="cell"><span class="region-name"><span class="region-flag region-flag--ar" aria-hidden="true"></span>아르헨티나</span></strong><p role="cell">학교·철도·영국계 클럽</p><p role="cell">1893년 정기 리그</p><em role="cell">이민자 도시와 지역 리그</em></article><article role="row"><strong role="cell"><span class="region-name"><span class="region-flag region-flag--br" aria-hidden="true"></span>브라질</span></strong><p role="cell">항구·우편·종합 스포츠클럽</p><p role="cell">상파울루의 경기와 리그</p><em role="cell">계급·인종 경계의 재구성</em></article><article role="row"><strong role="cell"><span class="region-name"><span class="region-flag region-flag--uy" aria-hidden="true"></span>우루과이</span></strong><p role="cell">항구·철도·리오데라플라타 교류</p><p role="cell">대표팀과 국제대회</p><em role="cell">올림픽 성공과 국가 정체성</em></article><article role="row"><strong role="cell"><span class="region-name"><span class="region-flag region-flag--cl" aria-hidden="true"></span>칠레</span></strong><p role="cell">발파라이소 항구·학교</p><p role="cell">도시별 협회의 경쟁</p><em role="cell">발파라이소와 산티아고의 분화</em></article></div><p class="history-block-cite"><a class="cite" href="#source-3" aria-label="출처 3">[3]</a><a class="cite" href="#source-7" aria-label="출처 7">[7]</a><a class="cite" href="#source-8" aria-label="출처 8">[8]</a></p></section>
 
@@ -116,7 +116,7 @@ featured: false
 
 1930년 7월 30일, 우루과이와 아르헨티나가 첫 FIFA 월드컵<span class="foreign-note" lang="fr">(Coupe du Monde de la FIFA; 프랑스어로 FIFA 세계대회라는 뜻)</span> 결승에서 만났다. 두 팀은 어느 나라의 공을 사용할지를 두고도 합의하지 못했다. 결국 전반에는 아르헨티나가 선택한 공, 후반에는 우루과이가 선택한 공을 사용했다. 아르헨티나는 전반을 2-1로 앞섰지만 우루과이가 후반 세 골을 넣어 4-2로 우승했다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a>
 
-이 대회는 갑자기 주어진 행운이 아니었다. 우루과이는 1924년 파리와 1928년 암스테르담 올림픽 축구에서 연속 우승했고, 아르헨티나·브라질·칠레·페루의 축구 행정가들은 몬테비데오 유치를 지지했다. 우루과이 정부는 독립 100주년과 세계대회를 연결해 센테나리오 경기장<span class="foreign-note" lang="es">(Estadio Centenario; 독립 100주년을 뜻하는 몬테비데오의 국립경기장)</span>과 주변 도시 기반시설을 건설했다. 첫 월드컵은 FIFA의 유럽 중심 확장만이 아니라 남미의 스포츠 외교와 국가 건설이 결합한 결과였다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
+이 대회는 갑자기 주어진 행운이 아니었다. 우루과이는 1924년 파리와 1928년 암스테르담 올림픽 축구에서 연속 우승했고, 아르헨티나·브라질·칠레·페루의 축구 행정가들은 몬테비데오 유치를 지지했다. 우루과이 정부는 독립 100주년과 세계대회를 연결해 센테나리오 경기장<span class="foreign-note" lang="es">(Estadio Centenario; 독립 100주년을 뜻하는 몬테비데오의 국립경기장)</span>과 주변 도시 기반시설을 건설했다. 첫 월드컵에는 FIFA의 확장 의지와 남미의 스포츠 외교, 국가 건설 사업이 함께 얹혀 있었다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
 공 두 개의 일화는 단순한 기행이 아니다. 같은 규칙 아래에서도 축구는 이미 하나의 중심이 정한 단일한 감각으로 존재하지 않았음을 보여준다. 남미의 두 국가는 유럽이 마련한 무대에 초대된 주변부가 아니었다. 지역 대회를 운영하고, 올림픽에서 경쟁력을 입증하고, 마침내 자국에서 세계대회를 성립시킬 만큼 독자적인 축구 세계를 구축한 주체였다.
 
@@ -136,7 +136,7 @@ featured: false
 
 결국 중요한 질문은 ‘축구의 진짜 아버지가 누구인가’가 아니다. 그 질문 자체가 복수의 행위자와 장기간의 사회 변화를 한 명의 남성 개척자로 환원하는 방식이기 때문이다. 누가 기록을 남겼고, 누구의 기억은 자료가 되지 못했으며, 어떤 도시의 사례가 대륙 전체를 대표하게 됐는지를 물어야 한다.
 
-이 관점에서 축구의 세계화는 중심에서 주변으로 완성품이 전달된 단선적 과정이 아니다. 규칙은 번역됐고, 제도는 협상됐으며, 경기의 의미는 현지 사회의 계급·인종·지역·국가 관계 속에서 다시 생산됐다. 축구의 역사는 공의 이동만이 아니라 **이야기를 소유할 권리가 이동한 역사**이기도 하다.
+이 관점에서 축구의 세계화는 중심에서 주변으로 완성품이 전달된 단선적 과정이 아니다. 규칙은 번역됐고, 제도는 협상됐으며, 경기의 의미는 현지 사회의 계급·인종·지역·국가 관계 속에서 다시 생산됐다. 축구의 역사에는 공의 이동과 함께 **이야기를 소유할 권리가 이동한 궤적**이 겹쳐 있다.
 
 <section class="history-synthesis" aria-label="글의 핵심 결론"><article><span>규칙</span><strong>성문화의 역사</strong><p>잉글랜드에서 통일된 경기 규칙의 계보</p></article><article><span>사회</span><strong>수용과 변형의 역사</strong><p>남미의 도시와 공동체가 축구에 의미를 부여한 과정</p></article><article><span>기록</span><strong>서술 권력의 역사</strong><p>누구의 경험이 자료로 남아 세계사의 표준이 됐는가</p></article></section>
 

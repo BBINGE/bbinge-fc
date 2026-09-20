@@ -24,13 +24,13 @@ draft: false
   <p>발레리 로바노우스키는 선수를 숫자로 바꾸려 한 냉혈한이 아니었다. 체력·공간·패스·압박을 측정해 개인의 재능이 우연한 한 장면에 머물지 않고 다시 나타날 조건을 만들었다.</p>
 </div>
 
-우리는 위대한 감독을 떠올릴 때 대개 장면부터 기억한다. 요한 크라위프<span class="foreign-note" lang="nl">(Hendrik Johannes Cruijff; 네덜란드 축구 선수·감독, 1947-2016)</span>의 움직임, 아리고 사키<span class="foreign-note" lang="it">(Arrigo Sacchi; 이탈리아 축구 감독, 1946-)</span>의 수비선, 주제프 과르디올라<span class="foreign-note" lang="ca">(Josep Guardiola i Sala; 카탈루냐 축구 선수·감독, 1971-)</span>의 위치 교환처럼 한눈에 붙잡히는 이미지가 이름을 대신한다. 그러나 발레리 로바노우스키<span class="foreign-note" lang="uk">(Валерій Васильович Лобановський; 우크라이나 축구 선수·감독, 1939-2002)</span> 앞에서는 기억의 순서가 달라진다. 먼저 남는 것은 사람이 아니라 **체계**다.
+우리는 위대한 감독을 떠올릴 때 대개 장면부터 기억한다. 요한 크라위프<span class="foreign-note" lang="nl">(Hendrik Johannes Cruijff; 네덜란드 축구 선수·감독, 1947-2016)</span>의 움직임, 아리고 사키<span class="foreign-note" lang="it">(Arrigo Sacchi; 이탈리아 축구 감독, 1946-)</span>의 수비선, 주제프 과르디올라<span class="foreign-note" lang="ca">(Josep Guardiola i Sala; 카탈루냐 축구 선수·감독, 1971-)</span>의 위치 교환처럼 한눈에 붙잡히는 이미지가 이름을 대신한다. 그러나 발레리 로바노우스키<span class="foreign-note" lang="uk">(Валерій Васильович Лобановський; 우크라이나 축구 선수·감독, 1939-2002)</span> 앞에서는 기억의 순서가 달라진다. 먼저 남는 것이 **체계**다.
 
 그는 축구를 수많은 요소가 서로 영향을 주는 동적 시스템으로 보았다. 열한 명의 능력을 단순히 더한 값보다 선수들 사이의 연결이 팀의 경기력을 결정한다고 생각했다. 그래서 훈련을 측정하고, 경기의 사건을 기록하고, 공을 가졌을 때와 잃었을 때의 집단 행동을 반복했다. 오늘날의 데이터 분석과 전술 주기화가 익숙한 눈에는 당연하게 들리지만, 로바노우스키와 디나모 키이우가 그 일을 시작한 시기는 1970년대였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
 ## 코너킥의 궤적을 계산하던 레프트 윙
 
-로바노우스키는 처음부터 벤치의 과학자가 아니었다. 디나모 키이우의 레프트 윙으로 뛰며 1961년 구단의 첫 소비에트 톱리그 우승에 함께했다. 왼발로 직접 코너킥을 골문 안에 휘어 넣던 선수였고, 공이 날아가는 각도와 속도를 감각만이 아니라 계산의 문제로 받아들였다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+로바노우스키는 처음부터 벤치의 과학자가 아니었다. 디나모 키이우의 레프트 윙으로 뛰며 1961년 구단의 첫 소비에트 톱리그 우승에 함께했다. 왼발로 직접 코너킥을 골문 안에 휘어 넣던 선수였고, 공이 날아가는 각도와 속도를 감각에 더해 계산의 문제로도 받아들였다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 선수 시절부터 그가 견디지 못한 것은 설명되지 않는 반복이었다. 어제 통했던 공격이 오늘 사라지고, 강한 선수들을 모아 놓은 팀이 더 약한 조직에 무너지는 이유를 ‘축구는 원래 그런 것’으로 덮지 않았다. 공학을 공부한 그의 눈에 경기는 우연의 집합이면서 동시에 관찰 가능한 상호작용이었다.
 
@@ -58,14 +58,14 @@ draft: false
 
 <figure class="vl-photo vl-photo--wide">
   <img src="/images/tactics/valeriy-lobanovskyi/zelentsov-computer.jpg" alt="컴퓨터 앞에서 경기 자료를 살피는 아나톨리 젤렌초프" width="966" height="645" loading="lazy" decoding="async" />
-  <figcaption>컴퓨터 데이터를 바탕으로 선수의 움직임과 경기 패턴을 분석·설명하는 아나톨리 젤렌초프. 디나모 키이우의 과학은 감독 한 사람의 직관이 아니라 지도자와 연구자의 협업이었다.</figcaption>
+  <figcaption>컴퓨터 데이터를 바탕으로 선수의 움직임과 경기 패턴을 분석·설명하는 아나톨리 젤렌초프. 디나모 키이우의 과학은 지도자와 연구자의 협업에서 나왔다.</figcaption>
 </figure>
 
 컴퓨터는 답을 대신 내는 신탁이 아니었다. 선수의 몸이 어떤 부하에 놓였는지, 팀이 어느 구역에서 공을 잃고 되찾았는지, 계획한 행동이 경기에서 얼마나 반복됐는지를 확인하는 도구였다. 측정은 훈련을 더 정확하게 만들었고, 훈련은 경기 모델을 반복 가능한 습관으로 바꿨다.
 
 여기에는 소련의 사이버네틱스<span class="foreign-note" lang="en">(cybernetics; 생물·기계·조직의 제어와 소통을 피드백으로 설명하는 학문)</span>와 스포츠과학이라는 시대적 토양도 있었다. 2019년 모스크바에서 열린 제12회 국제 컴퓨터과학 스포츠 심포지엄<span class="foreign-note" lang="en">(International Symposium on Computer Science in Sport)</span>에서는 로바노우스키와 젤렌초프의 작업을 소련 축구의 컴퓨터과학 계보 안에서 다시 다뤘다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 한 감독이 미래를 홀로 예언했다기보다, 축구·공학·생리학·정보처리가 만난 장소가 디나모 키이우였다고 보는 편이 더 정확하다.
 
-이때 ‘피드백’은 단순히 경기 뒤 영상을 보는 일이 아니다. 경기 모델을 세우고, 그 모델에 맞는 훈련 부하와 행동을 설계하고, 실제 경기에서 나온 오차를 다시 다음 훈련에 넣는 폐회로였다. 감독의 감각도 이 회로 밖에 놓이지 않았다. 직관은 가설이 되고, 기록은 반증이 되며, 수정된 훈련은 다음 경기가 된다. 로바노우스키의 과학은 정답표가 아니라 **계속 틀릴 수 있도록 만든 방법**이었다.
+이때 ‘피드백’은 단순히 경기 뒤 영상을 보는 일이 아니다. 경기 모델을 세우고, 그 모델에 맞는 훈련 부하와 행동을 설계하고, 실제 경기에서 나온 오차를 다시 다음 훈련에 넣는 폐회로였다. 감독의 감각도 이 회로 밖에 놓이지 않았다. 직관은 가설이 되고, 기록은 반증이 되며, 수정된 훈련은 다음 경기가 된다. 로바노우스키의 과학은 **계속 틀릴 수 있도록 만든 방법**이었다.
 
 <figure class="vl-photo vl-photo--panorama">
   <img src="/images/tactics/valeriy-lobanovskyi/lobanovskyi-training-field.jpg" alt="소련 대표팀 훈련장에서 코칭스태프와 함께 선수들을 바라보는 발레리 로바노우스키" width="735" height="452" loading="lazy" decoding="async" />
@@ -110,7 +110,7 @@ draft: false
   <figure><img src="/images/tactics/valeriy-lobanovskyi/dynamo-1986-cup-winners.jpg" alt="1986년 유러피언 컵위너스컵 우승을 축하하는 디나모 키이우 선수단" width="683" height="683" loading="lazy" decoding="async" /><figcaption><strong>1986</strong><span>아틀레티코 마드리드를 3-0으로 꺾고 다시 유럽 정상에 오른 선수단. 이미지: FC Dynamo Kyiv.</span></figcaption></figure>
 </div>
 
-11년 뒤에도 결과는 반복됐다. 1986년 결승에서 디나모 키이우는 아틀레티코 마드리드를 3-0으로 이겼고 두 번째 컵위너스컵을 차지했다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 이호르 벨라노우<span class="foreign-note" lang="uk">(Ігор Іванович Бєланов; 우크라이나 축구 선수·공격수, 1960-)</span>는 그해 발롱도르의 주인공이 됐다. 한 세대가 지나도 같은 감독의 팀에서 세계 최고의 개인이 다시 나왔다는 사실은 로바노우스키의 역설을 보여준다. 가장 집단적인 체계가 가장 눈부신 개인을 지워 버린 것이 아니라 정상까지 밀어 올렸다.
+11년 뒤에도 결과는 반복됐다. 1986년 결승에서 디나모 키이우는 아틀레티코 마드리드를 3-0으로 이겼고 두 번째 컵위너스컵을 차지했다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 이호르 벨라노우<span class="foreign-note" lang="uk">(Ігор Іванович Бєланов; 우크라이나 축구 선수·공격수, 1960-)</span>는 그해 발롱도르의 주인공이 됐다. 한 세대가 지나도 같은 감독의 팀에서 세계 최고의 개인이 다시 나왔다는 사실은 로바노우스키의 역설을 보여준다. 가장 집단적인 체계가 가장 눈부신 개인을 정상까지 밀어 올렸다.
 
 <section class="vl-record" aria-label="로바노우스키의 디나모 키이우 주요 우승 기록">
   <header><span>DINAMO KYIV · MAJOR HONOURS</span><strong>반복된 체계가 남긴 숫자</strong></header>

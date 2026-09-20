@@ -87,7 +87,7 @@ faq:
 
 <h2 id="after-match">AFTER MATCH — 승리한 밤은 카날레테스까지 이어가세요</h2>
 
-경기 뒤 캄 노우에서 카날레테스까지 전부 걸을 필요는 없다. 인파가 한 차례 빠질 때까지 경기장 주변에 머문 뒤 지하철로 Plaça Catalunya까지 돌아오고, 마지막 구간만 걷는다. 밤의 목적은 분수 자체가 아니라 같은 결과를 들고 도심으로 돌아오는 사람들이다.
+경기 뒤 캄 노우에서 카날레테스까지 전부 걸을 필요는 없다. 인파가 한 차례 빠질 때까지 경기장 주변에 머문 뒤 지하철로 Plaça Catalunya까지 돌아오고, 마지막 구간만 걷는다. 밤에 볼 것은 분수보다 같은 결과를 들고 도심으로 돌아오는 사람들이다.
 
 <figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/canaletes-night-2026.webp" alt="FC 바르셀로나의 우승을 축하하며 카날레테스와 람블라 북단에 모인 팬들" width="1600" height="900" loading="lazy" /><figcaption>경기장의 승리가 도시 전체의 밤으로 번지는 카날레테스. 사진: Aniol, Wikimedia Commons, CC0.</figcaption></figure>
 
@@ -109,7 +109,7 @@ Xiringuito Escribà는 Bogatell 해변 앞에서 쌀 요리를 내는 곳이다.
 
 첫날에는 타파스와 루프톱을, 둘째 날에는 브라바스와 캄 노우의 관중을, 마지막 날에는 바다 앞의 긴 점심을 남긴다. 구단의 역사는 그 사이를 연결하는 근거이지 여행 전체를 멈춰 세우는 수업이 아니다.
 
-축구를 좋아하는 사람은 캄 노우를 충분히 갖고, 함께 온 사람은 도시와 밤과 바다를 포기하지 않는다. 그래서 바르셀로나 직관은 한 사람만 만족하는 원정이 아니라 둘이 다시 꺼내 볼 휴가가 된다.
+축구를 좋아하는 사람은 캄 노우를 충분히 갖고, 함께 온 사람은 도시와 밤과 바다를 포기하지 않는다. 그래서 바르셀로나 직관은 둘이 함께 다시 꺼내 볼 휴가가 된다.
 
 <div class="journey-links"><a href="/culture/fc-barcelona-2026-27-home-kit-yamal-de-jong/" style="--journey-image:url('/images/culture/barcelona-2627-home/card.webp')"><span>STYLE</span><strong>2026-27 FC 바르셀로나 홈 유니폼과 도시의 색</strong><i>읽기 <b aria-hidden="true">→</b></i></a><a href="/culture/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration/" style="--journey-image:url('/images/culture/olivia-rodrigo-barcelona/card.webp')"><span>CULTURE</span><strong>올리비아 로드리고와 바르셀로나 저지가 만난 장면</strong><i>읽기 <b aria-hidden="true">→</b></i></a><a href="/pilgrimage/bilbao-san-mames-football-travel/" style="--journey-image:url('/images/pilgrimage/bilbao-san-mames/card.webp')"><span>PILGRIMAGE</span><strong>산업도시와 경기장을 함께 걷는 빌바오 축행</strong><i>읽기 <b aria-hidden="true">→</b></i></a></div>
 

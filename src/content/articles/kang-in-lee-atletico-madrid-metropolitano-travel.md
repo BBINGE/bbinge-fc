@@ -48,7 +48,7 @@ faq:
 
 라리가 홈경기의 정확한 날짜와 시간은 시즌 일정표가 처음 공개된 뒤에도 조정될 수 있다. 토요일 저녁만 상상하고 항공과 도시 간 열차를 촘촘하게 묶으면 일요일 경기로 바뀌는 순간 여행 전체가 흔들린다. 공식 경기 일정에서 킥오프가 확정되기 전에는 취소 가능한 객실을 잡고, 마드리드에서 보내는 마지막 밤을 경기일 다음으로 두는 편이 안전하다.
 
-숙소의 기준은 ‘경기장에서 몇 km’보다 **종료 휘슬 뒤 어떤 이동을 감당할 것인가**다. 다음 세 곳은 같은 등급표가 아니라 서로 다른 여행을 위한 선택이다.
+숙소의 기준은 ‘경기장에서 몇 km’보다 **종료 휘슬 뒤 어떤 이동을 감당할 것인가**다. 다음 세 곳은 서로 다른 여행에 맞춘 선택이다.
 
 <div class="journey-stays">
   <article class="journey-stay"><figure><img src="/images/pilgrimage/kangin-metropolitano/hotel-ilunion.webp" alt="밝은 벽화와 푸른 의자가 놓인 ILUNION Alcalá Norte의 레스토랑" width="1200" height="675" loading="lazy" /><figcaption>늦은 경기 뒤 동쪽 권역에 남는 실용적인 숙소. 사진: ILUNION Alcalá Norte.</figcaption></figure><div><span>STADIUM FIRST</span><strong>ILUNION Alcalá Norte</strong><p>San Romualdo 30에 있는 4성급 호텔이다. 경기장과 같은 San Blas-Canillejas 권역이라 종료 뒤 약 2km 안팎의 도보 귀가를 검토할 수 있고, 공항 쪽 이동도 짧다.</p><dl><div><dt>어울리는 밤</dt><dd>늦은 킥오프 뒤 지하철 줄보다 걷고 바로 쉬는 편이 좋을 때</dd></div><div><dt>감수할 점</dt><dd>가장 가까운 지하철은 5호선 Suanzes·Torre Arias라 도심 관광의 중심은 아니다. 실제 보행로는 낮에 한 번 확인한다.</dd></div></dl><a class="journey-stay__link" href="https://www.ilunionhotels.com/en/hotels/ilunion-alcala-norte" target="_blank" rel="noopener noreferrer">공식 객실 확인 <b aria-hidden="true">→</b></a></div></article>

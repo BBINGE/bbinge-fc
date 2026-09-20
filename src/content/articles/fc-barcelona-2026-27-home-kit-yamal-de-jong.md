@@ -112,7 +112,7 @@ FC 바르셀로나의 2026/27 홈 유니폼은 줄무늬를 새로 발명하지 
   <article><img src="/images/culture/barcelona-2627-home/cancelo.webp" alt="FC 바르셀로나 2026/27 홈 유니폼을 입은 주앙 칸셀루" width="1200" height="1415" loading="lazy" decoding="async" /><span><small>02 · RETURN</small><strong>주앙 칸셀루</strong><em>팔의 문신과 금색 디테일이 홈 셔츠를 조금 더 장식적으로 보이게 한다.</em></span></article>
 </div>
 
-앤서니 고든<span class="foreign-note" lang="en">(Anthony Gordon; 잉글랜드 축구 선수, 2001-)</span>, 로드리<span class="foreign-note" lang="es">(Rodri; 스페인 축구 선수, 1996-)</span>, 주앙 칸셀루<span class="foreign-note" lang="pt">(João Cancelo; 포르투갈 축구 선수, 1994-)</span>는 최초 공개 캠페인에 있던 얼굴들이 아니다. 시즌 스쿼드에 합류한 뒤 공식 선수 이미지에서 새 홈 셔츠를 입었다. 그래서 이 세 장은 론칭 화보의 연장이 아니라, 옷이 실제 새 시즌의 얼굴을 받아들이는 두 번째 장면이다.
+앤서니 고든<span class="foreign-note" lang="en">(Anthony Gordon; 잉글랜드 축구 선수, 2001-)</span>, 로드리<span class="foreign-note" lang="es">(Rodri; 스페인 축구 선수, 1996-)</span>, 주앙 칸셀루<span class="foreign-note" lang="pt">(João Cancelo; 포르투갈 축구 선수, 1994-)</span>는 최초 공개 캠페인에 있던 얼굴들이 아니다. 시즌 스쿼드에 합류한 뒤 공식 선수 이미지에서 새 홈 셔츠를 입었다. 그래서 이 세 장은 옷이 실제 새 시즌의 얼굴을 받아들이는 두 번째 장면이다.
 
 고든의 17번은 속도, 로드리의 16번은 중심, 돌아온 칸셀루의 2번은 장식성을 더한다. 영입 명단을 나열하는 대신 같은 정면 사진에서 몸과 얼굴이 셔츠를 어떻게 바꾸는지 비교하면 새 시즌의 인상이 더 빨리 잡힌다.
 

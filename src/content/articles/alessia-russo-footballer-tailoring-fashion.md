@@ -121,7 +121,7 @@ The Attico<span class="foreign-note" lang="it">(디 아티코; 이탈리아 패�
 
 이 화보가 공개된 2023년 11월은 루소에게 경계선 같은 시기였다. 그는 잉글랜드의 UEFA 여자 유로 2022 우승을 함께한 뒤 2023 FIFA 여자 월드컵 결승까지 갔고, 같은 여름 맨체스터 유나이티드 WFC<span class="foreign-note" lang="en">(Manchester United Women Football Club)</span>를 떠나 아스널 WFC로 이적했다. 《Wonderland》 인터뷰에서도 월드컵과 새 구단, 여자축구의 변화를 함께 말했다.
 
-이후의 이력은 화보 속 인물을 더 선명하게 만든다. 루소는 아스널에서 UEFA 여자 챔피언스 리그<span class="foreign-note" lang="en">(UEFA Women’s Champions League; 유럽 여자 클럽 최상위 대회)</span> 2024-25 우승을 경험했고, 잉글랜드와 UEFA 여자 유로 2025까지 연속 제패했다. 2023년의 사진은 이미 완성된 스타를 기념하는 회고가 아니라, 대표팀의 성공을 안고 새로운 클럽으로 들어가던 선수의 초상에 가깝다.
+이후의 이력은 화보 속 인물을 더 선명하게 만든다. 루소는 아스널에서 UEFA 여자 챔피언스 리그<span class="foreign-note" lang="en">(UEFA Women’s Champions League; 유럽 여자 클럽 최상위 대회)</span> 2024-25 우승을 경험했고, 잉글랜드와 UEFA 여자 유로 2025까지 연속 제패했다. 2023년의 사진은 대표팀의 성공을 안고 새 클럽으로 들어가던 선수의 초상에 가깝다. 우승은 그 뒤에 왔다.
 
 ## 내 옷장에도 루소의 한 끗을 가져와볼까요? ✨
 

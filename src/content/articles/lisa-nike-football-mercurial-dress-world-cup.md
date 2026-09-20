@@ -58,7 +58,7 @@ fashionProfile:
 
 이 커스텀 룩은 태국 패션 레이블 아이워너방콕<span class="foreign-note" lang="en">(IWANNABANGKOK)</span>과 스타일리스트 난 니스트<span class="foreign-note" lang="en">(Nan Nist)</span>가 함께 만들었다. Nike Football이 2026년 공개한 `Rip the Script` 필름을 위해 머큐리얼 베이퍼 17을 해체하고, 실제 갑피와 끈, 밑창을 옷의 구조 안에 넣었다.
 
-디자인 스케치를 보면 출발점이 더 명확하다. 완성된 드레스를 그린 앞·뒷면 옆에 핑크색 머큐리얼 한 켤레가 놓인다. 축구화의 옆면에서 크게 휘는 검정 스우시는 몸판과 스커트로 이동하고, 발을 감싸던 흰색 바탕은 짧은 상의와 하이웨이스트 하의를 연결한다. 축구화의 형태를 지운 뒤 핑크색만 빌린 것이 아니라, 어느 부분을 어디로 옮겼는지 추적할 수 있는 옷이다.
+디자인 스케치를 보면 출발점이 더 명확하다. 완성된 드레스를 그린 앞·뒷면 옆에 핑크색 머큐리얼 한 켤레가 놓인다. 축구화의 옆면에서 크게 휘는 검정 스우시는 몸판과 스커트로 이동하고, 발을 감싸던 흰색 바탕은 짧은 상의와 하이웨이스트 하의를 연결한다. 어느 부분을 어디로 옮겼는지 그대로 추적할 수 있는 옷이다.
 
 <figure class="ls-sketch ls-enter">
   <img src="/images/culture/lisa-nike-football/dress-sketch.webp" alt="핑크색 머큐리얼 베이퍼 17 축구화와 리사의 드레스 앞뒤 디자인 스케치" width="1080" height="760" loading="eager" decoding="async" />

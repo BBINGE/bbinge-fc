@@ -71,7 +71,7 @@ draft: false
 
 전환의 문을 연 사람은 펠리체 보렐<span class="foreign-note" lang="it">(Felice Placido Borel; 이탈리아 축구 선수·지도자, 1914-1993)</span>이었다. 유벤투스에서 세리에 A 세 차례와 1934 FIFA 월드컵 우승을 경험한 공격수는 1941년 토리노로 건너왔다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 그는 기술 책임자 로베르토 코페르니코<span class="foreign-note" lang="it">(Roberto Copernico; 토리노 FC 기술 책임자)</span>, 동료 조반니 엘레나<span class="foreign-note" lang="it">(Giovanni Ellena; 이탈리아 축구 선수·지도자, 1913-1990)</span>와 함께 페루초 노보 회장에게 시스테마 전환을 제안했다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
-여기서 원고에 오래 남아 있던 ‘코페르니쿠스’는 천문학자의 이름이 아니다. 사람의 성인 **코페르니코**다. 이름 하나를 바로잡으면 회의의 성격도 달라진다. 기발한 외국 이론이 갑자기 토리노에 떨어진 것이 아니라, 구단 안의 선수와 기술 책임자가 현재 선수단에 맞는 구조를 회장에게 제안한 장면이 된다.
+여기서 원고에 오래 남아 있던 ‘코페르니쿠스’는 천문학자의 이름이 아니다. 사람의 성인 **코페르니코**다. 이름 하나를 바로잡으면 회의의 성격도 달라진다. 구단 안의 선수와 기술 책임자가 지금 선수단에 맞는 구조를 회장에게 제안한 장면이 된다.
 
 <div class="torino-people">
   <figure><img src="/images/tactics/grande-torino-wm/ferruccio-novo.webp" alt="축구선수와 함께 선 페루초 노보 토리노 FC 회장" width="656" height="492" loading="lazy" decoding="async" /><figcaption>선수와 함께 선 페루초 노보(오른쪽). 그는 전술 아이디어를 영입·훈련·조직으로 이어갈 구단의 조건을 만들었다.</figcaption></figure>
@@ -145,7 +145,7 @@ FIGC 지도자 교육 자료는 그란데 토리노의 시스테마를 설명하
 
 <figure class="torino-photo torino-photo--wide">
   <img src="/images/tactics/grande-torino-wm/grande-torino-squad.webp" alt="경기장 관중석 앞에 함께 선 그란데 토리노 선수단과 관계자들" width="966" height="567" loading="lazy" decoding="async" />
-  <figcaption>한데 모인 그란데 토리노 선수단. 3-2-2-3은 이 얼굴들을 대신하는 이름이 아니라, 서로의 장점을 반복해서 연결한 조직의 골격이었다.</figcaption>
+  <figcaption>한데 모인 그란데 토리노 선수단. 3-2-2-3은 이 얼굴들이 서로의 장점을 반복해서 연결한 조직의 골격이었다.</figcaption>
 </figure>
 
 ## 수페르가 이후 재현되지 못한 전술 생태계

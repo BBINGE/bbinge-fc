@@ -78,7 +78,7 @@ fashionProfile:
 
 ## 87번을 알고 보면 사카와 아스널이 더 가까워져요
 
-숫자 `87`은 코르셋 한 벌에서 끝나지 않는다. 안토니아 브론즈<span class="foreign-note" lang="en">(Antonia Bronze; 영국 패션 디자이너)</span>가 제작한 가죽 바이커 재킷에도 같은 숫자가 들어갔다. 벤슨은 이 재킷 안에 디젤<span class="foreign-note" lang="en">(Diesel)</span>의 톱을 입고, 작은 선글라스와 은색 주얼리를 더했다. 대표팀 상품을 위아래로 맞춘 응원복이 아니라, 패션 피스 사이에 잉글랜드와 사카의 표식을 끼워 넣은 구성이다.
+숫자 `87`은 코르셋 한 벌에서 끝나지 않는다. 안토니아 브론즈<span class="foreign-note" lang="en">(Antonia Bronze; 영국 패션 디자이너)</span>가 제작한 가죽 바이커 재킷에도 같은 숫자가 들어갔다. 벤슨은 이 재킷 안에 디젤<span class="foreign-note" lang="en">(Diesel)</span>의 톱을 입고, 작은 선글라스와 은색 주얼리를 더했다. 패션 피스 사이에 잉글랜드와 사카의 표식을 끼워 넣은 구성이다.
 
 등번호가 반복되면 개인적인 모노그램<span class="foreign-note" lang="en">(monogram; 이름이나 상징을 반복해 만든 표식)</span>처럼 작동한다. 구단과 선수에게서 출발한 숫자이지만, 벤슨의 여러 착장을 연결하는 시각 언어가 된다. 그래서 그의 옷은 사카를 응원하면서도 사카의 유니폼을 그대로 복제하지 않는다.
 
