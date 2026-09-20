@@ -30,11 +30,14 @@ for (const width of [380, 1440]) {
       crest: [...document.querySelectorAll('img')].filter((i) => (i.getAttribute('src') || '').includes('valencia.svg')).length,
       cites: document.querySelectorAll('a.cite').length,
       sources: document.querySelectorAll('.source-notes li').length,
+      noteGap: (() => { const n = document.querySelector('p.valencia-note'); if (!n) return null; const p = n.previousElementSibling; return Math.round(n.getBoundingClientRect().top - p.getBoundingClientRect().bottom); })(),
     };
   });
   if (shotDir) await page.screenshot({ path: `${shotDir}/valencia-${width}.png` });
   const want = { overflow: 0, players: 11, clips: 5, litany: 1, record: 4, quotes: 5, candidates: 15, crest: 2 };
   for (const [k, v] of Object.entries(want)) if (r[k] !== v) fails.push(`${width}px ${k}: ${r[k]} (기대 ${v})`);
+  // 정정 주석이 음수 여백으로 위 블록을 파고들지 않는지 본다(2026-09-21 사고).
+  if (r.noteGap !== null && r.noteGap < 8) fails.push(`${width}px 정정 주석이 위 블록과 ${r.noteGap}px로 겹치거나 붙는다`);
   if (r.broken.length) fails.push(`${width}px 깨진 이미지 ${r.broken.length}개: ${r.broken.join(', ')}`);
   if (r.wide.length) fails.push(`${width}px 가로를 넘는 요소: ${r.wide.join(' / ')}`);
   console.log(width, JSON.stringify(r));

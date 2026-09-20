@@ -139,11 +139,11 @@ featured: false
 
 <figure class="valencia-player-art"><img src="/images/squads/valencia-cf-all-time-best-xi/jocelyn-angloma.webp" alt="조슬랭 앙글로마 라이트백 상세 정보 디자인" loading="lazy" width="966" height="966" /></figure>
 
+<p class="valencia-note">위 카드의 345경기 1골 17도움은 같은 시기 왼쪽을 지킨 아메데오 카르보니의 기록이 잘못 들어간 것이다. 구단 공식 집계 기준 앙글로마의 발렌시아 기록은 177경기다.</p>
+
 그는 단순히 빠른 선수, 단순히 강한 선수라고 정의하기에 매우 부족하다. 그는 풀백이라는 포지션을 완성형으로 재정의한 최초의 라이트백이었다.
 
 조슬랭 앙글로마<span class="foreign-note" lang="fr">(Jocelyn Angloma; 프랑스 오른쪽 수비수, 1965-)</span>는 프랑스에서 태어나 이탈리아에서 단련되었고, 스페인에서 완성형 축구선수로서 군림했다. 올랭피크 드 마르세유에서 토리노 FC와 FC 인테르나치오날레 밀라노를 거쳐 서른둘이던 1997년 메스타야에 도착했고, 다섯 시즌 동안 구단 공식 집계로 177경기를 뛰었다. 라리가 기록은 121경기 5골이다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a> 발렌시아 황금시대의 주역이며, 라리가와 UCL 무대에서 프랑스인의 위대함을 연출했던 수비수였다.
-
-<p class="valencia-note">위 카드의 345경기 1골 17도움은 같은 시기 왼쪽을 지킨 아메데오 카르보니의 기록이 잘못 들어간 것이다. 구단 공식 집계 기준 앙글로마의 발렌시아 기록은 177경기다.</p>
 
 수비 시에는 완벽한 1대1 대응 능력으로 본인의 범위는 완벽하게 커버해냈고, 공격 시에는 측면에서 중앙까지 자율적으로 침투했다. 하프라인 위에서도 2선 플레이메이커처럼 빌드업에 관여했으며, 당시 감독들은 조슬랭 앙글로마를 선발 명단에서 배제하는 것이 힘들었을 만큼 전술에 대한 이해도가 매우 높았었다.
 
@@ -337,7 +337,7 @@ featured: false
   .article-body .valencia-quote p { margin: 0; font-size: 1.05rem; font-weight: 600; line-height: 1.7; word-break: keep-all; }
   .article-body .valencia-quote p[lang] { margin-top: .45rem; color: var(--bbfc-gray-1); font-size: .93rem; font-weight: 400; }
   .valencia-quote cite { display: block; margin-top: .6rem; color: var(--bbfc-gray-1); font-size: .85rem; font-style: normal; }
-  .article-body p.valencia-note { margin: -1.6rem 0 2.4rem; border-radius: 12px; padding: .9rem 1.1rem; background: var(--bbfc-fill); color: var(--bbfc-gray-1); font-size: .92rem; line-height: 1.7; word-break: keep-all; }
+  .article-body p.valencia-note { margin: -1.8rem 0 2.6rem; border-radius: 12px; padding: .9rem 1.1rem; background: var(--bbfc-fill); color: var(--bbfc-gray-1); font-size: .92rem; line-height: 1.7; word-break: keep-all; }
   .valencia-player-art { margin: 2.5rem 0 3rem; }
   .valencia-player-art img { display: block; width: 100%; height: auto; border-radius: 14px; }
   .valencia-clip-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 2.4rem 0 2.8rem; }
