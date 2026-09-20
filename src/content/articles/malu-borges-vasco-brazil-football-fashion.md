@@ -73,7 +73,7 @@ fashionProfile:
 
 브라마<span class="foreign-note" lang="pt-BR">(Brahma; 브라질 맥주 브랜드)</span> 스폰서가 들어간 흰색 바스쿠 셔츠에는 긴 빨간 스커트를 붙였다. 이 선택은 단순히 구단 색을 맞춘 것보다 영리하다. 어깨에서 허리로 내려가는 붉은 띠가 스커트의 넓은 면적으로 이어지면서 상의와 하의 사이의 경계가 약해진다.
 
-검정 선글라스, 둥근 손가방, 손목의 털 장식은 셔츠의 검정 요소를 반복한다. 신발이나 가방 하나만 팀 색에 맞추는 응원 코디가 아니라, 셔츠 안의 세 색을 전신의 서로 다른 재질로 번역한 것이다. 폴리에스터, 매끈한 스커트 원단, 털, 가죽이 같은 색 안에서 표면을 나눈다.
+검정 선글라스, 둥근 손가방, 손목의 털 장식은 셔츠의 검정 요소를 반복한다. 셔츠 안의 세 색을 전신의 서로 다른 재질로 번역한 구성이다. 폴리에스터, 매끈한 스커트 원단, 털, 가죽이 같은 색 안에서 표면을 나눈다.
 
 <figure class="malu-wide-figure malu-wide-figure--red">
   <img src="/images/culture/malu-borges-football-shirt-style/02-red-skirt.webp" alt="빨간 롱스커트와 검정 털 장식, 바스쿠 셔츠를 조합한 말루 보르지스의 전신" width="785" height="1200" loading="lazy" decoding="async" />

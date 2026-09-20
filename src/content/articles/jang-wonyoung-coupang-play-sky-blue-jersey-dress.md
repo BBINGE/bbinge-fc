@@ -105,7 +105,7 @@ fashionProfile:
 
 무엇보다 레이는 팬 소통 플랫폼을 통해 멤버들이 각자 입고 싶은 방식으로 리폼을 부탁했다고 설명했다. 누군가 장원영에게만 일방적으로 불편한 옷을 입혔다는 추측과는 결이 다르다. 이후 장원영 역시 경기장에서 촬영한 전신과 셀피를 자신의 인스타그램에 다시 올렸다. 여기까지 확인하면 논쟁을 대신 판정하기보다, 그가 선택해 공개한 옷이 어떤 얼굴을 만들었는지 보는 편이 훨씬 재미있다.
 
-시축 동작에서는 흰 쇼츠가 안전장치이자 레이어로 드러난다. 드레스 밑단보다 길게 정리된 단정한 쇼츠가 아니라, 올이 풀린 가장자리만 불규칙하게 비친다. 완벽하게 매끈한 새틴 아래에 거친 데님 조각이 남으면서 사진이 지나치게 매끈해지는 것을 막는다. 흰 스니커즈까지 이어지면 상체의 광택은 화려하되 발밑은 실제로 뛰고 찰 수 있는 상태가 된다.
+시축 동작에서는 흰 쇼츠가 안전장치이자 레이어로 드러난다. 드레스 밑단 아래로 올이 풀린 가장자리만 불규칙하게 비친다. 완벽하게 매끈한 새틴 아래에 거친 데님 조각이 남으면서 사진이 지나치게 매끈해지는 것을 막는다. 흰 스니커즈까지 이어지면 상체의 광택은 화려하되 발밑은 실제로 뛰고 찰 수 있는 상태가 된다.
 
 <section class="wy-video" aria-label="쿠팡플레이 스포츠 공식 장원영 퇴장 영상">
   <div class="wy-video__copy">
@@ -138,7 +138,7 @@ fashionProfile:
 <section class="wy-shop" aria-label="장원영 하늘색 저지 드레스 무드를 일상으로 옮기는 공식 축구 저지">
   <figure class="wy-shop__image wy-enter">
     <img src="/images/culture/wonyoung-coupang-play/mcfc-light-blue.webp" alt="하늘색과 흰색의 푸마 맨체스터 시티 FC 홈 저지 레플리카" width="1000" height="1000" loading="lazy" decoding="async" />
-    <figcaption>드레스의 모양이 아니라 하늘색과 흰색의 대비를 공식 축구 저지로 옮기는 선택입니다.<small class="wy-credit">Product image: PUMA Korea</small></figcaption>
+    <figcaption>드레스의 모양보다 하늘색과 흰색의 대비를 공식 축구 저지로 옮기는 선택입니다.<small class="wy-credit">Product image: PUMA Korea</small></figcaption>
   </figure>
   <div class="wy-shop__copy">
     <div class="wy-kicker"><b>05</b><span>TAKE THE COLOR HOME</span></div>

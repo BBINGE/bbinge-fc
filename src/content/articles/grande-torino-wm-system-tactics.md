@@ -29,7 +29,7 @@ draft: false
 그 팀을 숫자 하나로 줄이면 WM, 곧 3-2-2-3이 남는다. 그러나 포메이션 표에 열한 개의 점을 찍는 순간 가장 중요한 장면은 사라진다. 중앙 공격수를 따라 센터 하프가 내려간 변화, 두 하프와 두 인사이드 포워드가 만든 사각형, 발렌티노 마촐라<span class="foreign-note" lang="it">(Valentino Mazzola; 이탈리아 축구 선수·공격수, 1919-1949)</span>가 아래와 위를 연결한 움직임이다. 이 글은 그란데 토리노가 **그 자리에서 무엇을 바꿨는가**를 읽는다.
 
 <section class="torino-shape" aria-label="메토도와 그란데 토리노의 시스테마 전술 비교">
-  <header><span>SHAPE LAB · TWO ITALIAN ANSWERS</span><strong>메토도의 W-W와 시스테마의 W-M</strong><p>선 하나의 후퇴가 수비만 늘린 것이 아니라 중원의 관계를 다시 만들었다.</p></header>
+  <header><span>SHAPE LAB · TWO ITALIAN ANSWERS</span><strong>메토도의 W-W와 시스테마의 W-M</strong><p>선 하나의 후퇴가 수비를 늘리는 데서 그치지 않고 중원의 관계를 다시 만들었다.</p></header>
   <div class="torino-shape__grid">
     <article>
       <div class="board-title"><span>METODO · 2-3-2-3</span><strong>비토리오 포초의 W-W</strong><small>센터 하프가 중원에 남는 이탈리아식 2-3-5 변형</small></div>

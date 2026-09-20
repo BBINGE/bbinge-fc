@@ -88,7 +88,7 @@ faq:
 
 경기장에 일찍 도착한다고 곧바로 입장할 필요는 없다. `Estadio Metropolitano`역에서 나오면 서쪽 상업 산책로의 Los Cinco가 먼저 경기일의 온도를 올린다. 구단이 운영 정보를 안내하는 이 공간은 경기일 오전 10시부터 자정까지 문을 열고, 탱크 맥주와 샌드위치, 작은 안주를 판다. 고급 맛집을 찾아간다는 목적보다 지하철에서 나온 사람들이 붉고 흰 군중으로 바뀌는 과정 속에 들어가는 장소다.
 
-46번 게이트 옆 Brindis는 대형 아틀레티 깃발 가까이에 있는 공식 바다. 사람을 피해 조용히 한 잔 마시는 곳이 아니라 홈팬의 노래가 경기장 바깥에서 먼저 시작되는 곳에 가깝다. 동행인이 북적임을 부담스러워하면 Los Cinco에서 짧게 먹고 둘레 산책으로 빠지고, 응원 분위기가 여행의 핵심이면 Brindis까지 이어간다.
+46번 게이트 옆 Brindis는 대형 아틀레티 깃발 가까이에 있는 공식 바다. 조용히 한 잔 하는 곳이라기보다 홈팬의 노래가 경기장 바깥에서 먼저 시작되는 곳에 가깝다. 동행인이 북적임을 부담스러워하면 Los Cinco에서 짧게 먹고 둘레 산책으로 빠지고, 응원 분위기가 여행의 핵심이면 Brindis까지 이어간다.
 
 <div class="journey-day-plan"><article><span>KICK-OFF − 180M</span><strong>스토어와 외곽 한 바퀴</strong><p>Paseo de los Colchoneros 13의 공식 스토어에서 이강인 7번 마킹과 재고를 먼저 확인한다.</p></article><article><span>KICK-OFF − 120M</span><strong>Los Cinco 또는 Brindis</strong><p>식사는 가볍게 끝내고 홈팬의 유니폼과 노래가 늘어나는 시간을 본다.</p></article><article><span>KICK-OFF − 75M</span><strong>티켓의 게이트로 입장</strong><p>보안 검색, 좌석 찾기와 선수 몸풀기를 위해 관중이 몰리기 전에 안으로 들어간다.</p></article></div>
 
@@ -96,7 +96,7 @@ faq:
 
 경기장 내부는 담배와 전자담배, 베이핑이 금지된다. 흡연을 위해 외부 플랫폼으로 나갈 수 있는 시간은 전반 30분부터 후반 70분까지이며, 들어왔던 같은 게이트의 노란색 개찰구에 티켓을 찍고 나가야 재입장이 가능하다. 이 절차를 놓치면 다시 들어오지 못할 수 있다.
 
-<section class="journey-video-callout" data-journey-ugc-video data-youtube-id="eHPJvPDuOfQ"><button class="journey-video-callout__trigger" type="button" aria-label="Aúpa Atleti 관중석 현장 영상 재생"><span>THE SOUND YOU CAME FOR</span><strong>화면 밖에서 먼저 들리는 “Aúpa Atleti”를 놓치지 마세요</strong><p>선수 소개 때 이강인의 이름이 전광판에 뜨고, Fondo Sur의 낮은 노래가 지붕 아래에서 커지는 시간은 킥오프 뒤에 다시 볼 수 없다. 몸풀기부터 앉아 있어야 좌석이 단순한 관람 위치가 아니라 여행의 장면이 된다.</p></button><div class="journey-ugc-video__player" hidden><button type="button" aria-label="관중석 현장 영상 닫기">×</button><iframe title="아틀레티코 마드리드 메트로폴리타노 관중석 현장 영상" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></section>
+<section class="journey-video-callout" data-journey-ugc-video data-youtube-id="eHPJvPDuOfQ"><button class="journey-video-callout__trigger" type="button" aria-label="Aúpa Atleti 관중석 현장 영상 재생"><span>THE SOUND YOU CAME FOR</span><strong>화면 밖에서 먼저 들리는 “Aúpa Atleti”를 놓치지 마세요</strong><p>선수 소개 때 이강인의 이름이 전광판에 뜨고, Fondo Sur의 낮은 노래가 지붕 아래에서 커지는 시간은 킥오프 뒤에 다시 볼 수 없다. 몸풀기부터 앉아 있어야 좌석이 관람 위치에서 여행의 장면으로 바뀐다.</p></button><div class="journey-ugc-video__player" hidden><button type="button" aria-label="관중석 현장 영상 닫기">×</button><iframe title="아틀레티코 마드리드 메트로폴리타노 관중석 현장 영상" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></section>
 
 <h2 id="after-match">경기 뒤에는 가장 가까운 역이 가장 빠르지 않을 수 있어요</h2>
 
