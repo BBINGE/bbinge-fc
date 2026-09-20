@@ -113,11 +113,22 @@ const canonicalBodyTermRules = [
 
 const connectiveOpening = /^(?:그러나|하지만|다만|그래서|따라서|그럼에도|반면|한편|실제로|이후|이때|동시에|결국|즉|또한|그러면서|그런데|마침|그제야|반대로|그 사이|이 과정|때문에)/;
 
+// AI 문체 상투구(운영자 지적, 2026-09-20). 같은 수사가 여덟 편에 복붙돼 있던 것을 걷고 검사로 막는다.
+// ① "X라고만 부르면 절반만 본다" 틀 ② "단순히 A가 아니라 B" 강조사.
+// 대비 자체를 막지 않는다. 독자가 A를 실제로 쥐고 있는 대비는 이 글들의 논지이므로 그대로 둔다.
+const formulaPatterns = [
+  [/(?:단순히|그냥|그저)[^.\r\n]{0,40}(?:부르면|설명하면|읽으면|보면)[^.\r\n]{0,20}절반/g,
+    "'…라고만 부르면 절반만 본다' 상투구입니다. 그 글의 내용으로 다시 쓰십시오."],
+  [/단순히[^.\r\n]{0,40}(?:이|가) 아니라/g,
+    "'단순히 A가 아니라 B' 강조사입니다. '단순히'를 빼거나 B만 진술하십시오."],
+];
+
 const integrationRequirements = new Map([
   ['EDITORIAL_WRITING_RULES.md', [
     'VOICE-OWNER',
     'HEADING-NO-FORCED-CONTRAST',
     'PROSE-FLOW',
+    'PROSE-FORMULA',
     'FOREIGN-NOTE-SELECTIVE',
     'FOREIGN-NOTE-IDENTITY',
     'FOREIGN-NOTE-ORIGINAL',
@@ -324,6 +335,18 @@ function validateSource(source, relative = 'fixture.md') {
     }
   }
 
+  for (const [pattern, message] of formulaPatterns) {
+    const re = new RegExp(pattern.source, pattern.flags);
+    for (const match of source.matchAll(re)) {
+      issues.push({
+        code: 'PROSE-FORMULA',
+        message: `${message} (${match[0].slice(0, 30)})`,
+        line: lineAt(source, match.index),
+        relative,
+      });
+    }
+  }
+
   // 네이버 원문 주소는 frontmatter의 priorPublication에만 둔다(HANDOFF 2026-09-09·2026-09-11 확정).
   // 공개 본문과 참고 자료에 링크로 넣지 않는다. 검색엔진이 원문을 대표 주소로 잡지 않게 하려는 결정이다.
   // 예외: 운영자가 제작한 네이버 클립(/clip/)은 같은 글의 중복본이 아니라 별도 영상 자산이므로
@@ -406,6 +429,8 @@ function runSelfTest() {
     ['본문 검색 별칭', '리우데자네이루 챔피언이 남미 정상에 올랐다.', 'CANONICAL-TERMINOLOGY'],
     ['대중 용어 원어 풀이', '추가시간<span class="foreign-note" lang="en">(additional time)</span>은 주심이 정한다.', 'FOREIGN-NOTE-SELECTIVE'],
     ['짧은 문단 연타', '경기가 다시 시작됐다.\n\n관중은 시계를 바라봤다.\n\n벤치는 항의를 이어갔다.\n\n주심은 손목을 가리켰다.\n\n휘슬은 아직 울리지 않았다.', 'PROSE-FLOW'],
+    ['절반만 본다 상투구', '그를 단순히 빠른 윙어라고만 설명하면 절반밖에 보지 못한다.', 'PROSE-FORMULA'],
+    ['단순히 A가 아니라 B', '이 셔츠는 단순히 유니폼 하나가 아니라 도시의 기록이다.', 'PROSE-FORMULA'],
     ['축세 미리보기 누락', '---\ntitle: 축구 역사의 오래된 질문을 다시 읽는다\ndescription: 검색을 위한 충분히 긴 설명입니다.\ncategory: history\ndraft: false\n---\n\n본문입니다.', 'HISTORY-PREVIEW-PROMISE'],
     ['축세 상세 제목 복사', '---\ntitle: 축구 역사는 왜 영국 중심으로 쓰였나\ndescription: 검색을 위한 설명은 상세 페이지와 검색 결과에 사용됩니다.\npreviewTitle: 축구 역사는 왜 영국 중심으로 쓰였나\npreviewDescription: 영국과 남미가 서로 다른 사회에서 축구를 발전시킨 과정을 구체적인 사건과 함께 읽습니다.\ncategory: history\ndraft: false\n---\n\n본문입니다.', 'HISTORY-PREVIEW-PROMISE'],
   ];
@@ -471,4 +496,4 @@ if (failures.length > 0) {
 }
 
 console.log('삥이FC 글쓰기 규칙 검수 통과');
-console.log('자동 차단: 제작 과정 노출 · 비표준 대회명·인명 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타 · 축세 미리보기 위반');
+console.log('자동 차단: 제작 과정 노출 · 비표준 대회명·인명 · 대비형 소제목 · 불필요한 대중 용어 원어 풀이 · 연결 없는 짧은 문장 연타 · AI 문체 상투구 · 축세 미리보기 위반');

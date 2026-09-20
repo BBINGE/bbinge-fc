@@ -78,7 +78,7 @@ relatedGroup: 'fifa-world-cup-1938'
   </div>
 </div>
 
-2-3-5의 다섯 공격수는 단순히 득점 순위대로 세운 줄이 아니다. 샤로시와 젱겔레르가 헝가리의 양쪽을 잡고, 결승에서 네 골을 합작한 콜라우시와 피올라가 레오니다스 곁에 선다. 중앙의 레오니다스는 이 대회 최다 득점자이자 브라질이 처음으로 월드컵 4강에 오른 공격의 중심이었다.
+2-3-5의 다섯 공격수는 득점 순위대로 세운 줄이 아니다. 샤로시와 젱겔레르가 헝가리의 양쪽을 잡고, 결승에서 네 골을 합작한 콜라우시와 피올라가 레오니다스 곁에 선다. 중앙의 레오니다스는 이 대회 최다 득점자이자 브라질이 처음으로 월드컵 4강에 오른 공격의 중심이었다.
 
 <div class="best-xi-roster" aria-label="1938 FIFA 월드컵 베스트 11 선수 카드">
   <article class="best-xi-player"><img src="/images/archive/1938-fifa-world-cup-best-xi/players/frantisek-planicka.jpg" width="300" height="428" alt="프란티셰크 플라니치카" loading="lazy" /><div><span>GK · 골키퍼</span><strong>프란티셰크 플라니치카</strong><small lang="cs">František Plánička</small><p>체코슬로바키아 <img class="flag" src="/images/flags/cs-first-republic.svg" width="30" height="20" alt="체코슬로바키아 국기" /> · 2경기 1실점</p></div></article>

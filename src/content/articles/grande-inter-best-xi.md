@@ -30,7 +30,7 @@ featured: false
 
 <div class="custom-xi-honours" aria-label="1960년부터 1972년까지 주요 성과"><div><img src="/images/trophies/european-cup.svg" alt="유러피언컵 트로피" loading="lazy" width="38" height="43"><strong>2</strong><span>유러피언컵 우승</span></div><div><img src="/images/trophies/european-cup.svg" alt="유러피언컵 트로피" loading="lazy" width="38" height="43"><strong>2</strong><span>유러피언컵 준우승</span></div><div><img src="/images/trophies/serie-a.svg" alt="세리에 A 우승 트로피" loading="lazy" width="38" height="43"><strong>4</strong><span>세리에 A 우승</span></div><div><img src="/images/trophies/intercontinental-cup.svg" alt="인터콘티넨털컵 트로피" loading="lazy" width="38" height="43"><strong>2</strong><span>인터콘티넨털컵 우승</span></div><div><img src="/images/trophies/ballon-dor.svg" alt="발롱도르 트로피" loading="lazy" width="38" height="43"><strong>5</strong><span>발롱도르 포디움</span></div></div>
 
-그란데 인테르를 단순히 ‘수비만 한 팀’이라고 설명하면 절반도 보지 못한 셈이다. 아리스티데 과르네리는 당시 팀을 돌아보며 “우리에겐 다섯 명의 정상급 공격수가 있었고, 산 시로에서는 결코 수비적이지 않았다”고 말했다. 피키가 마지막 공간을 읽고, 과르네리와 부르니치가 상대를 지우는 동안 파케티는 왼쪽을 타고 전진했다. 그 앞에서는 수아레스가 경기의 설계도를 그리고, 마촐라·코르소·자이르가 서로 다른 속도로 골문을 흔들었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+‘수비만 한 팀’이라는 설명은 이 팀이 산 시로에서 무엇을 했는지를 빠뜨린다. 아리스티데 과르네리는 당시 팀을 돌아보며 “우리에겐 다섯 명의 정상급 공격수가 있었고, 산 시로에서는 결코 수비적이지 않았다”고 말했다. 피키가 마지막 공간을 읽고, 과르네리와 부르니치가 상대를 지우는 동안 파케티는 왼쪽을 타고 전진했다. 그 앞에서는 수아레스가 경기의 설계도를 그리고, 마촐라·코르소·자이르가 서로 다른 속도로 골문을 흔들었다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 ## ‘빗장 수비의 나라’라는 편리한 오해
 
