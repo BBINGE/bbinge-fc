@@ -23,8 +23,15 @@ featured: false
   <span class="gateway-line" aria-hidden="true"></span>
   <div class="madrid-league"><img src="/images/leagues/laliga-logo.svg" alt="라리가 공식 로고" width="400" height="114" /><p>라리가</p><small lang="es">Primera División</small></div>
   <span class="gateway-line" aria-hidden="true"></span>
-  <div class="madrid-club"><img src="/images/popup/rivalries/crests/real-madrid-esp.webp" alt="레알 마드리드 CF 문장" width="160" height="160" /><p>레알 마드리드 CF</p><small lang="es">Real Madrid Club de Fútbol</small></div>
+  <div class="madrid-club"><img src="/images/clubs/real-madrid.svg" alt="레알 마드리드 CF 문장" width="273" height="366" /><p>레알 마드리드 CF</p><small lang="es">Real Madrid Club de Fútbol</small></div>
 </section>
+
+<div class="madrid-era" aria-label="레알 마드리드 CF 역대 베스트 11 시대 범위">
+  <img src="/images/clubs/real-madrid.svg" width="273" height="366" alt="" aria-hidden="true" />
+  <span>REAL MADRID CLUB DE FÚTBOL · LOS BLANCOS</span>
+  <strong>1902-2025</strong>
+  <p>흰 유니폼 · 유러피언컵 5연패 · 갈락티코 · 라 데시마</p>
+</div>
 
 전설은 매번 새롭게 쓰이지만, 왕조는 한 번 건설되면 모든 이들의 기준이 된다. 디스테파노부터 호날두까지, 푸슈카시부터 라모스까지, 왕관이 씌워진 백색의 신들을 찬미하는 기록이다. 필자가 고른 열한 명과 후보 열다섯, 추가 열다섯까지 마흔한 개의 이름을 함께 남긴다.
 
@@ -40,13 +47,13 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 이 팀에는 단 하나의 특징만이 존재했다. 이기는 것. 다른 팀이 축구의 아름다움을 고민할 때 레알은 그 아름다움을 소유하겠다고 선언했고, 다른 팀이 전술을 짜고 시스템을 다듬을 때 레알은 우리는 전설을 뛴다고 천명하였다.
 
-그리고 그 위에 등장한 이름들. 헨토, 디스테파노, 푸슈카시, 레몽 코파, 라울, 호날두, 모드리치. 그들은 매번 같은 대사를 반복했다. 우리는 레알이다.
+그리고 그 위에 등장한 이름들. 헨토, 디스테파노, 푸슈카시, 레몽 코파, 라울, 호날두, 모드리치. 그들은 매번 같은 대사를 반복했다.
+
+<div class="madrid-invocation"><strong>우리는 레알이다.</strong></div>
 
 필자가 이 열한 명을 고르며 가장 오래 붙들고 있던 것은 선수의 우열보다 명단의 성격이었다. 다른 구단의 역대 베스트 11에서는 최고의 선수를 모아 온 구단의 힘이 읽힌다. 이 명단에서는 한 구단이 서로 다른 세 시대에 걸쳐 세 번이나 신을 가졌다는 사실이 읽힌다. 1950년대의 디스테파노, 그 곁의 푸슈카시, 그리고 2010년대의 호날두다.
 
 ## 선정 전술: 백이십 년을 세운 4-2-4
-
-<figure class="madrid-formation"><img src="/images/squads/real-madrid-all-time-best-xi/formation.webp" alt="레알 마드리드 CF 역대 베스트 11을 4-2-4로 배치한 전술판" loading="lazy" width="966" height="966" /><figcaption>레알 마드리드 CF 역대 베스트 11. 전술판 디자인: 삥이.</figcaption></figure>
 
 앞선 라리가 편들이 4-3-3으로 열한 자리를 나눈 것과 달리 이 명단은 4-2-4로 세웠다. 이유는 이 구단의 창세기에 있다. 1950년대 레알은 WM에서 넘어오던 과도기의 대형을 썼고, 앞에 네 명을 세운 채 디스테파노가 중원까지 내려와 공격을 다시 시작하는 구조로 유러피언컵 5연패를 완성했다. 전방 넷과 중원 둘이라는 배치는 복원이라기보다 이 구단이 실제로 통치하던 모양이다.
 
@@ -118,9 +125,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 골로 경기를 구했고, 피로 팀을 지켰던 레알 마드리드의 마지막 야성.
 
-> 세르히오 라모스는 클럽 엠블럼을 유니폼에 단 것이 아니라, 가슴속에 새긴 채 뛰었다.
->
-> 루카 모드리치가 팀 동료 시절의 라모스를 회고하며
+<blockquote class="madrid-quote"><p>세르히오 라모스는 클럽 엠블럼을 유니폼에 단 것이 아니라, 가슴속에 새긴 채 뛰었다.</p><cite>루카 모드리치가 팀 동료 시절의 라모스를 회고하며</cite></blockquote>
 
 레알 마드리드에 기적이 필요할 때 늘 존재하던 선수는 호날두도 있었으나 세르히오 라모스<span class="foreign-note" lang="es">(Sergio Ramos García; 스페인 수비수, 1986-)</span>의 존재감은 더욱이 강력했다.
 
@@ -167,9 +172,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 이 열거는 한 항목씩 풀면 각기 한 장을 요구한다. 골키퍼와 센터백 사이까지 내려와 수비하고, 중원에서 빌드업을 설계하고, 전방에선 직접 골을 넣었으며, 윙에서는 공간을 벌리고, 공격수에게 포지셔닝을 가르쳐 주던 존재였다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a>
 
-> 펠레는 시였고, 마라도나는 폭발이었으며, 메시는 감정이었지. 하지만 디스테파노는 전체일 걸.
->
-> 프란츠 베켄바워가 디스테파노를 두고
+<blockquote class="madrid-quote"><p>펠레는 시였고, 마라도나는 폭발이었으며, 메시는 감정이었지. 하지만 디스테파노는 전체일 걸.</p><cite>프란츠 베켄바워가 디스테파노를 두고</cite></blockquote>
 
 독일 축구사가 낳은 가장 위대한 선수 가운데 한 명이 날린 찬사다. 애당초 디스테파노는 당시 펠레는 물론 유명한 선수들과 대부분 친했다.
 
@@ -187,7 +190,9 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 이 과정에서조차 유벤투스 FC까지 합류해 디스테파노를, 훗날에는 푸슈카시 페렌츠 영입까지 시도했으니 하마터면 21세기 레알 마드리드 포지션이 유벤투스가 될 뻔하기도 했었다.
 
-알프레도 디스테파노의 이적은 다음과 같이 정의된다. 그 선수 때문에 바르셀로나는 철학이 되었고, 레알 마드리드는 왕조가 되었다.
+알프레도 디스테파노의 이적은 다음과 같이 정의된다.
+
+<div class="madrid-invocation"><strong>그 선수 때문에 바르셀로나는 철학이 되었고, 레알 마드리드는 왕조가 되었다.</strong></div>
 
 ## 8. 파코 헨토 - 레프트 윙
 
@@ -203,11 +208,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 알프레도 디스테파노가 어느 날 헨토에게 말을 건넸다고 전해진다.
 
-> 봐, 관중들이 네게 보내는 박수야.
->
-> <span lang="es">Mira, la multitud te está aplaudiendo.</span>
->
-> 알프레도 디스테파노가 경기 중 헨토에게
+<blockquote class="madrid-quote"><p>봐, 관중들이 네게 보내는 박수야.</p><p lang="es">Mira, la multitud te está aplaudiendo.</p><cite>알프레도 디스테파노가 경기 중 헨토에게</cite></blockquote>
 
 유러피언컵 결승에 여덟 번 나선 선수는 축구사에 그 혼자다. 왕조의 처음과 끝에 같은 왼쪽 선이 있었다는 사실만으로 이 자리는 논쟁의 대상이 되지 않는다.
 
@@ -244,7 +245,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 그의 신체가 무엇을 해냈는지를 한 장면으로 보려면 공중에서 몸을 뒤집어 차 넣는 골만큼 정확한 자료가 없다. 2018년 4월 유벤투스 원정에서 나온 바이시클킥은 상대 홈 관중이 기립 박수를 보낸 몇 안 되는 장면으로 남았다.
 
-<a class="madrid-clip-link" href="https://m.blog.naver.com/sho3603/clip/7074915" target="_blank" rel="noopener noreferrer"><span class="madrid-clip-body"><em>삥이의 클립</em><strong>챔스 오버헤드킥 골 모음.Zip</strong><span class="madrid-clip-note">UEFA 챔피언스 리그 역사상 가장 멋진 오버헤드킥 골을 순위로 모았다.</span><span class="madrid-clip-cta">영상 보러 가기 <b aria-hidden="true">→</b></span></span></a>
+<a class="madrid-clip-link" href="https://m.blog.naver.com/sho3603/clip/7074915" target="_blank" rel="noopener noreferrer"><span class="madrid-clip-body"><em>삥이의 클립</em><strong>챔스 오버헤드킥 골 모음.Zip</strong><span class="madrid-clip-cta">영상 보러 가기 <b aria-hidden="true">→</b></span></span></a>
 
 팬과 미디어와 선수와 감독 모두가 그에 대한 찬사와 비판을 진지하게 했다는 것 자체로서 그는 역사의 중심에 섰다. 21세기 미디어 스타라는 말로는 담기지 않는, 철학 위를 걷던 자다. 리오넬 메시와의 라이벌리가 크라위프와 베켄바워의 그것만큼의 파급력과 흥행을 보유하고 있다는 점에서 서사는 더욱 완벽해진다.
 
@@ -303,7 +304,13 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 <figure class="madrid-final-sequence">
   <img src="/images/squads/real-madrid-all-time-best-xi/final-header.webp" alt="레알 마드리드 CF 역대 베스트 11 표제" loading="lazy" width="966" height="322" />
+  <img src="/images/squads/real-madrid-all-time-best-xi/formation.webp" alt="4-2-4 대형으로 배치한 레알 마드리드 CF 역대 베스트 11" loading="lazy" width="966" height="966" />
+  <img src="/images/squads/real-madrid-all-time-best-xi/second-team.webp" alt="레알 마드리드 CF 역대 베스트 11 후보 15인 편집물" loading="lazy" width="900" height="1788" />
+  <img src="/images/squads/real-madrid-all-time-best-xi/third-team.webp" alt="레알 마드리드 CF 역대 베스트 11 추가 15인 편집물" loading="lazy" width="900" height="1788" />
+  <figcaption>표제, 열한 명의 대형, 후보 15인과 추가 15인. 1950년대의 디스테파노부터 2020년대의 모드리치까지 마흔한 명이 한 흐름에 들어간다.</figcaption>
 </figure>
+
+이 명단은 레알 마드리드 CF의 가장 위대했던 41인의 명단이다.
 
 카시야스가 뒤를 닫고, 마르셀루와 라모스가 양쪽 선을 오르내리며, 산타마리아와 이에로가 중앙을 나눈다. 그 앞에서 디스테파노와 모드리치가 공을 받아 방향을 정하고, 헨토가 왼쪽 끝을 밟아 폭을 만들면 푸슈카시와 라울이 안쪽으로 들어오고 호날두가 반대편에서 문전을 향해 접어 들어간다.
 
@@ -311,11 +318,11 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 그리고 그 마지막 자리에 세 번이나 신이 섰다. 1950년대에 디스테파노가, 그 곁에서 푸슈카시가, 반세기 뒤에 호날두가 섰다. 한 구단이 서로 다른 세 시대에 걸쳐 축구사 최상위의 이름을 세 번 가졌다는 사실이 이 명단의 성격이다.
 
+<div class="madrid-invocation"><strong>신들이 입은 유니폼은 흰색이었고,<br />그 문장은 언제나 레알 마드리드였다.</strong><span class="madrid-invocation-sub">마흔한 개의 이름이 한 장에 들어간 까닭이다.</span></div>
+
 ## 이미지 밖에서 다시 읽는 후보 15인
 
 최종 열한 자리에 들지 못했다는 사실이 이들의 위계를 낮추지는 않는다. 시대별 전술과 열한 자리의 조화를 우선한 결과이며, 아래 명단은 편집물 안의 이름을 검색 가능한 텍스트로 다시 기록한 것이다.
-
-<figure class="madrid-roster-art"><img src="/images/squads/real-madrid-all-time-best-xi/second-team.webp" alt="레알 마드리드 CF 역대 베스트 11 후보 15인 편집물" loading="lazy" width="900" height="1788" /></figure>
 
 <ul class="madrid-candidate-list" aria-label="레알 마드리드 CF 역대 베스트 11 후보 15인">
   <li><strong>프란시스코 부요</strong><small lang="es">Francisco Buyo Sánchez · 골키퍼</small><p>킨타 델 부이트레 시대의 골문을 지킨 스페인 수문장이다.</p></li>
@@ -337,8 +344,6 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
 
 ## 이미지 밖에서 다시 읽는 추가 15인
 
-<figure class="madrid-roster-art"><img src="/images/squads/real-madrid-all-time-best-xi/third-team.webp" alt="레알 마드리드 CF 역대 베스트 11 추가 후보 15인 편집물" loading="lazy" width="900" height="1788" /></figure>
-
 <ul class="madrid-candidate-list" aria-label="레알 마드리드 CF 역대 베스트 11 추가 후보 15인">
   <li><strong>미겔 앙헬</strong><small lang="es">Miguel Ángel González Suárez · 골키퍼</small><p>1970년대와 1980년대 초의 골문을 오래 지킨 스페인 골키퍼다.</p></li>
   <li><strong>티보 쿠르투아</strong><small lang="nl">Thibaut Nicolas Marc Courtois · 골키퍼</small><p>2022년 파리 결승에서 아홉 차례 선방으로 우승을 지킨 벨기에 골키퍼다.</p></li>
@@ -357,56 +362,66 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
   <li><strong>산티야나</strong><small lang="es">Carlos Alonso González “Santillana” · 센터 포워드</small><p>헤더 득점의 기준으로 남은 스페인 공격수다.</p></li>
 </ul>
 
-이 명단은 레알 마드리드 CF의 가장 위대했던 마흔한 명의 기록이다.
-
-## 출처와 기록 기준
-
-<div class="source-notes"><ol>
-<li id="source-1"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/alfredo-di-stefano-laulhe" target="_blank" rel="noopener noreferrer">Real Madrid C.F., Alfredo Di Stéfano: 공식전 출전·득점과 재임 기간</a></li>
-<li id="source-2"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/ferenc-puskas-biro" target="_blank" rel="noopener noreferrer">Real Madrid C.F., Ferenc Puskás: 마드리드 시절 출전·득점과 우승 기록</a></li>
-<li id="source-3"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/francisco-gento-lopez" target="_blank" rel="noopener noreferrer">Real Madrid C.F., Francisco Gento: 유러피언컵 6회 우승과 통산 기록</a></li>
-<li id="source-4"><a href="https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/jose-emilio-santamaria/" target="_blank" rel="noopener noreferrer">Real Madrid C.F., José Santamaría: 출전 기록과 우승 이력</a></li>
-<li id="source-5"><a href="https://www.realmadrid.com/static/en/about-real-madrid/history/football/1951-1960/" target="_blank" rel="noopener noreferrer">Real Madrid C.F., 1951-1960: 유러피언컵 5연패와 1960년 인터콘티넨털컵</a></li>
-<li id="source-6"><a href="https://www.realmadrid.com/en-US/the-club/history/football-legends" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 공식 레전드 목록: 구단이 레전드로 지정한 선수 명단</a></li>
-</ol></div>
-
-<p class="record-note">선수 통계는 구단 공식 기록과 편집물에 표기된 값을 따랐다. 디스테파노와 푸슈카시의 통산 기록은 당대 집계 방식의 차이로 자료마다 달라지므로 편집물의 표기를 그대로 두고 추정 기호를 함께 남겼다. 열한 명의 선정과 서열, 후보 서른 명의 구성은 운영자가 정한 원본을 따랐다. 선수 카드와 표지, 전술판, 후보 편집물은 모두 박성호(삥이)가 Adobe Photoshop에서 직접 제작했으며 생성형 AI를 사용하지 않았다. 편집물 안의 일부 표기는 제작 시점의 것이며, 본문은 사이트 표기 기준을 따라 인터콘티넨털컵과 La Saeta Rubia로 적었다.</p>
+<div class="source-notes"><h2>기록을 확인한 곳</h2><ol><li id="source-1"><strong>알프레도 디스테파노</strong> — <a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/alfredo-di-stefano-laulhe" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 「Alfredo Di Stéfano」</a>. 공식전 출전과 득점, 1953년 입단과 유러피언컵 5연패 기간. 통산 기록은 당대 집계 방식에 따라 자료마다 갈려 선수 카드의 추정 표기를 본문에 함께 남겼다.</li><li id="source-2"><strong>푸슈카시 페렌츠</strong> — <a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/ferenc-puskas-biro" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 「Ferenc Puskás」</a>. 마드리드 시절 출전과 득점, 유러피언컵 3회 우승과 라리가 5회 우승. 한글 표기는 헝가리식 성명 순서를 따라 푸슈카시 페렌츠로 적었고, 제목에는 국내 검색 표기인 푸스카스를 썼다.</li><li id="source-3"><strong>파코 헨토</strong> — <a href="https://www.realmadrid.com/en-US/the-club/history/football-legends/francisco-gento-lopez" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 「Francisco Gento」</a>. 유러피언컵 6회 우승과 결승 여덟 차례 출전, 라리가 12회 우승.</li><li id="source-4"><strong>호세 산타마리아</strong> — <a href="https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/jose-emilio-santamaria/" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 「José Santamaría」</a>. 337경기 출전과 라리가 6회, 유러피언컵 4회 우승.</li><li id="source-5"><strong>1950년대의 유러피언컵과 인터콘티넨털컵</strong> — <a href="https://www.realmadrid.com/static/en/about-real-madrid/history/football/1951-1960/" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 「1951-1960」</a>. 유러피언컵 5연패, 1960년 글래스고 결승의 7-3, 같은 해 CA 페냐롤을 꺾은 인터콘티넨털컵. 원고의 인터컨티넨탈컵은 사이트 표기 기준에 따라 인터콘티넨털컵으로 바로잡았다.</li><li id="source-6"><strong>구단 우승 연혁과 레전드 명단</strong> — <a href="https://www.realmadrid.com/en-US/the-club/history/football-legends" target="_blank" rel="noopener noreferrer">Real Madrid C.F. 공식 레전드 목록</a>. UEFA 챔피언스 리그 14회와 라리가 35회 우승, 구단이 레전드로 지정한 선수 명단.</li><li id="source-7"><strong>열한 명의 선정과 후보 서른 명</strong> — 운영자 원고와 편집물 묶음을 따랐다. 선정과 서열은 원본 그대로이며, 표기만 사이트 기준으로 맞췄다. 선수 카드와 표지, 전술판, 후보 편집물은 모두 박성호(삥이)가 Adobe Photoshop에서 직접 제작했고 생성형 AI를 쓰지 않았다.</li></ol></div>
 
 <style>
-  .madrid-gateway { display: flex; align-items: center; justify-content: center; gap: clamp(.75rem, 3vw, 2rem); margin: 0 0 3rem; padding: 1.75rem 1rem; border: 1px solid #d8c88a; border-radius: 16px; background: linear-gradient(135deg, #12100c, #1f1b12 55%, #0d0c09); color: #f6f2e6; }
-  .madrid-gateway img { display: block; width: auto; height: clamp(34px, 6vw, 52px); margin: 0 auto .6rem; object-fit: contain; }
-  .madrid-gateway p { margin: 0; font-size: clamp(.82rem, 1.6vw, .98rem); font-weight: 700; text-align: center; }
-  .madrid-gateway small { display: block; margin-top: .15rem; color: #cbbd8f; font-size: .68rem; text-align: center; }
-  .madrid-gateway .gateway-line { flex: 0 1 clamp(18px, 6vw, 70px); height: 1px; background: linear-gradient(90deg, transparent, #d8c88a, transparent); }
-  .madrid-formation, .madrid-player-art, .madrid-roster-art, .madrid-final-sequence { margin: 2.5rem 0 3rem; }
-  .madrid-formation img, .madrid-player-art img, .madrid-roster-art img, .madrid-final-sequence img { display: block; width: 100%; height: auto; border-radius: 14px; }
-  .madrid-formation figcaption { margin-top: .75rem; color: #68747a; font-size: .86rem; line-height: 1.6; }
-  .madrid-litany { margin: 2.5rem 0 2.75rem; padding: clamp(1.3rem, 3vw, 2rem); border: 1px solid #cbb26a; border-radius: 14px; background: linear-gradient(135deg, #14120d, #221d13 58%, #100f0b); color: #f7f3e8; }
-  .article-body .madrid-litany p { margin: 0 0 .55rem; color: #efe8d6 !important; font-size: .95rem; line-height: 1.75; word-break: keep-all; }
-  .article-body .madrid-litany p::before { margin-right: .5rem; color: #d9bc63; content: "—"; }
-  .madrid-litany strong { display: block; margin-top: 1.1rem; padding-top: 1.05rem; border-top: 1px solid rgba(203, 178, 106, .45); color: #f2d98a; font-size: clamp(1.02rem, 2vw, 1.22rem); font-weight: 800; line-height: 1.6; word-break: keep-all; }
-  .madrid-clip-link { display: block; margin: 3rem 0; overflow: hidden; border: 1px solid rgba(203, 178, 106, .55); border-radius: 16px; background: linear-gradient(135deg, #14120d, #23200f 62%, #100f0b); color: #fff; text-decoration: none; box-shadow: 0 16px 34px rgba(0, 0, 0, .28); }
-  .madrid-clip-link:hover { box-shadow: 0 22px 44px rgba(0, 0, 0, .36); }
-  .madrid-clip-body { display: flex; flex-direction: column; padding: clamp(1.3rem, 3vw, 1.9rem); }
-  .madrid-clip-link em { color: #d9bc63; font-size: .72rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
+  .madrid-gateway { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 3rem 0 4rem; overflow: hidden; border: 1px solid rgba(254,190,16,.7); border-radius: 22px; background: #050505; color: #fff; text-align: center; box-shadow: 0 22px 50px rgba(0,0,0,.2); transform: translateX(-50%); }
+  .madrid-gateway > div { display: flex; min-height: 220px; flex-direction: column; align-items: center; justify-content: center; padding: 2.4rem 1.5rem; }
+  .madrid-gateway p { margin: 1.1rem 0 .25rem; color: #fff; font-size: clamp(1.35rem, 3vw, 2rem); font-weight: 800; letter-spacing: -.035em; }
+  .madrid-gateway small { color: rgba(255,255,255,.66); font-size: .78rem; letter-spacing: .055em; }
+  .madrid-country { background: linear-gradient(135deg, #050505 0 72%, #171717 72%); }
+  .madrid-country img { width: min(150px, 38%); height: auto; border-radius: 4px; }
+  .madrid-league { background: #fff; }
+  .madrid-league img { width: min(230px, 58%); height: auto; object-fit: contain; }
+  .madrid-league p { color: #e8332a; }
+  .madrid-league small { color: #6b7280; }
+  .madrid-club { background: radial-gradient(circle at 50% 18%, rgba(254,190,16,.26), transparent 40%), repeating-linear-gradient(135deg, rgba(255,255,255,.04) 0 16px, transparent 16px 32px), #050505; }
+  .madrid-club img { display: block; width: min(132px, 36%); height: auto; object-fit: contain; filter: drop-shadow(0 14px 22px rgba(0,0,0,.55)); }
+  .gateway-line { position: relative; z-index: 2; display: block; width: 1px; height: 44px; margin: -22px auto; background: linear-gradient(#fff, #febe10, #fff); }
+  .madrid-era { display: flex; flex-direction: column; align-items: center; gap: 5px; margin: 2.6rem 0; border: 1px solid rgba(254,190,16,.34); border-radius: 16px; padding: 1.15rem 1.4rem 1.25rem; background: radial-gradient(circle at 50% 0%, rgba(254,190,16,.14), transparent 52%), #070707; color: #fff; text-align: center; }
+  .madrid-era img { width: 48px; height: 64px; filter: drop-shadow(0 6px 12px rgba(0,0,0,.5)); }
+  .madrid-era span { color: #febe10; font-size: .78rem; font-weight: 800; letter-spacing: .16em; }
+  .madrid-era strong { margin: .1rem 0; font-size: 1.75rem; font-weight: 850; letter-spacing: -.03em; line-height: 1.1; }
+  .madrid-era p { margin: 0; color: rgba(255,255,255,.72); font-size: .94rem; }
+  .madrid-invocation { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.8rem 0; border: 0; border-radius: 16px; padding: 2.1rem 2.3rem; background: radial-gradient(circle at 50% 0%, rgba(254,190,16,.16), transparent 56%), #0a0a0a; color: #fff; font-size: clamp(1.1rem, 2.2vw, 1.5rem); font-weight: 800; line-height: 1.55; text-align: center; word-break: keep-all; transform: translateX(-50%); }
+  .madrid-invocation strong { display: block; color: #febe10; font-size: 1.05em; }
+  .madrid-invocation-sub { display: block; margin-top: .6rem; color: rgba(255,255,255,.78); font-size: .72em; font-weight: 500; }
+  .madrid-quote { margin: 2.6rem 0; border: 0; padding: 0; background: none; }
+  .article-body .madrid-quote p { margin: 0; font-size: 1.05rem; font-weight: 600; line-height: 1.7; word-break: keep-all; }
+  .article-body .madrid-quote p[lang] { margin-top: .45rem; color: var(--bbfc-gray-1); font-size: .93rem; font-weight: 400; }
+  .madrid-quote cite { display: block; margin-top: .6rem; color: var(--bbfc-gray-1); font-size: .85rem; font-style: normal; }
+  .madrid-player-art { margin: 2.5rem 0 3rem; }
+  .madrid-player-art img { display: block; width: 100%; height: auto; border-radius: 14px; }
+  .madrid-final-sequence { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 3rem 0 3.5rem; overflow: hidden; border-radius: 16px; background: #050505; transform: translateX(-50%); }
+  .madrid-final-sequence img { display: block; width: 100%; height: auto; margin: 0; border: 0; border-radius: 0; }
+  .madrid-final-sequence figcaption { margin: 0; padding: 1rem 1.2rem; background: #050505; color: rgba(255,255,255,.72); font-size: .85rem; text-align: center; word-break: keep-all; }
+  .madrid-litany { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.6rem 0 2.9rem; padding: clamp(1.4rem, 3vw, 2.1rem); overflow: hidden; border: 1px solid rgba(254,190,16,.45); border-radius: 16px; background: radial-gradient(circle at 50% 0%, rgba(254,190,16,.12), transparent 46%), #070707; color: #f7f3e8; transform: translateX(-50%); }
+  .article-body .madrid-litany p { margin: 0 0 .55rem; color: rgba(255,255,255,.86) !important; font-size: .95rem; line-height: 1.75; word-break: keep-all; }
+  .article-body .madrid-litany p::before { margin-right: .5rem; color: #febe10; content: "—"; }
+  .madrid-litany strong { display: block; margin-top: 1.1rem; padding-top: 1.05rem; border-top: 1px solid rgba(254,190,16,.35); color: #febe10; font-size: clamp(1.02rem, 2vw, 1.22rem); font-weight: 800; line-height: 1.6; word-break: keep-all; }
+  .madrid-clip-link { position: relative; left: 50%; display: block; width: min(900px, calc(100vw - 32px)); margin: 3rem 0; overflow: hidden; border: 1px solid rgba(254,190,16,.5); border-radius: 16px; background: linear-gradient(135deg, #0a0a0a, #1b1608 64%, #070707); color: #fff; text-decoration: none; box-shadow: 0 18px 40px rgba(0,0,0,.3); transform: translateX(-50%); }
+  .madrid-clip-link:hover { box-shadow: 0 26px 52px rgba(0,0,0,.4); }
+  .madrid-clip-body { display: flex; flex-direction: column; padding: clamp(1.4rem, 3vw, 2rem); }
+  .madrid-clip-link em { color: #febe10; font-size: .72rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
   .madrid-clip-link strong { margin-top: .55rem; color: #fff; font-size: clamp(1.08rem, 2vw, 1.38rem); font-weight: 800; line-height: 1.45; word-break: keep-all; }
-  .madrid-clip-note { margin-top: .6rem; color: #cbbd8f; font-size: .88rem; line-height: 1.65; word-break: keep-all; }
-  .madrid-clip-cta { display: inline-flex; align-items: center; align-self: flex-start; gap: .45rem; margin-top: 1.2rem; border: 1px solid rgba(255, 255, 255, .5); border-radius: 999px; padding: .5rem 1.05rem; color: #fff; font-size: .88rem; font-weight: 700; }
-  .madrid-clip-cta b { color: #d9bc63; font-size: 1.05rem; }
-  .madrid-candidate-list { display: grid; gap: .9rem; margin: 2rem 0 3rem; padding: 0; list-style: none; }
-  .madrid-candidate-list li { padding: 1rem 1.15rem; border: 1px solid #e2dccb; border-radius: 12px; background: #fbf9f3; }
-  .madrid-candidate-list strong { display: block; font-size: 1rem; line-height: 1.5; }
-  .madrid-candidate-list small { display: block; margin-top: .2rem; color: #8a7f63; font-size: .8rem; letter-spacing: .01em; }
-  .article-body .madrid-candidate-list p { margin: .55rem 0 0; color: #4c5157; font-size: .92rem; line-height: 1.7; word-break: keep-all; }
-  @media (prefers-color-scheme: dark) {
-    .madrid-candidate-list li { border-color: #33302a; background: #1a1916; }
-    .article-body .madrid-candidate-list p { color: #c2c7cc; }
-    .madrid-candidate-list small { color: #a99a74; }
-  }
+  .madrid-clip-note { margin-top: .6rem; color: rgba(255,255,255,.7); font-size: .88rem; line-height: 1.65; word-break: keep-all; }
+  .madrid-clip-cta { display: inline-flex; align-items: center; align-self: flex-start; gap: .45rem; margin-top: 1.2rem; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; padding: .5rem 1.05rem; color: #fff; font-size: .88rem; font-weight: 700; }
+  .madrid-clip-cta b { color: #febe10; font-size: 1.05rem; }
+  .madrid-candidate-list { position: relative; left: 50%; display: grid; width: min(900px, calc(100vw - 32px)); grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 1.8rem 0 0; padding: 26px; overflow: hidden; border: 1px solid rgba(254,190,16,.28); border-radius: 18px; background: #070707; list-style: none; transform: translateX(-50%); }
+  .madrid-candidate-list::before { position: absolute; z-index: 0; top: 50%; left: 50%; width: 520px; height: 528px; background: url('/images/clubs/real-madrid.svg') no-repeat center/contain; content: ''; opacity: .14; pointer-events: none; transform: translate(-50%, -50%); }
+  .madrid-candidate-list li { position: relative; z-index: 1; border: 1px solid rgba(254,190,16,.22); border-radius: 12px; padding: 14px 16px; background: rgba(12,12,12,.55); backdrop-filter: blur(2px); }
+  .madrid-candidate-list strong { display: block; color: #fff; font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; }
+  .madrid-candidate-list small { display: block; margin-top: 3px; color: #febe10; font-size: .8rem; }
+  .article-body .madrid-candidate-list p { margin: .6rem 0 0; color: rgba(255,255,255,.75); font-size: .88rem; line-height: 1.6; word-break: keep-all; }
   @media (max-width: 700px) {
-    .madrid-gateway { flex-wrap: wrap; gap: 1rem; padding: 1.35rem .9rem; }
-    .madrid-gateway .gateway-line { display: none; }
-    .madrid-litany { margin: 2rem 0 2.25rem; padding: 1.2rem; }
-    .madrid-clip-link { margin: 2.4rem 0; }
+    .madrid-gateway { width: calc(100vw - 24px); margin: 2rem 0 2.6rem; border-radius: 14px; }
+    .madrid-gateway > div { min-height: 168px; padding: 1.8rem 1.1rem; }
+    .madrid-final-sequence { width: calc(100vw - 24px); }
+    .madrid-litany { width: calc(100vw - 24px); margin: 2.1rem 0 2.4rem; padding: 1.25rem; }
+    .madrid-clip-link { width: calc(100vw - 24px); margin: 2.4rem 0; }
+    .madrid-candidate-list { width: calc(100vw - 24px); grid-template-columns: minmax(0, 1fr); padding: 16px; }
+    .madrid-candidate-list::before { width: 290px; height: 294px; }
+    .madrid-era strong { font-size: 1.6rem; }
+    .madrid-invocation { width: calc(100vw - 32px); padding: 1.6rem 1rem; }
   }
 </style>
