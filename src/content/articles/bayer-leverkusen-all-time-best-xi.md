@@ -15,7 +15,7 @@ draft: false
 featured: true
 ---
 
-<aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 006</span><p>1904년 바이어 노동자들의 체육회 창립부터 2026년 8월까지, 레버쿠젠이 품었던 세 개의 강한 시대와 그 사이의 긴 시간을 한 팀에 놓았다. 통산 기록만 세지 않고 구단에서 맞은 전성기, 경기의 방식, 결정적 장면, 역사적 가치와 오늘의 전술에서 되살릴 쓰임을 함께 살폈다. 명성의 크기가 아니라 레버쿠젠에서 남긴 무게가 기준이다.</p></aside> <section class="leverkusen-gateway" aria-label="독일에서 푸스발-분데스리가를 거쳐 바이어 04 레버쿠젠으로 이어지는 도입부"> <div class="leverkusen-country"><span class="germany-flag" aria-hidden="true"><i></i><i></i><i></i></span><p>독일 연방 공화국</p><small lang="de">Bundesrepublik Deutschland</small></div> <span class="gateway-line" aria-hidden="true"></span> <div class="leverkusen-league"><img src="/images/leagues/bundesliga-symbol.webp" alt="푸스발-분데스리가 공식 상징" width="3840" height="3840" /><p>푸스발-분데스리가</p><small lang="de">Fußball-Bundesliga</small></div> <span class="gateway-line" aria-hidden="true"></span> <div class="leverkusen-club"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bayer-leverkusen-logo.webp" alt="바이어 04 레버쿠젠 문장" width="960" height="751" /><p>바이어 04 레버쿠젠</p><small lang="de">Bayer 04 Leverkusen Fußball GmbH</small></div> </section>
+<aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 006</span><p>1904년 바이어 노동자들의 체육회 창립부터 2026년 8월까지, 레버쿠젠이 품었던 세 개의 강한 시대와 그 사이의 긴 시간을 한 팀에 놓았다. 통산 기록만 세지 않고 구단에서 맞은 전성기, 경기의 방식, 결정적 장면, 역사적 가치와 오늘의 전술에서 되살릴 쓰임을 함께 살폈다. 기준은 명성의 크기보다 레버쿠젠에서 남긴 무게다.</p></aside> <section class="leverkusen-gateway" aria-label="독일에서 푸스발-분데스리가를 거쳐 바이어 04 레버쿠젠으로 이어지는 도입부"> <div class="leverkusen-country"><span class="germany-flag" aria-hidden="true"><i></i><i></i><i></i></span><p>독일 연방 공화국</p><small lang="de">Bundesrepublik Deutschland</small></div> <span class="gateway-line" aria-hidden="true"></span> <div class="leverkusen-league"><img src="/images/leagues/bundesliga-symbol.webp" alt="푸스발-분데스리가 공식 상징" width="3840" height="3840" /><p>푸스발-분데스리가</p><small lang="de">Fußball-Bundesliga</small></div> <span class="gateway-line" aria-hidden="true"></span> <div class="leverkusen-club"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/bayer-leverkusen-logo.webp" alt="바이어 04 레버쿠젠 문장" width="960" height="751" /><p>바이어 04 레버쿠젠</p><small lang="de">Bayer 04 Leverkusen Fußball GmbH</small></div> </section>
 
 ## 도시보다 먼저 있던 이름
 
@@ -43,7 +43,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ruediger-vollborn.webp" alt="뤼디거 폴보른의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-뤼디거 폴보른<span class="foreign-note" lang="de">(Rüdiger Vollborn; 독일 골키퍼, 1963-)</span>은 레버쿠젠이라는 구단이 푸스발-분데스리가에 뿌리를 내리는 과정을 한 골문에서 지켜봤다. 1982년 유소년팀에서 올라와 공식전 494경기, 그중 푸스발-분데스리가 401경기를 뛰었다. 구단의 푸스발-분데스리가 최다 출전 기록이다. 처음부터 명문이었던 팀의 수문장이 아니라, 이제 막 1부에 적응하던 공장 팀을 유럽 우승팀으로 만드는 데 스스로의 청춘을 다 쓴 골키퍼였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 폴보른의 자세는 낮고 단단했다. 슈팅을 기다리며 골라인에 붙기보다 두세 걸음 앞으로 나와 각도를 지웠고, 공중볼에는 주먹을 먼저 세웠다. 현대 골키퍼와 견주면 발밑 전개의 범위는 좁지만 판단이 단순한 덕에 수비수의 다음 행동도 분명해졌다. 잡을 공과 쳐낼 공, 나갈 공과 남을 공을 빠르게 가르는 유형이다. 백패스 규정이 바뀐 1990년대에도 생존했다는 사실은 단순한 옛날식 골키퍼가 아니었음을 말한다.
+뤼디거 폴보른<span class="foreign-note" lang="de">(Rüdiger Vollborn; 독일 골키퍼, 1963-)</span>은 레버쿠젠이라는 구단이 푸스발-분데스리가에 뿌리를 내리는 과정을 한 골문에서 지켜봤다. 1982년 유소년팀에서 올라와 공식전 494경기, 그중 푸스발-분데스리가 401경기를 뛰었다. 구단의 푸스발-분데스리가 최다 출전 기록이다. 이제 막 1부에 적응하던 공장 팀을 유럽 우승팀으로 만드는 데 스스로의 청춘을 다 쓴 골키퍼였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a> 폴보른의 자세는 낮고 단단했다. 슈팅을 기다리며 골라인에 붙기보다 두세 걸음 앞으로 나와 각도를 지웠고, 공중볼에는 주먹을 먼저 세웠다. 현대 골키퍼와 견주면 발밑 전개의 범위는 좁지만 판단이 단순한 덕에 수비수의 다음 행동도 분명해졌다. 잡을 공과 쳐낼 공, 나갈 공과 남을 공을 빠르게 가르는 유형이다. 백패스 규정이 바뀐 1990년대에도 생존했다는 사실은 단순한 옛날식 골키퍼가 아니었음을 말한다.
 
 그의 한 장면은 역시 1988년 에스파뇰과의 승부차기다. 세 번을 연달아 막았다는 전설은 사실이 아니지만, 네 번째 키커 미겔 앙헬의 공을 쳐낸 한 번이면 족하다. 앞서 골대가 한 번, 뒤이어 실축이 한 번 나왔고 폴보른은 그 사이에서 레버쿠젠의 불안을 붙들었다. 1993년 DFB-포칼까지 우승하며 구단의 첫 두 메이저 트로피를 모두 함께했다.
 
@@ -67,13 +67,13 @@ featured: true
 
 2001-02시즌 UEFA 챔피언스 리그는 그 기질의 극점이었다. 리버풀과의 8강에서 결정적 골을 넣었고, 레알 마드리드와의 결승에서는 지네딘 지단의 전설적인 발리보다 먼저 헤더 동점골을 넣었다. 결과는 1-2 패배였으나 루시우는 같은 해 브라질 대표로 2002 FIFA 월드컵을 들어 올렸다. 레버쿠젠 소속 선수가 유럽 최고 클럽의 결승과 세계 챔피언의 전 경기를 한 계절에 관통한 셈이다.
 
-위험도 있었다. 공을 잃은 뒤 빈자리는 컸고 그의 충동을 받아줄 수비 구조가 필요했다. 그래서 노보트니를 가운데, 롤페스를 앞에 둔다. 통제가 있을 때 루시우의 모험은 낭비가 아니라 공격 루트가 된다. 역사적으로는 2002년의 야심을, 현대적으로는 후방 압박을 단숨에 깨는 운반을 담당한다.
+위험도 있었다. 공을 잃은 뒤 빈자리는 컸고 그의 충동을 받아줄 수비 구조가 필요했다. 그래서 노보트니를 가운데, 롤페스를 앞에 둔다. 통제가 있을 때 루시우의 모험은 그대로 공격 루트가 된다. 역사적으로는 2002년의 야심을, 현대적으로는 후방 압박을 단숨에 깨는 운반을 담당한다.
 
 ## 4. 요나단 타 - 오른쪽 중앙 수비수
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/jonathan-tah.webp" alt="요나단 타의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-요나단 타<span class="foreign-note" lang="de">(Jonathan Tah; 독일 중앙 수비수, 1996-)</span>는 2015년 스무 살도 되기 전에 레버쿠젠으로 왔다. 열 시즌 동안 공식전 402경기 17골 13도움. 2025년 떠날 때 그는 유망주가 아니라 구단 역사상 출전 상위권에 오른 리더였다. 400번째 경기인 프라이부르크전에서는 종료 직전 동점골까지 넣었다. 숫자와 장면이 마침맞게 겹쳤다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a> 타의 첫 재산은 체격이지만 진짜 강점은 그 체격을 함부로 쓰지 않는 데 있다. 어깨를 맞대기 전에 공격수의 진행 방향을 바깥으로 몰고, 속도 경쟁이 시작되면 긴 보폭으로 간격을 줄인다. 높은 수비선에서 뒤로 달리는 수비를 오래 해왔기에 넓은 공간을 두려워하지 않는다. 세 명의 수비 중 오른쪽을 맡기면 슈나이더가 올라간 뒤의 터치라인까지 처리할 수 있다.
+요나단 타<span class="foreign-note" lang="de">(Jonathan Tah; 독일 중앙 수비수, 1996-)</span>는 2015년 스무 살도 되기 전에 레버쿠젠으로 왔다. 열 시즌 동안 공식전 402경기 17골 13도움. 2025년 떠날 때 그는 구단 역사상 출전 상위권에 오른 리더였다. 400번째 경기인 프라이부르크전에서는 종료 직전 동점골까지 넣었다. 숫자와 장면이 마침맞게 겹쳤다.<a class="cite" href="#source-9" aria-label="출처 9">[9]</a> 타의 첫 재산은 체격이지만 진짜 강점은 그 체격을 함부로 쓰지 않는 데 있다. 어깨를 맞대기 전에 공격수의 진행 방향을 바깥으로 몰고, 속도 경쟁이 시작되면 긴 보폭으로 간격을 줄인다. 높은 수비선에서 뒤로 달리는 수비를 오래 해왔기에 넓은 공간을 두려워하지 않는다. 세 명의 수비 중 오른쪽을 맡기면 슈나이더가 올라간 뒤의 터치라인까지 처리할 수 있다.
 
 2023-24시즌 무패 우승은 타의 경력과 구단의 오랜 콤플렉스를 함께 바꿨다. 이전의 그는 좋은 팀에서 꾸준히 뛴 강한 수비수였다. 우승 뒤에는 마지막까지 지지 않는 팀의 후방 지휘자가 됐다. 알론소 체제에서 공을 잡는 위치가 넓어졌고, 압박을 끌어들인 다음 중앙 또는 윙백에게 건네는 침착함도 깊어졌다.
 
@@ -103,7 +103,7 @@ featured: true
 
 <figure class="leverkusen-player-art"><img src="/images/squads/bayer-leverkusen-all-time-best-xi/ze-roberto.webp" alt="제 호베르투의 소속 기간, 기록과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-주제 호베르투 다 시우바 주니오르, 제 호베르투<span class="foreign-note" lang="pt-BR">(José Roberto da Silva Júnior ‘Zé Roberto’; 브라질 왼쪽 미드필더, 1974-)</span>는 레알 마드리드에서 자리를 얻지 못한 뒤 1998년 레버쿠젠으로 왔다. 구단 공식 기록으로 149경기 18골. 숫자만 보면 화려함이 충분히 보이지 않는다. 왼쪽 측면에서 공을 받는 순간 경기의 속도와 방향이 달라졌기 때문이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 첫 터치로 수비수와 거리를 만들고, 상체의 방향과 반대로 공을 밀어냈다. 발재간은 상대를 놀리는 장식이 아니라 전진할 각을 여는 기술이었다. 측면에 붙어 풀백을 끌어낸 뒤 안으로 좁혀 발라크와 짧게 주고받을 수도 있었고, 직접 엔드라인까지 가 낮은 크로스를 넣을 수도 있었다. 한 선수가 윙어와 중앙 미드필더의 일을 겸했다.
+주제 호베르투 다 시우바 주니오르, 제 호베르투<span class="foreign-note" lang="pt-BR">(José Roberto da Silva Júnior ‘Zé Roberto’; 브라질 왼쪽 미드필더, 1974-)</span>는 레알 마드리드에서 자리를 얻지 못한 뒤 1998년 레버쿠젠으로 왔다. 구단 공식 기록으로 149경기 18골. 숫자만 보면 화려함이 충분히 보이지 않는다. 왼쪽 측면에서 공을 받는 순간 경기의 속도와 방향이 달라졌기 때문이다.<a class="cite" href="#source-12" aria-label="출처 12">[12]</a> 첫 터치로 수비수와 거리를 만들고, 상체의 방향과 반대로 공을 밀어냈다. 그의 발재간은 전진할 각을 여는 기술이었다. 측면에 붙어 풀백을 끌어낸 뒤 안으로 좁혀 발라크와 짧게 주고받을 수도 있었고, 직접 엔드라인까지 가 낮은 크로스를 넣을 수도 있었다. 한 선수가 윙어와 중앙 미드필더의 일을 겸했다.
 
 2001-02시즌 공격은 제 호베르투의 왼발에서 자주 열렸다. 발라크가 박스로 들어갈 시간을 벌고, 베른트 슈나이더가 반대편에서 자유롭게 공을 받게 했다. 레버쿠젠이 리버풀을 상대로 유럽의 강호와 같은 속도로 공을 주고받을 수 있었던 데에는 그의 탈압박이 있었다. 이후 바이언에서도 오래 정상급을 유지했으나, 유럽 무대에서 자신을 다시 만든 시기는 레버쿠젠이었다.
 

@@ -79,7 +79,7 @@ faq:
 
 2026-27시즌 공식 일정에는 스포티파이 캄 노우 홈경기가 편성돼 있지만, 개보수 공사는 계속된다. 티켓에 적힌 게이트와 구단의 경기일 공지가 오래된 여행 후기보다 우선한다. 경기 시작 90분 전을 기준으로 권역에 도착하면 보안 검색과 공사 구간 우회 뒤에도 관중이 차오르는 시간을 놓치지 않는다.
 
-<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/camp-nou-fans.webp" alt="스포티파이 캄 노우 관중석을 가득 채운 팬들이 커다란 바르사 색 깃발을 흔드는 모습" width="1600" height="1000" loading="lazy" /><figcaption>경기장은 건물이 아니라 사람의 밀도가 완성한다. 2026년 스포티파이 캄 노우 홈경기. 사진: FC Barcelona.</figcaption></figure>
+<figure class="journey-wide"><img src="/images/pilgrimage/barcelona-football-city/camp-nou-fans.webp" alt="스포티파이 캄 노우 관중석을 가득 채운 팬들이 커다란 바르사 색 깃발을 흔드는 모습" width="1600" height="1000" loading="lazy" /><figcaption>경기장을 완성하는 것은 사람의 밀도다. 2026년 스포티파이 캄 노우 홈경기. 사진: FC Barcelona.</figcaption></figure>
 
 <div class="journey-video-callout"><span>STADIUM SOUND</span><strong>빈 경기장 투어와 홈경기는 다른 여행이에요</strong><p>선수 소개 뒤 흩어진 목소리가 Cant del Barça에서 한 덩어리로 바뀌는 순간까지 있어야 직관의 기억이 완성된다.</p></div>
 

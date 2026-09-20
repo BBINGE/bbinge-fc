@@ -92,14 +92,14 @@ relatedGroup: 'european-cup-1955-56'
 
 전반의 네 골 사이에서 가장 유명한 프랑스 선수의 이름은 득점자 명단에 없었다. 레몽 코파<span class="foreign-note" lang="fr">(Raymond Kopaszewski; 프랑스 공격수, 1931-2017)</span>는 중앙과 측면을 오가며 랭스의 공격을 연결했다. UEFA와 스타드 드 랭스의 회고에 따르면 그는 이미 다음 시즌 레알 이적을 앞둔 상태였다.<a class="cite" href="#source-6" aria-label="출처 6">[6]</a><a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 
-그러니 이 경기는 흔히 말하는 ‘코파 더비’보다 조금 이상한 시간에 놓여 있었다. 코파는 미래의 동료들을 상대로 랭스의 첫 유럽 우승을 만들어야 했고, 레알은 곧 자기 선수가 될 공격수를 막아야 했다. 오늘날의 이적 발표식처럼 미래의 유니폼이 현재의 충성을 대신해주지는 않았다. 코파가 훗날 랭스의 축구를 ‘샴페인 풋볼’이라고 부른 까닭도 이 팀이 거쳐 가는 발판이어서가 아니라, 자신이 뛰어본 가장 아름다운 공격 축구 가운데 하나였기 때문이다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
+그러니 이 경기는 흔히 말하는 ‘코파 더비’보다 조금 이상한 시간에 놓여 있었다. 코파는 미래의 동료들을 상대로 랭스의 첫 유럽 우승을 만들어야 했고, 레알은 곧 자기 선수가 될 공격수를 막아야 했다. 오늘날의 이적 발표식처럼 미래의 유니폼이 현재의 충성을 대신해주지는 않았다. 코파가 훗날 랭스의 축구를 ‘샴페인 풋볼’이라고 부른 까닭도, 그 팀이 자신이 뛰어본 가장 아름다운 공격 축구 가운데 하나였기 때문이다.<a class="cite" href="#source-8" aria-label="출처 8">[8]</a>
 
 ## 후반 62분: 이달고가 다시 랭스를 앞세우다
 
 <section class="highlight-scene european-cup-scene">
   <header><span>62' · STADE DE REIMS 3-2</span><h3>측면을 흔들던 선수가 직접 골문에 도착하다</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="미셸 이달고의 1956 유러피언컵 결승전 헤더 골"><source src="/media/highlights/1955-56-european-cup-final/07-hidalgo-62.mp4" type="video/mp4" /></video><figcaption>높게 넘어온 공을 이달고가 머리로 돌려놓으며 랭스가 두 번째 리드를 잡았다.</figcaption></figure></div>
-  <p>후반 17분, 전반에 측면을 넓혔던 미셸 이달고<span class="foreign-note" lang="fr">(Michel Hidalgo; 프랑스 측면 공격수, 1933-2020)</span>가 이번에는 골문 앞에 도착했다. 높게 넘어온 공을 헤더로 돌려놓으며 랭스가 3-2로 다시 앞섰다. 이달고는 훗날 프랑스 대표팀 감독으로 1984 UEFA 유로 우승을 이끈다. 그러나 1956년의 화면 속 그는 전술을 설명하는 지도자가 아니라, 직접 폭을 만들고 마지막 공간까지 침투한 23세 공격수였다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a></p>
+  <p>후반 17분, 전반에 측면을 넓혔던 미셸 이달고<span class="foreign-note" lang="fr">(Michel Hidalgo; 프랑스 측면 공격수, 1933-2020)</span>가 이번에는 골문 앞에 도착했다. 높게 넘어온 공을 헤더로 돌려놓으며 랭스가 3-2로 다시 앞섰다. 이달고는 훗날 프랑스 대표팀 감독으로 1984 UEFA 유로 우승을 이끈다. 그러나 1956년의 화면 속 그는 직접 폭을 만들고 마지막 공간까지 침투한 23세 공격수다.<a class="cite" href="#source-7" aria-label="출처 7">[7]</a></p>
   <p>이 골은 전반 2-0이 우연한 돌풍이 아니었음을 확인했다. 레알이 두 골을 따라잡고 하프타임을 맞았어도 랭스의 공격 구조는 사라지지 않았다. 두 번째 리드까지 랭스의 세 골은 서로 다른 선수가 넣었고, 이달고는 측면의 원인과 문전의 결과에 모두 관여했다.</p>
 </section>
 
@@ -112,7 +112,7 @@ relatedGroup: 'european-cup-1955-56'
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="마르키토스의 1956 유러피언컵 결승전 동점골"><source src="/media/highlights/1955-56-european-cup-final/09-marquitos-67.mp4" type="video/mp4" /></video><figcaption>여러 선수가 엉킨 문전에서 마르키토스가 공격에 가담해 3-3을 만들었다.</figcaption></figure>
   </div>
   <p>랭스의 세 번째 득점 뒤 이어지는 첫 영상에서 레알 선수는 중앙선 부근에서 상대를 등지고 공을 지킨 뒤 몸을 돌린다. 두 번째 영상은 67분의 동점골이다. 마르키토스<span class="foreign-note" lang="es">(Marcos Alonso Imaz; 스페인 수비수, 1933-2012)</span>가 문전까지 올라왔고, 여러 선수가 엉킨 자리에서 골을 넣었다. 공이 어느 발에 어떻게 닿았는지는 짧은 화면에서 선명하지 않지만, 수비수가 공격이 끝나는 위치까지 따라 들어온 것은 보인다. 디스테파노와 리알만 막으면 되는 공격이었다면, 그 자리에 마르키토스가 있을 이유도 없었을 것이다.</p>
-  <p>3-3. 레알은 세 번 앞선 팀이 아니라, 두 번 뒤처지고 두 번 따라붙은 팀이었다. 그리고 결승의 첫 78분 동안 한 번도 리드하지 못했다.</p>
+  <p>3-3. 3-3. 레알은 두 번 뒤처지고 두 번 따라붙은 팀이었다. 그리고 결승의 첫 78분 동안 한 번도 리드하지 못했다.</p>
 </section>
 
 ## 후반 79분: 리알의 첫 터치, 레알의 첫 리드

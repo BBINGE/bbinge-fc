@@ -92,7 +92,7 @@ featured: false
 
 <figure class="rule-photo">
   <img src="/images/football-made-easy/2026-rule-changes/throw-in.webp" alt="2026 FIFA 월드컵 이란과 뉴질랜드의 경기에서 뉴질랜드 수비수 팀 페인이 공을 머리 위로 들고 스로인을 준비하는 장면" width="1200" height="800" loading="lazy" decoding="async" />
-  <figcaption><strong>공을 들었다고 자동으로 5초는 아니다</strong><span>팀 페인이 2026 FIFA 월드컵 이란전에서 스로인을 준비하고 있다. 정상적인 선택과 움직임까지 재촉하는 규정이 아니라, 심판이 고의적인 지연을 확인해 별도의 신호를 보낸 뒤부터 적용되는 카운트다운이다.</span><small>Photo: AFP, 2026</small></figcaption>
+  <figcaption><strong>공을 들었다고 자동으로 5초는 아니다</strong><span>팀 페인이 2026 FIFA 월드컵 이란전에서 스로인을 준비하고 있다. 심판이 고의적인 지연을 확인해 별도의 신호를 보낸 뒤부터 적용되는 카운트다운이다.</span><small>Photo: AFP, 2026</small></figcaption>
 </figure>
 
 그렇다면 공을 손에 들지 않고 버티면 시간을 벌 수 있을까. 그 또한 어렵다. 선수가 공을 천천히 가지러 가거나, 스로인 위치를 일부러 잘못 잡아 시간을 끄는 경우에는 공을 소유하기 전에도 심판이 5초를 시작할 수 있다. 숫자를 세는 출발점은 심판이 지연을 확인하고 카운트다운을 선언한 시점이다. 선수가 공을 들었는지는 기준이 아니다.

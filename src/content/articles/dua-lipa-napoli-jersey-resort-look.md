@@ -83,7 +83,7 @@ SSC 나폴리는 이 유니폼을 발표하면서 ‘나폴리에서 세계로�
   <figcaption>흰색 비키니와 금색 주얼리를 더해 나폴리 셔츠를 휴양지의 옷으로 바꾼 두아 리파. 사진은 공식 Instagram 게시물의 첫 번째 장면이다.<small class="culture-image-credit">Photo via @dualipa / Instagram</small></figcaption>
 </figure>
 
-이 조합은 흔히 말하는 블록코어<span class="foreign-note" lang="en">(blokecore; 축구 셔츠를 일상복과 섞는 스타일)</span>의 교과서와도 조금 다르다. 축구 셔츠에 청바지와 스니커즈를 붙이는 영국식 거리 패션이 아니라, 수영복 위에 셔츠를 걸치는 해변의 방식이다. 팬의 유니폼을 일상복으로 옮겼다는 점은 같지만, 바지와 신발을 아예 지워버리니 셔츠는 저지보다 가벼운 커버업<span class="foreign-note" lang="en">(cover-up; 수영복 위에 덧입는 옷)</span>에 가까워진다.
+이 조합은 흔히 말하는 블록코어<span class="foreign-note" lang="en">(blokecore; 축구 셔츠를 일상복과 섞는 스타일)</span>의 교과서와도 조금 다르다. 청바지와 스니커즈를 붙이는 영국식 거리 패션 대신, 수영복 위에 셔츠를 걸치는 해변의 방식이다. 팬의 유니폼을 일상복으로 옮겼다는 점은 같지만, 바지와 신발을 아예 지워버리니 셔츠는 저지보다 가벼운 커버업<span class="foreign-note" lang="en">(cover-up; 수영복 위에 덧입는 옷)</span>에 가까워진다.
 
 ## 휴양지 캐리어에는 축구 셔츠도 한 장 넣어보세요 🧳
 

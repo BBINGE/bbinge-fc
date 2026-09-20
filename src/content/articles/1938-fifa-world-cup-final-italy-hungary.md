@@ -40,7 +40,7 @@ relatedGroup: 'fifa-world-cup-1938'
   <header><span>6' · ITALY 1-0</span><h3>지노 콜라우시, 결승의 첫 터치</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view aria-label="지노 콜라우시의 1938 월드컵 결승전 선제골"><source src="/media/highlights/1938-world-cup-final/colaussi-6.mp4?v=2" type="video/mp4" /></video><figcaption>오른쪽에서 시작된 공격을 콜라우시가 마무리하며 이탈리아가 먼저 앞섰다.</figcaption></figure></div>
   <p>경기 시작 6분 만에 이탈리아가 먼저 골문을 열었다. 오른쪽에서 넘어온 공이 문전으로 이어지고, 지노 콜라우시<span class="foreign-note" lang="it">(Luigi “Gino” Colaussi; 이탈리아 아웃사이드 레프트)</span>는 공을 길게 끌지 않은 채 골키퍼보다 먼저 마무리한다. 프랑스와의 8강, 브라질과의 준결승에서도 골을 넣었던 왼쪽 공격수가 결승에서도 가장 먼저 이름을 남겼다.</p>
-  <p>영상에서 눈에 들어오는 것은 공격의 길이가 아니라 속도다. 이탈리아는 헝가리 수비가 자리를 완전히 잡기 전에 공을 골문 앞으로 보냈고, 콜라우시는 한 번의 간결한 판단으로 선제골을 만들었다.</p>
+  <p>영상에서 눈에 들어오는 것은 공격의 속도다. 이탈리아는 헝가리 수비가 자리를 완전히 잡기 전에 공을 골문 앞으로 보냈고, 콜라우시는 한 번의 간결한 판단으로 선제골을 만들었다.</p>
 </section>
 
 ## 전반 8분: 헝가리의 즉답
