@@ -44,7 +44,7 @@ draft: false
 
 1920-30년대 부다페스트와 빈, 프라하를 잇는 중부 유럽에는 영국식 힘과 속도만으로 경기를 이해하지 않는 흐름이 있었다. 짧은 패스, 기술적 숙련, 포지션 사이의 교환을 중시한 이른바 다뉴브 학파였다. 에르브슈타인은 이 환경에서 선수와 지도자로 성장한 뒤 이탈리아로 건너왔다.
 
-그는 1938-39 시즌 토리노의 기술 책임자로 팀을 이끌었지만, 베니토 무솔리니 정권의 인종법은 유대인이었던 그와 가족의 삶을 무너뜨렸다. 이탈리아를 떠나 헝가리로 돌아간 그는 전쟁과 박해를 견뎠고, 전쟁이 끝난 뒤 다시 토리노로 돌아왔다. 페루초 노보 회장<span class="foreign-note" lang="it">(Ferruccio Novo; 토리노 회장, 1897-1974)</span>는 그를 단순한 감독이 아니라 선수 영입·훈련·전술을 연결하는 기술적 설계자로 복귀시켰다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
+그는 1938-39 시즌 토리노의 기술 책임자로 팀을 이끌었지만, 베니토 무솔리니 정권의 인종법은 유대인이었던 그와 가족의 삶을 무너뜨렸다. 이탈리아를 떠나 헝가리로 돌아간 그는 전쟁과 박해를 견뎠고, 전쟁이 끝난 뒤 다시 토리노로 돌아왔다. 페루초 노보 회장<span class="foreign-note" lang="it">(Ferruccio Novo; 토리노 회장, 1897-1974)</span>는 그를 선수 영입·훈련·전술을 연결하는 기술적 설계자로 복귀시켰다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
 <figure class="portrait-figure">
   <img src="/images/history/grande-torino/erbstein-torino-airfield.jpg" alt="비행기 앞에 선 에그리 에르브슈타인 에르뇌와 토리노 관계자 및 선수" width="773" height="542" loading="lazy" />

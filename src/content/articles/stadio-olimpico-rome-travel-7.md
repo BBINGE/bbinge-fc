@@ -145,7 +145,7 @@ Stadio dei Marmi<span class="foreign-note" lang="it">(스타디오 데이 마르
 
 그 축의 끝에서 스타디오 올림피코가 나온다. 경기장은 1953년 Stadio dei Centomila<span class="foreign-note" lang="it">(‘10만 명의 경기장’)</span>라는 이름으로 문을 열었다. 개장 행사에 이탈리아와 헝가리의 축구 경기뿐 아니라 Giro d’Italia의 Roma 구간 결승도 함께 놓였다는 사실은 출발의 성격을 보여준다. 한 종목의 전용 홈보다 국가가 대규모 스포츠를 전시하는 종합무대에 가까웠다.
 
-그 구조 안에서 두 클럽은 방향으로 집을 나눴다. 라치오의 조직 응원은 Curva Nord<span class="foreign-note" lang="it">(북쪽 곡선 관중석)</span>, AS 로마의 조직 응원은 Curva Sud<span class="foreign-note" lang="it">(남쪽 곡선 관중석)</span>를 중심으로 형성됐다. ‘남쪽 대 북쪽’이라는 더비의 축은 도시 전체의 계급 지도를 정확히 복사한 결과가 아니라, 공동 경기장 안에서 반복된 좌석·배너·노래·입장 동선이 만들어낸 공간 언어이기도 하다.
+그 구조 안에서 두 클럽은 방향으로 집을 나눴다. 라치오의 조직 응원은 Curva Nord<span class="foreign-note" lang="it">(북쪽 곡선 관중석)</span>, AS 로마의 조직 응원은 Curva Sud<span class="foreign-note" lang="it">(남쪽 곡선 관중석)</span>를 중심으로 형성됐다. ‘남쪽 대 북쪽’이라는 더비의 축은 도시 전체의 계급 지도를 그대로 옮긴 것이라기보다, 공동 경기장 안에서 반복된 좌석·배너·노래·입장 동선이 만들어낸 공간 언어이기도 하다.
 
 <figure class="journey-finale"><img src="/images/pilgrimage/rome-travel-7/stadio-olimpico.jpg" alt="AS 로마의 경기 날 붉고 노란색으로 가득 찬 Stadio Olimpico 관중석" width="1280" height="760" loading="lazy" /><figcaption>같은 콘크리트가 AS 로마 홈경기에는 붉고 노란 경기장으로 바뀐다. 사진: Gary Denham, CC BY-SA 2.0.</figcaption></figure>
 

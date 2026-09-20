@@ -26,7 +26,7 @@ draft: false
   <section class="identity-team"><img src="/images/archive/legends/germany/dfb-logo.svg" alt="독일 축구 협회 DFB 엠블럼" width="708" height="835" /><div><span>DIE MANNSCHAFT</span><strong>독일 축구 국가대표팀</strong><small lang="de">Deutsche Fußballnationalmannschaft</small></div></section>
 </div>
 
-<div class="record-abstract"><span>편집자 평가</span><p>축구 역사상 가장 위대한 중앙 미드필더를 꼽으라면 대부분 서너 명의 이름을 대겠지만, 그 가운데서도 필자는 로타어 마테우스를 올타임 1위에 고정한다. 수비형·중앙·공격형 미드필더에 리베로까지, 그가 선 자리는 한 번도 그저 소화한 자리가 아니라 그 지역의 대장이 앉는 자리였다. 스무 해에 걸친 대표팀 150경기, 다섯 번의 월드컵, 1990년 발롱도르와 초대 FIFA 올해의 선수. 프란츠 베켄바워가 독일 축구의 황제라면, 마테우스는 그 황제 다음 자리에서 무리를 이끈 늑대 사령관이었다.</p></div>
+<div class="record-abstract"><span>편집자 평가</span><p>축구 역사상 가장 위대한 중앙 미드필더를 꼽으라면 대부분 서너 명의 이름을 대겠지만, 그 가운데서도 필자는 로타어 마테우스를 올타임 1위에 고정한다. 수비형·중앙·공격형 미드필더에 리베로까지, 그가 선 자리는 한 번도 그저 소화한 자리가 아니었다. 모두 그 지역의 대장이 앉는 자리였다. 스무 해에 걸친 대표팀 150경기, 다섯 번의 월드컵, 1990년 발롱도르와 초대 FIFA 올해의 선수. 프란츠 베켄바워가 독일 축구의 황제라면, 마테우스는 그 황제 다음 자리에서 무리를 이끈 늑대 사령관이었다.</p></div>
 
 <div class="legend-reel" data-legend-reel style="--reel-count: 2">
   <div class="legend-reel-head"><span>로타어 마테우스 플레이</span><strong>멀리서도 골문을 겨누는 미드필더</strong><small data-reel-count>1 / 2</small></div>

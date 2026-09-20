@@ -72,7 +72,7 @@ draft: false
 
 ### 대회를 치르다가 연맹을 만들다
 
-흥미롭게도 대회가 개막한 7월 2일에는 CONMEBOL이 아직 존재하지 않았다. 우루과이의 축구 행정가 엑토르 리바다비아 고메스<span class="foreign-note" lang="es">(Héctor Rivadavia Gómez; 우루과이 축구 행정가)</span>가 아르헨티나·브라질·칠레·우루과이의 관계자들을 모았고, 아르헨티나 독립 100주년 기념일인 7월 9일에 남미축구연맹<span class="foreign-note" lang="es">(Confederación Sudamericana de Fútbol, CONMEBOL; 남미 축구를 관할하는 대륙 연맹)</span>이 창설되었다. 대륙 대회를 주관할 연맹이 대회를 먼저 기획한 것이 아니라, 대회 도중 연맹이 태어난 셈이다. 행정 조직보다 공이 조금 빨랐다.
+흥미롭게도 대회가 개막한 7월 2일에는 CONMEBOL이 아직 존재하지 않았다. 우루과이의 축구 행정가 엑토르 리바다비아 고메스<span class="foreign-note" lang="es">(Héctor Rivadavia Gómez; 우루과이 축구 행정가)</span>가 아르헨티나·브라질·칠레·우루과이의 관계자들을 모았고, 아르헨티나 독립 100주년 기념일인 7월 9일에 남미축구연맹<span class="foreign-note" lang="es">(Confederación Sudamericana de Fútbol, CONMEBOL; 남미 축구를 관할하는 대륙 연맹)</span>이 창설되었다. 대회가 진행되는 도중에 그 대회를 주관할 연맹이 태어났다. 행정 조직보다 공이 조금 빨랐다.
 
 이 때문에 1916년 대회에는 후대의 제도와 당시의 현실이 겹쳐 있다. CONMEBOL은 이 대회를 자신의 첫 역사로 소급하여 관리하고 있으며, 오늘날의 공식 아카이브 역시 `CONMEBOL Copa América 1916`으로 정리한다. 이는 역사 왜곡이라기보다 계승 관계의 표기다. 다만 아카이브를 읽을 때에는 현재의 간판과 당시의 간판이 서로 달랐다는 사실을 잊지 않을 필요가 있다.
 

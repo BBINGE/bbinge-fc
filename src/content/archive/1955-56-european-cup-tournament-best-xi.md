@@ -101,7 +101,7 @@ draft: false
 
 ## 명단 밖에 남은 이름들
 
-솔직히 가장 오래 붙잡고 있던 이름은 펄로타시 페테르<span class="foreign-note" lang="hu">(Palotás Péter; 헝가리 센터 포워드, 1929-1967)</span>였다. 안데를레흐트전에서 대회 첫 해트트릭을 기록했고 네 경기에서 여섯 골을 넣었으니, 경기당 득점만 놓고 보면 밀루티노비치 바로 다음이다. 허나 뵈뢰시 로보고는 랭스와의 8강 두 경기에서 여덟 골을 내주고 짐을 쌌고, 그 팀에서 가장 이례적인 방식으로 가장 큰 짐을 진 선수는 공격수가 아니라 풀백 런토시였다. 같은 팀의 히데그쿠티 난도르<span class="foreign-note" lang="hu">(Hidegkuti Nándor; 헝가리 센터 포워드, 1922-2002)</span>도 8번을 달고 네 경기 두 골을 넣었지만, 후퇴형 공격이라는 같은 역할의 자리는 결승까지 일곱 경기를 이끈 코파에게 돌아갔다. <a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
+솔직히 가장 오래 붙잡고 있던 이름은 펄로타시 페테르<span class="foreign-note" lang="hu">(Palotás Péter; 헝가리 센터 포워드, 1929-1967)</span>였다. 안데를레흐트전에서 대회 첫 해트트릭을 기록했고 네 경기에서 여섯 골을 넣었으니, 경기당 득점만 놓고 보면 밀루티노비치 바로 다음이다. 허나 뵈뢰시 로보고는 랭스와의 8강 두 경기에서 여덟 골을 내주고 짐을 쌌고, 그 팀에서 가장 이례적인 방식으로 가장 큰 짐을 진 선수는 풀백 런토시였다. 같은 팀의 히데그쿠티 난도르<span class="foreign-note" lang="hu">(Hidegkuti Nándor; 헝가리 센터 포워드, 1922-2002)</span>도 8번을 달고 네 경기 두 골을 넣었지만, 후퇴형 공격이라는 같은 역할의 자리는 결승까지 일곱 경기를 이끈 코파에게 돌아갔다. <a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
 
 아까운 이름은 더 있다. 후안 스키아피노<span class="foreign-note" lang="es">(Juan Alberto Schiaffino; 우루과이 출신 인사이드 포워드, 1925-2002)</span>는 여섯 경기 세 골에 마드리드 원정에서도 골을 넣었고, 르네 블리아르<span class="foreign-note" lang="fr">(René Bliard; 프랑스 공격수, 1932-2009)</span>는 일곱 경기 다섯 골로 랭스의 득점을 나눠 짊어졌다. 브란코 제베치<span class="foreign-note" lang="sr-Latn">(Branko Zebec; 유고슬라비아 센터 하프, 1929-1988)</span>는 레알을 3-0으로 무너뜨린 파르티잔 후방의 5번이었고, 에디 턴불<span class="foreign-note" lang="en">(Edward Hunter Turnbull; 스코틀랜드 공격수, 1923-2011)</span>은 로트바이스 에센 원정의 두 골로 영국 선수 최초의 유럽 클럽 대회 득점자라는 이름을 남겼다.
 

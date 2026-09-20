@@ -30,7 +30,7 @@ draft: false
 
 <div class="record-abstract">
   <span>편집자 평가</span>
-  <p>카카는 고전적인 10번의 마지막 장면이면서 현대적인 전환 공격의 첫 장면이었다. 지네딘 지단<span class="foreign-note" lang="fr">(Zinédine Zidane; 프랑스의 공격형 미드필더, 1972-)</span>처럼 고개를 들고 공간을 읽었지만, 공을 잡은 뒤에는 단거리 선수가 아니라 중거리 주자처럼 속도를 계속 높였다. 2006-07 UEFA 챔피언스 리그에서 밀란을 유럽 정상으로 끌고 간 뒤 발롱도르와 FIFA 올해의 선수를 동시에 차지했다. 메시와 크리스티아누 호날두가 세계를 양분하기 직전, 축구와 외모와 대중성을 한 몸에 지녔던 21세기의 첫 슈퍼스타였다.</p>
+  <p>카카는 고전적인 10번의 마지막 장면이면서 현대적인 전환 공격의 첫 장면이었다. 지네딘 지단<span class="foreign-note" lang="fr">(Zinédine Zidane; 프랑스의 공격형 미드필더, 1972-)</span>처럼 고개를 들고 공간을 읽었지만, 공을 잡은 뒤에는 단거리 선수보다 중거리 주자에 가깝게 속도를 계속 높였다. 2006-07 UEFA 챔피언스 리그에서 밀란을 유럽 정상으로 끌고 간 뒤 발롱도르와 FIFA 올해의 선수를 동시에 차지했다. 메시와 크리스티아누 호날두가 세계를 양분하기 직전, 축구와 외모와 대중성을 한 몸에 지녔던 21세기의 첫 슈퍼스타였다.</p>
 </div>
 
 <div class="legend-reel" data-legend-reel style="--reel-count: 6">
@@ -75,7 +75,7 @@ draft: false
 
 본명은 **히카르두 이제크송 두스 산투스 레이치**<span class="foreign-note" lang="pt-BR">(Ricardo Izecson dos Santos Leite; 브라질의 공격형 미드필더, 1982-)</span>다. `카카`는 거창한 예명이 아니었다. 어린 동생 호드리구 이제크송 두스 산투스 레이치<span class="foreign-note" lang="pt-BR">(Rodrigo Izecson dos Santos Leite; 브라질의 축구선수이자 카카의 동생, 1985-)</span>가 `히카르두`를 제대로 발음하지 못하고 형을 `카카`라고 부른 것이 가족 밖으로 퍼졌다. 영어권 중계가 쓰던 ‘리카르도 카카’는 이름과 등록명을 겹친 표현에 가깝다.
 
-그의 유년기는 브라질 스타의 전형과도 달랐다. 아버지는 토목기사, 어머니는 교사였고 가족은 카카가 어릴 때 상파울루로 옮겼다. 축구에만 매달려 생계를 바꾸어야 했던 소년이 아니라 교육과 스포츠를 함께 선택할 수 있었던 중산층 가정의 아이였다. 그래서 카카의 말투와 태도, 광고 시장에서의 이미지까지 다른 브라질 스타와 구별됐다.
+그의 유년기는 브라질 스타의 전형과도 달랐다. 아버지는 토목기사, 어머니는 교사였고 가족은 카카가 어릴 때 상파울루로 옮겼다. 교육과 스포츠를 함께 선택할 수 있었던 중산층 가정의 아이였다. 그래서 카카의 말투와 태도, 광고 시장에서의 이미지까지 다른 브라질 스타와 구별됐다.
 
 ## 수영장 바닥에서 다시 일어난 소년
 
@@ -87,7 +87,7 @@ draft: false
 
 <figure class="legend-section-photo legend-section-cover"><img src="/images/archive/legends/kaka/kaka-brazil-2006.jpg" alt="2006 FIFA 월드컵에서 호나우두, 아드리아누, 호나우지뉴와 대화하는 카카" width="1170" height="749" loading="lazy" /><figcaption>2006 FIFA 월드컵의 카카, 아드리아누, 호나우두, 호나우지뉴. 이름값으로는 화려했지만 ‘마법의 사중주’는 팀의 균형까지 보장하지 못했다.</figcaption></figure>
 
-루이스 펠리피 스콜라리<span class="foreign-note" lang="pt-BR">(Luiz Felipe Scolari; 브라질의 축구 감독, 1948-)</span>는 만 20세의 카카를 2002 한일 FIFA 월드컵 명단에 넣었다. 출전은 코스타리카전의 짧은 시간뿐이었다. 호나우두<span class="foreign-note" lang="pt-BR">(Ronaldo; 브라질의 중앙 공격수, 1976-)</span>, 히바우두<span class="foreign-note" lang="pt-BR">(Rivaldo; 브라질의 공격형 미드필더, 1972-)</span>, 호나우지뉴<span class="foreign-note" lang="pt-BR">(Ronaldinho; 브라질의 공격형 미드필더, 1980-)</span>가 공격을 이끌던 우승팀에서 카카는 아직 주역이 아니라 다음 시대를 기다리는 막내였다.
+루이스 펠리피 스콜라리<span class="foreign-note" lang="pt-BR">(Luiz Felipe Scolari; 브라질의 축구 감독, 1948-)</span>는 만 20세의 카카를 2002 한일 FIFA 월드컵 명단에 넣었다. 출전은 코스타리카전의 짧은 시간뿐이었다. 호나우두<span class="foreign-note" lang="pt-BR">(Ronaldo; 브라질의 중앙 공격수, 1976-)</span>, 히바우두<span class="foreign-note" lang="pt-BR">(Rivaldo; 브라질의 공격형 미드필더, 1972-)</span>, 호나우지뉴<span class="foreign-note" lang="pt-BR">(Ronaldinho; 브라질의 공격형 미드필더, 1980-)</span>가 공격을 이끌던 우승팀에서 카카는 아직 다음 시대를 기다리는 막내였다.
 
 그로부터 4년 뒤 독일에서는 상황이 달라졌다. 호나우두·호나우지뉴·아드리아누<span class="foreign-note" lang="pt-BR">(Adriano; 브라질의 중앙 공격수, 1982-)</span>와 함께 이른바 마법의 사중주<span class="foreign-note" lang="pt-BR">(Quarteto Mágico; 2006년 브라질의 네 공격수를 가리킨 별칭)</span>를 이뤘고 크로아티아전 결승골도 넣었다. 하지만 이름값을 한꺼번에 세운 브라질은 균형을 잃고 프랑스에 막혔다. 카카 개인의 질주와 스타 군단의 조합이 같은 것은 아니었다. 2010년 남아프리카공화국에서는 세 골을 도우며 대회 공동 도움 선두에 올랐지만, 브라질은 다시 8강에서 멈췄다.
 
@@ -129,7 +129,7 @@ AC 밀란은 2003년 상파울루에서 카카를 영입했다. 이미 후이 �
 
 카카는 크리스티아누 호날두, 카림 벤제마<span class="foreign-note" lang="fr">(Karim Benzema; 프랑스의 중앙 공격수, 1987-)</span>, 샤비 알론소<span class="foreign-note" lang="es">(Xabi Alonso; 스페인의 중앙 미드필더, 1981-)</span>와 함께 플로렌티노 페레스<span class="foreign-note" lang="es">(Florentino Pérez; 스페인의 기업인이자 레알 마드리드 회장, 1947-)</span>의 두 번째 갈락티코스<span class="foreign-note" lang="es">(Los Galácticos; 세계적인 스타들을 모은 레알 마드리드 선수단을 가리킨 표현)</span> 시대를 열었다. 첫 시즌에도 득점과 도움을 만들었지만 밀란에서 보이던 폭발력은 오래 이어지지 않았다. 2010년 월드컵 뒤 왼쪽 무릎 수술을 받으며 여러 달을 쉬었고, 복귀 뒤에도 사타구니와 근육 문제가 반복됐다.
 
-주제 모리뉴<span class="foreign-note" lang="pt-PT">(José Mourinho; 포르투갈의 축구 감독, 1963-)</span> 체제에서는 더 어린 메수트 외질이 공격형 미드필더의 중심이 됐다. 좁은 공간의 패스와 판단은 남아 있었지만, 카카를 특별하게 만들던 긴 가속을 매 경기 반복하기 어려웠다. 그래서 레알 시절을 의지 부족이나 단순한 ‘먹튀’로 부르는 평가는 선수의 핵심 도구가 무엇이었는지 놓친다. 그는 기술을 잊은 것이 아니라 기술을 가장 위협적으로 만들던 속도를 잃었다. 그럼에도 네 시즌 동안 공식전 120경기 29골을 남기고 라리가<span class="foreign-note" lang="es">(La Liga; 스페인 최상위 프로축구 리그)</span>와 코파 델 레이<span class="foreign-note" lang="es">(Copa del Rey; 스페인 국왕컵)</span> 우승에 함께했다.
+주제 모리뉴<span class="foreign-note" lang="pt-PT">(José Mourinho; 포르투갈의 축구 감독, 1963-)</span> 체제에서는 더 어린 메수트 외질이 공격형 미드필더의 중심이 됐다. 좁은 공간의 패스와 판단은 남아 있었지만, 카카를 특별하게 만들던 긴 가속을 매 경기 반복하기 어려웠다. 그래서 레알 시절을 의지 부족이나 단순한 ‘먹튀’로 부르는 평가는 선수의 핵심 도구가 무엇이었는지 놓친다. 그는 기술을 잊지 않았다. 기술을 가장 위협적으로 만들던 속도를 잃었다. 그럼에도 네 시즌 동안 공식전 120경기 29골을 남기고 라리가<span class="foreign-note" lang="es">(La Liga; 스페인 최상위 프로축구 리그)</span>와 코파 델 레이<span class="foreign-note" lang="es">(Copa del Rey; 스페인 국왕컵)</span> 우승에 함께했다.
 
 ## 밀란으로 돌아온 22번, 그리고 미국에서의 마지막 주장
 
