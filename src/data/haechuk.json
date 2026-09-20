@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T14:59:59.580Z",
+  "updatedAt": "2026-09-20T15:10:47.952Z",
   "days": {
-    "yesterday": "2026-09-19",
-    "today": "2026-09-20",
-    "tomorrow": "2026-09-21"
+    "yesterday": "2026-09-20",
+    "today": "2026-09-21",
+    "tomorrow": "2026-09-22"
   },
   "summary": {
-    "today": "2026-09-20",
+    "today": "2026-09-21",
     "todayMatches": 0
   },
   "competitions": [
@@ -438,7 +438,7 @@
           "ko": "알렉산데르 이사크",
           "original": "Alexander Isak",
           "dob": "1999-09-21",
-          "age": 26,
+          "age": 27,
           "position": "공격수",
           "nationality": "스웨덴"
         },
@@ -1792,12 +1792,12 @@
         },
         {
           "rank": 5,
-          "team": "코모 1907",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-          "played": 4,
+          "team": "프로시노네 칼초",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+          "played": 5,
           "wins": 3,
           "draws": 1,
-          "losses": 0,
+          "losses": 1,
           "goalsFor": 9,
           "goalsAgainst": 4,
           "goalDifference": 5,
@@ -1807,6 +1807,21 @@
         },
         {
           "rank": 6,
+          "team": "코모 1907",
+          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+          "played": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 9,
+          "goalsAgainst": 6,
+          "goalDifference": 3,
+          "points": 10,
+          "zone": "uel",
+          "zoneLabel": "UEFA 유로파 리그"
+        },
+        {
+          "rank": 7,
           "team": "AC 밀란",
           "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
           "played": 4,
@@ -1817,21 +1832,6 @@
           "goalsAgainst": 4,
           "goalDifference": 3,
           "points": 8,
-          "zone": "uel",
-          "zoneLabel": "UEFA 유로파 리그"
-        },
-        {
-          "rank": 7,
-          "team": "프로시노네 칼초",
-          "badge": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-          "played": 4,
-          "wins": 2,
-          "draws": 1,
-          "losses": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 4,
-          "goalDifference": 3,
-          "points": 7,
           "zone": "uecl",
           "zoneLabel": "UEFA 컨퍼런스 리그 예선"
         },
