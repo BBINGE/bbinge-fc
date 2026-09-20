@@ -104,7 +104,7 @@ featured: false
 
 첫 산 마메스는 1913년 문을 열었다. 인근의 성 마메스 보호시설과 성인 이름에서 경기장 이름을 얻었고, 사자에게 던져졌다는 성인의 전승은 아틀레틱 선수들의 별명 ‘사자들’로 이어졌다. 라파엘 모레노 아란사디<span class="foreign-note" lang="es">(Rafael Moreno Aranzadi; 피치치로 알려진 빌바오 출신 공격수, 1892-1922)</span>가 개장 경기의 첫 골을 넣었다.
 
-현재의 산 마메스는 2013년 바로 옆에서 문을 열었다. 이전 경기장이 백 년 동안 지킨 자리를 크게 벗어나지 않았고, 피치치의 흉상도 선수 터널 입구로 옮겨왔다. 이 경기장을 처음 찾은 원정팀이 흉상에 꽃다발을 놓는 전통은 1927년부터 이어진다. 구단 기록에 따르면 새 흉상 앞에서 그 예를 처음 보인 팀은 MTK 부더페슈트였다. [부더페슈트 축행](/pilgrimage/budapest-honeymoon-football-travel-10/)의 히데그쿠티 난도르 슈터디온이 이곳과 뜻밖의 한 줄로 연결된다.
+현재의 산 마메스는 2013년 바로 옆에서 문을 열었다. 이전 경기장이 100년 동안 지킨 자리를 크게 벗어나지 않았고, 피치치의 흉상도 선수 터널 입구로 옮겨왔다. 이 경기장을 처음 찾은 원정팀이 흉상에 꽃다발을 놓는 전통은 1927년부터 이어진다. 구단 기록에 따르면 새 흉상 앞에서 그 예를 처음 보인 팀은 MTK 부더페슈트였다. [부더페슈트 축행](/pilgrimage/budapest-honeymoon-football-travel-10/)의 히데그쿠티 난도르 슈터디온이 이곳과 뜻밖의 한 줄로 연결된다.
 
 <figure class="journey-wide"><img src="/images/pilgrimage/bilbao-san-mames/pichichi-bust.webp" alt="산 마메스 선수 터널 입구에 놓인 피치치 흉상" width="1472" height="983" loading="lazy" /><figcaption>원정팀의 첫 방문 의식이 이어지는 피치치 흉상. 사진: Athletic Club.</figcaption></figure>
 
