@@ -78,7 +78,7 @@ relatedGroup: 'fifa-world-cup-1934'
   </div>
 </div>
 
-2-3-5 안에 열한 명을 보여주기 위해 원문에 기록한 당대 포지션을 그대로 배열했다. 실라우렌·몬티·페라리스는 풀백 둘과 공격수 다섯 명을 잇는 하프백이며, 오늘날의 수비수와 미드필더 어느 한쪽으로만 옮기기 어려운 역할이다. 공격수 다섯 명도 현대식 스리톱이 아니라 아웃사이드와 인사이드 포워드가 센터 포워드를 둘러싼 구조다.
+2-3-5 안에 열한 명을 보여주기 위해 원문에 기록한 당대 포지션을 그대로 배열했다. 실라우렌·몬티·페라리스는 풀백 둘과 공격수 다섯 명을 잇는 하프백이며, 오늘날의 수비수와 미드필더 어느 한쪽으로만 옮기기 어려운 역할이다. 공격수 다섯 명은 아웃사이드와 인사이드 포워드가 센터 포워드를 둘러싼 구조이며, 현대식 스리톱과는 배치가 다르다.
 
 <div class="best-xi-roster" aria-label="1934 FIFA 월드컵 베스트 11 선수 카드">
   <article class="best-xi-player"><img src="/images/archive/1934-fifa-world-cup-best-xi/players/ricardo-zamora.jpg" width="300" height="401" alt="리카르도 사모라" loading="lazy" /><div><span>GK · 골키퍼</span><strong>리카르도 사모라</strong><small lang="es">Ricardo Zamora Martínez</small><p>스페인 <img class="flag" src="/images/flags/es-second-republic.svg" width="30" height="20" alt="스페인 제2공화국 국기" /> · 2경기 2실점</p></div></article>

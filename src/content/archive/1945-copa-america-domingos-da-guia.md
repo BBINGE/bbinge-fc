@@ -15,7 +15,7 @@ coverImageHeight: 773
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 브라질과 우루과이를 연달아 꺾고 일곱 번째 남미 정상에 올랐다. 스무 경기에서 89골이 나온 공격의 대회였지만, 후대의 대표 선수 목록에는 준우승팀 브라질의 풀백 도밍구스 다 기아<span class="foreign-note" lang="pt-BR">(Domingos Antônio da Guia; 브라질 수비수, 1912-2000)</span>가 남았다. 골의 수가 아니라 압박 속에서 공을 다루는 수비수의 품격이 기억된 대회였다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>아르헨티나는 브라질과 우루과이를 연달아 꺾고 일곱 번째 남미 정상에 올랐다. 스무 경기에서 89골이 나온 공격의 대회였지만, 후대의 대표 선수 목록에는 준우승팀 브라질의 풀백 도밍구스 다 기아<span class="foreign-note" lang="pt-BR">(Domingos Antônio da Guia; 브라질 수비수, 1912-2000)</span>가 남았다. 89골이 쏟아진 대회에서 정작 기억에 남은 것은 압박 속에서 공을 다루는 수비수의 품격이었다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제18회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1945</strong></div>
 

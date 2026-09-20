@@ -63,7 +63,7 @@ draft: false
 
 비크토르 우고 바그눌로<span class="foreign-note" lang="es-UY">(Víctor Hugo Bagnulo Fernández; 우루과이 축구감독, 1915-2008)</span>의 우루과이는 파라과이전에서 미게스의 12분 선제골로 앞서갔다. 기예르모 에스칼라다<span class="foreign-note" lang="es-UY">(Guillermo Escalada Larriera; 우루과이 축구선수, 1936-2023)</span>가 두 골, 한 골이 더해져 4-2로 출발했다. 일주일 뒤 페루전에서는 에스칼라다가 42분, 미게스가 73분에 득점해 2-0을 만들었다. 두 경기에서 두 공격수는 한 번씩 득점을 주고받으며 우루과이의 승점 4를 함께 만들었다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a>
 
-칠레전의 한 골은 더 무거웠다. 미게스가 다시 12분에 앞서갔고, 카를로스 보르헤스<span class="foreign-note" lang="es-UY">(Carlos Ariel Borges; 우루과이 축구선수, 1932-2014)</span>가 후반에 두 번째 골을 넣었다. 칠레가 곧바로 한 골을 따라왔지만 우루과이는 2-1을 지켰다. 미게스는 대량 득점으로 기록을 불린 것이 아니라, 세 상대에게 한 골씩 넣어 세 번의 승리 모두에 첫 줄을 그었다.
+칠레전의 한 골은 더 무거웠다. 미게스가 다시 12분에 앞서갔고, 카를로스 보르헤스<span class="foreign-note" lang="es-UY">(Carlos Ariel Borges; 우루과이 축구선수, 1932-2014)</span>가 후반에 두 번째 골을 넣었다. 칠레가 곧바로 한 골을 따라왔지만 우루과이는 2-1을 지켰다. 미게스는 세 상대에게 한 골씩 넣어 세 번의 승리 모두에 첫 줄을 그었다.
 
 <figure><img src="/images/archive/1956-copa-america/centenario-match-01.jpg" alt="1956년 센테나리오에서 열린 남미축구선수권대회의 경기 장면" width="612" height="415" loading="lazy" /><figcaption>센테나리오의 1956년 대회 경기 장면. 원문에는 장면별 선수와 시점이 적혀 있지 않다. 사진: 우루과이축구협회·AHIFU.</figcaption></figure>
 
@@ -71,7 +71,7 @@ draft: false
 
 미게스는 <a href="/archive/national-team/fifa-world-cup/1950-fifa-world-cup-best-xi/">1950년 월드컵에서 5골을 넣은 우승팀 공격수</a>였다. 여섯 해 뒤에도 페냐롤<span class="foreign-note" lang="es-UY">(Club Atlético Peñarol; 우루과이 몬테비데오의 축구 구단)</span> 소속으로 대표팀 중앙에 섰다. 우루과이축구협회의 대회 회고는 미게스와 하비에르 암브로이스<span class="foreign-note" lang="es-UY">(Javier Ambrois Campaña; 우루과이 축구선수, 1932-1975)</span>가 공격에 기술을 더했고, 본래 왼쪽 날개였던 에스칼라다가 10번 자리에서 움직였다고 설명한다. 등번호 하나를 현대 포지션의 고정 좌표로 읽기보다, 서로 자리를 바꾸며 중앙으로 들어오는 공격선으로 보는 편이 가깝다.<a class="cite" href="#source-3" aria-label="출처 3">[3]</a>
 
-후대의 부고가 기억한 미게스도 몸싸움만으로 문전을 차지하는 9번과는 달랐다. 뒤에서 빈 곳으로 들어가는 움직임, 기술적인 슈팅, 칠레나와 발뒤꿈치 같은 선택을 즐긴 옛 센트로포발<span class="foreign-note" lang="es-UY">(centrofóbal; 당시 리오데라플라타 지역에서 중앙 공격수를 가리킨 말)</span>이었다. 세 경기 연속골은 그 설명과 어울린다. 그는 골문 앞에 계속 머물러 같은 골을 반복한 것이 아니라, 서로 다른 경기의 첫 득점과 추가골이 필요한 곳에 도착했다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
+후대의 부고가 기억한 미게스도 몸싸움만으로 문전을 차지하는 9번과는 달랐다. 뒤에서 빈 곳으로 들어가는 움직임, 기술적인 슈팅, 칠레나와 발뒤꿈치 같은 선택을 즐긴 옛 센트로포발<span class="foreign-note" lang="es-UY">(centrofóbal; 당시 리오데라플라타 지역에서 중앙 공격수를 가리킨 말)</span>이었다. 세 경기 연속골은 그 설명과 어울린다. 그는 서로 다른 경기에서 첫 득점과 추가골이 필요한 곳마다 도착했다.<a class="cite" href="#source-5" aria-label="출처 5">[5]</a>
 
 ### 득점이 멈춘 뒤 완성된 무패 우승
 

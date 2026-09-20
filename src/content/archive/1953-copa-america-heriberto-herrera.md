@@ -16,7 +16,7 @@ coverImageHeight: 1080
 draft: false
 ---
 
-<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>파라과이는 브라질과 승점 동률을 이룬 뒤 우승 결정전에서 전반에만 세 골을 넣어 3-2로 이겼다. 에리베르토 에레라<span class="foreign-note" lang="es-PY">(Heriberto Herrera Udrízar; 파라과이 수비수·축구감독, 1926-1996)</span>는 득점 없이 최후방의 간격과 대인 방어를 책임졌다. 1953년의 대표 선수는 골을 가장 많이 넣은 공격수가 아니라, 파라과이의 첫 대륙 우승을 끝까지 지켜 낸 수비수였다.</p></aside>
+<aside class="record-abstract" aria-label="기록 요약"><span>RECORD ABSTRACT</span><p>파라과이는 브라질과 승점 동률을 이룬 뒤 우승 결정전에서 전반에만 세 골을 넣어 3-2로 이겼다. 에리베르토 에레라<span class="foreign-note" lang="es-PY">(Heriberto Herrera Udrízar; 파라과이 수비수·축구감독, 1926-1996)</span>는 득점 없이 최후방의 간격과 대인 방어를 책임졌다. 득점왕 대신, 파라과이의 첫 대륙 우승을 끝까지 지켜 낸 수비수가 1953년의 대표 선수로 남았다.</p></aside>
 
 <div class="record-lead"><img src="/images/archive/1916-copa-america/trophy.png" alt="코파 아메리카 트로피" width="152" height="201" /><p>제22회 남미축구선수권대회</p><strong lang="es">Campeonato Sudamericano de Football 1953</strong></div>
 

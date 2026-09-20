@@ -55,7 +55,7 @@ relatedGroup: 'fifa-world-cup-1930'
   <header><span>20' · 1-1</span><h3>카를로스 페우셀레, 곧바로 동점</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" aria-label="카를로스 페우셀레의 아르헨티나 동점골"><source src="/media/highlights/1930-world-cup-final/clip-04.mp4" type="video/mp4" /></video><figcaption>카를로스 페우셀레가 우루과이의 기세를 끊고 경기를 원점으로 돌렸다.</figcaption></figure></div>
   <p>그런데 아르헨티나는 흔들리지 않았다. 선제골을 내준 지 8분 뒤, 카를로스 페우셀레<span class="foreign-note" lang="es-AR">(Carlos Desiderio Peucelle; 아르헨티나 공격수)</span>가 오른쪽에서 들어와 가까운 골문 쪽을 찔렀다. 골키퍼 엔리케 바예스테로스<span class="foreign-note" lang="es-UY">(Enrique Ballestrero; 우루과이 골키퍼)</span>가 몸을 낮췄지만 공은 먼저 골문을 통과했다.</p>
-  <p>나는 이 장면에서 아르헨티나의 반응 속도가 먼저 보인다. 센테나리오의 분위기가 완전히 우루과이 쪽으로 넘어가기 전에 바로 1-1을 만들었다. 결승전은 시작 20분 만에 홈팀의 축제가 아니라 팽팽한 리오데라플라타의 싸움으로 돌아갔다.</p>
+  <p>나는 이 장면에서 아르헨티나의 반응 속도가 먼저 보인다. 센테나리오의 분위기가 완전히 우루과이 쪽으로 넘어가기 전에 바로 1-1을 만들었다. 시작 20분 만에 결승전은 팽팽한 리오데라플라타의 싸움으로 돌아갔다.</p>
 </section>
 
 <section class="highlight-scene">

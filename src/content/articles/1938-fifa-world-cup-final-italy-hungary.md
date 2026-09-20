@@ -58,7 +58,7 @@ relatedGroup: 'fifa-world-cup-1938'
   <header><span>16' · ITALY 2-1</span><h3>실비오 피올라, 좁은 문전을 뚫다</h3></header>
   <div class="highlight-clip-grid"><figure><video class="highlight-clip" muted loop playsinline controls preload="none" data-autoplay-on-view aria-label="실비오 피올라의 1938 월드컵 결승전 첫 번째 골"><source src="/media/highlights/1938-world-cup-final/piola-16.mp4?v=2" type="video/mp4" /></video><figcaption>피올라가 문전의 혼전에서 공을 밀어 넣어 이탈리아를 다시 앞세웠다.</figcaption></figure></div>
   <p>균형이 깨지는 데에는 다시 8분밖에 걸리지 않았다. 이탈리아의 공격이 페널티 지역 안으로 이어졌고, 실비오 피올라<span class="foreign-note" lang="it">(Silvio Piola; 이탈리아 센터 포워드)</span>는 수비수와 골키퍼가 몰린 좁은 공간에서 공을 골문으로 밀어 넣었다.</p>
-  <p>피올라는 노르웨이전에서 결승골을 넣었고 개최국 프랑스를 상대로도 두 골을 기록했다. 결승의 첫 골까지 더하면서 그는 마지막 패스를 기다리는 공격수가 아니라, 대회 내내 이탈리아가 가장 필요할 때 승부를 움직인 해결사였음을 다시 보여줬다.</p>
+  <p>피올라는 노르웨이전에서 결승골을 넣었고 개최국 프랑스를 상대로도 두 골을 기록했다. 결승의 첫 골까지 더하면, 그는 대회 내내 이탈리아가 가장 필요할 때마다 승부를 움직였다.</p>
 </section>
 
 ## 전반 35분: 같은 두 이름이 만든 3-1
