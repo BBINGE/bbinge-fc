@@ -56,7 +56,7 @@ featured: false
 
 <div class="custom-xi-music" data-youtube-id="KAaiX306veI" role="region" aria-label="삽입형 BGM 재생">
   <button type="button" class="music-toggle" aria-label="재생하기">▶</button>
-  <span><small>삥이가 당시 원고와 함께 고른 BGM</small><strong>DAY6 - Welcome to the Show</strong><em>페이지 안에서 재생됩니다</em></span>
+  <span><small>삥이가 고른 BGM</small><strong>DAY6 - Welcome to the Show</strong><em>페이지 안에서 재생됩니다</em></span>
   <button type="button" class="music-cta music-toggle" aria-label="DAY6 Welcome to the Show 재생">재생하기</button>
   <div class="custom-xi-music-player" hidden>
     <iframe loading="lazy" title="YouTube embed: DAY6 - Welcome to the Show" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

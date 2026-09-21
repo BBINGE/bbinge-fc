@@ -59,7 +59,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 <div class="custom-xi-music" data-youtube-id="fL1yjOP8wcc" role="region" aria-label="삽입형 BGM 재생">
   <button type="button" class="music-toggle" aria-label="재생하기">▶</button>
-  <span><small>삥이가 당시 원고와 함께 고른 BGM</small><strong>Stern des Südens · 남부의 별</strong><em>페이지 안에서 재생됩니다</em></span>
+  <span><small>삥이가 고른 BGM</small><strong>Stern des Südens · 남부의 별</strong><em>페이지 안에서 재생됩니다</em></span>
   <button type="button" class="music-cta music-toggle" aria-label="Stern des Südens 재생">재생하기</button>
   <div class="custom-xi-music-player" hidden><iframe loading="lazy" title="YouTube embed: Stern des Südens 남부의 별" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
   <p class="custom-xi-music-credit"><a href="https://www.youtube.com/watch?v=fL1yjOP8wcc" target="_blank" rel="noopener noreferrer">벤제마오른발 채널의 한글 가사 영상 원본 보기</a></p>
@@ -335,13 +335,9 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 15. <span id="source-15"></span>[UEFA: EURO 1976 대회 베스트 11와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
 16. <span id="source-16"></span>[푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 
-### 이 글이 만들어진 방식
-
-열한 명은 통산 기록의 단순 합계로 뽑지 않았다. 바이언에서의 전성기 크기, 구단사에 남긴 전술적 변화, 국가대표와 유럽대항전의 위상, 서로 다른 시대의 역할이 한 대형 안에서 공존할 수 있는지를 함께 평가했다. 선수별 서술도 약력을 바꾸어 적는 데 머물지 않고, 기록이 바이언과 독일 축구사의 어느 장면에서 의미를 얻는지 해석하는 방식으로 구성했다.
-
-선수별 세 장의 편집물에는 인물 선정, 사진 탐색, 시대별 기록 조사, 별칭과 원어 표기, 색채 설계, 정보 위계, 프레임과 배경, 수상·우승 내역의 배열이 함께 들어 있다. 표제에서 포메이션, 2군과 기타 후보로 이어지는 마지막 네 장 역시 한 세계를 전제로 기획한 연속 시각물이며, 별개의 첨부 이미지가 아니다. 이 기존 편집물은 모두 박성호(삥이)가 Adobe Photoshop에서 한 장씩 직접 제작했으며, 생성형 AI를 사용하지 않았다. 선수 선정·자료 조사·비교 기준·본문 서술·정보 배열·시각 구성과 완성 편집 디자인까지 전 과정을 직접 수행했다.
-
 ### 이미지와 권리에 관한 편집 원칙
+
+선수별 편집물과 표제·포메이션·후보 명단 편집물의 디자인은 박성호(삥이)의 작업이다.
 
 완성 편집물에 포함된 선수 사진은 인물을 식별하고 그 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥 안에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며, 사진 위에 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 이러한 편집적 창작성과 원사진의 권리는 서로 다른 층위이므로, 본 사이트는 자체 기여를 분명히 밝히되 원사진에 관한 권리까지 소유한다고 주장하지 않는다.
 
