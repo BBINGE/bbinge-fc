@@ -38,7 +38,8 @@ try {
     assert.equal(await teams.count(), 4);
     for (const team of await teams.all()) {
       const crest = team.locator('.match-board-crest');
-      assert.match(await crest.getAttribute('src'), /\.svg$/);
+      // 독립 SVG 문장이거나, 빌드가 만든 그 사본(원본 이름을 남긴 WebP)이어야 한다. 도판 크롭 조각은 안 된다.
+      assert.match(await crest.getAttribute('src'), /(\.svg|\/_img\/[a-z0-9-]+\.[0-9a-f]{12}-\d+\.webp)$/);
       await crest.evaluate(el => el.decode());
       assert(await team.evaluate(el => {
         const crest = el.querySelector('.match-board-crest').getBoundingClientRect();
@@ -115,7 +116,10 @@ try {
     await cardImage.evaluate(el => el.decode());
     assert.match(await cardImage.getAttribute('src'), /kopa-di-stefano.jpg$/);
     assert.match(await cardImage.getAttribute('alt'), /코파.*디스테파노.*악수/);
-    assert.deepEqual(await cardImage.evaluate(el => [el.naturalWidth, el.naturalHeight]), [966, 966]);
+    // 운영자 제공 966×966 썸네일 그대로인지 본다. 빌드가 폭별 WebP 사본을 붙이면 naturalWidth는 화면 밀도로 나눈 값이 되므로
+    // 정사각 비율과 실제로 쓰인 파일(원본 또는 원본 이름을 남긴 사본)로 확인한다.
+    assert.equal(await cardImage.evaluate(el => el.naturalWidth === el.naturalHeight), true);
+    assert.match(await cardImage.evaluate(el => el.currentSrc), /kopa-di-stefano(\.jpg|\.[0-9a-f]{12}-\d+\.webp)$/);
     assert.match(await finalCard.innerText(), /12 SCENES/);
     const oldCard = page.locator('article').filter({ has: page.locator(`a[href="${wc1934}"]`) });
     assert.match(await oldCard.innerText(), /05 SCENES/);

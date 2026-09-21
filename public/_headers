@@ -17,5 +17,5 @@
 /_home-images/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
-/_article-images/*
+/_img/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
