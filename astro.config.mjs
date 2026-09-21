@@ -41,6 +41,17 @@ const populatedArchiveBranches = new Set();
 const populatedArchiveIndexes = new Set();
 const populatedArticleCategories = new Set();
 const contentLastModified = new Map();
+// 본문 글자가 마지막으로 바뀐 시각(scripts/build-content-modified.mjs). max(updatedDate ?? pubDate, 기록)을 쓴다.
+const contentModifiedPath = fileURLToPath(new URL('./src/data/content-modified.json', import.meta.url));
+/** @type {Record<string, { hash: string, modified: string }>} */
+const contentModified = existsSync(contentModifiedPath) ? JSON.parse(readFileSync(contentModifiedPath, 'utf8')) : {};
+/** @param {string} key @param {string | undefined} base @returns {string | undefined} */
+function latestModified(key, base) {
+  const recorded = contentModified[key]?.modified;
+  if (!base) return recorded;
+  if (!recorded) return base;
+  return new Date(recorded) > new Date(base) ? recorded : base;
+}
 
 for (const file of markdownFiles(join(contentRoot, 'archive'))) {
   const source = readFileSync(file, 'utf8');
@@ -48,7 +59,7 @@ for (const file of markdownFiles(join(contentRoot, 'archive'))) {
   const branch = frontmatterValue(source, 'branch');
   const index = frontmatterValue(source, 'index');
   const slug = relative(join(contentRoot, 'archive'), file).split(sep).join('/').replace(/\.md$/, '');
-  const modified = frontmatterValue(source, 'updatedDate') ?? frontmatterValue(source, 'pubDate');
+  const modified = latestModified(`archive/${slug}`, frontmatterValue(source, 'updatedDate') ?? frontmatterValue(source, 'pubDate'));
   if (branch) populatedArchiveBranches.add(branch);
   if (branch && index) populatedArchiveIndexes.add(`${branch}/${index}`);
   if (branch && index && modified) contentLastModified.set(`/archive/${branch}/${index}/${slug}/`, new Date(modified));
@@ -59,7 +70,7 @@ for (const file of markdownFiles(join(contentRoot, 'articles'))) {
   if (frontmatterValue(source, 'draft') === 'true') continue;
   const category = frontmatterValue(source, 'category');
   const slug = relative(join(contentRoot, 'articles'), file).split(sep).join('/').replace(/\.md$/, '');
-  const modified = frontmatterValue(source, 'updatedDate') ?? frontmatterValue(source, 'pubDate');
+  const modified = latestModified(`articles/${slug}`, frontmatterValue(source, 'updatedDate') ?? frontmatterValue(source, 'pubDate'));
   /** @type {string | null | undefined} */
   let populatedSlug = category;
   while (populatedSlug) {

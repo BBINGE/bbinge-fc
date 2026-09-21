@@ -83,6 +83,7 @@ const faqSchema = entry.data.faq && entry.data.faq.length
   article={{
     pubDate: entry.data.pubDate,
     updatedDate: entry.data.updatedDate,
+    modifiedKey: `archive/${entry.id}`,
     section: `${branch.title} · ${archiveIndex.label}`,
     subjects: [entry.data.subject, archiveIndex.label, entry.data.originalTitle, ...entry.data.tags, ...entry.data.keywords].filter(Boolean) as string[],
     keywords: entry.data.keywords,

@@ -1,0 +1,590 @@
+{
+  "archive/1916-copa-america-isabelino-gradin": {
+    "hash": "6e4591de526ea10e",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1917-copa-america-hector-scarone": {
+    "hash": "b906bd871bc9ab9c",
+    "modified": "2026-09-20T23:20:25+09:00"
+  },
+  "archive/1919-copa-america-arthur-friedenreich": {
+    "hash": "66a32594a68e7327",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1920-copa-america-jose-piendibene": {
+    "hash": "58aae5b9c6c9dd6a",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "archive/1921-copa-america-americo-tesoriere": {
+    "hash": "272229e8349e0c77",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1922-copa-america-agostinho-fortes": {
+    "hash": "98348b93b9b3e788",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "archive/1923-copa-america-jose-nasazzi": {
+    "hash": "67d76e1cf2bb016e",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1924-copa-america-pedro-petrone": {
+    "hash": "724ab21eccb19883",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1925-copa-america-manuel-seoane": {
+    "hash": "fdc6fb1d4a72e99e",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1926-copa-america-jose-leandro-andrade": {
+    "hash": "67b8261b52ec68c3",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1927-copa-america-manuel-seoane": {
+    "hash": "d5ee6629297f64e3",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1929-copa-america-manuel-ferreira": {
+    "hash": "5c739ca16a2c7793",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "archive/1930-fifa-world-cup-best-xi": {
+    "hash": "05ea4e2460af3b44",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1934-fifa-world-cup-best-xi": {
+    "hash": "a8d58f465b2db19a",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1935-copa-america-jose-nasazzi": {
+    "hash": "804ce96fdadb58d5",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "archive/1937-copa-america-vicente-de-la-mata": {
+    "hash": "2cad24bf1a082f79",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1938-fifa-world-cup-best-xi": {
+    "hash": "02d316db646c192b",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1939-copa-america-teodoro-fernandez": {
+    "hash": "a1a854a6df7e8ff4",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1941-copa-america-sergio-livingstone": {
+    "hash": "7cb6d2d500eef7ac",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1942-copa-america-obdulio-varela": {
+    "hash": "452b67ae56926d4b",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1945-copa-america-domingos-da-guia": {
+    "hash": "2f36d198445ce184",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1946-copa-america-adolfo-pedernera": {
+    "hash": "881c1cb027cc87e7",
+    "modified": "2026-09-11T05:39:34+09:00"
+  },
+  "archive/1947-copa-america-jose-manuel-moreno": {
+    "hash": "41733bbe623dc2dd",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1948-south-american-championship-of-champions": {
+    "hash": "b55050d94e7db053",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "archive/1948-south-american-championship-of-champions-top-scorers": {
+    "hash": "db3e417704247603",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1949-copa-america-ademir": {
+    "hash": "34c43c86e920dc6a",
+    "modified": "2026-09-11T05:39:34+09:00"
+  },
+  "archive/1950-fifa-world-cup-best-xi": {
+    "hash": "0acf854a5b186076",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1953-copa-america-heriberto-herrera": {
+    "hash": "1558d9a1982dc047",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1954-fifa-world-cup-best-xi": {
+    "hash": "ef9a6e738acedcfd",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1955-56-european-cup": {
+    "hash": "e0fa74675a093a01",
+    "modified": "2026-09-16T17:28:56+09:00"
+  },
+  "archive/1955-56-european-cup-semifinals": {
+    "hash": "d6df8122f0b38ab3",
+    "modified": "2026-09-14T06:52:52+09:00"
+  },
+  "archive/1955-56-european-cup-top-scorers": {
+    "hash": "2a03301370e035a7",
+    "modified": "2026-09-14T06:14:18+09:00"
+  },
+  "archive/1955-56-european-cup-tournament-best-xi": {
+    "hash": "6179714359d9e5c1",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/1955-58-inter-cities-fairs-cup": {
+    "hash": "1f6e1a08e079290f",
+    "modified": "2026-09-15T16:23:33+09:00"
+  },
+  "archive/1955-58-inter-cities-fairs-cup-semifinals-final": {
+    "hash": "6e4add6d68c4f119",
+    "modified": "2026-09-15T17:26:28+09:00"
+  },
+  "archive/1955-copa-america-enrique-hormazabal": {
+    "hash": "c9846cd8a211b291",
+    "modified": "2026-09-11T05:39:34+09:00"
+  },
+  "archive/1956-57-european-cup": {
+    "hash": "0f17733bfbb316e2",
+    "modified": "2026-09-16T17:28:56+09:00"
+  },
+  "archive/1956-57-european-cup-semifinals": {
+    "hash": "d7efe3574ebe9310",
+    "modified": "2026-09-16T17:28:56+09:00"
+  },
+  "archive/1956-57-european-cup-top-scorers": {
+    "hash": "3243e55edf2328b0",
+    "modified": "2026-09-14T10:22:50+09:00"
+  },
+  "archive/1956-57-european-cup-tournament-best-xi": {
+    "hash": "a8467f4b64295b9d",
+    "modified": "2026-09-17T19:06:00+09:00"
+  },
+  "archive/1956-ballon-dor-stanley-matthews": {
+    "hash": "ff1ee0a579d6fb33",
+    "modified": "2026-09-20T19:51:22+09:00"
+  },
+  "archive/1956-copa-america-oscar-miguez": {
+    "hash": "6c5c64c3237934a5",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "archive/1957-ballon-dor-alfredo-di-stefano": {
+    "hash": "fabd3677291274e7",
+    "modified": "2026-09-16T17:28:56+09:00"
+  },
+  "archive/1957-copa-america-omar-sivori": {
+    "hash": "c9e9d52cf647dabe",
+    "modified": "2026-09-20T23:20:25+09:00"
+  },
+  "archive/alfredo-di-stefano": {
+    "hash": "6da53fb687b27f62",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/cafu": {
+    "hash": "b6e18fae591559b2",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/dennis-bergkamp": {
+    "hash": "8dc694f65429bab7",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/gerald-vanenburg": {
+    "hash": "4e1867a062bff033",
+    "modified": "2026-09-20T02:00:46+09:00"
+  },
+  "archive/giacinto-facchetti": {
+    "hash": "0c488a72cf119df3",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/kaka": {
+    "hash": "b9b4b0a544ce12ab",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/lothar-matthaus": {
+    "hash": "75b1234544375a7e",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/luis-suarez-miramontes": {
+    "hash": "ddd2eec1579b5080",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "archive/mazinho": {
+    "hash": "5fb3a6e7528922cb",
+    "modified": "2026-09-13T23:31:49+09:00"
+  },
+  "archive/nicola-legrottaglie": {
+    "hash": "e633de8d96b69eaf",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "archive/rob-rensenbrink": {
+    "hash": "62b4a6cd86c53eac",
+    "modified": "2026-09-13T23:31:49+09:00"
+  },
+  "archive/roberto-baggio": {
+    "hash": "f500675ff274f258",
+    "modified": "2026-09-20T02:00:46+09:00"
+  },
+  "archive/ronaldo-nazario": {
+    "hash": "ca8afe89ad469194",
+    "modified": "2026-09-20T19:51:22+09:00"
+  },
+  "archive/torsten-frings": {
+    "hash": "ac94fca51871739f",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "archive/willem-van-hanegem": {
+    "hash": "aea8ec83ecdb9307",
+    "modified": "2026-09-09T12:43:37+09:00"
+  },
+  "archive/wim-kieft": {
+    "hash": "7dc22c049d2ec29a",
+    "modified": "2026-09-20T02:00:46+09:00"
+  },
+  "articles/1930-fifa-world-cup-final-uruguay-argentina": {
+    "hash": "40a6dd40fc5957db",
+    "modified": "2026-09-20T20:17:02+09:00"
+  },
+  "articles/1934-fifa-world-cup-final-italy-czechoslovakia": {
+    "hash": "163b335ab5d03677",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "articles/1938-fifa-world-cup-final-italy-hungary": {
+    "hash": "f6ea266ccbd7b069",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/1950-fifa-world-cup-final-uruguay-brazil": {
+    "hash": "8a829692b2fc9a92",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "articles/1954-fifa-world-cup-final-west-germany-hungary": {
+    "hash": "b7db5e0d9d9a2cdc",
+    "modified": "2026-09-20T19:51:22+09:00"
+  },
+  "articles/1954-korea-world-cup-journey": {
+    "hash": "9e70b33ae4b38706",
+    "modified": "2026-09-17T18:21:06+09:00"
+  },
+  "articles/1955-56-european-cup-final-real-madrid-stade-de-reims": {
+    "hash": "4eab766dbb56281a",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/1956-57-european-cup-final-real-madrid-fiorentina": {
+    "hash": "c825a981f7df622c",
+    "modified": "2026-09-14T08:11:41+09:00"
+  },
+  "articles/2026-football-rule-changes-substitution-throw-in-goal-kick": {
+    "hash": "b107ceadcb22b7e6",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/alessia-russo-footballer-tailoring-fashion": {
+    "hash": "df836d2d3c7d5a0b",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/andrea-pirlo-coverciano-thesis-il-calcio-che-vorrei": {
+    "hash": "775dc5ee75b914bc",
+    "modified": "2026-09-16T23:41:43+09:00"
+  },
+  "articles/anna-meovv-inter-milan-2015-16-crop-jersey": {
+    "hash": "d4203b2ea0d3f001",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/arsenal-2026-27-home-kit-odegaard-rice-saka": {
+    "hash": "204b551d315ae3e1",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/athletic-club-all-time-best-xi": {
+    "hash": "45ef9434b2c1c37f",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/atletico-madrid-2026-27-home-kit-kang-in-lee-suga": {
+    "hash": "c766db56d0a89f3d",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/atletico-madrid-all-time-best-xi": {
+    "hash": "992f76442827587e",
+    "modified": "2026-09-21T10:44:41+09:00"
+  },
+  "articles/away-goals-rule-abolition-uefa-data": {
+    "hash": "78c86b1b4f4d89e2",
+    "modified": "2026-09-16T01:03:34+09:00"
+  },
+  "articles/barcelona-camp-nou-canaletes-football-travel": {
+    "hash": "daa21a02a8bf1c07",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/bayer-leverkusen-all-time-best-xi": {
+    "hash": "4cdbcd0f82faa873",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/bayern-munich-all-time-best-xi": {
+    "hash": "6a37eb2e37e71213",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/bilbao-san-mames-football-travel": {
+    "hash": "8b25feced76817d5",
+    "modified": "2026-09-20T23:20:10+09:00"
+  },
+  "articles/borussia-dortmund-all-time-best-xi": {
+    "hash": "aac67bc737892b83",
+    "modified": "2026-09-21T14:58:22+09:00"
+  },
+  "articles/borussia-monchengladbach-all-time-best-xi": {
+    "hash": "706815224790a45e",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/british-centered-football-history-south-america": {
+    "hash": "2e3769f0e61100d6",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/budapest-honeymoon-football-travel-10": {
+    "hash": "350d59d91acaa52f",
+    "modified": "2026-09-15T23:07:19+09:00"
+  },
+  "articles/camila-cabello-mexico-jersey-leather-mini-skirt": {
+    "hash": "0fa3f9d5d91e4e03",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/chelsea-2026-27-home-kit-cole-palmer-ellie-carpenter": {
+    "hash": "151d6265706a7326",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/chile-1973-estadio-nacional-ghost-match": {
+    "hash": "8d54eff4640c08e2",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/dua-lipa-napoli-jersey-resort-look": {
+    "hash": "07fb6e6f76c3770a",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/ernst-happel-three-champions-league-finals-tactics": {
+    "hash": "2d2a93e652340c48",
+    "modified": "2026-09-20T01:53:36+09:00"
+  },
+  "articles/fc-barcelona-2026-27-home-kit-yamal-de-jong": {
+    "hash": "c16ada44e019e816",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/fc-barcelona-all-time-best-xi": {
+    "hash": "236d0983bedd3f35",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/football-manager-change-effect-before-tactics": {
+    "hash": "1d665ccf3cb52452",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/football-shirt-sponsorship-history": {
+    "hash": "efbd4a1800488d45",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/football-stoppage-time-calculation": {
+    "hash": "1562615ac6daf743",
+    "modified": "2026-09-01T17:06:23+09:00"
+  },
+  "articles/football-var-review-criteria": {
+    "hash": "61539ca2fef6e924",
+    "modified": "2026-08-30T19:06:38+09:00"
+  },
+  "articles/goalkeeper-handball-back-pass-rules": {
+    "hash": "9b6b4dfe82a2c696",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/grande-inter-best-xi": {
+    "hash": "146a5069cde1cb34",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/grande-torino-card-news": {
+    "hash": "9e0f93a37d643e37",
+    "modified": "2026-09-20T20:34:20+09:00"
+  },
+  "articles/grande-torino-wm-system-tactics": {
+    "hash": "c7a46a155e4d5fc9",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/greatest-football-teams-top-10": {
+    "hash": "8fe371e3359eb451",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/hungary-1956-revolution-golden-team-dissolution": {
+    "hash": "72dc6716c1fb9188",
+    "modified": "2026-09-15T23:07:19+09:00"
+  },
+  "articles/hungary-golden-team-total-football-elo-rating": {
+    "hash": "e5087ec5bd0c1933",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/jang-wonyoung-coupang-play-sky-blue-jersey-dress": {
+    "hash": "74fc5981a60f0f15",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/jennie-manchester-united-teamgeist-blokecore": {
+    "hash": "e9cc8e4ceb436c28",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/jhope-john-lawrence-sullivan-denim-protocol-index-jersey": {
+    "hash": "67a1193d38312a0f",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/jule-brand-adidas-confirmed-football-fashion": {
+    "hash": "7619a53b287c7efc",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/juventus-blockcore-outfits": {
+    "hash": "d12f38515366cb0f",
+    "modified": "2026-08-28T15:51:28+09:00"
+  },
+  "articles/kang-in-lee-atletico-madrid-metropolitano-travel": {
+    "hash": "dfa660bdff8a37aa",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/karina-nike-peaceminusone-korea-football-fashion": {
+    "hash": "a92cee498753b565",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/kika-nazareth-barcelona-kobe-away-kit": {
+    "hash": "b1dc52f8763a938a",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/kwon-eunbi-world-cup-red-jersey-denim-skirt": {
+    "hash": "af71bbf882574cee",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/lisa-nike-football-mercurial-dress-world-cup": {
+    "hash": "acb309f529c27c8f",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/liverpool-2026-27-home-kit-van-dijk-wirtz-szoboszlai-alisson": {
+    "hash": "6e844a8308e78242",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/liverpool-anfield-everton-football-travel": {
+    "hash": "ac2fa6ee584b830b",
+    "modified": "2026-09-15T20:43:58+09:00"
+  },
+  "articles/malu-borges-vasco-brazil-football-fashion": {
+    "hash": "d3af655e172742f8",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/manchester-city-2026-27-home-kit-haaland-foden-cherki-dias": {
+    "hash": "ce6f9e5c8518a985",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/manchester-united-2026-27-home-kit-bruno-lisandro-mainoo": {
+    "hash": "63117affb2e39490",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/manchester-united-busby-best-xi": {
+    "hash": "e59bd73d3c0680bf",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/milan-san-siro-couple-fashion-football-travel": {
+    "hash": "d861d20c8aeb90f5",
+    "modified": "2026-09-15T19:37:05+09:00"
+  },
+  "articles/nana-ferragamo-cara-bag": {
+    "hash": "d93bab27f3f3562f",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/north-london-arsenal-tottenham-football-travel": {
+    "hash": "7e0ea74bc5d9cc7c",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/offside-questions-and-answers": {
+    "hash": "9d1b30d30797f2a7",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/oh-hayoung-manchester-united-blockcore": {
+    "hash": "97692d044c3407a6",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/olivia-rodrigo-barcelona-jersey-el-clasico-collaboration": {
+    "hash": "41af2dc351e84514",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/peggy-gou-football-shirts-club-style": {
+    "hash": "0e32e14121a527db",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/penalty-kick-rules-distance-goalkeeper-feint": {
+    "hash": "cedb9b267c0a6d61",
+    "modified": "2026-09-01T17:06:23+09:00"
+  },
+  "articles/pep-guardiola-manchester-city-wm-tactics": {
+    "hash": "f894d4c979cdc350",
+    "modified": "2026-09-20T20:42:34+09:00"
+  },
+  "articles/real-madrid-2026-27-home-kit-bellingham": {
+    "hash": "38f5d5af2cb03316",
+    "modified": "2026-09-16T17:28:56+09:00"
+  },
+  "articles/real-madrid-all-time-best-xi": {
+    "hash": "17e9575472bd9332",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/real-madrid-death-squad-best-xi": {
+    "hash": "c6e3aab806262aa2",
+    "modified": "2026-09-21T10:44:41+09:00"
+  },
+  "articles/rescene-woni-manchester-city-jersey-outfit": {
+    "hash": "de2f95b9b5cbdc00",
+    "modified": "2026-09-20T01:53:36+09:00"
+  },
+  "articles/rotterdam-de-kuip-football-travel": {
+    "hash": "d27a1d30e8a4744e",
+    "modified": "2026-08-28T15:51:28+09:00"
+  },
+  "articles/sakina-karchaoui-psg-recreation-fashion": {
+    "hash": "82331749e6524a2d",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/sevilla-fc-all-time-best-xi": {
+    "hash": "905b4caac9ac8125",
+    "modified": "2026-09-21T14:38:03+09:00"
+  },
+  "articles/shakira-roberto-cavalli-world-cup-final-halftime-look": {
+    "hash": "98012a71131f03df",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/stadio-olimpico-rome-travel-7": {
+    "hash": "8ebf5b59acc53e40",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "articles/taeyeon-korea-away-jersey-number-9-football-boots": {
+    "hash": "2777564fb6624ed2",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "articles/tolami-benson-england-arsenal-football-fashion": {
+    "hash": "9553578b4cc1a6d4",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/tottenham-2026-27-home-kit-bergvall-van-de-ven-maddison-tonali": {
+    "hash": "56c300abca5859f9",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/turin-juventus-walk-of-fame-travel-10": {
+    "hash": "08c71b1c904f9f6f",
+    "modified": "2026-09-16T17:08:26+09:00"
+  },
+  "articles/uefa-plaque-juventus-chelsea": {
+    "hash": "193ac332fedcfe31",
+    "modified": "2026-09-20T20:26:33+09:00"
+  },
+  "articles/valencia-cf-all-time-best-xi": {
+    "hash": "4d91e4ade8541b75",
+    "modified": "2026-09-21T14:48:29+09:00"
+  },
+  "articles/valeriy-lobanovskyi-dynamo-kyiv-system-football": {
+    "hash": "d9c8b79629eb151b",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "articles/why-eredivisie-became-selling-league": {
+    "hash": "cd8e99f145fee671",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "articles/why-grande-torino-did-not-remain": {
+    "hash": "5d1990f99c694c88",
+    "modified": "2026-09-20T20:50:27+09:00"
+  },
+  "articles/winter-world-cup-red-jersey-polo-play-bag": {
+    "hash": "98216d6d504a9e96",
+    "modified": "2026-09-20T19:51:22+09:00"
+  }
+}

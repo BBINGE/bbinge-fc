@@ -5,6 +5,18 @@ import Footer from '../components/Footer.astro';
 import StoreWayfinding from '../components/StoreWayfinding.astro';
 import PrivacyControls from '../components/PrivacyControls.astro';
 import { site } from '../config/site';
+import contentModified from '../data/content-modified.json';
+
+// 구조화 데이터 dateModified: max(updatedDate ?? pubDate, 본문 글자가 마지막으로 바뀐 시각). 기록이 없으면 기존 방식.
+// 사이트맵 lastmod(astro.config.mjs)와 같은 값을 쓴다. 기록은 scripts/build-content-modified.mjs가 만든다.
+const modifiedRecords = contentModified as Record<string, { hash: string; modified: string }>;
+function articleModified(article: { pubDate: Date; updatedDate?: Date; modifiedKey?: string }): Date {
+  const base = article.updatedDate ?? article.pubDate;
+  const recorded = article.modifiedKey ? modifiedRecords[article.modifiedKey]?.modified : undefined;
+  if (!recorded) return base;
+  const date = new Date(recorded);
+  return Number.isNaN(date.valueOf()) || date <= base ? base : date;
+}
 
 interface Breadcrumb {
   label: string;
@@ -29,6 +41,8 @@ interface Props {
   article?: {
     pubDate: Date;
     updatedDate?: Date;
+    /** src/data/content-modified.json의 키. 본문 글자가 마지막으로 바뀐 시각을 dateModified에 반영한다. */
+    modifiedKey?: string;
     section?: string;
     subjects?: string[];
     keywords?: string[];
@@ -97,7 +111,7 @@ const articleSchema = article
         ...(ogImageCaption ? { caption: ogImageCaption } : {}),
       },
       datePublished: article.pubDate.toISOString(),
-      dateModified: (article.updatedDate ?? article.pubDate).toISOString(),
+      dateModified: articleModified(article).toISOString(),
       mainEntityOfPage: {
         '@type': 'WebPage',
         '@id': canonicalURL,

@@ -228,6 +228,7 @@ if (props.kind === 'category') {
     article={{
       pubDate: articleView.entry.data.pubDate,
       updatedDate: articleView.entry.data.updatedDate,
+      modifiedKey: `articles/${articleView.entry.id}`,
       section: articleView.meta.fullLabel,
       subjects: [articleView.meta.fullLabel, ...articleView.entry.data.tags],
       keywords: articleView.entry.data.tags,
