@@ -183,7 +183,7 @@ featured: false
 
 <a class="fb-next" href="/squads/custom-best-xi/bayern-munich-all-time-best-xi/" aria-label="FC 바이에른 뮌헨 역대 베스트 11 글 더 보기">
   <span class="fb-next__content"><span class="fb-next__copy"><small>NEXT STORY · 08F 명예의 전당</small><strong>이 빨간 셔츠를 입은<br />역대 열한 명</strong><span>베켄바워와 게르트 뮐러부터 노이어까지, 축쿼드가 고른 FC 바이에른 뮌헨 역대 베스트 11로 이어서 봅니다.</span></span><span class="fb-next__cta">바이언 역대 베스트 11 보러 가기 <b aria-hidden="true">→</b></span></span>
-  <span class="fb-next__thumb"><img src="/images/squads/bayern-munich-all-time-best-xi/cover-editorial.webp" alt="FC 바이에른 뮌헨 역대 베스트 11 표지" width="1600" height="900" loading="lazy" decoding="async" /><span>BAYERN ALL-TIME XI</span></span>
+  <span class="fb-next__thumb"><img src="/images/squads/bayern-munich-all-time-best-xi/card-bbinge-2025.webp" alt="우승 트로피를 든 바이언 선수들 위에 바이언 역대 베스트 11이라고 적은 삥이 편집 카드" width="966" height="966" loading="lazy" decoding="async" /></span>
 </a>
 
 <section class="source-notes">
@@ -290,7 +290,7 @@ featured: false
   .fb-shop-card--elite .fb-shop-card__cta{background:linear-gradient(102deg,#40000d,#8a0020)}
   @keyframes fb-shine{0%,60%{left:-40%}100%{left:130%}}
   .fb-commercial-note{position:relative;left:50%;width:min(1180px,calc(100vw - 32px));margin:0 0 30px;transform:translateX(-50%);color:var(--bbfc-gray-2);font-size:12px;line-height:1.65;text-align:center}
-  .fb-next{position:relative;display:grid;grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);gap:30px;align-items:center;width:min(1040px,100%);min-height:300px;margin:62px auto 70px;padding:26px;overflow:hidden;border:1px solid rgba(255,255,255,.22);border-radius:var(--bbfc-radius-lg);background:linear-gradient(122deg,#0b1432 0%,#16244f 42%,#8a0020 100%);color:#fff;text-decoration:none;box-shadow:0 22px 52px rgba(12,20,60,.24);transition:transform .36s ease,box-shadow .36s ease}
+  .fb-next{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,320px);gap:30px;align-items:center;width:min(1040px,100%);min-height:300px;margin:62px auto 70px;padding:26px;overflow:hidden;border:1px solid rgba(255,255,255,.22);border-radius:var(--bbfc-radius-lg);background:linear-gradient(122deg,#0b1432 0%,#16244f 42%,#8a0020 100%);color:#fff;text-decoration:none;box-shadow:0 22px 52px rgba(12,20,60,.24);transition:transform .36s ease,box-shadow .36s ease}
   .fb-next__content{display:flex;min-width:0;padding:8px 0 8px 12px;flex-direction:column;align-items:flex-start}
   .fb-next__copy{display:block;max-width:570px}
   .fb-next__copy small{color:#e2c27f;font-size:12px;font-weight:800;letter-spacing:.12em}
@@ -298,17 +298,16 @@ featured: false
   .fb-next__copy>span{display:block;max-width:540px;margin-top:16px;color:rgba(255,255,255,.8);font-size:13px;line-height:1.68}
   .fb-next__cta{display:flex;align-items:center;justify-content:space-between;gap:24px;width:fit-content;min-width:340px;margin-top:26px;padding:14px 17px 14px 20px;border:1px solid rgba(255,255,255,.6);border-radius:999px;background:rgba(10,16,45,.45);color:#fff;font-size:16px;font-weight:800;backdrop-filter:blur(8px)}
   .fb-next__cta b{color:#e2c27f;font-size:24px;line-height:1;transition:transform .3s ease}
-  .fb-next__thumb{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;border:1px solid rgba(255,255,255,.4);border-radius:calc(var(--bbfc-radius-lg) - 4px);background:#0b1432}
-  .fb-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;object-position:center 30%;transition:transform .55s ease}
-  .fb-next__thumb>span{position:absolute;right:12px;bottom:12px;padding:6px 10px;border:1px solid rgba(255,255,255,.45);border-radius:999px;background:rgba(11,20,50,.72);color:#fff;font-size:12px;font-weight:800;letter-spacing:.1em;backdrop-filter:blur(8px)}
-  .fb-next:hover{color:#fff;transform:translateY(-6px);box-shadow:0 28px 64px rgba(12,20,60,.34)}
+  .fb-next__thumb{position:relative;display:block;aspect-ratio:1/1;overflow:hidden;border:1px solid rgba(255,255,255,.4);border-radius:calc(var(--bbfc-radius-lg) - 4px);background:#0b1432}
+  .fb-next__thumb img{display:block;width:100%;height:100%;margin:0;object-fit:cover;transition:transform .55s ease}
+    .fb-next:hover{color:#fff;transform:translateY(-6px);box-shadow:0 28px 64px rgba(12,20,60,.34)}
   .fb-next:hover .fb-next__cta b{transform:translateX(5px)}
   .fb-next:hover .fb-next__thumb img{transform:scale(1.045)}
   .fb-next:focus-visible{outline:3px solid #e2c27f;outline-offset:4px}
   @media(max-width:1100px){.fb-shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media(max-width:1000px){.fb-cast{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media(max-width:860px){.fb-allure{grid-template-columns:repeat(2,minmax(0,1fr))}.fb-allure figure:last-of-type{grid-column:1/-1}.fb-allure figure:last-of-type img{aspect-ratio:16/10;object-position:center 20%}}
-  @media(max-width:720px){.fb-index,.fb-manifesto,.fb-design,.fb-record,.fb-next{grid-template-columns:1fr}.fb-index>div,.fb-manifesto article{min-height:0;padding:22px 21px 24px}.fb-manifesto article+article{border-top:1px solid rgba(255,255,255,.2);border-left:0}.fb-cast{grid-template-columns:repeat(2,minmax(0,1fr))}.fb-record__stat{padding:22px 20px}.fb-next{gap:22px}.fb-next__cta{width:100%;min-width:0}.fb-next__thumb{order:-1;height:auto;aspect-ratio:16/9}}
+  @media(max-width:720px){.fb-index,.fb-manifesto,.fb-design,.fb-record,.fb-next{grid-template-columns:1fr}.fb-index>div,.fb-manifesto article{min-height:0;padding:22px 21px 24px}.fb-manifesto article+article{border-top:1px solid rgba(255,255,255,.2);border-left:0}.fb-cast{grid-template-columns:repeat(2,minmax(0,1fr))}.fb-record__stat{padding:22px 20px}.fb-next{gap:22px}.fb-next__cta{width:100%;min-width:0}.fb-next__thumb{order:-1;width:min(100%,420px);height:auto;aspect-ratio:1/1;justify-self:center}}
   @media(max-width:600px){.fb-allure{grid-template-columns:1fr}.fb-allure figure:last-of-type img{aspect-ratio:4/5;object-position:center top}.fb-shop-grid{grid-template-columns:1fr}.fb-shop-card{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}.fb-shop-card__media{aspect-ratio:auto;min-height:300px}}
   @media(max-width:520px){.fb-index,.fb-cast,.fb-design,.fb-manifesto,.fb-record,.fb-allure,.fb-pair{margin-top:36px;margin-bottom:48px}.fb-hero{margin-bottom:48px}.fb-cast,.fb-pair{gap:10px}.fb-allure{gap:10px;padding:10px}.article-body .fb-allure figcaption{padding:12px 13px 14px;font-size:12px}.fb-shop-grid{gap:20px}.fb-shop-card{display:flex}.fb-shop-card__media{aspect-ratio:1/1;min-height:0}.fb-next{gap:0;min-height:0;margin:52px auto 58px;padding:0}.fb-next__content{padding:24px 22px 25px}.fb-next__copy strong{font-size:30px}.fb-next__cta{padding:13px 15px 13px 17px;font-size:15px}.fb-next__thumb{border-width:0 0 1px;border-radius:0}}
   @media(prefers-reduced-motion:reduce){.fb-shop-card,.fb-shop-card__media img,.fb-shop-card__cta i,.fb-allure img,.fb-next,.fb-next__cta b,.fb-next__thumb img{transition:none}.fb-shop-card__media--swap img:nth-of-type(2),.fb-shop-card__cta::after{animation:none}.fb-shop-card:hover,.fb-shop-card:hover .fb-shop-card__media img,.fb-allure figure:hover img,.fb-next:hover,.fb-next:hover .fb-next__thumb img{transform:none}}
