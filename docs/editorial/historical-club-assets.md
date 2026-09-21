@@ -1,5 +1,30 @@
 # 시즌별 구단 식별 자산
 
+## 2026-09-21 1957-58 시즌 연결
+
+- 새 구단 13곳을 `historical-clubs.json`에 시즌 `1957-58`로 추가했다. 기존 11곳(라피트·CDNA·오르후스·맨유·밀란·그바르디아·레인저스·노르셰핑·츠르베나 즈베즈다·레알·도르트문트)은 국기·문장 도안의 기간을 대조해 `1957-58`만 더했다. 그바르디아(운영자 제공)는 운영자 지시(2026-09-14, 과거 근거가 없으면 기존·현재 문장)를 오르후스와 같이 적용했다.
+- Logopedia 이미지 서버는 스크립트 요청에 Cloudflare 403을 준다. 브라우저에서 원본 바이트를 받아 무변형 저장했다.
+- 국기: 북아일랜드 `gb-nir-1953.svg`(얼스터 배너 1953-1972), 아일랜드 `ie.svg` 신규. 동독은 1959년 10월 이전이라 문장 없는 흑적금(`de.svg`), 헝가리는 1957년 5월 23일 법으로 정한 무늬 없는 삼색기(`hu.svg`), 루마니아 `ro-1952.svg`, 불가리아 `bg-1948.svg`, 체코슬로바키아 `cz.svg`.
+- 운영자 도판의 예선 뒤들랑주 칸은 체코 국기, 동독 칸은 1959년 이후 국기다. 카드는 검증한 국기를 쓰고 원고 캡션에 밝혔다.
+
+| 구단 | 파일 | 기간·근거 | 선택 |
+|---|---|---|---|
+| 로열 앤트워프 FC | royal-antwerp-1920.webp | Logopedia 1920-1969 왕관·공 문장 | era |
+| FK 두클라 프라하 | dukla-praha-current.png | 현행(Commons PD). 1956-10-01 군 체육 단체 공통 명칭 DUKLA(fkdukla.cz), 1957-58 명칭 AS Dukla Praha. VTJ 접두 도안은 프라하 구단과 맞지 않아 제외 | current-fallback |
+| SC 비스무트 카를마르크스슈타트 | wismut-karl-marx-stadt-1954.png | 독일어 위키 로고(1954-1963 존속기), Commons 당시 자수 패치 사진 Scwismut.jpg와 같은 도안. 표기는 독일어 발음 비스무트 | era |
+| AS 생테티엔 | saint-etienne-1940.svg | Commons PD, Logopedia 1940-1960 | era |
+| 버셔시 SC | vasas-1957.webp | 1957년 Budapesti Vasas SC → Vasas SC 개칭 뒤 원형 VASAS SC 문장. Logopedia 시작 연도 미상 | best-available |
+| 스타드 뒤들랑주 | stade-dudelange-1913.png | Commons PD-textlogo, 1913-1991 존속기 유일 문장 | best-available |
+| AFC 아약스 | ajax-1928.svg | Commons PD 1928-1991 | era |
+| 글레나본 FC | glenavon-current.svg | 영어 위키 현행(공정 이용 표기). 역사 문장 미확보 | current-fallback |
+| SL 벤피카 | benfica-1930.png | Commons PD, Logopedia 1930-1968 | era |
+| 샴록 로버스 FC | shamrock-rovers-current.svg | 영어 위키 현행(공정 이용 표기). 별 두 개는 2005년 이후 추가, Logopedia 최초 도안 1970년 | current-fallback |
+| CCA 부쿠레슈티 | cca-bucuresti-1950.webp | Logopedia 1950-1961, 루마니아어 위키: 1950년 CCA 개칭과 월계관 붉은 별 | era |
+| BSC 영 보이스 | young-boys-1957.svg | Commons PD 1957-1971. 1957년 중 변경, 1957-58 경기는 11월 두 경기뿐 | best-available |
+| 세비야 FC | sevilla-1945.webp | Logopedia 1945-1966 (172px, 확보 가능한 최대 크기) | era |
+
+- 출처 성격: 개별 권리 신호 없음, C등급. 공정 이용 표기 파일(글레나본·샴록 로버스)은 대진 카드 식별 용도로만 쓴다.
+
 ## 2026-09-15 1955-58 인터시티스 페어스컵 연결
 
 - 새 팀 12곳(구단 4·도시 선발팀 8)을 `historical-clubs.json`에 시즌 `1955-58`로 추가했다. 도시 선발팀은 운영자 확정으로 도시 문장을 쓰고 `kind: city-select`, `selection: city-arms`로 표시한다.

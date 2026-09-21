@@ -137,7 +137,8 @@
       {
         "seasons": [
           "1955-56",
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/es-1945.png",
         "period": "1945-1977",
@@ -153,7 +154,8 @@
       {
         "seasons": [
           "1955-56",
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/real-madrid-1941.svg",
         "period": "1941-1997",
@@ -246,7 +248,8 @@
     "flags": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1957-58"
         ],
         "src": "/images/flags/pl.svg"
       }
@@ -254,7 +257,8 @@
     "crests": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/gwardia-supplied.jpg",
         "period": "운영자 지정 도안; 사용 연대 독립 확인 미완료",
@@ -262,7 +266,7 @@
         "selection": "operator-supplied"
       }
     ],
-    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지."
+    "review": "2026-09-09 운영자 제공·표시 요청. 역사적 사용 연대 확정과 구분하며 다른 시즌 자동 확장 금지. 2026-09-21 1957-58 확장: 운영자 지시(2026-09-14, 과거 근거가 없으면 기존·현재 문장 사용)를 오르후스와 같은 방식으로 적용."
   },
   "aarhus": {
     "name": "오르후스 GF",
@@ -272,7 +276,8 @@
       {
         "seasons": [
           "1955-56",
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/dk.svg"
       }
@@ -281,7 +286,8 @@
       {
         "seasons": [
           "1955-56",
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/aarhus-supplied.svg",
         "period": "운영자 지정 도안; 1956-57 당시 사용 근거 미확보",
@@ -326,7 +332,8 @@
       {
         "seasons": [
           "1955-56",
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/at.svg"
       }
@@ -335,7 +342,8 @@
       {
         "seasons": [
           "1955-56",
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/rapid-supplied.jfif",
         "period": "운영자 지정 도안; 1919-1968(Logopedia)·1935-1968(Commons) 도안과 동일",
@@ -381,7 +389,8 @@
     "flags": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1957-58"
         ],
         "src": "/images/flags/it.svg"
       }
@@ -389,7 +398,8 @@
     "crests": [
       {
         "seasons": [
-          "1955-56"
+          "1955-56",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/milan-1946.svg",
         "period": "1946년 이후의 역사 도안; 종료 연도 자료 차이 있음",
@@ -398,7 +408,7 @@
         ]
       }
     ],
-    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가."
+    "review": "1955-56 표시 승인 범위. 다른 시즌은 별도 대조 후 seasons에 추가. 2026-09-21 1957-58 대조: FootyLogos 1946-1976 도안 표제 범위 안."
   },
   "saarbrucken": {
     "name": "1. FC 자르브뤼켄",
@@ -432,7 +442,8 @@
     "flags": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/de.svg"
       }
@@ -440,7 +451,8 @@
     "crests": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/borussia-dortmund-1945.svg",
         "period": "1945-1964",
@@ -593,7 +605,8 @@
     "flags": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/gb-eng.svg"
       }
@@ -601,7 +614,8 @@
     "crests": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/manchester-united-1902.png",
         "period": "1902-1970(맨체스터 시 문장 기반)",
@@ -674,7 +688,8 @@
     "flags": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/bg-1948.svg"
       }
@@ -682,7 +697,8 @@
     "crests": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/cdna-sofia-1954.png",
         "period": "1954-1962",
@@ -701,7 +717,8 @@
     "flags": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/gb-sct.svg"
       }
@@ -709,7 +726,8 @@
     "crests": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/rangers-scroll-1872.svg",
         "period": "1959년 사자 문장 도입 이전의 스크롤 문장",
@@ -755,7 +773,8 @@
     "flags": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/se.svg"
       }
@@ -763,7 +782,8 @@
     "crests": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/norrkoping-current.svg",
         "period": "현행 문장(시대 도안 미확보)",
@@ -808,7 +828,8 @@
     "flags": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/flags/yu-1946.svg"
       }
@@ -816,7 +837,8 @@
     "crests": [
       {
         "seasons": [
-          "1956-57"
+          "1956-57",
+          "1957-58"
         ],
         "src": "/images/archive/teams/clubs/crvena-zvezda-1950.svg",
         "period": "1950-1995(Commons)·1950-1992(Logopedia)",
@@ -1360,5 +1382,386 @@
     ],
     "crests": [],
     "review": "1948 남미 챔피언 오브 챔피언십 표시 승인 범위. 국기는 1편 참가팀 표와 같은 현행 도안을 쓴다. 다른 대회는 별도 대조 후 seasons에 추가."
+  },
+  "royal-antwerp": {
+    "name": "로열 앤트워프 FC",
+    "original": "ROYAL ANTWERP FC",
+    "country": "벨기에",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/be.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/royal-antwerp-1920.webp",
+        "period": "1920-1969(Logopedia)",
+        "sources": [
+          "https://logos.fandom.com/wiki/Royal_Antwerp"
+        ],
+        "selection": "era"
+      }
+    ],
+    "review": "1957-58 국기·문장 대조. Logopedia 1920-1969 왕관·공 문장(ROYAL ANTWERP FOOTBALL CLUB 1880). FootyLogos는 현행 문장만 있음. 서버가 내려 준 WebP 원본 무변형."
+  },
+  "dukla-praha": {
+    "name": "FK 두클라 프라하",
+    "original": "DUKLA PRAHA",
+    "country": "체코슬로바키아",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/cz.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/dukla-praha-current.png",
+        "period": "현행 문장(1957-58 당시 도안 미확보)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:FK_Dukla_Praha_logo.png",
+          "https://cs.wikipedia.org/wiki/FK_Dukla_Praha",
+          "https://fkdukla.cz/article/8503"
+        ],
+        "selection": "current-fallback",
+        "license": "Public domain (Commons 표기)"
+      }
+    ],
+    "review": "1956년 10월 1일 군 체육 단체 공통 명칭 DUKLA 도입(fkdukla.cz). 체코어 위키 연혁: 1953 ÚDA Praha → 1956 AS Dukla Praha. 1957-58 시즌은 AS Dukla Praha(Armádní středisko Dukla). 시대 문장 독립 파일을 찾지 못해 Commons 현행 로고(1853px)를 600px로 축소."
+  },
+  "wismut-karl-marx-stadt": {
+    "name": "SC 비스무트 카를마르크스슈타트",
+    "original": "SC WISMUT KARL-MARX-STADT",
+    "nameBreak": "카를마르크스|슈타트",
+    "country": "동독",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/de.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/wismut-karl-marx-stadt-1954.png",
+        "period": "SC 위스무트 존속기 1954-1963 문장",
+        "sources": [
+          "https://de.wikipedia.org/wiki/Datei:Logo_SC_Wismut_Karl-Marx-Stadt.gif",
+          "https://de.wikipedia.org/wiki/SC_Wismut_Karl-Marx-Stadt",
+          "https://commons.wikimedia.org/wiki/File:Scwismut.jpg"
+        ],
+        "selection": "era",
+        "license": "de.wikipedia Bild-LogoSH(보호 요건 미달 로고)"
+      }
+    ],
+    "review": "1954년 11월 창설·1963년 해체된 스포츠클럽의 문장(수갱탑·해머·W, 월계관, SC WISMUT). Commons에 같은 도안의 당시 자수 패치 사진(Scwismut.jpg). 원본 GIF를 무손실 PNG로 변환. 국기는 1959년 이전이라 문장 없는 흑적금. 한글 표기는 독일어 발음대로 비스무트(운영자 도판의 위스무트는 캡션에서 설명)."
+  },
+  "saint-etienne": {
+    "name": "AS 생테티엔",
+    "original": "AS SAINT-ÉTIENNE",
+    "country": "프랑스",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/fr.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/saint-etienne-1940.svg",
+        "period": "1940-1960(Logopedia), 프랑스어 위키: 1940년대 초 변경 뒤 1960년대 방패형으로 교체",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:AS_Saint-Etienne_(40er_Jahre).svg",
+          "https://logos.fandom.com/wiki/AS_Saint-%C3%89tienne",
+          "https://fr.wikipedia.org/wiki/Association_sportive_de_Saint-%C3%89tienne_Loire"
+        ],
+        "selection": "era",
+        "license": "Public domain (Commons 표기)"
+      }
+    ],
+    "review": "1957-58 국기·문장 대조. 겹친 원 네 개의 ASSE 도안."
+  },
+  "vasas": {
+    "name": "버셔시 SC",
+    "original": "VASAS SC",
+    "country": "헝가리",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/hu.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/vasas-1957.webp",
+        "period": "Vasas SC 명칭기(1957년 이후) 원형 VASAS SC 문장. Logopedia 표제 19??-1985(시작 연도 미상)",
+        "sources": [
+          "https://logos.fandom.com/wiki/Vasas_SC",
+          "https://hu.wikipedia.org/wiki/Vasas_SC_(labdar%C3%BAg%C3%A1s)",
+          "https://www.magyarfutball.hu/hu/csapat/7/cimerek"
+        ],
+        "selection": "best-available"
+      }
+    ],
+    "review": "헝가리어 위키 명칭 연혁: 1949-1957 Budapesti Vasas SC, 1957-1992 Vasas SC. 1957-58 경기(1957년 9월 이후)는 Vasas SC 명칭. Logopedia 1949-1957 BUDAPESTI VASAS 문장은 옛 명칭이라 배제. Logopedia 1957-19?? 항목은 에나멜 배지 사진이라 독립 문장 파일이 아님. magyarfutball.hu 문장 목록은 옛 도안의 연도를 ?로 둠. 235px로 작음."
+  },
+  "stade-dudelange": {
+    "name": "스타드 뒤들랑주",
+    "original": "STADE DUDELANGE",
+    "country": "룩셈부르크",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/lu.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/stade-dudelange-1913.png",
+        "period": "구단 존속기 1913-1991 문장(Commons 설명)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Stade_Dudelange.png",
+          "https://lb.wikipedia.org/wiki/Stade_Diddeleng"
+        ],
+        "selection": "best-available",
+        "license": "PD-textlogo (Commons)"
+      }
+    ],
+    "review": "1991년 F91 뒤들랑주로 합병 소멸한 구단의 유일한 확인 문장. Commons 설명 Logo of former club Stade Dudelange (1913 - 1991), 날짜 미상. 200px로 작음."
+  },
+  "ajax": {
+    "name": "AFC 아약스",
+    "original": "AFC AJAX",
+    "country": "네덜란드",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/nl.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/ajax-1928.svg",
+        "period": "1928-1991(2025년 복귀)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Logo_AFC_Ajax_(1928-1991,_2025-).svg",
+          "https://logos.fandom.com/wiki/AFC_Ajax",
+          "https://nl.wikipedia.org/wiki/AFC_Ajax",
+          "https://www.footylogos.com/logos/ajax"
+        ],
+        "selection": "era",
+        "license": "Public domain (Commons 표기)"
+      }
+    ],
+    "review": "네덜란드어 위키: 1928년 도입, 1991년 11선 도안으로 교체. FootyLogos 1911-1928·1991-2025 도안과 구분."
+  },
+  "glenavon": {
+    "name": "글레나본 FC",
+    "original": "GLENAVON FC",
+    "country": "북아일랜드",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/gb-nir-1953.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/glenavon-current.svg",
+        "period": "현행 문장(1957-58 당시 도안 미확보)",
+        "sources": [
+          "https://en.wikipedia.org/wiki/File:Glenavon_F.C._logo.svg"
+        ],
+        "selection": "current-fallback",
+        "license": "Fair use (en.wikipedia 표기)"
+      }
+    ],
+    "review": "Logopedia·Commons·FootyLogos에 과거 문장 없음. 국기는 1953-1972 얼스터 배너(에드워드 왕관)."
+  },
+  "benfica": {
+    "name": "SL 벤피카",
+    "original": "SL BENFICA",
+    "country": "포르투갈",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/pt.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/benfica-1930.png",
+        "period": "1930-1968(Logopedia)·1930-1999(포르투갈어 위키)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Emblema_Benfica_1930_(Sem_fundo).png",
+          "https://logos.fandom.com/wiki/Sport_Lisboa_e_Benfica",
+          "https://pt.wikipedia.org/wiki/Sport_Lisboa_e_Benfica"
+        ],
+        "selection": "era",
+        "license": "Public domain (Commons 표기)"
+      }
+    ],
+    "review": "독수리·E PLURIBUS UNUM·자전거 바퀴·S.L.B. 방패. 두 자료의 종료 연도 차이는 1957-58 판단에 영향 없음. Logopedia SVG(1.16MB)는 무거워 Commons PNG 400px 채택."
+  },
+  "shamrock-rovers": {
+    "name": "샴록 로버스 FC",
+    "original": "SHAMROCK ROVERS FC",
+    "country": "아일랜드",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/ie.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/shamrock-rovers-current.svg",
+        "period": "현행 문장(1957-58 당시 도안 미확보, 별 2개는 후대 추가)",
+        "sources": [
+          "https://en.wikipedia.org/wiki/File:Shamrock_Rovers_F.C._crest.svg",
+          "https://en.wikipedia.org/wiki/Shamrock_Rovers_F.C.",
+          "https://logos.fandom.com/wiki/Shamrock_Rovers"
+        ],
+        "selection": "current-fallback",
+        "license": "Fair use (en.wikipedia 표기)"
+      }
+    ],
+    "review": "영어 위키: 공과 샴록을 쓴 문장이 역사 내내 이어짐, 2005년 별 추가. Logopedia 최초 항목이 1970-1978이라 1957-58 도안 없음."
+  },
+  "cca-bucuresti": {
+    "name": "CCA 부쿠레슈티",
+    "original": "CCA BUCUREȘTI",
+    "country": "루마니아",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/ro-1952.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/cca-bucuresti-1950.webp",
+        "period": "1950-1961(Logopedia), 루마니아어 위키: 1950년 CCA 개칭과 함께 월계관 두른 붉은 별 CCA 문장, 1961년 말 Steaua 개칭",
+        "sources": [
+          "https://logos.fandom.com/wiki/FCSB",
+          "https://ro.wikipedia.org/wiki/FCSB"
+        ],
+        "selection": "era"
+      }
+    ],
+    "review": "Casa Centrală a Armatei. 원본 3706px를 600px WebP로 축소."
+  },
+  "young-boys": {
+    "name": "BSC 영 보이스",
+    "original": "BSC YOUNG BOYS",
+    "country": "스위스",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/ch.svg"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/young-boys-1957.svg",
+        "period": "1957-1971(Commons·독일어 위키·Logopedia)",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Young_Boys_Logo_1957_bis_1971.svg",
+          "https://de.wikipedia.org/wiki/BSC_Young_Boys",
+          "https://logos.fandom.com/wiki/BSC_Young_Boys"
+        ],
+        "selection": "best-available",
+        "license": "Public domain (Commons 표기)"
+      }
+    ],
+    "review": "경계가 1957년뿐이고 월 미상. 영 보이스의 1957-58 경기는 1957-11-20·11-30 두 경기뿐이라 연말 경기가 1957년 도안 쪽에 들 가능성이 높다고 판단(Commons 날짜 표기 spätestens 1957). 이전 1925-1957 도안은 File:Erstes_Logo_BSC_Young_Boys.svg."
+  },
+  "sevilla": {
+    "name": "세비야 FC",
+    "original": "SEVILLA FC",
+    "country": "스페인",
+    "flags": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/flags/es-1945.png"
+      }
+    ],
+    "crests": [
+      {
+        "seasons": [
+          "1957-58"
+        ],
+        "src": "/images/archive/teams/clubs/sevilla-1945.webp",
+        "period": "1945-1966(Logopedia)",
+        "sources": [
+          "https://logos.fandom.com/wiki/Sevilla_FC",
+          "https://es.wikipedia.org/wiki/Sevilla_F%C3%BAtbol_Club"
+        ],
+        "selection": "era"
+      }
+    ],
+    "review": "1921년 도안 계열(스페인어 위키). Logopedia 1945-1966 변형. 172×191px로 작음. 국기는 레알과 같은 1945-1977 민간기."
   }
 }

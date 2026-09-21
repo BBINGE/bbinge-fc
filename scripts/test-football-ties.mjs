@@ -222,4 +222,44 @@ assert(groupC.includes('<span class="cup-goal">에슈만 37분 43분 55분</span
 assert.equal((expandFootballTies('<div data-football-group="1955-58-inter-cities-fairs-cup:B"></div>').match(/cup-group-goals--home/g) ?? []).length, 5, '0-0 경기는 득점자 줄 없음');
 const fairsSource = readFileSync(new URL('../src/content/archive/1955-58-inter-cities-fairs-cup-semifinals-final.md', import.meta.url), 'utf8');
 assert.equal((fairsSource.match(/data-football-tie="1955-58-inter-cities-fairs-cup-semifinals-final:match-\d"/g) ?? []).length, 3);
-console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표');
+
+// 1957-58: 스물네 구단, 재경기 두 번(그중 하나는 동전 던지기), 세 번째 시즌 누적 횟수.
+const expected5758 = [[3,7],[4,3],[1,14],[3,0],[4,4],[3,1],[2,9],[6,6],[1,8],[3,4],[1,4],[2,3],[3,1],[4,2],[5,5],[1,6],[5,4],[10,2],[2,6],[2,5]];
+const winners5758 = ['버셔시 SC','레인저스 FC','FK 츠르베나 즈베즈다','오르후스 GF','SC 비스무트 카를마르크스슈타트','세비야 FC','맨체스터 유나이티드 FC','AC 밀란','레알 마드리드 CF','FK 츠르베나 즈베즈다','AFC 아약스','버셔시 SC','맨체스터 유나이티드 FC','세비야 FC','보루시아 도르트문트','AC 밀란','맨체스터 유나이티드 FC','레알 마드리드 CF','버셔시 SC','AC 밀란'];
+const ties5758=JSON.parse(readFileSync(new URL('../src/data/cup-ties/1957-58-european-cup.json',import.meta.url),'utf8'));
+for (let i = 0; i < 20; i++) {
+  const html = renderTie('1957-58-european-cup', `match-${i+1}`);
+  assert(html.includes(`<strong>${expected5758[i][0]}<i>:</i>${expected5758[i][1]}</strong>`), `1957-58 match-${i+1} aggregate`);
+  const nextStage = i < 8 ? '16강' : i < 16 ? '8강' : '4강';
+  assert(html.includes(`<dt>${nextStage} 진출</dt><dd>${winners5758[i]}</dd>`), `1957-58 match-${i+1} winner`);
+  assert.equal((html.match(/class="cup-club-crest"/g) ?? []).length, 2, `1957-58 match-${i+1} 로고 두 칸`);
+}
+const coin5758 = renderTie('1957-58-european-cup','match-5');
+assert(coin5758.includes('<dt>재경기</dt><dd>1 : 1 · 동전 던지기</dd>') && coin5758.includes('<small>동전 던지기로 결정</small>'), '재경기도 비기면 동전 던지기');
+assert(renderTie('1957-58-european-cup','match-8').includes('<dt>재경기</dt><dd>4 : 2</dd>'));
+assert(renderTie('1957-58-european-cup','match-15').includes('<dt>재경기</dt><dd>3 : 1</dd>'));
+assert.equal(Object.values(ties5758.ties).filter(tie => tie.playoff).length, 3);
+assert(renderResultTable('1957-58-european-cup','예선').includes('1-1 (동전)'));
+assert.equal(resolveClub('wismut-karl-marx-stadt','1957-58').name, 'SC 비스무트 카를마르크스슈타트');
+assert.equal(resolveClub('wismut-karl-marx-stadt','1957-58').flag.src, '/images/flags/de.svg', '1959년 이전 동독 국기는 문장 없는 흑적금');
+assert.equal(resolveClub('glenavon','1957-58').flag.src, '/images/flags/gb-nir-1953.svg');
+assert(renderTie('1957-58-european-cup','match-11').includes('<strong>SC 비스무트 카를마르크스<wbr>슈타트</strong>'), '긴 한 단어는 nameBreak 자리에서만 줄바꿈');
+assert.equal(resolveClub('shamrock-rovers','1957-58').flag.src, '/images/flags/ie.svg');
+assert.equal(resolveClub('stade-dudelange','1957-58').flag.src, '/images/flags/lu.svg', '도판의 체코 국기 오류를 따르지 않는다');
+const season5758=cupHistory.seasons.find(record=>record.season==='1957-58');
+assert.equal(season5758.entrants.length, 24);
+for (const [stage,key] of [['예선','preliminary-round'],['16강','round-of-16'],['8강','quarter-finals']]) {
+  const tieOrder=Object.values(ties5758.ties).filter(tie=>tie.stage===stage).flatMap(tie=>[tie.left,tie.right]);
+  assert.deepEqual(season5758.stages[key],tieOrder);
+}
+const count5758 = (stage, phrase) => (renderEuropeanCupMilestone('1957-58', stage).match(new RegExp(phrase, 'g')) ?? []).length;
+assert.deepEqual([count5758('competition','통산 세 번째 유러피언컵 출전'),count5758('competition','통산 두 번째 유러피언컵 출전'),count5758('competition','통산 첫 유러피언컵 출전')],[3,8,13]);
+assert.deepEqual([count5758('round-of-16','통산 세 번째 16강 진출'),count5758('round-of-16','통산 두 번째 16강 진출'),count5758('round-of-16','통산 첫 16강 진출')],[1,7,8]);
+assert.deepEqual([count5758('quarter-finals','통산 세 번째 8강 진출'),count5758('quarter-finals','통산 두 번째 8강 진출'),count5758('quarter-finals','통산 첫 8강 진출')],[1,3,4]);
+assert.deepEqual([count5758('semi-finals','통산 세 번째 4강 진출'),count5758('semi-finals','통산 두 번째 4강 진출'),count5758('semi-finals','통산 첫 4강 진출')],[1,2,1]);
+assert(renderEuropeanCupMilestone('1957-58', 'champions').includes('통산 세 번째 유러피언컵 우승'));
+assert(!renderEuropeanCupMilestone('1956-57', 'champions').includes('세 번째'), '앞 시즌 표는 뒤 시즌 기록에 영향받지 않는다');
+const source5758=readFileSync(new URL('../src/content/archive/1957-58-european-cup.md',import.meta.url),'utf8');
+assert.equal((source5758.match(/data-football-tie="1957-58-european-cup:/g)??[]).length,20);
+assert.equal((source5758.match(/data-football-results="1957-58-european-cup:/g)??[]).length,3);
+console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표, 1957-58 20개 합계·동전 던지기 1건·세 번째 시즌 누적');

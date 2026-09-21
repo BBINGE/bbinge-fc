@@ -59,6 +59,21 @@ export function resolveClub(id, season) {
   return { ...club, flag, crest: select('crests') };
 }
 
+// 대진 카드 팀명: 모바일 칸보다 긴 한 단어는 구단 데이터 nameBreak('카를마르크스|슈타트')의 자리에서만 줄을 바꿀 수 있게 한다.
+function cardName(club) {
+  const name = escape(club.name);
+  if (!club.nameBreak) return name;
+  const [head, tail] = club.nameBreak.split('|');
+  if (!head || !tail || !club.name.includes(head + tail)) throw new Error(`Invalid nameBreak: ${club.name}`);
+  return name.replace(escape(head + tail), `${escape(head)}<wbr>${escape(tail)}`);
+}
+
+// 진출 쪽: 재경기가 있으면 재경기 점수, 재경기도 비기면 동전 던지기 결과, 아니면 합계.
+function tieWinnerSide(tie, total) {
+  if (tie.playoff) return tie.playoff[0] === tie.playoff[1] ? (tie.coinToss === 'left' ? 0 : 1) : tie.playoff[0] > tie.playoff[1] ? 0 : 1;
+  return total[0] > total[1] ? 0 : 1;
+}
+
 export function renderTie(collection, id) {
   if (!/^[a-z0-9-]+$/.test(collection) || !/^match-\d+$/.test(id)) throw new Error('Invalid football tie key');
   const data = readJson(`src/data/cup-ties/${collection}.json`);
@@ -73,17 +88,21 @@ export function renderTie(collection, id) {
   const playoff = tie.playoff;
   if (level && !playoff) throw new Error(`Level aggregate needs a recorded replay: ${id}`);
   if (!level && playoff) throw new Error(`Replay recorded for a decided aggregate: ${id}`);
-  if (playoff && (playoff.length !== 2 || playoff.some(score => !Number.isInteger(score) || score < 0) || playoff[0] === playoff[1])) throw new Error(`Invalid replay result: ${id}`);
-  const winner = (playoff ? playoff[0] > playoff[1] : total[0] > total[1]) ? left : right;
+  // 재경기도 비기면 동전 던지기로 가렸다(1957-58 비스무트-그바르디아). coinToss에 이긴 쪽('left'·'right')을 적는다.
+  if (playoff && (playoff.length !== 2 || playoff.some(score => !Number.isInteger(score) || score < 0))) throw new Error(`Invalid replay result: ${id}`);
+  const coinToss = tie.coinToss;
+  if (playoff && playoff[0] === playoff[1] && !['left', 'right'].includes(coinToss)) throw new Error(`Level replay needs a coin toss result: ${id}`);
+  if (coinToss && !(playoff && playoff[0] === playoff[1])) throw new Error(`Coin toss recorded for a decided replay: ${id}`);
+  const winner = tieWinnerSide(tie, total) === 0 ? left : right;
   const image = (asset, cls, alt, width, height) => `<img class="${cls}" src="${escape(asset.src)}" alt="${escape(alt)}" width="${width}" height="${height}" loading="lazy" decoding="async" />`;
-  const team = club => `<div class="cup-side"><div class="cup-crest-slot"${club.crest ? '' : ' aria-hidden="true"'}>${club.crest ? image(club.crest, 'cup-club-crest', `${club.name} 로고`, 68, 68) : ''}</div><strong>${escape(club.name)}</strong><span class="cup-original">${escape(club.original)}</span><span class="cup-country"><span class="cup-flag-slot">${image(club.flag, 'cup-flag', `${club.country} 국기`, 24, 16)}</span>${escape(club.country)}</span></div>`;
+  const team = club => `<div class="cup-side"><div class="cup-crest-slot"${club.crest ? '' : ' aria-hidden="true"'}>${club.crest ? image(club.crest, 'cup-club-crest', `${club.name} 로고`, 68, 68) : ''}</div><strong>${cardName(club)}</strong><span class="cup-original">${escape(club.original)}</span><span class="cup-country"><span class="cup-flag-slot">${image(club.flag, 'cup-flag', `${club.country} 국기`, 24, 16)}</span>${escape(club.country)}</span></div>`;
   // 결승도 두 경기로 치른 대회(1955-58 페어스컵)는 진출 칸 대신 우승 칸을 둔다.
   const advanceLabel = { '예선': '16강 진출', '16강': '8강 진출', '8강': '4강 진출', '4강': '결승 진출', '결승': '우승' }[tie.stage];
   if (!advanceLabel) throw new Error(`Unsupported knockout stage: ${tie.stage}`);
   const competition = data.competition || '유러피언컵';
   const legFacts = tie.legs.map((leg, i) => `<div><dt>${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전</dt><dd>${leg[0]} : ${leg[1]}</dd></div>`).join('');
-  const facts = playoff ? `${legFacts}<div class="cup-replay"><dt>재경기</dt><dd>${playoff[0]} : ${playoff[1]}</dd></div>` : legFacts;
-  const aggregateNote = playoff ? '재경기로 결정' : '두 경기 결과';
+  const facts = playoff ? `${legFacts}<div class="cup-replay"><dt>재경기</dt><dd>${playoff[0]} : ${playoff[1]}${coinToss ? ' · 동전 던지기' : ''}</dd></div>` : legFacts;
+  const aggregateNote = coinToss ? '동전 던지기로 결정' : playoff ? '재경기로 결정' : '두 경기 결과';
   // 득점자 줄(페어스컵 4강·결승, 유러피언컵 4강 대진): 차전마다 [왼쪽, 오른쪽] 득점 목록. 'N분' 개수가 스코어와 맞지 않으면 빌드를 멈춘다.
   const goalRows = tie.goals ? [...tie.goals.map((goals, i) => [`${tie.stage === '4강' || tie.stage === '결승' ? `${tie.stage} ` : ''}${i + 1}차전`, goals, tie.legs[i]]), ...(playoff ? [['재경기', tie.playoffGoals, playoff]] : [])] : [];
   for (const [label, goals, score] of goalRows) {
@@ -110,9 +129,9 @@ export function renderResultTable(collection, stage) {
     const left = resolveClub(tie.left, data.season);
     const right = resolveClub(tie.right, data.season);
     const total = [0, 1].map(side => tie.legs.reduce((sum, leg) => sum + leg[side], 0));
-    const winner = (tie.playoff ? tie.playoff[0] > tie.playoff[1] : total[0] > total[1]) ? left : right;
+    const winner = tieWinnerSide(tie, total) === 0 ? left : right;
     const legs = tie.legs.map((leg, i) => `<td class="cup-result-score" data-label="${i + 1}차전">${leg[0]}-${leg[1]}</td>`).join('');
-    const replay = hasReplay ? `<td class="cup-result-score" data-label="재경기">${tie.playoff ? `${tie.playoff[0]}-${tie.playoff[1]}` : '<span class="cup-result-empty" aria-label="재경기 없음">·</span>'}</td>` : '';
+    const replay = hasReplay ? `<td class="cup-result-score" data-label="재경기">${tie.playoff ? `${tie.playoff[0]}-${tie.playoff[1]}${tie.coinToss ? ' (동전)' : ''}` : '<span class="cup-result-empty" aria-label="재경기 없음">·</span>'}</td>` : '';
     return `<tr><td class="cup-result-match">${team(left)}${team(right)}</td>${legs}${replay}<td class="cup-result-score cup-result-total" data-label="합계">${total[0]}-${total[1]}</td><td class="cup-result-winner" data-label="진출">${team(winner, false)}</td></tr>`;
   }).join('');
   const label = `${data.season} ${data.competition} ${stage} ${ties.length}개 대진 결과 표`;

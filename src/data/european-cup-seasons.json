@@ -101,6 +101,68 @@
         "champions": ["real-madrid"],
         "runners-up": ["fiorentina"]
       }
+    },
+    {
+      "season": "1957-58",
+      "competition": "유러피언컵",
+      "entrants": [
+        { "club": "rapid", "background": "1956-57 시즌 리그 우승" },
+        { "club": "royal-antwerp", "background": "1956-57 시즌 리그 우승" },
+        { "club": "cdna-sofia", "background": "1956년 리그 우승" },
+        { "club": "dukla-praha", "background": "1956년 리그 우승" },
+        { "club": "aarhus", "background": "1956-57 시즌 리그 우승" },
+        { "club": "wismut-karl-marx-stadt", "background": "1956년 리그 우승" },
+        { "club": "manchester-united", "background": "1956-57 시즌 리그 우승" },
+        { "club": "saint-etienne", "background": "1956-57 시즌 리그 우승" },
+        { "club": "vasas", "background": "1957년 봄 시즌 리그 우승" },
+        { "club": "milan", "background": "1956-57 시즌 세리에 A 우승" },
+        { "club": "stade-dudelange", "background": "1956-57 시즌 리그 우승" },
+        { "club": "ajax", "background": "1956-57 시즌 에레디비시 우승" },
+        { "club": "glenavon", "background": "1956-57 시즌 아이리시 리그 우승" },
+        { "club": "gwardia", "background": "폴란드 대표로 지명 · 1957년 리그 최종 2위" },
+        { "club": "benfica", "background": "1956-57 시즌 리그 우승" },
+        { "club": "shamrock-rovers", "background": "1956-57 시즌 리그 오브 아일랜드 우승" },
+        { "club": "cca-bucuresti", "background": "1956년 리그 우승" },
+        { "club": "norrkoping", "background": "1956-57 시즌 알스벤스칸 우승" },
+        { "club": "young-boys", "background": "1956-57 시즌 리그 우승" },
+        { "club": "rangers", "background": "1956-57 시즌 리그 우승" },
+        { "club": "borussia-dortmund", "background": "1957년 서독 전국 선수권 우승" },
+        { "club": "crvena-zvezda", "background": "1956-57 시즌 리그 우승" },
+        { "club": "real-madrid", "background": "1956-57 시즌 유러피언컵 우승 · 라리가 우승" },
+        { "club": "sevilla", "background": "1956-57 시즌 라리가 준우승 · 우승팀 레알이 디펜딩 챔피언으로 출전" }
+      ],
+      "stages": {
+        "preliminary-round": [
+          "cdna-sofia", "vasas",
+          "rangers", "saint-etienne",
+          "stade-dudelange", "crvena-zvezda",
+          "aarhus", "glenavon",
+          "gwardia", "wismut-karl-marx-stadt",
+          "sevilla", "benfica",
+          "shamrock-rovers", "manchester-united",
+          "milan", "rapid"
+        ],
+        "round-of-16": [
+          "royal-antwerp", "real-madrid",
+          "norrkoping", "crvena-zvezda",
+          "wismut-karl-marx-stadt", "ajax",
+          "young-boys", "vasas",
+          "manchester-united", "dukla-praha",
+          "sevilla", "aarhus",
+          "borussia-dortmund", "cca-bucuresti",
+          "rangers", "milan"
+        ],
+        "quarter-finals": [
+          "manchester-united", "crvena-zvezda",
+          "real-madrid", "sevilla",
+          "ajax", "vasas",
+          "borussia-dortmund", "milan"
+        ],
+        "semi-finals": ["real-madrid", "vasas", "manchester-united", "milan"],
+        "final": ["real-madrid", "milan"],
+        "champions": ["real-madrid"],
+        "runners-up": ["milan"]
+      }
     }
   ]
 }
