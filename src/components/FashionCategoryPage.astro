@@ -1,4 +1,5 @@
 ---
+import { formatKoreanDate } from '../utils/koreanDate';
 import type { CollectionEntry } from 'astro:content';
 import { getArticlePath } from '../config/categories';
 import { imageFocusStyle } from '../utils/imageFocus';
@@ -65,7 +66,7 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
         <span>{hallFor(lead) ? `${hallFor(lead)!.floor}F · ${hallFor(lead)!.label}` : 'LATEST ISSUE'}</span>
       </a>
       <div class="fashion-cover__copy">
-        <p>THE COVER STORY · {lead.data.pubDate.toLocaleDateString('ko-KR')}</p>
+        <p>THE COVER STORY · {formatKoreanDate(lead.data.pubDate)}</p>
         <h2 id="fashion-cover-title"><a href={getArticlePath(lead.data.category, lead.id)}>{lead.data.title}</a></h2>
         <span>{lead.data.description}</span>
         <a class="fashion-cover__cta" href={getArticlePath(lead.data.category, lead.id)}>

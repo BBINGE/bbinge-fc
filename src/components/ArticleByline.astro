@@ -1,11 +1,12 @@
 ---
+import { formatKoreanDate } from '../utils/koreanDate';
 interface Props {
   pubDate: Date;
   updatedDate?: Date;
 }
 
 const { pubDate, updatedDate } = Astro.props;
-const formatDate = (date: Date) => date.toLocaleDateString('ko-KR');
+const formatDate = (date: Date) => formatKoreanDate(date);
 ---
 
 <div class="article-byline" aria-label="글 작성 정보">

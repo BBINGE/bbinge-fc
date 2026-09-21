@@ -1,4 +1,5 @@
 ---
+import { koreanYear } from '../utils/koreanDate';
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -130,8 +131,8 @@ const articleSchema = article
       },
       publisher: { '@id': `${site.url}/#organization` },
       copyrightHolder: { '@id': `${site.url}/#author` },
-      copyrightYear: String(article.pubDate.getFullYear()),
-      copyrightNotice: `© ${article.pubDate.getFullYear()} ${site.authorName}(${site.author}). All rights reserved.`,
+      copyrightYear: String(koreanYear(article.pubDate)),
+      copyrightNotice: `© ${koreanYear(article.pubDate)} ${site.authorName}(${site.author}). All rights reserved.`,
       ...(article.priorPublication
         ? {
             isBasedOn: {
@@ -221,7 +222,7 @@ const authorSchema = {
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="author" content={`${site.authorName}(${site.author})`} />
-    <meta name="copyright" content={`© ${article?.pubDate.getFullYear() ?? new Date().getFullYear()} ${site.authorName}(${site.author}) · ${site.name}`} />
+    <meta name="copyright" content={`© ${article ? koreanYear(article.pubDate) : koreanYear()} ${site.authorName}(${site.author}) · ${site.name}`} />
     <meta name="robots" content={robots} />
     <meta name="naver-site-verification" content="d6fb2830beb60655dc0db5fb92eae1fe8b1cf6be" />
     {adsEligible && <meta name="google-adsense-account" content="ca-pub-7649211764099932" />}

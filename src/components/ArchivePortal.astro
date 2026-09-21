@@ -1,4 +1,5 @@
 ---
+import { formatKoreanDate } from '../utils/koreanDate';
 import type { CollectionEntry } from 'astro:content';
 import { archiveHalls, archiveHallFor, type ArchiveHallId } from '../config/archiveHalls';
 import { archiveBranches } from '../data/archive';
@@ -24,7 +25,7 @@ const groups = archiveBranches.flatMap(branch => branch.indexes.map(index => ({b
       const latest=entries[0];
       return <article class:list={['archive-entrance',`archive-tone--${h.id}`]}>
         <a class="archive-entrance__head" href={h.href}><span>{h.en}</span><h2>{h.title}<i aria-hidden="true">↗</i></h2><p>{h.description}</p><b>{String(entries.length).padStart(2,'0')} RECORDS</b></a>
-        {latest ? <a class="archive-entrance__latest" href={href(latest)}><img src={latest.data.coverImage} alt="" width="160" height="160" /><div><small>최근 입고</small><strong>{latest.data.subject}</strong><span>{latest.data.pubDate.toLocaleDateString('ko-KR')}</span></div><i aria-hidden="true">→</i></a> : <div class="archive-entrance__empty">첫 시상 기록을 준비하고 있습니다.</div>}
+        {latest ? <a class="archive-entrance__latest" href={href(latest)}><img src={latest.data.coverImage} alt="" width="160" height="160" /><div><small>최근 입고</small><strong>{latest.data.subject}</strong><span>{formatKoreanDate(latest.data.pubDate)}</span></div><i aria-hidden="true">→</i></a> : <div class="archive-entrance__empty">첫 시상 기록을 준비하고 있습니다.</div>}
       </article>;
     })}
   </section>}

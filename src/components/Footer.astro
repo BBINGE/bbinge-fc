@@ -1,4 +1,5 @@
 ---
+import { koreanYear } from '../utils/koreanDate';
 import { site } from '../config/site';
 ---
 
@@ -33,7 +34,7 @@ import { site } from '../config/site';
       <nav class="footer-policy-links flex flex-wrap gap-x-4 gap-y-2 text-[13px] text-[var(--bbfc-gray-2)]" aria-label="정책 안내">
         <a href="/privacy/">개인정보처리방침</a><a href="/terms/">이용약관</a><button type="button" data-privacy-settings>개인정보 선택 설정</button><a href={`mailto:${site.email}`}>{site.email}</a>
       </nav>
-      <p class="text-[12px] text-[var(--bbfc-gray-2)]">© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
+      <p class="text-[12px] text-[var(--bbfc-gray-2)]">© {koreanYear()} {site.name}. All rights reserved.</p>
     </div>
   </div>
 </footer>

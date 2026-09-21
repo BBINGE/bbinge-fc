@@ -1,4 +1,5 @@
 ---
+import { formatKoreanDate } from '../../utils/koreanDate';
 // 정적 사이트 원칙에 맞춰 백엔드 없이, 발행된 모든 보유 자산의 메타데이터와 본문을
 // 빌드 타임에 색인한다. draft는 애초에 제외한다.
 import Layout from '../../layouts/Layout.astro';
@@ -29,7 +30,7 @@ const articleRecords = entries.map((entry) => ({
   context: [categories[entry.data.category]?.fullLabel ?? '', searchableBody(entry.body)].join(' '),
   href: getArticlePath(entry.data.category, entry.id),
   categoryLabel: categories[entry.data.category]?.label ?? '',
-  pubDate: entry.data.pubDate.toLocaleDateString('ko-KR'),
+  pubDate: formatKoreanDate(entry.data.pubDate),
   image: entry.data.cardImage ?? entry.data.coverImage ?? '',
   imageAlt: entry.data.coverImageAlt ?? '',
   topicKeys: getAncestorChain(entry.data.category).map((category) => `category:${category.slug}`),

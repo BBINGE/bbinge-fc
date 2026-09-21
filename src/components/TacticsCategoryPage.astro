@@ -1,4 +1,5 @@
 ---
+import { koreanYear } from '../utils/koreanDate';
 import type { CollectionEntry } from 'astro:content';
 import { imageFocusStyle } from '../utils/imageFocus';
 import { getArticlePath } from '../config/categories';
@@ -10,7 +11,7 @@ const { entries, description } = Astro.props;
 const [lead, ...archive] = entries;
 const hrefFor = (entry: CollectionEntry<'articles'>) => getArticlePath(entry.data.category, entry.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
-const publishedDate = (entry: CollectionEntry<'articles'>) => new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(entry.data.pubDate);
+const publishedDate = (entry: CollectionEntry<'articles'>) => new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(entry.data.pubDate);
 
 const profiles: Record<string, ArticleProfile> = {
   'football-manager-change-effect-before-tactics': { eyebrow: '감독과 팀', period: '2011—2024', hook: '경질 직후의 반등은 감독의 효과일까, 아니면 곧 제자리로 돌아갈 숫자의 흔들림일까.' },
@@ -21,7 +22,7 @@ const profiles: Record<string, ArticleProfile> = {
   'andrea-pirlo-coverciano-thesis-il-calcio-che-vorrei': { eyebrow: '코베르차노 논문', period: '2001—2026', hook: '레지스타는 논문에서 센터백과 풀백으로 흩어졌으나, 그들을 레지스타로 만드는 길은 적히지 않았다.' },
   'hungary-golden-team-total-football-elo-rating': { eyebrow: '다뉴브의 계보', period: '1920s—1954', hook: '매직 마자르의 유동성은 여러 시대를 건너온 사상이 쌓여 만들어졌다.' },
 };
-const profileFor = (entry: CollectionEntry<'articles'>): ArticleProfile => profiles[entry.id] ?? { eyebrow: (entry.data.tags ?? [])[0] ?? '전술과 아이디어', period: entry.data.pubDate.getFullYear().toString(), hook: entry.data.description };
+const profileFor = (entry: CollectionEntry<'articles'>): ArticleProfile => profiles[entry.id] ?? { eyebrow: (entry.data.tags ?? [])[0] ?? '전술과 아이디어', period: koreanYear(entry.data.pubDate).toString(), hook: entry.data.description };
 const leadProfile = lead ? profileFor(lead) : undefined;
 ---
 

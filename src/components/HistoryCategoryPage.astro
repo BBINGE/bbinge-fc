@@ -12,6 +12,7 @@ const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ??
 const previewTitleFor = (entry: CollectionEntry<'articles'>) => entry.data.previewUseOriginalTitle ? entry.data.title : (entry.data.previewTitle ?? entry.data.title);
 const previewDescriptionFor = (entry: CollectionEntry<'articles'>) => entry.data.previewDescription ?? entry.data.description;
 const dateFor = (entry: CollectionEntry<'articles'>) => new Intl.DateTimeFormat('ko-KR', {
+  timeZone: 'Asia/Seoul',
   year: 'numeric',
   month: '2-digit',
   day: '2-digit',

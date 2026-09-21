@@ -1,4 +1,5 @@
 ---
+import { formatKoreanDate } from '../utils/koreanDate';
 // 정사각(1:1) 카드 피드. 모바일 2열 → 태블릿 3열 → 데스크톱 4열.
 // cardImage가 있으면 정사각 전용 편집물을 쓰고, 일반 사진은 coverImage를 자연스럽게 중앙 크롭한다.
 // N개마다 인피드 광고(AdSlot square)를 같은 크기의 카드 한 칸으로 끼워 넣는다.
@@ -34,7 +35,7 @@ const { entries, adEvery = 8, emptyMessage = '아직 등록된 글이 없어요.
           </div>
           <div class="flex items-center justify-between gap-2 mt-2.5 text-[12px] md:text-[12px]">
             <p class="min-w-0 truncate text-[var(--bbfc-blue)]">{categories[entry.data.category]?.label}</p>
-            <time class="shrink-0 text-[var(--bbfc-gray-2)]" datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('ko-KR')}</time>
+            <time class="shrink-0 text-[var(--bbfc-gray-2)]" datetime={entry.data.pubDate.toISOString()}>{formatKoreanDate(entry.data.pubDate)}</time>
           </div>
           <p class="text-[13px] md:text-[13.5px] font-medium text-[var(--bbfc-ink)] mt-1 leading-snug line-clamp-2">
             {entry.data.title}
