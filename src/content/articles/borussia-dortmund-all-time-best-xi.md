@@ -203,7 +203,7 @@ featured: true
 
 로만 바이덴펠러, 볼프강 파울, 네벤 수보티치, 우카시 피슈체크, 제바스티안 켈, 누리 샤힌, 야쿠프 브와슈치코프스키, 로타어 에메리히, 지크프리트 헬트, 슈테판 샤퓌자. 이 이름들만으로도 전혀 다른 베스트 11을 만들 수 있다. 3군에는 귄도안, 가가와, 괴체, 레반도프스키, 피에르에므리크 오바므양, 홀란까지 내려간다.
 
-좋은 역대 베스트 11은 논쟁을 끝내는 명단이 아니다. 한 구단의 기억이 얼마나 두꺼운지 보여주고, 독자가 자기 열한 명을 다시 고르게 만드는 명단이다. 아래 네 장은 표제, 포메이션, 2군, 3군이다.
+3군에 적힌 이름들은 대부분 도르트문트를 떠나 다른 구단의 주전이 되었다. 가가와는 맨체스터 유나이티드로, 괴체와 레반도프스키는 FC 바이에른 뮌헨으로, 귄도안과 홀란은 맨체스터 시티로, 오바므양은 아스널로 갔다. 이 구단의 3군은 유럽 빅클럽들의 선발 명단에서 다시 만난다. 아래 네 장은 표제, 포메이션, 2군, 3군이다.
 
 <figure class="dortmund-final-sequence"> <img src="/images/squads/borussia-dortmund-all-time-best-xi/final-header.webp" alt="보루시아 도르트문트 역대 베스트 11 표제 편집물" loading="lazy" width="966" height="322" /> <img src="/images/squads/borussia-dortmund-all-time-best-xi/formation.webp" alt="클로스, 자머, 콜러, 후멜스, 데데, 로이터, 초르크, 묄러, 리켄, 로이스, 프라이슬러로 구성한 보루시아 도르트문트 역대 베스트 11 포메이션" loading="lazy" width="966" height="966" /> <img src="/images/squads/borussia-dortmund-all-time-best-xi/second-team.webp" alt="보루시아 도르트문트 역대 베스트 11 2군 명단 편집물" loading="lazy" width="900" height="1825" /> <img src="/images/squads/borussia-dortmund-all-time-best-xi/third-team.webp" alt="보루시아 도르트문트 역대 베스트 11 3군과 후보 명단 편집물" loading="lazy" width="900" height="2780" /> <figcaption>표제부터 포메이션, 2군과 3군까지 검정·노랑·금색으로 이어지는 박성호(삥이)의 연속 편집 디자인.</figcaption> </figure>
 
