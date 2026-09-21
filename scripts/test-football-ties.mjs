@@ -196,6 +196,21 @@ const semiSource5657 = readFileSync(new URL('../src/content/archive/1956-57-euro
 assert.equal((semiSource5657.match(/data-football-tie="1956-57-european-cup-semifinals:/g) ?? []).length, 2);
 assert.equal((semiSource5657.match(/data-european-cup-milestone="1956-57:semi-finals"/g) ?? []).length, 1);
 assert(!semiSource5657.includes('ACF 피오렌티나 |') && !semiSource5657.includes('스타디온 파르티자나,'), '표·헤더는 당시 명칭');
+// 1957-58 4강: 합계·결승 진출, 득점자 줄, 레알 세 번째·맨유 두 번째·밀란 두 번째·버셔시 첫 4강.
+for (const [id, total, winner] of [['match-1','4<i>:</i>2','레알 마드리드 CF'], ['match-2','2<i>:</i>5','AC 밀란']]) {
+  const html = renderTie('1957-58-european-cup-semifinals', id);
+  assert(html.includes('<strong>' + total + '</strong>'), '1957-58 4강 ' + id + ' 합계');
+  assert(html.includes('<dt>결승 진출</dt><dd>' + winner + '</dd>'), '1957-58 4강 ' + id + ' 결승 진출');
+  assert(!html.includes('재경기'));
+}
+assert(renderTie('1957-58-european-cup-semifinals','match-1').includes('<span class="cup-goal">디스테파노 9분 42분(PK) 50분</span>'), '1957-58 4강 카드 득점자');
+assert(renderTie('1957-58-european-cup-semifinals','match-2').includes('<span class="cup-goal">E. 테일러 80분(PK)</span>'));
+const semis5758 = renderEuropeanCupMilestone('1957-58', 'semi-finals');
+assert.deepEqual([(semis5758.match(/통산 세 번째 4강 진출/g) ?? []).length, (semis5758.match(/통산 두 번째 4강 진출/g) ?? []).length, (semis5758.match(/통산 첫 4강 진출/g) ?? []).length], [1, 2, 1]);
+const semiSource5758 = readFileSync(new URL('../src/content/archive/1957-58-european-cup-semifinals.md', import.meta.url), 'utf8');
+assert.equal((semiSource5758.match(/data-football-tie="1957-58-european-cup-semifinals:/g) ?? []).length, 2);
+assert.equal((semiSource5758.match(/data-european-cup-milestone="1957-58:semi-finals"/g) ?? []).length, 1);
+assert(semiSource5758.includes('| 4강 2차전 | 1958.04.16 | 버셔시 SC'), '버셔시-레알 2차전은 4월 16일 부다페스트(도판의 산 시로 표기를 따르지 않는다)');
 // 1956-57 결승 H/L: 레알 두 번째 결승·우승, 피오렌티나 첫 결승·준우승, 원고 자리표시.
 const final5657 = renderEuropeanCupMilestone('1956-57', 'final');
 assert.equal((final5657.match(/class="cup-entrant-club"/g) ?? []).length, 2);
@@ -262,4 +277,4 @@ assert(!renderEuropeanCupMilestone('1956-57', 'champions').includes('세 번째'
 const source5758=readFileSync(new URL('../src/content/archive/1957-58-european-cup.md',import.meta.url),'utf8');
 assert.equal((source5758.match(/data-football-tie="1957-58-european-cup:/g)??[]).length,20);
 assert.equal((source5758.match(/data-football-results="1957-58-european-cup:/g)??[]).length,3);
-console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표, 1957-58 20개 합계·동전 던지기 1건·세 번째 시즌 누적');
+console.log('대진·누적 기록 검수 통과: 1955-56 12개·1956-57 18개 합계, 재경기 3건, 대회/16강/8강/4강 횟수·시즌 자산·원고 분리, 1955-56 득점 순위 9명, 1956-57 4강 2개·결승 누적 3표, 1957-58 20개 합계·동전 던지기 1건·세 번째 시즌 누적·4강 2개');

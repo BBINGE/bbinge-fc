@@ -196,7 +196,7 @@ BSC 영 보이스<span class="foreign-note" lang="de">(Berner Sport Club Young B
 
 <div data-football-tie="1957-58-european-cup:match-19"></div>
 
-아약스는 2월 5일 암스테르담에서 피터르 아우더를란트<span class="foreign-note" lang="nl">(Pieter Ouderland; 네덜란드 공격수)</span>의 두 골로 전반을 2-0으로 마쳤다. 버셔시는 후반 분작 데죄<span class="foreign-note" lang="hu">(Bundzsák Dezső; 헝가리 미드필더, 1928-2010)</span>의 두 골로 따라잡았다. 2월 26일 네프슈터디온의 2차전에는 7만 명이 모였다. 버셔시는 39분까지 네 골을 넣었고, 아약스는 한 골도 넣지 못했다. 혁명 이듬해의 헝가리 챔피언이 4강까지 올랐다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a>, <a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
+아약스는 2월 5일 암스테르담에서 피터르 아우더를란트<span class="foreign-note" lang="nl">(Pieter Ouderland; 네덜란드 공격수)</span>의 두 골로 전반을 2-0으로 마쳤다. 버셔시는 후반 분자크 데죄<span class="foreign-note" lang="hu">(Bundzsák Dezső; 헝가리 미드필더, 1928-2010)</span>의 두 골로 따라잡았다. 2월 26일 네프슈터디온의 2차전에는 7만 명이 모였다. 버셔시는 39분까지 네 골을 넣었고, 아약스는 한 골도 넣지 못했다. 혁명 이듬해의 헝가리 챔피언이 4강까지 올랐다. <a class="cite" href="#source-1" aria-label="출처 1">[1]</a>, <a class="cite" href="#source-12" aria-label="출처 12">[12]</a>
 
 <div data-football-tie="1957-58-european-cup:match-20"></div>
 
