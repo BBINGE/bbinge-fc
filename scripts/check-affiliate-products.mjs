@@ -23,53 +23,6 @@ async function fetchWithTimeout(url, options = {}) {
   }
 }
 
-function affiliateTerminalResult(product, response, finalUrl, hops) {
-  const status = response.status;
-  if (status === 404 || status === 410) {
-    return { status: 'alert', httpStatus: status, finalUrl, hops, issues: [issue('affiliate-link-dead', '제휴 링크 응답 오류', `리디렉션 도중 HTTP ${status}를 반환했습니다: ${finalUrl}`)] };
-  }
-  let parsed;
-  try { parsed = new URL(finalUrl); } catch {}
-  const reachedExpectedProduct = parsed?.hostname === product.merchantHost
-    && finalUrl.toLocaleLowerCase().includes(product.productCode.toLocaleLowerCase());
-  if (reachedExpectedProduct && (status < 400 || status === 403 || status === 429)) {
-    return { status: 'healthy', httpStatus: status, finalUrl, hops, blockedAtMerchant: status === 403 || status === 429 };
-  }
-  if (status === 403 || status === 429) {
-    return {
-      status: 'warning', httpStatus: status, finalUrl, hops,
-      issues: [issue('affiliate-chain-unverified', '제휴 이동 경로 자동 확인 제한', `리디렉션 도중 ${new URL(finalUrl).hostname}이 HTTP ${status}로 자동 확인을 막았습니다.`, 'warning')],
-    };
-  }
-  return {
-    status: 'alert', httpStatus: status, finalUrl, hops,
-    issues: [issue('affiliate-destination-changed', '제휴 링크 목적지 변경', `상품 코드 ${product.productCode}가 있는 ${product.merchantHost} 페이지에 도착하지 못했습니다: ${finalUrl} (HTTP ${status})`)],
-  };
-}
-
-async function checkAffiliate(product) {
-  let currentUrl = product.affiliateUrl;
-  const hops = [];
-  try {
-    for (let index = 0; index < 8; index += 1) {
-      const response = await fetchWithTimeout(currentUrl, { method: 'HEAD', redirect: 'manual' });
-      const location = response.headers.get('location');
-      hops.push({ url: currentUrl, httpStatus: response.status, location });
-      if (response.status >= 300 && response.status < 400 && location) {
-        currentUrl = new URL(location, currentUrl).href;
-        continue;
-      }
-      return affiliateTerminalResult(product, response, currentUrl, hops);
-    }
-    return { status: 'alert', hops, issues: [issue('affiliate-too-many-redirects', '제휴 링크 리디렉션 과다', 'HEAD 리디렉션이 8회를 넘었습니다.')] };
-  } catch (error) {
-    return {
-      status: 'warning', hops,
-      issues: [issue('affiliate-link-unverified', '제휴 링크 자동 확인 제한', `HEAD 확인 실패: ${error.name === 'AbortError' ? '시간 초과' : error.message}`, 'warning')],
-    };
-  }
-}
-
 function contextContainsMarker(text, product) {
   const normalized = text.replace(/\s+/g, ' ');
   const lowered = normalized.toLocaleLowerCase('ko');
@@ -103,11 +56,36 @@ function evaluateMerchant(product, status, finalUrl, text, source) {
   return { status: issues.length ? 'alert' : 'healthy', httpStatus: status, finalUrl, source, issues };
 }
 
+async function checkMerchantHead(product) {
+  try {
+    const response = await fetchWithTimeout(product.merchantUrl, { method: 'HEAD', redirect: 'follow' });
+    const status = response.status;
+    if (status === 404 || status === 410) {
+      return { status: 'alert', httpStatus: status, finalUrl: response.url, source: 'head', issues: [issue('merchant-page-dead', '상품 페이지 응답 오류', `공식 상품 페이지가 HTTP ${status}를 반환했습니다.`)] };
+    }
+    if (status >= 400) return null;
+    let parsed;
+    try { parsed = new URL(response.url); } catch {}
+    const reachedProduct = parsed?.hostname === product.merchantHost
+      && response.url.toLocaleLowerCase().includes(product.productCode.toLocaleLowerCase());
+    if (!reachedProduct) {
+      return { status: 'alert', httpStatus: status, finalUrl: response.url, source: 'head', issues: [issue('merchant-host-changed', '상품 페이지 목적지 변경', `상품 코드 ${product.productCode}가 있는 ${product.merchantHost} 페이지가 아닌 곳으로 이동했습니다: ${response.url}`)] };
+    }
+    return { status: 'healthy', httpStatus: status, finalUrl: response.url, source: 'head', bodyUnverified: true, issues: [] };
+  } catch {
+    return null;
+  }
+}
+
 async function checkMerchantHttp(product) {
   try {
     const response = await fetchWithTimeout(product.merchantUrl, { redirect: 'follow' });
     const text = (await response.text()).slice(0, 2_000_000);
-    return evaluateMerchant(product, response.status, response.url, text, 'http');
+    const result = evaluateMerchant(product, response.status, response.url, text, 'http');
+    if (result.status !== 'needs-browser') return result;
+    // 아디다스는 본문 GET을 403으로 막지만 HEAD에는 답한다. 페이지 소멸·목적지 변경은 HEAD로 잡는다.
+    const head = await checkMerchantHead(product);
+    return head ?? result;
   } catch (error) {
     return { status: 'needs-browser', source: 'http', reason: error.name === 'AbortError' ? 'HTTP 확인 시간 초과' : error.message, issues: [] };
   }
@@ -148,18 +126,18 @@ function blockedMerchantWarning(host, detail) {
   };
 }
 
+// 애드픽 단축 주소(affiliateUrl)는 자동으로 열지 않는다. 스크립트 요청도 애드픽 클릭으로 집계되고,
+// 데이터센터 IP의 정기 반복 클릭은 부정 클릭으로 보일 수 있다(운영자 결정, 2026-09-21).
+// 품절·404·목적지 변경은 판매처 상품 주소만으로 잡는다.
 async function checkProduct(product, references, checkWithBrowser) {
-  const affiliate = await checkAffiliate(product);
-
   let merchant = await checkMerchantHttp(product);
   if (merchant.status === 'needs-browser') merchant = await checkWithBrowser(product);
-  const issues = [...(affiliate.issues ?? []), ...(merchant.issues ?? [])];
+  const issues = [...(merchant.issues ?? [])];
   return {
     id: product.id,
     label: product.label,
     productCode: product.productCode,
     articleReferences: references.filter((reference) => reference.id === product.id).map(({ file, line, href }) => ({ file, line, href })),
-    affiliate,
     merchant,
     status: issues.some((item) => item.severity === 'error') ? 'alert' : issues.length ? 'warning' : 'healthy',
     issues,
