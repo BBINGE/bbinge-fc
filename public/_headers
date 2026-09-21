@@ -1,0 +1,21 @@
+# Cloudflare Pages 응답 헤더(운영자 승인, 2026-09-22 속도 개선 A안).
+# 폰트와 빌드 해시가 붙은 파일은 바뀌지 않으므로 1년 캐시한다.
+# 폰트 파일을 교체할 때는 파일명(경로)을 바꿔야 재방문자에게 반영된다.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 이미지·영상은 같은 경로로 교체될 수 있어 하루 캐시하고, 이후 일주일은 옛 사본을 보여 주며 뒤에서 새로 확인한다.
+/images/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/media/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/_home-images/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/_article-images/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
