@@ -10,7 +10,8 @@ const homePath = join(distRoot, 'index.html');
 const outputRoot = join(distRoot, '_home-images');
 const supportedExtensions = new Set(['.jpg', '.jpeg', '.png', '.webp']);
 const widths = [320, 640, 960];
-const minimumSourceBytes = 96 * 1024;
+// 카드 칸은 320px이라 40KB 넘는 원본부터 폭별 사본을 만든다(2026-09-22 실측: 70KB 900px 카드가 모바일 LCP 6초).
+const minimumSourceBytes = 40 * 1024;
 
 if (!existsSync(homePath)) {
   throw new Error('dist/index.html이 없습니다. Astro 빌드 뒤 실행하세요.');
