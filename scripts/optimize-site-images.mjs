@@ -83,11 +83,41 @@ async function encode(src, width, key) {
 }
 
 await mkdir(outputRoot, { recursive: true });
-const stats = { icons: 0, photos: 0, backgrounds: 0, files: 0 };
+const stats = { icons: 0, photos: 0, backgrounds: 0, animations: 0, files: 0 };
+
+// 4) 200KB 넘는 움짤(GIF): 같은 크기·프레임·재생 시간의 움직이는 WebP(품질 90)를 만들고 <picture>로 묶어
+//    WebP를 못 읽는 옛 브라우저에는 원본 GIF가 그대로 나가게 한다. 원본 GIF와 <img> 태그는 바꾸지 않는다.
+const gifMinBytes = 200 * 1024;
+const animated = new Map();
+function animatedWebp(pathname) {
+  if (!animated.has(pathname)) animated.set(pathname, (async () => {
+    const file = join(distRoot, decodeURI(pathname).replace(/^\//, ''));
+    if (!existsSync(file)) return null;
+    const buffer = await readFile(file);
+    if (buffer.length < gifMinBytes) return null;
+    const meta = await sharp(buffer, { animated: true }).metadata();
+    const out = await sharp(buffer, { animated: true }).webp({ quality: 90, effort: 4, loop: meta.loop ?? 0 }).toBuffer();
+    const check = await sharp(out, { animated: true }).metadata();
+    const total = list => (list ?? []).reduce((a, b) => a + b, 0);
+    // 크기·재생 시간이 원본과 다르면 쓰지 않는다(움직임이 달라지면 안 된다).
+    if (out.length >= buffer.length || check.width !== meta.width || check.pageHeight !== meta.pageHeight || total(check.delay) !== total(meta.delay)) return null;
+    const stem = basename(decodeURI(pathname), '.gif').replace(/[^a-z0-9-]+/gi, '-').toLowerCase().slice(0, 60);
+    const key = `${stem}.${createHash('sha1').update(buffer).digest('hex').slice(0, 12)}-anim`;
+    await writeFile(join(outputRoot, `${key}.webp`), out);
+    madeBytes += out.length;
+    stats.animations += 1;
+    return `/${outputDir}/${key}.webp`;
+  })());
+  return animated.get(pathname);
+}
 
 async function rewriteImgTag(tag) {
   const src = tag.match(/\ssrc="(\/[^"?#]+)"/)?.[1];
   if (!src || tag.includes(' srcset=')) return tag;
+  if (extname(src).toLowerCase() === '.gif') {
+    const webpUrl = await animatedWebp(src);
+    return webpUrl ? `<picture><source srcset="${webpUrl}" type="image/webp">${tag}</picture>` : tag;
+  }
   const ext = extname(src).toLowerCase();
   if (!rasterExtensions.has(ext)) return tag;
   const source = await info(src);
@@ -152,5 +182,5 @@ for (const file of await walk(distRoot, name => name.endsWith('.html') || name.e
 }
 
 const usedSources = (await Promise.all(sourceInfo.values())).filter(Boolean);
-console.log(`사이트 이미지 최적화 완료: ${stats.files}개 파일 · 아이콘 ${stats.icons} · 사진 ${stats.photos} · 배경 ${stats.backgrounds} (태그·선언 기준)`);
+console.log(`사이트 이미지 최적화 완료: ${stats.files}개 파일 · 아이콘 ${stats.icons} · 사진 ${stats.photos} · 배경 ${stats.backgrounds} · 움짤 ${stats.animations} (태그·선언 기준)`);
 console.log(`검토한 원본 ${usedSources.length}개 ${Math.round(usedSources.reduce((a, s) => a + s.bytes, 0) / 1048576)}MB · 만든 WebP ${made.size}개 ${Math.round(madeBytes / 1048576)}MB`);
