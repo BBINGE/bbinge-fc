@@ -137,7 +137,7 @@ featured: true
 
 1988년 5월 18일, 합계 2-3으로 뒤진 후반 36분. 크리스티안 슈라이어가 왼쪽에서 올린 공을 차범근이 수비수 사이에서 머리로 돌려놓았다. 연장전의 골이 아니었고 그 한 골로 즉시 우승한 것도 아니었다. 그러나 0-3의 절벽을 3-3으로 바꿔 승부차기까지 데려간 마지막 골이었다. 차범근은 훗날 “내 인생에서 가장 중요한 골”이라고 했다. 과장하지 않은 정확한 시각과 점수만으로도 한국 축구사의 한 장면이다.
 
-현대의 팀에 데려오면 차범근은 고정된 9번보다 오른쪽을 함께 쓰는 전방 공격수가 된다. 슈나이더가 공을 잡을 때 바깥에서 안으로 달리고, 비르츠가 돌아서면 센터백과 풀백 사이를 먼저 친다. 강한 전방 압박과 전환 질주까지 감당할 몸도 있었다. 한국 팬에게는 썸네일의 얼굴이지만, 선정의 논리는 국적이 아니다. 레버쿠젠의 첫 유럽 우승을 가능하게 한 결정력과 공격의 폭이 표를 얻었다.
+현대의 팀에 데려오면 차범근은 고정된 9번보다 오른쪽을 함께 쓰는 전방 공격수가 된다. 슈나이더가 공을 잡을 때 바깥에서 안으로 달리고, 비르츠가 돌아서면 센터백과 풀백 사이를 먼저 친다. 강한 전방 압박과 전환 질주까지 감당할 몸도 있었다. 레버쿠젠이 유럽에서 처음 우승하던 밤의 마지막 골이 그의 머리에서 나왔다. 이 자리의 근거는 그 한 장면과 그것을 만들어 낸 결정력, 그리고 공격의 폭이다.
 
 ## 11. 울프 키르스텐 - 센터 포워드
 
@@ -155,7 +155,7 @@ featured: true
 
 1988년의 유럽 우승팀, 2001-02시즌의 세 준우승팀, 2023-24시즌의 무패 챔피언을 하나의 전술에 그대로 가둘 수는 없다. 이 포메이션이 보여주는 것은 가상의 경기 결과보다 레버쿠젠 120여 년을 관통한 역할의 계보다. 낮은 골문 수비, 전진하는 센터백, 공수의 경계를 넘는 미드필더, 공간 해석가, 서로 다른 두 종류의 해결사가 검정과 빨강 안에서 서로의 시대를 이어받았다.
 
-<figure class="leverkusen-final-sequence"> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/final-header.webp" alt="바이어 04 레버쿠젠 역대 베스트 11 표제" loading="lazy" width="966" height="322" /> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/formation.webp" alt="3-4-1-2 대형으로 배치한 바이어 04 레버쿠젠 역대 베스트 11" loading="lazy" width="966" height="966" /> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/second-team.webp" alt="바이어 04 레버쿠젠 역대 베스트 11 2군 명단 편집물" loading="lazy" width="900" height="1792" /> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/third-team.webp" alt="바이어 04 레버쿠젠 역대 베스트 11 3군과 주요 후보 편집물" loading="lazy" width="900" height="1993" /> <figcaption>1군의 대형과 함께 2군·3군 후보를 한 흐름으로 붙였다. 이 선정으로 서열이 닫히지는 않는다. 시대를 건너 이름을 맞대 보자는 제안에 가깝다.</figcaption> </figure>
+<figure class="leverkusen-final-sequence"> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/final-header.webp" alt="바이어 04 레버쿠젠 역대 베스트 11 표제" loading="lazy" width="966" height="322" /> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/formation.webp" alt="3-4-1-2 대형으로 배치한 바이어 04 레버쿠젠 역대 베스트 11" loading="lazy" width="966" height="966" /> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/second-team.webp" alt="바이어 04 레버쿠젠 역대 베스트 11 2군 명단 편집물" loading="lazy" width="900" height="1792" /> <img src="/images/squads/bayer-leverkusen-all-time-best-xi/third-team.webp" alt="바이어 04 레버쿠젠 역대 베스트 11 3군과 주요 후보 편집물" loading="lazy" width="900" height="1993" /> <figcaption>1군의 대형과 함께 2군·3군 후보를 한 흐름으로 붙였다. 세 장을 이어 보면 1988년의 유럽 우승 세대와 2024년의 무패 세대가 같은 페이지의 위아래에 놓인다.</figcaption> </figure>
 
 ## 이미지 밖에서 다시 읽는 2군과 강력한 경쟁자
 

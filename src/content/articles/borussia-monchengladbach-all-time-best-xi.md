@@ -26,7 +26,7 @@ featured: true
 
 ## 열한 자리를 고른 방식
 
-이 명단은 1970년대의 한 시즌을 복원한 사진이 아니다. 창세기의 알베르트 브륄스, 황금기의 네처·포크츠·하인케스, 왕조가 저문 뒤의 빌프리트 하네스와 파트리크 안데르손까지 구단의 서로 다른 시간을 연결했다. 네처가 공을 오래 소유할 자유, 비머가 그 자유의 비용을 지불할 체력, 본호프가 다음 시대로 건네는 힘을 한 중원에 놓았다. 포메이션은 4-3-2-1을 바탕으로 공을 가진 순간 여러 갈래로 풀어진다.
+바이스바일러의 망아지들은 앞으로 쏟아지는 팀이었고, 이 명단도 그 방향을 따라 짰다. 창세기의 알베르트 브륄스, 황금기의 네처·포크츠·하인케스, 왕조가 저문 뒤의 빌프리트 하네스와 파트리크 안데르손까지 구단의 서로 다른 시간을 연결했다. 네처가 공을 오래 소유할 자유, 비머가 그 자유의 비용을 지불할 체력, 본호프가 다음 시대로 건네는 힘을 한 중원에 놓았다. 포메이션은 4-3-2-1을 바탕으로 공을 가진 순간 여러 갈래로 풀어진다.
 
 <div class="custom-xi-music" data-youtube-id="PINW7HeZ54E" role="region" aria-label="삽입형 BGM 재생"> <button type="button" class="music-toggle" aria-label="재생하기">▶</button> <span><small>삥이가 이 글의 리듬으로 고른 BGM</small><strong>Måneskin · Beggin’</strong><em>구단 응원가가 아닌 편집 선곡입니다</em></span> <button type="button" class="music-cta music-toggle" aria-label="Måneskin Beggin’ 재생">재생하기</button> <div class="custom-xi-music-player" hidden><iframe loading="lazy" title="YouTube embed: Måneskin Beggin’" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div> <p class="custom-xi-music-credit"><a href="https://www.youtube.com/watch?v=PINW7HeZ54E" target="_blank" rel="noopener noreferrer">선곡 영상 원본 보기</a></p> </div>
 

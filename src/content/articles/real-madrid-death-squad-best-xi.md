@@ -46,7 +46,7 @@ featured: false
 
 ## 삥이가 고른 베스트 11
 
-<figure class="custom-xi-formation"><img src="/images/squads/real-madrid-death-squad-best-xi/formation.png" alt="후안 알론소, 레스메스, 산타마리아, 마르키토스, 사라가, 산티스테반, 디스테파노, 푸슈카시, 헨토, 코파, 리알로 구성한 레알 마드리드 저승사자 군단 베스트 11" loading="lazy" width="774" height="774" /><figcaption>3-2-2-3으로 시각화한 커스텀 베스트 11. 실제 시대의 고정 포메이션을 복원한 도표가 아니라, 선정한 열한 명의 주된 역할과 관계를 보여주는 편집 배치다.</figcaption></figure>
+<figure class="custom-xi-formation"><img src="/images/squads/real-madrid-death-squad-best-xi/formation.png" alt="후안 알론소, 레스메스, 산타마리아, 마르키토스, 사라가, 산티스테반, 디스테파노, 푸슈카시, 헨토, 코파, 리알로 구성한 레알 마드리드 저승사자 군단 베스트 11" loading="lazy" width="774" height="774" /><figcaption>3-2-2-3으로 시각화한 커스텀 베스트 11. 디스테파노가 이 그림의 어느 칸에도 오래 머물지 않았다는 사실까지 함께 읽어야 한다.</figcaption></figure>
 
 이 팀의 핵심은 이름값 순서가 아니다. 수비 세 명은 좌우와 중앙의 역할이 겹치지 않고, 사라가와 산티스테반은 공격진이 자유롭게 움직일 수 있는 바닥을 만든다. 디스테파노와 푸슈카시는 고정된 ‘2선’이라기보다 경기의 높이를 바꾸는 두 축이다. 헨토와 코파가 폭을 만들면 리알이 골문과 패스 사이를 잇는다.
 
