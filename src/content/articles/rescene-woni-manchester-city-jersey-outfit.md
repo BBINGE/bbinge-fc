@@ -167,21 +167,21 @@ fashionProfile:
   .rw-index>div{min-height:176px;padding:27px 23px 29px;background:linear-gradient(150deg,#0b3c66,#6cabdd)}
   .rw-index>div:nth-child(2){background:linear-gradient(150deg,#07293f,#2f79ad)}
   .rw-index>div:nth-child(3){background:linear-gradient(150deg,#0a3355,#4f97cd 60%,#07253c)}
-  .rw-index b{display:block;color:#cfe9fb;font-size:11px;font-weight:850;letter-spacing:.15em}
+  .rw-index b{display:block;color:#cfe9fb;font-size:12px;font-weight:850;letter-spacing:.15em}
   .rw-index strong{display:block;margin:11px 0 9px;font-size:18px;line-height:1.32}
   .rw-index span{color:rgba(255,255,255,.8);font-size:13px;line-height:1.65}
   .rw-hero{width:min(1040px,100%);margin:0 auto 60px}
   .rw-hero img{display:block;width:100%;margin:0;border-radius:var(--bbfc-radius-lg);background:#eef4f8}
   .article-body .rw-hero figcaption,.article-body .rw-pair figcaption{margin-top:10px;color:var(--bbfc-gray-2);font-size:12px;line-height:1.65;text-align:left}
-  .rw-credit{display:block;margin-top:5px;color:var(--bbfc-gray-2);font-size:11px;font-weight:650;letter-spacing:.02em}
+  .rw-credit{display:block;margin-top:5px;color:var(--bbfc-gray-2);font-size:12px;font-weight:650;letter-spacing:.02em}
   .rw-pair{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(1.2rem,3.5vw,2.6rem);align-items:center;width:min(900px,100%);margin-bottom:58px}
   .rw-pair img{display:block;width:100%;aspect-ratio:1/1;margin:0;border-radius:var(--bbfc-radius-lg);object-fit:cover}
   .rw-pair figcaption b,.rw-pair figcaption span{display:block}
-  .rw-pair figcaption b{margin-bottom:8px;color:#1f6fb5;font-size:11px;letter-spacing:.14em}
+  .rw-pair figcaption b{margin-bottom:8px;color:#1f6fb5;font-size:12px;letter-spacing:.14em}
   .rw-map{position:relative;left:50%;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:min(1120px,calc(100vw - 32px));margin:42px 0 40px;overflow:hidden;border:1px solid #1c5b8c;border-radius:var(--bbfc-radius-lg);background:linear-gradient(128deg,#07293f 0%,#2f79ad 58%,#062338 110%);color:#fff;transform:translateX(-50%);box-shadow:0 24px 56px rgba(15,60,105,.24)}
   .rw-map article{min-width:0;padding:26px 19px 28px}
   .rw-map article+article{border-left:1px solid rgba(255,255,255,.18)}
-  .rw-map article>span{color:#cfe9fb;font-size:11px;font-weight:850;letter-spacing:.14em}
+  .rw-map article>span{color:#cfe9fb;font-size:12px;font-weight:850;letter-spacing:.14em}
   .article-body .rw-map h3{margin:10px 0 9px;color:#fff;font-size:16px;line-height:1.38}
   .rw-map p{margin:0;color:rgba(255,255,255,.82);font-size:13px;line-height:1.7}
   .rw-video{position:relative;left:50%;width:min(1040px,calc(100vw - 32px));margin:40px 0 26px;transform:translateX(-50%)}
@@ -198,7 +198,7 @@ fashionProfile:
   .rw-affiliate-disclosure{display:grid;gap:4px;margin:0 0 26px;padding:14px 16px;border:1px solid var(--bbfc-border);border-radius:var(--bbfc-radius-md);background:var(--bbfc-fill);color:var(--bbfc-gray-1);font-size:12px;line-height:1.65}
   .rw-affiliate-disclosure strong{color:var(--bbfc-blue);font-weight:500}
   .rw-note{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:38px 0 48px;padding:28px 32px 30px;overflow:hidden;border:0;border-radius:18px;background:linear-gradient(135deg,#08243f 0%,#1b5a8f 46%,#1c2c5b 100%);box-shadow:0 20px 44px rgba(0,0,0,.26);color:#fff;transform:translateX(-50%)}.rw-note::before{position:absolute;z-index:0;right:-56px;bottom:-64px;width:260px;height:260px;background:url('/images/popup/rivalries/crests/man-city-eng.webp') no-repeat center/contain;content:'';opacity:.14;pointer-events:none}.rw-note>*{position:relative;z-index:1}@media(max-width:860px){.rw-note{width:calc(100vw - 24px);margin:34px 0 46px;padding:22px 20px 24px}.rw-note::before{width:180px;height:180px;right:-40px;bottom:-46px}}
-  .rw-note>span{display:inline-flex;align-items:center;gap:7px;color:#9fd4f5;font-size:11.5px;font-weight:850;letter-spacing:.15em}.rw-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239fd4f5' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.2' y='5' width='17.6' height='15.6' rx='2.2'/%3E%3Cpath d='M3.2 10.2h17.6M8 3v4M16 3v4'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .rw-note>span{display:inline-flex;align-items:center;gap:7px;color:#9fd4f5;font-size:12px;font-weight:850;letter-spacing:.15em}.rw-note>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239fd4f5' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.2' y='5' width='17.6' height='15.6' rx='2.2'/%3E%3Cpath d='M3.2 10.2h17.6M8 3v4M16 3v4'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
   .rw-note strong{display:block;margin:11px 0 10px;color:#fff;font-size:clamp(19px,2.2vw,23px);letter-spacing:-.02em;line-height:1.4}
   .rw-note p{margin:0;color:rgba(255,255,255,.84);line-height:1.8;word-break:keep-all}
   .rw-shop-grid{position:relative;left:50%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;width:min(980px,calc(100vw - 32px));margin:22px 0 14px;transform:translateX(-50%)}
@@ -208,10 +208,10 @@ fashionProfile:
   .rw-shop-card__visual{position:relative;display:block;overflow:hidden;background:#fafafa}
   .rw-shop-card__visual img{display:block;width:100%;aspect-ratio:1/1;margin:0;object-fit:cover;transition:transform .55s ease}
   .rw-shop-card:hover .rw-shop-card__visual img{transform:scale(1.04)}
-  .rw-shop-card__badge{position:absolute;z-index:2;top:13px;left:13px;padding:7px 11px;border:1px solid rgba(255,255,255,.75);border-radius:999px;background:rgba(7,41,63,.86);color:#fff;font-size:11px;font-weight:750;backdrop-filter:blur(8px)}
+  .rw-shop-card__badge{position:absolute;z-index:2;top:13px;left:13px;padding:7px 11px;border:1px solid rgba(255,255,255,.75);border-radius:999px;background:rgba(7,41,63,.86);color:#fff;font-size:12px;font-weight:750;backdrop-filter:blur(8px)}
   .rw-shop-card--ls .rw-shop-card__badge{background:rgba(20,60,95,.88)}
   .rw-shop-card__copy{display:flex;padding:23px 21px 21px;flex:1;flex-direction:column}
-  .rw-shop-card__copy small{color:#1f6fb5;font-size:11px;font-weight:850;letter-spacing:.1em}
+  .rw-shop-card__copy small{color:#1f6fb5;font-size:12px;font-weight:850;letter-spacing:.1em}
   .rw-shop-card__copy strong{display:block;margin:10px 0;color:#0f2437;font-size:18px;line-height:1.4}
   .rw-shop-card__copy>span:not(.rw-shop-card__cta):not(.rw-shop-card__price){color:#4e5d72;font-size:12px;line-height:1.65}
   .rw-shop-card__price{display:block;margin-top:13px;color:#0f2437;font-size:20px;font-weight:700}
@@ -219,9 +219,9 @@ fashionProfile:
   .rw-shop-card__cta b{color:#cfe9fb;font-size:19px;font-style:normal;transition:transform .3s ease}
   .rw-shop-card:hover .rw-shop-card__cta{background:linear-gradient(102deg,#1f6fb5,#7cc4f2)}
   .rw-shop-card:hover .rw-shop-card__cta b{transform:translate(3px,-3px)}
-  .rw-commercial-note{position:relative;left:50%;width:min(980px,calc(100vw - 32px));margin:0 0 30px;color:var(--bbfc-gray-2);font-size:11px;line-height:1.65;text-align:center;transform:translateX(-50%)}
+  .rw-commercial-note{position:relative;left:50%;width:min(980px,calc(100vw - 32px));margin:0 0 30px;color:var(--bbfc-gray-2);font-size:12px;line-height:1.65;text-align:center;transform:translateX(-50%)}
   @media(max-width:900px){.rw-map{grid-template-columns:repeat(2,minmax(0,1fr))}.rw-map article+article{border-left:0;border-top:1px solid rgba(255,255,255,.18)}.rw-map article:nth-child(odd){border-right:1px solid rgba(255,255,255,.18)}}
   @media(max-width:720px){.rw-index,.rw-pair,.rw-shop-grid{grid-template-columns:1fr}.rw-index>div{min-height:0;padding:22px 21px 24px}.rw-map{grid-template-columns:1fr}.rw-map article:nth-child(odd){border-right:0}}
-  @media(max-width:520px){.rw-index,.rw-map{margin-top:34px;margin-bottom:44px}.rw-hero{margin-bottom:44px}.rw-pair{margin-bottom:46px}.rw-video__label{right:10px;bottom:10px;padding:7px 11px;font-size:11px}}
+  @media(max-width:520px){.rw-index,.rw-map{margin-top:34px;margin-bottom:44px}.rw-hero{margin-bottom:44px}.rw-pair{margin-bottom:46px}.rw-video__label{right:10px;bottom:10px;padding:7px 11px;font-size:12px}}
   @media(prefers-reduced-motion:reduce){.rw-shop-card,.rw-shop-card__visual img,.rw-shop-card__cta b,.rw-video img{transition:none}.rw-shop-card:hover,.rw-shop-card:hover .rw-shop-card__visual img,.rw-video button:hover img{transform:none}}
 </style>

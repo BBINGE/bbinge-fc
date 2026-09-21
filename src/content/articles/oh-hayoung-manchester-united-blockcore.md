@@ -248,18 +248,18 @@ fashionProfile:
   .look-feature--denim .look-feature__image img { object-position: 76% center; transform: scale(1.28); }
   .look-feature--denim:hover .look-feature__image img { transform: scale(1.32); }
   .look-feature:hover .look-feature__image img { transform: scale(1.025); }
-  .look-feature__badge { position: absolute; left: 1rem; bottom: 1rem; padding: .6rem .75rem; border: 1px solid rgba(255,255,255,.45); border-radius: 999px; background: rgba(5,18,34,.72); color: #fff; font: 800 .67rem/1 system-ui, sans-serif; letter-spacing: .11em; backdrop-filter: blur(8px); }
+  .look-feature__badge { position: absolute; left: 1rem; bottom: 1rem; padding: .6rem .75rem; border: 1px solid rgba(255,255,255,.45); border-radius: 999px; background: rgba(5,18,34,.72); color: #fff; font: 800 .75rem/1 system-ui, sans-serif; letter-spacing: .11em; backdrop-filter: blur(8px); }
   .look-feature__panel { position: relative; display: flex; flex-direction: column; justify-content: center; padding: clamp(1.5rem, 4vw, 3rem); color: #fff; isolation: isolate; overflow: hidden; }
   .look-feature__panel--club-mark::after { content: ''; position: absolute; z-index: -1; width: 170px; aspect-ratio: 1; right: -35px; top: -32px; background: url('/images/culture/brand-marks/manchester-united-crest.svg') center / contain no-repeat; opacity: .1; filter: grayscale(1); }
   .look-feature--reverse .look-feature__panel--club-mark::after { right: auto; left: -38px; }
   .look-feature--silver .look-feature__panel { background: radial-gradient(circle at 100% 0, #525d6b 0, #16243a 42%, #07192f 78%); }
   .look-feature--denim .look-feature__panel { background: radial-gradient(circle at 0 100%, #29547e 0, #122b4b 45%, #07192f 78%); }
-  .look-feature__eyebrow { margin: 0 0 1rem; color: #75baff; font: 800 .7rem/1.2 system-ui, sans-serif; letter-spacing: .16em; }
+  .look-feature__eyebrow { margin: 0 0 1rem; color: #75baff; font: 800 .75rem/1.2 system-ui, sans-serif; letter-spacing: .16em; }
   .look-feature__panel h3 { margin: 0 0 1.15rem !important; color: #fff !important; font-size: clamp(1.7rem, 3.2vw, 2.55rem) !important; line-height: 1.15 !important; letter-spacing: -.045em; }
   .look-feature__panel > p:not(.look-feature__eyebrow) { margin: 0 0 1.4rem; color: #c7d2df; font-size: .91rem; line-height: 1.75; }
   .look-recipe { display: grid; margin: 0; border-top: 1px solid rgba(255,255,255,.18); }
   .look-recipe div { display: grid; grid-template-columns: 64px 1fr; gap: .7rem; padding: .72rem 0; border-bottom: 1px solid rgba(255,255,255,.13); }
-  .look-recipe dt { color: #75baff; font: 800 .66rem/1.5 system-ui, sans-serif; letter-spacing: .1em; }
+  .look-recipe dt { color: #75baff; font: 800 .75rem/1.5 system-ui, sans-serif; letter-spacing: .1em; }
   .look-recipe dd { margin: 0; color: #fff; font-size: .79rem; line-height: 1.5; }
 
   .editorial-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin: 1.6rem 0 .55rem; }
@@ -274,21 +274,21 @@ fashionProfile:
   .night-look__hero { grid-row: 1 / 3; display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; }
   .night-look__detail { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; object-position: center 72%; }
   .night-look__copy { z-index: 1; display: flex; flex-direction: column; justify-content: center; padding: clamp(1.45rem, 4vw, 2.65rem); background: radial-gradient(circle at 100% 0, rgba(255,255,255,.14), transparent 36%), linear-gradient(150deg, #e21b2d, #4a0810); color: #fff; }
-  .night-look__copy span { margin-bottom: .9rem; color: #ffb0b7; font: 800 .69rem/1.2 system-ui, sans-serif; letter-spacing: .15em; }
+  .night-look__copy span { margin-bottom: .9rem; color: #ffb0b7; font: 800 .75rem/1.2 system-ui, sans-serif; letter-spacing: .15em; }
   .night-look__copy h3 { margin: 0 0 .85rem !important; color: #fff !important; font-size: clamp(1.65rem, 3.2vw, 2.4rem) !important; line-height: 1.14 !important; letter-spacing: -.04em; }
   .night-look__copy p { margin: 0; color: #f7dadd; font-size: .87rem; line-height: 1.72; }
   .editorial-grid--night { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 335px; }
   .editorial-grid--night .editorial-grid__wide { grid-column: span 2; object-position: center 42%; }
 
   .wardrobe-guide { margin: 3.5rem 0; padding: clamp(1.45rem, 4vw, 2.5rem); border-radius: 24px; background: #f0f3f7; color: #081a34; }
-  .wardrobe-guide__eyebrow { margin: 0 0 .65rem; color: #287cff; font: 800 .7rem/1.2 system-ui, sans-serif; letter-spacing: .15em; }
+  .wardrobe-guide__eyebrow { margin: 0 0 .65rem; color: #287cff; font: 800 .75rem/1.2 system-ui, sans-serif; letter-spacing: .15em; }
   .wardrobe-guide > h2 { margin: 0 0 1.55rem; padding: 0; border: 0; font-size: clamp(1.6rem, 3vw, 2.2rem); }
   .wardrobe-guide__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .7rem; }
   .wardrobe-guide article { display: flex; min-height: 220px; flex-direction: column; padding: 1.2rem; border: 1px solid #d2dae5; border-radius: 16px; background: #fff; }
-  .wardrobe-guide article > span { color: #287cff; font: 800 .7rem/1 system-ui, sans-serif; letter-spacing: .1em; }
+  .wardrobe-guide article > span { color: #287cff; font: 800 .75rem/1 system-ui, sans-serif; letter-spacing: .1em; }
   .wardrobe-guide article h3 { margin: .8rem 0 .65rem; font-size: 1rem; line-height: 1.35; }
   .wardrobe-guide article p { margin: 0; color: #536174; font-size: .8rem; line-height: 1.7; }
-  .wardrobe-guide article b { margin-top: auto; padding-top: 1rem; color: #0a5ac8; font-size: .72rem; }
+  .wardrobe-guide article b { margin-top: auto; padding-top: 1rem; color: #0a5ac8; font-size: .75rem; }
 
   .fashion-related-cta { margin: 3.6rem 0 3.4rem; overflow: hidden; border: 1px solid #2b3038; border-radius: 24px; background: #080a0d; box-shadow: 0 24px 48px -38px rgba(0,0,0,.95); }
   .fashion-related-cta a { display: grid; grid-template-columns: minmax(260px,.86fr) minmax(0,1.14fr); min-height: 370px; color: inherit; text-decoration: none; }
@@ -296,7 +296,7 @@ fashionProfile:
   .fashion-related-cta__image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg,transparent 64%,rgba(8,10,13,.68) 100%); pointer-events: none; }
   .fashion-related-cta__image img { display: block; width: 100%; height: 100%; margin: 0; border: 0; border-radius: 0; object-fit: cover; object-position: center; transition: transform .45s ease; }
   .fashion-related-cta__body { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 42px 42px 40px; }
-  .fashion-related-cta__eyebrow { color: #ff5a64; font-size: 10px; line-height: 1.4; font-weight: 780; letter-spacing: .15em; }
+  .fashion-related-cta__eyebrow { color: #ff5a64; font-size: 12px; line-height: 1.4; font-weight: 780; letter-spacing: .15em; }
   .fashion-related-cta__title { display: block; margin-top: 15px; color: #fff; font-size: 32px; line-height: 1.16; font-weight: 790; letter-spacing: -.045em; }
   .fashion-related-cta__copy { max-width: 410px; margin-top: 20px; color: #cfd5df; font-size: 13.5px; line-height: 1.82; }
   .fashion-related-cta__action { display: inline-flex; align-items: center; gap: 14px; margin-top: 30px; padding: 12px 16px; border: 1px solid rgba(255,90,100,.72); border-radius: 999px; color: #fff; font-size: 16px; line-height: 1.4; font-weight: 760; letter-spacing: -.01em; }
@@ -306,7 +306,7 @@ fashionProfile:
   .fashion-related-cta a:focus-visible { outline: 3px solid #ff5a64; outline-offset: -3px; }
 
   .culture-photo-caption { margin: 0 0 1.75rem; color: #7b8797; font-size: .88rem; line-height: 1.6; }
-  .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .68rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
+  .culture-image-credit { display: block; margin-top: .42rem; color: #8a94a3; font-size: .75rem; font-weight: 500; letter-spacing: .025em; line-height: 1.5; }
   @media (max-width: 720px) {
     .look-index { grid-template-columns: 1fr; margin-bottom: 2.5rem; border-radius: 15px; }
     .look-index__item { min-height: 82px; padding: .95rem 1rem; align-items: center; }

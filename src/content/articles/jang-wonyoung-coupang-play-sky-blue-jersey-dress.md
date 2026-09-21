@@ -178,19 +178,19 @@ fashionProfile:
   .fashion-article .fashion-profile { grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr); margin-bottom:54px; border-top-color:var(--wy-blue); }
   .fashion-article .fashion-profile__portrait { min-height:100%; }
   .fashion-article .fashion-profile__body { padding:27px 30px 25px; }
-  .wy-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:10px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .wy-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:12px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .fashion-article .article-body .wy-opening { width:min(680px,calc(100vw - 32px)); margin:34px auto 48px; }
   .wy-opening img, .wy-photo-duet img, .wy-shop__image img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .wy-scoreboard { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(980px,calc(100vw - 32px)); margin:36px 0 50px; overflow:hidden; border:1px solid #b7cfdd; border-radius:var(--bbfc-radius-lg); background:var(--wy-pearl); box-shadow:0 24px 58px -44px rgba(17,26,56,.7); transform:translateX(-50%); }
   .wy-scoreboard header { grid-column:1/-1; display:grid; grid-template-columns:1fr auto; gap:5px 24px; padding:25px 27px 24px; background:linear-gradient(115deg,var(--wy-navy) 0 71%,#26335f 71%); color:#fff; }
-  .wy-scoreboard header>span { color:#8fe0ff; font-size:10px; font-weight:750; letter-spacing:.15em; }
+  .wy-scoreboard header>span { color:#8fe0ff; font-size:12px; font-weight:750; letter-spacing:.15em; }
   .wy-scoreboard header strong { grid-column:1; font-size:24px; font-weight:680; letter-spacing:.04em; line-height:1.15; }
   .wy-scoreboard header strong i { display:inline-grid; width:44px; height:44px; margin:0 9px; place-items:center; border:1px solid rgba(255,255,255,.42); border-radius:50%; background:var(--wy-sky); color:var(--wy-navy); font-size:15px; font-style:normal; vertical-align:middle; }
-  .wy-scoreboard header small { grid-column:2; grid-row:1/3; align-self:center; color:#d6e2f0; font-size:11px; }
+  .wy-scoreboard header small { grid-column:2; grid-row:1/3; align-self:center; color:#d6e2f0; font-size:12px; }
   .wy-scoreboard article { min-width:0; padding:27px 23px 26px; background:linear-gradient(145deg,#fff,var(--wy-ice)); }
   .wy-scoreboard article + article { border-left:1px solid #bed8e5; }
   .wy-scoreboard article b { display:block; color:var(--wy-navy); font-family:Georgia,serif; font-size:35px; font-weight:500; line-height:1; }
-  .wy-scoreboard article span { display:block; margin-top:10px; color:var(--wy-blue); font-size:9px; font-weight:800; letter-spacing:.15em; }
+  .wy-scoreboard article span { display:block; margin-top:10px; color:var(--wy-blue); font-size:12px; font-weight:800; letter-spacing:.15em; }
   .wy-scoreboard article p { margin:10px 0 0; color:#536277; font-size:13px; line-height:1.72; }
   .wy-photo-duet { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; width:min(940px,calc(100vw - 32px)); margin:32px 0 52px; transform:translateX(-50%); }
   .fashion-article .article-body .wy-photo-duet figure { min-width:0; margin:0; }
@@ -201,19 +201,19 @@ fashionProfile:
   .wy-number-story__four span { top:24px; left:27px; }
   .wy-number-story__four small { right:26px; bottom:24px; }
   .wy-number-story__copy { align-self:center; padding:34px 34px 35px; }
-  .wy-number-story__copy>span { color:var(--wy-blue); font-size:10px; font-weight:800; letter-spacing:.14em; }
+  .wy-number-story__copy>span { color:var(--wy-blue); font-size:12px; font-weight:800; letter-spacing:.14em; }
   .article-body .wy-number-story__copy h3 { margin:14px 0 18px; color:var(--wy-navy); font-size:24px; font-weight:620; line-height:1.42; }
   .wy-line-map { display:flex; flex-wrap:wrap; gap:7px; margin-bottom:18px; }
-  .wy-line-map i { padding:6px 9px; border:1px solid #a8cfdf; border-radius:999px; background:#fff; color:#376378; font-size:9px; font-style:normal; font-weight:700; }
+  .wy-line-map i { padding:6px 9px; border:1px solid #a8cfdf; border-radius:999px; background:#fff; color:#376378; font-size:12px; font-style:normal; font-weight:700; }
   .wy-number-story__copy p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; }
   .wy-kicker { display:flex; align-items:center; gap:10px; color:var(--wy-sky); }
-  .wy-kicker b { display:grid; width:30px; height:30px; place-items:center; border-radius:50%; background:var(--wy-sky); color:var(--wy-navy); font-size:10px; font-weight:800; }
-  .wy-kicker span { font-size:9px; font-weight:800; letter-spacing:.13em; }
+  .wy-kicker b { display:grid; width:30px; height:30px; place-items:center; border-radius:50%; background:var(--wy-sky); color:var(--wy-navy); font-size:12px; font-weight:800; }
+  .wy-kicker span { font-size:12px; font-weight:800; letter-spacing:.13em; }
   .wy-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,1.18fr); width:min(940px,calc(100vw - 32px)); margin:34px 0 54px; overflow:hidden; border:1px solid #26335f; border-radius:var(--bbfc-radius-lg); background:var(--wy-navy); box-shadow:0 24px 58px -43px rgba(17,26,56,.9); transform:translateX(-50%); }
   .wy-video__copy { align-self:center; padding:33px 31px 35px; }
   .article-body .wy-video__copy h3 { margin:15px 0 17px; color:#fff; font-size:23px; font-weight:610; line-height:1.42; }
   .wy-motion-tags { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 17px; }
-  .wy-motion-tags span { padding:5px 7px; border:1px solid #52628f; border-radius:999px; color:#bfeeff; font-size:8px; font-weight:750; letter-spacing:.07em; }
+  .wy-motion-tags span { padding:5px 7px; border:1px solid #52628f; border-radius:999px; color:#bfeeff; font-size:12px; font-weight:750; letter-spacing:.07em; }
   .wy-video__copy p { margin:0; color:#bec9dc; font-size:13px; line-height:1.76; }
   .wy-video__copy>a { display:inline-flex; margin-top:20px; padding-bottom:3px; border-bottom:1px solid currentColor; color:#8fe0ff; font-size:12px; font-weight:650; }
   .wy-video__media { position:relative; aspect-ratio:16/9; overflow:hidden; background:#050817; }
@@ -236,17 +236,17 @@ fashionProfile:
   .article-body .wy-shop__copy h3 { margin:15px 0 19px; color:var(--wy-navy); font-size:23px; font-weight:610; line-height:1.42; }
   .wy-product-spec { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin:0 0 19px; }
   .wy-product-spec>span { min-width:0; padding:10px 8px 9px; border:1px solid #b9d9e7; border-radius:9px; background:var(--wy-ice); }
-  .wy-product-spec small { display:block; color:#5a7c8b; font-size:8px; font-weight:750; letter-spacing:.11em; }
-  .wy-product-spec b { display:block; margin-top:3px; overflow:hidden; color:#174e6b; font-size:10px; font-weight:750; text-overflow:ellipsis; white-space:nowrap; }
+  .wy-product-spec small { display:block; color:#5a7c8b; font-size:12px; font-weight:750; letter-spacing:.11em; }
+  .wy-product-spec b { display:block; margin-top:3px; overflow:hidden; color:#174e6b; font-size:12px; font-weight:750; text-overflow:ellipsis; white-space:nowrap; }
   .wy-shop__copy p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
   .wy-shop__copy p b { color:var(--wy-navy); font-weight:650; }
   .wy-shop-cta { display:flex; min-height:76px; align-items:center; justify-content:space-between; gap:18px; margin-top:16px; padding:16px 17px 16px 19px; border:2px solid var(--wy-navy); border-radius:14px; background:linear-gradient(112deg,var(--wy-navy),#223466); box-shadow:0 14px 30px -18px rgba(8,20,55,.9); color:#fff; text-decoration:none; transition:background .2s ease,transform .2s ease,box-shadow .2s ease; }
   .wy-shop-cta span { min-width:0; }
-  .wy-shop-cta small { display:block; color:#8fe0ff; font-size:9px; font-weight:850; letter-spacing:.12em; }
+  .wy-shop-cta small { display:block; color:#8fe0ff; font-size:12px; font-weight:850; letter-spacing:.12em; }
   .wy-shop-cta span b { display:block; margin-top:5px; color:#fff; font-size:15px; font-weight:800; line-height:1.35; letter-spacing:-.02em; }
   .wy-shop-cta i { display:grid; width:40px; height:40px; flex:0 0 auto; place-items:center; border-radius:50%; background:var(--wy-sky); color:var(--wy-navy); font-size:22px; font-style:normal; box-shadow:0 7px 18px -10px rgba(0,0,0,.8); }
   .wy-shop-cta:hover { background:#25335d; transform:translateY(-2px); box-shadow:0 19px 34px -20px rgba(8,20,55,.95); }
-  .wy-shop-note { margin-top:9px; color:#70828d; font-size:9px; line-height:1.58; }
+  .wy-shop-note { margin-top:9px; color:#70828d; font-size:12px; line-height:1.58; }
   @keyframes wy-enter { from { opacity:.5; translate:0 12px; } to { opacity:1; translate:0 0; } }
   @media (prefers-reduced-motion:no-preference) { .wy-enter { animation:wy-enter .72s cubic-bezier(.22,1,.36,1) both; } }
   @media (max-width:820px) { .wy-video { grid-template-columns:1fr; } .wy-video__copy { order:2; } }
@@ -263,7 +263,7 @@ fashionProfile:
     .wy-scoreboard article + article { border-top:1px solid #bed8e5; border-left:0; }
     .wy-scoreboard article b { font-size:30px; }
     .wy-opening, .wy-photo-duet, .wy-number-story, .wy-video, .wy-shop { margin-top:30px; margin-bottom:44px; }
-    .wy-opening figcaption, .wy-photo-duet figcaption, .wy-shop__image figcaption { font-size:11px; line-height:1.58; }
+    .wy-opening figcaption, .wy-photo-duet figcaption, .wy-shop__image figcaption { font-size:12px; line-height:1.58; }
     .wy-number-story__copy, .wy-video__copy, .wy-shop__copy { padding:25px 21px 28px; }
     .article-body .wy-number-story__copy h3, .article-body .wy-video__copy h3, .article-body .wy-shop__copy h3 { font-size:20px; }
   }

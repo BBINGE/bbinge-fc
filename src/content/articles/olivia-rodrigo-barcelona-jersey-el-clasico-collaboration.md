@@ -197,13 +197,13 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
 </div>
 
 <style>
-  .or-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .or-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:12px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .or-back-figure { width:min(760px,100%); margin:42px auto 56px; }
   .or-back-figure img, .or-detail-grid img, .or-wide-figure img, .or-stage-figure img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .or-signal { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:40px 0 58px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .or-signal article { position:relative; z-index:1; min-width:0; padding:27px 24px 29px; }
   .or-signal article + article { border-left:1px solid var(--bbfc-ink-2); }
-  .or-signal article>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.12em; }
+  .or-signal article>span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.12em; }
   .article-body .or-signal h3 { margin:11px 0 9px; color:var(--bbfc-bg); font-size:18px; font-weight:500; line-height:1.35; }
   .or-signal p { margin:0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.7; }
   .or-signal__scan { position:absolute; z-index:0; top:0; bottom:0; width:26%; background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--bbfc-blue) 18%,transparent),transparent); animation:or-scan 5.8s linear infinite; }
@@ -216,14 +216,14 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
   .or-product-card:hover { transform:translateY(-5px); box-shadow:0 18px 38px color-mix(in srgb,var(--bbfc-ink) 12%,transparent); }
   .or-product-card img { display:block; width:100%; aspect-ratio:7/10; margin:0; object-fit:cover; }
   .or-product-card figcaption { min-height:86px; padding:14px 15px 16px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.6; }
-  .or-product-card figcaption b { display:block; margin-bottom:6px; color:var(--bbfc-ink); font-size:11px; font-weight:500; letter-spacing:.09em; }
-  .or-product-credit { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:0 0 58px; color:var(--bbfc-gray-2); font-size:11px; text-align:right; transform:translateX(-50%); }
+  .or-product-card figcaption b { display:block; margin-bottom:6px; color:var(--bbfc-ink); font-size:12px; font-weight:500; letter-spacing:.09em; }
+  .or-product-credit { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:0 0 58px; color:var(--bbfc-gray-2); font-size:12px; text-align:right; transform:translateX(-50%); }
   .or-video-stack { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:42px 0 64px; transform:translateX(-50%); }
   .or-video { overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); }
   .or-video--lead { display:grid; grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr); align-items:stretch; margin-bottom:14px; background:var(--bbfc-ink); color:var(--bbfc-bg); }
   .or-video-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
   .or-video__copy { padding:25px 24px 27px; }
-  .or-video__copy>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
+  .or-video__copy>span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.1em; }
   .article-body .or-video__copy h3 { margin:10px 0 0; color:var(--bbfc-ink); font-size:18px; font-weight:500; line-height:1.35; }
   .article-body .or-video--lead .or-video__copy h3 { color:var(--bbfc-bg); font-size:24px; }
   .or-video__copy p { margin:13px 0 0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.7; }
@@ -245,14 +245,14 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
   .barca-next__wash { position:absolute; z-index:-3; inset:0; background:radial-gradient(circle at 78% 22%,rgba(244,192,47,.38),transparent 22%),linear-gradient(100deg,transparent 52%,rgba(111,39,179,.42)); transition:transform .6s ease; }
   .barca-next__content { display:flex; min-width:0; padding:8px 0 8px 12px; flex-direction:column; align-items:flex-start; }
   .barca-next__copy { display:block; max-width:570px; }
-  .barca-next__copy small { color:#ffd952; font-size:11px; font-weight:700; letter-spacing:.14em; }
+  .barca-next__copy small { color:#ffd952; font-size:12px; font-weight:700; letter-spacing:.14em; }
   .barca-next__copy strong { display:block; margin-top:15px; color:#fff; font-size:clamp(28px,3.5vw,43px); font-weight:720; letter-spacing:-.045em; line-height:1.08; }
   .barca-next__copy>span { display:block; max-width:560px; margin-top:17px; color:rgba(255,255,255,.78); font-size:13px; line-height:1.68; }
   .barca-next__cta { display:flex; align-items:center; justify-content:space-between; gap:24px; width:fit-content; min-width:350px; margin-top:27px; padding:14px 17px 14px 20px; border:1px solid rgba(255,255,255,.55); border-radius:999px; background:rgba(8,13,44,.45); color:#fff; font-size:16px; font-weight:750; letter-spacing:-.015em; backdrop-filter:blur(8px); }
   .barca-next__cta b { color:#ffd952; font-size:24px; line-height:1; transition:transform .3s ease; }
   .barca-next__thumb { position:relative; display:block; height:248px; overflow:hidden; border:1px solid rgba(255,255,255,.38); border-radius:calc(var(--bbfc-radius-lg) - 4px); background:#171c54; box-shadow:0 16px 34px rgba(5,8,30,.3); }
   .barca-next__thumb img { display:block; width:100%; height:100%; margin:0; object-fit:cover; transition:transform .55s ease,filter .55s ease; }
-  .barca-next__thumb>span { position:absolute; right:12px; bottom:12px; padding:6px 10px; border:1px solid rgba(255,255,255,.45); border-radius:999px; background:rgba(8,13,44,.7); color:#fff; font-size:10px; font-weight:700; letter-spacing:.1em; backdrop-filter:blur(8px); }
+  .barca-next__thumb>span { position:absolute; right:12px; bottom:12px; padding:6px 10px; border:1px solid rgba(255,255,255,.45); border-radius:999px; background:rgba(8,13,44,.7); color:#fff; font-size:12px; font-weight:700; letter-spacing:.1em; backdrop-filter:blur(8px); }
   .barca-next:hover { color:#fff; transform:translateY(-6px); box-shadow:0 28px 64px rgba(21,29,84,.3); }
   .barca-next:hover::after { animation:barca-next-sheen .85s ease; }
   .barca-next:hover .barca-next__wash { transform:scale(1.08); }
@@ -283,7 +283,7 @@ FC Barcelona의 공식 발표는 이 셔츠를 1,899장 한정 제작한다고 �
     .or-back-figure, .or-detail-grid, .or-wide-figure, .or-stage-figure, .or-signal, .or-video-stack { margin-top:36px; margin-bottom:46px; }
     .or-product-grid { margin-top:36px; }
     .or-product-credit { margin-bottom:46px; }
-    .or-detail-grid figcaption, .or-wide-figure figcaption, .or-stage-figure figcaption { font-size:11px; line-height:1.58; }
+    .or-detail-grid figcaption, .or-wide-figure figcaption, .or-stage-figure figcaption { font-size:12px; line-height:1.58; }
     .or-video__copy { padding:20px 18px 22px; }
     .barca-next { grid-template-columns:1fr; gap:0; min-height:0; margin:52px auto 58px; padding:0; }
     .barca-next__content { padding:24px 22px 25px; }

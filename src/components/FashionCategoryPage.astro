@@ -99,11 +99,11 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
 <style>
   .fashion-index { max-width:1180px; margin:0 auto; padding:34px 20px 70px; }
   .fashion-index__masthead { display:flex; align-items:end; justify-content:space-between; gap:30px; padding:0 0 23px; border-bottom:3px solid var(--bbfc-ink); }
-  .fashion-index__masthead>div>p { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.17em; }
+  .fashion-index__masthead>div>p { color:var(--bbfc-blue); font-size:12px; font-weight:760; letter-spacing:.17em; }
   .fashion-index__masthead h1 { margin-top:7px; font-size:clamp(52px,8vw,94px); line-height:.88; font-weight:820; letter-spacing:-.075em; }
   .fashion-index__manifesto { display:grid; justify-items:end; text-align:right; }
   .fashion-index__manifesto strong { font-size:16px; line-height:1.05; letter-spacing:.02em; }
-  .fashion-index__manifesto span { margin-top:8px; color:var(--bbfc-gray-2); font-size:11px; }
+  .fashion-index__manifesto span { margin-top:8px; color:var(--bbfc-gray-2); font-size:12px; }
   .fashion-index__note { width:100%; max-width:none; margin:19px 0 30px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; text-wrap:pretty; }
   .fashion-halls { margin:0 0 58px; }
   .fashion-halls__grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:18px; }
@@ -116,16 +116,16 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
   .fashion-hall__media::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(4,8,15,.03) 34%,rgba(4,8,15,.72) 100%); }
   .fashion-hall__media img { width:100%;height:100%;object-fit:cover;transition:transform .45s ease; }
   .fashion-hall:hover .fashion-hall__media img { transform:scale(1.025); }
-  .fashion-hall__media>span { position:absolute;z-index:1;right:12px;bottom:11px;color:#fff;font-size:10px;font-weight:800;letter-spacing:.12em; }
+  .fashion-hall__media>span { position:absolute;z-index:1;right:12px;bottom:11px;color:#fff;font-size:12px;font-weight:800;letter-spacing:.12em; }
   .fashion-hall__copy { display:grid;grid-template-columns:auto minmax(0,1fr);align-items:start;gap:15px;padding:21px 18px 19px; }
   .fashion-hall__copy>span:first-child { color:var(--hall-accent);font-size:39px;font-weight:450;line-height:1;letter-spacing:-.06em; }
   .fashion-hall__copy>span:first-child small { margin-left:4px;font-size:12px;font-weight:800;letter-spacing:0; }
-  .fashion-hall__copy p { color:var(--hall-accent);font-size:9px;font-weight:800;line-height:1.35;letter-spacing:.09em; }
+  .fashion-hall__copy p { color:var(--hall-accent);font-size:12px;font-weight:800;line-height:1.35;letter-spacing:.09em; }
   .fashion-hall__copy h3 { margin-top:4px;color:#fff;font-size:22px;font-weight:780;letter-spacing:-.035em; }
   .fashion-hall__copy div>small { display:block;margin-top:9px;color:rgba(255,255,255,.78);font-size:12.5px;line-height:1.55; }
   .fashion-hall__cta { grid-column:1/-1;display:flex!important;align-items:center;justify-content:space-between;min-height:60px;margin-top:3px;padding:8px 10px 8px 15px;border:1px solid rgba(255,255,255,.82);background:var(--hall-cta);color:var(--hall-cta-ink)!important;box-shadow:0 15px 28px -18px rgba(0,0,0,.88);transition:transform .25s ease,box-shadow .25s ease; }
   .fashion-hall__cta>span { display:flex;flex-direction:column;gap:3px; }
-  .fashion-hall__cta>span small { font-size:8px;font-weight:850;line-height:1;letter-spacing:.13em;opacity:.7; }
+  .fashion-hall__cta>span small { font-size:12px;font-weight:850;line-height:1;letter-spacing:.13em;opacity:.7; }
   .fashion-hall__cta>span strong { font-size:14px;font-weight:850;line-height:1.2;letter-spacing:-.025em; }
   .fashion-hall__cta i { display:grid;width:38px;height:38px;place-items:center;border-radius:50%;background:var(--hall-cta-ink);color:#fff;font-size:19px;font-style:normal;box-shadow:0 8px 18px -10px rgba(0,0,0,.85);transition:transform .25s ease;animation:fashion-hall-arrow 2.8s ease-in-out infinite; }
   .fashion-hall:hover .fashion-hall__cta { transform:translateY(-2px);box-shadow:0 17px 28px -17px rgba(0,0,0,.9); }
@@ -135,9 +135,9 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
   .fashion-cover__image { position:relative; display:block; aspect-ratio:1/1; overflow:hidden; background:var(--bbfc-fill); }
   .fashion-cover__image img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
   .fashion-cover__image:hover img { transform:scale(1.012); }
-  .fashion-cover__image>span { position:absolute; top:18px; left:18px; padding:7px 9px; background:var(--bbfc-blue); color:#fff; font-size:8px; font-weight:760; letter-spacing:.14em; }
+  .fashion-cover__image>span { position:absolute; top:18px; left:18px; padding:7px 9px; background:var(--bbfc-blue); color:#fff; font-size:12px; font-weight:760; letter-spacing:.14em; }
   .fashion-cover__copy { display:flex; flex-direction:column; justify-content:center; padding:42px 36px; background:var(--bbfc-fill-2); }
-  .fashion-cover__copy>p,.fashion-edit__story>p { color:var(--bbfc-blue); font-size:9px; font-weight:760; letter-spacing:.14em; }
+  .fashion-cover__copy>p,.fashion-edit__story>p { color:var(--bbfc-blue); font-size:12px; font-weight:760; letter-spacing:.14em; }
   .fashion-cover__copy h2 { margin-top:14px; font-size:clamp(29px,3.2vw,44px); line-height:1.14; font-weight:760; letter-spacing:-.045em; text-wrap:balance; }
   .fashion-cover__copy>span { margin-top:18px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
   .fashion-cover__cta { position:relative; display:grid; grid-template-columns:minmax(0,1fr) 42px; align-items:center; gap:20px; min-height:58px; margin-top:34px; padding:8px 9px 8px 18px; overflow:hidden; border:1px solid var(--bbfc-blue); background:linear-gradient(115deg,#174fc2,#2878ff); color:#fff; font-size:16px; line-height:1.35; font-weight:790; letter-spacing:-.018em; box-shadow:0 14px 28px -18px rgba(36,107,253,.9); transition:transform .25s ease,box-shadow .25s ease; }
@@ -154,15 +154,15 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
   @keyframes fashion-cta-arrow { 0%,68%,100% { transform:translateX(0); } 78% { transform:translateX(3px); } 86% { transform:translateX(0); } }
   .fashion-edit { margin-top:54px; }
   .fashion-section-title { display:flex; align-items:baseline; gap:12px; padding-bottom:13px; border-bottom:1px solid var(--bbfc-ink); }
-  .fashion-section-title p { color:var(--bbfc-blue); font-size:11px; font-weight:780; letter-spacing:.13em; }
+  .fashion-section-title p { color:var(--bbfc-blue); font-size:12px; font-weight:780; letter-spacing:.13em; }
   .fashion-section-title h2 { font-size:22px; font-weight:720; letter-spacing:-.025em; }
-  .fashion-section-title span { margin-left:auto; color:var(--bbfc-gray-1); font-size:11px; letter-spacing:.1em; }
+  .fashion-section-title span { margin-left:auto; color:var(--bbfc-gray-1); font-size:12px; letter-spacing:.1em; }
   .fashion-edit__grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:25px 18px; margin-top:20px; }
   .fashion-edit__story>div,
   .fashion-edit__story:not(.fashion-edit__story--major)>div { position:relative; aspect-ratio:1/1; overflow:hidden; background:var(--bbfc-fill); }
   .fashion-edit__story img { width:100%; height:100%; object-fit:cover; transition:transform .35s ease; }
   .fashion-edit__story:hover img { transform:scale(1.02); }
-  .fashion-edit__story>div span { position:absolute; right:9px; bottom:8px; color:#fff; font-size:11px; font-weight:750; text-shadow:0 1px 8px rgba(0,0,0,.7); }
+  .fashion-edit__story>div span { position:absolute; right:9px; bottom:8px; color:#fff; font-size:12px; font-weight:750; text-shadow:0 1px 8px rgba(0,0,0,.7); }
   .fashion-edit__story>p { margin-top:11px; }
   .fashion-edit__story h3 { margin-top:5px; font-size:16px; line-height:1.4; font-weight:650; letter-spacing:-.02em; }
   .fashion-index__empty { padding:70px 0; text-align:center; color:var(--bbfc-gray-2); }
@@ -180,7 +180,7 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     .fashion-index { padding:25px 16px 55px; }
     .fashion-index__masthead { align-items:start; }
     .fashion-index__manifesto span { display:none; }
-    .fashion-index__manifesto strong { font-size:11px; }
+    .fashion-index__manifesto strong { font-size:12px; }
     .fashion-index__note { margin-bottom:24px; font-size:12.5px; }
     .fashion-halls { margin-bottom:45px; }
     .fashion-hall { grid-template-columns:118px minmax(0,1fr); }
@@ -188,7 +188,7 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     .fashion-hall__copy { grid-template-columns:auto minmax(0,1fr);gap:10px;padding:16px 12px; }
     .fashion-hall__copy>span:first-child { font-size:31px; }
     .fashion-hall__copy h3 { font-size:19px; }
-    .fashion-hall__copy div>small { font-size:11.5px;line-height:1.45; }
+    .fashion-hall__copy div>small { font-size:12px;line-height:1.45; }
     .fashion-hall__cta { min-height:54px;padding:7px 8px 7px 11px; }
     .fashion-hall__cta>span strong { font-size:13px; }
     .fashion-hall__cta i { width:34px;height:34px;font-size:17px; }
@@ -232,12 +232,12 @@ const hallFor = (entry: CollectionEntry<'articles'>) => entry.data.cultureSectio
     .fashion-index__masthead h1 { font-size:50px; }
     .fashion-index__note { margin:13px 0 17px; font-size:12px; line-height:1.62; }
     .fashion-section-title { padding-bottom:9px; }
-    .fashion-section-title p { font-size:8px; }
+    .fashion-section-title p { font-size:12px; }
     .fashion-section-title h2 { font-size:18px; }
     .fashion-halls { margin-bottom:28px; }
     .fashion-halls__grid { margin-top:11px; gap:8px; }
     .fashion-hall__media { aspect-ratio:1/1; }
-    .fashion-hall__media>span { right:7px; bottom:6px; font-size:7px; }
+    .fashion-hall__media>span { right:7px; bottom:6px; font-size:12px; }
     .fashion-hall__copy { padding:8px 6px; }
     .fashion-hall__copy h3 { font-size:14px; }
     .fashion-hall__cta { width:27px; min-width:27px; height:27px; }

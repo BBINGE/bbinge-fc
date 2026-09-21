@@ -158,7 +158,7 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
 
 <style>
   .pep-thesis{position:relative;overflow:hidden;margin:0 0 40px;padding:30px 32px 31px;border:0;border-radius:18px;background:linear-gradient(135deg,#062a45 0%,#1a6099 46%,#101f3f 100%);box-shadow:0 18px 40px rgba(0,0,0,.24);color:#fff}.pep-thesis::before{position:absolute;z-index:0;background-image:url('/images/popup/rivalries/crests/man-city-eng.webp');background-repeat:no-repeat;background-size:contain;background-position:center;right:-40px;bottom:-52px;width:220px;height:220px;opacity:.14;content:'';pointer-events:none}.pep-thesis>*{position:relative;z-index:1}@media(max-width:767px){.pep-thesis{padding:24px 21px 25px}.pep-thesis::before{width:156px;height:156px;right:-32px;bottom:-40px}}
-  .pep-thesis>span{display:inline-flex;align-items:center;gap:7px;color:#9fd4f5!important;font-size:11.5px;font-weight:850;letter-spacing:.14em}.pep-thesis>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239fd4f5' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='3' width='16' height='18' rx='2.2'/%3E%3Cpath d='M4 12h16M12 3v18'/%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+  .pep-thesis>span{display:inline-flex;align-items:center;gap:7px;color:#9fd4f5!important;font-size:12px;font-weight:850;letter-spacing:.14em}.pep-thesis>span::before{width:15px;height:15px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239fd4f5' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='3' width='16' height='18' rx='2.2'/%3E%3Cpath d='M4 12h16M12 3v18'/%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
   
   .pep-thesis span, .shape-lab header span, .position-note__index span, .movement-ledger span { color:var(--bbfc-blue); font-size:12px; font-weight:760; letter-spacing:.14em; }
   .pep-thesis>strong{position:relative;z-index:1;display:block;max-width:760px;margin-top:11px;color:#fff;font-size:26px;letter-spacing:-.04em;line-height:1.38}
@@ -171,30 +171,30 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
   .shape-grid { position:relative; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:64px; align-items:stretch; padding:22px; }
   .shape-grid article { position: relative; min-height: 520px; overflow: hidden; border: 1px solid rgba(255,255,255,.15); border-radius: 15px; background: linear-gradient(160deg,#285e41,#163c2c); }
   .board-title { position: relative; z-index: 4; padding: 17px 18px 14px; border-bottom: 1px solid rgba(255,255,255,.16); background: rgba(4,17,12,.38); }
-  .board-title span { display:block; color:#a5d8ff; font-size:11px; font-weight:760; letter-spacing:.11em; }
+  .board-title span { display:block; color:#a5d8ff; font-size:12px; font-weight:760; letter-spacing:.11em; }
   .board-title strong { display:block; margin-top:5px; font-size:18px; }
-  .board-title small { display:block; margin-top:3px; color:rgba(255,255,255,.55); font-size:11px; }
+  .board-title small { display:block; margin-top:3px; color:rgba(255,255,255,.55); font-size:12px; }
   .mini-pitch { position:absolute; inset:103px 14px 14px; border:1px solid rgba(255,255,255,.34); }
   .mini-pitch::before { position:absolute; top:50%; left:0; width:100%; border-top:1px solid rgba(255,255,255,.3); content:''; }
   .mini-pitch::after { position:absolute; top:calc(50% - 39px); left:calc(50% - 39px); width:78px; height:78px; border:1px solid rgba(255,255,255,.28); border-radius:50%; content:''; }
-  .dot { position:absolute; z-index:2; width:72px; padding:7px 3px; transform:translate(-50%,-50%); border:1px solid rgba(255,255,255,.34); border-radius:999px; background:rgba(5,24,15,.9); color:white; text-align:center; font-size:11px; font-style:normal; font-weight:750; line-height:1.1; box-shadow:0 8px 18px -12px #000; white-space:nowrap; }
+  .dot { position:absolute; z-index:2; width:72px; padding:7px 3px; transform:translate(-50%,-50%); border:1px solid rgba(255,255,255,.34); border-radius:999px; background:rgba(5,24,15,.9); color:white; text-align:center; font-size:12px; font-style:normal; font-weight:750; line-height:1.1; box-shadow:0 8px 18px -12px #000; white-space:nowrap; }
   .dot.focus { border-color:#73c7ff; background:#0b4673; box-shadow:0 0 0 5px rgba(115,199,255,.12); animation:role-pulse 2s ease-in-out infinite; }
   .dot.gk{left:50%;top:91%}.dot.b1{left:20%;top:75%}.dot.b2{left:50%;top:78%}.dot.b3{left:80%;top:75%}.dot.m1{left:34%;top:59%}.dot.m2{left:66%;top:59%}.dot.a1{left:34%;top:40%}.dot.a2{left:66%;top:40%}.dot.f1{left:14%;top:29%}.dot.f2{left:50%;top:25%}.dot.f3{left:86%;top:29%}
   .city-board .city-lw{left:12%;top:36%}.city-board .city-l8{left:37%;top:38%}.city-board .city-r8{left:63%;top:38%}.city-board .city-rw{left:88%;top:36%}
   .shape-axis { position:absolute; top:50%; left:50%; z-index:5; display:grid; width:58px; transform:translate(-50%,-50%); place-content:center; justify-items:center; gap:5px; color:rgba(255,255,255,.55); text-align:center; }
-  .shape-axis span { font-size:9px; font-weight:720; letter-spacing:.02em; line-height:1.25; }
+  .shape-axis span { font-size:12px; font-weight:720; letter-spacing:.02em; line-height:1.25; }
   .shape-axis b { color:#70c6ff; font-size:28px; }
   .shape-key { display:grid; grid-template-columns:minmax(190px,1.35fr) repeat(2,minmax(130px,.72fr)); gap:10px 22px; align-items:center; margin:0 22px 22px; padding:17px 18px; border:1px solid rgba(115,199,255,.23); background:linear-gradient(105deg,rgba(11,70,115,.42),rgba(255,255,255,.035)); }
-  .shape-key__label { color:#86cbff; font-size:10px; font-weight:780; letter-spacing:.11em; line-height:1.45; }
+  .shape-key__label { color:#86cbff; font-size:12px; font-weight:780; letter-spacing:.11em; line-height:1.45; }
   .shape-key div { padding-left:13px; border-left:2px solid #73c7ff; }
   .shape-key b { display:block; color:#fff; font-size:13px; letter-spacing:.02em; }
-  .shape-key p { margin:3px 0 0 !important; color:rgba(255,255,255,.7); font-size:11px; line-height:1.4; }
-  .shape-key small { grid-column:1/-1; color:rgba(255,255,255,.55); font-size:11px; line-height:1.55; }
+  .shape-key p { margin:3px 0 0 !important; color:rgba(255,255,255,.7); font-size:12px; line-height:1.4; }
+  .shape-key small { grid-column:1/-1; color:rgba(255,255,255,.55); font-size:12px; line-height:1.55; }
   .position-note { display:grid; grid-template-columns:160px minmax(0,1fr); margin:40px 0 46px; overflow:hidden; border-top:2px solid var(--bbfc-ink); border-bottom:1px solid var(--bbfc-border); background:linear-gradient(118deg,#f7faff,#fff); }
   .position-note__index { display:flex; flex-direction:column; justify-content:center; padding:23px 22px; background:#0a1728; color:white; }
-  .position-note__index span { color:#78c7ff; font-size:10px; }
+  .position-note__index span { color:#78c7ff; font-size:12px; }
   .position-note__index b { margin-top:10px; color:white; font-size:34px; line-height:1; }
-  .position-note__index small { margin-top:8px; color:rgba(255,255,255,.55); font-size:10px; letter-spacing:.08em; }
+  .position-note__index small { margin-top:8px; color:rgba(255,255,255,.55); font-size:12px; letter-spacing:.08em; }
   .position-note__body { padding:24px 26px 25px; }
   .position-note__body strong { display:block; font-size:21px; line-height:1.4; letter-spacing:-.03em; }
   .position-note__body p { margin:10px 0 0 !important; color:var(--bbfc-gray-1); font-size:13px; line-height:1.8; }
@@ -205,7 +205,7 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
   .movement-ledger { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:38px 0 46px; }
   .movement-ledger article { position:relative; overflow:hidden; min-height:165px; padding:20px 18px; background:linear-gradient(145deg,#09233b,#071522); color:white; }
   .movement-ledger article::after { position:absolute; right:-23px; bottom:-38px; width:100px; height:100px; border:1px solid rgba(123,200,255,.18); border-radius:50%; content:''; }
-  .movement-ledger span { color:#86ccff; font-size:11px; }
+  .movement-ledger span { color:#86ccff; font-size:12px; }
   .movement-ledger strong { display:block; margin-top:10px; font-size:24px; }
   .movement-ledger p { position:relative; z-index:1; margin:9px 0 0 !important; color:rgba(255,255,255,.68); font-size:12px; line-height:1.65; }
   .history-pair { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:40px 0 47px; }
@@ -214,7 +214,7 @@ WM은 돌아오지 않았다. 다만 센터 하프가 내려가 만들어졌던 
   .source-notes ol { list-style:decimal; }
   @keyframes role-pulse { 0%,100%{box-shadow:0 0 0 4px rgba(115,199,255,.1)}50%{box-shadow:0 0 0 8px rgba(115,199,255,.04)} }
   @media(max-width:767px){
-    .pep-thesis{margin-bottom:31px;padding:23px 21px 24px}.pep-thesis strong{font-size:21px}.pep-thesis p{font-size:14px}.shape-lab{border-radius:14px}.shape-lab>header{padding:19px 18px 17px}.shape-lab header strong{font-size:19px}.shape-grid{grid-template-columns:1fr;gap:15px;padding:13px}.shape-grid article{min-height:510px}.shape-axis{position:static; grid-template-columns:auto auto auto; width:auto; transform:none; gap:8px}.shape-axis span{font-size:10px}.shape-key{grid-template-columns:1fr 1fr;margin:0 13px 13px;padding:15px 14px;gap:13px 10px}.shape-key__label,.shape-key small{grid-column:1/-1}.shape-key div{padding-left:9px}.dot{width:68px;font-size:11px}.movement-ledger{grid-template-columns:1fr}.movement-ledger article{min-height:auto}.history-pair{grid-template-columns:1fr}.position-note{grid-template-columns:1fr}.position-note__index{padding:18px 20px}.position-note__index b{font-size:29px}.position-note__body{padding:21px 20px 23px}.position-note__body strong{font-size:19px}
+    .pep-thesis{margin-bottom:31px;padding:23px 21px 24px}.pep-thesis strong{font-size:21px}.pep-thesis p{font-size:14px}.shape-lab{border-radius:14px}.shape-lab>header{padding:19px 18px 17px}.shape-lab header strong{font-size:19px}.shape-grid{grid-template-columns:1fr;gap:15px;padding:13px}.shape-grid article{min-height:510px}.shape-axis{position:static; grid-template-columns:auto auto auto; width:auto; transform:none; gap:8px}.shape-axis span{font-size:12px}.shape-key{grid-template-columns:1fr 1fr;margin:0 13px 13px;padding:15px 14px;gap:13px 10px}.shape-key__label,.shape-key small{grid-column:1/-1}.shape-key div{padding-left:9px}.dot{width:68px;font-size:12px}.movement-ledger{grid-template-columns:1fr}.movement-ledger article{min-height:auto}.history-pair{grid-template-columns:1fr}.position-note{grid-template-columns:1fr}.position-note__index{padding:18px 20px}.position-note__index b{font-size:29px}.position-note__body{padding:21px 20px 23px}.position-note__body strong{font-size:19px}
   }
   @media(prefers-reduced-motion:reduce){.dot.focus{animation:none}}
 </style>

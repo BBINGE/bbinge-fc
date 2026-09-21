@@ -313,7 +313,7 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 
 <style>
 .history-thesis{margin:3.5rem 0;padding:clamp(1.6rem,4vw,3rem);border-radius:1.25rem;background:linear-gradient(135deg,#0b1620,#132b35 58%,#173f43);color:#f5f2e9;box-shadow:0 1.5rem 3rem rgba(9,25,31,.18)}
-.history-thesis span{display:block;margin-bottom:1.25rem;color:#d6aa55;font-size:.72rem;font-weight:800;letter-spacing:.16em}
+.history-thesis span{display:block;margin-bottom:1.25rem;color:#d6aa55;font-size:.75rem;font-weight:800;letter-spacing:.16em}
 .history-thesis strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.65rem,4vw,2.65rem);line-height:1.3}
 .history-thesis p{max-width:44rem;margin:1.25rem 0 0;color:#c8d1d2}
 .history-portraits figure,.history-wide{margin:0}
@@ -328,7 +328,7 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 @media(max-width:700px){.history-timeline{grid-template-columns:1fr 1fr}.history-thesis{margin:2.5rem 0}}
 @media(prefers-reduced-motion:no-preference){.history-thesis,.history-closing{animation:historyReveal .8s ease-out both}@keyframes historyReveal{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}}
 .history-thesis{margin:3.15rem 0;padding:clamp(1.45rem,3vw,2.15rem);border-radius:1.05rem;box-shadow:0 1.15rem 2.25rem rgba(9,25,31,.14)}
-.history-thesis span{margin-bottom:.9rem;font-size:.67rem;letter-spacing:.14em}
+.history-thesis span{margin-bottom:.9rem;font-size:.75rem;letter-spacing:.14em}
 .history-thesis strong{font-size:clamp(1.35rem,3vw,2rem);line-height:1.4}
 .article-body .history-thesis p{margin:1.05rem 0 0;color:#c8d1d2!important;font-size:.9rem;line-height:1.75}
 .history-wide{margin:3rem 0 3.5rem}
@@ -337,11 +337,11 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 .article-body .history-timeline p{font-size:.78rem;line-height:1.6}
 @media(max-width:700px){.history-thesis{margin:2.6rem 0;padding:1.4rem}.history-thesis strong{font-size:1.32rem}}
 .history-argument,.history-network,.history-regions,.history-archive{margin:3.4rem 0;padding:1.45rem;border:1px solid #d8d5cb;border-radius:1.05rem;background:#fbfaf6}
-.history-argument header span,.history-network header span,.history-regions header span,.history-archive header span{color:#9b6b1f;font-size:.66rem;font-weight:800;letter-spacing:.14em}
+.history-argument header span,.history-network header span,.history-regions header span,.history-archive header span{color:#9b6b1f;font-size:.75rem;font-weight:800;letter-spacing:.14em}
 .history-argument h3,.history-network h3,.history-regions h3,.history-archive h3{margin:.45rem 0 .55rem;font-size:1.1rem;line-height:1.5}
 .history-argument header p,.history-network header p,.history-regions header p,.history-archive header p{margin:0;color:#68747a;font-size:.84rem;line-height:1.65}
 .history-argument__labels,.history-argument article{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:1rem}
-.history-argument__labels{margin-top:1.25rem;padding:.55rem .75rem;background:#14262d;color:#f3efe4;font-size:.68rem;letter-spacing:.05em}
+.history-argument__labels{margin-top:1.25rem;padding:.55rem .75rem;background:#14262d;color:#f3efe4;font-size:.75rem;letter-spacing:.05em}
 .history-argument article{padding:1rem .75rem;border-bottom:1px solid #dfddd5}
 .history-argument article:last-child{border-bottom:0}
 .history-argument article strong{font-size:.88rem;line-height:1.55}
@@ -349,9 +349,9 @@ FIFA의 승인이 나온 뒤, 칠레 축구협회장 프란시스코 플루사<s
 .history-argument article em{color:#8c651f;font-style:normal}
 .history-block-cite{margin:.5rem 0 0!important;text-align:right}
 .history-takeaway{position:relative;display:grid;grid-template-columns:8rem 1fr;gap:1rem;align-items:start;overflow:hidden;margin:2.5rem 0 3.25rem;padding:1.35rem 1.5rem;border:0;border-radius:14px;background:linear-gradient(135deg,#1b2230 0%,#2f3a4d 46%,#12171f 100%);box-shadow:0 14px 32px rgba(0,0,0,.2);color:#fff}.history-takeaway::before{position:absolute;z-index:0;right:-30px;bottom:-40px;width:170px;height:170px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none' stroke='%23ffffff' stroke-width='2.4'%3E%3Ccircle cx='60' cy='60' r='52'/%3E%3Cpath d='M8 60h104'/%3E%3Cpath d='M60 8c14 14 21 32 21 52s-7 38-21 52c-14-14-21-32-21-52S46 22 60 8z'/%3E%3Cpath d='M19 30c11 8 25 12 41 12s30-4 41-12M19 90c11-8 25-12 41-12s30 4 41 12'/%3E%3C/svg%3E") no-repeat center/contain;content:'';opacity:.1;pointer-events:none}.history-takeaway>*{position:relative;z-index:1}
-.history-takeaway span{display:inline-flex;align-items:flex-start;gap:6px;padding-top:.15rem;color:#e6cfa0;font-size:.66rem;font-weight:800;letter-spacing:.08em}.history-takeaway span::before{flex:0 0 auto;width:13px;height:13px;margin-top:1px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e6cfa0' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6.5 3.5h11v17l-5.5-4-5.5 4z'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
+.history-takeaway span{display:inline-flex;align-items:flex-start;gap:6px;padding-top:.15rem;color:#e6cfa0;font-size:.75rem;font-weight:800;letter-spacing:.08em}.history-takeaway span::before{flex:0 0 auto;width:13px;height:13px;margin-top:1px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e6cfa0' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6.5 3.5h11v17l-5.5-4-5.5 4z'/%3E%3C/svg%3E") no-repeat center/contain;content:''}
 .article-body .history-takeaway p{margin:0;color:rgba(255,255,255,.88);font-size:.86rem;font-weight:560;line-height:1.7}
-.history-timeline div>em{display:block;margin-top:.85rem;padding-top:.7rem;border-top:1px solid #ddd7c9;color:#765a26;font-size:.72rem;font-style:normal;line-height:1.55}
+.history-timeline div>em{display:block;margin-top:.85rem;padding-top:.7rem;border-top:1px solid #ddd7c9;color:#765a26;font-size:.75rem;font-style:normal;line-height:1.55}
 @media(max-width:700px){.history-argument,.history-network,.history-regions,.history-archive{margin:2.8rem 0;padding:1.1rem}.history-argument__labels{display:none}.history-argument article{display:block;padding:1rem 0}.history-argument article p{margin:.45rem 0}.history-takeaway{grid-template-columns:1fr;gap:.45rem;margin:2.2rem 0 2.8rem}}
 /* BBinge FC brand-blue pass */
 .history-argument,.history-network,.history-regions,.history-archive{border-color:#c9dcf8;background:#f7faff}

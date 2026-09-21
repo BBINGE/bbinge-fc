@@ -199,20 +199,20 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .fashion-article .fashion-profile { grid-template-columns:minmax(300px,.82fr) minmax(0,1.18fr); margin-bottom:54px; border-top-color:var(--cc-green); }
   .fashion-article .fashion-profile__portrait { min-height:100%; }
   .fashion-article .fashion-profile__body { padding:27px 30px 25px; }
-  .cc-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .cc-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:12px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .fashion-article .article-body .cc-opening { width:min(720px,calc(100vw - 32px)); margin:34px auto 48px; }
   .cc-opening img { display:block; width:100%; height:auto; margin:0; border-radius:var(--bbfc-radius-lg); }
   .cc-opening figcaption { padding:13px 10px 0; color:var(--bbfc-gray-2); font-size:13px; line-height:1.65; text-align:center; }
   .cc-look-map { position:relative; left:50%; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:36px 0 54px; overflow:hidden; border:1px solid rgba(6,60,43,.22); border-radius:var(--bbfc-radius-lg); background:var(--cc-cream); box-shadow:0 26px 70px -54px rgba(6,60,43,.8); transform:translateX(-50%); }
   .cc-look-map header { position:relative; grid-column:1/-1; display:grid; grid-template-columns:1fr auto; gap:5px 26px; padding:25px 27px 23px; overflow:hidden; background:var(--cc-green-dark); color:#fff; }
   .cc-look-map header::after { position:absolute; top:-44px; right:55px; width:130px; height:130px; border:20px solid rgba(216,43,50,.78); border-radius:50%; content:''; }
-  .cc-look-map header span { color:#e7c890; font-size:10px; font-weight:800; letter-spacing:.16em; }
+  .cc-look-map header span { color:#e7c890; font-size:12px; font-weight:800; letter-spacing:.16em; }
   .cc-look-map header strong { grid-column:1; font-size:23px; letter-spacing:.04em; }
-  .cc-look-map header small { z-index:1; grid-column:2; grid-row:1/3; align-self:center; color:#d8eee4; font-size:11px; }
+  .cc-look-map header small { z-index:1; grid-column:2; grid-row:1/3; align-self:center; color:#d8eee4; font-size:12px; }
   .cc-look-map article { min-width:0; padding:24px 20px 23px; }
   .cc-look-map article + article { border-left:1px solid rgba(6,60,43,.14); }
   .cc-look-map article>b { color:var(--cc-red); font-size:13px; }
-  .cc-look-map article>span { display:block; margin-top:6px; color:var(--cc-green); font-size:9px; font-weight:800; letter-spacing:.15em; }
+  .cc-look-map article>span { display:block; margin-top:6px; color:var(--cc-green); font-size:12px; font-weight:800; letter-spacing:.15em; }
   .article-body .cc-look-map h3 { margin:9px 0 8px; font-size:17px; line-height:1.3; }
   .cc-look-map p { margin:0; color:#536058; font-size:12px; line-height:1.68; }
   .cc-photo-pair { position:relative; left:50%; display:grid; grid-template-columns:1.3fr .78fr; align-items:start; gap:14px; width:min(1000px,calc(100vw - 32px)); margin:36px 0 52px; transform:translateX(-50%); }
@@ -228,19 +228,19 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .cc-hem-study__visual span { background:repeating-radial-gradient(circle at 25% 50%,rgba(1,47,33,.36) 0 2px,transparent 3px 14px),var(--cc-green); }
   .cc-hem-study__visual b { position:relative; background:linear-gradient(103deg,#121212,#38312f 48%,#171717); font-size:12px; }
   .cc-hem-study__visual b::after { position:absolute; inset:0; background:repeating-linear-gradient(76deg,transparent 0 38px,rgba(255,255,255,.13) 40px,transparent 43px); content:''; }
-  .cc-hem-study__visual em { background:#d7a47d; color:#3d231b; font-size:11px; }
+  .cc-hem-study__visual em { background:#d7a47d; color:#3d231b; font-size:12px; }
   .cc-hem-study__visual i { display:none; }
   .cc-hem-study__copy { align-self:center; padding:40px 42px; }
-  .cc-hem-study__copy>span { color:#72cba9; font-size:10px; font-weight:800; letter-spacing:.15em; }
+  .cc-hem-study__copy>span { color:#72cba9; font-size:12px; font-weight:800; letter-spacing:.15em; }
   .article-body .cc-hem-study h3 { margin:13px 0 15px; color:#fff; font-size:25px; line-height:1.35; }
   .cc-hem-study__copy p { margin:0; color:#cbd2ce; font-size:14px; line-height:1.8; }
   .cc-hem-study__copy>div { display:flex; flex-wrap:wrap; gap:7px; margin-top:22px; }
-  .cc-hem-study__copy>div b { padding:7px 9px; border:1px solid rgba(255,255,255,.18); border-radius:999px; color:#e8c990; font-size:9px; letter-spacing:.1em; }
+  .cc-hem-study__copy>div b { padding:7px 9px; border:1px solid rgba(255,255,255,.18); border-radius:999px; color:#e8c990; font-size:12px; letter-spacing:.1em; }
   .cc-pattern-clash { position:relative; left:50%; display:grid; grid-template-columns:1fr 1fr; width:min(900px,calc(100vw - 32px)); margin:36px 0 54px; overflow:hidden; border-radius:var(--bbfc-radius-lg); transform:translateX(-50%); }
   .cc-pattern-clash__green,.cc-pattern-clash__leopard { min-height:250px; padding:34px; color:#fff; }
   .cc-pattern-clash__green { background:repeating-radial-gradient(circle at 70% 50%,rgba(0,30,20,.38) 0 3px,transparent 4px 22px),var(--cc-green); }
   .cc-pattern-clash__leopard { background:radial-gradient(ellipse at 18% 20%,#2f1d15 0 7%,#af7a3e 8% 15%,transparent 16%),radial-gradient(ellipse at 68% 32%,#2d1d16 0 8%,#c18b4c 9% 17%,transparent 18%),radial-gradient(ellipse at 38% 78%,#382218 0 9%,#b5793e 10% 18%,transparent 19%),#d4ab72; color:#26170f; }
-  .cc-pattern-clash span { display:block; font-size:9px; font-weight:800; letter-spacing:.17em; }
+  .cc-pattern-clash span { display:block; font-size:12px; font-weight:800; letter-spacing:.17em; }
   .cc-pattern-clash strong { display:block; margin-top:70px; font-size:27px; line-height:1.05; }
   .cc-pattern-clash__note { grid-column:1/-1; display:grid; grid-template-columns:.7fr 1.3fr; gap:26px; align-items:center; padding:26px 32px; background:#181512; color:#fff; }
   .cc-pattern-clash__note b { color:#e3bf83; font-size:18px; }
@@ -250,25 +250,25 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .cc-video__copy { align-self:center; padding:34px 34px 36px; }
   .cc-kicker { display:flex; align-items:center; gap:10px; }
   .cc-kicker b { color:#dfbd7d; font-size:24px; }
-  .cc-kicker span { font-size:9px; font-weight:800; letter-spacing:.14em; }
+  .cc-kicker span { font-size:12px; font-weight:800; letter-spacing:.14em; }
   .article-body .cc-video h3 { margin:15px 0 13px; color:#fff; font-size:25px; line-height:1.35; }
   .cc-video__copy p { margin:15px 0 20px; color:#d3e5dc; font-size:13px; line-height:1.75; }
   .cc-motion-tags { display:flex; flex-wrap:wrap; gap:6px; }
-  .cc-motion-tags span { padding:6px 8px; border:1px solid rgba(255,255,255,.22); border-radius:999px; color:#dfbd7d; font-size:8px; font-weight:800; letter-spacing:.08em; }
+  .cc-motion-tags span { padding:6px 8px; border:1px solid rgba(255,255,255,.22); border-radius:999px; color:#dfbd7d; font-size:12px; font-weight:800; letter-spacing:.08em; }
   .cc-video__copy>a { color:#fff; font-size:12px; font-weight:700; text-decoration:underline; text-underline-offset:5px; }
   .cc-video__media { position:relative; min-height:420px; background:#0b0d0c; }
   .cc-video__media>[data-inline-video-poster],.cc-video__media .inline-video__player,.cc-video__media iframe { position:absolute; inset:0; width:100%; height:100%; }
   .cc-video__media>[data-inline-video-poster] { padding:0; overflow:hidden; border:0; background:#0b0d0c; cursor:pointer; text-decoration:none; }
   .cc-video__media img { width:100%; height:100%; margin:0; object-fit:cover; opacity:.82; }
-  .cc-video__media>[data-inline-video-poster]>span { position:absolute; left:22px; bottom:22px; display:flex; align-items:center; gap:9px; padding:10px 14px; border-radius:999px; background:#fff; color:#111; font-size:11px; font-weight:800; }
-  .cc-video__media>[data-inline-video-poster]>span b { display:grid; place-items:center; width:24px; height:24px; border-radius:50%; background:var(--cc-red); color:#fff; font-size:9px; }
+  .cc-video__media>[data-inline-video-poster]>span { position:absolute; left:22px; bottom:22px; display:flex; align-items:center; gap:9px; padding:10px 14px; border-radius:999px; background:#fff; color:#111; font-size:12px; font-weight:800; }
+  .cc-video__media>[data-inline-video-poster]>span b { display:grid; place-items:center; width:24px; height:24px; border-radius:50%; background:var(--cc-red); color:#fff; font-size:12px; }
   .cc-video__media .inline-video__player { background:#000; }
   .cc-video__media iframe { border:0; }
   .cc-video__media .inline-video__close { position:absolute; z-index:2; top:10px; right:10px; width:34px; height:34px; border:0; border-radius:50%; background:rgba(0,0,0,.72); color:#fff; font-size:21px; cursor:pointer; }
   .cc-shop { grid-template-columns:1.05fr .95fr; align-items:center; border:1px solid rgba(6,60,43,.18); background:#f7faf7; box-shadow:0 24px 64px -50px rgba(6,60,43,.78); }
   .article-body .cc-shop__image { display:flex; flex-direction:column; margin:0; background:#e7eee8; }
   .cc-shop__image img { display:block; width:100%; height:520px; margin:0; object-fit:cover; }
-  .cc-shop__image figcaption { padding:13px 17px 16px; color:#69716c; font-size:11px; line-height:1.6; }
+  .cc-shop__image figcaption { padding:13px 17px 16px; color:#69716c; font-size:12px; line-height:1.6; }
   .cc-shop__copy { align-self:center; padding:32px 34px; }
   .cc-shop__copy .cc-kicker span { color:var(--cc-green); }
   .article-body .cc-shop h3 { margin:15px 0 18px; font-size:23px; line-height:1.35; }
@@ -276,20 +276,20 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
   .cc-product-spec span { padding:13px 8px; }
   .cc-product-spec span + span { border-left:1px solid #d8e1da; }
   .cc-product-spec small,.cc-product-spec b { display:block; }
-  .cc-product-spec small { color:#86928b; font-size:8px; font-weight:800; letter-spacing:.11em; }
-  .cc-product-spec b { margin-top:4px; color:var(--cc-green-dark); font-size:11px; }
+  .cc-product-spec small { color:#86928b; font-size:12px; font-weight:800; letter-spacing:.11em; }
+  .cc-product-spec b { margin-top:4px; color:var(--cc-green-dark); font-size:12px; }
   .cc-shop__copy>p { margin:0 0 17px; color:#545c57; font-size:13px; line-height:1.7; }
   .cc-shop__copy>p b { color:#141714; }
   .cc-shop-cta { display:flex; min-height:76px; justify-content:space-between; align-items:center; gap:18px; margin-top:12px; padding:16px 17px 16px 19px; border:2px solid var(--cc-green); border-radius:14px; background:linear-gradient(112deg,#08764f,#059166); box-shadow:0 13px 28px -18px rgba(6,60,43,.9); color:#fff !important; text-decoration:none !important; transition:transform .18s ease,box-shadow .18s ease,background .18s ease; }
   .cc-shop-cta--outline { border-color:#5f8f7c; background:#fff; box-shadow:none; color:var(--cc-green-dark) !important; }
   .cc-shop-cta span { min-width:0; }
   .cc-shop-cta span small,.cc-shop-cta span b { display:block; }
-  .cc-shop-cta span small { margin-bottom:5px; font-size:9px; font-weight:850; letter-spacing:.115em; opacity:.84; }
+  .cc-shop-cta span small { margin-bottom:5px; font-size:12px; font-weight:850; letter-spacing:.115em; opacity:.84; }
   .cc-shop-cta span b { font-size:15px; font-weight:800; line-height:1.35; letter-spacing:-.02em; }
   .cc-shop-cta i { display:grid; width:40px; height:40px; flex:0 0 auto; place-items:center; border-radius:50%; background:#fff; color:var(--cc-green-dark); font-size:23px; font-style:normal; box-shadow:0 7px 18px -10px rgba(0,0,0,.8); }
   .cc-shop-cta--outline i { background:var(--cc-green-dark); color:#fff; }
   .cc-shop-cta:hover { transform:translateY(-2px); box-shadow:0 18px 34px -19px rgba(6,60,43,.95); }
-  .cc-shop-note { display:block; margin-top:13px; color:#7a817d; font-size:10px; line-height:1.6; }
+  .cc-shop-note { display:block; margin-top:13px; color:#7a817d; font-size:12px; line-height:1.6; }
   .cc-enter { animation:cc-rise .7s both; animation-timeline:view(); animation-range:entry 8% cover 30%; }
   @keyframes cc-rise { from { opacity:.3; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
   @media (max-width:760px) {
@@ -304,7 +304,7 @@ Who What Wear가 확인한 신발은 미우미우의 스트랩 샌들이다. 앞
     .cc-look-map article:nth-of-type(4) { border-top:1px solid rgba(6,60,43,.14); }
     .cc-photo-pair { grid-template-columns:1fr 1fr; gap:8px; }
     .cc-photo-pair img { height:390px; }
-    .cc-photo-pair figcaption { padding:11px; font-size:10px; }
+    .cc-photo-pair figcaption { padding:11px; font-size:12px; }
     .cc-hem-study,.cc-video,.cc-shop { grid-template-columns:1fr; }
     .cc-hem-study__visual { min-height:250px; }
     .cc-hem-study__copy,.cc-video__copy,.cc-shop__copy { padding:28px 24px 30px; }

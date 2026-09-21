@@ -175,28 +175,28 @@ fashionProfile:
   .jh-outfit-map{position:relative;left:50%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));width:min(1040px,calc(100vw - 32px));margin:42px 0 62px;overflow:hidden;border:1px solid #452020;border-radius:18px;background:#160b0b;color:#fff;transform:translateX(-50%)}
   .jh-outfit-map article{min-width:0;padding:24px 20px 26px;background:linear-gradient(145deg,rgba(181,22,29,.18),transparent 66%)}
   .jh-outfit-map article+article{border-left:1px solid rgba(255,255,255,.14)}
-  .jh-outfit-map span,.jh-video__copy>small,.jh-shop header>small{color:#ff6b62;font-size:10px;font-weight:850;letter-spacing:.13em}
+  .jh-outfit-map span,.jh-video__copy>small,.jh-shop header>small{color:#ff6b62;font-size:12px;font-weight:850;letter-spacing:.13em}
   .jh-outfit-map strong{display:block;margin-top:12px;color:#fff;font-size:16px;line-height:1.35}
   .jh-outfit-map p{margin:8px 0 0!important;color:rgba(255,255,255,.64);font-size:12px;line-height:1.55}
   .jh-stage{position:relative;left:50%;width:min(1040px,calc(100vw - 32px));margin:42px 0 64px;overflow:hidden;border-radius:20px;background:#a10f18;box-shadow:0 26px 58px rgba(91,4,9,.24);transform:translateX(-50%)}
   .jh-stage img{display:block;width:100%;height:auto;margin:0}
   .jh-stage figcaption{position:absolute;top:0;bottom:0;left:0;display:flex;width:48%;padding:clamp(28px,5vw,62px);flex-direction:column;justify-content:center;background:linear-gradient(90deg,rgba(75,2,7,.86),rgba(75,2,7,.43) 72%,transparent);color:#fff}
-  .jh-stage figcaption small{color:#ffaea8;font-size:10px;font-weight:850;letter-spacing:.15em}
+  .jh-stage figcaption small{color:#ffaea8;font-size:12px;font-weight:850;letter-spacing:.15em}
   .jh-stage figcaption strong{margin-top:16px;color:#fff;font-size:clamp(28px,4.4vw,48px);line-height:1.08;letter-spacing:-.045em}
   .jh-stage figcaption span{max-width:390px;margin-top:19px;color:rgba(255,255,255,.78);font-size:13px;line-height:1.75}
-  .jh-stage figcaption em{margin-top:18px;color:rgba(255,255,255,.5);font-size:9px;font-style:normal;line-height:1.45}
+  .jh-stage figcaption em{margin-top:18px;color:rgba(255,255,255,.5);font-size:12px;font-style:normal;line-height:1.45}
   .jh-detail-grid{position:relative;left:50%;display:grid;grid-template-columns:1fr 1fr;gap:14px;width:min(1040px,calc(100vw - 32px));margin:42px 0 62px;transform:translateX(-50%)}
   .jh-detail-grid figure{margin:0;overflow:hidden;border:1px solid var(--bbfc-border);border-radius:18px;background:var(--bbfc-fill-2)}
   .jh-detail-grid img{display:block;width:100%;height:520px;margin:0;object-fit:cover}
   .jh-detail-grid figcaption{padding:15px 16px 17px;color:var(--bbfc-gray-1);font-size:12px;line-height:1.65}
-  .jh-detail-grid figcaption small{display:block;margin-top:5px;color:var(--bbfc-gray-2);font-size:9px}
+  .jh-detail-grid figcaption small{display:block;margin-top:5px;color:var(--bbfc-gray-2);font-size:12px}
   .jh-team{position:relative;left:50%;display:grid;grid-template-columns:1fr;width:min(1040px,calc(100vw - 32px));margin:44px 0 64px;overflow:hidden;border-radius:20px;background:#13090a;color:#fff;transform:translateX(-50%)}
   .jh-team img{display:block;width:100%;height:auto;margin:0;object-fit:cover}
   .jh-team figcaption{display:flex;padding:38px 34px;flex-direction:column;justify-content:center;background:radial-gradient(circle at 100% 0,rgba(208,28,34,.45),transparent 42%),#13090a}
-  .jh-team figcaption>span{color:#ff6b62;font-size:10px;font-weight:850;letter-spacing:.14em}
+  .jh-team figcaption>span{color:#ff6b62;font-size:12px;font-weight:850;letter-spacing:.14em}
   .jh-team figcaption>strong{margin-top:15px;color:#fff;font-size:clamp(25px,3.4vw,38px);line-height:1.15;letter-spacing:-.045em}
   .jh-team figcaption>p{margin:18px 0 0!important;color:rgba(255,255,255,.68);font-size:13px;line-height:1.75}
-  .jh-team figcaption>small{margin-top:18px;color:rgba(255,255,255,.42);font-size:9px}
+  .jh-team figcaption>small{margin-top:18px;color:rgba(255,255,255,.42);font-size:12px}
   .jh-video{position:relative;left:50%;display:grid;grid-template-columns:minmax(270px,.72fr) minmax(0,1.28fr);width:min(1040px,calc(100vw - 32px));margin:42px 0 34px;overflow:hidden;border:1px solid #402125;border-radius:18px;background:#170a0c;color:#fff;transform:translateX(-50%)}
   .jh-video__copy{display:flex;padding:31px 28px 33px;flex-direction:column;justify-content:center}
   .jh-video__copy>strong{margin-top:13px;color:#fff;font-size:23px;line-height:1.25;letter-spacing:-.035em}
@@ -214,7 +214,7 @@ fashionProfile:
   .jh-video__media .inline-video__close{position:absolute;z-index:2;top:10px;right:10px;display:grid;width:38px;height:38px;padding:0;place-items:center;border:1px solid rgba(255,255,255,.5);border-radius:50%;cursor:pointer;background:rgba(10,3,4,.84);color:#fff;font-size:24px;line-height:1}
   .jh-recipe{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:38px 0 60px}
   .jh-recipe article{padding:24px 21px 25px;background:var(--bbfc-fill-2)}
-  .jh-recipe article>span{color:#b51a22;font-size:11px;font-weight:850;letter-spacing:.1em}
+  .jh-recipe article>span{color:#b51a22;font-size:12px;font-weight:850;letter-spacing:.1em}
   .article-body .jh-recipe h3{margin:14px 0 0;color:var(--bbfc-ink);font-size:17px;line-height:1.45}
   .jh-recipe p{margin:11px 0 0!important;color:var(--bbfc-gray-1);font-size:12px;line-height:1.72}
   .jh-shop{position:relative;left:50%;width:min(1040px,calc(100vw - 32px));margin:48px 0 14px;transform:translateX(-50%)}
@@ -226,13 +226,13 @@ fashionProfile:
   .jh-shop figure{position:relative;margin:0;overflow:hidden;background:#f4f4f1}
   .jh-shop figure img{display:block;width:100%;height:100%;min-height:390px;margin:0;object-fit:cover;transition:transform .45s ease}
   .jh-shop article:hover figure img{transform:scale(1.018)}
-  .jh-shop figure figcaption{position:absolute;right:10px;bottom:10px;left:10px;padding:8px 9px;border-radius:6px;background:rgba(14,17,21,.82);color:#fff;font-size:8px;font-weight:800;letter-spacing:.07em;line-height:1.35;backdrop-filter:blur(6px)}
+  .jh-shop figure figcaption{position:absolute;right:10px;bottom:10px;left:10px;padding:8px 9px;border-radius:6px;background:rgba(14,17,21,.82);color:#fff;font-size:12px;font-weight:800;letter-spacing:.07em;line-height:1.35;backdrop-filter:blur(6px)}
   .jh-shop article>section{display:flex;padding:25px 22px 24px;flex-direction:column;justify-content:center}
-  .jh-shop article>section>small{color:#b51a22;font-size:9px;font-weight:850;letter-spacing:.1em}
+  .jh-shop article>section>small{color:#b51a22;font-size:12px;font-weight:850;letter-spacing:.1em}
   .article-body .jh-shop h3{margin:12px 0 0;color:var(--bbfc-ink);font-size:18px;line-height:1.35}
-  .jh-shop article>section>p{margin:13px 0 0!important;color:var(--bbfc-gray-1);font-size:11.5px;line-height:1.7}
-  .article-body .jh-shop article>section>a{display:flex;align-items:center;justify-content:space-between;margin-top:19px;padding:12px 13px;background:#17191d;color:#fff;font-size:11px;font-weight:800;text-decoration:none}
-  .jh-shop-note{color:var(--bbfc-gray-2)!important;font-size:10px!important;text-align:center}
+  .jh-shop article>section>p{margin:13px 0 0!important;color:var(--bbfc-gray-1);font-size:12px;line-height:1.7}
+  .article-body .jh-shop article>section>a{display:flex;align-items:center;justify-content:space-between;margin-top:19px;padding:12px 13px;background:#17191d;color:#fff;font-size:12px;font-weight:800;text-decoration:none}
+  .jh-shop-note{color:var(--bbfc-gray-2)!important;font-size:12px!important;text-align:center}
   @keyframes jh-enter{from{opacity:.55;translate:0 14px}to{opacity:1;translate:0 0}}
   @media(prefers-reduced-motion:no-preference){.jh-enter{animation:jh-enter .72s cubic-bezier(.22,1,.36,1) both}}
   @media(max-width:820px){.jh-outfit-map{grid-template-columns:repeat(2,minmax(0,1fr))}.jh-outfit-map article:nth-child(3){border-top:1px solid rgba(255,255,255,.14);border-left:0}.jh-outfit-map article:nth-child(4){border-top:1px solid rgba(255,255,255,.14)}.jh-shop article{grid-template-columns:1fr}.jh-shop figure img{height:310px;min-height:0}}

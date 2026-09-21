@@ -26,12 +26,12 @@
 
 /* 사실 줄 */
 .rv-facts { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 0; padding: 0; list-style: none; }
-.rv-facts li { display: inline-flex; align-items: baseline; gap: 6px; padding: 5px 10px; border: 1px solid var(--dg-line); border-radius: 999px; color: var(--dg-soft); font-size: 11.5px; }
+.rv-facts li { display: inline-flex; align-items: baseline; gap: 6px; padding: 5px 10px; border: 1px solid var(--dg-line); border-radius: 999px; color: var(--dg-soft); font-size: 12px; }
 .rv-facts li b { color: #fff; font-size: 12.5px; font-weight: 750; font-variant-numeric: tabular-nums; }
 
 /* 연대 막대 */
 .rv-era { position: relative; margin: 16px 0 0; }
-.rv-era__side { display: block; color: var(--dg-accent); font-size: 10.5px; font-weight: 750; letter-spacing: .04em; opacity: .85; }
+.rv-era__side { display: block; color: var(--dg-accent); font-size: 12px; font-weight: 750; letter-spacing: .04em; opacity: .85; }
 .rv-era__side--bottom { text-align: left; }
 .rv-era__track { position: relative; height: 54px; margin: 4px 0; }
 .rv-era__axis { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--dg-line); }
@@ -43,13 +43,13 @@
 .rv-era__hit.is-a { top: 8px; background: #fff; }
 .rv-era__hit.is-b { bottom: 8px; background: #fff; }
 .rv-era__hit.is-final { width: 11px; height: 11px; margin-left: -5.5px; box-shadow: 0 0 0 2px rgba(255,255,255,.25); }
-.rv-era__years { position: relative; height: 13px; color: var(--dg-soft); font-size: 10px; opacity: .65; }
+.rv-era__years { position: relative; height: 13px; color: var(--dg-soft); font-size: 12px; opacity: .65; }
 .rv-era__years span { position: absolute; left: var(--x); transform: translateX(-50%); }
 .rv-era__years span:first-child { transform: none; }
 .rv-era__years span:last-child { transform: translateX(-100%); }
 
 /* 결승·4강 줄 */
-.rv-decisive { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; color: var(--dg-soft); font-size: 11.5px; word-break: keep-all; }
+.rv-decisive { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; color: var(--dg-soft); font-size: 12px; word-break: keep-all; }
 .rv-decisive span { display: inline-flex; align-items: baseline; gap: 5px; padding: 4px 9px; border-radius: 6px; background: rgba(0,0,0,.24); }
 .rv-decisive b { color: #fff; font-weight: 700; }
 .rv-decisive__more { opacity: .7; }
@@ -62,5 +62,5 @@
 
 @media (max-width: 640px) {
   .rv-era__track { height: 46px; }
-  .rv-facts li { font-size: 11px; }
+  .rv-facts li { font-size: 12px; }
 }

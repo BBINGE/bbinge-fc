@@ -222,7 +222,7 @@ featured: false
   .custom-xi-final-dossier figure img { width: 100%; border-radius: calc(var(--bbfc-radius) - 4px); }
   .custom-xi-final-dossier figcaption { margin-top: .9rem; color: #b9cae2; font-size: .82rem; line-height: 1.65; }
   .custom-xi-final-dossier > section { padding: 2rem; background: #f5f9ff; }
-  .custom-xi-final-dossier > section > span { display: block; color: var(--bbfc-blue); font-size: .72rem; font-weight: 800; letter-spacing: .12em; }
+  .custom-xi-final-dossier > section > span { display: block; color: var(--bbfc-blue); font-size: .75rem; font-weight: 800; letter-spacing: .12em; }
   .custom-xi-final-dossier > section > small { display: block; margin-top: .45rem; color: var(--bbfc-gray-1); font-size: .78rem; letter-spacing: .08em; }
   .custom-xi-final-score { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center; margin: 1.6rem 0; padding: 1.3rem 0; border-top: 1px solid var(--bbfc-border); border-bottom: 1px solid var(--bbfc-border); text-align: center; }
   .custom-xi-final-score b { font-size: 1rem; line-height: 1.35; }

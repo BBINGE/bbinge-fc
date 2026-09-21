@@ -39,9 +39,9 @@ const route = getReadingRoute(Astro.props.currentId);
   .season-route__card{display:grid;grid-template-rows:auto 1fr;overflow:hidden;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:#fff!important;transition:transform .28s ease,border-color .28s ease,background .28s ease}
   .season-route__card figure{position:relative;aspect-ratio:1.6/1;margin:0;overflow:hidden;background:#050817}
   .season-route__card img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;transition:transform .55s cubic-bezier(.22,1,.36,1)}
-  .season-route__card figure span{position:absolute;top:12px;left:12px;display:grid;width:34px;height:34px;place-items:center;border:1px solid rgba(255,255,255,.6);border-radius:50%;background:rgba(5,10,40,.72);color:#fff;font-size:11px;font-weight:800}
+  .season-route__card figure span{position:absolute;top:12px;left:12px;display:grid;width:34px;height:34px;place-items:center;border:1px solid rgba(255,255,255,.6);border-radius:50%;background:rgba(5,10,40,.72);color:#fff;font-size:12px;font-weight:800}
   .season-route__card>div{display:flex;min-height:206px;flex-direction:column;padding:19px 18px 18px}
-  .season-route__card small{color:var(--route-accent);font-size:11px;font-weight:800;letter-spacing:.11em}
+  .season-route__card small{color:var(--route-accent);font-size:12px;font-weight:800;letter-spacing:.11em}
   .season-route__card.is-ballon-dor small{color:#e2bd6a}
   .season-route--european-cup .season-route__card.is-ballon-dor{border-color:rgba(226,189,106,.45);background:linear-gradient(150deg,rgba(20,16,8,.72),rgba(46,36,16,.55))}
   .season-route--european-cup .season-route__card.is-ballon-dor figure span{border-color:#e2bd6a;background:rgba(20,15,6,.8);color:#e2bd6a}
@@ -55,6 +55,6 @@ const route = getReadingRoute(Astro.props.currentId);
   .season-route__card:focus-visible{outline:2px solid var(--route-accent);outline-offset:3px}
   @keyframes season-route-arrow{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
   @media(max-width:800px){.season-route{padding:28px 20px 22px}.season-route>header{grid-template-columns:1fr;gap:16px}.season-route__grid{grid-template-columns:1fr}.season-route__card{grid-template-columns:118px minmax(0,1fr);grid-template-rows:1fr}.season-route__card figure{height:100%;aspect-ratio:auto}.season-route__card>div{min-height:176px;padding:17px 16px}.season-route__card strong{font-size:17px}}
-  @media(max-width:430px){.season-route{margin-inline:-4px}.season-route__card{grid-template-columns:102px minmax(0,1fr)}.season-route__card p{font-size:11px}}
+  @media(max-width:430px){.season-route{margin-inline:-4px}.season-route__card{grid-template-columns:102px minmax(0,1fr)}.season-route__card p{font-size:12px}}
   @media(prefers-reduced-motion:reduce){.season-route__card,.season-route__card img{transition:none}.season-route__card b i{animation:none}}
 </style>

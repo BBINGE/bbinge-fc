@@ -159,7 +159,7 @@ Nike는 이 전면 프린트를 한국 전통 미술에 등장하는 꽃에서 �
 </div>
 
 <style>
-  .ty-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .ty-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:12px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .ty-opening-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; transform:translateX(-50%); }
   .ty-photo { margin:0; }
   .ty-photo img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
@@ -167,7 +167,7 @@ Nike는 이 전면 프린트를 한국 전통 미술에 등장하는 꽃에서 �
   .ty-signal { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .ty-signal article { position:relative; z-index:1; min-width:0; padding:28px 24px 30px; }
   .ty-signal article + article { border-left:1px solid var(--bbfc-ink-2); }
-  .ty-signal article>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.12em; }
+  .ty-signal article>span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.12em; }
   .article-body .ty-signal h3 { margin:11px 0 9px; color:var(--bbfc-bg); font-size:19px; font-weight:500; line-height:1.35; }
   .ty-signal p { margin:0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.7; }
   .ty-signal__beam { position:absolute; z-index:0; top:-35%; bottom:-35%; width:20%; background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--bbfc-blue) 22%,transparent),transparent); filter:blur(8px); animation:ty-beam 6.4s linear infinite; }
@@ -176,23 +176,23 @@ Nike는 이 전면 프린트를 한국 전통 미술에 등장하는 꽃에서 �
   .ty-product:hover { transform:translateY(-5px); box-shadow:0 18px 38px color-mix(in srgb,var(--bbfc-ink) 12%,transparent); }
   .ty-product img { display:block; width:100%; aspect-ratio:1; margin:0; object-fit:cover; }
   .ty-product figcaption { min-height:78px; padding:14px 16px 17px; color:var(--bbfc-gray-1); font-size:13px; line-height:1.65; }
-  .ty-product figcaption b { display:block; margin-bottom:5px; color:var(--bbfc-ink); font-size:11px; font-weight:500; letter-spacing:.1em; }
-  .ty-product-credit { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:0 0 58px; color:var(--bbfc-gray-2); font-size:11px; text-align:right; transform:translateX(-50%); }
+  .ty-product figcaption b { display:block; margin-bottom:5px; color:var(--bbfc-ink); font-size:12px; font-weight:500; letter-spacing:.1em; }
+  .ty-product-credit { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:0 0 58px; color:var(--bbfc-gray-2); font-size:12px; text-align:right; transform:translateX(-50%); }
   .ty-fit-grid { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr); gap:14px; width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; align-items:end; transform:translateX(-50%); }
   .ty-fit-grid .ty-photo img { aspect-ratio:3/4; object-fit:cover; }
   .ty-boots { position:relative; margin:0; overflow:hidden; border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); }
   .ty-boots img { display:block; width:100%; aspect-ratio:1; margin:0; object-fit:cover; transition:transform .7s ease; }
   .ty-boots:hover img { transform:scale(1.025); }
   .ty-boots figcaption { display:grid; grid-template-columns:.7fr 1.3fr; gap:10px 22px; padding:20px 21px 22px; }
-  .ty-boots figcaption span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
+  .ty-boots figcaption span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.1em; }
   .ty-boots figcaption b { grid-row:span 2; color:var(--bbfc-bg); font-size:22px; font-weight:500; line-height:1.3; }
   .ty-boots figcaption small { color:var(--bbfc-gray-3); font-size:12px; line-height:1.65; }
   .ty-bts { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; transform:translateX(-50%); }
   .ty-bts img { display:block; width:100%; height:min(760px,72vw); margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); object-fit:cover; object-position:center 43%; }
-  .ty-bts figcaption>span { display:inline-block; margin-right:10px; color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
+  .ty-bts figcaption>span { display:inline-block; margin-right:10px; color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.1em; }
   .ty-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr); width:min(1040px,calc(100vw - 32px)); margin:42px 0 64px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .ty-video__copy { padding:27px 25px 29px; }
-  .ty-video__copy>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
+  .ty-video__copy>span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.1em; }
   .article-body .ty-video__copy h3 { margin:11px 0 0; color:var(--bbfc-bg); font-size:24px; font-weight:500; line-height:1.35; }
   .ty-video__copy p { margin:14px 0 0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.72; }
   .ty-video__copy a { display:inline-flex; margin-top:17px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }

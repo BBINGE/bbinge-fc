@@ -468,7 +468,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
   .madrid-litany strong { display: block; margin-top: 1.1rem; padding-top: 1.05rem; border-top: 1px solid rgba(254,190,16,.35); color: #febe10; font-size: clamp(1.02rem, 2vw, 1.22rem); font-weight: 800; line-height: 1.6; word-break: keep-all; }
   .madrid-twolives { position: relative; left: 50%; display: grid; width: min(900px, calc(100vw - 32px)); grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 14px; margin: 2.6rem 0 2.9rem; overflow: hidden; border: 1px solid rgba(254,190,16,.45); border-radius: 16px; padding: clamp(1.3rem, 3vw, 1.9rem); background: radial-gradient(circle at 50% 0%, rgba(254,190,16,.12), transparent 46%), #070707; color: #f7f3e8; transform: translateX(-50%); }
   .madrid-twolives section { border: 1px solid rgba(254,190,16,.2); border-radius: 12px; padding: 1.1rem 1.15rem 1.2rem; background: rgba(12,12,12,.55); }
-  .madrid-twolives section > span { display: block; color: #febe10; font-size: .72rem; font-weight: 800; letter-spacing: .13em; }
+  .madrid-twolives section > span { display: block; color: #febe10; font-size: .75rem; font-weight: 800; letter-spacing: .13em; }
   .madrid-twolives h4 { margin: .4rem 0 .85rem; color: #fff; font-size: clamp(1.05rem, 2vw, 1.28rem); font-weight: 800; letter-spacing: -.02em; }
   .madrid-twolives ul { margin: 0; padding: 0; list-style: none; }
   .article-body .madrid-twolives li { margin: 0 0 .45rem; color: rgba(255,255,255,.86); font-size: .93rem; line-height: 1.7; word-break: keep-all; }
@@ -476,7 +476,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
   .article-body .madrid-twolives section p { margin: .9rem 0 0; padding-top: .8rem; border-top: 1px solid rgba(254,190,16,.22); color: #febe10 !important; font-size: .9rem; font-weight: 700; word-break: keep-all; }
   .madrid-twolives-hinge { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .3rem; width: 136px; text-align: center; }
   .madrid-twolives-hinge strong { color: #febe10; font-size: 1.5rem; font-weight: 850; letter-spacing: -.02em; }
-  .madrid-twolives-hinge span { color: rgba(255,255,255,.62); font-size: .74rem; line-height: 1.5; word-break: keep-all; }
+  .madrid-twolives-hinge span { color: rgba(255,255,255,.62); font-size: .75rem; line-height: 1.5; word-break: keep-all; }
   .madrid-twolives > strong { grid-column: 1 / -1; margin-top: .35rem; padding-top: 1.05rem; border-top: 1px solid rgba(254,190,16,.35); color: #febe10; font-size: clamp(1.02rem, 2vw, 1.22rem); font-weight: 800; line-height: 1.6; text-align: center; word-break: keep-all; }
   .article-body table.madrid-season { position: relative; left: 50%; width: min(900px, calc(100vw - 32px)); margin: 2.4rem 0 2.7rem; overflow: hidden; border: 1px solid rgba(254,190,16,.4); border-collapse: separate; border-radius: 0 0 16px 16px; border-spacing: 0; border-top: 0; background: #070707; color: #f7f3e8; font-size: .93rem; transform: translateX(-50%); }
   .madrid-season caption { border: 1px solid rgba(254,190,16,.4); border-bottom: 0; border-radius: 16px 16px 0 0; padding: 1.05rem 1.2rem .75rem; background: #070707; color: #febe10; font-size: .76rem; font-weight: 800; letter-spacing: .1em; text-align: left; }
@@ -490,7 +490,7 @@ UEFA 챔피언스 리그 최다 우승 14회. 라리가 최다 우승 35회. 수
   .madrid-clip-link { position: relative; left: 50%; display: block; width: min(900px, calc(100vw - 32px)); margin: 3rem 0; overflow: hidden; border: 1px solid rgba(254,190,16,.5); border-radius: 16px; background: linear-gradient(135deg, #0a0a0a, #1b1608 64%, #070707); color: #fff; text-decoration: none; box-shadow: 0 18px 40px rgba(0,0,0,.3); transform: translateX(-50%); }
   .madrid-clip-link:hover { box-shadow: 0 26px 52px rgba(0,0,0,.4); }
   .madrid-clip-body { display: flex; flex-direction: column; padding: clamp(1.4rem, 3vw, 2rem); }
-  .madrid-clip-link em { color: #febe10; font-size: .72rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
+  .madrid-clip-link em { color: #febe10; font-size: .75rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
   .madrid-clip-link strong { margin-top: .55rem; color: #fff; font-size: clamp(1.08rem, 2vw, 1.38rem); font-weight: 800; line-height: 1.45; word-break: keep-all; }
   .madrid-clip-note { margin-top: .6rem; color: rgba(255,255,255,.7); font-size: .88rem; line-height: 1.65; word-break: keep-all; }
   .madrid-clip-cta { display: inline-flex; align-items: center; align-self: flex-start; gap: .45rem; margin-top: 1.2rem; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; padding: .5rem 1.05rem; color: #fff; font-size: .88rem; font-weight: 700; }

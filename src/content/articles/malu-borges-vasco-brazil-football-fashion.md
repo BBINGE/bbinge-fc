@@ -144,10 +144,10 @@ fashionProfile:
   .fashion-rule-cards section { padding:26px 23px 28px; background:#100d0d; }
   .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards p { margin:15px 0 0; color:#ddd7d7; font-size:13px; line-height:1.82; }
-  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.75rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .malu-opening-grid, .instagram-look-grid { gap:8px; margin:36px 0 44px; }
-    .malu-opening-grid figcaption, .instagram-look-grid figcaption { font-size:11px; }
+    .malu-opening-grid figcaption, .instagram-look-grid figcaption { font-size:12px; }
     .instagram-look-grid { grid-template-columns:1fr; }
     .instagram-look-grid iframe { height:600px; }
     .fashion-rule-cards { grid-template-columns:1fr; }

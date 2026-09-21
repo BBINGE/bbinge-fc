@@ -379,7 +379,7 @@ FC 바르셀로나 소속 357경기 280골, 라리가 4회와 코파 델 레이 
   .barca-clip-link:hover { box-shadow: 0 26px 52px rgba(0,0,0,.4); transform: translateX(-50%) translateY(-3px); }
   .barca-clip-link > img { display: block; width: 66%; height: 520px; flex: 0 0 66%; background: #05070f; object-fit: cover; object-position: 50% 26%; }
   .barca-clip-body { display: flex; flex: 1 1 34%; min-width: 0; flex-direction: column; justify-content: center; padding: 1.5rem 1.6rem; }
-  .barca-clip-link em { color: #edbb00; font-size: .72rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
+  .barca-clip-link em { color: #edbb00; font-size: .75rem; font-style: normal; font-weight: 800; letter-spacing: .15em; }
   .barca-clip-link strong { margin-top: .5rem; color: #fff; font-size: clamp(1.05rem, 1.8vw, 1.32rem); font-weight: 800; line-height: 1.45; word-break: keep-all; }
   .barca-clip-cta { display: inline-flex; align-items: center; align-self: flex-start; gap: .45rem; margin-top: 1.1rem; border: 1px solid rgba(255,255,255,.55); border-radius: 999px; padding: .5rem 1.05rem; color: #fff; font-size: .88rem; font-weight: 700; }
   .barca-clip-cta b { color: #edbb00; font-size: 1.05rem; }

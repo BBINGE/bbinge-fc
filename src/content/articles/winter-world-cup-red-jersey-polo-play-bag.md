@@ -204,21 +204,21 @@ fashionProfile:
   .fashion-article .fashion-profile { grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr); margin-bottom:54px; }
   .fashion-article .fashion-profile__portrait { min-height:100%; }
   .fashion-article .fashion-profile__body { padding:27px 30px 25px; }
-  .wt-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .wt-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:12px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .fashion-article .article-body .wt-opening-pictorial { width:min(760px,calc(100vw - 32px)); margin:32px auto 48px; }
   .wt-opening-pictorial img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .wt-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(960px,calc(100vw - 32px)); margin:34px 0 48px; overflow:hidden; border:1px solid #d7e0e9; border-radius:var(--bbfc-radius-lg); background:#fff; box-shadow:0 24px 60px -46px rgba(19,29,42,.68); transform:translateX(-50%); }
   .wt-look-index__header { position:relative; grid-column:1/-1; display:grid; grid-template-columns:1fr auto; gap:4px 28px; padding:24px 26px 22px; overflow:hidden; background:linear-gradient(112deg,var(--wt-night) 0 73%,#24374c 73% 100%); color:#fff; }
   .wt-look-index__header::after { position:absolute; top:-34px; right:44px; width:92px; height:92px; border:18px solid rgba(200,25,53,.9); border-radius:50%; content:''; }
-  .wt-look-index__header span { grid-column:1; color:#8fd7ff; font-size:10px; font-weight:700; letter-spacing:.17em; }
+  .wt-look-index__header span { grid-column:1; color:#8fd7ff; font-size:12px; font-weight:700; letter-spacing:.17em; }
   .wt-look-index__header strong { grid-column:1; font-size:22px; font-weight:600; letter-spacing:-.035em; line-height:1.35; }
-  .wt-look-index__header small { z-index:1; grid-column:2; grid-row:1/3; align-self:center; color:#d8e4ee; font-size:11px; letter-spacing:.04em; }
+  .wt-look-index__header small { z-index:1; grid-column:2; grid-row:1/3; align-self:center; color:#d8e4ee; font-size:12px; letter-spacing:.04em; }
   .wt-look-index article { min-width:0; padding:27px 23px 25px; }
   .wt-look-index article + article { border-left:1px solid rgba(255,255,255,.2); }
-  .wt-look-index article>span { display:block; color:inherit; font-size:10px; font-weight:700; letter-spacing:.12em; opacity:.78; }
+  .wt-look-index article>span { display:block; color:inherit; font-size:12px; font-weight:700; letter-spacing:.12em; opacity:.78; }
   .article-body .wt-look-index h3 { margin:11px 0 9px; color:inherit; font-size:20px; font-weight:600; line-height:1.35; }
   .wt-look-index p { margin:0; color:inherit; font-size:13px; line-height:1.72; opacity:.8; }
-  .wt-look-index article>small { display:block; margin-top:19px; padding-top:12px; border-top:1px solid currentColor; color:inherit; font-size:10px; font-weight:650; letter-spacing:.04em; opacity:.72; }
+  .wt-look-index article>small { display:block; margin-top:19px; padding-top:12px; border-top:1px solid currentColor; color:inherit; font-size:12px; font-weight:650; letter-spacing:.04em; opacity:.72; }
   .wt-mode--red { background:linear-gradient(145deg,var(--wt-red),var(--wt-red-deep)); color:#fff; }
   .wt-mode--black { background:linear-gradient(145deg,#1b2635,#0c131d); color:#fff; }
   .wt-mode--ice { background:repeating-linear-gradient(90deg,#f8fdff 0,#f8fdff 22px,#d9eff9 23px,#d9eff9 24px); color:#19324a; }
@@ -232,12 +232,12 @@ fashionProfile:
   .wt-boots-note figcaption { padding:10px 14px 13px; }
   .wt-boots-note__copy { align-self:stretch; padding:27px 30px 31px; background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(255,241,245,.94)); }
   .wt-module-kicker { display:flex; align-items:center; gap:10px; color:var(--wt-red); }
-  .wt-module-kicker b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--wt-red); color:#fff; font-size:10px; font-weight:750; }
-  .wt-module-kicker span { font-size:10px; font-weight:700; letter-spacing:.12em; }
+  .wt-module-kicker b { display:grid; width:28px; height:28px; place-items:center; border-radius:50%; background:var(--wt-red); color:#fff; font-size:12px; font-weight:750; }
+  .wt-module-kicker span { font-size:12px; font-weight:700; letter-spacing:.12em; }
   .article-body .wt-boots-note h3 { margin:14px 0 16px; color:var(--bbfc-ink); font-size:21px; font-weight:600; line-height:1.42; }
   .wt-pullquote { display:block; margin:0 0 15px; color:var(--wt-red-deep); font-size:18px; font-weight:650; letter-spacing:-.025em; line-height:1.45; }
   .wt-detail-tags, .wt-motion-notes { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 17px; }
-  .wt-detail-tags span { padding:5px 8px; border:1px solid #d9a9b6; border-radius:999px; background:#fff; color:var(--wt-red-deep); font-size:9px; font-weight:700; letter-spacing:.08em; }
+  .wt-detail-tags span { padding:5px 8px; border:1px solid #d9a9b6; border-radius:999px; background:#fff; color:var(--wt-red-deep); font-size:12px; font-weight:700; letter-spacing:.08em; }
   .wt-boots-note__copy>p { margin:0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.78; }
   .fashion-article .article-body .wt-airport { position:static; width:min(760px,calc(100vw - 32px)); margin:30px auto 48px; transform:none; }
   .wt-bag-story { position:relative; left:50%; display:grid; grid-template-columns:minmax(0,.95fr) minmax(320px,1.05fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 48px; overflow:hidden; border:1px solid #bed9ed; border-radius:var(--bbfc-radius-lg); background:repeating-linear-gradient(90deg,#f8fdff 0,#f8fdff 24px,#dceefa 25px,#dceefa 26px); box-shadow:0 24px 60px -46px rgba(47,125,245,.7); transform:translateX(-50%); }
@@ -250,26 +250,26 @@ fashionProfile:
   .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { margin:14px 0 18px; color:var(--bbfc-ink); font-size:22px; font-weight:600; line-height:1.4; }
   .wt-product-spec { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin:0 0 18px; }
   .wt-product-spec>span { min-width:0; padding:10px 8px 9px; border:1px solid #c9ddeb; border-radius:9px; background:var(--wt-ice); }
-  .wt-product-spec small { display:block; color:#5e778d; font-size:8px; font-weight:700; letter-spacing:.12em; }
-  .wt-bag-story__copy .wt-product-spec b { display:block; margin-top:3px; overflow:hidden; color:#1d4d72; font-size:10px; font-weight:700; letter-spacing:.03em; text-overflow:ellipsis; white-space:nowrap; }
+  .wt-product-spec small { display:block; color:#5e778d; font-size:12px; font-weight:700; letter-spacing:.12em; }
+  .wt-bag-story__copy .wt-product-spec b { display:block; margin-top:3px; overflow:hidden; color:#1d4d72; font-size:12px; font-weight:700; letter-spacing:.03em; text-overflow:ellipsis; white-space:nowrap; }
   .wt-bag-story__copy p { margin:18px 0 0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.75; }
   .wt-bag-story__copy p:first-of-type { margin-top:0; }
   .wt-bag-story__copy b { color:var(--bbfc-ink); font-weight:600; }
   .wt-shop-cta { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:12px; padding:13px 15px; border:0; border-radius:10px; background:var(--wt-night); color:#fff; text-decoration:none; transition:background .2s ease,transform .2s ease; }
   .wt-shop-cta span { min-width:0; }
-  .wt-shop-cta small { display:block; color:#8fd7ff; font-size:8px; font-weight:700; letter-spacing:.12em; }
+  .wt-shop-cta small { display:block; color:#8fd7ff; font-size:12px; font-weight:700; letter-spacing:.12em; }
   .wt-shop-cta span b { display:block; margin-top:3px; color:#fff; font-size:12px; font-weight:600; line-height:1.45; }
   .wt-shop-cta i { display:grid; width:30px; height:30px; flex:0 0 auto; place-items:center; border-radius:50%; background:var(--wt-red); color:#fff; font-size:15px; font-style:normal; }
   .wt-shop-cta:hover { background:#20364b; transform:translateY(-1px); }
   .wt-shop-cta:focus-visible { outline:3px solid color-mix(in srgb,var(--wt-blue) 55%,transparent); outline-offset:3px; }
-  .wt-shop-note { margin-top:8px; color:#768797; font-size:9px; line-height:1.55; }
+  .wt-shop-note { margin-top:8px; color:#768797; font-size:12px; line-height:1.55; }
   .wt-text-link { display:inline-flex; align-self:flex-start; margin-top:10px; padding-bottom:3px; border-bottom:1px solid currentColor; color:var(--bbfc-blue); font-size:12px; font-weight:500; }
   .wt-video { position:relative; left:50%; display:grid; grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr); width:min(960px,calc(100vw - 32px)); margin:30px 0 38px; overflow:hidden; border:1px solid #26384c; border-radius:var(--bbfc-radius-lg); background:var(--wt-night); box-shadow:0 24px 60px -44px rgba(19,29,42,.9); transform:translateX(-50%); }
   .wt-video__copy { align-self:center; padding:32px 28px 34px; }
   .wt-video__copy .wt-module-kicker { color:#8fd7ff; }
   .wt-video__copy .wt-module-kicker b { background:var(--wt-red); }
   .article-body .wt-video__copy h3 { color:#fff; }
-  .wt-motion-notes span { padding:5px 7px; border:1px solid #40556c; border-radius:999px; color:#bcd0e0; font-size:8px; font-weight:700; letter-spacing:.07em; }
+  .wt-motion-notes span { padding:5px 7px; border:1px solid #40556c; border-radius:999px; color:#bcd0e0; font-size:12px; font-weight:700; letter-spacing:.07em; }
   .wt-video__copy p { margin:0; color:#b9c6d1; font-size:13px; line-height:1.72; }
   .wt-video__copy .wt-text-link { color:#8fd7ff; }
   .wt-video__media { position:relative; aspect-ratio:16/9; overflow:hidden; background:var(--bbfc-ink); }
@@ -298,7 +298,7 @@ fashionProfile:
     .wt-look-index article + article { border-top:1px solid var(--bbfc-ink-2); border-left:0; }
     .wt-opening-pictorial, .wt-photo-pair, .wt-boots-note, .wt-airport, .wt-bag-story, .wt-video { margin-top:30px; margin-bottom:42px; }
     .wt-boots-note { margin-top:-2px; }
-    .wt-opening-pictorial figcaption, .wt-figure figcaption, .wt-boots-note figcaption, .wt-airport figcaption, .wt-bag-story__image figcaption { font-size:11px; line-height:1.58; }
+    .wt-opening-pictorial figcaption, .wt-figure figcaption, .wt-boots-note figcaption, .wt-airport figcaption, .wt-bag-story__image figcaption { font-size:12px; line-height:1.58; }
     .wt-boots-note>div, .wt-bag-story__copy, .wt-video__copy { padding:24px 20px 27px; }
     .article-body .wt-boots-note h3, .article-body .wt-bag-story__copy h3, .article-body .wt-video__copy h3 { font-size:20px; }
   }

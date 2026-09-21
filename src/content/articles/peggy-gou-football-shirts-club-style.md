@@ -139,10 +139,10 @@ Kappa는 축구 유니폼과 이탈리아 스포츠웨어, 전자음악 페스�
   .fashion-rule-cards section { padding:26px 23px 28px; background:#120e11; }
   .fashion-rule-cards strong { display:block; color:#fff; font-size:12.5px; line-height:1.55; letter-spacing:.035em; }
   .fashion-rule-cards p { margin:15px 0 0; color:#e0d7dc; font-size:13px; line-height:1.82; }
-  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
+  .culture-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.75rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
   @media (max-width:640px) {
     .fashion-object-pair { gap:8px; margin:36px 0 44px; }
-    .fashion-object-pair figcaption { font-size:11px; }
+    .fashion-object-pair figcaption { font-size:12px; }
     .fashion-rule-cards { grid-template-columns:1fr; }
   }
 </style>

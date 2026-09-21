@@ -147,9 +147,9 @@ fashionProfile:
 </div>
 
 <style>
-  .sakina-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.68rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
-  .sakina-shoot-credit { display:flex; justify-content:space-between; gap:24px; margin:34px 0 44px; padding:17px 2px 0; border-top:1px solid #20252c; color:#5c6572; font-size:10px; letter-spacing:.035em; line-height:1.5; }
-  .sakina-shoot-credit strong { color:var(--bbfc-blue); font-size:10px; letter-spacing:.12em; }
+  .sakina-image-credit { display:block; margin-top:.42rem; color:#8a94a3; font-size:.75rem; font-weight:500; letter-spacing:.025em; line-height:1.5; }
+  .sakina-shoot-credit { display:flex; justify-content:space-between; gap:24px; margin:34px 0 44px; padding:17px 2px 0; border-top:1px solid #20252c; color:#5c6572; font-size:12px; letter-spacing:.035em; line-height:1.5; }
+  .sakina-shoot-credit strong { color:var(--bbfc-blue); font-size:12px; letter-spacing:.12em; }
   .sakina-opening-grid, .sakina-instagram-grid { position:relative; left:50%; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; width:min(960px,calc(100vw - 32px)); margin:42px 0 58px; transform:translateX(-50%); }
   .sakina-opening-grid figure, .sakina-object-grid figure, .sakina-instagram-grid figure { margin:0; }
   .sakina-opening-grid img, .sakina-object-grid img, .sakina-feature-look img { display:block; width:100%; height:auto; margin:0; border-radius:var(--bbfc-radius-lg); }
@@ -157,7 +157,7 @@ fashionProfile:
   .sakina-material-map, .sakina-style-notes { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 58px; border:1px solid #272d35; border-radius:var(--bbfc-radius-lg); background:#11151b; transform:translateX(-50%); overflow:hidden; }
   .sakina-material-map article, .sakina-style-notes article { margin:0; padding:27px 24px 29px; }
   .sakina-material-map article + article, .sakina-style-notes article + article { border-left:1px solid #303741; }
-  .sakina-material-map span, .sakina-style-notes span { color:#6fa8ff; font-size:10px; font-weight:800; letter-spacing:.13em; }
+  .sakina-material-map span, .sakina-style-notes span { color:#6fa8ff; font-size:12px; font-weight:800; letter-spacing:.13em; }
   .article-body .sakina-material-map article > h3, .article-body .sakina-style-notes article > h3 { margin:11px 0 10px; color:#fff; font-size:17px; line-height:1.35; }
   .sakina-material-map p, .sakina-style-notes p { margin:0; color:#c7ccd4; font-size:13px; line-height:1.72; }
   .sakina-object-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:42px 0 58px; }
@@ -167,7 +167,7 @@ fashionProfile:
     .sakina-shoot-credit { display:block; margin-top:28px; }
     .sakina-shoot-credit span { display:block; margin-top:7px; }
     .sakina-opening-grid, .sakina-object-grid, .sakina-instagram-grid { grid-template-columns:1fr; gap:28px; margin-top:36px; }
-    .sakina-opening-grid figcaption, .sakina-object-grid figcaption, .sakina-instagram-grid figcaption { font-size:11px; line-height:1.58; }
+    .sakina-opening-grid figcaption, .sakina-object-grid figcaption, .sakina-instagram-grid figcaption { font-size:12px; line-height:1.58; }
     .sakina-material-map, .sakina-style-notes { grid-template-columns:1fr; }
     .sakina-material-map article, .sakina-style-notes article { padding:23px 21px 25px; }
     .sakina-material-map article + article, .sakina-style-notes article + article { border-top:1px solid #303741; border-left:0; }

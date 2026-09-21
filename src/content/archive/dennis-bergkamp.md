@@ -334,7 +334,7 @@ draft: false
 
 <style>
   .legend-myth-check{margin:34px 0 40px;padding:24px 24px 22px;border:1px solid #d9dfe8;border-radius:14px;background:#fff8f2}
-  .legend-myth-check>span{display:block;color:#c24f10;font-size:11px;font-weight:850;letter-spacing:.14em}
+  .legend-myth-check>span{display:block;color:#c24f10;font-size:12px;font-weight:850;letter-spacing:.14em}
   .legend-myth-check>strong{display:block;margin-top:8px;color:#1b2432;font-size:18px;line-height:1.4}
   .legend-myth-check dl{display:grid;gap:12px;margin:16px 0 0}
   .legend-myth-check dl>div{display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;padding-top:12px;border-top:1px solid #efe2d6}

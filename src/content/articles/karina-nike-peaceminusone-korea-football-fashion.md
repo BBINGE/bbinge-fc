@@ -152,14 +152,14 @@ Nike가 2026년 공개한 X2 프로젝트는 일곱 국가대표팀을 각 지�
 </div>
 
 <style>
-  .karina-image-credit { display:block; margin-top:7px; color:#8a94a3; font-size:9px; font-weight:500; letter-spacing:.025em; line-height:1.45; }
+  .karina-image-credit { display:block; margin-top:7px; color:#8a94a3; font-size:12px; font-weight:500; letter-spacing:.025em; line-height:1.45; }
   .karina-poster-figure { width:min(690px,100%); margin:44px auto 58px; }
   .karina-poster-figure img, .karina-campaign-figure img, .karina-shoe-figure img { display:block; width:100%; height:auto; margin:0; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); }
   .karina-campaign-figure { position:relative; left:50%; width:min(1040px,calc(100vw - 32px)); margin:44px 0 58px; transform:translateX(-50%); }
   .karina-look-notes { position:relative; left:50%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:40px 0 58px; overflow:hidden; border:1px solid #38201c; border-radius:var(--bbfc-radius-lg); background:#170b09; transform:translateX(-50%); }
   .karina-look-notes article { min-width:0; padding:27px 24px 29px; }
   .karina-look-notes article + article { border-left:1px solid #4d2923; }
-  .karina-look-notes span { color:#ff7467; font-size:10px; font-weight:800; letter-spacing:.14em; }
+  .karina-look-notes span { color:#ff7467; font-size:12px; font-weight:800; letter-spacing:.14em; }
   .article-body .karina-look-notes h3 { margin:11px 0 10px; color:#fff; font-size:17px; line-height:1.4; }
   .karina-look-notes p { margin:0; color:#d9c9c6; font-size:13px; line-height:1.72; }
   .karina-kit-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:42px 0 58px; }
@@ -169,7 +169,7 @@ Nike가 2026년 공개한 X2 프로젝트는 일곱 국가대표팀을 각 지�
   .karina-video::before { content:''; position:absolute; inset:0; pointer-events:none; background:radial-gradient(circle at 17% 18%,rgba(255,255,255,.13),transparent 27%),linear-gradient(135deg,rgba(0,0,0,.08),rgba(0,0,0,.33)); }
   .karina-video__copy, .karina-video__media { position:relative; z-index:1; }
   .karina-video__copy { padding:8px; }
-  .karina-video__copy>span { color:#ffd58a; font-size:10px; font-weight:800; letter-spacing:.15em; }
+  .karina-video__copy>span { color:#ffd58a; font-size:12px; font-weight:800; letter-spacing:.15em; }
   .article-body .karina-video__copy h3 { margin:13px 0 0; color:#fff; font-size:30px; line-height:1.25; }
   .karina-video__copy p { margin:17px 0 0; color:rgba(255,255,255,.8); font-size:13.5px; line-height:1.8; }
   .karina-video__copy a { display:inline-flex; margin-top:22px; padding-bottom:4px; border-bottom:1px solid rgba(255,213,138,.75); color:#ffd58a; font-size:12px; font-weight:720; }
@@ -196,7 +196,7 @@ Nike가 2026년 공개한 X2 프로젝트는 일곱 국가대표팀을 각 지�
   @media (max-width:520px) {
     .karina-poster-figure, .karina-campaign-figure, .karina-kit-grid, .karina-look-notes, .karina-shoe-figure { margin-top:36px; margin-bottom:46px; }
     .karina-kit-grid { grid-template-columns:1fr; gap:26px; }
-    .karina-kit-grid figcaption, .karina-campaign-figure figcaption { font-size:11px; line-height:1.58; }
+    .karina-kit-grid figcaption, .karina-campaign-figure figcaption { font-size:12px; line-height:1.58; }
     .karina-video { padding:21px 18px 23px; }
   }
   @media (prefers-reduced-motion:reduce) {

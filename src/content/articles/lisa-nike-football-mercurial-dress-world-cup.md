@@ -136,11 +136,11 @@ Nike와 장기 파트너십을 시작한 리사는 공식 인터뷰에서 패션
 </div>
 
 <style>
-  .ls-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:11px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
+  .ls-credit { display:block; margin-top:7px; color:var(--bbfc-gray-2); font-size:12px; font-weight:500; letter-spacing:.02em; line-height:1.45; }
   .ls-look-index { position:relative; left:50%; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); width:min(1040px,calc(100vw - 32px)); margin:42px 0 60px; overflow:hidden; border:1px solid var(--bbfc-ink-2); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-ink); color:var(--bbfc-bg); transform:translateX(-50%); }
   .ls-look-index article { position:relative; z-index:1; min-width:0; padding:27px 21px 29px; }
   .ls-look-index article + article { border-left:1px solid var(--bbfc-ink-2); }
-  .ls-look-index article>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.11em; }
+  .ls-look-index article>span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.11em; }
   .article-body .ls-look-index h3 { margin:11px 0 9px; color:var(--bbfc-bg); font-size:18px; font-weight:500; line-height:1.35; }
   .ls-look-index p { margin:0; color:var(--bbfc-gray-3); font-size:13px; line-height:1.7; }
   .ls-look-index__scan { position:absolute; z-index:0; top:-25%; bottom:-25%; width:18%; background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--bbfc-blue) 22%,transparent),transparent); filter:blur(7px); animation:ls-scan 6.2s linear infinite; }
@@ -154,7 +154,7 @@ Nike와 장기 파트너십을 시작한 리사는 공식 인터뷰에서 패션
   .ls-video { display:flex; min-width:0; overflow:hidden; border:1px solid var(--bbfc-border); border-radius:var(--bbfc-radius-lg); background:var(--bbfc-fill-2); flex-direction:column; }
   .ls-video--lead { background:var(--bbfc-ink); color:var(--bbfc-bg); }
   .ls-video__copy { padding:25px 24px 27px; }
-  .ls-video__copy>span { color:var(--bbfc-blue); font-size:11px; font-weight:500; letter-spacing:.1em; }
+  .ls-video__copy>span { color:var(--bbfc-blue); font-size:12px; font-weight:500; letter-spacing:.1em; }
   .article-body .ls-video__copy h3 { margin:10px 0 0; color:var(--bbfc-ink); font-size:21px; font-weight:500; line-height:1.35; }
   .article-body .ls-video--lead .ls-video__copy h3 { color:var(--bbfc-bg); }
   .ls-video__copy p { margin:13px 0 0; color:var(--bbfc-gray-1); font-size:13px; line-height:1.7; }
@@ -180,7 +180,7 @@ Nike와 장기 파트너십을 시작한 리사는 공식 인터뷰에서 패션
     .ls-look-index article { padding:22px 21px 24px; }
     .ls-look-index article + article, .ls-look-index article:nth-child(4) { border-top:1px solid var(--bbfc-ink-2); border-left:0; }
     .ls-sketch, .ls-detail-grid, .ls-skirt, .ls-video-stack { margin-top:36px; margin-bottom:48px; }
-    .ls-sketch figcaption, .ls-detail figcaption, .ls-skirt figcaption { font-size:11px; line-height:1.58; }
+    .ls-sketch figcaption, .ls-detail figcaption, .ls-skirt figcaption { font-size:12px; line-height:1.58; }
     .ls-video__copy { padding:20px 18px 22px; }
   }
   @media (prefers-reduced-motion:reduce) { .ls-look-index__scan { display:none; animation:none; } .ls-video__media>[data-inline-video-poster] img, .ls-video__media>.ls-video__external img { transition:none; } .ls-enter { animation:none; } }

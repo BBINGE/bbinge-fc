@@ -28,11 +28,11 @@ const { entries, adEvery = 8, emptyMessage = '아직 등록된 글이 없어요.
             {(entry.data.cardImage ?? entry.data.coverImage) ? (
               <img src={entry.data.cardImage ?? entry.data.coverImage} alt="" loading="lazy" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.025]" style={imageFocusStyle(entry.data.cardImage ?? entry.data.coverImage)} />
             ) : (
-              <span class="text-[11px] text-[var(--bbfc-gray-2)]">사진 없음</span>
+              <span class="text-[12px] text-[var(--bbfc-gray-2)]">사진 없음</span>
             )}
             {isNewlyPublished(entry.data.pubDate) && <span class="new-badge">NEW</span>}
           </div>
-          <div class="flex items-center justify-between gap-2 mt-2.5 text-[10px] md:text-[11px]">
+          <div class="flex items-center justify-between gap-2 mt-2.5 text-[12px] md:text-[12px]">
             <p class="min-w-0 truncate text-[var(--bbfc-blue)]">{categories[entry.data.category]?.label}</p>
             <time class="shrink-0 text-[var(--bbfc-gray-2)]" datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('ko-KR')}</time>
           </div>
@@ -47,5 +47,5 @@ const { entries, adEvery = 8, emptyMessage = '아직 등록된 글이 없어요.
 )}
 
 <style>
-  .new-badge { position:absolute; top:8px; right:8px; z-index:1; padding:5px 7px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:8px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
+  .new-badge { position:absolute; top:8px; right:8px; z-index:1; padding:5px 7px; border-radius:999px; background:var(--bbfc-blue); color:#fff; font-size:12px; line-height:1; font-weight:750; letter-spacing:.08em; box-shadow:0 3px 10px rgba(20,91,198,.2); }
 </style>

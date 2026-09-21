@@ -413,7 +413,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
 <style>
   .article-heading h1{word-break:keep-all}
   main .article-body .pt-thesis,main .article-body .pt-scope,main .article-body .pt-map,main .article-body .pt-titles,main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-excerpt,main .article-body .pt-pitch,main .article-body .pt-numbers,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-caution,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight{font-family:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;word-break:keep-all}
-  main .article-body .pt-thesis>span,main .article-body .pt-scope>span,main .article-body .pt-map>span,main .article-body .pt-timeline header span,main .article-body .pt-legs header span,main .article-body .pt-pitch header span,main .article-body .pt-ledger header span,main .article-body .pt-verdicts header span,main .article-body .pt-calendar header span,main .article-body .pt-mirror header span,main .article-body .pt-table header span,main .article-body .pt-caution>span,main .article-body .pt-clubs header span,main .article-body .pt-hypotheses header span,main .article-body .pt-classmates header span,main .article-body .pt-paths header span,main .article-body .pt-weight header span{display:block;font-size:11px;font-weight:800;letter-spacing:.13em;color:#73cbff}
+  main .article-body .pt-thesis>span,main .article-body .pt-scope>span,main .article-body .pt-map>span,main .article-body .pt-timeline header span,main .article-body .pt-legs header span,main .article-body .pt-pitch header span,main .article-body .pt-ledger header span,main .article-body .pt-verdicts header span,main .article-body .pt-calendar header span,main .article-body .pt-mirror header span,main .article-body .pt-table header span,main .article-body .pt-caution>span,main .article-body .pt-clubs header span,main .article-body .pt-hypotheses header span,main .article-body .pt-classmates header span,main .article-body .pt-paths header span,main .article-body .pt-weight header span{display:block;font-size:12px;font-weight:800;letter-spacing:.13em;color:#73cbff}
   main .article-body .pt-thesis>strong,main .article-body .pt-scope>strong,main .article-body .pt-map>strong,main .article-body .pt-timeline header strong,main .article-body .pt-legs header strong,main .article-body .pt-pitch header strong,main .article-body .pt-ledger header strong,main .article-body .pt-verdicts header strong,main .article-body .pt-calendar header strong,main .article-body .pt-mirror header strong,main .article-body .pt-table header strong,main .article-body .pt-caution>strong,main .article-body .pt-clubs header strong,main .article-body .pt-hypotheses header strong,main .article-body .pt-classmates header strong,main .article-body .pt-paths header strong,main .article-body .pt-weight header strong{display:block;margin-top:9px;font-size:21px;font-weight:850;line-height:1.38;letter-spacing:-.02em;color:#fff}
   main .article-body .pt-thesis{position:relative;margin:0 0 43px;padding:31px 32px 34px;overflow:hidden;border:1px solid #283848;border-radius:18px;background:linear-gradient(138deg,#081421,#0f2742 62%,#0d3a66);color:#fff}
   main .article-body .pt-thesis:after{content:"21";position:absolute;right:18px;bottom:-34px;font-size:150px;font-weight:900;line-height:1;color:rgba(115,203,255,.09)}
@@ -430,7 +430,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-titles,main .article-body .pt-photo,main .article-body .pt-excerpt{margin:40px 0 58px}
   main .article-body .pt-titles__pair{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;padding:18px;border:1px solid #2b3d4d;border-radius:17px;background:#0b1722}
   main .article-body .pt-titles__pair>div{display:flex;flex-direction:column;gap:10px}
-  main .article-body .pt-titles__pair span{font-size:11px;font-weight:800;letter-spacing:.1em;color:#73cbff}
+  main .article-body .pt-titles__pair span{font-size:12px;font-weight:800;letter-spacing:.1em;color:#73cbff}
   main .article-body .pt-titles__pair img{display:block;width:100%;height:auto;border-radius:10px;background:#fff}
   main .article-body .pt-titles__pair p{margin:0;font-size:12px;line-height:1.6;color:rgba(255,255,255,.72)}
   main .article-body .pt-photo img{display:block;width:100%;height:auto;border:1px solid var(--bbfc-border);border-radius:17px}
@@ -444,7 +444,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-legs__row{display:grid;grid-template-columns:1.5fr .6fr 1fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.08)}
   main .article-body .pt-legs__row>*{margin:0;padding:12px 18px;font-size:13px;line-height:1.55}
   main .article-body .pt-legs__row>b small{display:block;margin-top:3px;font-size:12px;font-weight:500;color:rgba(255,255,255,.62)}
-  main .article-body .pt-legs__head{border-top:0;background:rgba(255,255,255,.04)}main .article-body .pt-legs__head b{font-size:11px;color:rgba(255,255,255,.62)}
+  main .article-body .pt-legs__head{border-top:0;background:rgba(255,255,255,.04)}main .article-body .pt-legs__head b{font-size:12px;color:rgba(255,255,255,.62)}
   main .article-body .pt-legs .score{font-size:24px;font-weight:850;color:#73cbff}
   main .article-body .pt-legs__note{margin:0;padding:13px 18px 17px;font-size:12px;color:rgba(255,255,255,.62);border-top:1px solid rgba(255,255,255,.08)}
   main .article-body .pt-caution{margin:41px 0 60px;padding:28px 28px 30px;border:1px solid #d4b562;border-radius:17px;background:linear-gradient(135deg,#15130d,#201b0e);color:#f4df9b}
@@ -462,21 +462,21 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-pitch__line i:before{content:"";width:18px;height:18px;margin-bottom:6px;border:2px solid #fff;border-radius:50%;background:#1f8fe0;box-shadow:0 0 0 4px rgba(31,143,224,.22)}
   main .article-body .pt-pitch__line i.r:before{background:#d8f36a;box-shadow:0 0 0 5px rgba(216,243,106,.3)}
   main .article-body .pt-pitch__line i.g:before{background:#fff}
-  main .article-body .pt-pitch__line small{display:block;margin-top:3px;font-size:11px;font-weight:500;color:rgba(255,255,255,.78)}
+  main .article-body .pt-pitch__line small{display:block;margin-top:3px;font-size:12px;font-weight:500;color:rgba(255,255,255,.78)}
   main .article-body .pt-pitch__line--two{padding:0 14%}main .article-body .pt-pitch__line--three{padding:0 6%}
   main .article-body .pt-pitch>p{margin:0;padding:16px 22px 20px;border-top:1px solid rgba(243,239,215,.3);background:rgba(0,0,0,.18);font-size:13px;line-height:1.7;color:rgba(255,255,255,.82)}
   main .article-body .pt-numbers{display:grid;grid-template-columns:repeat(4,1fr);margin:38px 0 58px;overflow:hidden;border:1px solid #2b3d4d;border-radius:17px;background:#0d1a26;color:#fff}
   main .article-body .pt-numbers>div{padding:23px 17px 25px;border-right:1px solid rgba(255,255,255,.12);text-align:center}main .article-body .pt-numbers>div:last-child{border-right:0}
   main .article-body .pt-numbers b{display:block;font-size:29px;font-weight:850;color:#73cbff}main .article-body .pt-numbers span{display:block;margin-top:6px;font-size:13px;font-weight:700}main .article-body .pt-numbers p{margin:8px 0 0;font-size:12px;line-height:1.6;color:rgba(255,255,255,.7)}
   main .article-body .pt-ledger__head,main .article-body .pt-ledger>div:not(.pt-ledger__head){display:grid;grid-template-columns:120px 1fr 1fr;border-top:1px solid rgba(255,255,255,.08)}
-  main .article-body .pt-ledger__head{background:rgba(255,255,255,.04);border-top:0}main .article-body .pt-ledger__head b{font-size:11px;color:rgba(255,255,255,.6)}
+  main .article-body .pt-ledger__head{background:rgba(255,255,255,.04);border-top:0}main .article-body .pt-ledger__head b{font-size:12px;color:rgba(255,255,255,.6)}
   main .article-body .pt-ledger>div>*{margin:0;padding:14px 17px;font-size:13px;line-height:1.65}
   main .article-body .pt-ledger>div:not(.pt-ledger__head)>b{color:#73cbff}
   main .article-body .pt-ledger>div:not(.pt-ledger__head)>p:last-child{color:#ffb3ad;border-left:1px solid rgba(255,255,255,.08)}
   main .article-body .pt-ledger .foreign-note{color:rgba(255,255,255,.5)!important}
   main .article-body .pt-verdicts__cols{display:grid;grid-template-columns:1fr 1fr}
   main .article-body .pt-verdicts article{padding:23px 25px 26px}main .article-body .pt-verdicts article.praise{background:linear-gradient(145deg,rgba(31,143,224,.16),#0b1722)}main .article-body .pt-verdicts article.critique{border-left:1px solid rgba(255,255,255,.1);background:linear-gradient(215deg,rgba(204,47,47,.15),#0b1722)}
-  main .article-body .pt-verdicts article>span{font-size:11px;font-weight:800;letter-spacing:.12em;color:#73cbff}main .article-body .pt-verdicts article.critique>span{color:#ff8f8a}
+  main .article-body .pt-verdicts article>span{font-size:12px;font-weight:800;letter-spacing:.12em;color:#73cbff}main .article-body .pt-verdicts article.critique>span{color:#ff8f8a}
   main .article-body .pt-verdicts h3{margin:8px 0 12px!important;font-size:18px!important;color:#fff !important}
   main .article-body .pt-verdicts ul{margin:0;padding-left:18px}main .article-body .pt-verdicts li{margin:6px 0;font-size:13px;line-height:1.6;color:rgba(255,255,255,.8)}
   main .article-body .pt-calendar ol{display:grid;grid-template-columns:repeat(6,1fr);margin:0;padding:0;list-style:none}
@@ -495,7 +495,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-table__scroll,main .article-body .pt-classmates__scroll{overflow-x:auto}
   main .article-body .pt-table table,main .article-body .pt-classmates table{display:table;width:100%;min-width:620px;margin:0;border-collapse:collapse;background:transparent;font-size:13px}
   main .article-body .pt-table th,main .article-body .pt-table td,main .article-body .pt-classmates th,main .article-body .pt-classmates td{padding:12px 14px;border:0;border-top:1px solid rgba(255,255,255,.08);text-align:left;line-height:1.55;color:rgba(255,255,255,.85)}
-  main .article-body .pt-table thead th,main .article-body .pt-classmates thead th{border-top:0;background:rgba(255,255,255,.04);font-size:11px;color:rgba(255,255,255,.62)}
+  main .article-body .pt-table thead th,main .article-body .pt-classmates thead th{border-top:0;background:rgba(255,255,255,.04);font-size:12px;color:rgba(255,255,255,.62)}
   main .article-body .pt-table tr.is-juve td{background:rgba(31,143,224,.18);color:#fff}main .article-body .pt-table b{color:#d8f36a}
   main .article-body .pt-table>p{margin:0;padding:13px 18px 17px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;line-height:1.6;color:rgba(255,255,255,.65)}
   main .article-body .pt-classmates tbody th{color:#73cbff;font-weight:800;white-space:nowrap}
@@ -505,14 +505,14 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
   main .article-body .pt-clubs article>span,main .article-body .pt-weight article>span{font-size:12px;font-weight:800;color:#73cbff}
   main .article-body .pt-clubs h3,main .article-body .pt-paths h3,main .article-body .pt-weight h3{margin:6px 0 13px!important;font-size:18px!important;color:#fff !important}
   main .article-body .pt-clubs dl{margin:0}main .article-body .pt-clubs dl>div{padding:8px 0;border-top:1px solid rgba(255,255,255,.08)}
-  main .article-body .pt-clubs dt{font-size:11px;color:rgba(255,255,255,.55)}main .article-body .pt-clubs dd{margin:3px 0 0;font-size:13px;line-height:1.5}
+  main .article-body .pt-clubs dt{font-size:12px;color:rgba(255,255,255,.55)}main .article-body .pt-clubs dd{margin:3px 0 0;font-size:13px;line-height:1.5}
   main .article-body .pt-hypotheses__head,main .article-body .pt-hypotheses>div:not(.pt-hypotheses__head){display:grid;grid-template-columns:120px 1fr 1fr 170px;border-top:1px solid rgba(255,255,255,.08)}
-  main .article-body .pt-hypotheses__head{background:rgba(255,255,255,.04);border-top:0}main .article-body .pt-hypotheses__head b{font-size:11px;color:rgba(255,255,255,.6)}
+  main .article-body .pt-hypotheses__head{background:rgba(255,255,255,.04);border-top:0}main .article-body .pt-hypotheses__head b{font-size:12px;color:rgba(255,255,255,.6)}
   main .article-body .pt-hypotheses>div>*{margin:0;padding:14px 16px;font-size:13px;line-height:1.62}
   main .article-body .pt-hypotheses>div:not(.pt-hypotheses__head)>b{color:#73cbff}
   main .article-body .pt-hypotheses em{font-style:normal;font-weight:700;color:#d8f36a;background:rgba(216,243,106,.06)}
   main .article-body .pt-paths ol{margin:0;padding:0;list-style:none}main .article-body .pt-paths li{padding:9px 0;border-top:1px solid rgba(255,255,255,.08);font-size:13px;line-height:1.5;color:rgba(255,255,255,.85)}
-  main .article-body .pt-paths time{display:block;font-size:11px;font-weight:800;color:#73cbff}
+  main .article-body .pt-paths time{display:block;font-size:12px;font-weight:800;color:#73cbff}
   main .article-body .pt-weight p{margin:0;font-size:13px;line-height:1.72;color:rgba(255,255,255,.8)}
   @supports(animation-timeline:view()){main .article-body .pt-thesis,main .article-body .pt-scope,main .article-body .pt-map,main .article-body .pt-timeline,main .article-body .pt-legs,main .article-body .pt-pitch,main .article-body .pt-numbers,main .article-body .pt-ledger,main .article-body .pt-verdicts,main .article-body .pt-calendar,main .article-body .pt-mirror,main .article-body .pt-table,main .article-body .pt-caution,main .article-body .pt-clubs,main .article-body .pt-hypotheses,main .article-body .pt-classmates,main .article-body .pt-paths,main .article-body .pt-weight{animation:pt-rise both linear;animation-timeline:view();animation-range:entry 8% cover 26%}}
   @keyframes pt-rise{from{opacity:.35;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
@@ -545,7 +545,7 @@ H1과 H2는 유벤투스만 놓고 보면 설득력이 약해지지만, 세 팀�
     main .article-body .pt-scope,main .article-body .pt-map{padding:22px 19px}main .article-body .pt-map ol{grid-template-columns:1fr}
     main .article-body .pt-timeline header,main .article-body .pt-legs header,main .article-body .pt-pitch header,main .article-body .pt-ledger header,main .article-body .pt-verdicts header,main .article-body .pt-calendar header,main .article-body .pt-mirror header,main .article-body .pt-table header,main .article-body .pt-clubs header,main .article-body .pt-hypotheses header,main .article-body .pt-classmates header,main .article-body .pt-paths header,main .article-body .pt-weight header{padding:22px 19px 18px}
     main .article-body .pt-pitch__field{gap:15px;padding:22px 6px 20px}
-    main .article-body .pt-pitch__line{gap:2px}main .article-body .pt-pitch__line i{font-size:11px}main .article-body .pt-pitch__line small{font-size:11px;letter-spacing:-.03em}
+    main .article-body .pt-pitch__line{gap:2px}main .article-body .pt-pitch__line i{font-size:12px}main .article-body .pt-pitch__line small{font-size:12px;letter-spacing:-.03em}
     main .article-body .pt-pitch__line--five small{display:none}main .article-body .pt-pitch__line--two{padding:0 4%}main .article-body .pt-pitch__line--three{padding:0}
     main .article-body .pt-numbers>div{padding:19px 11px 21px}main .article-body .pt-numbers b{font-size:24px}
     main .article-body .pt-caution{padding:23px 19px 24px}

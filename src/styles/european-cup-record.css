@@ -175,7 +175,7 @@
   .cup-record .archive-body .cup-result-table.has-replay tr { grid-template-columns: repeat(4,minmax(0,1fr)); }
   .cup-record .archive-body .cup-result-scroll td { display: block; padding: 10px 5px; border: 0; text-align: center; white-space: normal; }
   .cup-record .archive-body .cup-result-scroll td.cup-result-match { grid-column: 1 / -1; padding: 13px 12px; border-bottom: 1px solid var(--bbfc-border); text-align: left; font-weight: 700; }
-  .cup-record .archive-body .cup-result-scroll td[data-label]::before { content: attr(data-label); display: block; margin-bottom: 4px; color: var(--bbfc-gray-2); font-size: 11px; font-weight: 700; line-height: 1.3; }
+  .cup-record .archive-body .cup-result-scroll td[data-label]::before { content: attr(data-label); display: block; margin-bottom: 4px; color: var(--bbfc-gray-2); font-size: 12px; font-weight: 700; line-height: 1.3; }
   .cup-record .archive-body .cup-result-scroll td.cup-result-winner { grid-column: 1 / -1; padding: 11px 12px 13px; border-top: 1px solid var(--bbfc-border); text-align: left; }
   .cup-record .archive-body .cup-result-scroll td.cup-result-winner::before { margin-bottom: 7px; }
   .cup-record .archive-body .cup-result-score { font-size: 15px; }
@@ -192,7 +192,7 @@
   .cup-record .archive-body .cup-match-scroll td:nth-child(4) { grid-column: 2 / 3; min-width: 46px; }
   .cup-record .archive-body .cup-match-scroll td:nth-child(5) { grid-column: 3 / 4; font-weight: 700; }
   .cup-record .archive-body .cup-match-scroll td:last-child { grid-column: 1 / -1; min-width: 0; margin-top: 6px; padding-top: 10px; border-top: 1px solid var(--bbfc-border); line-height: 1.65; }
-  .cup-record .archive-body .cup-match-scroll td:last-child::before { content: "득점"; display: block; margin-bottom: 3px; color: var(--bbfc-gray-2); font-size: 11px; font-weight: 700; letter-spacing: .04em; }
+  .cup-record .archive-body .cup-match-scroll td:last-child::before { content: "득점"; display: block; margin-bottom: 3px; color: var(--bbfc-gray-2); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
   .cup-record .archive-body .cup-match-scroll tbody tr:nth-child(3) { border-top: 2px solid color-mix(in srgb, var(--bbfc-blue) 58%, var(--bbfc-border)); }
   .cup-record .archive-body .cup-match-scroll tbody tr:nth-child(3) td { border-top: 0; }
   .cup-record .cup-record-table > .record-note { padding: 14px; font-size: 12px; }
@@ -225,18 +225,18 @@
 .cup-record .cup-flag-slot { display: inline-grid; place-items: center; width: 24px; height: 16px; flex: none; background: transparent; }
 .cup-record .archive-body img.cup-flag { display: inline-block; width: 28px; height: 20px; object-fit: contain; vertical-align: middle; margin: 0 4px 0 0; border: 0; border-radius: 0; background: none; }
 .cup-record .cup-side strong { font-size: 20px; line-height: 1.4; text-wrap: balance; color: var(--cup-paper); }
-.cup-record .cup-original { color: #c7dcff; font-size: 11px; letter-spacing: .045em; line-height: 1.5; overflow-wrap: anywhere; }
+.cup-record .cup-original { color: #c7dcff; font-size: 12px; letter-spacing: .045em; line-height: 1.5; overflow-wrap: anywhere; }
 .cup-record .cup-country { display: flex; align-items: center; gap: 5px; color: #c7dcff; font-size: 12px; min-height: 20px; }
 .cup-record .archive-body .cup-country img.cup-flag { width: 24px; height: 16px; margin: 0; }
 .cup-record .cup-aggregate { display: grid; justify-items: center; gap: 9px; }
 .cup-record .cup-aggregate > span { padding: 3px 12px; border: 1px solid rgba(196,218,255,.42); border-radius: 30px; color: var(--cup-cyan); font-size: 12px; line-height: 1.5; }
 .cup-record .cup-aggregate strong { display: flex; gap: 12px; align-items: center; font-size: 44px; line-height: 1; font-weight: 800; font-variant-numeric: tabular-nums; }
 .cup-record .cup-aggregate i { font-style: normal; color: var(--cup-cyan); font-size: 24px; }
-.cup-record .cup-aggregate small { font-size: 11px; color: #c7dcff; }
+.cup-record .cup-aggregate small { font-size: 12px; color: #c7dcff; }
 .cup-record .cup-leg-results { display: grid; grid-template-columns: 1fr 1fr 1.5fr; margin: 24px 0 0; background: rgba(3,10,40,.38); border: 1px solid rgba(196,218,255,.18); }
 .cup-record .cup-leg-results > div { padding: 12px 8px; text-align: center; }
 .cup-record .cup-leg-results > div + div { border-left: 1px solid rgba(196,218,255,.22); }
-.cup-record .cup-leg-results dt { font-size: 11px; color: #c7dcff; }
+.cup-record .cup-leg-results dt { font-size: 12px; color: #c7dcff; }
 .cup-record .cup-leg-results dd { margin: 4px 0 0; font-size: 14px; line-height: 1.4; font-weight: 750; color: var(--cup-paper); }
 /* 합계 동률 뒤 재경기를 치른 대진: 1차전·2차전·재경기·진출 네 칸. */
 .cup-record .cup-leg-results--replay { grid-template-columns: 1fr 1fr 1fr 1.5fr; }
@@ -251,7 +251,7 @@
   .cup-record .cup-aggregate i { font-size: 18px; }
   .cup-record .archive-body .cup-club-crest { width: 58px; height: 58px; }
   .cup-record .cup-crest-slot { width: 76px; height: 76px; border-radius: 12px; }
-  .cup-record .cup-original { font-size: 11px; letter-spacing: 0; }
+  .cup-record .cup-original { font-size: 12px; letter-spacing: 0; }
   .cup-record .cup-leg-results dd { font-size: 13px; }
   .cup-record .cup-leg-results--replay { grid-template-columns: repeat(3, 1fr); }
   .cup-record .cup-leg-results--replay > .cup-advance { grid-column: 1 / -1; border-left: 0; border-top: 1px solid rgba(196,218,255,.22); }
@@ -274,7 +274,7 @@
 .cup-record .cup-goal-row { display: grid; grid-template-columns: minmax(0,1fr) 92px minmax(0,1fr); align-items: center; gap: 10px; padding: 9px 12px; }
 .cup-record .cup-goal-row + .cup-goal-row { border-top: 1px solid rgba(196,218,255,.14); }
 .cup-record .archive-body .cup-tie .cup-goal-row p { margin: 0; font-size: 13px; line-height: 1.55; color: var(--cup-paper); }
-.cup-record .archive-body .cup-tie .cup-goal-leg { font-size: 11px; font-weight: 750; color: var(--cup-cyan); text-align: center; }
+.cup-record .archive-body .cup-tie .cup-goal-leg { font-size: 12px; font-weight: 750; color: var(--cup-cyan); text-align: center; }
 .cup-record .cup-goal-side--left { text-align: right; }
 .cup-record .cup-goal-side--right { text-align: left; }
 .cup-record .cup-goal-team { display: none; }
@@ -333,7 +333,7 @@
   .cup-record .archive-body .cup-group-table { font-size: 13px; }
   .cup-record .archive-body .cup-group-table th, .cup-record .archive-body .cup-group-table td { padding: 9px 3px; }
   .cup-record .archive-body .cup-group-table th:nth-child(1) { width: 34px; }
-  .cup-record .archive-body .cup-group-table th { font-size: 11px; }
+  .cup-record .archive-body .cup-group-table th { font-size: 12px; }
   .cup-record .archive-body .cup-group-table th:nth-child(n+3) { width: 25px; }
   .cup-record .archive-body .cup-group-table th:nth-child(7) { width: 40px; }
   .cup-record .archive-body .cup-group-table .cup-result-team { gap: 5px; }
@@ -342,7 +342,7 @@
   .cup-record .archive-body .cup-group-table .cup-result-flag { display: none; }
   .cup-record .archive-body .cup-group-matches li { grid-template-columns: 1fr 52px 1fr; row-gap: 4px; padding: 8px; font-size: 13px; }
   .cup-record .cup-group-matches time { grid-column: 1 / -1; text-align: center; }
-  .cup-record .archive-body .cup-group-matches .cup-group-goals { grid-row: 3; font-size: 11px; }
+  .cup-record .archive-body .cup-group-matches .cup-group-goals { grid-row: 3; font-size: 12px; }
   .cup-record .archive-body .cup-group-matches .cup-group-goals--home { grid-column: 1; }
   .cup-record .archive-body .cup-group-matches .cup-group-goals--away { grid-column: 3; }
 }
