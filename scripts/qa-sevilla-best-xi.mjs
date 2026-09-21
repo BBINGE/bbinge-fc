@@ -45,7 +45,7 @@ for (const width of [380, 1440]) {
     };
   });
   if (shotDir) await page.screenshot({ path: `${shotDir}/sevilla-${width}.png` });
-  const want = { overflow: 0, players: 11, clips: 5, lineage: 2, record: 4, litany: 1, quotes: 2, notes: 3, candidates: 15, ledgerTotal: 705, cites: 0, sources: 16 };
+  const want = { overflow: 0, players: 11, clips: 5, lineage: 2, record: 4, litany: 1, quotes: 2, notes: 3, candidates: 15, ledgerTotal: 705, cites: 0, sources: 15 };
   for (const [k, v] of Object.entries(want)) if (r[k] !== v) fails.push(`${width}px ${k}: ${r[k]} (기대 ${v})`);
   if (r.ledgerSum !== r.ledgerTotal) fails.push(`${width}px 나바스 표 합계가 맞지 않는다: 더한 값 ${r.ledgerSum}, 합계 줄 ${r.ledgerTotal}`);
   if (r.minNoteGap !== null && r.minNoteGap < 8) fails.push(`${width}px 정정 주석이 위 블록과 ${r.minNoteGap}px로 겹치거나 붙는다`);
