@@ -4,15 +4,18 @@ description: "2026년 기준으로 다시 고른 보루시아 묀헨글라트바
 category: "custom-best-xi"
 tags: ["보루시아 묀헨글라트바흐", "엠게", "푸스발-분데스리가", "베스트 11", "베르티 포크츠", "귄터 네처", "유프 하인케스"]
 pubDate: 2026-08-21T04:54:57+09:00
-coverImage: "/images/squads/borussia-monchengladbach-all-time-best-xi/foals-1970s.webp"
+coverImage: "/images/squads/borussia-monchengladbach-all-time-best-xi/card-bbinge-2025.webp"
 cardImage: "/images/squads/borussia-monchengladbach-all-time-best-xi/card-bbinge-2025.webp"
-coverImageAlt: "우승 방패 앞에 선 1970년대 보루시아 묀헨글라트바흐 선수단"
-coverImageCaption: "젊음과 속도로 유럽을 뒤흔든 1970년대 보루시아 묀헨글라트바흐. 자료 사진."
+coverImageAlt: "보루시아 묀헨글라트바흐 흰 유니폼을 입고 웃는 선수 사진 위에 엠게 역대 베스트 11 제목을 얹은 카드"
+coverImageCaption: "엠게 역대 베스트 11. 청춘이 유럽을 지배하던 마지막 낭만의 증거."
 coverImageWidth: 966
-coverImageHeight: 540
+coverImageHeight: 966
+hideCoverImage: true
 draft: false
 featured: true
 ---
+
+<figure><img src="/images/squads/borussia-monchengladbach-all-time-best-xi/foals-1970s.webp" alt="우승 방패 앞에 선 1970년대 보루시아 묀헨글라트바흐 선수단" width="966" height="540" /><figcaption>젊음과 속도로 유럽을 뒤흔든 1970년대 보루시아 묀헨글라트바흐. 자료 사진.</figcaption></figure>
 
 <aside class="custom-xi-intro" aria-label="커스텀 베스트 11 선정 기준"><span>CUSTOM XI · 004</span><p>1900년 창단부터 2026년 8월까지의 보루시아 묀헨글라트바흐를 한 경기장에 불러 모았다. 구단에서 맞은 전성기, 전술적 영향, 시대의 상징성과 열한 자리의 조화를 함께 살폈다.</p></aside> <section class="gladbach-gateway" aria-label="독일에서 푸스발-분데스리가를 거쳐 보루시아 묀헨글라트바흐로 이어지는 도입부"> <div class="gladbach-country"><span class="germany-flag" aria-hidden="true"><i></i><i></i><i></i></span><p>독일 연방 공화국</p><small lang="de">Bundesrepublik Deutschland</small></div> <span class="gateway-line" aria-hidden="true"></span> <div class="gladbach-league"><img src="/images/leagues/bundesliga-symbol.webp" alt="푸스발-분데스리가 공식 상징" width="3840" height="3840" /><p>푸스발-분데스리가</p><small lang="de">Fußball-Bundesliga</small></div> <span class="gateway-line" aria-hidden="true"></span> <div class="gladbach-club"><img class="gladbach-club-logo" src="/images/clubs/borussia-monchengladbach-logo.webp" alt="보루시아 묀헨글라트바흐 문장" width="500" height="800" /><p>보루시아 묀헨글라트바흐</p><small lang="de">Borussia Verein für Leibesübungen 1900 Mönchengladbach e. V.</small></div> </section>
 

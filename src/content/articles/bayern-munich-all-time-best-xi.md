@@ -4,12 +4,12 @@ description: "2026년 기준으로 다시 고른 FC 바이에른 뮌헨 역대 �
 category: "custom-best-xi"
 tags: ["FC 바이에른 뮌헨", "바이언", "푸스발-분데스리가", "베스트 11", "프란츠 베켄바워", "게르트 뮐러", "마누엘 노이어"]
 pubDate: 2026-08-21T02:44:22+09:00
-coverImage: "/images/squads/bayern-munich-all-time-best-xi/cover-editorial.webp"
+coverImage: "/images/squads/bayern-munich-all-time-best-xi/card-bbinge-2025.webp"
 cardImage: "/images/squads/bayern-munich-all-time-best-xi/card-bbinge-2025.webp"
-coverImageAlt: "붉게 빛나는 뮌헨 경기장과 유럽 제패의 금빛 궤적을 재구성한 바이언 역대 베스트 11 표지"
-coverImageCaption: "알리안츠 아레나 CC0 원사진을 바탕으로 유럽 제패의 기억을 재구성한 편집 표지. 디자인: 삥이FC."
-coverImageWidth: 1600
-coverImageHeight: 900
+coverImageAlt: "빅 이어와 마이스터샬레, DFB-포칼, UEFA 슈퍼컵 트로피를 든 FC 바이에른 뮌헨 선수 여섯 명의 사진 위에 바이언 역대 베스트 11 제목을 얹은 카드"
+coverImageCaption: "바이언 역대 베스트 11. 독일 연방 그 자체의 욕망이며, 자존심."
+coverImageWidth: 966
+coverImageHeight: 966
 hideCoverImage: true
 draft: false
 featured: true
@@ -108,7 +108,7 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 
 ### 선수·감독·회장으로 이어진 한 사람의 왕조
 
-바이언의 분데스리가 승격, 1967년 유러피언 컵위너스컵, 1974년부터 이어진 유러피언컵 3연패가 모두 그의 시간 안에 놓인다. 서독 대표팀에서는 1972년 UEFA 유로과 1974년 월드컵을 들어 올렸고, 발롱도르를 두 차례 받았다. 참가한 두 차례 UEFA 유로에서 모두 대회 베스트 11에 들었으며, UEFA 역시 그를 ‘역대 가장 위대한 선수 가운데 한 명’으로 호명한다.<a class="cite" href="#source-14" aria-label="출처 14">[14]</a><a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
+바이언의 분데스리가 승격, 1967년 유러피언 컵위너스컵, 1974년부터 이어진 유러피언컵 3연패가 모두 그의 시간 안에 놓인다. 서독 대표팀에서는 1972년 UEFA 유로과 1974년 월드컵을 들어 올렸고, 발롱도르를 두 차례 받았다. 참가한 두 차례 UEFA 유로에서 모두 대회 베스트 11에 들었으며, UEFA 역시 그를 ‘역대 가장 위대한 선수 가운데 한 명’으로 호명한다.<a class="cite" href="#source-13" aria-label="출처 13">[13]</a><a class="cite" href="#source-14" aria-label="출처 14">[14]</a>
 
 감독으로는 1986년 월드컵 준우승 뒤 1990년 우승을 이루었고, 바이언의 지휘봉을 잡아 1994년 분데스리가와 1996년 UEFA컵을 더했다. 회장으로 돌아온 뒤에는 선수 시절 자신이 세계 정상에 올려놓았던 구단의 다음 세기를 설계했다. 선수·감독·행정가의 경력이 한 문장에 들어가는 순간, *Der Kaiser*는 별명이라기보다 그가 실제로 수행했던 직책의 총칭에 가까워진다.
 
@@ -330,16 +330,13 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 10. <span id="source-10"></span>[FC 바이에른: 토마스 뮐러의 최종 구단 기록](https://fcbayern.com/en/news/2025/05/thomas-muller-s-greatest-records-at-bayern)
 11. <span id="source-11"></span>[FC 바이에른: 로베르트 레반도프스키의 바이언 375경기 344골](https://fcbayern.com/de/news/2023/02/die-bundesliga-torschuetzenkoenige-des-fc-bayern)
 12. <span id="source-12"></span>[FC 바이에른 명예의 전당: 게르트 뮐러](https://fcbayern.com/en/club/hall-of-fame/gerd-muller)
-13. <span id="source-13"></span>[썸네일 바탕 사진: Johannes Plenio, Allianz Arena in Red light, CC0 1.0](https://commons.wikimedia.org/wiki/File:Allianz_Arena_in_Red_light_(Pexels_1103969).jpg)
-14. <span id="source-14"></span>[UEFA: EURO 1972 대회 베스트 11와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
-15. <span id="source-15"></span>[UEFA: EURO 1976 대회 베스트 11와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
-16. <span id="source-16"></span>[푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
+13. <span id="source-13"></span>[UEFA: EURO 1972 대회 베스트 11와 베켄바워의 국제적 위상](https://www.uefa.com/uefaeuro/history/news/0253-0d7bd0da58f2-d557c23f55fa-1000--euro-1972-team-of-the-tournament/)
+14. <span id="source-14"></span>[UEFA: EURO 1976 대회 베스트 11와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
+15. <span id="source-15"></span>[푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 
 ### 이미지 출처
 
 선수별 편집물과 표제·포메이션·후보 명단 편집물의 디자인은 박성호(삥이)의 작업이다.
-
-사이트용 대표 썸네일은 CC0로 공개된 알리안츠 아레나 사진을 바탕으로 했다.
 
 </div>
 
