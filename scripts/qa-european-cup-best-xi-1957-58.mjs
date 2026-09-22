@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-// 1957-58 유러피언컵 베스트 11 화면 검수: 전술판 11명(5·2·3·1)·선수 카드 11장·문장, 이미지 로딩, 읽기 동선 4장, 12px 미만 글자, 380/768/1440px 가로 넘침.
+// 1957-58 유러피언컵 베스트 11 화면 검수: 전술판 11명(5·2·3·1)·선수 카드 11장·문장, 이미지 로딩, 읽기 동선 5장, 12px 미만 글자, 380/768/1440px 가로 넘침.
 const base = process.env.QA_BASE || 'http://127.0.0.1:4321';
 const out = process.env.QA_OUTPUT || mkdtempSync(join(tmpdir(), 'bbinge-bestxi-5758-'));
 const route = '/archive/club/european-cup/1957-58-european-cup-tournament-best-xi/';
@@ -34,7 +34,7 @@ try {
     assert.equal(data.broken, 0);
     assert.equal(data.brokenAnchors, 0);
     assert.equal(data.smallText, 0);
-    assert.equal(data.routes.length, 4, '읽기 동선 4장');
+    assert.equal(data.routes.length, 5, '읽기 동선 5장(1957-58 여섯 편 중 자기 자신 제외)');
     assert(!data.routes.includes(route), '읽기 동선은 현재 글을 빼고 보여 준다');
     await page.locator('.best-xi').screenshot({ path: `${out}/board-${width}.png` });
     await page.locator('.best-xi-roster').screenshot({ path: `${out}/roster-${width}.png` });

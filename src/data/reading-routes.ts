@@ -264,16 +264,28 @@ const europeanCup1957Stories: ReadingRouteStory[] = [
     image: '/images/archive/1957-58-european-cup-tournament-best-xi/cover.webp',
     theme: 'european-cup',
   },
+  {
+    id: '1958-ballon-dor-raymond-kopa',
+    href: '/archive/awards/ballon-dor/1958-ballon-dor-raymond-kopa/',
+    index: '06',
+    label: '시상관 · 발롱도르',
+    title: '세 번째 발롱도르는 왜 코파였나',
+    description: '71점의 코파와 란·퐁텐, 1958년 투표의 포디움과 랭킹',
+    image: '/images/archive/awards/1958-ballon-dor/cover.jpg',
+    theme: 'ballon-dor',
+  },
 ];
 
 // 홈 시즌 서가: 최신 시즌을 앞에 두고, 각 시즌의 읽기 동선을 한 줄 선반으로 보여 준다.
 export const seasonShelves = [
+  { id: 'european-cup-1957-58', kicker: 'EUROPEAN CUP 1957-58', title: '세 번째 유러피언컵을 여섯 개의 기록으로 읽기', stories: europeanCup1957Stories },
   { id: 'european-cup-1956-57', kicker: 'EUROPEAN CUP 1956-57', title: '두 번째 유러피언컵을 여섯 개의 기록으로 읽기', stories: europeanCup1956Stories },
   { id: 'european-cup-1955-56', kicker: 'EUROPEAN CUP 1955-56', title: '첫 유러피언컵을 여섯 개의 기록으로 읽기', stories: europeanCup1955Stories },
 ] as const;
 
 const byId = (id: string) => europeanCup1955Stories.find((story) => story.id === id)!;
 const byId1956 = (id: string) => europeanCup1956Stories.find((story) => story.id === id)!;
+const byId1957 = (id: string) => europeanCup1957Stories.find((story) => story.id === id)!;
 
 export function getReadingRoute(currentId: string): ReadingRoute | undefined {
   if (currentId === '1956-ballon-dor-stanley-matthews') {
@@ -312,12 +324,21 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
       stories: europeanCup1956Stories.filter((story) => story.id !== currentId),
     };
   }
-  if (europeanCup1957Stories.some((story) => story.id === currentId)) {
+  if (currentId === '1958-ballon-dor-raymond-kopa') {
+    return {
+      theme: 'ballon-dor',
+      kicker: "BALLON D’OR 1958 × EUROPEAN CUP 1957-58",
+      title: '세 번째 발롱도르와<br />같은 시즌의 유럽 무대',
+      lead: '71점을 받은 코파의 한 해에는 레알의 3연패가 있었다. 그 대회의 베스트 11과 브뤼셀의 결승 장면으로 이어서 읽으면 된다.',
+      stories: [byId1957('1957-58-european-cup-tournament-best-xi'), byId1957('1957-58-european-cup-final-real-madrid-milan')],
+    };
+  }
+  if (europeanCup1957Stories.some((story) => story.id === currentId && story.theme === 'european-cup')) {
     return {
       theme: 'european-cup',
-      kicker: 'EUROPEAN CUP 1957-58 READING ROUTE · 01—05',
-      title: '세 번째 유러피언컵을<br />기록으로 이어 읽기',
-      lead: '스물네 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 브뤼셀의 연장 결승 장면, 누가 가장 많은 골을 넣었는지, 그해 가장 잘한 열한 명이 누구였는지에 따라 다음 기록을 고르면 된다.',
+      kicker: 'EUROPEAN CUP 1957-58 READING ROUTE · 01—06',
+      title: '세 번째 유러피언컵을<br />여섯 개의 기록으로 읽기',
+      lead: '스물네 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 브뤼셀의 연장 결승 장면, 누가 가장 많은 골을 넣었는지, 그해 가장 잘한 열한 명과 가장 빛난 선수가 누구였는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1957Stories.filter((story) => story.id !== currentId),
     };
   }

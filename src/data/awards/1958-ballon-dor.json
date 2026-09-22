@@ -1,0 +1,40 @@
+{
+  "year":1958,
+  "evaluation":{"basis":"calendar-year","label":"1958년 연간 평가","announcement":"1958-12-16","publication":"France Football no. 666","cutoff":null,"note":"Calendar-year award. Exact voting deadline not established; do not claim autumn matches after voting influenced results."},
+  "voters":16,
+  "weights":[5,4,3,2,1],
+  "source":"https://www.rsssf.org/miscellaneous/europa-poy58.html",
+  "profiles":{
+    "kopa":{"name":"레몽 코파","rows":[{"id":"france","note":"폴란드계 광부 가정 출생"},{"id":"france-team","note":"1958년 A매치 7경기 4골"},{"id":"real-madrid","note":"1958년 소속 구단"}]},
+    "rahn":{"name":"헬무트 란","rows":[{"id":"west-germany"},{"id":"west-germany-team","note":"1958년 A매치 11경기 10골"},{"id":"rot-weiss-essen","note":"1958년 소속 구단"}]},
+    "fontaine":{"name":"쥐스트 퐁텐","rows":[{"id":"france","note":"모로코 마라케시 출생"},{"id":"france-team","note":"1958년 A매치 12경기 18골"},{"id":"reims","note":"1958년 소속 구단"}]}
+  },
+  "ranking":[
+    {"rank":1,"name":"레몽 코파","original":"Raymond Kopa","country":"프랑스","nationalities":["폴란드","프랑스"],"clubs":["레알 마드리드 CF"],"points":71,"votes":[14,0,0,0,1]},
+    {"rank":2,"name":"헬무트 란","original":"Helmut Rahn","country":"서독","clubs":["로트바이스 에센"],"points":40,"votes":[0,6,4,2,0]},
+    {"rank":3,"name":"쥐스트 퐁텐","original":"Just Fontaine","country":"프랑스","clubs":["스타드 드 랭스"],"points":23,"votes":[1,2,1,2,3]},
+    {"rank":4,"name":"존 찰스","original":"John Charles","country":"영국(웨일스)","clubs":["유벤투스 FC"],"points":15,"votes":[0,1,2,2,1]},
+    {"rank":4,"name":"쿠르트 함린","original":"Kurt Hamrin","country":"스웨덴","clubs":["칼초 파도바","AC 피오렌티나"],"points":15,"votes":[0,2,1,1,2]},
+    {"rank":6,"name":"빌리 라이트","original":"Billy Wright","country":"영국(잉글랜드)","clubs":["울버햄프턴 원더러스 FC"],"points":9,"votes":[0,1,1,0,2]},
+    {"rank":7,"name":"조니 헤인스","original":"Johnny Haynes","country":"영국(잉글랜드)","clubs":["풀럼 FC"],"points":7,"votes":[0,1,1,0,0]},
+    {"rank":8,"name":"해리 그레그","original":"Harry Gregg","country":"영국(북아일랜드)","clubs":["맨체스터 유나이티드 FC"],"points":6,"votes":[0,1,0,0,2]},
+    {"rank":8,"name":"닐스 리드홀름","original":"Nils Liedholm","country":"스웨덴","clubs":["AC 밀란"],"points":6,"votes":[1,0,0,0,1]},
+    {"rank":8,"name":"호르스트 시마니아크","original":"Horst Szymaniak","country":"서독","clubs":["부퍼탈러 SV"],"points":6,"votes":[0,1,0,1,0]},
+    {"rank":11,"name":"콜린 맥도널드","original":"Colin McDonald","country":"영국(잉글랜드)","clubs":["번리 FC"],"points":5,"votes":[0,1,0,0,1]},
+    {"rank":12,"name":"파코 헨토","original":"Francisco Gento","country":"스페인","clubs":["레알 마드리드 CF"],"points":4,"votes":[0,0,1,0,1]},
+    {"rank":12,"name":"군나르 그렌","original":"Gunnar Gren","country":"스웨덴","clubs":["외르그뤼테 IS"],"points":4,"votes":[0,0,0,2,0]},
+    {"rank":14,"name":"부야딘 보슈코프","original":"Vujadin Boškov","country":"유고슬라비아","clubs":["FK 보이보디나"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":14,"name":"벵트 구스타브손","original":"Bengt Gustavsson","country":"스웨덴","clubs":["아탈란타 BC"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":14,"name":"발렌틴 이바노프","original":"Valentin Ivanov","country":"소련","clubs":["FC 토르페도 모스크바"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":14,"name":"레프 야신","original":"Lev Yashin","country":"소련","clubs":["FC 디나모 모스크바"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":14,"name":"루이스 수아레스","original":"Luis Suárez","country":"스페인","clubs":["CF 바르셀로나"],"points":3,"votes":[0,0,1,0,0]},
+    {"rank":19,"name":"오르바르 베리마르크","original":"Orvar Bergmark","country":"스웨덴","clubs":["외레브로 SK"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":19,"name":"대니 블랜치플라워","original":"Danny Blanchflower","country":"영국(북아일랜드)","clubs":["토트넘 홋스퍼 FC"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":19,"name":"이반 콜레프","original":"Ivan Kolev","country":"불가리아","clubs":["CDNA 소피아"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":19,"name":"브루노 니콜레","original":"Bruno Nicolè","country":"이탈리아","clubs":["유벤투스 FC"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":19,"name":"라디슬라프 노바크","original":"Ladislav Novák","country":"체코슬로바키아","clubs":["두클라 프라하"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":19,"name":"렌나르트 스코글룬드","original":"Lennart Skoglund","country":"스웨덴","clubs":["FC 인테르나치오날레"],"points":2,"votes":[0,0,0,1,0]},
+    {"rank":25,"name":"잠피에로 보니페르티","original":"Giampiero Boniperti","country":"이탈리아","clubs":["유벤투스 FC"],"points":1,"votes":[0,0,0,0,1]},
+    {"rank":25,"name":"게르하르트 하나피","original":"Gerhard Hanappi","country":"오스트리아","clubs":["SK 라피트 빈"],"points":1,"votes":[0,0,0,0,1]}
+  ]
+}
