@@ -247,7 +247,7 @@ featured: true
 
 사이트용 16:9 대표 썸네일은 Tim Reckmann의 2014년 로이스 사진(CC BY-SA 3.0), Marvin Ronsdorf의 경기장 사진(CC0 1.0), 기존 BVB 문장을 박성호(삥이)·삥이FC가 크롭·색보정·합성하고 타이포그래피를 더한 것이다. CC BY-SA 원본을 바탕으로 만든 이 대표 이미지는 같은 CC BY-SA 3.0 조건으로 이용할 수 있으며, 저자·원문·라이선스 표시를 유지해야 한다.
 
-완성 편집물에 포함된 선수 사진은 인물을 식별하고 해당 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며, 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 편집적 창작성과 원사진의 권리는 서로 다른 층위이므로 자체 기여는 분명히 밝히되 원사진의 권리까지 소유한다고 주장하지 않는다. 구단·리그 문장은 식별과 설명의 문맥에서 사용하며 공식 후원이나 제휴를 뜻하지 않는다. 명백한 오류, 정정 요청 또는 구체적인 권리 근거를 갖춘 삭제 요청은 [문의 페이지](/contact/)에서 접수한다.
+완성 편집물에 포함된 선수 사진은 인물을 식별하고 해당 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며, 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 편집적 창작성과 원사진의 권리는 서로 다른 층위이므로 자체 기여는 분명히 밝히되 원사진의 권리까지 소유한다고 주장하지 않는다. 구단·리그 문장은 식별과 설명의 문맥에서 사용하며 공식 후원이나 제휴를 뜻하지 않는다.
 
 </div> <style> .dortmund-gateway{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:3rem 0 4rem;overflow:hidden;border:1px solid rgba(255,216,0,.72);border-radius:22px;background:#050505;color:#fff;text-align:center;box-shadow:0 22px 50px rgba(0,0,0,.2);transform:translateX(-50%)}
   .dortmund-gateway>div{display:flex;min-height:220px;flex-direction:column;align-items:center;justify-content:center;padding:2.4rem 1.5rem}.dortmund-gateway p{margin:1.1rem 0 .25rem;color:#fff;font-size:clamp(1.35rem,3vw,2rem);font-weight:800;letter-spacing:-.035em}.dortmund-gateway small{color:rgba(255,255,255,.66);font-size:.78rem;letter-spacing:.055em}
