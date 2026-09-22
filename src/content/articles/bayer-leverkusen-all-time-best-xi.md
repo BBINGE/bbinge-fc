@@ -191,13 +191,11 @@ featured: true
 20. [바이아레나 표지 배경: Partonez, CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:BayArena,_Leverkusen.jpg)
 21. [바이어 04 레버쿠젠 문장 원본과 파일 정보](https://sco.wikipedia.org/wiki/File:Bayer_04_Leverkusen_logo.svg)
 
-### 이미지와 권리에 관한 편집 원칙
+### 이미지 출처
 
 선수별 편집물과 표제·포메이션·후보 명단 편집물의 디자인은 박성호(삥이)의 작업이다.
 
 사이트용 대표 썸네일은 Nationaal Archief/Anefo의 1979년 차범근 초상, Partonez의 바이아레나 사진, 기존 구단 문장을 크롭·색보정·합성하고 타이포그래피를 더한 것이다. 썸네일은 CC BY-SA 4.0 조건으로 이용할 수 있으며 저자·원문·라이선스 표시와 변경 사실을 유지해야 한다.
-
-완성 편집물에 포함된 선수 사진은 인물을 식별하고 해당 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 편집적 창작성과 원사진의 권리는 다른 층위이므로 자체 기여는 밝히되 원사진의 권리까지 소유한다고 주장하지 않는다. 구단·리그 문장은 식별과 설명의 문맥에서 사용하며 공식 후원이나 제휴를 뜻하지 않는다.
 
 </div> <style> .leverkusen-gateway{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:3rem 0 4rem;overflow:hidden;border:1px solid rgba(226,30,45,.74);border-radius:22px;background:#080808;color:#fff;text-align:center;box-shadow:0 22px 50px rgba(0,0,0,.2);transform:translateX(-50%)}
   .leverkusen-gateway>div{display:flex;min-height:220px;flex-direction:column;align-items:center;justify-content:center;padding:2.4rem 1.5rem}.leverkusen-gateway p{margin:1.1rem 0 .25rem;color:#fff;font-size:clamp(1.35rem,3vw,2rem);font-weight:800;letter-spacing:-.035em}.leverkusen-gateway small{color:rgba(255,255,255,.66);font-size:.78rem;letter-spacing:.055em}

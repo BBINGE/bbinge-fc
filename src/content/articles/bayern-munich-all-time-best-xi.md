@@ -7,7 +7,7 @@ pubDate: 2026-08-21T02:44:22+09:00
 coverImage: "/images/squads/bayern-munich-all-time-best-xi/cover-editorial.webp"
 cardImage: "/images/squads/bayern-munich-all-time-best-xi/card-bbinge-2025.webp"
 coverImageAlt: "붉게 빛나는 뮌헨 경기장과 유럽 제패의 금빛 궤적을 재구성한 바이언 역대 베스트 11 표지"
-coverImageCaption: "알리안츠 아레나 CC0 원사진을 바탕으로 유럽 제패의 기억을 재구성한 편집 표지. 기획·아트디렉션: 삥이FC, AI 기반 이미지 편집 도구 활용."
+coverImageCaption: "알리안츠 아레나 CC0 원사진을 바탕으로 유럽 제패의 기억을 재구성한 편집 표지. 디자인: 삥이FC."
 coverImageWidth: 1600
 coverImageHeight: 900
 hideCoverImage: true
@@ -335,13 +335,11 @@ Fußball-Club Bayern München eingetragener Verein. 끝의 *eingetragener Verein
 15. <span id="source-15"></span>[UEFA: EURO 1976 대회 베스트 11와 베켄바워의 100번째 A매치](https://www.uefa.com/uefaeuro/history/news/0253-0d7d211169ee-d920fa67f6fc-1000--euro-1976-team-of-the-tournament/)
 16. <span id="source-16"></span>[푸스발-분데스리가 공식 상징 원본과 권리 정보](https://fr.wikipedia.org/wiki/Fichier:Bundesliga-logo.svg)
 
-### 이미지와 권리에 관한 편집 원칙
+### 이미지 출처
 
 선수별 편집물과 표제·포메이션·후보 명단 편집물의 디자인은 박성호(삥이)의 작업이다.
 
-완성 편집물에 포함된 선수 사진은 인물을 식별하고 그 선수의 경기사적 의미를 비평·교육·정보 전달하기 위한 문맥 안에서 제한적으로 사용한다. 원사진을 독립 감상물이나 다운로드 자료로 재배포하지 않으며, 사진 위에 기록·해설·선정 논리·새로운 정보 위계와 시각 구성을 결합했다. 이러한 편집적 창작성과 원사진의 권리는 서로 다른 층위이므로, 본 사이트는 자체 기여를 분명히 밝히되 원사진에 관한 권리까지 소유한다고 주장하지 않는다.
-
-다만 2026년 사이트 개정판에 새로 추가한 대표 썸네일 한 장은 CC0로 공개된 알리안츠 아레나 사진을 바탕으로, 삥이FC가 구도·색채·상징과 노출 금지 요소를 설계하고 AI 기반 이미지 편집 도구를 활용해 재구성했다. 이 표지 제작 방식은 2025년의 선수별 편집물·포메이션·후보 명단과 무관하다. 구단·리그 문장은 해당 대상을 식별하고 설명하기 위한 편집 문맥에서만 사용하며, 공식 후원이나 제휴를 뜻하지 않는다.
+사이트용 대표 썸네일은 CC0로 공개된 알리안츠 아레나 사진을 바탕으로 했다.
 
 </div>
 
