@@ -36,7 +36,7 @@ UEFA `match.uefa.com/v5/matches?competitionId=1&seasonYear=1957` 48경기와 경
 - 새로 만든 5장(`roster/`, 300×400 WebP):
   - 베르가마스키: Commons `1957–58 Associazione Calcio Milan.jpg`(퍼블릭 도메인, 앉은 줄 왼쪽 다섯 번째, 설명문 순서 Beraldo·Grillo·Mariani·Maldini·Bergamaschi…)에서 96×128 크롭 확대. Commons의 단독 초상 `MarioBergamaschi.jpg`는 102×140이라 쓰지 않았다.
   - 폴크스·산타마리아: 운영자 제작 축쿼드 카드(`manchester-united-busby-best-xi/bill-foulkes.webp`, `real-madrid-death-squad-best-xi/jose-santamaria.png`)에서 문장·국기·이름·워터마크를 뺀 얼굴 영역만 크롭. 산타마리아는 1954 월드컵 편 사진이 우루과이 대표 유니폼이라 레알 카드 쪽을 썼다.
-  - 코스티치·초르다시: 운영자 득점 순위 도판(`1957-58-european-cup-top-scorers/top-scorers.png`)의 사진 칸(약 58×78)에서 크롭 확대. 해상도가 낮아 운영자가 더 큰 사진을 주면 교체한다. Commons의 코스티치 사진은 1965년 썰매 사진(얼굴이 작음)이라 쓰지 않았다.
+  - 코스티치·초르다시: 첫 발행은 운영자 득점 순위 도판의 사진 칸(약 58×78) 크롭이었다. 같은 날 운영자가 선수 시절 초상 두 장(초르다시 헝가리 대표팀 유니폼 374×534, 코스티치 츠르베나 즈베즈다 유니폼 526×809)을 줘서 교체했다. 초르다시는 오른쪽 위 소장 도장과 아래 대표팀 문장을 빼고 머리 위 여백을 살려(x 0-340, y 8-461), 코스티치는 가슴 문장을 빼고(x 20-500, y 20-660) 3:4로 잘랐다. 카드(142×184)와 원형(62px) 두 칸을 미리 그려 확인했다. 공개 주석에는 출처를 따로 적지 않았다.
 - A/B 외부 위험 신호 없음. C등급, NO ACTION.
 
 ## 구조
