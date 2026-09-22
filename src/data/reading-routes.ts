@@ -254,6 +254,16 @@ const europeanCup1957Stories: ReadingRouteStory[] = [
     image: '/images/archive/1957-58-european-cup-top-scorers/top-scorers.png',
     theme: 'european-cup',
   },
+  {
+    id: '1957-58-european-cup-tournament-best-xi',
+    href: '/archive/club/european-cup/1957-58-european-cup-tournament-best-xi/',
+    index: '05',
+    label: '대회관 · 베스트 11',
+    title: '그해 가장 잘한 열한 명은 누구였나',
+    description: '48경기의 라인업과 등번호로 다시 고른 세 번째 대회의 베스트 11',
+    image: '/images/archive/1957-58-european-cup-tournament-best-xi/cover.webp',
+    theme: 'european-cup',
+  },
 ];
 
 // 홈 시즌 서가: 최신 시즌을 앞에 두고, 각 시즌의 읽기 동선을 한 줄 선반으로 보여 준다.
@@ -305,9 +315,9 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
   if (europeanCup1957Stories.some((story) => story.id === currentId)) {
     return {
       theme: 'european-cup',
-      kicker: 'EUROPEAN CUP 1957-58 READING ROUTE · 01—04',
+      kicker: 'EUROPEAN CUP 1957-58 READING ROUTE · 01—05',
       title: '세 번째 유러피언컵을<br />기록으로 이어 읽기',
-      lead: '스물네 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 브뤼셀의 연장 결승 장면, 누가 가장 많은 골을 넣었는지에 따라 다음 기록을 고르면 된다.',
+      lead: '스물네 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 브뤼셀의 연장 결승 장면, 누가 가장 많은 골을 넣었는지, 그해 가장 잘한 열한 명이 누구였는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1957Stories.filter((story) => story.id !== currentId),
     };
   }
