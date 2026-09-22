@@ -949,8 +949,13 @@ if (props.kind === 'category') {
   }
   /* 전면 패널(section·div·aside)은 드롭섀도를 달고 있어 더 띄운다. 가장 긴 그림자가
      아래로 47px 번지므로 어느 화면에서도 글자까지 40px 넘게 남도록 잡았다. */
-  .article-body > :global(:is(section, div, aside):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
+  .article-body > :global(:is(section, div, aside):not(.cup-stage-scroll):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
     margin-top: clamp(88px, 7.5vw, 112px);
+  }
+  /* 대회 기록표(cup-stage-scroll)는 칸에 문장 아이콘이 있을 뿐 그림자 없는 표라 위 패널 여백에서 뺀다(운영자 지시, 2026-09-22).
+     표 아래 여백 34px에 더해 다음 소제목·문단까지 62px로, 제목에서 표까지 32px의 두 배쯤이다. 절이 바뀌는 h2는 기본 간격을 쓴다. */
+  .article-body > :global(.cup-stage-scroll + :is(p, h3, blockquote, ul, ol)) {
+    margin-top: 28px;
   }
   .article-body :global(figure) { margin: 48px 0; }
   .fashion-article .article-body > :global(figure) { margin-left: auto; margin-right: auto; }

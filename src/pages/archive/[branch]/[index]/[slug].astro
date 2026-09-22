@@ -235,8 +235,13 @@ const faqSchema = entry.data.faq && entry.data.faq.length
   .archive-body > :global(:is(figure, table, ul):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
     margin-top: clamp(56px, 5.5vw, 80px);
   }
-  .archive-body > :global(:is(section, div, aside):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
+  .archive-body > :global(:is(section, div, aside):not(.cup-stage-scroll, .cup-entrants):has(img, video) + :is(p, h2, h3, blockquote, ul, ol)) {
     margin-top: clamp(88px, 7.5vw, 112px);
+  }
+  /* 대회 기록표·누적 표(cup-stage-scroll·cup-entrants)는 문장 아이콘이 든 그림자 없는 표라 패널 여백에서 뺀다(운영자 지시, 2026-09-22).
+     누적 표는 자체 아래 여백 48px을 쓰고, 기록표 뒤에는 60px을 둔다. */
+  .archive-body > :global(.cup-stage-scroll + :is(p, h3, blockquote, ul, ol)) {
+    margin-top: 60px;
   }
   .archive-body :global(figure) { width: 100%; margin: 48px auto; }
   .archive-body :global(figure img) { width: 100%; height: auto; border-radius: var(--bbfc-radius-lg); }
