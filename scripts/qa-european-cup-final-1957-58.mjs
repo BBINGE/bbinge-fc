@@ -10,7 +10,7 @@ const base = process.env.QA_BASE || 'http://localhost:4321';
 const out = mkdtempSync(join(tmpdir(), 'bbinge-final-5758-qa-'));
 const route = '/highlights/european-cup/1957-58-european-cup-final-real-madrid-milan/';
 const clipsExpected = [
-  '01-heysel-atomium.mp4', '02-teams-line-up.mp4', '03-tribune.mp4', '04-real-attack-soldan.mp4',
+  '01-heysel-atomium.mp4', '02-teams-line-up.mp4', '03-tribune.mp4', '04-schiaffino-59.mp4',
   '05-kopa-box.mp4', '06-di-stefano-74.mp4', '07-alonso-save.mp4', '08-grillo-77.mp4',
   '09-right-wing-counter.mp4', '10-rial-79.mp4', '11-kopa-switch.mp4', '12-gento-107.mp4',
   '13-gento-107-crowd.mp4', '14-trophy.mp4',

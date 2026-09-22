@@ -64,8 +64,7 @@ relatedGroup: 'european-cup-1957-58'
 
 <section class="highlight-scene european-cup-scene">
   <header><span>FIRST HALF · THE GOALKEEPERS</span><h3>유효 슈팅을 모두 막아 낸 밀란의 골문</h3></header>
-  <div class="highlight-clip-grid"><figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="레알 선수들이 밀란 골문 앞으로 몰려들고, 화면이 골문 옆 사진기자들과 두 손을 모은 관중으로 넘어가는 장면"><source src="/media/highlights/1957-58-european-cup-final/04-real-attack-soldan.mp4" type="video/mp4" /></video><figcaption>레알 선수들이 어두운 옷의 밀란 골키퍼 앞으로 몰려든다. 화면은 골문 옆 사진기자들을 거쳐 두 손을 모은 관중으로 넘어간다.</figcaption></figure></div>
-  <p>UEFA의 경기 기사에 따르면 디펜딩 챔피언은 처음부터 전속력으로 밀어붙였다. 영상에서도 흰 유니폼 네댓 명이 밀란 골문 앞까지 올라가고, 카메라는 골문 옆에 쪼그려 앉은 사진기자들과 두 손을 모아 쥔 관중을 차례로 비춘다. UEFA의 경기 기사는 전반을 “양 팀 모두 기회를 잡은 정신없는 45분”으로 적으면서, 레알의 공격이 밀란 골키퍼 나르치소 솔단<span class="foreign-note" lang="it">(Narciso Soldan; 이탈리아 골키퍼)</span>에게 막혔다고 기록한다. 골문으로 향한 레알의 슈팅은 전반 내내 하나도 솔단을 넘지 못했다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
+  <p>UEFA의 경기 기사에 따르면 디펜딩 챔피언은 처음부터 전속력으로 밀어붙였다. 같은 기사는 전반을 “양 팀 모두 기회를 잡은 정신없는 45분”으로 적으면서, 레알의 공격이 밀란 골키퍼 나르치소 솔단<span class="foreign-note" lang="it">(Narciso Soldan; 이탈리아 골키퍼)</span>에게 막혔다고 기록한다. 골문으로 향한 레알의 슈팅은 전반 내내 하나도 솔단을 넘지 못했다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
   <p>밀란도 반격했지만 마무리까지 가지 못했고, 전반 45분은 0-0으로 끝났다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a></p>
 </section>
 
@@ -79,15 +78,23 @@ relatedGroup: 'european-cup-1957-58'
   <p>SOLDAN STOPPED EVERYTHING · GOALLESS AT THE BREAK</p>
 </div>
 
-## 후반 59분과 74분: 스키아피노의 선제골, 디스테파노의 대답
+## 후반 59분: 스키아피노의 선제골
 
 <section class="highlight-scene european-cup-scene">
-  <header><span>59' · AC MILAN 0-1 / 74' · 1-1</span><h3>먼저 맞은 레알, 역습으로 되갚다</h3></header>
+  <header><span>59' · AC MILAN 0-1</span><h3>균형을 먼저 깬 쪽은 밀란이었다</h3></header>
+  <div class="highlight-clip-grid"><figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="레알 수비 사이에서 밀란 선수가 슈팅하고, 공이 들어간 레알 골문과 두 손을 모은 관중이 이어지는 장면"><source src="/media/highlights/1957-58-european-cup-final/04-schiaffino-59.mp4" type="video/mp4" /></video><figcaption>흰 유니폼의 레알 수비 사이에서 어두운 유니폼의 밀란 선수가 공을 찬다. 화면이 골문 옆으로 바뀌면 공은 이미 레알 골문 안이고, 이어서 두 손을 모은 관중이 비친다. 0-1.</figcaption></figure></div>
+  <p>후반 59분, 스키아피노의 슈팅이 레알 골망을 흔들었다. 영상에서 밀란의 어두운 유니폼 하나가 흰 유니폼 수비 사이로 파고들어 공을 차고, 화면이 골문 옆으로 넘어가면 공은 이미 골문 안에 있다. UEFA의 경기 기사는 이 골을 레알 골키퍼 후안 알론소<span class="foreign-note" lang="es">(Juan Adelarpe Alonso; 스페인 골키퍼, 1927-1994)</span>를 망연자실하게 만든 선제골로 적는다. 득점 시각은 UEFA 경기 기록으로 59분이고, UEFA의 경기 기사는 60분으로 적는다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
+  <p>두 번의 결승을 모두 이긴 레알이 결승에서 먼저 실점한 것은 파리의 첫 결승 이후 처음이었다. 1954 FIFA 월드컵까지 우루과이의 인사이드 포워드로 뛴 스키아피노는 이 시즌 밀란 공격의 중심이었다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a> 영상의 마지막 장면에서 관중 한 사람이 두 손을 모은 채 경기장을 바라본다.</p>
+</section>
+
+## 후반 74분: 디스테파노의 대답
+
+<section class="highlight-scene european-cup-scene">
+  <header><span>74' · 1-1</span><h3>역습으로 되갚은 레알</h3></header>
   <div class="highlight-clip-grid two-clips">
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="레알 7번 레몽 코파가 밀란 수비수들 앞에서 공을 끌고 페널티 지역 쪽으로 들어가는 장면"><source src="/media/highlights/1957-58-european-cup-final/05-kopa-box.mp4" type="video/mp4" /></video><figcaption>등번호 7번의 코파가 밀란 수비수 셋을 앞에 두고 페널티 지역 쪽으로 공을 끈다.</figcaption></figure>
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="알프레도 디스테파노가 밀란 수비 사이에서 공을 잡아 골망을 흔드는 장면"><source src="/media/highlights/1957-58-european-cup-final/06-di-stefano-74.mp4" type="video/mp4" /></video><figcaption>디스테파노가 밀란 수비 사이에서 공을 잡고 슈팅한다. 골문 뒤 카메라에 쓰러진 골키퍼와 골망이 잡힌다. 1-1.</figcaption></figure>
   </div>
-  <p>균형을 먼저 깬 쪽은 밀란이었다. 후반 59분 스키아피노의 슈팅이 레알 골망을 흔들었다. UEFA 경기 기록의 시각은 59분이고, UEFA의 경기 기사는 60분으로 적는다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a> 두 번의 결승을 모두 이긴 레알이 결승에서 먼저 실점한 것은 파리의 첫 결승 이후 처음이었다. 1954 FIFA 월드컵까지 우루과이의 인사이드 포워드로 뛴 스키아피노는 이 시즌 밀란 공격의 중심이었다.<a class="cite" href="#source-4" aria-label="출처 4">[4]</a></p>
   <p>레알의 대답은 오른쪽에서 시작됐다. 첫 영상의 7번은 코파다. 밀란 수비수 셋이 그를 둘러싸지만 코파는 공을 발에서 떼지 않고 페널티 지역 쪽으로 끌고 들어간다. 74분, 빠른 역습이 밀란 페널티 지역까지 이어졌고 디스테파노<span class="foreign-note" lang="es">(Alfredo Stéfano Di Stéfano Laulhé; 아르헨티나 출신 스페인 센터 포워드, 1926-2014)</span>가 흘러나온 공을 잡아 솔단을 넘겼다. 전반 내내 레알을 막던 골키퍼가 처음 뚫렸다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
   <p>디스테파노는 1956년 파리에서 0-2를 1-2로 줄이는 14분 만회골을, 1957년 베르나베우에서 페널티킥 선제골을 넣었다. 브뤼셀의 동점골로 그는 유러피언컵 결승 세 번에서 모두 골을 넣은 선수가 됐다.</p>
 </section>
@@ -100,7 +107,7 @@ relatedGroup: 'european-cup-1957-58'
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="밀란 7번이 레알 수비 사이를 빠져나가 골문으로 달려들고 레알 골키퍼가 몸을 던져 막는 장면"><source src="/media/highlights/1957-58-european-cup-final/07-alonso-save.mp4" type="video/mp4" /></video><figcaption>밀란 7번 다노바가 레알 수비를 떼어 내고 골문으로 달려든다. 레알 골키퍼 알론소가 몸을 던져 막는다.</figcaption></figure>
     <figure><video class="highlight-clip" data-autoplay-on-view muted loop playsinline controls preload="none" aria-label="모자를 쓴 관중이 입을 벌리고 경기를 지켜본 뒤, 레알 골문 앞에 선수 한 명이 쓰러져 있는 장면"><source src="/media/highlights/1957-58-european-cup-final/08-grillo-77.mp4" type="video/mp4" /></video><figcaption>모자를 쓴 관중의 얼굴 뒤로 레알 골문 앞이 비친다. 선수 한 명이 골문 앞에 쓰러져 있다. 득점 순간은 화면에 온전히 남지 않았다.</figcaption></figure>
   </div>
-  <p>동점이 되자 경기가 한꺼번에 열렸다. 첫 영상에서 밀란의 7번 잔카를로 다노바<span class="foreign-note" lang="it">(Giancarlo Danova; 이탈리아 공격수)</span>가 레알 수비 사이를 빠져나가 골문으로 달려들고, 레알 골키퍼 후안 알론소<span class="foreign-note" lang="es">(Juan Adelarpe Alonso; 스페인 골키퍼, 1927-1994)</span>가 몸을 던져 공을 막는다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
+  <p>동점이 되자 경기가 한꺼번에 열렸다. 첫 영상에서 밀란의 7번 잔카를로 다노바<span class="foreign-note" lang="it">(Giancarlo Danova; 이탈리아 공격수)</span>가 레알 수비 사이를 빠져나가 골문으로 달려들고, 레알 골키퍼 알론소가 몸을 던져 공을 막는다.<a class="cite" href="#source-2" aria-label="출처 2">[2]</a></p>
   <p>밀란은 멈추지 않았다. 디스테파노의 동점골 3분 뒤인 77분, 그리요가 다시 밀란을 앞세웠다. 16강 1차전 아이브록스에서 두 골을 넣으며 레인저스를 무너뜨렸던 공격수다. 두 번째 영상은 초조하게 입을 벌린 관중의 얼굴로 시작해 레알 골문 앞으로 넘어가지만, 슈팅이 골망에 닿는 순간은 화면에 온전히 남아 있지 않다. 선수 한 명이 쓰러져 있는 골문 앞만 보인다. 득점 시각은 UEFA 경기 기록으로 77분이며, RSSSF와 UEFA의 경기 기사는 78분으로 적는다.<a class="cite" href="#source-1" aria-label="출처 1">[1]</a><a class="cite" href="#source-2" aria-label="출처 2">[2]</a><a class="cite" href="#source-3" aria-label="출처 3">[3]</a></p>
 </section>
 
