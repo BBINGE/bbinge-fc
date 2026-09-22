@@ -206,6 +206,125 @@
       ]
     },
     {
+      "season": "1957-58",
+      "competition": "유러피언컵",
+      "matches": 48,
+      "goals": 189,
+      "cutoff": 4,
+      "scorers": [
+        {
+          "rank": 1,
+          "name": "알프레도 디스테파노",
+          "original": "Alfredo Di Stéfano",
+          "lang": "es",
+          "club": "real-madrid",
+          "origin": "아르헨티나",
+          "flag": "/images/flags/ar.svg",
+          "apps": 7,
+          "goals": 10
+        },
+        {
+          "rank": 2,
+          "name": "보라 코스티치",
+          "original": "Borivoje Kostić",
+          "lang": "sr-Latn",
+          "club": "crvena-zvezda",
+          "origin": "유고슬라비아",
+          "flag": "/images/flags/yu-1946.svg",
+          "apps": 6,
+          "goals": 9
+        },
+        {
+          "rank": 3,
+          "name": "초르다시 러요시",
+          "original": "Csordás Lajos",
+          "lang": "hu",
+          "club": "vasas",
+          "origin": "헝가리",
+          "flag": "/images/flags/hu.svg",
+          "apps": 8,
+          "goals": 8
+        },
+        {
+          "rank": 4,
+          "name": "분자크 데죄",
+          "original": "Bundzsák Dezső",
+          "lang": "hu",
+          "club": "vasas",
+          "origin": "헝가리",
+          "flag": "/images/flags/hu.svg",
+          "apps": 7,
+          "goals": 6
+        },
+        {
+          "rank": 4,
+          "name": "에르네스토 그리요",
+          "original": "Ernesto Grillo",
+          "lang": "es",
+          "club": "milan",
+          "origin": "아르헨티나",
+          "flag": "/images/flags/ar.svg",
+          "apps": 8,
+          "goals": 6
+        },
+        {
+          "rank": 6,
+          "name": "가스토네 베안",
+          "original": "Gastone Bean",
+          "lang": "it",
+          "club": "milan",
+          "origin": "이탈리아",
+          "flag": "/images/flags/it.svg",
+          "apps": 5,
+          "goals": 5
+        },
+        {
+          "rank": 6,
+          "name": "후안 스키아피노",
+          "original": "Juan Alberto Schiaffino",
+          "lang": "es",
+          "club": "milan",
+          "origin": "우루과이",
+          "flag": "/images/flags/uy.svg",
+          "apps": 6,
+          "goals": 5
+        },
+        {
+          "rank": 8,
+          "name": "엑토르 리알",
+          "original": "José Héctor Rial Laguía",
+          "lang": "es",
+          "club": "real-madrid",
+          "origin": "아르헨티나",
+          "flag": "/images/flags/ar.svg",
+          "apps": 6,
+          "goals": 4
+        },
+        {
+          "rank": 8,
+          "name": "데니스 바이올렛",
+          "original": "Dennis Viollet",
+          "lang": "en",
+          "club": "manchester-united",
+          "origin": "잉글랜드",
+          "flag": "/images/flags/gb-eng.svg",
+          "apps": 6,
+          "goals": 4
+        },
+        {
+          "rank": 8,
+          "name": "요반 초키치",
+          "original": "Jovan Cokić",
+          "lang": "sr-Latn",
+          "club": "crvena-zvezda",
+          "origin": "유고슬라비아",
+          "flag": "/images/flags/yu-1946.svg",
+          "apps": 3,
+          "goals": 4
+        }
+      ]
+    },
+    {
       "season": "1948",
       "competition": "남미 챔피언 오브 챔피언십",
       "matches": 21,

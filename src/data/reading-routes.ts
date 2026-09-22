@@ -244,6 +244,16 @@ const europeanCup1957Stories: ReadingRouteStory[] = [
     image: '/images/highlights/1957-58-european-cup-final-thumbnail.jpg',
     theme: 'european-cup',
   },
+  {
+    id: '1957-58-european-cup-top-scorers',
+    href: '/archive/club/european-cup/1957-58-european-cup-top-scorers/',
+    index: '04',
+    label: '대회관 · 득점 순위',
+    title: '가장 많은 골을 넣은 선수는 누구였나',
+    description: '대회 첫 두 자릿수를 넣은 디스테파노의 10골부터 코스티치·초르다시·밀란의 세 사람까지, 경기별 득점 기록',
+    image: '/images/archive/1957-58-european-cup-top-scorers/top-scorers.png',
+    theme: 'european-cup',
+  },
 ];
 
 // 홈 시즌 서가: 최신 시즌을 앞에 두고, 각 시즌의 읽기 동선을 한 줄 선반으로 보여 준다.
@@ -295,9 +305,9 @@ export function getReadingRoute(currentId: string): ReadingRoute | undefined {
   if (europeanCup1957Stories.some((story) => story.id === currentId)) {
     return {
       theme: 'european-cup',
-      kicker: 'EUROPEAN CUP 1957-58 READING ROUTE · 01—03',
+      kicker: 'EUROPEAN CUP 1957-58 READING ROUTE · 01—04',
       title: '세 번째 유러피언컵을<br />기록으로 이어 읽기',
-      lead: '스물네 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 브뤼셀의 연장 결승 장면에 따라 다음 기록을 고르면 된다.',
+      lead: '스물네 구단이 나선 예선부터 8강까지, 결승행 두 자리를 가른 4강 네 경기, 브뤼셀의 연장 결승 장면, 누가 가장 많은 골을 넣었는지에 따라 다음 기록을 고르면 된다.',
       stories: europeanCup1957Stories.filter((story) => story.id !== currentId),
     };
   }

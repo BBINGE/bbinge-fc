@@ -164,6 +164,19 @@ assert(scorers5657.includes('/images/flags/es-1945.png'), '아르테체 1945-197
 const scorerSource5657 = readFileSync(new URL('../src/content/archive/1956-57-european-cup-top-scorers.md', import.meta.url), 'utf8');
 assert.equal((scorerSource5657.match(/data-european-cup-scorers="1956-57"/g) ?? []).length, 1);
 assert(!scorerSource5657.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
+// 1957-58 득점 순위: UEFA·RSSSF 경기별 기록 일치 10명(RSSSF 요약표의 그리요 5골·베안·스키아피노 누락은 따르지 않는다).
+const scorers5758 = renderTopScorers('1957-58');
+assert.equal((scorers5758.match(/<tr[ >]/g) ?? []).length, 11, '머리글 1행 + 선수 10행');
+for (const [rank, name, goals, apps] of [['1위','알프레도 디스테파노',10,7],['2위','보라 코스티치',9,6],['3위','초르다시 러요시',8,8],['공동 4위','분자크 데죄',6,7],['공동 4위','에르네스토 그리요',6,8],['공동 6위','가스토네 베안',5,5],['공동 6위','후안 스키아피노',5,6],['공동 8위','엑토르 리알',4,6],['공동 8위','데니스 바이올렛',4,6],['공동 8위','요반 초키치',4,3]]) {
+  const row = scorers5758.split('<tr').find(part => part.includes('<strong>' + name + '</strong>'));
+  assert(row && row.includes('data-label="순위">' + rank + '</td>'), name + ' 순위');
+  assert(row.includes('data-label="득점">' + goals + '골') && row.includes('data-label="출전">' + apps + '경기'), name + ' 골·출전');
+}
+assert.equal((scorers5758.match(/cup-result-crest"><img/g) ?? []).length, 10, '득점자 10명 클럽 문장');
+const scorerSource5758 = readFileSync(new URL('../src/content/archive/1957-58-european-cup-top-scorers.md', import.meta.url), 'utf8');
+assert.equal((scorerSource5758.match(/data-european-cup-scorers="1957-58"/g) ?? []).length, 1);
+assert(!scorerSource5758.includes('<table'), '득점 순위표는 원고에 손으로 쓰지 않는다');
+assert(!/초르다스|가스톤 빈/.test(scorerSource5758.replace(/coverImageCaption:.*\n/, '')), '도판 표기는 캡션에서만 설명한다');
 // 1948 남미 챔피언 오브 챔피언십 득점 순위: 출전 기록이 없는 대회라 출전 칸을 만들지 않는다.
 const scorers1948 = renderTopScorers('1948');
 assert.equal((scorers1948.match(/<tr[ >]/g) ?? []).length, 10, '머리글 1행 + 선수 9행');
