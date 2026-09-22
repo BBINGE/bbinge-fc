@@ -73,7 +73,15 @@
 .award-record .archive-body .award-season-results h2 { margin: 0 0 20px; padding: 0; border: 0; font-size: 23px; }
 .award-record .archive-body .award-competition { }
 .award-record .archive-body .award-competition + .award-competition { margin-top: 24px; }
-.award-record .archive-body .award-competition h3 { margin: 0 0 12px; font-size: 17px; }
+.award-record .archive-body .award-competition h3 { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; font-size: 17px; }
+/* 대회 로고와 팀 문장·국기(2026-09-22): 투명 배경 그대로, 같은 눈높이로 맞춘다. 흰 네모 칸에 넣지 않는다. */
+.award-record .archive-body .award-competition-logo { flex: none; width: 40px; height: 40px; object-fit: contain; border-radius: 0; box-shadow: none; }
+.award-record .archive-body .award-competition dd { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.award-record .archive-body .award-team { display: inline-flex; align-items: center; gap: 8px; }
+.award-record .archive-body .award-team img { flex: none; margin: 0; border-radius: 0; box-shadow: none; }
+.award-record .archive-body .award-team-crest { width: 24px; height: 24px; object-fit: contain; }
+.award-record .archive-body .award-team-flag { width: 27px; height: 18px; object-fit: cover; border: 1px solid rgba(0,0,0,.12); border-radius: 2px; }
+.award-record .archive-body .award-team small { color: #71633c; font-size: 13px; }
 .award-record .archive-body .award-competition dl { margin: 0; font-size: 14px; }
 .award-record .archive-body .award-competition dl > div { display: grid; grid-template-columns: 50px minmax(0,1fr); gap: 12px; margin-top: 7px; }
 .award-record .archive-body .award-competition dt { color: #71633c; }

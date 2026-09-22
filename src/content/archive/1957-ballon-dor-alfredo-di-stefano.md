@@ -31,7 +31,7 @@ draft: false
 
 <section class="award-season-results" aria-labelledby="season-results">
 <h2 id="season-results">1956-57 시즌 우승팀</h2>
-<div class="award-competition"><h3>유러피언컵 <a class="cite" href="#source-5">[5]</a></h3><dl><div><dt>우승</dt><dd>레알 마드리드 CF (2연패)</dd></div><div><dt>준우승</dt><dd>AC 피오렌티나</dd></div><div><dt>4강</dt><dd>FK 츠르베나 즈베즈다 · 맨체스터 유나이티드 FC</dd></div></dl></div>
+<div data-award-record="1957-ballon-dor:season"></div>
 </section>
 
 1956년 첫 발롱도르가 스탠리 매슈스에게 돌아갔을 때는 어느 정도 논란이 있었다. 필자는 그 결과를 이해하는 편이다. 마흔을 넘긴 나이만 지우고 보면, 매슈스는 그해에도 경외심을 불러일으키는 선수였다. 그렇다고 그를 21세기의 리오넬 메시처럼 설명할 수는 없고, 첫해의 수상에는 새 상이 권위를 얻어 가던 사정도 함께 놓여 있었다.

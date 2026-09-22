@@ -1,0 +1,27 @@
+{
+  "european-cup-1956": {
+    "src": "/images/archive/competitions/european-cup-1956-trophy.svg",
+    "width": 100,
+    "height": 200,
+    "alt": "유러피언컵 원조 트로피",
+    "period": "The European Cup had no competition logo before 1992; the original 1956-1966 trophy (donated by L Equipe) is drawn instead of the post-1967 trophy or the starball.",
+    "evidence": "https://commons.wikimedia.org/wiki/File:ParcdesPrincesCoupedesClubsChampions1956.png (reference photo only; the SVG is a site-made silhouette)"
+  },
+  "world-cup-1958": {
+    "src": "/images/archive/competitions/world-cup-1958.png",
+    "width": 200,
+    "height": 241,
+    "alt": "1958 FIFA 월드컵 스웨덴 대회 엠블럼",
+    "period": "1957-1958 official competition emblem (SVERIGE JUNI 1958, VM fotboll, Coupe Jules Rimet)",
+    "evidence": "https://logos.fandom.com/wiki/1958_FIFA_World_Cup ; image from the operator's NAVER post 223501759121"
+  },
+  "fairs-cup": {
+    "src": "/images/archive/competitions/fairs-cup-trophy.svg",
+    "width": 385,
+    "height": 585,
+    "alt": "인터시티스 페어스컵 트로피",
+    "period": "The competition had no logo; the only trophy used 1955-1971 is drawn instead.",
+    "evidence": "https://commons.wikimedia.org/wiki/File:UEFA_-_Inter-Cities_Fairs_Cup.svg",
+    "license": "CC BY-SA 3.0 · Riccardo de conciliis (it.wikipedia), SVG by LonEMedia"
+  }
+}

@@ -9,6 +9,7 @@
     "di-stefano":{"name":"알프레도 디스테파노","rows":[{"id":"spain","note":"아르헨티나 출생 · 1956년 스페인 국적 취득"},{"id":"spain-team","note":"1956년 출전 없음 · 대표팀 데뷔 1957.01.30"},{"id":"real-madrid","note":"1956년 소속 구단"}]},
     "kopa":{"name":"레몽 코파","rows":[{"id":"france"},{"id":"france-team","note":"1956년 A매치 1경기 0골"},{"id":"reims","note":"1956년 상반기 · 유러피언컵 준우승"},{"id":"real-madrid","note":"1956년 하반기 · 여름 이적"}]}
   },
+  "seasonResults":{"title":"1955-56 시즌 우승팀","competitions":[{"name":"유러피언컵","logo":"european-cup-1956","season":"1955-56","cite":19,"rows":[{"label":"우승","entries":[{"club":"real-madrid"}]},{"label":"준우승","entries":[{"club":"reims"}]},{"label":"4강","entries":[{"club":"milan"},{"club":"hibernian"}]}]}]},
   "ranking":[
     {"rank":1,"name":"스탠리 매슈스","original":"Stanley Matthews","country":"영국(잉글랜드)","clubs":["블랙풀 FC"],"points":47,"votes":[6,2,2,1,1]},
     {"rank":2,"name":"알프레도 디스테파노","original":"Alfredo Di Stéfano","country":"스페인","nationalities":["아르헨티나","스페인"],"clubs":["레알 마드리드 CF"],"points":44,"votes":[5,3,2,0,1]},

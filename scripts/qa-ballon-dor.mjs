@@ -48,7 +48,9 @@ try {
     assert.equal(await page.locator('.award-podium a').nth(2).locator('span').innerText(), '스타드 드 랭스\n레알 마드리드 CF');
     const season = page.locator('.award-season-results');
     assert.equal(await season.locator('h2').innerText(), '1955-56 시즌 우승팀');
-    assert.deepEqual(await season.locator('dd').allTextContents(), ['레알 마드리드 CF', '스타드 드 랭스', 'AC 밀란 · 히버니언 FC']);
+    assert.deepEqual(await season.locator('dd').evaluateAll(dds => dds.map(dd => [...dd.querySelectorAll('.award-team')].map(t => t.textContent.trim()).join(' · '))), ['레알 마드리드 CF', '스타드 드 랭스', 'AC 밀란 · 히버니언 FC']);
+    assert.equal(await season.locator('.award-competition-logo[src*="european-cup-1956-trophy"]').count(), 1);
+    assert.equal(await season.locator('.award-team img').evaluateAll(imgs => imgs.filter(i => !i.complete || !i.naturalWidth).length), 0);
     assert(await season.evaluate(el => !!(el.compareDocumentPosition(document.querySelector('#award-rules')) & Node.DOCUMENT_POSITION_FOLLOWING)));
     assert(!/(^|\s)(나는|내가)\s/m.test(await page.locator('.archive-body').innerText()));
     const achievements = page.locator('.award-achievements');

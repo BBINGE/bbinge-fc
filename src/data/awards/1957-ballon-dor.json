@@ -12,6 +12,7 @@
     "kopa":{"name":"레몽 코파","rows":[{"id":"france"},{"id":"france-team","note":"1957년 출전 없음"},{"id":"real-madrid","note":"1957년 소속 구단"}]},
     "edwards":{"name":"던컨 에드워즈","rows":[{"id":"uk"},{"id":"england"},{"id":"england-team","note":"1957년 A매치 7경기 2골"},{"id":"manchester-united","note":"1957년 소속 구단"}]}
   },
+  "seasonResults":{"title":"1956-57 시즌 우승팀","competitions":[{"name":"유러피언컵","logo":"european-cup-1956","season":"1956-57","cite":5,"rows":[{"label":"우승","entries":[{"club":"real-madrid","note":"2연패"}]},{"label":"준우승","entries":[{"club":"fiorentina"}]},{"label":"4강","entries":[{"club":"crvena-zvezda"},{"club":"manchester-united"}]}]}]},
   "ranking":[
     {"rank":1,"name":"알프레도 디스테파노","original":"Alfredo Di Stéfano","country":"스페인","nationalities":["아르헨티나","스페인"],"clubs":["레알 마드리드 CF"],"points":72,"votes":[12,3,0,0,0]},
     {"rank":2,"name":"빌리 라이트","original":"Billy Wright","country":"영국(잉글랜드)","clubs":["울버햄프턴 원더러스 FC"],"points":19,"votes":[1,2,2,0,0]},

@@ -31,7 +31,7 @@ draft: false
 
 <section class="award-season-results" aria-labelledby="season-results">
 <h2 id="season-results">1955-56 시즌 우승팀</h2>
-<div class="award-competition"><h3>유러피언컵 <a class="cite" href="#source-19">[19]</a></h3><dl><div><dt>우승</dt><dd>레알 마드리드 CF</dd></div><div><dt>준우승</dt><dd>스타드 드 랭스</dd></div><div><dt>4강</dt><dd>AC 밀란 · 히버니언 FC</dd></div></dl></div>
+<div data-award-record="1956-ballon-dor:season"></div>
 </section>
 
 첫 유러피언컵이 끝났다. 레알 마드리드는 파리에서 두 골을 먼저 내주고도 경기를 뒤집었고, 유럽의 강팀들이 같은 대회에서 겨룬다는 구상은 이제 우승컵을 가진 현실이 됐다. 그렇다면 그해 유럽 최고의 선수도 자연스럽게 그 우승팀에서 나왔을까. 초대 발롱도르의 결과는 우리가 익숙하게 연결하는 두 문장 사이에 작은 틈을 남겼다.

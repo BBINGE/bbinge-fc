@@ -9,6 +9,7 @@
     "rahn":{"name":"헬무트 란","rows":[{"id":"west-germany"},{"id":"west-germany-team","note":"1958년 A매치 11경기 10골"},{"id":"rot-weiss-essen","note":"1958년 소속 구단"}]},
     "fontaine":{"name":"쥐스트 퐁텐","rows":[{"id":"france","note":"모로코 마라케시 출생"},{"id":"france-team","note":"1958년 A매치 12경기 18골"},{"id":"reims","note":"1958년 소속 구단"}]}
   },
+  "seasonResults":{"title":"1957-58 시즌 우승팀","competitions":[{"name":"유러피언컵","logo":"european-cup-1956","season":"1957-58","cite":6,"rows":[{"label":"우승","entries":[{"club":"real-madrid","note":"3연패"}]},{"label":"준우승","entries":[{"club":"milan"}]},{"label":"4강","entries":[{"club":"vasas"},{"club":"manchester-united"}]}]},{"name":"1958 FIFA 월드컵","logo":"world-cup-1958","cite":5,"rows":[{"label":"우승","entries":[{"country":"브라질","flag":"/images/flags/br.svg"}]},{"label":"준우승","entries":[{"country":"스웨덴","flag":"/images/flags/se.svg"}]},{"label":"3위","entries":[{"country":"프랑스","flag":"/images/flags/fr.svg"}]},{"label":"4위","entries":[{"country":"서독","flag":"/images/flags/de.svg"}]}]},{"name":"1955-58 인터시티스 페어스컵","logo":"fairs-cup","season":"1955-58","rows":[{"label":"우승","entries":[{"club":"cf-barcelona"}]},{"label":"준우승","entries":[{"club":"london-xi"}]},{"label":"4강","entries":[{"club":"birmingham-city"},{"club":"lausanne-sports"}]}]}]},
   "ranking":[
     {"rank":1,"name":"레몽 코파","original":"Raymond Kopa","country":"프랑스","nationalities":["폴란드","프랑스"],"clubs":["레알 마드리드 CF"],"points":71,"votes":[14,0,0,0,1]},
     {"rank":2,"name":"헬무트 란","original":"Helmut Rahn","country":"서독","clubs":["로트바이스 에센"],"points":40,"votes":[0,6,4,2,0]},

@@ -1,5 +1,6 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { resolveClub } from './render-football-ties.mjs';
 
 const read = file => JSON.parse(readFileSync(resolve(file), 'utf8'));
 const identities = read('src/data/historical-identities.json');
@@ -57,9 +58,41 @@ function ranking(data, detailed) {
   }).join('')}</tbody></table></div>`;
 }
 
+// 상단 시즌 우승팀 칸(운영자 지시, 2026-09-22 "대회 로고도 넣자 발롱도르 통일"): 대회 로고 + 팀 문장(클럽) 또는 국기(나라)를 데이터에서 그린다.
+// 클럽은 historical-clubs.json의 시즌별 문장, 대회 로고는 competition-logos.json의 시대 자산만 쓴다.
+const competitionLogos = read('src/data/competition-logos.json');
+function localAsset(src, label) {
+  if (!src?.startsWith('/images/') || src.includes('..') || !existsSync(resolve('public' + src))) throw new Error(`Missing ${label}: ${src}`);
+  return src;
+}
+function seasonTeam(entry, season) {
+  let name, icon, kind;
+  if (entry.club) {
+    const club = resolveClub(entry.club, entry.season ?? season);
+    if (!club.crest) throw new Error(`Season results need a reviewed crest: ${entry.club}`);
+    name = club.name; icon = localAsset(club.crest.src, 'crest'); kind = 'crest';
+  } else if (entry.country) {
+    name = entry.country; icon = localAsset(entry.flag, 'flag'); kind = 'flag';
+  } else throw new Error('Season result entry needs club or country');
+  return `<span class="award-team"><img class="award-team-${kind}" src="${icon}" width="${kind === 'flag' ? 36 : 28}" height="${kind === 'flag' ? 24 : 28}" alt="" loading="lazy" decoding="async" /><span>${escape(name)}${entry.note ? ` <small>(${escape(entry.note)})</small>` : ''}</span></span>`;
+}
+function seasonResults(data) {
+  const block = data.seasonResults;
+  if (!block?.competitions?.length) throw new Error('Missing seasonResults');
+  return block.competitions.map(comp => {
+    const logo = comp.logo ? competitionLogos[comp.logo] : null;
+    if (comp.logo && !logo) throw new Error(`Unknown competition logo: ${comp.logo}`);
+    const logoHtml = logo ? `<img class="award-competition-logo" src="${localAsset(logo.src, 'competition logo')}" width="${logo.width}" height="${logo.height}" alt="${escape(logo.alt)}" loading="lazy" decoding="async" />` : '';
+    const cite = comp.cite ? ` <a class="cite" href="#source-${comp.cite}">[${comp.cite}]</a>` : '';
+    const rows = comp.rows.map(row => `<div><dt>${escape(row.label)}</dt><dd>${row.entries.map(e => seasonTeam(e, comp.season)).join('')}</dd></div>`).join('');
+    return `<div class="award-competition"><h3>${logoHtml}<span>${escape(comp.name)}${cite}</span></h3><dl>${rows}</dl></div>`;
+  }).join('\n');
+}
+
 export function expandAwardRecords(html) {
-  const expanded = html.replace(/<div data-award-record="(\d{4}-[a-z-]+):(ranking|ballots|identity-[a-z-]+)"><\/div>/g, (_, id, section) => {
+  const expanded = html.replace(/<div data-award-record="(\d{4}-[a-z-]+):(ranking|ballots|season|identity-[a-z-]+)"><\/div>/g, (_, id, section) => {
     const data = readAwardEdition(id);
+    if (section === 'season') return seasonResults(data);
     if (section.startsWith('identity-')) {
       const profile = data.profiles[section.slice(9)];
       if (!profile) throw new Error('Unknown award profile');

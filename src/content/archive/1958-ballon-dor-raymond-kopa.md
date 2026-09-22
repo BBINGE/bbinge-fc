@@ -38,9 +38,7 @@ draft: false
 
 <section class="award-season-results" aria-labelledby="season-results">
 <h2 id="season-results">1957-58 시즌 우승팀</h2>
-<div class="award-competition"><h3>유러피언컵 <a class="cite" href="#source-6">[6]</a></h3><dl><div><dt>우승</dt><dd>레알 마드리드 CF (3연패)</dd></div><div><dt>준우승</dt><dd>AC 밀란</dd></div><div><dt>4강</dt><dd>버셔시 SC · 맨체스터 유나이티드 FC</dd></div></dl></div>
-<div class="award-competition"><h3>1958 FIFA 월드컵 <a class="cite" href="#source-5">[5]</a></h3><dl><div><dt>우승</dt><dd>브라질</dd></div><div><dt>준우승</dt><dd>스웨덴</dd></div><div><dt>3위</dt><dd>프랑스</dd></div><div><dt>4위</dt><dd>서독</dd></div></dl></div>
-<div class="award-competition"><h3>1955-58 인터시티스 페어스컵</h3><dl><div><dt>우승</dt><dd>CF 바르셀로나</dd></div><div><dt>준우승</dt><dd>런던 XI</dd></div><div><dt>4강</dt><dd>버밍엄 시티 FC · 로잔 스포르</dd></div></dl></div>
+<div data-award-record="1958-ballon-dor:season"></div>
 </section>
 
 1957년 발롱도르에서 알프레도 디스테파노가 72점으로 수상했을 때, 레몽 코파는 16점으로 공동 3위였다. 1956년에도 3위였으니 두 해 연속 시상대 끝자리에 섰다. 세 번째 투표에서 코파는 71점을 받았다. 열 번 찍어 안 넘어가는 나무 없다는 말처럼, 한 해도 빠지지 않고 세계 최고 수준의 경기를 이어 간 끝에 받은 트로피다. <a class="cite" href="#source-1">[1]</a>
@@ -183,5 +181,6 @@ draft: false
 <li id="source-8">위키백과, <a href="https://en.wikipedia.org/wiki/Helmut_Rahn" target="_blank" rel="noopener noreferrer">“Helmut Rahn”</a>. 1954년 월드컵 결승골과 1951-1959년 로트바이스 에센 경력.</li>
 <li id="source-9">《프랑스 풋볼》, <a href="https://www.lequipe.fr/France-Football/Actualites/Ballon-d-or-quatre-changements-pour-l-histoire/1321452" target="_blank" rel="noopener noreferrer">“Ballon d’Or : quatre changements pour l’histoire”</a>, 2022년 3월 11일. 연간 평가에서 시즌 평가로의 전환.</li>
 <li id="source-10">위키백과, <a href="https://en.wikipedia.org/wiki/1958_Copa_del_General%C3%ADsimo_final" target="_blank" rel="noopener noreferrer">“1958 Copa del Generalísimo final”</a>. 레알 마드리드의 결승 진출과 준우승.</li>
+<li id="source-11">위키미디어 공용, <a href="https://commons.wikimedia.org/wiki/File:UEFA_-_Inter-Cities_Fairs_Cup.svg" target="_blank" rel="noopener noreferrer">“UEFA - Inter-Cities Fairs Cup.svg”</a>. Riccardo de conciliis 원작, LonEMedia SVG, CC BY-SA 3.0. 시즌 우승팀 칸의 페어스컵 트로피 도안.</li>
 </ol>
 </div>
