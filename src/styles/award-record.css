@@ -84,6 +84,9 @@
 .award-record .archive-body .award-achievements-kopa { background: #092988; }
 .award-record .archive-body .award-achievements-wright { --record-accent: #fdb913; background: #231f20; }
 .award-record .archive-body .award-achievements-edwards { background: #c8102e; }
+/* 1958: 란은 서독 대표팀의 검정, 퐁텐은 랭스 정체성 행과 같은 빨강. */
+.award-record .archive-body .award-achievements-rahn { background: #151515; }
+.award-record .archive-body .award-achievements-fontaine { background: #bd1730; }
 .award-record .archive-body .award-achievements section { padding: 24px; margin: 0; border-bottom: 1px solid var(--record-rule); }
 .award-record .archive-body .award-achievements section:last-child { border-bottom: 0; }
 .award-record .archive-body .award-achievements h3 { margin: 0 0 12px; padding: 0; color: inherit; font-size: 21px; line-height: 1.4; }

@@ -37,6 +37,9 @@ try {
     assert.equal(data.broken, 0);
     assert.equal(data.brokenAnchors, 0);
     assert.equal(data.smallText, 0);
+    // 선수 기록 패널은 선수별 클래스(award-achievements-{id})로 색을 칠한다. 규칙이 빠지면 흰 바탕에 금색 글씨가 된다(1958 발행 직후 회귀).
+    const panelBgs = await page.locator('.award-achievements').evaluateAll(els => els.map(el => getComputedStyle(el).backgroundColor));
+    assert(panelBgs.every(bg => bg !== 'rgba(0, 0, 0, 0)' && bg !== 'rgb(255, 255, 255)'), '기록 패널 배경색: ' + panelBgs.join(' / '));
     assert.deepEqual(data.routes, ['/archive/club/european-cup/1957-58-european-cup-tournament-best-xi/', '/highlights/european-cup/1957-58-european-cup-final-real-madrid-milan/'], '발롱도르 동선');
     await page.locator('.historical-identity').nth(1).screenshot({ path: `${out}/identity-rahn-${width}.png` });
     await page.locator('.award-podium').screenshot({ path: `${out}/podium-${width}.png` });
