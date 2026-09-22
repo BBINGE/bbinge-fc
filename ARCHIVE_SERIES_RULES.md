@@ -110,6 +110,7 @@
 - 1956-57 4강: [승인 원고](src/content/archive/1956-57-european-cup-semifinals.md), [사료 메모](docs/editorial/european-cup-1956-57-semifinals-source-audit.md)
 - 1956-57 본선: [승인 원고](src/content/archive/1956-57-european-cup.md), [대진 데이터](src/data/cup-ties/1956-57-european-cup.json), [사료 메모](docs/editorial/european-cup-1956-57-source-audit.md)
 - 1956-57 결승 H/L: [승인 원고](src/content/articles/1956-57-european-cup-final-real-madrid-fiorentina.md), [사료 메모](docs/editorial/1956-57-european-cup-final-source-audit.md), [검수](scripts/qa-european-cup-final-1956-57.mjs)
+- 1957-58 결승 H/L: [승인 원고](src/content/articles/1957-58-european-cup-final-real-madrid-milan.md), [사료 메모](docs/editorial/1957-58-european-cup-final-source-audit.md), [검수](scripts/qa-european-cup-final-1957-58.mjs). 연장 결승은 하프타임 카드와 같은 부품으로 `90 MIN` 카드를 한 장 더 둔다. UEFA 라인업과 영어 위키의 등번호가 갈리는 선수(1958 레알 4·5번)는 영상에서 번호가 읽히지 않으면 이름을 쓰지 않는다.
 
 여기에 적힌 1956 사례는 검수 기준점이지 이후 연도의 사실값이 아니다. 새 합의는 이 전문 기준에 반영하고, 특정 판본의 사실 충돌은 사료 메모, 최신 발행 상태는 HANDOFF에 둔다.
 

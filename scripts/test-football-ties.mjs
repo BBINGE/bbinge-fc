@@ -221,6 +221,17 @@ assert(renderEuropeanCupMilestone('1956-57', 'runners-up').includes('AC 피오�
 const finalSource5657 = readFileSync(new URL('../src/content/articles/1956-57-european-cup-final-real-madrid-fiorentina.md', import.meta.url), 'utf8');
 for (const stage of ['final', 'champions', 'runners-up']) assert.equal((finalSource5657.match(new RegExp('data-european-cup-milestone="1956-57:' + stage + '"', 'g')) ?? []).length, 1, stage);
 assert(!finalSource5657.includes('ACF 피오렌티나'), '결승 원고는 당시 구단명 AC 피오렌티나를 쓴다');
+// 1957-58 결승 H/L: 레알 세 번째 결승·우승, 밀란 첫 결승·준우승, 원고 자리표시.
+const final5758 = renderEuropeanCupMilestone('1957-58', 'final');
+assert.equal((final5758.match(/class="cup-entrant-club"/g) ?? []).length, 2);
+assert.equal((final5758.match(/통산 세 번째 결승 진출/g) ?? []).length, 1);
+assert.equal((final5758.match(/통산 첫 결승 진출/g) ?? []).length, 1);
+assert(renderEuropeanCupMilestone('1957-58', 'champions').includes('통산 세 번째 유러피언컵 우승'));
+assert(renderEuropeanCupMilestone('1957-58', 'runners-up').includes('통산 첫 유러피언컵 준우승'));
+assert(renderEuropeanCupMilestone('1957-58', 'runners-up').includes('AC 밀란'));
+const finalSource5758 = readFileSync(new URL('../src/content/articles/1957-58-european-cup-final-real-madrid-milan.md', import.meta.url), 'utf8');
+for (const stage of ['final', 'champions', 'runners-up']) assert.equal((finalSource5758.match(new RegExp('data-european-cup-milestone="1957-58:' + stage + '"', 'g')) ?? []).length, 1, stage);
+assert(!/그릴로|배지 오브 오너/.test(finalSource5758), '그리요·배지 오브 아너 표기');
 // 1955-58 페어스컵 4강권: 대회명은 데이터에서, 버밍엄-바르셀로나 재경기, 두 경기 결승의 우승 칸.
 const fairs = id => renderTie('1955-58-inter-cities-fairs-cup-semifinals-final', id);
 assert(fairs('match-1').includes('1955-58 인터시티스 페어스컵 · 4강') && fairs('match-1').includes('<dt>결승 진출</dt><dd>런던 XI</dd>'));

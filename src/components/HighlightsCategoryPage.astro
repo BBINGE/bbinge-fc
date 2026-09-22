@@ -34,6 +34,27 @@ const imageAltFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage
 const introLead = description?.split(' H/L은')[0] ?? description;
 
 const profiles: Record<string, MatchProfile> = {
+  '1957-58-european-cup-final-real-madrid-milan': {
+    year: '1958',
+    kicker: 'LA TERCERA UNDER THE ATOMIUM',
+    kickerSub: '두 번 끌려가고 두 번 따라붙은 끝, 연장에서 완성한 3연패',
+    stage: 'EUROPEAN CUP · FINAL',
+    home: '레알 마드리드 CF',
+    away: 'AC 밀란',
+    homeScore: '3',
+    awayScore: '2',
+    date: '1958.05.28',
+    venue: '헤이젤 스타디움',
+    scenes: '14 SCENES',
+    turningPoint: '스키아피노와 그리요로 두 번 앞선 밀란을 디스테파노와 리알이 두 번 따라잡았고, 연장 107분 헨토가 말디니와 폰타나를 넘어 결승골을 넣었다.',
+    timeline: [
+      { time: "59'", label: '밀란 0-1' },
+      { time: "74'", label: '1-1' },
+      { time: "77'", label: '밀란 1-2' },
+      { time: "79'", label: '2-2' },
+      { time: "107'", label: '레알 3-2' },
+    ],
+  },
   '1956-57-european-cup-final-real-madrid-fiorentina': {
     year: '1957',
     kicker: 'LA SEGUNDA AT THE BERNABÉU',
