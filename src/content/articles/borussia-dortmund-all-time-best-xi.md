@@ -47,7 +47,7 @@ featured: true
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/stefan-klos.webp" alt="슈테판 클로스의 소속 기간, 기록, 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-슈테판 클로스<span class="foreign-note" lang="de">(Stefan Klos; 독일 골키퍼, 1971-)</span>의 이름은 화려한 선방 모음보다 ‘빠지지 않는 골키퍼’라는 감각으로 남아 있다. 1991-92시즌 오트마어 히츠펠트는 오랫동안 골문을 지킨 테디 데 베어 대신 스무 살의 클로스를 세웠다. 어린 골키퍼가 선배의 자리를 빼앗은 뒤 도르트문트는 UEFA컵 결승, 푸스발-분데스리가 2연패, UEFA 챔피언스 리그 우승으로 계단을 올랐다. 1995-96시즌 33라운드에 엄지손가락이 부러지기 전까지 250경기 연속 출전을 바라볼 만큼 몸과 경기력의 기복이 적었다.<a class="cite" href="#source-17" aria-label="출처 18">[18]</a>
+슈테판 클로스<span class="foreign-note" lang="de">(Stefan Klos; 독일 골키퍼, 1971-)</span>의 이름은 화려한 선방 모음보다 ‘빠지지 않는 골키퍼’라는 감각으로 남아 있다. 1991-92시즌 오트마어 히츠펠트는 오랫동안 골문을 지킨 테디 데 베어 대신 스무 살의 클로스를 세웠다. 어린 골키퍼가 선배의 자리를 빼앗은 뒤 도르트문트는 UEFA컵 결승, 푸스발-분데스리가 2연패, UEFA 챔피언스 리그 우승으로 계단을 올랐다. 1995-96시즌 33라운드에 엄지손가락이 부러지기 전까지 250경기 연속 출전을 바라볼 만큼 몸과 경기력의 기복이 적었다.<a class="cite" href="#source-15" aria-label="출처 15">[15]</a>
 
 클로스의 장점은 공이 날아온 뒤에만 드러나지 않았다. 슈팅 직전 발을 잘게 놀리며 몸의 중심을 세우고, 낮은 공에는 손만 뻗기보다 몸 전체를 궤도 뒤에 놓았다. 튕겨내더라도 중앙이 아닌 옆으로 보내는 기본기가 좋았다. 지금처럼 골키퍼가 빌드업의 첫 미드필더로 평가받기 전의 선수였지만, 백패스 규정이 바뀐 시대를 통과하며 성급하게 걷어내지 않고 안전한 출구를 찾았다. 콜러처럼 몸을 던지는 수비수 뒤에는 이런 ‘두 번째 사고를 만들지 않는’ 골키퍼가 필요했다.
 
@@ -61,9 +61,9 @@ featured: true
 
 핵심은 ‘언제 나가느냐’였다. 너무 일찍 전진하면 뒷공간이 열리고, 늦으면 평범한 스위퍼가 된다. 자머는 패스가 상대 공격수에게 도착하기 전에 간격을 좁혔고, 끊어낸 뒤에는 옆으로 책임을 넘기지 않았다. 짧은 드리블로 첫 압박자를 끌어낸 다음 초르크나 묄러에게 전진 패스를 건넸다. 상대에게는 수비수였던 선수가 몇 초 뒤 중앙 미드필더가 되어 나타나는 셈이다. 이 글의 5-1-3-1이 공을 잡으면 3-4-2-1로 변하는 스위치는 자머 한 사람이다.
 
-1994-95·1995-96시즌 푸스발-분데스리가 2연패와 UEFA 유로 1996 우승은 그 역할이 당대 최정상의 해법이었음을 보여줬다. 대회에서는 독일의 후방 지휘자이자 전진의 시작점이었고, 그해 호나우두와 앨런 시어러를 제치고 발롱도르를 받았다. 지금까지 발롱도르를 수상한 유일한 도르트문트 선수다.<a class="cite" href="#source-18" aria-label="출처 19">[19]</a>
+1994-95·1995-96시즌 푸스발-분데스리가 2연패와 UEFA 유로 1996 우승은 그 역할이 당대 최정상의 해법이었음을 보여줬다. 대회에서는 독일의 후방 지휘자이자 전진의 시작점이었고, 그해 호나우두와 앨런 시어러를 제치고 발롱도르를 받았다. 지금까지 발롱도르를 수상한 유일한 도르트문트 선수다.<a class="cite" href="#source-16" aria-label="출처 16">[16]</a>
 
-1996-97시즌 UEFA 챔피언스 리그 결승에서는 부상 때문에 최고의 운동능력을 모두 꺼내지 못했다. 그런데도 유벤투스가 공을 전개할 때 라인을 정리하고, 로이터와 하인리히가 올라갈 시간을 만들었다. 경기 종료 뒤 주장 완장은 자머에게 있었지만 그는 89분에 들어온 미하엘 초르크가 우승컵을 먼저 들도록 등을 떠밀었다. 경기에서는 전진했고, 시상대에서는 구단의 질서를 먼저 세웠다.<a class="cite" href="#source-22" aria-label="출처 23">[23]</a>
+1996-97시즌 UEFA 챔피언스 리그 결승에서는 부상 때문에 최고의 운동능력을 모두 꺼내지 못했다. 그런데도 유벤투스가 공을 전개할 때 라인을 정리하고, 로이터와 하인리히가 올라갈 시간을 만들었다. 경기 종료 뒤 주장 완장은 자머에게 있었지만 그는 89분에 들어온 미하엘 초르크가 우승컵을 먼저 들도록 등을 떠밀었다. 경기에서는 전진했고, 시상대에서는 구단의 질서를 먼저 세웠다.<a class="cite" href="#source-20" aria-label="출처 20">[20]</a>
 
 볼프강 파울은 1966년 유럽 제패의 주장이고, 후멜스는 현대적 빌드업 수비수의 완성형이다. 하지만 서로 다른 시대의 열한 명을 실제 팀으로 작동시키려면 수비와 중원을 동시에 맡을 수 있는 자머가 필요하다. 베켄바워 이후 사라져가던 리베로를 마지막으로 지배한 선수이면서, 그 위치가 왜 사라졌는지까지 보여준 마지막 황제다.
 
@@ -85,7 +85,7 @@ featured: true
 
 <figure class="dortmund-player-art"><img src="/images/squads/borussia-dortmund-all-time-best-xi/mats-hummels.webp" alt="마츠 후멜스의 소속 기간, 기록, 수상과 우승 내역을 담은 세로 편집물" loading="lazy" width="966" height="2737" /></figure>
 
-마츠 후멜스<span class="foreign-note" lang="de">(Mats Hummels; 독일 중앙 수비수, 1988-)</span>는 상대의 압박을 피하기보다 불러들였다. 공을 발밑에 두고 한 박자 기다리면 상대 공격수가 중앙으로 좁혀온다. 그때 발 바깥쪽으로 측면에 휘어 넣거나, 수비형 미드필더 옆을 가르는 대각 패스로 두 줄을 한꺼번에 넘겼다. 라르스 리켄이 훗날 “여러 세대가 부러워할 기술”이라고 표현한 바깥발 패스는 압박 방향을 그대로 되받아치는 무기였다.<a class="cite" href="#source-19" aria-label="출처 20">[20]</a>
+마츠 후멜스<span class="foreign-note" lang="de">(Mats Hummels; 독일 중앙 수비수, 1988-)</span>는 상대의 압박을 피하기보다 불러들였다. 공을 발밑에 두고 한 박자 기다리면 상대 공격수가 중앙으로 좁혀온다. 그때 발 바깥쪽으로 측면에 휘어 넣거나, 수비형 미드필더 옆을 가르는 대각 패스로 두 줄을 한꺼번에 넘겼다. 라르스 리켄이 훗날 “여러 세대가 부러워할 기술”이라고 표현한 바깥발 패스는 압박 방향을 그대로 되받아치는 무기였다.<a class="cite" href="#source-17" aria-label="출처 17">[17]</a>
 
 수비에서도 기다리기만 하지 않았다. 공격수에게 공이 가는 순간 등을 향해 따라붙고, 첫 터치가 길어지면 앞에서 잘라냈다. 이 전진 수비는 성공하면 곧바로 역습이 되지만, 실패하면 돌아서는 속도가 빠르지 않다는 약점이 노출된다. 그래서 이 조합은 후멜스에게 콜러를 붙인다. 후멜스가 먼저 읽고 나가며 공격을 시작하고, 콜러가 그 선택의 위험을 뒤에서 지운다.
 
@@ -115,7 +115,7 @@ featured: true
 
 슈테판 로이터<span class="foreign-note" lang="de">(Stefan Reuter; 독일 오른쪽 수비수, 1966-)</span>의 별명은 *Turbo*였다. 100미터를 11초 안팎에 달렸다는 유명한 설명만으로는 그 이름이 오래 살아남은 이유를 다 말하지 못한다. 로이터의 속도는 공을 가진 장면보다 위치를 복구할 때 더 위협적이었다. 공격에 가담한 뒤에도 공이 넘어가는 순간 몸을 돌려 상대 윙어의 첫 선택을 막았다. 그는 속도를 경기의 질서로 바꿀 줄 알았다.
 
-1992년 유벤투스에서 돌아온 것은 개인의 이적이면서 도르트문트의 전략을 상징했다. 자머·리들레·묄러·콜러처럼 이탈리아 무대를 경험한 독일 대표급 선수들이 차례로 모였고, 그들은 1995·1996년 리그 정상과 1997년 유럽 정상에 올랐다. 돈을 들여 스타를 모았다는 평가도 받았지만, 로이터는 그 재능들이 한 팀으로 뛰기 위해 필요한 왕복과 반복을 맡았다.<a class="cite" href="#source-20" aria-label="출처 21">[21]</a> 오른쪽 풀백이 기본 위치였지만 스토퍼와 미드필더도 소화했다. 자머가 중원으로 올라가면 로이터는 무조건 함께 전진하지 않고 오른쪽 센터백처럼 좁혀 후방의 네 번째 사람이 됐다. 반대로 묄러가 중앙에서 공을 잡고 상대 측면 수비가 안으로 끌리면 바깥을 전속력으로 추월했다. ‘올라갈 수 있음’보다 ‘올라가도 되는 순간을 앎’이 그의 전술적 가치였다.
+1992년 유벤투스에서 돌아온 것은 개인의 이적이면서 도르트문트의 전략을 상징했다. 자머·리들레·묄러·콜러처럼 이탈리아 무대를 경험한 독일 대표급 선수들이 차례로 모였고, 그들은 1995·1996년 리그 정상과 1997년 유럽 정상에 올랐다. 돈을 들여 스타를 모았다는 평가도 받았지만, 로이터는 그 재능들이 한 팀으로 뛰기 위해 필요한 왕복과 반복을 맡았다.<a class="cite" href="#source-18" aria-label="출처 18">[18]</a> 오른쪽 풀백이 기본 위치였지만 스토퍼와 미드필더도 소화했다. 자머가 중원으로 올라가면 로이터는 무조건 함께 전진하지 않고 오른쪽 센터백처럼 좁혀 후방의 네 번째 사람이 됐다. 반대로 묄러가 중앙에서 공을 잡고 상대 측면 수비가 안으로 끌리면 바깥을 전속력으로 추월했다. ‘올라갈 수 있음’보다 ‘올라가도 되는 순간을 앎’이 그의 전술적 가치였다.
 
 1996-97시즌 UEFA 챔피언스 리그 결승에서 유벤투스의 왼쪽과 맞선 뒤, 2001-02시즌에는 주장으로 다시 푸스발-분데스리가 우승을 경험했다. 유럽을 제패한 스타 군단과 파산 위기 직전 마지막 챔피언 팀을 모두 뛴 드문 연결고리다. 열두 시즌 동안 수비와 중원 여러 자리를 메웠지만, 어느 자리에서도 자기 역할을 과장하지 않았다.
 
@@ -131,7 +131,7 @@ featured: true
 
 159골의 상당 부분은 페널티킥과 세트피스, 늦은 박스 침투에서 나왔다. 공격수가 수비 라인을 끌고 가면 뒤에서 멈춰 서는 대신 골문 쪽으로 한 걸음을 더 옮겼다. 그래서 상대는 묄러와 프라이슬러만 바라볼 수 없다. 이 팀에서도 초르크는 수비 균형을 맡지만, 기회가 오면 가장 늦게 도착해 슈팅하는 숨은 득점원이다.
 
-1996-97시즌 UEFA 챔피언스 리그 결승은 그의 성격을 압축한다. 오랫동안 주장이었지만 선발에서 빠졌고 89분에야 묄러 대신 들어왔다. 자머와 동료들은 시상대에서 초르크에게 우승컵을 먼저 들라고 했다. 같은 해 도쿄에서 열린 인터콘티넨털컵 결승에서는 선제골을 넣어 우승의 앞문을 직접 열었다. 유럽의 밤에는 팀의 질서를 받아들였고, 세계의 결승에서는 스스로 해결했다.<a class="cite" href="#source-22" aria-label="출처 23">[23]</a>
+1996-97시즌 UEFA 챔피언스 리그 결승은 그의 성격을 압축한다. 오랫동안 주장이었지만 선발에서 빠졌고 89분에야 묄러 대신 들어왔다. 자머와 동료들은 시상대에서 초르크에게 우승컵을 먼저 들라고 했다. 같은 해 도쿄에서 열린 인터콘티넨털컵 결승에서는 선제골을 넣어 우승의 앞문을 직접 열었다. 유럽의 밤에는 팀의 질서를 받아들였고, 세계의 결승에서는 스스로 해결했다.<a class="cite" href="#source-20" aria-label="출처 20">[20]</a>
 
 선수 은퇴와 동시에 프런트로 이동한 뒤에는 파산 위기와 클롭 시대의 재건을 모두 통과했다. 제바스티안 켈은 더 전형적인 홀딩 미드필더이고 누리 샤힌은 전진 패스가 더 섬세하다. 그러나 자머를 자유롭게 하고, 득점까지 더하며, 주장으로 서로 다른 세대를 묶을 한 사람을 고르면 ‘미스터 도르트문트’가 남는다. 프라이슬러가 첫 기준을 세웠다면 초르크는 그 기준이 끊기지 않도록 평생 연결한 사람이다.
 
@@ -173,7 +173,7 @@ featured: true
 
 왼발과 오른발의 균형도 인상과 실제가 재미있게 엇갈린다. 왼쪽에서 뛰고 몸의 선이 부드러워 왼발잡이처럼 보이지만, 푸스발-분데스리가 득점의 대부분은 오른발에서 나왔다. 왼쪽에서 중앙으로 접어 먼 골문을 감거나, 박스 정면에서 골키퍼의 준비가 끝나기 전에 낮게 차는 슛이 주무기였다. 이 조합에서는 데데가 바깥 폭을 맡아주기에 로이스가 가장 위험한 안쪽 통로에서 출발할 수 있다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
-2012-13시즌 첫 UEFA 챔피언스 리그 여정부터 레알 마드리드를 상대로 득점하며 웸블리까지 갔다. 2018-19시즌에는 주장으로 전반기를 질주했고 두 번째 독일 올해의 선수가 됐다. 부상이 반복돼 2014 FIFA 월드컵을 놓쳤고, 2023년 마지막 날에는 푸스발-분데스리가 우승이 손에서 빠져나갔다. 이 경력을 ‘우승하지 못한 천재’라는 문장으로만 묶기 쉬운 이유다. 하지만 그는 2017년과 2021년 DFB-포칼을 실제로 들어 올렸고, 두 차례 UEFA 챔피언스 리그 결승에 도달했다.<a class="cite" href="#source-21" aria-label="출처 22">[22]</a>
+2012-13시즌 첫 UEFA 챔피언스 리그 여정부터 레알 마드리드를 상대로 득점하며 웸블리까지 갔다. 2018-19시즌에는 주장으로 전반기를 질주했고 두 번째 독일 올해의 선수가 됐다. 부상이 반복돼 2014 FIFA 월드컵을 놓쳤고, 2023년 마지막 날에는 푸스발-분데스리가 우승이 손에서 빠져나갔다. 이 경력을 ‘우승하지 못한 천재’라는 문장으로만 묶기 쉬운 이유다. 하지만 그는 2017년과 2021년 DFB-포칼을 실제로 들어 올렸고, 두 차례 UEFA 챔피언스 리그 결승에 도달했다.<a class="cite" href="#source-19" aria-label="출처 19">[19]</a>
 
 프라이슬러 이후 누구도 닿지 못했던 구단 득점 2위까지 올라갔다. 마지막 홈경기 직전 427경기 169골이었고, 다름슈타트전에서는 직접 얻은 프리킥을 골대 상단에 꽂아 한 골을 더 보탰다. 데뷔 홈경기의 첫 골부터 마지막 홈경기의 프리킥까지, 로이스의 오른발은 12년의 시작과 끝을 닫는 괄호가 됐다.<a class="cite" href="#source-11" aria-label="출처 11">[11]</a>
 
@@ -230,22 +230,17 @@ featured: true
 11. <span id="source-11"></span>[BVB: 마르코 로이스의 경기·득점 기록과 마지막 홈경기](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/Marco-Reus-A-great-career-in-numbers.html)
 12. <span id="source-12"></span>[BVB: 아디 프라이슬러의 1956·1957년 우승과 구단 기록](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/Adi-Preissler-was-decisive.html)
 13. <span id="source-13"></span>[BVB: 2005년 파산 위기와 클롭 시대의 재건](https://www.bvb.de/de/en/borussia-dortmund/history/decades/1999.html)
-14. [마르코 로이스 표지 사진: Tim Reckmann, CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Marco_Reus_2014.jpg)
-15. [지그날 이두나 파르크 표지 배경: Marvin Ronsdorf, CC0 1.0](https://commons.wikimedia.org/wiki/File:Signal_Iduna_Park,_Dortmund,_Germany_(Unsplash).jpg)
-16. [보루시아 도르트문트 문장 원본과 파일 정보](https://ko.wikipedia.org/wiki/파일:Borussia_Dortmund_logo.svg)
-17. <span id="source-17"></span>[BVB KidsClub: 슈테판 클로스의 주전 도약, 오세르의 영웅과 연속 출전](https://kidsclub.bvb.de/News/Unsere-Legende-Stefan-Klos)
-18. <span id="source-18"></span>[BVB: 1996년 발롱도르 수상자 마티아스 자머](https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/BVB-Spieler-fuer-den-Ballon-dOr-nominiert.html)
-19. <span id="source-19"></span>[BVB: 마츠 후멜스의 13년과 바깥발 패스](https://www.bvb.de/de/en/news/news-overview/news.html/content/dam/bvbweb/en/news/2025/08/16/hummels-interview/hummels-interview.html)
-20. <span id="source-20"></span>[BVB: 이탈리아 경험자들의 귀환과 1997년 유럽 제패팀 구성](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/A-victory-against-all-the-odds-a-triumph-for-the-ages.html)
-21. <span id="source-21"></span>[BVB: 마르코 로이스의 귀환, 주장 경력과 2019년 독일 올해의 선수](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/BVB-and-Reus-do-not-extend-contract.html)
-22. <span id="source-22"></span>[BVB: 1997년 UEFA 챔피언스 리그 결승 선발과 주장 초르크의 시상식](https://www.bvb.de/de/de/der-bvb/die-bvb-historie/historische-momente/bvb-champions-league-1997.html)
-23. [정사각 목록 카드의 2015년 마르코 로이스 사진: Tim Reckmann, CC BY 2.0](https://commons.wikimedia.org/wiki/File:Marco_Reus_%2816204330530%29_%28cropped%29.jpg)
+14. [보루시아 도르트문트 문장 원본과 파일 정보](https://ko.wikipedia.org/wiki/파일:Borussia_Dortmund_logo.svg)
+15. <span id="source-15"></span>[BVB KidsClub: 슈테판 클로스의 주전 도약, 오세르의 영웅과 연속 출전](https://kidsclub.bvb.de/News/Unsere-Legende-Stefan-Klos)
+16. <span id="source-16"></span>[BVB: 1996년 발롱도르 수상자 마티아스 자머](https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/BVB-Spieler-fuer-den-Ballon-dOr-nominiert.html)
+17. <span id="source-17"></span>[BVB: 마츠 후멜스의 13년과 바깥발 패스](https://www.bvb.de/de/en/news/news-overview/news.html/content/dam/bvbweb/en/news/2025/08/16/hummels-interview/hummels-interview.html)
+18. <span id="source-18"></span>[BVB: 이탈리아 경험자들의 귀환과 1997년 유럽 제패팀 구성](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/A-victory-against-all-the-odds-a-triumph-for-the-ages.html)
+19. <span id="source-19"></span>[BVB: 마르코 로이스의 귀환, 주장 경력과 2019년 독일 올해의 선수](https://www.bvb.de/de/en/news/news-overview/news.html/eng/News/Overview/BVB-and-Reus-do-not-extend-contract.html)
+20. <span id="source-20"></span>[BVB: 1997년 UEFA 챔피언스 리그 결승 선발과 주장 초르크의 시상식](https://www.bvb.de/de/de/der-bvb/die-bvb-historie/historische-momente/bvb-champions-league-1997.html)
 
 ### 이미지 출처
 
 선수별 편집물과 표제·포메이션·후보 명단 편집물의 디자인은 박성호(삥이)의 작업이다.
-
-사이트용 16:9 대표 썸네일은 Tim Reckmann의 2014년 로이스 사진(CC BY-SA 3.0), Marvin Ronsdorf의 경기장 사진(CC0 1.0), 기존 BVB 문장을 박성호(삥이)·삥이FC가 크롭·색보정·합성하고 타이포그래피를 더한 것이다. CC BY-SA 원본을 바탕으로 만든 이 대표 이미지는 같은 CC BY-SA 3.0 조건으로 이용할 수 있으며, 저자·원문·라이선스 표시를 유지해야 한다.
 
 </div> <style> .dortmund-gateway{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:3rem 0 4rem;overflow:hidden;border:1px solid rgba(255,216,0,.72);border-radius:22px;background:#050505;color:#fff;text-align:center;box-shadow:0 22px 50px rgba(0,0,0,.2);transform:translateX(-50%)}
   .dortmund-gateway>div{display:flex;min-height:220px;flex-direction:column;align-items:center;justify-content:center;padding:2.4rem 1.5rem}.dortmund-gateway p{margin:1.1rem 0 .25rem;color:#fff;font-size:clamp(1.35rem,3vw,2rem);font-weight:800;letter-spacing:-.035em}.dortmund-gateway small{color:rgba(255,255,255,.66);font-size:.78rem;letter-spacing:.055em}

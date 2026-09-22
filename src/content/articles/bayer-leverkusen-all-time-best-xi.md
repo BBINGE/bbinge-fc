@@ -187,15 +187,11 @@ featured: true
 16. <span id="source-16"></span>[바이어 04: 울프 키르스텐의 446경기 238골과 1993년 결승골](https://www.bayer04.de/en-us/news/bayer04/ulf-kirsten-king-poacher-grouch-and-grafter)
 17. <span id="source-17"></span>[독일축구협회: 플로리안 비르츠, 2025년 독일 올해의 남자 축구선수](https://www.dfb.de/news/florian-wirtz-named-mens-footballer-of-the-year)
 18. [UEFA: 2001-02시즌 UEFA 챔피언스 리그 결승 공식 경기 기록](https://www.uefa.com/newsfiles/UCL/2001/1025482_LU.pdf)
-19. [차범근 표지 사진: Nationaal Archief/Anefo, CC BY-SA 3.0 NL](https://commons.wikimedia.org/wiki/File:Cha_Bum_Kun.jpg)
-20. [바이아레나 표지 배경: Partonez, CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:BayArena,_Leverkusen.jpg)
-21. [바이어 04 레버쿠젠 문장 원본과 파일 정보](https://sco.wikipedia.org/wiki/File:Bayer_04_Leverkusen_logo.svg)
+19. [바이어 04 레버쿠젠 문장 원본과 파일 정보](https://sco.wikipedia.org/wiki/File:Bayer_04_Leverkusen_logo.svg)
 
 ### 이미지 출처
 
 선수별 편집물과 표제·포메이션·후보 명단 편집물의 디자인은 박성호(삥이)의 작업이다.
-
-사이트용 대표 썸네일은 Nationaal Archief/Anefo의 1979년 차범근 초상, Partonez의 바이아레나 사진, 기존 구단 문장을 크롭·색보정·합성하고 타이포그래피를 더한 것이다. 썸네일은 CC BY-SA 4.0 조건으로 이용할 수 있으며 저자·원문·라이선스 표시와 변경 사실을 유지해야 한다.
 
 </div> <style> .leverkusen-gateway{position:relative;left:50%;width:min(900px,calc(100vw - 32px));margin:3rem 0 4rem;overflow:hidden;border:1px solid rgba(226,30,45,.74);border-radius:22px;background:#080808;color:#fff;text-align:center;box-shadow:0 22px 50px rgba(0,0,0,.2);transform:translateX(-50%)}
   .leverkusen-gateway>div{display:flex;min-height:220px;flex-direction:column;align-items:center;justify-content:center;padding:2.4rem 1.5rem}.leverkusen-gateway p{margin:1.1rem 0 .25rem;color:#fff;font-size:clamp(1.35rem,3vw,2rem);font-weight:800;letter-spacing:-.035em}.leverkusen-gateway small{color:rgba(255,255,255,.66);font-size:.78rem;letter-spacing:.055em}
