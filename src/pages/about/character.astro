@@ -16,6 +16,19 @@ function ageText(now = new Date()) {
 }
 const birthLine = `2026년 9월 11일생 · ${ageText()}`;
 
+// 단체 프로필 카드 뒤 배경. 빌드하는 달로 계절을 정한다(운영자 지시, 2026-09-23).
+// 3~5월 벚꽃, 6~8월 비꽃, 9~11월 낙엽꽃, 12~2월 눈꽃.
+const month = new Date().getMonth() + 1;
+const season = month <= 2 || month === 12 ? 'winter' : month <= 5 ? 'spring' : month <= 8 ? 'summer' : 'autumn';
+const seasonLabel = { spring: '벚꽃', summer: '비꽃', autumn: '낙엽꽃', winter: '눈꽃' }[season];
+const petals = Array.from({ length: 18 }, (_, i) => ({
+  left: (i * 5.6 + (i % 5) * 2.4) % 100,
+  delay: ((i * 1.7) % 12).toFixed(2),
+  dur: (11 + ((i * 3) % 7)).toFixed(2),
+  size: 9 + ((i * 5) % 8),
+  sway: (3 + ((i * 2) % 5)).toFixed(2),
+}));
+
 const characters = [
   {
     name: '삥지',
@@ -100,7 +113,10 @@ const characterSchema = {
       </section>
     ))}
 
-    <section class="post" aria-label="삥지와 삥맹 단체 프로필">
+    <section class="post" data-season={season} aria-label={`삥지와 삥맹 단체 프로필, 배경은 ${seasonLabel}`}>
+      <div class="weather" aria-hidden="true">{petals.map((f) => (
+        <span style={`left:${f.left}%;animation-delay:-${f.delay}s;animation-duration:${f.dur}s`}><i style={`width:${f.size}px;height:${f.size}px;animation-duration:${f.sway}s`} /></span>
+      ))}</div>
       <article class="post-card">
         <header class="post-head">
           <span class="post-avatar"><img src="/images/brand/pb-mark-2026-color.png" alt="" width="1596" height="985" loading="lazy" /></span>
@@ -217,8 +233,31 @@ const characterSchema = {
   .profile-table td span+span{margin-top:7px}
   .profile-table td i{color:var(--bbfc-gray-1);font-size:15px;font-style:normal}
 
-  .post{padding:52px 0 0;display:grid;place-items:center}
-  .post-card{width:min(100%,470px);border:1px solid var(--line);background:#fff}
+  .post{position:relative;padding:64px 0 40px;display:grid;place-items:center;overflow:clip}
+  .post::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(201,119,47,.07),rgba(201,119,47,0) 70%)}
+  .post[data-season="spring"]::before{background:linear-gradient(180deg,rgba(224,143,170,.08),rgba(224,143,170,0) 70%)}
+  .post[data-season="summer"]::before{background:linear-gradient(180deg,rgba(49,130,246,.07),rgba(49,130,246,0) 70%)}
+  .post[data-season="winter"]::before{background:linear-gradient(180deg,rgba(120,150,190,.09),rgba(120,150,190,0) 70%)}
+  .weather{position:absolute;inset:0;pointer-events:none}
+  .weather span{position:absolute;top:-8%;display:block;animation-name:petal-fall;animation-timing-function:linear;animation-iteration-count:infinite}
+  .weather i{display:block;animation-name:petal-sway;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate}
+  /* 가을: 낙엽꽃 */
+  .weather i{border-radius:0 62% 0 62%;background:#c9772f;opacity:.34}
+  .post[data-season="autumn"] .weather span:nth-child(3n) i{background:#a8552a}
+  .post[data-season="autumn"] .weather span:nth-child(3n+1) i{background:#d9a05b}
+  /* 봄: 벚꽃 */
+  .post[data-season="spring"] .weather i{border-radius:60% 0 60% 0;background:#e9a7bd;opacity:.4}
+  .post[data-season="spring"] .weather span:nth-child(3n) i{background:#f2c4d3}
+  /* 여름: 비꽃 */
+  .post[data-season="summer"] .weather i{width:2px!important;border-radius:2px;background:var(--bbfc-blue);opacity:.22}
+  .post[data-season="summer"] .weather span{animation-duration:3.2s!important}
+  /* 겨울: 눈꽃 */
+  .post[data-season="winter"] .weather i{border-radius:50%;background:#9fb6d4;opacity:.42}
+  @keyframes petal-fall{from{transform:translateY(0) rotate(0)}to{transform:translateY(calc(100% + 120vh)) rotate(320deg)}}
+  @keyframes petal-sway{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+  @media(prefers-reduced-motion:reduce){.weather{display:none}}
+
+  .post-card{position:relative;z-index:1;width:min(100%,470px);border:1px solid var(--line);background:#fff}
   .post-head{display:flex;align-items:center;gap:12px;padding:12px 14px}
   .post-avatar{display:grid;place-items:center;width:42px;height:42px;overflow:hidden;border:1px solid var(--line);border-radius:50%;background:#fff}
   .post-avatar img{width:34px;height:auto}
