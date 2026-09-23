@@ -124,23 +124,28 @@ const characterSchema = {
 <script>
   // 캐릭터 스크롤 모션. 이 페이지에만 실린다.
   // 화면 안에서 요소가 지나간 정도(0~1)를 그대로 transform으로 바꾸므로, 내릴 때 따라오고 올릴 때 되감긴다.
-  const shots = [
-    ...document.querySelectorAll<HTMLImageElement>('.lineup-grid img, .face-grid img'),
-  ].map((el) => ({ el, y: 34, s: 0.03, r: 0 }));
-  const drifts = [...document.querySelectorAll<HTMLImageElement>('.profile .shot img')].map((el) => ({ el, y: 26, s: 0.04, r: 1.5 }));
-  const items = [...shots, ...drifts];
+  // 스크롤한 거리로 걸음 위상을 만든다. 내리면 걷고, 올리면 거꾸로 걷는다. 멈추면 그 자세로 선다.
+  const items = [
+    ...[...document.querySelectorAll<HTMLImageElement>('.profile .shot img')].map((el) => ({ el, step: 150, bob: 13, tilt: 5, squash: 0.035, drift: 24 })),
+    ...[...document.querySelectorAll<HTMLImageElement>('.lineup-grid img')].map((el) => ({ el, step: 210, bob: 9, tilt: 3.5, squash: 0.02, drift: 26 })),
+    ...[...document.querySelectorAll<HTMLImageElement>('.face-grid img')].map((el) => ({ el, step: 260, bob: 6, tilt: 2, squash: 0.015, drift: 18 })),
+  ];
 
   if (items.length && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
     let ticking = false;
     const paint = () => {
       ticking = false;
       const vh = innerHeight;
-      for (const { el, y, s, r } of items) {
+      for (const [i, { el, step, bob, tilt, squash, drift }] of items.entries()) {
         const box = el.getBoundingClientRect();
-        // 요소 가운데가 화면 아래끝일 때 0, 위끝일 때 1
+        if (box.bottom < -200 || box.top > vh + 200) continue;
+        // 화면을 지나간 정도(0~1)로 천천히 흐르고, 걸음 위상으로 통통 튄다.
         const p = Math.min(1, Math.max(0, (vh - (box.top + box.height / 2)) / (vh + box.height)));
-        const t = (p - 0.5) * 2; // -1 ~ 1
-        el.style.transform = `translateY(${(-t * y).toFixed(2)}px) scale(${(1 + t * s).toFixed(4)}) rotate(${(t * r).toFixed(3)}deg)`;
+        const phase = (scrollY / step + i * 0.5) * Math.PI * 2;
+        const y = -(p - 0.5) * 2 * drift - Math.abs(Math.sin(phase)) * bob;
+        const sy = 1 + Math.cos(phase * 2) * squash;
+        const sx = 1 - Math.cos(phase * 2) * squash * 0.7;
+        el.style.transform = `translateY(${y.toFixed(2)}px) rotate(${(Math.sin(phase) * tilt).toFixed(2)}deg) scale(${sx.toFixed(4)}, ${sy.toFixed(4)})`;
       }
     };
     const onScroll = () => {
