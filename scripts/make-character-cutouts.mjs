@@ -55,28 +55,42 @@ for (const name of FILES) {
   }
 
   // 사진 배경 위에 세우는 정면 컷은 바닥 그림자를 지운다.
-  // 다리는 따뜻한 색(색기 20 이상)이고 그림자는 무채색에 가깝다(10 안팎)이므로 그 차이로 가른다.
-  // 아래 12% 구간에서 (가) 열마다 몸이 끝나는 줄 아래를 지우고 (나) 남은 무채색 화소도 지운다.
+  // ① 테두리에서 한 번 더 채운다. 이번에는 조금 느슨한 기준(아주 밝고 색기가 거의 없음)이라
+  //    바깥으로 이어진 옅은 그림자 자락까지 지워진다. 머리 하이라이트는 붉은기(색기 11)가 있어 남는다.
+  // ② 그래도 발밑에 남는 그림자 덩어리는, 열마다 몸이 끝나는 줄을 찾아 그 아래를 지운다.
+  // 몸 안쪽을 건드리는 규칙은 쓰지 않는다. 손등과 다리 하이라이트가 파였던 적이 있다(2026-09-23).
   if (SHADOWLESS.has(name)) {
-    const zone = Math.floor(H * 0.88);
-    const warmAt = (i) => {
+    const isFaint = (i) => {
       const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2];
-      return Math.max(r, g, b) - Math.min(r, g, b) > 20;
+      const minc = Math.min(r, g, b);
+      return minc >= 243 && Math.max(r, g, b) - minc <= 8;
     };
+    const seen = new Uint8Array(W * H);
+    const stack = [];
+    for (let x = 0; x < W; x++) { stack.push(x, (H - 1) * W + x); }
+    for (let y = 0; y < H; y++) { stack.push(y * W, y * W + W - 1); }
+    while (stack.length) {
+      const i = stack.pop();
+      if (seen[i] || !isFaint(i)) continue;
+      seen[i] = 1;
+      data[i * 4 + 3] = 0;
+      const x = i % W, y = (i - x) / W;
+      if (x > 0) stack.push(i - 1);
+      if (x < W - 1) stack.push(i + 1);
+      if (y > 0) stack.push(i - W);
+      if (y < H - 1) stack.push(i + W);
+    }
+
+    const zone = Math.floor(H * 0.88);
     for (let x = 0; x < W; x++) {
       let bodyBottom = -1;
       for (let y = H - 1; y >= zone; y--) {
         const i = y * W + x;
-        if (data[i * 4 + 3] > 40 && warmAt(i)) { bodyBottom = y; break; }
+        if (data[i * 4 + 3] < 40) continue;
+        const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2];
+        if (Math.max(r, g, b) - Math.min(r, g, b) > 20) { bodyBottom = y; break; }
       }
       for (let y = Math.max(zone, bodyBottom + 1); y < H; y++) data[(y * W + x) * 4 + 3] = 0;
-      for (let y = zone; y <= (bodyBottom < 0 ? -1 : bodyBottom); y++) {
-        const i = y * W + x;
-        if (data[i * 4 + 3] === 0) continue;
-        const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2];
-        const chroma = Math.max(r, g, b) - Math.min(r, g, b);
-        if (Math.min(r, g, b) > 150 && chroma <= 14) data[i * 4 + 3] = 0;
-      }
     }
   }
 
