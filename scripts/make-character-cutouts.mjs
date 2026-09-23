@@ -8,11 +8,13 @@ import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dir = join(root, 'public/images/brand/character');
-// 바닥 그림자까지 지울 파일(사진 배경 위에 세우는 정면 컷)
-const SHADOWLESS = new Set(['bbingji-front', 'bbingmaeng-front']);
+// 정면 두 컷(bbingji-front, bbingmaeng-front)은 운영자가 직접 딴 누끼다(2026-09-24).
+// 스크립트가 다시 만들면 그 파일을 덮어쓰므로 기본 목록과 그림자 제거 목록에서 뺐다.
+// 다시 만들어야 할 일이 생기면 파일명을 인자로 직접 넘긴다.
+const SHADOWLESS = new Set();
 const FILES = process.argv.slice(2).length
   ? process.argv.slice(2)
-  : ['bbingji-front', 'bbingmaeng-front', 'bbingji-ball', 'bbingmaeng-sweat', 'bbingji-face', 'bbingmaeng-face'];
+  : ['bbingji-ball', 'bbingmaeng-sweat', 'bbingji-face', 'bbingmaeng-face'];
 
 // 배경은 중성 흰색(254,254,254)이고 몸통은 따뜻한 아이보리다(예: 252,246,241).
 // 그래서 밝기만 보지 않고 "밝고 색기 없는" 화소만 배경으로 본다. 머리 위 하이라이트는 붉은기가 있어 살아남는다.
