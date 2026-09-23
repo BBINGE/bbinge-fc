@@ -154,15 +154,19 @@ const characterSchema = {
       if (roller) {
         // 진짜 데굴데굴. 자기 칸을 지나는 동안 왼쪽에서 오른쪽으로 굴러간다.
         // 회전만 주면 제자리에서 도는 것으로 보이므로 굴러간 만큼 옆으로도 간다.
+        // 카톡 짤처럼 비스듬히 아래로 굴러 내려간다. 옆으로만 가면 평지에서 구르는 것으로 보인다.
         const p = Math.min(1, Math.max(0, (scrollY - rollStart) / rollSpan));
-        roller.style.transform = `translateX(${((p - 0.5) * 2 * rollRun).toFixed(2)}px) rotate(${(p * 720).toFixed(2)}deg)`;
+        const turn = p * 720;
+        // 바닥에 닿을 때마다 살짝 튄다. 두 바퀴 도는 동안 네 번.
+        const hop = Math.abs(Math.sin(turn * Math.PI / 180 * 2)) * 6;
+        roller.style.transform = `translate(${((p - 0.5) * 2 * rollRun).toFixed(2)}px, ${((p - 0.5) * 2 * rollRun * 0.5 - hop).toFixed(2)}px) rotate(${turn.toFixed(2)}deg)`;
       }
       if (walker) {
-        // 걸음. 130px마다 한 걸음이며 착지할 때 눌렸다 늘어난다.
+        // 걸음. 190px마다 한 걸음이며 착지할 때 아주 조금 눌린다. 방정맞지 않게 낮게 뛴다.
         const d = Math.max(0, scrollY - walkStart);
-        const phase = (d / 130) * Math.PI * 2;
-        const squash = Math.cos(phase * 2) * 0.035;
-        walker.style.transform = `translate(${(Math.sin(phase) * 10).toFixed(2)}px, ${(-Math.abs(Math.sin(phase)) * 13).toFixed(2)}px) rotate(${(Math.sin(phase) * 5).toFixed(2)}deg) scale(${(1 - squash * 0.7).toFixed(4)}, ${(1 + squash).toFixed(4)})`;
+        const phase = (d / 190) * Math.PI * 2;
+        const squash = Math.cos(phase * 2) * 0.012;
+        walker.style.transform = `translate(${(Math.sin(phase) * 4).toFixed(2)}px, ${(-Math.abs(Math.sin(phase)) * 6).toFixed(2)}px) rotate(${(Math.sin(phase) * 2).toFixed(2)}deg) scale(${(1 - squash * 0.7).toFixed(4)}, ${(1 + squash).toFixed(4)})`;
       }
     };
     const onScroll = () => {
