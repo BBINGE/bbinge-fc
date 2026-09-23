@@ -8,6 +8,8 @@ import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dir = join(root, 'public/images/brand/character');
+// 바닥 그림자까지 지울 파일(사진 배경 위에 세우는 정면 컷)
+const SHADOWLESS = new Set(['bbingji-front', 'bbingmaeng-front']);
 const FILES = process.argv.slice(2).length
   ? process.argv.slice(2)
   : ['bbingji-front', 'bbingmaeng-front', 'bbingji-ball', 'bbingmaeng-sweat', 'bbingji-face', 'bbingmaeng-face'];
@@ -50,6 +52,32 @@ for (const name of FILES) {
     if (!touching) continue;
     const minc = Math.min(data[i * 4], data[i * 4 + 1], data[i * 4 + 2]);
     data[i * 4 + 3] = Math.round(255 * Math.min(1, Math.max(0, (250 - minc) / 6)));
+  }
+
+  // 사진 배경 위에 세우는 정면 컷은 바닥 그림자를 지운다.
+  // 다리는 따뜻한 색(색기 20 이상)이고 그림자는 무채색에 가깝다(10 안팎)이므로 그 차이로 가른다.
+  // 아래 12% 구간에서 (가) 열마다 몸이 끝나는 줄 아래를 지우고 (나) 남은 무채색 화소도 지운다.
+  if (SHADOWLESS.has(name)) {
+    const zone = Math.floor(H * 0.88);
+    const warmAt = (i) => {
+      const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2];
+      return Math.max(r, g, b) - Math.min(r, g, b) > 20;
+    };
+    for (let x = 0; x < W; x++) {
+      let bodyBottom = -1;
+      for (let y = H - 1; y >= zone; y--) {
+        const i = y * W + x;
+        if (data[i * 4 + 3] > 40 && warmAt(i)) { bodyBottom = y; break; }
+      }
+      for (let y = Math.max(zone, bodyBottom + 1); y < H; y++) data[(y * W + x) * 4 + 3] = 0;
+      for (let y = zone; y <= (bodyBottom < 0 ? -1 : bodyBottom); y++) {
+        const i = y * W + x;
+        if (data[i * 4 + 3] === 0) continue;
+        const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2];
+        const chroma = Math.max(r, g, b) - Math.min(r, g, b);
+        if (Math.min(r, g, b) > 150 && chroma <= 14) data[i * 4 + 3] = 0;
+      }
+    }
   }
 
   const out = join(dir, `${name}.png`);

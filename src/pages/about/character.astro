@@ -135,6 +135,7 @@ const characterSchema = {
           <span class="post-who"><b>bbingefc</b><small>PB 온라인 본점 · 서울 강남</small></span>
         </header>
         <div class="post-photo">
+          <img class="scene" src={`/images/brand/character/scene-${season}.webp`} alt="" width="948" height="948" loading="lazy" />
           <div class="weather weather--scene" aria-hidden="true">{scenePetals.map((f) => (
             <span style={`left:${f.left}%;--dx:${Math.round(f.dx / 3)}px;--spin:${f.spin}deg;animation-delay:-${f.delay}s;animation-duration:${(Number(f.dur) * 0.8).toFixed(2)}s`}><i style={`width:${Math.max(7, f.size - 2)}px;height:${Math.max(7, f.size - 2)}px;animation-duration:${f.sway}s`} /></span>
           ))}</div>
@@ -280,10 +281,12 @@ const characterSchema = {
   .post-who small{color:var(--bbfc-gray-1);font-size:14px}
   /* 사진 칸은 정사각이며 배경은 흰색이다. 둘은 바닥에 나란히 서고 그 사이로 낙엽이 지나간다. */
   .post-photo{position:relative;aspect-ratio:1;overflow:clip;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
-  .post-photo .stand{position:absolute;bottom:6%;width:50%;height:auto;z-index:1}
+  /* 배경 사진 → 낙엽 → 캐릭터 순서로 쌓는다. 캐릭터 파일은 손대지 않는다. */
+  .post-photo .scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .post-photo .stand{position:absolute;bottom:6%;width:50%;height:auto;z-index:2;filter:drop-shadow(0 8px 16px rgba(25,31,40,.28))}
   .stand--ji{left:1%}
   .stand--maeng{right:1%;width:50.5%}
-  .weather--scene{position:absolute;inset:0;left:0;width:100%;margin:0;z-index:0}
+  .weather--scene{position:absolute;inset:0;left:0;width:100%;margin:0;z-index:1}
   .post-actions{display:flex;gap:16px;padding:12px 14px 4px;color:var(--bbfc-ink)}
   .post-actions svg{width:25px;height:25px}
   .post-body{padding:4px 14px 18px}
