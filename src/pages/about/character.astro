@@ -1,0 +1,162 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { site } from '../../config/site';
+
+const characterDescription = '삥이FC 공식 캐릭터 삥지와 삥맹의 정본 페이지. 두 이름의 유래, 얼굴로 구분하는 법, 검정 후드티, 사용설명서와 공개 기록을 담았습니다.';
+const characterSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: '삥이FC 공식 캐릭터 삥지와 삥맹',
+  url: `${site.url}/about/character/`,
+  description: characterDescription,
+  about: [
+    { '@type': 'Person', name: '삥지', alternateName: 'BBINGJI' },
+    { '@type': 'Person', name: '삥맹', alternateName: 'BBINGMAENG' },
+  ],
+};
+---
+
+<Layout title="공식 캐릭터 삥지와 삥맹" description={characterDescription} ogImage="/images/brand/character/bbingji-front.webp" ogImageAlt="검정 BBINGE FC 후드티를 입고 정면을 보는 구름 머리 캐릭터 삥지" ogImageWidth={1254} ogImageHeight={1254} adsEligible={false} breadcrumbs={[{ label: '홈', href: '/' }, { label: '저자 @삥이', href: '/about/' }, { label: '공식 캐릭터', href: '/about/character/' }]} extraSchema={characterSchema}>
+  <article class="character-page">
+    <header class="character-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">BBINGE FC · OFFICIAL CHARACTERS</p>
+        <h1>삥지와<br />삥맹.</h1>
+        <p class="hero-lead">삥이FC의 공식 캐릭터 둘입니다.<br />볼터치가 있는 쪽이 삥지, 맹한 쪽이 삥맹입니다.</p>
+      </div>
+      <div class="hero-mark">
+        <figure><img src="/images/brand/character/bbingji-front.webp" alt="눈썹과 코, 분홍 볼터치가 있는 구름 머리 캐릭터 삥지" width="1254" height="1254" /><figcaption>삥지</figcaption></figure>
+        <figure><img src="/images/brand/character/bbingmaeng-front.webp" alt="눈 점 두 개와 입 선 하나만 있는 구름 머리 캐릭터 삥맹" width="1254" height="1254" loading="lazy" /><figcaption>삥맹</figcaption></figure>
+      </div>
+    </header>
+
+    <section class="character-section">
+      <div class="section-index"><b>01</b><span>THE NAMES</span></div>
+      <div class="section-body">
+        <h2>이름은 이렇게 지었습니다</h2>
+        <p class="section-lead">둘 다 BBinge에서 나왔습니다. 하나는 철자에서, 하나는 생김새에서 왔습니다.</p>
+        <div class="fact-grid">
+          <div class="fact-card"><strong>삥지</strong><h3>BBINGJI · 여자</h3><span>OFFICIAL CHARACTER</span><p>BBINGE를 한 번에 붙여 읽으면 삥지가 됩니다.</p></div>
+          <div class="fact-card"><strong>삥맹</strong><h3>BBINGMAENG · 남자</h3><span>OFFICIAL CHARACTER</span><p>맹하게 생겨서 삥맹입니다.</p></div>
+          <div class="fact-card accent-card"><strong>9.11</strong><h3>2026년 9월 11일 금요일</h3><span>BORN</span><p>둘의 형태가 만들어진 날입니다. 나이는 이 날부터 세고, 2026년 9월 23일에 이 페이지로 처음 공개했습니다.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="character-section">
+      <div class="section-index"><b>02</b><span>TELLING APART</span></div>
+      <div class="section-body">
+        <h2>얼굴로 구분합니다</h2>
+        <p class="section-lead">몸과 옷은 같습니다. 다른 것은 얼굴에 무엇이 있느냐입니다.</p>
+        <div class="scene-grid">
+          <figure><img src="/images/brand/character/bbingji-front.webp" alt="눈썹 한 줄과 코, 양쪽 볼의 분홍 볼터치가 보이는 삥지의 정면" loading="lazy" width="1254" height="1254" /><figcaption><b>삥지</b>눈썹 한 줄, 코, 양쪽 볼의 분홍 볼터치가 있습니다.</figcaption></figure>
+          <figure><img src="/images/brand/character/bbingmaeng-front.webp" alt="눈 점 두 개와 입 선 하나만 있는 삥맹의 정면" loading="lazy" width="1254" height="1254" /><figcaption><b>삥맹</b>눈 점 두 개와 입 선 하나뿐입니다. 눈썹도 코도 볼터치도 없습니다.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="character-section">
+      <div class="section-index"><b>03</b><span>THE HOODIE</span></div>
+      <div class="section-body split-body">
+        <div class="section-copy">
+          <h2>검정 후드티 한 벌</h2>
+          <p>둘 다 같은 옷을 입습니다. 가슴 가운데에 PB 심벌과 BBINGE FC가 한 줄로 들어갑니다.</p>
+          <p>옷은 계절과 상황에 따라 바뀔 수 있지만 몸과 머리는 바뀌지 않습니다. 옷을 벗겨도 알아볼 수 있는 실루엣이 먼저입니다.</p>
+        </div>
+        <div class="mark-field quiet"><img src="/images/brand/character/hoodie-chest.webp" alt="검정 후드티 가슴에 흰색으로 도톰하게 솟은 PB 심벌과 BBINGE FC 글자" loading="lazy" width="880" height="380" /></div>
+      </div>
+    </section>
+
+    <section class="character-section">
+      <div class="section-index"><b>04</b><span>THE MOOD</span></div>
+      <div class="section-body split-body reverse-body">
+        <div class="mark-field"><img src="/images/brand/character/bbingji-ball.webp" alt="축구공에 기대 옆으로 누운 삥지" loading="lazy" width="1254" height="1254" /></div>
+        <div class="section-copy">
+          <h2>삥맹아, 빨리 안 하냐</h2>
+          <p>공에 기대 누워 이렇게 말하는 자세가 삥지입니다. 능청스럽고 쿨한 쪽입니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="character-section">
+      <div class="section-index"><b>05</b><span>THE MANUAL</span></div>
+      <div class="section-body">
+        <h2>사용설명서</h2>
+        <p class="section-lead">둘은 삥이FC의 자산입니다. 그래서 쓰는 방법을 적어 둡니다. 이 규칙은 저 자신에게 먼저 적용합니다.</p>
+        <div class="manual-grid">
+          <div class="manual-col do-col">
+            <p class="manual-label">이렇게 씁니다</p>
+            <ul>
+              <li>기본형은 정면, 검정 후드티, 가슴의 PB 심벌과 BBINGE FC입니다.</li>
+              <li>배경은 흰색이나 아이보리처럼 조용한 면에 둡니다.</li>
+              <li>계절과 상황은 옷과 자세로만 바꿉니다.</li>
+              <li>작게 줄일 때는 머리 실루엣이 살아 있는 크기까지만 줄입니다.</li>
+            </ul>
+          </div>
+          <div class="manual-col dont-col">
+            <p class="manual-label">이렇게 쓰지 않습니다</p>
+            <ul>
+              <li>볼터치와 코는 삥지의 것입니다. 삥맹에게 옮겨 붙이지 않습니다.</li>
+              <li>실존 선수나 실존 인물의 사진에 합성하지 않습니다.</li>
+              <li>몸의 비율과 얼굴의 선을 임의로 고쳐 그리지 않습니다.</li>
+              <li>구름 머리를 다른 색으로 칠하지 않습니다.</li>
+              <li>기록과 판단을 둘의 입으로 말하게 하지 않습니다. 글은 사람의 이름으로 씁니다.</li>
+              <li>제휴 상품이나 광고의 보증인으로 세우지 않습니다.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="character-signature">
+      <p>BBINGJI <span>×</span> BBINGMAENG</p>
+      <h2>삥지와 삥맹.<br />삥이FC의 두 얼굴입니다.</h2>
+      <div>
+        <div class="signature-meta"><strong>삥지 · 삥맹</strong><span>2026년 9월 11일 태어남 · 2026년 9월 23일 공개 · 삥이FC 공식 캐릭터</span></div>
+        <a class="author-cta" href="/about/logo/"><i aria-hidden="true"></i><span>로고 이야기 보러가기</span></a>
+      </div>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  .character-page{--line:var(--bbfc-border);max-width:1200px;margin:0 auto;padding:0 20px 110px;color:var(--bbfc-ink)}
+  .character-hero{display:grid;grid-template-columns:44fr 56fr;align-items:center;min-height:600px;border-bottom:1px solid var(--bbfc-ink)}
+  .hero-copy{padding:84px clamp(20px,4vw,58px) 84px 0}.eyebrow{color:var(--bbfc-blue);font-size:12px;font-weight:750;letter-spacing:.17em}.hero-copy h1{margin-top:24px;font-size:clamp(40px,4.6vw,60px);font-weight:680;line-height:1.04;letter-spacing:-.065em}.hero-lead{max-width:540px;margin-top:32px;color:var(--bbfc-ink-2);font-size:clamp(15px,1.45vw,18px);line-height:1.9}
+  .hero-mark{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,28px);min-width:0;padding:42px 0}
+  .hero-mark figure{margin:0}.hero-mark img{display:block;width:100%;height:auto}
+  .hero-mark figcaption{margin-top:6px;text-align:center;font-size:13px;font-weight:700}
+  .character-section{display:grid;grid-template-columns:110px minmax(0,1fr);border-bottom:1px solid var(--line)}.section-index{padding:34px 14px 0 0}.section-index b,.section-index span{display:block}.section-index b{color:var(--bbfc-blue);font-size:12px}.section-index span{margin-top:4px;font-size:12px;font-weight:750;letter-spacing:.08em}
+  .section-body{min-width:0;padding:96px 0 104px 34px;border-left:1px solid var(--line)}.section-body>h2,.section-copy h2{font-size:clamp(32px,4.2vw,54px);font-weight:640;line-height:1.13;letter-spacing:-.055em}
+  .section-lead{max-width:680px;margin-top:32px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.95}
+  .fact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:60px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+  .fact-card{min-height:300px;padding:34px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.fact-card strong{display:block;font-size:clamp(44px,5.6vw,68px);font-weight:670;line-height:1;letter-spacing:-.04em}.fact-card h3{margin-top:22px;font-size:14px}.fact-card span{display:block;margin-top:5px;color:var(--bbfc-blue);font-size:12px;font-weight:750;letter-spacing:.08em}.fact-card p{margin-top:26px;color:var(--bbfc-gray-1);font-size:14px;line-height:1.85}
+  .accent-card{background:var(--bbfc-ink);color:#fff}.accent-card h3{color:#fff}.accent-card p{color:#c7cdd4}
+  .split-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.95fr);gap:clamp(44px,7vw,92px);align-items:center}
+  .reverse-body{grid-template-columns:minmax(300px,.95fr) minmax(0,1fr)}
+  .section-copy p{max-width:620px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.95}.section-copy h2+p{margin-top:34px}.section-copy p+p{margin-top:20px}
+  .mark-field{display:grid;place-items:center;min-height:320px;padding:28px;background:#fff}.mark-field.quiet{background:var(--bbfc-fill-2)}.mark-field img{display:block;width:min(100%,420px);height:auto}
+  .scene-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:56px;background:var(--line);border:1px solid var(--line)}
+  .scene-grid figure{display:grid;grid-template-rows:1fr auto;margin:0;background:#fff}.scene-grid img{display:block;width:100%;height:auto}
+  .scene-grid figcaption{padding:20px 24px 26px;color:var(--bbfc-gray-1);font-size:13.5px;line-height:1.75}.scene-grid figcaption b{display:block;margin-bottom:6px;color:var(--bbfc-ink);font-size:15px}
+  .manual-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:56px;background:var(--line);border:1px solid var(--line)}
+  .manual-col{padding:34px;background:#fff}.dont-col{background:var(--bbfc-fill-2)}
+  .manual-label{font-size:12px;font-weight:750;letter-spacing:.08em}.do-col .manual-label{color:var(--bbfc-blue)}.dont-col .manual-label{color:var(--bbfc-gray-2)}
+  .manual-col ul{margin-top:24px;padding:0;list-style:none}.manual-col li{padding:14px 0;border-top:1px solid var(--line);color:var(--bbfc-ink-2);font-size:15px;line-height:1.8}.manual-col li:first-child{border-top:0;padding-top:4px}
+  .character-signature{position:relative;padding:104px 0 20px}.character-signature>p{font-size:13px;font-weight:750;letter-spacing:.08em}.character-signature>p span{color:var(--bbfc-blue)}.character-signature h2{max-width:850px;margin-top:30px;font-size:clamp(30px,4vw,52px);font-weight:650;line-height:1.16;letter-spacing:-.055em}
+  .character-signature>div{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:74px;padding-top:22px;border-top:1px solid var(--bbfc-ink)}.signature-meta{display:grid;gap:5px}.character-signature strong{font-size:17px}.signature-meta span{color:var(--bbfc-gray-1);font-size:12px;line-height:1.6}
+  .author-cta{position:absolute;right:0;top:186px;display:inline-flex;align-items:center;gap:12px;padding:13px 18px 13px 14px;border-radius:999px;background:var(--bbfc-ink);color:#fff;font-size:14px;font-weight:700;box-shadow:0 10px 28px rgba(25,31,40,.18);animation:cta-float 2.4s ease-in-out infinite}.author-cta i{position:relative;width:34px;height:24px;border-radius:7px;background:var(--bbfc-blue)}.author-cta i::after{content:"";position:absolute;left:14px;top:7px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #fff}.author-cta span{color:#fff}.author-cta:hover{color:#fff;background:#10151c;transform:translateY(-2px)}@keyframes cta-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @media(max-width:800px){
+    .character-page{padding:0 16px 76px;overflow-x:clip}
+    .character-hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:72px 0 30px}.hero-copy h1{font-size:clamp(38px,11vw,52px)}.hero-lead br{display:none}.hero-mark{padding:0 0 50px;gap:10px}
+    .character-section{grid-template-columns:46px minmax(0,1fr)}.section-index{padding-top:24px}.section-index span{writing-mode:vertical-rl}
+    .section-body{padding:70px 0 74px 18px}
+    .fact-grid{grid-template-columns:1fr;margin-top:42px}.fact-card{min-height:0;padding:28px}
+    .split-body,.reverse-body{grid-template-columns:1fr;gap:42px}.reverse-body .mark-field{order:2}
+    .mark-field{min-height:0;padding:22px}.mark-field img{width:min(100%,320px)}
+    .scene-grid,.manual-grid{grid-template-columns:1fr;margin-top:40px}
+    .manual-col{padding:28px}
+    .character-signature{padding-top:78px}.character-signature h2{font-size:clamp(29px,8.7vw,42px)}.character-signature>div{display:grid;margin-top:54px}.author-cta{position:static;justify-self:start;margin-top:24px}
+  }
+  @media(prefers-reduced-motion:reduce){.author-cta{animation:none}}
+</style>

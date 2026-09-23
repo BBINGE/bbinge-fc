@@ -1,0 +1,49 @@
+import { chromium } from 'playwright';
+import assert from 'node:assert/strict';
+import { mkdtempSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+// 공식 캐릭터 삥지·삥맹 정본 페이지 검수: 절 5개, 기록 카드 3장, 사용설명서 두 칸, 이미지 로딩,
+// 헤더·푸터의 캐릭터 링크, 12px 미만 글자, 380/768/1440px 가로 넘침.
+const base = process.env.QA_BASE || 'http://127.0.0.1:4321';
+const out = process.env.QA_OUTPUT || mkdtempSync(join(tmpdir(), 'bbinge-character-'));
+const route = '/about/character/';
+console.log(`QA screenshots: ${out}`);
+const browser = await chromium.launch({ headless: true });
+try {
+  const page = await browser.newPage();
+  for (const width of [380, 768, 1440]) {
+    await page.setViewportSize({ width, height: 1000 });
+    assert.equal((await page.goto(base + route, { waitUntil: 'domcontentloaded' })).status(), 200);
+    await page.evaluate(() => document.fonts.ready);
+    assert.equal(await page.locator('.character-section').count(), 5, '절 5개');
+    assert.equal(await page.locator('.fact-card').count(), 3, '기록 카드 3장');
+    assert.equal(await page.locator('.manual-col').count(), 2, '사용설명서 두 칸');
+    assert.equal(await page.locator('.scene-grid figure').count(), 2, '구분 2칸');
+    assert.equal(await page.locator('.hero-mark figure').count(), 2, '히어로 두 캐릭터');
+    for (const img of await page.locator('.character-page img').all()) {
+      await img.scrollIntoViewIfNeeded();
+      await img.evaluate(el => el.decode().catch(() => {}));
+    }
+    const data = await page.evaluate(() => ({
+      overflow: document.documentElement.scrollWidth > innerWidth,
+      images: document.querySelectorAll('.character-page img').length,
+      broken: [...document.querySelectorAll('.character-page img')].filter(img => !img.naturalWidth).length,
+      footerLink: !!document.querySelector('footer a[href="/about/character/"]'),
+      smallText: [...document.querySelectorAll('.character-page *')].filter(el => [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim()) && parseFloat(getComputedStyle(el).fontSize) < 12).length,
+    }));
+    assert.equal(data.overflow, false, `page overflow at ${width}`);
+    assert.equal(data.images, 6, '이미지 6장');
+    assert.equal(data.broken, 0, '깨진 이미지');
+    assert.equal(data.footerLink, true, '푸터 캐릭터 링크');
+    assert.equal(data.smallText, 0, '12px 미만 글자');
+    await page.screenshot({ path: `${out}/character-${width}.png`, fullPage: true });
+  }
+  // 홈에서 헤더 메뉴로 닿는지 확인한다.
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.goto(base + '/', { waitUntil: 'domcontentloaded' });
+  assert.equal(await page.locator('header a[href="/about/character/"]').count() > 0, true, '헤더 캐릭터 링크');
+  console.log('PASS: 공식 캐릭터 삥지·삥맹 페이지 검수');
+} finally {
+  await browser.close();
+}
