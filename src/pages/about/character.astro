@@ -182,12 +182,13 @@ const characterSchema = {
     @supports (animation-timeline: view()){
       /* animation 단축 속성에 view()를 넣으면 빌드가 합쳐 버리고 크롬이 통째로 버린다. 낱개 속성으로 적는다. */
       .lineup-grid img,.profile .shot img,.face-grid img{animation-duration:1s;animation-timing-function:linear;animation-fill-mode:both;animation-timeline:view()}
-      .lineup-grid img{animation-name:char-rise;animation-range:entry 0% entry 80%}
+      .lineup-grid img{animation-name:char-bob;animation-range:cover 0% cover 100%}
       .profile .shot img{animation-name:char-drift;animation-range:cover 0% cover 100%}
-      .face-grid img{animation-name:char-rise;animation-range:entry 0% entry 85%}
+      .face-grid img{animation-name:char-rise;animation-range:entry 0% cover 40%}
     }
   }
-  @keyframes char-rise{from{transform:translateY(46px) scale(.93)}to{transform:none}}
-  @keyframes char-drift{from{transform:translateY(44px) scale(.97)}to{transform:translateY(-44px) scale(1.03)}}
+  @keyframes char-rise{from{transform:translateY(64px) scale(.9)}to{transform:none}}
+  @keyframes char-drift{from{transform:translateY(84px) scale(.94) rotate(-1.5deg)}to{transform:translateY(-84px) scale(1.06) rotate(1.5deg)}}
+  @keyframes char-bob{from{transform:translateY(34px) scale(.97)}to{transform:translateY(-34px) scale(1.03)}}
   @media(prefers-reduced-motion:reduce){.author-cta{animation:none}}
 </style>
