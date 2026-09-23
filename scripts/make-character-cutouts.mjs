@@ -94,6 +94,49 @@ for (const name of FILES) {
     }
   }
 
+  // ③ 다리 사이에 낀 흰 쐐기. 발밑을 비운 뒤 그 빈 곳에서 위로 번져 올라가며 지운다.
+  //    번지는 조건은 "밝고 색기 없음"이라 따뜻한 다리에서 멈추고, 검은 후드티(어둡다)를 통과하지 못해
+  //    가슴 로고까지 올라가지 않는다.
+  if (SHADOWLESS.has(name)) {
+    const zone = Math.floor(H * 0.86);
+    const seen = new Uint8Array(W * H);
+    const stack = [];
+    for (let y = zone; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (data[i * 4 + 3] === 0 && !seen[i]) { seen[i] = 1; stack.push(i); }
+      }
+    }
+    while (stack.length) {
+      const i = stack.pop();
+      const x = i % W, y = (i - x) / W;
+      for (const j of [x > 0 ? i - 1 : -1, x < W - 1 ? i + 1 : -1, y > zone ? i - W : -1, y < H - 1 ? i + W : -1]) {
+        if (j < 0 || seen[j]) continue;
+        const r = data[j * 4], g = data[j * 4 + 1], b = data[j * 4 + 2];
+        const minc = Math.min(r, g, b);
+        if (data[j * 4 + 3] !== 0 && (minc < 200 || Math.max(r, g, b) - minc > 14)) continue;
+        seen[j] = 1;
+        data[j * 4 + 3] = 0;
+        stack.push(j);
+      }
+    }
+  }
+
+  // ④ 다리 사이 쐐기가 발끝에서 막혀 번지기로 닿지 않는 경우가 있다(삥지).
+  //    아래 12%에는 다리와 발만 있으므로, 이 구간에서는 밝은 무채색을 연결과 무관하게 지운다.
+  //    다리는 따뜻해서(색기 20 이상) 남는다. 이 규칙을 더 위로 올리면 손등과 로고가 파인다.
+  if (SHADOWLESS.has(name)) {
+    for (let y = Math.floor(H * 0.88); y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (data[i * 4 + 3] === 0) continue;
+        const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2];
+        const minc = Math.min(r, g, b);
+        if (minc >= 215 && Math.max(r, g, b) - minc <= 12) data[i * 4 + 3] = 0;
+      }
+    }
+  }
+
   const out = join(dir, `${name}.png`);
   await sharp(data, { raw: { width: W, height: H, channels: 4 } }).png({ compressionLevel: 9 }).toFile(out);
   console.log(`${name}.png ${W}x${H}`);
