@@ -29,13 +29,13 @@ try {
       images: document.querySelectorAll('.character-page img').length,
       broken: [...document.querySelectorAll('.character-page img')].filter(img => !img.naturalWidth).length,
       footerLink: !!document.querySelector('footer a[href="/about/character/"]'),
-      smallText: [...document.querySelectorAll('.character-page *')].filter(el => [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim()) && parseFloat(getComputedStyle(el).fontSize) < 12).length,
+      smallText: [...document.querySelectorAll('.character-page *')].filter(el => [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim()) && parseFloat(getComputedStyle(el).fontSize) < 14).length,
     }));
     assert.equal(data.overflow, false, `page overflow at ${width}`);
     assert.equal(data.images, 6, '이미지 6장');
     assert.equal(data.broken, 0, '깨진 이미지');
     assert.equal(data.footerLink, true, '푸터 캐릭터 링크');
-    assert.equal(data.smallText, 0, '12px 미만 글자');
+    assert.equal(data.smallText, 0, '14px 미만 글자');
     await page.screenshot({ path: `${out}/character-${width}.png`, fullPage: true });
   }
   // 홈에서 헤더 메뉴로 닿는지 확인한다.
