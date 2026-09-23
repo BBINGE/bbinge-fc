@@ -19,14 +19,13 @@ const birthLine = `2026년 9월 11일생 · ${ageText()}`;
 const characters = [
   {
     name: '삥지',
-    en: 'BBINGJI',
+    en: 'BBINGE',
     sex: '여자',
     file: 'bbingji',
-    shot: 'bbingji-ball.webp',
+    shot: 'bbingji-ball.png',
     shotAlt: '공에 기대 옆으로 누운 삥지',
     faceAlt: '눈썹 한 줄과 코, 분홍 볼터치가 있는 삥지의 얼굴',
     faceNote: '눈썹 한 줄, 코, 분홍 볼터치.',
-    nameNote: 'BBINGE를 붙여 읽으면 삥지.',
     height: '94cm',
     home: '서울특별시 서초구',
     trait: '시니컬하고 쿨함. 칭찬은 짧고 지적은 길다.',
@@ -36,14 +35,13 @@ const characters = [
   },
   {
     name: '삥맹',
-    en: 'BBINGMAENG',
+    en: 'BBINGMANG',
     sex: '남자',
     file: 'bbingmaeng',
-    shot: 'bbingmaeng-sweat.webp',
+    shot: 'bbingmaeng-sweat.png',
     shotAlt: '땀을 흘리며 손발을 떨고 있는 삥맹',
     faceAlt: '눈 점 두 개와 입 선 하나만 있는 삥맹의 얼굴',
     faceNote: '눈 두 개, 입 하나. 끝.',
-    nameNote: '맹하게 생겨서 삥맹.',
     height: '95cm',
     home: '서울특별시 강남구',
     trait: '섬세하고 감성적. 남의 은퇴 경기를 보고 운다.',
@@ -72,7 +70,7 @@ const characterSchema = {
       <div class="lineup-grid">
         {characters.map((c) => (
           <figure>
-            <img src={`/images/brand/character/${c.file}-front.webp`} alt={`검정 BBINGE FC 후드티를 입고 정면을 보는 ${c.name}`} width="1254" height="1254" />
+            <img src={`/images/brand/character/${c.file}-front.png`} alt={`검정 BBINGE FC 후드티를 입고 정면을 보는 ${c.name}`} width="1254" height="1254" />
             <figcaption>{c.name}<span>{c.sex} · 2026.09.11</span></figcaption>
           </figure>
         ))}
@@ -86,7 +84,7 @@ const characterSchema = {
           <h2><b>PROFILE {String(i + 1).padStart(2, '0')}</b>{c.name} 자기소개서</h2>
           <table class="profile-table">
             <tbody>
-              <tr><th scope="row">이름</th><td>{c.name} <i>{c.nameNote}</i></td></tr>
+              <tr><th scope="row">이름</th><td>{c.name} <i>({c.en})</i></td></tr>
               <tr><th scope="row">나이</th><td>{birthLine}</td></tr>
               <tr><th scope="row">키</th><td>{c.height}</td></tr>
               <tr><th scope="row">고향</th><td>{c.home}</td></tr>
@@ -105,7 +103,7 @@ const characterSchema = {
       <div class="face-grid">
         {characters.map((c) => (
           <figure>
-            <img src={`/images/brand/character/${c.file}-face.webp`} alt={c.faceAlt} width="680" height="600" loading="lazy" />
+            <img src={`/images/brand/character/${c.file}-face.png`} alt={c.faceAlt} width="680" height="600" loading="lazy" />
             <figcaption><b>{c.name}</b>{c.faceNote}</figcaption>
           </figure>
         ))}
@@ -113,7 +111,7 @@ const characterSchema = {
     </section>
 
     <footer class="character-signature">
-      <p>BBINGJI <span>×</span> BBINGMAENG</p>
+      <p>BBINGE <span>×</span> BBINGMANG</p>
       <h2>삥지와 삥맹.<br />삥이FC의 두 얼굴입니다.</h2>
       <div>
         <div class="signature-meta"><strong>삥지 · 삥맹</strong><span>2026년 9월 11일 태어남 · 2026년 9월 23일 공개 · 삥이FC 공식 캐릭터</span></div>
