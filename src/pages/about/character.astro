@@ -137,15 +137,25 @@ const characterSchema = {
       return sec ? Math.max(0, sec.getBoundingClientRect().top + scrollY - innerHeight) : 0;
     };
     let rollStart = roller ? startOf(roller) : 0;
+    // 한 바퀴 구를 때 옆으로 가는 거리. 칸 밖으로 나가지 않을 만큼만 준다.
+    // 굴러가는 거리와, 그 사이 스크롤해야 하는 양
+    const runOf = (el: HTMLElement | null) => (el ? Math.min(90, el.clientWidth * 0.28) : 0);
+    const spanOf = (el: HTMLElement | null) => {
+      const sec = el?.closest('.profile') as HTMLElement | null;
+      return sec ? sec.offsetHeight + innerHeight * 0.4 : 1;
+    };
+    let rollRun = runOf(roller);
+    let rollSpan = spanOf(roller);
     let walkStart = walker ? startOf(walker) : 0;
     let ticking = false;
 
     const paint = () => {
       ticking = false;
       if (roller) {
-        // 데굴데굴. 1px 내릴 때마다 0.22도씩 굴러간다.
-        const d = Math.max(0, scrollY - rollStart);
-        roller.style.transform = `rotate(${(d * 0.22).toFixed(2)}deg)`;
+        // 진짜 데굴데굴. 자기 칸을 지나는 동안 왼쪽에서 오른쪽으로 굴러간다.
+        // 회전만 주면 제자리에서 도는 것으로 보이므로 굴러간 만큼 옆으로도 간다.
+        const p = Math.min(1, Math.max(0, (scrollY - rollStart) / rollSpan));
+        roller.style.transform = `translateX(${((p - 0.5) * 2 * rollRun).toFixed(2)}px) rotate(${(p * 720).toFixed(2)}deg)`;
       }
       if (walker) {
         // 걸음. 130px마다 한 걸음이며 착지할 때 눌렸다 늘어난다.
@@ -162,7 +172,7 @@ const characterSchema = {
     };
     addEventListener('scroll', onScroll, { passive: true });
     addEventListener('resize', () => {
-      if (roller) rollStart = startOf(roller);
+      if (roller) { rollStart = startOf(roller); rollRun = runOf(roller); rollSpan = spanOf(roller); }
       if (walker) walkStart = startOf(walker);
       onScroll();
     }, { passive: true });
@@ -184,7 +194,7 @@ const characterSchema = {
   .profile{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(28px,4vw,52px);align-items:start;padding:52px 0;border-bottom:1px solid var(--line)}
   /* 로고 페이지의 landscape-mark처럼 사진이 표 옆에 붙어 따라 내려온다. */
   .profile .shot{position:sticky;top:88px;align-self:start;display:grid;place-items:center;padding:0}
-  .profile .shot img{display:block;width:100%;height:auto}
+  .profile .shot img{display:block;width:100%;height:auto;transform-origin:50% 72%}
   .profile h2{font-size:clamp(28px,3.4vw,42px);font-weight:660;line-height:1.15;letter-spacing:-.05em}
   .profile h2 b{display:block;margin-bottom:10px;color:var(--bbfc-blue);font-size:15px;font-weight:750;letter-spacing:.08em}
   .profile-table{width:100%;margin-top:22px;border-collapse:collapse;border-top:2px solid var(--bbfc-ink)}
