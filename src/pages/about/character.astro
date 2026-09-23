@@ -133,7 +133,7 @@ const characterSchema = {
   .lineup-grid figcaption span{display:block;margin-top:6px;color:var(--bbfc-gray-1);font-size:15px;font-weight:500;letter-spacing:0}
 
   .profile{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(28px,4vw,52px);align-items:start;padding:52px 0;border-bottom:1px solid var(--line)}
-  .profile .shot{display:grid;place-items:center;padding:18px;background:var(--bbfc-fill-2)}
+  .profile .shot{display:grid;place-items:center;padding:0}
   .profile .shot img{display:block;width:100%;height:auto}
   .profile h2{font-size:clamp(28px,3.4vw,42px);font-weight:660;line-height:1.15;letter-spacing:-.05em}
   .profile h2 b{display:block;margin-bottom:10px;color:var(--bbfc-blue);font-size:15px;font-weight:750;letter-spacing:.08em}
@@ -168,11 +168,26 @@ const characterSchema = {
     .character-page{padding:0 16px 72px;overflow-x:clip}
     .lineup{padding:44px 0 32px}.lineup-grid{gap:10px;margin-top:20px}.lineup-grid figcaption{font-size:19px}
     .profile{grid-template-columns:1fr;gap:24px;padding:40px 0}
-    .profile .shot{padding:12px}.profile .shot img{max-width:300px}
+    .profile .shot img{max-width:300px}
     .profile-table th{width:96px;padding:13px 12px}.profile-table td{padding:13px 12px}
     .faces{padding:40px 0 0}.face-grid{grid-template-columns:1fr;margin-top:20px}
     .character-signature{padding-top:64px}.character-signature h2{font-size:clamp(29px,8.7vw,42px)}
     .character-signature>div{display:grid;margin-top:48px}.author-cta{position:static;justify-self:start;margin-top:24px}
   }
+
+  /* 스크롤에 맞춰 캐릭터가 따라 움직인다. CSS 스크롤 타임라인이라 스크립트를 싣지 않고,
+     내릴 때와 올릴 때가 같은 진행도를 쓰므로 위로 올라가면 그대로 되감긴다.
+     지원하지 않는 브라우저에서는 그냥 가만히 있는다. */
+  @media(prefers-reduced-motion:no-preference){
+    @supports (animation-timeline: view()){
+      /* animation 단축 속성에 view()를 넣으면 빌드가 합쳐 버리고 크롬이 통째로 버린다. 낱개 속성으로 적는다. */
+      .lineup-grid img,.profile .shot img,.face-grid img{animation-duration:1s;animation-timing-function:linear;animation-fill-mode:both;animation-timeline:view()}
+      .lineup-grid img{animation-name:char-rise;animation-range:entry 0% entry 80%}
+      .profile .shot img{animation-name:char-drift;animation-range:cover 0% cover 100%}
+      .face-grid img{animation-name:char-rise;animation-range:entry 0% entry 85%}
+    }
+  }
+  @keyframes char-rise{from{transform:translateY(46px) scale(.93)}to{transform:none}}
+  @keyframes char-drift{from{transform:translateY(44px) scale(.97)}to{transform:translateY(-44px) scale(1.03)}}
   @media(prefers-reduced-motion:reduce){.author-cta{animation:none}}
 </style>
