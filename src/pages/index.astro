@@ -169,6 +169,26 @@ const shortDate = (date: Date) => {
   const [, month, day] = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'numeric', day: 'numeric' }).format(date).split('-');
   return `${Number(month)}.${Number(day)}`;
 };
+
+// ⑦ 사인 오프 띠: 홈 맨 아래에서 삥지와 삥맹이 배웅한다(운영자 지시, 2026-09-24).
+// 계절은 캐릭터 페이지와 같은 규칙으로 빌드할 때 정한다. 3~5월 벚꽃, 6~8월 비꽃, 9~11월 낙엽꽃, 12~2월 눈꽃.
+const signoffMonth = new Date().getMonth() + 1;
+const signoffSeason = signoffMonth <= 2 || signoffMonth === 12 ? 'winter' : signoffMonth <= 5 ? 'spring' : signoffMonth <= 8 ? 'summer' : 'autumn';
+const signoffPetals = Array.from({ length: 14 }, (_, i) => {
+  const mode = i % 3;
+  const spread = 50 + ((i * 31) % 150);
+  return {
+    left: (i * 7.1 + (i % 4) * 3) % 100,
+    dx: mode === 1 ? -spread : mode === 2 ? spread : -10 + ((i * 7) % 20),
+    spin: (mode === 0 ? 160 : 380) + ((i * 47) % 220),
+    delay: ((i * 1.7) % 12).toFixed(2),
+    dur: (11 + ((i * 3.3) % 8)).toFixed(2),
+    size: 7 + ((i * 5) % 7),
+    sway: mode === 0 ? (2.4 + ((i * 2) % 3)).toFixed(2) : (3.6 + ((i * 3) % 4)).toFixed(2),
+    swayPx: mode === 0 ? 13 : 6,
+    fade: (0.22 + ((i * 7) % 18) / 100).toFixed(2),
+  };
+});
 ---
 
 <Layout title={site.name} description={site.homeDescription} breadcrumbs={[{ label: '홈', href: '/' }]}>
@@ -344,6 +364,19 @@ const shortDate = (date: Date) => {
         </div>
       </section>
     )}
+    <section class="signoff" data-season={signoffSeason} aria-label="삥이FC 공식 캐릭터 삥지와 삥맹">
+      <div class="signoff__weather" aria-hidden="true">{signoffPetals.map((f) => (
+        <span style={`left:${f.left}%;--dx:${f.dx}px;--spin:${f.spin}deg;--fade:${f.fade};animation-delay:-${f.delay}s;animation-duration:${f.dur}s`}><i style={`width:${f.size}px;height:${f.size}px;--sway:${f.swayPx}px;animation-duration:${f.sway}s`} /></span>
+      ))}</div>
+      <img class="signoff__char signoff__char--ji" src="/images/brand/character/bbingji-front.png" alt="검정 BBINGE FC 후드티를 입고 선 삥지" width="1254" height="1254" loading="lazy" decoding="async" />
+      <div class="signoff__copy">
+        <p>BBINGE FC · OFFICIAL CHARACTERS</p>
+        <strong>삥지와 삥맹</strong>
+        <span>축구의 역사를 놀고, 읽고, 걷는 곳</span>
+        <a href="/about/character/">자기소개서 보러 가기 <b aria-hidden="true">→</b></a>
+      </div>
+      <img class="signoff__char signoff__char--maeng" src="/images/brand/character/bbingmaeng-front.png" alt="검정 BBINGE FC 후드티를 입고 선 삥맹" width="1254" height="1254" loading="lazy" decoding="async" />
+    </section>
   </main>
 </Layout>
 
@@ -526,6 +559,29 @@ const shortDate = (date: Date) => {
     .play-feature__copy>span { min-height:46px; font-size:16px; }
   }
   @media (prefers-reduced-motion: reduce) { .play-feature__roster img { transition:none; } }
+
+  /* ⑦ 사인 오프 띠: 홈 맨 아래 삥지·삥맹. 계절 꽃잎은 캐릭터 페이지와 같은 규칙이다. */
+  .signoff { position:relative; display:grid; grid-template-columns:minmax(0,140px) minmax(0,1fr) minmax(0,140px); align-items:end; gap:clamp(12px,3vw,40px); margin-top:48px; padding:28px 0 0; border-top:1px solid var(--bbfc-border); overflow:clip; }
+  .signoff__char { width:100%; height:auto; }
+  .signoff__copy { padding-bottom:18px; text-align:center; }
+  .signoff__copy p { color:var(--bbfc-blue); font-size:13px; font-weight:750; letter-spacing:.12em; }
+  .signoff__copy strong { display:block; margin-top:8px; font-size:clamp(22px,2.6vw,30px); font-weight:700; letter-spacing:-.04em; }
+  .signoff__copy>span { display:block; margin-top:8px; color:var(--bbfc-gray-1); font-size:15px; }
+  .signoff__copy a { display:inline-flex; align-items:center; gap:8px; margin-top:16px; padding:11px 18px; border:1px solid var(--bbfc-ink); border-radius:999px; color:var(--bbfc-ink); font-size:14px; font-weight:700; transition:background .2s,color .2s; }
+  .signoff__copy a:hover { background:var(--bbfc-ink); color:#fff; }
+  .signoff__weather { position:absolute; inset:0; overflow:clip; pointer-events:none; }
+  .signoff__weather span { position:absolute; top:-12%; display:block; animation-name:signoff-fall; animation-timing-function:linear; animation-iteration-count:infinite; }
+  .signoff__weather i { display:block; border-radius:0 62% 0 62%; background:#c9772f; opacity:var(--fade); animation-name:signoff-sway; animation-timing-function:ease-in-out; animation-iteration-count:infinite; animation-direction:alternate; }
+  .signoff[data-season="autumn"] .signoff__weather span:nth-child(3n) i { background:#a8552a; }
+  .signoff[data-season="autumn"] .signoff__weather span:nth-child(3n+1) i { background:#d9a05b; }
+  .signoff[data-season="spring"] .signoff__weather i { border-radius:60% 0 60% 0; background:#e9a7bd; }
+  .signoff[data-season="summer"] .signoff__weather i { width:2px!important; border-radius:2px; background:var(--bbfc-blue); }
+  .signoff[data-season="summer"] .signoff__weather span { animation-duration:3.4s!important; }
+  .signoff[data-season="winter"] .signoff__weather i { border-radius:50%; background:#9fb6d4; }
+  @keyframes signoff-fall { from { transform:translate(0,0) rotate(0); } to { transform:translate(var(--dx,0),calc(100% + 420px)) rotate(var(--spin,320deg)); } }
+  @keyframes signoff-sway { from { transform:translateX(calc(var(--sway,12px) * -1)); } to { transform:translateX(var(--sway,12px)); } }
+  @media (max-width:640px) { .signoff { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0; padding-top:22px; } .signoff__copy { grid-column:1/-1; order:-1; padding-bottom:6px; } .signoff__char { max-width:150px; justify-self:center; } }
+  @media (prefers-reduced-motion: reduce) { .signoff__weather { display:none; } }
 
   .home-magazine :global(.hc-banner) { margin:34px 0 0; }
 
