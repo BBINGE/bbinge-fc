@@ -2,77 +2,113 @@
 import Layout from '../../layouts/Layout.astro';
 import { site } from '../../config/site';
 
-const characterDescription = '삥이FC 공식 캐릭터 삥지와 삥맹의 정본 페이지. 두 이름의 유래, 얼굴로 구분하는 법, 검정 후드티와 공개 기록을 담았습니다.';
+// 나이는 빌드할 때 센다. 사이트가 6시간마다 자동 배포되므로 화면의 숫자는 스크립트 없이도 따라온다.
+const BIRTH = new Date('2026-09-11T00:00:00+09:00');
+function ageText(now = new Date()) {
+  const days = Math.floor((now.getTime() - BIRTH.getTime()) / 86400000);
+  if (days < 30) return `생후 ${days}일`;
+  let years = now.getFullYear() - BIRTH.getFullYear();
+  let months = now.getMonth() - BIRTH.getMonth();
+  if (now.getDate() < BIRTH.getDate()) months -= 1;
+  if (months < 0) { years -= 1; months += 12; }
+  if (years < 1) return `생후 ${years * 12 + months}개월`;
+  return `만 ${years}세`;
+}
+const birthLine = `2026년 9월 11일생 · ${ageText()}`;
+
+const characters = [
+  {
+    name: '삥지',
+    en: 'BBINGJI',
+    sex: '여자',
+    file: 'bbingji',
+    shot: 'bbingji-ball.webp',
+    shotAlt: '공에 기대 옆으로 누운 삥지',
+    faceAlt: '눈썹 한 줄과 코, 분홍 볼터치가 있는 삥지의 얼굴',
+    faceNote: '눈썹 한 줄, 코, 분홍 볼터치.',
+    nameNote: 'BBINGE를 붙여 읽으면 삥지.',
+    height: '94cm',
+    home: '서울특별시 서초구',
+    trait: '시니컬하고 쿨함. 칭찬은 짧고 지적은 길다.',
+    skills: ['전반 10분 보고 "이거 진다" 맞히기', '남이 쓴 글에서 틀린 연도 찾아내기'],
+    likes: ['새벽에 혼자 보는 유럽 경기', '촌스러운 90년대 유니폼', '숫자가 정확한 글'],
+    dislikes: ['하이라이트만 보고 다 아는 척하는 사람', '아무한테나 붙이는 "레전드"', '진 경기를 감동 서사로 포장하기'],
+  },
+  {
+    name: '삥맹',
+    en: 'BBINGMAENG',
+    sex: '남자',
+    file: 'bbingmaeng',
+    shot: 'bbingmaeng-sweat.webp',
+    shotAlt: '땀을 흘리며 손발을 떨고 있는 삥맹',
+    faceAlt: '눈 점 두 개와 입 선 하나만 있는 삥맹의 얼굴',
+    faceNote: '눈 두 개, 입 하나. 끝.',
+    nameNote: '맹하게 생겨서 삥맹.',
+    height: '95cm',
+    home: '서울특별시 강남구',
+    trait: '섬세하고 감성적. 남의 은퇴 경기를 보고 운다.',
+    skills: ['경기보다 경기 끝난 뒤 선수 표정 오래 보기', '그 경기에 어울리는 노래 고르기'],
+    likes: ['비 오는 날 홈경기', '흑백 사진', '승격 확정된 순간의 관중석'],
+    dislikes: ['승부차기', '팀 연고 이전', '"그래서 결론이 뭔데"'],
+  },
+];
+
+const characterDescription = '삥이FC 공식 캐릭터 삥지와 삥맹의 자기소개서. 키, 고향, 성격, 특기, 좋아하는 것과 싫어하는 것을 담았습니다.';
 const characterSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
   name: '삥이FC 공식 캐릭터 삥지와 삥맹',
   url: `${site.url}/about/character/`,
   description: characterDescription,
-  about: [
-    { '@type': 'Person', name: '삥지', alternateName: 'BBINGJI' },
-    { '@type': 'Person', name: '삥맹', alternateName: 'BBINGMAENG' },
-  ],
+  about: characters.map((c) => ({ '@type': 'Person', name: c.name, alternateName: c.en, height: c.height, birthDate: '2026-09-11' })),
 };
 ---
 
-<Layout title="공식 캐릭터 삥지와 삥맹" description={characterDescription} ogImage="/images/brand/character/bbingji-front.webp" ogImageAlt="검정 BBINGE FC 후드티를 입고 정면을 보는 구름 머리 캐릭터 삥지" ogImageWidth={1254} ogImageHeight={1254} adsEligible={false} breadcrumbs={[{ label: '홈', href: '/' }, { label: '저자 @삥이', href: '/about/' }, { label: '공식 캐릭터', href: '/about/character/' }]} extraSchema={characterSchema}>
+<Layout title="공식 캐릭터 삥지와 삥맹" description={characterDescription} ogImage="/images/brand/character/bbingji-front.webp" ogImageAlt="검정 BBINGE FC 후드티를 입은 구름 머리 캐릭터 삥지" ogImageWidth={1254} ogImageHeight={1254} adsEligible={false} breadcrumbs={[{ label: '홈', href: '/' }, { label: '저자 @삥이', href: '/about/' }, { label: '공식 캐릭터', href: '/about/character/' }]} extraSchema={characterSchema}>
   <article class="character-page">
-    <header class="character-hero">
-      <div class="hero-copy">
-        <p class="eyebrow">BBINGE FC · OFFICIAL CHARACTERS</p>
-        <h1>삥지와<br />삥맹.</h1>
-        <p class="hero-lead">삥이FC에는 둘이 삽니다.<br />볼터치 있는 쪽이 삥지, 맹한 쪽이 삥맹.</p>
-      </div>
-      <div class="hero-mark">
-        <figure><img src="/images/brand/character/bbingji-front.webp" alt="눈썹과 코, 분홍 볼터치가 있는 구름 머리 캐릭터 삥지" width="1254" height="1254" /><figcaption>삥지</figcaption></figure>
-        <figure><img src="/images/brand/character/bbingmaeng-front.webp" alt="눈 점 두 개와 입 선 하나만 있는 구름 머리 캐릭터 삥맹" width="1254" height="1254" loading="lazy" /><figcaption>삥맹</figcaption></figure>
+    <header class="lineup">
+      <p class="eyebrow">BBINGE FC · OFFICIAL CHARACTERS</p>
+      <h1>삥지와 삥맹</h1>
+      <div class="lineup-grid">
+        {characters.map((c) => (
+          <figure>
+            <img src={`/images/brand/character/${c.file}-front.webp`} alt={`검정 BBINGE FC 후드티를 입고 정면을 보는 ${c.name}`} width="1254" height="1254" />
+            <figcaption>{c.name}<span>{c.sex} · 2026.09.11</span></figcaption>
+          </figure>
+        ))}
       </div>
     </header>
 
-    <section class="character-section">
-      <div class="section-index"><b>01</b><span>THE NAMES</span></div>
-      <div class="section-body">
-        <h2>맹해서 삥맹</h2>
-        <div class="fact-grid">
-          <div class="fact-card"><strong>삥지</strong><h3>BBINGJI · 여자</h3><span>OFFICIAL CHARACTER</span><p>BBINGE를 붙여 읽으면 삥지.</p></div>
-          <div class="fact-card"><strong>삥맹</strong><h3>BBINGMAENG · 남자</h3><span>OFFICIAL CHARACTER</span><p>맹하게 생겨서 삥맹.</p></div>
-          <div class="fact-card accent-card"><strong>9.11</strong><h3>2026년 9월 11일 금요일</h3><span>BORN</span><p>둘이 만들어진 날. 나이는 여기서부터 세고, 공개는 2026년 9월 23일.</p></div>
+    {characters.map((c, i) => (
+      <section class="profile">
+        <div class="shot"><img src={`/images/brand/character/${c.shot}`} alt={c.shotAlt} width="1254" height="1254" loading="lazy" /></div>
+        <div class="profile-body">
+          <h2><b>PROFILE {String(i + 1).padStart(2, '0')}</b>{c.name} 자기소개서</h2>
+          <table class="profile-table">
+            <tbody>
+              <tr><th scope="row">이름</th><td>{c.name} <i>{c.nameNote}</i></td></tr>
+              <tr><th scope="row">나이</th><td>{birthLine}</td></tr>
+              <tr><th scope="row">키</th><td>{c.height}</td></tr>
+              <tr><th scope="row">고향</th><td>{c.home}</td></tr>
+              <tr><th scope="row">성격</th><td>{c.trait}</td></tr>
+              <tr><th scope="row">특기</th><td>{c.skills.map((v) => <span>{v}</span>)}</td></tr>
+              <tr><th scope="row">좋아하는 것</th><td>{c.likes.map((v) => <span>{v}</span>)}</td></tr>
+              <tr><th scope="row">싫어하는 것</th><td>{c.dislikes.map((v) => <span>{v}</span>)}</td></tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-    </section>
+      </section>
+    ))}
 
-    <section class="character-section">
-      <div class="section-index"><b>02</b><span>TELLING APART</span></div>
-      <div class="section-body">
-        <h2>볼터치 있으면 삥지</h2>
-        <div class="scene-grid">
-          <figure><img src="/images/brand/character/bbingji-face.webp" alt="눈썹 한 줄과 코, 양쪽 볼의 분홍 볼터치가 보이는 삥지의 얼굴" loading="lazy" width="680" height="600" /><figcaption><b>삥지</b>눈썹 한 줄, 코, 분홍 볼터치.</figcaption></figure>
-          <figure><img src="/images/brand/character/bbingmaeng-face.webp" alt="눈 점 두 개와 입 선 하나만 있는 삥맹의 얼굴" loading="lazy" width="680" height="600" /><figcaption><b>삥맹</b>눈 두 개, 입 하나. 끝.</figcaption></figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="character-section">
-      <div class="section-index"><b>03</b><span>THE HOODIE</span></div>
-      <div class="section-body split-body">
-        <div class="section-copy">
-          <h2>둘 다 같은 옷</h2>
-          <p>가슴 가운데에 PB 심벌과 BBINGE FC가 한 줄로 들어갑니다.</p>
-          <p>옷은 계절 따라 바뀝니다. 머리는 안 바뀝니다.</p>
-        </div>
-        <div class="mark-field quiet"><img src="/images/brand/character/hoodie-chest.webp" alt="검정 후드티 가슴에 흰색으로 도톰하게 솟은 PB 심벌과 BBINGE FC 글자" loading="lazy" width="880" height="380" /></div>
-      </div>
-    </section>
-
-    <section class="character-section">
-      <div class="section-index"><b>04</b><span>THE MOOD</span></div>
-      <div class="section-body split-body reverse-body">
-        <div class="mark-field"><img src="/images/brand/character/bbingji-ball.webp" alt="축구공에 기대 옆으로 누운 삥지" loading="lazy" width="1254" height="1254" /></div>
-        <div class="section-copy">
-          <h2>삥맹아, 빨리 안 하냐</h2>
-          <p>공에 기대 이러고 있는 쪽이 삥지입니다. 능청스럽고 쿨합니다.</p>
-        </div>
+    <section class="faces">
+      <h2>얼굴로 구분합니다</h2>
+      <div class="face-grid">
+        {characters.map((c) => (
+          <figure>
+            <img src={`/images/brand/character/${c.file}-face.webp`} alt={c.faceAlt} width="680" height="600" loading="lazy" />
+            <figcaption><b>{c.name}</b>{c.faceNote}</figcaption>
+          </figure>
+        ))}
       </div>
     </section>
 
@@ -88,38 +124,57 @@ const characterSchema = {
 </Layout>
 
 <style>
-  .character-page{--line:var(--bbfc-border);max-width:1200px;margin:0 auto;padding:0 20px 110px;color:var(--bbfc-ink)}
-  .character-hero{display:grid;grid-template-columns:44fr 56fr;align-items:center;min-height:600px;border-bottom:1px solid var(--bbfc-ink)}
-  .hero-copy{padding:84px clamp(20px,4vw,58px) 84px 0}.eyebrow{color:var(--bbfc-blue);font-size:14px;font-weight:750;letter-spacing:.17em}.hero-copy h1{margin-top:24px;font-size:clamp(40px,4.6vw,60px);font-weight:680;line-height:1.04;letter-spacing:-.065em}.hero-lead{max-width:540px;margin-top:32px;color:var(--bbfc-ink-2);font-size:clamp(15px,1.45vw,18px);line-height:1.9}
-  .hero-mark{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,28px);min-width:0;padding:42px 0}
-  .hero-mark figure{margin:0}.hero-mark img{display:block;width:100%;height:auto}
-  .hero-mark figcaption{margin-top:10px;text-align:center;font-size:17px;font-weight:700}
-  .character-section{display:grid;grid-template-columns:110px minmax(0,1fr);border-bottom:1px solid var(--line)}.section-index{padding:34px 14px 0 0}.section-index b,.section-index span{display:block}.section-index b{color:var(--bbfc-blue);font-size:14px}.section-index span{margin-top:4px;font-size:14px;font-weight:750;letter-spacing:.08em}
-  .section-body{min-width:0;padding:74px 0 80px 34px;border-left:1px solid var(--line)}.section-body>h2,.section-copy h2{font-size:clamp(32px,4.2vw,54px);font-weight:640;line-height:1.13;letter-spacing:-.055em}
-  .section-lead{max-width:680px;margin-top:32px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.95}
-  .fact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:60px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
-  .fact-card{min-height:300px;padding:34px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.fact-card strong{display:block;font-size:clamp(44px,5.6vw,68px);font-weight:670;line-height:1;letter-spacing:-.04em}.fact-card h3{margin-top:22px;font-size:16px}.fact-card span{display:block;margin-top:6px;color:var(--bbfc-blue);font-size:14px;font-weight:750;letter-spacing:.08em}.fact-card p{margin-top:26px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.8}
-  .accent-card{background:var(--bbfc-ink);color:#fff}.accent-card h3{color:#fff}.accent-card p{color:#c7cdd4}
-  .split-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.95fr);gap:clamp(44px,7vw,92px);align-items:center}
-  .reverse-body{grid-template-columns:minmax(300px,.95fr) minmax(0,1fr)}
-  .section-copy p{max-width:620px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.95}.section-copy h2+p{margin-top:34px}.section-copy p+p{margin-top:20px}
-  .mark-field{display:grid;place-items:center;min-height:320px;padding:28px;background:#fff}.mark-field.quiet{background:var(--bbfc-fill-2)}.mark-field img{display:block;width:min(100%,420px);height:auto}
-  .scene-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:56px;background:var(--line);border:1px solid var(--line)}
-  .scene-grid figure{display:grid;grid-template-rows:1fr auto;margin:0;background:#fff}.scene-grid img{display:block;width:100%;height:auto}
-  .scene-grid figcaption{padding:22px 26px 28px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.7}.scene-grid figcaption b{display:block;margin-bottom:8px;color:var(--bbfc-ink);font-size:22px}
-  .character-signature{position:relative;padding:104px 0 20px}.character-signature>p{font-size:14px;font-weight:750;letter-spacing:.08em}.character-signature>p span{color:var(--bbfc-blue)}.character-signature h2{max-width:850px;margin-top:30px;font-size:clamp(30px,4vw,52px);font-weight:650;line-height:1.16;letter-spacing:-.055em}
-  .character-signature>div{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:74px;padding-top:22px;border-top:1px solid var(--bbfc-ink)}.signature-meta{display:grid;gap:5px}.character-signature strong{font-size:17px}.signature-meta span{color:var(--bbfc-gray-1);font-size:14px;line-height:1.6}
-  .author-cta{position:absolute;right:0;top:186px;display:inline-flex;align-items:center;gap:12px;padding:13px 18px 13px 14px;border-radius:999px;background:var(--bbfc-ink);color:#fff;font-size:14px;font-weight:700;box-shadow:0 10px 28px rgba(25,31,40,.18);animation:cta-float 2.4s ease-in-out infinite}.author-cta i{position:relative;width:34px;height:24px;border-radius:7px;background:var(--bbfc-blue)}.author-cta i::after{content:"";position:absolute;left:14px;top:7px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #fff}.author-cta span{color:#fff}.author-cta:hover{color:#fff;background:#10151c;transform:translateY(-2px)}@keyframes cta-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  .character-page{--line:var(--bbfc-border);max-width:1200px;margin:0 auto;padding:0 20px 96px;color:var(--bbfc-ink)}
+  .eyebrow{color:var(--bbfc-blue);font-size:14px;font-weight:750;letter-spacing:.17em}
+  .lineup{padding:56px 0 40px;border-bottom:1px solid var(--bbfc-ink)}
+  .lineup h1{margin-top:18px;font-size:clamp(40px,5vw,62px);font-weight:680;line-height:1.05;letter-spacing:-.065em}
+  .lineup-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,40px);margin-top:26px}
+  .lineup-grid figure{margin:0;text-align:center}
+  .lineup-grid img{display:block;width:100%;max-width:360px;height:auto;margin:0 auto}
+  .lineup-grid figcaption{margin-top:4px;font-size:22px;font-weight:750;letter-spacing:-.03em}
+  .lineup-grid figcaption span{display:block;margin-top:6px;color:var(--bbfc-gray-1);font-size:15px;font-weight:500;letter-spacing:0}
+
+  .profile{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(28px,4vw,52px);align-items:start;padding:52px 0;border-bottom:1px solid var(--line)}
+  .profile .shot{display:grid;place-items:center;padding:18px;background:var(--bbfc-fill-2)}
+  .profile .shot img{display:block;width:100%;height:auto}
+  .profile h2{font-size:clamp(28px,3.4vw,42px);font-weight:660;line-height:1.15;letter-spacing:-.05em}
+  .profile h2 b{display:block;margin-bottom:10px;color:var(--bbfc-blue);font-size:15px;font-weight:750;letter-spacing:.08em}
+  .profile-table{width:100%;margin-top:22px;border-collapse:collapse;border-top:2px solid var(--bbfc-ink)}
+  .profile-table th,.profile-table td{padding:15px 16px;border-bottom:1px solid var(--line);font-size:16px;text-align:left;vertical-align:top}
+  .profile-table th{width:124px;background:var(--bbfc-fill-2);font-weight:700}
+  .profile-table td{color:var(--bbfc-ink-2);line-height:1.65}
+  .profile-table td span{display:block}
+  .profile-table td span+span{margin-top:7px}
+  .profile-table td i{color:var(--bbfc-gray-1);font-size:15px;font-style:normal}
+
+  .faces{padding:52px 0 0}
+  .faces h2{font-size:clamp(26px,3vw,36px);font-weight:660;letter-spacing:-.05em}
+  .face-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:26px;background:var(--line);border:1px solid var(--line)}
+  .face-grid figure{display:grid;grid-template-rows:1fr auto;margin:0;background:#fff}
+  .face-grid img{display:block;width:100%;height:auto}
+  .face-grid figcaption{padding:20px 24px 26px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.7}
+  .face-grid figcaption b{display:block;margin-bottom:8px;color:var(--bbfc-ink);font-size:22px;letter-spacing:-.03em}
+
+  .character-signature{position:relative;padding:86px 0 20px}
+  .character-signature>p{font-size:14px;font-weight:750;letter-spacing:.08em}.character-signature>p span{color:var(--bbfc-blue)}
+  .character-signature h2{max-width:850px;margin-top:26px;font-size:clamp(30px,4vw,50px);font-weight:650;line-height:1.16;letter-spacing:-.055em}
+  .character-signature>div{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:64px;padding-top:22px;border-top:1px solid var(--bbfc-ink)}
+  .signature-meta{display:grid;gap:5px}.character-signature strong{font-size:17px}.signature-meta span{color:var(--bbfc-gray-1);font-size:14px;line-height:1.6}
+  .author-cta{position:absolute;right:0;top:160px;display:inline-flex;align-items:center;gap:12px;padding:13px 18px 13px 14px;border-radius:999px;background:var(--bbfc-ink);color:#fff;font-size:14px;font-weight:700;box-shadow:0 10px 28px rgba(25,31,40,.18);animation:cta-float 2.4s ease-in-out infinite}
+  .author-cta i{position:relative;width:34px;height:24px;border-radius:7px;background:var(--bbfc-blue)}
+  .author-cta i::after{content:"";position:absolute;left:14px;top:7px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #fff}
+  .author-cta span{color:#fff}.author-cta:hover{color:#fff;background:#10151c;transform:translateY(-2px)}
+  @keyframes cta-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+
   @media(max-width:800px){
-    .character-page{padding:0 16px 76px;overflow-x:clip}
-    .character-hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:72px 0 30px}.hero-copy h1{font-size:clamp(38px,11vw,52px)}.hero-lead br{display:none}.hero-mark{padding:0 0 50px;gap:10px}
-    .character-section{grid-template-columns:46px minmax(0,1fr)}.section-index{padding-top:24px}.section-index span{writing-mode:vertical-rl}
-    .section-body{padding:56px 0 60px 18px}
-    .fact-grid{grid-template-columns:1fr;margin-top:42px}.fact-card{min-height:0;padding:28px}
-    .split-body,.reverse-body{grid-template-columns:1fr;gap:42px}.reverse-body .mark-field{order:2}
-    .mark-field{min-height:0;padding:22px}.mark-field img{width:min(100%,320px)}
-    .scene-grid{grid-template-columns:1fr;margin-top:40px}
-    .character-signature{padding-top:78px}.character-signature h2{font-size:clamp(29px,8.7vw,42px)}.character-signature>div{display:grid;margin-top:54px}.author-cta{position:static;justify-self:start;margin-top:24px}
+    .character-page{padding:0 16px 72px;overflow-x:clip}
+    .lineup{padding:44px 0 32px}.lineup-grid{gap:10px;margin-top:20px}.lineup-grid figcaption{font-size:19px}
+    .profile{grid-template-columns:1fr;gap:24px;padding:40px 0}
+    .profile .shot{padding:12px}.profile .shot img{max-width:300px}
+    .profile-table th{width:96px;padding:13px 12px}.profile-table td{padding:13px 12px}
+    .faces{padding:40px 0 0}.face-grid{grid-template-columns:1fr;margin-top:20px}
+    .character-signature{padding-top:64px}.character-signature h2{font-size:clamp(29px,8.7vw,42px)}
+    .character-signature>div{display:grid;margin-top:48px}.author-cta{position:static;justify-self:start;margin-top:24px}
   }
   @media(prefers-reduced-motion:reduce){.author-cta{animation:none}}
 </style>
