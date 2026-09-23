@@ -127,7 +127,7 @@ const characterSchema = {
   const shots = [
     ...document.querySelectorAll<HTMLImageElement>('.lineup-grid img, .face-grid img'),
   ].map((el) => ({ el, y: 34, s: 0.03, r: 0 }));
-  const drifts = [...document.querySelectorAll<HTMLImageElement>('.profile .shot img')].map((el) => ({ el, y: 84, s: 0.06, r: 1.5 }));
+  const drifts = [...document.querySelectorAll<HTMLImageElement>('.profile .shot img')].map((el) => ({ el, y: 26, s: 0.04, r: 1.5 }));
   const items = [...shots, ...drifts];
 
   if (items.length && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -166,7 +166,8 @@ const characterSchema = {
   .lineup-grid figcaption span{display:block;margin-top:6px;color:var(--bbfc-gray-1);font-size:15px;font-weight:500;letter-spacing:0}
 
   .profile{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(28px,4vw,52px);align-items:start;padding:52px 0;border-bottom:1px solid var(--line)}
-  .profile .shot{display:grid;place-items:center;padding:0}
+  /* 로고 페이지의 landscape-mark처럼 사진이 표 옆에 붙어 따라 내려온다. */
+  .profile .shot{position:sticky;top:88px;align-self:start;display:grid;place-items:center;padding:0}
   .profile .shot img{display:block;width:100%;height:auto}
   .profile h2{font-size:clamp(28px,3.4vw,42px);font-weight:660;line-height:1.15;letter-spacing:-.05em}
   .profile h2 b{display:block;margin-bottom:10px;color:var(--bbfc-blue);font-size:15px;font-weight:750;letter-spacing:.08em}
@@ -201,6 +202,7 @@ const characterSchema = {
     .character-page{padding:0 16px 72px;overflow-x:clip}
     .lineup{padding:44px 0 32px}.lineup-grid{gap:10px;margin-top:20px}.lineup-grid figcaption{font-size:19px}
     .profile{grid-template-columns:1fr;gap:24px;padding:40px 0}
+    .profile .shot{position:static}
     .profile .shot img{max-width:300px}
     .profile-table th{width:96px;padding:13px 12px}.profile-table td{padding:13px 12px}
     .faces{padding:40px 0 0}.face-grid{grid-template-columns:1fr;margin-top:20px}
