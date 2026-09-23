@@ -14,6 +14,35 @@ coverImageWidth: 1600
 coverImageHeight: 900
 draft: false
 featured: false
+fashionProfile:
+  eyebrow: 'PROFILE · KYLIE JENNER'
+  name: '카일리 제너'
+  romanName: 'KYLIE JENNER'
+  realName: 'Kylie Kristen Jenner'
+  portrait: '/images/culture/kylie-jenner-world-cup-final/profile.webp'
+  portraitAlt: '털 코트를 걸치고 정면을 바라보는 카일리 제너'
+  portraitCredit: 'Who What Wear, August 2026 · Photo © Aidan Zamiri'
+  birthDate: '1997-08-10'
+  birthPlace: '미국 캘리포니아 로스앤젤레스'
+  nationalities:
+    - name: '미국'
+      flag: '/images/flags/us.svg'
+      flagAlt: '미국 국기'
+  facts:
+    - label: '직업'
+      value: '사업가 · 모델'
+    - label: '브랜드'
+      value: '카일리 코스메틱스 창업 · 의류 브랜드 KHY 운영'
+    - label: '이 날'
+      value: '2026 FIFA 월드컵 결승 관전'
+    - label: '동행'
+      value: '티모시 샬라메'
+    - label: '오늘의 옷'
+      value: 'EB 데님 롤라 슬림 카프리 · 누아르'
+  officialChannel:
+    label: 'Instagram'
+    handle: '@kyliejenner'
+    href: 'https://www.instagram.com/kyliejenner/'
 ---
 
 <p>2026년 7월 19일 뉴욕 뉴저지 스타디움에는 8만 663명이 들어찼다. 스페인이 아르헨티나를 연장 106분 페란 토레스의 골로 1-0으로 꺾고 12년 만에 두 번째 별을 단 날이다. 그 8만 663명 가운데 한 사람이 카일리 제너였고, 그가 입은 옷에는 축구가 한 조각도 들어 있지 않았다.</p>
@@ -107,6 +136,7 @@ featured: false
     <li><a href="https://graziadaily.co.uk/fashion/shopping/kylie-jenner-otra-sunglasses/">Grazia, “I've found the exact sunglasses Kylie Jenner wore to the World Cup final”</a>. 착용 선글라스 모델 특정.</li>
     <li><a href="https://www.thefashionspot.com/fashion-news/962665-kylie-jenner-plunging-top-fifa-world-cup-curves/">theFashionSpot, “Kylie Jenner Flaunts Her Curves in Plunging Top at FIFA World Cup Final”</a>; <a href="https://www.eonline.com/news/1434141/kylie-jenner-timothee-chalamet-show-pda-at-world-cup-2026-final">E! News, “Kylie Jenner, Timothée Chalamet Enjoy PDA-Filled Outing at World Cup 2026 Final”</a>. 착장 구성과 동행 확인.</li>
     <li><a href="https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543">FIFA, Spain v Argentina 1-0 경기 기록</a>; <a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final">2026 FIFA World Cup final</a>. 날짜, 장소, 106분 페란 토레스의 결승골, 관중 8만 663명 확인.</li>
+    <li><a href="https://www.whowhatwear.com/fashion/cover-features/kylie-jenner-interview-2026">Who What Wear, 2026년 8월호 커버 스토리</a>. 인물 카드 사진의 촬영자와 게재 호수 확인.</li>
     <li><a href="https://fashionista.com/2025/02/eb-denim-brand">Fashionista, “EB Denim: A Celebrity-Loved Contemporary Brand Known for its Innovative Jeans”</a>. 창업 연도와 로스앤젤레스 생산 확인.</li>
   </ol>
 </section>
