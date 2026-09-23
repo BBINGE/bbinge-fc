@@ -3,7 +3,7 @@ import { formatKoreanDate } from '../utils/koreanDate';
 import type { CollectionEntry } from 'astro:content';
 import { getArticlePath } from '../config/categories';
 import { imageFocusStyle } from '../utils/imageFocus';
-import { cultureCoverArticleId, cultureSections, getCultureSectionPath, type CultureSection } from '../config/culture';
+import { cultureCoverArticleId, cultureCoverPoolSize, cultureCoverRotationHours, cultureSections, getCultureSectionPath, type CultureSection } from '../config/culture';
 
 interface Props {
   entries: CollectionEntry<'articles'>[];
@@ -11,7 +11,12 @@ interface Props {
 }
 
 const { entries, description } = Astro.props;
-const lead = entries.find((entry) => entry.id === cultureCoverArticleId) ?? entries[0];
+// 커버 스토리는 최근 글 몇 편 사이에서 돌아간다. 빌드 시각이 어느 칸에 들어가느냐로 정하므로
+// 같은 빌드에서는 항상 같은 글이 나오고, 다음 배포에서는 다음 글로 넘어간다.
+const coverPool = entries.filter((entry) => !entry.data.draft && (entry.data.cardImage ?? entry.data.coverImage)).slice(0, cultureCoverPoolSize);
+const rotationIndex = coverPool.length ? Math.floor(Date.now() / (cultureCoverRotationHours * 3600 * 1000)) % coverPool.length : 0;
+const pinned = cultureCoverArticleId ? entries.find((entry) => entry.id === cultureCoverArticleId) : undefined;
+const lead = pinned ?? coverPool[rotationIndex] ?? entries[0];
 const edit = entries.filter((entry) => entry.id !== lead?.id);
 const imageFor = (entry: CollectionEntry<'articles'>) => entry.data.cardImage ?? entry.data.coverImage;
 const halls = (Object.keys(cultureSections) as CultureSection[]).map((key) => ({

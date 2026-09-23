@@ -34,7 +34,12 @@ export const cultureSections = {
   },
 } as const;
 
-export const cultureCoverArticleId = 'lisa-nike-football-mercurial-dress-world-cup';
+// 축디 입구의 커버 스토리는 빌드할 때마다 최근 글 사이에서 돌아간다(운영자 지시, 2026-09-24).
+// 한 편을 계속 세우고 싶으면 여기에 그 글의 아이디를 적는다. 비어 있으면 회전한다.
+export const cultureCoverArticleId = '';
+// 회전 후보로 쓰는 최근 글 수와, 한 편이 걸려 있는 시간(시간 단위)
+export const cultureCoverPoolSize = 8;
+export const cultureCoverRotationHours = 6;
 
 export type CultureSection = keyof typeof cultureSections;
 export const cultureSectionSlugs = Object.keys(cultureSections) as [CultureSection, ...CultureSection[]];
