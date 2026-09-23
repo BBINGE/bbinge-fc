@@ -80,11 +80,13 @@
 - **제작자 표기:** 하지 않는다(운영자 결정). 페이지·커밋·문서 어디에도 외부 제작자 이름을 적지 않는다.
 - **삥이MC 적용:** 하지 않는다. MC 사이트가 아직 준비되지 않아 화면에서 MC를 언급하지 않는다.
 - **후드티:** 가슴 가운데에 PB 심벌과 `BBINGE FC` 글자가 한 줄로 들어간다. 좌우 가슴에 스폰서·팀 로고를 나누는 유니폼식 배치는 검토했다가 운영자가 접었다. 3절의 "사이트에 따라 BBINGE FC 로고를 입힌다"가 그대로 적용된 형태다.
-- **정본 페이지:** `/about/character/`(`src/pages/about/character.astro`). `/about/logo/`와 같은 번호 절 문법이며 01 THE NAMES · 02 TELLING APART(얼굴로 구분하는 법) · 03 THE HOODIE · 04 THE MOOD · 05 THE MANUAL로 구성한다. 헤더 저자 메뉴, 모바일 메뉴, 푸터에서 연결한다.
+- **정본 페이지:** `/about/character/`(`src/pages/about/character.astro`). `/about/logo/`와 같은 번호 절 문법이며 01 THE NAMES · 02 TELLING APART · 03 THE HOODIE · 04 THE MOOD 네 절이다. 헤더 저자 메뉴, 모바일 메뉴, 푸터에서 연결한다.
+- **문체(운영자 교정, 2026-09-23):** 캐릭터 페이지에 설명조 문장을 쓰지 않는다. `이름은 이렇게 지었습니다`, `둘 다 BBinge에서 나왔습니다. 하나는 철자에서, 하나는 생김새에서 왔습니다`, `얼굴로 구분합니다`, `몸과 옷은 같습니다` 같은 리드를 운영자가 "교수가 학생 가르치듯"이라고 잘랐다. 지금 제목은 `맹해서 삥맹`, `볼터치 있으면 삥지`, `둘 다 같은 옷`처럼 짧은 말이고 리드 문장은 없다.
+- **사용설명서 절은 페이지에서 뺐다(운영자 결정, 2026-09-23).** "누가 쓴다고, 내껀데"가 이유다. 아래 규칙은 저장소 안에서 AI가 지키는 내부 규칙으로만 남긴다.
 - **자산:** `public/images/brand/character/`의 `bbingji-front.webp`(삥지 정면), `bbingmaeng-front.webp`(삥맹 정면), `bbingji-ball.webp`(공에 기댄 삥지), `hoodie-chest.webp`(가슴 로고 크롭). 모두 1254px 렌더이며 가슴이 `BBINGE FC`다. 가슴이 옛 `BBINGE`인 첫 렌더 네 장은 저장소에서 지웠다.
-- **검수:** `scripts/qa-character.mjs`(380·768·1440px 가로 넘침, 이미지 6장 로딩, 절 5개, 기록 카드 3장, 사용설명서 두 칸, 12px 미만 글자, 헤더·푸터 링크). Playwright 브라우저가 없는 PC는 `QA_BASE=http://localhost:4323 node scripts/qa-with-chrome.mjs ./qa-character.mjs`로 실행한다.
+- **검수:** `scripts/qa-character.mjs`(380·768·1440px 가로 넘침, 이미지 6장 로딩, 절 4개, 기록 카드 3장, 12px 미만 글자, 헤더·푸터 링크). Playwright 브라우저가 없는 PC는 `QA_BASE=http://localhost:4323 node scripts/qa-with-chrome.mjs ./qa-character.mjs`로 실행한다.
 
-### 사용설명서(페이지 05절과 같은 내용)
+### 내부 규칙(화면에는 올리지 않는다)
 
 - 기본형은 정면, 검정 후드티, 가슴의 PB 심벌과 BBINGE FC다. 배경은 흰색이나 아이보리처럼 조용한 면에 둔다.
 - 계절과 상황은 옷과 자세로만 바꾼다. 머리 실루엣이 살아 있는 크기까지만 줄인다.

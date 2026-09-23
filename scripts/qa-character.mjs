@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-// 공식 캐릭터 삥지·삥맹 정본 페이지 검수: 절 5개, 기록 카드 3장, 사용설명서 두 칸, 이미지 로딩,
+// 공식 캐릭터 삥지·삥맹 정본 페이지 검수: 절 4개, 기록 카드 3장, 이미지 로딩,
 // 헤더·푸터의 캐릭터 링크, 12px 미만 글자, 380/768/1440px 가로 넘침.
 const base = process.env.QA_BASE || 'http://127.0.0.1:4321';
 const out = process.env.QA_OUTPUT || mkdtempSync(join(tmpdir(), 'bbinge-character-'));
@@ -16,9 +16,8 @@ try {
     await page.setViewportSize({ width, height: 1000 });
     assert.equal((await page.goto(base + route, { waitUntil: 'domcontentloaded' })).status(), 200);
     await page.evaluate(() => document.fonts.ready);
-    assert.equal(await page.locator('.character-section').count(), 5, '절 5개');
-    assert.equal(await page.locator('.fact-card').count(), 3, '기록 카드 3장');
-    assert.equal(await page.locator('.manual-col').count(), 2, '사용설명서 두 칸');
+    assert.equal(await page.locator('.character-section').count(), 4, '절 4개');
+    assert.equal(await page.locator('.fact-card').count(), 3, '기록 카드 3장');
     assert.equal(await page.locator('.scene-grid figure').count(), 2, '구분 2칸');
     assert.equal(await page.locator('.hero-mark figure').count(), 2, '히어로 두 캐릭터');
     for (const img of await page.locator('.character-page img').all()) {
