@@ -19,7 +19,8 @@ try {
     assert.equal(await page.locator('.profile').count(), 2, '자기소개서 두 장');
     assert.equal(await page.locator('.profile-table tbody tr').count(), 16, '프로필 8줄씩');
     assert.match(await page.locator('.profile-table tbody tr:nth-child(2) td').first().innerText(), /2026년 9월 11일생 · (생후 \d+일|생후 \d+개월|만 \d+세)/, '나이 자동 계산');
-    assert.equal(await page.locator('.face-grid figure').count(), 2, '구분 2칸');
+    assert.equal(await page.locator('.post-card').count(), 1, '단체 프로필 카드');
+    assert.match(await page.locator('.post-tags').innerText(), /#삥이FC #삥이 #삥지 #삥맹/, '해시태그');
     assert.equal(await page.locator('.lineup-grid figure').count(), 2, '라인업 두 캐릭터');
     for (const img of await page.locator('.character-page img').all()) {
       await img.scrollIntoViewIfNeeded();

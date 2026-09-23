@@ -100,16 +100,24 @@ const characterSchema = {
       </section>
     ))}
 
-    <section class="faces">
-      <h2>얼굴로 구분합니다</h2>
-      <div class="face-grid">
-        {characters.map((c) => (
-          <figure>
-            <img src={`/images/brand/character/${c.file}-face.png`} alt={c.faceAlt} width="680" height="600" loading="lazy" />
-            <figcaption><b>{c.name}</b>{c.faceNote}</figcaption>
-          </figure>
-        ))}
-      </div>
+    <section class="post" aria-label="삥지와 삥맹 단체 프로필">
+      <article class="post-card">
+        <header class="post-head">
+          <span class="post-avatar"><img src="/images/brand/pb-mark-2026-color.png" alt="" width="1596" height="985" loading="lazy" /></span>
+          <span class="post-who"><b>bbingefc</b><small>PB 온라인 본점 · 서울 강남</small></span>
+        </header>
+        <div class="post-photo"><img src="/images/brand/character/together.webp" alt="검정 BBINGE FC 후드티를 입고 나란히 선 삥지와 삥맹" width="1200" height="1200" loading="lazy" /></div>
+        <div class="post-actions" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20.4 4.6 13a4.6 4.6 0 0 1 6.5-6.5l.9.9.9-.9A4.6 4.6 0 0 1 19.4 13z" stroke-linejoin="round"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-5A8 8 0 1 1 21 11.5z" stroke-linejoin="round"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21.5 3 2.5 10.3l7.3 2.9 2.9 7.3z" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="post-body">
+          <p><b>bbingefc</b> 볼터치가 있는 쪽이 삥지, 없는 쪽이 삥맹입니다.</p>
+          <p class="post-tags">#삥이FC #삥이 #삥지 #삥맹</p>
+          <p class="post-date">2026년 9월 23일</p>
+        </div>
+      </article>
     </section>
 
     <footer class="character-signature">
@@ -209,13 +217,23 @@ const characterSchema = {
   .profile-table td span+span{margin-top:7px}
   .profile-table td i{color:var(--bbfc-gray-1);font-size:15px;font-style:normal}
 
-  .faces{padding:52px 0 0}
-  .faces h2{font-size:clamp(26px,3vw,36px);font-weight:660;letter-spacing:-.05em}
-  .face-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:26px;background:var(--line);border:1px solid var(--line)}
-  .face-grid figure{display:grid;grid-template-rows:1fr auto;margin:0;background:#fff}
-  .face-grid img{display:block;width:100%;height:auto}
-  .face-grid figcaption{padding:20px 24px 26px;color:var(--bbfc-ink-2);font-size:16px;line-height:1.7}
-  .face-grid figcaption b{display:block;margin-bottom:8px;color:var(--bbfc-ink);font-size:22px;letter-spacing:-.03em}
+  .post{padding:52px 0 0;display:grid;place-items:center}
+  .post-card{width:min(100%,470px);border:1px solid var(--line);background:#fff}
+  .post-head{display:flex;align-items:center;gap:12px;padding:12px 14px}
+  .post-avatar{display:grid;place-items:center;width:42px;height:42px;overflow:hidden;border:1px solid var(--line);border-radius:50%;background:#fff}
+  .post-avatar img{width:34px;height:auto}
+  .post-who{display:grid;gap:2px}
+  .post-who b{font-size:15px;font-weight:700}
+  .post-who small{color:var(--bbfc-gray-1);font-size:14px}
+  .post-photo{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bbfc-fill-2)}
+  .post-photo img{display:block;width:100%;height:auto}
+  .post-actions{display:flex;gap:16px;padding:12px 14px 4px;color:var(--bbfc-ink)}
+  .post-actions svg{width:25px;height:25px}
+  .post-body{padding:4px 14px 18px}
+  .post-body p{font-size:15px;line-height:1.65;color:var(--bbfc-ink-2)}
+  .post-body p b{color:var(--bbfc-ink);font-weight:700}
+  .post-tags{margin-top:6px;color:var(--bbfc-blue);font-weight:600}
+  .post-date{margin-top:10px;color:var(--bbfc-gray-2);font-size:14px}
 
   .character-signature{position:relative;padding:86px 0 20px}
   .character-signature>p{font-size:14px;font-weight:750;letter-spacing:.08em}.character-signature>p span{color:var(--bbfc-blue)}
@@ -235,7 +253,7 @@ const characterSchema = {
     .profile .shot{position:static}
     .profile .shot img{max-width:300px}
     .profile-table th{width:96px;padding:13px 12px}.profile-table td{padding:13px 12px}
-    .faces{padding:40px 0 0}.face-grid{grid-template-columns:1fr;margin-top:20px}
+    .post{padding:40px 0 0}
     .character-signature{padding-top:64px}.character-signature h2{font-size:clamp(29px,8.7vw,42px)}
     .character-signature>div{display:grid;margin-top:48px}.author-cta{position:static;justify-self:start;margin-top:24px}
   }
