@@ -21,13 +21,25 @@ const birthLine = `2026년 9월 11일생 · ${ageText()}`;
 const month = new Date().getMonth() + 1;
 const season = month <= 2 || month === 12 ? 'winter' : month <= 5 ? 'spring' : month <= 8 ? 'summer' : 'autumn';
 const seasonLabel = { spring: '벚꽃', summer: '비꽃', autumn: '낙엽꽃', winter: '눈꽃' }[season];
-const petals = Array.from({ length: 18 }, (_, i) => ({
-  left: (i * 5.6 + (i % 5) * 2.4) % 100,
-  delay: ((i * 1.7) % 12).toFixed(2),
-  dur: (11 + ((i * 3) % 7)).toFixed(2),
-  size: 9 + ((i * 5) % 8),
-  sway: (3 + ((i * 2) % 5)).toFixed(2),
-}));
+// 궤적을 섞는다. 어떤 것은 곧게 떨어지고, 어떤 것은 오른쪽 위에서 왼쪽 아래로, 어떤 것은 그 반대로 간다.
+const drifts = [0, -220, 140, -60, 260, -140, 40, -300, 180, 0, -100, 220, -180, 80, 300, -40, 120, -260, 60, -160, 200, 0, -80, 240];
+const petals = Array.from({ length: 26 }, (_, i) => {
+  // 세 갈래로 나눈다. 0은 곧게 떨어지고, 1은 오른쪽 위에서 왼쪽 아래로, 2는 그 반대로 간다.
+  const mode = i % 3;
+  const spread = 60 + ((i * 37) % 200);
+  return {
+    left: mode === 1 ? 20 + ((i * 11) % 80) : mode === 2 ? -6 + ((i * 13) % 78) : (i * 7.3) % 100,
+    dx: mode === 1 ? -spread : mode === 2 ? spread : -14 + ((i * 9) % 28),
+    spin: (mode === 0 ? 180 : 420) + ((i * 53) % 260),
+    delay: ((i * 1.31) % 14).toFixed(2),
+    dur: (12 + ((i * 3.7) % 10)).toFixed(2),
+    size: 8 + ((i * 5) % 9),
+    sway: mode === 0 ? (2.2 + ((i * 2) % 4)).toFixed(2) : (3.4 + ((i * 3) % 5)).toFixed(2),
+    swayPx: mode === 0 ? 16 : 7,
+    fade: (0.24 + ((i * 7) % 20) / 100).toFixed(2),
+  };
+});
+const scenePetals = petals.slice(0, 9);
 
 const characters = [
   {
@@ -115,14 +127,20 @@ const characterSchema = {
 
     <section class="post" data-season={season} aria-label={`삥지와 삥맹 단체 프로필, 배경은 ${seasonLabel}`}>
       <div class="weather" aria-hidden="true">{petals.map((f) => (
-        <span style={`left:${f.left}%;animation-delay:-${f.delay}s;animation-duration:${f.dur}s`}><i style={`width:${f.size}px;height:${f.size}px;animation-duration:${f.sway}s`} /></span>
+        <span style={`left:${f.left}%;--dx:${f.dx}px;--spin:${f.spin}deg;--fade:${f.fade};animation-delay:-${f.delay}s;animation-duration:${f.dur}s`}><i style={`width:${f.size}px;height:${f.size}px;--sway:${f.swayPx}px;animation-duration:${f.sway}s`} /></span>
       ))}</div>
       <article class="post-card">
         <header class="post-head">
           <span class="post-avatar"><img src="/images/brand/pb-mark-2026-color.png" alt="" width="1596" height="985" loading="lazy" /></span>
           <span class="post-who"><b>bbingefc</b><small>PB 온라인 본점 · 서울 강남</small></span>
         </header>
-        <div class="post-photo"><img src="/images/brand/character/together.webp" alt="검정 BBINGE FC 후드티를 입고 나란히 선 삥지와 삥맹" width="1200" height="1200" loading="lazy" /></div>
+        <div class="post-photo">
+          <div class="weather weather--scene" aria-hidden="true">{scenePetals.map((f) => (
+            <span style={`left:${f.left}%;--dx:${Math.round(f.dx / 3)}px;--spin:${f.spin}deg;animation-delay:-${f.delay}s;animation-duration:${(Number(f.dur) * 0.8).toFixed(2)}s`}><i style={`width:${Math.max(7, f.size - 2)}px;height:${Math.max(7, f.size - 2)}px;animation-duration:${f.sway}s`} /></span>
+          ))}</div>
+          <img class="stand stand--ji" src="/images/brand/character/bbingji-front.png" alt="검정 BBINGE FC 후드티를 입고 선 삥지" width="1254" height="1254" loading="lazy" />
+          <img class="stand stand--maeng" src="/images/brand/character/bbingmaeng-front.png" alt="검정 BBINGE FC 후드티를 입고 선 삥맹" width="1254" height="1254" loading="lazy" />
+        </div>
         <div class="post-actions" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20.4 4.6 13a4.6 4.6 0 0 1 6.5-6.5l.9.9.9-.9A4.6 4.6 0 0 1 19.4 13z" stroke-linejoin="round"/></svg>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-5A8 8 0 1 1 21 11.5z" stroke-linejoin="round"/></svg>
@@ -233,28 +251,24 @@ const characterSchema = {
   .profile-table td span+span{margin-top:7px}
   .profile-table td i{color:var(--bbfc-gray-1);font-size:15px;font-style:normal}
 
-  .post{position:relative;padding:64px 0 40px;display:grid;place-items:center;overflow:clip}
-  .post::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(201,119,47,.07),rgba(201,119,47,0) 70%)}
-  .post[data-season="spring"]::before{background:linear-gradient(180deg,rgba(224,143,170,.08),rgba(224,143,170,0) 70%)}
-  .post[data-season="summer"]::before{background:linear-gradient(180deg,rgba(49,130,246,.07),rgba(49,130,246,0) 70%)}
-  .post[data-season="winter"]::before{background:linear-gradient(180deg,rgba(120,150,190,.09),rgba(120,150,190,0) 70%)}
-  .weather{position:absolute;inset:0;pointer-events:none}
-  .weather span{position:absolute;top:-8%;display:block;animation-name:petal-fall;animation-timing-function:linear;animation-iteration-count:infinite}
-  .weather i{display:block;animation-name:petal-sway;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate}
+  .post{position:relative;padding:72px 0 48px;display:grid;place-items:center}
+  .weather{position:absolute;top:0;bottom:0;left:50%;width:100vw;margin-left:-50vw;overflow:clip;pointer-events:none}
+  .weather span{position:absolute;top:-10%;display:block;animation-name:petal-fall;animation-timing-function:linear;animation-iteration-count:infinite}
+  .weather i{display:block;animation-name:petal-sway;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate;opacity:var(--fade)}
   /* 가을: 낙엽꽃 */
-  .weather i{border-radius:0 62% 0 62%;background:#c9772f;opacity:.34}
+  .weather i{border-radius:0 62% 0 62%;background:#c9772f}
   .post[data-season="autumn"] .weather span:nth-child(3n) i{background:#a8552a}
   .post[data-season="autumn"] .weather span:nth-child(3n+1) i{background:#d9a05b}
   /* 봄: 벚꽃 */
-  .post[data-season="spring"] .weather i{border-radius:60% 0 60% 0;background:#e9a7bd;opacity:.4}
+  .post[data-season="spring"] .weather i{border-radius:60% 0 60% 0;background:#e9a7bd}
   .post[data-season="spring"] .weather span:nth-child(3n) i{background:#f2c4d3}
   /* 여름: 비꽃 */
-  .post[data-season="summer"] .weather i{width:2px!important;border-radius:2px;background:var(--bbfc-blue);opacity:.22}
-  .post[data-season="summer"] .weather span{animation-duration:3.2s!important}
+  .post[data-season="summer"] .weather i{width:2px!important;border-radius:2px;background:var(--bbfc-blue)}
+  .post[data-season="summer"] .weather span{animation-duration:3.4s!important}
   /* 겨울: 눈꽃 */
-  .post[data-season="winter"] .weather i{border-radius:50%;background:#9fb6d4;opacity:.42}
-  @keyframes petal-fall{from{transform:translateY(0) rotate(0)}to{transform:translateY(calc(100% + 120vh)) rotate(320deg)}}
-  @keyframes petal-sway{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+  .post[data-season="winter"] .weather i{border-radius:50%;background:#9fb6d4}
+  @keyframes petal-fall{from{transform:translate(0,0) rotate(0)}to{transform:translate(var(--dx,0),calc(100% + 130vh)) rotate(var(--spin,320deg))}}
+  @keyframes petal-sway{from{transform:translateX(calc(var(--sway,14px) * -1))}to{transform:translateX(var(--sway,14px))}}
   @media(prefers-reduced-motion:reduce){.weather{display:none}}
 
   .post-card{position:relative;z-index:1;width:min(100%,470px);border:1px solid var(--line);background:#fff}
@@ -264,8 +278,12 @@ const characterSchema = {
   .post-who{display:grid;gap:2px}
   .post-who b{font-size:15px;font-weight:700}
   .post-who small{color:var(--bbfc-gray-1);font-size:14px}
-  .post-photo{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bbfc-fill-2)}
-  .post-photo img{display:block;width:100%;height:auto}
+  /* 사진 칸은 정사각이며 배경은 흰색이다. 둘은 바닥에 나란히 서고 그 사이로 낙엽이 지나간다. */
+  .post-photo{position:relative;aspect-ratio:1;overflow:clip;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+  .post-photo .stand{position:absolute;bottom:6%;width:50%;height:auto;z-index:1}
+  .stand--ji{left:1%}
+  .stand--maeng{right:1%;width:50.5%}
+  .weather--scene{position:absolute;inset:0;left:0;width:100%;margin:0;z-index:0}
   .post-actions{display:flex;gap:16px;padding:12px 14px 4px;color:var(--bbfc-ink)}
   .post-actions svg{width:25px;height:25px}
   .post-body{padding:4px 14px 18px}

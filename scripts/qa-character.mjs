@@ -34,7 +34,7 @@ try {
       smallText: [...document.querySelectorAll('.character-page *')].filter(el => [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim()) && parseFloat(getComputedStyle(el).fontSize) < 14).length,
     }));
     assert.equal(data.overflow, false, `page overflow at ${width}`);
-    assert.equal(data.images, 6, '이미지 6장');
+    assert.equal(data.images, 7, '이미지 7장');
     assert.equal(data.broken, 0, '깨진 이미지');
     assert.equal(data.footerLink, true, '푸터 캐릭터 링크');
     assert.equal(data.smallText, 0, '14px 미만 글자');
