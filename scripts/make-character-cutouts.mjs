@@ -137,6 +137,35 @@ for (const name of FILES) {
     }
   }
 
+  // ⑤ 발 사이와 발밑에 남는 접지 그림자. 이미 비어 있는 곳에서 번져 들어가며 지운다.
+  //    번지는 조건은 "색기 18 이하"이고 따뜻한 다리에서 멈춘다. 연결을 따르므로 다리 안쪽 하이라이트는
+  //    바깥과 이어져 있지 않아 파이지 않는다. 줄 단위로 지우던 앞 방식은 다리를 물어뜯었다(2026-09-24).
+  if (SHADOWLESS.has(name)) {
+    const zone = Math.floor(H * 0.86);
+    const seen = new Uint8Array(W * H);
+    const stack = [];
+    for (let y = zone; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (data[i * 4 + 3] === 0 && !seen[i]) { seen[i] = 1; stack.push(i); }
+      }
+    }
+    while (stack.length) {
+      const i = stack.pop();
+      const x = i % W, y = (i - x) / W;
+      for (const j of [x > 0 ? i - 1 : -1, x < W - 1 ? i + 1 : -1, y > zone ? i - W : -1, y < H - 1 ? i + W : -1]) {
+        if (j < 0 || seen[j]) continue;
+        if (data[j * 4 + 3] !== 0) {
+          const r = data[j * 4], g = data[j * 4 + 1], b = data[j * 4 + 2];
+          if (Math.max(r, g, b) - Math.min(r, g, b) > 18) continue;
+        }
+        seen[j] = 1;
+        data[j * 4 + 3] = 0;
+        stack.push(j);
+      }
+    }
+  }
+
   const out = join(dir, `${name}.png`);
   await sharp(data, { raw: { width: W, height: H, channels: 4 } }).png({ compressionLevel: 9 }).toFile(out);
   console.log(`${name}.png ${W}x${H}`);
