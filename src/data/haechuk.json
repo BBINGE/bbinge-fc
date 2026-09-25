@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-24T18:12:46.968Z",
+  "updatedAt": "2026-09-25T16:35:46.147Z",
   "days": {
-    "yesterday": "2026-09-24",
-    "today": "2026-09-25",
-    "tomorrow": "2026-09-26"
+    "yesterday": "2026-09-25",
+    "today": "2026-09-26",
+    "tomorrow": "2026-09-27"
   },
   "summary": {
-    "today": "2026-09-25",
+    "today": "2026-09-26",
     "todayMatches": 0
   },
   "competitions": [
@@ -462,7 +462,7 @@
           "ko": "주앙 페드루",
           "original": "João Pedro",
           "dob": "2001-09-26",
-          "age": 24,
+          "age": 25,
           "position": "공격수",
           "nationality": "브라질"
         },
@@ -644,7 +644,7 @@
           "ko": "주앙 페드루",
           "original": "João Pedro",
           "dob": "2001-09-26",
-          "age": 24,
+          "age": 25,
           "position": "공격수",
           "nationality": "브라질"
         },
